@@ -24,13 +24,13 @@ tags:
 uri: dom/TextRange/boundingWidth
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the width of the rectangle that bounds the TextRange object
 
 Property of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 var result = textRange.boundingWidth;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 the width of the bounding rectangle, in pixels.
 
-## <span>Examples</span>
+## Examples
 
 This example retrieves the value of the **boundingWidth** property for the given text area.
 
@@ -67,4 +67,4 @@ function boundDim(oObject)
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/boundingTop.htm)
 
-### <span>Syntax</span>
+### Syntax

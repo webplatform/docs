@@ -19,23 +19,23 @@ tags:
 uri: apis/file/FileReader/abort
 
 ---
-## <span>Summary</span>
+## Summary
 
 The abort method is used to aborts the read operation. Upon return, the dom/Element/readyState will be DONE.
 
 Method of [apis/file/FileReader](/apis/file/FileReader)[apis/file/FileReader](/apis/file/FileReader)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  FileReader.abort();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var instanceOfFileReader = new FileReader();
@@ -44,11 +44,11 @@ var instanceOfFileReader = new FileReader();
 instanceOfFileReader.abort();
 ```
 
-## <span>Notes</span>
+## Notes
 
 The **abort** method is used to interrupt an asynchronous read operation that is in progress on an onloadend event, sets the state of the [dom/Element/readyState](/dom/Element/readyState) property of the FileReader to `DONE`, and sets result property to `null`.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API Specification](http://www.w3.org/TR/FileAPI/)
 :   Last Call Working Draft 12 September 2013

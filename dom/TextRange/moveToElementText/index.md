@@ -24,28 +24,28 @@ tags:
 uri: dom/TextRange/moveToElementText
 
 ---
-## <span>Summary</span>
+## Summary
 
 Moves the text range so that the start and end positions of the range encompass the text in the given element.
 
 Method of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = textRange.moveToElementText(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>element</span>
+### element
 
  Data-type
 :   any
 
 **Object** that specifies the element object to move to.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -55,6 +55,6 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks

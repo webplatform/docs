@@ -16,31 +16,31 @@ uri: svg/elements/feDistantLight
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.14
 
-### <span>Members</span>
+### Members
 
 The **SVGFEDistantLightElement** object has these properties:
 
 -   [**azimuth**](/svg/properties/azimuth): Gets the direction angle for the light source on the xy plane (clockwise).
 -   [**elevation**](/svg/properties/elevation): Gets the direction angle for the light source from the xy plane towards the z-axis.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 

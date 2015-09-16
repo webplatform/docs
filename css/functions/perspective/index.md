@@ -11,11 +11,11 @@ tags:
 uri: css/functions/perspective
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines how many pixels away a 3D element is placed from the viewer. This allows you to change the apparent perspective of how 3D elements are viewed.
 
-## <span>Examples</span>
+## Examples
 
 The following code snippet is an example of the **perspective** function in use. When applied to a square blue [**div**](/html/elements/div) element along with the [**translateZ**](/css/functions/translateZ()) function (which enables the specified element to appear to have moved away from the viewer), it has the effect illustrated in the image. (The light-blue square indicates the original position of the transformed element.)
 
@@ -25,30 +25,30 @@ div {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The value must be greater than 0 and is given in pixels.
 
 For more information about transformation matrices, see [Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246), in the [CSS3 Transforms](http://go.microsoft.com/fwlink/?LinkID=223145) specification. The **perspective** function is often necessary for other 3-D transformation functions to have a visible effect.
 
-### <span>Syntax</span>
+### Syntax
 
 **perspective** `( <length> )`
 
-### <span>Parameters</span>
+### Parameters
 
 *length*
 :   Value in pixels that specifies a perspective projection matrix. This value is expressed as a number followed by "px".
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Transforms Module, Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223145), Section 13.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`

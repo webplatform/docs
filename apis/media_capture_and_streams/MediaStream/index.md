@@ -13,11 +13,11 @@ tags:
 uri: 'apis/media capture and streams/MediaStream'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MediaStream interface is used to represent streams of media data, typically (but not necessarily) of audio and/or video content, e.g. from a local camera. Each MediaStream object can contain zero or more tracks, in particular audio and video tracks. And each track in a MediaStream object has a corresponding MediaStreamTrack object.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -37,11 +37,11 @@ API Name
 [onremovetrack](/apis/media_capture_and_streams/MediaStream/onremovetrack)
 :   Handles the removetrack event when fired on the MediaStream object.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -55,7 +55,7 @@ API Name
 [ended](/apis/media_capture_and_streams/ended)
 :   This event is fired when a MediaStream is stopped.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Media Capture and Streams](http://www.w3.org/TR/mediacapture-streams/)
 :   W3C Working Draft

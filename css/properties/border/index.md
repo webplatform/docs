@@ -22,11 +22,11 @@ tags:
 uri: css/properties/border
 
 ---
-## <span>Summary</span>
+## Summary
 
 Shorthand property that defines the different properties of all four sides of an element's border in a single declaration. It can be used to set border-width, border-style and border-color, or a subset of these.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `medium none currentColor`
@@ -52,12 +52,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `border: <border-width> OR <border-style> OR <border-color>`
 -   `border: inherit`
 
-## <span>Values</span>
+## Values
 
 inherit
 :   When the value is set to `inherit`, the element will inherit the border values set on its parent.
@@ -71,7 +71,7 @@ inherit
 
 **\<border-color\>**: This takes any valid CSS color. See the [border-color](/css/properties/border-color) property. The initial value is `currentColor`.
 
-## <span>Examples</span>
+## Examples
 
 A simple example showing multiple `<div>`s, identical in style except that they have different `border` properties applied to them.
 
@@ -132,7 +132,7 @@ p {
 
 [View live example](http://code.webplatform.org/gist/5534182)
 
-## <span>Usage</span>
+## Usage
 
      * It is usual to first use the border shorthand property to set the state of a default box, and then override it where needed, using the more specific shorthand properties border-width, border-style, and border-color. Each of these properties may take up to four values, respective to the sides of the box.
 
@@ -141,13 +141,13 @@ p {
 
 `border-top-width`, `border-top-style`, `border-top-color`, `border-right-width`, `border-right-style`, `border-right-color`, `border-bottom-width`, `border-bottom-style`, `border-bottom-color`, `border-left-width`, `border-left-style`, `border-left-color`.
 
-## <span>Notes</span>
+## Notes
 
 -   The initial value of `border` is the concatenated result of the initial values of each component.
 -   A `border-bottom` can be used as a divider between vertically laid out items, such as navigation menu items, or a new section. Authors will sometimes use this technique rather than inserting an `<hr/>` element in the HTML.
 -   Another common technique is to use `border-bottom` properties for link underlining rather than `text-decoration: underline`, as it affords the designer more control.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 3](http://www.w3.org/TR/css3-background/#borders)
 :   Candidate Recommendation
@@ -158,11 +158,11 @@ p {
 [CSS Level 1](http://www.w3.org/TR/CSS1/#border)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Border</span>
+#### Border
 
 -   **border**
 
@@ -222,7 +222,7 @@ p {
 
 -   [border-width](/css/properties/border-width)
 
-#### <span>Box Model</span>
+#### Box Model
 
 -   **border**
 
@@ -264,7 +264,7 @@ p {
 
 -   [min-width](/css/properties/min-width)
 
-### <span>Related pages</span>
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

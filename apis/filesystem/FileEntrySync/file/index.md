@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/FileEntrySync/file
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a File that represents the current state of the file that this FileEntrySync represents.
 
@@ -30,21 +30,21 @@ Returns a File that represents the current state of the file that this FileEntry
 
 Method of [apis/filesystem/FileEntrySync](/apis/filesystem/FileEntrySync)[apis/filesystem/FileEntrySync](/apis/filesystem/FileEntrySync)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = FileEntrySync.file();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 File
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

@@ -20,11 +20,11 @@ tags:
 uri: css/properties/mask
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property is shorthand for setting mask-image, mask-mode, mask-repeat, mask-position, mask-clip, mask-origin, mask-composite and mask-size. Omitted values are set to their original properties' initial values.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `See individual properties.`
@@ -50,18 +50,18 @@ Animatable
 Percentages
 :   See individual properties.
 
-## <span>Syntax</span>
+## Syntax
 
 -   `mask: <mask-layer>`
 
-## <span>Values</span>
+## Values
 
 \<mask-layer\>
 :   Where
 
 ` <mask-layer> = <mask-reference> <masking-mode>?`
 
-## <span>Examples</span>
+## Examples
 
 The url points to a \<mask\> element that is used as mask.
 
@@ -79,7 +79,7 @@ img {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Masking Level 1](http://www.w3.org/TR/css-masking-1/)
 :   W3C Last Call Working Draft

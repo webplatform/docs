@@ -13,7 +13,7 @@ tags:
 uri: css/fonts
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets font-style, font-variant, font-weight, font-size/line-height, font-family properties in one declaration.
 
@@ -21,21 +21,21 @@ The order is obligatory, not all options must be set.
 
 *font-size* and *font-family* are required options.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      p {
      font: italic 1.2em/1.5 Georgia;
@@ -47,7 +47,7 @@ The order is obligatory, not all options must be set.
 
      em { font: bold 1.2em/2ex Arial; }
 
-### <span>In this section</span>
+### In this section
 
 |Property|Description|
 |:-------|:----------|
@@ -61,11 +61,11 @@ The order is obligatory, not all options must be set.
 |[**font-variant**](/css/fonts/font-variant)|Gets or sets whether the text of the object is in small capital letters.|
 |[**font-weight**](/css/properties/font-weight)|Gets of sets the weight of the font of the object.|
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 

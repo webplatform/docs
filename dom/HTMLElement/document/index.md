@@ -22,7 +22,7 @@ uri: dom/HTMLElement/document
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.document;
@@ -31,4 +31,4 @@ element.document = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax

@@ -14,11 +14,11 @@ tags:
 uri: dom/HTMLMediaError
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a media element (audio or video) error.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -26,21 +26,21 @@ API Name
 [code](/dom/HTMLMediaError/code)
 :   Returns the current **HTMLMediaError** code or null if no error has occurred.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Retrieve the actual error code by using the [**code**](/dom/HTMLMediaError/code) property.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

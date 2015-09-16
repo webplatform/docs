@@ -23,13 +23,13 @@ tags:
 uri: dom/Range/commonAncestorContainer
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the deepest node in which two boundary points exist.
 
 Property of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 var rangeAcestor = range.commonAncestorContainer;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 Node that contains both the Range.startContainer and Range.endContainer nodes.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var range = document.createRange();
@@ -53,15 +53,15 @@ range.setEnd(endNode,endOffset);
 rangeAncestor = range.commonAncestorContainer;
 ```
 
-### <span>Syntax</span>
+### Syntax
 
 rangeAncestor = range.commonAncestorContainer;
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-range-commonancestorcontainer)
 :   Living Standard

@@ -26,13 +26,13 @@ tags:
 uri: css/cssom/style
 
 ---
-## <span>Summary</span>
+## Summary
 
 The style attribute of an element makes it possible to directly apply CSS-styles to that specific element.
 
 Inherits from [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -40,17 +40,17 @@ API Name
 [type](/css/cssom/style/type)
 :
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from CSSStyleDeclaration</span>
+## Inherited from CSSStyleDeclaration
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -88,7 +88,7 @@ API Name
 [width](/css/cssom/properties/width)
 :   Sets the width of an element.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -108,11 +108,11 @@ API Name
 [msPutPropertyEnabled](/css/cssom/methods/msPutPropertyEnabled)
 :   Non standard. Sets a property as enabled or disabled.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **style** object to set the document body text font to Verdana.
 
@@ -145,42 +145,42 @@ div1.style.cssText += (';' + div2.style.cssText);
 </SCRIPT>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Inline styles are CSS assignments that you apply directly to individual HTML elements using the [**STYLE**](/html/attributes/STYLE_html_attribute) attribute. Use the **style** object to examine these assignments and to make new assignments or change existing ones. To retrieve the **style** object, apply the **style** keyword to an `element` object. To retrieve the current setting for an inline style, apply the corresponding **style** property to the **style** object. The **style** object does not provide access to the style assignments in style sheets. To obtain information about styles in style sheets, use the [**styleSheets**](/css/cssom/styleSheets) collection to access to the individual style sheets defined in the document. The following properties are not available when the [**rule**](/css/cssom/rule) object accesses the **style** object: [**posHeight**](/css/cssom/properties/posHeight), [**posWidth**](/css/cssom/properties/posWidth), [**posTop**](/css/cssom/properties/posTop), [**posLeft**](/css/cssom/properties/posLeft), [**pixelHeight**](/css/cssom/properties/pixelHeight), [**pixelWidth**](/css/cssom/properties/pixelWidth), [**pixelTop**](/css/cssom/properties/pixelTop), and [**pixelLeft**](/css/cssom/properties/pixelLeft). To change or clear multiple style properties simultaneously, use this object with the [**cssText**](/css/cssom/styleSheet/cssText) property. For example, to change the font color and background color of a **DIV** element, you could use the following code:
 
     <DIV onclick="this.style.cssText = 'color:red;background-color:blue;border:5px solid black;'">
     Click this DIV to change style properties.</DIV>
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Members</span>
+### Members
 
 The **style** object has these types of members:
 
 -   [\#methods Methods]
 -   [\#properties Properties]
 
-#### <span>Methods</span>
+#### Methods
 
 The **style** object has these methods.
 
 {
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Style Attributes](http://www.w3.org/TR/css-style-attr/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 

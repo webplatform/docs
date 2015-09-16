@@ -28,22 +28,22 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The optional *x*, *y*, *width*, *height* parameters on the new value are numeric values that indicate the subregion of the container element's user space where access to the background image is allowed to happen. These parameters enable the SVG user agent potentially to allocate smaller temporary image buffers than the default values.
 
-### <span>Syntax</span>
+### Syntax
 
     enable-background: accumulate |' new [ x y width height ]'? | inherit
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.6
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)

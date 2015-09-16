@@ -18,32 +18,32 @@ tags:
 uri: apis/geolocation/Geolocation/clearWatch
 
 ---
-## <span>Summary</span>
+## Summary
 
 Stops a specific watch process.
 
 Method of [apis/geolocation/Geolocation](/apis/geolocation/Geolocation)[apis/geolocation/Geolocation](/apis/geolocation/Geolocation)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  Geolocation.clearWatch(watchId);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>watchId</span>
+### watchId
 
  Data-type
 :   unsigned long
 
  The ID of the watch operation to cancel. This value is returned by the **watchPosition** method.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 geoLoc = navigator.geolocation;
@@ -51,11 +51,11 @@ watchID = geoLoc.watchPosition(successCallback, errorHandler, options);
 geoLoc.clearWatch(watchID);
 ```
 
-## <span>Notes</span>
+## Notes
 
 If the *watchId* parameter does not correspond to any watch process started by a previous call to the **watchPosition** method, this method returns and no further action is taken. Otherwise, the watch process identified by *watchId* is immediately stopped and no further callbacks must be invoked.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

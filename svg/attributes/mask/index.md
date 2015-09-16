@@ -28,23 +28,23 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **mask** is used to reference a [**mask**](/svg/elements/mask) element in SVG.
 
-### <span>Syntax</span>
+### Syntax
 
     mask:  funciri | none | inherit
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Clipping, Masking and Compositing](http://go.microsoft.com/fwlink/p/?linkid=199810), Section 14.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)

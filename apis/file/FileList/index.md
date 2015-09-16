@@ -13,11 +13,11 @@ tags:
 uri: apis/file/FileList
 
 ---
-## <span>Summary</span>
+## Summary
 
 FileList is an object which represents an array of individually selected files from the underlying system.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -25,7 +25,7 @@ API Name
 [length](/apis/file/FileList/length)
 :   **length** returns the number of files in the FileList object. If there are no files, this attribute must return 0.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -33,11 +33,11 @@ API Name
 [item](/apis/file/FileList/item)
 :   **item** returns the *index*th File object in the FileList. If there is no *index*th File object in the FileList, then this method must return null.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 iterates over all the files selected by the user using an input element
 
@@ -61,7 +61,7 @@ for (var i = 0; i < files.length; i++) {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft

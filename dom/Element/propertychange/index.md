@@ -14,7 +14,7 @@ uri: dom/Element/propertychange
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -68,7 +68,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example demonstrates how to use the **onpropertychange** event to determine the name and value of an updated property.
 
@@ -122,9 +122,9 @@ function Results(){
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onpropertychangeEX.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **onpropertychange** event fires when properties of an object, expando, or style sub-object change. To retrieve the name of the changed property, use the **TransitionEvent** object's [**propertyName**](/dom/TransitionEvent/propertyName) property. This property returns a read-only string of the name of the property that has changed. In the case of Cascading Style Sheets (CSS) properties, the property name is prefixed with `style`. For example, if the CSS property [**pixelLeft**](/css/cssom/properties/pixelLeft) is altered, the value of `window.event.propertyName` is **style.left**. By contrast, if the non-CSS property [**name**](/html/attributes/name_(frames)) is altered, the value of `window.event.propertyName` is **name**. When the **onpropertychange** event fires, the **srcElement** property of the **event** object is set to the object whose property has changed. **Note**  Changing the [**innerText**](/dom/HTMLElement/innerText) or [**innerHTML**](/dom/HTMLElement/innerHTML) of child elements will not cause the **onpropertychange** event to fire for the parent element. Sends notification when a property changes. To invoke this event, do one of the following:
 
@@ -157,13 +157,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

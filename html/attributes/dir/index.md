@@ -20,7 +20,7 @@ todo_broken_links:
 uri: html/attributes/dir
 
 ---
-## <span>Summary</span>
+## Summary
 
 Global attribute. Specifies the element’s text directionality.
 
@@ -46,7 +46,7 @@ Internationalization topics related to the `dir` attribute:
 -   [Mixing text direction inline](http://www.w3.org/International/techniques/authoring-html#inline)
 -   [Overriding the Unicode bidirectional algorithm](http://www.w3.org/International/techniques/authoring-html#bdo)
 
-## <span>Examples</span>
+## Examples
 
 For pages in Arabic, Hebrew, Persian, Thaana, Urdu, etc. set the default direction of the page to right-to-left by including dir in the html tag.
 
@@ -65,9 +65,9 @@ To make the exclamation mark appear to the left of the citation, surround the ci
 
 [View live example](http://www.w3.org/International/php/examples/generate?data=bidi&test=18)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Unless explicitly set, the **dir** property has no return value when accessed in script. The property does not affect alphanumeric characters in Latin documents. These characters always render **ltr**. However, the property does affect punctuation characters in Latin documents. For example, punctuation marks such as periods and question marks render to the left of a sentence when the [**dir**](/w/index.php?title=dom/properties/dir_(Document_object)&action=edit&redlink=1) property is set to **rtl**. The real benefit of this attribute is when using **rtl** languages such as Arabic and Hebrew. These can be some of the most challenging languages to write **HTML** with especially because html in itself is a left-to-right programming language.
 
@@ -79,11 +79,11 @@ For more information see the following links:
 -   [Mixing text direction inline](http://www.w3.org/International/techniques/authoring-html#inline)
 -   [Handling parentheses and other mirrored characters](http://www.w3.org/International/techniques/authoring-html#mirrored)
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`
 -   `abbr`

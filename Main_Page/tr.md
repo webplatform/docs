@@ -87,49 +87,49 @@ translations:
 uri: 'Main Page/tr'
 
 ---
-## <span>Özet</span>
+## Özet
 
 Web Platform Belgeleri, web geliştiricilerinin yararlanabileceği kapsamlı ve yetkin bir belge kaynağı olmak amacıyla topluluk tarafından yönetilen bir sitedir.
 
-## <span>Web geliştirme belgelerine gözatın</span>
+## Web geliştirme belgelerine gözatın
 
-### <span>[Yeni Başlayanlara](/beginners)</span>
+### [Yeni Başlayanlara](/beginners)
 
 Web geliştirmede yeni olanlar için giriş materyalleri.
 
-### <span>[Genel Web Kavramı](/concepts)</span>
+### [Genel Web Kavramı](/concepts)
 
 Conceptual and tutorial articles on topics such as how the web works, information architecture, typography, and web design.
 
-### <span>[HTML](/html)</span>
+### [HTML](/html)
 
 Conceptual, tutorial, and reference materials for the main markup language of the web.
 
-### <span>[CSS](/css)</span>
+### [CSS](/css)
 
 Conceptual, tutorial, and reference materials for Cascading style sheets (CSS).
 
-### <span>[Erişilebilirlik](/concepts/accessibility)</span>
+### [Erişilebilirlik](/concepts/accessibility)
 
 Patterns, practices and business cases for making the web work for people with a diverse range of abilities.
 
-### <span>[JavaScript](/javascript)</span>
+### [JavaScript](/javascript)
 
 Tutorial and reference materials for JavaScript, the web's client-side scripting language; Includes reference materials for 3rd party JavaScript libraries.
 
-### <span>[DOM](/dom)</span>
+### [DOM](/dom)
 
 Tutorial and reference materials for the Document Object Model (DOM) events and methods.
 
-### <span>[SVG](/svg)</span>
+### [SVG](/svg)
 
 Tutorial and reference materials for Scalable Vector Graphics (SVG), an XML markup language for describing two-dimensional vector graphics.
 
-### <span>[APIs](/apis)</span>
+### [APIs](/apis)
 
 Reference materials for JavaScript APIs from appcache to xhr.
 
-## <span>Web Platform Docs Features</span>
+## Web Platform Docs Features
 
 Web Platform Docs is still in alpha, but you can already find lots of valuable content on the site, including:
 
@@ -139,14 +139,14 @@ Web Platform Docs is still in alpha, but you can already find lots of valuable c
 
 In the future, Web Platform Docs will include even more content for you to explore: live code examples, educators' resources and much more. To get there faster, we’d like to invite you to join us, and contribute your knowledge.
 
-## <span>Web Platform Belgelerine Katkıda Bulunun</span>
+## Web Platform Belgelerine Katkıda Bulunun
 
 Wir würden über Ihre Hilfe bei der Verbesserung der Web Platform Docs freuen! Selbst die geringste Unterstützung kann erhebliche Auswirkungen auf die Seite haben; von der Alarmierung über Fehler anderen Entwickler in unserer Dokumentation, über die Beseitigung dieser Fehler, die Portierung von bestehenden Artikeln oder sogar der Erstellung eines komplett neuen Artikels. Um mehr zu erfahren, lesen Sie bitte unser [Editor-Handbuch.](/WPD:Editors_Guide)
 
 -   Für Datei-Fehler auf webplatform, nutzen Sie unsere [Projekt Management Seite](http://project.webplatform.org). Lesen sie unsere [Bug-Annahme Seite](http://docs.webplatform.org/wiki/WPD:Filing_Bugs) für mehr Informationen.
 -   Falls sie Fragen zu webplatform.org haben, lesen sie bitte zunächst unsere [FAQ](/WPD:FAQ).
 
-## <span>Temasta Kalın</span>
+## Temasta Kalın
 
 -   Werden Sie Mitglied unserer [Q&A](http://talk.webplatform.org/forums/)
 -   Chaten Sie mit unseren Entwicklern im IRC: Wir sind auf irc.freenode.org, im \#webplatform Channel.
@@ -155,6 +155,6 @@ Wir würden über Ihre Hilfe bei der Verbesserung der Web Platform Docs freuen! 
 -   Nutzen Sie unser [Logo](http://webplatform.org/logo) und verlinken Sie zurück auf unsere Seite
 -   Kommen Sie zu unseren [Events](/WPD:Community/Community_Events), wie Doc Sprints.
 
-## <span>Site Politikası</span>
+## Site Politikası
 
 Der Inhalt des Web Platform Docs Wiki ist verfügbar unter einer [Creative Commons Attribution (CC-BY) Lizenz](/Template:CC-by-3.0), sofern nicht anders vermerkt. Weitere Informationen über unsere Website-Richtlinien finden Sie unter [Copyright](/WPD:Copyright) und [Datenschutz](/WPD:Privacy), sowie unsere allgemeinen [Richtlinien-Seite](/WPD:Policy).

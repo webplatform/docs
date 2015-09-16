@@ -23,13 +23,13 @@ tags:
 uri: dom/Window/innerHeight
 
 ---
-## <span>Summary</span>
+## Summary
 
 Height (in pixels) of the browser window viewport including, if rendered, the horizontal scrollbar.
 
 Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 var height = window.innerHeight;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 Viewport height in CSS pixels
 
-## <span>Examples</span>
+## Examples
 
 Assumes a frameset
 
@@ -57,17 +57,17 @@ var intOuterFramesetHeight = top.innerHeight; /* will return the height
 of the viewport of the outermost frameset */
 ```
 
-## <span>Notes</span>
+## Notes
 
 **Graphical example** The following figure shows the difference between outerHeight and innerHeight.
 
 ![screenshot showing difference between innerHeight and outerHeight](/assets/public/8/88/FirefoxInnerVsOuterHeight2.png)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 

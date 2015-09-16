@@ -22,28 +22,28 @@ tags:
 uri: apis/file/FileList/item
 
 ---
-## <span>Summary</span>
+## Summary
 
 item returns the indexth File object in the FileList. If there is no indexth File object in the FileList, then this method must return null.
 
 Method of [apis/file/FileList](/apis/file/FileList)[apis/file/FileList](/apis/file/FileList)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = FileList.item(index);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>index</span>
+### index
 
  Data-type
 :   unsigned long
 
  The [FileList](/apis/file/FileList) index (starting from 0) of the [File](/apis/file/File) object to return.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -53,7 +53,7 @@ This method can return one of these values.
 
 S\_OK
 
-## <span>Examples</span>
+## Examples
 
 This example lets you select one or more files, then uses the filelist length to report each filelist item's name and last modified date/time.
 
@@ -73,14 +73,14 @@ function shownd() {
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The first [**File**](/apis/file/File) object in a [**list of files**](/apis/file/FileList) called `selectedFiles` can be accessed by either of the following methods:
 
 -   `selectedFiles.item(0)`
 -   `selectedFiles[0]`
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft

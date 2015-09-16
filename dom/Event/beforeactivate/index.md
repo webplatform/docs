@@ -24,7 +24,7 @@ uri: dom/Event/beforeactivate
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -80,9 +80,9 @@ Default action
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Each document may have up to one active element. Set the active element with the [**setActive**](/w/index.php?title=dom/methods/setActive&action=edit&redlink=1) or [**focus**](/w/index.php?title=dom/methods/focus&action=edit&redlink=1) methods. Using the **setActive** method has no effect on document focus. Using the **focus** method on an individual element causes the element to gain focus and become the active element. Using the [**focus**](/w/index.php?title=dom/methods/focus&action=edit&redlink=1) method on a document that does not have the focus moves the document to the front of the display. Additionally, the document's active element gains focus. For a given display, only one element has focus at any given time. Striking a key directly affects only the element with focus. Events fired by that keystroke may be scripted to affect other documents and child elements. With Microsoft Internet Explorer 5.5 and later, focus on a [**Document**](/dom/Document), and the [**active element**](/w/index.php?title=dom/properties/activeElement&action=edit&redlink=1) of a **document** can be managed separately. With Microsoft Internet Explorer 6 and later, use the **onbeforeactivate** event to cancel setting an element as active. Canceling an element's **onbeforeactivate** event has three different behaviors, depending on the action which fired the event.
 
@@ -141,20 +141,20 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLInputImageEvents2**
 -   **HTMLDocumentEvents**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`
 -   `address`

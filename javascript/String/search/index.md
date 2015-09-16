@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/search
 
 ---
-## <span>Summary</span>
+## Summary
 
 Finds the first substring match in a regular expression search.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,11 +26,11 @@ Finds the first substring match in a regular expression search.
 **rgExp**
 :   Required. An instance of a **Regular Expression** object containing the regular expression pattern and applicable flags.
 
-## <span>Return Value</span>
+## Return Value
 
 If a match is found, the **search** method returns an integer value that indicates the offset from the beginning of the string where the first match occurred. If no match is found, it returns -1.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **search** method.
 
@@ -50,13 +50,13 @@ var src = "is but a Dream within a dream";
  // 9
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 You can also set the **i** flag that causes the search to be case-insensitive.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [exec Method (Regular Expression)](/javascript/regular_expression/exec)
 -   [match Method (String)](/javascript/String/match)

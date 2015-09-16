@@ -22,7 +22,7 @@ uri: dom/HTMLObjectElement/archive
 
 Property of [dom/HTMLObjectElement](/dom/HTMLObjectElement)[dom/HTMLObjectElement](/dom/HTMLObjectElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.archive;
@@ -31,11 +31,11 @@ element.archive = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `object`
 -   `onreadystatechange`

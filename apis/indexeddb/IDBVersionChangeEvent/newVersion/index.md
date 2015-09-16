@@ -28,13 +28,13 @@ todo_broken_links:
 uri: apis/indexeddb/IDBVersionChangeEvent/newVersion
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the new version of the database, which is the version specified by the open request.
 
 Property of [apis/indexeddb/IDBVersionChangeEvent](/apis/indexeddb/IDBVersionChangeEvent)[apis/indexeddb/IDBVersionChangeEvent](/apis/indexeddb/IDBVersionChangeEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -42,7 +42,7 @@ Property of [apis/indexeddb/IDBVersionChangeEvent](/apis/indexeddb/IDBVersionCha
 var result = element.newVersion;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
@@ -50,8 +50,8 @@ A number corresponding to the value specified in the [IDBFactory.open](/apis/ind
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `IDBVersionChangeEvent`

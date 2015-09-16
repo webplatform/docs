@@ -21,14 +21,14 @@ uri: dom/HTMLTableElement/tBodies
 ---
 Property of [dom/HTMLTableElement](/dom/HTMLTableElement)[dom/HTMLTableElement](/dom/HTMLTableElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.tBodies;
 element.tBodies = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to put text in the first cell in the first row of the first **tBody** object in the [**table**](/html/elements/table). For each **table**, an initial **tBody** object is synthesized in the HTML tree even if a **tBody** element does not exist in the HTML source.
 
@@ -37,20 +37,20 @@ document.all.oTable.tBodies[0].rows[0].cells[0].innerText =
    "Text for the first table cell";
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This collection can be indexed by name ([**ID**](/html/attributes/id)). If duplicate names are found, a collection of those named items is returned. Collections of duplicate names must be referenced subsequently by ordinal position.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `table`

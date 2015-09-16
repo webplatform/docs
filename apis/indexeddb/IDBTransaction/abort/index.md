@@ -20,23 +20,23 @@ tags:
 uri: apis/indexeddb/IDBTransaction/abort
 
 ---
-## <span>Summary</span>
+## Summary
 
 The abort method is used to abort a transaction. Once called, the abort method follows the steps to abort a transaction
 
 Method of [apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)[apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  transaction.abort();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var dbOpenRequest = window.indexedDB.open("BookShop1");
@@ -55,11 +55,11 @@ dbOpenRequest.onsuccess = function (event) {
 
 [View live example](http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Abort%20Transaction&)
 
-## <span>Usage</span>
+## Usage
 
      If the transaction is finished, a DOMException of type InvalidStateError is thrown. Otherwise, the steps to abort a transactions are run.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

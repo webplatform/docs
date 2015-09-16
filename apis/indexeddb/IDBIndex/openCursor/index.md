@@ -21,21 +21,21 @@ tags:
 uri: apis/indexeddb/IDBIndex/openCursor
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a cursor.
 
 Method of [apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)[apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = .openCursor();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 

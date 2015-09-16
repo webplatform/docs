@@ -11,23 +11,23 @@ tags:
 uri: svg/properties/cy
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The arc of a [**circle**](/svg/elements/circle) element and the arc of an [**ellipse**](/svg/elements/ellipse) element begin at the 3 o'clock point on the associated radius and progress towards the 9 o'clock point. The starting point and direction of the arc are affected by the user space transform in the same manner as the geometry of the element.
 
 For an example of how the starting point and direction of an arc (for an ellipse) are affected by a user space transform, see the [**cx**](/svg/properties/cx) topic.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics (SVG) 1.1](http://go.microsoft.com/fwlink/p/?linkid=190918), Appendix M
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGCircleElement**](/svg/elements/circle)
 -   [**SVGEllipseElement**](/svg/elements/ellipse)

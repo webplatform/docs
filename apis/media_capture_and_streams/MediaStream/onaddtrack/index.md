@@ -25,22 +25,22 @@ tags:
 uri: 'apis/media capture and streams/MediaStream/onaddtrack'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Handles the addtrack event when fired on the MediaStream object.
 
 Property of [apis/media\_capture\_and\_streams/MediaStream](/apis/media_capture_and_streams/MediaStream)[apis/media\_capture\_and\_streams/MediaStream](/apis/media_capture_and_streams/MediaStream)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = stream.onaddtrack;
 stream.onaddtrack = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 EventHandler
 

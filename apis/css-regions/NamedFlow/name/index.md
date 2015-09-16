@@ -21,13 +21,13 @@ tags:
 uri: apis/css-regions/NamedFlow/name
 
 ---
-## <span>Summary</span>
+## Summary
 
 Name of flow, as specified by any element's flow-from or flow-into properties.
 
 Property of [apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)[apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,13 +35,13 @@ Property of [apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)[apis/css-r
 var id = flow.name;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 Name of flow, as specified by any element's [**flow-from**](/css/properties/flow-from) or [**flow-into**](/css/properties/flow-into) properties.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // Generic event handler adds/deletes regions to fit content. The 'name'
@@ -61,16 +61,16 @@ function modifyFlow(e) {
 document.getNamedFlows().namedItem('main').addEventListener('regionoversetchange', modifyFlow);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -128,7 +128,7 @@ document.getNamedFlows().namedItem('main').addEventListener('regionoversetchange
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

@@ -11,11 +11,11 @@ tags:
 uri: javascript/Date/setDate
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the numeric day-of-the-month value of the Date object using local time.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -27,7 +27,7 @@ Sets the numeric day-of-the-month value of the Date object using local time.
 **numDate**
 :   Required. A numeric value equal to the day of the month.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **setDate** method.
 
@@ -39,7 +39,7 @@ var date = new Date("12/15/1990");
  // Output (for the PST time zone): Sun Dec 30 00:00:00 PST 1990
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 To set the day-of-the-month value using Universal Coordinated Time (UTC), use the **setUTCDate** method.
 
@@ -47,9 +47,9 @@ If the value of numDate is greater than the number of days in the month, the dat
 
 The [setFullYear Method (Date)](/javascript/Date/setFullYear) can be used to set the year, month, and day of the month.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getDate Method (Date)](/javascript/Date/getDate)
 -   [setFullYear Method (Date)](/javascript/Date/setFullYear)

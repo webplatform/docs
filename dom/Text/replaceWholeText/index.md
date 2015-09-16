@@ -25,28 +25,28 @@ tags:
 uri: dom/Text/replaceWholeText
 
 ---
-## <span>Summary</span>
+## Summary
 
 Replaces the text of the current object.
 
 Method of [dom/Text](/dom/Text)[dom/Text](/dom/Text)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var textNode = textNode.replaceWholeText(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>text</span>
+### text
 
  Data-type
 :   String
 
  The text that replaces the existing text.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -54,13 +54,13 @@ A [**Text**](/dom/Text) node that received the replacement text. If the replaced
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Obsolete
 
 This feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

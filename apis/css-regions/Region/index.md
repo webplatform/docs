@@ -10,11 +10,11 @@ tags:
 uri: apis/css-regions/Region
 
 ---
-## <span>Summary</span>
+## Summary
 
 The Region interface is available for any element that serves as a CSS region, whose flow-from CSS specifies it displays content from a named flow.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -22,7 +22,7 @@ API Name
 [regionOverset](/apis/css-regions/Region/regionOverset)
 :   A [region's](/css/concepts/region) display state within a [region chain](/css/concepts/region_chain).
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -33,11 +33,11 @@ API Name
 [getRegionFlowRanges](/apis/css-regions/Region/getRegionFlowRanges)
 :   Returns a series of [**Range**](/dom/Range) objects that represent the [fragments](/css/concepts/fragment) of DOM content that currently flow into the [region](/css/concepts/region).
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 Determines if an element is currently set to behave as a region:
 
@@ -52,26 +52,26 @@ function isRegion(node) {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use the Region interface to determine whether any content flows through the region, what content currently displays, and any special CSS styling that applies.
 
 The interface is still available for elements that change back to non-region elements, when their [**flow-from**](/css/properties/flow-from) property becomes **none**.
 
-## <span>Notes</span>
+## Notes
 
 For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -129,7 +129,7 @@ For an overview of CSS Regions, see [Using CSS Regions to flow content through a
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

@@ -20,13 +20,13 @@ tags:
 uri: dom/ProgressEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 The ProgressEvent interface represents events measuring progress of an underlying process, like an HTTP request (for an XMLHttpRequest, or the loading of the underlying resource of an &lt;img&gt;, &lt;audio&gt;, &lt;video&gt;, &lt;style&gt; or &lt;link&gt;).
 
 Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -40,7 +40,7 @@ API Name
 [total](/dom/ProgressEvent/total)
 :   Specifies the total number of bytes to be transferred during the operation, if known.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -48,13 +48,13 @@ API Name
 [initProgressEvent](/dom/ProgressEvent/initProgressEvent)
 :   Initializes the value of a ProgressEvent object.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from Event</span>
+## Inherited from Event
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -86,7 +86,7 @@ API Name
 [type](/dom/Event/type)
 :   Gets the name of an event.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -103,7 +103,7 @@ API Name
 [stopPropagation](/dom/Event/stopPropagation)
 :   Prevents propagation of an event beyond the current target.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -186,7 +186,7 @@ API Name
 [finish](/dom/Event/finish)
 :
 
-## <span>Related specifications</span>
+## Related specifications
 
 [ProgressEvent](http://www.w3.org/TR/progress-events/)
 :   Recommendation

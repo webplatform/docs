@@ -14,11 +14,11 @@ tags:
 uri: dom/Event/error
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fires when an error occurs.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -72,7 +72,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following examples use the **onerror** event to handle run-time script errors and object load errors.
 
@@ -122,9 +122,9 @@ function fnLoadFail1(){
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onerrorEX1.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 To suppress the default Windows Internet Explorer error message for the **window** event, set the [**returnValue**](/dom/BeforeUnloadEvent/returnValue) property to **true** or simply return `true` in Microsoft JScript. The **onerror** event fires for run-time errors, but not for compilation errors. In addition, error dialog boxes raised by script debuggers are not suppressed by returning `true`. To turn off script debuggers, disable script debugging in Internet Explorer by choosing **Internet Options** from the **Tools** menu. Click the **Advanced** tab and select the appropriate check box(es). Displays the browser error message when a problem occurs and executes any error handling routine associated with the event. To invoke this event, do one of the following:
 
@@ -161,13 +161,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLDocumentEvents4**
 -   **HTMLElementEvents4**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

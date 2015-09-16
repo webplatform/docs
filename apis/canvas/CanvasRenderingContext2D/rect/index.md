@@ -22,49 +22,49 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/rect
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a new subpath containing just the four points (x, y), (x+w, y), (x+w, y+h), (x, y+h), with those four points connected by straight lines, then marks the subpath as closed. It then creates a new subpath with the point (x, y) as the only point in the subpath.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.rect(x, y, w, h);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
+### x
 
  Data-type
 :   Number
 
  The x-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 
-### <span>y</span>
+### y
 
  Data-type
 :   Number
 
  The y-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 
-### <span>w</span>
+### w
 
  Data-type
 :   Number
 
  The width, in pixels, of the rectangle in relation to the coordinates of the canvas.
 
-### <span>h</span>
+### h
 
  Data-type
 :   Number
 
  The height, in pixels, of the rectangle in relation to the coordinates of the canvas.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -72,7 +72,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
@@ -85,11 +85,11 @@ ctxt.stroke();
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The *rect* method creates a closed path for the rectangle and then starts a new subpath at the point (*x*, *y*). You can fill the rectangle by using the *fillStyle* property and the *fill* method.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

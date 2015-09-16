@@ -21,13 +21,13 @@ tags:
 uri: 'apis/web animations/AnimationTimingReadOnly/duration'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The iteration duration which is a real number greater than or equal to zero (including positive infinity) representing the time taken to complete a single iteration of the animation node.
 
 Property of [apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)[apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,7 +35,7 @@ Property of [apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/
 var result = element.duration;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 

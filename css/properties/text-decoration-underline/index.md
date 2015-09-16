@@ -21,7 +21,7 @@ uri: css/properties/text-decoration-underline
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :
@@ -44,12 +44,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-decoration-underline: VARIANT_FALSE`
 -   `text-decoration-underline: VARIANT_TRUE`
 
-## <span>Values</span>
+## Values
 
 VARIANT\_TRUE
 :   Apply the underline.
@@ -57,7 +57,7 @@ VARIANT\_TRUE
 VARIANT\_FALSE
 :   Prevent the underline.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **textDecorationUnderline** property to underline the text when the user clicks the text with the mouse.
 
@@ -67,17 +67,17 @@ Click this if you think it's important.
 </P>
 ```
 
-### <span>Syntax</span>
+### Syntax
 
 `textDecorationUnderline: VARIANT_TRUE | VARIANT_FALSE`
 
-### <span>Requirements</span>
+### Requirements
 
 {
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `defaultSelected`
 -   `runtimeStyle`

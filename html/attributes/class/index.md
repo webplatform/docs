@@ -12,7 +12,7 @@ tags:
 uri: html/attributes/class
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies one or more classes for an element, usually used to point to a class in a style sheet.
 
@@ -28,7 +28,7 @@ dom/HTMLElement
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the class attribute to apply one or more styles to an HTML element.
 
@@ -58,9 +58,9 @@ This example uses the class attribute to apply one or more styles to an HTML ele
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The property is equal to NULL if the attribute is not explicitly assigned. When multiple styles are specified for an element, a conflict could develop if two or more styles define the same attribute differently. In this case, you can resolve the conflict by applying styles to the element in the following order, according to the Cascading Style Sheets (CSS) selector used to define the style:
 
@@ -71,13 +71,13 @@ The property is equal to NULL if the attribute is not explicitly assigned. When 
 
 When two or more selectors pertain to an element, a style defined later takes precedence over a style defined earlier. For more information, see Introduction to Cascading Style Sheets.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/)
 :   W3C Recommendation

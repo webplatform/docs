@@ -18,7 +18,7 @@ tags:
 uri: apis/filesystem/FileWriterCallback/handleEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Used to supply a FileWriter as a response to a user query.
 
@@ -26,28 +26,28 @@ Used to supply a FileWriter as a response to a user query.
 
 Method of [apis/filesystem/FileWriterCallback](/apis/filesystem/FileWriterCallback)[apis/filesystem/FileWriterCallback](/apis/filesystem/FileWriterCallback)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  FileWriterCallback.handleEvent(fileWriter);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>fileWriter</span>
+### fileWriter
 
  Data-type
 :   String
 
  A FileWriter as a response to a user query.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

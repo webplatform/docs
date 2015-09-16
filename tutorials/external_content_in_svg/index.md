@@ -11,13 +11,13 @@ tags:
 uri: 'tutorials/external content in svg'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article covers using external content inside SVG images, such as external image files, and XML data.
 
 Apart from graphic primitives like rectangles and circles, SVG offers a set of elements to embed other types of content in images as well.
 
-### <span>Embedding raster images</span>
+### Embedding raster images
 
 Much like the img element in HTML SVG has an `image` element to serve the same purpose. You can use it to embed arbitrary raster (and vector) images. The specification requests applications to support at least PNG, JPEG and SVG format files.
 
@@ -32,7 +32,7 @@ The embedded picture becomes a normal SVG element. This means, that you can use 
 
 ![imagedemo.png](/assets/public/3/32/imagedemo.png)
 
-### <span>Embedding arbitrary XML</span>
+### Embedding arbitrary XML
 
 Since SVG is an XML application, you can of course *always* embed arbitrary XML anywhere in an SVG document. But then you have no means to define how the surrounding SVG should react on the content. Actually, in a conforming viewer it will react in no way at all, the data will simply be omitted. Therefore the specification adds the `SVGElement("foreignObject")` element to SVG. Its sole purpose is to be a container for other markup and a carrier for SVG styling attributes (most prominently `width` and `height` to define the space the object will take).
 

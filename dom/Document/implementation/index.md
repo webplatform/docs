@@ -22,7 +22,7 @@ uri: dom/Document/implementation
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.implementation;
@@ -31,14 +31,14 @@ element.implementation = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **IHTMLDocument5** was introduced in Microsoft Internet Explorer 6.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 1.2

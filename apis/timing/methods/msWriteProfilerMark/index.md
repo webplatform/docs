@@ -31,22 +31,22 @@ uri: apis/timing/methods/msWriteProfilerMark
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.msWriteProfilerMark(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>bstrProfilerMarkName</span>
+### bstrProfilerMarkName
 
  Data-type
 :   any
 
  An event name. This parameter may be null.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -60,21 +60,21 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Internet Explorer 10. This method is also available in the Web Worker global scope. For Windows XP, this method sends an event to an event tracing session with TraceEvent; for systems after Windows XP, this method writes an event with EventWrite. The event includes a pointer to a **window** object, current markup, and the event name passed as *bstrProfilerMarkName*. The *bstrProfilerMarkName* property has a 32-character limit when called from script. This method is useful to profile real website performance by using the operating system metrics as a baseline.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `window`
 -   `WorkerGlobalScope`

@@ -26,26 +26,26 @@ tags:
 uri: dom/MouseEvent/layerY
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the horizontal coordinate of the event relative to the current layer. layerY is a non-standards property of the MouseEvent object.
 
 Property of [dom/MouseEvent](/dom/MouseEvent)[dom/MouseEvent](/dom/MouseEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.layerY;
 element.layerY = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 The scaled value of the mouse X and Y positions relative to the positioned elements' client position. This may be an integer or double value depending on the viewport scale value.
 
-## <span>Examples</span>
+## Examples
 
 Microsoft added the layerY property to the MouseEvent in IE9 for Interoperability purposes, but recommends using the offsetY property instead. The example below uses feature testing to detect IE9 and higher emulation modes and uses the event.offsetX value. For webkit and gecko and IE8 and lower emulation modes, the event.layerY or the event.offsetY values are used instead.
 
@@ -61,18 +61,18 @@ if(document.documentMode&&document.documentMode>=9){
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Determining the relative mouse position on scrollable web pages.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 A positioned element is an element whose position property is set to `relative`, `absolute` or `fixed`. For more information about element positioning, see About Element Positioning. **Note**  This property is provided for cross-browser compatibility. Use [**y**](/css/cssom/properties/y) instead.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

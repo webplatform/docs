@@ -23,11 +23,11 @@ tags:
 uri: css/properties/column-fill
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies how to fill columns (balanced or sequential).
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `balance`
@@ -50,12 +50,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `column-fill: auto`
 -   `column-fill: balance`
 
-## <span>Values</span>
+## Values
 
 balance
 :   Columns are filled sequentially such that the column heights are balanced as equally as possible, depending on other column property values.
@@ -63,7 +63,7 @@ balance
 auto
 :   Columns are filled sequentially such that the columns may differ in length, depending on other column property values.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /*
@@ -82,7 +82,7 @@ with column-fill: balance;
 
 [View live example](http://code.webplatform.org/gist/6393571)
 
-## <span>Notes</span>
+## Notes
 
 In continuous media, this property will only be consulted if the length of columns has been constrained. Otherwise, columns will automatically be balanced.
 
@@ -90,7 +90,7 @@ In continous media, this property does not have any effect in overflow columns; 
 
 Column balancing is also dependent on the values of [orphans](/css/properties/orphans) and [widows](/css/properties/widows), if set.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/)
 :   W3C Candidate Recommendation

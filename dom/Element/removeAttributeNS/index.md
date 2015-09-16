@@ -20,50 +20,50 @@ tags:
 uri: dom/Element/removeAttributeNS
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes a specified content attribute in a specified namespace from an element.
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  element.removeAttributeNS(namespaceURI, name);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>namespaceURI</span>
+### namespaceURI
 
  Data-type
 :   String
 
  The namespace name of the attribute to remove.
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The local name of the attribute to remove.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Use this method to remove a content attribute in a specified namespace from an element.
 
-## <span>Notes</span>
+## Notes
 
 -   The attribute to remove may not exist in the first place.
 -   Where namespaces are irrelevant, [removeAttribute](/dom/Element/removeAttribute) can be used instead.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Document Object Model (DOM) Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

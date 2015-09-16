@@ -20,11 +20,11 @@ tags:
 uri: css/properties/empty-cells
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets whether or not to display borders and background on empty cells in a table.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `show`
@@ -47,12 +47,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `emptyCells`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `empty-cells: hide`
 -   `empty-cells: show`
 
-## <span>Values</span>
+## Values
 
 show
 :   Renders empty cells with inherited borders and styles
@@ -60,7 +60,7 @@ show
 hide
 :   Does not render the cell
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /*
@@ -74,25 +74,25 @@ td{
 
 [View live example](http://code.webplatform.org/gist/5842874)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If all cells in a particular row have the **empty-cells** value set to **hide**, the entire row will behave as if it had the [**display**](/css/properties/display) value of `none`. The **empty-cells** value can be set for an entire table. If the value is set in the [**table**](/html/elements/table) properties to `show`,all cells will be rendered with borders, regardless of their content.
 
-### <span>Syntax</span>
+### Syntax
 
 `empty-cells: show | hide`
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 17.6.1.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Tables</span>
+#### Tables
 
 -   [border-collapse](/css/properties/border-collapse)
 
@@ -118,7 +118,7 @@ If all cells in a particular row have the **empty-cells** value set to **hide**,
 
 -   [th](/html/elements/th)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

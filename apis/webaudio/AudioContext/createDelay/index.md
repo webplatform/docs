@@ -20,21 +20,21 @@ tags:
 uri: apis/webaudio/AudioContext/createDelay
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a DelayNode representing a variable delay line. Default delay is 0 seconds.
 
 Method of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = AudioContext.createDelay(maxDelayTime);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>maxDelayTime</span>
+### maxDelayTime
 
  Data-type
 :   Number
@@ -43,20 +43,20 @@ var  = AudioContext.createDelay(maxDelayTime);
 
 Specifies the maximum delay time in seconds allowed for the delay line. If specified, this value must be greater than zero and less than three minutes or a NOT\_SUPPORTED\_ERR exception will be thrown.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 DelayNode
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
 var synthDelay = audioCtx.createDelay(5.0);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

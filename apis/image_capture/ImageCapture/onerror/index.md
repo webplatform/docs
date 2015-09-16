@@ -19,13 +19,13 @@ tags:
 uri: 'apis/image capture/ImageCapture/onerror'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Register/unregister for Image Capture error events of type ImageCaptureErrorEvent.
 
 Property of [apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)[apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = pictureDevice.onerror;

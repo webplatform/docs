@@ -10,13 +10,13 @@ tags:
 uri: 'css/media queries'
 
 ---
-## <span>Summary</span>
+## Summary
 
 A media query consists of a media type and at least one expression that limits the style sheets' scope by using media features, such as width, height, and color. Added in CSS3, media queries let the presentation of content be tailored to a specific range of output devices without having to change the content itself.
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [Media Queries for Responsive Design](http://www.xpertdeveloper.com/2012/08/media-queries-for-responsive-design/)
 

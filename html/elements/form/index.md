@@ -21,16 +21,16 @@ todo_broken_links:
 uri: html/elements/form
 
 ---
-## <span>Summary</span>
+## Summary
 
 The form element (&lt;form&gt;) defines an HTML form for user input, subsequently to be submitted to a website or service.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLFormElement](/dom/HTMLFormElement)
 
-## <span>Attributes</span>
+## Attributes
 
 -   `accept-charset` = list of character-encoding names
     gives the character encodings that are to be used for the submission.
@@ -69,7 +69,7 @@ The form element (&lt;form&gt;) defines an HTML form for user input, subsequentl
 -   `target` = valid browsing context names or keywords
     Specfy a browsing context name or keyword that represents the target of the control.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **form** element to create a basic form containing a text entry box for the user's name and a select control for choosing a favorite ice cream flavor. When the user clicks the **Submit** button, the form sends the data to the URL listed in the [**action**](/html/attributes/action) attribute. The value of the [**method**](/html/attributes/method) attribute determines how to send the data to the server.
 
@@ -86,13 +86,13 @@ This example uses the **form** element to create a basic form containing a text 
 </form>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Security Warning:  **Using this object incorrectly can compromise the security of your application. Data submitted through a form using the HTTP protocol is not encrypted and can be read and possibly tampered with in transmission. The Secure Hypertext Transfer Protocol (HTTPS) can provide more secure data transmission. You should review the Security Considerations: Dynamic HTML before continuing. Forms enable client-side users to submit data to a server in a standardized format. The creator of a **form** designs it to collect the required data using a variety of controls, such as **input** or **select**. Users viewing the **form** fill in the data and then click the **Submit** button to send the data to the server. A script on the server then processes the data. Each control element's [**name**](/html/attributes/name_(frames)) attribute must be defined if the data is to be submitted with the form. An element in a form can be referenced by the **name** property or the [**id**](/html/attributes/id) property, or through the [**elements**](/w/index.php?title=dom/properties/elements&action=edit&redlink=1) collection. When the focus is on a control in a form and the user presses ESC, the value of the control reverts to the last value. The form resets if the user presses ESC again. If the form includes only one text box and the user presses ENTER, the [**onsubmit**](/w/index.php?title=dom/events/submit&action=edit&redlink=1) event fires. If the form has an **input type="submit"** element, it will appear as a button with a dark border, which indicates the user can press ENTER to submit the form. Windows Internet Explorer 8 and later. The value of the [**action**](/html/attributes/action) attribute depends on the current document compatibility mode. In addition, the **form object** now supports [**enctype**](/html/attributes/enctype) as a DOM attribute.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-form-element)
 :   W3C Working Draft
@@ -103,9 +103,9 @@ This example uses the **form** element to create a basic form containing a text 
 [HTML 4.01](http://www.w3.org/TR/html401/interact/forms.html#edef-FORM)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `1,001 Ways to Get Input from Web Users`
 

@@ -10,11 +10,11 @@ tags:
 uri: javascript/Math/pow
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the value of a base expression taken to a specified power.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Returns the value of a base expression taken to a specified power.
 **exponent**
 :   Required. The exponent value of the expression.
 
-## <span>Examples</span>
+## Examples
 
 In the following example, a numeric expression equal to baseexponent returns 1000.
 
@@ -34,9 +34,9 @@ In the following example, a numeric expression equal to baseexponent returns 100
 Math.pow( 10,3 ) ;
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math Object](/javascript/Math)
 

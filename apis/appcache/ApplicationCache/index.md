@@ -13,11 +13,11 @@ tags:
 uri: apis/appcache/ApplicationCache
 
 ---
-## <span>Summary</span>
+## Summary
 
 The Application Cache (AppCache) lets web-based applications run offline. Developers can specify resources for the browser to cache, making them available to the application even if no connection can be made to the server. These resources load and work correctly even if users click the refresh button when they are offline.
 
-## <span>Overview</span>
+## Overview
 
 An application cache provides the following benefits:
 
@@ -25,7 +25,7 @@ An application cache provides the following benefits:
 -   Speed: cached resources are local, and therefore load faster
 -   Reduced server load: the browser only downloads resources that have changed from the server.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -57,7 +57,7 @@ API Name
 [status](/apis/appcache/ApplicationCache/status)
 :   Returns the current status of the application cache, as given by the constants defined below.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -75,18 +75,18 @@ API Name
 [update](/apis/appcache/ApplicationCache/update)
 :   Invokes the application cache download process. Throws an InvalidStateError exception if there is no application cache to update. Calling this method is not usually necessary, as user agents will generally take care of updating application caches automatically. The method can be useful in situations such as long-lived applications. For example, a Web mail application might stay open in a browser tab for weeks at a time. Such an application could want to test for updates each day.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Usage</span>
+## Usage
 
      In order to cache files, you must do the following:
 
 -   Create a manifest file that lists the files and other web resources you want to cache.
 -   Reference the manifest file in the header of every page you want cached.
 
-### <span>The manifest file</span>
+### The manifest file
 
 The manifest file defines which web resources are cached when a user browses to your site. The manifest file typically has the extension **.appcache** or **.manifest**. Each webpage must add a manifest attribute to the HTML element similar to this:
 
@@ -125,20 +125,20 @@ Alternatively, web resources that need to be cached can be specified by adding a
 
 **ApplicationCache** functionality is independent of HTTP caching headers. The manifest file implicitly includes itself as a page to be cached. It also needs to have the same domain of origin as the page that contains it.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Limitations</span>
+### Limitations
 
 The [specification](http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html) states that browsers "should consider applying constraints on disk usage". [The disk usage constraints vary across browsers.](http://www.browserscope.org/user/tests/table/agt1YS1wcm9maWxlcnINCxIEVGVzdBjwwK0RDA?v=3&layout=simple)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C ApplicationCache Specification](http://dev.w3.org/html5/spec/single-page.html#application-cache-api)
 :   W3C Editor's Draft
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [Application Cache is a Douchebag](http://alistapart.com/article/application-cache-is-a-douchebag)
 -   [HTML5Rocks - A Beginner's Guide to Using the Application Cache](http://www.html5rocks.com/en/tutorials/appcache/beginner/)

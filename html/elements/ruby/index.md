@@ -18,11 +18,11 @@ tags:
 uri: html/elements/ruby
 
 ---
-## <span>Summary</span>
+## Summary
 
 The ruby element allows one or more spans of phrasing content to be marked with ruby annotations. Ruby annotations are short runs of text presented alongside base text, primarily used in East Asian typography as a guide for pronunciation or to include other annotations.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -31,7 +31,7 @@ Ruby annotations are short runs of text presented alongside base text, primarily
 
 In Japanese, this form of typography is also known as *furigana*.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **RUBY** element to specify the first string of text as the base, and the **RT** element to specify the second string of text as the ruby.
 
@@ -54,13 +54,13 @@ In this example, each ideograph in the Japanese text *漢字* is annotated with 
 
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 A ruby is an annotation or pronunciation guide for a string of text. The string of text annotated with a ruby is referred to as the base. The only valid object within the **RUBY** element is the **RT** element. Text not contained within the ruby text object, **RT**, is assumed to be a part of the base. This element is available in HTML and script as of Microsoft Internet Explorer 5.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-ruby-element)
 :   W3C Working Draft
@@ -68,20 +68,20 @@ A ruby is an annotation or pronunciation guide for a string of text. The string 
 [HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-ruby-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Ruby</span>
+#### Ruby
 
 -   [Ruby](/css/ruby)
 
 -   **ruby**
 
-### <span>External resources</span>
+### External resources
 
 -   [Using ruby markup](http://www.w3.org/International/techniques/authoring-html#ruby)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `rt`

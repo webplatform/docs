@@ -23,26 +23,26 @@ tags:
 uri: dom/WindowModal/dialogWidth
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets the width of the content area of a dialog window.
 
 Property of [dom/WindowModal](/dom/WindowModal)[dom/WindowModal](/dom/WindowModal)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var dialogWidth = window.dialogWidth;
 window.dialogWidth = newDialogWidth;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The width of the window and a unit of measure.
 
-## <span>Examples</span>
+## Examples
 
 This example creates a dialog window using the **dialogWidth** property to set the new window's width.
 
@@ -70,7 +70,7 @@ function someMessage(e) {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/dialogWidth.htm)
 
-## <span>Notes</span>
+## Notes
 
 -   This property applies only to windows that are created by using the [**showModalDialog**](/dom/Window/showModalDialog) method.
 -   When a script calls the **showModalDialog** method, it suspends execution until the modal dialog box is closed. As a result, the script cannot use the **dialogWidth** property to change the appearance of the modal dialog box. To control the appearance of the modal dialog box, use script in the file loaded by the **sURL** parameter or use the value of the **sFeatures** parameter to specify the desired settings.

@@ -22,20 +22,20 @@ tags:
 uri: html/elements/input/type/image
 
 ---
-## <span>Summary</span>
+## Summary
 
 The image type of the &lt;input&gt; element represents an image. The user can either use the image as a button to submit the form, or select a coordinate of the image to be submitted with the form data.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The x-coordinate is submitted under the name of the control with `.x` appended, and the y-coordinate is submitted under the name of the control with `.y` appended. Any [**value**](/html/attributes/value_(li_element)) property is ignored. The [**src**](/html/attributes/src_(iframe,_embed,_xml)) property specifies the **img** element. The following image and video file formats are supported:
 
@@ -52,18 +52,18 @@ The x-coordinate is submitted under the name of the control with `.x` appended, 
 
 In IE8 Standards mode or later, the [**title**](/html/attributes/title) attribute is preferred over the [**alt**](/html/attributes/alt) attribute when specified as a pop-up tooltip. In addition, the value of the [**src**](/html/attributes/src_(iframe,_embed,_xml)) attribute depends on the current document compatibility mode.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 17.4
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.7.1.20
 
-### <span>HTML information</span>
+### HTML information
 
 {
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `img`

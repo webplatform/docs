@@ -20,11 +20,11 @@ tags:
 uri: css/properties/mask-type
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines whether the content of the &lt;mask&gt; element is treated as as luminance mask or an alpha mask.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `luminance`
@@ -50,12 +50,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `mask-type: alpha`
 -   `mask-type: luminance`
 
-## <span>Values</span>
+## Values
 
 luminance
 :   Indicates that the luminance values of the mask should be used.
@@ -63,7 +63,7 @@ luminance
 alpha
 :   Indicates that the alpha values of the mask should be used.
 
-## <span>Examples</span>
+## Examples
 
 Alpha mask type
 
@@ -81,7 +81,7 @@ Luminance mask type
 </mask>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Masking Level 1](http://www.w3.org/TR/css-masking-1/)
 :   W3C Last Call Working Draft

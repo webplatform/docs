@@ -14,7 +14,7 @@ tags:
 uri: html/attributes/formEnctype
 
 ---
-## <span>Summary</span>
+## Summary
 
 The formenctype attribute specifies how the form-data should be encoded when submitting it to the server.
 
@@ -32,7 +32,7 @@ Applies to
 </table>
 The formenctype attribute overrides the enctype attribute of the \<form\> element with method="post".
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <form action="submit.php" method="post">
@@ -42,17 +42,17 @@ The formenctype attribute overrides the enctype attribute of the \<form\> elemen
 </form>
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.19.6
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -192,7 +192,7 @@ The formenctype attribute overrides the enctype attribute of the \<form\> elemen
 
 -   [time](/html/elements/time)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLInputElement`
 -   `HTMLButtonElement`

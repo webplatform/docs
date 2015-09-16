@@ -25,11 +25,11 @@ tags:
 uri: css/properties/user-select
 
 ---
-## <span>Summary</span>
+## Summary
 
 Controls the visible highlighting of selections of text and elements. It is possible to blind out selection completely or to allow the selection of text only.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `all`
@@ -52,14 +52,14 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `user-select: all`
 -   `user-select: element`
 -   `user-select: none`
 -   `user-select: text`
 
-## <span>Values</span>
+## Values
 
 none
 :   None of the descendants of the element can be selected, neither text nor images.
@@ -73,7 +73,7 @@ all
 element
 :   Only specified elements can be selected. Only supported in Firefox and Internet Explorer.
 
-## <span>Examples</span>
+## Examples
 
 Deactivate selection of text for elements with the class **no-select**.
 
@@ -85,24 +85,24 @@ Deactivate selection of text for elements with the class **no-select**.
 
 [View live example](http://jsfiddle.net/R5Ygm/)
 
-## <span>Usage</span>
+## Usage
 
      Needs vendor prefixes.
 
-## <span>Notes</span>
+## Notes
 
 Also works on mobile devices to suppress selection by touch and hold.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [User Interface for CSS3](http://www.w3.org/TR/2000/WD-css3-userint-20000216)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Attributes</span>
+#### CSS Attributes
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -140,7 +140,7 @@ Also works on mobile devices to suppress selection by touch and hold.
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `IE Test Drive: User-Select`
 -   `[1]`

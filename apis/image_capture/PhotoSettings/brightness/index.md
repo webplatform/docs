@@ -24,20 +24,20 @@ tags:
 uri: 'apis/image capture/PhotoSettings/brightness'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This reflects the desired brightness setting of the camera.
 
 Property of [apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSettings)[apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSettings)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = photoSettings.brightness;
 photoSettings.brightness = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 

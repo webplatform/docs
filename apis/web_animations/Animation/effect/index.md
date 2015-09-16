@@ -24,16 +24,16 @@ uri: 'apis/web animations/Animation/effect'
 
 Property of [apis/web\_animations/Animation](/apis/web_animations/Animation)[apis/web\_animations/Animation](/apis/web_animations/Animation)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var myEffect = myAnimation.effect;
 myAnimation.effect = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 The effect parameter, an ECMAScript value passed to the Animation constructor or to the animate operation of the Animatable interface, may specify an EffectCallback, an AnimationEffect, a Keyframe a sequence of Keyframes, or null. However, since callback functions and dictionaries are not distinguishable in WebIDL, we define the processing of this parameter for ECMAScript here in prose.
 

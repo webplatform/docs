@@ -28,7 +28,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example sets the **SPAN** attribute of the **col** object to two, which causes the **col** to span two columns. The text is right-aligned in these two columns.
 
@@ -51,17 +51,17 @@ This example sets the **SPAN** attribute of the **col** object to two, which cau
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/span.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **span** property is ignored when set on the **colGroup** element and **colGroup** contains one or more **col** elements. The **span** property provides a more convenient way of grouping columns without having to specify **col** objects.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `col`
 -   `colGroup`

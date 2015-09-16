@@ -11,11 +11,11 @@ tags:
 uri: css/functions/scaleX()
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines a 3D scale transformation by giving a value for the X-axis.
 
-## <span>Examples</span>
+## Examples
 
 The following code snippet is an example of the **scaleX** function in use as applied to a square blue [**div**](/html/elements/div) element.
 
@@ -25,23 +25,23 @@ div {
 }
 ```
 
-### <span>Syntax</span>
+### Syntax
 
 **scaleX** `( <scaling-value> )`
 
-### <span>Parameters</span>
+### Parameters
 
 *scaling-value*
 :   Numerical value by which to scale the specified element in the *x*-direction.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Transforms Module Level 3](http://www.w3.org/TR/css3-transforms/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`

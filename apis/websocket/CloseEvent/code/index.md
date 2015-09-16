@@ -25,13 +25,13 @@ tags:
 uri: apis/websocket/CloseEvent/code
 
 ---
-## <span>Summary</span>
+## Summary
 
 The WebSocket connection close code provided by the server.
 
 Property of [apis/websocket/CloseEvent](/apis/websocket/CloseEvent)[apis/websocket/CloseEvent](/apis/websocket/CloseEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [apis/websocket/CloseEvent](/apis/websocket/CloseEvent)[apis/websock
 var result = element.code;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned shortunsigned short
 
@@ -60,7 +60,7 @@ Returns an object of type unsigned shortunsigned short
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation

@@ -22,11 +22,11 @@ tags:
 uri: css/properties/list-style-image
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property sets the image that will be used as the list item marker. When the image is available, it will replace the marker set with the 'list-style-type' marker. That also means that if the image is not available, it will show the style specified by list-style-property
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -49,13 +49,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `listStyleImage`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `list-style-image: inherit`
 -   `list-style-image: none`
 -   `list-style-image: url(path/to/image.png)`
 
-## <span>Values</span>
+## Values
 
 none
 :   Default. No image is specified.
@@ -66,7 +66,7 @@ url(path/to/image.png)
 inherit
 :   Takes the same specified value as the property for the element's parent. (Acts similarly to other uses of inherit in CSS.)
 
-## <span>Examples</span>
+## Examples
 
 The following examples shows the different possible values you can use for the list-style-image property. It also contains an example to show what happened when an unavailable image is not provided and how to use 'none' to break the inheritance.
 
@@ -100,19 +100,19 @@ The following examples shows the different possible values you can use for the l
 
 [View live example](http://code.webplatform.org/gist/6948599)
 
-## <span>Usage</span>
+## Usage
 
      The property has limited positioning options for the background image, and in some circumstances doesn’t work at all in IE.
 
 So it has become a far more common practice to simply set a background image on the list items.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When the image is available, it replaces the marker that is set with the [**list-style-type**](/css/properties/list-style-type) marker. If the left margin of the list item is set to 0 using one of the [**margin**](/css/properties/margin) properties, the list-item markers do not show.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Lists and Counters Module Level 3](http://dev.w3.org/csswg/css3-lists/#list-style-image)
 :   Working Draft
@@ -120,11 +120,11 @@ When the image is available, it replaces the marker that is set with the [**list
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/generate.html#propdef-list-style-image)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Generated and Replaced Content</span>
+#### Generated and Replaced Content
 
 -   [Generated and Replaced Content](/css/generated_and_replaced_content)
 
@@ -140,7 +140,7 @@ When the image is available, it replaces the marker that is set with the [**list
 
 -   [object-fit](/css/properties/object-fit)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

@@ -40,7 +40,7 @@ todo_broken_links:
 uri: html/elements
 
 ---
-## <span>Summary</span>
+## Summary
 
 Index page for HTML elements.
 
@@ -511,11 +511,11 @@ API Name
 [xmp](/html/elements/xmp)
 :   (Obsolete) Renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. Non-conforming in HTML5. Use [`code`](/html/elements/code) or [`pre`](/html/elements/pre) instead.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -657,11 +657,11 @@ API Name
 
 This is the list of HTML and related Elements from the past to the present.
 
-## <span>The root element</span>
+## The root element
 
 -   [html](/html/elements/html)
 
-## <span>Document metadata</span>
+## Document metadata
 
 -   [head](/html/elements/head)
 -   [title](/html/elements/title)
@@ -671,12 +671,12 @@ This is the list of HTML and related Elements from the past to the present.
 -   [meta](/html/elements/meta)
 -   [style](/html/elements/style)
 
-## <span>Scripting</span>
+## Scripting
 
 -   [script](/html/elements/script)
 -   [noscript](/w/index.php?title=html/elements/noScript&action=edit&redlink=1)
 
-## <span>Sections</span>
+## Sections
 
 -   [body](/html/elements/body)
 -   [section](/html/elements/section)
@@ -689,7 +689,7 @@ This is the list of HTML and related Elements from the past to the present.
 -   [footer](/html/elements/footer)
 -   [address](/html/elements/address)
 
-## <span>Grouping content</span>
+## Grouping content
 
 -   [p](/html/elements/p)
 -   [hr](/html/elements/hr)
@@ -707,7 +707,7 @@ This is the list of HTML and related Elements from the past to the present.
 -   [main](/html/elements/main)
 -   [center](/html/elements/center)
 
-## <span>Text-level semantics</span>
+## Text-level semantics
 
 -   [a](/html/elements/a)
 -   [abbr](/html/elements/abbr)
@@ -749,12 +749,12 @@ This is the list of HTML and related Elements from the past to the present.
 -   [wbr](/html/elements/wbr)
 -   [xmp](/html/elements/xmp)
 
-## <span>Edits</span>
+## Edits
 
 -   [ins](/html/elements/ins)
 -   [del](/html/elements/del)
 
-## <span>Embedded content</span>
+## Embedded content
 
 -   [applet](/html/elements/applet)
 -   [area](/html/elements/area)
@@ -779,7 +779,7 @@ This is the list of HTML and related Elements from the past to the present.
 -   [track](/html/elements/track)
 -   [video](/html/elements/video)
 
-## <span>Tables</span>
+## Tables
 
 -   [table](/html/elements/table)
 -   [caption](/html/elements/caption)
@@ -792,7 +792,7 @@ This is the list of HTML and related Elements from the past to the present.
 -   [td](/html/elements/td)
 -   [th](/html/elements/th)
 
-## <span>Forms</span>
+## Forms
 
 -   [form](/html/elements/form)
 -   [fieldset](/html/elements/fieldset)
@@ -810,14 +810,14 @@ This is the list of HTML and related Elements from the past to the present.
 -   [progress](/html/elements/progress)
 -   [meter](/html/elements/meter)
 
-## <span>Interactive</span>
+## Interactive
 
 -   [details](/html/elements/details)
 -   [summary](/w/index.php?title=html/elements/summary&action=edit&redlink=1)
 -   [command](/w/index.php?title=html/elements/command&action=edit&redlink=1)
 -   [menu](/html/elements/menu)
 
-## <span>Previous HTML Elements</span>
+## Previous HTML Elements
 
 -   [acronym](/html/elements/acronym)
 -   [applet](/html/elements/applet) (deprecated in [HTML 4.01](http://www.w3.org/TR/html401/), non conformant in [HTML5](http://www.w3.org/TR/html5))
@@ -844,7 +844,7 @@ This is the list of HTML and related Elements from the past to the present.
 -   [u](/html/elements/u) (deprecated in [HTML 4.01](http://www.w3.org/TR/html401/), non conformant in [HTML5](http://www.w3.org/TR/html5))
 -   [xmp](/html/elements/xmp)
 
-## <span>See also</span>
+## See also
 
 -   [HTML: The Markup Language Reference](http://www.w3.org/TR/html-markup/)
 -   [HTML Educational material for beginners](/w/index.php?title=html/training&action=edit&redlink=1)

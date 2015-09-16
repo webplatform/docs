@@ -21,7 +21,7 @@ uri: dom/Element/onload
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onload;
@@ -30,21 +30,21 @@ element.onload = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This event fires when a method finishes the read of a [**Blob**](/apis/file/Blob) object. If the operation fails, **onload** does not fire, but instead, the **onloadend** and **onerror** events fire.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `FileReader`

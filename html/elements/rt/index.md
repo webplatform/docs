@@ -17,11 +17,11 @@ tags:
 uri: html/elements/rt
 
 ---
-## <span>Summary</span>
+## Summary
 
 The rt element marks the ruby text component of a ruby annotation.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -30,7 +30,7 @@ Internationalization topics related to the `rt` element:
 
 -   [Using ruby markup](http://localhost/International/techniques/authoring-html#ruby)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **RT** element to specify a string of text as an annotation or pronunciation guide to the base text.
 
@@ -49,13 +49,13 @@ This example uses the **RT** element to specify a string of text as an annotatio
 
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 A ruby is an annotation or pronunciation guide for a string of text. The string of text annotated with a ruby is referred to as the base. The ruby text specified by the **RT** element is positioned **above** or **inline** with the [**rubyPosition**](/css/properties/ruby-position) property. Browsers that do not support the **RT** element render the ruby text inline with the base text. This element is available in HTML and script as of Microsoft Internet Explorer 5. The ruby text specified by the **RT** element is positioned **above** or **inline** with the [**rubyPosition**](/css/properties/ruby-position) property.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-rt-element)
 :   W3C Working Draft
@@ -63,8 +63,8 @@ A ruby is an annotation or pronunciation guide for a string of text. The string 
 [HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-rt-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `ruby`

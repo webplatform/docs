@@ -13,11 +13,11 @@ tags:
 uri: 'css/media queries/apis/StyleMedia'
 
 ---
-## <span>Summary</span>
+## Summary
 
 A CSS media related functionality and information.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -25,7 +25,7 @@ API Name
 [type](/css/media_queries/apis/properties/type)
 :   Gets the media type of the object that displays the [Document](/dom/Document) object
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -33,17 +33,17 @@ API Name
 [matchMedium](/css/media_queries/apis/matchMedium)
 :   Indicates whether the document currently matches a media query.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Media Queries</span>
+#### Media Queries
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 

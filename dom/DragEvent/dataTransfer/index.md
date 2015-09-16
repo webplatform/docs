@@ -23,7 +23,7 @@ uri: dom/DragEvent/dataTransfer
 
 Property of [dom/DragEvent](/dom/DragEvent)[dom/DragEvent](/dom/DragEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.dataTransfer;
@@ -32,8 +32,8 @@ element.dataTransfer = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.9.2

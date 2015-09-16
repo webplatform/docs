@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/substring
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the substring at the specified location within a String object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -30,7 +30,7 @@ Returns the substring at the specified location within a String object.
 **end**
 :   Optional. The zero-based index integer indicating the end of the substring. The substring includes the characters up to, but not including, the character indicated by end.If end is omitted, the characters from start through the end of the original string are returned.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **substring** method.
 
@@ -43,7 +43,7 @@ var s = "The quick brown fox jumps over the lazy dog.";
  // brown
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The substring method returns a string containing the substring from start up to, but not including, end.
 
@@ -53,9 +53,9 @@ If either start or end is **NaN** or negative, it is replaced with zero.
 
 The length of the substring is equal to the absolute value of the difference between start and end. For example, the length of the substring returned in strvar.substring(0, 3) and strvar.substring(3, 0) is three.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [substr Method (String)](/javascript/String/substr)
 

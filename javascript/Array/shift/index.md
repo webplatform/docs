@@ -11,21 +11,21 @@ tags:
 uri: javascript/Array/shift
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes the first element from an array and returns it.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     shift( )
 
-## <span>Return Value</span>
+## Return Value
 
 Returns the element removed from the array.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the shift method.
 
@@ -41,9 +41,9 @@ var arr = new Array(10, 11, 12);
  // 10 11 12
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.9 Array.prototype.shift ( )](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.9) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

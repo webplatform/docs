@@ -15,24 +15,24 @@ tags:
 uri: html/elements/li
 
 ---
-## <span>Summary</span>
+## Summary
 
 The li element represents one list item.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLLIElement](/dom/HTMLLIElement)
 
 Its parent element may be [ol](/html/elements/ol), [ul](/html/elements/ul), or [menu](/html/elements/menu).
 
-## <span>HTML Attributes</span>
+## HTML Attributes
 
 -   `value` = valid integer
     Specifies the ordinal value of the list item.
     The value attribute can be used when the parent element in only a ol element. [[Example B]](#Example_B)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **li** element to create individual items in an unordered list.
 
@@ -64,13 +64,13 @@ display: list-item;
 margin-left: 40px;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The [**type**](/html/attributes/type_(ul,li,ol_elements)) attribute values **disc**, **circle**, and **square** apply to unordered lists; the values **1**, **a**, **A**, **i**, and **I** apply to ordered lists. When the **li** element is absolutely positioned with CSS, the list item marker is not rendered. The default value of the [**display**](/css/properties/display) property for this element is **list-item**.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-li-element)
 :   W3C Working Draft
@@ -81,9 +81,9 @@ The [**type**](/html/attributes/type_(ul,li,ol_elements)) attribute values **dis
 [HTML 4.01](http://www.w3.org/TR/html401/struct/lists.html#edef-LI)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [`dir`](/html/elements/dir)
 -   [`menu`](/html/elements/menu)

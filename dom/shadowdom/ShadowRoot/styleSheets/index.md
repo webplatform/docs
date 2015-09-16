@@ -23,20 +23,20 @@ tags:
 uri: dom/shadowdom/ShadowRoot/styleSheets
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents the shadow root style sheets.
 
 Property of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.styleSheets;
 element.styleSheets = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StyleSheetListStyleSheetList
 

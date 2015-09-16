@@ -9,11 +9,11 @@ tags:
 uri: 'css/color/colors by perceptual lightness'
 
 ---
-## <span>Summary</span>
+## Summary
 
 A list of CSS color names, sorted by perceptual lightness.
 
-### <span>Related topics</span>
+### Related topics
 
 -   [Colors by Name](/css/color/colors_by_name)
 -   [Colors by Hue](/css/color/colors_by_hue)

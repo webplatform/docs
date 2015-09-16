@@ -23,28 +23,28 @@ tags:
 uri: css/cssom/methods/msGetPropertyEnabled
 
 ---
-## <span>Summary</span>
+## Summary
 
 Non standard. Indicates whether a property is enabled.
 
 Method of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var enabled = declration.msGetPropertyEnabled(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The name of the property.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -52,8 +52,8 @@ Whether the property is enabled.
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `style`

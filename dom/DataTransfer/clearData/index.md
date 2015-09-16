@@ -20,21 +20,21 @@ tags:
 uri: dom/DataTransfer/clearData
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes one or more data formats (or all data) from the clipboard through the DataTransfer object or the ClipboardData object.
 
 Method of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTransfer)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  event.dataTransfer.clearData(format);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>format</span>
+### format
 
  Data-type
 :   String
@@ -48,11 +48,11 @@ The format of the data to be cleared, using one of the following values (case in
 
 If *format* is omitted, all data is removed.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **clearData**, [setData](/dom/DataTransfer/setData), and [getData](/dom/DataTransfer/getData) methods with the [DataTransfer](/dom/DataTransfer) object.
 
@@ -92,13 +92,13 @@ window.addEventListener("load", initialize, false);
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clearDataEX.htm)
 
-## <span>Notes</span>
+## Notes
 
 -   If no *format* parameter is passed, all of the data formats are cleared.
 -   For drag-and-drop operations, the **clearData** method of the [DataTransfer](/dom/DataTransfer) object is used generally in source events, such as [dragstart](/dom/DragEvent/dragstart). When you override the default behavior of the target, use **clearData** in the [drop](/dom/DragEvent/drop) event. It is particularly useful for selectively removing data formats when multiple formats are specified.
 -   The clearData() method does not affect whether any files were included in the drag, so the types attribute's list might still not be empty after calling clearData() (it would still contain the "Files" string if any files were included in the drag).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation

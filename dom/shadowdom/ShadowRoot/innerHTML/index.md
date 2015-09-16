@@ -23,20 +23,20 @@ tags:
 uri: dom/shadowdom/ShadowRoot/innerHTML
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents the markup of the ShadowRoot's contents.
 
 Property of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.innerHTML;
 element.innerHTML = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 

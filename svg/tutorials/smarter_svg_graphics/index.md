@@ -33,11 +33,11 @@ uri: 'svg/tutorials/smarter svg graphics'
 ---
 **By Mike Sierra**
 
-## <span>Summary</span>
+## Summary
 
 This guide shows you how to embed images within SVG and apply various graphics effects such as gradients, patterns, clipping paths, and masks.
 
-## <span>Gradients</span>
+## Gradients
 
 SVG's support for gradients is similar to CSS's. Two kinds of gradient are available: the [**linearGradient**](/svg/elements/linearGradient) and [**radialGradient**](/svg/elements/radialGradient) elements. The [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1) property uses **url()** syntax to reference either kind:
 
@@ -106,7 +106,7 @@ The [**fx**](/w/index.php?title=svg/attributes/fx&action=edit&redlink=1) and [**
 
 [View the SVG file here](http://letmespellitoutforyou.com/samples/svg/tv_gradient.svg).
 
-## <span>Patterns</span>
+## Patterns
 
 SVG's patterns are similar to CSS's repeating background images, but allow you more control over padding and reorienting patterns. To implement a pattern, you must first design a graphic. In this case, a rectangle fits within a 5×10 area along with a margin of 1 unit:
 
@@ -151,7 +151,7 @@ Increasing the pattern's [**width**](/w/index.php?title=svg/attributes/width&act
 
 ![svg gfx pattern rect wh.png](/assets/thumb/8/86/svg_gfx_pattern_rect_wh.png/300px-svg_gfx_pattern_rect_wh.png)
 
-## <span>More complex tile patterns</span>
+## More complex tile patterns
 
 This pattern consists of a very simple shape. You can make the pattern's nested set of graphics as complex and varied as you want, or build larger patterns from smaller components. This example shows how to build series of alternating rotated tiles. First, modify the basic shape to include black around the margin:
 
@@ -227,7 +227,7 @@ Other transforms allow you to reorient and reshape the pattern. In this example,
 
 [View the SVG file here](http://letmespellitoutforyou.com/samples/svg/pattern_fill.svg).
 
-## <span>Clipping paths</span>
+## Clipping paths
 
 Patterns are not necessarily for tiny images. By applying generous [**width**](/w/index.php?title=svg/attributes/width&action=edit&redlink=1) and [**height**](/w/index.php?title=svg/attributes/height&action=edit&redlink=1) pattern dimensions, you can also use them to display a single large graphic behind an irregular shape. Another way to do this is to apply a *clipping path*, which renders a graphic only inside the contours of another graphic.
 
@@ -253,7 +253,7 @@ Place a [**clipPath**](/svg/elements/clipPath) element around the shape you want
 
 [View the SVG file here](http://letmespellitoutforyou.com/samples/svg/tv_clip.svg).
 
-## <span>Adding images</span>
+## Adding images
 
 While SVG is designed for vector graphics, it can freely incorporate raster graphics via the [**image**](/svg/elements/image) element. Use [**x**](/w/index.php?title=svg/attributes/x&action=edit&redlink=1) and [**y**](/w/index.php?title=svg/attributes/y&action=edit&redlink=1) attributes to position an image. Unlike HTML, you need to specify a [**width**](/w/index.php?title=svg/attributes/width&action=edit&redlink=1) and [**height**](/w/index.php?title=svg/attributes/height&action=edit&redlink=1) for an image to appear:
 
@@ -300,11 +300,11 @@ You can also use the [**image**](/svg/elements/image) element to import SVG grap
 
 These externally referenced SVG components may animate, but they do not preserve any interactive features.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 

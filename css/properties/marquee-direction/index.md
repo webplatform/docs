@@ -20,11 +20,11 @@ tags:
 uri: css/properties/marquee-direction
 
 ---
-## <span>Summary</span>
+## Summary
 
 The marquee-direction determines the initial direction in which the marquee content moves.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `forward`
@@ -50,12 +50,12 @@ Animatable
 Percentages
 :   n/a
 
-## <span>Syntax</span>
+## Syntax
 
 -   `marquee-direction: forward`
 -   `marquee-direction: reverse`
 
-## <span>Values</span>
+## Values
 
 forward
 :   moves the content in normal reading order
@@ -63,7 +63,7 @@ forward
 reverse
 :   moves the content in reverse reading order
 
-## <span>Usage</span>
+## Usage
 
      The actual direction depends the 'direction' and 'overflow-style', as follows:
 
@@ -85,7 +85,7 @@ reverse
 `overflow-style: block;marquee-direction:reverse;`
  animation direction: top-to-bottom
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Marquee Module Level 3](http://www.w3.org/TR/css3-marquee/#marquee-direction)
 :   Candidate Recommendation

@@ -19,11 +19,11 @@ tags:
 uri: css/properties/text-overline-style
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the line style for overline text decoration.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -46,7 +46,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-overline-style: dashed`
 -   `text-overline-style: dot-dash`
@@ -57,7 +57,7 @@ Animatable
 -   `text-overline-style: solid`
 -   `text-overline-style: wave`
 
-## <span>Values</span>
+## Values
 
 none
 :   Produces no line.
@@ -83,7 +83,7 @@ dot-dot-dash
 wave
 :   Produces a wavy line.
 
-## <span>Examples</span>
+## Examples
 
 Incomplete because no browser has implemented this property.
 
@@ -95,11 +95,11 @@ p {
 
 [View live example](http://code.webplatform.org/gist/7283917)
 
-## <span>Notes</span>
+## Notes
 
 Not implemented in any browser.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-decoration-style)
 :   Candidate Recommendation

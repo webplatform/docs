@@ -24,42 +24,42 @@ tags:
 uri: dom/Implementation/createDocumentType
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a Document Type node.
 
 Method of [dom/Implementation](/dom/Implementation)[dom/Implementation](/dom/Implementation)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = implementation.createDocumentType(qualifiedName, publicID, systemId);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>qualifiedName</span>
+### qualifiedName
 
  Data-type
 :   String
 
  The name of the [document type](/html/elements/!DOCTYPE). When you use XML namespaces, this name can be a qualified name (for example, namespace:localname).
 
-### <span>publicID</span>
+### publicID
 
  Data-type
 :   String
 
  The public identifier of the [document type](/html/elements/!DOCTYPE) or null.
 
-### <span>systemId</span>
+### systemId
 
  Data-type
 :   String
 
  The system identifier of the [document type](/html/elements/!DOCTYPE) or null.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -67,7 +67,7 @@ The created [document type](/html/elements/!DOCTYPE) object.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

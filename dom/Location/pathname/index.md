@@ -23,20 +23,20 @@ tags:
 uri: dom/Location/pathname
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the file name or path specified by the object.
 
 Property of [dom/Location](/dom/Location)[dom/Location](/dom/Location)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var pathName = location.pathname;
 location.pathname = pathName;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 

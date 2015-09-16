@@ -24,11 +24,11 @@ todo_broken_links:
 uri: css/properties/font-size-adjust
 
 ---
-## <span>Summary</span>
+## Summary
 
 The font-size-adjust property adjusts the font-size of the fallback fonts defined with font-family, so that the x-height is the same no matter what font is used. This preserves the readability of the text when fallback happens.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -54,13 +54,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `font-size-adjust: auto`
 -   `font-size-adjust: none`
 -   `font-size-adjust: number`
 
-## <span>Values</span>
+## Values
 
 none
 :   Only use the font-size value to determine the size of the font.
@@ -71,7 +71,7 @@ number
 auto
 :   The aspect value is calculated by the browser for the first font in the font-family list, and used for every font in that list.
 
-## <span>Examples</span>
+## Examples
 
 The popular font "Verdana" has an aspect value of 0.58. For comparison, Times New Roman has an aspect value of 0.45. Verdana will be more readable at smaller sizes than Times New Roman. Conversely, Verdana will often look 'too big' if substituted for Times New Roman.
 
@@ -113,7 +113,7 @@ p.adjust {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 In script types that distinguish between uppercase and lowercase letters, such as the Latin script used for English, the height of the lowercase letters relative to the height of the uppercase letters impacts readability at smaller type sizes. This relation is called the **aspect value**, which is calculated by dividing a font's **[x-height](/x_height)** by the font's size.
 
@@ -132,16 +132,16 @@ Where:
 
 As an abstract example, assume you specify a font-size-adjust value of 0.5, your fallback font's **aspect value** is .4, and the [font-size](/css/properties/font-size) is 8px. The fallback font is rendered at 10px ((.5 /.4) \* 8).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/#propdef-font-size-adjust)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Font</span>
+#### CSS Font
 
 -   [font-family](/css/properties/font-family)
 
@@ -163,7 +163,7 @@ As an abstract example, assume you specify a font-size-adjust value of 0.5, your
 
 -   [user-modify](/css/properties/user-modify)
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -197,11 +197,11 @@ As an abstract example, assume you specify a font-size-adjust value of 0.5, your
 
 -   [font](/html/elements/font)
 
-### <span>External resources</span>
+### External resources
 
 -   MDN: [font-size-adjust](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size-adjust)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

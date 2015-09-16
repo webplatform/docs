@@ -23,34 +23,34 @@ tags:
 uri: dom/Window/requestAnimationFrame
 
 ---
-## <span>Summary</span>
+## Summary
 
 A method to invoke at the optimal time a callback to update the frame of an animation.
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var handle = window.requestAnimationFrame(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>callback</span>
+### callback
 
  Data-type
 :   function
 
  The animation code to be run when the system is ready.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 A handle or ID to the animationFrame request that can be used to cancel the request if needed.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!DOCTYPE html>
@@ -101,11 +101,11 @@ div { position: absolute; left: 10px; top:100px; padding: 50px;
 </body></html>
 ```
 
-## <span>Notes</span>
+## Notes
 
 Unlike older animation techniques based on [**setTimeout**](/dom/Window/setTimeout) and [**setInterval**](/dom/Window/setInterval) methods, **requestAnimationFrame** based animation occurs when the system is ready. This leads to smoother animations and less power consumption than animations because **requestAnimationFrame** takes the visibility of the web application and the refresh rate of the display into account, The **requestAnimationFrame** method creates only a single animation request. To create continous animation, a new request must be registered for each frame. To cancel an animation request before the animation function is called back, use [**cancelAnimationFrame**](/dom/Window/cancelAnimationFrame).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Timing control for script-based animations](http://www.w3.org/TR/animation-timing/)
 :   W3C Working Draft

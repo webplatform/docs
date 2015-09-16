@@ -18,13 +18,13 @@ tags:
 uri: dom/HTMLInputElement
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents an input element within the DOM.
 
 Inherits from [HTMLElement](/dom/HTMLElement)[HTMLElement](/dom/HTMLElement)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -59,7 +59,7 @@ API Name
 [valueAsNumber](/dom/HTMLInputElement/valueAsNumber)
 :
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -73,13 +73,13 @@ API Name
 [stepUp](/dom/HTMLInputElement/stepUp)
 :
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from HTMLElement</span>
+## Inherited from HTMLElement
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -867,7 +867,7 @@ API Name
 [text-anchor](/svg/attributes/text-anchor)
 :
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -926,14 +926,14 @@ API Name
 [toStaticHTML](/dom/HTMLElement/toStaticHTML)
 :
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Compatibility Notes</span>
+### Compatibility Notes
 
 Chrome 38 and below - [focusin](/dom/FocusEvent/focusin) is not fired when using the **tab** key to focus on the element.

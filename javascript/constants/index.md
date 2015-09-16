@@ -10,13 +10,13 @@ tags:
 uri: javascript/constants
 
 ---
-## <span>Summary</span>
+## Summary
 
 The following table lists predefined JavaScript constants that you can use in expressions.
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Constants</span>
+## Constants
 
 |Constant|Description|JavaScript object|
 |:-------|:----------|:----------------|
@@ -38,9 +38,9 @@ The following table lists predefined JavaScript constants that you can use in ex
 |[SQRT2](/javascript/Math/constants)|The square root of 2.|**Math**|
 |[undefined](/javascript/undefined)|The value of a variable that has been declared but not initialized.|**Global**|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Global Object](/javascript/Global)
 -   [Math Object](/javascript/Math)

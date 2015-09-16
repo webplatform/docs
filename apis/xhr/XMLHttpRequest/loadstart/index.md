@@ -12,11 +12,11 @@ tags:
 uri: apis/xhr/XMLHttpRequest/loadstart
 
 ---
-## <span>Summary</span>
+## Summary
 
 When the request starts.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -68,7 +68,7 @@ Default action
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [XMLHttpRequest](http://www.w3.org/TR/XMLHttpRequest/#events)
 :   W3C Working Draft

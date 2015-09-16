@@ -22,28 +22,28 @@ tags:
 uri: apis/webrtc/MediaStreamTrackList/item
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the MediaStreamTrack at the specified index value.
 
 Method of [apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)[apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = trackList.item(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>index</span>
+### index
 
  Data-type
 :   unsigned long
 
  unsigned long index, required.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type MediaStreamTrackMediaStreamTrack
 

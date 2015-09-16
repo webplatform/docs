@@ -16,26 +16,26 @@ uri: svg/elements/style
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 The **style** element enables you to embed style sheets directly within SVG content. The **style** element has the same attributes as the corresponding element in HTML.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Styling](http://go.microsoft.com/fwlink/p/?linkid=204734), Section 6.18.1
 
-### <span>Members</span>
+### Members
 
 The **SVGStyleElement** object has these events:
 

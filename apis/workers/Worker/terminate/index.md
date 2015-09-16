@@ -20,29 +20,29 @@ tags:
 uri: apis/workers/Worker/terminate
 
 ---
-## <span>Summary</span>
+## Summary
 
 Immediately terminates the worker with which the object is associated.
 
 Method of [apis/workers/Worker](/apis/workers/Worker)[apis/workers/Worker](/apis/workers/Worker)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.terminate();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 You can terminate a worker thread inside its own code by using the **self.close()** method.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft

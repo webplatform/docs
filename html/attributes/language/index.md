@@ -14,7 +14,7 @@ tags:
 uri: html/attributes/language
 
 ---
-## <span>Summary</span>
+## Summary
 
 Use the type attribute instead. Specifies the language of the script to be evaluated. May be omitted when using ECMAScript (also known as JavaScript).
 
@@ -32,11 +32,11 @@ dom/HTMLScriptElement
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Use this attribute only when you want the browser to evaluate the script in a language or a version of the language other than the default. If the browser does not support the specified language or version of the language, the script will not be evaluated.
 
-## <span>Notes</span>
+## Notes
 
 -   See the [lang](/html/attributes/lang) attribute if you want to declare the natural language of your content, eg. French, etc.
 -   When a [type](/html/attributes/type) attribute is also specified, it takes precedence over this attribute and this attribute will be ignored.

@@ -16,18 +16,18 @@ tags:
 uri: html/elements/noFrames
 
 ---
-## <span>Summary</span>
+## Summary
 
 Recognized as a deprecated element. Intended to provide content for browsers that cannot, or are configured not to, display frames.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
 Deprecated, see [[1]](http://www.w3.org/TR/html5/obsolete.html#non-conforming-features)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **NOFRAMES** element to specify HTML that is rendered by browsers incapable of displaying frames.
 
@@ -38,8 +38,8 @@ frames!</NOFRAMES>
 </FRAMESET>
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `frame`

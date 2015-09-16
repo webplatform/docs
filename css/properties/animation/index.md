@@ -22,11 +22,11 @@ tags:
 uri: css/properties/animation
 
 ---
-## <span>Summary</span>
+## Summary
 
 Shorthand property to define a CSS animation, setting all parameters at once.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `See individual properties.`
@@ -52,11 +52,11 @@ Animatable
 Percentages
 :   See individual properties.
 
-## <span>Syntax</span>
+## Syntax
 
 -   `animation: single-animation [, single-animation]*`
 
-## <span>Values</span>
+## Values
 
 single-animation [, single-animation]\*
 :   A list of values for each of the individual animation properties. The animation name and duration are required; all other values are optional. Multiple animations can be assigned as a comma-separated list.
@@ -78,7 +78,7 @@ single-animation [, single-animation]\*
 
 **Note:** The first `<time>` value is assigned to the **animation-duration**. The second `<time>` value is assigned to the **animation-delay**.
 
-## <span>Examples</span>
+## Examples
 
 See [animation-play-state](/css/properties/animation-play-state) for an example that uses the animation shorthand property.
 
@@ -90,13 +90,13 @@ nav.expanded > div.selected {
 
 [View live example](http://code.webplatform.org/gist/7044978)
 
-## <span>Usage</span>
+## Usage
 
      The animation shorthand property combines all animation properties except animation-play-state in a single declaration. The name and duration of the animation are required, but all other values are optional. When two <time> values are supplied, the first is assigned to the duration, and the second to the delay.
 
 Values for a single animation are separated by spaces. Multiple animations can be assigned as a comma-separated list.
 
-## <span>Notes</span>
+## Notes
 
 Before the advent of CSS3, most animations were performed by using Javascript to move HTML DOM elements. This was not optimal, as the browser would not know anything about the DOM element it was moving until it executed the Javascript which moved it, making hardware accelerating animations difficult for vendors. So, CSS3's animation module was born.
 
@@ -106,14 +106,14 @@ Animations use keyframes to specify points of animation and timing to state when
 
 Also, see [this CSS animations tutorial](/tutorials/css_animations).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Animations](http://www.w3.org/TR/css3-animations/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Making things move with CSS3 animations](/tutorials/css_animations)
 -   [@keyframes](/css/atrules/@keyframes)

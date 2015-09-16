@@ -22,11 +22,11 @@ tags:
 uri: css/properties/touch-action
 
 ---
-## <span>Summary</span>
+## Summary
 
 Determines whether touch input may trigger default behavior supplied by the user agent, such as panning or zooming.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -52,7 +52,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `touch-action: auto`
 -   `touch-action: manipulation`
@@ -60,7 +60,7 @@ Percentages
 -   `touch-action: pan-x`
 -   `touch-action: pan-y`
 
-## <span>Values</span>
+## Values
 
 auto
 :   The user agent MAY determine any permitted touch behaviors, such as panning and zooming manipulations of the viewport, for touches that begin on the element.
@@ -77,7 +77,7 @@ pan-y
 manipulation
 :   The user agent MAY consider touches that begin on the element only for the purposes of scrolling and continuous zooming.
 
-## <span>Examples</span>
+## Examples
 
 You might find the following example within a fingerpainting application to ensure that its canvas doesn't move when a user touches and manipulates it. When a user touches this canvas and moves his or her finger, no manipulation will occur. DOM events will be sent instead.
 
@@ -97,7 +97,7 @@ The application has content that extends horizontally beyond the viewport and th
 
 [View live example](http://www.love2dev.com/)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Pointer Events](https://dvcs.w3.org/hg/pointerevents/raw-file/tip/pointerEvents.html#the-touch-action-css-property)
 :   Editor's Draft

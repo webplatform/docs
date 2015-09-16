@@ -22,28 +22,28 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/createPattern
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a CanvasPattern object that uses the given image and repeats in the direction(s) given by the repetition argument.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.createPattern(image, repetition);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>image</span>
+### image
 
  Data-type
 :   DOM Node
 
  An image, canvas, or video element of the pattern to use. If the image has no image data, throws an *InvalidStateError* exception. If the image is not yet fully decoded, the method returns null.
 
-### <span>repetition</span>
+### repetition
 
  Data-type
 :   any
@@ -57,7 +57,7 @@ var object = object.createPattern(image, repetition);
 
 If the parameter does not match one of the allowed values, the method throws a *SyntaxError* exception.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -65,7 +65,7 @@ Returns an object of type DOM NodeDOM Node
 
 The pattern object to use as a *fill style* together with a *CanvasRenderingContext2D* object.
 
-## <span>Examples</span>
+## Examples
 
 This example uses an image in the page (repeated in both directions) as a pattern, then places a rectangle filled with that pattern onto the canvas.
 
@@ -84,11 +84,11 @@ ctxt.fill();
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 If the *repetition* parameter equals null or an empty string, the method defaults to "repeat".
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

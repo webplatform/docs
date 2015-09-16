@@ -20,7 +20,7 @@ todo_broken_links:
 uri: 'html/attributes/max (HTMLInputElement)'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The max attribute specifies the maximum value for an &lt;input&gt; element.
 
@@ -42,7 +42,7 @@ For datetime, datetime-local, month, time, and week the value of the attribute m
 
 For number and range the value of the attribute must be a number: decimal or integer.
 
-## <span>Examples</span>
+## Examples
 
 Two examples of max attributes on inputs.
 
@@ -56,11 +56,11 @@ Must be a number at least 1 and less than 101:
 
 [View live example](http://code.webplatform.org)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -200,6 +200,6 @@ Must be a number at least 1 and less than 101:
 
 -   [time](/html/elements/time)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [html/attributes/min](/html/attributes/min)

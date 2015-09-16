@@ -22,7 +22,7 @@ uri: dom/HTMLElement/name
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.name;

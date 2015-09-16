@@ -14,21 +14,21 @@ tags:
 uri: html/elements/input/type/month
 
 ---
-## <span>Summary</span>
+## Summary
 
 The month of the &lt;input&gt; element represents a widget for entering a month value.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <input type="month" value="2012-12">
 ```
 
-## <span>Notes</span>
+## Notes
 
 On Safari Mobile for iOS, setting [`display`](/css/properties/display)`: block` on an **input** of **type="month"** causes the text within the **input** to become vertically misaligned.

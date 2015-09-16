@@ -26,40 +26,40 @@ uri: dom/HTMLElement/show
 
 Method of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.show(x, y, w, h, pElement);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
-
- Data-type
-:   any
-
-### <span>y</span>
+### x
 
  Data-type
 :   any
 
-### <span>w</span>
+### y
 
  Data-type
 :   any
 
-### <span>h</span>
+### w
 
  Data-type
 :   any
 
-### <span>pElement</span>
+### h
+
+ Data-type
+:   any
+
+### pElement
 
  Data-type
 :   VARIANT
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -67,7 +67,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **show** method to create and display a pop-up window.
 
@@ -89,14 +89,14 @@ function window_onload() {
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 A **popup** object is set to the same zoom level as the parent window. Windows Internet Explorer 8. Pop-up windows zoom by default; this behavior cannot be changed.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

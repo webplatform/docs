@@ -22,32 +22,32 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/setLineDash
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the line dash properties for the stroke.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.setLineDash(sequence);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>sequence</span>
+### sequence
 
  Data-type
 :   Array
 
  An array of integers that specifies the length of each "on" and "off" segment.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
-## <span>Examples</span>
+## Examples
 
 This example sets line dash parameters and draws a dashed line across the canvas; it then retrieves the line dash parameters used and writes them into the document.
 
@@ -71,7 +71,7 @@ for (var i=0; i<ldash.length; i++) {
 </script>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

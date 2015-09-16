@@ -19,11 +19,11 @@ tags:
 uri: css/properties/border-bottom-right-radius
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines the shape of the border of the bottom-right corner.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
@@ -46,12 +46,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderBottomRightRadius`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `border-bottom-right-radius: length`
 -   `border-bottom-right-radius: percentage`
 
-## <span>Values</span>
+## Values
 
 length
 :   Denotes the size of the circle radius or the semi-major and semi-minor axes of the ellipsis. It can be expressed in any unit allowed by the [CSS \<length\> data types](/css/data_types/length). Negative values are invalid.

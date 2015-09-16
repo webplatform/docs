@@ -17,19 +17,19 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/updateIce
 
 ---
-## <span>Summary</span>
+## Summary
 
 Updates the ICE agent process that gathers local candidates and remote candidates.
 
 Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  .updateIce();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 

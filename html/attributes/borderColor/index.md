@@ -13,7 +13,7 @@ tags:
 uri: html/attributes/borderColor
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the border color of the object.
 
@@ -31,15 +31,15 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 To render the color specified by *sColor*, the [**BORDER**](/html/attributes/border) attribute must be set to an integer greater than zero. Some client applications do not recognize color names, but all client applications should recognize RGB color values and display them correctly.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `frame`
 -   `frameSet`

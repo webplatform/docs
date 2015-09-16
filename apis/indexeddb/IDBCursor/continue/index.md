@@ -24,21 +24,21 @@ tags:
 uri: apis/indexeddb/IDBCursor/continue
 
 ---
-## <span>Summary</span>
+## Summary
 
 Moves to the next record, or to the record specified by a key.
 
 Method of [apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)[apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var hasMoved = cursor.continue(key);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>key</span>
+### key
 
  Data-type
 :   String
@@ -53,13 +53,13 @@ If the key parameter is specified and fulfills any of these conditions this meth
 -   The parameter is less than or equal to this cursor's position and this cursor's direction is "next" or "nextunique".
 -   The parameter is greater than or equal to this cursor's position and this cursor's direction is "prev" or "prevunique".
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 If the steps for synchronously executing a request returns a cursor, then this function returns true. Otherwise this function returns false.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var tx = db.transaction('Contact');
@@ -73,7 +73,7 @@ while(cursor.continue()) {
 
 [View live example](http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Continue%20with%20cursor&)
 
-## <span>Usage</span>
+## Usage
 
      The continue method throws an exception if
 
@@ -81,7 +81,7 @@ while(cursor.continue()) {
 -   The cursor is currently being iterated, or has iterated past its end.
 -   The key parameter was specified but did not contain a valid key.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

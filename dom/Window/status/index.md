@@ -21,26 +21,26 @@ tags:
 uri: dom/Window/status
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the text in the status bar at the bottom of the browser or returns the previously set text.
 
 Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var message = window.status;
 window.status = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The text contents of the userAgents' Status Bar
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 window.onload=function(){
@@ -48,10 +48,10 @@ window.status='loaded.....';
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
-### <span>Syntax</span>
+### Syntax
 
 window.status = string; var value = window.status;

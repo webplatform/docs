@@ -20,11 +20,11 @@ tags:
 uri: css/properties/knock-out
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines whether an element group is a knock-out group. When a group is set to knock-out, the elements in the group only composite and blend with elements outside the group. When a group is set to preserve (the default), the elements composite normally and blend with other elements inside and outside the group.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `preserve`
@@ -50,12 +50,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `knock-out: knock-out`
 -   `knock-out: preserve`
 
-## <span>Values</span>
+## Values
 
 preserve
 :   Elements in the group composite normally and blend with other elements inside and outside the group.
@@ -63,7 +63,7 @@ preserve
 knock-out
 :   Elements in the group only composite and blend with elements outside the group.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* knock-out */
@@ -72,7 +72,7 @@ div.ko {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Compositing and Blending Level 1](http://dev.w3.org/fxtf/compositing-1)
 :   W3C Editor's Draft

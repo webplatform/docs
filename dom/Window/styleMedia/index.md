@@ -22,13 +22,13 @@ tags:
 uri: dom/Window/styleMedia
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets a StyleMedia object that contains methods and properties. These methods and properties determine the media types that are supported by the object that displays the document object.
 
 Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,23 +36,23 @@ Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 var styleMedia = window.styleMedia;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 Of type [StyleMedia](/css/media_queries/apis/StyleMedia). Returns the StyleMedia instance object.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var stype=window.styleMedia.type;
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 

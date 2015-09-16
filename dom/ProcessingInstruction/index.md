@@ -22,21 +22,21 @@ uri: dom/ProcessingInstruction
 
 Inherits from [Node](/dom/Node)[Node](/dom/Node)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from Node</span>
+## Inherited from Node
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -88,7 +88,7 @@ API Name
 [textContent](/dom/Node/textContent)
 :   Sets or retrieves the text content of a node and any child nodes.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -141,13 +141,13 @@ API Name
 [replaceChild](/dom/Node/replaceChild)
 :   Replaces an existing child node with a new child node.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 A processing instruction provides direction to an XML parser. The following code example shows a processing instruction that is specified in markup.
 
@@ -155,6 +155,6 @@ A processing instruction provides direction to an XML parser. The following code
 
 Use the [**createProcessingInstruction**](/dom/Document/createProcessingInstruction) method of a [Document](/dom/Document) to create an instance of an **ProcessingInstruction** object.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 3 Core Specification](http://go.microsoft.com/fwlink/p/?linkid=182717), Section 1.5

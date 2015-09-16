@@ -17,7 +17,7 @@ uri: 'svg/tutorials/smarter svg deploy'
 ---
 **By Mike Sierra**
 
-## <span>Summary</span>
+## Summary
 
 This brief guide shows different ways to deploy SVG, either within HTML or as standalone files, with various options to reference CSS and JavaScript.
 
@@ -151,11 +151,11 @@ This example shows how to embed or reference either CSS or JavaScript from withi
 </svg>
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 

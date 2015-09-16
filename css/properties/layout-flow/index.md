@@ -21,7 +21,7 @@ uri: css/properties/layout-flow
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :
@@ -44,9 +44,9 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 horizontal
 :   Default. Content in the object flows from left to right, and the next horizontal line is positioned underneath the previous line. This layout is used in most Roman-based documents.
@@ -56,21 +56,21 @@ vertical-ideographic
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 8. The **-ms-layout-flow** attribute is an extension to CSS, and can be used as a synonym for **layout-flow** in IE8 Standards mode. This is a deprecated property; use the [**-ms-writing-mode**](/css/properties/writing-mode) property instead. This property is read-only for the .
 
-### <span>Syntax</span>
+### Syntax
 
 `-ms-layout-flow: horizontal | vertical-ideographic`
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -150,7 +150,7 @@ Windows Internet Explorer 8. The **-ms-layout-flow** attribute is an extension 
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

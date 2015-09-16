@@ -10,11 +10,11 @@ tags:
 uri: javascript/Error
 
 ---
-## <span>Summary</span>
+## Summary
 
 Contains information about errors.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -37,7 +37,7 @@ Contains information about errors.
 **description**
 :   Optional. Brief string that describes an error. Empty string if omitted.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the Error object.
 
@@ -88,7 +88,7 @@ try
  // Description: 'y' is undefined
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 Whenever a run-time error occurs, an instance of the Error object is created to describe the error. This instance has two intrinsic properties that contain the description of the error ( **description** property) and the error number ( **number** property).
 
@@ -98,17 +98,17 @@ Error objects can also be explicitly created, using the syntax shown above, or t
 
 Typically, the local variable that is created in a **try...catch** statement refers to the implicitly created Error object. As a result, you can use the error number and description in any way you choose.
 
-## <span>Methods</span>
+## Methods
 
 [toString Method (Error)](/javascript/Error/toString) | [valueOf Method (Date)](/javascript/Date/valueOf)
 
-## <span>Properties</span>
+## Properties
 
 [constructor Property (Error)](/javascript/Error/constructor) | [number Property](/javascript/Error/description) | [prototype Property (Error)](/javascript/Error/prototype) | [stack Property (Error)](/javascript/Error/stack) | [stackTraceLimit Property (Error)](/javascript/Error/stackTraceLimit)
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [new Operator](/javascript/operators/new)
 -   [throw Statement](/javascript/statements/throw)

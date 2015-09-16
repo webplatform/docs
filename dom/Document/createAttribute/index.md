@@ -24,34 +24,34 @@ tags:
 uri: dom/Document/createAttribute
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates an attribute object with a specified name.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var attribute = document.createAttribute(name);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The name of the attribute.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The created attribute node.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //create a "style" attribute
@@ -62,17 +62,17 @@ attr.value = "color: blue";
 document.getElementById("header").setAttributeNode(attr);
 ```
 
-## <span>Notes</span>
+## Notes
 
 This method will fail if the *name* parameter value contains invalid (non-Unicode Transformation Format (UTF)-16) characters.
 
 This method only creates the attribute in the document; it does not assign a value to the attribute nor assign it to any HTML element(s). See example.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 3 Core Specification](http://go.microsoft.com/fwlink/p/?linkid=182717), Section 1.4
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

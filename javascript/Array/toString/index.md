@@ -11,21 +11,21 @@ tags:
 uri: javascript/Array/toString
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a string representation of an array.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     toString()
 
-## <span>Return Value</span>
+## Return Value
 
 The string representation of the array.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **toString** method with an array.
 
@@ -37,13 +37,13 @@ var arr = [1, 2, 3, 4];
  // Output: 1,2,3,4
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The elements of an **Array** are converted to strings. The resulting strings are concatenated and separated by commas.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.2 Array.prototype.toString ( )](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.2) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

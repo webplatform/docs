@@ -14,16 +14,16 @@ tags:
 uri: html/elements/input/type/week
 
 ---
-## <span>Summary</span>
+## Summary
 
 An input field for entering a value that represents a specific week.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <input type="week" value="2012-W52">

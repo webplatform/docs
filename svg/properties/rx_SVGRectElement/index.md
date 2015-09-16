@@ -11,9 +11,9 @@ tags:
 uri: 'svg/properties/rx (SVGRectElement)'
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If you properly specify a value for the **rx** property but not for the [**ry**](/svg/properties/ry_(SVGRectElement)) property, the [**rect**](/svg/elements/rect) element is rendered with the effective value of **ry** equal to **rx**. If you properly specify a value for **ry** but not for **rx**, the **rect** element is rendered with the effective value of **rx** equal to **ry**.
 
@@ -21,15 +21,15 @@ If you do not property specify **rx** or [**ry**](/svg/properties/ry_(SVGRectEle
 
 If **rx** is greater than half of the width of the rectangle, the [**rect**](/svg/elements/rect) element is rendered with the effective value for **rx** as half of the width of the rectangle. If [**ry**](/svg/properties/ry_(SVGRectElement)) is greater than half of the height of the rectangle, the **rect** element is rendered with the effective value for **ry** as half of the height of the rectangle.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Shapes](http://go.microsoft.com/fwlink/p/?linkid=204737), Section 9.8.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGRectElement**](/svg/elements/rect)
 -   [**ellipse**](/svg/elements/ellipse)

@@ -12,11 +12,11 @@ uri: 'tutorials/getting started with webgl'
 **By Erik Möller, Chris Mills**
 Originally published February 29, 2012
 
-## <span>Summary</span>
+## Summary
 
 This article covers what you need to get started with WebGL
 
-## <span>Introduction</span>
+## Introduction
 
 WebGL allows you to create real 3D content and render it in a web browser. WebGL is the web implementation of OpenGL ES2 (Embedded Systems 2), and therefore allows us to run real 3D across any system with a browser that supports it and the graphics capabilities to handle such visually rich content. In web technology terms, WebGL is the 3D drawing context of the HTML5 `<canvas>` element.
 
@@ -26,7 +26,7 @@ This tutorial, created by Erik Möller in video format (with Chris Mills transcr
 
 **Note**: [Access the full WebGL 101 code example set](https://github.com/emoller/WebGL101) and links to see the examples running live, at Github
 
-## <span>Getting prepared</span>
+## Getting prepared
 
 To get started with WebGL, and this article series, you should have:
 
@@ -35,7 +35,7 @@ To get started with WebGL, and this article series, you should have:
 -   A web server that supports XHR, to serve some of the examples. Pretty much anything will do. For an easy option, you could install [MAMP](http://www.mamp.info/), or use the command `python -m SimpleHttpServer 8080` on your shell/command line if you have Python installed.
 -   A decent text editor for writing code.
 
-## <span>Let's get started!</span>
+## Let's get started!
 
 Let's begin by creating a new HTML file and saving it with a suitable name (01-minimal.html in the code download.)
 
@@ -85,7 +85,7 @@ Figure 1: A very simple WebGL output.
 
 **Note**: WebGL code will seem rather complicated to many of you: being based on OpenGL, it is actually close to C++ code. For those of you wanting to understand it in depth, you should consult a set of C++ tutorials such as [cplusplus.com/doc/tutorial](http://www.cplusplus.com/doc/tutorial/).
 
-## <span>Drawing something meaningful</span>
+## Drawing something meaningful
 
 With this basic setup under our belt, let's go forward and start by drawing an actual shape. The finished result from this section can be found as 02-minimal-draw.html in the code download. To create 3D content, WebGL uses the ES2.0 programmable pipeline, shown in Figure 2. We will refer to this multiple times throughout the walkthrough below.
 
@@ -195,7 +195,7 @@ gl.drawArrays(gl.TRIANGLES, 0, 3);
 
  We are using `drawArrays` to draw our vertices out. As arguments we specify `TRIANGLES` because we want to draw a filled triangle (we could have used `LINE_LOOP` if we just wanted to draw an outline), 0 to specify that we want to start drawing from the first vertex, and the number three to declare that we have three vertices to draw.
 
-### <span>Creating our program functions</span>
+### Creating our program functions
 
 Ah, but there's more. To finally get our triangle displayed nicely on our canvas, we need to actually create our `createProgram()` function, as referenced earlier! Put the following into your script, just below the `<script>` tag, then we'll dissect it line by line.
 
@@ -241,7 +241,7 @@ To get here, we used the following logical process: bear in mind that the data a
 -   The program will try to draw a triangle using the first three vertices from the input.
 -   It'll feed each vertex in turn through the vertex shader, getting a homogenous four component coordinate for each one. It'll then take the coordinates and rasterise a triangle, giving it spans of pixels that should be drawn to the canvas. To know what colour to draw each of the pixels in it'll consult the fragment shader, passing it any input we've specified (in this case none, since we're just drawing with a constant colour) and getting a four component colour value to put in the pixel.
 
-## <span>Reusing common code</span>
+## Reusing common code
 
 The above is all well and good, but in the course of our work we'll want to create a lot more shaders and programs. Let's make ourselves a utility library that we can reuse! Create a new JavaScript file and call it something suitable. Delete the last two functions you created out of your HTML file, and put them in your JavaScript file. It's called webgl-utils.js in the code download.
 
@@ -251,7 +251,7 @@ Now reference your utility script from your HTML file, like so:
 <script src='webgl-utils.js'></script>
 ```
 
-## <span>Adding rudimentary error handling</span>
+## Adding rudimentary error handling
 
 Let's improve these functions by adding in some error handling. To handle general JavaScript errors, we'll use the nice [window.onerror handler](http://dev.opera.com/articles/view/better-error-handling-with-window-onerror/). First of all, add the following general error handling function to the top of your utility file:
 

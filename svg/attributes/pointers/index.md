@@ -28,9 +28,9 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **pointerEvents** property affects the circumstances under which the following are processed:
 
@@ -40,17 +40,17 @@ The **pointerEvents** property affects the circumstances under which the followi
 
 -   Hyperlinks (that is, the [**a**](/svg/elements/a) element)
 
-### <span>Syntax</span>
+### Syntax
 
     pointer-events: visiblePainted | visibleFill | visibleStroke | visible | painted | fill | stroke | all | none | inherit
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Interactivity](http://go.microsoft.com/fwlink/p/?linkid=204743), Section 16.6
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)

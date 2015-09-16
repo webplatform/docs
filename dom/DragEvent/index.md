@@ -22,7 +22,7 @@ uri: dom/DragEvent
 
 Inherits from [MouseEvent](/dom/MouseEvent)[MouseEvent](/dom/MouseEvent)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -30,7 +30,7 @@ API Name
 [dataTransfer](/dom/DragEvent/dataTransfer)
 :
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -38,7 +38,7 @@ API Name
 [initDragEvent](/dom/DragEvent/initDragEvent)
 :   Initializes a new drag event.
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -64,9 +64,9 @@ API Name
 [drop](/dom/DragEvent/drop)
 :
 
-## <span>Inherited from MouseEvent</span>
+## Inherited from MouseEvent
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -108,7 +108,7 @@ API Name
 [y](/dom/MouseEvent/y)
 :   Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -116,7 +116,7 @@ API Name
 [initMouseEvent](/dom/MouseEvent/initMouseEvent)
 :   Initializes a new mouse event that the [**createEvent**](/dom/Document/createEvent) method created.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -150,6 +150,6 @@ API Name
 
 **Needs Examples**: This section should include examples.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.9.2

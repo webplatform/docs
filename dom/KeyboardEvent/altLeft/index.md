@@ -24,14 +24,14 @@ uri: dom/KeyboardEvent/altLeft
 
 Property of [dom/KeyboardEvent](/dom/KeyboardEvent)[dom/KeyboardEvent](/dom/KeyboardEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.altLeft;
 element.altLeft = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **altLeft** property to indicate when the user presses the left or right ALT keys.
 
@@ -86,10 +86,10 @@ function AltUp() {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/starLeft.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This property is currently supported only in Microsoft Windows NT 4.0 and Windows 2000. The [Document](/dom/Document) must have **focus** for this property to return true. No **altRight** property is available. Authors can test for the right ALT key by using the **altKey** and **altLeft** properties.
 
-### <span>Syntax</span>
+### Syntax

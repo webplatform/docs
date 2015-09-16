@@ -21,7 +21,7 @@ tags:
 uri: 'apis/web animations/AnimationTimingReadOnly/iterations'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The animation node’s iteration count property.
 
@@ -29,7 +29,7 @@ A real number greater than or equal to zero (including positive infinity) repres
 
 Property of [apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)[apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/
 var result = element.iterations;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type doubledouble
 

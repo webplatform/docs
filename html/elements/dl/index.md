@@ -20,15 +20,15 @@ todo_broken_links:
 uri: html/elements/dl
 
 ---
-## <span>dl</span>
+## dl
 
 For technical reasons, the title of this article is not the text used to call this API. Instead, use `dl`
 
-## <span>Summary</span>
+## Summary
 
 The dl element is used to define a description list. The element encloses one or more description terms, enclosed in dt elements, and description definitions (definitions of the terms), enclosed within dd elements.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLDListElement](/dom/HTMLDListElement)
@@ -79,7 +79,7 @@ The topics should always be placed before the descriptions.
 
 A description list is not used as commonly as other types of list, except in journals, research papers, and other documentation where item/value pairs need to be displayed. For other uses, they are often not used as they are considered more difficult to style than other list types.
 
-## <span>Examples</span>
+## Examples
 
 This example shows a simple definition list with two item/description pairs.
 
@@ -128,7 +128,7 @@ margin-top: 16px;
 margin-bottom: 16px;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-dl-element)
 :   W3C Working Draft
@@ -139,9 +139,9 @@ margin-bottom: 16px;
 [HTML 4.01](http://www.w3.org/TR/html401/struct/lists.html#edef-DL)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [`dir`](/html/elements/dir)
 -   [`menu`](/html/elements/menu)
@@ -151,7 +151,7 @@ margin-bottom: 16px;
 -   [`dt`](/html/elements/dt)
 -   [`dd`](/html/elements/dd)
 
-### <span>External resources</span>
+### External resources
 
 -   [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/HTML/Element/dl)
 -   [Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/ms535241%28v=vs.85%29.aspx)

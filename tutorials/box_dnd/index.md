@@ -14,11 +14,11 @@ uri: 'tutorials/box dnd'
 **By David Tong**
 Originally published Sept. 25, 2010
 
-## <span>Summary</span>
+## Summary
 
 An introduction to native drag-and-drop download.
 
-## <span>Introduction</span>
+## Introduction
 
 Drag and Drop (DnD) is one of the many great features of HTML5. Google recently rolled out a [new feature](http://gmailblog.blogspot.com/2010/08/drag-and-drop-attachments-to-save-them.html) that allows Google Chrome users to drag and drop files from the browser to the desktop. It is an extremely convenient feature, but it was not widely known until Ryan Seddon posted an article on the [discoveries](http://www.thecssninja.com/javascript/gmail-dragout) of his reverse engineering on this new feature.
 
@@ -26,7 +26,7 @@ At Box.net, we are very excited about how these new capabilities are enabling us
 
 I would like to share how I went through several iterations during the development of this new feature.
 
-## <span>Check for Drag and Drop API Support</span>
+## Check for Drag and Drop API Support
 
 The first thing to do is check that your browser fully supports HTML5 drag and drop. An easy way to do that is use a library called [Modernizr](http://www.modernizr.com/) to check for the specific feature:
 
@@ -36,7 +36,7 @@ The first thing to do is check that your browser fully supports HTML5 drag and d
        // Fallback to a library solution.
      }
 
-## <span>Iteration 1</span>
+## Iteration 1
 
 I first tried the approach that Seddon found in Gmail. I added a new attribute called `data-downloadurl` to anchor links of files. This process uses HTML5's [custom data attributes](http://ejohn.org/blog/html-5-data-attributes/). In `data-downloadurl`, you need to include the MIME type of the file, the destination file name (the desired file name of the downloaded file), and the download URL of the file. Thus, this is added to the HTML template:
 
@@ -80,13 +80,13 @@ The reason I did this is that without prior browser detection, doing `addEventLi
 
 But I prefer feature detection to browser detection, though this technically does not detect that DnD download will work.
 
-### <span>Problems of iteration 1</span>
+### Problems of iteration 1
 
 1) Because we currently have on-page DnD enabled for moving/copying files between folders, we need a way to distinguish between DnD Download and on-page DnD. Technically, we cannot combine these two actions. We cannot predict whether the user wants to move a file to another folder within the Box.net account or drag it to their desktop, and these two actions are completely different. Moreover, there is no easy way to detect if the cursor is outside the browser window. You could use `window.onmouseout` (IE) and `document.onmouseout` (other browsers) to attach a mouseout event to the document, and check if `e.relatedTarget.nodeName == 'HTML'` (e is the mouseout event or window.event, whichever is available). But this is quite difficult due to event bubbling. The event may trigger randomly when you are over an image or layer, especially in a complex web app like Box.net.
 
 2) We want the user to explicitly do something to prevent them from dragging something out to the desktop by mistake. Potentially, an editor of a Box folder can upload an executable file that does something undesirable on the computer of whoever downloads it. Thus we want the user to know exactly when a file would be downloaded to the desktop.
 
-## <span>Iteration 2</span>
+## Iteration 2
 
 We decided to experiment with control + drag (dragging a file when the Windows Ctrl key is pressed). This action is consistent with what people can do on a Windows desktop to duplicate a file. It also requires extra work (but not an extra step) from the user to prevent files from being downloaded by mistake.
 
@@ -115,7 +115,7 @@ The jQuery plugin in iteration 1 is abandoned now because we need to tightly int
 
 Other than enabling the Ctrl key, we also added a little toaster tooltip, which shows up when the user performs a regular on-page drag. It tells the user that files can be downloaded if the file icon is dragged to the desktop while the Ctrl key is being held.
 
-### <span>Problems of iteration 2</span>
+### Problems of iteration 2
 
 Due to security concerns, Box.net does not expose permanent URLs to directly access static files. This is not unique to Box.net. Any online storage service should not expose permanent URLs without an extra layer of security to check if the file is public and whether the intended download is requested by a user with appropriate permissions.
 
@@ -129,7 +129,7 @@ To better illustrate the differences between an *actual URL* and a *redirect URL
 
 *Actual URL* ![Actual URL](/assets/public/b/b0/dnd02-actualurl.png)
 
-## <span>Iteration 3</span>
+## Iteration 3
 
 Let's try Ajax.
 
@@ -200,7 +200,7 @@ With this feature, you can be creative and make a lot of things possible. Draggi
 
 *Dragging a file to an IM client* ![Dragging a file to an IM client](/assets/public/8/8d/dnd04-dragtoim.png)
 
-## <span>Thoughts and future improvements</span>
+## Thoughts and future improvements
 
 This is still less than ideal, as a synchronous call could lock up the browser for a brief moment. The HTML5 Web Worker does not help either, as a Web Worker has to be asynchronous. It does seem like `setData` has to be done at the time when the event listener is attached.
 
@@ -213,6 +213,6 @@ I also hope that the capability of multi-file download will be added to the API 
 -   Creating an image gallery
 -   Exporting a canvas image
 
-## <span>References</span>
+## References
 
 -   [Drag and Drop](http://www.whatwg.org/specs/web-apps/current-work/multipage/dnd.html#dnd) specification

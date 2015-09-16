@@ -24,34 +24,34 @@ tags:
 uri: dom/NamedNodeMap/removeNamedItem
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes an attribute with a given name.
 
 Method of [dom/NamedNodeMap](/dom/NamedNodeMap)[dom/NamedNodeMap](/dom/NamedNodeMap)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var attribute = attributes.removeNamedItem(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The name of an [**attribute**](/dom/HTMLElement) to remove.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The removed attribute.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use this method to remove an [**attribute**](/dom/HTMLElement) from an element.
 
@@ -77,11 +77,11 @@ Click this DIV and the tooltip will be deactivated.</div>
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/removeNamedItemEx1.htm)
 
-## <span>Notes</span>
+## Notes
 
 An **attribute** that is removed with this method reverts to the default value of the **attribute** when applicable. This method returns a script error if the user attempts to remove a non-existent attribute node. **removeNamedItem** was introduced in Microsoft Internet Explorer 6.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

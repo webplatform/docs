@@ -14,7 +14,7 @@ tags:
 uri: 'apis/network information'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides an interface for web applications to access the underlying connection information of the device.
 
@@ -24,22 +24,22 @@ API Name
 [NetworkInformation](/apis/network_information/NetworkInformation)
 :   Is exposed on the Navigator object, and all instances of the Navigator type are defined to also implement the NetworkInformation interface.
 
-## <span>Usage</span>
+## Usage
 
      The main use case of the Network Information API is to allow applications to be gentle with the user's bandwidth when they know it is rare or expensive.
 
-## <span>Notes</span>
+## Notes
 
 As of 25 June 2014:
 
 -   Formal work on the [Network Information](http://www.w3.org/TR/netinfo-api/) spec has been stopped. The specification is now a W3C Note.
 -   Both Chrome and Firefox have shipped Network Information under an experimental feedback channel.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Mobile</span>
+#### Mobile
 
 -   [Battery Status API](/apis/battery_status)
 
@@ -53,7 +53,7 @@ As of 25 June 2014:
 
 -   [capture](/html/attributes/capture)
 
-### <span>External resources</span>
+### External resources
 
 -   [Network Information API](http://www.w3.org/TR/netinfo-api/)
 -   [Network Information API - W3C Working Draft 29 November 2012](http://www.w3.org/TR/2012/WD-netinfo-api-20121129/)

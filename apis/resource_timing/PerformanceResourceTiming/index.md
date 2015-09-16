@@ -13,11 +13,11 @@ tags:
 uri: 'apis/resource timing/PerformanceResourceTiming'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Includes all resources fetched from the networking layer by the current browsing context.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -58,15 +58,15 @@ API Name
 [secureConnectionStart](/apis/resource_timing/PerformanceResourceTiming/secureConnectionStart)
 :   Returns the time immediately before the user agent starts the handshake process to secure the current connection.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Resource Timing Specification](http://www.w3.org/TR/resource-timing/#performanceresourcetiming)
 :   W3C Candidate Recommendation

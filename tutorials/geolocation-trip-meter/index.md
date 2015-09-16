@@ -13,17 +13,17 @@ uri: tutorials/geolocation-trip-meter
 **By Michael Mahemoff**
 Originally published May 24, 2010
 
-## <span>Summary</span>
+## Summary
 
 An introduction to the geolocation API by building a simple trip meter.
 
-## <span>Introduction</span>
+## Introduction
 
 The [Geolocation API](http://dev.w3.org/geo/api/) lets you find out where the user is and keep tabs on them as they move around, always with the user's consent. This functionality could be used as part of user queries, e.g., to guide someone to a destination point. It could also be used for "geo-tagging" some content the user has created, e.g., to mark where a photo was taken. The API is device-agnostic; it doesn't care how the browser determines location, so long as clients can request and receive location data in a standard way. The underlying mechanism might be GPS, wifi, or simply asking the user to enter their location manually. Since any of these lookups is going to take some time, the API is asynchronous; you pass it a callback method whenever you request a location.
 
 The example here is a trip meter showing the initial location and maintaining a display of the distance travelled since the page was loaded.
 
-## <span>Step 1. Check for Compatibility</span>
+## Step 1. Check for Compatibility
 
 You can easily check for compatibility by testing for the presence of the geolocation object:
 
@@ -35,7 +35,7 @@ You can easily check for compatibility by testing for the presence of the geoloc
       console.log('Geolocation is not supported for this Browser/OS version yet.');
     }
 
-## <span>Step 2. Declare the Trip Meter HTML</span>
+## Step 2. Declare the Trip Meter HTML
 
 In this example, you're building a trip meter, so declare the following HTML:
 
@@ -56,7 +56,7 @@ In this example, you're building a trip meter, so declare the following HTML:
 
 The next few steps will use the Geolocation API to populate all those empty spans.
 
-## <span>Step 3. Determine the User's Current Location</span>
+## Step 3. Determine the User's Current Location
 
 `getCurrentPosition()` will asynchronously report on the user's current location. Call it as soon as the page loads, so that it will correctly populate—and save for later—the starting position:
 
@@ -73,7 +73,7 @@ If this is the first time an application on this domain has requested permission
 
 Having run this code, you should now be able to see the starting position. Depending on the location device your browser is using, the position object might actually contain a lot more than just latitude and longitude, e.g., it could include an altitude or a direction. You can explore further by logging the position variable to the console.
 
-## <span>Step 4. Handle Errors</span>
+## Step 4. Handle Errors
 
 Unfortunately, not all location lookups are successful. Perhaps a GPS could not be located or the user has suddenly disabled location lookups. A second, optional, argument to `getCurrentPosition()` will be called in the event of an error, so you can notify the user inside the callback:
 
@@ -91,7 +91,7 @@ Unfortunately, not all location lookups are successful. Perhaps a GPS could not 
        });
      };
 
-## <span>Step 5. Monitor the User's Location</span>
+## Step 5. Monitor the User's Location
 
 The previous call to `getCurrentPosition()` is only executed once, on page load. To track changes, use `watchPosition()`. It will automatically notify a callback function whenever the user moves:
 
@@ -101,7 +101,7 @@ The previous call to `getCurrentPosition()` is only executed once, on page load.
        document.getElementById('currentLon').innerHTML = position.coords.longitude;
      });
 
-## <span>Step 6. Show Distance Travelled</span>
+## Step 6. Show Distance Travelled
 
 This step isn't directly related to the Geolocation API, but rounds off the demo and provides an example of how you might use location data. Add an extra line to the `watchPosition()` handler to populate the distance travelled:
 
@@ -129,6 +129,6 @@ The `calculateDistance()` function performs a geometric algorithm to determine t
        return this * Math.PI / 180;
      }
 
-## <span>The Final Product</span>
+## The Final Product
 
 Please see the [original HTML5Rocks! article](http://www.html5rocks.com/en/tutorials/geolocation/trip_meter/) for a live trip meter demo using the geolocation feature.

@@ -11,11 +11,11 @@ tags:
 uri: 'apis/web animations/AnimationTimeline'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Representation of a timeline, including the document timeline.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -23,7 +23,7 @@ API Name
 [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 :   Returns the time value for this timeline or null if this timeline is inactive.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -34,7 +34,7 @@ API Name
 [play](/apis/web_animations/AnimationTimeline/play)
 :   Creates a new [**AnimationPlayer**](/apis/web_animations/AnimationPlayer) object associated with this timeline that begins playback as soon as it is ready.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 

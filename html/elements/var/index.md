@@ -22,16 +22,16 @@ tags:
 uri: html/elements/var
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines a variable.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **VAR** element to render the word "filename" in italic type.
 
@@ -39,21 +39,21 @@ This example uses the **VAR** element to render the word "filename" in italic ty
 Enter the <VAR>filename</VAR> in the dialog box.
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The actual formatting of a **VAR** element is determined by the browser. Windows Internet Explorer renders the **VAR** element in italic type. The actual formatting of a **VAR** element is determined by the mode used to render it.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 9.2.1
 
-### <span>HTML information</span>
+### HTML information
 
 {
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-var-element)
 :   W3C Working Draft

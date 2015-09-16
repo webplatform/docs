@@ -22,11 +22,11 @@ tags:
 uri: css/properties/break-after
 
 ---
-## <span>Summary</span>
+## Summary
 
 The CSS break-after property allows you to force a break on multi-column layouts. More specifically, it allows you to force a break after an element. It allows you to determine if a break should occur, and what type of break it should be. The break-after CSS property describes how the page, column or region break behaves after the generated box. If there is no generated box, the property is ignored.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -49,7 +49,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `breakAfter`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `break-after: always`
 -   `break-after: auto`
@@ -63,7 +63,7 @@ Animatable
 -   `break-after: region`
 -   `break-after: right`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Default. A page break or column break is determined by the flow of content.
@@ -98,7 +98,7 @@ region
 avoid-region
 :   A [region](/css/concepts/region) break is not allowed after the content block.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* forces top-level headings onto a new page, column, or region */
@@ -132,13 +132,13 @@ break-after: column;
 
 [View live example](http://code.webplatform.org/gist/7281550)
 
-## <span>Usage</span>
+## Usage
 
      The break-after property is not supported for absolutely positioned elements.
 
 This property replaces separate **column-break-after**, **page-break-after**, and **region-break-after** properties, which may still be present in some browser implementations.
 
-## <span>Notes</span>
+## Notes
 
 The break-after property is ignored if there is no generated box or flows defined. So most of the times, you have to define a flow of content to test the property.
 
@@ -150,16 +150,16 @@ If any of the three concerned values is a forced break value, that is always, le
 
 If any of the three concerned values is an avoid break value, that is avoid, avoid-page, avoid-region, avoid-column, no such break will be applied at that point.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/#region-flow-break)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Multi-Column</span>
+#### Multi-Column
 
 -   **break-after**
 
@@ -185,7 +185,7 @@ If any of the three concerned values is an avoid break value, that is avoid, avo
 
 -   [content](/css/properties/content)
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -243,18 +243,18 @@ If any of the three concerned values is an avoid break value, that is avoid, avo
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Using CSS Regions to flow content through a layout](/tutorials/css-regions)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

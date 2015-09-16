@@ -24,55 +24,55 @@ tags:
 uri: dom/Document/createTreeWalker
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a TreeWalker object that you can use to traverse filtered lists of nodes or elements in a document.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var treeWalker = document.createTreeWalker(rootNode, whatToShow, filter, entityReferenceExpansion);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>rootNode</span>
+### rootNode
 
  Data-type
 :   DOM Node
 
  The root element or node to start traversing on.
 
-### <span>whatToShow</span>
+### whatToShow
 
  Data-type
 :   unsigned long
 
  The type of nodes or elements to appear in the node list. For more information, see [**whatToShow**](/dom/NodeIterator/whatToShow).
 
-### <span>filter</span>
+### filter
 
  Data-type
 :   DOM Node
 
  A custom **NodeFilter** function to use. For more information, see [**filter**](/dom/NodeIterator/filter), or null for none.
 
-### <span>entityReferenceExpansion</span>
+### entityReferenceExpansion
 
  Data-type
 :   Boolean
 
  Whether entity reference nodes are expanded. For more information, see [**expandEntityReferences**](/dom/NodeIterator/expandEntityReferences).
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 A [**TreeWalker**](/dom/TreeWalker) instance object.
 
-## <span>Examples</span>
+## Examples
 
 The following code example shows how to use [**TreeWalker**](/dom/TreeWalker) objects to find and remove references. The iterator returns all text nodes from the document **body** and searches for `Monday` in text and [**id**](/html/attributes/id) attributes of parent nodes. The script matches text by using the [**wholeText**](/dom/Text/wholeText) property of the node.
 
@@ -113,17 +113,17 @@ function refresh()
 </html>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use the createTreeWalker method when you want to navigate a representation of the document's hierarchical structure. If you would rather traverse a sequence of nodes without regard to document structure, use createNodeIterator.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Traversal and Range](http://www.w3.org/TR/DOM-Level-2-Traversal-Range/traversal.html#Traversal-Document)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `createNodeIterator`

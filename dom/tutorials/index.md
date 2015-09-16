@@ -10,7 +10,7 @@ tags:
 uri: dom/tutorials
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page lists tutorials designed to teach you all the concepts and practical techniques you'll need to know to do DOM manipulation.
 

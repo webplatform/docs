@@ -22,7 +22,7 @@ tags:
 uri: apis/webaudio/AudioParam/computedValue
 
 ---
-## <span>Summary</span>
+## Summary
 
 The final value controlling the audio DSP, calculated at each time, which is either the value set directly to the value attribute or, if there are any scheduled parameter changes (automation events), the value as calculated from these events.
 
@@ -30,7 +30,7 @@ The final value controlling the audio DSP, calculated at each time, which is eit
 
 Property of [apis/webaudio/AudioParam](/apis/webaudio/AudioParam)[apis/webaudio/AudioParam](/apis/webaudio/AudioParam)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [apis/webaudio/AudioParam](/apis/webaudio/AudioParam)[apis/webaudio/
 var result = AudioParam.computedValue;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

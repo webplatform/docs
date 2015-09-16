@@ -21,24 +21,24 @@ tags:
 uri: apis/appcache/ApplicationCache/onupdateready
 
 ---
-## <span>Summary</span>
+## Summary
 
 The ApplicationCache object's cache host is associated with an application cache whose application cache group's update status is idle, and whose application cache group is not marked as obsolete, but that application cache is not the newest cache in its group.
 
 Property of [apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)[apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = window.applicationCache.onupdateready;
 window.applicationCache.onupdateready = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type nullnull
 
-## <span>Examples</span>
+## Examples
 
 Checking fo the updateready status
 
@@ -61,7 +61,7 @@ window.applicationCache.addEventListener('updateready',function () {
 }, false);
 ```
 
-## <span>Notes</span>
+## Notes
 
 If this event indicates that the resources have been redownloaded, the script can use [swapCache](/apis/appcache/ApplicationCache/swapCache) to switch to the new cache. If there is more than one event, the **updateready** event will be the last one in the sequence. Alternatively, you could use an anonymous delegate function such as
 
@@ -69,7 +69,7 @@ If this event indicates that the resources have been redownloaded, the script ca
 
 where e is the cached event.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C ApplicationCache Specification](http://dev.w3.org/html5/spec/single-page.html#application-cache-api)
 :   W3C Editor's Draft

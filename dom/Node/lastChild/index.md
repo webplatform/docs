@@ -19,20 +19,20 @@ tags:
 uri: dom/Node/lastChild
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets a reference to the last child in the childNodes collection of an object.
 
 Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.lastChild;
 element.lastChild = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following code example implements the **lastChild** property to obtain a reference to the last child element of an object.
 
@@ -49,19 +49,19 @@ var olastChild = oList.lastChild;
 <body>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Used to remove and append nodes to user lists and tables.
 
-### <span>Syntax</span>
+### Syntax
 
 var last\_child = element.lastChild
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 1.2
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Core](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#ID-61AD09FB)
 :   Recommendation

@@ -23,14 +23,14 @@ uri: css/properties/-ms-scrollbar-track-color
 
 Property of [css/properties](/css/properties)[css/properties](/css/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.-ms-scrollbar-track-color;
 element.-ms-scrollbar-track-color = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to create a style rule that sets the **-ms-scrollbar-track-color** property for a **textArea** element.
 
@@ -48,21 +48,21 @@ The following example shows how to create a style rule that sets the **-ms-scrol
 </HTML>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 8. The **-ms-scrollbar-track-color** attribute is an extension to CSS, and can be used as a synonym for **scrollbar-track-color** in IE8 Standards mode. The track is the element of a scroll bar on which the scroll box can slide either up and down or left and right. The scroll box is the square box within a scroll bar that can be moved either up and down or left and right on a track to change the position of the content on the screen. This property applies to elements that display a scroll bar. Cascading Style Sheets (CSS) enable scrolling on all objects through the [**overflow**](/css/properties/overflow) property. These objects are not listed in the Applies To list for this property.
 
-### <span>Syntax</span>
+### Syntax
 
 `-ms-scrollbar-track-color: variant`
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Scrollbar</span>
+#### Scrollbar
 
 -   [-ms-scrollbar-3d-light-color](/css/properties/-ms-scrollbar-3d-light-color)
 
@@ -80,7 +80,7 @@ Windows Internet Explorer 8. The **-ms-scrollbar-track-color** attribute is an 
 
 -   **-ms-scrollbar-track-color**
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

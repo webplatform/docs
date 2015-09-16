@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/operators/division assignment'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Divides the value of a variable by the value of an expression and assigns the result to the variable.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Divides the value of a variable by the value of an expression and assigns the re
 **expression**
 :   Any numeric expression.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var x = 9;
@@ -34,13 +34,13 @@ x /= 3;
 // result: x = 3
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 Using the **/=** operator is the same as specifying: `result = result / expression`.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Division Operator (/)](/javascript/operators/division)
 

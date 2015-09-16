@@ -18,13 +18,13 @@ todo_broken_links:
 uri: webgl
 
 ---
-## <span>Summary</span>
+## Summary
 
 WebGL is a standard that allows you to create real 3D content and render it in a web browser. WebGL is the web binding to the OpenGL ES 2.0 graphics API, and therefore allows us to run real 3D across any system with a browser that supports it and the graphics capabilities to handle such visually rich content. WebGL is maintained by the Khronos Group for 3D graphics on the Web. In web technology terms, WebGL is the 3D drawing context of the HTML5 &lt;canvas&gt; element and can be used through the HTML5 Canvas element with a Javascript API.
 
-# <span>webgl</span>
+# webgl
 
-## <span>WebGL educational material</span>
+## WebGL educational material
 
 You can start studying WebGL with the [WebGL tutorials](/webgl/tutorials).
 
@@ -47,24 +47,24 @@ The following videos feature tutorials and explanations about WebGL
 
 -   [Google I/O 2011: WebGL Techniques and Performance by Greg Tavares](http://www.youtube.com/watch?v=rfQ8rKGTVlg)
 
-## <span>WebGL reference</span>
+## WebGL reference
 
 You can consult the [WebGL Reference](/webgl/reference)
 
 Additional reference resources on WebGL can be found on the [Khronos WebGL page](http://www.khronos.org/webgl/)
 
-## <span>WebGL Availability</span>
+## WebGL Availability
 
 Not all browsers support WebGL yet. To test whether your browser supports WebGL go to the [[test page](http://get.webgl.org/%7CWebGL)]
 
-### <span>Statistics of support</span>
+### Statistics of support
 
 |Source|Support|
 |:-----|:------|
 |[WebGL Stats](http://webglstats.com), July 4, 2014|74%|
 |[Can I Use](http://caniuse.com/#feat=webgl), July 4, 2014|65%|
 
-### <span>Browser Support</span>
+### Browser Support
 
 | |IE|Firefox|Chrome|Safari|Opera|iOS Safari|Opera Mini|Android Browser|Chrome for Android|
 |:--|:--|:------|:-----|:-----|:----|:---------|:---------|:--------------|:-----------------|
@@ -72,20 +72,20 @@ Not all browsers support WebGL yet. To test whether your browser supports WebGL 
 
 [Source: Can I Use, May 1. 2015](http://caniuse.com/#feat=webgl)
 
-### <span>OS, GPU and Driver Support</span>
+### OS, GPU and Driver Support
 
 The criteria for support differ from browser to browser. The details of support are listed at:
 
 -   [The Google Chrome WebGL and 3D graphics support page](http://support.google.com/chrome/bin/answer.py?hl=en&answer=1220892)
 -   [The Mozilla Wiki entry on Blocked Graphics Drivers](https://wiki.mozilla.org/Blocklisting/Blocked_Graphics_Drivers)
 
-## <span>Examples / Best Practices</span>
+## Examples / Best Practices
 
 -   [Drawing Images using WebGL](/w/index.php?title=webgl/examples/Drawing_Images_using_WebGL&action=edit&redlink=1)
 -   [Working with the Convolution Matrix](/w/index.php?title=webgl/examples/Working_with_the_Convolution_Matrix&action=edit&redlink=1)
 -   [Working with the Extended ColorTransform Matrix](/w/index.php?title=webgl/examples/Working_with_the_Extended_ColorTransform_Matrix&action=edit&redlink=1)
 
-## <span>Index of WebGL topics</span>
+## Index of WebGL topics
 
 ||
 |[webgl/reference](/webgl/reference)|[webgl/tutorials](/webgl/tutorials)|

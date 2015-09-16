@@ -22,63 +22,63 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/setTransform
 
 ---
-## <span>Summary</span>
+## Summary
 
 Resets the current transform to the identity matrix, and then invokes the transform(a, b, c, d, e, f) method with the same arguments.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.setTransform(a, b, c, d, e, f);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>a</span>
+### a
 
  Data-type
 :   any
 
  The m1,1 value in the matrix.
 
-### <span>b</span>
+### b
 
  Data-type
 :   any
 
  The m1,2 value in the matrix.
 
-### <span>c</span>
+### c
 
  Data-type
 :   any
 
  The m2,1 value in the matrix.
 
-### <span>d</span>
+### d
 
  Data-type
 :   any
 
  The m2,2 value in the matrix.
 
-### <span>e</span>
+### e
 
  Data-type
 :   any
 
  The delta x (dx) value in the matrix.
 
-### <span>f</span>
+### f
 
  Data-type
 :   any
 
  The delta y (dy) value in the matrix.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -86,7 +86,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
@@ -103,13 +103,13 @@ ctxt.fillRect(0, 0, 250, 100);
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The transformation matrix of the current context is reset back to the identity matrix. After it is reset, the transformation matrix of the context is multipled by the matrix that the specified parameters form.
 
 The arguments *a, b, c, d, e, f* are sometimes called *m11, m12, m21, m22, dx, dy* or *m11, m21, m12, m22, dx, dy*. Care should be taken in particular with the order of the second and third arguments (*b* and *c*) as their order varies from API to API; APIs sometimes use the notation *m12/m21* and sometimes *m21/m12* for those positions.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

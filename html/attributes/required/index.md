@@ -14,7 +14,7 @@ tags:
 uri: html/attributes/required
 
 ---
-## <span>Summary</span>
+## Summary
 
 The required attribute is a boolean attribute. When present, it specifies that an input field must be filled out before submitting the form.
 
@@ -30,7 +30,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 A required input field
 
@@ -38,20 +38,20 @@ A required input field
 Username: <input type="text" name="username" required>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The attribute can be set on text, text area, URL, email, select, checkbox, or radio button elements. It is a Boolean attribute and needs to be specified only on an element. When users hover the mouse over a required field, they’ll see a tool tip stating that it is a required field. The following example shows the validation attribute on a text input field.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/forms.html#the-required-attribute)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLInputElement`
 -   `HTMLSelectElement`

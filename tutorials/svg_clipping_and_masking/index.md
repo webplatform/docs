@@ -17,7 +17,7 @@ todo_broken_links:
 uri: 'tutorials/svg clipping and masking'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article explains how clipping and masking work in SVG.
 
@@ -27,7 +27,7 @@ Erasing part of what one has created cumbersome might at first sight look contra
 
 **Masking** on the other hand allows soft edges by taking transparency and grey values of the mask into account.
 
-### <span>Creating clips</span>
+### Creating clips
 
 We create the above mentioned semicircle based on a `circle` element:
 
@@ -45,7 +45,7 @@ The `rect` will not be painted, however. Instead, its pixel data will be used to
 
 We now have a semicircle without having to deal with arcs in path elements. For the clipping, every path inside the `clipPath` is inspected and evaluated together with its stroke properties and transformation. Then every part of the target lying in a transparent area of the resulting `clipPath`'s content will not rendered. Color, opacity and such have no effect as long as they don't let parts vanish completely.
 
-### <span>Masking</span>
+### Masking
 
 The effect of masking is most impressively presented with a gradient. If you want an element to fade out, you can achieve this effect quite quickly with masks.
 
@@ -68,7 +68,7 @@ You see a green-filled `rect` at the lowest layer and on top a red-filled `rect`
 
 ![maskdemo.png](/assets/public/e/ec/maskdemo.png)
 
-### <span>Transparency with opacity</span>
+### Transparency with opacity
 
 There is a simple possibility to set the transparency for a whole element. It's the `opacity` attribute:
 
@@ -83,6 +83,6 @@ The above rectangle will be painted half-transparent. For the fill and stroke, t
 
 You see in this example the red circle on blue background. The yellow stroke is set to 50% opacity, which effectively leads to a double-color stroke.
 
-## <span>Using well-known CSS techniques</span>
+## Using well-known CSS techniques
 
 One of the most powerful tools in a web developer's toolbox is `display: none`. There is therefore little surprise that it was decided to take this CSS property into SVG as well, together with `visibility` and `clip` as defined by CSS 2. For reverting a previously set `display: none`, it is important to know that the initial value for all SVG elements is `inline`.

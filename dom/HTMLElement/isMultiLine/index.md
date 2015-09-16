@@ -24,14 +24,14 @@ uri: dom/HTMLElement/isMultiLine
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.isMultiLine;
 element.isMultiLine = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **isMultiLine** property to determine whether the content of an object can contain only one line or multiple lines of text.
 
@@ -60,4 +60,4 @@ Can the TEXTAREA contain more than one line?</BUTTON>
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/ismultilineEX1.htm)
 
-### <span>Syntax</span>
+### Syntax

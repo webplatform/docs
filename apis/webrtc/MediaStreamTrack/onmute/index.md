@@ -18,13 +18,13 @@ tags:
 uri: apis/webrtc/MediaStreamTrack/onmute
 
 ---
-## <span>Summary</span>
+## Summary
 
 Handles the muted event when fired on the MediaStream object.
 
 Property of [apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)[apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onmute;

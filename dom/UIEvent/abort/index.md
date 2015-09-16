@@ -12,11 +12,11 @@ tags:
 uri: dom/UIEvent/abort
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fires when the user aborts the download.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -70,7 +70,7 @@ Halts downloading of the designated image, but not due to an error
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 ``` js
 <img id="imgLogo" title="Click to view larger image" src="example.com/small.jpg" alt="small logo"/>
@@ -96,13 +96,13 @@ myAddEvent(el,'click',imgResize);
 myAddEvent(el,'abort',imgAbortHandler);
 ```
 
-## <span>Usage</span>
+## Usage
 
      Used to recover the original resource if the user cancels the download.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Halts downloading of the designated image, but not due to an error. To invoke this event, do one of the following:
 
@@ -140,13 +140,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLDocumentEvents4**
 -   **HTMLElementEvents4**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 6.1.6.2
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

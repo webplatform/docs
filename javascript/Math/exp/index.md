@@ -10,17 +10,17 @@ tags:
 uri: javascript/Math/exp
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns e (the base of natural logarithms) raised to a power.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     Math.exp( number )
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var v1 = Math.exp(1.0);
@@ -28,7 +28,7 @@ document.write(v1);
 // Output: 2.718281828459045
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required number argument is a numeric expression representing the power of e.
 
@@ -36,9 +36,9 @@ The return value is a number. The constant e is Euler's number, approximately eq
 
 **Applies To** : [Math Object](/javascript/Math)
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math Constants](/javascript/Math/constants)
 

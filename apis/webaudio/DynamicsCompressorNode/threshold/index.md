@@ -20,13 +20,13 @@ tags:
 uri: apis/webaudio/DynamicsCompressorNode/threshold
 
 ---
-## <span>Summary</span>
+## Summary
 
 The decibel value above which the compression will start taking effect. Its default value is -24, with a nominal range of -100 to 0. This parameter is k-rate.
 
 Property of [apis/webaudio/DynamicsCompressorNode](/apis/webaudio/DynamicsCompressorNode)[apis/webaudio/DynamicsCompressorNode](/apis/webaudio/DynamicsCompressorNode)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,11 +34,11 @@ Property of [apis/webaudio/DynamicsCompressorNode](/apis/webaudio/DynamicsCompre
 var result = DynamicsCompressorNode.threshold;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -46,7 +46,7 @@ var compressor = audioCtx.createDynamicsCompressor();
 compressor.threshold.value = -50;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

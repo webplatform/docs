@@ -18,32 +18,32 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/removeHitRegion
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes a previously-defined hit region.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.removeHitRegion(options);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>options</span>
+### options
 
  Data-type
 :   String
 
  This parameter is of type *HitRegionOptions*. See Related Specifications for details.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
@@ -68,11 +68,11 @@ try {
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 A *hit region* is an arbitrary rectangular area on the canvas that responds to user events, with the goal of simplifying event detection.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

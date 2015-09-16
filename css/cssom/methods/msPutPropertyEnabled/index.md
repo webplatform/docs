@@ -19,42 +19,42 @@ tags:
 uri: css/cssom/methods/msPutPropertyEnabled
 
 ---
-## <span>Summary</span>
+## Summary
 
 Non standard. Sets a property as enabled or disabled.
 
 Method of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  declaration.msPutPropertyEnabled(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The name of the property.
 
-### <span>enable</span>
+### enable
 
  Data-type
 :   Boolean
 
  Whether to enable or disable the property.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `style`

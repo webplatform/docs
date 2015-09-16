@@ -12,7 +12,7 @@ tags:
 uri: html/attributes/noValidate
 
 ---
-## <span>Summary</span>
+## Summary
 
 When present, it specifies that the form-data (input) should not be validated when submitted.
 
@@ -32,20 +32,20 @@ The novalidate attribute is a boolean attribute.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The following example shows a form that has required fields but won't be validated when submitted.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.19.6
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLFormElement`

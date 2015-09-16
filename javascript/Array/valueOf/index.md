@@ -11,21 +11,21 @@ tags:
 uri: javascript/Array/valueOf
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the primitive value of the specified object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     valueOf()
 
-## <span>Return Value</span>
+## Return Value
 
 Returns the array instance.
 
-## <span>Examples</span>
+## Examples
 
 In the following example, the instantiated array object is the same as the return value of this method.
 
@@ -42,9 +42,9 @@ var arr = [1, 2, 3, 4];
  // same
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.2.4.4 Object.prototype.valueOf ( )](http://www.ecma-international.org/ecma-262/5.1/#sec-15.2.4.4) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

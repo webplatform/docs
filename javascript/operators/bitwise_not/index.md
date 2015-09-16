@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/operators/bitwise not'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Performs a bitwise NOT (negation) on an expression.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Performs a bitwise NOT (negation) on an expression.
 **expression**
 :   Any expression.
 
-## <span>Examples</span>
+## Examples
 
 See Remarks for explanation
 
@@ -35,7 +35,7 @@ var temp = ~5;
 //result is -6
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 All unary operators, such as the \~ operator, evaluate expressions as follows:
 
@@ -61,9 +61,9 @@ The resulting value is -6, as shown in the following table.
 |5|00000000 00000000 00000000 00000101|5|
 |\~5|11111111 11111111 11111111 11111010|-6|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Logical NOT Operator (!)](/javascript/operators/logical_not)
 

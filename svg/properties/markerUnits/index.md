@@ -11,22 +11,22 @@ tags:
 uri: svg/properties/markerUnits
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If you do not specify the **markerUnits** property, the effect is the same as if you specify a value of **SVG\_MARKERUNITS\_STROKEWIDTH**.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols](http://go.microsoft.com/fwlink/p/?linkid=199816), Section 11.9.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
-### <span>Reference</span>
+### Reference
 
 -   [**SVGMarkerElement**](/svg/elements/marker)

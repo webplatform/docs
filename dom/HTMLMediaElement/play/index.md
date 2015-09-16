@@ -22,23 +22,23 @@ tags:
 uri: dom/HTMLMediaElement/play
 
 ---
-## <span>Summary</span>
+## Summary
 
 Loads and starts playback of a media resource.
 
 Method of [dom/HTMLMediaElement](/dom/HTMLMediaElement)[dom/HTMLMediaElement](/dom/HTMLMediaElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.play();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 Play method example.
 
@@ -92,19 +92,19 @@ Play method example.
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 To change the URL that is currently playing, assign it to [**src**](/dom/HTMLMediaElement/src). This method sets [**paused**](/dom/HTMLMediaElement/paused) to false. To change the URL using the **source** element, or if the original video was specified by the **source** element, call [**load**](/dom/HTMLMediaElement/load) before calling **play**.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.8.9.8
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `media`
 -   `audio`

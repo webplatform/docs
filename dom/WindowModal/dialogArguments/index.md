@@ -20,20 +20,20 @@ tags:
 uri: dom/WindowModal/dialogArguments
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the arguments that are specified when showModalDialog is called.
 
 Property of [dom/WindowModal](/dom/WindowModal)[dom/WindowModal](/dom/WindowModal)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var arguments = window.dialogArguments;
 window.dialogArguments = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to get information passed into a modal dialog window by using the **dialogArguments** property. The code corresponds to two different files. One file launches the modal window and the other file stores the code for the modal window.
 
@@ -102,6 +102,6 @@ document.write(sLastName);
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/dialogArgumentsCallerEX1.htm)
 
-## <span>Notes</span>
+## Notes
 
 This property applies only to windows that are created with the [**showModalDialog**](/dom/Window/showModalDialog) method.

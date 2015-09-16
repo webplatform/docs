@@ -22,7 +22,7 @@ tags:
 uri: apis/webaudio/AudioProcessingEvent/playbackTime
 
 ---
-## <span>Summary</span>
+## Summary
 
 The time when the audio will be played, in the same time coordinate system as AudioContext.currentTime. playbackTime allows for very tight synchronization between processing directly in JavaScript with the other events in the context's rendering graph.
 
@@ -30,7 +30,7 @@ The time when the audio will be played, in the same time coordinate system as Au
 
 Property of [apis/webaudio/AudioProcessingEvent](/apis/webaudio/AudioProcessingEvent)[apis/webaudio/AudioProcessingEvent](/apis/webaudio/AudioProcessingEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [apis/webaudio/AudioProcessingEvent](/apis/webaudio/AudioProcessingE
 var result = AudioProcessingEvent.playbackTime;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

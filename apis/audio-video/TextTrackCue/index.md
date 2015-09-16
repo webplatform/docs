@@ -13,11 +13,11 @@ tags:
 uri: apis/audio-video/TextTrackCue
 
 ---
-## <span>Summary</span>
+## Summary
 
 A text track cue is the unit of time-sensitive data in a text track corresponding, for instance, for subtitles and captions to the text that appear at a particular time and disappear at another time.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -58,7 +58,7 @@ API Name
 [vertical](/apis/audio-video/TextTrackCue/vertical)
 :   A string representing the text track cue writing direction, as follows. If it is horizontal: The empty string. If it is vertical growing left: The string "rl". If it is vertical growing right: The string "lr".
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -66,15 +66,15 @@ API Name
 [getCueAsHTML](/apis/audio-video/TextTrackCue/getCueAsHTML)
 :   Returns the text track cue text as a DocumentFragment of HTML elements and other DOM nodes.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 Individual cues are returned from a [TextTrackCueList](/apis/audio-video/TextTrackCueList) object (collection of cues). Cues can also be created and added to a track.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

@@ -10,11 +10,11 @@ tags:
 uri: javascript/statements/for
 
 ---
-## <span>Summary</span>
+## Summary
 
 Executes a block of statements for as long as a specified condition is true.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -34,7 +34,7 @@ Executes a block of statements for as long as a specified condition is true.
 **statement**
 :   Optional. One or more statements to be executed if test is **true**. Can be a compound statement.
 
-## <span>Examples</span>
+## Examples
 
 In the following example, the for statement executes the enclosed statements as follows:
 
@@ -70,7 +70,7 @@ var j = 0;
  // Output: 1 2 3 4 5
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 You usually use a for loop when the loop is to be executed a known number of times. A for loop is useful for iterating over arrays and for performing sequential processing.
 
@@ -78,9 +78,9 @@ The test of a conditional expression occurs before the execution of the loop, so
 
 On any line in a for loop statement block, you can use the break statement to exit the loop, or you can use the continue statement to transfer control to the next iteration of the loop.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [for...in Statement](/javascript/statements/for_in)
 -   [while Statement](/javascript/statements/while)

@@ -13,23 +13,23 @@ tags:
 uri: css/cssom/styleSheets
 
 ---
-## <span>Summary</span>
+## Summary
 
 A collection of the document's stylesheets.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to display the titles of the style sheets in the document.
 
@@ -40,8 +40,8 @@ for ( i = 0; i < document.styleSheets.length; i++ )
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Style sheets that are imported using the [**@import**](/css/atrules/@import) rule and are contained within the **style** object are available through the [**imports**](/css/cssom/imports) collection.

@@ -23,13 +23,13 @@ tags:
 uri: dom/ValidityState/stepMismatch
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns whether the input field value does not fit the rules given by the step attribute.
 
 Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/ValidityState)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/Vali
 var result = element.validity.stepMismatch;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Whether a value does not fit the rules given by the **step** attribute.
 
-## <span>Examples</span>
+## Examples
 
 The following example validates a numeric (type="number") input field on the onblur event handler. Since the step value is 2 and min and max are even, if a odd number is entered the custom validity message is displayed when the form is submitted.
 
@@ -70,7 +70,7 @@ el.addEventListener('blur',validFactor,false);
 </script>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

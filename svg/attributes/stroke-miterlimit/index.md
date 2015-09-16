@@ -28,23 +28,23 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The ratio of miter length (distance between the outer tip and the inner corner of the miter) to [**strokeWidth**](/svg/attributes/stroke-width) is directly related to the angle (theta) between the segments in user space by the formula: **miterLength / stroke-width = 1 / sin ( theta / 2 )**
 
-### <span>Syntax</span>
+### Syntax
 
     stroke-miterlimit: inherit
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols](http://go.microsoft.com/fwlink/p/?linkid=199816), Section 11.4
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)
@@ -60,7 +60,7 @@ The ratio of miter length (distance between the outer tip and the inner corner o
 -   [**SVGPolylineElement**](/svg/elements/polyline)
 -   [**SVGPolygonElement**](/svg/elements/polygon)
 
-### <span>Reference</span>
+### Reference
 
 -   [**stroke**](/svg/attributes/stroke)
 -   [**strokeDasharray**](/svg/attributes/stroke-dasharray)

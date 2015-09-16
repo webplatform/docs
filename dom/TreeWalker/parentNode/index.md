@@ -23,25 +23,25 @@ tags:
 uri: dom/TreeWalker/parentNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the parent object in the document hierarchy relative to the current node and updates currentNode.
 
 Method of [dom/TreeWalker](/dom/TreeWalker)[dom/TreeWalker](/dom/TreeWalker)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var node = treewalker.parentNode();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 Object that receives the parent node in the filtered TreeWalker hierarchy.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var treewalker = document.createTreeWalker(
@@ -53,21 +53,21 @@ var treewalker = document.createTreeWalker(
 var node = treewalker.parentNode(); // returns null as there is no parent
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **parentNode** sets the [**currentNode**](/dom/TreeWalker/currentNode) to the returned node.
 
     If no such node exists, or if it is above the TreeWalker's root node, returns null and the current node is not changed.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 1.2
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-treewalker-parentnode)
 :   Living Standard

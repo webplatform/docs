@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/Entry/isDirectory
 
 ---
-## <span>Summary</span>
+## Summary
 
 True if the Entry is a directory.
 
@@ -30,7 +30,7 @@ True if the Entry is a directory.
 
 Property of [apis/filesystem/Entry](/apis/filesystem/Entry)[apis/filesystem/Entry](/apis/filesystem/Entry)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [apis/filesystem/Entry](/apis/filesystem/Entry)[apis/filesystem/Entr
 var result = Entry.isDirectory;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://www.w3.org/TR/file-system-api/)
 :   W3C Working Group Note

@@ -16,12 +16,12 @@ uri: svg/elements/radialGradient
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, a radial gradient fills a rectangle. The gradient is defined in a definition and fills the rectangle by referencing the gradient. The gradient runs from magenta to cyan, starting in the center with magenta and working outward to cyan.
 
@@ -56,9 +56,9 @@ The radial-filled rectangle will look like this:
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -66,11 +66,11 @@ The **radialGradient** element inherits properties from its ancestors instead of
 
 The **display** property does not apply to the **radialGradient** element. **radialGradient** elements are not directly rendered even if the **display** property is set to a value other than **none**. But **radialGradient** elements are available for referencing even when the **display** property on the **radialGradient** element or any of its ancestors is set to **none**.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.3
 
-### <span>Members</span>
+### Members
 
 The **SVGRadialGradientElement** object has these properties:
 

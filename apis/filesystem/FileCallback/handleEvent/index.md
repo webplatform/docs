@@ -18,7 +18,7 @@ tags:
 uri: apis/filesystem/FileCallback/handleEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Used to supply a File as a response to a user query.
 
@@ -26,28 +26,28 @@ Used to supply a File as a response to a user query.
 
 Method of [apis/filesystem/FileCallback](/apis/filesystem/FileCallback)[apis/filesystem/FileCallback](/apis/filesystem/FileCallback)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  FileCallback.handleEvent(file);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>file</span>
+### file
 
  Data-type
 :   String
 
  A File as a response to a user query.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

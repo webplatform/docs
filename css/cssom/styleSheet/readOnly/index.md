@@ -23,13 +23,13 @@ tags:
 uri: css/cssom/styleSheet/readOnly
 
 ---
-## <span>Summary</span>
+## Summary
 
 Non standard. Indicates if the style sheet is currently in read only mode.
 
 Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](
 var isReadOnly = stylesheet.readOnly;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -45,13 +45,13 @@ Returns whether the style sheet is currently in read only mode.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 You cannot modify style sheets obtained through a **link** object or the [**@import**](/css/atrules/@import) rule while the [**designMode**](/dom/Document/designMode) property is enabled. For more information, see Introduction to MSHTML Editing.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `styleSheet`
 -   `rule`

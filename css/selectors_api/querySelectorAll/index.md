@@ -28,28 +28,28 @@ todo_broken_links:
 uri: 'css/selectors api/querySelectorAll'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a list of elements that match a provided selector.
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var elementList = element.querySelectorAll(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>selector</span>
+### selector
 
  Data-type
 :   String
 
  A selector or multiple selectors (separated by commas).
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -57,20 +57,20 @@ A collection of DOM element nodes. The collection may be empty.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 This method differs from the [**querySelector**](/css/selectors_api/querySelector) method by returning a collection of DOM element nodes that match the selector string, rather than only the first element found. Calling this method with an unknown selector (due to the browser not implementing it, or due to typo and such) may throw an exception.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Selectors API Level 1](http://www.w3.org/TR/selectors-api/)
 :   Proposed Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   **querySelectorAll**
 
@@ -146,7 +146,7 @@ This method differs from the [**querySelector**](/css/selectors_api/querySelecto
 
 -   [type](/css/selectors/type)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Document`
 -   `a`

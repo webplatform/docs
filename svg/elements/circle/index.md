@@ -14,16 +14,16 @@ tags:
 uri: svg/elements/circle
 
 ---
-## <span>Summary</span>
+## Summary
 
 The circle element is an SVG basic shape, used to create circles based on a center point and a radius.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, the circle element is used to draw a tomato-colored circle with radius 50.
 
@@ -33,19 +33,19 @@ In the following code example, the circle element is used to draw a tomato-color
 </svg>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 The arc of a **circle** element begins at the 3 o'clock point on the radius and progresses towards the 9 o'clock point. The starting point and direction of the arc are affected by the user space transform in the same manner as the geometry of the element.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Shapes](http://www.w3.org/TR/SVG11/shapes.html#InterfaceSVGCircleElement), Section 9.8.2
 
-### <span>Members</span>
+### Members
 
 Specific attributes of **SVGCircleElement**:
 
@@ -97,7 +97,7 @@ The **SVGCircleElement** object has these methods:
 -   [**getTransformToElement**](/svg/methods/getTransformToElement): Gets the transformation matrix that transforms from the user coordinate system on the current element to the user coordinate system on the specified target element.
 -   [**hasExtension**](/svg/methods/hasExtension): Determines if the specified extension is supported.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [SVG 1.1](http://www.w3.org/TR/SVG/shapes.html#CircleElement)
 :   W3C Recommendation

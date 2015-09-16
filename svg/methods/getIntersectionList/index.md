@@ -10,22 +10,22 @@ uri: svg/methods/getIntersectionList
 ---
 {Flags |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup |State=Not Ready |Editorial notes=No editing form }}
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 A graphics element is considered a match only if the same graphics element can be a target of pointer events.
 
-### <span>Syntax</span>
+### Syntax
 
     var retval = SVGSVGElement.getIntersectionList(rect, referenceElement);
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGSVGElement**](/svg/elements/svg)

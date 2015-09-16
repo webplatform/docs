@@ -16,7 +16,7 @@ todo_broken_links:
 uri: css/properties
 
 ---
-## <span>Summary</span>
+## Summary
 
 CSS properties are the key to altering the styling of HTML elements in your web documents.
 

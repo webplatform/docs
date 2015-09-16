@@ -10,7 +10,7 @@ tags:
 uri: css/keywords
 
 ---
-## <span>Summary</span>
+## Summary
 
 Index page for CSS keywords.
 

@@ -13,21 +13,21 @@ tags:
 uri: css/functions/translateY()
 
 ---
-## <span>Summary</span>
+## Summary
 
 Transform function for a 2d translation which moves an element on the y-axis by the given value. Note that the y-axis increases vertically downwards: positive lengths shift the element down, while negative lengths shift it up.
 
-## <span>Syntax</span>
+## Syntax
 
 **translateY( \<translation-value\> )**
 
-## <span>Parameters</span>
+## Parameters
 
 **translation-value**
 
 *Value for the translation across the y-axis. Can be a [length](/css/data_types/length) or a [percentage](/css/data_types/percentage) value.*
 
-## <span>Examples</span>
+## Examples
 
 The example shows three div elements, that are transformed individually with the translateY() function.
 
@@ -51,11 +51,11 @@ The example shows three div elements, that are transformed individually with the
 
 [View live example](http://codepen.io/Fischaela/pen/uxgil)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Transforms</span>
+#### Transforms
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -89,7 +89,7 @@ The example shows three div elements, that are transformed individually with the
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>External resources</span>
+### External resources
 
 -   [CSS Transforms Module, Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223145), Section 13.1
 -   [Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246)

@@ -20,76 +20,76 @@ tags:
 uri: dom/MessageEvent/initMessageEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initializes a new cross-document message (XDM) event that the createEvent method created.
 
 Method of [dom/MessageEvent](/dom/MessageEvent)[dom/MessageEvent](/dom/MessageEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  event.initMessageEvent(eventType, canBubble, cancelable, data, origin, lastEventId, source);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>eventType</span>
+### eventType
 
  Data-type
 :   String
 
  The name of the event. Sets the value for the [**type**](/dom/Event/type) property.
 
-### <span>canBubble</span>
+### canBubble
 
  Data-type
 :   Boolean
 
  Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
 
-### <span>cancelable</span>
+### cancelable
 
  Data-type
 :   Boolean
 
  Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
 
-### <span>data</span>
+### data
 
  Data-type
 :   any
 
  The cross-document message. Sets the value for the [**data**](/dom/MessageEvent/data) property.
 
-### <span>origin</span>
+### origin
 
  Data-type
 :   String
 
  The originating domain of the message. Sets the value for the [**origin**](/dom/MessageEvent/origin) property.
 
-### <span>lastEventId</span>
+### lastEventId
 
  Data-type
 :   String
 
  Not used. Set this parameter to an empty string.
 
-### <span>source</span>
+### source
 
  Data-type
 :   Object
 
  A reference to the **window** that generated the event. Sets the value for the [**source**](/dom/MessageEvent/source) property.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

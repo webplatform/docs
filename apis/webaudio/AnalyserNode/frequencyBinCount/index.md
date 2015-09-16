@@ -20,24 +20,24 @@ tags:
 uri: apis/webaudio/AnalyserNode/frequencyBinCount
 
 ---
-## <span>Summary</span>
+## Summary
 
 Half the fftSize (the size of the FFT used for frequency-domain analysis).
 
 Property of [apis/webaudio/AnalyserNode](/apis/webaudio/AnalyserNode)[apis/webaudio/AnalyserNode](/apis/webaudio/AnalyserNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = AnalyserNode.frequencyBinCount;
 AnalyserNode.frequencyBinCount = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -45,7 +45,7 @@ var analyser = audioCtx.createAnalyser();
 var bufferLength = analyser.frequencyBinCount;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

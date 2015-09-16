@@ -9,7 +9,7 @@ tags:
 uri: grid
 
 ---
-## <span>grid</span>
+## grid
 
 A composition device used to ensure that all elements in a layout will appear at coordinates that can be easily predicted. Effective grid use can make a layout more coherent and improve readability and comprehension of the content.
 

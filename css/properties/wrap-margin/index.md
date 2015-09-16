@@ -22,11 +22,11 @@ tags:
 uri: css/properties/wrap-margin
 
 ---
-## <span>Summary</span>
+## Summary
 
 Set the value that is used to offset the inner wrap shape from other shapes. Inline content that intersects a shape with this property will be pushed by this shape's margin.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
@@ -49,16 +49,16 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `wrap-margin: <length>`
 
-## <span>Values</span>
+## Values
 
 \<length\>
 :   The value that is used to offset the inner wrap shape from other shapes.
 
-## <span>Examples</span>
+## Examples
 
 In the following example, we have an image with a CSS class and a paragraph wrapped in a P tag.
 
@@ -80,8 +80,8 @@ In the CSS class, we float the image left, set its shape to be the same image, a
 }
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 See also: [wrap-flow](/css/properties/wrap-flow) property

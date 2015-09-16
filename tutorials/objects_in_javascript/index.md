@@ -10,11 +10,11 @@ tags:
 uri: 'tutorials/objects in javascript'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article takes the concept of functions further, looking at how you can encapsulate functions and variables into reusable packages of functionality called objects.
 
-## <span>Introduction</span>
+## Introduction
 
 The [functions article](http://www.w3.org/wiki/JavaScript_functions) that this follows introduced the concept of functions, teaching you how to better organize and reuse your code by grouping individual activities into logical chunks that you can call whenever you like. Now that you’re comfortable with these essential components of JavaScript programming, I’d like to expand upon their application by introducing **objects**. Objects enable you to gather together the related bundles of functionality you define as functions, and bind them into a coherent package that you can pass around and refer to as a *single item*. This ability has very practical impacts upon the code you’re able to write, even if it sounds a little abstract at the moment.
 
@@ -22,7 +22,7 @@ You might not have noticed it, but you’ve been implicitly exposed to objects t
 
 Note: There is an example available for you to download or run live, which contains code to calculate the area of a triangle, both with and without objects. This code is built up in the explanations below. Run the [triangle objects example](http://dev.opera.com/articles/view/objects-in-javascript/triangle_area.html).
 
-## <span>Why objects?</span>
+## Why objects?
 
 The single most important reason to care about objects is their capacity to improve your code’s representation of the data and processes you’re implementing. As a trivial example, consider how you’d write code that did some sort of work with a triangle. You know that triangles in general have three sides, so to deal with a specific triangle the obvious thing to do is to create three variables:
 
@@ -53,7 +53,7 @@ Further, I’ve used a nicely generic name for the function and each of the vari
 
 In the same way that it makes sense to create a function that bundles up a series of commands into a single, well-named activity, it makes sense here to create an object that brings each “thing” together into a single unit. Instead of being limited to JavaScript’s natively-supported primitive data types (strings, numbers, booleans, etc.), objects enable you to build your own amalgamation of any number of variables of any type. This free-form flexibility enables you to build structures that map quite directly to the “things” you’re concerned with when writing your programs, and to use them directly in your code just like you’d use native primitives. Here, I should build triangle and rectangle objects, each containing all the data necessary to deal intelligently with the shape, as well as all the activities I might want to perform with it. With that goal in mind, let’s get into some syntax.
 
-## <span>Familiar territory</span>
+## Familiar territory
 
 If you look back to the [final functions example from the previous article](http://devfiles.myopera.com/articles/616/functions_4.html), you’ll see code snippets like:
 
@@ -77,7 +77,7 @@ The dot operator expects an object on its left, and a property name on its right
 
 The next snippet is a little more interesting: it has *two* dots. One of the really exciting things about JavaScript’s object support is the notion of **chaining** dots together to dive down into complex structures. In short, you can chain objects together the same way that you can execute `var x = 2 + 3 + 4 + 5;` and expect a resulting 14; the object references simply resolve themselves, left to right (you can impress your friends by explaining that this makes the JavaScript dot operator into a “left-associative infix operator”). In this case, `obj.style` is evaluated, resolving to an object whose `background` property is then accessed. If you like, you can make this explicit in your code by adding parentheses: `(obj.style).background`.
 
-## <span>Creating objects</span>
+## Creating objects
 
 To build my own triangle object, I’ll create it explicitly using the following syntax:
 
@@ -111,7 +111,7 @@ triangle.getArea    =   function ( a, b, c ) {
 
  If you’re thinking that this looks a *lot* like defining a function, you’re spot on: I’ve simply left off the function’s name entirely. JavaScript has the concept of an *anonymous* function that doesn’t have a name of its own, but is instead stored in a variable just like any other value. In this code, I’m creating an anonymous function, and storing it in the `triangle` object’s `getArea` property. The object then carries that function around with it, just like it carries any other property.
 
-## <span>Self-reference</span>
+## Self-reference
 
 One of the goals of creating the `triangle` object was to create a bond between the triangle’s data and the actions I can perform on the data. I haven’t accomplished that yet, however. You’ll notice right away that the `triangle.getArea` method still requires that the side length data be passed in when it’s executed, resulting in code that looks like this:
 
@@ -139,7 +139,7 @@ triangle.getArea    =   function () {
 
 Note: This is a bit of an oversimplification. `this` doesn’t *always* refer to the object on which a method is defined, but instead can change based on specific contexts. Sorry for the obscurity here, but it’s a bit beyond the scope of this article. That said, you can rest assured that in the context I’m using it here, `this` will always refer to the `triangle` object.
 
-## <span>Objects as associative arrays</span>
+## Objects as associative arrays
 
 The dot operator isn’t the only way to access an object’s properties and methods; they can also be accessed quite efficiently using the **subscript** notation**you’ll probably be familiar with from the earlier [discussion of arrays](http://www.w3.org/wiki/Programming_-_the_real_basics#Arrays). In short, you can treat an object as an**associative array**that maps a string to a value in the same way that a typical** array maps a number to a value. Using this notation, you could rewrite `triangle` a second way:
 
@@ -176,7 +176,7 @@ function isPropertyShared( objectA, objectB, propertyName ) {
 
 Note: An associative array is called a “hash” in Perl, a “hashtable” in C\#, a “map” in C++, a “hashmap” in Java, a “dictionary” in Python, and so on. It’s a very powerful and foundational concept in programming, and you might already know it under a different name.
 
-## <span>The object literal</span>
+## The object literal
 
 Let’s take a close look at some code that’s probably quite familiar:
 
@@ -215,19 +215,19 @@ var triangle = {
 
 One thing to watch out for, though: it's a very common mistake to put a comma after the last item in the object literal’s list of properties (in this case, after the `getArea` definition). Only put commas *between* properties — an extra comma at the end will cause errors. Especially when coming back to code later to insert or remove values, you’ll need to be very careful to keep commas in the right places.
 
-## <span>Summary — there’s much more to learn</span>
+## Summary — there’s much more to learn
 
 This is really just scratching the surface of object capabilities and limitations in JavaScript. After reading through, you should be comfortable creating your own objects, adding properties and methods, and using them in simple self-referential ways. There’s a lot more out there, but none of it is *essential* for you in your explorations. This article is meant to start you down the path, and give you the tools you need to understand code you’ll be exposed to as you delve deeper into the subject.
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [Object Oriented JavaScript](http://nefariousdesigns.co.uk/archive/2006/05/object-oriented-javascript/): A good introduction to more advanced object-oriented concepts in JavaScript.
 -   [Private Members in JavaScript](http://javascript.crockford.com/private.html): Douglas Crockford’s seminal discussion of implementing encapsulation in JavaScript.
 -   [Scope in JavaScript](http://www.digital-web.com/articles/scope_in_javascript/): A more advanced discussion of the intricacies of the `this` keyword in various contexts.
 
-### <span>Exercise questions</span>
+### Exercise questions
 
 -   When might you want to use subscript notation instead of dot notation when referencing an object’s properties?
 -   How can an object refer to itself? Why is this valuable?

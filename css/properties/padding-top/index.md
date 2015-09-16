@@ -24,11 +24,11 @@ tags:
 uri: css/properties/padding-top
 
 ---
-## <span>Summary</span>
+## Summary
 
 The padding-top CSS property of an element sets the padding space required on the top of an element. The padding area is the space between the content of the element and its border. Contrary to margin-top values, negative values of padding-top are invalid.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
@@ -54,12 +54,12 @@ Animatable
 Percentages
 :   [[CSS percentages::refer to [width](/css/properties/width) of closest block-level ancestor]]
 
-## <span>Syntax</span>
+## Syntax
 
 -   `padding-top: length`
 -   `padding-top: percentage`
 
-## <span>Values</span>
+## Values
 
 length
 :   Specifies a positive fixed distance. See [length](/css/data_types/length) for details.
@@ -67,7 +67,7 @@ length
 percentage
 :   A percentage with respect to the height of the containing block.
 
-## <span>Examples</span>
+## Examples
 
 The following examples use the **padding-top** property to change the padding of the elements.
 
@@ -83,11 +83,11 @@ td { padding-top: 30px; }
 
 [View live example](http://code.webplatform.org/gist/6948429)
 
-### <span>Syntax</span>
+### Syntax
 
 `padding-top:  <length>  |  <percentage>`
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS basic box model](http://www.w3.org/TR/css3-box/)
 :   W3C Working Draft

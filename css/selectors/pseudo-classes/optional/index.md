@@ -26,7 +26,7 @@ optional=
 
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Examples</span>
+## Examples
 
 The following example puts a green border on a field when it is valid and a red border with bold text when it isn't. The email field is required, but the others aren't. The URL field is pre-filled with a bad URL, so it isn't valid when the page opens. In addition, the two optional fields are styled with light gray backgrounds, and the required field with an eye-catching yellow background.
 
@@ -64,13 +64,13 @@ The following example puts a green border on a field when it is valid and a red 
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 An *optional* field is defined as any [input](http://go.microsoft.com/fwlink/p/?LinkID=219805) field that can accept the [required](http://go.microsoft.com/fwlink/p/?LinkId=233321) attribute but does not have it set, plus any [select](http://go.microsoft.com/fwlink/p/?LinkId=233312) and [textarea](http://go.microsoft.com/fwlink/p/?LinkID=236896) elements that don't have the [required](http://go.microsoft.com/fwlink/p/?LinkId=233321) attribute set.
 
-### <span>Syntax</span>
+### Syntax
 
 selector
 
@@ -80,16 +80,16 @@ optional
 
 </dd>
 </dl>
-### <span>Parameters</span>
+### Parameters
 
 *selector*
 :   A CSS simple selector.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Pseudo-Classes</span>
+#### Pseudo-Classes
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -141,7 +141,7 @@ optional
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -217,7 +217,7 @@ optional
 
 -   [type](/css/selectors/type)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTML5 Forms (Internet Explorer 10 Guide for Developers)`
 -   `required attribute`

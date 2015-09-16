@@ -12,15 +12,15 @@ tags:
 uri: 'concepts/Internet and Web/mime types'
 
 ---
-## <span>Summary</span>
+## Summary
 
 MIME types enable browsers to recognize the filetype of a file which has been sent via HTTP by the webserver. As a result the browser is able to choose a suitable displaying method. Common MIME types are for example text/html for html-files or image/jpeg for jpeg-files.
 
-#### <span>original by Bob Clary</span>
+#### original by Bob Clary
 
-#### <span>published Feb. 20, 2003</span>
+#### published Feb. 20, 2003
 
-## <span>What are MIME types?</span>
+## What are MIME types?
 
 MIME (Multi-purpose Internet Mail Extensions) is an expansion of the original Internet e-mail protocol that exchanges different kinds of data files on the Internet: text, audio, video, images, application programs, and others. In 1991, the protocol was extended so that Internet clients and servers could recognize and handle various kinds of data, and new file types were added to the "mail" protocol as supported Internet Protocol file types.
 
@@ -36,11 +36,11 @@ MIME types—also sometimes called Internet media types or Content-types—descr
 
 By default, many web servers are configured to report a MIME type of `text/plain` or `application/octet-stream` for unknown content types. As new content types are invented or added to web servers, web administrators may fail to add the new MIME types to their web server's configuration. This is a major source of problems for users of Gecko-based browsers, which respect the MIME types as reported by web servers and web applications.
 
-### <span>Technical Background</span>
+### Technical Background
 
 MIME is currently defined in RFCs [2045](http://www.isi.edu/in-notes/rfc2045.txt), [2046](http://www.isi.edu/in-notes/rfc2046.txt), [2047](http://www.isi.edu/in-notes/rfc2047.txt), [2048](http://www.isi.edu/in-notes/rfc2048.txt), and [2049](http://www.isi.edu/in-notes/rfc2049.txt); registered values for MIME types are available in [IANA/MIME Media Types](http://www.iana.org/assignments/media-types/index.html). The [HTTP specification](http://www.w3.org/Protocols/HTTP/1.1/spec.html) defines a superset of MIME which is used to describe the media types used on the web.
 
-## <span>Why are correct MIME types important?</span>
+## Why are correct MIME types important?
 
 If the web server or application reports an incorrect MIME type for content, a web browser has no way, *according to the HTTP specification*, of knowing that the author actually intended the content to be processed and displayed in a way different from that implied by the reported MIME type.
 
@@ -48,29 +48,29 @@ Some other web browsers, such as Internet Explorer, try to allow for misconfigur
 
 Serving content using the correct MIME type can also be important for security reasons; it's possible for malicious content to affect the user's computer by pretending to be a safe type of document when it is in fact not.
 
-### <span>Why browsers should not guess MIME types</span>
+### Why browsers should not guess MIME types
 
 Apart from violating the HTTP specification, it is a bad strategy for browsers to guess MIME types for the following reasons.
 
-#### <span>Loss of control</span>
+#### Loss of control
 
 If the browser ignores the reported MIME type, web administrators and authors no longer have control over how their content is to be processed.
 
 For example, a website oriented for web developers might wish to send certain example HTML documents as either `text/html` or `text/plain` in order to have the documents either processed and displayed as HTML or as source code. If the browser guesses the MIME type, this option is no longer available to the author.
 
-#### <span>Security</span>
+#### Security
 
 Some content types, such as executable programs, are inherently unsafe. For this reason, the actions a browser can take when given content of that type are usually restricted. For example, an executable program should not be executed on the user's computer, and at most should cause a dialog to appear asking the user if they wish to download the file.
 
 MIME type guessing has led to security exploits in Internet Explorer based on malicious authors incorrectly reporting a MIME type of a dangerous file as a safe type. This deliberate misrepresentation bypassed the normal download dialog, resulting in Internet Explorer correctly guessing that the content was an executable program and then running it on the user's computer.
 
-## <span>How to determine the MIME type sent by a server</span>
+## How to determine the MIME type sent by a server
 
 In Firefox, load the file and use `Tools > Page Info`. You can also use [Rex Swain's HTTP Viewer](http://www.rexswain.com/httpview.html) or [Live HTTP Headers](http://livehttpheaders.mozdev.org/) to see the full headers and content of any file sent from a web server.
 
 According to the standards, a `meta` tag that gives the MIME type such as `<meta  http-equiv="Content-Type" content="text/html">` should be ignored if there's a `Content-Type` line in the header. Instead of looking for this line in the HTML source, use the above techniques to determine the MIME type sent by the server.
 
-## <span>How to determine the correct MIME type for your content</span>
+## How to determine the correct MIME type for your content
 
 There are several steps you can take to determine the correct MIME type value to be used for your content.
 
@@ -78,7 +78,7 @@ There are several steps you can take to determine the correct MIME type value to
 2.  Look in the [IANA/MIME Media Types registry](http://www.iana.org/assignments/media-types/index.html), which contains all registered MIME types.
 3.  Search for the file extension at [FILExt](http://filext.com/) or [File extensions reference](http://www.file-extensions.org/) to see what MIME types are associated with that extension.
 
-## <span>Common MIME Types</span>
+## Common MIME Types
 
 |MIME Type|File Type|
 |:--------|:--------|
@@ -108,7 +108,7 @@ There are several steps you can take to determine the correct MIME type value to
 |video/x-flv|flv|
 |x-font-ttf|ttf, ttc|
 
-## <span>Related Links</span>
+## Related Links
 
 -   [Incorrect MIME Type for CSS Files](https://developer.mozilla.org/en/Incorrect_MIME_Type_for_CSS_Files)
 -   [IANA/MIME Media Types](http://www.iana.org/assignments/media-types/index.html)

@@ -12,11 +12,11 @@ tags:
 uri: dom/MouseEvent/mousedown
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fires when the user clicks the object with either mouse button or taps the mouse pad.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -70,7 +70,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example shows how to determine the origin of the **onmousedown** event when event bubbling is used.
 
@@ -82,7 +82,7 @@ This example shows how to determine the origin of the **onmousedown** event when
 </tr>
   <tr><td><button type="button">Click Me</button></td></tr>
   <tr><td><input type="text" value="Click Me"/></td></tr>
-  <tr><td><span>Click Me</span></td></tr>
+  <tr><td>Click Me</td></tr>
 </table>
 <p>This code retrieves the tagName of the object on which
    the onmousedown event has fired.</p>
@@ -91,25 +91,25 @@ This example shows how to determine the origin of the **onmousedown** event when
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onmousedownEX.htm)
 
-## <span>Usage</span>
+## Usage
 
      Determine the properties of the DOM element that a user clicks on.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Use the **button** property to determine which mouse button is clicked. Initiates actions associated with the event and with the object being clicked. To invoke this event, do one of the following:
 
 -   Click a mouse button.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

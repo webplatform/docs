@@ -23,42 +23,42 @@ tags:
 uri: apis/indexeddb/IDBKeyRange/upperBound
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates and returns a new key range with lower set to undefined, lowerOpen set to true, upper set to upper and and upperOpen set to open.
 
 Method of [apis/indexeddb/IDBKeyRange](/apis/indexeddb/IDBKeyRange)[apis/indexeddb/IDBKeyRange](/apis/indexeddb/IDBKeyRange)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.upperBound(bound, open);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>bound</span>
+### bound
 
  Data-type
 :   Blob
 
  The upper value of the key range.
 
-### <span>open</span>
+### open
 
  Data-type
 :   Boolean
 
  Indicates whether the key range includes the **bound** value.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

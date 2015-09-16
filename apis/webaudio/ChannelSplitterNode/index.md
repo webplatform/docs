@@ -10,23 +10,23 @@ tags:
 uri: apis/webaudio/ChannelSplitterNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents an AudioNode for accessing the individual channels of an audio stream in the routing graph. Often used in conjunction with ChannelMergerNode.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

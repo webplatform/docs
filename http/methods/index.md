@@ -14,21 +14,21 @@ Associating the method with compatible [HTTP headers](/http/headers), a client m
 
 The HTTP/1.1 Specification defines a number of [standardized methods](http://tools.ietf.org/html/rfc7231#section-4.1). Some other methods are standardized in different documents.
 
-## <span>Standardized Methods</span>
+## Standardized Methods
 
 The minimum requirement for [HTTP servers](/w/index.php?title=http/servers&action=edit&redlink=1) is to support the methods GET and HEAD.
 
-### <span>GET</span>
+### GET
 
 GET requests an information resource from the HTTP server. A GET request "safe": it is read only, and must not change the state of the server (except to the extent the very act of the request is logged, etc).
 
 A GET request can be paired with an `If-Match` header if the user agent has a cached version with an ETag value, and only wishes for a response if there's a newer version available.
 
-### <span>HEAD</span>
+### HEAD
 
 A HEAD request is identical to a GET request, except the response body is excluded. It is used for testing headers and metadata about a resource.
 
-### <span>POST</span>
+### POST
 
 POST is used to execute a script on the server. The result might be to e.g. make a purchase of an item, and so is not safe to re-make.
 
@@ -36,45 +36,45 @@ If specified in the response, POST requests are cachable.
 
 Most POST requests are made by Web browsers, and respond with 303 (See Other) to redirect the browser to the modified resource, or some form of landing page, after successful execution.
 
-### <span>PUT</span>
+### PUT
 
 PUT stores a resource at the given URI, creating it if necessary.
 
 Two PUT requests in succession have the same effect as one, so the method is *idempotent* (safe to re-send). PUT requests should be sent with an `If-Match: etag` so modifications are not inadvertently overwritten; or `If-None-Match: *` if the resource is to only be created (but not overwritten if it exists).
 
-### <span>DELETE</span>
+### DELETE
 
 A DELETE on a resource removes it from the server. Further GET requests will likely return 410 (Gone) or 404 (Not Found).
 
 Like PUT, two DELETE requests in succession have the same effect as one, and so the method is *idempotent* (safe to re-send). DELETE requests should be paired with an `If-Match` header so that if the resource is re-created or modified, the modifications are not unknowingly deleted.
 
-### <span>CONNECT</span>
+### CONNECT
 
 CONNECT effectively ends HTTP communications and starts two-way communications with the resource identified in the request-line (the URI, or server:port). It is a hop-by-hop method.
 
-### <span>OPTIONS</span>
+### OPTIONS
 
 An OPTIONS request on a resource requests information about that resource.
 
 OPTIONS is required by CORS to enable cross-domain [XMLHttpRequest](/apis/xhr) requests.
 
-### <span>TRACE</span>
+### TRACE
 
 TRACE is a meta-request that replies with the HTTP headers used to make the request. It is defined primarily for debugging.
 
 TRACE in many situations can expose confidential cookie and authorization headers to an attacker, and so is disabled on many HTTP servers. See [[1]](http://www.kb.cert.org/vuls/id/867593).
 
-### <span>PATCH</span>
+### PATCH
 
 PATCH instructs the server to apply a change to the identified resource using some diff or patch format, like a Patch file or JSON Patch.
 
 Though PATCH is not idempotent by default, it can be issued with an `If-Match` header so as to only be successful one time.
 
-### <span>Other Methods</span>
+### Other Methods
 
 Several HTTP extensions like WebDAV define other methods. A complete list is maintained at the IANA's [HTTP Method Registry](http://www.iana.org/assignments/http-methods/http-methods.xhtml).
 
-## <span>Method Properties</span>
+## Method Properties
 
 @@TODO: add something about safe, idempotent and cacheable. Probably make a table@@
 

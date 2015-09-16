@@ -10,17 +10,17 @@ tags:
 uri: javascript/Error/prototype
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a reference to the prototype for an error.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     error.prototype
 
-## <span>Examples</span>
+## Examples
 
 For example, to add a method to the **Error** object that returns the value of the largest element of the array, declare the function, add it to **Error.prototype** , and then use it.
 
@@ -40,7 +40,7 @@ function getSeverity(){
  // Output: high
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The error argument is the name of an error.
 

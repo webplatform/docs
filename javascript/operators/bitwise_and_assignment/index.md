@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/operators/bitwise and assignment'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the result of a bitwise AND operation on the value of a variable and the value of an expression. The variable and the expression are treated as 32-bit integers.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Sets the result of a bitwise AND operation on the value of a variable and the va
 **expression**
 :   Any expression.
 
-## <span>Examples</span>
+## Examples
 
 Using this operator is the same as specifying `result = result & expression`
 
@@ -46,9 +46,9 @@ document.write(expr1);
 // result: 1
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Bitwise AND Operator (&)](/javascript/operators/bitwise_and)
 

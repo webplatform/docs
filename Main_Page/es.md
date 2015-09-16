@@ -88,49 +88,49 @@ translations:
 uri: 'Main Page/es'
 
 ---
-## <span>Resumen</span>
+## Resumen
 
 Web Platform Docs es un sitio gestionado por la comunidad que aspira a convertirse en una fuente completa y con autoridad para la documentación de desarrollo web.
 
-## <span>Explora nuestros documentos de desarrollo web</span>
+## Explora nuestros documentos de desarrollo web
 
-### <span>[Guía para Principiantes](/beginners/es)</span>
+### [Guía para Principiantes](/beginners/es)
 
 Material introductorio para aquellos que recién comienzan en el desarrollo web.
 
-### <span>[Conceptos web generales](/concepts/es)</span>
+### [Conceptos web generales](/concepts/es)
 
 Artículos teóricos y tutoriales sobre temas como el funcionamiento de la web, arquitectura de la información, tipografía y diseño web.
 
-### <span>[HTML](/html/es)</span>
+### [HTML](/html/es)
 
 Artículos teóricos, tutoriales y material de referencia del principal lenguaje de etiquetado de la web.
 
-### <span>[CSS](/css/es)</span>
+### [CSS](/css/es)
 
 Artículos teóricos, tutoriales y material de referencia de las Hojas de estilo en cascada o Cascading style sheets (<abbr>CSS</abbr>).
 
-### <span>[Accesibilidad](/concepts/accessibility/es)</span>
+### [Accesibilidad](/concepts/accessibility/es)
 
 Modelos, prácticas y casos de estudio dirigidas a hacer que la web funcione para las personas de un diverso rango de capacidades.
 
-### <span>[JavaScript](/w/index.php?title=javascript/es&action=edit&redlink=1)</span>
+### [JavaScript](/w/index.php?title=javascript/es&action=edit&redlink=1)
 
 Tutoriales y material de referencia de JavaScript, el lenguaje de secuencias de comando del lado cliente. Incluye material de referencia de librerías de JavaScript de terceros.
 
-### <span>[DOM](/dom/es)</span>
+### [DOM](/dom/es)
 
 Tutoriales y material de referencia de los eventos y métodos del Document Object Model (<abbr>DOM</abbr>).
 
-### <span>[SVG](/svg/es)</span>
+### [SVG](/svg/es)
 
 Tutoriales y material de referencia de Scalable Vector Graphics (<abbr>SVG</abbr>), un lenguaje de etiqueado <abbr>XML</abbr> para describir imágenes vectoriales de dos dimensiones.
 
-### <span>[APIs](/apis/es)</span>
+### [APIs](/apis/es)
 
 Material de referencia de las <abbr>API</abbr>s de JavaScript desde appcache hasta xhr.
 
-## <span>Características de Web Platform Docs</span>
+## Características de Web Platform Docs
 
 Web Platform Docs se encuentra todavía en alpha, pero ya puedes encontrar mucho material de valor en el sitio, incluyendo:
 
@@ -140,14 +140,14 @@ Web Platform Docs se encuentra todavía en alpha, pero ya puedes encontrar mucho
 
 En el futuro, Web Platform Docs incluirá aún más contenido para que explores: ejemplos en vivo de código, recursos para educadores y mucho más. Para llegar allí más rápido, nos gustaría invitarte a unirte a nosotros y contribuir con tu conocimiento.
 
-## <span>Contribuir con Web Platform Docs</span>
+## Contribuir con Web Platform Docs
 
 Nos encantaría contar con tu ayuda en la mejora de Web Platform Docs. Incluso el más mínimo esfuerzo puede tener un impacto significativo sobre el sitio. Desde alertar a los colegas desarrolladores sobre errores en nuestra documentación, la corrección de estos errores, la adaptación de artículos existentes o incluso aportando contenido completamente nuevo. Para mayor información, por favor lee nuestra [Guía para Editores](/WPD:Editors_Guide/es).
 
 -   Para reportar errores en la webplatform, usa la [página de Gestión del Proyecto](http://project.webplatform.org/). Lee nuestra [página sobre reportar errores](http://docs.webplatform.org/wiki/WPD:Filing_Bugs) para mayor información.
 -   Si tienes alguna pregunta acerca de webplatform.org, por favor [busca primero una respuesta en las FAQ](/WPD:FAQ).
 
-## <span>Mantente en contacto</span>
+## Mantente en contacto
 
 -   Unete a nuestras [PyR](http://talk.webplatform.org/forums/)
 -   Conversa con otros editores en <abbr>IRC</abbr>: estamos en irc.freenode.org, el canal de la \#webplatform .
@@ -156,6 +156,6 @@ Nos encantaría contar con tu ayuda en la mejora de Web Platform Docs. Incluso e
 -   Remezcla nuestro [logo](http://webplatform.org/logo) y enlázalo de vuelta a nuestro sitio
 -   Ven a nuestros [Eventos](/WPD:Community/Community_Events) como Doc Sprints.
 
-## <span>Políticas del sitio</span>
+## Políticas del sitio
 
 El contenido del wiki Web Platform Docs está disponible bajo una [Licencia de Reconocimiento de Creative Commons (CC-BY)](/Template:CC-by-3.0), excepto donde se indique lo contrario. Para más detalles sobre las políticas de nuestro sitio, consulta nuestras políticas de [derechos de autor](/WPD:Copyright) y [privacidad](/WPD:Privacy), así como nuestra [página de políticas](/WPD:Policy) general.

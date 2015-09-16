@@ -11,17 +11,17 @@ tags:
 uri: javascript/Boolean/prototype
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a reference to the prototype for a Boolean.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     boolean.prototype
 
-## <span>Examples</span>
+## Examples
 
 Defines a function and then adds it to Boolean.prototype
 
@@ -51,7 +51,7 @@ Boolean.prototype.toggle = function (){
 }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The boolean argument is the name of an object.
 

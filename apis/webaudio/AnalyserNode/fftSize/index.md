@@ -20,13 +20,13 @@ tags:
 uri: apis/webaudio/AnalyserNode/fftSize
 
 ---
-## <span>Summary</span>
+## Summary
 
 The size of the FFT (Fast Fourier Transform) used for frequency-domain analysis. Must be a power of two in the range 32-2048; defaults to 2048.
 
 Property of [apis/webaudio/AnalyserNode](/apis/webaudio/AnalyserNode)[apis/webaudio/AnalyserNode](/apis/webaudio/AnalyserNode)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,11 +34,11 @@ Property of [apis/webaudio/AnalyserNode](/apis/webaudio/AnalyserNode)[apis/webau
 var result = AnalyserNode.fftSize;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -46,7 +46,7 @@ var analyser = audioCtx.createAnalyser();
 analyser.fftSize = 2048;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

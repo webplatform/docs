@@ -23,13 +23,13 @@ tags:
 uri: dom/Selection/focusOffset
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the number of characters that the selection's focus is offset within the focusNode.
 
 Property of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,11 +37,11 @@ Property of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 var offset = selObj.focusOffset;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 The following example uses **focusOffset** to show the offset value for the end of a selection when you release the mouse button.
 
@@ -75,14 +75,14 @@ The following example uses **focusOffset** to show the offset value for the end 
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **focusOffset** typically refers to a character position within the text portion of the [**focusNode**](/dom/Selection/focusNode).
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1

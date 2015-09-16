@@ -18,7 +18,7 @@ todo_broken_links:
 uri: 'tutorials/canvas/canvas tutorial'
 
 ---
-## <span>Summary</span>
+## Summary
 
 &lt;canvas&gt; is an HTML element which can be used to draw graphics using scripting (usually JavaScript). It can, for instance, be used to draw graphs, make photo compositions or do simple (and not so simple) animations.
 
@@ -26,13 +26,13 @@ uri: 'tutorials/canvas/canvas tutorial'
 
 This tutorial describes how to implement the `<canvas>` element in your HTML pages. The examples provided should give you some clear ideas what you can do with \<canvas\> and can be used to start building your own implementations.
 
-## <span>Before you start</span>
+## Before you start
 
 Using the `<canvas>` element isn't very difficult but you do need a basic understanding of [HTML](/w/index.php?title=HTML&action=edit&redlink=1) and [JavaScript](/javascript).
 
 The `<canvas>` element isn't supported in some older browsers, but is supported in Chrome 4 and later, Firefox 1.5 and later, Internet Explorer 9 and later, Opera 9 and later, and Safari 3.1 and later.
 
-## <span>In this tutorial</span>
+## In this tutorial
 
 -   [Basic usage](/tutorials/canvas/Canvas_tutorial/Basic_usage)
 -   [Drawing shapes](/tutorials/canvas/Canvas_tutorial/Drawing_shapes)
@@ -45,11 +45,11 @@ The `<canvas>` element isn't supported in some older browsers, but is supported 
 
 [Next \>\>](/tutorials/canvas/Canvas_tutorial/Basic_usage)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Canvas</span>
+#### Canvas
 
 -   [canvas](/apis/canvas)
 

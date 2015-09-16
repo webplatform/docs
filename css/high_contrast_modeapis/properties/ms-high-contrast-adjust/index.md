@@ -22,7 +22,7 @@ uri: 'css/high contrast modeapis/properties/ms-high-contrast-adjust'
 
 Property of [css/media\_queries/media\_groups/bitmap](/css/media_queries/media_groups/bitmap)[css/media\_queries/media\_groups/bitmap](/css/media_queries/media_groups/bitmap)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.ms-high-contrast-adjust;
@@ -31,21 +31,21 @@ element.ms-high-contrast-adjust = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **-ms-high-contrast-adjust** property works with the [-ms-high-contrast](/css/high_contrast_mode/properties/-ms-high-contrast) media feature.
 
-### <span>Syntax</span>
+### Syntax
 
 `-ms-high-contrast-adjust: auto | none`
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Visual Effects</span>
+#### Visual Effects
 
 -   [color](/css/color)
 
@@ -81,7 +81,7 @@ The **-ms-high-contrast-adjust** property works with the [-ms-high-contrast](/cs
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `-ms-high-contrast media feature`

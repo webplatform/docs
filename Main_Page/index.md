@@ -89,49 +89,49 @@ translations:
 uri: 'Main Page'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Web Platform Docs is a community-driven site that aims to become a comprehensive and authoritative source for web developer documentation.
 
-## <span>Explore our web development docs</span>
+## Explore our web development docs
 
-### <span>[Beginners guide](/beginners)</span>
+### [Beginners guide](/beginners)
 
 Introductory materials for those new to web development.
 
-### <span>[General web concepts](/concepts)</span>
+### [General web concepts](/concepts)
 
 Conceptual and tutorial articles on topics such as how the web works, information architecture, typography, and web design.
 
-### <span>[HTML](/html)</span>
+### [HTML](/html)
 
 Conceptual, tutorial, and reference materials for the main markup language of the web.
 
-### <span>[CSS](/css)</span>
+### [CSS](/css)
 
 Conceptual, tutorial, and reference materials for Cascading style sheets (CSS).
 
-### <span>[Accessibility](/concepts/accessibility)</span>
+### [Accessibility](/concepts/accessibility)
 
 Patterns, practices and business cases for making the web work for people with a diverse range of abilities.
 
-### <span>[JavaScript](/javascript)</span>
+### [JavaScript](/javascript)
 
 Tutorial and reference materials for JavaScript, the web's client-side scripting language; Includes reference materials for 3rd party JavaScript libraries.
 
-### <span>[DOM](/dom)</span>
+### [DOM](/dom)
 
 Tutorial and reference materials for the Document Object Model (DOM) events and methods.
 
-### <span>[SVG](/svg)</span>
+### [SVG](/svg)
 
 Tutorial and reference materials for Scalable Vector Graphics (SVG), an XML markup language for describing two-dimensional vector graphics.
 
-### <span>[APIs](/apis)</span>
+### [APIs](/apis)
 
 Reference materials for JavaScript APIs from appcache to xhr.
 
-## <span>Web Platform Docs features</span>
+## Web Platform Docs features
 
 Web Platform Docs is still in alpha, but you can already find lots of valuable content on the site, including:
 
@@ -141,14 +141,14 @@ Web Platform Docs is still in alpha, but you can already find lots of valuable c
 
 In the future, Web Platform Docs will include even more content for you to explore: live code examples, educators' resources and much more. To get there faster, we’d like to invite you to join us, and contribute your knowledge.
 
-## <span>Contribute to Web Platform Docs</span>
+## Contribute to Web Platform Docs
 
 We’d love to have your help in improving Web Platform Docs. Even the slightest effort can have significant impact on the site; from alerting fellow developers about errors in our documentation, to fixing these errors, porting existing articles or even contributing completely new content. To learn more, please read our [Contributor’s Guide](/WPD:Contributors_Guide).
 
 -   To file bugs on WebPlatform, use the [Project Management page](https://project.webplatform.org). Read our [filing bugs page](https://docs.webplatform.org/wiki/WPD:Filing_Bugs) for more information.
 -   If you have a question about *webplatform.org*, please [look for an answer in the FAQ first](/WPD:FAQ).
 
-## <span>Stay in touch</span>
+## Stay in touch
 
 -   Chat with other editors in IRC: we're on irc.freenode.org, the *\#webplatform* channel
 -   Read our [blog](https://blog.webplatform.org/)
@@ -156,6 +156,6 @@ We’d love to have your help in improving Web Platform Docs. Even the slightest
 -   Remix our [logo](https://www.webplatform.org/logo) and link back to our site
 -   Come to our [Events](/WPD:Community/Community_Events) like Doc Sprints.
 
-## <span>Site Policies</span>
+## Site Policies
 
 The content on the Web Platform Docs wiki is available under a [Creative Commons Attribution (CC-BY) license](/Template:CC-by-3.0), except where otherwise noted. For more details on our site policies, see our [copyright](/WPD:Copyright) and [privacy](/WPD:Privacy) policies, as well as our general [policy page](/WPD:Policy).

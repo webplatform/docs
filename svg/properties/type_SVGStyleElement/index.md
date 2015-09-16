@@ -11,22 +11,22 @@ tags:
 uri: 'svg/properties/type (SVGStyleElement)'
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **type** property specifies the style sheet language of the [**style**](/svg/elements/style) element's contents. The style sheet language is specified as a content type (for example, **"text/css"**).
 
 If you do not provide a type, the value of **contentStyleType** on the [**svg**](/svg/elements/svg) element is used, which defaults to **"text/css"**. If a [**style**](/svg/elements/style) element falls outside of the outermost **svg** element and you do not provide the type, the value of **contentStyleType** on the **type** element defaults to **"text/css"**.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Styling](http://go.microsoft.com/fwlink/p/?linkid=204734), Section 6.18.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGStyleElement**](/svg/elements/style)

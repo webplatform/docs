@@ -23,13 +23,13 @@ tags:
 uri: dom/WheelEvent/deltaZ
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the distance that a mouse wheel has rotated around the z-axis.
 
 Property of [dom/WheelEvent](/dom/WheelEvent)[dom/WheelEvent](/dom/WheelEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/WheelEvent](/dom/WheelEvent)[dom/WheelEvent](/dom/WheelEvent)
 var deltaZ = event.deltaZ;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 The X rotation distance in pixels, lines or pages.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to determine the deltaZ property of the WheelEvent. Note: to feature test for deltaZ you need to use the 'deltaZ' in event as deltaZ may have a value of 0 (false)... (event.deltaZ) can return false negatives.
 
@@ -76,11 +76,11 @@ function getDeltaMode(dMode){
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The measurement of the distance can be determined using the [deltaMode](/dom/WheelEvent/deltaMode) property.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

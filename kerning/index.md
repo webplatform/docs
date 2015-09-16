@@ -9,7 +9,7 @@ tags:
 uri: kerning
 
 ---
-## <span>kerning</span>
+## kerning
 
 The typographical process of adjusting the spacing between individual characters in a line of text rendered in a proportional font to achieve a visually pleasing result.
 

@@ -10,11 +10,11 @@ tags:
 uri: javascript/Object/isFrozen
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns true if existing property attributes and values cannot be modified in an object, and new properties cannot be added to the object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,7 +23,7 @@ Returns true if existing property attributes and values cannot be modified in an
 **object**
 :   Required. The object to test.
 
-## <span>Return Value</span>
+## Return Value
 
 true if all of the following are true:
 
@@ -33,7 +33,7 @@ true if all of the following are true:
 
 If the object has no existing properties, the function returns true if the object is non-extensible.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **Object.isFrozen** function.
 
@@ -66,7 +66,7 @@ The following example illustrates the use of the **Object.isFrozen** function.
  // spaghetti
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 When the configurable attribute of a property is false , the property attributes cannot be changed and the property cannot be deleted. When writable is false , the data property value cannot be changed. When configurable is false and writable is true , the value and writable attributes can be changed.
 
@@ -88,13 +88,13 @@ The following functions return true if all of the conditions marked in the follo
 |[Object.isSealed](/javascript/Object/isSealed)|No|Yes|No|
 |**Object.isFrozen**|No|Yes|Yes|
 
-## <span>Exceptions</span>
+## Exceptions
 
 If the object argument is not an object, a TypeError exception is thrown.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Object.preventExtensions Function](/javascript/Object/preventExtensions)
 -   [Object.seal Function](/javascript/Object/seal)

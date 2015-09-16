@@ -10,17 +10,17 @@ tags:
 uri: javascript/DataView/byteLength
 
 ---
-## <span>Summary</span>
+## Summary
 
 Read-only. The length of this view from the start of its ArrayBuffer, in bytes, as fixed at construction time.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     var byteLength = dataView.byteLength;
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how get the length of a DataView from an XMLHttpRequest.
 

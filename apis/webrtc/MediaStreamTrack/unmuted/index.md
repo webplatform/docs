@@ -12,11 +12,11 @@ tags:
 uri: apis/webrtc/MediaStreamTrack/unmuted
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MediaStreamTrack object's source has resumed providing data.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

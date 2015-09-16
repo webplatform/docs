@@ -23,26 +23,26 @@ tags:
 uri: 'apis/user timing/PerformanceMark/duration'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a DOMHighResTimeStamp value. For marks, the value is always 0 (zero).
 
 Property of [apis/user\_timing/PerformanceMark](/apis/user_timing/PerformanceMark)[apis/user\_timing/PerformanceMark](/apis/user_timing/PerformanceMark)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.duration;
 element.duration = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 DOMHighResTimeStamp
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // set begin mark
@@ -67,7 +67,7 @@ performance.clearMeasures("functionTime");
 performance.clearMarks();
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C User Timing Specification](http://www.w3.org/TR/user-timing/)
 :   W3C Recommendation

@@ -18,11 +18,11 @@ tags:
 uri: css/properties/text-line-through-width
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the line width for the line-through text decoration.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :
@@ -45,13 +45,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514/)
 :   Candidate Recommendation

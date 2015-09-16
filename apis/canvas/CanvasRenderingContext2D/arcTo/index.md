@@ -20,60 +20,60 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/arcTo
 
 ---
-## <span>Summary</span>
+## Summary
 
 Check to be sure there's a subpath for (x1, y1). Then, the behavior depends on the arguments and the last point in the subpath. See Notes.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.arcTo(x1, y1, x2, y2, radius);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x1</span>
+### x1
 
  Data-type
 :   Number
 
  The x-coordinate for the first tangent that intersects with the current path point.
 
-### <span>y1</span>
+### y1
 
  Data-type
 :   Number
 
  The y-coordinate for the first tangent that intersects with the current point.
 
-### <span>x2</span>
+### x2
 
  Data-type
 :   Number
 
  The x-coordinate for the second tangent that intersects with the *x1* and *y1* points.
 
-### <span>y2</span>
+### y2
 
  Data-type
 :   Number
 
  The y-coordinate for the second tangent that intersects with the *x1* and *y1* points.
 
-### <span>radius</span>
+### radius
 
  Data-type
 :   Number
 
  The radius of the arc to create.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 This example creates an arc
 
@@ -140,13 +140,13 @@ This example creates an arc
 
 [View live example](http://code.webplatform.org/gist/5034180)
 
-## <span>Notes</span>
+## Notes
 
 The **arcTo** method creates an arc of *radius* radius between two tangents. The first tangent is defined by an imaginary line that is drawn through the last point in a path and the point *(x1, y1)*. The second tangent is defined by an imaginary line that is drawn through the point *(x1, y1)* and the point *(x2, y2)*.
 
 The arc is drawn between the two tangents using *radius* as the radius. **arcTo** will draw a straight line from the last point of the path to the start of the arc which lies on the tangent that contains the last point on the path and *x1* and *y1*.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

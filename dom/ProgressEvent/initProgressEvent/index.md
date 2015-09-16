@@ -25,63 +25,63 @@ tags:
 uri: dom/ProgressEvent/initProgressEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initializes the value of a ProgressEvent object.
 
 Method of [dom/ProgressEvent](/dom/ProgressEvent)[dom/ProgressEvent](/dom/ProgressEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.initProgressEvent(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>typeArg</span>
+### typeArg
 
  Data-type
 :   String
 
  The value of this parameter must be one of the following values. 'loadstart' An operation has started. 'progress' An operation is in progress. 'error' The operation failed to complete. 'abort' The operation was cancelled. 'load' The operation completed successfully.
 
-### <span>canBubbleArg</span>
+### canBubbleArg
 
  Data-type
 :   Boolean
 
  Specifies whether an event bubbles.
 
-### <span>cancelableArg</span>
+### cancelableArg
 
  Data-type
 :   Boolean
 
  Specifies whether an event can be cancelled.
 
-### <span>lengthComputable</span>
+### lengthComputable
 
  Data-type
 :   Boolean
 
  Indicates whether the value of the [**total**](/dom/ProgressEvent/total) attribute of the [**ProgressEvent**](/dom/ProgressEvent) is accurate.
 
-### <span>loadedArg</span>
+### loadedArg
 
  Data-type
 :   unsigned long
 
  Specifies the number of bytes already loaded or zero if not known.
 
-### <span>totalArg</span>
+### totalArg
 
  Data-type
 :   unsigned long
 
  Specifies the number of bytes to be loaded. If *lengthComputable* is false, this must be zero ("0").
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -91,12 +91,12 @@ This method can return one of these values.
 
 S\_OK
 
-## <span>Notes</span>
+## Notes
 
 Depreciated This feature has been removed from the Web. Though some browsers may still support it, it is in the process of being dropped. Do not use it in old or new projects. Pages or Web apps using it may break at any time.
 
 Non-standard This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.
 
-### <span>Syntax</span>
+### Syntax
 
 var retval = ProgressEvent.initProgressEvent(typeArg, canBubbleArg, cancelableArg, lengthComputable, loadedArg, totalArg);

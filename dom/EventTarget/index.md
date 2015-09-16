@@ -10,15 +10,15 @@ tags:
 uri: dom/EventTarget
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page lists properties, methods, and events for the EventTarget object.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -32,11 +32,11 @@ API Name
 [removeEventListener](/dom/EventTarget/removeEventListener)
 :   Removes an event handler that the [addEventListener](/dom/EventTarget/addEventListener) method registered.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Events](http://www.w3.org/TR/DOM-Level-2-Events/)
 :   Recommendation

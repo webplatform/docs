@@ -19,13 +19,13 @@ tags:
 uri: apis/indexeddb/IDBKeyRange/upperOpen
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns false if the upper-bound value is included in the key range. Returns true if the upper-bound value is excluded from the key range.
 
 Property of [apis/indexeddb/IDBKeyRange](/apis/indexeddb/IDBKeyRange)[apis/indexeddb/IDBKeyRange](/apis/indexeddb/IDBKeyRange)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.upperOpen;
@@ -34,8 +34,8 @@ element.upperOpen = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

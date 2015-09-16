@@ -18,53 +18,53 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/fillRect
 
 ---
-## <span>Summary</span>
+## Summary
 
 Paints the specified rectangular area using the color (or style) defined by fillStyle.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  context.fillRect(x, y, width, height);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
+### x
 
  Data-type
 :   Number
 
  The x-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 
-### <span>y</span>
+### y
 
  Data-type
 :   Number
 
  The y-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 
-### <span>width</span>
+### width
 
  Data-type
 :   Number
 
  The width, in pixels, of the rectangle in relation to the coordinates of the canvas. With value 0, the method has no effect.
 
-### <span>height</span>
+### height
 
  Data-type
 :   Number
 
  The height, in pixels, of the rectangle in relation to the coordinates of the canvas. With value 0, the method has no effect.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 This example sets a solid color fill style, then draws and fills a rectangle on the canvas.
 
@@ -79,7 +79,7 @@ ctxt.fillRect(20, 20, 50, 120);
 </script>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

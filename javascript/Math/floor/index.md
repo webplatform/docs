@@ -10,17 +10,17 @@ tags:
 uri: javascript/Math/floor
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the greatest integer less than or equal to its numeric argument.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     Math.floor( number )
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 Math.floor(1.1);  // 1
@@ -28,7 +28,7 @@ Math.floor(1.6);  // 1
 Math.floor(-1.4); // -2
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required number argument is a numeric expression.
 
@@ -36,9 +36,9 @@ The return value is an integer value equal to the greatest integer less than or 
 
 **Applies To** : [Math Object](/javascript/Math)
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math.ceil Function](/javascript/Math/ceil)
 

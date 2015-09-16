@@ -19,11 +19,11 @@ tags:
 uri: css/properties/flow-from
 
 ---
-## <span>Summary</span>
+## Summary
 
 Flows content from a named flow (specified by a corresponding flow-into) through selected elements to form a dynamic chain of layout regions.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -49,12 +49,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `flow-from: <ident>`
 -   `flow-from: none`
 
-## <span>Values</span>
+## Values
 
 \<ident\>
 :   Identifier that replaces content from specified named flow, flowing it from one [*region*](/css/concepts/region) element to another.
@@ -62,7 +62,7 @@ Percentages
 none
 :   This container is not a region. Keeps element as is, and does not transform it into a region and replace its content.
 
-## <span>Examples</span>
+## Examples
 
 The following CSS...
 
@@ -100,7 +100,7 @@ section.layout > div {
 
 </pre>
 
-## <span>Usage</span>
+## Usage
 
      While regions can be positioned arbitrarily on the screen, their order in the document determines the order in which content flows. Regions otherwise do not have to appear as a continuous series within the DOM.
 
@@ -108,16 +108,16 @@ Descendants of any element whose ****flow-from**** specifies a named flow are su
 
 For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -175,7 +175,7 @@ For an overview of CSS Regions, see [Using CSS Regions to flow content through a
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

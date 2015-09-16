@@ -8,15 +8,15 @@ tags:
 uri: 'guides/more about the html head'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article delves deeper into the possibilities the HTML &lt;head&gt; has to offer, looking at some additional features.
 
-## <span>Introduction</span>
+## Introduction
 
 In [the previous article](/guides/the_html_head) you learned about the essential items that go inside the `head` of an HTML document. In this article we'll expand on that information and talk about some lesser used items that you can add to the `head`. By the end of this tutorial you'll know how to collate several HTML documents into a larger multi-part collection, what RSS is all about, and what a *favicon* is and how to use it.
 
-## <span>Document relationships: collating several HTML documents into a collection</span>
+## Document relationships: collating several HTML documents into a collection
 
 Document relationships are a feature of HTML that stems from the origins of the web as a document repository and, as the name says, define how one document relates to another. For example, a relationship can define if a referenced document is the previous or next document in a logical chain, if it is the index to a whole series of documents, and more.
 
@@ -156,11 +156,11 @@ And finally the table of contents:
 
 You can use the `rel` and `rev` attributes on links in the document to tell browsers and assistive technology that these anchors correspond with the link relationships. Also, `rel` and `rev` are sometimes used for other purposes such as Microformats, but that is beyond the scope of this article.
 
-## <span>Linking to alternative versions of the document</span>
+## Linking to alternative versions of the document
 
 The option to link to other documents that have a certain relationship to the current document also includes different language versions of the same document, or different formats. You can do both by providing a link with a `rel` attribute value of `alternate`.
 
-### <span>Translations</span>
+### Translations
 
 Translations are a great candidate for document interlinking. It might be that the English language version of a document is very successful, and you would like to provide other language versions to potential international visitors. By linking from the original to the alternate language version, you make it easier for non-English readers to access and promote your content. The following example shows how you can define the other language versions; note the straightforward syntax.
 
@@ -195,7 +195,7 @@ Translations are a great candidate for document interlinking. It might be that t
 
 To recap, the `hreflang` attribute on links and anchors defines the human language of the linked document, and the `lang` attribute defines the language of the text inside the element that has this attribute. This is very important for accessibility as text-to-speech software (screen readers) must switch the pronounciation voice from language to language.
 
-### <span>Feeds</span>
+### Feeds
 
 There is another type of alternative web page that you'll see a lot as you trawl the web, called *RSS feeds*. These are very popular, especially for documents that change constantly, such as news sites. RSS actually stands for "Rich Site Summary", but is most often characterized today as "Really Simple Syndication".
 
@@ -223,7 +223,7 @@ Feed pages are structured using either HTML or an XML format like RSS or Atom, a
 
 Supplying a feed makes sense for content-heavy websites that change often, like blogs or photo sites, and by using a feed reading tool and subscribing to feeds you can significantly reduce your web surfing and research time.
 
-## <span>Making bookmarking more fun — using favicons</span>
+## Making bookmarking more fun — using favicons
 
 If you don't update your site very often, but you have a lot of content and want people to have a visual reminder of your site, you might want to consider using a shortcut icon. Shortcut icons or *favicons* are small images with a file format of `.ico`; if you place one on your web server, you can use it to help your site stand out in users' bookmark lists, as shown in Figure 3:
 
@@ -251,13 +251,13 @@ The biggest obstacle to adding a shortcut icon is actually creating it in the ri
 
 If you open this document in a browser it should show the Opera icon next to the address in the location toolbar. If you bookmark it, the same icon will appear next to the bookmark.
 
-## <span>Conclusion</span>
+## Conclusion
 
 In this article, we expanded on the HTML `head` section and explored some additional features that can be added to it. If you have not already done so, please see the previous article in this tutorial pair, [The HTML head](/guides/the_html_head).
 
-## <span>See also</span>
+## See also
 
-### <span>Exercise questions</span>
+### Exercise questions
 
 -   Why does it make sense to define link relationships when they are not displayed?
 -   How would you link to a search page?

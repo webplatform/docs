@@ -13,29 +13,29 @@ tags:
 uri: apis/canvas/CanvasPixelArray
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies each pixel within a canvas's rectangular selection, via the ImageData object's data property. The array uses four elements to represent each pixel's red, green, blue, and alpha channels. See Notes.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 A Canvas Pixel ArrayBuffer is not, strictly speaking, an object of the canvas API. It is a regular ArrayBuffer object (see [Typed Array Specification, ArrayBuffer Type](http://www.khronos.org/registry/typedarray/specs/latest/#5)) whose data is represented in left-to-right, top-to-bottom order, starting with the top left, with each pixel's red, green, blue, and alpha components being given in that order for each pixel. Each component of each device pixel represented in this array must be in the range 0..255, representing the 8-bit value for that component. The components must be assigned consecutive indices starting with 0 for the top left pixel's red component.
 
 The latest HTML specification has removed CanvasPixelArray in favor of the JavaScript Uint8ClampedArray typed array. However, as of April 2012, most browsers still returns CanvasPixelArray and there are very few implementations which return Uint8ClampedArray on ImageData.data.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

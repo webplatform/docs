@@ -22,35 +22,35 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/isPointInPath
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns true if the point given by the x and y coordinates passed to the method, when treated as coordinates in the canvas coordinate space unaffected by the current transformation, is inside the intended path as determined by the non-zero winding number rule; returns false otherwise. If either of the arguments is infinite or NaN, then the method returns false.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.isPointInPath(x, y);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
+### x
 
  Data-type
 :   Number
 
  The x-coordinate to test.
 
-### <span>y</span>
+### y
 
  Data-type
 :   Number
 
  The y-coordinate to test.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -63,7 +63,7 @@ This method can return one of these values.
 |false|The point is not in the current path.|
 |true|The point is in the current path.|
 
-## <span>Examples</span>
+## Examples
 
 This example simply tests whether a given point is in the current path (the previously defined rectangle) and alerts *true* or *false*.
 
@@ -78,7 +78,7 @@ alert(ctxt.isPointInPath(30,50));
 </script>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

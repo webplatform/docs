@@ -15,7 +15,7 @@ uri: dom/Element/reset
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -69,7 +69,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example demonstrates how to use the **onreset** event for a **form** object. Reset the form by clicking the first or second button. The only difference between the two buttons is that the second button invokes the [**reset**](/dom/HTMLFormElement/reset) method and the first button is of **input type=reset**. When either button is pressed the **form** is reset, resulting in the **onreset** event call on the **form** object. The **onreset** event calls an event handler which in turn adds the text `Resetting form.` to the text area below.
 
@@ -101,9 +101,9 @@ function doReset(){
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onreset.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Executes associated code. To invoke this event, do one of the following:
 
@@ -137,13 +137,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

@@ -18,46 +18,46 @@ tags:
 uri: dom/Event/initEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initializes a new generic event that the createEvent method created.
 
 Method of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  event.initEvent(eventType, canBubble, cancelable);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>eventType</span>
+### eventType
 
  Data-type
 :   String
 
  The name of the event. Sets the value for the [**type**](/dom/Event/type) property.
 
-### <span>canBubble</span>
+### canBubble
 
  Data-type
 :   Boolean
 
  Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
 
-### <span>cancelable</span>
+### cancelable
 
  Data-type
 :   Boolean
 
  Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 The following code example creates a custom event that bubbles but cannot be canceled.
 
@@ -67,22 +67,22 @@ evt.initEvent("custom", true, false);
 document.getElementById('target').dispatchEvent(evt);
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use this method before the   dispatchEvent method dispatches the event object, to set some properties of the event.
 
-## <span>Notes</span>
+## Notes
 
 After the event is dispatched, its properties cannot be changed.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

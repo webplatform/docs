@@ -22,13 +22,13 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/localDescription
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the RTCSessionDescription most recently passed to the setLocalDescription() method along with any local candidate descriptions generated since the method was called.
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,7 +36,7 @@ Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis
 var result = element.localDescription;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type RTCSessionDescriptionRTCSessionDescription
 

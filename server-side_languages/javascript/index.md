@@ -3,6 +3,6 @@ title: javascript
 uri: 'server-side languages/javascript'
 
 ---
-## <span>Frameworks</span>
+## Frameworks
 
 -   [node.js](http://nodejs.org/)

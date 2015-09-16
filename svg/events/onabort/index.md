@@ -17,7 +17,7 @@ uri: svg/events/onabort
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -71,7 +71,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following code example shows how to handle the **onabort** event.
 
@@ -103,28 +103,28 @@ The following code example shows how to handle the **onabort** event.
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **onabort** event occurs when page loading is stopped before an element is loaded completely. The target of the event is the [**svg**](/svg/elements/svg) element. The designated element stops loading. To invoke this event, do one of the following:
 
 -   The user presses the browser's stop button before the element is loaded completely.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Scripting](http://go.microsoft.com/fwlink/p/?linkid=204745), Section 18.4.3
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvt* [in]
 :   Type: **IDOMUIEvent**The [**IDOMEvent**](/w/index.php?title=dom/objects/Event&action=edit&redlink=1) object.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGSVGElement**](/svg/elements/svg)
 -   [**onabort**](/w/index.php?title=dom/events/abort&action=edit&redlink=1)

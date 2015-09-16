@@ -24,7 +24,7 @@ uri: dom/HTMLTrackElement/kind
 
 Property of [dom/HTMLTrackElement](/dom/HTMLTrackElement)[dom/HTMLTrackElement](/dom/HTMLTrackElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.kind;
@@ -33,9 +33,9 @@ element.kind = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The keywords can be one of the following:
 
@@ -47,15 +47,15 @@ The keywords can be one of the following:
 
 This property is not implemented for the [**AudioTrack**](/apis/audio-video/AudioTrack) object. **Note**  To create timed text files in both Web Video Text Track (WebVTT) and Timed Text Markup Language (TTML) formats, see [HTML5 Video Caption Maker](http://go.microsoft.com/fwlink/p/?LinkID=251121) on the Windows Internet Explorer test drive site.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374)
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `track element`
 -   `track object`

@@ -14,16 +14,16 @@ tags:
 uri: html/elements/title
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines the title of the current document.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLTitleElement](/dom/HTMLTitleElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **title** element to specify a title for the document.
 
@@ -47,7 +47,7 @@ This example uses the **title** element to provide the current page title as wel
 </html>
 ```
 
-## <span>Usage</span>
+## Usage
 
      You can only have one title element per page. The content of this element should make sense out of context, and is commonly used in the browser title bar, and labels for favorites/bookmarks. It is usually also displayed as a title on search engine results pages.
 
@@ -57,13 +57,13 @@ It is read by screen readers as soon as the web page has finished loading and is
 
 Titles of sub pages should provide the most specific information on front (“front-loading”), for example a website might first provide the title of the current page, then the name of the category and the name of the complete website.
 
-## <span>Notes</span>
+## Notes
 
 It can only contain text and any contained tags are not interpreted.
 
 There are rare cases where the title is allowed to be omitted. This is the case when a higher-level protocol provides title information, like the subject line of an e-mail.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/document-metadata.html#the-title-element)
 :   W3C Working Draft

@@ -23,42 +23,42 @@ uri: dom/Document/writeln
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.writeln(psarray);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>psarray</span>
+### psarray
 
  Data-type
 :   any
 
  A **String** that specifies the text and HTML tags to write.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 In HTML, the carriage return is ignored unless it occurs in preformatted text. Do not use the [**write**](/dom/Document/write) method or the **writeln** method on the current document after the document has finished loading unless you first call the [**open**](/dom/Document/open) method, which clears the current document window and erases all variables. **Note**  When [**Document**](/dom/Document).[**write**](/dom/Document/write) or **document**.**writeln** is used in an event handler, you must also use **document**.[**close**](/dom/Document/close).
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `write`

@@ -24,13 +24,13 @@ tags:
 uri: dom/Document/readyState
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves a value that indicates the current state of the object.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,17 +38,17 @@ Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 var readyState = node.readyState;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      The states through which an object passes are determined by that object; an object can skip certain states (for example, interactive) if those states do not apply to that object.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard

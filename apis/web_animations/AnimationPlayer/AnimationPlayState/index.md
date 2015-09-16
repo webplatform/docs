@@ -8,7 +8,7 @@ tags:
 uri: 'apis/web animations/AnimationPlayer/AnimationPlayState'
 
 ---
-## <span>Summary</span>
+## Summary
 
 An enumeration of the various AnimationPlayer states.
 

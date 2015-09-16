@@ -14,7 +14,7 @@ tags:
 uri: html/attributes/formNoValidate
 
 ---
-## <span>Summary</span>
+## Summary
 
 When present, it specifies that the &lt;input&gt; element should not be validated when submitted.
 
@@ -34,7 +34,7 @@ The formnovalidate attribute is a boolean attribute.
 
 The formnovalidate attribute overrides the novalidate attribute of the \<form\> element.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <form action="submit.php">
@@ -44,21 +44,21 @@ The formnovalidate attribute overrides the novalidate attribute of the \<form\> 
 </form>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This attribute can be set on button and input elements. It is a Boolean attribute, and needs to be specified only on an element. The following example shows a field with two buttons, **check and save** and just **save**. **Note**  For more code samples, see [Form controls part 1](http://go.microsoft.com/fwlink/p/?LinkID=251128) and [Form controls part 2: validation](http://go.microsoft.com/fwlink/p/?LinkID=251131) on the Windows Internet Explorer sample site.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.19.6
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLInputElement`
 -   `HTMLButtonElement`

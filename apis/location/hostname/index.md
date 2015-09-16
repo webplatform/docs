@@ -20,13 +20,13 @@ tags:
 uri: apis/location/hostname
 
 ---
-## <span>Summary</span>
+## Summary
 
 The hostname property contains the hostname the current document was served from, excluding protocol, port, and other information.
 
 Property of [apis/location](/apis/location)[apis/location](/apis/location)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,7 +34,7 @@ Property of [apis/location](/apis/location)[apis/location](/apis/location)
 var result = window.location.hostname;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -42,7 +42,7 @@ The hostname the current document was served from.
 
 For example, `http://example.org/` would return the hostname `example.org`.
 
-## <span>Examples</span>
+## Examples
 
 The following example assumes your document has a div element with id 'hostDiv', like this.
 
@@ -57,7 +57,7 @@ var container = document.getElementById('hostDiv');
 container.innerHTML = hostnm;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Window Object 1.0](http://www.w3.org/TR/Window/)
 :   W3C Working Draft

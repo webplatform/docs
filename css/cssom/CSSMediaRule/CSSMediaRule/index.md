@@ -21,7 +21,7 @@ uri: css/cssom/CSSMediaRule/CSSMediaRule
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -29,7 +29,7 @@ API Name
 [cssRules](/css/cssom/CSSMediaRule/cssRules)
 :   Gets a list of rules within a @media block.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -40,32 +40,32 @@ API Name
 [insertRule](/css/cssom/CSSMediaRule/insertRule)
 :   Inserts a new rule to a media block.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Style Specification](http://go.microsoft.com/fwlink/p/?linkid=203741), Section 2.2
 
-### <span>Members</span>
+### Members
 
 The **CSSMediaRule** object has these types of members:
 
 -   [\#methods Methods]
 -   [\#properties Properties]
 
-#### <span>Methods</span>
+#### Methods
 
 The **CSSMediaRule** object has these methods. {
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -211,6 +211,6 @@ The **CSSMediaRule** object has these methods. {
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `IHTMLCSSMediaRule`

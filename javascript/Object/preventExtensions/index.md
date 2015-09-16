@@ -10,11 +10,11 @@ tags:
 uri: javascript/Object/preventExtensions
 
 ---
-## <span>Summary</span>
+## Summary
 
 Prevents the addition of new properties to an object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,11 +23,11 @@ Prevents the addition of new properties to an object.
 **object**
 :   Required. The object to make non-extensible.
 
-## <span>Return Value</span>
+## Return Value
 
 The object that is passed to the function.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **Object.preventExtensions** function.
 
@@ -49,7 +49,7 @@ The following example illustrates the use of the **Object.preventExtensions** fu
  // undefined
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **Object.preventExtensions** function makes an object non-extensible, so that new named properties cannot be added to it. After an object is made non-extensible, it cannot be made extensible.
 
@@ -71,13 +71,13 @@ The following functions return true if all of the conditions marked in the follo
 |[Object.isSealed](/javascript/Object/isSealed)|No|Yes|No|
 |[Object.isFrozen](/javascript/Object/isFrozen)|No|Yes|Yes|
 
-## <span>Exceptions</span>
+## Exceptions
 
 If the object argument is not an object, a TypeError exception is thrown.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Object.seal Function](/javascript/Object/seal)
 -   [Object.freeze Function](/javascript/Object/freeze)

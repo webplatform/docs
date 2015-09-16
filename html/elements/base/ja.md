@@ -80,11 +80,11 @@ todo_broken_links:
 uri: html/elements/base/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 &lt;base&gt;は文書の基準となるURLを明示し、文書内の相対URLを解決するために使用します。.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLBaseElement](/dom/HTMLBaseElement)
@@ -117,7 +117,7 @@ Permitted parents
 
 ドキュメントが[`iframe`](/w/index.php?title=html/elements/iframe/ja&action=edit&redlink=1)を使って構成されている場合、`<base target="_parent">`と設定することで親フレームでリンクを開くことができます。フレームを使っていないドキュメントで<var>\_parent</var>や<var>\_top</var>を使用する場合、<var>\_self</var>と同じ動きになります。
 
-## <span>HTML属性</span>
+## HTML属性
 
 -   `href`= URI（前後のスペースは取り除かれます。）
     href属性を指定した\<base\>要素は、URLを使う属性を持つ他の要素よりも前に記述しなければいけません。（\<html\>要素以外。manifest属性はbase要素の影響を受けないため。）[[Example A]](#Example_A)
@@ -125,7 +125,7 @@ Permitted parents
 -   `target` = ブラウジング・コンテキストの名前、もしくは\_blank, \_self, \_parent, \_topのいずれか
     ハイパーリンクやフォームがナビゲーションを表している場合、base要素のtarget属性の値がデフォルト値になります。
 
-## <span>Examples</span>
+## Examples
 
 この例は関連ドキュメント<var>some-file.html</var>へのリンクを<var><http://example.org/deep/some-file.html></var>に書き換えています。
 
@@ -177,7 +177,7 @@ Permitted parents
 </head>
 ```
 
-## <span>Notes</span>
+## Notes
 
 -   Firefox 4とInternet Explorer 10は`<base>`要素に相対URLを指定することができます。これにより相対URLで相対URLを解釈することができます
     （訳注:その他のブラウザも対応しているようです）。
@@ -186,7 +186,7 @@ Permitted parents
 
 **注** インラインSVGで使われる`fill="url(#element-id)"`のような参照は`<base>`を使ったドキュメントでは問題になります。`url(#element-id)`で正しいURLが取得されますが、CSS セレクターでは正しく認識されません。 最新のFirefox とChrome ではその影響を非常に受けやすくなっています。
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/document-metadata.html#the-base-element)
 :   W3C Working Draft
@@ -197,9 +197,9 @@ Permitted parents
 [HTML 4.01](http://www.w3.org/TR/html401/struct/links.html#edef-BASE)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/HTML/Element/base)
 -   [Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/ms535191%28v=vs.85%29.aspx)

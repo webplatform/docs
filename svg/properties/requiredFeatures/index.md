@@ -11,17 +11,17 @@ tags:
 uri: svg/properties/requiredFeatures
 
 ---
-### <span>Syntax</span>
+### Syntax
 
 HRESULT value = object.get\_requiredFeatures(ISVGStringList\*\* pFeatureList);
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.25
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGClipPathElement**](/svg/elements/clipPath)
 -   [**SVGPatternElement**](/svg/elements/patterrn)

@@ -26,29 +26,29 @@ uri: dom/FormData/append
 
 Method of [dom/FormData](/dom/FormData)[dom/FormData](/dom/FormData)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.append(name, value);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   any
 
  Must be a string.
 
-### <span>value</span>
+### value
 
  Data-type
 :   any
 
  Can be a string or a blob.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -60,14 +60,14 @@ S\_OK
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [XMLHttpRequest](http://go.microsoft.com/fwlink/p/?linkid=203789), Section 4
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `FormData`

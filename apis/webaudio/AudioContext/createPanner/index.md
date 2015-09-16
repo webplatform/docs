@@ -20,32 +20,32 @@ tags:
 uri: apis/webaudio/AudioContext/createPanner
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a PannerNode, used to spatialize an incoming audio stream in 3D space..
 
 Method of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = AudioContext.createPanner();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 PannerNode
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
 var panner = audioCtx.createPanner();
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

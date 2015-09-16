@@ -20,45 +20,45 @@ uri: svg/objects/SVGPathSegCurvetoQuadraticSmoothRel
 ---
 Inherits from [SVGElement](/svg/objects/SVGElement)[SVGElement](/svg/objects/SVGElement)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from SVGElement</span>
+## Inherited from SVGElement
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 The **t** object uses relative coordinates to draw a quadratic Bézier curve from the current point to (x,y). The control point is the reflection of the control point on the previous command, relative to the current point. (If there is no previous command or if the previous command was not a **Q**, **q**, **T** or **t** command, assume that the control point is coincident with the current point.) At the end of the command, the new current point becomes the final (x,y) coordinate pair that is used in the polybézier.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Paths](http://go.microsoft.com/fwlink/p/?linkid=204736), Section 8.5.20
 
-### <span>Members</span>
+### Members
 
 The **SVGPathSegCurvetoQuadraticSmoothRel** object has these properties:
 

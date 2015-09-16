@@ -14,7 +14,7 @@ tags:
 uri: html/attributes/hidden
 
 ---
-## <span>Summary</span>
+## Summary
 
 The hidden attribute is a boolean attribute. When specified on an element, it indicates that the element is not yet, or is no longer, directly relevant to the page's current state, or that it is being used to declare content to be reused by other parts of the page as opposed to being directly accessed by the user.
 
@@ -30,21 +30,21 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 ``` html
 <div hidden>Hidden Content</div>
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/editing.html#the-hidden-attribute)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `embed`

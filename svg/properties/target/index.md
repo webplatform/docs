@@ -11,7 +11,7 @@ tags:
 uri: svg/properties/target
 
 ---
-## <span>Examples</span>
+## Examples
 
 The following code example shows the default and **\_blank** behaviors of the **target** property.
 
@@ -37,22 +37,22 @@ The following code example shows the default and **\_blank** behaviors of the **
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **target** property specifies the name or portion of the target window, frame, pane, tab, or other relevant presentation context (that is, an HTML or XHTML frame, iframe, or object element) where a document is opened when the link is activated.
 
 Use **target** when there are multiple possible targets for the ending resource, such as when the parent document is a multi-frame HTML or XHTML document.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Linking](http://go.microsoft.com/fwlink/p/?linkid=199815), Section 17.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGAElement**](/svg/elements/a)

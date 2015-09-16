@@ -9,7 +9,7 @@ tags:
 uri: css/properties/animations
 
 ---
-### <span>In this section</span>
+### In this section
 
 -   [**@keyframes**](/css/atrules/@keyframes): Sets a list of property animation keyframes for an object in the HTML document.
 -   [**animation**](/css/properties/animation/animation): Gets or sets one or more shorthand values that specify all animation properties (except [**animation-play-state**](/css/properties/animation-play-state)) for a set of corresponding object properties identified in the CSS [**@keyframes**](/css/atrules/@keyframes) at-rule specified by the [**animation-name**](/css/properties/animation-name) property.
@@ -26,11 +26,11 @@ uri: css/properties/animations
 
 {
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   [Web Animations API](/apis/web_animations)
 

@@ -18,13 +18,13 @@ tags:
 uri: apis/webrtc/MediaStreamTrackList/onremovetrack
 
 ---
-## <span>Summary</span>
+## Summary
 
 Handles the removetrack event.
 
 Property of [apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)[apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onremovetrack;

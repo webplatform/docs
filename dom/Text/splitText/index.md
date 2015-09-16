@@ -23,34 +23,34 @@ tags:
 uri: dom/Text/splitText
 
 ---
-## <span>Summary</span>
+## Summary
 
 Divides a text node at the specified index.
 
 Method of [dom/Text](/dom/Text)[dom/Text](/dom/Text)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var textNode = textNode.splitText(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>offset</span>
+### offset
 
  Data-type
 :   String
 
  The index of the string that indicates where the separation occurs. If a value is not provided, a new text node with no value is created.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 A text node object.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **splitText** method to divide a text node in half in a **ul** object. When the text node splits, the [**createElement**](/dom/Document/createElement) method creates a new **li** object. The [**appendChild**](/dom/Node/appendChild) method appends the new **li** element and the split text node to the **ul** object.
 
@@ -69,11 +69,11 @@ function fnSplitNode(){
 </ul>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The text node that invokes the **splitText** method has a [**nodeValue**](/dom/Node/nodeValue) equal to the substring of the value, from zero to *offset*. The new text node has a **nodeValue** of the substring of the original value, from the specified index to the value length. Text node integrity is not preserved when the document is saved or persisted.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

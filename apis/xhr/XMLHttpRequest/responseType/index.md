@@ -22,22 +22,22 @@ tags:
 uri: apis/xhr/XMLHttpRequest/responseType
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns or sets the format the response will be returned in.
 
 Property of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.responseType;
 element.responseType = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 XMLHttpRequestResponseType, which is one of the following:
 
@@ -47,7 +47,7 @@ XMLHttpRequestResponseType, which is one of the following:
 -   "json": a JavaScript object, parsed from a JSON string returned by the server
 -   "text": a String
 
-## <span>Examples</span>
+## Examples
 
 The following code demonstrates to how to use the requestType property of the **XMLHttpRequest** object to retrieve the results of the XHR request as an **ArrayBuffer**.
 
@@ -68,7 +68,7 @@ xhr.onreadystatechange = handler;
 xhr.send();
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft

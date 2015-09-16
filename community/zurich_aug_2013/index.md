@@ -3,7 +3,7 @@ title: Plan for Zurich Doc Sprint, August 28, 2013
 uri: 'community/zurich aug 2013'
 
 ---
-## <span>Intro Talk, general</span>
+## Intro Talk, general
 
 Hello, and welcome to the first Swiss WebPlatform.org Doc Sprint!
 
@@ -19,7 +19,7 @@ Afterwards I'll also deliver a set up talk, to help those who have never used th
 
 So, find somewhere comfortable to sit, grab a drink, log on to the Wifi, and let's get going!
 
-## <span>Work plan</span>
+## Work plan
 
 So, the main focus groups we have for today are:
 
@@ -32,7 +32,7 @@ Of course if you want to do something other than these two, you can be in the th
 
 -   The "do what you want" group ;-)
 
-### <span>HTML elements</span>
+### HTML elements
 
 There are a lot of HTML elements we want to cover on WebPlatform, and we have only really investigated the tip of the iceberg so far.
 
@@ -43,7 +43,7 @@ To get started with HTML elements:
 -   Choose what HTML elements you want to work on, and let us know — we'll track who is working on what, so that there are no overlaps.
 -   Get started.
 
-### <span>CSS Property references</span>
+### CSS Property references
 
 We've worked on a lot of the CSS property pages already, but we need your help to get closer to finishing the job!
 
@@ -54,7 +54,7 @@ To get started with CSS property references:
 -   Have a look at our CSS Web Platform Wednesday docs at <http://docs.webplatform.org/wiki/Meta:web_platform_wednesday> for ideas of what to work on. The "Past reports" section at the bottom contains more ideas.
 -   Choose a set of CSS properties you want to work on, and let us know — we'll track who is working on what, so that there are no overlaps.
 
-### <span>Do what you want</span>
+### Do what you want
 
 If you don't like the idea of working on CSS or HTML docs, please have a think about what else you'd like to do. You could:
 
@@ -65,14 +65,14 @@ If you don't like the idea of working on CSS or HTML docs, please have a think a
 
 Please let us know what you want to work on, and we'll keep track of your progress.
 
-### <span>People you can go to for help</span>
+### People you can go to for help
 
 -   Chris Mills, Mozilla
 -   Andre Jay Meissner, Adobe
 -   Mike West, Google
 -   Rodney Rehm, Rockstar
 
-### <span>Working practice, and getting help</span>
+### Working practice, and getting help
 
 Different people work better in different ways. Therefore, how you work is entirely up to you, as long as you are happy and productive! We'd suggest that people working on similar subjects first of all introduce themselves if they don't already know each other. Then think about whether to work solo, or pair up: some people work alone best, some people might work better if they pair up (one creative to write code examples and one person to write the doc/researching, perhaps?)
 
@@ -82,7 +82,7 @@ We are planning to keep help methods pretty low fi for the doc sprint. If you wa
 
 You can see a list of online help and communication mechanisms at <http://docs.webplatform.org/wiki/WPD:Help>. These will be more useful when we leave here, and start contributing at home, in the future.
 
-## <span>Beginners: getting started</span>
+## Beginners: getting started
 
 So, those with prior experience can split off at this point and start working: this talk is mainly just for those who have not used the site before.
 
@@ -93,6 +93,6 @@ To get started, you need to:
 -   Review the structure of the site, at our [Topic Hierarchy page](/Meta:Editors_Guide/Topic_Hierarchy), to get familiar with where things go
 -   <http://docs.webplatform.org/wiki/WPD:Editors_Guide> contains a guide to show you how to edit and create pages on the Wiki
 
-### <span>Media Wiki crash course</span>
+### Media Wiki crash course
 
 See [WPD:Style Guide/Wiki markup crash course](/WPD:Style_Guide/Wiki_markup_crash_course), gives a good short syntax reminder.

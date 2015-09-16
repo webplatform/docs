@@ -18,47 +18,47 @@ tags:
 uri: dom/Window/scrollBy
 
 ---
-## <span>Summary</span>
+## Summary
 
 Causes the window to scroll relative to the current scrolled position by the specified x- and y-pixel offset.
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  window.scrollBy(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
+### x
 
  Data-type
 :   Number
 
 **Integer** that specifies the horizontal scroll offset, in pixels. Positive values scroll the window right, and negative values scroll it left.
 
-### <span>y</span>
+### y
 
  Data-type
 :   Number
 
 **Integer** that specifies the vertical scroll offset, in pixels. Positive values scroll the window down, and negative values scroll it up.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // scroll one page
 window.scrollBy(0, window.innerHeight);
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

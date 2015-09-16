@@ -11,9 +11,9 @@ tags:
 uri: svg/properties/limitingConeAngle
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 No light is projected outside the cone.
 
@@ -21,14 +21,14 @@ The **limitingConeAngle** attribute represents the angle in degrees between the 
 
 If no value is specified for the **limitingConeAngle** attribute, then no limiting cone will be applied.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.16
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFESpotLightElement**](/svg/elements/feSpotlight)

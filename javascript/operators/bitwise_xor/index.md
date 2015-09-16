@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/operators/bitwise xor'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Performs a bitwise exclusive OR on two expressions.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Performs a bitwise exclusive OR on two expressions.
 **expression2**
 :   Any expression.
 
-## <span>Examples</span>
+## Examples
 
 See Remarks.
 
@@ -39,7 +39,7 @@ x = 5 ^ 12;
 // result: x = 9
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **\^** operator looks at the binary representation of the values of two expressions and does a bitwise exclusive OR operation on them. The result of this operation behaves as follows:
 
@@ -50,9 +50,9 @@ The **\^** operator looks at the binary representation of the values of two expr
 
 When one, and only one, of the expressions has a 1 in a digit, the result has a 1 in that digit. Otherwise, the result has a 0 in that digit.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Bitwise XOR Assignment Operator (\^=)](/javascript/operators/bitwise_xor_assignment)
 

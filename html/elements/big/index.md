@@ -23,16 +23,16 @@ tags:
 uri: html/elements/big
 
 ---
-## <span>Summary</span>
+## Summary
 
 The big element (&lt;big&gt;) indicates that the enclosed text should be display in a larger font size than surrounding text. This element is considered obsolete in HTML5. Use CSS instead.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **BIG** element to enlarge text.
 
@@ -40,14 +40,14 @@ This example uses the **BIG** element to enlarge text.
 <BIG>This text is larger</BIG> than this text.
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 15.2.1
 
-### <span>HTML information</span>
+### HTML information
 
 {

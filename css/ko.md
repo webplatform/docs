@@ -74,39 +74,39 @@ translations:
 uri: css/ko
 
 ---
-## <span>Summary</span>
+## Summary
 
 캐스케이딩 스타일 시트 (CSS)는 웹 컨텐츠를 표현하는 언어입니다. [World Wide Web 컨소시엄](http://www.w3.org) 은 [CSS standard|CSS 표준](http://www.w3.org/standards/techs/css)을 관리하고 있습니다.
 
-## <span>CSS 문서 목록</span>
+## CSS 문서 목록
 
-### <span>[CSS 학습 자료](/css/tutorials)</span>
+### [CSS 학습 자료](/css/tutorials)
 
 CSS를 기초부터 가르쳐줄 자습서와 개념 글
 
-### <span>[CSS 선택자](/css/selectors)</span>
+### [CSS 선택자](/css/selectors)
 
 사용 가능한 모든 CSS 선택자에 대한 참고서
 
-### <span>[CSS 속성](/css/properties)</span>
+### [CSS 속성](/css/properties)
 
 사용 가능한 모든 CSS 속성에 대한 참고서
 
-### <span>[CSS 기능](/css/functions)</span>
+### [CSS 기능](/css/functions)
 
 사용 가능한 모든 CSS 기능에 대한 참고서
 
-### <span>[@규칙(앳룰)](/css/atrules)</span>
+### [@규칙(앳룰)](/css/atrules)
 
 사용 가능한 CSS @규칙(앳룰)에 대한 다른 유형의 참고서
 
-### <span>[미디어 쿼리](/css/mediaqueries)</span>
+### [미디어 쿼리](/css/mediaqueries)
 
 사용 가능한 미디어 쿼리에 대한 다른 유형의 참고서
 
  참고: 웹 개발에 익숙하지 않다면, [초보자를 위한 웹 개발](/beginners)을 먼저 확인하는 게 좋습니다.
 
-## <span>배경</span>
+## 배경
 
 캐스케이딩 스타일 시트 (CSS)는 콘텐츠 마크업(예: HTML, XHTML, SVG or XML)을 표현(예: 스타일, 레이아웃, 애니메이션)하는 언어입니다. 그리고 e [Open Web Platform|오픈 웹 플랫폼](http://www.w3.org/wiki/Open_Web_Platform)의 주요 구성 요소 중 하나입니다.
 
@@ -116,15 +116,15 @@ CSS는 [선택자](/css/selectors)와 [속성](/css/properties)으로 컨텐츠�
 -   현재 안정 버전: [| CSS 2 권고](http://www.w3.org/TR/CSS21/)는 그 전에 수년 동안 안정됨에도 불구하고, 1998년에 처음 공개됐으나, 2011년까지 완성되지 못했습니다. CSS3의 여러 모듈이 현재 시점(2012년 12월) 기준으로 안정되었습니다. 자세한 내용은 "현재와 미래의 작업"을 참고하세요.
 -   현재와 미래의 작업: CSS 워킹 그룹은 CSS3로 알려진 기술 집합의 각기 다른 부분을 설명하는 "모듈"의 몇개를 개발하고 있습니다. 이러한 모듈 중 일부는 안정적인 상태이지만, 여전히 일부는 실험적인 상태이고 많은 브라우저가 해당 모듈을 지원하지 않습니다. 또한 다양한 CSS4 모듈이 개발되고 있습니다. 모듈과 사양에 대한 개발 상황에 확인하려면 [| CSS 워킹 그룹이 현재 개발 상태](http://www.w3.org/Style/CSS/current-work)문서에서 확인할 수 있습니다.
 
-## <span>CSS 기술에 기여하기</span>
+## CSS 기술에 기여하기
 
 CSS 워킹 그룹이 CSS 개발을 주도하고 있습니다. 참여를 포함한 더 많은 정보는 [CSS 워킹 그룹 홈페이지](http://www.w3.org/Style/CSS/)에서 확인할 수 있습니다. 피드백을 제공하거나 스펙에 참여하기 위한 질문은 [WWW-스타일 메일링 리스트](http://lists.w3.org/Archives/Public/www-style/)를 이용해주세요. 단, "CSS를 내 웹 페이지에 적용하기 위한 방법"과 같은 유형의 질문을 하는 곳이 아닌 점을 명심해 주세요. For providing feedback and asking questions related to contributing to specs, a good place is the [www-style mailing list](http://lists.w3.org/Archives/Public/www-style/). Bear in mind that it is not a suitable place for "how do I use CSS to style my web page" type questions.
 
-## <span>CSS 레퍼런스에 기여하기</span>
+## CSS 레퍼런스에 기여하기
 
 CSS가 계속 발전하는 만큼, 우리도 문서를 꾸준히 개선해야 합니다. 현재, 우리는 CSS 속성 관련된 내용을 작업중입니다. 이 프로젝트에 참여하려면, [CSS 속성 가이드](/WPD:CSS_property_guide)를 참조하세요.
 
-## <span>모든 CSS 관련 목록</span>
+## 모든 CSS 관련 목록
 
 <table>
 <col width="33%" />

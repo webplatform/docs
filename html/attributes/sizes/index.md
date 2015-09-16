@@ -12,7 +12,7 @@ tags:
 uri: html/attributes/sizes
 
 ---
-## <span>Summary</span>
+## Summary
 
 The sizes attribute is an extension of the image element. It provides additional image related information to the browser to help decide the most appropriate image to load based on the viewport. Most commonly used for delivering the best image for responsive images. It can only be used in conjunction with srcset
 
@@ -36,7 +36,7 @@ Lengths can be declared using fixed widths (pixels) or relative units (**vw** or
 
        sizes="(min-width:30em) 300px, (min-width:60em) 500px, 100vw"
 
-## <span>Examples</span>
+## Examples
 
 Sizes attribute used in conjunction with SRCSET
 
@@ -50,17 +50,17 @@ Sizes attribute used in conjunction with SRCSET
 
 [View live example](http://codepen.io/justincavery/full/vjAgF/)
 
-## <span>Usage</span>
+## Usage
 
      sizes attribute is used along side scrset.
 
-## <span>Notes</span>
+## Notes
 
 It is recommended that the final sizes value is
 
       sizes="[first sizes], [second to last sizes], 100vw"
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5 APIs](http://www.w3.org/html/wg/drafts/html/master/embedded-content.html)
 :   W3C Editor's draft

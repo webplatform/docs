@@ -20,11 +20,11 @@ tags:
 uri: css/properties/speak
 
 ---
-## <span>Summary</span>
+## Summary
 
 The speak property determines whether or not a speech synthesizer will read aloud the contents of an element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -47,13 +47,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Speech Module](http://www.w3.org/TR/css3-speech/#speaking-props-speak)
 :   W3C Candidate Recommendation

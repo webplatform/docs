@@ -19,13 +19,13 @@ tags:
 uri: css/cssom/styleSheet/type
 
 ---
-## <span>Summary</span>
+## Summary
 
 The type of a document's stylesheet.
 
 Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.type;
@@ -34,20 +34,20 @@ element.type = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This property can be any string, including an empty string. Style sheets having any type other than "text/css" are not supported for Microsoft Internet Explorer 4.0. This property can be any string, including an empty string.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `styleSheet`

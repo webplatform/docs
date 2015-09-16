@@ -24,26 +24,26 @@ tags:
 uri: dom/Document/designMode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or gets a value that indicates whether the document can be edited.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var designMode = document.designMode;
 document.designMode = newDesignMode;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 "on" if the the document is editable, or "off" if it is not. Default is "off".
 
-## <span>Examples</span>
+## Examples
 
 This example toggles the state of document.designMode when the window is double-clicked.
 
@@ -68,18 +68,18 @@ function toggleDesignMode() {
 </html>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use the designMode property to let the user edit the current document.
 
 While the browser is in design mode, objects enter a UI-activated state when the user presses `ENTER`, clicks an object that has focus, or double-clicks the object. Objects that are UI-activated have their own window in the document. You can modify the UI only when the object is in a UI-activated state.
 
-## <span>Notes</span>
+## Notes
 
 -   You cannot execute script when the value of the **designMode** property is set to **on**.
 -   The default value is **off**.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/editing.html#designMode)
 :   Working Draft

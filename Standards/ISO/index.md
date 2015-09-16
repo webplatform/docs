@@ -7,12 +7,12 @@ The International Organization for Standardization (ISO) is a de jure internatio
 
 **Website:** <http://www.iso.org>
 
-## <span>Organizational Structure</span>
+## Organizational Structure
 
-### <span>Funding</span>
+### Funding
 
-## <span>Communications</span>
+## Communications
 
-## <span>Process</span>
+## Process
 
-## <span>Patent Policy</span>
+## Patent Policy

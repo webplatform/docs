@@ -22,20 +22,20 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/textAlign
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns or sets the text alignment value. See return value description below.
 
 Property of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = CanvasRenderingContext2D.textAlign;
 CanvasRenderingContext2D.textAlign = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -47,7 +47,7 @@ Must be one of the following:
 -   "right"
 -   "center"
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
@@ -76,11 +76,11 @@ ctxt.fillText("CENTER",150,120);
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The exact alignment depends on whether the direction of *HTMLCanvasElement* is left-to-right (ltr) or right-to-left (rtl). The [textBaseline](/apis/canvas/CanvasRenderingContext2D/textBaseline) value also determines the anchor point of the text.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

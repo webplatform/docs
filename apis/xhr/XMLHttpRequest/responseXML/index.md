@@ -24,13 +24,13 @@ tags:
 uri: apis/xhr/XMLHttpRequest/responseXML
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the response to the request as a DOM Document object, or null if the request was unsuccessful, has not yet been sent, or cannot be parsed as XML or HTML.
 
 Property of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttp
 var result = element.responseXML;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 DOM Document.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // The following example uses the XML DOM to display the response body
@@ -55,7 +55,7 @@ xhr.send();
 console.log(xhr.responseXML.xml);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft

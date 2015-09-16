@@ -22,24 +22,24 @@ tags:
 uri: apis/geolocation/PositionOptions/maximumAge
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates that the application is willing to accept a cached position whose age is no greater than the specified time (in milliseconds).
 
 Property of [apis/geolocation/PositionOptions](/apis/geolocation/PositionOptions)[apis/geolocation/PositionOptions](/apis/geolocation/PositionOptions)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = PositionOptions.maximumAge;
 PositionOptions.maximumAge = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //10000ms = 10sec
@@ -50,7 +50,7 @@ if (PositionOptions.maximumAge < 10000) {
    }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

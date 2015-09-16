@@ -14,7 +14,7 @@ tags:
 uri: html/attributes/pattern
 
 ---
-## <span>Summary</span>
+## Summary
 
 The pattern attribute specifies a regular expression that the &lt;input&gt; element's value is checked against.
 
@@ -30,27 +30,27 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 ``` html
 Numeric field: <input type="text" name="numericField" pattern="[0-9]*" />
 Country code: <input type="text" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code">
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Several generic messages are displayed for a variety of validation errors. If you use a title attribute on an input element, it will both be shown as alt text for the field, as well as be appended to the generic error message. The following example shows a ZIP code number format.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.7.3.9
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLInputElement`

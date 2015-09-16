@@ -20,20 +20,20 @@ tags:
 uri: apis/webaudio/PannerNode/panningModel
 
 ---
-## <span>Summary</span>
+## Summary
 
 Determines which spatialization algorithm will be used to position the audio in 3D space. See below for the available choices. The default is HRTF.
 
 Property of [apis/webaudio/PannerNode](/apis/webaudio/PannerNode)[apis/webaudio/PannerNode](/apis/webaudio/PannerNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = PannerNode.panningModel;
 PannerNode.panningModel = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned shortunsigned short
 
@@ -42,7 +42,7 @@ Uses one of the following constant values:
 -   EQUALPOWER (0), a simple and efficient spatialization algorithm using equal-power panning;
 -   HTRF (1) (default), a higher quality spatialization algorithm using a convolution with measured impulse responses from human subjects, which renders stereo output
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -50,7 +50,7 @@ var panner = audioCtx.createPanner();
 panner.panningModel = 'HRTF';
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

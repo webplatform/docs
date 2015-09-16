@@ -10,17 +10,17 @@ tags:
 uri: javascript/Uint32Array/buffer
 
 ---
-## <span>Summary</span>
+## Summary
 
 Read-only. Gets the ArrayBuffer that is referenced by this array.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     var arrayBuffer = uint32Array.buffer;
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to get the ArrayBuffer of the array.
 

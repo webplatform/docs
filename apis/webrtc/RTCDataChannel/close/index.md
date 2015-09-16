@@ -18,25 +18,25 @@ tags:
 uri: apis/webrtc/RTCDataChannel/close
 
 ---
-## <span>Summary</span>
+## Summary
 
 Closes the RTCDataChannel.
 
 Method of [apis/webrtc/RTCDataChannel](/apis/webrtc/RTCDataChannel)[apis/webrtc/RTCDataChannel](/apis/webrtc/RTCDataChannel)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.close();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web RTC Specification](http://dev.w3.org/2011/webrtc/editor/webrtc.html)
 :   W3C Editor's Draft

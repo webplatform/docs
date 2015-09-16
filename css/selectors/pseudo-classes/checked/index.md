@@ -17,11 +17,11 @@ todo_broken_links:
 uri: 'css/selectors/pseudo-classes/:checked'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The :checked selector applies to toggable elements (e.g. radio buttons or checkboxes) that are toggled on.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 
@@ -29,16 +29,16 @@ The :checked selector applies to toggable elements (e.g. radio buttons or checkb
 
 -   [Selectors Level 3](http://go.microsoft.com/fwlink/p/?linkid=199783), Section 6.6.4.2
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Selectors Level 3](http://www.w3.org/TR/selectors/#checked)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Pseudo-Classes</span>
+#### Pseudo-Classes
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -90,7 +90,7 @@ The :checked selector applies to toggable elements (e.g. radio buttons or checkb
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -166,7 +166,7 @@ The :checked selector applies to toggable elements (e.g. radio buttons or checkb
 
 -   [type](/css/selectors/type)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `:enabled`

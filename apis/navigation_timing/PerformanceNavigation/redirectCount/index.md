@@ -23,13 +23,13 @@ tags:
 uri: 'apis/navigation timing/PerformanceNavigation/redirectCount'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the number of redirects since the last non-redirect navigation under the current browsing context. If there is no redirect or there is any redirect that is not from the same origin as the destination document, returns zero.
 
 Property of [apis/navigation\_timing/PerformanceNavigation](/apis/navigation_timing/PerformanceNavigation)[apis/navigation\_timing/PerformanceNavigation](/apis/navigation_timing/PerformanceNavigation)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,18 +37,18 @@ Property of [apis/navigation\_timing/PerformanceNavigation](/apis/navigation_tim
 var result = PerformanceNavigation.redirectCount;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned shortunsigned short
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var perfnavred = performance.navigation.redirectCount;
 alert(perfnavred);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Navigation Timing Specification 2](http://www.w3.org/TR/navigation-timing-2/)
 :   W3C Working Draft

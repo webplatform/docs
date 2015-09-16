@@ -11,11 +11,11 @@ tags:
 uri: dom/PointerEvent/pointermove
 
 ---
-## <span>Summary</span>
+## Summary
 
 Dispatched when a pointer changes coordinates, button state, pressure, tilt, or contact geometry (e.g. width and height).
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -69,13 +69,13 @@ Varies: when the pointer is primary, all default actions of the [mousemove](/dom
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 ``` js
 element.addEventListener("pointermove", handler, useCapture) ;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Pointer Events](http://www.w3.org/TR/pointerevents)
 :   Working Draft

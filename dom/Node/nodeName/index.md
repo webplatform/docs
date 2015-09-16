@@ -23,13 +23,13 @@ tags:
 uri: dom/Node/nodeName
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the name of a particular type of node.
 
 Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 var nodeName = node.nodeName;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The uppercase name of the node if Content type is text/html, else the lowercase name of the node if Content type is xhtml or any other xml content type.
 
-## <span>Examples</span>
+## Examples
 
 The following code example uses the **nodeName** property to obtain the name of an element.
 
@@ -62,7 +62,7 @@ var sName = document.getElementById("oList").childNodes(1).nodeName;
 </body>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The html spec allows tag names of either case, upper or lower-case. The xhtml spec requires tag names in lower-case only. For interoperability between html and xhtml, and for markup re-use in html and xhtml documents user lower-case tag names in your source markup.
 
@@ -70,7 +70,7 @@ Using lower-case tag names in your source markup also require less keystrokes!
 
 Read more details on [nodeName case sensitivity in different browsers.](http://ejohn.org/blog/nodename-case-sensitivity/)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

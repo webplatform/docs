@@ -11,7 +11,7 @@ tags:
 uri: 'css/selectors/pseudo-classes/:link'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Used to select and style unvisited links.
 
@@ -24,7 +24,7 @@ After some amount of time, user agents may choose to return a visited link to th
 
 The two states are mutually exclusive.
 
-## <span>Examples</span>
+## Examples
 
 The following style rule uses the **:link** pseudo-class to set the default [**color**](/css/properties/color) attribute of a link in a document.
 
@@ -34,19 +34,19 @@ The following style rule uses the **:link** pseudo-class to set the default [**c
 </style>
 ```
 
-## <span>Usage</span>
+## Usage
 
      The :link pseudo-class is often used with :active, :hover and :visited, the pseudo-classes that affect the other states of a link.
 
 The default value of the **:link** pseudo-class is browser-specific. The time period used to define a recent visit also varies by browser.
 
-## <span>Notes</span>
+## Notes
 
 > **Note:** It is possible for style sheet authors to abuse the :link and :visited pseudo-classes to determine which sites a user has visited without the user's consent.
 
 UAs may therefore treat all links as unvisited links, or implement other measures to preserve the user's privacy while rendering visited and unvisited links differently.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1](http://www.w3.org/TR/CSS2/selector.html#link-pseudo-classes)
 :   W3C Recommendation

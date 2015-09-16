@@ -11,20 +11,20 @@ tags:
 uri: 'css/media queries/media groups/audio'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The audio media group is used to distinguish CSS properties and features that can be used in media types that support sound.
 
 The audio category includes both audio-only media types and audio-visual media. It is distinct from the [speech media group](/css/media_queries/media_groups/speech), which applies specifically to technologies such as screen readers that can synthesize speech from text.
 
-## <span>Applicable Media Types</span>
+## Applicable Media Types
 
 (none in the database)
 
-## <span>Applicable Media Features</span>
+## Applicable Media Features
 
 (none in the database)
 
-## <span>Applicable CSS properties</span>
+## Applicable CSS properties
 
 (none in the database)

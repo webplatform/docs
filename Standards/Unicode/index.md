@@ -7,12 +7,12 @@ The Unicode Consortium is a non-profit organization that focuses on defining an 
 
 **Website:** <http://www.unicode.org/>
 
-## <span>Organizational Structure</span>
+## Organizational Structure
 
-### <span>Funding</span>
+### Funding
 
-## <span>Communications</span>
+## Communications
 
-## <span>Process</span>
+## Process
 
-## <span>Patent Policy</span>
+## Patent Policy

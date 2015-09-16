@@ -22,7 +22,7 @@ tags:
 uri: apis/webaudio/ScriptProcessorNode/bufferSize
 
 ---
-## <span>Summary</span>
+## Summary
 
 The size of the buffer (in sample-frames) which needs to be processed each time onaudioprocess is called. Legal values are 256, 512, 1024, 2048, 4096, 8192, and 16384.
 
@@ -30,7 +30,7 @@ The size of the buffer (in sample-frames) which needs to be processed each time 
 
 Property of [apis/webaudio/ScriptProcessorNode](/apis/webaudio/ScriptProcessorNode)[apis/webaudio/ScriptProcessorNode](/apis/webaudio/ScriptProcessorNode)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [apis/webaudio/ScriptProcessorNode](/apis/webaudio/ScriptProcessorNo
 var result = ScriptProcessorNode.bufferSize;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

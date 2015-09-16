@@ -10,11 +10,11 @@ tags:
 uri: javascript/Number
 
 ---
-## <span>Summary</span>
+## Summary
 
 An object that represents a number of any kind. All JavaScript numbers are 64-bit floating-point numbers.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,7 +23,7 @@ An object that represents a number of any kind. All JavaScript numbers are 64-bi
 **value**
 :   Required. The numeric value.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // Returns an Object
@@ -67,7 +67,7 @@ var andBeyond = 3 / 0;
 console.log(andBeyond === Infinity);
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 JavaScript creates **Number** objects when a variable is set to a number value, for example `var num = 255.336;`. It is seldom necessary to create **Number** objects explicitly.
 
@@ -102,7 +102,7 @@ Octal (base-8) and hexadecimal (base-16) numbers can be used in JavaScript.
  Octal numbers must begin with 0 (zero) followed by one or more octal digits.
  Hexadecimal numbers must begin with 0x.
 
-## <span>Properties</span>
+## Properties
 
 The following table lists the properties of the **Number** object.
 
@@ -112,7 +112,7 @@ The following table lists the properties of the **Number** object.
 |[constructor](/javascript/Number/constructor)|Specifies the function that creates an object.|
 |[prototype](/javascript/Number/prototype)|Returns a reference to the prototype for a class of number.|
 
-## <span>Methods</span>
+## Methods
 
 The following table lists the methods of the **Number** object.
 
@@ -124,11 +124,11 @@ The following table lists the methods of the **Number** object.
 |[toString](/javascript/Number/toString)|Returns a string representation of an object.|
 |[valueOf](/javascript/Number/valueOf)|Returns the primitive value of the specified object.|
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Javascript</span>
+#### Javascript
 
 -   [propertyName](/dom/TransitionEvent/propertyName)
 
@@ -138,7 +138,7 @@ The following table lists the methods of the **Number** object.
 
 -   [future reserved words](/javascript/future_reserved_words)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [JavaScript Objects](/javascript/objects)
 -   [Math Object](/javascript/Math)
@@ -146,13 +146,13 @@ The following table lists the methods of the **Number** object.
 -   [JavaScript NaN constant](/javascript/NaN)
 -   [JavaScript Infinity constant](/javascript/Infinity)
 
-### <span>External resources</span>
+### External resources
 
 -   <http://en.wikipedia.org/wiki/Octal>
 -   <http://en.wikipedia.org/wiki/Hexadecimal>
 -   <http://www.2ality.com/2012/04/number-encoding.html>
 
-### <span>Specification</span>
+### Specification
 
 [8.5 The Number Type](http://www.ecma-international.org/ecma-262/5.1/#sec-8.5)
 

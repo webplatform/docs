@@ -13,21 +13,21 @@ uri: svg/properties/in2
 ---
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 For additional information, see [**in**](/svg/properties/in1).
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.7.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFEBlendElement**](/svg/elements/feBlend)
 -   [**SVGFECompositeElement**](/svg/elements/feComposite)

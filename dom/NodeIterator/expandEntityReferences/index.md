@@ -23,13 +23,13 @@ tags:
 uri: dom/NodeIterator/expandEntityReferences
 
 ---
-## <span>Summary</span>
+## Summary
 
 Flag to specify whether or not the children of entity reference nodes are visible.
 
 Property of [dom/NodeIterator](/dom/NodeIterator)[dom/NodeIterator](/dom/NodeIterator)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [dom/NodeIterator](/dom/NodeIterator)[dom/NodeIterator](/dom/NodeIte
 var result = element.expandEntityReferences;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -45,7 +45,7 @@ The NodeIterator.expandEntityReferences read-only property returns a Boolean fla
 
 If this value is false, the children of entity reference nodes (as well as all of their descendants) are rejected. This takes precedence over the value of the NodeIterator.whatToShow method and the associated filter.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var nodeIterator = document.createNodeIterator(
@@ -57,21 +57,21 @@ var nodeIterator = document.createNodeIterator(
 expand = nodeIterator.expandEntityReferences;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Deprecated
 
 This feature has been removed from the Web. Though some browsers may still support it, it is in the process of being dropped. Do not use it in old or new projects. Pages or Web apps using it may break at any time.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 1.2
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#nodeiterator)
 :   Living Standard

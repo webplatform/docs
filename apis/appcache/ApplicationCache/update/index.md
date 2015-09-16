@@ -26,19 +26,19 @@ todo_broken_links:
 uri: apis/appcache/ApplicationCache/update
 
 ---
-## <span>Summary</span>
+## Summary
 
 Invokes the application cache download process. Throws an InvalidStateError exception if there is no application cache to update. Calling this method is not usually necessary, as user agents will generally take care of updating application caches automatically. The method can be useful in situations such as long-lived applications. For example, a Web mail application might stay open in a browser tab for weeks at a time. Such an application could want to test for updates each day.
 
 Method of [apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)[apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = window.applicationCache.update();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type nullnull
 
@@ -68,7 +68,7 @@ This method can return one of these values.
 </tbody>
 </table>
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var applicationCache = window.applicationCache;
@@ -90,7 +90,7 @@ if (applicationCache.status == window.applicationCache.UPDATEREADY) {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 Use this method and check the [status](/w/index.php?title=apis/appcache/properties/status&action=edit&redlink=1) before using [swapCache](/w/index.php?title=apis/appcache/methods/swapCache&action=edit&redlink=1).
 
@@ -98,7 +98,7 @@ The **update** method returns before the update check is complete, so it is a be
 
 The **update** method is provided for convenience, but is not necessary for basic functionality. Loading or refreshing the page is sufficient.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C ApplicationCache Specification](http://dev.w3.org/html5/spec/single-page.html#application-cache-api)
 :   W3C Editor's Draft

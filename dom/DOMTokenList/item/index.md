@@ -22,32 +22,32 @@ tags:
 uri: dom/DomTokenList/item
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a specific zero-indexed token from a DOMTokenList.
 
 Method of [dom/DOMTokenList](/dom/DOMTokenList)[dom/DOMTokenList](/dom/DOMTokenList)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.item(index);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>index</span>
+### index
 
  Data-type
 :   Number
 
  The index of the token to retrieve.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //returns a specific item from an element's classList (a DOMTokenList)
@@ -57,11 +57,11 @@ function elItem(elid,num) {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      DOMTokenList.item(n) is functionally equivalent to DOMTokenList[n] in that it references an indexed item in the DOMTokenList.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C DOM4](http://www.w3.org/TR/dom/)
 :   Candidate Recommendation

@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/operators/bitwise right shift'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Right shifts the bits of an expression, maintaining sign.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Right shifts the bits of an expression, maintaining sign.
 **expression2**
 :   Any expression.
 
-## <span>Examples</span>
+## Examples
 
 The \>\> operator shifts the bits of expression1 right by the number of bits specified in expression2. The sign bit of expression1 is used to fill the digits from the left. Digits shifted off the right are discarded. For example, after the following code is evaluated, temp has a value of -4: -14 (11110010 in two's complement binary) shifted right two bits equals -4 (11111100 in two's complement binary).
 
@@ -38,9 +38,9 @@ var temp
 temp = -14 >> 2
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Bitwise Left Shift Operator (\<\<)](/javascript/operators/bitwise_left_shift)
 -   [Right Shift Assignment Operator (\>\>=)](/javascript/operators/right_shift_assignment)

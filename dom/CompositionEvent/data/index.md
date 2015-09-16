@@ -22,13 +22,13 @@ tags:
 uri: dom/CompositionEvent/data
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the text affected by the composition event.
 
 Property of [dom/CompositionEvent](/dom/CompositionEvent)[dom/CompositionEvent](/dom/CompositionEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [dom/CompositionEvent](/dom/CompositionEvent)[dom/CompositionEvent](
 var compositionData = event.html/elements/data;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The text affected by the event. See the notes for event specific values.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function getCompEventText(e) {
@@ -52,7 +52,7 @@ return compEventText;
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 The value varies by the event type:
 
@@ -62,7 +62,7 @@ The value varies by the event type:
 
 If a user cancels a composition event, the **data** attribute is set to null on the final **compositionupdate** event.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft
@@ -70,8 +70,8 @@ If a user cancels a composition event, the **data** attribute is set to null on 
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `TextEvent`

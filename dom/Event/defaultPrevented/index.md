@@ -24,13 +24,13 @@ tags:
 uri: dom/Event/defaultPrevented
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets whether the default action should be canceled.
 
 Property of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 var shouldPreventDefault = event.defaultPrevented;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -46,22 +46,22 @@ Whether the default action should be canceled.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Use this property to determine whether the default action of an event was prevented.
 
-## <span>Notes</span>
+## Notes
 
 You can set the value of this property to **true** while processing an event, by calling the [**preventDefault**](/dom/Event/preventDefault) method. If the event was initialized with the *cancelable* parameter of [**initEvent**](/dom/Event/initEvent) set to false, the default action cannot be prevented.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

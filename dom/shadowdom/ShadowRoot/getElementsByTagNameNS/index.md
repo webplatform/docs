@@ -23,35 +23,35 @@ tags:
 uri: dom/shadowdom/ShadowRoot/getElementsByTagNameNS
 
 ---
-## <span>Summary</span>
+## Summary
 
 Just like document.getElementsByTagNameNS except that it only works within the scope of this ShadowRoot's shadow tree.
 
 Method of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.getElementsByTagNameNS(pvarNS, bstrLocalName);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>pvarNS</span>
+### pvarNS
 
  Data-type
 :   VARIANT
 
  The namespace URI that defines the desired elements or an asterisk (\*) to match all namespaces with the document.
 
-### <span>bstrLocalName</span>
+### bstrLocalName
 
  Data-type
 :   BSTR
 
  The name of the desired element or an asterisk (\*) to match all elements with the specified namespace.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 

@@ -22,7 +22,7 @@ uri: dom/Element/size
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.size;
@@ -31,16 +31,16 @@ element.size = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **size** property returns the total number of bytes of the [**Blob**](/apis/file/Blob) object or `0` if the **Blob** has no bytes to read. Data accessed through the [**size**](/html/attributes/size_(hr)) property is returned synchronously.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Blob`

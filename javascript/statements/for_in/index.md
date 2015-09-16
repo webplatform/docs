@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/statements/for in'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Executes one or more statements for each property of an object, or each element of an array.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -31,7 +31,7 @@ Executes one or more statements for each property of an object, or each element 
 **statements**
 :   Optional. One or more statements to be executed for each property of object or each element of array. Can be a compound statement.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the for...in statement with an object used as an associative array.
 
@@ -80,7 +80,7 @@ This example illustrates the use of the for ... in statement to iterate though a
  //   carrot: vegetable
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 At the beginning of each iteration of a loop, the value of variable is the next property name of object or the next element index of array. You can then use variable in any of the statements inside the loop to reference the property of object or the element of array.
 
@@ -88,13 +88,13 @@ The properties of an object are not assigned in a determinate manner. You cannot
 
 Iterating through an array is performed in element order, that is, 0, 1, 2.
 
-## <span>Notes</span>
+## Notes
 
 Use the **Enumerator** object to iterate over the members of a collection.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [for Statement](/javascript/statements/for)
 -   [while Statement](/javascript/statements/while)

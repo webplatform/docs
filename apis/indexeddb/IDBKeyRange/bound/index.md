@@ -22,55 +22,55 @@ tags:
 uri: apis/indexeddb/IDBKeyRange/bound
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates and returns a new key range with lower set to lower, lowerOpen set to lowerOpen, upper set to upper and upperOpen set to upperOpen.
 
 Method of [apis/indexeddb/IDBKeyRange](/apis/indexeddb/IDBKeyRange)[apis/indexeddb/IDBKeyRange](/apis/indexeddb/IDBKeyRange)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var range = IDBKeyRange.bound(lower, upper, lowerOpen, upperOpen);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>lower</span>
+### lower
 
  Data-type
 :   String
 
  The lower value of the key range.
 
-### <span>upper</span>
+### upper
 
  Data-type
 :   String
 
  The upper value of the key range.
 
-### <span>lowerOpen</span>
+### lowerOpen
 
  Data-type
 :   Boolean
 
  Indicates whether the key range includes the lower value.
 
-### <span>upperOpen</span>
+### upperOpen
 
  Data-type
 :   Boolean
 
  Indicates whether the key range includes the upper value.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 A range that can be used for specifying the range of cursors.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var range = new IDBKeyRange.bound(2, 4);
@@ -79,11 +79,11 @@ var cursor = store.openCursor(range);
 // contact whose id is between 2 and 4, both inclusive
 ```
 
-## <span>Usage</span>
+## Usage
 
      Raises a DOMException when either the lower or upper parameters were not passed a valid key or the lower key is greater than the upper key or the lower key and upper key match and either of the bounds are open.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

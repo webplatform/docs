@@ -15,7 +15,7 @@ tags:
 uri: html/attributes/autofocus
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides a way to direct a user to a specific field when a document loads.
 
@@ -37,22 +37,22 @@ This can provide both direction and convenience for a user, reducing the need to
 
 This attribute is true when present on an element, and false when missing. Only one element on each page can have the autofocus field.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <input id="search_box" autofocus>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/forms.html#attr-fe-autofocus)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -192,11 +192,11 @@ This attribute is true when present on an element, and false when missing. Only 
 
 -   [time](/html/elements/time)
 
-### <span>External resources</span>
+### External resources
 
 -   [HTML5 Autofocus Explained](http://www.xpertdeveloper.com/2012/09/html5-autofocus/)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLButtonElement`
 -   `HTMLInputElement`

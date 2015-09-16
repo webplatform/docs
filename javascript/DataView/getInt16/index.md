@@ -10,11 +10,11 @@ tags:
 uri: javascript/DataView/getInt16
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the Int16 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be fetched from any offset.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Gets the Int16 value at the specified byte offset from the start of the view. Th
 **littleEndian**
 :   Optional. If false or undefined, a big-endian value should be read, otherwise a little-endian value should be read.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to get the first Int16 in the DataView.
 
@@ -48,7 +48,7 @@ var req = new XMLHttpRequest();
      }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 These methods raise an exception if they would read beyond the end of the view.
 

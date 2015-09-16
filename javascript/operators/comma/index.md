@@ -10,11 +10,11 @@ tags:
 uri: javascript/operators/comma
 
 ---
-## <span>Summary</span>
+## Summary
 
 The comma operator (,) causes two expressions to be executed sequentially.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ The comma operator (,) causes two expressions to be executed sequentially.
 **expression2**
 :   Any expression.
 
-## <span>Examples</span>
+## Examples
 
 The **,** operator causes the expressions to be executed in left-to-right order. A common use for the **,** operator is in the increment expression of a **for** loop. For example, the **for** statement allows only a single expression to be executed at the end of every pass through a loop. The **,** operator allows multiple expressions to be treated as a single expression, so both variables can be incremented.
 
@@ -38,9 +38,9 @@ for (i = 0; i < 10; i++, j++)
 }
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [for Statement](/javascript/statements/for)
 

@@ -14,16 +14,16 @@ tags:
 uri: html/elements/input/type/color
 
 ---
-## <span>Summary</span>
+## Summary
 
 The color type of the &lt;input&gt; element provides a widget for selecting a color value.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
 
-## <span>Examples</span>
+## Examples
 
 When viewed using a supporting user agent, the following example shows a field, usually indicating a red color. When clicked, a color picker shows up. Selecting a color would change the indicated color to the chosen color.
 
@@ -31,11 +31,11 @@ When viewed using a supporting user agent, the following example shows a field, 
 <input type="color" value="#ff0000"/>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use this input type to let the user choose a color using a standard color picker.
 
-## <span>Notes</span>
+## Notes
 
 -   Currently, most user agents do not implement this input type. A customized implementation or poly-fill can usually provide a close alternative.
 -   The value can only express opaque colors, there is no support for an alpha channel/transparency.

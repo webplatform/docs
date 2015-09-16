@@ -21,13 +21,13 @@ tags:
 uri: dom/DOMError/message
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the message associated with an error that occurred during a DOM operation.
 
 Property of [dom/DOMError](/dom/DOMError)[dom/DOMError](/dom/DOMError)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,13 +35,13 @@ Property of [dom/DOMError](/dom/DOMError)[dom/DOMError](/dom/DOMError)
 var result = element.message;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The message associated with an error.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function getErrorMsg(e) {

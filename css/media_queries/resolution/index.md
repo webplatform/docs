@@ -12,23 +12,23 @@ tags:
 uri: 'css/media queries/resolution'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The media feature describes the resolution (pixel-density) of the output device. The resolution can be specified in dpi (dots per inch), dppx (dots per pixel) or dpcm (dots per centimeter).
 
-## <span>Syntax</span>
+## Syntax
 
 1.  **resolution: \<resolution\>**
 2.  **min-resolution: \<resolution\>**
 3.  **max-resolution: \<resolution\>**
 
-## <span>Values</span>
+## Values
 
 **resolution**
 
 Value for the resolution of a device must be a [resolution](/css/data_types/resolution) value.
 
-## <span>Examples</span>
+## Examples
 
 The first media query describes a non-screen devices with a minimum resolution of 300 dots per inch.
 
@@ -40,7 +40,7 @@ The second example describes a device with a screen that has a pixel-density of 
 @media screen and (min-resolution: 2dppx) { ... }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Media Queries Level 4](http://www.w3.org/TR/mediaqueries-4/)
 :   Working Draft

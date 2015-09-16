@@ -18,32 +18,32 @@ tags:
 uri: dom/CharacterData/appendData
 
 ---
-## <span>Summary</span>
+## Summary
 
 Appends a string to the end of the character data.
 
 Method of [dom/CharacterData](/dom/CharacterData)[dom/CharacterData](/dom/CharacterData)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  textualNode.appendData(text);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>text</span>
+### text
 
  Data-type
 :   String
 
  The new character string.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //create text node
@@ -52,7 +52,7 @@ var phrase = document.createTextNode("A flawed plan today");
 phrase.appendData(" is better than a perfect plan tomorrow.");
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

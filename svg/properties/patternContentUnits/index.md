@@ -11,20 +11,20 @@ tags:
 uri: svg/properties/patternContentUnits
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **patternContentUnits** property uses one of the constants that are defined in the **ISVGUnitTypes** enumeration. **Note:** This property has no effect if you specify the [**viewBox**](/svg/properties/viewBox) attribute. You can animate this property.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGPatternElement**](/svg/elements/patterrn)

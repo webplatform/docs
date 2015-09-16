@@ -16,7 +16,7 @@ tags:
 uri: html/attributes/id
 
 ---
-## <span>Summary</span>
+## Summary
 
 The id attribute is used for identifying elements in a document.
 
@@ -32,7 +32,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example gets the **ID** attribute of each cell of a table. When the user clicks a cell, the object of the cell is passed to a function which returns the object's ID.
 
@@ -55,17 +55,17 @@ function getID(oObject)
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/id.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **id** is an SGML identifier used as the target for hypertext links or for naming particular objects in associated style sheets. The **id** should be unique throughout the scope of the current document. If a document contains more than one object with the same identifier, the objects are exposed as a collection that can be referenced only in ordinal position. In versions earlier than Microsoft Internet Explorer 5, this property is read-only.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `style`
 -   `a`

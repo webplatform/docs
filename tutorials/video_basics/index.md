@@ -15,17 +15,17 @@ uri: 'tutorials/video basics'
 **By [Ernest Delgado](http://www.html5rocks.com/profiles/#ernestd)**
 Originally published Aug. 3, 2010
 
-## <span>Summary</span>
+## Summary
 
 An introduction to the HTML5 video tag.
 
-## <span>Introduction</span>
+## Introduction
 
 The video tag is one of those HTML5 features that gets a lot of attention. Often presented in the media as an alternative to Flash, the video tag actually goes beyond that. Although it's recently joined the rest of the ubiquitous HTML tags, its capabilities and support across browsers have increased at an amazing speed. As you will see in this tutorial, its main advantage is the natural integration with the other layers of the web development stack such as CSS and JavaScript, as well as with the other HTML tags.
 
 This tutorial will give you a basic understanding of the video tag and also show you various examples of different integrations with other HTML5 features, such as `<canvas>`.
 
-## <span>The Markup</span>
+## The Markup
 
 To make HTML video work in your site, the following lines should be sufficient.
 
@@ -44,7 +44,7 @@ For now, we'll focus on the former case which is currently more common. *The mos
 
 In order to improve the client side performance it's important to remember to specify the `type` attribute in the `source` tags when dealing with multiple formats. This way, the browser can decide which format it can download and play. In other words, it won't download the ones it can't play, in order to increase the performance of the site.
 
-## <span>Video Formats</span>
+## Video Formats
 
 Think of a <span style="color:green">video format</span> as a zip file that contains the encoded <span style="color:blue">video stream</span> and an <span style="color:red">audio stream</span>. The three formats you should care about for the web are mp4, ogv, and webm:
 
@@ -81,23 +81,23 @@ Another issue with the .mp4 format is that the `type` attribute needs to be more
 
 Even though Microsoft announced the support of the video tag, as well as other HTML5 elements, its user migration rate to newer versions is typically slower than the other major browsers. Hence the following section:
 
-## <span>What happens with IE versions that don't support the video tag?</span>
+## What happens with IE versions that don't support the video tag?
 
 There are two plugins that can be used as possible solutions:
 
-### <span>Chrome Frame</span>
+### Chrome Frame
 
 The advantage of using the [Chrome Frame plugin](http://code.google.com/chrome/chromeframe/) is that, once it's installed, Internet Explorer will have the support for the latest HTML, JavaScript and CSS standard features that older versions of IE don't support. This plugin has an added benefit for web developers, which is that it allows them to code applications with modern web features without leaving IE users behind. Just think the amount of time that a web developer saves without having to code hacks and workarounds for IE.
 
-### <span>Flash fallback</span>
+### Flash fallback
 
 You can also use Flash as a fallback case. Depending on the format of your video you might need to encode it again to a compatible format for the Flash player. The good news is that Adobe has committed to support the *webm* format in their Flash player, although that timeline is still not clear. The biggest drawback of this solution compared to the Chrome Frame plugin is that you will get the Flash player as the degraded version of whatever custom UI or enhanced features you have built for your video tag. The details of this technique can be seen in the [Quick Guide to Implementing the HTML5 Audio](http://tutorials.html5rocks.com/tutorials/audio/quick/#toc-step3) tutorial.
 
-## <span>Encode Your Videos</span>
+## Encode Your Videos
 
 If you need to encode your existing videos to the formats we mentioned in the previous section you can use [Miro Converter](http://www.mirovideoconverter.com/) for both Windows and Mac to easily get the format you need. The program doesn't allow you to tweak many settings but comes with the most common outputs for the web, including the three formats we use in this tutorial. Under the hood, this software is actually a wrapper for [ffmpeg](http://ffmpeg.org/) and [ffmpeg2theora](http://v2v.cc/~j/ffmpeg2theora/) which you can use in Windows, Mac, and Linux from the command line and specify more parameters. You can read more about this tool at [divintohtml5.org](http://diveintohtml5.info/video.html#webm-cli).
 
-## <span>Missing Features and Differences with Flash</span>
+## Missing Features and Differences with Flash
 
 There's no doubt that having the video tag as a native element gives the best environment to integrate video with the rest of your web application. [More](http://www.craftymind.com/2010/04/20/blowing-up-html5-video-and-mapping-it-into-3d-space/) and [more samples](http://demos.hacks.mozilla.org/openweb/WARMCSS/), [video controls](http://dev.opera.com/articles/view/custom-html5-video-player-with-css3-and-jquery/), and [related UI components](http://yayquery.github.com/jquery-singalong/) are being created every day.
 

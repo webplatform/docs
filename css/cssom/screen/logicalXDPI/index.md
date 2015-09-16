@@ -19,20 +19,20 @@ tags:
 uri: css/cssom/screen/logicalXDPI
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the screen's horizontal Dots Per Inch (DPI) value.
 
 Property of [css/cssom/screen](/css/cssom/screen)[css/cssom/screen](/css/cssom/screen)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.logicalXDPI;
 element.logicalXDPI = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following examples use the **logicalXDPI** property to retrieve the normal horizontal DPI of the screen. The function in this example returns `1` if Internet Explorer is not adjusting the scale of the screen.
 
@@ -66,21 +66,21 @@ This example uses the [**-ms-zoom**](/css/selectors/zoom) property of the **BODY
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 On most systems, there is no difference between horizontal and vertical DPI. The normal DPI on most Windows systems is 96. When Windows Internet Explorer is adjusting the scale of the screen, the value of this property does not equal the value of the [**deviceXDPI**](/css/cssom/screen/deviceXDPI) property. **logicalXDPI** was introduced in Microsoft Internet Explorer 6. For information about how Internet Explorer 6 and later can adjust the scale of the display on screens with higher-than-normal DPI, see Adjusting Scale for Higher DPI Screens.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `screen`
 -   `Reference`

@@ -10,17 +10,17 @@ tags:
 uri: javascript/operators/delete
 
 ---
-## <span>Summary</span>
+## Summary
 
 Deletes a property from an object, or removes an element from an array.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     delete expression
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to remove an element from an array.
 
@@ -61,7 +61,7 @@ The following example shows how to delete properties from an object.
  //  count: undefined
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The expression argument is a valid JavaScript expression that usually results in a property name or array element.
 

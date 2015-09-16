@@ -23,13 +23,13 @@ tags:
 uri: dom/Range/endOffset
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a number representing where in the Range.endContainer the Range ends.
 
 Property of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 var offset = range.endOffset;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 the end offset value.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var range = document.createRange();
@@ -53,19 +53,19 @@ range.setEnd(endNode,endOffset);
 endRangeOffset = range.endOffset;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If the boundary point offset is within a container that is not a character data node, the offset is a count based on where it falls between child nodes. For example, the offset is 0 if it falls before the first child, and 1 if it is between the first and second child. If the offset is within a character data node container, the value represents 16-bit unit positions.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-range-endoffset)
 :   Living Standard

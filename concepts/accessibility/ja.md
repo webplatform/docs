@@ -79,13 +79,13 @@ translations:
 uri: concepts/accessibility/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 アクセシビリティは、能力が様々な人々がWebを活用できるようにすることです。アクセシビリティは、質の高いwebサイトやツールを望み、自分たちの製品やサービスから人々を締め出したくない開発者や組織にとって、とても重要なことです。アクセシビリティは、障害を持った人々でも等しくWebに参加できるようにするのに不可欠です。法的必要条件になっている場合もありますが、どんな場合でも推奨事項です。
 
 このページではwebアクセシビリティを概説します。さらに情報を得るためにリーソスへのリンクも示します。まずこのページを通読してから、元に戻ってさらに知るためにリンク先を参照することをお勧めします。
 
-## <span>Webは皆のもの</span>
+## Webは皆のもの
 
 本来Webは、すべての人々が利用できるようにデザインされます。ハードウェアやソフトウェア、言語、文化、地域、身体・精神の能力がどうであれです。
 
@@ -97,7 +97,7 @@ Webがこの目標を達成した時、聴覚や運動、視覚、認知能力�
 -   認知障害者が、画像が動いたり、点滅したり、ちらついたりするため、コンテンツを読めない
 -   身体障害者が、マウスを使えないために取引を完了できない
 
-### <span>webアクセシビリティとは?</span>
+### webアクセシビリティとは?
 
 Webアクセシビリティとは、障害を持った人々がWebを利用できることを意味します。さらに具体的に言うと、障害を持った人々が、気付いて、理解し、操作して、Webとやり取りできることを指します。そして、Webに貢献できるようになるでしょう。**なぜ**：webアクセシビリティが問題になるのか **何が**：webアクセシビリティなのか **どうやって**：webサイトやwebツールを利用しやすくするのか、については、まず　[Writing for an Accessible Web](/concepts/accessibility/writing_for_an_accessible_web) と [Accessibility - W3C](http://www.w3.org/standards/webdesign/accessibility)　を見てください。
 
@@ -105,11 +105,11 @@ Webアクセシビリティは、Webにアクセスするのに差し障りが�
 
 アクセシビリティは障害を持った人々に焦点を当てていますが、その他の人々にもメリットがあります。例えばモバイル・デバイスを使う人や制約のある状況にある人(例えば、音声が聞こえないほど騒がしい環境)です。 **アクセシビリティは社会的共生を支援します**。それは障害を持った人々や高齢者、モバイルユーザー、不便な地域に住む人々、狭い帯域で接続している人々、低学歴な人々等のためです。詳しい情報は、 [Mobile Web](#Mobile_Web) 以下、 [Older users](#Older_users) 以下と [Web Accessibility Benefits People With and Without Disabilities](http://www.w3.org/WAI/bcase/soc.html#groups) を見てください。
 
-### <span>Webアクセシビリティは、機会均等に欠かせないもの</span>
+### Webアクセシビリティは、機会均等に欠かせないもの
 
 Webは、生活の様々な場面でますます不可欠な手段になってきました。教育や雇用、行政、商業、医療、娯楽、社会的交流等々です。Webは情報を得るだけではなく、情報を発信し、社会と交わることにも使われます。したがって、障害を持った人々に対して等しくアクセスする機会を提供するために、Webを利用しやすくすることが最も重要になります。実際に、米国はwebアクセシビリティを基本的人権と認めています。詳細は、 [Web Accessibility is a Social Issue](http://www.w3.org/WAI/bcase/soc#social) を見てください。
 
-## <span>人々がどのようにWebを使っているのか理解する</span>
+## 人々がどのようにWebを使っているのか理解する
 
 Webを使う人々の話は、障害を持った人々が日常必要としていることを説明するのに役立ちます。例えば、
 
@@ -123,7 +123,7 @@ Webを使う方法に影響する人々の能力は様々です。一時的な�
 
 障害を持った人々は、色々な手段でWebにアクセスし操作しています。標準のソフトウェアとハードウェアを必要に応じて設定している場合もあれば、特殊なソフトウェアやハードウェアを使って、特定の操作を支援させている場合もあります。ブラウザの設定やテキストの読み上げ、音声認識といった、障害を持った人々がWebとやりとりするテクニックやツールについて学びたいなら、 [Diversity in Web Use](http://www.w3.org/WAI/intro/people-use-web/browsing) を見てください。
 
-## <span>アクセシビリティの要件</span>
+## アクセシビリティの要件
 
 障害を持った人々がWebを利用できるようにするために、webサイトとwebツールがしなければいけないことがあります。 これらのアクセシビリティの要件は、4つの基本原則を実現させます。
 
@@ -140,7 +140,7 @@ Webを使う方法に影響する人々の能力は様々です。一時的な�
 
 webアクセシビリティの3つの課題(画像の代わりのテキストとキーボード入力、コピー)についての入門,は、 [What: Examples of Web Accessibility](http://www.w3.org/standards/webdesign/accessibility#examples) を見てください。
 
-## <span>ARIA</span>
+## ARIA
 
 「WAI-ARIAは、ユーザー・インターフェースの操作と動きのあるコンテンツをより利用しやすくするため、HTMLに意味と他のメタデータを追加する方法について説明しています。例えばWAI-ARIAでは、折り畳まれていてもいなくても、ナビゲーション・メニューとして、リンクのリストが確認できます。」 これ以上の情報については、 [WAI-ARIA](http://en.wikipedia.org/wiki/WAI-ARIA) を参照してください。
 
@@ -148,23 +148,23 @@ ARIAは、 [accessability software](http://en.wikipedia.org/wiki/Computer_access
 
 リッチ・インターネット・アプリケーション・アクセシビリティの課題と解決策についての入門は、 [WAI-ARIA 1.0 Primer](http://www.w3.org/TR/wai-aria-primer/) を見てください。
 
-### <span>学習教材</span>
+### 学習教材
 
 [Introduction to Web Accessibility](https://webaccessibility.withgoogle.com) は、Googleのオンラインコースで、web開発者が簡単かつ確実に、盲目もしくは弱視のユーザーがよりwebサイトを利用しやすくなるツールとテクニックについて紹介しています。
 
 HTML5でARIAを使う基本とGoogle Chromeの拡張機能であるChromeVoxとAccessibility Developer Toolsを使ったwebサイトのアクセシビリティの調査を学びます。このコースは、開発者が視覚障害を持ったユーザーを支援するために、webサイトにアクセシビリティを導入する方法を学ぶ出発点になります。
 
-## <span>アクセシビリティの要素</span>
+## アクセシビリティの要素
 
 アクセシビリティの原則は、下記に登場する要素に適用されます。障害を持った人々がWebを利用しやすくするために、webの開発と双方向の要素が連携することが欠かせません。W3CのWeb Accessibility Initiative (WAI)はガイドラインを提供し、アクセシビリティが要件としている技術的な要素をカバーしています。
 
-### <span>Webのコンテンツ</span>
+### Webのコンテンツ
 
 コンテンツは、webページやweb**アプリケーション**にある情報です。その情報とは、テキストや画像、音声といった普通の情報や、コードやマークアップといった構造や体裁、双方向性等を定義したものがあります。コンテンツの要件は、Web Content Accessibility Guidelines (**WCAG**)で扱われています。
 
 「WCAG」のドキュメントでは、障害を持った人々がより利用しやすいwebコンテンツ(webアプリケーション含む)を作る方法を解説しています。WCAGがどのように構成されているか、アクセシビリティの要件に沿ったどんな実践的なアドバイスを提供しているドキュメントがあるのか、についてさらに学ぶなら、 [the **WCAG Overview**](http://www.w3.org/WAI/intro/wcag.php) を見てください。
 
-### <span>ツール</span>
+### ツール
 
 私たちがwebコンテンツを作ったり使ったりするツールは、webアクセシビリティを支援する場合もあれば妨げる場合もあります。
 
@@ -173,7 +173,7 @@ HTML5でARIAを使う基本とGoogle Chromeの拡張機能であるChromeVoxとA
 -   **Webブラウザ**、メディアプレーヤー、その他webコンテンツにアクセスする"ユーザーエージェント"は、User Agent Accessibility Guidelinesで触れています。**[UAAG Overview](http://www.w3.org/WAI/intro/uaag.php)** を見てください。
 -   **支援テクノロジー**は、障害を持った人々がWebとやりとりするのを改善するのに使われるソフトウェアとハードウェアです。例えば、web,ページを読み上げるスクリーンリーダーや音声認識ソフトウェア、キーボードの代わりになるもの等
 
-### <span>人 - webコンテンツの作り手とユーザー</span>
+### 人 - webコンテンツの作り手とユーザー
 
 webコンテンツとツールに加えて、人もwebアクセシビリティの重要な要素です。
 
@@ -183,7 +183,7 @@ webコンテンツとツールに加えて、人もwebアクセシビリティ�
 
 webコンテンツとツール、人的要素について、これ以上知りたければ、["Components of Web Accessibility" Presentation](http://www.w3.org/WAI/presentations/components/Overview.php) か [Essential Components of Web Accessibility](http://www.w3.org/WAI/intro/components.php) を見てください。
 
-## <span>投資対効果検討書</span>
+## 投資対効果検討書
 
 組織でアクセシビリティの初期投資をしようとするなら、webアクセシビリティの金銭的な利益を理解する必要があります。 ["Web Accessibility is Smart Business" Presentation](http://www.w3.org/WAI/presentations/bcase/Overview.php) に紹介されています。
 
@@ -191,23 +191,23 @@ webコンテンツとツール、人的要素について、これ以上知り�
 
 例えば、投資対効果検討書の一側面として、ユーザーを増やすには、高齢のユーザーとモバイルユーザーを取り込む、というものがあります。
 
-### <span>高齢のユーザー</span>
+### 高齢のユーザー
 
 高齢のユーザーのマーケット・セグメントは広がっていて、ビジネスや政府、その他の組織の多くで重要なターゲット・グループになっています。高齢な人々の多くは、加齢に関連した障害を持っていて、それがWebの利用の仕方に影響を及ぼしています。その障害とは、視力や身体能力、聴覚、認知能力の低下です。これらの問題は、障害を持った人々が必要としているアクセシビリティと重なっています。つまり、障害を持った人が利用しやすくなるwebサイトとツールは、高齢のユーザーにも同じようにさらに利用しやすくするということです。詳しい情報は、 [Web Accessibility and Older People: Meeting the Needs of Ageing Web Users](http://www.w3.org/WAI/older-users/Overview.php) を見てください。
 
-### <span>モバイルWeb</span>
+### モバイルWeb
 
 グローバル・モバイル・フォンは、これまでになく使われています。モバイル・デバイスから利用しやすくなるwebサイトの開発で、関心が高まって来ています。モバイル・デバイスのユーザーと障害を持った人々は、Webコンテンツを扱う際に同じような使いにくさを感じます。開発者がwebサイトを利用しやすくするのに、モバイル・デバイスと障害を持った人々のためにすることに重複する部分がかなりあることを理解した時、Webサイトはより効率的に両者の目的をかなえられるでしょう。さらに詳しい情報は、 [Web Content Accessibility and Mobile Web: Making a Web Site Accessible Both for People with Disabilities and for Mobile Devices](http://www.w3.org/WAI/mobile/) を見て下さい。
 
-## <span>W3C WAIからもっと学ぶ</span>
+## W3C WAIからもっと学ぶ
 
 W3CのWeb Accessibility Initiative (WAI)は、世界各国の産業界や障害者団体、政府、研究所の人々が一緒になって、障害を持った人々がWebを利用しやすくなるように、ガイドラインの作成と支援を進めています。 [WAI website](http://www.w3.org/WAI/) を見渡してみることをおすすめします。そうすれば、さらに役立つ情報が得られるでしょう。 [Finding Your WAI ("way") to New Web Accessibility Resources](http://www.w3.org/WAI/yourWAI) を見て下さい。
 
-## <span>引用文献と謝辞</span>
+## 引用文献と謝辞
 
 このドキュメントの情報の引用について：このページのテキストの大部分は、他のドキュメントを引用しており、セクション内からリンクされています。引用する場合は、オリジナルのドキュメントを使ってください( [Using WAI Material: Permission to Use with Attribution](http://www.w3.org/WAI/about/usingWAImaterial.html) )
 
-## <span>関連項目</span>
+## 関連項目
 
 -   [This page originally available at W3C WAI](http://www.w3.org/WAI/EO/wiki/Web_Accessibility_Basics)
 -   [Improving accessibility using HTML5 features](http://www.w3.org/WAI/GL/wiki/Techniques/HTML5)

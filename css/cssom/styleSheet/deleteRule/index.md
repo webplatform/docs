@@ -20,41 +20,41 @@ tags:
 uri: css/cssom/styleSheet/deleteRule
 
 ---
-## <span>Summary</span>
+## Summary
 
 Deletes a CSS rule from the style sheet.
 
 Method of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  stylesheet.deleteRule(index);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>index</span>
+### index
 
  Data-type
 :   Number
 
  The index within the rule list for the style sheet of the rule to remove.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `styleSheet`
 -   `Reference`

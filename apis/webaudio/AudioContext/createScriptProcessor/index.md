@@ -20,28 +20,28 @@ tags:
 uri: apis/webaudio/AudioContext/createScriptProcessor
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a ScriptProcessorNode for direct audio processing using JavaScript. An exception will be thrown if bufferSize or numberOfInputChannels or numberOfOutputChannels are outside the valid range.
 
 Method of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = AudioContext.createScriptProcessor(bufferSize, numberOfInputChannels, numberOfOutputChannels);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>bufferSize</span>
+### bufferSize
 
  Data-type
 :   unsigned long
 
  Determines the buffer size in units of sample-frames. It must be one of the following values: 256, 512, 1024, 2048, 4096, 8192, 16384. This value controls how frequently the [**onaudioprocess**](/apis/webaudio/ScriptProcessorNode/onaudioprocess) event handler is called and how many sample-frames need to be processed each call. Lower values for [**bufferSize**](/apis/webaudio/ScriptProcessorNode/bufferSize) will result in a lower (better) latency. Higher values will be necessary to avoid audio breakup and glitches. The value chosen must carefully balance between latency and audio quality.
 
-### <span>numberOfInputChannels</span>
+### numberOfInputChannels
 
  Data-type
 :   unsigned long
@@ -50,7 +50,7 @@ var  = AudioContext.createScriptProcessor(bufferSize, numberOfInputChannels, num
 
 Defaults to 2; determines the number of channels for this node's input. Values of up to 32 must be supported.
 
-### <span>numberOfOutputChannels</span>
+### numberOfOutputChannels
 
  Data-type
 :   unsigned long
@@ -59,20 +59,20 @@ Defaults to 2; determines the number of channels for this node's input. Values o
 
 Defaults to 2; determines the number of channels for this node's output. Values of up to 32 must be supported.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 ScriptProcessorNode
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
 myScriptProcessor = audioCtx.createScriptProcessor(1024, 1, 1);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

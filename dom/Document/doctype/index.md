@@ -24,13 +24,13 @@ tags:
 uri: dom/Document/doctype
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets an object that represents the document type declaration that is associated with the current document.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 var doctype = document.doctype;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The DocumentType instance object of the document.
 
-## <span>Examples</span>
+## Examples
 
 This example retrieves the document's DOCTYPE and displays some of its available components.
 
@@ -72,7 +72,7 @@ This example retrieves the document's DOCTYPE and displays some of its available
 </html>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/core.html#i-Document)
 :   Recommendation

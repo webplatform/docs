@@ -20,39 +20,39 @@ tags:
 uri: dom/Window/resizeTo
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the size of the window to the specified width and height values.
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  window.resizeTo(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
+### x
 
  Data-type
 :   Number
 
 **Integer** that specifies the width of the window in pixels. The value can be either positive or negative.
 
-### <span>y</span>
+### y
 
  Data-type
 :   Number
 
 **Integer** that specifies the height of the window in pixels. The value can be either positive or negative.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // function resizes the window to take up one quarter
@@ -65,8 +65,8 @@ function quarter() {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This method is not valid with windows created using the [**showModalDialog**](/dom/Window/showModalDialog) method. In order to move or resize a dialog window created with these methods, change the [**dialogHeight**](/dom/WindowModal/dialogHeight), [**dialogWidth**](/dom/WindowModal/dialogWidth), [**dialogTop**](/dom/WindowModal/dialogTop), and [**dialogLeft**](/dom/WindowModal/dialogLeft) properties. If the page (that contains this script) is hosted within an IFRAME, the IFRAME will move relative to the upper-left corner of the content area. Windows XP Service Pack 2 (SP2) or later. Windows that are located in the Internet Zone are subject to Window\_Restrictions and will be forced to stay on screen. This applies to [**moveTo**](/dom/Window/moveTo), [**moveBy**](/dom/Window/moveBy), **resizeTo**, and [**resizeBy**](/dom/Window/resizeBy) methods. **Note:** When operating in high-dpi mode, pixel values are scaled up accordingly. See Adjusting Scale for Higher DPI Screens for additional information. Windows Internet Explorer 7. This method is only effective when a single tab is open or when tabbed browsing is disabled. If multiple tabs are open, this method is blocked. For information regarding tab interaction from a script, see Tabbed Browsing for Developers. Internet Explorer 7. This method is blocked if called by a foreign domain within a sub-frame (FRAME/IFRAME).

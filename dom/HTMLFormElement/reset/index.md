@@ -28,13 +28,13 @@ uri: dom/HTMLFormElement/reset
 
 Method of [dom/HTMLFormElement](/dom/HTMLFormElement)[dom/HTMLFormElement](/dom/HTMLFormElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.reset();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -42,7 +42,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates how to use the **reset** method for a **form** object. When the button is pressed, the **form** is reset, resulting in the [**onreset**](/dom/Element/reset) event call on the **form** object. The **onreset** event calls an event handler which in turn adds the text `Resetting form.` to the text area below.
 
@@ -72,20 +72,20 @@ function doReset(){
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/reset.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **reset** method raises the **onreset** event on the form. The **reset** method fires the [**onreset**](/dom/Element/reset) event on the form.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `form`

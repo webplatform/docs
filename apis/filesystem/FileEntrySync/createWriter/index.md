@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/FileEntrySync/createWriter
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a new FileWriterSync associated with the file that this FileEntrySync represents.
 
@@ -30,21 +30,21 @@ Creates a new FileWriterSync associated with the file that this FileEntrySync re
 
 Method of [apis/filesystem/FileEntrySync](/apis/filesystem/FileEntrySync)[apis/filesystem/FileEntrySync](/apis/filesystem/FileEntrySync)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = FileEntrySync.createWriter();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 FileWriterSync
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

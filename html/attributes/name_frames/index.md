@@ -26,7 +26,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses scripting to set the **name** property of a frame.
 
@@ -43,17 +43,17 @@ This example shows how the **NAME** attribute for a window can be persisted in H
 </FRAMESET>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **name** property identifies which frame displays the content of a linked document.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `frame`
 -   `frameSet`

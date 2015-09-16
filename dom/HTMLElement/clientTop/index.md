@@ -22,7 +22,7 @@ uri: dom/HTMLElement/clientTop
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.clientTop;
@@ -31,10 +31,10 @@ element.clientTop = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The difference between the [**offsetTop**](/dom/HTMLElement/offsetTop) and the **clientTop** properties is the border area of the object.
 
-### <span>Syntax</span>
+### Syntax

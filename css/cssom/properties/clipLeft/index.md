@@ -24,14 +24,14 @@ uri: css/cssom/properties/clipLeft
 
 Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.clipLeft;
 element.clipLeft = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates how to read the **clipLeft** property from the [**currentStyle**](/css/cssom/currentStyle) object of an image.
 
@@ -60,13 +60,13 @@ Pick an amount to clip the left:
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipLeft.htm)
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -212,7 +212,7 @@ Pick an amount to clip the left:
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

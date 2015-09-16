@@ -13,11 +13,11 @@ tags:
 uri: dom/UIEvent/activate
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fires when the object is set as the active element.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -71,7 +71,7 @@ see Notes
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following example demonstrates the order of event firing for the **onactivate** and **onload** events. As each event fires, it appends a string to the **div** element within the document. The **onactivate** event fires before the **onload** event.
 
@@ -99,9 +99,9 @@ function fnLoad(){
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onactivate.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note**  Using the [**setActive**](/dom/HTMLElement/setActive) method has no effect on document focus. Using the [**focus**](/dom/HTMLElement/focus) method on an individual element causes the element to gain focus and become the active element. When one object loses activation and another object becomes the [**activeElement**](/dom/Document/activeElement), the **onfocus** event fires on the object becoming the **activeElement** only after the [**onblur**](/dom/HTMLElement/blur) event fires on the object losing activation. Each document may have up to one active element. Set the active element with the **setActive** or **focus** methods. Using the **focus** method on a document that does not have the focus moves the document to the front of the display. Additionally, the document's active element gains focus. The **onactivate** event fires before the **onload** event for any of the objects listed in the Applies To section. For Microsoft Internet Explorer 6 and later, the **event.fromElement** property is now exposed by this event. For Microsoft Internet Explorer 5.5 and later, focus on a [**Document**](/dom/Document), and the **activeElement** of a **Document** can be managed separately. Use the **onactivate** event to manage formatting changes when an element is made active. Change activation from the **event.fromElement** to the **event.srcElement**. To invoke this event, do one of the following:
 
@@ -136,13 +136,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

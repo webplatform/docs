@@ -18,11 +18,11 @@ tags:
 uri: css/properties/text-script
 
 ---
-## <span>Summary</span>
+## Summary
 
 Obsolete: unsupported.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :
@@ -45,9 +45,9 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 **Needs Examples**: This section should include examples.
 

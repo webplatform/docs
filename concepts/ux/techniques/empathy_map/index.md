@@ -11,15 +11,15 @@ tags:
 uri: 'concepts/ux/techniques/empathy map'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Explore a target user from different perspectives such as Behavior (See), Motivations (Do), Features (Say or feel).
 
-### <span>What it is</span>
+### What it is
 
 An empathy map is a collaborative tool teams can use to gain a deeper insight into their customers. Much like a user persona, an empathy map can represent a group of users, such as a customer segment. The empathy map was originally created by Dave Gray and has been gaining popularity with the agile community.
 
-### <span>What Does an Empathy Map Look Like?</span>
+### What Does an Empathy Map Look Like?
 
 An empathy map consists of a simple face surrounded by six sections:
 
@@ -30,7 +30,7 @@ An empathy map consists of a simple face surrounded by six sections:
 -   Pain
 -   Gain
 
-### <span>How Would I Use an Empathy Map?</span>
+### How Would I Use an Empathy Map?
 
 A sample empathy mapping session may be as follows:
 
@@ -52,7 +52,7 @@ Have the team members speak about the sticky notes as they place them on the emp
 
 At the end of the session, ask the team members what insights they’ve learned. More importantly, ask them what hypotheses they now have about the users that they’d like to validate.
 
-### <span>When Would I Use an Empathy Map?</span>
+### When Would I Use an Empathy Map?
 
 Empathy maps can be used whenever you find a need to immerse yourself in a user’s environment.
 
@@ -63,22 +63,22 @@ They can be helpful when, but are not limited to:
 -   capturing the behaviors when pair interviewing a customer
 -   building out the “user” in your user story
 
-### <span>Who does it</span>
+### Who does it
 
 The whole project team, preferably with input from UX team
 
-### <span>Why to do it</span>
+### Why to do it
 
 -   Very quick to have a holistic view of your target user
 -   Forces you to think about more than their role
 -   Allow team to ground communication throughout development
 
-## <span>Usage</span>
+## Usage
 
      At Research and Analysis
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [User eXperience (UX) Design Techniques](/concepts/ux/techniques)

@@ -21,28 +21,28 @@ tags:
 uri: dom/Selection/collapse
 
 ---
-## <span>Summary</span>
+## Summary
 
 Replaces the current selection with an empty selection (or a caret) at the given offset.
 
 Method of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  selObj.collapse(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>parentNode</span>
+### parentNode
 
  Data-type
 :   DOM Node
 
  The parent node that the selection is contained in.
 
-### <span>offset</span>
+### offset
 
  Data-type
 :   Number
@@ -52,11 +52,11 @@ Method of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
        0 - Collapses the selection from the anchor to the beginning of parentNode's text.
        1 - Collapses the selection from the anchor to the end of parentNode's text.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 Place the caret at the beginning of an HTML document's body.
 
@@ -66,11 +66,11 @@ var selObj = window.getSelection();
 selObj.collapse(body,0);// offset 0
 ```
 
-## <span>Notes</span>
+## Notes
 
 Throws a WrongDocumentError [**DOMException**](/dom/DOMException) if the *parentNode* is in another document. Throws a TypeError [**DOMException**](/dom/DOMException) if the relevantly typed arguments are not specified.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML Editing APIs](https://dvcs.w3.org/hg/editing/raw-file/tip/editing.html#dom-selection-collapse)
 :   W3C Community Group Work In Progress

@@ -26,29 +26,29 @@ uri: canvas/methods/toDataURL
 
 Method of [dom/HTMLCanvasElement](/dom/HTMLCanvasElement)[dom/HTMLCanvasElement](/dom/HTMLCanvasElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.toDataURL(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>type</span>
+### type
 
  Data-type
 :   any
 
  The standard MIME type for the image format to return. If you do not specify this parameter, the default value is a PNG format image.
 
-### <span>jpegquality</span>
+### jpegquality
 
  Data-type
 :   any
 
  The quality level of a JPEG image in the range of 0.0 to 1.0.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -56,7 +56,7 @@ String
 
 The image data.
 
-## <span>Examples</span>
+## Examples
 
 The following code example draws some graphics on a canvas and then uses **toDataURL** to make an image that is assigned to an **img** object.
 
@@ -105,20 +105,20 @@ function putImage()
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Typical values for the *type* parameter are `image/png` or `image/jpg`.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.8.10
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `canvas`

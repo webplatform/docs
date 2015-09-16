@@ -21,13 +21,13 @@ tags:
 uri: 'apis/web animations/AnimationTimingReadOnly/easing'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The timing function used to scale the time to produce easing effects.
 
 Property of [apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)[apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,7 +35,7 @@ Property of [apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/
 var result = element.easing;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
@@ -43,7 +43,7 @@ DOMString
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      The syntax of the string is defined by the following production:
 

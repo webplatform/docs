@@ -21,20 +21,20 @@ tags:
 uri: apis/indexeddb/IDBVersionChangeRequest/onblocked
 
 ---
-## <span>Summary</span>
+## Summary
 
 The event handler for the blocked event.
 
 Property of [apis/indexeddb/IDBVersionChangeRequest](/apis/indexeddb/IDBVersionChangeRequest)[apis/indexeddb/IDBVersionChangeRequest](/apis/indexeddb/IDBVersionChangeRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onblocked;
 element.onblocked = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type functionfunction
 

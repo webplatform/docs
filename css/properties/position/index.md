@@ -24,11 +24,11 @@ tags:
 uri: css/properties/position
 
 ---
-## <span>Summary</span>
+## Summary
 
 The position property controls the type of positioning used by an element within its parent elements. The effect of the position property depends on a lot of factors, for example the position property of parent elements.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `static`
@@ -51,7 +51,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `position`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `position: absolute`
 -   `position: fixed`
@@ -59,7 +59,7 @@ Animatable
 -   `position: relative`
 -   `position: static`
 
-## <span>Values</span>
+## Values
 
 static
 :   Default. Object has no special positioning; it follows the layout rules of HTML. Values of [top](/css/properties/top), [bottom](/css/properties/bottom), [left](/css/properties/left) and [right](/css/properties/right) have no impact.
@@ -76,7 +76,7 @@ fixed
 inherit
 :   Inherits the value of the parent element.
 
-## <span>Examples</span>
+## Examples
 
 The example shows how a child element’s position depends on the position value of its parent, as well as its own position value.
 
@@ -182,13 +182,13 @@ While the .long-scrollable section is scrolled down, the .nav-fixed stays fixed 
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      ===Static (Default)===
 
 The element is laid out according to normal HTML flow.
 
-### <span>Relative</span>
+### Relative
 
 Setting the property to **relative** places the object in the natural HTML flow of the document, but offsets the position of the object from its normal position. The following syntax shows how to create superscript text by placing the text in a span that is positioned relative to its original position.
 
@@ -204,7 +204,7 @@ The superscript in this name <span style="position: relative; top: -3px">xyz</sp
 
 Text and objects that follow a relatively positioned object occupy their own space and do not overlap the natural space for the positioned object. In contrast, text and objects that follow an absolutely positioned object occupy what would have been the natural space for the positioned object before it was pulled out of the flow. Placing an absolutely positioned object beyond the viewable area of the window causes a scroll bar to appear. When relatively positioned objects are placed beyond the viewable area, a scroll bar is not shown. The size of the content determines the size of objects with layout. For example, setting the height and position properties on a div object gives it layout. The content of the div determines the size. In this case, the content determines the size of the width.
 
-### <span>Absolute</span>
+### Absolute
 
 Setting the property to **absolute** pulls the object out of the "flow" of the document and positions it regardless of the layout of surrounding objects. If other objects already occupy the given position, they do not affect the positioned object, nor does the positioned object affect them. Instead, all objects are drawn at the same place, causing the objects to overlap. (This overlap is controlled by using the [z-index](/css/properties/z-index) property.)
 
@@ -214,20 +214,20 @@ The edges of the element can be specified relative to the edges of the containin
 
 Absolutely positioned objects do not have **margins**, but they do have borders and padding.
 
-#### <span>Side Note</span>
+#### Side Note
 
 Input from pointing devices, such as the mouse, does not penetrate through overlapping elements even if the elements are not visible. This is also true for positioned elements with a negative z-index unless:
 
 -   The parent is a scrolling container (that is, its overflow property is set to auto or scroll).
 -   The parent is positioned (that is, its position property is set to absolute or relative).
 
-### <span>Fixed</span>
+### Fixed
 
 An element with a **fixed** position is positioned relative to the visible viewport. It does not move away if the browser window is scrolled but appears to be fixed in the viewport. A common pattern and example is to use position: fixed on navigation elements that should be visible on the whole page regardless of the scrollbar position. Fixed positioning is only supported for pages using a strict \<!DOCTYPE\> directive.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Layout Float</span>
+### Layout Float
 
 **static** The positioned float is laid out according to normal HTML flow.
 
@@ -237,14 +237,14 @@ An element with a **fixed** position is positioned relative to the visible viewp
 
 **fixed** The positioned float is laid out relative to the initial position of the viewport, or browser window. (The positioned float's position is not updated as the viewport moves due to scrolling.)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1](http://www.w3.org/TR/CSS2/visuren.html#choose-position)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-## <span>Related Tutorials</span>
+## Related Tutorials
 
 -   [Static and relative positioning](/tutorials/static_and_relative_positioning)
 -   [Absolute and fixed positioning](/tutorials/absolute_and_fixed_positioning)

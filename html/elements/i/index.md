@@ -16,16 +16,16 @@ tags:
 uri: html/elements/i
 
 ---
-## <span>Summary</span>
+## Summary
 
 The i element indicates that the contained text is in an alternate voice, mood, or language from the surrounding text.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 A simple example of the **i** element in use.
 
@@ -43,11 +43,11 @@ This example uses the **I** element to indicate the transition to an alternate l
 sais quoi</i></p>
 ```
 
-## <span>Usage</span>
+## Usage
 
      The i element is a phrasing-level element. It must not contain block-level elements, but it can contain other phrasing-level elements.
 
-## <span>Notes</span>
+## Notes
 
 The **i** element was historically used to indicate that the text should be rendered in Italic type, where available. By default, most browsers still render the **i** element in italics, but you can change that in CSS.
 
@@ -59,7 +59,7 @@ Internationalization topics related to the **i** element:
 
 -   [Using b and i tags](http://www.w3.org/International/techniques/authoring-html#bandi)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-i-element)
 :   W3C Working Draft
@@ -70,11 +70,11 @@ Internationalization topics related to the **i** element:
 [HTML 4.01](http://www.w3.org/TR/html401/present/graphics.html#edef-I)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -214,7 +214,7 @@ Internationalization topics related to the **i** element:
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

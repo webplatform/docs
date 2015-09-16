@@ -19,13 +19,13 @@ tags:
 uri: dom/PointerEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides contextual information associated with input events (for example, from mouse, touch or pen).
 
 Inherits from [MouseEvent](/dom/MouseEvent)[MouseEvent](/dom/MouseEvent)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -54,7 +54,7 @@ API Name
 [width](/dom/PointerEvent/width)
 :   The width (magnitude on the X axis), in CSS pixels, of the contact geometry of the pointer.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -62,7 +62,7 @@ API Name
 [initPointerEvent](/dom/PointerEvent/initPointerEvent)
 :   Initializes a new **PointerEvent** created by the [createEvent](/dom/Document/createEvent) method.
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -100,9 +100,9 @@ API Name
 [pointerup](/dom/PointerEvent/pointerup)
 :   Dispatched when a pointer leaves the state of having a non-zero value for the [buttons](/dom/MouseEvent/buttons) property.
 
-## <span>Inherited from MouseEvent</span>
+## Inherited from MouseEvent
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -144,7 +144,7 @@ API Name
 [y](/dom/MouseEvent/y)
 :   Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -152,7 +152,7 @@ API Name
 [initMouseEvent](/dom/MouseEvent/initMouseEvent)
 :   Initializes a new mouse event that the [**createEvent**](/dom/Document/createEvent) method created.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -186,16 +186,16 @@ API Name
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Pointer Events](http://www.w3.org/TR/pointerevents/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Pointer Events</span>
+#### Pointer Events
 
 -   [Pointer Events Primer](/concepts/Pointer_Events)
 

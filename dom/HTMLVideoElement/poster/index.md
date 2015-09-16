@@ -25,40 +25,40 @@ tags:
 uri: dom/HTMLVideoElement/poster
 
 ---
-## <span>Summary</span>
+## Summary
 
 Valid URL to an image ressource that will be displayed until the first frame of the video is available or will be displayed if no valid video ressource is available at all.
 
 Property of [dom/HTMLVideoElement](/dom/HTMLVideoElement)[dom/HTMLVideoElement](/dom/HTMLVideoElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.poster;
 element.poster = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The poster property requires a non-empty URL.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.8.6
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `video element`
 -   `video object`

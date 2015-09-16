@@ -21,11 +21,11 @@ tags:
 uri: css/properties/align-items
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the default alignment in the cross axis for all of the flex container's items, including anonymous flex items, similarly to how justify-content aligns items along the main axis.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `stretch`
@@ -48,7 +48,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `alignItems`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `align-items: baseline`
 -   `align-items: center`
@@ -66,7 +66,7 @@ Animatable
 -   `flex-align: start`
 -   `flex-align: stretch`
 
-## <span>Values</span>
+## Values
 
 flex-start
 :   The cross-start margin edge of the flex item is placed flush with the cross-start edge of the line.
@@ -83,7 +83,7 @@ baseline
 stretch
 :   If the cross size property of the flex item is **auto**, its used value is the length necessary to make the cross size of the item's margin box as close to the same size as the line as possible, while still respecting the constraints imposed by [min-height](/css/properties/min-height)/[min-width](/css/properties/min-width)/[max-height](/css/properties/max-height)/[max-width](/css/properties/max-width). Note: that if the flex container's height is constrained the **stretch** value may cause the contents of the flex item to overflow the item.
 
-## <span>Examples</span>
+## Examples
 
 Alignment of flex items in a flex container. Change the values in the live example.
 
@@ -160,20 +160,20 @@ Displaying children centered vertically.
 
 [View live example](http://code.webplatform.org/gist/4745341)
 
-## <span>Notes</span>
+## Notes
 
 This property was named **flex-align** in older drafts.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Flexible Box Layout Module](http://www.w3.org/TR/css3-flexbox/#align-items-property)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Flexbox</span>
+#### Flexbox
 
 -   [align-content](/css/properties/align-content)
 
@@ -199,7 +199,7 @@ This property was named **flex-align** in older drafts.
 
 -   [justify-content](/css/properties/justify-content)
 
-### <span>External resources</span>
+### External resources
 
 Also, check out the following live demo sites:
 

@@ -13,11 +13,11 @@ tags:
 uri: apis/websocket/WebSocket
 
 ---
-## <span>Summary</span>
+## Summary
 
 Object for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -52,7 +52,7 @@ API Name
 [url](/apis/websocket/WebSocket/url)
 :   The absolute URL as resolved by the constructor.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -63,11 +63,11 @@ API Name
 [send](/apis/websocket/WebSocket/send)
 :   Transmits data to the server over the WebSocket connection.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 The following function can be used to detect WebSocket support.
 
@@ -112,7 +112,7 @@ if (window["WebSocket"]) {
 
 </pre>
 
-## <span>Usage</span>
+## Usage
 
      Use the WebSocket API to interface with the WebSocket protocol (RFC 6455). When you create a WebSocket connection, you upgrade the HTTP protocol to the WebSocket protocol during the initial handshake between the client and the server. You can use the WebSocket API to program your client to initiate the WebSocket handshake.
 
@@ -120,7 +120,7 @@ The first argument in the WebSocket constructor is the URL of the server to whic
 
     When a WebSocket is constructed, it immediately attempts to connect to the given URL. There is no way to prevent or postpone the connection attempt. After construction, the WebSocket’s URL is accessible via its url property.
 
-## <span>Notes</span>
+## Notes
 
 The WebSocket API specification defines two URI schemes, ws:// and wss://, foWebSocket Object r unencrypted and encrypted connections, respectively. For example, you could create a new WebSocket connection with the string "ws://example.com:1234/resource". The URL specifies the host to connect to, the port, and (optionally) the protocols you want to use.
 
@@ -137,14 +137,14 @@ To open a use a WebSocket connection, you must follow this procedure:
 -   Check to see whether data was sent to you.
 -   Close the connection when you are finished with the **close** method.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [How to Use WebSockets by Colin Ihrig](http://cjihrig.com/blog/how-to-use-websockets/)
 

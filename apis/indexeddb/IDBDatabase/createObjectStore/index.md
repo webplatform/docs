@@ -24,28 +24,28 @@ tags:
 uri: apis/indexeddb/IDBDatabase/createObjectStore
 
 ---
-## <span>Summary</span>
+## Summary
 
 The createObjectStore method enables you to create object stores inside an indexedDB database. The creation of an object store is only possible inside a &quot;versionchange&quot; transaction.
 
 Method of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)[apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var IDBObjectStore = IDBDatabase.createObjectStore(name, optionalParameters);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The name of the object store to be created.
 
-### <span>optionalParameters</span>
+### optionalParameters
 
  Data-type
 :   DOM Node
@@ -57,7 +57,7 @@ An object literal containing one or more of the following attributes:
 -   **keyPath**: specifies the key path of the new object store. If the attribute is null, no key path is specified. In this case the key isn't an attribute of the object stored in the value
 -   **autoIncrement**: specifies whether the object store should have a key generator. If a key generator is present, the key will be automatically incremented when objects get inserted.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -65,7 +65,7 @@ Returns an object of type DOM NodeDOM Node
 
 An object representing the new object store.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // the db object was opened in the upgradeNeeded method
@@ -82,7 +82,7 @@ try {
 
 [View live example](http://nparashuram.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#createObjectStore&)
 
-## <span>Notes</span>
+## Notes
 
 The method throws an exception if
 
@@ -90,7 +90,7 @@ The method throws an exception if
 -   If an object store with the same name, compared in a case-sensitive manner, already exists in the connected database.
 -   If autoIncrement is set to true, and keyPath either is the empty string, or an Array containing the empty string.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Proposed Recommendation](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

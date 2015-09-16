@@ -13,7 +13,7 @@ tags:
 uri: css/functions/brightness
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adjust the brightness of an element's color, for use by the filter property. A value of 100% or decimal value of 1 leaves the image as is, while 0 produces black. Increasing the value from 1 or 100% brightens pixels from their original values.
 
@@ -24,7 +24,7 @@ Adjust the brightness of an element's color, for use by the filter property. A v
 
   ![f17-boatonlake2.jpg](/assets/thumb/1/15/f17-boatonlake2.jpg/300px-f17-boatonlake2.jpg)![f18-boatonlake2bright.jpg](/assets/thumb/6/67/f18-boatonlake2bright.jpg/300px-f18-boatonlake2bright.jpg)
 
-## <span>Examples</span>
+## Examples
 
 The following example shows the difference between two images, where one has a brightness of 50%: ![filter brightness.png](/assets/thumb/c/c9/filter_brightness.png/400px-filter_brightness.png)
 
@@ -52,7 +52,7 @@ The following example shows the difference between two images, where one has a b
 
 [View live example](http://codepen.io/pverbeek/pen/Aamdu)
 
-## <span>Notes</span>
+## Notes
 
 The CSS filter corresponds to this SVG filter definition, based on a variable *amount* passed to the function:
 
@@ -66,7 +66,7 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 </filter>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#)
 :   Editor's Draft
@@ -74,11 +74,11 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 
@@ -162,7 +162,7 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### <span>External resources</span>
+### External resources
 
 -   [Adobe CSS FilterLab](http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/)
 -   [Interactive demonstration](http://html5-demos.appspot.com/static/css/filters/index.html)

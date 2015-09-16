@@ -11,9 +11,9 @@ tags:
 uri: svg/methods/createSVGTransformFromMatrix
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **createSVGTransformFromMatrix** method creates an [**SVGTransform**](/svg/objects/SVGTransform) object, of transform type SVG\_TRANSFORM\_MATRIX, whose values are given by the *matrix* parameter. The values from the *matrix* parameter are copied; the *matrix* parameter is not adopted as the [**matrix**](/svg/properties/matrix) property.
 
@@ -21,15 +21,15 @@ The [**SVGTransform**](/svg/objects/SVGTransform) object corresponds to a single
 
 **Note:** For [**SVGSVGElement**](/svg/elements/svg) elements, the [**SVGTransform**](/svg/objects/SVGTransform) object is created outside of any document trees.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Coordinate Systems, Transformations and Units](http://go.microsoft.com/fwlink/p/?linkid=204735), Section 7.14.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGSVGElement**](/svg/elements/svg)
 -   [**SVGTransformList**](/svg/objects/SVGTransformList)

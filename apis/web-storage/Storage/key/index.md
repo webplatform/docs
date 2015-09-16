@@ -22,32 +22,32 @@ tags:
 uri: apis/web-storage/Storage/key
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the name of the nth key in the list.
 
 Method of [apis/web-storage/Storage](/apis/web-storage/Storage)[apis/web-storage/Storage](/apis/web-storage/Storage)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = object.key(index);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>index</span>
+### index
 
  Data-type
 :   unsigned long
 
  A zero-based index of the list entry, up to the length of the collection.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 This example creates a new localStorage item (a timestamp) and sets it with a unique key, then executes a function, then retrieves the item's name by its key index (0 in this case, as it is the first key) and reports its value.
 
@@ -59,11 +59,11 @@ startTime = window.localStorage.getItem(startTimeKey);
 alert("The doSomethingElse function was called at: " + startTime);
 ```
 
-## <span>Notes</span>
+## Notes
 
 The returned key can be any string, including the empty string. The order of keys may change when items are added to the collection. This method will throw an "Invalid Argument" exception if *index* is out of range.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Storage Specification](http://dev.w3.org/html5/webstorage)
 :   W3C Editor's Draft

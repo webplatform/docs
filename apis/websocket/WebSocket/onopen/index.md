@@ -22,13 +22,13 @@ tags:
 uri: apis/websocket/WebSocket/onopen
 
 ---
-## <span>Summary</span>
+## Summary
 
 An event listener to be called when the WebSocket connection's readyState changes to OPEN. Receives an event named &quot;open&quot;.
 
 Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket/WebSocket](/apis/websocket/WebSocket)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket
 var result = element.onopen;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 EventHandler
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 socket.onopen = function(event) {
@@ -58,7 +58,7 @@ socket.addEventListener("open", function(event) {
 });
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation

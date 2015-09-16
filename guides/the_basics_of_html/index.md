@@ -80,15 +80,15 @@ translations:
 uri: 'guides/the basics of html'
 
 ---
-## <span>Summary</span>
+## Summary
 
 In this article, you will learn the basics of HTML and gain some insight into the structure and content of an HTML document.
 
-## <span>Introduction</span>
+## Introduction
 
 This article summarises the purpose and structure of HTML in a very high-level fashion, including how elements work, and what character references are. The articles that follow will go into more detail on specific parts of the HTML language.
 
-## <span>What is HTML?</span>
+## What is HTML?
 
 Most desktop applications that read and write files use specific file formats. For example, Microsoft Word uses ".doc" files and Microsoft Excel uses ".xls". These files contain the instructions on how to build the documents when they are opened, the contents of the document, and *metadata* about the document such as the author, the last modified date, and possibly even a list of changes.
 
@@ -96,7 +96,7 @@ Most desktop applications that read and write files use specific file formats. F
 
 A *user agent* is any software that is used to access web pages on behalf of users. There is an important distinction to be made here — all types of desktop browsers (such as Internet Explorer, Opera, Firefox, Safari, and Chrome) as well as alternative browsers for other devices (such as the Wii Internet channel, and mobile phone browsers like Opera Mini and WebKit on the iPhone) are user agents, but not all user agents are browsers. For example, the automated programs that Google and Yahoo! use to index the web for their search engines are user agents, but no human being is controlling them directly.
 
-## <span>What HTML looks like</span>
+## What HTML looks like
 
 HTML is a plain textual representation of content and its general meaning. For example:
 
@@ -108,7 +108,7 @@ HTML is a plain textual representation of content and its general meaning. For e
 
 In most browsers there is a "Source" or "View Source" option, commonly under the "View" menu. Try this now: go to a web site, choose this option, and spend some time looking at the HTML that makes up the page.
 
-## <span>The structure of an HTML document</span>
+## The structure of an HTML document
 
 A typical HTML document might look like this:
 
@@ -139,7 +139,7 @@ After the `head` element there is a `body` element, which is the wrapper that su
 
 And that's our document in full.
 
-## <span>The syntax of HTML elements</span>
+## The syntax of HTML elements
 
 A basic element in HTML consists of two markers around a block of content. Elements also often contain other elements, referred to as *nested elements*. The body of a document invariably contains many nested elements. Structural elements such as `article`, `header`, and `div` create the overall structure of the document, and will themselves contain headings, paragraphs, lists, and other elements. Paragraphs can contain elements that create links to other documents, quotes, emphasis, and so on. Nearly any element can contain nested elements, although there are exceptions: some elements do not contain either text or nested elements, for example `img`.
 
@@ -165,7 +165,7 @@ Many attributes in HTML are common to all elements, though some are specific to 
 
 Attributes and their possible values are mostly defined by the [W3C HTML specifications](http://www.w3.org/TR/html401/index/attributes.html). You cannot make up your own attributes without invalidating the HTML, and this can confuse user agents and cause problems interpreting the web page correctly.
 
-## <span>Block and inline elements</span>
+## Block and inline elements
 
 There are two general categories of elements in HTML, which correspond to the types of content and structure they represent: *block* elements and *inline* elements.
 
@@ -175,7 +175,7 @@ Inline elements are are contained within block elements and typically surround o
 
 Note: HTML5 redefines the element categories in HTML: see [Element content categories](http://www.whatwg.org/specs/web-apps/current-work/complete/section-index.html#element-content-categories). While these definitions are more accurate and less ambiguous, they are more difficult to understand than "block" and "inline". We will therefore stick with these terms in this course.
 
-## <span>Character references</span>
+## Character references
 
 One last item to mention in an HTML document is how to include special characters. In HTML the characters `<`, `>` and `&` are special. They start and end parts of the HTML document, rather than representing the printable less-than, greater-than, and ampersand characters. For this reason they must always be coded in a special way in document content.
 

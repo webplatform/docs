@@ -18,19 +18,19 @@ tags:
 uri: apis/webrtc/LocalMediaStream/stop
 
 ---
-## <span>Summary</span>
+## Summary
 
 Permanently halts the generation of data for the tracks' sources and removes the references to the sources.
 
 Method of [apis/webrtc/LocalMediaStream](/apis/webrtc/LocalMediaStream)[apis/webrtc/LocalMediaStream](/apis/webrtc/LocalMediaStream)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  localStream.stop();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 

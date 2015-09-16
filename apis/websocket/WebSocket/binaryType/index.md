@@ -23,24 +23,24 @@ tags:
 uri: apis/websocket/WebSocket/binaryType
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates the type of binary data being transmitted by the connection.
 
 Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket/WebSocket](/apis/websocket/WebSocket)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.binaryType;
 element.binaryType = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 socket.binaryType = "blob";
@@ -50,11 +50,11 @@ socket.binaryType = "arraybuffer";
 // now receive ArrayBuffer data
 ```
 
-## <span>Notes</span>
+## Notes
 
 Acceptable values are "arrayBuffer" and "blob".
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation

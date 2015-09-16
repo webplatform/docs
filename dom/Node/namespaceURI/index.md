@@ -25,13 +25,13 @@ tags:
 uri: dom/Node/namespaceURI
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the namespace URI of the fully qualified XML declaration for a node.
 
 Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 var namespaceURI = node.namespaceURI;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -47,11 +47,11 @@ The namespace URI of the node, or null if there is none.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Enumeration of the DOM Tree. See Gecko's DOM Inspector utility.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

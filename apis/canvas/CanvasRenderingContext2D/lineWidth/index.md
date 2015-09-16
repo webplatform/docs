@@ -23,26 +23,26 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/lineWidth
 
 ---
-## <span>Summary</span>
+## Summary
 
 The current line width, in coordinate space units.
 
 Property of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = CanvasRenderingContext2D.lineWidth;
 CanvasRenderingContext2D.lineWidth = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 When setting, zero, negative, infinite, and NaN values are ignored. Default is 1.0.
 
-## <span>Examples</span>
+## Examples
 
 The following example draws 10 lines in different widths
 
@@ -59,7 +59,7 @@ function draw() {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

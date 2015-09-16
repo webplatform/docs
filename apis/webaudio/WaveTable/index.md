@@ -10,23 +10,23 @@ tags:
 uri: apis/webaudio/WaveTable
 
 ---
-## <span>Summary</span>
+## Summary
 
 WaveTable represents an arbitrary periodic waveform to be used with an OscillatorNode.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
 :   W3C Editor's Draft

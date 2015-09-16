@@ -21,7 +21,7 @@ tags:
 uri: 'apis/web animations/AnimationTimingProperties/endDelay'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The specified end delay.
 
@@ -29,14 +29,14 @@ See the description of the endDelay attribute on the AnimationTiming interface.
 
 Property of [apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)[apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.endDelay;
 element.endDelay = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type doubledouble
 

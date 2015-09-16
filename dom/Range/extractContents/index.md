@@ -23,28 +23,28 @@ tags:
 uri: dom/Range/extractContents
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes the contents of a range from a document or document fragment and puts it a new document fragment.
 
 Method of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var documentFragment = range.extractContents(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>oDocumentFragment</span>
+### oDocumentFragment
 
  Data-type
 :   any
 
  Returns an object that contains the extracted content.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -59,7 +59,7 @@ This method can return one of these values.
 |W3Exception\_DOM\_HIERARCHY\_REQUEST\_ERR|A document type node is included in the range that is being cloned.|
 |W3Exception\_DOM\_NO\_MODIFICATION\_ALLOWED\_ERR|A node or portion of the content in the range is read-only.|
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 range = document.createRange();
@@ -68,17 +68,17 @@ documentFragment = range.extractContents();
 document.body.appendChild(documentFragment);
 ```
 
-## <span>Notes</span>
+## Notes
 
 Event Listeners added using DOM Events are not retained during extraction. HTML attribute events are retained or duplicated as they are for the Node.cloneNode() method. HTML id attributes are also cloned, which can lead to an invalid document if a partially-selected node is extracted and appened to the document.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-range-extractcontents)
 :   Living Standard

@@ -20,32 +20,32 @@ tags:
 uri: apis/webaudio/AudioContext/createDynamicsCompressor
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a DynamicsCompressorNode, used to apply compression to audio.
 
 Method of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = AudioContext.createDynamicsCompressor();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 DynamicsCompressorNode
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
 var compressor = audioCtx.createDynamicsCompressor();
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

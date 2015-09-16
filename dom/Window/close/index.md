@@ -18,23 +18,23 @@ tags:
 uri: dom/Window/close
 
 ---
-## <span>Summary</span>
+## Summary
 
 Closes the current browser window or tab, or HTML Application (HTA).
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  window.close();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 <script type="text/javascript">
@@ -45,9 +45,9 @@ function closeCurrentWindow()
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When a function fired by an event on any object calls the **close** method, the window.**close** method is implied.
 
@@ -72,6 +72,6 @@ How a window is closed programmatically determines whether the user is prompted 
 
 window.**close** method on an HTA closes the application without prompting the user because the HTA is trusted and follows a different security model. For more information on the security model of HTAs, please refer to [\_inet\_HTML\_Applications\_Overview\#Security\#Security The Power of Trust: HTAs and Security].
 
-#### <span>Using the close method in a Metro style app using JavaScript</span>
+#### Using the close method in a Metro style app using JavaScript
 
 Invoking the **window.close** method on a Metro style app using JavaScript closes the app without prompting the user. It is against Windows Store policy to programmatically close your app. The only time an app should programmatically close is when there is an unrecoverable error, in which case the app should throw an unhandled exception or use the **MSApp.terminateApp** method. In you use **window.close**, it appears as a crash to the user is logged as a crash in the developer’s telemetry data on the Windows Store dashboard.

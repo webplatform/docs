@@ -11,11 +11,11 @@ tags:
 uri: 'concepts/ux/techniques/journey map'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Document that visually illustrates an individual user's needs, the series of interactions that are necessary to fulfill those needs, and the resulting emotional states a user experiences throughout the process.
 
-### <span>What it is</span>
+### What it is
 
 Customer journey maps are documents that visually illustrate an individual customer’s needs, the series of interactions that are necessary to fulfill those needs, and the resulting emotional states a customer experiences throughout the process.
 
@@ -25,26 +25,26 @@ What makes a customer journey map much more powerful than simply delivering pers
 
 With internal and external research in hand, journey-mapping leaders need to distill their findings about how customers interact with the company, what they want from each interaction, and how they feel about each interaction today—the three key elements of a journey map.
 
-### <span>Who does it</span>
+### Who does it
 
 The whole project team, preferably with input from UX
 
-### <span>Why to do it</span>
+### Why to do it
 
 -   Encourages conversation and collaboration
 -   Highlights the flow of the customer experience
 -   Enables stakeholders to collectively discuss opportunities for improving the overall customer experience
 
-## <span>Usage</span>
+## Usage
 
      At Research and Analysis
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [User eXperience (UX) Design Techniques](/concepts/ux/techniques)
 
-### <span>External resources</span>
+### External resources
 
 [uxmatters.com](http://www.uxmatters.com/mt/archives/2011/09/the-value-of-customer-journey-maps-a-ux-designers-personal-journey.php)

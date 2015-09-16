@@ -14,11 +14,11 @@ tags:
 uri: apis/file/File
 
 ---
-## <span>Summary</span>
+## Summary
 
 The File object provides information about files stored on the user's computer, and access to their contents. These are generally retrieved from a FileList object returned when a user selects files using the input element, or from a drag-and-drop operation's DataTransfer object.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -29,15 +29,15 @@ API Name
 [name](/apis/file/File/name)
 :   The name of the file; on getting, this must return the name of the file as a string. There are numerous file name variations on different systems; this is merely the name of the file, without path information. On getting, if user agents cannot make this information available, they must return the empty string.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 Using form input for selecting files
 
@@ -58,7 +58,7 @@ function handleFileSelect(evt) {
   document.getElementById('files').addEventListener('change', handleFileSelect, false);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft

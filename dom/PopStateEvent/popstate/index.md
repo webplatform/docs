@@ -12,11 +12,11 @@ tags:
 uri: dom/PopStateEvent/popstate
 
 ---
-## <span>Summary</span>
+## Summary
 
 An event handler that is fired when changes are made to the active history. Calls to pushState or replaceState can trigger this event.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -70,7 +70,7 @@ None
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 ``` js
 window.onpopstate = function(event) {
@@ -84,9 +84,9 @@ history.back(); // alerts "location: http://example.com/example.html, state: nul
 history.go(2);  // alerts "location: http://example.com/example.html?page=3, state: {"page":3}
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *val* [in]
 :   Type: **Function** A script function to do something when the event is fired.

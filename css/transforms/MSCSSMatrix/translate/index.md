@@ -26,13 +26,13 @@ uri: css/transforms/MSCSSMatrix/translate
 
 Method of [css/transforms/MSCSSMatrix](/css/transforms/MSCSSMatrix)[css/transforms/MSCSSMatrix](/css/transforms/MSCSSMatrix)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.translate();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -44,13 +44,13 @@ This method can return one of these values.
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Transitions Module Level 3](http://go.microsoft.com/fwlink/p/?linkid=223140), Section 10.1
 
-### <span>Parameters</span>
+### Parameters
 
 *offsetX* [in]
 :   Type: **float**The translation offset along the *x*-axis.
@@ -61,11 +61,11 @@ This method can return one of these values.
 *retMatrix* [out, retval]
 :   Type: **MSCSSMatrix**The returned matrix.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Transforms</span>
+#### Transforms
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -99,6 +99,6 @@ This method can return one of these values.
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `MSCSSMatrix`

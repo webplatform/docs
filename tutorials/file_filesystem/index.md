@@ -14,11 +14,11 @@ uri: 'tutorials/file filesystem'
 **By [Eric Bidelman](http://www.html5rocks.com/profiles/#ericbidelman)**
 Originally published Jan. 4, 2011, updated Jan. 27, 2012
 
-## <span>Summary</span>
+## Summary
 
 An introduction to the HTML5 FileSystem API.
 
-## <span>Introduction</span>
+## Introduction
 
 I've always thought it would be handy if web applications could read and write files and directories. As we move from offline to online, applications are becoming more complex and the lack of file system APIs has been a hindrance for moving the web forward. Storing or interacting with binary data shouldn't be limited to the desktop. Thankfully, it no longer is, thanks to the [FileSystem API](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/). With the FileSystem API, a web app can safely create, read, navigate, and write to a sandboxed section of the user's local file system.
 
@@ -28,13 +28,13 @@ The API is broken up into various themes:
 -   Creating and writing files: `Blob()`, `FileWriter`
 -   Directories and file system access: `DirectoryReader`, `FileEntry`/`DirectoryEntry`, `LocalFileSystem`
 
-### <span>Browser support & storage limitations</span>
+### Browser support & storage limitations
 
 At the time of this writing, Google Chrome has the only working implementation of the FileSystem API. A dedicated browser UI does not yet exist for file/quota management. Storing data on the user's system may require your app to [\#toc-requesting-quota request quota]. However, for testing, Chrome can be run with the `--unlimited-quota-for-files` flag. Furthermore, if you're building an app or extension for the Chrome Web Store, the `unlimitedStorage` [manifest file](http://code.google.com/chrome/extensions/manifest.html) permission can be used in place of requesting quota. Eventually, users will receive a permission dialog to grant, deny, or increase storage for an app.
 
 You may need the `--allow-file-access-from-files` flag if you're debugging your app from `file://`. Not using these flags will result in a `SECURITY_ERR` or `QUOTA_EXCEEDED_ERR` FileError.
 
-## <span>Requesting a file system</span>
+## Requesting a file system
 
 A web app can request access to a sandboxed file system by calling `window.requestFileSystem()`:
 
@@ -97,7 +97,7 @@ Throughout this article, we'll use the same handler for processing errors from t
 
 Granted, this error callback is very generic, but you get the idea. You'll want to provide human-readable messages to users instead.
 
-### <span>Requesting storage quota</span>
+### Requesting storage quota
 
 To use `PERSISTENT` storage, you must obtain permission from the user to store peristent data. The same restriction doesn't apply to `TEMPORARY` storage because the browser may choose to evict temporarily stored data at its discretion.
 
@@ -113,7 +113,7 @@ Once the user has granted permission, there's no need to call `requestQuota()` i
 
 There is also [an API](https://groups.google.com/a/chromium.org/group/chromium-html5/browse_thread/thread/9be7a2dc04d9af67) to query an origin's current quota usage and allocation: `window.webkitStorageInfo.queryUsageAndQuota()`.
 
-## <span>Working with files</span>
+## Working with files
 
 Files in the sandboxed environment are represented by the [`FileEntry`](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/#the-fileentry-interface) interface. A FileEntry contains the types of properties (`name`, `isFile`, etc.) and methods (`remove`, `moveTo`, `copyTo`, etc.) that you'd expect from a standard file system.
 
@@ -138,7 +138,7 @@ Properties and methods of `FileEntry`:
 
 To better understand `FileEntry`, the rest of this section contains a bunch of recipes for performing common tasks.
 
-### <span>Creating a file</span>
+### Creating a file
 
 You can look up or create a file with the file system's `getFile()` method, a method of the DirectoryEntry interface. After requesting a file system, the success callback is passed a `FileSystem` object that contains a `DirectoryEntry` (`fs.root`) pointing to the root of the app's file system.
 
@@ -162,7 +162,7 @@ Once the file system has been requested, the success handler is passed a `FileSy
 
 The second argument to `getFile()` is an object literal describing the function's behavior if the file does not exist. In this example, `create: true` creates the file if it doesn't exist and throws an error if it does (`exclusive: true`). Otherwise (if `create: false`), the file is simply fetched and returned. In either case, the file contents are not overwritten because we're just obtaining a reference entry to the file in question.
 
-### <span>Reading a file by name</span>
+### Reading a file by name
 
 The following code retrieves the file called "log.txt", its contents are read using the `FileReader` API and appended to a new \<textarea\> on the page. If log.txt doesn't exist, an error is thrown.
 
@@ -190,7 +190,7 @@ The following code retrieves the file called "log.txt", its contents are read us
 
      window.requestFileSystem(window.TEMPORARY, 1024*1024, onInitFs, errorHandler);
 
-### <span>Writing to a file</span>
+### Writing to a file
 
 The following code creates an empty file called "log.txt" (if it doesn't exist) and fills it with the text 'Lorem Ipsum'.
 
@@ -224,7 +224,7 @@ The following code creates an empty file called "log.txt" (if it doesn't exist) 
 
 This time, we call the FileEntry's `createWriter()` method to obtain a `FileWriter` object. Inside the success callback, event handlers are set up for `error` and `writeend` events. The text data is written to the file by creating a blob, appending text to it, and passing the blob to `FileWriter.write()`.
 
-### <span>Appending data to a file</span>
+### Appending data to a file
 
 The following code appends the text "Hello World" to the end of our log file. An error is thrown if the file does not exist.
 
@@ -250,7 +250,7 @@ The following code appends the text "Hello World" to the end of our log file. An
 
      window.requestFileSystem(window.TEMPORARY, 1024*1024, onInitFs, errorHandler);
 
-### <span>Duplicating user-selected files</span>
+### Duplicating user-selected files
 
 The following code allows a user to select multiple files using `<input type="file" multiple />` and creates copies of those files in the app's sandboxed file system.
 
@@ -281,7 +281,7 @@ Although we've used an input for the file import, one could easily leverage HTML
 
 As noted in the comment, `FileWriter.write()` can accept a `Blob` or `File`. This is because `File` inherits from `Blob`. Therefore, all file objects are blobs.
 
-### <span>Removing a file</span>
+### Removing a file
 
 The following code deletes the file 'log.txt'.
 
@@ -293,7 +293,7 @@ The following code deletes the file 'log.txt'.
        }, errorHandler);
      }, errorHandler);
 
-## <span>Working with directories</span>
+## Working with directories
 
 Directories in the sandbox are represented by the [`DirectoryEntry`](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/#the-directoryentry-interface) interface, which shares most of FileEntry's properties (they inherit from a common `Entry` interface). However, `DirectoryEntry` has additional methods for manipulating directories.
 
@@ -309,7 +309,7 @@ Properties and methods of `DirectoryEntry`:
      dirEntry.removeRecursively(successCallback, opt_errorCallback);
      ...
 
-### <span>Creating directories</span>
+### Creating directories
 
 Use the `getDirectory()` method of `DirectoryEntry` to read or create directories. You can pass either a name or path as the directory to look up or create.
 
@@ -321,7 +321,7 @@ For example, the following code creates a directory named "MyPictures" in the ro
        }, errorHandler);
      }, errorHandler);
 
-### <span>Subdirectories</span>
+### Subdirectories
 
 Creating a subdirectory is exactly the same as creating any other directory. However, the API throws an error if you attempt to create a directory whose immediate parent does not exist. The solution is to create each directory sequentially, which is rather tricky to do with an asynchronous API.
 
@@ -356,7 +356,7 @@ Now that "music/genres/jazz" is in place, we can pass its full path to `getDirec
        }, errorHandler);
      }, errorHandler);
 
-### <span>Reading a directory's contents</span>
+### Reading a directory's contents
 
 To read the contents of a directory, create a `DirectoryReader` and call its `readEntries()` method. Note that there is no guarantee that all of a directory's entries will be returned in a single call to `readEntries()`. That means you need to keep calling `DirectoryReader.readEntries()` until no more results are returned. The following code demonstrates this:
 
@@ -375,7 +375,7 @@ To read the contents of a directory, create a `DirectoryReader` and call its `re
          var img = entry.isDirectory ? '<img src="folder-icon.gif">' :
                                        '<img src="file-icon.gif">';
          var li = document.createElement('li');
-         li.innerHTML = [img, '<span>', entry.name, '</span>'].join('');
+         li.innerHTML = [img, '', entry.name, ''].join('');
          fragment.appendChild(li);
        });
 
@@ -405,7 +405,7 @@ To read the contents of a directory, create a `DirectoryReader` and call its `re
 
      window.requestFileSystem(window.TEMPORARY, 1024*1024, onInitFs, errorHandler);
 
-### <span>Removing a directory</span>
+### Removing a directory
 
 The `DirectoryEntry.remove()` method behaves just like [\#toc-file-removing `FileEntry`]'s. The difference: attempting to delete a non-empty directory results in an error.
 
@@ -419,7 +419,7 @@ The following code removes the empty directory "jazz" from "/music/genres/":
        }, errorHandler);
      }, errorHandler);
 
-#### <span>Recursively removing a directory</span>
+#### Recursively removing a directory
 
 If you have a pesky directory that contains entries, `removeRecursively()` is your friend. It deletes the directory and its contents, recursively.
 
@@ -433,11 +433,11 @@ The following code recursively removes the directory "music" and all the files a
        }, errorHandler);
      }, errorHandler);
 
-## <span>Copying, renaming, and moving</span>
+## Copying, renaming, and moving
 
 `FileEntry` and `DirectoryEntry` share common operations.
 
-### <span>Copying an entry</span>
+### Copying an entry
 
 Both `FileEntry` and `DirectoryEntry` have a `copyTo()` method for duplicating existing entries. This method automatically does a recursive copy on folders.
 
@@ -457,7 +457,7 @@ The following code example copies the file "me.png" from one directory to anothe
        copy(fs.root, '/folder1/me.png', 'folder2/mypics/');
      }, errorHandler);
 
-### <span>Moving or renaming an entry</span>
+### Moving or renaming an entry
 
 The `moveTo()` method present in `FileEntry` and `DirectoryEntry` allows you to move or rename a file or directory. Its first argument is the parent directory to move the file under, and its second is an optional new name for the file. If a new name isn't provided, the file's original name is used.
 
@@ -489,7 +489,7 @@ The following example moves "me.png" (located in the root directory) to a folder
        move('/me.png', 'newfolder/');
      }, errorHandler);
 
-## <span>filesystem: URLs</span>
+## filesystem: URLs
 
 The FileSystem API exposes a new URL scheme, `filesystem:`, that can be used to fill `src` or `href` attributes. For example, if you wanted to display an image and have its [`fileEntry`](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/#the-fileentry-interface), calling `toURL()` would give you the file's `filesystem:` URL:
 
@@ -507,19 +507,19 @@ Alternatively, if you already have a `filesystem:` URL, `resolveLocalFileSystemU
        ...
      });
 
-## <span>Putting it all together</span>
+## Putting it all together
 
-### <span>Basic example</span>
+### Basic example
 
 The demo in [this article](http://www.html5rocks.com/en/tutorials/file/filesystem/) will list the files/folders in the filesystem.
 
-### <span>HTML5 Terminal</span>
+### HTML5 Terminal
 
 The HTML5 Terminal shell replicates some of the common operations in a UNIX filesystem (such as `cd`, `mkdir`, `rm`, `open`, and `cat`) by abstracting the FileSystem API. To add content, open the app, then drag and drop files from your desktop onto the terminal window. (Click the image caption to open the terminal.)
 
 [*Click here to open the HTML5 Terminal*](http://www.htmlfivewow.com/demos/terminal/terminal.html) ![xterminal2b.jpg](/assets/public/5/5b/xterminal2b.jpg)
 
-## <span>Use Cases</span>
+## Use Cases
 
 There are several [storage options](http://www.html5rocks.com/tutorials#offline,storage) available in HTML5, but the FileSystem is different in that it aims to satisfy client-side storage use cases not well served by databases. Generally, these are applications that deal with large binary blobs and/or share data with applications outside of the context of the browser.
 
@@ -557,7 +557,7 @@ The specification lists several use cases:
     -   Should be able to trigger the UA's download manager just as if talking to a server.
     -   Should be able to upload an email with attachments as a multipart post, rather than sending a file at a time in an XHR.
 
-## <span>Reference specifications</span>
+## Reference specifications
 
 -   [FileSystem](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 -   [FileWriter](http://dev.w3.org/2009/dap/file-system/file-writer.html)

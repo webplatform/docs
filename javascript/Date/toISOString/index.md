@@ -11,21 +11,21 @@ tags:
 uri: javascript/Date/toISOString
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a date as a string value in simplified ISO 8601 Extended format.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     toISOString()
 
-## <span>Return Value</span>
+## Return Value
 
 String in simplified [ISO 8601 Extended](http://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:mm:ss.sssZ`
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var now = new Date();
@@ -58,19 +58,19 @@ if (!Date.prototype.toISOString) {
 }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
-### <span>Throws</span>
+### Throws
 
 [`RangeError`](/javascript/Error) when called on a date object with an *invalid date* (e.g. `new Date("I am not a date");` - see [Time Values And Time Range](http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.1.1))
 
-## <span>Usage</span>
+## Usage
 
      The ISO 8601 Extended format is supported by Date.parse(), it is therefore a good choice when dates need to be exchanged between APIs.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [toString Method (Date)](/javascript/Date/toString)
 -   [toDateString Method (Date)](/javascript/Date/toDateString)
@@ -81,7 +81,7 @@ if (!Date.prototype.toISOString) {
 -   [toTimeString Method (Date)](/javascript/Date/toTimeString)
 -   [toUTCString Method (Date)](/javascript/Date/toUTCString)
 
-### <span>External resources</span>
+### External resources
 
 -   [toISOString(), by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString)
 -   [toISOString(), by Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/ff925953%28v=vs.94%29.aspx)
@@ -89,7 +89,7 @@ if (!Date.prototype.toISOString) {
 -   [Time Values and Time Range, ECMAScript 5.1](http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.1.1)
 -   [ISO 8601, Wikipedia](http://en.wikipedia.org/wiki/ISO_8601)
 
-### <span>Specification</span>
+### Specification
 
 [Date.prototype.toISOString()](http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.5.43)
 

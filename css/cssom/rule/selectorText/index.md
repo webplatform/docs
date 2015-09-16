@@ -22,7 +22,7 @@ uri: css/cssom/rule/selectorText
 
 Property of [css/cssom/rule](/css/cssom/rule)[css/cssom/rule](/css/cssom/rule)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.selectorText;
@@ -31,17 +31,17 @@ element.selectorText = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Selector text can contain either a simple selector (such as 'H1') or a contextual selector (such as 'P EM') that consists of several simple selectors. Compound selectors (such as 'B, STRONG') are stored as separate rules in the collection.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `rule`
 -   `<b/>`

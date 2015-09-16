@@ -24,19 +24,19 @@ tags:
 uri: dom/TextRange/select
 
 ---
-## <span>Summary</span>
+## Summary
 
 Makes the selection equal to the current object.
 
 Method of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = range.select();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -44,7 +44,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 When applied to a TextRange object, the select method causes the current object to be highlighted. The following function uses the findText method to set the current object to the text in the TextRange object. The function assumes an element that contains the text string "text here".
 
@@ -66,13 +66,13 @@ function ControlRangeSelect() {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Used to programmatically select/highlight text and/or controls in a web document.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This method causes the current object to be highlighted. When applied to a [**TextRange**](/dom/TextRange) object, the select method causes the current object to be highlighted. The following function uses the **findText** method to set the current object to the text in the **TextRange** object. The function assumes an element that contains the text string "text here".
 
@@ -92,8 +92,8 @@ This method produces a shaded rectangle around the elements in the [**controlRan
 
 This feature might not be available on non-Microsoft Win32 platforms.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5

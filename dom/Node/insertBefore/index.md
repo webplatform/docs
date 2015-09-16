@@ -25,28 +25,28 @@ tags:
 uri: dom/Node/insertBefore
 
 ---
-## <span>Summary</span>
+## Summary
 
 Inserts a child into the node, immediately before the specified reference child node.
 
 Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var insertedNode = node.insertBefore(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>newNode</span>
+### newNode
 
  Data-type
 :   DOM Node
 
  The new node to be inserted.
 
-### <span>refChild</span>
+### refChild
 
  Data-type
 :   DOM Node
@@ -55,13 +55,13 @@ var insertedNode = node.insertBefore(/* see parameter list */);
 
 Supplies the placement of the new node. If this parameter is specified, the new element will be inserted immediately before this existing child node. If not, it will be added after the last child node.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The inserted node.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **insertBefore** method to insert a new item into an existing list.
 
@@ -91,11 +91,11 @@ The following example shows how to use the **insertBefore** method to insert a n
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/insertBefore.htm)
 
-## <span>Notes</span>
+## Notes
 
 Do not specify the *refChild* parameter when inserting the first child node. If children already exist and you do not specify the *refChild* parameter, the *newChild* becomes the last child of the parent object. This method is accessible at run time. If elements are removed at run time, before the closing tag has been parsed, areas of the document might not render.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-952280727)
 :   Recommendation

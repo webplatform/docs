@@ -12,7 +12,7 @@ tags:
 uri: tutorials/javascript
 
 ---
-## <span>Summary</span>
+## Summary
 
 JavaScript tutorials index page.
 
@@ -205,4 +205,4 @@ API Name
 [Your first look at JavaScript](/tutorials/your_first_look_at_javascript)
 :   Now it is time to get your hands dirty. This article provides a basic introduction to coding with JavaScript.
 
-## <span>JavaScript tutorials</span>
+## JavaScript tutorials

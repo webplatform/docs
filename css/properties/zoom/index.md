@@ -20,19 +20,19 @@ todo_broken_links:
 uri: css/properties/zoom
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the magnification scale of the object.
 
-### <span>Syntax</span>
+### Syntax
 
 `zoom: normal number percentage`
 
-### <span>Remarks</span>
+### Remarks
 
 Setting the value of the `zoom` property on a rendered object causes the content that surrounds the object to reflow. Even though the `zoom` property is not inherited, it affects its children. This effect is similar to the transformation caused by the [**background**](/html/attributes/background_(Body_element)) and [**-ms-filter**](/css/media_queries/filter) properties.
 
-## <span>Examples</span>
+## Examples
 
 The following examples use the **-ms-zoom** attribute and the **-ms-zoom** property to change the magnification scale of a **p** element.
 
@@ -105,9 +105,9 @@ function changeZoom2(oSel) {
 </div>
 <!-- Displayed code -->
 <div style="overflow: hidden; border: 1px solid black; position: absolute; top: 219px; left: 20px; width: 606px; height: 90px; padding: 1px; padding-left: 25px; background-color: white; z-index: 3;">
-    <span>&lt;div style=&quot;</span>
+    &lt;div style=&quot;
     <span style="font-weight: bold; font-family: verdana; color: red; font-size: 9pt" class="coder" id="oCode">
-    </span><span>&quot;&gt;</span>
+    </span>&quot;&gt;
     <div>
         &lt;h1&gt; Welcome to seattle!&lt;/h1&gt;</div>
     <div>
@@ -155,11 +155,11 @@ function changeZoom2(oSel) {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/zoom.htm)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Visual Effects</span>
+#### Visual Effects
 
 -   [color](/css/color)
 
@@ -195,7 +195,7 @@ function changeZoom2(oSel) {
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Other articles</span>
+### Other articles
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

@@ -11,11 +11,11 @@ tags:
 uri: javascript/Array/forEach
 
 ---
-## <span>Summary</span>
+## Summary
 
 Performs the specified action for each element in an array.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -27,7 +27,7 @@ Performs the specified action for each element in an array.
 **thisArg**
 :   Optional. An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates use of the **forEach** method.
 
@@ -105,7 +105,7 @@ The following example illustrates the use of the thisArg argument, which specifi
  //  value: 6 index: 1 squared: 36
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **forEach** method calls the callbackfn function one time for each element present in the array, in ascending index order. The callback function is not called for missing elements of the array.
 
@@ -136,13 +136,13 @@ The **forEach** method does not directly modify the original array, but the call
 |Element is changed.|Yes, if that element has not yet been passed to the callback function.|
 |Element is deleted from the array.|No, unless that element has already been passed to the callback function.|
 
-## <span>Exceptions</span>
+## Exceptions
 
 If the callbackfn argument is not a function object, a **TypeError** exception is thrown.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.18 Array.prototype.forEach ( callbackfn [ , thisArg](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.18) )] ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

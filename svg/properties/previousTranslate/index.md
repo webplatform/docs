@@ -11,16 +11,16 @@ tags:
 uri: svg/properties/previousTranslate
 
 ---
-### <span>Syntax</span>
+### Syntax
 
 HRESULT value = object.get\_previousTranslate(ISVGPoint\*\* p);
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Scripting](http://go.microsoft.com/fwlink/p/?linkid=204745), Section 18.5.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGZoomEvent**](/svg/objects/SVGZoom)

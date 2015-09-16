@@ -18,39 +18,39 @@ tags:
 uri: dom/CharacterData/deleteData
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes a specified range of characters from the node.
 
 Method of [dom/CharacterData](/dom/CharacterData)[dom/CharacterData](/dom/CharacterData)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  textualNode.deleteData(offset, count);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>offset</span>
+### offset
 
  Data-type
 :   String
 
  The zero-based character offset from which to start.
 
-### <span>count</span>
+### count
 
  Data-type
 :   String
 
  The number of characters to remove.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //create text node
@@ -61,11 +61,11 @@ phrase.deleteData(23, 4);
 alert(phrase.data);
 ```
 
-## <span>Usage</span>
+## Usage
 
      Upon success of this method, the data and length properties reflect the change.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

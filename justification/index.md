@@ -9,7 +9,7 @@ tags:
 uri: justification
 
 ---
-## <span>justification</span>
+## justification
 
 The typographical practice of aligning multiple lines of text precisely to one or both of their common margins. Typically referred to in its individual forms as left, right, center, or full justification.
 

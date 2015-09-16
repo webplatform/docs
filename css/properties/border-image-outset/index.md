@@ -22,11 +22,11 @@ tags:
 uri: css/properties/border-image-outset
 
 ---
-## <span>Summary</span>
+## Summary
 
 The border-image-outset property describes, by which amount the border image area extends beyond the border box.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
@@ -52,12 +52,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `border-image-outset: <length>`
 -   `border-image-outset: inherit`
 
-## <span>Values</span>
+## Values
 
 \<length\>
 :   Floating-point number, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px). For more information about the supported length units, see CSS Values and Units Reference (Length). This length must not be negative.
@@ -65,7 +65,7 @@ Percentages
 inherit
 :   Is a keyword indicating that all four values are inherited from their parent's element calculated value.
 
-## <span>Examples</span>
+## Examples
 
 A simple example showing multiple \<div\>s, identical in style except that they have different border-image-outset properties applied to them.
 
@@ -111,22 +111,22 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 
 [View live example](http://code.webplatform.org/gist/5622268)
 
-## <span>Usage</span>
+## Usage
 
      * Up to four different values can be specified, in the following order: top, right, bottom, left.
 
 -   If one value is specified, it is used for all four sides. If two values are specified, the first is used for the top and bottom borders, and the second is used for left and right borders. If three values are specified, they are used for top, right/left, and bottom borders, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#the-border-image-outset)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Border</span>
+#### Border
 
 -   [border](/css/properties/border)
 
@@ -186,6 +186,6 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 
 -   [border-width](/css/properties/border-width)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Decorating fancy borders with CSS border-image](/tutorials/css_border_image)

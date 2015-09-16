@@ -10,13 +10,13 @@ tags:
 uri: javascript/Math/constants
 
 ---
-## <span>Summary</span>
+## Summary
 
 Math constants return constant values that are properties of the Math object.
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates how to use the **Math.PI** constant.
 
@@ -28,7 +28,7 @@ var radius = 3;
  // Output: 28.274333882308138
 ```
 
-## <span>Math Object Constants</span>
+## Math Object Constants
 
 The following table lists constant values that are properties of the [Math object](/javascript/Math).
 
@@ -43,9 +43,9 @@ The following table lists constant values that are properties of the [Math objec
 |**Math.SQRT1\_2**|The square root of 0.5, or, equivalently, one divided by the square root of 2.|0.707|
 |**Math.SQRT2**|The square root of 2.|1.414|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Number Constants](/javascript/Number/constants)
 -   [JavaScript Constants](/javascript/constants)

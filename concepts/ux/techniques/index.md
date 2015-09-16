@@ -11,11 +11,11 @@ tags:
 uri: concepts/ux/techniques
 
 ---
-## <span>Summary</span>
+## Summary
 
 A list of techniques at product development stages that are used within the practices of User eXperience (UX) design.
 
-### <span>Research & Analysis</span>
+### Research & Analysis
 
 -   [Contextual inquiry](/concepts/ux/techniques/contextual_inquiry)
 -   [Stakeholder mapping](/concepts/ux/techniques/stakeholder_mapping)
@@ -24,7 +24,7 @@ A list of techniques at product development stages that are used within the prac
 -   [Empathy map](/concepts/ux/techniques/empathy_map)
 -   [Journey map](/concepts/ux/techniques/journey_map)
 
-### <span>Scoping and Initial Design</span>
+### Scoping and Initial Design
 
 -   [Elevator Pitch](/concepts/ux/techniques/elevator_pitch)
 -   [Collaborative design sessions (Inception deck)](/concepts/ux/techniques/inception_deck)
@@ -37,7 +37,7 @@ A list of techniques at product development stages that are used within the prac
 -   Rich Visual Backlog
 -   Behavior driven development
 
-### <span>Prototyping</span>
+### Prototyping
 
 -   Sketches
 -   Wireframes
@@ -45,11 +45,11 @@ A list of techniques at product development stages that are used within the prac
 -   Mockups
 -   Functional Prototype
 
-### <span>Development</span>
+### Development
 
 -   Just-in-time design
 
-### <span>Testing</span>
+### Testing
 
 -   Quantitative Usability Testing
 -   Pair testing
@@ -57,12 +57,12 @@ A list of techniques at product development stages that are used within the prac
 -   Cognitive walkthrough
 -   Heuristic Evaluation
 
-## <span>Usage</span>
+## Usage
 
      At product development stages
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [User eXperience (UX)](/concepts/ux/user_experience_design)

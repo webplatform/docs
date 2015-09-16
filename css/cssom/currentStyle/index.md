@@ -43,27 +43,27 @@ todo_broken_links:
 uri: css/cssom/currentStyle
 
 ---
-## <span>Summary</span>
+## Summary
 
 Non standard. Gets the computed style declaration. Use getComputedStyle instead.
 
 Inherits from [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from CSSStyleDeclaration</span>
+## Inherited from CSSStyleDeclaration
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -101,7 +101,7 @@ API Name
 [width](/css/cssom/properties/width)
 :   Sets the width of an element.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -121,11 +121,11 @@ API Name
 [msPutPropertyEnabled](/css/cssom/methods/msPutPropertyEnabled)
 :   Non standard. Sets a property as enabled or disabled.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **currentStyle** object to set the text color to brown. If you click a colored area and the background color is the same as the text color, the checkColor function changes the background color, so the text can be read. Otherwise, the function takes no action.
 
@@ -177,7 +177,7 @@ console.log("The TD object currentStyle.width is " + document.getElementById("oT
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/currentStyle_table.htm)
 
-## <span>Notes</span>
+## Notes
 
 The **currentStyle** object returns the cascaded styles on an element, but the [**style**](/css/cssom/style) object returns only the styles that have been applied inline on an element through the **style** attribute. Thus, the style values retrieved through the **currentStyle** object might differ from the style values retrieved through the **style** object. For example, if the [**color**](/css/properties/color) property is set on a paragraph only through a linked or embedded style sheet, and not inline, then object.**currentStyle**.color returns the color, whereas object.**style**.**color** does not return a value. If, however, the author specifies \<P STYLE="color:'red'", the **currentStyle** and **style** objects return the value . The **currentStyle** object reflects the order of style precedence in cascading style sheets (CSS). The CSS order of precedence for the presentation of HTML is:
 
@@ -188,14 +188,14 @@ The **currentStyle** object returns the cascaded styles on an element, but the [
 
 Accordingly, the **currentStyle** object returns the [**fontWeight**](/css/properties/font-weight) value **normal** on a bold tag if **normal** is specified in a style sheet. The **currentStyle** object returns values that reflect the applied style settings for the page and might not reflect what is rendering at the time a value is retrieved. For example, an object that has `"color:red; display:none"` returns **currentStyle**.color as even though the object is not rendered on the page. The **currentStyle** object, then, is not affected by the rendering constraints. The third example in the Example section demonstrates this behavior. Disabled style sheets also do not affect **currentStyle** values. The returned value is in the same units as those used to set the object. For example, if the color of an object is set inline using `STYLE="color:'green'"`, then **currentStyle**.color returns and not `#00FF00` (the red-green-blue hexadecimal equivalent to green). However, capitalization and redundant white space that appear in the object values set by the author are lost when the **currentStyle** object returns the object values. The **currentStyle** object supports user-defined properties in style rules. See the second example in the Example section. The **currentStyle** object is asynchronous. This means a style cannot be set and then immediately queried—instead, the old value is returned. Thus, for a script to obtain the expected behavior of **currentStyle** with methods such as [**addImport**](/css/cssom/styleSheet/addImport), the script needs to include a function that calls the method and a function that checks **currentStyle**. For a script to check the current style while a page is loading, the script must wait until the **body** element is loaded and the page has rendered, or the value of **currentStyle** might not reflect what is being displayed. This object is available in script as of Microsoft Internet Explorer 5. Windows Internet Explorer 8 or later. The behavior of the [**setAttribute**](/w/index.php?title=dom/methods/setAttribute&action=edit&redlink=1) method and the default value of the [**zIndex**](/css/properties/z-index) property varies according to the current document compatibility mode. For more information, see Attribute Differences in Internet Explorer 8 and Defining Document Compatibility.
 
-### <span>Members (MSDN)</span>
+### Members (MSDN)
 
 The **currentStyle** object has these types of members:
 
 -   [Additional Methods](#Additional_Methods)
 -   [Additional Properties](#Additional_Properties)
 
-#### <span>Additional Methods</span>
+#### Additional Methods
 
 The **currentStyle** object has these methods.
 
@@ -211,7 +211,7 @@ The **currentStyle** object has these methods.
 |[**setExpression**](/css/cssom/methods/setExpression)|Sets an expression for the specified object.|
 |[**setProperty**](/css/cssom/methods/setProperty)|Sets a property value and priority within the current declaration block.|
 
-#### <span>Additional Properties</span>
+#### Additional Properties
 
 The **currentStyle** object has these properties.
 
@@ -1168,8 +1168,8 @@ The **currentStyle** object has these properties.
 </tbody>
 </table>
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `style`

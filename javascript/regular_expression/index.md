@@ -13,11 +13,11 @@ tags:
 uri: 'javascript/regular expression'
 
 ---
-## <span>Summary</span>
+## Summary
 
 An object that contains a regular expression pattern along with flags that identify how to apply the pattern.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -33,7 +33,7 @@ An object that contains a regular expression pattern along with flags that ident
 **flags**
 :   Optional. Enclose flag in quotation marks if you use Syntax 2. Available flags, which may be combined, are: g (global search for all occurrences of pattern ) i (ignore case) m (multiline search) y (sticky) u (Unicode)
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **Regular Expression** object by creating an object (re) containing a regular expression pattern with its associated flags. In this case, the resulting **Regular Expression** object is then used by the **match** method:
 
@@ -52,7 +52,7 @@ function MatchDemo(){
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **Regular Expression** object should not be confused with the global **RegExp** object. Even though they sound the same, they are separate and distinct. The properties of the **Regular Expression** object contain only information about one particular **Regular Expression** instance, while the properties of the global **RegExp** object contain continually updated information about each match as it occurs.
 
@@ -62,21 +62,21 @@ Use Syntax 1 when you know the search string ahead of time. Use Syntax 2 when th
 
 The pattern argument is compiled into an internal format before use. For Syntax 1, pattern is compiled as the script is loaded. For Syntax 2, pattern is compiled just before use, or when the **compile** method is called.
 
-## <span>Properties</span>
+## Properties
 
 The following table lists the properties of the **regular expression** object.
 
-## <span>Functions</span>
+## Functions
 
 The following table lists the functions of the **regular expression** object.
 
-## <span>Methods</span>
+## Methods
 
 The following table lists the methods of the **regular expression** object.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [RegExp Object](/javascript/RegExp)
 -   [String Object](/javascript/String)

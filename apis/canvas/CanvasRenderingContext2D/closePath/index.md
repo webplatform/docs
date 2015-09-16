@@ -22,19 +22,19 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/closePath
 
 ---
-## <span>Summary</span>
+## Summary
 
 Marks the last subpath as closed, creates a new subpath whose first point is the same as the previous subpath's last point, and then adds the new subpath to the path, returning to the first subpath's first point (closing the shape). If the object's path has no subpaths, this method does nothing.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.closePath();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -42,7 +42,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 This example draws two lines at right angles, then uses closePath to connect the start and end points.
 
@@ -61,11 +61,11 @@ ctxt.stroke();
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 If the last subpath has more than one point in its list of points, then this is equivalent to adding a straight line connecting the last point back to the first point, thus closing the shape, and then repeating the last (possibly implied) *moveTo()* call.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

@@ -21,11 +21,11 @@ tags:
 uri: css/properties/background-origin
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies what the background-position property is relative to.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `padding-box`
@@ -51,13 +51,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `background-origin: border-box`
 -   `background-origin: content-box`
 -   `background-origin: padding-box`
 
-## <span>Values</span>
+## Values
 
 padding-box
 :   Default. The position is relative to the padding box.
@@ -68,7 +68,7 @@ border-box
 content-box
 :   The position is relative to the content box. Useful for having background images automatically follow the padding.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <style>
@@ -105,26 +105,26 @@ div {
 
 [[live example](http://code.webplatform.org/gist/5842945) View live example]
 
-## <span>Usage</span>
+## Usage
 
      You should understand the CSS Box Model before using this property.  Use this in conjunction with background-image and optionally background-position.   See background position for information about the coordinate system and positioning.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 For elements rendered as a single box, the **background-origin** property specifies the background positioning area. For elements rendered as multiple boxes (for instance, inline boxes on several lines or boxes on several pages), this property specifies which boxes determine the background positioning areas. If the [**background-attachment**](/css/properties/background-attachment) value for this image is **fixed**, then the **background-origin** property has no effect. In this case, the background positioning area is the initial containing block. In Windows Internet Explorer 9, the background of a box can have multiple layers. The number of layers is determined by the number of comma-separated values in the [**background-image**](/css/properties/background-image) property. Each of the images is sized, positioned, and tiled according to the corresponding value in the other background properties ([**background-attachment**](/css/properties/background-attachment), [**background-clip**](/css/properties/background-clip), **background-origin**, [**background-position**](/css/properties/background-position), [**background-repeat**](/css/properties/background-repeat), and [**background-size**](/css/properties/background-size)). The first image in the list is the layer closest to the user, the next one is painted behind the first, and so on.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Backgrounds & Borders Level 3](http://www.w3.org/TR/css3-background/#the-background-origin)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Background</span>
+#### Background
 
 -   [background](/css/cssom/properties/background)
 

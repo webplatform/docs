@@ -23,30 +23,30 @@ tags:
 uri: dom/Node/textContent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the text content of a node and any child nodes.
 
 Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var textContent = node.textContent;
 node.textContent = newText;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The text content of a node and its child nodes, if any.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 // Given the following HTML fragment:
-//   <div id="divA">This is <span>some</span> text</div>
+//   <div id="divA">This is some text</div>
 
 // Get the text content:
 var text = document.getElementById("divA").textContent;
@@ -77,7 +77,7 @@ gettextContent(document.getElementById('scrtest'));
 </body></html>
 ```
 
-## <span>Notes</span>
+## Notes
 
 textContent returns null if the element is a document, a document type, or a notation. To grab all of the text and CDATA data for the whole document, one could use document.documentElement.textContent.
 
@@ -87,7 +87,7 @@ For other node types, textContent returns the concatenation of the textContent a
 
 Setting this property on a node removes all of its children and replaces them with a single text node with the given value.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

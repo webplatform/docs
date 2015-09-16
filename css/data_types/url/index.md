@@ -13,7 +13,7 @@ tags:
 uri: 'css/data types/url'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &lt;url&gt; CSS data type, formerly called the &lt;uri&gt; data type, represents a reference to a file or file fragment. It is specified with the url() function.
 
@@ -25,7 +25,7 @@ The string may be quoted (with single or double quotes) but need not be. If an u
 
 Not all references in CSS to external files require the use of the `url()` syntax; file names in [`@import` rules](/css/atrules/@import), for example, may be given as simple quoted [`<string>`](/css/data_types/string) values.
 
-## <span>Examples</span>
+## Examples
 
 **Relative URLs and Fragments**
 
@@ -92,7 +92,7 @@ ul.custom {
 
 [View live example](http://code.webplatform.org/gist/10603403)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/#urls)
 :   W3C Candidate Recommendation

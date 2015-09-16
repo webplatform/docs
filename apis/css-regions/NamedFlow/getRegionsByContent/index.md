@@ -21,32 +21,32 @@ tags:
 uri: apis/css-regions/NamedFlow/getRegionsByContent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the static sequence of regions that contain at least part of the supplied target content element.
 
 Method of [apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)[apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var regions = flow.getRegionsByContent(element);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>element</span>
+### element
 
  Data-type
 :   DOM Node
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type functionfunction
 
 Returns the static sequence of regions that contain at least part of the supplied target content element. The regions are returned in document order.
 
-## <span>Examples</span>
+## Examples
 
 Checks if the last paragraph in a [flow](/css/concepts/named_flow) splits across more than one region
 
@@ -67,16 +67,16 @@ if (regions.length > 1) {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -134,7 +134,7 @@ if (regions.length > 1) {
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

@@ -17,13 +17,13 @@ tags:
 uri: apis/indexeddb/IDBObjectStore/transaction
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the transaction this object store belongs to.
 
 Property of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 

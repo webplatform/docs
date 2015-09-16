@@ -11,7 +11,7 @@ tags:
 uri: dom/PointerEvent/pointerout
 
 ---
-## <span>Summary</span>
+## Summary
 
 Dispatched when any of the following occurs:
 
@@ -19,7 +19,7 @@ Dispatched when any of the following occurs:
 -   After firing the [pointerup](/dom/PointerEvent/pointerup) event for a device that does not support hover
 -   After firing the [pointercancel](/dom/PointerEvent/pointercancel) event
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -73,13 +73,13 @@ Varies: when the pointer is primary, all default actions of the [mouseout](/dom/
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 ``` js
 element.addEventListener("pointerout", handler, useCapture) ;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Pointer Events](http://www.w3.org/TR/pointerevents)
 :   Working Draft

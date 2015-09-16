@@ -10,7 +10,7 @@ tags:
 uri: 'tutorials/canvas/Canvas tutorial/Basic animations'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Timing and movement of shapes are explained in this part of the canvas tutorial. There's a list of useful external examples at the end of the document.
 
@@ -18,7 +18,7 @@ Since we're using script to control `canvas` elements it's also very easy to mak
 
 Probably the biggest limitation is that once a shape gets drawn it stays that way. If we need to move it we have to redraw it and everything that was drawn before it. It takes a lot of time to redraw complex frames and the performance depends highly on the speed of the computer it's running on.
 
-## <span>Basic animation steps</span>
+## Basic animation steps
 
 These are the steps you need to take to draw a frame:
 
@@ -31,7 +31,7 @@ These are the steps you need to take to draw a frame:
 4.  **Restore the canvas state**
      If you've saved the state, restore it before drawing a new frame.
 
-## <span>Controlling an animation</span>
+## Controlling an animation
 
 Shapes are drawn to the canvas by using the canvas methods directly or calling custom functions. In normal circumstances we only see these results appear on the canvas when the script finishes execution. For instance it isn't possible to do an animation from within a `for` loop.
 
@@ -46,7 +46,7 @@ The second method we can use to control an animation is user input. If we wanted
 
 In the examples below I'm using the first method to control the animation. At the bottom of this page are some links to examples which use the second.
 
-#### <span>An animation example 1</span>
+#### An animation example 1
 
 In this example I'm going to animate a mini simulation of our solar system.
 
@@ -96,7 +96,7 @@ In this example I'm going to animate a mini simulation of our solar system.
       ctx.drawImage(sun,0,0,300,300);
     }
 
-#### <span>An animation example 2</span>
+#### An animation example 2
 
 ![An analog clock with hour, minute, and second hands](/assets/public/a/a3/Canvas_animation2.png)
 
@@ -199,7 +199,7 @@ In this example I'm going to animate a mini simulation of our solar system.
       ctx.restore();
     }
 
-#### <span>An animation example 3</span>
+#### An animation example 3
 
 This is the code for a left-to-right looping panoramic image scroller. Make sure the image is larger than the canvas.
  Using this file for this example
@@ -264,7 +264,7 @@ html code. Canvas width and height should match the CanvasXSize, CanvasYSize.
     <body onload="init();">
     <canvas id="canvas" width="800" height="200"></canvas>
 
-## <span>Other examples</span>
+## Other examples
 
 -   [Gartic](http://www.gartic.net/)
      Multi-player drawing game

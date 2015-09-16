@@ -26,39 +26,39 @@ uri: dom/Document/open
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.open(url, name, features, replace);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>url</span>
+### url
 
  Data-type
 :   any
 
-### <span>name</span>
+### name
 
  Data-type
 :   BSTR
 
 **Note**  The following applies only if this method is used instead of [**window.open**](/dom/Window/open).
 
-### <span>features</span>
+### features
 
  Data-type
 :   BSTR
 
 **Note**  The following applies only if this method is used instead of [**window.open**](/dom/Window/open).
 
-### <span>replace</span>
+### replace
 
  Data-type
 :   any
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -66,7 +66,7 @@ Object
 
 **document**
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **open** method to replace the current document with a new document and display the HTML markup contained in the variable *sMarkup*.
 
@@ -91,9 +91,9 @@ function replace(){
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When a function fired by an event on any object calls the **open** method, the [**window.open**](/dom/Window/open) method is implied.
 
@@ -105,16 +105,16 @@ When a function fired by an event on any object calls the **open** method, the [
     Click this page and window.open() is called.
     </body>
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.5
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 3.4.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `close`

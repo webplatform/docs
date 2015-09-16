@@ -28,13 +28,13 @@ enabled=
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **:enabled** pseudo-class is a UI element states pseudo-class. UI element states pseudo-classes select UI elements (form controls such as radio buttons or check boxes) that are in a certain state—enabled, disabled, or selected (checked).
 
-### <span>Syntax</span>
+### Syntax
 
 selector
 
@@ -44,20 +44,20 @@ enabled
 
 </dd>
 </dl>
-### <span>Parameters</span>
+### Parameters
 
 *selector*
 :   A CSS simple selector
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Selectors Level 3](http://go.microsoft.com/fwlink/p/?linkid=199783), Section 6.6.4.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Pseudo-Classes</span>
+#### Pseudo-Classes
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -109,7 +109,7 @@ enabled
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -185,7 +185,7 @@ enabled
 
 -   [type](/css/selectors/type)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `:disabled`

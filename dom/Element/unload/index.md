@@ -15,7 +15,7 @@ uri: dom/Element/unload
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -67,7 +67,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example shows how to use the **onunload** event to run script when the window object has been unloaded.
 
@@ -90,9 +90,9 @@ This example shows how to use the **onunload** event to run script when the wind
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onunloadEX.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If you call **window**.[**open**](/dom/Window/open) from this event, the Pop-up Blocker feature in Microsoft Internet Explorer 6 prevents the pop-up window from appearing. Removes the object or document from the browser window. To invoke this event, do one of the following:
 
@@ -138,13 +138,13 @@ For security reasons, the **unload** event does not open modeless dialog boxes, 
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `body`
 -   `frameSet`

@@ -11,17 +11,17 @@ tags:
 uri: javascript/Object/toLocaleString
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a date converted to a string using the current locale.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     dateObj.toLocaleString()
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **toLocaleString** method.
 
@@ -35,7 +35,7 @@ function toLocaleStrDemo(){
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required dateObj is any Date object.
 
@@ -48,9 +48,9 @@ For example, in the United States, **toLocaleString** returns "01/05/96 00:00:00
 
 **Note** -- **toLocaleString** should only be used to display results to a user; it should never be used as the basis for computation within a script as the returned result is machine-specific.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.3 Array.prototype.toLocaleString ( )](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.3) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

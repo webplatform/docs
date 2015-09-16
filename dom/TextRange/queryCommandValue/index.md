@@ -22,28 +22,28 @@ tags:
 uri: dom/TextRange/queryCommandValue
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the current value of the document, range, or current selection for the given command.
 
 Method of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = document.queryCommandValue(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>cmdID</span>
+### cmdID
 
  Data-type
 :   BSTR
 
 **String** that specifies a command identifier.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -51,7 +51,7 @@ Variant
 
 **Variant** that returns the command value for the document, range, or current selection, if supported. Possible values depend on *cmdID*. If not supported, this method returns a **Variant** of type **Boolean** set to false.
 
-## <span>Examples</span>
+## Examples
 
 The following example when using legacy document.selection will display an alert message of 'false' if the current selection is not 'bold', or true if it is already 'bold'
 
@@ -79,12 +79,12 @@ if(window.getSelection){
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Used for changing the HTML markup of web pages.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This method is a wrapper function for the command constants. You can obtain an **IHTMLDocument2** interface using IID\_IHTMLDocument2 for the IID. This method is a wrapper function for the command constants. You can obtain an **IHTMLControlRange** interface using IID\_IHTMLControlRange for the IID. This method is a wrapper function for the command constants. You can obtain an **IHTMLTxtRange** interface using IID\_IHTMLTxtRange for the IID.

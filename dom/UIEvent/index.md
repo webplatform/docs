@@ -18,13 +18,13 @@ tags:
 uri: dom/UIEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a user interface event, like click, blur, etc.
 
 Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -37,7 +37,7 @@ API Name
 
     [object window]
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -45,7 +45,7 @@ API Name
 [initUIEvent](/dom/UIEvent/initUIEvent)
 :   Initializes a new user interface event that the [createEvent](/dom/Document/createEvent) method created.
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -56,9 +56,9 @@ API Name
 [activate](/dom/UIEvent/activate)
 :   Fires when the object is set as the active element.
 
-## <span>Inherited from Event</span>
+## Inherited from Event
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -90,7 +90,7 @@ API Name
 [type](/dom/Event/type)
 :   Gets the name of an event.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -107,7 +107,7 @@ API Name
 [stopPropagation](/dom/Event/stopPropagation)
 :   Prevents propagation of an event beyond the current target.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -190,7 +190,7 @@ API Name
 [finish](/dom/Event/finish)
 :
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

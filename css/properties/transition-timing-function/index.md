@@ -23,11 +23,11 @@ tags:
 uri: css/properties/transition-timing-function
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the pace of action within a transition
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `ease`
@@ -53,7 +53,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `transition-timing-function: cubic-bezier()`
 -   `transition-timing-function: steps()`
@@ -65,7 +65,7 @@ Percentages
 -   `transition-timing-function: step-end`
 -   `transition-timing-function: step-start`
 
-## <span>Values</span>
+## Values
 
 ease
 :   Default. Starts and stops gradually, equivalent to [**cubic-bezier(0.25,0.1,0.25,1)**](/css/functions/cubic-bezier)
@@ -94,7 +94,7 @@ step-start
 step-end
 :   The change occurs instantly at the end of the keyframe, equivalent to [**steps(1, end)**](/css/functions/steps).
 
-## <span>Examples</span>
+## Examples
 
 Default transition timing
 
@@ -120,13 +120,13 @@ See how changing the timing value affects a sequence of two transitions
 
 [View live example](http://letmespellitoutforyou.com/samples/transit_timing.html)
 
-## <span>Usage</span>
+## Usage
 
      Along with other transition properties, multiple values
 
 separated by commas apply to transitions in the same order as they are listed by the [**transition-property**](/css/properties/transition-property) property. Excess values are ignored. If there are fewer timing values than transitions, they're recycled in order of declaration until their numbers match.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Transitions](http://www.w3.org/TR/2009/WD-css3-transitions-20091201/)
 :   W3C Working Draft

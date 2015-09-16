@@ -10,11 +10,11 @@ tags:
 uri: 'concepts/ia and usability'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page lists articles related to the theory and practice of information architecture and usability.
 
-## <span>Information Architecture</span>
+## Information Architecture
 
 -   [Planning a website](/concepts/information_architecture/planning_a_website)
 -   Scoping and User Research

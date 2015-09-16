@@ -22,26 +22,26 @@ tags:
 uri: dom/HTMLTitleElement/text
 
 ---
-## <span>Summary</span>
+## Summary
 
 Legacy. Use document.title instead. When setting, does same as textContent. When getting, gets a concatenated version of all of the child text nodes of a title element.
 
 Property of [dom/HTMLTitleElement](/dom/HTMLTitleElement)[dom/HTMLTitleElement](/dom/HTMLTitleElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var titleText = titleElement.text;
 titleElement.text = newTitleText;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 A concatenation of all of the child [text nodes](/dom/Text) of the element.
 
-## <span>Examples</span>
+## Examples
 
 The following script gets the text of the title element, changes "r" to "t" and sets the text back.
 
@@ -58,17 +58,17 @@ var title = document.getElementsByTagName("title")[0];
 title.text = title.text.replace("r", "t");
 ```
 
-## <span>Usage</span>
+## Usage
 
      Legacy. Use document.title instead.
 
 Use this property to get a concatenated version of all of the child text nodes of a [title](/html/elements/title) element. Setting this property works the same way as setting the [textContent](/dom/Node/textContent) property.
 
-## <span>Notes</span>
+## Notes
 
 -   [Text nodes](/dom/Text) that are nested within elements or HTML comments are excluded.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Document Object Model (DOM) Level 1](http://www.w3.org/TR/REC-DOM-Level-1/level-one-html.html#ID-77500413)
 :   W3C Recommendation

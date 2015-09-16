@@ -16,12 +16,12 @@ uri: svg/elements/feFlood
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 This example shows a simple flood filter that is green colored and has an opacity of 50%.
 
@@ -49,19 +49,19 @@ The image will look like this.
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The purpose of this filter is to provide a rectangular area that can be part of a larger filter chain. If you do not supply a color or opacity, the default values will be used. You can supply the [**x**](/svg/properties/x), [**y**](/svg/properties/y), [**width**](/svg/properties/width), and [**height**](/svg/properties/height) values, but if you do not, they will be defined by the general filter region.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.18
 
-### <span>Members</span>
+### Members
 
 The **SVGFEFloodElement** object has these properties:
 
@@ -71,11 +71,11 @@ The **SVGFEFloodElement** object has these properties:
 -   [**x**](/svg/properties/x): Gets or sets the x-coordinate value.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 

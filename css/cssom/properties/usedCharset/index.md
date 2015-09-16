@@ -19,13 +19,13 @@ tags:
 uri: css/cssom/properties/usedCharset
 
 ---
-## <span>Summary</span>
+## Summary
 
 The character set used to decode external script references.
 
 Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.usedCharset;
@@ -34,16 +34,16 @@ element.usedCharset = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The character set used to decode external script references is based on a number of factors, including the value of the [**charset**](/html/attributes/charset) attribute specified for **script** elements, [byte order marks](http://go.microsoft.com/fwlink/?LinkId=212747), and [HTTP headers](http://go.microsoft.com/fwlink/?LinkId=212748).
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `script`

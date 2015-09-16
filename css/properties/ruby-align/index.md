@@ -23,7 +23,7 @@ uri: css/properties/ruby-align
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :
@@ -46,7 +46,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `ruby-align: auto`
 -   `ruby-align: center`
@@ -56,7 +56,7 @@ Animatable
 -   `ruby-align: line-edge`
 -   `ruby-align: right`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Default. Browser determines how the ruby text is aligned. The recommended behavior for an ideographic (Asian character) ruby is to be aligned in the `distribute-space` mode. The recommended behavior for a Latin character ruby is to be aligned in the `center` mode.
@@ -79,7 +79,7 @@ distribute-space
 line-edge
 :   Ruby text is centered if it is not adjacent to a line edge. If it is adjacent to a line edge, the side of the ruby text lines up with the side of the base text.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **ruby-align** attribute and the **ruby-align** property to set the alignment of the ruby text. It uses an inline style sheet to set the **ruby-align** attribute to `right`.
 
@@ -96,23 +96,23 @@ onclick="oRuby.style.rubyAlign='center';"
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rubyAlign.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **ruby-align** property specifies the alignment of the ruby text defined by the **rt** object, and is set on the **ruby** object.
 
-### <span>Syntax</span>
+### Syntax
 
 `ruby-align: auto | left | center | right | distribute-letter | distribute-space | line-edge`
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS3 Ruby Module](http://go.microsoft.com/fwlink/p/?linkid=203763), Section 4.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

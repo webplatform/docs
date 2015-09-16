@@ -9,7 +9,7 @@ tags:
 uri: gutter
 
 ---
-## <span>gutter</span>
+## gutter
 
 The whitespace present between two adjacent margins, apparent as a result of justification, bordering, or rule placement.
 

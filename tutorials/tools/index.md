@@ -7,7 +7,7 @@ tags:
 uri: tutorials/tools
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page contains links to tools tutorials.
 

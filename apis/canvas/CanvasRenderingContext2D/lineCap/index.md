@@ -24,20 +24,20 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/lineCap
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines the type of endings the user agent will place on the end of lines.
 
 Property of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = CanvasRenderingContext2D.lineCap;
 CanvasRenderingContext2D.lineCap = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -47,7 +47,7 @@ Valid values are:
 -   "round"
 -   "square"
 
-## <span>Examples</span>
+## Examples
 
 The following example draws three lines with the different line endings. With blue lines showing where the normal end of the line is.
 
@@ -78,11 +78,11 @@ function draw() {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 The *round* and *square* styles for the *lineCap* property make the lines slightly longer. For round ends, the cap diameter equals the [lineWidth](/apis/canvas/CanvasRenderingContext2D/lineWidth) value. The *square* style adds a rectangle with a width of 1/2 of *lineWidth*. Both the *round* and *square* styles add approximately 1/2 of the current *lineWidth* value to the end of a line. You should consider this addition if your graphics accuracy is critical.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Editor's Draft

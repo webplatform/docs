@@ -8,21 +8,21 @@ tags:
 uri: 'guides/html links'
 
 ---
-## <span>Summary</span>
+## Summary
 
 In this article we provide a basic treatment of HTML anchors, or &lt;a&gt; elements, more commonly known as HTML links.
 
-## <span>Introduction</span>
+## Introduction
 
 In this article you'll learn about one of the most ground-breaking inventions in the history of the Web — links. Links allow the reader of a document to instantly jump from document to document and from server to server. A lot has happened since links were first introduced, but one thing is the same: links are an immensely important part of the web experience and they can make accessing your content easy or hard for your website's visitors, depending on how you use them.
 
 This article explores how to create links that are easy to understand and function in any environment. Further, we'll look at how linking affects your search engine popularity, and you'll get some tips about wording link text.
 
-## <span>What are links?</span>
+## What are links?
 
 *Links* are parts of an HTML document that point to other resources — other HTML documents, text files, PDF files, etc. Some links are followed automatically by the browser, created using `<link>` elements (you've already encountered some of these in earlier articles, as when they were used to import CSS files into an HTML document). But generally, when we talk about links we mean those that are created by the page author and are optional for the user to activate. These are called *anchors*, and you add them to the HTML document using the `<a>` element.
 
-## <span>The anatomy of an anchor</span>
+## The anatomy of an anchor
 
 You can turn any inline element or text into an HTML link by adding an `<a>` element around it. For example, in the following HTML document, the text "Opera Software" is a link.
 
@@ -53,7 +53,7 @@ The anchor tag has several attributes you can add:
 
 Let's go through the most important attributes first and then talk about what you can do to links to make things easier for your visitors.
 
-## <span>The href attribute</span>
+## The href attribute
 
 An `<a>` element can play several roles, depending on which attributes are set. The most common attribute you'll use is the `href` attribute, which defines what resource the link points to. This attribute can contain different values:
 
@@ -62,7 +62,7 @@ An `<a>` element can play several roles, depending on which attributes are set. 
 -   A fragment identifier or id preceded by a hash sign, e.g., "\#menu". This points to a target inside the current document rather than an external URL.
 -   A mixture of URLs and fragment identifiers. That is, you can link directly to a section of a different document by pointing the `href` attribute to a URL followed by a fragment identifier, for example "http://dev.opera.com/articles/view/new-structural-elements-in-html5/\#aside".
 
-## <span>Creating intra-page navigation with id attributes</span>
+## Creating intra-page navigation with id attributes
 
 You can also put an `id` attribute on an `<a>` element to make it into a page anchor. Page anchors are intra-page *targets* for other links on that page. You link to them by putting the ID in the `href` attribute of another link. For example, here's an anchor coded to be a link target:
 
@@ -153,11 +153,11 @@ The following HTML contains examples of the different types of links:
 
 That covers the menu and the different sections in the example, but what about the other links? If you try them out you'll see that they point to different targets — one goes to another site, another displays a photo, and the third one shows a specific section of another web page (found by jumping to a specific ID). If all of that worked for you, great — but what if your browser couldn't understand some of the resources?
 
-## <span>Don't leave any ambiguity about what you're linking to</span>
+## Don't leave any ambiguity about what you're linking to
 
 An important thing to remember about links is that they are a substantial part of your relationship with your visitors. Readers trust that when you offer them a link, they can follow it and get good, relevant information. If your links don't work because the linked resource is not available or is in a format the visitor's browser cannot consume, you will betray that trust and lose credibility. Don't let that happen.
 
-### <span>Providing extra information with a title attribute</span>
+### Providing extra information with a title attribute
 
 As with most other HTML elements, you can add a `title` attribute to an `<a>` element to include some extra information. Browsers will show a *tooltip* when visitors hover the mouse cursor over the link. The tooltip typically tells them what the link is about. For example, you could give a small introduction to the content and location of the linked document:
 
@@ -188,7 +188,7 @@ Crucial information might be:
 -   Leaving the current site and linking to another server (external links).
 -   Linking to a document that will open in a different frame or a popup.
 
-### <span>Linking to non-HTML resources — don't make people guess</span>
+### Linking to non-HTML resources — don't make people guess
 
 It can be very annoying when you click a link and your browser does not know what to do with the content the link points to. It is unfortunately all too common to see websites link to images, PDF documents, and videos without telling their visitors what to expect. Further, the resource might be quite large, which means that visitors might prefer to download it rather than opening it inside the browser, or they might prefer to not access it at all.
 
@@ -223,11 +223,11 @@ One of the biggest success factors for a web page is not making users guess what
 
  By providing information about linked files and their nature, you leave the decision of what to do with them to your visitors, rather than expecting them to have certain browser settings or pre-installed software. If you mix that information with clever styling you can even make such links look attractive and intuitive, for example, by giving different types of links easily recognisable icons (see more about this in [guides/Styling lists and links](/guides/Styling_lists_and_links)). If you want to be very safe, you can also offer a help section that explains what the different file formats are and where you can get the software needed to display them.
 
-## <span>External vs. internal links</span>
+## External vs. internal links
 
 One of the biggest fears for business websites is people leaving the site prematurely. This is often the reason for sites not offering third-party links (unless the third parties pay money for the privilege of having web traffic directed to them). We'll come back to this error in judgment later; for now let's talk about what developers can do to help prevent visitors from inadvertantly leaving their sites and how these measures affect the site's success.
 
-### <span>Frames and popups — just say no</span>
+### Frames and popups — just say no
 
 The fear of losing visitors to other sites while still wanting to link to them gave us two innovations(?) in web development that have been a thorn in usability's side for years: frames and popups.
 
@@ -246,7 +246,7 @@ Opening a new browser instance is another common way to link to third party site
 
 In short, **do not use the `target` attribute when you create links unless you know what you are doing**. It is an outdated idea anyway; today, virtually all browsers have tabbed interfaces, so users can easily open third-party sites in a different tab without leaving your site. Under certain circumstances you may want to indicate the difference between external and internal links, but always leave it to the discretion of the visitor what to do with them.
 
-### <span>Benefits of outbound and inbound links</span>
+### Benefits of outbound and inbound links
 
 There are several good reasons for linking to third party sites even when they are competitors.
 
@@ -258,7 +258,7 @@ The usefulness of inbound links (links pointing from a third-party site to yours
 
 This brings us to another very important part of creating good links: how to word them.
 
-## <span>Link wording</span>
+## Link wording
 
 We covered this briefly in the section about linking to non-HTML resources, but it is good to remind ourselves that links are not just interactive elements, but also an integral part of the page copy.
 
@@ -268,7 +268,7 @@ You should also make sure that your page doesn't contain multiple links with the
 
 The same applies to "more" links. These are often found in news sites, where you see a heading and some teaser text followed by a "more" or "full story" link. The solution to this problem is to either use a linked "more" image with some unique alternative text, or to add a `<span>` element inside the link after the "more" and hide it with CSS.
 
-## <span>Link styling</span>
+## Link styling
 
 A full treatment of link styling is beyond the scope of this article (but you can find more information in [guides/Styling lists and links](/guides/Styling_lists_and_links)). Still, it is important to remember that how links look is very important and that there are several different link states to consider. The link states (called CSS *pseudo class selectors*) are:
 
@@ -278,7 +278,7 @@ A full treatment of link styling is beyond the scope of this article (but you ca
 -   `:focus` — defines the style of a link when it has focus (or highlighted) by a mouse click or via another alternative control mechanism such as the keyboard.
 -   `:active` — defines the style of the link while it is activated; that is, while the connection to its target is in progress. This is also the style of the last activated link when you arrive at a document by using the browser's Back function.
 
-## <span>HTML5: block level linking</span>
+## HTML5: block level linking
 
 In HTML4, the `<a>` element was restricted to turning other inline elements into links. This was fine for most situations, but it became annoying when you wanted, for example, to turn an entire advertising banner section containing images and paragraphs into a link. For the code to remain valid, you would have to wrap each individual bit of text and each image in its own separate link — all going to the same place — which is not only horribly repetitious, but confuses assistive technology and its users. Putting an inline element around a section of block level content also makes styling behave weirdly, unless you remember to set it to display like a block level element using CSS.
 
@@ -319,13 +319,13 @@ Fortunately, HTML5 removes this restriction, allowing you to put a single link a
 
  Here you can see that we have the `<a>` element wrapping both a heading and a paragraph. To make this work correctly we've set it to `display: block;` in the CSS. If you try the example out yourself, you'll see that the entire block is part of the clickable link area. I have also added a background-color change on hover to make this more visible.
 
-## <span>Conclusion</span>
+## Conclusion
 
 We covered a lot in this article, but perhaps the most important takeaway is to remember not only what links do, but what they **should** do.
 
-## <span>See also</span>
+## See also
 
-### <span>Exercise questions</span>
+### Exercise questions
 
 -   What is wrong with the following link: `<a href="report.pdf" title="report as PDF, 2.3MB">get our latest report</a>`?
 -   What is the `target` attribute in links for and are there any good uses for it?

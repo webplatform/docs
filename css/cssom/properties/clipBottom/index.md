@@ -23,24 +23,24 @@ tags:
 uri: css/cssom/properties/clipBottom
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the bottom coordinate of the object clipping region.
 
 Property of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = declaration.clipBottom;
 declaration.clipBottom = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 This example reads the **clipBottom** property from the [**currentStyle**](/css/cssom/currentStyle) object of an image.
 
@@ -69,9 +69,9 @@ Pick an amount to clip the bottom:
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipBottom.htm)
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

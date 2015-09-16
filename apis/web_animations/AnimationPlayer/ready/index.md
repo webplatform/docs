@@ -16,13 +16,13 @@ tags:
 uri: 'apis/web animations/AnimationPlayer/ready'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the current ready promise for this object.
 
 Property of [apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)[apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var promise = myAnimationPlayer.ready;

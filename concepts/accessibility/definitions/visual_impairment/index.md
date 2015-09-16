@@ -8,7 +8,7 @@ tags:
 uri: 'concepts/accessibility/definitions/visual impairment'
 
 ---
-## <span>Summary</span>
+## Summary
 
 A visual impairment is a person's reduced ability to see and see clearly. This includes reduced sensitivity and reduced clarity.
 
@@ -18,11 +18,11 @@ Visual impairments as they apply to websites are address by Section 508 [1194.22
 
 The Web is predominantly a visual medium and, because of that, there are more accommodations that must be made for people with visual impairments.
 
-## <span>Remember</span>
+## Remember
 
 Disabilities are not mutually exclusive. Someone with a visual impairment may also have audio, cognitive, and mobility impairments.
 
-## <span>Examples</span>
+## Examples
 
 -   Provide descriptive text in the `alt` attribute for all images. Use an empty `alt` attribute for placeholder images. This allows someone with low vision or blindness to grasp the import of an image.
 -   If using an image button, make sure the `alt` text matches the image text exactly. This allows someone with low vision or blindness to get support using your website.
@@ -39,8 +39,8 @@ Disabilities are not mutually exclusive. Someone with a visual impairment may al
 -   Use descriptive text for hyperlinks, especially hyperlinks that execute JavaScript. Do not rely on the status bar to convey meaningful information. This allows someone with a screen reader to understand what will happen when clicking on a hyperlink.
 -   Avoid attaching handlers to double-click, mouse-down, mouse-up, blur, and focus events. This allows someone with a screen reader to interact with your page as well as someone else could.
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 <http://www.access-board.gov/sec508/guide/>

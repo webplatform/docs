@@ -24,13 +24,13 @@ tags:
 uri: apis/web-storage/Storage/sessionStorage
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides a Storage object specific to the current top-level browsing context. The storage will be cleared after a browser restart. If you need a persistent storage, use apis/web-storage/Storage/localStorage.
 
 Property of [apis/web-storage/Storage](/apis/web-storage/Storage)[apis/web-storage/Storage](/apis/web-storage/Storage)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,11 +38,11 @@ Property of [apis/web-storage/Storage](/apis/web-storage/Storage)[apis/web-stora
 var result = object.sessionStorage;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 /* global document, window */
@@ -100,17 +100,17 @@ document.getElementById('clear').addEventListener('click', clearStorageHandler);
 </section>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use the methods setItem, getItem, removeItem and clear defined in apis/web-storage/Storage
 
-## <span>Notes</span>
+## Notes
 
 The **sessionStorage** "property" provides an instance of a storage area object, to which the **Storage** object's properties and methods are applied.
 
 The amount of storage in sessionStorage is limited by a quota by the browser. See an example error for when the quota is exceed: <http://jsfiddle.net/wkDc6/1/>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Storage Specification](http://dev.w3.org/html5/webstorage)
 :   W3C Editor's Draft

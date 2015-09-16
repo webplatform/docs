@@ -24,13 +24,13 @@ tags:
 uri: dom/MutationEvent/relatedNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets a second node related to a mutation event.
 
 Property of [dom/MutationEvent](/dom/MutationEvent)[dom/MutationEvent](/dom/MutationEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,26 +38,26 @@ Property of [dom/MutationEvent](/dom/MutationEvent)[dom/MutationEvent](/dom/Muta
 var relatedNode = event.relatedNode;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The second node related to the event.
 
-## <span>Notes</span>
+## Notes
 
 In a `DOMAttrModified` event, the related node is the attribute node that is being modified. In a `DOMNodeInserted` or `DOMNodeRemoved` event, the related node is the parent node of the event target.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Events](http://www.w3.org/TR/DOM-Level-2-Events/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Deprecated</span>
+#### Deprecated
 
 -   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 

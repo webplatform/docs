@@ -19,7 +19,7 @@ uri: dom/HTMLElement/cellIndex
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.cellIndex;
@@ -28,21 +28,21 @@ element.cellIndex = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Collection indexes are in the source order of the HTML document. When a cell spans multiple rows, that cell only appears in the cells collection for the first row that the cell spans.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `rowIndex`
 -   `sectionRowIndex`

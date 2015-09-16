@@ -70,39 +70,39 @@ translations:
 uri: svg
 
 ---
-## <span>Summary</span>
+## Summary
 
 Scalable Vector Graphics (SVG) is an XML markup language for structurally describing two-dimensional vector graphics. In essence, SVG is to graphics what [HTML](/html) is to text. SVG is a [W3C recommendation](http://www.w3.org/Graphics/SVG/) and is explicitly designed to work with other W3C standards such as [HTML](/html), [CSS](/css) or [DOM](/dom).
 
-## <span>Explore our SVG docs</span>
+## Explore our SVG docs
 
-### <span>[SVG learning material](/svg/tutorials)</span>
+### [SVG learning material](/svg/tutorials)
 
 Tutorials and concept articles to teach you SVG from the ground up.
 
-### <span>[Elements](/svg/elements)</span>
+### [Elements](/svg/elements)
 
 A reference guide to SVG and related elements.
 
-### <span>[Attributes](/svg/attributes)</span>
+### [Attributes](/svg/attributes)
 
 A reference guide to all the available SVG attributes.
 
-### <span>[Objects](/svg/objects)</span>
+### [Objects](/svg/objects)
 
 A reference guide to all the available SVG objects.
 
-### <span>[Methods](/svg/methods)</span>
+### [Methods](/svg/methods)
 
 A reference guide to all the available SVG methods.
 
-### <span>[Properties](/svg/properties)</span>
+### [Properties](/svg/properties)
 
 A reference guide to all the available SVG properties.
 
  Note: If you are completely new to web development, you may want to review [Web development for beginners](/beginners).
 
-## <span>Background</span>
+## Background
 
 SVG was first worked on in 1998, in an attempt to create a standardised vector graphics markup language for browsers to follow (proprietary technologies at the time included Microsoft's VML and Sun/Adobe's PGML.)
 
@@ -110,11 +110,11 @@ SVG was first worked on in 1998, in an attempt to create a standardised vector g
 -   Current stable version: [SVG 1.1](http://www.w3.org/TR/SVG11/) is the current stable implementation supported across modern browsers, first published in 2003. There are also some SVG offshoots with different purposes, such as [SVG Tiny 1.2](http://www.w3.org/TR/SVGTiny12/), but for reference you should stick to SVG 1.1.
 -   Current and future work: SVG 1.2 development has been dropped in favour of the upcoming [SVG 2.0](http://www.w3.org/TR/SVG2/) specification.
 
-## <span>Contributing to SVG development</span>
+## Contributing to SVG development
 
 SVG is worked on by the SVG working group — see the [SVG WG homepage](http://www.w3.org/Graphics/SVG/) for more details, including mailing list details for feedback and contributing.
 
-## <span>Index of all SVG topics</span>
+## Index of all SVG topics
 
 -   [Browser Support](/svg/browser_support)
 -   [SVG DOM methods](/svg/methods)

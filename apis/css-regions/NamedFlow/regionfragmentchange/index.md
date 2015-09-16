@@ -13,11 +13,11 @@ tags:
 uri: apis/css-regions/NamedFlow/regionfragmentchange
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fires on the NamedFlow object when there is a change in how content flows through a region chain.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -73,7 +73,7 @@ none
 </table>
 Fires on the [**NamedFlow**](/apis/css-regions/NamedFlow) object when there is 'any' change in how content flows through a [region chain](/css/concepts/region_chain), even minor changes that don't affect the total number of [regions](/css/concepts/region) the content requires.
 
-## <span>Examples</span>
+## Examples
 
 This simple example logs each time content reflows among regions, and works with the CSS and JavaScript that follow. Define layout and content elements:
 
@@ -140,20 +140,20 @@ document.getNamedFlows().namedItem('main').addEventListener(
 
 [View live example](http://letmespellitoutforyou.com/samples/region_fragmentchange.html)
 
-## <span>Notes</span>
+## Notes
 
 The event fires when content shifts 'in any way' within the [region chain](/css/concepts/region_chain), such as when linebreaks change. That is, when any [region's](/css/concepts/region) [collection of DOM Range fragments](/apis/css-regions/Region/getRegionFlowRanges) changes their dimensions or offsets. (Compare with the [**regionoversetchange**](/apis/css-regions/NamedFlow/regionoversetchange) event, which fires much less frequently in response to changing content or dimensions.)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -211,7 +211,7 @@ The event fires when content shifts 'in any way' within the [region chain](/css/
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

@@ -17,19 +17,19 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/setLocalDescription
 
 ---
-## <span>Summary</span>
+## Summary
 
 Applies the supplied RTCSessionDescription to the local description.
 
 Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  .setLocalDescription();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 

@@ -10,17 +10,17 @@ tags:
 uri: javascript/encodeURI
 
 ---
-## <span>Summary</span>
+## Summary
 
 Encodes a text string as a valid Uniform Resource Identifier (URI)
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     encodeURI( URIString )
 
-## <span>Examples</span>
+## Examples
 
 The following code first encodes and then decodes a URI.
 
@@ -37,15 +37,15 @@ var uriEncode = encodeURI ("http://www.Not a URL.com");
  // http://www.Not a URL.com
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required URIString argument is a value representing an encoded URI.
 
 The **encodeURI** function returns an encoded URI. If you pass the result to **decodeURI** , the original string is returned. The **encodeURI** function does not encode the following characters: ":", "/", ";", and "?". Use **encodeURIComponent** to encode these characters.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [decodeURI Function](/javascript/decodeURI)
 -   [decodeURIComponent Function](/javascript/decodeURIComponent)

@@ -23,13 +23,13 @@ tags:
 uri: 'apis/resource timing/PerformanceResourceTiming/secureConnectionStart'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the time immediately before the user agent starts the handshake process to secure the current connection.
 
 Property of [apis/resource timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)[apis/resource timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [apis/resource timing/PerformanceResourceTiming](/apis/resource_timi
 var result = element.secureConnectionStart;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 DOMHighResTimeStamp
 
-## <span>Examples</span>
+## Examples
 
 This example assumes an HTML page containing a resource such as \<img src="<https://www.webplatform.org/logo/logo-with-text.png>" /\>
 
@@ -52,7 +52,7 @@ var resources = window.performance.getEntriesByType('resource');
 alert("secureConnectionStart: " + resources[0].secureConnectionStart);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Resource Timing Specification](http://www.w3.org/TR/resource-timing/)
 :   W3C Working Draft

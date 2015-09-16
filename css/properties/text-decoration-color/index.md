@@ -22,11 +22,11 @@ tags:
 uri: css/properties/text-decoration-color
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the color of any text decoration, such as underlines, overlines, and strike throughs.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `currentColor`
@@ -49,16 +49,16 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `textDecorationColor`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-decoration-color: color`
 
-## <span>Values</span>
+## Values
 
 color
 :   The color data type value can be a named color keyword, or in hexadecimal, RGB, RGBa, HSL or HSLa notation. See the [CSS color values](/css/color) page for more details.
 
-## <span>Examples</span>
+## Examples
 
 Example using the text-decoration-color
 
@@ -76,7 +76,7 @@ Example using the text-decoration-color
 
 [View live example](http://code.webplatform.org/gist/7281842)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Decoration Module Level 3](http://www.w3.org/TR/css-text-decor-3/)
 :   W3C Candidate Recommendation

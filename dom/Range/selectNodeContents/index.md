@@ -23,28 +23,28 @@ tags:
 uri: dom/Range/selectNodeContents
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the Range to contain the contents of a Node.
 
 Method of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = referenceNode.selectNodeContents(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>referenceNode</span>
+### referenceNode
 
  Data-type
 :   DOM Node
 
  A node in the document hierarchy.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -57,7 +57,7 @@ This method can return one of these values.
 |S\_OK|The operation completed successfully.|
 |InvalidStateError|detach has been invoked on the object.|
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var range = document.createRange();
@@ -65,15 +65,15 @@ var referenceNode = document.getElementsByTagName("div")[0];
 range.selectNodeContents(referenceNode);
 ```
 
-### <span>Syntax</span>
+### Syntax
 
 range.selectNodeContents(referenceNode);
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-range-selectnodecontents)
 :   Living Standard

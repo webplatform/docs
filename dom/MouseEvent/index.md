@@ -20,13 +20,13 @@ tags:
 uri: dom/MouseEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 The DOM MouseEvent interface represents events that occur due to the user interacting with a pointing device (such as a mouse or touchpad).
 
 Inherits from [UIEvent](/dom/UIEvent)[UIEvent](/dom/UIEvent)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -68,7 +68,7 @@ API Name
 [y](/dom/MouseEvent/y)
 :   Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -76,7 +76,7 @@ API Name
 [initMouseEvent](/dom/MouseEvent/initMouseEvent)
 :   Initializes a new mouse event that the [**createEvent**](/dom/Document/createEvent) method created.
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -108,9 +108,9 @@ API Name
 [mouseup](/dom/MouseEvent/mouseup)
 :   Fires when the user releases a mouse button while the mouse is over the object.
 
-## <span>Inherited from UIEvent</span>
+## Inherited from UIEvent
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -123,7 +123,7 @@ API Name
 
     [object window]
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -131,7 +131,7 @@ API Name
 [initUIEvent](/dom/UIEvent/initUIEvent)
 :   Initializes a new user interface event that the [createEvent](/dom/Document/createEvent) method created.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -144,7 +144,7 @@ API Name
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

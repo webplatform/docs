@@ -25,13 +25,13 @@ tags:
 uri: dom/ProgressEvent/lengthComputable
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies whether the total size of the operation is known.
 
 Property of [dom/ProgressEvent](/dom/ProgressEvent)[dom/ProgressEvent](/dom/ProgressEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [dom/ProgressEvent](/dom/ProgressEvent)[dom/ProgressEvent](/dom/Prog
 var result = ProgressEvent.lengthComputable;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -47,6 +47,6 @@ The ProgressEvent.lengthComputable read-only property is a Boolean flag indicati
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
 flag = ProgressEvent.lengthComputable

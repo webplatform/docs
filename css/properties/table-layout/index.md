@@ -21,11 +21,11 @@ tags:
 uri: css/properties/table-layout
 
 ---
-## <span>Summary</span>
+## Summary
 
 The 'table-layout' property controls the algorithm used to lay out the table cells, rows, and columns.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -48,13 +48,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `object.style.tableLayout`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `table-layout: auto`
 -   `table-layout: fixed`
 -   `table-layout: inherit`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Default. Column width is set by the widest unbreakable content in the column cells. The width of the table and its cells depends on the content of the cells.
@@ -65,7 +65,7 @@ fixed
 inherit
 :   This features inherits table-layout property from the parent element.
 
-## <span>Examples</span>
+## Examples
 
 This example shows table-layout 'auto' and 'fixed'. With 'auto', the column stretches to encompass the largest unbreakable element. With 'fixed', the column gets the defined width, even though the content might not fit.
 
@@ -151,12 +151,12 @@ td p {
 
 [View live example](http://code.webplatform.org/gist/7044174)
 
-## <span>Notes</span>
+## Notes
 
 -   When using 'table-layout: fixed', authors should not omit columns from the first row. If a subsequent row has more columns than the greater of the number determined by the table-column elements and the number determined by the first row, then additional columns may not be rendered.
 -   If 'table-layout: fixed', any cell that has content that overflows uses the overflow property to determine whether to clip the overflow content.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS2.1, 17.5.2 Table width algorithms: the 'table-layout' property](http://www.w3.org/TR/CSS2/tables.html#width-layout)
 :   W3C Recommendation

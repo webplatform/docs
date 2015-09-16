@@ -11,7 +11,7 @@ uri: tutorials/introduction-to-geolocation-apis
 ---
 **By Ashish Chopra**
 
-## <span>Summary</span>
+## Summary
 
 This page introduces the Geolocation API with a context of an example and the code snippets to show the best practices adopt to code such applications. Currently under writing, will be published soon.
 

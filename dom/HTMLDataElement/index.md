@@ -15,27 +15,27 @@ tags:
 uri: dom/HTMLDataElement
 
 ---
-## <span>Summary</span>
+## Summary
 
 The HTMLDataElement is a DOM interface specific to handle what’s stored in &lt;data&gt; tags and inherits from HTMLElement DOM object.
 
 Inherits from [HTMLElement](/dom/HTMLElement)[HTMLElement](/dom/HTMLElement)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from HTMLElement</span>
+## Inherited from HTMLElement
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -952,7 +952,7 @@ API Name
 [text-anchor](/svg/attributes/text-anchor)
 :
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -1011,13 +1011,13 @@ API Name
 [toStaticHTML](/dom/HTMLElement/toStaticHTML)
 :
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Inherited from Element</span>
+## Inherited from Element
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -1118,7 +1118,7 @@ API Name
 [type](/dom/Element/type)
 :
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -1216,7 +1216,7 @@ API Name
 [setPointerCapture](/dom/Element/setPointerCapture)
 :   Assigns a specified pointer to an element. This method is used to ensure that an element continues to receive pointer events even if the contact moves off the element.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -1378,9 +1378,9 @@ API Name
 [unload](/svg/events/unload)
 :
 
-## <span>Inherited from Node</span>
+## Inherited from Node
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -1432,7 +1432,7 @@ API Name
 [textContent](/dom/Node/textContent)
 :   Sets or retrieves the text content of a node and any child nodes.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -1485,11 +1485,11 @@ API Name
 [replaceChild](/dom/Node/replaceChild)
 :   Replaces an existing child node with a new child node.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-data-element)
 :   W3C Working Draft

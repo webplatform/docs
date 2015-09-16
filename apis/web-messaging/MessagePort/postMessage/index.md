@@ -19,28 +19,28 @@ tags:
 uri: apis/web-messaging/MessagePort/postMessage
 
 ---
-## <span>Summary</span>
+## Summary
 
 Posts a message through the channel, from one port to the other.
 
 Method of [apis/web-messaging/MessagePort](/apis/web-messaging/MessagePort)[apis/web-messaging/MessagePort](/apis/web-messaging/MessagePort)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  MessagePort.postMessage(message, transfer);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>message</span>
+### message
 
  Data-type
 :   any
 
  JavaScript primitive, such as a **string**, **PixelArray**, **ImageData**, **Blob**, **File**, or **ArrayBuffer**.
 
-### <span>transfer</span>
+### transfer
 
  Data-type
 :   any
@@ -49,11 +49,11 @@ Method of [apis/web-messaging/MessagePort](/apis/web-messaging/MessagePort)[apis
 
 Objects listed in *transfer* are transferred, not just cloned, meaning that they are no longer usable on the sending side. Throws a *DataCloneError* if *transfer* array contains duplicate objects or the source or target ports, or if *message* could not be cloned.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 This example creates a new message channel and uses one of the ports to send a message, which will be received by the other port.
 
@@ -62,11 +62,11 @@ var msgChannel = new MessageChannel();
 msgChannel.port1.postMessage('Hello world');
 ```
 
-## <span>Notes</span>
+## Notes
 
 When you create a new **MessageChannel** object, it has two connected **MessagePort** objects that can only send and receive messages between them. If the *ports* parameter is supplied but contains errors, an **InvalidStateError** exception is thrown. Sending a message containing an un-supported object (such as a function), a **DataCloneError** exception is thrown.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Messaging Specification](http://www.w3.org/TR/webmessaging/)
 :   W3C Candidate Recommendation

@@ -18,13 +18,13 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/remoteStreams
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns an array of MediaStream objects added to the connection by the remote peer. This array is updated when the addstream and removestream events are fired.
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 

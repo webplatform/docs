@@ -19,13 +19,13 @@ tags:
 uri: apis/indexeddb/IDBDatabase/objectStoreNames
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a list of names of the object stores currently in the connected database.
 
 Property of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)[apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.objectStoreNames;
@@ -34,4 +34,4 @@ element.objectStoreNames = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax

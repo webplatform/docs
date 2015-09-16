@@ -16,7 +16,7 @@ uri: dom/DragEvent/dragstart
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -70,14 +70,14 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses event bubbling to handle the **ondragstart** event at the **body** level.
 
 ``` html
 <body ondragstart="console.log(event.srcElement.tagName)">
     <input type="text" value="Select and drag this text">
-    <span>Select and drag this text</span>
+    Select and drag this text
     <textarea>Select and drag this text</textarea>
 </body>
 ```
@@ -122,21 +122,21 @@ function ShowResults()
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/DragDropEventsEX.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **ondragstart** event is the first to fire when the user starts to drag the mouse. It is essential to every drag operation, yet is just one of several source events in the data transfer object model. Source events use the [**setData**](/dom/DataTransfer/setData) method of the [**dataTransfer**](/dom/DataTransfer) object to provide information about data being transferred. Source events include **dragstart**, [**drag**](/dom/DragEvent/drag), and [**dragend**](/dom/DragEvent/dragend). When dragging anything other than an **img** object, some text to be dragged must be selected. Calls the associated event handler. To invoke this event, do one of the following:
 
 -   Drag the selected text or object.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

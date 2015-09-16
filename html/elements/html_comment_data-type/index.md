@@ -15,11 +15,11 @@ tags:
 uri: 'html/elements/html comment data-type'
 
 ---
-## <span>Summary</span>
+## Summary
 
 A syntactical production: The comment syntax indicates text within a document that is not displayed on the rendered page in the browser. A comment starts with &lt;!-- and ends with --&gt;.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [Comment](/dom/Comment)
@@ -28,7 +28,7 @@ Comments can contain other HTML elements. Comments do not nest. Start and end ta
 
 In XML mode, comments must not start or end with a dash, and must not contain two consecutive dashes.
 
-## <span>Examples</span>
+## Examples
 
 The following is an example of an **HTML Comment**.
 

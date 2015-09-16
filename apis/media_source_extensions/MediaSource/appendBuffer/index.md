@@ -18,32 +18,32 @@ tags:
 uri: 'apis/media source extensions/MediaSource/appendBuffer'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Appends the specified media segment to the SourceBuffer.
 
 Method of [apis/media\_source\_extensions/MediaSource](/apis/media_source_extensions/MediaSource)[apis/media\_source\_extensions/MediaSource](/apis/media_source_extensions/MediaSource)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  SourceBuffer.appendBuffer(data);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>data</span>
+### data
 
  Data-type
 :   VARIANT
 
  Type: ArrayBuffer. The media segment to append
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 This example uses XMLHttpRequest to get a segment of video (range) from a file (url) and appends it to the current sourceBuffer.
 
@@ -89,16 +89,16 @@ videoSource.removeEventListener("update", updateFunct);
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Media Source Extensions](http://www.w3.org/TR/media-source/)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Multimedia</span>
+#### Multimedia
 
 -   [Track ended](/apis/MediaStream/ended)
 

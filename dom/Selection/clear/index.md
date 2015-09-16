@@ -23,19 +23,19 @@ tags:
 uri: dom/Selection/clear
 
 ---
-## <span>Summary</span>
+## Summary
 
 The clear() method is not in HTMLSelection Object. Use the removeAllRanges Method instead.
 
 Method of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.clear();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -43,7 +43,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 use removeAllRanges() instead.
 
@@ -53,8 +53,8 @@ var selObj = window.getSelection();
 if(selObj.rangeCount > 0) selObj.removeAllRanges();
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5

@@ -21,11 +21,11 @@ todo_broken_links:
 uri: apis/indexeddb/IDBVersionChangeRequest
 
 ---
-## <span>Summary</span>
+## Summary
 
 Deprecated; no longer in spec. Used to change the version of the database.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -33,28 +33,28 @@ API Name
 [onblocked](/apis/indexeddb/IDBVersionChangeRequest/onblocked)
 :   The event handler for the blocked event.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **IDBVersionChangeRequest** object was returned by the [**setVersion**](/w/index.php?title=apis/indexedDB/methods/setVersion&action=edit&redlink=1) method, as specified by an early draft of the [Indexed Database specification](http://go.microsoft.com/fwlink/p/?LinkID=224519). The object and method were removed from later drafts of the specification and are no longer supported. To create object stores, indexes, and other IndexedDB objects, use the **version** parameter of the [**open**](/w/index.php?title=apis/indexedDB/methods/open&action=edit&redlink=1) method of the [**indexedDB**](/w/index.php?title=apis/indexedDB/properties/indexedDB&action=edit&redlink=1) property to generate an [**onupgradeneeded**](/w/index.php?title=apis/indexedDB/events/onupgradeneeded&action=edit&redlink=1) event.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `onupgradeneeded`
 -   `open`

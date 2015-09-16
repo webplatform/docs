@@ -14,17 +14,17 @@ uri: 'tutorials/mobile mobifying'
 **By [Eric Bidelman](http://www.html5rocks.com/profiles/#ericbidelman)**
 Originally published March 3, 2011
 
-## <span>Summary</span>
+## Summary
 
 An introduction to HTML5 enhancement techniques for mobile devices.
 
-## <span>Introduction</span>
+## Introduction
 
 Developing for the mobile web is a hot topic these days. In 2011, for the first time ever, [smart phones out-sold PCs](http://www.google.com/hostednews/ap/article/ALeqM5jbHjxzXq6y9RhP8LBGniMEAzeFSw?docId=8003d946cb934722b3f814c5909bbdc4). More and more users are using a mobile device to traverse the web, which means it's becoming critical for developers to optimize their sites for mobile browsers.
 
 The mobile battlefield is still uncharted waters for a large number of developers. Many folks have existing legacy sites that neglect mobile users altogether. Instead, the sites are designed primarily for desktop browsing and degrade poorly in mobile browsers. The site [HTML5Rocks!](http://www.html5rocks.com) is no exception. At launch, the developers put little effort into a mobile version of the site.
 
-## <span>Creating a mobile-friendly html5rocks.com</span>
+## Creating a mobile-friendly html5rocks.com
 
 As an exercise I thought it would be interesting to take HTML5Rocks!, already an HTML5 site, and augment it with a mobile-friendly version. I was mainly concerned with the minimum amount of work required to target smart phones. The goal of my exercise was not to create an entirely new mobile site and maintain two codebases. That would take forever and be a huge waste of time. We had already defined the site's structure (markup). We had a look and feel (CSS). The core functionality (JS) was there. The point is, many sites are in the same boat.
 
@@ -32,7 +32,7 @@ This article examines how we created a mobile version of HTML5Rocks! optimized f
 
 *html5rocks.com on desktop (left) and mobile (right)* ![Desktop and mobile html5rocks.com](/assets/public/0/02/mob01-h5r.png)
 
-## <span>CSS3 Media queries</span>
+## CSS3 Media queries
 
 HTML4 and CSS2 have supported [media-dependent style sheets](http://www.w3.org/TR/CSS2/media.html) for some time. For example:
 
@@ -42,7 +42,7 @@ This stylesheet reference targets print devices and provides specific styling fo
 
 You can use media queries in the `media` attribute of your external stylesheets to target screen width, device width, orientation, etc. For the full list, see the [W3C media query specification](http://www.w3.org/TR/css3-mediaqueries/).
 
-### <span>Targeting screen sizes</span>
+### Targeting screen sizes
 
 In the following example, `phone.css` would apply to devices that the browser considers "handheld" or devices with screen widths no more than 320px.
 
@@ -62,7 +62,7 @@ Media queries can also appear within inline `<style>` tags. The following target
        @media only all and (orientation: portrait) { ... }
      </style>
 
-### <span>media="handheld"</span>
+### media="handheld"
 
 We need to stop for a minute and discuss `media="handheld"`. The fact is, Android and iOS ignore `media="handheld"`. The claim is that users will miss the high-end content provided by stylesheets targeting `media="screen"`, and that developers are less likely to maintain a lower-quality `media="handheld"` version. So, as part of their "full web" motto, most modern smart phone browsers simply ignore handheld style sheets.
 
@@ -79,7 +79,7 @@ Opera Mini, for example, does **not** ignore `media="handheld"`. The trick to ge
      <link rel="stylesheet" href="screen.css" media="screen">
      <link rel="stylesheet" href="mobile.css" media="handheld">
 
-### <span>How html5rocks.com uses media queries</span>
+### How html5rocks.com uses media queries
 
 Media queries are used heavily throughout mobile HTML5Rocks!. They allow us tweak the layout without having to make significant changes to our Django template markup—a real lifesaver! In addition, their support across the various browsers is pretty good. (See the compatibility tables at the end of this article for specific information.)
 
@@ -101,7 +101,7 @@ Some of the styling changes that `mobile.css` enforces are:
 -   Uses CSS flex box model `box-ordinal-group` to change the ordering of each section on the homepage. You'll notice that "LEARN BY MAJOR HTML5 FEATURE GROUPS" comes before the "TUTORIALS" section on the homepage but after it on the mobile version. This ordering made more sense for mobile and didn't require markup changes. CSS flexbox FTW!
 -   Removes `opacity` changes. Changing alpha values is a performance hit on mobile.
 
-## <span>Mobile meta tags</span>
+## Mobile meta tags
 
 Some mobile operators try to change/minify/compress content as it gets sent to the handheld device to save on bandwidth across the mobile network. This can happen with Javascript and images requested from a server with certain network operators, this can break javascript libraries and code. To stop the network operators from doing this, send the following meta tag down with your content or setup your web server to send the header on certain file types.
 
@@ -109,7 +109,7 @@ Some mobile operators try to change/minify/compress content as it gets sent to t
 
 Mobile WebKit supports a few goodies that give users a better browsing experience on certain devices.
 
-### <span>Viewport settings</span>
+### Viewport settings
 
 The first meta setting (and one that you'll use most often) is the viewport property. Setting a viewport tells the browser how content should fit on the device's screen and informs the browser that the site is optimized for mobile. For example:
 
@@ -132,7 +132,7 @@ If you want to modify your web page for different screen densities, use the `-we
 
 See Android's [WebView documentation](http://developer.android.com/reference/android/webkit/WebView.html) for more information on targeting device resolutions.
 
-### <span>Full-screen browsing</span>
+### Full-screen browsing
 
 There are two other meta values that are iOS-specific. `apple-mobile-web-app-capable` and `apple-mobile-web-app-status-bar-style` will render page content in an app-like full screen mode and make the status bar translucent:
 
@@ -141,7 +141,7 @@ There are two other meta values that are iOS-specific. `apple-mobile-web-app-cap
 
 For more information on all of the available meta options, see the [Safari reference documentation](http://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html).
 
-### <span>Home screen icons</span>
+### Home screen icons
 
 iOS and Android devices also accept `rel="apple-touch-icon"` (iOS) and `rel="apple-touch-icon-precomposed"` (Android) for links. These create a flashy app-like icon on the user's home screen when they bookmark your site:
 
@@ -150,7 +150,7 @@ iOS and Android devices also accept `rel="apple-touch-icon"` (iOS) and `rel="app
      <link rel="apple-touch-icon-precomposed"
            href="/static/images/identity/HTML5_Badge_64.png" />
 
-### <span>How html5rocks uses mobile meta tags</span>
+### How html5rocks uses mobile meta tags
 
 Putting everything together, here is a snippet from the `<head>` section of html5rocks.com:
 
@@ -166,17 +166,17 @@ Putting everything together, here is a snippet from the `<head>` section of html
        ...
      </head>
 
-## <span>Vertical layout</span>
+## Vertical layout
 
 On smaller screens, it is far more convenient to scroll vertically than horizontally. Keeping content in a single-column, vertical layout is preferred for mobile. For html5rocks.com, we used CSS3 media queries to create such a layout. Again, this was done without changing markup.
 
 *Single-column vertical layout throughout the site* ![Single-column vertical layout](/assets/public/2/2b/mob02-scl.png)
 
-## <span>Mobile optimizations</span>
+## Mobile optimizations
 
 Most of the optimizations that we made are things that should have been done in the first place, such as reducing the number of network requests, JS/CSS compression, gzipping (comes free on App Engine), and minimizing DOM manipulations. These techniques are [common best practices](http://code.google.com/speed/page-speed/docs/rules_intro.html) but are occasionally overlooked when rushing a site out the door.
 
-### <span>Auto-hide address bar</span>
+### Auto-hide address bar
 
 Mobile browsers lack the screen real estate of their desktop counterparts. To make things worst, on different platforms, you sometimes end up with a big ol' address bar at the top of the screen... even after the page is done loading.
 
@@ -195,7 +195,7 @@ Here is the code to fix that:
 
 As you can see, we wrapped this listener in our `is_mobile` template variable since it's not needed on the desktop.
 
-### <span>Reduce network requests, save bandwidth</span>
+### Reduce network requests, save bandwidth
 
 It's a known fact that reducing the number of HTTP requests can greatly improve performance. Mobile devices further limit the number of concurrent connections the browser can make, so mobile sites will benefit even more from reducing these extraneous requests. Furthermore, shaving off every byte is critical because bandwidth is often limited on phones. You may be costing users money!
 
@@ -236,7 +236,7 @@ Additional performance tweaks:
        }
      }
 
-### <span>Application Cache</span>
+### Application Cache
 
 The mobile version of html5rocks.com uses [Application Cache](http://www.html5rocks.com/tutorials/appcache/beginner/) to speed up initial load and allows users to read content offline.
 

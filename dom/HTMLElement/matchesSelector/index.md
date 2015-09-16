@@ -10,10 +10,10 @@ tags:
 uri: dom/HTMLElement/matchesSelector
 
 ---
-## <span>Summary</span>
+## Summary
 
 Non standard. Use HTMLElement.matches instead. An old, non standard version of HTMLElement.matches.
 
-## <span>Usage</span>
+## Usage
 
      Refer to matches instead. This article is outdated.

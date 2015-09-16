@@ -8,11 +8,11 @@ tags:
 uri: 'tutorials/absolute and fixed positioning'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article covers absolute and fixed positioning.
 
-## <span>Introduction</span>
+## Introduction
 
 Now it’s time to turn your attention to the second pair of `position` property values—`absolute` and `fixed`. The first pair of values—`static` and `relative`—is closely related, and we looked into those in great detail in [the previous article](/tutorials/static_and_relative_positioning).
 
@@ -24,7 +24,7 @@ In this article we’ll see some practical examples of using both `absolute` and
 
 Before all that, though, let's cover an essential prerequisite concept—containing blocks.
 
-## <span>Containing blocks</span>
+## Containing blocks
 
 An essential concept when it comes to absolute positioning is the containing block: the block box that the position and dimensions of the absolutely positioned box are relative to. For static boxes and relatively positioned boxes the containing block is the nearest block-level ancestor—the parent element in other words. For absolutely positioned elements however it’s a little more complicated. In this case the containing block is the nearest *positioned* ancestor. By “positioned” we mean an element whose `position` property is set to `relative`, `absolute` or `fixed`—in other words, anything except normal static elements.
 
@@ -41,11 +41,11 @@ So, let’s summarize this in a set of easy steps—to find the containing block
 3.  If not, move to the parent’s parent element and repeat from step 1 until you find the containing block or run out of ancestors.
 4.  If you’ve reached the `html` element without finding a positioned ancestor, then the containing block is the `html` element.
 
-## <span>Absolute positioning</span>
+## Absolute positioning
 
 Fixed positioning is a special form of absolute positioning, so we’ll study that later, and concentrate on the more generalized case here. Unless otherwise stated, when I use the term “absolutely positioned” from now until the end of the article, I’ll be referring both to elements with `position:fixed` *and* elements with `position:absolute` .
 
-### <span>Specifying the position</span>
+### Specifying the position
 
 With relative positioning, you learned that the `top`, `right`, `bottom` and `left` properties could be used to specify the position of the box. You use the same properties to specify the position of an absolutely positioned box, but the way you use them is quite different.
 
@@ -154,7 +154,7 @@ The second interesting thing is that the absolutely positioned box didn’t move
 
 3.  4.  Save and reload—lo and behold! The gray rectangle is now 1em from the left border of the parent element. Setting `position:relative` on the `#outer` rule has made it positioned and set it as the containing block for any absolutely positioned descendants it might have. The `left:1em` you set for `#inner` now counts from the left edge of `#outer`, not the left edge of the browser window.
 
-### <span>Specifying dimensions</span>
+### Specifying dimensions
 
 Absolutely positioned elements will shrink-wrap to fit their contents unless you specify their dimensions. You can specify the width by setting the `left` and `right` properties, or by setting the `width` property. You can specify the height by setting the `top` and `bottom` properties, or by setting the `height` property.
 
@@ -186,7 +186,7 @@ Internet Explorer 6 and older, and also Opera 8 and older, got this entirely wro
 
 4.  Save and reload—quite a difference, eh? The gray box is now half as wide and half as tall as the browser window. As you can see, knowing your containing blocks is absolutely essential!
 
-### <span>The third dimension—z-index</span>
+### The third dimension—z-index
 
 It’s natural to regard a web page as two-dimensional. Technology hasn’t evolved far enough that 3D displays are commonplace, so we have to be content with width and height and fake 3D effects. But CSS rendering actually happens in three dimensions! That doesn’t mean you can make an element hover in front of the monitor—yet—but you can do some other useful things with positioned elements.
 
@@ -264,7 +264,7 @@ This whole thing can be rather difficult to imagine, so let’s do some practica
 
 5.  Save and reload, and you will now see the gray box appear in front of the blue box.
 
-#### <span>Local stacking contexts</span>
+#### Local stacking contexts
 
 The rest of this section discusses local stacking contexts. This probably isn’t something you will encounter in your normal design work unless you attempt to do some really advanced things with absolute positioning, but I thought I’d include it for completeness. You can elect to skip this if you wish.
 
@@ -283,10 +283,10 @@ Let’s look at how those local stacking contexts work. It may look confusing, b
 1.  Begin by adding some content to your two inner elements—add the highlighted lines to your HTML document:
 
         <div id="inner">
-           <span></span>
+           
          </div>
          <div id="second">
-           <span></span>
+           
          </div>
 
 2.  Add a CSS rule that will apply to both those `span` elements:
@@ -368,7 +368,7 @@ This part was probably quite confusing, especially if you’re new to CSS. The p
 
 The good news is that you’ll most likely never encounter these problems. Changes in `z-index` are not very common in good layouts, and if they occur at all it is usually within one stacking context.
 
-## <span>Fixed positioning</span>
+## Fixed positioning
 
 An element with `position:fixed` is fixed with respect to the viewport. It stays where it is, even if the document is scrolled. For `media="print"` a fixed element will be repeated on each printed page.
 
@@ -397,7 +397,7 @@ Whereas the position and dimensions of an element with `position:absolute` are r
 
 2.  Save and reload. If you don’t get a vertical scrollbar, increase the `height` value for `#second`. (What kind of giant monitor do you have, anyway?) The tall blue element extends beyond the bottom of the window. Scroll the page downward, and keep an eye on the gray square in the top left-hand corner. `#inner` is now fixed in position 1em from the top of the window and 1em from the left side; therefore as you scroll, the gray box stays in the same place on the screen.
 
-## <span>Conclusion</span>
+## Conclusion
 
 Absolutely positioned elements are removed entirely from the document flow. They will overlap other content unless you make room for them. If all child elements of a container are absolutely positioned, the parent’s height will collapse to zero. Absolutely positioned elements are positioned with respect to a containing block, which is the nearest positioned ancestor. If there is no positioned ancestor, the viewport will be the containing block.
 
@@ -405,9 +405,9 @@ Elements with fixed positioning are fixed with respect to the viewport—the vie
 
 All positioned elements are rendered at a certain stack level within a stacking context. You can change the stack level of a positioned element using the `z-index` property. When `z-index` is specified as an integer value, the element establishes a local stacking context for its descendants.
 
-## <span>See also</span>
+## See also
 
-### <span>Exercise questions</span>
+### Exercise questions
 
 -   Undo the changes from the fixed positioning example and then change the stacking order between the four absolutely positioned squares so that the gray square is at the back, followed by the blue, yellow and cyan squares in that order. (Tip: remove all `z-index` declarations and start over.)
 -   Move the yellow square up and to the right by setting `top:-1em` and `left:8em`. Then make it appear *behind* the `#outer` element, so that the red border appears across the yellow square.

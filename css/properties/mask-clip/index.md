@@ -20,11 +20,11 @@ tags:
 uri: css/properties/mask-clip
 
 ---
-## <span>Summary</span>
+## Summary
 
 Determines the mask painting area, which defines the area that is affected by the mask. The painted content of an element may be restricted to this area.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `border-box`
@@ -50,14 +50,14 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `mask-clip: border-box`
 -   `mask-clip: content-box`
 -   `mask-clip: no-clip`
 -   `mask-clip: padding-box`
 
-## <span>Values</span>
+## Values
 
 no-clip
 :   The painted content is not restricted (not clipped). The mask painting area is set to the bounding client rect.
@@ -71,7 +71,7 @@ padding-box
 content-box
 :   The painted content is restricted (clipped) to the content box (object bounding box for objects without associated layout box).
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* border-box */
@@ -84,7 +84,7 @@ body {
     }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Masking Level 1](http://www.w3.org/TR/css-masking/)
 :   W3C Working Draft

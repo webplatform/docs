@@ -25,21 +25,21 @@ tags:
 uri: 'apis/media capture and streams/MediaStreamTrack/capabilities'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a dictionary with all of the capabilities for the track type.
 
 Method of [apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)[apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = track.capabilities();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 If the track type is VideoStreamTrack, the AllVideoCapabilities dictionary is returned. If the track type is AudioStreamTrack, the AllAudioCapabilities dictionary is returned.
 

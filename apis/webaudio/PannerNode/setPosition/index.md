@@ -20,40 +20,40 @@ tags:
 uri: apis/webaudio/PannerNode/setPosition
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the position of the audio source relative to the listener attribute. A 3D cartesian coordinate system is used. The x, y, and z parameters represent the coordinates in 3D space. The default value is (0,0,0).
 
 Method of [apis/webaudio/PannerNode](/apis/webaudio/PannerNode)[apis/webaudio/PannerNode](/apis/webaudio/PannerNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = PannerNode.setPosition(x, y, z);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
-
- Data-type
-:   Number
-
-### <span>y</span>
+### x
 
  Data-type
 :   Number
 
-### <span>z</span>
+### y
 
  Data-type
 :   Number
 
-## <span>Return Value</span>
+### z
+
+ Data-type
+:   Number
+
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -61,7 +61,7 @@ var panner = audioCtx.createPanner();
 panner.setPosition(0,0,0);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

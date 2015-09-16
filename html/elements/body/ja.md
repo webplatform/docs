@@ -17,11 +17,11 @@ tags:
 uri: html/elements/body/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 body要素はドキュメントの主要コンテンツを表します。
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLBodyElement](/dom/HTMLBodyElement)
@@ -30,7 +30,7 @@ body要素はドキュメントの主要コンテンツを表します。
 
 \<body\>要素を持つウィンドウオブジェクトは`onblur`、`onfocus`、`onload`、`onunload`イベントをハンドリングすることができます。
 
-### <span>HTMLイベントハンドラコンテンツ属性</span>
+### HTMLイベントハンドラコンテンツ属性
 
 |Event|Description|
 |:----|:----------|
@@ -56,7 +56,7 @@ body要素はドキュメントの主要コンテンツを表します。
 
 `alink`, `bgcolor`, `link`, `marginbottom`, `marginheight`, `marginleft`, `marginright`, `margintop`, `marginwidth`, `text`, `vlink`.
 
-## <span>Examples</span>
+## Examples
 
 `<body>`要素が`<head>`に続き、全体が`<html>`要素に含まれています。
 
@@ -88,7 +88,7 @@ var oBody = document.body;
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-body-element)
 :   W3C Working Draft

@@ -7,7 +7,7 @@ tags:
 uri: 'tutorials/3d graphics and effects'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Between SVG, Canvas, WebGL, and CSS3 3D features, you're sure to amaze your users with stunning visuals natively rendered in the browser. This page lists tutorial articles for various visual features.
 

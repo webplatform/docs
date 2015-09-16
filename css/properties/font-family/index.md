@@ -21,11 +21,11 @@ tags:
 uri: css/properties/font-family
 
 ---
-## <span>Summary</span>
+## Summary
 
 The font-family property allows one or more font family names and/or generic family names to be specified for usage on the selected element(s)' text. The browser then goes through the list; for each character in the selection it applies the first font family that has an available glyph for that character.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `depends on user agent`
@@ -48,13 +48,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `fontFamily`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `font-family: family-name`
 -   `font-family: family-name, family-name, generic-family`
 -   `font-family: generic-family`
 
-## <span>Values</span>
+## Values
 
 family-name
 :   The name of a font family, such as `courier` or `arial`. You can reference fonts available on the user's system, or external fonts imported using [@font-face](/css/atrules/@font-face). When the family name contains more than one word, it should be enclosed in quotes, for example `'Comic Sans'`.
@@ -65,7 +65,7 @@ generic-family
 family-name, family-name, generic-family
 :   You can specify a comma-separated list of multiple font family names and/or generic family names, although it rarely makes sense to specify more than one generic family. This list is called a **font-stack**. The browser goes down the list and uses the first available font that it can find available on the system. Generic font families are used as a fallback when none of the fonts specified in the stack are available. It is always the last alternative in the list of font family names.
 
-## <span>Examples</span>
+## Examples
 
 It is simple to define built-in fonts to use in your CSS content.
 
@@ -104,13 +104,13 @@ h1 {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      * If a font family name contains whitespace, digits or punctuation characters (other than hyphens), you should place quotes around the font family name to avoid mistakes in escaping those characters
 
 -   Generic font family names are values (keywords) and cannot appear in quotation marks
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1, section 15.3](http://www.w3.org/TR/CSS21/fonts.html#font-family-prop)
 :   W3C Recommendation 07 June 2011
@@ -121,11 +121,11 @@ h1 {
 [CSS3 module: Web Fonts](http://www.w3.org/TR/2002/WD-css3-webfonts-20020802/)
 :   W3C Working Draft 2 August 2002
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Font</span>
+#### CSS Font
 
 -   **font-family**
 
@@ -147,7 +147,7 @@ h1 {
 
 -   [user-modify](/css/properties/user-modify)
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -181,7 +181,7 @@ h1 {
 
 -   [font](/html/elements/font)
 
-### <span>External resources</span>
+### External resources
 
 -   [Unquoted font family names in CSS](http://mathiasbynens.be/notes/unquoted-font-family)
 -   [Basic Font Properties](http://dev.w3.org/csswg/css3-fonts/#font-family-prop)

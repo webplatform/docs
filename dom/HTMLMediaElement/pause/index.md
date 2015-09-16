@@ -28,13 +28,13 @@ uri: dom/HTMLMediaElement/pause
 
 Method of [dom/HTMLMediaElement](/dom/HTMLMediaElement)[dom/HTMLMediaElement](/dom/HTMLMediaElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.pause();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -44,15 +44,15 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.8.9.8
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `media`
 -   `audio`

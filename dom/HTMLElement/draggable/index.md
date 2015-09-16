@@ -21,20 +21,20 @@ tags:
 uri: dom/HTMLElement/draggable
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets whether an element can be dragged and dropped.
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var draggable = element.draggable;
 element.draggable = draggable;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -42,15 +42,15 @@ Whether the element is draggable.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Use this property to allow or disallow an element to be dragged and dropped.
 
-## <span>Notes</span>
+## Notes
 
 The default value for most elements is **false**. [a](/html/elements/a) and [img](/html/elements/img) elements are draggable by default.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard

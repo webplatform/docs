@@ -25,13 +25,13 @@ tags:
 uri: apis/websocket/WebSocket/protocol
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates the name of the sub-protocol the server selected.
 
 Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket/WebSocket](/apis/websocket/WebSocket)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket
 var result = element.protocol;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -47,11 +47,11 @@ This will be one of the strings specified in the *protocol* parameter when creat
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Protocol negotiation is part of the **WebSocket** connection handshake. The protocol value is not set until the connection is established. If the client specifies one or more protocols, the server returns one or none of the protocols during the protocol negotiation in the handshake. After the connection is established, then the protocol value is either empty or set to the protocol that was accepted.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation

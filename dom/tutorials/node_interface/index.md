@@ -3,7 +3,7 @@ title: node interface
 uri: 'dom/tutorials/node interface'
 
 ---
-## <span>Node Interface</span>
+## Node Interface
 
 |Node Property|Description|
 |:------------|:----------|

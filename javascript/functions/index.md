@@ -10,13 +10,13 @@ tags:
 uri: javascript/functions
 
 ---
-## <span>Summary</span>
+## Summary
 
 The following table lists JavaScript functions.
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Functions</span>
+## Functions
 
 |Function|Description|JavaScript object|
 |:-------|:----------|:----------------|
@@ -70,9 +70,9 @@ The following table lists JavaScript functions.
 |[unescape Function](/javascript/unescape)|Decodes String objects encoded with the **escape** method.|**Global**|
 |[UTC Function](/javascript/Date/UTC)|Returns the number of milliseconds between midnight, January 1, 1970 Universal Coordinated Time (UTC) (or GMT) and the supplied date.|**Date**|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [JavaScript Objects](/javascript/objects)
 -   [JavaScript Methods](/javascript/methods)

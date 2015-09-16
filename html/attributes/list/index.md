@@ -15,7 +15,7 @@ tags:
 uri: html/attributes/list
 
 ---
-## <span>Summary</span>
+## Summary
 
 The list attribute refers to a &lt;datalist&gt; element specifying possible values to suggest for an input element.
 
@@ -37,11 +37,11 @@ This can allow for things such as autocompletion, or faster site search. It woul
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -181,6 +181,6 @@ This can allow for things such as autocompletion, or faster site search. It woul
 
 -   [time](/html/elements/time)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLInputElement`

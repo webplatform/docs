@@ -15,13 +15,13 @@ todo_broken_links:
 uri: 'css/selectors/pseudo-classes/:active'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The :active pseudo-class applies while an element is being activated by the user.
 
  The :active pseudo-class applies while an element is being activated by the user. For example, between the times the user presses the mouse button and releases it. On systems with more than one mouse button, :active applies only to the primary or primary activation button (typically the "left" mouse button), and any aliases thereof.
 
-## <span>Examples</span>
+## Examples
 
 The following style rule uses the **:active** pseudo-class to set the [**font-weight**](/css/properties/font-weight) and [**color**](/css/properties/color) attributes of an active link in a document.
 
@@ -29,13 +29,13 @@ The following style rule uses the **:active** pseudo-class to set the [**font-we
 a:active { font-weight:bold; color:purple }
 ```
 
-## <span>Usage</span>
+## Usage
 
      The :active pseudo-class is most often used with the a element.
 
 The **:active** pseudo-class is often used with [**:hover**](/css/selectors/pseudo-classes/:hover), [**:link**](/css/selectors/pseudo-classes/:link), and [**:visited**](/css/selectors/pseudo-classes/:visited), the pseudo-classes that affect the other states of a link.
 
-## <span>Notes</span>
+## Notes
 
 It is undefined if the parent of an element that is ‘:active’ or ‘:hover’ is also in that state.
 
@@ -43,7 +43,7 @@ The default value of the **:active** pseudo-class is browser-specific.
 
 By default, Safari Mobile does not use the **:active** state unless there is a [`touchstart`](/w/index.php?title=dom/TouchEvent/touchstart&action=edit&redlink=1) event handler on the relevant element or on the [`body`](/html/elements/body).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1](http://www.w3.org/TR/CSS2/selector.html#dynamic-pseudo-classes)
 :   W3C Recommendation

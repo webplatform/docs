@@ -22,7 +22,7 @@ uri: css/cssom/properties/imports
 
 Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.imports;
@@ -31,19 +31,19 @@ element.imports = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 An imported style sheet is one that is brought into the document using the cascading style sheets (CSS) [**@import**](/css/atrules/@import) rule.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -189,6 +189,6 @@ An imported style sheet is one that is brought into the document using the casca
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `styleSheet`

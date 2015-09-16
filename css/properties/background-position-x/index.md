@@ -25,11 +25,11 @@ todo_broken_links:
 uri: css/properties/background-position-x
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the horizontal position of a background image.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0%`
@@ -52,13 +52,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `background-position-x: hAlignment`
 -   `background-position-x: length`
 -   `background-position-x: percentage`
 
-## <span>Values</span>
+## Values
 
 length
 :   Floating-point number, followed by an absolute units designator (`cm`, `mm`, `in`, `pt`, or `pc`) or a relative units designator (`em`, `ex`, or `px`). For more information about the supported length units, see CSS Values and Units Reference.
@@ -69,7 +69,7 @@ percentage
 hAlignment
 :   Horizontal alignment value (e.g. "left", "right", or "center").
 
-## <span>Examples</span>
+## Examples
 
 Moving the background image to the right by 50px.
 
@@ -101,39 +101,39 @@ Centering a background image inside its element.
 background-position-x: center;
 ```
 
-## <span>Usage</span>
+## Usage
 
      ===Usage===
 
 -   Often used to manipulate sprites (i.e. a technique of using CSS to expose small portions of a single background image, which is composed of multiple smaller images, such that HTTP requests are reduced).
 -   If browser support is of utmost importance, use [background-position](http://docs.webplatform.org/wiki/css/properties/background-position) instead.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 -   Windows Internet Explorer 8. The **-ms-background-position-x** attribute is an extension to CSS, and can be used as a synonym for **background-position-x** in IE8 Standards mode.
 
 -   Although background-position-x is currently non-standard, Jonathan Snook provides a case for its inclusion regarding right-to-left languages, such as Arabic or Hebrew. When using sprites, developers would be able to accomodate LTR and RTL environments with a single line of code by including the background-position-x property, rather than redeclaring every single sprite's position in their stylesheet. [Read his blog entry on this and the background-position-y property.](http://snook.ca/archives/html_and_css/background-position-x-y)
 
-### <span>Syntax</span>
+### Syntax
 
 `background-position-x: length | percentage | hAlignment`
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [ ]
 :
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Background</span>
+#### Background
 
 -   [background](/css/cssom/properties/background)
 
@@ -163,7 +163,7 @@ There are no standards that apply here.
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages</span>
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

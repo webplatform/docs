@@ -19,13 +19,13 @@ tags:
 uri: css/cssom/properties/pixelRight
 
 ---
-## <span>Summary</span>
+## Summary
 
 Reflects the value of the Cascading Style Sheets (CSS) right attribute.
 
 Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.pixelRight;
@@ -34,15 +34,15 @@ element.pixelRight = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **pixelRight** property reflects the value of the Cascading Style Sheets (CSS) [**right**](/css/properties/right) attribute. Unlike the [**right**](/css/properties/right) property, the **pixelRight** value is an integer, not a string, and is always interpreted in pixels.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `runtimeStyle`
 -   `style`

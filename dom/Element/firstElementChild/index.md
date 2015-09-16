@@ -19,13 +19,13 @@ tags:
 uri: dom/Element/firstElementChild
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the first child of this node that is an element, if there is one, or null otherwise. Read-only.
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -33,7 +33,7 @@ Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 var result = element.firstElementChild;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to get the content of a list using firstElementChild, nextElementSibling, previousElementSibling, and lastElementChild to traverse the document tree.
 
@@ -87,8 +87,8 @@ This example shows how to get the content of a list using firstElementChild, nex
 </html>
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Element Traversal Specification](http://go.microsoft.com/fwlink/p/?linkid=182722), Section 2.1

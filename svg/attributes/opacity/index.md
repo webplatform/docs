@@ -12,7 +12,7 @@ tags:
 uri: svg/attributes/opacity
 
 ---
-## <span>Summary</span>
+## Summary
 
 The opacity attribute specifies the transparency of an object or of a group of objects.
 
@@ -28,13 +28,13 @@ Applies to
 </td>
 </tr>
 </table>
-### <span>Syntax</span>
+### Syntax
 
     opacity: opacity-value | inherit
 
 **opacity-value** is a number between 0.0 (fully transparent) and 1.0 (fully opaque).
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to draw a circle with 50% opacity.
 
@@ -48,7 +48,7 @@ This example shows how to draw a circle with 50% opacity.
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [SVG 1.1](http://www.w3.org/TR/SVG11/masking.html#OpacityProperty)
 :   W3C Recommendation

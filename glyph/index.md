@@ -9,7 +9,7 @@ tags:
 uri: glyph
 
 ---
-## <span>glyph</span>
+## glyph
 
 A single letter, number, symbol, or ligature within a given font. Usually, but not always, a synonym for character.
 

@@ -18,17 +18,17 @@ todo_broken_links:
 uri: 'tutorials/position and transformation'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article is an overview of the coordinate system, positioning and performing translations, transforms, rotation, skewing, scaling on SVG elements.
 
-## <span>The grid</span>
+## The grid
 
 ![Canvas default grid.png](/assets/public/5/50/Canvas_default_grid.png)
 
 For all elements, SVG uses a coordinate system or grid system similar to the one used by [canvas](/canvas) (and by a whole lot of other computer drawing routines). That is, the top left corner of the document is considered to be the point (0,0). Positions are then measured in pixels from the top left corner, with the positive x direction being to the right, and the positive y direction being to the bottom. Note, that this is the opposite of the way you're taught to graph as a kid. However, this is the same way elements in HTML are positioned.
 
-#### <span>Example:</span>
+#### Example:
 
 The element
 
@@ -36,7 +36,7 @@ The element
 
 defines a rectangular from the upper left corner, that spans from there 100px to the right and to the bottom.
 
-### <span>What are "pixels"?</span>
+### What are "pixels"?
 
 In the most basic case one pixel in an SVG document maps to one pixel on the output device (a.k.a. the screen). But SVG wouldn't have the "Scalable" in its name, if there weren't several possibilities to change this behaviour. Much like absolute and relative font sizes in CSS SVG defines absolute units (ones with a dimensional identifier like "pt" or "cm") and so-called user units, that lack that identifier and are plain numbers.
 
@@ -56,7 +56,7 @@ A quote from the SVG 1.1 specification illustrates this:
 
 > [...] suppose that the user agent can determine from its environment that "1px" corresponds to "0.2822222mm" (i.e., 90dpi). Then, for all processing of SVG content: [...] "1cm" equals "35.43307px" (and therefore 35.43307 user units)
 
-## <span>Transformations</span>
+## Transformations
 
 Now we're ready to start distorting our beautiful images. But first, let's formally introduce the [Template:SVGElement("g")](/w/index.php?title=Template:SVGElement(%22g%22)&action=edit&redlink=1) element. With this helper, you can assign properties to a complete set of elements. Actually, that's its only purpose. An example:
 
@@ -69,7 +69,7 @@ This results in two red rectangles.
 
 All following transformations are summed up in an element's `transform` attribute. Transformations can be chained simply by concatenating them, separated by whitespace.
 
-## <span>Translation</span>
+## Translation
 
 It may be necessary to move an element around, even though you can position it with the according attributes. For this purpose, the `translate()` transformation stands ready.
 
@@ -79,7 +79,7 @@ The example will render a rectangle, translated to the point (30,40) instead of 
 
 If the second value is not given, it is assumed to be 0.
 
-## <span>Rotation</span>
+## Rotation
 
 Rotating an element is quite a common task. Use the `rotate()` transformation for this:
 
@@ -87,19 +87,19 @@ Rotating an element is quite a common task. Use the `rotate()` transformation fo
 
 This example shows a square that is rotated by 45 degrees. The value for `rotate()` is given in degrees.
 
-## <span>Skewing</span>
+## Skewing
 
 To make a rhombus out of our rectangle, the `skewX()` and `skewY()` transformations are available. Each one takes an angle that determines how far the element will be skewed.
 
-## <span>Scaling</span>
+## Scaling
 
 `scale()` changes the size of an element. It takes two numbers, evaluated as ratio by which to scale. 0.5 shrinks by 50%. If the second number is omitted, it is assumed to be equal to the first.
 
-## <span>Complex transformations with matrix()</span>
+## Complex transformations with matrix()
 
 All the above transformations can be expressed by a 3x3 transformation matrix. To combine several transformations, one can set the resulting matrix directly with the `matrix(A1, A2, B1, B2, C1, C2)` transformation. Detailed information about this property can be found in the [SVG Recomendation](/w/index.php?title=SVG_Recomendation&action=edit&redlink=1).
 
-## <span>Effects on Coordinate Systems</span>
+## Effects on Coordinate Systems
 
 When using transformations you establish a new coordinate system inside the element the transformations apply to. That means, the units you specify for the element and its children might not follow the 1:1 pixel mapping, but are also distorted, skewed, translated and scaled according to the transformation.
 
@@ -109,7 +109,7 @@ When using transformations you establish a new coordinate system inside the elem
 
 The resulting rectangular in the above example will be 100x100px. The more intriguing effects arise, when you rely on attributes like `userSpaceOnUse` and the such.
 
-## <span>Embedding SVG in SVG</span>
+## Embedding SVG in SVG
 
 In contrast to HTML SVG allows you to embed other `svg` elements seamlessly. This way you can also simply create new coordinate systems by utilizing the `viewBox`, `width` and `height` of the inner `svg` element.
 

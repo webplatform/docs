@@ -26,13 +26,13 @@ uri: 'tutorials/using web audio'
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-# <span>Implementing the HTML5 Audio Tag</span>
+# Implementing the HTML5 Audio Tag
 
-## <span>By Ernest Delgado</span>
+## By Ernest Delgado
 
       Published Feb. 5, 2010    [[]]
 
-### <span>Table of Contents</span>
+### Table of Contents
 
 -   [Step 1: Wrap your Flash object with the audio tag](/w/index.php?title=Step_1:_Wrap_your_Flash_object_with_the_audio_tag&action=edit&redlink=1)
 -   [Step 2: Add the source reference](/w/index.php?title=Step_2:_Add_the_source_reference&action=edit&redlink=1)
@@ -40,7 +40,7 @@ uri: 'tutorials/using web audio'
 -   [Step 4: Add the default controls to show the player](/w/index.php?title=Step_4:_Add_the_default_controls_to_show_the_player&action=edit&redlink=1)
 -   [Examples](/w/index.php?title=Examples&action=edit&redlink=1)
 
-## <span>Step 1: Wrap your Flash object with the audio tag</span>
+## Step 1: Wrap your Flash object with the audio tag
 
 Those browsers that don't recognize the audio tag will load the Flash content instead.
 
@@ -59,7 +59,7 @@ Those browsers that don't recognize the audio tag will load the Flash content in
 
     </audio>
 
-## <span>Step 2: Add the source reference</span>
+## Step 2: Add the source reference
 
 We can add as many "source" lines and formats as we want. If the browser doesn't support one specific format it will fallback to the next one and so forth.
 
@@ -79,7 +79,7 @@ We can add as many "source" lines and formats as we want. If the browser doesn't
 
     </audio>
 
-## <span>Step 3: Add fallback to Flash</span>
+## Step 3: Add fallback to Flash
 
 To be safe, we need to add the fallback to a Flash audio player, in case the browser doesn't support any of the formats we specified. For instance, Firefox 3.5 only supports the audio tag with *Ogg* format, but we might only have the *mp3* file available.
 
@@ -122,7 +122,7 @@ To make it easier, we are using the [SWFObject](/w/index.php?title=SWFObject&act
     <script src="http://www.google.com/jsapi"></script>
     <script>google.load("swfobject", "2.2");</script>
 
-## <span>Step 4: Add the default controls to show the player</span>
+## Step 4: Add the default controls to show the player
 
 These controls are not customizable (see examples at the end). Since these default controls will show up regardless of the supported format we will need to handle its visibility with the conditional we previously created.
 
@@ -184,7 +184,7 @@ Alternatively, you can create your own player using JavaScript and CSS.
       }
     </script>
 
-## <span>Examples</span>
+## Examples
 
 The following two examples will fallback to the Flash player in those browsers that don't support the audio tag nor can play mp3 in it.
 

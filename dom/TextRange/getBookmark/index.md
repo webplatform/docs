@@ -24,19 +24,19 @@ tags:
 uri: dom/TextRange/getBookmark
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves a bookmark (opaque string) that can be used with moveToBookmark to return to the same range.
 
 Method of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var bookmark = textRange.getBookmark();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -44,14 +44,14 @@ Returns the bookmark if successfully retrieved, or null otherwise.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 .
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

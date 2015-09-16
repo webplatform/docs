@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/concat
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a string that contains the concatenation of two or more strings.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Returns a string that contains the concatenation of two or more strings.
 **string2,. . ., stringN**
 :   Optional. The strings to append to the end of string1.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **concat** method when used with a string:
 
@@ -40,13 +40,13 @@ var str1 = "ABCD"
  // Output: "ABCDEFGH12345678"
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The result of the **concat** method is equivalent to: result = string1 + string2 + string3 + stringN. A change of value in either a source or result string does not affect the value in the other string. If any of the arguments are not strings, they are first converted to strings before being concatenated to string1.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Addition Operator (+)](/javascript/operators/addition)
 

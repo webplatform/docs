@@ -22,11 +22,11 @@ tags:
 uri: css/properties/white-space
 
 ---
-## <span>Summary</span>
+## Summary
 
 The white-space property controls whether and how white space inside the element is collapsed, and whether lines may wrap at unforced &quot;soft wrap&quot; opportunities.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -49,7 +49,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `whiteSpace`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `white-space: normal`
 -   `white-space: nowrap`
@@ -57,7 +57,7 @@ Animatable
 -   `white-space: pre-line`
 -   `white-space: pre-wrap`
 
-## <span>Values</span>
+## Values
 
 normal
 :   This value prevents user agents from collapsing sequences of white space. Segment breaks such as line feeds and carriage returns are preserved as forced line breaks. Lines only break at forced line breaks; content that does not fit within the block container overflows it.
@@ -74,7 +74,7 @@ pre-line
 pre-wrap
 :   Like `pre`, but allows wrapping (like `normal`'s wrapping).
 
-## <span>Examples</span>
+## Examples
 
 See the live example that has all the properties implemented side by side for comparison.
 
@@ -117,18 +117,18 @@ p {
 
 [View live example](http://code.webplatform.org/gist/7284477)
 
-## <span>Notes</span>
+## Notes
 
 Whitespace, such as line breaks, spaces, and tabs, is collapsed by default in HTML documents. You can use the nonbreaking space entity `(&nbsp;)` to add extra spaces to an object when the **white-space** property is set to **normal** or **nowrap**. You can add extra line breaks using the **br** element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/#white-space-property)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

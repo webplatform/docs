@@ -23,26 +23,26 @@ tags:
 uri: dom/Location/port
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the port number associated with a URL.
 
 Property of [dom/Location](/dom/Location)[dom/Location](/dom/Location)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var port = location.port;
 location.port = port;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The port of the URL.
 
-## <span>Examples</span>
+## Examples
 
 This example function returns the **port** property of two [**a**](/html/elements/a) elements.
 
@@ -58,6 +58,6 @@ function getPort()
 <a href="http://www.microsoft.com" onclick="getPort();" id="http">http</a>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The port will resolve based on the default port for the protocol set in the HREF attribute: `21` for FTP, `80` for HTTP, and so forth. Proprietary protocols that do not require a port return `0` or an empty string. [**location**](/dom/Location).**port** returns an empty string when read in a page reached by the http protocol.

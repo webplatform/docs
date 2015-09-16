@@ -9,7 +9,7 @@ tags:
 uri: 'relative unit'
 
 ---
-## <span>relative unit</span>
+## relative unit
 
 In CSS, length units that are relative to another element's length. Relative units include em (ems, the height of the element's font), ex (x-height, the height of the letter "x"), and px (pixels, relative to the canvas resolution). Contrast with [absolute unit](/absolute_unit).
 

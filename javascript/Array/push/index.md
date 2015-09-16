@@ -11,11 +11,11 @@ tags:
 uri: javascript/Array/push
 
 ---
-## <span>Summary</span>
+## Summary
 
 Appends new elements to an array, and returns the new length of the array.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -24,7 +24,7 @@ Appends new elements to an array, and returns the new length of the array.
 **item, item2,. . ., itemN**
 :   Optional. New elements of the **Array**.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **push** method.
 
@@ -46,15 +46,15 @@ var number;
  // 9 8 7 6 5
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **push** and **pop** methods allow you to simulate a last in, first out stack.
 
 The **push** method appends elements in the order in which they appear. If one of the arguments is an array, it is added as a single element. Use the **concat** method to join the elements from two or more arrays.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.7 Array.prototype.push ( [ item1 [ , item2 [ , …](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.7) ] ] )] ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

@@ -26,9 +26,9 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 <table class="wikitable">
 <tr>
@@ -49,15 +49,15 @@ No role required.
 </table>
   The **ariaRelevant** setting gives a hint about what types of changes are relevant and should be announced by assistive technology. Any change that is not relevant should be treated as if the region had [**ariaLive**](/aria/attributes/aria-live)="off" and should not be announced. The default behavior is equivalent to `additions text`. Updates are announced only as nodes are added, or as text is added or removed. **Note**  For cross-browser compatibility, always use the WAI-ARIA attribute syntax to access and modify ARIA properties, for example `object.setAttribute("aria-valuenow", newValue)`.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Accessible Rich Internet Applications (WAI-ARIA) 1.0](http://go.microsoft.com/fwlink/p/?linkid=203793), Section 6.6
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Accessible Rich Internet Applications (ARIA)`
 -   `ariaLive`

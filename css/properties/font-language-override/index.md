@@ -20,11 +20,11 @@ tags:
 uri: css/properties/font-language-override
 
 ---
-## <span>Summary</span>
+## Summary
 
 The ‘font-language-override’ property allows authors to explicitly specify the language system of the font, overriding the language system implied by the content language.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -50,12 +50,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `font-language-override: <string>`
 -   `font-language-override: normal`
 
-## <span>Values</span>
+## Values
 
 normal
 :   specifies that when rendering with OpenType fonts, the content language of the element is used to infer the OpenType language system
@@ -65,21 +65,21 @@ normal
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      OpenType supports language-specific glyph selection and positioning, so that text can be displayed correctly in cases where the language dictates a specific display behavior. Authors can control the use of language-specific glyph substitutions and positioning by setting the content language of an element.
 
 `<!-- Display text using S'gaw Karen specific features --> <p lang="ksw">...</p>`
 
-## <span>Notes</span>
+## Notes
 
 Use of invalid OpenType language system tags must not generate a parse error but must be ignored when doing glyph selection and placement.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Font</span>
+#### CSS Font
 
 -   [font-family](/css/properties/font-family)
 
@@ -101,7 +101,7 @@ Use of invalid OpenType language system tags must not generate a parse error but
 
 -   [user-modify](/css/properties/user-modify)
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -135,7 +135,7 @@ Use of invalid OpenType language system tags must not generate a parse error but
 
 -   [font](/html/elements/font)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -215,6 +215,6 @@ Use of invalid OpenType language system tags must not generate a parse error but
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>External resources</span>
+### External resources
 
 [Microsoft OpenType Layout Tag Registry](http://www.microsoft.com/typography/otspec/languagetags.htm)

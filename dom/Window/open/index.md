@@ -22,49 +22,49 @@ tags:
 uri: dom/Window/open
 
 ---
-## <span>Summary</span>
+## Summary
 
 Opens a new window and loads the document specified by a given URL.
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var newwindow = window.open(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>url</span>
+### url
 
  Data-type
 :   BSTR
 
 **String** that specifies the URL of the document to display. If no URL is specified, a new window with **about:blank** is displayed.
 
-### <span>name</span>
+### name
 
  Data-type
 :   BSTR
 
 **String** that specifies the name of the window. This name is used as the value for the [**TARGET**](/html/attributes/target) attribute on a **form** or an [**anchor**](/html/elements/a) element.
 
-### <span>features</span>
+### features
 
  Data-type
 :   BSTR
 
 **String** that contains a list of items separated by commas. Each item consists of an option and a value, separated by an equals sign (for example, "fullscreen=yes, toolbar=yes"). The following values are supported.
 
-### <span>replace</span>
+### replace
 
  Data-type
 :   any
 
 **Boolean** that specifies whether the *url* creates a new entry or replaces the current entry in the window's history list. This parameter only takes effect if the *url* is loaded into the same window.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -74,7 +74,7 @@ Returns a reference to the new **window** object. Use this reference to acces
 
 **Internet Explorer 7 on Windows Vista:** Opening a new window from an application (other than the Internet Explorer process) may result in a null return value. This restriction occurs because Internet Explorer runs in protected mode, by default. One facet of protected mode prevents applications from having privileged access to Internet Explorer when that access spans process boundaries. Opening a new window by using this method generates a new process. For more information about protected mode, see Understanding and Working in Protected Mode Internet Explorer. This commonly occurs for applications that host the WebBrowser control.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **open** method to create a new window that contains Sample.htm. The new window is 200 pixels by 400 pixels and has a status bar, but it does not have a toolbar, menu bar, or address field.
 
@@ -83,9 +83,9 @@ window.open("Sample.htm",null,
     "height=200,width=400,status=yes,toolbar=no,menubar=no,location=no");
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 By default, the **open** method creates a window that has a default width and height and the standard menu, toolbar, and other features of Internet Explorer. You can alter this set of features by using the *features* parameter. This parameter is a string consisting of one or more feature settings. When the *features* parameter is specified, the features that are not defined in the parameter are disabled. Therefore, when using the *features* parameter, it is necessary to enable all the features that are to be included in the new window. If the *features* parameter is not specified, the window features maintain their default values. In addition to enabling a feature by setting it to a specific value, simply listing the feature name also enables that feature for the new window. Most of the *features* specified in the window.open method are ignored if user has selected, "Always open pop-ups in a new tab" setting in the Internet options control panel. When a function fired by an event on any object calls the **open** method, the window.**open** method is implied.
 

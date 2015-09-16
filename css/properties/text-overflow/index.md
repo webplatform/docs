@@ -22,11 +22,11 @@ tags:
 uri: css/properties/text-overflow
 
 ---
-## <span>Summary</span>
+## Summary
 
 The text-overflow shorthand CSS property determines how overflowed content that is not displayed is signaled to the users. It can be clipped, display an ellipsis ('…', U+2026 HORIZONTAL ELLIPSIS) or a Web author-defined string. It covers the two long-hand properties text-overflow-mode and text-overflow-ellipsis
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `not defined for shorthand properties`
@@ -49,13 +49,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `<'text-overflow-mode'>`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-overflow: clip`
 -   `text-overflow: ellipsis`
 -   `text-overflow: ellipsis-word`
 
-## <span>Values</span>
+## Values
 
 clip
 :   Default. Simply clips the content and does not display ellipsis for text-overflow.
@@ -66,7 +66,7 @@ ellipsis
 ellipsis-word
 :   Display ellipsis (...) for text overflow after the last word that entirely fits into a line.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use **ellipsis**, **ellipsis-word** and **clip** values for the **text-overflow** property.
 
@@ -108,19 +108,19 @@ The following example shows how to use **ellipsis**, **ellipsis-word** and **cli
 
 [View live example](http://dabblet.com/gist/4744956)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This property only applies to text overflow in the inline direction (horizontal, in normal Western text). Inline overflow occurs when the text in a line overflows the available width without a breaking opportunity. To force overflow to occur and ellipses to be applied, the author must apply the *nowrap* value to the [**white-space**](/css/properties/white-space) property on the element, or wrap the content in a \<NOBR\> tag. If there is no breaking opportunity (for example, the width is narrow or there is a long word that does not break well), then overflow may occur without *nowrap* being applied. This property on the element must be set to something other than *visible*, the default, in order for ellipses to be rendered. The best choice is to set [**overflow**](/css/properties/overflow) to *hidden*. Setting **overflow** to *scroll* or *auto* will also work, but will show scrollbars. The hidden text can be selected by selecting the ellipses. When selected, the ellipses will disappear and be replaced by the text to the extent of the layout area. This property offers an efficient alternative to building ellipses in Dynamic HTML (DHTML). As ellipses may be rendered many times on a single page, using this property can significantly speed up performance.
 
-### <span>Syntax</span>
+### Syntax
 
 `text-overflow: ellipsis | clip`
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

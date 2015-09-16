@@ -22,28 +22,28 @@ tags:
 uri: dom/TextRange/scrollIntoView
 
 ---
-## <span>Summary</span>
+## Summary
 
 Causes the object to scroll into view, aligning it either at the top or bottom of the window.
 
 Method of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = node.scrollIntoView(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>varargStart</span>
+### varargStart
 
  Data-type
 :   VARIANT
 
 **Variant** of type **Boolean** that specifies one of the following values:
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -51,7 +51,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **scrollIntoView** method to underline the content of the document's fifth paragraph and scroll it into view at the top of the window.
 
@@ -64,12 +64,12 @@ var coll = document.all.tags("P");
    }
 ```
 
-## <span>Usage</span>
+## Usage
 
      The scrollIntoView method is useful for immediately showing the user the result of some action without requiring the user to manually scroll through the document to find the result.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Depending on the size of the given object and the current window, this method might not be able to put the item at the very top or very bottom, but will position the object as close to the requested position as possible.

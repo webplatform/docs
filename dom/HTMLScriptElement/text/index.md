@@ -24,26 +24,26 @@ tags:
 uri: dom/HTMLScriptElement/text
 
 ---
-## <span>Summary</span>
+## Summary
 
 Legacy. Use textContent instead. When setting, does same as textContent. When getting, gets a concatenated version of all of the child text nodes of a script element.
 
 Property of [dom/HTMLScriptElement](/dom/HTMLScriptElement)[dom/HTMLScriptElement](/dom/HTMLScriptElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var scriptCode = scriptElement.text;
 scriptElement.text = newScriptCode;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 A concatenation of all of the child [text nodes](/dom/Text) of the element.
 
-## <span>Examples</span>
+## Examples
 
 The following script gets the code of an inline script element, changes the name of a function, constructs a new scripts element, sets the changed code as its code and appends it to the document in order to run it.
 
@@ -71,18 +71,18 @@ newScript.text = scriptCode;
 document.head.appendChild(newScript);
 ```
 
-## <span>Usage</span>
+## Usage
 
      Legacy. Use textContent instead.
 
 Use this property to get a concatenated version of all of the child text nodes of a [script](/html/elements/script) element. Setting this property works the same way as setting the [textContent](/dom/Node/textContent) property.
 
-## <span>Notes</span>
+## Notes
 
 -   [Text nodes](/dom/Text) that are nested within elements or HTML comments are excluded.
 -   Settings this property of a [**script**](/html/elements/script) element after its contained or referenced script has already ran does not run the new set code.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Document Object Model (DOM) Level 1](http://www.w3.org/TR/REC-DOM-Level-1/level-one-html.html#ID-46872999)
 :   W3C Recommendation

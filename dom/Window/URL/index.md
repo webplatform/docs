@@ -25,26 +25,26 @@ tags:
 uri: dom/Window/URL
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or gets the URL for the current document.
 
 Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var string = document.URL;
 document.URL = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 the URL of the current web document.
 
-## <span>Examples</span>
+## Examples
 
 This example function returns the **URL** property of the current document.
 
@@ -55,14 +55,14 @@ function getURL()
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **URL** property is case-sensitive. This property is an alias for the [**location**](/dom/Location).[**href**](/dom/Location/href) property on the window.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.4

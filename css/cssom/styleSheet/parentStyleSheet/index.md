@@ -19,13 +19,13 @@ tags:
 uri: css/cssom/styleSheet/parentStyleSheet
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves an element's parent style sheet.
 
 Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.parentStyleSheet;
@@ -34,16 +34,16 @@ element.parentStyleSheet = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Parameter *p* receives **NULL** if the style sheet is part of a **link** or **style** element.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `styleSheet`

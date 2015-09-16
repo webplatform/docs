@@ -22,14 +22,14 @@ uri: css/cssom/properties/viewInheritStyle
 
 Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.viewInheritStyle;
 element.viewInheritStyle = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The content of the primary document is shown in the code snippet below. In the following sample a **div** tag contains a custom element that has an element behavior attached to it. The **div** tag that is located in the primary document sets a number of CSS attributes, specifically the following:
 
@@ -111,17 +111,17 @@ boolInherit = defaults.viewInheritStyle;
 </BODY>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 For more information on the CSS styles that can be inherited when **viewInheritStyle** is set to true, see About Viewlink CSS Inheritance. Inheritable CSS styles are only applied to elements in the document fragment that do not already have the corresponding CSS styles defined.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `defaultSelected`
 -   `Conceptual`

@@ -12,7 +12,7 @@ tags:
 uri: html/attributes/download
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies that the target item is to be downloaded for offline viewing.
 
@@ -30,7 +30,7 @@ Applies to
 </table>
 If the download attribute is specified on the [anchor](/html/elements/a) or [area](/html/elements/area) elements, then the browser will attempt to download the item for viewing later. You can optionally give the attribute a value, which will then have the browser store that file with that filename overriding the resources default name.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!doctype html>
@@ -39,7 +39,7 @@ If the download attribute is specified on the [anchor](/html/elements/a) or [are
 <a href="http://example.com/path/to/video.mp4" download="Web Platform Introduction.mp4">Download the WPD Introduction Video</a>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/links.html#downloading-resources)
 :   Candidate Recommendation

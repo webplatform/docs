@@ -27,7 +27,7 @@ tags:
 uri: dom/Navigator/platform
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the name of the user's operating system.
 
@@ -37,7 +37,7 @@ Win32 or Win64.
 
 Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -45,7 +45,7 @@ Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 var returnValue = navigator.platform;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -81,7 +81,7 @@ WinCE
 
 Windows CE platform.
 
-## <span>Examples</span>
+## Examples
 
 The external example enums the properties and methods of the navigator object of the client web browser and displays the results on the screen.
 
@@ -91,17 +91,17 @@ The external example enums the properties and methods of the navigator object of
 
 [View live example](http://result.dabblet.com/gist/b0053b13f0dc7d3b8e0c/e7a999df33666b9d624c77ef0d824ad90023842a)
 
-## <span>Usage</span>
+## Usage
 
      Could be used to feature test for support for x86 plugins or ActiveX controls.
 
 To determine what bitness a web page is being rendered with, and subsequently the required bitness of any ActiveX controls it may be hosting type javascript:alert(navigator.platform); in the browser's Address bar.
 
-### <span>Syntax</span>
+### Syntax
 
 var platform = navigator.platform
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Navigator Platform](http://www.w3.org/TR/html5/webappapis.html#dom-navigator-platform)
 :   Draft

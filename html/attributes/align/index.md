@@ -26,7 +26,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The header will be in the center oft the page.
 
@@ -34,22 +34,22 @@ The header will be in the center oft the page.
 <h1 align="center">Hello webplatform.org</h1>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The default value for the **th** element is **center**. The **justify** possible value is available only for the **div**, **hn**, and **p** elements.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 11.3.2 (Deprecated)
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `col`
 -   `colGroup`

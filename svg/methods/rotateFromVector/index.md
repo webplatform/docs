@@ -11,20 +11,20 @@ tags:
 uri: svg/methods/rotateFromVector
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The rotation angle is determined by taking (+/-)arctan(y/x). The direction of the vector (x,y) determines whether the positive or negative angle value is used. *Post-multiplies* means that other matrix operations are performed before this operation.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Coordinate Systems, Transformations and Units](http://go.microsoft.com/fwlink/p/?linkid=204735), Section 7.14.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGMatrix**](/svg/objects/SVGMatrix)

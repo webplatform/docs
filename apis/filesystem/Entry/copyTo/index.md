@@ -18,7 +18,7 @@ tags:
 uri: apis/filesystem/Entry/copyTo
 
 ---
-## <span>Summary</span>
+## Summary
 
 Copy an Entry to a different location on the file system.
 
@@ -26,22 +26,22 @@ Copy an Entry to a different location on the file system.
 
 Method of [apis/filesystem/Entry](/apis/filesystem/Entry)[apis/filesystem/Entry](/apis/filesystem/Entry)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  Entry.copyTo(parent, newName, successCallback, errorCallback);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>parent</span>
+### parent
 
  Data-type
 :   String
 
  The directory to which to move the Entry.
 
-### <span>newName</span>
+### newName
 
  Data-type
 :   String
@@ -50,7 +50,7 @@ Method of [apis/filesystem/Entry](/apis/filesystem/Entry)[apis/filesystem/Entry]
 
 The new name of the Entry. Defaults to the Entry's current name if unspecified.
 
-### <span>successCallback</span>
+### successCallback
 
  Data-type
 :   String
@@ -59,7 +59,7 @@ The new name of the Entry. Defaults to the Entry's current name if unspecified.
 
 A callback that is called with the Entry for the new object.
 
-### <span>errorCallback</span>
+### errorCallback
 
  Data-type
 :   String
@@ -68,13 +68,13 @@ A callback that is called with the Entry for the new object.
 
 A callback that is called when errors happen.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 It is an error to try to:
 
@@ -90,7 +90,7 @@ A copy of a directory on top of an existing empty directory must attempt to dele
 
 Directory copies are always recursive--that is, they copy all contents of the directory.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

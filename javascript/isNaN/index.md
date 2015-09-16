@@ -10,11 +10,11 @@ tags:
 uri: javascript/isNaN
 
 ---
-## <span>Summary</span>
+## Summary
 
 Determines whether a supplied number is NaN (not a number).
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,11 +23,11 @@ Determines whether a supplied number is NaN (not a number).
 **numValue**
 :   Required. the value to be tested against NaN
 
-## <span>Return Value</span>
+## Return Value
 
 true if the value, converted to the Number type, is the NaN; otherwise false.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 isNaN(100); // false
@@ -38,15 +38,15 @@ isNaN("abc123"); // true
 isNaN(Math.sqrt(-1)); // true
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 You typically use this method to test return values from the [parseInt](/javascript/parseInt) and [parseFloat](/javascript/parseFloat) functions.
 
 Alternatively, a variable that contains **NaN** or another value could be compared to itself. If it compares as unequal, it is **NaN**. This is because **NaN** is the only value that is not equal to itself.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [isFinite Function](/javascript/isFinite)
 -   [NaN Constant](/javascript/NaN)

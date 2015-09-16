@@ -11,16 +11,16 @@ tags:
 uri: svg/methods/setFilterRes
 
 ---
-### <span>Syntax</span>
+### Syntax
 
     var retval = SVGFilterElement.setFilterRes(filterResX, filterResY);
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFilterElement**](/svg/elements/filter)

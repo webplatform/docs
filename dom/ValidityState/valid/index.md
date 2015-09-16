@@ -25,13 +25,13 @@ tags:
 uri: dom/ValidityState/valid
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns whether the input field value has any validity errors.
 
 Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/ValidityState)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/Vali
 var result = element.validity.valid;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -47,11 +47,11 @@ Whether a value has no validity errors.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 The following example displays all validation states for a validated field. **Note**  For code samples, see [Form controls part 1](http://go.microsoft.com/fwlink/p/?LinkID=251128) and [Form controls part 2: validation](http://go.microsoft.com/fwlink/p/?LinkID=251131) on the Windows Internet Explorer sample site.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

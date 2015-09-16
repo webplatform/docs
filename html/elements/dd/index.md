@@ -22,17 +22,17 @@ todo_broken_links:
 uri: html/elements/dd
 
 ---
-## <span>dd</span>
+## dd
 
 For technical reasons, the title of this article is not the text used to call this API. Instead, use `dd`
 
-## <span>Summary</span>
+## Summary
 
 The dd element represents the description, definition, or value, part of a term-description group in a definition list (dl).
 
 A [**dt**](/html/elements/dt) (topic) is usually followed by one or more ****dd**** (definition) elements. Several consecutive [**dt**](/html/elements/dt) are attributed to the ****dd**** element that immediately follows the group.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -69,7 +69,7 @@ A **dl** element must have both a start tag and an end tag.
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The example shows a simple definition list with two item/description pairs.
 
@@ -117,11 +117,11 @@ display: block;
 margin-left: 40px;
 ```
 
-## <span>Notes</span>
+## Notes
 
 While [HTMLDTElement](/dom/HTMLDTElement) is the defined DOM interface for this element, most browsers currently use [HTMLElement](/dom/HTMLElement) instead.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-dd-element)
 :   W3C Working Draft
@@ -132,9 +132,9 @@ While [HTMLDTElement](/dom/HTMLDTElement) is the defined DOM interface for this 
 [HTML 4.01](http://www.w3.org/TR/html401/struct/lists.html#edef-DD)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [`dir`](/html/elements/dir)
 -   [`menu`](/html/elements/menu)
@@ -143,7 +143,7 @@ While [HTMLDTElement](/dom/HTMLDTElement) is the defined DOM interface for this 
 -   [`li`](/html/elements/li)
 -   [`dt`](/html/elements/dt)
 
-### <span>External resources</span>
+### External resources
 
 -   [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/HTML/Element/dd)
 -   [Microsoft Developer Network](http://msdn.microsoft.com/en-US/library/ie/ms535234.aspx)

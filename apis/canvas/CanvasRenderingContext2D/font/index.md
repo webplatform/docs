@@ -22,26 +22,26 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/font
 
 ---
-## <span>Summary</span>
+## Summary
 
 The current canvas context font and characteristics, in the manner of the CSS font property.
 
 Property of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = CanvasRenderingContext2D.font;
 CanvasRenderingContext2D.font = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The font string can consist of any CSS font description and is analogous to the CSS *font* property. The default font is `10px sans-serif`. Values that are not CSS font values are ignored.
 
-## <span>Examples</span>
+## Examples
 
 The following exaple write a sample string in the canvas
 
@@ -54,7 +54,7 @@ function draw() {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

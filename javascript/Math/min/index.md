@@ -10,17 +10,17 @@ tags:
 uri: javascript/Math/min
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the smaller of a set of numeric expressions.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     Math.min([ number1 [, number2 [... [, numberN ]]]])
 
-## <span>Examples</span>
+## Examples
 
 The following code shows how to get the smaller of two expressions.
 
@@ -32,15 +32,15 @@ var x = Math.min(107 - 3, 48 * 90);
  // 104
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The optional number1, number2, ..., numberN arguments are numeric expressions to be evaluated.
 
 If no arguments are provided, the return value is equal to [Number.POSITIVE\_INFINITY](/javascript/Number/constants). If any argument is **NaN** , the return value is also **NaN**.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math.max Function](/javascript/Math/max)
 

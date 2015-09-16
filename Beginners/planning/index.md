@@ -10,11 +10,11 @@ tags:
 uri: Beginners/planning
 
 ---
-## <span>Summary</span>
+## Summary
 
 Now you've got some familiarity with some basic concepts about the web, let's take a step back, introducing an example project for you to work on and taking the necessary steps to plan it.
 
-## <span>Beginners submenu</span>
+## Beginners submenu
 
 The **[Beginners](/Beginners)** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 

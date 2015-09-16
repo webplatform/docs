@@ -11,19 +11,19 @@ tags:
 uri: svg/properties/amplitude
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.6
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGComponentTransferFunctionElement**](/svg/objects/SVGComponentTransferFunctionElement)
 -   [**SVGFEFuncGElement**](/svg/elements/feFuncGelement)

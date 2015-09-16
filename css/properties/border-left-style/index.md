@@ -22,11 +22,11 @@ tags:
 uri: css/properties/border-left-style
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the style of an element's left border. To set all four borders, use the shorthand property, border-style. Otherwise, you can set the borders individually with border-top-style, border-right-style, border-bottom-style, border-left-style.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -52,7 +52,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `border-left-style: dashed`
 -   `border-left-style: dotted`
@@ -65,7 +65,7 @@ Percentages
 -   `border-left-style: ridge`
 -   `border-left-style: solid`
 
-## <span>Values</span>
+## Values
 
 none
 :   Default. Border is not drawn, color and width are ignored. If the border is an image, the image layer counts but is not drawn. See [background-image](/css/properties/background-image).
@@ -97,7 +97,7 @@ inset
 outset
 :   Looks as if the content on the inside of the border is coming out of the canvas.
 
-## <span>Examples</span>
+## Examples
 
 Border styles in CSS.
 
@@ -145,23 +145,23 @@ Border styles in CSS.
 
 [View live example](http://code.webplatform.org/gist/5549423)
 
-## <span>Notes</span>
+## Notes
 
 -   Borders are drawn in front of the element's background, but behind the element's content (in case it overlaps).
 -   There is no control over the spacing of the dots and dashes, nor over the length of the dashes.
 -   How borders of different styles are joined in the corner may vary.
 -   Rounded corners may cause the corners and the contents to overlap, if the padding is less than the radius of the corner.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#border-style)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Border</span>
+#### Border
 
 -   [border](/css/properties/border)
 

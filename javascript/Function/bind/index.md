@@ -10,11 +10,11 @@ tags:
 uri: javascript/Function/bind
 
 ---
-## <span>Summary</span>
+## Summary
 
 For a given function, creates a bound function that has the same body as the original function. In the bound function, the this object resolves to the passed in object. The bound function has the specified initial parameters.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,11 +29,11 @@ For a given function, creates a bound function that has the same body as the ori
 **arg1 [, arg2 [, argN ]]]**
 :   Optional. A list of arguments to be passed to the new function.
 
-## <span>Return Value</span>
+## Return Value
 
 A new function that is the same as the function function, except for the thisArg object and the initial arguments.
 
-## <span>Examples</span>
+## Examples
 
 The following code shows how to use the **bind** method.
 
@@ -111,13 +111,13 @@ The following code shows how to use the arg1[,arg2[,argN]]] arguments. The bound
  // Output: 12 a b c
 ```
 
-## <span>Exceptions</span>
+## Exceptions
 
 If the specified function is not a function, a **TypeError** exception is thrown.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Function Object](/javascript/Function)
 -   [filter Method (Array)](/javascript/Array/filter)

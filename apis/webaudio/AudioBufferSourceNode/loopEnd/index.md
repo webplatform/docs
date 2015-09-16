@@ -20,31 +20,31 @@ tags:
 uri: apis/webaudio/AudioBufferSourceNode/loopEnd
 
 ---
-## <span>Summary</span>
+## Summary
 
 An optional value in seconds where looping should end if the loop attribute is true. Its default value is 0, and it may usefully be set to any value between 0 and the duration of the buffer.
 
 Property of [apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)[apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = AudioBufferSourceNode.loopEnd;
 AudioBufferSourceNode.loopEnd = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var source = audioCtx.createBufferSource();
 source.loopEnd = 3;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

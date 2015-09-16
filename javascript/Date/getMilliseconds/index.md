@@ -11,21 +11,21 @@ tags:
 uri: javascript/Date/getMilliseconds
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the milliseconds of a Date, using local time.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     dateObj.getMilliseconds()
 
-## <span>Return Value</span>
+## Return Value
 
 Returns the milliseconds of a date. The value can range from 0-999. If a date has been constructed without specifying the milliseconds, the value returned is 0.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **getMilliseconds** method.
 
@@ -41,13 +41,13 @@ var date = new Date("1/1/2001");
  // 5
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required dateObj reference is a **Date** object. To get the number of milliseconds in Universal Coordinated Time (UTC), use the **getUTCMilliseconds** method.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getUTCMilliseconds Method (Date)](/javascript/Date/getUTCMilliseconds)
 -   [setMilliseconds Method (Date)](/javascript/Date/setMilliseconds)

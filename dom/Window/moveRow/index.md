@@ -18,39 +18,39 @@ tags:
 uri: dom/Window/moveRow
 
 ---
-## <span>Summary</span>
+## Summary
 
 Moves a table row to a new position.
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  oTable.moveRow(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>indexFrom</span>
+### indexFrom
 
  Data-type
 :   Number
 
 **Integer** that specifies the index in the [**rows**](/dom/HTMLElement/rows) collection of the table row that is moved. -1 Default.
 
-### <span>indexTo</span>
+### indexTo
 
  Data-type
 :   Number
 
 **Integer** that specifies where the row is moved within the [**rows**](/dom/HTMLElement/rows) collection. -1 Default.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **moveRow** method to exchange the first and second rows in a table when the user clicks a button.
 
@@ -67,12 +67,12 @@ function fnMove(){
 </table>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use to re-order rows of tabula data.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Rows between the *indexFrom* and *indexTo* positions in the [**rows**](/dom/HTMLElement/rows) collection are shifted based on the direction the row moves.

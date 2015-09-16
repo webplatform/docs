@@ -25,14 +25,14 @@ uri: dom/HTMLElement/canHaveHTML
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.canHaveHTML;
 element.canHaveHTML = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **canHaveHTML** property to determine whether an object can contain HTML markup.
 
@@ -60,10 +60,10 @@ Can the SPAN contain HTML?
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/canHaveHTML.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The property is read-only for all objects except the following, for which it is read-write: [**defaults**](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1).
 
-### <span>Syntax</span>
+### Syntax

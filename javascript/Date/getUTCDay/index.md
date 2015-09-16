@@ -11,21 +11,21 @@ tags:
 uri: javascript/Date/getUTCDay
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the day of the week using Universal Coordinated Time (UTC).
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     dateObj.getUTCDay()
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an integer between 0 (Sunday) and 6 (Saturday) that represents the day of the week.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **getUTCDay** method.
 
@@ -37,13 +37,13 @@ var date = new Date("2/6/2001");
  // Output: 2
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required dateObj reference is a **Date** object. To get the day of the week using local time, use the **getDate** method.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getDay Method (Date)](/javascript/Date/getDay)
 

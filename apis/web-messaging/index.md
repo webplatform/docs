@@ -13,7 +13,7 @@ tags:
 uri: apis/web-messaging
 
 ---
-## <span>Summary</span>
+## Summary
 
 This API defines mechanisms for communicating between browsing contexts in HTML documents.
 

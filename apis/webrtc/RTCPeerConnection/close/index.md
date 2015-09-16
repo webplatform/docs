@@ -22,21 +22,21 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/close
 
 ---
-## <span>Summary</span>
+## Summary
 
 Closes a peer connection, stops all active ICE processing and any active streaming, and releases any relevant resources such as TURN permissions.
 
 Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.close();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 

@@ -21,11 +21,11 @@ tags:
 uri: css/properties/counter-increment
 
 ---
-## <span>Summary</span>
+## Summary
 
 The counter-increment property accepts one or more names of counters (identifiers), each one optionally followed by an integer which specifies the value by which the counter should be incremented (e.g. if the value is 2, the counter increases by 2 each time it is invoked).
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -48,12 +48,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `counter-increment: identifier`
 -   `counter-increment: integer`
 
-## <span>Values</span>
+## Values
 
 identifier
 :   The name of the counter. The counter can then be invoked by using **counter(\<identifier\>)**.
@@ -63,7 +63,7 @@ integer
 
 incremented for every occurrence of the element. Zero and negative integers are allowed. If no value is specified, the value defaults to 1.
 
-## <span>Examples</span>
+## Examples
 
 This example uses **counter-increment** and the **content** properties to prepend headers with an outline-esque, identifier, similar to an ordered list. (Note that the numbering does not reset between the two headers: this can be handled with [**counter-reset**](/css/properties/counter-reset).)
 
@@ -113,29 +113,29 @@ h1:after {
 
 [View live example](http://code.webplatform.org/gist/5841870)
 
-## <span>Usage</span>
+## Usage
 
      It is important to note that counter-increment can handle multiple counters and non-positive integers, though best practices often dictates that counters should be defined separately.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **counter-increment** attribute can contain a list of one or more counters, each one optionally followed by an integer. The integer represents the amount that the counter is incremented after each occurrence of an element. This property is used to generate numbered content for each occurrence of an element. The counter need not be defined before it is incremented. To reset a counter value, use the [**counter-reset**](/css/properties/counter-reset) attribute. An element that is not displayed ([**display**](/css/properties/display) attribute set to 'none') and pseudo-elements that do not generate content ([**content**](/css/properties/content) attribute set to 'normal') cannot increment or reset a counter. This property requires Windows Internet Explorer to be in IE8 Standards mode rendering.
 
-### <span>Syntax</span>
+### Syntax
 
 `counter-increment: '[  <identifier>   <integer>  ]'+`
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 12.4
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Generated and Replaced Content</span>
+#### Generated and Replaced Content
 
 -   [Generated and Replaced Content](/css/generated_and_replaced_content)
 
@@ -151,7 +151,7 @@ The **counter-increment** attribute can contain a list of one or more counters, 
 
 -   [object-fit](/css/properties/object-fit)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

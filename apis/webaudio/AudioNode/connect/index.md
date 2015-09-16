@@ -20,21 +20,21 @@ tags:
 uri: apis/webaudio/AudioNode/connect
 
 ---
-## <span>Summary</span>
+## Summary
 
 Connects one AudioNode to another AudioNode.
 
 Method of [apis/webaudio/AudioNode](/apis/webaudio/AudioNode)[apis/webaudio/AudioNode](/apis/webaudio/AudioNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = AudioNode.connect(destination, output, input);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>destination</span>
+### destination
 
  Data-type
 :   unsigned long
@@ -43,7 +43,7 @@ var  = AudioNode.connect(destination, output, input);
 
 The AudioNode to connect to.
 
-### <span>output</span>
+### output
 
  Data-type
 :   unsigned long
@@ -52,7 +52,7 @@ The AudioNode to connect to.
 
 An index describing which output of the AudioNode to connect from. An out-of-bound value throws an exception.
 
-### <span>input</span>
+### input
 
  Data-type
 :   unsigned long
@@ -61,18 +61,18 @@ An index describing which output of the AudioNode to connect from. An out-of-bou
 
 An index describing which input of the destination AudioNode to connect to. An out-of-bound value throws an exception.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var oscillator = audioCtx.createOscillator();
 oscillator.connect(audioCtx.destination,1,1);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

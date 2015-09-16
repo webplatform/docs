@@ -17,98 +17,98 @@ tags:
 uri: dom/WheelEvent/initWheelEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initializes a new WheelEvent that the createEvent method created.
 
 Method of [dom/WheelEvent](/dom/WheelEvent)[dom/WheelEvent](/dom/WheelEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  event.initWheelEvent(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>eventType</span>
+### eventType
 
  Data-type
 :   String
 
  The name of the event. Sets the value for the [type](/dom/Event/type) property.
 
-### <span>canBubble</span>
+### canBubble
 
  Data-type
 :   Boolean
 
  Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
 
-### <span>cancelable</span>
+### cancelable
 
  Data-type
 :   Boolean
 
  Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
 
-### <span>view</span>
+### view
 
  Data-type
 :   Object
 
  The window on which this event is occurring. Sets the value for the [view](/dom/UIEvent/view) property.
 
-### <span>detail</span>
+### detail
 
  Data-type
 :   Number
 
  Specifies additional information. This value is returned in the [**detail**](/dom/UIEvent/detail) property of the event.
 
-### <span>screenX</span>
+### screenX
 
  Data-type
 :   Number
 
  The x-coordinate of the mouse pointer, relative to the upper-left corner of the screen. Sets the value for the [**screenX**](/dom/MouseEvent/screenX) property,
 
-### <span>screenY</span>
+### screenY
 
  Data-type
 :   Number
 
  The y-coordinate of the mouse pointer, relative to the upper-left corner of the screen. Sets the value for the [**screenY**](/dom/MouseEvent/screenY) property.
 
-### <span>clientX</span>
+### clientX
 
  Data-type
 :   Number
 
  The x-coordinate of the mouse pointer, relative to the upper-left corner of the browser's client area. Sets the value for the [**clientX**](/dom/MouseEvent/clientX) property.
 
-### <span>clientY</span>
+### clientY
 
  Data-type
 :   any
 
  The y-coordinate of the mouse pointer, relative to the upper-left corner of the browser's client area. Sets the value for the [**clientY**](/dom/MouseEvent/clientY) property.
 
-### <span>button</span>
+### button
 
  Data-type
 :   Number
 
  The mouse button that caused the event. Sets the value for the [**button**](/dom/MouseEvent/button) property (see the property page for common values).
 
-### <span>relatedTarget</span>
+### relatedTarget
 
  Data-type
 :   DOM Node
 
  A secondary element that is involved in the event. Sets the value for the [**relatedTarget**](/dom/MouseEvent/relatedTarget) property.
 
-### <span>modifiersListArg</span>
+### modifiersListArg
 
  Data-type
 :   String
@@ -132,39 +132,39 @@ Other implementation specific options may be supported. For example -
 -   **Win** (on Microsoft Windows) - The left or right Windows logo key.
 -   **Scroll** - The Scroll Lock toggle.
 
-### <span>deltaX</span>
+### deltaX
 
  Data-type
 :   Number
 
  The distance that the mouse wheel has rotated around the x-axis. Sets the value for the [**deltaX**](/dom/WheelEvent/deltaX) property.
 
-### <span>deltaY</span>
+### deltaY
 
  Data-type
 :   Number
 
  The distance that the mouse wheel has rotated around the y-axis. Sets the value for the [**deltaY**](/dom/WheelEvent/deltaY) property.
 
-### <span>deltaZ</span>
+### deltaZ
 
  Data-type
 :   Number
 
  The distance that the mouse wheel has rotated around the z-axis. Sets the value for the [**deltaZ**](/dom/WheelEvent/deltaZ) property.
 
-### <span>deltaMode</span>
+### deltaMode
 
  Data-type
 :   Number
 
  The delta mode of the event. Sets the value for the [**deltaMode**](/dom/WheelEvent/deltaMode) property (see the property page for common values).
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function dispatchWheelEvent(){
@@ -193,7 +193,7 @@ function dispatchWheelEvent(){
    }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

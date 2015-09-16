@@ -22,11 +22,11 @@ tags:
 uri: css/properties/min-height
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the minimum height for an element. It prevents the height of the element to exceed the specified value. It overrides both the height &amp; the max-height property if any them is specified below the min-height value.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto (0 for non-flex elements)`
@@ -52,7 +52,7 @@ Animatable
 Percentages
 :   Of the height of containing block. If the height of the containing block depends on the content & the element does not have position as absolute, then this value becomes 0.
 
-## <span>Syntax</span>
+## Syntax
 
 -   `min-height: auto`
 -   `min-height: calc`
@@ -64,7 +64,7 @@ Percentages
 -   `min-height: min-content`
 -   `min-height: percentage`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Default. Behaves as 0 for non-flexbox elements. On [flexbox](/css/flexbox) acts as min-content.
@@ -93,7 +93,7 @@ fill-available
 fit-content
 :   If the total available space is finite, equals to min(max-content, max(min-content, fill-available)). Otherwise, equal to the max-content measure. Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
 
-## <span>Examples</span>
+## Examples
 
 Use min-height with any CSS selector to apply it.
 
@@ -136,7 +136,7 @@ min-height property overrides the height of an element.
 
 [View live example](http://code.webplatform.org/gist/5842440)
 
-## <span>Usage</span>
+## Usage
 
      CSS min height is well supported across most browsers. A few things to consider while usage:
 
@@ -144,7 +144,7 @@ min-height property overrides the height of an element.
 -   max-content, min-content, fit-content, and fill-available are in W3C draft stage and not supported across all browsers.
 -   Support for [calc](/css/functions/calc) is better across browsers. Vendor prefixes may be needed.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1 (Section 10.7)](http://www.w3.org/TR/CSS2/visudet.html#min-max-heights)
 :   W3C Recommendation
@@ -152,11 +152,11 @@ min-height property overrides the height of an element.
 [CSS Intrinsic & Extrinsic Sizing Module Level 3](http://dev.w3.org/csswg/css3-sizing/#width-height-keywords)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Box Model</span>
+#### Box Model
 
 -   [border](/css/properties/border)
 
@@ -198,7 +198,7 @@ min-height property overrides the height of an element.
 
 -   [min-width](/css/properties/min-width)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

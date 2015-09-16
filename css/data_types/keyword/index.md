@@ -12,13 +12,13 @@ tags:
 uri: 'css/data types/keyword'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Many CSS properties have specific keywords which may be used as values; in addition, the keywords initial and inherit may be used as the value of any CSS property.
 
  The keywords relevant to a specific CSS property are defined in its [property page](/css/properties). All keywords meet the requirements of [CSS identifiers](/css/data_types/custom_ident), and are case sensitive. Keywords should never be quoted.
 
-### <span>CSS-wide keywords</span>
+### CSS-wide keywords
 
 Certain keywords can be used for any CSS property value:
 
@@ -28,7 +28,7 @@ Certain keywords can be used for any CSS property value:
 
 -   **unset** is equivalent to **inherit** if the property is normally inherited, or **initial** otherwise; it is not currently supported in most browsers (although Firefox implements it).
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 body{
@@ -61,7 +61,7 @@ a {
 
 [View live example](http://code.webplatform.org/gist/10615256)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Cascading and Inheritance Level 3](http://www.w3.org/TR/css3-cascade/#inherit-initial)
 :   W3C Candidate Recommendation

@@ -24,13 +24,13 @@ tags:
 uri: 'apis/network information/Connection/metered'
 
 ---
-## <span>Summary</span>
+## Summary
 
 A connection is metered when the user's connection is subject to a limitation from his Internet Service Provider strong enough to request web applications to be careful with the bandwidth usage.
 
 Property of [apis/network\_information/Connection](/apis/network_information/Connection)[apis/network\_information/Connection](/apis/network_information/Connection)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,20 +38,20 @@ Property of [apis/network\_information/Connection](/apis/network_information/Con
 var result = connection.metered;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 As of 25 June 2014:
 
 -   Formal work on the [Network Information](http://www.w3.org/TR/netinfo-api/) spec has been stopped. The specification is now a W3C Note.
 -   Both Chrome and Firefox have shipped Network Information under an experimental feedback channel.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [The Network Information API](http://www.w3.org/TR/netinfo-api/)
 :   W3C Note

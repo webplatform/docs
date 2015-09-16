@@ -26,22 +26,22 @@ uri: canvas/methods/getContext
 
 Method of [dom/HTMLCanvasElement](/dom/HTMLCanvasElement)[dom/HTMLCanvasElement](/dom/HTMLCanvasElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.getContext(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>contextId</span>
+### contextId
 
  Data-type
 :   any
 
  The identifier (ID) of the type of canvas to create.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -49,7 +49,7 @@ Returns an object of type DOM NodeDOM Node
 
 The context object.
 
-## <span>Examples</span>
+## Examples
 
 The following code example uses **getContext** to get a context to use to show a filled rectangle and filled text.
 
@@ -80,20 +80,20 @@ function draw()
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **getContext** method returns null if the *contextId* value is not supported.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [The canvas element](http://go.microsoft.com/fwlink/p/?linkid=197017), Section 4.8.11
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `canvas`

@@ -22,11 +22,11 @@ tags:
 uri: css/properties/text-align
 
 ---
-## <span>Summary</span>
+## Summary
 
 The text-align CSS property describes how inline content like text is aligned in its parent block element. text-align does not control the alignment of block elements itself, only their inline content.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `start, or a nameless value that acts as left if direction is ltr, right if direction is rtl, if start is not supported by the browser.`
@@ -49,7 +49,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `textAlign`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-align: <string>`
 -   `text-align: center`
@@ -61,7 +61,7 @@ Animatable
 -   `text-align: start`
 -   `text-align: start end`
 
-## <span>Values</span>
+## Values
 
 start
 :   The same as *`left`* if direction is left-to-right and *`right`* if direction is right-to-left.
@@ -90,7 +90,7 @@ match-parent
 start end
 :   Specifies *`start`* alignment of the first line and any line immediately after a forced line break; and *`end`* alignment of any remaining lines not affected by [**text-align-last**](/css/properties/text-align-last).
 
-## <span>Examples</span>
+## Examples
 
 This just shows the four possible types of text-alignment.
 
@@ -113,18 +113,18 @@ This just shows the four possible types of text-alignment.
 .justified { width: 200px; text-align: justify;}
 ```
 
-## <span>Notes</span>
+## Notes
 
 The standard-compatible way to center a block itself without centering its inline content is setting the left and right `margin` to auto, e.g.: `margin:auto;` or `margin:0 auto;` or `margin-left:auto; margin-right:auto;`
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Level 3](http://dev.w3.org/csswg/css3-text/#text-align)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

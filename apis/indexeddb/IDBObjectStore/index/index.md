@@ -23,36 +23,36 @@ tags:
 uri: apis/indexeddb/IDBObjectStore/index
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns an IDBIndex representing an index that is part of the object store.
 
 Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.index(name);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   Blob
 
  Name of the index to be retrieved.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This method can throw the following [**DOMException**](/dom/DOMException) exceptions:
 
@@ -93,8 +93,8 @@ This method can throw the following [**DOMException**](/dom/DOMException) except
 
   **Note**  As of Internet Explorer 10, the **code** property is deprecated in favor of the **name** property, which is preferred for standards compliance and future compatibility.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

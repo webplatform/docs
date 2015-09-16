@@ -14,11 +14,11 @@ tags:
 uri: html/elements/table
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &lt;table&gt; element is a wrapper for an HTML table. It defines the start and end of a table, and can contain other table elements, such as &lt;tr&gt;.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLTableElement](/dom/HTMLTableElement)
@@ -29,7 +29,7 @@ Tables were often used for laying out web pages because tables helped fix the po
 
 You might find working with an HTML table editor easier than coding tables by hand, unless you are especially adept at visualizing table row and columns using the appropriate HTML tags. It is easy to miss or drop a tag when coding tables manually, which will cause your table to be malformed.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the [**tbody**](/html/elements/tbody) element with the ****table****, [**td**](/html/elements/td), [**thead**](/html/elements/thead), and [**tr**](/html/elements/tr) elements to create a table with the first row in the table head and the second row in the table body.
 
@@ -52,7 +52,7 @@ This example uses the [**tbody**](/html/elements/tbody) element with the ****tab
 </table>
 ```
 
-## <span>Usage</span>
+## Usage
 
      At the most simple level you need to use the following three groups of tags to create a basic table.
 
@@ -87,7 +87,7 @@ The three pairs of tags can create a simple two row, two column table using the 
 |row 1 col 1|row 1 col 2|
 |row 1 col 2|row 2 col 2|
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-table-element)
 :   W3C Working Draft
@@ -98,11 +98,11 @@ The three pairs of tags can create a simple two row, two column table using the 
 [HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-TABLE)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -244,7 +244,7 @@ The three pairs of tags can create a simple two row, two column table using the 
 
 -   [time](/html/elements/time)
 
-#### <span>Tables</span>
+#### Tables
 
 -   [border-collapse](/css/properties/border-collapse)
 

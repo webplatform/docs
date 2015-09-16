@@ -11,21 +11,21 @@ tags:
 uri: svg/properties/numOctaves
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The more octaves that are used in the calculation, the more fine-grained the texture. The default value is one.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Scalable Vector Graphics 1.1: Filter Effects, section 15.25.27](http://www.w3.org/TR/SVG11/filters.html#feTurbulenceNumOctavesAttribute)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFETurbulenceElement**](/svg/elements/feTurbulence)

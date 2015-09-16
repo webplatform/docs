@@ -21,13 +21,13 @@ tags:
 uri: apis/webrtc/MediaStream/audioTracks
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MediaStreamTrackList object representing the audio tracks.
 
 Property of [apis/webrtc/MediaStream](/apis/webrtc/MediaStream)[apis/webrtc/MediaStream](/apis/webrtc/MediaStream)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,7 +35,7 @@ Property of [apis/webrtc/MediaStream](/apis/webrtc/MediaStream)[apis/webrtc/Medi
 var trackList = stream.audioTracks;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type MediaStreamTrackListMediaStreamTrackList
 

@@ -22,13 +22,13 @@ todo_broken_links:
 uri: apis/webrtc/RTCPeerConnection/onaddstream
 
 ---
-## <span>Summary</span>
+## Summary
 
 Handles the addstream event fired when setRemoteDescription() is called.
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onaddstream;
@@ -37,6 +37,6 @@ element.onaddstream = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 This is called any time a MediaStream is added by the remote peer. This will be fired only as a result of [setRemoteDescription()](/apis/webrtc/RTCPeerConnection/setRemoteDescription). The onnaddstream callback happens as early as possible after setRemoteDescription(), it does not wait for a given media stream to be accepted or rejected via SDP negotiation.

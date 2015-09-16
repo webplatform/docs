@@ -11,11 +11,11 @@ tags:
 uri: javascript/Object/isPrototypeOf
 
 ---
-## <span>Summary</span>
+## Summary
 
 Determines whether an object exists in another object's prototype chain.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -24,7 +24,7 @@ Determines whether an object exists in another object's prototype chain.
 **object2**
 :   Required. Another object whose prototype chain is to be checked.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **isPrototypeOf** method.
 
@@ -35,13 +35,13 @@ var re = new RegExp();
  // Output: true
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **isPrototypeOf** method returns true if object2 has object1 in its prototype chain. The prototype chain is used to share functionality between instances of the same object type. The **isPrototypeOf** method returns false when object2 is not an object or when object1 does not appear in the prototype chain of the object2.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.2.4.6 Object.prototype.isPrototypeOf (V)](http://www.ecma-international.org/ecma-262/5.1/#sec-15.2.4.6) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

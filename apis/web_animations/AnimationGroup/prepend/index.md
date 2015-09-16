@@ -17,28 +17,28 @@ tags:
 uri: 'apis/web animations/AnimationGroup/prepend'
 
 ---
-## <span>Summary</span>
+## Summary
 
 If any of the animation nodes in nodes is an inclusive ancestor of this animation node throw a HierarchyRequestError exception and terminate these steps. Insert nodes before the first child.
 
 Method of [apis/web\_animations/AnimationGroup](/apis/web_animations/AnimationGroup)[apis/web\_animations/AnimationGroup](/apis/web_animations/AnimationGroup)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  .prepend(AnimationNode...nodes);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>AnimationNode...nodes</span>
+### AnimationNode...nodes
 
  Data-type
 :   Object
 
  Takes a sequence of AnimationNodes as a parameter.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 

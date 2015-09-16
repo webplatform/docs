@@ -26,15 +26,15 @@ uri: 'apis/xhr/methods/open (XDomainRequest)'
 
 Method of [apis/xhr/objects/XDomainRequest](/apis/xhr/objects/XDomainRequest)[apis/xhr/objects/XDomainRequest](/apis/xhr/objects/XDomainRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.open (XDomainRequest)(bstrMethod, bstrUrl);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>bstrMethod</span>
+### bstrMethod
 
  Data-type
 :   BSTR
@@ -43,14 +43,14 @@ var object = object.open (XDomainRequest)(bstrMethod, bstrUrl);
 
 POST method.
 
-### <span>bstrUrl</span>
+### bstrUrl
 
  Data-type
 :   BSTR
 
  The server URL.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -58,7 +58,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // 1. Create XDR object
@@ -71,15 +71,15 @@ xdr.open("POST", "http://www.contoso.com/xdr.txt");
 xdr.send("data to be processed");
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Requires an XDomainRequest object.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `IHTMLXDomainRequest`

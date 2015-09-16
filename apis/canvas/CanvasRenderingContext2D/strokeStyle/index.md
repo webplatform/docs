@@ -22,26 +22,26 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/strokeStyle
 
 ---
-## <span>Summary</span>
+## Summary
 
 The current style for stroking shapes. The style can be a CanvasGradient, a CanvasPattern, or a string containing a CSS color.
 
 Property of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = CanvasRenderingContext2D.strokeStyle;
 CanvasRenderingContext2D.strokeStyle = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
 Default is black.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
@@ -54,7 +54,7 @@ ctxt.strokeRect(20,30,150,75);
 </script>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

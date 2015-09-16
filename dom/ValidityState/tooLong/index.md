@@ -23,13 +23,13 @@ tags:
 uri: dom/ValidityState/tooLong
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns whether an input field's value is longer than is allowed by the maxlength attribute.
 
 Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/ValidityState)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/Vali
 var result = element.validity.tooLong;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Whether a value is longer than is allowed by the **maxlength** attribute.
 
-## <span>Examples</span>
+## Examples
 
 In the following example the tooLong property is used to validate the length of text entered into a text area. However, the validity.tooLong is always false since text greater than the maxlength attribute value cannot be entered.
 
@@ -81,11 +81,11 @@ document.getElementById('txtMessage').addEventListener('blur',validLength,false)
 </body></html>
 ```
 
-## <span>Usage</span>
+## Usage
 
      There seems to be little usage for the tooLong validity state test as textarea and input elements do not allow text input past the maxlength value.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

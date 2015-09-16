@@ -22,31 +22,31 @@ tags:
 uri: dom/Window/top
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the topmost ancestor window.
 
 Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var topwindow = window.top;
 window.top = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var topwindow=window.top;
 ```
 
-## <span>Usage</span>
+## Usage
 
      This property is especially useful when you are dealing with a window that is in a subframe of a parent or parents, and you want to get to the top-level frameset.
 
-### <span>Syntax</span>
+### Syntax

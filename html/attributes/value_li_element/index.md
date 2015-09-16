@@ -26,7 +26,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example sets each line item's value to an integer string.
 
@@ -38,21 +38,21 @@ This example sets each line item's value to an integer string.
 </OL>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 In an ordered list, the value is the number that precedes the list item. Changing the value will change the visual numbering of all following list items. In an unordered list, the value is initially zero. Changing the value has no visual effect on the item.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 10.2 (Deprecated)
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `li`

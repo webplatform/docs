@@ -20,13 +20,13 @@ tags:
 uri: dom/DataTransfer/files
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a FileList of the files being dragged, if any.
 
 Property of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTransfer)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,13 +34,13 @@ Property of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTra
 var result = element.files;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
 A live FileList sequence consisting of File objects representing the files being dragged (if any).
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //retrieve list of files being dragged
@@ -50,11 +50,11 @@ function getDragFiles(e) {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 This version of the API does not expose the types of the files during the drag.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation

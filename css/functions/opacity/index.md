@@ -14,7 +14,7 @@ tags:
 uri: css/functions/opacity
 
 ---
-## <span>Summary</span>
+## Summary
 
 Applies a transparency effect to an element's colors, for use by the filter property. A decimal value between 0 and 1 or percentage up to 100% controls the overall opacity, with 0 rendering the element invisible and background elements showing through.
 
@@ -35,7 +35,7 @@ When used in isolation, the **opacity()** filter has the same effect as the [**o
 
 **Note:** As is true for the related [**opacity**](/css/properties/opacity) CSS property, transparent elements still receive mouse and touch events, but the [**pointer-events**](/css/properties/pointer-events) property offers a way to override this behavior.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows the difference between two images, where one has an opacity of 50%:
 
@@ -97,7 +97,7 @@ This example shows the importance of the order in which filters are applied. In 
 
 [View live example](http://codepen.io/pverbeek/pen/KzEHw)
 
-## <span>Notes</span>
+## Notes
 
 The CSS filter corresponds to this SVG filter definition, based on a variable *amount* passed to the function:
 
@@ -109,7 +109,7 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 </filter>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#)
 :   Editor's Draft
@@ -117,11 +117,11 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 
@@ -205,7 +205,7 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### <span>External resources</span>
+### External resources
 
 -   [Adobe CSS FilterLab](http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/)
 -   [Interactive demonstration](http://html5-demos.appspot.com/static/css/filters/index.html)

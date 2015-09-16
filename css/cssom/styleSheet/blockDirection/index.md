@@ -26,25 +26,25 @@ uri: css/cssom/styleSheet/blockDirection
 
 Method of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = p.blockDirection();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -190,7 +190,7 @@ Returns an object of type DOM NodeDOM Node
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `address`
 -   `blockquote`

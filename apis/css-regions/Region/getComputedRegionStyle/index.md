@@ -21,28 +21,28 @@ tags:
 uri: apis/css-regions/Region/getComputedRegionStyle
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns styles calculated for an element as it appears within a region, including styles from @region rules applied to ranges within the element.
 
 Method of [apis/css-regions/Region](/apis/css-regions/Region)[apis/css-regions/Region](/apis/css-regions/Region)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var propValue = region.getComputedRegionStyle(element, pseudoElementName);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>element</span>
+### element
 
  Data-type
 :   DOM Node
 
  The element that contains the desired style settings, regardless of whether it currently appears within the region.
 
-### <span>pseudoElementName</span>
+### pseudoElementName
 
  Data-type
 :   String
@@ -51,13 +51,13 @@ var propValue = region.getComputedRegionStyle(element, pseudoElementName);
 
 The name of a CSS pseudo-element (such as **::before** or **::after**) or a null value. Optional in WebKit-based browsers.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type CSSStyleDeclarationCSSStyleDeclaration
 
 Returns styles calculated for an element as it appears within a region, including styles from [**@region**](/css/atrules/@region) rules applied to ranges within the element.
 
-## <span>Examples</span>
+## Examples
 
 Check if the formatting of an element's property varies within a [region chain](/css/concepts/region_chain)
 
@@ -87,20 +87,20 @@ function regionsVaryCSS(regs, elem, prop) {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Behaves the same as getComputedStyle(), but incorporates CSS formatting from @region rules that may apply to individual regions.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/2013/WD-css3-regions-20130528/)
 :   W3C Working Draft 28 May 2013
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -158,7 +158,7 @@ function regionsVaryCSS(regs, elem, prop) {
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

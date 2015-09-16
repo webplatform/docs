@@ -10,17 +10,17 @@ tags:
 uri: javascript/Error/stack
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets the error stack as a string that contains the stack trace frames.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     object .stack
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to get the stack when you're catching an error.
 
@@ -52,7 +52,7 @@ try
      }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **stack** property is set to undefined when the error is constructed, and gets the trace information when the error is raised. If an error is raised multiple times, the **stack** property is updated each time the error is raised.
 
@@ -62,9 +62,9 @@ If you create your own Error object and set the stack trace to a value, the valu
 
 The **stack** property does not show inline functions in its frames. It shows only the physical stack.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [description Property (Error)](/javascript/Error/description)
 -   [message Property (Error)](/javascript/Error/message)

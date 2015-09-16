@@ -13,7 +13,7 @@ uri: dom/Element/input
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -67,7 +67,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following script queries the event [**target**](/dom/Event/target) as the text in a **textArea** is changed.
 
@@ -83,9 +83,9 @@ window.onload = function() {
 <textarea id="myTextArea">Edit this text.</textarea>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 You can use the **oninput** to detect when the contents of a **textArea**, **input type=text**, or **input type=password** have changed. This event occurs immediately after modification, unlike the [**change**](/dom/Element/change) event, which occurs when the element loses focus. To invoke this event, do one of the following:
 
@@ -93,14 +93,14 @@ You can use the **oninput** to detect when the contents of a **textArea**, **inp
 -   Cut, delete, or paste content.
 -   Navigate to another document.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374)
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [DOM Level 2](http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/html.html#ID-6043025)

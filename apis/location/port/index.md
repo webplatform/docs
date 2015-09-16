@@ -20,13 +20,13 @@ tags:
 uri: apis/location/port
 
 ---
-## <span>Summary</span>
+## Summary
 
 The port number the document was accessed via.
 
 Property of [apis/location](/apis/location)[apis/location](/apis/location)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,15 +34,15 @@ Property of [apis/location](/apis/location)[apis/location](/apis/location)
 var result = window.location.port;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 The port number the document was accessed via.
 
 For example, `http://example.org/` would return the default HTTP port number of `80`.
 
-## <span>Examples</span>
+## Examples
 
 The following example assumes your document has a div element with id 'hostDiv', like this.
 
@@ -57,7 +57,7 @@ var container = document.getElementById('hostDiv');
 container.innerHTML = port;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Window Object 1.0](http://www.w3.org/TR/Window/)
 :   W3C Working Draft

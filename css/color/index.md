@@ -11,11 +11,11 @@ tags:
 uri: css/color
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page explains the different mechanisms available in HTML and CSS to specify colors.
 
-## <span>Basic HTML Color keywords</span>
+## Basic HTML Color keywords
 
 The [HTML 4.01 spec](http://www.w3.org/TR/REC-html40/types.html#h-6.5) defines 16 color keywords. These colors can always be rendered properly, regardless of the color resolution of the user's display card. As an example, you can specify pure red text in CSS with the following:
 
@@ -25,7 +25,7 @@ color: red; /* color rendered pure red */
 
  The [Cascading Style Sheets, Level 2 Revision 1 (CSS2.1)](http://www.w3.org/TR/CSS2/syndata.html#color-units) specification includes "orange" (\#FFA500) for a total of 17 color keywords.
 
-## <span>Extended Color keywords</span>
+## Extended Color keywords
 
 In addition to the colors listed above, most browsers support an extended list of color keywords. The links below point to tables of colors sorted in various ways. The named colors do not represent the full color spectrum; therefore, for best results, use RGB or HSL color values. The basic and extended color keywords are defined in the [CSS Color Module Level 3 Extended Color Keywords](http://www.w3.org/TR/css3-color/#svg-color) section.
 
@@ -34,7 +34,7 @@ In addition to the colors listed above, most browsers support an extended list o
 -   [Colors by Lightness](/css/color/colors_by_lightness)
 -   [Colors by Saturation](/css/color/colors_by_saturation)
 
-### <span>Hexadecimal and RGB Notation</span>
+### Hexadecimal and RGB Notation
 
 An RGB color value can be specified in two ways:
 
@@ -60,7 +60,7 @@ color: rgb(100%,0%,0%) /* text rendered pure red because the red channel is set 
 
  Why 255? modern computers use 256-bit color, which means they can display around 16.7 million different colors (256 x 256 x 256; hexadecimal numbers have 16 different values, 0-9 and then a-f — 16 x 16 = 255). And since computers count from 0, not 1, the value range is 0-255, not 1-256.
 
-## <span>RGBA Notation</span>
+## RGBA Notation
 
 In modern browsers (Opera, Firefox, Chrome, Safari, and Internet Explorer 9+), a counterpart to the RGB color model is supported — RGBA — which can also accept an "alpha" value specifying the opacity of a color. The format of an RGBA value is the same as RGB, with the addition of a numerical value between 0 (completely transparent and therefore invisible) and 1 (completely opaque).
 
@@ -69,7 +69,7 @@ color: rgba(255,0,0,0.5) /* text rendered semi-transparent red */
 color: rgba(100%,0%,0%,0.5) /* text rendered semi-transparent red */
 ```
 
-## <span>HSL and HSLA notation</span>
+## HSL and HSLA notation
 
 Modern browsers (Opera, Firefox, Chrome, Safari, and Internet Explorer 9+) also support an \<acronym title="Hue Saturation Lightness"\>HSL\</acronym\> color model, which is also a function taking three values:
 
@@ -154,7 +154,7 @@ color: hsl(120, 100%, 80%) /* light green */
 color: hsl(120, 75%, 75%)  /* pastel green */
 ```
 
-## <span>System Colors</span>
+## System Colors
 
 **Note**: CSS2 [System Color values](http://www.w3.org/TR/css3-color/#css-system) have been deprecated in favor of the [CSS3 appearance property](http://www.w3.org/TR/css3-ui/#appearance). If you want to emulate the look of a user interface related element or control, please use the ‘appearance’ property instead of attempting to mimic a user interface element through a combination of system colors.
 
@@ -166,7 +166,7 @@ Note that the system color names have been deprecated in the <http://www.w3.org
 
 For a complete list of system colors, see [User-Defined System Colors](/css/color/user-defined_system_colors).
 
-## <span>currentColor</span>
+## currentColor
 
 -   You can use the `currentColor` value to set a color to the computed value of the element's `color` propety. for example, the background color of the div in the following example will be red, the same color as the `color` of it's parent element.
 
@@ -180,21 +180,21 @@ For a complete list of system colors, see [User-Defined System Colors](/css/colo
 </article>
 ```
 
-## <span>transparent keyword</span>
+## transparent keyword
 
 Note that the [CSS Color Module Level 3](http://www.w3.org/TR/css3-color/) spec defines a keyword `transparent`, which is very useful for overriding previously set colors when required. It is equivalent to rgba(0,0,0,0), which is completely transparent black.
 
 This value used to only be defined as an override value for the [background](/css/properties/background) and [border property](/css/properties/border), until it was defined as a true value in CSS3. `transparent` is supported on all properties in al modern browsers including IE9+.
 
-## <span>Opacity property</span>
+## Opacity property
 
 You can set the opacity of an entire element using the [opacity property](/css/properties/opacity).
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Visual Effects</span>
+#### Visual Effects
 
 -   **color**
 
@@ -230,7 +230,7 @@ You can set the opacity of an entire element using the [opacity property](/css/p
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Setting color in CSS](/tutorials/setting_color_in_css)
 -   [color](/css/properties/color)

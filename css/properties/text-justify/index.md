@@ -21,11 +21,11 @@ tags:
 uri: css/properties/text-justify
 
 ---
-## <span>Summary</span>
+## Summary
 
 The text-justify CSS property offers a fine level of justification control over the enclosed content, allowing for a variety of sophisticated justification models used in different language writing systems.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -48,7 +48,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `textJustify`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-justify: auto`
 -   `text-justify: distribute`
@@ -58,7 +58,7 @@ Animatable
 -   `text-justify: kashida`
 -   `text-justify: none`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Default. Allows the browser to determine which justification algorithm to apply.
@@ -81,7 +81,7 @@ distribute
 kashida
 :   Justifies lines of text by elongating characters at chosen points. This form of justification is intended for Arabic script languages.
 
-## <span>Examples</span>
+## Examples
 
 The first paragraph is using `inter-word` as a value of text-justify property, in English. The second one is using `distribute` in Japanese paragraph.
 
@@ -109,14 +109,14 @@ p.japanese {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/#text-justify0)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

@@ -23,26 +23,26 @@ tags:
 uri: dom/TextRange/text
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the text contained within the range.
 
 Property of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = textRange.text;
 textRange.text = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 the contained text.
 
-## <span>Examples</span>
+## Examples
 
 The following example feature tests for getSelection support and extracts the text contained within the bounds of the range(s) object(s).
 
@@ -69,7 +69,7 @@ if(window.getSelection){
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Used to extract only the text content from a range.
 

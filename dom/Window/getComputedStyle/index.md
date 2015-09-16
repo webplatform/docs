@@ -23,7 +23,7 @@ tags:
 uri: dom/Window/getComputedStyle
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the values of all the CSS properties of an element after applying the active stylesheets and resolving the basic computations they may contain.
 
@@ -31,22 +31,22 @@ The returned object is of the same type that the object returned from the elemen
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var declaration = window.getComputedStyle(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>element</span>
+### element
 
  Data-type
 :   DOM Node
 
  The element that contains the desired style settings.
 
-### <span>pseudoElementName</span>
+### pseudoElementName
 
  Data-type
 :   String
@@ -55,7 +55,7 @@ var declaration = window.getComputedStyle(/* see parameter list */);
 
 The name of a CSS pseudo-element or a null value ("::before" or "::after"). Optional in WebKit based browsers.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type CSSStyleDeclarationCSSStyleDeclaration
 
@@ -63,7 +63,7 @@ A [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration) 
 
 The settings in the returned object account for all applicable style rules and represent the resolved values for the various CSS properties applied to the specified object.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var elem1 = document.getElementById("elemId");
@@ -83,7 +83,7 @@ getComputedStyle can pull style info off of pseudo-elements (for example, ::aft
 <style><br/> h3:after {<br/>   content: ' rocks!';<br/> }<br/></style><br/> <br/><h3>generated content</h3> <br/> <br/><script><br/>  var h3       = document.querySelector('h3'), <br/>      result   = getComputedStyle(h3, ':after').content;<br/> <br/>  console.log('the generated content is: ', result); // returns ' rocks!'<br/></script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The first argument must be an Element (passing a non-Element Node, like a \#text Node, will throw an error).
 
@@ -101,7 +101,7 @@ When the *pseudoElementName* is set to a value other than null, the value is int
 
 Starting in Gecko 1.9.2 (Firefox 3.6 / Thunderbird 3.1 / Fennec 1.0), returned URL values now have quotes around the URL, like this: url("<http://foo.com/bar.jpg>").
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html)
 :   Recommendation
@@ -109,11 +109,11 @@ Starting in Gecko 1.9.2 (Firefox 3.6 / Thunderbird 3.1 / Fennec 1.0), returned U
 [CSS Object Model (resolved style)](http://dev.w3.org/csswg/cssom/#resolved-values)
 :   Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -259,6 +259,6 @@ Starting in Gecko 1.9.2 (Firefox 3.6 / Thunderbird 3.1 / Fennec 1.0), returned U
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>External resources</span>
+### External resources
 
 Microsoft Test Drive for getComputedStyle <http://ie.microsoft.com/testdrive/HTML5/getComputedStyle/>

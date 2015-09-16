@@ -16,21 +16,21 @@ tags:
 uri: 'apis/media source extensions/MediaSource/endOfStream'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Used to indicate that the end of the stream has been reached.
 
 Method of [apis/media\_source\_extensions/MediaSource](/apis/media_source_extensions/MediaSource)[apis/media\_source\_extensions/MediaSource](/apis/media_source_extensions/MediaSource)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  MediaSource.endOfStream(error);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>error</span>
+### error
 
  Data-type
 :   enum
@@ -48,13 +48,13 @@ network
 decode
 :   A decode error occurred.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      This method throws an INVALID_STATE_ERR exception under the following conditions:
 

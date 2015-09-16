@@ -23,16 +23,16 @@ uri: 'apis/web animations/Animation/target'
 
 Property of [apis/web\_animations/Animation](/apis/web_animations/Animation)[apis/web\_animations/Animation](/apis/web_animations/Animation)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var myTarget = myAnimation.target;
 myAnimation.target = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 returns an apis/web\_animations/Animatable object.
 

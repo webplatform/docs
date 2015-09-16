@@ -9,7 +9,7 @@ tags:
 uri: 'concepts/mobile web/mobile javascript best practices'
 
 ---
-## <span>Summary</span>
+## Summary
 
 What to know, what to watch out for to make your apps perform at their best.
 

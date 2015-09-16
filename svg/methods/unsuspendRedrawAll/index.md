@@ -11,20 +11,20 @@ tags:
 uri: svg/methods/unsuspendRedrawAll
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Typically, you should call the **unsuspendRedrawAll** method as the last call of a set of SVG DOM calls to make sure that all pending [**suspendRedraw**](/svg/methods/suspendRedraw) method calls are canceled.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGSVGElement**](/svg/elements/svg)

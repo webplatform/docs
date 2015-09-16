@@ -18,11 +18,11 @@ tags:
 uri: css/properties/border-corner-shape
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies different corner clipping effects, such as scoop (inner curves), bevel (straight cuts) or notch (cut-off rectangles). Works along with border-radius to specify the size of each corner effect.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `curve`
@@ -48,14 +48,14 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `border-corner-shape: bevel`
 -   `border-corner-shape: curve`
 -   `border-corner-shape: notch`
 -   `border-corner-shape: scoop`
 
-## <span>Values</span>
+## Values
 
 curve
 :   Border radii define a convex curve at the corner (default behavior of border-radius).
@@ -69,7 +69,7 @@ scoop
 notch
 :   Border radii define a concave rectangular notch at the corner.
 
-## <span>Examples</span>
+## Examples
 
 Create a diamond (rhombus) shape
 
@@ -85,16 +85,16 @@ border-corner-shape: bevel;
 border-radius: 25% / 100% 100% 0 0;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 4 - Backgrounds and Borders Module](http://dev.w3.org/csswg/css-backgrounds-4/#border-corner-shape)
 :   W3C Editor’s Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Box Model</span>
+#### Box Model
 
 -   [border](/css/properties/border)
 
@@ -136,6 +136,6 @@ border-radius: 25% / 100% 100% 0 0;
 
 -   [min-width](/css/properties/min-width)
 
-### <span>External resources</span>
+### External resources
 
 -   [Preview of border-corner-shape with SVG](http://leaverou.github.com/border-corner-shape)

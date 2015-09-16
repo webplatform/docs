@@ -87,49 +87,49 @@ translations:
 uri: 'Main Page/ja'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Web Platform Docsはコミュニティベースのサイトです。目標は、信頼できるwebの開発者向けのドキュメントを網羅することです。
 
-## <span>web development docsの構成</span>
+## web development docsの構成
 
-### <span>[初心者向けガイド](/beginners/ja)</span>
+### [初心者向けガイド](/beginners/ja)
 
 初めてwebを開発する方向けの初心者用資料
 
-### <span>[webについての基本概念](/concepts)</span>
+### [webについての基本概念](/concepts)
 
 webの動作や情報アーキテクチャ、タイポグラフィー、デザインといったトピックについての考え方とチュートリアル
 
-### <span>[HTML](/html/ja)</span>
+### [HTML](/html/ja)
 
 webのマークアップ言語についての考え方やリファレンス、チュートリアル
 
-### <span>[CSS](/css)</span>
+### [CSS](/css)
 
 カスケーディング・スタイル・シート(CSS)についての考え方やリファレンス、チュートリアル
 
-### <span>[アクセシビリティ](/concepts/accessibility)</span>
+### [アクセシビリティ](/concepts/accessibility)
 
 人は様々でできることは異なるが、そんな人々でもwebを使えるようにするパターンやプラクティス、ビジネス・ケース
 
-### <span>[JavaScript](/javascript/ja)</span>
+### [JavaScript](/javascript/ja)
 
 webのクライアント用スクリプト言語であるJavaScriptのチュートリアルとリファレンス。サードパーティのライブラリも含む
 
-### <span>[DOM](/dom)</span>
+### [DOM](/dom)
 
 ドキュメント・オブジェクト・モデル(DOM)のチュートリアルとリファレンス
 
-### <span>[SVG](/svg)</span>
+### [SVG](/svg)
 
 、2次元ベクター画像のためのXMLマークアップ言語であるスケーラブル・ベクター・グラフィックス(SVG)のチュートリアルとリファレンス
 
-### <span>[API](/apis)</span>
+### [API](/apis)
 
 appcacheからxhrまで記述してあるJavaScript APIのリファレンス
 
-## <span>Web Platform Docsの特徴</span>
+## Web Platform Docsの特徴
 
 Web Platform Docsはまだアルファリリース段階ですが、それでも役に立つコンテンツがたくさんあります。
 
@@ -139,14 +139,14 @@ Web Platform Docsはまだアルファリリース段階ですが、それでも
 
 将来的には、Web Platform Docsはさらに多くのコンテンツを提供する予定です。例えば、ライブ・コードの例や教育者用の資料等々です。早く実現するために、皆さんに参加していただき、英知を分けていただきたいと思います。
 
-## <span>Web Platform Docsにご協力を</span>
+## Web Platform Docsにご協力を
 
 Web Platform Docsは皆さんの助けを切に希望します。ほんのわずか協力していただくだけで、このサイトにとっては大きな意味があります。例えば、ドキュメントにある間違いを開発者に教えてあげたり、間違いを訂正したり、既存の文書を流用したり、まったく新しいコンテンツを提供したりです。詳しく知りたければ、 [Contributor’s Guide](/WPD:Contributors_Guide)をご覧ください。
 
 -   WebPlatform上の間違いを報告するには、[Project Management page](https://project.webplatform.org)を使ってください。詳しいことは、[filing bugs page](https://docs.webplatform.org/wiki/WPD:Filing_Bugs)をご覧ください。
 -   webplatform.org自体について質問があるなら、[look for an answer in the FAQ first](/WPD:FAQ)をまずご覧ください。
 
-## <span>連絡方法</span>
+## 連絡方法
 
 -   IRCで他の著者と連絡を取るなら、irc.freenode.org, the *\#webplatform*チャンネルでお願いします
 -   [blog](https://blog.webplatform.org/)を読んでください
@@ -154,6 +154,6 @@ Web Platform Docsは皆さんの助けを切に希望します。ほんのわず
 -   [logo](https://www.webplatform.org/logo)を使って、このサイトにリンクを張ってください
 -   Doc Sprintsのような[Events](/WPD:Community/Community_Events) イベントにお越しください
 
-## <span>サイト・ポリシー</span>
+## サイト・ポリシー
 
 Web Platform Docs wikiのコンテンツは、特に断りがない限り、[Creative Commons Attribution (CC-BY) license](/Template:CC-by-3.0)にもとづき利用可能です。詳しいことは、[copyright](/WPD:Copyright) and [privacy](/WPD:Privacy)ポリシーをご覧ください。[policy page](/WPD:Policy)も同様にご覧ください。

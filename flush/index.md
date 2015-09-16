@@ -9,7 +9,7 @@ tags:
 uri: flush
 
 ---
-## <span>flush</span>
+## flush
 
 In a layout, a state in which no whitespace is present between two content elements, or between a content element and the edge of its container element.
 

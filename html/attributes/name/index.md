@@ -33,7 +33,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following example shows how to set the **NAME** attribute on a dynamically created [**A**](/html/elements/a) element.
 
@@ -58,22 +58,22 @@ var inp = document.createElement('input');
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/Dyn_Name_Sample.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When you submit a **form**, use the **name** property to bind the value of the control. The name is not the value that is displayed for the **input type=button**, **input type=reset**, and **input type=submit** input types. The internally stored value is submitted with the form, not the displayed value. When you submit a **form**, use the **name** property to bind the value of the control. The name is not the value displayed for the **input type=button**, **input type=reset**, and **input type=submit** input types. The internally stored value is submitted with the **form**, not the displayed value. Microsoft JScript allows you to change the name at run time. This does not cause the name in the programming model to change in the collection of elements, but it does change the name that you use for submitting elements. Windows Internet Explorer 8 and later. In IE8 Standards mode, dynamically setting the **name** attribute on an **input type=radio** button correctly applies that button to the same named group. For more information about IE8 mode, see Defining Document Compatibility. In Internet Explorer 8 and later versions, you can set the **NAME** attribute at run time on elements that are dynamically created with the [**createElement**](/w/index.php?title=dom/methods/createElement&action=edit&redlink=1) method. To create an element with a **NAME** attribute in earlier versions of Windows Internet Explorer, include the attribute and its value when you use the **createElement** method. In Microsoft Internet Explorer 6 and later versions, this property applies to the [**attribute**](/w/index.php?title=dom/attributes&action=edit&redlink=1) object.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 17.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`
 -   `applet`

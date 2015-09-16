@@ -23,11 +23,11 @@ tags:
 uri: css/properties/column-span
 
 ---
-## <span>Summary</span>
+## Summary
 
 The column-span CSS property makes it possible for an element to span across all columns when its value is set to all. An element that spans more than one column is called a spanning element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -53,12 +53,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `column-span: all`
 -   `column-span: none`
 
-## <span>Values</span>
+## Values
 
 none
 :   Default. The content block does not span multiple columns.
@@ -66,7 +66,7 @@ none
 all
 :   The content block spans all columns on a page. All content that is declared before the content block is shown before the content block.
 
-## <span>Examples</span>
+## Examples
 
 Makes 4 columns and creates a span that crosses through columns
 
@@ -89,20 +89,20 @@ Makes 4 columns and creates a span that crosses through columns
 
 [View live example](http://code.webplatform.org/gist/5306158)
 
-## <span>Notes</span>
+## Notes
 
 An element that spans more than one column is called a spanning element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Multi-Column</span>
+#### Multi-Column
 
 -   [break-after](/css/properties/break-after)
 

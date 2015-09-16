@@ -22,11 +22,11 @@ tags:
 uri: css/properties/top
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property specifies how far an absolutely positioned box's top margin edge is offset below the top edge of the box's containing block. For relatively positioned boxes, the offset is with respect to the top edges of the box itself (i.e., the box is given a position in the normal flow, then offset from that position according to these properties).
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -52,13 +52,13 @@ Animatable
 Percentages
 :   refer to height of containing block
 
-## <span>Syntax</span>
+## Syntax
 
 -   `top: auto`
 -   `top: length`
 -   `top: percentage`
 
-## <span>Values</span>
+## Values
 
 auto
 :   For non-replaced elements, the effect of this value depends on which of related properties have the value 'auto' as well. See the sections on the width and height of absolutely positioned, non-replaced elements for details. For replaced elements, the effect of this value depends only on the intrinsic dimensions of the replaced content. See the sections on the width and height of absolutely positioned, replaced elements for details
@@ -69,7 +69,7 @@ length
 percentage
 :   The offset is a percentage of the containing block's width (for 'left' or 'right') or height (for 'top' and 'bottom'). Negative values are allowed.
 
-## <span>Examples</span>
+## Examples
 
 We demonstrate the \`top\` property by positioning the elements.
 
@@ -142,7 +142,7 @@ The HTML for the above example.
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification](http://www.w3.org/TR/2007/CR-CSS21-20070719/visuren.html#position-props)
 :   Recommendation

@@ -20,11 +20,11 @@ todo_broken_links:
 uri: html/elements/label
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies a label for another element on the page.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLLabelElement](/dom/HTMLLabelElement)
@@ -36,7 +36,7 @@ The content of the label provides the caption for the input. The input can be sp
 
 User agents will often focus the cursor on the input element after clicking the associated label.
 
-## <span>HTML Attributes</span>
+## HTML Attributes
 
  `form` = string
 :   Associate the fieldset element with its form owner.
@@ -44,7 +44,7 @@ User agents will often focus the cursor on the input element after clicking the 
 :   Specified to indicate a form control with which the caption is to be associated.
     The attribute's value must be the ID of a labelable form-associated element in the same Document as the label element.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **LABEL** element and the [**ACCESSKEY**](/html/attributes/accessKey) attribute to set focus on a text box.
 
@@ -58,13 +58,13 @@ This example uses the **LABEL** element and the [**ACCESSKEY**](/html/attributes
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/accesskey.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 To bind a **LABEL** to another control, set the [**FOR**](/html/attributes/dom/for) attribute of the **LABEL** element equal to the [**ID**](/html/attributes/id) of the control. Binding a **LABEL** to the [**NAME**](/html/attributes/name) attribute of the control has no effect. However, to submit a form, you must specify a **NAME** on the control to which the **LABEL** element is being bound. There are two ways to underline the designated access key. The rich text support in the **LABEL** element makes it possible to wrap the **U** element around the character in the label text specified by the [**ACCESSKEY**](/html/attributes/accessKey) attribute. If you prefer to use cascading style sheets (CSS) to apply style formatting, enclose the designated character in a **SPAN** and set the style to `"text-decoration: underline"`. If the user clicks the **LABEL**, the [**onclick**](/w/index.php?title=dom/events/click&action=edit&redlink=1) event fires on the **LABEL** and then on the control specified by the [**htmlFor**](/html/attributes/dom/for) property. Pressing the access key for the **LABEL** sets the focus but does not fire the **onclick** event. Labels cannot be nested.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-label-element)
 :   W3C Working Draft

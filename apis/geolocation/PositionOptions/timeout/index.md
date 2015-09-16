@@ -22,31 +22,31 @@ tags:
 uri: apis/geolocation/PositionOptions/timeout
 
 ---
-## <span>Summary</span>
+## Summary
 
 Denotes the maximum length of time (expressed in milliseconds) that is allowed to pass from the call to getCurrentPosition() or watchPosition() until the corresponding successCallback is invoked.
 
 Property of [apis/geolocation/PositionOptions](/apis/geolocation/PositionOptions)[apis/geolocation/PositionOptions](/apis/geolocation/PositionOptions)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = PositionOptions.timeout;
 PositionOptions.timeout = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //10000ms = 10sec
 PositionOptions.timeout = 10000;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

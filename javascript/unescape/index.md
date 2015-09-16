@@ -13,13 +13,13 @@ tags:
 uri: javascript/unescape
 
 ---
-## <span>Summary</span>
+## Summary
 
 Deprecated
 
 The deprecated **unescape()** function decodes a string that is usually encoded with the **escape** function.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -28,7 +28,7 @@ The deprecated **unescape()** function decodes a string that is usually encoded 
 **str**
 :   Required. A String to be decoded
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 unescape("webplatform"); // "webplatform"
@@ -36,23 +36,23 @@ unescape("%FCmlaut"); // "ümlaut"
 unescape("%u65E5%u672C%u8A9E"); // "日本語"
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 All characters encoded with the % xx hexadecimal form are replaced by their ASCII character set equivalents.
 
 Characters encoded in **%u** xxxx format (Unicode characters) are replaced with the Unicode character with hexadecimal encoding xxxx.
 
-## <span>Notes</span>
+## Notes
 
 Do not use the **unescape** function to decode URIs. Use [decodeURI](/javascript/decodeURI) and [decodeURIComponent](/javascript/decodeURIComponent) functions instead.
 
 This function is deprecated and not recommended for use in new projects. Use with caution.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Deprecated</span>
+#### Deprecated
 
 -   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 
@@ -84,7 +84,7 @@ This function is deprecated and not recommended for use in new projects. Use wit
 
 -   **unescape**
 
-### <span>Other articles</span>
+### Other articles
 
 -   [decodeURI Function](/javascript/decodeURI)
 -   [decodeURIComponent Function](/javascript/decodeURIComponent)

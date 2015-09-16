@@ -27,19 +27,19 @@ tags:
 uri: dom/HTMLElement/getClientRects
 
 ---
-## <span>Summary</span>
+## Summary
 
 A collection of ClientRect objects, one for each CSS border box associated with the element. Each ClientRect object contains read-only left, top, right, and bottom properties describing the border box, relative to the top-left of the viewport. For tables with captions, the caption is included even though it is outside the border box of the table.
 
 Method of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var rectList = element.getClientRects();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ClientRectListClientRectList
 
@@ -52,7 +52,7 @@ A **ClientRectList** collection, that contains **ClientRect** objects with the f
      height: Number
      width: Number
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **getClientRects** and [**getBoundingClientRect**](/dom/HTMLElement/getBoundingClientRect) methods to highlight text lines in an object.
 
@@ -188,7 +188,7 @@ function End() {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectdemo.htm)
 
-## <span>Notes</span>
+## Notes
 
 -   Before being in the process of standardization, it was intended that this method would return a TextRectangle object for each line of text in an element. However, the CSSOM working draft specifies that it returns a ClientRect for each border box. For an inline element, the two definitions are the same. But for a block element, the CSSOM version returns only a single rectangle.
 -   The amount of scrolling that has been done of the viewport area (or any other scrollable element) is taken into account when computing the rectangles.
@@ -197,11 +197,11 @@ function End() {
 -   Rectangles are returned even for CSS boxes that have empty border-boxes. The left, top, right and bottom coordinates can still be meaningful.
 -   Fractional pixel offsets are possible.
 
-### <span>Compatibility notes</span>
+### Compatibility notes
 
 Internet Explorer 8 and below - **getClientRect** returns a proprietary `TextRectangle` object. While it is similar to [ClientRect](/css/cssom/ClientRect), it does not have `height` or `width` properties and furthermore cannot have any additional properties (including `height` and `width`) added to it.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSSOM View Module](http://www.w3.org/TR/cssom-view/#dom-range-getclientrects)
 :   Working Draft

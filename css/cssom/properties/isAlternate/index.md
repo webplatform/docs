@@ -22,7 +22,7 @@ uri: css/cssom/properties/isAlternate
 
 Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.isAlternate;
@@ -31,13 +31,13 @@ element.isAlternate = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -183,7 +183,7 @@ element.isAlternate = value;
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `styleSheet`
 -   `isPrefAlternate`

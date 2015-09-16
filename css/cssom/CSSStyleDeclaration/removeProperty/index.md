@@ -24,28 +24,28 @@ tags:
 uri: css/cssom/CSSStyleDeclaration/removeProperty
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes a property from a CSS style declaration.
 
 Method of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var value = declaration.removeProperty(property);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>property</span>
+### property
 
  Data-type
 :   String
 
  The name of the property to remove.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -53,7 +53,7 @@ The value of the property if it is explicitly set for this declaration block, or
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html)
 :   Recommendation

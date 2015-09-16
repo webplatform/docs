@@ -13,7 +13,7 @@ tags:
 uri: 'html/attributes/autocomplete (input, form elements)'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies whether a form should have autocomplete on or off. When autocomplete is on, the browser automatically complete values based on values that the user has entered before.
 
@@ -31,17 +31,17 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If the autocomplete attribute is missing, the field will default to an "on" state if element has no parent form, or if the form has autocomplete set to "on".
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLInputElement`
 -   `HTMLFormElement`

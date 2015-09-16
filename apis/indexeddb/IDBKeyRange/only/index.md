@@ -23,35 +23,35 @@ tags:
 uri: apis/indexeddb/IDBKeyRange/only
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates and returns a new key range with both lower and upper set to value and both lowerOpen and upperOpen set to false.
 
 Method of [apis/indexeddb/IDBKeyRange](/apis/indexeddb/IDBKeyRange)[apis/indexeddb/IDBKeyRange](/apis/indexeddb/IDBKeyRange)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.only(value);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>value</span>
+### value
 
  Data-type
 :   Blob
 
  The value for the key range.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

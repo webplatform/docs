@@ -23,13 +23,13 @@ tags:
 uri: 'apis/navigation timing/PerformanceNavigation/type'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the type of the last non-redirect navigation in the current browsing context. See Notes.
 
 Property of [apis/navigation timing/PerformanceNavigation](/apis/navigation_timing/PerformanceNavigation)[apis/navigation timing/PerformanceNavigation](/apis/navigation_timing/PerformanceNavigation)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,18 +37,18 @@ Property of [apis/navigation timing/PerformanceNavigation](/apis/navigation_timi
 var result = PerformanceNavigation.type;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned shortunsigned short
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var perfnavtyp = performance.navigation.type;
 alert(perfnavtyp); // see Notes
 ```
 
-## <span>Notes</span>
+## Notes
 
 This attribute must have one of the following navigation type values.
 
@@ -57,7 +57,7 @@ This attribute must have one of the following navigation type values.
 -   TYPE\_BACK\_FORWARD (2): Navigation through a history traversal operation.
 -   TYPE\_RESERVED (255): Any navigation types not defined by values above.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Navigation Timing Specification 2](http://www.w3.org/TR/navigation-timing-2/)
 :   W3C Working Draft

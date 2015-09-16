@@ -22,7 +22,7 @@ uri: 'css/high contrast mode/properties/-ms-high-contrast'
 
 Property of [css/media\_queries/media\_groups/bitmap](/css/media_queries/media_groups/bitmap)[css/media\_queries/media\_groups/bitmap](/css/media_queries/media_groups/bitmap)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.-ms-high-contrast;
@@ -31,18 +31,18 @@ element.-ms-high-contrast = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Related topics</span>
+### Related topics
 
 [**-ms-high-contrast-adjust**](/css/high_contrast_modeapis/properties/ms-high-contrast-adjust)
 :
 
     [[ie\_css\\ie](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback):%20-ms-high-contrast media feature%20 RELEASE:%20(7/24/2012)&body=%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see <http://privacy.microsoft.com/en-us/default.aspx>. Send comments about this topic to Microsoft] Build date: 7/24/2012
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Visual Effects</span>
+#### Visual Effects
 
 -   [color](/css/color)
 

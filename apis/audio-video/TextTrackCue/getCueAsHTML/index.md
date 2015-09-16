@@ -23,25 +23,25 @@ tags:
 uri: apis/audio-video/TextTrackCue/getCueAsHTML
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the text track cue text as a DocumentFragment of HTML elements and other DOM nodes.
 
 Method of [apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)[apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = TextTrackCue.getCueAsHTML();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 DocumentFragment: A document fragment that represents the [TextTrackCue](/apis/audio-video/TextTrackCue) text.
 
-## <span>Examples</span>
+## Examples
 
 The HTML nodes replace the span element that is the first child of the div.
 
@@ -67,11 +67,11 @@ The HTML nodes replace the span element that is the first child of the div.
       <track id='track1' label='English captions' src="entrack.vtt" kind='subtitles' srclang='en' default >
     </video>
     <div id="display">
-      <span></span>
+      
     </div>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

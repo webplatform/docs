@@ -16,19 +16,19 @@ tags:
 uri: html/elements/listing
 
 ---
-## <span>Summary</span>
+## Summary
 
 (Obsolete) Renders text of the element (usually in monospace font) without interpreting contain HTML markup; obsoleted by pre and code elements.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This tag is no longer recommended. Use the **PRE** or **SAMP** tag instead.

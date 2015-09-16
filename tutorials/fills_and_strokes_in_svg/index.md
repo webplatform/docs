@@ -18,15 +18,15 @@ todo_broken_links:
 uri: 'tutorials/fills and strokes in svg'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article shows how to add fills and strokes to the SVG shapes you have drawn.
 
 So now with your knowledge of how to draw all sorts of shapes, your next goal is probably coloring them in. There are several ways to do this, including specifying attributes on the object, using inline CSS, using an embedded CSS section, or using an external CSS file. Most SVG you'll find around the web uses inline CSS, but there are advantages and disadvantages for all the types.
 
-## <span>Fill and Stroke Attributes</span>
+## Fill and Stroke Attributes
 
-### <span>Painting</span>
+### Painting
 
 It's been a bit difficult to avoid putting some of this in your face up until now, but in case you haven't noticed, most basic coloring can be done by setting two attributes on the node: `fill` and `stroke`. Fill sets the color inside the object and stroke sets the color of the line drawn around the object. You can use the same css color naming schemes that you use in HTML, whether that's color names (that is *red*), rgb values (that is *rgb(255,0,0)*), hex values, rgba values, etc.
 
@@ -37,7 +37,7 @@ In addition, you can specify the opacity of either the fill or stroke separately
 
      Note, in Firefox 3+ rgba values are also allowed, and will give the same effect, but for compatibility with other viewers, its often best to specify the fill/stroke opacity separately. If you specify both an rgba value and a fill/stroke opacity value, both will be applied.
 
-### <span>Stroke</span>
+### Stroke
 
 In addition to just its color properties, there are a few other attributes available to control the way a stroke is drawn on a line.
 
@@ -88,7 +88,7 @@ The `stroke-dasharray` attribute takes as an argument a series of comma separate
 
 There are a few additional stroke and fill properties available, including `fill-rule` which specifies how to color in shapes that overlap themselves, `stroke-miterlimit` which deals with a stroke should draw miters and when it shouldn't, and `stroke-dashoffset` which specifies where to start a dasharray on a line.
 
-## <span>Using CSS</span>
+## Using CSS
 
 In addition to setting attributes on objects, you can also use CSS to style fills and strokes on them. The syntax for this is the same as CSS used in normal HTML, except you'll be setting values like `fill` and `stroke` instead of `background-color` or `border`. I should note that not all attributes can be set via CSS. Things that deal with painting and filling are usually available, so `fill`, `stroke`, `stroke-dasharray`, etc. can all be set this way, in addition to the gradient and pattern versions of those shown below. Things like `width`, `height`, or path commands, `d`, can't be set through CSS. Its easiest just to test and find out what is available and what isn't.
 

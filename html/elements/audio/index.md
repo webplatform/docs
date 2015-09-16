@@ -19,18 +19,18 @@ tags:
 uri: html/elements/audio
 
 ---
-## <span>Summary</span>
+## Summary
 
 The audio element (&lt;audio&gt;) is used for playing audio files and may display a minimal media player user interface.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 Extensive documentation on manipulating the element may be found on the [HTMLAudioElement](/dom/HTMLAudioElement) page.
 
-## <span>HTML Attributes</span>
+## HTML Attributes
 
 -   `autoplay` = "autoplay" or "" (empty string) or empty
     Instructs the UA to automatically begin playback of the audio stream as soon as it can do so without stopping.
@@ -49,15 +49,15 @@ Extensive documentation on manipulating the element may be found on the [HTMLAud
 -   `src` = URL potentially surrounded by spaces
     The URL for the audio stream.
 
-## <span>Accessibility</span>
+## Accessibility
 
 Authors should ensure that the information and user interface components must be presentable to users in ways they can perceive ([WCAG 2.0 - Principle 1: Perceivable](http://www.w3.org/TR/WCAG20/#perceivable)). This includes providing alternatives for time-based media [Guideline 1.2](http://www.w3.org/TR/WCAG20/#media-equiv).
 
-## <span>Formats and Codecs</span>
+## Formats and Codecs
 
 The specification does not require a specific audio codec to be supported by all user agents. Using both Ogg/Vorbis and MP4/AAC seems to cover most user-agents, however. See the [Audio format support on Wikipedia](http://en.wikipedia.org/wiki/Html5_audio#Audio_format_support).
 
-## <span>Examples</span>
+## Examples
 
 play a mp3 on webpage
 
@@ -68,7 +68,7 @@ play a mp3 on webpage
 
 [View live example](http://code.webplatform.org/gist/7282145)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-audio-element)
 :   W3C Working Draft
@@ -76,8 +76,8 @@ play a mp3 on webpage
 [HTML 5](http://www.w3.org/TR/html5/embedded-content-0.html#the-audio-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [HTML5 and Xiph codecs](http://wiki.xiph.org/Html5)

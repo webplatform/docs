@@ -12,13 +12,13 @@ tags:
 uri: 'css/media queries/any-pointer'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The any-pointer media query returns information about all a user's pointer devices.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Media Queries Level 4](http://www.w3.org/TR/2014/WD-mediaqueries-4-20140605/)
 :   Working Draft

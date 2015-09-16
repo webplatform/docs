@@ -13,11 +13,11 @@ tags:
 uri: 'tutorials/canvas/Canvas tutorial/Transformations'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This part of the canvas tutorial is going through 2D coordinate transformations. It gives examples for the three basic transformation methods translate, rotate and scale, which can be used stacked or all-in-one per matrix multiplication.
 
-## <span>Saving and restoring state</span>
+## Saving and restoring state
 
 Before we look at the transformation methods, I'll introduce two other methods which are indispensable once you start generating ever more complex drawings.
 
@@ -36,7 +36,7 @@ You can call the `save` method as many times as you like.
 
 Every time the `restore` method is called, the last saved state is returned from the stack and all saved settings are restored.
 
-#### <span>A save and restore canvas state example</span>
+#### A save and restore canvas state example
 
 ![A stack of concentric rectangles on a canvas.](/assets/public/1/1c/Canvas_savestate.png)
 
@@ -69,7 +69,7 @@ When the second `restore` statement is called, the original state (the one we se
       ctx.fillRect(60,60,30,30);   // Draw a rectangle with restored settings
     }
 
-## <span>Translating</span>
+## Translating
 
 ![Grid showing translation coordinates along x and y axes](/assets/public/8/8e/Canvas_grid_translate.png)
 
@@ -81,7 +81,7 @@ This method takes two arguments. <var>x</var> is the amount the canvas is moved 
 
 It's a good idea to save the canvas state before doing any transformations. In most cases, it is just easier to call the `restore` method than having to do a reverse translation to return to the original state. Also if you're translating inside a loop and don't save and restore the canvas state, you might end up missing part of your drawing, because it was drawn outside the canvas edge.
 
-#### <span>A `translate` example</span>
+#### A `translate` example
 
 ![A canvas with green spirograph patterns drawn on it](/assets/public/2/23/Canvas_translate.png)
 
@@ -120,7 +120,7 @@ In the `draw` function I call the `drawSpirograph` nine times using two `for` lo
       ctx.stroke();
     }
 
-## <span>Rotating</span>
+## Rotating
 
 ![Grid showing how a canvas image is rotated by radians](/assets/public/5/56/Canvas_grid_rotate.png)
 
@@ -132,7 +132,7 @@ This method only takes one parameter and that's the angle the canvas is rotated 
 
 The rotation center point is always the canvas origin. To change the center point, we will need to move the canvas by using the `translate` method.
 
-#### <span>A `rotate` example</span>
+#### A `rotate` example
 
 ![Canvas covered in circles of differing colors, drawn in concentric pattern using the rotate method](/assets/public/2/2e/Canvas_rotate.png)
 
@@ -159,7 +159,7 @@ Again we have two loops. The first determines the number of rings, and the secon
       }
     }
 
-## <span>Scaling</span>
+## Scaling
 
 The next transformation method is scaling. We use it to increase or decrease the units in our canvas grid. This can be used to draw scaled down or enlarged shapes and bitmaps.
 
@@ -169,7 +169,7 @@ This method takes two parameters. `x` is the scale factor in the horizontal dire
 
 By default one unit on the canvas is exactly one pixel. If we apply, for instance, a scaling factor of 0.5, the resulting unit would become 0.5 pixels and so shapes would be drawn at half size. In a similar way setting the scaling factor to 2.0 would increase the unit size and one unit now becomes two pixels. This results in shapes being drawn twice as large.
 
-#### <span>A `scale` example</span>
+#### A `scale` example
 
 ![Canvas with spirograpgh images on it](/assets/public/9/99/Canvas_scale.png)
 
@@ -233,7 +233,7 @@ The third row of green shapes is similar to the one above but now I've applied a
 
     }
 
-## <span>Transforms</span>
+## Transforms
 
 The final transformation methods allow modifications directly to the transformation matrix.
 
@@ -253,7 +253,7 @@ If any of the arguments are Infinity the transformation matrix must be marked as
 
 This method must reset the current transform to the identity matrix, and then invoke the `transform` method with the same arguments.
 
-#### <span>`transform` / `setTransform` examples</span>
+#### `transform` / `setTransform` examples
 
 ![Canvas with a rectangle rotated around a point via transforms, with a pink rectangle in the lower left quadrant](/assets/public/1/1a/Canvas_transform.png)
 

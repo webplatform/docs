@@ -11,20 +11,20 @@ tags:
 uri: svg/properties/contentScriptType
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Do not set the **contentScriptType** property. If you try to set this property, it causes an error. The set of valid language types is defined by [RFC4329: Scripting Media Types](http://go.microsoft.com/fwlink/p/?linkid=203481).
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGSVGElement**](/svg/elements/svg)

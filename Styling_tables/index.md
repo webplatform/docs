@@ -6,7 +6,7 @@ tags:
 uri: 'Styling tables'
 
 ---
-## <span>Introduction</span>
+## Introduction
 
 At times it seems that tables are a little misunderstood in modern web development. So much attention is given to "don’t use tables!" that people sometimes forget the issue is actually "don’t use tables *for layout*". Tables are excellent for their true purpose—displaying tabular data. So it makes sense to know how to style them properly.
 
@@ -14,7 +14,7 @@ This article of the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standa
 
 You may find it useful to [download the code examples for tables shown in this article](http://dev.opera.com/articles/view/33-styling-tables/table-examples.zip), so you can follow along with the article as it progresses.
 
-## <span>Table structure</span>
+## Table structure
 
 Before we dive into the CSS, let’s consider the key structural elements of tables you will need to style clearly:
 
@@ -26,7 +26,7 @@ When your site users read your table, they should be able to easily understand a
 
 You do not have to follow these style conventions, however, you should ensure that there is some clear difference between `th` and `td` cells; also, the `caption` should be clearly associated with the table and differentiated from other text on the page.
 
-## <span>The basics</span>
+## The basics
 
 Consider the way this unstyled table is rendered (this is the same example you met in [HTML tables](http://www.w3.org/wiki/HTML_tables)):
 
@@ -116,7 +116,7 @@ Explosive Eruption
 </table>
 The data is understandable, but it does takes some effort to work out what’s happening. Let’s add some style to make it easier to read.
 
-### <span>Table and cell width</span>
+### Table and cell width
 
 The first decision is how wide to make the table. The browser default is the same as setting `table { width: auto; }`, which results in the table extending to the width of the content. This generally looks untidy.
 
@@ -138,7 +138,7 @@ Figure 1: The example table with simple width settings.
 
 The cells are now sitting at an even width. We’ll look at setting uneven widths later, but for now let’s push on.
 
-### <span>Text alignment</span>
+### Text alignment
 
 The table is still a bit confusing to read, so let’s set up the text alignment to be a little neater—the additional rule below will left-align the headers to match the content (by default, browsers centre table headings):
 
@@ -177,7 +177,7 @@ Figure 3: Table with vertical alignment added.
 
 Note how the top row of headings all sit at the top, even though "Last Major Eruption" wraps on to two lines.
 
-### <span>Borders</span>
+### Borders
 
 The table is looking a little nicer, however it is still a bit hard to read along each line. It’s time to set some borders to make things easier to read. You need to set borders separately for each part of the table, then decide how those borders should combine.
 
@@ -257,7 +257,7 @@ Figure 6: Table with border-collapse set to collapse, reducing the border to 1px
 
 When you set borders to collapse, you need to keep in mind that this can cause issues if you have different border styles applied to adjacent cells. When the different border styles are collapsed into each other, they will "conflict" with each other. This is resolved according to the [W3C CSS2 Table border conflict resolution rules](http://www.w3.org/TR/REC-CSS2/tables.html#border-conflict-resolution), which determine which style "wins" when they are collapsed.
 
-### <span>Padding</span>
+### Padding
 
 Now that you have borders on the cells, you might like to add some whitespace to the caption and table cells. You simply use padding to accomplish this:
 
@@ -285,7 +285,7 @@ This allows the text to "breathe" a little, as seen in Figure 7:
 
 Figure 7: Table with padding applied to all cells.
 
-### <span>Caption placement</span>
+### Caption placement
 
 So far the caption has been left sitting at the top of the table. However, you might like to move the caption somewhere else. Unfortunately you cannot do this in IE, but for all other browsers you can change the position of the caption using the `caption-side` property. The options are top, bottom, left and right. Let’s move the caption to the bottom:
 
@@ -318,7 +318,7 @@ If you do want move the caption, remember that any side-specific styles will not
 
 For the rest of the examples, I will leave it at the top.
 
-### <span>Backgrounds</span>
+### Backgrounds
 
 Another simple way to style tables is to add background colours and images. This is done with the `background` property, although you need to be aware that the different parts of the table will "layer" over each other. [The CSS2 specification explains background layering in some detail](http://www.w3.org/TR/REC-CSS2/tables.html#table-layers) however the short version is that backgrounds will override each other in the following order:
 
@@ -369,7 +369,7 @@ Figure 11: The smaller border-spacing gap rendered by IE.
 
 Depending on your circumstances, you may be happy to simply accept this different rendering between browsers. Of course that isn’t always an option, for example when a client particularly wants a design to look exactly the same in all browsers.
 
-### <span>Fixing IE with conditional styles</span>
+### Fixing IE with conditional styles
 
 There is a workaround for the IE problems listed above. It requires a hack and an extra stylesheet, but it works. You can use an `expression` to produce the wider gap, then load that expression using conditional comments. The expression syntax is:
 
@@ -402,7 +402,7 @@ Then set your IE-only style in `ie-only.css`:
 
 This will get IE to produce a table with wide cell spacing. You just have to remember to maintain the extra width settings—if you update your main stylesheet, you will have to update `ie-only.css` as well. Obviously conditional comments allow you to do a lot more than just style tables, since the extra stylesheet can contain as much CSS as you need to fix IE bugs.
 
-### <span>A simple design</span>
+### A simple design
 
 Most designs use relatively simple combinations of backgrounds. Let’s give the table headers a grey background, and change the caption to be white text on black:
 
@@ -437,11 +437,11 @@ This looks like Figure 12:
 
 Figure 12: Table with reversed white-on-black caption and light grey background applied to the table heading cells.
 
-## <span>Common variations</span>
+## Common variations
 
 In this section I will look at some common design archetypes you will see again and again in tables across the Web.
 
-### <span>Zebra striping</span>
+### Zebra striping
 
 A common design request for tables is to create rows with alternating colours. These are commonly referred to as "zebra striping". Although there is [some conjecture as to whether zebra striping actually helps the reader](http://www.alistapart.com/articles/zebrastripingdoesithelp), they are a popular style. Figure 13 shows an example:
 
@@ -474,7 +474,7 @@ There are two other options:
 -   You can add the classes using unobtrusive JavaScript, as demonstrated in [A List Apart: Zebra Tables](http://www.alistapart.com/articles/zebratables/). Most JavaScript frameworks have a suitable method, too: [Zebra Table Showdown](http://jquery.com/blog/2006/10/18/zebra-table-showdown/) compares a range of framework implementations.
 -   You can use the CSS3 `:nth-child` selector, however, this isn’t supported across all the major browsers yet. Support will improve as time goes on though. You can [find more out about zebra striping with nth-child in a dedicated dev.opera.com article](http://dev.opera.com/articles/view/zebra-striping-tables-with-css3/).
 
-### <span>Incomplete grids</span>
+### Incomplete grids
 
 Some designs will respond well to less structured, more open-looking grids. A simple variation is to remove the vertical borders and leave out the background fill on the caption, as seen in Figure 14:
 
@@ -558,7 +558,7 @@ The CSS for this effect is:
       font-size: 0.8em;
     }
 
-### <span>Inner grids</span>
+### Inner grids
 
 Sometimes you will want to remove the outer border, but keep the inner grid of borders, like in Figure 16:
 
@@ -611,7 +611,7 @@ Then we use that class to remove the right border from those cells. The full CSS
       width: 25%;
     }
 
-#### <span>Inner grids using :last-child</span>
+#### Inner grids using :last-child
 
 When browser support improves, we will be able to use the pseudo selector `:last-child` to achieve this effect without classes. The CSS would be:
 
@@ -642,11 +642,11 @@ When browser support improves, we will be able to use the pseudo selector `:last
 
 This currently works in the latest versions of Opera, Firefox and Safari.
 
-## <span>Two common bugs</span>
+## Two common bugs
 
 In this last section I’ll cover two really common bugs, so you’re prepared for when they crop up. They concern borders and captions.
 
-### <span>border-collapse bug</span>
+### border-collapse bug
 
 When you set your table to `border-collapse: collapse;` you will find that Firefox and Safari will incorrectly display the width of table features. For example, if you set a 1px border on the table, cells and caption, Firefox will render the caption 1px too narrow on the left, as seen in Figure 17:
 
@@ -674,7 +674,7 @@ In Firefox at least, the 1px borders will add up to the desired 2px rendered bor
 
 Alternatively, you can hide the problem by not using a border or background colour on your caption. The problem is still there; you just won’t see it. This is probably the simplest and most effective solution.
 
-### <span>Margin/caption bug</span>
+### Margin/caption bug
 
 If you use a caption and set a margin on `table`, you need to be aware that Firefox and Safari may place the table margin *between* the table cells and the caption.
 
@@ -682,17 +682,17 @@ To combat this in Firefox, you can set the margin on three sides of `table`, set
 
 The only way to avoid a problem in both Firefox *and* Safari is to set a zero margin on the side with the caption. For example, if your caption is at the top you could just set your margin on the right, bottom and left sides; or just the bottom. This may work if you set all of your margins on the same side of content elements, so the margin isn’t required to space the table from adjacent content.
 
-## <span>Summary</span>
+## Summary
 
 By now you should have a good grasp of the fundamental styling options available for tables. There are some limitations imposed by browser inconsistencies, but in general you should be able to create clear and readable tables without any trouble. Just pay attention to your borders, give the text some breathing room, and be careful with backgrounds.
 
-## <span>Exercise questions</span>
+## Exercise questions
 
 -   How do you control the space between table and cell borders?
 -   What happens when `table` has one background colour, `th` and `td` cells have another background colour, and `border-collapse` is set to `collapse`?
 -   How do you set different columns to have different widths?
 
-## <span>Further reading</span>
+## Further reading
 
 -   [W3C: CSS2 Tables](http://www.w3.org/TR/REC-CSS2/tables.html), with particular reference to the [CSS2 table background layering](http://www.w3.org/TR/REC-CSS2/tables.html#table-layers) section.
 -   [A List Apart: A Dao of Web Design](http://www.alistapart.com/articles/dao/)—"let the web be the web". A timeless article which will explain why a 1px difference between browsers doesn’t truly matter.

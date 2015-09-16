@@ -11,11 +11,11 @@ tags:
 uri: 'tutorials/learning why we use css'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This tutorial looks at why we should use CSS, and why using CSS for styling our documents is better than using presentational HTML.
 
-## <span>Information: Why use CSS?</span>
+## Information: Why use CSS?
 
 CSS helps you to keep the informational content of a document separate from the details of how to display it. The details of how to display the document are known as its *style*. You keep the style separate from the content so that you can:
 
@@ -27,9 +27,9 @@ Your web site might have thousands of pages that look similar. Using CSS, you st
 
 In general, you use HTML to describe the content of the document, not its style; you use CSS to specify its style, not its content. There are exceptions to this rule, of course, and HTML also provides some ways to specify style. For example, in HTML you can use a `<b>` tag to make text bold, and you can specify the background colour of a page in its `<body>` tag. When you use CSS, you normally avoid using these HTML style features so that all your document's style information is in one place.
 
-## <span>Action: Creating a style sheet for an HTML document</span>
+## Action: Creating a style sheet for an HTML document
 
-### <span>Creating the style sheet</span>
+### Creating the style sheet
 
 1.  Create a text file; this file will be your style sheet. Name it `style1.css`
 
@@ -39,7 +39,7 @@ In general, you use HTML to describe the content of the document, not its style;
     strong { color: red; }
     ```
 
-### <span>Linking your document to your stylesheet</span>
+### Linking your document to your stylesheet
 
 1.  Create another text file; this file will be your HTML document. Name it whatever you like.
 
@@ -67,6 +67,6 @@ In general, you use HTML to describe the content of the document, not its style;
 
     **C**ascading **S**tyle **S**heets
 
-## <span>What next?</span>
+## What next?
 
 Now you have a sample document linked to a separate style sheet, you are ready to learn more about how your browser combines them when it displays the document. See the other tutorials in this section for more information.

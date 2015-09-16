@@ -10,7 +10,7 @@ tags:
 uri: 'css/data types/image'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &lt;image&gt; CSS data type represents graphical content. Images are usually specified with the url() function, but may also be created with a gradient function. Other syntaxes are defined but not widely implemented.
 
@@ -28,7 +28,7 @@ The [CSS Image Values and Replaced Content Module](http://www.w3.org/TR/css3-ima
 
 Only the first two options are commonly implemented, and even browsers that support gradients as images may not support them for all image properties.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 div.feature {
@@ -38,7 +38,7 @@ div.feature {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/#images)
 :   Candidate Recommendation

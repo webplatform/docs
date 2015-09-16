@@ -30,7 +30,7 @@ Internationalization topics related to the `hreflang` attribute:
 
 -   [Indicating the language of a link destination](http://www.w3.org/International/techniques/authoring-html#linkdestination)
 
-## <span>Examples</span>
+## Examples
 
 In the [**a**](/html/elements/a) element in the following example, the **HREFLANG** attribute specifies the language code of the U.S. version of English.
 
@@ -38,23 +38,23 @@ In the [**a**](/html/elements/a) element in the following example, the **HREFLAN
 <A HREF="http://example.microsoft.com/..." HREFLANG="en-US">anchor text</A>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 You must set the value of this property before you can retrieve it. Language codes identify natural languages that are spoken, written, or otherwise used for the communication of information among people, and are defined and explained in [Internet-Draft: BCP 47](http://www.rfc-editor.org/rfc/bcp/bcp47.txt). Computer languages are explicitly excluded from language codes.
 
 **hreflang** was introduced in Microsoft Internet Explorer 6
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`
 -   `link`

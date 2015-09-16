@@ -26,13 +26,13 @@ uri: dom/Selection/createRangeCollection
 
 Method of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.createRangeCollection();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -42,14 +42,14 @@ Returns a collection of [**TextRange**](/dom/TextRange) objects.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Host applications can provide a multiple selection mechanism and can return a collection of [**TextRange**](/dom/TextRange) objects that represents discontinuous selections. The host application provides the collection through the **ISegmentList** interface. *MSHTML* requests this interface through the **ISelectionServices** interface. Microsoft Internet Explorer 5.5 does not provide multiple selection. The default implementation of this method returns a collection consisting of a single [**TextRange**](/dom/TextRange) object.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

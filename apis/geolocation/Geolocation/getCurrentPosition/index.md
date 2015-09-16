@@ -20,28 +20,28 @@ tags:
 uri: apis/geolocation/Geolocation/getCurrentPosition
 
 ---
-## <span>Summary</span>
+## Summary
 
 Obtains the current location of the device.
 
 Method of [apis/geolocation/Geolocation](/apis/geolocation/Geolocation)[apis/geolocation/Geolocation](/apis/geolocation/Geolocation)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  Geolocation.getCurrentPosition(successCallback, errorCallback, options);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>successCallback</span>
+### successCallback
 
  Data-type
 :   any
 
  The function to call when geographic position is successfully obtained. The function specified by the *successCallback* parameter takes one *position* parameter.
 
-### <span>errorCallback</span>
+### errorCallback
 
  Data-type
 :   any
@@ -50,7 +50,7 @@ Method of [apis/geolocation/Geolocation](/apis/geolocation/Geolocation)[apis/geo
 
 The function to call when the method fails. The function specified by the *errorCallback* parameter takes one *positionError* parameter. To use the *options* parameter without using the *errorCallback* parameter, set the *errorCallback* parameter to **null**.
 
-### <span>options</span>
+### options
 
  Data-type
 :   any
@@ -59,11 +59,11 @@ The function to call when the method fails. The function specified by the *error
 
 JSON encoding
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 Obtains user current position.
 
@@ -83,13 +83,13 @@ alert("No position found");
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 Windows Internet Explorer 9. This property is supported only for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility. When the **getCurrentPosition** function is called, it initiates a request to acquire the geographic position, and then returns immediately. If the geographic position is successfully obtained, the callback function defined in the *successCallback* parameter is called. The *position* parameter of that function contains the data describing the current geographic location of the device running Internet Explorer. If the geographic location cannot be obtained and a callback function is specified as the *errorCallback* parameter, that function is called. The error parameter of the *errorCallback* function contains an error code indicating the reason for failure.
 
 **Note:**  The first time a web application calls the **getCurrentPosition** function, Internet Explorer requests permission to access the geographic location of the browser, unless the user has previously chosen to always allow or always deny permission for the website to determine location. If the user denies permission, the function declared by the *errorCallback* is called, and the code attribute of the error parameter of that function is set to PositionError.PERMISSION\_DENIED. Support for the attributes of the *options* parameter depends on the location provider available to the device running Internet Explorer. There is no guarantee that changing the properties of these attributes will affect the results reported by the location provider.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

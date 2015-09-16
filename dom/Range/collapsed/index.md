@@ -23,13 +23,13 @@ tags:
 uri: dom/Range/collapsed
 
 ---
-## <span>Summary</span>
+## Summary
 
 The Range.collapsed read-only property returns a Boolean flag indicating whether the start and end points of the Range are at the same position. It returns true if the start and end boundary points of the Range are the same point in the DOM, false if not.
 
 Property of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 var result = range.collapsed;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -45,7 +45,7 @@ true - start and end boundary points of the Range are the same point in the DOM
 
 false - start and end boundary points of the Range are NOT the same point in the DOM
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var range = document.createRange();
@@ -55,21 +55,21 @@ range.setEnd(endNode,endOffset);
 var isCollapsed = range.collapsed;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 A collapsed range has its start and end boundary points set to the same value, rendering it empty.
 
-### <span>Syntax</span>
+### Syntax
 
 isCollapsed = range.collapsed;
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-range-collapsed)
 :   Living Standard

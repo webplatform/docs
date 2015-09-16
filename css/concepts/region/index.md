@@ -9,7 +9,7 @@ tags:
 uri: css/concepts/region
 
 ---
-## <span>Summary</span>
+## Summary
 
 The CSS Regions feature allows content to flow dynamically through a series of presentational block elements, known as regions, allowing for complex magazine-style layouts.
 
@@ -25,16 +25,16 @@ Use the [region API's](/apis/css-regions) [**Region**](/apis/css-regions/Region)
 
 For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -92,7 +92,7 @@ For an overview of CSS Regions, see [Using CSS Regions to flow content through a
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

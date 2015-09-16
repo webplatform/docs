@@ -27,16 +27,16 @@ todo_broken_links:
 uri: svg/elements/polyline
 
 ---
-## <span>Summary</span>
+## Summary
 
 The polyline element is a SVG basic shape to create a series of lines connecting several points. Usually, a polyline is used to create open shapes.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGPolylineElement](/w/index.php?title=dom/SVGPolylineElement&action=edit&redlink=1)
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, the polyline element is used to draw a gold polyline inside an inline SVG element.
 
@@ -51,17 +51,17 @@ In the following code example, the polyline element is used to draw a gold polyl
 </pre>
 [View live example](http://code.webplatform.org/gist/37caee51f773695efdd4)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 Typically, **polyline** elements define open shapes. **Note:** You cannot provide an odd number of coordinates.
 
-### <span>Attributes</span>
+### Attributes
 
-#### <span>Global attributes</span>
+#### Global attributes
 
 -   [**Conditional processing attributes**](/svg/attributes#Conditional_Processing_Attributes)
 -   [**Core attributes**](/svg/attributes#Core_Attributes)
@@ -73,15 +73,15 @@ Typically, **polyline** elements define open shapes. **Note:** You cannot provid
 -   [**externalResourcesRequired**](/w/index.php?title=svg/attributes/externalResourcesRequired&action=edit&redlink=1)
 -   [**transform**](/w/index.php?title=svg/attributes/transform&action=edit&redlink=1)
 
-#### <span>Specific attributes</span>
+#### Specific attributes
 
 -   [**points**](/w/index.php?title=svg/attributes/points&action=edit&redlink=1)
 
-### <span>DOM Interface</span>
+### DOM Interface
 
 This element implements the [**SVGPolylineElement**](/w/index.php?title=dom/SVGPolylineElement&action=edit&redlink=1) interface.
 
-### <span>Members</span>
+### Members
 
 The **SVGPolylineElement** object has these events:
 
@@ -133,7 +133,7 @@ The **SVGPolylineElement** object has these properties:
 -   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [The 'polyline' element](http://www.w3.org/TR/SVG11/shapes.html#PolylineElement)
 :   W3C Recommendation

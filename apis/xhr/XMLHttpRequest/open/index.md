@@ -18,35 +18,35 @@ tags:
 uri: apis/xhr/XMLHttpRequest/open
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initializes an XMLHttpRequest.
 
 Method of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.open(method, url, async, user, password);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>method</span>
+### method
 
  Data-type
 :   String
 
  Specifies the HTTP method used to open the connection, such as GET, POST, or HEAD. This parameter is not case-sensitive.
 
-### <span>url</span>
+### url
 
  Data-type
 :   String
 
  Specifies either an absolute or relative URL of the XML data or server-side Web services.
 
-### <span>async</span>
+### async
 
  Data-type
 :   Boolean
@@ -55,7 +55,7 @@ Method of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRe
 
 Specifies true for asynchronous operation (the call returns immediately), or false for synchronous operation. If true, assign a callback handler to the **onreadystatechange** property to determine when the call has completed. If not specified, the default is true.
 
-### <span>user</span>
+### user
 
  Data-type
 :   String
@@ -64,7 +64,7 @@ Specifies true for asynchronous operation (the call returns immediately), or fal
 
 Specifies the name of the user for authentication. If this parameter is null or not specified and the site requires authentication, the browser displays a logon window.
 
-### <span>password</span>
+### password
 
  Data-type
 :   String
@@ -73,11 +73,11 @@ Specifies the name of the user for authentication. If this parameter is null or 
 
 Specifies the password for authentication. This parameter is ignored if the user parameter is null or not specified.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 The following script demonstrates how to create and use the XMLHttpRequest object. For best client-side performance, the request is asynchronous and uses an onreadystatechange event handler to process the data returned by the call.
 
@@ -95,7 +95,7 @@ xhr.onreadystatechange = handler;
 xhr.send();
 ```
 
-## <span>Notes</span>
+## Notes
 
 The following HTTP verbs and World Wide Web Distributed Authoring and Versioning (WebDAV) methods are supported:
 
@@ -117,7 +117,7 @@ The following HTTP verbs and World Wide Web Distributed Authoring and Versioning
 
 Internet Explorer caches the results of HTTP GET requests in the Temporary Internet Files (TIF) folder. In most cases, caching improves performance for data that will not change frequently. To guarantee that the results are not cached, use POST. **Security Warning:  ** Cross-domain, cross-port, and mixed protocol requests are not allowed. The *bstrUrl* parameter may only specify files in the same domain, using the same port and protocol method, as that from which the page is served. Although this method accepts credentials passed via parameter, those credentials are not automatically sent to the server on the first request. The *varUser* and *varPassword* parameters are not transmitted unless the server challenges the client for credentials with a 401 - Access Denied response. After calling this method, use **send** to send the request and data, if any, to the server.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft

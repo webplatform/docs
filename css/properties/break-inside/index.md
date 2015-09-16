@@ -21,11 +21,11 @@ tags:
 uri: css/properties/break-inside
 
 ---
-## <span>Summary</span>
+## Summary
 
 Control page/column/region breaks that fall within a block of content
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -48,7 +48,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `breakInside`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `break-inside: auto`
 -   `break-inside: avoid`
@@ -56,7 +56,7 @@ Animatable
 -   `break-inside: avoid-page`
 -   `break-inside: avoid-region`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Default. A page/column/region break is determined by the flow of content.
@@ -73,7 +73,7 @@ avoid-column
 avoid-region
 :   A [region](/css/concepts/region) break is not allowed within the content block.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* forces top-level headings onto a new page, column, or region */
@@ -89,20 +89,20 @@ h2, h3 {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      This property replaces separate column-break-inside, page-break-inside, and region-break-inside properties, which may still be present in some browser implementations.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://dev.w3.org/csswg/css3-regions/)
 :
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Multi-Column</span>
+#### Multi-Column
 
 -   [break-after](/css/properties/break-after)
 
@@ -128,7 +128,7 @@ h2, h3 {
 
 -   [content](/css/properties/content)
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -186,14 +186,14 @@ h2, h3 {
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

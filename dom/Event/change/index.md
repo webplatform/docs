@@ -15,7 +15,7 @@ uri: dom/Event/change
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -69,7 +69,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the **onchange** event to retrieve the selected option of a **select** object.
 
@@ -89,9 +89,9 @@ This example uses the **onchange** event to retrieve the selected option of a **
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onchangeEX.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This event is fired when the contents are committed and not while the value is changing. For example, on a text box, this event is not fired while the user is typing, but rather when the user commits the change by leaving the text box that has focus. In addition, this event is executed before the code specified by [**onblur**](/dom/HTMLElement/blur) when the control is also losing the focus. The **onchange** event does not fire when the selected option of the **select** object is changed programmatically. Changed text selection is committed. To invoke this event, do one of the following:
 
@@ -125,13 +125,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

@@ -24,13 +24,13 @@ tags:
 uri: apis/indexeddb/IDBTransaction/mode
 
 ---
-## <span>Summary</span>
+## Summary
 
 The mode for isolating access to data in the object stores that are in the scope of the transaction. For possible values, see Return Value, below. The default value is readonly.
 
 Property of [apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)[apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)[apis
 var result = element.mode;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -48,8 +48,8 @@ Returns an object of type StringString
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

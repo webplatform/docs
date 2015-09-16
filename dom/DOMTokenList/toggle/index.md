@@ -22,28 +22,28 @@ tags:
 uri: dom/DOMTokenList/toggle
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds a token to a DOMTokenList if it is not present, or removes it if it is. Returns true if the token is now present (it was added); returns false if it is not (it was removed).
 
 Method of [dom/DOMTokenList](/dom/DOMTokenList)[dom/DOMTokenList](/dom/DOMTokenList)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var tokenExists = tokenList.toggle(token, force);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>token</span>
+### token
 
  Data-type
 :   String
 
  The token to toggle.
 
-### <span>force</span>
+### force
 
  Data-type
 :   Boolean
@@ -52,13 +52,13 @@ var tokenExists = tokenList.toggle(token, force);
 
 Whether to force adding or removing the token. See Notes.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Whether the token exists after the method has executed.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //toggles an item in an element's classList (a DOMTokenList)
@@ -79,19 +79,19 @@ function elTogItemForce(elid,itemtog,force) {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Throws a SyntaxError  exception if token is empty.
 
 Throws an `InvalidCharacterError` exception if *token* contains any spaces.
 
-## <span>Notes</span>
+## Notes
 
 If the optional parameter *force* is not provided, this method removes the token if it is present, or adds the token if it is not present.
 
 If *force* is *true*, this method adds the token (functionally equivalent to DOMTokenList.add()). If *force* is *false*, this method removes the token (functionally equivalent to DOMTokenList.remove()).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C DOM4](http://www.w3.org/TR/dom/)
 :   Candidate Recommendation

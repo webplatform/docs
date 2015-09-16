@@ -22,7 +22,7 @@ uri: dom/Element/result
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.result;
@@ -31,16 +31,16 @@ element.result = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The format of the `result` data depends on which of the read methods was used to initiate the read operation. This property can also return partial [**Blob**](/apis/file/Blob) data. Partial **Blob** data is the part of the [**File**](/apis/file/File) or **Blob** that has been read into memory currently; when processing the read method [**readAsText**](/apis/file/FileReader/readAsText), partial **Blob** data is a Document Object Model (DOM) string that is incremented as more bytes are loaded; and when processing [**readAsArrayBuffer**](/apis/file/FileReader/readAsArrayBuffer), partial **Blob** data is an array buffer object consisting of the bytes loaded so far.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `FileReader`

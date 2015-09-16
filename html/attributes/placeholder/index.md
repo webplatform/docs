@@ -14,7 +14,7 @@ tags:
 uri: html/attributes/placeholder
 
 ---
-## <span>Summary</span>
+## Summary
 
 The placeholder attribute specifies a short hint that describes the expected value of an input field (e.g. a sample value or a short description of the expected format).
 
@@ -32,7 +32,7 @@ Applies to
 </table>
 The short hint is displayed in the input field before the user enters a value.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 Address: <input type="text" name="address" placeholder="Insert here your address" />
@@ -41,21 +41,21 @@ Date of birth: <input type="text" name="day" placeholder="DD" />
 <input type="text" name="year" placeholder="YYYY" />
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **placeholder** attribute can be used on text or text area input controls, or with text-based input attributes **URL** or **email**. The following example shows the placeholder text on a URL input field.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.7.3.12
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLInputElement`
 -   `HTMLTextAreaElement`

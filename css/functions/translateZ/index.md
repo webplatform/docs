@@ -11,7 +11,7 @@ uri: css/functions/translateZ()
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Examples</span>
+## Examples
 
 The following code snippet is an example of the **translateZ** function in use. When applied to a square blue [**div**](/html/elements/div) element along with the [**perspective**](/css/functions/perspective()) function (which simulates depth), it has the effect illustrated in the image. (The light-blue square indicates the original position of the transformed element.)
 
@@ -21,24 +21,24 @@ div {
 }
 ```
 
-### <span>Syntax</span>
+### Syntax
 
 **translateZ** `( <translation-value> )`
 
-### <span>Parameters</span>
+### Parameters
 
 *translation-value*
 :   A translation value.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Transforms Module, Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223145), Section 13.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Transforms</span>
+#### Transforms
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -72,7 +72,7 @@ div {
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`

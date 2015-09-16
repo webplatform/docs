@@ -83,11 +83,11 @@ translations:
 uri: Beginners/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 Webサイトの構築について学びたいですか? このページには、基礎を理解するのに最適な文書と合わせて、必要なツールや基本を解説している文書へのリンクもあります。
 
-## <span>はじめる前に</span>
+## はじめる前に
 
 このセクションでは、コードをたくさん書いてブラウザで試していきます。まず始める前に、最低限次のものインストールしてください。
 
@@ -125,7 +125,7 @@ Webサイトの構築について学びたいですか? このページには、
 
 さあ、腕をまくって勉強する準備をしましょう。ここに挙げたものをやり終えてさらに学ぶつもりがあるなら、[こちら](/w/index.php?title=tutorials/ja&action=edit&redlink=1)に網羅した文書があります。
 
-## <span>Web の基礎知識</span>
+## Web の基礎知識
 
 -   [Webの歴史](/concepts/internet_and_web/the_history_of_the_web/ja)
 -   [インターネットのしくみ](/concepts/internet_and_web/how_does_the_internet_work/ja)
@@ -133,7 +133,7 @@ Webサイトの構築について学びたいですか? このページには、
 -   [コンテンツを公開する](/tutorials/getting_your_content_online/ja)
 -   [アクセシビリティ](/concepts/accessibility/ja)
 
-## <span>HTML — Web コンテンツの構造</span>
+## HTML — Web コンテンツの構造
 
 -   [HTMLの基礎](/guides/the_basics_of_html/ja)
 -   [DOCTYPE宣言とマークアップスタイル](/guides/doctypes_and_markup_styles/ja)
@@ -149,7 +149,7 @@ Webサイトの構築について学びたいですか? このページには、
 -   [HTML5のフォーム機能](/guides/html5_form_features/ja)
 -   [上記ほど知られていない要素](/guides/lesser-known_semantic_elements/ja)
 
-## <span>CSS — Web コンテンツのスタイル</span>
+## CSS — Web コンテンツのスタイル
 
 -   [CSSの基礎](/guides/getting_started_with_css/ja)
 -   [セレクターの使い方](/tutorials/using_selectors/ja)
@@ -160,7 +160,7 @@ Webサイトの構築について学びたいですか? このページには、
 -   [読みやすいCSSの記述方法](/tutorials/making_css_easier_to_read/ja)
 -   [メディアクエリーの使い方](/tutorials/media_queries/ja)
 
-## <span>JavaScript — Webサイトに動きのある振る舞いをさせる</span>
+## JavaScript — Webサイトに動きのある振る舞いをさせる
 
 -   [プログラミングの基礎](/concepts/programming/programming_basics/ja)
 -   [はじめてのJavaScript](/tutorials/your_first_look_at_javascript/ja)

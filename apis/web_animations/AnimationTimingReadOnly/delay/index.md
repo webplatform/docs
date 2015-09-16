@@ -21,20 +21,20 @@ tags:
 uri: 'apis/web animations/AnimationTimingReadOnly/delay'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The start delay which represents the number of milliseconds from an animation node’s start time to the start of the active interval.
 
 Property of [apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)[apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.delay;
 element.delay = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type doubledouble
 

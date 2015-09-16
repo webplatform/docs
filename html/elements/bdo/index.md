@@ -15,11 +15,11 @@ tags:
 uri: html/elements/bdo
 
 ---
-## <span>Summary</span>
+## Summary
 
 The bdo element (&lt;bdo&gt;) allows you to specify the direction in which text is to be rendered on the page. (&quot;BDO&quot; stands for Bi-Directional Override.)
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -29,7 +29,7 @@ Internationalization topics related to the `bdo` element:
 -   [Overriding the Unicode bidirectional algorithm](http://www.w3.org/International/techniques/authoring-html#bdo)
 -   [Mixing text direction inline](http://www.w3.org/International/techniques/authoring-html#inline)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **BDO** element to correct the reading order of a block of text.
 
@@ -44,13 +44,13 @@ Assume that the right-to-left text (WERBEH NI SI TNEMGARF SIHT.) already has bee
 
 [The solution is to override the bidirectional algorithm and put the block of text in the correct reading order inside a **BDO** element whose [**DIR**](/html/attributes/dir) attribute is set to **ltr**. View live example]
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **BDO** element can be used to control the reading order of a block of text. The Unicode bidirectional algorithm automatically reverses embedded character sequences according to their inherent direction. For example, the base direction of an English document is left-to-right (ltr). If portions of a paragraph within this document contain a language with the right-to-left (rtl) reading order, you can reverse the direction of that language by applying the bidirectional algorithm. The bidirectional algorithm and the [**DIR**](/html/attributes/dir) attribute generally suffice for embedded direction changes. However, incorrect presentations can occur when you expose formatted text to the bidirectional algorithm. For example, a paragraph containing English and Hebrew that is formatted for e-mail could be incorrectly inverted by the bidirectional algorithm. Because the reading order of the Hebrew text was inverted once for the e-mail, exposing it to the bidirectional algorithm would invert the words a second time. The **BDO** element turns off the algorithm and controls the reading order. The [**DIR**](/html/attributes/dir) attribute is required when you use the **BDO** element. This element is available in HTML and script as of Microsoft Internet Explorer 5.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-bdo-element)
 :   W3C Working Draft
@@ -61,8 +61,8 @@ The **BDO** element can be used to control the reading order of a block of text.
 [HTML 4.01](http://www.w3.org/TR/html401/struct/dirlang.html#edef-BDO)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `direction`

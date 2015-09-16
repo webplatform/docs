@@ -11,18 +11,18 @@ tags:
 uri: html/elements/rtc
 
 ---
-## <span>Summary</span>
+## Summary
 
 Marks a ruby text container
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-rtc-element)
 :   W3C Working Draft

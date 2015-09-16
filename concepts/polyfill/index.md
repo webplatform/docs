@@ -10,7 +10,7 @@ tags:
 uri: concepts/polyfill
 
 ---
-## <span>Summary</span>
+## Summary
 
 Polyfills replicate browser-native APIs, so that code dependent on provided endpoints can be run in browsers that don't have them.
 
@@ -22,7 +22,7 @@ Both allow you to target and tinker around with new technology which is not yet 
 
 The main difference and advantage between the two types of libraries is that with polyfills you can write your code against the official spec and then just slap in the library when a browser happens to not (yet) support it. Usually you use a so called "feature detection" to find that out. Most libraries document how to do that. Then, after a certain period of time during which people upgrade to newer browser versions, the need for the polyfill vanishes - up to the point where you can safely remove it from your code.
 
-## <span>Examples</span>
+## Examples
 
 Remy Sharp's [localStorage polyfill](https://gist.github.com/350433). This simulates the Web Storage API so that (typically older) browsers can successfully execute code that depends on it.
 
@@ -53,9 +53,9 @@ You can detect the support of SVG images in a browser and polyfill non-supportin
 }
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [Explanation on Wikipedia](http://en.wikipedia.org/wiki/Polyfill)
 -   [Remy Sharp - "What is a Polyfill"](http://remysharp.com/2010/10/08/what-is-a-polyfill/)

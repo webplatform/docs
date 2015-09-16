@@ -20,45 +20,45 @@ uri: svg/objects/SVGPathSegArcRel
 ---
 Inherits from [SVGElement](/svg/objects/SVGElement)[SVGElement](/svg/objects/SVGElement)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from SVGElement</span>
+## Inherited from SVGElement
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 The **a** command uses relative coordinates to draw an elliptical arc from the current point to (x, y). The size and orientation of the ellipse are defined by two radius values ([**rx**](/svg/properties/rx_(SVGEllipseElement)), [**ry**](/svg/properties/ry_(SVGEllipseElement))) and a rotation about the x-axis, which indicates how the ellipse is rotated relative to the current coordinate system. The center ([**cx**](/svg/properties/cx), [**cy**](/svg/properties/cy)) of the ellipse is calculated automatically to meet the constraints from the other parameters. large-arc-flag and sweep-flag contribute to the automatic calculations and help determine how the arc is drawn.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Paths](http://go.microsoft.com/fwlink/p/?linkid=204736), Section 8.5.12
 
-### <span>Members</span>
+### Members
 
 The **SVGPathSegArcRel** object has these properties:
 

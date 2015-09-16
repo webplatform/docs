@@ -20,11 +20,11 @@ tags:
 uri: css/properties/grid-column-position
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the column position to place a grid item based upon integer location, string value, or column size.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -50,14 +50,14 @@ Animatable
 Percentages
 :   n/a
 
-## <span>Syntax</span>
+## Syntax
 
 -   `grid-column-position: <identifier>`
 -   `grid-column-position: <integer>`
 -   `grid-column-position: <string>`
 -   `grid-column-position: auto`
 
-## <span>Values</span>
+## Values
 
 \<integer\>
 :   A value that specifies a grid line in the grid.
@@ -73,11 +73,11 @@ auto
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Grid Layout</span>
+#### Grid Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 

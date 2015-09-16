@@ -26,7 +26,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example provides the full code for an image map of the solar system. When you click the sun or any planet, you will link to the image associated with the x,y coordinate. You can click the Back button from the image to return to the solar system image map.
 
@@ -62,17 +62,17 @@ This example provides the full code for an image map of the solar system. When y
 </MAP>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 In Microsoft Internet Explorer 6 and greater this property applies to the [**a**](/html/elements/a) object.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`
 -   `area`

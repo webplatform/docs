@@ -11,14 +11,14 @@ tags:
 uri: svg/methods/createEvent
 
 ---
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Events Specification](http://go.microsoft.com/fwlink/p/?linkid=203739), Section 1.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGSVGElement**](/svg/elements/svg)

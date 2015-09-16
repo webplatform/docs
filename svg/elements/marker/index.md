@@ -16,12 +16,12 @@ uri: svg/elements/marker
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, square markers are added to each end of a path. Copy this sample to a text file and save it with the *.html* file extension. Run it in Internet Explorer 9 to see the path with two markers on the screeen.
 
@@ -57,17 +57,17 @@ The path with markers will look like this:
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols](http://go.microsoft.com/fwlink/p/?linkid=199816), Section 11.9.2
 
-### <span>Members</span>
+### Members
 
 The **SVGMarkerElement** object has these events:
 

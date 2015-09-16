@@ -19,13 +19,13 @@ tags:
 uri: css/properties/orphans
 
 ---
-## <span>Summary</span>
+## Summary
 
 In typography terms, an orphan is the first line of a paragraph that is left behind on the old page while the paragraph continues on the next. The orphans CSS property refers to the minimum number of lines in a block container that must be left at the bottom of the old page. This property is normally used to control how page breaks occur. This property only affects paged media such as print. For example, if a paragraph can't fit on one page in its entirety it is split wherever it is possible. In this way single lines of a paragraph can appear on page before it continues on the next page. This is usually unwanted, so many word processors require at least two lines to be left on an old page, instead of one. You can give it either a positive number (where 2 is the default) or inherit.
 
 Note that the orphan property does not generally affect non-paged media such as screen. However, browsers supporting both orphans and columns will apply the intended functionality to columns as well. Also, the property only affects block-level elements.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `2`
@@ -48,12 +48,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `orphans`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `orphans: inherit`
 -   `orphans: integer`
 
-## <span>Values</span>
+## Values
 
 integer
 :   Only positive values are allowed.
@@ -63,7 +63,7 @@ An **Integer** that specifies or receives the minimum number of lines to print a
 inherit
 :   Takes the same specified value as the property for the element's parent.
 
-## <span>Examples</span>
+## Examples
 
 The following style rule ensures that at least three lines of a paragraph appear at the bottom and top of each printed page.
 
@@ -76,13 +76,13 @@ The following style rule ensures that at least three lines of a paragraph appear
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The [**widows**](/css/properties/widows) property takes precedence over **orphans**.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Fragmentation Module Level 3](http://www.w3.org/TR/css3-break/#widows-orphans)
 :   W3C Working Draft
@@ -93,9 +93,9 @@ The [**widows**](/css/properties/widows) property takes precedence over **orphan
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/page.html#propdef-orphans)
 :   W3C Reccomendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages</span>
+### Related pages
 
 -   `widows`
 -   `CSSStyleDeclaration`

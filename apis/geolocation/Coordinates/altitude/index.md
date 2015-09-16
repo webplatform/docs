@@ -22,13 +22,13 @@ tags:
 uri: apis/geolocation/Coordinates/altitude
 
 ---
-## <span>Summary</span>
+## Summary
 
 Denotes the height of the position, specified in meters above the ellipsoid. If the implementation cannot provide altitude information, the value of this attribute must be null.
 
 Property of [apis/geolocation/Coordinates](/apis/geolocation/Coordinates)[apis/geolocation/Coordinates](/apis/geolocation/Coordinates)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,11 +36,11 @@ Property of [apis/geolocation/Coordinates](/apis/geolocation/Coordinates)[apis/g
 var result = Coordinates.altitude;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 if (position.coords.altitude <= 2) {
@@ -50,7 +50,7 @@ if (position.coords.altitude <= 2) {
    }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

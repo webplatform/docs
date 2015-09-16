@@ -12,11 +12,11 @@ tags:
 uri: 'concepts/information architecture/content research'
 
 ---
-## <span>Summary</span>
+## Summary
 
 User Research, also known as Content Inventory is the process of listing all the content (existing or to be created) of a website. The goals of such inventory are to gain better understanding of the website's topic and see how different pieces of information relate to each others and to users within the website.
 
-## <span>What information to collect<sup>[[1]](#cite_note-info-to-collect-1)</sup></span>
+## What information to collect<sup>[[1]](#cite_note-info-to-collect-1)</sup>
 
 -   **Link name** : the label used to name the page in the website's navigation
 -   **Page name** : the main heading on the page
@@ -27,7 +27,7 @@ User Research, also known as Content Inventory is the process of listing all the
 -   **Update date** : date of the last update of the page
 -   **Owner** : who owns/created the page
 
-## <span>Content Inventory Generation</span>
+## Content Inventory Generation
 
 On large websites, generating such a list manually could take a long time. Luckily there are tools available to automate this process, such as:
 

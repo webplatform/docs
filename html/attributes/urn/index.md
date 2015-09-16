@@ -32,17 +32,17 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 URNs are an adjunct to URLs. A URL, which is the address used on the World Wide Web, specifies a particular file on a particular machine. A URN specifies the identity of a resource instead of its location.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`
 -   `namespace`

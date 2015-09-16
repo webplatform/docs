@@ -23,34 +23,34 @@ tags:
 uri: dom/Selection/getRangeAt
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a specified Range from a selection. The Range is specified by an index and cannot be greater than the number that is returned by rangeCount.
 
 Method of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var range = selObj.getRangeAt(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>index</span>
+### index
 
  Data-type
 :   Number
 
  The zero-based index of the range to return. A negative number or a number greater than or equal to rangeCount will result in an error.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type RangeRange
 
 The range object that will be returned.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var ranges = [];
@@ -65,14 +65,14 @@ for(var i = 0; i < selObj.rangeCount; i++) {
  * ranges in the current selection */
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Currently only Gecko supports multiple or disjointed selections.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1

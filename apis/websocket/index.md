@@ -12,7 +12,7 @@ tags:
 uri: apis/websocket
 
 ---
-## <span>Summary</span>
+## Summary
 
 WebSocket is a JavaScript API and accompanying protocol that allows you to create &quot;web sockets&quot;, capable of bi-directional full-duplex communication over a persistent TCP connection (socket).
 
@@ -25,7 +25,7 @@ API Name
 [WebSocket Object API Details](/apis/websocket/WebSocket)
 :   Object for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.
 
-## <span>Usage</span>
+## Usage
 
      Writing a WebSocket application in JavaScript is quite simple. Establish a connection, and hook into the open, error, message and close events as necessary. Remember, WebSocket is subject to the same-origin policy, like AJAX. This means if you want to test your client locally, you'll need to run a web server (e.g., python -m SimpleHTTPServer or php -S localhost:8000). Here's a simple example client that should work in newer browsers:
 
@@ -65,7 +65,7 @@ API Name
   reactor.run()
 ```
 
-## <span>Notes</span>
+## Notes
 
 Like standard HTTP, WebSocket by default uses port 80 in the clear and 443 over SSL. The WebSocket client establishes an HTTP connection and requests to switch the protocol using the HTTP Upgrade mechanism, and then follows a handshake protocol to ensure both client and server support WebSocket. Because WebSocket connections start off as HTTP, WebSocket can work through many existing proxies and firewalls, unlike some other protocols.
 
@@ -73,9 +73,9 @@ Once the connection is established, messages are sent as "frames", in either tex
 
 WebSocket URIs have the same basic format as HTTP URIs, but with a different URI scheme: ws://hostname:port/path, e.g. ws://example.com/echo or ws://example.net:8080. The path can be used to distinguish the purpose of the connection; however, some servers ignore it. Secure WebSocket (WebSocket over SSL/TLS) URIs begin with wss:// instead of ws://.
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   <http://tools.ietf.org/html/rfc6455> - IETF WebSocket protocol
 -   <http://www.w3.org/TR/websockets/> - W3C WebSocket API

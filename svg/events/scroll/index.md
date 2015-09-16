@@ -17,7 +17,7 @@ uri: svg/events/scroll
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -73,9 +73,9 @@ Default action
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **onscroll** event occurs when a document view is being moved through a direct user interaction or any change in the [**currentTranslate**](/svg/properties/currentTranslate) property that is available on the [**svg**](/svg/elements/svg) element. This event applies only to the outermost **svg** element and is dispatched after the movement has taken place.
 
@@ -83,20 +83,20 @@ The contents of an object scroll until new portions of the object become visible
 
 -   The user shifts the document view.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Scripting](http://go.microsoft.com/fwlink/p/?linkid=204745), Section 18.4.3
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvt* [in]
 :   Type: **IDOMUIEvent**The [**IDOMEvent**](/w/index.php?title=dom/objects/Event&action=edit&redlink=1) object.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGSVGElement**](/svg/elements/svg)
 -   [**onscroll**](/w/index.php?title=dom/events/scroll&action=edit&redlink=1)

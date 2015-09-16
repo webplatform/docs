@@ -16,12 +16,12 @@ uri: svg/elements/metadata
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 The following code example demonstrates how you can include metadata in an SVG document. This example uses the Dublin Core version 1.1 schema. (You can also use other XML-compatible metadata languages, including ones that are not based on RDF.)
 
@@ -65,9 +65,9 @@ The following code example demonstrates how you can include metadata in an SVG d
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -77,11 +77,11 @@ You should provide a **metadata** child element to the outermost [**svg**](/svg/
 
 **Note:** We recommend that you add at most one **metadata** element as a child of any particular element, and that this element appear before any other child elements (except possibly [**desc**](/svg/elements/desc) or [**title**](/svg/elements/title) elements) or character data content.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Metadata](http://go.microsoft.com/fwlink/p/?linkid=204750), Section 21.4.1
 
-### <span>Members</span>
+### Members
 
 The **SVGMetadataElement** object has these events:
 

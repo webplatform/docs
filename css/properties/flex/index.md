@@ -22,11 +22,11 @@ tags:
 uri: css/properties/flex
 
 ---
-## <span>Summary</span>
+## Summary
 
 The flex CSS property specifies the ability of a flex item to alter its dimensions to fill the available space. flex is a shorthand property comprised of the flex-grow, flex-shrink, and flex-basis properties. A flex item can be stretched to use available space proportional to its flex grow factor, or reduced proportional to its flex shrink factor to prevent overflow.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0 1 auto`
@@ -49,7 +49,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `flex`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `flex: 3 1 60%`
 -   `flex: <flex-grow> <flex-shrink> <flex-basis>`
@@ -57,7 +57,7 @@ Animatable
 -   `flex: initial`
 -   `flex: none`
 
-## <span>Values</span>
+## Values
 
 \<[flex-grow](/css/properties/flex-grow)\> \<[flex-shrink](/css/properties/flex-shrink)\> \<[flex-basis](/css/properties/flex-basis)\>
 :   The shorthand value of this property includes the following values:
@@ -93,7 +93,7 @@ initial
 -   The flex item shrinks proportional to the other flex items to fit a smaller container.
 -   The flex item's initial main size is determined by either the [width](/css/properties/width) or [height](/css/properties/height) property, whichever is in the main dimension, as determined by the [flex-direction](/css/properties/flex-flow) property.
 
-## <span>Examples</span>
+## Examples
 
 The Holy Grail layout CSS: how to set up one layout that covers both desktop and mobile use cases.
 
@@ -195,13 +195,13 @@ The Holy Grail layout HTML.
 
 [View live example](http://code.webplatform.org/gist/5506026)
 
-## <span>Usage</span>
+## Usage
 
      * Best practice is to always specify a unit for the flex-basis value, i.e. 30em or 60%.
 
 -   The flex shrink factor is multiplied by the flex basis when distributing negative space.
 
-## <span>Notes</span>
+## Notes
 
 -   Negative values are invalid.
 -   The initial values of [flex-grow](/css/properties/flex-grow) and [flex-basis](/css/properties/flex-basis) are different from their values when omitted in the **flex** shorthand.
@@ -209,16 +209,16 @@ The Holy Grail layout HTML.
     -   **flex-basis** value when omitted: **0**
 -   When specifying only the flex-basis, a unitless zero not preceded by two flex factor values, for example, **  0** will be interpreted as a flex factor (probably flex-grow). If you wish to specify only the flex-basis, you must include a unit, for example, a percentage, as in **0%**.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Flexible Box Layout Module](http://dev.w3.org/csswg/css-flexbox/#flex)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Flexbox</span>
+#### Flexbox
 
 -   [align-content](/css/properties/align-content)
 
@@ -244,7 +244,7 @@ The Holy Grail layout HTML.
 
 -   [justify-content](/css/properties/justify-content)
 
-### <span>External resources</span>
+### External resources
 
 Also, check out the following live demo sites and article about flexbox:
 

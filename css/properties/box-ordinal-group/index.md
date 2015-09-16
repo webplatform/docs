@@ -26,13 +26,13 @@ todo_broken_links:
 uri: css/properties/box-ordinal-group
 
 ---
-## <span>Summary</span>
+## Summary
 
 Do not use. This property has been replaced by flex-order.
 
 Specifies the ordinal group that a child element of the object belongs to. This ordinal value identifies the display order (along the axis defined by the [box-orient](/w/index.php?title=box-orient&action=edit&redlink=1) property) for the group.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `1`
@@ -55,25 +55,25 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 integer
 :   Integer value that identifies the group that a child element belongs to.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Flexible Layout Module](http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/)
 :   W3C Working Draft (Obsolete)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Layout</span>
+#### CSS Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -117,7 +117,7 @@ integer
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-### <span>Related pages</span>
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

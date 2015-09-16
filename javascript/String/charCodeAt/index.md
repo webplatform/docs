@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/charCodeAt
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the Unicode value of the character at the specified location.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Returns the Unicode value of the character at the specified location.
 **index**
 :   Required. The zero-based index of the desired character. If there is no character at the specified index, NaN is returned.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **charCodeAt** method.
 
@@ -37,9 +37,9 @@ var str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
  // Output: 90
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [String.fromCharCode Function](/javascript/String/fromCharCode)
 

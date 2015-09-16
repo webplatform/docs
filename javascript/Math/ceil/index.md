@@ -10,17 +10,17 @@ tags:
 uri: javascript/Math/ceil
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the smallest integer greater than or equal to its numeric argument.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     Math.ceil( number )
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 Math.ceil(0.4); // 1
@@ -28,7 +28,7 @@ Math.ceil(1.9); // 2
 Math.ceil(3);   // 3
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required number argument is a numeric expression.
 
@@ -36,9 +36,9 @@ The return value is an integer value equal to the smallest integer greater than 
 
 **Applies To** : [Math Object](/javascript/Math)
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math.floor Function](/javascript/Math/floor)
 -   [Math.round Function](/javascript/Math/round)

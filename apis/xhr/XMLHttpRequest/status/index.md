@@ -24,13 +24,13 @@ tags:
 uri: apis/xhr/XMLHttpRequest/status
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the HTTP result code (status) of the response to the request.
 
 Property of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttp
 var result = element.status;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned shortunsigned short
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft

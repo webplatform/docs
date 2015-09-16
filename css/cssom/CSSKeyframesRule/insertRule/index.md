@@ -33,13 +33,13 @@ uri: css/cssom/CSSKeyframesRule/insertRule
 
 Method of [css/cssom/CSSKeyframesRule](/css/cssom/CSSKeyframesRule)[css/cssom/CSSKeyframesRule](/css/cssom/CSSKeyframesRule)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.insertRule();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -51,22 +51,22 @@ This method can return one of these values.
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Animations Module Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223144), Section 5
 
-### <span>Parameters</span>
+### Parameters
 
 *rule* [in]
 :   Type: **DOMString**The [**CSSKeyframeRule**](/css/cssom/CSSKeyframeRule) object to be inserted, expressed in the same syntax as one entry in the [**@keyframes**](/css/atrules/@keyframes) rule. The key, which describes the point at which the rule should be inserted, is included in the rule string. If a rule with the same key already exists in the list, this rule replaces it.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -116,7 +116,7 @@ This method can return one of these values.
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -262,6 +262,6 @@ This method can return one of these values.
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSKeyframesRule`

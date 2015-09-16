@@ -19,13 +19,13 @@ tags:
 uri: 'apis/image capture/ImageCapture/onphotosettingschange'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Register/unregister for photo settings change events of type SettingsChangeEvent.
 
 Property of [apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)[apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = pictureDevice.onphotosettingschange;

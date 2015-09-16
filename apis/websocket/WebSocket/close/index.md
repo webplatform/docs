@@ -21,21 +21,21 @@ tags:
 uri: apis/websocket/WebSocket/close
 
 ---
-## <span>Summary</span>
+## Summary
 
 Closes the WebSocket connection or connection attempt, if any.
 
 Method of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket/WebSocket](/apis/websocket/WebSocket)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.close(code, reason);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>code</span>
+### code
 
  Data-type
 :   unsigned short
@@ -44,7 +44,7 @@ Method of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket/W
 
 A numeric value indicating the status code explaining why the connection is being closed. If this parameter is not specified, a default value of 1000 (indicating a normal "transaction complete" closure) is assumed.
 
-### <span>reason</span>
+### reason
 
  Data-type
 :   String
@@ -53,13 +53,13 @@ A numeric value indicating the status code explaining why the connection is bein
 
 A human-readable string explaining why the connection is closing. This string must be no longer than 123 bytes of UTF-8 text (not characters).
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 The **onclose** event will return three attributes:
 
@@ -69,7 +69,7 @@ The **onclose** event will return three attributes:
 
 If the *code* parameter is present but is not an integer equal to 1000 or in the range 3000 to 4999, this method throws an **InvalidAccessError** exception and aborts. If the *reason* parameter is longer than 123 bytes this method throws a **SyntaxError** exception, and aborts.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation

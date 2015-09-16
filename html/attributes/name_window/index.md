@@ -30,7 +30,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example assigns the **name** property to the window object.
 
@@ -44,16 +44,16 @@ This example uses the window's [**open**](/w/index.php?title=dom/methods/open&ac
 window.open("file.htm","Frame1");
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 To access a window's **name** property, use the **window** keyword.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `window`

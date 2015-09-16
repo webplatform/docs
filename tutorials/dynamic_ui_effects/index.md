@@ -8,10 +8,10 @@ tags:
 uri: 'tutorials/dynamic ui effects'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page lists tutorials concerned with using JavaScript to create dynamic effects such as animations, graphic manipulation, and other interesting techniques.
 
-## <span>Animation</span>
+## Animation
 
 -   [Animation in JavaScript](/tutorials/animation_in_javascript)

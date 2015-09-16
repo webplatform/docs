@@ -18,33 +18,33 @@ tags:
 uri: apis/webrtc/MediaStreamTrackList/add
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds a MediaStreamTrack to this track list.
 
 Method of [apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)[apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  trackList.add(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>track</span>
+### track
 
  Data-type
 :   MediaStreamTrack
 
  MediaStreamTrack **track**, required.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Exception INVALID\_STATE\_ERR if the stream is finished (all tracks have ended).

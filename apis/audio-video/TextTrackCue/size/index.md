@@ -23,24 +23,24 @@ tags:
 uri: apis/audio-video/TextTrackCue/size
 
 ---
-## <span>Summary</span>
+## Summary
 
 The text track cue size.
 
 Property of [apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)[apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = TextTrackCue.size;
 TextTrackCue.size = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //. . .
@@ -53,7 +53,7 @@ alert("Cue " + i + " size: " + myCues[i].size);
 //. . .
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

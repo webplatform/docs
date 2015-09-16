@@ -21,7 +21,7 @@ tags:
 uri: 'apis/web animations/AnimationGroup/clone'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a deep copy of this AnimationGroup object using the following procedure.
 
@@ -29,13 +29,13 @@ Let source be this AnimationGroup object, the object to be cloned. Let cloned ti
 
 Method of [apis/web\_animations/AnimationGroup](/apis/web_animations/AnimationGroup)[apis/web\_animations/AnimationGroup](/apis/web_animations/AnimationGroup)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = .clone();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 

@@ -26,7 +26,7 @@ Applies to
 </table>
 Sets the balance of the audio file between the left and right speakers.
 
-## <span>Examples</span>
+## Examples
 
 Audio set to left speaker only:
 
@@ -34,10 +34,10 @@ Audio set to left speaker only:
 <bgsound src="50_005a08.wav" balance="-10000"/>
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `bgSound`

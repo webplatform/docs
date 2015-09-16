@@ -20,13 +20,13 @@ tags:
 uri: dom/DOMTokenList/length
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the number of tokens in a DOMTokenList.
 
 Property of [dom/DOMTokenList](/dom/DOMTokenList)[dom/DOMTokenList](/dom/DOMTokenList)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,11 +34,11 @@ Property of [dom/DOMTokenList](/dom/DOMTokenList)[dom/DOMTokenList](/dom/DOMToke
 var result = element.length;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //returns the number of classes in an element's classList (a DOMTokenList)
@@ -48,7 +48,7 @@ function elNumClasses(elid) {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C DOM4](http://www.w3.org/TR/dom/)
 :   Candidate Recommendation

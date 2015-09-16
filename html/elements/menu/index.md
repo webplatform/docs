@@ -22,11 +22,11 @@ todo_broken_links:
 uri: html/elements/menu
 
 ---
-## <span>Summary</span>
+## Summary
 
 The menu element represents information as a list of items or commands.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLMenuElement](/dom/HTMLMenuElement)
@@ -35,7 +35,7 @@ The menu element is used to define a list as a menu of commands. It can have eve
 
 The **menu** element has partial support in Firefox only for the context form.
 
-### <span>Attributes</span>
+### Attributes
 
 -   *label* - Text for the label to display for the menu item.
 -   *type* - How the menu should be displayed to the user. Possible values are:
@@ -44,7 +44,7 @@ The **menu** element has partial support in Firefox only for the context form.
 
 The **menu** element also accepts [global attributes](/html/global_attributes) and [event attributes](/w/index.php?title=html/event_attributes&action=edit&redlink=1).
 
-## <span>Examples</span>
+## Examples
 
 This is an example of the **menu** element using the *type* and *label* attributes as well as the **button** element.
 
@@ -69,18 +69,18 @@ This is an example of the **menu** element using the *type* and *label* attribut
 
 [View live example](http://code.webplatform.org/gist/7284273)
 
-## <span>Usage</span>
+## Usage
 
      The menu and ul both represent an unordered list of items. They differ in the way that the ul element only contains items to display while the menu element contains interactive items, to act on.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/interactive-elements.html#the-menu-element)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [`dir`](/html/elements/dir)
 -   [`ul`](/html/elements/ul)

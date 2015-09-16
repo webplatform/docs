@@ -24,14 +24,14 @@ uri: dom/HTMLElement/rows
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.rows;
 element.rows = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to use the **rows** and **cells** collections to insert a number into each cell of the table.
 
@@ -65,14 +65,14 @@ function numberCells()
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rows-cells.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The scope of the **rows** collection is for the **tHead**, **tBody**, or **tFoot** object of the table. In addition, there is also a **rows** collection for the [**table**](/html/elements/table) object, which contains all the rows for the entire table. A row that appears in one of the table sections also appears in the **rows** collection for the **table**. The **tr** object has two index properties, [**rowIndex**](/dom/HTMLElement/rowIndex) and [**sectionRowIndex**](/dom/HTMLElement/sectionRowIndex), that indicate where a given row appears. The **rowIndex** property indicates where the **tr** appears with respect to the **rows** collection for the whole table. By contrast, **sectionRowIndex** returns where the **tr** appears with respect to the **rows** collection for the specific table section in which it is located. If duplicate identifiers are found, a collection of those items is returned. Collections of duplicates must be referenced subsequently by ordinal position.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

@@ -28,13 +28,13 @@ todo_broken_links:
 uri: dom/HTMLImageElement/complete
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets whether an image is completely loaded.
 
 Property of [dom/HTMLImageElement](/dom/HTMLImageElement)[dom/HTMLImageElement](/dom/HTMLImageElement)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -42,7 +42,7 @@ Property of [dom/HTMLImageElement](/dom/HTMLImageElement)[dom/HTMLImageElement](
 var complete = image.complete;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -50,15 +50,15 @@ Whether the image is completely loaded.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Use this property to determine whether an image is completely loaded, or still in the process of loading.
 
-## <span>Notes</span>
+## Notes
 
 Once an image is completely loaded, you can get its actual [naturalWidth](/w/index.php?title=dom/properties/naturalWidth&action=edit&redlink=1) and [naturalHeight](/w/index.php?title=dom/properties/naturalHeight&action=edit&redlink=1) properties, or make layout assumptions.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft
@@ -66,9 +66,9 @@ Once an image is completely loaded, you can get its actual [naturalWidth](/w/ind
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `img`
 -   `input`

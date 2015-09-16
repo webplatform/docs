@@ -22,13 +22,13 @@ tags:
 uri: css/cssom/CSSMediaRule/cssRules
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets a list of rules within a @media block.
 
 Property of [css/cssom/CSSMediaRule/CSSMediaRule](/css/cssom/CSSMediaRule/CSSMediaRule)[css/cssom/CSSMediaRule/CSSMediaRule](/css/cssom/CSSMediaRule/CSSMediaRule)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,7 +36,7 @@ Property of [css/cssom/CSSMediaRule/CSSMediaRule](/css/cssom/CSSMediaRule/CSSMed
 var ruleList = mediaRule.cssRules;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -44,16 +44,16 @@ Type - CSSRuleList. A list of all of the rules within the media block.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html#CSS-CSSMediaRule)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 

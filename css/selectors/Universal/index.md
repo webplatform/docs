@@ -17,7 +17,7 @@ uri: css/selectors/Universal
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Examples</span>
+## Examples
 
 The following style rule draws a thin orange border around every element on the page.
 
@@ -27,9 +27,9 @@ The following style rule draws a thin orange border around every element on the 
 </style>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The universal selector matches every element in the document tree. If the universal selector is not the only component of a simple selector, the "\*" may be omitted. For example:
 
@@ -37,23 +37,23 @@ The universal selector matches every element in the document tree. If the univer
 -   \*\#myid and \#myid are equivalent.
 -   \*:hover and :hover are equivalent.
 
-### <span>Syntax</span>
+### Syntax
 
 `* {...}`
 
-### <span>Parameters</span>
+### Parameters
 
 This (\*) selector has no parameters.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 5.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 

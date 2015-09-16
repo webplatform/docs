@@ -16,12 +16,12 @@ uri: svg/elements/tspan
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, text is modified with [**tSpan**](/svg/elements/text). Each letter has a specified x,y position. Copy this sample to a text file and save it with the *.html* file extension. Run it in Internet Explorer 9 to see the modified text.
 
@@ -46,9 +46,9 @@ The text will look like this:
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -56,11 +56,11 @@ You can use the [**x**](/svg/properties/x), [**y**](/svg/properties/y), [**dx**]
 
 You can create multi-line [**text**](/svg/elements/text) elements by defining different **tspan** elements for each line of text, with [**x**](/svg/properties/x), [**y**](/svg/properties/y), [**dx**](/svg/properties/dx), or [**dy**](/svg/properties/dy) attributes that define the position of each **tspan** element. This setup enables users to select multi-line text selection.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.17.4
 
-### <span>Members</span>
+### Members
 
 The **SVGTSpanElement** object has these events:
 

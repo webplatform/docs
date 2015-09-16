@@ -11,21 +11,21 @@ tags:
 uri: javascript/Date/getTime
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the time value in milliseconds.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     dateObj.getTime()
 
-## <span>Return Value</span>
+## Return Value
 
 Returns the number of milliseconds between midnight, January 1, 1970 and the time value in the Date object. The range of dates is approximately 285,616 years from either side of midnight, January 1, 1970. Negative numbers indicate dates prior to 1970.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **getTime** method.
 
@@ -42,7 +42,7 @@ var minute = 1000 * 60;
  // Output: 11323 days from 1/1/1970 to 1/1/2001
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required dateObj reference is a **Date** object.
 
@@ -54,9 +54,9 @@ When doing multiple date and time calculations, you may want to define variables
 
 See Date and Time Calculations (Windows Scripting - JScript) for more information about how to use the **getTime** method.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [setTime Method (Date)](/javascript/Date/setTime)
 

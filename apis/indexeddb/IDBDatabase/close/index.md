@@ -20,23 +20,23 @@ tags:
 uri: apis/indexeddb/IDBDatabase/close
 
 ---
-## <span>Summary</span>
+## Summary
 
 This method synchronously performs the steps for closing a database connection and returns once the database has been closed.
 
 Method of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)[apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  database.close();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var dbOpenRequest = window.indexedDB.open("BookShop1");
@@ -49,11 +49,11 @@ dbOpenRequest.onsuccess = function(event){
 
 [View live example](http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Close%20Database&)
 
-## <span>Usage</span>
+## Usage
 
      This is a synchronous method that returns after the connection to the database is closed.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

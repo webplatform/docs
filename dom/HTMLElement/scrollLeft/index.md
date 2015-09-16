@@ -22,14 +22,14 @@ uri: dom/HTMLElement/scrollLeft
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.scrollLeft;
 element.scrollLeft = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **scrollLeft** property to determine the amount scrolled by the object.
 
@@ -40,10 +40,10 @@ This example uses the **scrollLeft** property to determine the amount scrolled b
 <SPAN STYLE="width:250px"> . . . </SPAN></DIV>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This property's value equals the current horizontal offset of the content within the scrollable range. Although you can set this property to any value, if you assign a value less than 0, the property is set to 0. If you assign a value greater than the maximum value, the property is set to the maximum value. You can set this property inline, but the results might be inconsistent while the document loads. This property is always 0 for objects that do not have scroll bars. For these objects, setting the property has no effect. When a **marquee** object scrolls vertically, its **scrollLeft** property is set to 0, overriding any script setting. For more information about how to access the dimension and location of elements on the page through the Dynamic HTML (DHTML) Object Model, see Measuring Element Dimension and Location with CSSOM in Internet Explorer 9.
 
-### <span>Syntax</span>
+### Syntax

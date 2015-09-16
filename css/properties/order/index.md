@@ -20,11 +20,11 @@ tags:
 uri: css/properties/order
 
 ---
-## <span>Summary</span>
+## Summary
 
 The order property controls the order in which flex items appear within their flex container, by assigning them to ordinal groups.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
@@ -47,17 +47,17 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `order`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `flex-order: integer`
 -   `order: <integer>`
 
-## <span>Values</span>
+## Values
 
 \<integer\>
 :   The ordinal group for this flex item.
 
-## <span>Examples</span>
+## Examples
 
 Displaying children in custom sequence
 
@@ -89,11 +89,11 @@ nav { order: 1; }
 aside { order: 3; }
 ```
 
-## <span>Notes</span>
+## Notes
 
 This property was previously named **flex-order** in earlier drafts.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Flexible Box Layout Module](http://www.w3.org/TR/css3-flexbox/#order-property)
 :   Candidate Recommendation

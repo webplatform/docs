@@ -22,11 +22,11 @@ tags:
 uri: css/properties/font-weight
 
 ---
-## <span>Summary</span>
+## Summary
 
 The font-weight property specifies the weight or boldness of the font (their degree of blackness or stroke thickness). Note that some fonts are not available in all weights; some are available only on normal and bold.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -52,7 +52,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900`
 -   `font-weight: bold`
@@ -60,7 +60,7 @@ Percentages
 -   `font-weight: lighter`
 -   `font-weight: normal`
 
-## <span>Values</span>
+## Values
 
 normal
 :   Normal font weight. Same as **400**.
@@ -77,7 +77,7 @@ bolder
 100, 200, 300, 400, 500, 600, 700, 800, 900
 :   Numeric font weights for fonts that provide more than just normal and bold. If the exact weight given is unavailable, a face with a nearby weight is used.
 
-## <span>Examples</span>
+## Examples
 
 A selection of examples showing some typical uses of the font-weight property. In practise, you most probably won't see much difference when using any values except for `normal` and `bold`.
 
@@ -97,7 +97,7 @@ p.example-three { font-weight: lighter; }
 
 [View live example](http://code.webplatform.org/gist/5628518)
 
-## <span>Usage</span>
+## Usage
 
      Quite often there are only a few weights available for a particular font family. When a weight is specified for which no face exists, a face with a nearby weight is used:
 
@@ -120,7 +120,7 @@ Although the practice — also called “Faux bold” — is not well-loved by t
 -   **800** - Extra Bold (Ultra Bold)
 -   **900** - Black (Heavy)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/#font-weight-prop)
 :   W3C Working Draft
@@ -128,9 +128,9 @@ Although the practice — also called “Faux bold” — is not well-loved by t
 [CSS Transitions](http://www.w3.org/TR/css3-transitions/#animatable-css)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   A List Apart: [Say No to Faux Bold](http://alistapart.com/article/say-no-to-faux-bold)
 -   Mozilla: [default style sheet](http://mxr.mozilla.org/mozilla/source/layout/style/html.css)

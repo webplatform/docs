@@ -22,13 +22,13 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/iceState
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the ICE state of the ICE agent.
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,7 +36,7 @@ Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis
 var result = element.iceState;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type RTCIceStateRTCIceState
 
@@ -52,7 +52,7 @@ The RTCIceState enum has the following values:
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      An example transition might look like this:
 
@@ -65,7 +65,7 @@ The RTCIceState enum has the following values:
 -   (any state, ICE restart occurs): Starting
 -   close(): Closed
 
-## <span>Notes</span>
+## Notes
 
 States take either the value of any component or all components, as outlined here:
 

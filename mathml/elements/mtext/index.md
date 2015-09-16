@@ -14,16 +14,16 @@ tags:
 uri: mathml/elements/mtext
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML mtext element is used to render arbitrary text with no notational meaning, such as comments or annotations. To display text with notational meaning, use mi and mo instead.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates a simple usage of the mtext element:
 
@@ -41,12 +41,12 @@ This example demonstrates a simple usage of the mtext element:
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mtext)
 :   W3C Recommendation
 
-## <span>Attributes</span>
+## Attributes
 
  mathsize
 :   The size of the content. Possible values are:

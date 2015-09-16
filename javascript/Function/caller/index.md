@@ -10,17 +10,17 @@ tags:
 uri: javascript/Function/caller
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the function that invoked the current function.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     functionName.caller
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **caller** property:
 
@@ -37,7 +37,7 @@ function CallLevel(){
  // Output: CallLevel was called from the top level.
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The functionName object is the name of any executing function.
 
@@ -45,9 +45,9 @@ The **caller** property is defined for a function only while that function is ex
 
 If the **caller** property is used in a string context, the result is the same as functionName.**toString** , that is, the decompiled text of the function is displayed.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [function Statement](/javascript/statements/function)
 

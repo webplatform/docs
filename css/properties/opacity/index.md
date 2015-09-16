@@ -26,11 +26,11 @@ todo_broken_links:
 uri: css/properties/opacity
 
 ---
-## <span>Summary</span>
+## Summary
 
 The opacity property controls transparency and opacity of an element. Its values range from 0 to 1. Assuming defaults at parent level, an element with an opacity of 1 is completely opaque, whereas and element with an opacity of 0 is completely transparent. The opacity used when rendering an element is the product of its opacity and the opacity of its ancestors.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `1`
@@ -56,12 +56,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `opacity: alpha-value`
 -   `opacity: inherit`
 
-## <span>Values</span>
+## Values
 
 alpha-value
 :   A **floating-point** value between 0.0 (fully transparent) and 1.0 (fully opaque), inclusive. Any values outside the range will be clamped to this range.
@@ -69,7 +69,7 @@ alpha-value
 inherit
 :   Indicates that the property takes the same computed value as the property for the element's parent.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 .example1 {
@@ -79,13 +79,13 @@ inherit
 
 [View live example](http://code.webplatform.org/gist/5842705)
 
-## <span>Usage</span>
+## Usage
 
      As an alternative to the visibility property, an element's opacity can be set to 0 to make the element take space but not appear.
 
 It's important to note that opacity affects not only a given element, but all of the elements which it contains.
 
-## <span>Notes</span>
+## Notes
 
 The opacity setting is applied uniformly across the entire object. Any values outside the range 0.0 to 1.0 will be clamped to this range.
 
@@ -93,16 +93,16 @@ Object or group opacity can be thought of conceptually as a postprocessing opera
 
 Note that setting a value smaller than 1 to this property creates a new stacking context. For more information, see [What No One Told You About Z-Index](http://philipwalton.com/articles/what-no-one-told-you-about-z-index/) by Philip Walton.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Color Module Level 3](http://www.w3.org/TR/css3-color/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Visual Effects</span>
+#### Visual Effects
 
 -   [color](/css/color)
 
@@ -138,7 +138,7 @@ Note that setting a value smaller than 1 to this property creates a new stacking
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

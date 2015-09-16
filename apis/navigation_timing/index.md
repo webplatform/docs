@@ -13,7 +13,7 @@ tags:
 uri: 'apis/navigation timing'
 
 ---
-## <span>Summary</span>
+## Summary
 
 An interface for web applications to access timing information related to navigation and elements.
 
@@ -23,15 +23,15 @@ API Name
 [Performance](/apis/navigation_timing/Performance)
 :   The HTML5 specification defines a Window interface, which this specification extends.
 
-## <span>Usage</span>
+## Usage
 
      See Navigation Timing 2 Specification.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Performance</span>
+#### Performance
 
 -   **navigation timing**
 

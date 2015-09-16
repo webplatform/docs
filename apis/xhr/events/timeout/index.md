@@ -11,11 +11,11 @@ tags:
 uri: apis/xhr/events/timeout
 
 ---
-## <span>Summary</span>
+## Summary
 
 The ontimeout event occurs if the ontimeout period elapses before the onload event occurs.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -67,7 +67,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 Setting the **ontimeout** property.
 
@@ -81,21 +81,21 @@ function timeo()
 xdr.ontimeout = timeo;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **ontimeout** event occurs if the **ontimeout** period elapses before the [**onload**](/apis/xhr/events/load) event occurs. When the **ontimeout** event occurs, the **responseText** property is unavailable and attempts to access it will raise an error. To invoke this event, do one of the following:
 
 -   Event handlers are called as needed after a request is **sent**.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 This method has no parameters.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `XDomainRequest`
 -   `XMLHttpRequest`

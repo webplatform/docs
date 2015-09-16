@@ -3,24 +3,24 @@ title: mobile tools
 uri: 'concepts/Internet and Web/html5 hybrid applications/concepts/mobile tools'
 
 ---
-## <span>Frameworks</span>
+## Frameworks
 
-### <span>Boilerplate</span>
+### Boilerplate
 
 -   html5boilerplate.com/mobile - A best practice baseline for your mobile web app
 -   Packaging frameworks
 -   phonegap.com - build native applications with web technologies and get access to APIs and app stores
 -   appmobi.com
 
-### <span>Web application frameworks</span>
+### Web application frameworks
 
 -   jquerymobile.com
 -   sencha.com
 -   jqtouch.com
 
-## <span>Development Tools</span>
+## Development Tools
 
-### <span>Debugging</span>
+### Debugging
 
 -   WEINRE - WEb INspector REmote
 -   WebKit Remote Debugging
@@ -28,26 +28,26 @@ uri: 'concepts/Internet and Web/html5 hybrid applications/concepts/mobile tools'
 -   Aardworlf
 -   [MIHTool](http://www.iunbug.com/mihtool) - iOS WebView Debugging tools
 
-### <span>Mobile Emulators and Simulators</span>
+### Mobile Emulators and Simulators
 
 -   Android Emulator
 -   iOS Tools Workflow
 -   Multi-Touch for Desktop
 
-### <span>Browser testing</span>
+### Browser testing
 
 -   Adobe Edge
 -   Browserstack
 -   Browserling
 
-### <span>Performance</span>
+### Performance
 
 -   Mobile Perf Bookmarklet - links to multiple other bookmarklets useful for mobile.
 -   jdrop.org - JSON in the cloud for gathering data
 -   blaze.io/mobile - Free Mobile Web Performance Measurement Tool
 -   pcapperf.appspot.com - PCAP Web Performance Analyzer
 
-## <span>Compatibility</span>
+## Compatibility
 
 -   caniuse.com - When can I use...
 -   mobilehtml5.org - HTML5 compatibility on mobile and tablet browsers.
@@ -55,7 +55,7 @@ uri: 'concepts/Internet and Web/html5 hybrid applications/concepts/mobile tools'
 -   statcounter.com - Top mobile browser usage.
 -   quirksmode.org mobile tests - PPK's link page to all mobile test cases.
 
-## <span>Libraries</span>
+## Libraries
 
 -   FT Fast Click
 -   JSConsole
@@ -63,7 +63,7 @@ uri: 'concepts/Internet and Web/html5 hybrid applications/concepts/mobile tools'
 -   Lawnchair
 -
 
-## <span>Mobile Testing</span>
+## Mobile Testing
 
 -   [BrowserStack](http://www.browserstack.com/mobile-browser-emulator) - VMs in the cloud with mobile device emulators
 -   [Perfecto Mobile](http://www.perfectomobile.com/portal/cms/services/web_access_to_real_handsets.html) - real devices
@@ -75,24 +75,24 @@ uri: 'concepts/Internet and Web/html5 hybrid applications/concepts/mobile tools'
 
 -   WebDriver
 
-## <span>Inspiration</span>
+## Inspiration
 
 -   mobile-patterns.com - Mobile UI Patterns
 -   pttrns.com - Another gallery of Mobile UI
 -   mobileawesomeness.com - the best in mobile web design and developer news.
 
-## <span>Human Interface Guidelines</span>
+## Human Interface Guidelines
 
 -   Android's Human Interface Guidelines
 -   iOS Human Interface Guidelines
 -   Developing Web Content for Safari
 -   User Experience Guidelines for Windows Phone
 
-## <span>Talks</span>
+## Talks
 
 -   <https://speakerdeck.com/rem/mobile-debugging>
 
-## <span>Other tips</span>
+## Other tips
 
 -   Fingers != mouse pointer
 -   Avoid: tables, relative positioning, absolute positioning, floats

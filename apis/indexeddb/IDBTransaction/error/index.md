@@ -24,13 +24,13 @@ tags:
 uri: apis/indexeddb/IDBTransaction/error
 
 ---
-## <span>Summary</span>
+## Summary
 
 Null if the transaction is not finished, is finished and successfully committed, or was aborted with the abort() function. Returns the same DOMError as the request object which caused the transaction to be aborted due to a failed request, or a DOMError for the transaction failure not due to a failed request (such as QuotaExceededError or UnknownError).
 
 Property of [apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)[apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)[apis
 var result = element.error;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOMErrorDOMError
 

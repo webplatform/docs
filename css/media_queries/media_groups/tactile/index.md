@@ -16,20 +16,20 @@ todo_broken_links:
 uri: 'css/media queries/media groups/tactile'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The 'tactile media group is used to identify CSS properties and features that apply to a media type that is experienced by the user through touch.
 
 Practical applications of CSS tactile media are currently restricted to Braille-based media ([braille](/w/index.php?title=css/media_queries/media_types/braille&action=edit&redlink=1) for dynamic terminals and [embossed](/w/index.php?title=css/media_queries/media_types/embossed&action=edit&redlink=1) for printed braille documents). However, the concept could be expanded to include other touch-based media, such as 3D printed objects.
 
-## <span>Applicable Media Types</span>
+## Applicable Media Types
 
 (none in the database)
 
-## <span>Applicable Media Features</span>
+## Applicable Media Features
 
 (none in the database)
 
-## <span>Applicable CSS properties</span>
+## Applicable CSS properties
 
 (none in the database)

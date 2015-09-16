@@ -24,11 +24,11 @@ todo_broken_links:
 uri: svg/elements/filter
 
 ---
-## <span>Summary</span>
+## Summary
 
 SVG filter effects apply graphics operations such as blurs and color transformations to a source graphic. Filters may be applied to graphical SVG elements (&lt;circle&gt;, &lt;text&gt;) as well as to grouping elements (&lt;g&gt;). The filter element specifies the position, dimensions, resolution and units for a filter effect. filter elements typically have multiple child elements (filter primitives) that combine together to create the final graphics effect.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGFilterElement](/w/index.php?title=svg/objects/SVGFilterElement&action=edit&redlink=1)
@@ -52,7 +52,7 @@ Below is a basic example of an SVG Filter that shows a gaussian blur applied to 
 
  ![image showing input and output of a blur filter effect](/assets/public/6/6b/BasicSVGFilterExampleGaussBlur.png)
 
-### <span>Filter Region</span>
+### Filter Region
 
 The **filter** element may optionally define the position, dimensions, resolution, and units for the output of a filter effect. The position and dimensions of a filter may be specified using the following parameters: x, y, width, height. The default values are \*not intuitive\* and are:
 
@@ -78,7 +78,7 @@ This has the effect that, by default, the output of a filter paints onto the scr
 
  ![image showing the result of specifying a custom filter effects region](/assets/public/4/46/BasicSVGFilterExampleWithClipRegion.png)
 
-### <span>Filter Resolution</span>
+### Filter Resolution
 
 By default, the browser decides what resolution to use when performing operations on filter inputs, but it is possible to set this resolution by explicitly setting the **filterRes** property. Choosing a filter resolution significantly lower than the display default will result in visible pixelation but filters will execute faster. Choosing a filter resolution significantly higher than the default will cause slow filter performance. Filter resolution may be separately specified in both the [**X**](/svg/properties/filterResX) and [**Y**](/svg/properties/filterResY) dimension.
 
@@ -103,15 +103,15 @@ Below we show an example of blurs with low values of filterRes. The first exampl
 
  ![image showing the result of specifying a custom filter effects region](/assets/public/b/bf/SVGFiltersFilterResExample.png)
 
-### <span>Units and Coordinates for Filter Effects</span>
+### Units and Coordinates for Filter Effects
 
-#### <span>filterUnits</span>
+#### filterUnits
 
 By default, the units and coordinate system for the filter effects region (x,y,width,height) of a filter element are set relative to the bounding box of the element referencing the filter. In SVG terms, this is called the "objectBoundingBox". When we write **x="50%"** it means "set the starting x position of the filter region at the left side of the bounding box of the referencing element + 50% of the width of the element".
 
 But you may also specify the units and coordinates explicitly by setting the **filterUnits** property. The two alternatives are "objectBoundingBox" (the default which we're just described) or "userSpaceOnUse". userSpaceOnUse sets the filter units and the coordinate system to the canvas of the referencing element, or in SVG terms, the "userSpaceOnUse".
 
-#### <span>primitiveUnits</span>
+#### primitiveUnits
 
 In addition to the unit system for the filter itself, you may also specify the unit system that the filter's child filter primitives will use. Once again, the choice is between userSpaceOnUse and objectBoundingBox. These affect the 0,0 coordinates and the unit values for the filter primitives in the same way as for filterUnits.
 
@@ -161,7 +161,7 @@ In the example below, we set the unit systems of both the filter and filter prim
 
 ![image showing four identical filters with different unit systems for filterUnits and primitiveUnits](/assets/public/0/03/SVGFilterUnitsExamples.png)
 
-## <span>Examples</span>
+## Examples
 
 Basic filter effect example
 
@@ -182,7 +182,7 @@ Basic filter effect example
 </pre>
 [View live example](http://jsfiddle.net/jsfmullany/djQ9A/)
 
-## <span>Usage</span>
+## Usage
 
      Within the enclosing filter element, a filter effect is defined by taking inputs, applying transformation operations and feeding the results of those transformations into further operations. Advanced filters typically can contain 5or more individual filter primitives in an input/output chain. Filters are also capable of inheriting from other filters via the xlink:href attribute, however, this is not widely supported in current browsers (Dec 2012).
 
@@ -227,9 +227,9 @@ Combinations:
 -   feComposite: combines multiple inputs using set combination rules, taking into account alpha values.
 -   feTile: tiles input to create a repeating pattern
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Although SVG is a vector graphics technology, it is important to emphasize that SVG Filters perform \*pixel-level\* operations on all inputs (including SVG shapes) and produce rasterized (bitmapped) outputs at a specified level of resolution. Applying a 10x scale transform (for example) on an plain SVG curve that has been filtered at normal screen resolution will produce pixelated edges since the anti-aliasing of the original graphic has been converted to pixels by the filter and scaled up. (It is unclear whether this is spec compliant or just a limitation of current implementations)
 
@@ -239,21 +239,21 @@ A filter element is never rendered directly. It is only referenced using the fil
 
 SVG filters can be referenced via a [CSS Filter](/w/index.php?title=CSS_Filter&action=edit&redlink=1), although as of November 2013, only a subset of primitives are supported via this mechanism.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   <http://www.w3.org/TR/SVG/filters.html#FilterElement>
 
-### <span>Members</span>
+### Members
 
-#### <span>Methods</span>
+#### Methods
 
 The **SVGFilterElement** object has these methods.
 
 -   [**setFilterRes**](/svg/methods/setFilterRes): Sets the X and Y values of the [**filterRes**](/svg/properties/filterResX) attribute.
 
-#### <span>Properties</span>
+#### Properties
 
 The **SVGFilterElement** object has these properties.
 
@@ -272,16 +272,16 @@ The **SVGFilterElement** object has these properties.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [SVG 1.1 (Second Edition)](http://www.w3.org/TR/SVG/)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Visual Effects</span>
+#### Visual Effects
 
 -   [color](/css/color)
 
@@ -317,6 +317,6 @@ The **SVGFilterElement** object has these properties.
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>External resources</span>
+### External resources
 
 SVG Filter Effects <http://www.w3.org/TR/SVG/filters.html#FilterElement>

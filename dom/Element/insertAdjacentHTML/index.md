@@ -22,21 +22,21 @@ tags:
 uri: dom/Element/insertAdjacentHTML
 
 ---
-## <span>Summary</span>
+## Summary
 
 Parses and inserts HTML code at or beyond the edges of an element within the document hierarchy.
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  element.insertAdjacentHTML(where, html);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>where</span>
+### where
 
  Data-type
 :   String
@@ -50,18 +50,18 @@ Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 |"beforeend"|Just inside the element, after its last child.|
 |"afterend"|After the element itself.|
 
-### <span>html</span>
+### html
 
  Data-type
 :   String
 
  Well-formed HTML code to insert. The string can be a combination of text and HTML tags.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **insertAdjacentHTML** method to insert script into the page.
 
@@ -77,11 +77,11 @@ ScriptDiv.insertAdjacentHTML("afterBegin",sHTML + sScript);
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/insertscript_1.htm)
 
-## <span>Usage</span>
+## Usage
 
      Use this method to add HTML to the page before/after an element or at the beginning or at the end of an element.
 
-## <span>Notes</span>
+## Notes
 
 -   In XML documents, this methods will fail if the **html** parameter is not well-formed, valid HTML.
 -   This method will fail if "afterend" or "beforebegin" is used when the context is the root element of the document.
@@ -92,14 +92,14 @@ ScriptDiv.insertAdjacentHTML("afterBegin",sHTML + sScript);
 -   You cannot insert text while the document is loading. Wait for the [**onload**](/dom/Element/load) event to fire before attempting to call this method.
 -   When using the **insertAdjacentHTML** method to insert script, you must include the [**DEFER**](/html/attributes/defer) attribute in the [**script**](/html/elements/script) element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Parsing and Serialization](http://domparsing.spec.whatwg.org/)
 :   Living Standard
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `innerHTML`
 -   `outerHTML`

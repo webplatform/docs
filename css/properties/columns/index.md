@@ -25,11 +25,11 @@ tags:
 uri: css/properties/columns
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property is a shorthand property for setting column-width and/or column-count.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `See individual properties.`
@@ -55,12 +55,12 @@ Animatable
 Percentages
 :   See individual properties.
 
-## <span>Syntax</span>
+## Syntax
 
 -   `columns: column-count`
 -   `columns: column-width`
 
-## <span>Values</span>
+## Values
 
 column-width
 :   Any of the values available to [column-width](/css/properties/column-width) property.
@@ -68,7 +68,7 @@ column-width
 column-count
 :   Any of the values available to [column-count](/css/properties/column-count) property.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* Make 3 columns at auto width */
@@ -79,7 +79,7 @@ column-count
 
 [View live example](http://code.webplatform.org/gist/6288803)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol)
 :   W3C Candidate Recommendation

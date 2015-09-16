@@ -11,15 +11,15 @@ tags:
 uri: svg/properties/k1
 
 ---
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.11
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFECompositeElement**](/svg/elements/feComposite)
 -   [**k4**](/svg/properties/k4)

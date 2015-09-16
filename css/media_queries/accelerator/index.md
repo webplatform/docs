@@ -14,19 +14,19 @@ uri: 'css/media queries/accelerator'
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **-ms-accelerator** attribute in a **u** element to specify that the `N` in the **label** element is a keyboard shortcut. When the option to "Hide keyboard navigation indicators until I use the Alt key" is enabled in the user's Display Properties, the `N` is not underlined until the user presses the ALT key. When ALT+N is pressed, the **input** element that defines an [**accessKey**](/html/attributes/accessKey) attribute value of 'N' receives the focus.
 
@@ -39,21 +39,21 @@ This example uses the **-ms-accelerator** attribute in a **u** element to specif
     VALUE="Your name here">
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This property is supported by Windows 2000 and later, which enables users to hide navigation indicators for menu items and controls until the ALT key is pressed. An access key is a single character used as a keyboard shortcut for selecting an object. Press and hold the ALT key followed by the character to move input focus and invoke the default event associated with an object. Windows Internet Explorer 8. The **-ms-accelerator** attribute is an extension to CSS, and can be used as a synonym for **accelerator** in IE8 Standards mode.
 
-### <span>Syntax</span>
+### Syntax
 
 `-ms-accelerator: false | true`
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Media Queries</span>
+#### Media Queries
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -93,7 +93,7 @@ This property is supported by Windows 2000 and later, which enables users to hi
 
 -   [behavior](/css/properties/behavior)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

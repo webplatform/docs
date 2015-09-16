@@ -3,7 +3,7 @@ title: test
 uri: PointerEvents/test
 
 ---
-## <span>Test</span>
+## Test
 
 Test and validate Pointer Events implementations, including working code samples, and validation tests.
 

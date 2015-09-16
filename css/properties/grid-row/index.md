@@ -20,11 +20,11 @@ tags:
 uri: css/properties/grid-row
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets a value that indicates which row an element within a Grid should appear in. Shorthand for setting grid-row-start and grid-row-end in a single declaration.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `See individual properties`
@@ -50,18 +50,18 @@ Animatable
 Percentages
 :   See individual properties
 
-## <span>Syntax</span>
+## Syntax
 
 -   `grid-row: <grid-line> [ / <grid-line> ]`
 
-## <span>Values</span>
+## Values
 
 \<grid-line\> [ / \<grid-line\> ]
 :   If two \<grid-line\> values are specified, the grid-row-start property is set to the value before the slash, and the grid-row-end property is set to the value after the slash.
 
 When the second value is omitted, then if the first value is an identifier (\<ident\>), the grid-row-end property is also set to that \<ident\>; otherwise, it is set to "auto".
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /*
@@ -75,7 +75,7 @@ grid-row-start: 1
 grid-row-end: 3;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Grid Layout Module](http://www.w3.org/TR/css3-grid-layout)
 :   W3C Working Draft

@@ -23,25 +23,25 @@ tags:
 uri: dom/Range/toString
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the contents of a Range as a string. This string contains only the data characters, no markup.
 
 Method of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var text = range.toString();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 Contains only the data characters, no markup.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var range = document.createRange();
@@ -50,15 +50,15 @@ range.selectNode(document.getElementsByTagName("div").item(0));
 text = range.toString();
 ```
 
-### <span>Syntax</span>
+### Syntax
 
 text = range.toString();
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-range-stringifier)
 :   Living Standard

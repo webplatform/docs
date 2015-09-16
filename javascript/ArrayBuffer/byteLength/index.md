@@ -10,17 +10,17 @@ tags:
 uri: javascript/ArrayBuffer/byteLength
 
 ---
-## <span>Summary</span>
+## Summary
 
 Read-only. The length of the ArrayBuffer (in bytes).
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     var arrayLength = arrayBuffer.byteLength;
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to get the byte length of the ArrayBuffer.
 

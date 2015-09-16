@@ -20,35 +20,35 @@ tags:
 uri: dom/History/pushState
 
 ---
-## <span>Summary</span>
+## Summary
 
 Programmatically push a document state (including URI and document title) onto the user agent's history.
 
 Method of [dom/History](/dom/History)[dom/History](/dom/History)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  history.pushState(statedata, title, url);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>statedata</span>
+### statedata
 
  Data-type
 :   any
 
  The data to push onto the session history.
 
-### <span>title</span>
+### title
 
  Data-type
 :   any
 
  The desired title for the data.
 
-### <span>url</span>
+### url
 
  Data-type
 :   any
@@ -57,13 +57,13 @@ Method of [dom/History](/dom/History)[dom/History](/dom/History)
 
 An optional URL to associate with the data.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5](http://www.w3.org/TR/html5/browsers.html#dom-history-pushstate)
 :   W3C Recommendation

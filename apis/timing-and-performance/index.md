@@ -15,13 +15,13 @@ tags:
 uri: apis/timing-and-performance
 
 ---
-## <span>Summary</span>
+## Summary
 
 This section documents the timing and performance-based standards supported by Windows Internet Explorer and Windows Store apps.
 
-## <span>Navigation Timing</span>
+## Navigation Timing
 
-### <span>Abstract</span>
+### Abstract
 
 This specification defines an interface for web applications to access timing information related to navigation and elements.
 
@@ -32,9 +32,9 @@ The Navigation Timing API basically provides timings of all things going on from
 -   Browser Support: FF7+, Chrome6+, IE9+, Android Browser 4.0+, Mobile Chrome 33+ [[3]](http://caniuse.com/nav-timing)
 -   Polyfill: [[4]](http://nicj.net/usertiming-js/)
 
-## <span>Resource Timing</span>
+## Resource Timing
 
-### <span>Abstract</span>
+### Abstract
 
 This specification defines an interface for web applications to access the complete timing information for resources in a document.
 
@@ -44,9 +44,9 @@ The Resource Timing API provides timings for all resources linked into a page.
 -   Tutorial: An Introduction to the Resource Timing API [[6]](http://calendar.perfplanet.com/2012/an-introduction-to-the-resource-timing-api/)
 -   Browser Support: FF15+, IE10, Chrome? (2012)
 
-## <span>User Timing</span>
+## User Timing
 
-### <span>Abstract</span>
+### Abstract
 
 This specification defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.
 
@@ -57,9 +57,9 @@ Helps to get rid of Date.now() in performance measuring code. Can be used to mea
 -   Polyfill: [[9]](https://gist.github.com/pmeenan/5902672)
 -   Browser Support: IE10+, Chrome25+, Android Browser 4.4+, Mobile Chrome 33+ [[10]](http://caniuse.com/user-timing)
 
-## <span>Page Visibility</span>
+## Page Visibility
 
-### <span>Abstract</span>
+### Abstract
 
 This specification defines a means for site developers to programmatically determine the current visibility state of the page in order to develop power and CPU efficient web applications.
 
@@ -69,9 +69,9 @@ Enables developers to listen to visibility change event (e.g. user switches to a
 -   Tutorial: Using the PageVisibility API [[12]](http://www.html5rocks.com/en/tutorials/pagevisibility/intro/)
 -   Browser Support: FF10+, IE10+, Chrome14+, Safari 6.1+, mobile Safari 7+, Android Browser 4.4+, Mobile Chrome 33+ [[13]](http://caniuse.com/pagevisibility)
 
-## <span>Animation Timing</span>
+## Animation Timing
 
-### <span>Abstract</span>
+### Abstract
 
 This document defines an API web page authors can use to write script-based animations where the user agent is in control of limiting the update rate of the animation. The user agent is in a better position to determine the ideal animation rate based on whether the page is currently in a foreground or background tab, what the current load on the CPU is, and so on. Using this API should therefore result in more appropriate utilization of the CPU by the browser.
 
@@ -79,15 +79,15 @@ This document defines an API web page authors can use to write script-based anim
 -   Tutorial: The secret to silky smooth JavaScript animation! [[15]](http://creativejs.com/resources/requestanimationframe/)
 -   Browser Support: FF4+, Chrome10+, Safari 6+, mobile Safari 6+, Android Browser 4.4+, Mobile Chrome 33+ [[16]](http://caniuse.com/requestanimationframe)
 
-## <span>Efficient Script Yielding</span>
+## Efficient Script Yielding
 
-### <span>Abstract</span>
+### Abstract
 
 This specification defines an interface for web applications to flush the browser event queue and receive an immediate callback.
 
 -   Efficient Script Yielding Editor's Draft [[17]](https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/setImmediate/Overview.html) (editor's draft, 28 July 2011)
 -   Browser Support: IE10+
 
-### <span>In this section</span>
+### In this section
 
 {

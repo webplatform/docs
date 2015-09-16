@@ -20,11 +20,11 @@ tags:
 uri: css/properties/background-blend-mode
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property describes how the element's background images should blend with each other and the element's background color. The value is a list of blend modes that corresponds to each background image. Each element in the list will apply to the corresponding element of background-image. If a property doesn’t have enough comma-separated values to match the number of layers, the UA must calculate its used value by repeating the list of values until there are enough.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `<normal>#`
@@ -50,7 +50,7 @@ Animatable
 Percentages
 :   No
 
-## <span>Syntax</span>
+## Syntax
 
 -   `background-blend-mode: color`
 -   `background-blend-mode: color-burn`
@@ -69,7 +69,7 @@ Percentages
 -   `background-blend-mode: screen`
 -   `background-blend-mode: soft-light`
 
-## <span>Values</span>
+## Values
 
 normal
 :   This is the default attribute which specifies no blending. The blending formula simply selects the source color.
@@ -119,7 +119,7 @@ color
 luminosity
 :   Creates a color with the luminosity of the source color and the hue and saturation of the backdrop color. This produces an inverse effect to that of the Color mode.
 
-## <span>Examples</span>
+## Examples
 
 A group of boxes that show different blend effects.
 
@@ -192,13 +192,13 @@ div:hover { opacity: 1.0; }
 .luminosity  { background-blend-mode: luminosity;  }
 ```
 
-## <span>Usage</span>
+## Usage
 
      The ‘background-blend-mode’ list must be applied in the same order as ‘background-image’. This means that the first element in the list will apply to the layer that is on top. If a property doesn't have enough comma-separated values to match the number of layers, the UA must calculate its used value by repeating the list of values until there are enough.
 
 If the ‘background’ shorthand is used, the ‘background-blend-mode’ property for that element must be reset to its initial value.
 
-## <span>Notes</span>
+## Notes
 
 **Separable blend modes** *(normal, multiply, screen, overlay, darken, lighten, color-dodge, color-burn, hard-light, soft-light, difference, exclusion)*
 
@@ -208,16 +208,16 @@ A blend mode is termed separable if each component of the result color is comple
 
 Non-separable blend modes consider all color components in combination as opposed to the seperable ones that look at each component individually.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Compositing and Blending Level 1](http://www.w3.org/TR/compositing/#blending)
 :   Candidate recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Background</span>
+#### Background
 
 -   [background](/css/cssom/properties/background)
 
@@ -247,7 +247,7 @@ Non-separable blend modes consider all color components in combination as oppose
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### <span>CSS Attributes</span>
+#### CSS Attributes
 
 -   **background-blend-mode**
 
@@ -285,7 +285,7 @@ Non-separable blend modes consider all color components in combination as oppose
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### <span>Visual Effects</span>
+#### Visual Effects
 
 -   [color](/css/color)
 
@@ -321,7 +321,7 @@ Non-separable blend modes consider all color components in combination as oppose
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>External resources</span>
+### External resources
 
 -   [Introducing CSS blending](http://www.adobe.com/devnet/html5/articles/css-blending.html) by Rik Cabanier
 -   [[1]](http://blogs.adobe.com/webplatform/2014/06/12/background-blending-now-available-in-firefox-30/) by Rik Cabanier

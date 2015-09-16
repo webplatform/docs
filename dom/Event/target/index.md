@@ -24,13 +24,13 @@ tags:
 uri: dom/Event/target
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the element that is the original target of the event.
 
 Property of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 var originalTargetElement = event.target;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -46,22 +46,22 @@ The original target element of the event.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Use this property to determine the original element on which the event was dispatched.
 
-## <span>Notes</span>
+## Notes
 
 The [**currentTarget**](/dom/Event/currentTarget) property returns the element that the event handlers are being processed for during the capturing and bubbling phases.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

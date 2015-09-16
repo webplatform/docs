@@ -23,13 +23,13 @@ tags:
 uri: css/cssom/ClientRect/top
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the top value for a ClienRect object.
 
 Property of [css/cssom/ClientRect](/css/cssom/ClientRect)[css/cssom/ClientRect](/css/cssom/ClientRect)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,11 +37,11 @@ Property of [css/cssom/ClientRect](/css/cssom/ClientRect)[css/cssom/ClientRect](
 var pixelsFromTop = clientRect.top;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 This example uses the [**getBoundingClientRect**](/dom/HTMLElement/getBoundingClientRect) method to retrieve the coordinates of the bounds of the text rectangles within the element.
 
@@ -60,7 +60,7 @@ function getCoords(oObject) {
 <P ID=oPara onclick="getCoords(this)">
 ```
 
-## <span>Notes</span>
+## Notes
 
 Use this syntax to access the top coordinate of the second text rectangle of a [**TextRange**](/dom/TextRange) object:
 

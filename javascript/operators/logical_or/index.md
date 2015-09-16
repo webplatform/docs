@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/operators/logical or'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Performs a logical disjunction on two expressions.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Performs a logical disjunction on two expressions.
 **expression2**
 :   Any expression.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var x = 5;
@@ -41,7 +41,7 @@ z = (x > y) || (x <= y); // result: z = true
 z = (x > y) || (x >= y); // result: z = false
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 If either or both expressions evaluate to **True** , result is **True**. The following table illustrates how result is determined:
 

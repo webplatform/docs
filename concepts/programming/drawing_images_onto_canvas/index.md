@@ -12,13 +12,13 @@ todo_broken_links:
 uri: 'concepts/programming/drawing images onto canvas'
 
 ---
-## <span>Summary</span>
+## Summary
 
 In this article we will explore how to draw Images onto a Canvas.
 
 We will start with a simple example and then explore some issues you might encounter. We'll look at how to load the image from various sources, how to display the image on "retina" displays without bluriness, and at some compatibility and performance problems.
 
-## <span>A simple example</span>
+## A simple example
 
 A simple html layout with both the image and the canvas already loaded as DOM elements in our page.
 
@@ -55,7 +55,7 @@ window.addEventListener("DOMContentLoaded", function()
 });
 ```
 
-## <span>The drawImage function</span>
+## The drawImage function
 
 The function we use for drawing an image onto a canvas is the *drawImage()* function. This function draws an image, canvas, or video onto the canvas. It can also draw parts of an image, and/or increase/reduce the image size.
 
@@ -89,7 +89,7 @@ context.drawImage(img,sx,sy,swidth,sheight,x,y,width,height);
 |width| |The width of the image to use (stretch or reduce the image)|
 |height| |The height of the image to use (stretch or reduce the image)|
 
-## <span>Loading the image programmatically</span>
+## Loading the image programmatically
 
 If the image we want to draw is not in the [DOM](/w/index.php?title=DOM&action=edit&redlink=1) already (we might not even want to add it), we can load an image directly from a URL with a few lines of javascript.
 
@@ -111,7 +111,7 @@ function loadAndDrawImage(url)
 loadAndDrawImage("http://www.w3.org/html/logo/img/mark-word-icon.png");
 ```
 
-## <span>Reading the Image from the File System</span>
+## Reading the Image from the File System
 
 In order to read an arbitrary file from the user's file system we have to let the user choose the file. We do this using a file select input. Let's add one to our HTML.
 
@@ -160,7 +160,7 @@ Now let’s turn this file’s content into a data URL that we can use as the so
 
 -   draw scaled on Canvas (mention mobile Safari 2MB limit/issue - <https://github.com/SunboX/ios-imagefile-megapixel>)
 
-## <span>"Retina" Canvas</span>
+## "Retina" Canvas
 
 As mentioned in the introduction, "Retina"-Displays will show blurry images by default. This is because of ...
 
@@ -170,11 +170,11 @@ As mentioned in the introduction, "Retina"-Displays will show blurry images by d
 -   context.webkitBackingStorePixelRatio
 -   context.scale(2, 2)
 
-## <span>Alternatives</span>
+## Alternatives
 
 -   FileReader.readAsDataURL(file) instead of window.URL.createObject(file) - pros/cons
 
-## <span>Using WebWorker for Drawing?</span>
+## Using WebWorker for Drawing?
 
 -   Draw inside a Worker so the drawing doesn´t block User interactions
 
@@ -182,14 +182,14 @@ As mentioned in the introduction, "Retina"-Displays will show blurry images by d
 
 **Comment:** *You are right. We cant draw onto a canvas using a worker. But we should mention, that workers can be used to manipulate the pixel data of a canvas. We can pass the pixel data to a worker, do some work with it and pass it back*
 
-## <span>Using WebGL for Drawing?</span>
+## Using WebGL for Drawing?
 
 -   WebGL is a 2D API!
 -   How does it work? (context webgl, shader)
 -   pros/cons (contra: no easy way to modify image pixels)
 -   Link to WebGL Convolution Matrix, Extended ColorTransform Matrix "best practices"
 
-## <span>Browser Compatibility</span>
+## Browser Compatibility
 
-## <span>Links to used Object, Function Docs</span>
+## Links to used Object, Function Docs
 

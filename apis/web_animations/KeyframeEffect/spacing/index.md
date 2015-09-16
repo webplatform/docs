@@ -21,20 +21,20 @@ tags:
 uri: 'apis/web animations/KeyframeEffect/spacing'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The spacing mode to use for this animation effect.
 
 Property of [apis/web\_animations/KeyframeEffect](/apis/web_animations/KeyframeEffect)[apis/web\_animations/KeyframeEffect](/apis/web_animations/KeyframeEffect)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.spacing;
 element.spacing = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
@@ -42,7 +42,7 @@ Returns a DOMString object.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Recognized values are defined by the following grammar:
 

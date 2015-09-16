@@ -27,11 +27,11 @@ first-child=
 </dd>
 </dl>
 
-## <span>Summary</span>
+## Summary
 
 The :first-child pseudo-class matches an element that is the first child element of some other element.
 
-## <span>Examples</span>
+## Examples
 
 In the following example, the selector matches any **p** element that is the first child of its parent. The style rule below applies indentation to the **p** of the First fragment only.
 
@@ -55,15 +55,15 @@ The preceding selector would match the **p** inside the **div** of the first fra
 </div>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **:first-child** pseudo-class matches an element that is the first child element of some other element. **Note**   Requires Windows Internet Explorer 7 or later. **Note**   Pseudo-class enabled only in standards-compliant mode (strict [!DOCTYPE](/html/elements/!DOCTYPE)). Inline text is not considered to be part of the document tree, and is not counted when calculating the first child. For example, the **EM** element is the first child of the **p** element in the following HTML.
 
     <p>abc <em>default</em> def</p>
 
-### <span>Syntax</span>
+### Syntax
 
 selector
 
@@ -73,20 +73,20 @@ first-child
 
 </dd>
 </dl>
-### <span>Parameters</span>
+### Parameters
 
 *selector*
 :   A CSS simple selector.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 5.11.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Pseudo-Classes</span>
+#### Pseudo-Classes
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -138,7 +138,7 @@ first-child
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -214,7 +214,7 @@ first-child
 
 -   [type](/css/selectors/type)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `first-letter`

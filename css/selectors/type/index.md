@@ -17,21 +17,21 @@ todo_broken_links:
 uri: css/selectors/type
 
 ---
-## <span>Summary</span>
+## Summary
 
 A type selector matches every instance of the element type in the document tree.
 
-### <span>Syntax</span>
+### Syntax
 
 ``` css
 E { /* properties goes here */ }
 ```
 
-### <span>Parameters</span>
+### Parameters
 
 *E*: String that specifies the name of a document language element type.
 
-## <span>Examples</span>
+## Examples
 
 The following style rule applies to all the H1 tags within the document.
 
@@ -42,16 +42,16 @@ h1 {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1](http://www.w3.org/TR/CSS2/)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 

@@ -17,7 +17,7 @@ uri: css/selectors/Namespaced
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Examples</span>
+## Examples
 
 **Type** selectors allow an optional namespace component (namespace prefix). The namespace prefix can be left empty to indicate that the selector is only to match elements with no namespace, or an asterisk can be used to indicate that the selector matches elements in any namespace (as well as elements with no namespace).
 
@@ -27,32 +27,32 @@ uri: css/selectors/Namespaced
 
 [First, declare the namespace prefix (`myprfx` in this example): View live example]
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 A *CSS qualified name* is an element or attribute name that is located within a namespace. To form a qualified name, first declare a namespace prefix by using the [**@namespace**](/css/atrules/@namespace) at-rule. Then, prepend the namespace prefix to the element or attribute name, separating the prefix and the name with a vertical bar (|). **Type**, universal, and attribute selectors can be namespaced, as shown in Examples.
 
-### <span>Syntax</span>
+### Syntax
 
 `<strong/>prfx|selector {...}`
 
-### <span>Parameters</span>
+### Parameters
 
 *prfx*
 :   A namespace prefix. The namespace prefix is declared by the [**@namespace**](/css/atrules/@namespace) at-rule.
 *selector*
 :   A local element or attribute name.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Namespaces Module](http://go.microsoft.com/fwlink/p/?linkid=199777), Section 4
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 

@@ -21,11 +21,11 @@ tags:
 uri: css/properties/background-position
 
 ---
-## <span>Summary</span>
+## Summary
 
 background-position allows you to set the placement of a background-image on the element it is applied to. background-position generally takes two values, which set the horizontal and vertical position of the background image inside the element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0% 0%`
@@ -51,7 +51,7 @@ Animatable
 Percentages
 :   Refer to size of background positioning area minus size of background image
 
-## <span>Syntax</span>
+## Syntax
 
 -   `background-position: 30% 15%, 40% 80%, 10px 10px`
 -   `background-position: length length`
@@ -60,7 +60,7 @@ Percentages
 -   `background-position: bottom length right length`
 -   `background-position: left top`
 
-## <span>Values</span>
+## Values
 
 [length](/css/data_types/length) [length](/css/data_types/length)
 :   Any standard CSS units are acceptable as `background-position` values: px, ems, rems, mm, cm etc. Note that unit values specify the distance the top left corner of the background image is away from the top left corner of the element. For more details on these units, read [Length units](/css/data_types/length).
@@ -80,7 +80,7 @@ left top
 bottom [length](/css/data_types/length) right [length](/css/data_types/length)
 :   CSS3 includes the new four value `background-position` syntax, which allows you to choose which sides of the element you are positioning the background image relative to (values 1 and 3), and then the distance away from those sides (values 2 and 4). So this example says that you want to position the background image 10 pixels from the bottom of the element, and 15 pixels from the right. If you miss out one of the offset values, the other is assumed to be 0.
 
-## <span>Examples</span>
+## Examples
 
 A simple set of five divs.
 
@@ -230,14 +230,14 @@ div div { /* all the inner divs are given the same width and height, background 
 
 [View live example](http://chrisdavidmills.github.com/css-sprites-example/)
 
-## <span>Usage</span>
+## Usage
 
      * background-position has good support across browsers. Be aware however that some CSS data types are recent additions to the language and are not supported across older browsers.
 
 -   CSS sprites is a very common technique used to display multiple small images on a web page while cutting down on file size and HTTP requests. The images in question are all stored in a single image file which is applied to multiple different elements on the page; different parts of that file are then displayed by varying the `background-position` values. See example 2 for this in action.
 -   The four value syntax is not supported very widely across browsers.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1 Colors and Backgrounds](http://www.w3.org/TR/CSS2/colors.html)
 :   W3C Recommendation
@@ -245,11 +245,11 @@ div div { /* all the inner divs are given the same width and height, background 
 [CSS Backgrounds and Borders Module Level 3](http://www.w3.org/TR/css3-background/#background-position)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Background</span>
+#### Background
 
 -   [background](/css/cssom/properties/background)
 
@@ -279,7 +279,7 @@ div div { /* all the inner divs are given the same width and height, background 
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### <span>CSS Attributes</span>
+#### CSS Attributes
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -317,6 +317,6 @@ div div { /* all the inner divs are given the same width and height, background 
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Using CSS background images](/tutorials/using_css_background_images)

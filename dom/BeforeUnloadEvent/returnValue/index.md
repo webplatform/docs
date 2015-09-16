@@ -22,26 +22,26 @@ tags:
 uri: dom/BeforeUnloadEvent/returnValue
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets a value that indicates whether to warn the user prior to navigating away from a page.
 
 Property of [dom/BeforeUnloadEvent](/dom/BeforeUnloadEvent)[dom/BeforeUnloadEvent](/dom/BeforeUnloadEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var returnValue = event.returnValue;
 event.returnValue = preventNavigationReason;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The text that will be shown to the user.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //set returnValue to custom string
@@ -50,11 +50,11 @@ window.onbeforeunload = function (e) {
 };
 ```
 
-## <span>Usage</span>
+## Usage
 
      The BeforeUnloadEvent allows you to warn a user who is navigating away from a page or closing the browser. Set the return value to false or a string value to cancel the document unload event. You can also return a string or Boolean value from the event handler to display a message to the user, who is asked to confirm that they want to unload the document.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

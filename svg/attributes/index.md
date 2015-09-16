@@ -106,15 +106,15 @@ todo_broken_links:
 uri: svg/attributes
 
 ---
-## <span>Summary</span>
+## Summary
 
 SVG attributes
 
-## <span>Usage</span>
+## Usage
 
      ===Attribute Listing (by Category)===
 
-#### <span>Animation Event Attributes</span>
+#### Animation Event Attributes
 
 These attributes are used to capture animation events.
 
@@ -123,12 +123,12 @@ These attributes are used to capture animation events.
 -   [onload](/w/index.php?title=svg/attributes/onload&action=edit&redlink=1)
 -   [onrepeat](/w/index.php?title=svg/attributes/onrepeat&action=edit&redlink=1)
 
-#### <span>Animation Attribute Target Attributes</span>
+#### Animation Attribute Target Attributes
 
 -   [attributeType](/w/index.php?title=svg/attributes/attributeType&action=edit&redlink=1)
 -   [attributeName](/w/index.php?title=svg/attributes/attributeName&action=edit&redlink=1)
 
-#### <span>Animation Timing Attributes</span>
+#### Animation Timing Attributes
 
 -   [begin](/w/index.php?title=svg/attributes/begin&action=edit&redlink=1)
 -   [dur](/w/index.php?title=svg/attributes/dur&action=edit&redlink=1)
@@ -140,7 +140,7 @@ These attributes are used to capture animation events.
 -   [repeatDur](/w/index.php?title=svg/attributes/repeatDur&action=edit&redlink=1)
 -   [fill](/svg/attributes/fill)
 
-#### <span>Animation Value Attributes</span>
+#### Animation Value Attributes
 
 -   [calcMode](/w/index.php?title=svg/attributes/calcMode&action=edit&redlink=1)
 -   [values](/w/index.php?title=svg/attributes/values&action=edit&redlink=1)
@@ -150,18 +150,18 @@ These attributes are used to capture animation events.
 -   [to](/w/index.php?title=svg/attributes/to&action=edit&redlink=1)
 -   [by](/w/index.php?title=svg/attributes/by&action=edit&redlink=1)
 
-#### <span>Animation Addition Attributes</span>
+#### Animation Addition Attributes
 
 -   [additive](/w/index.php?title=svg/attributes/additive&action=edit&redlink=1)
 -   [accumulate](/w/index.php?title=svg/attributes/accumulate&action=edit&redlink=1)
 
-#### <span>Conditional Processing Attributes</span>
+#### Conditional Processing Attributes
 
 -   [requiredExtensions](/w/index.php?title=svg/attributes/requiredExtensions&action=edit&redlink=1)
 -   [requiredFeatures](/w/index.php?title=svg/attributes/requiredFeatures&action=edit&redlink=1)
 -   [systemLanguage](/w/index.php?title=svg/attributes/systemLanguage&action=edit&redlink=1)
 
-#### <span>Core Attributes</span>
+#### Core Attributes
 
 These attributes can be specified on any SVG element.
 
@@ -170,7 +170,7 @@ These attributes can be specified on any SVG element.
 -   [xml:lang](/w/index.php?title=svg/attributes/xml:lang&action=edit&redlink=1)
 -   [xml:space](/w/index.php?title=svg/attributes/xml:space&action=edit&redlink=1)
 
-#### <span>Document Event Attributes</span>
+#### Document Event Attributes
 
 These attributes are used to capture document events.
 
@@ -181,7 +181,7 @@ These attributes are used to capture document events.
 -   [onunload](/w/index.php?title=svg/attributes/onunload&action=edit&redlink=1)
 -   [onzoom](/w/index.php?title=svg/attributes/onzoom&action=edit&redlink=1)
 
-#### <span>Filter primitive Attributes</span>
+#### Filter primitive Attributes
 
 -   [height](/w/index.php?title=svg/attributes/height&action=edit&redlink=1)
 -   [result](/w/index.php?title=svg/attributes/result&action=edit&redlink=1)
@@ -189,7 +189,7 @@ These attributes are used to capture document events.
 -   [x](/w/index.php?title=svg/attributes/x&action=edit&redlink=1)
 -   [y](/w/index.php?title=svg/attributes/y&action=edit&redlink=1)
 
-#### <span>Graphical Event Attributes</span>
+#### Graphical Event Attributes
 
 These attributes are used to capture interaction events.
 
@@ -204,7 +204,7 @@ These attributes are used to capture interaction events.
 -   [onmouseover](/w/index.php?title=svg/attributes/onmouseover&action=edit&redlink=1)
 -   [onmouseup](/w/index.php?title=svg/attributes/onmouseup&action=edit&redlink=1)
 
-#### <span>Presentation Attributes</span>
+#### Presentation Attributes
 
 -   [alignment-baseline](/svg/attributes/alignment-baseline)
 -   [baseline-shift](/svg/attributes/baseline-shift)
@@ -266,7 +266,7 @@ These attributes are used to capture interaction events.
 -   [word-spacing](/w/index.php?title=svg/attributes/word-spacing&action=edit&redlink=1)
 -   [writing-mode](/w/index.php?title=svg/attributes/writing-mode&action=edit&redlink=1)
 
-#### <span>Transfer Function Attributes</span>
+#### Transfer Function Attributes
 
 -   [type](/w/index.php?title=svg/attributes/type&action=edit&redlink=1)
 -   [tableValues](/w/index.php?title=svg/attributes/tableValues&action=edit&redlink=1)
@@ -276,7 +276,7 @@ These attributes are used to capture interaction events.
 -   [exponent](/w/index.php?title=svg/attributes/exponent&action=edit&redlink=1)
 -   [offset](/w/index.php?title=svg/attributes/offset&action=edit&redlink=1)
 
-#### <span>XLink Attributes</span>
+#### XLink Attributes
 
 These attributes can be used for cross-links ("x"-links).
 

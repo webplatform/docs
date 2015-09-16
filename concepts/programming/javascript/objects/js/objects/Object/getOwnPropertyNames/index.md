@@ -10,7 +10,7 @@ uri: concepts/programming/javascript/objects/js/objects/Object/getOwnPropertyNam
 ---
 This is a method of [Object](/javascript/objects) which was implemented in ECMAScript 5th Edition.
 
-## <span>Overview</span>
+## Overview
 
 This method returns an [Array](/concepts/programming/javascript/core_objects) of the string names of all properties ( *both enumerable and non-enumerable* ) of a given Object. This does not include the properties in the prototype chain.
 
@@ -18,13 +18,13 @@ Should the given object not be of type *Object*, a TypeError exception is thrown
 
 To obtain only the enumerable properties of an Object, use [Object.keys](/w/index.php?title=concepts/programming/javascript/objects/js/objects/Object/keys&action=edit&redlink=1), should all properties, both enumerable and non-enumerable, of the object and it's prototype chain be required, use a [for...in loop](/w/index.php?title=concepts/programming/javascript/objects/js/statements/for...in&action=edit&redlink=1).
 
-## <span>Syntax</span>
+## Syntax
 
 Object.getOwnPropertyNames( *objectToInspect* )
 
 *where "objectToInspect" is an Object whose properties are required*
 
-### <span>Example</span>
+### Example
 
 ``` js
 // basic example
@@ -94,7 +94,7 @@ console.log( Object.getOwnPropertyNames( objectToInspect ) );
 */
 ```
 
-## <span>Extract From Specification</span>
+## Extract From Specification
 
 >     15.2.3.4 Object.getOwnPropertyNames ( O )
 >         When the getOwnPropertyNames function is called, the following steps are taken:
@@ -114,7 +114,7 @@ console.log( Object.getOwnPropertyNames( objectToInspect ) );
 >     properties defined in 15.5.5.2 that correspond to character positions within the
 >     object‘s [[PrimitiveValue]] String.
 
-## <span>External resources</span>
+## External resources
 
 -   [ECMAScript Language Specification 5.1 Edition](http://es5.github.com/#x15.2.3.4)
 -   [ES5 Compatibility Table](http://kangax.github.com/es5-compat-table/)

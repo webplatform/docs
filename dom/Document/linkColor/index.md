@@ -22,7 +22,7 @@ uri: dom/Document/linkColor
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.linkColor;
@@ -31,15 +31,15 @@ element.linkColor = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **linkColor** property can be set by using the **body** object's [**onload**](/dom/Element/onload) event. However you cannot use the **onload** event to set the [**link**](/html/attributes/link) property.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `alinkColor`

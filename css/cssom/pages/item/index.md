@@ -22,7 +22,7 @@ uri: css/cssom/pages/item
 
 Property of [css/cssom/pages](/css/cssom/pages)[css/cssom/pages](/css/cssom/pages)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.item;
@@ -31,25 +31,25 @@ element.item = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This function returns S\_OK even if the element is not found. The programmer should check the value of the *ppHTMLStyleSheetPage* pointer returned by this call. If the value of the pointer is null, the element was not found and the call was not successful.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Parameters</span>
+### Parameters
 
 *index* [in]
 :   Type: **Integer** ****Integer** that specifies the zero-based index of the object to retrieve.**
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `pages`

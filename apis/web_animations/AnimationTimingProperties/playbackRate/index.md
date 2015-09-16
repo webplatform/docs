@@ -15,13 +15,13 @@ tags:
 uri: 'apis/web animations/AnimationTimingProperties/playbackRate'
 
 ---
-## <span>Summary</span>
+## Summary
 
 See the playbackRate member of the AnimationTimingReadOnly interface.
 
 Property of [apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)[apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.playbackRate;

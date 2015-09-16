@@ -10,11 +10,11 @@ tags:
 uri: javascript/operators/comparison
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a Boolean value indicating the result of the comparison.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Returns a Boolean value indicating the result of the comparison.
 **expression2**
 :   Any expression.
 
-## <span>Examples</span>
+## Examples
 
 See Remarks.
 
@@ -42,7 +42,7 @@ var z = (y >= x); // true
 var z = (y <= x); // false
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 When comparing strings, JavaScript uses the Unicode character value of the string expression.
 

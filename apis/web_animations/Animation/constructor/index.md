@@ -21,27 +21,27 @@ uri: 'apis/web animations/Animation/constructor'
 
 Method of [apis/web\_animations/Animation](/apis/web_animations/Animation)[apis/web\_animations/Animation](/apis/web_animations/Animation)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var newAnimation = .constructor(target, timing, effect);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>target</span>
+### target
 
  Data-type
 :   Object
 
  type Animatable
 
-### <span>effect</span>
+### effect
 
  Data-type
 :   Object
 
-### <span>timing</span>
+### timing
 
  Data-type
 :   Object
@@ -50,9 +50,9 @@ var newAnimation = .constructor(target, timing, effect);
 
 type is either unrestricted double or AnimationTimingInput object
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 

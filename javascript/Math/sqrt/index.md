@@ -10,17 +10,17 @@ tags:
 uri: javascript/Math/sqrt
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the square root of a number.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     Math.sqrt( number )
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var v1 = Math.sqrt(9);
@@ -28,15 +28,15 @@ document.write(v1);
 // Output: 3
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required number argument is a numeric expression.
 
 If number is negative, the return value is **NaN**.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math Constants](/javascript/Math/constants)
 

@@ -23,15 +23,15 @@ uri: dom/Element/scrollByLines
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.scrollByLines();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 

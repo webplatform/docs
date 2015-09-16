@@ -22,11 +22,11 @@ tags:
 uri: css/properties/transition-delay
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines when the transition will start. A value of ‘0s’ means the transition will execute as soon as the property is changed. Otherwise, the value specifies an offset from the moment the property is changed, and the transition will delay execution by that offset.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0s`
@@ -52,18 +52,18 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `transition-delay: time`
 
-## <span>Values</span>
+## Values
 
 time
 :   Floating-point number, followed by a time units designator (`ms` or `s`). For more information about the supported time units, see **CSS Values and Units Reference**.
 
 Values are rounded up to the second decimal place. Each **transition-delay** is paired with a corresponding object property identified in the [**transition-property**](/css/properties/transition-property) property. If more **transition-delay** values are declared than corresponding object properties identified in the [**transition-property**](/css/properties/transition-property) property, the excess **transition-delay** values are ignored. If fewer **transition-delay** values are declared than corresponding object properties identified in the [**transition-property**](/css/properties/transition-property) property, the list of **transition-delay** values is repeated from the beginning until the object properties are exhausted.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /*
@@ -82,20 +82,20 @@ div:hover{
 
 [View live example](http://code.webplatform.org/gist/5841921)
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Transitions Module Level 3](http://go.microsoft.com/fwlink/p/?linkid=223140), Section 2.4
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Transitions](http://www.w3.org/TR/2009/WD-css3-transitions-20091201/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Transitions</span>
+#### Transitions
 
 -   [cubic-bezier](/css/functions/cubic-bezier)
 

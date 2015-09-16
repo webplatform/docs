@@ -11,7 +11,7 @@ tags:
 uri: tutorials/canvas
 
 ---
-## <span>Summary</span>
+## Summary
 
 Index of tutorials related to canvas.
 

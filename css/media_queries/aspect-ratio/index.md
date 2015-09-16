@@ -15,23 +15,23 @@ todo_broken_links:
 uri: 'css/media queries/aspect-ratio'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The media feature describes the aspect ratio of the output device's rendering surface, such as the viewport aspect ratio or the aspect ratio of the page box.
 
-## <span>Syntax</span>
+## Syntax
 
 1.  **aspect-ratio: \<ratio\>**
 2.  **min-aspect-ratio: \<ratio\>**
 3.  **max-aspect-ratio: \<ratio\>**
 
-## <span>Values</span>
+## Values
 
 **ratio**
 
 *Value for the aspect ratio of a device's rendering surface must be a [ratio](/w/index.php?title=css/data_types/ratio&action=edit&redlink=1) value.*
 
-## <span>Examples</span>
+## Examples
 
 The following example describes a viewport with a minimum aspect ratio of 1. This describes all viewports, which are quadratic or have a landscape ratio. Note: The aspect ratio of the viewport must not be the same as the aspect ratio of the screen. If you want to describe the aspect ratio of the screen, you have to use [device-aspect-ratio](/css/media_queries/device-aspect-ratio).
 

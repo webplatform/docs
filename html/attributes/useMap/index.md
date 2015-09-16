@@ -26,7 +26,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following example defines the map. Clicking within the rectangular areas of the map loads a new page into a target window named `frame1`.
 
@@ -50,22 +50,22 @@ The following example shows **USEMAP** with an **object**. This technique requir
 </OBJECT>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **useMap** property identifies the image as a client-side image map by associating a **map** object with the image. This **map** object contains **area** objects that define regions within the image. The user can click these regions to navigate to a designated URL. You can dynamically assign the maps to the image through the **useMap** property. In Microsoft Internet Explorer 6 and greater, this property applies to the **object** and **input** objects.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 13.6.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `img`
 -   `object`

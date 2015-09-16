@@ -22,20 +22,20 @@ tags:
 uri: apis/websocket/MessageEvent/data
 
 ---
-## <span>Summary</span>
+## Summary
 
 The data from the server.
 
 Property of [apis/websocket/MessageEvent](/apis/websocket/MessageEvent)[apis/websocket/MessageEvent](/apis/websocket/MessageEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.html/elements/data;
 element.html/elements/data = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 

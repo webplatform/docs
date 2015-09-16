@@ -25,11 +25,11 @@ todo_broken_links:
 uri: css/properties/box-orient
 
 ---
-## <span>Summary</span>
+## Summary
 
 Deprecated
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `inline-axis`
@@ -52,7 +52,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `box-orient: block-axis`
 -   `box-orient: horizontal`
@@ -60,7 +60,7 @@ Animatable
 -   `box-orient: inline-axis`
 -   `box-orient: vertical`
 
-## <span>Values</span>
+## Values
 
 horizontal
 :   Child elements are displayed in a horizontal line from left to right.
@@ -81,22 +81,22 @@ inherit
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Do not use. This property has been replaced by -ms-flex-direction
 
 Specifies the orientation in the layout of all child elements of the object.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Flexible Box Layout Module](http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/)
 :   W3C Working Draft (Obsolete)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Layout</span>
+#### CSS Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -140,7 +140,7 @@ Specifies the orientation in the layout of all child elements of the object.
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-### <span>Related pages</span>
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

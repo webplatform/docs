@@ -15,7 +15,7 @@ tags:
 uri: 'apis/file api'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This specification provides an API for representing file objects in web applications, as well as programmatically selecting them and accessing their data.
 

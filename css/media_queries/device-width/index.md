@@ -12,7 +12,7 @@ tags:
 uri: 'css/media queries/device-width'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The media feature describes the actual width of the output device, such as the entire screen width or the page sheet width.
 
@@ -20,19 +20,19 @@ The media feature describes the actual width of the output device, such as the e
 
 Since screen.width and the device-width media query are unreliable on mobile browsers they should not be used for responsive design purposes. Use [width](/css/media_queries/width) instead.
 
-## <span>Syntax</span>
+## Syntax
 
 -   **device-width: \<length\>**
 -   **min-device-width: \<length\>**
 -   **max-device-width: \<length\>**
 
-## <span>Values</span>
+## Values
 
 **\<length\>**
 
 *Value for the width of the device must be a [length](/css/data_types/length) value and can not be negative.*
 
-## <span>Examples</span>
+## Examples
 
 The first media query describes a device that has a screen width of exactly 320 pixels.
 
@@ -48,7 +48,7 @@ The third media query describes all devices with a screen width not wider than 1
 @media screen and ( max-device-width: 1023px ) { … }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Media Queries Level 4](http://www.w3.org/TR/mediaqueries-4/)
 :   Working Draft

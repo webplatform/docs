@@ -17,13 +17,13 @@ tags:
 uri: dom/PopStateEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fires when a history entry changes.
 
 Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -31,7 +31,7 @@ API Name
 [state](/dom/PopStateEvent/state)
 :   The current history entry's state object (if any).
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -39,7 +39,7 @@ API Name
 [initPopStateEvent](/dom/PopStateEvent/initPopStateEvent)
 :   Initializes the properties of a PopStateEvent.
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -47,9 +47,9 @@ API Name
 [popstate](/dom/PopStateEvent/popstate)
 :   An event handler that is fired when changes are made to the active history. Calls to pushState or replaceState can trigger this event.
 
-## <span>Inherited from Event</span>
+## Inherited from Event
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -81,7 +81,7 @@ API Name
 [type](/dom/Event/type)
 :   Gets the name of an event.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -98,7 +98,7 @@ API Name
 [stopPropagation](/dom/Event/stopPropagation)
 :   Prevents propagation of an event beyond the current target.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -181,23 +181,23 @@ API Name
 [finish](/dom/Event/finish)
 :
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 window.onpopstate = function(evt) { document.write("location: " + document.location + ", state: " + JSON.stringify(evt.state)); };
 ```
 
-## <span>Usage</span>
+## Usage
 
      Used, for example to prevent back navigation to a login page after the user has already logged in.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 A pop state event is dispatched to the window object every time the active history entry changes. To read the current history entry immediately, invoke `history.state`.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [The History Interface](http://www.w3.org/TR/html5/browsers.html#the-history-interface)
 :   Recommendation

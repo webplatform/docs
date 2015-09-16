@@ -20,7 +20,7 @@ tags:
 uri: 'apis/web animations/AnimationTimingProperties/delay'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The specified start delay.
 
@@ -28,14 +28,14 @@ See the description of the delay attribute on the AnimationTiming interface.
 
 Property of [apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)[apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.delay;
 element.delay = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type doubledouble
 

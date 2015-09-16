@@ -21,11 +21,11 @@ tags:
 uri: css/properties/height
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the height of an element. The content area of the element height does not include the padding, border, and margin of the element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -48,7 +48,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `height: auto`
 -   `height: available`
@@ -60,7 +60,7 @@ Animatable
 -   `height: min-content`
 -   `height: percentage`
 
-## <span>Values</span>
+## Values
 
 auto
 :   If auto is set for the elements height, the browser will determine the height for the element.
@@ -89,7 +89,7 @@ available
 fit-content
 :   This will be either the large of the minimum height or the smaller of the preferred height and the available height
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* Height of div equal to 100% of the bounding element */
@@ -168,13 +168,13 @@ p.height50solved {
 
 [View live example](http://code.webplatform.org/gist/5702862)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If you specify the **height** property of an **img** object but not the [**width**](/css/properties/width) property, the width is proportional to the height according to the dimensions of the image source file. To perform operations on the numeric value of this property, use [**pixelHeight**](/css/cssom/properties/pixelHeight) or [**posHeight**](/css/cssom/properties/posHeight).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Basic Box Model](http://dev.w3.org/csswg/css-box/#the-width-and-height-properties)
 :   Working Draft
@@ -185,11 +185,11 @@ If you specify the **height** property of an **img** object but not the [**width
 [CSS Level 1](http://www.w3.org/TR/CSS1/#height)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Layout</span>
+#### CSS Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -233,7 +233,7 @@ If you specify the **height** property of an **img** object but not the [**width
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### <span>Box Model</span>
+#### Box Model
 
 -   [border](/css/properties/border)
 
@@ -275,7 +275,7 @@ If you specify the **height** property of an **img** object but not the [**width
 
 -   [min-width](/css/properties/min-width)
 
-#### <span>CSS Attributes</span>
+#### CSS Attributes
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -313,7 +313,7 @@ If you specify the **height** property of an **img** object but not the [**width
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### <span>Grid Layout</span>
+#### Grid Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -331,7 +331,7 @@ If you specify the **height** property of an **img** object but not the [**width
 
 -   **height**
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

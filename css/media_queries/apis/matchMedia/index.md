@@ -26,13 +26,13 @@ uri: 'css/media queries/apis/matchMedia'
 
 Method of [css/media\_queries](/css/media_queries)[css/media\_queries](/css/media_queries)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.matchMedia();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -44,30 +44,30 @@ S\_OK
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The following example creates a media query that checks whether the width or height of a window is less than a certain size.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793), Section 4
 
-### <span>Parameters</span>
+### Parameters
 
 *mediaQuery* [in]
 :   Type: **DOMString**
 *retVal* [out, retval]
 :   Type: **MediaQueryList**
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Media Queries</span>
+#### Media Queries
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -107,6 +107,6 @@ The following example creates a media query that checks whether the width or hei
 
 -   [behavior](/css/properties/behavior)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Window`

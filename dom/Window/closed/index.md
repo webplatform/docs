@@ -22,13 +22,13 @@ tags:
 uri: dom/Window/closed
 
 ---
-## <span>Summary</span>
+## Summary
 
 This read-only property indicates whether the referenced window is closed or not.
 
 Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,11 +36,11 @@ Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 var result = window.closed;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var popupWindow = null;
@@ -56,4 +56,4 @@ function refreshPopupWindow() {
 }
 ```
 
-### <span>Syntax</span>
+### Syntax

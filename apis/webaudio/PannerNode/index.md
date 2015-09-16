@@ -10,11 +10,11 @@ tags:
 uri: apis/webaudio/PannerNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 This interface represents a processing node which positions / spatializes an incoming audio stream in three-dimensional space. The spatialization is in relation to the AudioContext's AudioListener (listener attribute). The audio stream from the input will be either mono or stereo, depending on the connection(s) to the input. The output of this node is hard-coded to stereo (2 channels) and currently cannot be configured.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -43,7 +43,7 @@ API Name
 [rolloffFactor](/apis/webaudio/PannerNode/rolloffFactor)
 :   Describes how quickly the volume is reduced as source moves away from listener. The default value is 1.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -57,11 +57,11 @@ API Name
 [setVelocity](/apis/webaudio/PannerNode/setVelocity)
 :   Sets the velocity vector of the audio source. This vector controls both the direction of travel and the speed in 3D space. This velocity relative to the listener's velocity is used to determine how much doppler shift (pitch change) to apply. The x, y, and z parameters describe a direction vector indicating direction of travel and intensity. The default value is (0,0,0).
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

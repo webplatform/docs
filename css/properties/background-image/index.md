@@ -20,11 +20,11 @@ tags:
 uri: css/properties/background-image
 
 ---
-## <span>Summary</span>
+## Summary
 
 Applies one or more background images to an element. These can be any valid CSS image, including url() paths to image files or CSS gradients.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -50,13 +50,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `background-image: <image>`
 -   `background-image: <image>, <image>, …`
 -   `background-image: none`
 
-## <span>Values</span>
+## Values
 
 none
 :   Default. Color of the next parent through which the background is visible.
@@ -67,7 +67,7 @@ none
 \<image\>, \<image\>, …
 :   You can apply multiple background images to a single element (image files, gradients, or a mixture) by including all the image references in the property value, with each one separated by a comma. Images referenced earlier in the property value appear in front of images referenced later.
 
-## <span>Examples</span>
+## Examples
 
 Three simple div elements
 
@@ -111,7 +111,7 @@ The first div has a simple image file applied to it, the second div has a backgr
 
 [View live example](http://chrisdavidmills.github.com/background-image/background-image.html)
 
-## <span>Usage</span>
+## Usage
 
      Background images in general have good support across browsers; there are a few things to take note of, however:
 
@@ -119,13 +119,13 @@ The first div has a simple image file applied to it, the second div has a backgr
 -   When using multiple background images, the image at the start of the comma delimited list appears on top of ones later on. This might seem contrary to how CSS is expected to behave.
 -   Because gradients are still supported in some browsers with prefixes and some not, and some with a slightly older syntax, you should use multiple background gradient properties with different syntaxes, as shown in the below examples.
 
-## <span>Notes</span>
+## Notes
 
 Internationalization topics related to the `background-image` property:
 
 -   [Preparing for text expansion](http://localhost/International/techniques/authoring-html#textexpansion)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1](http://www.w3.org/TR/CSS2/colors.html#propdef-background-image)
 :   W3C Recommendation
@@ -133,11 +133,11 @@ Internationalization topics related to the `background-image` property:
 [CSS Backgrounds and Borders Module Level 3](http://www.w3.org/TR/css3-background/#the-background-image)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Background</span>
+#### Background
 
 -   [background](/css/cssom/properties/background)
 
@@ -167,11 +167,11 @@ Internationalization topics related to the `background-image` property:
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Using CSS background images](/tutorials/using_css_background_images)
 -   [Creating gradients in CSS](/tutorials/creating_gradients_in_css)
 
-### <span>External resources</span>
+### External resources
 
 -   [Get to grips with CSS3 multiple background images](http://www.netmagazine.com/tutorials/get-grips-css3-multiple-background-images), by Prisca Schmarsow

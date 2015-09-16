@@ -32,16 +32,16 @@ todo_broken_links:
 uri: svg/elements/rect
 
 ---
-## <span>Summary</span>
+## Summary
 
 The rect element is a SVG basic shape to create a rectangle starting with a given with and height beginning at a x- and y-point.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGRectElement](/dom/SVGRectElement)
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, the rect element is used to draw a purple rectangle.
 
@@ -69,9 +69,9 @@ In the following code example, the rect element is used to create a orange recta
 </pre>
 [View live example](http://code.webplatform.org/gist/9697f0fe090f4ad2e6e9)
 
-### <span>Attributes</span>
+### Attributes
 
-#### <span>Global attributes</span>
+#### Global attributes
 
 -   [**Conditional processing attributes**](/svg/attributes#Conditional_Processing_Attributes)
 -   [**Core attributes**](/svg/attributes#Core_Attributes)
@@ -83,7 +83,7 @@ In the following code example, the rect element is used to create a orange recta
 -   [**externalResourcesRequired**](/w/index.php?title=svg/attributes/externalResourcesRequired&action=edit&redlink=1)
 -   [**transform**](/w/index.php?title=svg/attributes/transform&action=edit&redlink=1)
 
-#### <span>Specific attributes</span>
+#### Specific attributes
 
 -   [**x**](/w/index.php?title=svg/attributes/x&action=edit&redlink=1)
 -   [**y**](/w/index.php?title=svg/attributes/y&action=edit&redlink=1)
@@ -92,11 +92,11 @@ In the following code example, the rect element is used to create a orange recta
 -   [**rx**](/w/index.php?title=svg/attributes/rx&action=edit&redlink=1)
 -   [**ry**](/w/index.php?title=svg/attributes/ry&action=edit&redlink=1)
 
-### <span>DOM Interface</span>
+### DOM Interface
 
 This element implements the [**SVGRectElement**](/dom/SVGRectElement) interface.
 
-### <span>Members</span>
+### Members
 
 The **SVGRectElement** object has these events:
 
@@ -148,7 +148,7 @@ The **SVGRectElement** object has these properties:
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [The ‘rect’ element](http://www.w3.org/TR/SVG11/shapes.html#RectElement)
 :   W3C Recommendation

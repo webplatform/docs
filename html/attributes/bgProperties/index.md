@@ -26,7 +26,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses a fixed background image for the document.
 
@@ -35,16 +35,16 @@ This example uses a fixed background image for the document.
 BGCOLOR=#FFFFFF TEXT=#000000 LINK=#ff6600 VLINK=#330099>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The property specifies whether the picture is a fixed watermark or scrolls with the document. This attribute or property is supported only by Windows Internet Explorer.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `body`

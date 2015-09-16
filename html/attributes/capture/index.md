@@ -10,11 +10,11 @@ tags:
 uri: html/attributes/capture
 
 ---
-## <span>HTML Media Capture</span>
+## HTML Media Capture
 
 For technical reasons, the title of this article is not the text used to call this API. Instead, use `HTML Media Capture`
 
-## <span>Summary</span>
+## Summary
 
 The capture attribute facilitates user access to a device's media capture mechanism, such as a camera, or microphone, from within a file upload control, for capturing media on the spot.
 
@@ -36,7 +36,7 @@ The capture attribute applies to input elements when the type attribute's value 
 
 The media capture mechanism builds upon the security and privacy protections provided by the \<input type="file"\> and the File API specifications; in particular, any offer to start capturing content from the user’s device requires a specific user interaction on an HTML element that is entirely controlled by the user agent.
 
-## <span>Examples</span>
+## Examples
 
 Indicates that image files are accepted to be captured.
 
@@ -83,16 +83,16 @@ To capture audio using the device's local microphone, and upload the picture tak
 </form>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML Media Capture](http://www.w3.org/TR/html-media-capture/#the-capture-attribute)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Mobile</span>
+#### Mobile
 
 -   [Battery Status API](/apis/battery_status)
 
@@ -106,7 +106,7 @@ To capture audio using the device's local microphone, and upload the picture tak
 
 -   **capture**
 
-### <span>External resources</span>
+### External resources
 
 -   [HTML Media Capture - W3C Page](http://www.w3.org/TR/html-media-capture/)
 -   [Article on Dev.Opera - 26 September 2013](http://dev.opera.com/articles/view/media-capture-in-mobile-browsers/)

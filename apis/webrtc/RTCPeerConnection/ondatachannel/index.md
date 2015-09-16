@@ -18,13 +18,13 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/ondatachannel
 
 ---
-## <span>Summary</span>
+## Summary
 
 Handles the datachannel event.
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.ondatachannel;

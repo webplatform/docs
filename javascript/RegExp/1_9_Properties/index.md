@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/RegExp/1 9 Properties'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Return the nine most-recently memorized portions found during pattern matching. Read-only.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Return the nine most-recently memorized portions found during pattern matching. 
 **n**
 :   Any integer from 1 through 9.
 
-## <span>Examples</span>
+## Examples
 
 The following example performs a regular expression search. It displays matches and submatches from the global **RegExp** object. The submatches are successful parenthesized matches that are contained in the **...** properties. The example also displays matches and submatches from the array that is returned by the **exec** method.
 
@@ -85,7 +85,7 @@ var newLine = "<br />";
  //  3: com
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The values of the **\$1...\$9** properties are modified whenever a successful parenthesized match is made. Any number of parenthesized substrings may be specified in a regular expression pattern, but only the nine most recent can be stored.
 

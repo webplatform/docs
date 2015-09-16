@@ -24,13 +24,13 @@ tags:
 uri: dom/MutationEvent/prevValue
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the previous value of the attribute or text node.
 
 Property of [dom/MutationEvent](/dom/MutationEvent)[dom/MutationEvent](/dom/MutationEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [dom/MutationEvent](/dom/MutationEvent)[dom/MutationEvent](/dom/Muta
 var previousValue = event.prevValue;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -46,20 +46,20 @@ The previous value of the attribute or text node.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 This property indicates the previous value of an attribute node during a `DOMAttrModified` event, or the previous text in a character node during a `DOMCharacterDataModified` event.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Events](http://www.w3.org/TR/DOM-Level-2-Events/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Deprecated</span>
+#### Deprecated
 
 -   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 

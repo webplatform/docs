@@ -22,49 +22,49 @@ tags:
 uri: dom/PopStateEvent/initPopStateEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initializes the properties of a PopStateEvent.
 
 Method of [dom/PopStateEvent](/dom/PopStateEvent)[dom/PopStateEvent](/dom/PopStateEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.initPopStateEvent(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>typeArg</span>
+### typeArg
 
  Data-type
 :   any
 
  The type of the event being created.
 
-### <span>canBubbleArg</span>
+### canBubbleArg
 
  Data-type
 :   any
 
  Indicates whether the event can bubble. When true, the event propagates upward. When false, the event does not propagate upward.
 
-### <span>cancelableArg</span>
+### cancelableArg
 
  Data-type
 :   Boolean
 
  Indicates whether the event’s default action can be prevented. When true, the default action can be canceled. When false, the default action cannot be canceled.
 
-### <span>stateArg</span>
+### stateArg
 
  Data-type
 :   any
 
  The object to be applied to the [**state**](/dom/PopStateEvent/state) property.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -74,7 +74,7 @@ This method can return one of these values.
 
 S\_OK
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var evt = document.createEvent("PopStateEvent");
@@ -82,12 +82,12 @@ evt.initPopStateEvent("popstate", false, false, { .. state object  ..});
 window.dispatchEvent(evt);
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Initializes attributes of an event created through the [**createEvent**](/dom/Document/createEvent) method. This method can only be called before the event has been dispatched via the [**dispatchEvent**](/dom/EventTarget/dispatchEvent) method. If the method is called several times before invoking **dispatchEvent**, only the final invocation takes precedence. This method has no effect if called after the event has been dispatched.
 
-### <span>Syntax</span>
+### Syntax
 
 var retval = PopStateEvent.initPopStateEvent(typeArg, canBubbleArg, cancelableArg, stateArg);

@@ -28,17 +28,17 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **scope** was introduced in Microsoft Internet Explorer 6 This property can be used for rendering to non-visual media such as speech or Braille. It can also be used with style sheets. The following table shows the possible values for this attribute as defined in [HTML 4.01](http://go.microsoft.com/fwlink/p/?linkid=203769) for **td** and **th** elements are: {
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `td`
 -   `th`

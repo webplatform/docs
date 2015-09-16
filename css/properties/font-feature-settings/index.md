@@ -20,11 +20,11 @@ tags:
 uri: css/properties/font-feature-settings
 
 ---
-## <span>Summary</span>
+## Summary
 
 The font-feature-settings property gets or sets one or more values that specify glyph substitution (special font characters such as ligatures and figures) and positioning in fonts that include OpenType layout features.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -50,12 +50,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `font-feature-settings: "OpenType feature tag" Indicator`
 -   `font-feature-settings: normal`
 
-## <span>Values</span>
+## Values
 
 normal
 :   Default. No change in glyph substitution or positioning occurs.
@@ -66,7 +66,7 @@ normal
 -   **OpenType feature tag**: Comma-separated list of one or more OpenType layout feature tags (each with an optional toggle). See [Notes](/css/properties/font-feature-settings#Notes) for examples of correct syntax, plus a table of the most common feature tags and their definitions.
 -   **Indicator**: 0 indicates that the feature is disabled. For boolean features, 1 indicates that feature is enabled. A value of ‘on’ is synonymous with 1 and ‘off’ is synonymous with 0. For non-boolean features, 1 or greater indicates the feature selection index.
 
-## <span>Examples</span>
+## Examples
 
 A selection of examples showing some typical uses of the font-feater-settings property.
 
@@ -91,7 +91,7 @@ p.smallcaps { font-feature-settings: "smcp" 1; }
 p.ligatures{ font-feature-settings: "liga" on; }
 ```
 
-## <span>Notes</span>
+## Notes
 
 OpenType specification defines many advanced typographic features that can be implemented by font designers. For instance, you can define vertical positioning for a font, substitute glyph forms with ligatures, contextual alternates, stylistic alternates, or swashes, include a set of small caps, and more.
  Each defined feature has a corresponding feature tag that identifies its function and effects. Font developers can also define their own features. A feature's tag determines what the feature does and whether to implement it. The following table lists some of the most common feature tags and their definitions.
@@ -111,16 +111,16 @@ If you are unfamiliar with the font features listed above, the CSS Fonts Module 
 
  Whenever possible, Web authors should use the `font-variant` property. This property has been designed to handle special cases where no other way to enable or access an OpenType font feature exists.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/#propdef-font-feature-settings)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -154,7 +154,7 @@ If you are unfamiliar with the font features listed above, the CSS Fonts Module 
 
 -   [font](/html/elements/font)
 
-### <span>External resources</span>
+### External resources
 
 -   Mozilla: [Firefox 4: OpenType font feature support](http://hacks.mozilla.org/2010/11/firefox-4-font-feature-support/)
 -   IEBlog: [CSS Corner: Using the Whole Font](https://blogs.msdn.com/b/ie/archive/2012/01/09/css-corner-using-the-whole-font.aspx?Redirected=true)
@@ -162,6 +162,6 @@ If you are unfamiliar with the font features listed above, the CSS Fonts Module 
 -   Mozilla font-feature-settings: [[1]](https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings)
 -   More info on font special characters (glyphs substitutions): [[2]](http://www.typography.com/fonts/hoefler-text/features/hoefler-text-special-characters)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`

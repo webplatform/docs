@@ -16,7 +16,7 @@ tags:
 uri: html/attributes/disabled
 
 ---
-## <span>Summary</span>
+## Summary
 
 Prevents users from changing, clicking on, or submitting an element.
 
@@ -40,11 +40,11 @@ The disabled attribute will prevent javascript click events on the element.
 
 If the disabled element is present without a value (`<input disabled>`) it will default to true. Other valid values are `true` and `false`.
 
-### <span>Affects</span>
+### Affects
 
 When this is present a user cannot make the element active. Further, when the form is submitted, the input's name and value will not be present. If you wish to submit the value, but make it so the user cannot manipulate the value see the [readonly attribute](/html/attributes/readonly).
 
-## <span>Examples</span>
+## Examples
 
 This shows a basic form, with an email input and a submit button disabled.
 

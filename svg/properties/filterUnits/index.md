@@ -17,9 +17,9 @@ uri: svg/properties/filterUnits
 ---
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **filterUnits** defines the coordinate system for the filter attributes x, y, width and height. If **filterUnits="userSpaceOnUse"**, all attributes represent values in the current user coordinate system that is in place at the time when the filter is referenced.
 
@@ -27,15 +27,15 @@ If **filterUnits="objectBoundingBox"**, then all attributes represent fractions 
 
 If attribute **filterUnits** is not specified, then the effect is the same as specifying a value of **objectBoundingBox**.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [<http://www.w3.org/TR/SVG11/filters.html>
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages</span>
+### Related pages
 
 Please see [documentation on the filter element](/w/index.php?title=svg/properties/filterUnits/svg/elements/filter&action=edit&redlink=1) for more context and examples on how to use the filterUnits property.
 

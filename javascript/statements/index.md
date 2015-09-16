@@ -12,13 +12,13 @@ tags:
 uri: javascript/statements
 
 ---
-## <span>Summary</span>
+## Summary
 
 The following table lists JavaScript statements.
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Statements</span>
+## Statements
 
 |Description|Language Element|
 |:----------|:---------------|

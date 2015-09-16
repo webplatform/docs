@@ -22,13 +22,13 @@ tags:
 uri: css/properties/border-left-color
 
 ---
-## <span>Summary</span>
+## Summary
 
 The CSS border-left-color property sets the color of an element's left border. This page explains the border-left-color value, but often you will find it more convenient to fix the border's left color as part of a shorthand set, either border-left or border-color.
 
 [Colors](/css/data_types/color) can be defined several ways. For more information, see [Usage](/css/properties/border-left-color#Usage).
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `color - The value of the 'color' property`
@@ -54,14 +54,14 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `border-left-color: <color>`
 -   `border-left-color: currentColor`
 -   `border-left-color: inherit`
 -   `border-left-color: transparent`
 
-## <span>Values</span>
+## Values
 
 \<color\>
 :   The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value. For more information, see [Usage](/css/properties/border-left-color#Usage).
@@ -75,7 +75,7 @@ currentColor
 transparent
 :   Fully transparent. This keyword can be considered a shorthand for transparent black, rgba(0,0,0,0), which is its computed value.
 
-## <span>Examples</span>
+## Examples
 
 The following example demonstrates the use of `border-left-color` by creating a set of 7 boxes with the rainbow colors, each box using a different way of color code representation. (Some style rules omitted for brevity.)
 
@@ -152,7 +152,7 @@ The following example demonstrates the use of `border-left-color` by creating a 
 </div>
 ```
 
-## <span>Usage</span>
+## Usage
 
      The color value can be a property keyword, an extended keyword, or a numerical value. The two property keywords are currentColor and transparent. currentColor is the ‘color’ property value from the parent object. transparent is shorthand for transparent black, rgba(0,0,0,0).
 
@@ -167,7 +167,7 @@ The color value can also be a numerical value, such as one of the following:
 
 The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [CSS Color Module Level 3 spec](http://www.w3.org/TR/css3-color/#svg-color), which is the consolidation of various specifications.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#the-border-color)
 :   Candidate Recommendation
@@ -175,11 +175,11 @@ The color value can also be an extended keyword, such as aliceblue or lavenderbl
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/box.html#border-color-properties)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Border</span>
+#### Border
 
 -   [border](/css/properties/border)
 
@@ -239,7 +239,7 @@ The color value can also be an extended keyword, such as aliceblue or lavenderbl
 
 -   [border-width](/css/properties/border-width)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

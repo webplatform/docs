@@ -19,40 +19,40 @@ todo_broken_links:
 uri: html/elements/input/type/search
 
 ---
-## <span>Summary</span>
+## Summary
 
 An input text field that is used for search queries.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This object is identical to**input type=text**, except that it returns **search** as the input element's type state. **Note**  For more code samples, see [Form controls part 1](http://go.microsoft.com/fwlink/p/?LinkID=251128) and [Form controls part 2: validation](http://go.microsoft.com/fwlink/p/?LinkID=251131) on the Windows Internet Explorer sample site.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.7
 
-### <span>Members</span>
+### Members
 
 The **input type=search** object has these types of members:
 
 -   [\#properties Properties]
 
-#### <span>Properties</span>
+#### Properties
 
 The **input type=search** object has these properties. {
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `spellcheck`

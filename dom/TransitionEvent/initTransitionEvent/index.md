@@ -25,56 +25,56 @@ tags:
 uri: dom/TransitionEvent/initTransitionEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initializes a transition event created using the deprecated Document.createEvent(&quot;TransitionEvent&quot;) method.
 
 Method of [dom/TransitionEvent](/dom/TransitionEvent)[dom/TransitionEvent](/dom/TransitionEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.initTransitionEvent(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>typeArg</span>
+### typeArg
 
  Data-type
 :   any
 
  Specifies the event type.
 
-### <span>canBubbleArg</span>
+### canBubbleArg
 
  Data-type
 :   any
 
  Specifies whether or not the event can bubble.
 
-### <span>cancelableArg</span>
+### cancelableArg
 
  Data-type
 :   any
 
  Specifies whether or not the event's default action can be prevented. Since a **TransitionEvent** is purely for notification, there is no default action.
 
-### <span>propertyNameArg</span>
+### propertyNameArg
 
  Data-type
 :   any
 
  Specifies the name of the property associated with the [**Event**](/dom/Event).
 
-### <span>elapsedTimeArg</span>
+### elapsedTimeArg
 
  Data-type
 :   any
 
  Specifies the amount of time, in seconds, the transition has been running at the time of initialization.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -86,18 +86,18 @@ S\_OK
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Used to initialize the value of a TransitionEvent.
 
 Note: this method has been dropped during the standard process. It has been deprecated and is in the progress of been removed from most implementation. Do not use it anymore, use the standard constructor, TransitionEvent(), to create a synthetic TransitionEvent
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This method is used to initialize the value of a **TransitionEvent**. This method may only be called before the **TransitionEvent** has been dispatched via the [**dispatchEvent**](/dom/EventTarget/dispatchEvent) method, though it may be called multiple times during that phase if necessary. If called multiple times, the final invocation takes precedence.
 
-### <span>Syntax</span>
+### Syntax
 
 var retval = transitionEvent.initTransitionEvent(typeArg, canBubbleArg, cancelableArg, propertyNameArg, elapsedTimeArg);

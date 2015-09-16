@@ -18,46 +18,46 @@ tags:
 uri: dom/Window/scrollTo
 
 ---
-## <span>Summary</span>
+## Summary
 
 Scrolls the window to the specified x- and y-offset.
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  window.scrollTo(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
+### x
 
  Data-type
 :   Number
 
 **Integer** that specifies the horizontal scroll offset, in pixels.
 
-### <span>y</span>
+### y
 
  Data-type
 :   Number
 
 **Integer** that specifies the vertical scroll offset, in pixels.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 window.scrollTo( 0, 1000 );
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The specified offsets are relative to the upper-left corner of the window.

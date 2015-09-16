@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/EntrySync/filesystem
 
 ---
-## <span>Summary</span>
+## Summary
 
 The file system on which the EntrySync resides.
 
@@ -30,7 +30,7 @@ The file system on which the EntrySync resides.
 
 Property of [apis/filesystem/EntrySync](/apis/filesystem/EntrySync)[apis/filesystem/EntrySync](/apis/filesystem/EntrySync)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,15 +38,15 @@ Property of [apis/filesystem/EntrySync](/apis/filesystem/EntrySync)[apis/filesys
 var result = EntrySync.filesystem;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 Filesystem
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

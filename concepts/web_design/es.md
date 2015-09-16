@@ -74,6 +74,6 @@ todo_broken_links:
 uri: 'concepts/web design/es'
 
 ---
-## <span>Summary</span>
+## Summary
 
 ...

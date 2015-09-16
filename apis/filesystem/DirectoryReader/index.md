@@ -12,17 +12,17 @@ tags:
 uri: apis/filesystem/DirectoryReader
 
 ---
-## <span>Summary</span>
+## Summary
 
 This interface lets a user list files and directories in a directory.
 
 **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -32,11 +32,11 @@ API Name
 
     **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 If there are no additions to or deletions from a directory between the first and last call to readEntries, and no errors occur, then:
 
@@ -45,7 +45,7 @@ If there are no additions to or deletions from a directory between the first and
 -   If not all entries have been returned, the array produced by readEntries must not be empty.
 -   The entries produced by readEntries must not include the directory itself ["."] or its parent [".."].
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

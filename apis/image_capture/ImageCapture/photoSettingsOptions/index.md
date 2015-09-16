@@ -23,13 +23,13 @@ tags:
 uri: 'apis/image capture/ImageCapture/photoSettingsOptions'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Describes current photo settings.
 
 Property of [apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)[apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)
 var result = pictureDevice.photoSettingsOptions;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type PhotoSettingsOptionsPhotoSettingsOptions
 

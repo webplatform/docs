@@ -8,11 +8,11 @@ tags:
 uri: 'guides/css shorthand'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This short article covers the various bits of CSS shorthand you'll encounter in your day to day work. It expands on the basic information found in the Getting Started with CSS tutorial.
 
-## <span>Border</span>
+## Border
 
 `border` allows you to set border width, style and, color all in one single property. So for example:
 
@@ -47,7 +47,7 @@ border-left-color: black;
 
  You will very rarely want to go this granular; you will probably use simply `border` or `border-left/-right/-top/-bottom` in most cases. The more granular options will likely be used only if you want to override an earlier border declaration.
 
-## <span>Margin, padding, outline</span>
+## Margin, padding, outline
 
 Shorthand for `margin`, `padding`, and `outline` all works in the same way. Consider the following `margin` rule:
 
@@ -74,7 +74,7 @@ div.foo {
 2.  First value applied to the top and bottom, second to the left and right — `margin: 2px 5px;`.
 3.  First and third values applied to the top and bottom respectively, second value applied to the left and right — `margin: 2px 5px 1px;`.
 
-## <span>Font</span>
+## Font
 
 You can specify the font size, weight, style, family, and line height using one line of shorthand. Consider the following CSS:
 
@@ -97,7 +97,7 @@ font: bold italic small-caps 1.5em/200% Georgia, "Times New Roman", serif;
 
 Note also that if `font-weight`, `font-style` or `font-variant` are not specified, their values default to `normal`.
 
-## <span>Background</span>
+## Background
 
 In CSS 2, you can specify background color, background image, image repeat and image position with one line of CSS. Take the following:
 
@@ -125,7 +125,7 @@ background-position: top left;
 background-attachment: scroll;
 ```
 
-### <span>Enhancements in CSS3</span>
+### Enhancements in CSS3
 
 CSS3 introduces three new properties: [`background-size`](http://www.w3.org/TR/css3-background/#the-background-size), [`background-origin`](http://www.w3.org/TR/css3-background/#the-background-origin), and [`background-clip`](http://www.w3.org/TR/css3-background/#the-background-clip). You can include them in the `background` shorthand like so:
 
@@ -147,7 +147,7 @@ If you only specify one `box` value (`border-box`, `padding-box`, or `content-bo
 
 Note: CSS3 gradients are a special, advanced value of `background-image` — aside from the syntactical difference, gradient values appear in exactly the same place in the shorthand as other `background-image` values, and work in the same way. For more on CSS3 gradients, you can read [CSS3 linear gradients](http://dev.opera.com/articles/view/css3-linear-gradients) and [CSS3 radial gradients](http://dev.opera.com/articles/view/css3-radial-gradients/) over at dev.opera.com.
 
-## <span>List</span>
+## List
 
 You can specify the list bullet type, position, and image on a single line. Take the following CSS:
 
@@ -171,6 +171,6 @@ list-style-position: outside;
 list-style-image: none;
 ```
 
-## <span>Color</span>
+## Color
 
 When specifying hexadecimal color values, you can use shorthand if both hex values are the same for each color channel. For example, `#000` is equivalent to the longhand `#000000`. Let's look at a more complicated example too: `#6c9` is the same as `#66cc99`.

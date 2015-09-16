@@ -9,7 +9,7 @@ tags:
 uri: 'mean line'
 
 ---
-## <span>mean line</span>
+## mean line
 
 Of a font, a point exactly half the distance from the baseline to the cap line. This is often, but not necessarily, the height of the lowercase letters (the x-height). Also called midline.
 

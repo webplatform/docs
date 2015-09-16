@@ -18,11 +18,11 @@ todo_broken_links:
 uri: 'tutorials/The basics of HTML'
 
 ---
-## <span>Introduction</span>
+## Introduction
 
 In this article in the Web Standards Curriculum series, you will learn the basics of HTML—what it is, what it does, its history in brief, and what the structure of an HTML document looks like. The articles that follow this one will look at each individual part of HTML in much greater depth.
 
-## <span>What HTML is</span>
+## What HTML is
 
 Most desktop applications that read and write files use a special file format. For example, Microsoft Word understands “.doc” files and Microsoft Excel understands “.xls”. These files contain the instructions on how to rebuild the documents next time you open them, what the contents of that document are, and “metadata” about the article such as the author, the date the document was last modified, even things such a list of changes made so you can go back and forth between versions.
 
@@ -30,7 +30,7 @@ Most desktop applications that read and write files use a special file format. F
 
 A user agent is any software that is used to access web pages on behalf of users. There is an important distinction to be made here—all types of desktop browser software (Internet Explorer, Opera, Firefox, Safari, Chrome etc.) and alternative browsers for other devices (such as the Wii Internet channel, and mobile phone browsers such as Opera Mini and WebKit on the iPhone) are user agents, but not all user agents are browser software. The automated programs that Google and Yahoo! use to index the web to use in their search engines are also user agents, but no human being is controlling them directly.
 
-## <span>What HTML looks like</span>
+## What HTML looks like
 
 HTML is just a plain textual representation of content and its general meaning. For example:
 
@@ -40,7 +40,7 @@ The “`<p>`” part is a marker (which we refer to as a “tag”) that means �
 
 In most browsers there is a “Source” or “View Source” option, commonly under the “View” menu. Try this now - go to your favourite web site, choose this option, and spend some time looking at the HTML that makes up the structure of the page.
 
-## <span>The history of HTML</span>
+## The history of HTML
 
 In the article [The history of the Internet and the web, and the evolution of web standards](/w/index.php?title=The_history_of_the_Web&action=edit&redlink=1) you learned a little about how the modern Web came about. When Tim Berners-Lee invented the World Wide Web, he created both the first web server and web browser and [the first version of HTML](http://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/MarkUp.html).
 
@@ -62,7 +62,7 @@ In 2000, the W3C also published the XHTML 1.0 specification, which was HTML re-s
 
 In 2007, the W3C restarted the work on HTML by creating a new working group and adopting the work started by the [WhatWG](http://whatwg.org/) as HTML5. In this course we will be using HTML5, but don't worry — if you have already done some work in HTML4, you won't need to relearn everything. HTML5 contains all of HTML4 (albeit with some features redefined), and also adds some new powerful features on top. We'll make it clear when something we are talking about is new in HTML5.
 
-## <span>The structure of an HTML document</span>
+## The structure of an HTML document
 
 A typical example HTML document looks like so:
 
@@ -94,7 +94,7 @@ And that’s our document in full.
 
 Elements often contain other elements. The body of the document will invariably end up involving many nested elements. Structural elements such as `article`, `header` and `div` create the overall structure of the document, and will contain subdivisions. These will contain headings, paragraphs, lists and so on. Paragraphs can contain elements that make links to other documents, quotes, emphasis and so on. You will find out more about these elements in later articles.
 
-## <span>The syntax of HTML elements</span>
+## The syntax of HTML elements
 
 A basic element in HTML consists of two markers around a block of text, and in almost every case elements can contain sub-elements (such as `html` containing `head` and `body` in the example above). There are some exceptions to the rule: some elements do not contain text or sub-elements, for example `img`. You'll learn more about these later on.
 
@@ -118,7 +118,7 @@ Many attributes in HTML are common to all elements, though some are specific to 
 
 An element within another element is referred to as being a “child” of that element. So in the above example, `abbr` is a child of the `h1`, which is itself a child of the `header`. Conversely, the `header` element would be referred to as a “parent” of the `h1` element. This parent/child concept is important, as it forms the basis of CSS and is heavily used in JavaScript.
 
-## <span>Block level and inline elements</span>
+## Block level and inline elements
 
 There are two general categories of elements in HTML, which correspond to the types of content and structure those elements represent—block level elements and inline elements.
 
@@ -128,7 +128,7 @@ Inline elements are those that are contained within block level structural eleme
 
 Note: HTML5 redefines the element categories in HTML5: see [Element content categories](http://www.whatwg.org/specs/web-apps/current-work/complete/section-index.html#element-content-categories). While these definitions are more accurate and less ambiguous than the ones that went before, they are a lot more complicated to understand than "block" and "inline". We will therefore stick with these throughout this course.
 
-## <span>Character references</span>
+## Character references
 
 One last item to mention in an HTML document is how to include special characters. In HTML the characters `<`, `>` and `&` are special. They start and end parts of the HTML document, rather than representing the characters less-than, greater-than and ampersand.
 
@@ -140,7 +140,7 @@ The ampersand (&) introduces the reference and the semi-colon (;) ends it. Howev
 
 An actual ampersand has to be entered into a document as "&amp;", which is the character entity reference, or as "&\#38;" which is the numeric reference. [A full chart of character references can be found on evolt.org](http://www.evolt.org/article/A_Simple_Character_Entity_Chart/17/21234/).
 
-## <span>Summary</span>
+## Summary
 
 In this article, you have learned the basics of HTML, where it has evolved from and have some insight into the structure of an HTML document. We will now continue to describe the `head` section of an HTML document in some more detail, before continuing to address the `body` content.
 

@@ -26,20 +26,20 @@ todo_broken_links:
 uri: apis/timing/properties/msFirstPaint
 
 ---
-## <span>Summary</span>
+## Summary
 
 Deletion candidate.
 
 Property of [apis/timing/objects/performanceTiming](/w/index.php?title=apis/timing/objects/performanceTiming&action=edit&redlink=1)[apis/timing/objects/performanceTiming](/w/index.php?title=apis/timing/objects/performanceTiming&action=edit&redlink=1)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.msFirstPaint;
 element.msFirstPaint = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to calculate the time that is required to request the document before the document begins to display for the user.
 
@@ -48,17 +48,17 @@ var oTiming = window.performance.timing;
 var iTimeMS = oTiming.msFirstPaint - oTiming.navigationStart;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The value reported by the **msFirstPaint** property represents the number of milliseconds between the recorded time and midnight January 1, 1970 (UTC). Windows Internet Explorer 9. This property is supported only for documents displayed in IE9 Standards mode. For more information, please see Defining Document Compatibility.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `performanceTiming`
 -   `navigationStart`

@@ -11,11 +11,11 @@ tags:
 uri: 'apis/web animations/AnimationNode'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Animation nodes are represented in the Web Animations API by the AnimationNode interface.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -39,7 +39,7 @@ API Name
 [timing](/apis/web_animations/AnimationNode/timing)
 :   Returns the input timing properties specified for this animation node. This is comparable to the specified style on an Element, elem.style.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -64,22 +64,22 @@ API Name
 
     If there is no parent animation group, terminate these steps. If any of the animation nodes in nodes is an inclusive ancestor of the parent animation group throw a HierarchyRequestError exception and terminate these steps. Let reference child be the next sibling of this animation node not in nodes. Remove this animation node from its parent animation group. Insert nodes before reference child.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [ ]
 :
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   [Web Animations API](/apis/web_animations)
 

@@ -20,13 +20,13 @@ tags:
 uri: apis/webaudio/DynamicsCompressorNode/ratio
 
 ---
-## <span>Summary</span>
+## Summary
 
 The amount of dB change in input for a 1 dB change in output. Its default value is 12, with a nominal range of 1 to 20. This parameter is k-rate.
 
 Property of [apis/webaudio/DynamicsCompressorNode](/apis/webaudio/DynamicsCompressorNode)[apis/webaudio/DynamicsCompressorNode](/apis/webaudio/DynamicsCompressorNode)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,11 +34,11 @@ Property of [apis/webaudio/DynamicsCompressorNode](/apis/webaudio/DynamicsCompre
 var result = DynamicsCompressorNode.ratio;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -46,7 +46,7 @@ var compressor = audioCtx.createDynamicsCompressor();
 compressor.ratio.value = 12;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

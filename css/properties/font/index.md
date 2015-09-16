@@ -24,11 +24,11 @@ todo_broken_links:
 uri: css/properties/font
 
 ---
-## <span>Summary</span>
+## Summary
 
 The font property is shorthand that allows you to do one of two things: you can either set up six of the most mature font properties in one line, or you can set one of a choice of keywords to adopt a system font setting.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal for font-style, font-variant and font-weight. medium for font-size. normal for line-height. font-family initial value differs depending on the user agent.`
@@ -51,12 +51,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `font`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `font: font-weight font-style font-variant font-size/line-height font-family`
 -   `font: system font`
 
-## <span>Values</span>
+## Values
 
 font-weight font-style font-variant font-size/line-height font-family
 :   `font` can take up to six separate parts in its value, which set six different longhand property values. The options are as follows:
@@ -78,7 +78,7 @@ system font
 -   `small-caption`: User-preference font used in small controls.
 -   `status-bar`: User-preference font used in small controls.
 
-## <span>Examples</span>
+## Examples
 
 A selection of examples showing some typical uses of the `font` property.
 
@@ -115,7 +115,7 @@ A couple of theoretical font examples, showing first a `font` property value wit
 
 [View live example](http://code.webplatform.org/gist/5586740)
 
-## <span>Notes</span>
+## Notes
 
 -   The **font-style**, **font-variant**, and **font-weight** values may appear in any order before **font-size**. However, the **font-size**, **line-height**, and **font-family** properties must appear in the order listed. Setting the **font** property also sets the component properties. In this case, the string must be a combination of valid values for the component properties; only **font-family** may have more than one value.
 
@@ -123,16 +123,16 @@ If the string does not contain a value for a component property, that property i
 
 -   Read <https://developer.mozilla.org/en-US/docs/Web/CSS/font> for more information on Firefox's additional proprietary system font settings.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/#font-prop)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -166,11 +166,11 @@ If the string does not contain a value for a component property, that property i
 
 -   [font](/html/elements/font)
 
-### <span>External resources</span>
+### External resources
 
 -   MDN: [font @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

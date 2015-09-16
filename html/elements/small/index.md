@@ -16,16 +16,16 @@ tags:
 uri: html/elements/small
 
 ---
-## <span>Summary</span>
+## Summary
 
 Presentational-only element to define text that will appear small. Used for fine print.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **SMALL** element to display text in a smaller font.
 
@@ -33,7 +33,7 @@ This example uses the **SMALL** element to display text in a smaller font.
 <SMALL>This text is smaller</SMALL> than this text.
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-small-element)
 :   W3C Working Draft

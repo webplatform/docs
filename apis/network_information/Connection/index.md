@@ -14,11 +14,11 @@ tags:
 uri: 'apis/network information/Connection'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides a handle to the device's connection information.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -32,11 +32,11 @@ API Name
 [onchange](/apis/network_information/Connection/onchange)
 :   Handles the change event, fired when the Connection changes.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -46,14 +46,14 @@ API Name
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 As of 25 June 2014:
 
 -   Formal work on the [Network Information](http://www.w3.org/TR/netinfo-api/) spec has been stopped. The specification is now a W3C Note.
 -   Both Chrome and Firefox have shipped Network Information under an experimental feedback channel.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [The Network Information API](http://www.w3.org/TR/netinfo-api/)
 :   W3C Note

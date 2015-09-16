@@ -27,16 +27,16 @@ todo_broken_links:
 uri: html/elements/area/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 イメージマップ上でハイパーリンクとして設定されるテキストとエリア、またはハイパーリンクとして設定しないエリアを表します。
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLAreaElement](/dom/HTMLAreaElement)
 
-## <span>HTML属性</span>
+## HTML属性
 
  グローバル属性: accesskey, class, contenteditable, dir, hidden, id, lang, spellcheck, style, tabindex, title, translate
 :   [グローバル属性](/w/index.php?title=html/global_attributes/ja&action=edit&redlink=1)を参照
@@ -87,7 +87,7 @@ uri: html/elements/area/ja
 :   リンク先のMIMEタイプを指定します。
     [RFC2046]で定義された文字列のみ有効です。
 
-## <span>Examples</span>
+## Examples
 
 この例は親となる**\<map\>**要素の中で**\<area\>**要素を使い、太陽系のイメージマップを作成するHTMLです。各\<area\>要素が[**coords**](/w/index.php?title=html/attributes/coords/ja&action=edit&redlink=1)属性と[**shape**](/w/index.php?title=html/attributes/shape/ja&action=edit&redlink=1)属性を使ってmap要素の画像にハイパーリンクを設定しています。そして[**title**](/w/index.php?title=html/attributes/title/ja&action=edit&redlink=1)属性でマウスカーソルを当てた時にポップアップされるヒントを定義しています。このようなヒントは画像ファイルが存在しない、または何らかの理由で読み込むことができない場合などに有効です。
 
@@ -135,9 +135,9 @@ uri: html/elements/area/ja
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/imagemap.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>備考</span>
+### 備考
 
 -   \<area\>要素は1つの\<map\>要素に何個でも指定することができます。
 -   [**coords**](/w/index.php?title=html/attributes/coords/ja&action=edit&redlink=1)属性のフォーマットは[**shape**](/w/index.php?title=html/attributes/shape/ja&action=edit&redlink=1)属性の値に依存します。
@@ -145,7 +145,7 @@ uri: html/elements/area/ja
 -   この要素は画面上に描画されません。
 -   この要素は終了タグ(\</area\>)が要りません。
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-area-element)
 :   W3C Working Draft

@@ -10,11 +10,11 @@ tags:
 uri: svg/events
 
 ---
-## <span>Summary</span>
+## Summary
 
 List of all pages in svg/events/
 
-## <span>All Pages</span>
+## All Pages
 
 -   [error](/svg/events/error)
 -   [load](/svg/events/load)

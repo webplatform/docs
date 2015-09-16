@@ -25,34 +25,34 @@ tags:
 uri: dom/NamedNodeMap/getNamedItem
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets an attribute with a given name from an element.
 
 Method of [dom/NamedNodeMap](/dom/NamedNodeMap)[dom/NamedNodeMap](/dom/NamedNodeMap)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var attribute = attributes.getNamedItem(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The name of the [**attribute**](/dom/HTMLElement) to get.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The attribute node with the given name.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **getNamedItem** method to retrieve the value of an [**attribute**](/dom/HTMLElement).
 
@@ -78,11 +78,11 @@ function Init()
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/getNamedItemEx1.htm)
 
-## <span>Notes</span>
+## Notes
 
 If the **attribute** applies to an element but is not specified, this method returns the **attribute** with the specified name set to an empty string. If the **attribute** does not apply to the element and is not specified, then an error is returned. If the **attribute** does not apply to the element and is specified, then the **attribute** with the specified name is returned.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

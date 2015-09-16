@@ -22,7 +22,7 @@ uri: css/cssom/screen/constructor
 
 Property of [css/cssom/screen](/css/cssom/screen)[css/cssom/screen](/css/cssom/screen)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.constructor;
@@ -31,16 +31,16 @@ element.constructor = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 An object's constructor initializes the object's properties and provides access to the prototype for the object's interface object. For more information, see [Advanced Object Creation (JScript)](http://go.microsoft.com/fwlink/p/?LinkId=243136).
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `screen`

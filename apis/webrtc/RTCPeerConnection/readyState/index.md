@@ -22,13 +22,13 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/readyState
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the ready state of the peer connection.
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,7 +36,7 @@ Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis
 var result = element.readyState;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type RTCPeerStateRTCPeerState
 

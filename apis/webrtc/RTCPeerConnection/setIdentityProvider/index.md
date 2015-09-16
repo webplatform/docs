@@ -22,21 +22,21 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/setIdentityProvider
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the identity provider. Not required if the browser is already configured for an identity provider.
 
 Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = .setIdentityProvider();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 

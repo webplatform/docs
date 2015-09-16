@@ -13,17 +13,17 @@ tags:
 uri: javascript/RegExp/unicode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a Boolean value indicating the state of the Unicode flag (u) used with a regular expression. Default is false. Read-only.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     regex.unicode
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the Unicode property.
 
@@ -51,17 +51,17 @@ console.log(match[1]);
 
 [View live example](https://mathiasbynens.be/notes/es6-unicode-regex#impact-dot)
 
-## <span>Remarks</span>
+## Remarks
 
 The `unicode` property returns `true` if the Unicode flag is set for a regular expression, and returns `false` if it is not.
 
 The Unicode flag, when used, enables [various Unicode-related features for regular expressions](https://mathiasbynens.be/notes/es6-unicode-regex), such as the use of ES6 Unicode code point escapes (e.g. `/\u{1D306}/u`).
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Javascript</span>
+#### Javascript
 
 -   [propertyName](/dom/TransitionEvent/propertyName)
 
@@ -71,14 +71,14 @@ The Unicode flag, when used, enables [various Unicode-related features for regul
 
 -   [future reserved words](/javascript/future_reserved_words)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [global Property (Regular Expression)](/javascript/regular_expression/global)
 -   [ignoreCase Property (Regular Expression)](/javascript/regular_expression/ignoreCase)
 -   [multiline Property (Regular Expression)](/javascript/regular_expression/multiline)
 -   [sticky Property (Regular Expression)](/javascript/regular_expression/sticky)
 
-### <span>External resources</span>
+### External resources
 
 -   [Unicode-aware regular expressions in ECMAScript 6](https://mathiasbynens.be/notes/es6-unicode-regex)
 -   [regexpu – a source code transpiler that enables the use of ES6 Unicode regular expressions in ES5](https://github.com/mathiasbynens/regexpu)

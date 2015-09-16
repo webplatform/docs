@@ -23,20 +23,20 @@ tags:
 uri: 'apis/media source extensions/VideoPlaybackQuality/droppedVideoFrames'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the number of dropped video frames.
 
 Property of [apis/media\_source\_extensions/VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)[apis/media\_source\_extensions/VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var number = VideoPlaybackQuality.droppedVideoFrames;
 VideoPlaybackQuality.droppedVideoFrames = number;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 

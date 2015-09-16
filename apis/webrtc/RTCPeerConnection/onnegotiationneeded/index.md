@@ -18,13 +18,13 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/onnegotiationneeded
 
 ---
-## <span>Summary</span>
+## Summary
 
 Handles the negotiationneeded event.
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onnegotiationneeded;

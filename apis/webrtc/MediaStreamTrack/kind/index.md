@@ -18,13 +18,13 @@ tags:
 uri: apis/webrtc/MediaStreamTrack/kind
 
 ---
-## <span>Summary</span>
+## Summary
 
 The value, either audio or video for the source of the track.
 
 Property of [apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)[apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 

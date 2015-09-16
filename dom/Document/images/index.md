@@ -22,13 +22,13 @@ tags:
 uri: dom/Document/images
 
 ---
-## <span>Summary</span>
+## Summary
 
 Legacy method. Use document.querySelectorAll(&quot;img&quot;) instead. Gets a live collection of img elements in a document.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 var imageCollection = document.images;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 A live collection of [img](/html/elements/img) elements in the document.
 
-## <span>Examples</span>
+## Examples
 
 Logging the source URL of the first image in the document using the legacy property.
 
@@ -61,17 +61,17 @@ if (imageList.length) {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      This is a legacy property. Use document.querySelectorAll("img") instead, which returns a static list instead.
 
 Use this property to get a live collection of [img](/html/elements/img) elements in a document.
 
-## <span>Notes</span>
+## Notes
 
 Since this property returns a live collection, there are performance implications.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage/dom.html#dom-document-images)
 :   Living Standard

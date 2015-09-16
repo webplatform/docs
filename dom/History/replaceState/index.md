@@ -20,35 +20,35 @@ tags:
 uri: dom/History/replaceState
 
 ---
-## <span>Summary</span>
+## Summary
 
 Overwrites the current history record with a new record.
 
 Method of [dom/History](/dom/History)[dom/History](/dom/History)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  history.replaceState(statedata, title, url);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>statedata</span>
+### statedata
 
  Data-type
 :   any
 
  The data to update.
 
-### <span>title</span>
+### title
 
  Data-type
 :   String
 
  The data title to update.
 
-### <span>url</span>
+### url
 
  Data-type
 :   String
@@ -57,11 +57,11 @@ Method of [dom/History](/dom/History)[dom/History](/dom/History)
 
 The data URL to update.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 In the following example, a user stored a preference where they want to go straight to the User Account page when they go to the homepage of the website. The code checks for such preference and replaces the URL shown by the browser accordingly and shows a User Account page (albeit minimal). This way, there will be no history record for the original homepage of the website, only for the User Account page.
 

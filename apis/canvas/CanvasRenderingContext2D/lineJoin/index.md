@@ -23,20 +23,20 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/lineJoin
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines the type of corners the user agent will place where two lines meet.
 
 Property of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = CanvasRenderingContext2D.lineJoin;
 CanvasRenderingContext2D.lineJoin = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -46,7 +46,7 @@ Valid values are:
 -   "round"
 -   "miter"
 
-## <span>Examples</span>
+## Examples
 
 The following example shows the different lineJoin options
 
@@ -68,7 +68,7 @@ function draw() {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

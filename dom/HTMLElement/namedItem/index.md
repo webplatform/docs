@@ -26,28 +26,28 @@ uri: dom/HTMLElement/namedItem
 
 Method of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.namedItem(name);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   BSTR
 
  A **String** that specifies the [**name**](/html/attributes/name) or [**id**](/html/attributes/id) property of the object to retrieve. A collection is returned if more than one match is made.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 Object
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **namedItem** method to retrieve a **div** and change its [**innerText**](/dom/HTMLElement/innerText) property.
 
@@ -59,12 +59,12 @@ The following example shows how to use the **namedItem** method to retrieve a **
 </button>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 8 and later. In IE8 Standards mode, the **namedItem** method does not return collections if more than one named item is found; instead, it returns the first case-insensitive matched Defining Document Compatibility. The **namedItem** method was introduced in Microsoft Internet Explorer 6. The **namedItem** method does not return collections if more than one named item is found; instead, it returns the first case-insensitive matched **element**. This method first searches for an object with a matching [**id**](/html/attributes/id) attribute. If a match is not found, the method searches for an object with a matching [**name**](/html/attributes/name) attribute, but only on those elements that are allowed a name attribute.
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

@@ -13,17 +13,17 @@ tags:
 uri: javascript/RegExp
 
 ---
-## <span>Summary</span>
+## Summary
 
 An intrinsic global object that stores information about the results of regular expression pattern matches.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     RegExp.property
 
-## <span>Examples</span>
+## Examples
 
 The following example performs a regular expression search. It displays matches and submatches from the global `RegExp` object, and from the array that is returned by the `exec` method.
 
@@ -82,7 +82,7 @@ var newLine = "<br />";
  //  3: com
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required property argument can be any one of the `RegExp` object properties.
 
@@ -103,7 +103,7 @@ Its properties have undefined as their value until a successful regular expressi
 
 The global `RegExp` object should not be confused with the **Regular Expression** object. Even though they sound like the same thing, they are separate and distinct. The properties of the global `RegExp` object contain continually updated information about each match as it occurs, while the properties of the **Regular Expression** object contain only information about the matches that occur with that instance of the **Regular Expression**.
 
-## <span>Properties</span>
+## Properties
 
 ||
 |[global](/javascript/RegExp/global)|Returns a Boolean value indicating the state of the global flag ( g ) used with a regular expression.|
@@ -113,14 +113,14 @@ The global `RegExp` object should not be confused with the **Regular Expression*
 |[sticky](/javascript/RegExp/sticky)|Returns a Boolean value indicating the state of the sticky flag ( y ) used with a regular expression.|
 |[unicode](/javascript/RegExp/unicode)|Returns a Boolean value indicating the state of the Unicode flag (u) used with a regular expression.|
 
-## <span>Methods</span>
+## Methods
 
 ||
 |[compile](/javascript/RegExp/compile)|Compiles a regular expression into an internal format for faster execution.|
 |[exec](/javascript/RegExp/exec)|Executes a search on a string using a regular expression pattern, and returns an array containing the results of that search.|
 |[test](/javascript/RegExp/test)|Returns a Boolean value that indicates whether or not a pattern exists in a searched string.|
 
-## <span>Properties</span>
+## Properties
 
 The following table lists the properties of the **RegExp** object.
 
@@ -133,11 +133,11 @@ The following table lists the properties of the **RegExp** object.
 |[sticky](/javascript/RegExp/sticky)|Returns a Boolean value indicating the state of the sticky flag ( **y** ) used with a regular expression. Default is `false`. Read-only.|
 |[unicode](/javascript/RegExp/unicode)|Returns a Boolean value indicating the state of the Unicode flag (`u`) used with a regular expression. Default is `false`. Read-only.|
 
-## <span>Functions</span>
+## Functions
 
 The following table lists the functions of the **RegExp** object.
 
-## <span>Methods</span>
+## Methods
 
 The following table lists the methods of the **RegExp** object.
 
@@ -147,9 +147,9 @@ The following table lists the methods of the **RegExp** object.
 |[exec](/javascript/RegExp/exec)|Executes a search on a string using a regular expression pattern, and returns an array containing the results of that search.|
 |[test](/javascript/RegExp/test)|Returns a Boolean value that indicates whether or not a pattern exists in a searched string.|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Regular Expression Object](/javascript/regular_expression)
 -   [String Object](/javascript/String)

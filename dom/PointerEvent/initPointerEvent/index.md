@@ -18,161 +18,161 @@ tags:
 uri: dom/PointerEvent/initPointerEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initializes a new PointerEvent created by the createEvent method.
 
 Method of [dom/PointerEvent](/dom/PointerEvent)[dom/PointerEvent](/dom/PointerEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  event.initPointerEvent(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>type</span>
+### type
 
  Data-type
 :   String
 
  The type of the event being created, such as: pointerdown, pointerup, pointercancel, pointermove, pointerover, pointerout, pointerenter, pointerleave, gotpointercapture, lostpointercapture.
 
-### <span>canBubble</span>
+### canBubble
 
  Data-type
 :   Boolean
 
  Indicates whether the event can bubble. When true, the event should propagate upward. When false, the event does not propagate upward.
 
-### <span>cancelable</span>
+### cancelable
 
  Data-type
 :   Boolean
 
  Indicates whether the event’s default action can be prevented. When true, the default action can be canceled. When false, the default action cannot be canceled.
 
-### <span>view</span>
+### view
 
  Data-type
 :   any
 
  The view in which the event is taking place.
 
-### <span>detail</span>
+### detail
 
  Data-type
 :   Number
 
  Specifies some detailed information depending upon the event.
 
-### <span>screenX</span>
+### screenX
 
  Data-type
 :   Number
 
  The x-coordinate of the event in screen coordinates relative to the upper left corner of the screen.
 
-### <span>screenY</span>
+### screenY
 
  Data-type
 :   Number
 
  The y-coordinate of the event in screen coordinates relative to the upper left corner of the screen.
 
-### <span>clientX</span>
+### clientX
 
  Data-type
 :   Number
 
  The x-coordinate of the event in client coordinates relative to the upper-left corner of the document's client area.
 
-### <span>clientY</span>
+### clientY
 
  Data-type
 :   Number
 
  The y-coordinate of the event in client coordinates relative to the upper-left corner of the document's client area.
 
-### <span>ctrlKey</span>
+### ctrlKey
 
  Data-type
 :   Boolean
 
  Indicates the state of the Ctrl key. When true, the left or right Ctrl key is pressed. If false, neither Ctrl key is pressed.
 
-### <span>altKey</span>
+### altKey
 
  Data-type
 :   Boolean
 
  Indicates the state of the Alt key. When true, the left or right Alt key is pressed. If false, neither Alt key is pressed.
 
-### <span>shiftKey</span>
+### shiftKey
 
  Data-type
 :   Boolean
 
  Indicates the state of the Shift key. When true, the left or right Shift key is pressed. If false, neither Shift key is pressed.
 
-### <span>metaKey</span>
+### metaKey
 
  Data-type
 :   Boolean
 
  Indicates the state of the Meta/Command key. If true, the left or right Meta/Command key is pressed. If false neither Meta/Command key is pressed.
 
-### <span>button</span>
+### button
 
  Data-type
 :   Number
 
  If the event is caused by a mouse event, this indicates the mouse button that caused the event.
 
-### <span>relatedTarget</span>
+### relatedTarget
 
  Data-type
 :   any
 
  A reference to the related element.
 
-### <span>offsetX</span>
+### offsetX
 
  Data-type
 :   Number
 
  The x-coordinate of the event in the element.
 
-### <span>offsetY</span>
+### offsetY
 
  Data-type
 :   Number
 
  The y-coordinate of the event in the element.
 
-### <span>width</span>
+### width
 
  Data-type
 :   Number
 
  The contact width of the pointer point specified by pointerId. Default: 0
 
-### <span>height</span>
+### height
 
  Data-type
 :   Number
 
  The contact height of the pointer point specified by pointerId. Default: 0
 
-### <span>pressure</span>
+### pressure
 
  Data-type
 :   Number
 
  Pen pressure normalized in a range of 0 to 255. Default: 0
 
-### <span>tiltX</span>
+### tiltX
 
  Data-type
 :   Number
@@ -183,7 +183,7 @@ This quantity is used in conjunction with Y Tilt to represent the tilt away from
 
 Range: -90 to +90 Default: 0
 
-### <span>tiltY</span>
+### tiltY
 
  Data-type
 :   Number
@@ -194,47 +194,47 @@ A positive Y Tilt is toward the user.
 
 Range: -90 to +90 Default: 0
 
-### <span>pointerId</span>
+### pointerId
 
  Data-type
 :   Number
 
  Specifies the unique ID of the contact. Default: 0
 
-### <span>pointerType</span>
+### pointerType
 
  Data-type
 :   String
 
  Indicates whether the source is touch, pen or mouse. Default: ""
 
-### <span>isPrimary</span>
+### isPrimary
 
  Data-type
 :   Boolean
 
  Indicates whether this is the primary pointer that is used to control the mouse position in a multi-touch scenario. Default: false
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var retval = PointerEvent.initPointerEvent(typeArg, canBubbleArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg, offsetXArg, offsetYArg, widthArg, heightArg, pressure, rotation, tiltX, tiltY, pointerIdArg, pointerType, hwTimestampArg, isPrimary);
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Pointer Events](http://www.w3.org/TR/pointerevents)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [Pointer Events, Section 3.1.3: PointerEvent Constructor](http://www.w3.org/TR/pointerevents/#pointerevent-constructor)
 -   [Pointer Events, Section 9: Dispatching an untrusted pointer event example](http://www.w3.org/TR/pointerevents/#examples)

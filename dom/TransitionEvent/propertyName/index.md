@@ -27,13 +27,13 @@ tags:
 uri: dom/TransitionEvent/propertyName
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies or retrives a string containg the name of the changed property.
 
 Property of [dom/TransitionEvent](/dom/TransitionEvent)[dom/TransitionEvent](/dom/TransitionEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -41,13 +41,13 @@ Property of [dom/TransitionEvent](/dom/TransitionEvent)[dom/TransitionEvent](/do
 var result = object.propertyName;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The name of the CSS property associated with the transition.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the [**onpropertychange**](/dom/Element/propertychange) event to change the value of the **propertyName** property. This example needs to be run on IE prior to version 9 in order to work properly.
 
@@ -92,19 +92,19 @@ This example uses the [**onpropertychange**](/dom/Element/propertychange) event 
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/propertyNameEX.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 You can alter the value of **propertyName** by using it with the [**onpropertychange**](/dom/Element/propertychange) event that is available only on IE\<9.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Javascript</span>
+#### Javascript
 
 -   **propertyName**
 

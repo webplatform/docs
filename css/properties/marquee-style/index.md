@@ -21,11 +21,11 @@ tags:
 uri: css/properties/marquee-style
 
 ---
-## <span>Summary</span>
+## Summary
 
 The 'marquee-style' property determines a marquee's scrolling behavior.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `scroll`
@@ -48,13 +48,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `marqueeStyle`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `marquee-style: alternate`
 -   `marquee-style: scroll`
 -   `marquee-style: slide`
 
-## <span>Values</span>
+## Values
 
 scroll
 :   Start completely off one side, scroll all the way across and completely off.
@@ -65,7 +65,7 @@ slide
 alternate
 :   Bounce back and forth.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 .scroll { marquee-style: scroll; }
@@ -81,7 +81,7 @@ alternate
 <marquee class="alternate">This demonstrates the 'alternate' value of the 'marquee-style' property.</marquee>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Marquee Module Level 3](http://www.w3.org/TR/css3-marquee/)
 :   W3C Candidate Recommendation

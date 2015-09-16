@@ -18,13 +18,13 @@ todo_broken_links:
 uri: html/elements/time
 
 ---
-## <span>Summary</span>
+## Summary
 
 The time tag defines either a time (24 hour clock), or a date in the Gregorian calendar, optionally with a time and a time-zone offset. It does not render differently in any of the major browsers.
 
 This element can be used as a way to encode dates and times in a machine-readable way so that, for example, user agents can offer to add birthday reminders or scheduled events to the user's calendar.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLTimeElement](/w/index.php?title=dom/HTMLTimeElement&action=edit&redlink=1)
@@ -33,12 +33,12 @@ The HTML time element (<time>) represents either time on a 24-hour clock or a pr
 
 This element is intended to be used presenting dates and times in a machine readable format. This can be helpful for user agents to offer any event scheduling for user's calendar.
 
-## <span>Attributes</span>
+## Attributes
 
 -   `datetime` = date or time
     Specifies the date or time that the element represents.
 
-## <span>Validity</span>
+## Validity
 
 The datetime value of a time element is the value of the element's datetime attribute, if it has one, or the element's textContent, if it does not.
 
@@ -60,7 +60,7 @@ The kind of content is limited to various kinds of dates, times, time-zone offse
     -   00:00
     -   See more details: [Datetime value](http://www.w3.org/TR/html5/the-time-element.html#datetime-value) at HTML5 specification.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <p>
@@ -70,7 +70,7 @@ Lord Denman.
 </p>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-time-element)
 :   W3C Working Draft
@@ -78,11 +78,11 @@ Lord Denman.
 [HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-time-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -222,7 +222,7 @@ Lord Denman.
 
 -   **time**
 
-### <span>External resources</span>
+### External resources
 
 -   [time page at the Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/HTML/HTML_Elements/time).
 

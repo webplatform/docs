@@ -16,19 +16,19 @@ tags:
 uri: 'apis/web animations/AnimationPlayer/cancel'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Clears all effects caused by this player and aborts its playback by running the cancel a player procedure for this object.
 
 Method of [apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)[apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  .cancel();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 

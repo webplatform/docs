@@ -22,33 +22,33 @@ tags:
 uri: apis/geolocation/PositionOptions/enableHighAccuracy
 
 ---
-## <span>Summary</span>
+## Summary
 
 A request from the application to receive the best possible location results. The intended purpose of this attribute is to allow applications to inform the implementation that they do not require high accuracy geolocation fixes so the implementation can avoid using geolocation providers that consume a significant amount of power (e.g., GPS).
 
 Property of [apis/geolocation/PositionOptions](/apis/geolocation/PositionOptions)[apis/geolocation/PositionOptions](/apis/geolocation/PositionOptions)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = PositionOptions.enableHighAccuracy;
 PositionOptions.enableHighAccuracy = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Default is *false*.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //Request the best possible geolocation fix
 PositionOptions.enableHighAccuracy = true;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

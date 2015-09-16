@@ -7,7 +7,7 @@ tags:
 uri: tutorials/webcomponents
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page contains links to Web Components tutorials.
 

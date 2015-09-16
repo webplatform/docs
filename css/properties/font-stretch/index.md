@@ -26,11 +26,11 @@ todo_broken_links:
 uri: css/properties/font-stretch
 
 ---
-## <span>Summary</span>
+## Summary
 
 Allows you to expand or condense the widths for a normal, condensed, or expanded font face.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -53,7 +53,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `font-stretch: condensed`
 -   `font-stretch: expanded`
@@ -67,7 +67,7 @@ Animatable
 -   `font-stretch: ultra-expanded`
 -   `font-stretch: wider (Internet Explorer only)`
 
-## <span>Values</span>
+## Values
 
 ultra-condensed
 :   This is the most condensed setting.
@@ -102,7 +102,7 @@ wider (Internet Explorer only)
 narrower (Internet Explorer only)
 :   This condenses the font face in Internet Explorer only.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 .ultra-condensed{
@@ -124,19 +124,19 @@ narrower (Internet Explorer only)
 
 [View live example](http://code.webplatform.org/gist/5842671)
 
-### <span>Syntax</span>
+### Syntax
 
 `font-stretch: normal | wider | narrower | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded `
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.10
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -170,7 +170,7 @@ narrower (Internet Explorer only)
 
 -   [font](/html/elements/font)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

@@ -16,12 +16,12 @@ uri: svg/elements/text
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, the text element is used to create a text message in olive 36-point Impact type that reads" Internet Explorer Rocks". Copy this sample to a text file and save it with the *.html* file extension. Run it in Internet Explorer 9 to see the text.
 
@@ -45,9 +45,9 @@ It should look like this:
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -59,11 +59,11 @@ You can apply a gradient, pattern, clipping path, mask, or filter to text. When 
 
 The **text** element renders its first glyph (after bidirectionality reordering) at the initial current text position, which is established by the [**x**](/svg/properties/x) and [**y**](/svg/properties/y) attributes on the **text** element. (The attributes might be adjusted because of the value of the **text-anchor** property, the presence of a [**textPath**](/svg/elements/textPath) element that contains the first character, or **x**, **y**, [**dx**](/svg/properties/dx), or [**dy**](/svg/properties/dy) attributes on a [**tSpan**](/svg/elements/tspan), **tref**, or **altGlyph** element that contains the first character.) After the glyphs that corresponds to the given character are rendered, the current text position is updated for the next character. In the simplest case, the new current text position is the previous current text position plus the glyphs' advance value (horizontal or vertical).
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.17.3
 
-### <span>Members</span>
+### Members
 
 The **SVGTextElement** object has these events:
 

@@ -22,29 +22,29 @@ uri: 'apis/web animations/ComputedTimingProperties'
 
 Inherits from [AnimationTimingProperties](/w/index.php?title=AnimationTimingProperties&action=edit&redlink=1)[AnimationTimingProperties](/w/index.php?title=AnimationTimingProperties&action=edit&redlink=1)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from AnimationTimingProperties</span>
+## Inherited from AnimationTimingProperties
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 

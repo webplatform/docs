@@ -18,25 +18,25 @@ tags:
 uri: dom/Element/requestPointerLock
 
 ---
-## <span>Summary</span>
+## Summary
 
 requestPointerLock lets you lock the target of mouse events to a single element while hiding the cursor.
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  element.requestPointerLock();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Pointer Lock](http://www.w3.org/TR/pointerlock/#methods)
 :   W3C Working Draft

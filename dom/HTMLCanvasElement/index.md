@@ -18,7 +18,7 @@ uri: dom/HTMLCanvasElement
 
 Inherits from [HTMLElement](/dom/HTMLElement)[HTMLElement](/dom/HTMLElement)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -29,7 +29,7 @@ API Name
 [width](/canvas/properties/width)
 :   Width property of canvas element.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -43,13 +43,13 @@ API Name
 [toDataURL](/canvas/methods/toDataURL)
 :
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from HTMLElement</span>
+## Inherited from HTMLElement
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -966,7 +966,7 @@ API Name
 [text-anchor](/svg/attributes/text-anchor)
 :
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -1025,7 +1025,7 @@ API Name
 [toStaticHTML](/dom/HTMLElement/toStaticHTML)
 :
 
-### <span>Events</span>
+### Events
 
 *No events.*
 

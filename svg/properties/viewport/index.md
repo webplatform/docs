@@ -11,24 +11,24 @@ tags:
 uri: svg/properties/viewport
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Often, the current viewport is the nearest ancestor [**svg**](/svg/objects/SVGElement) element. A value of NULL is returned if the given element is the outermost or furthest ancestor **svg** element.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.2
 
-### <span>Device Support</span>
+### Device Support
 
 -   [Device Viewport Width Reference (maintained by Matt Stow)](https://docs.google.com/spreadsheet/lv?key=0AoUAJWmYgaHHdHZZWWpPQkx4eHpBaUxna3dyMGkzLUE)
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages</span>
+### Related pages
 
 -   [SVGSVGElement (MSDN)](/svg/elements/svg)

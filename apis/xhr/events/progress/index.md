@@ -11,11 +11,11 @@ tags:
 uri: apis/xhr/events/progress
 
 ---
-## <span>Summary</span>
+## Summary
 
 When the onprogress event occurs, partial data can be retrieved using responseText.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -67,7 +67,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 Setting the **onprogress** property.
 
@@ -81,21 +81,21 @@ function progres()
 xdr.onprogress = progres;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When the **onprogress** event occurs, partial data can be retrieved using **responseText**. The onprogress event may occur 0, 1 or many times in the time interval between the [**onload**](/apis/xhr/events/load) event. To invoke this event, do one of the following:
 
 -   Event handlers are called as needed after a request is **sent**.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 This method has no parameters.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `XDomainRequest`
 -   `XMLHttpRequest Enhancements in Internet Explorer 8`

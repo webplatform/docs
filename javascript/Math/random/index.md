@@ -10,17 +10,17 @@ tags:
 uri: javascript/Math/random
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a pseudorandom number between 0 and 1.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     Math.random( )
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 Math.random(); // 0.6236026335973293
@@ -28,7 +28,7 @@ Math.random(); // 0.10149288410320878
 Math.random(); // 0.6313296002335846
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The pseudo-random number generated is from 0 (inclusive) to 1 (exclusive), that is, the returned number can be zero, but it will always be less than one. The random number generator is seeded automatically when JavaScript is first loaded.
 
@@ -36,9 +36,9 @@ Due to the nature of the generation methods, these pseudo-random numbers are not
 
 Note that this method is unsuitable for cryptography. The [WebCrypto API](https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html) addresses this.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math.pow Function](/javascript/Math/pow)
 

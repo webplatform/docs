@@ -15,33 +15,33 @@ tags:
 uri: html/elements/canvas
 
 ---
-## <span>Summary</span>
+## Summary
 
 The canvas element (&lt;canvas&gt;) provides scripts with a resolution-dependent bitmap canvas, which can be used for rendering graphs, game graphics, or other visual images on the fly, by using the associated canvas API.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLCanvasElement](/dom/HTMLCanvasElement)
 
-## <span>HTML Attributes</span>
+## HTML Attributes
 
 -   `height` = non-negative integer
     The height of the canvas, in CSS pixels.
 -   `width` = non-negative integer
     The width of the canvas, in CSS pixels.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <canvas width="800" height="600"></canvas>
 ```
 
-## <span>Usage</span>
+## Usage
 
      The canvas api is a useful resource for working with the canvas element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/scripting-1.html#the-canvas-element)
 :   W3C Working Draft
@@ -49,11 +49,11 @@ The canvas element (&lt;canvas&gt;) provides scripts with a resolution-dependent
 [HTML 5](http://www.w3.org/TR/html5/scripting-1.html#the-canvas-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Canvas</span>
+#### Canvas
 
 -   [canvas](/apis/canvas)
 

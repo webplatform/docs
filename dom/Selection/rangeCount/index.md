@@ -23,13 +23,13 @@ tags:
 uri: dom/Selection/rangeCount
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the number of ranges in a selection
 
 Property of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,29 +37,29 @@ Property of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 var rangecount = selObj.rangeCount;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 The number of ranges in a selection.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var selObj=window.selection();
 var rangecount=selObj.rangeCount;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 9-11 does not currently support multiple or disjointed selections in standards mode. This property always returns a 1 with a valid selection. It returns a 0 if [**removeRange**](/dom/Selection/removeRange) or [**removeAllRanges**](/dom/Selection/removeAllRanges) have been applied, though calling [**isCollapsed**](/dom/Selection/isCollapsed) is recommended instead to detect an empty range.
 
 Before the user has clicked a freshly loaded page, the rangeCount is 0. A user can normally only select one range at a time, so the rangeCount will usually be 1. Scripting can be used (currently) in Gecko to make the selection contain more than 1 range.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1

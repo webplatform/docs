@@ -23,24 +23,24 @@ tags:
 uri: dom/Selection/anchorNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the element or node that contains the start of the selection.
 
 Property of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var node = selObj.anchorNode;
 selObj.anchorNode = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
-## <span>Examples</span>
+## Examples
 
 The following example shows the text that you select, and all the text contained in the anchorNode element.
 
@@ -74,18 +74,18 @@ The following example shows the text that you select, and all the text contained
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Returns null if not successful. This is not supported by Windows Internet Explorer 8 or earlier versions. AnchorNode returns the value of the [**startContainer**](/dom/Range/startContainer) attribute of the first **Range** object in the list. See [**focusNode**](/dom/Selection/focusNode) to find the node that contains the end of a selection.
 
 A user may make a selection from left to right (in document order) or right to left (reverse of document order). The anchor is where the user began the selection. This can be visualized by holding the Shift key and pressing the arrow keys on your keyboard. The selection's anchor does not move, but the selection's focus, the other end of the selection, does move.
 
-### <span>Syntax</span>
+### Syntax
 
 startNode=selObj.anchorNode;
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1

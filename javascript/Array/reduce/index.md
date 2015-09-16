@@ -11,11 +11,11 @@ tags:
 uri: javascript/Array/reduce
 
 ---
-## <span>Summary</span>
+## Summary
 
 Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -27,11 +27,11 @@ Calls the specified callback function for all the elements in an array. The retu
 **initialValue**
 :   Optional. If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.
 
-## <span>Return Value</span>
+## Return Value
 
 The accumulated result from the last call to the callback function.
 
-## <span>Examples</span>
+## Examples
 
 The following example concatenates array values into a string, separating the values with "::". Because no initial value is provided to the **reduce** method, the first call to the callback function has "abc" as the previousValue argument and "def" as the currentValue argument.
 
@@ -122,7 +122,7 @@ function Process(previousArray, currentValue) {
  // result array=1,6,3
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 If an initialValue is provided, the **reduce** method calls the callbackfn function one time for each element present in the array, in ascending index order. If an initialValue is not provided, the **reduce** method calls the callbackfn function on each element, starting with the second element.
 
@@ -170,16 +170,16 @@ The following table describes the results of modifying the array object after th
 |Element is changed.|Yes, if that element has not yet been passed to the callback function.|
 |Element is deleted from the array.|No, unless that element has already been passed to the callback function.|
 
-## <span>Exceptions</span>
+## Exceptions
 
 A **TypeError** exception is thrown when either of the following conditions is true:
 
 -   The callbackfn argument is not a function object.
 -   The array contains no elements and initialValue is not provided.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.21 Array.prototype.reduce ( callbackfn [ , initialValue](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.21) )] ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

@@ -20,11 +20,11 @@ tags:
 uri: css/properties/border-image
 
 ---
-## <span>Summary</span>
+## Summary
 
 Shorthand property that defines an image to be displayed and its positioning, instead of a solid color, for 'border' property. It can be used to set border-image-source, border-image-slice, border-image-width, border-image-outset and border-image-repeat, or a subset of these.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `based on individual properties`
@@ -50,11 +50,11 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `border-image: border-image-source border-image-slice border-image-width border-image-outset border-image-repeat`
 
-## <span>Values</span>
+## Values
 
 border-image-source border-image-slice border-image-width border-image-outset border-image-repeat
 :   The `border-image` property can contain up to five components:
@@ -65,7 +65,7 @@ border-image-source border-image-slice border-image-width border-image-outset bo
 -   `border-image-outset`: This takes a numeric value with any of the standard length units.
 -   `border-image-repeat`: This takes any of the type of values available to the [**border-image-repeat**](/css/properties/border-image-repeat) property, which includes `stretch`, `repeat`, `round` and `space`. For more details about each, see the [**border-image-repeat**](/css/properties/border-image-repeat) page.
 
-## <span>Examples</span>
+## Examples
 
 A simple example showing a \<div\>.
 
@@ -94,24 +94,24 @@ div {
 
 [View live example](http://code.webplatform.org/gist/5622521)
 
-## <span>Notes</span>
+## Notes
 
 [**border-image-slice: fill**](/css/properties/border-image-slice) was introduced in latest recommendation and breaks backwards compatibility. If you want border-image to fill an inner area of your block you have to use this property.
 
-### <span>Compatibility with other properties</span>
+### Compatibility with other properties
 
 [**border-radius**](/css/properties/border-radius) has no effect on border-image.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Backgrounds and Borders Module Level 3](http://www.w3.org/TR/css3-background/)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Border</span>
+#### Border
 
 -   [border](/css/properties/border)
 
@@ -171,6 +171,6 @@ div {
 
 -   [border-width](/css/properties/border-width)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Decorating fancy borders with CSS border-image](/tutorials/css_border_image)

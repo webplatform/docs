@@ -10,16 +10,16 @@ tags:
 uri: html/elements/data
 
 ---
-## <span>Summary</span>
+## Summary
 
 Annotates content with some machine-readable value.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLDataElement](/dom/HTMLDataElement)
 
-## <span>Examples</span>
+## Examples
 
 Give an alternate representation of a value for humans, but embed the machine readable as an annotation.
 
@@ -33,7 +33,7 @@ Represent an inventory item within a document, and hide within the markup the in
 <code><data value="UPC:022014640201">North Coast Organic Apple Cider</data></code>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-data-element)
 :   W3C Working Draft

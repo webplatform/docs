@@ -74,39 +74,39 @@ translations:
 uri: css/fr
 
 ---
-## <span>Résumé</span>
+## Résumé
 
 Le CSS (pour *Cascading style sheets*) est le langage de présentation pour le contenu sur le web. C'est le [World Wide Web Consortium](http://www.w3.org) qui assure le maintien du [standard CSS](http://www.w3.org/standards/techs/css).
 
-## <span>Explorer notre documentation CSS</span>
+## Explorer notre documentation CSS
 
-### <span>[Apprendre CSS](/css/tutorials)</span>
+### [Apprendre CSS](/css/tutorials)
 
 Tutoriels et articles de cours pour apprendre CSS de zéro.
 
-### <span>[Sélecteurs CSS](/css/selectors)</span>
+### [Sélecteurs CSS](/css/selectors)
 
 Un guide de référence sur tous les sélecteurs CSS disponibles.
 
-### <span>[Propriétés CSS](/css/properties)</span>
+### [Propriétés CSS](/css/properties)
 
 Un guide de référence sur toutes les propriétés CSS disponibles.
 
-### <span>[Fonctions CSS](/css/functions)</span>
+### [Fonctions CSS](/css/functions)
 
 Un guide de référence sur toutes les fonctions CSS.
 
-### <span>[At-rules](/css/atrules)</span>
+### [At-rules](/css/atrules)
 
 Un guide de références sur les différents règles CSS @rules (at-rules) disponibles.
 
-### <span>[Media queries](/css/mediaqueries)</span>
+### [Media queries](/css/mediaqueries)
 
 Un guide de référence sur tous les types de *media queries*.
 
  Note : Si vous êtes totalement débutant en développement web, nous vous suggérons de lire [Le développement web pour les débutants](/beginners).
 
-## <span>Résumé</span>
+## Résumé
 
 Cascading Style Sheets (CSS) est un langage de présentation (style, mise en page, animation) qui s'applique aux contenus balisés (tels que HTML, XHTML, SVG ou XML). C'est l'un des composants principaux de l'[Open Web Platform](http://www.w3.org/wiki/Open_Web_Platform).
 
@@ -116,15 +116,15 @@ CSS vous permet de styliser vos contenus avec un ensemble de [sélecteurs](/css/
 -   Version stable courante : La [Recommandation CSS 2](http://www.w3.org/TR/CSS21/) publiée une première fois en 1998 mais pas réellement terminée avant 2011 malgré un état stable depuis des années. Plusieurs modules CSS3 sont également stables actuellement (Avril 2013). Voir "Travail actuel et futur".
 -   Travail actuel et futur : Le Groupe de travail CSS travaille actuellement sur un certain nombre de "modules" qui décrivent chacun des parties différentes de la technologie connue sous le nom de CSS3. Certains de ces modules sont stables alors que d'autres sont encore à l'état d'expérimentation et non par forcément toujours un support sur tous les navigateurs. Un travail est également effectué sur différents modules CSS4 mais cela risque d'être long avant qu'ils ne soient prêts à être utilisés en production. Voir la page [CSS working group current work](http://www.w3.org/Style/CSS/current-work) pour plus d'informations sur quels modules/spécifications sont en phase d'être terminés.
 
-## <span>Contribuer à la technologie CSS</span>
+## Contribuer à la technologie CSS
 
 Le développement de CSS est assuré par le *CSS working group*. Pour en savoir plus, et notamment participer, allez voir la page du [CSS working group](http://www.w3.org/Style/CSS/). Pour contribuer et poser des questions relatives aux spéficiations, nous vous recommandons la [www-style mailing list](http://lists.w3.org/Archives/Public/www-style/). Gardez à l'esprit que ce n'est pas un endroit pour poser des questions du type "comment utiliser les styles CSS pour mon site web".
 
-## <span>Contribuer aux pages de référence sur CSS</span>
+## Contribuer aux pages de référence sur CSS
 
 CSS étant en évolution constante, nous améliorerons continuellement ces documentations. Nous travaillons actuellement sur les propriétés CSS. Pour rejoindre ce projet, voir [WPD:CSS\_property\_guide](/WPD:CSS_property_guide).
 
-## <span>Index de tous les sujets sur CSS</span>
+## Index de tous les sujets sur CSS
 
 <table>
 <col width="33%" />

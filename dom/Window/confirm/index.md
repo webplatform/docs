@@ -22,34 +22,34 @@ tags:
 uri: dom/Window/confirm
 
 ---
-## <span>Summary</span>
+## Summary
 
 Displays a synchronized confirmation dialog box showing the given text and possibly localized OK and Cancel buttons.
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var confirmed = window.confirm(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>message</span>
+### message
 
  Data-type
 :   String
 
  The message to display in the confirmation dialog box. If no value is provided, the dialog box does not contain a message.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Whether the user confirmed (clicked on OK).
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 if(window.confirm('Do you want to contine?')){
@@ -59,13 +59,13 @@ if(window.confirm('Do you want to contine?')){
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Not recommended for general use. See the notes for details.
 
 Use this method to let the user confirm some action.
 
-## <span>Notes</span>
+## Notes
 
 -   The title bar of the confirmation dialog box cannot be changed.
 -   Not recommended due to the following issues -

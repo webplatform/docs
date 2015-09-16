@@ -20,24 +20,24 @@ tags:
 uri: apis/webaudio/PannerNode/refDistance
 
 ---
-## <span>Summary</span>
+## Summary
 
 A reference distance for reducing volume as source moves further from the listener. The default value is 1.
 
 Property of [apis/webaudio/PannerNode](/apis/webaudio/PannerNode)[apis/webaudio/PannerNode](/apis/webaudio/PannerNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = PannerNode.refDistance;
 PannerNode.refDistance = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -45,7 +45,7 @@ var panner = audioCtx.createPanner();
 panner.refDistance = 1;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

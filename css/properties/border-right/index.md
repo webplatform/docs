@@ -26,11 +26,11 @@ todo_broken_links:
 uri: css/properties/border-right
 
 ---
-## <span>Summary</span>
+## Summary
 
 Shorthand property that defines the border-width, border-style and border-color of an element's right border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the right border — border-right-width, border-right-style and border-right-color.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `For style values, the initial value is none. For color values, the initial value is currentColor.  For width values, the initial value is medium, which is computed as about 3px in most browsers.`
@@ -56,12 +56,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `border-right: border-width border-style color`
 -   `border-right: inherit`
 
-## <span>Values</span>
+## Values
 
 border-width border-style color
 :   The `border-right` property can contain up to three components:
@@ -73,7 +73,7 @@ border-width border-style color
 inherit
 :   When we set the value to `inherit`, the element will inherit the border values set on its parent.
 
-## <span>Examples</span>
+## Examples
 
 A simple example showing multiple `<div>`s, identical in style except that they have different `border-right` properties applied to them.
 
@@ -137,17 +137,17 @@ p {
 
 [View live example](http://code.webplatform.org/gist/5534715)
 
-## <span>Usage</span>
+## Usage
 
      * It is usual to use the border-right property to set the default state of a box's right border, and then override individual values using more specific propeties, such as border-right-width or border-right-color.
 
 -   `border-right` can be used as a divider between horizontally laid out items, such as a horizontal navigation menu, or table cells.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Border</span>
+#### Border
 
 -   [border](/css/properties/border)
 
@@ -207,7 +207,7 @@ p {
 
 -   [border-width](/css/properties/border-width)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

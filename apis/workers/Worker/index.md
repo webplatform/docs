@@ -12,11 +12,11 @@ tags:
 uri: apis/workers/Worker
 
 ---
-## <span>Summary</span>
+## Summary
 
 An object representing a worker, that is used to communicate with the worker.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -27,7 +27,7 @@ API Name
 [onmessage](/apis/workers/Worker/onmessage)
 :   An event listener to be called when a message is received from the worker.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -38,11 +38,11 @@ API Name
 [terminate](/apis/workers/Worker/terminate)
 :   Immediately terminates the worker with which the object is associated.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 Spawning and communicating with a Worker (document.html)
 
@@ -79,7 +79,7 @@ importScripts('additional.js', 'another-one.js', 'as-many-as-you-like.js' /* , .
 self.postMessage("ready for business");
 ```
 
-## <span>Notes</span>
+## Notes
 
 In the past, if you had to do a task on a webpage that might take a long time, you forced the user to wait until the task was finished. Workers can solve that problem by packaging and running code that runs separately from the main webpage. These packages are called threads and run in the background. You can have more than one worker running at once, each with its own thread and JavaScript code file.
 
@@ -93,7 +93,7 @@ You can determine the location of a worker from inside the worker by using the *
 
 You can determine which navigator objects are available to the worker by using the **WorkerNavigator** object. Shared workers are not supported in this release.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft

@@ -14,7 +14,7 @@ tags:
 uri: html/attributes/wrap
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the wrap style (soft, hard, or off) for a text element.
 
@@ -30,7 +30,7 @@ dom/HTMLElement
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example dynamically sets the **wrap** property of a **textArea** to the value selected by the user.
 
@@ -54,19 +54,19 @@ function ChangeWrap(oSelect, oTA)
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/wrap.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 To detect the difference between **soft** and **hard** you must submit the content within the **textArea** to an HTTP server.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `textArea`

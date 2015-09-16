@@ -17,13 +17,13 @@ tags:
 uri: apis/indexeddb/IDBOpenDBRequest/onUpgradeNeeded
 
 ---
-## <span>Summary</span>
+## Summary
 
 The event handler for the upgrade needed event.
 
 Property of [apis/indexeddb/IDBOpenDBRequest](/apis/indexeddb/IDBOpenDBRequest)[apis/indexeddb/IDBOpenDBRequest](/apis/indexeddb/IDBOpenDBRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onUpgradeNeeded;

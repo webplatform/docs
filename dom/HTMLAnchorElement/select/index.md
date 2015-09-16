@@ -26,13 +26,13 @@ uri: dom/HTMLAnchorElement/select
 
 Method of [dom/HTMLAnchorElement](/dom/HTMLAnchorElement)[dom/HTMLAnchorElement](/dom/HTMLAnchorElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.select();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -42,14 +42,14 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Use this method with the [**focus**](/dom/HTMLElement/focus) method to highlight a field and position the cursor for a user response.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5

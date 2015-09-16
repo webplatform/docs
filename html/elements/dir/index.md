@@ -16,18 +16,18 @@ tags:
 uri: html/elements/dir
 
 ---
-## <span>Summary</span>
+## Summary
 
 The dir element &lt;dir&gt; is used to list directory titles.
 
 The **dir** element is deprecated in HTML 4.01, and obsolete in HTML5. Use CSS and the [**ul** element](/html/elements/ul) instead.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **dir** element to create a directory list.
 
@@ -42,18 +42,18 @@ This example uses the **dir** element to create a directory list.
 </DIR>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 10.4 (Deprecated)
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [`menu`](/html/elements/menu)
 -   [`ol`](/html/elements/ol)

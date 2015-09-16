@@ -22,24 +22,24 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/shadowOffsetY
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the distance that the shadow will be offset in the positive vertical distance, in coordinate space units.
 
 Property of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = CanvasRenderingContext2D.shadowOffsetY;
 CanvasRenderingContext2D.shadowOffsetY = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
@@ -56,11 +56,11 @@ ctxt.fillRect(30,20,100,100);
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 You can use positive or negative values to control the position of a shadow. If you do not specify the *shadowOffsetY* property, the default value is zero.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

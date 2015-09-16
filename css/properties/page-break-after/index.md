@@ -21,11 +21,11 @@ tags:
 uri: css/properties/page-break-after
 
 ---
-## <span>Summary</span>
+## Summary
 
 The page-break-after property is supported in all major browsers. With CSS3, page-break-\* properties are only aliases of the break-\* properties. The CSS3 Fragmentation spec defines breaks for all CSS box fragmentation.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :
@@ -48,7 +48,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `page-break-after: always`
 -   `page-break-after: auto`
@@ -58,7 +58,7 @@ Animatable
 -   `page-break-after: left`
 -   `page-break-after: right`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Default. Insert a page break after the element if necessary
@@ -81,7 +81,7 @@ right
 inherit
 :   Specifies that the value of the page-break-after property should be inherited from the parent element
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Fragmentation Module Level 3, 3.3. Page Break Aliases: the ‘page-break-before’, ‘page-break-after’, and ‘page-break-inside’ properties](http://www.w3.org/TR/css3-break/#page-break)
 :   W3C Working Draft

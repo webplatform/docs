@@ -22,13 +22,13 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/iceGatheringState
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the gathering state of the ICE agent.
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,7 +36,7 @@ Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis
 var result = element.iceGatheringState;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type RTCGatheringStateRTCGatheringState
 
@@ -48,6 +48,6 @@ The RTCGatherState enum has the following values:
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Events such as adding a new interface or new TURN server could cause the state to go back to gathering.

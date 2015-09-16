@@ -10,13 +10,13 @@ tags:
 uri: javascript/operators
 
 ---
-## <span>Summary</span>
+## Summary
 
 The following table lists JavaScript operators.
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Operators</span>
+## Operators
 
 |Description|Language Element|
 |:----------|:---------------|

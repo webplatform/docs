@@ -16,13 +16,13 @@ tags:
 uri: 'apis/web animations/Animation'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Animations are represented by the Animation interface.
 
 Inherits from [AnimationNode](/apis/web_animations/AnimationNode)[AnimationNode](/apis/web_animations/AnimationNode)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -33,7 +33,7 @@ API Name
 [target](/apis/web_animations/Animation/target)
 :
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -44,13 +44,13 @@ API Name
 [constructor](/apis/web_animations/Animation/constructor)
 :
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from AnimationNode</span>
+## Inherited from AnimationNode
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -74,7 +74,7 @@ API Name
 [timing](/apis/web_animations/AnimationNode/timing)
 :   Returns the input timing properties specified for this animation node. This is comparable to the specified style on an Element, elem.style.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -99,11 +99,11 @@ API Name
 
     If there is no parent animation group, terminate these steps. If any of the animation nodes in nodes is an inclusive ancestor of the parent animation group throw a HierarchyRequestError exception and terminate these steps. Let reference child be the next sibling of this animation node not in nodes. Remove this animation node from its parent animation group. Insert nodes before reference child.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Web Animations 1.0](http://www.w3.org/TR/web-animations/)
 :   W3C Working Draft

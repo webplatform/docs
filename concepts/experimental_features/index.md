@@ -3,7 +3,7 @@ title: experimental features
 uri: 'concepts/experimental features'
 
 ---
-## <span>Enabling experimental features</span>
+## Enabling experimental features
 
 Cutting-edge features that you can't ordinarily use in your browser may be available in experimental implementations. One way to use them is to download and launch standalone browser builds, which are typically generated each day to reflect the latest set of committed code. Here are few places where you can get these builds:
 
@@ -19,7 +19,7 @@ Careful: these builds may be unstable, and may feature unexpected security holes
 
 Otherwise, some commercial browser releases include latent features that you can toggle on and off, as described below:
 
-### <span>Chrome's about:flags</span>
+### Chrome's about:flags
 
 In Google Chrome, navigate to this address:
 
@@ -33,7 +33,7 @@ Enable the item you want, but pay careful attention to the wording, since you ma
 
 **Note:** Even after downloading a standalone Canary build, you may need to change its flags to enable the set of experimental features you want.
 
-### <span>Mozilla's about:config</span>
+### Mozilla's about:config
 
 In Firefox, navigate to the following address:
 
@@ -45,7 +45,7 @@ Double-click any of the items listed to toggle them, again being very careful to
 
 Most of these options modify the browser application itself, such as how tabs and URL bars behave, but several allow you to try out emerging cross-browser web standards, especially those prefixed *dom*. For example, the **dom.event.clipboardevents.enabled** option allows an application to respond to **cut**, **copy**, and **paste** events. The **dom.battery.enabled** option allows you to test the [Battery Status API](/apis/battery_status) on mobile devices.
 
-### <span>Safari Developer Menu</span>
+### Safari Developer Menu
 
 Apple Safari has a more limited ability to enable WebGL for complex 3D rendering. Under the **Advanced** preferences menu, choose **Show** Develop menu in menu bar**:**
 

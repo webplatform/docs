@@ -10,11 +10,11 @@ tags:
 uri: javascript/Object/isExtensible
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a value that indicates whether new properties can be added to an object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,11 +23,11 @@ Returns a value that indicates whether new properties can be added to an object.
 **object**
 :   Required. The object to test.
 
-## <span>Return Value</span>
+## Return Value
 
 true if the object is extensible, which indicates that new properties can be added to the object; otherwise, false.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **Object.isExtensible** function.
 
@@ -46,7 +46,7 @@ The following example illustrates the use of the **Object.isExtensible** functio
  undefined
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 For information about how to set property attributes, see [Object.defineProperty Function](/javascript/Object/defineProperty). To obtain the attributes of a property, you can use the [Object.getOwnPropertyDescriptor Function](/javascript/Object/getOwnPropertyDescriptor).
 
@@ -66,13 +66,13 @@ The following functions return true if all of the conditions marked in the follo
 |[Object.isSealed](/javascript/Object/isSealed)|No|Yes|No|
 |[Object.isFrozen](/javascript/Object/isFrozen)|No|Yes|Yes|
 
-## <span>Exceptions</span>
+## Exceptions
 
 If the object argument is not an object, a TypeError exception is thrown.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Object.preventExtensions Function](/javascript/Object/preventExtensions)
 -   [Object.seal Function](/javascript/Object/seal)

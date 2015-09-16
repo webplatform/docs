@@ -20,11 +20,11 @@ tags:
 uri: css/properties/text-emphasis-color
 
 ---
-## <span>Summary</span>
+## Summary
 
 The text-emphasis-color property specifies the foreground color of the emphasis marks.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `currentColor`
@@ -50,16 +50,16 @@ Animatable
 Percentages
 :   Not available
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-emphasis-color: color`
 
-## <span>Values</span>
+## Values
 
 color
 :   Specify the foreground color of the emphasis marks.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 p {
@@ -70,11 +70,11 @@ p {
 
 [View live example](http://code.webplatform.org/gist/5654528)
 
-## <span>Notes</span>
+## Notes
 
 The initial value of the currentColor means that it defaults to match the text color.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Decoration Module Level 3](http://dev.w3.org/csswg/css-text-decor-3/#emphasis-marks)
 :   Editor's Draft

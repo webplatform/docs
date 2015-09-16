@@ -11,11 +11,11 @@ tags:
 uri: javascript/Array/filter
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the elements of an array that meet the condition specified in a callback function.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -27,11 +27,11 @@ Returns the elements of an array that meet the condition specified in a callback
 **thisArg**
 :   Optional. An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
 
-## <span>Return Value</span>
+## Return Value
 
 A new array that contains all the values for which the callback function returns true. If the callback function returns false for all elements of array1 , the length of the new array is 0.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **filter** method.
 
@@ -154,7 +154,7 @@ The **filter** method can be applied to a string instead of an array. The follow
  // Output: T,q,b,f,j,o,t,l,d
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **filter** method calls the callbackfn function one time for each element in the array, in ascending index order. The callback function is not called for missing elements of the array.
 
@@ -183,17 +183,17 @@ The **filter** method does not directly modify the original array, but the callb
 |Element is changed.|Yes, if that element has not yet been passed to the callback function.|
 |Element is deleted from the array.|No, unless that element has already been passed to the callback function.|
 
-## <span>Exceptions</span>
+## Exceptions
 
 If the callbackfn argument is not a function object, a **TypeError** exception is thrown.
 
-### <span>Requirements</span>
+### Requirements
 
 Supported in the following document modes: Internet Explorer 9 standards, Internet Explorer 10 standards, and Internet Explorer 11 standards. Also supported in Windows Store apps. Not supported in the following document modes: Quirks, Internet Explorer 6 standards, Internet Explorer 7 standards, Internet Explorer 8 standards.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.20 Array.prototype.filter ( callbackfn [ , thisArg](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.20) )]
 

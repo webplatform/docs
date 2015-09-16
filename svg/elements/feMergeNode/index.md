@@ -16,30 +16,30 @@ uri: svg/elements/feMergeNode
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.22
 
-### <span>Members</span>
+### Members
 
 The **SVGFEMergeNodeElement** object has these properties:
 
 -   [**in1**](/svg/properties/in1): Identifies input for the given filter primitive.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 
@@ -123,6 +123,6 @@ The **SVGFEMergeNodeElement** object has these properties:
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**feMerge**](/svg/elements/feMerge)

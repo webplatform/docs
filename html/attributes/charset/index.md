@@ -10,7 +10,7 @@ tags:
 uri: html/attributes/charset
 
 ---
-## <span>Summary</span>
+## Summary
 
 The charset attribute is used to declare the character encoding of the document.
 
@@ -32,13 +32,13 @@ Note that BOM and declaration in the HTTP header take precedence over in-documen
 
 It’s good practice to declare the character encoding inside the document for situations when the document will be used locally with no HTTP header involved, and as a visual cue in the source code.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <meta charset="utf-8"/>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML Document Representation](http://www.w3.org/TR/html4/charset.html)
 :   W3C Recommendation

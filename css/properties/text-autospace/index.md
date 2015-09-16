@@ -26,11 +26,11 @@ todo_broken_links:
 uri: css/properties/text-autospace
 
 ---
-## <span>Summary</span>
+## Summary
 
 When non-ideographic characters (such as numbers) are presented alongside ideographic characters, many designers prefer to include spacing to separate it from the surrounding ideographs. This property automates the creation of that space by introducing an in-line margin, the width of which corresponds to the width of existing ideographs.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -56,7 +56,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-autospace: ideograph-alpha`
 -   `text-autospace: ideograph-numeric`
@@ -64,7 +64,7 @@ Percentages
 -   `text-autospace: ideograph-space`
 -   `text-autospace: none`
 
-## <span>Values</span>
+## Values
 
 none
 :   Default. No effect takes place—that is, no extra space is added.
@@ -81,7 +81,7 @@ ideograph-parenthesis
 ideograph-space
 :   Extends the width of the space character when it is adjacent to ideographs.
 
-## <span>Examples</span>
+## Examples
 
 By setting the **text-autospace** property to various keywords, one can easily modify the spacing standards of combinations of ideographic and non-ideographic characters.
 
@@ -105,34 +105,34 @@ tr:nth-child(5) {
 
 [View live example](http://code.webplatform.org/gist/5842252)
 
-## <span>Usage</span>
+## Usage
 
      This property acts in addition to other properties such as css/properties/word-spacing and css/properties/letter-spacing, meaning that you can use both properties and their effects will be compounded.
 
 This property is not currently supported by any major browser.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 8. The **-ms-text-autospace** attribute is an extension to CSS, and can be used as a synonym for **text-autospace** in IE8 Standards mode. An ideograph is a character in an Asian writing system that represents a concept or an idea, but not a particular word or pronunciation.
 
-### <span>Syntax</span>
+### Syntax
 
 `-ms-text-autospace: none | ideograph-alpha | ideograph-numeric | ideograph-parenthesis | ideograph-space`
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Text Level 3](http://go.microsoft.com/fwlink/p/?linkid=203766), Section 9.4
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/)
 :   W3C Last Call Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

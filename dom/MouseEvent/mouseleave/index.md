@@ -12,11 +12,11 @@ tags:
 uri: dom/MouseEvent/mouseleave
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fires when the user moves the mouse pointer outside the boundaries of the object.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -70,7 +70,7 @@ none
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the difference between mouseout and mouseleave events.
 
@@ -104,13 +104,13 @@ var el = document.getElementById("test");
 
 [View live example](http://result.dabblet.com/gist/eaba649bc760d5831769/40c8a5bde01f6ac7896353103b65313d550aed40)
 
-## <span>Usage</span>
+## Usage
 
      Could be used, for example to play a sound as the user hovers over a menu list.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The event fires only if the mouse pointer is inside the boundaries of the object and the user moves the mouse pointer outside the boundaries of the object. If the mouse pointer is currently outside the boundaries of the object, for the event to fire, the user must move the mouse pointer inside the boundaries of the object and then back outside the boundaries of the object. Initiates any action associated with this event. To invoke this event, do one of the following:
 
@@ -143,13 +143,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

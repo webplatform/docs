@@ -12,11 +12,11 @@ tags:
 uri: css/atrules/@charset
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the character encoding of the style sheet.
 
-## <span>Examples</span>
+## Examples
 
 Set the character encoding of the style sheet to Unicode UTF-8 (recommended)
 
@@ -30,37 +30,37 @@ Set the character encoding of the style sheet to Cyrillic (Windows 1251)
 @charset "Windows-1251";
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 You can use only one **@charset** rule in an external style sheet. The rule must appear at the top of the file, cannot be preceded by any characters, and cannot be included in an embedded style sheet.
 
 The rule has no default value.
 
-### <span>Syntax</span>
+### Syntax
 
 `@charset CharSet-Description`
 
-### <span>Parameters</span>
+### Parameters
 
 *CharSet-Description*
 :   **String** that specifies the name of the character encoding.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 4.4
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Cascading Style Sheets Level 2 Revision 1 (CSS 2.1)](http://www.w3.org/TR/CSS2/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Syntax</span>
+#### Syntax
 
 -   **@charset**
 

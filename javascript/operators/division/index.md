@@ -10,11 +10,11 @@ tags:
 uri: javascript/operators/division
 
 ---
-## <span>Summary</span>
+## Summary
 
 Divides the values of two expressions.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,16 +29,16 @@ Divides the values of two expressions.
 **number2**
 :   Any numeric expression.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var x = 9 / 3;
 // result: x = 3
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Division Assignment Operator (/=)](/javascript/operators/division_assignment)
 

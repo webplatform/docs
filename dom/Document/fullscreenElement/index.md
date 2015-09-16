@@ -22,13 +22,13 @@ tags:
 uri: dom/Document/fullscreenElement
 
 ---
-## <span>Summary</span>
+## Summary
 
 Exposes the current fullscreen state, returning the element that is displayed fullscreen, or null if there is no such element.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 var element = document.fullscreenElement;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ElementElement
 
 Returns the element that is displayed fullscreen, or `null` if there is no such element.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function inFullScreen() {
@@ -57,15 +57,15 @@ function inFullScreen() {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Fullscreen](http://www.w3.org/TR/fullscreen/#api)
 :   Working Draft
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C fullscreen working draft](http://www.w3.org/TR/fullscreen/)
 
-## <span>See also</span>
+## See also
 
 Tutorial: [Using the full-screen API](http://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api)

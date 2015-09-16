@@ -24,19 +24,19 @@ tags:
 uri: dom/TextRange/duplicate
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a duplicate of the TextRange.
 
 Method of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var duplicate = textRange.duplicate();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
@@ -44,16 +44,16 @@ a duplicate of the TextRange object.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Used to fill the edit-undo buffer.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

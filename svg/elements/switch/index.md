@@ -16,12 +16,12 @@ uri: svg/elements/switch
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 The following code example uses the **switch** element to provide a graphical representation of a paragraph if XMHTML is not supported.
 
@@ -58,9 +58,9 @@ The following code example uses the **switch** element to provide a graphical re
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -68,11 +68,11 @@ The **switch** element evaluates the [**requiredFeatures**](/svg/properties/requ
 
 The values of the [**display**](/css/properties/display) and [**visibility**](/css/properties/visibility) properties does not affect the **switch** element processing. In particular, if you set **display** to [**none**](/css/properties/text-decoration-none) on a child element of a **switch** element, it does not affect TRUE and FALSE testing that is associated with processing **switch** elements.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.13
 
-### <span>Members</span>
+### Members
 
 The **SVGSwitchElement** object has these events:
 

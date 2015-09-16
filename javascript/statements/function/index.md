@@ -11,11 +11,11 @@ tags:
 uri: javascript/statements/function
 
 ---
-## <span>Summary</span>
+## Summary
 
 Declares a new function.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -32,7 +32,7 @@ Declares a new function.
 **statements**
 :   Optional. One or moreJavaScript statements.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the function statement.
 
@@ -88,7 +88,7 @@ function addFive(x) {
  // Output: 133
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 Use the function statement to declare a function for later use. The code that is contained in statements is not executed until the function is called from elsewhere in the script.
 
@@ -96,9 +96,9 @@ The [return](/javascript/statements/return) statement is used to return a value 
 
 **Note** -- When you call a function, be sure to include the parentheses and any required arguments. Calling a function without parentheses returns a reference to the function, not the results of the function.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [new Operator](/javascript/operators/new)
 

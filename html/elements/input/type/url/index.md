@@ -15,16 +15,16 @@ tags:
 uri: html/elements/input/type/url
 
 ---
-## <span>Summary</span>
+## Summary
 
 An input field for entering a single, absolute URL value.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **input type=url** element to create an empty URL or web address control.
 
@@ -32,29 +32,29 @@ This example uses the **input type=url** element to create an empty URL or web a
 <input type="URL" value="" name="URLbox" >
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note**  For code samples, see [Form controls part 1](http://go.microsoft.com/fwlink/p/?LinkID=251128) and [Form controls part 2: validation](http://go.microsoft.com/fwlink/p/?LinkID=251131) on the Windows Internet Explorer sample site.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.7.1.4
 
-### <span>Members</span>
+### Members
 
 The **input type=url** object has these types of members:
 
 -   [\#properties Properties]
 
-#### <span>Properties</span>
+#### Properties
 
 The **input type=url** object has these properties. {
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `input`

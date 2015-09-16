@@ -24,13 +24,13 @@ tags:
 uri: dom/Document/inputEncoding
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the character encoding that is used for the text that is loaded into the document object.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 var inputEncoding = document.inputEncoding;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -46,7 +46,7 @@ The character encoding that is used for the text that is loaded into the **docum
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 4](http://www.w3.org/TR/2014/CR-dom-20140508/#dom-core)
 :   Candidate Recommendation

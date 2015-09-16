@@ -12,16 +12,16 @@ tags:
 uri: css/functions/translate()
 
 ---
-## <span>Summary</span>
+## Summary
 
 Transform function for a 2d translation which sets the position of an element to a new one, described by two vectors (x, y). The y value is optional.
 
-## <span>Syntax</span>
+## Syntax
 
 -   **translate ( \<translation-value-x\> )**
 -   **translate ( \<translation-value-x\>, \<translate-value-y\> )**
 
-## <span>Parameters</span>
+## Parameters
 
 **translation-value-x**
 
@@ -31,7 +31,7 @@ Transform function for a 2d translation which sets the position of an element to
 
 *First value describes the translation across the x-axis, the second across the y-axis. Values can be a [length](/css/data_types/length) or a [percentage](/css/data_types/percentage) value.*
 
-## <span>Examples</span>
+## Examples
 
 The example shows three div elements, that are transformed individually with the translate() function.
 
@@ -55,11 +55,11 @@ The example shows three div elements, that are transformed individually with the
 
 [View live example](http://codepen.io/Fischaela/pen/Lqmxb)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Transforms</span>
+#### Transforms
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -93,7 +93,7 @@ The example shows three div elements, that are transformed individually with the
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>External resources</span>
+### External resources
 
 -   [CSS Transforms Module, Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223145), Section 13.1
 -   [Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246)

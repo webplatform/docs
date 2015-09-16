@@ -22,11 +22,11 @@ tags:
 uri: css/properties/right
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the position an element in relation to the right side of the containing element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -49,13 +49,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `right`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `right: auto`
 -   `right: length`
 -   `right: percentage`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Default. Position is determined by the regular HTML layout of the page.
@@ -66,7 +66,7 @@ length
 percentage
 :   Integer, followed by a percent sign (%). The value is a percentage of the width of the parent object.
 
-## <span>Examples</span>
+## Examples
 
 We demonstrate the \`right\` property by positioning the elements.
 
@@ -140,14 +140,14 @@ The HTML for the above example.
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Visual Formatting Model](http://www.w3.org/TR/CSS2/visuren.html)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

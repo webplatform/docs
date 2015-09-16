@@ -10,11 +10,11 @@ tags:
 uri: javascript/operators/instanceof
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a Boolean value that indicates whether or not an object is an instance of a particular class.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Returns a Boolean value that indicates whether or not an object is an instance o
 **class**
 :   Required. Any defined object class.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **instanceof** operator.
 
@@ -60,7 +60,7 @@ function objTest(obj){
  // obj is not an instance of Array
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **instanceof** operator returns true if object is an instance of class. It returns false if object is not an instance of class, or if object is null.
 

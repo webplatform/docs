@@ -23,26 +23,26 @@ tags:
 uri: css/cssom/CSSRule/cssText
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets a textual representation of a CSS rule.
 
 Property of [css/cssom/CSSRule/CSSRule](/css/cssom/CSSRule/CSSRule)[css/cssom/CSSRule/CSSRule](/css/cssom/CSSRule/CSSRule)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var ruleText = rule.cssText;
 rule.cssText = ruleText;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 Returns a textual representation of a CSS rule.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <div id="myDiv"></div>
@@ -68,16 +68,16 @@ Returns a textual representation of a CSS rule.
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/css/cssText/cssText.html)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 

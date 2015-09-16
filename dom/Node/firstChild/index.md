@@ -22,7 +22,7 @@ tags:
 uri: dom/Node/firstChild
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets a reference to the first child node in the childNodes collection of the object.
 
@@ -30,18 +30,18 @@ If the node is childless, null is returned.
 
 Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.firstChild;
 element.firstChild = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ElementElement
 
-## <span>Examples</span>
+## Examples
 
 The following code example implements the **firstChild** attribute to get the first child element of an object.
 
@@ -62,9 +62,9 @@ The following example shows how the firstChild method will include white space n
 
 ``` html
 <p id="para-01">
-  <span>First span</span>
+  First span
 </p>
-<p id="p2"><span>first span, no whitespace</span></p>
+<p id="p2">first span, no whitespace</p>
 <script type="text/javascript">
   var p01 = document.getElementById('para-01');
   alert(p01.firstChild.nodeName);// #text
@@ -73,8 +73,8 @@ The following example shows how the firstChild method will include white space n
 </script>
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 1.2

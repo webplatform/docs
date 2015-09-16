@@ -17,16 +17,16 @@ tags:
 uri: svg/elements/ellipse
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &lt;ellipse&gt; element is a common SVG shape marker used to create an elliptic shape based on the given coordinates and radius.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-### <span>Members</span>
+### Members
 
 The **SVGEllipseElement** object has these events:
 
@@ -76,7 +76,7 @@ The **SVGEllipseElement** object has these properties:
 -   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, the ellipse element is used to draw a skyblue-colored circle inside an inline SVG element.
 
@@ -88,13 +88,13 @@ In the following code example, the ellipse element is used to draw a skyblue-col
 
 [View live example](http://code.webplatform.org/gist/e44f667a01785f7a116f)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Scalable Vector Graphics: Basic Shapes](http://www.w3.org/TR/SVG11/shapes.html), Section 9.8.3]
 :   W3C Recommendation 16 August 2011

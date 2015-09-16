@@ -28,13 +28,13 @@ todo_broken_links:
 uri: dom/Event/cancelable
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets a value that indicates whether you can cancel an event's default action.
 
 Property of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -42,7 +42,7 @@ Property of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 var cancelable = event.cancelable;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -50,18 +50,18 @@ Whether the event's default action can be canceled.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 If you cannot cancel the event, calling [**preventDefault**](/dom/Event/preventDefault) has no effect. When you create a custom event by using the [**createEvent**](/dom/Document/createEvent) method, you can set the **cancelable** property by using the [**initEvent**](/dom/Event/initEvent) method.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

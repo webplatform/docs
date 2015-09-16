@@ -25,13 +25,13 @@ tags:
 uri: 'apis/media capture and streams/MediaStreamTrack/readyState'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the state of the track.
 
 Property of [apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)[apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,9 +39,9 @@ Property of [apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_cap
 var result = track.readyState;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 MediaStreamTrackState
 

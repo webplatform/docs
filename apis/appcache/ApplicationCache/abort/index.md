@@ -20,25 +20,25 @@ tags:
 uri: apis/appcache/ApplicationCache/abort
 
 ---
-## <span>Summary</span>
+## Summary
 
 Cancels the application cache download process. This method is intended to be used by Web applications showing their own caching progress UI, in case the user wants to stop the update (e.g., because bandwidth is limited).
 
 Method of [apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)[apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  window.applicationCache.abort();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C ApplicationCache Specification](http://dev.w3.org/html5/spec/single-page.html#application-cache-api)
 :   W3C Editor's Draft

@@ -24,34 +24,34 @@ tags:
 uri: dom/Document/createCDATASection
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a CDATA section that contains the specified text.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var cdataSection = document.createCDATASection(text);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>text</span>
+### text
 
  Data-type
 :   String
 
  The text to place inside the CDATA section.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The CDATA section node.
 
-## <span>Examples</span>
+## Examples
 
 The following code example creates a CDATA section.
 
@@ -59,15 +59,15 @@ The following code example creates a CDATA section.
 document.createCDATASection("My content");
 ```
 
-## <span>Notes</span>
+## Notes
 
 The **createCDATASection** method is supported only for XML documents.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)

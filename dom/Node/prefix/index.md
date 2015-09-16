@@ -23,13 +23,13 @@ tags:
 uri: dom/Node/prefix
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the prefix of the fully qualified XML declaration for a node.
 
 Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 var prefix = node.prefix;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The prefix portion of the **qualified name** of the node.
 
-## <span>Examples</span>
+## Examples
 
 This example will only work when a namespace-aware parser is used, i.e. when a document is served with an XML mime-type. This will not work for HTML documents.
 
@@ -51,17 +51,17 @@ This example will only work when a namespace-aware parser is used, i.e. when a d
 <x:div onclick="alert(this.prefix)"/>
 ```
 
-## <span>Usage</span>
+## Usage
 
      In XML documents, elements can be declared using qualified names, which consist of a prefix and a localName. This property returns the former value.
 
 For more information, see [W3C Namespaces in XML](http://go.microsoft.com/fwlink/p/?linkid=203781).
 
-## <span>Notes</span>
+## Notes
 
 Prior to Gecko 5.0 (Firefox 5.0 / Thunderbird 5.0 / SeaMonkey 2.2), this property was read-write; the specification says it should be read only, and now it is.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

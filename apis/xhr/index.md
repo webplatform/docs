@@ -14,7 +14,7 @@ tags:
 uri: apis/xhr
 
 ---
-## <span>Summary</span>
+## Summary
 
 XMLHttpRequest (XHR) is a Javascript object that is used to send HTTP or HTTPS requests directly to a web server and load the server response data directly back into the script.
 
@@ -27,11 +27,11 @@ API Name
 [DOMParser](/apis/xhr/objects/DOMParser)
 :
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>XHR</span>
+#### XHR
 
 -   **XMLHttpRequest (XHR) API**
 
@@ -43,6 +43,6 @@ API Name
 
 -   [file xhr](/tutorials/file_xhr)
 
-### <span>External resources</span>
+### External resources
 
 -   [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)

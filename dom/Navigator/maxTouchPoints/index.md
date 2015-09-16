@@ -21,13 +21,13 @@ tags:
 uri: dom/Navigator/maxTouchPoints
 
 ---
-## <span>Summary</span>
+## Summary
 
 The maximum number of simultaneous touch contacts supported by the device.
 
 Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,11 +35,11 @@ Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 var result = navigator.maxTouchPoints;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 Basic HTML5 Canvas painting application
 
@@ -75,22 +75,22 @@ window.addEventListener('load', function() {
 });
 ```
 
-## <span>Usage</span>
+## Usage
 
      In the case of devices with multiple digitizers (e.g. multiple touchscreens), the value must be the maximum of the set of maximum supported contacts by each individual digitizer.
 
 For example, suppose a device has 3 touchscreens, which support 2, 5, and 10 simultaneous touch contacts, respectively. The value of *maxTouchPoints* is 10.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Pointer Events](http://www.w3.org/TR/pointerevents)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Pointer Events</span>
+#### Pointer Events
 
 -   [Pointer Events Primer](/concepts/Pointer_Events)
 

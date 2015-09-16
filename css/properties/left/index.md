@@ -26,11 +26,11 @@ todo_broken_links:
 uri: css/properties/left
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the left edge of an element
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -53,13 +53,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `left`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `left: auto`
 -   `left: length`
 -   `left: percentage`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Default. Default position, according to the regular HTML layout of the page.
@@ -70,7 +70,7 @@ length
 percentage
 :   Integer, followed by a percent sign (%). The value is a percentage of the width of the parent object.
 
-## <span>Examples</span>
+## Examples
 
 We demonstrate the \`left\` property by positioning the elements.
 
@@ -144,11 +144,11 @@ The HTML for the above example.
 
 </pre>
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Box Model</span>
+#### Box Model
 
 -   [border](/css/properties/border)
 
@@ -190,7 +190,7 @@ The HTML for the above example.
 
 -   [min-width](/css/properties/min-width)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

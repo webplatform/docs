@@ -22,11 +22,11 @@ tags:
 uri: css/properties/marquee-play-count
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property specifies how many times the marquee content moves.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `1`
@@ -52,12 +52,12 @@ Animatable
 Percentages
 :   n/a
 
-## <span>Syntax</span>
+## Syntax
 
 -   `marquee-play-count: <non-negative-integer>`
 -   `marquee-play-count: infinite`
 
-## <span>Values</span>
+## Values
 
 \<non-negative-integer\>
 :   Any value of 0 and higher. If the value is greater than 16, the UA may stop after 16 loops.
@@ -65,7 +65,7 @@ Percentages
 infinite
 :   An infinite loop. The UA may stop after 16 loops.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 h1 {
@@ -79,7 +79,7 @@ h1 {
 
 [View live example](http://code.webplatform.org/gist/6948452)
 
-## <span>Usage</span>
+## Usage
 
      If marquee-play-count changes because of a state change (e.g. on hover), the loop counter will reset of the computed value differs:
 
@@ -90,7 +90,7 @@ For example:
 
 Now, the `h1` loops 2 times, until you hover over it. Then the loop counter will reset and it loops for 4 times. If you than leave the element, it resets again and it will loop 2 times.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Marquee Module Level 3](http://www.w3.org/TR/css3-marquee/#the-marquee-play-count)
 :   Candidate Recommendation

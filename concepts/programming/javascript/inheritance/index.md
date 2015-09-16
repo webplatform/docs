@@ -12,11 +12,11 @@ tags:
 uri: concepts/programming/javascript/inheritance
 
 ---
-## <span>Summary</span>
+## Summary
 
 Inheritance has always been available in JavaScript, but the examples on this page use some methods introduced in ECMAScript 5.
 
-## <span>Example</span>
+## Example
 
 `B` shall inherit from `A`:
 
@@ -49,7 +49,7 @@ The important parts are:
 -   Types are defined in `.prototype`
 -   You use `Object.create()` to inherit
 
-## <span>`prototype` and Object.getPrototypeOf</span>
+## `prototype` and Object.getPrototypeOf
 
 JavaScript is a bit confusing for developers coming from Java or C++, as it's all dynamic, all runtime, and it has no classes at all. It's all just instances (objects). Even the "classes" we simulate are just a function object.
 

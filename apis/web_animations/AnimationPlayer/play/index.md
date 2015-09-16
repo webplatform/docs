@@ -17,19 +17,19 @@ tags:
 uri: 'apis/web animations/AnimationPlayer/play'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Unpauses the player and rewinds if it has finished playing using the procedure to play a player for this object.
 
 Method of [apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)[apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  element.play();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 

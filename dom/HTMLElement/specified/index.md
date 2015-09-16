@@ -22,14 +22,14 @@ uri: dom/HTMLElement/specified
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.specified;
 element.specified = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following code example uses the **specified** property to determine the attributes that are set for an object. The function checks each attribute and lists all of the attributes of the object and their values.
 
@@ -57,14 +57,14 @@ function fnFindSpecified(){
 </ul>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 An attribute value is specified if it is assigned through HTML or script. Windows Internet Explorer 9. When webpages are displayed in IE9 Standards mode, the [**attributes**](/dom/Node/attributes) collection does not contain attributes that are not specifically created (unlike previous Windows Internet Explorer versions). As a result, the **specified** property returns `true` for every item in the **attributes** collection.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 1.2

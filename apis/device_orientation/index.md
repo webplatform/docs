@@ -11,12 +11,12 @@ tags:
 uri: 'apis/device orientation'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The Device Orientation API defines several new DOM events which provide information about the physical orientation and motion of a hosting device.
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 <http://www.w3.org/TR/orientation-event/>

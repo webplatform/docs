@@ -16,16 +16,16 @@ tags:
 uri: html/elements/option
 
 ---
-## <span>Summary</span>
+## Summary
 
 Denotes one choice in a select element.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLOptionElement](/dom/HTMLOptionElement)
 
-## <span>Attributes</span>
+## Attributes
 
 -   `disabled` = boolean
     if present, disable a option.
@@ -38,7 +38,7 @@ Denotes one choice in a select element.
 -   `selected` = boolean
     Represents the default selectedness of the element. [[Example A]](#Example_A)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **OPTION** element to create individual items in a drop-down list box.
 
@@ -97,7 +97,7 @@ As a child of an optgroup element
 </form></optgroup>
 ```
 
-## <span>Notes</span>
+## Notes
 
 You can create new **OPTION** elements dynamically with the [**document.createElement**](/dom/Document/createElement) method, but you cannot change properties until the new element is added to a **SELECT** object. Or, you can create fully formed elements by using the [**Option**](/dom/Option) object, as follows:
 
@@ -105,7 +105,7 @@ You can create new **OPTION** elements dynamically with the [**document.createEl
 
 You can add **OPTION** elements only to a **SELECT** element that is located in the same window where the **OPTION** elements are created. Except for [**background-color**](/css/properties/background-color) and [**color**](/css/properties/color), style settings applied through the [**style**](/css/cssom/style) object for the **option** element are ignored. In addition, style settings applied directly to individual [**options**](/dom/HTMLElement/options) override those applied to the containing **SELECT** element as a whole.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-option-element)
 :   W3C Working Draft
@@ -116,11 +116,11 @@ You can add **OPTION** elements only to a **SELECT** element that is located in 
 [HTML 4.01](http://www.w3.org/TR/html401/interact/forms.html#edef-OPTION)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 

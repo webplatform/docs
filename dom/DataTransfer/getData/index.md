@@ -24,21 +24,21 @@ tags:
 uri: dom/DataTransfer/getData
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the data in the specified format from the clipboard through the DataTransfer object or the ClipboardData object. If there is no data, returns an empty string.
 
 Method of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTransfer)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var eventData = event.dataTransfer.getData(format);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>format</span>
+### format
 
  Data-type
 :   String
@@ -48,13 +48,13 @@ var eventData = event.dataTransfer.getData(format);
 -   URL
 -   Text
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 Returns the data in the format retrieved from the clipboard/drag and drop operation through the [**DataTransfer**](/dom/DataTransfer) object or the [**ClipboardData**](/dom/ClipboardData) object. Depending on the information contained in [**setData**](/dom/DataTransfer/setData), this variable can get a path to an image, text, or an anchor URL.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **getData** method and the [**setData**](/dom/DataTransfer/setData) method with the [**DataTransfer**](/dom/DataTransfer) object to create a shortcut to an image.
 
@@ -96,12 +96,12 @@ window.addEventListener("load", initialize, false);
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setDataEX.htm)
 
-## <span>Notes</span>
+## Notes
 
 -   The **getData** method enforces cross-frame security and allows data transfers only in the same domain. To the user, this means that a selection that is dragged between different security protocols, such as HTTP and HTTPS, fails. In addition, that a selection that is dragged between two instances of the application with different security levels, where the first instance is set to medium and the second is set to high, fails. Finally, that a selection that is dragged into the application from another drag-enabled application, such as Microsoft Word, also fails.
 -   To use the **getData** method to get data from the clipboard in the **oncopy** event or the **oncut** event, you must call [event.preventDefault()](/dom/Event/preventDefault) in the event handler script.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation

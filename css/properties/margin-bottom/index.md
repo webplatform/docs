@@ -25,11 +25,11 @@ todo_broken_links:
 uri: css/properties/margin-bottom
 
 ---
-## <span>Summary</span>
+## Summary
 
 margin-bottom sets the bottom margin of an element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `Depends on the particular element. Different elements have different default margins.`
@@ -52,14 +52,14 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `marginBottom`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `margin-bottom: auto`
 -   `margin-bottom: inherit`
 -   `margin-bottom: length`
 -   `margin-bottom: percentage`
 
-## <span>Values</span>
+## Values
 
 length
 :   Specifies a fixed length, using any standard [CSS length units](http://docs.webplatform.org/wiki/css/units/length) . Negative Values are allowed.
@@ -73,7 +73,7 @@ auto
 inherit
 :   Inherits the parent element's specified `margin-bottom` width.
 
-## <span>Examples</span>
+## Examples
 
 In this example there are three blocks, styled identically except for their `margin-bottom` values:
 
@@ -125,7 +125,7 @@ div {
 
 [View live example](http://code.webplatform.org/gist/5727822)
 
-## <span>Usage</span>
+## Usage
 
      ===Usage===
 
@@ -133,24 +133,24 @@ div {
 -   When two margins collide, for example when one block level element has a bottom margin set, immediately followed by another block level element with a top margin, the larger of the two margins remains, and the smaller one collapses and disappears.
 -   Margins are always transparent.
 
-### <span>Best Practices</span>
+### Best Practices
 
 -   When possible, use [margin](http://docs.webplatform.org/wiki/css/properties/margin) shorthand (i.e. {margin: 10px 15px 20px 15px;}) to specify margin-widths rather than writing out each margin's specifications as this clutters code and makes it difficult to read. Use `margin-bottom` if there is a specific reason to call attention to it (e.g. one element has a different bottom margin than the rest in its class, etc.).
 
-## <span>Notes</span>
+## Notes
 
 As of Microsoft Internet Explorer 4.0 or later, you can specify possible length values relative to the height of the element's font (`em`) or the height of the letter "x" (`ex`). In Microsoft Internet Explorer 3.0, the specified margin value is added to the default value of the object. In Internet Explorer 4.0 or later, the margin value is absolute. The margin properties do not work with the **td** and **tr** objects in Internet Explorer 4.0, but they do work in Internet Explorer 3.0. To set margins in the cell for Internet Explorer 4.0 or later, apply the margin to an object, such as **div** or **p**, within the **td**. As of Microsoft Internet Explorer 5.5, this property applies to inline elements. With earlier versions of Windows Internet Explorer, inline elements must have an **absolute** [**position**](/css/properties/position) or layout to use this property. Element layout is set by providing a value for the [**height**](/css/properties/height) property or the [**width**](/css/properties/width) property. For inline elements, the value of this property is used to compute the border area of a surrounding inline element, if present. This value does not contribute to the height of a line. Negative margins are supported, except for top and bottom margins on inline objects.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2](http://www.w3.org/TR/CSS2/box.html#propdef-margin-bottom)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Box Model</span>
+#### Box Model
 
 -   [border](/css/properties/border)
 
@@ -192,7 +192,7 @@ As of Microsoft Internet Explorer 4.0 or later, you can specify possible length
 
 -   [min-width](/css/properties/min-width)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

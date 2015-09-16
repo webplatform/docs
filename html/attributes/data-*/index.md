@@ -25,7 +25,7 @@ Applies to
 </td>
 </tr>
 </table>
-##### <span><span class="secno">3.2.3.9</span><dfn>Embedding custom non-visible data</dfn> with the `<a href="#attr-data-*">data-*</a>` attributes</span>
+##### <span class="secno">3.2.3.9</span><dfn>Embedding custom non-visible data</dfn> with the `<a href="#attr-data-*">data-*</a>` attributes
 
 A <dfn id="custom-data-attribute">custom data attribute</dfn> is an attribute in no namespace whose name starts with the string "<dfn id="attr-data-.2A" title="attr-data-*">`data-`</dfn>", has at least one character after the hyphen, is \<a href="infrastructure.html\#xml-compatible"\>XML-compatible\</a\>, and contains no \<a href="infrastructure.html\#uppercase-ascii-letters"\>uppercase ASCII letters\</a\>.
 
@@ -61,7 +61,7 @@ The <dfn id="dom-dataset" title="dom-dataset">`dataset`</dfn> IDL attribute prov
 
 The algorithm for getting the list of name-value pairs
 :   1.  Let <var title>list</var> be an empty list of name-value pairs.
-    2.  For each content attribute on the element whose first five characters are the string "`data-`" and whose remaining characters (if any) do not include any \<a href="infrastructure.html\#uppercase-ascii-letters"\>uppercase ASCII letters\</a\>, in the order that those attributes are listed in the element's <span>attributes list</span>, add a name-value pair to <var title>list</var> whose name is the attribute's name with the first five characters removed and whose value is the attribute's value.
+    2.  For each content attribute on the element whose first five characters are the string "`data-`" and whose remaining characters (if any) do not include any \<a href="infrastructure.html\#uppercase-ascii-letters"\>uppercase ASCII letters\</a\>, in the order that those attributes are listed in the element's attributes list, add a name-value pair to <var title>list</var> whose name is the attribute's name with the first five characters removed and whose value is the attribute's value.
     3.  For each name <var title>list</var>, for each "-" (U+002D) character in the name that is followed by a \<a href="infrastructure.html\#lowercase-ascii-letters" title="lowercase ASCII letters"\>lowercase ASCII letter\</a\>, remove the "-" (U+002D) character and replace the character that followed it by the same character \<a href="infrastructure.html\#converted-to-ascii-uppercase"\>converted to ASCII uppercase\</a\>.
     4.  Return <var title>list</var>.
 
@@ -104,8 +104,8 @@ For example, a library called "DoQuery" could use attribute names like `data-doq
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   Imported from: \<a href="<http://www.w3.org/html/wg/drafts/html/master/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes>"\><http://www.w3.org/html/wg/drafts/html/master/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes>\</a.

@@ -20,11 +20,11 @@ tags:
 uri: css/properties/voice-pitch
 
 ---
-## <span>Summary</span>
+## Summary
 
 The voice-pitch property sets pitch or tone (high or low) for the synthesized speech when reading an element; the pitch may be specified absolutely or relative to the normal pitch for the voice-family used to read the text.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `medium`
@@ -47,13 +47,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Speech Module](http://www.w3.org/TR/css3-speech/#voice-props-voice-pitch)
 :   W3C Candidate Recommendation

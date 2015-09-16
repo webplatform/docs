@@ -17,7 +17,7 @@ todo_broken_links:
 uri: 'html/attributes/cols (frameSet)'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the number of columns in the table.
 
@@ -33,7 +33,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example defines a two-column frame, with the first occupying 40 percent of the available width and the second occupying the remaining 60 percent.
 
@@ -47,17 +47,17 @@ This example defines a four-column frame. The first is 50 pixels wide, and the f
 <FRAMESET COLS="50, 2*, *, 80">
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The number of comma-separated items is equal to the number of frames contained within the **frameSet**, while the value of each item determines the frame width.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `frameSet`
 -   `rows`

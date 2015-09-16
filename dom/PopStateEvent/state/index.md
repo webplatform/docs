@@ -25,13 +25,13 @@ todo_broken_links:
 uri: dom/PopStateEvent/state
 
 ---
-## <span>Summary</span>
+## Summary
 
 The current history entry's state object (if any).
 
 Property of [dom/PopStateEvent](/dom/PopStateEvent)[dom/PopStateEvent](/dom/PopStateEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,13 +39,13 @@ Property of [dom/PopStateEvent](/dom/PopStateEvent)[dom/PopStateEvent](/dom/PopS
 var result = element.state;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 Represents the context information for the event, or null, if the state represented is the initial state of the document.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 window.onpopstate = function(event) {
@@ -53,16 +53,16 @@ window.onpopstate = function(event) {
 };
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Represents the context information for the event, or **null**, if the state represented is the initial state of the document.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `PopStateEvent`

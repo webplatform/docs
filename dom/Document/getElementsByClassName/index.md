@@ -24,34 +24,34 @@ tags:
 uri: dom/Document/getElementsByClassName
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets a collection of all descendant elements with given classes. Not recommended; see Notes.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var elements = document.getElementsByClassName(classNames);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>classNames</span>
+### classNames
 
  Data-type
 :   String
 
  A space separated list of classes.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
 A live [HTMLCollection](/dom/HTMLCollection) of elements with the given class names.
 
-## <span>Examples</span>
+## Examples
 
 This example returns the number of `li` tags whose class is "sublistitem" (3), and the text of the first one ("Sub Item 1.1").
 
@@ -94,11 +94,11 @@ function printFirstSubLIText(){
 </html>
 ```
 
-## <span>Usage</span>
+## Usage
 
      The use of this property is discouraged. See the Notes section for details.
 
-## <span>Notes</span>
+## Notes
 
 The use of this property is discouraged because of performance implications (due to the live DOMCollection where any changes to the document must be reflected on the returned object immediately) and complexity (the removal of an element from the document will result in immediate changes to the collection).
 
@@ -106,7 +106,7 @@ A close alternative is
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Candidate Recommendation

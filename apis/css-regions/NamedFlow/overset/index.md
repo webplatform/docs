@@ -21,13 +21,13 @@ tags:
 uri: apis/css-regions/NamedFlow/overset
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates whether a flow's content exceeds available space within a region chain, or if no available chain in which to flow content exists.
 
 Property of [apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)[apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,13 +35,13 @@ Property of [apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)[apis/css-r
 var exceedsRegions = flow.overset;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Indicates whether a flow's content exceeds available space within a [region chain](/css/concepts/region_chain). Also indicates when no chain is available in which to flow content.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // adds a region element to a prescribed container
@@ -65,20 +65,20 @@ function appendRegion(flowName) {
 appendRegion('mainFlow');
 ```
 
-## <span>Notes</span>
+## Notes
 
 Not to be confused with [**regionOverset**](/apis/css-regions/Region/regionOverset), which indicates the [overset](/css/concepts/overset) state of individual [regions](/css/concepts/region). Only the final region in a [chain](/css/concepts/region_chain) can be overset.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -136,7 +136,7 @@ Not to be confused with [**regionOverset**](/apis/css-regions/Region/regionOvers
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

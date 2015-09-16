@@ -13,7 +13,7 @@ tags:
 uri: 'apis/resource timing'
 
 ---
-## <span>Summary</span>
+## Summary
 
 An interface for web applications to access the complete timing information for resources in a document.
 
@@ -23,11 +23,11 @@ API Name
 [Performance](/apis/resource_timing/Performance)
 :   Provides methods for performance timing.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Performance</span>
+#### Performance
 
 -   [navigation timing](/apis/navigation_timing)
 
@@ -43,6 +43,6 @@ API Name
 
 -   [HTML5 Techniques for Optimizing Mobile Performance](/tutorials/mobile_opt_and_perf)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [W3C Resource Timing specification](http://www.w3.org/TR/resource-timing/)

@@ -27,11 +27,11 @@ tags:
 uri: css/properties/list-style-type
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the type of list-item marker in a list.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `disc`
@@ -54,7 +54,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `list-style-type: armenian`
 -   `list-style-type: circle`
@@ -73,7 +73,7 @@ Animatable
 -   `list-style-type: upper-latin`
 -   `list-style-type: upper-roman`
 
-## <span>Values</span>
+## Values
 
 armenian
 :   The marker is traditional Armenian numbering
@@ -123,7 +123,7 @@ upper-latin
 upper-roman
 :   upper-roman (I, II, III, IV, V, etc.)
 
-## <span>Examples</span>
+## Examples
 
 The following examples use the **`list-style-type`** attribute and the **`list-style-type`** property to set the markers.
 
@@ -265,13 +265,13 @@ a:visited{text-decoration:none;color:green;}
 
 [View live example](http://code.webplatform.org/gist/5697355)
 
-## <span>Usage</span>
+## Usage
 
      The list-style-type CSS property specifies appearance of a list item element. As it is the only one who defaults to display:list-item, this is usually a <li> element, but can be any element with this display value.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Notes</span>
+### Notes
 
 -   The color of the marker will be the same as the computed color of the element it applies to.
 
@@ -285,11 +285,11 @@ a:visited{text-decoration:none;color:green;}
 
 -   If the left padding of a list is set to 0 using one of the padding properties, the list-item markers do not show only if that list has the default list-style-position: inside; . For a better understanding see the examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Generated and Replaced Content</span>
+#### Generated and Replaced Content
 
 -   [Generated and Replaced Content](/css/generated_and_replaced_content)
 
@@ -305,7 +305,7 @@ a:visited{text-decoration:none;color:green;}
 
 -   [object-fit](/css/properties/object-fit)
 
-### <span>Related pages</span>
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

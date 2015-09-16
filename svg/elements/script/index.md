@@ -20,12 +20,12 @@ uri: svg/elements/script
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, the [**onclick**](/w/index.php?title=dom/events/click&action=edit&redlink=1) event attribute on the [**circle**](/svg/elements/circle) element calls the **circle\_click** function.
 
@@ -61,19 +61,19 @@ In the following code example, the [**onclick**](/w/index.php?title=dom/events/c
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 A **script** element is equivalent to the **script** element in HTML and is the place for scripts (for example, ECMAScript). Any functions that you define within any **script** element have a global scope across the entire current document.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Scripting](http://go.microsoft.com/fwlink/p/?linkid=204745), Section 18.5.1
 
-### <span>Members</span>
+### Members
 
 The **SVGScriptElement** object has these events:
 

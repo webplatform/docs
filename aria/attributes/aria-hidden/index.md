@@ -24,7 +24,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 You can use a CSS rule to show or hide the element based on the value of the **aria-hidden** state, as shown here:
 
@@ -32,9 +32,9 @@ You can use a CSS rule to show or hide the element based on the value of the **a
 [aria-hidden=true] {visibility: hidden;}
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 <table class="wikitable">
 <tr>
@@ -55,15 +55,15 @@ No role required.
 </table>
   This **ariaHidden** state indicates whether an element is visible or hidden. **Note**  For cross-browser compatibility, always use the WAI-ARIA attribute syntax to access and modify ARIA properties, for example `object.setAttribute("aria-valuenow", newValue)`.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Accessible Rich Internet Applications (WAI-ARIA) 1.0](http://go.microsoft.com/fwlink/p/?linkid=203793), Section 6.6
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Accessible Rich Internet Applications (ARIA)`
 -   `W3C ARIA-Hidden`

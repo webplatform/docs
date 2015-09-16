@@ -22,13 +22,13 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/remoteDescription
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the RTCSessionDescription most recently passed to the setRemoteDescription() method along with any remote candidate descriptions supplied with addIceCandidate(). Returns null if the remote description has not been set.
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,7 +36,7 @@ Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis
 var result = element.remoteDescription;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type RTCSessionDescriptionRTCSessionDescription
 

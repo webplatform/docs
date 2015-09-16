@@ -24,26 +24,26 @@ tags:
 uri: dom/HTMLTableElement/caption
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets the caption element of a table.
 
 Property of [dom/HTMLTableElement](/dom/HTMLTableElement)[dom/HTMLTableElement](/dom/HTMLTableElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var captionElement = table.caption;
 table.caption = newCaption;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The caption element, or null.
 
-## <span>Examples</span>
+## Examples
 
 This example sets the inline style for the **caption** property.
 
@@ -51,11 +51,11 @@ This example sets the inline style for the **caption** property.
 document.getElementById("mytable").caption.style.color = "blue";
 ```
 
-## <span>Notes</span>
+## Notes
 
 If a table contains multiple captions, this property returns the first one.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/)
 :   Recommendation

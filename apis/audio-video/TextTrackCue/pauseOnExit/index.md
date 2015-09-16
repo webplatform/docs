@@ -23,13 +23,13 @@ tags:
 uri: apis/audio-video/TextTrackCue/pauseOnExit
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the pause-on-exit flag on a TextTrackCue. When the flag is true, playback will pause when it reaches the cue's endTime.
 
 Property of [apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)[apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,11 +37,11 @@ Property of [apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)[apis
 var result = TextTrackCue.pauseOnExit;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
-## <span>Examples</span>
+## Examples
 
 This example displays the cue (caption), startTime, endTime, pauseOnExit, and id for all cues in a track.
 
@@ -75,7 +75,7 @@ This example displays the cue (caption), startTime, endTime, pauseOnExit, and id
 </body>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

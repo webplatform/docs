@@ -23,11 +23,11 @@ tags:
 uri: css/properties/width
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the width of the content area of an element. The content area of the element width does not include the padding, border, and margin of the element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -53,7 +53,7 @@ Animatable
 Percentages
 :   refer to width of containing block
 
-## <span>Syntax</span>
+## Syntax
 
 -   `width: auto`
 -   `width: available`
@@ -66,7 +66,7 @@ Percentages
 -   `width: min-content`
 -   `width: percentage`
 
-## <span>Values</span>
+## Values
 
 auto
 :   If auto is set for the elements width, the browser will determine the width for the element.
@@ -98,7 +98,7 @@ fit-content
 intrinsic
 :   This is an experimental rule for max-content. Currently it only works in Chrome, however you should be using max-content instead since that is the standard.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 div { width: 100% }
@@ -163,13 +163,13 @@ p.fitcontent {
 
 [View live example](http://code.webplatform.org/gist/5702862)
 
-## <span>Usage</span>
+## Usage
 
      ===Newer Values===
 
 In the CSS Basic Box Model Working Draft, the values max-content, min-content, available, fit-content, border-box, and content-box were added. It would be a best practice to add the vendor prefix to these until the values are standardized.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Basic Box Model](http://dev.w3.org/csswg/css-box/#the-width-and-height-properties)
 :   Working Draft
@@ -180,14 +180,14 @@ In the CSS Basic Box Model Working Draft, the values max-content, min-content, a
 [CSS Level 1](http://www.w3.org/TR/CSS1/#width)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   <http://www.w3.org/TR/CSS2/visudet.html#the-width-property>
 -   <http://www.w3.org/TR/CSS21/visudet.html#propdef-width>
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

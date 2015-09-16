@@ -16,27 +16,27 @@ tags:
 uri: 'apis/web animations/AnimationTiming'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Timing parameters for an AnimationNode are collected together under the AnimationTiming type.
 
 Inherits from [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)[AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from AnimationTimingReadOnly</span>
+## Inherited from AnimationTimingReadOnly
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -76,11 +76,11 @@ API Name
 [playbackRate](/apis/web_animations/AnimationTimingReadOnly/playbackRate)
 :   The animation node’s playback rate property.
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 

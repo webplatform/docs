@@ -10,11 +10,11 @@ tags:
 uri: javascript/statements/var
 
 ---
-## <span>Summary</span>
+## Summary
 
 Declares a variable.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Declares a variable.
 **value**
 :   The initial value assigned to the variable.
 
-## <span>Examples</span>
+## Examples
 
 The following examples illustrate the use of the var statement.
 
@@ -39,7 +39,7 @@ var answer = 42,
 var array = [];
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 Use the `var` statement to declare variables. You can assign values to the variables when you declare them or later in your script.
 
@@ -49,9 +49,9 @@ You can declare a variable without using the `var` keyword and assign a value to
 
 If you do not initialize your variable in the `var` statement, it is automatically assigned [the JavaScript value `undefined`](/javascript/undefined).
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [function Statement](/javascript/statements/function)
 -   [new Operator](/javascript/operators/new)

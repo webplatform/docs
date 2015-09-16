@@ -21,7 +21,7 @@ tags:
 uri: 'apis/web animations/AnimationNode/computedTiming'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the calculated timing properties for this animation node. This is comparable to the computed style of an Element, window.getComputedStyle(elem).
 
@@ -31,7 +31,7 @@ duration – returns the calculated value of the iteration duration. If timing.d
 
 Property of [apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)[apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [apis/web\_animations/AnimationNode](/apis/web_animations/AnimationN
 var result = element.computedTiming;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 

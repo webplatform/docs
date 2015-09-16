@@ -19,13 +19,13 @@ tags:
 uri: css/cssom/properties/pixelLeft
 
 ---
-## <span>Summary</span>
+## Summary
 
 Reflects the value of the Cascading Style Sheets (CSS) left attribute.
 
 Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.pixelLeft;
@@ -34,15 +34,15 @@ element.pixelLeft = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **pixelLeft** property reflects the value of the Cascading Style Sheets (CSS) [**left**](/css/properties/left) attribute. Use the [**offsetLeft**](/dom/HTMLElement/offsetLeft) property to calculate actual positions within the document area. Unlike the [**left**](/css/properties/left) property, the **pixelLeft** value is an integer, not a string, and is always interpreted in pixels.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `runtimeStyle`
 -   `style`

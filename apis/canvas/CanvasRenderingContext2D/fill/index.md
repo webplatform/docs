@@ -22,21 +22,21 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/fill
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fills all the subpaths of the intended path, using fillStyle, and using the non-zero winding number rule. Open subpaths must be implicitly closed when being filled (without affecting the actual subpaths).
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.fill(path);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>path</span>
+### path
 
  Data-type
 :   DOM Node
@@ -45,7 +45,7 @@ var object = object.fill(path);
 
 The path to be filled.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -53,7 +53,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 This example creates a 30 x 100 rectangle on the canvas, sets a solid color fill style, and fills the rectangle.
 
@@ -69,7 +69,7 @@ ctxt.fill();
 </script>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

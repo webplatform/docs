@@ -22,26 +22,26 @@ tags:
 uri: dom/WindowModal/dialogHeight
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets the height of the content area of a dialog window.
 
 Property of [dom/WindowModal](/dom/WindowModal)[dom/WindowModal](/dom/WindowModal)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var height = window.dialogHeight;
 window.dialogHeight = newHeight;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The height of the content area of the dialog window and a unit of measure.
 
-## <span>Examples</span>
+## Examples
 
 This example creates a dialog window using the **dialogHeight** property to set the new window's height.
 
@@ -69,7 +69,7 @@ function someMessage(e) {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/dialogHeight.htm)
 
-## <span>Notes</span>
+## Notes
 
 -   This property applies only to windows that are created by using the [**showModalDialog**](/dom/Window/showModalDialog) method.
 -   When a script calls the **showModalDialog** method, it suspends execution until the modal dialog box is closed. As a result, the script cannot use the **dialogHeight** property to change the appearance of the modal dialog box. To control the appearance of the modal dialog box, use script in the file loaded by the **sURL** parameter or use the value of the **sFeatures** parameter to specify the desired settings.

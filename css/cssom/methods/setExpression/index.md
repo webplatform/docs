@@ -29,29 +29,29 @@ uri: css/cssom/methods/setExpression
 
 Method of [css/cssom/methods](/css/cssom/methods)[css/cssom/methods](/css/cssom/methods)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.setExpression(PropertyName, Expression, Language);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>PropertyName</span>
+### PropertyName
 
  Data-type
 :   String
 
 **String** that specifies the name of the property to which *expression* is added.
 
-### <span>Expression</span>
+### Expression
 
  Data-type
 :   String
 
 **String** that specifies any valid script (JScript, JavaScript, VBSCript) statement without quotations or semicolons. This string can include references to other properties on the current page. Array references are not allowed on object properties included in this script.
 
-### <span>Language</span>
+### Language
 
  Data-type
 :   String
@@ -62,11 +62,11 @@ var object = object.setExpression(PropertyName, Expression, Language);
 -   "VBScript" --Language is VBScript.
 -   "JavaScript" -- Language is JavaScript.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
-## <span>Examples</span>
+## Examples
 
 The following examples use the **setExpression** method to change the width of a blue box. In each example, the width of the blue box is equal to the sum of the values of the first two text boxes. When a value in one of the text boxes changes, the width of the blue box recalculates.
 
@@ -145,9 +145,9 @@ function fnGetValue(oRow){
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setExpression.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Use the **setExpression** method to add expressions to supported [**removeExpression**](/css/cssom/methods/removeExpression) method. The following syntax sections show how to set an expression on DHTML Properties and CSS attributes.
 
@@ -171,9 +171,9 @@ Use the **setExpression** method to add expressions to supported [**removeExpres
 
 `object.style.setExpression("width","document.body.style.fontSize"); `
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `IHTMLElement2`
 -   `IHTMLStyle2`

@@ -10,11 +10,11 @@ tags:
 uri: css/functions/cross-fade
 
 ---
-## <span>Summary</span>
+## Summary
 
 The CSS cross-fade() function can be used to blend two images at a defined transparency.
 
-## <span>Introduction</span>
+## Introduction
 
 The ability to overlay one image with another and see them both in semi-transparency is a fairly common technique in web pages. This effect is generally accomplished by carefully positioning two images in the same space, one on top of the other, and then tweaking their opacity. The effect can be further enhanced by using JavaScript to manipulate the positions and/or the opacity.
 
@@ -22,7 +22,7 @@ That approach is of course not optimal, and requires considerable finesse in the
 
 [Part of the "CSS Image Values and Replaced Content Module Level 4" specification](http://www.w3.org/TR/2012/WD-css4-images-20120911/#cross-fade-function) introduces this feature into CSS.
 
-## <span>Use</span>
+## Use
 
 The `cross-fade()` function takes three parameters: the two images to be combined and the percentage of combination. The percentage may be thought of as a transparency value for the "bottom" image, although technically neither image is really on top of the other, they are merely rendered together.
 
@@ -34,7 +34,7 @@ cross-fade(<percentage>? <image> [, <image> | <color> ]?)
 
  The percent value must be coded without quotes, must contain the "%" symbol, and its value must be between 0% and 100%.
 
-## <span>Examples</span>
+## Examples
 
 For the following examples, we will use two images, each sized at 200px by 200px. The first, white.png, is a white-filled box with a 5-pixel blue border. The second, black.png, is a black-filled box with a 5-pixel red border. Thus, cross-fading the two images at different percentages should yield boxes of varying grays with borders of varying magentas. Here are the original images:
 
@@ -42,7 +42,7 @@ For the following examples, we will use two images, each sized at 200px by 200px
 
 ![black-filled box with a 5-pixel red border](/assets/public/d/d2/black.png)
 
-### <span>A 50% cross-fade</span>
+### A 50% cross-fade
 
 First, let's set up an empty `<div>` to contain the images.
 
@@ -66,7 +66,7 @@ First, let's set up an empty `<div>` to contain the images.
 
 ![evenly-merged black/white (gray) box with an evenly-merged blue/red (magenta) border](/assets/public/3/38/fifty.png)
 
-### <span>Other cross-fade percentages</span>
+### Other cross-fade percentages
 
 Here are the code samples and their results for the same two images, cross-faded first at 25% and then at 75%. (Obviously, a 0% fade effectively yields only the first image, while a 100% fade yields only the second.) Note that the visual results are exactly what you would intuitively expect based on the original colors.
 
@@ -82,7 +82,7 @@ Here are the code samples and their results for the same two images, cross-faded
 
 ![A 75% cross-fade](/assets/public/5/56/seventyfive.png)
 
-## <span>Simplifying the code</span>
+## Simplifying the code
 
 Clearly, that's a lot of code to put on individual HTML elements, especially if the effect is repeated in the page. It's far more elegant—and efficient—to abstract the cross-fade function into a single CSS style and then apply it to whatever elements require it. Here, we use an independent selector to define a class with the appropriate size and the appropriate cross-faded background image, and then simply use the class later in the document.
 
@@ -112,7 +112,7 @@ Clearly, that's a lot of code to put on individual HTML elements, especially if 
 
 I didn't say it was pretty, just that it was possible!
 
-## <span>A final example</span>
+## A final example
 
 Here, then, is a more practical (and attractive) example. Let's start with a beautiful full moon.
 
@@ -132,7 +132,7 @@ Now we'll write the code to cross-fade them (directly on the `<div>` for simplic
 
 *Wolf on moon* ![wolfmoon.png](/assets/public/b/b2/wolfmoon.png)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Image Values and Replaced Content Module Level 4](http://www.w3.org/TR/css4-images/#cross-fade-function)
 :   W3C Working Draft

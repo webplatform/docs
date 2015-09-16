@@ -13,11 +13,11 @@ tags:
 uri: apis/audio-video/AudioTrack
 
 ---
-## <span>Summary</span>
+## Summary
 
 AudioTrack is an object representing an audio portion of a video element.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -37,19 +37,19 @@ API Name
 [language](/apis/audio-video/AudioTrack/language)
 :   Returns the language of the given track, if known, or the empty string otherwise.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 Audio tracks are represented on a **video** element as an [**AudioTrackList**](/apis/audio-video/AudioTrackList) object, which contains one or more audio tracks.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

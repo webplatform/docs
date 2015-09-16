@@ -28,17 +28,17 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 With Microsoft Internet Explorer 6 and later, when you use the [!DOCTYPE](/html/elements/!DOCTYPE) declaration to specify standards-compliant mode, this attribute applies to the **HTML** element. When standards-compliant mode is not specified, as with earlier versions of Windows Internet Explorer, this attribute applies to the **BODY** element, not the **HTML** element.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `body`
 -   `html`

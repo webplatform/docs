@@ -24,20 +24,20 @@ tags:
 uri: dom/HTMLOptionElement/defaultSelected
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets the value of the selected HTML attribute.
 
 Property of [dom/HTMLOptionElement](/dom/HTMLOptionElement)[dom/HTMLOptionElement](/dom/HTMLOptionElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var initiallySelected = option.defaultSelected;
 option.defaultSelected = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -45,17 +45,17 @@ Whether the **selected** HTML attribute is present.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 The property can be changed programmatically, but doing so has no effect on the appearance of the option or the submitted value - if the [**selected**](/html/attributes/selected) property has been changed by a user or by a script. The property does change the appearance of the selected option if the form is reset.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `selected`

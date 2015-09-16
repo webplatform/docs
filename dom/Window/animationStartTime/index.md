@@ -21,27 +21,27 @@ tags:
 uri: dom/Window/animationStartTime
 
 ---
-## <span>Summary</span>
+## Summary
 
 Obsolete. Returns a timestamp of the start time of the current refresh interval, such that multiple animations can be synchronized with each other.
 
 Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.animationStartTime;
 element.animationStartTime = value;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Obsolete. Originally supported in pre-release versions of Internet Explorer 10, the **animationStartTime** property is superceded in favor of the **performance.now** property. Applications using **animationStartTime** should be updated accordingly. Use the *animationStartTime* property instead of recording animation start time using the **Date.now** function in order to ensure that the clock you are using has millisecond resolution and is monotonically increasing (where later values are always larger than earlier values). The value reported by the *animationStartTime* property represents the number of milliseconds between the recorded time and midnight January 1, 1970 (UTC).
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Timing control for script-based animations](http://go.microsoft.com/fwlink/p/?linkid=229562)

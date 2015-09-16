@@ -13,21 +13,21 @@ tags:
 uri: 'apis/media source extensions/MediaSource'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a source of media data (audio or video) for a media element.
 
-## <span>Overview</span>
+## Overview
 
 Provides a buffer based source for a media object. The app creates a MediaSource object and adds it to the media (audio or video) object as a source for the src object. SourceBuffers are then added to the MediaSource object and media content is then appended to the buffers to provide streaming or multi-source playback.
 
 `var mediaSource = new MediaSource();`
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -41,11 +41,11 @@ API Name
 [endOfStream](/apis/media_source_extensions/MediaSource/endOfStream)
 :   Used to indicate that the end of the stream has been reached.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 This example creates a new MediaSource object and adds it to a video object. It then adds a sourceBuffer and calls to start loading content.
 
@@ -80,16 +80,16 @@ function setupVideo() {
 
 [View live example](http://code.webplatform.org/gist/9144919/)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Media Source Extensions](http://www.w3.org/TR/media-source/)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Multimedia</span>
+#### Multimedia
 
 -   [Track ended](/apis/MediaStream/ended)
 

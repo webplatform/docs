@@ -20,7 +20,7 @@ tags:
 uri: css/properties/perspective
 
 ---
-## <span>Summary</span>
+## Summary
 
 The perspective property defines how far an element is placed from the view on the z-axis, from the screen to the viewer.
 
@@ -28,7 +28,7 @@ Perspective defines how an object is viewed. In graphic arts, perspective is the
 
 The illusion of perspective on a flat surface, such as a computer screen, is created by projecting points on the flat surface as they would appear if the flat surface were a window through which the viewer was looking at the object. In discussion of virtual environments, this flat surface is called a projection plane.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -54,12 +54,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `perspective: <length>`
 -   `perspective: none`
 
-## <span>Values</span>
+## Values
 
 none
 :   Default.
@@ -67,7 +67,7 @@ none
 [\<length\>](/css/data_types/length)
 :   The distance the element is placed on the z-axis. Lengths must be positive.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows the difference with transforms, where the first image has a perspective set and the second does not.
 
@@ -105,17 +105,17 @@ The following example shows the difference with transforms, where the first imag
 
 [View live example](http://code.webplatform.org/gist/7086839)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Transforms](http://www.w3.org/TR/css3-transforms/#perspective-property)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Manipulating content with CSS3 transforms - You need some perspective](/tutorials/css_transforms#You_need_some_perspective) by [Mike Sierra](/User:Sierra)
 
-### <span>External resources</span>
+### External resources
 
 -   [CSS 3D Transforms: Interactive Demo](http://sandbox.webpro.nl/css3/3d-transforms-interactive-demo.html) by [Lars Kappert](https://twitter.com/webprolific)

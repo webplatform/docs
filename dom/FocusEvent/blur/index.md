@@ -15,7 +15,7 @@ uri: dom/FocusEvent/blur
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -69,7 +69,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example shows how to display the name of the object that has lost focus, that is, the object that fires the **onblur** event.
 
@@ -94,9 +94,9 @@ This example shows how to display the name of the object that has lost focus, th
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onblurEX.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **onblur** event fires on the original object before the [**onfocus**](/dom/FocusEvent/focus) or [**onclick**](/dom/HTMLElement/click) event fires on the object that is receiving focus. Where applicable, the **onblur** event fires after the [**onchange**](/dom/Element/change) event. Use the focus events to determine when to prepare an object to receive or validate input from the user. As of Microsoft Internet Explorer 5, you must set the [**tabIndex**](/html/attributes/tabIndex) attribute of elements that expose the **onblur** event. For Internet Explorer 5 and later, the **onblur** event is asynchronous. Switches focus away from the object on which the event is fired. To invoke this event, do one of the following:
 
@@ -133,13 +133,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLWindowEvents2**
 -   **HTMLDocumentEvents4**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

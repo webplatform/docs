@@ -10,7 +10,7 @@ tags:
 uri: css/functions/cubic-bezier
 
 ---
-## <span>Summary</span>
+## Summary
 
 An animation timing function that describes a progression of movement as a cubic-bezier curve.
 
@@ -37,7 +37,7 @@ For properties unrelated to opacity and color, the function accepts *y* coordina
 
 **cubic-bezier(0.5, 2, 0.5, -1)** ![transitF cubicWave.png](/assets/thumb/2/2d/transitF_cubicWave.png/230px-transitF_cubicWave.png)
 
-## <span>Examples</span>
+## Examples
 
 A dramatically oscillating timing function whose *y* values lie far outside the 0-1 range:
 
@@ -53,11 +53,11 @@ Modify the timing function for a sequence of two transitions
 
 [View live example](http://letmespellitoutforyou.com/samples/transit_timing.html)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -107,7 +107,7 @@ Modify the timing function for a sequence of two transitions
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### <span>Transitions</span>
+#### Transitions
 
 -   **cubic-bezier**
 

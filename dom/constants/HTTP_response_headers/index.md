@@ -22,7 +22,7 @@ uri: 'dom/constants/HTTP response headers'
 
 Property of [dom/constants](/dom/constants)[dom/constants](/dom/constants)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.HTTP response headers;
@@ -31,13 +31,13 @@ element.HTTP response headers = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 A response header can be created using the [**HTTP-EQUIV**](/html/attributes/httpEquiv) attribute of the **meta** tag. Corresponding values are provided for use with **QueryInfo**. In Internet Explorer 6, The MSTHEMECOMPATIBLE constant disables theming support within Web pages.
 
-### <span>Requirements</span>
+### Requirements
 
 <table class="wikitable">
 <tr>

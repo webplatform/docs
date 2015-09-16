@@ -10,11 +10,11 @@ tags:
 uri: javascript/JSON/stringify
 
 ---
-## <span>Summary</span>
+## Summary
 
 Converts a JavaScript value to a JavaScript Object Notation (JSON) string.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,11 +29,11 @@ Converts a JavaScript value to a JavaScript Object Notation (JSON) string.
 **space**
 :   Optional. Adds indentation, white space, and line break characters to the return-value JSON text to make it easier to read.If space is omitted, the return-value text is generated without any extra white space.If space is a number, the return-value text is indented with the specified number of white spaces at each level. If space is greater than 10, text is indented 10 spaces.If space is a non-empty string, such as '\\t', the return-value text is indented with the characters in the string at each level.If space is a string that is longer than 10 characters, the first 10 characters are used.
 
-## <span>Return Value</span>
+## Return Value
 
 A string that contains the JSON text.
 
-## <span>Examples</span>
+## Examples
 
 This example uses JSON.stringify to convert the `contact` object to JSON text. The `memberfilter` array is defined so that only the `surname` and `phone` members are converted. The `firstname` member is omitted.
 
@@ -107,7 +107,7 @@ var contact = new Object();
  */
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 If value has a toJSON method, the JSON.stringify function uses the return value of that method. If the return value of the toJSON method is undefined , the member is not converted. This enables an object to determine its own JSON representation.
 
@@ -126,16 +126,16 @@ String values begin and end with a quotation mark. All Unicode characters may be
 
 During the serialization process, if a toJSON method exists for the value argument, JSON.stringify first calls the toJSON method. If it does not exist, the original value is used. Next, if a replacer argument is provided, the value (original value or toJSON return-value) is replaced with the return-value of the replacer argument. Finally, white spaces are added to the value based on the optional space argument to generate the final JSON text.
 
-## <span>Exceptions</span>
+## Exceptions
 
 |Exception|Condition|
 |:--------|:--------|
 |Invalid replacer argument|The replacer argument is not a function or an array.|
 |Circular reference in value argument not supported|The value argument contains a circular reference.|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [JSON.parse Function](/javascript/JSON/parse)
 -   [toJSON Method (Date)](/javascript/Date/toJSON)

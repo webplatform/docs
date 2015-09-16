@@ -23,13 +23,13 @@ tags:
 uri: dom/NodeIterator/filter
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the currently applied NodeFilter to the traversal.
 
 Property of [dom/NodeIterator](/dom/NodeIterator)[dom/NodeIterator](/dom/NodeIterator)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/NodeIterator](/dom/NodeIterator)[dom/NodeIterator](/dom/NodeIte
 var nodeFilter = nodeIterator.filter;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The **NodeFilter** that was applied while traversing.
 
-## <span>Examples</span>
+## Examples
 
 The following example searches for [**table**](/html/elements/table) and [**anchor**](/html/elements/a) tags and reports the value of the [**id**](/html/attributes/id) attribute. Although the [**TreeWalker**](/dom/TreeWalker) preserves the hierarchical relationship of nodes, you don't need to write recursive functions to walk the nodes in a hierarchy. The **NodeFilter** function skips nodes rather than rejecting them, which allows the function to examine all child nodes in the hierarchy.
 
@@ -95,11 +95,11 @@ function refresh()
 </html>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use the filter property to exclude/include Nodes from the Iteration.
 
-## <span>Notes</span>
+## Notes
 
 -   Appending content to the document while the [**TreeWalker**](/dom/TreeWalker) is searching for nodes can cause an endless loop. To prevent this, the example collects all possible output in a temporary variable and appends it to the document after the **TreeWalker** is finished.
 -   The **NodeFilter** is a callback function that provides customized filtering for [**NodeIterator**](/dom/NodeIterator) and [**TreeWalker**](/dom/TreeWalker). The filter function accepts a node as its only parameter, and indicates whether the node is accepted, rejected, or skipped.
@@ -111,7 +111,7 @@ function refresh()
         // NodeFilter.FILTER_ACCEPT, NodeFilter.FILTER_REJECT, NodeFilter.FILTER_SKIP
     }
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Traversal and Range](http://www.w3.org/TR/DOM-Level-2-Traversal-Range/)
 :   Recommendation

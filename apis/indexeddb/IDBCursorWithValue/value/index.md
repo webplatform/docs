@@ -22,7 +22,7 @@ uri: apis/indexeddb/IDBCursorWithValue/value
 
 Property of [apis/indexeddb/IDBCursorWithValue](/apis/indexeddb/IDBCursorWithValue)[apis/indexeddb/IDBCursorWithValue](/apis/indexeddb/IDBCursorWithValue)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -32,14 +32,14 @@ var result = element.value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If the result is an object, the object remains the same until the cursor iterates to a new record. Changes to the results of the **value** property are visible to the object variable, but are not saved in the underlying object store.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

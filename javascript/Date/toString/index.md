@@ -10,21 +10,21 @@ tags:
 uri: javascript/Date/toString
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a human readbale string representation of a date.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     toString()
 
-## <span>Return Value</span>
+## Return Value
 
 String that contains the date, time and timezone in a human readable format.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var now = new Date();
@@ -32,15 +32,15 @@ console.log(now.toString());
 // outputs: "Wed Oct 08 2014 13:46:37 GMT+0200 (CEST)"
 ```
 
-## <span>Notes</span>
+## Notes
 
 According to the specification the contents of the String are implementation-dependent. That means that you cannot rely on the returned format being consistent across browsers. That said, all major browsers seem to agree on the format `Wed Oct 08 2014 13:46:37 GMT+0200 (CEST)`.
 
 *toString()* adds the code of the current timezone to the output. Because the output format is not specified, some browsers might replace `(CEST)` (Central European Summer Time) with a fully localized text, e.g. the German `(Mitteleuropäische Sommerzeit)`.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [toDateString Method (Date)](/javascript/Date/toDateString)
 -   [toGMTString Method (Date)](/javascript/Date/toGMTString)
@@ -51,12 +51,12 @@ According to the specification the contents of the String are implementation-dep
 -   [toTimeString Method (Date)](/javascript/Date/toTimeString)
 -   [toUTCString Method (Date)](/javascript/Date/toUTCString)
 
-### <span>External resources</span>
+### External resources
 
 -   [toString(), by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toString)
 -   [toUTCString(), by Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/jj155294%28v=vs.94%29.aspx)
 
-### <span>Specification</span>
+### Specification
 
 [Date.prototype.toString()](http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.5.2)
 

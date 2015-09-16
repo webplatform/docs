@@ -13,7 +13,7 @@ uri: 'concepts/security/WebSocket security'
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Article that could be used as a starting point:
 

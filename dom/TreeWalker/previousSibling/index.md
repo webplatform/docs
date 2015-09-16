@@ -23,25 +23,25 @@ tags:
 uri: dom/TreeWalker/previousSibling
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the previous sibling of the current node in the filtered TreeWalker hierarchy and updates currentNode.
 
 Method of [dom/TreeWalker](/dom/TreeWalker)[dom/TreeWalker](/dom/TreeWalker)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var node = treewalker.previousSibling();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 .Object that receives the previous child of a parent node in the filtered TreeWalker hierarchy.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var treewalker = document.createTreeWalker(
@@ -53,19 +53,19 @@ var treewalker = document.createTreeWalker(
 var node = treewalker.previousSibling(); // returns null as there is no previous sibiling
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **previousSibling** sets the [**currentNode**](/dom/TreeWalker/currentNode) to the returned node. It returns null if there are no more child nodes.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 1.2
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-treewalker-previoussibling)
 :   Living Standard

@@ -10,7 +10,7 @@ tags:
 uri: 'css/data types/frequency'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &lt;frequency&gt; CSS data type allows for the specification of the pitch of sounds, expressed as a number followed (without whitespace) by one of the frequency units: Hz and kHz.
 
@@ -21,13 +21,13 @@ The &lt;frequency&gt; CSS data type allows for the specification of the pitch of
 
 For example, middle C (the middle note on a piano) is roughly **261Hz**.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* No CSS property currently specifies pitch, either for voice or other audio */
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/)
 :   Candidate Recommendation

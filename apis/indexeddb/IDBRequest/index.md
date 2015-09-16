@@ -12,11 +12,11 @@ tags:
 uri: apis/indexeddb/IDBRequest
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides access to the result of a request on the database.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -42,15 +42,15 @@ API Name
 [transaction](/apis/indexeddb/IDBRequest/transaction)
 :   The transaction for the request. This property can be null for certain requests, such as for request returned from IDBFactory.open (You're just connecting to a database, so there is no transaction to return).
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

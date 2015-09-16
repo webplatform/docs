@@ -10,17 +10,17 @@ tags:
 uri: javascript/Date/parse
 
 ---
-## <span>Summary</span>
+## Summary
 
 Parses a string containing a date, and returns the number of milliseconds between that date and midnight, January 1, 1970.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     Date.parse( dateVal )
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **Date.parse** function.
 
@@ -49,15 +49,15 @@ var minMilli = 1000 * 60;
  // Output: There are 7456 days between 01/01/1970 and Fri Jun 1 00:00:00 PDT 1990
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required dateVal argument is either a string containing a date or a VT\_DATE value retrieved from an ActiveX object or other object. For information about date strings that the **Date.parse** function can parse. see Formatting Date and Time Strings (Windows Scripting - JScript).
 
 The **Date.parse** function returns an integer value representing the number of milliseconds between midnight, January 1, 1970 and the date supplied in dateVal.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getDate Method (Date)](/javascript/Date/getDate)
 

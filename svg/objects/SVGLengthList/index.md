@@ -20,33 +20,33 @@ uri: svg/objects/SVGLengthList
 ---
 Inherits from [SVGElement](/svg/objects/SVGElement)[SVGElement](/svg/objects/SVGElement)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from SVGElement</span>
+## Inherited from SVGElement
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 The following code example declares the **SVGLengthList** object as read-only and identifies the appropriate exceptions to raise.
 
@@ -63,19 +63,19 @@ interface SVGLengthList {
 };
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 You can designate an **SVGLengthList** object as read-only, so that any attempts to modify the object cause a **NoModificationAllowedError** exception that is defined during initialization.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.13
 
-### <span>Members</span>
+### Members
 
 The **SVGLengthList** object has these methods:
 

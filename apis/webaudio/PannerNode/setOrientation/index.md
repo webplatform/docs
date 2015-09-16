@@ -22,40 +22,40 @@ tags:
 uri: apis/webaudio/PannerNode/setOrientation
 
 ---
-## <span>Summary</span>
+## Summary
 
 Describes which direction the audio source is pointing in the 3D cartesian coordinate space. Depending on how directional the sound is (controlled by the cone attributes), a sound pointing away from the listener can be very quiet or completely silent. The x, y, and z parameters represent a direction vector in 3D space. The default value is (1,0,0).
 
 Method of [apis/webaudio/PannerNode](/apis/webaudio/PannerNode)[apis/webaudio/PannerNode](/apis/webaudio/PannerNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = PannerNode.setOrientation(x, y, z);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
-
- Data-type
-:   Number
-
-### <span>y</span>
+### x
 
  Data-type
 :   Number
 
-### <span>z</span>
+### y
 
  Data-type
 :   Number
 
-## <span>Return Value</span>
+### z
+
+ Data-type
+:   Number
+
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -63,7 +63,7 @@ var panner = audioCtx.createPanner();
 panner.setOrientation(1,0,0);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

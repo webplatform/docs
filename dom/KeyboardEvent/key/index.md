@@ -22,7 +22,7 @@ uri: dom/KeyboardEvent/key
 
 Property of [dom/KeyboardEvent](/dom/KeyboardEvent)[dom/KeyboardEvent](/dom/KeyboardEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.key;
@@ -31,9 +31,9 @@ element.key = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Key identifiers are strings that uniquely identify keyboard buttons, such as `Q`, `Home`, or `F2`. The string can be any of the following types:
 
@@ -41,8 +41,8 @@ Key identifiers are strings that uniquely identify keyboard buttons, such as `Q`
 -   Key name: A multicharacter string such as `Enter` or `Tab`
 -   Unicode codepoint: "U+" followed by a hexadecimal character index
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 3 Events Specification](http://go.microsoft.com/fwlink/p/?linkid=203756), Section 5.2.6

@@ -28,17 +28,17 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
     stop-color: currentColor | inherit
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.2.4
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)

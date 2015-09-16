@@ -23,31 +23,31 @@ tags:
 uri: css/cssom/properties/width
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the width of an element.
 
 Property of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = declaration.width;
 declaration.width = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The width of the rectangle can also be calculated by subtracting the value of the [**left**](/css/properties/left) property from the value of the [**right**](/css/properties/right) property.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793)

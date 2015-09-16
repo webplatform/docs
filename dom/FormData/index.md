@@ -15,15 +15,15 @@ tags:
 uri: dom/FormData
 
 ---
-## <span>Summary</span>
+## Summary
 
 FormData is an interface that helps to create a set of key-value pairs representing form fields and their values intended to be sent using XMLHttpRequest.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -31,15 +31,15 @@ API Name
 [append](/dom/FormData/append)
 :
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>XHR</span>
+#### XHR
 
 -   [XMLHttpRequest (XHR) API](/apis/xhr)
 

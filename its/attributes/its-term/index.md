@@ -14,7 +14,7 @@ tags:
 uri: its/attributes/its-term
 
 ---
-## <span>Summary</span>
+## Summary
 
 The its-term attribute is used to mark terms so they can be recognized during translation process. This helps to increase consistency of translation across different parts of the documentation.
 
@@ -32,7 +32,7 @@ Applies to
 </table>
 The its-term attribute can contain "yes" or "no" values. Defintion of the term can be optionally linked by using its-term-info-ref attribute.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 
@@ -52,11 +52,11 @@ The its-term attribute can contain "yes" or "no" values. Defintion of the term c
 </pre>
 [View live example](http://code.webplatform.org/gist/8404173)
 
-## <span>Usage</span>
+## Usage
 
      Use its-term for all terms on your page especially if you expect your content being translated to other languages in the future.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Internationalization Tag Set (ITS) Version 2.0](http://www.w3.org/TR/its20/)
 :   W3C Recommendation

@@ -22,13 +22,13 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/localStreams
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns an array of MediaStream objects added to the connection with addStream().
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,7 +36,7 @@ Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis
 var result = element.localStreams;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type MediaStreamArrayMediaStreamArray
 

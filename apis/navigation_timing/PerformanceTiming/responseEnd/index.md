@@ -23,13 +23,13 @@ tags:
 uri: 'apis/navigation timing/PerformanceTiming/responseEnd'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the time immediately after the user agent receives the last byte of the current document from the server, relevant application caches or from local resources, or immediately before the transport connection is closed, whichever comes first.
 
 Property of [apis/navigation timing/PerformanceTiming](/apis/navigation_timing/PerformanceTiming)[apis/navigation timing/PerformanceTiming](/apis/navigation_timing/PerformanceTiming)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,18 +37,18 @@ Property of [apis/navigation timing/PerformanceTiming](/apis/navigation_timing/P
 var result = PerformanceTiming.responseEnd;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var perftime = performance.timing;
 document.write("responseEnd: " + perftime.responseEnd + "<br />");
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Navigation Timing 2](http://www.w3.org/TR/navigation-timing-2/)
 :   W3C Working Draft

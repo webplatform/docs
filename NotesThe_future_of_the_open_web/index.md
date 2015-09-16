@@ -3,7 +3,7 @@ title: The future of the Open Web
 uri: 'Notes:The future of the open web'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Notes taken to give an overview of what is coming on the Open Web and the Web Platform as a whole.
 
@@ -16,9 +16,9 @@ Notes taken to give an overview of what is coming on the Open Web and the Web Pl
 -   The web as a database
 -   Cool new things that you should know about
 
-## <span>Threads</span>
+## Threads
 
-### <span>Key historic events</span>
+### Key historic events
 
 -   Microsoft and HP, two big desktop companies, created Web based Operating systems (WebOS, Windows 8)
 -   Mozilla creating a fork of Android and making it completely web based too
@@ -26,7 +26,7 @@ Notes taken to give an overview of what is coming on the Open Web and the Web Pl
 -   Microsoft enforcing the DNT header
 -   W3C, Adobe, Mozilla, Google, Facebook, Microsoft, Opera decided to team up together to solve the documentation for web developers problem
 
-### <span>Closing the gap with native</span>
+### Closing the gap with native
 
 The web is not what it was a few years ago. We see many makers using web technologies to connect to physical devices.
 
@@ -45,7 +45,7 @@ But we still want to gain access to the device to make cool thins:
 
 Where do we draw a line?
 
-### <span>Better layout systems</span>
+### Better layout systems
 
 See Eric Meyer's presentation on Strong Layout systems (\#TODO) and notes [Session notes from Eric Meyer's Strong Layout systems](http://responsive.ly/2013/04/session-notes-for-eric-meyers-strong-layout-systems/).
 
@@ -60,18 +60,18 @@ What is coming in that realm:
 -   Live data binding ([Object.observe](http://wiki.ecmascript.org/doku.php?id=harmony:observe)) (see also [Derby](http://derbyjs.com/), [Knockout](http://knockoutjs.com/documentation/value-binding.html), [AngularJS](http://docs.angularjs.org/guide/dev_guide.templates.databinding), [jQuery.my](http://jquerymy.com/), [rivetsjs](http://rivetsjs.com/))
 -   document.querySelectorAll('\#content ul \> li');
 
-### <span>The web as a database</span>
+### The web as a database
 
 The web is more than just web pages in a browser. You can programatically ask for things and it can follow relationships.
 
 -   Hypermedia (using HTTP verbs, follow links, get a resource from it)
 -   Meta data in the markup
 
-### <span>Essential to learn to be future proof</span>
+### Essential to learn to be future proof
 
 Learn to use the real APIs. Not just the tools such as jQuery, or Cordova, or Sencha. It binds you to the vendor.
 
-### <span>Cool new things that you should know about</span>
+### Cool new things that you should know about
 
 There are many very powerful things coming our way nowadays.
 

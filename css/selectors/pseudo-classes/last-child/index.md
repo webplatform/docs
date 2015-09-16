@@ -13,11 +13,11 @@ tags:
 uri: 'css/selectors/pseudo-classes/:last-child'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The :last-child pseudo-class represents the last child element of its parent.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /*We add some red color to the second list item*/
@@ -36,13 +36,13 @@ color: red;
 </ul>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **:last-child** pseudo-class is a structural pseudo-class. Structural pseudo-classes enable selection based on extra information in the document tree that can't be selected using simple selectors or combinators.
 
-### <span>Syntax</span>
+### Syntax
 
 selector
 
@@ -52,23 +52,23 @@ last-child
 
 </dd>
 </dl>
-### <span>Parameters</span>
+### Parameters
 
 *selector*
 :   A CSS simple selector.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Selectors Level 3](http://go.microsoft.com/fwlink/p/?linkid=199783), Section 6.6.5.7
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Selectors Level 3](http://www.w3.org/TR/css3-selectors/)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `:root`

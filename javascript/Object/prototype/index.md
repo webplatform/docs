@@ -10,17 +10,17 @@ tags:
 uri: javascript/Object/prototype
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a reference to the prototype for a class of objects.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     objectName.prototype
 
-## <span>Examples</span>
+## Examples
 
 The objectName argument is the name of an object.
 
@@ -47,15 +47,15 @@ function array_max( ){
  // 25
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 All intrinsic JavaScript objects have a **prototype** property that is read-only. Properties and methods may be added to the prototype, but the object may not be assigned a different prototype. However, user-defined objects may be assigned a new prototype.
 
 The method and property lists for each intrinsic object in this language reference indicate which ones are part of the object's prototype, and which are not.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [constructor Property (Object)](/javascript/Object/constructor)
 

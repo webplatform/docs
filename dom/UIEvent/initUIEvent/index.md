@@ -19,21 +19,21 @@ tags:
 uri: dom/UIEvent/initUIEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initializes a new user interface event that the createEvent method created.
 
 Method of [dom/UIEvent](/dom/UIEvent)[dom/UIEvent](/dom/UIEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  event.initUIEvent(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>eventType</span>
+### eventType
 
  Data-type
 :   String
@@ -42,39 +42,39 @@ Method of [dom/UIEvent](/dom/UIEvent)[dom/UIEvent](/dom/UIEvent)
 
 abort - An onabort event. error - An onerror event. load - An onload event. select - An onselect event. resize - An onresize event.
 
-### <span>canBubble</span>
+### canBubble
 
  Data-type
 :   Boolean
 
  Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
 
-### <span>cancelable</span>
+### cancelable
 
  Data-type
 :   Boolean
 
  Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
 
-### <span>view</span>
+### view
 
  Data-type
 :   DOM Node
 
  The window on which this event is occurring. Sets the value for the [view](/dom/UIEvent/view) property.
 
-### <span>detail</span>
+### detail
 
  Data-type
 :   Number
 
  Specifies additional information. This value is returned in the [detail](/dom/UIEvent/detail) property of the event.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var evt = document.createEvent("UIEvents");
@@ -84,7 +84,7 @@ var evt = document.createEvent("UIEvents");
 evt.initUIEvent("click", true, true, window, 1);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

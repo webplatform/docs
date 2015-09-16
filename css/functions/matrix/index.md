@@ -12,11 +12,11 @@ tags:
 uri: css/functions/matrix()
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines a two dimensional transformation in matrix format.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 -webkit-transform: matrix(1, 0, 0.5, 1, 10, 0);
@@ -26,9 +26,9 @@ transform: matrix(1, 0, 0.5, 1, 10, 0);
 
 [View live example](http://jsfiddle.net/denbuzze/J2CLV/1/)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This function defines a two dimensional transformation in matrix format.
 
@@ -42,22 +42,22 @@ and
 
 For more information about transformation matrices, see [Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246), in the [CSS3 Transforms](http://go.microsoft.com/fwlink/?LinkID=223145) specification.
 
-### <span>Syntax</span>
+### Syntax
 
 **matrix** `( <number>  ,  <number>  ,  <number>  ,  <number>  ,  <number>  ,  <number> )`
 
-### <span>Parameters</span>
+### Parameters
 
 *number*
 :   A matrix value.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Transforms Module, Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223145), Section 13.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`

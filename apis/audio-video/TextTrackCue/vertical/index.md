@@ -23,24 +23,24 @@ tags:
 uri: apis/audio-video/TextTrackCue/vertical
 
 ---
-## <span>Summary</span>
+## Summary
 
 A string representing the text track cue writing direction, as follows. If it is horizontal: The empty string. If it is vertical growing left: The string &quot;rl&quot;. If it is vertical growing right: The string &quot;lr&quot;.
 
 Property of [apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)[apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = TextTrackCue.vertical;
 TextTrackCue.vertical = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //. . .
@@ -53,11 +53,11 @@ myCues[i].vertical = "lr";
 //. . .
 ```
 
-## <span>Usage</span>
+## Usage
 
      "Horizontal" writing direction means a text line extends horizontally and is positioned vertically, with consecutive lines displayed below each other. "Vertical growing left" means a text line extends vertically and is positioned horizontally, with consecutive lines displayed to the left of each other. "Vertical growing right" means a text line extends vertically and is positioned horizontally, with consecutive lines displayed to the right of each other.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

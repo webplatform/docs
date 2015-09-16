@@ -11,21 +11,21 @@ tags:
 uri: javascript/Date/getSeconds
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the seconds of a Date object, using local time.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     dateObj.getSeconds()
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an integer between 0 and 59. Zero is returned when the time is less than one second into the current minute. If a **Date** object was created without specifying the time, by default the seconds value is 0.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **getSeconds** method.
 
@@ -42,13 +42,13 @@ var date = new Date("1/1/2001");
  // 5
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required dateObj reference is a **Date** object. To get the seconds value using Universal Coordinated Time (UTC), use the **getUTCSeconds** method.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getUTCSeconds Method (Date)](/javascript/Date/getUTCSeconds)
 -   [setSeconds Method (Date)](/javascript/Date/setSeconds)

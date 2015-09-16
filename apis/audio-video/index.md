@@ -9,7 +9,7 @@ tags:
 uri: apis/audio-video
 
 ---
-## <span>Summary</span>
+## Summary
 
 HTML5 audio-video elements used for enhancing the Web page experience with audio backgrounds, music, videos, presentations, etc. Also see &quot;Related articles&quot; below.
 
@@ -19,11 +19,11 @@ API Name
 [TextTrackList](/apis/audio-video/TextTrackList)
 :   A TextTrackList object represents a dynamically updating list of text tracks in a given order.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Audio</span>
+#### Audio
 
 -   **audio-video**
 
@@ -45,7 +45,7 @@ API Name
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-#### <span>Video</span>
+#### Video
 
 -   **audio-video**
 
@@ -67,6 +67,6 @@ API Name
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-### <span>Other articles</span>
+### Other articles
 
 -   <http://www.w3.org/standards/webdesign/audiovideo.html>

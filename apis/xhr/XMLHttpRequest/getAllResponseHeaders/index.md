@@ -22,23 +22,23 @@ tags:
 uri: apis/xhr/XMLHttpRequest/getAllResponseHeaders
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns all the response headers as a string, or null if no response has been received.
 
 Method of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = object.getAllResponseHeaders();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var xhr = new XMLHttpRequest();
@@ -49,11 +49,11 @@ var headers = xhr.getAllResponseHeaders().toLowerCase();
 alert(headers);
 ```
 
-## <span>Notes</span>
+## Notes
 
 Each name/value pair in the returned string is delimited by a carriage return/line feed (CR/LF) sequence.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft

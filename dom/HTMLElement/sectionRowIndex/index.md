@@ -22,7 +22,7 @@ uri: dom/HTMLElement/sectionRowIndex
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.sectionRowIndex;
@@ -31,14 +31,14 @@ element.sectionRowIndex = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **tBody**, **tHead**, and **tFoot** sections are mutually exclusive, so a **tr** is always contained in one of these sections and in the [**table**](/html/elements/table). The [**rowIndex**](/dom/HTMLElement/rowIndex) property indicates the position of the object in the [**rows**](/dom/HTMLElement/rows) collection for the **table**. Collection indexes are in source order of the HTML document.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5

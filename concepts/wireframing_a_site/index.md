@@ -9,7 +9,7 @@ tags:
 uri: 'concepts/wireframing a site'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Every web designer should know and understand a website’s parameters before lifting a finger to start designing the site. In this section of the Web Standards Curriculum, you will learn the basics required to start designing business websites. While this information is useful if you want to build sites for others, it can also serve as a checklist article for sites you want to build for yourself. This is usually the stage that comes after information architecture—you should collect information on what the client wants on their site and how it should be structured, what kind of branding that company uses, and then use that information to build up a visual design mockup that you can verify with the client before you add graphics and colour schemes on to it. Specifically, I’ll cover the following:
 
@@ -18,7 +18,7 @@ Every web designer should know and understand a website’s parameters before li
 -   You also need to know more about the company’s previous marketing efforts, including branding. This information will have a bearing on the website design.
 -   Based upon all the information gathered from the client, you will create the visual design for the site so that the client can visualize the foundation for his additional graphics and content.
 
-## <span>What you need to know</span>
+## What you need to know
 
 Usually before a website design is decided upon, the individual or business should have a plan in place about what the site should accomplish. While colour and graphics are important, a plan should be in place for a budget, the intended market and projected goals as well as resources to accomplish these tasks. Is the site just going to give the user information, or is it intended to sell them products or services as well? Will this website expand, or is it intended to be a short-term effort to reach a niche market (such as a political campaign site or a site that intends to tap in on a current trend). Will the site include a blog, legal and information pages, photo gallery, e-mail contact form? What else does it need? How does this site compare to the competition?
 
@@ -28,7 +28,7 @@ While much of this information may be decided before the proposed site reaches t
 
 The point is to keep the site simple by using HTML and CSS for code and design, respectively. Avoid Flash unless it is appropriate for some elements of the site (much has been done to [make Flash more accessible](http://www.sitepoint.com/article/accessible-flash-parts-1-2) of late, and it is good for some tasks, such as video), and think about where JavaScript and other technical stuff is needed. This will make the site design easier for the designer and programmer to create (especially if the designer *is* the programmer) and it will be more compatible across all browsers.
 
-## <span>The first steps</span>
+## The first steps
 
 To help you along with these issues, I’ll build a simple business site using a set of guidelines that I use for designing websites for myself and others. These checklists will include business aspects as well as design issues. For convenience, I’ll use an imaginary business that is already developed, so it has used marketing materials in the past. Printed materials, including a logo and branding are already in place. If you’re starting from scratch, the logo and branding plans will need to be developed first before you begin to develop the website.
 
@@ -44,7 +44,7 @@ As a Web designer, I’ll want to know the following information about a busines
 8.  Directed departure: Planning for directed departure means that you/your client gains control over how users will leave the site. Viewers will leave the website eventually, so why not plan for their departure through monetized ad placement or through link exchanges? Making plans for this direction now can add value to the site monetarily and/or through offering a service to your site users.
 9.  Deadlines: Determine now when the site will go “live”. Usually an eight-week lead time is enough to finalize any small project such as this, as long as the clients have their content ready, they are amenable to colour and layout designs you offer as samples, and no difficult programming is required. Once you have these basics out of the way, you can sit down, read the content, plan for navigation and decide how to best optimize the site for search engines. While you might not be in charge of SEO (Search Engine Optimization), you can work closely with an SEO expert to determine how best to use the [site’s content and your code](http://www.sitepoint.com/article/ultimate-seo-checklist) to generate more traffic via keywords in content and in headings and subheadings. Just as you wouldn’t pick out carpets or a couch for a new home before the architect has created the blueprint, neither would you create a visual design for the site until you’ve planned the site’s architecture. The navigation and plans for [SEO](http://www.seochat.com/) in this initial stage will save time and headaches down the road. By the time you’re ready to create a visual plan, you’re already familiar with the site’s direction and its contents, and this makes the job of working with colour and graphics that much easier.
 
-### <span>The imaginary example site</span>
+### The imaginary example site
 
 This imaginary site is a business that provides Open Source code for wikis, and they come up with at least three new code ideas per week. Since the code is free to use and modify, the site owners want to monetize the site (generate money from it) through donations, ad placement, and through extra services offered by their programmers. The site name is “Wiki Whatevers,” and the domain name has been chosen. The content has been developed, and it contains code snippets that need to be cataloged, articles, and bios that feature the programmers involved with this project. The Web host provides [MySQL](http://www.mysql.com/) database availability, and it is geared to accept the heaviest of surges in traffic without down time. Now it’s time to pull together the items that will be used on the site:
 
@@ -61,7 +61,7 @@ This imaginary site is a business that provides Open Source code for wikis, and 
 
 **Note:** These last two steps will be covered in the next article in the series; bear in mind that you want to get approval from the client for the visual mockup layout before you start putting colours and graphics all over it!
 
-### <span>The logo</span>
+### The logo
 
 The logo is a vital part of any company’s branding. While most businesses will not rush a logo as this piece of artwork will represent their business for many years, other clients will be less concerned with the image that represents a company. I can tell you from experience that a company that doesn’t spend time and money on a professional logo usually will never spend that money—no matter how logical your arguments to the contrary.
 
@@ -87,7 +87,7 @@ Figure 2: A portion of Georgia Tech’s mascot used to match logo colours.
 
 **Note:**Very seldom will you run across a business that hasn’t used a digital image of their logo or brand online for items such as business cards and letterhead, if not for an actual Web presence. However, many of these businesses seem to accept the colours that the Web presents, rather than change the colours to match their printed matter. So, don’t always rely on Web colours for a company’s site, especially if those colours don’t match the company print matter such as brochures or letterhead. Instead, ask the company which colours they prefer—they may not have noticed that the colours were different in the first place.
 
-### <span>The Layout</span>
+### The Layout
 
 For the layout, and for simplicity’s sake for this tutorial, I will demonstrate one layout. I chose a blog layout that promotes the most frequent changes to the body copy at top, easy access to navigation between the header and that recent body copy, and access to previous posts “below the fold” on the home page. The term “below the fold” originates from newspaper production. When a newspaper is on the stand, the reader will see only that copy placed “above the fold” in the newspaper (ie the physical fold in the paper). That copy—including images—is important, as it needs to entice the reader to purchase the paper.
 
@@ -109,7 +109,7 @@ This layout will remain the same throughout the site, but may change for the arc
 
 This layout allows the viewer to quickly move from body copy to navigation without scrolling, and it also allows users to view other topics that the site may cover with further links into the site’s categories at the very least. Even if the viewer never scrolls down past the red “fold” line, the layout provides all the major elements that a viewer might need, all placed “above the fold. ”
 
-### <span>About Advertising on a Site</span>
+### About Advertising on a Site
 
 It is to the client’s advantage, and a service to the reader if the advertising on a site is content-relevant. In other words, if the content on the site is about flowers, then ads for that site might include landscaping services, catering (to compliment floral arrangements), etc. So, for a site that provides open source materials, you might seek advertisers that are relevant to open source content. [Google Adsense](https://www.google.com/adsense/), as one source, would help in this regard, as the ads are content-relative. The use of this type of advertising is a great idea until traffic grows enough to entice other advertisers to your site. However, always think about the SEO implications before you accept ads, as some advertising may adversely affect the client’s standing in search pages. Some good SEO resources are as follows:
 
@@ -120,7 +120,7 @@ It is to the client’s advantage, and a service to the reader if the advertisin
 
 **Note:** You may not be responsible for site advertising as a designer unless you're designing a site for yourself, but if you plan to work with an advertising or design agency in the future, you may want some input into the advertising at these design firms. The more you know about what makes a site successful, the more success you may encounter in your design career. When possible, learn as much as you can about marketing (for yourself and for your clients) and search engine optimization tactics.
 
-### <span>Checking Layout with validation and the client</span>
+### Checking Layout with validation and the client
 
 Before this layout is implemented using code, I want to confirm the layout(s) (or wireframes) with the client. One tactic I use to convince the client that any one layout is better than the other is to remind them that coding additional layouts does cost money. This helps the client pick one layout, with the idea that the code can be tweaked later to make some structural changes.
 
@@ -134,15 +134,15 @@ Finally, it’s a good idea to check in with the client to let them know that th
 
 Once you’ve completed this process, you can then begin to work on the site’s text, images, and colours. How do you begin to do this? Find out in the next article!
 
-## <span>Summary</span>
+## Summary
 
 The web designer often wears many hats, because website design is based upon many factors. Will that site grow over time, or will it remain static? Can the Web host provide consistent quality service and room to grow, or will that client need to move from Web host to Web host with new additions to the site? And, if the designer cannot sufficiently perform all design issues, does that designer have a network of people on hand to help?
 
 So, beyond colour and graphics, a foundation needs to be laid to build that website upon. The business of building a site affects the design, and any issues that might become problems down the road can be ironed out in the planning phases. This ability to resolve issues before they arise makes for a professional designer. Once the foundation has been laid and the architecture and wireframe of the site has been developed, the designer then can begin to work with colour schemes to develop the full website for client approval.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Dive In Designs checklist](http://www.diveindesigns.com/home/dd1/page_17)
 -   [Net Mechanic’s Web Usability Checklist](http://www.netmechanic.com/news/vol7/design_no4.htm)
@@ -151,7 +151,7 @@ So, beyond colour and graphics, a foundation needs to be laid to build that webs
 -   [David Skyrme and Associates’ Checklist](http://www.skyrme.com/tools/webplan.htm)
 -   [SCORE’s website design checklist](http://www.score.org/eb_42.html)
 
-### <span>Exercise questions</span>
+### Exercise questions
 
 -   What items should you have on hand before you begin to develop a Web page design?
 -   Why should you list all the items that you plan to use on a Web page?

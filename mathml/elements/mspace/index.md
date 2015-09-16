@@ -14,16 +14,16 @@ tags:
 uri: mathml/elements/mspace
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML mspace element is used to display a blank space, whose size is set by its attributes.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates a simple usage of the mspace element:
 
@@ -41,12 +41,12 @@ This example demonstrates a simple usage of the mspace element:
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mspace)
 :   W3C Recommendation
 
-## <span>Attributes</span>
+## Attributes
 
  depth
 :   The desired depth (below the baseline) of the space (see length for values and units).

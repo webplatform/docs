@@ -35,17 +35,17 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Tabbing order goes from every tab stop within the viewlink to every tab stop in the primary document, based on sequence and [**tabIndex**](/html/attributes/tabIndex) value. By default, the master element participates in the tab sequence of the primary document, even if there are no tab stops defined within the viewlink. When using a viewlink, the **body** element inside the viewlink is not tabbable by default; the author must set the [**tabIndex**](/html/attributes/tabIndex) property if the behavior is designed to display a focus rectangle on the linked document. Setting the **tabIndex** property on the **body** of the document fragment causes the [**onfocus**](/w/index.php?title=dom/events/focus&action=edit&redlink=1) and [**onactivate**](/w/index.php?title=dom/events/activate&action=edit&redlink=1) events to fire when the viewlink document **body** receives focus.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `defaults`
 -   `Reference`

@@ -23,28 +23,28 @@ tags:
 uri: css/cssom/styleSheet/addImport
 
 ---
-## <span>Summary</span>
+## Summary
 
 Non standard. Adds an @import rule to the style sheet.
 
 Method of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var index = stylesheet.addImport(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>url</span>
+### url
 
  Data-type
 :   String
 
  The location of the source file for the style sheet.
 
-### <span>index</span>
+### index
 
  Data-type
 :   Number
@@ -53,7 +53,7 @@ var index = stylesheet.addImport(/* see parameter list */);
 
 The requested position for the style sheet in the collection. If this value is not given, the style sheet is added to the end of the collection.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -61,11 +61,11 @@ A zero-based index value indicating the position of the imported style sheet in 
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -211,7 +211,7 @@ A zero-based index value indicating the position of the imported style sheet in 
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `IHTMLStyleSheet`
 -   `styleSheet`

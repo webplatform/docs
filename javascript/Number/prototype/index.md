@@ -10,17 +10,17 @@ tags:
 uri: javascript/Number/prototype
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a reference to the prototype for a class of number.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     number.prototype
 
-## <span>Examples</span>
+## Examples
 
 The number argument is the name of a number. Use the **prototype** property to provide a base set of functionality to a class of objects. New instances of an object "inherit" the behavior of the prototype assigned to that object.
 
@@ -44,7 +44,7 @@ function number_digits() {
  // 4
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 All intrinsic JavaScript objects have a **prototype** property that is read-only. Properties and methods may be added to the prototype, but the object may not be assigned a different prototype. However, user-defined objects may be assigned a new prototype.
 

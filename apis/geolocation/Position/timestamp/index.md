@@ -22,13 +22,13 @@ tags:
 uri: apis/geolocation/Position/timestamp
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents the time when the Position object was acquired, represented as a DOMTimeStamp.
 
 Property of [apis/geolocation/Position](/apis/geolocation/Position)[apis/geolocation/Position](/apis/geolocation/Position)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [apis/geolocation/Position](/apis/geolocation/Position)[apis/geoloca
 var result = Position.timestamp;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 DOMTimeStamp
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //Assuming the variable fresh_threshold has been set
@@ -53,7 +53,7 @@ if (position.timestamp < fresh_threshold) {
    }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

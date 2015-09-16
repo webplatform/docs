@@ -28,17 +28,17 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 In compliance with the Accessible Rich Internet Applications (ARIA) specification, Windows Internet Explorer 8 will override implicit roles in favor of roles provided by a Web author.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`
 -   `abbr`

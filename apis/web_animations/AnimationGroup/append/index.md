@@ -21,28 +21,28 @@ tags:
 uri: 'apis/web animations/AnimationGroup/append'
 
 ---
-## <span>Summary</span>
+## Summary
 
 If any of the animation nodes in nodes is an inclusive ancestor of this animation node throw a HierarchyRequestError exception and terminate these steps. Insert nodes before null.
 
 Method of [apis/web\_animations/AnimationGroup](/apis/web_animations/AnimationGroup)[apis/web\_animations/AnimationGroup](/apis/web_animations/AnimationGroup)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = .append(AnimationNode);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>AnimationNode</span>
+### AnimationNode
 
  Data-type
 :   Object
 
  Takes a sequence of animation node objects as a parameter
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 

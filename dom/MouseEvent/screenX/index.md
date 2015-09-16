@@ -26,13 +26,13 @@ tags:
 uri: dom/MouseEvent/screenX
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the x-coordinate of the mouse pointer, relative to the upper-left corner of the screen.
 
 Property of [dom/MouseEvent](/dom/MouseEvent)[dom/MouseEvent](/dom/MouseEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -40,7 +40,7 @@ Property of [dom/MouseEvent](/dom/MouseEvent)[dom/MouseEvent](/dom/MouseEvent)
 var xCoordinate = event.screenX;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -48,11 +48,11 @@ The X coordinate of the mouse cursor.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Screen coordinates depend on the document zoom level. At 200% magnification, some user agents may report the "logical" position of a pixel as half of the distance of the same position at 100% zoom.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

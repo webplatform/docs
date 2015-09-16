@@ -11,28 +11,28 @@ tags:
 uri: 'concepts/ux/techniques/story mapping'
 
 ---
-## <span>Summary</span>
+## Summary
 
 A User eXperience (UX) design technique
 
-### <span>What it is</span>
+### What it is
 
 Board with organized and prioritized system functionality (user stories).
 
-### <span>Who does it</span>
+### Who does it
 
 The UX team with the Product Owner.
 
-### <span>Key benefits</span>
+### Key benefits
 
 -   Provides the high-level vision of the system, which includes workflow or value chain as well as hierarchy information.
 
-## <span>Usage</span>
+## Usage
 
      At Scoping
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [User eXperience (UX) Design Techniques](/concepts/ux/techniques)

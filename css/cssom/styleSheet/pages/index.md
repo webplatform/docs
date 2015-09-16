@@ -22,7 +22,7 @@ uri: css/cssom/styleSheet/pages
 
 Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.pages;
@@ -31,16 +31,16 @@ element.pages = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Although this collection is represented in the Cascading Style Sheets (CSS) object model, **@page** rules are not represented in the default print template for Windows Internet Explorer. The rules can be used by print templates developed for applications that host MSHTML.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `styleSheet`

@@ -10,17 +10,17 @@ tags:
 uri: javascript/Error/constructor
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the function that creates an Error.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     error.constructor
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the constructor property.
 
@@ -34,7 +34,7 @@ var x = new Error("This is an error");
  // Object is an error.
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required error is the name of an error object.
 

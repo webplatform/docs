@@ -21,7 +21,7 @@ uri: dom/Element/onerror
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onerror;
@@ -30,15 +30,15 @@ element.onerror = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When an error occurs, the current operation is stopped and the error is passed by the [**error**](/dom/Element/error) property. Displays the error message when a problem occurs and executes any error handling routine associated with the event.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

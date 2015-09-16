@@ -11,11 +11,11 @@ tags:
 uri: javascript/Date/setMilliseconds
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the milliseconds value in the Date object using local time.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -27,7 +27,7 @@ Sets the milliseconds value in the Date object using local time.
 **numMilli**
 :   Required. A numeric value equal to the millisecond value.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **setMilliseconds** method.
 
@@ -43,15 +43,15 @@ function SetMSecDemo(nmsec){
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 To set the milliseconds value using Universal Coordinated Time (UTC), use the **setUTCMilliseconds** method.
 
 If the value of numMilli is greater than 999 or is a negative number, the stored number of seconds (and minutes, hours, and so forth if necessary) is incremented an appropriate amount.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getMilliseconds Method (Date)](/javascript/Date/getMilliseconds)
 -   [getUTCMilliseconds Method (Date)](/javascript/Date/getUTCMilliseconds)

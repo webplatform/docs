@@ -20,32 +20,32 @@ tags:
 uri: apis/location/assign
 
 ---
-## <span>Summary</span>
+## Summary
 
 Navigate to a new page.
 
 Method of [apis/location](/apis/location)[apis/location](/apis/location)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = window.location.assign(url);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>url</span>
+### url
 
  Data-type
 :   String
 
  The new URL to navigate to.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
-## <span>Examples</span>
+## Examples
 
 Navigate to example.org.
 
@@ -59,7 +59,7 @@ The `assign` method is synonymous with replacing the `window.location` object wi
 window.location = "http://example.org/";
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Window Object 1.0](http://www.w3.org/TR/Window/)
 :   W3C Working Draft

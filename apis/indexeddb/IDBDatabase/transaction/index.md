@@ -23,28 +23,28 @@ tags:
 uri: apis/indexeddb/IDBDatabase/transaction
 
 ---
-## <span>Summary</span>
+## Summary
 
 Execute the steps for creating a transaction in a sychronous fashion.
 
 Method of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)[apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.transaction(storeNames, mode);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>storeNames</span>
+### storeNames
 
  Data-type
 :   Blob
 
  If specified, defines the names of the object stores included in the transaction. Use a **DOMString** to specify a single object store or an array of **DOMString** values to specify multiple object stores.
 
-### <span>mode</span>
+### mode
 
  Data-type
 :   Blob
@@ -63,15 +63,15 @@ Changes are allowed in this transaction.
 
 Objects in the database can be create
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This method can throw the following [**DOMException**](/dom/DOMException) exceptions:
 
@@ -133,8 +133,8 @@ This method can throw the following [**DOMException**](/dom/DOMException) except
 
   **Note**  As of Internet Explorer 10, the **code** property is deprecated in favor of the **name** property, which is preferred for standards compliance and future compatibility.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

@@ -22,7 +22,7 @@ todo_broken_links:
 uri: apis/appcache/ApplicationCache/swapCache
 
 ---
-## <span>Summary</span>
+## Summary
 
 Switches to the most recent application cache, if there is a newer one. If there isn't, throws an InvalidStateError exception.
 
@@ -32,17 +32,17 @@ The **updateready** event will fire before this method can be called. Once it fi
 
 Method of [apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)[apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  window.applicationCache.swapCache();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // Attempt to update the user's cache.
@@ -56,7 +56,7 @@ if (window.applicationCache.status === window.applicationCache.UPDATEREADY) {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      In order to swap an old cache out for a new one, call update first. When the status is in the UPDATEREADY state, calling swapCache will make the swap.
 
@@ -64,7 +64,7 @@ Calling **swapCache** will not update any content on your page. It will simply a
 
 **swapCache** does not cause previously-loaded resources to be reloaded; for example, images do not suddenly get reloaded, and style sheets and scripts do not get reparsed or reevaluated. The only change is that subsequent requests for cached resources will obtain the newer copies.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C ApplicationCache Specification](http://dev.w3.org/html5/spec/single-page.html#application-cache-api)
 :   W3C Editor's Draft

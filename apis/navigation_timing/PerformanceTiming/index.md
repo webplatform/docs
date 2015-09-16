@@ -13,11 +13,11 @@ tags:
 uri: 'apis/navigation timing/PerformanceTiming'
 
 ---
-## <span>Summary</span>
+## Summary
 
 An interface that provides Web applications with timing-related information.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -85,15 +85,15 @@ API Name
 [unloadEventStart](/apis/navigation_timing/PerformanceTiming/unloadEventStart)
 :   Returns the time immediately before the user agent starts the unload event of the previous document. If there is no previous document or the previous document has a different origin than the current document, returns zero.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 When a webpage is displayed in Windows Internet Explorer 9 mode, Windows Internet Explorer records timestamps that correspond to the time when various steps occurred during the process used to load a document. Each property of the **performanceTiming** object corresponds to one of these timestamps. This object is not supported for Metro style apps using JavaScript. The built-in performance marks occur in the following order:
 
@@ -121,7 +121,7 @@ When a webpage is displayed in Windows Internet Explorer 9 mode, Windows Intern
 
 The properties of the **performanceTiming** object represent the number of milliseconds that have elapsed between midnight January 1, 1970 and the time the measurement was recorded.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Navigation Timing Specification](http://w3c-test.org/webperf/specs/NavigationTiming/)
 :   W3C Editor's Draft

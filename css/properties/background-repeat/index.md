@@ -24,11 +24,11 @@ tags:
 uri: css/properties/background-repeat
 
 ---
-## <span>Summary</span>
+## Summary
 
 Background-repeat defines if and how background images will be repeated after they have been sized and positioned
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `repeat`
@@ -54,11 +54,11 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `background-repeat: <repeat-style>`
 
-## <span>Values</span>
+## Values
 
 \<repeat-style\>
 :   Keyword(s) indicating the repeat pattern.
@@ -76,7 +76,7 @@ Percentages
 `space`
 :   The image is repeated as often as will fit into the background area a whole number of times, and is spaced out so that the first and last ones touch the edges. **(CSS3)**
 
-## <span>Examples</span>
+## Examples
 
 The following examples use the **background-repeat** attribute and the **background-repeat** property to specify whether the background image is tiled.
 
@@ -109,7 +109,7 @@ this.style.backgroundRepeat='repeat'">
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/backgroundRepeat.htm)
 
-## <span>Usage</span>
+## Usage
 
      In CSS2.1, only one keyword is permitted, affecting both the horizontal and vertical axes.
 
@@ -117,7 +117,7 @@ In CSS3, one or two keywords are permitted. One keyword affects both axes in the
 
 If an element has multiple background images, the repeat pattern for each image can be set by assigning a comma-separated list of individual values. The values are applied to the background images in the same order as they are listed in the `background-image` property.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 3](http://www.w3.org/TR/css3-background/)
 :   Candidate Recommendation
@@ -128,11 +128,11 @@ If an element has multiple background images, the repeat pattern for each image 
 [CSS Level 1](http://www.w3.org/TR/REC-CSS1/#color-and-background-properties)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Background</span>
+#### Background
 
 -   [background](/css/cssom/properties/background)
 

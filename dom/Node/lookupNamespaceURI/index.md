@@ -25,28 +25,28 @@ tags:
 uri: dom/Node/lookupNamespaceURI
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the URI of the namespace associated with a namespace prefix, if any.
 
 Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var namespaceURI = node.lookupNamespaceURI(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>prefix</span>
+### prefix
 
  Data-type
 :   String
 
  The prefix, or null.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -54,7 +54,7 @@ The URI of the namespace for **prefix**. null if no namespace is found for **pre
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

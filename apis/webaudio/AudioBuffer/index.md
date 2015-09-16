@@ -10,11 +10,11 @@ tags:
 uri: apis/webaudio/AudioBuffer
 
 ---
-## <span>Summary</span>
+## Summary
 
 This interface represents a memory-resident audio asset, primarily for one-shot sounds and other short audio clips. Its format is non-interleaved IEEE 32-bit linear PCM with a nominal range of -1 -&gt; +1. It can contain one or more channels.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -31,7 +31,7 @@ API Name
 [sampleRate](/apis/webaudio/AudioBuffer/sampleRate)
 :   The sample rate, in samples per second, for the PCM audio data.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -39,11 +39,11 @@ API Name
 [getChannelData](/apis/webaudio/AudioBuffer/getChannelData)
 :   Returns the **Float32Array** representing the PCM audio data for the specific channel.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
 :   W3C Editor's Draft

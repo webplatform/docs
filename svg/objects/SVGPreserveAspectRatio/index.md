@@ -20,33 +20,33 @@ uri: svg/objects/SVGPreserveAspectRatio
 ---
 Inherits from [SVGElement](/svg/objects/SVGElement)[SVGElement](/svg/objects/SVGElement)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from SVGElement</span>
+## Inherited from SVGElement
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 
@@ -121,19 +121,19 @@ fill{{=}}'none' stroke{{=}}'blue'/>">
 </pre>
 [Scalable Vector Graphics (SVG) 1.0 Specification View live example]
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 In some cases, typically when you are using the [**viewBox**](/svg/properties/viewBox) attribute, you want the graphics to stretch to non-uniformly fill the entire viewport. In other cases, you want to use uniform scaling to preserve the aspect ratio of the graphics. The [**preserveAspectRatio**](/svg/properties/preserveAspectRatio) attribute indicates whether to force uniform scaling.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Coordinate Systems, Transformations and Units](http://go.microsoft.com/fwlink/p/?linkid=204735), Section 7.14.7
 
-### <span>Members</span>
+### Members
 
 The **SVGPreserveAspectRatio** object has these properties:
 

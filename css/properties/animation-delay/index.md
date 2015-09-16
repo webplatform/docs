@@ -24,11 +24,11 @@ tags:
 uri: css/properties/animation-delay
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines a length of time to elapse before an animation starts, allowing an animation to begin execution some time after it is applied.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0s`
@@ -54,18 +54,18 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `animation-delay: <time>`
 
-## <span>Values</span>
+## Values
 
 \<time\>
 :   Can be specified in seconds or milliseconds, e.g., **2s** or **150ms**. Can also be a comma-separated list of delays, e.g., **.25s, .5s, 1s**, where each delay is applied to the corresponding ordinal position value of the [animation-name](/css/properties/animation-name) property.
 
 *If the value is negative the animation will execute the moment it is applied, but will begin execution at the specified offset. That is, the animation appears to begin part-way through its cycle.*
 
-## <span>Examples</span>
+## Examples
 
 A delay of 5 seconds.
 
@@ -124,20 +124,20 @@ header {
 
 [View live example](http://code.webplatform.org/gist/7012307)
 
-## <span>Usage</span>
+## Usage
 
      *If animation-delay specifies more delays than there are values in animation-name, the excess delays are ignored.
 
 -   If `animation-delay` specifies fewer delays than there are values in `animation-name`, the list of delays is repeated as many times as needed to map each animation to a delay.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Animations](http://www.w3.org/TR/css3-animations/#animation-delay-property)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Making things move with CSS3 animations](/tutorials/css_animations)
 -   [@keyframes](/css/atrules/@keyframes)

@@ -10,17 +10,17 @@ tags:
 uri: javascript/Function/arguments
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the arguments for the currently executing Function object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     function.arguments
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **arguments** property:
 
@@ -50,15 +50,15 @@ function ArgTest(arg1, arg2){
  // Output: The individual arguments are: 1 2 hello
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The function argument is the name of the currently executing function, and can be omitted.
 
 This property allows a function to handle a variable number of arguments. The **length** property of the **arguments** object contains the number of arguments passed to the function. The individual arguments contained in the **arguments** object can be accessed in the same way array elements are accessed.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [arguments Object](/javascript/arguments)
 -   [function Statement](/javascript/statements/function)

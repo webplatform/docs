@@ -20,32 +20,32 @@ tags:
 uri: dom/DOMTokenList/add
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds one or more tokens to a DOMTokenList.
 
 Method of [dom/DOMTokenList](/dom/DOMTokenList)[dom/DOMTokenList](/dom/DOMTokenList)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.add(token);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>token</span>
+### token
 
  Data-type
 :   String
 
  The token to add to the DOMTokenList.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //adds an item to an element's classList (a DOMTokenList)
@@ -55,7 +55,7 @@ function elAddItem(elid,itemadd) {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C DOM4](http://www.w3.org/TR/dom/)
 :   Candidate Recommendation

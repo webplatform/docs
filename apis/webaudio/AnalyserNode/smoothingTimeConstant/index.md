@@ -20,24 +20,24 @@ tags:
 uri: apis/webaudio/AnalyserNode/smoothingTimeConstant
 
 ---
-## <span>Summary</span>
+## Summary
 
 A value from 0 to 1 representing the averaging constant with the last analysis frame. Default is 0.8.
 
 Property of [apis/webaudio/AnalyserNode](/apis/webaudio/AnalyserNode)[apis/webaudio/AnalyserNode](/apis/webaudio/AnalyserNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = AnalyserNode.smoothingTimeConstant;
 AnalyserNode.smoothingTimeConstant = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -45,7 +45,7 @@ var analyser = audioCtx.createAnalyser();
 analyser.smoothingTimeConstant = 1;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

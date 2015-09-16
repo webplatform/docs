@@ -25,13 +25,13 @@ tags:
 uri: dom/ValidityState/valueMissing
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns whether a value has not been entered in an input field that is required.
 
 Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/ValidityState)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/Vali
 var result = element.validity.valueMissing;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -47,7 +47,7 @@ Whether a value has not been entered in an input field that is required.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Living Standard

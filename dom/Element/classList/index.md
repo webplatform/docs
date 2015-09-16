@@ -24,13 +24,13 @@ tags:
 uri: dom/Element/classList
 
 ---
-## <span>Summary</span>
+## Summary
 
 Reflects the class attribute as an ordered list of the whitespace separated class names and has convenience methods for add, remove, contains and more.
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,15 +38,15 @@ Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 var classList = element.classList;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 A DOMTokenList representing the class names of the element.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [WHATWG DOM](http://dom.spec.whatwg.org/)
 :   Living Standard
@@ -54,8 +54,8 @@ A DOMTokenList representing the class names of the element.
 [DOM4](http://www.w3.org/TR/dom/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLElement`

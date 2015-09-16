@@ -17,18 +17,18 @@ tags:
 uri: html/elements/hr
 
 ---
-## <span>Summary</span>
+## Summary
 
 The hr element represents a paragraph-level thematic break in text.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLHRElement](/dom/HTMLHRElement)
 
 The **hr** element represents a paragraph-level thematic break. That sounds kinda strange, I know, but a good example what that means comes from the world of fiction where the text in a given chapter might shift from one location to another or from one period of time to another. The **hr** is a great way to indicate a shift like that.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **hr** element to create a paragraph-level thematic break.
 
@@ -38,22 +38,22 @@ This example uses the **hr** element to create a paragraph-level thematic break.
 <p>This paragraph is part of a section concerning Topic B.</p>
 ```
 
-## <span>Usage</span>
+## Usage
 
      The hr element is a “replaced element” which means it is comprised of a single tag with no content. You can apply attributes (e.g. class) to the tag, but it must not contain text.
 
 As a replaced element, the **hr** will be automatically closed by browsers, but you can also explicitly close the element with a trailing slash: **\<hr/\>**
 
-## <span>Notes</span>
+## Notes
 
 In HTML 4.01, the **hr** element represented a horizontal rule. And while the **hr** element may still be displayed as a horizontal rule in visual browsers, it is now defined in semantic terms, rather than presentational ones.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 15.3
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-hr-element)
 :   W3C Working Draft
@@ -64,11 +64,11 @@ In HTML 4.01, the **hr** element represented a horizontal rule. And while the **
 [HTML 4.01](http://www.w3.org/TR/html401/present/graphics.html#edef-HR)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -208,7 +208,7 @@ In HTML 4.01, the **hr** element represented a horizontal rule. And while the **
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

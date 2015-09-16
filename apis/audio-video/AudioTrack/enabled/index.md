@@ -25,24 +25,24 @@ tags:
 uri: apis/audio-video/AudioTrack/enabled
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns true if the given track is active, and false otherwise. Can be set, to change whether the track is enabled or not. If multiple audio tracks are enabled simultaneously, they are mixed.
 
 Property of [apis/audio-video/AudioTrack](/apis/audio-video/AudioTrack)[apis/audio-video/AudioTrack](/apis/audio-video/AudioTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = AudioTrack.enabled;
 AudioTrack.enabled = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 (function () {
@@ -88,16 +88,16 @@ Returns an object of type BooleanBoolean
 
 [View live example](http://code.webplatform.org/gist/459f1a0ea9f70009b6fe)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Audio</span>
+#### Audio
 
 -   [audio-video](/apis/audio-video)
 
@@ -119,7 +119,7 @@ Returns an object of type BooleanBoolean
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-#### <span>Video</span>
+#### Video
 
 -   [audio-video](/apis/audio-video)
 

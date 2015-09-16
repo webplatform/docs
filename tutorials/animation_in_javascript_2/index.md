@@ -13,19 +13,19 @@ uri: 'tutorials/animation in javascript 2'
 ---
 **Merge Candidate**: This page is a candidate for merge with the following pages: [tutorials/animation\_in\_javascript](/tutorials/animation_in_javascript)
 
-## <span>Summary</span>
+## Summary
 
 Javascript can be used to create animation effects on a web page as simple as highlighting new content in yellow and then fading it back to normal, creating transitions, or moving elements on the page (think popup windows). Creative use of techniques and tools such as common Javascript libraries allows us to create user interfaces that are unobtrusive and responsive to user behavior. We begin by using JavaScript's setInterval() function to create our own animations by manipulating DOM elements' CSS properties to create effects. Later, we illustrate the use of code libraries like jQuery to create more complex animations or create simple effects more easily than using by Javascript alone.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Introduction</span>
+## Introduction
 
 In this [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum) article, I will look at the art of creating animations using JavaScript — animation is often used to add to the user experience for people using browsers that support it. Common uses are: smoothly expanding and collapsing panels, progress bars, and visual feedback in forms.
 
 As anyone who's seen a cartoon or a flickbook knows, animation is actually done in a series of small steps that, when viewed in quick succession, make it look like something is moving. Animation is a powerful technique; it's good at grabbing attention. Its weakness is that animations grab attention whether you want them to or not. Animated effects can make a web app feel like a more consistent experience, but they're like hot chili: don't add too many of them.
 
-## <span>A simple example: yellow fade technique</span>
+## A simple example: yellow fade technique
 
 One common use of animation is the [Yellow fade technique](http://www.37signals.com/svn/archives/000558.php), where a changed area on a page is given a yellow background color which then fades back to the original color. It's a nice, unobtrusive way of drawing attention to the fact that something has changed without obstructing what the user is doing (e.g. indicate that more content has appeared, or provide form submission feedback). [Take a look at a yellow fade example](http://dev.opera.com/articles/view/javascript-animation/yft_pure_js.html) to see how it looks.
 
@@ -105,7 +105,7 @@ or a "red fade", which sets the element to red and then fades to blue (the eleme
 
 This example changed the background color, but it could be anything that's changed: foreground color (for eye-pulsing 1960s psychedelic text effects), opacity (to make something fade out or fade in), position (to make an element move around the page), height and width (to grow an element, or shrink it down to nothing before it disappears).
 
-## <span>Animation with JavaScript libraries</span>
+## Animation with JavaScript libraries
 
 Animation is a commonly used effect, and so most JavaScript libraries have some sort of support for it, including in-built support for common animations. For example, [jQuery](http://jquery.com/) has built-in support for making an element fade to transparent:
 
@@ -127,7 +127,7 @@ If you've already used a JavaScript library in your code, you'll already know th
 
 You can find more resources about using the different JavaScript libraries at the dev.opera.com [Introduction to JavaScript toolkits](http://dev.opera.com/articles/view/introduction-to-javascript-toolkits/).
 
-## <span>A more complex example: moving and changing size</span>
+## A more complex example: moving and changing size
 
 While the Yellow Fade Technique does demonstrate animation, it's a bit, well, boring. When most people think of animation they think of *movement*. Wile E. Coyote would have been way less amusing if all he ever did was change color.
 
@@ -175,7 +175,7 @@ Restoring the message when clicked on again just requires another `.animate()` c
 
 and with a little bit of logic to dictate whether the message is currently showing or shrunk (so you know which animation to run), and some CSS to describe the initial style of the message (large, green, horizontally centred), that's all that's needed. A mere thirty lines of script. This is why libraries are a good idea!
 
-## <span>CSS Transitions</span>
+## CSS Transitions
 
 Finally, some (not all) animations can actually be set up without any JavaScript at all! Safari and other Webkit-based browsers, and the upcoming Firefox 3.1, can perform transitions from one CSS value to another smoothly without using any JavaScript. This code:
 
@@ -184,22 +184,22 @@ Finally, some (not all) animations can actually be set up without any JavaScript
 
 will make the `div` smoothly fade out over one second in a supporting browser when it is hovered over. These CSS transitions are very new, however, and are not supported in anything but the most up-to-date browsers, so if you want your animation to work for most of your public then you'll need to use DOM scripting to do it.
 
-## <span>Summary</span>
+## Summary
 
 This concludes our look at animating web page functionality using JavaScript - I've taken you through some animation examples created from first principles using the `setTimeout` and `setInterval` functions, and then looked at how you can use JavaScript libraries to create animations more quickly.
 
-## <span>Exercise questions</span>
+## Exercise questions
 
 1.  What's the difference between `setTimeout` and `setInterval`?
 2.  If `setInterval` didn't exist, how could you emulate it?
 3.  How would you make an element fade from fully visible to fully invisible in 20 steps over the course of 1.5 seconds?
 4.  How would you make an element fade from fully visible to fully invisible *and then back to visible again* in 20 steps over the course of 1.5 seconds?
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -249,7 +249,7 @@ This concludes our look at animating web page functionality using JavaScript - I
 
 -   **JavaScript animation**
 
-#### <span>Background</span>
+#### Background
 
 -   [background](/css/cssom/properties/background)
 
@@ -279,7 +279,7 @@ This concludes our look at animating web page functionality using JavaScript - I
 
 -   **JavaScript animation**
 
-#### <span>CSS Attributes</span>
+#### CSS Attributes
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -317,7 +317,7 @@ This concludes our look at animating web page functionality using JavaScript - I
 
 -   **JavaScript animation**
 
-#### <span>Responsive Web Design</span>
+#### Responsive Web Design
 
 -   [break-before](/css/properties/break-before)
 
@@ -325,7 +325,7 @@ This concludes our look at animating web page functionality using JavaScript - I
 
 -   **JavaScript animation**
 
-#### <span>Transforms</span>
+#### Transforms
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -359,7 +359,7 @@ This concludes our look at animating web page functionality using JavaScript - I
 
 -   **JavaScript animation**
 
-#### <span>Transitions</span>
+#### Transitions
 
 -   [cubic-bezier](/css/functions/cubic-bezier)
 
@@ -373,7 +373,7 @@ This concludes our look at animating web page functionality using JavaScript - I
 
 -   **JavaScript animation**
 
-#### <span>Visual Effects</span>
+#### Visual Effects
 
 -   [color](/css/color)
 

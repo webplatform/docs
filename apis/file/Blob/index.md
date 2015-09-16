@@ -13,19 +13,19 @@ tags:
 uri: apis/file/Blob
 
 ---
-## <span>Summary</span>
+## Summary
 
 The Blob object represents immutable raw data. It provides a method to slice data objects between ranges of bytes into further chunks of raw data.
 
-## <span>Overview</span>
+## Overview
 
 **Blob** provides an attribute representing the size of the chunk of data. The [**File**](/apis/file/File) object inherits from the **Blob** object. **Blob** objects can be read asynchronously only on the main thread via [**FileReader**](/apis/file/FileReader) objects, but metadata access via attributes such as **size** and **type** return synchronously (this trade-off is based on the underlying assumption that metadata access will not significantly block or disrupt the browser's main thread, whereas reading **Blob** data will).
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -36,11 +36,11 @@ API Name
 [slice](/apis/file/Blob/slice)
 :   Returns a new Blob object with bytes ranging from its optional start parameter up to but not including its optional end parameter.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 // Example for creating a URL to a typed array using a blob
 
@@ -59,13 +59,13 @@ var aFileParts = ['<a id="a"><b id="b">hey!</b></a>'];
 var oMyBlob = new Blob(aFileParts, { "type" : "text/xml" }); // the blob
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [Saving files locally using Blob and msSaveBlob](http://msdn.microsoft.com/en-us/library/ie/hh779016(v=vs.85).aspx)

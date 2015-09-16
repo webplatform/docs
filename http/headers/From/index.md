@@ -10,13 +10,13 @@ tags:
 uri: http/headers/From
 
 ---
-## <span>Summary</span>
+## Summary
 
 Contains an Internet email address for a human user who controls the requesting user agent.
 
 Primarily intended for use by robots and spiders so their owners may be contacted if so desired.
 
-## <span>Overview table</span>
+## Overview table
 
 Direction
 :   Request
@@ -24,18 +24,18 @@ Direction
 Features
 :
 
-## <span>Syntax</span>
+## Syntax
 
     From    = mailbox
     mailbox = <mailbox, see [RFC5322], Section 3.4>
 
-## <span>Examples</span>
+## Examples
 
 ```
 From: webmaster@example.org
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTTP/1.1 Semantics and Content](http://tools.ietf.org/html/rfc7231#section-5.5.1)
 :

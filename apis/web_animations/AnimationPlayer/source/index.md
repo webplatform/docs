@@ -21,30 +21,30 @@ tags:
 uri: 'apis/web animations/AnimationPlayer/source'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The source content associated with this player. Setting this attribute updates the object’s source content using the procedure to set the source content of a player.
 
 Property of [apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)[apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.source;
 element.source = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type AnimationNodeAnimationNode
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   [Web Animations API](/apis/web_animations)
 

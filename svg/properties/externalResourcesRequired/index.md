@@ -11,21 +11,21 @@ tags:
 uri: svg/properties/externalResourcesRequired
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If an external resource is not available, progressive rendering is suspended and the [**onload**](/svg/events/load) event does not occur. If a time-out event occurs with the Scalable Vector Graphics (SVG) document while loading a required resource, the document enters an error state that remains until all required resources are available.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.27
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGClipPathElement**](/svg/elements/clipPath)
 -   [**SVGPatternElement**](/svg/elements/patterrn)

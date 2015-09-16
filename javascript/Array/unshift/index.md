@@ -11,11 +11,11 @@ tags:
 uri: javascript/Array/unshift
 
 ---
-## <span>Summary</span>
+## Summary
 
 Inserts new elements at the start of an array.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -24,7 +24,7 @@ Inserts new elements at the start of an array.
 **item1, item2,. . ., itemN**
 :   Optional. Elements to insert at the start of the **Array**.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the unshift method.
 
@@ -37,13 +37,13 @@ var ar = new Array();
  // Output: 12,13,14,10,11
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **unshift** method inserts elements into the start of an array, so they appear in the same order in which they appear in the argument list.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.13 Array.prototype.unshift ( [ item1 [ , item2 [ , …](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.13) ] ] )] ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

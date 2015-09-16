@@ -22,7 +22,7 @@ uri: dom/HTMLElement/value
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.value;
@@ -31,21 +31,21 @@ element.value = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 8 or later. In IE8 Standards mode, the **value** property is correctly reported as a canonical attribute name. For example, `<input type="text" readonly>` and `<input type="text" readonly="readonly">` would both set the input text field to read-only. In IE8 mode, the value is evaluated as a canonical value, `"readonly"`. In earlier document compatibility modes, it is evaluated as a Boolean value, true. For more information, see Attribute Differences in Internet Explorer 8. **value** was introduced in Microsoft Internet Explorer 6.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `attributes`
 -   `nodeValue`

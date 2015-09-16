@@ -23,13 +23,13 @@ uri: dom/Selection/collapseToStart
 
 Method of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.collapseToStart();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -37,7 +37,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 The following code example puts the caret or insertion point at the beginning of the selected text.
 
@@ -67,14 +67,14 @@ The following code example puts the caret or insertion point at the beginning of
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Raises an INVALID\_STATE [**DOMException**](/dom/DOMException) if there are no Ranges in the selection.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1

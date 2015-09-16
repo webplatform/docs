@@ -11,11 +11,11 @@ tags:
 uri: javascript/Number/toString
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a string representation of a number.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -24,13 +24,13 @@ Returns a string representation of a number.
 **radix**
 :   Optional. The base number system to convert to given as 2 - 36, inclusive. Defaults to 10.
 
-## <span>Return Value</span>
+## Return Value
 
 String representing the number value in the given base number system.
 
 Negative numbers are simply preceded by the `-` sign, i.e. there is no conversion to a system like the [Two's Complement](http://en.wikipedia.org/wiki/Two%27s_complement) for binary.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **toString** method with a number.
 
@@ -74,25 +74,25 @@ String(mph_number) === mph_number.toString(10);
 (mph_number + "") === mph_number.toString(10);
 ```
 
-## <span>Remarks</span>
+## Remarks
 
-### <span>Throws</span>
+### Throws
 
 [`RangeError`](/javascript/Error) when a *radix* outside the bounds of 2 - 36 (inclusive) was given.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [toExponential Method (Number)](/javascript/Number/toExponential)
 -   [toFixed Method (Number)](/javascript/Number/toFixed)
 -   [toPrecision Method (Number)](/javascript/Number/toPrecision)
 
-### <span>External resources</span>
+### External resources
 
 -   [toString(), by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)
 
-### <span>Specification</span>
+### Specification
 
 [15.7.4.2 Number.prototype.toString(radix)](http://www.ecma-international.org/ecma-262/5.1/#sec-15.7.4.2)
 

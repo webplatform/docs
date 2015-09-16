@@ -20,20 +20,20 @@ tags:
 uri: 'apis/web animations/AnimationPlayer/playbackRate'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The playback rate of this player. Setting this attribute follows the procedure to update the player playback rate of this object to the new value.
 
 Property of [apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)[apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.playbackRate;
 element.playbackRate = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type doubledouble
 

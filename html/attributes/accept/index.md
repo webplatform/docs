@@ -14,7 +14,7 @@ tags:
 uri: html/attributes/accept
 
 ---
-## <span>Summary</span>
+## Summary
 
 This attribute supplies browsers with a hint about what filetypes its element will accept.
 
@@ -40,7 +40,7 @@ Accepts a comma separated list of file types. Valid file types can be any of the
 
 Duplicates are not allowed (case insensitive).
 
-## <span>Examples</span>
+## Examples
 
 Indicates that audio files are accepted.
 
@@ -54,22 +54,22 @@ Indicates that both PNG and GIF file formats are accepted.
 <input type="file" accept="image/png, image/gif" />
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The information from the list can be used to filter out nonconforming files when prompting a user to select files to be sent to the server using the **\<INPUT\> element with type="file"**. Examples of content types include "text/html", "image/png", "image/gif", "video/mpeg", "audio/basic", "text/tcl", "text/javascript", and "text/vbscript". For the current list of registered MIME types, see [MIME Media Types](http://go.microsoft.com/fwlink/p/?linkid=203647). There is no functionality implemented for this property unless defined by the author. **accept** was introduced in Microsoft Internet Explorer 6
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/forms.html#attr-input-accept)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -209,10 +209,10 @@ The information from the list can be used to filter out nonconforming files when
 
 -   [time](/html/elements/time)
 
-### <span>External resources</span>
+### External resources
 
 -   <http://www.w3.org/TR/html5/forms.html#attr-input-accept>
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `input`

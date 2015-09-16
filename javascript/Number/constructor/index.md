@@ -10,17 +10,17 @@ tags:
 uri: javascript/Number/constructor
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the function that creates a Number.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     number.constructor
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the constructor property.
 
@@ -36,7 +36,7 @@ var num = new Number();
  // Object is a Number.
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required number is the name of a string.
 

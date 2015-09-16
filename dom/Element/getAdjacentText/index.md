@@ -24,21 +24,21 @@ tags:
 uri: dom/Element/getAdjacentText
 
 ---
-## <span>Summary</span>
+## Summary
 
 Non standard. Gets a text from a given location around the edges of the element.
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var text = element.getAdjacentText(where);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>where</span>
+### where
 
  Data-type
 :   String
@@ -61,13 +61,13 @@ Text is returned immediately before the end of the element but after all other c
 
 Text is returned immediately after the end of the element.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The first adjacent text.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **getAdjacentText** method to find specific text.
 

@@ -12,7 +12,7 @@ uri: dom/Element/resize
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -68,9 +68,9 @@ Default action
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **onresize** event fires for block and inline objects with layout, even if document or CSS (cascading style sheets) property values are changed. Objects have layout when measurements such as the [**height**](/css/properties/height) and [**width**](/css/properties/width) attributes are set, or when the [**position**](/css/properties/position) of the object is set. Intrinsic objects, such as **button**, and windowed objects, such as **window** and **iframe**, fire as expected. This event does not fire for files with embedded controls. Resizing HTML applications also fires the **onresize** event. No default action. To invoke this event, do one of the following:
 
@@ -103,17 +103,17 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-#### <span>window.onresize events in Metro style apps using JavaScript</span>
+#### window.onresize events in Metro style apps using JavaScript
 
 In Metro style apps using JavaScript, the **window.onresize** event fires when the screen keyboard is shown and when the app's viewport is resized. You can use the **window.innerHeight**, **window.innerWidth**, **window.pageXOffset**, and **window.pageYOffset** style properties to determine the size and location of the new viewport.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

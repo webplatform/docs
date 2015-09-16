@@ -14,20 +14,20 @@ uri: dom/external
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 In a hosting scenario, the object model is defined by the application hosting the Internet Explorer components (refer to the hosting application for documentation). For more information about how to implement extensions to the Dynamic HTML (DHTML) object model, see About the Browser. This object is not supported in HTML Applications.

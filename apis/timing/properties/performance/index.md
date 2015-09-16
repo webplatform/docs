@@ -27,7 +27,7 @@ uri: apis/timing/properties/performance
 
 Property of [apis/timing/objects/PerformanceEntry](/apis/timing/objects/PerformanceEntry)[apis/timing/objects/PerformanceEntry](/apis/timing/objects/PerformanceEntry)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.performance;
@@ -36,9 +36,9 @@ element.performance = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **performance** property returns a hosting area for performance timing objects. To create the hosting object, use the **window.performance** command. The hosting object has three attributes, which create performance timing objects:
 
@@ -46,14 +46,14 @@ The **performance** property returns a hosting area for performance timing objec
 -   [**navigation**](/w/index.php?title=apis/timing/properties/navigation&action=edit&redlink=1)
 -   [**memory**](/apis/timing/properties/memory)
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Navigation Timing](http://go.microsoft.com/fwlink/p/?linkid=210425), Section 4.4
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Window`

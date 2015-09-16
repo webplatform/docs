@@ -10,11 +10,11 @@ tags:
 uri: javascript/arguments
 
 ---
-## <span>Summary</span>
+## Summary
 
 An object representing the arguments to the currently executing function, and the functions that called it.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ An object representing the arguments to the currently executing function, and th
 **n**
 :   Required. The zero-based index to argument values passed to the Function object.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **arguments** object.
 
@@ -58,13 +58,13 @@ function ArgTest(a, b)
  // The individual arguments are: 1 2 hello Tues Jan 8 08:27:09 PST 20xx
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 You cannot explicitly create an **arguments** object. The **arguments** object only becomes available when a function begins execution. The **arguments** object of the function is not an array, but the individual arguments are accessed the same way array elements are accessed. The index n is actually a reference to one of the **0** n properties of the **arguments** object.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [0...n Properties (arguments)](/javascript/arguments/0_n_Properties)
 -   [callee Property (arguments)](/javascript/arguments/callee)

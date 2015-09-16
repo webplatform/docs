@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/statements/try catch finally'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets up blocks of code in which errors that are thrown in one block are handled in another. Errors that are thrown inside the try block are caught in the catch block. JavaScript.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -38,7 +38,7 @@ Sets up blocks of code in which errors that are thrown in one block are handled 
 **finallyStatements**
 :   Optional. Statements that are unconditionally executed after all other error processing has occurred.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 try {
@@ -53,7 +53,7 @@ console.log("This code runs!");
 // This runs because the error was successfully caught
 ```
 
-## <span>Usage</span>
+## Usage
 
      The try...catch...finally statement provides a way to handle some or all of the errors that may occur in a given block of code, while still running code. If errors occur that are not handled, JavaScript provides the normal error message.
 
@@ -63,13 +63,13 @@ You can pass the error up to the next level by using the throw statement to re-t
 
 After all the statements in the try block have been executed and error handling has been done in the catch block, the statements in the finally block are executed, whether or not an error was handled. The code in the finally block is guaranteed to run unless an unhandled error occurs (for example, a run-time error inside the **catch** block).
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [throw Statement](/javascript/statements/throw)
 
-### <span>Specification</span>
+### Specification
 
 -   [ECMAScript 5.1 (ECMA-262) - The try statement](http://www.ecma-international.org/ecma-262/5.1/#sec-12.14)
 

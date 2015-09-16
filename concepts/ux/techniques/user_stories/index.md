@@ -11,29 +11,29 @@ tags:
 uri: 'concepts/ux/techniques/user stories'
 
 ---
-## <span>Summary</span>
+## Summary
 
 A User eXperience (UX) design technique
 
-### <span>What it is</span>
+### What it is
 
 Software system requirement formulated in one or two sentences in everyday or business language that makes explicit the user's need.
 
-### <span>Who does it</span>
+### Who does it
 
 The whole project team
 
-### <span>Key benefits</span>
+### Key benefits
 
 -   Provides a thinking template, token for a conversation
 -   Description of why the product needs to do what it does
 
-## <span>Usage</span>
+## Usage
 
      At Scoping
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [User eXperience (UX) Design Techniques](/concepts/ux/techniques)

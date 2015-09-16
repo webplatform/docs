@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/fromCharCode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a string from a number of Unicode character values.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Returns a string from a number of Unicode character values.
 **code1 , . . . , codeN**
 :   Optional. A series of Unicode character values to convert to a string. If no arguments are supplied, the result is the empty string.
 
-## <span>Examples</span>
+## Examples
 
 You call this function on the String object rather than on a string instance.
 
@@ -39,9 +39,9 @@ document.write(test);
 // Output: plain
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [charCodeAt Method (String)](/javascript/String/charCodeAt)
 

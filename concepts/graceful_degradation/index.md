@@ -10,7 +10,7 @@ tags:
 uri: 'concepts/graceful degradation'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Graceful degradation, also known as Fault tolerance is a concept of building a web site or application so it provides a good level of user experience in modern browsers.
 
@@ -22,7 +22,7 @@ Graceful degradation, also known as Fault tolerance is a concept of building a w
 
 You start creating your website or web-application with the use of features that are available in the latest generation of modern browsers. Thereafter, have a look on older browsers and systems and start creating fallbacks by using [polyfills](/concepts/polyfill) or other workarounds.
 
-## <span>Examples</span>
+## Examples
 
 **Definition of Done:** Create a videoplayer that is working on IE6 up to IE10.
 
@@ -43,9 +43,9 @@ Cause you trust the approach of GD, you prefer the HTML5 `<video>` tag over Flas
 
 </pre>
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [W3C: Graceful degredation versus progressive enhancement](http://www.w3.org/wiki/Graceful_degredation_versus_progressive_enhancement)
 -   [Wikipedia: Fault tolerance](http://en.wikipedia.org/wiki/Fault_tolerance)

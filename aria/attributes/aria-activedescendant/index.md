@@ -30,9 +30,9 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 <table class="wikitable">
 <tr>
@@ -63,14 +63,14 @@ textbox
 
 The container element should change the designated descendant during a [**keypress**](/w/index.php?title=dom/events/keypress&action=edit&redlink=1) event. The container should also ensure that the current child has a style that visibly shows it is active, such as an outline or different background color. **Note**  For cross-browser compatibility, always use the WAI-ARIA attribute syntax to access and modify ARIA properties, for example `object.setAttribute("aria-valuenow", newValue)`.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Accessible Rich Internet Applications (WAI-ARIA) 1.0](http://go.microsoft.com/fwlink/p/?linkid=203793), Section 6.6
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Accessible Rich Internet Applications (ARIA)`

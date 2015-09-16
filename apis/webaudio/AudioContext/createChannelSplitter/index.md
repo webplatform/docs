@@ -20,21 +20,21 @@ tags:
 uri: apis/webaudio/AudioContext/createChannelSplitter
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a ChannelSplitterNode representing a channel splitter. An exception will be thrown for invalid parameter values.
 
 Method of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = AudioContext.createChannelSplitter(numberOfInputs);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>numberOfInputs</span>
+### numberOfInputs
 
  Data-type
 :   unsigned long
@@ -43,20 +43,20 @@ var  = AudioContext.createChannelSplitter(numberOfInputs);
 
 Determines the number of inputs. Values of up to 32 must be supported. If not specified, then 6 will be used.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 ChannelSplitterNode
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
 var splitter = audioCtx.createChannelSplitter(2);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

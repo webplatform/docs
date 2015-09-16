@@ -20,49 +20,49 @@ tags:
 uri: dom/HTMLSelectElement/add
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds an option element to the select element.
 
 Method of [dom/HTMLSelectElement](/dom/HTMLSelectElement)[dom/HTMLSelectElement](/dom/HTMLSelectElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  select.add(element, beforeElement);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>element</span>
+### element
 
  Data-type
 :   DOM Node
 
  The [option](/dom/HTMLOptionElement) element to add.
 
-### <span>beforeElement</span>
+### beforeElement
 
  Data-type
 :   DOM Node
 
  The element before which the new option will be placed. If no value is given, the method places the element at the end of the collection.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      This method adds an option element to a select block.
 
-## <span>Notes</span>
+## Notes
 
 Before you can add an element to a collection, you must create it first by using the [**createElement**](/dom/Document/createElement) method.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 HTML](http://www.w3.org/TR/DOM-Level-2-HTML/)
 :   Recommendation

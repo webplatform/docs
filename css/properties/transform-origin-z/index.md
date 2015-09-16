@@ -15,11 +15,11 @@ tags:
 uri: css/properties/transform-origin-z
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property allows you to define the relative position of the origin of the transformation grid along the z-axis.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
@@ -42,11 +42,11 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `transform-origin-z: length`
 
-## <span>Values</span>
+## Values
 
 length
 :   A floating-point number, followed by a unit of measurement.
@@ -55,15 +55,15 @@ Units of measurement may be absolute (`cm`, `mm`, `in`, `pt`, or `pc`) or relati
 
 **Needs Examples**: This section should include examples.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Transforms Module, Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223145), Section 8
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Transforms</span>
+#### Transforms
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -97,7 +97,7 @@ Units of measurement may be absolute (`cm`, `mm`, `in`, `pt`, or `pc`) or relati
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

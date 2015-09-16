@@ -10,11 +10,11 @@ tags:
 uri: apis/gamepad/Gamepad
 
 ---
-## <span>Summary</span>
+## Summary
 
 This object defines an individual gamepad device. Data is retrieved via the DOM Navigator object's getGamepads() method.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -34,15 +34,15 @@ API Name
 [timestamp](/apis/gamepad/Gamepad/timestamp)
 :   A timestamp indicating the last time the data for this gamepad was updated.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Gamepad Specification](https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html)
 :   W3C Working Draft

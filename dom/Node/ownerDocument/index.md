@@ -23,13 +23,13 @@ tags:
 uri: dom/Node/ownerDocument
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the document object associated with the node.
 
 Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 var doc = element.ownerDocument;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -45,7 +45,7 @@ The document Node of the web page or iframe or frame.
 
 The document object returned by this property is the main object with which all the child nodes in the actual HTML document are created. If this property is used on a node that is itself a document, the result is null.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 // given a node "p", get the top-level HTML child
@@ -57,21 +57,21 @@ var html = doc.documentElement;
 alert(html.outerHTML);
 ```
 
-## <span>Usage</span>
+## Usage
 
      Used to build the DOM tree of documents that contain <iframe>, <frame> and <frameset> elements.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **ownerDocument** is the [Document](/dom/Document) object that is used to create new nodes. This property returns null when the node is a [Document](/dom/Document). **ownerDocument** was introduced in Microsoft Internet Explorer 6.
 
-### <span>Syntax</span>
+### Syntax
 
 var doc=element.ownerDocument;
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Core](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#node-ownerDoc)
 :   Recommendation

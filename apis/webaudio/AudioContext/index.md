@@ -10,11 +10,11 @@ tags:
 uri: apis/webaudio/AudioContext
 
 ---
-## <span>Summary</span>
+## Summary
 
 The AudioContext represents a set of AudioNode objects and their connections. It allows for arbitrary routing of signals to the AudioDestinationNode (what the user ultimately hears). Nodes are created from the context and are then connected together. In most use cases, only a single AudioContext is used per document.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -36,7 +36,7 @@ API Name
 [sampleRate](/apis/webaudio/AudioContext/sampleRate)
 :   The sample rate, in sample-frames per second, at which the AudioContext handles audio. It is assumed that all [AudioNodes](/apis/webaudio/AudioNode) in the context run at this rate. In making this assumption, sample-rate converters or *varispeed* processors are not supported in real-time processing.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -99,11 +99,11 @@ API Name
 
     The decodeAudioData() method is preferred over the [createBuffer()](/apis/webaudio/AudioContext/createBuffer) from ArrayBuffer method because it is asynchronous and does not block the main JavaScript thread.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
 :   W3C Editor's Draft

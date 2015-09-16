@@ -32,7 +32,7 @@ Internationalization topics related to the `content` element:
 -   [Changing to UTF-8](http://www.w3.org/International/techniques/authoring-html#changing)
 -   [Declaring the character encoding for HTML](http://www.w3.org/International/techniques/authoring-html#indoc)
 
-## <span>Examples</span>
+## Examples
 
 This example causes the browser to reload the document every two seconds.
 
@@ -60,9 +60,9 @@ This example tells Internet Explorer to display a document in IE9 mode, if possi
 <meta http-equiv="X-UA-Compatible" content="IE=9">
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Developers using the [**httpEquiv**](/html/attributes/httpEquiv) and **content** attributes to refresh documents from alternate URLs should treat the value of **content** as untrusted data. For more information, please see Security Considerations: Dynamic HTML.
 
@@ -70,16 +70,16 @@ As of Internet Explorer 8, the [**httpEquiv**](/html/attributes/httpEquiv) attr
 
 {
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 7.4.4
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `httpEquiv`

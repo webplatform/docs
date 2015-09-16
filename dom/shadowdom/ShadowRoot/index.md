@@ -11,11 +11,11 @@ tags:
 uri: dom/shadowdom/ShadowRoot
 
 ---
-## <span>Summary</span>
+## Summary
 
 The ShadowRoot object is the point of entry to a shadow tree, which provides functional encapsulation of DOM objects within an established document.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -35,7 +35,7 @@ API Name
 [styleSheets](/dom/shadowdom/ShadowRoot/styleSheets)
 :   Represents the shadow root style sheets.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -64,20 +64,20 @@ API Name
 [removeStyleSheet](/dom/shadowdom/ShadowRoot/removeStyleSheet)
 :   Removes a style sheet from the ShadowRoot.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Shadow DOM](https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html#dfn-shadow-root)
 :   Editor's Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Web Components</span>
+#### Web Components
 
 -   [register](/dom/Document/register)
 

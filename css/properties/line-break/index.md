@@ -20,11 +20,11 @@ tags:
 uri: css/properties/line-break
 
 ---
-## <span>Summary</span>
+## Summary
 
 Deprecated. Gets or sets line-breaking rules for text in selected languages such as Japanese, Chinese, and Korean.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -47,9 +47,9 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 normal
 :   Default. Normal line-breaking mode is applied.
@@ -57,17 +57,17 @@ normal
 strict
 :   Stricter line-breaking rules are enforced.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This property is deprecated. It is replaced by the [**-ms-word-break**](/css/properties/word-break) property starting in Windows Internet Explorer 7.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -147,7 +147,7 @@ This property is deprecated. It is replaced by the [**-ms-word-break**](/css/pro
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

@@ -27,11 +27,11 @@ todo_broken_links:
 uri: css/properties/background-size
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the size of the background images.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -57,7 +57,7 @@ Animatable
 Percentages
 :   see text
 
-## <span>Syntax</span>
+## Syntax
 
 -   `background-size: auto`
 -   `background-size: contain`
@@ -65,7 +65,7 @@ Percentages
 -   `background-size: length`
 -   `background-size: percentage`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Default. See Remarks.
@@ -84,7 +84,7 @@ For more information about the supported length units, see the CSS Values and Un
 percentage
 :   An integer, followed by a percent (%). A percentage value is relative to the background positioning area.
 
-## <span>Examples</span>
+## Examples
 
 Basic list of syntax examples for background-size.
 
@@ -180,22 +180,22 @@ div {
 
 [View live example](http://jsbin.com/ejulex/2/edit)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 An `auto` value for one dimension is resolved by using the image's intrinsic ratio and the size of the other dimension. If either of these values is not available, the image's intrinsic size is used. If the image's intrinsic size is not available, it is assigned the value of 100%. If both values are `auto`, use the intrinsic width, height, or both, of the image. If the image has neither an intrinsic width nor an intrinsic height, its size is determined as for `contain`. Negative values are not allowed. In Windows Internet Explorer 9, the background of a box can have multiple layers. The number of layers is determined by the number of comma-separated values in the [**background-image**](/css/properties/background-image) property. Each of the images is sized, positioned, and tiled according to the corresponding value in the other background properties ([**background-attachment**](/css/properties/background-attachment), [**background-clip**](/css/properties/background-clip), [**background-origin**](/css/properties/background-origin), [**background-position**](/css/properties/background-position), [**background-repeat**](/css/properties/background-repeat), and **background-size**). The first image in the list is the layer closest to the user, the next one is painted behind the first, and so on.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Backgrounds and Borders Module Level 3](http://www.w3.org/TR/css3-background/#the-background-size)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Background</span>
+#### Background
 
 -   [background](/css/cssom/properties/background)
 
@@ -225,7 +225,7 @@ An `auto` value for one dimension is resolved by using the image's intrinsic rat
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

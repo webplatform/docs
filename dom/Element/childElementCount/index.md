@@ -20,13 +20,13 @@ tags:
 uri: dom/Element/childElementCount
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the number of direct children of this node that are elements. Read-only.
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,7 +34,7 @@ Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 var result = element.childElementCount;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to use **childElementCount** to get the number of *immediate* children of a div tag. Descendent children of the the div tag "divWithChildren" are ignored.
 
@@ -68,14 +68,14 @@ This example shows how to use **childElementCount** to get the number of *immedi
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **childElementCount** property only returns immediate children of the current node. It does not count descendent children of the immediate children.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Element Traversal Specification](http://go.microsoft.com/fwlink/p/?linkid=182722), Section 2.5

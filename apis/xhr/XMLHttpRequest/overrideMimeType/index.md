@@ -18,23 +18,23 @@ tags:
 uri: apis/xhr/XMLHttpRequest/overrideMimeType
 
 ---
-## <span>Summary</span>
+## Summary
 
 Overrides the MIME type returned by the server.
 
 Method of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  .overrideMimeType();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function handler() {
@@ -52,11 +52,11 @@ xhr.onreadystatechange = handler;
 xhr.send();
 ```
 
-## <span>Notes</span>
+## Notes
 
 This method may be used (for example) to force a returned stream to be treated and parsed as text/xml, even if the server does not report it as such. If used, this method must be called before send().
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft

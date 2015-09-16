@@ -25,35 +25,35 @@ tags:
 uri: dom/NamedNodeMap/removeNamedItemNS
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes an attribute with a given name and a given namespace.
 
 Method of [dom/NamedNodeMap](/dom/NamedNodeMap)[dom/NamedNodeMap](/dom/NamedNodeMap)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var attribute = attributes.removeNamedItemNS(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>namespace</span>
+### namespace
 
  Data-type
 :   String
 
  The namespace name of the attribute to remove.
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The local name of the desired attribute within the specified namespace.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -61,7 +61,7 @@ The removed attribute node.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

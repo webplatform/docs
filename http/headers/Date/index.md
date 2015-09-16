@@ -12,11 +12,11 @@ tags:
 uri: http/headers/Date
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents the date and time at which the message was originated.
 
-## <span>Overview table</span>
+## Overview table
 
 Direction
 :   Request and Response
@@ -27,12 +27,12 @@ Required
 Features
 :   HTTP
 
-## <span>Syntax</span>
+## Syntax
 
     Date = HTTP-date
     HTTP-date = IMF-fixdate / obs-date
 
-## <span>Examples</span>
+## Examples
 
 A simple example to show the effect achieved when small-caps are applied to a text paragraph.
 
@@ -40,7 +40,7 @@ A simple example to show the effect achieved when small-caps are applied to a te
 Date: Sun, 06 Nov 1994 08:49:37 GMT
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [RFC7231: HTTP/1.1 Semantics and Content](http://tools.ietf.org/html/rfc7231#section-7.1.1.2)
 :   N/A

@@ -9,7 +9,7 @@ tags:
 uri: 'flush right'
 
 ---
-## <span>flush right</span>
+## flush right
 
 A form of typographical justification that positions an element horizontally at the right edge of its container element. As applied to text, also called ragged left.
 

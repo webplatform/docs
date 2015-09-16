@@ -76,7 +76,7 @@ todo_broken_links:
 uri: css/properties/outline/sv
 
 ---
-## <span>Summary</span>
+## Summary
 
 Enheten outline i CSS är en regel för att ställa in en eller fler individuella konturregler outline-style, outline-width och outline-color i en enda regel. I de flesta fall är det föredraget och mer passande att använda denna enhet.
 
@@ -87,7 +87,7 @@ Enheten outline i CSS är en regel för att ställa in en eller fler individuell
 
 **Web<span style="font-size: xx-large;">Platform</span>Docs**
 
-## <span>Examples</span>
+## Examples
 
 Ta bort kontur när man för musen över en länk
 
@@ -107,16 +107,16 @@ Vanligt användade av outline regeln
 :focus { outline: ridge thick violet; } /* outline-style, outline-width och outline-color */
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Tänk på att...</span>
+### Tänk på att...
 
 En kontur ändrar inte flödet på sidan på något sätt, oavsett hur stor den är. Konturen ritas på elementet, och ändrar inte storleken och positionen av elementet, eller andra element. Denna enhet kräver att Windows Internet Explorer är i IE8 Standards-läge.
 
-### <span>Syntax</span>
+### Syntax
 
 `outline:  [ <outline-width> || <outline-style> || <outline-color> ] | inherit`
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS 2.1](http://www.w3.org/TR/CSS2/ui.html#dynamic-outlines), Section 18.4

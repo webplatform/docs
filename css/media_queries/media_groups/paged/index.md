@@ -11,20 +11,20 @@ tags:
 uri: 'css/media queries/media groups/paged'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The paged media group includes any media type that splits the document into blocks of a fixed maximum size.
 
 The opposite of paged media is [continuous media](/css/media_queries/media_groups/continuous).
 
-## <span>Applicable Media Types</span>
+## Applicable Media Types
 
 (none in the database)
 
-## <span>Applicable Media Features</span>
+## Applicable Media Features
 
 (none in the database)
 
-## <span>Applicable CSS properties</span>
+## Applicable CSS properties
 
 (none in the database)

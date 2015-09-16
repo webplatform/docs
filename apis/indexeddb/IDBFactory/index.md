@@ -12,15 +12,15 @@ tags:
 uri: apis/indexeddb/IDBFactory
 
 ---
-## <span>Summary</span>
+## Summary
 
 The object type for the indexedDB property, which provides access to the IndexedDB features supported by the browser and/or device.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -34,11 +34,11 @@ API Name
 [open](/apis/indexeddb/IDBFactory/open)
 :   The open method is used to open an IndexedDB database.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 The following example uses feature detection to determine whether IndexedDB is supported by the current browser/device.
 
@@ -63,22 +63,22 @@ if ( getIndexHandle == null ) {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Use the [**indexedDB**](/apis/indexeddb/indexedDB) property to access IndexedDB databases.
 
 **Important**  For security reasons, Internet Explorer support for the **indexedDB** property is limited to webpages loaded using the "http://" or "https://" protocols.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [How to create a tag cloud using IndexedDB](http://msdn.microsoft.com/en-us/library/jj154908.aspx)
 

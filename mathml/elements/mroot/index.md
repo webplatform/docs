@@ -14,16 +14,16 @@ tags:
 uri: mathml/elements/mroot
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML mroot element is used to display roots with an explicit index. Two arguments are accepted, which leads to the syntax: &lt;mroot&gt; base index &lt;/mroot&gt;.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates a simple usage of the mroot element:
 
@@ -42,7 +42,7 @@ This example demonstrates a simple usage of the mroot element:
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mroot)
 :   W3C Recommendation

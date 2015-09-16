@@ -23,13 +23,13 @@ tags:
 uri: dom/ValidityState/rangeUnderflow
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns whether a value is less than the min attribute on an input control.
 
 Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/ValidityState)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/Vali
 var rangeUnderflow = element.validity.rangeUnderflow;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Whether a value is less than the **min** attribute.
 
-## <span>Examples</span>
+## Examples
 
 The following example validates a numeric (type="number") input field on the onblur event handler. If a number outside the range values of the input control is entered the custom validity message is displayed when the form is submitted.
 
@@ -70,7 +70,7 @@ el.addEventListener('blur',validRange,false);
 </script>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

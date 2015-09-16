@@ -20,90 +20,90 @@ tags:
 uri: dom/MutationEvent/initMutationEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initializes a new DOM mutation (modification) event that the createEvent method created.
 
 Method of [dom/MutationEvent](/dom/MutationEvent)[dom/MutationEvent](/dom/MutationEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  event.initMutationEvent(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>eventType</span>
+### eventType
 
  Data-type
 :   String
 
  The name of the event. Sets the value for the [**type**](/dom/Event/type) property.
 
-### <span>canBubble</span>
+### canBubble
 
  Data-type
 :   Boolean
 
  Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
 
-### <span>cancelable</span>
+### cancelable
 
  Data-type
 :   Boolean
 
  Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
 
-### <span>relatedNode</span>
+### relatedNode
 
  Data-type
 :   DOM Node
 
  A secondary node that is related to the event. Sets the value for the [**relatedNode**](/dom/MutationEvent/relatedNode) property.
 
-### <span>prevValue</span>
+### prevValue
 
  Data-type
 :   String
 
  The previous value of the attribute or text node. Sets the value for the [**prevValue**](/dom/MutationEvent/prevValue) property.
 
-### <span>newValue</span>
+### newValue
 
  Data-type
 :   String
 
  The new value of the attribute or text node. Sets the value for the [**newValue**](/dom/MutationEvent/newValue) property.
 
-### <span>attrName</span>
+### attrName
 
  Data-type
 :   String
 
  The name of the changed attribute in a **DOMAttrModified** event. Sets the value for the [**attrName**](/dom/MutationEvent/attrName) property.
 
-### <span>attrChange</span>
+### attrChange
 
  Data-type
 :   String
 
  The type of modification in a **DOMAttrModified** event. Sets the value for the [**attrChange**](/dom/MutationEvent/attrChange) property.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Events](http://www.w3.org/TR/DOM-Level-2-Events/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Deprecated</span>
+#### Deprecated
 
 -   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 

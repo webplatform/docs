@@ -23,34 +23,34 @@ tags:
 uri: dom/TreeWalker/firstChild
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves a reference to the first child of the current node of the filtered TreeWalker hierarchy and updates currentNode.
 
 Method of [dom/TreeWalker](/dom/TreeWalker)[dom/TreeWalker](/dom/TreeWalker)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var node = treewalker.firstChild(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>oNode</span>
+### oNode
 
  Data-type
 :   any
 
  Object that receives the first child node in the filtered **TreeWalker** hierarchy.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 Object that receives the first child node in the filtered TreeWalker hierarchy.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var treewalker = document.createTreeWalker(
@@ -62,19 +62,19 @@ var treewalker = document.createTreeWalker(
 var node = treewalker.firstChild(); // returns the first child of the root element, or null if none
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **firstChild** sets the [**currentNode**](/dom/TreeWalker/currentNode) to the returned node.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 1.2
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-treewalker-firstchild)
 :   Living Standard

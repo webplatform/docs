@@ -20,7 +20,7 @@ todo_broken_links:
 uri: 'tutorials/building svg paths'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article looks deeply into the SVG &lt;path&gt; element, which is used to create custom shapes.
 
@@ -34,7 +34,7 @@ Each of the commands is instantiated by a specific letter. For instance, the "Mo
 
 Coordinates in the `d` attribute are **always unitless** and hence in the user coordinate system. We will learn later in the tutorial, how paths can be transformed to suit other needs.
 
-## <span>Line commands</span>
+## Line commands
 
 There are five line commands for `<path>` nodes. As the name suggests, each one just draws a straight line between two points. The first is the "Move To" command, M, which was described above. Again, it takes in two parameters, an x coordinate and y coordinate to move to. If your cursor already was somewhere on the page, no line is drawn to connect the two places. The "Move To" command appears at the beginning of paths to specify where the drawing should start.
 
@@ -102,11 +102,11 @@ The path will move to point (10,10) and the move horizontally 80 points to the l
 
 You may be wondering what use these commands have when the `<polygon>` or `<polyline>` element can do the same thing. The answer is that they don't do much more. If you're only drawing straight lines, it is probably better grammatically to use one of the other forms. However, paths are used so much in drawing SVG that developers get used to them, and you'll see them instead. As far as I know, there's no real performance penalty or bonus for using one or the other. Generating paths through script might be another matter, as the path command syntax is slightly more complicated than the other two, which just take points.
 
-## <span>Curve commands</span>
+## Curve commands
 
 There are 3 different commands that can be used to create smooth curves. Two of those curves are Bezier curves, and the third one is an "arc" or part of a circle. You might have already gained practical experience with Bezier curves, if you used path tools in Inkscape, Illustrator or Photoshop. For a complete description of the math behind Bezier curves you'll have to go to a reference like the one on [Wikipedia](/w/index.php?title=Wikipedia&action=edit&redlink=1). It's too much information to try and cover here. There are an infinite number of different types of Bezier curves, but only two simple ones are available in path elements: a cubic one, C, and a quadratic one, Q.
 
-### <span>Bezier Curves</span>
+### Bezier Curves
 
 So we'll start with the slightly more complex Bezier curve, the cubic one, C. Cubic Beziers take in two control points for each point. As such, you have to specify three sets of coordinates when you want to create a cubic Bezier
 
@@ -173,7 +173,7 @@ As before, the shortcut looks at the previous control point you used, and infers
 
 Both curves produce fairly similar results, although the cubic allows you greater freedom in exactly what your curve looks like. Deciding which to use often just depends on the situations and amount of symmetry your line has.
 
-### <span>Arcs</span>
+### Arcs
 
 The other type of curved line you can create using SVG is the arc, A. Arcs are essentially sections of circles or ellipses. For a given x-radius and y-radius, there are two ellipses that can connect any two points (as long as they're within the radius of the circle). Along either of those circles there are two possible paths that you can take to connect the points, so in any situation there are four possible arcs available. Because of that, arcs have to take in quite a few arguments:
 

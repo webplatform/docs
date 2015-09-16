@@ -18,11 +18,11 @@ todo_broken_links:
 uri: concepts/javascript/iterators
 
 ---
-## <span>Summary</span>
+## Summary
 
 Processing each of the items in a collection is a very common operation. JavaScript provides a number of ways of iterating over a collection, from simple for and for each loops to map(), filter()]] and array comprehensions. Iterators and Generators, introduced in JavaScript 1.7, bring the concept of iteration directly into the core language and provide a mechanism for customizing the behavior of for...in and for each loops.
 
-## <span>Iterators</span>
+## Iterators
 
 An Iterator is an object that knows how to access items from a collection one at a time, while keeping track of its current position within that sequence. In JavaScript an iterator is an object that provides a `next()` method which returns the next item in the sequence. This method can optionally raise a `StopIteration` exception when the sequence is exhausted.
 
@@ -74,7 +74,7 @@ It is also possible to assign block scoped variables to both index and value wit
     for (let [i, lang] in it)
      print(i + ': ' + lang); // prints "0: JavaScript" etc.
 
-## <span>Defining custom iterators</span>
+## Defining custom iterators
 
 Some objects represent collections of items that should be iterated over in a specific way.
 
@@ -119,7 +119,7 @@ Having hooked in our custom iterator, we can iterate over a range instance with 
     for (var i in range)
       print(i); // prints 3, then 4, then 5 in sequence
 
-## <span>Generators: a better way to build Iterators</span>
+## Generators: a better way to build Iterators
 
 While custom iterators are a useful tool, their creation requires careful programming due to the need to explicitly maintain their internal state. Generators provide a powerful alternative: they allow you to define an iterative algorithm by writing a single function which can maintain its own state.
 
@@ -199,7 +199,7 @@ Generator functions can take arguments, which are bound the first time the funct
       }
     }
 
-## <span>Advanced generators</span>
+## Advanced generators
 
 Generators compute their yielded values on demand, which allows them to efficiently represent sequences that are expensive to compute, or even infinite sequences as demonstrated above.
 
@@ -247,7 +247,7 @@ Generators have a `close()` method that forces the generator to close itself. Th
 2.  If a `finally` clause throws any exception other than `StopIteration`, the exception is propagated to the caller of the `close()` method.
 3.  The generator terminates.
 
-## <span>Generator expressions</span>
+## Generator expressions
 
 **Note**: Introduced in JavaScript 1.8
 

@@ -21,13 +21,13 @@ tags:
 uri: 'apis/web animations/AnimationNode/timing'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the input timing properties specified for this animation node. This is comparable to the specified style on an Element, elem.style.
 
 Property of [apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)[apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,19 +35,19 @@ Property of [apis/web\_animations/AnimationNode](/apis/web_animations/AnimationN
 var myTiming = myAnimationNode.timing;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 type AnimationTiming object
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   [Web Animations API](/apis/web_animations)
 

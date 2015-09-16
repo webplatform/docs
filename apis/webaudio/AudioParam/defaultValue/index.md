@@ -20,13 +20,13 @@ tags:
 uri: apis/webaudio/AudioParam/defaultValue
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initial value for the value attribute.
 
 Property of [apis/webaudio/AudioParam](/apis/webaudio/AudioParam)[apis/webaudio/AudioParam](/apis/webaudio/AudioParam)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,18 +34,18 @@ Property of [apis/webaudio/AudioParam](/apis/webaudio/AudioParam)[apis/webaudio/
 var result = AudioParam.defaultValue;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var gainNode = audioCtx.createGain();
 var gainDefault = gainNode.gain.defaultValue; //'gain' is the AudioParam
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

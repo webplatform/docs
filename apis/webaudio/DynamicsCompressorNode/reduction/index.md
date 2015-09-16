@@ -20,13 +20,13 @@ tags:
 uri: apis/webaudio/DynamicsCompressorNode/reduction
 
 ---
-## <span>Summary</span>
+## Summary
 
 A read-only decibel value for metering purposes, representing the current amount of gain reduction that the compressor is applying to the signal. If fed no signal the value will be 0 (no gain reduction). The nominal range is -20 to 0. This parameter is k-rate.
 
 Property of [apis/webaudio/DynamicsCompressorNode](/apis/webaudio/DynamicsCompressorNode)[apis/webaudio/DynamicsCompressorNode](/apis/webaudio/DynamicsCompressorNode)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,11 +34,11 @@ Property of [apis/webaudio/DynamicsCompressorNode](/apis/webaudio/DynamicsCompre
 var result = DynamicsCompressorNode.reduction;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -46,7 +46,7 @@ var compressor = audioCtx.createDynamicsCompressor();
 compressor.reduction.value = -20;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

@@ -26,29 +26,29 @@ uri: dom/HTMLElement/toStaticHTML
 
 Method of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.toStaticHTML(bstrHTML, pbstrStaticHTML);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>bstrHTML</span>
+### bstrHTML
 
  Data-type
 :   BSTR
 
  An HTML fragment.
 
-### <span>pbstrStaticHTML</span>
+### pbstrStaticHTML
 
  Data-type
 :   BSTR
 
  An HTML fragment consisting of static elements only.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -60,9 +60,9 @@ String
 
 An HTML fragment consisting of static elements only.
 
-## <span>Examples</span>
+## Examples
 
-The following script demonstrates how **toStaticHTML** sanitizes script and dynamic HTML attributes. The result of the operation is: `<span>Click Me</span>`.
+The following script demonstrates how **toStaticHTML** sanitizes script and dynamic HTML attributes. The result of the operation is: `Click Me`.
 
 ``` html
 <script type="text/javascript">
@@ -85,21 +85,21 @@ function sanitize()
 </body>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **toStaticHTML** method can be used to remove event attributes and script from user input before it is displayed as HTML. Malicious HTML can be passed on a URL, in form parameters, or across domains by **XDomainRequest** or [**postMessage**](/dom/Window/postMessage). Always validate user input before adding it as an HTML fragment to a webpage or storing it in a database. **Note**   This method does not filter the attributes of the **base** element. This can cause potentially unwanted redirect requests for **link** and [**anchor**](/html/elements/a) elements injected into a webpage. For best results, only use **toStaticHTML** to modify elements in the body of a webpage.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `window`
 -   `innerHTML`

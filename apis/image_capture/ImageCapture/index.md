@@ -11,11 +11,11 @@ tags:
 uri: 'apis/image capture/ImageCapture'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the takePhoto() and getFrame() methods, and corresponding camera settings for use with MediaStreams.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -38,7 +38,7 @@ API Name
 [videoStreamTrack](/apis/image_capture/ImageCapture/videoStreamTrack)
 :   The MediaStream passed into the constructor.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -52,20 +52,20 @@ API Name
 [takePhoto](/apis/image_capture/ImageCapture/takePhoto)
 :   Gathers data from the VideoStreamTrack into a Blob containing a single still image.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Mediastream Image Capture](http://w3c.github.io/mediacapture-image/)
 :   W3C Editor's draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Mobile</span>
+#### Mobile
 
 -   [Battery Status API](/apis/battery_status)
 
@@ -79,7 +79,7 @@ API Name
 
 -   [capture](/html/attributes/capture)
 
-### <span>External resources</span>
+### External resources
 
 -   [Mediastream Image Capture](http://www.w3.org/TR/image-capture/)
 -   [Mediastream Image Capture - W3C First Public Working Draft 09 July 2013](http://www.w3.org/TR/2013/WD-image-capture-20130709/)

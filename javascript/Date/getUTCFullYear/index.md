@@ -11,21 +11,21 @@ tags:
 uri: javascript/Date/getUTCFullYear
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the year using Universal Coordinated Time (UTC).
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     dateObj.getUTCFullYear()
 
-## <span>Return Value</span>
+## Return Value
 
 Returns the year as a four-digit number. Years specified as two digits in the **Date** constructor or in **setFullYear** are assumed to be in the twentieth century, so given "5/14/12", **getUTCFullYear** returns "1912".
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **getUTCFullYear** method.
 
@@ -36,13 +36,13 @@ var date = new Date("1/9/36");
  // Output: 1936
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required dateObj reference is a **Date** object. To get the year using local time, use the **getFullYear** method.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getFullYear Method (Date)](/javascript/Date/getFullYear)
 -   [setFullYear Method (Date)](/javascript/Date/setFullYear)

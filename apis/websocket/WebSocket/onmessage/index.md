@@ -22,13 +22,13 @@ tags:
 uri: apis/websocket/WebSocket/onmessage
 
 ---
-## <span>Summary</span>
+## Summary
 
 An event listener to be called when a message is received from the server. Receives a MessageEvent named &quot;message&quot;.
 
 Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket/WebSocket](/apis/websocket/WebSocket)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket
 var result = element.onmessage;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 EventHandler
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 socket.onmessage = function(event) {
@@ -60,7 +60,7 @@ socket.addEventListener("message", function(event) {
 });
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation

@@ -23,13 +23,13 @@ tags:
 uri: 'apis/navigation timing/PerformanceTiming/fetchStart'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the time immediately before the user agent starts checking any relevant application caches (if the resource is to be fetched using HTTP GET or equivalent). Otherwise, returns the time when the user agent starts fetching the resource.
 
 Property of [apis/navigation timing/PerformanceTiming](/apis/navigation_timing/PerformanceTiming)[apis/navigation timing/PerformanceTiming](/apis/navigation_timing/PerformanceTiming)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,18 +37,18 @@ Property of [apis/navigation timing/PerformanceTiming](/apis/navigation_timing/P
 var result = PerformanceTiming.fetchStart;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var perftime = performance.timing;
 document.write("fetchStart: " + perftime.fetchStart + "<br />");
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Navigation Timing Specification 2](http://www.w3.org/TR/navigation-timing-2/)
 :   W3C Working Draft

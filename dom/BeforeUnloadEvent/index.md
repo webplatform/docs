@@ -17,13 +17,13 @@ tags:
 uri: dom/BeforeUnloadEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents the beforeunload event which can be used to take an action (e.g., display a prompt, prevent a navigation from happening) before unloading the current page.
 
 Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -31,17 +31,17 @@ API Name
 [returnValue](/dom/BeforeUnloadEvent/returnValue)
 :   Gets or sets a value that indicates whether to warn the user prior to navigating away from a page.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from Event</span>
+## Inherited from Event
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -73,7 +73,7 @@ API Name
 [type](/dom/Event/type)
 :   Gets the name of an event.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -90,7 +90,7 @@ API Name
 [stopPropagation](/dom/Event/stopPropagation)
 :   Prevents propagation of an event beyond the current target.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -173,7 +173,7 @@ API Name
 [finish](/dom/Event/finish)
 :
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

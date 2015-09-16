@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/EntrySync/getMetadata
 
 ---
-## <span>Summary</span>
+## Summary
 
 Look up metadata about this EntrySync.
 
@@ -30,21 +30,21 @@ Look up metadata about this EntrySync.
 
 Method of [apis/filesystem/EntrySync](/apis/filesystem/EntrySync)[apis/filesystem/EntrySync](/apis/filesystem/EntrySync)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = EntrySync.getMetadata();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 MetaData
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

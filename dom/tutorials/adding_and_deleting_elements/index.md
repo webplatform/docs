@@ -3,7 +3,7 @@ title: adding and deleting elements
 uri: 'dom/tutorials/adding and deleting elements'
 
 ---
-## <span>Adding and Deleting Elements</span>
+## Adding and Deleting Elements
 
 So far we have seen how to manipulate html tags that have already been declared in the document, but now let's create some. (and then get rid of them).
 

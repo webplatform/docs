@@ -10,19 +10,19 @@ tags:
 uri: 'apis/web animations/AnimationNodeList'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The sole reason this interface exists is to provide a familiar experience for authors familiar with DOM interfaces where child nodes are accessed via a children member.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 

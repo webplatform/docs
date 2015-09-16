@@ -23,19 +23,19 @@ tags:
 uri: dom/Selection/removeAllRanges
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes all ranges from a selection.
 
 Method of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = selObj.removeAllRanges();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -43,7 +43,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 This example uses **removeAllRanges** to clear a selection from text or elements.
 
@@ -71,16 +71,16 @@ This example uses **removeAllRanges** to clear a selection from text or elements
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **removeAllRanges** can remove invisible carets or insertion points that result when the **Collapse** method is applied to a selection.
 
-### <span>Syntax</span>
+### Syntax
 
 selObj.removeAllRanges();
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1

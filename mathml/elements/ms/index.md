@@ -20,16 +20,16 @@ todo_broken_links:
 uri: mathml/elements/ms
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML ms element represents a string literal meant to be interpreted by programming languages and computer algebra systems.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates a simple usage of the ms element:
 
@@ -45,14 +45,14 @@ This example demonstrates a simple usage of the ms element:
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.ms)
 :   W3C Recommendation
 
 By default, string literals are displayed as enclosed by double quotes ("); by using the lquote and rquote attributes, you can set custom characters to display. Note that quotation marks should not be specified unless they are part of the string literal. The content of an \<ms\> element is not an ASCII string per se, but rather a sequence of characters and [mglyph](/mathml/elements/mglyph) and [malignmark](/w/index.php?title=mathml/elements/malignmark&action=edit&redlink=1) elements.
 
-## <span>Attributes</span>
+## Attributes
 
  lquote
 :   The opening quote character (depends on `dir`) to enclose the content. The default value is "`&quot;".`

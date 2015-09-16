@@ -132,7 +132,7 @@ todo_broken_links:
 uri: html/elements/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 HTML要素一覧
 
@@ -204,7 +204,7 @@ API Name
 [button](/html/elements/button/ja)
 :   **button**要素はクリック可能なボタンを表示します。
 
-## <span>See also</span>
+## See also
 
 -   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
 
@@ -216,11 +216,11 @@ API Name
 
 これらは過去から現在までのHTMLに関連する要素です。
 
-## <span>ルート要素</span>
+## ルート要素
 
 -   [html](/w/index.php?title=html/elements/html/ja&action=edit&redlink=1)
 
-## <span>文書メタデータ</span>
+## 文書メタデータ
 
 -   [head](/w/index.php?title=html/elements/head/ja&action=edit&redlink=1)
 -   [title](/w/index.php?title=html/elements/title/ja&action=edit&redlink=1)
@@ -230,12 +230,12 @@ API Name
 -   [meta](/w/index.php?title=html/elements/meta/ja&action=edit&redlink=1)
 -   [style](/w/index.php?title=html/elements/style/ja&action=edit&redlink=1)
 
-## <span>スクリプト</span>
+## スクリプト
 
 -   [script](/w/index.php?title=html/elements/script/ja&action=edit&redlink=1)
 -   [noscript](/w/index.php?title=html/elements/noScript/ja&action=edit&redlink=1)
 
-## <span>セクション</span>
+## セクション
 
 -   [body](/html/elements/body/ja)
 -   [section](/w/index.php?title=html/elements/section/ja&action=edit&redlink=1)
@@ -248,7 +248,7 @@ API Name
 -   [footer](/w/index.php?title=html/elements/footer/ja&action=edit&redlink=1)
 -   [address](/html/elements/address/ja)
 
-## <span>グルーピングコンテンツ</span>
+## グルーピングコンテンツ
 
 -   [p](/w/index.php?title=html/elements/p/ja&action=edit&redlink=1)
 -   [hr](/w/index.php?title=html/elements/hr/ja&action=edit&redlink=1)
@@ -266,7 +266,7 @@ API Name
 -   [main](/w/index.php?title=html/elements/main/ja&action=edit&redlink=1)
 -   [center](/w/index.php?title=html/elements/center/ja&action=edit&redlink=1)
 
-## <span>テキストレベル・セマンティック</span>
+## テキストレベル・セマンティック
 
 -   [a](/html/elements/a/ja)
 -   [abbr](/w/index.php?title=html/elements/abbr/ja&action=edit&redlink=1)
@@ -308,12 +308,12 @@ API Name
 -   [wbr](/w/index.php?title=html/elements/wbr/ja&action=edit&redlink=1)
 -   [xmp](/w/index.php?title=html/elements/xmp/ja&action=edit&redlink=1)
 
-## <span>編集</span>
+## 編集
 
 -   [ins](/w/index.php?title=html/elements/ins/ja&action=edit&redlink=1)
 -   [del](/w/index.php?title=html/elements/del/ja&action=edit&redlink=1)
 
-## <span>埋め込みコンテンツ</span>
+## 埋め込みコンテンツ
 
 -   [applet](/html/elements/applet/ja)
 -   [area](/html/elements/area/ja)
@@ -338,7 +338,7 @@ API Name
 -   [track](/w/index.php?title=html/elements/track/ja&action=edit&redlink=1)
 -   [video](/w/index.php?title=html/elements/video/ja&action=edit&redlink=1)
 
-## <span>テーブル</span>
+## テーブル
 
 -   [table](/w/index.php?title=html/elements/table/ja&action=edit&redlink=1)
 -   [caption](/w/index.php?title=html/elements/caption/ja&action=edit&redlink=1)
@@ -351,7 +351,7 @@ API Name
 -   [td](/w/index.php?title=html/elements/td/ja&action=edit&redlink=1)
 -   [th](/w/index.php?title=html/elements/th/ja&action=edit&redlink=1)
 
-## <span>フォーム</span>
+## フォーム
 
 -   [form](/w/index.php?title=html/elements/form/ja&action=edit&redlink=1)
 -   [fieldset](/w/index.php?title=html/elements/fieldset/ja&action=edit&redlink=1)
@@ -369,14 +369,14 @@ API Name
 -   [progress](/w/index.php?title=html/elements/progress/ja&action=edit&redlink=1)
 -   [meter](/w/index.php?title=html/elements/meter/ja&action=edit&redlink=1)
 
-## <span>インタラクティブ要素</span>
+## インタラクティブ要素
 
 -   [details](/w/index.php?title=html/elements/details/ja&action=edit&redlink=1)
 -   [summary](/w/index.php?title=html/elements/summary/ja&action=edit&redlink=1)
 -   [command](/w/index.php?title=html/elements/command/ja&action=edit&redlink=1)
 -   [menu](/w/index.php?title=html/elements/menu/ja&action=edit&redlink=1)
 
-## <span>過去バージョンの要素</span>
+## 過去バージョンの要素
 
 -   [acronym](/html/elements/acronym/ja)
 -   [applet](/html/elements/applet/ja) ([HTML 4.01](http://www.w3.org/TR/html401/)で非推奨, [HTML5](http://www.w3.org/TR/html5)で廃止)
@@ -403,7 +403,7 @@ API Name
 -   [u](/w/index.php?title=html/elements/u/ja&action=edit&redlink=1) ([HTML 4.01](http://www.w3.org/TR/html401/)で非推奨, [HTML5](http://www.w3.org/TR/html5)で廃止)
 -   [xmp](/w/index.php?title=html/elements/xmp/ja&action=edit&redlink=1)
 
-## <span>See also</span>
+## See also
 
 -   [HTML: The Markup Language Reference](http://www.w3.org/TR/html-markup/)
 -   [HTML Educational material for beginners](/w/index.php?title=html/training&action=edit&redlink=1)

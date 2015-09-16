@@ -22,7 +22,7 @@ uri: css/cssom/CSSStyleDeclaration/item
 
 Property of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.item;
@@ -31,19 +31,19 @@ element.item = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **item** method can be used to iterate over all properties in this declaration block.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Style Specification](http://go.microsoft.com/fwlink/p/?linkid=203741), Section 1.2
 
-### <span>Parameters</span>
+### Parameters
 
 *index* [in]
 :   Type: **Integer** \<b/\>The index of the property name to retrieve.

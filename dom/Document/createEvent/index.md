@@ -24,34 +24,34 @@ tags:
 uri: dom/Document/createEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a DOM event of the specified type. This method is deprecated; use event constructors (CustomEvent) instead.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var event = document.createEvent(eventType);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>eventType</span>
+### eventType
 
  Data-type
 :   String
 
  One of the following values. Case is not important.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The created event.
 
-## <span>Examples</span>
+## Examples
 
 The following example demonstrates how to create and dispatch a custom event that bubbles and cannot be canceled.
 
@@ -71,11 +71,11 @@ var p = document.getElementById('target');
 p.addEventListener("custom", reportEvent, false);
 ```
 
-## <span>Notes</span>
+## Notes
 
 If the event object is to be dispatched with [**dispatchEvent**](/dom/EventTarget/dispatchEvent), the appropriate event initialization method must be called. For example, after creating an event of type **UIEvent**, call [**initUIEvent**](/dom/UIEvent/initUIEvent) to initialize the event object's values. **Security Warning:  **For security reasons, events generated with **createEvent** are untrusted and have a [**isTrusted**](/dom/Event/isTrusted) value of false.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/#widl-DocumentEvent-createEvent)
 :   Working Draft

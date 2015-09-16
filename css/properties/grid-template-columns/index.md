@@ -20,11 +20,11 @@ tags:
 uri: css/properties/grid-template-columns
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies (with grid-template-rows) the line names and track sizing functions of the grid. Each sizing function can be specified as a length, a percentage of the grid container’s size, a measurement of the contents occupying the column or row, or a fraction of the free space in the grid.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -50,13 +50,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `grid-template-columns: <track-list>`
 -   `grid-template-columns: none`
 -   `grid-template-columns: subgrid <line-name-list>`
 
-## <span>Values</span>
+## Values
 
 none
 :   Indicates that there is no explicit grid; any rows/columns will be implicitly generated, and their size will be determined by the grid-auto-rows and grid-auto-columns properties.
@@ -67,7 +67,7 @@ none
 subgrid \<line-name-list\>
 :   Indicates that the grid will align to its parent grid in that axis. Rather than specifying the sizes of rows/columns explicitly, they will be taken from the parent grid’s definition. If the grid container is not a grid item, this value computes to "none".
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 grid-template-columns: 100px 1fr max-content minmax(min-content, 1fr);
@@ -83,7 +83,7 @@ grid-template-columns: 100px 1fr max-content minmax(min-content, 1fr);
 */
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Grid Layout Module Level 1](http://www.w3.org/TR/css3-grid-layout/)
 :   W3C Working Draft

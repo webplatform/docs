@@ -18,13 +18,13 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/onstatechange
 
 ---
-## <span>Summary</span>
+## Summary
 
 Handles the statechange event for when the readyState property is changed, i.e. with a call to setLocalDescription() or setRemoteDescription(). The event does not fire when a new RTCPeerConnection object is created.
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onstatechange;

@@ -23,24 +23,24 @@ tags:
 uri: apis/audio-video/TextTrackCue/id
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets a text track cue identifier.
 
 Property of [apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)[apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = TextTrackCue.id;
 TextTrackCue.id = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //. . .
@@ -53,7 +53,7 @@ myCues[i].id = "CID" + i; //CID0, CID1, etc.
 //. . .
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

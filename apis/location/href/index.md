@@ -20,13 +20,13 @@ tags:
 uri: apis/location/href
 
 ---
-## <span>Summary</span>
+## Summary
 
 The full url for this resource. Synonymous with String(window.location).
 
 Property of [apis/location](/apis/location)[apis/location](/apis/location)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,7 +34,7 @@ Property of [apis/location](/apis/location)[apis/location](/apis/location)
 var result = window.location.href;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -42,7 +42,7 @@ The full url for this resource.
 
 For example, `http://example.org/index.html?page=1#foo` would return the full href of `http://example.org/index.html?page=1#foo`.
 
-## <span>Examples</span>
+## Examples
 
 `window.location.href` is the same as the `toString` method of `window.location`, so you can choose to use either variable when using comparing as a string.
 
@@ -53,7 +53,7 @@ if(window.location == window.location.href){
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Window Object 1.0](http://www.w3.org/TR/Window/)
 :   W3C Working Draft

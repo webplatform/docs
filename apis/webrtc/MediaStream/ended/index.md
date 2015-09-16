@@ -22,13 +22,13 @@ tags:
 uri: apis/webrtc/MediaStream/ended
 
 ---
-## <span>Summary</span>
+## Summary
 
 True if the ended event has fired on the MediaStream object.
 
 Property of [apis/webrtc/MediaStream](/apis/webrtc/MediaStream)[apis/webrtc/MediaStream](/apis/webrtc/MediaStream)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,7 +36,7 @@ Property of [apis/webrtc/MediaStream](/apis/webrtc/MediaStream)[apis/webrtc/Medi
 var result = stream.ended;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 

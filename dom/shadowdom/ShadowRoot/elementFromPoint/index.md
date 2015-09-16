@@ -23,35 +23,35 @@ tags:
 uri: dom/shadowdom/ShadowRoot/elementFromPoint
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns an element at specified coordinates.
 
 Method of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.elementFromPoint(x, y);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
+### x
 
  Data-type
 :   String
 
  The horizontal position of the element. May not be negative.
 
-### <span>y</span>
+### y
 
  Data-type
 :   String
 
  The vertical position of the element. May not be negative.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ElementElement
 

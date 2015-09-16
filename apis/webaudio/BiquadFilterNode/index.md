@@ -10,11 +10,11 @@ tags:
 uri: apis/webaudio/BiquadFilterNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 BiquadFilterNode is an AudioNode processor implementing common low-order filters, which are the building blocks of basic tone controls (bass, mid, treble), graphic equalizers, and more advanced filters. Multiple BiquadFilterNode filters can be combined to form more complex filters. Each BiquadFilterNode can be configured as one of a number of common filter types as listed in the type property page, linked below. The default filter type is LOWPASS.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -31,7 +31,7 @@ API Name
 [type](/apis/webaudio/BiquadFilterNode/type)
 :   The type of ****BiquadFilterNode**** (filtering algorithm) the node is implementing.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -39,11 +39,11 @@ API Name
 [getFrequencyResponse](/apis/webaudio/BiquadFilterNode/getFrequencyResponse)
 :   Given the current filter parameter settings, calculates the frequency response for the specified frequencies.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
 :   W3C Editor's Draft

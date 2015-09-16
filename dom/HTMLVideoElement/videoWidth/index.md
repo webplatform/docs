@@ -24,7 +24,7 @@ uri: dom/HTMLVideoElement/videoWidth
 
 Property of [dom/HTMLVideoElement](/dom/HTMLVideoElement)[dom/HTMLVideoElement](/dom/HTMLVideoElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.videoWidth;
@@ -33,21 +33,21 @@ element.videoWidth = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The intrinsic dimensions of a video are the value that is accounted for after the video's aspect ratio, clean aperture, resolution, and so forth, are defined.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.8.6
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `video element`
 -   `video object`

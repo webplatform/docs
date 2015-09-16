@@ -11,11 +11,11 @@ tags:
 uri: javascript/Date/setUTCDate
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the numeric day of the month in the Date object using Universal Coordinated Time (UTC).
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -27,7 +27,7 @@ Sets the numeric day of the month in the Date object using Universal Coordinated
 **numDate**
 :   Required. A numeric value equal to the day of the month.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **setUTCDate** method.
 
@@ -41,7 +41,7 @@ function SetUTCDateDemo(newdayofmonth){
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 To set the day of the month using local time, use the **setDate** method.
 
@@ -49,9 +49,9 @@ If the value of numDate is greater than the number of days in the month stored i
 
 The **setUTCFullYear** method can be used to set the year, month, and day of the month.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getDate Method (Date)](/javascript/Date/getDate)
 -   [getUTCDate Method (Date)](/javascript/Date/getUTCDate)

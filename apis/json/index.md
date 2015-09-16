@@ -10,17 +10,17 @@ tags:
 uri: apis/json
 
 ---
-## <span>Summary</span>
+## Summary
 
 JSON is a native API for parsing and serialising information to the JSON format.
 
 JSON contains two methods: `parse` for parsing JSON strings, and `stringify` for converting a JavaScript object into JSON.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -31,11 +31,11 @@ API Name
 [stringify](/apis/json/stringify)
 :   Export a JavaScript object to a JSON string.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 Convert a JavaScript object to a string.
 
@@ -55,11 +55,11 @@ var js_object = JSON.parse(json_string);
 alert(js_object.type);
 ```
 
-## <span>Notes</span>
+## Notes
 
 Browsers without JSON support can be polyfilled using third party JavaScript libraries.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [JSON-LD 1.0](http://www.w3.org/TR/json-ld/)
 :   W3C Recommendation

@@ -10,21 +10,21 @@ tags:
 uri: javascript/Infinity
 
 ---
-## <span>Summary</span>
+## Summary
 
 A number that is larger than the largest floating point number.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     Infinity
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an initial value of **Number.POSITIVE\_INFINITY**.
 
-## <span>Examples</span>
+## Examples
 
 Divisions by zero will give you Infinity. Divisions by negative zero will give you -Infinity.
 
@@ -45,29 +45,29 @@ If an arithmetic overflow occurs, Infinity is also returned
 Math.pow(2, 1024); // Infinity
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **Infinity** constant is a member of the **Global** object, and is made available when the scripting engine is initialized.
 
-## <span>Notes</span>
+## Notes
 
-## <span>Negative Infinity</span>
+## Negative Infinity
 
 Negative Infinity (-Infinity) is smaller than the smallest floating point number and returns a value of **Number.NEGATIVE\_INFINITY**.
 
-## <span>Mathematical</span>
+## Mathematical
 
 This value behaves mathematically like infinity; for example, anything multiplied by Infinity is Infinity, and anything divided by Infinity is 0.
 
 Infinity subtracted by Infinity will return **NaN**
 
-## <span>isFinite()</span>
+## isFinite()
 
 The [isFinite()](/javascript/isFinite) function can be used to check if a given value is a finite number
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Number](/javascript/Number)
 -   [Number Constants](/javascript/Number/constants)

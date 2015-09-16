@@ -20,46 +20,46 @@ tags:
 uri: apis/webaudio/AudioParam/exponentialRampToValueAtTime
 
 ---
-## <span>Summary</span>
+## Summary
 
 Schedules an exponential continuous change in parameter value from the previous scheduled parameter value to the given value. Parameters representing filter frequencies and playback rate are best changed exponentially because of the way humans perceive sound.
 
 Method of [apis/webaudio/AudioParam](/apis/webaudio/AudioParam)[apis/webaudio/AudioParam](/apis/webaudio/AudioParam)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = AudioParam.exponentialRampToValueAtTime(value, endTime);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>value</span>
+### value
 
  Data-type
 :   Number
 
  The value the parameter will exponentially ramp to at the given time. An exception will be thrown if this value is less than or equal to 0, or if the value at the time of the previous event is less than or equal to 0.
 
-### <span>endTime</span>
+### endTime
 
  Data-type
 :   Number
 
  The time in the same time coordinate system as [**AudioContext.currentTime**](/apis/webaudio/AudioContext/currentTime).
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var gainNode = audioCtx.createGain();
 gainNode.gain.exponentialRampToValueAtTime(1.0, audioCtx.currentTime + 2); //'gain' is the AudioParam
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

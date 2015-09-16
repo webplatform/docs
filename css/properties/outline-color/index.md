@@ -23,11 +23,11 @@ tags:
 uri: css/properties/outline-color
 
 ---
-## <span>Summary</span>
+## Summary
 
 The outline-color property sets the color of the outline of an element. An outline is a line that is drawn around elements, outside the border edge, to make the element stand out.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `invert`
@@ -53,13 +53,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `outline-color: <color>`
 -   `outline-color: inherit`
 -   `outline-color: invert`
 
-## <span>Values</span>
+## Values
 
 \<color\>
 :   Specify the color to use on all outlines. This can be anywhere from one to four values representing the top, right, bottom, and left outline respectively.
@@ -70,7 +70,7 @@ invert
 inherit
 :   This is a keyword indicating that the value is inherited from their parent's element calculated value.
 
-## <span>Examples</span>
+## Examples
 
 An example of using outline color
 
@@ -108,7 +108,7 @@ Multiple classes that change the original outline color
 
 [View live example](http://code.webplatform.org/gist/5566688)
 
-## <span>Usage</span>
+## Usage
 
      The color value can be a numerical value, such as one of the following:
 
@@ -121,12 +121,12 @@ Multiple classes that change the original outline color
 
 The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [CSS Color Module Level 3 spec](http://www.w3.org/TR/css3-color/#svg-color), which is the consolidation of various specifications.
 
-## <span>Notes</span>
+## Notes
 
 -   A value of **invert** ensures that the outline is visible regardless of the background color.
 -   The [outline](/css/properties/outline) property is a shorthand property for setting one or more of the individual outline properties [outline-style](/css/properties/outline-style), [outline-width](/css/properties/outline-width) and **outline-color** in a single rule. In most cases the use of this shortcut is preferable and more convenient.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Basic User Interface Module Level 3 (CSS3 UI)](http://dev.w3.org/csswg/css-ui/#outline-color)
 :   Working Draft

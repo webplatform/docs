@@ -15,11 +15,11 @@ tags:
 uri: 'apis/media capture and streams/MediaStream/removetrack'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This event is fired when a track is removed from the MediaStream.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

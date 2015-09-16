@@ -12,11 +12,11 @@ tags:
 uri: dom/TextRange
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents text in an HTML element.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -36,7 +36,7 @@ API Name
 [text](/dom/TextRange/text)
 :   Sets or retrieves the text contained within the range.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -98,11 +98,11 @@ API Name
 [setEndPoint](/dom/TextRange/setEndPoint)
 :   Sets the endpoint of one range based on the endpoint of another range.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 This example changes the text of a **button** element to "Clicked" through the **TextRange** object.
 
@@ -118,12 +118,12 @@ if (b!=null) {
 </script>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use this object to retrieve and modify text in an element, to locate specific strings in the text, and to carry out commands that affect the appearance of the text.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 To retrieve a text range object, apply the [**createRange**](/dom/Document/createRange) method to a **body**, **button**, or **textArea** element or an **input** element that has [**TYPE**](/html/attributes/type) text. Modify the extent of the text range by moving its start and end positions with methods such as [**move**](/dom/TextRange/move) and [**moveToElementText**](/dom/TextRange/moveToElementText). Within the text range, you can retrieve and modify plain text or HTML text. These forms of text are identical except that HTML text includes HTML tags, and plain text does not.

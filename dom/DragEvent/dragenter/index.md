@@ -15,7 +15,7 @@ uri: dom/DragEvent/dragenter
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -69,7 +69,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example shows when and where each event fires during a drag-and-drop operation by listing each event and the name of the object firing it in a list box.
 
@@ -109,9 +109,9 @@ function ShowResults()
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/DragDropEventsEX.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 You can handle the **ondragenter** event on the source or on the target object. Of the target events, it is the first to fire during a drag operation. Target events use the [**getData**](/dom/DataTransfer/getData) method to stipulate which data and data formats to retrieve. The list of drag-and-drop target events includes:
 
@@ -126,13 +126,13 @@ When scripting custom functionality, use the [**returnValue**](/dom/BeforeUnload
 -   Drag the selection over a valid drop target within the client.
 -   Drag the selection to a valid drop target within another window.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

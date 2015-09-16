@@ -25,21 +25,21 @@ tags:
 uri: dom/Range/collapse
 
 ---
-## <span>Summary</span>
+## Summary
 
 Collapses (or removes) a range by moving the insertion point to the beginning or end of the current range.
 
 Method of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = range.collapse(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>toStart</span>
+### toStart
 
  Data-type
 :   Boolean
@@ -52,11 +52,11 @@ true (Default). Moves the insertion point to the beginning of the range.
 
 false Moves the insertion point to the end of the range.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var range = document.createRange();
@@ -66,19 +66,19 @@ range.selectNode(referenceNode);
 range.collapse(true);
 ```
 
-## <span>Notes</span>
+## Notes
 
 The DOM 'Living Standard' specification now recommends that the default parameter value be false... To retain interoperability across browsers ALWAYS specify the toStart parameter (true
 
-### <span>Syntax</span>
+### Syntax
 
 range.collapse(toStart);
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-range-collapse)
 :   Living Standard

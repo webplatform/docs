@@ -24,13 +24,13 @@ tags:
 uri: dom/MessageEvent/data
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the content of the message.
 
 Property of [dom/MessageEvent](/dom/MessageEvent)[dom/MessageEvent](/dom/MessageEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [dom/MessageEvent](/dom/MessageEvent)[dom/MessageEvent](/dom/Message
 var data = event.html/elements/data;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type anyany
 
@@ -46,6 +46,6 @@ The content of the message.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 This property contains the value passed to [**postMessage**](/dom/Window/postMessage). Before trusting the data, check the [**URL**](/dom/Window/URL) property of the message request to determine its source.

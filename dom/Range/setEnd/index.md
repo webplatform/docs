@@ -23,35 +23,35 @@ tags:
 uri: dom/Range/setEnd
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the end point of the range.
 
 Method of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = range.setEnd(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>endNode</span>
+### endNode
 
  Data-type
 :   DOM Node
 
  A node in the document hierarchy.
 
-### <span>offset</span>
+### offset
 
  Data-type
 :   Number
 
  Specifies the offset value for the end point.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -65,7 +65,7 @@ This method can return one of these values.
 |InvalidStateError|detach has been invoked on the object.|
 |W3Exception\_DOM\_INDEX\_SIZE\_ERR|offset is negative or greater than the number of child units in refNode.|
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var range = document.createRange();
@@ -74,15 +74,15 @@ var endOffset = document.getElementsByTagName("p").item(3).childNodes.length;
 range.setEnd(endNode,endOffset);
 ```
 
-### <span>Syntax</span>
+### Syntax
 
 range.setEnd(endNode, endOffset);
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-range-setend)
 :   Living Standard

@@ -12,17 +12,17 @@ tags:
 uri: javascript/directives
 
 ---
-## <span>Summary</span>
+## Summary
 
 The following table lists JavaScript directives. A directive is a token that adds certain syntactic and semantic restrictions.
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Return Value</span>
+## Return Value
 
 N/A
 
-## <span>Examples</span>
+## Examples
 
 The "use strict" directive is one of the most known directives that web browsers support.
 
@@ -34,7 +34,7 @@ The "use strict" directive is one of the most known directives that web browsers
 })();
 ```
 
-## <span>Directives</span>
+## Directives
 
 |Description|Language Element|
 |:----------|:---------------|

@@ -24,13 +24,13 @@ tags:
 uri: dom/Navigator/appCodeName
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the internal &quot;code&quot; name of the current browser. Do not rely on this property to return the correct value.
 
 Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 var result = navigator.appCodeName;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 the internal "code" name of the current web browser.
 
-## <span>Examples</span>
+## Examples
 
 the linked example enumerates the navigator object, displaying each property and method on the screen.
 
@@ -54,8 +54,8 @@ navigator.appCodeName
 
 [View live example](http://result.dabblet.com/gist/b1e7c611e97594b60956/56337717d0b88e99b8944707d60bb7072b359788)
 
-## <span>Usage</span>
+## Usage
 
      Should not be used to detect the current web browser vendor or "code" name.
 
-### <span>Syntax</span>
+### Syntax

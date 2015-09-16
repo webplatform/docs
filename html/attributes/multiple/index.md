@@ -14,7 +14,7 @@ tags:
 uri: html/attributes/multiple
 
 ---
-## <span>Summary</span>
+## Summary
 
 The multiple attribute indicates that the user is allowed to enter more than one value in an &lt;input&gt; element.
 
@@ -34,11 +34,11 @@ This attribute can be `true` or `false`. It's valid for inputs with the type [em
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 

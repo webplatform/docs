@@ -7,12 +7,12 @@ The Organization for the Advancement of Structured Information Standards (OASIS)
 
 **Website:** <https://www.oasis-open.org/>
 
-## <span>Organizational Structure</span>
+## Organizational Structure
 
-### <span>Funding</span>
+### Funding
 
-## <span>Communications</span>
+## Communications
 
-## <span>Process</span>
+## Process
 
-## <span>Patent Policy</span>
+## Patent Policy

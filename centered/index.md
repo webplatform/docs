@@ -9,7 +9,7 @@ tags:
 uri: centered
 
 ---
-## <span>centered</span>
+## centered
 
 A form of typographical justification that positions an element horizontally equidistant from the left and right edges of its container element.
 

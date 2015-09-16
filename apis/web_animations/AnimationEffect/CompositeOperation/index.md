@@ -10,7 +10,7 @@ tags:
 uri: 'apis/web animations/AnimationEffect/CompositeOperation'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The possible values of an animation effect's composition behavior are represented by the CompositeOperation enumeration.
 

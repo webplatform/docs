@@ -13,7 +13,7 @@ tags:
 uri: apis/workers
 
 ---
-## <span>Summary</span>
+## Summary
 
 Workers (also commonly referred to as Web Workers) are scripts that run in the background independently of any user interface scripts. This allows for long-running scripts that are not interrupted by scripts that respond to clicks or other user interactions, and allows long tasks to be executed without yielding to keep the page responsive.
 

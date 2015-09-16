@@ -22,28 +22,28 @@ tags:
 uri: apis/webrtc/RTCDataChannel/onerror
 
 ---
-## <span>Summary</span>
+## Summary
 
 An event listener to be called when an error occurs.
 
 Property of [apis/webrtc/RTCDataChannel](/apis/webrtc/RTCDataChannel)[apis/webrtc/RTCDataChannel](/apis/webrtc/RTCDataChannel)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = object.onerror;
 object.onerror = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 EventHandler
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web RTC Specification](http://dev.w3.org/2011/webrtc/editor/webrtc.html)
 :   W3C Editor's Draft

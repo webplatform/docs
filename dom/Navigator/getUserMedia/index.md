@@ -27,21 +27,21 @@ tags:
 uri: dom/Navigator/getUserMedia
 
 ---
-## <span>Summary</span>
+## Summary
 
 Prompts the user for permission to use a media device such as a camera or microphone. If the user provides permission, the successCallback is invoked on the calling application with a LocalMediaStream object as its argument.
 
 Method of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var stream = navigator.getUserMedia(constraints, successCallback, errorCallback);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>constraints</span>
+### constraints
 
  Data-type
 :   MediaStreamConstraints
@@ -54,7 +54,7 @@ If the value or the member is not specified in the object, the value for the mem
 
 There are additional constraints available. <http://simpl.info/getusermedia/constraints/> demonstrates the use of `maxWidth` and `maxHeight` constraints. There is a set of resolutions that is currently supported at the libjingle level. They are summarized [in this chromium ticket](https://code.google.com/p/chromium/issues/detail?id=143631#c9) and can be confirmed in the [libjingle source code](http://libjingle.googlecode.com/svn/trunk/talk/app/webrtc/localvideosource.cc)
 
-### <span>successCallback</span>
+### successCallback
 
  Data-type
 :   function
@@ -69,7 +69,7 @@ There are additional constraints available. <http://simpl.info/getusermedia/cons
        };
     },
 
-### <span>errorCallback</span>
+### errorCallback
 
  Data-type
 :   function
@@ -82,11 +82,11 @@ The getUserMedia function will call the function specified in the errorCallback 
 -   NOT\_SUPPORTED\_ERROR - A constraint specified is not supported by the browser.
 -   MANDATORY\_UNSATISFIED\_ERROR - No media tracks of the type specified in the constraints are found.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type LocalMediaStreamLocalMediaStream
 
-## <span>Examples</span>
+## Examples
 
 This live example uses feature detection to determine if the current web browser and operating system version supports the navigator.getUserMedia method.
 
@@ -96,6 +96,6 @@ This live example uses feature detection to determine if the current web browser
 
 [View live example](http://result.dabblet.com/gist/b0053b13f0dc7d3b8e0c/e7a999df33666b9d624c77ef0d824ad90023842a)
 
-## <span>Notes</span>
+## Notes
 
 The ms prefixed method is only available on windows 8 operating system. At the time of writing the standards getUserMedia method is 'in development'

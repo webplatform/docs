@@ -22,7 +22,7 @@ uri: css/cssom/screen/pixelDepth
 
 Property of [css/cssom/screen](/css/cssom/screen)[css/cssom/screen](/css/cssom/screen)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.pixelDepth;
@@ -31,20 +31,20 @@ element.pixelDepth = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If you retrieve the value of the **pixelDepth** property through a script, you can select an appropriate color to return to the browser. If [**bufferDepth**](/css/cssom/screen/bufferDepth) is 0 or -1, **pixelDepth** is equal to the bits-per-pixel value for the screen or printer. If **pixelDepth** does not equal zero, **pixelDepth** is equal to [**colorDepth**](/css/cssom/screen/colorDepth).
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793), 4.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `screen`

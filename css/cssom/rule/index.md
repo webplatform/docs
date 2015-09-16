@@ -13,11 +13,11 @@ tags:
 uri: css/cssom/rule
 
 ---
-## <span>Summary</span>
+## Summary
 
 The rule object defines a set of Cascading Style Sheet (CSS) attributes applied to a set of HTML elements.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -25,15 +25,15 @@ API Name
 [selectorText](/css/cssom/rule/selectorText)
 :
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 This example uses a **rule** object consisting of the selector **H1** to define a single rule that changes the H1 headings in a document to red.
 
@@ -49,14 +49,14 @@ If the style sheet containing the preceding rule is the first style sheet in the
 oRule=document.styleSheets(0).rules(0)
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **rule** object defines a set of Cascading Style Sheets (CSS) attributes applied to a set of HTML elements. For example, a rule consisting of the selector **H1** and the declaration [**font-family**](/css/properties/font-family):Arial defines all **H1** elements to render in the Arial font. This object is available in script as of Microsoft Internet Explorer 5.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `rules`

@@ -21,13 +21,13 @@ tags:
 uri: dom/HTMLCollection/length
 
 ---
-## <span>Summary</span>
+## Summary
 
 The length or size of the list.
 
 Property of [dom/HTMLCollection](/dom/HTMLCollection)[dom/HTMLCollection](/dom/HTMLCollection)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,7 +35,7 @@ Property of [dom/HTMLCollection](/dom/HTMLCollection)[dom/HTMLCollection](/dom/H
 var lengthOfCollection = collection.length;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 

@@ -14,18 +14,18 @@ tags:
 uri: html/elements/sub
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines subscript text. Subscript text appears half a character below the baseline.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
 This element must be used only to mark up typographical conventions with specific meanings. For the purely visual formatting of content to your liking, use CSS.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **SUB** element to change some of the text to a subscript font.
 
@@ -33,7 +33,7 @@ This example uses the **SUB** element to change some of the text to a subscript 
 (X<SUB>1</SUB>,Y<SUB>1</SUB>)
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-sub-and-sup-elements)
 :   W3C Working Draft
@@ -44,12 +44,12 @@ This example uses the **SUB** element to change some of the text to a subscript 
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-SUB)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [html/elements/sup](/html/elements/sup)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `sup`

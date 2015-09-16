@@ -23,13 +23,13 @@ tags:
 uri: apis/xhr/XMLHttpRequest/upload
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the associated XMLHttpRequestUpload object. It can be used to gather transmission information when data is transferred to a server.
 
 Property of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttp
 var result = element.upload;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 XMLHttpRequestUpload. Each XMLHttpRequest object has an associated XMLHttpRequestUpload object.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function transferComplete(evt) {
@@ -67,7 +67,7 @@ xhr.upload.addEventListener("abort", transferCanceled, false);
 xhr.open();
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft

@@ -14,16 +14,16 @@ tags:
 uri: html/elements/main
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents the main content of the body of a document or application.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 The following example shows a basic usage of the `<main>` element
 
@@ -54,13 +54,13 @@ The following example shows a basic usage of the `<main>` element
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
 -   It is advised to use ARIA `role="main"` attribute on the main element until browsers have implemented the element.
 
 -   There must not be more than one `<main>` element in a document, and it must not be a descendent of an `<article>`, `<aside>`, `<footer>`, `<header>`, or `<nav>` element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-main-element)
 :   W3C Working Draft
@@ -68,11 +68,11 @@ The following example shows a basic usage of the `<main>` element
 [HTML 5](http://www.w3.org/TR/html5/grouping-content.html#the-main-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Document Structure</span>
+#### Document Structure
 
 -   [button](/html/elements/button)
 

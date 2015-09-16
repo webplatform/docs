@@ -20,13 +20,13 @@ tags:
 uri: apis/webaudio/AudioContext/listener
 
 ---
-## <span>Summary</span>
+## Summary
 
 An AudioListener, used for 3D spatialization.
 
 Property of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,20 +34,20 @@ Property of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webau
 var result = AudioContext.listener;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 AudioListener
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
 var myListener = audioCtx.listener;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

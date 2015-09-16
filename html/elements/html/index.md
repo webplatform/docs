@@ -16,11 +16,11 @@ tags:
 uri: html/elements/html
 
 ---
-## <span>Summary</span>
+## Summary
 
 The html element (&lt;html&gt;) represents the root of an HTML document. The &lt;html&gt; tag is the container for all other HTML elements; except for the &lt;!DOCTYPE&gt; tag.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLHtmlElement](/dom/HTMLHtmlElement)
@@ -48,13 +48,13 @@ Internationalization topics related to the `html` element:
 -   [Declaring the overall language of a page](http://www.w3.org/International/techniques/authoring-html#textprocessing)
 -   [Setting up a right-to-left page](http://www.w3.org/International/techniques/authoring-html#using)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When you use the [!DOCTYPE](/html/elements/!DOCTYPE) declaration to specify standards-compliant mode, this element represents the canvas—the entire surface onto which a document's contents can be rendered. When you switch on standards-compliant mode, this element also becomes the positioning container for positioned elements that don't have a positioned parent. When the !DOCTYPE declaration does not specify standards-compliant mode, the **body** object represents the entire surface onto which a document's contents can be rendered.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/semantics.html#the-html-element)
 :   W3C Working Draft
@@ -65,11 +65,11 @@ When you use the [!DOCTYPE](/html/elements/!DOCTYPE) declaration to specify stan
 [HTML 4.01](http://www.w3.org/TR/html401/struct/global.html#edef-HTML)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 

@@ -30,7 +30,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following **div** example renders data in HTML format.
 
@@ -50,17 +50,17 @@ The following **textArea** example renders data in text format.
 <textarea datasrc="#customer" datafld="address" dataformatas="text" rows=6 COLS=60></textarea>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 As of Windows Internet Explorer 7, the **DATAFORMATAS** attribute is no longer supported for the **input type=button** object. The [**dataFld**](/html/attributes/dataFld) property is not available on **param** objects; use [**getAttribute('dataFld')**](/w/index.php?title=dom/methods/getAttribute&action=edit&redlink=1) instead. Internet Explorer 5.01 or later honors the regional settings for the user's control panel when the **DATAFORMATAS** attribute is set to **localized-text**. Internet Explorer 5.01 or later performs a locale-dependent type conversion on the native value, instead of using the *data source object* to perform the conversion, when binding a textual element such as a **span**, **div**, or **input** to date, currency, or numeric data. Microsoft Internet Explorer 5 does not provide this feature. To compensate for this limitation, a *data source object* can implement **ISimpleDataConverter** to participate in the conversion. Neither of these features is supported in earlier versions of Windows Internet Explorer.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `button`
 -   `div`

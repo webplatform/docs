@@ -12,15 +12,15 @@ tags:
 uri: 'tutorials/canvas/Canvas tutorial/Compositing'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Here we explain how to combine shapes. There are examples about how to logically add/subtract/layer shapes and about how to use clipping paths.
 
-## <span>Introduction</span>
+## Introduction
 
 In all of our previous examples, shapes were always drawn one on top of the other. This is more than adequate for most situations. This, for instance, limits in what order composite shapes are built up. We can however change this behaviour by setting the `globalCompositeOperation` property.
 
-## <span>`globalCompositeOperation`</span>
+## `globalCompositeOperation`
 
 We can not only draw new shapes behind existing shapes but we can also use it to mask off certain areas, clear sections from the canvas (not limited to rectangles like the `clearRect` method does) and more.
 
@@ -78,7 +78,7 @@ We can not only draw new shapes behind existing shapes but we can also use it to
 
 **Note**: Currently the `copy` setting doesn't do anything in the Gecko 1.8 based browsers (Firefox 1.5 betas, etc).
 
-## <span>Clipping paths</span>
+## Clipping paths
 
 ![Canvas with a checkered image and a star-shaped clipping path](/assets/public/7/77/Canvas_clipping_path.png)
 
@@ -92,7 +92,7 @@ In the chapter about [canvas/tutorial/Canvas tutorial/Drawing shapes] I only men
 
 We use the `clip` method to create a new clipping path. By default the canvas element has a clipping path that's the exact same size as the canvas itself (i.e. no clipping occurs).
 
-#### <span>A `clip` example</span>
+#### A `clip` example
 
 ![Canvas with an image of stars and a circular clipping shape](/assets/public/d/d4/Canvas_clip.png)
 

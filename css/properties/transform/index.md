@@ -25,11 +25,11 @@ tags:
 uri: css/properties/transform
 
 ---
-## <span>Summary</span>
+## Summary
 
 CSS transforms allow elements styled with CSS to be transformed in two-dimensional or three-dimensional space. Using this property, elements can be translated, rotated, scaled, and skewed. The value list may consist of 2D and/or 3D transform values.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -55,7 +55,7 @@ Animatable
 Percentages
 :   Refer to the size of the element's bounding box.
 
-## <span>Syntax</span>
+## Syntax
 
 -   `transform: matrix(a, b, c, d, e, f)`
 -   `transform: matrix3d(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p)`
@@ -80,7 +80,7 @@ Percentages
 -   `transform: translateY(y)`
 -   `transform: translateZ(tz)`
 
-## <span>Values</span>
+## Values
 
 none
 :   Specifies that no transform should be applied.
@@ -148,7 +148,7 @@ rotateZ(az)
 perspective(p)
 :   Specifies a perspective projection matrix, which scales points in the X and Y directions based on their Z value. Thus, points with positive Z values are scaled away from the origin, and those with negative Z values are scaled toward the origin.
 
-## <span>Examples</span>
+## Examples
 
 Translate the object by 150 pixels along the x and y axes.
 
@@ -206,18 +206,18 @@ Scale the element by the factor of 3 on the x axis and by the factor of 0.5 by t
 
 [View live example](http://code.webplatform.org/gist/6982706)
 
-## <span>Notes</span>
+## Notes
 
 Any value other than "none" results in the creation of both a stacking context and a containing block. The containing block is for fixed positioned descendants.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Transforms Module Level 3](http://www.w3.org/TR/css3-transforms)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 Cross Browser CSS Transforms – Even in IE <http://www.useragentman.com/blog/2010/03/09/cross-browser-css-transforms-even-in-ie/>
 

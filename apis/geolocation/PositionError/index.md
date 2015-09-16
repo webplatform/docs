@@ -14,11 +14,11 @@ tags:
 uri: apis/geolocation/PositionError
 
 ---
-## <span>Summary</span>
+## Summary
 
 The container for Position error information returned by this API.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -29,15 +29,15 @@ API Name
 [message](/apis/geolocation/PositionError/message)
 :   The error text of the current PositionError, describing the details of the error encountered. This attribute is primarily intended for debugging and developers should not use it directly in their application user interface.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 Displays error with detailed information.
 
@@ -70,7 +70,7 @@ else
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

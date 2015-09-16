@@ -20,35 +20,35 @@ uri: svg/objects/SVGPathSegClosePath
 ---
 Inherits from [SVGElement](/svg/objects/SVGElement)[SVGElement](/svg/objects/SVGElement)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from SVGElement</span>
+## Inherited from SVGElement
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -56,11 +56,11 @@ The closepath command (**Z** or **z**) ends the current subpath and causes an au
 
 When a subpath ends in a "closepath" command, the implementation of 'stroke-linejoin' and 'stroke-linecap' differs from when you manually close a subpath through a "lineto" command. With a "closepath" command, the end of the final segment of the subpath is joined with the start of the initial segment of the subpath by using the current value of 'stroke-linejoin'. If you manually close the subpath through a "lineto" command, the start of the first segment and the end of the last segment are each capped by using the current value of 'stroke-linecap' instead of being joined. At the end of the command, the new current point is set to the initial point of the current subpath.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Paths](http://go.microsoft.com/fwlink/p/?linkid=204736), Section 8.5.2
 
-### <span>Members</span>
+### Members
 
 The **SVGPathSegClosePath** object has these properties:
 

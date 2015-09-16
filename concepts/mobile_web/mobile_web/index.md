@@ -9,15 +9,15 @@ tags:
 uri: 'concepts/mobile web/mobile web'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This concept page explains in general terms what mobile web is and its brief history.
 
-## <span>Introduction</span>
+## Introduction
 
 The [Web Standards Curriculum Table of contents](http://www.w3.org/wiki/Web_Standards_Curriculum) is about advocating best practices for the web and providing complete coverage of all the skills you need to create modern websites, in doing so making the Web a better place for all of us to work and browse. This mini series expands the core web standards curriculum articles, look at all the skills and concepts you should take on board to help optimize your websites so that they run successfully on mobile (and other alternative) devices. I’ll start by taking a look at the subject area in general and special considerations for marking up and running pages on mobile devices, then move on to styling, scripting and testing as they relate to **mobile web development**.
 
-## <span>A definition of the mobile web</span>
+## A definition of the mobile web
 
 The mobile web is one of those over-used terms that has lost all of its meaning, or worse yet, continues to confuse and perpetuate the mobile myth. If you were to ask web developers to define what the mobile web means, you would get as many different answers as people you asked. It is important then, to define what I mean by the mobile web and how you should be discussing and thinking about it.
 
@@ -27,7 +27,7 @@ Having a second web just for mobile devices is contrary to the W3C’s vision an
 
 Using Web Standards and best practices, you should be able to make your site mobile friendly without too much extra work, for example using [Graceful degradation versus progressive enhancement](/tutorials/graceful_degradation_versus_progressive_enhancement). The mobile web is an ever-growing corner of the market that businesses cannot afford to ignore. In a number of countries, more people use mobile phones to access the Web than desktop computers, and somewhere in 2008 the percentage of the world's population that carries mobile phones broke past the 50% barrier - an estimated 4 billion phones.
 
-## <span>Challenges associated with the mobile web</span>
+## Challenges associated with the mobile web
 
 The mobile web has always been confusing and difficult for many people to get used to developing for, due mainly to lots of over-hyped jargon and terms that the average web developer has never seen or needed to deal with. Things like content carriers, WAP and the deck, many of which aren't really relevant to the subject area any more. When we create traditional HTML websites, we simply upload them to our server space with our Web-hosting provider and that’s it. It didn’t matter if the customer was coming from America, Europe, Asia or elsewhere, or if they were on a dial-up modem at home or a super-fast fiber optic connection at a University; all the infrastructure between your website and the customer’s desktop computers worked the same way every time.
 
@@ -35,11 +35,11 @@ This is not true when we are talking about mobile devices accessing the Web. In 
 
 While that sounds daunting, you shouldn’t let it scare you. As a web developer or designer, all you need to understand to create your website in a mobile friendly way is that there are some considerations you need to take into account. These limitations include styling, scripting and thorough testing on a variety of devices. Your existing skill-set for creating traditional websites is much the same as for mobile websites. The rest of this article will summarize all of these points to help give you a feel for the topic and address all of the areas to consider. Future mobile articles will give these areas a deeper treatment.
 
-## <span>Mobile limitations</span>
+## Mobile limitations
 
 While creating a site that will work on mobile devices largely involves sticking to the same web standards and best practices as you need to use for desktop browser-compatible sites, you still need to consider the limitations imposed by such compact devices. While the mobile infrastructure is getting better and more devices are equipped with WiFi, there are still some issues. Hopefully, over time, the following points will become obsolete, but for the near future these are still critical considerations today, and will remain so for some time. You must realize that the capabilities of mobile devices differ greatly and that the top of the range smartphones, such as the iPhone, HTC One X, Nokia Lumina and Samsung Galaxy (and other Android, S60 and Windows Phone-based phones), constitute only a small percentage world-wide of the overall Web-enabled phone population.
 
-### <span>Screen size/resolution</span>
+### Screen size/resolution
 
 For those of you too young to remember, there was a time when you would visit a website and they would have a small disclaimer along the lines of Best viewed in Netscape Navigator at 640x480. You couldn't guarantee the higher resolutions we take for granted today. On mobile devices, screen resolutions still vary greatly, and this doesn't look as if it will change any time soon.
 
@@ -47,23 +47,23 @@ When constructing a mobile version of your website, how can you be sure that you
 
 Using CSS media queries, JavaScript or the `viewport` meta tag, it is possible to send some CSS targeted specifically to mobile devices without any server-side coding. You will learn more about these later on in this series of articles.
 
-### <span>Input mechanisms</span>
+### Input mechanisms
 
 Mobile devices have very different methods of input than desktop machines. When you are at work, your desktop machine probably has a full QWERTY keyboard, a multi-button mouse, possibly a number pad, etc. On a mobile device, you might only have a number pad. You can’t guarantee a full QWERTY keyboard or a pointing device. This makes data entry, even cycling through links, a different experience than when at a stationary desk.
 
 If you have built your website using progressive enhancement, then its functionality should not depend on any of these advanced input devices, but should be accessible to everyone using just about any form of input device.
 
-### <span>Processing power and available memory</span>
+### Processing power and available memory
 
 Mobile devices generally have less memory than their desktop brethren. This creates limitations in the amount of processing they can handle, which limits implementations of JavaScript, Flash and other technologies. These tend to drain batteries, create a slower user-experience and increase the bandwidth - this last point can increase the cost to the user of downloading your web content if they are paying by the kilobyte, which many are. As we’ll see later, these processor limitations account for the mobile web’s evolution along the XML path rather than the HTML/SGML path.
 
-### <span>Available fonts and colours</span>
+### Available fonts and colours
 
 On your desktop computer, you can happily install all sorts of fonts and families, from serif to san-serif, from symbols to wingdings, but on mobile devices, you are not so privileged. Some devices have as few as one standard fixed-width font, and perhaps a bold or italic variant. This makes corporate branding a nightmare. Not to mention all your nicely designed navigation items in variable width fonts looking bad!
 
 Along with limited fonts, some devices have a limited colour palette, although this is less of an issue now - most new phones come with thousands of colours, and monochrome phones are rare now.
 
-### <span>Web standards support</span>
+### Web standards support
 
 Not all phones are equipped with web browsers that share the capabilities of today’s modern desktop browsers. Some have full support for the common Web Standards like HTML, CSS and JavaScript. Some only support a certain subset of these standards or use different standards entirely (see the next section for a discussion of WML, cHTML and XHTML-MP). Some support HTML, but not CSS or JavaScript. Other mobile browsers such as [Opera Mini](http://www.opera.com/mini/) or [Nokia Browser for Series 40](http://www.developer.nokia.com/Develop/Series_40/Nokia_Browser_for_Series_40/) use a proxy system in which a server farm retrieves the requested web page, optimizes and reduces it in file size, then sends it to the browser for display.
 
@@ -71,11 +71,11 @@ The strategy here is to test, test, test, and make sure your websites degrade gr
 
 Note that you can test websites on Opera Mini using the [Opera Mini Simulator](http://www.opera.com/mini/demo/) or Nokia Browser using the [Nokia Web Tools](http://www.developer.nokia.com/Develop/Series_40/Series_40_web_apps/Tools/#article1) if you haven't got a phone handy.
 
-## <span>Mobile advantages</span>
+## Mobile advantages
 
 Mobile devices do have some advantages over their desktop and even laptop cousins. When you are designing sites for mobile devices, it is possible to take advantage of some of these features to enrich the experience over other devices.
 
-### <span>Mobile means moving about!</span>
+### Mobile means moving about!
 
 Mobiles (and laptops for that matter) can go with you wherever you go, which opens up a whole world of new possibilities for location-aware applications — applications that give you appropriate data depending on where you are, for example restaurant suggestions, transport details, cinema times and locations, location of your friends, etc. Current location can be captured by some devices, through means such as GPS, web services and triangulation, and you can use this information in your web applications in various ways, for example through the experimental [W3C Geolocation API](http://www.w3.org/TR/geolocation-API/), or through a location broker API such as [Yahoo! Fire Eagle](http://fireeagle.yahoo.net/). I won’t cover LBS any more in this article series, as it is an advanced topic, and the technologies to allow you to do so are largely at a pretty early stage. Here are some links to some more details about some of the important technologies around this area:
 
@@ -84,7 +84,7 @@ Mobiles (and laptops for that matter) can go with you wherever you go, which ope
 -   [W3C Geolocation API spec](http://www.w3.org/TR/geolocation-API/)
 -   [GeoRSS: Geographically encoded objects for RSS feeds](http://www.georss.org/)
 
-### <span>Cameras, phones and other hardware features</span>
+### Cameras, phones and other hardware features
 
 Mobile devices have many hardware features that desktop computers don’t. The two most obvious are:
 
@@ -95,11 +95,11 @@ Mobile devices have many hardware features that desktop computers don’t. The t
 
     Note the inclusion of the phone number in the link text as well — while this may seem a little repetitious, bear in mind that some browsing devices won’t support the `tel:` protocol, such as our old friend the desktop computer.
 
-## <span>Mobile web technologies</span>
+## Mobile web technologies
 
 Your knowledge of Web Standards as applied to creating traditional websites can easily be applied to developing mobile sites. There are however some additional acronyms and a bit of history to fully understand where we are today and how we got here. Depending on your target audience and the types of phones they are using, you might just be able to stick to standard HTML and CSS, or you might need to take a step back to something different.
 
-### <span>WML</span>
+### WML
 
 WML stands for Wireless Mark-up Language and was created in 1998. Before that, there was no standard used specifically for mobile devices.
 
@@ -123,13 +123,13 @@ There are several downsides to using WML. Even though it does have a scripting l
 
 We really do not recommend that you start creating sites using WML - this is really just a history lesson. For old, low power mobile devices there is [Opera Mini](http://www.opera.com/mini), which can run on pretty much any device with a JVM).
 
-### <span>Compact HTML</span>
+### Compact HTML
 
 Around the same time as WML was created, CHTML was also born. CHTML stands for Compact HTML and is a subset of early versions of HTML from the late nineties. Since CHTML is much more like HTML it can be viewed in regular desktop browsers. Even back in 1998, they were beginning to realize the difficulty with maintaining multiple versions of a single website.
 
 Eventually, CHTML evolved into i-mode HTML in Japan, but it has since been superseded by XHTML Basic and then XHTML Mobile Profile elsewhere. The use of Compact HTML has been relegated to history, but it was a perfect demonstration of the forward thinking of its creators in following the One Web philosophy.
 
-### <span>XHTML mobile profile</span>
+### XHTML mobile profile
 
 XHTML-MP is a subset of the XHTML mark-up, which is very similar to regular HTML but with a few more restrictions. Knowing standard HTML gets you 99% of the way towards understanding XHTML and XHTML-MP.
 
@@ -153,7 +153,7 @@ the below code shows an example XHTML-MP document (note the different doctype):
 
 Note that one subtle difference between XHTML-MP and XHTML-Basic is that XHTML-Basic needs to be served up with a mimetype of `application/xhtml+xml`. Doing so tends to break older versions of Internet Explorer, which attempt to download or display the file as XML, rather than render it as a Web page. XHTML-MP on the other hand commonly uses a mimetype of `application/vnd.wap.xhtml+xml`, but can also be served as `application/xhtml+xml` or even `text/html` so that any browser can display it.
 
-### <span>XHTML</span>
+### XHTML
 
 Finally, there is plain XHTML. This is the XML version of your vanilla HTML. If you are a competent Web Developer, then this should be nothing new to you. In fact, if you are not creating anything wildly specific, you might be producing XHTML that is MP/Basic compliant already. You can easily switch the doctype and see if you get any validation errors.
 
@@ -161,11 +161,11 @@ As we’ve seen, all of the mark-up languages available to mobile devices are fr
 
 As more and more mobile devices are using slimmed down versions of their desktop counterpart’s rendering engines, the ability to browse standard (X)HTML pages is increasing. And of course, you can stick with an HTML doctype if you wish — many mobile browsers will support those too; I am recommending an XHTML doctype really so that a strict set of rules is enforced, hopefully leading to fewer errors, smaller downloads, and less processing strain for mobile devices viewing your site. But it is up to you.
 
-## <span>CSS and Semantic Mark-up</span>
+## CSS and Semantic Mark-up
 
 Many of the design and layout tricks that we have developed over the years to keep our mark-up as semantic as possible, fall down on mobile devices.
 
-### <span>Image Replacement</span>
+### Image Replacement
 
 One example is image replacement for headlines - the use of CSS to create a background image on a heading element and then shift the text off the page to display just the background image, which could be a company logo, or a really fancy typographically appealing version of the text heading. This allows designers to have more control over the design of the heading while at the same time keeping the original text heading present so that it can be read by screen readers and search engines.
 
@@ -181,7 +181,7 @@ Figure 1: Our finished heading, with background gradient and image replacement.
 
 The markup for this heading looks like so:
 
-    <h1><span>ABC co.</span></h1>
+    <h1>ABC co.</h1>
 
 The process by which we would optimize this heading might go something like this.
 
@@ -253,7 +253,7 @@ Figure 8: The logo background is now solid blue, so it is visible on devices wit
 
 While this is not optimal mark-up, but gives the most consistent rendering across all devices. As with any development, there are trade-off to what can and can't be achieved, you need to be aware of these problems and address them accordingly.
 
-## <span>Summary</span>
+## Summary
 
 This article was just a brief introduction to the world of mobile Web Development, including some of the technical and design hurdles you need to be aware of before getting started. I touched on issues with CSS, mark-up and some of the limitations and advantages across the different mobile browsers.
 
@@ -261,7 +261,7 @@ All of these different renderings and interpretations are not to be considered b
 
 The sooner you accept this and move on, the sooner you can begin to develop better websites. From screen-size and resolution, to installed fonts and colors, to image and HTML support, not all phones are created equal, so the best you can do is present the best, most flexible, equivalent design you can — which does not mean identical. This is where testing is key! Testing is an important part of any web development process, but especially so for mobile devices due to the diverse range of devices and capabilities.
 
-## <span>Exercise questions</span>
+## Exercise questions
 
 -   How many versions of your website should you create to support the mobile web?
 -   Explain progressive enhancement

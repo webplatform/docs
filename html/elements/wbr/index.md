@@ -17,16 +17,16 @@ tags:
 uri: html/elements/wbr
 
 ---
-## <span>Summary</span>
+## Summary
 
 The Word Break Opportunity (wbr) element represents a position within text where the browser may optionally break a line, though its line-breaking rules would not otherwise create a break at that location.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **WBR** element to create line breaks. In contrast, the **NOBR** element does not break lines.
 
@@ -36,9 +36,9 @@ This example uses the **WBR** element to create line breaks. In contrast, the **
 if the window gets small enough.</NOBR>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 A soft line break is a point inside a **NOBR** section at which a line break is permitted but not required.
 
@@ -50,7 +50,7 @@ displays, when not broken on two lines, 123,456 and not 456,123.
 
 For the same reason, the \<﻿wbr﻿\> element does not introduce a hyphen at the line break point. To make a hyphen appear only at the end of a line, use the soft hyphen character entity (&﻿shy;) instead.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-wbr-element)
 :   W3C Working Draft
@@ -58,8 +58,8 @@ For the same reason, the \<﻿wbr﻿\> element does not introduce a hyphen at th
 [HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-wbr-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `br`

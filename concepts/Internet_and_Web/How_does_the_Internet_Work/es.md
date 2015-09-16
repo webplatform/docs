@@ -73,7 +73,7 @@ translations:
 uri: 'concepts/Internet and Web/How does the Internet Work/es'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Muy pocas veces te ofrecen una mirada tras bastidores a los engranajes y maquinarias de la acción. Hoy es tu día de suerte. En este artículo te daremos acceso detrás del escenario a una de las tecnologías más famosas, una con la cual ya debes estar familiarizado: el World Wide Web.
 
@@ -87,13 +87,13 @@ En este artículo cubriremos las tecnologías fundamentales que mueven el World 
 
 Aunque la mayoría de lo que será cubierto aquí no te ayudará a construir un mejor sitio web, si te dará el lenguaje apropiado a usar cuando hables con clientes u otras personas acerca de la Web. En este artículo se va a mirar brevemente cómo las computadoras se comunican. Luego los diferentes lenguajes que trabajan en equipo para crear las páginas que componen la Web.
 
-## <span>¿Cómo se comunican las computadoras a través del Internet?</span>
+## ¿Cómo se comunican las computadoras a través del Internet?
 
 Afortunadamente, hemos mantenido las cosas simples para las computadoras. En el caso del World Wide Web, la gran mayoría de las páginas están escritas en el mismo lenguaje, HTML, el cual se mueve alrededor usando un protocolo común - HTTP. HTTP es el lenguaje común del Internet (dialecto o especificación). El mismo permite, por ejemplo, que una máquina Windows cante en harmonía con una máquina corriendo la última versión de Linux. A través del uso de un navegador (un software que interpreta HTTP y traduce HTML a una forma que el ser humano pueda leer), páginas web creadas en HTML en cualquier tipo de computadora pueden ser leídas en cualquier lugar, incluyendo teléfonos, PDAs e inclusive las populares consolas de juegos.
 
 Aunque la variedad de dispositivos que pueden acceder la web usan el mismo idioma, debe haber reglas que les permita comunicarse entre unos y otros – es como aprender a levantar la mano en clase para hacer una pregunta. HTTP establece estas reglas para el Internet. Por causa del HTTP, una máquina cliente (como tu computadora) sabe que tiene que ser ella la que inicie la solicitud de una página web. La computadora envía esta solicitud a un **servidor**. Un servidor es una computadora en donde residen los sitios web. Cuando escribes una dirección web en tu navegador, un servidor recibe tu solicitud, encuentra la página web que quieres y la envía de vuelta a tu computadora para que tu navegador la muestre.
 
-### <span>Disección de un ciclo de solicitud/respuesta</span>
+### Disección de un ciclo de solicitud/respuesta
 
 Ahora que hemos visto todas las partes que permiten que las computadoras puedan comunicarse a través del Internet, vamos a ver con más detalle el ciclo de solicitud/respuesta del protocolo HTTP. Debajo hay varios pasos detallados para así intentar demostrar más eficientemente algunos conceptos.
 

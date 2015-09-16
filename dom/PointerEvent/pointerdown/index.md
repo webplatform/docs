@@ -11,11 +11,11 @@ tags:
 uri: dom/PointerEvent/pointerdown
 
 ---
-## <span>Summary</span>
+## Summary
 
 Dispatched when a pointer enters the state of having a non-zero value for the buttons property.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -73,19 +73,19 @@ For mouse, this is when the device has at least one button depressed. For touch,
 
 For input devices that do not support hover, the user agent also fires a pointerover event preceding the pointerdown event.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 element.addEventListener("pointerdown", handler, useCapture)
 ```
 
-## <span>Notes</span>
+## Notes
 
 Some pointer devices, such as mouse or pen, support multiple buttons. In the [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/) Mouse Event model, each button press produces a mousedown and mouseup event.
 
 Pointer Events do not fire overlapping pointerdown and pointerup events when an additional button is depressed while another button on the pointer device is already depressed. For detecting these cases, see [Chorded Button Interactions](http://www.w3.org/TR/pointerevents/#chorded-button-interactions) in the PointerEvents specification.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Pointer Events](http://www.w3.org/TR/pointerevents)
 :   Working Draft

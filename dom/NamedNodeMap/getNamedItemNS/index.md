@@ -22,41 +22,41 @@ tags:
 uri: dom/NamedNodeMap/getNamedItemNS
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets an attribute with a given name and a given namespace.
 
 Method of [dom/NamedNodeMap](/dom/NamedNodeMap)[dom/NamedNodeMap](/dom/NamedNodeMap)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var attribute = attributes.getNamedItemNS(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>namespace</span>
+### namespace
 
  Data-type
 :   String
 
  The namespace name of the attribute to get.
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The local name of the desired attribute within the specified namespace.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The attribute with the name and namespace.
 
-## <span>Examples</span>
+## Examples
 
 Create a SVG circle element.
 
@@ -66,11 +66,11 @@ var osvgCircleTag=document.createElementNS(nsSVG,'circle');
 alert(osvgCircleTag.getNamedItemNS(nsSVG,'r');
 ```
 
-## <span>Usage</span>
+## Usage
 
      Used to create and manipulate XML and SVG documents.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

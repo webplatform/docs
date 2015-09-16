@@ -14,16 +14,16 @@ tags:
 uri: html/elements/select
 
 ---
-## <span>Summary</span>
+## Summary
 
 The select element is used to create a drop-down list. Used with option tags inside the select element to define the available options in the list.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLSelectElement](/dom/HTMLSelectElement)
 
-## <span>Attributes</span>
+## Attributes
 
 -   `autofocus` = boolean
     Allows the author to indicate that a control is to be focused as soon as the page is loaded
@@ -42,14 +42,14 @@ The select element is used to create a drop-down list. Used with option tags ins
     Gives the number of options to show to the user.
     If the multiple attribute is present, then the size attribute's default value is 4. If the multiple attribute is absent, then the size attribute's default value is 1.
 
-## <span>Internationalization</span>
+## Internationalization
 
 Internationalization topics related to the `select` element:
 
 -   [Linking to localized content](http://www.w3.org/International/techniques/authoring-html#linkloc)
 -   [Working with form controls](http://www.w3.org/International/techniques/authoring-html#formcontrols) (specifically sorting of select options)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **SELECT** element to create a drop-down list box.
 
@@ -80,13 +80,13 @@ option.value="4";
 document.getElementById("select-element").add(option);
 ```
 
-## <span>Notes</span>
+## Notes
 
 In the Browser app for Android 4.1 (and possibly later versions), there is a bug where the menu indicator triangle on the side of a **select** will not be displayed if a `background`, `border`, or `border-radius` style is applied to the **select**.
 
 Firefox for Android, by default, sets a `background-image` gradient on all `<select multiple>` elements. This can be disabled using `background-image: none`.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-select-element)
 :   W3C Working Draft

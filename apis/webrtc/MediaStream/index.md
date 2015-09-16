@@ -14,11 +14,11 @@ tags:
 uri: apis/webrtc/MediaStream
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MediaStream interface of the WebRTC API describes a stream of audio or video data. A MediaStream object represents a linear, potentially infinite timeline. It is not preloadable, nor is it seekable.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -38,11 +38,11 @@ API Name
 [videoTracks](/apis/webrtc/MediaStream/videoTracks)
 :   The MediaStreamTrackList object representing the video tracks.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -50,7 +50,7 @@ API Name
 [ended](/apis/MediaStream/ended)
 :   All tracks of the MediaStream object have ended; the MediaStream is said to be finished.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 navigator.getUserMedia =
@@ -59,7 +59,7 @@ navigator.getUserMedia =
 
 [View live example](https://github.com/samdutton/simpl/blob/master/getusermedia/wpd.html)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [WebRTC 1.0: Real-time Communication Between Browsers](http://www.w3.org/TR/webrtc/)
 :   Working Draft

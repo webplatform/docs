@@ -11,11 +11,11 @@ tags:
 uri: javascript/Boolean/constructor
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initializes a Boolean object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -27,7 +27,7 @@ Initializes a Boolean object.
 **value**
 :   Optional. Specifies the value of the Boolean object. This can be the numbers 1 or 0, or the strings "true" or "false".
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the constructor property.
 
@@ -40,13 +40,13 @@ var x = new Boolean("true");
  // Object is a Boolean.
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **constructor** property contains a reference to the function that constructs instances of the Boolean object.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.6 Boolean Objects](http://www.ecma-international.org/ecma-262/5.1/#sec-15.6) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

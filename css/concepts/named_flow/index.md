@@ -11,7 +11,7 @@ tags:
 uri: 'css/concepts/named flow'
 
 ---
-## <span>Summary</span>
+## Summary
 
 An object that contains content diverted from one set of elements, which can then be threaded through another series of regions that display the content.
 
@@ -27,11 +27,11 @@ There can be more than one **named flow** in a document. Each named flow can acc
 
 For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 

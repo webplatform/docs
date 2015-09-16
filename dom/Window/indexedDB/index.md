@@ -23,26 +23,26 @@ tags:
 uri: dom/Window/indexedDB
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides access to the IndexedDB features supported by the browser and/or device.
 
 Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var ixDBHandle = window.indexedDB;
 window.indexedDB = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type IDBFactoryIDBFactory
 
 A handle to the IndexedDB "factory," which allows access to IndexedDB features on the current browser/device.
 
-## <span>Examples</span>
+## Examples
 
 The following example uses feature detection to determine whether IndexedDB is supported by the current browser/device.
 
@@ -67,15 +67,15 @@ if ( getIndexHandle == null ) {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 For security reasons, Internet Explorer support for the [**indexedDB**](/apis/indexeddb/IDBFactory) property is limited to webpages loaded using the "http://" or "https://" protocols.
 
 **Note:**  In pre-release versions of Internet Explorer 10, the **indexedDB** was accessed using a vendor prefix (**msIndexedDB**). Such use is considered obsolete; applications using the vendor prefix should be updated to ensure standards-compliance and future compatibility.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Indexed Database API](http://www.w3.org/TR/IndexedDB/)
 :   Candidate Recommendation

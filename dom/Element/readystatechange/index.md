@@ -12,7 +12,7 @@ uri: dom/Element/readystatechange
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -66,7 +66,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the **onreadystatechange** event to invoke a function when the [**readyState**](/dom/Element/readyState) is complete.
 
@@ -81,9 +81,9 @@ function fnStartInit()
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 You can use the [**readyState**](/dom/Element/readyState) property to query the current state of the element when the **onreadystatechange** event fires. All elements expose an **onreadystatechange** event. The following objects always fire the event because they load data: **applet**, [**Document**](/dom/Document), **frame**, **frameSet**, **iframe**, **img**, **link**, **object**, **script**, and **xml** elements. Other objects will only fire the **onreadystatechange** event when a DHTML Behavior is attached. When working with behaviors, wait for the **onreadystatechange** event to fire and verify that the **readyState** property of the element is set to **complete** to ensure that the behavior is completely downloaded and applied to the element. Until the **onreadystatechange** event fires, if you use any of the behavior-defined members before attaching the behavior to the element, a scripting error can result, indicating that the object does not support that particular property or method. Signals the ready state of the document. To invoke this event, do one of the following:
 
@@ -116,13 +116,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

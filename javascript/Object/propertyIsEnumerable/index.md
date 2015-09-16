@@ -11,11 +11,11 @@ tags:
 uri: javascript/Object/propertyIsEnumerable
 
 ---
-## <span>Summary</span>
+## Summary
 
 Determines whether a specified property is enumerable.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -24,7 +24,7 @@ Determines whether a specified property is enumerable.
 **proName**
 :   Required. String value of a property name.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var a = new Array("apple", "banana", "cactus");
@@ -33,15 +33,15 @@ var a = new Array("apple", "banana", "cactus");
  // Output: true
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **propertyIsEnumerable** method returns true if proName exists in object and can be enumerated using a For loop. The **propertyIsEnumerable** method returns false if object does not have a property of the specified name or if the specified property is not enumerable. Typically, predefined properties are not enumerable, but user-defined properties are always enumerable.
 
 The **propertyIsEnumerable** method does not consider objects in the prototype chain.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.2.4.7 Object.prototype.propertyIsEnumerable (V)](http://www.ecma-international.org/ecma-262/5.1/#sec-15.2.4.7) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

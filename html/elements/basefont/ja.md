@@ -22,13 +22,13 @@ todo_broken_links:
 uri: html/elements/basefont/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 basefont要素はページ全体のテキストのデフォルトとなるcolorやfont-sizeを明記するためのものです。
 
 `basefont`要素はHTML4で非推奨となったため、使用すべきではありません。（HTML5では廃止されています）
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLBaseFontElement](/dom/HTMLBaseFontElement)
@@ -37,7 +37,7 @@ basefont要素はページ全体のテキストのデフォルトとなるcolor�
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML4](http://www.w3.org/TR/1999/REC-html401-19991224/present/graphics.html#edef-BASEFONT)
 :   W3C Recommendation

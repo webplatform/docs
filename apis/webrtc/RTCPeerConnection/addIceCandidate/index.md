@@ -18,37 +18,37 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/addIceCandidate
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides a remote candidate to the ICE agent.
 
 Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  element.addIceCandidate(candidate);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>candidate</span>
+### candidate
 
  Data-type
 :   RTCIceCandidate
 
  See [RTCIceCandidate](/apis/webrtc/RTCIceCandidate).
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      An exception with an RTCError object of type INVALID_CANDIDATE_TYPE is thrown if candidate parameter is malformed.
 
-## <span>Notes</span>
+## Notes
 
 In addition to being added to the remote description, connectivity checks will be sent to the new candidates as long as the `IceTransports` constraint is not set to `none`. This call will result in a change to the state of the ICE Agent, and may result in a change to media state if it results in different connectivity being established.

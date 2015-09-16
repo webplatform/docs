@@ -13,11 +13,11 @@ tags:
 uri: 'tutorials/building web apps'
 
 ---
-## <span>Summary</span>
+## Summary
 
 In this tutorial, we'll provide you with the architectural understanding, frameworks and tools you'll need in order to create web apps. We'll also explain how they should be used and how they fit together.
 
-## <span>Architecture</span>
+## Architecture
 
 First, think of this simple use case. A user lands on a mobile web app that displays movie listings and clicks on a link to the "Inception" movie.
 
@@ -63,7 +63,7 @@ Again, once the browser receives this data, the JavaScript, HTML and CSS that wa
 
 In this flow, the user never navigates away from the first page they land on. Because of that, you can think of a web app as a "single-page website", as opposed to the traditional "multiple-page website".
 
-## <span>Building JSON APIs</span>
+## Building JSON APIs
 
 For more information on building proper JSON APIs, [check out this excellent guide](http://bitworking.org/news/restful_json).
 
@@ -71,7 +71,7 @@ Also, note that WebSockets is a newly available technology that allows real-time
 
 Now that you have an overview of what a web app is, and you have some background on building APIs, let’s start building the web app client.
 
-## <span>MVC Frameworks</span>
+## MVC Frameworks
 
 Using a Model-View-Controller (MVC) model will help you make your JavaScript code more flexible and easier to maintain. This is especially important since you’re building a web app, which will likely be handling complicated data. MVC is a design pattern that breaks a web app into three parts: the data (Model), the presentation of that data to the user (View), and the actions taken for any user interaction (Controller).
 
@@ -79,7 +79,7 @@ We’re not going to dive too deeply into this subject since there are great res
 
 There are a lot of very popular JavaScript frameworks already available, but very few of them use a MVC model. However, there are a couple of burgeoning open source frameworks available.
 
-### <span>[Backbone JS](http://documentcloud.github.com/backbone/)</span>
+### [Backbone JS](http://documentcloud.github.com/backbone/)
 
 Backbone JS is a lightweight MVC framework that features key-value binding, custom events,and views with declarative event handling. Typically, developers write the UI themselves or pair Backbone with other JavaScript frameworks like jQuery or Zepto (more on those below).
 
@@ -87,7 +87,7 @@ You can read more about it on the [Backbone JS website](http://documentcloud.git
 
 Example web apps that use Backbone include [SoundCloud](http://m.soundcloud.com/), [Basecamp](http://basecamphq.com/mobile) and [Pandora](http://www.pandora.com/newpandora).
 
-### <span>[Ember.js](http://emberjs.com/)</span>
+### [Ember.js](http://emberjs.com/)
 
 Ember.js is an MVC framework focused on data-centric apps. It provides a data-binding system that ensures that changes to data propagate correctly across all of the views of your web app. It also provides a standard application architecture, with built-in support for state management.
 
@@ -95,7 +95,7 @@ You can read more about it on [Ember's website](http://www.emberjs.com/).
 
 A number of live web apps are actively using Ember, including [Square](https://squareup.com/), [Zendesk](http://www.zendesk.com/) and [LivingSocial](http://livingsocial.com/).
 
-## <span>Other Frameworks</span>
+## Other Frameworks
 
 The landscape of JavaScript frameworks is constantly changing; we've profiled Backbone and Ember, but there are many other frameworks to choose from, some of which [are compared here](http://codebrief.com/2012/01/the-top-10-javascript-mvc-frameworks-reviewed/).
 
@@ -103,7 +103,7 @@ If you're having trouble deciding which framework to use, you should check out [
 
 If you’re not interested in maintaining an MVC model, we recommend these frameworks:
 
-### <span>[jQuery](http://www.jQuery.com/)</span>
+### [jQuery](http://www.jQuery.com/)
 
 jQuery exposes a rich set of functions for traversing and manipulating your web app.
 
@@ -113,17 +113,17 @@ You can read more about it on [jQuery's website](http://www.jQuery.com/).
 
 Many websites use jQuery, including [Technorati](http://www.technorati.com/), [CBS](http://www.cbs.com/) and [MLB](http://www.mlb.com/).
 
-## <span>Mobile Frameworks</span>
+## Mobile Frameworks
 
 Mobile frameworks are specifically smaller than most frameworks so that they load fast. They may also contain mobile browser-specific functionality or workarounds.
 
-### <span>[Zepto](http://zeptojs.com/)</span>
+### [Zepto](http://zeptojs.com/)
 
 Zepto is specifically built to run on mobile WebKit browsers. It’s a very small library meant to handle a lot of commonly used functionality that’s available in other frameworks like jQuery, including event chaining and document traversal and manipulation.
 
 Zepto has been adopted by a handful of mobile web apps, including [Basecamp](http://basecamphq.com/mobile) and [Linkedin](http://blog.linkedin.com/category/linkedin-mobile/).
 
-### <span>[jQuery Mobile](http://jquerymobile.com/)</span>
+### [jQuery Mobile](http://jquerymobile.com/)
 
 jQuery Mobile is built with a "commitment to universal accessibility" in mind; it supports [most platforms](http://jquerymobile.com/demos/1.1.0/docs/about/platforms.html) and provides easy theming for your app. It is designed to be easy to learn, especially for those already familiar with jQuery.
 
@@ -131,7 +131,7 @@ jQuery Mobile has a great [resource center](http://jquerymobile.com/resources/) 
 
 Many mobile sites are using jQuery Mobile, including [Slideshare](http://www.slideshare.net/mobile), [OpenTable](http://m.opentable.com/), and [Box](https://m.box.com/).
 
-### <span>[Sencha Touch](http://www.sencha.com/products/touch/)</span>
+### [Sencha Touch](http://www.sencha.com/products/touch/)
 
 Like Zepto, Sencha Touch targets mobile WebKit browsers. It provides a large set of UI features aimed at helping web apps feel more native, with fast animations and smooth scrolling.
 

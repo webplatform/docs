@@ -21,20 +21,20 @@ tags:
 uri: css/cssom/properties/pixelHeight
 
 ---
-## <span>Summary</span>
+## Summary
 
 Changes the value of the height without changing the units designator.
 
 Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.pixelHeight;
 element.pixelHeight = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example uses a timer to increment the **pixelHeight** property.
 
@@ -54,15 +54,15 @@ function scaleThis()
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/pixelWidth.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Setting this property changes the value of the height without changing the units designator. Unlike the [**height**](/css/properties/height) property, this property's value is an integer, not a string, and is always interpreted in pixels.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `runtimeStyle`
 -   `style`

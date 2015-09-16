@@ -21,11 +21,11 @@ tags:
 uri: css/properties/text-align-last
 
 ---
-## <span>Summary</span>
+## Summary
 
 The text-align-last CSS property describes how the last line of a block element or a line before line break is aligned in its parent block element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -48,7 +48,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `textAlignLast`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-align-last: auto`
 -   `text-align-last: center`
@@ -58,7 +58,7 @@ Animatable
 -   `text-align-last: right`
 -   `text-align-last: start`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Default. Text is aligned like the other lines in the object, using the value of the [**text-align**](/css/properties/text-align) property.
@@ -81,7 +81,7 @@ center
 justify
 :   Text is justified if ‘text-justify’ is ‘distribute’, and the same as `start` value if otherwise.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows an embedded style rule that justifies all the lines in the document's **p** elements. This is sometimes found in East Asian typography.
 
@@ -107,14 +107,14 @@ The following example shows an embedded style rule that justifies all the lines 
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/#text-align-last)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

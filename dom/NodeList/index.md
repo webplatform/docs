@@ -11,11 +11,11 @@ tags:
 uri: dom/NodeList
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a list of DOM Nodes
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -23,7 +23,7 @@ API Name
 [length](/apis/NodeList/length)
 :   The number of nodes in the list.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -31,11 +31,11 @@ API Name
 [item](/dom/NodeList/item)
 :   Gets the *n*th item in the collection
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var list = document.getElementsByClassName('highlighted');
@@ -44,11 +44,11 @@ for(var i=0; i<list.length; i++){
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 The NodeList represents the content as it is currently in the document, and will change as the document changes.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-536297177)
 :   W3C Recommendation

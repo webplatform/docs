@@ -12,7 +12,7 @@ tags:
 uri: apis/webrtc/MediaStreamTrack/ended
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MediaStreamTrack object's source will not provide data; this may be caused by the following:
 
@@ -21,7 +21,7 @@ The MediaStreamTrack object's source will not provide data; this may be caused b
 -   the remote peer has stopped sending data
 -   the stop() method was invoked
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

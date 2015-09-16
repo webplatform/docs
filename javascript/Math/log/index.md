@@ -10,11 +10,11 @@ tags:
 uri: javascript/Math/log
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the natural logarithm (base e ) of a number.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,11 +23,11 @@ Returns the natural logarithm (base e ) of a number.
 **number**
 :   A number.
 
-## <span>Return Value</span>
+## Return Value
 
 If number is positive, this function returns the natural logarithm of the number. If number is negative, this function returns NaN. If number is 0, this function returns -Infinity.
 
-## <span>Examples</span>
+## Examples
 
 The following code shows how to use this function.
 
@@ -46,9 +46,9 @@ var numArr = [ 45.3, 69.0, 557.04, 0.222 ];
  // -1.5050778971098575
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math.sqrt Function](/javascript/Math/sqrt)
 

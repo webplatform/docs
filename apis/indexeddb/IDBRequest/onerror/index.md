@@ -17,13 +17,13 @@ tags:
 uri: apis/indexeddb/IDBRequest/onerror
 
 ---
-## <span>Summary</span>
+## Summary
 
 The event handler for the error event.
 
 Property of [apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)[apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onerror;

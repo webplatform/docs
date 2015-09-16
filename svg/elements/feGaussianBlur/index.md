@@ -16,16 +16,16 @@ uri: svg/elements/feGaussianBlur
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The Gaussian blur kernel is an approximation of the normalized convolution
 
@@ -41,13 +41,13 @@ I(y) = exp(-y<sup>2</sup>/ (2t<sup>2</sup>)) / sqrt(2\* pi\*t<sup>2</sup>)
 
 with 's' being the standard deviation in the x direction and 't' being the standard deviation in the y direction, as specified by the [**stdDeviationX**](/svg/properties/stdDeviationX) and [**stdDeviationY**](/svg/properties/stdDeviationY) properties.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.19
 
-### <span>Members</span>
+### Members
 
 The **SVGFEGaussianBlurElement** object has these methods:
 
@@ -64,11 +64,11 @@ The **SVGFEGaussianBlurElement** object has these properties:
 -   [**x**](/svg/properties/x): Gets or sets the x-coordinate value.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 

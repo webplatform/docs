@@ -24,13 +24,13 @@ tags:
 uri: apis/indexeddb/IDBRequest/error
 
 ---
-## <span>Summary</span>
+## Summary
 
 The error codes returned under certain conditions.
 
 Property of [apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)[apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)[apis/indexed
 var result = element.error;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOMErrorDOMError
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      The following error codes are returned under certain conditions:
 
@@ -57,14 +57,14 @@ Returns an object of type DOMErrorDOMError
 
 In addition to the error codes sent to the IDBRequest object, asynchronous operations can also raise exceptions. The list describes problems that could occur when the request is being executed, but you might also encounter other problems when the request is being made. For example, if the the request failed and the result is not available, the InvalidStateError exception is thrown.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The cause of the error depends on the operation that triggered the error; use the **name** to determine the underlying problem.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

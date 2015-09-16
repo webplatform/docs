@@ -7,7 +7,7 @@ tags:
 uri: tutorials/multimedia
 
 ---
-## <span>Summary</span>
+## Summary
 
 Audio and video are first class citizens in the HTML5 web, living in harmony with your apps and sites. Lights, camera, action!
 

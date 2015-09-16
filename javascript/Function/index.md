@@ -10,11 +10,11 @@ tags:
 uri: javascript/Function
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a new function.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -36,7 +36,7 @@ Creates a new function.
 **body**
 :   Optional. A string that contains the block of JavaScript code to be executed when the function is called.
 
-## <span>Examples</span>
+## Examples
 
 To declare a function that adds the two arguments passed to it, you can do it in one of two ways:
 
@@ -56,7 +56,7 @@ To declare a function that adds the two arguments passed to it, you can do it in
  add(2, 3);
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The function is a basic data type in JavaScript. Syntax 1 creates a function value that JavaScript converts into a Function object when necessary. JavaScript converts Function objects created by Syntax 2 into function values at the time the function is called.
 
@@ -64,17 +64,17 @@ Syntax 1 is the standard way to create new functions in JavaScript. Syntax 2 is 
 
 **Note** -- When you call a function, make sure that you always include the parentheses and any required arguments. Calling a function without parentheses causes the function itself to be returned, instead of the return value of the function.
 
-## <span>Properties</span>
+## Properties
 
 [prototype Property](/javascript/arguments/0_n_Properties)
 
-## <span>Methods</span>
+## Methods
 
 [valueOf Method](/javascript/Function/apply)
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [function Statement](/javascript/statements/function)
 -   [new Operator](/javascript/operators/new)

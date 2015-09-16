@@ -22,20 +22,20 @@ tags:
 uri: dom/shadowdom/ShadowRoot/applyAuthorStyles
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates whether the rules in author styles associated with the element's document apply to the shadow tree. If false (default value), the author styles are not applied to the shadow tree. If true, the author styles are applied.
 
 Property of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.applyAuthorStyles;
 element.applyAuthorStyles = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 

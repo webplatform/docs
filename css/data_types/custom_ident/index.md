@@ -12,7 +12,7 @@ tags:
 uri: 'css/data types/custom ident'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &lt;custom-ident&gt; CSS data type represents an identifier token created by the stylesheet author to reference content in a different part of the stylesheet. It is used for counters and for animation.
 
@@ -26,7 +26,7 @@ The &lt;custom-ident&gt; CSS data type represents an identifier token created by
 
 Identifiers are not quoted.
 
-## <span>Examples</span>
+## Examples
 
 The example uses three custom identifiers: `h1-counter`, `subSectionCounter`, and `colorChange`.
 
@@ -60,7 +60,7 @@ h2::before {
 
 [View live example](http://code.webplatform.org/gist/10605942)
 
-## <span>Related specifications</span>
+## Related specifications
 
 <http://www.w3.org/TR/css3-values/#custom-idents>
 :   W3C Candidate Recommendation

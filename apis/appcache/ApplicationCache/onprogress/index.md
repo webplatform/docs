@@ -21,24 +21,24 @@ tags:
 uri: apis/appcache/ApplicationCache/onprogress
 
 ---
-## <span>Summary</span>
+## Summary
 
 The user agent is downloading resources listed by the manifest. The event object's total attribute returns the total number of files to be downloaded. The event object's loaded attribute returns the number of files processed so far.
 
 Property of [apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)[apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = window.applicationCache.onprogress;
 window.applicationCache.onprogress = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type nullnull
 
-## <span>Examples</span>
+## Examples
 
 Registering an progress event handler to keep track of the number of items that need to be fetched and that are already fetched
 
@@ -55,7 +55,7 @@ window.applicationCache.addEventListener('progress', function (event) {
 }, false);
 ```
 
-## <span>Notes</span>
+## Notes
 
 If more than one event is triggered and the **progress** event is included, the next events may include **progress**, **error**, **cached**, or **updateready**. Alternatively, you could use an anonymous delegate function such as
 
@@ -63,7 +63,7 @@ If more than one event is triggered and the **progress** event is included, the 
 
 where e is the cached event.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C ApplicationCache Specification](http://dev.w3.org/html5/spec/single-page.html#application-cache-api)
 :   W3C Editor's Draft

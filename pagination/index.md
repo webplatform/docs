@@ -9,7 +9,7 @@ tags:
 uri: pagination
 
 ---
-## <span>pagination</span>
+## pagination
 
 The process, manual or automatic, of dividing content into separate pages, either electronic or printed. The latter is often simply an instance of the former, rendered to print.
 

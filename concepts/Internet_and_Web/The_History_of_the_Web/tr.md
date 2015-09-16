@@ -78,9 +78,9 @@ translations:
 uri: 'concepts/Internet and Web/the history of the web/tr'
 
 ---
-## <span>Summary</span>
+## Summary
 
-## <span>İnternet’in kökleri</span>
+## İnternet’in kökleri
 
 1957’de Ekim’in 4’ünde dünyayı değiştirecek bir olay meydana gelir. Sovyetler Birliği ilk uyduyu başarılı bir şekilde dünyanın yörüngesine yerleştirir. Sputnik 1 olarak anlandırılan bu uydu, özellikle henüz herhangi bir şey fırlatmamış ama gizli bir uydu fırlatma programı olan Amerika Birleşik Devletleri ve tüm dünyayı şoka uğrattı.
 
@@ -96,7 +96,7 @@ Farklı ağ protokollerinin bu şekilde çoğalması, yakında birbirinden ayrı
 
 Bu belirtim, ağın rolünü azalttı ve aktarım sağlamlığını korumanın sorumluluğunu sunucu bilgisayarlara taşıdı. Sonuç neredeyse tüm ağları bir araya getirmeyi sağladı. ARPA yazılımı geliştirmeyi finanse etti ve 1977'de üç farklı ağın birbiriyle iletişimi başarılı bir şekilde gösterildi. 1981'e gelindiğinde, tarifname son aşamasına geldi, yayınlandı ve benimsendi. 1982'de Amerika'daki ARPANET dışındaki bağlantılar yeni TCP/IP protokolüne dönüştürüldü. Ve bildiğimiz Internet geldi.
 
-## <span>Dünyayı Saran Ağın Oluşturulması</span>
+## Dünyayı Saran Ağın Oluşturulması
 
 [Gopher](http://tr.wikipedia.org/wiki/Gopher), 1990'lı yılların başında kullanılan bir bilgi alma sistemiydi. Dosyalara, bilgisayar kaynaklarına ve diğer menülere bağlantılar sunan yeteneğine sahipti. Bu menüler o an kullanılan bilgisayarın sınırlarından çıkılmasını sağlıyordu ve diğer sitemlerden menüler alınmasını için Internet'i kullanıyordu. Kampüs geneli bilgi sağlamak için üniversiteler ve belge depolama ve yönetmeyi merkezileştirmek isteyen büyük kuruluşlar sayesinde oldukça popüler oldu.
 
@@ -110,7 +110,7 @@ Sonra, aynı yıl, NCSA Gopher istemcisini ve bir web tarayıcısını bir araya
 
 Üniversitelerde ve şirketlerde inanılmaz sayıda web tarayıcı geliştirme projeleri başladı. Örneğin Norveç iletişim şirketi Telenor, Opera web tarayıcının ilk sürümünü 1994’te sundu.
 
-### <span>Tarayıcı savaşları</span>
+### Tarayıcı savaşları
 
 Web’in popülerleşmesi ticari ilgiyide kendisine çekti. Marc Andreessen, NCSA'den ayrıldı ve Jim Clark ile birlikte Mosaic Communications'ı kurdular. Bu şirket daha sonra Netscape Communications Corporation olarak isim değiştirdi. Netscape Navigator üzerinde çalışmaya başladılar. İlk sürümü Aralık 1994'te yayınlandı.
 
@@ -118,13 +118,13 @@ Spyglass Inc (NCSA'nın ticari kolu) Mosaic teknolojisini Microsoft'a lisanslad�
 
 Sert bir rekabet başladı. Netscape ve Microsoft geliştiricilerin ilgisini çekebilmek amacıyla desteklenen özellikler açısından birbirlerine rakip oldular. Bu süreç, tarayıcı savaşları olarak biliniyor. Opera’nın bu süreç boyunca küçük ama düzenli bir mevcudiyedi vardı ve yenilikçi olmayı denedi ve bu zamanlarda web standartlarını mümkün olduğunca destekledi.
 
-## <span>Web standartlarının gelişi</span>
+## Web standartlarının gelişi
 
 Tarayıcı savaşları boyunca, Microsoft ve Netscape halihazırda desteklenen özelliklerde bulunan hataları düzeltmek yerine yeni özellikleri desteklemeye, tescilli özellikler eklemeye ve rakip diğer tarayıcılarda var olan özellikleri sunmak amacıyla başka özellikler üretmeye odaklandılar. Bu yeni özellikler birbirleriyle uyumsuz bir şekilde eklenmeye başladı.  ??
 
 Web sitesi hazırlayan web geliştiricileri, gittikçe artan karmaşayla baş edebilmek için iki ana tarayıcı için bazen aynı sitenin iki farklı kopyasını hazırlıyorlardı. Diğer zamanlarda ise site sadece bir tarayıcıyı destekleyip diğerini engelliyordu. Bu korkunç bir çalışma yöntemiydi ve geliştiricilerin kaçınılmaz tepkisi çok da uzakta değildi.
 
-### <span>W3C’nin verdiği biçim</span>
+### W3C’nin verdiği biçim
 
 1994'te, CERN, DARPA (ARPA idi) ve Avrupa Komisyonu destekleri ile Tim Berners-Lee Dünya Çapında Ağ Birliğini, World Wide Web Consortium (W3C), kurdu. W3C’nin ülküsü dünyadaki nüfusun büyük bir çoğunluğunun erişebileceği içeriği barındıran web'i hazırlarken kullanılan protokolleri ve teknolojileri standartlaştırmaktır.
 
@@ -132,7 +132,7 @@ Sonraki bir kaç yıl boyunca W3C; [HTML 4.01](http://www.w3.org/TR/html401/), [
 
 Bunlara rağmen, W3C kendi önergelerini dayatmadı, halen de dayatmıyor. the W3C did not (and still do not) enforce their recommendations. Üreticiler sadece W3C-uyumlu etiketini almak isterlerse W3C belgelerine uyumlu olmak zorundalar. Pratikte, bu değerli bir satış noktası değildir, çünkü neredeyse webin tüm kullanıcıları bunu bilmez, bilse bile muhtemelen umursamayacaktır. Büyük bir ölçüde bu durum devam etmektedir. Bundan dolayı, on dokuzuncu yüzyıl tarayıcı savaşları şiddetini düşürmeden devam etmiştir.
 
-### <span>Web Standartları Projesi</span>
+### Web Standartları Projesi
 
 1998'de, web tarayıcı pazarı Internet Explorer 4 ve Netscape Navigator 4 hakimiyetine girdi. Sonra Internet Explorer 5'in beta sürümü yayınlandı ve yeni ve özel dinamik HTML, profesyonel web geliştiricilerinin beş *farklı* JavaScript yazma yolunu bilmesi anlamına geliyor, eklendi.
 
@@ -146,7 +146,7 @@ The W3C has a few full time staff, but most of the people who work on the standa
 
 This all sounds a bit negative, but the WaSP didn’t just sit there criticising people — they also helped. Seven members formed the CSS Samurai, who identified the top ten problems with the CSS support in Opera and other browsers (Opera fixed their problems, others did not).
 
-### <span>Web standartlarının yükselişi</span>
+### Web standartlarının yükselişi
 
 2000'de, Microsoft Internet Explorer 5 Macintosh sürümünü yayınladı. Bu oldukça önemli bir dönüm noktasıdır. Mac OS ile kurulu gelen varsayılan tarayıcı olmasının yanı sıra W3C'nin önergelerini de yeterli düzeyde desteklemektedir. Along with Opera'nın iyi seviyedeki HTML ve CSS düzeyini desteklemenin yanında, genel olarak iyi yöndeki harekete, web geliştiricilerinin ve tasarımcılarının sonunda web standartlarını kullanarak özgürce site tasarlayabilecekleri ortamın hazırlanmasına katkıda bulunmuştur, as they knew they would work to a reasonable level across multiple browsers.
 
@@ -162,7 +162,7 @@ Also in 2003, Dave Shea launched a site called the [CSS Zen Garden](http://www.c
 
 Since then, web standards usage have become "de rigeur" in the professional web development community. And in this series, we will give you an excellent grounding in these techniques so that you can develop clean, semantic, accessible and standards-compliant websites!
 
-## <span>The new breed of web standards</span>
+## The new breed of web standards
 
 After 2003, web standards didn't just sit still. New practices started to really come to the forefront, with many web sites being more like desktop applications than static pages. This new breed of sites is way more complicated than what the web was really intended for, and we still have to concern ourselves with making them semantic, accessible and usable!
 
@@ -187,13 +187,13 @@ To begin to address this, work started on CSS3 as early as 2000. The spec writer
 
 You can find more out about CSS3 and HTML5 later on in the course.
 
-## <span>Özet</span>
+## Özet
 
 In this article we’ve looked at how the modern Internet was created as a result of the space race, how Tim Berners-Lee defined hypertext for a generation and how the commercial interests of two companies caused one of the most notable developer backlashes ever seen. The term web standards is now more widely used by web professionals that any other term applied by the [W3C](http://www.w3.org/) (in fact the W3C have started to use the term on their own pages), so that is what we are going to teach you — the *standards* way to build web sites.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 Eğer daha fazlasını bilmek istiyorsanız, aşağıdaki siteleri ziyaret etmek isteyebilirsiniz:
 
@@ -204,7 +204,7 @@ Eğer daha fazlasını bilmek istiyorsanız, aşağıdaki siteleri ziyaret etmek
 -   [A List Apart](http://www.alistapart.com/)
 -   [CSS Zen Garden](http://www.csszengarden.com/)
 
-## <span>Çalışma Soruları</span>
+## Çalışma Soruları
 
 Ya da aşağıdaki soruları cevaplayarak daha fazlasını araştırmak isteyebilirsiniz:
 

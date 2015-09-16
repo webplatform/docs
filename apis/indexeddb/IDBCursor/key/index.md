@@ -24,13 +24,13 @@ tags:
 uri: apis/indexeddb/IDBCursor/key
 
 ---
-## <span>Summary</span>
+## Summary
 
 The key value for the record currently displayed by the cursor.
 
 Property of [apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)[apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)[apis/indexeddb
 var result = cursor.key;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type anyany
 
@@ -46,16 +46,16 @@ The value depends on the source of the value. For more info, see the following N
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The value of the **key** property depends on the **source** of the **cursor**.
 
 If the cursor is opened using an index, the return value represents the value of the attribute associated with the index. If the cursor is opened using an obejct store, the return value represents the record's primary key. If the cursor record is iterating to a new record or is outside the range of the cursor, the return value is "undefined".
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

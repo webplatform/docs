@@ -12,7 +12,7 @@ tags:
 uri: html/attributes/bgColor
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the background color of a document. This is deprecated in HTML4 and not supported in HTML5. Please use the CSS Background Color rule instead.
 
@@ -29,13 +29,13 @@ Applies to
 </tr>
 </table>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Some browsers do not recognize color names, but all browsers should recognize RGB color values and display them correctly.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Document Object Model (DOM) Level 1 Specification, Section 2.5.5](http://www.w3.org/TR/REC-DOM-Level-1/)
 :   Recommendation
@@ -43,9 +43,9 @@ Some browsers do not recognize color names, but all browsers should recognize RG
 [HTML 4.01 Specification, Section 15.1.1 (Deprecated)](http://www.w3.org/TR/html401/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages</span>
+### Related pages
 
 -   [CSS Background Color property](/css/properties/background-color)
 -   `background`

@@ -10,17 +10,17 @@ tags:
 uri: javascript/Object/valueOf
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the primitive value of the specified object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     object.valueOf( )
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the valueOf method with a date object.
 
@@ -35,7 +35,7 @@ var myDate = new Date();
  // Output: values are the same
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required object reference is any intrinsic JavaScript object.
 
@@ -53,9 +53,9 @@ The **valueOf** method is defined differently for each intrinsic JavaScript obje
 
 The **Math** and Error objects do not have a **valueOf** method.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [toString Method (Object)](/javascript/Object/toString)
 

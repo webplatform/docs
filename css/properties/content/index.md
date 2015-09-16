@@ -29,11 +29,11 @@ todo_broken_links:
 uri: css/properties/content
 
 ---
-## <span>Summary</span>
+## Summary
 
 The content property is used to display content in the pseudo-elements ::before and ::after.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -56,7 +56,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `content`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `content: attr`
 -   `content: close-quote`
@@ -69,7 +69,7 @@ Animatable
 -   `content: string`
 -   `content: uri`
 
-## <span>Values</span>
+## Values
 
 none
 :   Pseudo element is not generated.
@@ -111,7 +111,7 @@ no-close-quote
 attr
 :   Value of an attribute of the subject of the selector. If attribute is not set on the subject an empty string will be returned. It is used as a function with the element name as the argument: 'attr( element-name )'
 
-## <span>Examples</span>
+## Examples
 
 The following example generates braces before and after all the **h1** elements on a page.
 
@@ -192,20 +192,20 @@ blockquote:after {
 
 [View live example](http://code.webplatform.org/gist/6949289)
 
-## <span>Notes</span>
+## Notes
 
 -   CSS2.1 uses a single colon, and most browsers still support this. CSS3 introduces the use of double colons to avoid confusion with pseudo-classes.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Generated content, automatic numbering and lists](http://www.w3.org/TR/CSS21/generate.html#propdef-content)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Generated and Replaced Content</span>
+#### Generated and Replaced Content
 
 -   [Generated and Replaced Content](/css/generated_and_replaced_content)
 
@@ -221,7 +221,7 @@ blockquote:after {
 
 -   [object-fit](/css/properties/object-fit)
 
-#### <span>Multi-Column</span>
+#### Multi-Column
 
 -   [break-after](/css/properties/break-after)
 
@@ -247,13 +247,13 @@ blockquote:after {
 
 -   **content**
 
-### <span>Other articles</span>
+### Other articles
 
 -   [counter-increment](/css/properties/counter-increment)
 -   [counter-reset](/css/properties/counter-reset)
 -   [before](/Special:FormEdit/Method/before?redlink=1)
 -   [after](/after)
 
-### <span>External resources</span>
+### External resources
 
 -   CSS-Tricks: CSS Content [[1]](http://css-tricks.com/css-content/)

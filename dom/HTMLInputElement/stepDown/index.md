@@ -26,22 +26,22 @@ uri: dom/HTMLInputElement/stepDown
 
 Method of [dom/HTMLInputElement](/dom/HTMLInputElement)[dom/HTMLInputElement](/dom/HTMLInputElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.stepDown(n);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>n</span>
+### n
 
  Data-type
 :   any
 
  Value to decrement the value by.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -53,21 +53,21 @@ S\_OK
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Throws an INVALID\_STATE\_ERR exception if the control doesn't support **stepDown**, if the [**Step**](/html/attributes/step) attribute's value is "any", if the current value could not be parsed, or if stepping in the given direction by the given amount would take the value out of range.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.7.4
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLInputElement`
 -   `stepUp`

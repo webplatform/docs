@@ -21,21 +21,21 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/createOffer
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a session description compatible with the local configuration.
 
 Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.createOffer();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 

@@ -30,13 +30,13 @@ uri: css/cssom/MSCSSMatrix/methods/inverse
 
 Method of [/css/cssom/MSCSSMatrix](/w/index.php?title=css/cssom/MSCSSMatrix/methods/inverse/css/cssom/MSCSSMatrix&action=edit&redlink=1)[/css/cssom/MSCSSMatrix](/w/index.php?title=css/cssom/MSCSSMatrix/methods/inverse/css/cssom/MSCSSMatrix&action=edit&redlink=1)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.inverse();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -48,22 +48,22 @@ This method can return one of these values.
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Transitions Module Level 3](http://go.microsoft.com/fwlink/p/?linkid=223140), Section 10.1
 
-### <span>Parameters</span>
+### Parameters
 
 *retMatrix* [out, retval]
 :   Type: **MSCSSMatrix**The returned matrix.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Transforms</span>
+#### Transforms
 
 -   **inverse**
 
@@ -97,6 +97,6 @@ This method can return one of these values.
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `MSCSSMatrix`

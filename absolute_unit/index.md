@@ -9,7 +9,7 @@ tags:
 uri: 'absolute unit'
 
 ---
-## <span>absolute unit</span>
+## absolute unit
 
 In CSS, length units that are dependent on the output medium. Absolute units include in (inch), cm (centimeter), mm (millimeter), pt (point), and pc (pica). Contrast with [relative unit](/relative_unit).
 

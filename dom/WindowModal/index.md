@@ -14,13 +14,13 @@ tags:
 uri: dom/WindowModal
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a modal or modeless child window of a window, with additional utility methods for arguments and return values.
 
 Inherits from [Window](/dom/Window)[Window](/dom/Window)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -40,17 +40,17 @@ API Name
 [dialogWidth](/dom/WindowModal/dialogWidth)
 :   Gets or sets the width of the content area of a dialog window.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from Window</span>
+## Inherited from Window
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -97,7 +97,7 @@ API Name
 [top](/dom/Window/top)
 :   Retrieves the topmost ancestor window.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -176,7 +176,7 @@ API Name
 [showModalDialog](/dom/Window/showModalDialog)
 :   Do not use. Use \<dialog\> or a popup window instead. Halts the script execution, creates a popup window, passes it parameters and returns a value when the new window is closed.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary

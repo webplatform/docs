@@ -26,13 +26,13 @@ tags:
 uri: dom/Element/children
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves a live collection of child elements of an element.
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -40,13 +40,13 @@ Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 var childElementList = element.children;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 A live [HTMLCollection](/dom/HTMLCollection) of child elements of the element.
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to retrieve a collection of **input type=text**, [**div**](/html/elements/div) and [**button**](/html/elements/button). The **children** collection for `oChildDIV` includes **p**.
 
@@ -160,17 +160,17 @@ window.addEventListener("load", initialize, false);
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/collections/children.htm)
 
-## <span>Usage</span>
+## Usage
 
      Use this property to get a live collection of the child elements of an element.
 
-## <span>Notes</span>
+## Notes
 
 -   Since this is a live collection, its **length**, as well as its content, will always change whenever child elements are added, removed, or reordered.
 -   The objects contained in the **children** collection are undefined if the child elements are overlapping tags.
 -   The **children** collection can contain HTML elements.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [WHATWG DOM](http://dom.spec.whatwg.org/)
 :   Living Standard

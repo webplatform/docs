@@ -22,7 +22,7 @@ uri: css/cssom/CSSKeyframeRule/style
 
 Property of [css/cssom/CSSKeyframeRule](/css/cssom/CSSKeyframeRule)[css/cssom/CSSKeyframeRule](/css/cssom/CSSKeyframeRule)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.style;
@@ -31,17 +31,17 @@ element.style = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Animations Module Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223144), Section 5
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -91,7 +91,7 @@ element.style = value;
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -237,6 +237,6 @@ element.style = value;
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSKeyframeRule`

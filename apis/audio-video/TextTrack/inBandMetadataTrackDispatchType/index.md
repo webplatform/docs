@@ -23,13 +23,13 @@ tags:
 uri: apis/audio-video/TextTrack/inBandMetadataTrackDispatchType
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the text track in-band metadata track dispatch type string. This is a string extracted from the media resource specifically for in-band metadata tracks, to enable such tracks to be dispatched to different scripts in the document.
 
 Property of [apis/audio-video/TextTrack](/apis/audio-video/TextTrack)[apis/audio-video/TextTrack](/apis/audio-video/TextTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,11 +37,11 @@ Property of [apis/audio-video/TextTrack](/apis/audio-video/TextTrack)[apis/audio
 var result = TextTrack.inBandMetadataTrackDispatchType;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!DOCTYPE HTML>
@@ -71,7 +71,7 @@ Returns an object of type StringString
 </html>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

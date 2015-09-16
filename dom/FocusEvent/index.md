@@ -21,11 +21,11 @@ uri: dom/FocusEvent
 
 Inherits from [UIEvent](/dom/UIEvent)[UIEvent](/dom/UIEvent)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -33,7 +33,7 @@ API Name
 [initFocusEvent](/dom/FocusEvent/initFocusEvent)
 :   Initializes a new **FocusEvent** that the [createEvent](/dom/Document/createEvent) method created.
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -50,9 +50,9 @@ API Name
 [focusout](/dom/FocusEvent/focusout)
 :
 
-## <span>Inherited from UIEvent</span>
+## Inherited from UIEvent
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -65,7 +65,7 @@ API Name
 
     [object window]
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -73,7 +73,7 @@ API Name
 [initUIEvent](/dom/UIEvent/initUIEvent)
 :   Initializes a new user interface event that the [createEvent](/dom/Document/createEvent) method created.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -84,9 +84,9 @@ API Name
 [activate](/dom/UIEvent/activate)
 :   Fires when the object is set as the active element.
 
-## <span>Inherited from Event</span>
+## Inherited from Event
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -118,7 +118,7 @@ API Name
 [type](/dom/Event/type)
 :   Gets the name of an event.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -135,7 +135,7 @@ API Name
 [stopPropagation](/dom/Event/stopPropagation)
 :   Prevents propagation of an event beyond the current target.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary

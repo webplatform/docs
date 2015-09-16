@@ -87,49 +87,49 @@ translations:
 uri: 'Main Page/pt-br'
 
 ---
-## <span>Sumário</span>
+## Sumário
 
 Web Platform Docs é um site gerenciado pela comunidade que deseja se tornar uma fonte abrangente e confiável para desenvolvedores web.
 
-## <span>Explore nossa documentação sobre desenvolvimento web</span>
+## Explore nossa documentação sobre desenvolvimento web
 
-### <span>[Guia para Iniciantes](/beginners)</span>
+### [Guia para Iniciantes](/beginners)
 
 Materiais de introdução para iniciantes em desenvolvimento web.
 
-### <span>[Conceitos gerais de web](/concepts)</span>
+### [Conceitos gerais de web](/concepts)
 
 Artigos conceituais e tutoriais sobre temas como a forma como a web funciona, arquitetura da informação, tipografia, e web design.
 
-### <span>[HTML](/html)</span>
+### [HTML](/html)
 
 Conceitos, tutoriais e materiais de referência sobre a principal linguagem de marcação da web.
 
-### <span>[CSS](/css)</span>
+### [CSS](/css)
 
 Conceitos, tutoriais e materiais de referência sobre folhas de estilo em cascata (<abbr>CSS</abbr>).
 
-### <span>[Acessibilidade](/concepts/accessibility)</span>
+### [Acessibilidade](/concepts/accessibility)
 
 Padrões, práticas e casos de negócios para fazer a web funcionar para pessoas com necessidades especiais.
 
-### <span>[JavaScript](/javascript)</span>
+### [JavaScript](/javascript)
 
 Tutoriais e materiais de referência sobre JavaScript, a linguagem de programação client-side da web; Inclui materiais de referência para bibliotecas JavaScript de terceiros.
 
-### <span>[DOM](/dom)</span>
+### [DOM](/dom)
 
 Tutoriais e materiais de referência sobre os eventos e métodos do Document Object Model (<abbr>DOM</abbr>).
 
-### <span>[SVG](/svg)</span>
+### [SVG](/svg)
 
 Tutoriais e materiais de referência sobre Scalable Vector Graphics (<abbr>SVG</abbr>), uma linguagem de marcação XML para descrever gráficos vetoriais bi-dimensionais.
 
-### <span>[APIs](/apis)</span>
+### [APIs](/apis)
 
 Materiais de referência para APIs JavaScript desde appcache até xhr.
 
-## <span>Recursos do Web Platform Docs</span>
+## Recursos do Web Platform Docs
 
 O Web Plaform Docs ainda está em estado alfa, mas você já pode encontrar uma série de conteúdos valiosos no site, incluindo:
 
@@ -139,14 +139,14 @@ O Web Plaform Docs ainda está em estado alfa, mas você já pode encontrar uma 
 
 No futuro, o Web Plataform Docs incluirá ainda mais conteúdo a ser explorado: exemplos de códigos, recursos para educadores e muito mais. Para chegar lá mais rápido, nós gostaríamos de te convidar a se juntar a nós, e contribuir com o seu conhecimento.
 
-## <span>Contribuir com o Web Platform Docs</span>
+## Contribuir com o Web Platform Docs
 
 Nós amaríamos ter a sua ajuda para melhorar o Web Plataform Docs. Mesmo o menor esforço pode gerar impacto significante no site; desde alertar os colegas desenvolvedores sobre erros na nossa documentação, arrumando esses erros, portando artigos existentes ou até mesmo contribuindo com conteúdo completamente novo. Para aprender mais, por favor leia nosso [Guia do Editor](/WPD:Getting_Started).
 
 -   Para reportar erros no webplatform, use o [W3C bug tracker](https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org). Leia nossa [página sobre como reportar erros](http://docs.webplatform.org/wiki/WPD:Filing_Bugs) para mais informações.
 -   Caso tenha alguma pergunta sobre a webplatform.org, por favor [procure por uma resposta no FAQ antes](/WPD:FAQ).
 
-## <span>Mantenha contato</span>
+## Mantenha contato
 
 -   Junte-se ao nosso [Q&A](http://talk.webplatform.org/forums/)
 -   Converse com outros editores no <abbr>IRC</abbr>: estamos no irc.freenode.org, no canal \#webplatform .
@@ -155,6 +155,6 @@ Nós amaríamos ter a sua ajuda para melhorar o Web Plataform Docs. Mesmo o meno
 -   Remixe nosso [logo](http://webplatform.org/logo) e linke-o de volta para nosso site
 -   Venha a nossos [Eventos](/WPD:Community/Community_Events) como o Doc Sprints.
 
-## <span>Políticas do site</span>
+## Políticas do site
 
 O conteúdo da wiki Web Plataform Docs está disponível sob uma [licença Creative Commons Attribution (CC-BY)](/Template:CC-by-3.0), exceto onde estiver indicado o contrário. Para mais detalhes sobre as políticas do nosso site, consulte nossas políticas de [direitos autorais](/WPD:Copyright) e [privacidade](/WPD:Privacy), bem como nossa [página de políticas em geral](/WPD:Policy).

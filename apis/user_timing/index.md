@@ -11,7 +11,7 @@ tags:
 uri: 'apis/user timing'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This API defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.
 
@@ -24,15 +24,15 @@ API Name
 [PerformanceMark](/apis/user_timing/PerformanceMark)
 :   Exposes marks created via the mark() method to the Performance Timeline.
 
-## <span>Notes</span>
+## Notes
 
 Based on [[W3C User Timing Candidate Recommendation Specification](http://www.w3.org/TR/user-timing/)]
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Performance</span>
+#### Performance
 
 -   [navigation timing](/apis/navigation_timing)
 

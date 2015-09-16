@@ -14,7 +14,7 @@ tags:
 uri: html/attributes/border
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the width of the border around an element. Deprecated in HTML4, not supported in HTML5. Use CSS.
 
@@ -30,28 +30,28 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 ``` html
 <img src="smiley.gif" alt="Smiley face" border="5">
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Setting a border to `0` or omitting the attribute causes no border to be displayed. Supplying the **BORDER** attribute without a value defaults to a single border. In Microsoft Internet Explorer 6, This property now applies to the **object** object.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 13.7.3 (Deprecated)
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `object`
 -   `img`

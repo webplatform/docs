@@ -24,28 +24,28 @@ tags:
 uri: dom/Implementation/createHTMLDocument
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates an HTML document.
 
 Method of [dom/Implementation](/dom/Implementation)[dom/Implementation](/dom/Implementation)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var htmlDocument = document.createHTMLDocument(title);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>title</span>
+### title
 
  Data-type
 :   String
 
  The value of the **title** element in the HTML document.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -53,7 +53,7 @@ The created HTML document.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

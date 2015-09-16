@@ -12,17 +12,17 @@ uri: 'tutorials/canvas entanglement'
 ---
 **By [Derek Detweiler](http://www.html5rocks.com/profiles/#derekdetweiler)**
 
-## <span>Summary</span>
+## Summary
 
 An exploration of the canvas feature as used in an HTML5 puzzle game.
 
-## <span>Introduction</span>
+## Introduction
 
 In the spring of 2010 I took interest in the rapidly increasing support for HTML5 and related technologies. At the time, a friend and I had been challenging each other in two-week game development competitions to hone our programming and development skills as well as bring to life the game ideas we were constantly tossing at each other. So, I naturally began incorporating HTML5 elements into my competition entries to gain a better understanding for how they worked and be able to do things that were nearly impossible using earlier HTML specs.
 
 Of the many new features in HTML5, the increasing support for the `<canvas>` tag, offered me an exciting opportunity to implement interactive art using JavaScript, which led me to try implementing a puzzle game now called [Entanglement](https://chrome.google.com/webstore/detail/aciahcmjmecflokailenpkdchphgkefd). I had already created a prototype using the back of Settlers of Catan tiles, so using this as a blueprint of sorts, there are three essential parts to fashioning the hexagonal tile on the HTML5 canvas for web play: drawing the hexagon, drawing the paths, and rotating the tile. The following goes into detail outlining how I accomplished each of these in their current form.
 
-## <span>Drawing the Hexagon</span>
+## Drawing the Hexagon
 
 In the original version of Entanglement, I used several canvas draw methods to draw the hexagon, but the current form of the game uses drawImage() to draw textures clipped from a sprite sheet.
 
@@ -73,7 +73,7 @@ We have successfully copied part of the image to the canvas with this as the res
 
 *Hexagonal tile* ![Hexagonal tile](/assets/public/1/1e/en02.jpg)
 
-## <span>Drawing Paths</span>
+## Drawing Paths
 
 Now that we have our hexagon drawn to the canvas, we want to draw a few lines on it. First, we will look at some geometry regarding the hexagon tile. We want two line ends per side with each ending 1/4 from the ends along the each edge and 1/2 of the edge apart from one another, like so:
 
@@ -123,7 +123,7 @@ Entering coordinates for the other 10 endpoints as well as the corresponding bez
 
 *Completed hexagonal tile* ![Completed hexagonal tile](/assets/public/1/14/en07.png)
 
-### <span>Rotating the Canvas</span>
+### Rotating the Canvas
 
 Once we have our tile, we want to be able to turn it so different paths can be taken in the game. To accomplish this using canvas, we use ctx.translate() and ctx.rotate(). We want the tile to rotate about it's center, so our first step is to move the canvas reference point to the center of the hexagonal tile. To do this we use:
 
@@ -151,11 +151,11 @@ Putting the above translation and rotation before our rendering code causes it t
 
 *Rotated hexagonal tile* ![Rotated hexagonal tile](/assets/public/0/0b/en08.png)
 
-## <span>Summary</span>
+## Summary
 
 Above I have highlighted a few of the capabilities that HTML5 has to offer using the canvas tag, including rendering images, drawing bezier curves, and rotating the canvas. Using the HTML5 canvas tag and its JavaScript drawing tools for Entanglement proved to be an enjoyable experience, and I look forward to the many new applications and games that others create with this open and emerging technology.
 
-## <span>Code Reference</span>
+## Code Reference
 
 All code examples provided above are combined below as a reference:
 

@@ -15,7 +15,7 @@ uri: dom/DragEvent/dragover
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -69,7 +69,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example shows when and where each event fires during a drag-and-drop operation by listing each event and the name of the object firing it in a list box.
 
@@ -109,22 +109,22 @@ function ShowResults()
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/DragDropEventsEX.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **dragover** event fires on the target object after the [**dragenter**](/dom/DragEvent/dragenter) event has fired. When scripting custom functionality, use the **returnValue** property to disable the default action. Calls the associated event handler. To invoke this event, do one of the following:
 
 -   Drag the selection over a valid drop target within the client.
 -   Drag the selection to a valid drop target within another window.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

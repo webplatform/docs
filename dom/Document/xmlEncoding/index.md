@@ -24,13 +24,13 @@ tags:
 uri: dom/Document/xmlEncoding
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets a value that represents the character encoding that is specified in the declaration of an XML document.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 var encoding = document.xmlEncoding;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The encoding name that is specified in the declaration of an XML document.
 
-## <span>Examples</span>
+## Examples
 
 The following code example shows an XML declaration that specifies character encoding.
 
@@ -52,7 +52,7 @@ The following code example shows an XML declaration that specifies character enc
 <?xml encoding="UTF-8"?>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407)
 :   Recommendation

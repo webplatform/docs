@@ -11,7 +11,7 @@ tags:
 uri: apis/internationalization
 
 ---
-## <span>Summary</span>
+## Summary
 
 The ECMAScript Internationalization API provides key language-sensitive functionality as a complement to the ECMAScript Language Specification, 5.1 edition or successor. Its functionality has been selected from that of well-established internationalization APIs such as those of the Internationalization Components for Unicode (ICU) library, of the .NET framework, or of the Java platform.
 
@@ -30,7 +30,7 @@ API Name
 [NumberFormat](/apis/internationalization/Intl/NumberFormat)
 :
 
-## <span>Usage</span>
+## Usage
 
      The ECMAScript Internationalization API is designed to complement the ECMAScript Language Specification by providing key language-sensitive functionality. The API can be added to an implementation of the ECMAScript Language Specification, 5.1 edition or successor.
 
@@ -43,7 +43,7 @@ Applications can use the API in two ways:
 
 The **Intl** object is used to package all functionality defined in the ECMAScript Internationalization API to avoid name collisions.
 
-## <span>Notes</span>
+## Notes
 
 The API was developed by an ad-hoc group established by Ecma TC 39 in September 2010 based on a proposal by Nebojša Ćirić and Jungshik Shin.
 

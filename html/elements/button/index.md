@@ -22,11 +22,11 @@ tags:
 uri: html/elements/button
 
 ---
-## <span>Summary</span>
+## Summary
 
 The button element represents a clickable button.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLButtonElement](/dom/HTMLButtonElement)
@@ -35,7 +35,7 @@ You can put text or images inside a button element. If the element is not disabl
 
 By default, the button element is used to submit [**form**](/html/elements/form) data. Modifying the type attribute can change this behavior.
 
-### <span>Attributes (HTML 4)</span>
+### Attributes (HTML 4)
 
 name
 :   The name of the button. This can be used to identify which button was used to submit a form.
@@ -51,7 +51,7 @@ value
 disabled
 :   This Boolean attribute indicates that the user cannot interact with the button. If this attribute is not specified, the button inherits its setting from the containing element, for example **fieldset** if there is no containing element with the disabled attribute set, then the button is enabled. A disabled button isn’t clickable.
 
-### <span>Additional attributes (HTML 5, candidate specification)</span>
+### Additional attributes (HTML 5, candidate specification)
 
 autofocus
 :   When this attribute is set to "true" the button will have input focused after the page loads, unless the user overrides it, for example by typing in a different control. Only one form-associated element in a document can have this attribute specified.
@@ -76,7 +76,7 @@ formtarget
 
 All these attributes, except `name`, have default values and can be omitted.
 
-## <span>Examples</span>
+## Examples
 
 This examples uses the `<button>` element to display a clickable button with out sending or reseting a form.
 
@@ -110,7 +110,7 @@ This example shows how to reset a form with use of `<button="reset">`. Read abou
 
 [View live example](http://code.webplatform.org/gist/c579515bcd4378bfd634)
 
-## <span>Usage</span>
+## Usage
 
      Generally, the button element can be used whenever there should be a button clickable by the user.
 
@@ -118,7 +118,7 @@ The ending tag is mandatory. The button should have a descriptive text inside it
 
 Please note that styling a submit button using the \<button\> element is easier than styling an [**input**](/html/elements/input) element with type `submit`.
 
-## <span>Notes</span>
+## Notes
 
 Since the default for the `type` attribute is `submit`, the type can be omitted if no other type needs to be used. Historical browser versions may have different standard `type` values.
 
@@ -126,7 +126,7 @@ Firefox for Android, by default, sets a `background-image` gradient on all **but
 
 Firefox will, unlike other browsers, by default, [persist the dynamic disabled state](http://stackoverflow.com/questions/5985839/bug-with-firefox-disabled-attribute-of-input-not-resetting-when-refreshing) of a **button** across page loads. Setting the value of the `autocomplete` attribute to `off` disables this feature. See [Mozilla Bug \#654072](https://bugzilla.mozilla.org/show_bug.cgi?id=654072).
 
-### <span>Clicking and focus</span>
+### Clicking and focus
 
 Whether clicking on a **button** causes it to (by default) become focused varies by browser and OS.
 
@@ -147,7 +147,7 @@ Does clicking on a **button** give it the focus?:
 |Safari Mobile|No (even with a [`tabindex`](/html/attributes/tabIndex))|N/A|
 |Chrome 35| ???|Yes|
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-button-element)
 :   W3C Working Draft
@@ -158,11 +158,11 @@ Does clicking on a **button** give it the focus?:
 [HTML 4.01](http://www.w3.org/TR/html401/interact/forms.html#edef-BUTTON)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Document Structure</span>
+#### Document Structure
 
 -   **button**
 
@@ -180,7 +180,7 @@ Does clicking on a **button** give it the focus?:
 
 -   [section](/html/elements/section)
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -320,7 +320,7 @@ Does clicking on a **button** give it the focus?:
 
 -   [time](/html/elements/time)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [**input type="button"**](/html/elements/input/type/button)
 -   [**input type="submit"**](/html/elements/input/type/submit)

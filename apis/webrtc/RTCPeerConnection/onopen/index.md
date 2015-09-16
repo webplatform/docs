@@ -18,7 +18,7 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/onopen
 
 ---
-## <span>Summary</span>
+## Summary
 
 Handles the open event.
 
@@ -26,7 +26,7 @@ Testing.
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onopen;

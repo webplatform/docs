@@ -22,49 +22,49 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/getImageData
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns an ImageData object representing the underlying pixel data for the area of the canvas denoted by the rectangle whose corners are the four points (sx, sy), (sx+sw, sy), (sx+sw, sy+sh), (sx, sy+sh), in canvas coordinate space units.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.getImageData(sx, sy, sw, sh);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>sx</span>
+### sx
 
  Data-type
 :   Number
 
  The x-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 
-### <span>sy</span>
+### sy
 
  Data-type
 :   Number
 
  The y-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 
-### <span>sw</span>
+### sw
 
  Data-type
 :   Number
 
  The width, in pixels, of the rectangle in relation to the coordinates of the canvas.
 
-### <span>sh</span>
+### sh
 
  Data-type
 :   Number
 
  The height, in pixels, of the rectangle in relation to the coordinates of the canvas.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -72,7 +72,7 @@ Returns an object of type DOM NodeDOM Node
 
 A *CanvasImageData* object with pixel information from the canvas within the specified coordinates.
 
-## <span>Examples</span>
+## Examples
 
 This example draws a solid color filled rectangle, then uses getImageData to retrieve part of the rectangle, and then uses putImageData to place that retrieved data elsewhere on the canvas.
 
@@ -89,11 +89,11 @@ ctxt.putImageData(imgdata, 100, 55);
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 If the rectangle contains pixels outside the canvas, they are returned as transparent black. Pixels are returned as non-premultiplied alpha values.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

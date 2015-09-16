@@ -11,23 +11,23 @@ tags:
 uri: svg/properties/in1
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Identifies input for the given filter primitive. The value can be either one of six keywords (see above) or can be a string which matches a previous **result** attribute value within the same [**filter**](/svg/elements/filter) element. If no value is provided and this is the first filter primitive, then this filter primitive will use **SourceGraphic** as its input. If no value is provided and this is a subsequent filter primitive, then this filter primitive will use the result from the previous filter primitive as its input.
 
 If the value for **result** appears multiple times within a given [**filter**](/svg/elements/filter) element, then a reference to that result will use the closest preceding filter primitive with the given value for attribute **result**. Forward references to results are an error.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.7.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFEBlendElement**](/svg/elements/feBlend)
 -   [**SVGFEColorMatrixElement**](/svg/elements/feColorMatrix)

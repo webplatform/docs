@@ -10,15 +10,15 @@ uri: 'tutorials/video others'
 **By [Carlos Araya](http://carlos.rivendellweb.net/)**
 Originally published April 4, 2013
 
-## <span>Summary</span>
+## Summary
 
 Overview about HTML5 Video interaction with other web standards and technologies
 
-## <span>The Fun Part</span>
+## The Fun Part
 
 The main advantage of the video tag being a member of the HTML5 family is its integration with the other layers of web development stack. In the following examples we'll give you an overview of what's possible to do with it.
 
-### <span>Video + other HTML</span>
+### Video + other HTML
 
 All the common HTML attributes can now be used in the video player. For instance, in the following snippet we are using `tabindex` to make the player keyboard accessible. There are new attributes that can be used in the video tag that are also common to the audio tag such as `loop` and `autoplay`, both self-explanatory. The attribute `poster` indicates what image will be shown while the video is initially loading and, finally, `controls` is used to indicate that instead of building our custom controls we want the browser to render ones automatically for us. There's also a `preload` attribute we can use to download the video in the background as soon as the page loads, even if it hasn't started playing.
 
@@ -38,7 +38,7 @@ Because the video is not treated as an embedded foreign object, there are some o
        <source src="movie.ogv" type="video/ogg"; codecs="theora, vorbis" />
      </video>
 
-### <span>Video + JS</span>
+### Video + JS
 
 The video tag comes with a set of attributes and methods that give you fine control of your video from your JS code. You can see them in real time in [this example](http://www.w3.org/2010/05/video/mediaevents.html).
 
@@ -54,7 +54,7 @@ At its simplest level, you can attach the `canplay` event to start doing stuff w
 
 There are several custom player controls available on the internet right now. In [this HTML5Rocks! article](http://www.html5rocks.com/en/tutorials/video/basics/) you can see an example that uses some elements to control two videos simultaneously and also to emulate the fast forward effect with the `playbackRate` attribute. Use the slider to toggle the volume between the videos.
 
-### <span>Video + CSS</span>
+### Video + CSS
 
 As you may have guessed, the video tag can be styled using traditional CSS properties (e.g., border, opacity, etc.) because it is a first-class citizen in the DOM. But the cool thing is that you can also style it with the latest CSS3 properties like reflections, masks, gradients, transforms, transitions, and animations.
 
@@ -71,7 +71,7 @@ In [this HTML5Rocks! article](http://www.html5rocks.com/en/tutorials/video/basic
        -webkit-transform: translate(0, 10px);  /* Saf3.1+, Chrome */
      }
 
-### <span>Video + canvas</span>
+### Video + canvas
 
 Canvas is yet another HTML5 element with many possibilities when used in conjunction with the video tag.
 
@@ -102,7 +102,7 @@ On the left side you can see the original video playing. In the middle there's a
 
 The same technique of importing images can be also applied to [WebGL](https://cvs.khronos.org/svn/repos/registry/trunk/public/webgl/doc/spec/WebGL-spec.html). With WebGL you would be able, for instance, to import the frames of a video and render them on a spinning 3D cube. There are more details about such implementation on the [MDC website](https://developer.mozilla.org/en/WebGL/Animating_textures_in_WebGL).
 
-### <span>Video + SVG</span>
+### Video + SVG
 
 SVG provides a programmatic way to render and manipulate vector graphics, but it also comes with more features such as [SVG filter effects](http://en.wikipedia.org/wiki/SVG_filter_effects). With these filters you can target a specific DOM element and apply some out-of-the-box effects such as blur, composite, tiles, etc. In the following sample we are using JavaScript and canvas to make it also work for browsers which don't support inline SVG yet:
 
@@ -119,11 +119,11 @@ SVG provides a programmatic way to render and manipulate vector graphics, but it
 
 One more example can be found in [the HTML5Rocks! article](http://www.html5rocks.com/en/tutorials/video/basics/). Click the video to toggle the blur filter.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Video</span>
+#### Video
 
 -   [audio-video](/apis/audio-video)
 

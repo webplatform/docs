@@ -22,7 +22,7 @@ uri: dom/Element/htmlText
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.htmlText;
@@ -31,16 +31,16 @@ element.htmlText = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This property corresponds to the fragment portion of the CF\_HTML clipboard format. This feature might not be available on platforms other than Microsoft Win32 platforms.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `TextRange`

@@ -23,13 +23,13 @@ tags:
 uri: dom/ValidityState/typeMismatch
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns whether the input field value is not the correct syntax.
 
 Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/ValidityState)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/Vali
 var result = element.validity.typeMismatch;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Whether a value is not the correct syntax.
 
-## <span>Examples</span>
+## Examples
 
 In the following example validity.typeMismatch is used to validate an email address field instead of a regular expression pattern.
 
@@ -81,11 +81,11 @@ document.getElementById('txtemail').addEventListener('blur',validEmail,false);
 </body></html>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use to validate input fields of type email or url instead of patternMismatch.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

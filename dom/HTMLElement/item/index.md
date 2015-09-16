@@ -26,35 +26,35 @@ uri: dom/HTMLElement/item
 
 Method of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.item(name, index);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   VARIANT
 
 **Variant** of type **Integer** or **String** that specifies the object or collection to retrieve. If this parameter is an integer, it is the zero-based index of the object. If this parameter is a string, all objects with matching [**name**](/html/attributes/name) or [**id**](/html/attributes/id) properties are retrieved, and a collection is returned if more than one match is made.
 
-### <span>index</span>
+### index
 
  Data-type
 :   VARIANT
 
 **Variant** of type **Integer** that specifies the zero-based index of the object to retrieve when a collection is returned.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 Object
 
-## <span>Examples</span>
+## Examples
 
 The following example uses the **item** method to retrieve each object from the document. In this case, the method parameter is a number, so the objects are retrieved in the order they appear in the document.
 
@@ -105,14 +105,14 @@ if (oItem!=null) {
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **item** method cannot retrieve **input type=image** elements from a **form**. To access all elements contained in a form, use the [**children**](/dom/Element/children) collection. Windows Internet Explorer 8 and later. In IE8 Standards mode, the *index* parameter is not used. For more information, see Defining Document Compatibility.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5

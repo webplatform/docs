@@ -26,42 +26,42 @@ uri: css/cssom/methods/addRule
 
 Method of [css/cssom/methods](/css/cssom/methods)[css/cssom/methods](/css/cssom/methods)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.addRule(Selector, Style, Index);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>Selector</span>
+### Selector
 
  Data-type
 :   String
 
 **String** that specifies the selector for the new rule. Single contextual selectors are valid. For example, "**div** **p** **b**" is a valid contextual selector.
 
-### <span>Style</span>
+### Style
 
  Data-type
 :   String
 
 **String** that specifies the style assignments for this style rule. This style takes the same form as an inline style specification. For example, "`color:blue`" is a valid style parameter.
 
-### <span>Index</span>
+### Index
 
  Data-type
 :   Number
 
 **Integer** that specifies the zero-based position in the **rules** collection where the new style rule should be placed. Default is **-1**, which specifies that the rule is added to the end of the collection.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 Reserved. Always returns -1.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **addRule** method to add a rule that sets all bold text appearing in a DIV to the color blue.
 
@@ -77,15 +77,15 @@ Internet Explorer makes <B>HTML</B> dynamic.
 </SCRIPT>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 You can add up to 4095 style rules with the **addRule** method. After that, the method returns an "Invalid Argument" exception. You can apply rules to a disabled [**styleSheet**](/css/cssom/styleSheet), but they do not apply to the document until you enable the **styleSheet**.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `IHTMLStyleSheet`
 -   `styleSheet`

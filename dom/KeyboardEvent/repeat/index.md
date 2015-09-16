@@ -22,7 +22,7 @@ uri: dom/KeyboardEvent/repeat
 
 Property of [dom/KeyboardEvent](/dom/KeyboardEvent)[dom/KeyboardEvent](/dom/KeyboardEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.repeat;
@@ -31,10 +31,10 @@ element.repeat = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **repeat** property returns **true** while a user holds down a key.
 
-### <span>Syntax</span>
+### Syntax

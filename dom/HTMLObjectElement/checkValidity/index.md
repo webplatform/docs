@@ -26,22 +26,22 @@ uri: dom/HTMLObjectElement/checkValidity
 
 Method of [dom/HTMLObjectElement](/dom/HTMLObjectElement)[dom/HTMLObjectElement](/dom/HTMLObjectElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>retVal</span>
+### retVal
 
  Data-type
 :   any
 
  Returns true if the form passes validation, false otherwise.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -57,15 +57,15 @@ Returns true if the form passes validation, false otherwise.
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.21.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLObjectElement`
 -   `HTMLButtonElement`

@@ -26,13 +26,13 @@ uri: dom/HTMLTableElement/createTBody
 
 Method of [dom/HTMLTableElement](/dom/HTMLTableElement)[dom/HTMLTableElement](/dom/HTMLTableElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.createTBody();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -42,7 +42,7 @@ Object
 
 null
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **createTBody** method to create a table body.
 
@@ -50,20 +50,20 @@ This example uses the **createTBody** method to create a table body.
 myTBody = document.all.myTable.createTBody()
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If a **tBody** already exists, **createTBody** returns the existing element. Otherwise, it returns a pointer to the element created.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `table`

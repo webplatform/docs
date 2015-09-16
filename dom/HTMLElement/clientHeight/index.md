@@ -21,14 +21,14 @@ uri: dom/HTMLElement/clientHeight
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.clientHeight;
 element.clientHeight = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example shows how the **clientHeight** property and the [**offsetHeight**](/dom/HTMLElement/offsetHeight) property measure document height differently. The height of the **div** is set to 100, and this is the value retrieved by the **offsetHeight** property, not the **clientHeight** property.
 
@@ -41,4 +41,4 @@ This example shows how the **clientHeight** property and the [**offsetHeight**](
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clientHeight.htm)
 
-### <span>Syntax</span>
+### Syntax

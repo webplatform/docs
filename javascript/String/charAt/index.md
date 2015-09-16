@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/charAt
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the character at the specified index.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Returns the character at the specified index.
 **index**
 :   Required. The zero-based index of the desired character.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **charAt** method:
 
@@ -37,13 +37,13 @@ var str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
  // Output: Z
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **charAt** method returns a character value equal to the character at the specified index. The first character in a string is at index 0, the second is at index 1, and so forth. Values of index that are out of range return an empty string.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [String Object](/javascript/String)
 

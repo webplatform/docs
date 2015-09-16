@@ -11,20 +11,20 @@ tags:
 uri: svg/properties/bias
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 After applying the [**kernelMatrix**](/svg/properties/kernelMatrix) to the input image to yield a number and applying the [**divisor**](/svg/properties/divisor), the **bias** attribute is added to each component. One application of **bias** is when it is desirable to have 0.5 gray value be the zero response of the filter. The **bias** property shifts the range of the filter. This allows representation of values that would otherwise be clamped to 0 or 1. If **bias** is not specified, then the effect is as if a value of 0 were specified.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.12
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFEConvolveMatrixElement**](/svg/elements/feConvolveMatrix)

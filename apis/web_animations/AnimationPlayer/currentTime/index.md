@@ -20,30 +20,30 @@ tags:
 uri: 'apis/web animations/AnimationPlayer/currentTime'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The current time of this player unless this player has a pending pause task, in which case this attribute returns null.
 
 Property of [apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)[apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.currentTime;
 element.currentTime = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type doubledouble
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   [Web Animations API](/apis/web_animations)
 

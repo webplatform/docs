@@ -22,7 +22,7 @@ uri: dom/HTMLElement/viewLink
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.viewLink;
@@ -31,4 +31,4 @@ element.viewLink = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax

@@ -22,7 +22,7 @@ uri: css/cssom/properties/pseudoClass
 
 Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.pseudoClass;
@@ -31,8 +31,8 @@ element.pseudoClass = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `page`

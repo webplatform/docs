@@ -18,13 +18,13 @@ tags:
 uri: dom/Document/characterSet
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the preferred MIME name of the document's character encoding.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -32,7 +32,7 @@ Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 var result = element.characterSet;
 ```
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //displays the document's character encoding string
@@ -41,8 +41,8 @@ function showCharSet() {
 }
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 3.1.3

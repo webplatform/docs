@@ -17,11 +17,11 @@ todo_broken_links:
 uri: aria
 
 ---
-## <span>Summary</span>
+## Summary
 
 Listing page for ARIA members.
 
-### <span>Members</span>
+### Members
 
 <table>
 <col width="50%" />

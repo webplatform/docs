@@ -12,11 +12,11 @@ tags:
 uri: apis/indexeddb/IDBTransaction
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides for the scope and type of access to a database, and represents a transaction on the database.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -39,7 +39,7 @@ API Name
 [onerror](/apis/indexeddb/IDBTransaction/onerror)
 :   The event handler for the error event.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -50,11 +50,11 @@ API Name
 [objectStore](/apis/indexeddb/IDBTransaction/objectStore)
 :   Returns an object store that has already been added to the scope of this transaction.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

@@ -23,13 +23,13 @@ tags:
 uri: dom/NodeIterator/root
 
 ---
-## <span>Summary</span>
+## Summary
 
 The NodeIterator.root read-only property represents the Node that is the root of what the NodeIterator traverses.
 
 Property of [dom/NodeIterator](/dom/NodeIterator)[dom/NodeIterator](/dom/NodeIterator)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,11 +37,11 @@ Property of [dom/NodeIterator](/dom/NodeIterator)[dom/NodeIterator](/dom/NodeIte
 var node = element.root;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var nodeIterator = document.createNodeIterator(
@@ -53,15 +53,15 @@ var nodeIterator = document.createNodeIterator(
 root = nodeIterator.root; // document.body in this case
 ```
 
-### <span>Syntax</span>
+### Syntax
 
 root = nodeIterator.root;
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 1.2
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-nodeiterator-root)
 :   Living Standard

@@ -22,7 +22,7 @@ uri: dom/Document/vlinkColor
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.vlinkColor;
@@ -31,17 +31,17 @@ element.vlinkColor = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Some browsers do not recognize color names, but all browsers should recognize RGB color values and display them correctly.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `alinkColor`
 -   `linkColor`

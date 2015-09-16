@@ -22,7 +22,7 @@ uri: dom/KeyboardEvent/keyCode
 
 Property of [dom/KeyboardEvent](/dom/KeyboardEvent)[dom/KeyboardEvent](/dom/KeyboardEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.keyCode;
@@ -31,14 +31,14 @@ element.keyCode = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **keyCode** property represents the character code during the [**onkeypress**](/dom/KeyboardEvent/keypress) event and the unmodified scan code of the key during [**onkeydown**](/dom/KeyboardEvent/keydown) and [**onkeyup**](/dom/KeyboardEvent/keyup) events. To detect whether the Alt, Ctrl, Meta, or Shift key is also pressed, see the [**altKey**](/dom/KeyboardEvent/altKey), [**ctrlKey**](/dom/KeyboardEvent/ctrlKey), [**metaKey**](/dom/KeyboardEvent/metaKey), or [**shiftKey**](/dom/KeyboardEvent/shiftKey) property of the event. The **keyCode** property is provided for compatibility only. The latest version of the Document Object Model (DOM) Events specification defines a [**key**](/dom/KeyboardEvent/key) property instead.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 3 Events Specification](http://go.microsoft.com/fwlink/p/?linkid=203756), Section 5.2.6

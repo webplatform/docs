@@ -12,11 +12,11 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/negotiationneeded
 
 ---
-## <span>Summary</span>
+## Summary
 
 The browser anticipates a session negotiation is required. It is triggered whenever addStream, removeStream or setIdentityProvider methods were called successfully and RTCPeerConnection signalingState is stable .
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

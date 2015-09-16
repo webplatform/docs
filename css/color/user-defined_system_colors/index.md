@@ -18,11 +18,11 @@ uri: 'css/color/user-defined system colors'
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Visual Effects</span>
+#### Visual Effects
 
 -   [color](/css/color)
 
@@ -58,11 +58,11 @@ uri: 'css/color/user-defined system colors'
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-## <span>==</span>
+## ==
 
 The following image shows typical Windows 7 system colors. [File:sysColorPreview.png](/w/index.php?title=Special:Upload&wpDestFile=sysColorPreview.png) Click the link below to see an active table of your current system colors. **Code example:**[http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/colors/sys\_colors.htm](http://go.microsoft.com/fwlink/p/?linkid=237723)
 
-### <span>Related topics</span>
+### Related topics
 
 **Conceptual**
 :   [Colors by Name](/css/color/colors_by_name)

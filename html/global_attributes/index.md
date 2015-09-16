@@ -9,13 +9,13 @@ tags:
 uri: 'html/global attributes'
 
 ---
-## <span>Summary</span>
+## Summary
 
 HTML defines a set of attributes common to all HTML elements.
 
 This page should document the HTML global attributes as defined in <http://dev.w3.org/html5/markup/global-attributes.html#global-attributes>
 
-### <span>Attributes</span>
+### Attributes
 
 accesskey
 :

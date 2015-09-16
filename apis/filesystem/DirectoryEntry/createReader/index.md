@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/DirectoryEntry/createReader
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a new DirectoryReader to read Entries from this Directory.
 
@@ -30,21 +30,21 @@ Creates a new DirectoryReader to read Entries from this Directory.
 
 Method of [apis/filesystem/DirectoryEntry](/apis/filesystem/DirectoryEntry)[apis/filesystem/DirectoryEntry](/apis/filesystem/DirectoryEntry)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = DirectoryEntry.createReader();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 DirectoryReader
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

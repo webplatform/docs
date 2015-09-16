@@ -10,11 +10,11 @@ tags:
 uri: http/headers/User-Agent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Contains information about the user agent originating the request.
 
-## <span>Overview table</span>
+## Overview table
 
 Direction
 :   Request
@@ -22,13 +22,13 @@ Direction
 Features
 :
 
-## <span>Syntax</span>
+## Syntax
 
     User-Agent = product *( RWS ( product / comment ) )
     product = token ["/" product-version]
     product-version = token
 
-## <span>Examples</span>
+## Examples
 
 ```
 User-Agent: CERN-LineMode/2.15 libwww/2.17b3
@@ -40,7 +40,7 @@ Chromium 38 on Linux, showing a proliferation of other user agents it is "also c
 User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTTP/1.1 Semantics and Content](http://tools.ietf.org/html/rfc7231#section-5.5.3)
 :

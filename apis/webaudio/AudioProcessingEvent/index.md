@@ -12,13 +12,13 @@ tags:
 uri: apis/webaudio/AudioProcessingEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 This interface is a type of Event which is passed to the onaudioprocess event handler used by ScriptProcessorNode. The event handler processes audio from the input (if any) by accessing the audio data from the inputBuffer attribute. The audio data which is the result of the processing (or the synthesized data if there are no inputs) is then placed into the outputBuffer.
 
 **Deprecated; deletion candidate. See <http://webaudio.github.io/web-audio-api/>.**
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -43,15 +43,15 @@ API Name
 
     **Deprecated; deletion candidate. See <http://webaudio.github.io/web-audio-api/>.**
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

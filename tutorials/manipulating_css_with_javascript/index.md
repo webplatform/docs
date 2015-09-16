@@ -13,11 +13,11 @@ tags:
 uri: 'tutorials/manipulating css with javascript'
 
 ---
-## <span>Summary</span>
+## Summary
 
 In this article we look at the basics of how to manipulate CSS styles using JavaScript.
 
-### <span>Information: JavaScript</span>
+### Information: JavaScript
 
 JavaScript is a *programming language*. JavaScript is widely used to provide interactivity in web sites and applications. JavaScript can interact with stylesheets, allowing you to write programs that change a document's style dynamically.
 
@@ -27,7 +27,7 @@ JavaScript is a *programming language*. JavaScript is widely used to provide int
 -   By working with the rules in a stylesheet—for example: adding, removing or modifying a rule.
 -   By working with an individual element in the DOM—modifying its style independently of the document's stylesheets
 
-### <span>Action: A JavaScript demonstration</span>
+### Action: A JavaScript demonstration
 
 1.  Make a new HTML document, `doc5.html`. Copy and paste the content from here, making sure that you scroll to get all of it:
 
@@ -103,8 +103,8 @@ JavaScript is a *programming language*. JavaScript is widely used to provide int
 -   In JavaScript, `backgroundColor` corresponds to the CSS property `background-color`. JavaScript does not allow hyphens in names, so "camelCase" is used instead.
 -   Your browser has a built-in CSS rule for `button` that changes the button's appearance when it is disabled.
 
-## <span>See also</span>
+## See also
 
-## <span>Exercise question</span>
+## Exercise question
 
 Change the script so that the square jumps to the right by 20 em when its color changes, and jumps back afterwards.

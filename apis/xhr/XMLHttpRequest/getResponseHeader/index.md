@@ -23,30 +23,30 @@ tags:
 uri: apis/xhr/XMLHttpRequest/getResponseHeader
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the string containing the text of the specified header, or null if the response has not been received or the header does not exist.
 
 Method of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = object.getResponseHeader(header);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>header</span>
+### header
 
  Data-type
 :   String
 
  String that specifies the response header name.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 ByteString
 

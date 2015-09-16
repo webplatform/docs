@@ -20,13 +20,13 @@ tags:
 uri: apis/webaudio/AudioBuffer/length
 
 ---
-## <span>Summary</span>
+## Summary
 
 Length, in sample-frames, of the PCM audio data.
 
 Property of [apis/webaudio/AudioBuffer](/apis/webaudio/AudioBuffer)[apis/webaudio/AudioBuffer](/apis/webaudio/AudioBuffer)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,18 +34,18 @@ Property of [apis/webaudio/AudioBuffer](/apis/webaudio/AudioBuffer)[apis/webaudi
 var result = AudioBuffer.length;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var myArrayBuffer = audioCtx.createBuffer(2, frameCount, audioCtx.sampleRate);
 var len = myArrayBuffer.length;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

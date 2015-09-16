@@ -24,28 +24,28 @@ tags:
 uri: dom/HTMLCollection/item
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves a node specified by ordinal index. Nodes are numbered in tree order (depth-first traversal order).
 
 Method of [dom/HTMLCollection](/dom/HTMLCollection)[dom/HTMLCollection](/dom/HTMLCollection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var node = collection.item(index);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>index</span>
+### index
 
  Data-type
 :   unsigned long
 
  The index of the node to be fetched. The index origin is 0.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 

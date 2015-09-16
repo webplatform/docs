@@ -12,11 +12,11 @@ tags:
 uri: apis/indexeddb/IDBKeyRange
 
 ---
-## <span>Summary</span>
+## Summary
 
 A range of keys defined for an object store or index.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -30,7 +30,7 @@ API Name
 [upperOpen](/apis/indexeddb/IDBKeyRange/upperOpen)
 :   Returns false if the upper-bound value is included in the key range. Returns true if the upper-bound value is excluded from the key range.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -47,11 +47,11 @@ API Name
 [upperBound](/apis/indexeddb/IDBKeyRange/upperBound)
 :   Creates and returns a new key range with lower set to undefined, lowerOpen set to true, upper set to upper and and upperOpen set to open.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

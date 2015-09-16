@@ -14,18 +14,18 @@ todo_broken_links:
 uri: html/elements/keygen
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a key pair generator control
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLKeygenElement](/w/index.php?title=dom/HTMLKeygenElement&action=edit&redlink=1)
 
 When the control's form is submitted, the private key is stored in the local keystore, and the public key is packaged and sent to the server.
 
-## <span>HTML Attributes</span>
+## HTML Attributes
 
 -   `autofocus` = boolean
     Allows the author to indicate that a control is to be focused as soon as the page is loaded
@@ -41,7 +41,7 @@ When the control's form is submitted, the private key is stored in the local key
 -   `name` = unique name
     Represents the element's name.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 
@@ -49,7 +49,7 @@ When the control's form is submitted, the private key is stored in the local key
 
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-keygen-element)
 :   W3C Working Draft

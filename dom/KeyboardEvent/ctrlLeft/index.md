@@ -28,14 +28,14 @@ uri: dom/KeyboardEvent/ctrlLeft
 
 Property of [dom/KeyboardEvent](/dom/KeyboardEvent)[dom/KeyboardEvent](/dom/KeyboardEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.ctrlLeft;
 element.ctrlLeft = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **ctrlLeft** property to indicate when the user presses the left or right CTRL keys.
 
@@ -90,10 +90,10 @@ function CtrlUp() {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/starLeft.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This property is currently supported only in Microsoft Windows NT 4.0 and Windows 2000. The [Document](/dom/Document) must have [**focus**](/w/index.php?title=dom/methods/focus&action=edit&redlink=1) for this property to return true.
 
-### <span>Syntax</span>
+### Syntax

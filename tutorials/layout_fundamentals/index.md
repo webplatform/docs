@@ -11,19 +11,19 @@ tags:
 uri: 'tutorials/layout fundamentals'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article describes some fundamental ways to adjust the layout of your document, using padding, floats, and more.
 
-## <span>Information: Layout</span>
+## Information: Layout
 
 You can use CSS to specify various visual effects that change the layout of your document. When you design a layout to look similar in many browsers, your stylesheet interacts with the browser's default stylesheet and layout engine in ways that can be complex. Some of the techniques for specifying layout are beyond the scope of this basic tutorial, but here we describe some simple techniques that you can try.
 
-### <span>Document structure</span>
+### Document structure
 
 If you want to control the layout of your document, then you might have to change its structure. Your document's markup language might have general-purpose tags for creating structure. For example, in HTML you can use the `div` element to create structure.
 
-#### <span>Div usage example</span>
+#### Div usage example
 
 In your sample document, the numbered paragraphs under the second heading do not have a container of their own. Your stylesheet cannot draw a border around those paragraphs, because there is no element to specify in the selector.
 
@@ -53,19 +53,19 @@ ul, #numbered {
 
 ![Screenshot of the Mozilla Firefox browser showing paragraph tags within a structural div container](/assets/public/a/aa/layout-fundamentals-fig-1.png)
 
-### <span>Size units</span>
+### Size units
 
 So far in this tutorial, you have specified sizes in pixels (`px`). These are appropriate for some purposes on a display device like a computer screen. But when the user changes the font size, your layout can look wrong.
 
 For many purposes it is better to specify sizes as a percentage or in ems (`em`). An em is nominally the size of the current font (the width of a letter m). When the user changes the font size, your layout adjusts automatically.
 
-### <span>Sizing example</span>
+### Sizing example
 
 The border on the left of this text has its size specified in pixels. The border on the right has its size specified in ems. In your sample CSS file, change the size of the font to see how the border on the right adjusts but the border on the left does not.
 
 For other devices, other length units are appropriate. There is more information about this in a later page of this tutorial. For full details of the values and units that you can use, see "Values" in the CSS Specification.
 
-### <span>Text layout</span>
+### Text layout
 
 Two properties specify how the content of an element is aligned. You can use them for simple layout adjustments:
 
@@ -73,7 +73,7 @@ Two properties specify how the content of an element is aligned. You can use the
 
 These properties apply to any text-like content in the element, not only to actual text. Remember that they are inherited by the element's children, so you might have to explicitly turn them off in the children to avoid surprising results.
 
-### <span>Text align example</span>
+### Text align example
 
 To center headings:
 
@@ -86,13 +86,13 @@ h3 {
 
  In an HTML document, the content that you see below a heading is not structurally contained by the heading. So when you align a heading like this, the tags below the heading do not inherit the style.
 
-### <span>Floats</span>
+### Floats
 
 The `flost` property forces an element to the left or right. This is a simple way to control its position and size.
 
 The rest of the document's content normally flows around the floated element. You can control this by using the `clear` property on other elements to make them stay clear of floats.
 
-### <span>Floats example</span>
+### Floats example
 
 In your sample document, the lists stretch across the window. You can prevent this by floating them to the left. To keep the headings in place, you must also specify that they stay clear of floats on their left:
 
@@ -103,7 +103,7 @@ h3 {clear: left;}
 
  (A little padding is needed on the right of the boxes, where the border is too close to the text.)
 
-### <span>Positioning</span>
+### Positioning
 
 You can specify an element's position in four ways by specifying the `position` property and one of the following values.
 
@@ -127,7 +127,7 @@ These are advanced properties. It is possible to use them in simple ways — tha
 
 Along with these values of the `position` property (except for `static`), specify one or more of the properties: `top`, `right`, `bottom`, `left`, `width`, `height` to identify where you want the element to appear, and perhaps also its size.
 
-### <span>Positioning example</span>
+### Positioning example
 
 To position two elements on top of each other, create a parent container in your document with the two elements inside it:
 
@@ -164,21 +164,21 @@ To position two elements on top of each other, create a parent container in your
 
  The result places the backslash on top of the forward slash.
 
-### <span>More details</span>
+### More details
 
 The full story on positioning takes up two complex chapters in the CSS Specification: "Visual formatting model" and "Visual formatting model details".
 
 If you are designing stylesheets to work in many browsers, then you also need to take into account differences in the way browsers interpret the standard, and perhaps bugs in particular versions of particular browsers.
 
-## <span>Action: Specifying layout</span>
+## Action: Specifying layout
 
 1.  Change your sample document, `doc2.html`, and stylesheet, `style2.css`, using the examples above in the sections "Document structure" and "Floats".
 
 2.  In the "Floats" example, add padding to separate the text from the right border by 0.5 em.
 
-## <span>See also</span>
+## See also
 
-### <span>Exercise questions</span>
+### Exercise questions
 
 1.  Change your sample document, `doc2.html`, adding this tag to it near the end, just before `</body>.`
 

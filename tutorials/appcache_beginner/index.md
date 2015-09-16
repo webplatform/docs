@@ -14,11 +14,11 @@ uri: 'tutorials/appcache beginner'
 **By [Eric Bidelman](http://www.html5rocks.com/profiles/#ericbidelman)**
 Originally published May 27, 2011
 
-## <span>Summary</span>
+## Summary
 
 An introduction to using the appcache interface for offline application functionality.
 
-## <span>Introduction</span>
+## Introduction
 
 It's becoming increasingly important for web-based applications to be accessible offline. Yes, all browsers have caching mechanisms, but they're unreliable and don't always work as you might expect. HTML5 addresses some of the annoyances of being offline with the [ApplicationCache](http://www.whatwg.org/specs/web-apps/current-work/#applicationcache) interface.
 
@@ -30,11 +30,11 @@ Using the cache interface gives your application three advantages:
 
 The Application Cache (or AppCache) allows a developer to specify which files the browser should cache and make available to offline users. Your app will load and work correctly, even if the user presses the refresh button while they're offline.
 
-## <span>The cache manifest file</span>
+## The cache manifest file
 
 The cache manifest file is a simple text file that lists the resources the browser should cache for offline access.
 
-### <span>Referencing a manifest file</span>
+### Referencing a manifest file
 
 To enable the application cache for an app, include the manifest attribute on the document's `html` tag:
 
@@ -63,7 +63,7 @@ Or, in your app.yaml file in Google App Engine:
       mime_type: text/cache-manifest
       upload: mystaticdir/(.*\.appcache)
 
-### <span>Structure of a manifest file</span>
+### Structure of a manifest file
 
 A simple manifest may look something like this:
 
@@ -150,7 +150,7 @@ The following manifest defines a "catch-all" page (offline.html) that will be di
 
 **Note**: HTTP cache headers and the caching restrictions imposed on pages served over SSL are overridden by cache manifests. Thus, pages served over https can be made to work offline.
 
-## <span>Updating the cache</span>
+## Updating the cache
 
 Once an application is offline it remains cached until one of the following happens:
 
@@ -158,7 +158,7 @@ Once an application is offline it remains cached until one of the following happ
 2.  The manifest file is modified. Note: updating a file listed in the manifest doesn't mean the browser will re-cache that resource. The manifest file itself must be altered.
 3.  The app cache is programatically updated.
 
-### <span>Cache status</span>
+### Cache status
 
 The `window.applicationCache` object is your programmatic access the browser's app cache. Its `status` property is useful for checking the current state of the cache:
 
@@ -222,7 +222,7 @@ The good news: you can avoid this double reload headache. To update users to the
 
     }, false);
 
-### <span>AppCache events</span>
+### AppCache events
 
 As you may expect, additional events are exposed to monitor the cache's state. The browser fires events for things like download progress, updating the app cache, and error conditions. The following snippet sets up event listeners for each type of cache event:
 
@@ -262,15 +262,15 @@ As you may expect, additional events are exposed to monitor the cache's state. T
 
 If the manifest file or a resource specified in it fails to download, the entire update fails. The browser will continue to use the old application cache in the event of such a failure.
 
-## <span>References</span>
+## References
 
 -   [ApplicationCache](http://www.whatwg.org/specs/web-apps/current-work/#applicationcache) API specification
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Off-line Storage</span>
+#### Off-line Storage
 
 -   [appcache](/apis/appcache)
 

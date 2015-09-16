@@ -11,11 +11,11 @@ tags:
 uri: javascript/Array/lastIndexOf
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the index of the last occurrence of a specified value in an array.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -27,11 +27,11 @@ Returns the index of the last occurrence of a specified value in an array.
 **fromIndex**
 :   Optional. The array index at which to begin the search. If fromIndex is omitted, the search starts at the last index in the array.
 
-## <span>Return Value</span>
+## Return Value
 
 The index of the last occurrence of searchElement in the array, or -1 if searchElement is not found.
 
-## <span>Examples</span>
+## Examples
 
 The following examples illustrate the use of the **lastIndexOf** method.
 
@@ -61,7 +61,7 @@ The following examples illustrate the use of the **lastIndexOf** method.
  // Output: 0
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **lastIndexOf** method searches an array for a specified value. The method returns the index of the last occurrence, or -1 if the specified value is not found.
 
@@ -71,9 +71,9 @@ The array elements are compared to the searchElement value by strict equality, s
 
 The optional fromIndex argument specifies the array index at which to begin the search. If fromIndex is greater than or equal to the array length, the whole array is searched. If fromIndex is negative, the search starts at the array length plus fromIndex. If the computed index is less than 0, -1 is returned.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.15 Array.prototype.lastIndexOf ( searchElement [ , fromIndex](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.15) )] ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

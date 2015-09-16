@@ -19,13 +19,13 @@ tags:
 uri: 'apis/image capture/ImageCapture/onphoto'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Register/unregister for photo events of type BlobEvent.
 
 Property of [apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)[apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = pictureDevice.onphoto;

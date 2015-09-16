@@ -24,14 +24,14 @@ uri: 'apis/xhr/properties/XMLNS attribute'
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.XMLNS attribute;
 element.XMLNS attribute = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to declare a namespace when one of the default behaviors in Internet Explorer, clientCaps, is used as a custom tag in an HTML document. Note that the declared namespace (in this case, MSIE) is a prefix to the name of the default behavior in the custom tag. This example also shows how the clientCaps behavior can be used to install the Internet Explorer Data Binding component, if the component does not already exist in the user's system.
 
@@ -72,9 +72,9 @@ function window.onload()
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/behaviors/clientcaps/addDataBinding.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 You can declare multiple namespaces on the **html** tag, as shown in the following syntax.
 
@@ -82,8 +82,8 @@ You can declare multiple namespaces on the **html** tag, as shown in the followi
 
 The syntax for **XMLNS** is based on the [W3C XML Namespace Spec](http://go.microsoft.com/fwlink/p/?linkid=203781). Although the World Wide Web Consortium (W3C) document allows you to declare namespaces on all tags, Microsoft Internet Explorer 5 supports namespace declaration only on the **html** tag.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `html`

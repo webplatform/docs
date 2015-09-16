@@ -10,11 +10,11 @@ tags:
 uri: svg/objects
 
 ---
-## <span>Summary</span>
+## Summary
 
 List of all pages in svg/objects/
 
-## <span>All Pages</span>
+## All Pages
 
 -   [SVGAngle](/svg/objects/SVGAngle)
 -   [SVGAnimatedAngle](/svg/objects/SVGAnimatedAngle)

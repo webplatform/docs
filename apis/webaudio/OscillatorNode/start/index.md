@@ -20,32 +20,32 @@ tags:
 uri: apis/webaudio/OscillatorNode/start
 
 ---
-## <span>Summary</span>
+## Summary
 
 Schedules a sound to playback at an exact time.
 
 Method of [apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)[apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = OscillatorNode.start(when);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>when</span>
+### when
 
  Data-type
 :   Number
 
  Describes at what time (in seconds) the sound should start playing. It is in the same time coordinate system as [**AudioContext.currentTime**](/apis/webaudio/AudioContext/currentTime). If 0 is passed in for this value or if the value is less than **currentTime**, then the sound will start playing immediately. start may only be called one time and must be called before stop is called or an exception will be thrown.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var oscillator = audioCtx.createOscillator();
@@ -54,7 +54,7 @@ oscillator.frequency.value = 3000; // value in hertz
 oscillator.start(); // start playing immediately
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

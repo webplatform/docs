@@ -11,11 +11,11 @@ uri: 'tutorials/using css multiple background'
 **By [Konstantin Kichinsky](http://html5insight.com/)**
 Originally published 27 February 2012
 
-## <span>Summary</span>
+## Summary
 
 This article focuses on an interesting CSS feature — how to use multiple backgrounds with CSS3.
 
-## <span>Backgrounds composition</span>
+## Backgrounds composition
 
 There are many reasons why you may need to create a composition of multiple images to build you background. These are some of the most important:
 
@@ -24,7 +24,7 @@ There are many reasons why you may need to create a composition of multiple imag
 
 There are other reasonable cases that call for background composition.
 
-### <span>Classic approach</span>
+### Classic approach
 
 So we need to build a multi-layered background by placing some images on top of others. How this problem is usually solved? It is really easy: just create a container (like a div element) for each of the images you have and add a background for it using a CSS rule. Next you insert one container into another or place them in a row and apply corresponding positioning CSS rules.
 
@@ -82,7 +82,7 @@ Note, for the “fishing” class we used the new background positioning syntax,
 
 Let’s continue. Is it possible to simplify this composition? This is when the multiple backgrounds come to the scene.
 
-### <span>Multiple backgrounds</span>
+### Multiple backgrounds
 
 This feature allows you to add more than one background at once and to the same element. Here is how it looks like:
 
@@ -122,7 +122,7 @@ The result is 100% identical:
 
 ![Example 2](/assets/public/9/9e/CSSMB_Pic2.png)
 
-### <span>In one rule</span>
+### In one rule
 
 If you don’t need your fish to swim in an independent block, the whole background can be written in one simple rule:
 
@@ -155,7 +155,7 @@ In our case it equal to the following definition:
 background-repeat: no-repeat, repeat-x, no-repeat, repeat-x;
 ```
 
-### <span>Shorter version</span>
+### Shorter version
 
 If you remember the [CSS 2.1](http://www.w3.org/TR/CSS21/) it is possible to describe a background image in a one short “background”-rule. What about multiple backgrounds? Actually you also can use the “background”-rule for multiple backgrounds:
 
@@ -173,7 +173,7 @@ If you remember the [CSS 2.1](http://www.w3.org/TR/CSS21/) it is possible to des
 
  But note that you can’t easily omit arguments unless the values are equal to the default ones. Also if you would like to define the color of background you should do it in the latest layer.
 
-### <span>Dynamic images</span>
+### Dynamic images
 
 Here is what we already know: if you background is mostly static — it may depend on the container size (i.e. if you are using % length so that some layers will shift on resizing window) — than the magic of multiple backgrounds seems to be useful as it really simplifies the page structure. But what if you need to animate some of the layers using javascript (move, rotate and so on)?
 
@@ -227,7 +227,7 @@ window.requestAnimFrame = (function() {
 
 You may also use CSS3 Transitions or Animations but it is a good topic for separate discussion.
 
-### <span>Parallax and interactivity</span>
+### Parallax and interactivity
 
 Finally using similar technics you can easily add some parallax effects or other interaction effects for you background:
 
@@ -241,7 +241,7 @@ sea.style.backgroundPosition = "top " + fishY + "px right " + fishX + "px, " + m
 
  I’m sure it is possible to build a nice and useful js-library which will virtualize all these layers and provide easy way to change attributes for a separate layer keeping clean your html-code and the DOM.
 
-### <span>Compatibility</span>
+### Compatibility
 
 All modern browsers including [IE10 and 9](http://msdn.microsoft.com/en-us/ie) support multiple backgrounds. You may also use some tools like [Modernizr](http://modernizr.com/) to provide some level of compatibility for older browsers, i.e. by providing alternate background. As Chris Coyier wrote in his [article on the stacking order of multiple backgrounds](http://css-tricks.com/stacking-order-of-multiple-backgrounds/) you can use the following approach:
 

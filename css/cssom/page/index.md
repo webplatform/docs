@@ -14,42 +14,42 @@ uri: css/cssom/page
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Although **page** objects are represented in the Cascading Style Sheets (CSS) object model starting in Microsoft Internet Explorer 5.5, the objects are not used by the default print template for Windows Internet Explorer. The objects can be represented explicitly in print templates developed for applications that host MSHTML.
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Members</span>
+### Members
 
 The **page** object has these types of members:
 
 -   [\#properties Properties]
 
-#### <span>Properties</span>
+#### Properties
 
 The **page** object has these properties. {
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Print Template Reference`

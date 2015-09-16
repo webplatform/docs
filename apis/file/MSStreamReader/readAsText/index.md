@@ -24,36 +24,36 @@ tags:
 uri: apis/file/MSStreamReader/readAsText
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), decoded into memory according to the encoding determination.
 
 Method of [apis/file/MSStreamReader](/apis/file/MSStreamReader)[apis/file/MSStreamReader](/apis/file/MSStreamReader)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = MSStreamReader.readAsText(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>stream</span>
-
- Data-type
-:   any
-
-### <span>encoding</span>
+### stream
 
  Data-type
 :   any
 
-### <span>size</span>
+### encoding
 
  Data-type
 :   any
 
-## <span>Return Value</span>
+### size
+
+ Data-type
+:   any
+
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 

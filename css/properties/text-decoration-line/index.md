@@ -21,11 +21,11 @@ tags:
 uri: css/properties/text-decoration-line
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets what kind of line decorations are added to an element, such as underlines, overlines, etc.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -48,7 +48,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `textDecorationLine`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-decoration-line: blink`
 -   `text-decoration-line: line-through`
@@ -56,7 +56,7 @@ Animatable
 -   `text-decoration-line: overline`
 -   `text-decoration-line: underline`
 
-## <span>Values</span>
+## Values
 
 none
 :   Produces no text decoration.
@@ -73,7 +73,7 @@ line-through
 blink
 :   The text alternates between visible and invisible.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 p:nth-child(1) { text-decoration-line: none; }
@@ -85,11 +85,11 @@ p:nth-child(5) { text-decoration-line: blink; }
 
 [View live example](http://code.webplatform.org/gist/7283909)
 
-## <span>Notes</span>
+## Notes
 
 The text-decoration-line property is the equivalent of the text-decoration property before it was converted to a shorthand property in CSS Text Decoration Level 3.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text-decoration Level 3](http://www.w3.org/TR/css-text-decor-3/)
 :   Working Draft

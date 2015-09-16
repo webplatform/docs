@@ -18,18 +18,18 @@ tags:
 uri: html/elements/map
 
 ---
-## <span>Summary</span>
+## Summary
 
 Contains coordinate data for client-side image maps.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLMapElement](/dom/HTMLMapElement)
 
 An image, in the form of an img element or an object element representing an image, may be associated with an image map (in the form of a map element) by specifying a usemap attribute on the img or object element.
 
-## <span>Attributes</span>
+## Attributes
 
 -   `name` = name of map
     Gives the map a name so that it can be referenced.
@@ -37,7 +37,7 @@ An image, in the form of an img element or an object element representing an ima
     The value of the name attribute must not be a compatibility-caseless match for the value of the name attribute of another map element in the same document.
     If the id attribute is also specified, both attributes must have the same value.
 
-## <span>Examples</span>
+## Examples
 
 This example provides the full code for an image map of the solar system. It creates links from the image map to individual images of the planets using the **AREA** element with the **MAP** element, [**COORDS**](/html/attributes/coords) value, and [**SHAPE**](/html/attributes/shape) attribute. The user clicks the sun or any planet to link to an individual image. To return to the solar system image map, the user clicks the **Back** button.
 
@@ -59,9 +59,9 @@ This example provides the full code for an image map of the solar system. It cre
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/imagemap.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 An image map is a graphic image, with predefined regions, that contains links to other documents or anchors. For example, you could create an image of the solar system containing links that the user can click to navigate to pages for the individual planets. The **map** object is referenced with the [**USEMAP**](/html/attributes/useMap) attribute in an **IMG** element, as follows:
 
@@ -69,7 +69,7 @@ An image map is a graphic image, with predefined regions, that contains links to
 
 A **MAP** element contains a set of **AREA** elements defining the linking regions in the image.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-map-element)
 :   W3C Working Draft

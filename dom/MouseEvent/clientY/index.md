@@ -25,13 +25,13 @@ tags:
 uri: dom/MouseEvent/clientY
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the y-coordinate of the mouse pointer, relative to the upper-left corner of the viewport (that is, the user agent's client area).
 
 Property of [dom/MouseEvent](/dom/MouseEvent)[dom/MouseEvent](/dom/MouseEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,13 +39,13 @@ Property of [dom/MouseEvent](/dom/MouseEvent)[dom/MouseEvent](/dom/MouseEvent)
 var yCoordinate = event.clientY;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 The Y coordinate of the mouse cursor.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **clientY** property to determine the mouse position relative to the window. The console shows the mouse position at all times.
 
@@ -69,11 +69,11 @@ window.addEventListener("click", logClientCoords, false)
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
 Client coordinates do not reflect the scroll offset of the page. To get the mouse pointer's coordinates relative to the upper-left corner of the document, use the [**pageX**](/css/cssom/properties/pageX) and [**pageY**](/css/cssom/properties/pageY) properties.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

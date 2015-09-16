@@ -29,11 +29,11 @@ tags:
 uri: css/properties/box-shadow
 
 ---
-## <span>Summary</span>
+## Summary
 
 The box-shadow property programmatically creates one or more shadows on the inside or outside of a block level element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -59,7 +59,7 @@ Animatable
 Percentages
 :   n/a
 
-## <span>Syntax</span>
+## Syntax
 
 -   `box-shadow: blur-radius (optional)`
 -   `box-shadow: inset (optional)`
@@ -68,7 +68,7 @@ Percentages
 -   `box-shadow: offset-y (optional)`
 -   `box-shadow: spread-distance (optional)`
 
-## <span>Values</span>
+## Values
 
 inset (optional)
 :   If not specified (default), the shadow is assumed to be a drop shadow (as if the box were raised above the content). The presence of the `inset` keyword changes the shadow to one inside the frame (as if the content was depressed inside the box). Inset shadows are drawn inside the border (even transparent ones), above the background, but below content.
@@ -88,7 +88,7 @@ spread-distance (optional)
 offset-x offset-y blur-radius color, offset-x offset-y blur-radius color
 :   To apply multiple shadows to one element, write the `box-shadow` values out one after another, separated by commas.
 
-## <span>Examples</span>
+## Examples
 
 An example of a basic drop shadow. An outer box-shadow casts a shadow as if the border-box of the element were opaque. The shadow is drawn outside the border edge only: it is clipped inside the border-box of the element.
 
@@ -177,7 +177,7 @@ An example of a multiple box-shadows. The inner shadow appears on all four sides
 
 [View live example](http://code.webplatform.org/gist/5259531)
 
-## <span>Usage</span>
+## Usage
 
      ===Remarks===
 
@@ -186,16 +186,16 @@ See also:
 -   [css/data\_types/length](/css/data_types/length)
 -   [css/color](/css/color)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#box-shadow)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Layout</span>
+#### CSS Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -239,7 +239,7 @@ See also:
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### <span>Box Model</span>
+#### Box Model
 
 -   [border](/css/properties/border)
 

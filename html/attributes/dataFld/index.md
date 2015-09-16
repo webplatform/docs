@@ -17,7 +17,7 @@ todo_broken_links:
 uri: html/attributes/dataFld
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves a field of a given data source, as specified by the dataSrc property, to bind to the specified object.
 
@@ -33,7 +33,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 In this example, a text box is bound to the flavor field supplied by a data source object with an ID of `ice_cream`. Because the text box is contained in a table, it is repeated, and all values in the flavor column are displayed.
 
@@ -55,17 +55,17 @@ In this example, the **select** object is bound to the `card_type` column of a d
 </select>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **dataFld** property is not available on **param** objects; use [**getAttribute('dataFld')**](/w/index.php?title=dom/methods/getAttribute&action=edit&redlink=1) instead.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`
 -   `applet`

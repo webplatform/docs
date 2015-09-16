@@ -26,13 +26,13 @@ uri: dom/HTMLElement/focus
 
 Method of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.focus();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -46,9 +46,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This method raises the ****onfocus**** event. The effect depends on the object calling the method. When called for child windows (such as those created with the [**open**](/dom/Window/open) method of a **window** object), **focus** brings the target window to the foreground. Elements cannot receive focus until the document finishes loading. Windows Internet Explorer 8 and later. The **focus** method no longer brings child windows (such as those created with the **open** method) to the foreground. Child windows now request focus from the user, usually by flashing the title bar. To directly bring the window to the foreground, add script to the child window that calls the **focus** method of its **window** object.
 
@@ -59,8 +59,8 @@ Windows Internet Explorer 7 and later. For security reasons, child windows will
 
 If any of these conditions are true, the child window ignores the focus event. As of Microsoft Internet Explorer 5, elements that expose the **focus** method must have the [**TABINDEX**](/html/attributes/tabIndex) attribute set.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5

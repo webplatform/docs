@@ -20,11 +20,11 @@ tags:
 uri: css/properties/font-synthesis
 
 ---
-## <span>Summary</span>
+## Summary
 
 This value specifies whether the user agent is allowed to synthesize bold or oblique font faces when a font family lacks bold or italic faces.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `weight style`
@@ -50,9 +50,9 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 none
 :   user agent is not allowed to synthesize bold or oblique font when not available.
@@ -68,11 +68,11 @@ weight style
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Font</span>
+#### CSS Font
 
 -   [font-family](/css/properties/font-family)
 
@@ -94,7 +94,7 @@ weight style
 
 -   [user-modify](/css/properties/user-modify)
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -128,7 +128,7 @@ weight style
 
 -   [font](/html/elements/font)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

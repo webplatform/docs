@@ -23,29 +23,29 @@ tags:
 uri: 'apis/web animations/AnimationEffect/clone'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates and returns a new object of the same type as this object's most-derived interface such that it will produce the same output as this object.
 
 Method of [apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)[apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = .clone();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   [Web Animations API](/apis/web_animations)
 

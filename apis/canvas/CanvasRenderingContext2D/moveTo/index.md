@@ -22,35 +22,35 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/moveTo
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a new subpath with the specified point as its first (and only) point.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.moveTo(x, y);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
+### x
 
  Data-type
 :   Number
 
  The x-coordinate, in pixels.
 
-### <span>y</span>
+### y
 
  Data-type
 :   Number
 
  The y-coordinate, in pixels.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -58,7 +58,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 This example uses moveTo to establish a subpath starting point, and then uses lineTo to add line segments.
 
@@ -76,7 +76,7 @@ ctxt.stroke();
 </script>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

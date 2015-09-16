@@ -23,13 +23,13 @@ tags:
 uri: 'apis/navigation timing/Performance/navigation'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents the navigation information related to the browsing context. This attribute is defined by the PerformanceNavigation interface.
 
 Property of [apis/navigation\_timing/Performance](/apis/navigation_timing/Performance)[apis/navigation\_timing/Performance](/apis/navigation_timing/Performance)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,22 +37,22 @@ Property of [apis/navigation\_timing/Performance](/apis/navigation_timing/Perfor
 var result = Performance.navigation;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var perfnav = performance.navigation;
 alert(perfnav); // "[object PerformanceNavigation]"
 ```
 
-## <span>Notes</span>
+## Notes
 
 Use the **performance** property of the **window** object to get the host for this object.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3c Navigation Timing Specification](http://www.w3.org/TR/navigation-timing/)
 :   W3C Recommendation

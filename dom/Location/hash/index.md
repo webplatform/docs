@@ -23,26 +23,26 @@ tags:
 uri: dom/Location/hash
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the subsection of the href property that follows the number sign (\#).
 
 Property of [dom/Location](/dom/Location)[dom/Location](/dom/Location)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var hash = location.hash;
 location.hash = hash;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The hash component of the URL.
 
-## <span>Examples</span>
+## Examples
 
 This example function returns true if the current document URL has a **hash** value, or false if the document URL does not.
 
@@ -55,6 +55,6 @@ function hasHash() {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 If there is no number sign, this property returns an empty string. This property is useful for moving to a bookmark within a document. Assigning an invalid value does not cause an error.

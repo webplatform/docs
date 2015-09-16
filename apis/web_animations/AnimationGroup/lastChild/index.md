@@ -21,13 +21,13 @@ tags:
 uri: 'apis/web animations/AnimationGroup/lastChild'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The last child of this animation group
 
 Property of [apis/web\_animations/AnimationGroup](/apis/web_animations/AnimationGroup)[apis/web\_animations/AnimationGroup](/apis/web_animations/AnimationGroup)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,7 +35,7 @@ Property of [apis/web\_animations/AnimationGroup](/apis/web_animations/Animation
 var result = element.lastChild;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 

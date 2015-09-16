@@ -21,23 +21,23 @@ uri: dom/HTMLElement/offscreenBuffering
 ---
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.offscreenBuffering;
 element.offscreenBuffering = value;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The value of the **offscreenBuffering** property determines how the current document is drawn. When the property is set to **true**, objects are added to an offscreen buffer. After all objects are drawn, the contents of the offscreen buffer are made visible to the user. When the property is set to **false**, objects are rendered directly to the screen. By default, Internet Explorer decides when to buffer objects offscreen. In addition, Internet Explorer automatically enables offscreen buffering when Microsoft DirectX-based components are used on the document.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `window`

@@ -12,11 +12,11 @@ tags:
 uri: apis/xhr/events/error
 
 ---
-## <span>Summary</span>
+## Summary
 
 The onerror event occurs when the request could not be completed because of an error.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -68,7 +68,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 Setting the onerror property.
 
@@ -82,21 +82,21 @@ function err()
 xdr.onerror = err;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The document can respond to the error, but there is no way to determine the cause or nature of the error. The **onerror** event does not occur when the [**ontimeout**](/apis/xhr/events/timeout) event occurs. To invoke this event, do one of the following:
 
 -   Cannot invoke.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 This method has no parameters.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `XDomainRequest`
 -   `Reference`

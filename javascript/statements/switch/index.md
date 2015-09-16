@@ -10,11 +10,11 @@ tags:
 uri: javascript/statements/switch
 
 ---
-## <span>Summary</span>
+## Summary
 
 Enables the execution of one or more statements when a specified expression's value matches a label.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -35,7 +35,7 @@ Enables the execution of one or more statements when a specified expression's va
 **statementlist**
 :   One or more statements to be executed.
 
-## <span>Examples</span>
+## Examples
 
 The following example tests an object for its type.
 
@@ -98,7 +98,7 @@ function MyObjectType(obj) {
  // Object is unknown.
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 Use the default clause to provide a statement to be executed if none of the label values matches expression. It can appear anywhere within the switch code block.
 
@@ -111,9 +111,9 @@ Execution flows through a switch statement as follows:
 -   If no label equals expression , go to the default case. If there is no default case, go to last step.
 -   Continue execution at the statement following the end of the switch code block.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [break Statement](/javascript/statements/break)
 -   [if...else Statement](/javascript/statements/if_else)

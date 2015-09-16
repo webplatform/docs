@@ -18,21 +18,21 @@ tags:
 uri: apis/webrtc/RTCDataChannel/send
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sends a message (data) on the RTCDataChannel’s underlying data transport.
 
 Method of [apis/webrtc/RTCDataChannel](/apis/webrtc/RTCDataChannel)[apis/webrtc/RTCDataChannel](/apis/webrtc/RTCDataChannel)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.send(data);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>data</span>
+### data
 
  Data-type
 :   any
@@ -44,13 +44,13 @@ Method of [apis/webrtc/RTCDataChannel](/apis/webrtc/RTCDataChannel)[apis/webrtc/
 -   ArrayBuffer -- data directly stored in an ArrayBuffer object
 -   ArrayBufferView -- data stored in a section of an ArrayBuffer object that the ArrayBufferview object references
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web RTC Specification](http://dev.w3.org/2011/webrtc/editor/webrtc.html)
 :   W3C Editor's Draft

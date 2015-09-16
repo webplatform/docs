@@ -22,11 +22,11 @@ tags:
 uri: css/properties/max-width
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the maximum width for an element. It limits the width property to be larger than the value specified in max-width.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -52,7 +52,7 @@ Animatable
 Percentages
 :   refer to width of containing block
 
-## <span>Syntax</span>
+## Syntax
 
 -   `max-width: calc()`
 -   `max-width: fill-available`
@@ -64,7 +64,7 @@ Percentages
 -   `max-width: none`
 -   `max-width: percentage`
 
-## <span>Values</span>
+## Values
 
 length
 :   Specifies a fixed width. Negative values are not allowed. See [length](/css/data_types/length) for possible units.
@@ -93,7 +93,7 @@ fill-available
 fit-content
 :   If the total available space is finite, equals to min(max-content, max(min-content, fill-available)). Otherwise, equal to the max-content measure. Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
 
-## <span>Examples</span>
+## Examples
 
 Use max-width with any CSS selector to apply it.
 
@@ -148,7 +148,7 @@ Constrain the width of a **div** element using [**min-width**](/css/properties/m
 
 [View live example](http://code.webplatform.org/gist/5842171)
 
-## <span>Usage</span>
+## Usage
 
      CSS max width is well supported across most browsers. A few things to consider while usage:
 
@@ -156,13 +156,13 @@ Constrain the width of a **div** element using [**min-width**](/css/properties/m
 -   max-content, min-content, fit-content, and fill-available are in W3C draft stage and not supported across all browsers.
 -   Support for [calc](/css/functions/calc) is better across browsers. Vendor prefixes may be needed.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The [**min-width**](/css/properties/min-width)/**max-width** attributes apply to floating and absolutely positioned block and inline-block elements, as well as some intrinsic controls. They do not apply to non-replaced inline elements, such as table rows and row/column groups. (A "replaced" element has intrinsic dimensions, such as an **img** or **textArea**.) This property is enabled only under the strict [!DOCTYPE](/html/elements/!DOCTYPE).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1 (Section 10.7)](http://www.w3.org/TR/CSS2/visudet.html#min-max-widths)
 :   W3C Recommendation
@@ -170,11 +170,11 @@ The [**min-width**](/css/properties/min-width)/**max-width** attributes apply to
 [CSS Intrinsic & Extrinsic Sizing Module Level 3](http://dev.w3.org/csswg/css3-sizing/#width-height-keywords)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Layout</span>
+#### CSS Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -218,7 +218,7 @@ The [**min-width**](/css/properties/min-width)/**max-width** attributes apply to
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### <span>Box Model</span>
+#### Box Model
 
 -   [border](/css/properties/border)
 
@@ -260,7 +260,7 @@ The [**min-width**](/css/properties/min-width)/**max-width** attributes apply to
 
 -   [min-width](/css/properties/min-width)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

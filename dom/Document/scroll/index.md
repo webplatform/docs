@@ -12,7 +12,7 @@ uri: dom/Document/scroll
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -68,9 +68,9 @@ Default action
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Use the [**componentFromPoint**](/dom/HTMLElement/componentFromPoint) and [**doScroll**](/dom/HTMLElement/doScroll) methods to control the scroll bar components. Cascading style sheets (CSS) enable scrolling on all objects through the [**overflow**](/css/properties/overflow) property. These objects are not listed in the Applies To list for this event. Scrolls the contents of an object until new portions of the object become visible. To invoke this event, do one of the following:
 
@@ -111,13 +111,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLWindowEvents2**
 -   **HTMLDocumentEvents4**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

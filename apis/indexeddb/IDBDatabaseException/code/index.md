@@ -19,13 +19,13 @@ tags:
 uri: apis/indexeddb/IDBDatabaseException/code
 
 ---
-## <span>Summary</span>
+## Summary
 
 Not supported.
 
 Property of [apis/indexeddb/IDBDatabaseException](/apis/indexeddb/IDBDatabaseException)[apis/indexeddb/IDBDatabaseException](/apis/indexeddb/IDBDatabaseException)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.code;
@@ -34,8 +34,8 @@ element.code = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

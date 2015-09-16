@@ -23,24 +23,24 @@ uri: css/properties/-ms-progress-appearance
 
 Property of [css/properties](/css/properties)[css/properties](/css/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.-ms-progress-appearance;
 element.-ms-progress-appearance = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <progress style="-ms-progress-appearance: bar" />
 ```
 
-### <span>Syntax</span>
+### Syntax
 
 `msProgressAppearance: bar | ring`
 
-### <span>Requirements</span>
+### Requirements
 
 <table class="wikitable">
 <tr>
@@ -64,11 +64,11 @@ Windows Server 2012
 </td>
 </tr>
 </table>
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Visual Effects</span>
+#### Visual Effects
 
 -   [color](/css/color)
 
@@ -104,7 +104,7 @@ Windows Server 2012
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `progress`
 -   `CSSStyleDeclaration`

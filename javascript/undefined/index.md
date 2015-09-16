@@ -10,17 +10,17 @@ tags:
 uri: javascript/undefined
 
 ---
-## <span>Summary</span>
+## Summary
 
 A value that has never been defined, such as a variable that has not been initialized.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     undefined
 
-## <span>Examples</span>
+## Examples
 
 Usage of **undefined** with strict equality.
 
@@ -59,7 +59,7 @@ if (foo === undefined) {
 }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The `undefined` constant is a member of the **Global** object, and becomes available when the scripting engine is initialized. When a variable has been declared but not initialized, its value is `undefined`.
 
@@ -67,13 +67,13 @@ If a variable has not been declared, you cannot compare it to `undefined` , but 
 
 The `undefined` constant is useful when explicitly testing or setting a variable to `undefined`.
 
-## <span>Usage</span>
+## Usage
 
      undefined is not a reserved word, thus can be used as a variable in any scope except for the global scope.
 
-## <span>Notes</span>
+## Notes
 
-## <span>**undefined** vs. **null**</span>
+## **undefined** vs. **null**
 
 **undefined** means a value is declared but not initialized, it doesn't have a value assigned to it.
 
@@ -81,9 +81,9 @@ The `undefined` constant is useful when explicitly testing or setting a variable
 
 Other than that, `undefined` is a type, while `null` is an object
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [typeof Operator](/javascript/operators/typeof)
 

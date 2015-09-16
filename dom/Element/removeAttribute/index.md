@@ -20,42 +20,42 @@ tags:
 uri: dom/Element/removeAttribute
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes a specified content attribute from an element.
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  element.removeAttribute(name);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The name of the attribute.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Use this method to remove a content attribute from an element.
 
-## <span>Notes</span>
+## Notes
 
 -   The attribute to remove may not exist in the first place.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Document Object Model (DOM) Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
@@ -69,9 +69,9 @@ No return value
 [DOM](http://dom.spec.whatwg.org/)
 :   Living Standard
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `getAttribute`
 -   `setAttribute`

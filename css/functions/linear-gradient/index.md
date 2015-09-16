@@ -13,11 +13,11 @@ tags:
 uri: css/functions/linear-gradient
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines a linear gradient as a CSS image.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 background: #1e5799;
@@ -32,11 +32,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 
 [View live example](http://jsfiddle.net/denbuzze/J2CLV/)
 
-### <span>Syntax</span>
+### Syntax
 
 **linear-gradient** `([ [  <angle>  | to  <side-or-corner>  ] , ] ?  <color-stop>  [ ,  <color-stop>  ] +)`
 
-### <span>Parameters</span>
+### Parameters
 
 *angle*
 :   Optional. The angle the gradient line should assume, expressed as a number followed by an angle units designator(for instance, "deg")."0deg" points upward and positive angles increase in a clockwise direction. Therefore, "90deg" points toward the right, "180deg" points downward, and so on.If no angle is provided, the gradient line starts in the corner or side opposite the corner or side specified by *\<side-or-corner\>*.
@@ -53,16 +53,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 *color-stop*
 :   At least two color stops are required. Each color stop has one or two components—a color component and an optional position component. The first component defines the color component of a stop point for the gradient. Each stop point has its own designated color, and the area between each point is filled with a continuous color transition from one to the other. This value can be any supported color value.Each stop point can have an optional percentage or supported length value that indicates where along the gradient line to place the color stop. "0%" (or "0px", "0em", and so on) indicates the starting point (or side); "100%" indicates the ending point (or side).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Image Values and Replaced Content Module Level 3](http://www.w3.org/TR/css3-images/)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Gradients</span>
+#### Gradients
 
 -   **linear-gradient**
 

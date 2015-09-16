@@ -11,21 +11,21 @@ tags:
 uri: javascript/Date/toDateString
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the date component of a date as a human readable string.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     toDateString()
 
-## <span>Return Value</span>
+## Return Value
 
 String value containing the date, in the current time zone, in a convenient, human readable format, e.g. `Fri May 09 2014`
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var date = new Date("2014-05-09");
@@ -33,13 +33,13 @@ console.log(date.toDateString());
 // outputs: "Fri May 09 2014"
 ```
 
-## <span>Notes</span>
+## Notes
 
 According to the specification the contents of the String are implementation-dependent. That means that you cannot rely on the returned format being consistent across browsers. That said, all major browsers seem to agree on the format `Wed Oct 08 2014`
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [toString Method (Date)](/javascript/Date/toString)
 -   [toGMTString Method (Date)](/javascript/Date/toGMTString)
@@ -50,12 +50,12 @@ According to the specification the contents of the String are implementation-dep
 -   [toTimeString Method (Date)](/javascript/Date/toTimeString)
 -   [toUTCString Method (Date)](/javascript/Date/toUTCString)
 
-### <span>External resources</span>
+### External resources
 
 -   [toDateString(), by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toDateString)
 -   [toDateString(), by Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/3k6ahb3a%28v=vs.94%29.aspx)
 
-### <span>Specification</span>
+### Specification
 
 [Date.prototype.toDateString()](http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.5.3)
 

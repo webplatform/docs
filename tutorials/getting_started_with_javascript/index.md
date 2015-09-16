@@ -18,39 +18,39 @@ todo_broken_links:
 uri: 'tutorials/getting started with javascript'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This tutorial provides a brief introduction to JavaScript, for readers who are already familiar with programming concepts
 
-## <span>Why JavaScript?</span>
+## Why JavaScript?
 
 JavaScript is a powerful, complicated and not very well understood language in the field of computer languages. However, at its core potential lies the ability to develop a new range of applications that will likely change the landscape of the internet in this decade. A good example of one of these applications is [Google Maps](http://local.google.com/).
 
 The primary advantage to JavaScript, which is also known as ECMAScript, centers around the web browser, thus having the ability to produce the same results on all platforms supported by the browser. The examples on this page, just like Google Maps, run on Linux, Windows and the Mac OS. With the recent growth of numerous JavaScript libraries, it is now easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications. Unlike the hype around other technologies pushed by various proprietary interests, JavaScript is really the only cross-platform, client-side programming language that is both free and universally adopted.
 
-## <span>What you should already know</span>
+## What you should already know
 
 JavaScript is a very easy language to start programming with. All you need is a text editor and a web browser to get started.
 
 There are many other technologies that can be integrated into and developed along with JavaScript that are beyond the scope of this document. Don't expect to make a whole application like Google maps all on your first day!
 
-## <span>Getting Started</span>
+## Getting Started
 
 Getting started with JavaScript is very easy. You don't have to have complicated development programs installed. You don't have to know how to use a shell, program Make or use a compiler. JavaScript is interpreted by your web browser. All you have to do is save your program as a text file and then open it up in your web browser. That's it!
 
 JavaScript is a great programming language for introductory computer courses. It allows instant feedback to the new student and teaches them about tools they will likely find useful in their real life. This is in stark contrast to C, C++ and Java which are really only useful for dedicated software developers.
 
-## <span>Browser Compatibility Issues</span>
+## Browser Compatibility Issues
 
 There are variations between what functionality is available in the different browsers. Mozilla, Microsoft IE, Apple Safari and Opera fluctuate in the behavior. We intend on documenting these variations. You can mitigate these issues by using the various cross platform JavaScript APIs that are available. These APIs provide common functionality and hide these browser fluctuations from you.
 
-## <span>How to try the Examples</span>
+## How to try the Examples
 
 The examples below have some sample code. There are many ways to try these examples out. If you already have your own website, then you should be able to just save these examples as new web pages on your website.
 
 If you do not have your own website, you can save these examples as files on your computer and open them up with the web browser you are using now. JavaScript is a very easy language to use for beginning programmers for this reason. You don't need a compiler or a development environment; you and your browser are all you need to get started!
 
-## <span>Example: Catching a mouse click</span>
+## Example: Catching a mouse click
 
 The specifics of event handling (event types, handler registration, propagation, etc) are too extensive to be fully covered in this simple example. However this example cannot demonstrate catching a mouse click without delving a little into the JavaScript event system. Just keep in mind that this example will only graze the full details about JavaScript events and that if you wish to go beyond the basic capabilities described here to read more about the JavaScript event system.
 
@@ -136,7 +136,7 @@ In addition to registering to receive events in your HTML you can likewise set t
 **DRAFT**
 <font size="x-small">This page is not complete.</font>
 
-## <span>Example: Catching a keyboard event</span>
+## Example: Catching a keyboard event
 
 Similar to the "Catching a mouse event" example above, catching a keyboard event relies on exploring the JavaScript event system. Keyboard events are fired whenever any key is used on the keyboard.
 
@@ -231,7 +231,7 @@ Here is a complete example that shows key event handling:
  </html>
 ```
 
-### <span>Browser bugs and quirks</span>
+### Browser bugs and quirks
 
 The two properties made available through the key events are `keyCode` and `charCode`. In simple terms, `keyCode` refers to the actual keyboard key that was pressed by the user, while `charCode` is intended to return that key's ASCII value. These two values may not necessarily be the same; for instance, a lower case 'a' and an upper case 'A' have the same `keyCode`, because the user presses the same key, but a different `charCode` because the resulting character is different.
 
@@ -242,7 +242,7 @@ Refer to the documentation on Keyboard Events for a further treatment of keyboar
 **DRAFT**
 <font size="x-small">This page is not complete.</font>
 
-## <span>Example: Dragging images around</span>
+## Example: Dragging images around
 
 The following example allows moving the image of firefox around the page.
 
@@ -303,10 +303,10 @@ The following example allows moving the image of firefox around the page.
  </html>
 ```
 
-## <span>Example: Resizing things</span>
+## Example: Resizing things
 
 <span class="inlineIndicaor todoInline">**FIXME:** *Need Content. Or, remove headline*</span>
 
-## <span>Example: Drawing Lines</span>
+## Example: Drawing Lines
 
 <span class="inlineIndicaor todoInline">**FIXME:** *Need Content. Or, remove headline*</span>

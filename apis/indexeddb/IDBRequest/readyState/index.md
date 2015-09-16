@@ -24,13 +24,13 @@ tags:
 uri: apis/indexeddb/IDBRequest/readyState
 
 ---
-## <span>Summary</span>
+## Summary
 
 The state of the request. Every request starts in the pending state. The state changes to done when the request completes successfully or when an error occurs.
 
 Property of [apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)[apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)[apis/indexed
 var result = element.readyState;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type enumenum
 
@@ -47,8 +47,8 @@ Returns an object of type enumenum
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

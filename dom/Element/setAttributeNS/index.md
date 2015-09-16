@@ -20,57 +20,57 @@ tags:
 uri: dom/Element/setAttributeNS
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the value of a content attribute in a specified namespace.
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  element.setAttributeNS(namespaceURI, name, value);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>namespaceURI</span>
+### namespaceURI
 
  Data-type
 :   String
 
  The namespace URI of the attribute, or null.
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The local name of the attribute within the specified namespace.
 
-### <span>value</span>
+### value
 
  Data-type
 :   String
 
  The value of the attribute.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Use this method to set an attribute in a specified namespace.
 
-## <span>Notes</span>
+## Notes
 
 -   The attribute will be created, if it is not already present.
 -   Where namespaces are irrelevant, [setAttribute](/dom/Element/setAttribute) can be used instead.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Document Object Model (DOM) Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

@@ -11,23 +11,23 @@ tags:
 uri: svg/properties/angle
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 For angle values in properties and their corresponding presentation attributes, the angle unit identifier is optional. If you do not the identifier, the angle value is treated as if it is in degrees. If you provide the identifier, the angle unit identifier must be in lowercase.
 
 When you use angles in an SVG attribute, the **angle** property is defined as **deg** for degrees, **grad** for gradians, or **rad** for radians. In the SVG DOM, **angle** values are represented by using [**SVGAngle**](/svg/objects/SVGAngle) or [**SVGAnimatedAngle**](/svg/objects/SVGAnimatedAngle) objects.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGPathSegArcAbs**](/svg/objects/SVGPathSegArcAbs)
 -   [**SVGPathSegArcRel**](/svg/objects/SVGPathSegArcRel)

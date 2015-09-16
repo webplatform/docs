@@ -11,9 +11,9 @@ tags:
 uri: svg/methods/getRotationOfChar
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If multiple glyphs are used to render the specified character and if the glyphs each have different rotations (for example, because of text-on-a-path), the **getRotationOfChar** method returns an average value (that is, the rotation angle at the midpoint along the path for all glyphs that are used to render the specified character).
 
@@ -21,15 +21,15 @@ The rotation value represents the rotation that is supplemental to any rotation 
 
 If multiple consecutive characters are rendered inseparably (for example, as a single glyph or a sequence of glyphs), each of the inseparable characters returns the same rotation value.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.17.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGTextElement**](/svg/elements/text)
 -   [**SVGTextPositioningElement**](/svg/elements/textPositioning)

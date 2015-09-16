@@ -11,11 +11,11 @@ tags:
 uri: javascript/Array/some
 
 ---
-## <span>Summary</span>
+## Summary
 
 Determines whether the specified callback function returns true for any element of an array.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -27,11 +27,11 @@ Determines whether the specified callback function returns true for any element 
 **thisArg**
 :   Optional. An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
 
-## <span>Return Value</span>
+## Return Value
 
 true if the callbackfn function returns true for any array element; otherwise, false.
 
-## <span>Examples</span>
+## Examples
 
 The following example uses the **some** method to find out if any elements in an array are even.
 
@@ -72,7 +72,7 @@ document.write(numbers.some(isOutsideRange, range));
 // Output: true
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **some** method calls the callbackfn function on each array element, in ascending index order, until the callbackfn function returns true. If an element that causes callbackfn to return true is found, the some method immediately returns true. If the callback does not return true on any element, the some method returns false.
 
@@ -107,13 +107,13 @@ The following table describes the results of modifying the array object after th
 |Element is changed.|Yes, if that element has not yet been passed to the callback function.|
 |Element is deleted from the array.|No, unless that element has already been passed to the callback function.|
 
-## <span>Exceptions</span>
+## Exceptions
 
 If the callbackfn argument is not a function object, a **TypeError** exception is thrown.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.17 Array.prototype.some ( callbackfn [ , thisArg](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.17) )] ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

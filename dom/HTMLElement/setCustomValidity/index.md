@@ -26,22 +26,22 @@ uri: dom/HTMLElement/setCustomValidity
 
 Method of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.setCustomValidity(error);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>error</span>
+### error
 
  Data-type
 :   any
 
  String containing a custom message.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -53,21 +53,21 @@ S\_OK
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The following example sets a custom message if you type "fun" into the input field.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.21.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLObjectElement`
 -   `HTMLButtonElement`

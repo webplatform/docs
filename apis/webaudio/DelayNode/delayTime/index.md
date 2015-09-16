@@ -16,20 +16,20 @@ tags:
 uri: apis/webaudio/DelayNode/delayTime
 
 ---
-## <span>Summary</span>
+## Summary
 
 An AudioParam object representing the amount of delay (in seconds) to apply. The default value (delayTime.value) is 0 (no delay). The minimum value is 0 and the maximum value is determined by the maxDelayTime argument to the AudioContext method createDelay. This parameter is k-rate.
 
 Property of [apis/webaudio/DelayNode](/apis/webaudio/DelayNode)[apis/webaudio/DelayNode](/apis/webaudio/DelayNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = DelayNode.delayTime;
 DelayNode.delayTime = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -37,7 +37,7 @@ var myDelay = audioCtx.createDelay(5.0);
 myDelay.delayTime.value = 3.0;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

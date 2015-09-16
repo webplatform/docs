@@ -15,16 +15,16 @@ tags:
 uri: html/elements/th
 
 ---
-## <span>Summary</span>
+## Summary
 
 The th tag defines a header cell in an HTML table.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLTableHeaderCellElement](/dom/HTMLTableHeaderCellElement)
 
-## <span>Attributes</span>
+## Attributes
 
 -   `colspan` = valid non-negative integer
     This attribute gives the number of columns respectively that the cell is to span.
@@ -43,7 +43,7 @@ The th tag defines a header cell in an HTML table.
     -   colgroup
         The header cell applies to all the remaining cells in the column group. A th element's scope attribute must not be in the column group state if the element is not anchored in a column group.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the [**table**](/html/elements/table), [**td**](/html/elements/td), [**th**](/html/elements/thead), and [**tr**](/html/elements/tr).
 
@@ -112,7 +112,7 @@ A table cell referring to the table header
 </table>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-th-element)
 :   W3C Working Draft
@@ -123,11 +123,11 @@ A table cell referring to the table header
 [HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-TH)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -267,7 +267,7 @@ A table cell referring to the table header
 
 -   [time](/html/elements/time)
 
-#### <span>Tables</span>
+#### Tables
 
 -   [border-collapse](/css/properties/border-collapse)
 

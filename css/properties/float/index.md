@@ -26,11 +26,11 @@ todo_broken_links:
 uri: css/properties/float
 
 ---
-## <span>Summary</span>
+## Summary
 
 Elements which have the style float are floated horizontally. These elements can move as far to the left or right of the containing element. All elements after the floating element will flow around it, but elements before the floating element are not impacted. If several floating elements are placed after each other, they will float next to each other as long as there is room.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -53,14 +53,14 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `float: footnote`
 -   `float: left`
 -   `float: none`
 -   `float: right`
 
-## <span>Values</span>
+## Values
 
 none
 :   `none` indicates that the element does not contain any float at all. This is the initial value of the `float` property.
@@ -74,7 +74,7 @@ right
 footnote
 :   The `footnote` value indicates that the element is moved to the footnote area and that a footnote call is put in its original location.
 
-## <span>Examples</span>
+## Examples
 
 In this example, we create a simple layout containing a title, a logo (image) and some textual content. Notice the use of the `clearfix` class on the `article` element below.
 
@@ -106,7 +106,7 @@ The CSS for the above layout is described below. Notice the use of the `float`s.
 
 [View live example](http://code.webplatform.org/gist/5974883)
 
-## <span>Usage</span>
+## Usage
 
      As float implicitly implies the use of the block layout, it modifies the computed value of the display values in some cases:
 
@@ -129,23 +129,23 @@ The CSS for the above layout is described below. Notice the use of the `float`s.
 
 **Note:** If you're referring to this property from JavaScript as a member of the element.style object, you must spell it as cssFloat. Also note that Internet Explorer versions 8 and older spelled this styleFloat. This is an exception to the rule that the name of the DOM member is the camel-case name of the dash-separated CSS name (and is due to the fact that "float" is a reserved word in JavaScript, as with the need to escape "class" as "className" and escape \<label\>'s "for" as "htmlFor").
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 -   When using floats it's often necessary to clear the parent element. Check out the [clear](/css/properties/clear)-property.
 -   Objects following a floating object move in relation to the position of the floating object.
 -   The floating object is moved left or right until it reaches the border, padding, or margin of another block-level object.
 
-### <span>Syntax</span>
+### Syntax
 
 `float: left | right | none | inherit`
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 5.5.25
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS basic box model](http://www.w3.org/TR/css3-box/#floating0)
 :   Working Draft
@@ -159,11 +159,11 @@ The CSS for the above layout is described below. Notice the use of the `float`s.
 [CSS Generated Content for Paged Media Module](http://www.w3.org/TR/css3-gcpm/#turning-elements-into-footnotes)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Box Model</span>
+#### Box Model
 
 -   [border](/css/properties/border)
 
@@ -205,7 +205,7 @@ The CSS for the above layout is described below. Notice the use of the `float`s.
 
 -   [min-width](/css/properties/min-width)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

@@ -11,11 +11,11 @@ tags:
 uri: javascript/Array/sort
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sorts an Array.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -24,11 +24,11 @@ Sorts an Array.
 **sortFunction**
 :   Optional. The name of the function used to determine the order of the elements. If omitted, the elements are sorted in ascending, ASCII character order.
 
-## <span>Return Value</span>
+## Return Value
 
 The sorted array.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **sort** method.
 
@@ -60,7 +60,7 @@ var a = new Array(4, 11, 2, 10, 3, 1);
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **sort** method sorts the **Array** object in place; no new **Array** object is created during execution.
 
@@ -70,9 +70,9 @@ If you supply a function in the sortFunction argument, it must return one of the
 -   Zero if the two arguments are equivalent.
 -   A positive value if the first argument is greater than the second argument.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.11 Array.prototype.sort (comparefn)](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.11) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

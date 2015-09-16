@@ -16,18 +16,18 @@ tags:
 uri: html/elements/caption
 
 ---
-## <span>Summary</span>
+## Summary
 
 The caption (&lt;caption&gt;) element represents the title of the table that is its parent.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLTableCaptionElement](/dom/HTMLTableCaptionElement)
 
 The **caption** element (\<caption\>) specifies a brief description for a table. The \<caption\> element must be inserted immediately after the \<table\> element.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **caption** element to provide a brief description for a table.
 
@@ -60,9 +60,9 @@ This example uses the **caption** element to provide a brief description for a t
 
 [View live example](http://code.webplatform.org/gist/7282268)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **caption** element should be a child of the \<table\> element.
 
@@ -70,7 +70,7 @@ A caption can introduce context for a table, making it significantly easier to u
 
 When a table element is the only content in a figure element other than the **figcaption**, the caption element should be omitted in favor of the [figcaption](/html/elements/figcaption).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-caption-element)
 :   W3C Working Draft
@@ -81,11 +81,11 @@ When a table element is the only content in a figure element other than the **fi
 [HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-CAPTION)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -225,7 +225,7 @@ When a table element is the only content in a figure element other than the **fi
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -305,6 +305,6 @@ When a table element is the only content in a figure element other than the **fi
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>External resources</span>
+### External resources
 
 <http://www.w3.org/wiki/HTML/Elements/caption>

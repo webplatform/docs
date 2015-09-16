@@ -23,11 +23,11 @@ tags:
 uri: css/properties/column-rule
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the width, style, and color of the rule between columns.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `see individual properties`
@@ -53,14 +53,14 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `column-rule: column-rule-color`
 -   `column-rule: column-rule-style`
 -   `column-rule: column-rule-width`
 -   `column-rule: transparent`
 
-## <span>Values</span>
+## Values
 
 column-rule-width
 :   Value of the [**column-rule-width**](/css/properties/column-rule-width) property.
@@ -74,7 +74,7 @@ column-rule-color
 transparent
 :   Indicates rule is transparent.
 
-## <span>Examples</span>
+## Examples
 
 Makes 3 columns with 4px dashed green column-rule.
 
@@ -87,15 +87,15 @@ Makes 3 columns with 4px dashed green column-rule.
 
 [View live example](http://code.webplatform.org/gist/6288958)
 
-### <span>Syntax</span>
+### Syntax
 
 `column-rule: column-rule-width || column-rule-style || [ column-rule-color | transparent ]`
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Multi-Column</span>
+#### Multi-Column
 
 -   [break-after](/css/properties/break-after)
 
@@ -121,7 +121,7 @@ Makes 3 columns with 4px dashed green column-rule.
 
 -   [content](/css/properties/content)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

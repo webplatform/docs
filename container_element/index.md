@@ -9,7 +9,7 @@ tags:
 uri: 'container element'
 
 ---
-## <span>container element</span>
+## container element
 
 A parent element that comprises one or more child elements. A container element typically determines the content flow and/or positioning context of its child elements.
 

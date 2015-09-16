@@ -23,11 +23,11 @@ tags:
 uri: css/properties/appearance
 
 ---
-## <span>Summary</span>
+## Summary
 
 Allows changing the style of any element to platform-based interface elements or vice versa.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -53,7 +53,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `appearance: button`
 -   `appearance: button-arrow-down`
@@ -70,7 +70,7 @@ Percentages
 -   `appearance: listbox`
 -   `appearance: none`
 
-## <span>Values</span>
+## Values
 
 button-arrow-down
 :   Firefox specific - but no effect in latest version
@@ -116,7 +116,7 @@ listbox
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS3 Basic User Interface Module](http://www.w3.org/TR/2004/CR-css3-ui-20040511/#appearance)
 :   W3C Candidate Recommendation (Obsolete)

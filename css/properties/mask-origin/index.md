@@ -20,11 +20,11 @@ tags:
 uri: css/properties/mask-origin
 
 ---
-## <span>Summary</span>
+## Summary
 
 For elements rendered as a single box, specifies the mask positioning area. For elements rendered as multiple boxes (e.g., inline boxes on several lines, boxes on several pages) specifies which boxes box-decoration-break operates on to determine the mask positioning area(s).
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `border-box`
@@ -50,13 +50,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `mask-origin: border-box`
 -   `mask-origin: content-box`
 -   `mask-origin: padding-box`
 
-## <span>Values</span>
+## Values
 
 padding-box
 :   The position is relative to the padding box. (For single boxes, *0 0* is the upper left corner of the padding edge; *100% 100%* is the lower right corner.)
@@ -67,7 +67,7 @@ border-box
 content-box
 :   The position is relative to the content box (object bounding box for objects without associated layout box).
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* padding-box */
@@ -102,7 +102,7 @@ div {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Masking Level 1](https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html)
 :   W3C Editor's Draft

@@ -20,16 +20,16 @@ todo_broken_links:
 uri: html/elements/param
 
 ---
-## <span>Summary</span>
+## Summary
 
 This element defines parameters for plugins invoked by object elements.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLParamElement](/dom/HTMLParamElement)
 
-## <span>Attributes</span>
+## Attributes
 
 -   `name` = name of the parameter
     Gives the name of the parameter.
@@ -38,7 +38,7 @@ This element defines parameters for plugins invoked by object elements.
     Gives the value of the parameter.
     This attribute must be present.
 
-## <span>Examples</span>
+## Examples
 
 This example displays the Internet Explorer Data Binding component's [**outerHTML**](/w/index.php?title=dom/properties/outerdom/outerHTML&action=edit&redlink=1) so you can view the properties assigned by the **PARAM** elements. You can perform this check to gather information when debugging an **OBJECT** element's properties. You cannot edit the object's **outerHTML** property without reintializing the **outerHTML** object.
 
@@ -99,13 +99,13 @@ The following example shows how the param element can be used to pass a paramete
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **PARAM** element is valid within the **APPLET**, **EMBED**, and **OBJECT** elements. **Note**  Properties set by a **PARAM** element cannot be altered by changing the **PARAM** object. After the **APPLET**, **EMBED**, or **OBJECT** element is instantiated, the property set by the **PARAM** element cannot be changed with the **param** object. To change the object's properties, use the script properties exposed by the object.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-param-element)
 :   W3C Working Draft

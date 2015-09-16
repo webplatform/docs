@@ -13,7 +13,7 @@ tags:
 uri: html/attributes/lang
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the language to use.
 
@@ -31,17 +31,17 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The parser uses this property to determine how to display language-specific choices for quotations, numbers, and so on.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`
 -   `abbr`

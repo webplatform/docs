@@ -11,11 +11,11 @@ tags:
 uri: 'apis/web animations/AnimationEffect'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Animation effects are represented by the AnimationEffect interface. AnimationEffect is an abstract interface of which several concrete subinterfaces are provided.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -29,7 +29,7 @@ API Name
 [name](/apis/web_animations/AnimationEffect/name)
 :   A string used to identify the effect.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -37,11 +37,11 @@ API Name
 [clone](/apis/web_animations/AnimationEffect/clone)
 :   Creates and returns a new object of the same type as this object's most-derived interface such that it will produce the same output as this object.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Web Animations 1.0](http://www.w3.org/TR/web-animations/)
 :   W3C Working Draft

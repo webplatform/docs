@@ -16,13 +16,13 @@ tags:
 uri: html/elements/textarea
 
 ---
-## <span>Summary</span>
+## Summary
 
 The textarea tag defines a multi-line text input control.
 
 A text area can hold an unlimited number of characters, and the text renders in a fixed-width font (usually Courier).
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLTextAreaElement](/dom/HTMLTextAreaElement)
@@ -32,7 +32,7 @@ Internationalization topics related to the `a` element:
 -   [Setting direction on block elements](http://localhost/International/techniques/authoring-html#blocks)
 -   [Managing text direction in form controls](http://localhost/International/techniques/authoring-html#formdir)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the `textarea` element to set the cascading style sheets (CSS) [**overflow**](/css/properties/overflow) attribute to `hidden` to remove the scroll bars from the `textarea`.
 
@@ -43,11 +43,11 @@ This example uses the `textarea` element to set the cascading style sheets (CSS)
 </textarea>
 ```
 
-## <span>Usage</span>
+## Usage
 
      To cater for international users see: Managing text direction in form controls
 
-## <span>HTML Attributes</span>
+## HTML Attributes
 
  Global attributes: accesskey, class, contenteditable, dir, hidden, id, lang, spellcheck, style, tabindex, title, translate
 :   See [global attributes](/html/global_attributes).
@@ -88,9 +88,9 @@ This example uses the `textarea` element to set the cascading style sheets (CSS)
     :   The Hard state indicates that the text in the textarea is to have newlines added by the user agent so that the text is wrapped when it is submitted.
         If the element's wrap attribute is in the Hard state, the cols attribute must be specified.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The default font is fixed pitch.
 
@@ -100,12 +100,12 @@ Safari Mobile for iOS applies a default style of [`opacity`](/css/properties/opa
 
 **Security Warning:  **Using this object incorrectly can compromise the security of your application. When submitting text through `textarea` over an intranet or the Internet, validating the text string is recommended. For instance, you might validate the string for a restricted set of known, good values (such as letters and numbers) and ignore the rest.
 
-### <span>Default CSS</span>
+### Default CSS
 
     white-space: pre-wrap;
     text-indent: initial;
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-textarea-element)
 :   W3C Working Draft

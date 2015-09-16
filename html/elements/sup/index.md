@@ -14,18 +14,18 @@ tags:
 uri: html/elements/sup
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines superscript text. Superscript text appears half a character above the baseline.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
 This element must be used only to mark up typographical conventions with specific meanings. For the purely visual formatting of content to your liking, use CSS.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **SUP** element to change some of the text to a superscript font. (MathML usage is encouraged, but this is acceptable.)
 
@@ -33,7 +33,7 @@ This example uses the **SUP** element to change some of the text to a superscrip
 (X<SUP>2</SUP> + Y<SUP>2</SUP>)
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-sub-and-sup-elements)
 :   W3C Working Draft
@@ -44,8 +44,8 @@ This example uses the **SUP** element to change some of the text to a superscrip
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-SUB)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [html/elements/sub](/html/elements/sub)

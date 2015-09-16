@@ -22,13 +22,13 @@ tags:
 uri: apis/gamepad/Gamepad/index
 
 ---
-## <span>Summary</span>
+## Summary
 
 The index of the gamepad in the Navigator.
 
 Property of [apis/gamepad/Gamepad](/apis/gamepad/Gamepad)[apis/gamepad/Gamepad](/apis/gamepad/Gamepad)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,11 +36,11 @@ Property of [apis/gamepad/Gamepad](/apis/gamepad/Gamepad)[apis/gamepad/Gamepad](
 var result = object.index;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 The Gamepad API provides a function, [Navigator.getGamepads](/dom/Navigator/getGamepads), that returns a list of all devices currently visible to the web page, as an array of Gamepad objects. When a gamepad is connected, this example reports its index, id, number of buttons, number of axes, and when the gamepad data was updated.
 
@@ -56,7 +56,7 @@ window.addEventListener("gamepadconnected", function(e) {
 });
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Gamepad Specification](https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html)
 :   W3C Working Draft

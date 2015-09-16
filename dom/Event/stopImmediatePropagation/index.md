@@ -20,40 +20,40 @@ tags:
 uri: dom/Event/stopImmediatePropagation
 
 ---
-## <span>Summary</span>
+## Summary
 
 Prevents any further propagation of an event.
 
 Method of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  event.stopImmediatePropagation();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Use this method to prevent any further dispatch of the event, even if additional event handlers remain on the target element.
 
-## <span>Notes</span>
+## Notes
 
 To allow the remaining handlers to run, use the [**stopPropagation**](/dom/Event/stopPropagation) method instead.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

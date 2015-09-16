@@ -9,7 +9,7 @@ tags:
 uri: descender
 
 ---
-## <span>descender</span>
+## descender
 
 The downward-pointing stem of a letter, such as "p" or "y", that extends below the baseline.
 

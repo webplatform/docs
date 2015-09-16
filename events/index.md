@@ -10,7 +10,7 @@ tags:
 uri: events
 
 ---
-## <span>Summary</span>
+## Summary
 
 Event handling enables web applications to respond to events in HTML.
 

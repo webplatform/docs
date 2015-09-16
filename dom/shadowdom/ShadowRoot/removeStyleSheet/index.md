@@ -22,19 +22,19 @@ tags:
 uri: dom/shadowdom/ShadowRoot/removeStyleSheet
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes a style sheet from the ShadowRoot.
 
 Method of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.removeStyleSheet();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StyleSheetStyleSheet
 

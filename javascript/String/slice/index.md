@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/slice
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a section of a string.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Returns a section of a string.
 **end**
 :   Optional. The index to the end of the specified portion of stringObj. The substring includes the characters up to, but not including, the character indicated by end. If this value is not specified, the substring continues to the end of stringObj.
 
-## <span>Examples</span>
+## Examples
 
 In the first example, the slice method returns the entire string. In the second example, the slice method returns the entire string, except for the last character.
 
@@ -53,7 +53,7 @@ var str1 = "all good boys do fine";
  // good
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **slice** method returns a String object containing the specified portion of stringObj.
 
@@ -61,9 +61,9 @@ The **slice** method copies up to, but not including, the character indicated by
 
 If start is negative, it is treated as length + start where length is the length of the string. If end is negative, it is treated as length + end. If end is omitted, copying continues to the end of stringObj. If end occurs before start , no characters are copied to the new string.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [slice Method (Array)](/javascript/Array/slice)
 

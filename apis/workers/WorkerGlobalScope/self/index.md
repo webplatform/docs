@@ -24,13 +24,13 @@ tags:
 uri: apis/workers/WorkerGlobalScope/self
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the WorkerGlobalScope object.
 
 Property of [apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)[apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)[ap
 var result = object.self;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft

@@ -13,11 +13,11 @@ tags:
 uri: css/functions/skew()
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines a two-dimensional transformation consisting of simultaneous skew transformations of the X and Y axes. Not recommended and supported only for backwards compatibility; use a combination of skewX(angle), skewY(angle) and/or rotate(angle) instead.
 
-## <span>Examples</span>
+## Examples
 
 The following code snippet is an example of the **skew** function in use. When applied to a square blue [**div**](/html/elements/div) element, it has the effect illustrated in the image. (The light-blue square indicates the original position of the transformed element.)
 
@@ -29,22 +29,22 @@ div {
 
 [View live example](http://code.webplatform.org/gist/5305245)
 
-### <span>Syntax</span>
+### Syntax
 
 **skew** `( <angle-x>  ,  <angle-y> )`
 
-### <span>Parameters</span>
+### Parameters
 
 *angle-x*
 :   The angle by which the element is skewed along the *x*-axis. This value is expressed as a number followed by a supported angle unit.
 *angle-y*
 :   The angle by which the element is skewed along the *y*-axis. This value is expressed as a number followed by a supported angle unit.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Transforms</span>
+#### Transforms
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -78,7 +78,7 @@ div {
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`

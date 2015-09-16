@@ -21,7 +21,7 @@ uri: css/properties/text-decoration-overline
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :
@@ -44,12 +44,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-decoration-overline: VARIANT_FALSE`
 -   `text-decoration-overline: VARIANT_TRUE`
 
-## <span>Values</span>
+## Values
 
 VARIANT\_TRUE
 :   A line is drawn over the text.
@@ -57,7 +57,7 @@ VARIANT\_TRUE
 VARIANT\_FALSE
 :   A line is not drawn over the text.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **textDecorationOverline** property to draw a line over the text when the user moves the mouse over the text.
 
@@ -67,17 +67,17 @@ Mouse over this text for an overline.
 </P>
 ```
 
-### <span>Syntax</span>
+### Syntax
 
 `textDecorationOverline: VARIANT_TRUE | VARIANT_FALSE`
 
-### <span>Requirements</span>
+### Requirements
 
 {
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `defaultSelected`
 -   `runtimeStyle`

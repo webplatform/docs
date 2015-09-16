@@ -23,23 +23,23 @@ tags:
 uri: dom/Range/cloneRange
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a new range with boundary points that are equal to the original range.
 
 Method of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var clone = range.cloneRange();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type RangeRange
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var range = document.createRange();
@@ -47,10 +47,10 @@ range.selectNode(document.getElementsByTagName("div").item(0));
 var clone = range.cloneRange();
 ```
 
-### <span>Syntax</span>
+### Syntax
 
 clone = range.cloneRange();
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13

@@ -16,7 +16,7 @@ todo_broken_links:
 uri: apis/webaudio
 
 ---
-## <span>Summary</span>
+## Summary
 
 Describes a high-level JavaScript API for processing and synthesizing audio in web applications.
 
@@ -47,17 +47,17 @@ API Name
 [WaveTable](/apis/webaudio/WaveTable)
 :   WaveTable represents an arbitrary periodic waveform to be used with an [**OscillatorNode**](/apis/webaudio/OscillatorNode).
 
-## <span>Usage</span>
+## Usage
 
      This specification describes a high-level JavaScript API for processing and synthesizing audio in web applications. The primary paradigm is of an audio routing graph, where a number of AudioNode objects are connected together to define the overall audio rendering. The actual processing will primarily take place in the underlying implementation (typically optimized Assembly / C / C++ code), but direct JavaScript processing and synthesis is also supported.
 
 This API is designed to be used in conjunction with other APIs and elements on the web platform, notably: [**XMLHttpRequest**](/w/index.php?title=apis/xhr/objects/XMLHttpRequest&action=edit&redlink=1) (using the **responseType** and **response** attributes). For games and interactive applications, it is anticipated to be used with the canvas 2D and WebGL 3D graphics APIs.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Audio</span>
+#### Audio
 
 -   [audio-video](/apis/audio-video)
 

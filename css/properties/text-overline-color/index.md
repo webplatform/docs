@@ -18,11 +18,11 @@ tags:
 uri: css/properties/text-overline-color
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the line color for the overline text decoration.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `currentColor`
@@ -48,16 +48,16 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-overline-color: <color>`
 
-## <span>Values</span>
+## Values
 
 \<color\>
 :   Specifies a color value
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 p {
@@ -65,7 +65,7 @@ p {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-decoration-color)
 :   Candidate Recommendation

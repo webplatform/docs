@@ -13,17 +13,17 @@ uri: 'concepts/programming/programming basics'
 **By [Chris Heilmann](http://wait-till-i.com/)**
 Originally published February 3, 2009
 
-## <span>Summary</span>
+## Summary
 
 This article covers fundamental principles of programming, using JavaScript as an example language.
 
-## <span>Introduction</span>
+## Introduction
 
 As an experienced developer, you will sooner or later have to face people that are just not technical and will consider whatever you do as black magic. Conversely, as a non-technical person, not knowing what someone delivering work for you is doing is a bad starting position. This [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum) article explains in simple terms what programming is about and hopefully will help both parties involved to steer these non-conversations into more productive waters.
 
 It will also help novice web developers to take on-board some generic programming principles that are essential to understand before learning JavaScript. It may seem boring to begin with, but your work will be a lot more robust, dynamic, and creative (read: a lot more WOW factor) if you get these rudimentary principles down in the first place. Learning the basic fundamentals of programming is important before you start working in particular languages (JavaScript, in the case of this course).
 
-## <span>Order, I will have order!</span>
+## Order, I will have order!
 
 Programming in the most basic form is issuing commands and seeing that they get executed. It is a mixture of math and linguistics: you define a lot of calculations and you need to tell machines to solve them by giving orders using the right grammar. Grammar in programming is syntax and differs a lot from language to language.
 
@@ -45,7 +45,7 @@ echo $celsius;
 
 Programming languages are *interpreted* to be turned into actions or results. Some languages, such as JavaScript, are interpreted by a web browser; all you need to do to make them “do stuff” is put them inside an HTML document and open this in a browser. Other programming languages need to be translated (compiled) in an extra step to become executable. Deep down, all computers only understand zeros and ones, but above that there are multiple levels of languages fulfilling different tasks.
 
-## <span>Variables</span>
+## Variables
 
 The first step towards understanding programming is looking back at algebra. If you remember from school, algebra starts with writing terms such as the following:
 
@@ -111,7 +111,7 @@ var half = (y + z) / 2;
 
  As you can see, you can mix and match any variable, and also use variables along with fixed values in calculations; you can also group them with parentheses to override the natural order of operators (parentheses first, then multiplication or division, then adding or subtracting and all those math lesson classics).
 
-### <span>Variable types</span>
+### Variable types
 
 However, this would be boring, as we can do all that with a simple calculator (after we typed 5318008, then turned it around and giggled, of course). Computers are more sophisticated and can make use of more complex variables. This is where variable types come in. Variables come in several types and different languages support different ones. The most common ones are:
 
@@ -124,7 +124,7 @@ However, this would be boring, as we can do all that with a simple calculator (a
 
 JavaScript is a “loosely typed” language, which means that you do not have to explicitly declare what type of data the variables are. You just need to use the `var` keyword to indicate that you are declaring a variable, and the browser will work out what data type you are using from the context and use of quotes.
 
-#### <span>Floats and integers</span>
+#### Floats and integers
 
 There is nothing magical or strange going on with these. You define variables and set their values to any number type.
 
@@ -136,7 +136,7 @@ var fahrenheit = 123,
 
  Floats and integers can be modified with any mathematical operators.
 
-#### <span>Booleans</span>
+#### Booleans
 
 Booleans are simple “yes or no” definitions. You assign them by using the `true` or `false` keywords.
 
@@ -145,7 +145,7 @@ var doorClosed = true,
     catCanLeave = false;
 ```
 
-#### <span>Strings</span>
+#### Strings
 
 Strings are lines of text that can contain any character. You define them in JavaScript by enclosing the text in single quotes or double quotes.
 
@@ -186,7 +186,7 @@ var stringWithError = 'Isn't it hard to get things right?';
 var stringWithoutError = 'Isn\'t it hard to get things right?';
 ```
 
-#### <span>Arrays</span>
+#### Arrays
 
 Arrays are very powerful constructs. An array is a collection of values, and each of the values can be a variable, or a real value. For example:
 
@@ -200,7 +200,7 @@ Arrays automatically get a special information source for you: `length`. If you 
 
 Arrays are great for describing collections of things that have something in common, and every language comes with dozens of handy functions to manipulate them—sorting, filtering, searching and so on.
 
-#### <span>Objects</span>
+#### Objects
 
 If you have a collection of items that need more detailed descriptions than just a running number, then an Array will not quite give what you need, and you will need to create an object. Objects are constructs in programming that represent or model real things, such as people, vehicles or tools.
 
@@ -218,7 +218,7 @@ person.hair = 'Flickr famous';
 
 That is about the short and long of what value types variables can be. Another big part of programming is the structure and logic of your program. This is where two more programming ideas come into play: conditions and loops.
 
-## <span>Conditions</span>
+## Conditions
 
 A condition is a test for something. Conditions are very important for programming, in several ways:
 
@@ -346,7 +346,7 @@ if(all == 4){
 
 In this case we need a **loop** instead of a condition, as we are doing exactly the same thing to each and every one of the items in the array, and the length doesn’t really matter. You’ll see the above example rewritten using a loop in the next section—compare the two, and see how much shorter the latter is!
 
-## <span>Loops</span>
+## Loops
 
 Loops are repetitive conditions where one variable in the loop changes. The easiest form of a loop is the `for` statement. This one has a syntax that is similar to an `if` statement, but with more options:
 
@@ -384,9 +384,9 @@ for(var i=0;i<all;i=i+1){
 
  Notice that you can use the value of `i` as the array counter inside the loop. This is the power of loops—not only can you do the same thing over and over again; you also know in every iteration how many times you have already done it.
 
-## <span>See also</span>
+## See also
 
-### <span>Exercise questions</span>
+### Exercise questions
 
 -   Why does this code fail? `var x = hello world`?
 -   Is this valid code? `var x = 'elephant';var y = "mouse";`

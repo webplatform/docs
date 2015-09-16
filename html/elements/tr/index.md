@@ -28,16 +28,16 @@ todo_broken_links:
 uri: html/elements/tr
 
 ---
-## <span>Summary</span>
+## Summary
 
 The tr element represents a row of cells in a table.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLTableRowElement](/dom/HTMLTableRowElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **TR** element with the [**TABLE**](/html/elements/table), **TD**, and **TR** elements to create a table with two rows.
 
@@ -91,13 +91,13 @@ function createRows(){
 <table id="oTable"></table>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **TD** and **TH** elements are valid within a row. To change the HTML in the **TR** element, use the table object model. For example, use the [**rowIndex**](/w/index.php?title=dom/properties/rowIndex&action=edit&redlink=1) property or the [**rows**](/w/index.php?title=dom/properties/rows_(table)&action=edit&redlink=1) collection to retrieve a reference to a specific table row. You can add or delete rows using the [**insertRow**](/w/index.php?title=dom/methods/insertRow&action=edit&redlink=1) and [**deleteRow**](/w/index.php?title=dom/methods/deleteRow&action=edit&redlink=1) methods. To retrieve a reference to a specific cell, use the [**cellIndex**](/w/index.php?title=dom/properties/cellIndex&action=edit&redlink=1) property or the [**cells**](/w/index.php?title=dom/properties/cellSpacing&action=edit&redlink=1) collection. You can add or delete cells using the [**insertCell**](/w/index.php?title=dom/methods/insertCell&action=edit&redlink=1) and [**deleteCell**](/w/index.php?title=dom/methods/deleteCell&action=edit&redlink=1) methods. To change the content of a particular cell, use the [**innerHTML**](/w/index.php?title=dom/properties/innerdom/innerHTML&action=edit&redlink=1) or [**innerText**](/w/index.php?title=dom/properties/innerText&action=edit&redlink=1) property. The [**table**](/html/elements/table) object and its associated elements have a separate table object model, which uses different methods than the general object model. For more information on the table object model, see Building Tables Dynamically. Windows Internet Explorer 8 will only render tables up to 1000 columns. To force Windows Internet Explorer 7 rendering mode, see How Do I Take Advantage of the New Features in Internet Explorer 8.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-tr-element)
 :   W3C Working Draft
@@ -108,9 +108,9 @@ The **TD** and **TH** elements are valid within a row. To change the HTML in the
 [HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-TR)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `table`

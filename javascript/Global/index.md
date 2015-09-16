@@ -10,27 +10,27 @@ tags:
 uri: javascript/Global
 
 ---
-## <span>Summary</span>
+## Summary
 
 An intrinsic object whose purpose is to collect global functions and constants into one object.
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Remarks</span>
+## Remarks
 
 The **Global** object is never used directly, and cannot be created using the new operator. It is created when the scripting engine is initialized, thus making its functions and constants available immediately.
 
-## <span>Constants</span>
+## Constants
 
 [undefined Constant](/javascript/Infinity)
 
-## <span>Functions</span>
+## Functions
 
 [decodeURI Function](/javascript/decodeURI) | [unescape Function](/javascript/decodeURIComponent)
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Object Object](/javascript/Object)
 

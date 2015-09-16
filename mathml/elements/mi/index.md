@@ -14,16 +14,16 @@ tags:
 uri: mathml/elements/mi
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML mi element indicates that the content should be rendered as an identifier such as function names, variables or symbolic constants. You can also have arbitrary text in it to mark up terms.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates a simple usage of the mi element:
 
@@ -45,12 +45,12 @@ This example demonstrates a simple usage of the mi element:
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mi)
 :   W3C Recommendation
 
-## <span>Attributes</span>
+## Attributes
 
  mathsize
 :   The size of the content. Possible values are:

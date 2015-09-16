@@ -16,6 +16,6 @@ todo_broken_links:
 uri: concepts/programming/javascript/reintroduction
 
 ---
-## <span>Summary</span>
+## Summary
 
 [Template:Concept](/w/index.php?title=Template:Concept&action=edit&redlink=1) Why a re-introduction? Because JavaScript has a reasonable claim to being the world's most misunderstood programming language. While often derided as a toy, beneath its deceptive simplicity lie some powerful language features. Deeper knowledge of this technology is an important skill for any web developer.

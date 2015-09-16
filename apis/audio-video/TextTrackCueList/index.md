@@ -13,11 +13,11 @@ tags:
 uri: apis/audio-video/TextTrackCueList
 
 ---
-## <span>Summary</span>
+## Summary
 
 A TextTrackCueList object represents a dynamically updating list of text track cues in a given order.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -25,7 +25,7 @@ API Name
 [length](/apis/audio-video/TextTrackCueList/length)
 :   The length attribute returns the number of cues in the list represented by the TextTrackCueList.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -33,11 +33,11 @@ API Name
 [getCueById](/apis/audio-video/TextTrackCueList/getCueById)
 :   Returns the first text track cue object (in text track cue order) with text track cue identifier matching *id*. Returns null if no cue has the given identifier or if the "id" argument is the empty string.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

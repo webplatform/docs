@@ -20,11 +20,11 @@ tags:
 uri: css/properties/speak-as
 
 ---
-## <span>Summary</span>
+## Summary
 
 The speak-as property determines how the speech synthesizer interprets the content: words as whole words or as a sequence of letters, numbers as a numerical value or a sequence of digits, punctuation as pauses in speech or named punctuation characters.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -47,13 +47,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Speech Module](http://www.w3.org/TR/css3-speech/#speaking-props-speak-as)
 :   W3C Candidate Recommendation

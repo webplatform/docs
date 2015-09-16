@@ -21,7 +21,7 @@ uri: dom/Element/onloadend
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onloadend;
@@ -30,21 +30,21 @@ element.onloadend = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This event is dispatched when the load ends due to an error or the load ends successfully. It occurs only one time. Indicates that the requested action is complete.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `FileReader`

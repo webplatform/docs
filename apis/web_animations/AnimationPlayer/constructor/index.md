@@ -19,21 +19,21 @@ tags:
 uri: 'apis/web animations/AnimationPlayer/constructor'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Constructs an new AnimationPlayer object.
 
 Method of [apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)[apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var myPlayer = AnimationPlayer.constructor(source, timeline);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>source</span>
+### source
 
  Data-type
 :   String
@@ -42,7 +42,7 @@ var myPlayer = AnimationPlayer.constructor(source, timeline);
 
 if not null, specifies the source content (an AnimationNode) to assign to the newly created player.
 
-### <span>timeline</span>
+### timeline
 
  Data-type
 :   String
@@ -51,9 +51,9 @@ if not null, specifies the source content (an AnimationNode) to assign to the ne
 
 An optional value which, if not null, specifies the AnimationTimeline with which to associate the newly created player.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 

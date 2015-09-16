@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/Entry/fullPath
 
 ---
-## <span>Summary</span>
+## Summary
 
 The full absolute path from the root to the Entry.
 
@@ -30,7 +30,7 @@ The full absolute path from the root to the Entry.
 
 Property of [apis/filesystem/Entry](/apis/filesystem/Entry)[apis/filesystem/Entry](/apis/filesystem/Entry)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,9 +38,9 @@ Property of [apis/filesystem/Entry](/apis/filesystem/Entry)[apis/filesystem/Entr
 var result = Entry.fullPath;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 DOMString
 

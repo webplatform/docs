@@ -11,14 +11,14 @@ tags:
 uri: svg/properties/media
 
 ---
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Styling](http://go.microsoft.com/fwlink/p/?linkid=204734), Section 6.18.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGStyleElement**](/svg/elements/style)

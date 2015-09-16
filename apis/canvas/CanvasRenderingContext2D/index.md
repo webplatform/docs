@@ -14,11 +14,11 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D
 
 ---
-## <span>Summary</span>
+## Summary
 
 The 2D rendering context for the drawing surface of a &lt;canvas&gt; element.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -74,7 +74,7 @@ API Name
 [textBaseline](/apis/canvas/CanvasRenderingContext2D/textBaseline)
 :   Returns or sets the baseline value. See return value description below.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -207,11 +207,11 @@ API Name
 [translate](/apis/canvas/CanvasRenderingContext2D/translate)
 :   Modifies the transformation matrix of this context by adding the scaling transformation described by the arguments to the transformation matrix. The arguments represent the scale factors in the horizontal (*x*) and vertical (*y*) directions. The factors are multiples.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 To get this object, call getContext() on a \<canvas\>, supplying "2d" as the argument:
 
@@ -223,7 +223,7 @@ ctx.fillStyle = "lime";
 ctx.fillRect(10, 10, 100, 100);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

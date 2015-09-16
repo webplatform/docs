@@ -21,13 +21,13 @@ tags:
 uri: 'apis/web animations/AnimationNode/previousSibling'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The previous sibling of this animation node.
 
 Property of [apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)[apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,7 +35,7 @@ Property of [apis/web\_animations/AnimationNode](/apis/web_animations/AnimationN
 var result = element.previousSibling;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 

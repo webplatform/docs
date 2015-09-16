@@ -23,13 +23,13 @@ tags:
 uri: apis/websocket/WebSocket/readyState
 
 ---
-## <span>Summary</span>
+## Summary
 
 The current state of the connection, represented as a numeric constant.
 
 Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket/WebSocket](/apis/websocket/WebSocket)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket
 var result = element.readyState;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned shortunsigned short
 
@@ -50,7 +50,7 @@ These constants are used by the readyState attribute to describe the state of th
 |CLOSING|2|The connection is in the process of closing.|
 |CLOSED|3|The connection is closed or couldn't be opened.|
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 switch (socket.readyState) {
@@ -72,7 +72,7 @@ switch (socket.readyState) {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation

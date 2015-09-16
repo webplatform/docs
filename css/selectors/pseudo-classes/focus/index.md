@@ -15,7 +15,7 @@ todo_broken_links:
 uri: 'css/selectors/pseudo-classes/:focus'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The :focus pseudo-class applies while an element has the focus, i.e. accepts keyboard or mouse events, or other forms of input.
 
@@ -27,7 +27,7 @@ There are several ways to give focus to an element:
 -   Navigate through the document with the TAB and Shift+TAB keys. The document’s author may define a tabbing order that specifies the order in which elements will receive focus with the [tabIndex](/html/attributes/tabIndex) attribute.
 -   Select an element through a [**keyboard shortcut**](/html/attributes/accessKey).
 
-## <span>Examples</span>
+## Examples
 
 The following style rule will change the background color of any element that receives input focus:
 
@@ -37,7 +37,7 @@ The following style rule will change the background color of any element that re
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1](http://www.w3.org/TR/CSS2/selector.html#link-pseudo-classes)
 :   W3C Recommendation
@@ -48,11 +48,11 @@ The following style rule will change the background color of any element that re
 [Selectors Level 4](http://dev.w3.org/csswg/selectors4/#focus-pseudo)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Pseudo-Classes</span>
+#### Pseudo-Classes
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -104,7 +104,7 @@ The following style rule will change the background color of any element that re
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 

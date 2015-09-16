@@ -22,20 +22,20 @@ tags:
 uri: apis/webrtc/MediaStreamTrack/enabled
 
 ---
-## <span>Summary</span>
+## Summary
 
 True if the track is still associated with its source.
 
 Property of [apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)[apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = track.enabled;
 track.enabled = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 

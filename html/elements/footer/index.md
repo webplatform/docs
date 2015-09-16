@@ -18,18 +18,18 @@ tags:
 uri: html/elements/footer
 
 ---
-## <span>Summary</span>
+## Summary
 
 The footer element (&lt;footer&gt;) represents content of the end of the nearest ancestor sectioning content or sectioning root element.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
 The basic motivation for introducing the footer element in HTML5 was to eliminate the overuse of [\<div\>](/html/elements/div) elements and creating a suitable element for the links and text that are usually located at the bottom of the webpages.
 
-## <span>Examples</span>
+## Examples
 
 The following example defines two footers, one at the top and one at the bottom, with the same content.
 
@@ -44,13 +44,13 @@ The following example defines two footers, one at the top and one at the bottom,
 </body>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Footers don't necessarily have to appear at the end of a section, though they usually do. The **footer** element can contain entire sections to represent appendices, indexes, license agreements, and similar content. Footers might also contain **nav** elements or contact information for the author or editor inside an **address** element. When the nearest ancestor element is the **body** element, then the footer applies to the whole document. The **footer** element is not sectioning content; it does not introduce a new section. Windows Internet Explorer 9. The **footer** element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-footer-element)
 :   W3C Working Draft
@@ -58,11 +58,11 @@ Footers don't necessarily have to appear at the end of a section, though they us
 [HTML 5](http://www.w3.org/TR/html5/sections.html#the-footer-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Document Structure</span>
+#### Document Structure
 
 -   [button](/html/elements/button)
 
@@ -80,7 +80,7 @@ Footers don't necessarily have to appear at the end of a section, though they us
 
 -   [section](/html/elements/section)
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -220,7 +220,7 @@ Footers don't necessarily have to appear at the end of a section, though they us
 
 -   [time](/html/elements/time)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `article`

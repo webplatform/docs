@@ -22,13 +22,13 @@ tags:
 uri: dom/DOMException/message
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves a string describing the exception that occurred.
 
 Property of [dom/DOMException](/dom/DOMException)[dom/DOMException](/dom/DOMException)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [dom/DOMException](/dom/DOMException)[dom/DOMException](/dom/DOMExce
 var exceptionMessage = exception.message;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 A short description of the exception.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function getExceptionMsg(e) {
@@ -52,14 +52,14 @@ return exceptionMsg;
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Core](http://www.w3.org/TR/DOM-Level-2-Core/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `RangeException`
 -   `EventException`

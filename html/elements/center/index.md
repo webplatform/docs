@@ -16,18 +16,18 @@ tags:
 uri: html/elements/center
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &lt;center&gt; element center-aligns text in an HTML page. The element is deprecated in HTML 4.01 and obsolete in HTML5. Use CSS instead.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
 This page exists for a history lesson only. The `<center>` element has been removed from the specification. It is advised to use CSS instead; the properties [text-align](/css/properties/text-align) and [margin](/css/properties/margin) may be a good place to start.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the `<center>` element to center text on a page.
 
@@ -41,11 +41,11 @@ This example uses the CSS property [text-align](/css/properties/text-align) to c
 <div style="text-align: center">This text appears centered on the page</div>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Do not use this element anymore.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 4.01](http://www.w3.org/TR/html401/present/graphics.html#edef-CENTER)
 :   W3C Recommendation

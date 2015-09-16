@@ -11,7 +11,7 @@ tags:
 uri: css/atrules/@region
 
 ---
-## <span>Summary</span>
+## Summary
 
 Applies CSS styles to portions of content as it appears when flowing within a specified set of regions.
 
@@ -39,7 +39,7 @@ Applies CSS styles to portions of content as it appears when flowing within a sp
 
  ![regionRule2.jpeg](/assets/public/5/5c/regionRule2.jpeg)
 
-## <span>Examples</span>
+## Examples
 
 Inverts paragraph text within the first region
 
@@ -66,13 +66,13 @@ article.content { flow-into: main; }
 div.region { flow-from: main; }
 ```
 
-## <span>Usage</span>
+## Usage
 
      The @region rule does not change the cascading order of content selectors.
 
 Use the [**CSSRegionStyleRule**](/apis/css-regions/CSSRegionStyleRule) interface to apply **@region** rules programmatically.
 
-## <span>Notes</span>
+## Notes
 
 Only the following set of CSS properties work within **@region** rules:
 
@@ -95,16 +95,16 @@ Only the following set of CSS properties work within **@region** rules:
 -   [**box-decoration-break**](/css/properties/box-decoration-break)
 -   [**width**](/css/properties/width)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/2012/WD-css3-regions-20120823/)
 :   W3C Working Draft 23 August 2012
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -162,7 +162,7 @@ Only the following set of CSS properties work within **@region** rules:
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

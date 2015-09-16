@@ -11,20 +11,20 @@ tags:
 uri: svg/methods/createSVGPathSegClosePath
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **createSVGPathSegClosePath** method returns a stand-alone, parentless straight line from the current point to the initial point of the current subpath.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Paths](http://go.microsoft.com/fwlink/p/?linkid=204736), Section 8.5.23
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGPathElement**](/svg/elements/path)

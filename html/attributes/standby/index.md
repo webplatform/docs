@@ -18,7 +18,7 @@ todo_broken_links:
 uri: html/attributes/standby
 
 ---
-## <span>Summary</span>
+## Summary
 
 A message for the browser to show while an object's implementation and data load.
 
@@ -36,7 +36,7 @@ Applies to
 </table>
 A message for the browser to show while an `object`'s implementation and data load.
 
-## <span>Examples</span>
+## Examples
 
 The `standby` attribute used to alert users to a lengthy delay before the image displays.
 
@@ -45,9 +45,9 @@ The `standby` attribute used to alert users to a lengthy delay before the image 
 </object>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This property has no default value.
 
@@ -55,22 +55,22 @@ Windows Internet Explorer does not render the **standby** message while loading 
 
 **standby** was introduced in Microsoft Internet Explorer 6
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5 differences from HTML4: Obsolete Attributes](http://dev.w3.org/html5/html4-differences/#obsolete-attributes)
 :   Editor's Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -210,7 +210,7 @@ Windows Internet Explorer does not render the **standby** message while loading 
 
 -   [time](/html/elements/time)
 
-#### <span>Multimedia</span>
+#### Multimedia
 
 -   [Track ended](/apis/MediaStream/ended)
 
@@ -232,11 +232,11 @@ Windows Internet Explorer does not render the **standby** message while loading 
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-### <span>External resources</span>
+### External resources
 
 -   <http://dev.w3.org/html5/html4-differences/>
 -   <http://reference.sitepoint.com/html/object/standby>
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `object`

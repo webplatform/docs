@@ -11,13 +11,13 @@ tags:
 uri: concepts/programming/javascript/json
 
 ---
-## <span>Summary</span>
+## Summary
 
 Lightweight data interchange format that is useful for serializing data into a string.
 
 **JSON (JavaScript Object Notation)** is designed to be a lightweight data interchange format. As its name implies, its syntax is based on a subset of the JavaScript programming language. However, it also shares some conventions with other languages, and is generally language-independent. JSON is useful for serializing data into a string, though it only can hold certain data types. All types are either data structures or values, and JSON inherits JavaScript's weak typing by allowing the use of different types in those structures.
 
-## <span>Syntax</span>
+## Syntax
 
 JSON supports a number of data types common to many programming languages, but are inherited from JavaScript:
 
@@ -30,19 +30,19 @@ JSON supports a number of data types common to many programming languages, but a
 
 Arbitrary whitespace is also allowed outside of values for formatting purposes.
 
-### <span>Example Object</span>
+### Example Object
 
      {name: "Robert", prefix: "Mr", age: 23, programmer: true}
 
-## <span>Using JSON</span>
+## Using JSON
 
-### <span>JavaScript</span>
+### JavaScript
 
 Being a subset of JavaScript itself, JSON is widely used by JS developers. Modern implementations of JavaScript include the global `JSON` object. It contains two methods: `parse` for parsing JSON strings, and `stringify` for converting a JS object into JSON. This object can also be polyfilled for older browsers that don't support it.
 
 However, you should never parse JSON by calling the `eval` function. This works because JSON is almost always valid JavaScript, but using `eval` opens up several security risks by possibly allowing arbitrary code execution. If you do use it, make sure to properly sanitize its input first.
 
-### <span>Example Usage</span>
+### Example Usage
 
       //This is a JavaScript object with 4 key.value pairs
       var obj = {name: "John Doe", prefix: "Mr", age: 23, programmer: true};
@@ -59,13 +59,13 @@ However, you should never parse JSON by calling the `eval` function. This works 
       alert(objDeserialized.prefix + " " + objDeserialized.name); //Mr John Doe
 
 
-### <span>Other languages</span>
+### Other languages
 
 JSON parsers also exist for other languages. However, because not all of them share the same data types as JavaScript, some extra conversion may be required. [JSON.org](http://www.json.org/) has a listing of parsers in other languages.
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [JSON.org](http://www.json.org/)
 -   [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/JSON)

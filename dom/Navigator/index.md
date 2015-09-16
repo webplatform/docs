@@ -17,11 +17,11 @@ tags:
 uri: dom/Navigator
 
 ---
-## <span>Summary</span>
+## Summary
 
 The navigator object contains state and identity information about the browser/user agent.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -69,7 +69,7 @@ API Name
 
     This property reflects the setting in the "Your locale (location)" box in the Regional Options of Control Panel—for example, "English (United States).
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -86,11 +86,11 @@ API Name
 [sendBeacon](/dom/Navigator/sendBeacon)
 :   Asynchronously queues small amounts of HTTP data for transfer from the user agent to a web server. For example, it can be used to send analytics or diagnostics code without delaying the page's unload or affecting the performance of the navigation.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 [object Navigator] example enumerates the window.navigator object and displays the results in the web page.
 
@@ -100,7 +100,7 @@ API Name
 
 [View live example](http://result.dabblet.com/gist/b1e7c611e97594b60956/56337717d0b88e99b8944707d60bb7072b359788)
 
-## <span>Usage</span>
+## Usage
 
      Commonly used for feature detection of a web browser capabilities. java RTE and cookie support.
 

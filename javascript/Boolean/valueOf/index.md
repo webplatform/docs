@@ -10,21 +10,21 @@ tags:
 uri: javascript/Boolean/valueOf
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the primitive value of the specified boolean.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     boolean.valueOf()
 
-## <span>Return Value</span>
+## Return Value
 
 The primitive value (true or false) of the Boolean.
 
-## <span>Examples</span>
+## Examples
 
 The following code shows how to use this method.
 

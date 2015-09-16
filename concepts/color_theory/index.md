@@ -8,13 +8,13 @@ tags:
 uri: 'concepts/color theory'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Without much color or graphics, every site would become Jakob Nielsen’s dream site. Although Nielsen’s philosophy of bare-bones Web architecture has accessibility and usability merits, most Web designers want to add a signature touch to their sites with many design elements. Fortunately, a designer can add color to a site without losing accessibility and usability if the site is designed with those capabilities in mind. While many designers feel comfortable designing a site for many users, those same designers might feel inadequate when it comes to choosing colors and graphics.
 
 In this article, I’ll cover color basics and three simple color schemes so that you can feel confident about choosing colors for your site. I’ll follow up this article with another piece on how to simplify these color choices. After all, it’s more fun to enjoy the compliments on your website design than it is to sweat over the color choices.
 
-## <span>Colors, tints, and shades</span>
+## Colors, tints, and shades
 
 Colors, or hues, have historically been divided into primary, secondary, and tertiary colors. The primary colors consist of red, yellow and blue, and they’re called primary colors because you don’t need to mix colors to make these three hues. If you want to translate these colors into web colors, you can recreate them using their hex (hexadecimal) equivalents of \#ff0000, \#ffff00, and \#0033cc as shown in Figure 1:
 
@@ -47,7 +47,7 @@ The arrows in Figure 2 indicate different things as follows:
 
 As you can see from the color wheel shown above, the amount of white, gray and black added to a color are minor—just enough to alter the original color and to create what is known as a **monochromatic** color scheme**.**
 
-### <span>Monochromatic color schemes</span>
+### Monochromatic color schemes
 
 Color schemes have been around for centuries, so there’s no need to reinvent the color wheel. Although web color differs from print color, the concepts are the same. You just exchange hex numbers for color names, and match then as closely as possible. One online tool I suggest using to help out with this is the [Color Scheme Designer](http://colorschemedesigner.com/), as seen in Figure 3, which allows you to determine color schemes quickly and easily, and even determine whether the colors you’ve chosen provide enough contrast for low-vision or color-blind users.
 
@@ -69,7 +69,7 @@ Figure 4: A monochromatic color scheme.
 
 **A monochromatic color scheme** equates to one color and all its tints, tones and shades. While this scheme is the easiest to use, it doesn’t provide much excitement in a Web design for many designers. Instead, you may want to explore other schemes to add pizzaz to your links, images, and banners.
 
-### <span>Complementary Color Schemes</span>
+### Complementary Color Schemes
 
 The next color scheme family to explore is the complementary scheme, where you match up colors that lie directly opposite each other on the color wheel, as seen in Figure 5.
 
@@ -93,7 +93,7 @@ Figure 7: The Greenpeace site—a good example of a complementary color scheme.
 
 [Greenpeace USA](http://www.greenpeace.org/usa/) (see Figure 7) is one of many sites that uses a contrasting color scheme. Yes, you see yellows and oranges, but the predominant colors are green and red—two colors that are directly opposite each other on the color wheel. You almost can’t go wrong with this complementary color method. In fact, the use of a “warm” and “cool” color combination makes a site zing with color contrast.
 
-### <span>Warm vs. cool colors</span>
+### Warm vs. cool colors
 
 Complementary color schemes are great to use in websites, as they also contain both warm and cool colors. The use of these colors provides contrast, and it’s easy to remember which colors are "warm" and which colors are "cool" as you can see in Figure 8 (and on the color generator site):
 
@@ -113,7 +113,7 @@ Ecolution usually uses red as an accent color on their home page in contrast to 
 
 You never realized that color theory was so easy, did you? Well, then…let’s complicate the issue a bit…
 
-### <span>Triadic color schemes</span>
+### Triadic color schemes
 
 A triadic color scheme (see Figure 10) is created when you pick one color and then pick two other colors that lie equidistant from each other around the circle, like so:
 
@@ -139,7 +139,7 @@ Figure 12: Puzzle Pirates—A good triadic color scheme.
 
 [Puzzle Pirates](http://www.puzzlepirates.com/), shown in Figure 12, uses a triadic scheme on their home page. They use the primary red-blue-yellow scheme, and this primary scheme is perfect for a kid’s game site. Note that the blue is predominant and that the reds and yellows are used as accents and to lead the eye around the page.
 
-### <span>Tetradic color schemes</span>
+### Tetradic color schemes
 
 The more colors you choose, the more complicated the color scheme. However, one trick is to find a tint, tone or shade and stick to those regions across the board rather than mix pure colors and their tints, tones and shades. This method works well with a color scheme such as the four-color tetradic scheme. This scheme (see Figure 13) is just like the complementary scheme, only you use two complementaries that are equidistant.
 
@@ -177,7 +177,7 @@ The Jane Goodall Institute site (Figure 17) is one of the few sites that really 
 
 Now, when you surf around the Web searching for color and design ideas, keep your color wheel close at hand to learn more about how designers use color schemes on your favorite websites!
 
-## <span>Summary</span>
+## Summary
 
 Although color combinations may seem complicated, all color schemes carry certain "rules." These guidelines make it easy to understand which colors work together to add interest and contrast to a website.
 
@@ -185,9 +185,9 @@ The reason color wheels exist are for people to use them. Color wheels and tools
 
 The four color schemes covered in this article are monochromatic, complementary, triadic, and tetradic. Although other color schemes exist, these four color schemes are the easiest to understand and implement.
 
-## <span>See also</span>
+## See also
 
-### <span>Exercise Questions</span>
+### Exercise Questions
 
 Note: the last two questions do not have "right" or "wrong" answers.
 

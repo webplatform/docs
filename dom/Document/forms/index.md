@@ -24,13 +24,13 @@ tags:
 uri: dom/Document/forms
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property returns an object array representing an HTMLCollection of all the forms in the document.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 var HTMLCollection = document.forms;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 Returns a collection of all the forms of a document
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //retrieve forms collection and report how many forms are in the document
@@ -54,7 +54,7 @@ function numForms() {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 HTML](http://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-1689064)
 :   Recommendation

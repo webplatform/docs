@@ -12,11 +12,11 @@ tags:
 uri: apis/xhr/XMLHttpRequest/readystatechange
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fires whenever the readyState of the request changes. Mostly used to determine whether the body of the response is available for handling.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -68,7 +68,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following script demonstrates how to set an asynchronous event handler that alerts the user when the **readyState** property of the request reaches complete (`4`). Note that you must set the event handler after calling **open**, which resets all properties of the **XMLHttpRequest** object to their initial value.
 
@@ -89,7 +89,7 @@ xhr.onreadystatechange = reportStatus;
 xhr.send();
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft

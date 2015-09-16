@@ -20,11 +20,11 @@ tags:
 uri: css/properties/voice-stress
 
 ---
-## <span>Summary</span>
+## Summary
 
 The voice-stress property sets the level of vocal emphasis to be used for synthesized speech reading the element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -47,13 +47,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Speech Module](http://www.w3.org/TR/css3-speech/#voice-props-voice-stress)
 :   W3C Candidate Recommendation

@@ -14,16 +14,16 @@ tags:
 uri: mathml/elements/menclose
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML menclose element renders its content inside an enclosing notation specified by the notation attribute.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 This example shows a simple markup using menclose:
 
@@ -41,12 +41,12 @@ This example shows a simple markup using menclose:
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.menclose)
 :   W3C Recommendation
 
-## <span>Attributes</span>
+## Attributes
 
 notation
 :   Multiple values are possible:

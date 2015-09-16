@@ -18,7 +18,7 @@ tags:
 uri: apis/filesystem/Entry/getMetadata
 
 ---
-## <span>Summary</span>
+## Summary
 
 Look up metadata about this Entry.
 
@@ -26,22 +26,22 @@ Look up metadata about this Entry.
 
 Method of [apis/filesystem/Entry](/apis/filesystem/Entry)[apis/filesystem/Entry](/apis/filesystem/Entry)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  Entry.getMetadata(successCallback, errorCallback);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>successCallback</span>
+### successCallback
 
  Data-type
 :   String
 
  A callback that is called with the time of the last modification.
 
-### <span>errorCallback</span>
+### errorCallback
 
  Data-type
 :   String
@@ -50,13 +50,13 @@ Method of [apis/filesystem/Entry](/apis/filesystem/Entry)[apis/filesystem/Entry]
 
 A callback that is called when errors happen.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

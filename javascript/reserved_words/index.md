@@ -12,27 +12,27 @@ tags:
 uri: 'javascript/reserved words'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Reserved words are words that you cannot use as identifiers in JavaScript.
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Remarks</span>
+## Remarks
 
 JavaScript has a number of reserved words that you cannot use as identifiers. Reserved words have a specific meaning to the JavaScript language, as they are part of the language syntax. Using a reserved word causes a compilation error when loading your script.
 
-## <span>Notes</span>
+## Notes
 
-## <span>Future reserved words</span>
+## Future reserved words
 
 JavaScript also has a list of future reserved words. These words are not currently part of the JavaScript language, although they are reserved for future use. For more information about future reserved keywords in JavaScript, see [JavaScript Future Reserved Words](/javascript/future_reserved_words).
 
-## <span>Intrinsic objects or functions</span>
+## Intrinsic objects or functions
 
 When choosing identifiers it is also important to avoid any words that are already the names of intrinsic JavaScript objects or functions, such as **String** or **parseInt**.
 
-## <span>Reserved Keywords</span>
+## Reserved Keywords
 
 -   break
 -   case
@@ -62,9 +62,9 @@ When choosing identifiers it is also important to avoid any words that are alrea
 -   with
 -   yield
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [JavaScript Future Reserved Words](/javascript/future_reserved_words)
 

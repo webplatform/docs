@@ -16,13 +16,13 @@ tags:
 uri: 'apis/web animations/KeyframeEffect'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Keyframe animation effects are represented by the KeyframeEffect interface.
 
 Inherits from [AnimationEffect](/apis/web_animations/AnimationEffect)[AnimationEffect](/apis/web_animations/AnimationEffect)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -30,7 +30,7 @@ API Name
 [spacing](/apis/web_animations/KeyframeEffect/spacing)
 :   The spacing mode to use for this animation effect.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -44,13 +44,13 @@ API Name
 [setFrames](/apis/web_animations/KeyframeEffect/setFrames)
 :   A Keyframe object or sequence of Keyframe objects used to replace the set of keyframes that make up this effect.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from AnimationEffect</span>
+## Inherited from AnimationEffect
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -64,7 +64,7 @@ API Name
 [name](/apis/web_animations/AnimationEffect/name)
 :   A string used to identify the effect.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -72,7 +72,7 @@ API Name
 [clone](/apis/web_animations/AnimationEffect/clone)
 :   Creates and returns a new object of the same type as this object's most-derived interface such that it will produce the same output as this object.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 

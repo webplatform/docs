@@ -14,16 +14,16 @@ tags:
 uri: html/elements/td
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines a standard Cell in an HTML table.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLTableDataCellElement](/dom/HTMLTableDataCellElement)
 
-## <span>Attributes</span>
+## Attributes
 
 -   `colspan` = valid non-negative integer
     This attribute gives the number of columns respectively that the cell is to span.
@@ -32,7 +32,7 @@ Defines a standard Cell in an HTML table.
 -   `headers` = unordered set of unique space-separated tokens
     The value of this attribute must have the value of an id attribute of the th element that is targeted.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the [**table**](/html/elements/table) element with [**tr**](/html/elements/tr) and ****td**** to create a table with three rows and two columns.
 
@@ -51,7 +51,7 @@ This example uses the [**table**](/html/elements/table) element with [**tr**](/h
 </table>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-td-element)
 :   W3C Working Draft
@@ -62,11 +62,11 @@ This example uses the [**table**](/html/elements/table) element with [**tr**](/h
 [HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-TD)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -206,7 +206,7 @@ This example uses the [**table**](/html/elements/table) element with [**tr**](/h
 
 -   [time](/html/elements/time)
 
-#### <span>Tables</span>
+#### Tables
 
 -   [border-collapse](/css/properties/border-collapse)
 

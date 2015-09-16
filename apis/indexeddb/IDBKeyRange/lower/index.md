@@ -19,13 +19,13 @@ tags:
 uri: apis/indexeddb/IDBKeyRange/lower
 
 ---
-## <span>Summary</span>
+## Summary
 
 This value is the lower-bound of the key range.
 
 Property of [apis/indexeddb/IDBKeyRange](/apis/indexeddb/IDBKeyRange)[apis/indexeddb/IDBKeyRange](/apis/indexeddb/IDBKeyRange)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.lower;
@@ -34,14 +34,14 @@ element.lower = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 A key range is said to be *open* if the lower bound value is included in the range and *closed* if the range does not include the lower bound value. Use the [**lowerOpen**](/apis/indexeddb/IDBKeyRange/lowerOpen) property to determine if the lower value is open or closed.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

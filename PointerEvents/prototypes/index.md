@@ -3,7 +3,7 @@ title: prototypes
 uri: PointerEvents/prototypes
 
 ---
-## <span>Prototypes</span>
+## Prototypes
 
 Try out these Pointer Event prototypes on different browser platforms.
 

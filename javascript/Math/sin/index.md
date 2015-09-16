@@ -10,17 +10,17 @@ tags:
 uri: javascript/Math/sin
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the sine of a number.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     Math.sin( radians )
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var v1 = Math.sin(1.0);
@@ -28,15 +28,15 @@ document.write(v1);
 // Output: 0.8414709848078965
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The radians argument is a numeric expression that contains an angle measured in radians.
 
 The return value is the sine of the numeric argument.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math.acos Function](/javascript/Math/acos)
 -   [Math.asin Function](/javascript/Math/asin)

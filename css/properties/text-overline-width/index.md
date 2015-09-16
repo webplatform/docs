@@ -19,11 +19,11 @@ tags:
 uri: css/properties/text-overline-width
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the line width for the overline text decoration.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -46,7 +46,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-overline-width: <length>`
 -   `text-overline-width: <number>`
@@ -57,7 +57,7 @@ Animatable
 -   `text-overline-width: thick`
 -   `text-overline-width: thin`
 
-## <span>Values</span>
+## Values
 
 auto
 :   The user agent may use any algorithm to determine the text decoration width. The computed value is 'auto'.
@@ -83,7 +83,7 @@ medium
 thick
 :   Generates a thick line. The computed value is 'thick'.
 
-## <span>Examples</span>
+## Examples
 
 Example incomplete because no browser implementation exists.
 
@@ -95,7 +95,7 @@ p {
 
 [View live example](http://code.webplatform.org/gist/7284054)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-decoration-style)
 :   Candidate Recommendation

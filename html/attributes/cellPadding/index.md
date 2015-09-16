@@ -13,7 +13,7 @@ tags:
 uri: html/attributes/cellPadding
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the space, in pixels, between the cell wall and the cell content. Not supported in HTML5. Use CSS.
 
@@ -37,7 +37,7 @@ Note: Do not confuse this with the *cellspacing* attribute, which specifies the 
 
 Tip: It may be better to NOT specify a *cellpadding*, and use CSS to apply padding instead.
 
-## <span>Examples</span>
+## Examples
 
 Here is a table where we use the `cellpadding` and `border` table attributes.
 
@@ -54,7 +54,7 @@ Here is a table where we use the `cellpadding` and `border` table attributes.
 </table>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Document Object Model (DOM) Level 1, Section 2.5.5](http://www.w3.org/TR/REC-DOM-Level-1/)
 :   Recommendation
@@ -62,9 +62,9 @@ Here is a table where we use the `cellpadding` and `border` table attributes.
 [HTML 4.01 Specification, Section 11.3.3](http://www.w3.org/TR/html401/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [table](/html/elements/table)
 -   [cellSpacing](/html/attributes/cells)

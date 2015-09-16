@@ -10,7 +10,7 @@ tags:
 uri: css/atrules/@supports
 
 ---
-## <span>Summary</span>
+## Summary
 
 The CSS @supports at-rule lets authors detect support of CSS features directly in CSS.
 
@@ -20,7 +20,7 @@ In other words `@supports` lets you detect browser support of CSS features direc
 
 The operators `and` and `or` allows to chain the detection of several features.
 
-## <span>Examples</span>
+## Examples
 
 An abstract example with the detection of support for `display: flex` (known as [CSS Flexible Box Layout Module](http://www.w3.org/TR/css3-flexbox/)):
 
@@ -63,20 +63,20 @@ To detect if an experimental feature is supported with vendor-prefixes the `or` 
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Browser support for this feature is still pretty limited.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Conditional Rules Module Level 3](http://www.w3.org/TR/css3-conditional/)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Syntax</span>
+#### Syntax
 
 -   [@charset](/css/atrules/@charset)
 
@@ -98,7 +98,7 @@ To detect if an experimental feature is supported with vendor-prefixes the `or` 
 
 -   [!important](/css/syntax/!important)
 
-### <span>External resources</span>
+### External resources
 
 -   [@supports in the CSS Conditional Rules Editor's Draft](http://dev.w3.org/csswg/css3-conditional/#at-supports)
 -   [@supports in the MDN](https://developer.mozilla.org/en-US/docs/CSS/@supports)

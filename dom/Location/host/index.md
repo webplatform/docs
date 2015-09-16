@@ -23,26 +23,26 @@ tags:
 uri: dom/Location/host
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the hostname and port number of the location or URL.
 
 Property of [dom/Location](/dom/Location)[dom/Location](/dom/Location)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var host = location.host;
 location.host = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The host component of the URL.
 
-## <span>Examples</span>
+## Examples
 
 This example function returns the **host** property of the current page location.
 
@@ -52,8 +52,8 @@ function getHost() {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **host** property is the concatenation of the [**hostname**](/dom/Location/hostname) and [**port**](/dom/Location/port) properties, separated by a colon (hostname:port). When the **port** property is **null**, the **host** property is the same as the **hostname** property. The **host** property may be set at any time, although it is safer to set the [**href**](/dom/Location/href) property to change a location. If the specified host cannot be found, an error is returned.

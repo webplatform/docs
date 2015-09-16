@@ -26,7 +26,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following example shows how to specify a **summary** property for a [**table**](/html/elements/table).
 
@@ -39,16 +39,16 @@ The following example shows how to specify a **summary** property for a [**table
 </table>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **summary** was introduced in Microsoft Internet Explorer 6 This property can be used for rendering to non-visual media such as speech or Braille. There is no functionality implemented for this property unless defined by the author.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `table`

@@ -18,13 +18,13 @@ tags:
 uri: dom/AnimationEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides specific contextual information associated with animation events.
 
 Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -38,17 +38,17 @@ API Name
 [pseudoElement](/dom/AnimationEvent/pseudoElement)
 :   A DOMString, starting with "::", containing the name of the pseudo-element the animation runs on. If the animation runs on the element rather than on a pseudo-element, this property contains an empty string, "".
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from Event</span>
+## Inherited from Event
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -80,7 +80,7 @@ API Name
 [type](/dom/Event/type)
 :   Gets the name of an event.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -97,7 +97,7 @@ API Name
 [stopPropagation](/dom/Event/stopPropagation)
 :   Prevents propagation of an event beyond the current target.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -180,7 +180,7 @@ API Name
 [finish](/dom/Event/finish)
 :
 
-## <span>Notes</span>
+## Notes
 
 AnimationEvent objects provide information about events that occur related to Cascading Style Sheets (CSS) animations. Several animation related events are available. For example, the start and end of an animation, and the end of each iteration of an animation all generate Document Object Model (DOM) events. An element can have multiple properties being animated simultaneously. This can occur either with a single [**animationName**](/dom/AnimationEvent/animationName) value with keyframes containing multiple properties, or with multiple **animationName** values. For the purposes of events, each **animationName** specifies a single animation. Therefore an event will be generated for each **animationName** value and not necessarily for each property being animated.
 

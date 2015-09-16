@@ -21,22 +21,22 @@ tags:
 uri: 'apis/web animations/AnimationNode/parent'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The parent animation group of this animation node or null if this animation node does not have a parent animation group.
 
 Property of [apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)[apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var myParentAnimationGroup = myAnimationNode.parent;
 myAnimationNode.parent = myParentAnimationGroup;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 Returns an apis/web\_animations/AnimationGroup object
 

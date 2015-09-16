@@ -24,11 +24,11 @@ tags:
 uri: css/properties/column-gap
 
 ---
-## <span>Summary</span>
+## Summary
 
 The column-gap property controls the width of the gap between columns in multi-column elements.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -54,12 +54,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `column-gap: length`
 -   `column-gap: normal`
 
-## <span>Values</span>
+## Values
 
 normal
 :   Default. The width of the `normal` value is user-agent specific, but `1em` is suggested.
@@ -71,7 +71,7 @@ length
 
  Negative values are not valid.
 
-## <span>Examples</span>
+## Examples
 
 Makes as many 15em columns with a column-gap of 4em
 
@@ -90,16 +90,16 @@ Makes as many 15em columns with a column-gap of 4em
 
 [View live example](http://code.webplatform.org/gist/5305647)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Multi-Column</span>
+#### Multi-Column
 
 -   [break-after](/css/properties/break-after)
 

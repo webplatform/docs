@@ -30,13 +30,13 @@ uri: css/cssom/MSCSSMatrix/methods/scale
 
 Method of [css/cssom/MSCSSMatrix](/w/index.php?title=css/cssom/MSCSSMatrix&action=edit&redlink=1)[css/cssom/MSCSSMatrix](/w/index.php?title=css/cssom/MSCSSMatrix&action=edit&redlink=1)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.scale();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -54,13 +54,13 @@ The returned matrix.
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Transitions Module Level 3](http://go.microsoft.com/fwlink/p/?linkid=223140), Section 10.1
 
-### <span>Parameters</span>
+### Parameters
 
 *scaleX* [in]
 :   Type: **float**The *x* component (in degrees) of the scale value.
@@ -71,8 +71,8 @@ The returned matrix.
 *retMatrix* [out, retval]
 :   Type: **MSCSSMatrix**The returned matrix.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `MSCSSMatrix`

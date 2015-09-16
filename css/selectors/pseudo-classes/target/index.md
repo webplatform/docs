@@ -12,7 +12,7 @@ tags:
 uri: 'CSS/Selectors/pseudo-classes/:target'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The :target pseudo-class (note the &quot;:&quot;) represents an element in the current document, if any, that has id attribute set to a name that is matching the fragment identifier of the current URI.
 
@@ -28,7 +28,7 @@ Let us say you have a section in a document called "`foo`" (e.g. `<div id="foo">
 
 Any element can be a target, as long as it has the `id=".."` attribute set, and the current URI matches it. To use the selector, we use the `:target` pseudo-class notation. If the document's URI has no fragment identifier, then the document has no target element.
 
-## <span>Using the selector</span>
+## Using the selector
 
 To use the selector, append the pseudo selector (`:target`) after a selector string.
 
@@ -46,7 +46,7 @@ For example, to change the background color of ANY tag that happens to be refere
 *:target { background-color: red }
 ```
 
-## <span>Examples</span>
+## Examples
 
 Changing background color of an element that has an id attribute with a name that matches the current URI after the pound (\#)
 
@@ -61,15 +61,15 @@ Changing background color of an element that has an id attribute with a name tha
 
 [View live example](http://code.webplatform.org/gist/6f2803eda8ad3c66aaf4)
 
-## <span>Notes</span>
+## Notes
 
 The `id` attribute was new in HTML 4 (December 1997). Before that, we were using the name attribute in an ahcnor tag (e.g. \<a name="foo"\>. The `:target` pseudo-class applies to those targets as well.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Pseudo-Classes</span>
+#### Pseudo-Classes
 
 -   **:target pseudo-class selector**
 

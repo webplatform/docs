@@ -11,23 +11,23 @@ tags:
 uri: svg/properties/gradientTransform
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The transformation matrix that the **gradientTransform** property defines is inserted to the right of any previously defined transformations, including the implicit transformation that is required to convert from object bounding box units to user space.
 
 If you do not specify the **gradientTransform** property, the gradient effect will be as if an identity transform were used instead.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGGradientElement**](/svg/elements/gradient)
 -   [**SVGLinearGradientElement**](/svg/elements/linearGradient)

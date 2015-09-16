@@ -16,12 +16,12 @@ uri: svg/elements/polygon
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, the polygon element is used to draw a seagreen polygon inside an inline SVG element. Copy this sample to a text file and save it with the *.html* file extension. Run it in Internet Explorer 9 to see a seagreen polygon.
 
@@ -43,17 +43,17 @@ It should look like this:
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Shapes](http://go.microsoft.com/fwlink/p/?linkid=204737), Section 9.8.7
 
-### <span>Members</span>
+### Members
 
 The **SVGPolygonElement** object has these events:
 

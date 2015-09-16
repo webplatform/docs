@@ -5,7 +5,7 @@ uri: 'http/response status codes'
 ---
 The IANA maintains the [Hypertext Transfer Protocol (HTTP) Status Code Registry](http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml)
 
-## <span>1xx: Informational</span>
+## 1xx: Informational
 
 Request received, continuing process
 
@@ -15,7 +15,7 @@ Request received, continuing process
 |101|Switching Protocols||[RFC7231](http://www.iana.org/go/rfc2616)|
 |102|Processing||[RFC2518](http://www.iana.org/go/rfc2518)|
 
-## <span>2xx: Success</span>
+## 2xx: Success
 
 The action was successfully received, understood, and accepted
 
@@ -32,7 +32,7 @@ The action was successfully received, understood, and accepted
 |208|Already Reported||[RFC5842](http://www.iana.org/go/rfc5842)|
 |226|IM Used||[RFC3229](http://www.iana.org/go/rfc3229)|
 
-## <span>3xx: Redirection</span>
+## 3xx: Redirection
 
 Further action must be taken in order to complete the request
 
@@ -48,7 +48,7 @@ Further action must be taken in order to complete the request
 |307|Temporary Redirect|The request should be re-made to a different URI|[RFC7231, Section 6.4.7](http://www.iana.org/go/rfc7231)|
 |308|Permanent Redirect|The request should be re-made to the resource's new URI|[RFC7238](http://www.iana.org/go/rfc7238)|
 
-## <span>4xx: Client Error</span>
+## 4xx: Client Error
 
 The request contains bad syntax or cannot be fulfilled
 
@@ -80,7 +80,7 @@ The request contains bad syntax or cannot be fulfilled
 |429|Too Many Requests|The client has exceeded a request rate limit imposed by the server. Enhance your calm!|[RFC6585](http://www.iana.org/go/rfc6585)|
 |431|Request Header Fields Too Large||[RFC6585](http://www.iana.org/go/rfc6585)|
 
-## <span>5xx: Server Error</span>
+## 5xx: Server Error
 
 The server failed to fulfill an apparently valid request
 

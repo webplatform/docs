@@ -16,18 +16,18 @@ tags:
 uri: html/elements/u
 
 ---
-## <span>Summary</span>
+## Summary
 
 Underlines text inline.
 
 Deprecated in HTML4, redefined in HTML5. In HTML5 it is used to express "an unarticulated, though explicitly rendered, non-textual annotation," such as a proper name in Chinese or a spelling error.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **u** element to identify a word in a sentence, without any particular semantics.
 
@@ -35,11 +35,11 @@ This example uses the **u** element to identify a word in a sentence, without an
 We would like to call your attention to the second "the" in "The quick brown fox jumped over <u>the</u> lazy dog."
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-u-element)
 :   W3C Working Draft

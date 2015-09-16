@@ -19,16 +19,16 @@ todo_broken_links:
 uri: html/elements/script
 
 ---
-## <span>Summary</span>
+## Summary
 
 The script element enables dynamic script and data blocks to be included in documents. It can contain code/data directly or it can link to external sources. It is mainly used with JavaScript.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLScriptElement](/dom/HTMLScriptElement)
 
-### <span>Attributes</span>
+### Attributes
 
 |Property|Description|Used with inline scripts|
 |:-------|:----------|:-----------------------|
@@ -40,7 +40,7 @@ The script element enables dynamic script and data blocks to be included in docu
 |[**async**](/html/attributes/async)|Specifies that the script should be executed asynchronously, as soon as it becomes available.|No|
 |[**crossorigin**](/html/attributes/crossorigin)|Whether or not script error information will be revealed from the script(This is used only when scripts are being loaded from different origins).|No|
 
-## <span>Examples</span>
+## Examples
 
 Loading an external script.
 
@@ -56,11 +56,11 @@ Writing an inline script.
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 Code within the **script** block that is not contained within a function is executed immediately as the document is loaded.When the [**Type**](/w/index.php?title=html/attributes/Type&action=edit&redlink=1) attribute is unset on the **script** object, then `text/javascript` is used. The order of the **script** objects in a document can also be important, especially if scripting event handlers are assigned to one or more elements in the document. Using `async="async"` didn't work in some older browser, instead `async="true"` was used.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/scripting-1.html#the-script-element)
 :   W3C Working Draft
@@ -71,11 +71,11 @@ Code within the **script** block that is not contained within a function is exec
 [HTML 4.01](http://www.w3.org/TR/html401/interact/scripts.html#edef-SCRIPT)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -215,10 +215,10 @@ Code within the **script** block that is not contained within a function is exec
 
 -   [time](/html/elements/time)
 
-### <span>Other articles</span>
+### Other articles
 
 [\<noscript\> tag](/html/elements/noscript)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `XML Data Islands`

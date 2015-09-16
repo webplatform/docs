@@ -21,13 +21,13 @@ tags:
 uri: apis/css-regions/NamedFlow/firstEmptyRegionIndex
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the integer index of the first empty element within a region chain. Returns -1 if the content fits within the region chain, if it exceeds available space or if there are no regions in the region chain.
 
 Property of [apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)[apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,13 +35,13 @@ Property of [apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)[apis/css-r
 var index = flow.firstEmptyRegionIndex;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 Returns the integer index of the first empty element within a [region chain](/css/concepts/region_chain). Returns -1 if the content fits within the [region chain](/css/concepts/region_chain), if it exceeds available space or if there are no regions in the [region chain](/css/concepts/region_chain).
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 trimRegions('mainFlow');
@@ -60,22 +60,22 @@ function trimRegions(flowName) {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      The firstEmptyRegionIndex is the index of the first
 
 [region](/css/concepts/region) within the [flow's](/css/concepts/named_flow) [**getRegions()**](/apis/css-regions/NamedFlow/getRegions) collection whose [**regionOverset**](/apis/css-regions/Region/regionOverset) is **empty**. If all are set to **fit** or **overset**, or if no regions are associated with the flow, the **firstEmptyRegionIndex** returns -1.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -133,7 +133,7 @@ function trimRegions(flowName) {
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

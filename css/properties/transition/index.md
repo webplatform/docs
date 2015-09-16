@@ -25,11 +25,11 @@ tags:
 uri: css/properties/transition
 
 ---
-## <span>Summary</span>
+## Summary
 
 The transition CSS property is a shorthand property for transition-property, transition-duration, transition-timing-function, and transition-delay. It allows to define the transition between two states of an element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `see individual properties`
@@ -55,14 +55,14 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `transition: transition-delay`
 -   `transition: transition-duration`
 -   `transition: transition-property`
 -   `transition: transition-timing-function`
 
-## <span>Values</span>
+## Values
 
 transition-property
 :   Value of the [**transition-property**](/css/properties/transition-property) property.
@@ -76,7 +76,7 @@ transition-timing-function
 transition-delay
 :   Value of the [**transition-delay**](/css/properties/animation-delay) property.
 
-## <span>Examples</span>
+## Examples
 
 When you hover over the div, the height property will gradually change from 100 to 500.
 
@@ -102,16 +102,16 @@ div:hover {
 
 A list of translatable properties exists here: <http://www.w3.org/TR/2009/WD-css3-transitions-20091201/#animatable-properties->
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Transitions](http://www.w3.org/TR/2009/WD-css3-transitions-20091201/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -161,7 +161,7 @@ A list of translatable properties exists here: <http://www.w3.org/TR/2009/WD-css
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### <span>Transitions</span>
+#### Transitions
 
 -   [cubic-bezier](/css/functions/cubic-bezier)
 

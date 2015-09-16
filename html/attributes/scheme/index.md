@@ -26,7 +26,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 In the following two examples, the value of **scheme** defines how to interpret the value of the "date" property.
 
@@ -46,16 +46,16 @@ The following example of the **meta** shows how the **scheme** can be used to cl
 <META scheme="customer" name="id" content="Fancy Pants">
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **scheme** was introduced in Microsoft Internet Explorer 6 The **scheme** property can provide a context to correctly interpret otherwise ambiguous data formats such as those for date and time. It can also be used to identify the object's content itself. There is no functionality implemented for this property unless defined by the author.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `meta`

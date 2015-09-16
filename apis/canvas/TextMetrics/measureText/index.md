@@ -22,34 +22,34 @@ tags:
 uri: apis/canvas/TextMetrics/measureText
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a TextMetrics object that contains the width of the specified text.
 
 Method of [apis/canvas/TextMetrics](/apis/canvas/TextMetrics)[apis/canvas/TextMetrics](/apis/canvas/TextMetrics)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = TextMetrics.measureText(text);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>text</span>
+### text
 
  Data-type
 :   String
 
  The text to measure.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 **ICanvasTextMetrics**: The width of the text, in CSS pixels.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
@@ -66,11 +66,11 @@ alert("measureText: " + mets);
 </script>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use measureText on the canvas context. An example can be found on the main object page TextMetrics
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

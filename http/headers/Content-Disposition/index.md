@@ -10,11 +10,11 @@ tags:
 uri: http/headers/Content-Disposition
 
 ---
-## <span>Summary</span>
+## Summary
 
 Used to convey additional information about how to process the response payload.
 
-## <span>Overview table</span>
+## Overview table
 
 Direction
 :   Response
@@ -22,7 +22,7 @@ Direction
 Features
 :
 
-## <span>Syntax</span>
+## Syntax
 
     content-disposition = "Content-Disposition" ":"
                            disposition-type *( ";" disposition-parm )
@@ -40,17 +40,17 @@ Features
                         | ext-token "=" ext-value
     ext-token           = <the characters in token, followed by "*">
 
-## <span>Examples</span>
+## Examples
 
 ```
 Content-Disposition: Attachment; filename=example.html
 ```
 
-## <span>Notes</span>
+## Notes
 
 Content-Disposition as used in HTTP is a subset of the [same header defined in MIME](http://tools.ietf.org/html/rfc2183)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [RFC6266: Use of the Content-Disposition Header Field in HTTP](http://tools.ietf.org/html/rfc6266)
 :

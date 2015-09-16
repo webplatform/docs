@@ -10,11 +10,11 @@ tags:
 uri: 'concepts/an introduction to web design'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Does designing for the web differ from designing a chair? No, it doesn't. Both need to make usability, aesthetic and technic work together to serve the product pupose and its users.
 
-## <span>The design process</span>
+## The design process
 
 When a designer conceives a chair, the designer needs to think about the technical requirements, the products aesthetic appearance and the ease of use for the user:
 

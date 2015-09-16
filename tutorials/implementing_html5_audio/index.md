@@ -23,13 +23,13 @@ uri: 'tutorials/implementing html5 audio'
 **By Ernest Delgado**
 Originally published Feb. 5, 2010
 
-## <span>Summary</span>
+## Summary
 
 A step-by-step guide on how to implement the HTML5 audio-tag.
 
-# <span>Implementing the HTML5 Audio Tag</span>
+# Implementing the HTML5 Audio Tag
 
-## <span>Step 1: Wrap your Flash object with the audio tag</span>
+## Step 1: Wrap your Flash object with the audio tag
 
 Those browsers that don't recognize the audio tag will load the Flash content instead.
 
@@ -50,7 +50,7 @@ Those browsers that don't recognize the audio tag will load the Flash content in
 </audio>
 ```
 
-## <span>Step 2: Add the source reference</span>
+## Step 2: Add the source reference
 
 We can add as many "source" lines and formats as we want. If the browser doesn't support one specific format it will fallback to the next one and so forth.
 
@@ -73,7 +73,7 @@ We can add as many "source" lines and formats as we want. If the browser doesn't
 </audio>
 ```
 
-## <span>Step 3: Add fallback to Flash</span>
+## Step 3: Add fallback to Flash
 
 To be safe, we need to add the fallback to a Flash audio player, in case the browser doesn't support any of the formats we specified. For instance, Firefox 3.5 only supports the audio tag with *Ogg* format, but we might only have the *mp3* file available.
 
@@ -121,7 +121,7 @@ To be safe, we need to add the fallback to a Flash audio player, in case the bro
 <script>google.load("swfobject", "2.2");</script>
 ```
 
-## <span>Step 4: Add the default controls to show the player</span>
+## Step 4: Add the default controls to show the player
 
 These controls are not customizable (see examples at the end). Since these default controls will show up regardless of the supported format we will need to handle its visibility with the conditional we previously created.
 
@@ -189,7 +189,7 @@ These controls are not customizable (see examples at the end). Since these defau
 </script>
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following two examples will fallback to the Flash player in those browsers that don't support the audio tag nor can play mp3 in it.
 
@@ -266,11 +266,11 @@ The following two examples will fallback to the Flash player in those browsers t
 
  Flash MP3 player is from [neolao production](/w/index.php?title=neolao_production&action=edit&redlink=1). MP3 sample is **Modal Blues** by [Rushus](/w/index.php?title=Rushus&action=edit&redlink=1) and is licensed under a [Creative Commons Attribution License](/w/index.php?title=Creative_Commons_Attribution_License&action=edit&redlink=1).
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Audio</span>
+#### Audio
 
 -   [audio-video](/apis/audio-video)
 

@@ -19,13 +19,13 @@ tags:
 uri: dom/AnimationEvent/elapsedTime
 
 ---
-## <span>Summary</span>
+## Summary
 
 The amount of time the animation has been running, in seconds, since the event fired, excluding any time the animation was paused.
 
 Property of [dom/AnimationEvent](/dom/AnimationEvent)[dom/AnimationEvent](/dom/AnimationEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -33,7 +33,7 @@ Property of [dom/AnimationEvent](/dom/AnimationEvent)[dom/AnimationEvent](/dom/A
 var result = element.elapsedTime;
 ```
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //for a predefined animation event that is running
@@ -43,6 +43,6 @@ var myAnimEvent = new AnimationEvent();
 var myAnimTime = myAnimEvent.elapsedTime;
 ```
 
-## <span>Notes</span>
+## Notes
 
 For an **animationstart** event, the elapsedTime is zero (0.0) unless there was a negative value for *animation-delay*, in which case the event will be fired with an elapsedTime of *(-1 \* delay)*.

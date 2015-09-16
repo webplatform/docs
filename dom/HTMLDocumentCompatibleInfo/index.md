@@ -14,19 +14,19 @@ tags:
 uri: dom/HTMLDocumentCompatibleInfo
 
 ---
-## <span>Summary</span>
+## Summary
 
 Non standard. Proprietary. Represent a key and value pair of compatible user agent and its version, as specified by the page.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 

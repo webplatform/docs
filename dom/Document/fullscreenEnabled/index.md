@@ -22,13 +22,13 @@ tags:
 uri: dom/Document/fullscreenEnabled
 
 ---
-## <span>Summary</span>
+## Summary
 
 Exposes the current document's fullscreen capability, returning true if the document can display elements in fullscreen, or false if not.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 var result = document.fullscreenEnabled;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Returns true if document has the ability to display elements fullscreen, or false otherwise.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function canDisplayFullScreen() {
@@ -57,11 +57,11 @@ function canDisplayFullScreen() {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Fullscreen Module](http://www.w3.org/TR/fullscreen/#api)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
 Tutorial: [Using the full-screen API](http://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api)

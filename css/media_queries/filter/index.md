@@ -30,17 +30,17 @@ uri: 'css/media queries/filter'
 
 Method of [css/media\_queries](/css/media_queries)[css/media\_queries](/css/media_queries)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.filter();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **-ms-filter** attribute in Internet Explorer 8.
 
@@ -106,21 +106,21 @@ function doFilter ()
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/filter_s.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 8. The **-ms-filter** attribute is an extension to CSS, and can be used as a synonym for **filter** in IE8 Standards mode. When you use **-ms-filter**, enclose the progid in single quotes (') or double quotes ("). Use commas (,) to separate multiple values, as shown in the Examples section. An object must have layout for the filter to render. A simple way to accomplish this is to give the element a specified [**height**](/css/properties/height) and [**hasLayout**](/css/cssom/properties/hasLayout) property. The shadow filter can be applied to the **img** object by setting the filter on the image's parent container. The filter mechanism is extensible and enables you to develop and add filters later. For more information about filters, see Introduction to Filters and Transitions. Not available on the Macintosh platform.
 
-### <span>Syntax</span>
+### Syntax
 
 `-ms-filter: filtertype1 (parameter1, parameter2,...) | filtertype2 (parameter1, parameter2,...)`
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Media Queries</span>
+#### Media Queries
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -160,7 +160,7 @@ Windows Internet Explorer 8. The **-ms-filter** attribute is an extension to CS
 
 -   [behavior](/css/properties/behavior)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

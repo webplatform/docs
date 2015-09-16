@@ -27,11 +27,11 @@ todo_broken_links:
 uri: html/elements/input
 
 ---
-## <span>Summary</span>
+## Summary
 
 The input element (&lt;input/&gt;) is a multipurpose element for representing form widgets. The type of widget depends on the type attribute.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
@@ -69,7 +69,7 @@ Internationalization topics related to the `input` element:
 -   [Working with date formats](http://www.w3.org/International/techniques/authoring-html#localdata)
 -   [Working with personal names](http://www.w3.org/International/techniques/authoring-html#localnames)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **input** element to create different types of input controls.
 
@@ -92,11 +92,11 @@ This example uses the **input** element to create different types of input contr
 
 [View live example](http://code.webplatform.org/gist/6364130)
 
-## <span>Usage</span>
+## Usage
 
      To cater for international users see: Managing text direction in form controls
 
-## <span>Notes</span>
+## Notes
 
 For code samples, see [Form controls part 1](http://go.microsoft.com/fwlink/p/?LinkID=251128) and [Form controls part 2: validation](http://go.microsoft.com/fwlink/p/?LinkID=251131) on the Windows Internet Explorer sample site.
 
@@ -104,7 +104,7 @@ Firefox will, unlike other browsers, by default, [persist the dynamic disabled s
 
 Safari Mobile for iOS applies a default style of [`opacity`](/css/properties/opacity)`: 0.4` to disabled textual **input** elements. Other major browsers don't currently share this particular default style.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-input-element)
 :   W3C Working Draft
@@ -115,11 +115,11 @@ Safari Mobile for iOS applies a default style of [`opacity`](/css/properties/opa
 [HTML 4.01](http://www.w3.org/TR/html401/interact/forms.html#edef-INPUT)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -259,6 +259,6 @@ Safari Mobile for iOS applies a default style of [`opacity`](/css/properties/opa
 
 -   [time](/html/elements/time)
 
-### <span>External resources</span>
+### External resources
 
 <http://www.w3.org/TR/html-markup/input.html#input>

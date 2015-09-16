@@ -21,21 +21,21 @@ tags:
 uri: 'apis/web animations/AnimationNode/remove'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes this animation node from its parent animation group or player.
 
 Method of [apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)[apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = .remove();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 

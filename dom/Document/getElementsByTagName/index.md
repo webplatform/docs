@@ -24,34 +24,34 @@ tags:
 uri: dom/Document/getElementsByTagName
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns an HTMLCollection of all descendant elements with a given tag name.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.getElementsByTagName(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The name of an element tag.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 A DOM collection of elements with the given tag name.
 
-## <span>Examples</span>
+## Examples
 
 The following example returns the number of `li` elements (10) and the text of the first one ("Item 1").
 
@@ -94,11 +94,11 @@ function printFirstLIText(){
 </html>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use this method to get a collection of all child and nested child elements with the specified tag name.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 HTML](http://www.w3.org/TR/DOM-Level-2-HTML/)
 :   Recommendation

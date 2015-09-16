@@ -18,21 +18,21 @@ uri: dom/Option
 
 Inherits from [HTMLOptionElement](/dom/HTMLOptionElement)[HTMLOptionElement](/dom/HTMLOptionElement)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from HTMLOptionElement</span>
+## Inherited from HTMLOptionElement
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -40,15 +40,15 @@ API Name
 [defaultSelected](/dom/HTMLOptionElement/defaultSelected)
 :   Gets or sets the value of the [selected](/html/attributes/selected) HTML attribute.
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 The following script creates three new **option** objects and adds them to a **select** element. Because of the optional arguments, option "Two" is originally selected but option "Three" gains focus when the reset button is pressed.
 
@@ -65,7 +65,7 @@ sel.options.add( new Option("Three",3,1,0) );
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 Use this object to instantiate new **option** elements before adding them to a **select** element. You can specify up to four optional arguments:
 
@@ -77,7 +77,7 @@ Use this object to instantiate new **option** elements before adding them to a *
 
   Numeric values are coerced into string and Boolean equivalents if possible.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [WHATG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#the-option-element)
 :   Living Standard

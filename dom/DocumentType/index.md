@@ -19,13 +19,13 @@ tags:
 uri: dom/DocumentType
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defined by use of a markup language (e.g., HTML, XML, etc.)
 
 Inherits from [Node](/dom/Node)[Node](/dom/Node)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -39,17 +39,17 @@ API Name
 [systemId](/dom/DocumentType/systemId)
 :
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from Node</span>
+## Inherited from Node
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -101,7 +101,7 @@ API Name
 [textContent](/dom/Node/textContent)
 :   Sets or retrieves the text content of a node and any child nodes.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -154,17 +154,17 @@ API Name
 [replaceChild](/dom/Node/replaceChild)
 :   Replaces an existing child node with a new child node.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Inherited from EventTarget</span>
+## Inherited from EventTarget
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -178,7 +178,7 @@ API Name
 [removeEventListener](/dom/EventTarget/removeEventListener)
 :   Removes an event handler that the [addEventListener](/dom/EventTarget/addEventListener) method registered.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 

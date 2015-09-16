@@ -14,16 +14,16 @@ tags:
 uri: mathml/elements/math
 
 ---
-## <span>Summary</span>
+## Summary
 
 The top-level element in MathML is &lt;math&gt;. Every valid MathML instance must be wrapped in &lt;math&gt; tags. In addition you must not nest a second &lt;math&gt; element in another, but you can have an arbitrary number of other child elements in it.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 This example shows a simple formula written in MathML:
 
@@ -64,12 +64,12 @@ This example shows a simple formula written in MathML:
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter2.html#interf.toplevel)
 :   W3C Recommendation
 
-## <span>Attributes</span>
+## Attributes
 
 In addition to the following attributes, the **math** element accepts any attributes of the [mstyle](/mathml/elements/mstyle) element.
 

@@ -10,17 +10,17 @@ tags:
 uri: javascript/Math/round
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a supplied numeric expression rounded to the nearest integer.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     Math.round( number )
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 Math.round(0.8);  // 1
@@ -30,7 +30,7 @@ Math.round(4);    // 4
 Math.round(-1.5); // -1
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required number argument is the value to be rounded to the nearest integer.
 
@@ -40,9 +40,9 @@ For negative numbers, if the decimal portion is exactly -0.5, the return value i
 
 For example, `Math.round(8.5)` returns 9, but `Math.round(-8.5)` returns -8.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math.ceil Function](/javascript/Math/ceil)
 -   [Math.floor Function](/javascript/Math/floor)

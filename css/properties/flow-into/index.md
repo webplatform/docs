@@ -19,11 +19,11 @@ tags:
 uri: css/properties/flow-into
 
 ---
-## <span>Summary</span>
+## Summary
 
 Diverts the selected element's content into a named flow, used to thread content through different layout regions specified by flow-from.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -49,12 +49,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `flow-into: <ident>`
 -   `flow-into: none`
 
-## <span>Values</span>
+## Values
 
 none
 :   The element's content remains unchanged, and is not diverted to a flow unless an ancestor element specifies it.
@@ -66,7 +66,7 @@ none
 
 -   **\<ident\> content**: Adding the **content** keyword overrides the default behavior described above, diverting only the element's nested content to the named flow.
 
-## <span>Examples</span>
+## Examples
 
 The following CSS...
 
@@ -156,7 +156,7 @@ With the **content** keyword specified, content fragments appear as if structure
 
 </pre>
 
-## <span>Usage</span>
+## Usage
 
      The flow-into property diverts content from where it would ordinarily appear in the document to a named flow.  It reappears elsewhere flowing through a series of region elements whose flow-from specifies the same named flow.
 
@@ -172,16 +172,16 @@ More than one element can contribute to the same named flow, in which case their
 
 For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -239,7 +239,7 @@ For an overview of CSS Regions, see [Using CSS Regions to flow content through a
 
 -   **flow-into**
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

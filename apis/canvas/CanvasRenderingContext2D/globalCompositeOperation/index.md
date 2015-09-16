@@ -22,20 +22,20 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/globalCompositeOperation
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets how shapes and images are drawn onto the existing bitmap once they have had globalAlpha and the current transformation matrix applied.
 
 Property of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = CanvasRenderingContext2D.globalCompositeOperation;
 CanvasRenderingContext2D.globalCompositeOperation = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -54,7 +54,7 @@ Must be set to a value from the following list. In the descriptions below, the s
 -   "xor" - A xor B. Exclusive OR of the source image and destination image.
 -   *vendorName-operationName* - Vendor-specific extensions to the list of composition operators should use this syntax.
 
-## <span>Examples</span>
+## Examples
 
 This example draws two pairs of overlapping rectangles using different globalCompositionOperation values. In the example, the first rectangle of each pair (green) is the *destination*; the second rectangle of each pair (yellow) is the *source*. Thus in the first **source-over** pair, yellow overlays green; in the second **destination-over** pair, green overlays yellow.
 
@@ -78,11 +78,11 @@ ctxt.fillRect(180, 60, 80, 50);
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 You can copy images directly, or you can apply them depending on the opacity or transparency of the images or by using an XOR operation. Values are case-sensitive. If you set an unsupported or unrecognized value, *globalCompositeOperation* retains the previous value.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

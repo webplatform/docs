@@ -21,11 +21,11 @@ tags:
 uri: css/properties/overflow-y
 
 ---
-## <span>Summary</span>
+## Summary
 
 The overflow-y property is a specific case of the generic overflow property. It controls how extra content exceeding the y-axis of the bounding box of an element is rendered.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `visible`
@@ -48,7 +48,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `overflowY`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `overflow-y: auto`
 -   `overflow-y: hidden`
@@ -57,7 +57,7 @@ Animatable
 -   `overflow-y: scroll`
 -   `overflow-y: visible`
 
-## <span>Values</span>
+## Values
 
 visible
 :   Default. Content is not clipped and scroll bars are not added. Elements are clipped to the size of the containing window or frame.
@@ -77,7 +77,7 @@ no-display
 no-content
 :   When the content doesn't fit in the content box, the whole content is hidden, as if ‘visibility: hidden’ were specified.
 
-## <span>Examples</span>
+## Examples
 
 Using `overflow-y` with its values.
 
@@ -98,11 +98,11 @@ Using `overflow-y` with its values.
 
 [View live example](http://code.webplatform.org/gist/6947763)
 
-## <span>Usage</span>
+## Usage
 
      The overflow-y CSS property specifies whether to clip content, render a scroll mechanism, or display overflow content of a block-level element, when it overflows at the top and bottom edges.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS basic box model](http://dev.w3.org/csswg/css-box/#overflow-x)
 :   Editor's Draft
@@ -113,9 +113,9 @@ Using `overflow-y` with its values.
 [CSS basic box model](http://www.w3.org/TR/css3-box/#overflow1)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related Properties</span>
+### Related Properties
 
 -   [overflow](/css/properties/overflow)
 -   [overflow-x](/css/properties/overflow-x)

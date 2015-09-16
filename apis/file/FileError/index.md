@@ -14,21 +14,21 @@ tags:
 uri: apis/file/FileError
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents an error that occurs while using the FileReader interface.
 
 Obsolete per latest specification. Use [DOMError](/dom/DOMError) instead.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 

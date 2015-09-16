@@ -18,20 +18,20 @@ tags:
 uri: dom/Document/charset
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets the preferred MIME name of the document's character encoding.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.charset;
 element.charset = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //displays the document's character encoding string
@@ -45,18 +45,18 @@ function putCharSet() {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      On setting, if the new value is an IANA-registered alias for a character encoding supported by the user agent, the document's character encoding is set to that character encoding. Otherwise, nothing happens.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 For [**a**](/html/elements/a), **link**, and **script** objects, you must set the value of this property before you can retrieve it. You must set the value of this property before you can retrieve it. In Microsoft Internet Explorer 6, This property now applies to the [**a**](/html/elements/a), **link**, and **script** objects.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5

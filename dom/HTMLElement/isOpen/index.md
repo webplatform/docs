@@ -22,7 +22,7 @@ uri: dom/HTMLElement/isOpen
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.isOpen;
@@ -31,4 +31,4 @@ element.isOpen = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax

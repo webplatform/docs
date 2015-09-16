@@ -10,11 +10,11 @@ tags:
 uri: http/headers/Authorization
 
 ---
-## <span>Summary</span>
+## Summary
 
 Allows a user agent to authenticate itself with an origin server.
 
-## <span>Overview table</span>
+## Overview table
 
 Direction
 :
@@ -22,7 +22,7 @@ Direction
 Features
 :
 
-## <span>Syntax</span>
+## Syntax
 
     Authorization = credentials
     credentials = auth-scheme [ 1*SP ( token68 / #auth-param ) ]
@@ -30,17 +30,17 @@ Features
     auth-param = token BWS "=" BWS ( token / quoted-string )
     token68 = 1*( ALPHA / DIGIT /  "-" / "." / "_" / "~" / "+" / "/" ) *"="
 
-## <span>Examples</span>
+## Examples
 
 ```
 Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
 ```
 
-## <span>Notes</span>
+## Notes
 
 Other specifications define the authorization schemes that may be used with the header: A registry of these Authorization schemes is maintained by the IANA in the [Hypertext Transfer Protocol (HTTP) Authentication Scheme Registry](http://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [RFC7235: HTTP/1.1 Authentication](http://tools.ietf.org/html/rfc7235#section-4.2)
 :

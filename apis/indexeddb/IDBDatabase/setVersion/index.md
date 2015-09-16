@@ -30,35 +30,35 @@ todo_broken_links:
 uri: apis/indexeddb/IDBDatabase/setVersion
 
 ---
-## <span>Summary</span>
+## Summary
 
 Deletion candidate. Not in spec: http://www.w3.org/TR/IndexedDB/
 
 Method of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)[apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.setVersion(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>version</span>
+### version
 
  Data-type
 :   Blob
 
  The new version identifier.
 
-### <span>retVal</span>
+### retVal
 
  Data-type
 :   Blob
 
  The transaction associated with the VERSION\_CHANGE request.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -70,21 +70,21 @@ This method can return one of these values.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **setVersion** method was specified by an early draft of the [Indexed Database specification](http://go.microsoft.com/fwlink/p/?LinkID=224519). The method was removed from later drafts of the specification and is no longer supported. To create object stores, indexes, and other IndexedDB objects, use the **version** parameter of the [**open**](/w/index.php?title=apis/indexedDB/methods/open&action=edit&redlink=1) method of the [**indexedDB**](/w/index.php?title=apis/indexedDB/properties/indexedDB&action=edit&redlink=1) property to generate an [**onupgradeneeded**](/w/index.php?title=apis/indexedDB/events/onupgradeneeded&action=edit&redlink=1) event.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `IDBDatabase`
 -   `onupgradeneeded`

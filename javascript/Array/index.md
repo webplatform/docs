@@ -16,13 +16,13 @@ tags:
 uri: javascript/Array
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides support for creation of arrays of any data type.
 
 Array is an object used to list values together. When you create an array, youâ€™re setting up a list that you can fill with key:value pairs. You can then refer to a whole list using just that one array name. You can also refer to one item in the list using the key, also called an index when the key is a number.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -42,7 +42,7 @@ Array is an object used to list values together. When you create an array, youâ€
 **length**
 :   Optional. The length of the array. As arrays are zero-based, created elements will have indexes from zero to size -1.
 
-## <span>Return Value</span>
+## Return Value
 
 When no arguments are provided, creates and returns a new Array object, with a length property (whose initial value is +0).
 
@@ -54,7 +54,7 @@ If the only argument is a Number and ToUint32(len) is not equal to len, a RangeE
 
 If the only argument is not a Number, then the length property of the newly constructed object is set to 1 and the 0 property of the newly constructed object is set to len.
 
-## <span>Examples</span>
+## Examples
 
 After an array is created, you can access the individual elements of the array by using [n] notation. Note that unlike other programming languages, arrays keys are only numeric. Keys starts by 0.
 
@@ -114,11 +114,11 @@ console.log(ponies[3]);
 
 [View live example](http://code.webplatform.org/gist/8857418)
 
-## <span>Remarks</span>
+## Remarks
 
 JavaScript arrays are referred to as "sparse," which means that elements in an array can be undefined and deleted. The keys, or index, are not reordered into a denser table, unless you do so, explicitly.
 
-## <span>Usage</span>
+## Usage
 
      Array is a standard, built-in object. Among other things, this means you can create a new array by using the object creation expression new Array(), as in:
 
@@ -139,7 +139,7 @@ This array combines a string, a number and a Boolean value. An array is often ca
 
 Arrays are a useful kind of object for many reasons. For example, because the keys are numerical indexes by default, it's easy to iterate, or loop, through all of the values. They also have special properties that other objects don't have. But if your array becomes more complex, you may want to consider using an object instead.
 
-## <span>Properties</span>
+## Properties
 
 The following table lists the properties of the **Array** object.
 
@@ -149,11 +149,11 @@ The following table lists the properties of the **Array** object.
 |[length](/javascript/Array/length)|Basically specifies the number of elements (AKA length) in an **Array** object. This means the **length** property represents a number one greater than the largest index defined in an **Array** object.|
 |[prototype](/javascript/Array/prototype)|Returns a reference to the prototype for a class of array.|
 
-## <span>Functions</span>
+## Functions
 
 The following table lists the functions of the **Array** object.
 
-## <span>Methods</span>
+## Methods
 
 The following table lists the methods of the **Array** object.
 
@@ -186,9 +186,9 @@ The following table lists the methods of the **Array** object.
 |[propertyIsEnumerable](/javascript/Object/propertyIsEnumerable)|Determines whether a specified property is enumerable.|
 |[toLocaleString](/javascript/Object/toLocaleString)|Returns a date converted to a string using the current locale.|
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [JavaScript, by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 -   [Eloquent JavaScript: A Modern Introduction to Programming, by Marijn Haverbeke](http://eloquentjavascript.net/)
@@ -196,7 +196,7 @@ The following table lists the methods of the **Array** object.
 -   [JavaScript Patterns: Build Better Applications with Coding and Design Patterns, By Stoyan Stefanov](http://shop.oreilly.com/product/9780596806767.do)
 -   [Secrets of the JavaScript Ninja, by John Resig and Bear Bibeault](http://www.manning.com/resig/)
 
-### <span>Specification</span>
+### Specification
 
 [15.4 Array Objects](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4)
 

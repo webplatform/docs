@@ -20,11 +20,11 @@ tags:
 uri: css/properties/text-underline-width
 
 ---
-## <span>Summary</span>
+## Summary
 
 This defines the line width for underline, overline, or line-through of text decorations
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -50,9 +50,9 @@ Animatable
 Percentages
 :   computed font-size
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 auto
 :
@@ -80,11 +80,11 @@ thick
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

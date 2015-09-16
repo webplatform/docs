@@ -20,32 +20,32 @@ tags:
 uri: dom/DOMTokenList/remove
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes one or more tokens from a DOMTokenList.
 
 Method of [dom/DOMTokenList](/dom/DOMTokenList)[dom/DOMTokenList](/dom/DOMTokenList)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.remove(token);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>token</span>
+### token
 
  Data-type
 :   String
 
  The token to remove from the DOMTokenList.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //removes an item from an element's classList (a DOMTokenList)
@@ -55,7 +55,7 @@ function elRemItem(elid,itemrem) {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C DOM4](http://www.w3.org/TR/dom/)
 :   Candidate Recommendation

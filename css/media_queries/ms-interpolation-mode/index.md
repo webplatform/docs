@@ -28,17 +28,17 @@ uri: 'css/media queries/ms-interpolation-mode'
 
 Method of [css/media\_queries](/css/media_queries)[css/media\_queries](/css/media_queries)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.ms-interpolation-mode();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
-## <span>Examples</span>
+## Examples
 
 The following example applies the **-ms-interpolation-mode** attribute to determine the resampling algorithm of stretched images. The sample requires Internet Explorer 7 or later to view.
 
@@ -61,21 +61,21 @@ img.nearestn { -ms-interpolation-mode:nearest-neighbor }
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/css/msInterpolation.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **-ms-interpolation-mode** property is obsolete as of Windows Internet Explorer 9. Do not use. The **-ms-interpolation-mode** property was introduced in Windows Internet Explorer 7. The **-ms-interpolation-mode** property applies to stretched images only. For example, if the natural width of the image is 200x200 but the page designer specifies that the height and width should be 400x400, then the image will be stretched to the new dimensions using the nearest-neighbor algorithm, unless otherwise specified. If the zoom level of the page is 100%, the default interpolation is nearest-neighbor, otherwise bicubic mode is used.
 
-### <span>Syntax</span>
+### Syntax
 
 `-ms-interpolation-mode: nearest-neighbor | bicubic`
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Media Queries</span>
+#### Media Queries
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -115,7 +115,7 @@ The **-ms-interpolation-mode** property is obsolete as of Windows Internet Explo
 
 -   [behavior](/css/properties/behavior)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

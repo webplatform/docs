@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/EntrySync/copyTo
 
 ---
-## <span>Summary</span>
+## Summary
 
 Copy an EntrySync to a different location on the file system.
 
@@ -30,22 +30,22 @@ Copy an EntrySync to a different location on the file system.
 
 Method of [apis/filesystem/EntrySync](/apis/filesystem/EntrySync)[apis/filesystem/EntrySync](/apis/filesystem/EntrySync)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = EntrySync.copyTo(parent, newName);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>parent</span>
+### parent
 
  Data-type
 :   String
 
  The directory to which to move the EntrySync.
 
-### <span>newName</span>
+### newName
 
  Data-type
 :   String
@@ -54,15 +54,15 @@ var  = EntrySync.copyTo(parent, newName);
 
 The new name of the EntrySync. Defaults to the EntrySync's current name if unspecified.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 EntrySync
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 It is an error to try to:
 
@@ -78,7 +78,7 @@ A copy of a directory on top of an existing empty directory must attempt to dele
 
 Directory copies are always recursive--that is, they copy all contents of the directory.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

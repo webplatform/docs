@@ -23,13 +23,13 @@ tags:
 uri: apis/audio-video/AudioTrack/kind
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the category the given track falls into.
 
 Property of [apis/audio-video/AudioTrack](/apis/audio-video/AudioTrack)[apis/audio-video/AudioTrack](/apis/audio-video/AudioTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [apis/audio-video/AudioTrack](/apis/audio-video/AudioTrack)[apis/aud
 var result = AudioTrack.kind;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -52,7 +52,7 @@ Returns an object of type StringString
 -   **"commentary"**: Commentary on the primary audio or video track, e.g. a director's commentary. *Applies to: Audio, Video*
 -   **""** (empty string): No explicit kind, or the kind given by the track's metadata is not recognised by the user agent. *Applies to: Audio, Video*
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <video id="video1" controls autoplay loop>
@@ -64,7 +64,7 @@ Returns an object of type StringString
 </video>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

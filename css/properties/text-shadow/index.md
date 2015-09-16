@@ -25,11 +25,11 @@ tags:
 uri: css/properties/text-shadow
 
 ---
-## <span>Summary</span>
+## Summary
 
 The CSS text-shadow property applies one or more drop shadows to the text and &lt;text-decorations&gt; of an element. Each shadow is specified as an offset from the text, along with optional color and blur radius values.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -55,7 +55,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-shadow: <blur-radius>`
 -   `text-shadow: <color>`
@@ -63,7 +63,7 @@ Percentages
 -   `text-shadow: <offset-y>`
 -   `text-shadow: none`
 
-## <span>Values</span>
+## Values
 
 none
 :   Default value.
@@ -80,7 +80,7 @@ none
 \<color\>
 :   Optional. A color value may be applied before or after the `<length>` terms of both shadow effects. The color value will be inherited as the basis for the shadow. If a color is not specified by the user, the value of the color property will be used instead.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 */ This example uses all four values of the text-shadow property in the following order: <offset-x>, <offset-y>, <blur-radius>, and <color>. /*
@@ -112,17 +112,17 @@ p {
 
 [View live example](http://code.webplatform.org/gist/5864841)
 
-## <span>Usage</span>
+## Usage
 
      The text-shadow property can also be used to draw outlines, bevels, and other effects.
 
-## <span>Notes</span>
+## Notes
 
 Multiple shadows are applied front-to-back, with the first-specified shadow on top.
 
 The `text-shadow` property applies to both the ::first-line and ::first-letter pseudo-elements.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Decoration Module Level 3](http://www.w3.org/TR/css-text-decor-3/#text-shadow-property)
 :   Working Draft

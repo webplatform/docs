@@ -14,7 +14,7 @@ uri: dom/Event/beforeunload
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -68,7 +68,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the **onbeforeunload** event to ask users whether they want to remain on the current document or navigate to a new URL. When the user clicks on the hyperlink or attempts to close the window, the **onbeforeunload** event fires on the **body** and a dialog box displays. If the user chooses **OK**, the document navigates to the new URL (www.microsoft.com) or closes the window; if the user chooses **Cancel**, the document remains the same.
 
@@ -93,17 +93,17 @@ window.onbeforeunload = closeIt;
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforeunload.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When a string is assigned to the **returnValue** property of **window**.**event**, a dialog box appears that gives users the option to stay on the current document and retain the string that was assigned to it. The default statement that appears in the dialog box, "`Are you sure you want to navigate away from this page? ... Press OK to continue, or Cancel to stay on the current page.`", cannot be removed or altered.
 
-#### <span>onbeforeunload in Metro style apps using JavaScript</span>
+#### onbeforeunload in Metro style apps using JavaScript
 
 In Metro style apps using JavaScript, the **returnValue** property of **window**.**event** is always ignored and **onunload** will fire immediately. No dialog is shown to the user and the navigation can't be cancelled. Note that, in most cases, the app should never navigate its top-level document. Metro style apps using JavaScript should use **oncheckpoint** event to determine when they need to save state information.
 
-#### <span>General info</span>
+#### General info
 
 This event signals that the document is about to be unloaded. To invoke this event, do one of the following:
 
@@ -149,13 +149,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

@@ -10,17 +10,17 @@ tags:
 uri: javascript/String/prototype
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a reference to the prototype for a class of string.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     string.prototype
 
-## <span>Examples</span>
+## Examples
 
 The string argument is the name of a string.
 
@@ -40,7 +40,7 @@ document.write(myString.last());
 // e
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 All intrinsic JavaScript objects have a **prototype** property that is read-only. Properties and methods may be added to the prototype, but the object may not be assigned a different prototype. However, user-defined objects may be assigned a new prototype.
 

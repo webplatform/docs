@@ -16,18 +16,18 @@ tags:
 uri: html/elements/cite
 
 ---
-## <span>Summary</span>
+## Summary
 
 The cite element represents a reference to a creative work.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
 The **cite** element represents a reference to a creative work. The title of the work or the name of the author (e.g. a person or organization) or a reference to a URL must be enclosed between the opening and closing tags.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **cite** element to render a citation in italic type.
 
@@ -36,17 +36,17 @@ This example uses the **cite** element to render a citation in italic type.
 <cite>Invisible Man</cite> by Ralph Ellison.</p>
 ```
 
-## <span>Usage</span>
+## Usage
 
      The cite element is a phrasing-level element. It must not contain block-level elements, but it can contain other phrasing-level elements.
 
-## <span>Notes</span>
+## Notes
 
 Prior to HTML5, **cite** was also used to indicate the source of a quote (e.g. **blockquote** or **q**).
 
 Creative works include a book, a paper, an essay, a poem, a score, a song, a script, a film, a TV show, a game, a sculpture, a painting, a theatre production, a play, an opera, a musical, an exhibition, a legal case report, a computer program, a web site, a web page, a blog post or comment, a forum post or comment, a tweet, a written or oral statement, etc.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-cite-element)
 :   W3C Working Draft
@@ -57,11 +57,11 @@ Creative works include a book, a paper, an essay, a poem, a score, a song, a scr
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-CITE)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -201,7 +201,7 @@ Creative works include a book, a paper, an essay, a poem, a score, a song, a scr
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

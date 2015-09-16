@@ -11,9 +11,9 @@ tags:
 uri: svg/methods/setStdDeviation
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If two values are provided, the first value represents a standard deviation value along the x-axis of the coordinate system established by the [**primitiveUnits**](/svg/properties/primitiveUnits) attribute on the [**filter**](/svg/elements/filter) element. The second value represents a standard deviation along the y-axis.
 
@@ -23,14 +23,14 @@ A value of zero disables the effect of the given filter primitive (that is, the 
 
 If the **stdDeviation** method is not specified, then the effect is as if a value of zero were specified.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.19
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFEGaussianBlurElement**](/svg/elements/feGaussianBlur)

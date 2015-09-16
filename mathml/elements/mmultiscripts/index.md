@@ -14,16 +14,16 @@ tags:
 uri: mathml/elements/mmultiscripts
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML mmultiscripts element allows you to create tensor-like objects.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 These examples demonstrate a simple usage of the mmultiscripts element:
 
@@ -67,7 +67,7 @@ These examples demonstrate a simple usage of the mmultiscripts element:
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mmultiscripts)
 :   W3C Recommendation
@@ -86,7 +86,7 @@ MathML uses a special syntax to describe subscripts and superscripts for both, p
 
 After the base expression you can specify a postsubscript and a postsuperscript. Prescripts are optional and are separated by the empty tag \<mprescripts/\>. In addition you are able to use \<none/\> as a placeholder for empty positions.
 
-## <span>Attributes</span>
+## Attributes
 
  subscriptshift
 :   The minimum space by which to shift the subscript below the baseline of the expression, as a CSS length.

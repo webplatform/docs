@@ -11,11 +11,11 @@ tags:
 uri: 'html/quirks mode'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Quirks mode is a way for some browsers to maintain backward compatibility with sites designed for older browsers which don't strictly comply with W3C or IETF standards.
 
-## <span>Notes</span>
+## Notes
 
 When some browser makers implemented CSS, their support did not match W3C standards. To make their sites work correctly with these browsers, developers had to use non-standard CSS.
 

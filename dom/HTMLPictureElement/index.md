@@ -10,19 +10,19 @@ tags:
 uri: dom/HTMLPictureElement
 
 ---
-## <span>Summary</span>
+## Summary
 
 HTMLPictureElement is intended to give authors a way to control which image resource a user agent presents to a user, based on media query and/or support for a particular image format.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 

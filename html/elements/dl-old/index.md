@@ -16,7 +16,7 @@ todo_broken_links:
 uri: html/elements/dl-old
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &lt;dl&gt; element is used to define a description list. The element encloses one or more description terms, enclosed in &lt;dt&gt; elements, and description definitions (definitions of the terms), enclosed within &lt;dd&gt; elements.
 
@@ -66,7 +66,7 @@ DOM interface
 </td>
 </tr>
 </table>
-## <span>Usage</span>
+## Usage
 
 The `<dl>` element is often useful to create a semantic list of terms and their definitions, whether these are name value pairs, glossary terms and definitions, or anything other items that fit this pattern. **Description lists** allow you to do this easily inside HTML.
 
@@ -78,7 +78,7 @@ The items should always be placed before the descriptions.
 
 A description list is not used as commonly as other types of list, except in journals, research papers, and other documentation where item/value pairs need to be displayed. For other uses, they are often not used as they are considered more difficult to style than other list types.
 
-## <span>CSS</span>
+## CSS
 
 Typical browser default CSS properties for the `<dl>` element.
 
@@ -88,7 +88,7 @@ margin-top: 16px;
 margin-bottom: 16px;
 ```
 
-## <span>Examples</span>
+## Examples
 
 Three different description list examples:
 
@@ -127,7 +127,7 @@ Three different description list examples:
 
 [View live example](http://code.webplatform.org/gist/5821157)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5.1](http://www.w3.org/html/wg/drafts/html/master/)
 :   Editor's draft
@@ -135,9 +135,9 @@ Three different description list examples:
 [HTML 4.01](http://www.w3.org/TR/html401/struct/lists.html)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/HTML/Element/dl)
 -   [W3C](http://www.w3.org/TR/html4/struct/lists.html#h-10.3)

@@ -25,13 +25,13 @@ tags:
 uri: dom/Document/visibilityState
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the visibility state of a webpage.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,13 +39,13 @@ Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 var visibilityState = document.visibilityState;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The current visibility state of the document, one of "hidden", "visible", "prerender", "unloaded".
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var timer = 0;
@@ -69,20 +69,20 @@ function checkEmail() {
 window.onload = onLoad;
 ```
 
-## <span>Notes</span>
+## Notes
 
 Use the [**visibilitychange**](/dom/Document/visibilitychange) property to track changes to the visibility state.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Page Visibility](http://www.w3.org/TR/page-visibility/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Performance</span>
+#### Performance
 
 -   [navigation timing](/apis/navigation_timing)
 
@@ -98,7 +98,7 @@ Use the [**visibilitychange**](/dom/Document/visibilitychange) property to track
 
 -   [HTML5 Techniques for Optimizing Mobile Performance](/tutorials/mobile_opt_and_perf)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `hidden`
 -   `visibilitychange`

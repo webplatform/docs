@@ -10,28 +10,28 @@ tags:
 uri: mathml
 
 ---
-## <span>Summary</span>
+## Summary
 
 Mathematical Markup Language (MathML) is a XML language, which is used to describe mathematical formulas. The current stable specification is the MathML 3.0 W3C Recommendation.
 
-## <span>Explore our MathML docs</span>
+## Explore our MathML docs
 
-### <span>[Element reference](/mathml/elements)</span>
+### [Element reference](/mathml/elements)
 
 A reference guide to all MathML elements available.
 
-### <span>[Attribute reference](/mathml/attributes)</span>
+### [Attribute reference](/mathml/attributes)
 
 A reference guide to all available MathML attributes.
 
-## <span>Background</span>
+## Background
 
 There are two types of MathML:
 
 -   Presentation MathML, for the presentation of a mathematical formulas.
 -   Content MathML, which describes the meaning of a mathematical formula.
 
-## <span>Contributing to MathML development</span>
+## Contributing to MathML development
 
 MathML is worked on by the MathML working group [see the WG homepage](http://www.w3.org/Math/) for more details, including mailing list details for feedback and contributing.
 

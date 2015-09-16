@@ -10,17 +10,17 @@ tags:
 uri: 'javascript/Uint16Array/BYTES PER ELEMENT'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The size in bytes of each element in the array.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     var arraySize = int8Array.BYTES_PER_ELEMENT;
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to get the size of the array elements.
 

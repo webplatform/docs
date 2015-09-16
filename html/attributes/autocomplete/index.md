@@ -19,7 +19,7 @@ todo_broken_links:
 uri: html/attributes/autocomplete
 
 ---
-## <span>Summary</span>
+## Summary
 
 The autocomplete attribute specifies whether a browser should automatically provide values for a form element.
 
@@ -43,7 +43,7 @@ Autocomplete should also be turned off if the website provides its own mechanism
 
 Valid values for autocomplete are `on` or `off`. The attribute is not required.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **AUTOCOMPLETE** attribute to disable the AutoComplete feature.
 
@@ -62,16 +62,16 @@ The following example shows an HTML form with autocomplete on. One of the inputs
 </form>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/forms.html#attr-form-autocomplete)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -211,11 +211,11 @@ The following example shows an HTML form with autocomplete on. One of the inputs
 
 -   [time](/html/elements/time)
 
-#### <span>Security</span>
+#### Security
 
 -   **autocomplete**
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `input type=password`
 -   `input type=text`

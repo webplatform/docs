@@ -12,11 +12,11 @@ tags:
 uri: apis/webrtc/MediaStreamTrackList/addtrack
 
 ---
-## <span>Summary</span>
+## Summary
 
 A MediaStreamTrack has been added to the list.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

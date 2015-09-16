@@ -14,16 +14,16 @@ tags:
 uri: mathml/elements/mpadded
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML mpadded element is used to add extra padding and to set the general adjustment of position and size of enclosed contents.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates a simple usage of the mpadded element:
 
@@ -43,12 +43,12 @@ This example demonstrates a simple usage of the mpadded element:
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mpadded)
 :   W3C Recommendation
 
-## <span>Attributes</span>
+## Attributes
 
  depth
 :   Sets or increments the depth. Possible values: Any length or an increment/decrement (a length prefixed with "+" or "-") .
@@ -61,6 +61,6 @@ This example demonstrates a simple usage of the mpadded element:
  width
 :   Sets or increments the width. Possible values: Any length or an increment/decrement (a length prefixed with "+" or "-") .
 
-### <span>Pseudo-units</span>
+### Pseudo-units
 
 It is possible to use the keywords `"depth`",` "height"`, and `"width"` as a pseudo-unit for the attributes `depth`, `height`, `lspace`, `voffset`, and `width`. They represent each length of the same-named dimension.

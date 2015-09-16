@@ -22,14 +22,14 @@ uri: apis/xhr/properties/contentType
 
 Property of [apis/xhr/properties](/apis/xhr/properties)[apis/xhr/properties](/apis/xhr/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.contentType;
 element.contentType = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // 1. Create XDR object
@@ -42,9 +42,9 @@ xdr.open("GET", "http://www.contoso.com/xdr.txt");
 alert(xdr.contentType);
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `IHTMLXDomainRequest`

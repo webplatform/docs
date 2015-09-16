@@ -20,13 +20,13 @@ todo_broken_links:
 uri: 'concepts/programming/javascript/object model'
 
 ---
-## <span>Summary</span>
+## Summary
 
 JavaScript is an object-based language based on prototypes, rather than being class-based. Because of this different basis, it can be less apparent how JavaScript allows you to create hierarchies of objects and to have inheritance of properties and their values. This chapter attempts to clarify the situation.
 
 This chapter assumes that you are already somewhat familiar with JavaScript and that you have used JavaScript functions to create simple objects.
 
-## <span>Class-based vs. prototype-based languages</span>
+## Class-based vs. prototype-based languages
 
 Class-based object-oriented languages, such as Java and C++, are founded on the concept of two distinct entities: classes and instances.
 
@@ -35,23 +35,23 @@ Class-based object-oriented languages, such as Java and C++, are founded on the 
 
 A prototype-based language, such as JavaScript, does not make this distinction: it simply has objects. A prototype-based language has the notion of a *prototypical object*, an object used as a template from which to get the initial properties for a new object. Any object can specify its own properties, either when you create it or at run time. In addition, any object can be associated as the *prototype* for another object, allowing the second object to share the first object's properties.
 
-### <span>Defining a class</span>
+### Defining a class
 
 In class-based languages, you define a class in a separate *class definition*. In that definition you can specify special methods, called *constructors*, to create instances of the class. A constructor method can specify initial values for the instance's properties and perform other processing appropriate at creation time. You use the `new` operator in association with the constructor method to create class instances.
 
 JavaScript follows a similar model, but does not have a class definition separate from the constructor. Instead, you define a constructor function to create objects with a particular initial set of properties and values. Any JavaScript function can be used as a constructor. You use the `new` operator with a constructor function to create a new object.
 
-### <span>Subclasses and inheritance</span>
+### Subclasses and inheritance
 
 In a class-based language, you create a hierarchy of classes through the class definitions. In a class definition, you can specify that the new class is a *subclass* of an already existing class. The subclass inherits all the properties of the superclass and additionally can add new properties or modify the inherited ones. For example, assume the `Employee` class includes only the `name` and `dept` properties, and `Manager` is a subclass of `Employee` that adds the `reports` property. In this case, an instance of the `Manager` class would have all three properties: `name`, `dept`, and `reports`.
 
 JavaScript implements inheritance by allowing you to associate a prototypical object with any constructor function. So, you can create exactly the `Employee` — `Manager` example, but you use slightly different terminology. First you define the `Employee` constructor function, specifying the `name` and `dept` properties. Next, you define the `Manager` constructor function, specifying the `reports` property. Finally, you assign a new `Employee` object as the `prototype` for the `Manager` constructor function. Then, when you create a new `Manager`, it inherits the `name` and `dept` properties from the `Employee` object.
 
-### <span>Adding and removing properties</span>
+### Adding and removing properties
 
 In class-based languages, you typically create a class at compile time and then you instantiate instances of the class either at compile time or at run time. You cannot change the number or the type of properties of a class after you define the class. In JavaScript, however, at run time you can add or remove properties of any object. If you add a property to an object that is used as the prototype for a set of objects, the objects for which it is the prototype also get the new property.
 
-### <span>Summary of differences</span>
+### Summary of differences
 
 The following table gives a short summary of some of these differences. The rest of this chapter describes the details of using JavaScript constructors and prototypes to create an object hierarchy and compares this to how you would do it in Java.
 
@@ -64,7 +64,7 @@ The following table gives a short summary of some of these differences. The rest
 |Inherit properties by following the class chain.|Inherit properties by following the prototype chain.|
 |Class definition specifies *all* properties of all instances of a class. Cannot add properties dynamically at run time.|Constructor function or prototype specifies an *initial set* of properties. Can add or remove properties dynamically to individual objects or to the entire set of objects.|
 
-## <span>The employee example</span>
+## The employee example
 
 The remainder of this chapter uses the employee hierarchy shown in the following figure.
 
@@ -78,7 +78,7 @@ This example uses the following objects:
 -   `SalesPerson` is based on `WorkerBee`. It adds the `quota` property (whose value defaults to 100). It also overrides the `dept` property with the value "sales", indicating that all salespersons are in the same department.
 -   `Engineer` is based on `WorkerBee`. It adds the `machine` property (whose value defaults to the empty string) and also overrides the `dept` property with the value "engineering".
 
-## <span>Creating the hierarchy</span>
+## Creating the hierarchy
 
 There are several ways to define appropriate constructor functions to implement the Employee hierarchy. How you choose to define them depends largely on what you want to be able to do in your application.
 
@@ -205,11 +205,11 @@ Using these definitions, you can create instances of these objects that get the 
 
  ![Figure 8.3: Creating objects with simple definitions](/assets/public/2/26/figure8.3.png)
 
-## <span>Object properties</span>
+## Object properties
 
 This section discusses how objects inherit properties from other objects in the prototype chain and what happens when you add a property at run time.
 
-### <span>Inheriting properties</span>
+### Inheriting properties
 
 Suppose you create the `mark` object as a `WorkerBee` (as shown in [Figure 8.3](http://docs.webplatform.org/wiki#figure8.3)) with the following statement:
 
@@ -231,7 +231,7 @@ Because these constructors do not let you supply instance-specific values, this 
     mark.dept = "admin";
     mark.projects = ["navigator"];
 
-### <span>Adding properties</span>
+### Adding properties
 
 In JavaScript, you can add properties to any object at run time. You are not constrained to use only the properties provided by the constructor function. To add a property that is specific to a single object, you assign a value to the object, as follows:
 
@@ -247,7 +247,7 @@ As soon as JavaScript executes this statement, the `mark` object also has the `s
 
 ![Figure 8.4: Adding properties](/assets/public/c/c8/figure8.4.png)
 
-## <span>More flexible constructors</span>
+## More flexible constructors
 
 The constructor functions shown so far do not let you specify property values when you create an instance. As with Java, you can provide arguments to constructors to initialize property values for instances. The following figure shows one way to do this.
 
@@ -415,11 +415,11 @@ Another way of inheriting is by using the [`call()`](/w/index.php?title=concepts
 
 Using the javascript `call()` method makes a cleaner implementation because the `base` is not needed anymore.
 
-## <span>Property inheritance revisited</span>
+## Property inheritance revisited
 
 The preceding sections described how JavaScript constructors and prototypes provide hierarchies and inheritance. This section discusses some subtleties that were not necessarily apparent in the earlier discussions.
 
-### <span>Local versus inherited values</span>
+### Local versus inherited values
 
 When you access an object property, JavaScript performs these steps, as described earlier in this chapter:
 
@@ -478,7 +478,7 @@ In this case, the `name` property of `amy` becomes "Unknown".
 
 As these examples show, if you want to have default values for object properties and you want to be able to change the default values at run time, you should set the properties in the constructor's prototype, not in the constructor function itself.
 
-### <span>Determining instance relationships</span>
+### Determining instance relationships
 
 Property lookup in JavaScript looks within an object's own properties and, if the property name is not found, it looks within the special object property `__proto__`. This continues recursively; the process is called "lookup in the prototype chain".
 
@@ -526,7 +526,7 @@ But the following expression is false:
 
     instanceOf (chris, SalesPerson)
 
-### <span>Global information in constructors</span>
+### Global information in constructors
 
 When you create constructors, you need to be careful if you set global information in the constructor. For example, assume that you want a unique ID to be automatically assigned to each new employee. You could use the following definition for `Employee`:
 
@@ -580,7 +580,7 @@ Depending on the application, it may or may not matter that the counter has been
 
 When you create an instance of `Employee` to use as a prototype, you do not supply arguments to the constructor. Using this definition of the constructor, when you do not supply arguments, the constructor does not assign a value to the id and does not update the counter. Therefore, for an `Employee` to get an assigned id, you must specify a name for the employee. In this example, `mac.id` would be 1.
 
-### <span>No multiple inheritance</span>
+### No multiple inheritance
 
 Some object-oriented languages allow multiple inheritance. That is, an object can inherit the properties and values from unrelated parent objects. JavaScript does not support multiple inheritance.
 

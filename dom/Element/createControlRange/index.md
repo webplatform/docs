@@ -26,13 +26,13 @@ uri: dom/Element/createControlRange
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.createControlRange();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -40,7 +40,7 @@ Object
 
 Returns a [**controlRange**](/dom/HTMLElement/controlRange) collection if sucessful or a null value otherwise.
 
-## <span>Examples</span>
+## Examples
 
 This example creates a [**controlRange**](/dom/HTMLElement/controlRange) by using the **createControlRange** method.
 
@@ -48,21 +48,21 @@ This example creates a [**controlRange**](/dom/HTMLElement/controlRange) by usin
 oControlRange = document.body.createControlRange();
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Creates a selection range object for control-based selection rather than text-based selection. If a [**controlRange**](/dom/HTMLElement/controlRange) already exists, **createControlRange** overwrites the existing element; otherwise, it returns a pointer to the element created. If there are currently controls selected in the text container, the control range is initialized with them; otherwise, it is created empty and controls need to be explicitly added to it. This is opposite of the text range, which defaults to the whole text container if there is no selection.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `body`
 -   `createRange`

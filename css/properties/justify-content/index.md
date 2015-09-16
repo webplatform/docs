@@ -20,11 +20,11 @@ tags:
 uri: css/properties/justify-content
 
 ---
-## <span>Summary</span>
+## Summary
 
 The justify-content property aligns flex items along the main axis of the current line of the flex container, similarly to how align-items aligns items in the cross axis.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `flex-start`
@@ -47,7 +47,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `-ms-flex-pack: center`
 -   `-ms-flex-pack: end`
@@ -59,7 +59,7 @@ Animatable
 -   `justify-content: space-around`
 -   `justify-content: space-between`
 
-## <span>Values</span>
+## Values
 
 flex-start
 :   Flex items are packed toward the start of the line. The main-start margin edge of the first flex item on the line is placed flush with the main-start edge of the line, and each subsequent flex item is placed flush with the preceding item.
@@ -76,7 +76,7 @@ space-between
 space-around
 :   Flex items are evenly distributed in the line, with half-size spaces on either end. If the leftover free-space is negative or there is only a single flex item on the line, this value is identical to ‘center’. Otherwise, the flex items on the line are distributed such that the spacing between any two adjacent flex items on the line is the same, and the spacing between the first/last flex items and the flex container edges is half the size of the spacing between flex items.
 
-## <span>Examples</span>
+## Examples
 
 An example with the justify-content property, demonstrating the different options.
 
@@ -170,20 +170,20 @@ An example with the justify-content property, demonstrating the different option
 </div>
 ```
 
-## <span>Notes</span>
+## Notes
 
 This property was named **flex-pack** in earlier drafts.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Flexible Box Layout Module](http://dev.w3.org/csswg/css-flexbox/#justify-content-property)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Flexbox</span>
+#### Flexbox
 
 -   [align-content](/css/properties/align-content)
 
@@ -209,7 +209,7 @@ This property was named **flex-pack** in earlier drafts.
 
 -   **justify-content**
 
-### <span>External resources</span>
+### External resources
 
 Also, check out the following live demo sites:
 

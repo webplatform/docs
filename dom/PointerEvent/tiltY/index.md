@@ -21,13 +21,13 @@ tags:
 uri: dom/PointerEvent/tiltY
 
 ---
-## <span>Summary</span>
+## Summary
 
 The plane angle (in degrees, in the range of [-90,90]) between the X-Z plane and the plane containing both the transducer (e.g. pen stylus) axis and the X axis.
 
 Property of [dom/PointerEvent](/dom/PointerEvent)[dom/PointerEvent](/dom/PointerEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,13 +35,13 @@ Property of [dom/PointerEvent](/dom/PointerEvent)[dom/PointerEvent](/dom/Pointer
 var result = event.tiltY;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 A value between -90 and +90
 
-## <span>Examples</span>
+## Examples
 
 The following is an example of a pointer event handler that outputs the value of the tiltX property to a text field, txtTiltY.
 
@@ -52,7 +52,7 @@ theform.txtTiltY.value=evt.tiltY;
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      A positive tiltY is towards the user. tiltY can be used along with tiltX to represent the tilt away from the normal of a transducer with the digitzer. For devices that do not report tilt, the value must be 0.
 

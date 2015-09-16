@@ -25,35 +25,35 @@ tags:
 uri: dom/NamedNodeMap/setNamedItemNS
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets an attribute object as part of the object.
 
 Method of [dom/NamedNodeMap](/dom/NamedNodeMap)[dom/NamedNodeMap](/dom/NamedNodeMap)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.setNamedItemNS(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>pAttrNode</span>
+### pAttrNode
 
  Data-type
 :   any
 
  The [**attribute**](/dom/HTMLElement) to add.
 
-### <span>ppNodeOut</span>
+### ppNodeOut
 
  Data-type
 :   any
 
  The [**attribute**](/dom/HTMLElement) node that the *pAttrNode* node replaces, or a null value.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -65,8 +65,8 @@ This method can return one of these values.
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 3 Core Specification](http://go.microsoft.com/fwlink/p/?linkid=182717), Section 1.4

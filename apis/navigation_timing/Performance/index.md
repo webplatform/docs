@@ -14,11 +14,11 @@ tags:
 uri: 'apis/navigation timing/Performance'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The HTML5 specification defines a Window interface, which this specification extends.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -29,15 +29,15 @@ API Name
 [timing](/apis/navigation_timing/Performance/timing)
 :   Represents the timing information related to the browsing contexts since the last non-redirect navigation. This attribute is defined by the **PerformanceTiming** interface.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 The following script calculates how much time to load a page since the most recent navigation.
 
@@ -58,7 +58,7 @@ function onLoad() {
 </html>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Navigation Timing Specification](http://w3c-test.org/webperf/specs/NavigationTiming/)
 :   W3C Editor's Draft

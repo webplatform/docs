@@ -17,30 +17,30 @@ todo_broken_links:
 uri: html/elements/blink
 
 ---
-## <span>Summary</span>
+## Summary
 
 Causes text to blink. This element is non-standard and deprecated; use CSS instead.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [?](/w/index.php?title=%3F&action=edit&redlink=1)
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <blink>Blinky text is always awesome</blink>
 ```
 
-## <span>Usage</span>
+## Usage
 
      This element is non-standard and deprecated.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Visual Effects</span>
+#### Visual Effects
 
 -   [color](/css/color)
 

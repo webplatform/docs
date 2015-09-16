@@ -21,7 +21,7 @@ uri: dom/HTMLImageElement
 
 Inherits from [HTMLElement](/dom/HTMLElement)[HTMLElement](/dom/HTMLElement)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -35,17 +35,17 @@ API Name
 [srcset](/html/attributes/srcset)
 :   The **srcset** attribute is an extension of the [image element](/html/elements/img). It provides additional image related information to the browser to help decide the most appropriate image to load. Most commonly used for delivering the best image for high device pixel ratio and responsive images.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from HTMLElement</span>
+## Inherited from HTMLElement
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -833,7 +833,7 @@ API Name
 [text-anchor](/svg/attributes/text-anchor)
 :
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -892,7 +892,7 @@ API Name
 [toStaticHTML](/dom/HTMLElement/toStaticHTML)
 :
 
-### <span>Events</span>
+### Events
 
 *No events.*
 

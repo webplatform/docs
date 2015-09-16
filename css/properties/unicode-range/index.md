@@ -19,11 +19,11 @@ tags:
 uri: css/properties/unicode-range
 
 ---
-## <span>Summary</span>
+## Summary
 
 unicode-range allows you to set a specific range of characters to be downloaded from a font (embedded using @font-face) and made available for use on the current page.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `U+0-10FFFF`
@@ -46,14 +46,14 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `unicodeRange`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `unicode-range: codepoint range`
 -   `unicode-range: multiple value declarations`
 -   `unicode-range: single codepoint`
 -   `unicode-range: wildcard range`
 
-## <span>Values</span>
+## Values
 
 single codepoint
 :   A single unicode character codepoint, for example `unicode-range: U+26`.
@@ -67,7 +67,7 @@ wildcard range
 multiple value declarations
 :   You can specify multiple single codepoints and/or codepoint groups, delimiting them using commas. For example, `unicode-range: U+00-FF, U+980-9FF`.
 
-## <span>Examples</span>
+## Examples
 
 A single paragraph of HTML, including an ampersand. We have wrapped the ampersand in a `<span>` element because we want to use a different ampersand from a different font.
 
@@ -103,21 +103,21 @@ p {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      * As the examples above show, you can use unicode-range to create a custom @font-face that contains only the characters you need to be downloaded, saving on bandwidth.
 
 -   You should always include a fallback font that is acceptable in case your `unicode-range @font-face` is not supported.
 -   Support for `unicode-range` is currently limited; Chrome and Safari supports it well, Internet Explorer supports is as of version 9, Opera supports it, Firefox *doesn't* support it.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css-fonts-3/#descdef-unicode-range)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [Creating custom font stacks with unicode-range](http://24ways.org/2011/creating-custom-font-stacks-with-unicode-range/)
 -   [Unicode code converter](http://www.rishida.net/tools/conversion/)

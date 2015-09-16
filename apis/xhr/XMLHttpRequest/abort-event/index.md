@@ -11,15 +11,15 @@ tags:
 uri: apis/xhr/XMLHttpRequest/abort-event
 
 ---
-## <span>abort</span>
+## abort
 
 For technical reasons, the title of this article is not the text used to call this API. Instead, use `abort`
 
-## <span>Summary</span>
+## Summary
 
 When the request has been aborted. For instance, by invoking the abort() method.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

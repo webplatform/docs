@@ -14,11 +14,11 @@ uri: 'tutorials/websockets basics'
 **By [Malte Ubi and Eiji Kitamura](http://www.html5rocks.com/profiles/#malteubl)**
 Originally published Oct 20, 2010
 
-## <span>Summary</span>
+## Summary
 
 An introduction to WebSocket.
 
-## <span>The Problem: Low Latency Client-Server and Server-Client Connections</span>
+## The Problem: Low Latency Client-Server and Server-Client Connections
 
 The Web has been largely built around the so-called request/response paradigm of HTTP. A client loads up a web page and then nothing happens until the user clicks onto the next page. Around 2005, AJAX started to make the Web feel more dynamic. Still, all HTTP communication was steered by the client, which required either user interaction or periodic polling to load new data from the server.
 
@@ -26,11 +26,11 @@ Technologies that enable the server to send data to the client in the very momen
 
 However, all of these workarounds share one problem: they carry the overhead of HTTP, which doesn't make them well suited for low latency applications. Think multiplayer first-person shooter games in the browser or any other online game with a real-time component.
 
-## <span>Introducing WebSocket: Bringing Sockets to the Web</span>
+## Introducing WebSocket: Bringing Sockets to the Web
 
 WebSocket is comprised of an [API](http://dev.w3.org/html5/websockets/) that enables you interact with a [protocol](http://tools.ietf.org/html/rfc6455) to create "socket" connections between a web browser and a server. In essence, there is a persistent, full-duplex connection between the client and the server, and both parties can send data at any time.
 
-## <span>Getting Started</span>
+## Getting Started
 
 In this example, we'll use a publicly available WebSocket server ([WebSockets.org](http://websockets.org)). You open up a WebSocket connection to this server simply by calling the WebSocket constructor:
 
@@ -63,7 +63,7 @@ The subprotocol names must be one of the registered subprotocol names in the [IA
  };
 ```
 
-### <span>Communicating with the Server</span>
+### Communicating with the Server
 
 Once the connection is established to the server (when the `open` event is fired) we can start sending data to the server using the `send('your message')` method on the connection object. In the past, this method supported only strings, the latest spec allows you to send binary messages, as well. To send binary data, you can use either the `Blob` or the `ArrayBuffer` object.
 
@@ -103,23 +103,23 @@ WebSocket can also receive binary messages in the latest spec. Binary frames can
  console.log(connection.extensions);
 ```
 
-## <span>Cross-Origin Communication</span>
+## Cross-Origin Communication
 
 Being a modern protocol, cross-origin communication is baked right into WebSocket. While you should still make sure to only communicate with clients and servers you trust, WebSocket enables communication between parties on any domain. The server decides whether to make its service available to all clients or only to those that reside on a set of well-defined domains.
 
-## <span>Proxy Servers</span>
+## Proxy Servers
 
 Every new technology comes with a new set of problems. In the case of WebSocket it is the compatibility with proxy servers which mediate HTTP connections in most company networks. The WebSocket protocol uses the HTTP upgrade system (which is normally used for HTTP/SSL) to "upgrade" an HTTP connection to a WebSocket connection. Some proxy servers do not like this and will drop the connection. Thus, even if a given client uses the WebSocket protocol, it may not be possible to establish a connection. This makes the next section even more important :)
 
-## <span>Use WebSockets Today</span>
+## Use WebSockets Today
 
 WebSocket is still a young technology and not fully implemented in all browsers. However, you can use WebSocket today with libraries that use one of the fallbacks mentioned above whenever WebSocket is not available. A library that has become very popular in this domain is [socket.io](http://socket.io/), which comes with a client and a server implementation of the protocol and includes fallbacks (socket.io doesn't support binary messaging yet as of Februrary 2012). There are also commercial solutions such as [Kaazing](http://kaazing.com/), which provides WebSocket emulation, and [PusherApp](http://pusherapp.com/), which can be easily integrated into any web environment by providing an HTTP API to send WebSocket messages to clients. Due to the extra HTTP request, there will always be extra overhead compared to pure WebSocket.
 
-## <span>The Server Side</span>
+## The Server Side
 
 Using WebSocket creates a whole new usage pattern for server-side applications. While traditional server stacks such as LAMP are designed around the HTTP request/response cycle, they often do not deal well with a large number of open WebSocket connections. Keeping a large number of connections open at the same time requires an architecture that receives high concurrency at a low performance cost. Such architectures are usually designed around either threading or so-called non-blocking IO.
 
-### <span>Server-Side Implementations</span>
+### Server-Side Implementations
 
 -   Node.js
     -   [Socket.IO](http://socket.io/)
@@ -140,11 +140,11 @@ Using WebSocket creates a whole new usage pattern for server-side applications. 
 -   .NET
     -   [SuperWebSocket](http://superwebsocket.codeplex.com/)
 
-### <span>Protocol Versions</span>
+### Protocol Versions
 
 The wire protocol (a handshake and the data transfer between client and server) for WebSocket is now [RFC 6455](http://tools.ietf.org/html/rfc6455). You can still use older protocol versions but it is not recommended because they are known to be vulnerable. If you have server implementations for older versions of WebSocket protocol, we recommend you upgrade to the latest version.
 
-## <span>Use Cases</span>
+## Use Cases
 
 Use WebSocket whenever you need a truly low latency, near real-time connection between the client and the server. Keep in mind that this might involve rethinking how you build your server side applications with a new focus on technologies such as event queues. Some example use cases are:
 
@@ -153,7 +153,7 @@ Use WebSocket whenever you need a truly low latency, near real-time connection b
 -   Live sports ticker
 -   Realtime updating social streams
 
-## <span>Demos</span>
+## Demos
 
 -   [Plink](http://labs.dinahmoe.com/plink/)
 -   [Paint With Me](http://paintwith.me/)
@@ -164,7 +164,7 @@ Use WebSocket whenever you need a truly low latency, near real-time connection b
 -   [Ping server](http://www.websockets.org/echo.html) (used in examples above)
 -   [HTML5demos sample](http://html5demos.com/web-socket)
 
-## <span>References</span>
+## References
 
 -   [The WebSocket API](http://dev.w3.org/html5/websockets/)
 -   [RFC 6455 - The WebSocket Protocol](http://tools.ietf.org/html/rfc6455)

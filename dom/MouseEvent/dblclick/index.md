@@ -15,11 +15,11 @@ tags:
 uri: dom/MouseEvent/dblclick
 
 ---
-## <span>Summary</span>
+## Summary
 
 A mouse double click event.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -73,7 +73,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the **dblclick** event to add items to a list box when the user double-clicks in the text box.
 
@@ -98,13 +98,13 @@ function addItem() {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/ondblclickEX.htm)
 
-## <span>Notes</span>
+## Notes
 
 The order of events leading to the **dblclick** event is [**mousedown**](/dom/MouseEvent/mousedown), [**mouseup**](/dom/MouseEvent/mouseup), [**click**](/dom/MouseEvent/click), **mouseup**, and then **dblclick**. Actions associated with any of these events are executed when the **dblclick** event fires. Initiates any action that is associated with the event. To invoke this event, do one of the following:
 
 -   Click the left mouse button twice in rapid succession over an object. The user's double-click must occur within the time limit specified by the user's system.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 4.01](http://www.w3.org/TR/html401/)
 :   Recommendation

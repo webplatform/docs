@@ -32,7 +32,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **HIDEFOCUS** attribute to prevent a focus rectangle from appearing on a button.
 
@@ -47,17 +47,17 @@ Button Without Rectangle</BUTTON>
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/hidefocus.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The focus of an object is visibly indicated by a focus rectangle—a dotted rectangle within the boundaries of the object. This property does not control the ability of an object to receive [**focus**](/w/index.php?title=dom/methods/focus&action=edit&redlink=1); for that, use the [**tabIndex**](/html/attributes/tabIndex) property.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`
 -   `abbr`

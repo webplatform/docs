@@ -20,11 +20,11 @@ todo_broken_links:
 uri: html/elements/bdo/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 bdo要素はページ上のテキスト表記の方向を定義することができます。（”BDO”とはBi-Directional Override（双方向オーバーライド）の略です。）
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -34,7 +34,7 @@ bdo要素はページ上のテキスト表記の方向を定義することが�
 -   [Overriding the Unicode bidirectional algorithm](http://www.w3.org/International/techniques/authoring-html#bdo)
 -   [Mixing text direction inline](http://www.w3.org/International/techniques/authoring-html#inline)
 
-## <span>Examples</span>
+## Examples
 
 ここではテキストを正しく読める向きに表示するために**bdo**要素を使います。
 
@@ -49,9 +49,9 @@ bdo要素はページ上のテキスト表記の方向を定義することが�
     すで語イラブヘは文のこ。</BDO>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>備考</span>
+### 備考
 
 Unicodeの双方向アルゴリズムでは文字列はもともと埋め込まれていた方向に自動的に変換されますが、**bdo**要素ではテキストの表示方向を制御することができます。
 
@@ -59,7 +59,7 @@ Unicodeの双方向アルゴリズムでは文字列はもともと埋め込ま�
 
 bdo要素は双方向アルゴリズムを無効化し、表示順を制御します。 bdo要素を使う上で[**dir**](/html/attributes/dir)属性は必須です。 bdo要素はInternet Explorer 5以上で利用可能です。
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-bdo-element)
 :   W3C Working Draft
@@ -70,8 +70,8 @@ bdo要素は双方向アルゴリズムを無効化し、表示順を制御し�
 [HTML 4.01](http://www.w3.org/TR/html401/struct/dirlang.html#edef-BDO)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `direction`

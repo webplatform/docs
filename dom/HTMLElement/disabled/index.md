@@ -22,7 +22,7 @@ uri: dom/HTMLElement/disabled
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.disabled;
@@ -31,4 +31,4 @@ element.disabled = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax

@@ -26,7 +26,7 @@ uri: css/exclusions/ms-wrap-through
 
 Property of [css/exclusions](/w/index.php?title=css/exclusions&action=edit&redlink=1)[css/exclusions](/w/index.php?title=css/exclusions&action=edit&redlink=1)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.ms-wrap-through;
@@ -35,31 +35,31 @@ element.ms-wrap-through = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 You can use the **-ms-wrap-through** property to control the effect of exclusions—for instance, to cause one content block to wrap around an exclusion element and another to intersect the same exclusion element. The *wrapping context* of a box is a collection of exclusion areas contributed by its associated exclusion boxes. When Windows Internet Explorer lays out a webpage, a box wraps its inline flow content in the area that corresponds to the subtraction of its wrapping context from its own content area. For more information about exclusion elements' impact on content flow, see the [Definitions](http://go.microsoft.com/fwlink/p/?LinkId=234931) section of the [CSS3 Exclusions](http://go.microsoft.com/fwlink/p/?LinkId=234148) specification.
 
-### <span>Syntax</span>
+### Syntax
 
 `-ms-wrap-through: wrap | none`
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Exclusions and Shapes Module Level 3](http://go.microsoft.com/fwlink/p/?linkId=234148), Section 3.3.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Exclusions</span>
+#### Exclusions
 
 -   [ms-wrap-flow](/css/exclusions/ms-wrap-flow)
 
 -   **ms-wrap-through**
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `Internet Explorer 10 Guide for Developers: CSS Exclusions`

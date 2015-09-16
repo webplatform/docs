@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/FileSystemSync/name
 
 ---
-## <span>Summary</span>
+## Summary
 
 The name of the file system. The specifics of naming filesystems is unspecified, but a name must be unique across the list of exposed file systems.
 
@@ -30,7 +30,7 @@ The name of the file system. The specifics of naming filesystems is unspecified,
 
 Property of [apis/filesystem/FileSystemSync](/apis/filesystem/FileSystemSync)[apis/filesystem/FileSystemSync](/apis/filesystem/FileSystemSync)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,15 +38,15 @@ Property of [apis/filesystem/FileSystemSync](/apis/filesystem/FileSystemSync)[ap
 var result = FileSystemSync.name;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 DOMString
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

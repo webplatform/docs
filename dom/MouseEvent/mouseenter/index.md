@@ -13,11 +13,11 @@ tags:
 uri: dom/MouseEvent/mouseenter
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fires when the user moves the mouse pointer into the object.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -71,7 +71,7 @@ none
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The event handler bigImg() is triggered when the user moves the mouse pointer over the image. The event handler normalImg() is triggered when the mouse pointer is moved out of the image.
 
@@ -112,15 +112,15 @@ MSDN Example using the mouseover event attribute.
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onmouseoverEX.htm)
 
-## <span>Usage</span>
+## Usage
 
      Use to perform an action when the mouse cursor is moved over an element.
 
 Alternatively, for CSS2 compliant userAgents use the :hover pseudo class.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The event fires only if the mouse pointer is outside the boundaries of the object and the user moves the mouse pointer inside the boundaries of the object. If the mouse pointer is currently inside the boundaries of the object, for the event to fire, the user must move the mouse pointer outside the boundaries of the object and then back inside the boundaries of the object. Unlike the [**onmouseover**](/dom/MouseEvent/mouseover) event, the **onmouseenter** event does not bubble. In other words, the **onmouseenter** event does not fire when the user moves the mouse pointer over elements contained by the object, whereas **onmouseover** does fire. Initiates any action associated with this event. To invoke this event, do one of the following:
 
@@ -153,13 +153,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

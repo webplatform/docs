@@ -17,15 +17,15 @@ todo_broken_links:
 uri: css/selectors/attributes/existence
 
 ---
-## <span>Summary</span>
+## Summary
 
 Allows to select tags that has an attributes. While it can match the class and the id selector, its specificity value is lower.
 
-### <span>Syntax</span>
+### Syntax
 
 ` [sel=att] {...}`
 
-### <span>Parameters</span>
+### Parameters
 
 -   *sel*: The name of a tag property
 -   *att*: Must be either an Identifier or a String.
@@ -36,7 +36,7 @@ Allows to select tags that has an attributes. While it can match the class and t
     -   `~=` Contains (with word boundary),
     -   `*=` Contains (without word boundary)
 
-## <span>Examples</span>
+## Examples
 
 The following style rule selects any element with an "attr" attribute whose value is exactly "Value".
 
@@ -55,16 +55,16 @@ The following style rule selects any element with an "attr" attribute whose valu
 </html>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Selectors Level 3](http://www.w3.org/TR/css3-selectors/#attribute-selectors)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Attributes</span>
+#### CSS Attributes
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -102,7 +102,7 @@ The following style rule selects any element with an "attr" attribute whose valu
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 

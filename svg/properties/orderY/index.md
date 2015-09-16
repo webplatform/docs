@@ -11,9 +11,9 @@ tags:
 uri: svg/properties/orderY
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 For JavaScript, the **orderY** property indicates the number of rows in the [**kernelMatrix**](/svg/properties/kernelMatrix). For HTML, the **order** attribute is used to set both *orderX* and *orderY*, as described next.
 
@@ -23,14 +23,14 @@ A typical value is **order="3"**. It is recommended that only small values (such
 
 If the **order** attribute is not specified, the effect is as if a value of 3 were specified.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.12
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFEConvolveMatrixElement**](/svg/elements/feConvolveMatrix)

@@ -18,11 +18,11 @@ todo_broken_links:
 uri: html/elements/element
 
 ---
-## <span>Summary</span>
+## Summary
 
 The element element defines a custom element. Note: This element has been deprecated, and is not supported by any browser. See document.register for the standard custom element definition.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElementElement](/w/index.php?title=dom/HTMLElementElement&action=edit&redlink=1)
@@ -33,11 +33,11 @@ Custom elements can define presentation aspects like decorators. Unlike a decora
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Web Components</span>
+#### Web Components
 
 -   [register](/dom/Document/register)
 
@@ -53,6 +53,6 @@ Custom elements can define presentation aspects like decorators. Unlike a decora
 
 -   [template](/html/elements/template)
 
-### <span>External resources</span>
+### External resources
 
 <https://dvcs.w3.org/hg/webcomponents/raw-file/tip/explainer/index.html#custom-element-section>

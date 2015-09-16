@@ -17,13 +17,13 @@ tags:
 uri: dom/PointerEvent/isPrimary
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns whether the pointer associated with the event is the primary pointer for the current mouse, touch, or pen interaction.
 
 Property of [dom/PointerEvent](/dom/PointerEvent)[dom/PointerEvent](/dom/PointerEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -33,7 +33,7 @@ var result = event.isPrimary;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      In a multi-pointer (e.g. multi-touch) scenario, the primary pointer is used to identify a master pointer amongst the set of active pointers. This pointer is the one that will produce compatibility mouse events. It is also useful when single-pointer interaction is desired by an author.
 
@@ -43,11 +43,11 @@ When dispatching a pointer event, a pointer is considered primary if:
 -   The pointer represents *primary touch input*, where its pointerdown event was dispatched when no other active pointers representing touch input existed.
 -   The pointer represents *primary pen input*, where its pointerdown event was dispatched when no other active pointers representing pen input existed.
 
-## <span>Notes</span>
+## Notes
 
 In some platforms, the primary pointer is determined using all active pointers on the device including those not targeted at the user agent (e.g. in another application). This means it is possible for the user agent to fire pointer events in which no pointer is marked as the primary pointer. For example, if the first touch interaction is targeted outside the user agent and a secondary (multi-touch) touch interaction is targeted inside the user agent, then the user agent fires pointer events for the second contact with a value of false for isPrimary.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Pointer Events](http://www.w3.org/TR/pointerevents)
 :   Working Draft

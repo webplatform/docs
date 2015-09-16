@@ -23,11 +23,11 @@ tags:
 uri: css/properties/padding-bottom
 
 ---
-## <span>Summary</span>
+## Summary
 
 The padding-bottom CSS property of an element sets the padding space required on the bottom of an element. The padding area is the space between the content of the element and its border. Contrary to margin-bottom values, negative values of padding-bottom are invalid.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
@@ -53,12 +53,12 @@ Animatable
 Percentages
 :   [[CSS percentages::refer to [width](/css/properties/width) of closest block-level ancestor]]
 
-## <span>Syntax</span>
+## Syntax
 
 -   `padding-bottom: length`
 -   `padding-bottom: percentage`
 
-## <span>Values</span>
+## Values
 
 length
 :   Specifies a positive fixed distance. See [length](/css/data_types/length) for details.
@@ -66,7 +66,7 @@ length
 percentage
 :   Calculated using the dimensions of the containing block or element.
 
-## <span>Examples</span>
+## Examples
 
 The following examples use the `padding-bottom` property to change the [padding](/css/properties/padding) of the elements.
 
@@ -82,7 +82,7 @@ td { padding-bottom: 30px; }
 
 [View live example](http://code.webplatform.org/gist/6948398)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS basic box model](http://www.w3.org/TR/css3-box/)
 :   W3C Working Draft

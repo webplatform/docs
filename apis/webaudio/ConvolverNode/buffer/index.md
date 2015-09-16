@@ -16,20 +16,20 @@ tags:
 uri: apis/webaudio/ConvolverNode/buffer
 
 ---
-## <span>Summary</span>
+## Summary
 
 A mono, stereo, or 4-channel AudioBuffer containing the (possibly multi-channel) impulse response used by the ConvolverNode. At the time when this attribute is set, the buffer and the state of the normalize attribute will be used to configure the ConvolverNode with this impulse response having the given normalization.
 
 Property of [apis/webaudio/ConvolverNode](/apis/webaudio/ConvolverNode)[apis/webaudio/ConvolverNode](/apis/webaudio/ConvolverNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = ConvolverNode.buffer;
 ConvolverNode.buffer = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -37,7 +37,7 @@ var convolver = audioCtx.createConvolver();
 convolver.buffer = myAudioBuffer;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

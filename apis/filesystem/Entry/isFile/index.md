@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/Entry/isFile
 
 ---
-## <span>Summary</span>
+## Summary
 
 True if the Entry is a file.
 
@@ -30,7 +30,7 @@ True if the Entry is a file.
 
 Property of [apis/filesystem/Entry](/apis/filesystem/Entry)[apis/filesystem/Entry](/apis/filesystem/Entry)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [apis/filesystem/Entry](/apis/filesystem/Entry)[apis/filesystem/Entr
 var result = Entry.isFile;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

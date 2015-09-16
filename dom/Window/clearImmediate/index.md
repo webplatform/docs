@@ -21,32 +21,32 @@ tags:
 uri: dom/Window/clearImmediate
 
 ---
-## <span>Summary</span>
+## Summary
 
 Cancels a function request created with setImmediate.
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  window.clearImmediate(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>handle</span>
+### handle
 
  Data-type
 :   Number
 
  A handle to an immediate callback request, which is the value returned by [**setImmediate**](/dom/Window/setImmediate).
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var immediateID = setImmediate(function () {
@@ -58,12 +58,12 @@ document.getElementById("button").addEventListener('click',function () {
 }, false);
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Efficient Script Yielding](http://go.microsoft.com/fwlink/p/?linkid=247522)

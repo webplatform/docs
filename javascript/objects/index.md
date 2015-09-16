@@ -10,13 +10,13 @@ tags:
 uri: javascript/objects
 
 ---
-## <span>Summary</span>
+## Summary
 
 The following table lists JavaScript Objects.
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Objects</span>
+## Objects
 
 |Language Element|Description|
 |:---------------|:----------|
@@ -45,7 +45,7 @@ The following table lists JavaScript Objects.
 |[Uint16Array](/javascript/Uint16Array)|A typed array of 16-bit unsigned integer values.|
 |[Uint32Array](/javascript/Uint32Array)|A typed array of 32-bit unsigned integer values.|
 
-## <span>Related Reference</span>
+## Related Reference
 
 [HTML and DHTML Reference](http://go.microsoft.com/fwlink/?LinkId=148095)
 

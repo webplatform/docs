@@ -22,13 +22,13 @@ tags:
 uri: dom/CustomEvent/detail
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves additional information about an event.
 
 Property of [dom/CustomEvent](/dom/CustomEvent)[dom/CustomEvent](/dom/CustomEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [dom/CustomEvent](/dom/CustomEvent)[dom/CustomEvent](/dom/CustomEven
 var eventDetails = event.detail;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 The content of this property is user-defined. It can be an integer, date, array, or other object type.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function getCustomEventDetail(e) {
@@ -52,11 +52,11 @@ return customEventDetail;
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use this property to retrieve any available additional information about this developer-generated custom event. Note: It may be empty.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

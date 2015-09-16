@@ -20,11 +20,11 @@ tags:
 uri: css/properties/text-emphasis-style
 
 ---
-## <span>Summary</span>
+## Summary
 
 The text-emphasis-style property applies special emphasis marks to an element's text.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -50,7 +50,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-emphasis-style: <string>`
 -   `text-emphasis-style: circle`
@@ -62,7 +62,7 @@ Percentages
 -   `text-emphasis-style: sesame`
 -   `text-emphasis-style: triangle`
 
-## <span>Values</span>
+## Values
 
 none
 :   No emphasis marks.
@@ -91,7 +91,7 @@ sesame
 \<string\>
 :   Display the given string as marks. Authors should not specify more than one character in \<string\>. The UA may truncate or ignore strings consisting of more than one grapheme cluster.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 p {
@@ -109,7 +109,7 @@ p {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Decoration Module Level 3](http://www.w3.org/TR/css-text-decor-3/)
 :   W3C Candidate Recommendation

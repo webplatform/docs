@@ -10,11 +10,11 @@ tags:
 uri: javascript/DataView/setUint16
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the Uint16 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be set at any offset.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -32,7 +32,7 @@ Sets the Uint16 value at the specified byte offset from the start of the view. T
 **littleEndian**
 :   Optional. If false or undefined, a big-endian value should be written, otherwise a little-endian value should be written.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to set the first Uint16 in the DataView.
 
@@ -51,7 +51,7 @@ var req = new XMLHttpRequest();
      }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 These methods raise an exception if they would write beyond the end of the view.
 

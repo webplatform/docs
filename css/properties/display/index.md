@@ -83,11 +83,11 @@ todo_broken_links:
 uri: css/properties/display
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property specifies the type of rendering box used for an element. It is a shorthand property for many other display properties.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `inline`
@@ -113,7 +113,7 @@ Animatable
 Percentages
 :   See individual properties.
 
-## <span>Syntax</span>
+## Syntax
 
 -   `display: block`
 -   `display: flex`
@@ -128,7 +128,7 @@ Percentages
 -   `display: none`
 -   `display: table, inline-table, table-row-group, table-column, table-column-group, table-header-group, table-footer-group, table-row, table-cell, table-caption`
 
-## <span>Values</span>
+## Values
 
 inline
 :   Generates one or more inline element boxes.
@@ -166,12 +166,12 @@ inherit
 table, inline-table, table-row-group, table-column, table-column-group, table-header-group, table-footer-group, table-row, table-cell, table-caption
 :   These values cause an element to behave like a table element, subject to certain restrictions. See the [W3C tables specification](http://www.w3.org/TR/CSS2/tables.html).
 
-## <span>Examples</span>
+## Examples
 
 Change a `span` element from its initial display `inline` to display as block-level element.
 
 ``` html
-<span>Some example text</span>
+Some example text
 <style>
   span {
     display: block;
@@ -244,7 +244,7 @@ Stack generously sized links in mobile interface to extend the touch zone to the
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 **Computed value and relationship between **display**, [position](/css/properties/position), and [float](/css/properties/float)**
 
@@ -266,7 +266,7 @@ table-caption, inline-block|block|
 **Table-designated elements**
  The Cascading Style Sheets (CSS) table display model does not require explicit elements to correspond with the HTML tags. For example, an element styled as `display: table-cell` does not need to be contained within a block that is styled `display: table-row` to be styled correctly. Implicit table elements are created as necessary in an attempt to make the document valid. Contrast this behavior to the traditional HTML table model, where table elements are implicitly closed early to avoid unexpected nesting.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Display Module Level 3](http://dev.w3.org/csswg/css-display-3/)
 :   Editor's Draft

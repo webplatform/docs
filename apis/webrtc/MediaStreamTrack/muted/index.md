@@ -12,11 +12,11 @@ tags:
 uri: apis/webrtc/MediaStreamTrack/muted
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MediaStreamTrack object's source is temporarily unable to provide data.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

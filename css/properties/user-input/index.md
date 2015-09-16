@@ -18,11 +18,11 @@ tags:
 uri: css/properties/user-input
 
 ---
-## <span>Summary</span>
+## Summary
 
 For inputing user content
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `null`
@@ -45,20 +45,20 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 text
 :   Any alpha numeric data can be entered, usually in text boxes, or address fields.
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Audio</span>
+#### Audio
 
 -   [audio-video](/apis/audio-video)
 
@@ -80,7 +80,7 @@ text
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -160,7 +160,7 @@ text
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-#### <span>Touch</span>
+#### Touch
 
 -   [Touch Input Considerations](/concepts/mobile_web/touch)
 

@@ -13,7 +13,7 @@ uri: dom/FocusEvent/focusin
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -69,9 +69,9 @@ Default action
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Each document may have up to one active element. Set the active element with the [**setActive**](/dom/HTMLElement/setActive) or [**focus**](/dom/FocusEvent/focus) methods. Using the **setActive** method has no effect on document focus. Using the **focus** method on an individual element causes the element to gain focus and become the active element, and this causes **onfocusin** to fire for this active element. Using the [**focus**](/dom/FocusEvent/focus) method on a document that does not have the focus moves the document to the front of the display. Additionally, the document's active element gains focus, and this causes **onfocusin** to fire for this active element. For a given display, only one element has focus at any given time. Striking a key directly affects only the element with focus. Events fired by that keystroke may be scripted to affect other documents and child elements. With Microsoft Internet Explorer 5.5 and later, focus on a [**Document**](/dom/Document), and the [**active element**](/dom/Document/activeElement) of a **document** can be managed separately. Use the **onfocusin** event to manage formatting changes when an element gains focus. Change focus from the **event**.**srcElement** to the **event**.**toElement**. To invoke this event, do one of the following:
 
@@ -80,13 +80,13 @@ Each document may have up to one active element. Set the active element with the
 -   Use the keyboard to move focus from the active element to another element.
 -   Invoke the [**focus**](/dom/FocusEvent/focus) method on an element, when the element is not the active element.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

@@ -15,23 +15,23 @@ tags:
 uri: css/cssom/runtimeStyle
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets and retrieves the format and style of an object.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 This example sets a value on the **runtimeStyle** object to affect the [**currentStyle**](/css/cssom/currentStyle) object, but not the [**style**](/css/cssom/style) object.
 
@@ -55,9 +55,9 @@ This is a demonstration DIV.
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/runtimeStyle.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **runtimeStyle** object sets and retrieves the format and style of an object, and overrides existing formats and styles in the process. Other than having precedence over the [**style**](/css/cssom/style) object and not persisting, the **runtimeStyle** object is equivalent to the **style** object. To change or clear multiple style properties simultaneously, use this object with the [**cssText**](/css/cssom/styleSheet/cssText) property. For example, to change the font color and background color of a **DIV** element, you could use the following code:
 
@@ -66,8 +66,8 @@ The **runtimeStyle** object sets and retrieves the format and style of an object
 
 Windows Internet Explorer 8 or later. The behavior of [**setAttribute**](/dom/Element/setAttribute) method depends on the current document compatibility mode. For more information, see Attribute Differences in Internet Explorer 8.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `currentStyle`

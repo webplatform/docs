@@ -14,16 +14,16 @@ tags:
 uri: svg/elements/desc
 
 ---
-## <span>Summary</span>
+## Summary
 
 The desc element (&lt;desc&gt;) provides a human readable description for container elements and graphics elements.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, the **desc** element is used to define a description of an element. This element can be read programatically to analyze SVG structure.
 
@@ -49,17 +49,17 @@ The element will look like this:
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.5
 
-### <span>Members</span>
+### Members
 
 The **SVGDescElement** object has these events:
 
@@ -76,7 +76,7 @@ The **SVGDescElement** object has these properties:
 -   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [SVG 1.1](http://www.w3.org/TR/SVG/struct.html#DescriptionAndTitleElements)
 :   W3C Recommendation

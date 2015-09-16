@@ -10,11 +10,11 @@ tags:
 uri: css/cssom
 
 ---
-## <span>Summary</span>
+## Summary
 
 cssom (CSS Object Model) defines APIs for Media Queries, Selectors, and of course CSS itself. APIs include generic parsing and serialization rules.
 
-## <span>Subpages</span>
+## Subpages
 
 <table>
 <col width="33%" />

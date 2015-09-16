@@ -22,13 +22,13 @@ tags:
 uri: apis/file/FileList/length
 
 ---
-## <span>Summary</span>
+## Summary
 
 length returns the number of files in the FileList object. If there are no files, this attribute must return 0.
 
 Property of [apis/file/FileList](/apis/file/FileList)[apis/file/FileList](/apis/file/FileList)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,11 +36,11 @@ Property of [apis/file/FileList](/apis/file/FileList)[apis/file/FileList](/apis/
 var result = FileList.length;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 This example lets you select one or more files, then uses the filelist length to report each filelist item's name and last modified date/time.
 
@@ -60,11 +60,11 @@ function shownd() {
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 Returns the number of files that are selected and available on the [**FileList**](/apis/file/FileList) object. This value can be greater than or equal to 1 if multiple file selection is enabled (typically via the `multiple` attribute on the `input` element). If no files have been selected, 0 is returned.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft

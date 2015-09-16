@@ -25,14 +25,14 @@ uri: dom/KeyboardEvent/shiftLeft
 
 Property of [dom/KeyboardEvent](/dom/KeyboardEvent)[dom/KeyboardEvent](/dom/KeyboardEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.shiftLeft;
 element.shiftLeft = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **shiftLeft** property to indicate when the user presses the left or right SHIFT keys.
 
@@ -87,10 +87,10 @@ function ShiftUp() {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/starLeft.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The [Document](/dom/Document) must have [**focus**](/dom/HTMLElement/focus) for this property to return true.
 
-### <span>Syntax</span>
+### Syntax

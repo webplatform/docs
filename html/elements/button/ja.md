@@ -30,11 +30,11 @@ todo_broken_links:
 uri: html/elements/button/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 button要素はクリック可能なボタンを表示します。
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLButtonElement](/dom/HTMLButtonElement)
@@ -43,7 +43,7 @@ button要素ではボタンの中にテキストや画像を設置すること�
 
  デフォルトではボタンをクリックすることで、[**form**](/w/index.php?title=html/elements/form/ja&action=edit&redlink=1)のデータをサブミットします。type属性を変更することでボタンがクリックされた際の挙動を変更できます。
 
-### <span>属性(HTML 4)</span>
+### 属性(HTML 4)
 
 name
 :   ボタンの名前です。これによってformをサブミットしたボタンを識別することができます。
@@ -59,7 +59,7 @@ value
 disabled
 :   このBooleanの属性は、ユーザにボタンを操作できなくするためのものです。特にこの属性を指定しない場合、button要素は親要素の設定を継承します。例えば、**fieldset**の中の要素にdisabled属性を設定したものがなければ、ボタンは有効となります。disabledを指定したボタンはクリックすることができません。
 
-### <span>追加属性(HTML 5勧告候補)</span>
+### 追加属性(HTML 5勧告候補)
 
 autofocus
 :   この属性を"true"にすると、ユーザが別の入力をしない限り、ページをロードしたあとすぐにボタンがフォーカスされます。 ドキュメント内のform関連要素の中で1つだけがこの属性を指定できます。
@@ -84,7 +84,7 @@ formtarget
 
 これらの属性は`name`属性を除き、デフォルト値を持っているため、記載せずに利用することができます。
 
-## <span>Examples</span>
+## Examples
 
 この例は`<button>`要素を使って、送信もリセットもしないクリック可能なボタンを表示しています。
 
@@ -118,7 +118,7 @@ formtarget
 
 [View live example](http://code.webplatform.org/gist/c579515bcd4378bfd634)
 
-## <span>Usage</span>
+## Usage
 
      一般的に、button要素はいつでもクリック可能であるべきです。
 
@@ -128,7 +128,7 @@ formtarget
 
 サブミットボタンを装飾するときは\<button\>要素を使うよりもtype属性に`submit`を指定した[**input**](/w/index.php?title=html/elements/input/ja&action=edit&redlink=1)要素のほうが簡単に実装することができます。
 
-## <span>Notes</span>
+## Notes
 
 type属性のデフォルト値は`type`であるため、特に他の`type`を使用する必要がない場合は、`type`を省略することができます。過去のブラウザでは`type`の値がそれぞれ違いました。
 
@@ -136,7 +136,7 @@ Android用のFirefoxではデフォルトで`background-image`がセットされ
 
 Firefoxは他のブラウザと異なり、デフォルトでbuttonの[disabledの状態がページ読み込みを挟んでも保持されます](http://stackoverflow.com/questions/5985839/bug-with-firefox-disabled-attribute-of-input-not-resetting-when-refreshing)。 autocomplete属性をoffにするとこの機能を無効にすることができます。[Mozilla Bug \#654072](https://bugzilla.mozilla.org/show_bug.cgi?id=654072)をご覧ください。
 
-### <span>クリックとフォーカス</span>
+### クリックとフォーカス
 
 ブラウザ/OS別　**button**をクリックした際、フォーカスが切り替わるかどうか
 
@@ -157,7 +157,7 @@ buttonをクリックしたときフォーカスされますか？
 |Safari Mobile|No (even with a [`tabindex`](/html/attributes/tabIndex))|N/A|
 |Chrome 35| ???|Yes|
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-button-element)
 :   W3C Working Draft
@@ -168,11 +168,11 @@ buttonをクリックしたときフォーカスされますか？
 [HTML 4.01](http://www.w3.org/TR/html401/interact/forms.html#edef-BUTTON)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Document Structure</span>
+#### Document Structure
 
 -   [button](/html/elements/button)
 
@@ -190,7 +190,7 @@ buttonをクリックしたときフォーカスされますか？
 
 -   [section](/html/elements/section)
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -330,7 +330,7 @@ buttonをクリックしたときフォーカスされますか？
 
 -   [time](/html/elements/time)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [**input type="button"**](/html/elements/input/type/button)
 -   [**input type="submit"**](/html/elements/input/type/submit)

@@ -20,13 +20,13 @@ tags:
 uri: css/properties/grid-definition-columns
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property can specify the length, a percentage of the grid container’s size, a measurement of the contents occupying the column, or a fraction of the free space in the grid. You can also specify a range using minmax(), which combines any of these measurements to define a min and max size for the column.
 
 As well as referring to grid lines by their numerical index, you can also name lines. Names can make the grid-placement properties easier to understand and maintain. Lines can have multiple names, such as 'first' and 'header'.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -52,12 +52,12 @@ Animatable
 Percentages
 :   n/a
 
-## <span>Syntax</span>
+## Syntax
 
 -   `grid-definition-columns: <track-list>`
 -   `grid-definition-columns: none`
 
-## <span>Values</span>
+## Values
 
 none
 :   No initial grid; any columns are implicitly generated with their size determined by the ‘grid-auto-columns’ property.
@@ -81,7 +81,7 @@ Where the values are described as:
 -   minmax(min, max): Defines a size range greater than or equal to min and less than or equal to max. If max \< min, then max is ignored and ‘minmax(min,max)’ is treated as min.
 -   auto: Computes to ‘minmax(min-content, max-content)’.
 
-## <span>Examples</span>
+## Examples
 
 We define four values corresponding to each columns of our grid. First column will be exactly 100 pixels, second column will use flex units and will take one 'fr' of the remaining space but because of the third columns which takes up two 'fr'. That means the remaining space will divide on three, and second column will take 1/3 of this, and third column will take 2/3.
 
@@ -120,7 +120,7 @@ At last, \`repeat\` function can be used to create a repeating sequence.
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Grid Layout, Track Sizing: the ‘grid-definition-rows’ and ‘grid-definition-columns’ properties](http://dev.w3.org/csswg/css-grid/#track-sizing)
 :   W3C Editor's Draft
@@ -128,11 +128,11 @@ At last, \`repeat\` function can be used to create a repeating sequence.
 [CSS Grid Layout, Track Sizing: the ‘grid-definition-rows’ and ‘grid-definition-columns’ properties](http://www.w3.org/TR/css3-grid-layout/#track-sizing)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Layout</span>
+#### CSS Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -176,7 +176,7 @@ At last, \`repeat\` function can be used to create a repeating sequence.
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### <span>Grid Layout</span>
+#### Grid Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -194,6 +194,6 @@ At last, \`repeat\` function can be used to create a repeating sequence.
 
 -   [height](/css/properties/height)
 
-### <span>External resources</span>
+### External resources
 
 -   <http://css-tricks.com/almanac/properties/g/grid/>

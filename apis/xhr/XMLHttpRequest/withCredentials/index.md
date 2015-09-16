@@ -22,26 +22,26 @@ tags:
 uri: apis/xhr/XMLHttpRequest/withCredentials
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns or sets whether cross-site Access-Control requests should be made using credentials such as cookies or authorization headers.
 
 Property of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.withCredentials;
 element.withCredentials = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Default is *false*.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var xhr = new XMLHttpRequest();
@@ -50,11 +50,11 @@ xhr.withCredentials = true;
 xhr.send();
 ```
 
-## <span>Notes</span>
+## Notes
 
 withCredentials cannot be set after the XMLHttpRequest's [**send()**](/apis/xhr/XMLHttpRequest/send) method is called.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft

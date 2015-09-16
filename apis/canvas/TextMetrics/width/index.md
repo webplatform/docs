@@ -22,13 +22,13 @@ tags:
 uri: apis/canvas/TextMetrics/width
 
 ---
-## <span>Summary</span>
+## Summary
 
 The width of an inline text box, in CSS pixels.
 
 Property of [apis/canvas/TextMetrics](/apis/canvas/TextMetrics)[apis/canvas/TextMetrics](/apis/canvas/TextMetrics)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,11 +36,11 @@ Property of [apis/canvas/TextMetrics](/apis/canvas/TextMetrics)[apis/canvas/Text
 var result = TextMetrics.width;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
@@ -56,7 +56,7 @@ alert("width: " + mets.width);
 </script>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

@@ -19,32 +19,32 @@ tags:
 uri: dom/Window/clearTimeout
 
 ---
-## <span>Summary</span>
+## Summary
 
 Cancels a time-out that was set with the setTimeout method.
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  window.clearTimeout(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>timerID</span>
+### timerID
 
  Data-type
 :   Number
 
 **Integer** that specifies the time-out setting returned by a previous call to the [**setTimeout**](/dom/Window/setTimeout) method.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var alarm = {

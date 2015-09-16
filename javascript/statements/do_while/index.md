@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/statements/do while'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Executes a statement block once, and then repeats execution of the loop until a condition expression evaluates to false.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -28,7 +28,7 @@ Executes a statement block once, and then repeats execution of the loop until a 
 **expression**
 :   Required. An expression that can be coerced to Boolean true or false. If expression is true , the loop is executed again. If expression is false , the loop is terminated.
 
-## <span>Examples</span>
+## Examples
 
 In the following example, the statements in the do...while loop continue to execute as long as the variable `i` is less than 10.
 
@@ -54,15 +54,15 @@ var i = 10;
  // Output: 10
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 Unlike the while statement, a do...while loop is executed one time before the conditional expression is evaluated.
 
 On any line in a do...while block, you can use the break statement to cause the program flow to exit the loop, or you can use the continue statement to go directly to the while expression.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [break Statement](/javascript/statements/break)
 -   [continue Statement](/javascript/statements/continue)

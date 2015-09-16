@@ -26,7 +26,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the **input type=text** element to create an empty text control that can contain 15 characters without requiring the user to scroll to read all of the text.
 
@@ -45,21 +45,21 @@ function detectEntry()
 </SCRIPT>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The purpose of the **value** property depends on the type of control as described in the following table. {
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 17.4
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `input`
 -   `input type=checkbox`

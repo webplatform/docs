@@ -32,7 +32,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 In this example, a text box is bound to the customer\_name field supplied by a data source object with an ID of customer. Because the text box is located within a data-bound [**table**](/html/elements/table), the text box is repeated to display each of the records in the data source. The **DATAPAGESIZE** attribute on the **table** limits the display to 10 records.
 
@@ -42,17 +42,17 @@ In this example, a text box is bound to the customer\_name field supplied by a d
 </table>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The [**firstPage**](/w/index.php?title=dom/methods/firstPage&action=edit&redlink=1) and [**lastPage**](/w/index.php?title=dom/methods/lastPage&action=edit&redlink=1) methods are used to navigate directly to the first and last pages of a databound table, respectively. The **nextPage** and [**previousPage**](/w/index.php?title=dom/methods/previousPage&action=edit&redlink=1) methods are used to navigate sequentially through the pages of a databound table.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `table`
 -   `Reference`

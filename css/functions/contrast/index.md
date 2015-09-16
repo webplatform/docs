@@ -13,7 +13,7 @@ tags:
 uri: css/functions/contrast
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adjusts the difference between light and dark values, for use by the filter property. A value of 100% or a decimal value of 1 leaves the image as is, while 0 results in black. Increasing the value past 1 or 100% produces more dramatically stratified areas of light and dark.
 
@@ -24,7 +24,7 @@ Adjusts the difference between light and dark values, for use by the filter prop
 
   ![f19-jellybeans.jpg](/assets/public/b/b5/f19-jellybeans.jpg)![f20-jellybeancontrast.jpg](/assets/public/a/a5/f20-jellybeancontrast.jpg)
 
-## <span>Examples</span>
+## Examples
 
 The following example shows the difference between three images, the first has the default contrast, the second one a lower contrast and the third a higher:
 
@@ -59,7 +59,7 @@ The following example shows the difference between three images, the first has t
 
 [View live example](http://codepen.io/pverbeek/pen/xzBlg)
 
-## <span>Notes</span>
+## Notes
 
 The CSS filter corresponds to this SVG filter definition, based on a variable *amount* passed to the function:
 
@@ -73,7 +73,7 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 </filter>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#)
 :   Editor's Draft
@@ -81,11 +81,11 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 
@@ -169,7 +169,7 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### <span>External resources</span>
+### External resources
 
 -   [Adobe CSS FilterLab](http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/)
 -   [Interactive demonstration](http://html5-demos.appspot.com/static/css/filters/index.html)

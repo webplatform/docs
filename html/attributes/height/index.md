@@ -17,7 +17,7 @@ tags:
 uri: html/attributes/height
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the height of the certain content elements in pixels.
 
@@ -39,7 +39,7 @@ If a height attribute is set, but no width, the image will scale to preserve its
 
 Height values must be non-negative integers.
 
-## <span>Examples</span>
+## Examples
 
 An image with an explicit height and width set.
 
@@ -49,11 +49,11 @@ An image with an explicit height and width set.
 
 [View live example](http://code.webplatform.org/gist/7283238)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -193,7 +193,7 @@ An image with an explicit height and width set.
 
 -   [time](/html/elements/time)
 
-#### <span>Multimedia</span>
+#### Multimedia
 
 -   [Track ended](/apis/MediaStream/ended)
 
@@ -215,7 +215,7 @@ An image with an explicit height and width set.
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-#### <span>Visual Effects</span>
+#### Visual Effects
 
 -   [color](/css/color)
 

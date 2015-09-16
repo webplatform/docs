@@ -23,7 +23,7 @@ uri: css/properties/ruby-overhang
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :
@@ -46,13 +46,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `ruby-overhang: auto`
 -   `ruby-overhang: none`
 -   `ruby-overhang: whitespace`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Default. Ruby text overhangs any other text adjacent to the base text.
@@ -63,7 +63,7 @@ whitespace
 none
 :   Ruby text overhangs only text adjacent to its base.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **ruby-overhang** attribute and the **ruby-overhang** property to set the overhang of the ruby text. It uses an inline style sheet to set the **ruby-overhang** attribute to **none**.
 
@@ -80,23 +80,23 @@ onclick="oRuby.style.rubyOverhang='whitespace';"
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rubyoverhang.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **ruby-overhang** property specifies the overhang of the ruby text defined by the **rt** object, and is set on the **ruby** object.
 
-### <span>Syntax</span>
+### Syntax
 
 `ruby-overhang: auto | whitespace | none`
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS3 Ruby Module](http://go.microsoft.com/fwlink/p/?linkid=203763), Section 4.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

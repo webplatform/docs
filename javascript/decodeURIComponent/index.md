@@ -10,17 +10,17 @@ tags:
 uri: javascript/decodeURIComponent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the unencoded version of an encoded component of a Uniform Resource Identifier (URI).
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     decodeURIComponent( encodedURIString )
 
-## <span>Examples</span>
+## Examples
 
 The following code first encodes and then decodes a URI.
 
@@ -37,7 +37,7 @@ var uriEncode = encodeURI ("http://www.Not a URL.com");
  // http://www.Not a URL.com
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required encodedURIString argument is a value representing an encoded URI component.
 
@@ -45,9 +45,9 @@ A URIComponent is part of a complete URI.
 
 If the encodedURIString is not valid, a URIError occurs.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [decodeURI Function](/javascript/decodeURI)
 -   [encodeURI Function](/javascript/encodeURI)

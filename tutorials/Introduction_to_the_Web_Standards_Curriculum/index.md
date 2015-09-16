@@ -6,13 +6,13 @@ tags:
 uri: 'tutorials/Introduction to the Web Standards Curriculum'
 
 ---
-## <span>Introduction</span>
+## Introduction
 
 All the authors who have contributed to this course are passionate about the Web, and big believers in open web standards. We all wanted to do our bit to help make the Web a better place, and I think this comes back to the issue of education, whether that’s teaching people how to collaborate and have more respect for one another, or teaching them how to make their web sites more cross-browser compatible and be accessible and usable by a diverse audience (for example people with disabilities, on slow connections, on mobile devices, etc.) Web standards are key to all of this, so we decided to put our time and energy into something that would help increase the adoption of web standards on the Web today and in the future.
 
 Welcome to Web Standards Curriculum, a course designed to give anyone a solid grounding in web design/development, no matter who they are — it is completely free to use, accessible, and assumes no previous knowledge. We are mainly aiming this at universities, as web standards teaching is lacking in many web-related university courses, but you should be able to get value from the course regardless of your age or position in life, as long as you have an interest in building web sites/applications the right way.
 
-## <span>Why web standards?</span>
+## Why web standards?
 
 Let's go briefly through the main reasons why it is such a good idea to adopt web standards in your web development work (these are expanded on in later articles). Using web standards and associated best practices confers the following benefits:
 
@@ -43,11 +43,11 @@ In the old days, people used to do things like:
 
 And the list goes on, including many other crimes against web development. The worst thing is that I say "in the old days" above, but the fact is that a lot of people are still doing things like this! Web development is a messy skill at the best of times, but bad practices like these just make it harder. Using web standards and best practices, as outlined in this course, is the best way to go.
 
-## <span>Article structure</span>
+## Article structure
 
 The course is composed of several articles; each article focuses on a specific microtopic, including background on the topic, essential theory, practical examples and walkthrough tutorials to follow, and exercise questions to test your knowledge.
 
-## <span>Who should use this course?</span>
+## Who should use this course?
 
 This course is aimed at pretty much anyone who wants to learn web standards–based web design from scratch. It is intended to take the reader from nothing more than a basic familiarity with browsing the Web to being competent with HTML, CSS and JavaScript, including cutting edge HTML5/CSS3 features, and having a good degree of knowledge of surrounding concepts such as information architecture, UX, mobile optimization/adaptive design and typography.
 
@@ -62,11 +62,11 @@ Who is it aimed at? It should be usable by anyone who wants to learn web design 
 
 We are not expecting people to pay to use this course — it is released on a Creative Commons license, so freely available to anyone who wants to make use of it, as long as they give us the proper attribution.
 
-## <span>Acknowledgements</span>
+## Acknowledgements
 
 The number of people who have helped with this course are too numerous to mention all by name, but you know who you are. We'd like to give you all our admiration and gratitude.
 
-## <span>Find out more</span>
+## Find out more
 
 We are constantly looking to improve this course, and get it adopted by as many people as possible. If you have any suggestions for how the course could be improved, any general comments to share, or want to talk to me about adopting it somewhere, then get in touch. You can ask questions or keep up to date with the latest happenings on the [W3C public evangelist mailing list](http://lists.w3.org/Archives/Public/public-evangelist/), or by e-mailing Chris Mills at cmills [at] opera [dot] com. Feel free also to post queries on the discussion page for each article (the "discussion" link at the top of each page), or make edits if you think you could improve it (the "edit" link at the top of each page). To find out about such contributions, read [Web Education moving forward — Opera WSC goes to the W3C!](http://my.opera.com/ODIN/blog/2011/07/15/web-education-moving-forward-opera-wsc-goes-to-the-w3c)
 

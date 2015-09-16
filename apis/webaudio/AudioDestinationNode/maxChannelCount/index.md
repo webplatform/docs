@@ -20,13 +20,13 @@ tags:
 uri: apis/webaudio/AudioDestinationNode/maxChannelCount
 
 ---
-## <span>Summary</span>
+## Summary
 
 The maximum number of channels that the physical hardware is capable of supporting. The AudioNode channelCount property can be set between 0 and this value, inclusive. A value of 0 indicates that the channel count may not be changed. Default is 2.
 
 Property of [apis/webaudio/AudioDestinationNode](/apis/webaudio/AudioDestinationNode)[apis/webaudio/AudioDestinationNode](/apis/webaudio/AudioDestinationNode)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,11 +34,11 @@ Property of [apis/webaudio/AudioDestinationNode](/apis/webaudio/AudioDestination
 var result = AudioDestinationNode.maxChannelCount;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -46,7 +46,7 @@ var myDestination = audioCtx.destination;
 mcc = myDestination.maxChannelCount;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

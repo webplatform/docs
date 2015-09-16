@@ -22,7 +22,7 @@ uri: css/cssom/properties/pageYOffset
 
 Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.pageYOffset;
@@ -31,23 +31,23 @@ element.pageYOffset = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When you scroll a document vertically, some content is moved outside the view of the display area. The **pageYOffset** property returns the difference between the first pixel in the content and the first pixel currently in view.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -193,7 +193,7 @@ When you scroll a document vertically, some content is moved outside the view of
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `window`
 -   `pageXOffset`

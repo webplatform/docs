@@ -21,32 +21,32 @@ tags:
 uri: css/cssom/stylesheet/removeRule
 
 ---
-## <span>Summary</span>
+## Summary
 
 Non standard. Removes a rule from a style sheet.
 
 Method of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  stylesheet.removeRule(index);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>index</span>
+### index
 
  Data-type
 :   Number
 
  The index value of the rule to be deleted from the style sheet. If an index is not provided, the first rule in the [**rules**](/css/cssom/rules) collection is removed.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **removeRule** method to delete a rule from the [**rules**](/css/cssom/rules) collection, which causes the text to reflow according to the new rules.
 
@@ -79,17 +79,17 @@ function removeTheRule() {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/removeRule.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The document does not automatically reflow when the rule is removed. To see the change, you must reflow the document. You can reflow the objects affected using a number of methods. For example, you can reflow the style change only on affected text by setting the text equal to itself. Alternately, you can reload the entire document using the [**reload**](/dom/Location/reload) method. When you use the **refresh** method on a table, its content is reflowed.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -235,7 +235,7 @@ The document does not automatically reflow when the rule is removed. To see the 
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `IHTMLStyleSheet`
 -   `styleSheet`

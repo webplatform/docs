@@ -22,13 +22,13 @@ tags:
 uri: apis/geolocation/PositionError/code
 
 ---
-## <span>Summary</span>
+## Summary
 
 The error code of the current PositionError.
 
 Property of [apis/geolocation/PositionError](/apis/geolocation/PositionError)[apis/geolocation/PositionError](/apis/geolocation/PositionError)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,7 +36,7 @@ Property of [apis/geolocation/PositionError](/apis/geolocation/PositionError)[ap
 var result = PositionError.code;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -46,13 +46,13 @@ Must be one of the following constant values:
 -   POSITION\_UNAVAILABLE (numeric value 2): The position of the device could not be determined. For instance, one or more of the location providers used in the location acquisition process reported an internal error that caused the process to fail entirely.
 -   TIMEOUT (numeric value 3): The length of time specified by the *timeout* property has elapsed before the implementation could successfully acquire a new **Position** object.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 alert(PositionError.code);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

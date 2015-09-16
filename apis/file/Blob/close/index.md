@@ -18,23 +18,23 @@ tags:
 uri: apis/file/Blob/close
 
 ---
-## <span>Summary</span>
+## Summary
 
 Releases the file lock for the associated file resource or frees the memory for the Blob object. After calling this method, performing addition operations on the Blob object fails and throws an exception.
 
 Method of [apis/file/Blob](/apis/file/Blob)[apis/file/Blob](/apis/file/Blob)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  Blob.close();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 This example creates a text blob object, reports its size, splits the blob object in half, reports that size, then closes the blob object.
 
@@ -51,7 +51,7 @@ blobj.close();
 </script>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft

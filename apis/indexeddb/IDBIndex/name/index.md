@@ -21,13 +21,13 @@ tags:
 uri: apis/indexeddb/IDBIndex/name
 
 ---
-## <span>Summary</span>
+## Summary
 
 The name of this index.
 
 Property of [apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)[apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,7 +35,7 @@ Property of [apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)[apis/indexeddb/I
 var result = element.name;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 

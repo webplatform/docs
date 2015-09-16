@@ -13,11 +13,11 @@ tags:
 uri: apis/audio-video/TrackEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 A TrackEvent object exposes (via its track attribute) the track to which an event relates.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -25,23 +25,23 @@ API Name
 [track](/apis/audio-video/TrackEvent/track)
 :   Returns the track object (TextTrack, AudioTrack, or VideoTrack) to which the event relates.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 The **onaddtrack** event listener must be added to the **video** object before the video source content is loaded.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

@@ -21,24 +21,24 @@ uri: dom/HTMLElement/self
 ---
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.self;
 element.self = value;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 You can use the property to explicitly refer to the current window or frame. To improve scripting efficiency, you also can use it to make implicit window references explicit.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `frame`
 -   `window`

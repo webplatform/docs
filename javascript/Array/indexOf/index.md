@@ -11,11 +11,11 @@ tags:
 uri: javascript/Array/indexOf
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the index of the first occurrence of a value in an array.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -27,11 +27,11 @@ Returns the index of the first occurrence of a value in an array.
 **fromIndex**
 :   Optional. The array index at which to begin the search. If fromIndex is omitted, the search starts at index 0.
 
-## <span>Return Value</span>
+## Return Value
 
 The index of the first occurrence of searchElement in the array, or -1 if searchElement is not found.
 
-## <span>Examples</span>
+## Examples
 
 The following examples illustrate the use of the **indexOf** method.
 
@@ -60,7 +60,7 @@ The following examples illustrate the use of the **indexOf** method.
  // Output: 3
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **indexOf** method searches an array for a specified value. The method returns the index of the first occurrence, or -1 if the specified value is not found.
 
@@ -70,14 +70,14 @@ The array elements are compared to the searchElement value by strict equality, s
 
 The optional fromIndex argument specifies the array index at which to begin the search. If fromIndex is greater than or equal to the array length, -1 is returned. If fromIndex is negative, the search starts at the array length plus fromIndex.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [JavaScript Methods](/javascript/methods)
 -   [Array Object](/javascript/Array)
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.14 Array.prototype.indexOf ( searchElement [ , fromIndex](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.14) )] ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

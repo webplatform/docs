@@ -18,7 +18,7 @@ tags:
 uri: apis/filesystem/LocalFileSystem/requestFileSystem
 
 ---
-## <span>Summary</span>
+## Summary
 
 Requests a file system where data should be stored. You access a sandboxed file system by requesting a LocalFileSystem object using this global method, window.requestFileSystem().
 
@@ -26,36 +26,36 @@ Requests a file system where data should be stored. You access a sandboxed file 
 
 Method of [apis/filesystem/LocalFileSystem](/apis/filesystem/LocalFileSystem)[apis/filesystem/LocalFileSystem](/apis/filesystem/LocalFileSystem)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  LocalFileSystem.requestFileSystem(type, size, successCallback, errorCallback);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>type</span>
+### type
 
  Data-type
 :   unsigned short
 
  Whether the filesystem requested should be persistent. Use one of TEMPORARY (0) or PERSISTENT (1).
 
-### <span>size</span>
+### size
 
  Data-type
 :   unsigned long
 
  How much storage space, in bytes, the application expects to need.
 
-### <span>successCallback</span>
+### successCallback
 
  Data-type
 :   String
 
  The callback that is called when the user agent provides a filesystem.
 
-### <span>errorCallback</span>
+### errorCallback
 
  Data-type
 :   String
@@ -64,13 +64,13 @@ Method of [apis/filesystem/LocalFileSystem](/apis/filesystem/LocalFileSystem)[ap
 
 The callback that is called when errors happen, or when the request to obtain the filesystem is denied.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

@@ -10,11 +10,11 @@ tags:
 uri: javascript/Function/call
 
 ---
-## <span>Summary</span>
+## Summary
 
 Calls a method of an object, substituting another object for the current object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Calls a method of an object, substituting another object for the current object.
 **arg1, arg2, , argN**
 :   Optional. A list of arguments to be passed to the method.
 
-## <span>Examples</span>
+## Examples
 
 The following code shows how to use the **call** method.
 
@@ -62,15 +62,15 @@ function callMe(arg1, arg2){
  // arguments: 5
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **call** method is used to call a method on behalf of another object. It allows you to change the this object of a function from the original context to the new object specified by thisObj.
 
 If thisObj is not supplied, the global object is used as thisObj.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Function Object](/javascript/Function)
 -   [apply Method (Function)](/javascript/Function/apply)

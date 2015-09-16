@@ -16,11 +16,11 @@ todo_broken_links:
 uri: dom/Event
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents an event.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -52,7 +52,7 @@ API Name
 [type](/dom/Event/type)
 :   Gets the name of an event.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -69,7 +69,7 @@ API Name
 [stopPropagation](/dom/Event/stopPropagation)
 :   Prevents propagation of an event beyond the current target.
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -152,7 +152,7 @@ API Name
 [finish](/dom/Event/finish)
 :
 
-## <span>Examples</span>
+## Examples
 
 This example uses [addEventListener](/dom/EventTarget/addEventListener) to listen to the **load** event in order to change the title of the page to indicate that the page is done loading. It uses [isTrusted](/dom/Event/isTrusted) to make sure the event was triggered by the user agent itself and not by some script.
 
@@ -174,14 +174,14 @@ function suppressPresses(e) {
 document.addEventListener("keydown", suppressPresses, false);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `BeforeUnloadEvent`
 -   `CompositionEvent`

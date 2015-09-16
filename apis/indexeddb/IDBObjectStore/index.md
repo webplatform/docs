@@ -12,11 +12,11 @@ tags:
 uri: apis/indexeddb/IDBObjectStore
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents an object store in a database.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -36,7 +36,7 @@ API Name
 [transaction](/apis/indexeddb/IDBObjectStore/transaction)
 :   Returns the transaction this object store belongs to.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -71,11 +71,11 @@ API Name
 [put](/apis/indexeddb/IDBObjectStore/put)
 :   Creates a structured clone of the value parameter.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

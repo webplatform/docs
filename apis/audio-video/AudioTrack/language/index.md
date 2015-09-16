@@ -25,13 +25,13 @@ tags:
 uri: apis/audio-video/AudioTrack/language
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the language of the given track, if known, or the empty string otherwise.
 
 Property of [apis/audio-video/AudioTrack](/apis/audio-video/AudioTrack)[apis/audio-video/AudioTrack](/apis/audio-video/AudioTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,11 +39,11 @@ Property of [apis/audio-video/AudioTrack](/apis/audio-video/AudioTrack)[apis/aud
 var result = AudioTrack.language;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 (function () {
@@ -89,16 +89,16 @@ Returns an object of type StringString
 
 [View live example](http://code.webplatform.org/gist/459f1a0ea9f70009b6fe)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Audio</span>
+#### Audio
 
 -   [audio-video](/apis/audio-video)
 
@@ -120,7 +120,7 @@ Returns an object of type StringString
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-#### <span>Video</span>
+#### Video
 
 -   [audio-video](/apis/audio-video)
 

@@ -22,7 +22,7 @@ uri: dom/HTMLElement/naturalHeight
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.;

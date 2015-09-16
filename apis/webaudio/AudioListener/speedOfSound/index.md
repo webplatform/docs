@@ -20,24 +20,24 @@ tags:
 uri: apis/webaudio/AudioListener/speedOfSound
 
 ---
-## <span>Summary</span>
+## Summary
 
 The speed of sound used for calculating doppler shift. The default value is 343.3 meters / second.
 
 Property of [apis/webaudio/AudioListener](/apis/webaudio/AudioListener)[apis/webaudio/AudioListener](/apis/webaudio/AudioListener)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = AudioListener.speedOfSound;
 AudioListener.speedOfSound = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -45,7 +45,7 @@ var myListener = audioCtx.listener;
 myListener.speedOfSound = 343.3;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

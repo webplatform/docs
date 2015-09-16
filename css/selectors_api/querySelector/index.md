@@ -21,34 +21,34 @@ tags:
 uri: 'css/selectors api/querySelector'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the first element that matches the provided selector.
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var element = element.querySelector(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>selectors</span>
+### selectors
 
  Data-type
 :   String
 
  A selector, or multiple selectors (separated by commas).
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 A DOM element node, or null if the search cannot find an element that matches the selector string.
 
-## <span>Examples</span>
+## Examples
 
 This example illustrates how the selectors in the selector string are scoped to the entire document. The variable `e` contains the span even though the provided selector references the P element, which is outside the scope of the starting DIV element.
 
@@ -60,7 +60,7 @@ This example illustrates how the selectors in the selector string are scoped to 
 <body>
     <p>
         <div id="apple">
-        <span>Some are sauce, some are pie.</span>
+        Some are sauce, some are pie.
         </div>
     </p>
 <script>
@@ -72,18 +72,18 @@ This example illustrates how the selectors in the selector string are scoped to 
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The document search order is depth-first. This method returns the first element found. To find all matching nodes, use [**querySelectorAll**](/css/selectors_api/querySelectorAll). The scope of the returned element node is limited to the descendants of the starting element node. If the starting element is [Document](/dom/Document), the search returns nodes from the entire document. This method does not return the starting element node. For example, `div.querySelector("p div")` will never return the **DIV** element that it starts with. The pseudo-class selectors [**:hover**](/css/selectors/pseudo-classes/:hover), [**:focus**](/css/selectors/pseudo-classes/:focus), and [**:active**](/css/selectors/pseudo-classes/:active) are supported. Selectors that contain [**:visited**](/css/selectors/pseudo-classes/:visited) or [**:link**](/css/selectors/pseudo-classes/:link) are ignored and no elements are returned. You can search namespaced elements using a selector syntax based on prefix instead of the namespaceURI, for example "nsPrefix \\: element", where "nsPrefix" is the prefix of a given element. Selectors are described in detail in Understanding CSS Selectors and [W3C Selectors](http://www.w3.org/TR/css3-selectors/). Calling this method with an unknown selector (due to the browser not implementing it, or due to typo and such) may throw an exception.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Selectors API Level 1](http://www.w3.org/TR/selectors-api)
 :   Proposed Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [Document](/dom/Document)
 -   [a](/html/elements/a)

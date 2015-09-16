@@ -67,39 +67,39 @@ todo_broken_links:
 uri: svg/es
 
 ---
-## <span>Resumen</span>
+## Resumen
 
 Imágenes vectoriales escalables o Scalable Vector Graphics (SVG) es un lenguaje de etiquetado XML para describir estructuralmente imágenes vectoriales bidimensionales. En esencia, SVG es a las imágenes lo que el [HTML](/html/es) es al texto. SVG es una [recomendación del W3C](http://www.w3.org/Graphics/SVG/) y está explícitamente diseñado para trabajar con otros estándares del W3C como el [HTML](/html/es), las [CSS](/css/es) o el [DOM](/dom/es).
 
-## <span>Explora nuestros documentos sobre SVG</span>
+## Explora nuestros documentos sobre SVG
 
-### <span>[Material didáctico de SVG](/svg/tutorials)</span>
+### [Material didáctico de SVG](/svg/tutorials)
 
 Tutoriales y artículos didácticos para que aprendas SVG desde la base.
 
-### <span>[Elementos](/svg/elements)</span>
+### [Elementos](/svg/elements)
 
 Una guía de referencia de SVG y elementos relacionados.
 
-### <span>[Atributos](/svg/attributes)</span>
+### [Atributos](/svg/attributes)
 
 Una guía de referencia de todos los atributos SVG disponibles.
 
-### <span>[Objetos](/svg/objects)</span>
+### [Objetos](/svg/objects)
 
 Una guía de referencia de todos los objetos SVG disponibles.
 
-### <span>[Métodos](/svg/methods)</span>
+### [Métodos](/svg/methods)
 
 Una guía de referencia de todos los métodos SVG disponibles.
 
-### <span>[Propiedades](/svg/properties)</span>
+### [Propiedades](/svg/properties)
 
 Una guía de referencia de todas las propiedades SVG disponibles.
 
  Nota: Si eres completamente nuevo en el desarrollo web, puede que quieras revisar [Desarrollo web para principiantes](/beginners/es).
 
-## <span>Antecedentes</span>
+## Antecedentes
 
 SVG se elaboró ​​por primera vez en 1998, en un intento por crear un lenguaje estandarizado de etiquetado de imágenes vectoriales a ser usado por los navegadores (tecnologías propietarias para ese momento incluían VML de Microsoft y PGML de Sun/Adobe.)
 
@@ -109,11 +109,11 @@ SVG se elaboró ​​por primera vez en 1998, en un intento por crear un lengua
 
 -   Trabajo actual y futuro: El desarrollo de SVG 1.2 ha sido abandonado en favor de la próxima especificación [SVG 2.0](http://www.w3.org/TR/SVG2/).
 
-## <span>Contribuir con el desarrollo de SVG</span>
+## Contribuir con el desarrollo de SVG
 
 SVG es desarrollado por el Grupo de Trabajo de SVG — visita la [página principal del Grupo de Trabajo de SVG](http://www.w3.org/Graphics/SVG/) para más detalles, incluyendo detalles de las listas de correo de feedback y contribución.
 
-## <span>Indice de todos los temas de SVG</span>
+## Indice de todos los temas de SVG
 
 <table>
 <col width="33%" />

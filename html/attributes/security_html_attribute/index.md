@@ -33,7 +33,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following example shows how to give the user the choice of loading a document into a restricted or unrestricted **iframe**. Note that the [**createElement**](/w/index.php?title=dom/methods/createElement&action=edit&redlink=1) method is used to create the two frames. The **createElement** method must use an HTML string for the parameter to specify the **SECURITY** attribute dynamically; after the **iframe** is parsed into the document, it cannot be altered.
 
@@ -136,9 +136,9 @@ function disableSubmitButtons(c)
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/security2.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The *sSecure* value must specify `restricted`. Because **SECURITY** is an attribute only, it must be defined in the **frame** element declaration. If a frame is restricted by the **SECURITY** attribute, all nested frames share the same restrictions. The **SECURITY** attribute applies the user security setting *Restricted Sites* to the source file of a **frame** or **iframe**. (Zone settings are found on the **Security** tab of the **Internet Options** dialog box.) By default, scripting is not enabled in the Restricted Sites zone. By changing the security settings of the zone, various negative results can occur, including, but are not limited to, allowing script to run. Independent of user security settings, the **SECURITY** attribute affects the behavior of hyperlinks and forms inside a restricted **frame** or **iframe** in the following two ways.
 
@@ -152,19 +152,19 @@ The *sSecure* value must specify `restricted`. Because **SECURITY** is an attrib
 
     **Security Warning:  ** If the restricted document contains script, the script can be executed when the page is opened in a new window, depending on the security settings of the zone. This is not a problem if the restricted **iframe** contains inline content, for example, there is no [**src**](/html/attributes/src_(iframe,_embed,_xml)) attribute; or if the content comes from a another more restricted domain, for example, contoso.com hosts a page from untrusted.com. However, when content from the same domain is hosted in a restricted frame, care should be taken to limit the action of hyperlinks and forms. Refer to the following example. You can access the properties and contents of a restricted **frame** or **iframe** through the Document Object Model (DOM) of the container document. **SECURITY** was introduced in Microsoft Internet Explorer 6
 
-    ### <span>Syntax</span>
+    ### Syntax
 
-    ### <span>Standards information</span>
+    ### Standards information
 
     There are no standards that apply here.
 
-    ### <span>Requirements</span>
+    ### Requirements
 
     {
 
-    ## <span>See also</span>
+    ## See also
 
-    ### <span>Related pages (MSDN)</span>
+    ### Related pages (MSDN)
 
     -   `frame`
     -   `iframe`

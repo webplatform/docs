@@ -23,32 +23,32 @@ tags:
 uri: apis/audio-video/TextTrackCueList/getCueById
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the first text track cue object (in text track cue order) with text track cue identifier matching id. Returns null if no cue has the given identifier or if the &quot;id&quot; argument is the empty string.
 
 Method of [apis/audio-video/TextTrackCueList](/apis/audio-video/TextTrackCueList)[apis/audio-video/TextTrackCueList](/apis/audio-video/TextTrackCueList)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = TextTrackCueList.getCueById(idString);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>idString</span>
+### idString
 
  Data-type
 :   Blob
 
 **id** for a specific [**TextTrackCue**](/apis/audio-video/TextTrackCue) .
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //. . .
@@ -59,7 +59,7 @@ var myCueObj = myCues.getCueById("CID3");
 //. . .
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

@@ -20,11 +20,11 @@ tags:
 uri: css/properties/mask-border-source
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies an image to be used as a mask. An image that is empty, fails to download, is non-existent, or cannot be displayed is ignored and does not mask the element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -50,12 +50,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `mask-border-source: <image>`
 -   `mask-border-source: none`
 
-## <span>Values</span>
+## Values
 
 none
 :   Counts as an image layer but does not mask the element.
@@ -63,7 +63,7 @@ none
 \<image\>
 :   A CSS image.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* none */
@@ -73,7 +73,7 @@ p { mask-border-source: none; }
 div { mask-border-source: url(#someMask); }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Masking Level 1](http://www.w3.org/TR/css-masking-1/)
 :   W3C Last Call Working Draft

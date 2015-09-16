@@ -11,20 +11,20 @@ tags:
 uri: 'css/media queries/media groups/continuous'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The continuous media group includes all media type that can present a document as a continuous stream of indeterminate length.
 
 The opposite of continuous media is [paged media](/css/media_queries/media_groups/paged).
 
-## <span>Applicable Media Types</span>
+## Applicable Media Types
 
 (none in the database)
 
-## <span>Applicable Media Features</span>
+## Applicable Media Features
 
 (none in the database)
 
-## <span>Applicable CSS properties</span>
+## Applicable CSS properties
 
 (none in the database)

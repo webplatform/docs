@@ -10,7 +10,7 @@ todo_broken_links:
 uri: 'html/html5/changed obsolete elements'
 
 ---
-## <span>Changed Elements</span>
+## Changed Elements
 
 There are 11 elements that were changed in HTML5:
 
@@ -26,7 +26,7 @@ There are 11 elements that were changed in HTML5:
 -   **[s](/html/elements/s):** struck text
 -   **[u](/html/elements/u):** offset text conventionally styled with an underline
 
-## <span>Obsolete Elements</span>
+## Obsolete Elements
 
 Several existing elements were declared obsolete in HTML5, though for the sake of completeness and handling legacy content, they are still defined in the specification. However, authors should not use these elements.
 

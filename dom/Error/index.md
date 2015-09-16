@@ -12,7 +12,7 @@ uri: dom/Error
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -23,7 +23,7 @@ API Name
 [lineno](/dom/Error/lineno)
 :
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -31,7 +31,7 @@ API Name
 [initErrorEvent](/dom/Error/initErrorEvent)
 :
 
-## <span>Events</span>
+## Events
 
 *No events.*
 

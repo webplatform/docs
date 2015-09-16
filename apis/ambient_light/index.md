@@ -9,12 +9,12 @@ tags:
 uri: 'apis/ambient light'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The Ambient Light API defines events that provide information about the ambient light level, as measured by a device's light sensor.
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 <http://www.w3.org/TR/ambient-light/>

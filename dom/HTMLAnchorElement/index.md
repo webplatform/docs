@@ -21,7 +21,7 @@ uri: dom/HTMLAnchorElement
 
 Inherits from [HTMLElement](/dom/HTMLElement)[HTMLElement](/dom/HTMLElement)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -29,7 +29,7 @@ API Name
 [text](/dom/HTMLAnchorElement/text)
 :   Legacy. Use [anchorElement.textContent](/dom/Node/textContent) instead. Functions identically to [Node.textContent](/dom/Node/textContent).
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -37,13 +37,13 @@ API Name
 [select](/dom/HTMLAnchorElement/select)
 :
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from HTMLElement</span>
+## Inherited from HTMLElement
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -831,7 +831,7 @@ API Name
 [text-anchor](/svg/attributes/text-anchor)
 :
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -890,6 +890,6 @@ API Name
 [toStaticHTML](/dom/HTMLElement/toStaticHTML)
 :
 
-### <span>Events</span>
+### Events
 
 *No events.*

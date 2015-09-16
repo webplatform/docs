@@ -29,11 +29,11 @@ todo_broken_links:
 uri: css/properties/text-indent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the amount of space horizontally that should be left on the first line of the text of an element. This horizontal spacing is at the beginning of the first line and is in respect to the left edge of the containing block box.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
@@ -59,7 +59,7 @@ Animatable
 Percentages
 :   refer to width of containing block
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-indent: <length/percentage> each-line`
 -   `text-indent: <length/percentage> each-line`
@@ -68,7 +68,7 @@ Percentages
 -   `text-indent: length`
 -   `text-indent: percentage`
 
-## <span>Values</span>
+## Values
 
 length
 :   Floating-point number, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px).
@@ -94,7 +94,7 @@ Currently an experimental feature.
 
 Currently an experimental feature.
 
-## <span>Examples</span>
+## Examples
 
 The following examples use the **text-indent** attribute and the **text-indent** property to indent the object's text.
 
@@ -144,15 +144,15 @@ window.addEventListener("load", initialize, false);
 
 [View live example](http://code.webplatform.org/gist/5658652)
 
-## <span>Usage</span>
+## Usage
 
      It is important to note that the keyword options (each-line and hanging) are experimental features; exercise caution when using them, as there is no guarantee of cross-browser compatibility.
 
-## <span>Notes</span>
+## Notes
 
 The property can be negative. An indent is not inserted in the middle of an object that was broken by another object, such as **br** in HTML.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/)
 :   Working Draft

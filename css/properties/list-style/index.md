@@ -22,11 +22,11 @@ tags:
 uri: css/properties/list-style
 
 ---
-## <span>Summary</span>
+## Summary
 
 Shorthand property that sets the list-style-type, list-style-position and list-style-image properties in one declaration.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `disc outside none`
@@ -49,12 +49,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `listStyle`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `list-style: inherit`
 -   `list-style: list-style-type list-style-position list-style-image`
 
-## <span>Values</span>
+## Values
 
 list-style-type list-style-position list-style-image
 :   The `list-style` property can contain up to three components:
@@ -66,7 +66,7 @@ list-style-type list-style-position list-style-image
 inherit
 :   Takes the same specified value as the property for the element's parent. (Acts similarly to other uses of inherit in CSS.)
 
-## <span>Examples</span>
+## Examples
 
 The following example contains multiple examples of using this property, omitting some of the values.
 
@@ -112,13 +112,13 @@ ul {
 
 [View live example](http://code.webplatform.org/gist/5598129)
 
-## <span>Usage</span>
+## Usage
 
      The list-style property is a composite property. You can omit one or more of the values. If both list-style-type and list-style-image are provided, and the value for this last one is different than none and links to an available image, the image takes precedence and it will be shown as the marker.
 
 When the `list-style-position` value is set to **outside** and the [**padding**](/css/properties/padding) or [**padding-left**](/css/properties/padding-left) is set to 0, the list marker won't be displayed.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Lists and Counters Module Level 3](http://dev.w3.org/csswg/css3-lists/#list-style)
 :   Working Draft
@@ -126,11 +126,11 @@ When the `list-style-position` value is set to **outside** and the [**padding**]
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/generate.html#propdef-list-style)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Attributes</span>
+#### CSS Attributes
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -168,7 +168,7 @@ When the `list-style-position` value is set to **outside** and the [**padding**]
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages</span>
+### Related pages
 
 -   `list-style-type`
 -   `list-style-position`

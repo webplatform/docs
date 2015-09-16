@@ -21,52 +21,52 @@ tags:
 uri: dom/EventTarget/removeEventListener
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes an event handler that the addEventListener method registered.
 
 Method of [dom/EventTarget](/dom/EventTarget)[dom/EventTarget](/dom/EventTarget)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  target.removeEventListener(type, listener, useCapture);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>type</span>
+### type
 
  Data-type
 :   String
 
  The event [**type**](/dom/Event/type) that the event handler is registered for.
 
-### <span>listener</span>
+### listener
 
  Data-type
 :   function
 
  The event handler function to remove.
 
-### <span>useCapture</span>
+### useCapture
 
  Data-type
 :   Boolean
 
  A **Boolean** value that specifies the event phase to remove the event handler from.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 If you register multiple identical event handlers for the same event type, the duplicate event handlers are discarded. You can remove only the first instance. If the arguments for **removeEventListener** do not identify a registered event handler, the call to **removeEventListener** has no effect.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

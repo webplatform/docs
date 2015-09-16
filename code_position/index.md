@@ -9,7 +9,7 @@ tags:
 uri: 'code position'
 
 ---
-## <span>code position</span>
+## code position
 
 The decimal or hexadecimal location of a character's bit encoding (number) within its character set.
 

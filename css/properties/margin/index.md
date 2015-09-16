@@ -24,11 +24,11 @@ todo_broken_links:
 uri: css/properties/margin
 
 ---
-## <span>Summary</span>
+## Summary
 
 The margin property is shorthand to allow you to set all four margins of an element at once. Its equivalent longhand properties are margin-top, margin-right, margin-bottom and margin-left. Negative values are also allowed.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `Depends on the particular element. Different elements have different default margins.`
@@ -51,14 +51,14 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `margin`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `margin: auto`
 -   `margin: inherit`
 -   `margin: length`
 -   `margin: percentage`
 
-## <span>Values</span>
+## Values
 
 length
 :   Specifies a fixed length, using any standard [CSS length units](http://docs.webplatform.org/wiki/css/units/length) . Negative Values are allowed.
@@ -74,7 +74,7 @@ auto
 inherit
 :   Causes the element it is applied to to take on the same margin values as its parent.
 
-## <span>Examples</span>
+## Examples
 
 A simple example showing different combinations of margin values applied to three identically sized elements.
 
@@ -189,7 +189,7 @@ The HTML accompanying the above example.
 </div>
 ```
 
-## <span>Usage</span>
+## Usage
 
      * margin can take 1-4 values for its value, including CSS length units, percentage values, or the keywords auto or inherit:
 
@@ -201,16 +201,16 @@ The HTML accompanying the above example.
 -   When two margins collide, for example when one block level element has a bottom margin set, immediately followed by another block level element with a top margin, the larger of the two margins remains, and the smaller one collapses and disappears.
 -   Margins are always transparent.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1 (Section 8.3)](http://www.w3.org/TR/CSS2/box.html#margin-properties)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Box Model</span>
+#### Box Model
 
 -   [border](/css/properties/border)
 
@@ -252,7 +252,7 @@ The HTML accompanying the above example.
 
 -   [min-width](/css/properties/min-width)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

@@ -17,13 +17,13 @@ tags:
 uri: apis/webrtc/RTCSessionDescription/sdp
 
 ---
-## <span>Summary</span>
+## Summary
 
 The string representation of the SDP object.
 
 Property of [apis/webrtc/RTCSessionDescription](/apis/webrtc/RTCSessionDescription)[apis/webrtc/RTCSessionDescription](/apis/webrtc/RTCSessionDescription)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.sdp;

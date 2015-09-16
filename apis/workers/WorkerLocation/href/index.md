@@ -24,13 +24,13 @@ tags:
 uri: apis/workers/WorkerLocation/href
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the absolute URL that the object represents.
 
 Property of [apis/workers/WorkerLocation](/apis/workers/WorkerLocation)[apis/workers/WorkerLocation](/apis/workers/WorkerLocation)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,17 +38,17 @@ Property of [apis/workers/WorkerLocation](/apis/workers/WorkerLocation)[apis/wor
 var result = object.href;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 The **href** is the entire string of the URL.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft

@@ -10,15 +10,15 @@ tags:
 uri: 'tutorials/making css easier to read'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article looks at the style and grammar of the CSS language itself, and how to make your CSS more readable using whitespace and comments.
 
-## <span>Information: Readable CSS</span>
+## Information: Readable CSS
 
 You can add whitespace and comments to your stylesheets to make them more readable. You can also group selectors together, when the same style rules apply to elements selected in different ways.
 
-### <span>White space</span>
+### White space
 
 Whitespace means actual spaces, tabs and new lines. You can add white space to make your stylesheets more readable.
 
@@ -76,7 +76,7 @@ font-style: italic;
 
  Some people use tabs for the layout. Some people only use spaces.
 
-### <span>Comments</span>
+### Comments
 
 Comments in CSS begin with `/*` and end with `*/`. You can use comments to make actual comments in your stylesheet, and also to *comment out* parts of it temporarily for testing purposes. To comment out part of a stylesheet, place that part in a comment so that the browser ignores it. Be careful where you start and end the comment. The rest of the stylesheet must still have correct syntax.
 
@@ -89,7 +89,7 @@ Comments in CSS begin with `/*` and end with `*/`. You can use comments to make 
 }
 ```
 
-### <span>Grouped selectors</span>
+### Grouped selectors
 
 When many elements have the same style, you can specify a group of selectors, separating them with commas. The declaration applies to all the selected elements.
 
@@ -102,7 +102,7 @@ This rule makes [h1], [h2], and [h3] elements the same color — it is convenien
 h1, h2, h3 {color: navy;}
 ```
 
-### <span>Sorting properties</span>
+### Sorting properties
 
 When used consistently sorting properties can be a great way to help make your stylesheets more readable. For instance sorting your properties by first properties that effects layout then color.
 
@@ -115,7 +115,7 @@ selector {
 }
 ```
 
-## <span>Action: Adding comments and improving the layout</span>
+## Action: Adding comments and improving the layout
 
 -   Edit your CSS file, and ensure that it has these rules in it (in any order):
 
@@ -136,8 +136,8 @@ Save the file and refresh your browser's display, to make sure that your changes
 
 </li>
 
-## <span>See also</span>
+## See also
 
-### <span>Exercise questions</span>
+### Exercise questions
 
 Comment out part of your stylesheet, without changing anything else, to make the very first letter of your document red.

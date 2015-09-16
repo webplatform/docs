@@ -22,11 +22,11 @@ tags:
 uri: css/properties/quotes
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the type of quotation marks for embedded quotations.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `depends on user agent/element`
@@ -52,12 +52,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `quotes: [<string>  <string>]+`
 -   `quotes: none`
 
-## <span>Values</span>
+## Values
 
 [\<string\> \<string\>]+
 :   The "open-quote" and "close-quote" values are taken from the specified list of pairs of quotation marks. The first (leftmost) pair represents the outermost level of quotation, the second pair the first level of embedding, etc.
@@ -65,7 +65,7 @@ Percentages
 none
 :   The "open-quote" and "close-quote" values produce no quotation marks.
 
-## <span>Examples</span>
+## Examples
 
 Here we demonstrate nested quotes. Notice the syntax used to declare the quotes. Any character can be used for a quote, but this example uses `'` and `"`. If we wanted to declare `quotes: "«" "»" "!" "@"`, that would work, too. You can also escape the characters (e.g. `quotes: "\""`), if that is your preference.
 
@@ -86,18 +86,18 @@ The HTML for the example above.
 </p>
 ```
 
-## <span>Notes</span>
+## Notes
 
 Pairs of strings are required if the value is not `none`.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1](http://www.w3.org/TR/CSS21/generate.html#quotes)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages</span>
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

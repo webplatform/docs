@@ -24,26 +24,26 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/globalAlpha
 
 ---
-## <span>Summary</span>
+## Summary
 
 An alpha value that is applied to shapes and images before they are composited onto the canvas.
 
 Property of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = CanvasRenderingContext2D.globalAlpha;
 CanvasRenderingContext2D.globalAlpha = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 Default is 1.0.
 
-## <span>Examples</span>
+## Examples
 
 The following example draws a semi-transparent white circle on a green background
 
@@ -64,11 +64,11 @@ function draw() {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 If you set the *globalAlpha* property to a value outside the range (including infinity or not a number (NaN)), the previous value is preserved.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

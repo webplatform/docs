@@ -10,11 +10,11 @@ tags:
 uri: javascript/JSON/parse
 
 ---
-## <span>Summary</span>
+## Summary
 
 Converts a JavaScript Object Notation (JSON) string into an object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,11 +26,11 @@ Converts a JavaScript Object Notation (JSON) string into an object.
 **reviver**
 :   Optional. A function that transforms the results. This function is called for each member of the object. If a member contains nested objects, the nested objects are transformed before the parent object is. For each member, the following occurs: If reviver returns a valid value, the member value is replaced with the transformed value.If reviver returns the same value it received, the member value is not modified.If reviver returns null or undefined , the member is deleted.
 
-## <span>Return Value</span>
+## Return Value
 
 An object or array.
 
-## <span>Examples</span>
+## Examples
 
 The following example uses **JSON.parse** to convert a JSON string to an object.
 
@@ -100,16 +100,16 @@ var jsontext = '{ "hiredate": "2008-01-01T12:00:00Z", "birthdate": "2008-12-25T1
  // Thu, 25 Dec 2008 12:00:00 UTC
 ```
 
-## <span>Exceptions</span>
+## Exceptions
 
 If this function provokes a JavaScript parser error (such as "SCRIPT1014: Invalid character", the input text does not comply with JSON syntax. To correct the error, do one of the following:
 
 -   Modify the text argument to comply with JSON syntax. For more information, see the [BNF syntax notation](http://go.microsoft.com/fwlink/?LinkId=125203) of JSON objects.
 -   Make sure that the text argument was serialized by a JSON-compliant implementation, such as **JSON.stringify**.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [JSON.stringify Function](/javascript/JSON/stringify)
 -   [toJSON Method (Date)](/javascript/Date/toJSON)

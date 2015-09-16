@@ -14,21 +14,21 @@ tags:
 uri: apis/file/MSStreamError
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MSStreamError object reports file-related errors asynchronously.
 
 Obsolete per latest specification. Use [DOMError](/dom/DOMError) instead.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 

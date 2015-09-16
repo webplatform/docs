@@ -21,15 +21,15 @@ uri: dom/HTMLElement/embeds
 ---
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.embeds;
 element.embeds = value;
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.     Build date: 7/24/2012

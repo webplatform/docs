@@ -13,7 +13,7 @@ tags:
 uri: html/attributes/BaseHref
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves a string of the URL where the object tag can be found, often the href of the document that the object is in, or the value set by a base element.
 
@@ -31,9 +31,9 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Use the **BaseHref** property to resolve relative paths when locating an **object**. The following rules determine the resulting *p*.
 
@@ -41,10 +41,10 @@ Use the **BaseHref** property to resolve relative paths when locating an **objec
 -   If the **object** element is on a page with `javascript` or `vbscript`, or is about **protocol** URLs, then *p* takes the value of the current page's parent page URL. This applies to **object**.**BaseHref** property requests in **iframe**/ **frame** elements as well.
 -   For all other **object** elements, *p* takes the value of the page they are found on.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `object`

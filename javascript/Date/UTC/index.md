@@ -10,11 +10,11 @@ tags:
 uri: javascript/Date/UTC
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the number of milliseconds between midnight, January 1, 1970 Universal Coordinated Time (UTC) (or GMT) and the specified date.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -41,7 +41,7 @@ Returns the number of milliseconds between midnight, January 1, 1970 Universal C
 **ms**
 :   Optional. An integer from 0 to 999 that specifies the milliseconds.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **Date.UTC** function.
 
@@ -72,15 +72,15 @@ The following example illustrates the use of the **Date.UTC** function.
  // Output: 10848
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **Date.UTC** function returns the number of milliseconds between midnight, January 1, 1970 UTC and the supplied date. This return value can be used in the **setTime** method and in the Date object constructor. If the value of an argument is greater than its range, or is a negative number, other stored values are modified accordingly. For example, if you specify 150 seconds, JavaScript redefines that number as two minutes and 30 seconds.
 
 The difference between the **Date.UTC** function and the Date object constructor that accepts a date is that the **Date.UTC** function assumes UTC, and the Date object constructor assumes local time.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [setTime Method (Date)](/javascript/Date/setTime)
 

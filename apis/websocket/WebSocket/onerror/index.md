@@ -22,13 +22,13 @@ tags:
 uri: apis/websocket/WebSocket/onerror
 
 ---
-## <span>Summary</span>
+## Summary
 
 An event listener to be called when an error occurs. Receives an event named &quot;error&quot;.
 
 Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket/WebSocket](/apis/websocket/WebSocket)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket
 var result = element.onerror;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 EventHandler
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 socket.onerror = function(event) {
@@ -58,7 +58,7 @@ socket.addEventListener("error", function(event) {
 });
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation

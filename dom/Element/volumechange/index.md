@@ -17,7 +17,7 @@ uri: dom/Element/volumechange
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -69,7 +69,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following example implements buttons that change the [**volume**](/dom/HTMLMediaElement/volume) of a video element (v1) by increments of .2 and turn mute on and off. These actions cause the **onvolumechange** event to be raised.
 
@@ -80,29 +80,29 @@ The following example implements buttons that change the [**volume**](/dom/HTMLM
 <button onclick="document.getElementById('v1').muted = false">Unmute</button>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The [**volume**](/dom/HTMLMediaElement/volume) property of the element represents the current volume level. The default playback volume is `1` (100 percent). The playback volume cannot be increased beyond 100 percent. To invoke this event, do one of the following:
 
 -   Increase or decrease the volume.
 -   Mute or unmute the playback.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.8.9.12
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `audioApi`
 -   `audioElement`

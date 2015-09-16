@@ -19,16 +19,16 @@ tags:
 uri: html/elements/video
 
 ---
-## <span>Summary</span>
+## Summary
 
 The video tag represents an embedded video
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLVideoElement](/dom/HTMLVideoElement)
 
-## <span>HTML Attributes</span>
+## HTML Attributes
 
 -   `autoplay` = "autoplay" or "" (empty string) or empty
     Instructs the UA to automatically begin playback of the video as soon as it can do so without stopping.
@@ -55,7 +55,7 @@ The video tag represents an embedded video
 -   `src` = URL potentially surrounded by spaces
     The URL for the video.
 
-## <span>Native video playback without plugins</span>
+## Native video playback without plugins
 
 Browsers that support HTML5 video will play the media without the need for external plugins
 
@@ -67,25 +67,25 @@ The three common formats for HTML5 video are: MP4, WebM and OGG Vorbis.
     .ogg = Theora + Vorbis
     .webm = VP8 + Vorbis
 
-## <span>Server MIME Types</span>
+## Server MIME Types
 
 Addition to declaring multiple encodings, the web server also needs to be instructed on the association between MIME types and co
 
 See [MIME types](/concepts/internet_and_web/mime_types) to find more information about MIME types and [Setting up MIME types on your server](/tutorials/configuring_mimetypes_on_the_server) for more information regarding server setup to deliver HTML5 audio and video content.
 
-## <span>Attributes</span>
+## Attributes
 
 The attributes (controls, preload, loop) go inside `<video>` tag to change the behavior of the embedded video.
 
-## <span>What about old browsers?</span>
+## What about old browsers?
 
 There are several techniques to ensure that people will be able to access the content we've created. Two of them are covered here: Chrome Frame and Flash Fallback
 
-### <span>Chrome Frame</span>
+### Chrome Frame
 
 [[Frame](http://www.google.com/chromeframe?prefersystemlevel=true%7CChrome)] is a plugin for Internet Explorer (up to version 8) that will allow the older browsers to work with HTML5 content (not just video and audio) as if it supported the features natively.
 
-### <span>Flash fallback</span>
+### Flash fallback
 
 You can also use flash as a fallback for when the browser does not support any of the provided formats. Flash supports H264 and Adobe has committed to support the WebM format in their flash player although that time timeline is still not clear. The biggest drawback using Flash as opposed to the Chrome Frame plugin is that you will get the flash player interface instead of whatever UI you built for your video tag. The details of this technique can be seen in the Quick Guide to Implementing the HTML5 Audio tutorial.
 
@@ -100,25 +100,25 @@ You can also use flash as a fallback for when the browser does not support any o
 </video>
 ```
 
-## <span>Accessibility</span>
+## Accessibility
 
 Authors should ensure that the information and user interface components must be presentable to users in ways they can perceive ([WCAG 2.0 - Principle 1: Perceivable](http://www.w3.org/TR/WCAG20/#perceivable)). This includes providing alternatives for time-based media [Guideline 1.2](http://www.w3.org/TR/WCAG20/#media-equiv).
 
 Work in still in progress proper technical support in HTML5.
 
-## <span>Formats and Codecs</span>
+## Formats and Codecs
 
 The HTML5 specification does not require a video codec to be supported by all user agents. Thus, one need to provide alternate sources to ensure proper user experience in the existing user agents. Using Ogg/Theora/Vorbis and MP4/H.264/AAC seems to cover most of the cases out there (if not all). However, Ogg/Theora/Vorbis is being replaced in favor of WebM nowadays. See the wikipedia [browser support table](http://en.wikipedia.org/wiki/Open_video#Table).
 
-## <span>Streaming</span>
+## Streaming
 
 The HTML5 specification does not specify a particular streaming method. It is expected that HTTP 1.1 progressive streaming is at least supported. Adaptive/live streaming may be supported as a UA extension. For an example, see the [HTTP Live Streaming Overview](http://developer.apple.com/iphone/library/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/StreamingMediaGuide.pdf) from Apple.
 
-## <span>Digital Rights Management</span>
+## Digital Rights Management
 
 The HTML5 specification does not specify a particular digital rights management (DRM) method. It is expected that videos with no DRM are at least supported. DRM may be supported as a UA extension.
 
-## <span>Examples</span>
+## Examples
 
 Desired video file should be within src attribute. As a best practice you should also include the controls attribute to show playback and volume controls
 
@@ -144,7 +144,7 @@ HTML5 Video Tag can support different encodings
 
 [View live example](http://code.webplatform.org/gist/5314736)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-video-element)
 :   W3C Working Draft
@@ -152,11 +152,11 @@ HTML5 Video Tag can support different encodings
 [HTML 5](http://www.w3.org/TR/html5/embedded-content-0.html#the-video-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Video</span>
+#### Video
 
 -   [audio-video](/apis/audio-video)
 
@@ -178,6 +178,6 @@ HTML5 Video Tag can support different encodings
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-### <span>External resources</span>
+### External resources
 
 -   [[Video Chapter](http://diveintohtml5.info/video.html%7C)] from Dive into HTML5

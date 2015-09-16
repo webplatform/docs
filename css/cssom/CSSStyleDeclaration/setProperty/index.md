@@ -16,13 +16,13 @@ todo_broken_links:
 uri: css/cssom/CSSStyleDeclaration/setProperty
 
 ---
-## <span>Summary</span>
+## Summary
 
 [Template:API O'''bj'''ect Method](/w/index.php?title=Template:API_O%27%27%27bj%27%27%27ect_Method&action=edit&redlink=1) Sets a property, value, and priority within a CSS style declaration.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html)
 :   Recommendation

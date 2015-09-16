@@ -12,17 +12,17 @@ uri: 'tutorials/games asset mgr'
 **By [Seth Ladd](http://www.html5rocks.com/profiles/#sethladd)**
 Originally published July 2, 2011
 
-## <span>Summary</span>
+## Summary
 
 Centralize and manage the asset downloads for your HTML5 game.
 
-## <span>Introduction</span>
+## Introduction
 
 HTML5 has provided many useful APIs for building modern, responsive, and powerful web applications in the browser. This is great, but you really want to build and play games! Luckily, HTML5 has also ushered in a new era of game development that uses APIs like Canvas and powerful JavaScript engines to deliver gaming straight to your browser without the need for plugins.
 
 This article will walk you through building a simple Asset Management component for your HTML5 game. Without an asset manager, your game will have a hard time compensating for unknown download times and asynchronous image loading. Follow along to see an example of a simple asset manager for your HTML5 games.
 
-## <span>The Problem</span>
+## The Problem
 
 HTML5 games can’t assume their assets such as images or audio will be on the player’s local machine, as HTML5 games imply being played in a web browser with assets downloaded over HTTP. Because the network is involved, the browser isn’t sure when the assets for the game will be downloaded and available.
 
@@ -36,7 +36,7 @@ The basic way to programmatically load an image in a web browser is the followin
 
 Now imagine having a hundred images that need to be loaded and displayed when the game starts up. How do you know when all 100 images are ready? Did they all successfully load? When should the game actually start?
 
-## <span>The Solution</span>
+## The Solution
 
 Let an asset manager handle the queuing of assets and report back to the game when everything is ready. An asset manager generalizes the logic for loading assets over the network, and it provides an easy way to check on the status.
 
@@ -48,7 +48,7 @@ Our simple asset manager has the following requirements:
 -   signal when everything is done
 -   easy retrieval of assets
 
-## <span>Queuing</span>
+## Queuing
 
 The first requirement is to queue up downloads. This design lets you declare the assets you need without actually downloading them. This can be useful if, for example, you want to declare all assets for a game level in a configuration file.
 
@@ -62,7 +62,7 @@ The code for the constructor and queuing looks like:
         this.downloadQueue.push(path);
     }
 
-## <span>Start Downloads</span>
+## Start Downloads
 
 After you have queued up all the assets to be downloaded, you can ask the asset manager to start downloading everything.
 
@@ -86,7 +86,7 @@ As you can see in the code above, `downloadAll()` simply iterates through the do
 
 With this method you can start the downloads.
 
-## <span>Tracking Success and Failure</span>
+## Tracking Success and Failure
 
 Another requirement is to track both success and failures, because unfortunately not everything always works out perfectly. The code so far only tracks successfully downloaded assets. By adding an event listener for the error event, you will be able to capture both success and failure scenarios.
 
@@ -126,7 +126,7 @@ Next, increment the counters in the event listeners, which now look like this:
 
 The asset manager is now tracking both successfully loaded and failed assets.
 
-## <span>Signaling When Done</span>
+## Signaling When Done
 
 After the game has queued up its assets for download, and asked the asset manager to download all the assets, the game needs to be told when all the assets are downloaded. Instead of the game asking over and over and over if the assets are downloaded, the asset manager can signal back to the game.
 
@@ -179,7 +179,7 @@ We will call the downloadCallback method inside of our event listeners:
 
 The asset manager is finally ready for the last requirement.
 
-## <span>Easy Retrieval of Assets</span>
+## Easy Retrieval of Assets
 
 Once the game has been signaled that it can start, the game will begin to render images. The asset manager is not only responsible for downloading and tracking the assets, but also for providing them to the game.
 
@@ -213,7 +213,7 @@ The cache is populated at the end of `downloadAll()`, as shown below:
       }
     }
 
-## <span>Bonus: Bug Fix</span>
+## Bonus: Bug Fix
 
 Did you spot the bug? As written above, the isDone method is only called when either load or error events are triggered. But what if the asset manager doesn’t have any assets queued up for download? The isDone method is never triggered, and the game never starts.
 
@@ -228,7 +228,7 @@ You can accommodate this scenario by adding the following code to `downloadAll()
 
 If no assets are queued, the callback is called immediately. Bug fixed!
 
-## <span>Example Usage</span>
+## Example Usage
 
 Using this asset manager in your HTML5 game is quite straightforward. Here is the most basic way to use the library:
 
@@ -249,7 +249,7 @@ The above code illustrates:
 4.  Signal when the assets are ready by invoking the callback function
 5.  Retrieve assets with `getAsset()`
 
-## <span>Areas for Improvement</span>
+## Areas for Improvement
 
 You will no doubt outgrow this simple asset manager as you build out your game, although I hope it provided a basic start. Future features could include:
 
@@ -259,17 +259,17 @@ You will no doubt outgrow this simple asset manager as you build out your game, 
 
 Please post improvements, forks, and links to code in the comments below.
 
-## <span>Full Source</span>
+## Full Source
 
 The source for this asset manager, and the game it’s abstracted from, is open source under the Apache License and can be found in the [Bad Aliens GitHub account](https://github.com/sethladd/Bad-Aliens). The [Bad Aliens game](http://bad-aliens.appspot.com/) can be played in your HTML5 compatible browser. This game was the subject for my Google IO talk titled Super Browser 2 Turbo HD Remix: Introduction to HTML5 Game Development ([slides](http://io-2011-html5-games-hr.appspot.com), [video](http://www.youtube.com/watch?v=yEocRtn_j9s)).
 
-## <span>Summary</span>
+## Summary
 
 Most games have some sort of asset manager, but HTML5 games require an asset manager that loads assets over a network and handles failures. This article outlined a simple asset manager that should be easy for you to use and adapt for your next HTML5 game. Have fun, and please let us know what you think in the comments below. Thanks! lse); \</pre\>
 
 The asset manager is now tracking both successfully loaded and failed assets.
 
-## <span>Signaling When Done</span>
+## Signaling When Done
 
 After the game has queued up its assets for download, and asked the asset manager to download all the assets, the game needs to be told when all the assets are downloaded. Instead of the game asking over and over and over if the assets are downloaded, the asset manager can signal back to the game.
 
@@ -322,7 +322,7 @@ We will call the downloadCallback method inside of our event listeners:
 
 The asset manager is finally ready for the last requirement.
 
-## <span>Easy Retrieval of Assets</span>
+## Easy Retrieval of Assets
 
 Once the game has been signaled that it can start, the game will begin to render images. The asset manager is not only responsible for downloading and tracking the assets, but also for providing them to the game.
 
@@ -341,7 +341,7 @@ This cache object is initialized in the constructor, which now looks like this:
         this.downloadQueue = [];
     }
 
-## <span>Bonus: Bug Fix</span>
+## Bonus: Bug Fix
 
 Did you spot the bug? As written above, the isDone method is only called when either load or error events are triggered. But what if the asset manager doesn’t have any assets queued up for download? The isDone method is never triggered, and the game never starts.
 
@@ -355,7 +355,7 @@ You can accommodate this scenario by adding the following code to `downloadAll()
 
 If no assets are queued, the callback is called immediately. Bug fixed!
 
-## <span>Example Usage</span>
+## Example Usage
 
 Using this asset manager in your HTML5 game is quite straightforward. Here is the most basic way to use the library:
 
@@ -376,7 +376,7 @@ The above code illustrates:
 4.  Signal when the assets are ready by invoking the callback function
 5.  Retrieve assets with `getAsset()`
 
-## <span>Areas for Improvement</span>
+## Areas for Improvement
 
 You will no doubt outgrow this simple asset manager as you build out your game, although I hope it provided a basic start. Future features could include:
 
@@ -386,11 +386,11 @@ You will no doubt outgrow this simple asset manager as you build out your game, 
 
 Please post improvements, forks, and links to code in the comments below.
 
-## <span>Full Source</span>
+## Full Source
 
 The source for this asset manager, and the game it’s abstracted from, is open source under the Apache License and can be found in the [Bad Aliens GitHub account](https://github.com/sethladd/Bad-Aliens). The [Bad Aliens game](http://bad-aliens.appspot.com/) can be played in your HTML5 compatible browser. This game was the subject for my Google IO talk titled Super Browser 2 Turbo HD Remix: Introduction to HTML5 Game Development ([slides](http://io-2011-html5-games-hr.appspot.com), [video](http://www.youtube.com/watch?v=yEocRtn_j9s)).
 
-## <span>Summary</span>
+## Summary
 
 Most games have some sort of asset manager, but HTML5 games require an asset manager that loads assets over a network and handles failures. This article outlined a simple asset manager that should be easy for you to use and adapt for your next HTML5 game. Have fun, and please let us know what you think in the comments below. Thanks!
 

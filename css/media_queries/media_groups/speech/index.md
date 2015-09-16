@@ -15,21 +15,21 @@ todo_broken_links:
 uri: 'css/media queries/media groups/speech'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This media group is used to identify CSS properties applicable to screen readers and related speech synthesizers.
 
 The speech media group is an abstract category, but it corresponds fairly directly to the [speech media type](/w/index.php?title=css/media_queries/media_types/speech&action=edit&redlink=1). However, speech media may also implement properties associated with other media groups, such as [interactive media](/css/media_queries/media_groups/interactive).
 
-## <span>Applicable Media Types</span>
+## Applicable Media Types
 
 (none in the database)
 
-## <span>Applicable Media Features</span>
+## Applicable Media Features
 
 (none in the database)
 
-## <span>Applicable CSS properties</span>
+## Applicable CSS properties
 
 -   [css/properties/cue](/css/properties/cue)
 -   [css/properties/cue-before](/css/properties/cue-before)

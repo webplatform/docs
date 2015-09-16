@@ -12,7 +12,7 @@ tags:
 uri: css/atrules
 
 ---
-## <span>Summary</span>
+## Summary
 
 At-rules are special instructions for the CSS parser. They are invoked by an at-keyword preceded by an &quot;@&quot; sign.
 

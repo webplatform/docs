@@ -22,41 +22,41 @@ tags:
 uri: apis/indexeddb/IDBFactory/cmp
 
 ---
-## <span>Summary</span>
+## Summary
 
 This method compares two specified keys. Returns 1 if the first key is greater than the second, -1 if the first is less than the second, and 0 if the first is equal to the second.
 
 Method of [apis/indexeddb/IDBFactory](/apis/indexeddb/IDBFactory)[apis/indexeddb/IDBFactory](/apis/indexeddb/IDBFactory)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = window.indexeddb.cmp(first, second);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>first</span>
+### first
 
  Data-type
 :   DOM Node
 
  The first key to compare
 
-### <span>second</span>
+### second
 
  Data-type
 :   String
 
  The second key to compare
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 The method returns 1 if the first key is greater than the second, -1 if the first is less than the second, and 0 if the first is equal to the second. Throws a DOMException (Data Error) is one of the supplied keys was not a valid key.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var value1 = "Alpha";
@@ -65,7 +65,7 @@ var result = window.indexedDB.cmp( value1, value2 );
 console.log( "Comparison results: " + result );
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

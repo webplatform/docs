@@ -10,10 +10,10 @@ tags:
 uri: 'guides/advanced css text styling'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article covers advanced features of CSS that can be used to style text, including text-shadow, web fonts, hyphens, font-features, etc.
 
-## <span>Content Needed</span>
+## Content Needed
 
 This topic seemed like a good idea, we just ran out of time. If you have the time to write it up, please do. We’re all pitching in here at WPD. Thanks!

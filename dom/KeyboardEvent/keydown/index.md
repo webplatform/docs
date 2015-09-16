@@ -15,7 +15,7 @@ uri: dom/KeyboardEvent/keydown
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -69,7 +69,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the **onkeydown** event to cancel input from the keyboard.
 
@@ -93,9 +93,9 @@ function fnTrapKD(){
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onkeydown.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 You can cancel all keys that fire the **onkeydown** event in HTML Applications, including most accelerator keys, such as ALT+F4. As of Microsoft Internet Explorer 5, the event also fires for the following keys:
 
@@ -126,13 +126,13 @@ In Internet Explorer 4.0, you cannot cancel the **onkeydown** event, but you ca
 
 -   Press any keyboard key.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

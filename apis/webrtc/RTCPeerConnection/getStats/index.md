@@ -22,21 +22,21 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/getStats
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves status information for a given MediaStreamTrack.
 
 Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.getStats();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 

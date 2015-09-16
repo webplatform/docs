@@ -9,7 +9,7 @@ tags:
 uri: character
 
 ---
-## <span>character</span>
+## character
 
 A letter, number, or symbol, such as "Y", "4", or "%".
 

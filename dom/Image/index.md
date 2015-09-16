@@ -14,27 +14,27 @@ tags:
 uri: dom/Image
 
 ---
-## <span>Summary</span>
+## Summary
 
 Legacy. Use document.createElement(&quot;img&quot;) instead. Quickly constructs an img element.
 
-## <span>Overview</span>
+## Overview
 
 A shorter legacy constructor for creating and loading images.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 The following script creates a new image and appends it to the **body** element.
 
@@ -44,7 +44,7 @@ img.src = "image.png";
 document.body.appendChild(img);
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use this constructor as a shorter way to instantiate new img elements before adding them to the document.
 
@@ -58,11 +58,11 @@ You can specify up to two optional arguments:
 |width|Optional. **Integer** that specifies the **img** width.|
 |height|Optional. **Integer** that specifies the **img** height.|
 
-## <span>Notes</span>
+## Notes
 
 The loading process of the image starts as soon as its **src** property is set, even when not added to a document.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage/embedded-content.html#the-img-element)
 :   Living Standard

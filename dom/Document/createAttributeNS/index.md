@@ -22,41 +22,41 @@ tags:
 uri: dom/Document/createAttributeNS
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a reference to an attribute object that is associated with an XML namespace.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var attribute = document.createAttributeNS(namespace, name);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>namespace</span>
+### namespace
 
  Data-type
 :   String
 
  The name of the desired namespace or a null value if no namespace is desired.
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The name of the desired attribute.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The created attribute.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //create a "lang" attribute associated with a namespace
@@ -67,17 +67,17 @@ attr.nodeValue = "es-us";
 document.documentElement.setAttributeNodeNS(attr);
 ```
 
-## <span>Notes</span>
+## Notes
 
 **createAttributeNS** is an XML DOM method and is supported only for XML documents.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `createAttribute`

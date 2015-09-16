@@ -23,35 +23,35 @@ tags:
 uri: dom/Node/replaceChild
 
 ---
-## <span>Summary</span>
+## Summary
 
 Replaces an existing child node with a new child node.
 
 Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var replacedNode = node.replaceChild(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>newChild</span>
+### newChild
 
  Data-type
 :   DOM Node
 
  The new node to be inserted into the document.
 
-### <span>oldChild</span>
+### oldChild
 
  Data-type
 :   DOM Node
 
  The existing node to be replaced.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -59,7 +59,7 @@ Returns an object of type DOM NodeDOM Node
 
 Returns a reference to the object that is replaced.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **replaceChild** method to replace a bold element from a **div** with an italic element.
 
@@ -95,11 +95,11 @@ between bold and italic.</div>
 </body>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The node to be replaced must be an immediate child of the parent object. The new node must be created using the [**createElement**](/dom/Document/createElement) method. This property is accessible at run time. If elements are removed at run time, before the closing tag is parsed, areas of the document might not render.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

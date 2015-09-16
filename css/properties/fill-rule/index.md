@@ -23,13 +23,13 @@ tags:
 uri: css/properties/fill-rule
 
 ---
-## <span>Summary</span>
+## Summary
 
 The ‘fill-rule’ property indicates the algorithm which is to be used to determine what parts of the canvas are included inside the shape. For a simple, non-intersecting path, it is intuitively clear what region lies &quot;inside&quot;; however, for a more complex path, such as a path that intersects itself or where one subpath encloses another, the interpretation of &quot;inside&quot; is not so obvious.
 
 The ‘fill-rule’ property provides two options for how the inside of a shape is determined:
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `nonzero`
@@ -55,12 +55,12 @@ Animatable
 Percentages
 :   n/a
 
-## <span>Syntax</span>
+## Syntax
 
 -   `fill-rule: evenodd`
 -   `fill-rule: inherit`
 
-## <span>Values</span>
+## Values
 
 evenodd
 :
@@ -68,7 +68,7 @@ evenodd
 inherit
 :
 
-## <span>Examples</span>
+## Examples
 
 nonzero
 
@@ -90,15 +90,15 @@ The following drawing illustrates the evenodd rule:
 
 [View live example](http://www.w3.org/TR/SVG/images/painting/fillrule-evenodd.svg)
 
-## <span>Usage</span>
+## Usage
 
      The ‘fill-rule’ property indicates the algorithm which is to be used to determine what parts of the canvas are included inside the shape. For a simple, non-intersecting path, it is intuitively clear what region lies "inside"; however, for a more complex path, such as a path that intersects itself or where one subpath encloses another, the interpretation of "inside" is not so obvious.
 
-## <span>Notes</span>
+## Notes
 
 (Note: the above explanations do not specify what to do if a path segment coincides with or is tangent to the ray. Since any ray will do, one may simply choose a different ray that does not have such problem intersections.)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [SVG](http://www.w3.org/TR/SVG/painting.html#FillProperties)
 :   W3C Recommendation

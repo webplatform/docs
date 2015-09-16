@@ -8,17 +8,17 @@ tags:
 uri: javascript/null
 
 ---
-## <span>Summary</span>
+## Summary
 
 null is used to indicate that a variable does not have a value.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     null
 
-## <span>Examples</span>
+## Examples
 
 This example shows the difference between **null** and [undefined](/javascript/undefined).
 
@@ -27,11 +27,11 @@ var foo; // undefined, there is no value assigned
 var bar = null; // null, states that there is no value
 ```
 
-## <span>Notes</span>
+## Notes
 
 **null** is the only value of the Null type
 
-## <span>null vs. undefined</span>
+## null vs. undefined
 
 **null** can be assigned to a variable to represent no value.
 

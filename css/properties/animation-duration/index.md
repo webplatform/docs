@@ -23,11 +23,11 @@ tags:
 uri: css/properties/animation-duration
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines the length of time an animation takes to complete one cycle.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0s`
@@ -53,18 +53,18 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `animation-duration: <time>`
 
-## <span>Values</span>
+## Values
 
 \<time\>
 :   Can be specified in seconds or milliseconds, e.g., **2s** or **150ms**. Can also be a comma-separated list of durations, e.g., **.25s, .5s, 1s**, where each duration is applied to the corresponding ordinal position value of the [animation-name](/css/properties/animation-name) property.
 
 The initial value of 0s means the animation takes no time; that is, it is applied instantaneously. When the duration is 0s (or 0ms), [animation-fill-mode](/css/properties/animation-fill-mode) still applies, such that an animation filling backward will show the value of the 0% [keyframe](/css/atrules/@keyframes) during any [delay](/css/properties/animation-delay) period, while an animation filling forward will retain the value specified at the 100% [keyframe](/css/atrules/@keyframes) even if the animation was instantaneous. Also, animation events are still fired.
 
-## <span>Examples</span>
+## Examples
 
 An animation duration of 5 seconds; runs once, does not repeat.
 
@@ -103,21 +103,21 @@ div.selected {
 
 [View live example](http://code.webplatform.org/gist/7010365)
 
-## <span>Usage</span>
+## Usage
 
      *Negative duration values are invalid and cause the entire property value to be ignored.
 
 -   If `animation-duration` specifies more durations than there are values in `animation-name`, the excess durations are ignored.
 -   If `animation-duration` specifies fewer durations than there are values in `animation-name`, the list of durations is repeated as many times as necessary to ensure each animation has a duration.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Animations](http://www.w3.org/TR/css3-animations/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Making things move with CSS3 animations](/tutorials/css_animations)
 -   [@keyframes](/css/atrules/@keyframes)

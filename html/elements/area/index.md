@@ -17,16 +17,16 @@ tags:
 uri: html/elements/area
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents either a hyperlink with some text and a corresponding area on an image map, or a dead area on an image map.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLAreaElement](/dom/HTMLAreaElement)
 
-## <span>HTML Attributes</span>
+## HTML Attributes
 
  Global attributes: accesskey, class, contenteditable, dir, hidden, id, lang, spellcheck, style, tabindex, title, translate
 :   See [global attributes](/html/global_attributes).
@@ -76,7 +76,7 @@ Represents either a hyperlink with some text and a corresponding area on an imag
 :   The MIME type of the destination of the hyperlink.
     A string that identifies a valid MIME media type, as defined in [RFC2046].
 
-## <span>Examples</span>
+## Examples
 
 The following example uses the **area** element inside a parent **map** element to create an image map of the solar system. Each **area** element defines and provides a link to an image on the **map** using the [**coords**](/html/attributes/coords) and [**shape**](/html/attributes/shape) attributes to specify its dimensions and shape, respectively; and the [**title**](/html/attributes/title) attribute to provide a descriptive pop-up tooltip when pointed to with the mouse. A tooltip is especially useful if the image file is missing or cannot be displayed for whatever reason.
 
@@ -124,13 +124,13 @@ The following example uses the **area** element inside a parent **map** element 
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/imagemap.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Any number of **area** elements can be contained within the same **map** element. The format of the [**coords**](/html/attributes/coords) value depends on the value of the [**shape**](/html/attributes/shape) attribute. Windows Internet Explorer 8 and later. In IE8 Standards mode, the [**title**](/html/attributes/title) attribute is preferred over the [**alt**](/html/attributes/alt) attribute when specified as a pop-up tooltip for an **img** or a **map** element. In addition, the value of the [**href**](/html/attributes/href) attribute depends on the current document compatibility mode. This element is not rendered. This element does not require a closing tag.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-area-element)
 :   W3C Working Draft

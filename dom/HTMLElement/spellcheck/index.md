@@ -22,7 +22,7 @@ uri: dom/HTMLElement/spellcheck
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.spellcheck;
@@ -31,9 +31,9 @@ element.spellcheck = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Spellcheck is only enabled by default for **textArea** elements, and elements with the [**contentEditable**](/html/attributes/contentEditable) = true attribute for Internet Explorer 10. Spellcheck is off by default for **input type=text**.
 
@@ -41,10 +41,10 @@ You can enable spellchecking by adding the **spellcheck=true** attribute to the 
 
 There is also a default state (missing attribute) which uses the element's default behavior, such as inheriting from the parent element's spellcheck state.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLElement`

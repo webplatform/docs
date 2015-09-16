@@ -24,11 +24,11 @@ todo_broken_links:
 uri: css/properties/clip-rule
 
 ---
-## <span>Summary</span>
+## Summary
 
 Clipping crops an graphic, so that only a portion of the graphic is rendered, or filled. This clip-rule property, when used with the clip-path property, defines which clip rule, or algorithm, to use when filling the different parts of a graphics.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `nonzero`
@@ -54,12 +54,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `clip-rule: evenodd`
 -   `clip-rule: nonzero`
 
-## <span>Values</span>
+## Values
 
 nonzero
 :   This value defines whether a point is inside or outside the path by drawing a ray from that point to infinity in any direction and counting the places where a shape segment crosses the ray in a specific direction. When a segment crosses the ray from left to right, the count is incremented; when a segment crosses the ray from right to left, the count is decremented. If the count is zero, the point is outside; if non-zero, it is inside.
@@ -71,7 +71,7 @@ evenodd
 
 See [SVG fill-rule property](http://www.w3.org/TR/2011/REC-SVG11-20110816/painting.html#FillRuleProperty) for details.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the SVG `clip-rule` property to show the difference in values for overlapping circles. With `nonzero`, the default, the overlapping area is filled in. With `evenodd` the overlapping area is removed.
 
@@ -132,11 +132,11 @@ This example uses the SVG `clip-rule` property to show the difference in values 
 
 [View live example](http://code.webplatform.org/gist/7037715)
 
-## <span>Usage</span>
+## Usage
 
      The clip-rule property only applies to graphics elements that are contained within a clipPath element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Masking](http://dev.w3.org/fxtf/masking/)
 :   Editor's Draft

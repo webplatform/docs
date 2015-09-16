@@ -110,13 +110,13 @@ uri: 'tutorials/Web Education Intro/tr'
 ---
 Türkçe projenin genel amacı eğitim materyallerinin Türkçe'ye çevrilmesini sağlamak ve bunların çeşitli topluluklar tarafından faydalanmasını sağlamak. Aşağıdakiler şuanda üzerinde çalışma yapılan etkinliklerdir.
 
-# <span>Web Standartları Eğitimi içindekiler listesi</span>
+# Web Standartları Eğitimi içindekiler listesi
 
-## <span>Şuanki Etkinlikler</span>
+## Şuanki Etkinlikler
 
 [Terminoloji](/w/index.php?title=tr/Terminoloji&action=edit&redlink=1) sayfasını genişletme çalışmaları yapılmaktadır. [Transifex](https://www.transifex.com/projects/p/w3c-web-ed-turkish/) üzerinde 15 makalenin çeviri çalışmaları yapılmaktadır.
 
-## <span>Giriş</span>
+## Giriş
 
 Bu listede birbirini takip eden makaleler web standartları müfredatında yer almaktadır. Bu makaleler HTML5, CSS, JavaScript, erişilebilirlik ve modern bir tasarımcı/geliştiricinin bilmesi gereken diğer başlıklar hakkında temel bilgiler verir. Sıra ile okunması daha verimlidir ancak her makale birbirinden bağımsız olarak da okunabilecek şekilde yazılmıştır. İhtiyacınıza göre konuyu daha detaylı okuyabilir veya daha yüzeysel geçebilirsiniz.
 
@@ -124,17 +124,17 @@ Note: This material was originally published as part of the Opera Web Standards 
 
 Note \#2: Many of the links below currently point to the [dev.opera](http://dev.opera.com) versions, but we'll change these over to the W3C versions as we add more to the site. We are very happy to add these to the W3C pages, for a wider readership and more maintenance help.
 
-## <span>Başlangıç</span>
+## Başlangıç
 
 [Introduction to the Web Standards Curriculum](/tutorials/Web_Education_Intro)
 
-## <span>Web standartları dünyasına giriş</span>
+## Web standartları dünyasına giriş
 
 1.  [Internet'in Web'in ve web standartlarının evriminin tarihi](/w/index.php?title=Tr/Web%27in_Tarihi&action=edit&redlink=1)
 2.  [How does the Internet work](/w/index.php?title=How_does_the_Internet_work&action=edit&redlink=1)?
 3.  [The web standards model - HTML CSS and JavaScript](/w/index.php?title=The_web_standards_model_-_HTML_CSS_and_JavaScript&action=edit&redlink=1)
 
-## <span>Web Tasarımının Konsepti</span>
+## Web Tasarımının Konsepti
 
 Bu bölümde herhangi bir kod yada işaretleme detayı verilmemektedir, herhangi bir grafik hazırlamadan ve kod yazmadan önce tasarım sürecine ve IA, gezinim, kullanılabilirlik gibi web tasarımı konseptlerine giriş yapılmaktadır.
 
@@ -145,14 +145,14 @@ Bu bölümde herhangi bir kod yada işaretleme detayı verilmemektedir, herhangi
 5.  [Colour schemes and design mockups](/w/index.php?title=Colour_schemes_and_design_mockups&action=edit&redlink=1)
 6.  [Typography on the Web](/w/index.php?title=Typography_on_the_Web&action=edit&redlink=1)
 
-## <span>HTML'e başlarken</span>
+## HTML'e başlarken
 
 1.  [The basics of HTML](/w/index.php?title=The_basics_of_HTML&action=edit&redlink=1)
 2.  [Doctypes and markup styles](/w/index.php?title=Doctypes_and_markup_styles&action=edit&redlink=1)
 3.  [The HTML \<head\> element](/w/index.php?title=The_HTML_head_element&action=edit&redlink=1)
 4.  [More about the document \<head\>](/w/index.php?title=More_about_the_document_head&action=edit&redlink=1)
 
-## <span>HTML gövdesi</span>
+## HTML gövdesi
 
 1.  [up textual content in HTML](/html/tutorials/Marking_up_textual_content_in_HTML)
 2.  [HTML Lists](/guides/html_lists)
@@ -166,12 +166,12 @@ Bu bölümde herhangi bir kod yada işaretleme detayı verilmemektedir, herhangi
 10. [Creating multiple pages with navigation menus](/w/index.php?title=Creating_multiple_pages_with_navigation_menus&action=edit&redlink=1)
 11. [Validating your HTML](/w/index.php?title=Validating_your_HTML&action=edit&redlink=1)
 
-## <span>Erişilebilirlik</span>
+## Erişilebilirlik
 
 1.  [Accessibility basics](/Accessibility_basics)
 2.  [Accessibility testing](/Accessibility_testing)
 
-## <span>CSS</span>
+## CSS
 
 1.  [CSS basics](/w/index.php?title=CSS_basics&action=edit&redlink=1)
 2.  [Advanced CSS selectors](/w/index.php?title=Advanced_CSS_selectors&action=edit&redlink=1)
@@ -188,11 +188,11 @@ Bu bölümde herhangi bir kod yada işaretleme detayı verilmemektedir, herhangi
 13. [Debugging CSS](/w/index.php?title=Debugging_CSS&action=edit&redlink=1)
 14. [CSS shorthand reference](/guides/css_shorthand)
 
-## <span>İleri CSS çalışması</span>
+## İleri CSS çalışması
 
 1.  [Headers, footers, columns, and templates](/w/index.php?title=Headers_footers_columns_and_templates&action=edit&redlink=1)
 
-## <span>JavaScript çekirdeğinin vasıfları</span>
+## JavaScript çekirdeğinin vasıfları
 
 1.  [JavaScript'in kısa bir tarihi](/w/index.php?title=Tr/JavaScript%27in_K%C4%B1sa_Bir_Tarihi&action=edit&redlink=1)
 2.  [Programming - the real basics!](/concepts/programming/programming_basics)
@@ -209,30 +209,30 @@ Bu bölümde herhangi bir kod yada işaretleme detayı verilmemektedir, herhangi
 13. [JavaScript animation](/JavaScript_animation)
 14. [Graceful degredation versus progressive enhancement](/w/index.php?title=Graceful_degredation_versus_progressive_enhancement&action=edit&redlink=1)
 
-## <span>Mobil web geliştirme</span>
+## Mobil web geliştirme
 
 1.  [Mobile 1: Introduction to mobile web](/w/index.php?title=Introduction_to_mobile_web&action=edit&redlink=1)
 
-## <span>Tamamlayıcı makaleler</span>
+## Tamamlayıcı makaleler
 
 -   [Getting your content online](/tutorials/getting_your_content_online)
 -   [Common HTML entities used for typography](/w/index.php?title=Common_HTML_entities_used_for_typography&action=edit&redlink=1)
 -   [The web standards curriculum glossary](/w/index.php?title=The_web_standards_curriculum_glossary&action=edit&redlink=1)
 
-## <span>Web Standartları Müfredatına Planlanan Güncellemeler ve Eklemeler</span>
+## Web Standartları Müfredatına Planlanan Güncellemeler ve Eklemeler
 
 -   [Web standards curriculum on W3C Wiki: plan for updates 2011](/w/index.php?title=WSC_proposed_updates&action=edit&redlink=1)
 
-# <span>Referanslar</span>
+# Referanslar
 
 -   [HTML](/html)
 -   [CSS](/css)
 
-# <span>Müfredat yapısı</span>
+# Müfredat yapısı
 
 -   [Overview of InterACT curriculum articles](http://www.w3.org/community/webed/wiki/Interact_Curriculum)
 
-## <span>Temel ve "soft" yetenekler</span>
+## Temel ve "soft" yetenekler
 
 -   [Internet Fundamentals](http://www.w3.org/community/webed/wiki/Interact/Internet_Fundamentals)
 -   [Digital Design Production](http://www.w3.org/community/webed/wiki/Interact/Digital_Design_Production)
@@ -242,7 +242,7 @@ Bu bölümde herhangi bir kod yada işaretleme detayı verilmemektedir, herhangi
 -   [Independent Study](http://www.w3.org/community/webed/wiki/Interact/Independent_Study)
 -   [Internship](http://www.w3.org/community/webed/wiki/Interact/Internship)
 
-## <span>Web tasarımı</span>
+## Web tasarımı
 
 -   [Web Design 1](http://www.w3.org/community/webed/wiki/Interact/Web_Design_1)
 -   [Web Design 2](http://www.w3.org/community/webed/wiki/Interact/Web_Design_2)
@@ -252,7 +252,7 @@ Bu bölümde herhangi bir kod yada işaretleme detayı verilmemektedir, herhangi
 -   [Interaction Design 1](http://www.w3.org/community/webed/wiki/Interact/Interaction_Design_1)
 -   [Prototyping](http://www.w3.org/community/webed/wiki/Interact/Prototyping)
 
-## <span>Web geliştirme</span>
+## Web geliştirme
 
 -   [DOM Scripting 1](http://www.w3.org/community/webed/wiki/Interact/DOM_Scripting_1)
 -   [Server-side Scripting 1](http://www.w3.org/community/webed/wiki/Interact/Server-Side_Scripting_1)

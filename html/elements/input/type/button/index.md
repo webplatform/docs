@@ -205,16 +205,16 @@ todo_broken_links:
 uri: html/elements/input/type/button
 
 ---
-## <span>Summary</span>
+## Summary
 
 The button type of the input element represents a button with no default behavior. Compare with the button element which offers default behaviours with via attributes.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **INPUT type=button** element to define a button that responds appropriately when clicked.
 
@@ -224,18 +224,18 @@ push this button!"
     onClick="alert('Aaaaaaaggggghh!!!!')">
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 As of Windows Internet Explorer 7, the **input type=button** object no longer supports the [**DATAFORMATAS**](/html/attributes/dataFormatAs) attribute.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 17.4
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.7.1.22
 
-### <span>HTML information</span>
+### HTML information
 
 <table class="wikitable">
 <tr>
@@ -259,7 +259,7 @@ inline
 </td>
 </tr>
 </table>
-### <span>Members</span>
+### Members
 
 The **input type=button** object has these types of members:
 
@@ -267,7 +267,7 @@ The **input type=button** object has these types of members:
 -   [\#methods Methods]
 -   [\#properties Properties]
 
-#### <span>Events</span>
+#### Events
 
 The **input type=button** object has these events.
 
@@ -342,7 +342,7 @@ The **input type=button** object has these events.
 |[**onselect**](/w/index.php?title=dom/events/selectstart&action=edit&redlink=1)|Fires when the current selection changes.|
 |[**onselectstart**](/w/index.php?title=dom/events/select&action=edit&redlink=1)|Fires when the object is being selected.|
 
-#### <span>Methods</span>
+#### Methods
 
 The **input type=button** object has these methods.
 
@@ -618,7 +618,7 @@ The **input type=button** object has these methods.
 </tbody>
 </table>
 
-#### <span>Properties</span>
+#### Properties
 
 The **input type=button** object has these properties.
 
@@ -945,13 +945,13 @@ The **input type=button** object has these properties.
 </tbody>
 </table>
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   The [**button**](/html/elements/button) element
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [button](/html/elements/button)
 -   [input](/html/elements/input)

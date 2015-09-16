@@ -23,28 +23,28 @@ tags:
 uri: apis/xhr/methods/serializeToString
 
 ---
-## <span>Summary</span>
+## Summary
 
 Converts the parent DOM node of a document tree to an XML string.
 
 Method of [apis/xhr/objects/XMLSerializer](/apis/xhr/objects/XMLSerializer)[apis/xhr/objects/XMLSerializer](/apis/xhr/objects/XMLSerializer)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.serializeToString(pNode);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>pNode</span>
+### pNode
 
  Data-type
 :   any
 
  The parent DOM node of a document tree to convert to an XML string.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -52,7 +52,7 @@ String
 
 The string that contains an XML representation of a DOM node tree.
 
-## <span>Examples</span>
+## Examples
 
 To use the **serializeToString** method, type the following syntax.
 
@@ -61,8 +61,8 @@ oXmlSerializer =  new XMLSerializer();
 sXmlString = oXmlSerializer.serializeToString(oDOMNode);
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `XMLSerializer`

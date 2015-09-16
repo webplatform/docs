@@ -10,7 +10,7 @@ uri: 'tutorials/css transforms'
 ---
 **By Mike Sierra**
 
-## <span>Summary</span>
+## Summary
 
 CSS transforms allow you to dynamically manipulate the space in which content elements appear. You can move them around on the screen, shrink or expand them, rotate them, or combine all these effects to produce complex movements. By themselves, transforms produce static visual effects, but you can easily combine them with CSS transitions and keyframe animations to produce vibrant animated interfaces. This tutorial first introduces simple two-dimensional transforms, then shows you how to extend transforms into three-dimensional space. It ends with step-by-step instructions on how to spin a cube in space.
 
@@ -40,7 +40,7 @@ These key points serve as reference:
 
 -   Setting [**transform-style**](/css/properties/transform-style) to **preserve-3d** on a 3D element renders any nested 3D elements within its own transformed space.
 
-## <span>The transform property</span>
+## The transform property
 
 Transforms alter a block element's coordinates in several ways so that they vary from where they would ordinarily appear. The [**transform**](/css/properties/transform) CSS property specifies a handful of transformation *functions* that can be combined any way you wish: [**translate()**](/css/functions/translate()), [**scale()**](/css/functions/scale()), [**rotate()**](/css/functions/rotate()), and [**skew()**](/css/functions/skew()). Here is how you specify a combination of most of the two-dimensional transforms discussed below, along with a view of how the effect renders relative to the element's default position:
 
@@ -80,7 +80,7 @@ You can also apply transforms directly to an object from JavaScript. Here's an e
 
 Several different technologies such as SVG and the **canvas** element implement transforms, and are all conceptually similar despite slight differences in how they are implemented.
 
-## <span>2D transform functions</span>
+## 2D transform functions
 
 The following isolates how each 2D function works. The [**translate()**](/css/functions/translate()) function simply moves an element around on the screen, much the same as when using [**top**](/css/properties/top) and [**left**](/css/properties/left) to position an element. This example moves the card over to the right more than it moves it downward:
 
@@ -134,7 +134,7 @@ Skewing along both *x* and *y* makes the element appear to move into three-dimen
 
     transform: matrix(1, -0.577, 0.176, 1, 0, 0);
 
-## <span>Changing the transform origin</span>
+## Changing the transform origin
 
 By default, transforms *originate* from the center of the element, or 50% along both *x* and *y*. If you scale it down, it shrinks towards the center, or else you rotate it around its center point. The [**transform-origin**](/css/properties/transform-origin) property allows you to place this origin point elsewhere, even outside the element, changing how transforms respond, especially in animations. It accepts a pair of *x*/*y* measurements.
 
@@ -180,7 +180,7 @@ In the first of the following examples, placing the origin of a [**scaleX()**](/
 
 ([View live sample](http://letmespellitoutforyou.com/samples/trans_2d_origin_scale.html))
 
-## <span>You need some perspective</span>
+## You need some perspective
 
 You really do. Though they often take on the illusion of three dimensions, 2D transforms are strictly superficial, inhabiting the plane of the display screen. Three dimensional transforms allow ordinary web content, which is still inherently flat, to shift onto other planes. But before applying the 3D transform functions discussed below, you need to position the scene relative to the viewer.
 
@@ -223,7 +223,7 @@ Keep in mind several things to help understand how perspective corresponds to ho
 
 -   The [**perspective**](/css/properties/perspective) property doesn't allow negative values, so while you may start to simulate traveling around the scene by offsetting the [**perspective-origin**](/css/properties/perspective-origin) while reducing the [**perspective**](/css/properties/perspective) value, you can't actually get to the other side.
 
-## <span>3D transforms</span>
+## 3D transforms
 
 To extend into three-dimensional space, enhanced functions allow rotations around *x* and *y*, and translations into *z* space.
 
@@ -307,7 +307,7 @@ While 2D transforms can be represented as a 6-element [**matrix()**](/css/functi
 
     transform: matrix3d(0.642, 0, 0.766, 0, 0, 1, 0, 0, -0.766, 0, 0.642, 0, 0, 0, 0, 1);
 
-## <span>Nested 3D transforms</span>
+## Nested 3D transforms
 
 Applying a 3D rotation to an element aligns it to a different plane than that of the viewing screen. Applying 3D translations and scale effects also overrides the default coordinate system. The [**transform-style**](/css/properties/transform-style) property allows you to transform nested content independently within that already modified space.
 

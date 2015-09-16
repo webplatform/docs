@@ -11,12 +11,12 @@ tags:
 uri: apis/proximity
 
 ---
-## <span>Summary</span>
+## Summary
 
 The proximity API defines a mean to receive events that correspond to a proximity sensor detecting the presence of a physical object.
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 <http://www.w3.org/TR/proximity/>

@@ -10,13 +10,13 @@ tags:
 uri: 'javascript/String/HTML Tag Methods'
 
 ---
-## <span>Summary</span>
+## Summary
 
 You can use HTML tag methods to place HTML elements around text in a String object.
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Examples</span>
+## Examples
 
 The following examples show how to use the HTML tag methods.
 
@@ -87,11 +87,11 @@ The following examples show how to use the HTML tag methods.
  // Output: <SUP>This is a string.</SUP>
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 No checking is performed to determine whether the HTML tags have already been applied to the string.
 
-## <span>Syntax</span>
+## Syntax
 
 The following table lists the syntax for and a description of each HTML tag method.
 
@@ -301,9 +301,9 @@ Places HTML \<SUP\> tags around the text.
 </td>
 </tr>
 </table>
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [String Object](/javascript/String)
 

@@ -7,7 +7,7 @@ tags:
 uri: tutorials/typography
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page contains links to typography-related tutorials.
 

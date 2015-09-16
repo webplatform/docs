@@ -22,19 +22,19 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/save
 
 ---
-## <span>Summary</span>
+## Summary
 
 Saves the current state of the context. Use the restore() method to retrieve the saved state.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.save();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -42,7 +42,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
@@ -57,7 +57,7 @@ ctxt.restore();
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The *save* and [restore](/apis/canvas/CanvasRenderingContext2D/restore) methods preserve and restore the state of a context, but not specific paths or graphics. The following attributes and states are affected:
 
@@ -72,7 +72,7 @@ The *save* and [restore](/apis/canvas/CanvasRenderingContext2D/restore) methods 
     -   *lineJoin*
     -   *miterLimit*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

@@ -23,11 +23,11 @@ tags:
 uri: css/properties/font-style
 
 ---
-## <span>Summary</span>
+## Summary
 
 The font-style property allows normal, italic, or oblique faces to be selected. Italic forms are generally cursive in nature while oblique faces are typically sloped versions of the regular face. Oblique faces can be simulated by artificially sloping the glyphs of the regular face.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -53,13 +53,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `font-style: italic`
 -   `font-style: normal`
 -   `font-style: oblique`
 
-## <span>Values</span>
+## Values
 
 normal
 :   Selects a face that is classified as a normal face (one that is neither italic or oblique).
@@ -70,7 +70,7 @@ italic
 oblique
 :   Selects a font that is labeled as 'oblique' (sloped version of the regular face). If no italic or oblique font is available, the browser slopes the normal version of the font to produce an oblique approximation.
 
-## <span>Examples</span>
+## Examples
 
 A selection of examples showing uses of the font-style property.
 
@@ -90,28 +90,28 @@ p.oblique { font-style: oblique; }
 
 [View live example](http://code.webplatform.org/gist/5628297)
 
-## <span>Usage</span>
+## Usage
 
      According to the specs, 'oblique' is a sloped version of the regular font. The example shows that browsers actually use the 'italic' version for the 'oblique' variant as well. In the example, the bottom of a regular 'f' aligns with the bottom of the surrounding text. In the oblique line this should be the case as well, but instead it shows a cursive 'f' that extends below the surrounding letters--proving that the browser is using the italic version instead of oblique.
 
 ![screenshot-font-style-example.png](/assets/public/e/ea/screenshot-font-style-example.png)
 
-## <span>Notes</span>
+## Notes
 
 If no italic or oblique face is available, oblique faces can be synthesized by rendering non-obliqued faces with an artificial obliquing operation. The use of these artificially obliqued faces can be disabled using the ‘font-synthesis’ property.
 
 Authors should also be aware that synthesized approaches may not be suitable for scripts like Cyrillic, where italic forms are very different in shape. It is always better to use an actual italic font rather than rely on a synthetic version.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/#font-style-prop)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Font</span>
+#### CSS Font
 
 -   [font-family](/css/properties/font-family)
 
@@ -133,7 +133,7 @@ Authors should also be aware that synthesized approaches may not be suitable for
 
 -   [user-modify](/css/properties/user-modify)
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -167,7 +167,7 @@ Authors should also be aware that synthesized approaches may not be suitable for
 
 -   [font](/html/elements/font)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

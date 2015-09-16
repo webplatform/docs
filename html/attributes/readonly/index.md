@@ -28,19 +28,19 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If the value of the **readOnly** property is set to **true**, the user cannot enter or edit text in the control. When set to **true**, the property still allows the object to receive the focus, whereas the [**disabled**](/html/attributes/disabled) property does not.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -180,6 +180,6 @@ If the value of the **readOnly** property is set to **true**, the user cannot en
 
 -   [time](/html/elements/time)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Disabled attribute](/html/attributes/disabled)

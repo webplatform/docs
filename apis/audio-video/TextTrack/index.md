@@ -11,11 +11,11 @@ tags:
 uri: apis/audio-video/TextTrack
 
 ---
-## <span>Summary</span>
+## Summary
 
 A media element can have a group of associated text tracks, known as the media element's &quot;list of text tracks&quot;.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -43,7 +43,7 @@ API Name
 [mode](/apis/audio-video/TextTrack/mode)
 :   The text track mode, represented by a string from the following list. "disabled": The text track disabled mode. "hidden": The text track hidden mode. "showing": The text track showing mode.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -54,15 +54,15 @@ API Name
 [removeCue](/apis/audio-video/TextTrack/removeCue)
 :   Removes the given cue from textTrack's text track list of cues.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 The track object contains the collection of [TextTrackCues](/apis/audio-video/TextTrackCue) (times and text) that are contained in the file that the **track** element represents.
 
-#### <span>WEBVTT</span>
+#### WEBVTT
 
 **TextTrackCues** within a **TextTrack** can be defined within a **[WebVTT](http://dev.w3.org/html5/webvtt/#dfnReturnLink-1)** file which is defined as an 8-bit Unicode Transformation Format (UTF-8) format text files that look like the following.
 
@@ -77,7 +77,7 @@ The track object contains the collection of [TextTrackCues](/apis/audio-video/Te
 
 The file starts with the tag "WEBVTT" as the first line, followed by a line feed. The timing cues are in the format "HH:MM:SS.sss". The start and end time cues are separated by a space, two hyphens and a greater-than sign ( --\> ), and another space. The timing cues are on a line by themselves followed by a line feed. Immediately following the cue is the caption text. Text captions can be one or more lines. The only restriction is that there must be no blank lines between lines of text. The MIME type is "text/vtt".
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

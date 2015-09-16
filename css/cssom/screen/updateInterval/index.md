@@ -22,7 +22,7 @@ uri: css/cssom/screen/updateInterval
 
 Property of [css/cssom/screen](/css/cssom/screen)[css/cssom/screen](/css/cssom/screen)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.updateInterval;
@@ -31,20 +31,20 @@ element.updateInterval = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **updateInterval** property can be set to an integer value specifying the number of milliseconds between updates to the screen. A value of `0` (the default) disables the update interval. The interval causes screen updates to be buffered and then drawn in the specified millisecond intervals. This limits excessive invalidations that reduce the overall painting performance, which can happen when too many flipbook-style animations occur at once. Use this property judiciously; a value too small or too large adversely affects the page rendering response.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `screen`

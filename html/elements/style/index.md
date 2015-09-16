@@ -22,16 +22,16 @@ tags:
 uri: html/elements/style
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines style information for an HTML document. Inside the style element you specify how HTML elements should render in a browser. Each HTML document can contain multiple style tags.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLStyleElement](/dom/HTMLStyleElement)
 
-## <span>Examples</span>
+## Examples
 
 This example encloses style declarations in the **STYLE** element and changes one of those settings using the **style** object.
 
@@ -52,19 +52,19 @@ This example encloses style declarations in the **STYLE** element and changes on
 </BODY>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **STYLE** element should appear in the **HEAD** section of an HTML document. Microsoft Internet Explorer 4.0 and later permit multiple style blocks.
 
 The **STYLE** element should appear in the **HEAD** section of an HTML document. Multiple style blocks are permitted.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 14.2.3
 
-### <span>Members</span>
+### Members
 
 The **style** object has these types of members:
 
@@ -72,11 +72,11 @@ The **style** object has these types of members:
 -   [\#methods Methods]
 -   [\#properties Properties]
 
-#### <span>Events</span>
+#### Events
 
 The **style** object has these events. {
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/document-metadata.html#the-style-element)
 :   W3C Working Draft

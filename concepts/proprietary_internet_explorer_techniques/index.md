@@ -8,7 +8,7 @@ tags:
 uri: 'concepts/proprietary internet explorer techniques'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Back at the times of the browser wars between Microsoft and Netscape both vendors built all sorts of proprietary technology into their browsers. This had different reasons:
 
@@ -18,7 +18,7 @@ Back at the times of the browser wars between Microsoft and Netscape both vendor
 
 So came that Microsoft's Internet Explorers learned a lot of techniques that admittedly were non-standard but that could still be very helpful in certain situations. Here we'll have a look at them.
 
-# <span>Conditional Comments</span>
+# Conditional Comments
 
 Conditional comments come along as a HTML comments with a special syntax. They allow you to hide certain parts of your document from all browsers but from Internet Explorers. E.g.:
 
@@ -60,7 +60,7 @@ This is visible to every browser except IE
 
 Conditional comments are supported from IE 5 - 9 and were removed from IE 10. This means that IE 10 acts as if it were not belonging to the IE family.
 
-# <span>Conditional Compilation</span>
+# Conditional Compilation
 
 Conditional compilation is similar to what conditional comments are, but for JavaScript. The following is JavaScript code marked as such an will appear as comment to non-IE browsers and will only be executed by IE:
 
@@ -78,7 +78,7 @@ Conditional compilation is similar to what conditional comments are, but for Jav
 
 Conditional compilation is supported from IE 4 - 9.
 
-# <span>Filters</span>
+# Filters
 
 Filters present a way to apply certain visual effects either to page elements or to the page as a whole. They have nothing to do with the recently specified CSS Filter Effects although they both aim into the same direction. IE Filters are a lot older.
 
@@ -202,7 +202,7 @@ One thing to note is that up until IE 8, font antialiasing is being disabled for
 
  Filters are supported from IE 4 - 9 and were removed from IE 10. They were also removed from all legacy modes inside IE 10.
 
-# <span>DHTML Behaviors</span>
+# DHTML Behaviors
 
 In IE you can attach so-called "behaviors" to elements via CSS. Behaviors are scripts that can watch and modify the element. One handy advantage over using traditional page scripting is that when you attach new elements to the document tree those will automatically get a script treatment, too. A good use case is the dynamic light filter that we talked about. Assigning the filter property on its own is not enough - you always need to have a script run afterwards. Instead of doing this manually, you could put the script into a behavior file and attach that along with the filter in CSS:
 
@@ -233,7 +233,7 @@ AddType text/x-component .htc
 
  Behaviors are supported from IE 4 - 9 and were removed from IE 10. They were also removed from all legacy modes inside IE 10.
 
-# <span>Expressions</span>
+# Expressions
 
 Expressions allow you to dynamically calculate the value of a property. So for example you could do the following to teach older IEs to inherit the parent's color:
 
@@ -253,8 +253,8 @@ color: expression(this.runtimeStyle.color = this.parentNode.currentStyle.color);
 
 Expressions are supported from IE 4 - 7 and were removed from IE 8.
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [www.satzansatz.de - On Having Layout](http://www.satzansatz.de/cssd/onhavinglayout.html)

@@ -11,23 +11,23 @@ tags:
 uri: svg/methods/getExtentOfChar
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The calculations for the rectangle assume that all glyphs occupy the full standard glyph cell for the font. If multiple consecutive characters are rendered inseparably (for example, as a single glyph or a sequence of glyphs), each of the inseparable characters returns the same rectangle.
 
-### <span>Syntax</span>
+### Syntax
 
     ISVGRect retVal = object.getExtentOfChar(charnum);
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.17.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGTextElement**](/svg/elements/text)
 -   [**SVGTextPositioningElement**](/svg/elements/textPositioning)

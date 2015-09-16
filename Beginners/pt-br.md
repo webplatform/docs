@@ -81,15 +81,15 @@ translations:
 uri: Beginners/pt-br
 
 ---
-## <span>Summary</span>
+## Summary
 
 Então você quer aprender a fazer websites? Essa página possui uma lista de artigos que são perfeitos para ajudar você a entender o básico. Descrevemos e explicamos como utilizar as ferramentas básicas..
 
-## <span>Resumo</span>
+## Resumo
 
 Este conjunto de artigos é para que os inciantes possam adquirir confiança, construindo suas habilidades essenciais no início da jornada para se tornar um web designer ou desenvolvedor.
 
-## <span>Antes de você começar</span>
+## Antes de você começar
 
 Neste curso, você vai escrever uma grande quantidade de código, e poderá testá-lo em navegadores web. Antes de começar, você deve instalar pelo menos o seguinte:
 
@@ -98,7 +98,7 @@ Neste curso, você vai escrever uma grande quantidade de código, e poderá test
 
 Agora arregace as mangas e prepare-se para aprender. [Consulte a nossa lista completa de artigos](/tutorials) se você cansar destes e quiser aprender muito mais!
 
-## <span>Fundamentos da Web</span>
+## Fundamentos da Web
 
 -   [A história da Web](/concepts/internet_and_web/the_history_of_the_web)
 -   [Como a Internet funciona](/concepts/internet_and_web/how_does_the_internet_work)
@@ -106,7 +106,7 @@ Agora arregace as mangas e prepare-se para aprender. [Consulte a nossa lista com
 -   [Colocando seu conteúdo online](/tutorials/getting_your_content_online)
 -   [Acessibilidade](/concepts/accessibility)
 
-## <span>HTML — estruturando o seu conteúdo web</span>
+## HTML — estruturando o seu conteúdo web
 
 -   [Noções básicas de HTML](/guides/the_basics_of_html)
 -   [DOCTYPES e estilos de marcação](/guides/doctypes_and_markup_styles)
@@ -122,7 +122,7 @@ Agora arregace as mangas e prepare-se para aprender. [Consulte a nossa lista com
 -   [Recursos para formulários utilizando HTML5](/guides/html5_form_features)
 -   [Elementos semânticos menos conhecidos](/guides/lesser-known_semantic_elements)
 
-## <span>CSS — estilizando o seu conteúdo web</span>
+## CSS — estilizando o seu conteúdo web
 
 -   [Introdução ao CSS](/guides/getting_started_with_css)
 -   [Usando seletores](/tutorials/using_selectors)
@@ -133,7 +133,7 @@ Agora arregace as mangas e prepare-se para aprender. [Consulte a nossa lista com
 -   [Tornando a leitura do CSS mais fácil](/tutorials/making_css_easier_to_read)
 -   [Direcionando estilos com media queries](/tutorials/media_queries)
 
-## <span>JavaScript — adicionando comportamento dinâmico para seu website</span>
+## JavaScript — adicionando comportamento dinâmico para seu website
 
 -   [Noções básicas de programação](/concepts/programming/programming_basics)
 -   [Seu primeiro olhar para o JavaScript](/tutorials/your_first_look_at_javascript)
@@ -145,7 +145,7 @@ Agora arregace as mangas e prepare-se para aprender. [Consulte a nossa lista com
 -   [Manipulando CSS com JavaScript](/tutorials/manipulating_css_with_javascript)
 -   [Eventos em JavaScript](/tutorials/events_in_javascript)
 
-## <span>Técnicas aplicadas</span>
+## Técnicas aplicadas
 
 -   [Criando menus de navegação](/tutorials/creating_basic_navigation_menus)
 

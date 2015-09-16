@@ -18,7 +18,7 @@ tags:
 uri: apis/filesystem/EntriesCallback/handleEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Used to supply an array of Entries as a response to a user query.
 
@@ -26,28 +26,28 @@ Used to supply an array of Entries as a response to a user query.
 
 Method of [apis/filesystem/EntriesCallback](/apis/filesystem/EntriesCallback)[apis/filesystem/EntriesCallback](/apis/filesystem/EntriesCallback)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  EntriesCallback.handleEvent(entries);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>entries</span>
+### entries
 
  Data-type
 :   String
 
  An array of Entries as a response to a user query.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

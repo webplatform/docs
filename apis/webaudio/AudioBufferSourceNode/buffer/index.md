@@ -16,20 +16,20 @@ tags:
 uri: apis/webaudio/AudioBufferSourceNode/buffer
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents the audio asset to be played.
 
 Property of [apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)[apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = AudioBufferSourceNode.buffer;
 AudioBufferSourceNode.buffer = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var source = audioCtx.createBufferSource();
@@ -37,7 +37,7 @@ var source = audioCtx.createBufferSource();
 source.buffer = myBuffer;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

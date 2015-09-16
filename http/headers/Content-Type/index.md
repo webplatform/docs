@@ -10,11 +10,11 @@ tags:
 uri: http/headers/Content-Type
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates the media type of the associated representation.
 
-## <span>Overview table</span>
+## Overview table
 
 Direction
 :   Request and Response
@@ -22,13 +22,13 @@ Direction
 Features
 :
 
-## <span>Syntax</span>
+## Syntax
 
     Content-Type = media-type
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [RFC7231: HTTP/1.1 Semantics and Content](http://tools.ietf.org/html/rfc7231#section-3.1.1.5)
 :

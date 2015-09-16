@@ -20,24 +20,24 @@ tags:
 uri: apis/webaudio/AudioListener/dopplerFactor
 
 ---
-## <span>Summary</span>
+## Summary
 
 A constant used to determine the amount of pitch shift to use when rendering a doppler effect. The default value is 1.
 
 Property of [apis/webaudio/AudioListener](/apis/webaudio/AudioListener)[apis/webaudio/AudioListener](/apis/webaudio/AudioListener)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = AudioListener.dopplerFactor;
 AudioListener.dopplerFactor = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -45,7 +45,7 @@ var myListener = audioCtx.listener;
 myListener.dopplerFactor = 1;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

@@ -12,7 +12,7 @@ tags:
 uri: apis/geolocation
 
 ---
-## <span>Summary</span>
+## Summary
 
 The geolocation API lets you share your location with trusted web sites. The latitude and longitude are available to JavaScript on the page, which in turn can send it back to the remote web server and do fancy location-aware things like finding local businesses or showing your location on a map.
 

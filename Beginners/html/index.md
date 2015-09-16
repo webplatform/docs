@@ -10,11 +10,11 @@ tags:
 uri: Beginners/html
 
 ---
-## <span>Summary</span>
+## Summary
 
 Next we will dive into Hypertext Markup Language (HTML), structuring our content. This document shows an example HTML file with notes on each components that will help you learn their use.
 
-## <span>Beginners submenu</span>
+## Beginners submenu
 
 The **[Beginners](/Beginners)** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 
@@ -29,7 +29,7 @@ The **[Beginners](/Beginners)** section covers the various aspects of web develo
 -   [9. Browser testing](/Beginners/browser_testing)
 -   [Glossary](/Beginners/glossary)
 
-## <span>Structuring Essentials</span>
+## Structuring Essentials
 
 If you're running a software, there's plain code working behind the scenes. Similarly, with all its glitter and presentational charisma, a web page also has lots of code running (or sitting idle) behind the screen.
 
@@ -41,11 +41,11 @@ In this article, we're going to analyze the anatomy of an HTML document.
 
 An HTML document is essentially divided into two parts: the `head` and the `body`. The `head` holds important metadata about the webpage, while the body holds all the content, including all text, images, colors, and the entire screen real estate. And these two parts are enclosed inside the most senior, all-encompassing `html` tag, that tells the browser something like "Here starts the HTML markup. Get ready."
 
-### <span>An Example Document in a Web Browser</span>
+### An Example Document in a Web Browser
 
 ![A web browser window with Hello world in red](/assets/public/d/d0/Beginners_example_html_file.png)
 
-## <span>The Code</span>
+## The Code
 
 You can copy and paste this code in a new file (e.g. `index.html`) and open it directly in a web browser to test it live!
 
@@ -69,7 +69,7 @@ You should see only a white page with a big "Hello world" written in red like th
 </html>
 ```
 
-## <span>The Components Elaborated</span>
+## The Components Elaborated
 
 -   In HTML code, a comment begins with "`<!--`" and ends with "`-->`". *`<!--this is a comment-->`.*
 
@@ -91,7 +91,7 @@ You should see only a white page with a big "Hello world" written in red like th
 
 -   Finally, remember to close all tags! Modern browsers might face less frenzy but missing closing tags in older browsers like Internet Explorer 8 and earlier cause a havoc.
 
-## <span>The Working</span>
+## The Working
 
 The HTML document works with the power of its tags. The tags work in sync to achieve the intended effect and structure. The CSS rules, attached either via a separate document, embedded rules within the HTML document's `head` or by inline rules (not shown), add the style to the document.
 
@@ -99,7 +99,7 @@ The browser downloads and reads the HTML document line-by-line from top-to-botto
 
 Hopefully, you now understand the basic of HTML: structuring with various available tags. Indeed, there are many tags to explore. Most tags have additional attributes and a way of placement. From the HTML itself, you can serve different styles to different screens (two sets of styles to two separate devices like a portrait iPad and a landscape big monitor!), arrange your content with proper structure, and much, much more.
 
-### <span>Going Over to Styles</span>
+### Going Over to Styles
 
 We've created an CSS rule that translates as follows: "The h1 heading should have a red color."
 

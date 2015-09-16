@@ -20,11 +20,11 @@ tags:
 uri: css/properties/grid-column-start
 
 ---
-## <span>Summary</span>
+## Summary
 
 Determines a grid item's placement by specifying the starting grid lines of a grid item's grid area . A grid item's placement in a grid area consists of a grid position and a grid span. See also ( grid-row-start, grid-row-end, and grid-column-end)
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -50,7 +50,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `grid-column-start: <grid-line>`
 -   `grid-column-start: <ident>`
@@ -58,7 +58,7 @@ Percentages
 -   `grid-column-start: auto`
 -   `grid-column-start: span [ <integer> or <ident> ] -`
 
-## <span>Values</span>
+## Values
 
 \<grid-line\>
 :   Contributes a line, a span, or nothing (automatic) to the item's row placement or column placement.
@@ -75,7 +75,7 @@ auto
 span [ **\<integer\>** *or* **\<ident\>** ] -
 :   Contributes a grid span to the placement by specifying that the corresponding edge of the item’s grid area is N grid lines from the opposite edge of the item's grid area. (Negative integers and zero are not allowed; if \<integer\> is omitted, it defaults to 1.) If a name is given as an \<ident\>, only lines with that name are counted. If no line with that name exists, the name is ignored. If not enough lines of that name exist, it spans to the last such named line.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* auto */
@@ -94,7 +94,7 @@ grid-column-start: span 2;
 grid-column-start: span "C";
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Grid Layout Module](http://www.w3.org/TR/css3-grid-layout)
 :   W3C Working Draft

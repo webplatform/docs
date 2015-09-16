@@ -13,7 +13,7 @@ tags:
 uri: html/attributes/frameBorder
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves whether to display a border for the frame, frameset or iframe.
 
@@ -31,7 +31,7 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Property values
 
@@ -45,19 +45,19 @@ no - No border is drawn.
 
 yes - Inset border is drawn.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Invalid settings default to displaying borders. The frameborder attribute is obsolete. Use CSS border rules instead.
 
 eg. iframe[seamless]{border:none}
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `frame`
 -   `frameSet`

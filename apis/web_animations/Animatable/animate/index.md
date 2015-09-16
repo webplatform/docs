@@ -23,25 +23,25 @@ tags:
 uri: 'apis/web animations/Animatable/animate'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a new Animation object whose animation target is the object on which the method is called, and calls the play method of the AnimationTimeline object of the document timeline of the node document [DOM4] of the element, passing the newly created Animation as the argument to the method.
 
 Method of [apis/web\_animations/Animatable](/apis/web_animations/Animatable)[apis/web\_animations/Animatable](/apis/web_animations/Animatable)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var myAnimationPlayer = myAnimationPlayer.animate();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 Returns the AnimationPlayer object returned by the play method of the AnimationTimeline.
 
-## <span>Examples</span>
+## Examples
 
 This example creates an instance of the AnimationPlayer that animates an object horizontally and vertically using computed values, and runs for 1500ms (1.5 seconds).
 
@@ -52,7 +52,7 @@ var player = snowFlake.animate([
 ], 1500);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Web Animations 1.0](http://www.w3.org/TR/web-animations/)
 :   W3C Working Draft

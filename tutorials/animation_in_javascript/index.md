@@ -10,17 +10,17 @@ tags:
 uri: 'tutorials/animation in javascript'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article discusses how to make simple animations in JavaScript.
 
-## <span>Introduction</span>
+## Introduction
 
 In this [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum) article, I will look at the art of creating animations using JavaScript — animation is often used to add to the user experience, for people using browsers than can support it. Common uses are things such as smoothly expanding and collapsing panels, progress bars, and visual feedback in forms.
 
 As anyone who's seen a cartoon or a flickbook knows, animation is actually done in lots of small steps that make it look like something is moving. Animation is a powerful technique; it's good at grabbing attention. The flaw here is that it grabs attention whether you want it to or not. Animated effects can make a web app feel like a more consistent experience, but it's like hot chilli: don't add too much of it.
 
-## <span>A simple example: yellow fade technique</span>
+## A simple example: yellow fade technique
 
 One common use of animation is the [Yellow fade technique](http://www.37signals.com/svn/archives/000558.php), where a changed area on a page is given a yellow background colour which then fades back to the background. It's a nice, unobtrusive way of highlighting that something has changed (eg more content has appeared, or some form feedback messages) without obstructing what the user is doing. [Take a look at a yellow fade example](http://dev.opera.com/articles/view/javascript-animation/yft_pure_js.html) to see how it looks.
 
@@ -98,7 +98,7 @@ or a "red fade", which sets the element to red and then fades to blue (the eleme
 
 This example changed the background colour, but it could be anything that's changed: foreground colour (for eye-pulsing 1960s psychedelic text effects), opacity (to make something fade out or fade in), position (to make an element move around the page), height and width (to grow an element, or shrink it down to nothing before it disappears).
 
-## <span>Animation with JavaScript libraries</span>
+## Animation with JavaScript libraries
 
 Animation is a commonly used effect, and so most JavaScript libraries have some sort of support for it, including in-built support for common animations. For example, [jQuery](http://jquery.com/) has built-in support for making an element fade to transparent:
 
@@ -120,7 +120,7 @@ If you've already used a JavaScript library in your code, you'll already know th
 
 You can find more resources about using the different JavaScript libraries at the dev.opera.com [Introduction to JavaScript toolkits](http://dev.opera.com/articles/view/introduction-to-javascript-toolkits/).
 
-## <span>A more complex example: moving and changing size</span>
+## A more complex example: moving and changing size
 
 While the Yellow Fade Technique does demonstrate animation, it's a bit, well, boring. When most people think of animation they think of *movement*. Wile E. Coyote would have been way less amusing if all he ever did was change colour.
 
@@ -168,7 +168,7 @@ Restoring the message when clicked on again just requires another `.animate()` c
 
 and with a little bit of logic to dictate whether the message is currently showing or shrunk (so you know which animation to run), and some CSS to describe the initial style of the message (large, green, horizontally centred), that's all that's needed. A mere thirty lines of script. This is why libraries are a good idea!
 
-## <span>CSS Transitions</span>
+## CSS Transitions
 
 Finally, some (not all) animations can actually be set up without any JavaScript at all! Safari and other Webkit-based browsers, and the upcoming Firefox 3.1, can perform transitions from one CSS value to another smoothly without using any JavaScript. This code:
 
@@ -177,13 +177,13 @@ Finally, some (not all) animations can actually be set up without any JavaScript
 
 will make the `div` smoothly fade out over one second in a supporting browser when it is hovered over. These CSS transitions are very new, however, and are not supported in anything but the most up-to-date browsers, so if you want your animation to work for most of your public then you'll need to use DOM scripting to do it.
 
-## <span>Summary</span>
+## Summary
 
 This concludes our look at animating web page functionality using JavaScript - I've taken you through some animation examples created from first principles using the `setTimeout` and `setInterval` functions, and then looked at how you can use JavaScript libraries to create animations more quickly.
 
-## <span>See also</span>
+## See also
 
-### <span>Exercise questions</span>
+### Exercise questions
 
 1.  What's the difference between `setTimeout` and `setInterval`?
 2.  If `setInterval` didn't exist, how could you emulate it?

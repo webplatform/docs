@@ -21,13 +21,13 @@ tags:
 uri: dom/PointerEvent/pressure
 
 ---
-## <span>Summary</span>
+## Summary
 
 The normalized pressure of the pointer input in the range of [0,1], where 0 and 1 represent the minimum and maximum pressure the hardware is capable of detecting, respectively.
 
 Property of [dom/PointerEvent](/dom/PointerEvent)[dom/PointerEvent](/dom/PointerEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,13 +35,13 @@ Property of [dom/PointerEvent](/dom/PointerEvent)[dom/PointerEvent](/dom/Pointer
 var pressure = event.pressure;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type doubledouble
 
 Pressure of the pointer contact in range of 0 to 1.
 
-## <span>Examples</span>
+## Examples
 
 The following is an example of a pointermove event handler that outputs the value of the event.pressure property to a text field in a form (frmOutput);
 
@@ -52,13 +52,13 @@ theform.txtPressure.value=evt.pressure;
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Could be used for example to control the hue or opacity of a color of a line or shape as it is drawn on screen using a pointer, other than a mouse.
 
 For hardware that does not support pressure, including but not limited to mouse, the value must be 1 when in the active buttons state and 0 otherwise.
 
-## <span>Notes</span>
+## Notes
 
 Starting with Internet Explorer 11, this property returns a value of 0.5 for active contact (such as mouse button push) and 0 otherwise on hardware that does not support pressure.
 

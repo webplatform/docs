@@ -25,11 +25,11 @@ todo_broken_links:
 uri: css/properties/letter-spacing
 
 ---
-## <span>Summary</span>
+## Summary
 
 The letter-spacing CSS property specifies the spacing behavior between text characters.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -52,12 +52,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `letterSpacing`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `letter-spacing: length`
 -   `letter-spacing: normal`
 
-## <span>Values</span>
+## Values
 
 normal
 :   The spacing is the normal spacing for the current font.
@@ -65,7 +65,7 @@ normal
 length
 :   Indicates inter-character space in addition to the default space between characters, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px). Values may be negative, but there may be implementation-specific limits.
 
-## <span>Examples</span>
+## Examples
 
 A selection of examples showing some typical uses of the letter-spacing property.
 
@@ -93,26 +93,26 @@ p.neg {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      * Up to three different values can be specified, in the following order: optimum, minimum, maximum
 
 -   If one value is specified, it is used for all spacing. If two values are specified, the first is used for the optimum and minimum spacings, and the second is used for maximum.
 
-## <span>Notes</span>
+## Notes
 
 When specified as a positive **length** value, the **letter-spacing** attribute adds the specified value to the default spacing between characters within an element. A negative **length** value decreases the space between characters. Letter spacing can be influenced by justification.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/#letter-spacing)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -192,7 +192,7 @@ When specified as a positive **length** value, the **letter-spacing** attribute 
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Other articles</span>
+### Other articles
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

@@ -18,17 +18,17 @@ tags:
 uri: dom/CloseEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a close event of a WebSocket connection.
 
 Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
-## <span>Overview</span>
+## Overview
 
 **CloseEvent** is sent to clients using [WebSocket](/apis/websocket/WebSocket) when the connection is closed. This is delivered to the listener indicated by the WebSocket object's [onclose](/apis/websocket/WebSocket/onclose) attribute.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -42,17 +42,17 @@ API Name
 [wasClean](/dom/CloseEvent/wasClean)
 :   Indicates whether the server connection closed cleanly.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from Event</span>
+## Inherited from Event
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -84,7 +84,7 @@ API Name
 [type](/dom/Event/type)
 :   Gets the name of an event.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -101,7 +101,7 @@ API Name
 [stopPropagation](/dom/Event/stopPropagation)
 :   Prevents propagation of an event beyond the current target.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -184,6 +184,6 @@ API Name
 [finish](/dom/Event/finish)
 :
 
-## <span>Usage</span>
+## Usage
 
      Use this event to find the close reason and close code of a closed connection and whether it was closed cleanly.

@@ -22,32 +22,32 @@ tags:
 uri: apis/web-storage/Storage/getItem
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the current value associated with the given key.
 
 Method of [apis/web-storage/Storage](/apis/web-storage/Storage)[apis/web-storage/Storage](/apis/web-storage/Storage)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = object.getItem(key);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>key</span>
+### key
 
  Data-type
 :   String
 
  The name of the key (a valid UTF-16 string, including the empty string).
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 This example creates a new localStorage item (a timestamp) and sets it with a unique key, then executes a function, then retrieves the timestamp by its key and reports it.
 
@@ -58,11 +58,11 @@ startTime = window.localStorage.getItem('timestamp');
 alert("The doSomethingElse function was called at: " + startTime);
 ```
 
-## <span>Notes</span>
+## Notes
 
 Any valid UTF-16 string, including the empty string, is a valid key name. If the specified *key* does not exist in the list associated with the object, then this method returns **null**. Attempts to read or write a secured item from script running in the context of an unsecured URL are not permitted.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Storage Specification](http://dev.w3.org/html5/webstorage)
 :   W3C Editor's Draft

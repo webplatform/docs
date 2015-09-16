@@ -9,11 +9,11 @@ tags:
 uri: 'css/color/colors by name'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page shows all defined colors with their name, hex, rgb and hsl values and also includes an example for each color.
 
-### <span>Related topics</span>
+### Related topics
 
 -   [Colors by Hue](/css/color/colors_by_hue)
 -   [Colors by Saturation](/css/color/colors_by_saturation)
@@ -1362,11 +1362,11 @@ Non-visible-example
 </tbody>
 </table>
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Visual Effects</span>
+#### Visual Effects
 
 -   [color](/css/color)
 

@@ -29,13 +29,13 @@ todo_broken_links:
 uri: apis/timing/properties/memory
 
 ---
-## <span>Summary</span>
+## Summary
 
 Do not use. Proprietary. Chrome only. Gets quantized scripting memory usage numbers.
 
 Property of [apis/timing](/w/index.php?title=apis/timing&action=edit&redlink=1)[apis/timing](/w/index.php?title=apis/timing&action=edit&redlink=1)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -43,13 +43,13 @@ Property of [apis/timing](/w/index.php?title=apis/timing&action=edit&redlink=1)[
 var memoryInfo = window.performance.memory;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
 An object created with *MemoryInfo* constructor, containing *jsHeapSizeLimit*, *totalJSHeapSize* and *usedJSHeapSize* properties with numerical values.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 console.log(performance.memory)
@@ -62,7 +62,7 @@ console.log(performance.memory)
 //}
 ```
 
-## <span>Notes</span>
+## Notes
 
 *usedJsHeapSize* is the total amount of memory being used by JS objects including V8 internal objects, *totalJsHeapSize* is current size of the JS heap including free space not occupied by any JS objects. This means that *usedJsHeapSize* can not be greater than *totalJsHeapSize*. Note that it is not necessarily that there has ever been *totalJsHeapSize* of alive JS objects.
 

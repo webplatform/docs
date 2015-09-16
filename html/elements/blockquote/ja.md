@@ -24,16 +24,16 @@ todo_broken_links:
 uri: html/elements/blockquote/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 blockquote要素は拡張された引用を表します。
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLQuoteElement](/dom/HTMLQuoteElement)
 
-### <span>導入</span>
+### 導入
 
 **blockquote**要素は別のソースから引用したコンテンツであることを示します。追加で[**footer**](/w/index.php?title=html/elements/footer/ja&action=edit&redlink=1)や[**cite**](/w/index.php?title=html/elements/cite/ja&action=edit&redlink=1)要素で引用元を記載したり、注釈や省略のような変更なども一緒に示すことがあります。
 
@@ -49,12 +49,12 @@ cite属性を記載する際は正しいURLを設定しなければいけませ�
 
 cite属性は要素の引用コンテンツの帰属を反映しなければいけません。
 
-## <span>HTML属性</span>
+## HTML属性
 
 -   `cite` = 有効なURL（前後にスペースがある場合、取り除かれて扱われます。）
     引用元のアドレスを指定します。
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!-- この例は引用をインデントさせて目立たせるためにblockquote要素を使用しています。: -->
@@ -206,13 +206,13 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
 <p>今回はこれらの点について議論していこう...
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>備考</span>
+### 備考
 
 -   後のセクションで、会話の表し方の例が示されるかもしれませんが、**cite**と**blockquote**はそのような目的にはふさわしくありません。
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-blockquote-element)
 :   W3C Working Draft
@@ -223,9 +223,9 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-BLOCKQUOTE)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (internal)</span>
+### Related pages (internal)
 
 -   `q`
 -   `cite`

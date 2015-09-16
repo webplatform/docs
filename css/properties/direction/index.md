@@ -26,11 +26,11 @@ todo_broken_links:
 uri: css/properties/direction
 
 ---
-## <span>Summary</span>
+## Summary
 
 The direction CSS property specifies the text direction/writing direction. The rtl is used for Hebrew or Arabic text, the ltr is for other languages.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `ltr`
@@ -56,12 +56,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `direction: ltr`
 -   `direction: rtl`
 
-## <span>Values</span>
+## Values
 
 ltr
 :   Default. Content flows left to right.
@@ -69,7 +69,7 @@ ltr
 rtl
 :   Content flows right to left.
 
-## <span>Examples</span>
+## Examples
 
 The following example demonstrates how to set and retrieve the value of the **direction** property.
 
@@ -98,18 +98,18 @@ p {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 The property does not affect alphanumeric characters in Latin documents. These characters always render **ltr**. However, the property does affect punctuation characters in Latin documents. The property pertains only to the directional flow of an element's content. It has no effect on properties such as [**left**](/css/properties/left) or [**right**](/css/properties/right), [**margin-left**](/css/properties/margin-left) or [**margin-right**](/css/properties/margin-right). The **margin-left** property, for example, sets or retrieves the width of the margin on the left side of the document regardless of the value of the **direction** property.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Cascading Style Sheets Level 2 Revision 1](http://www.w3.org/TR/CSS2/visuren.html#propdef-direction)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

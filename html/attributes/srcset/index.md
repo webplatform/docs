@@ -13,7 +13,7 @@ tags:
 uri: html/attributes/srcset
 
 ---
-## <span>Summary</span>
+## Summary
 
 The srcset attribute is an extension of the image element. It provides additional image related information to the browser to help decide the most appropriate image to load. Most commonly used for delivering the best image for high device pixel ratio and responsive images.
 
@@ -48,7 +48,7 @@ The **srcset** attribute can also take a comma separated list of URL's for each 
                src="small.jpg"
                alt="A picture of a small thing" />
 
-## <span>Examples</span>
+## Examples
 
 Example of srcset using only device pixel ratio
 
@@ -78,11 +78,11 @@ Example of the SRCSET and SIZES attributes
 
 [View live example](http://codepen.io/justincavery/full/osDGt/)
 
-## <span>Usage</span>
+## Usage
 
      When using srcset with the w descriptor you must also include the sizes attribute.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5 APIs](http://www.w3.org/html/wg/drafts/srcset/w3c-srcset/)
 :   Editor’s Draft

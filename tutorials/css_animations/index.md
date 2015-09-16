@@ -10,7 +10,7 @@ uri: 'tutorials/css animations'
 ---
 **By Mike Sierra**
 
-## <span>Summary</span>
+## Summary
 
 CSS animations allow you to build complex animated sequences. Like transitions, they manipulate the CSS properties that control how interface elements appear. Unlike transitions, they are not tied to shifts between style sheets that distinguish interface states. Keyframe animations can execute freely, and offer the best way to build complex effects into an interface.
 
@@ -46,7 +46,7 @@ These key points serve as reference:
 
 -   To modify [**@keyframes**](/css/atrules/@keyframes) rules dynamically, inject CSS into a local **style** region, or use the [**CSSKeyframeRule**](/css/cssom/CSSKeyframeRule) interface.
 
-## <span>Animation properties</span>
+## Animation properties
 
 To understand how animations work, start with an example of a pulsing icon, which may be used in a mobile interface to indicate what part of an application is selected. The animation continuously shrinks and grows one of the icons as it dims and brightens it. This simple example will illustrate several other features below:
 
@@ -81,7 +81,7 @@ Animation properties are standard in many browsers, but as of this writing requi
 
 From here on, examples feature only the un-prefixed property names.
 
-## <span>The @keyframes rule</span>
+## The @keyframes rule
 
 The [**animation-name**](/css/properties/animation-name) property specifies an animation named **pulse**. Use a [**@keyframes**](/css/atrules/@keyframes) rule within the CSS to define each named animation sequence:
 
@@ -112,7 +112,7 @@ As with animation properties, each [**@keyframes**](/css/atrules/@keyframes) rul
 
 This example also substitutes **0%** and **100%** for their synonymous keywords **from** and **to**. (If you don't specify either, values transition from the next available keyframe in the series.)
 
-## <span>Changing Direction</span>
+## Changing Direction
 
 This simple animation can also be alternated to produce the same effect:
 
@@ -132,7 +132,7 @@ The [**animation-duration**](/css/properties/animation-duration) is now half of 
 
 (You can also set [**animation-direction**](/css/properties/animation-direction) to always **reverse**, or to **reverse-alternate**.)
 
-## <span>Multiple animations</span>
+## Multiple animations
 
 Animation properties accept more than one comma-delineated value, which allows you to chain together different animations or run them concurrently.
 
@@ -161,7 +161,7 @@ This variation on the pulsing icon uses two keyframes to manipulate the [**opaci
 
 Make sure that any keyframes or transitions that execute concurrently don't manipulate any of the same properties. This is *not* a problem for animations or transitions applied to different elements.
 
-## <span>Setting a Delay</span>
+## Setting a Delay
 
 As with transitions, animations can be delayed before they execute. Use the [**animation-delay**](/css/properties/animation-delay) property to wait some time before pulsing the icon:
 
@@ -236,7 +236,7 @@ The banner's second animation (*scrollBanner*) takes over at the 5-second mark, 
         to   { transform : translateX(0%) }
     }
 
-## <span>Fill mode</span>
+## Fill mode
 
 Each keyframe within an animation specifies CSS properties, just like regular CSS selectors. Properties manipulated by keyframes may vary from those defined or inherited by selectors. By default, after animations complete their series of iterations, these properties abruptly snap from the final keyframe's value back to their original value. Likewise when animations are delayed, properties snap from their original values to that of the first keyframe's value.
 
@@ -259,7 +259,7 @@ Fill mode can override not only an element's underlying properties, but other an
         /* 'none' does not clobber previous animation: ^^^^ */
     }
 
-## <span>Timing functions</span>
+## Timing functions
 
 The same set of timing functions that apply to transitions also apply to animations. (For details, see [Timing Functions](/tutorials/css_transitions#timing).) The [**animation-timing-function**](/css/properties/animation-timing-function) property allows you to control the response curve for each keyframe's progress. It recognizes keyword values **ease**, **ease-in**, **ease-out**, **ease-in-out**, **linear**, along with **cubic-bezier()** functions for custom response curves.
 
@@ -289,7 +289,7 @@ Setting the timing function to **linear** makes the shift from a moving to a sto
 
 For greater control, you can even manipulate the value of the [**animation-timing-function**](/css/properties/animation-timing-function) property *within* each keyframe, so that it changes over the course of the animation.
 
-## <span>Dynamic animations</span>
+## Dynamic animations
 
 The example above uses JavaScript to assign random delays to stagger each animation's execution. Any animation property can be set directly on an element's **style** object, but as of this writing you also need to add alternative *Webkit*-prefixed property names:
 
@@ -373,8 +373,8 @@ Here is how you might change the initial color to a shade of gray:
 
 See [**CSSKeyframesRule**](/css/cssom/CSSKeyframesRule), [**CSSKeyframeRule**](/css/cssom/CSSKeyframeRule) and [**CSSRule**](/css/cssom/CSSRule) for details.
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [CSS Animations: W3C Working Draft](http://www.w3.org/TR/css3-animations/)

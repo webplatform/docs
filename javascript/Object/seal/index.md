@@ -10,11 +10,11 @@ tags:
 uri: javascript/Object/seal
 
 ---
-## <span>Summary</span>
+## Summary
 
 Prevents the modification of attributes of existing properties, and prevents the addition of new properties.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,11 +23,11 @@ Prevents the modification of attributes of existing properties, and prevents the
 **object**
 :   Required. The object on which to lock the attributes.
 
-## <span>Return Value</span>
+## Return Value
 
 The object that is passed to the function.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **Object.seal** function.
 
@@ -54,7 +54,7 @@ The following example illustrates the use of the **Object.seal** function.
  // 10
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **Object.seal** function does both of the following:
 
@@ -83,13 +83,13 @@ The following functions return true if all of the conditions marked in the follo
 |[Object.isSealed](/javascript/Object/isSealed)|No|Yes|No|
 |[Object.isFrozen](/javascript/Object/isFrozen)|No|Yes|Yes|
 
-## <span>Exceptions</span>
+## Exceptions
 
 If the object argument is not an object, a TypeError exception is thrown.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Object.preventExtensions Function](/javascript/Object/preventExtensions)
 -   [Object.freeze Function](/javascript/Object/freeze)

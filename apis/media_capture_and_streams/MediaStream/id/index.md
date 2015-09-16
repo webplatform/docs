@@ -25,13 +25,13 @@ tags:
 uri: 'apis/media capture and streams/MediaStream/id'
 
 ---
-## <span>Summary</span>
+## Summary
 
 A globally unique identifier string, initialized when the MediaStream object is created.
 
 Property of [apis/media\_capture\_and\_streams/MediaStream](/apis/media_capture_and_streams/MediaStream)[apis/media\_capture\_and\_streams/MediaStream](/apis/media_capture_and_streams/MediaStream)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [apis/media\_capture\_and\_streams/MediaStream](/apis/media_capture_
 var result = stream.id;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 

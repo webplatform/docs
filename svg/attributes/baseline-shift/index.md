@@ -15,7 +15,7 @@ tags:
 uri: svg/attributes/baseline-shift
 
 ---
-## <span>Summary</span>
+## Summary
 
 The ‘baseline-shift’ property allows repositioning of the dominant-baseline( a baseline-table and a baseline-table font-size which are those of the nearest block-level ancestor element and are applied to its root inline box.) relative to the dominant-baseline.
 
@@ -35,9 +35,9 @@ Name: baseline-shift Value: baseline
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **baseline-shift** property allows repositioning of the dominant baseline relative to the dominant baseline of the parent text content element. The shifted object might be a subscript or superscript. Within the shifted object, the whole baseline table is offset; not just a single baseline. The amount of the shift is determined by one of the following:
 
@@ -46,24 +46,24 @@ The **baseline-shift** property allows repositioning of the dominant baseline re
 -   the percent of the **line-height** of the parent text content element
 -   an absolute value.
 
-### <span>Syntax</span>
+### Syntax
 
     baseline-shift: baseline | sub | super | percentage | length
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.9.2
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Scalable Vector Graphics (SVG) 1.1](http://www.w3.org/TR/SVG/text.html#BaselineShiftProperty)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Layout</span>
+#### CSS Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -107,7 +107,7 @@ The **baseline-shift** property allows repositioning of the dominant baseline re
 
 -   **baseline-shift**
 
-#### <span>CSS Attributes</span>
+#### CSS Attributes
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -145,7 +145,7 @@ The **baseline-shift** property allows repositioning of the dominant baseline re
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)

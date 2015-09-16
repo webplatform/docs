@@ -16,11 +16,11 @@ tags:
 uri: html/elements/dfn
 
 ---
-## <span>Summary</span>
+## Summary
 
 The dfn element indicates the defining instance of a term.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -32,7 +32,7 @@ The dfn element indicates the defining instance of a term.
     3.  TextContent of the dfn element
 -   If the title attribute of the dfn element is present, then it must contain only the term being defined.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **dfn** element to indicate the defining instance of a new term.
 
@@ -61,7 +61,7 @@ is a device that allows off-world teams to open the iris.</p>
 and so Hammond ordered the iris to be opened.</p>
 ```
 
-## <span>Usage</span>
+## Usage
 
      The dfn is a phrasing-level element and can’t contain block-level elements, but it can contain other phrasing type elements like abbr, read on…
 
@@ -73,11 +73,11 @@ If the **dfn** only contains text, the exact text content of the element gives t
 
 If the [**title** attribute](/html/attributes/title) of the **dfn** element is present, then it must contain only the definition of the term being defined.
 
-## <span>Notes</span>
+## Notes
 
 If given an [**id** attribute](/html/attributes/id), a **dfn** may serve as a reference for other elements on the page by anchoring to the **dfn** (see Example 3).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-dfn-element)
 :   W3C Working Draft
@@ -88,11 +88,11 @@ If given an [**id** attribute](/html/attributes/id), a **dfn** may serve as a re
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-DFN)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -232,7 +232,7 @@ If given an [**id** attribute](/html/attributes/id), a **dfn** may serve as a re
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -312,7 +312,7 @@ If given an [**id** attribute](/html/attributes/id), a **dfn** may serve as a re
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Other articles</span>
+### Other articles
 
 -   `acronym`
 -   `address`

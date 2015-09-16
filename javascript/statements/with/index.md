@@ -10,11 +10,11 @@ tags:
 uri: javascript/statements/with
 
 ---
-## <span>Summary</span>
+## Summary
 
 Establishes the default object for a statement. Disallowed in strict mode.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -28,7 +28,7 @@ Establishes the default object for a statement. Disallowed in strict mode.
 **statements**
 :   One or more statements for which object is the default object.
 
-## <span>Examples</span>
+## Examples
 
 The with statement is commonly used to shorten the amount of code that you have to write in certain situations. In this example, notice the repeated use of Math.
 
@@ -60,9 +60,9 @@ This statement changes the default context from a global or a function scope, to
 
  This statement is disallowed in [strict mode](/javascript/directives/use_strict) and so will generate a syntax error before even running the script.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [this Statement](/javascript/statements/this)
 

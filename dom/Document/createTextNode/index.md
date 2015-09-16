@@ -24,34 +24,34 @@ tags:
 uri: dom/Document/createTextNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a text node containing the passed string (nodeValue).
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var textNode = document.createTextNode(text);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>text</span>
+### text
 
  Data-type
 :   String
 
  The [**nodeValue**](/dom/Node/nodeValue) property of the text node.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The created TextNode.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <script>
@@ -67,14 +67,14 @@ Original Text
 </span>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-1975348127)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `createElement`

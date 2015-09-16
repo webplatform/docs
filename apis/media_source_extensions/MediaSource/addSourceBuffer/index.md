@@ -21,34 +21,34 @@ tags:
 uri: 'apis/media source extensions/MediaSource/addSourceBuffer'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a new SourceBuffer and adds it to the SourceBuffers property of the MediaSource.
 
 Method of [apis/media\_source\_extensions/MediaSource](/apis/media_source_extensions/MediaSource)[apis/media\_source\_extensions/MediaSource](/apis/media_source_extensions/MediaSource)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var sourcebuffer = MediaSource.addSourceBuffer(MIME type);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>MIME type</span>
+### MIME type
 
  Data-type
 :   String
 
  The MIME type. This is expressed typically as 'video/mp4' or optionally as a MIME type and a codec: 'video/mp4;codecs=avc1.4d0020,mp4a.40.2'. Internet Explorer accepts both formats, though other browsers may require the codec be included.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
 Type: SourceBuffer The media source buffer.
 
-## <span>Examples</span>
+## Examples
 
 This example gets a video object, creates a new MediaSource object, and assigns the MediaSource object to the src (source) of the video object. It then waits for the sourceopen event to fire, and then creates a video SourceBuffer using addSourceBuffer.
 
@@ -88,7 +88,7 @@ function setupVideo() {
 
 </pre>
 
-## <span>Usage</span>
+## Usage
 
      Exceptions:
 
@@ -98,7 +98,7 @@ NOT\_SUPPORTED\_ERR If type contains a MIME type that's not supported or a MIME 
 
 QUOTA\_EXCEEDED\_ERR If the mediaSource can't handle any more SourceBuffer objects.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Media Source Extensions](http://www.w3.org/TR/media-source/)
 :   W3C Candidate Recommendation

@@ -19,13 +19,13 @@ tags:
 uri: apis/indexeddb/IDBKeyRange/lowerOpen
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns false if the lower-bound value is included in the key range. Returns true if the lower-bound value is excluded from the key range.
 
 Property of [apis/indexeddb/IDBKeyRange](/apis/indexeddb/IDBKeyRange)[apis/indexeddb/IDBKeyRange](/apis/indexeddb/IDBKeyRange)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.lowerOpen;
@@ -34,8 +34,8 @@ element.lowerOpen = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

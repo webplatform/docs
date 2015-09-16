@@ -9,7 +9,7 @@ tags:
 uri: font
 
 ---
-## <span>font</span>
+## font
 
 The collection of characters in a given style and/or weight, e.g., normal, **bold**, or *italic*, for a particular typeface.
 

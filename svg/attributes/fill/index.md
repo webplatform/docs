@@ -13,7 +13,7 @@ tags:
 uri: svg/attributes/fill
 
 ---
-## <span>Summary</span>
+## Summary
 
 The attribute fill specifies the filling color or the behavior of an animation after it has finished.
 
@@ -29,31 +29,31 @@ Applies to
 </td>
 </tr>
 </table>
-### <span>Context: Shapes and Text</span>
+### Context: Shapes and Text
 
 Fill defines the color of a surface of text or a shape.
 
-#### <span>Syntax</span>
+#### Syntax
 
     fill: none | currentColor | funciri | inherit
 
  This attribute has a corresponding [CSS property](/css/properties/fill).
 
-#### <span>Standards information</span>
+#### Standards information
 
 -   [Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols](http://www.w3.org/TR/SVG11/painting.html), Section 11.3
 
-### <span>Context: Animation Elements</span>
+### Context: Animation Elements
 
 Fill specifies whether after an animation the animated value should be preserved or removed from the element.
 
-#### <span>Syntax</span>
+#### Syntax
 
     fill: remove | freeze
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)

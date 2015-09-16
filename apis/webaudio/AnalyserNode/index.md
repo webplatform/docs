@@ -10,11 +10,11 @@ tags:
 uri: apis/webaudio/AnalyserNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 This interface represents a node which is able to provide real-time frequency and time-domain analysis information. The audio stream will be passed un-processed from input to output.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -34,7 +34,7 @@ API Name
 [smoothingTimeConstant](/apis/webaudio/AnalyserNode/smoothingTimeConstant)
 :   A value from 0 to 1 representing the averaging constant with the last analysis frame. Default is 0.8.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -48,11 +48,11 @@ API Name
 [getFloatFrequencyData](/apis/webaudio/AnalyserNode/getFloatFrequencyData)
 :   Copies the current frequency data into the passed floating-point array. If the array has fewer elements than the [**frequencyBinCount**](/apis/webaudio/AnalyserNode/frequencyBinCount), the excess elements will be dropped.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
 :   W3C Editor's Draft

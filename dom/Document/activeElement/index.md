@@ -22,13 +22,13 @@ tags:
 uri: dom/Document/activeElement
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the object that has the focus when the parent document has focus. If no element in the document has focus, returns the &lt;body&gt; element.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 var element = document.activeElement;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The currently active element of the document, or `<body>` if no element is active.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //display tag name of currently focused element
@@ -53,11 +53,11 @@ function getActiveElement () {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 The active element retains focus in the parent [**Document**](/dom/Document) even when focus is shifted from the parent to another application. If the focus returns to the parent **document**, focus also returns to the same active element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard

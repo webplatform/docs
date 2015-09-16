@@ -16,7 +16,7 @@ uri: svg/events/load
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -72,9 +72,9 @@ Default action
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **onload** event occurs when the browser has fully parsed the element and its descendants and is ready to act appropriately on that element, such as rendering the element to the target device. Before the event occurs, the browser must have loaded, parsed, and prepared referenced external resources for rendering. Optional external resources are not required to be ready for the event to occur.
 
@@ -82,20 +82,20 @@ The object that the event is specified for is loaded. To invoke this event, do o
 
 -   A user opens a page in the browser to fire this event for the document or any object within it.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Scripting](http://go.microsoft.com/fwlink/p/?linkid=204745), Section 18.4.2
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvt* [in]
 :   Type: **IDOMUIEvent**The [**IDOMEvent**](/w/index.php?title=dom/objects/Event&action=edit&redlink=1) object.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGAElement**](/svg/elements/a)
 -   [**SVGCircleElement**](/svg/elements/circle)

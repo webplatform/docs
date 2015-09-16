@@ -18,16 +18,16 @@ tags:
 uri: html/elements/custom
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a user-defined HTML tag (nonstandard)
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **custom** element to create custom RED, GREEN, and BLUE elements. These elements change the color of the text to red, green, or blue, depending on whether it is surrounded by RED, GREEN, or BLUE tags. In this example, the RED, GREEN, and BLUE tags are defined within a namespace called CUSTOMTAG.
 
@@ -61,14 +61,14 @@ and closing CUSTOMTAG:BLUE tags.
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/custom.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 To declare a namespace, use the [**XMLNS**](/apis/xhr/properties/XMLNS_attribute) attribute of the HTML element. When defining custom tags, you must enclose custom tag definitions within an [**@media**](/css/atrules/@media) wrapper. Custom tags become much more interesting when applied with a Dynamic HTML (DHTML) behavior. Dynamic HTML (DHTML) behaviors (or behaviors) and styles are applied to elements on a page the same way—using Cascading Style Sheets (CSS) attributes. More specifically, the proposed CSS [**behavior**](/css/media_queries/behavior) attribute enables a document author to specify the location of the behavior and apply that behavior to an element. The Windows Internet Explorer support for custom tags on an HTML page requires that a namespace be defined for the tag. Otherwise, the custom tag is treated as an unknown tag when the document is parsed. Although navigating to a page with an unknown tag in Internet Explorer does not result in an error, unknown tags have the disadvantage of not being able to contain other tags, nor can they have behaviors applied to them. This element is available in HTML and script as of Microsoft Internet Explorer 5.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Using Custom Tags in Internet Explorer`

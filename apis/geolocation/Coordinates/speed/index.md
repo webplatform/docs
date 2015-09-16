@@ -22,13 +22,13 @@ tags:
 uri: apis/geolocation/Coordinates/speed
 
 ---
-## <span>Summary</span>
+## Summary
 
 Denotes the magnitude of the horizontal component of the hosting device's current velocity specified in meters per second. If the implementation cannot provide speed information, the value of this attribute must be null. Otherwise, the value of this attribute must be a non-negative real number.
 
 Property of [apis/geolocation/Coordinates](/apis/geolocation/Coordinates)[apis/geolocation/Coordinates](/apis/geolocation/Coordinates)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,11 +36,11 @@ Property of [apis/geolocation/Coordinates](/apis/geolocation/Coordinates)[apis/g
 var result = Coordinates.speed;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 if (position.coords.speed > 0) {
@@ -50,7 +50,7 @@ if (position.coords.speed > 0) {
    }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

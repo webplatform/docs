@@ -13,11 +13,11 @@ tags:
 uri: css/functions/calc
 
 ---
-## <span>Summary</span>
+## Summary
 
 The calc() function can be used anywhere in a length is required by a CSS properties. calc() allows mathematical expressions with addition (‘+’), subtraction (‘-’), multiplication (‘\*’), and division (‘/’) to be used as component values. The values themselves can be a mixture of percentages, integers, numbers, lengths such as em or cm, angles or even time values ( seconds, milliseconds). Calc is useful for computing certain values that are not known at the development time or to set formulated values rather that arbitrary ones.
 
-## <span>Examples</span>
+## Examples
 
 This is an example of how can you use **calc** in CSS
 
@@ -44,11 +44,11 @@ This is an example of how can you use **calc** in CSS
 
 [View live example](http://code.webplatform.org/gist/d3322a08edaaaef9adaf)
 
-## <span>Notes</span>
+## Notes
 
 If you divide by zero it will cause an error in the HTML parser. Also the return value that will be computed must comply within the range of the relevant CSS target. For example width or height cannot be negative so it will be reverted to 0;
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C CSS Values and Units Module Level 3: Mathematical Expressions: "calc"](http://www.w3.org/TR/css3-values/#calc-notation)
 :   Candidate Reccomendation

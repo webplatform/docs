@@ -24,13 +24,13 @@ tags:
 uri: 'apis/battery status/BatteryManager/charging'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents if the system's battery is charging.
 
 Property of [apis/battery\_status/BatteryManager](/apis/battery_status/BatteryManager)[apis/battery\_status/BatteryManager](/apis/battery_status/BatteryManager)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [apis/battery\_status/BatteryManager](/apis/battery_status/BatteryMa
 var result = battery.charging;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 

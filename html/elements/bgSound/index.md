@@ -23,16 +23,16 @@ tags:
 uri: html/elements/bgSound
 
 ---
-## <span>Summary</span>
+## Summary
 
 The bgsound element (&lt;bgsound&gt;) instructs the browser to load and play a sound file while the user is on that page. Don't use it. Use the audio element instead.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLBGSoundElement](/dom/HTMLBGSoundElement)
 
-## <span>Examples</span>
+## Examples
 
 If you want to use sound, please use the [audio](/html/elements/audio) element:
 
@@ -54,25 +54,25 @@ If you want to use sound, please use the [audio](/html/elements/audio) element:
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The `<bgSound>` element can appear anywhere within the document. This element is not rendered. This element does not require a closing tag. Do not use it! In HTML5 the `<bgSound>` is described as ["non-conforming feature"](http://www.w3.org/TR/html5/obsolete.html#non-conforming-features).
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>HTML information</span>
+### HTML information
 
 {
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Audio</span>
+#### Audio
 
 -   [audio-video](/apis/audio-video)
 

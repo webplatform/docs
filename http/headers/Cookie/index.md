@@ -17,13 +17,13 @@ todo_broken_links:
 uri: http/headers/Cookie
 
 ---
-## <span>Summary</span>
+## Summary
 
 The Cookie headers may be used to receive the value of a cookie from a user agent. The value of the cookie will have been previously set though a script, or by the Set-Cookie header.
 
 Cookies have many issues associated with them, including security and CSRF attacks, privacy issues, and a nonstandard format compared to other HTTP headers.
 
-## <span>Overview table</span>
+## Overview table
 
 Direction
 :   Request
@@ -31,7 +31,7 @@ Direction
 Features
 :
 
-## <span>Syntax</span>
+## Syntax
 
     cookie-header = "Cookie:" OWS cookie-string OWS
     cookie-string = cookie-pair *( ";" SP cookie-pair )
@@ -43,7 +43,7 @@ Features
                            ; whitespace DQUOTE, comma, semicolon,
                            ; and backslash
 
-## <span>Examples</span>
+## Examples
 
 A user agent sending a cookie named "SID" with the value "31d4d96e407aad42".
 
@@ -51,7 +51,7 @@ A user agent sending a cookie named "SID" with the value "31d4d96e407aad42".
 Cookie: SID=31d4d96e407aad42
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTTP State Management Mechanism](http://tools.ietf.org/html/rfc6265)
 :

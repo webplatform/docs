@@ -19,28 +19,28 @@ tags:
 uri: dom/Location/assign
 
 ---
-## <span>Summary</span>
+## Summary
 
 Loads a new document from a given URL.
 
 Method of [dom/Location](/dom/Location)[dom/Location](/dom/Location)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  location.assign(url);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>url</span>
+### url
 
  Data-type
 :   String
 
  The URL of the document to load.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 

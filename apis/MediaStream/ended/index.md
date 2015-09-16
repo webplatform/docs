@@ -11,11 +11,11 @@ tags:
 uri: apis/MediaStream/ended
 
 ---
-## <span>Summary</span>
+## Summary
 
 All tracks of the MediaStream object have ended; the MediaStream is said to be finished.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -73,16 +73,16 @@ Property is read-only. Value becomes true at the moment the video content is fin
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Media Capture and Streams](http://dev.w3.org/2011/webrtc/editor/getusermedia.html#track-ended)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Multimedia</span>
+#### Multimedia
 
 -   **Track ended**
 
@@ -104,7 +104,7 @@ Property is read-only. Value becomes true at the moment the video content is fin
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-#### <span>WebRTC</span>
+#### WebRTC
 
 -   **Track ended**
 

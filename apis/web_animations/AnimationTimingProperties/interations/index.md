@@ -17,7 +17,7 @@ tags:
 uri: 'apis/web animations/AnimationTimingProperties/interations'
 
 ---
-## <span>Summary</span>
+## Summary
 
 See the iterations member of the AnimationTimingReadOnly interface.
 
@@ -25,7 +25,7 @@ Values less than zero and NaN values are treated as the value 1.0 for the purpos
 
 Property of [apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)[apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.interations;

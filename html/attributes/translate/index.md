@@ -11,7 +11,7 @@ tags:
 uri: html/attributes/translate
 
 ---
-## <span>Summary</span>
+## Summary
 
 The translate attribute indicates whether the element’s content and attribute values should be translated or not.
 
@@ -35,7 +35,7 @@ Elements with translate attributes of different values may be nested to indicate
 
 Overwriting "no" with "yes" is not widely supported by translation services yet.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 
@@ -60,13 +60,13 @@ Overwriting "no" with "yes" is not widely supported by translation services yet.
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 [Using HTML's translate attribute](http://www.w3.org/International/questions/qa-translate-flag)

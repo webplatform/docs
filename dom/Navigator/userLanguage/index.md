@@ -24,7 +24,7 @@ tags:
 uri: dom/Navigator/userLanguage
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the operating system's natural language setting.
 
@@ -32,7 +32,7 @@ This property reflects the setting in the "Your locale (location)" box in the Re
 
 Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -40,13 +40,13 @@ Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 var result = navigator.userLanguage;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 see [Language Codes](http://msdn.microsoft.com/en-us/library/ms533052(v=vs.85).aspx) for a full listing of possible values.
 
-## <span>Examples</span>
+## Examples
 
 This example enumerates the properties and methods of your web browsers 'navigator' object and displays the results on the screen.
 
@@ -58,16 +58,16 @@ the navigator.userLanguage may or may not be supported by your web browser.
 
 [View live example](http://result.dabblet.com/gist/b1e7c611e97594b60956/56337717d0b88e99b8944707d60bb7072b359788)
 
-## <span>Usage</span>
+## Usage
 
      Do not use as this property reflects the language preferences of the users' Operating system NOT their language preferences for web content.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This property reflects the setting in the "Your locale (location)" box in the Regional Options of Control Panel—for example, "English (United States).
 
-### <span>Syntax</span>
+### Syntax
 
 var result=navigator.userLanguage;

@@ -9,11 +9,11 @@ tags:
 uri: apis/location
 
 ---
-## <span>Summary</span>
+## Summary
 
 The location object provides access to the address related properties of the current document.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -44,7 +44,7 @@ API Name
 [search](/apis/location/search)
 :   The search property contains the query string portion of the current url.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -58,11 +58,11 @@ API Name
 [replace](/apis/location/replace)
 :   Similar to `window.location.assign`, except that it "replaces" the current document, removing the previous one from the back button history.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 Redirect the current page to example.org.
 
@@ -78,7 +78,7 @@ if(window.location == "http://example.org/"){
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      The location object can be used as an object or a string.
 

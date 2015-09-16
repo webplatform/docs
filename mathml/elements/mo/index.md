@@ -13,11 +13,11 @@ tags:
 uri: mathml/elements/mo
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML mo element represents an operator in a broad sense. Besides operators in strict mathematical meaning, this element also includes &quot;operators&quot; like parentheses, separators like comma and semicolon, or &quot;absolute value&quot; bars.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)

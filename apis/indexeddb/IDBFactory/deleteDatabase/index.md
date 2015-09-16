@@ -24,34 +24,34 @@ tags:
 uri: apis/indexeddb/IDBFactory/deleteDatabase
 
 ---
-## <span>Summary</span>
+## Summary
 
 Deletes a database with the specified name.
 
 Method of [apis/indexeddb/IDBFactory](/apis/indexeddb/IDBFactory)[apis/indexeddb/IDBFactory](/apis/indexeddb/IDBFactory)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var dbOpenRequest = window.indexeddb.deleteDatabase(name);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The name of the database to delete.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 An **IDBOpenRequest** request object that fires events to indicate the result of the request.
 
-## <span>Examples</span>
+## Examples
 
 Delete a database
 
@@ -72,7 +72,7 @@ var dbDeleteRequest = window.indexedDB.deleteDatabase("BookShop1");
 
 [View live example](http://nparashuram.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#deleteDB&)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

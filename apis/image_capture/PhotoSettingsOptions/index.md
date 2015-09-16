@@ -12,19 +12,19 @@ tags:
 uri: 'apis/image capture/PhotoSettingsOptions'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides the photo-specific settings options and current settings values.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 

@@ -18,46 +18,46 @@ tags:
 uri: dom/CharacterData/replaceData
 
 ---
-## <span>Summary</span>
+## Summary
 
 Replaces a specified range of characters in the node with a new character string.
 
 Method of [dom/CharacterData](/dom/CharacterData)[dom/CharacterData](/dom/CharacterData)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  textualNode.replaceData(offset, count, text);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>offset</span>
+### offset
 
  Data-type
 :   String
 
  The zero-based offset from which to start.
 
-### <span>count</span>
+### count
 
  Data-type
 :   String
 
  The number of characters to replace.
 
-### <span>text</span>
+### text
 
  Data-type
 :   String
 
  The new character string.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 //create text node
@@ -68,11 +68,11 @@ phrase.replaceData(23, 4, "way");
 alert(phrase.data);
 ```
 
-## <span>Notes</span>
+## Notes
 
 If the sum of the *offset* and *count* parameters exceeds the number of characters in the object, then all the characters from the offset to the end of the data are replaced.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

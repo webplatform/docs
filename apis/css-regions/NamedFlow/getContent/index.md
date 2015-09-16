@@ -21,25 +21,25 @@ tags:
 uri: apis/css-regions/NamedFlow/getContent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a static collection of nodes representing the flow's source content.
 
 Method of [apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)[apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var elements = flow.getContent();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type functionfunction
 
 Returns a static collection of nodes representing the flow's source content.
 
-## <span>Examples</span>
+## Examples
 
 Get the last source element whose [**flow-into**](/css/properties/flow-into) adds it to the flow:
 
@@ -52,16 +52,16 @@ var elements = flow.getContent();
 var lastElement = elements[elements.length-1];
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -119,7 +119,7 @@ var lastElement = elements[elements.length-1];
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

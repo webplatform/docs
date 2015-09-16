@@ -13,7 +13,7 @@ tags:
 uri: css/functions/sepia
 
 ---
-## <span>Summary</span>
+## Summary
 
 Apply a sepia tinge to an element's color, typical of old photographs, for use by the filter property. A decimal value between 0 and 1 or percentage up to 100% controls the extent of the sepia effect.
 
@@ -24,7 +24,7 @@ Apply a sepia tinge to an element's color, typical of old photographs, for use b
 
   ![f07-lenna.jpg](/assets/thumb/e/e6/f07-lenna.jpg/300px-f07-lenna.jpg)![f08-lennasepia.jpg](/assets/thumb/7/70/f08-lennasepia.jpg/300px-f08-lennasepia.jpg)
 
-## <span>Examples</span>
+## Examples
 
 The following example shows the difference between two images, where one is fully in sepia colors.
 
@@ -54,7 +54,7 @@ The following example shows the difference between two images, where one is full
 
 [View live example](http://codepen.io/pverbeek/pen/jKioA)
 
-## <span>Notes</span>
+## Notes
 
 The CSS filter corresponds to this SVG filter definition, based on a variable *amount* passed to the function:
 
@@ -68,7 +68,7 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 </filter>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#)
 :   Editor's Draft
@@ -76,11 +76,11 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 
@@ -164,7 +164,7 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### <span>External resources</span>
+### External resources
 
 -   [Adobe CSS FilterLab](http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/)
 -   [Interactive demonstration](http://html5-demos.appspot.com/static/css/filters/index.html)

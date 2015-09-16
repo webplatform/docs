@@ -20,13 +20,13 @@ tags:
 uri: dom/Element/nextElementSibling
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the element node that is a sibling to this element node (a direct child of the same parent) and is immediately after it in the DOM tree, ignoring text nodes, comment nodes and any other non-element nodes. If there is no next element sibling, the property value is null. Read-only.
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,7 +34,7 @@ Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 var result = element.nextElementSibling;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to get the content of a list using firstElementChild, nextElementSibling, previousElementSibling, and lastElementChild to traverse the document tree.
 
@@ -88,8 +88,8 @@ This example shows how to get the content of a list using firstElementChild, nex
 </html>
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Element Traversal Specification](http://go.microsoft.com/fwlink/p/?linkid=182722), Section 2.4

@@ -22,7 +22,7 @@ uri: dom/Document/scripts
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.scripts;
@@ -31,12 +31,12 @@ element.scripts = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This collection contains all the scripts in the document in source order regardless of the script's location in the document (whether in the **head** or **body**). If duplicate identifiers are found, a collection of those items is returned. Collections of duplicates must be referenced subsequently by ordinal position.
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

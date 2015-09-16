@@ -14,7 +14,7 @@ uri: dom/Event/bounce
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -68,7 +68,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example shows how to display an alert each time the **onbounce** event occurs.
 
@@ -83,9 +83,9 @@ This example shows how to display an alert each time the **onbounce** event occu
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbounceEX.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **marquee** contents begin to scroll in the opposite direction. To invoke this event, do one of the following:
 
@@ -118,20 +118,20 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `marquee`
 -   `behavior`

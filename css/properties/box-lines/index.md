@@ -25,13 +25,13 @@ todo_broken_links:
 uri: css/properties/box-lines
 
 ---
-## <span>Summary</span>
+## Summary
 
 Do not use. This property has been replaced by the flex-wrap property.
 
 Gets or sets a value that specifies whether child elements wrap onto multiple lines or columns based on the space available in the object.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `single`
@@ -54,12 +54,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `box-lines: multiple`
 -   `box-lines: single`
 
-## <span>Values</span>
+## Values
 
 single
 :   Default.
@@ -71,22 +71,22 @@ multiple
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Each child element is resized to its minimum width or height before the object is resized to accomodate additional rows or columns. Each successive rows is inserted below the previous row when [**-box-direction**](/css/properties/box-direction) is set to `normal` or above the previous row when **box-direction** is set to `reverse`. Each successive column is inserted to the right of the previous column when [**-box-direction**](/css/properties/box-direction) is set to `normal` or to the left of the previous column when **-ms-box-direction** is set to `reverse`.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Flexible Box Layout Module](http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/)
 :   W3C Working Draft (Obsolete)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Layout</span>
+#### CSS Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -130,7 +130,7 @@ Each child element is resized to its minimum width or height before the object i
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-### <span>Related pages</span>
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

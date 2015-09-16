@@ -18,7 +18,7 @@ uri: dom/HTMLMediaElement
 
 Inherits from [HTMLElement](/dom/HTMLElement)[HTMLElement](/dom/HTMLElement)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -92,7 +92,7 @@ API Name
 [volume](/dom/HTMLMediaElement/volume)
 :
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -109,7 +109,7 @@ API Name
 [play](/dom/HTMLMediaElement/play)
 :   Loads and starts playback of a media resource.
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -123,9 +123,9 @@ API Name
 [progress](/dom/HTMLMediaElement/progress)
 :   Fires to indicate progress while downloading media data.
 
-## <span>Inherited from HTMLElement</span>
+## Inherited from HTMLElement
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -1042,7 +1042,7 @@ API Name
 [text-anchor](/svg/attributes/text-anchor)
 :
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -1101,7 +1101,7 @@ API Name
 [toStaticHTML](/dom/HTMLElement/toStaticHTML)
 :
 
-### <span>Events</span>
+### Events
 
 *No events.*
 

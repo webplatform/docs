@@ -11,11 +11,11 @@ tags:
 uri: javascript/Array/splice
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -30,7 +30,7 @@ Removes elements from an array and, if necessary, inserts new elements in their 
 **item1, item2,. . ., itemN**
 :   Optional. Elements to insert into the array in place of the deleted elements.
 
-## <span>Examples</span>
+## Examples
 
 The following code shows how to use the **splice** method.
 
@@ -42,13 +42,13 @@ var arr = new Array("4", "11", "2", "10", "3", "1");
  // Output: 4,11,21,31,3,1
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **splice** method modifies arrayObj by removing the specified number of elements from position start and inserting new elements. The deleted elements are returned as a new **Array** object.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.12 Array.prototype.splice (start, deleteCount [ , item1 [ , item2 [ , …](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.12) ] ] )] ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

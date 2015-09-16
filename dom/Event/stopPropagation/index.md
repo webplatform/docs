@@ -20,40 +20,40 @@ tags:
 uri: dom/Event/stopPropagation
 
 ---
-## <span>Summary</span>
+## Summary
 
 Prevents propagation of an event beyond the current target.
 
 Method of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  event.stopPropagation();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Use this method to stop event propagation in the capturing or bubbling event phase.
 
-## <span>Notes</span>
+## Notes
 
 The event dispatches to all event listeners on the current target (regardless of capturing or bubbling) before the event flow stops. To completely prevent any remaining handlers from running, use the [**stopImmediatePropagation**](/dom/Event/stopImmediatePropagation) method instead.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

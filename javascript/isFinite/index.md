@@ -10,11 +10,11 @@ tags:
 uri: javascript/isFinite
 
 ---
-## <span>Summary</span>
+## Summary
 
 Determines whether a supplied number is finite.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,11 +23,11 @@ Determines whether a supplied number is finite.
 **number**
 :   Required. Any numeric value
 
-## <span>Return Value</span>
+## Return Value
 
 Returns true if *number* is any value other than **NaN**, -Infinity or Infinity. In those three cases, it returns **false**.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 isFinite(); // false, because its NaN
@@ -36,9 +36,9 @@ isFinite(-Infinity); //false
 isFinite(4 / 0); //false
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [isNaN Function](/javascript/isNaN)
 -   [Infinity](/javascript/Infinity)

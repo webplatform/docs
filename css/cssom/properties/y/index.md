@@ -28,13 +28,13 @@ todo_broken_links:
 uri: css/cssom/properties/y
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets an element's vertical (y) position.
 
 Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.y;
@@ -43,21 +43,21 @@ element.y = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 A positioned element is an element whose position property is set to `relative`, `absolute` or `fixed`. For more information about element positioning, see About Element Positioning.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793)
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `DragEvent`
 -   `MouseEvent`

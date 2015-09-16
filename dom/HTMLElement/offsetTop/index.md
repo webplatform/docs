@@ -24,14 +24,14 @@ uri: dom/HTMLElement/offsetTop
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.offsetTop;
 element.offsetTop = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **offsetTop** property to determine whether an object is in the user's view.
 
@@ -77,10 +77,10 @@ function isinView(oObject)
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/offsetTop.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 You can determine the location, width, and height of an object by using a combination of the [**offsetLeft**](/dom/HTMLElement/offsetLeft), **offsetTop**, [**offsetHeight**](/dom/HTMLElement/offsetHeight), and [**offsetWidth**](/dom/HTMLElement/offsetWidth) properties. These numeric properties specify the physical coordinates and dimensions of the object relative to the object's offset parent. For more information about how to access the dimension and location of objects on the page through the Dynamic HTML (DHTML) Document Object Model (DOM), see Measuring Element Dimension and Location with CSSOM in Internet Explorer 9.
 
-### <span>Syntax</span>
+### Syntax

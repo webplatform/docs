@@ -26,7 +26,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example provides the full code for an image map of the solar system. Clicking on the sun or any planet links to an individual image.
 
@@ -66,17 +66,17 @@ This example provides the full code for an image map of the solar system. Clicki
 </MAP>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 For [**a**](/html/elements/a) objects, you must set the value of this property before you can retrieve it. This satisfies the requirements of [World Wide Web Consortium (W3C) Document Object Model (DOM) Level 1](http://go.microsoft.com/fwlink/p/?linkid=203744). The document author is responsible for implementing the functionality defined in [HTML 4.0](http://go.microsoft.com/fwlink/p/?linkid=203769) for **a** objects, if desired. You must set the value of this property before you can retrieve it. For **area** objects, the format of *p* depends on the value of the [**SHAPE**](/html/attributes/shape) attribute of the object, as follows: {
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`
 -   `area`

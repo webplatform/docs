@@ -11,22 +11,22 @@ tags:
 uri: svg/properties/baseFrequencyX
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 For markup, you can use **baseFrequency** to combine **baseFrequencyX** and [**baseFrequencyY**](/svg/properties/baseFrequencyY).
 
 The larger the base frequency number, the more quickly the colors change. The number must be positive and provides good results if the number is less than 1. If no number is provided, the value is assumed to be zero.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.27
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFETurbulenceElement**](/svg/elements/feTurbulence)

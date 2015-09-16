@@ -10,11 +10,11 @@ tags:
 uri: javascript/DataView
 
 ---
-## <span>Summary</span>
+## Summary
 
 You can use a DataView object to read and write the different kinds of binary data to any location in the ArrayBuffer.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -32,7 +32,7 @@ You can use a DataView object to read and write the different kinds of binary da
 **byteLength**
 :   Optional. Specifies the length (in bytes) of the section of the buffer that the DataView should represent.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use a DataView object to process the binary data acquired from an XmlHttpRequest:
 
@@ -55,11 +55,11 @@ var req = new XMLHttpRequest();
      }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 If both byteOffset and byteLength are omitted, the DataView spans the entire ArrayBuffer range. If the byteLength is omitted, the DataView extends from the given byteOffset until the end of the ArrayBuffer. If the given byteOffset and byteLength references an area beyond the end of the ArrayBuffer, an exception is raised.
 
-## <span>Properties</span>
+## Properties
 
 The following table lists the properties of the **DataView** object.
 
@@ -69,7 +69,7 @@ The following table lists the properties of the **DataView** object.
 |[byteLength Property](/javascript/DataView/byteLength)|Read-only. The length of this view from the start of its ArrayBuffer, in bytes, as fixed at construction time.|
 |[byteOffset Property](/javascript/DataView/byteOffset)|Read-only. The offset of this view from the start of its ArrayBuffer, in bytes, as fixed at construction time.|
 
-## <span>Methods</span>
+## Methods
 
 The following table lists the methods of the **DataView** object.
 

@@ -15,7 +15,7 @@ tags:
 uri: html/attributes/cells
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves a collection of all cells in the table row or in the entire table.
 
@@ -31,7 +31,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the **cellspacing** attribute and the **cellSpacing** property to change the spacing between two cells.
 
@@ -49,16 +49,16 @@ This example uses the **cellspacing** attribute and the **cellSpacing** property
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cellSpacing.htm)
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 11.3.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `table`
 -   `cellPadding`

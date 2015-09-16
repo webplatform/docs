@@ -22,13 +22,13 @@ tags:
 uri: apis/NodeList/length
 
 ---
-## <span>Summary</span>
+## Summary
 
 The number of nodes in the list.
 
 Property of [dom/NodeList](/dom/NodeList)[dom/NodeList](/dom/NodeList)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,11 +36,11 @@ Property of [dom/NodeList](/dom/NodeList)[dom/NodeList](/dom/NodeList)
 var result = list.length;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!-- Three divs -->
@@ -67,7 +67,7 @@ Returns an object of type unsigned longunsigned long
 
 [View live example](http://result.webplatformstaging.org/gist/66472399f3509d96204a/37c44f44eee101bcc19487fd1cf470e8a5c998d8)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-536297177)
 :   Recommendation

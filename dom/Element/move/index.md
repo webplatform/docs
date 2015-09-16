@@ -14,7 +14,7 @@ uri: dom/Element/move
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -68,7 +68,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **onmove** event and display the x and y coordinates of a **DIV** as it is moved.
 
@@ -99,9 +99,9 @@ Movable DIV</div>
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onmoveEx1.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This event can be bound to relatively positioned elements as well as absolutely positioned elements. This event does not fire when it is bound to an object inside a container object that moves. Calls the associated event handler if there is one. To invoke this event, do one of the following:
 
@@ -134,13 +134,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

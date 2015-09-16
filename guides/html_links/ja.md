@@ -9,6 +9,6 @@ tags:
 uri: 'guides/html links/ja'
 
 ---
-## <span>Summary</span>
+## Summary
 
 この文書では、HTMLのアンカーの基本的な取り扱い方を提供します。すなわち、&lt;a&gt; 要素で、HTMLのリンクとして一般的には知られています。

@@ -16,11 +16,11 @@ tags:
 uri: css/properties/kerning-mode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Obsolete: Unsupported
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :
@@ -43,13 +43,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [ ]
 :   Obsolete
@@ -57,11 +57,11 @@ Animatable
 [ ]
 :
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Font</span>
+#### CSS Font
 
 -   [font-family](/css/properties/font-family)
 

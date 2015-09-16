@@ -22,13 +22,13 @@ tags:
 uri: dom/DataTransfer/types
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns an array listing the formats that were set in the dragstart event. If any files are being dragged, one of the types will be the string &quot;Files&quot;.
 
 Property of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTransfer)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTra
 var dragTypes = event.dataTransfer.types;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 An array of dragged formats.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //retrieve array of formats being dragged
@@ -52,7 +52,7 @@ function getDragTypes(e) {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation

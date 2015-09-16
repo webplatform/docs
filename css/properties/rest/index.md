@@ -20,11 +20,11 @@ tags:
 uri: css/properties/rest
 
 ---
-## <span>Summary</span>
+## Summary
 
 The rest property determines how long a speech media agent should pause in between presenting an element's main content and presenting the before and after cue sounds. It is a shorthand for the rest-before and rest-after properties.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none none`
@@ -47,13 +47,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Speech Module](http://www.w3.org/TR/css3-speech/#rest-props-rest)
 :   W3C Candidate Recommendation

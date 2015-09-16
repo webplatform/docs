@@ -12,21 +12,21 @@ tags:
 uri: css/functions/translateX()
 
 ---
-## <span>Summary</span>
+## Summary
 
 Transform function for a 2d translation which moves an element on the x-axis by the given value.
 
-## <span>Syntax</span>
+## Syntax
 
 **translateX ( \<translation-value\> )**
 
-## <span>Parameters</span>
+## Parameters
 
 **translation-value**
 
 *Value for the translation across the x-axis. Can be a [length](/css/data_types/length) or a [percentage](/css/data_types/percentage) value.*
 
-## <span>Examples</span>
+## Examples
 
 The example shows three div elements, that are transformed individually with the translateX() function.
 
@@ -50,11 +50,11 @@ The example shows three div elements, that are transformed individually with the
 
 [View live example](http://codepen.io/Fischaela/pen/dHgbL)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Transforms</span>
+#### Transforms
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -88,7 +88,7 @@ The example shows three div elements, that are transformed individually with the
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>External resources</span>
+### External resources
 
 -   [CSS Transforms Module, Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223145), Section 13.1
 -   [Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246)

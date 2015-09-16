@@ -24,13 +24,13 @@ tags:
 uri: dom/Document/documentElement
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the root node of the document.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 var documentElement = document.documentElement;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The root element of the document.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **documentElement** property to get the [**innerHTML**](/dom/HTMLElement/innerHTML) property of the entire document, essentially everything inside the `<html>...</html>` tags.
 
@@ -66,11 +66,11 @@ window.addEventListener("load", getHTML, false);
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The root node of a typical HTML document is the **html** object.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/core.html#i-Document)
 :   Recommendation

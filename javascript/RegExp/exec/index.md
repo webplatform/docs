@@ -13,11 +13,11 @@ tags:
 uri: javascript/RegExp/exec
 
 ---
-## <span>Summary</span>
+## Summary
 
 Executes a search on a string using a regular expression pattern, and returns an array containing the results of that search.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Executes a search on a string using a regular expression pattern, and returns an
 **str**
 :   Required. The String object or string literal on which to perform the search.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **exec** method:
 
@@ -60,7 +60,7 @@ function RegExpTest()
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 If the **exec** method does not find a match, it returns null. If it finds a match, **exec** returns an array, and the properties of the global **RegExp** object are updated to reflect the results of the match. Element zero of the array contains the entire match, while elements 1 - n contain any submatches that have occurred within the match. This behavior is identical to the behavior of the **match** method without the global flag ( **g** ) set.
 
@@ -68,9 +68,9 @@ If the global flag is set for a regular expression, **exec** searches the string
 
 The array returned by the **exec** method has three properties, **input** , **index** and **lastIndex.** The **input** property contains the entire searched string. The **index** property contains the position of the matched substring within the complete searched string. The **lastIndex** property contains the position following the last character in the match.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [match Method (String)](/javascript/String/match)
 -   [RegExp Object](/javascript/RegExp)

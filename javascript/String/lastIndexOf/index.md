@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/lastIndexOf
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the last occurrence of a substring in the string.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Returns the last occurrence of a substring in the string.
 **startindex**
 :   Optional. The index at which to begin searching. If omitted, the search begins at the end of the string.
 
-## <span>Examples</span>
+## Examples
 
 The **lastIndexOf** method returns an integer value indicating the beginning of the substring within the String object. If the substring is not found, a -1 is returned.
 
@@ -54,9 +54,9 @@ document.write(s);
 // abc is at position -1
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [indexOf Method (String)](/javascript/String/indexOf)
 

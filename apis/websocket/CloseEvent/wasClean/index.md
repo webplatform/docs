@@ -25,13 +25,13 @@ tags:
 uri: apis/websocket/CloseEvent/wasClean
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates whether the WebSocket connection was cleanly closed.
 
 Property of [apis/websocket/CloseEvent](/apis/websocket/CloseEvent)[apis/websocket/CloseEvent](/apis/websocket/CloseEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,11 +39,11 @@ Property of [apis/websocket/CloseEvent](/apis/websocket/CloseEvent)[apis/websock
 var result = element.wasClean;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 

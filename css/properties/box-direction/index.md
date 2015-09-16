@@ -26,11 +26,11 @@ todo_broken_links:
 uri: css/properties/box-direction
 
 ---
-## <span>Summary</span>
+## Summary
 
 Deprecated
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -53,13 +53,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `box-direction: inherit`
 -   `box-direction: normal`
 -   `box-direction: reverse`
 
-## <span>Values</span>
+## Values
 
 normal
 :   Default.
@@ -82,28 +82,28 @@ inherit
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Do not use. This property has been replaced by the -ms-flex-direction property, and is no longer recognized by Windows Internet Explorer. To ensure compatibility in the future, applications using this property should be updated accordingly. Gets or sets a value that specifies the display order (along the axis defined by the -ms-box-orient property) of all child elements of the object.
 
 This property is read/write.
 
-### <span>Syntax</span>
+### Syntax
 
 `-ms-box-direction: normal | reverse | inherit`
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Flexible Box Layout Module](http://go.microsoft.com/fwlink/p/?linkid=223142), Section 3
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Flexible Box Layout Module](http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/)
 :   W3C Working Draft (Obsolete)
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

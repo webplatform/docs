@@ -16,19 +16,19 @@ tags:
 uri: dom/Element/scrollIntoView
 
 ---
-## <span>Summary</span>
+## Summary
 
 Scrolls the page to the point where the element shows up.
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  element.scrollIntoView();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 

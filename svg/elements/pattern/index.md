@@ -14,16 +14,16 @@ tags:
 uri: svg/elements/pattern
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines a block of graphics which can be used as a repeating pattern tile to paint the fill or stroke of other elements.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, a pattern fills a circle. The pattern is made up of a repeated series of wedge-shaped paths. Copy this sample to a text file and save it with the *.html* file extension. Run it in Internet Explorer 9 to see the pattern-filled circle.
 
@@ -57,9 +57,9 @@ The pattern-filled circle will look like this:
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -69,11 +69,11 @@ The [**x**](/svg/properties/x), [**y**](/svg/properties/y), [**width**](/svg/pro
 
 For more information, see [Scalable Vector Graphics (SVG) 1.0 Specification](http://go.microsoft.com/fwlink/p/?linkid=203737).
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.5
 
-### <span>Members</span>
+### Members
 
 The **SVGPatternElement** object has these events:
 
@@ -113,7 +113,7 @@ coordinate system onto the target coordinate system.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [SVG 1.1](http://www.w3.org/TR/SVG11/pservers.html#Patterns)
 :   W3C Recommendation

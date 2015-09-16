@@ -26,7 +26,7 @@ invalid=
 
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Examples</span>
+## Examples
 
 The following example puts a green border on a field when it is valid and a red border with bold text when it isn't. The email field is required, but the others aren't. The URL field is pre-filled with a bad URL, so it isn't valid when the page opens. In addition, the two optional fields are styled with light gray backgrounds, and the required field with an eye-catching yellow background.
 
@@ -64,13 +64,13 @@ The following example puts a green border on a field when it is valid and a red 
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The criteria used to determine whether an input field is *valid* correspond to the properties of the [ValidityState](http://go.microsoft.com/fwlink/p/?LinkID=233317) Document Object Model (DOM) object. For more information on determining validity, see the following reference topics: {
 
-### <span>Syntax</span>
+### Syntax
 
 selector
 
@@ -80,16 +80,16 @@ invalid
 
 </dd>
 </dl>
-### <span>Parameters</span>
+### Parameters
 
 *selector*
 :   A CSS simple selector.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Pseudo-Classes</span>
+#### Pseudo-Classes
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -141,7 +141,7 @@ invalid
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -217,7 +217,7 @@ invalid
 
 -   [type](/css/selectors/type)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTML5 Forms (Internet Explorer 10 Guide for Developers)`
 -   `validity attribute`

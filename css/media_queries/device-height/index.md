@@ -20,7 +20,7 @@ uri: 'css/media queries/device-height'
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Media Queries Level 4](http://www.w3.org/TR/mediaqueries-4/)
 :   Working Draft
@@ -28,11 +28,11 @@ uri: 'css/media queries/device-height'
 [Media Queries](http://www.w3.org/TR/css3-mediaqueries/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Media Queries</span>
+#### Media Queries
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 

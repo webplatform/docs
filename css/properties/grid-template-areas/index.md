@@ -20,11 +20,11 @@ tags:
 uri: css/properties/grid-template-areas
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies named grid areas which are not associated with any particular grid item, but can be referenced from the grid-placement properties. The syntax of the grid-template-areas property also provides a visualization of the structure of the grid, making the overall layout of the grid container easier to understand.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -50,12 +50,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `grid-template-areas: <string>`
 -   `grid-template-areas: none`
 
-## <span>Values</span>
+## Values
 
 none
 :   The grid container does not define any named grid areas.
@@ -63,7 +63,7 @@ none
 \<string\>
 :   A row is created for every separate string listed, and a column is created for each identifier or period (".") in the string. A period represents an unnamed area in the grid container. An identifier creates a named grid area with the identifier as its name.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /*
@@ -87,7 +87,7 @@ The head area spans both columns in the first row of the grid.
 </style>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Grid Layout Module](http://www.w3.org/TR/css3-grid-layout)
 :   W3C Working Draft

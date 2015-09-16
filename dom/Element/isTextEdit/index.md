@@ -22,7 +22,7 @@ uri: dom/Element/isTextEdit
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.isTextEdit;
@@ -31,10 +31,10 @@ element.isTextEdit = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 To create a [**TextRange**](/dom/TextRange) object, you can use only the **body**, **button**, and **textArea** objects and an **input** object with one of the following types: **button**, **hidden**, **password**, **reset**, **submit**, or **text**.
 
-### <span>Syntax</span>
+### Syntax

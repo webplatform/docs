@@ -11,9 +11,9 @@ tags:
 uri: svg/properties/lengthAdjust
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Indicates the type of adjustments to perform in order to make the rendered length of the text match the value specified on the [**textLength**](/svg/properties/textLength) attribute.
 
@@ -27,15 +27,15 @@ Be aware that, for a text string that contains *n* characters, the adjustments t
 
 If the attribute is not specified, the effect is as if a value of **spacing** were specified.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.4
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGTextElement**](/svg/elements/text)
 -   [**SVGTextPositioningElement**](/svg/elements/textPositioning)

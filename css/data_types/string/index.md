@@ -11,7 +11,7 @@ tags:
 uri: 'css/data types/string'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &lt;string&gt; CSS data type represents character data surrounded with either single (') or double (&quot;) quote characters. Any unicode characters can be included in the string, but many need to be expressed with escape sequences.
 
@@ -30,7 +30,7 @@ The following characters always need to be escaped:
 
 If you wish to break a long string of text across multiple lines in your source code, you can insert a **\\** escape character immediately before the line break. The escaped linebreak is **not** included in the resulting string. To include a line break character in the final string value, you will also need to add a **\\a** escape sequence.
 
-## <span>Examples</span>
+## Examples
 
 **Escape characters in strings**
 
@@ -52,7 +52,7 @@ the live code examples?
 
 [View live example](http://code.webplatform.org/gist/10608944)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/#strings)
 :   W3C Candidate Recommendation

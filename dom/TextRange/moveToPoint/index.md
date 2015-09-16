@@ -24,35 +24,35 @@ tags:
 uri: dom/TextRange/moveToPoint
 
 ---
-## <span>Summary</span>
+## Summary
 
 Moves the start and end positions of the text range to the given point.
 
 Method of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = textRange.moveToPoint(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
+### x
 
  Data-type
 :   Number
 
 **Integer** that specifies the horizontal offset relative to the upper-left corner of the window, in pixels.
 
-### <span>y</span>
+### y
 
  Data-type
 :   Number
 
 **Integer** that specifies the vertical offset relative to the upper-left corner of the window, in pixels.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -60,7 +60,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **moveToPoint** method to move the text range to the point where the user clicked the mouse, expands the range, and selects the text within the new range.
 
@@ -99,8 +99,8 @@ The following example moves the caret in harmony with the mouse as it moves over
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The coordinates of the point must be in pixels and be relative to the upper-left corner of the window. The resulting text range is empty, but you can expand and move the range using methods such as **expand** and [**moveEnd**](/dom/TextRange/moveEnd). This feature might not be available on non-Microsoft Win32 platforms.

@@ -26,7 +26,7 @@ uri: dom/Element/error
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.error;
@@ -35,9 +35,9 @@ element.error = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Fires the **onerror** event and passes the associated error to the **error** property. Error codes map directly to World Wide Web Consortium (W3C) file errors, as described in the following table.
 
@@ -77,11 +77,11 @@ Fires the **onerror** event and passes the associated error to the **error** pro
 
   This property is `null` unless there is an error.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `FileReader`
 -   `msStreamReader`

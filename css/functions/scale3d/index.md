@@ -14,11 +14,11 @@ tags:
 uri: css/functions/scale3d()
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines a three-dimensional transformation to change the scale of the element by setting specific scaling factors in each of the x, y, and z directions. All three parameters must be specified.
 
-## <span>Examples</span>
+## Examples
 
 The following code snippet is an example of the **scale3d** function in use. When applied to a square blue [**div**](/html/elements/div) element, it has the effect illustrated in the image. (The light-blue square indicates the original position of the transformed element.)
 
@@ -30,11 +30,11 @@ div {
 
 [View live example](http://code.webplatform.org/gist/5305309)
 
-### <span>Syntax</span>
+### Syntax
 
 **scale3d** `( <scaling-value-x>  ,  <scaling-value-y>  ,  <scaling-value-z> )`
 
-### <span>Parameters</span>
+### Parameters
 
 *scaling-value-x*
 :   Numerical value by which to scale the specified element in the *x*-direction.
@@ -43,15 +43,15 @@ div {
 *scaling-value-z*
 :   Numerical value by which to scale the specified element in the *z*-direction.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Transforms Module, Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223145), Section 13.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Transforms</span>
+#### Transforms
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -85,7 +85,7 @@ div {
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`

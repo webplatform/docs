@@ -19,13 +19,13 @@ tags:
 uri: apis/indexeddb/IDBTransaction/onabort
 
 ---
-## <span>Summary</span>
+## Summary
 
 The event handler for the onabort event.
 
 Property of [apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)[apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onabort;

@@ -10,13 +10,13 @@ tags:
 uri: javascript/Number/constants
 
 ---
-## <span>Summary</span>
+## Summary
 
 The following number constants are properties of the Number object.
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Number Object Constants</span>
+## Number Object Constants
 
 You do not have to create **Number** object to access these constants.
 
@@ -28,9 +28,9 @@ You do not have to create **Number** object to access these constants.
 |**Number.NEGATIVE\_INFINITY**|A value that is less than the largest negative number that can be represented in JavaScript.JavaScript displays NEGATIVE\_INFINITY values as `-infinity`.|
 |**Number.POSITIVE\_INFINITY**|A value greater than the largest number that can be represented in JavaScript.JavaScript displays POSITIVE\_INFINITY values as `infinity`.|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math Constants](/javascript/Math/constants)
 -   [JavaScript Constants](/javascript/constants)

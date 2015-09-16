@@ -12,10 +12,10 @@ tags:
 uri: 'tutorials/css box shadow'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article is about adding depth with CSS box-shadow.
 
-## <span>Content Needed</span>
+## Content Needed
 
 This topic seemed like a good idea, we just ran out of time. If you have the time to write it up, please do. We’re all pitching in here at WPD. Thanks!

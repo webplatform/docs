@@ -17,16 +17,16 @@ tags:
 uri: html/elements/samp
 
 ---
-## <span>Summary</span>
+## Summary
 
 The samp element represents output from a program or computing system.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **samp** element to create a code sample.
 
@@ -35,11 +35,11 @@ This example uses the **samp** element to create a code sample.
 <samp>Done, without errors</samp>.</p>
 ```
 
-## <span>Usage</span>
+## Usage
 
      The samp element is a phrasing-level element. It must not contain block-level elements, but it can contain other phrasing-level elements.
 
-## <span>Notes</span>
+## Notes
 
 By default, most browsers render the contents of **samp** elements in a fixed-width, monospaced font, but you can change that with CSS.
 
@@ -47,7 +47,7 @@ If you are looking to mark up programming code, the [**code** element](/html/ele
 
 If you are looking to indicate user input (e.g. from a keyboard), the [**kbd**](/html/elements/kbd) element is more appropriate.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-samp-element)
 :   W3C Working Draft
@@ -58,11 +58,11 @@ If you are looking to indicate user input (e.g. from a keyboard), the [**kbd**](
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-SAMP)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -202,7 +202,7 @@ If you are looking to indicate user input (e.g. from a keyboard), the [**kbd**](
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

@@ -18,23 +18,23 @@ tags:
 uri: dom/Document/close
 
 ---
-## <span>Summary</span>
+## Summary
 
 Closes an output stream and forces the sent data to display.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  document.close();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //open a new window/tab, open a new document in it,
@@ -47,19 +47,19 @@ function newWinDoc() {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 When a function fired by an event on any object calls the [**close**](/dom/Window/close) method, the **window.close** method is implied. When an event on any object calls the ****close**** method, the **document.close** method is implied.
 
 When [**document.write**](/dom/Document/write) or [**document.writeln**](/dom/Document/writeln) is used in an event handler, **document.close** should also be used.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 HTML](http://www.w3org/TR/DOM-Level-2-HTML/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `open`

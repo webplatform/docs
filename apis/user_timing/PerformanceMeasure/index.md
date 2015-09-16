@@ -13,11 +13,11 @@ tags:
 uri: 'apis/user timing/PerformanceMeasure'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Exposes measures created via the measure() method to the Performance Timeline.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -34,15 +34,15 @@ API Name
 [startTime](/apis/user_timing/PerformanceMeasure/startTime)
 :   Returns a DOMHighResTimeStamp with the measure's High Resolution Time start mark.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C User Timing Specification](http://www.w3.org/TR/user-timing/)
 :   W3C Candidate Recommendation

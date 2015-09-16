@@ -16,26 +16,26 @@ tags:
 uri: html/elements/hgroup
 
 ---
-## <span>Summary</span>
+## Summary
 
 (Obsolete) The hgroup element (&lt;hgroup&gt;) is typically used to group a set of one or more h1-h6 elements — to group, for example, a section title and an accompanying subtitle. The hgroup element (&lt;hgroup&gt;) element is obsolete in HTML5.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Obsolete</span>
+## Obsolete
 
 The hgroup element is obsolete in HTML. Consider the [header](/html/elements/header) element, or a `<span class="subheading">` element with differentiated styling.
 
-## <span>Point</span>
+## Point
 
 -   The element is used to group a set of h1–h6 elements when the heading has multiple levels, such as subheadings, alternative titles, or taglines. [[Example A]](#Example_A)
 -   For the purposes of document summaries, outlines, and the like, the text of hgroup elements is defined to be the text of the highest ranked h1–h6 element descendant of the hgroup element, if there are any such elements, and the first such element if there are multiple elements with that rank.
 -   The rank of an hgroup element is the rank of the highest-ranked h1–h6 element descendant of the hgroup element, if there are any such elements, or otherwise the same as for an h1 element (the highest rank).
 
-## <span>Examples</span>
+## Examples
 
 The following is an example of a valid heading. The **hgroup** masks the **h2** element (which acts as a secondary title) from the outline algorithm.
 
@@ -67,19 +67,19 @@ function findHeadings(node)
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 9. The **hgroup** element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility. The **hgroup** element is used to group a set of **h1-h6** elements when the heading has multiple levels, such as subheadings, alternative titles, or taglines. Other elements of heading content in the **hgroup** element indicate subheadings or subtitles.
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 <http://www.w3.org/html/wg/drafts/html/CR/obsolete.html#hgroup>
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `article`

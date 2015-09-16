@@ -24,13 +24,13 @@ tags:
 uri: apis/indexeddb/IDBCursor/direction
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates the direction of travel within a cursor.
 
 Property of [apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)[apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)[apis/indexeddb
 var result = cursor.direction;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -55,7 +55,7 @@ prevunique
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Indexed Database API](http://www.w3.org/TR/IndexedDB/)
 :   Working Draft

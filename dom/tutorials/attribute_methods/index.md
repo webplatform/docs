@@ -3,7 +3,7 @@ title: attribute methods
 uri: 'dom/tutorials/attribute methods'
 
 ---
-## <span>Modifying Attributes Methods</span>
+## Modifying Attributes Methods
 
 |Method Name|Description|
 |:----------|:----------|

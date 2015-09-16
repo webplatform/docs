@@ -23,13 +23,13 @@ tags:
 uri: dom/ValidityState/patternMismatch
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns whether the input field value does not match the rules defined by the pattern attribute.
 
 Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/ValidityState)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/Vali
 var result = element.validity.patternMismatch;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Whether a value does not match the rules defined by the **pattern** attribute.
 
-## <span>Examples</span>
+## Examples
 
 The following example validates a UK Postal code field on the blur event handler. If an invalid UK postal code is entered, when the form is submitted the custom validity message is displayed.
 
@@ -68,7 +68,7 @@ document.getElementById('txtPostcode').addEventListener('blur',validatePostCode,
 </script>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft
@@ -76,8 +76,8 @@ document.getElementById('txtPostcode').addEventListener('blur',validatePostCode,
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [Regular Expression Library](http://www.regexlib.com/)

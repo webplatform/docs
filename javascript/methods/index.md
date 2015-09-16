@@ -10,13 +10,13 @@ tags:
 uri: javascript/methods
 
 ---
-## <span>Summary</span>
+## Summary
 
 The following table lists JavaScript methods.
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Methods</span>
+## Methods
 
 |Method|Description|JavaScript object|
 |:-----|:----------|:----------------|
@@ -129,9 +129,9 @@ The following table lists JavaScript methods.
 |[unshift](/javascript/Array/unshift)|Inserts new elements at the start of an array.|**Array**|
 |[valueOf](/javascript/Object/valueOf)|Returns the primitive value of the specified object.|Multiple|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [JavaScript Objects](/javascript/objects)
 -   [JavaScript Functions](/javascript/functions)

@@ -17,13 +17,13 @@ tags:
 uri: apis/indexeddb/IDBRequest/onsuccess
 
 ---
-## <span>Summary</span>
+## Summary
 
 The event handler for the success event.
 
 Property of [apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)[apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onsuccess;

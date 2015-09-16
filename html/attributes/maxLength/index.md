@@ -15,7 +15,7 @@ tags:
 uri: html/attributes/maxLength
 
 ---
-## <span>Summary</span>
+## Summary
 
 The maxLength attribute sets an upper limit on the number of characters that can be entered in an input element.
 
@@ -33,7 +33,7 @@ Applies to
 </table>
 This attribute can be applied to inputs with the type [text](/html/elements/input/type/text), [search](/html/elements/input/type/search), [url](/html/elements/input/type/url), [email](/html/elements/input/type/email), [telephone](/html/elements/input/type/telephone), and [password](/html/elements/input/type/password).
 
-## <span>Examples</span>
+## Examples
 
 The example text box has a max length of 12 characters.
 
@@ -43,11 +43,11 @@ The example text box has a max length of 12 characters.
 
 [View live example](http://code.webplatform.org/gist/7284097)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 

@@ -27,13 +27,13 @@ tags:
 uri: dom/TransitionEvent/elapsedTime
 
 ---
-## <span>Summary</span>
+## Summary
 
 The amount of time the transition has been running, in seconds.
 
 Property of [dom/TransitionEvent](/dom/TransitionEvent)[dom/TransitionEvent](/dom/TransitionEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -41,7 +41,7 @@ Property of [dom/TransitionEvent](/dom/TransitionEvent)[dom/TransitionEvent](/do
 var result = object.elapsedTime;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -49,7 +49,7 @@ Type: Floating-point
 
 The amount of time the transition has been running, in seconds, when this event fired.
 
-## <span>Examples</span>
+## Examples
 
 MSDN hands-on CSS3 Animations wizard.
 
@@ -59,10 +59,10 @@ MSDN hands-on CSS3 Animations wizard.
 
 [View live example](http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on_animations.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note**  This value is not affected by the value of [**transition-delay**](/css/properties/transition-delay).
 
-### <span>Syntax</span>
+### Syntax

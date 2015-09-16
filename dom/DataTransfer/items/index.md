@@ -20,13 +20,13 @@ tags:
 uri: dom/DataTransfer/items
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a DataTransferItemList object containing the drag data.
 
 Property of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTransfer)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,13 +34,13 @@ Property of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTra
 var result = element.items;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
 A DataTransferItemList object; see the [W3C specification](http://www.w3.org/TR/html5/editing.html#datatransferitemlist) for more information.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //get DataTransfer item list
@@ -50,7 +50,7 @@ function getItemList(e) {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation

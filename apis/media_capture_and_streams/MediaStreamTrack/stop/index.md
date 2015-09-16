@@ -21,19 +21,19 @@ tags:
 uri: 'apis/media capture and streams/MediaStreamTrack/stop'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Permanently stop the generation of data for track's source.
 
 Method of [apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)[apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  track.stop();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 

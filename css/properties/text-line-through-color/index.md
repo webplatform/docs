@@ -19,13 +19,13 @@ tags:
 uri: css/properties/text-line-through-color
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the line colors for the line-through text decoration.
 
 (Considered obsolete; use [text-decoration-color](/css/properties/text-decoration-color) instead.)
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `currentColor`
@@ -51,16 +51,16 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-line-through-color: <color>`
 
-## <span>Values</span>
+## Values
 
 \<color\>
 :   Specifies a color value.
 
-## <span>Notes</span>
+## Notes
 
 To learn more about the initial value, see [currentColor](/css/color#currentColor).
 

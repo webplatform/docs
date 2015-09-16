@@ -10,11 +10,11 @@ tags:
 uri: javascript/Object/toString
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a string representation of an object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Returns a string representation of an object.
 **radix**
 :   Optional. Specifies a radix for converting numeric values to strings. This value is only used for numbers.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **toString** method with a radix argument. The return value of function shown below is a Radix conversion table.
 
@@ -59,7 +59,7 @@ function CreateRadixTable (){
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **toString** method is a member of all built-in JavaScript objects. How it behaves depends on the object type:
 
@@ -74,9 +74,9 @@ The **toString** method is a member of all built-in JavaScript objects. How it b
 |String|Returns the value of the String object.|
 |Default|Returns `"[object objectname]"` , where `objectname` is the name of the object type.|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [function Statement](/javascript/statements/function)
 

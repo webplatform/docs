@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/EntrySync/toURL
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a URL that can be used to identify this EntrySync.
 
@@ -30,25 +30,25 @@ Returns a URL that can be used to identify this EntrySync.
 
 Method of [apis/filesystem/EntrySync](/apis/filesystem/EntrySync)[apis/filesystem/EntrySync](/apis/filesystem/EntrySync)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = EntrySync.toURL();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 DOMString
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 The URL has no specific expiration; as it describes a location on disk, it should be valid at least as long as that location exists.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

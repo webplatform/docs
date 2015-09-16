@@ -11,21 +11,21 @@ tags:
 uri: 'css/media queries/media groups/visual'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The visual media group is used to identify CSS properties and features that apply to any media type that has a visible layout and text.
 
 The vast majority of defined CSS properties apply to visual media, which are defined by the fact that the content is appreciated primarily through sight. Visual media is contrasted against [tactile media](/css/media_queries/media_groups/tactile) (braille-based media experienced through touch) and [audio](/css/media_queries/media_groups/audio) or [speech media](/css/media_queries/media_groups/speech).
 
-## <span>Applicable Media Types</span>
+## Applicable Media Types
 
 (none in the database)
 
-## <span>Applicable Media Features</span>
+## Applicable Media Features
 
 (none in the database)
 
-## <span>Applicable CSS properties</span>
+## Applicable CSS properties
 
 -   [css/fonts/font-variant](/css/fonts/font-variant)
 -   [css/properties/-ms-flex-pack](/css/properties/-ms-flex-pack)

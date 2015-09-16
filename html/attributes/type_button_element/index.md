@@ -28,16 +28,16 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 A **Submit** button has the same default behavior as a button created by using the **submit** [**type**](/html/attributes/type) with the **input** object. If the ENTER key is pressed while a user is viewing a form that contains a **Submit** button, the form is submitted. This default behavior of a **Submit** button is indicated by a border surrounding the button. The border appears when any control in the form receives the focus, other than another button. If the **Submit** button has a [**name**](/html/attributes/name) property, the button contributes a name/value pair to the submitted data. Windows Internet Explorer 8 and later. The default value of this attribute depends on the current document compatibility mode. In IE8 Standards mode, the default value is `submit`. In other compatibility modes and earlier versions of Windows Internet Explorer, the default value is `button`.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `button`

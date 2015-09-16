@@ -24,14 +24,14 @@ uri: dom/HTMLIFrameElement/contentWindow
 
 Property of [dom/HTMLIFrameElement](/dom/HTMLIFrameElement)[dom/HTMLIFrameElement](/dom/HTMLIFrameElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.contentWindow;
 element.contentWindow = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **contentWindow** property to change the URL of window objects contained inside several **iframe** objects.
 
@@ -68,17 +68,17 @@ function fnNavigate()
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/contentWindowEX1.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This property is useful if you do not know the [**id**](/html/attributes/id) of the **frame** or **iframe** you are accessing through a collection.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `frame`
 -   `iframe`

@@ -7,7 +7,7 @@ tags:
 uri: 'tutorials/web programming essentials'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page contains links to web programming tutorials.
 

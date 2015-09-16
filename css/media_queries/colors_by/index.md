@@ -26,23 +26,23 @@ uri: 'css/media queries/colors by'
 
 Method of [css/media\_queries](/css/media_queries)[css/media\_queries](/css/media_queries)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = element.colors by();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Media Queries</span>
+#### Media Queries
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 

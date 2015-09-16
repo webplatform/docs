@@ -23,13 +23,13 @@ tags:
 uri: 'css/media queries/apis/properties/type'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the media type of the object that displays the Document object
 
 Property of [css/media\_queries/apis/StyleMedia](/css/media_queries/apis/StyleMedia)[css/media\_queries/apis/StyleMedia](/css/media_queries/apis/StyleMedia)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [css/media\_queries/apis/StyleMedia](/css/media_queries/apis/StyleMe
 var mediaType = window.styleMedia.type;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -45,11 +45,11 @@ The media type of the current document.
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Media Queries</span>
+#### Media Queries
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -89,6 +89,6 @@ The media type of the current document.
 
 -   [behavior](/css/properties/behavior)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `StyleMedia`

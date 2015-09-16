@@ -23,13 +23,13 @@ tags:
 uri: 'apis/navigation timing/PerformanceTiming/loadEventStart'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the time immediately before the load event of the current document is fired, or returns zero when the load event is not fired yet.
 
 Property of [apis/navigation timing/PerformanceTiming](/apis/navigation_timing/PerformanceTiming)[apis/navigation timing/PerformanceTiming](/apis/navigation_timing/PerformanceTiming)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,22 +37,22 @@ Property of [apis/navigation timing/PerformanceTiming](/apis/navigation_timing/P
 var result = PerformanceTiming.loadEventStart;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var perftime = performance.timing;
 document.write("loadEventStart: " + perftime.loadEventStart + "<br />");
 ```
 
-## <span>Notes</span>
+## Notes
 
 The value reported represents the number of milliseconds between the recorded time and midnight January 1, 1970 (UTC).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Navigation Timing 2](http://www.w3.org/TR/navigation-timing-2/)
 :   W3C Working Draft

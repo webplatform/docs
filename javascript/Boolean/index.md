@@ -11,11 +11,11 @@ tags:
 uri: javascript/Boolean
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a new Boolean (true/false) value.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -30,11 +30,11 @@ Creates a new Boolean (true/false) value.
 
 Other values (like 1 and 0) are converted to a Boolean expression.
 
-## <span>Return Value</span>
+## Return Value
 
 If the boolean value is omitted, or is false , 0, null , NaN , or an empty string, Boolean returns false. Otherwise, it returns true true.
 
-## <span>Examples</span>
+## Examples
 
 Using Boolean to define a test condition
 
@@ -56,13 +56,13 @@ if (isLoggedIn) {
 }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **Boolean** object is a wrapper for the Boolean data type. JavaScript implicitly uses the **Boolean** object whenever a Boolean data type is converted to a **Boolean** object.
 
 You rarely instantiate the **Boolean** object explicitly.
 
-## <span>Properties</span>
+## Properties
 
 The following table lists the properties of the **Boolean** object.
 
@@ -70,11 +70,11 @@ The following table lists the properties of the **Boolean** object.
 |:-------|:------|
 |[prototype](/javascript/Boolean/prototype)|Returns a reference to the prototype for a Boolean.|
 
-## <span>Functions</span>
+## Functions
 
 The following table lists the functions of the **Boolean** object.
 
-## <span>Methods</span>
+## Methods
 
 The following table lists the methods of the **Boolean** object.
 
@@ -83,9 +83,9 @@ The following table lists the methods of the **Boolean** object.
 |[constructor](/javascript/Boolean/constructor)|Initializes a Boolean object.|
 |[toString](/javascript/Boolean/toString)|Returns a string representation of a Boolean object.|
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [Boolean Objects](http://www.ecma-international.org/ecma-262/5.1/#sec-15.6) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

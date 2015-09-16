@@ -25,11 +25,11 @@ tags:
 uri: css/properties/z-index
 
 ---
-## <span>Summary</span>
+## Summary
 
 The z-index property controls the stacking order of elements. As the x-axis defines the horizontal (left-right) position of elements on the screen, and the y-axis defines the vertical (top-down) position, think of the z-axis as the third dimension or depth-of-field, rising “out of” the screen, towards the viewer, or descending “into” the screen, away from the viewer.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -55,13 +55,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `z-index: <integer>`
 -   `z-index: auto`
 -   `z-index: inherit`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Default. Specifies the stacking order of the positioned objects based on the top-down order in which the objects appear in the HTML source.
@@ -72,7 +72,7 @@ auto
 inherit
 :   Takes the same specified value as the property for the element's parent.
 
-## <span>Examples</span>
+## Examples
 
 The following example demonstrates the `z-index` property set to `auto`. Some style rules have been omitted for brevity. Please see the live example to view all the style rules.
 
@@ -257,7 +257,7 @@ The following example demonstrates the `z-index` property set to `inherit`. Some
 
 </pre>
 
-## <span>Usage</span>
+## Usage
 
      The z-index property controls the “z” dimension dimension, stacking (layering) elements above or below others. Elements with a higher z-index appear closer to the viewer and overlap other elements in the same space, whereas a lower z-index makes them appear behind other elements, occupying the same space on the cartesian plane. Different browsers have different interpretations of z-index ordering, so beware.
 
@@ -265,7 +265,7 @@ Remember that elements that are overlapped in this way are reachable by keyboard
 
 This property only works with elements that are positioned **absolute**, **relative**, or **fixed**.
 
-## <span>Notes</span>
+## Notes
 
 If two objects have the same **z-index**, they’re stacked according to their source order.
 
@@ -278,19 +278,19 @@ When elements overlap, only the topmost element can receive action from a pointi
 -   the parent is a scrolling container (that is, its [overflow](/css/properties/overflow) property is set to **auto** or **scroll**), or
 -   the parent is positioned (that is, its [position](/css/properties/position) property is set to **absolute**, **relative**, or **fixed**).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Visual formatting model](http://www.w3.org/TR/CSS2/visuren.html#propdef-z-index)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   <http://www.w3.org/TR/CSS2/visuren.html#z-index>
 -   <https://developer.mozilla.org/en-US/docs/Web/CSS/z-index>
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

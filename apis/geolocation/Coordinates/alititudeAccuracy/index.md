@@ -22,13 +22,13 @@ tags:
 uri: apis/geolocation/Coordinates/alititudeAccuracy
 
 ---
-## <span>Summary</span>
+## Summary
 
 Denotes the accuracy level of the altitude coordinate, specified in meters. If the implementation cannot provide altitude information, the value of this attribute must be null.
 
 Property of [apis/geolocation/Coordinates](/apis/geolocation/Coordinates)[apis/geolocation/Coordinates](/apis/geolocation/Coordinates)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,11 +36,11 @@ Property of [apis/geolocation/Coordinates](/apis/geolocation/Coordinates)[apis/g
 var result = Coordinates.alititudeAccuracy;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //Assuming the variable altitude_accuracy_threshold has been set
@@ -51,7 +51,7 @@ if (position.coords.altitudeAccuracy < altitude_accuracy_threshold) {
    }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

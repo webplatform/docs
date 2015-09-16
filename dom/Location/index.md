@@ -12,7 +12,7 @@ uri: dom/Location
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -38,7 +38,7 @@ API Name
 [search](/dom/Location/search)
 :   Sets or retrieves the substring of the **href** property that follows the question mark.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -52,7 +52,7 @@ API Name
 [replace](/dom/Location/replace)
 :   Replaces the current document by loading another document at the specified URL.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 

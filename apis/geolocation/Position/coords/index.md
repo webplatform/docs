@@ -22,13 +22,13 @@ tags:
 uri: apis/geolocation/Position/coords
 
 ---
-## <span>Summary</span>
+## Summary
 
 Contains a set of geographic coordinates together with their associated accuracy, as well as a set of other optional attributes such as altitude and speed.
 
 Property of [apis/geolocation/Position](/apis/geolocation/Position)[apis/geolocation/Position](/apis/geolocation/Position)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [apis/geolocation/Position](/apis/geolocation/Position)[apis/geoloca
 var result = Position.coords;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 Coordinates
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var poscoords = position.coords;
@@ -52,7 +52,7 @@ alert(poscoords.heading);
 //etc.
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

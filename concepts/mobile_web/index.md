@@ -8,11 +8,11 @@ tags:
 uri: 'concepts/mobile web'
 
 ---
-## <span>Summary</span>
+## Summary
 
 A starting point for mobile web development, with links to resources and a collection of mobile development techniques.
 
-## <span>General introductory articles</span>
+## General introductory articles
 
 [About mobile web](/concepts/About_mobile_web) - Start here to get a general history of the mobile web and what it means to support different devices with a wide range of browsing capabilities.
 
@@ -20,7 +20,7 @@ A starting point for mobile web development, with links to resources and a colle
 
 ["Mobifying" your HTML5 site](/tutorials/mobile_mobifying) - Real examples showing how to support mobile with HTML5 features.
 
-## <span>List of all mobile web related articles</span>
+## List of all mobile web related articles
 
 |Page|Summary|
 |:---|:------|
@@ -79,8 +79,8 @@ A starting point for mobile web development, with links to resources and a colle
 |[tutorials/mobile touch](/tutorials/mobile_touch)|Introduction to multi-touch Web development|
 |[tutorials/resizing html5 games](/tutorials/resizing_html5_games)|Case study: Auto-resizing HTML5 games|
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [Standards for Web Applications on Mobile](http://www.w3.org/2013/02/mobile-web-app-state/) on w3.org.

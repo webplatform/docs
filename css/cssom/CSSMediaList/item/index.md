@@ -23,43 +23,43 @@ tags:
 uri: css/cssom/CSSMediaList/item
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the medium at the position number that is indicated by an index in the current list.
 
 Method of [css/cssom/CSSMediaList/CSSMediaList](/css/cssom/CSSMediaList/CSSMediaList)[css/cssom/CSSMediaList/CSSMediaList](/css/cssom/CSSMediaList/CSSMediaList)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = mediaList.item(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>index</span>
+### index
 
  Data-type
 :   String
 
  An index into the media list.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -205,7 +205,7 @@ Returns an object of type StringString
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSMediaList`
 -   `Reference`

@@ -14,11 +14,11 @@ tags:
 uri: html/elements/aside
 
 ---
-## <span>Summary</span>
+## Summary
 
 The aside element (&lt;aside&gt;) indicates content that is only tangentially related to the rest of the content.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -32,7 +32,7 @@ The aside element may be used for:
 
 Or any other content that is considered separate from the main content of the page.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how an aside is used to mark up background material on Switzerland in a much longer news story on Europe.
 
@@ -45,7 +45,7 @@ The following example shows how an aside is used to mark up background material 
 </aside>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-aside-element)
 :   W3C Working Draft

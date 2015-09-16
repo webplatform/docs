@@ -10,21 +10,21 @@ tags:
 uri: javascript/String/valueOf
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the value of a string.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     string.valueOf()
 
-## <span>Return Value</span>
+## Return Value
 
 Returns the string value.
 
-## <span>Examples</span>
+## Examples
 
 In the following example, the string object is the same as the return value.
 

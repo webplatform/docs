@@ -22,26 +22,26 @@ tags:
 uri: apis/webrtc/RTCDataChannel/binaryType
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the value to which it was last set; on creation, must be initialized to the string &quot;blob&quot;.
 
 Property of [apis/webrtc/RTCDataChannel](/apis/webrtc/RTCDataChannel)[apis/webrtc/RTCDataChannel](/apis/webrtc/RTCDataChannel)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = object.binaryType;
 object.binaryType = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web RTC Specification](http://dev.w3.org/2011/webrtc/editor/webrtc.html)
 :   W3C Editor's Draft

@@ -22,7 +22,7 @@ uri: css/cssom/screen/bufferDepth
 
 Property of [css/cssom/screen](/css/cssom/screen)[css/cssom/screen](/css/cssom/screen)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.bufferDepth;
@@ -31,20 +31,20 @@ element.bufferDepth = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Nonsupported values cause **bufferDepth** to be set to **-1**. When **bufferDepth** is **-1** and the user changes system settings that affect the screen depth, the buffer depth is automatically updated to the new depth. This is not the case if **bufferDepth** is set to a specific value.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `screen`

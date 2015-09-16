@@ -11,11 +11,11 @@ tags:
 uri: 'tutorials/css text quick start'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This tutorial provides a quick instruction on styling text with CSS.
 
-## <span>Information on text styles</span>
+## Information on text styles
 
 CSS has several properties for styling text.
 
@@ -39,7 +39,7 @@ This rule sets various font properties, making all paragraphs italic.
 
 The rule has the side-effect of turning off of bold and small-caps (setting them to `normal`):
 
-### <span>Font faces</span>
+### Font faces
 
 You cannot predict what typefaces visitors of your site will have. So when you specify font typefaces, it is a good idea to give a list of alternatives in order of preference. End the list with one of the built-in default typefaces: `serif`, `sans-serif`, `cursive`, `fantasy` or `monospace`.
 
@@ -47,7 +47,7 @@ If the typeface does not support some features in the document, then the browser
 
 To specify a typeface on its own, use the [font-family] property.
 
-### <span>Font sizes</span>
+### Font sizes
 
 Browser users can override the default font sizes or change the text size while they read a page, so it makes good sense for you to use relative sizes wherever you can.
 
@@ -57,17 +57,17 @@ If necessary, you can specify an actual size, like this: `14px` (14 pixels) for 
 
 To specify a font size on its own, use the [font-size] property.
 
-### <span>Line height</span>
+### Line height
 
 The line height property specifies the spacing between lines. If your document has long paragraphs that contain many lines, a larger-than-normal spacing value makes text easier to read, especially if the font size is small.
 
 To specify a line height on its own, use the [line-height] property.
 
-### <span>Decoration</span>
+### Decoration
 
 The separate [text-decoration] property can specify other styles, like `underline` or `line-through`. You can set it to `none` to explicitly remove any decoration.
 
-### <span>Other properties</span>
+### Other properties
 
 To specify italic on its own, use `[font-style]: italic;`
  To specify bold on its own, use `[font-weight]: bold;`
@@ -75,13 +75,13 @@ To specify italic on its own, use `[font-style]: italic;`
 
 To turn any of these off individually, you can specify the value `normal` or `inherit`.
 
-## <span>More details on applying text styles</span>
+## More details on applying text styles
 
 You can specify text styles in a variety of other ways. For example, some of the properties mentioned here have other values that you can use. In a complex style sheet, avoid using the shorthand `font` property, because of its side-effects (resetting other individual properties).
 
 For full details of the properties that relate to fonts, see [Fonts](http://www.w3.org/TR/CSS21/fonts.html) in the CSS Specification. For full details of text decoration, see [Text](http://www.w3.org/TR/css3-text/) there. If you do not want to depend on the typefaces installed on visitors' systems, you can use [@font-face](/css/atrules/@font-face) to specify an online font. However, this requires that the visitors are using a browser that supports this rule.
 
-## <span>Action: Specifying fonts</span>
+## Action: Specifying fonts
 
 For a simple document, you can set the font of the `<body>` element and the rest of the document inherits the settings.
 
@@ -99,12 +99,12 @@ For a simple document, you can set the font of the `<body>` element and the rest
 
 5.  From your browser's menu bar, choose **View \> Text Size \> Increase** (or **View \> Zoom \> Zoom In**). Even though you specified 16 pixels in the CSS style, a visitor reading the page can change the size of the text.
 
-## <span>Conclusion</span>
+## Conclusion
 
 This article provides a quick introduction to styling text with CSS. For more in-depth information, see the other tutorial articles in this series.
 
-## <span>See also</span>
+## See also
 
-### <span>Exercise questions</span>
+### Exercise questions
 
 Without changing anything else, make all six initial letters twice the size in the browser's default serif font.

@@ -20,31 +20,31 @@ tags:
 uri: apis/workers/WorkerGlobalScope/close
 
 ---
-## <span>Summary</span>
+## Summary
 
 Discards any pending tasks and immediately closes the worker.
 
 Method of [apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)[apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.close();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 This method sets the worker's WorkerGlobalScope object's closing flag to *true*, preventing any further tasks from being queued.
 
 Use the **terminate** method if you want to stop a worker from a parent thread.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft

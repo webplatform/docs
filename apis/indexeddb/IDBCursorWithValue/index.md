@@ -17,13 +17,13 @@ tags:
 uri: apis/indexeddb/IDBCursorWithValue
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the IDBCursor's value.
 
 Inherits from [IDBCursor](/apis/indexeddb/IDBCursor)[IDBCursor](/apis/indexeddb/IDBCursor)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -31,17 +31,17 @@ API Name
 [value](/apis/indexeddb/IDBCursorWithValue/value)
 :
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from IDBCursor</span>
+## Inherited from IDBCursor
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -58,7 +58,7 @@ API Name
 [source](/apis/indexeddb/IDBCursor/source)
 :   On getting, returns the IDBObjectStore or IDBIndex that the cursor is iterating. This function never returns null or throws an exception, even if the cursor is currently being iterated, has iterated past its end, or its transaction is not active.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -75,11 +75,11 @@ API Name
 [update](/apis/indexeddb/IDBCursor/update)
 :   Creates a structured clone of the value parameter.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

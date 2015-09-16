@@ -24,14 +24,14 @@ uri: dom/HTMLElement/controlRange
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.controlRange;
 element.controlRange = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates how to use the [**createRange**](/dom/Selection/createRange) method to retrieve the **controlRange** collection.
 
@@ -62,14 +62,14 @@ function fnChangeFontFamily    (){
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/collections/controlrange.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Instead of using the collection's [**item**](/dom/HTMLCollection/item) method, you can use an index to directly access an element in the collection. For example, the element returned from the collection represented by `oColl(0)` is the same as the element returned by `oColl.item(0)`. The **controlRange** collection is available as of Microsoft Internet Explorer 5.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

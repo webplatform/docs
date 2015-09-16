@@ -21,7 +21,7 @@ uri: css/properties/text-decoration-line-through
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :
@@ -44,12 +44,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-decoration-line-through: VARIANT_FALSE`
 -   `text-decoration-line-through: VARIANT_TRUE`
 
-## <span>Values</span>
+## Values
 
 VARIANT\_TRUE
 :   Apply the line-through.
@@ -57,7 +57,7 @@ VARIANT\_TRUE
 VARIANT\_FALSE
 :   Prevent the line-through.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **textDecorationLineThrough** property to draw a line through the text when the user clicks it with the mouse.
 
@@ -67,17 +67,17 @@ Click this if you think it's unimportant.
 </P>
 ```
 
-### <span>Syntax</span>
+### Syntax
 
 `textDecorationLineThrough: VARIANT_TRUE | VARIANT_FALSE`
 
-### <span>Requirements</span>
+### Requirements
 
 {
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `defaultSelected`
 -   `runtimeStyle`

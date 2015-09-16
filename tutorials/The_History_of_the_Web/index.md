@@ -6,7 +6,7 @@ tags:
 uri: 'tutorials/The history of the Web'
 
 ---
-## <span>Introduction</span>
+## Introduction
 
 > Where shall I begin, please your Majesty?
 >
@@ -18,7 +18,7 @@ Everything has to begin somewhere, so lets start with a focused history lesson. 
 
 If any terms are unfamiliar to you, don’t worry: if they’re important for learning web development they’ll be defined in the later articles that go into more depth on each subject, and you can always search them out using your search engine of choice! If you are already familiar with the history of the Internet or the World Wide Web, feel free to skip to the section on [[web standards](http://www.w3.org/wiki/The_history_of_the_Web#The_coming_of_web_standards)].
 
-## <span>The Internet’s origins</span>
+## The Internet’s origins
 
 On the fourth of October in 1957 an event occurred that would change the world. The Soviet Union successfully launched the first satellite into Earth’s orbit. Called Sputnik 1, it shocked the world — especially the United States of America, who had their own programme of satellite launches underway, but had yet to launch.
 
@@ -34,7 +34,7 @@ This proliferation of different networking protocols soon became a problem, when
 
 This specification reduced the role of the network and moved the responsibility of maintaining transmission integrity to the host computer. The result was that it became possible to easily join almost all networks together. ARPA funded development of the software, and in 1977 a successful demonstration of three different networks communicating was conducted. By 1981, the specification was finalised, published and adopted; and in 1982 the ARPANET connections outside of the US were converted to use the new TCP/IP protocol. The Internet as we know it had arrived.
 
-## <span>The creation of World Wide Web</span>
+## The creation of World Wide Web
 
 [Gopher](http://en.wikipedia.org/wiki/Gopher) was an information retrieval system used in the early 1990s, providing a method of delivering menus of links to files, computer resources and other menus. These menus could cross the boundaries of the current computer and use the Internet to fetch menus from other systems. It was very popular with universities looking to provide campus-wide information and large organisations looking to centralise document storage and management.
 
@@ -48,7 +48,7 @@ Then, later in the same year, the NCSA released a program that was a combined we
 
 The number of available web browsers increased dramatically, many created by research projects at universities and corporations, such as Telenor (a Norwegian communications company), which created the first version of the Opera browser in 1994.
 
-### <span>The browser wars</span>
+### The browser wars
 
 The popularisation of the web brought commercial interests. Marc Andreessen left NCSA and together with Jim Clark founded Mosaic Communications, later renamed to Netscape Communications Corporation, and started work on what was to become Netscape Navigator. Version 1.0 of the software was released in December 1994.
 
@@ -56,13 +56,13 @@ Spyglass Inc. (the commercial arm of NCSA) licensed their Mosaic technology to M
 
 A rapid escalation soon followed, with Netscape and Microsoft each trying to get a competitive edge in terms of the features they support in order to attract developers. This has since become known as the browser wars. Opera maintained a small but steady presence throughout this period, and tried to innovate and support web standards as well as possible in these times.
 
-## <span>The coming of web standards</span>
+## The coming of web standards
 
 During the browser wars, Microsoft and Netscape focused on implementing new features rather than on fixing problems with the features they already supported, and adding proprietary features and creating features that were in direct competition with existing features in the other browser, but implemented in an incompatible way.
 
 Developers at the time were forced to deal with ever increasing levels of confusion when trying to build web sites, sometimes to the extent of building two different but effectively duplicate sites for the two main browsers, and other times just choosing to support only one browser and block others from using their sites. This was a terrible way of working, and the inevitable backlash from developers was not far away.
 
-### <span>The formation of the W3C</span>
+### The formation of the W3C
 
 In 1994, Tim Berners-Lee founded the World Wide Web Consortium (W3C) at the Massachusetts Institute of Technology, with support from CERN, DARPA (as ARPA had been renamed to) and the European Commission. The W3C’s vision was to standardize the protocols and technologies used to build the web such that the content would be available to as wide a population of the world as possible.
 
@@ -70,7 +70,7 @@ During the next few years, the W3C published several specifications (called reco
 
 However, the W3C did not (and still do not) enforce their recommendations. Manufacturers only had to conform to the W3C documents if they wished to label their products as W3C-compliant. In practice, this was not a valuable selling point as almost all users of the web did not know, nor probably care, who the W3C were (this is still the case, to a large extent). Consequently, the browser wars of the nineties continued unabated.
 
-### <span>The Web Standards Project</span>
+### The Web Standards Project
 
 In 1998, the browser market was dominated by Internet Explorer 4 and Netscape Navigator 4. A beta version of Internet Explorer 5 was then released, and it implemented a new and proprietary dynamic HTML, which meant that professional web developers needed to know five *different* ways of writing JavaScript.
 
@@ -84,7 +84,7 @@ The W3C has a few full time staff, but most of the people who work on the standa
 
 This all sounds a bit negative, but the WaSP didn’t just sit there criticising people — they also helped. Seven members formed the CSS Samurai, who identified the top ten problems with the CSS support in Opera and other browsers (Opera fixed their problems, others did not).
 
-### <span>The rise of web standards</span>
+### The rise of web standards
 
 In 2000, Microsoft released Internet Explorer 5 Macintosh Edition. This was a very important milestone, it being the default browser installed with the Mac OS at the time, and having a reasonable level of support for the W3C recommendations too. Along with Opera's decent level of support for CSS and HTML, it contributed to a general positive movement, where web developers and designers finally felt comfortable designing sites using web standards, as they knew they would work to a reasonable level across multiple browsers.
 
@@ -100,7 +100,7 @@ Also in 2003, Dave Shea launched a site called the [CSS Zen Garden](http://www.c
 
 Since then, web standards usage have become "de rigeur" in the professional web development community. And in this series, we will give you an excellent grounding in these techniques so that you can develop clean, semantic, accessible and standards-compliant websites!
 
-## <span>The new breed of web standards</span>
+## The new breed of web standards
 
 After 2003, web standards didn't just sit still. New practices started to really come to the forefront, with many web sites being more like desktop applications than static pages. This new breed of sites is way more complicated than what the web was really intended for, and we still have to concern ourselves with making them semantic, accessible and usable!
 
@@ -125,11 +125,11 @@ To begin to address this, work started on CSS3 as early as 2000. The spec writer
 
 You can find more out about CSS3 and HTML5 later on in the course.
 
-## <span>Summary</span>
+## Summary
 
 In this article we’ve looked at how the modern Internet was created as a result of the space race, how Tim Berners-Lee defined hypertext for a generation and how the commercial interests of two companies caused one of the most notable developer backlashes ever seen. The term web standards is now more widely used by web professionals than any other term applied by the [W3C](http://www.w3.org/) (in fact the W3C have started to use the term on their own pages), so that is what we are going to teach you — the *standards* way to build web sites.
 
-## <span>Further reading</span>
+## Further reading
 
 If you want to know more, you may like to visit some of the following sites:
 
@@ -140,7 +140,7 @@ If you want to know more, you may like to visit some of the following sites:
 -   [A List Apart](http://www.alistapart.com/)
 -   [CSS Zen Garden](http://www.csszengarden.com/)
 
-## <span>Exercise questions</span>
+## Exercise questions
 
 Or you might like to try researching further, by answering these questions:
 

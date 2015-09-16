@@ -10,13 +10,13 @@ tags:
 uri: javascript/escape
 
 ---
-## <span>Summary</span>
+## Summary
 
 Deprecated
 
 The deprecated **escape()** function encodes a string so it can be read on all computers.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -25,11 +25,11 @@ The deprecated **escape()** function encodes a string so it can be read on all c
 **str**
 :   Required. A String to be encoded
 
-## <span>Return Value</span>
+## Return Value
 
 Returns a string value in Unicode format that contains the encoded contents of the str parameter.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 unescape("webplatform"); // "webplatform"
@@ -37,21 +37,21 @@ unescape("ümlaut"); // "%FCmlaut"
 unescape("日本語"); // "%u65E5%u672C%u8A9E"
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 All spaces, punctuation, accented characters, and any other non-ASCII characters are replaced with % xx encoding, where xx is equivalent to the hexadecimal number representing the character. For example, a space is returned as "%20."
 
 Characters with a value greater than 255 are stored using the **%u** xxxx format.
 
-## <span>Notes</span>
+## Notes
 
 The **escape** function should not be used to encode URIs. Use [encodeURI](/javascript/encodeURI) and [encodeURIComponent](/javascript/encodeURIComponent) functions instead
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Deprecated</span>
+#### Deprecated
 
 -   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 
@@ -83,7 +83,7 @@ The **escape** function should not be used to encode URIs. Use [encodeURI](/java
 
 -   [unescape](/javascript/unescape)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [encodeURI Function](/javascript/encodeURI)
 -   [encodeURIComponent Function](/javascript/encodeURIComponent)

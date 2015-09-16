@@ -20,11 +20,11 @@ tags:
 uri: css/properties/mask-border-slice
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property specifies inward offsets from the top, right, bottom, and left edges of the mask image, dividing it into nine regions: four corners, four edges, and a middle. The middle image part is discarded and treated as fully transparent black unless the fill keyword is present. The four values set the top, right, bottom and left offsets in that order, similar to the CSS border-image-slice property.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
@@ -50,13 +50,13 @@ Animatable
 Percentages
 :   Refer to the size of the mask image.
 
-## <span>Syntax</span>
+## Syntax
 
 -   `mask-border-slice: <number>`
 -   `mask-border-slice: <percentage>`
 -   `mask-border-slice: fill`
 
-## <span>Values</span>
+## Values
 
 \<percentage\>
 :   Refers to the size of the mask box image area: the width of the area for horizontal offsets, the height for vertical offsets.
@@ -67,7 +67,7 @@ Percentages
 fill
 :   If present, causes the middle part of the mask image to be preserved. If omitted, the middle part of the mask image is discarded, i.e., treated as empty.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* numbers, fill */
@@ -81,7 +81,7 @@ fill
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Masking Level 1](http://www.w3.org/TR/css-masking-1/)
 :   W3C Last Call Working Draft

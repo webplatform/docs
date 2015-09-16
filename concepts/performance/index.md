@@ -3,11 +3,11 @@ title: performance
 uri: concepts/performance
 
 ---
-## <span>Optimizing performance</span>
+## Optimizing performance
 
 Articles in this section describe ways to improve the performance of your applications.
 
-## <span>List of all performance-related articles</span>
+## List of all performance-related articles
 
 <table>
 <col width="50%" />
@@ -79,9 +79,9 @@ Articles in this section describe ways to improve the performance of your applic
 </tbody>
 </table>
 
-## <span>List of Web Performance Resources</span>
+## List of Web Performance Resources
 
-### <span>Books</span>
+### Books
 
 -   Souders, Steve. *Even Faster Websites*, O'Reilly Media 2009. [ISBN 0596522304](/Special:BookSources/0596522304)
 -   Smith, Peter. *Professional Website Performance*, Wrox Press, 2012. [ISBN 1118487524](/Special:BookSources/1118487524)
@@ -92,16 +92,16 @@ Articles in this section describe ways to improve the performance of your applic
     -   *High Performance MySQL* by Baron Schwartz, Peter Zaitsev, Vadim Tkachenko (O'Reilly Media 2012. [ISBN 1449314287](/Special:BookSources/1449314287))
     -   *High Performance Web Sites* by Steve Souders (O'Reilly Media 2007. [ISBN 0596529309](/Special:BookSources/0596529309))
 
-### <span>Free Tools (Browser Based)</span>
+### Free Tools (Browser Based)
 
 -   [YSlow](http://yslow.org/)
 -   [Google PageSpeed](https://developers.google.com/speed/pagespeed/)
 
-### <span>Free Tools (Windows Based)</span>
+### Free Tools (Windows Based)
 
 -   Compuware Ajax Edition
 
-### <span>Front-end Optimization (FEO) Tools</span>
+### Front-end Optimization (FEO) Tools
 
 The companies and tools below provide automated performance optimization solutions ([FEO](http://www.strangeloopnetworks.com/resources/presentations/front-end-optimization-feo-what-it-is-and-how-to-fix-it/)) Some of them are cloud based, and others are applications that live inside a datacenter.
 
@@ -115,7 +115,7 @@ The companies and tools below provide automated performance optimization solutio
 -   Fasterize
 -   Cloudflare Optimizer
 
-### <span>Backend Optimization Resources</span>
+### Backend Optimization Resources
 
 -   Database caching
 -   PHP accelerator (list of PHP accelerators)
@@ -124,28 +124,28 @@ The companies and tools below provide automated performance optimization solutio
 -   Web accelerator
 -   Web cache
 
-### <span>Backend Optimization Products</span>
+### Backend Optimization Products
 
 -   Amazon DynamoDB
 -   Windows Azure Caching
 
-### <span>Web Application Streaming</span>
+### Web Application Streaming
 
 -   [Instart Logic](http://blogs.gartner.com/lydia_leong/2013/06/17/instart-logic-launches-a-new-kind-of-acceleration-service/)
 
-### <span>Lists of Best Practices</span>
+### Lists of Best Practices
 
 -   [Yahoo Performance Rules](http://developer.yahoo.com/performance/rules.html)
 -   [Google Best Practices](https://developers.google.com/speed/docs/best-practices/rules_intro)
 -   [Web Performance Today Best Practices](http://www.webperformancetoday.com/tag/best-practices/)
 
-### <span>Conferences and Meetups</span>
+### Conferences and Meetups
 
 -   [Velocity](http://velocityconf.com/)
 -   [Web Performance Meetup Groups](http://web-performance.meetup.com/)
 -   [Web Performance Days](http://www.webperfdays.org/)
 
-### <span>Monitoring Tools</span>
+### Monitoring Tools
 
 There are two main types of performance monitoring: Synthetic monitoring and Real user monitoring (RUM). There are a number of free and paid tools that provide monitoring services in both categories
 
@@ -166,6 +166,6 @@ There are two main types of performance monitoring: Synthetic monitoring and Rea
 -   New Relic
 -   Catchpoint Glimpse
 
-### <span>Blogs</span>
+### Blogs
 
 The [Perf Planet](http://www.perfplanet.com/) website provides an RSS feed with the latest updates from an aggregated list of web performance blogs. This blogroll is managed via Perf Planet's [GitHub repository](https://github.com/stoyan/perfplanet).

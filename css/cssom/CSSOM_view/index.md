@@ -44,11 +44,11 @@ uri: 'css/cssom/CSSOM view'
 |[**y**](/css/cssom/properties/y)|Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.|
 |Media Query Listeners|Media Query Listeners allow developers to register listeners that monitor and call back when a specific change happens to the media environment|
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 

@@ -16,11 +16,11 @@ tags:
 uri: html/elements/code
 
 ---
-## <span>Summary</span>
+## Summary
 
 The code element specifies a fragment of computer code.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -35,7 +35,7 @@ Content within a **code** element is used to indicate a selection of text that i
 
 Or any string that a computer will parse.
 
-## <span>Examples</span>
+## Examples
 
 This is a simple example of the **code** element to display a CSS snippet.
 
@@ -50,19 +50,19 @@ This is another take on the example above, but includes a **class** to indicate 
 <code class="language-css">color: #f00;</code>.</p>
 ```
 
-## <span>Usage</span>
+## Usage
 
      The code element is a phrasing-level element used to indicate a selection of code. It must not contain block-level elements, but it may contain other phrasing-level elements.
 
 Often, authors will use a **class** attribute to indicate the language being used in the **code** element (see Example 2).
 
-## <span>Notes</span>
+## Notes
 
 While the **code** element is often visually-presented in a monospace font like the **pre** element, unlike **pre** white space (spaces, tabs, etc.) inside a **code** element is \*\*not preserved\*\*.
 
 When representing HTML code within a **code** element, remember to encode the reserved characters \< and \> with their HTML entity equivalents (&lt; and &gt;, respectively).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-code-element)
 :   W3C Working Draft
@@ -73,11 +73,11 @@ When representing HTML code within a **code** element, remember to encode the re
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-CODE)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -217,7 +217,7 @@ When representing HTML code within a **code** element, remember to encode the re
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -297,6 +297,6 @@ When representing HTML code within a **code** element, remember to encode the re
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `samp`

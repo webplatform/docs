@@ -12,7 +12,7 @@ tags:
 uri: 'css/media queries/scan'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The scan media feature describes the scanning process (i.e. how the video card generates the image) of some output devices.
 
@@ -20,11 +20,11 @@ It can be useful if you want to adjust font type that are known to not be visibl
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      @media (scan: interlace) { body { font-family: sans-serif; } }
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Media Queries Level 4](http://www.w3.org/TR/mediaqueries-4/)
 :   Working Draft
@@ -32,8 +32,8 @@ It can be useful if you want to adjust font type that are known to not be visibl
 [Media Queries](http://www.w3.org/TR/css3-mediaqueries/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [CSS Working Group Draft](http://dev.w3.org/csswg/mediaqueries-4/#descdef-media-scan)

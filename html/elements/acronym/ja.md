@@ -80,13 +80,13 @@ todo_broken_links:
 uri: html/elements/acronym/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 HTML5ではabbrが追加されており、この要素は非推奨となっています。今後はもう使うべきではありません。
 
 `<acronym>`要素は、NATO(North Atlantic Treaty Organization)、レーダー（RAdio Detection And Ranging）、インターポール（the International Criminal Police Organization）などのような頭字語を表します。
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -95,18 +95,18 @@ HTML5ではabbrが追加されており、この要素は非推奨となって�
 
 HTML5では**`abbr`** 要素が\<acronym\>と同等の役割を持っています。
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 4.01 Specification](http://www.w3.org/TR/html401/struct/text.html#h-9.2.1)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Deprecated</span>
+### Deprecated
 
 -   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
 
-### <span>HTML</span>
+### HTML
 
 -   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
 

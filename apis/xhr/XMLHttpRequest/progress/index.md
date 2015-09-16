@@ -12,11 +12,11 @@ tags:
 uri: apis/xhr/XMLHttpRequest/progress
 
 ---
-## <span>Summary</span>
+## Summary
 
 While sending and loading data.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

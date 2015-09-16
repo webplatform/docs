@@ -30,11 +30,11 @@ todo_broken_links:
 uri: css/fonts/font-variant
 
 ---
-## <span>Summary</span>
+## Summary
 
 Selects a normal, or small-caps face from a font family. Also possible by using the font shorthand.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -60,13 +60,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `font-variant: inherit`
 -   `font-variant: normal`
 -   `font-variant: small-caps`
 
-## <span>Values</span>
+## Values
 
 normal
 :   Default. Specifies a normal font face.
@@ -77,7 +77,7 @@ small-caps
 inherit
 :   Inherit to the parent element.
 
-## <span>Examples</span>
+## Examples
 
 A simple example to show the effect achieved when small-caps are applied to a text paragraph
 
@@ -95,7 +95,7 @@ p {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 3](http://www.w3.org/TR/css3-fonts/#font-variant-prop)
 :   W3C Candidate Recommendation
@@ -103,11 +103,11 @@ p {
 [CSS 2.1](http://www.w3.org/TR/CSS21/fonts.html#small-caps)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -141,7 +141,7 @@ p {
 
 -   [font](/html/elements/font)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

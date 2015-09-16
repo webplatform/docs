@@ -25,19 +25,19 @@ tags:
 uri: 'apis/media capture and streams/MediaStreamTrack/constraints'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the complete constraints object associated with the track. If no mandatory constraints have been defined, the mandatory field will not be present (it will be undefined). If no optional constraints have been defined, the optional field will not be present (it will be undefined). If neither optional, nor mandatory constraints have been created, the value null is returned.
 
 Method of [apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)[apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = track.constraints();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type MediaTrackConstraintsMediaTrackConstraints
 

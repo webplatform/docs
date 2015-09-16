@@ -18,7 +18,7 @@ todo_broken_links:
 uri: 'tutorials/svg gradients'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article looks at filling SVG shapes with linear and radial gradients.
 

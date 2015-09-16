@@ -19,11 +19,11 @@ tags:
 uri: css/properties/shape-inside
 
 ---
-## <span>Summary</span>
+## Summary
 
 A future level of CSS Shapes will define a shape-inside property, which will define a shape to wrap content within the element. See Editor's Draft &lt;http://dev.w3.org/csswg/css-shapes/&gt; and CSSWG wiki page on next-level plans &lt;http://wiki.csswg.org/spec/css-shapes&gt;
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -46,12 +46,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `shapeInside`
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Currently implemented as an experimental feature in WebKit and Blink. This can be used with a -webkit- prefix in WebKit nightly builds and with a -webkit- prefix in Chrome Canary builds with experimental-webkit-features enabled: chrome://flags/#enable-experimental-webkit-features

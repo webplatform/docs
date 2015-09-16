@@ -24,28 +24,28 @@ todo_broken_links:
 uri: apis/file/MSStreamReader/readAsBlob
 
 ---
-## <span>Summary</span>
+## Summary
 
 Performs an asynchronous read of an MSStream object in order to create a Blob object.
 
 Method of [apis/file/MSStreamReader](/apis/file/MSStreamReader)[apis/file/MSStreamReader](/apis/file/MSStreamReader)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  MSStreamReader.readAsBlob(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>stream</span>
+### stream
 
  Data-type
 :   Blob
 
  The [MSStream](/w/index.php?title=apis/file/MSStream&action=edit&redlink=1) object to read.
 
-### <span>maxSize</span>
+### maxSize
 
  Data-type
 :   Number
@@ -54,12 +54,12 @@ Method of [apis/file/MSStreamReader](/apis/file/MSStreamReader)[apis/file/MSStre
 
 String that specifies the maximum size of the object to read.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 The **readAsBlob** method is used by [msStreamReader](/apis/file/MSStreamReader) to create a [Blob](/apis/file/Blob) object from an [MSStream](/w/index.php?title=apis/file/MSStream&action=edit&redlink=1). When the read begins, the *readyState* property is set to the `LOADING` state on MSStreamReader and the *onloadstart* event is fired. Progress for the read is monitored by the *onprogress* event. When the read completes, the *onloadend* event fires and *readyState* is set to `DONE` and *MSStreamReader.result* returns the new Blob object. A read operation can be interrupted if an error occurs or the *abort* method is run. If an error occurs, the *onloadend* event sets the *readyState* to `DONE`, and passes the error using the *error* property.

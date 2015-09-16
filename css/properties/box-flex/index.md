@@ -25,11 +25,11 @@ todo_broken_links:
 uri: css/properties/box-flex
 
 ---
-## <span>Summary</span>
+## Summary
 
 Do not use. This property has been replaced by the flex property.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0.0`
@@ -52,11 +52,11 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `box-flex: integer`
 
-## <span>Values</span>
+## Values
 
 integer
 :   A floating point value that indicates the relative flexibility of a child element.
@@ -67,22 +67,22 @@ A negative value is not valid.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Do not use. This property has been replaced by the flex property. To ensure compatibility in the future, applications using this property should be updated accordingly.
 
 Gets or sets a value that specifies whether the width or height of a child element is flexible based on the space available in the object. This value also indicates the proportion of space available that is allocated to the child element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Flexible Box Layout Module](http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/)
 :   W3C Working Draft (Obsolete)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Layout</span>
+#### CSS Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -126,7 +126,7 @@ Gets or sets a value that specifies whether the width or height of a child eleme
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

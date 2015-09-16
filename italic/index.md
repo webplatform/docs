@@ -9,7 +9,7 @@ tags:
 uri: italic
 
 ---
-## <span>italic</span>
+## italic
 
 Of a font or typeface, a style somewhat emulating cursive writing that slants characters slightly. The last word in this sentence is *italic*.
 

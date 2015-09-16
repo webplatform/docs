@@ -8,17 +8,17 @@ tags:
 uri: 'tutorials/traversing the dom'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article covers how to select different parts of your HTML document for manipulation via JavaScript.
 
-## <span>Introduction</span>
+## Introduction
 
 It is hard to come up with any example of useful JavaScript code on the web that does not interact in some way with an HTML document. Generally speaking, your code needs to read in values from the page, process them in some way, and then generate output in the form of visible changes or informational messages. As your next step towards the goal of creating responsive interfaces for your pages and applications, this article and the next will introduce the **Document Object Model**, which provides the mechanism for *inspecting* and *manipulating* the semantic and presentational layers that you create.
 
 After reading this article of the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum), you will have a good understanding of what the DOM is, and how you can use it to navigate through an HTML page in order to find the exact spot at which you need to gather some data or make a change. The next article in the series ([Creating and modifying HTML](http://dev.opera.com/articles/view/creating-and-modifying-html/)) will pick up there, outlining the methods by which you can manipulate the data on the page, changing values, or creating entirely new elements and attributes.
 
-## <span>Planting seeds</span>
+## Planting seeds
 
 The DOM, as you might guess from the name Document Object Model, is a model of the HTML document which is created by the browser when it loads up your web page. JavaScript has access to all of the information in this model. Let us consider what exactly is being modeled.
 
@@ -28,7 +28,7 @@ But that is not all. I have created a document that is simply *dripping* with me
 
 It is also important to note that well-structured HTML and CSS form the seed from which JavaScript's model for the page will grow. The model of a poorly constructed document will differ in undesirable ways from your expectations, and behave inconsistently across browsers. It is vital, then, that your HTML and CSS be both [well-formed and valid](http://www.w3.org/wiki/Validating_your_HTML) in order to ensure that JavaScript ends up with exactly the model you think it should.
 
-## <span>Growing trees</span>
+## Growing trees
 
 After creating and styling your document, the next step is to hand it off to a browser to display to your users. This is where the DOM comes into play, reading through the document and dynamically generating a DOM you can use within your programs. Specifically, the DOM represents the HTML page as a **tree**, in much the same way you might represent your ancestry as a “family tree”. Each element on the page is contained in the DOM as a **node**, with branches linking to elements it directly contains (its **children**), and to the element that directly contains it (its **parent**). Let’s work through a simple HTML document to make these relationships clear:
 
@@ -64,7 +64,7 @@ Figure 1: The above HTML document represented visually as a DOM tree.
 
 It is a straightforward mapping from the HTML document to this tree structure, which succinctly captures the direct relationships between elements on the page, making the hierarchy clear. You will notice, however, that I have added a node labeled `document` above the `html` node. This is the document’s **root**, and acts as JavaScript’s most-visible hook into the tree.
 
-## <span>Nodes</span>
+## Nodes
 
 Before I shimmy up the tree and start swinging from branch to branch, let us take a moment to examine in some detail what exactly I will be hanging on to.
 
@@ -74,7 +74,7 @@ As you might expect, given JavaScript’s object-nature, the information I am lo
 
 These are not the only interesting properties of nodes, of course. But this is a good start. So what code do I use to get my hands on one of these nodes in the first place? Where do I start my explorations?
 
-## <span>Branch to branch</span>
+## Branch to branch
 
 The best place to begin is at the document’s root, accessible via an object creatively named `document`. As `document` is right at the root, it does not have a `parentNode`, but it does have a single child: the `html` element node, which we can access via `document`’s `childNodes` array:
 
@@ -125,7 +125,7 @@ alert( "theParagraphNode is a " + theParagraphNode.nodeName + " node!" );
 
  These close-range node-navigation methods are useful, and let you get wherever you like in a document, but they’re cumbersome. Even in this tiny example document, you can start to see how laborious it can be to navigate from the root node down into the depths of the markup. There must be a better way to get around!
 
-## <span>Direct access</span>
+## Direct access
 
 It is really very difficult to specify explicit paths to each of the elements you are interested in on a page. Moreover, it becomes *completely* impossible if the page you are working with is in any way dynamically generated (for example using a server-side language like PHP or ASP.NET) as you cannot guarantee that, for example, the paragraph you are looking for is *always* the `body` node’s second child. So a better way is needed to get to a specific element without explicit knowledge of its surroundings.
 
@@ -165,7 +165,7 @@ for (var i=0; i < allParagraphs.length; i++ ) {
 document.getElementById('excitingText').getElementsByTagName('em')
 ```
 
-## <span>Summary</span>
+## Summary
 
 The DOM is the foundation of almost everything JavaScript does for us on the web. It is the interface that allows us to interact with our page’s content, and it is essential to understand how to get around within that model.
 
@@ -173,9 +173,9 @@ This article has given you the basic tools for that job. You can easily traverse
 
 The logical next step is to start *doing* interesting things with the results your JavaScript returns. You’ll need to grab data to power your scripts, and manipulate data on the page to create exciting user interactions. We’ll explore those topics in the next article, which shows you how to use methods the DOM provides to interact with nodes and their attributes, and to weave that interaction into the scripts and interfaces you create in the future.
 
-## <span>See also</span>
+## See also
 
-### <span>Exercise questions</span>
+### Exercise questions
 
 -   Using the example document from the article, write three different paths that end up on the `head` element. Remember that you can chain `childNodes` and `parentNode` together as much as you like.
 -   Given an arbitrary node, how can you determine its type?

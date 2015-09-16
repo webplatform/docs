@@ -22,11 +22,11 @@ tags:
 uri: css/properties/outline-style
 
 ---
-## <span>Summary</span>
+## Summary
 
 The outline-style property sets the style of the outline of an element. An outline is a line that is drawn around elements, outside the border edge, to make the element stand out.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -52,7 +52,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `outline-style: auto`
 -   `outline-style: dashed`
@@ -66,7 +66,7 @@ Percentages
 -   `outline-style: ridge`
 -   `outline-style: solid`
 
-## <span>Values</span>
+## Values
 
 none
 :   Default. Outline is not drawn, color and width are ignored.
@@ -101,7 +101,7 @@ inherit
 auto
 :   Defined by the user agent (browser). Currently supported only in WebKit. This value allows user-agents to draw focus outlines on elements in an appropriate platform-native style, or in some other appropriate style if there is no platform-native style.
 
-## <span>Examples</span>
+## Examples
 
 A simple example showing multiple \<span\>s.
 
@@ -197,12 +197,12 @@ Outline styles in CSS.
 
 [View live example](http://code.webplatform.org/gist/5579124)
 
-## <span>Notes</span>
+## Notes
 
 -   This property accepts the same values as [border-style](/css/properties/border-style), ***except*** that ‘hidden’ is not a legal outline style.
 -   The [outline](/css/properties/outline) property is a shorthand property for setting one or more of the individual outline properties **outline-style**, [outline-width](/css/properties/outline-width) and [outline-color](/css/properties/outline-color) in a single rule. In most cases the use of this shortcut is preferable and more convenient.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Basic User Interface Module Level 3 (CSS3 UI)](http://dev.w3.org/csswg/css-ui/#outline-style0)
 :   Working Draft

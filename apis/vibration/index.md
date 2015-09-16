@@ -11,11 +11,11 @@ tags:
 uri: apis/vibration
 
 ---
-## <span>Summary</span>
+## Summary
 
 The Vibration API provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback, often used by mobile phones.
 
-## <span>Usage</span>
+## Usage
 
      This API is specifically designed to address use cases that require simple tactile feedback only. This API is not meant to be used as a generic notification mechanism. Such use cases may be handled using the Web Notifications specification.
 
@@ -41,11 +41,11 @@ navigator.vibrate(0);
 navigator.vibrate([]);
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Mobile</span>
+#### Mobile
 
 -   [Battery Status API](/apis/battery_status)
 
@@ -59,7 +59,7 @@ navigator.vibrate([]);
 
 -   [capture](/html/attributes/capture)
 
-### <span>External resources</span>
+### External resources
 
 -   [Vibration API](http://www.w3.org/TR/vibration/)
 -   [Vibration API - W3C Candidate Recommendation 23 July 2013](http://www.w3.org/TR/2013/CR-vibration-20130723/)

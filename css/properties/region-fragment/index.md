@@ -18,11 +18,11 @@ tags:
 uri: css/properties/region-fragment
 
 ---
-## <span>Summary</span>
+## Summary
 
 Controls whether the last region in a chain displays additional 'overset' content according its default overflow property, or if it displays a fragment of content as if it were flowing into a subsequent region.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -48,12 +48,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `region-fragment: auto`
 -   `region-fragment: break`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Region element displays [overset](/css/concepts/overset) content according to its [**overflow**](/css/properties/overflow) property.
@@ -61,7 +61,7 @@ auto
 break
 :   Region element overrides [**overflow**](/css/properties/overflow) property, displaying whatever fragment of [overset](/css/concepts/overset) content can fit within the region.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 <style>
@@ -82,7 +82,7 @@ break
 </body>
 ```
 
-## <span>Usage</span>
+## Usage
 
      In the following example, 'region_1' can accommodate the article's gray text, 'region_2' can  accommodate the blue text, and the red  'overset' text does not fit within the region chain:
 
@@ -94,18 +94,18 @@ The property only applies to the final element in a [*region chain*](/css/concep
 
 For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
 
-## <span>Notes</span>
+## Notes
 
 This property was formerly named **region-overflow**.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

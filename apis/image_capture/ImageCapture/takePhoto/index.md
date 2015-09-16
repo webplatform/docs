@@ -19,19 +19,19 @@ tags:
 uri: 'apis/image capture/ImageCapture/takePhoto'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gathers data from the VideoStreamTrack into a Blob containing a single still image.
 
 Method of [apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)[apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  pictureDevice.takePhoto();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 

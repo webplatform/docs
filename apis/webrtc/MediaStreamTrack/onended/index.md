@@ -18,13 +18,13 @@ tags:
 uri: apis/webrtc/MediaStreamTrack/onended
 
 ---
-## <span>Summary</span>
+## Summary
 
 Handles the ended event when fired on the MediaStream object.
 
 Property of [apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)[apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onended;

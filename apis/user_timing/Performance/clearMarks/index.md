@@ -19,21 +19,21 @@ tags:
 uri: 'apis/user timing/Performance/clearMarks'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes all DOMHighResTimeStamp time values for the given mark name, or removes all marks and their associated DOMHighResTimeStamp time values.
 
 Method of [apis/user\_timing/Performance](/apis/user_timing/Performance)[apis/user\_timing/Performance](/apis/user_timing/Performance)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.clearMarks(markName);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>markName</span>
+### markName
 
  Data-type
 :   any
@@ -42,11 +42,11 @@ Method of [apis/user\_timing/Performance](/apis/user_timing/Performance)[apis/us
 
 Name of the mark(s) to be cleared.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // set begin mark
@@ -68,11 +68,11 @@ performance.clearMeasures("functionTime");
 performance.clearMarks();
 ```
 
-## <span>Notes</span>
+## Notes
 
 If a value for the *markName* parameter is specified, only marks with that name are removed. If there are no marks with the specified name, this method does nothing.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C User Timing Specification](http://www.w3.org/TR/user-timing/)
 :   W3C Recommendation

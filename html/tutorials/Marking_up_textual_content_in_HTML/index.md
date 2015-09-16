@@ -11,7 +11,7 @@ todo_broken_links:
 uri: 'html/tutorials/Marking up textual content in HTML'
 
 ---
-## <span>Introduction</span>
+## Introduction
 
 In this article we will take you through the basics of using HTML to markup the content within the body of your document.
 
@@ -19,7 +19,7 @@ We will look at general structural elements such as headings and paragraphs and 
 
 **Note**: You can [view all the examples in this article running live](http://devfiles.myopera.com/articles/379/HTMLtext_examples.html).
 
-## <span>Space—the final frontier</span>
+## Space—the final frontier
 
 An important point to cover before I start discussing text, though, is that of space, specifically the space between words. When writing HTML, the source document will contain what is termed “white space” — the characters in the file that serve to separate text. An actual space character, as you would get when you hit the Spacebar on the keyboard is the most common, but there are others such as the Tab character and the marker between two separate lines in a document (called a carriage return or new line).
 
@@ -36,11 +36,11 @@ The only place where this is not the case is in the `<pre>` element, which is di
 
 This can be a source of confusion for first-time authors of an HTML document, who may try to pad out text with extra spaces to achieve a desired indentation, to get more spacing after the period between sentences or to introduce more vertical space between paragraphs. Influencing the visual layout of your documents is not something to be done in the HTML source, and is instead achieved via CSS, discussed later in the series.
 
-## <span>Block level elements</span>
+## Block level elements
 
 In this section I’ll go through the syntax and usage of the common block level elements used to format text.
 
-### <span>Page section headings</span>
+### Page section headings
 
 Each part of your web content, whether you are talking about a web site, a single content block or an article, should be introduced by an appropriate heading.
 
@@ -62,7 +62,7 @@ A good example of a header structure, using this article as a template, would lo
 
     […and so on…]
 
-### <span>Generic paragraphs</span>
+### Generic paragraphs
 
 The paragraph is the building block of most documents. In HTML a paragraph is represented by the `<p>` element, which takes no special attributes. For example:
 
@@ -70,7 +70,7 @@ The paragraph is the building block of most documents. In HTML a paragraph is re
 
 A paragraph can contain just one sentence, but taking the literary meaning, further, you can't really call two words a paragraph. There is however no more suitable semantic element for marking up just two words of prose, so stick to the humble `<p>` element even in these cases, unless it is in fact a list item, heading, link or similar, in which case there will be a more suitable element available.
 
-### <span>Quoting other sources</span>
+### Quoting other sources
 
 Very often articles, blog posts, and reference documents will quote another document in whole or in part. In HTML, this is marked up using the `<blockquote>` element for lengthy quotations, such as entire sentences, paragraphs, lists, etc.
 
@@ -89,7 +89,7 @@ If the quote comes from another web page, you can indicate this using the `cite`
 
 The `cite` attribute doesn't really do anything on its own, although it is useful to keep a record of where the quotes are taken from. You could just JavaScript to extract this information from the `cite` attribute and do something meaningful with it, like open a new tab with that page loaded in it, for example.
 
-### <span>Preformatted text</span>
+### Preformatted text
 
 Any case in which the formatting and white space (see earlier) needs to be preserved should be marked up using the `<pre>` element. In this example, you can see a snippet of code written in the Perl programming language:
 
@@ -111,11 +111,11 @@ In most web browsers, text marked as preformatted will be displayed to the user 
 
 Note: The use of the `<code>` element above will be explained in the [Lesser - known semantic elements](/w/index.php?title=Lesser_-_known_semantic_elements&action=edit&redlink=1) article later on in the course.
 
-## <span>Inline elements</span>
+## Inline elements
 
 In this section I’ll go through the syntax and usage of the common inline elements used to format text.
 
-### <span>Short quotations</span>
+### Short quotations
 
 Short quotes used within a normal sentence or paragraph are contained within the `<q>` element. Like the `<blockquote>` element, this can contain a `cite` attribute, which indicates the page on the internet where the quote can be found.
 
@@ -126,17 +126,17 @@ An example of `<q>` in action:
     <p>This did not end well for me. Oh well,
                   <q lang="fr">c'est la vie</q> as the French say.</p>
 
-### <span>Emphasis</span>
+### Emphasis
 
 HTML contains four elements for indicating emphasis of some kind, such as important text like warnings, or subtle differences in meaning. For visual browsers this normally means applying a different colour, font or making the text bolder or italicised. For users of screen readers this can result in a different voice or other auditory effect.
 
-#### <span>\<em\></span>
+#### \<em\>
 
 For emphasis that subtly changes the meaning of a sentence, you use the `<em>` element, like so:
 
     <p><em>Please</em> remember to unplug the kettle at night.</p>
 
-#### <span>\<i\></span>
+#### \<i\>
 
 The `<i>` element used to mean italic in HTML4, and this was considered a bit naughty, as it was more of a presentational element than a semantic one (it just described what the element looked like, rather than what its meaning was - see below for more on these kinds of elements). HTML5 however redefines the meaning of `<i>`, saying that it "represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, a thought, a ship name, or some other prose whose typical typographic presentation is italicised."
 
@@ -150,34 +150,34 @@ This does sound rather confusing, so here are some examples of where `<i>` would
 
     <p>She really does add that little bit of <i lang="fr">je ne sais quoi</i>.</p>
 
-#### <span>\<strong\></span>
+#### \<strong\>
 
 The `<strong>` element indicates strong importance for its contents: that they are more important than surrounding content. For example:
 
 \<p\>There are a total of twenty different species living inside this enclosure. \<strong\>Warning: Do not feed them: they will eat your shoes\</strong\>.\</p\>
 
-#### <span>\<b\></span>
+#### \<b\>
 
 The `<b>` element again used to be frowned upon because it described the look of the content, not its meaning. HTML5 has therefore redefined this element too: it is now meant to markup content that is stylistically offset from the rest of the text, but no more important in terms of its meaning. So for example, consider the most significant words in a product review or document abstract. An example follows:
 
     <p>In this article, Chris Mills will show you how to combine <b>HTML5</b>, <b>CSS3</b>, <b>coloured card</b>
     and <b>string</b> to create an attractive mobile for your child's bedroom.</p>
 
-#### <span>Combining emphasis elements</span>
+#### Combining emphasis elements
 
 You can combine and nest these different types of emphasis. For example, if an entire sentence was to be emphasised, but there was also a point within that sentence that was more important, you could use the `<strong>` and `<em>`elements together to indicate stronger emphasis than normal, like so:
 
     <p><em>Please note: the kettle <strong>must</strong> be unplugged every evening, otherwise it will explode -
     <strong>killing us all</strong></em>.</p>
 
-### <span>Small print</span>
+### Small print
 
 Another element that was presentational and therefore naughty in HTML4, but that has been redefined in HTML5 is `<small>`. It used to be a presentational element for making text appear smaller, but in HTML5 it is now used to mark up small print, such as legal restrictions, disclaimers, copyright notices, attribution statements, or licensing information. For example:
 
     <p><small>This content is released under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
     Creative Commons Attribution Share-alike license</a>.</small></p>
 
-### <span>Telling the time</span>
+### Telling the time
 
 New to HTML5, the `<time>` element gives you a way to unambiguously markup any times and dates you include in your text, allowing you to display them however you want to your readers, whilst including a consistent ISO-formatted date that machines can read. Here's an example:
 
@@ -206,33 +206,33 @@ Finally, you can also add a pubdate attribute to a `<time>` element, to specify 
 
     <p>Published on <time datetime="2011-07-20" pubdate>July 27<sup>th</sup> 2011</time>.</p>
 
-## <span>Presentational elements — never use these</span>
+## Presentational elements — never use these
 
 The HTML 4 specification includes several elements that are widely described as “presentational” because they only specify what the content within them should look like, and not what it means. Most of these have been removed in the HTML5 specification.
 
 We will describe them briefly here, but note that this is mostly of historic interest — these elements should never be used in any modern web page, although they are still used in HTML e-mails, which follow a non-standard set of rules. The effect of all of these elements should be achieved in another way, such as using CSS.
 
-### <span>\<font face="…" size="…"\></span>
+### \<font face="…" size="…"\>
 
 The text within should be rendered by the browser using a font different from the default — instead, fonts should be set using CSS.
 
-### <span>\<strike\></span>
+### \<strike\>
 
 The text within has been struck-through with a line — if this is merely a presentational effect, this should be achieved with CSS. Alternatively, if the text is actually being marked as having been deleted or unwanted it should be marked up with the `<del>` element, described in [Lesser - known semantic elements](/w/index.php?title=Lesser_-_known_semantic_elements&action=edit&redlink=1).
 
-### <span>\<u\></span>
+### \<u\>
 
 The text within has been underlined — this is almost always a visual effect, and so should be achieved with CSS.
 
-### <span>\<tt\></span>
+### \<tt\>
 
 The text within is presented in a “teletype” or monospaced font — this should be achieved with CSS or a more appropriate semantic element such as `<pre>` (a block level element), shown above, or `<code>`, an inline element.
 
-### <span>\<big\></span>
+### \<big\>
 
 This makes the size of the text inside bigger — this should be achieved with CSS.
 
-## <span>Summary</span>
+## Summary
 
 In this article, we have talked about some of the most common elements used when marking up textual content. In the next article, [HTML lists](/guides/html_lists), you will progress to another type of content: lists of items.
 

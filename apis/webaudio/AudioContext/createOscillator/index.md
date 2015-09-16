@@ -20,32 +20,32 @@ tags:
 uri: apis/webaudio/AudioContext/createOscillator
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates an OscillatorNode, a source representing a periodic waveform. It basically generates a constant tone..
 
 Method of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = AudioContext.createOscillator();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 OscillatorNode
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
 var oscillator = audioCtx.createOscillator();
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

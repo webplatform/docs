@@ -20,24 +20,24 @@ tags:
 uri: apis/webaudio/AnalyserNode/minDecibels
 
 ---
-## <span>Summary</span>
+## Summary
 
 The minimum power value in the scaling range for the FFT analysis data for conversion to unsigned byte values. Default is -100.
 
 Property of [apis/webaudio/AnalyserNode](/apis/webaudio/AnalyserNode)[apis/webaudio/AnalyserNode](/apis/webaudio/AnalyserNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = AnalyserNode.minDecibels;
 AnalyserNode.minDecibels = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -45,7 +45,7 @@ var analyser = audioCtx.createAnalyser();
 analyser.minDecibels = -90;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

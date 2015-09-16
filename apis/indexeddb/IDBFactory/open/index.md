@@ -25,28 +25,28 @@ tags:
 uri: apis/indexeddb/IDBFactory/open
 
 ---
-## <span>Summary</span>
+## Summary
 
 The open method is used to open an IndexedDB database.
 
 Method of [apis/indexeddb/IDBFactory](/apis/indexeddb/IDBFactory)[apis/indexeddb/IDBFactory](/apis/indexeddb/IDBFactory)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var dbOpenRequest = indexeddb.open(name, version);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The name of the database to be opened.
 
-### <span>version</span>
+### version
 
  Data-type
 :   Number
@@ -55,13 +55,13 @@ var dbOpenRequest = indexeddb.open(name, version);
 
 The version (unsigned long long) for the database
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 An **IDBOpenRequest** request object that fires events to indicate the result of the request.
 
-## <span>Examples</span>
+## Examples
 
 Open a database without a version number
 
@@ -104,15 +104,15 @@ dbOpenRequest.onerror = function(e){
 
 [View live example](http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#dbVersion&)
 
-## <span>Usage</span>
+## Usage
 
      var openRequest = window.indexedDB.open("databaseName", 1);
 
-## <span>Notes</span>
+## Notes
 
 The open method either creates a database if it does not exist, or opens one, with the specified version number. If no version number is specified, the database is opened with the current version number. If a database is to be created and a version number is not specified, the database is opened with a version 1.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

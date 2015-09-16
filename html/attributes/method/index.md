@@ -28,22 +28,22 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When the user enters information in a **form** and clicks the **submit** button, there are two ways the information can be sent from the browser to the server: as part of the URL, or within the body of the HTTP request. The **GET** method appends name/value pairs to the URL. The amount of data that can be sent is limited by the maximum length of a URL, which is 2048 bytes. The URL could be truncated if the form uses a large number of parameters, or if the parameters contain large amounts of data. Parameters passed on the URL are visible in the address field of the browser. This **POST** method packages the name/value pairs inside the body of the HTTP request. When using the **POST** method, there is no theoretical limit to the amount of data that can be sent to the server. Because the parameters are not appended to the URL, this method is slightly more secure.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 17.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `form`
 -   `action`

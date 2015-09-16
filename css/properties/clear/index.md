@@ -31,11 +31,11 @@ todo_broken_links:
 uri: css/properties/clear
 
 ---
-## <span>Summary</span>
+## Summary
 
 The clear CSS property specifies if an element can be positioned next to or must be positioned below the floating elements that precede it in the markup.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -61,7 +61,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `clear: both`
 -   `clear: inherit`
@@ -69,7 +69,7 @@ Percentages
 -   `clear: none`
 -   `clear: right`
 
-## <span>Values</span>
+## Values
 
 none
 :   May have adjacent floats on both the left and right sides.
@@ -86,7 +86,7 @@ both
 inherit
 :   Takes the same specified value as the property for the element's parent.
 
-## <span>Examples</span>
+## Examples
 
 Example of `clear:none;` in use.
 
@@ -146,7 +146,7 @@ pretend the black box labeled <code>float:left;</code> is an image floated left.
 
 [View live example](http://code.webplatform.org/gist/6072801)
 
-## <span>Notes</span>
+## Notes
 
 The **clear** property applies to both [floating](/css/properties/float) and non-floating elements.
 When applied to non-floating blocks, it moves the [border](/css/properties/border) edge of the element down until it is below the margin edge of all relevant floats. This movement (when it happens) causes margin collapsing not to occur.
@@ -155,7 +155,7 @@ When applied to floating elements, it moves the margin edge of the element below
 
 The floats that are relevant to be cleared are the earlier floats within the same block formatting context.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/visuren.html#propdef-clear)
 :   Recommendation
@@ -163,11 +163,11 @@ The floats that are relevant to be cleared are the earlier floats within the sam
 [CSS - Basic Box Model](http://www.w3.org/TR/css3-box/#the-lsquo2)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Box Model</span>
+#### Box Model
 
 -   [border](/css/properties/border)
 
@@ -209,13 +209,13 @@ The floats that are relevant to be cleared are the earlier floats within the sam
 
 -   [min-width](/css/properties/min-width)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Tutorial: Page layout with floats and clearing](/tutorials/floats_and_clearing).
 -   [Tutorial: Exploring the CSS box model](/tutorials/box_model).
 -   [Guide: The CSS layout model](/guides/the_css_layout_model).
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

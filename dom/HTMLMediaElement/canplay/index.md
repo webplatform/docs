@@ -16,11 +16,11 @@ tags:
 uri: dom/HTMLMediaElement/canplay
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fires whenever enough data is available to determine whether a media is playable.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -76,11 +76,11 @@ Default action
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 The **oncanplay** event is raised when enough data is available to advance the playback position in the direction of playback. This event first occurs after [**onloadeddata**](/dom/Element/loadeddata) and before [**oncanplaythrough**](/dom/HTMLMediaElement/canplaythrough). To invoke this event, load a media resource.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

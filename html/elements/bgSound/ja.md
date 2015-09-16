@@ -24,16 +24,16 @@ tags:
 uri: html/elements/bgSound/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 bgsoundはユーザがそのページにいる間、音楽ファイルを再生させるための要素です。 この要素を使用せず、代わりにaudio要素を使用してください。
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLBGSoundElement](/dom/HTMLBGSoundElement)
 
-## <span>Examples</span>
+## Examples
 
 音楽ファイルを再生したい場合、[audio](/html/elements/audio/ja)要素を使用してください。
 
@@ -55,25 +55,25 @@ bgsoundはユーザがそのページにいる間、音楽ファイルを再生�
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>備考</span>
+### 備考
 
 `<bgSound>`要素は文書内のどこにでも記述することができます。 この要素は画面上に表示されません。 この要素は終了タグ(\</bgsound\>)が要りません。 この要素は使用しないでください。 HTML5では、`<bgSound>`は["非適合機能"](http://momdo.github.io/html5/obsolete.html#non-conforming-features)として記述されています。
 
-### <span>標準情報</span>
+### 標準情報
 
 There are no standards that apply here.
 
-### <span>HTML information</span>
+### HTML information
 
 {
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Audio</span>
+#### Audio
 
 -   [audio-video](/apis/audio-video)
 

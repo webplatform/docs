@@ -9,7 +9,7 @@ tags:
 uri: pica
 
 ---
-## <span>pica</span>
+## pica
 
 A typographical unit of measure corresponding to 1/72 of a foot, and therefore equal to 1/6 of an inch. The pica contains 12 point units of measure.
 

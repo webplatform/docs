@@ -10,11 +10,11 @@ tags:
 uri: http/headers/Expires
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gives the datetime after which the response is considered &quot;stale&quot;
 
-## <span>Overview table</span>
+## Overview table
 
 Direction
 :   Response
@@ -22,17 +22,17 @@ Direction
 Features
 :
 
-## <span>Syntax</span>
+## Syntax
 
     Expires = HTTP-date
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 Expires: Thu, 01 Dec 1994 16:00:00 GMT
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [RFC7234: HTTP/1.1 Caching](http://tools.ietf.org/html/rfc7234#section-5.3)
 :

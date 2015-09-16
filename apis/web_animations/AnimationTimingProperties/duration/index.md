@@ -17,7 +17,7 @@ tags:
 uri: 'apis/web animations/AnimationTimingProperties/duration'
 
 ---
-## <span>Summary</span>
+## Summary
 
 See the duration member of the AnimationTimingReadOnly interface.
 
@@ -25,7 +25,7 @@ Real numbers less than zero, NaN values, and strings other than the lowercase va
 
 Property of [apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)[apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.duration;

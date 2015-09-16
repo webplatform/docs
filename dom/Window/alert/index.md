@@ -19,44 +19,44 @@ tags:
 uri: dom/Window/alert
 
 ---
-## <span>Summary</span>
+## Summary
 
 Displays a synchronized dialog box showing the given text and a localized OK button.
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  window.alert(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>message</span>
+### message
 
  Data-type
 :   String
 
  The message to display in the dialog box.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 window.alert('A message from the web page');
 ```
 
-## <span>Usage</span>
+## Usage
 
      Not recommended for general use. See the notes for details.
 
 Use this method to alert the user with some text.
 
-## <span>Notes</span>
+## Notes
 
 -   You cannot change the title bar of the Alert dialog box.
 -   Not recommended due to the following issues -

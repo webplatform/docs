@@ -10,11 +10,11 @@ tags:
 uri: javascript/Error/description
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns or sets the descriptive string associated with a specific error.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Returns or sets the descriptive string associated with a specific error.
 **stringExpression**
 :   Optional. A string expression containing a description of the error.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **description** property.
 
@@ -52,15 +52,15 @@ try
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **description** property contains the error message string associated with a specific error. Use the value contained in this property to alert a user to an error.
 
 The **description** and **message** properties provide the same functionality; the **description** property provides backward compatibility; the **message** property complies with the ECMA standard.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [number Property (Error)](/javascript/Error/number)
 -   [message Property (Error)](/javascript/Error/message)

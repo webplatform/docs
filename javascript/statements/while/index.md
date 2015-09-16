@@ -10,11 +10,11 @@ tags:
 uri: javascript/statements/while
 
 ---
-## <span>Summary</span>
+## Summary
 
 Executes a statement or series of statements while a specified condition is true.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -28,7 +28,7 @@ Executes a statement or series of statements while a specified condition is true
 **statements**
 :   Optional. One or more statements to be executed if expression is true.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var i = 0;
@@ -52,7 +52,7 @@ while (i < 100) {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      The while statement checks the expression before a loop is first executed. If expression is false at this time, the loop is never executed.
 
@@ -60,9 +60,9 @@ The while statement keeps iterating until the conditional expression returns fal
 
 It's essential that the expression can become false or that that loop is terminated with the break statement to prevent an infinite loop.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [break Statement](/javascript/statements/break)
 -   [continue Statement](/javascript/statements/continue)
@@ -70,7 +70,7 @@ It's essential that the expression can become false or that that loop is termina
 -   [for Statement](/javascript/statements/for)
 -   [for...in Statement](/javascript/statements/for_in)
 
-### <span>Specification</span>
+### Specification
 
 -   [ECMAScript 5.1 (ECMA-262) - The while statement](http://www.ecma-international.org/ecma-262/5.1/#sec-12.6.2)
 

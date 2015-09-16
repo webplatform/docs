@@ -25,25 +25,25 @@ tags:
 uri: dom/Document/createRange
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates an empty Range instance object that has both of its boundary points positioned at the beginning of the document. After a Range is created, you must set its starting and ending boundary points before you can make use of most of its methods.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var range = document.createRange();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 An empty [**Range**](/dom/Range) instance object.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //create a document range
@@ -53,7 +53,7 @@ myRange.setStart(startNode, startOffset);
 myRange.setEnd(endNode, endOffset);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Traversal and Range](http://www.w3.org/TR/DOM-Level-2-Traversal-Range/ranges.html#Level-2-Range-Creating)
 :   Recommendation

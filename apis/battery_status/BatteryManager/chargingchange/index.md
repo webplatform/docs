@@ -14,11 +14,11 @@ tags:
 uri: 'apis/battery status/BatteryManager/chargingchange'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fired when the battery charging state is updated.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

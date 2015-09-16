@@ -20,20 +20,20 @@ tags:
 uri: apis/webaudio/OscillatorNode/type
 
 ---
-## <span>Summary</span>
+## Summary
 
 The shape of the periodic waveform. It may directly be set to any of the type constant values except for CUSTOM. The setWaveTable() method can be used to set a custom waveform, which results in this attribute being set to CUSTOM.
 
 Property of [apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)[apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = OscillatorNode.type;
 OscillatorNode.type = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned shortunsigned short
 
@@ -45,14 +45,14 @@ Uses one of the following constant values:
 -   TRIANGLE (3);
 -   CUSTOM (4).
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var oscillator = audioCtx.createOscillator();
 oscillator.type = 'square';
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

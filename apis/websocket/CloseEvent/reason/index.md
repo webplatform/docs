@@ -24,13 +24,13 @@ tags:
 uri: apis/websocket/CloseEvent/reason
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates the reason the server closed the WebSocket connection.
 
 Property of [apis/websocket/CloseEvent](/apis/websocket/CloseEvent)[apis/websocket/CloseEvent](/apis/websocket/CloseEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [apis/websocket/CloseEvent](/apis/websocket/CloseEvent)[apis/websock
 var result = element.reason;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -46,7 +46,7 @@ Reason string is specific to the particular server and sub-protocol.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation

@@ -18,13 +18,13 @@ tags:
 uri: dom/WheelEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 The DOM WheelEvent represents events that occur due to the user moving a mouse wheel or similar input device.
 
 Inherits from [MouseEvent](/dom/MouseEvent)[MouseEvent](/dom/MouseEvent)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -41,7 +41,7 @@ API Name
 [deltaZ](/dom/WheelEvent/deltaZ)
 :   Gets the distance that a mouse wheel has rotated around the z-axis.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -49,13 +49,13 @@ API Name
 [initWheelEvent](/dom/WheelEvent/initWheelEvent)
 :   Initializes a new WheelEvent that the createEvent method created.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from MouseEvent</span>
+## Inherited from MouseEvent
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -97,7 +97,7 @@ API Name
 [y](/dom/MouseEvent/y)
 :   Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -105,7 +105,7 @@ API Name
 [initMouseEvent](/dom/MouseEvent/initMouseEvent)
 :   Initializes a new mouse event that the [**createEvent**](/dom/Document/createEvent) method created.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -137,9 +137,9 @@ API Name
 [mouseup](/dom/MouseEvent/mouseup)
 :   Fires when the user releases a mouse button while the mouse is over the object.
 
-## <span>Inherited from UIEvent</span>
+## Inherited from UIEvent
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -152,7 +152,7 @@ API Name
 
     [object window]
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -160,7 +160,7 @@ API Name
 [initUIEvent](/dom/UIEvent/initUIEvent)
 :   Initializes a new user interface event that the [createEvent](/dom/Document/createEvent) method created.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -171,9 +171,9 @@ API Name
 [activate](/dom/UIEvent/activate)
 :   Fires when the object is set as the active element.
 
-## <span>Inherited from Event</span>
+## Inherited from Event
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -205,7 +205,7 @@ API Name
 [type](/dom/Event/type)
 :   Gets the name of an event.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -222,7 +222,7 @@ API Name
 [stopPropagation](/dom/Event/stopPropagation)
 :   Prevents propagation of an event beyond the current target.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -305,7 +305,7 @@ API Name
 [finish](/dom/Event/finish)
 :
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

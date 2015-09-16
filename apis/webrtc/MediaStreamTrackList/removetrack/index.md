@@ -12,11 +12,11 @@ tags:
 uri: apis/webrtc/MediaStreamTrackList/removetrack
 
 ---
-## <span>Summary</span>
+## Summary
 
 A MediaStreamTrack has been removed from the list.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

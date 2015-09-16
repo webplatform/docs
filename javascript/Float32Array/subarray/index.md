@@ -10,11 +10,11 @@ tags:
 uri: javascript/Float32Array/subarray
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets a new Float32Array view of the ArrayBuffer Object store for this array, specifying the first and last members of the subarray.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Gets a new Float32Array view of the ArrayBuffer Object store for this array, spe
 **end**
 :   The index of the end of the array.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to get a subarray three elements long, starting with the first element of the array.
 
@@ -48,7 +48,7 @@ var req = new XMLHttpRequest();
      }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 If either begin or end is negative, it refers to an index from the end of the array, as opposed to from the beginning. If end is unspecified, the subarray contains all elements from begin to the end of the typed array. The range specified by the begin and end values is clamped to the valid index range for the current array. If the computed length of the new typed array would be negative, it is clamped to zero. The returned array is of the same type as the array on which this method is invoked.
 

@@ -22,7 +22,7 @@ uri: dom/HTMLElement/elements
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.elements;
@@ -31,14 +31,14 @@ element.elements = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This collection can contain any combination of the **button**, **input**, **select**, and **textArea** objects. For compatibility with existing Web content, however, **input type=image** objects are excluded. A complete list of form controls is provided in the Introduction to Forms.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

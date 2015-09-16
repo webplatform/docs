@@ -18,18 +18,18 @@ tags:
 uri: html/elements/hn
 
 ---
-## <span>Summary</span>
+## Summary
 
 The h1 through h6 elements define levels of headings within a document.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLHeadingElement](/dom/HTMLHeadingElement)
 
 These elements have a rank given by the number in their name. The h1 element is said to have the highest rank, the h6 element has the lowest rank, and two elements with the same name have equal rank.
 
-### <span>HTML information</span>
+### HTML information
 
 <table class="wikitable">
 <tr>
@@ -53,7 +53,7 @@ block
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!--
@@ -77,18 +77,18 @@ block
 
 [View live example](http://code.webplatform.org/gist/6363937)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Use H1 through H6 to specify different sizes and styles of headings.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 7.5.5
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements)
 :   W3C Working Draft
@@ -99,11 +99,11 @@ Use H1 through H6 to specify different sizes and styles of headings.
 [HTML 4.01](http://www.w3.org/TR/html401/struct/global.html#edef-H1)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 

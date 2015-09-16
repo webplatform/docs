@@ -22,11 +22,11 @@ tags:
 uri: css/properties/word-break
 
 ---
-## <span>Summary</span>
+## Summary
 
 The word-break property is often used when there is long generated content that is strung together without and spaces or hyphens to beak apart. A common case of this is when there is a long URL that does not have any hyphens. This case could potentially cause the breaking of the layout as it could extend past the parent element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -52,13 +52,13 @@ Animatable
 Percentages
 :   Not available
 
-## <span>Syntax</span>
+## Syntax
 
 -   `word-break: break-all`
 -   `word-break: keep-all`
 -   `word-break: normal`
 
-## <span>Values</span>
+## Values
 
 normal
 :   Default property. Words break according to their usual rules.
@@ -69,7 +69,7 @@ break-all
 keep-all
 :   Implicit soft wrap opportunities between letters are suppressed, i.e. breaks are prohibited between pairs of letters (except where opportunities exist due to dictionary-based breaking). Otherwise this option is equivalent to `normal`. In this style, sequences of CJK characters do not break.
 
-## <span>Examples</span>
+## Examples
 
 A simple example showing multiple `<div>`s, identical in style except that they have different `word-break` properties applied to them.
 
@@ -108,23 +108,23 @@ div {
 
 [View live example](http://code.webplatform.org/gist/6392109)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 8. The **-ms-word-break** attribute is an extension to CSS, and can be used as a synonym for **word-break** in IE8 Standards mode. When using the **-ms-word-break** attribute with a [**table**](/html/elements/table), you must set the [**table-layout**](/css/properties/table-layout) attribute to **fixed** on the **table**. The behaviors of the parameter values are detailed in [CSS Text Level 3: W3C Working Draft (6 March 2007), sec. 4.1, "Line Breaking Restrictions: The 'word-break' Property"](http://go.microsoft.com/fwlink/p/?linkid=203753); and in [Unicode Standard Annex \#14: Line Breaking Properties](http://go.microsoft.com/fwlink/p/?linkid=203714).
 
-### <span>Syntax</span>
+### Syntax
 
 `word-break: normal | break-all | keep-all`
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Text Module Level 3 - word-break property](http://www.w3.org/TR/css3-text/#word-break)
 -   [CSS Text Level 3](http://go.microsoft.com/fwlink/p/?linkid=203766), Section 5.2
 -   [Unicode Standard Annex \#14 -- Unicode Line Breaking Algorithm](http://go.microsoft.com/fwlink/p/?linkid=223137)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/)
 :   W3C Last Call Working Draft

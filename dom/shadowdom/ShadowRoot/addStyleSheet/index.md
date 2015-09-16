@@ -23,21 +23,21 @@ tags:
 uri: dom/shadowdom/ShadowRoot/addStyleSheet
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds a new style sheet to shadow root style sheets.
 
 Method of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.addStyleSheet();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 

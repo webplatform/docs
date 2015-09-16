@@ -22,13 +22,13 @@ tags:
 uri: dom/Window/screenLeft
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the x-coordinate of the upper left-hand corner of the window frame, relative to the upper left-hand corner of the screen.
 
 Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,22 +36,22 @@ Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 var result = window.screenLeft;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 the x-coordinate, in pixels.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var left=window.screenLeft;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The client area consists of the frame area, exclusive of the caption bar, the window-sizing border, the menu bar, the toolbars, the scroll bars, and the status bars.
 
-### <span>Syntax</span>
+### Syntax

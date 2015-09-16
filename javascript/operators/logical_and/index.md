@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/operators/logical and'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Performs a logical conjunction on two expressions.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Performs a logical conjunction on two expressions.
 **expression2**
 :   Any expression.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 console.log(true && true); // true
@@ -41,7 +41,7 @@ console.log(false && "Cat"); //false
 console.log("Cat" && false); //false
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 If both expressions evaluate to true, result is true. If either expression evaluates to false, result is false.
 

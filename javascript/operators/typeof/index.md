@@ -10,17 +10,17 @@ tags:
 uri: javascript/operators/typeof
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a string that identifies the data type of an expression.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     typeof [ ( ] expression [ ) ] ;
 
-## <span>Examples</span>
+## Examples
 
 The following example tests the data type of variables.
 
@@ -56,7 +56,7 @@ var declared;
  //  var result = (notDeclared === undefined);
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The expression argument is any expression for which type information is sought.
 
@@ -64,9 +64,9 @@ The typeof operator returns type information as a string. There are six possible
 
 The parentheses are optional in the typeof syntax.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Array.isArray Function](/javascript/Array/isArray)
 -   [Object.getPrototypeOf Function](/javascript/Object/getPrototypeOf)

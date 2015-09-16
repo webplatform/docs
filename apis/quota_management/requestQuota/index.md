@@ -19,28 +19,28 @@ tags:
 uri: 'apis/quota management/requestQuota'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Requests a new quota for the requesting application.
 
 Method of [apis/quota management/StorageQuota](/apis/quota_management/StorageQuota)[apis/quota management/StorageQuota](/apis/quota_management/StorageQuota)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.requestQuota(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>newQuotaInBytes</span>
+### newQuotaInBytes
 
  Data-type
 :   unsigned long
 
  The requested new quota, expressed in bytes.
 
-### <span>successCallback</span>
+### successCallback
 
  Data-type
 :   String
@@ -51,7 +51,7 @@ This callback is used to return new quota information granted by a User Agent. Q
 
 **void (unsigned long grantedQuotaInBytes)**
 
-### <span>errorCallback</span>
+### errorCallback
 
  Data-type
 :   String
@@ -62,26 +62,26 @@ This callback is used to return information when an error has occured. Details a
 
 **void (DOMError error)**
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 It is not guaranteed that the requested amount of space is granted just by calling this API. Calling this API may trigger user prompting to request explicit user permission to proceed. The successCallback callback may return a smaller amount of quota than requested.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Quota Management API](http://www.w3.org/TR/quota-api/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Off-line Storage</span>
+#### Off-line Storage
 
 -   [appcache](/apis/appcache)
 

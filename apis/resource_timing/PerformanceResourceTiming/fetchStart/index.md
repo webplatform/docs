@@ -23,13 +23,13 @@ tags:
 uri: 'apis/resource timing/PerformanceResourceTiming/fetchStart'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the time immediately before the user agent starts to fetch the resource.
 
 Property of [apis/resource\_timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)[apis/resource\_timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [apis/resource\_timing/PerformanceResourceTiming](/apis/resource_tim
 var result = element.fetchStart;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 DOMHighResTimeStamp
 
-## <span>Examples</span>
+## Examples
 
 This example assumes an HTML page containing a resource such as \<img src="<https://www.webplatform.org/logo/logo-with-text.png>" /\>
 
@@ -52,11 +52,11 @@ var resources = window.performance.getEntriesByType('resource');
 alert("fetchStart: " + resources[0].fetchStart);
 ```
 
-## <span>Notes</span>
+## Notes
 
 The value reported by the **fetchStart** property represents the number of milliseconds between the recorded time and midnight January 1, 1970 (UTC).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Resource Timing Specification](http://www.w3.org/TR/resource-timing/)
 :   W3C Working Draft

@@ -22,21 +22,21 @@ tags:
 uri: dom/TextRange/setEndPoint
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the endpoint of one range based on the endpoint of another range.
 
 Method of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = textRange.setEndPoint(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>how</span>
+### how
 
  Data-type
 :   BSTR
@@ -59,18 +59,18 @@ EndToEnd
 
 Move the end of the TextRange object to the end of the specified SourceRange parameter.
 
-### <span>SourceRange</span>
+### SourceRange
 
  Data-type
 :   any
 
 [**TextRange**](/dom/TextRange) object from which the source endpoint is to be taken.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **setEndPoint** method to set the start point of the current range (`r1`) to the endpoint of the second range (`r2`).
 
@@ -80,13 +80,13 @@ r1.setEndPoint("StartToEnd", r2);
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Syntax</span>
+### Syntax
 
 var retval = TextRange.setEndPoint(how, SourceRange);
 
-### <span>Remarks</span>
+### Remarks
 
 A text range has two endpoints: one at the beginning of the text range and one at the end. An endpoint can also be the position between two characters in an HTML document. There are four possible endpoint locations in the following HTML.
 

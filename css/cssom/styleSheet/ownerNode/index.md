@@ -19,13 +19,13 @@ tags:
 uri: css/cssom/styleSheet/ownerNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns an element's corresponding link or style node. See Notes.
 
 Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.ownerNode;
@@ -34,23 +34,23 @@ element.ownerNode = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 For HTML, the node returned is the corresponding **link** or **style** element. For XML, it is the linking processing instruction. For style sheets that are included by other style sheets, the value of this attribute is `null`.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Style Specification](http://go.microsoft.com/fwlink/p/?linkid=203741), Section 1.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -196,6 +196,6 @@ For HTML, the node returned is the corresponding **link** or **style** element. 
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `styleSheet`

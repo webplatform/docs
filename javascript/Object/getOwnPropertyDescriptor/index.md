@@ -10,11 +10,11 @@ tags:
 uri: javascript/Object/getOwnPropertyDescriptor
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the own property descriptor of the specified object. An own property descriptor is one that is defined directly on the object and is not inherited from the object's prototype.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,11 +26,11 @@ Gets the own property descriptor of the specified object. An own property descri
 **propertyname**
 :   Required. The name of the property.
 
-## <span>Return Value</span>
+## Return Value
 
 The descriptor of the property.
 
-## <span>Examples</span>
+## Examples
 
 The following example gets a data property descriptor and uses it to make the property read-only.
 
@@ -68,15 +68,15 @@ for (var prop in desc2) {
 // configurable: true
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 You can use the **Object.getOwnPropertyDescriptor** function to obtain a descriptor object that describes attributes of the property.
 
 The [Object.defineProperty Function](/javascript/Object/defineProperty) is used to add or modify properties.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Object.defineProperty Function](/javascript/Object/defineProperty)
 

@@ -20,53 +20,53 @@ tags:
 uri: apis/webaudio/AudioParam/setValueCurveAtTime
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets an array of arbitrary parameter values starting at the given time for the given duration. The number of values will be scaled to fit into the desired duration.
 
 Method of [apis/webaudio/AudioParam](/apis/webaudio/AudioParam)[apis/webaudio/AudioParam](/apis/webaudio/AudioParam)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = AudioParam.setValueCurveAtTime(values, startTime, duration);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>values</span>
+### values
 
  Data-type
 :   String
 
  A **Float32Array** representing a parameter value curve. These values will apply starting at the given time and lasting for the given duration.
 
-### <span>startTime</span>
+### startTime
 
  Data-type
 :   Number
 
  The time in the same time coordinate system as [**AudioContext.currentTime**](/apis/webaudio/AudioContext/currentTime).
 
-### <span>duration</span>
+### duration
 
  Data-type
 :   Number
 
  The amount of time in seconds (after the time parameter) where values will be calculated according to the values parameter.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var gainNode = audioCtx.createGain();
 gainNode.gain.setValueCurveAtTime(waveArray, audioCtx.currentTime, 2); //'gain' is the AudioParam
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

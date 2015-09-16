@@ -21,63 +21,63 @@ tags:
 uri: dom/KeyboardEvent/initKeyboardEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initializes a new keyboard event that the createEvent method created.
 
 Method of [dom/KeyboardEvent](/dom/KeyboardEvent)[dom/KeyboardEvent](/dom/KeyboardEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  event.initKeyboardEvent(eventType, canBubble, cancelable, view, key, location, modifiersList, repeat, locale);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>eventType</span>
+### eventType
 
  Data-type
 :   String
 
  The name of the event. Sets the value for the [**type**](/dom/Event/type) property.
 
-### <span>canBubble</span>
+### canBubble
 
  Data-type
 :   Boolean
 
  Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
 
-### <span>cancelable</span>
+### cancelable
 
  Data-type
 :   Boolean
 
  Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
 
-### <span>view</span>
+### view
 
  Data-type
 :   Object
 
  The window on which this event is occurring. Sets the value for the [view](/dom/UIEvent/view) property.
 
-### <span>key</span>
+### key
 
  Data-type
 :   Number
 
  The **key identifier**. Sets the value for the [**key**](/dom/KeyboardEvent/key) property.
 
-### <span>location</span>
+### location
 
  Data-type
 :   Number
 
  The location of the key on the device. Sets the value for the [**location**](/dom/KeyboardEvent/location) property.
 
-### <span>modifiersList</span>
+### modifiersList
 
  Data-type
 :   String
@@ -101,31 +101,31 @@ Other implementation specific options may be supported. For example -
 -   **Win** (on Microsoft Windows) - The left or right Windows logo key.
 -   **Scroll** - The Scroll Lock toggle.
 
-### <span>repeat</span>
+### repeat
 
  Data-type
 :   Number
 
  The number of times this key has been pressed. Sets the value for the [**repeat**](/dom/KeyboardEvent/repeat) property.
 
-### <span>locale</span>
+### locale
 
  Data-type
 :   String
 
  The locale name. Sets the value for the [**locale**](/dom/CompositionEvent/locale) property.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 The information in this page corresponds to the 20100908 outdated working draft edition of the specifications.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events (20090908)](http://www.w3.org/TR/2009/WD-DOM-Level-3-Events-20090908/)
 :   Outdated Working Draft

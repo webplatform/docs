@@ -14,11 +14,11 @@ tags:
 uri: apis/geolocation/PositionOptions
 
 ---
-## <span>Summary</span>
+## Summary
 
 A native script object used by the getCurrentPosition() and watchPosition() methods.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -32,15 +32,15 @@ API Name
 [timeout](/apis/geolocation/PositionOptions/timeout)
 :   Denotes the maximum length of time (expressed in milliseconds) that is allowed to pass from the call to **getCurrentPosition()** or **watchPosition()** until the corresponding **successCallback** is invoked.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 Obtain user position using high accuracy and a timeout if a location cant be found within 60 seconds.
 
@@ -60,7 +60,7 @@ alert("No position found");
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

@@ -15,11 +15,11 @@ tags:
 uri: css/functions/custom
 
 ---
-## <span>Summary</span>
+## Summary
 
 With CSS custom filters you can create your own sophisticated effects on DOM elements. They work with CSS animations and transitions to create complex animated visual effects.
 
-## <span>Examples</span>
+## Examples
 
 Using shaders created by Adobe, the following example shows how to create a folded map effect with custom CSS filters.
 
@@ -57,11 +57,11 @@ Using shaders created by Adobe, the following example shows how to create a fold
 
 [View live example](http://codepen.io/pverbeek/pen/piKgC)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 
@@ -145,7 +145,7 @@ Using shaders created by Adobe, the following example shows how to create a fold
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### <span>External resources</span>
+### External resources
 
 -   [OpenGL ES Shading Language (PDF)](http://www.khronos.org/files/opengles_shading_language.pdf)
 -   [Adobe CSS FilterLab](http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/)

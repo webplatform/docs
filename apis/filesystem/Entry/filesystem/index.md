@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/Entry/filesystem
 
 ---
-## <span>Summary</span>
+## Summary
 
 The file system on which the Entry resides.
 
@@ -30,7 +30,7 @@ The file system on which the Entry resides.
 
 Property of [apis/filesystem/Entry](/apis/filesystem/Entry)[apis/filesystem/Entry](/apis/filesystem/Entry)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,15 +38,15 @@ Property of [apis/filesystem/Entry](/apis/filesystem/Entry)[apis/filesystem/Entr
 var result = Entry.filesystem;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 FileSystem
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

@@ -21,20 +21,20 @@ tags:
 uri: 'apis/web animations/AnimationEffect/composite'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The possible values of an animation effect's composition behavior are represented by the CompositeOperation enumeration.
 
 Property of [apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)[apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.composite;
 element.composite = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 

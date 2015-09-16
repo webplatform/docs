@@ -23,13 +23,13 @@ tags:
 uri: dom/Selection/isCollapsed
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves whether a selection is collapsed or empty.
 
 Property of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 var result = selObj.isCollapsed;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -45,7 +45,7 @@ false - The selection is not collapsed.
 
 true - The selection is collapsed or empty.
 
-## <span>Examples</span>
+## Examples
 
 This example uses **isCollapsed** to see whether a selection is empty or not. If the selection is not empty, the selected text is displayed.
 
@@ -87,14 +87,14 @@ This example uses **isCollapsed** to see whether a selection is empty or not. If
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 A collapsed selection has its start and end points set to the same value, which renders it empty. Even a collapsed selection may have a rangeCount greater than 0. selObj.getRangeAt(0) may return a range that is also collapsed.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1

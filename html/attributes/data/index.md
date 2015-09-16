@@ -28,17 +28,17 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 8 or later. In IE8 Standards mode, the value of the **object** attribute depends on the context of the reference to the attribute. When read as a Document Object Model (DOM) attribute, **object** returns an absolute URL. The value specified by the page author is returned when **object** is read as a content attribute, when the page is displayed in an earler document compatibility mode, or when the page is viewed with an earlier version of the browser. For more information, see Attribute Differences in Internet Explorer 8. In Microsoft Internet Explorer 6 and greater, this property applies to the **comment** object.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `comment`
 -   `object`

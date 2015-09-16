@@ -23,13 +23,13 @@ tags:
 uri: dom/Node/nextSibling
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the next child node of the parent of the node.
 
 Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 var nextNode = node.nextSibling;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The next child node of the parent of the node, or null if the node is the last child.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **nextSibling** property to obtain the next item in the list.
 
@@ -62,11 +62,11 @@ var oSibling = document.getElementById("oList").childNodes(0).nextSibling;
 </body>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Used to Enumerate the DOM tree.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

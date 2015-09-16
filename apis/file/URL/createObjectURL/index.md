@@ -24,28 +24,28 @@ tags:
 uri: apis/file/URL/createObjectURL
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a URL for the specified object.
 
 Method of [apis/file/URL](/apis/file/URL)[apis/file/URL](/apis/file/URL)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var objectURL = URL.createObjectURL(object, options);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>object</span>
+### object
 
  Data-type
 :   function
 
  The object that needs a URL. Usually a [File](/apis/file/File).
 
-### <span>options</span>
+### options
 
  Data-type
 :   DOM Node
@@ -54,13 +54,13 @@ var objectURL = URL.createObjectURL(object, options);
 
 A dictionary object. See [ObjectURLOptions](/apis/file/ObjectURLOptions) for more information. Used with *oneTimeOnly* attribute to create a single use URL that does not need to be revoked.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 A URL for the specified object.
 
-## <span>Examples</span>
+## Examples
 
 Displaying an image based on the selected file in a `<input type=file>`
 
@@ -71,11 +71,11 @@ imgElement.src = url;
 
 [View live example](http://jsbin.com/kupizeriheci/1/edit?html,js,output)
 
-## <span>Notes</span>
+## Notes
 
 The URL that is created can be used for resources for use with elements such as **Image**, **video**, and **audio**. The object passed in through *object* is stored in an internal hash table. *oOptions* is set when you want to only use the URL once. The [ObjectURLOptions](/apis/file/ObjectURLOptions) object has one property, *oneTimeOnly*, that is set to *false* by default. To set the URL for the object (blob, stream, and so forth) to single use, use the ObjectURLOptions object and set *oneTimeOnly* to *true*. To revoke a URL created with createObjectURL, use [revokeObjectURL](/apis/file/URL/revokeObjectURL).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft

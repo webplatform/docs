@@ -23,13 +23,13 @@ tags:
 uri: dom/Window/XMLHttpRequest
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents an XML request using HTTP.
 
 Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 var xhr = window.XMLHttpRequest;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 An XMLHttpRequest instance object.
 
-## <span>Examples</span>
+## Examples
 
 The following script demonstrates how to create and use the **XMLHttpRequest** object:
 
@@ -62,11 +62,11 @@ if (window.XMLHttpRequest)
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      It provides an easy way to retrieve data from a URL without having to do a full page refresh. A Web page can update just a part of the page without disrupting what the user is doing.  XMLHttpRequest is used heavily in AJAX programming.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [XMLHttpRequest](http://www.w3.org/TR/XMLHttpRequest/)
 :   Working Draft

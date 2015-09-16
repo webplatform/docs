@@ -23,20 +23,20 @@ todo_broken_links:
 uri: 'canvas/properties/height (canvas)'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Height property of canvas element.
 
 Property of [dom/HTMLCanvasElement](/dom/HTMLCanvasElement)[dom/HTMLCanvasElement](/dom/HTMLCanvasElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.height (canvas);
 element.height (canvas) = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following code example uses the [**width**](/w/index.php?title=canvas/properties/width_(canvas)&action=edit&redlink=1) and **height** property to get and set the attributes of a [**canvas**](/canvas/objects/canvas) element on the document.
 
@@ -75,14 +75,14 @@ function change(val)
 </html>
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.8.10
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `canvas`

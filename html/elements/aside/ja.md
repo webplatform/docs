@@ -77,11 +77,11 @@ todo_broken_links:
 uri: html/elements/aside/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 &lt;aside&gt;はコンテンツの中のただの補足情報・余談であることを示します。
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -95,7 +95,7 @@ uri: html/elements/aside/ja
 
 その他にも、ページの主なコンテンツとは異なると思われるコンテンツに使われます。
 
-## <span>Examples</span>
+## Examples
 
 以下の例では長いヨーロッパのニュース記事の中でスイスの背景事情を\<aside\>要素を使って表したものです。
 
@@ -106,7 +106,7 @@ uri: html/elements/aside/ja
 </aside>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-aside-element)
 :   W3C Working Draft

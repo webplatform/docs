@@ -27,19 +27,19 @@ tags:
 uri: dom/HTMLElement/getBoundingClientRect
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a ClientRect object that encloses a group of text rectangles.
 
 Method of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var rect = object.getBoundingClientRect();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ClientRectClientRect
 
@@ -52,7 +52,7 @@ Returns an object of type ClientRectClientRect
      width: Number
      height: Number
 
-## <span>Examples</span>
+## Examples
 
 This example uses the [**getClientRects**](/dom/HTMLElement/getClientRects) and **getBoundingClientRect** methods to highlight text lines in an object.
 
@@ -188,7 +188,7 @@ function End() {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectdemo.htm)
 
-## <span>Usage</span>
+## Usage
 
      The returned value is a ClientRect object which is the union of the rectangles returned by getClientRects() for the element, i.e., the CSS border-boxes associated with the element. It contains read-only left, top, right, and bottom properties describing the border-box, in pixels, with the top-left relative to the top-left of the viewport.
 
@@ -196,13 +196,13 @@ Essentially, the browser calculates all rectangles (see below getClientRects()),
 
 The amount of scrolling that has been done of the viewport area (or any other scrollable element) is taken into account when computing the bounding rectangle. This means that the top and left property change their values as soon as the scrolling position changes (so their values are relative to the viewport and not absolute). If this is not the desired behaviour just add the current scrolling position to the top and left property (via window.scrollX and window.scrollY) to get constant values independent from the current scrolling position.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Compatibility notes</span>
+### Compatibility notes
 
 Internet Explorer 8 and below - **getBoundingClientRect** returns a proprietary `TextRectangle` object. While it is similar to [ClientRect](/css/cssom/ClientRect), it does not have `height` or `width` properties and furthermore cannot have any additional properties (including `height` and `width`) added to it.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSSOM View Module](http://www.w3.org/TR/cssom-view/#the-getclientrects-and-getboundingclientrect-methods)
 :   Working Draft

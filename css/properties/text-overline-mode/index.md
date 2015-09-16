@@ -19,11 +19,11 @@ tags:
 uri: css/properties/text-overline-mode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the mode for the overline text decoration, determining whether the text decoration affects the space characters or not.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `continuous`
@@ -46,12 +46,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-overline-mode: continuous`
 -   `text-overline-mode: skip-white-space`
 
-## <span>Values</span>
+## Values
 
 continuous
 :   This value means that the line is continuous.
@@ -59,7 +59,7 @@ continuous
 skip-white-space
 :   This means that space characters will not be lined.
 
-## <span>Examples</span>
+## Examples
 
 Currently not implemented in any browser, so example is incomplete.
 
@@ -71,11 +71,11 @@ p {
 
 [View live example](http://code.webplatform.org/gist/7283851)
 
-## <span>Notes</span>
+## Notes
 
 Not implemented in any browser, but Chrome has a placeholder property for it (which may fool any feature detectors into thinking it works).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-decoration-mode)
 :   Candidate Recommendation

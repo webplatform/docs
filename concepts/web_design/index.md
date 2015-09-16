@@ -78,7 +78,7 @@ translations:
 uri: 'concepts/web design'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The web, in its infancy, was proposed by Tim Berners-Lee as a &quot;WorldWideWeb&quot; designed to create an interconnected digital corpus of documents related to CERN for the benefit of their particle physicists. Early web pages were simple, text-based documents with hyperlinks embedded in them referencing other related texts. Although conceived as a means of linking scholarly texts in 1989, the Web has evolved dramatically since its initial implementation. The Web is not simply text any longer. It has expanded into something greater: newspapers, community discussion boards, photo galleries, financial management tools, multiplayer gaming. With all the competing content now on the web, how do you make your offering attractive to people and keep them coming back for more?
 

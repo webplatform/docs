@@ -16,27 +16,27 @@ tags:
 uri: dom/HTMLAllCollection
 
 ---
-## <span>Summary</span>
+## Summary
 
 Obsolete. Represents a collection of all HTML elements within a Document or an HTMLElement.
 
 Inherits from [HTMLCollection](/dom/HTMLCollection)[HTMLCollection](/dom/HTMLCollection)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from HTMLCollection</span>
+## Inherited from HTMLCollection
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -44,7 +44,7 @@ API Name
 [length](/dom/HTMLCollection/length)
 :   The length or size of the list.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -55,7 +55,7 @@ API Name
 [namedItem](/dom/HTMLCollection/namedItem)
 :   This method retrieves a **Node** using a name. With HTML 4.01 documents, it first searches for a **Node** with a matching **id** attribute. If it doesn't find one, it then searches for a **Node** with a matching **name** attribute, but only on those elements that are allowed a **name** attribute. With XHTML 1.0 documents, this method only searches for **Nodes** with a matching **id** attribute. This method is case insensitive in HTML documents and case sensitive in XHTML documents.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 

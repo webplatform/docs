@@ -18,23 +18,23 @@ tags:
 uri: apis/xhr/XMLHttpRequest/abort
 
 ---
-## <span>Summary</span>
+## Summary
 
 Stops an asynchronous XMLHttpRequest in progress.
 
 Method of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  .abort();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function request() {
@@ -70,11 +70,11 @@ document.getElementById('submit').addEventListener('click', function () {
 }, false);
 ```
 
-## <span>Notes</span>
+## Notes
 
 Calling **abort** resets the object; the **readyState** is changed to 0 (uninitialized). Calling it on an already aborted request throws an exception.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft

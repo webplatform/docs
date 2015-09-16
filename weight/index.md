@@ -9,7 +9,7 @@ tags:
 uri: weight
 
 ---
-## <span>weight</span>
+## weight
 
 In typography, the relative heaviness or lightness of rules, borders, and character strokes.
 

@@ -13,17 +13,17 @@ tags:
 uri: javascript/RegExp/global
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a Boolean value indicating the state of the global flag ( g ) used with a regular expression. Default is false. Read-only.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     rgExp.global
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the global property. If you pass **g** in to the function shown below, all instances of the word "the" are replaced with the word "a". Note that the "The" at the beginning of the string is not replaced because the **i** (ignore case) flag is not passed to the function.
 
@@ -73,7 +73,7 @@ global: true
  Resulting String: The batter hit a ball with a bat and a fielder caught a ball with a glove.
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required rgExp reference is an instance of a **Regular Expression** object.
 
@@ -81,9 +81,9 @@ The global property returns **true** if the global flag is set for a regular exp
 
 The global flag, when used, indicates that a search should find all occurrences of the pattern within the searched string, not just the first one. This is also known as global matching.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [ignoreCase Property (Regular Expression)](/javascript/regular_expression/ignoreCase)
 -   [multiline Property (Regular Expression)](/javascript/regular_expression/multiline)

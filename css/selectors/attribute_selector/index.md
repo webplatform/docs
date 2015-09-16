@@ -19,7 +19,7 @@ The following attribute selectors exist:
     -   `[attributename$="val"]`
     -   `[attributename*="val"]`
 
-## <span>Examples</span>
+## Examples
 
 The following attribute selector represents an h1 element that carries the title attribute, whatever its value:
 

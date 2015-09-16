@@ -13,7 +13,7 @@ uri: dom/Document/storagecommit
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -69,28 +69,28 @@ Default action
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Local storage is saved to disk asynchronously to improve performance. The **onstoragecommit** event can be used to determine when the disk storage has been updated. To invoke this event, do one of the following:
 
 -   Set or update a local storage value with [**setItem**](/apis/web-storage/Storage/setItem).
 -   Remove a local storage value with [**removeItem**](/apis/web-storage/Storage/removeItem).
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Introduction to Web Storage`

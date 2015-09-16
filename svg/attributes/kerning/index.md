@@ -28,23 +28,23 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When a **length** is provided, its value is added to the inter-character spacing value specified by the [**letterSpacing**](/css/properties/letter-spacing) property. If a **length** is provided without a unit identifier (for example, an unqualified number such as 128), Internet Explorer processes the **length** as a width value.
 
-### <span>Syntax</span>
+### Syntax
 
     kerning: auto | length | inherit
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.11
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)
@@ -53,7 +53,7 @@ When a **length** is provided, its value is added to the inter-character spacing
 -   [**SVGTextPathElement**](/svg/elements/textPath)
 -   [**SVGTextElement**](/svg/elements/text)
 
-### <span>Reference</span>
+### Reference
 
 -   [**letterSpacing**](/css/properties/letter-spacing)
 -   [**wordSpacing**](/css/text/word-spacing/word-spacing)

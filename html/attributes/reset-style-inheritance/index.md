@@ -15,7 +15,7 @@ todo_broken_links:
 uri: html/attributes/reset-style-inheritance
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates whether the inheritable CSS properties are set to the initial value established at the shadow boundary.
 
@@ -37,11 +37,11 @@ Read only. Indicates the state of the [resetStyleInheritance](/w/index.php?title
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Web Components</span>
+#### Web Components
 
 -   [register](/dom/Document/register)
 

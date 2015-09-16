@@ -69,27 +69,27 @@ todo_broken_links:
 uri: dom/es
 
 ---
-## <span>Resumen</span>
+## Resumen
 
 El Modelo de Objetos de Documento (Document Object Model o DOM) es una interfaz de programación de aplicaciones (API) para documentos con sintaxis de etiquetas como el HTML, SVG, MathML y XML. El DOM proporciona una representación de un documento estructurada lógicamente y un conjunto de Objetos y Métodos para la manipulación de esa estructura.
 
-## <span>Explora nuestros documentos sobre el DOM</span>
+## Explora nuestros documentos sobre el DOM
 
-### <span>[Material didáctico del DOM](/dom/tutorials)</span>
+### [Material didáctico del DOM](/dom/tutorials)
 
 Tutoriales y artículos didácticos para que aprendas la manipulación del DOM desde la base.
 
-### <span>[Eventos](/w/index.php?title=dom/events&action=edit&redlink=1)</span>
+### [Eventos](/w/index.php?title=dom/events&action=edit&redlink=1)
 
 Una guía de referencia de los eventos fundamentales del DOM disponibles.
 
-### <span>[Métodos](/w/index.php?title=dom/methods&action=edit&redlink=1)</span>
+### [Métodos](/w/index.php?title=dom/methods&action=edit&redlink=1)
 
 Una guía de referencia de los métodos para la manipulación del DOM disponibles.
 
  Nota: Si eres completamente nuevo en el desarrollo web, puede que quieras revisar [Desarrollo web para principiantes](/beginners/es).
 
-## <span>Antecedentes</span>
+## Antecedentes
 
 Cuando el navegador analiza un documento etiquetado, éste lo convierte en una estructura de árbol llamada el modelo de objetos del documento o DOM. Dicho modelo puede ser utilizado para acceder y manipular los elementos existentes en el documento o crear otros elementos nuevos, un conjunto de actividades esenciales para crear funcionalidades dinámicas en la página.
 
@@ -99,11 +99,11 @@ Cuando el navegador analiza un documento etiquetado, éste lo convierte en una e
 
 -   Trabajo actual y futuro: El [DOM nivel 4](http://www.w3.org/TR/domcore/) es la versión naciente del DOM en la que se está trabajando actualmente.
 
-## <span>Contribuir con el desarrollo del DOM</span>
+## Contribuir con el desarrollo del DOM
 
 El DOM está siendo desarrollado por el [Grupo de Trabajo de Aplicaciones Web](http://www.w3.org/2008/webapps/); consulta sus [listas de correo](http://www.w3.org/2008/webapps/wiki/WorkMode#Participation_and_Communication) para conocer o participar en la discusión y contribuir con ideas.
 
-## <span>Indice de todos los temas del DOM</span>
+## Indice de todos los temas del DOM
 
 ||
 |[dom/AnimationEvent](/dom/AnimationEvent)|[dom/AnimationEvent/animationName](/dom/AnimationEvent/animationName)|[dom/AnimationEvent/elapsedTime](/dom/AnimationEvent/elapsedTime)|

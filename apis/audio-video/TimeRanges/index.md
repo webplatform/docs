@@ -13,11 +13,11 @@ tags:
 uri: apis/audio-video/TimeRanges
 
 ---
-## <span>Summary</span>
+## Summary
 
 A TimeRanges object represents the collection of ranges (time periods) from the media resource that have been buffered or played. Ranges in a TimeRanges collection are sequential and not empty. Adjacent ranges are combined together to create longer ones.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -25,7 +25,7 @@ API Name
 [length](/apis/audio-video/TimeRanges/length)
 :   Returns the number of ranges in the object.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -36,11 +36,11 @@ API Name
 [start](/apis/audio-video/TimeRanges/start)
 :   Returns the time for the start of the range with the given index. Throws an IndexSizeError if the index is out of range.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

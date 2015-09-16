@@ -16,18 +16,18 @@ tags:
 uri: html/elements/link
 
 ---
-## <span>Summary</span>
+## Summary
 
 Enables the current document to establish links to external documents.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLLinkElement](/dom/HTMLLinkElement)
 
 The \<link\> element allows authors to link their document to other resources. It carries the same semantics as any hyperlink, or the HTTP `Link:` header.
 
-## <span>Attributes</span>
+## Attributes
 
 -   `href` = URL potentially surrounded by spaces
     Specifies a URL that provides the destination of the link.
@@ -48,7 +48,7 @@ The \<link\> element allows authors to link their document to other resources. I
     The sizes attribute is used with the icon link type. The attribute must not be specified on link elements that do not have a rel attribute that specifies the icon keyword.
 -   Also, the title attribute has special semantics on this element. The exception is for style sheet links, where the title attribute defines alternative style sheet sets.
 
-## <span>Link relations</span>
+## Link relations
 
 A URI or any IANA Link can be used as the link `rel=""`, but HTML defines special semantics for many of them:
 
@@ -73,7 +73,7 @@ A URI or any IANA Link can be used as the link `rel=""`, but HTML defines specia
 |tag|Hyperlink|Gives a tag (identified by the given address) that applies to the current document.|
 |up|Hyperlink|Provides a link to a document giving the context for the current document.|
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **link** element to apply an external style sheet, called styles.css, to the page.
 
@@ -81,17 +81,17 @@ This example uses the **link** element to apply an external style sheet, called 
 <link rel=stylesheet href="styles.css" type="text/css"/>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **link** element can be used only within the **head** tag. Windows Internet Explorer 8 and later. The behavior of the [**href**](/html/attributes/href) and the [**rel**](/html/attributes/rel) attributes depends on the current document compatibility mode.
 
-### <span>IANA Link Relations database</span>
+### IANA Link Relations database
 
 The IANA maintains a registry of valid link relations at their [Link Relations registry](http://www.iana.org/assignments/link-relations/link-relations.xhtml), established in [RFC5988](https://tools.ietf.org/html/rfc5988).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/document-metadata.html#the-link-element)
 :   W3C Working Draft

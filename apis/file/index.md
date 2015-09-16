@@ -10,7 +10,7 @@ tags:
 uri: apis/file
 
 ---
-## <span>Summary</span>
+## Summary
 
 The File API allows a developer to use javascript to access the contents and local path of a file uploaded from the input file widget. This enables the developer to build a javascript frontend that allows the website to show a preview of the file uploaded. By using the File API, the developer can also enable a user to upload files via drag-and-drop. Prior to the File API, functionalities like these can only be accomplished via Flash or other plugins.
 
@@ -51,11 +51,11 @@ API Name
 [URL](/apis/file/URL)
 :   A static object for URL related utility operations.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Off-line Storage</span>
+#### Off-line Storage
 
 -   [appcache](/apis/appcache)
 

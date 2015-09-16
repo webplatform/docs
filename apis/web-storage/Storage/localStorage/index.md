@@ -24,13 +24,13 @@ tags:
 uri: apis/web-storage/Storage/localStorage
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides a Storage object for an origin, that remains persistent even after restarting the browser. The storage can be cleared by the user with browser functionalities. If you need a temporary storage, use apis/web-storage/Storage/sessionStorage
 
 Property of [apis/web-storage/Storage](/apis/web-storage/Storage)[apis/web-storage/Storage](/apis/web-storage/Storage)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,11 +38,11 @@ Property of [apis/web-storage/Storage](/apis/web-storage/Storage)[apis/web-stora
 var result = object.localStorage;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 if (window.localStorage) { // checks if browser support localStorage
@@ -115,13 +115,13 @@ document.getElementById('get-local').addEventListener('click', valueGetHandler);
 document.getElementById('clear').addEventListener('click', clearStorageHandler);
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use via the methods setItem, getItem, removeItem and clear provided by apis/web-storage/Storage.
 
 Listen to the storage event on [dom/Window](/dom/Window) to catch changes in the storage (example: <http://jsfiddle.net/A6tuM/1/>).
 
-## <span>Notes</span>
+## Notes
 
 The **localStorage** "property" provides an instance of a storage area object, to which the **Storage** object's properties and methods are applied.
 
@@ -129,16 +129,16 @@ The amount of storage is limited by the browser on a per location basis (e.g. pe
 
 See for an example of the error message here (the example shows the error message for when the [sessionStorage](/apis/web-storage/Storage/sessionStorage) quota is exceeded. The behavior is similar for localStorage): <http://jsfiddle.net/wkDc6/1/>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Storage Specification](http://www.w3.org/TR/webstorage/)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Off-line Storage</span>
+#### Off-line Storage
 
 -   [appcache](/apis/appcache)
 

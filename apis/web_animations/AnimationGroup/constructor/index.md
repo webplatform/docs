@@ -24,15 +24,15 @@ uri: 'apis/web animations/AnimationGroup/constructor'
 
 Method of [apis/web animations/AnimationGroup](/apis/web_animations/AnimationGroup)[apis/web animations/AnimationGroup](/apis/web_animations/AnimationGroup)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = .constructor();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 

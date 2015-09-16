@@ -23,13 +23,13 @@ tags:
 uri: dom/Node/previousSibling
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the previous child node of the parent of the node.
 
 Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 var previousNode = node.previousSibling;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The previous child node of the parent of the node, or null if the node is the first child.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **previousSibling** property to obtain the previous sibling of a list item.
 
@@ -61,7 +61,7 @@ var oSibling = document.getElementById("oList").childNodes[1].previousSibling;
 </body>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/)
 :   Recommendation

@@ -18,7 +18,7 @@ tags:
 uri: apis/filesystem/VoidCallback/handleEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates success of an asynchronous method.
 
@@ -26,19 +26,19 @@ Indicates success of an asynchronous method.
 
 Method of [apis/filesystem/VoidCallback](/apis/filesystem/VoidCallback)[apis/filesystem/VoidCallback](/apis/filesystem/VoidCallback)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  VoidCallback.handleEvent();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

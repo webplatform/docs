@@ -21,7 +21,7 @@ uri: css/properties/ime-mode
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :
@@ -44,14 +44,14 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `ime-mode: active`
 -   `ime-mode: auto`
 -   `ime-mode: disabled`
 -   `ime-mode: inactive`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Default. IME is not affected. This is the same as not specifying the **-ms-ime-mode** attribute.
@@ -65,7 +65,7 @@ inactive
 disabled
 :   IME is completely disabled. Users cannot activate the IME if the control has focus.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **-ms-ime-mode** attribute.
 
@@ -73,9 +73,9 @@ This example uses the **-ms-ime-mode** attribute.
 <INPUT TYPE = text STYLE = "ime-mode:active" >
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 8. The **-ms-ime-mode** attribute is an extension to CSS, and can be used as a synonym for **ime-mode** in IE8 Standards mode. An IME allows users to enter and edit Chinese, Japanese, and Korean characters. The IME is an essential component for writing Chinese, Japanese, and Korean scripts. These writing systems have more characters than can be encoded for a regular keyboard. The IMEs for these languages use sequences of base characters that describe an individual character or group of characters to enter a larger set of characters. Base characters can be component letters from Hangul syllables, phonetic components for Japanese Kanji characters, or various combinations for Chinese characters. To compose text with an IME, the user generally uses dictionary lookup and contextual analysis, especially in languages where homonyms are frequent, as in Japanese. A user typically starts by entering a few component characters, optionally selecting from various choices, and a confirmation command. Input Method Editors have two principle states:
 
@@ -84,15 +84,15 @@ Windows Internet Explorer 8. The **-ms-ime-mode** attribute is an extension to 
 
 HTML authors can provide users with some control by specifying an IME mode for a specific text entry. For example, if Japanese users enter information in a registration form, they might be required to enter their names in Kanji and Roman characters. By default, the users would have to make sure that the IME is inactive when entering their names in the Latin alphabet. The user would activate the IME to enter Kanji letters, then deactivate the IME to complete the form in the Latin alphabet. By controlling the IME mode, the HTML author prevents the user from having to activate and deactivate the IME.
 
-### <span>Syntax</span>
+### Syntax
 
 `-ms-ime-mode: auto | active | inactive | disabled`
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -172,7 +172,7 @@ HTML authors can provide users with some control by specifying an IME mode for a
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

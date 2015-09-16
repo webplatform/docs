@@ -10,7 +10,7 @@ tags:
 uri: 'concepts/general programming/NAT'
 
 ---
-## <span>Summary</span>
+## Summary
 
 NAT is the system through which many computers are able to talk to the outer world, like the internet , via only one Internet Protocol address (IP address) usually using ports enabling many more people to cohabit the internet's limited space.
 

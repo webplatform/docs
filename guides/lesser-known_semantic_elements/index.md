@@ -8,15 +8,15 @@ tags:
 uri: 'guides/lesser-known semantic elements'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article discusses some of the lesser known and more infrequently used semantic elements available in HTML.
 
-## <span>Introduction</span>
+## Introduction
 
 In this article we look at some of the and less well-known and used semantic elements in HTML. We'll look at marking up programming code, interaction with computers, citations and abbreviations, showing changes made to documents, and more.
 
-## <span>Highlighting contact information</span>
+## Highlighting contact information
 
 The `<address>` element is probably the most poorly named and misunderstood element in HTML. At first glance, with a name like "address", it would appear that it is used to encapsulate addresses, email, postal, or otherwise. This is only partially the case.
 
@@ -24,7 +24,7 @@ The actual meaning of `<address>` is to supply contact information *for the auth
 
 ``` html
 <address>
-  <span>Mark Norman Francis</span>,
+  Mark Norman Francis,
   <span class="tel">1-800-555-4865</span>
 </address>
 ```
@@ -58,7 +58,7 @@ It is **incorrect** to use the `<address>` element to indicate any other type of
 
 For any general address, you can use something called a "microformat" to indicate that a paragraph contains an address.
 
-## <span>Programming languages and code</span>
+## Programming languages and code
 
 The `<code>` element is used to indicate computer code or programming languages, such as PHP, JavaScript, CSS, or XML. For short samples within a sentence, you would simply wrap the element around the code snippet, like so:
 
@@ -79,7 +79,7 @@ directly in the HTML.</p>
 
  Some programming languages have names that cannot be easily represented in classes, such as C\# (C-Sharp). The correct way of writing this would be "`<class='language-c\#'>`", where the "\\" indicates "treat the next character literally". This, of course, could be confusing and could easily be mis-typed. We recommend using a class consisting of only letters and hyphens, and spelling it out completely. So in this case, use "`<class='language-csharp'>`" instead.
 
-## <span>Displaying computer interaction</span>
+## Displaying computer interaction
 
 The two elements `<samp>` and `<kbd>` can be used to indicate the input and output of interaction with a computer program. For example:
 
@@ -102,7 +102,7 @@ to see if a computer likely to be running is reachable.</p>
 
 The `<kbd>` element indicates input from the user interacting with the computer. Although this is traditionally keyboard input (hence the "kbd" contraction) it should also be used to indicate other types of input, such as spoken voice.
 
-## <span>Variables</span>
+## Variables
 
 The `<var>` element is used to indicate variables in textual content. This can include variables in algebraic mathematical expressions or within programming code. For example:
 
@@ -115,7 +115,7 @@ my <var>$welcome</var> = "Hello world!";
 </code></pre>
 ```
 
-## <span>Citations</span>
+## Citations
 
 The `<cite>` element is used to indicate where the nearby content comes from. When quoting a person, a book or other publication, or generally referring people to another source, that source should be wrapped in a `<cite>` element. For example:
 
@@ -126,7 +126,7 @@ Einstein</cite>, but it is actually a paraphrasing of a quote which
 is much less easy to understand.</p>
 ```
 
-## <span>Abbreviations</span>
+## Abbreviations
 
 The `<abbr>` element is used to indicate where abbreviations occur, and to provide a method for expanding them without unnecessarily interrupting the flow of the document.
 
@@ -148,7 +148,7 @@ One problem with this is Internet Explorer support: Internet Explorer (before ve
 
  To find out more about why this works, see the [HTML Structural Elements](/guides/html_structural_elements) article. Of course, you could just stick to using `<acronym>` for now, until you decide to make a complete move toward HTML5.
 
-## <span>Defining instances</span>
+## Defining instances
 
 There is some confusion over the proper use of `<dfn>`, which is described in the HTML specification as "the defining instance of the enclosed term". This is remarkably close to the idea of the `<dt>` element (definition term) used in definition lists.
 
@@ -189,7 +189,7 @@ describe the contents of web documents.</p>
 
 This is an unfortunate instance where the specification has been created without clear guidelines on how an element is supposed to be used, and probably was not based upon any real-world usage of that element; otherwise, there would be a method of combining the term with its full description or definition. The HTML5 specification goes into [[more detail](http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-dfn-element)] about how dfn is used, but this is still in draft and not suitable for use on the web yet.
 
-## <span>Superscript and subscript</span>
+## Superscript and subscript
 
 To mark up a part of some text as being super- or subscripted (slightly raised or lowered compared to the rest of the text) you use the `<sup>` and `<sub>` elements.
 
@@ -206,7 +206,7 @@ is equal to the mass multiplied by the speed of light
 squared.</p>
 ```
 
-## <span>Line breaks</span>
+## Line breaks
 
 Because of the way HTML defines white space, it is not possible to control where lines of text break (such as marking up a postal address as a paragraph, but wanting the visual appearance to have each part of the address appear on a separate line) by simply pressing the Return key whilst writing the text.
 
@@ -226,7 +226,7 @@ NO-0175 OSLO,<br>NORWAY
 
  Of course, if you are writing XHTML style syntax rather than HTML, the element should be self-closing: `<br />`.
 
-## <span>Horizontal rules</span>
+## Horizontal rules
 
 A horizontal rule is created in HTML with the `<hr>` element. It inserts into the document a line, which is described to represent a boundary between different sections of a document.
 
@@ -238,7 +238,7 @@ The `<hr>` element has no uncommon attributes and should be styled using CSS if 
 
 Also, like the line break, if you are writing XHTML style syntax and not HTML, use the self-closing form: `<hr />`.
 
-## <span>Changes to documents (inserting, deleting and outdated content)</span>
+## Changes to documents (inserting, deleting and outdated content)
 
 If a document has been changed since the first time it was available, you can mark these changes so that return visitors or automated processes can tell what has changed, and when.
 
@@ -268,6 +268,6 @@ evil</q>.</p>
 <p><s>The president of the USA is currently Barack Obama</s>.</p>
 ```
 
-## <span>Conclusion</span>
+## Conclusion
 
 Although the elements in this article are less well known than some of their fellows, they are no less useful. You should of course use whichever elements are appropriate to the content they mark up, regardless of popularity. Usage promotes familiarity, and familiarity promotes usage!

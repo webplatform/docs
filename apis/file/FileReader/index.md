@@ -15,15 +15,15 @@ tags:
 uri: apis/file/FileReader
 
 ---
-## <span>Summary</span>
+## Summary
 
 The FileReader object lets web applications asynchronously read the contents of files (or raw data buffers) stored on the user's computer, using File or Blob objects to specify the file or data to read. File objects may be obtained from a FileList object returned as a result of a user selecting files using the input element, from a drag-and-drop operation's DataTransfer object, or from the mozGetAsFile() API on an HTMLCanvasElement.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -40,11 +40,11 @@ API Name
 [readAsText](/apis/file/FileReader/readAsText)
 :   Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), decoded into memory according to the encoding determination.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 Preview an image before upload
 
@@ -89,17 +89,17 @@ function loadImageFile() {
 
 [View live example](https://developer.mozilla.org/files/3698/image_upload_preview.html)
 
-## <span>Notes</span>
+## Notes
 
 When the `FileReader` constructor is invoked, a new FileReader object is returned. This FileReader object enables asynchronous reads on individual File objects by firing progress events as the read occurs to event handler methods attached to the FileReader object.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [Using files from web applications](https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications)

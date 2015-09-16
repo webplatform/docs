@@ -24,26 +24,26 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/fillStyle
 
 ---
-## <span>Summary</span>
+## Summary
 
 The current style used to fill shapes. The style can be a CanvasGradient, a CanvasPattern, or a string containing a CSS color.
 
 Property of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = CanvasRenderingContext2D.fillStyle;
 CanvasRenderingContext2D.fillStyle = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
 Default is black.
 
-## <span>Examples</span>
+## Examples
 
 The following example creates a square with different colored squares inside.
 
@@ -60,7 +60,7 @@ function draw() {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

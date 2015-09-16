@@ -22,14 +22,14 @@ uri: dom/Document/links
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.links;
 element.links = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to display the [**href**](/html/attributes/href) of the third link (Microsoft.com) defined in the document.
 
@@ -42,14 +42,14 @@ alert(document.links[2].href);
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 For [**a**](/html/elements/a) objects to appear in the collection, they must have an [**href**](/html/attributes/href) attribute.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

@@ -10,17 +10,17 @@ tags:
 uri: javascript/Object/constructor
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the function that creates an object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     object.constructor
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the constructor property.
 
@@ -45,15 +45,15 @@ The following example illustrates the use of the constructor property.
  // Object constructor is MyObj.
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required object is the name of an object or function.
 
 The **constructor** property is a member of the prototype of every object that has a prototype. This includes all intrinsic JavaScript objects except the **Global** and **Math** objects. The **constructor** property contains a reference to the function that constructs instances of that particular object.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [prototype Property (Object)](/javascript/Object/prototype)
 

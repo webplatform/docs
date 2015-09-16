@@ -20,11 +20,11 @@ tags:
 uri: css/properties/mask-repeat
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies how mask images are tiled (repeated) after they have been sized and positioned.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `no-repeat`
@@ -50,7 +50,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `mask-repeat: no-repeat`
 -   `mask-repeat: repeat`
@@ -59,7 +59,7 @@ Percentages
 -   `mask-repeat: round`
 -   `mask-repeat: space`
 
-## <span>Values</span>
+## Values
 
 repeat-x
 :   Tiling of the mask object occurs in the x direction.
@@ -79,7 +79,7 @@ round
 no-repeat
 :   Tiling of the mask object does not occur; that is, it is placed once and not repeated.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* repeat-y */
@@ -91,7 +91,7 @@ body {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Masking Level 1](https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html)
 :   W3C Editor's Draft

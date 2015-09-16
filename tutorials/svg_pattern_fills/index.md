@@ -11,7 +11,7 @@ tags:
 uri: 'tutorials/svg pattern fills'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article covers SVG pattern fills.
 

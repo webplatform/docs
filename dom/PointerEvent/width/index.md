@@ -21,13 +21,13 @@ tags:
 uri: dom/PointerEvent/width
 
 ---
-## <span>Summary</span>
+## Summary
 
 The width (magnitude on the X axis), in CSS pixels, of the contact geometry of the pointer.
 
 Property of [dom/PointerEvent](/dom/PointerEvent)[dom/PointerEvent](/dom/PointerEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,11 +35,11 @@ Property of [dom/PointerEvent](/dom/PointerEvent)[dom/PointerEvent](/dom/Pointer
 var result = event.width;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 Resizing an element to match the contact geometry
 
@@ -54,11 +54,11 @@ function checkPointerSize(event) {
 </script>
 ```
 
-## <span>Usage</span>
+## Usage
 
      This value may be updated on each event for a given pointer. For devices which have a contact geometry but the actual geometry is not reported by the hardware, a default value may be provided by the user agent to approximate the geometry typical of that pointer type. Otherwise, the value must be 0.
 
-## <span>Notes</span>
+## Notes
 
 For touch hardware that doesn't support width or height, a CSS document pixel equivalent of 7 millimeters is returned. For mouse or pen input, a value off 1 pixel is returned.
 

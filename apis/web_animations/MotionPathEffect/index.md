@@ -11,19 +11,19 @@ tags:
 uri: 'apis/web animations/MotionPathEffect'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Motion path animation effects are represented by the MotionPathEffect interface.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 

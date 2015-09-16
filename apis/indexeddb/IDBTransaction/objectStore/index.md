@@ -27,47 +27,47 @@ todo_broken_links:
 uri: apis/indexeddb/IDBTransaction/objectStore
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns an object store that has already been added to the scope of this transaction.
 
 Method of [apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)[apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.objectStore(name);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   any
 
  Name of the object store to return.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This method can throw the following [**DOMException**](/dom/DOMException) exceptions: {
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `IDBTransaction`

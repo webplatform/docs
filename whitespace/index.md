@@ -9,7 +9,7 @@ tags:
 uri: whitespace
 
 ---
-## <span>whitespace</span>
+## whitespace
 
 The portion of a layout left unoccupied; that is, all space between graphics, margins, gutters, columns, lines of type, words, figures, or other objects drawn or rendered in an online or printed page.
 

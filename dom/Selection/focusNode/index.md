@@ -23,13 +23,13 @@ tags:
 uri: dom/Selection/focusNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the element or node that contains the end of a selection.
 
 Property of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 var oNode = selObj.focusNode;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 Returns the node in which the selection ends.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows the text content that is contained within the node (or tags) that is in focus when you click a section of text.
 
@@ -77,14 +77,14 @@ The following example shows the text content that is contained within the node (
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Returns null if the selection does not exist. As a [**Selection**](/dom/Selection) object consists of a list of Range objects, focusNode returns the value of the [**endContainer**](/dom/Range/endContainer) attribute of the last Range object in the list.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1

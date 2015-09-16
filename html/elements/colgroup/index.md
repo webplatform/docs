@@ -19,20 +19,20 @@ tags:
 uri: html/elements/colgroup
 
 ---
-## <span>Summary</span>
+## Summary
 
 The colgroup element (&lt;colgroup&gt;) specifies a group of one or more columns in a table for formatting. This element is useful for applying properties to entire columns, instead of repeating the properties for each cell, for each row.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLTableColElement](/dom/HTMLTableColElement)
 
-## <span>HTML Attributes</span>
+## HTML Attributes
 
 -   `span` = valid non-negative integer
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **COLGROUP** element to assign specific characteristics to two groups of columns in a table.
 
@@ -92,9 +92,9 @@ When **COL** elements are nested inside a **COLGROUP** element, the attributes o
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/colgroupEX2.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Nested **COL** elements override **COLGROUP** elements. Use the [**SPAN**](/html/attributes/span) attribute to specify the number of table columns that the **COLGROUP** defines. This attribute has a default value equal to one.
 
@@ -104,7 +104,7 @@ You should avoid using the [**SPAN**](/html/attributes/span) attribute inside th
 
 The [**table**](/html/elements/table) object and its associated elements have a separate table object model, which uses different methods than the general object model. For more information on the table object model, see Building Tables Dynamically.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-colgroup-element)
 :   W3C Working Draft
@@ -115,11 +115,11 @@ The [**table**](/html/elements/table) object and its associated elements have a 
 [HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-COLGROUP)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -259,7 +259,7 @@ The [**table**](/html/elements/table) object and its associated elements have a 
 
 -   [time](/html/elements/time)
 
-#### <span>Tables</span>
+#### Tables
 
 -   [border-collapse](/css/properties/border-collapse)
 

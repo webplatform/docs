@@ -19,11 +19,11 @@ tags:
 uri: css/properties/shape-margin
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds a margin to a shape-outside. In effect, defines a new shape that is the smallest contour around all the points that are the shape-margin distance outward perpendicular to each point on the underlying shape. For points where a perpendicular direction is not defined (e.g., a triangle corner), takes all points on a circle centered at the point and with a radius of the shape-margin distance. This property accepts only non-negative values.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
@@ -46,12 +46,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `shape-margin: <length>`
 -   `shape-margin: <percentage>`
 
-## <span>Values</span>
+## Values
 
 \<length\>
 :   Sets the margin of the shape to the \<length\>.
@@ -59,7 +59,7 @@ Animatable
 \<percentage\>
 :   Sets the margin of the shape to a percentage of the width of the element’s containing block.
 
-## <span>Examples</span>
+## Examples
 
 In the following example, we have a div with an image with a CSS class.
 
@@ -87,13 +87,13 @@ In the CSS class, we float the image left, set its shape to be the same image, a
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Shapes Module Level 1](http://www.w3.org/TR/css-shapes/)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [shape-outside](/css/properties/shape-outside) [shape-image-threshold](/css/properties/shape-image-threshold)

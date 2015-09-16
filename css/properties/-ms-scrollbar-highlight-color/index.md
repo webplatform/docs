@@ -24,14 +24,14 @@ uri: css/properties/-ms-scrollbar-highlight-color
 
 Property of **css/properties/-ms-scrollbar-highlight-colorcss/properties/-ms-scrollbar-highlight-color**
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = -ms-scrollbar-highlight-color.-ms-scrollbar-highlight-color;
 -ms-scrollbar-highlight-color.-ms-scrollbar-highlight-color = scrollbar-highlight-color:blue;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to create a style rule that sets the **-ms-scrollbar-highlight-color** property.
 
@@ -51,13 +51,13 @@ The following example shows how to create a style rule that sets the **-ms-scrol
 
 [View live example](http://result.webplatform.org/gist/7331495)
 
-## <span>Usage</span>
+## Usage
 
      -ms-scrollbar-highlight-color: purple
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This property is specific to Internet Explorer 8. The **-ms-scrollbar-highlight-color** attribute is an extension to CSS, and can be used as a synonym for **scrollbar-highlight-color** in IE8 Standards mode.
 
@@ -65,15 +65,15 @@ The scroll box is the square box within a scroll bar that can be moved either up
 
 This property applies to elements that display a scroll bar. Cascading Style Sheets (CSS) enable scrolling on all objects through the [**overflow**](/css/properties/overflow) property. These objects are not listed in the Applies To list for this property.
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Scrollbar</span>
+#### Scrollbar
 
 -   [-ms-scrollbar-3d-light-color](/css/properties/-ms-scrollbar-3d-light-color)
 
@@ -91,7 +91,7 @@ There are no standards that apply here.
 
 -   [-ms-scrollbar-track-color](/css/properties/-ms-scrollbar-track-color)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

@@ -24,34 +24,34 @@ tags:
 uri: dom/Document/createComment
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a comment object with the specified data.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var commentNode = document.createComment(text);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>text</span>
+### text
 
  Data-type
 :   String
 
  Text of the comment.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The created comment node.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //create a comment node
@@ -60,7 +60,7 @@ var cmt = document.createComment("Comment text");
 document.body.appendChild(cmt);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

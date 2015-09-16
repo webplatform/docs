@@ -23,21 +23,21 @@ tags:
 uri: dom/Range/compareBoundaryPoints
 
 ---
-## <span>Summary</span>
+## Summary
 
 The Range.compareBoundaryPoints() method compares the boundary points of the Range with another one.
 
 Method of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var boundaryComparison = range.compareBoundaryPoints(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>how</span>
+### how
 
  Data-type
 :   unsigned short
@@ -54,20 +54,20 @@ Must be one of -
 
 \`Range.START\_TO\_START\` (0) compares the start boundary-point of sourceRange to the start boundary-point of Range.
 
-### <span>sourceRange</span>
+### sourceRange
 
  Data-type
 :   Range
 
 [**Range**](/dom/Range) object that is compared to the range of the object on which **compareBoundaryPoints** is invoked.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 Returns a –1, 0, or 1 to indicate whether the *sourceRange* point is before, equal to, or after the boundary point of the [**Range**](/dom/Range) object on which **compareBoundaryPoints** is invoked.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var range, sourceRange, compare;
@@ -78,7 +78,7 @@ sourceRange.selectNode(document.getElementsByTagName("div")[1]);
 compare = range.compareBoundaryPoints(Range.START_TO_END, sourceRange);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-range-compareboundarypoints)
 :   Living Standard

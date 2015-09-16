@@ -10,17 +10,17 @@ tags:
 uri: javascript/RegExp/index
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the character position where the first successful match begins in a searched string. Read-only.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     RegExp.index
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **index** property. This function iterates a search string and prints out the **index** and **lastIndex** values for each word in the string.
 
@@ -51,7 +51,7 @@ function RegExpTest()
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The object associated with this property is always the global **RegExp** object.
 

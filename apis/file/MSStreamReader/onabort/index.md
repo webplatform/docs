@@ -25,13 +25,13 @@ todo_broken_links:
 uri: apis/file/MSStreamReader/onabort
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates that the read has been aborted (for example, by calling abort()).
 
 Property of [apis/file/MSStreamReader](/apis/file/MSStreamReader)[apis/file/MSStreamReader](/apis/file/MSStreamReader)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onabort;
@@ -40,9 +40,9 @@ element.onabort = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Aborts a read by, or a creation of, an [**msStreamReader**](/apis/file/MSStreamReader) object. To invoke this event, do one of the following:
 
@@ -53,16 +53,16 @@ The *pEvtObj* parameter is required for the following interfaces:
 
 -   [**msStreamReader**](/apis/file/MSStreamReader)
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `FileReader`
 -   `msStreamReader`

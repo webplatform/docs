@@ -24,14 +24,14 @@ uri: dom/HTMLElement/tagUrn
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.tagUrn;
 element.tagUrn = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example uses the values returned by the **scopeName** and **tagUrn** properties to create a simple HelloWorld custom tag.
 
@@ -84,10 +84,10 @@ An alternative call to the HTC can also be made as an attribute, as shown in the
 
 [**Note**  Make sure there are no spaces in your style's declaration. View live example]
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 To declare the namespace in the document, use the [**XMLNS**](/apis/xhr/properties/XMLNS_attribute) attribute of the **html** element. Download the HTC for the sample below: [simple.htc](http://go.microsoft.com/fwlink/p/?linkid=203827)
 
-### <span>Syntax</span>
+### Syntax

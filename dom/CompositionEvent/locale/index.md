@@ -24,13 +24,13 @@ tags:
 uri: dom/CompositionEvent/locale
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the locale name (language code, e.g., &quot;en-US&quot;, &quot;fr&quot;, &quot;de&quot;, &quot;ja&quot;, etc.) for the composition event, if available; otherwise, the empty string.
 
 Property of [dom/CompositionEvent](/dom/CompositionEvent)[dom/CompositionEvent](/dom/CompositionEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [dom/CompositionEvent](/dom/CompositionEvent)[dom/CompositionEvent](
 var localeName = event.locale;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The locale of the event.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function getLocale(e) {
@@ -54,13 +54,13 @@ return localeString;
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 For trusted events, the **locale** property is set for keyboard and Input Method Editor (IME) input only. The locale name is set from the default LCID of the thread, `en-US`, for example.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `KeyboardEvent`
 -   `TextEvent`

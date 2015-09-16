@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/substr
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets a substring beginning at the specified location and having the specified length.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Gets a substring beginning at the specified location and having the specified le
 **length**
 :   Optional. The number of characters to include in the returned substring.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **substr** method.
 
@@ -53,13 +53,13 @@ document.write("[" + ss + "] <br>");
  // [dog.]
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 If length is zero or negative, an empty string is returned. If not specified, the substring continues to the end of stringvar. If start is negative, it is treated as [stringvar.length+start] if length is omitted this would return the last \`start\` characters of the stringvar.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [substring Method (String)](/javascript/String/substring)
 

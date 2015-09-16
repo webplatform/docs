@@ -22,13 +22,13 @@ tags:
 uri: apis/canvas/ImageData/data
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initialized to a Uint8ClampedArray object. The Uint8ClampedArray object must use a Canvas Pixel ArrayBuffer for its storage, and must have a zero start offset and a length equal to the length of its storage, in bytes.
 
 Property of [apis/canvas/ImageData](/apis/canvas/ImageData)[apis/canvas/ImageData](/apis/canvas/ImageData)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,11 +36,11 @@ Property of [apis/canvas/ImageData](/apis/canvas/ImageData)[apis/canvas/ImageDat
 var result = ImageData.html/elements/data;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
-## <span>Examples</span>
+## Examples
 
 This example creates an ImageData object, then sets all its data pixels to yellow (at half intensity), then puts the object onto the canvas at a specified position.
 
@@ -63,11 +63,11 @@ ctxt.putImageData(imgdata, 10, 10);
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 An image is organized by pixels with four values per pixel: red, green, blue, and alpha. To access a specific pixel, use the formula `((canvas.width * y)+ x) *4`, where *x* and *y* are the row and offset in the image.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

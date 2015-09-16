@@ -24,13 +24,13 @@ todo_broken_links:
 uri: apis/location/hash
 
 ---
-## <span>Summary</span>
+## Summary
 
 The hash property contains the fragment identifier (including hash character) for the current page.
 
 Property of [apis/location](/apis/location)[apis/location](/apis/location)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = window.location.hash;
@@ -38,7 +38,7 @@ window.location.hash =
 #foo;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -46,7 +46,7 @@ Returns the fragment identifier (including hash character) for the current page.
 
 For example, `http://example.org/#foo` would return the fragment identifier of `#foo`.
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to first check for the availability of the window.location.hash property, and then checks to see whether the second tab in our fictional web app should be displayed.
 
@@ -56,17 +56,17 @@ if(typeof window.location.hash != "undefined" && window.location.hash == "#tab2
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      This property is used to see what the fragment identifier, or "hash" is for the current page is set to.
 
-## <span>Notes</span>
+## Notes
 
 The window.location.hash property does not work in versions of Internet Explorer prior to version 8.
 
 This is most often used to preserve permalinks in web applications, however the [history API](/w/index.php?title=apis/history&action=edit&redlink=1) may be better suited to this task if legacy browser support is not required.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Window Object 1.0](http://www.w3.org/TR/Window/)
 :   W3C Working Draft

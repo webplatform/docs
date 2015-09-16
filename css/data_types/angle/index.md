@@ -10,7 +10,7 @@ tags:
 uri: 'css/data types/angle'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &lt;angle&gt; CSS data type describes an amount of rotation; it is expressed with a number followed (without whitespace) by one of the recognized angle unit abbreviations.
 
@@ -25,7 +25,7 @@ Measurements may be positive or negative, and may extend past the limit required
 
 If using Javascript to set or manipulate styles requiring angle measurements, it is worth mentioning that the trigonometric [Math functions](/concepts/programming/javascript/core_objects#Math_Object) use radians for angles.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 .a[href] {
@@ -39,7 +39,7 @@ a:hover {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/)
 :   Candidate Recommendation

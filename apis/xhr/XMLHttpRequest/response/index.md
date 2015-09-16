@@ -23,13 +23,13 @@ tags:
 uri: apis/xhr/XMLHttpRequest/response
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the response entity body, which is the fragment of the entity body of the response received so far (if LOADING) or the complete entity body of the response (if DONE).
 
 Property of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,11 +37,11 @@ Property of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttp
 var result = element.response;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type anyany
 
-## <span>Examples</span>
+## Examples
 
 This example reads an image as a binary file and creates an 8-bit unsigned integer array from the raw bytes.
 
@@ -63,7 +63,7 @@ oReq.onload = function (oEvent) {
 oReq.send(null);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft

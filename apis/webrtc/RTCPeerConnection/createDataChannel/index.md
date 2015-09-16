@@ -22,28 +22,28 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/createDataChannel
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates an RTCDataChannel object with the given label.
 
 Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = peerConnection.createDataChannel(label, options);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>label</span>
+### label
 
  Data-type
 :   String
 
  The label of the data channel.
 
-### <span>options</span>
+### options
 
  Data-type
 :   Object
@@ -52,6 +52,6 @@ var result = peerConnection.createDataChannel(label, options);
 
 Currently the only available option is a Boolean property named "reliable" (e.g. {reliable: false})
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type

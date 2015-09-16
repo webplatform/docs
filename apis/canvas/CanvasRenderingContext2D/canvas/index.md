@@ -22,13 +22,13 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/canvas
 
 ---
-## <span>Summary</span>
+## Summary
 
 A (read-only) reference to the canvas element that the CanvasRenderingContext2D object was created for.
 
 Property of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,11 +36,11 @@ Property of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingC
 var result = CanvasRenderingContext2D.html/elements/canvas;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
-## <span>Examples</span>
+## Examples
 
 This example gets the **id** of the canvas object for which the 2D context was created.
 
@@ -56,11 +56,11 @@ alert(ctxt.canvas.id); // returns "myCanvas"
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 You can use the *canvas* property to access the *canvas* element from functions where you passed in only the current [CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D) object.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

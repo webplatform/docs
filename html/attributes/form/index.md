@@ -12,7 +12,7 @@ tags:
 uri: html/attributes/form
 
 ---
-## <span>Summary</span>
+## Summary
 
 The form attribute specifies the parent form of an html form element.
 
@@ -34,20 +34,20 @@ The value of the form attribute should be the id of a form that exists on the sa
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Note that a document conforming to the HTML specifications will never have nested form elements (the primary use for this attribute). However, javascript can make this situation occur.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/forms.html#attr-fae-form)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 

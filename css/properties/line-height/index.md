@@ -18,11 +18,11 @@ tags:
 uri: css/properties/line-height
 
 ---
-## <span>Summary</span>
+## Summary
 
 The line-height property specifies the height of an inline block level element. The value of the line-height property cannot be negative.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -48,7 +48,7 @@ Animatable
 Percentages
 :   refer to the font size of the element itself
 
-## <span>Syntax</span>
+## Syntax
 
 -   `line-height: <length>`
 -   `line-height: <number>`
@@ -56,7 +56,7 @@ Percentages
 -   `line-height: none`
 -   `line-height: normal`
 
-## <span>Values</span>
+## Values
 
 normal
 :   Take the height fixed by the default css of the user browser.
@@ -75,7 +75,7 @@ In most cases, it multiplies the height of the font by 1.2.
 none
 :   This value has no effect on the rendering of the element and for block inline elements it is equivalent to 'normal.'
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* setting a line-height of 1.3em to a paragraph element with a font size of 1em*/
@@ -90,13 +90,13 @@ p { line-height: 1.3em}
 p { line-height: 1.3}
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Line height is the distance between the descender of the font and the top of the internal leading of the font. If a formatted line contains more than one object, the maximum line height applies. In this case, negative values are not allowed.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS1 line-height](http://www.w3.org/TR/CSS1/#line-height)
 :   W3C Recommendation
@@ -107,11 +107,11 @@ Line height is the distance between the descender of the font and the top of the
 [css3 transition](http://dev.w3.org/csswg/css3-transitions/#animatable-css)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Box Model</span>
+#### Box Model
 
 -   [border](/css/properties/border)
 

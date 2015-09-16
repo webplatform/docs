@@ -19,13 +19,13 @@ tags:
 uri: 'apis/image capture/ImageCapture/onframegrab'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Register/unregister for frame capture events of type FrameGrabEvent.
 
 Property of [apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)[apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = pictureDevice.onframegrab;

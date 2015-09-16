@@ -23,11 +23,11 @@ tags:
 uri: css/properties/hyphens
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies whether or not words in a sentence can be split by the use of a manual or automatic hyphenation mechanism.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `manual`
@@ -53,13 +53,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `hyphens: auto`
 -   `hyphens: manual`
 -   `hyphens: none`
 
-## <span>Values</span>
+## Values
 
 none
 :   Indicates that all word breaking is suppressed, even when explicitly specified with soft hyphens.
@@ -70,7 +70,7 @@ manual
 auto
 :   Indicates that, in addition to suggested word breaking opportunities, word breaking opportunities are allowed where determined by a hyphenation resource (dictionary). Soft hyphens take priority over other hyphenation opportunities, but are still subject to the hyphenation controlled properties. By providing a language for the text (via the HTML `lang` attribute for example), a User Agent can determine the correct place to break a word.
 
-## <span>Examples</span>
+## Examples
 
 Sets the hyphens property different on each of the paragraph elements.
 
@@ -90,30 +90,30 @@ p:nth-child(3) {
 
 [View live example](http://code.webplatform.org/gist/6948199)
 
-## <span>Usage</span>
+## Usage
 
      When hyphenation is not pre-set in a document, the default value for the hyphens property might not suit all cases. In cases where the language is properly set in the document, the hyphenation dictionaries provided in user agents can be able to break up words on the best possible place for each line.
 
 The overall effect is that sentences run along almost the complete width of the box, and therefor can be slightly less high as end result.
 
-## <span>Notes</span>
+## Notes
 
 Note that not all languages are supported by browsers which support the value `auto` for this property.
 
-### <span>Syntax</span>
+### Syntax
 
 `hyphens: none | manual | auto`
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/#hyphens-property)
 :   W3C Last Call Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -193,6 +193,6 @@ Note that not all languages are supported by browsers which support the value `a
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`

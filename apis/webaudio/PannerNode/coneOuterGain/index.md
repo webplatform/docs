@@ -20,24 +20,24 @@ tags:
 uri: apis/webaudio/PannerNode/coneOuterGain
 
 ---
-## <span>Summary</span>
+## Summary
 
 A parameter for directional audio sources, this is the amount of volume reduction outside of the coneOuterAngle. The default value is 0.
 
 Property of [apis/webaudio/PannerNode](/apis/webaudio/PannerNode)[apis/webaudio/PannerNode](/apis/webaudio/PannerNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = PannerNode.coneOuterGain;
 PannerNode.coneOuterGain = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -45,7 +45,7 @@ var panner = audioCtx.createPanner();
 panner.coneOuterGain = 0;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

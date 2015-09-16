@@ -21,11 +21,11 @@ uri: css/transforms/MSCSSMatrix
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -33,32 +33,32 @@ API Name
 [translate](/css/transforms/MSCSSMatrix/translate)
 :
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Transitions Module Level 3](http://go.microsoft.com/fwlink/p/?linkid=223140), Section 10.1
 
-### <span>Members</span>
+### Members
 
 The **MSCSSMatrix** object has these types of members:
 
 -   [\#methods Methods]
 -   [\#properties Properties]
 
-#### <span>Methods</span>
+#### Methods
 
 The **MSCSSMatrix** object has these methods. {
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Transforms</span>
+#### Transforms
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 

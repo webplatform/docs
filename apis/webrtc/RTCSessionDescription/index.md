@@ -11,11 +11,11 @@ tags:
 uri: apis/webrtc/RTCSessionDescription
 
 ---
-## <span>Summary</span>
+## Summary
 
 Describes the session with a serialized Session Description Protocol object.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -26,10 +26,10 @@ API Name
 [type](/apis/webrtc/RTCSessionDescription/type)
 :   The type of SDP object this RTCSessionDescription represents.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*

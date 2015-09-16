@@ -21,7 +21,7 @@ uri: css/properties/layout-grid-mode
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :
@@ -44,14 +44,14 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `layout-grid-mode: both`
 -   `layout-grid-mode: char`
 -   `layout-grid-mode: line`
 -   `layout-grid-mode: none`
 
-## <span>Values</span>
+## Values
 
 both
 :   Default. Both the **char** and **line** grid modes are enabled. This setting is necessary to fully enable the layout grid on an element.
@@ -65,7 +65,7 @@ line
 char
 :   Only a character grid is used. This is recommended for use with block-level elements, such as a **blockquote**, where the line grid is intended to be disabled.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **-ms-layout-grid-mode** attribute to specify character layout for a block of text.
 
@@ -78,25 +78,25 @@ This is a block element containing a sentence of sample text.
 </DIV>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 8. The **-ms-layout-grid-mode** attribute is an extension to CSS, and can be used as a synonym for **layout-grid-mode** in IE8 Standards mode. Web documents in Asian languages, such as Chinese or Japanese, usually create a page layout for characters using a one- or two-dimensional grid. You can use the [**-ms-layout-grid**](/css/properties/layout-grid) attribute to incorporate this layout into Web documents.
 
-### <span>Syntax</span>
+### Syntax
 
 `-ms-layout-grid-mode: both | none | line | char`
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -176,7 +176,7 @@ There are no standards that apply here.
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

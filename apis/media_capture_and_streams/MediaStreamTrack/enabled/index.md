@@ -25,20 +25,20 @@ tags:
 uri: 'apis/media capture and streams/MediaStreamTrack/enabled'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Enables the track if the new value is true, and disable it otherwise.
 
 Property of [apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)[apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = track.enabled;
 track.enabled = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 

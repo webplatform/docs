@@ -22,20 +22,20 @@ tags:
 uri: dom/HTMLInputElement/checked
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets whether a check box or a radio button are checked.
 
 Property of [dom/HTMLInputElement](/dom/HTMLInputElement)[dom/HTMLInputElement](/dom/HTMLInputElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var checked = inputElement.checked;
 inputElement.checked = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -43,6 +43,6 @@ Whether the check box or radio button is checked.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Use this property to tick a check box or a radio button.

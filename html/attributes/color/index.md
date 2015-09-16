@@ -13,7 +13,7 @@ tags:
 uri: html/attributes/color
 
 ---
-## <span>Summary</span>
+## Summary
 
 The foreground color of the text of an object.
 
@@ -31,22 +31,22 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Some browsers do not recognize color names, but all browsers should recognize RGB color values and display them correctly.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 15.2.2 (Deprecated)
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `baseFont`
 -   `font`

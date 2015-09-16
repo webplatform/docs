@@ -19,28 +19,28 @@ tags:
 uri: dom/Location/reload
 
 ---
-## <span>Summary</span>
+## Summary
 
 Reloads the current document.
 
 Method of [dom/Location](/dom/Location)[dom/Location](/dom/Location)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  location.reload(ignoreCache);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>ignoreCache</span>
+### ignoreCache
 
  Data-type
 :   Boolean
 
  Whether to ignore the cache and reload the page from scratch.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 

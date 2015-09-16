@@ -24,13 +24,13 @@ tags:
 uri: apis/audio-video/TimeRanges/length
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the number of ranges in the object.
 
 Property of [apis/audio-video/TimeRanges](/apis/audio-video/TimeRanges)[apis/audio-video/TimeRanges](/apis/audio-video/TimeRanges)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,11 +38,11 @@ Property of [apis/audio-video/TimeRanges](/apis/audio-video/TimeRanges)[apis/aud
 var result = TimeRanges.length;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 Given a video element with the ID "myVideo", this example looks at the time ranges to determine if the entire video has been loaded.
 
@@ -63,7 +63,7 @@ if (buf.length == 1) {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

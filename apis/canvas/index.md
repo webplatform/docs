@@ -12,7 +12,7 @@ tags:
 uri: apis/canvas
 
 ---
-## <span>Summary</span>
+## Summary
 
 Allows applications to render pixel-based graphics within a canvas element using a two-dimensional graphics context.
 
@@ -37,11 +37,11 @@ API Name
 [TextMetrics](/apis/canvas/TextMetrics)
 :   The TextMetrics object of the canvas API. TextMetrics retrieves numeric informations like the width of a text that is drawn onto the canvas with the current font style.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Canvas</span>
+#### Canvas
 
 -   **canvas**
 

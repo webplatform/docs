@@ -21,13 +21,13 @@ tags:
 uri: dom/PointerEvent/pointerType
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates the device type that caused the event (mouse, pen, touch, etc.).
 
 Property of [dom/PointerEvent](/dom/PointerEvent)[dom/PointerEvent](/dom/PointerEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,11 +35,11 @@ Property of [dom/PointerEvent](/dom/PointerEvent)[dom/PointerEvent](/dom/Pointer
 var result = event.pointerType;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 Detecting the type of input from a user
 
@@ -62,7 +62,7 @@ function detectInputType(event) {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      If a user agent is to fire a pointer event for a mouse, pen stylus, or touch input device, then the value of pointerType must be according to the following table:
 
@@ -74,7 +74,7 @@ function detectInputType(event) {
 
 If the device type cannot be detected by the user agent, then the value must be an empty string. If a user agent supports pointer device types other than those listed above, the value of pointerType should be vendor prefixed to avoid conflicting names for different types of devices. Future specifications may provide additional normative values for other device types.
 
-## <span>Notes</span>
+## Notes
 
 In Internet Explorer 11, this property has been changed to return a string value. In Internet Explorer 10, it provided a return type of long: •MSPOINTER\_TYPE\_TOUCH: 0x00000002 •MSPOINTER\_TYPE\_PEN: 0x00000003 •MSPOINTER\_TYPE\_MOUSE: 0x00000004
 

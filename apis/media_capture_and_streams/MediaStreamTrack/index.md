@@ -13,11 +13,11 @@ tags:
 uri: 'apis/media capture and streams/MediaStreamTrack'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a media source in the user agent.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -61,7 +61,7 @@ API Name
 [remote](/apis/media_capture_and_streams/MediaStreamTrack/remote)
 :   Returns true if the track is sourced by an RTCPeerConnection. Returns false otherwise.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -84,7 +84,7 @@ API Name
 [stop](/apis/media_capture_and_streams/MediaStreamTrack/stop)
 :   Permanently stop the generation of data for track's source.
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -101,7 +101,7 @@ API Name
 [unmute](/apis/media_capture_and_streams/MediaStreamTrack/unmute)
 :   This event fires when the MediaStreamTrack object's source is live again after having been temporarily unable to provide data.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Media Capture and Streams](http://www.w3.org/TR/mediacapture-streams/)
 :   W3C Working Draft

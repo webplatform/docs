@@ -19,17 +19,17 @@ tags:
 uri: css/properties/wrap-option
 
 ---
-## <span>wrap-option (Obsolete)</span>
+## wrap-option (Obsolete)
 
 For technical reasons, the title of this article is not the text used to call this API. Instead, use `wrap-option (Obsolete)`
 
-## <span>Summary</span>
+## Summary
 
 Obsolete and unsupported. Do not use.
 
 This CSS property controls the text when it reaches the end of the block in which it is enclosed.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `wrap`
@@ -55,14 +55,14 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `wrap-option: emergency`
 -   `wrap-option: no-wrap`
 -   `wrap-option: soft-wrap`
 -   `wrap-option: wrap`
 
-## <span>Values</span>
+## Values
 
 wrap
 :   The text is wrapped at the best line-breaking opportunity (if required) within the available block inline-progression dimension
@@ -78,17 +78,17 @@ emergency
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Could not find any documentation that this is still relevant, concur that it should be deleted.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514)
 :   Obsolete (previously a Candidate Recommendation)
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 See also: [wrap-flow](/css/properties/wrap-flow) property

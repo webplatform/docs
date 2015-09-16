@@ -22,19 +22,19 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/clip
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies a new clipping region by calculating the intersection of the current clipping region and the area described by the intended path, using the non-zero winding number rule. The new clipping region replaces the current clipping region.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.clip();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -42,7 +42,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 This example clips a region from a canvas, then draws a rectangle on the canvas, only part of which can be seen due to the clip.
 
@@ -64,11 +64,11 @@ ctxt.fillRect(0, 0, 150, 100);
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 When the context is initialized, the clipping region must be set to the rectangle with the top left corner at (0,0) and the width and height at that of the coordinate space.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

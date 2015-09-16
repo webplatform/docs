@@ -24,13 +24,13 @@ tags:
 uri: css/cssom/styleSheet/cssRules
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets a list of CSS rules of a style sheet.
 
 Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](
 var rules = stylesheet.cssRules;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -46,20 +46,20 @@ Of type CSSRuleList. A list of CSS rules within a style sheet.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 The list retrieved includes both rule sets (at-rules. Rules are returned in the same order as they are listed in the parent object. Rules that were dropped during parsing (for instance, because of syntax errors) are not included. However, rules that use a selector or property that Windows Internet Explorer does not recognize are included in the list.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html#CSS-CSSMediaRule)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -205,7 +205,7 @@ The list retrieved includes both rule sets (at-rules. Rules are returned in the 
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `styleSheet`
 -   `CSSMediaRule`

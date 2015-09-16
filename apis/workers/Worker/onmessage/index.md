@@ -24,13 +24,13 @@ tags:
 uri: apis/workers/Worker/onmessage
 
 ---
-## <span>Summary</span>
+## Summary
 
 An event listener to be called when a message is received from the worker.
 
 Property of [apis/workers/Worker](/apis/workers/Worker)[apis/workers/Worker](/apis/workers/Worker)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,15 +38,15 @@ Property of [apis/workers/Worker](/apis/workers/Worker)[apis/workers/Worker](/ap
 var result = object.onmessage;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 EventHandler
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft

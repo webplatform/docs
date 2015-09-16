@@ -34,7 +34,7 @@ todo_broken_links:
 uri: 'tutorials/svg fonts'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article covers the creation and usage of SVG fonts.
 
@@ -44,7 +44,7 @@ SVG Fonts browser support covers all modern browsers (desktop and mobile) except
 
 The base for defining an SVG font is the [Template:SVGElement("font")](/w/index.php?title=Template:SVGElement(%22font%22)&action=edit&redlink=1) element.
 
-## <span>Defining a font</span>
+## Defining a font
 
 There are some elements involved in getting all information together, that is needed for a font. I will first show an example declaration (the one [from the specification](/w/index.php?title=from_the_specification&action=edit&redlink=1)) and afterwards explain the details.
 
@@ -77,7 +77,7 @@ There are two further elements, that can be defined inside `font`, [Template:SVG
 
     <hkern u1="A" u2="V" k="20" />
 
-## <span>Referencing a font</span>
+## Referencing a font
 
 This is a fairly simple one. If you have put together your font declaration as described above, you can just use a simple `font-family` attribute.
 
@@ -90,7 +90,7 @@ This is a fairly simple one. If you have put together your font declaration as d
 
 However, you are free to combine several methods for great freedom of how and where to define the font.
 
-### <span>Option: Use CSS @font-face</span>
+### Option: Use CSS @font-face
 
 You can use @font-face to reference remote (and not so remote) fonts.
 
@@ -107,7 +107,7 @@ You can use @font-face to reference remote (and not so remote) fonts.
 
     <text font-family="Super Sans">My text uses Super Sans</text>
 
-### <span>Option: reference a remote font</span>
+### Option: reference a remote font
 
 The above mentioned font-face-uri allows to reference an external font, hence allowing greater re-usability.
 

@@ -86,11 +86,11 @@ todo_broken_links:
 uri: html/elements/b/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 &lt;b&gt;要素は特に重要であることを伝えるのに使うものではなく、あくまで通常の文章において文体的にテキストを強調する際に使用します。
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -99,7 +99,7 @@ uri: html/elements/b/ja
 
 \<b\>要素は他に適切な要素がない場合の最終手段として使うようにしてください。そのテキストがスタイル的に重要だと示されている以外の意味はありません（[**span** 要素](/w/index.php?title=html/elements/span/ja&action=edit&redlink=1)の省略形とい言ってもいいでしょう）。意味があり、似たような効果をもたらす要素として、[strong](/w/index.php?title=html/elements/strong/ja&action=edit&redlink=1)、[dfn](/w/index.php?title=html/elements/dfn/ja&action=edit&redlink=1)、[h1-h6](/w/index.php?title=html/elements/hn/ja&action=edit&redlink=1)、[abbr](/w/index.php?title=html/elements/abbr/ja&action=edit&redlink=1).があります。
 
-## <span>Examples</span>
+## Examples
 
 以下の例では、アドベンチャーゲームのテキストの特別な部分を**\<b\>**要素を使って強調しています。
 
@@ -120,7 +120,7 @@ uri: html/elements/b/ja
 
 [View live example](http://code.webplatform.org/gist/321e5149c1e661e1de14)
 
-## <span>Usage</span>
+## Usage
 
      <b>要素は人名、社名、製品名、地名などの固有名詞を囲んで、周囲のテキストと区別するために使いますが、意味という意味はありません。
 
@@ -128,11 +128,11 @@ uri: html/elements/b/ja
 
 -   [[b and i tags](http://www.w3.org/International/techniques/authoring-html#bandi%7CUsing)]
 
-## <span>Notes</span>
+## Notes
 
 **\<b\>**要素は意味を持たないため、自分で意味を持たせて使ってはいけません。もっと適切な要素があるはずです。見出しには**\<h1\>**～**\<h6\>**要素を、アクセントを付けたい場合は**\<em\>**要素を、重要性を示すには**\<strong\>**要素を、文脈上重要/強調したいテキストには**\<mark\>**要素を使うべきでしょう。
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-b-element)
 :   W3C Working Draft
@@ -143,11 +143,11 @@ uri: html/elements/b/ja
 [HTML 4.01](http://www.w3.org/TR/html401/present/graphics.html#edef-B)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -287,7 +287,7 @@ uri: html/elements/b/ja
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

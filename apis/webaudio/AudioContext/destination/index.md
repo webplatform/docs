@@ -20,13 +20,13 @@ tags:
 uri: apis/webaudio/AudioContext/destination
 
 ---
-## <span>Summary</span>
+## Summary
 
 An AudioDestinationNode with a single input representing the final destination for all audio (to be rendered to the audio hardware, i.e., speakers). All AudioNodes actively rendering audio will directly or indirectly connect to the destination node.
 
 Property of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,20 +34,20 @@ Property of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webau
 var result = AudioContext.destination;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 AudioDestinationNode
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
 gainNode.connect(audioCtx.destination);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

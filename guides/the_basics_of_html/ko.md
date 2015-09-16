@@ -73,11 +73,11 @@ translations:
 uri: 'guides/the basics of html/ko'
 
 ---
-## <span>소개</span>
+## 소개
 
 이 문서는 요소의 역할 및 문자 참조를 포함한 HTML의 목적이나 구조를 정리 한 것입니다. 개별 기능은 이후 기사에서 자세히 설명하고 있습니다.
 
-## <span>What is HTML</span>
+## What is HTML
 
 대부분의 소프트웨어는 전용 파일 형식을 읽고 씁니다. 예를 들어, Microsoft Word는 "doc"파일을 지원하며 Microsoft Excel은 "xls"에 해당합니다. 이러한 파일에는 문서 내용 외에 다음 열었을 때의 복구 절차를 쓰는 정보 "메타 데이터"라는 문서에 대한 정보가 포함되어 있습니다. 메타 데이터는 문서의 작성자 나 마지막 수정일 신구 버전을 왕래하는 변경 내용이 포함되어 있습니다.
 
@@ -87,7 +87,7 @@ uri: 'guides/the basics of html/ko'
 
 그러나 여기서 중요한 것은 브라우저 만 사용자 에이전트가 아니라는 것입니다. 예를 들어, Google이나 Yahoo!가 자사의 검색 엔진을 위해 사용하는 Web 자동 인덱스 프로그램도 사용자 에이전트가됩니다 (그러나이 경우 사람이 직접 프로그램을 작동하는 것은 아닙니다).
 
-## <span>HTML은 어떤 것?</span>
+## HTML은 어떤 것?
 
 HTML은 문서의 내용과 그 의미를 일반 텍스트로 나타내는 형식입니다. 예를 들어, 다음과 같은 것입니다.
 
@@ -99,7 +99,7 @@ HTML은 문서의 내용과 그 의미를 일반 텍스트로 나타내는 형�
 
 대부분의 브라우저에는 "소스"또는 "소스보기"기능이 탑재되어 있으며, 대부분의 경우 "보기"메뉴에서 선택할 수 있습니다. 만약 당신이 사용하는 브라우저가 소스보기 기능을 제공하는 경우에 선택하여 페이지의 HTML 소스를 잠시 바라 봅시다.
 
-## <span>HTML 문서 구성</span>
+## HTML 문서 구성
 
 일반적인 HTML 문서의 구성 예:
 
@@ -132,7 +132,7 @@ And that’s our document in full.
 
 Elements often contain other elements. The body of the document will invariably end up involving many nested elements. Structural elements such as `article`, `header` and `div` create the overall structure of the document, and will contain subdivisions. These will contain headings, paragraphs, lists and so on. Paragraphs can contain elements that make links to other documents, quotes, emphasis and so on. You will find out more about these elements in later articles.
 
-## <span>The syntax of HTML elements</span>
+## The syntax of HTML elements
 
 A basic element in HTML consists of two markers around a block of text, and in almost every case elements can contain sub-elements (such as `html` containing `head` and `body` in the example above). There are some exceptions to the rule: some elements do not contain text or sub-elements, for example `img`. You'll learn more about these later on.
 
@@ -158,7 +158,7 @@ Many attributes in HTML are common to all elements, though some are specific to 
 
 An element within another element is referred to as being a “child” of that element. So in the above example, `abbr` is a child of the `h1`, which is itself a child of the `header`. Conversely, the `header` element would be referred to as a “parent” of the `h1` element. This parent/child concept is important, as it forms the basis of CSS and is heavily used in JavaScript.
 
-## <span>Block level and inline elements</span>
+## Block level and inline elements
 
 There are two general categories of elements in HTML, which correspond to the types of content and structure those elements represent—block level elements and inline elements.
 
@@ -168,7 +168,7 @@ Inline elements are those that are contained within block level structural eleme
 
 Note: HTML5 redefines the element categories in HTML: see [Element content categories](http://www.whatwg.org/specs/web-apps/current-work/complete/section-index.html#element-content-categories). While these definitions are more accurate and less ambiguous than the ones that went before, they are a lot more complicated to understand than "block" and "inline". We will therefore stick with these throughout this course.
 
-## <span>Character references</span>
+## Character references
 
 One last item to mention in an HTML document is how to include special characters. In HTML the characters `<`, `>` and `&` are special. They start and end parts of the HTML document, rather than representing the characters less-than, greater-than and ampersand. For this reason, they must always be used in escaped form in content.
 

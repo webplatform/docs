@@ -20,25 +20,25 @@ tags:
 uri: apis/webaudio/AudioContext/createMediaStreamSource
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a MediaStreamAudioSourceNode, given a MediaStream. As a consequence of calling this method, audio playback from the MediaStream will be re-routed into the processing graph of the AudioContext.
 
 Method of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = AudioContext.createMediaStreamSource();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 MediaStreamAudioSourceNode
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //it may be necessary to prefix getUserMedia and AudioContext in order to work in some browsers
@@ -52,7 +52,7 @@ navigator.getUserMedia({ audio: true }, function(stream){
 }, function(){ console.log('Error getting Microphone stream'); });
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

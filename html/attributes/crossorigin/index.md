@@ -11,7 +11,7 @@ tags:
 uri: html/attributes/crossorigin
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the whether the script should expose error info. This may be used only when loading a cross-origin script.
 
@@ -27,23 +27,23 @@ dom/HTMLScriptElement
 </td>
 </tr>
 </table>
-### <span>Standards Information</span>
+### Standards Information
 
 [HTML 5 Specification](http://www.w3.org/TR/html5/scripting-1.html#attr-script-crossorigin), Section 4.3 Content Attributes, crossorigin.
 
-## <span>Usage</span>
+## Usage
 
      Currently unsuitable for usage.
 
-## <span>Notes</span>
+## Notes
 
 This property is currently unstandardised.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -183,6 +183,6 @@ This property is currently unstandardised.
 
 -   [time](/html/elements/time)
 
-### <span>Other articles</span>
+### Other articles
 
 [[\<script\> tag| html/Elements/script]]

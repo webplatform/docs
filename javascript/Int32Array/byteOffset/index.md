@@ -10,17 +10,17 @@ tags:
 uri: javascript/Int32Array/byteOffset
 
 ---
-## <span>Summary</span>
+## Summary
 
 Read-only. The offset of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     var arrayOffset = int32Array.byteOffset;
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to get the offset of the array.
 

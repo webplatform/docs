@@ -23,7 +23,7 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/transform
 
 ---
-## <span>Summary</span>
+## Summary
 
 Replaces the current transformation matrix with the result of multiplying the current transformation matrix with the matrix described by:
 
@@ -31,57 +31,57 @@ Replaces the current transformation matrix with the result of multiplying the cu
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.transform(a, b, c, d, e, f);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>a</span>
+### a
 
  Data-type
 :   any
 
  The m1,1 value in the matrix.
 
-### <span>b</span>
+### b
 
  Data-type
 :   any
 
  The m1,2 value in the matrix.
 
-### <span>c</span>
+### c
 
  Data-type
 :   any
 
  The m2,1 value in the matrix.
 
-### <span>d</span>
+### d
 
  Data-type
 :   any
 
  The m2,2 value in the matrix.
 
-### <span>e</span>
+### e
 
  Data-type
 :   any
 
  The delta x (dx) value in the matrix.
 
-### <span>f</span>
+### f
 
  Data-type
 :   any
 
  The delta y (dy) value in the matrix.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -89,7 +89,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 This example shows visually how the transformation matrix works.
 
@@ -207,13 +207,13 @@ setup();
 
 [View live example](http://audiocommander.github.com/transformMatrixDemo)
 
-## <span>Notes</span>
+## Notes
 
 The parameters of *transform* represent a matrix. This matrix is multiplied with the transformation matrix of the current context.
 
 The arguments *a, b, c, d, e, f* are sometimes called *m11, m12, m21, m22, dx, dy* or *m11, m21, m12, m22, dx, dy*. Care should be taken in particular with the order of the second and third arguments (*b* and *c*) as their order varies from API to API; APIs sometimes use the notation *m12/m21* and sometimes *m21/m12* for those positions.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

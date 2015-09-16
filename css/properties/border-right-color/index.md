@@ -22,13 +22,13 @@ tags:
 uri: css/properties/border-right-color
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the color of an element's right border. This page explains the border-right-color value, but often you will find it more convenient to fix the border's right color as part of a shorthand set, either border-right or border-color.
 
 [Colors](/css/data_types/color) can be defined several ways. For more information, see [Usage](/css/properties/border-right-color#Usage).
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `color - The value of the 'color' property`
@@ -54,14 +54,14 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `border-right-color: <color>`
 -   `border-right-color: currentColor`
 -   `border-right-color: inherit`
 -   `border-right-color: transparent`
 
-## <span>Values</span>
+## Values
 
 \<color\>
 :   The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value. For more information, see [Usage](/css/properties/border-right-color#Usage).
@@ -75,7 +75,7 @@ currentColor
 transparent
 :   Fully transparent. This keyword can be considered a shorthand for transparent black, rgba(0,0,0,0), which is its computed value.
 
-## <span>Examples</span>
+## Examples
 
 The following example demonstrates the use of `border-right-color` by creating a set of 7 boxes with the rainbow colors, each box using a different way of color code representation. (Some style rules omitted for brevity.)
 
@@ -152,7 +152,7 @@ The following example demonstrates the use of `border-right-color` by creating a
 </div>
 ```
 
-## <span>Usage</span>
+## Usage
 
      The color value can be a property keyword, an extended keyword, or a numerical value. The two property keywords are currentColor and transparent. currentColor is the ‘color’ property value from the parent object. transparent is shorthand for transparent black, rgba(0,0,0,0).
 
@@ -167,7 +167,7 @@ The color value can also be a numerical value, such as one of the following:
 
 The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [CSS Color Module Level 3 spec](http://www.w3.org/TR/css3-color/#svg-color), which is the consolidation of various specifications.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#the-border-color)
 :   W3C Candidate Recommendation
@@ -178,11 +178,11 @@ The color value can also be an extended keyword, such as aliceblue or lavenderbl
 [CSS Level 3 - Color Module](http://www.w3.org/TR/css3-color)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Border</span>
+#### Border
 
 -   [border](/css/properties/border)
 
@@ -242,7 +242,7 @@ The color value can also be an extended keyword, such as aliceblue or lavenderbl
 
 -   [border-width](/css/properties/border-width)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

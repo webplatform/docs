@@ -10,11 +10,11 @@ tags:
 uri: 'Beginners/browser testing'
 
 ---
-## <span>Summary</span>
+## Summary
 
 To learn how web browsers react, it is quite useful to have automated tools. But modern browsers are now doing a very good job at behaving the same. Unless you are digging right away with technologies that are still in early adoption, you do not need browser testing tools.
 
-## <span>Beginners submenu</span>
+## Beginners submenu
 
 The **[Beginners](/Beginners)** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 
@@ -29,7 +29,7 @@ The **[Beginners](/Beginners)** section covers the various aspects of web develo
 -   **9. Browser testing**
 -   [Glossary](/Beginners/glossary)
 
-## <span>Tools</span>
+## Tools
 
 There are many ways to test your web pages. It can be by installing multiple web browsers, have a set of computers and devices, maintain a set of Virtual Machines with the various versions you want to support or even use a service provider that will take snapshots for you.
 
@@ -37,7 +37,7 @@ If you are just starting, a web browser is more than enough.
 
 **Also**: It is known and accepted that "[Websites do not *need* to look exactly the same in every browser](http://dowebsitesneedtolookexactlythesameineverybrowser.com/)". The previous link is a good example of the idea —try it in an old browser to see. There are many techniques possible to have older browsers to support features by detecting if they exist (called "feature sniffing" with [Modernizr](http://modernizr.com) for example), and conditionally add a library that will add support (we call them "Polyfils" or "shims"). The essential to remember here is that web technology changes quickly and we cannot expect old web browsers to support more recent features. Its as if we would ask a black and white television to be in color. But all that is beyond the scope of testing your site!
 
-### <span>In a Virtual Machine</span>
+### In a Virtual Machine
 
 If you want to test various versions of old web browsers but you do not see how you can have more than one version of a given web browser, you should consider using Virtual Machines ("VMs").
 
@@ -53,7 +53,7 @@ With this in hand, you can test on various versions of the web browsers you want
 
 '*About Modern.ie VMs*: Note that those VMs are made only to test and cannot be used as a main work environment. The VM will eventually ask you delete the VM (e.g. after 30 days). A trick that you can do is to keep a copy of the downloaded archive and extract it again.
 
-### <span>Mobile devices</span>
+### Mobile devices
 
 Doing serious mobile testing requires a serious mobile test lab. Here is some guidance for setting it up.
 
@@ -87,7 +87,7 @@ Androids you need:
 -   An HTC, Sony, LG, Huawei, Motorola, Xiaomi, or another vendor.
 -   A Google Nexus device (maybe a tablet if most of your other devices are phones). Don't give this one priority, though.
 
-### <span>Automated browser testing</span>
+### Automated browser testing
 
 As for automated browser testing, its is only useful if you work on bigger projects and goes beyond the scope of this section.
 

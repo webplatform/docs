@@ -22,26 +22,26 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/lineDashOffset
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the number of pixels to offset the dash pattern.
 
 Property of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = CanvasRenderingContext2D.lineDashOffset;
 CanvasRenderingContext2D.lineDashOffset = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 Default is 0.
 
-## <span>Examples</span>
+## Examples
 
 This example sets line dash parameters and draws a dashed line across the canvas, using an offset of 3px. The effect of the offset is difficult to see without comparing to the un-offset version. lineDashOffset is often used to achieve simple animation, as in the so-called "marching ants" line effect.
 
@@ -60,7 +60,7 @@ ctxt.stroke();
 </script>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

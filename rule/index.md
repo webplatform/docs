@@ -9,7 +9,7 @@ tags:
 uri: rule
 
 ---
-## <span>rule</span>
+## rule
 
 The generic name for any line of arbitrary length and weight in a layout, as in "horizontal rule."
 

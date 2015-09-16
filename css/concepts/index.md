@@ -9,7 +9,7 @@ tags:
 uri: css/concepts
 
 ---
-## <span>Summary</span>
+## Summary
 
 List of all articles within the CSS concepts topic.
 

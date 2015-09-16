@@ -19,13 +19,13 @@ tags:
 uri: apis/indexeddb/IDBIndex/unique
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides the unique flag of this index.
 
 Property of [apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)[apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.unique;
@@ -34,8 +34,8 @@ element.unique = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

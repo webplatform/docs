@@ -22,11 +22,11 @@ tags:
 uri: css/properties/vertical-align
 
 ---
-## <span>Summary</span>
+## Summary
 
 The vertical-align property controls how inline elements or text are vertically aligned compared to the baseline. If this property is used on table-cells it controls the vertical alignment of content of the table cell.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `baseline`
@@ -52,7 +52,7 @@ Animatable
 Percentages
 :   refers to the ‘line-height’ of the element itself
 
-## <span>Syntax</span>
+## Syntax
 
 -   `vertical-align: <length>`
 -   `vertical-align: <percentage>`
@@ -65,7 +65,7 @@ Percentages
 -   `vertical-align: text-top`
 -   `vertical-align: top`
 
-## <span>Values</span>
+## Values
 
 baseline
 :   Default. Vertically aligns the content with the baseline of its parent.
@@ -97,7 +97,7 @@ top
 bottom
 :   Vertically aligns the content and its descendants to the bottom of the text line.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the `vertical-align` property to align text within a table cell.
 
@@ -113,7 +113,7 @@ This example uses the `vertical-align` property to align text within a table cel
 
 [View live example](http://code.webplatform.org/gist/6960125)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/visudet.html#propdef-vertical-align)
 :   Recommendation

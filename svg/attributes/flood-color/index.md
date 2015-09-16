@@ -28,16 +28,16 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
     flood-color: currentColor |' color [ icccolor ]'? | inherit
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.16
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)

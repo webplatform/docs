@@ -17,13 +17,13 @@ tags:
 uri: dom/Text
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a section of text content (character data) within the document. It is not an element and cannot contain any child elements.
 
 Inherits from [CharacterData](/dom/CharacterData)[CharacterData](/dom/CharacterData)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -31,7 +31,7 @@ API Name
 [wholeText](/dom/Text/wholeText)
 :   Retrieves the immediate text child nodes of the parent node, that are adjacent to the text node.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -42,13 +42,13 @@ API Name
 [splitText](/dom/Text/splitText)
 :   Divides a text node at the specified index.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from CharacterData</span>
+## Inherited from CharacterData
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -59,7 +59,7 @@ API Name
 [length](/dom/CharacterData/length)
 :   Gets the number of characters in a text node.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -79,13 +79,13 @@ API Name
 [substringData](/dom/CharacterData/substringData)
 :   Extracts a range of characters from the node.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Inherited from Node</span>
+## Inherited from Node
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -137,7 +137,7 @@ API Name
 [textContent](/dom/Node/textContent)
 :   Sets or retrieves the text content of a node and any child nodes.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -190,17 +190,17 @@ API Name
 [replaceChild](/dom/Node/replaceChild)
 :   Replaces an existing child node with a new child node.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Inherited from EventTarget</span>
+## Inherited from EventTarget
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -214,11 +214,11 @@ API Name
 [removeEventListener](/dom/EventTarget/removeEventListener)
 :   Removes an event handler that the [addEventListener](/dom/EventTarget/addEventListener) method registered.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **TextNode** object to change the text of an **li** object.
 
@@ -235,6 +235,6 @@ function fnChangeText(){
 </ul>
 ```
 
-## <span>Notes</span>
+## Notes
 
 Use the [**createTextNode**](/dom/Document/createTextNode) method to create a **TextNode** object. After you create the **TextNode**, you can add to it using the [**appendChild**](/dom/Node/appendChild) or [**insertBefore**](/dom/Node/insertBefore) methods.

@@ -21,13 +21,13 @@ tags:
 uri: dom/TextEvent/inputMethod
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets a value that describes how text is entered.
 
 Property of [dom/TextEvent](/dom/TextEvent)[dom/TextEvent](/dom/TextEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,7 +35,7 @@ Property of [dom/TextEvent](/dom/TextEvent)[dom/TextEvent](/dom/TextEvent)
 var inputMethod = event.inputMethod;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -52,7 +52,7 @@ The input method used to generate the event. One of the following values -
 -   TextEvent.DOM\_INPUT\_METHOD\_MULTIMODAL = 8
 -   TextEvent.DOM\_INPUT\_METHOD\_SCRIPT = 9
 
-## <span>Examples</span>
+## Examples
 
 Display a user friendly value of the inputMethod property of an event.
 
@@ -87,15 +87,15 @@ var description=(event.inputMethod)?getDOMInputMethod(event.inputMethod):'not su
     }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use to determine if the device that initiated the textinput event is to be 'trusted'.
 
-## <span>Notes</span>
+## Notes
 
 Not implemented in Safari or Chromium.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events (20110531)](http://www.w3.org/TR/2011/WD-DOM-Level-3-Events-20110531)
 :   Outdated Working Draft

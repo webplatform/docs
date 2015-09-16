@@ -11,19 +11,19 @@ tags:
 uri: svg/properties/result
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If supplied, the output of the current filter primitive can be referenced by an [**in1**](/svg/properties/in1) attribute on a subsequent filter primitive within the same element. If no value is provided, the output will only be available for re-use as the implicit input into the next filter primitive if that filter primitive provides no value for its **in1** attribute.
 
 If an output reference occurs in several filter primitives in the same filter, only the closest filter primitive will be used. Note that this is not an XML ID. The scope of this value is local to the filter.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFETileElement**](/svg/elements/feTile)
 -   [**SVGFEBlendElement**](/svg/elements/feBlend)

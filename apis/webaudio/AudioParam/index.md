@@ -10,11 +10,11 @@ tags:
 uri: apis/webaudio/AudioParam
 
 ---
-## <span>Summary</span>
+## Summary
 
 AudioParam controls an individual aspect of an AudioNode's functioning, such as volume. The parameter can be set immediately to a particular value using the value attribute. Or, value changes can be scheduled to happen at very precise times (in the coordinate system of AudioContext.currentTime), for envelopes, volume fades, LFOs, filter sweeps, grain windows, etc. In this way, arbitrary timeline-based automation curves can be set on any AudioParam. Additionally, audio signals from the outputs of AudioNodes can be connected to an AudioParam, summing with the intrinsic parameter value.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -40,7 +40,7 @@ API Name
 [value](/apis/webaudio/AudioParam/value)
 :   The parameter's floating-point value. If a value is set outside the allowable range no exception is thrown, because these limits are nominal and may be exceeded. If a value is set during a time when there are any automation events scheduled then it will be ignored and no exception will be thrown.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -63,11 +63,11 @@ API Name
 [setValueCurveAtTime](/apis/webaudio/AudioParam/setValueCurveAtTime)
 :   Sets an array of arbitrary parameter values starting at the given time for the given duration. The number of values will be scaled to fit into the desired duration.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
 :   W3C Editor's Draft

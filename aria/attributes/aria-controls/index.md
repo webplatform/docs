@@ -27,9 +27,9 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 <table class="wikitable">
 <tr>
@@ -50,15 +50,15 @@ No role required.
 </table>
   This property defines element relationships and associations that cannot be readily determined from the document structure. The **aria-controls** property is used primarily by elements where the [**role**](/html/attributes/role) property value is `group`, `region`, or `widget`. Compare this usage with that of the [**aria-owns**](/aria/attributes/aria-owns) property. **Note**  For cross-browser compatibility, always use the WAI-ARIA attribute syntax to access and modify ARIA properties, for example `object.setAttribute("aria-valuenow", newValue)`.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Accessible Rich Internet Applications (WAI-ARIA) 1.0](http://go.microsoft.com/fwlink/p/?linkid=203793), Section 6.6
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Accessible Rich Internet Applications (ARIA)`
 -   `Reference`

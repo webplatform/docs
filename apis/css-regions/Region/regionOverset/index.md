@@ -21,13 +21,13 @@ tags:
 uri: apis/css-regions/Region/regionOverset
 
 ---
-## <span>Summary</span>
+## Summary
 
 A region's display state within a region chain.
 
 Property of [apis/css-regions/Region](/apis/css-regions/Region)[apis/css-regions/Region](/apis/css-regions/Region)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,7 +35,7 @@ Property of [apis/css-regions/Region](/apis/css-regions/Region)[apis/css-regions
 var regionState = region.regionOverset;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -55,7 +55,7 @@ A [region's](/css/concepts/region) display state within a [region chain](/css/co
 
 -   -   For elements that no longer behave as a region, which occurs when their [**flow-from**](/css/properties/flow-from) property reverts to **none**
 
-## <span>Examples</span>
+## Examples
 
 Check if region needs to be deleted or appended:
 
@@ -67,20 +67,20 @@ if (region.regionOverset == 'empty') {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 Not to be confused with [**overset**](/apis/css-regions/NamedFlow/overset), which indicates whether the overall [named flow](/css/concepts/named_flow) features too few display regions.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -138,7 +138,7 @@ Not to be confused with [**overset**](/apis/css-regions/NamedFlow/overset), whic
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

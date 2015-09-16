@@ -21,7 +21,7 @@ uri: dom/HTMLAppletElement
 
 Inherits from [HTMLElement](/dom/HTMLElement)[HTMLElement](/dom/HTMLElement)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -29,17 +29,17 @@ API Name
 [object](/dom/HTMLAppletElement/object)
 :   Retrieves the contained object.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from HTMLElement</span>
+## Inherited from HTMLElement
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -827,7 +827,7 @@ API Name
 [text-anchor](/svg/attributes/text-anchor)
 :
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -886,13 +886,13 @@ API Name
 [toStaticHTML](/dom/HTMLElement/toStaticHTML)
 :
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Inherited from Element</span>
+## Inherited from Element
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -990,7 +990,7 @@ API Name
 [type](/dom/Element/type)
 :
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -1088,7 +1088,7 @@ API Name
 [setPointerCapture](/dom/Element/setPointerCapture)
 :   Assigns a specified pointer to an element. This method is used to ensure that an element continues to receive pointer events even if the contact moves off the element.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -1250,9 +1250,9 @@ API Name
 [unload](/svg/events/unload)
 :
 
-## <span>Inherited from Node</span>
+## Inherited from Node
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -1304,7 +1304,7 @@ API Name
 [textContent](/dom/Node/textContent)
 :   Sets or retrieves the text content of a node and any child nodes.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -1357,17 +1357,17 @@ API Name
 [replaceChild](/dom/Node/replaceChild)
 :   Replaces an existing child node with a new child node.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Inherited from EventTarget</span>
+## Inherited from EventTarget
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -1381,6 +1381,6 @@ API Name
 [removeEventListener](/dom/EventTarget/removeEventListener)
 :   Removes an event handler that the [addEventListener](/dom/EventTarget/addEventListener) method registered.
 
-### <span>Events</span>
+### Events
 
 *No events.*

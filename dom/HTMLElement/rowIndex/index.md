@@ -22,14 +22,14 @@ uri: dom/HTMLElement/rowIndex
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.rowIndex;
 element.rowIndex = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example function shows how to use the **rowIndex** attribute to format a [**table**](/html/elements/table). The function sets the background color of the rows in the **table** to black or white, alternating row by row.
 
@@ -50,14 +50,14 @@ function formatTable(oTable)
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This property is different from [**sectionRowIndex**](/dom/HTMLElement/sectionRowIndex), which indicates the object's position in the **tBody**, **tHead**, or **tFoot** [**rows**](/dom/HTMLElement/rows) collection. These sections are mutually exclusive, so the **tr** is always contained in one of these sections and in the [**table**](/html/elements/table). You can determine the **rowIndex** property of an object by the order in which the object appears in the HTML source.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5

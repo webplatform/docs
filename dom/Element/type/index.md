@@ -22,14 +22,14 @@ uri: dom/Element/type
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.type;
 element.type = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **type** property to create an alert that indicates the type of object selected by the user. If the user clicks the mouse pointer on the text "Some text", the alert reads "Text". If the user clicks the mouse pointer on the space to the right of the text, the alert reads "None".
 
@@ -38,16 +38,16 @@ This example uses the **type** property to create an alert that indicates the ty
 Some text.
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 [Selection](/dom/Selection) is a child object of the [Document](/dom/Document) object.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Selection`

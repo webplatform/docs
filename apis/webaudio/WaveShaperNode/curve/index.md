@@ -16,20 +16,20 @@ tags:
 uri: apis/webaudio/WaveShaperNode/curve
 
 ---
-## <span>Summary</span>
+## Summary
 
 The shaping curve used for the waveshaping effect. The input signal is nominally within the range -1 -&gt; +1. Each input sample within this range will index into the shaping curve with a signal level of zero corresponding to the center value of the curve array. Any sample value less than -1 will correspond to the first value in the curve array. Any sample value less greater than +1 will correspond to the last value in the curve array.
 
 Property of [apis/webaudio/WaveShaperNode](/apis/webaudio/WaveShaperNode)[apis/webaudio/WaveShaperNode](/apis/webaudio/WaveShaperNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = WaveShaperNode.curve;
 WaveShaperNode.curve = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -37,7 +37,7 @@ var distortion = audioCtx.createWaveShaper();
 distortion.curve = myCurveDataArray; // myCurveDataArray is a Float32Array
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

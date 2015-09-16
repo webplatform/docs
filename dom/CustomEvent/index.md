@@ -21,13 +21,13 @@ todo_broken_links:
 uri: dom/CustomEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a custom, developer-generated event. This is the recommended interface for application-specific event types. Unlike the Event interface, it allows applications to provide contextual information about the event type.
 
 Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -35,17 +35,17 @@ API Name
 [detail](/dom/CustomEvent/detail)
 :   Retrieves additional information about an event.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from Event</span>
+## Inherited from Event
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -77,7 +77,7 @@ API Name
 [type](/dom/Event/type)
 :   Gets the name of an event.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -94,7 +94,7 @@ API Name
 [stopPropagation](/dom/Event/stopPropagation)
 :   Prevents propagation of an event beyond the current target.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -177,11 +177,11 @@ API Name
 [finish](/dom/Event/finish)
 :
 
-## <span>Usage</span>
+## Usage
 
      Use document.createEvent("CustomEvent") to create this type of event and initialize it with initCustomEvent.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

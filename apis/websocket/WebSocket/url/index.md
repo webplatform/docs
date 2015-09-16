@@ -23,13 +23,13 @@ tags:
 uri: apis/websocket/WebSocket/url
 
 ---
-## <span>Summary</span>
+## Summary
 
 The absolute URL as resolved by the constructor.
 
 Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket/WebSocket](/apis/websocket/WebSocket)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket
 var result = element.url;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -48,7 +48,7 @@ The URL specifies the following details about the connection.
 -   Port ― This specifies the remote port to connect to. If the port is not specified then a default is selected based on the scheme. "ws" connections default to port 80, while "wss" connections default to 443.
 -   Resource Name ― The resource name is the path component of the URL which follows the host/port. This includes the URL query component (the part following a question mark), if one is present. The resource name can be omitted, in which case it defaults to a forward slash "/".
 
-## <span>Examples</span>
+## Examples
 
 Example URLs
 
@@ -58,11 +58,11 @@ ws://localhost:8080/echo
 wss://cjihrig.com
 ```
 
-## <span>Notes</span>
+## Notes
 
 You can use this property to make sure that the URL that is used for the connection is parsed the way the app expects.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation

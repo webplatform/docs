@@ -12,13 +12,13 @@ tags:
 uri: javascript/properties
 
 ---
-## <span>Summary</span>
+## Summary
 
 The following table lists JavaScript properties.
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Properties</span>
+## Properties
 
 |Property|Description|JavaScript object|
 |:-------|:----------|:----------------|
@@ -49,9 +49,9 @@ The following table lists JavaScript properties.
 |[rightContext](/javascript/RegExp/rightContext)|Returns the characters from the position following the last match to the end of the searched string.|**RegExp**|
 |[source](/javascript/regular_expression/source)|Returns a copy of the text of the regular expression pattern.|**Regular Expression**|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [JavaScript Objects](/javascript/objects)
 -   [JavaScript Constants](/javascript/constants)

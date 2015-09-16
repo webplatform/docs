@@ -22,69 +22,69 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/createRadialGradient
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a radial CanvasGradient initialized with the two specified circles. This effectively creates a cone, touched by the two circles defined in the creation of the gradient, with the part of the cone before the start circle (0.0) using the color of the first offset, the part of the cone after the end circle (1.0) using the color of the last offset, and areas outside the cone (untouched by the gradient) transparent black.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.createRadialGradient(x0, y0, r0, x1, y1, r1);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x0</span>
+### x0
 
  Data-type
 :   Number
 
  The x-coordinate of the starting circle of the gradient.
 
-### <span>y0</span>
+### y0
 
  Data-type
 :   Number
 
  The y-coordinate of the starting circle of the gradient.
 
-### <span>r0</span>
+### r0
 
  Data-type
 :   Number
 
  The radius of the starting circle.
 
-### <span>x1</span>
+### x1
 
  Data-type
 :   Number
 
  The x-coordinate of the ending circle of the gradient.
 
-### <span>y1</span>
+### y1
 
  Data-type
 :   Number
 
  The y-coordinate of the ending circle of the gradient.
 
-### <span>r1</span>
+### r1
 
  Data-type
 :   Number
 
  The radius of the ending circle.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 A **CanvasGradient** object that represents the radial gradient.
 
-## <span>Examples</span>
+## Examples
 
 This example creates a radial gradient, fading from yellow to red, and then places a rectangle filled with the gradient onto the canvas.
 
@@ -102,11 +102,11 @@ ctxt.fillRect(10, 10, 275, 125);
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 You can use radial gradients together with the *fillText* or *fillRect* method.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

@@ -9,11 +9,11 @@ tags:
 uri: 'css/color/colors by hue'
 
 ---
-## <span>Summary</span>
+## Summary
 
 A list of CSS color names, sorted by hue.
 
-### <span>Related topics</span>
+### Related topics
 
 -   [Colors by Name](/css/color/colors_by_name)
 -   [Colors by Saturation](/css/color/colors_by_saturation)
@@ -170,11 +170,11 @@ A list of CSS color names, sorted by hue.
 |pink|hsl(350,100%,88%)|\#ffc0cb|
 |lightpink|hsl(351,100%,86%)|\#ffb6c1|
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Visual Effects</span>
+#### Visual Effects
 
 -   [color](/css/color)
 

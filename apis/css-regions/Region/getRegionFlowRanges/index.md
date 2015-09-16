@@ -21,25 +21,25 @@ tags:
 uri: apis/css-regions/Region/getRegionFlowRanges
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a series of Range objects that represent the fragments of DOM content that currently flow into the region.
 
 Method of [apis/css-regions/Region](/apis/css-regions/Region)[apis/css-regions/Region](/apis/css-regions/Region)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var ranges = region.getRegionFlowRanges();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ArrayArray
 
 Returns a series of [**Range**](/dom/Range) objects that represent the [fragments](/css/concepts/fragment) of DOM content that currently flow into the region.
 
-## <span>Examples</span>
+## Examples
 
 Check a region for interruptions in source content:
 
@@ -59,7 +59,7 @@ if (ranges.length > 1) {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      By default, calling getRegionFlowRanges() on an overflowing region at the end of a chain (one whose regionOverset is overset) returns fragments representing all remaining content that may overflow out of view.  If the region's region-fragment property is set to break, it returns only those fragments of content that fit neatly within the region.
 
@@ -71,20 +71,20 @@ Calling it on an element that is no longer a region (when its [**flow-from**](/c
 
     isRegion = (element.getRegionFlowRanges() !== null);
 
-## <span>Notes</span>
+## Notes
 
 Regions may display more than one range, because more than one element may specify [**flow-into**](/css/properties/flow-into) to contribute to a [flow](/css/concepts/named_flow), and the boundary between those content elements may fall within a region. Also, any content element's nested elements can be diverted to a different [named flow](/css/concepts/named_flow), thus interrupting the original sequence of content. (See [**flow-into**](/css/properties/flow-into) for more details on these scenarios.)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -142,7 +142,7 @@ Regions may display more than one range, because more than one element may speci
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

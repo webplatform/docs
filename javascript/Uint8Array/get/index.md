@@ -10,11 +10,11 @@ tags:
 uri: javascript/Uint8Array/get
 
 ---
-## <span>Summary</span>
+## Summary
 
 Omittable. Gets the element at the specified index.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Omittable. Gets the element at the specified index.
 **index**
 :   The index at which to get the element of the array.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to get the first element of the array.
 

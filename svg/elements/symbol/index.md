@@ -16,12 +16,12 @@ uri: svg/elements/symbol
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, a symbol is created and displayed in two different sizes. Copy this sample to a text file and save it with the *.html* file extension. Run it in Internet Explorer 9 to see the symbols.
 
@@ -54,9 +54,9 @@ The symbols will look like this:
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -68,11 +68,11 @@ The **symbol** element has [**viewBox**](/svg/properties/viewBox) and [**preserv
 
 The [**display**](/css/properties/display) property does not apply to the **symbol** element. Thus, **symbol** elements are not directly rendered even if you set the **display** property to a value other than [**none**](/css/properties/text-decoration-none). **symbol** elements are available for referencing even when you set the **display** property on the **symbol** element or any of its ancestors to **none**.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.7
 
-### <span>Members</span>
+### Members
 
 The **SVGSymbolElement** object has these events:
 
@@ -94,11 +94,11 @@ The **SVGSymbolElement** object has these properties:
 -   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
-### <span>Reference</span>
+### Reference
 
 -   [**SVGMarkerElement**](/svg/elements/marker)
 -   [**SVGPatternElement**](/svg/elements/patterrn)

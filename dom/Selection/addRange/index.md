@@ -23,28 +23,28 @@ tags:
 uri: dom/Selection/addRange
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds a Range to the current selection.
 
 Method of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = selObj.addRange(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>range</span>
+### range
 
  Data-type
 :   Range
 
  Range to add.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -52,7 +52,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 /* Select all STRONG elements in an HTML document */
@@ -82,16 +82,16 @@ if(selObj.rangeCount > 0) selObj.removeAllRanges();
    }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 9 and higher and Webkit browser do not currently support multiple or disjointed selections in standards mode. If **addRange** is applied to a selection that already contains a Range, the new Range is not added.
 
-### <span>Syntax</span>
+### Syntax
 
 selObj.addRange(range)
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1

@@ -20,21 +20,21 @@ tags:
 uri: apis/xhr/XMLHttpRequest/send
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initiates the request defined by the XMLHttpRequest.
 
 Method of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  .send(data);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>data</span>
+### data
 
  Data-type
 :   any
@@ -43,11 +43,11 @@ Method of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRe
 
 Object that specifies the body of the message being sent with the request. May be any one of **ArrayBuffer**, **Blob**, **Document**, **DOMString**, or **FormData** object types.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var xhr = new XMLHttpRequest();
@@ -55,7 +55,7 @@ xhr.open("GET", "http://localhost/test.xml", true);
 xhr.send();
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft

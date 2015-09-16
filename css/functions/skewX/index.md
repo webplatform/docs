@@ -11,11 +11,11 @@ tags:
 uri: css/functions/skewX()
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines a 2D skew transformation along the X-axis.
 
-## <span>Examples</span>
+## Examples
 
 The following code snippet is an example of the **skewX** function in use as applied to a square blue [**div**](/html/elements/div) element.
 
@@ -25,23 +25,23 @@ div {
 }
 ```
 
-### <span>Syntax</span>
+### Syntax
 
 **skewX** `( <angle> )`
 
-### <span>Parameters</span>
+### Parameters
 
 *angle*
 :   The angle by which the element is skewed along the *x*-axis. This value is expressed as a number followed by a supported angle unit.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Transforms Module Level 3](http://www.w3.org/TR/css3-transforms/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`

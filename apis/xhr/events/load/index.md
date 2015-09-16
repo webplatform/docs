@@ -11,11 +11,11 @@ tags:
 uri: apis/xhr/events/load
 
 ---
-## <span>Summary</span>
+## Summary
 
 After the onload event has occurred, responseText contains the complete server response.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -67,7 +67,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 Setting the **onload** property.
 
@@ -81,21 +81,21 @@ function loadd()
 xdr.onload = loadd;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 After the **onload** event has occurred, **responseText** contains the complete server response. To invoke this event, do one of the following:
 
 -   Event handlers are called as needed after a request is **sent**.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 This method has no parameters.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `XDomainRequest`
 -   `Reference`

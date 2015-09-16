@@ -25,34 +25,34 @@ tags:
 uri: dom/Node/lookupPrefix
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the namespace prefix associated with a URI, if any.
 
 Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var prefix = node.lookupPrefix(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>namespaceURI</span>
+### namespaceURI
 
  Data-type
 :   String
 
  The namespace URI.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The namespace prefix associated with the URI, or null if none is found.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <html xmlns="http://www.w3.org/1999/xhtml"  xmlns:svg="http://www.w3.org/2000/svg">
@@ -63,7 +63,7 @@ The namespace prefix associated with the URI, or null if none is found.
    //]]></script>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

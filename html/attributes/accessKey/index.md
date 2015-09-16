@@ -19,7 +19,7 @@ todo_broken_links:
 uri: html/attributes/accessKey
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets a keyboard keystroke for selection of its element, which would otherwise be done using a mouse.
 
@@ -35,7 +35,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the **label** object and the **accessKey** attribute to set focus on a text box. The **label** object makes it possible to underline the designated **accessKey**. You may also use the [**-ms-accelerator**](/css/media_queries/accelerator) attribute to hide the underline until the ALT key is pressed.
 
@@ -47,17 +47,17 @@ Press ALT+1 to set focus to textbox</label>
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/accessKeyEX.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 By default, pressing an access key sets focus to an object. The object receives focus when the user simultaneously presses the ALT key and the access key assigned to an object. Some controls perform an action after receiving focus. For example, using **accessKey** on an **input type=button** causes the [**onclick**](/w/index.php?title=dom/events/click&action=edit&redlink=1) event to fire. By comparison, applying the **accessKey** on a radio button causes the **onclick** event to fire and toggles the [**checked**](/html/attributes/checked) property, visibly selecting or deselecting the control. **Note**  For elements that are not tab stops by default, such as a **SPAN**, the [**tabIndex**](/html/attributes/tabIndex) property must be set on the element for the **accessKey** property to function. In Windows Internet Explorer 7 and greater, ALT+D selects text in the Address bar, making D unavailable as a keyboard shortcut on a webpage. As of Microsoft Internet Explorer 5, some scoped elements do not implicitly support the **accessKey** property. Instead, they support the property by setting the [**TABINDEX**](/html/attributes/tabIndex) attribute to any valid negative or positive integer.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`
 -   `abbr`

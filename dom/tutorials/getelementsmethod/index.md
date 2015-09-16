@@ -3,7 +3,7 @@ title: getelementsmethod
 uri: dom/tutorials/getelementsmethod
 
 ---
-## <span>JavaScript HTML DOM Interface</span>
+## JavaScript HTML DOM Interface
 
 The Document Object Model is a W3C standard and categorized as:
 
@@ -13,7 +13,7 @@ The Document Object Model is a W3C standard and categorized as:
 
 In this section we will be looking at the HTML DOM which is used to interact with the HTML elements. To change something in html we use document methods, they are the primary way of interacting with the HTML. Let’s start of with an easy one.
 
-## <span>The getElementsByTagName() method</span>
+## The getElementsByTagName() method
 
 Firstly, pay attention to the syntax. The hardest part of learning JavaScript is the syntax, which is case sensitive. The getElementsByTagName() method retrieves a node by the given tag name.
 
@@ -42,7 +42,7 @@ Look at the following code:
 
  This code is designed to change the CSS of the first `p` tag in the example. If we wanted to modify the CSS of the second p tag, you will need to change the p[0] to p[1]. The third p tag would then be p[2] and so on. This is because, in Javascript we start counting from 0. This method sounds awfully inconvenient, especially if we have a HTML document with hundreds of tags. So instead, let’s use a different method.
 
-## <span>The getElementById() method</span>
+## The getElementById() method
 
 This is the most common method used to access HTML elements by using their id. In the following example we are modifying the font size of the text in the `p` tag with the id **demo**.
 
@@ -70,7 +70,7 @@ This is the most common method used to access HTML elements by using their id. I
 </html>
 ```
 
-## <span>The getElementsByClassName() method</span>
+## The getElementsByClassName() method
 
 Similar to the getElementById() method, this method is used to select a whole class.
 

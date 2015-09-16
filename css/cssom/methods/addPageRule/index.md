@@ -23,42 +23,42 @@ tags:
 uri: css/cssom/methods/addPageRule
 
 ---
-## <span>Summary</span>
+## Summary
 
 Not implemented anywhere. Non standard.
 
 Method of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var number = stylesheet.addPageRule(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>selector</span>
+### selector
 
  Data-type
 :   String
 
  A page selector.
 
-### <span>style</span>
+### style
 
  Data-type
 :   String
 
  This style takes the same form as an inline style specification. For example, "`color:blue`" is a valid style parameter.
 
-### <span>index</span>
+### index
 
  Data-type
 :   Number
 
  The zero-based position in the [**pages**](/css/cssom/pages) collection where the new [**page**](/css/cssom/page) object should be placed.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -66,12 +66,12 @@ Always returns -1.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Each [**page**](/css/cssom/page) object represents a style sheet that corresponds to a **@page** rule in the document.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `styleSheet`

@@ -19,13 +19,13 @@ tags:
 uri: dom/Window
 
 ---
-## <span>Summary</span>
+## Summary
 
 The window object is the top level Javascript object in a page, and is the global scope for a browser tab. Global Javascript variables appear in the window object, as well as several important objects such as Document.
 
 Inherits from [EventTarget](/dom/EventTarget)[EventTarget](/dom/EventTarget)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -72,7 +72,7 @@ API Name
 [top](/dom/Window/top)
 :   Retrieves the topmost ancestor window.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -151,7 +151,7 @@ API Name
 [showModalDialog](/dom/Window/showModalDialog)
 :   Do not use. Use \<dialog\> or a popup window instead. Halts the script execution, creates a popup window, passes it parameters and returns a value when the new window is closed.
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -159,13 +159,13 @@ API Name
 [message](/dom/Window/message)
 :   Fires when a message is received from another context (frame, window, worker and similar).
 
-## <span>Inherited from EventTarget</span>
+## Inherited from EventTarget
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -179,11 +179,11 @@ API Name
 [removeEventListener](/dom/EventTarget/removeEventListener)
 :   Removes an event handler that the [addEventListener](/dom/EventTarget/addEventListener) method registered.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 This example displays an alert for the current window.
 
@@ -204,7 +204,7 @@ This example shows a simple event handler function for the window's **onload** e
 <body onload="console.log('Document is loaded!');">
 ```
 
-## <span>Notes</span>
+## Notes
 
 You can use the **window** object to retrieve information about the state of the window. You also can use this object to gain access to the document in the window, to the events that occur in the window, and to other factors that affect the window. You can apply any window property, method, or collection to any variable or expression that evaluates to a **window** object, regardless of how that window was created. Additionally, you can access all window properties, methods, and collections in the current window by using the property, method, or collection name directly—that is, without prefixing it with an expression that evaluates to the current **window** object. However, to help make more readable code and to avoid potential ambiguities, many authors use the **window** keyword when accessing window properties, methods, and collections for the current window. This keyword always refers to the current window. **Note** The window's properties, methods, and collection names are reserved keywords and cannot be used as the names of variables or routines. The following table lists pertinent information for some of the properties of the **window** object.
 

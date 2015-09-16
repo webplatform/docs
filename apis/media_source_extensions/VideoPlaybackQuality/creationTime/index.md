@@ -21,20 +21,20 @@ tags:
 uri: 'apis/media source extensions/VideoPlaybackQuality/creationTime'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the timestamp for when the VideoPlaybackQuality metrics were collected.
 
 Property of [apis/media\_source\_extensions/VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)[apis/media\_source\_extensions/VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var time = VideoPlaybackQuality.creationTime;
 VideoPlaybackQuality.creationTime = time;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type VARIANTVARIANT
 

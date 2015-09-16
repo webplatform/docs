@@ -22,14 +22,14 @@ uri: css/cssom/properties/pixelBottom
 
 Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.pixelBottom;
 element.pixelBottom = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **pixelBottom** property to set a positioned **div** to the bottom of the client area.
 
@@ -37,25 +37,25 @@ This example uses the **pixelBottom** property to set a positioned **div** to th
 oDiv.style.pixelBottom = 0;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **pixelBottom** property reflects the value of the Cascading Style Sheets (CSS) [**bottom**](/css/properties/bottom) attribute. Unlike the [**bottom**](/css/properties/bottom) property, the **pixelBottom** value is an integer, not a string, and is always interpreted in pixels. For more information about how to access the dimension and location of an object on the page through the Dynamic HTML (DHTML) Document Object Model (DOM), see Measuring Element Dimension and Location with CSSOM in Internet Explorer 9.
 
-### <span>Syntax</span>
+### Syntax
 
 `pixelBottom:  <integer>`
 
-### <span>Requirements</span>
+### Requirements
 
 {
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -201,7 +201,7 @@ The **pixelBottom** property reflects the value of the Cascading Style Sheets (C
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `defaultSelected`
 -   `runtimeStyle`

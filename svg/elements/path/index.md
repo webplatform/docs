@@ -15,16 +15,16 @@ tags:
 uri: svg/elements/path
 
 ---
-## <span>Summary</span>
+## Summary
 
 The path element is the generic element to define a shape.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, the path element is used to create a red curved path.
 
@@ -38,9 +38,9 @@ In the following code example, the path element is used to create a red curved p
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -67,11 +67,11 @@ For the relative versions of the commands, all coordinate values are relative to
 
 {
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Paths](http://www.w3.org/TR/SVG11/paths.html), Section 8.5.23
 
-### <span>Members</span>
+### Members
 
 The **SVGPathElement** object has these events:
 
@@ -131,7 +131,7 @@ the [**d**](/svg/properties/d) attribute.
 -   [**normalizedPathSegList**](/svg/properties/normalizedPathSegList): Gets or sets the normalized static contents of the [**d**](/svg/properties/d) attribute.
 -   [**ownerSVGElement**](/svg/properties/ownerSVGElement): Gets the nearest ancestor [**svg**](/svg/objects/SVGElement) element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [SVG 1.1](http://www.w3.org/TR/SVG11/paths.html)
 :   W3C Recommendation

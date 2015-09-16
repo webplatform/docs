@@ -70,39 +70,39 @@ translations:
 uri: html/es
 
 ---
-## <span>Resumen</span>
+## Resumen
 
 <dfn><span lang="en">Hypertext Markup Language</span> (HTML)</dfn> es el lenguaje de etiquetado para las páginas web. El [World Wide Web Consortium](http://www.w3.org) mantiene el [estándar del HTML](http://www.w3.org/standards/techs/html).
 
-## <span>Explora nuestros documentos sobre HTML</span>
+## Explora nuestros documentos sobre HTML
 
-### <span>[Material didáctico de HTML](/html/tutorials)</span>
+### [Material didáctico de HTML](/html/tutorials)
 
 Tutoriales y artículos didácticos para que aprendas HTML desde la base.
 
-### <span>[Referencia de elementos](/html/elements)</span>
+### [Referencia de elementos](/html/elements)
 
 Una guía de referencia de todos los elementos HTML disponibles.
 
-### <span>[Referencia de atributos](/html/attributes)</span>
+### [Referencia de atributos](/html/attributes)
 
 Una guía de referencia de todos los atributos HTML disponibles.
 
-### <span>[Referencia de APIs](/html/apis)</span>
+### [Referencia de APIs](/html/apis)
 
 Una guía de referencia de todas las <abbr>APIs</abbr> asociadas con el lenguaje HTML.
 
-### <span>[Referencia de tipos de datos](/html/data_types)</span>
+### [Referencia de tipos de datos](/html/data_types)
 
 Una guía de referencia de los tipos de datos de HTML.
 
-### <span>[Referencia de entidades](/html/entities)</span>
+### [Referencia de entidades](/html/entities)
 
 Una guía de referencia de las entidades de HTML.
 
 Nota: Si eres completamente nuevo en el desarrollo web, puede que desees revisar [Desarrollo web para principiantes](/beginners).
 
-## <span>Antecedentes</span>
+## Antecedentes
 
 HTML es el lenguaje con el que estructuramos nuestros contenidos en la <span lang="en">World Wide Web</span>, uno de los principales componentes de la [Plataforma Web Abierta](http://www.w3.org/wiki/Open_Web_Platform).
 
@@ -110,13 +110,13 @@ HTML es el lenguaje con el que estructuramos nuestros contenidos en la <span lan
 -   La versión estable actual: La [Recomendación de HTML 4.01](http://www.w3.org/TR/html4) se publicó en diciembre de 1999.
 -   El trabajo actual y futuro: El borrador más estable se publica en el [Borrador de trabajo del HTML5](http://www.w3.org/TR/html5) del W3C y también hay un [estándar vivo del HTML](http://developers.whatwg.org/), que contiene las últimas ideas y características experimentales, publicado por el <abbr title="Web Hypertext Application Technology Working Group" lang="en">WHATWG</abbr>.
 
-## <span>Contribuir con la tecnología HTML</span>
+## Contribuir con la tecnología HTML
 
 El desarrollo del HTML ha sido conducido por diversas organizaciones durante su historia, incluyendo al <abbr title="Conseil Européen pour la Recherche Nucléaire" lang="fr">CERN</abbr>, <abbr title="Internet Engineering Task Force" lang="en">IETF</abbr>, <abbr title="World Wide Web Consortium" lang="en">W3C</abbr>… El desarrollo se ha llevado a cabo principalmente en las [listas de correo del Grupo de trabajo de HTML](http://www.w3.org/html/wg/lists/). Este es un buen lugar para comenzar si quieres sugerir nuevas características o enviar comentarios. Para obtener noticias e información más general, consulta la [página principal del HTML en el W3C](http://www.w3.org/html/).
 
 El W3C también está solicitando comentarios de revisión sobre la [Lista de Comprobación de Accesibilidad de Medios](http://www.w3.org/wiki/HTML/MediaAccessibilityChecklist)
 
-## <span>Indice de todos los temas de HTML</span>
+## Indice de todos los temas de HTML
 
 <table>
 <col width="33%" />

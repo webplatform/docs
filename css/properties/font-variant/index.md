@@ -20,11 +20,11 @@ tags:
 uri: css/properties/font-variant
 
 ---
-## <span>Summary</span>
+## Summary
 
 The font-variant property enables you to select the small-caps font within a font family.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -50,13 +50,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `font-variant: inherit`
 -   `font-variant: normal`
 -   `font-variant: small-caps`
 
-## <span>Values</span>
+## Values
 
 normal
 :   Selects a font that is not a 'small-caps' font, usually the available 'normal' font.
@@ -67,7 +67,7 @@ small-caps
 inherit
 :   Inherits the font-variant setting from its parent.
 
-## <span>Examples</span>
+## Examples
 
 A simple example to show the effect achieved when small-caps are applied to a text paragraph.
 
@@ -86,11 +86,11 @@ p {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 In ([CSS Fonts Module Level 3, W3C Working Draft 11 December 2012](http://www.w3.org/TR/css3-fonts/#propdef-font-variant)), this property is extended. However, no browser seems to support these changes yet.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/#propdef-font-variant)
 :   W3C Candidate Recommendation
@@ -98,11 +98,11 @@ In ([CSS Fonts Module Level 3, W3C Working Draft 11 December 2012](http://www.w3
 [Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification](http://www.w3.org/TR/CSS21/fonts.html#small-caps)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Font</span>
+#### CSS Font
 
 -   [font-family](/css/properties/font-family)
 
@@ -124,7 +124,7 @@ In ([CSS Fonts Module Level 3, W3C Working Draft 11 December 2012](http://www.w3
 
 -   [user-modify](/css/properties/user-modify)
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -158,6 +158,6 @@ In ([CSS Fonts Module Level 3, W3C Working Draft 11 December 2012](http://www.w3
 
 -   [font](/html/elements/font)
 
-### <span>External resources</span>
+### External resources
 
 -   MDN: [[1]](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant)

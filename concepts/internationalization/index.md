@@ -9,11 +9,11 @@ tags:
 uri: concepts/internationalization
 
 ---
-## <span>Summary</span>
+## Summary
 
 Introduction to internationalization, best practices
 
-## <span>Internationalization and localization</span>
+## Internationalization and localization
 
 **Internationalization** (abbreviated **i18n**, where 18 is the number of left out characters) is the design and development of a product, application or document content that enables easy localization for target audiences that vary in culture, region, or language.
 
@@ -23,7 +23,7 @@ Example: Internationalization is *constructing* a car in a way to make it possib
 
 Further reading: [Localization vs. Internationalization](http://www.w3.org/International/questions/qa-i18n)
 
-## <span>Characters, fonts</span>
+## Characters, fonts
 
 Use UTF-8 as character encoding—in each part of your system (web pages, form submission, data base). This allows you and the users of your site to use each Unicode character [without escaping](http://www.w3.org/International/questions/qa-escapes#not).
 
@@ -42,7 +42,7 @@ Declare the character encoding in your pages using a meta element with a [charse
 
 Since vintage browsers used to have problems with a leading [byte-order mark (BOM)](http://www.w3.org/International/questions/qa-byte-order-mark) consider saving your files as UTF-8 without BOM. Do not use a BOM in includes because the BOM must not appear in the middle of a document.
 
-## <span>Language</span>
+## Language
 
 Declare the language of your page content with the [lang attribute](/html/attributes/lang) on the html element. Indicate languages changes inside the document using lang attributes on elements containing the foreign phrases. For XHTML served as XML, use the xml:lang attribute. For XHTML1.x and polyglot HTML5, use both attributes with the same value.
 

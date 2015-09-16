@@ -11,11 +11,11 @@ uri: tutorials/detection
 **By Michael Mahemoff**
 Originally published June 27, 2011
 
-## <span>Summary</span>
+## Summary
 
 This article is about tuning your app to the environment it's running in, focusing on the specific challenge of detection. In other words, surveying the environment you're running in.
 
-## <span>Overview</span>
+## Overview
 
 This article is about tuning your app to the environment it's running in, focusing on the specific challenge of detection. In other words, surveying the environment you're running in. Three techniques are covered:
 
@@ -23,7 +23,7 @@ This article is about tuning your app to the environment it's running in, focusi
 -   Browser detection, to decide which browser you're running in.
 -   Form factor detection, to decide which form factor you're running in (smartphone, TV, etc.).
 
-## <span>Background</span>
+## Background
 
 HTML5 is everywhere these days. Whether desktop or mobile, windows or Mac, or just about any other modern form factor and operating system, you will find an HTML5-savvy web browser. In fact, you will probably find several. This is great news for users, who benefit from browsers competing on features like speed and security and receive a consistent experience across different apps.
 
@@ -33,7 +33,7 @@ If the web's promise of "write once, run many" sounds too good to be true, that'
 
 Fortunately, the web has always worked this way. In many respects, its success derives from environmental versatility, a goal that has always been at the heart of of web standards and web development techniques. Broadly speaking, there are two types of technique: "work out what environment we're in," followed by "now do something for this kind of environment". This article focuses on "work out what environment we're in". It's a detection problem, so put on your detective hat and let's get sleuthing ….
 
-## <span>Feature Detection</span>
+## Feature Detection
 
 Feature detection is the most popular technique among the three we'll examine in this article. Simply put, detect if a feature exists. If so, use it; if not, don't...and hopefully fall back to something sensible. For example:
 
@@ -65,7 +65,7 @@ Feature detection is not just for scripts; thanks to [CSS Media Queries](https:/
 
 The new [matchMedia](http://peter.sh/2010/11/multiple-profiles-the-matchmedia-interface-and-locally-modified-files/) API is bringing such media queries into JavaScript.
 
-## <span>Browser Detection</span>
+## Browser Detection
 
 Browser detection has fallen out of vogue, largely superceded by feature detection for reasons explained below, but is still necessary on occasion.
 
@@ -81,7 +81,7 @@ Browser detection does have a place in modern web develoment, but it's limited. 
 
 Finally, there may be performance reasons to consider browser detection, too. Earlier this year, [Alex Russell](http://infrequently.org/), a Google Chrome engineer and a thought leader in the web development community, [began a conversation](http://infrequently.org/2011/01/cutting-the-interrogation-short/) which may cause the industry to take a more nuanced view on the feature-browser distinction. Alex suggests we can avoid the performance overhead of feature detection tests if we make use of existing knowledge about what works on various browsers. Furthermore, there is the argument that if we do this kind of thing server-side, we can ensure we only serve the code we need. No feature detection libraries and only the application code which browsers can make use of. As the reactions to Alex's post indicate, the jury is still out.
 
-## <span>Form Factor Detection</span>
+## Form Factor Detection
 
 At Google IO 2011, Paul Kinlan and I introduced a new concept: form factor Detection. It's a new and largely untested idea, but we feel it's a necessary direction in light of the explosion of devices developers are struggling to support. HTML5 is clearly a step in the right direction, but we can't just deliver the same user experience to each environment; users have different needs and expectations. On the other hand, it's impractical for developers to customize their apps hundreds of times.
 
@@ -101,7 +101,7 @@ We released a proof-of-concept framework, [FormFactorJS](https://github.com/Paul
 
 Form factor detection is a useful complement to feature and browser detection. You can use it to structure your overall app architecture, with its various UI layers, and you can then tweak those UI layers further with feature and browser detection.
 
-## <span>Summary</span>
+## Summary
 
 Modern web development is no longer just about desktop browsers. Users work and play in a wide range of environments, and we can reach most of them with HTML5. As developers, we want to adapt our apps to each environment, ensuring great user experiences and making the most of whatever capabilities are available. The first step to environmental adaptation is environmental discovery, and that's what detection is all about.
 

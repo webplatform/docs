@@ -22,13 +22,13 @@ tags:
 uri: dom/HTMLTextAreaElement/textLength
 
 ---
-## <span>Summary</span>
+## Summary
 
 Use value.length (in JavaScript/ECMAScript) instead. Gets the codepoint length of the value of the element.
 
 Property of [dom/HTMLTextAreaElement](/dom/HTMLTextAreaElement)[dom/HTMLTextAreaElement](/dom/HTMLTextAreaElement)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,7 +36,7 @@ Property of [dom/HTMLTextAreaElement](/dom/HTMLTextAreaElement)[dom/HTMLTextArea
 var valueLength = textAreaElement.textLength;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -44,13 +44,13 @@ The codepoint length of the value of the element.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Use the well known and well supported value.length instead (in JavaScript/ECMAScript).
 
 Use this property to get the codepoint length of the value of the element. For more details about **codepoint length**, see [length](/javascript/String/length).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/2014/CR-html5-20140731/forms.html#dom-textarea-textlength)
 :   W3C Candidate Recommendation
@@ -58,11 +58,11 @@ Use this property to get the codepoint length of the value of the element. For m
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#dom-textarea-textlength)
 :   Living Standard
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 

@@ -30,20 +30,20 @@ uri: apis/timing/methods/sample
 
 Method of [dom/proprietary](/w/index.php?title=dom/proprietary&action=edit&redlink=1)[dom/proprietary](/w/index.php?title=dom/proprietary&action=edit&redlink=1)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.sample(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>time</span>
+### time
 
  Data-type
 :   Blob
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -51,8 +51,8 @@ This method does not return a value.
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `FrameRequestCallback`

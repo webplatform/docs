@@ -19,13 +19,13 @@ tags:
 uri: apis/indexeddb/IDBTransaction/db
 
 ---
-## <span>Summary</span>
+## Summary
 
 The database connection of which this transaction is a part.
 
 Property of [apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)[apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.db;
@@ -34,8 +34,8 @@ element.db = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

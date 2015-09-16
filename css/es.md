@@ -74,39 +74,39 @@ translations:
 uri: css/es
 
 ---
-## <span>Resumen</span>
+## Resumen
 
 Las Hojas de estilo en cascada o <span lang="en">Cascading style sheets (CSS)</span> es el lenguaje de presentación para el contenido web. El [World Wide Web Consortium](http://www.w3.org) mantiene el [estándar de las CSS](http://www.w3.org/standards/techs/css).
 
-## <span>Explora nuestros documentos sobre CSS</span>
+## Explora nuestros documentos sobre CSS
 
-### <span>[Material didáctico de CSS](/css/tutorials)</span>
+### [Material didáctico de CSS](/css/tutorials)
 
 Tutoriales y artículos didácticos para que aprendas CSS desde la base.
 
-### <span>[Selectores CSS](/css/selectors)</span>
+### [Selectores CSS](/css/selectors)
 
 Una guía de referencia de todos los selectores CSS disponibles.
 
-### <span>[Propiedades CSS](/css/properties)</span>
+### [Propiedades CSS](/css/properties)
 
 Una guía de referencia de todas las propiedades CSS disponibles.
 
-### <span>[Funciones CSS](/css/functions)</span>
+### [Funciones CSS](/css/functions)
 
 Una guía de referencia de todas las funciones CSS.
 
-### <span>[Directivas At](/css/atrules)</span>
+### [Directivas At](/css/atrules)
 
 Una guía de referencia de las diferentes @directivas (directivas at) disponibles.
 
-### <span>[Consultas de medios](/css/mediaqueries)</span>
+### [Consultas de medios](/css/mediaqueries)
 
 Una guía de referencia de los diferentes tipos de consultas de medios (<span lang="en">media queries</span>) disponibles.
 
  Nota: Si eres completamente nuevo en el desarrollo web, puede que desees revisar [Desarrollo web para principiantes](/beginners).
 
-## <span>Antecedentes</span>
+## Antecedentes
 
 Las Hojas de estilo en cascada (CSS) es un lenguaje que le aplica características de presentación (estilos, maquetación, animación) a contenidos etiquetados (tales como HTML, XHTML, SVG o XML). Es uno de los principales componentes de la [Plataforma Web Abierta](http://www.w3.org/wiki/Open_Web_Platform).
 
@@ -116,11 +116,11 @@ Las CSS te permiten aplicarle estilos a tu contenido mediante un conjunto de [se
 -   La versión estable actual: La [Recomendación CSS 2](http://www.w3.org/TR/CSS21/) fue publicada por primera vez en 1998, aunque no estuvo completamente terminada hasta 2011, a pesar de ser muy estable por muchos años antes de ello. Algunos módulos de las CSS3 también son muy estables para el momento de la publicación de este artículo (Diciembre 2012). Lee "El trabajo actual y futuro".
 -   El trabajo actual y futuro: El grupo de Trabajo de las CSS está trabajando en una serie de "módulos" que describen las diferentes partes de la tecnología conocida como CSS3. Algunos de estos módulos son estables, mientras que algunos se encuentran en un estado experimental y no tienen mucho soporte entre los navegadores. También se está trabajando en varios módulos de las CSS4, aunque pasará cierto tiempo hasta que estos estén listos para su uso en trabajo de producción. Consulta la [página de trabajo actual del grupo de trabajo de las CSS](http://www.w3.org/Style/CSS/current-work) para obtener más información sobre qué módulos/especificaciones están en qué etapa de su finalización.
 
-## <span>Contribuir con la tecnología CSS</span>
+## Contribuir con la tecnología CSS
 
 El desarrollo de las CSS es conducido por el grupo de trabajo de las CSS. Para obtener más información, incluyendo el cómo participar en su desarrollo, visita la [página principal del grupo de trabajo de las CSS](http://www.w3.org/Style/CSS/). Para publicar comentarios y hacer preguntas relacionadas a contribuir con las especificaciones, un buen lugar es la [lista de correos www-style](http://lists.w3.org/Archives/Public/www-style/). Ten en cuenta que no es un lugar adecuado para preguntas de tipo: "¿cómo puedo usar las CSS para aplicarle estilos a mi página web"
 
-## <span>Indice de todos los temas de CSS</span>
+## Indice de todos los temas de CSS
 
 <table>
 <col width="33%" />

@@ -11,23 +11,23 @@ tags:
 uri: svg/methods/convertToSpecifiedUnits
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **convertToSpecifiedUnits** method preserves the same underlying stored value, but it resets the stored unit identifier to the specified *unitType* type. The [**unitType**](/svg/properties/unitType_(SVGLength)), [**valueInSpecifiedUnits**](/svg/properties/valueInSpecifiedUnits), and [**valueAsString**](/svg/properties/valueAsString) objects might be modified when you call this method.
 
-### <span>Syntax</span>
+### Syntax
 
     HRESULT retVal = object.convertToSpecifiedUnits(unitType);
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.11
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGAngle**](/svg/objects/SVGAngle)
 -   [**SVGLength**](/svg/objects/SVGLength)

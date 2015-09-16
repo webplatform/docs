@@ -25,41 +25,41 @@ tags:
 uri: dom/Document/elementFromPoint
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the element at the specified x and y coordinates.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var element = document.elementFromPoint(x, y);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
+### x
 
  Data-type
 :   double
 
  A number that specifies the X-offset, in pixels. Zero-based.
 
-### <span>y</span>
+### y
 
  Data-type
 :   double
 
  A number that specifies the Y-offset, in pixels. Zero-based.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The element at the given point.
 
-## <span>Examples</span>
+## Examples
 
 Listen for click event on entire document, log nodeName of element found with elementFromPoint()
 
@@ -70,22 +70,22 @@ document.addEventListener("click", function(event){
 });
 ```
 
-## <span>Usage</span>
+## Usage
 
      This methods is used to get the element from the document whose elementFromPoint method is being called which is the topmost element which lies under the given point.  To get an element, specify the point via coordinates, in CSS pixels, relative to the upper-left-most point in the window or frame containing the document.
 
-## <span>Notes</span>
+## Notes
 
 Coordinates are supplied in client coordinates. The upper-left corner of the client area is (0,0). For **elementFromPoint** to exhibit expected behavior, the object or element located at position (x, y) must support and respond to mouse events.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSSOM View Module](http://dev.w3.org/csswg/cssom-view/#widl-Document-elementFromPoint-Element-float-x-float-y)
 :   Editor's Draft 3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `clientX`
 -   `clientY`

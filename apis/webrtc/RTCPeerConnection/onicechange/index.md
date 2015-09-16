@@ -17,13 +17,13 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/onicechange
 
 ---
-## <span>Summary</span>
+## Summary
 
 Handles the icechange event. It is called any time the iceState changes.
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onicechange;

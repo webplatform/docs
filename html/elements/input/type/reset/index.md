@@ -22,35 +22,35 @@ tags:
 uri: html/elements/input/type/reset
 
 ---
-## <span>Summary</span>
+## Summary
 
 An input form button that resets the form to default values.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The [**value**](/html/attributes/value_(button_element)) property specifies the label displayed on the **Reset** button the same way it specifies it on the **INPUT type=submit** button.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 17.4
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.7.1.21
 
-### <span>HTML information</span>
+### HTML information
 
 {
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `button`

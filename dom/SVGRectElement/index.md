@@ -25,109 +25,109 @@ todo_broken_links:
 uri: dom/SVGRectElement
 
 ---
-## <span>Summary</span>
+## Summary
 
 The SVGRectElement interface provides access to the properties of the rect element.
 
 Inherits from [SVGElement](/dom/SVGElement)[SVGElement](/dom/SVGElement)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from SVGElement</span>
+## Inherited from SVGElement
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Inherited from SVGTests</span>
+## Inherited from SVGTests
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Inherited from SVGLangSpace</span>
+## Inherited from SVGLangSpace
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Inherited from SVGExternalResourcesRequired</span>
+## Inherited from SVGExternalResourcesRequired
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Inherited from SVGStylable</span>
+## Inherited from SVGStylable
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Inherited from SVGTransformable</span>
+## Inherited from SVGTransformable
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <?xml version="1.0"?>
@@ -153,17 +153,17 @@ Inherits from [SVGElement](/dom/SVGElement)[SVGElement](/dom/SVGElement)
 </svg>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.1
 
-### <span>Members</span>
+### Members
 
 The **SVGRectElement** object has these properties:
 

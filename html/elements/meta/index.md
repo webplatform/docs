@@ -20,16 +20,16 @@ todo_broken_links:
 uri: html/elements/meta
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &lt;meta&gt; element embeds various kinds of metadata that cannot be expressed using the title, base, link, style, and script elements.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLMetaElement](/dom/HTMLMetaElement)
 
-## <span>Attributes</span>
+## Attributes
 
 -   `name` = string
     Sets document metadata.
@@ -63,13 +63,13 @@ Other metadata names may be registered in the WHATWG Wiki MetaExtensions page.
 -   `charset` = character encoding name
     Specifies the character encoding used by the document. [[Example A]](#Example_A)
 
-## <span>Internationalization</span>
+## Internationalization
 
 -   [Declaring the character encoding for HTML](http://www.w3.org/International/techniques/authoring-html#indoc)
 -   [Choosing and applying a character encoding](http://www.w3.org/International/techniques/authoring-html#choosing)
 -   [Changing to UTF-8](http://www.w3.org/International/techniques/authoring-html#changing)
 
-## <span>Examples</span>
+## Examples
 
 A minimal HTML document with meta information.
 
@@ -88,13 +88,13 @@ A minimal HTML document with meta information.
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **META** element also embeds document information that some search engines use to index and categorize documents on the World Wide Web. This element can be used only within the **HEAD** element. Windows Internet Explorer 8 or later. The behavior of the [**setAttribute**](/w/index.php?title=dom/methods/setAttribute&action=edit&redlink=1) method depends on the current document compatibility mode. For more information, see Attribute Differences in Internet Explorer 8
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/document-metadata.html#the-meta-element)
 :   W3C Working Draft
@@ -105,9 +105,9 @@ The **META** element also embeds document information that some search engines u
 [HTML 4.01](http://www.w3.org/TR/html401/struct/global.html#edef-META)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `content`

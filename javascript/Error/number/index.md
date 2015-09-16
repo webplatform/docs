@@ -10,11 +10,11 @@ tags:
 uri: javascript/Error/number
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns or sets the numeric value associated with a specific error. The Error object's default property is number.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Returns or sets the numeric value associated with a specific error. The Error ob
 **errorNumber**
 :   An integer representing an error.
 
-## <span>Examples</span>
+## Examples
 
 The following example causes an exception to be thrown and displays the error code that is derived from the error number.
 
@@ -59,13 +59,13 @@ Error Code: 5009
  Error Message: 'y' is undefined
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 An error number is a 32-bit value. The upper 16-bit word is the facility code, and the lower word is the error code. To determine the error code, use the & (bitwise And) operator to combine the number property with the hexadecimal number `0xFFFF`.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [description Property (Error)](/javascript/Error/description)
 -   [message Property (Error)](/javascript/Error/message)

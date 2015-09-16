@@ -109,7 +109,7 @@ translations:
 uri: Beginners/tr
 
 ---
-## <span>Başlamadan önce</span>
+## Başlamadan önce
 
 Bu kursta, bolca kod yazmayı ve bunları web tarayıcıları üzerinde test etmeyi öğreneceksiniz. Başlamadan önce aşağıdakilerden birinin kurulu olduğundan emin olun:
 
@@ -118,7 +118,7 @@ Bu kursta, bolca kod yazmayı ve bunları web tarayıcıları üzerinde test etm
 
 Şimdi kollarınızı sıyırın ve öğrenmeye hazır olun. Eğer buradaki makaleleri bitirdiyseniz ve daha fazlasını istiyorsanız [öğrenme kaynaklarının tam listesine erişin](/w/index.php?title=tutorials/tr&action=edit&redlink=1)!
 
-## <span>Web'in Temelleri</span>
+## Web'in Temelleri
 
 -   [Web'in Tarihi](/concepts/internet_and_web/the_history_of_the_web/tr)
 -   [How does the Internet work](/w/index.php?title=concepts/internet_and_web/how_does_the_internet_work/tr&action=edit&redlink=1)
@@ -126,7 +126,7 @@ Bu kursta, bolca kod yazmayı ve bunları web tarayıcıları üzerinde test etm
 -   [Getting your content online](/w/index.php?title=tutorials/getting_your_content_online/tr&action=edit&redlink=1)
 -   [Accessibility](/w/index.php?title=concepts/accessibility/tr&action=edit&redlink=1)
 
-## <span>HTML — Web içeriğini yapılandırma</span>
+## HTML — Web içeriğini yapılandırma
 
 -   [The basics of HTML](/w/index.php?title=guides/the_basics_of_html/tr&action=edit&redlink=1)
 -   [DOCTYPES and markup styles](/w/index.php?title=guides/doctypes_and_markup_styles/tr&action=edit&redlink=1)
@@ -139,7 +139,7 @@ Bu kursta, bolca kod yazmayı ve bunları web tarayıcıları üzerinde test etm
 -   [HTML structural elements](/w/index.php?title=guides/html_structural_elements/tr&action=edit&redlink=1)
 -   [HTML tables](/w/index.php?title=guides/html_tables/tr&action=edit&redlink=1)
 
-## <span>CSS — web içeriğini biçimlendirme</span>
+## CSS — web içeriğini biçimlendirme
 
 -   [Getting started with CSS](/w/index.php?title=guides/getting_started_with_css/tr&action=edit&redlink=1)
 -   [Using selectors](/w/index.php?title=tutorials/using_selectors/tr&action=edit&redlink=1)
@@ -150,7 +150,7 @@ Bu kursta, bolca kod yazmayı ve bunları web tarayıcıları üzerinde test etm
 -   [Making CSS easier to read](/w/index.php?title=tutorials/making_css_easier_to_read/tr&action=edit&redlink=1)
 -   [Targetting styles with media queries](/w/index.php?title=tutorials/media_queries/tr&action=edit&redlink=1)
 
-## <span>JavaScript — web sayfanıza dinamik davranışlar eklemek</span>
+## JavaScript — web sayfanıza dinamik davranışlar eklemek
 
 -   [Programming basics](/w/index.php?title=concepts/programming/programming_basics/tr&action=edit&redlink=1)
 -   [Your first look at JavaScript](/w/index.php?title=tutorials/your_first_look_at_javascript/tr&action=edit&redlink=1)

@@ -13,7 +13,7 @@ tags:
 uri: html/attributes/defer
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the status of the script.
 
@@ -31,24 +31,24 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Using the attribute at design time can improve the download performance of a document because the client does not need to parse and execute the script and can continue downloading and parsing the document instead.
 
-### <span>Issues</span>
+### Issues
 
 IE\<10 may interleave execution of scripts. [Discussion on Github.](https://github.com/h5bp/lazyweb-requests/issues/42)
 
 Combining scrips both standard and with `defer` that depend on each other. [Discussion on Github.](https://github.com/zenorocha/browser-diet/issues/95#issuecomment-14852531)
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 <http://caniuse.com/#feat=script-defer>
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `script`

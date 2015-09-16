@@ -24,25 +24,25 @@ tags:
 uri: dom/Node/hasAttributes
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns whether this node (if it is an element) has any attributes
 
 Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var bResult = object.hasAttributes();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 true if this node has any attributes, false otherwise.
 
-## <span>Examples</span>
+## Examples
 
 The following example will display an alert message that "the root element has attributes'. No following alert is displayed for the body element as it has no attributes.
 
@@ -67,13 +67,13 @@ if(be.hasAttributes()){alert('the body element has attributes');}
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **hasAttributes** method determines whether the object has any attributes at all. The [**hasAttribute**](/dom/Element/hasAttribute) method tests for the existence of a specified attribute.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Core](http://www.w3.org/TR/DOM-Level-2-Core/core.html)
 :   Recommendation

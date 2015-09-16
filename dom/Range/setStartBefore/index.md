@@ -23,28 +23,28 @@ tags:
 uri: dom/Range/setStartBefore
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the start point of a range to a point before a specific node.
 
 Method of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = range.setStartBefore(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>referenceNode</span>
+### referenceNode
 
  Data-type
 :   DOM Node
 
  Node in the document hierarchy.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -57,7 +57,7 @@ This method can return one of these values.
 |S\_OK|The operation completed successfully.|
 |InvalidStateError|detach has been invoked on the object.|
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var range = document.createRange();
@@ -66,10 +66,10 @@ var referenceNode = document.getElementsByTagName("div").item(0);
 range.setStartBefore(referenceNode);
 ```
 
-### <span>Syntax</span>
+### Syntax
 
 range.setStartBefore(referenceNode);
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13

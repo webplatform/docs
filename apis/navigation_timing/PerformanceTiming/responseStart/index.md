@@ -23,13 +23,13 @@ tags:
 uri: 'apis/navigation timing/PerformanceTiming/responseStart'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the time immediately after the user agent receives the first byte of the response from the server, or from relevant application caches or from local resources.
 
 Property of [apis/navigation timing/PerformanceTiming](/apis/navigation_timing/PerformanceTiming)[apis/navigation timing/PerformanceTiming](/apis/navigation_timing/PerformanceTiming)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,18 +37,18 @@ Property of [apis/navigation timing/PerformanceTiming](/apis/navigation_timing/P
 var result = PerformanceTiming.responseStart;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var perftime = performance.timing;
 document.write("responseStart: " + perftime.responseStart + "<br />");
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Navigation Timing 2](http://www.w3.org/TR/navigation-timing-2/)
 :   W3C Working Draft

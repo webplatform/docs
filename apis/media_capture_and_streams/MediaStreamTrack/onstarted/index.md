@@ -25,22 +25,22 @@ tags:
 uri: 'apis/media capture and streams/MediaStreamTrack/onstarted'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Handles the started event when fired on the MediaStreamTrack object.
 
 Property of [apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)[apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = track.onstarted;
 track.onstarted = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 EventHandler
 

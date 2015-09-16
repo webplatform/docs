@@ -6,11 +6,11 @@ tags:
 uri: 'tutorials/CSS basics'
 
 ---
-## <span>Introduction</span>
+## Introduction
 
 In the earlier tutorials of this course we talked about the content of web sites and how to structure content using HTML. This is very important as it means that we give our documents meaning and structure for other technologies to seamlessly integrate with, manipulate and otherwise affect. The most important web technology to discuss next is CSS (Cascading Style Sheets), which is used to style our HTML and influence its position on the page. In this article we’ll introduce you to CSS — what it is, how to apply it to HTML, and what basic CSS syntax looks like.
 
-## <span>What is CSS?</span>
+## What is CSS?
 
 Whilst HTML structures the document and tells browsers what a certain element’s function is (it is a link to another page? Is it a heading?), CSS gives the browser instructions on how to display a certain element — styling, spacing, colouring, etc. If HTML is the struts and bricks that make up the structure of a house, CSS is the plaster and paint to decorate it.
 
@@ -30,7 +30,7 @@ or
 
 CSS is not a programming language like JavaScript and it is not a markup language like HTML — actually there is nothing that can be compared to it. Technologies that defined interfaces before web development always mixed presentation and structure. As we've discussed earlier in the course, this is not a clever thing to do in an environment that changes as often as the web, which is why CSS was invented.
 
-## <span>Defining style rules</span>
+## Defining style rules
 
 Without further ado, let’s have a look at a CSS code example, and then dissect it:
 
@@ -61,7 +61,7 @@ We will come back to all of these specifics later — the main goal of this tuto
 
 A whole set of these rules goes together to form a style sheet. This is the most basic syntax of CSS there is. There is more, but not much — probably the coolest thing about CSS is its simplicity.
 
-### <span>Whitespace in CSS</span>
+### Whitespace in CSS
 
 Note that whitespace in CSS works in exactly the same way as it does in HTML — excess whitespace is completely ignored by the browser that renders the CSS, so you can add as much whitespace as you like. So
 
@@ -77,7 +77,7 @@ Is functionally identical to
 
 As long as you include the necessary curly braces, colons and semi-colons to separate out different parts, you are ok.
 
-### <span>CSS comments</span>
+### CSS comments
 
 One thing to know early on is how to comment in CSS. You add comments by enclosing them in `/*` and `*/`. Comments can span several lines, and the browser will ignore these lines:
 
@@ -98,7 +98,7 @@ You can add comments either between rules or inside the property block — for e
       */
     }
 
-### <span>Grouping selectors</span>
+### Grouping selectors
 
 You can also group different selectors. Say you want to apply the same style to `h1` and `p` — you could write the following CSS:
 
@@ -110,23 +110,23 @@ This however is not ideal, as you are repeating information that is the same. To
 
     h1, p {color:red;}
 
-### <span>Basic types of selector</span>
+### Basic types of selector
 
 There are several different selectors, each matching a different part of the markup. The three you'll encounter most often are as follows:
 
-#### <span>Element Selector</span>
+#### Element Selector
 
     p {}
 
 An element selector matches all the elements of that name on the page (`<p>` elements, in the case above).
 
-#### <span>Class Selector</span>
+#### Class Selector
 
     .example {}
 
 A class selector matches all elements that have a `class` attribute with the value specified, so the above would match `<p class="example">`, `<li class="example">` or `<div class="example">`, or any other element with a `class` of `example`. Note that class selectors don't test for any specific element name.
 
-#### <span>ID Selector</span>
+#### ID Selector
 
     #example {}
 
@@ -137,7 +137,7 @@ You can see the above selectors in action in the following examples. Notice that
 -   [example-selectors.html](http://dev.opera.com/articles/view/27-css-basics/example-selectors.html)
 -   [selectors.css](http://dev.opera.com/articles/view/27-css-basics/selectors.css)
 
-#### <span>Combining Selectors</span>
+#### Combining Selectors
 
 You can join selectors together to define even more specific rules:
 
@@ -150,7 +150,7 @@ In the following example we are using these to differentiate between the differe
 -   [example-specificselectors.html](http://dev.opera.com/articles/view/27-css-basics/example-specificselectors.html)
 -   [specificselectors.css](http://dev.opera.com/articles/view/27-css-basics/specificselectors.css)
 
-## <span>CSS shorthand</span>
+## CSS shorthand
 
 Another thing you’ll come across regularly in this course is CSS shorthand. It is possible to combine several related CSS properties together into one property to save time and effort on your part. In this section we will look at the available types of shorthand.
 
@@ -164,7 +164,7 @@ is equivalent to
     border-style: solid;
     border-color: black;
 
-### <span>Comparing individual and shorthand values</span>
+### Comparing individual and shorthand values
 
 Consider the following margin rule:
 
@@ -189,7 +189,7 @@ These types of property can take less than four values too, as follows:
 
 There are a number of properties that work like this, including `padding`, `margin` and `outline`. You'll find more out about these later on.
 
-### <span>Making the choice to use a single property or a shorthand value</span>
+### Making the choice to use a single property or a shorthand value
 
 Shorthand `margin` and `padding` properties tend to get the greatest share of use, though there are situations in which the shorthand properties are best avoided, or at least considered carefully, such as in the following situations:
 
@@ -198,11 +198,11 @@ Shorthand `margin` and `padding` properties tend to get the greatest share of us
 -   **The stylesheet you’re writing will be maintained by people with limited CSS skills (or spatial reasoning ability).** If you can get them to read this article you may not need to worry about this scenario, but it’s best not to make any assumptions.
 -   **You need to supplant a value, to account for an edge case.** This requirement is often a signal of a poorly designed document or stylesheet, but those are hardly unheard of.
 
-## <span>Applying CSS to HTML</span>
+## Applying CSS to HTML
 
 There are three ways to apply CSS to an HTML document: inline styles, embedded styles and external style sheets. Unless you have a very good reason to use one of the first two always go for the third option. The reason for this will become obvious to you soon, but first lets review the different options.
 
-### <span>Inline styles</span>
+### Inline styles
 
 You can apply styles to a specific element using a `style` attribute, like so:
 
@@ -222,7 +222,7 @@ The big problem with inline styles is that they make maintenance a lot harder th
 
 In addition to the maintenance issue you don’t take advantage of the most powerful part of CSS: the cascade. We’ll come back to the cascade in detail later, but for now all you need to know is that using the cascade means you define a look and feel in one place and the browser applies it to all the elements that match a certain rule.
 
-### <span>Embedded styles</span>
+### Embedded styles
 
 Embedded styles are placed in the `<head>` of the document inside a `<style>` element [as in this example](http://dev.opera.com/articles/view/27-css-basics/example-embedded.html):
 
@@ -242,7 +242,7 @@ Figure 2: Opera shows all paragraphs with the styles defined in the embedded sty
 
 The benefit with embedded styles is that you don’t need to add a `style` attribute to each paragraph — you can style them all with one single definition. This also means that if you need to change the look and feel of all paragraphs, you can do it in one single location, however this is still limited to one document — what if you want to define the look of paragraphs for a whole site in one go? Enter external style sheets.
 
-### <span>External style sheets</span>
+### External style sheets
 
 External style sheets means putting all your CSS definitions in their own file, saving it with a file extension of `.css`, and then applying it to your HTML documents using a `<link>` element inside the document `<head>`. View source of our [example page](http://dev.opera.com/articles/view/27-css-basics/example-external.html), and note that the `<head>` contains a `<link>` element that references this [external CSS file](http://dev.opera.com/articles/view/27-css-basics/styles.css), and verify that the styles defined in the external CSS file are applied to the HTML. Let’s have a closer look at that `<link>` element:
 
@@ -256,7 +256,7 @@ Figure 3: Opera shows the styles defined in the external style sheet when it is 
 
 This is the best of all worlds: you keep your look and feel definitions all in one single file, which means that you can make site-wide changes by changing one file, and the browser can load that once and then cache it for all other documents that reference it, meaning less to download.
 
-### <span>@importing stylesheets</span>
+### @importing stylesheets
 
 There is actually another way to import external style sheets into HTML files - the `@import` property. This is inserted into an embedded style sheet, in the same way as the embedded CSS shown above. The syntax looks as follows:
 
@@ -282,13 +282,13 @@ The first question you'll be asking is "why on earth do I need another way to ap
 -   As mentioned before, IE6 doesn't support putting the media type at the end of the `@import` line, so they are not a good way to go if you want to insert multiple stylesheets for different media.
 -   You could argue that the code for multiple `@import` statements is smaller than the code for multiple `<link>` elements, but this is pretty negligible.
 
-## <span>Summary</span>
+## Summary
 
 In this tutorial you learnt about applying CSS to HTML documents, either as inline styles using `style` attributes, embedded styles in a `<style>` element in the document `<head>` or as external files in their own document. You also learnt that the latter — linking an external style sheet using a `<link>` element — makes the most sense in terms of maintenance and caching. We then talked about the basic syntax of CSS and explained comments, different selector types, and grouping of selectors.
 
 In the next tutorial we’ll go deeper into the details of CSS, covering the cascade and specificity of selectors in detail.
 
-## <span>Exercise Questions</span>
+## Exercise Questions
 
 -   What are the benefits and problems of inline styles and how do you apply them to an element?
 -   What is a style rule? Describe the different components and syntax.

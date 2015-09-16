@@ -10,15 +10,15 @@ tags:
 uri: dom/shadowdom
 
 ---
-## <span>Summary</span>
+## Summary
 
 The shadow DOM defines the presentation and behavior of decorators and custom elements in the shadow tree. The shadow DOM is a JavaScript API for Web Components.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Web Components</span>
+#### Web Components
 
 -   [register](/dom/Document/register)
 

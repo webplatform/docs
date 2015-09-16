@@ -24,16 +24,16 @@ tags:
 uri: html/elements/big/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 big要素はbigタグで囲んだテキストが周囲のテキストより大きく表示されるべきであることを示します。 HTML5ではもうほとんど使われていませんので、代わりにCSSを使ってください。
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 以下の例は**BIG**を使ってテキストを強調しています。
 
@@ -41,14 +41,14 @@ big要素はbigタグで囲んだテキストが周囲のテキストより大�
 こっちの文字よりも<BIG>こっちの文字のほうが大きい</BIG>。
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>備考</span>
+### 備考
 
-### <span>標準情報</span>
+### 標準情報
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 15.2.1
 
-### <span>HTML information</span>
+### HTML information
 
 {

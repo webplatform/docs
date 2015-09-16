@@ -24,14 +24,14 @@ uri: dom/HTMLElement/isContentEditable
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.isContentEditable;
 element.isContentEditable = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **isContentEditable** property to determine whether the user can edit the content of an object.
 
@@ -60,4 +60,4 @@ Span can be edited: <SPAN ID="oCurrentValue"></SPAN>
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/editRegions.htm)
 
-### <span>Syntax</span>
+### Syntax

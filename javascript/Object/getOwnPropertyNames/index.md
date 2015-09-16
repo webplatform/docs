@@ -10,11 +10,11 @@ tags:
 uri: javascript/Object/getOwnPropertyNames
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the names of the own properties of an object. The own properties of an object are those that are defined directly on that object, and are not inherited from the object's prototype. The properties of an object include both fields (objects) and functions.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,11 +23,11 @@ Returns the names of the own properties of an object. The own properties of an o
 **object**
 :   Required. The object that contains the own properties.
 
-## <span>Return Value</span>
+## Return Value
 
 An array that contains the names of the own properties of the object.
 
-## <span>Examples</span>
+## Examples
 
 The following example creates an object that has three properties and a method. It then uses the **getOwnPropertyNames** method to obtain the own properties (including the method) of the object.
 
@@ -79,17 +79,17 @@ function Pasta(grain, size, shape) {
  // size,shape
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **getOwnPropertyNames** method returns the names of both enumerable and non-enumerable properties and methods. To return only the names of enumerable properties and methods, you can use the [Object.keys Function](/javascript/Object/keys).
 
-## <span>Exceptions</span>
+## Exceptions
 
 If the value supplied for the object argument is not the name of an object, a TypeError exception is thrown.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Object.keys Function](/javascript/Object/keys)
 

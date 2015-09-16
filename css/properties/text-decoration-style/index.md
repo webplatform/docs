@@ -18,11 +18,11 @@ tags:
 uri: css/properties/text-decoration-style
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property specifies the style of the text decoration line drawn on the specified element. The intended meaning for the values are the same as those of the border-style-properties.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `solid`
@@ -48,7 +48,7 @@ Animatable
 Percentages
 :   Not available
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-decoration-style: dashed`
 -   `text-decoration-style: dotted`
@@ -56,7 +56,7 @@ Percentages
 -   `text-decoration-style: solid`
 -   `text-decoration-style: wavy`
 
-## <span>Values</span>
+## Values
 
 solid
 :   A single line segment
@@ -73,7 +73,7 @@ dashed
 wavy
 :   Indicates a wavy line
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 .example {
@@ -83,18 +83,18 @@ text-decoration-style: dotted;
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      This is experimental technology
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Decoration Module Level 3](http://www.w3.org/TR/css-text-decor-3/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   <https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style>
 -   <http://msdn.microsoft.com/en-us/library/gg721769(v=expression.40).aspx>

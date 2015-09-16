@@ -11,21 +11,21 @@ tags:
 uri: javascript/Date/getMonth
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the month, using local time.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     dateObj.getMonth()
 
-## <span>Return Value</span>
+## Return Value
 
 The **getMonth** method returns an integer between 0 (January) and 11 (December). For a **Date** constructed with "Jan 5, 1996", **getMonth** returns 0.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **getMonth** method.
 
@@ -36,13 +36,13 @@ var date = new Date("1/1/2001");
  // Output: 0
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required dateObj reference is a **Date** object. To get the month value using Universal Coordinated Time (UTC), use the **getUTCMonth** method.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getUTCMonth Method (Date)](/javascript/Date/getUTCMonth)
 -   [setMonth Method (Date)](/javascript/Date/setMonth)

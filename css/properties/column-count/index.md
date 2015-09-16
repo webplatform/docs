@@ -22,11 +22,11 @@ tags:
 uri: css/properties/column-count
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the number of columns an element should be divided into.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -52,12 +52,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `column-count: auto`
 -   `column-count: count`
 
-## <span>Values</span>
+## Values
 
 count
 :   An integer value that specifies the number of columns in the multi-column element. Values must be greater than 0. When [**column-width**](/css/properties/column-width) is specified with ****column-count**** and both have non-auto values, the integer value defines the maximum number of columns.
@@ -65,7 +65,7 @@ count
 auto
 :   The number of columns is determined by the values of other property values of the multi-column element, such as [**column-width**](/css/properties/column-width).
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to render text within the section.newspaper element in three columns.
 
@@ -89,26 +89,26 @@ column-width: 100px;
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The actual column count may vary from the value specified due to available space. To ensure the specified value is used, all length property values of the multi-column element must be specified.
 
-### <span>Syntax</span>
+### Syntax
 
 `column-count: count | auto`
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Multi-Column</span>
+#### Multi-Column
 
 -   [break-after](/css/properties/break-after)
 
@@ -134,7 +134,7 @@ The actual column count may vary from the value specified due to available space
 
 -   [content](/css/properties/content)
 
-#### <span>Responsive Web Design</span>
+#### Responsive Web Design
 
 -   [break-before](/css/properties/break-before)
 
@@ -142,7 +142,7 @@ The actual column count may vary from the value specified due to available space
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages</span>
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

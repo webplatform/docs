@@ -20,11 +20,11 @@ tags:
 uri: css/properties/mask-mode
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property indicates whether the &lt;mask-reference&gt; is treated as a luminescence mask or as an alpha mask.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -50,13 +50,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `mask-mode: alpha`
 -   `mask-mode: auto`
 -   `mask-mode: luminance`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Implicitly sets alpha or luminance, depending on the \<mask-reference\> value of the mask-image property. If it is of type \<mask-source\>, the luminance values of the mask image should be used as the mask values; if it is of type \<image\>, the alpha values of the mask image should be used as the mask values.
@@ -67,7 +67,7 @@ alpha
 luminance
 :   Indicates that the luminance values of the mask image should be used as the mask values.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* auto */
@@ -86,7 +86,7 @@ luminance
   }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Masking Level 1](https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html)
 :   W3C Editor's Draft

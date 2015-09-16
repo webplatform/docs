@@ -11,7 +11,7 @@ tags:
 uri: 'svg/properties/rx (SVGEllipseElement)'
 
 ---
-## <span>Examples</span>
+## Examples
 
 The following ellipse, centered within a 400 by 400 pixel square, has a major axis of 400 pixels (that is, 2 · **rx**) and a minor axis of 300 pixels (that is, 2 · [**ry**](/svg/properties/ry_(SVGEllipseElement))).
 
@@ -30,14 +30,14 @@ The following ellipse, centered within a 400 by 400 pixel square, has a major ax
 
 </pre>
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Shapes](http://go.microsoft.com/fwlink/p/?linkid=204737), Section 9.8.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGEllipseElement**](/svg/elements/ellipse)

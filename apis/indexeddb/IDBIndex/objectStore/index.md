@@ -19,13 +19,13 @@ tags:
 uri: apis/indexeddb/IDBIndex/objectStore
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a reference to the IDBObjectStore instance for the referenced object store in this IDBIndex's transaction.
 
 Property of [apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)[apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.objectStore;
@@ -34,8 +34,8 @@ element.objectStore = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

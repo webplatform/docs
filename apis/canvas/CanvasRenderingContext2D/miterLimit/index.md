@@ -22,26 +22,26 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/miterLimit
 
 ---
-## <span>Summary</span>
+## Summary
 
 The current miter limit ratio.
 
 Property of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = CanvasRenderingContext2D.miterLimit;
 CanvasRenderingContext2D.miterLimit = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 When setting, values that are not finite values greater than zero are ignored. Default is 10.0.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows the effect of the miterLimit
 
@@ -76,11 +76,11 @@ function draw() {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 The miter length is the distance from the point where two lines meet to the point where two lines that are drawn along the outer edges of the two lines would intersect. If the ratio of these values exceeds the *miterLimit* value, a [lineJoin](/apis/canvas/CanvasRenderingContext2D/lineJoin) miter style is not drawn.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

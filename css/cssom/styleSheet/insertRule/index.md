@@ -24,35 +24,35 @@ tags:
 uri: css/cssom/styleSheet/insertRule
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds a new CSS rule to the stylesheet.
 
 Method of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var index = stylesheet.insertRule(ruleText, index);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>ruleText</span>
+### ruleText
 
  Data-type
 :   String
 
  The at-identifier ("@*rule\_name*") and the rule content.
 
-### <span>index</span>
+### index
 
  Data-type
 :   Number
 
  The index within the style sheet's rule list of the rule before which to insert the specified rule. If the specified index equals the length of the style sheet's rule list, the rule will be added to the end of the style sheet.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -60,18 +60,18 @@ The newly inserted rule's index within the style sheet's rule list.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 After the new rule has been inserted, it becomes part of the cascade.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `styleSheet`
 -   `Reference`

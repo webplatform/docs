@@ -10,31 +10,31 @@ tags:
 uri: 'tutorials/svg filters'
 
 ---
-## <span>Summary</span>
+## Summary
 
 CSS custom filters go way beyond the image-processing capabilities of CSS's pre-defined filter effects, allowing you to bend, fold, spindle, and mutilate otherwise flat web content.
 
-## <span>Filters: a review</span>
+## Filters: a review
 
-## <span>Custom filter terminology</span>
+## Custom filter terminology
 
-## <span>Vertex filters</span>
+## Vertex filters
 
-## <span>Fragment filters</span>
+## Fragment filters
 
-## <span>custom() function syntax</span>
+## custom() function syntax
 
-## <span>Coding the custom vertex filter</span>
+## Coding the custom vertex filter
 
-## <span>Coding the custom fragment filter</span>
+## Coding the custom fragment filter
 
 ...
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 
@@ -118,7 +118,7 @@ CSS custom filters go way beyond the image-processing capabilities of CSS's pre-
 
 -   **SVG filters**
 
-### <span>External resources</span>
+### External resources
 
 -   [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
 -   [Introducing CSS shaders: Cinematic effects for the web](http://www.adobe.com/devnet/html5/articles/css-shaders.html)

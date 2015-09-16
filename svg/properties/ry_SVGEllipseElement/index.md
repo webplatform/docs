@@ -11,20 +11,20 @@ tags:
 uri: 'svg/properties/ry (SVGEllipseElement)'
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 For an example of how the major and minor axes of an ellipse are related to the [**rx**](/svg/properties/rx_(SVGEllipseElement)) and **ry** properties, see the [**rx**](/svg/properties/rx_(SVGEllipseElement)) topic.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Shapes](http://go.microsoft.com/fwlink/p/?linkid=204737), Section 9.8.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGEllipseElement**](/svg/elements/ellipse)

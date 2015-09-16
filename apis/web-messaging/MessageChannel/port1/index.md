@@ -23,13 +23,13 @@ tags:
 uri: apis/web-messaging/MessageChannel/port1
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the first MessagePort object of the MessageChannel.
 
 Property of [apis/web-messaging/MessageChannel](/apis/web-messaging/MessageChannel)[apis/web-messaging/MessageChannel](/apis/web-messaging/MessageChannel)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [apis/web-messaging/MessageChannel](/apis/web-messaging/MessageChann
 var result = element.port1;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 MessagePort
 
-## <span>Examples</span>
+## Examples
 
 This example creates a new message channel and uses one of the ports to send a message, which will be received by the other port.
 
@@ -52,11 +52,11 @@ var msgChannel = new MessageChannel();
 msgChannel.port1.postMessage('Hello world');
 ```
 
-## <span>Notes</span>
+## Notes
 
 Communication channels in this mechanism are implemented as two-way pipes, with a port at each end. Messages sent in one port are delivered at the other port, and vice versa. Messages are asynchronous, and delivered as DOM events.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Messaging Specification](http://www.w3.org/TR/webmessaging/)
 :   W3C Candidate Recommendation

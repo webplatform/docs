@@ -9,6 +9,6 @@ tags:
 uri: tutorials/flexbox
 
 ---
-## <span>Summary</span>
+## Summary
 
 flex, also known as &quot;flexbox&quot;, is a new layout mode in CSS3 designed for laying out complex applications and web pages and fill the gaps that developers used &quot;block&quot; layout’s float property for.

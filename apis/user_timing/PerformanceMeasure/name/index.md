@@ -23,24 +23,24 @@ tags:
 uri: 'apis/user timing/PerformanceMeasure/name'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the measure's name.
 
 Property of [apis/user timing/PerformanceMeasure](/apis/user_timing/PerformanceMeasure)[apis/user timing/PerformanceMeasure](/apis/user_timing/PerformanceMeasure)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.name;
 element.name = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // set begin mark
@@ -65,7 +65,7 @@ performance.clearMeasures("functionTime");
 performance.clearMarks();
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C User Timing Specification](http://www.w3.org/TR/user-timing/)
 :   W3C Recommendation

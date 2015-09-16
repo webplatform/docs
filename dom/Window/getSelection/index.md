@@ -23,25 +23,25 @@ tags:
 uri: dom/Window/getSelection
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a Selection object that represents the current selection of the document.
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var selection = window.getSelection();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
 A [Selection](/dom/Selection) object that represents the currently selected text in the window.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function foo() {
@@ -52,6 +52,6 @@ function foo() {
 }
 ```
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 6.6.1

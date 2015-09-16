@@ -24,41 +24,41 @@ tags:
 uri: dom/Element/getAttributeNS
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the value of the content attribute within a specified namespace.
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var attributeValue = element.getAttributeNS(namespaceURI, name);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>namespaceURI</span>
+### namespaceURI
 
  Data-type
 :   String
 
  The namespace URI that defines the desired attribute, or a null value.
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The name of the desired attribute within the specified namespace.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The value of the content attribute, or null if it does not exist.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // Get the first div element in the page.
@@ -69,13 +69,13 @@ if (element) {
 }
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 3 Core Specification](http://go.microsoft.com/fwlink/p/?linkid=182717), Section 1.4
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Document Object Model (DOM) Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
@@ -86,8 +86,8 @@ if (element) {
 [DOM](http://dom.spec.whatwg.org/)
 :   Living Standard
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `getAttribute`

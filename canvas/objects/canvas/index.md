@@ -24,29 +24,29 @@ todo_broken_links:
 uri: canvas/objects/canvas
 
 ---
-## <span>Summary</span>
+## Summary
 
 The surface on which to apply graphics and images. The canvas object must contain an graphic created with CanvasRenderingContext2D APIs in order to render. When the actual drawing is done using the CanvasRenderingContext2D object, the properties and methods are used to create and manipulate graphics on a canvas object.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.8.10
 
-### <span>Members</span>
+### Members
 
 The **canvas** object has these types of members:
 
@@ -54,12 +54,12 @@ The **canvas** object has these types of members:
 -   [\#methods Methods]
 -   [\#properties Properties]
 
-#### <span>Events</span>
+#### Events
 
 The **canvas** object has these events. {
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CanvasRenderingContext2D`

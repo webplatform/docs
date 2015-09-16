@@ -20,32 +20,32 @@ tags:
 uri: apis/webaudio/AudioContext/createBufferSource
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates an AudioBufferSourceNode that can be used to play audio data contained within an AudioBuffer object..
 
 Method of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = AudioContext.createBufferSource();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 AudioBufferSourceNode
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
 var source = audioCtx.createBufferSource();
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

@@ -13,16 +13,16 @@ tags:
 uri: css/functions/var
 
 ---
-## <span>Summary</span>
+## Summary
 
 Allows authors to reference the value of a custom property for cascading variables.
 
-## <span>Syntax</span>
+## Syntax
 
 -   **var ( \<custom-property\> )**
 -   **var ( \<custom-property\>, \<default-value\> )**
 
-## <span>Parameters</span>
+## Parameters
 
 **custom-property**
 
@@ -32,7 +32,7 @@ Allows authors to reference the value of a custom property for cascading variabl
 
 *A value to use when the custom property isn't defined.*
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 .block .header {
@@ -59,7 +59,7 @@ Allows authors to reference the value of a custom property for cascading variabl
 
 [View live example](http://code.webplatform.org/gist/a41474c974dfef4ec106)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Custom Properties for Cascading Variables Module Level 1](http://www.w3.org/TR/css-variables-1/)
 :   W3C Last Call Working Draft

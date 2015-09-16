@@ -22,34 +22,34 @@ tags:
 uri: html/elements/input/type/hidden
 
 ---
-## <span>Summary</span>
+## Summary
 
 The hidden type of the &lt;input&gt; element represents a value that is hidden from the user, but which is sent with the form data; the value can be set programatically.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This input type presents no control to the user, but sends the value of the [**value**](/html/attributes/value_(select,_option_element)) property with the submitted form.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 17.4
 
-### <span>HTML information</span>
+### HTML information
 
 {
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `input`

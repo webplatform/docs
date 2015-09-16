@@ -11,7 +11,7 @@ tags:
 uri: svg/properties/viewBox
 
 ---
-## <span>Examples</span>
+## Examples
 
 The following code example demonstrates how to set the **viewBox** attribute on an SVG element.
 
@@ -22,15 +22,15 @@ The following code example demonstrates how to set the **viewBox** attribute on 
 
 <http://static.webplatform.org/w/public/2/2c/svg-no-viewbox.svg> <http://static.webplatform.org/w/public/8/8a/svg-viewbox-preserveaspectratio-none.svg> <http://static.webplatform.org/w/public/a/a6/svg-viewbox-preserveaspectratio-xMaxYMax-meet.svg> <http://static.webplatform.org/w/public/2/29/svg-viewbox-preserveaspectratio-xMaxYMax-slice.svg>
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.28
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGPatternElement**](/svg/elements/patterrn)
 -   [**SVGSVGElement**](/svg/elements/svg)

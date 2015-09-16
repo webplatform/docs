@@ -12,11 +12,11 @@ tags:
 uri: tutorials/forms
 
 ---
-## <span>Summary</span>
+## Summary
 
 One of HTML5's many new features is enhancements to forms. This includes new types of inputs (email, phone number, etc), attributes (form validation and styling), and elements (progress bar, meter, output, etc). Since these features are relatively new, support across browsers can vary. You should keep this in mind as you develop your web app to make it the best possible user experience across all browsers. In this document we will discuss the new features, how to detect and handle non-supporting browsers, and mobile considerations.
 
-## <span>Input Types</span>
+## Input Types
 
 HTML5 has expanded the types that are supported by the form input element. For example, here's a simple text input.
 
@@ -32,45 +32,45 @@ See the compatibility section below for more details on how to handle browsers t
 
 The new types introduced include:
 
-### <span>Email</span>
+### Email
 
 Previously, to handle an email input field you would use a `text` type and write JavaScript to validate the input field upon user submission. Now you simply specify an `email` type and let supporting browsers take care of specialized displays and validation. For example, on the iPhone's Safari browser, it will specially handle the `email` type by displaying a custom keyboard with characters related to email input. See an [example of this field in action](http://wufoo.com/html5/types/1-email.html).
 
-### <span>Number</span>
+### Number
 
 The number input type displays a spinbox control that allows the user to increment and decrement whole numbers. Supporting browsers take care of specialized displays and validation. For example, Chrome will not allow you to type in an invalid field. The iPhone Safari browser will show a number-based keyboard. This input type has optional `min`, `max`, and `step` attributes to help specify acceptable values and ranges. See an [example of this field in action](http://wufoo.com/html5/types/7-number.html).
 
-### <span>Range</span>
+### Range
 
 Unlike the number input type, range can be fractional and is typically displayed as a slider control. This input type has optional `min`, `max`, and `step` attributes to help specify acceptable values and ranges. See an [example of this field in action](http://wufoo.com/html5/types/8-range.html).
 
-### <span>URL</span>
+### URL
 
 Most supporting browsers will validate the URL field upon form submission. Browsers will render this field as a normal text entry field. The iPhone Safari browser will render a specialized keyboard for entering URL fields. See an [example of this field in action](http://wufoo.com/html5/types/3-url.html).
 
-### <span>Date Picker</span>
+### Date Picker
 
 There is a collection of inputs that allow you to implement a date picker. Previously you would have to script these yourself. The six defined input types for selecting a date are `date`, `month`, `week`, `time`, `datetime`, and `datetime-local`. Supporting browsers will implement these types through specialized displays. For example, the Opera browser displays the `date` field by showing a calendar representing a date. See an [example of this field in action](http://wufoo.com/html5/types/4-date.html).
 
-### <span>Telephone Number</span>
+### Telephone Number
 
 To validate the user input you should specify a `pattern` attribute. Browsers will render this field as a normal text entry field. The iPhone Safari browser will render a specialized keyboard for entering telephone fields. See an [example of this field in action](http://wufoo.com/html5/types/2-tel.html).
 
-### <span>Search</span>
+### Search
 
 Supporting browsers may display this field in a special way for example showing an x button so the user can easily clear the search input. See an [example of this field in action](http://wufoo.com/html5/types/5-search.html).
 
-### <span>Color</span>
+### Color
 
 This allows you to pick a color. It returns the RGB hexadecimal value of the chosen color. See an [example of this field in action](http://wufoo.com/html5/types/6-color.html).
 
-## <span>Form Attributes</span>
+## Form Attributes
 
 HTML5 has introduced additional attributes to form inputs and elements. These attributes enable functionality including form validation, showing placeholder input text, controlling cursor focus, required form fields, regular expressions for field validation, and others. [Wufoo's Current State of HTML5 Forms](http://wufoo.com/html5/#attributes) lists all of the new form attributes.
 
 See the compatibility section of this doc, below, for more details on how to handle browsers that do not support the new form attributes.
 
-### <span>Form validation</span>
+### Form validation
 
 The `required` attribute can be added to any form element that must be filled out before a form is submitted. The browser will then look at the form element type and validate the entry before submitting the form. Here's an example.
 
@@ -100,7 +100,7 @@ Note that even with client-side validation it is very important that you also ha
 
 For additional reading, read the form validation [tutorial on A List Apart](http://www.alistapart.com/articles/forward-thinking-form-validation/).
 
-### <span>CSS pseudo classes</span>
+### CSS pseudo classes
 
 HTML5 also introduced CSS pseudo classes. These can be used to control the display of forms elements in certain states or that have certain attributes. For example, you can use CSS to display all required fields with a certain style.
 
@@ -112,9 +112,9 @@ This will show all required input forms with a yellow background. You can also u
 
 This will display a white background for all required input forms that have a valid input. The classes that can be used to select form element states include `required`, `optional`, `valid`, `invalid`, `default`, `in-range`, `out-of-range`, `read-only`, and `read-write`. As with other form checks not all pseudo classes are supported in all browsers.
 
-## <span>Form Elements</span>
+## Form Elements
 
-### <span>Datalist</span>
+### Datalist
 
 The `datalist` element is used in conjunction with an input `list` attribute to give the user suggested values. The user can also still enter their own value.
 
@@ -125,7 +125,7 @@ The `datalist` element is used in conjunction with an input `list` attribute to 
       <option label="Green" value="green">
     </datalist>
 
-### <span>Output</span>
+### Output
 
 The `output` element which is used to display a result from multiple form fields, such as the addition of two numbers in a form.
 
@@ -144,33 +144,33 @@ The `output` element which is used to display a result from multiple form fields
      <output name="o" id="o"></output>
     </form>
 
-### <span>Progress</span>
+### Progress
 
 The `progress` element that represents a progress bar. The progress visually flows from 0% to 100% and thus has `max` and `value` attributes. For certain browsers (e.g. Chrome 10+) if the window is not in focus the progress bar will look desaturated.
 
     <progress max=100 value=50>50%</progress>
 
-### <span>Meter</span>
+### Meter
 
 You can use the `meter` element to represent a measurement. It is visually similar to the `progress` element, but is used for a different purpose- for example, to show the results of a math quiz.
 
     <meter min=10 max=100 value=65>65%</meter>
 
-### <span>Keygen</span>
+### Keygen
 
 The `keygen` element can be used to generate a public key / private key pair.
 
     <keygen name=key>
 
-## <span>Browser Compatibility</span>
+## Browser Compatibility
 
 Not all browsers support the new web form features. In order to ensure a good user experience across all browsers, there are several things you can do.
 
-## <span>Feature Detection</span>
+## Feature Detection
 
 Browsers that do not recognize the new input types will fall back to treating them as `text` types. Browsers that do not recognize the new form elements will simply not display them. Your approach for handling this and providing a good user experience should be to first detect support then make use of fallback JavaScript.
 
-### <span>Input Types</span>
+### Input Types
 
 One thing to remember for handling older browser is you do not want to throw away any of your existing client-side validation. You can take the following approach to provide fallback support:
 
@@ -194,7 +194,7 @@ For example,
 
 Instead of your creating your own JavaScript functions, there are existing libraries such as [Modernizr](http://www.modernizr.com/). It can be optionally configured to use [various polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills). A polyfill is code that provides fallback support to older browser for a new API or feature that the browser does not natively support.
 
-### <span>Form Attributes</span>
+### Form Attributes
 
 To ensure compatibility with non-supporting browsers you should always have a fallback for your attributes. This depends on the attribute you are using. For example, the `autofocus` attribute allows you to focus an input field without using JavaScript. The fallback would be to use the JavaScript `focus()` method on the input element. Here's an example approach.
 
@@ -215,7 +215,7 @@ For example,
 
 [Modernizr](http://www.modernizr.com/) can also be used to easily check for attribute feature support instead of building your own functions. [Modernizr](http://www.modernizr.com/) can be used with the [yepnope.js](http://yepnopejs.com/) script loader library to conditionally load your fallback libraries, known as polyfills, that comprise your JavaScript fallback libraries. It is integrated into [Modernizr](http://www.modernizr.com/), but you can use it separately, for example, if you are using the jQuery library to load fallback libraries.
 
-## <span>Tutorials</span>
+## Tutorials
 
 The following sites are great resources on browser compatibility and allow you to test the various features from within your browser.
 
@@ -223,7 +223,7 @@ The following sites are great resources on browser compatibility and allow you t
 -   [Dive into HTML5: Forms](http://diveintohtml5.org/forms.html)
 -   [CanIUse.com](http://www.caniuse.com)
 
-## <span>Mobile Considerations</span>
+## Mobile Considerations
 
 Support for HTML5 web forms on mobile browsers is further behind than on desktop browsers. These resources will give you a good sense of what is supported.
 

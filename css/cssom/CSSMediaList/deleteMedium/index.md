@@ -20,43 +20,43 @@ tags:
 uri: css/cssom/CSSMediaList/deleteMedium
 
 ---
-## <span>Summary</span>
+## Summary
 
 Deletes a medium from the current list.
 
 Method of [css/cssom/CSSMediaList/CSSMediaList](/css/cssom/CSSMediaList/CSSMediaList)[css/cssom/CSSMediaList/CSSMediaList](/css/cssom/CSSMediaList/CSSMediaList)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  mediaList.deleteMedium(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>medium</span>
+### medium
 
  Data-type
 :   String
 
  The medium to delete in the media list.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -202,7 +202,7 @@ No return value
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSMediaList`
 -   `Reference`

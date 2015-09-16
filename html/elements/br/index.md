@@ -17,11 +17,11 @@ tags:
 uri: html/elements/br
 
 ---
-## <span>Summary</span>
+## Summary
 
 The line break element, br, forces the current line of text to end and the text that follows it will being on a new line.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLBRElement](/dom/HTMLBRElement)
@@ -32,7 +32,7 @@ The **br** element forcibly breaks (ends) the current line of text, without star
 
 Any content inside **br** elements (i.e. attributes) must not be considered part of the surrounding text.
 
-## <span>Examples</span>
+## Examples
 
 The following example is correct usage of the **br** element
 
@@ -44,17 +44,17 @@ Sydney</p>
 
 [View live example](http://code.webplatform.org/gist/7282007)
 
-## <span>Usage</span>
+## Usage
 
      The br element is a “replaced element” which means it is comprised of a single tag with no content. You can apply attributes (e.g. class) to the tag, but it must not contain text.
 
 As a replaced element, the **br** will be automatically closed by browsers, but you can also explicitly close the element with a trailing slash: **\<br/\>**
 
-## <span>Notes</span>
+## Notes
 
 No closing tag is needed.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-br-element)
 :   W3C Working Draft
@@ -65,11 +65,11 @@ No closing tag is needed.
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-BR)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -209,7 +209,7 @@ No closing tag is needed.
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

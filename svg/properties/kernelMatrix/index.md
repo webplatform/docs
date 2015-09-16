@@ -11,20 +11,20 @@ tags:
 uri: svg/properties/kernelMatrix
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **kernelMatrix** contains the list of numbers that make up the kernel matrix for the convolution. Values are separated by space characters and/or a comma. The number of entries in the list must equal *orderX* times *orderY* (see [**order**](/svg/properties/orderX)).
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.12
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFEConvolveMatrixElement**](/svg/elements/feConvolveMatrix)

@@ -26,36 +26,36 @@ uri: css/cssom/properties/cssFloat
 
 Property of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = declaration.cssFloat;
 declaration.cssFloat = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **cssFloat** attribute can be set for elements that generate boxes that are not absolutely positioned. The **cssFloat** attribute corresponds to the [**float**](/css/properties/float) Cascading Style Sheets (CSS) property. Getting this attribute is equivalent to calling the [**getProperty**](/css/cssom/CSSStyleDeclaration/getPropertyValue) method. Setting this attribute is equivalent to calling the [**setProperty**](/css/cssom/methods/setProperty) method.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Style Specification](http://go.microsoft.com/fwlink/p/?linkid=203741), Section 2.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -201,7 +201,7 @@ The **cssFloat** attribute can be set for elements that generate boxes that are 
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

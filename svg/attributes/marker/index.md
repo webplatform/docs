@@ -28,23 +28,23 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **marker** property is a composite property for the three individual marker properties.
 
-### <span>Syntax</span>
+### Syntax
 
     marker: none | funciri | inherit
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols](http://go.microsoft.com/fwlink/p/?linkid=199816), Section 11.6.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)
@@ -54,7 +54,7 @@ The **marker** property is a composite property for the three individual marker 
 -   [**SVGPolylineElement**](/svg/elements/polyline)
 -   [**SVGPolygonElement**](/svg/elements/polygon)
 
-### <span>Reference</span>
+### Reference
 
 -   [**markerStart**](/svg/attributes/marker-start)
 -   [**markerMid**](/svg/attributes/marker-mid)

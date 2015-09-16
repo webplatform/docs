@@ -18,11 +18,11 @@ tags:
 uri: html/elements/b
 
 ---
-## <span>Summary</span>
+## Summary
 
 The b element represents a span of text to be stylistically offset from the normal prose without conveying any extra importance.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -31,7 +31,7 @@ It was originally used to tell the browser to make the enclosed text bold. While
 
 The **b** element should be used as a last resort when no other element is more appropriate, as it has no semantic value other than indicating that the contained text should be stylistically offset in some way (i.e. it’s like a shorter [**span** element](/html/elements/span)). For visually similar elements that do provide semantic meaning, consider [strong](/html/elements/strong), [dfn](/html/elements/dfn), [h1-h6](/html/elements/hn), or [abbr](/html/elements/abbr).
 
-## <span>Examples</span>
+## Examples
 
 In the following example, objects in a text adventure are highlighted as being special by use of the **b** element.
 
@@ -55,7 +55,7 @@ your kids to bed.</p>
 
 [View live example](http://code.webplatform.org/gist/321e5149c1e661e1de14)
 
-## <span>Usage</span>
+## Usage
 
      The b element makes a lot of sense for use as a wrapper for proper names (e.g. people, companies, products, locations) as they may be offset from the surrounding text in some way, but are not semantically meaningful.
 
@@ -63,11 +63,11 @@ Internationalization topics related to the **b** element:
 
 -   [[b and i tags](http://www.w3.org/International/techniques/authoring-html#bandi%7CUsing)]
 
-## <span>Notes</span>
+## Notes
 
 As the **b** element has no inherent meaning, you should not use it to convey meaning; there is probably a more appropriate element for that. Headings should use the **h1** to **h6** elements, stress emphasis should use the **em** element, importance should be denoted with the **strong** element, and contextually-important/highlighted text should use the **mark** element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-b-element)
 :   W3C Working Draft
@@ -78,11 +78,11 @@ As the **b** element has no inherent meaning, you should not use it to convey me
 [HTML 4.01](http://www.w3.org/TR/html401/present/graphics.html#edef-B)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -222,7 +222,7 @@ As the **b** element has no inherent meaning, you should not use it to convey me
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

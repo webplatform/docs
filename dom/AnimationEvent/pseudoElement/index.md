@@ -17,13 +17,13 @@ tags:
 uri: dom/AnimationEvent/pseudoElement
 
 ---
-## <span>Summary</span>
+## Summary
 
 A DOMString, starting with &quot;::&quot;, containing the name of the pseudo-element the animation runs on. If the animation runs on the element rather than on a pseudo-element, this property contains an empty string, &quot;&quot;.
 
 Property of [dom/AnimationEvent](/dom/AnimationEvent)[dom/AnimationEvent](/dom/AnimationEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -31,7 +31,7 @@ Property of [dom/AnimationEvent](/dom/AnimationEvent)[dom/AnimationEvent](/dom/A
 var result = element.pseudoElement;
 ```
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //for a predefined animation event

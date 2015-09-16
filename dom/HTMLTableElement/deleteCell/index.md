@@ -26,22 +26,22 @@ uri: dom/HTMLTableElement/deleteCell
 
 Method of [dom/HTMLTableElement](/dom/HTMLTableElement)[dom/HTMLTableElement](/dom/HTMLTableElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.deleteCell(index);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>index</span>
+### index
 
  Data-type
 :   any
 
 **Integer** that specifies the zero-based position of the cell to remove from the table row. If no value is provided, the last cell in the **cells** collection is deleted.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -49,7 +49,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **deleteCell** method to delete the last cell in the first row of the table.
 
@@ -57,8 +57,8 @@ This example uses the **deleteCell** method to delete the last cell in the first
 document.all.myTable.rows[0].deleteCell()
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5

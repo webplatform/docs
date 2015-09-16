@@ -19,7 +19,7 @@ uri: dom/HTMLElement/clientLeft
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.clientLeft;
@@ -28,10 +28,10 @@ element.clientLeft = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The difference between the [**offsetLeft**](/dom/HTMLElement/offsetLeft) and **clientLeft** properties is the border of the object.
 
-### <span>Syntax</span>
+### Syntax

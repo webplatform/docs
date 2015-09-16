@@ -11,7 +11,7 @@ tags:
 uri: 'css/selectors/pseudo-classes/:visited'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The :visited pseudo-class applies to links the user has visited
 
@@ -24,7 +24,7 @@ After some amount of time, user agents may choose to return a visited link to th
 
 The two states are mutually exclusive.
 
-## <span>Examples</span>
+## Examples
 
 The following style rule uses **:visited** to set the [**color**](/css/properties/color) attribute of visited links in a document.
 
@@ -32,19 +32,19 @@ The following style rule uses **:visited** to set the [**color**](/css/propertie
 a:visited { color:blue }
 ```
 
-## <span>Usage</span>
+## Usage
 
      :visited  is often used with :active, :hover, and :link, which are the pseudo-classes that reflect the other states of a link.
 
 The default value of the **:visited** pseudo-class varies by browser, as does the amount of time used to define a recent visit.
 
-## <span>Notes</span>
+## Notes
 
 The pseudo-classes [:link](/css/selectors/pseudo-classes/:link) and :visited can be abused to determine which sites a user has visited.
 
 To preserver their users’ privacy, browsers often implement counter-measures against these abuses, while still rendering visited and unvisited links differently.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1](http://www.w3.org/TR/CSS2/selector.html#link-pseudo-classes)
 :   W3C Recommendation

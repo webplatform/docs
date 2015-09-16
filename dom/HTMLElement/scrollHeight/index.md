@@ -24,14 +24,14 @@ uri: dom/HTMLElement/scrollHeight
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.scrollHeight;
 element.scrollHeight = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **scrollHeight** property to retrieve the height of the viewable content.
 
@@ -52,10 +52,10 @@ function fnCheckScroll(){
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/scrollHeight.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The height is the distance between the top and bottom edges of the object's content. This property is read-only on HTML documents, and read-write on fixed regions. For more information about how to access the dimension and location of objects on the page through the Dynamic HTML (DHTML) Object Model, see Measuring Element Dimension and Location with CSSOM in Internet Explorer 9.
 
-### <span>Syntax</span>
+### Syntax

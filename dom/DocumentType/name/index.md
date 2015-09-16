@@ -23,14 +23,14 @@ uri: dom/DocumentType/name
 
 Property of [dom/DocumentType](/dom/DocumentType)[dom/DocumentType](/dom/DocumentType)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.name;
 element.name = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following example shows the **name** property with respect to a [!DOCTYPE](/html/elements/!DOCTYPE) directive.
 
@@ -55,21 +55,21 @@ The following example shows the **name** property with respect to a [!DOCTYPE](/
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The value of the **name** property corresponds to the *TopElement* attribute of a [!DOCTYPE](/html/elements/!DOCTYPE) directive.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 3 Core Specification](http://go.microsoft.com/fwlink/p/?linkid=182717), Section 1.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `DocumentType`
 -   `publicId`

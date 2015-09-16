@@ -19,12 +19,12 @@ uri: svg/elements/use
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 Here, the **use** element is used to create three instances of a rectangle defined in a [**defs**](/svg/elements/defs) tag.
 
@@ -50,19 +50,19 @@ Here, the **use** element is used to create three instances of a rectangle defin
 </pre>
 [View live example](http://code.webplatform.org/gist/9492902)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 For more information, see the [SVG specification](http://go.microsoft.com/fwlink/p/?LinkID=190918).
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.8
 
-### <span>Members</span>
+### Members
 
 The **SVGUseElement** object has these events:
 

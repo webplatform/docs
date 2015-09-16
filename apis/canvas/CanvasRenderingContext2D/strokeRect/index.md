@@ -22,49 +22,49 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/strokeRect
 
 ---
-## <span>Summary</span>
+## Summary
 
 Takes the result of tracing the path, using the CanvasRenderingContext2D object's line styles, and fills it with the strokeStyle.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.strokeRect(x, y, w, h);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
+### x
 
  Data-type
 :   Number
 
  The x-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 
-### <span>y</span>
+### y
 
  Data-type
 :   Number
 
  The y-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 
-### <span>w</span>
+### w
 
  Data-type
 :   Number
 
  The width, in pixels, of the rectangle in relation to the coordinates of the canvas.
 
-### <span>h</span>
+### h
 
  Data-type
 :   Number
 
  The height, in pixels, of the rectangle in relation to the coordinates of the canvas.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -72,7 +72,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 Basic example drawing a 100 x 100 px rect with a red outline
 
@@ -112,11 +112,11 @@ Draws a rect with a white outline onto a black canvas
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The *strokeRect* method creates a path that requires the use of the [stroke](/apis/canvas/CanvasRenderingContext2D/stroke) method to render the rectangle. The outline uses the current [strokeStyle](/apis/canvas/CanvasRenderingContext2D/strokeStyle), [lineWidth](/apis/canvas/CanvasRenderingContext2D/lineWidth), [lineJoin](/apis/canvas/CanvasRenderingContext2D/lineJoin), and, when appropriate, [miterLimit](/apis/canvas/CanvasRenderingContext2D/miterLimit) properties. If the *w* or *h* parameter is zero, a line is drawn. If the *w* and *h* parameters are zero, the rectangle is not drawn.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

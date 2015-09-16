@@ -14,11 +14,11 @@ tags:
 uri: css/atrules/@namespace
 
 ---
-## <span>Summary</span>
+## Summary
 
 Declares the default namespace and binds a namespace to a namespace prefix.
 
-## <span>Examples</span>
+## Examples
 
 The default namespace is applied to names that do not have an explicit namespace component. The following rule declares a default namespace.
 
@@ -55,33 +55,33 @@ The following code example styles a SVG element. By using the namespace and decl
 svg|circle {fill:red;}
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **@namespace** rule was introduced in Windows Internet Explorer 9. The scope of an **@namespace** rule is the style sheet that it is declared in. You must declare an **@namespace** rule after any [**@charset**](/css/atrules/@charset) or [**@import**](/css/atrules/@import) rules.
 
-### <span>Syntax</span>
+### Syntax
 
 `@namespace prfx? sUrl`
 
-### <span>Parameters</span>
+### Parameters
 
 *prfx*
 :   Optional. A **String** value that specifies a namespace prefix.
 *sUrl*
 :   A URL **String**value that specifies a namespace name.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Namespaces Module](http://www.w3.org/TR/css3-namespace/#declaration)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Syntax</span>
+#### Syntax
 
 -   [@charset](/css/atrules/@charset)
 

@@ -10,11 +10,11 @@ tags:
 uri: javascript/Float64Array
 
 ---
-## <span>Summary</span>
+## Summary
 
 A typed array of 64-bit float values. The contents are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -46,7 +46,7 @@ A typed array of 64-bit float values. The contents are initialized to 0. If the 
 **length**
 :   The length of the array.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use a Float64Array object to process the binary data acquired from an XmlHttpRequest:
 
@@ -69,7 +69,7 @@ var req = new XMLHttpRequest();
      }
 ```
 
-## <span>Constants</span>
+## Constants
 
 The following table lists the constants of the **Float64Array** object.
 
@@ -77,7 +77,7 @@ The following table lists the constants of the **Float64Array** object.
 |:-------|:----------|
 |[BYTES\_PER\_ELEMENT Constant](/javascript/Float64Array/BYTES_PER_ELEMENT)|The size in bytes of each element in the array.|
 
-## <span>Properties</span>
+## Properties
 
 The following table lists the constants of the **Float64Array** object.
 
@@ -88,7 +88,7 @@ The following table lists the constants of the **Float64Array** object.
 |[byteOffset Property](/javascript/Float64Array/length)|Read-only. The offset of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.|
 |[length Property](/javascript/Float64Array/length)|The length of the array.|
 
-## <span>Methods</span>
+## Methods
 
 The following table lists the methods of the **Float64Array** object.
 

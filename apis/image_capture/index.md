@@ -11,19 +11,19 @@ tags:
 uri: 'apis/image capture'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Allows users to take a photo via Javascript.
 
-## <span>Usage</span>
+## Usage
 
      This API takes a valid MediaStream and returns an encoded image in the form of a Blob. The image is provided by the capture device that provides the MediaStream. Moreover, picture-specific settings can be optionally provided as arguments that can be applied to the image being captured.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Mobile</span>
+#### Mobile
 
 -   [Battery Status API](/apis/battery_status)
 
@@ -37,7 +37,7 @@ Allows users to take a photo via Javascript.
 
 -   [capture](/html/attributes/capture)
 
-### <span>External resources</span>
+### External resources
 
 -   [Mediastream Image Capture W3C on GitHub](http://w3c.github.io/mediacapture-image/)
 -   [Mediastream Image Capture - W3C Page](http://www.w3.org/TR/image-capture/)

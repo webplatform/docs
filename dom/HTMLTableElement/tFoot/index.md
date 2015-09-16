@@ -21,14 +21,14 @@ uri: dom/HTMLTableElement/tFoot
 ---
 Property of [dom/HTMLTableElement](/dom/HTMLTableElement)[dom/HTMLTableElement](/dom/HTMLTableElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.tFoot;
 element.tFoot = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example sets the color of the **tFoot** object to blue.
 
@@ -36,20 +36,20 @@ This example sets the color of the **tFoot** object to blue.
 document.all.myTable.tFoot.style.color = "blue"
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If the table doesn't have a foot section, the value for the property is null. If multiple table feet are listed in on a document, only the first one is treated as the foot of the table.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `table`

@@ -13,7 +13,7 @@ tags:
 uri: 'html/attributes/border (frameSet, iframe)'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the space between the frames, including the 3-D border.
 
@@ -31,19 +31,19 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 This property applies either to the outer **frameSet** element or to inner **frameSet** elements. When you specify the **border** property of the outermost **frameSet** element, the **border** properties of any inner **frameSet** elements are ignored. When you do not specify the **border** property of the outermost **frameSet** element, the **border** properties of inner **frameSet** elements are not ignored. Setting a border to zero or omitting the attribute causes no border to be displayed. Supplying the border attribute without a value defaults to a single border.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `frameSet`
 -   `iframe`

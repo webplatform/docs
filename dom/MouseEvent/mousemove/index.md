@@ -14,11 +14,11 @@ tags:
 uri: dom/MouseEvent/mousemove
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fires when the user moves the mouse over the object.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -72,7 +72,7 @@ none
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the **onmousemove** event to monitor the location of the mouse cursor on the screen. When the mouse cursor moves over the **div** object, a **span** object is updated with the [**clientX**](/dom/MouseEvent/clientX) and [**clientY**](/dom/MouseEvent/clientY) property values. The **clientX** and **clientY** properties are exposed by the event object.
 
@@ -105,21 +105,21 @@ function moveCrosshairs(evt){
 
 [View live example](http://result.dabblet.com/gist/7c3297a000687b42de03/011b604311ed518c148e9d88637ae79f32e7a4f7)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If the user presses a mouse button, use the **button** property to determine which button was pressed. Initiates any action associated with this event. To invoke this event, do one of the following:
 
 -   Move the mouse over the document.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

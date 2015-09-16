@@ -24,16 +24,16 @@ todo_broken_links:
 uri: html/elements/!DOCTYPE
 
 ---
-## <span>Summary</span>
+## Summary
 
 A Document Type Declaration, or DOCTYPE, is an instruction that associates a particular SGML or XML document (for example, a webpage) with a Document Type Definition (DTD) (for example, the formal definition of a particular version of HTML). In the serialized form of the document, it manifests as a short string of markup that conforms to a particular syntax. Not including &lt;!DOCTYPE&gt; may trigger Quirks mode.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 HTML5 has one doctype declaration
 
@@ -53,7 +53,7 @@ HTML 4.01 Transitional
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 ```
 
-## <span>Usage</span>
+## Usage
 
      Add
 
@@ -63,7 +63,7 @@ HTML 4.01 Transitional
 
     to the start of your document.
 
-## <span>Notes</span>
+## Notes
 
 The \<!DOCTYPE\> declaration must be the very first thing in an HTML document, before the \<html\> tag.
 
@@ -73,11 +73,11 @@ In HTML 4.01, the \<!DOCTYPE\> declaration refers to a DTD, because HTML 4.01 wa
 
 [HTML5](/w/index.php?title=HTML5&action=edit&redlink=1) is not based on SGML, and therefore does not require a reference to a DTD.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Deprecated</span>
+#### Deprecated
 
 -   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 
@@ -109,7 +109,7 @@ In HTML 4.01, the \<!DOCTYPE\> declaration refers to a DTD, because HTML 4.01 wa
 
 -   [unescape](/javascript/unescape)
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -249,6 +249,6 @@ In HTML 4.01, the \<!DOCTYPE\> declaration refers to a DTD, because HTML 4.01 wa
 
 -   [time](/html/elements/time)
 
-### <span>Other articles</span>
+### Other articles
 
 html/quirksmode

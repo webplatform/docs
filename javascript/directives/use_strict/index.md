@@ -10,17 +10,17 @@ tags:
 uri: 'javascript/directives/use strict'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Restricts the use of some potentially-harmful features of JavaScript (e.g., eval, with) and throws syntax errors for certain sloppy code.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     "use strict";
 
-## <span>Examples</span>
+## Examples
 
 The following code causes a syntax error because in strict mode all variables must be declared with `var`.
 

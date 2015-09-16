@@ -24,20 +24,20 @@ tags:
 uri: 'apis/image capture/PhotoSettings/imageWidth'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This reflects the desired image width.
 
 Property of [apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSettings)[apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSettings)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = photoSettings.imageWidth;
 photoSettings.imageWidth = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 

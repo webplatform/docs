@@ -11,11 +11,11 @@ tags:
 uri: javascript/Date
 
 ---
-## <span>Summary</span>
+## Summary
 
 Enables basic storage and retrieval of dates and times.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -56,7 +56,7 @@ Enables basic storage and retrieval of dates and times.
 **ms**
 :   Optional. An integer from 0 to 999 that specifies the milliseconds.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the Date object.
 
@@ -75,7 +75,7 @@ var dateString = "Today's date is: ";
  // Output: Today's date is: <date>
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 A Date object contains a number representing a particular instant in time to within a millisecond. If the value of an argument is greater than its range or is a negative number, other stored values are modified accordingly. For example, if you specify 150 seconds, JavaScript redefines that number as two minutes and 30 seconds.
 
@@ -85,15 +85,15 @@ The range of dates that can be represented in a Date object is approximately 285
 
 See Date and Time Calculations (Windows Scripting - JScript) for more information about how to use the Date object and related methods.
 
-## <span>Properties</span>
+## Properties
 
 The following table lists the properties of the **Date** object.
 
-## <span>Functions</span>
+## Functions
 
 The following table lists the functions of the **Date** object.
 
-## <span>Methods</span>
+## Methods
 
 The following table lists the methods of the **Date** object.
 
@@ -144,7 +144,7 @@ The following table lists the methods of the **Date** object.
 |[hasOwnProperty](/javascript/Object/hasOwnProperty)|Determines whether an object has a property with the specified name.|
 |[isPrototypeOf](/javascript/Object/isPrototypeOf)|Determines whether an object exists in another object's prototype chain.|
 
-## <span>Properties</span>
+## Properties
 
 The following table lists properties of the **Date Object**.
 
@@ -153,7 +153,7 @@ The following table lists properties of the **Date Object**.
 |[constructor](/javascript/Date/constructor)|Specifies the function that creates an object.|
 |[prototype](/javascript/Date/prototype)|Returns a reference to the prototype for a class of objects.|
 
-## <span>Functions</span>
+## Functions
 
 The following table lists functions of the **Date Object**.
 

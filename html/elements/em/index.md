@@ -16,16 +16,16 @@ tags:
 uri: html/elements/em
 
 ---
-## <span>Summary</span>
+## Summary
 
 The em element indicates text that has emphasis.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **em** element to emphasize text.
 
@@ -42,11 +42,11 @@ Incidentally, the level of stress that a particular piece of content has is give
 <em>the sky is falling… <em>the sky is falling!</em></em></em></q></p>
 ```
 
-## <span>Usage</span>
+## Usage
 
      The em element is a phrasing-level element. It must not contain block-level elements, but it can contain other phrasing-level elements.
 
-## <span>Notes</span>
+## Notes
 
 By default, most browsers render the **em** element in italics, but you can change that in CSS.
 
@@ -56,7 +56,7 @@ If you are looking to indicate text that is in an alternate voice, mood, or lang
 
 If you wish to italicize the name of a creative work (e.g. a magazine, book, or film title), use the [**cite** element](/html/elements/cite) instead.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-em-element)
 :   W3C Working Draft
@@ -67,11 +67,11 @@ If you wish to italicize the name of a creative work (e.g. a magazine, book, or 
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-EM)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -211,7 +211,7 @@ If you wish to italicize the name of a creative work (e.g. a magazine, book, or 
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -291,7 +291,7 @@ If you wish to italicize the name of a creative work (e.g. a magazine, book, or 
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `acronym`

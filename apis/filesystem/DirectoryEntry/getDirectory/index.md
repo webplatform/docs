@@ -18,7 +18,7 @@ tags:
 uri: apis/filesystem/DirectoryEntry/getDirectory
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates or looks up a directory.
 
@@ -26,22 +26,22 @@ Creates or looks up a directory.
 
 Method of [apis/filesystem/DirectoryEntry](/apis/filesystem/DirectoryEntry)[apis/filesystem/DirectoryEntry](/apis/filesystem/DirectoryEntry)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  DirectoryEntry.getDirectory(path, options, successCallback, errorCallback);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>path</span>
+### path
 
  Data-type
 :   String
 
  Either an absolute path or a relative path from this DirectoryEntry to the directory to be looked up or created. It is an error to attempt to create a directory whose immediate parent does not yet exist.
 
-### <span>options</span>
+### options
 
  Data-type
 :   String
@@ -54,7 +54,7 @@ Method of [apis/filesystem/DirectoryEntry](/apis/filesystem/DirectoryEntry)[apis
 -   If create is not true and the path exists, but is a file, getDirectory must fail.
 -   Otherwise, if no other error occurs, getDirectory must return a DirectoryEntry corresponding to path.
 
-### <span>successCallback</span>
+### successCallback
 
  Data-type
 :   String
@@ -63,7 +63,7 @@ Method of [apis/filesystem/DirectoryEntry](/apis/filesystem/DirectoryEntry)[apis
 
 A callback that is called to return the DirectoryEntry selected or created.
 
-### <span>errorCallback</span>
+### errorCallback
 
  Data-type
 :   String
@@ -72,13 +72,13 @@ A callback that is called to return the DirectoryEntry selected or created.
 
 A callback that is called when errors happen.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

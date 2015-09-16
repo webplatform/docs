@@ -20,37 +20,37 @@ uri: css/selectors/attributes/whitespace
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note**  Requires Windows Internet Explorer 7 or later. **Note**  Attribute selectors are not supported in webpages that are displayed in the Microsoft Internet Explorer 5 document mode (also known as "Quirks" mode). To use attribute selectors, add a [!DOCTYPE](/html/elements/!DOCTYPE) directive that specifies a standards-based document. For more information, see [Defining Document Compatibility](http://go.microsoft.com/fwlink/p/?LinkID=125785). Attributes are case-sensitive. Matches any E element whose "att" attribute value is a list of space-separated values, one of which is exactly equal to "val". If the target *val* contains whitespace, the rule will not match anything.
 
-### <span>Syntax</span>
+### Syntax
 
 ` E[att~=val] {...}`
 
-### <span>Parameters</span>
+### Parameters
 
 *att*
 :   Must be either an Identifier or a String.
 *val*
 :   Must be either an Identifier or a String.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Attribute selectors](http://www.w3.org/TR/CSS2/selector.html#attribute-selectors)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Combinators</span>
+#### Combinators
 
 -   **whitespace**
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 

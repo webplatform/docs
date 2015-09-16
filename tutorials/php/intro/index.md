@@ -12,15 +12,15 @@ uri: tutorials/php/intro
 
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>About php</span>
+## About php
 
 Placeholder
 
-## <span>Why php?</span>
+## Why php?
 
 Placeholder
 
-## <span>What you will learn</span>
+## What you will learn
 
 -   The basics of PHP
 -   When to use PHP

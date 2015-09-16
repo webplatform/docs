@@ -27,11 +27,11 @@ todo_broken_links:
 uri: css/properties/behavior
 
 ---
-## <span>Summary</span>
+## Summary
 
 Non standard. Sets or retrieves the location of the Dynamic HTML (DHTML) behavior.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :
@@ -54,11 +54,11 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
-## <span>Examples</span>
+## Examples
 
 The following examples demonstrate various ways of applying the **-ms-behavior** property on a page.
 
@@ -126,9 +126,9 @@ If the expanding/collapsing example were to use a DHTML behavior implemented in 
 </ul>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 You can apply multiple behaviors to an element by specifying a space-delimited list of URLs for the **-ms-behavior** attribute, as shown in the following syntax:
 
@@ -136,15 +136,15 @@ You can apply multiple behaviors to an element by specifying a space-delimited l
 
 In the following section, one example demonstrates how you can apply two behaviors to an element to achieve a combination of effects. Conflicts resulting from applying multiple behaviors to an element are resolved based on the order in which the behavior is applied to the element. Each succeeding behavior takes precedence over the previous behavior. For example, if multiple behaviors set the element's color, the prevailing color is the one set by the behavior last applied to the element. The same rule applies in resolving name conflicts, such as with property, method, or event names exposed by multiple behaviors. Once the **-ms-behavior** property is defined for the element, the **addBehavior** method can be used to dynamically attach additional behaviors to the element. **Note**  A behavior attached to an element by using the **addBehavior** method or by applying the proposed Cascading Style Sheets (CSS) **-ms-behavior** attribute inline is not automatically detached from the element when the element is removed from the document hierarchy. However, a behavior attached using a style rule defined in the document is detached automatically as the element is removed from the document tree. Windows Internet Explorer 8. The **-ms-behavior** attribute is an extension to CSS, and can be used as a synonym for **behavior** in IE8 Standards mode.
 
-### <span>Syntax</span>
+### Syntax
 
 `-ms-behavior: url(sLocation) | url(#objID) | url(#default#behaviorName)`
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Media Queries</span>
+#### Media Queries
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -184,7 +184,7 @@ In the following section, one example demonstrates how you can apply two behavio
 
 -   **behavior**
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

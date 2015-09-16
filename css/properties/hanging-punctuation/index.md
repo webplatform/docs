@@ -20,11 +20,11 @@ tags:
 uri: css/properties/hanging-punctuation
 
 ---
-## <span>Summary</span>
+## Summary
 
 If a punctuation mark is present, this property determines if the punctuation mark hangs and whether it can be placed outside the line box and the start or at the end of a line of text.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -50,9 +50,9 @@ Animatable
 Percentages
 :   Not available
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 none
 :   No character hangs
@@ -71,20 +71,20 @@ allow-end
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 When measuring the line's contents for fit, alignment, or justification, the punctuation mark is not considered when it hangs. The mark may be placed outside the line box depending on the line's alignment.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/#hanging-punctuation0)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

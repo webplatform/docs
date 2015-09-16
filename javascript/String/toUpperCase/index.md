@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/toUpperCase
 
 ---
-## <span>Summary</span>
+## Summary
 
 Converts all the alphabetic characters in a string to uppercase.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -24,7 +24,7 @@ Converts all the alphabetic characters in a string to uppercase.
 
     "String Literal".toUpperCase()
 
-## <span>Examples</span>
+## Examples
 
 The following example demonstrates the effects of the **toUpperCase** method:
 
@@ -36,13 +36,13 @@ var str1 = "This is a STRING.";
  // Output: THIS IS A STRING.
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **toUpperCase** method has no effect on non-alphabetic characters.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [toLocaleUpperCase Method (String)](/javascript/String/toLocaleUpperCase)
 -   [toLowerCase Method](/javascript/String/toLowerCase)

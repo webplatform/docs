@@ -24,13 +24,13 @@ tags:
 uri: dom/Document/referrer
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the URL of the location that referred the user to the current document.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 var referrerURL = document.referrer;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -46,7 +46,7 @@ The URL of the referring document, or an empty string.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 -   It returns a value only when the user reaches the current document through a link from the previous document. Otherwise, it returns an empty string.
 
@@ -54,7 +54,7 @@ For example, if DocumentA.htm includes a link to DocumentB.htm, and the user cli
 
 -   It also returns an empty string when the link is from a secure site.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 HTML](http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/)
 :   Recommendation

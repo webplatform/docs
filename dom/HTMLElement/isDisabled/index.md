@@ -22,14 +22,14 @@ uri: dom/HTMLElement/isDisabled
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.isDisabled;
 element.isDisabled = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **isDisabled** property to determine whether an object is disabled.
 
@@ -55,4 +55,4 @@ Input disabled: <SPAN ID="oCurrentValue"></SPAN>
 </BODY>
 ```
 
-### <span>Syntax</span>
+### Syntax

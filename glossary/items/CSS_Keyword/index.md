@@ -10,6 +10,6 @@ tags:
 uri: 'glossary/items/CSS Keyword'
 
 ---
-## <span>CSS Keyword</span>
+## CSS Keyword
 
 A CSS keyword is a literal string that has a special meaning when used as a value for a css property. Examples: `inherit`, `smaller`, `white`.

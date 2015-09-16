@@ -21,14 +21,14 @@ uri: dom/HTMLElement/frameElement
 ---
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.frameElement;
 element.frameElement = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following example retrieves the **frame** element of the window and sets its source URL to Microsoft Developer Network (MSDN) Online.
 
@@ -39,16 +39,16 @@ The following example retrieves the **frame** element of the window and sets its
 </SCRIPT>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The window must be a **frame** or **iframe**.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `window`

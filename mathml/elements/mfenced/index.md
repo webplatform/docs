@@ -14,16 +14,16 @@ tags:
 uri: mathml/elements/mfenced
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML mfenced element provides the possibility to add custom opening and closing parentheses (such as brackets) and separators (such as commas or semicolons) to an expression.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 These examples demonstrate a simple usage of the merror element:
 
@@ -53,7 +53,7 @@ These examples demonstrate a simple usage of the merror element:
 
 </pre>
 
-## <span>Attributes</span>
+## Attributes
 
 close
 :   A string for the closing delimiter. The default value is ")" and any white space is trimmed.
@@ -62,7 +62,7 @@ close
  separators
 :   A sequence of zero or more characters to be used for different separators, optionally divided by white space, which is ignored. The default value is ",". By specifying more than one character, it is possible to set different separators for each argument in the expression. If there are too many separators, all excess is ignored. If there are too few separators in the expression, the last specified separator is repeated.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mfenced)
 :   W3C Recommendation

@@ -19,13 +19,13 @@ tags:
 uri: 'apis/resource timing/Performance/onresourcetimingbufferfull'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This callback is triggered when the buffer used to store the list of PerformanceResourceTiming is full.
 
 Property of [apis/resource\_timing/Performance](/apis/resource_timing/Performance)[apis/resource\_timing/Performance](/apis/resource_timing/Performance)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -33,7 +33,7 @@ Property of [apis/resource\_timing/Performance](/apis/resource_timing/Performanc
 var result = element.onresourcetimingbufferfull;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example uses clearResourceTimings and setResourceTimingBufferSize to set an initial buffer size. It then uses onresourcetimingbufferfull to detect when the buffer is full, and executes a function that uses clearResourceTimings to clear the buffer.
 
@@ -48,7 +48,7 @@ function buffFull() {
 performance.onresourcetimingbufferfull = buffFull;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Resource Timing Specification](http://www.w3.org/TR/resource-timing/)
 :   W3C Working Draft

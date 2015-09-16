@@ -11,11 +11,11 @@ tags:
 uri: javascript/Boolean/toString
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a string representation of a Boolean object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -24,11 +24,11 @@ Returns a string representation of a Boolean object.
 **boolean**
 :   Required. An object for which to get a string representation.
 
-## <span>Return Value</span>
+## Return Value
 
 If the Boolean value is true , returns "true". Otherwise, returns "false".
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **toString** method.
 
@@ -49,9 +49,9 @@ var myVar = flag.toString();
 // myVar returns the string "true"
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [Boolean Objects](http://www.ecma-international.org/ecma-262/5.1/#sec-15.6) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

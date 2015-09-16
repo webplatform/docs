@@ -24,34 +24,34 @@ tags:
 uri: dom/Document/getElementsByName
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns an HTMLCollection of elements in the document that have a name attribute with the specified value.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var elementList = document.getElementsByName(name);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The value of a [**name**](/html/attributes/name) attribute.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 A list of elements with the a name attribute that matches the specified value.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **getElementsByName** method to return a collection of **input type=text** elements with the specified [**name**](/html/attributes/name) attribute value, `firstName`.
 
@@ -67,7 +67,7 @@ function getFirstNames() {
 <input type="button" value="Get Names" onclick="getFirstNames()">
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 HTML](http://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-71555259)
 :   Recommendation

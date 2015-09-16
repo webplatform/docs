@@ -24,13 +24,13 @@ tags:
 uri: dom/HTMLAppletElement/object
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the contained object.
 
 Property of [dom/HTMLAppletElement](/dom/HTMLAppletElement)[dom/HTMLAppletElement](/dom/HTMLAppletElement)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [dom/HTMLAppletElement](/dom/HTMLAppletElement)[dom/HTMLAppletElemen
 var result = applet.object;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -46,11 +46,11 @@ The applet object.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      If the control's object model uses a conflicting namespace, precede the control's property with object to resolve the conflict.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/)
 :   Recommendation
@@ -58,9 +58,9 @@ The applet object.
 [HTML 4.01](http://www.w3.org/TR/html401/)
 :   Recommendation (deprecated usage)
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `object`
 -   `applet`

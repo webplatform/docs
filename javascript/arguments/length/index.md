@@ -10,17 +10,17 @@ tags:
 uri: javascript/arguments/length
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the actual number of arguments passed to a function by the caller.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     [ function.] arguments.length
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **length** property of the **arguments** object. To fully understand the example, pass more arguments to the function than the 2 arguments expected:
 
@@ -36,15 +36,15 @@ function ArgTest(a, b){
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The optional function argument is the name of the currently executing Function object.
 
 The **length** property of the **arguments** object is initialized by the scripting engine to the actual number of arguments passed to a Function object when execution begins in that function.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [arguments Property (Function)](/javascript/Function/arguments)
 -   [length Property (Array)](/javascript/Array/length)

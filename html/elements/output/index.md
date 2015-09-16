@@ -15,18 +15,18 @@ todo_broken_links:
 uri: html/elements/output
 
 ---
-## <span>Summary</span>
+## Summary
 
 The HTML &lt;output&gt; element represents the result of a calculation.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLOutputElement](/w/index.php?title=dom/HTMLOutputElement&action=edit&redlink=1)
 
 The HTML \<output\> element represents the result of a calculation.
 
-## <span>Attributes</span>
+## Attributes
 
 -   `for` = unordered set of unique space-separated tokens
     Allows an explicit relationship to be made between the result of a calculation and the elements that represent the values that went into the calculation or that otherwise influenced the calculation.
@@ -37,7 +37,7 @@ The HTML \<output\> element represents the result of a calculation.
 -   `name` = unique name
     Represents the element's name.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
@@ -47,7 +47,7 @@ The HTML \<output\> element represents the result of a calculation.
 </form>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-output-element)
 :   W3C Working Draft

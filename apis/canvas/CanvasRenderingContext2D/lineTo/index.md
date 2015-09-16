@@ -18,39 +18,39 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/lineTo
 
 ---
-## <span>Summary</span>
+## Summary
 
 Connects the last point in the subpath to the given point (x, y) using a straight line, and then adds the point to the subpath.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  context.lineTo(x, y);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
+### x
 
  Data-type
 :   Number
 
  The x-coordinate, in pixels.
 
-### <span>y</span>
+### y
 
  Data-type
 :   Number
 
  The y-coordinate, in pixels.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 This example uses moveTo to establish a subpath starting point, and then uses lineTo to add line segments.
 
@@ -68,11 +68,11 @@ ctxt.stroke();
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 If subpath is not allocated, the user agent will create it. If subpath has no any point (x, y), then point (x, y) will be created for subpath as its first (and only) point, as if the *moveTo(x, y)* method had been called.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

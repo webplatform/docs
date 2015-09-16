@@ -23,13 +23,13 @@ tags:
 uri: dom/Event/isTrusted
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets a value that indicates whether a trusted event source created an event.
 
 Property of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 var isTrusted = event.isTrusted;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -45,13 +45,13 @@ Whether the event was created by a trusted source.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Use this property to determine whether a script created the event, rather than a trusted source (such as a user agent).
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

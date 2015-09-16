@@ -11,31 +11,31 @@ tags:
 uri: 'apis/web animations/AnimationPlayerEvent'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Constructs a new AnimationPlayerEvent object as described in Constructing events in [DOM4].
 
 <http://www.w3.org/TR/dom/#constructing-events>
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   [Web Animations API](/apis/web_animations)
 

@@ -24,26 +24,26 @@ tags:
 uri: dom/Document/defaultView
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the Document's browsing context's Window object (essentially the environment in which objects are presented to the user) if there is one, or null otherwise.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var Window = document.defaultView;
 document.defaultView = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
 Returns the Window object of the active document
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //displays the document's browsing context
@@ -52,13 +52,13 @@ function showDefView() {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5 Specification](http://www.w3.org/TR/html5/browsers.html#window)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Document`

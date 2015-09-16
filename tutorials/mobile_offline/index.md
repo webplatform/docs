@@ -13,11 +13,11 @@ uri: 'tutorials/mobile offline'
 **By Paul Kinlan**
 Originally published June 1, 2011
 
-## <span>Summary</span>
+## Summary
 
 Take your application offline using HTML5 Application Cache
 
-## <span>Introduction</span>
+## Introduction
 
 When your web browser was tied to your desktop, there was never really a time that you couldn't get an Internet connection whenever you wanted to.
 
@@ -27,7 +27,7 @@ This article was written on a train from London to Liverpool. The train has Wifi
 
 So how do we solve this problem? It is not simple, but there are steps that you can take today that will let your users use your app whereever they are. Some of these steps have direct solutions implemented in HTML; some will require you to implement some logic, all will help you build a better app.
 
-## <span>Cache your assets</span>
+## Cache your assets
 
 Users are conditioned to not enter a URL when they are not online because they know they will get an error page. But it doesn't have to be this way. It is possible to build applications that will load even when there is no Internet connection.
 
@@ -43,7 +43,7 @@ Following our [AppCache tutorial](http://www.html5rocks.com/tutorials/appcache/b
 
 The browser then ensures that these assets are cached offline until the next time that the manifest file is updated.
 
-## <span>Detecting network connectivity</span>
+## Detecting network connectivity
 
 Now that you can make your app load and present a consistent interface to your users even when you are offline, you need to detect when there is Internet connectivity. This is especially important if your app needs an Internet connection to function properly.
 
@@ -71,7 +71,7 @@ The API is straightforward, how do you get it to work if the API isn't implement
 
 It is possible to use a couple more signals to detect if you are offline including side-effects of the AppCache and listening to the responses from XMLHttpRequest.
 
-### <span>AppCache error event</span>
+### AppCache error event
 
 The AppCache system always makes an attempt to request the manifest to check to see if it needs to update its list of assets. If that requests fails it is normally one of two things, the manifest file is no longer being used (that is, it is not hosted) or the system is unable to access the network to fetch the file.
 
@@ -81,7 +81,7 @@ The AppCache system always makes an attempt to request the manifest to check to 
 
 Detecting this request failure is a good indication of whether you have a network connection or not.
 
-### <span>XMLHttpRequest</span>
+### XMLHttpRequest
 
 Network connections can fail during the use of your application, so how do you detect this?
 
@@ -184,7 +184,7 @@ We can now build applications that are notified when there is a failure somewher
       alert("There is a connection error");
     });
 
-### <span>Periodically checking network state</span>
+### Periodically checking network state
 
 Using the exact same structure that we in the XML Http Request example, it is possible to periodically check a file on the network to see if there is a network connection.
 
@@ -192,7 +192,7 @@ Using the exact same structure that we in the XML Http Request example, it is po
 
 Use this sparingly. If your service is popular this can produce an increased amount of traffic.
 
-## <span>Cache your assets. Part II: Bootstrapping</span>
+## Cache your assets. Part II: Bootstrapping
 
 A common misconception with AppCache is the belief that all of your application's logic and assets must be cached for it to function offline. This is not the case. You can bootstrap just enough of your app to get it into a state where you can present a user interface to your users, and load the rest of the information in at run-time.
 
@@ -227,7 +227,7 @@ Integrating a script loader into your projects can while combining it with our t
 
 The above example is sligthly contrived, but you can see how given knowledge of the connection state, you can easily start to load more of your application in at run-time, and, if offline load a different set of scripts that can handle the failure cases.
 
-## <span>Cache your data</span>
+## Cache your data
 
 We gave it away a little earlier in our example "fetch" request.
 

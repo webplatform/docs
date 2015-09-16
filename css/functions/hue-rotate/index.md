@@ -13,7 +13,7 @@ tags:
 uri: css/functions/hue-rotate
 
 ---
-## <span>Summary</span>
+## Summary
 
 Shifts an element's relative hue, for use by the filter property. Accepts either a deg or rad angle measurement representing a wheel of hues.
 
@@ -30,7 +30,7 @@ Specifying measurements greater than 360° (or 2π **rad**) allows animations to
         to   { filter: hue-rotate(1080deg) }
     }
 
-## <span>Examples</span>
+## Examples
 
 The following example shows the difference between two images, where one has a hue rotation of 180 degrees.
 
@@ -60,7 +60,7 @@ The following example shows the difference between two images, where one has a h
 
 [View live example](http://codepen.io/pverbeek/pen/axEbp)
 
-## <span>Notes</span>
+## Notes
 
 The CSS filter corresponds to this SVG filter definition, based on a variable *angle* passed to the function:
 
@@ -74,7 +74,7 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 
  ![saturated hue rotation.JPG](/assets/thumb/d/d4/saturated_hue_rotation.JPG/400px-saturated_hue_rotation.JPG)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#)
 :   Editor's Draft
@@ -82,11 +82,11 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 
@@ -170,7 +170,7 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### <span>External resources</span>
+### External resources
 
 -   [Adobe CSS FilterLab](http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/)
 -   [Interactive demonstration](http://html5-demos.appspot.com/static/css/filters/index.html)

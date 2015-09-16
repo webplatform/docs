@@ -13,11 +13,11 @@ todo_broken_links:
 uri: 'svg/tutorials/smarter svg text'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This guide shows how to embed text in your SVG content.
 
-## <span>Basic Text</span>
+## Basic Text
 
 -   x
 -   y
@@ -27,16 +27,16 @@ This guide shows how to embed text in your SVG content.
 -   lengthAdjust
 -   tspan
 
-## <span>Referencing Text</span>
+## Referencing Text
 
 -   tref
 
-## <span>Advanced Effects</span>
+## Advanced Effects
 
 -   rotate
 -   textPath
 
-## <span>Font Glyphs</span>
+## Font Glyphs
 
 CSS2 Font:
 

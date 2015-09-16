@@ -10,11 +10,11 @@ tags:
 uri: javascript/Object/create
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates an object that has the specified prototype, and that optionally contains specified properties.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,11 +26,11 @@ Creates an object that has the specified prototype, and that optionally contains
 **descriptors**
 :   Optional. A JavaScript object that contains one or more property descriptors.A data property is a property that can get and set a value. A data property descriptor contains a value attribute, plus writable , enumerable , and configurable attributes. If the last three attributes are not specified, they default to false. An accessor property calls a user-provided function every time the value is retrieved or set. An accessor property descriptor contains a set attribute, a get attribute, or both. For more information, see [Object.defineProperty Function](/javascript/Object/defineProperty).
 
-## <span>Return Value</span>
+## Return Value
 
 A new object that has the specified internal prototype and contains the specified properties, if any.
 
-## <span>Examples</span>
+## Examples
 
 The following example creates an object using a null prototype and adds two enumerable properties.
 
@@ -111,11 +111,11 @@ The following example creates an object that has the same internal prototype as 
  var Square = Object.create(Object.getPrototypeOf(Shape));
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 You can use this function using a null prototype parameter in order to stop the prototype chain. The object created will have no prototype.
 
-## <span>Exceptions</span>
+## Exceptions
 
 A TypeError exception is thrown if any of the following conditions is true:
 
@@ -123,9 +123,9 @@ A TypeError exception is thrown if any of the following conditions is true:
 -   A descriptor in the descriptors argument has a value or writable attribute, and has a get or set attribute.
 -   A descriptor in the descriptors argument has a get or set attribute that is not a function.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Object.getPrototypeOf Function](/javascript/Object/getPrototypeOf)
 -   [isPrototypeOf Method (Object)](/javascript/Object/isPrototypeOf)

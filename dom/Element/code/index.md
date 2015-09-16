@@ -22,7 +22,7 @@ uri: dom/Element/code
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.code;
@@ -31,9 +31,9 @@ element.code = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The `code` property returns one of the following file error codes.
 
@@ -84,11 +84,11 @@ The `code` property returns one of the following file error codes.
 
   See [**FileError**](/apis/file/FileError) for a code example using these error codes.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `FileError`
 -   `MSStreamError`

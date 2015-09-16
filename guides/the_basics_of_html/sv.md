@@ -77,15 +77,15 @@ translations:
 uri: 'guides/the basics of html/sv'
 
 ---
-## <span>Summary</span>
+## Summary
 
 I denna artikel kommer du lära dig grunderna i HTML för att få en uppfattning om strukturen och innehållet av ett HTML dokument.
 
-## <span>Introduktion</span>
+## Introduktion
 
 Denna artikel sammanfattar avsikten och strukturen av HTML på hög nivå. Den kommer bland annat att ta upp hur element fungerar samt vad de olika karaktärerna fyller för funktion i språket. Artiklarna som nedan följer kommer ge dig en detaljrik djupdykning i specifika delar av språket HTML.
 
-## <span>Vad HTML är</span>
+## Vad HTML är
 
 De flesta program som du använder vanligtvis på skrivbordet använder speciella filformat. Ett exempel, Microsoft Word använder ".doc" filer och Microsoft Excel använder ".xls". Dessa filer innehåller den information som programmet behöver för att åter visa dokumenten när du öppnar dem. Filen innehåller bland annat all information du lagt in, dess "metadata" och datumet dokumentet senast redigerades.
 
@@ -93,7 +93,7 @@ HTML ("Hypertext Markup Language") är ett så kallat sidbeskrivningsspråk. Det
 
 En användaragent är en mjukvara som används för att åtkomma hemsidor å användarens vägnar. Det är viktigt att påpeka—alla typer av webbläsare för skrivbordet (Internet Explorer, Opera, Firefox, Safari, Chrome osv.) samt webbläsare för andra enheter (såsom Wii Internet Channel och mobila webbläsare som Opera Mini och WebKit för iPhone) är användaragenter, men alla användaragenter är inte webbläsarmjukvara. De automatiserade program som Google och Yahoo! använder för att indexera webben för sina sökmotorer är också användaragenter, men ingen människa kontrollerar dem.
 
-## <span>Hur HTML ser ut</span>
+## Hur HTML ser ut
 
 HTML är helt enkelt bara en representativ text med innehåll och dess innebörd. Till exempel:
 
@@ -105,7 +105,7 @@ HTML är helt enkelt bara en representativ text med innehåll och dess innebörd
 
 I de flesta webbläsare finns en "Visa sidkälla", eller liknande, alternativ. Detta hittar du vanligtvis i "View" menyn. Testa denna funktion - gå till en sida du gillar, använd detta verktyg, och spendera lite tid och skumma igenom den HTML kod som uppgör strukturen för sidan.
 
-## <span>Strukturen av ett HTML dokument</span>
+## Strukturen av ett HTML dokument
 
 Ett typiskt exempel av ett HTML dokument ser ut såhär:
 

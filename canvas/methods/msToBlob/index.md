@@ -26,22 +26,22 @@ uri: canvas/methods/msToBlob
 
 Method of [dom/HTMLCanvasElement](/dom/HTMLCanvasElement)[dom/HTMLCanvasElement](/dom/HTMLCanvasElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.msToBlob(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>retVal</span>
+### retVal
 
  Data-type
 :   Blob
 
  A blob object.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -53,10 +53,10 @@ This method can return one of these values.
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLCanvasElement`

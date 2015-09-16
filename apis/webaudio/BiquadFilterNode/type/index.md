@@ -20,20 +20,20 @@ tags:
 uri: apis/webaudio/BiquadFilterNode/type
 
 ---
-## <span>Summary</span>
+## Summary
 
 The type of BiquadFilterNode (filtering algorithm) the node is implementing.
 
 Property of [apis/webaudio/BiquadFilterNode](/apis/webaudio/BiquadFilterNode)[apis/webaudio/BiquadFilterNode](/apis/webaudio/BiquadFilterNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = BiquadFilterNode.type;
 BiquadFilterNode.type = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned shortunsigned short
 
@@ -48,7 +48,7 @@ Uses one of the following constant values:
 -   NOTCH (6), restricting a set of frequencies;
 -   ALLPASS (7), a second-order allpass filter.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -56,7 +56,7 @@ var biquadFilter = audioCtx.createBiquadFilter();
 biquadfilter.type = 'lowpass';
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

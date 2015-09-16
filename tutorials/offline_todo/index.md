@@ -15,11 +15,11 @@ uri: 'tutorials/offline todo'
 **By Paul Kinlan**
 Originally published published June 18, 2010, updated Sept. 4, 2012
 
-## <span>Summary</span>
+## Summary
 
 A guide to taking web apps offline.
 
-## <span>Introduction</span>
+## Introduction
 
 There are two main components to Offline support in HTML.
 
@@ -30,11 +30,11 @@ This sample demonstrates how to take your applications offline using the Applica
 
 The TODO list manager already demonstrates the use of client-side databases, so combining this with the Application Cache and using all the same Javascript and HTML will give you a clear indication of how simple it can be to take your applications offline.
 
-## <span>What is the Application Cache?</span>
+## What is the Application Cache?
 
 The Application Cache (App Cache for short) is designed to let you declaratively specify your web application's required resources in a manifest file. The resources listed in the manifest will be proactively downloaded and stored by the browser.
 
-## <span>Step 1. Creating a basic manifest</span>
+## Step 1. Creating a basic manifest
 
 Because we already have an application on the web, it is a simple process to add offline support. The first thing we need to do is to create our manifest file.
 
@@ -48,7 +48,7 @@ The manifest file contains a comment (the line beginning with "\#") and a list o
 
 The browser will re-download all the files in the manifest if it detects any change in the manifest file. Therefore, if you are deploying software and making changes, you can use the comment line to ensure that all your users download the latest application.
 
-## <span>Step 2. Attaching the manifest</span>
+## Step 2. Attaching the manifest
 
 For the browser to be able find the manifest file, we need to reference it from the root `<html>` element.
 
@@ -56,17 +56,17 @@ For the browser to be able find the manifest file, we need to reference it from 
 
 The presence of this attribute instructs the browser to download the manifest file and start the process of acquiring the resources needed to ensure your application is available in offline mode.
 
-## <span>Step 3. Pulling the plug (Testing)</span>
+## Step 3. Pulling the plug (Testing)
 
 If you have correctly listed all the application files, then your application will be available offline.
 
 For an example, see our sample application at HTML5Rocks!: [Offline To-do list](http://www.html5rocks.com/en/tutorials/offline/takingappoffline/todo/sample.html). In this application, we are using all the same code as our previous To-do sample, but now it is available offline.
 
-## <span>Taking it further</span>
+## Taking it further
 
 This is a pretty simple example; in reality, applications are a little more in-depth. So now is a good time to cover some more features of the App Cache.
 
-### <span>Mixing offline and online</span>
+### Mixing offline and online
 
 Quite often you will not want to package all your files inside one offline manifest. For instance, you might have an online help system that your users will reference.
 
@@ -84,7 +84,7 @@ To ensure that your users don't get a "404 Page Not Found" error when visiting y
 
 To see this in action use our sample HTML5Rocks! [Offline To-do list](http://www.html5rocks.com/en/tutorials/offline/takingappoffline/todo/sample.html) application, disconnect from the Internet, and then and click on [Online help](http://www.html5rocks.com/en/tutorials/offline/takingappoffline/todo/help.html). You should see a Whoopsie page.
 
-### <span>Accessing dynamic content</span>
+### Accessing dynamic content
 
 By default, the application cache will not allow users to access resources that have not been defined in the manifest. This means that access to dynamic data, such as a back-end database or a remote web API such as Twitter, will fail.
 
@@ -120,7 +120,7 @@ You can now call any resource in the bin directory.
 
 When your application goes offline, requests to anything in the "NETWORK" section will fail and will need to be handled by your code. The FALLBACK mechanism will not kick in.
 
-### <span>Detecting updates</span>
+### Detecting updates
 
 There is a very strong chance that you will need to update your application, whether to fix bugs or to add new functionality. Once an application is offline, it remains so until users clears their browse cache or until you programatically update their version of the code.
 
@@ -146,13 +146,13 @@ The good thing is, the browser can handle all of this. Earlier we talked about t
 
 Note that some browsers will load the new application the next time your user uses your application. Some browsers will require you to perform a swapCache(), therefore it makes sense to programatically update the user to the new version.
 
-### <span>Accessing web APIs</span>
+### Accessing web APIs
 
 Let's say you are building a Google Buzz client. You have made it offline-enabled and you want to use JSONP to access Buzz directly. You will quickly find that it won't work. App Cache doesn't let you white-list requests to cross-domain resources.
 
 So what can you do? You will need to build a simple proxy on your domain that you can use to white-list requests to external resources.
 
-## <span>Wrapping it up</span>
+## Wrapping it up
 
 We have seen that it is pretty simple to take your existing applications offline. At the simplest level it is just a process of defining a basic manifest file and attaching it to your root `<html>` element.
 

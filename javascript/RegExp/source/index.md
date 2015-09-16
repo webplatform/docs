@@ -13,17 +13,17 @@ tags:
 uri: javascript/RegExp/source
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a copy of the text of the regular expression pattern. Read-only. The rgExp argument is a Regular expression object. It can be a variable name or a literal.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     rgExp.source
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **source** property:
 
@@ -40,9 +40,9 @@ function SourceDemo(re, s){
  }
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Regular Expression Object](/javascript/regular_expression)
 -   [Regular Expression Object](/javascript/regular_expression)

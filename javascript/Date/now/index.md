@@ -10,21 +10,21 @@ tags:
 uri: javascript/Date/now
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the current date and time.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     Date.now()
 
-## <span>Return Value</span>
+## Return Value
 
 The number of milliseconds between midnight, January 1, 1970, and the current date and time.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **now** method.
 
@@ -39,15 +39,15 @@ var start = Date.now();
  // You took <seconds> seconds to type: <name>
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The [getTime method](/javascript/Date/getTime) returns the number of milliseconds between January 1, 1970, and a specified date.
 
 For information about how to calculate elapsed time and compare dates, see Date and Time Calculations (Windows Scripting - JScript).
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getTime Method (Date)](/javascript/Date/getTime)
 -   [Date Object](/javascript/Date)

@@ -22,14 +22,14 @@ uri: dom/Element/parentTextEdit
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.parentTextEdit;
 element.parentTextEdit = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example retrieves the parent object, if needed, creates the text range, moves to the original object, and selects the first word in the object.
 
@@ -51,10 +51,10 @@ function selectWord()
 </SCRIPT>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The property is an object if the parent exists; otherwise, it is `null`. For example, the **parentTextEdit** property of the **body** is `null`.
 
-### <span>Syntax</span>
+### Syntax

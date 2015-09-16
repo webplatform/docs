@@ -23,7 +23,7 @@ tags:
 uri: dom/Selection/collapseToEnd
 
 ---
-## <span>Summary</span>
+## Summary
 
 Collapses or sets the insertion point or caret at the end of a selection object.
 
@@ -31,13 +31,13 @@ If the content the selection is in is focused and editable, the caret will blink
 
 Method of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = selObj.collapseToEnd();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -45,7 +45,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 The following code example puts the caret or insertion point at the end of the selected text.
 
@@ -75,16 +75,16 @@ The following code example puts the caret or insertion point at the end of the s
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Raises an INVALID\_STATE [**DOMException**](/dom/DOMException) if there are no Ranges in the selection.
 
-### <span>Syntax</span>
+### Syntax
 
 selObj.collapseToEnd()
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1

@@ -21,21 +21,21 @@ tags:
 uri: apis/indexeddb/indexedDB/open
 
 ---
-## <span>Summary</span>
+## Summary
 
 Opens a database. See apis/indexeddb/IDBFactory/open
 
 Method of [apis/indexeddb/indexedDB](/apis/indexeddb/indexedDB)[apis/indexeddb/indexedDB](/apis/indexeddb/indexedDB)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = .open();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 

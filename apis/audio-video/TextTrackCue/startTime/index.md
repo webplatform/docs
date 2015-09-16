@@ -23,24 +23,24 @@ tags:
 uri: apis/audio-video/TextTrackCue/startTime
 
 ---
-## <span>Summary</span>
+## Summary
 
 The text track cue start time, in seconds.
 
 Property of [apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)[apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = TextTrackCue.startTime;
 TextTrackCue.startTime = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 This example adds start times, end times, and captions to a track.
 
@@ -76,7 +76,7 @@ This example adds start times, end times, and captions to a track.
 </html>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

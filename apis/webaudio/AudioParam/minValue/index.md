@@ -22,7 +22,7 @@ tags:
 uri: apis/webaudio/AudioParam/minValue
 
 ---
-## <span>Summary</span>
+## Summary
 
 Nominal minimum value. The value attribute may be set lower than this value.
 
@@ -30,7 +30,7 @@ Nominal minimum value. The value attribute may be set lower than this value.
 
 Property of [apis/webaudio/AudioParam](/apis/webaudio/AudioParam)[apis/webaudio/AudioParam](/apis/webaudio/AudioParam)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [apis/webaudio/AudioParam](/apis/webaudio/AudioParam)[apis/webaudio/
 var result = AudioParam.minValue;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

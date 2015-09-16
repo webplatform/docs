@@ -29,22 +29,22 @@ uri: dom/HTMLElement/doScroll
 
 Method of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.doScroll(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>component</span>
+### component
 
  Data-type
 :   VARIANT
 
  A **String** that specifies how the object scrolls, using one of the following values.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -56,7 +56,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 The following example uses the **doScroll** method to scroll down when a button is clicked.
 
@@ -129,14 +129,14 @@ oScrollMe.doScroll("down");
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/doScrollEX1.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 As of Windows Internet Explorer 9, this method is supported only for webpages displayed in IE5 (Quirks) mode. For webpages displayed in standards mode (preferred), use the [**scrollLeft**](/dom/HTMLElement/scrollLeft) and [**scrollTop**](/dom/HTMLElement/scrollTop) properties. The **doScroll** method is available on all objects, regardless of whether they support scrollbars. Cascading Style Sheets (CSS) allow you to scroll on all objects through the [**overflow**](/css/properties/overflow) property. When the content of an element changes and causes scroll bars to display, the **doScroll** method might not work correctly immediately following the content update. When this happens, you can use the [**setTimeout**](/dom/Window/setTimeout) method to enable the browser to recognize the dynamic changes that affect scrolling.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

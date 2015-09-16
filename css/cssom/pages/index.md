@@ -14,7 +14,7 @@ uri: css/cssom/pages
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -22,22 +22,22 @@ API Name
 [item](/css/cssom/pages/item)
 :
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Although this collection is represented in the Cascading Style Sheets (CSS) object model in Microsoft Internet Explorer 5.5 and later, **@page** rules are not represented in the default print template for Windows Internet Explorer. The rules can be used by print templates developed for applications that host MSHTML.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Print Template Reference`

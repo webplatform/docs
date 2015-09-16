@@ -10,11 +10,11 @@ tags:
 uri: javascript/Function/apply
 
 ---
-## <span>Summary</span>
+## Summary
 
 Calls the function, substituting the specified object for the this value of the function, and the specified array for the arguments of the function.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Calls the function, substituting the specified object for the this value of the 
 **argArray**
 :   Optional. A set of arguments to be passed to the function.
 
-## <span>Examples</span>
+## Examples
 
 The following code shows how to use the apply method.
 
@@ -62,15 +62,15 @@ function callMe(arg1, arg2){
  // arguments: 5
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 If argArray is not a valid object, then an "Object expected" error occurs.
 
 If neither argArray nor thisObj are supplied, the original this object is used as thisObj and no arguments are passed.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Function Object](/javascript/Function)
 

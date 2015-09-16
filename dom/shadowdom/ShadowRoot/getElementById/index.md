@@ -23,19 +23,19 @@ tags:
 uri: dom/shadowdom/ShadowRoot/getElementById
 
 ---
-## <span>Summary</span>
+## Summary
 
 Just like Document.getElementById except that it only works within the scope of this ShadowRoot's shadow tree.
 
 Method of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.getElementById();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 

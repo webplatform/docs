@@ -14,15 +14,15 @@ todo_broken_links:
 uri: apis/css-regions/NamedFlowCollection
 
 ---
-## <span>Summary</span>
+## Summary
 
 Obsolete. Replaced by NamedFlowMap. Represents a static snapshot array of a document's available named flows
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -30,11 +30,11 @@ API Name
 [namedItem](/apis/css-regions/NamedFlowCollection/namedItem)
 :   Retrieve a [named flow](/css/concepts/named_flow) by its name
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 Retrieve the *main* flow from the document, in one method-chained line:
 
@@ -55,20 +55,20 @@ for (var i = 0; i < flows.length; i++) {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      For any flows in the collection that  disappear when they are no longer assigned to any content, item() and namedItem() yield null.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/2013/WD-css3-regions-20130528/)
 :   W3C Working Draft 28 May 2013
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 

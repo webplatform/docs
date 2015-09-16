@@ -15,11 +15,11 @@ tags:
 uri: html/elements/header
 
 ---
-## <span>Summary</span>
+## Summary
 
 The header element (&lt;header&gt;) represents the header of a section: a group of introductory or navigational aids.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -28,7 +28,7 @@ The **header** element represents introductory content for its nearest ancestor 
 
 A header element is intended to usually contain the section's heading (an h1–h6 element or an hgroup element), but this is not required. The header element can also be used to wrap a section's table of contents, a search form, or any relevant logos.
 
-## <span>Examples</span>
+## Examples
 
 The following snippet shows how the element can be used to mark up a specification's header
 
@@ -83,19 +83,19 @@ In this example, the page has a page heading given by the h1 element, and two su
 
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 9. The **header** element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility. A **header** element can contain the section's heading (an **h1-h6** element or an **hgroup** element) but this is not required. The **header** element can also be used to wrap a section's table of contents, a search form, or any relevant logos. The **header** element is not sectioning content; it does not introduce a new section.
 
-### <span>HTML information</span>
+### HTML information
 
 ||
 |Closing Tag|required|
 |CSS Display|block|
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-header-element)
 :   W3C Working Draft
@@ -103,8 +103,8 @@ Windows Internet Explorer 9. The **header** element is only supported for webpa
 [HTML 5](http://www.w3.org/TR/html5/sections.html#the-header-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 <http://www.w3.org/TR/html-markup/header.html>

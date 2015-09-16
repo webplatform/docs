@@ -10,17 +10,17 @@ tags:
 uri: 'manipulating css with javascript'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article shows how to use JavaScript to modify the CSS applied to an HTML page, and create new styles.
 
-## <span>Introduction</span>
+## Introduction
 
 At this point in the JavaScript section of the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum), you’ve already covered the real basics of JavaScript usage, looked at how to target elements using the DOM, and seen how to manipulate them once you’ve successfully targeted them.
 
 In this article we will look at how to dynamically update the styling applied to your elements by manipulating your CSS at runtime using JavaScript. It uses the same kind of technique that we’ve already seen, but there are a few special considerations to keep in mind when *working with the CSS DOM*.
 
-## <span>Accessing style sheets</span>
+## Accessing style sheets
 
 The browser provides an interface to interact with style sheets — in your JavaScript code you can access a list of your style sheets by using `document.styleSheets`. `document.styleSheets` will return a list of all of the style sheets applied to a page, including external style sheets referenced with a `link` element and internal style sheets residing inside `style` elements. If your `style` elements have `id` attributes, you can reference them quickly with `document.getElementById(element_id)`.
 
@@ -38,7 +38,7 @@ Removing a style sheet is also very simple. First you must obtain the style shee
 
 The [accessing style sheets example](http://dev.opera.com/articles/view/dynamic-style-css-javascript/accessingstylesheets.html) demonstrates both accessing all styles sheets and adding and removing a new style sheet to the page.
 
-## <span>Style Sheet Properties</span>
+## Style Sheet Properties
 
 The `stylesheet` object is available through JavaScript, and allows you to access information about a style sheet referenced from the current web page, such as if it is disabled, its location, and the list of CSS rules it contains. For a full list of the properties of the `stylesheet` object (and many things besides), check out the [W3C Document Object Model Style Sheets documentation](http://www.w3.org/TR/DOM-Level-2-Style/stylesheets.html).
 
@@ -63,7 +63,7 @@ For each `stylesheet` object retrieved from the `styleSheets` array you can acce
 
 Switching between different style sheets based on user preference is a fairly common web site feature — using what we have discussed so far, you can set up multiple style sheets and enable only the ones that the current site visitor would want to view. Let’s look at a real example — initially the text is styled, but when we set the `disabled` attribute to `true`, our defined CSS gets disabled. You can easily turn the CSS back on by setting `disabled` to `false`. Check out my [style sheet properties example](http://dev.opera.com/articles/view/dynamic-style-css-javascript/stylesheetproperties.html) for a practical look at how to use this.
 
-## <span>Adding and Removing Rules</span>
+## Adding and Removing Rules
 
 Remember the theoretical showcase site we discussed above? Let’s say this site has a list of articles; some are about CSS, some are about HTML, and some are about JavaScript. On our webpage we show all the articles at once, but our user only wants to see the CSS articles. How might we do this? Because all the articles are already being shown, we don’t want to do another round trip to the server to get to a page containing just the CSS articles — that is a waste of time.
 
@@ -85,7 +85,7 @@ In our article showcase example, we can create a rule that turns the display to 
 
 Note: IE does not implement rules according to the standard. Instead of the attribute `cssRules` it uses `rules`. IE also uses `removeRule` instead of `deleteRule` and `addRule(selector, rule, index)` instead of `insertRule`.
 
-## <span>Changing Element Styles</span>
+## Changing Element Styles
 
 At this point you should understand how to edit style sheets connected to the page and create and modify the CSS rules within them. What if you want to change a specific element inside the DOM? Using the DOM API you can access the specific elements of your page. Looking back at our [carousel example](http://dev.opera.com/articles/view/dynamic-style-css-javascript/carousel.html), functionality is defined so that when you click on an article, that article becomes highlighted while the main article text gets displayed below.
 
@@ -115,13 +115,13 @@ Remember those stylesheet objects? Well, `styleSheet.cssRules` will return a lis
 
 In the example below, the function to make the text bigger uses the `style` object and the function to make it smaller uses `setAttribute`. If you set the text to red and then call `setAttribute` with the smaller text button, you will notice that our change gets overwritten. Check out the [changing element styles example](http://dev.opera.com/articles/view/dynamic-style-css-javascript/changingelementstyles.html) live.
 
-## <span>Element Class Names</span>
+## Element Class Names
 
 Another way to alter the style of an element is by changing its `class` attribute. `class` is a reserved word in JavaScript, so in order to access the element’s class, you use `element.className`. You can append strings to `className` if you want to add a class to an element, or you could just overwrite `className` and assign it a whole new class. Check out the [element class names example](http://dev.opera.com/articles/view/dynamic-style-css-javascript/elementclassnames.html).
 
-## <span>See also</span>
+## See also
 
-### <span>Exercise Questions</span>
+### Exercise Questions
 
 -   What is the difference between `setAttribute` and setting the style through the *CSSStyleDeclaration* object?
 -   List two ways that you could cause all images to have a green border when a user clicks a button.

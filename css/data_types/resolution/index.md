@@ -17,7 +17,7 @@ todo_broken_links:
 uri: 'css/data types/resolution'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &lt;resolution&gt; CSS data type, used in media queries, denotes the granularity or possible fineness of detail of an output device. It is expressed as a &lt;number&gt; immediately followed by a unit of resolution (dpi, dpcm, ...). Like for any CSS dimension, there is no space between the number and the unit abbreviation.
 
@@ -27,7 +27,7 @@ On screens, the resolution is calculated relative to CSS inches, centimeters or 
 
 Unlike the CSS [**\<length\>** data type](/css/data_types/length), the unit may not be omitted for the value **0**: specifying a resolution of **0** is invalid and does not represent **0dpi**, **0dpcm**, nor **0dppx**.
 
-## <span>Units</span>
+## Units
 
 **dpi**
 :   This unit represents the number of dots per inch. A screen typically contains 72 or 96 dpi; a printed document usually reach much greater dpi. As 1 inch is 2.54 cm, **1dpi ≈ 2.54dpcm**.
@@ -36,7 +36,7 @@ Unlike the CSS [**\<length\>** data type](/css/data_types/length), the unit may 
 **dppx**
 :   This unit represents the number of dots per px unit. Due to the 1:96 fixed ratio of CSS **in** to CSS **px**, **1dppx** is equivalent to **96dpi**, that corresponds to the default resolution of images displayed in CSS as defined by the [image-resolution](/w/index.php?title=css/property/image_resolution&action=edit&redlink=1) property.
 
-## <span>Examples</span>
+## Examples
 
 Here are some correct uses of \<resolution\> values:
 
@@ -61,7 +61,7 @@ ten dpi
 0
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/)
 :   Candidate Recommendation
@@ -72,11 +72,11 @@ ten dpi
 [Media Queries](http://dev.w3.org/csswg/css3-mediaqueries/#resolution)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Media Queries</span>
+#### Media Queries
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 

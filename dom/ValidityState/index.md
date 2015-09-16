@@ -13,11 +13,11 @@ tags:
 uri: dom/ValidityState
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a validation state of an input element.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -49,15 +49,15 @@ API Name
 [valueMissing](/dom/ValidityState/valueMissing)
 :   Returns whether a value has not been entered in an input field that is required.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

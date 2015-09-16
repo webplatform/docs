@@ -16,11 +16,11 @@ todo_broken_links:
 uri: dom/Window/message
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fires when a message is received from another context (frame, window, worker and similar).
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -72,7 +72,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 For example, if document A contains a reference to the [**contentWindow**](/dom/HTMLIFrameElement/contentWindow) of document B, script in document A can send document B a message by calling [**postMessage**](/dom/Window/postMessage) as follows:
 
@@ -95,7 +95,7 @@ window.attachEvent('onmessage',function(e) {
 });
 ```
 
-## <span>Notes</span>
+## Notes
 
 For info on channel messaging with [**Workers**](/apis/workers/Worker), see [**MessagePort**](/apis/web-messaging/MessagePort) and [**MessageChannel**](/apis/web-messaging/MessageChannel). The **onmessage** event is fired when script invokes [**postMessage**](/dom/Window/postMessage) on a **window** object to send the target document a message. The [**data**](/w/index.php?title=dom/MessageEvent/data2&action=edit&redlink=1) property of the incoming event is set to the value passed in **postMessage**. **Security Warning:  **For best results, check the [**origin**](/dom/MessageEvent/origin) attribute to ensure that messages are only accepted from domains that you expect. For more information, see Section 7.4.2 of the [HTML5 (Working Draft)](http://go.microsoft.com/fwlink/?linkid=203771) specification from the World Wide Web Consortium (W3C). To invoke this event, do one of the following:
 
@@ -107,7 +107,7 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLWindowEvents3**
 -   [**MessagePort**](/apis/web-messaging/MessagePort)
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 Web Messaging](http://go.microsoft.com/fwlink/p/?linkid=199803), Section 5.3
 

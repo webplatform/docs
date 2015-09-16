@@ -10,11 +10,11 @@ tags:
 uri: apis/webaudio/AudioListener
 
 ---
-## <span>Summary</span>
+## Summary
 
 This interface represents the position and orientation of the person listening to the audio scene. All PannerNode objects spatialize in relation to the AudioContext's listener.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -25,7 +25,7 @@ API Name
 [speedOfSound](/apis/webaudio/AudioListener/speedOfSound)
 :   The speed of sound used for calculating doppler shift. The default value is 343.3 meters / second.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -39,11 +39,11 @@ API Name
 [setVelocity](/apis/webaudio/AudioListener/setVelocity)
 :   Sets the velocity vector of the listener. This vector controls both the direction of travel and the speed in 3D space. This velocity relative an audio source's velocity is used to determine how much doppler shift (pitch change) to apply. The x, y, z parameters describe a direction vector indicating direction of travel and intensity. The default value is (0,0,0).
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
 :   W3C Editor's Draft

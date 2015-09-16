@@ -23,19 +23,19 @@ tags:
 uri: dom/shadowdom/ShadowRoot/getSelection
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the current selection in this ShadowRoot's shadow tree.
 
 Method of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.getSelection();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 

@@ -22,7 +22,7 @@ uri: css/cssom/properties/item
 
 Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.item;
@@ -31,28 +31,28 @@ element.item = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 7 and later. If given a string that is not a numeric index, this method throws an error if no [**id**](/html/attributes/id) property with that string value is found. Always check the IDispatch pointer returned by this call, even if the method returns S\_OK. If the value of the pointer is null, the element was not found and the call was not successful. Upon successful return, the *pvarResult* parameter contains an IDispatch interface pointer or an array of IDispatch interface pointers that can be queried for a specific interface, depending on the collection type. **item** returns a **Variant** of type **Object** that can be queried for **IHTMLStyleSheet**.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Parameters</span>
+### Parameters
 
 *pvarIndex* [in]
 :   Type: **VARIANT'***Variant'* of type **Integer** or **String** that specifies the object or collection to retrieve. If this parameter is an integer, it is the zero-based index ofthe object. If this parameter is a string, all objects with matching [**id**properties](/html/attributes/id) are retrieved, and a collection is returned if more than one match is made.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -198,7 +198,7 @@ There are no standards that apply here.
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `imports`
 -   `styleSheets`

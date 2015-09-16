@@ -11,9 +11,9 @@ tags:
 uri: svg/properties/normalizedPathSegList
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When the static contents are normalized, all path data commands are expressed in terms of one of the following [**SVGPathSeg**](/svg/objects/SVGPathSeg) types:
 
@@ -22,15 +22,15 @@ When the static contents are normalized, all path data commands are expressed in
 -   SVG\_PATHSEG\_CURVETO\_CUBIC\_ABS (C)
 -   SVG\_PATHSEG\_CLOSEPATH (z)
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Paths](http://go.microsoft.com/fwlink/p/?linkid=204736), Section 8.5.22
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGPathElement**](/svg/elements/path)
 -   [**animatedNormalizedPathSegList**](/svg/properties/animatedNormalizedPathSegList)

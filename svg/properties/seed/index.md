@@ -11,20 +11,20 @@ tags:
 uri: svg/properties/seed
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Random number generators often use a seed. If you want to change the starting seed for the random numbers that are used to calculate the turbulence, the seed must be positive. If the number is not an integer, it will be converted to one. The default is zero.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.27
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFETurbulenceElement**](/svg/elements/feTurbulence)

@@ -18,13 +18,13 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/onidentityresult
 
 ---
-## <span>Summary</span>
+## Summary
 
 Handles the identityresult event for the success or failure of an identity verification.
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onidentityresult;

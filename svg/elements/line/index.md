@@ -29,16 +29,16 @@ todo_broken_links:
 uri: svg/elements/line
 
 ---
-## <span>Summary</span>
+## Summary
 
 The line element creates a line segment interconnecting two points.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGLineElement](/dom/SVGLineElement)
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, the line element is used to draw a salmon-colored line.
 
@@ -54,9 +54,9 @@ In the following code example, the line element is used to draw a salmon-colored
 </pre>
 [View live example](http://code.webplatform.org/gist/9e2c858dc34a018a483d)
 
-### <span>Attributes</span>
+### Attributes
 
-#### <span>Global attributes</span>
+#### Global attributes
 
 -   [**Conditional processing attributes**](/svg/attributes#Conditional_Processing_Attributes)
 -   [**Core attributes**](/svg/attributes#Core_Attributes)
@@ -68,14 +68,14 @@ In the following code example, the line element is used to draw a salmon-colored
 -   [**externalResourcesRequired**](/w/index.php?title=svg/attributes/externalResourcesRequired&action=edit&redlink=1)
 -   [**transform**](/w/index.php?title=svg/attributes/transform&action=edit&redlink=1)
 
-#### <span>Specific attributes</span>
+#### Specific attributes
 
 -   [**x1**](/w/index.php?title=svg/attributes/x1&action=edit&redlink=1)
 -   [**x2**](/w/index.php?title=svg/attributes/x2&action=edit&redlink=1)
 -   [**y1**](/w/index.php?title=svg/attributes/y1&action=edit&redlink=1)
 -   [**y2**](/w/index.php?title=svg/attributes/y2&action=edit&redlink=1)
 
-### <span>DOM Interface</span>
+### DOM Interface
 
 **The following DOM interface properties & methods should be moved to a proper SVG DOM documentation (i.e. SVGLineElement et. al, see above). However, at the present time, the WebPlatform MediaWiki doesn't allow the necessary changes.**
 
@@ -131,7 +131,7 @@ The **SVGLineElement** object has these properties:
 -   [**y1**](/svg/properties/y1_(SVGLineElement)): Gets or sets the y-coordinate for the start of a line.
 -   [**y2**](/svg/properties/y2_(SVGLineElement)): Gets or sets the y-coordinate for the end of a line.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Scalable Vector Graphics: Basic Shapes](http://www.w3.org/TR/SVG11/shapes.html#LineElement)
 :   W3C Recommendation

@@ -29,21 +29,21 @@ todo_broken_links:
 uri: dom/Window/setInterval
 
 ---
-## <span>Summary</span>
+## Summary
 
 Evaluates an expression each time a specified number of milliseconds has elapsed.
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.setInterval(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>expression</span>
+### expression
 
  Data-type
 :   String
@@ -52,7 +52,7 @@ var object = object.setInterval(/* see parameter list */);
 
 Passing a string as a parameter suffers the same hazards as [eval()](/w/index.php?title=tutorials/JavaScript_gotchas/Why_eval()_is_evil&action=edit&redlink=1), so it is generally recommended to pass a function pointer instead.
 
-### <span>msec</span>
+### msec
 
  Data-type
 :   String
@@ -61,14 +61,14 @@ Passing a string as a parameter suffers the same hazards as [eval()](/w/index.ph
 
 Note that there may be a minimum interval for this function. See [setTimeout](/dom/Window/setTimeout).
 
-### <span>language</span>
+### language
 
  Data-type
 :   String
 
 **String** that specifies any one of the possible values for the [**LANGUAGE**](/html/attributes/language) attribute.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -76,7 +76,7 @@ Returns an object of type DOM NodeDOM Node
 
 Integer. Returns an identifier that cancels the timer with the [**clearInterval**](/dom/Window/clearInterval) method.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **setInterval** method to create a DHTML clock. A variable is assigned to the interval, and can be used as a reference to stop the interval by using the [**clearInterval**](/dom/Window/clearInterval) method.
 
@@ -120,9 +120,9 @@ function startCounter() {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **setInterval** method continuously evaluates the specified expression until the timer is removed with the [**clearInterval**](/dom/Window/clearInterval) method. To pass a function as a string, be sure to append the function name with parentheses.
 

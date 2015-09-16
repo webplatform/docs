@@ -66,11 +66,11 @@ todo_broken_links:
 uri: apis/es
 
 ---
-## <span>Resumen</span>
+## Resumen
 
 Las APIs, o Interfaces de programación de aplicaciones, son objetos estándar de JavaScript que realizan una variedad de tareas. Encapsulan objetos, métodos, propiedades y eventos que puedes utilizar para crear aplicaciones que funcionarán a través de los diferentes navegadores.
 
-## <span>Antecedentes</span>
+## Antecedentes
 
 Las APIs se hicieron populares en la Web hace varios años cuando los creadores de estándares abiertos y los desarroladores de aplicaciones se dieron cuenta de que era una excelente idea el hacer sus datos, servicios y tecnologías fácilmente accesibles y reutilizables mediante interfaces sencillas basadas en objetos estándar de JavaScript. En la actualidad puedes encontrar muchos ejemplos de APIs disponibles y en uso a través de toda la Internet, por ejemplo:
 
@@ -83,7 +83,7 @@ Nota: Si eres completamente nuevo en el desarrollo web, puede que desees revisar
 
 Sin embargo, la mayoría de las APIs están diseñadas para ser utilizadas directamente en tu código. A continuación encontrarás una lista de todas las APIs documentadas actualmente aqui.
 
-## <span>Lista de todas las APIs</span>
+## Lista de todas las APIs
 
 API Name
 :   Summary
@@ -189,10 +189,10 @@ API Name
 [XMLHttpRequest (XHR) API](/apis/xhr)
 :   XMLHttpRequest (XHR) is a Javascript object that is used to send HTTP or HTTPS requests directly to a web server and load the server response data directly back into the script.
 
-## <span>Contribuir con la documentación de las APIs</span>
+## Contribuir con la documentación de las APIs
 
 Consulta la [página del Proyecto API](/WPD:Proposals/api_docs) para obtener una descripción sobre el trabajo que se está realizando con el fin de desarrollar la referencia de las APIs. Revisa [Crear páginas de API](/WPD:Creating_API_pages) para aprender a cómo documentar una API.
 
-## <span>Contribuir con la tecnología HTML</span>
+## Contribuir con la tecnología HTML
 
 Para contribuir al desarrollo de APIs y proporcionar feedback, necesitas saber dónde está alojada la especificación y/o su código fuente. Por ejemplo, puedes encontrar la manera de publicar tus comentarios sobre las APIs de HTML5 visitando la [página principal de HTML del W3C](http://www.w3.org/html/), o sugerir correcciones a Modernizr en el [Repositorio de Github de Modernizr](https://github.com/Modernizr/Modernizr).

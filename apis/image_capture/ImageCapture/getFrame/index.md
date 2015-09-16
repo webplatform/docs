@@ -19,19 +19,19 @@ tags:
 uri: 'apis/image capture/ImageCapture/getFrame'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gathers data from the VideoStreamTrack into a ImageData object.
 
 Method of [apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)[apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  pictureDevice.getFrame();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 

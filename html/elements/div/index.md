@@ -17,11 +17,11 @@ tags:
 uri: html/elements/div
 
 ---
-## <span>Summary</span>
+## Summary
 
 The div element (&lt;div&gt;) is a generic block-level container that has no semantic value other than the one that you give it via id or class attributes. It can be used for a variety of purposes including the styling of common elements, or for grouping elements with common attributes.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLDivElement](/dom/HTMLDivElement)
@@ -30,7 +30,7 @@ The div tag contains no native semantics, and is only effectively used for styli
 
 In some cases, other elements may be more suitable, like [article](/html/elements/article), [section](/html/elements/section), [fieldset](/html/elements/fieldset), [nav](/html/elements/nav), [header](/html/elements/section), [footer](/html/elements/footer), or [main](/html/elements/main)
 
-## <span>Examples</span>
+## Examples
 
 This example shows two DIVs, one inside the other, that define a main content section, then a subsection within that. Each DIV is semantically defined using a class or ID.
 
@@ -47,7 +47,7 @@ This example shows two DIVs, one inside the other, that define a main content se
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-div-element)
 :   W3C Working Draft
@@ -58,11 +58,11 @@ This example shows two DIVs, one inside the other, that define a main content se
 [HTML 4.01](http://www.w3.org/TR/html401/struct/global.html#edef-DIV)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 

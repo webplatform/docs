@@ -12,7 +12,7 @@ tags:
 uri: its/attributes/its-ta-class-ref
 
 ---
-## <span>Summary</span>
+## Summary
 
 The its-\* attribute...
 
@@ -30,7 +30,7 @@ Applies to
 </table>
 The its-\* attribute can contain ...
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 
@@ -42,11 +42,11 @@ The its-\* attribute can contain ...
 
 </pre>
 
-## <span>Usage</span>
+## Usage
 
      Use its-* ...
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Internationalization Tag Set (ITS) Version 2.0](http://www.w3.org/TR/its20/)
 :   W3C Recommendation

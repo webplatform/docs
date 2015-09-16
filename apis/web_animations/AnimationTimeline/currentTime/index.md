@@ -21,13 +21,13 @@ tags:
 uri: 'apis/web animations/AnimationTimeline/currentTime'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the time value for this timeline or null if this timeline is inactive.
 
 Property of [apis/web\_animations/AnimationTimeline](/apis/web_animations/AnimationTimeline)[apis/web\_animations/AnimationTimeline](/apis/web_animations/AnimationTimeline)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,17 +35,17 @@ Property of [apis/web\_animations/AnimationTimeline](/apis/web_animations/Animat
 var result = element.currentTime;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type doubledouble
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   [Web Animations API](/apis/web_animations)
 

@@ -12,7 +12,7 @@ uri: dom/Element/hashchange
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -64,7 +64,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 Attaching an event handler to a new **onhashchange** event enables the page to detect when the hash has changed and an AJAX navigation has occurred. See Introducing AJAX Navigations for a more robust example.
 
@@ -74,9 +74,9 @@ Attaching an event handler to a new **onhashchange** event enables the page to d
 </body>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 In Asynchronous JavaScript and XML (AJAX) applications, client requests that do not trigger traditional page navigation should update the **hash** property. This lets the **Back** button function more predictably. The URL fragment (bookmark) can be set by script. The value is appended to the displayed URL, and the navigation is saved in the browser history. Windows Internet Explorer 8. The browser's **Back** and **Forward** buttons do not generate **onhashchange** events for frames or **iframe**s; instead, the frame is refreshed each time. Web pages hosted in frames or **iframe**s should use their **onload** handler or equivalent to read the current URL hash information from the **location.hash** property and set their states accordingly. When first navigating to a page that contains a hash identifier in the URL, an **onhashchange** event is *not* fired. It is expected that the freshly loaded page can inspect the value of the **location.hash** property to extract the current hash value. After this first page loads, setting the **hash** property will fire the **onhashchange** event as expected. This behavior avoids any negative impact on Web page load performance by removing a possible redundant event. To invoke this event, do one of the following:
 
@@ -90,20 +90,20 @@ The *pEvtObj* parameter is required for the following interfaces:
 
 -   **HTMLWindowEvents3**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Window`
 -   `body`

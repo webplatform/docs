@@ -11,11 +11,11 @@ tags:
 uri: 'concepts/ux/techniques/ux map'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Visual representation of the user workflow for accomplishing a goal.
 
-### <span>What it is</span>
+### What it is
 
 Key elements include:
 
@@ -23,21 +23,21 @@ Key elements include:
 -   Comments with known information that clarifies or lends meaning.
 -   Ideas to illustrate an interesting concept that could enhance a step.
 
-### <span>Who does it</span>
+### Who does it
 
 The whole project team
 
-### <span>Why to do it</span>
+### Why to do it
 
 -   Make team's lack of knowledge explicit
 -   Good to figure out areas that need further user research
 
-## <span>Usage</span>
+## Usage
 
      At Research and Analysis
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [User eXperience (UX) Design Techniques](/concepts/ux/techniques)

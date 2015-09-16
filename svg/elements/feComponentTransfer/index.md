@@ -22,11 +22,11 @@ todo_broken_links:
 uri: svg/elements/feComponentTransfer
 
 ---
-## <span>Summary</span>
+## Summary
 
 feComponentTransfer is a filter primitive which allows the independent manipulation of each color channel (including the alpha channel) in the input graphic. It is always a child element of a filter element and is the parent of child elements (feFuncR, feFuncG, feFuncB and feFuncA) that perform each color channel manipulation.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGComponentTransferElement](/w/index.php?title=svg/objects/SVGComponentTransferElement&action=edit&redlink=1)
@@ -62,7 +62,7 @@ All color channel values are \*unitized\* into the range [0 -\> 1] before being 
 
 By default, color-manipulation operations using feComponentTransfer take place in linearRGB color space. This may produce unwanted results. For example a color inversion may result in a pronounced shift toward lighter tones. If this is not desired, you may explicitly specify a value of "sRGB" for the optional attribute "color-interpolation-filters".
 
-### <span>Table and Discrete Component Transfers</span>
+### Table and Discrete Component Transfers
 
 While linear and gamma transfers are readily understandable, Table and Discrete transfers are more complicated. Below is an example fo a table transfer.
 
@@ -120,7 +120,7 @@ The following graphic illustrates how the input segments are mapped to the outpu
 
 ![discretetransfer.png](/assets/public/c/c9/discretetransfer.png)
 
-## <span>Examples</span>
+## Examples
 
 ![blue70sfilterexample.png](/assets/public/1/18/blue70sfilterexample.png)
 
@@ -172,17 +172,17 @@ Example of a discrete component transfer. The input ranges are mapped onto speci
 </pre>
 [View live example](http://jsfiddle.net/jsfmullany/LPnQ9/)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This filter primitive performs component-wise remapping of data as follows for every pixel: It allows operations like brightness adjustment, contrast adjustment, color balance, or thresholding. The **feFuncR**, **feFuncG**, **feFuncB**, and**feFuncA** elements can be children of the **feComponentTransfer** element. For more information, see [**SVGFEFuncRElement**](/svg/elements/feFuncR). The calculations are performed on non-premultiplied color values. If the input graphics consist of premultiplied color values, those values are automatically converted into non-premultiplied color values for this operation. (Note that the undoing and redoing of the premultiplication can be avoided if [**feFuncA**](/svg/elements/feFuncA) is the identity transform and all alpha values on the source graphic are set to 1.)
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Members</span>
+### Members
 
-#### <span>Properties</span>
+#### Properties
 
 The **SVGFEComponentTransferElement** object has these properties.
 
@@ -193,16 +193,16 @@ The **SVGFEComponentTransferElement** object has these properties.
 -   [**x**](/svg/properties/x): Gets or sets the x-coordinate value.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [SVG 1.1](http://www.w3.org/TR/2011/REC-SVG11-20110816/)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 
@@ -286,6 +286,6 @@ The **SVGFEComponentTransferElement** object has these properties.
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFEFuncRElement**](/svg/elements/feFuncR)

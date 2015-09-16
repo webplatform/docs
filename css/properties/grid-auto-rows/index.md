@@ -20,11 +20,11 @@ tags:
 uri: css/properties/grid-auto-rows
 
 ---
-## <span>Summary</span>
+## Summary
 
 Changes default size of grid rows. Creates implicit grid tracks when a grid item is placed into a row that is not explicitly sized (by grid-template-rows ) or when the auto-placement algorithm has generated additional rows. This property (with grid-auto-columns) specifies the size of such implicitly-created tracks.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -50,16 +50,16 @@ Animatable
 Percentages
 :   As specified
 
-## <span>Syntax</span>
+## Syntax
 
 -   `grid-auto-rows: <track-size>`
 
-## <span>Values</span>
+## Values
 
 \<track-size\>
 :   A space-separated track list specifying the line names and track sizing functions of the grid.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /*
@@ -79,16 +79,16 @@ grid-auto-rows: 20px }
 </style>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Grid Layout Module](http://www.w3.org/TR/css3-grid-layout)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Layout</span>
+#### CSS Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -132,7 +132,7 @@ grid-auto-rows: 20px }
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### <span>Grid Layout</span>
+#### Grid Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 

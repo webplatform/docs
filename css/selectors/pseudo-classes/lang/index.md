@@ -16,7 +16,7 @@ todo_broken_links:
 uri: 'css/selectors/pseudo-classes/:lang(c)'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The :lang(c) pseudo selector applies to documents that specifies the lang attribute to an HTML element. This allows to style based on which language (and/or dialect) a given section is written into.
 
@@ -32,20 +32,20 @@ The pseudo-class `:lang(C)` represents an element that is in language `C`. Wheth
 
 If *C* is empty or invalid, the selector will have no effect.
 
-### <span>Syntax</span>
+### Syntax
 
 
      selector:lang(C) { /* ... */ }
 
 
-### <span>Parameters</span>
+### Parameters
 
 *selector*
 :   A CSS simple selector
 *C*
 :   Language code as specified in [RFC3066: Tags for the Identification of Languages](http://www.ietf.org/rfc/rfc3066.txt)
 
-## <span>Examples</span>
+## Examples
 
 The following code example uses the **:lang(C)** pseudo-class to apply a color to any **p** elements that are explicitly given a language value of "en" (or a hyphen-separated subset thereof). The first paragraph gets "en-us" (a subset of "en") and thus turns green.
 
@@ -117,16 +117,16 @@ html:lang(ar),
   }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1](http://www.w3.org/TR/CSS2/selector.html#lang)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Pseudo-Classes</span>
+#### Pseudo-Classes
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -178,7 +178,7 @@ html:lang(ar),
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -254,7 +254,7 @@ html:lang(ar),
 
 -   [type](/css/selectors/type)
 
-### <span>External resources</span>
+### External resources
 
 -   Language code as specified in [RFC3066: Tags for the Identification of Languages](http://www.ietf.org/rfc/rfc3066.txt)
 -   [Styling by language](http://www.w3.org/International/techniques/authoring-html#langstyle)

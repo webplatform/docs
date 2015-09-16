@@ -22,7 +22,7 @@ tags:
 uri: apis/webaudio/OscillatorNode/setWaveTable
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets an arbitrary custom periodic waveform given a WaveTable.
 
@@ -30,26 +30,26 @@ Sets an arbitrary custom periodic waveform given a WaveTable.
 
 Method of [apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)[apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = OscillatorNode.setWaveTable(waveTable);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>waveTable</span>
+### waveTable
 
  Data-type
 :   String
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

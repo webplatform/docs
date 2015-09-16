@@ -24,21 +24,21 @@ tags:
 uri: dom/KeyboardEvent/getModifierState
 
 ---
-## <span>Summary</span>
+## Summary
 
 Queries the state of the specified modifier key.
 
 Method of [dom/KeyboardEvent](/dom/KeyboardEvent)[dom/KeyboardEvent](/dom/KeyboardEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var modifierState = event.getModifierState(modifierKeyName);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>modifierKeyName</span>
+### modifierKeyName
 
  Data-type
 :   String
@@ -62,7 +62,7 @@ Other implementation specific options may be supported. For example -
 -   **Win** (on Microsoft Windows) - The left or right Windows logo key.
 -   **Scroll** - The Scroll Lock toggle.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -70,11 +70,11 @@ Whether the modifier key is active.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Some keyboard configurations contain a left and right modifier key. To determine whether the left or right key is pressed, use the [**location**](/dom/KeyboardEvent/location) property.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

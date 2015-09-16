@@ -10,17 +10,17 @@ tags:
 uri: javascript/Int32Array/byteLength
 
 ---
-## <span>Summary</span>
+## Summary
 
 Read-only. The length of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     var arrayByteLength = int32Array.byteLength;
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to get the length of the array.
 

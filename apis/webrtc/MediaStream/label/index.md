@@ -22,13 +22,13 @@ tags:
 uri: apis/webrtc/MediaStream/label
 
 ---
-## <span>Summary</span>
+## Summary
 
 A globally unique identifier (GUID) of 36 characters that describes the media stream.
 
 Property of [apis/webrtc/MediaStream](/apis/webrtc/MediaStream)[apis/webrtc/MediaStream](/apis/webrtc/MediaStream)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,7 +36,7 @@ Property of [apis/webrtc/MediaStream](/apis/webrtc/MediaStream)[apis/webrtc/Medi
 var result = stream.label;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 

@@ -18,7 +18,7 @@ todo_broken_links:
 uri: html/attributes/type
 
 ---
-## <span>Summary</span>
+## Summary
 
 The type attribute is used to define what sort of type an input or ordered list element is.
 
@@ -37,7 +37,7 @@ Applies to
 In general the type attribute is used for \<input\> and for \<ol\> elements.
  As with HTML5 the attribute is no longer deprecated for \<ol\> elements.
 
-### <span>\<input\></span>
+### \<input\>
 
 The type attribute specifies the type of an \<input\> element to display. There are several possible types like text, button or submit.
 
@@ -70,7 +70,7 @@ An input element with a type attribute whose value is:
 -   **"url"**: represents an input field for entering a single, absolute URL value
 -   **"week"**: represents an input field for entering a value that represents a specific week
 
-### <span>\<ol\></span>
+### \<ol\>
 
 For \<ol\> elements the type attribute is used to specify the kind of marker to use in the list.
  As default the list will be marked with decimal numbers (1, 2, 3, ...).
@@ -83,7 +83,7 @@ Possible attribute values are the following:
 -   "i": for lowercase, roman numbered list (i, ii, iii, iv, ...)
 -   "I": for uppercase, roman numbered list (I, II, III, IV, ...)
 
-## <span>Examples</span>
+## Examples
 
 Type attributes used in a form.
 
@@ -134,23 +134,23 @@ Type attribute for lowercase, roman numbering used in an ordered list.
 </li>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Only the **type** property is writeable. The **type** property is read/write-once, but only when an **input** element is created with the [**createElement**](/w/index.php?title=dom/methods/createElement&action=edit&redlink=1) method and before it is added to the document.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.7
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 17.4
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLInputElement`
 -   `input type=button`

@@ -25,11 +25,11 @@ todo_broken_links:
 uri: css/properties/font-size
 
 ---
-## <span>Summary</span>
+## Summary
 
 font-size sets the font size of the text inside the element to which it is applied, and that of its descendants. You can size text using absolute measurements, or measurements relative to the affected element's parent or root elements. CSS Text Styling Fundamentals provides an overview.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `medium`
@@ -52,7 +52,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `fontSize`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `font-size: absolute keywords`
 -   `font-size: inherit`
@@ -60,7 +60,7 @@ Animatable
 -   `font-size: percentage`
 -   `font-size: relative keywords`
 
-## <span>Values</span>
+## Values
 
 absolute keywords
 :   A set of keywords indicating predefined font sizes that scale according to font setting preferences or each browser's default values. From smallest to largest, possible values are **xx-small**, **x-small**, **small**, **medium**, **large**, **x-large**, and **xx-large**.
@@ -77,7 +77,7 @@ percentage
 inherit
 :   The `inherit` keyword causes the element to adopt its parent element's font size.
 
-## <span>Examples</span>
+## Examples
 
 A selection of examples showing some typical uses of the font-size property.
 
@@ -118,7 +118,7 @@ html { font-size: 62.5%; }
 
 [View live example](http://code.webplatform.org/gist/5628240)
 
-## <span>Usage</span>
+## Usage
 
      Keywords such as large and medium, or relative em or percentage units, are generally safer to use than pixel measurements, especially for mobile web browsers that adjust their set of default font sizes for legibility. Use of percentage values, or values in  ems, leads to more robust and cascadable style sheets.
 
@@ -134,7 +134,7 @@ Along with many other CSS properties, **font-size** can also be applied directly
 <text x="12px" y="12px" font-family="sans-serif" font-size="120%"/>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/#font-size-prop)
 :   Working Draft
@@ -145,11 +145,11 @@ Along with many other CSS properties, **font-size** can also be applied directly
 [Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification](http://www.w3.org/TR/CSS2/)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Font</span>
+#### CSS Font
 
 -   [font-family](/css/properties/font-family)
 
@@ -177,7 +177,7 @@ Along with many other CSS properties, **font-size** can also be applied directly
 
 -   [user-modify](/css/properties/user-modify)
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -217,7 +217,7 @@ Along with many other CSS properties, **font-size** can also be applied directly
 
 -   [font](/html/elements/font)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -317,11 +317,11 @@ Along with many other CSS properties, **font-size** can also be applied directly
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [CSS text styling fundamentals](/guides/css_text_styling_fundamentals)
 
-### <span>External resources</span>
+### External resources
 
 -   Smashing: [16 Pixels: For Body Copy. Anything Less Is a Costly Mistake](http://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake)
 -   HTML5 Boilerplate: [Reasoning behind default font-size and line-height](https://github.com/h5bp/html5-boilerplate/issues/724)

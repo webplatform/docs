@@ -21,21 +21,21 @@ tags:
 uri: 'apis/media capture and streams/MediaStreamTrack/applyConstraints'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Replaces all existing constraints with the provided constraints, if existing constraints exist. Otherwise, it applies the newly provided constraints to the track.
 
 Method of [apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)[apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  track.applyConstraints(constraints);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>constraints</span>
+### constraints
 
  Data-type
 :   MediaTrackConstraints
@@ -44,7 +44,7 @@ Method of [apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_captu
 
 A new constraint structure to apply to this track.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 

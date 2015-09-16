@@ -24,14 +24,14 @@ uri: dom/HTMLElement/sourceIndex
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.sourceIndex;
 element.sourceIndex = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **sourceIndex** property to identify the previous and next elements in the **all** collection (deprecated).
 
@@ -82,4 +82,4 @@ function fnHandler(){
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/sourceIndex.htm)
 
-### <span>Syntax</span>
+### Syntax

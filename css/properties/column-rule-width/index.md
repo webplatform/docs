@@ -22,11 +22,11 @@ tags:
 uri: css/properties/column-rule-width
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the width of the rule between columns.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `medium`
@@ -52,7 +52,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `column-rule-width: 0`
 -   `column-rule-width: medium`
@@ -60,7 +60,7 @@ Percentages
 -   `column-rule-width: thin`
 -   `column-rule-width: width`
 
-## <span>Values</span>
+## Values
 
 medium
 :   Default. A medium width border.
@@ -77,7 +77,7 @@ width
 0
 :   If the column rule style is ‘none’ or ‘hidden’
 
-## <span>Examples</span>
+## Examples
 
 Makes 3 columns with 4px dashed green column-rule.
 
@@ -98,24 +98,24 @@ Makes 3 columns with 4px dashed green column-rule
 
 [View live example](http://code.webplatform.org/gist/6288958)
 
-## <span>Usage</span>
+## Usage
 
      * Negative length values are not allowed.
 
-## <span>Notes</span>
+## Notes
 
 The exact thickness of the column rule when using the `medium`, `thin`, or `thick` value is user agent dependent, and is not defined in the specification.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Multi-Column</span>
+#### Multi-Column
 
 -   [break-after](/css/properties/break-after)
 

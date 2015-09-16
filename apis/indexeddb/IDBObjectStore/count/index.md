@@ -23,21 +23,21 @@ tags:
 uri: apis/indexeddb/IDBObjectStore/count
 
 ---
-## <span>Summary</span>
+## Summary
 
 The count method returns the number of records in an object store.
 
 Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var recordCount = objectStore.count(key);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>key</span>
+### key
 
  Data-type
 :   DOM Node
@@ -46,7 +46,7 @@ var recordCount = objectStore.count(key);
 
 A key value or a reference to a [**IDBKeyRange**](/apis/indexeddb/IDBKeyRange) object.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -56,7 +56,7 @@ The number of records matching the specified value or "0" if no matches are foun
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 The method throws and exception is
 
@@ -64,4 +64,4 @@ The method throws and exception is
 -   The key parameter is not a valid key or a key range.
 -   Occurs if a request is made on a source object that has been deleted or removed.
 
-### <span>Syntax</span>
+### Syntax

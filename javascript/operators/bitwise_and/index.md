@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/operators/bitwise and'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Performs a bitwise AND operation on two 32-bit expressions.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Performs a bitwise AND operation on two 32-bit expressions.
 **expression2**
 :   Any expression.
 
-## <span>Examples</span>
+## Examples
 
 The following examples show how to use the & operator. See Remarks for more information.
 
@@ -47,7 +47,7 @@ document.write(result);
 // Output: 1
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The & does a bitwise AND operation on the each of the bits of two 32-bit expressions. If both of the bits are 1, the result is 1. Otherwise, the result is 0.
 
@@ -58,9 +58,9 @@ The & does a bitwise AND operation on the each of the bits of two 32-bit express
 |1|0|0|
 |0|1|0|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Bitwise AND Assignment Operator (&=)](/javascript/operators/bitwise_and_assignment)
 

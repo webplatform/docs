@@ -11,11 +11,11 @@ tags:
 uri: apis/xhr/XMLHttpRequest/load
 
 ---
-## <span>Summary</span>
+## Summary
 
 When the request has successfully completed.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

@@ -15,13 +15,13 @@ todo_broken_links:
 uri: 'css/selectors/pseudo-classes/:in-range'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The :in-range pseudo selector selects input elements when their value is within a specified range.
 
  The `:in-range` CSS pseudo-class matches when an element has its value attribute inside the specified range limitations for this element. It allows the page to give a feedback that the value currently defined using the element is inside the range limits.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 <code>
@@ -50,16 +50,16 @@ input:out-of-range + label::after {
 
 [View live example](http://code.webplatform.org/gist/73a791bbe2cd884f6b2e)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Selectors Level 4](http://dev.w3.org/csswg/selectors-4/#range-pseudos)
 :   W3C Editor's Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Pseudo-Classes</span>
+#### Pseudo-Classes
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -111,7 +111,7 @@ input:out-of-range + label::after {
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 

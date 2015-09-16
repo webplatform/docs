@@ -20,13 +20,13 @@ tags:
 uri: dom/MouseEvent/layerX
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element.
 
 Property of [dom/MouseEvent](/dom/MouseEvent)[dom/MouseEvent](/dom/MouseEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.layerX;
@@ -35,14 +35,14 @@ element.layerX = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 A positioned element is an element whose position property is set to `relative`, `absolute` or `fixed`. For more information about element positioning, see About Element Positioning. **Note**  This property is provided for cross-browser compatibility. Use **x** instead.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

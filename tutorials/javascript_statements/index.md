@@ -18,7 +18,7 @@ todo_broken_links:
 uri: 'tutorials/javascript statements'
 
 ---
-## <span>Summary</span>
+## Summary
 
 JavaScript supports a compact set of statements that you can use to incorporate a great deal of interactivity in Web pages. This chapter provides an overview of these statements.
 
@@ -28,7 +28,7 @@ Use the semicolon (`;`) character to separate statements in JavaScript code.
 
 See the [JavaScript Reference](/javascript/statements) for details about the statements in this chapter.
 
-## <span>Block Statement</span>
+## Block Statement
 
 A block statement is used to group statements. The block is delimited by a pair of curly brackets:
 
@@ -60,11 +60,11 @@ Here, `{ x++; }` is the block statement.
 
 This outputs 2 because the `var x` statement within the block is in the same scope as the `var x` statement before the block. In C or Java, the equivalent code would have outputted 1.
 
-## <span>Conditional Statements</span>
+## Conditional Statements
 
 A conditional statement is a set of commands that executes if a specified condition is true. JavaScript supports two conditional statements: `if...else` and `switch`.
 
-### <span>if...else Statement</span>
+### if...else Statement
 
 Use the `if` statement to execute a statement if a logical condition is true. Use the optional `else` clause to execute a statement if the condition is false. An `if` statement looks as follows:
 
@@ -136,7 +136,7 @@ Do not confuse the primitive boolean values `true` and `false` with the true and
       }
     }
 
-### <span>switch Statement</span>
+### switch Statement
 
 A `switch` statement allows a program to evaluate an expression and attempt to match the expression's value to a case label. If a match is found, the program executes the associated statement. A `switch` statement looks as follows:
 
@@ -182,7 +182,7 @@ The optional `break` statement associated with each `case` clause ensures that t
     }
     document.write("Is there anything else you'd like?<br>");
 
-## <span>Loop Statements</span>
+## Loop Statements
 
 A loop is a set of commands that executes repeatedly until a specified condition is met. JavaScript supports the `for`, `do while`, and `while` loop statements, as well as label (label is not itself a looping statement, but is frequently used with these statements). In addition, you can use the `break` and `continue` statements within loop statements.
 
@@ -197,7 +197,7 @@ The loop statements are:
 -   [break Statement](#break_Statement)
 -   [continue Statement](#continue_Statement)
 
-### <span>for Statement</span>
+### for Statement
 
 A `for` loop repeats until a specified condition evaluates to false. The JavaScript for loop is similar to the Java and C `for` loop. A `for` statement looks as follows:
 
@@ -245,7 +245,7 @@ When a `for` loop executes, the following occurs:
        </p>
     </form>
 
-### <span>do...while Statement</span>
+### do...while Statement
 
 The `do...while` statement repeats until a specified condition evaluates to false. A `do...while` statement looks as follows:
 
@@ -265,7 +265,7 @@ do {
 } while (i < 5);
 ```
 
-### <span>while Statement</span>
+### while Statement
 
 A `while` statement executes its statements as long as a specified condition evaluates to true. A `while` statement looks as follows:
 
@@ -309,7 +309,7 @@ while (true) {
 }
 ```
 
-### <span>label Statement</span>
+### label Statement
 
 A label provides a statement with an identifier that lets you refer to it elsewhere in your program. For example, you can use a label to identify a loop, and then use the `break` or `continue` statements to indicate whether a program should interrupt the loop or continue its execution.
 
@@ -332,7 +332,7 @@ while (theMark == true) {
 }
 ```
 
-### <span>break Statement</span>
+### break Statement
 
 Use the `break` statement to terminate a loop, `switch`, or in conjunction with a label statement.
 
@@ -377,7 +377,7 @@ labelCancelLoops: while (true) {
 }
 ```
 
-### <span>continue Statement</span>
+### continue Statement
 
 The `continue` statement can be used to restart a `while`, `do-while`, `for`, or `label` statement.
 
@@ -426,11 +426,11 @@ checkiandj :
    }
 ```
 
-## <span>Object Manipulation Statements</span>
+## Object Manipulation Statements
 
 JavaScript uses the `for...in`, `for each...in`, and `with` statements to manipulate objects.
 
-### <span>for...in Statement</span>
+### for...in Statement
 
 The \<a href="/en-US/docs/JavaScript/Reference/Statements/for...in" title="en-US/docs/JavaScript/Reference/Statements/for...in"\>`for...in`\</a\> statement iterates a specified variable over all the properties of an object. For each distinct property, JavaScript executes the specified statements. A `for...in` statement looks as follows:
 
@@ -464,7 +464,7 @@ car.model = Mustang
 **Arrays**
  Although it may be tempting to use this as a way to iterate over \<a href="/en-US/docs/JavaScript/Reference/Global\_Objects/Array" title="en-US/docs/JavaScript/Reference/Global Objects/Array"\>Array\</a\> elements, because the **for...in** statement iterates over user-defined properties in addition to the array elements, if you modify the Array object, such as adding custom properties or methods, the **for...in** statement will return the name of your user-defined properties in addition to the numeric indexes. Thus it is better to use a traditional \<a href="/en-US/docs/JavaScript/Reference/Statements/for" title="en-US/docs/JavaScript/Reference/Statements/for"\>for\</a\> loop with a numeric index when iterating over arrays.
 
-### <span>for each...in Statement</span>
+### for each...in Statement
 
 \<a href="/en-US/docs/JavaScript/Reference/Statements/for\_each...in" title="en-US/docs/JavaScript/Reference/Statements/for each...in"\>`for each...in`\</a\> is a loop statement introduced in \<a href="/en-US/docs/JavaScript/New\_in\_JavaScript/1.6" title="en-US/docs/JavaScript/New in JavaScript/1.6"\>JavaScript 1.6\</a\>. It is similar to `for...in`, but iterates over the values of object's properties, not their names.
 
@@ -477,7 +477,7 @@ for each (var item in obj) {
 print(sum); // prints "26", which is 5+13+8
 ```
 
-## <span>Comments</span>
+## Comments
 
 Comments are author notations that explain what a script does. Comments are ignored by the interpreter. JavaScript supports Java and C++-style comments:
 
@@ -494,7 +494,7 @@ Comments are author notations that explain what a script does. Comments are igno
 you can put whatever you want here. */
 ```
 
-## <span>Exception Handling Statements</span>
+## Exception Handling Statements
 
 You can throw exceptions using the `throw` statement and handle them using the `try...catch` statements.
 
@@ -503,7 +503,7 @@ You can also use the `try...catch` statement to handle Java exceptions (though t
 -   [throw Statement](#throw_Statement)
 -   [try...catch Statement](#try...catch_Statement)
 
-### <span>Exception Types</span>
+### Exception Types
 
 Just about any object can be thrown in JavaScript. Nevertheless, not all thrown objects are created equal. While it is fairly common to throw numbers or strings as errors it is frequently more effective to use one of the exception types specifically created for this purpose:
 
@@ -511,7 +511,7 @@ Just about any object can be thrown in JavaScript. Nevertheless, not all thrown 
 -   \<a href="/en-US/docs/DOM/DOMException" title="en-US/docs/DOM/DOMException"\>DOMException\</a\>
 -   \<a href="/en-US/docs/XPCOM\_Interface\_Reference/nsIXPCException" title="en-US/docs/nsIXPCException"\>nsIXPCException\</a\> (\<a href="/en-US/docs/XPConnect" title="en-US/docs/XPConnect"\>XPConnect\</a\>)
 
-### <span>throw Statement</span>
+### throw Statement
 
 Use the `throw` statement to throw an exception. When you throw an exception, you specify the expression containing the value to be thrown:
 
@@ -547,7 +547,7 @@ UserException.prototype.toString = function (){
 throw new UserException("Value too high");
 ```
 
-### <span>try...catch Statement</span>
+### try...catch Statement
 
 The `try...catch` statement marks a block of statements to try, and specifies one or more responses should an exception be thrown. If an exception is thrown, the `try...catch` statement catches it.
 
@@ -577,7 +577,7 @@ catch (e) {
 }
 ```
 
-#### <span>The catch Block</span>
+#### The catch Block
 
 You can use a `catch` block to handle all exceptions that may be generated in the `try` block.
 
@@ -601,7 +601,7 @@ catch (e) {
 }
 ```
 
-#### <span>The finally Block</span>
+#### The finally Block
 
 The `finally` block contains statements to execute after the `try` and `catch` blocks execute but before the statements following the `try...catch` statement. The `finally` block executes whether or not an exception is thrown. If an exception is thrown, the statements in the `finally` block execute even if no `catch` block handles the exception.
 
@@ -641,11 +641,11 @@ function f() {
 f(); // alerts 0, 1, 3; returns false
 ```
 
-#### <span>Nesting try...catch Statements</span>
+#### Nesting try...catch Statements
 
 You can nest one or more `try...catch` statements. If an inner `try...catch` statement does not have a `catch` block, the enclosing `try...catch` statement's `catch` block is checked for a match.
 
-### <span>Utilizing Error objects</span>
+### Utilizing Error objects
 
 Depending on the type of error, you may be able to use the 'name' and 'message' properties to get a more refined message. 'name' provides the general class of Error (e.g., 'DOMException' or 'Error'), while 'message' generally provides a more succinct message than one would get by converting the error object to a string.
 

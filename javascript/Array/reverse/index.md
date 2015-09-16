@@ -11,21 +11,21 @@ tags:
 uri: javascript/Array/reverse
 
 ---
-## <span>Summary</span>
+## Summary
 
 Reverses the elements in an Array.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     reverse()
 
-## <span>Return Value</span>
+## Return Value
 
 The reversed array.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **reverse** method.
 
@@ -38,7 +38,7 @@ var arr = new Array(0,1,2,3,4);
  // 4,3,2,1,0
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required arrayObj reference is an **Array** object.
 
@@ -46,9 +46,9 @@ The **reverse** method reverses the elements of an **Array** object in place. It
 
 If the array is not contiguous, the **reverse** method creates elements in the array that fill the gaps in the array. Each of these created elements has the value undefined.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.8 Array.prototype.reverse ( )](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.8) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

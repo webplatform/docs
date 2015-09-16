@@ -25,28 +25,28 @@ tags:
 uri: dom/HTMLElement/matches
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns true if an element matches a given selector. Otherwise, false.
 
 Method of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.matches(selector);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>selector</span>
+### selector
 
  Data-type
 :   String
 
  This string represents the selector to test the element against. This parameter is required and it must have a length of at least one. An empty string throws the error `Dom Exception 12.`
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -54,7 +54,7 @@ Returns true if the element matches the given selector or false if it doesn't.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Currently, few browsers support the unprefixed version. It is recommended to use the API as following:
 

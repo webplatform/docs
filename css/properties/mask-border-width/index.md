@@ -20,11 +20,11 @@ tags:
 uri: css/properties/mask-border-width
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property sets the width of the mask box image, similar to the CSS border-image-width property.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -50,14 +50,14 @@ Animatable
 Percentages
 :   Relative to width/height of the mask box image area.
 
-## <span>Syntax</span>
+## Syntax
 
 -   `mask-border-width: auto`
 -   `mask-border-width: length`
 -   `mask-border-width: number`
 -   `mask-border-width: percentage`
 
-## <span>Values</span>
+## Values
 
 auto
 :   If specified, the mask box image width is the intrinsic width or height (whichever is applicable) of the corresponding image slice (see [mask-border-slice](/css/properties/mask-border-slice)). If the image does not have the required intrinsic dimension then the corresponding *border-width* is used.
@@ -71,7 +71,7 @@ percentage
 number
 :   Represents multiples of the corresponding computed *border-width*.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* auto */
@@ -95,7 +95,7 @@ number
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Masking Level 1](http://www.w3.org/TR/css-masking-1/)
 :   W3C Last Call Working Draft

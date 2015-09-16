@@ -12,11 +12,11 @@ tags:
 uri: apis/websocket/MessageEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 A MessageEvent is sent to clients using WebSockets when data is received from the server. This is delivered to the listener indicated by the WebSocket object's onmessage attribute.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -24,15 +24,15 @@ API Name
 [html/elements/data](/apis/websocket/MessageEvent/data)
 :   The data from the server.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 

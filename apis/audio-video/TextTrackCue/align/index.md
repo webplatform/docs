@@ -23,24 +23,24 @@ tags:
 uri: apis/audio-video/TextTrackCue/align
 
 ---
-## <span>Summary</span>
+## Summary
 
 A string representing the text track cue alignment, as follows. If it is start alignment: the string &quot;start&quot;. If it is middle alignment: the string &quot;middle&quot;. If it is end alignment: the string &quot;end&quot;. If it is left alignment: the string &quot;left&quot;. If it is right alignment: the string &quot;right&quot;. Default is &quot;middle&quot;.
 
 Property of [apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)[apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = TextTrackCue.align;
 TextTrackCue.align = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //. . .
@@ -53,7 +53,7 @@ myCues[i].align = "left");
 //. . .
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

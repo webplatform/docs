@@ -21,13 +21,13 @@ tags:
 uri: dom/PointerEvent/pointerId
 
 ---
-## <span>Summary</span>
+## Summary
 
 A unique identifier for the pointer causing the event
 
 Property of [dom/PointerEvent](/dom/PointerEvent)[dom/PointerEvent](/dom/PointerEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,13 +35,13 @@ Property of [dom/PointerEvent](/dom/PointerEvent)[dom/PointerEvent](/dom/Pointer
 var result = event.pointerId;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
 The unique identifier of the contact for a touch, mouse or pen.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //  Adds a pointer to the MSGesture object for the red square
@@ -56,7 +56,7 @@ function redListener(evt)
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      This identifier must be unique from all other active pointers at the time. A user agent may recycle previously retired values for pointerId from previous active pointers, if necessary.
 

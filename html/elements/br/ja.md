@@ -22,11 +22,11 @@ todo_broken_links:
 uri: html/elements/br/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 文章をbreakするbr要素はテキストを強制的に終わらせ、brに続くテキストを新たしい行に改めます。
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLBRElement](/dom/HTMLBRElement)
@@ -37,7 +37,7 @@ uri: html/elements/br/ja
 
 **br**要素の中にどんなコンテンツ（属性など）を記述しようとも、周囲のテキストの一部とはみなされません。
 
-## <span>Examples</span>
+## Examples
 
 以下の例は**br**要素の正しい使い方を示しています。
 
@@ -49,17 +49,17 @@ uri: html/elements/br/ja
 
 [View live example](http://code.webplatform.org/gist/7282007)
 
-## <span>Usage</span>
+## Usage
 
      br要素はコンテンツを持たない、タグ１つだけの”置換要素”です。classなどの属性を適用することはできますが、テキストを記述することはできません。
 
 **br**は置換要素としてブラウザ側で自動的に閉じられますが、スラッシュを付けて明示的に閉じることもできます。
 
-## <span>Notes</span>
+## Notes
 
 閉じタグは不要です。
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-br-element)
 :   W3C Working Draft
@@ -70,11 +70,11 @@ uri: html/elements/br/ja
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-BR)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -214,7 +214,7 @@ uri: html/elements/br/ja
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

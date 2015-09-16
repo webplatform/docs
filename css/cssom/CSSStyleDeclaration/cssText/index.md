@@ -21,26 +21,26 @@ tags:
 uri: css/cssom/CSSStyleDeclaration/cssText
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets the textual representation of a CSS style declaration.
 
 Property of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var declarationText = declaration.cssText;
 declaration.cssText = declarationText;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The textual representation of the CSS style declaration.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 <style>
@@ -53,11 +53,11 @@ body { background-color: darkblue; }
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 This property reflects the current state of the declaration and not its initial value.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Style](http://www.w3.org/TR/DOM-Level-2-Style/css.html)
 :   Recommendation

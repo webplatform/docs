@@ -13,7 +13,7 @@ tags:
 uri: html/attributes/codeBase
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the URL of the component.
 
@@ -29,7 +29,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following example uses the **CODEBASE** attribute to specify the download location of the Common Dialog control.
 
@@ -41,17 +41,17 @@ The following example uses the **CODEBASE** attribute to specify the download lo
 </OBJECT>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Applets do not support version information supplied as part of the URL. If *a*, *b*, *c*, and *d* are all set to `-1` (\#Version=-1,-1,-1,-1), the component is downloaded from the server if the release date is later than the installation date on the client computer. If the component is installed on the client computer and the release date is the same or earlier than the installation date, only an HTTP header transaction occurs. The URL of the component cannot be a local path. Windows Internet Explorer 8 or later. In IE8 Standards mode, the value of the **codeBase** attribute depends on the context of the reference to the attribute. When read as a Document Object Model (DOM) attribute, **codeBase** returns an absolute URL. The value specified by the page author is returned when **codeBase** is read as a content attribute, when the page is displayed in an earlier document compatibility mode, or when the page is viewed with an earlier version of the browser. For more information, see Attribute Differences in Internet Explorer 8.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `applet`
 -   `object`

@@ -14,16 +14,16 @@ tags:
 uri: mathml/elements/mphantom
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML mphantom element is rendered invisibly, but dimensions (such as height, width, and baseline position) are still kept.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates a simple usage of the mphantom element:
 
@@ -45,7 +45,7 @@ This example demonstrates a simple usage of the mphantom element:
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mphantom)
 :   W3C Recommendation

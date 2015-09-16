@@ -27,22 +27,22 @@ uri: dom/Element/setAttributeNode
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.setAttributeNode(pattr);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>pattr</span>
+### pattr
 
  Data-type
 :   any
 
 **attribute**
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -54,14 +54,14 @@ Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **setAttributeNode** was introduced in Microsoft Internet Explorer 6.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 3 Core Specification](http://go.microsoft.com/fwlink/p/?linkid=182717), Section 1.4

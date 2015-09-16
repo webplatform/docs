@@ -22,13 +22,13 @@ tags:
 uri: apis/file/File/lastModifiedDate
 
 ---
-## <span>Summary</span>
+## Summary
 
 The last modified date of the file. On getting, if user agents can make this information available, this must return a new Date object initialized to the last modified date of the file. If the last modification date and time are not known, the attribute must return the current date and time as a Date object.
 
 Property of [apis/file/File](/apis/file/File)[apis/file/File](/apis/file/File)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,11 +36,11 @@ Property of [apis/file/File](/apis/file/File)[apis/file/File](/apis/file/File)
 var result = File.lastModifiedDate;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
-## <span>Examples</span>
+## Examples
 
 This example lets you select one or more files, then reports each file's name and last modified date/time.
 
@@ -60,11 +60,11 @@ function shownd() {
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 Returns the last modified date of the file in the form of a new **Date** object. If the browser can't obtain file date information, null is returned.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft

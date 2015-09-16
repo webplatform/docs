@@ -9,7 +9,7 @@ tags:
 uri: html/attributes/formtarget
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies a name or a keyword that indicates where to display the response that is received after submitting the form.
 
@@ -27,7 +27,7 @@ Applies to
 </table>
 The formtarget attribute overrides the target attribute of the \<form\> element.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <form action="submit.php">
@@ -37,7 +37,7 @@ The formtarget attribute overrides the target attribute of the \<form\> element.
 </form>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5 Forms](http://www.w3.org/TR/html5/forms.html)
 :   W3C Recommendation

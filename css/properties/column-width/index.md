@@ -22,11 +22,11 @@ tags:
 uri: css/properties/column-width
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the width of columns in multi-column elements.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -52,12 +52,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `column-width: auto`
 -   `column-width: length`
 
-## <span>Values</span>
+## Values
 
 length
 :   A floating-point number, followed by either an absolute units designator
@@ -67,7 +67,7 @@ length
 auto
 :   Default. The optimal column width is determined through other property values of the multi-column element, such as [**columnCount**](/css/properties/column-count).
 
-## <span>Examples</span>
+## Examples
 
 Makes as many columns that are 100px as there is space in the browser.
 
@@ -84,22 +84,22 @@ Makes as many columns that are 100px as there is space in the browser.
 
 [View live example](http://code.webplatform.org/gist/5305475)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The actual column width may vary from the value specified due to available space. To ensure that the exact value specified for this property is used, all property values of the multi-column element that pertain to length (such as width, column-width, column-gap, and column-rule-width) must be specified.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Multi-Column</span>
+#### Multi-Column
 
 -   [break-after](/css/properties/break-after)
 

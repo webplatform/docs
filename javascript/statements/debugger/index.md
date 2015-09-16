@@ -10,17 +10,17 @@ tags:
 uri: javascript/statements/debugger
 
 ---
-## <span>Summary</span>
+## Summary
 
 Suspends execution.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     debugger
 
-## <span>Examples</span>
+## Examples
 
 This example uses the debugger statement to suspend execution for each iteration through the for loop.
 
@@ -35,7 +35,7 @@ for(i = 1; i<5; i++) {
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 You can place debugger statements anywhere in procedures to suspend execution. Using the debugger statement is similar to setting a breakpoint in the code.
 
@@ -43,9 +43,9 @@ The debugger statement suspends execution, but it does not close any files or cl
 
 **Note** -- The debugger statement has no effect unless the script is being debugged.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [JavaScript Statements](/javascript/statements)
 

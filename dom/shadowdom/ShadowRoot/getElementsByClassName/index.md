@@ -23,28 +23,28 @@ tags:
 uri: dom/shadowdom/ShadowRoot/getElementsByClassName
 
 ---
-## <span>Summary</span>
+## Summary
 
 Just like Document/getElementsByClassName except that it only works within the scope of this ShadowRoot's shadow tree.
 
 Method of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.getElementsByClassName(classNames);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>classNames</span>
+### classNames
 
  Data-type
 :   String
 
  A space separated list of classes.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
@@ -52,6 +52,6 @@ A live [HTMLCollection](/dom/HTMLCollection) of elements with the given class na
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Use of this method is discouraged. See [HTMLCollection](/dom/HTMLCollection). However, that article has not been vetted for vendor bias, it is an unreviewed import, and the performance implications described may be browser (IE) specific.

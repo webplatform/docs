@@ -29,24 +29,24 @@ todo_broken_links:
 uri: css/cssom/properties/height
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the height of an element.
 
 Property of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = declaration.height;
 declaration.height = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 Sets the height of paragraph elements to 200 px.
 
@@ -54,23 +54,23 @@ Sets the height of paragraph elements to 200 px.
 p { height: 200 px; }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The height of the rectangle can also be calculated by subtracting the value of the [**top**](/w/index.php?title=dom/traversal/properties/top&action=edit&redlink=1) property from the value of the [**bottom**](/w/index.php?title=dom/properties/bottom&action=edit&redlink=1) property.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 

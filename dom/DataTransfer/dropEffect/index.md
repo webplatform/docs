@@ -22,20 +22,20 @@ tags:
 uri: dom/DataTransfer/dropEffect
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the type of drag-and-drop operation currently selected or sets the operation to a new type.
 
 Property of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTransfer)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var dropEffect = event.dataTransfer.dropEffect;
 event.dataTransfer.dropEffect = newDropEffect;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -46,7 +46,7 @@ One of the following values:
 -   link
 -   move
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **dropEffect** and [effectAllowed](/dom/DataTransfer/effectAllowed) properties of the [DataTransfer](/dom/DataTransfer) object to display the move cursor.
 
@@ -137,7 +137,7 @@ property to display the move cursor. The default action must be canceled in all 
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The **dropEffect** property must be used with the [**effectAllowed**](/dom/DataTransfer/effectAllowed) property. These properties are set on the source object of a drag-and-drop operation. The **effectAllowed** property determines which drag-and-drop operations are available from the source object. The **dropEffect** property determines which drag-and-drop operations are allowed on the target object. For example, the source object might set the **effectAllowed** property to **all** drag-and-drop operations, while the target object specifies that the **dropEffect** allows only **copy** operations.
 
@@ -147,7 +147,7 @@ The target object of a drag-and-drop operation can set the **dropEffect** during
 
 There is a default drag-and-drop functionality for the following elements: [**a**](/html/elements/a), [**img**](/html/elements/img), [**textarea**](/html/elements/textarea), and [**input type=text**](/html/elements/input). When one of these objects is the source element, the default drop effect cannot be overridden by setting the **dropEffect** property of the target element. Instead, the default behavior of the source object must be canceled.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation

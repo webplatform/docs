@@ -26,7 +26,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 ``` html
 <form>
@@ -35,16 +35,16 @@ Applies to
 </form>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The functionality specified by the HTML 4.0 standard for this property is not implemented. There is no functionality implemented for this property unless defined by the author. **label** was introduced in Microsoft Internet Explorer 6
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `option`

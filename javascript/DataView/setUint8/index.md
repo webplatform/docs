@@ -10,11 +10,11 @@ tags:
 uri: javascript/DataView/setUint8
 
 ---
-## <span>Summary</span>
+## Summary
 
 Stores a Uint8 value at the specified byte offset from the start of the view.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Stores a Uint8 value at the specified byte offset from the start of the view.
 **value**
 :   The value to set.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to set the first Uint8 in the DataView.
 
@@ -45,7 +45,7 @@ var req = new XMLHttpRequest();
      }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 These methods raise an exception if they would write beyond the end of the view.
 

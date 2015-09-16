@@ -19,13 +19,13 @@ tags:
 uri: dom/HTMLElement
 
 ---
-## <span>Summary</span>
+## Summary
 
 HTMLElement is the interface that all DOM Nodes subclass from. It provides functionality specific to HTML that is not present in the basic Element interface.
 
 Inherits from [Element](/dom/Element)[Element](/dom/Element)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -813,7 +813,7 @@ API Name
 [text-anchor](/svg/attributes/text-anchor)
 :
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -872,13 +872,13 @@ API Name
 [toStaticHTML](/dom/HTMLElement/toStaticHTML)
 :
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from Element</span>
+## Inherited from Element
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -976,7 +976,7 @@ API Name
 [type](/dom/Element/type)
 :
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -1074,7 +1074,7 @@ API Name
 [setPointerCapture](/dom/Element/setPointerCapture)
 :   Assigns a specified pointer to an element. This method is used to ensure that an element continues to receive pointer events even if the contact moves off the element.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -1236,9 +1236,9 @@ API Name
 [unload](/svg/events/unload)
 :
 
-## <span>Inherited from Node</span>
+## Inherited from Node
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -1290,7 +1290,7 @@ API Name
 [textContent](/dom/Node/textContent)
 :   Sets or retrieves the text content of a node and any child nodes.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -1343,10 +1343,10 @@ API Name
 [replaceChild](/dom/Node/replaceChild)
 :   Replaces an existing child node with a new child node.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 All HTML element interfaces derive from this class.

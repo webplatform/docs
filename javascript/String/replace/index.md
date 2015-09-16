@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/replace
 
 ---
-## <span>Summary</span>
+## Summary
 
 Replaces text in a string, using a regular expression or search string.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,11 +29,11 @@ Replaces text in a string, using a regular expression or search string.
 **replaceText**
 :   Required. A String object or string literal containing the text to replace for every successful match of rgExp in stringObj. In Internet Explorer 5.5 or later, the replaceText argument can also be a function that returns the replacement text.
 
-## <span>Return Value</span>
+## Return Value
 
 The result of the **replace** method is a copy of stringObj after the specified replacements have been made.
 
-## <span>Remarks</span>
+## Remarks
 
 Any of the following match variables can be used to identify the most recent match and the string from which it came. The match variables can be used in text replacement where the replacement string has to be determined dynamically.
 
@@ -50,7 +50,7 @@ If replaceText is a function, for each matched substring the function is called 
 
 The **replace** method updates the properties of the global **RegExp** object.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **replace** method to replace all instances of "the" with "a."
 
@@ -97,9 +97,9 @@ function f2c(s1) {
  // Output: Water freezes at 0C and boils at 100C.
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [exec Method (Regular Expression)](/javascript/regular_expression/exec)
 -   [match Method (String)](/javascript/String/match)

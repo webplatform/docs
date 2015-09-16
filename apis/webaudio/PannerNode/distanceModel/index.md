@@ -20,20 +20,20 @@ tags:
 uri: apis/webaudio/PannerNode/distanceModel
 
 ---
-## <span>Summary</span>
+## Summary
 
 Determines which algorithm will be used to reduce the volume of an audio source as it moves away from the listener. See below for the available choices. The default is INVERSE\_DISTANCE.
 
 Property of [apis/webaudio/PannerNode](/apis/webaudio/PannerNode)[apis/webaudio/PannerNode](/apis/webaudio/PannerNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = PannerNode.distanceModel;
 PannerNode.distanceModel = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned shortunsigned short
 
@@ -43,7 +43,7 @@ Uses one of the following constant values:
 -   INVERSE (1) (default), an inverse distance model which calculates distanceGain as refDistance / (refDistance + rolloffFactor \* (distance - refDistance));
 -   EXPONENTIAL (2), an exponential distance model which calculates distanceGain as pow(distance / refDistance, -rolloffFactor).
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -51,7 +51,7 @@ var panner = audioCtx.createPanner();
 panner.distanceModel = 'inverse';
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

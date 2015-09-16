@@ -18,7 +18,7 @@ tags:
 uri: apis/webaudio/AudioProcessingEvent/node
 
 ---
-## <span>Summary</span>
+## Summary
 
 The ScriptProcessorNode associated with this processing event.
 
@@ -26,7 +26,7 @@ The ScriptProcessorNode associated with this processing event.
 
 Property of [apis/webaudio/AudioProcessingEvent](/apis/webaudio/AudioProcessingEvent)[apis/webaudio/AudioProcessingEvent](/apis/webaudio/AudioProcessingEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = AudioProcessingEvent.node;
@@ -35,7 +35,7 @@ AudioProcessingEvent.node = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

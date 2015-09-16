@@ -28,17 +28,17 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The amount of space defined for **frameSpacing** does not include the width of the frame border. Frame spacing can be set on one or more **frameSet** objects and applies to all contained **frameSet** objects, unless the contained object defines a different frame spacing. The default spacing is 2 pixels.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `frame`
 -   `frameSet`

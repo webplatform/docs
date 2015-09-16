@@ -13,7 +13,7 @@ tags:
 uri: html/attributes/chOff
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes an alignment character set by the attribute ch.
 
@@ -29,7 +29,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This is an example usage in HTML for chOff
 
@@ -43,9 +43,9 @@ This is an example usage in JS for chOff
 p = object.chOff
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This property has no default value.
 
@@ -55,16 +55,16 @@ There is no functionality implemented for this property unless defined by the au
 
 **Note**   **chOff** functionality is described in the HTML 4.0 standard as the offset of alignment character.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Specification of chOff](http://www.w3.org/TR/html401/struct/tables.html#adef-charoff)
 :
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `tr`
 -   `td`

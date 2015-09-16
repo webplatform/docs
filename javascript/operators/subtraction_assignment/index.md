@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/operators/subtraction assignment'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Subtracts the value of an expression from the value of a variable and assigns the result to the variable.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Subtracts the value of an expression from the value of a variable and assigns th
 **expression**
 :   Any numeric expression.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var x = 5;
@@ -34,15 +34,15 @@ var y = 7;
 y -= x; // result: y = 2
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 Using the -= operator is exactly the same as doing the following:
 
     result = result - expression
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Subtraction Operator (-)](/javascript/operators/subtraction)
 

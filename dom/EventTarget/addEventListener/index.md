@@ -19,35 +19,35 @@ tags:
 uri: dom/EventTarget/addEventListener
 
 ---
-## <span>Summary</span>
+## Summary
 
 Registers an event handler for the specified event type.
 
 Method of [dom/EventTarget](/dom/EventTarget)[dom/EventTarget](/dom/EventTarget)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  target.addEventListener(type, handler, useCapture);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>type</span>
+### type
 
  Data-type
 :   String
 
  The type of event [**type**](/dom/Event/type) to register.
 
-### <span>handler</span>
+### handler
 
  Data-type
 :   function
 
  A **function** that is called when the event is fired.
 
-### <span>useCapture</span>
+### useCapture
 
  Data-type
 :   Boolean
@@ -58,11 +58,11 @@ A **Boolean** value that specifies the event phase to add the event handler for.
 
 While this parameter is officially optional, it may only be omitted in modern browsers.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 This example listens to any click events on the document or its descendants.
 
@@ -75,13 +75,13 @@ document.addEventListener(
   false);
 ```
 
-## <span>Notes</span>
+## Notes
 
 1.  Events are handled in two phases: capturing and bubbling. During the capturing phase, events are dispatched to parent objects before they are dispatched to event targets that are lower in the object hierarchy. During the bubbling phase, events are dispatched to target elements first and then to parent elements. You can register event handlers for either event phase. For more information, see [**eventPhase**](/dom/Event/eventPhase).
 2.  Some events, such as [**onfocus**](/dom/HTMLElement/focus), do not bubble. However, you can capture all events. You cannot capture events by elements that are not parents of the target element.
 3.  If you register multiple identical event handlers on the same event target, the duplicate event handlers are discarded.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

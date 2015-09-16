@@ -19,11 +19,11 @@ tags:
 uri: css/properties/box-decoration-break
 
 ---
-## <span>Summary</span>
+## Summary
 
 Breaks a box into fragments creating new borders, padding and repeating backgrounds or lets it stay as a continuous box on a page break, column break, or, for inline elements, at a line break.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `slice`
@@ -46,12 +46,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `box-decoration-break: clone`
 -   `box-decoration-break: slice`
 
-## <span>Values</span>
+## Values
 
 clone
 :   Each box fragment is independently wrapped with the border and padding. The `border-radius` and `border-image` and `box-shadow`, if any, are applied to each fragment independently. The background is drawn independently in each fragment of the element. A no-repeat background image will thus be rendered once in each fragment of the element.
@@ -59,7 +59,7 @@ clone
 slice
 :   No border and no padding are inserted at a break. No box-shadow is drawn at a broken edge; `border-radius` does not apply to its corners; and the `border-image` is rendered for the whole box as if it were unbroken. The effect is as though the element were rendered with no breaks present, and then sliced by the breaks afterward. Backgrounds are drawn as if, after the element has been laid out (including any justification, reordering, page breaks, etc.), all the element's box fragments were taken and put one after the other in visual order. The background is applied to the bounding box of this composite box and then the fragments are put back, with each with its share of the background.
 
-## <span>Examples</span>
+## Examples
 
 This is an example of CSS how you can use box-decoration-break for a given element `.clone` which is part of the element element with column breaks.
 
@@ -90,26 +90,26 @@ This is an example of CSS how you can use box-decoration-break for a given eleme
 
 [View live example](http://code.webplatform.org/gist/6363867)
 
-## <span>Usage</span>
+## Usage
 
      This property comes in handy if you want to indicate how a box splits when, for example a user prints a page.
 
 When using CSS columns, grids or regions it is useful to decide how a box looks when it breaks.
 
-## <span>Notes</span>
+## Notes
 
 In Firefox there is `-moz-background-inline-policy` which enables you to treat background images how you want to. This is only a partial implementation of `box-decoration-break`.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#box-decoration-break)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Layout</span>
+#### CSS Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -153,7 +153,7 @@ In Firefox there is `-moz-background-inline-policy` which enables you to treat b
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-### <span>External resources</span>
+### External resources
 
 -   [Documentation on -moz-background-inline-policy](https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-background-inline-policy)
 -   [The state of box-decoration-break by Lennart Schoors](http://bricss.net/post/24672339016/box-decoration-break-finally-coming-to-more-browsers)

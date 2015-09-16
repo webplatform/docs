@@ -11,11 +11,11 @@ tags:
 uri: javascript/Array/isArray
 
 ---
-## <span>Summary</span>
+## Summary
 
 Determines whether an object is an array.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -24,13 +24,13 @@ Determines whether an object is an array.
 **object**
 :   Required. The object to test.
 
-## <span>Return Value</span>
+## Return Value
 
 Boolean value. Either true if object is an array; otherwise, false.
 
 If the object argument is not an object, false or undefined is returned.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **Array.isArray** function.
 
@@ -60,14 +60,14 @@ var ar = [];
  // Output: false
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Array Object](/javascript/Array)
 -   [typeof Operator](/javascript/operators/typeof)
 
-### <span>Specification</span>
+### Specification
 
 [15.4.3.2 Array.isArray ( arg )](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.3.2) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

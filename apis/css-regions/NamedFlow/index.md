@@ -11,11 +11,11 @@ tags:
 uri: apis/css-regions/NamedFlow
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents content to flow among various block region elements. The NamedFlow interface allows access to both the content of the flow and the series of regions in which it displays, and helps determine if the content exceeds or falls short of the number of regions necessary to display it.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -29,7 +29,7 @@ API Name
 [overset](/apis/css-regions/NamedFlow/overset)
 :   Indicates whether a [flow's](/css/concepts/named_flow) content exceeds available space within a [region chain](/css/concepts/region_chain), or if no available chain in which to flow content exists.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -43,7 +43,7 @@ API Name
 [getRegionsByContent](/apis/css-regions/NamedFlow/getRegionsByContent)
 :   Returns the static sequence of [regions](/css/concepts/region) that contain at least part of the supplied target content element.
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -54,7 +54,7 @@ API Name
 [regionoversetchange](/apis/css-regions/NamedFlow/regionoversetchange)
 :   Fires on the ****NamedFlow**** object when a change in how its content flows through a [region chain](/css/concepts/region_chain) renders any [region](/css/concepts/region) empty or [*overset*](/css/concepts/overset) (overfilled), or that reverses that state.
 
-## <span>Examples</span>
+## Examples
 
 Generic event handler dispatches functions to add or delete regions based on changes to how content flows through a [region chain](/css/concepts/region_chain):
 
@@ -101,7 +101,7 @@ if (regions.length > 1) {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Specifying an identifier for any element's flow-into CSS property diverts its content to a NamedFlow object, whose name corresponds to the property's value.  Other elements that specify the same identifier as their flow-from property serve as a chain of 'regions' that dynamically display the content.  (The NamedFlow object is still available with NULL content if those properties are later removed.)
 
@@ -109,16 +109,16 @@ Use the [**getNamedFlows()**](/dom/Document/getNamedFlows) method to gather [nam
 
 For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -176,7 +176,7 @@ For an overview of CSS Regions, see [Using CSS Regions to flow content through a
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

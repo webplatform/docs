@@ -22,13 +22,13 @@ tags:
 uri: dom/CharacterData/length
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the number of characters in a text node.
 
 Property of [dom/CharacterData](/dom/CharacterData)[dom/CharacterData](/dom/CharacterData)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [dom/CharacterData](/dom/CharacterData)[dom/CharacterData](/dom/Char
 var textLength = textualNode.length;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 The number of characters in the node.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //create text node
@@ -70,7 +70,7 @@ function fnChangeValue(){
 </ul>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/)
 :   Recommendation

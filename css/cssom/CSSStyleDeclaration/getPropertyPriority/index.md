@@ -23,34 +23,34 @@ tags:
 uri: css/cssom/CSSStyleDeclaration/getPropertyPriority
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the priority of a property in a CSS style declaration.
 
 Method of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var priority = declaration.getPropertyPriority(property);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>property</span>
+### property
 
  Data-type
 :   String
 
  The name of the CSS property.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 A string that represents the priority if the property is explicitly set in this declaration block and has a specified priority specified, or null.
 
-## <span>Examples</span>
+## Examples
 
 Gets the priority of the first rule in the stylesheet.
 
@@ -73,20 +73,20 @@ alert (priority);
 </body>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The priority of a CSS property is designated by, for example, the [!important](/css/syntax/!important) declaration.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -232,7 +232,7 @@ The priority of a CSS property is designated by, for example, the [!important](/
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

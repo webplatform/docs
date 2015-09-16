@@ -17,16 +17,16 @@ tags:
 uri: svg/elements/title
 
 ---
-## <span>Summary</span>
+## Summary
 
 The title element (&lt;title&gt;) provides a human readable name for container elements and graphics elements.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, a title element is provided for an ellipse. When you hover over the ellipse, a tooltip may be displayed.
 
@@ -49,19 +49,19 @@ In the following code example, a title element is provided for an ellipse. When 
 </pre>
 [View live example](http://code.webplatform.org/gist/3fe2120a26327b9b9b8e)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 Each container element or graphics element in a Scalable Vector Graphics (SVG) drawing can provide a [**desc**](/svg/elements/desc) or a **title** textual description. The **title** elements are not rendered as part of the graphics. Instead, they appear as a tooltip as the the pointer moves over particular elements in the drawing.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.6
 
-### <span>Members</span>
+### Members
 
 The **SVGTitleElement** object has these properties:
 
@@ -74,8 +74,8 @@ The **SVGTitleElement** object has these properties:
 -   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGDescElement**](/svg/elements/desc)

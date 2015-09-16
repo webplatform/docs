@@ -11,11 +11,11 @@ tags:
 uri: dom/PointerEvent/pointerleave
 
 ---
-## <span>Summary</span>
+## Summary
 
 Dispatched when a pointing device is moved off of the hit test boundaries of an element and all of its descendants, including as a result of a pointerup event from a device that does not support hover.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -71,17 +71,17 @@ Varies: when the pointer is primary, all default actions of the [mouseleave](/do
 </table>
 This event type is similar to [pointerout](/dom/PointerEvent/pointerout), but differs in that it does not bubble and that it is not dispatched until the pointing device has left the boundaries of the element and the boundaries of all its children.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 element.addEventListener("pointerleave", handler, useCapture) ;
 ```
 
-## <span>Notes</span>
+## Notes
 
 There are similarities between this event type, the [mouseleave](/dom/MouseEvent/mouseleave) event described in [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/) and the CSS :hover pseudo-class described in [CSS 2.1](http://www.w3.org/TR/CSS2/). See also the [pointerenter](/dom/PointerEvent/pointerenter) event.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Pointer Events](http://www.w3.org/TR/pointerevents)
 :   Working Draft

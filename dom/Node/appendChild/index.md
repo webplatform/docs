@@ -23,34 +23,34 @@ tags:
 uri: dom/Node/appendChild
 
 ---
-## <span>Summary</span>
+## Summary
 
 Appends an element as a child to the object.
 
 Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var appendedChild = node.appendChild(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>newChild</span>
+### newChild
 
  Data-type
 :   DOM Node
 
  The child to append.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The appended child.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **appendChild** method to add an item to an unordered list.
 
@@ -77,11 +77,11 @@ function fnAppend(){
 </body>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use this method to append elements to the end of the childNodes collection.
 
-## <span>Notes</span>
+## Notes
 
 To display new elements on the page, you must append them within the **body** element. For example, the following syntax demonstrates how to add a **div** element to the **body**.
 
@@ -90,7 +90,7 @@ To display new elements on the page, you must append them within the **body** el
 
 This method is accessible at run time. If elements are removed at run time, before the closing tag is parsed, areas of the document might not render. Windows Internet Explorer 9. Exceptions are only supported when webpages are displayed in IE9 Standards mode.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

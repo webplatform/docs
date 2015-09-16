@@ -14,16 +14,16 @@ tags:
 uri: mathml/elements/mn
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML mn element represents a numeric literal which is normally a sequence of digits with a possible separator (a dot or a comma). However, it is also allowed to have arbitrary text in it which is actually a numeric quantity, for example &quot;eleven&quot;.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates a simple usage of the mn element:
 
@@ -47,12 +47,12 @@ This example demonstrates a simple usage of the mn element:
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mn)
 :   W3C Recommendation
 
-## <span>Attributes</span>
+## Attributes
 
  mathsize
 :   The size of the content. Possible values are:

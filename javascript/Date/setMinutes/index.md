@@ -11,11 +11,11 @@ tags:
 uri: javascript/Date/setMinutes
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the minutes value in the Date object using local time.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -33,7 +33,7 @@ Sets the minutes value in the Date object using local time.
 **numMilli**
 :   Optional. A numeric value equal to the milliseconds value.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **setMinutes** method.
 
@@ -46,7 +46,7 @@ function SetMinutesDemo(nmin, nsec){
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 All **set** methods taking optional arguments use the value returned from corresponding **get** methods, if you do not specify an optional argument. For example, if the numSeconds argument not specified, JavaScript uses the value returned from the **getSeconds** method.
 
@@ -54,9 +54,9 @@ To set the minutes value using Universal Coordinated Time (UTC), use the **setUT
 
 If the value of an argument is greater than its range or is a negative number, other stored values are modified accordingly. For example, if the stored date is "Jan 5, 1996 00:00:00" and **setMinutes(90)** is called, the date is changed to "Jan 5, 1996 01:30:00." Negative numbers have a similar behavior.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getMinutes Method (Date)](/javascript/Date/getMinutes)
 -   [getUTCMinutes Method (Date)](/javascript/Date/getUTCMinutes)

@@ -24,20 +24,20 @@ tags:
 uri: 'apis/image capture/PhotoSettings/autoExposureMode'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This reflects the desired auto exposure mode setting.
 
 Property of [apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSettings)[apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSettings)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = photoSettings.autoExposureMode;
 photoSettings.autoExposureMode = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type anyany
 

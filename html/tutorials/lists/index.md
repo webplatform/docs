@@ -12,11 +12,11 @@ todo_broken_links:
 uri: html/tutorials/lists
 
 ---
-## <span>Summary</span>
+## Summary
 
 A step by step example to get used with list elements in html.
 
-## <span>Step by step example</span>
+## Step by step example
 
 Let’s run through a step by step example, to put all of this together. Consider the following scenario:
 
@@ -30,7 +30,7 @@ The client doesn’t mind what order the categories and recipes are shown; they 
 
 Let’s step through the process of creating this site.
 
-### <span>Main page markup</span>
+### Main page markup
 
 1.  Create a properly-formed HTML page, including a doctype, `<html>`, `<head>` and `<body>` elements, and save it as *stepbystep-main.html*. Add a main heading (`<h1>`) of “HTML Cooking School”, and a subheading (`<h2>`) of “Recipes”:
 
@@ -88,7 +88,7 @@ Figure 1: The finished main page.
 
 You can also [view the live example page here](http://dev.opera.com/articles/view/16-html-lists/stepbystep-main.html).
 
-### <span>The recipe page</span>
+### The recipe page
 
 For the sake of the example, we will just create the sponge cake recipe page — feel free to create the others yourself, using this one as a template. The HTML Cooking School has supplied the sponge recipe to you in a text file, looking like this:
 
@@ -111,7 +111,7 @@ For the sake of the example, we will just create the sponge cake recipe page —
       6. Bake for 20 minutes in the preheated oven, or until the top of the cake springs back when lightly pressed.
       7. Cool in the pan over a wire rack.
 
-### <span>Recipe page markup</span>
+### Recipe page markup
 
 1.  Create another properly-formed HTML document, and save it as stepbystep-recipe.html. Add the following headings to it:
 
@@ -170,7 +170,7 @@ You can also [view the live example page here](http://dev.opera.com/articles/vie
 
 You’re done!
 
-## <span>Notes</span>
+## Notes
 
 This page needs to be redone and actually broken into a few tutorials which will show different things you can do with lists since there are simply so many.
 

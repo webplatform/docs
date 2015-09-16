@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/split
 
 ---
-## <span>Summary</span>
+## Summary
 
 Split a string into substrings using the specified separator and return the substrings as an array.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,11 +29,11 @@ Split a string into substrings using the specified separator and return the subs
 **limit**
 :   Optional. A value used to limit the number of elements returned in the array.
 
-## <span>Return Value</span>
+## Return Value
 
 The result of the **split** method is an array of strings split at each point where separator occurs in stringObj. The separator is not returned as part of any array element.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **split** method.
 
@@ -57,9 +57,9 @@ var s = "The quick brown fox jumps over the lazy dog.";
  // dog.
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [concat Method (String)](/javascript/String/concat)
 -   [RegExp Object](/javascript/RegExp)

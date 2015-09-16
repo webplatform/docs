@@ -22,14 +22,14 @@ uri: dom/HTMLElement/tagName
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.tagName;
 element.tagName = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example retrieves the tag name of an object that has the identifier specified in the prompt window.
 
@@ -42,8 +42,8 @@ if (idValue != null) {
 </SCRIPT>
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5

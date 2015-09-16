@@ -20,7 +20,7 @@ tags:
 uri: dom/MutationEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents events for tracking modifications, insertions and deletions of attributes and nodes in the DOM. Mutation Events (W3C DOM Level 3 Events) have been deprecated in favor of Mutation Observers (W3C DOM4).
 
@@ -30,7 +30,7 @@ Pages or Web apps using it may break at any time.
 
 Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -50,7 +50,7 @@ API Name
 [relatedNode](/dom/MutationEvent/relatedNode)
 :   Gets a second node related to a mutation event.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -58,13 +58,13 @@ API Name
 [initMutationEvent](/dom/MutationEvent/initMutationEvent)
 :   Initializes a new DOM mutation (modification) event that the [**createEvent**](/dom/Document/createEvent) method created.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from Event</span>
+## Inherited from Event
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -96,7 +96,7 @@ API Name
 [type](/dom/Event/type)
 :   Gets the name of an event.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -113,7 +113,7 @@ API Name
 [stopPropagation](/dom/Event/stopPropagation)
 :   Prevents propagation of an event beyond the current target.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -198,20 +198,20 @@ API Name
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Mutation events occur when DOM nodes are inserted and removed, or when character data or attributes are modified. For more information, see [**initMutationEvent**](/dom/MutationEvent/initMutationEvent).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Events](http://www.w3.org/TR/DOM-Level-2-Events/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Deprecated</span>
+#### Deprecated
 
 -   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 

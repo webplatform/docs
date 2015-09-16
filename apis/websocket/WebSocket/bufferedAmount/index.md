@@ -23,13 +23,13 @@ tags:
 uri: apis/websocket/WebSocket/bufferedAmount
 
 ---
-## <span>Summary</span>
+## Summary
 
 The number of bytes of data that have been queued using calls to send() but not yet transmitted to the network.
 
 Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket/WebSocket](/apis/websocket/WebSocket)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,11 +37,11 @@ Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket
 var result = element.bufferedAmount;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var data = new ArrayBuffer(10000000);
@@ -57,11 +57,11 @@ else {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 This can be used to determine whether the network can handle the data rate you are sending. The value does not reset to zero when the connection is closed; if you keep calling send(), this will continue to climb.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation

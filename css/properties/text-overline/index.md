@@ -18,11 +18,11 @@ tags:
 uri: css/properties/text-overline
 
 ---
-## <span>Summary</span>
+## Summary
 
 The text-overline property is the shorthand for the text-overline-style, text-overline-width, text-overline-color, and text-overline-mode properties.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `not defined for shorthand properties`
@@ -48,13 +48,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-overline: <'text-overline-color'>`
 -   `text-overline: <'text-overline-mode'>`
 -   `text-overline: <'text-overline-style'>`
 
-## <span>Values</span>
+## Values
 
 \<'text-overline-style'\>
 :   Possible values:
@@ -71,7 +71,7 @@ None- Produces no line. solid - Produces a solid line. double - Produces a doubl
 
 Continuous is the default value and shows overline for both words and whitespaces. Words only shows onverline for words and not whitespaces. It can also have the values of initial or inherit.
 
-## <span>Examples</span>
+## Examples
 
 Produces a single, solid, blue overline.
 
@@ -81,7 +81,7 @@ p {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514/)
 :   Candidate Recommendation

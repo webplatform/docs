@@ -11,11 +11,11 @@ tags:
 uri: 'tutorials/styling svg with css'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article covers the basics of styling SVG content with CSS.
 
-### <span>Information: SVG</span>
+### Information: SVG
 
 *SVG* (Scalable Vector Graphics) is an XML-based language for creating graphics. It can be used for static images, and also for animations and user interfaces.
 
@@ -29,7 +29,7 @@ At the time of writing (mid 2011), most modern browsers have basic support for S
 
 You can add SVG support to other versions by installing a plugin such as the one provided by [Adobe](http://www.adobe.com).
 
-### <span>Action: An SVG demonstration</span>
+### Action: An SVG demonstration
 
 1.  Make a new SVG document as a plain text file, `doc8.svg`. Copy and paste the content from here, making sure that you scroll to get all of it:
 
@@ -186,8 +186,8 @@ Notes:
 -   The SVG document links the styesheet in the usual way.
 -   SVG has its own CSS properties and values. Some of them are similar to CSS properties for HTML.
 
-## <span>See also</span>
+## See also
 
-## <span>Exercise question</span>
+## Exercise question
 
 Change the stylesheet so that the inner petals all turn pink when the mouse pointer is over any one of them, without changing the way the outer petals work.

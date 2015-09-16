@@ -91,7 +91,7 @@ translations:
 uri: css/properties/outline
 
 ---
-## <span>Summary</span>
+## Summary
 
 The CSS outline property is a shorthand property for setting one or more of the individual outline properties outline-style, outline-width and outline-color in a single rule. In most cases the use of this shortcut is preferable and more convenient.
 
@@ -100,7 +100,7 @@ Outlines differ from [borders](/css/properties/border) in the following ways:
 -   Outlines do not take up space, they are drawn above the content.
 -   Outlines may be non-rectangular. They are rectangular in Gecko/Firefox. Internet Explorer attempts to place the smallest contiguous outline around all elements or shapes that are indicated to have an outline. Opera draws a non-rectangular shape around a construct.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `see individual properties`
@@ -126,12 +126,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `outline: inherit`
 -   `outline: outline-color outline-style outline-width`
 
-## <span>Values</span>
+## Values
 
 outline-color outline-style outline-width
 :   The `outline` property can contain up to three components:
@@ -143,7 +143,7 @@ outline-color outline-style outline-width
 inherit
 :   This is a keyword indicating that the value is inherited from their parent's element calculated value.
 
-## <span>Examples</span>
+## Examples
 
 A simple example showing multiple **div**s, identical in style except that they have different **outline** properties applied to them.
 
@@ -269,11 +269,11 @@ a:hover {
 
 [View live example](http://code.webplatform.org/gist/5547072)
 
-## <span>Notes</span>
+## Notes
 
 Displaying an outline does not cause reflow, no matter how wide the outline is. The outline frame is drawn over an element, and does not influence the position or size of the box, or of any other boxes.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Basic User Interface Module Level 3 (CSS3 UI)](http://dev.w3.org/csswg/css-ui/#outline)
 :   Working Draft

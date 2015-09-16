@@ -29,7 +29,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example initially sets the **RULES** attribute on the table, and then uses the **rules** property to dynamically change the table borders.
 
@@ -97,17 +97,17 @@ In this example, the table object contains the **RULES** attribute set to `cols`
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/table_rules_border.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The value **none** turns off only the interior borders. To turn off the table borders, set the **rules** property to , or omit the **RULES** attribute from the [**table**](/html/elements/table) object.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `table`
 -   `frame`

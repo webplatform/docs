@@ -11,15 +11,15 @@ tags:
 uri: svg/properties/focusable
 
 ---
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics (SVG) 2.0 Specification](http://go.microsoft.com/fwlink/p/?LinkId=226063), Section 3.12.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGClipPathElement**](/svg/elements/clipPath)
 -   [**SVGPatternElement**](/svg/elements/patterrn)

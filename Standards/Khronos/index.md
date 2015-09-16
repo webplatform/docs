@@ -7,12 +7,12 @@ The Khronos Group is a hardware manufacturer consortium that focuses on media an
 
 **Website:** <http://www.khronos.org/>
 
-## <span>Organizational Structure</span>
+## Organizational Structure
 
-### <span>Funding</span>
+### Funding
 
-## <span>Communications</span>
+## Communications
 
-## <span>Process</span>
+## Process
 
-## <span>Patent Policy</span>
+## Patent Policy

@@ -22,26 +22,26 @@ tags:
 uri: dom/CharacterData/data
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or gets a node's character data.
 
 Property of [dom/CharacterData](/dom/CharacterData)[dom/CharacterData](/dom/CharacterData)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var text = textualNode.html/elements/data;
 textualNode.html/elements/data = newText;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The value of the text node.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //create text node
@@ -71,7 +71,7 @@ function fnChangeValue(){
 </ul>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/)
 :   Recommendation

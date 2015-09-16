@@ -21,34 +21,34 @@ tags:
 uri: dom/NodeList/item
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the nth item in the collection
 
 Method of [dom/NodeList](/dom/NodeList)[dom/NodeList](/dom/NodeList)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = list.item(index);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>index</span>
+### index
 
  Data-type
 :   unsigned long
 
  The index into the collection
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-536297177)
 :   W3C Recommendation

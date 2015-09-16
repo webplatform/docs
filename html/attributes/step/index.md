@@ -19,7 +19,7 @@ tags:
 uri: html/attributes/step
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specify the increment for input with types number, time, or range
 
@@ -37,7 +37,7 @@ Applies to
 </table>
 When `input type="range"`, `input type="date"`, or `input type="number"` is specified, the default increment from `min` to `max` is 1. Override this default with a value in `step`.
 
-## <span>Examples</span>
+## Examples
 
 A slider with a range from 1-12 that increments by 3.
 
@@ -61,27 +61,27 @@ Restricting time input to half-hours.
 
 [View live example](http://jsfiddle.net/mejarc/YkGZY/6/)
 
-## <span>Usage</span>
+## Usage
 
      * when used for input type="time", value must be in seconds
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The following example shows the use of the [**min**](/html/attributes/min), [**max**](/html/attributes/max_(HTMLInputElement)), and **step** attributes.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.7.3.11
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -221,12 +221,12 @@ The following example shows the use of the [**min**](/html/attributes/min), [**m
 
 -   [time](/html/elements/time)
 
-### <span>External resources</span>
+### External resources
 
 -   <http://dev.opera.com/articles/view/new-form-features-in-html5/#input-datetime>
 -   <http://www.quirksmode.org/html5/inputs.html>
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLInputElement`
 -   `input type=number`

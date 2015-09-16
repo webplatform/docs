@@ -22,13 +22,13 @@ tags:
 uri: dom/Event/timeStamp
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the time, in milliseconds, when an event occurred.
 
 Property of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 var eventTimestamp = event.timeStamp;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 The event time stamp, in milliseconds since 1970-1-1 00:00:00 UTC.
 
-## <span>Examples</span>
+## Examples
 
 The following event handler displays the event time by using the current locale settings.
 
@@ -54,14 +54,14 @@ function eventHandler(evt) {
 window.onload = eventHandler;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

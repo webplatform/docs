@@ -18,39 +18,39 @@ tags:
 uri: dom/Window/scroll
 
 ---
-## <span>Summary</span>
+## Summary
 
 Causes the window to scroll to the specified x- and y-offset at the upper-left corner of the window.
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  window.scroll(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
+### x
 
  Data-type
 :   Number
 
 **Integer** that specifies the horizontal scroll offset, in pixels.
 
-### <span>y</span>
+### y
 
  Data-type
 :   Number
 
 **Integer** that specifies the vertical scroll offset, in pixels.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!-- put the 100th vertical pixel at the top of the window -->
@@ -58,8 +58,8 @@ No return value
 <button onClick="scroll(0, 100);">click to scroll down 100 pixels</button>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This method is provided for backward compatibility only. The recommended way to scroll a window is to use the [**scrollTo**](/dom/Window/scrollTo) method.

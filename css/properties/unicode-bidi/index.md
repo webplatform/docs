@@ -21,11 +21,11 @@ tags:
 uri: css/properties/unicode-bidi
 
 ---
-## <span>Summary</span>
+## Summary
 
 The unicode-bidi CSS property specifies the level of embedding with respect to the bidirectional algorithm.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -48,13 +48,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `unicodeBidi`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `unicode-bidi: bidi-override`
 -   `unicode-bidi: embed`
 -   `unicode-bidi: normal`
 
-## <span>Values</span>
+## Values
 
 normal
 :   Default. Element does not open an additional level of embedding. For inline elements, implicit reordering works across element boundaries.
@@ -65,7 +65,7 @@ embed
 bidi-override
 :   Same as the `embed` value, except that, inside the element, reordering is strictly in sequence according to the [**direction**](/css/properties/direction) property. This value overrides the implicit bidirectional algorithm.
 
-## <span>Examples</span>
+## Examples
 
 A simple example showing multiple \<p\>s, that they have different unicode-bidi properties applied to them.
 
@@ -98,18 +98,18 @@ p {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 The `unicode-bidi` property is used with the [**direction**](/css/properties/direction) property. The Unicode bidirectional algorithm automatically reverses embedded character sequences according to their inherent direction. For example, the base direction of an English document is left-to-right. If portions of a paragraph within the document contain a language with a right-to-left reading order, the direction of that language displays correctly right-to-left. The user agent applying the bidirectional algorithm correctly reverses the language direction.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Cascading Style Sheets Level 2 Revision 1](http://www.w3.org/TR/CSS2/visuren.html#propdef-unicode-bidi)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

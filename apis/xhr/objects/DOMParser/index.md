@@ -15,42 +15,42 @@ uri: apis/xhr/objects/DOMParser
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 To create an instance of the **DOMParser** object, use the following syntax.
 
     oParser =  new DOMParser();
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Members</span>
+### Members
 
 The **DOMParser** object has these types of members:
 
 -   [\#methods Methods]
 
-#### <span>Methods</span>
+#### Methods
 
 The **DOMParser** object has these methods. {
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `parseFromString`

@@ -17,11 +17,11 @@ tags:
 uri: css/atrules/@keyframes
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the keyframes for the CSS animation property.
 
-## <span>Examples</span>
+## Examples
 
 Example of prefixed/prefix-free @keyframes blocks
 
@@ -81,33 +81,33 @@ Example of an unprefixed @keyframes block that uses percentages to control the k
 
 [View live example](http://03sq.net/examples/animation2.html)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The version of this rule using a vendor prefix, **@-ms-keyframes**, has been deprecated. To ensure compatibility in the future, applications using this rule with a vendor prefix should be updated accordingly. This rule has no default value. This rule is used to specify property values at various points during an animation. The **@keyframes** rule specifies the property values during one cycle of an animation; the animation may iterate one or more times. This rule uses keyframe selectors to specify property values at various stages of the animation. Keyframe selectors can be declared as `from` (equivalent to `0%`), `to` (equivalent to `100%`), and one or more percentages. Keyframe selectors use keyframe descriptors to specify the properties and values being animated. If a property cannot be animated, the specification is ignored.
 
-### <span>Syntax</span>
+### Syntax
 
 `@keyframes  <identifier>  {  <keyframes_blocks>  };`
 
-### <span>Parameters</span>
+### Parameters
 
 *identifier*
 :   The name of the animation.
 *keyframes\_blocks*
 :   A set of keyframes blocks, each of which is composed of keyframe selectors.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Animations](http://www.w3.org/TR/css3-animations/#keyframes)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -157,7 +157,7 @@ The version of this rule using a vendor prefix, **@-ms-keyframes**, has been dep
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### <span>Syntax</span>
+#### Syntax
 
 -   [@charset](/css/atrules/@charset)
 
@@ -179,12 +179,12 @@ The version of this rule using a vendor prefix, **@-ms-keyframes**, has been dep
 
 -   [!important](/css/syntax/!important)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [canIUse Compatibility Table](http://caniuse.com/#feat=css-animation)
 -   [MDN](https://developer.mozilla.org/en-US/docs/CSS/@keyframes)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `animationName`
 -   `css/properties/animation/animation`

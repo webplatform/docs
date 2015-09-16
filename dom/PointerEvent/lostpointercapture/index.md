@@ -13,11 +13,11 @@ tags:
 uri: dom/PointerEvent/lostpointercapture
 
 ---
-## <span>Summary</span>
+## Summary
 
 Dispatched after pointer capture is released for a pointer.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -75,18 +75,18 @@ This event is dispatched prior to any subsequent events for the pointer after ca
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Note As of Internet Explorer 11, the Microsoft vendor prefixed version of this event (MSLostPointerCapture) is no longer supported and may be removed in a future release. Instead, use the non-prefixed lowercase name, lostpointercapture, which is better for standards compliance and future compatibility.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Pointer Events](http://www.w3.org/TR/pointerevents)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [code.MSDN Pointers and Gestures Example](http://code.msdn.microsoft.com/ie/Pointers-and-Gestures-ae95918f)
 

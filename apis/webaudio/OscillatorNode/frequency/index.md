@@ -16,13 +16,13 @@ tags:
 uri: apis/webaudio/OscillatorNode/frequency
 
 ---
-## <span>Summary</span>
+## Summary
 
 The frequency (in Hertz) of the periodic waveform. This parameter is a-rate.
 
 Property of [apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)[apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -30,14 +30,14 @@ Property of [apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)[apis/w
 var result = OscillatorNode.frequency;
 ```
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var oscillator = audioCtx.createOscillator();
 oscillator.frequency.value = 3000; // value in hertz
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

@@ -20,11 +20,11 @@ tags:
 uri: css/properties/background-color
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets a color to fill up the background of an element it is applied to and accepts any valid CSS color.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `transparent`
@@ -50,13 +50,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `background-color: color`
 -   `background-color: inherit`
 -   `background-color: transparent`
 
-## <span>Values</span>
+## Values
 
 transparent
 :   The default value; you will be able to see the elements behind the element in question showing through it.
@@ -67,7 +67,7 @@ color
 inherit
 :   The element's background-color is inherited from its parent element.
 
-## <span>Examples</span>
+## Examples
 
 The HTML for this example is a series of simple div elements. Each one has the color information applied to it written inside it for ease of reference.
 
@@ -166,7 +166,7 @@ etc
 
 [View live example](http://chrisdavidmills.github.com/simple-background-color/)
 
-## <span>Usage</span>
+## Usage
 
      * A strongly contrasting combination of foreground and background color should be used to make sure your textual content is as readable as possible. To check whether your color contrast passes accessibility conformance criteria, you can use an online checker such as Lea Verou’s Contrast Ratio which accepts any valid CSS color.
 
@@ -177,7 +177,7 @@ background-color: #ff0000;
 background-color: rgba(255,0,0,0.6);
 ```
 
-## <span>Notes</span>
+## Notes
 
 Internet Explorer 8 & 9 suffer from a bug where elements with a computed **background-color** of `transparent` that are overlaid on top of other element(s) won't receive `click` events. Any `click` events will be fired at the underlying element(s) instead. See [this live example](http://jsfiddle.net/YUKma/show/) for a demonstration.
 
@@ -189,7 +189,7 @@ Known workarounds for this bug:
 -   For IE8 and IE9
     -   Set [`filter`](http://msdn.microsoft.com/en-us/library/ms532847(v=vs.85).aspx)`: alpha(opacity=0);` and an explicit **background-color** other than `transparent`
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Backgrounds & Borders Level 3](http://www.w3.org/TR/css3-background/#the-background-color)
 :   W3C Candidate Recommendation
@@ -197,11 +197,11 @@ Known workarounds for this bug:
 [CSS 2.1 Colors and backgrounds](http://www.w3.org/TR/CSS21/colors.html)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Background</span>
+#### Background
 
 -   [background](/css/cssom/properties/background)
 
@@ -231,6 +231,6 @@ Known workarounds for this bug:
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>External resources</span>
+### External resources
 
 -   <http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/>

@@ -26,22 +26,22 @@ uri: 'apis/xhr/methods/send (XDomainRequest)'
 
 Method of [apis/xhr/objects/XDomainRequest](/apis/xhr/objects/XDomainRequest)[apis/xhr/objects/XDomainRequest](/apis/xhr/objects/XDomainRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.send (XDomainRequest)(varBody);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>varBody</span>
+### varBody
 
  Data-type
 :   VARIANT
 
  Receives a **Variant** of type **String** containing the data to transmit to the server. If omitted, the behavior is identical to that of sending an empty string ( "" ).
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -49,7 +49,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // 1. Create XDR object
@@ -62,9 +62,9 @@ xdr.open("POST", "http://www.contoso.com/xdr.txt");
 xdr.send("data to be processed");
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `IHTMLXDomainRequest`

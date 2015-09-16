@@ -10,11 +10,11 @@ tags:
 uri: apis/webaudio/AudioBufferSourceNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 This interface represents an audio source from an in-memory audio asset in an AudioBuffer. It generally will be used for short audio assets which require a high degree of scheduling flexibility (can playback in rhythmically perfect ways).
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -37,7 +37,7 @@ API Name
 [playbackState](/apis/webaudio/AudioBufferSourceNode/playbackState)
 :   The playback state, initialized to UNSCHEDULED\_STATE, progressing through SCHEDULED\_STATE, PLAYING\_STATE, and FINISHED\_STATE.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -48,11 +48,11 @@ API Name
 [stop](/apis/webaudio/AudioBufferSourceNode/stop)
 :   Schedules a sound to stop playback at an exact time, with options.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
 :   W3C Editor's Draft

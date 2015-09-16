@@ -22,11 +22,11 @@ tags:
 uri: css/properties/transition-duration
 
 ---
-## <span>Summary</span>
+## Summary
 
 The 'transition-duration' property specifies the length of time a transition animation takes to complete.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0s`
@@ -52,16 +52,16 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `transition-duration: time`
 
-## <span>Values</span>
+## Values
 
 time
 :   Floating-point number, followed by a time units designator (`ms` or `s`). For more information about the supported time units, see **CSS Values and Units Reference**.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /*
@@ -76,24 +76,24 @@ div:hover{
 
 [View live example](http://code.webplatform.org/gist/5842067)
 
-## <span>Notes</span>
+## Notes
 
 Transitions respect Cascading Style Sheets (CSS) box model constraints such as [**min-width**](/css/properties/min-width). For example, if an element is declared with a [**min-width**](/css/properties/min-width) value of `50px` then a transition to a width of `25px` is not valid. In a case such as this, the transition runs for the specified duration from the start value until a valid maximum or minimum end value, as appropriate.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Transitions Module Level 3](http://www.w3.org/TR/css3-transitions/#transition-duration-property), Section 2.2
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Transitions](http://www.w3.org/TR/2009/WD-css3-transitions-20091201/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Transitions</span>
+#### Transitions
 
 -   [cubic-bezier](/css/functions/cubic-bezier)
 

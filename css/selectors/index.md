@@ -13,23 +13,23 @@ todo_broken_links:
 uri: css/selectors
 
 ---
-## <span>Summary</span>
+## Summary
 
 A Selector represents a structure. This structure can be used as a condition (e.g. in a CSS rule) that determines which elements a selector matches in the document tree, or as a flat description of the HTML or XML fragment corresponding to that structure.
 
 Selectors may range from simple element names to rich contextual representations.
 
-## <span>CSS Selector Reference</span>
+## CSS Selector Reference
 
-### <span>Type Selector</span>
+### Type Selector
 
 -   [`elementname`](/css/selectors/type)
 
-### <span>Universal Selector</span>
+### Universal Selector
 
 -   [`*`](/css/selectors/universal_selector)
 
-### <span>[Attribute Selector](/css/selectors/attribute_selector)</span>
+### [Attribute Selector](/css/selectors/attribute_selector)
 
 -   `[attributename]`
 -   `[attributename="val"]`
@@ -39,17 +39,17 @@ Selectors may range from simple element names to rich contextual representations
 -   `[attributename$="val"]`
 -   `[attributename*="val"]`
 
-### <span>Class Selector</span>
+### Class Selector
 
 -   [`.classname`](/css/selectors/class_selector)
 
-### <span>ID Selector</span>
+### ID Selector
 
 -   [`#idname`](/css/selectors/id_selector)
 
-### <span>Pseudo-classes</span>
+### Pseudo-classes
 
-#### <span>[Dynamic pseudo-classes](/css/selectors/pseudo-classes)</span>
+#### [Dynamic pseudo-classes](/css/selectors/pseudo-classes)
 
 -   `:link`
 -   `:visited`
@@ -57,21 +57,21 @@ Selectors may range from simple element names to rich contextual representations
 -   `:active`
 -   `:focus`
 
-#### <span>The target pseudo-class</span>
+#### The target pseudo-class
 
 -   [`:target`](/css/selectors/pseudo-classes/:target)
 
-#### <span>The language pseudo-class</span>
+#### The language pseudo-class
 
 -   [`:lang`](/w/index.php?title=css/selectors/pseudo-classes/:lang&action=edit&redlink=1)
 
-#### <span>[The UI element states pseudo-classes](/css/selectors/pseudo-classes/ui_element_states_pseudo-classes)</span>
+#### [The UI element states pseudo-classes](/css/selectors/pseudo-classes/ui_element_states_pseudo-classes)
 
 -   `:enabled`
 -   `:disabled`
 -   `:checked`
 
-#### <span>[Structural pseudo-classes](/css/selectors/pseudo-classes/Structural_pseudo-classes)</span>
+#### [Structural pseudo-classes](/css/selectors/pseudo-classes/Structural_pseudo-classes)
 
 -   [`:root`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:root_pseudo-class)
 -   [`:nth-child`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:nth-child.28.29_pseudo-class)
@@ -86,40 +86,40 @@ Selectors may range from simple element names to rich contextual representations
 -   [`:only-of-type`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:only-of-type_pseudo-class)
 -   [`:empty`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:empty_pseudo-class)
 
-#### <span>The negation pseudo-class</span>
+#### The negation pseudo-class
 
 -   [`:not`](/css/selectors/pseudo-classes/:not)
 
-### <span>Pseudo-elements</span>
+### Pseudo-elements
 
 -   [`::first-line`](/css/selectors/pseudo-elements/::first-line)
 -   [`::first-letter`](/css/selectors/pseudo-elements/::first-letter)
 -   [`::before`](/css/selectors/pseudo-elements/::before)
 -   [`::after`](/css/selectors/pseudo-elements/::after)
 
-### <span>Combinators</span>
+### Combinators
 
-#### <span>Descendant combinator</span>
+#### Descendant combinator
 
 -   [`A B`](/css/selectors/combinators/descendant)
 
-#### <span>Child combinator</span>
+#### Child combinator
 
 -   [`A > B`](/css/selectors/combinators/child)
 
-#### <span>Adjacent sibling combinator</span>
+#### Adjacent sibling combinator
 
 -   [`A + B`](/css/selectors/combinators/adjacent_sibling)
 
-#### <span>General sibling combinator</span>
+#### General sibling combinator
 
 -   [`A ~ B`](/css/selectors/combinators/general_sibling)
 
-## <span>Case sensitivity</span>
+## Case sensitivity
 
 All Selectors syntax is case-insensitive within the ASCII range (i.e. [a-z] and [A-Z] are equivalent), except for parts that are not under the control of Selectors. The case sensitivity of document language element names, attribute names, and attribute values in selectors depends on the document language. For example, in HTML, element names are case-insensitive, but in XML, they are case-sensitive. Case sensitivity of namespace prefixes is defined in [CSS3NAMESPACE](http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS3NAMESPACE).
 
-## <span>Selector syntax</span>
+## Selector syntax
 
 A selector is a chain of one or more sequences of simple selectors separated by combinators. One pseudo-element may be appended to the last sequence of simple selectors in a selector. A sequence of simple selectors is a chain of simple selectors that are not separated by a combinator. It always begins with a type selector or a universal selector. No other type selector or universal selector is allowed in the sequence.
 
@@ -133,7 +133,7 @@ An empty selector, containing no sequence of simple selectors and no pseudo-elem
 
 Certain selectors support namespace prefixes. The mechanism by which namespace prefixes are declared should be specified by the language that uses Selectors. If the language does not specify a namespace prefix declaration mechanism, then no prefixes are declared. In CSS, namespace prefixes are declared with the @namespace rule. [CSS3NAMESPACE](http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS3NAMESPACE)
 
-## <span>Groups of selectors</span>
+## Groups of selectors
 
 A comma-separated list of selectors represents the union of all elements selected by each of the individual selectors in the list. (A comma is U+002C.) For example, in CSS when several selectors share the same declarations, they may be grouped into a comma-separated list. White space may appear before and/or after the comma.
 
@@ -169,15 +169,15 @@ h1, h2..foo, h3 { font-family: sans-serif }
 
 because the above selector (h1, h2..foo, h3) is entirely invalid and the entire style rule is dropped. (When the selectors are not grouped, only the rule for h2..foo is dropped.)
 
-## <span>See also</span>
+## See also
 
-### <span>Related topics</span>
+### Related topics
 
 -   [Using Selectors Tutorial](/tutorials/using_selectors)
 -   [CSS Educational Materials for Beginners](/css/tutorials)
 -   [CSS Properties Reference](/css/properties)
 
-### <span>Selector list</span>
+### Selector list
 
 <table class="mw-prefixindex-list-table">
 <tr>
@@ -513,7 +513,7 @@ because the above selector (h1, h2..foo, h3) is entirely invalid and the entire 
 </td>
 </tr>
 </table>
-## <span>Related specifications</span>
+## Related specifications
 
 [Selectors Level 3](http://www.w3.org/TR/css3-selectors/)
 :   Recommendation

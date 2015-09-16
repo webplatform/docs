@@ -18,39 +18,39 @@ tags:
 uri: dom/CharacterData/insertData
 
 ---
-## <span>Summary</span>
+## Summary
 
 Inserts a new character string into the node at the specified offset.
 
 Method of [dom/CharacterData](/dom/CharacterData)[dom/CharacterData](/dom/CharacterData)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  textualNode.insertData(offset, text);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>offset</span>
+### offset
 
  Data-type
 :   String
 
  The zero-based offset from which to start.
 
-### <span>text</span>
+### text
 
  Data-type
 :   String
 
  The new character string.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //create text node
@@ -61,7 +61,7 @@ phrase.insertData(23, "much ");
 alert(phrase.data);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

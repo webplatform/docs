@@ -25,16 +25,16 @@ todo_broken_links:
 uri: mathml/elements/mstyle
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML mstyle element is used change the style of its children. It accepts all attributes of all MathML presentation elements with some exceptions and additional attributes listed below.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates a simple usage of the mstyle element:
 
@@ -71,12 +71,12 @@ This example demonstrates a simple usage of the mstyle element:
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mstyle)
 :   W3C Recommendation
 
-## <span>Attributes</span>
+## Attributes
 
  decimalpoint
 :   This attribute is specifying the character for the alignment point within [mstack](/w/index.php?title=mathml/elements/mstack&action=edit&redlink=1) and [mtable](/w/index.php?title=mathml/elements/mtable&action=edit&redlink=1) columns, if the `decimalpoint` value is used to specify the alignment.

@@ -12,11 +12,11 @@ tags:
 uri: apis/workers/WorkerLocation
 
 ---
-## <span>Summary</span>
+## Summary
 
 An object representing an absolute URL, set at the worker's creation.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -24,19 +24,19 @@ API Name
 [href](/apis/workers/WorkerLocation/href)
 :   Returns the absolute URL that the object represents.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 The **WorkerLocation** object is created by using the **self.location** method inside a worker thread. The **self** object is a reference to the **WorkerGlobalScope** object. The **href** property contains the absolute URL of the worker at its creation.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft

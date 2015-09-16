@@ -9,11 +9,11 @@ Selectors introduces the concept of structural pseudo-classes to permit selectio
 
 Standalone text and other non-element nodes are not counted when calculating the position of an element in the list of children of its parent. When calculating the position of an element in the list of children of its parent, the index numbering starts at 1.
 
-## <span>`:root` pseudo-class</span>
+## `:root` pseudo-class
 
 The `:root` pseudo-class represents an element that is the root of the document. In HTML 4, this is always the `HTML` element.
 
-## <span>`:nth-child()` pseudo-class</span>
+## `:nth-child()` pseudo-class
 
 The `:nth-child(an+b)` pseudo-class notation represents an element that has an+b-1 siblings before it in the document tree, for any positive integer or zero value of n, and has a parent element. For values of a and b greater than zero, this effectively divides the element's children into groups of a elements (the last group taking the remainder), and selecting the bth element of each group. For example, this allows the selectors to address every other row in a table, and could be used to alternate the color of paragraph text in a cycle of four. The a and b values must be integers (positive, negative, or zero). The index of the first child of an element is 1.
 
@@ -26,7 +26,7 @@ The argument to `:nth-child()` must match the grammar below, where INTEGER match
              ['-'|'+']? INTEGER | {O}{D}{D} | {E}{V}{E}{N} ] S*
       ;
 
-### <span>Examples:</span>
+### Examples:
 
 ``` css
 tr:nth-child(2n+1) /* represents every odd row of an HTML table */
@@ -97,11 +97,11 @@ The value a can be negative, but only the positive values of an+b, for n≥0, ma
 html|tr:nth-child(-n+6)  /* represents the 6 first rows of XHTML tables */
 ```
 
-## <span>`:nth-last-child()` pseudo-class</span>
+## `:nth-last-child()` pseudo-class
 
 The `:nth-last-child(an+b)` pseudo-class notation represents an element that has an+b-1 siblings after it in the document tree, for any positive integer or zero value of n, and has a parent element. See `:nth-child()` pseudo-class for the syntax of its argument. It also accepts the ‘`even`’ and ‘`odd`’ values as arguments.
 
-### <span>Examples:</span>
+### Examples:
 
 ``` css
 tr:nth-last-child(-n+2)    /* represents the two last rows of an HTML table */
@@ -110,7 +110,7 @@ foo:nth-last-child(odd)    /* represents all odd foo elements in their parent el
 counting from the last one */
 ```
 
-## <span>`:nth-of-type()` pseudo-class</span>
+## `:nth-of-type()` pseudo-class
 
 The `:nth-of-type(an+b)` pseudo-class notation represents an element that has an+b-1 siblings with the same expanded element name before it in the document tree, for any zero or positive integer value of n, and has a parent element. See `:nth-child()` pseudo-class for the syntax of its argument. It also accepts the ‘`even`’ and ‘`odd`’ values.
 
@@ -121,7 +121,7 @@ img:nth-of-type(2n+1) { float: right; }
 img:nth-of-type(2n) { float: left; }
 ```
 
-## <span>`:nth-last-of-type()` pseudo-class</span>
+## `:nth-last-of-type()` pseudo-class
 
 The `:nth-last-of-type(an+b)` pseudo-class notation represents an element that has an+b-1 siblings with the same expanded element name after it in the document tree, for any zero or positive integer value of n, and has a parent element. See `:nth-child()` pseudo-class for the syntax of its argument. It also accepts the ‘`even`’ and ‘`odd`’ values.
 
@@ -137,7 +137,7 @@ In this case, one could also use :not(), although the selector ends up being ju
 body > h2:not(:first-of-type):not(:last-of-type)
 ```
 
-## <span>`:first-child` pseudo-class</span>
+## `:first-child` pseudo-class
 
 Same as `:nth-child(1)`. The `:first-child` pseudo-class represents an element that is the first child of some other element.
 
@@ -173,7 +173,7 @@ The following two selectors are usually equivalent:
 a:first-child /* Same (assuming a is not the root element) */
 ```
 
-## <span>`:last-child` pseudo-class</span>
+## `:last-child` pseudo-class
 
 Same as `:nth-last-child(1)`. The `:last-child` pseudo-class represents an element that is the last child of some other element.
 
@@ -183,7 +183,7 @@ The following selector represents a list item li that is the last child of an or
 ol > li:last-child
 ```
 
-## <span>`:first-of-type` pseudo-class</span>
+## `:first-of-type` pseudo-class
 
 Same as `:nth-of-type(1)`. The `:first-of-type` pseudo-class represents an element that is the first sibling of its type in the list of children of its parent element.
 
@@ -209,7 +209,7 @@ It is a valid description for the first two `dt` elements in the following examp
 </dl>
 ```
 
-## <span>`:last-of-type` pseudo-class</span>
+## `:last-of-type` pseudo-class
 
 Same as `:nth-last-of-type(1)`. The `:last-of-type` pseudo-class represents an element that is the last sibling of its type in the list of children of its parent element.
 
@@ -219,15 +219,15 @@ The following selector represents the last data cell td of a table row `tr`.
 tr > td:last-of-type
 ```
 
-## <span>`:only-child` pseudo-class</span>
+## `:only-child` pseudo-class
 
 Represents an element that has a parent element and whose parent element has no other element children. Same as `:first-child:last-child` or `:nth-child(1):nth-last-child(1)`, but with a lower specificity.
 
-## <span>`:only-of-type` pseudo-class</span>
+## `:only-of-type` pseudo-class
 
 Represents an element that has a parent element and whose parent element has no other element children with the same expanded element name. Same as `:first-of-type:last-of-type` or `:nth-of-type(1):nth-last-of-type(1)`, but with a lower specificity.
 
-## <span>`:empty` pseudo-class</span>
+## `:empty` pseudo-class
 
 The `:empty` pseudo-class represents an element that has no children at all. In terms of the document tree, only element nodes and content nodes (such as DOM [[DOM-LEVEL-3-CORE](http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#DOM-LEVEL-3-CORE)] text nodes, CDATA nodes, and entity references) whose data has a non-zero length must be considered as affecting emptiness; comments, processing instructions, and other nodes must not affect whether an element is considered empty or not.
 

@@ -16,11 +16,11 @@ tags:
 uri: html/elements/plainText
 
 ---
-## <span>Summary</span>
+## Summary
 
 The plaintext element (&lt;plaintext&gt;) is a deprecated tag that was used to indicate that the contents should be interpretted as raw text, without parsing any HTML entities or child tags.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)

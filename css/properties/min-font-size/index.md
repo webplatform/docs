@@ -19,13 +19,13 @@ tags:
 uri: css/properties/min-font-size
 
 ---
-## <span>Summary</span>
+## Summary
 
 Obsolete: unsupported.
 
 This property is only used when the text-align-last property is set to size. It controls allowed adjustments of font-size to fit line content.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -51,9 +51,9 @@ Animatable
 Percentages
 :   elements computed font-size
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 font-size
 :   The font size of the last line of an element is restricted to being greater than either the computed font-size or this number, whichever is smaller.
@@ -63,15 +63,15 @@ auto
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      This property is only used when the text-align-last property is set to size.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -105,7 +105,7 @@ auto
 
 -   [font](/html/elements/font)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

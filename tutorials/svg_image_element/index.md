@@ -17,7 +17,7 @@ todo_broken_links:
 uri: 'tutorials/svg image element'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article describes the usage of the SVG image element
 

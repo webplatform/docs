@@ -19,21 +19,21 @@ tags:
 uri: 'apis/image capture/ImageCapture/setOptions'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Applies the settings specified by the PhotoSettings object passed by parameter.
 
 Method of [apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)[apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  pictureDevice.setOptions(photoSettings);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>photoSettings</span>
+### photoSettings
 
  Data-type
 :   PhotoSettings
@@ -42,7 +42,7 @@ Method of [apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)[a
 
 The PhotoSettings object is optionally passed into the ImageCapture.setOptions() method in order to modify capture device settings specific to still imagery.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 

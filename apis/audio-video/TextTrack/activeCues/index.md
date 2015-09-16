@@ -23,13 +23,13 @@ tags:
 uri: apis/audio-video/TextTrack/activeCues
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the text track cues from the text track list of cues that are currently active (i.e. that start before the current playback position and end after it), as a TextTrackCueList object.
 
 Property of [apis/audio-video/TextTrack](/apis/audio-video/TextTrack)[apis/audio-video/TextTrack](/apis/audio-video/TextTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,11 +37,11 @@ Property of [apis/audio-video/TextTrack](/apis/audio-video/TextTrack)[apis/audio
 var result = TextTrack.activeCues;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!DOCTYPE html>
@@ -76,7 +76,7 @@ Returns an object of type DOM NodeDOM Node
 <</html>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

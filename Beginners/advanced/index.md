@@ -10,11 +10,11 @@ tags:
 uri: Beginners/advanced
 
 ---
-## <span>Summary</span>
+## Summary
 
 Now you've worked your way through the basics, let's look at some more advanced exercises to do to test your new found skills.
 
-## <span>Beginners submenu</span>
+## Beginners submenu
 
 The **[Beginners](/Beginners)** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 
@@ -29,11 +29,11 @@ The **[Beginners](/Beginners)** section covers the various aspects of web develo
 -   [9. Browser testing](/Beginners/browser_testing)
 -   [Glossary](/Beginners/glossary)
 
-### <span>Practice</span>
+### Practice
 
 If you want to get some practice, here is a set of tasks you can do. Those steps are common things to do to make a website, and can be a good practice to any level of experience.
 
-#### <span>Practice project requirements</span>
+#### Practice project requirements
 
 Make a small form in which you can edit a few fields. Then try to achieve one or many of the following.
 

@@ -11,11 +11,11 @@ tags:
 uri: css/cssom/ClientRect
 
 ---
-## <span>Summary</span>
+## Summary
 
 An interface for objects that store information regarding the position and dimension of an element.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -32,10 +32,10 @@ API Name
 [top](/css/cssom/ClientRect/top)
 :   Returns the *top* value for a **ClienRect** object.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*

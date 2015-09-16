@@ -24,33 +24,33 @@ tags:
 uri: 'apis/network information/Connection/onchange'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Handles the change event, fired when the Connection changes.
 
 Property of [apis/network\_information/Connection](/apis/network_information/Connection)[apis/network\_information/Connection](/apis/network_information/Connection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = connection.onchange;
 connection.onchange = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type EventHandlerEventHandler
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 As of 25 June 2014:
 
 -   Formal work on the [Network Information](http://www.w3.org/TR/netinfo-api/) spec has been stopped. The specification is now a W3C Note.
 -   Both Chrome and Firefox have shipped Network Information under an experimental feedback channel.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [The Network Information API](http://www.w3.org/TR/netinfo-api/)
 :   W3C Note

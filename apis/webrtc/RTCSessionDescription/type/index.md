@@ -21,20 +21,20 @@ tags:
 uri: apis/webrtc/RTCSessionDescription/type
 
 ---
-## <span>Summary</span>
+## Summary
 
 The type of SDP object this RTCSessionDescription represents.
 
 Property of [apis/webrtc/RTCSessionDescription](/apis/webrtc/RTCSessionDescription)[apis/webrtc/RTCSessionDescription](/apis/webrtc/RTCSessionDescription)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.type;
 element.type = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type RTCSdpTypeRTCSdpType
 

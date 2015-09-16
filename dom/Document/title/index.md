@@ -21,26 +21,26 @@ tags:
 uri: dom/Document/title
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets the title of a Document. When the document is the main document that is shown (meaning, not of an iframe), this is usually shown to the user.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var documentTitle = document.title;
 document.title = newDocumentTitle;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The current title of the document.
 
-## <span>Examples</span>
+## Examples
 
 The following script gets the title of the document, changes the first "r" to a "t" (if there is an "r") and sets the result as the title of the document.
 
@@ -50,15 +50,15 @@ The following script gets the title of the document, changes the first "r" to a 
 document.title = document.title.replace("r", "t");
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use this property to get or set the title of the document.
 
-## <span>Notes</span>
+## Notes
 
 When [document](/dom/Document) is the main document that is shown to the user, most browsers show the value of this property to the user as the title of the window or page.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage/dom.html#document.title)
 :   Living Standard

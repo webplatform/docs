@@ -10,7 +10,7 @@ tags:
 uri: tutorials/gamepad
 
 ---
-## <span>Summary</span>
+## Summary
 
 How to access and use controllers for games in browser applications.
 
@@ -20,7 +20,7 @@ The Web Gamepad API is a way for web and game developers, as well as interaction
 
 The Gamepad API is currently in [Editor's Draft status at the W3C](http://dvcs.w3.org/hg/webevents/raw-file/default/gamepad.html), and is subject to change.
 
-## <span>Connecting to a gamepad</span>
+## Connecting to a gamepad
 
 When a new gamepad is connected to the computer, the focused page first receives a `MozGamepadConnected` event. If a gamepad is already connected when the page loaded, the `MozGamepadConnected` event is dispatched to the focused page when the user presses a button or moves an axis.
 
@@ -39,7 +39,7 @@ You can use `MozGamepadConnected` like this:
 
 Each gamepad has a unique ID associated with it, which is available on the event's `gamepad` property.
 
-## <span>Disconnecting a gamepad</span>
+## Disconnecting a gamepad
 
 When a gamepad is disconnected, and if a page has previously received data (e.g., MozGamepadConnected), a second event is dispatched to the focused window, **MozGamepadDisconnected**:
 
@@ -73,7 +73,7 @@ The Gamepad's ID will be the same for **MozGamepadConnected** and **MozGamepadDi
 
 This previous example also demonstrates how the **gamepad** property can be held after the event has completed--a technique we will use for device state querying later.
 
-## <span>Gamepad button events</span>
+## Gamepad button events
 
 Gamepads can have one or more buttons, and similar to a mouse button, this API provides events for buttons being pressed and released. When a gamepad button is pressed a **MozGamepadButtonDown** event is dispatched to the currently focused page. Similarly a **MozGamepadButtonUp** event is dispatched when it is released. Both events provide the same **gamepad**property, which indicates the gamepad (i.e., it's ID) that triggered the event. The button itself (i.e., whichever of the 2, 4, etc. buttons the gamepad has) is available on the event's **button** property.
 
@@ -91,7 +91,7 @@ Gamepads can have one or more buttons, and similar to a mouse button, this API p
     window.addEventListener("MozGamepadButtonUp", function(e) { buttonHandler(e, false); }, false);
     </script>
 
-## <span>Gamepad axis events</span>
+## Gamepad axis events
 
 Similar to the button events, the axis events provide a way for developers to know when a user has moved one or more of a gamepad's axises (i.e., left-right or up-down). Just as a gamepad can have multiple buttons, so to can there be many axes. Each physical stick on a gamepad provides two axes for changes in X and Y positioning. The **MozGamepadAxisMove** event indicates that a gamepad's axis has changed, and its new value. The axis is numbered, and its value is given, which is a float between -1.0 (the lowest possible value) and 1.0 (the highest possible value):
 
@@ -110,7 +110,7 @@ Similar to the button events, the axis events provide a way for developers to kn
     window.addEventListener("MozGamepadAxisMove", axisHandler, false);
     </script>
 
-## <span>Querying the gamepad object</span>
+## Querying the gamepad object
 
 All of the **MozGamepad\*** events discussed above included a **gamepad** property on the event object. We used this in order to determine which gamepad (i.e., it's ID) had caused the event, since multiple gamepads might be connected at once.
 
@@ -128,7 +128,7 @@ The Gamepad object's properties include:
 
 The Gamepad object is often used in conjunction with an animation loop (e.g., requestAnimationFrame), where developers want to make decisions for the current frame based on the state of the gamepad or gamepads.
 
-## <span>Complete example: Displaying gamepad state</span>
+## Complete example: Displaying gamepad state
 
 This example shows how to use the Gamepad object, as well as the **MozGamepadConnected** and**MozGamepadDisconnected** events in order to display the state of all gamepads connected to the system:
 
@@ -232,14 +232,14 @@ This example shows how to use the Gamepad object, as well as the **MozGamepadCon
     </head>
     <body>
 
-## <span>Press a button on your controller to start</span>
+## Press a button on your controller to start
 
     </body>
     </html>
 
-## <span>DOM implementation</span>
+## DOM implementation
 
-### <span>nslDOMGamepad</span>
+### nslDOMGamepad
 
 All **MozGamepad\*** events include a **gamepad** property, which contains the state of the gamepad. This so-called Gamepad object is only available via **MozGamepad\*** events, and is not available on window. It has the following interface:
 
@@ -263,7 +263,7 @@ The **index** attribute is a unique auto-incrementing number for each gamepad co
 
 The lifetime of an nsIDOMGamepad object is more than the lifetime of a **MozGamepad\*** event. Web content may save a reference to a **MozGamepad\*** event's **gamepad** property and refer to it at any time to determine the current state of the device. The state will not be updated while the content script is executing, only between script executions. For example, the state will not be updated during the course of a setTimeout callback, but it may be updated the next time the callback is called.
 
-### <span>nslDOMGamepadConnectionEvent</span>
+### nslDOMGamepadConnectionEvent
 
 The **MozGamepadConnected** and **MozGamepadDisconnected** events use nsIDOMGamepadConnectionEvent:
 
@@ -274,7 +274,7 @@ The **MozGamepadConnected** and **MozGamepadDisconnected** events use nsIDOMGame
 
 The single **gamepad** attribute provides access to an associated nsIDOMGamepad object for this device. As was previously mentioned, this object can be held after the event callback has completed, and be used to query the state of the device at any point.
 
-### <span>nslDOMGamepadButtonEvent</span>
+### nslDOMGamepadButtonEvent
 
 Gamepad button state information is made available via nsIDOMGamepadButtonEvent:
 
@@ -288,7 +288,7 @@ The **button** attribute indicates the index of the button that was pressed or r
 
 The **gamepad** attribute provides access to the associated nsIDOMGamepad object, with full button state information available via **gamepad.buttons**.
 
-### <span>nslDOMGamepadAxisMoveEvent</span>
+### nslDOMGamepadAxisMoveEvent
 
 Gamepad axes state information is made available via nsIDOMGamepadAxisMoveEvent:
 
@@ -305,17 +305,17 @@ The **value** attribute is a float indicating the position of the axis, between 
 
 The **gamepad** attribute provides access to the associated nsIDOMGamepad object, with full axes state information available via**gamepad.axes**.
 
-## <span>Resources</span>
+## Resources
 
 Implementation and discussion on this API is happening in [bug 604039](https://bugzilla.mozilla.org/show_bug.cgi?id=604039). Feedback and suggestions are welcome.
 
-### <span>Obtaining builds</span>
+### Obtaining builds
 
 The latest information about custom builds for testing the API is in [bug 604039](https://bugzilla.mozilla.org/show_bug.cgi?id=604039). However, the most recent try-server builds are available at:
 
 <http://people.mozilla.com/~tmielczarek/gamepad/>
 
-### <span>Demos, Libraries, Other Code</span>
+### Demos, Libraries, Other Code
 
 Examples of the Web Gamepad API should be added here. NOTE, the API is evolving, and some of the following examples may be based on earlier versions.
 

@@ -13,7 +13,7 @@ tags:
 uri: css/selectors/pseudo-classes
 
 ---
-## <span>Summary</span>
+## Summary
 
 Dynamic pseudo-classes classify elements on characteristics other than their name, attributes, or content, in principle characteristics that cannot be deduced from the document tree.
 
@@ -44,13 +44,13 @@ Dynamic pseudo-classes classify elements on characteristics other than their nam
 |[:root](/css/selectors/pseudo-classes/:root)||
 |[:valid](/css/selectors/pseudo-classes/:valid)||
 
-## <span>Usage</span>
+## Usage
 
      A CSS pseudo-class is a keyword added to selectors that specifies a special state of the element to be selected. For example :hover will apply a style when the user hovers over the element specified by the selector.
 
 Pseudo-classes, together with pseudo-elements, let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator (`:visited`, for example), the status of its content (like `:checked` on some form elements), or the position of the mouse (like `:hover` which lets you know if the mouse is over an element or not).
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* unvisited links */

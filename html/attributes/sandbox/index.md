@@ -26,7 +26,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **sandbox** attribute to enable sandbox restrictions.
 
@@ -40,9 +40,9 @@ The following example shows a sandboxed **iframe** element that uses customizati
 <iframe sandbox="allow-forms allow-same-origin" src="frame1.html"></iframe>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When the **sandbox** attribute is specified for an **iframe** element, the content in the **iframe** element is said to be *sandboxed.* In addition, the following restrictions are applied to the **iframe** element:
 
@@ -57,10 +57,10 @@ When the **sandbox** attribute is specified for an **iframe** element, the conte
 
 To customize sandbox restrictions for a given **iframe** element, specify one or more of the possible values as the value for the **sandbox** attribute. Use spaces to separate multiple values.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLIFrameElement`

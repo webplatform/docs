@@ -23,13 +23,13 @@ tags:
 uri: dom/ValidityState/customError
 
 ---
-## <span>Summary</span>
+## Summary
 
 The element's custom validity message has been set to a non-empty string by calling the element's setCustomValidity() method.
 
 Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/ValidityState)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/Vali
 var hasErrorStatus = element.validity.customError;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Whether the element has raised a custom error.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var elem = document.getElementById('email_addr_confirm');
@@ -69,11 +69,11 @@ function verifyEmail(evt) {
 
 </pre>
 
-## <span>Usage</span>
+## Usage
 
      HTML5 Web form validation
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

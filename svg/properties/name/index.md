@@ -11,10 +11,10 @@ tags:
 uri: svg/properties/name
 
 ---
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGException**](/svg/objects/SVGException)

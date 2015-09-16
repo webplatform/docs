@@ -21,20 +21,20 @@ tags:
 uri: 'apis/web animations/AnimationEffect/iterationComposite'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The iteration composite operation property of this animation effect as specified by one of the IterationCompositeOperation enumeration values.
 
 Property of [apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)[apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.iterationComposite;
 element.iterationComposite = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 

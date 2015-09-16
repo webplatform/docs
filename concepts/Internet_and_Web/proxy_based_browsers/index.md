@@ -11,11 +11,11 @@ tags:
 uri: 'concepts/Internet and Web/proxy based browsers'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article will give an overview of proxy based browsers. Some solution transform web pages into compact formats. Some solution only provides data compression.
 
-## <span>Purpose</span>
+## Purpose
 
 Proxy Based web browsers reduce bandwidth usage by compressing resources of the rendered page on a proxy server (usually the browser vendors), before sending it to the client browser.
 
@@ -27,12 +27,12 @@ To make a request:
 4.  The proxy server sends the client the rendered page.
 5.  Client interaction with page is sent to the proxy server, who forwards it onto the origin server.
 
-## <span>Concerns</span>
+## Concerns
 
 -   Each implementation has different feature support.
 -   There may be concerns about trusting a third party service with browsing data.
 
-## <span>Implementations</span>
+## Implementations
 
 -   Opera Mini [[1]](http://www.opera.com/mobile/)
 -   Opera Desktop with Turbo [[2]](http://www.opera.com/browser/turbo/)

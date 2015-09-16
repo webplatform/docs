@@ -23,16 +23,16 @@ todo_broken_links:
 uri: html/elements/source
 
 ---
-## <span>Summary</span>
+## Summary
 
 Allows developer to specify multiple alternative media resources for media elements, such as &lt;video&gt; and &lt;audio&gt;. It does not represent anything on its own, and is used with src attribute to specify the URL.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLSourceElement](/w/index.php?title=dom/HTMLSourceElement&action=edit&redlink=1)
 
-## <span>Attributes</span>
+## Attributes
 
 -   `src` = URL potentially surrounded by spaces
     The address of the media source.
@@ -43,7 +43,7 @@ Allows developer to specify multiple alternative media resources for media eleme
     The intended media type of the media source (used for helping the UA determine, before fetching this media source, if it is useful to the user).
     A valid media query list, as defined in [MediaQueries].
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <video controls="controls">
@@ -57,13 +57,13 @@ Allows developer to specify multiple alternative media resources for media eleme
 
 [View live example](http://test.w3.org/html/examples/elements/source/source01.html)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note**  If you change the media file using the [**src**](/w/index.php?title=apis/audio-video/properties/src&action=edit&redlink=1) property on an **audio** or **video** object, you need to call the [**load**](/w/index.php?title=apis/audio-video/methods/load&action=edit&redlink=1) method before calling the [**play**](/w/index.php?title=apis/audio-video/methods/play&action=edit&redlink=1) method. If you change the **src** and call the play() method without loading first, it will continue to play the file specified by the **source** element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-source-element)
 :   W3C Working Draft
@@ -71,9 +71,9 @@ Allows developer to specify multiple alternative media resources for media eleme
 [HTML 5](http://www.w3.org/TR/html5/embedded-content-0.html#the-source-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `audio`
 -   `video`

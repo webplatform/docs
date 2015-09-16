@@ -10,17 +10,17 @@ tags:
 uri: javascript/DataView/buffer
 
 ---
-## <span>Summary</span>
+## Summary
 
 Read-only. Gets the ArrayBuffer that is referenced by this view.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     var arrayBuffer = dataView.buffer;
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to get the length of the ArrayBuffer underlying the DataView.
 

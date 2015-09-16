@@ -22,13 +22,13 @@ tags:
 uri: apis/webrtc/MediaStreamTrack/label
 
 ---
-## <span>Summary</span>
+## Summary
 
 A user agent-assigned string that identifies the track source, as in &quot;internal microphone.&quot;
 
 Property of [apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)[apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,7 +36,7 @@ Property of [apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)[apis/w
 var result = track.label;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 

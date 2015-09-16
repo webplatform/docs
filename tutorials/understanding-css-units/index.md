@@ -11,27 +11,27 @@ uri: tutorials/understanding-css-units
 ---
 **By [Vincent Hardy, Sylvain Galineau](http://blogs.adobe.com/digitalmedia/author/vhardy/)**
 
-## <span>Summary</span>
+## Summary
 
 This guide looks into the relationship between CSS pixels and other units, as well as between CSS and device pixels.
 
-## <span>Introduction</span>
+## Introduction
 
 A growing number of CSS length units have provided new flexibility to web authors (see the [CSS Values and Units specification](http://www.w3.org/TR/css3-values/)). For example, the ‘rem’ (root ‘em’) unit permits the font size of the root element to be used for sizing throughout the document.
 
 They help developers lay out content independently of display size and resolution.
 
-## <span>Display Independence: Adapting Layout</span>
+## Display Independence: Adapting Layout
 
 Modern content needs to be ready for a variety of viewing environments: smart phones, tablets, large monitors or even TV screens cover a huge range of sizes, aspect ratios, pixel densities and viewing distances. A number of tools are available to help developers optimize their layout for the best experience e.g. to avoid or minimize awkward scrolling.
 
-### <span>Media queries and viewport settings</span>
+### Media queries and viewport settings
 
 Most developers are now familiar with the use of [media queries](http://www.w3.org/TR/css3-mediaqueries/). They enable the application of CSS rules depending on display media factors such as size or aspect ratio. They can be used to specify separate stylesheets for each target environments, or they can refine and adapt a primary stylesheet.
 
 Understanding and setting up the [display viewport](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag?redirectlocale=en-US&redirectslug=Mobile%2FViewport_meta_tag) is especially important for mobile clients as it allows your content to fit to the display of the user’s device.
 
-### <span>Percentage units</span>
+### Percentage units
 
 Available since CSS1, percentages allow the sizing of elements relative to their containing block. For example, we can set up the body of a document like so:
 
@@ -46,7 +46,7 @@ body {
 
  ...to ensure the body is at most 900px and take 80% of the width of the viewport otherwise. (Note that CSS pixels are not device pixels; this will be discussed at length later)
 
-### <span>Other useful relative units</span>
+### Other useful relative units
 
 Several other CSS unit types support layout adaptation. The following table enumerates a number of them:
 
@@ -106,7 +106,7 @@ Several other CSS unit types support layout adaptation. The following table enum
 </tbody>
 </table>
 
-### <span>What about canvas and ‘full pixel control’ use-cases?</span>
+### What about canvas and ‘full pixel control’ use-cases?
 
 We have thus far focused on the styling of document elements using CSS. Some use-cases, however, require full application control over each drawn pixel e.g. in a video game.
 
@@ -114,11 +114,11 @@ Both the [Canvas 2D context](http://www.w3.org/html/wg/drafts/2dcontext/html5_ca
 
 While developers should not casually implement their own layout, there are use-cases where this is still a better option than moving to native application development.
 
-## <span>Resolution-independent rendering</span>
+## Resolution-independent rendering
 
 But let’s go back to the basics: what is resolution independence and why does it matter?
 
-### <span>Resolution independence defined</span>
+### Resolution independence defined
 
 When content is drawn to to an output medium such as a printer or a screen, software converts the description of what needs to be drawn into actual pixels. For example, a line of text is first converted to a set of geometric outlines defined by font data; these outlines are then ‘rasterized’, or turned into pixels. The same process occurs for simpler shapes such as a rectangle drawn at a particular location (x/y coordinate) and with a particular size (width and height).
 
@@ -126,7 +126,7 @@ As a rendering approach, resolution independence requires objects to be describe
 
 This is especially important when the size and pixel density of output devices varies as widely as it does across modern browsing devices. For example, on a 96dppi screen (dppi = device pixel per inch) resolution, a millimeter would be about 4 device pixels long so a rectangle positioned at (x=10mm, y=20mm) would get positioned at x=40 device pixel and y=80 device pixels. While on a 300dppi display, a millimeter would be about 12 device pixel long, and the rectangle should be positioned at x=120 device pixels and y=240 device pixels. However, and this is the important part, the rectangle would show at the same physical position on the display modulo rounding i.e. at approximately 10mm on the x-axis and 20mm on the y-axis.
 
-### <span>Scalable Content</span>
+### Scalable Content
 
 To be resolution independent, a system must able to scale content based on rendering conditions. Postscript and PDF are examples of technologies based on the concept of units that can then be scaled as needed to accommodate the available display resolution. Both use the ‘point’ unit and define it as being 1/72nd of an inch.
 
@@ -138,7 +138,7 @@ Before we dive deeper into CSS ‘px’ unit, we will note that scalable formats
 
 **Note :** Icon fonts are another recent popular practice as of 2013 e.g. see <http://css-tricks.com/html-for-icon-font-usage/>, or <http://nimbupani.com/markup-free-icon-fonts-with-unicode-range.html>. And then there are very clever OpenType hacks like [Chartwell](https://www.scribbletone.com/typefaces/ff-chartwell) or [Symbolset](http://symbolset.com/). These are part of the scalable arsenal today.
 
-## <span>On CSS pixels, physical units and scalability</span>
+## On CSS pixels, physical units and scalability
 
 Though the [CSS Values and Units specification](http://www.w3.org/TR/css3-values/) defines all the CSS units in one single document, it can take some work to wrap one’s head around the way CSS relates its units to real-world measures, or physical units. All the specification says can be stated as:
 
@@ -160,7 +160,7 @@ Until a few years ago, a CSS pixel was generally mapped to a single screen pixel
 
 With the advent of higher density screens, we are seeing devices with 2 device pixels per CSS pixel (the Apple Retina, for instance) as well as displays with fractional pixel ratios (see [this MDN article](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag?redirectlocale=en-US&redirectslug=Mobile%2FViewport_meta_tag)). Note that fractional pixel ratios may introduce additional anti-aliasing in the rendering, as with high-resolution rendering.
 
-## <span>Simple Example</span>
+## Simple Example
 
 ``` html
 <!DOCTYPE html>
@@ -213,7 +213,7 @@ When we try render this document across different devices we see that:
 -   On an iPhone 5 with a [326dpi](http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density#Apple) resolution, the physical width of a box is 96 \* 2 / 326 = 0.589 inch. This is because on this platform, the CSS px to device ratio is 2. Again using a ruler, I got 1.592inch. Again, measurement error. Here, a CSS inch is off by 41.1%
 -   On a printer (I used a Canon Pixma MP600), the physical inch of a box is .... 1.05 inch!! So that is a 5% error on this particular printer.
 
-## <span>So... a pixel is not a pixel and an inch is not an inch?</span>
+## So... a pixel is not a pixel and an inch is not an inch?
 
 Well, that is almost like that but it is not as bad as it seems. Here is why:
 
@@ -221,7 +221,7 @@ Well, that is almost like that but it is not as bad as it seems. Here is why:
 -   **A CSS inch is exactly or ‘close’ to an inch**. On high resolution devices, and if no other parameters interfere (like user zoom or CSS transforms), an inch will be a physical inch as expected. On low resolution devices, there will be a margin of error, as explained above.
 -   **Scalability and adaptability is what matters most**. The most important aspect for most developers is that content layout can reflow and adapt as units scale in a predictable and reasonable way. While the concept of keeping the exact aspect ratio on all devices might seem appealing, it has consequences that are not desirable on low resolution devices (such as unwanted antialiasing causing blurry rendering).
 
-## <span>Final thoughts</span>
+## Final thoughts
 
 So what should keep in mind as web developers to have our content render nicely on various display sizes, form factors and pixel densities? Here are a few take-aways:
 
@@ -231,7 +231,7 @@ So what should keep in mind as web developers to have our content render nicely 
 4.  [Understand](http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html) that CSS pixels reference an abstract [reference pixel](http://www.w3.org/TR/css3-values/#reference-pixel) and that the key rule to remember is that **96 CSS pixels are always the same length as 1 CSS inch**.
 5.  Use [SVG](/svg) (or [icon fonts](http://css-tricks.com/examples/IconFont/), more limited but more widely supported) wherever you can (depending on the image type and/or your target browsers) to have content that naturally scales up to higher pixel densities or sizes.
 
-## <span>See Also</span>
+## See Also
 
 -   [An Advanced Guide to HTML & CSS - Responsive Web Design](http://learn.shayhowe.com/advanced-html-css/responsive-web-design)
 -   [High DPI Canvas (html5rocks)](http://www.html5rocks.com/en/tutorials/canvas/hidpi/)

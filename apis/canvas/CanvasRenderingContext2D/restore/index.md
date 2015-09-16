@@ -22,19 +22,19 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/restore
 
 ---
-## <span>Summary</span>
+## Summary
 
 Pops the top entry from the drawing state stack, and reset the drawing state it describes. If there is no saved state, the method does nothing.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.restore();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -42,7 +42,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
@@ -57,7 +57,7 @@ ctxt.restore();
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 Use the *restore* method to retrieve a context state previously saved with the [save](/apis/canvas/CanvasRenderingContext2D/save) method. Affects the following states and attributes:
 
@@ -79,7 +79,7 @@ Use the *restore* method to retrieve a context state previously saved with the [
     -   *textAlign*
     -   *textBaseline*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

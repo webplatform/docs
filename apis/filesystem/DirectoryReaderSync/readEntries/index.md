@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/DirectoryReaderSync/readEntries
 
 ---
-## <span>Summary</span>
+## Summary
 
 Read the next block of entries from this directory.
 
@@ -30,21 +30,21 @@ Read the next block of entries from this directory.
 
 Method of [apis/filesystem/DirectoryReaderSync](/apis/filesystem/DirectoryReaderSync)[apis/filesystem/DirectoryReaderSync](/apis/filesystem/DirectoryReaderSync)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = DirectoryReaderSync.readEntries();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 EntrySync[]
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

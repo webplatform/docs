@@ -10,11 +10,11 @@ tags:
 uri: javascript/DataView/getInt8
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the Int8 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be fetched from any offset.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Gets the Int8 value at the specified byte offset from the start of the view. The
 **byteOffset**
 :   The place in the buffer at which the value should be retrieved.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to get the first Int8 in the DataView.
 
@@ -45,7 +45,7 @@ var req = new XMLHttpRequest();
      }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 These methods raise an exception if they would read beyond the end of the view.
 

@@ -18,7 +18,7 @@ tags:
 uri: apis/filesystem/Entry/remove
 
 ---
-## <span>Summary</span>
+## Summary
 
 Deletes a file or directory.
 
@@ -26,22 +26,22 @@ Deletes a file or directory.
 
 Method of [apis/filesystem/Entry](/apis/filesystem/Entry)[apis/filesystem/Entry](/apis/filesystem/Entry)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  Entry.remove(successCallback, errorCallback);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>successCallback</span>
+### successCallback
 
  Data-type
 :   String
 
  A callback that is called on success.
 
-### <span>errorCallback</span>
+### errorCallback
 
  Data-type
 :   String
@@ -50,19 +50,19 @@ Method of [apis/filesystem/Entry](/apis/filesystem/Entry)[apis/filesystem/Entry]
 
 A callback that is called when errors happen.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 It is an error to attempt to delete a directory that is not empty.
 
 It is an error to attempt to delete the root directory of a filesystem.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

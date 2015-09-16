@@ -10,11 +10,11 @@ tags:
 uri: javascript/Math/atan2
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the angle (in radians) from the X axis to a point ( y , x ).
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Returns the angle (in radians) from the X axis to a point ( y , x ).
 **y**
 :   Required. A numeric expression representing the cartesian y-coordinate.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var v1 = Math.atan2(2,3);
@@ -34,15 +34,15 @@ document.write(v1);
 // Output: 0.5880026035475675
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The return value is between -pi and pi. It represents the angle of the supplied ( y , x ) point, in radians.
 
 **Applies To** : [Math Object](/javascript/Math)
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math.atan Function](/javascript/Math/atan)
 -   [Math.tan Function](/javascript/Math/tan)

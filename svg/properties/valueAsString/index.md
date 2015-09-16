@@ -11,23 +11,23 @@ tags:
 uri: svg/properties/valueAsString
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If you set the **valueAsString** property, the [**value**](/svg/properties/value), [**valueInSpecifiedUnits**](/svg/properties/valueInSpecifiedUnits), and **svgUnitTypes** properties are updated automatically to reflect this setting.
 
-### <span>Syntax</span>
+### Syntax
 
 HRESULT value = object.put\_valueAsString(BSTR v);HRESULT value = object.get\_valueAsString(BSTR\* p);
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.11
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGAngle**](/svg/objects/SVGAngle)
 -   [**SVGLength**](/svg/objects/SVGLength)

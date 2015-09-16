@@ -17,13 +17,13 @@ tags:
 uri: apis/indexeddb/IDBOpenDBRequest
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides access to the result of a request to open a database.
 
 Inherits from [IDBRequest](/apis/indexeddb/IDBRequest)[IDBRequest](/apis/indexeddb/IDBRequest)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -34,17 +34,17 @@ API Name
 [onblocked](/apis/indexeddb/IDBOpenDBRequest/onblocked)
 :   The event handler for the blocked event. This event is triggered when the upgradeneeded should be triggered because of a version change but the database is still in use (ie not closed) somewhere, even after the versionchange event was sent.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from IDBRequest</span>
+## Inherited from IDBRequest
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -70,21 +70,21 @@ API Name
 [transaction](/apis/indexeddb/IDBRequest/transaction)
 :   The transaction for the request. This property can be null for certain requests, such as for request returned from IDBFactory.open (You're just connecting to a database, so there is no transaction to return).
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **IDBOpenDBRequest** object is returned by operations that affect database, such [**open**](/apis/indexeddb/IDBFactory/open) and [**deleteDatabase**](/apis/indexeddb/IDBFactory/deleteDatabase).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

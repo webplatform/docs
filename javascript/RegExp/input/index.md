@@ -10,17 +10,17 @@ tags:
 uri: javascript/RegExp/input
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the string against which a regular expression search was performed. Read-only.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     RegExp.input
 
-## <span>Examples</span>
+## Examples
 
 The object associated with this property is always the global **RegExp** object.
 

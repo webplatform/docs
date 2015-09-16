@@ -13,11 +13,11 @@ tags:
 uri: 'apis/resource timing/Performance'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides methods for performance timing.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -25,7 +25,7 @@ API Name
 [onresourcetimingbufferfull](/apis/resource_timing/Performance/onresourcetimingbufferfull)
 :   This callback is triggered when the buffer used to store the list of PerformanceResourceTiming is full.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -36,11 +36,11 @@ API Name
 [setResourceTimingBufferSize](/apis/resource_timing/Performance/setResourceTimingBufferSize)
 :   Sets the maximum number of PerformanceResourceTiming resources that may be stored in the buffer to the value of the maxSize parameter.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 The following script calculates the amount of time it takes to fetch every resource in the page, even those defined in markup:
 
@@ -75,7 +75,7 @@ The following script calculates the amount of time it takes to fetch every resou
 </html>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Resource Timing Specification](http://www.w3.org/TR/resource-timing/#extensions-performance-interface)
 :   W3C Candidate Recommendation

@@ -14,7 +14,7 @@ tags:
 uri: svg/attributes/stroke
 
 ---
-## <span>Summary</span>
+## Summary
 
 The stroke attribute is a presentation attribute that define the color of the outline of the given graphical element.
 
@@ -30,13 +30,13 @@ Applies to
 </td>
 </tr>
 </table>
-### <span>Syntax</span>
+### Syntax
 
      stroke: none | currentColor | color | funciri [ none | currentColor | color ] | inherit
 
 The default value is *none*, which means that the outline is not drawn.
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to draw a circle with a red stroke and no fill color.
 
@@ -50,18 +50,18 @@ This example shows how to draw a circle with a red stroke and no fill color.
 
 </pre>
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols](http://www.w3.org/TR/SVG11/painting.html), Section 11.4
 
-## <span>Related specifications</span>
+## Related specifications
 
 [SVG 1.1](http://www.w3.org/TR/SVG11/painting.html#StrokeProperties)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)
@@ -77,7 +77,7 @@ This example shows how to draw a circle with a red stroke and no fill color.
 -   [**SVGPolylineElement**](/svg/elements/polyline)
 -   [**SVGPolygonElement**](/svg/elements/polygon)
 
-### <span>Reference</span>
+### Reference
 
 -   [**strokeDasharray**](/svg/attributes/stroke-dasharray)
 -   [**strokeDashoffset**](/svg/attributes/stroke-dashoffset)

@@ -14,7 +14,7 @@ tags:
 uri: svg/attributes/fill-rule
 
 ---
-## <span>Summary</span>
+## Summary
 
 Please refer to http://docs.webplatform.org/wiki/css/properties/fill-rule
 
@@ -32,17 +32,17 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
     fill-rule: nonzero | evenodd | inherit
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols](http://go.microsoft.com/fwlink/p/?linkid=199816), Section 11.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)

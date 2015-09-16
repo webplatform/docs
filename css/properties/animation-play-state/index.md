@@ -22,11 +22,11 @@ tags:
 uri: css/properties/animation-play-state
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines whether an animation is running or paused.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `running`
@@ -52,12 +52,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `animation-play-state: paused`
 -   `animation-play-state: running`
 
-## <span>Values</span>
+## Values
 
 running
 :   Plays the animation. If restarting a paused animation, the animation resumes from the current (paused) state.
@@ -65,7 +65,7 @@ running
 paused
 :   Pauses the animation. A paused animation continues to display the current state of the animation.
 
-## <span>Examples</span>
+## Examples
 
 The CSS uses the animation property and the @keyframes property as well as the animation-play-state property and more.
 
@@ -151,18 +151,18 @@ body.interrupt div.selected {
 
 [View live example](http://code.webplatform.org/gist/7044978)
 
-## <span>Usage</span>
+## Usage
 
      Can also be a comma-separated list of play states, e.g., running, paused, running, where each play state is applied to the corresponding ordinal position value of the animation-name property.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Animation](http://www.w3.org/TR/css3-animations/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Making things move with CSS3 animations](/tutorials/css_animations)
 -   [@keyframes](/css/atrules/@keyframes)

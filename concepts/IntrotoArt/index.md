@@ -12,7 +12,7 @@ tags:
 uri: concepts/IntrotoArt
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article will introduce you to graphic design in broad strokes and more in depth discussion on designing for web, as well as some graphic design tools and concept to consider.
 
@@ -50,8 +50,8 @@ NOTE: This is meant to be step toward explaining design and art. Not UI, not App
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [American Institution of Graphic Arts (AIGA)](http://www.aiga.org/inspiration/)

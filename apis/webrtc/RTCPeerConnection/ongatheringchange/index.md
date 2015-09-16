@@ -17,13 +17,13 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/ongatheringchange
 
 ---
-## <span>Summary</span>
+## Summary
 
 Handles the gatheringchange event for a change to the iceGatheringState property.
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.ongatheringchange;

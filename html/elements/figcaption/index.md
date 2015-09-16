@@ -16,16 +16,16 @@ tags:
 uri: html/elements/figcaption
 
 ---
-## <span>Summary</span>
+## Summary
 
 The figcaption (&lt;figcaption&gt;) defines a caption or legend for a figure element. This element is new in HTML5.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 As the first child of a figure element
 
@@ -47,13 +47,13 @@ As the first child of a figure element
 
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The first **figcaption** element child of the **figure** element represents the caption of the **figure** element's contents. The **figcaption** element is rendered in place; to move the caption, place it as the first or the last child of the **figure** element. **Note**  If the **figcaption** content provides an adequate text alternative for the visual content in the image, the caption can be used as a text alternative for images in lieu of the [**alt**](/html/attributes/alt) attribute. Windows Internet Explorer 9. The **figcaption** element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-figcaption-element)
 :   W3C Working Draft

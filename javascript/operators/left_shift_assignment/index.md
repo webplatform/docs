@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/operators/left shift assignment'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Moves the specified number of bits to the left and assigns the result to result. The bits vacated by the operation are filled with 0.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Moves the specified number of bits to the left and assigns the result to result.
 **expression**
 :   The number of bits to move.
 
-## <span>Examples</span>
+## Examples
 
 Using the **\<\<=** operator is the same as specifying `result = result << expression`
 
@@ -39,9 +39,9 @@ document.write(temp);
 Output: 56
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Bitwise Left Shift Operator (\<\<)](/javascript/operators/bitwise_left_shift)
 -   [Bitwise Right Shift Operator (\>\>)](/javascript/operators/bitwise_right_shift)

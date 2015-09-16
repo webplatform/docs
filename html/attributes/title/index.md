@@ -28,7 +28,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the **title** property to display advisory text when the user hovers the mouse pointer over the text.
 
@@ -45,22 +45,22 @@ function boldAdvise(src) {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/title_1.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer renders the title as a ToolTip when the user hovers the mouse over the object. Titles are limited to 512 total characters; this limit includes control characters, such as line feeds, carriage returns, and so on. In Windows CE, ToolTips do not appear when a user hovers the mouse pointer over objects. Renders the title as a ToolTip when the user hovers a mouse or finger over objects Titles are limited to 512 total characters; this limit includes control characters, such as line feeds, carriage returns, and so on.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 7.4.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`
 -   `abbr`

@@ -20,39 +20,39 @@ tags:
 uri: apis/webaudio/AudioParam/cancelScheduledValues
 
 ---
-## <span>Summary</span>
+## Summary
 
 Cancels all scheduled parameter changes with times greater than or equal to startTime.
 
 Method of [apis/webaudio/AudioParam](/apis/webaudio/AudioParam)[apis/webaudio/AudioParam](/apis/webaudio/AudioParam)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = AudioParam.cancelScheduledValues(startTime);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>startTime</span>
+### startTime
 
  Data-type
 :   Number
 
  The starting time at and after which any previously scheduled parameter changes will be cancelled. It is a time in the same time coordinate system as [**AudioContext.currentTime**](/apis/webaudio/AudioContext/currentTime).
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var gainNode = audioCtx.createGain();
 gainNode.gain.cancelScheduledValues(audioCtx.currentTime); //'gain' is the AudioParam
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

@@ -22,13 +22,13 @@ tags:
 uri: apis/canvas/TextMetrics/actualBoundingBoxDescent
 
 ---
-## <span>Summary</span>
+## Summary
 
 The distance from the horizontal line indicated by the textBaseline attribute to the bottom of the bounding rectangle of the given text, in CSS pixels; positive numbers indicating a distance going down from the given baseline.
 
 Property of [apis/canvas/TextMetrics](/apis/canvas/TextMetrics)[apis/canvas/TextMetrics](/apis/canvas/TextMetrics)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,11 +36,11 @@ Property of [apis/canvas/TextMetrics](/apis/canvas/TextMetrics)[apis/canvas/Text
 var result = TextMetrics.actualBoundingBoxDescent;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
@@ -57,7 +57,7 @@ alert("actualBoundingBoxDescent: " + mets.actualBoundingBoxDescent);
 </script>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

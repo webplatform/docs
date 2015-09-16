@@ -22,7 +22,7 @@ uri: dom/Element/systemLanguage
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.systemLanguage;
@@ -31,17 +31,17 @@ element.systemLanguage = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **systemLanguage** property reflects the language edition of the installed operating system.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `clientInformation`
 -   `navigator`

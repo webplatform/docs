@@ -22,21 +22,21 @@ uri: apis/audio-video/track
 
 Inherits from [HTMLMediaElement](/dom/HTMLMediaElement)[HTMLMediaElement](/dom/HTMLMediaElement)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from HTMLMediaElement</span>
+## Inherited from HTMLMediaElement
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -110,7 +110,7 @@ API Name
 [volume](/dom/HTMLMediaElement/volume)
 :
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -127,7 +127,7 @@ API Name
 [play](/dom/HTMLMediaElement/play)
 :   Loads and starts playback of a media resource.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -143,13 +143,13 @@ API Name
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **HTMLTrackElement** represents a timed text file to provide users with multiple languages or commentary for videos. You can use multiple tracks, and set one as default to be used when the video starts. The text is displayed in the lower portion of the video player. At this time the position and color can't be controlled, but you can retrieve text through script and display it in your own way. The user can choose alternate tracks, or turn tracks off through a built-in user interface or script. Text tracks use a simplified version of the Web Video Text Track (WebVTT) or Timed Text Markup Language (TTML) timed text file formats.Internet Explorer 10 and Metro style apps using JavaScript currently support only timing cues and text captions.
 
-#### <span>WEBVTT</span>
+#### WEBVTT
 
 WebVTT files are 8-bit Unicode Transformation Format (UTF-8) format text files that look like the following.
 
@@ -164,6 +164,6 @@ WebVTT files are 8-bit Unicode Transformation Format (UTF-8) format text files t
 
 The file starts with the tag "WEBVTT" as the first line, followed by a line feed. The timing cues are in the format "HH:MM:SS.sss". The start and end time cues are separated by a space, two hyphens and a greater-than sign ( --\> ), and another space. The timing cues are on a line by themselves followed by a line feed. Immediately following the cue is the caption text. Text captions can be one or more lines. The only restriction is that there must be no blank lines between lines of text. The MIME type is "text/vtt".
 
-#### <span>TTML</span>
+#### TTML
 
 Internet Explorer 10 and Metro style apps using JavaScript use a subset of the TTML file format, which is defined in the TTML specification. Internet Explorer and Metro style apps using JavaScript support the following structure. The TTML file includes XML version, encoding type, namespace declaration, and the language in the root element ("\<tt\>"). This is followed by the" \<body\>" and a "\<div\>" element. Within the "\<div\>" element are the timing cues. The actual times are set as attributes (begin, end) of the opening paragraph tag (\<p\>) and the text is delineated by the closing \</p\> tag. Blank lines and white space are ignored. If there are multiple lines, they are defined by \<br/\> tags. The MIME type for TTML files is **application/ttml+xml**.

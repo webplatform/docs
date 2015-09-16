@@ -20,24 +20,24 @@ tags:
 uri: apis/webaudio/ConvolverNode/normalize
 
 ---
-## <span>Summary</span>
+## Summary
 
 Controls whether the impulse response from the buffer will be scaled by an equal-power normalization when the buffer atttribute is set. Its default value is true in order to achieve a more uniform output level from the convolver when loaded with diverse impulse responses. If normalize is set to false, then the convolution will be rendered with no pre-processing/scaling of the impulse response. Changes to this value do not take effect until the next time the buffer attribute is set. If the normalize attribute is false when the buffer attribute is set then the ConvolverNode will perform a linear convolution given the exact impulse response contained within the buffer.
 
 Property of [apis/webaudio/ConvolverNode](/apis/webaudio/ConvolverNode)[apis/webaudio/ConvolverNode](/apis/webaudio/ConvolverNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = ConvolverNode.normalize;
 ConvolverNode.normalize = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -45,7 +45,7 @@ var convolver = audioCtx.createConvolver();
 convolver.normalize = false;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

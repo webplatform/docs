@@ -22,14 +22,14 @@ uri: dom/HTMLElement/offsetParent
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.offsetParent;
 element.offsetParent = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to determine the position of a **td** object. Although the **td** object appears to the far right in the document, its position is close to the x-axis and y-axis, because its offset parent is a [**table**](/html/elements/table) object rather than the document body.
 
@@ -62,10 +62,10 @@ This example shows how to determine the position of a **td** object. Although th
 
 [**Note**  For Internet Explorer 4.0, this same example returns a position of 0,0 because the offset parent is the table row. View live example]
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Most of the time the **offsetParent** property returns the **body** object. **Note**  In Microsoft Internet Explorer 5, the **offsetParent** property returns the [**table**](/html/elements/table) object for the **td** object; in Microsoft Internet Explorer 4.0 it returns the **tr** object. You can use the [**parentElement**](/dom/Element/parentElement) property to retrieve the immediate container of the table cell.
 
-### <span>Syntax</span>
+### Syntax

@@ -23,11 +23,11 @@ todo_broken_links:
 uri: html/elements/meter
 
 ---
-## <span>Summary</span>
+## Summary
 
 The HTML &lt;meter&gt; element represents a value within a specified range. This value can be any real number.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLMeterElement](/w/index.php?title=dom/HTMLMeterElement&action=edit&redlink=1)
@@ -68,7 +68,7 @@ A `<meter>` element must have both a start tag and an end tag.
 
 The content of the **meter** element should represent the set min/max/value attributes in human readable form. This will be picked up by assistive technologies as well as act as a fallback for browsers not supporting the element.
 
-### <span>Attributes</span>
+### Attributes
 
 This element supports the HTML5 [global attributes](/html/global_attributes).
 
@@ -85,7 +85,7 @@ low
 high
 :   The high value is what is considered a high range for the meter. In the example of a fundraiser, it may be near the goal value. This must be less than the [max](#attribute-max) and greater than the [min](#attribute-min) and [low](#attribute-low) values. If unspecified, it defaults to 1.
 
-## <span>Examples</span>
+## Examples
 
 A basic example of the meter element
 
@@ -133,13 +133,13 @@ meter::-webkit-meter-even-less-good-value {
 
 [View live example](http://jsbin.com/ometoTE/4/edit)
 
-## <span>Usage</span>
+## Usage
 
      The meter element is intended to have descriptive text inside of it, similar to the alt tag of the image element.
 
 The title attribute may be used to specify a unit.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-meter-element)
 :   W3C Working Draft
@@ -147,8 +147,8 @@ The title attribute may be used to specify a unit.
 [HTML 5](http://www.w3.org/TR/html5/forms.html#the-meter-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [HTML5 progress element](/html/elements/progress)

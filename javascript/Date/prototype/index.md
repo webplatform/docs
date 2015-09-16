@@ -10,17 +10,17 @@ tags:
 uri: javascript/Date/prototype
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a reference to the prototype for a date.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     date.prototype
 
-## <span>Examples</span>
+## Examples
 
 For example, to add a method to the **Date** object that returns the value of the largest element of the array, declare the function, add it to **Date.prototype** , and then use it.
 
@@ -42,7 +42,7 @@ function max( ){
  // today isn't the max
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The date argument is the name of an object.
 

@@ -14,7 +14,7 @@ tags:
 uri: html/attributes/action
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the URL which the browser will send the form data on submission.
 
@@ -32,15 +32,15 @@ Applies to
 </table>
 The action attribute is applied to a form element in order to instruct the browser of where to send the data upon submission. If it is not specified, the browser will automatically send data back to the current address.
 
-### <span>Best practices</span>
+### Best practices
 
 It is recommended that you use an absolute URL for the action instead of a relative URL. Using an absolute URL means you know exactly where the form is going all the time, a relative URL may cause it to go to other places if you are not careful.
 
-### <span>Mailto actions</span>
+### Mailto actions
 
 It is possible to make an email form by placing an mailto address in the action attribute. Although it is technically possible, we recommend strongly to 'not' use them, as it doesn't work in every browser as it was once supposed to. Please use an email script instead, and make the form post to that certain email script.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **action** attribute to post a form to a specified URL.
 
@@ -63,22 +63,22 @@ This example uses the **action** attribute to post a form to a specified URL.
 </form>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 8 or later. In IE8 Standards mode, the value of the **action** attribute depends on the context of the reference to the attribute. When read as a Document Object Model (DOM) attribute, **action** returns an absolute URL. The value specified by the page author is returned when **action** is read as a content attribute, when the page is displayed in an earlier document compatibility mode, or when the page is viewed with an earlier version of the browser. For more information, see Attribute Differences in Internet Explorer 8. The value of the **action** attribute depends on the context of the reference to the attribute. When read as a DOM attribute, **action** returns an absolute URL. The value specified by the page author is returned when **action** is read as a content attribute.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/forms.html#attr-fs-action)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -218,6 +218,6 @@ Windows Internet Explorer 8 or later. In IE8 Standards mode, the value of the **
 
 -   [time](/html/elements/time)
 
-### <span>Related pages</span>
+### Related pages
 
 -   [HTML Form Element](/html/elements/form)

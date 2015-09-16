@@ -15,7 +15,7 @@ todo_broken_links:
 uri: css/concepts/fragment
 
 ---
-## <span>Summary</span>
+## Summary
 
 A contiguous range of content, which may stretch arbitrarily across DOM nodes.
 
@@ -23,11 +23,11 @@ A contiguous range of content, which may stretch arbitrarily across DOM nodes.
 
 You can use the [DOM Range API](/w/index.php?title=dom/traversal/Range&action=edit&redlink=1) to programatically access such arbitrary stretches of content.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 

@@ -18,13 +18,13 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/onicecandidate
 
 ---
-## <span>Summary</span>
+## Summary
 
 Handles the icechange event for a change to the apis/webrtc/RTCPeerConnection/iceState property. It is called any time there is a new ICE candidate added to a previous offer or answer.
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onicecandidate;

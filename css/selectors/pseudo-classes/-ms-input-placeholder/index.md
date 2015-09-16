@@ -26,7 +26,7 @@ uri: 'css/selectors/pseudo-classes/:-ms-input-placeholder'
 
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Examples</span>
+## Examples
 
 The following example highlights the street and ZIP code fields with a custom style.
 
@@ -64,13 +64,13 @@ id="zip" class="address" placeholder="5 digit zip" /></label></p>
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 By default, placeholder text in input fields is light gray, but the **:-ms-input-placeholder** pseudo-class selector enables you to style it however you want.
 
-### <span>Syntax</span>
+### Syntax
 
 selector
 
@@ -80,16 +80,16 @@ selector
 
 </dd>
 </dl>
-### <span>Parameters</span>
+### Parameters
 
 *selector*
 :   A CSS simple selector.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Pseudo-Classes</span>
+#### Pseudo-Classes
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -141,7 +141,7 @@ selector
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -217,7 +217,7 @@ selector
 
 -   [type](/css/selectors/type)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTML5 Forms (Internet Explorer 10 Guide for Developers)`
 -   `placeholder attribute`

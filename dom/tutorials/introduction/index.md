@@ -3,7 +3,7 @@ title: introduction
 uri: dom/tutorials/introduction
 
 ---
-## <span>Introduction to Document Object Model</span>
+## Introduction to Document Object Model
 
 DOM is an interface to interact with the contents of a webpage. All elements in a webpage can be described in a Document Object Model (DOM). What this means is that every HTML or SVG document can be represented as a tree of [**objects**](/concepts/programming/javascript/objects). This object model is commonly used with JavaScript to create dynamic HTML. In a DOM, all the HTML elements of a webpage like tags, attributes, comments and content are divided into the units called **Nodes**.
 

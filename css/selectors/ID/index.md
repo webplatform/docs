@@ -16,11 +16,11 @@ todo_broken_links:
 uri: css/selectors/ID
 
 ---
-## <span>Summary</span>
+## Summary
 
 The \#id selector styles the element with the specified id.
 
-## <span>Examples</span>
+## Examples
 
 The following style rule applies to the element with id="navigation" and its descendants.
 
@@ -30,32 +30,32 @@ The following style rule applies to the element with id="navigation" and its des
 </style>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The id attribute allows authors to uniquely identify an element instance in the document tree. ID selectors match an element instance based on its identifier. The id attribute value must immediately follow the "pound" (\#) notation. **Note**  Windows Internet Explorer allows multiple elements to share a single ID value. If more than one element exists, the style rule will apply to all elements with the given ID. Only one id attribute may be present on any given element. In the event that a style declaration conflicts with another declaration, the rule with a higher level of specificity is used. (See Understanding CSS Selectors.) If a Class Selector and ID Selector are in conflict, the id is chosen.
 
-### <span>Syntax</span>
+### Syntax
 
 `<strong/>sel#value {...}`
 
-### <span>Parameters</span>
+### Parameters
 
 *sel*
 :   Selector
 *value*
 :   String that specifies the value of the "id" attribute.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 1.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 

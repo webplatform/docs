@@ -17,11 +17,11 @@ todo_broken_links:
 uri: 'tutorials/What is CSS?'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This tutorial answers the question &quot;what is CSS?&quot;.
 
-## <span>Information: What is CSS</span>
+## Information: What is CSS
 
 Cascading Style Sheets (CSS) is a language for specifying how documents are presented to users.
 
@@ -32,7 +32,7 @@ A *document* is a collection of information that is structured using a *markup l
 
 In this tutorial, boxes captioned **More details** like the one below contain optional information. If you are in a hurry to progress with the tutorial then you could skip these boxes, perhaps returning to read them later. Otherwise read them when you come to them, and perhaps follow the links to learn more.
 
-### <span>More details</span>
+### More details
 
 A document is not the same as a file. It might or might not be stored in a file.
 
@@ -54,7 +54,7 @@ CSS is not just for browsers, and not just for visual presentation. In formal CS
 
 For some formal definitions of terminology relating to CSS, see the [CSS Specification](http://www.w3.org/TR/CSS2/).
 
-## <span>Action: Creating a document</span>
+## Action: Creating a document
 
 1.  Use your computer to create a new directory and a new text file there. The file will contain your document.
 
@@ -82,6 +82,6 @@ For some formal definitions of terminology relating to CSS, see the [CSS Specifi
 
     What you see in your browser might not look exactly the same as this, because of settings in your browser and in this wiki. If there are some differences in the font, spacing and colors that you see, they are not important.
 
-## <span>What next?</span>
+## What next?
 
 Your document does not yet use CSS. In the next article you will use CSS to specify its style.

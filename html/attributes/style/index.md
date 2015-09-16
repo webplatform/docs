@@ -12,7 +12,7 @@ tags:
 uri: html/attributes/style
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets an inline style for the element.
 
@@ -30,7 +30,7 @@ dom/HTMLElement
 </table>
 This attribute is used to set styling in the form of [CSS rules](http://docs.webplatform.org/wiki/guides/getting_started_with_css#Defining_style_rules) to an element.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!doctype html>
@@ -40,17 +40,17 @@ This attribute is used to set styling in the form of [CSS rules](http://docs.web
 
 [View live example](http://result.dabblet.com/gist/11015343/6a6bb418f06ead5f7d21245426820c7df47dc228)
 
-## <span>Usage</span>
+## Usage
 
      While this is perfectly valid, it is *highly* recommended by the community at large that you not use inline styles. Instead it is much better to simply target the element you want in your CSS and apply rules in there.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This attribute is not accessible through scripting. To access styles through scripting, use the [**style**](/css/cssom/style) object.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML4 Specification](http://www.w3.org/TR/html401/present/styles.html)
 :   W3C Recommendation

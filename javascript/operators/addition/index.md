@@ -10,11 +10,11 @@ tags:
 uri: javascript/operators/addition
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds the value of one numeric expression to another, or concatenates two strings.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Adds the value of one numeric expression to another, or concatenates two strings
 **expression2**
 :   Any expression.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 console.log(1 + 1); // 2
@@ -38,7 +38,7 @@ console.log(1 + '1'); // '11'
 console.log('1' + 1); // '11'
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The types of the two expressions determine the behavior of the `+` operator.
 
@@ -48,9 +48,9 @@ The types of the two expressions determine the behavior of the `+` operator.
 |Both expressions are strings|Concatenate|
 |One expression is numeric and the other is a string|Concatenate|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Addition Assignment Operator (`+=`)](/javascript/operators/addition_assignment)
 

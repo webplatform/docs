@@ -11,11 +11,11 @@ tags:
 uri: 'apis/web animations/AnimationTimingReadOnly'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Readonly class from which AnimationTiming classes are inherited.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -55,21 +55,21 @@ API Name
 [playbackRate](/apis/web_animations/AnimationTimingReadOnly/playbackRate)
 :   The animation node’s playback rate property.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   [Web Animations API](/apis/web_animations)
 

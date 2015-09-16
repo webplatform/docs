@@ -26,22 +26,22 @@ uri: dom/Element/isEqual
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.isEqual(Range);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>Range</span>
+### Range
 
  Data-type
 :   any
 
 [**TextRange**](/dom/TextRange) object to compare with the current **TextRange** object.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -52,15 +52,15 @@ Boolean
 <table>
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `TextRange`
 -   `inRange`

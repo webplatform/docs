@@ -11,7 +11,7 @@ tags:
 uri: svg/properties/rotate
 
 ---
-## <span>Examples</span>
+## Examples
 
 The following code example shows how to rotate individual characters. Because the number of rotate values is less than the number of characters in the string, all characters after the fourth character are rendered at 30°.
 
@@ -34,9 +34,9 @@ The following code example shows how to rotate individual characters. Because th
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **rotate** property gets or sets the supplemental rotation about the current text position that is applied to all of the glyphs that correspond to each character within this element.
 
@@ -52,15 +52,15 @@ This supplemental rotation does not impact how the current text position is modi
 
 **Note:** If you do not specify the **rotate** attribute on an element or any of its descendants, no supplemental rotations occur.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics (SVG) 1.1](http://go.microsoft.com/fwlink/p/?linkid=190918), Appendix M
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGTextElement**](/svg/elements/text)
 -   [**SVGTextPositioningElement**](/svg/elements/textPositioning)

@@ -24,28 +24,28 @@ tags:
 uri: apis/indexeddb/IDBObjectStore/add
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds a record to the specified object store.
 
 Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var idbRequest = objectStore.add(value, key);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>value</span>
+### value
 
  Data-type
 :   String
 
  The value must be valid for the Structured Cloning Algorithm.
 
-### <span>key</span>
+### key
 
  Data-type
 :   String
@@ -54,11 +54,11 @@ var idbRequest = objectStore.add(value, key);
 
 A key must be provided if the Object Store does not have a key path, or a key generator is not specified.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var dbOpenRequest = window.indexedDB.open("BookShop1");
@@ -90,7 +90,7 @@ dbOpenRequest.onsuccess = function(event){
 
 [View live example](http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#saveData&)
 
-## <span>Usage</span>
+## Usage
 
      An error is thrown if one of the following is true
 
@@ -100,13 +100,13 @@ dbOpenRequest.onsuccess = function(event){
 -   The object store uses in-line keys but no key generator and the result of evaluating the object store's key path does not yield a value.
 -   The key parameter was provided but does not contain a valid key.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This method can throw the following [**DOMException**](/dom/DOMException)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

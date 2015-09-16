@@ -20,45 +20,45 @@ tags:
 uri: apis/workers/Worker/postMessage
 
 ---
-## <span>Summary</span>
+## Summary
 
 Posts a message to the worker with which the object is associated.
 
 Method of [apis/workers/Worker](/apis/workers/Worker)[apis/workers/Worker](/apis/workers/Worker)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.postMessage(message, transfer);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>message</span>
+### message
 
  Data-type
 :   any
 
  This argument can be structured data, e.g.: `worker.postMessage({opcode: 'activate', device: 1938, parameters: [23, 102]});`
 
-### <span>transfer</span>
+### transfer
 
  Data-type
 :   any
 
 (Optional)
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 A message can be a JavaScript primitive, object, or array, but not a function.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft

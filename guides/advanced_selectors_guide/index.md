@@ -10,11 +10,11 @@ tags:
 uri: 'guides/advanced selectors guide'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This guide gives a detailed explanation of most of the advanced CSS selectors available.
 
-## <span>Introduction</span>
+## Introduction
 
 In our [Using selectors](/tutorials/using_selectors) article, we introduced the most basic of CSS selectors: element, class, and id selectors. With these selectors you can accomplish a lot, but this certainly is not an exhaustive list of selectors — there are other selectors that allow you to select elements to style based on more specific criteria. In this article, most of the advanced CSS selectors are described.
 
@@ -22,7 +22,7 @@ Note: This article discusses *most* of the advanced selectors, because although 
 
 You will see many of these selectors used throughout our articles as you read on. Don't worry if you don't understand them all immediately: keep referencing this article as needed.
 
-## <span>Universal selectors</span>
+## Universal selectors
 
 Universal selectors select every element on a page. For example, the following rule says that every element on the page will display a solid 1 pixel black border:
 
@@ -32,7 +32,7 @@ Universal selectors select every element on a page. For example, the following r
 }
 ```
 
-## <span>Attribute selectors</span>
+## Attribute selectors
 
 Attribute selectors allow you to select elements based on the attributes they contain. For example, you can select every `<img>` element with an `alt` attribute using the following selector:
 
@@ -46,7 +46,7 @@ img[alt] {
 
 Using the above selector, you could perhaps add a black border around any images that have an `alt` attribute, and style other images with a bright red border — this is a useful technique for accessibility testing.
 
-### <span>Selecting by attribute value</span>
+### Selecting by attribute value
 
 Attribute selectors instantly become more useful when you consider that you can select by *attribute value*, not just an attribute's name. The following rule selects all images with an `src` attribute value of `alert.gif`:
 
@@ -60,7 +60,7 @@ img[src="alert.gif"] {
 
 Note that this code is not supported by IE6 and below.
 
-### <span>Selecting based on substrings within the attribute value</span>
+### Selecting based on substrings within the attribute value
 
 This is where attribute selectors become even more useful. To begin, you can select and style our `<img src="alert.gif">` element using the following rule:
 
@@ -94,7 +94,7 @@ img[src*="ert"] {
 
 Note: These advanced selectors are not supported by IE8 and below.
 
-### <span>Selecting based on delimited items within the attribute value</span>
+### Selecting based on delimited items within the attribute value
 
 If you have an element on a page with a number of classes applied to it, for example:
 
@@ -124,7 +124,7 @@ article[id|="english"]
 
 Note: These selectors are not supported by IE8 and below.
 
-## <span>Child selector</span>
+## Child selector
 
 You can use a child selector to select specific elements that are children of other specific elements. For example, the following rule will turn the text of `<strong>` elements that are children of `<h3>` elements blue, without affecting other `<strong>` elements:
 
@@ -138,7 +138,7 @@ h3 > strong {
 
 Note also that the \> character is often referred to as a combinator in this context — it combines multiple elements together in one selector.
 
-## <span>Descendent selector</span>
+## Descendent selector
 
 Descendent selectors are similar to child selectors, except that child selectors only select immediate descendants; descendent selectors select matching elements anywhere in the element hierarchy, not just direct descendants. Investigate what this means by examining the following HTML snippet:
 
@@ -171,7 +171,7 @@ div p {
 
  Then, both of the `<p>` elements are selected.
 
-## <span>Adjacent sibling selector</span>
+## Adjacent sibling selector
 
 This selector allows you to select a specific element that comes directly after another specific element, on the same level in the element hierarchy. Review the following example:
 
@@ -196,7 +196,7 @@ h2 + p {
 
 Note also that the + character is often referred to as a combinator in this context — it combines multiple elements together in one selector.
 
-## <span>General sibling selectors</span>
+## General sibling selectors
 
 The general sibling selector is very similar to the adjacent sibling selector, except that it allows you to select all siblings of the specified element type, not just the one immediate next to the element on the left side. The CSS syntax looks like this:
 
@@ -218,11 +218,11 @@ h2 ~ p {
 
 Note also that the \~ character is often referred to as a combinator in this context — it combines multiple elements together in one selector.
 
-## <span>Pseudo-classes</span>
+## Pseudo-classes
 
 Pseudo-classes are used to provide styles not for elements, but for various states of elements.
 
-### <span>Link and user action pseudo-classes</span>
+### Link and user action pseudo-classes
 
 The most common pseudo-classes you will come across are those used to style link states (they are described in full usage in [Styling lists and links](http://docs.webplatform.org/wiki/Styling_lists_and_links)):
 
@@ -265,7 +265,7 @@ input:focus  {
 }
 ```
 
-### <span>The negation (not) pseudo-class</span>
+### The negation (not) pseudo-class
 
 The negation pseudo-class can be used to explicitly apply styles to elements that **are not** selected by a simple selector. For example, imagine that you want to apply some styling to a number of content blocks, all except one. The blocks could look like this:
 
@@ -298,7 +298,7 @@ section:not(#references) {
 
 Note: The negation selector is not supported by IE8 and below.
 
-### <span>The language (lang) pseudo-class</span>
+### The language (lang) pseudo-class
 
 The `:lang` pseudo-class selects elements whose languages have been set to the specified language using the `lang` attribute. For example, the following HTML element:
 
@@ -314,7 +314,7 @@ p:lang(en-US) {
 }
 ```
 
-### <span>The target pseudo-class</span>
+### The target pseudo-class
 
 The target pseudo-class allows you to select an element if it is the **target** of the current page URL. This is really useful and allows for some cool effects, because it effectively allows you to set styles to be applied when links are clicked. For example:
 
@@ -334,7 +334,7 @@ div:target {
 
  To see a much more involved example of `:target` usage, read the article titled [CSS3 target-based interfaces](http://dev.opera.com/articles/view/css3-target-based-interfaces/) by Corey Mwamba.
 
-### <span>UI element state pseudo-classes</span>
+### UI element state pseudo-classes
 
 These pseudo-classes are all concerned with styling advanced states of UI elements. You'll most commonly use them to style HTML form elements, particularly when some of the new features of HTML5 forms are being used, such as built in validation. (See [HTML5 form additions] for more details.)
 
@@ -374,7 +374,7 @@ input:disabled {}
 input[type="checkbox"]:checked {}
 ```
 
-### <span>Structural pseudo-classes</span>
+### Structural pseudo-classes
 
 Structural pseudo-classes are advanced selectors that enable you to target specific elements based on their position in the document hierarchy. These were introduced in CSS3, and they are built on selectors previously discussed, such as the adjacent sibling selector.
 
@@ -471,11 +471,11 @@ There are a few others to consider:
 -   `only-of-type`: Selects an element only if it is the only sibling of its type inside the parent element. So `blockquote:only-of-type` would select the `<blockquote>` in the above example because it is the only one of its type that exists.
 -   `empty`: selects an element only if it has no children whatsoever (including text nodes). For example `div:empty` would select `<div></div>`, but not `<div>1</div>` or `<div><p>Hi!</p></div>`
 
-## <span>Pseudo-elements</span>
+## Pseudo-elements
 
 Pseudo elements differ from pseudo-classes in that they don't select states of elements; they select parts of an element.
 
-### <span>:first-letter</span>
+### :first-letter
 
 You can select the first letter inside a given element using the following rule:
 
@@ -489,7 +489,7 @@ p:first-letter {
 
  The first letter of every paragraph will now be bold, 300% bigger than the rest of the paragraph, and have a red background. This is a good start towards creating a decent drop cap effect.
 
-### <span>:first-line</span>
+### :first-line
 
 To make the first line of every paragraph bold, you can use the following rule:
 
@@ -499,7 +499,7 @@ p:first-line {
 }
 ```
 
-### <span>Generated content using :before and :after</span>
+### Generated content using :before and :after
 
 You can use the `:before` and `:after` pseudo-elements to specify that content should be inserted before and after the selected element. You then specify the content that you want to insert or generate. For example, you can use the following rule to insert a decorative image after every link on the page:
 
@@ -523,6 +523,6 @@ You can also insert incremented numerical values after repeating elements (such 
 
 These selectors are not supported in IE 7 or below. Also note that you should not insert important information with CSS, because that content will be unavailable to assistive technologies. It will also be unavailable if a visitor chooses not to use the style sheet. The golden rule is that CSS rules are for styling; HTML is for displaying important content.
 
-### <span>CSS3 pseudo-element double colon syntax</span>
+### CSS3 pseudo-element double colon syntax
 
 Please note that the new CSS3 way of writing pseudo-elements is to use a double colon, such as `a::after { … }`, to set them apart from pseudo-classes. You may see this sometimes in CSS. CSS3 however also still allows for single colon pseudo-elements, for the sake of backwards compatibility. For the immediate future, it is recommended to continue using the single colon syntax.

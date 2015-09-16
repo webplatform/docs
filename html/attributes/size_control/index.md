@@ -28,22 +28,22 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Although this property is read/write, no change is visible when you set the size of the **input type=reset**, **input type=submit**, and **input type=image** objects. However, you can detect a change to the **size** property for these objects in code. For the **input type=text** object, the size is in characters and represents the width of the text box. When the size is specified, the **select** object represents a list box with the specified number of rows.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 17.4
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `input type=button`
 -   `input type=checkbox`

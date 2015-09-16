@@ -11,15 +11,15 @@ tags:
 uri: 'tutorials/generated content'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article describes generated content — a way in which you can use CSS to add content when a document is displayed.
 
-## <span>Information: Content</span>
+## Information: Content
 
 One of the important advantages of CSS is that it helps you to separate a document's style from its content. Yet there are situations where it makes sense to specify certain content as part of the stylesheet, not as part of the document. Content specified in a stylesheet can consist of text or images. You specify content in your stylesheet when the content is closely linked to the document's structure.
 
-## <span>Generated content in detail</span>
+## Generated content in detail
 
 Specifying content in a stylesheet can cause complications. For example, you might have different language versions of your document that share a stylesheet. If part of the stylesheet has to be translated, it means that you must put those parts of the stylesheet in separate files and arrange for them to be linked with the appropriate language versions of your document.
 
@@ -27,11 +27,11 @@ These complications do not arise if the content you specify consists of symbols 
 
 Content specified in a stylesheet does not become part of the DOM.
 
-### <span>Text content</span>
+### Text content
 
 CSS can insert text content before or after an element. To specify this, make a rule and add [::before](https://docs.webplatform.org/wiki/css/selectors/pseudo-elements/::before) or [::after](https://docs.webplatform.org/wiki/css/selectors/pseudo-elements/::after) to the selector. In the declaration, specify the [content](/css/properties/content) property with the text content as its value.
 
-#### <span>Generated text example</span>
+#### Generated text example
 
 This rule adds the text Reference: before every element with the class `ref`:
 
@@ -43,17 +43,17 @@ This rule adds the text Reference: before every element with the class `ref`:
 }
 ```
 
-#### <span>More details</span>
+#### More details
 
 The character set of a stylesheet is UTF-8 by default, but it can be specified in the link, or in the stylesheet itself, or in other ways. For details, see [4.4 CSS style sheet representation](http://www.w3.org/TR/CSS21/syndata.html#q23) in the CSS Specification.
 
 Individual characters can also be specified by an escape mechanism that uses backslash as the escape character. For example, \\265B is the chess symbol for a black queen. For details, see [Referring to characters not represented in a character encoding](http://www.w3.org/TR/CSS21/syndata.html#q24) and also [Characters and case](http://www.w3.org/TR/CSS21/syndata.html#q6) in the CSS Specification.
 
-### <span>Generated images</span>
+### Generated images
 
 To add an image before or after an element, you can specify the URL of an image file in the value of the **content** property.
 
-#### <span>Generated image example</span>
+#### Generated image example
 
 This rule adds a space and an icon after every link that has the class `glossary`:
 
@@ -69,11 +69,11 @@ The following element rule sets the background of a specific element, using a UR
 #sidebar-box {background: url("../images/sidebar-ground.png") no-repeat;}
 ```
 
-#### <span>More details</span>
+#### More details
 
 For information about individual properties affecting backgrounds, and about other options when you specify background images, see the **background** reference page.
 
-## <span>Action: Adding a background image</span>
+## Action: Adding a background image
 
 This image is a white square with a blue line at the bottom:
 
@@ -91,9 +91,9 @@ The value `repeat` is the default, so it does not need to be specified. The imag
 
 ![Blue-rule-ground.png](/assets/public/9/93/Blue-rule-ground.png)
 
-## <span>See also</span>
+## See also
 
-### <span>Exercise question</span>
+### Exercise question
 
 1.  Download this image:
 

@@ -69,39 +69,39 @@ translations:
 uri: html/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 Hypertext Markup Language (HTML)はwebページの作成のために開発されたマークアップ言語です。[World Wide Web Consortium（W3C）](http://www.w3.org)が[HTMLの標準](http://www.w3.org/standards/techs/html)を策定しています。
 
-## <span>HTMLドキュメント一覧</span>
+## HTMLドキュメント一覧
 
-### <span>[HTML学習教材](/html/tutorials)</span>
+### [HTML学習教材](/html/tutorials)
 
 チュートリアルと概要を読み、HTMLの基礎から学習しましょう。
 
-### <span>[要素](/html/elements/ja)</span>
+### [要素](/html/elements/ja)
 
 HTMLで利用可能な要素(element)についてのリファレンスガイドです。
 
-### <span>[属性](/html/attributes)</span>
+### [属性](/html/attributes)
 
 HTMLで利用可能な属性(attribute)についてのリファレンスガイドです。
 
-### <span>[API](/html/apis)</span>
+### [API](/html/apis)
 
 HTMLに関連するAPIについてのリファレンスガイドです。
 
-### <span>[データ型](/html/data_types)</span>
+### [データ型](/html/data_types)
 
 HTMLのデータ型についてのリファレンスガイドです。
 
-### <span>[エンティティ](/html/entities)</span>
+### [エンティティ](/html/entities)
 
 HTMLエンティティについてのリファレンスです。
 
 注: もしあなたがWeb開発について全くの初心者であるなら、先に「[Webを開発し始める皆さんへ](/beginners)」を読むことをお勧めします。
 
-## <span>背景</span>
+## 背景
 
 HTMLは私たちがWorld Wide Web（WWW）にコンテンツを構築するための言語であり、[Open Web Platform](http://www.w3.org/wiki/Open_Web_Platform)の主要な要素の一つでもあります。
 
@@ -109,17 +109,17 @@ HTMLは私たちがWorld Wide Web（WWW）にコンテンツを構築するた�
 -   現在の安定バージョン: 1999年12月、[HTML4.01(勧告)](http://www.w3.org/TR/html4)が公開
 -   これからの策定: W3Cは最も安定した草案として[HTML5(勧告候補)](http://www.w3.org/TR/html5)を発表し、WHATWGでは最新の実験的なアイディアと特徴を盛り込んだ[HTML living standard](http://developers.whatwg.org/)を発表しています。
 
-## <span>HTML技術に貢献するには</span>
+## HTML技術に貢献するには
 
 HTMLはこれまでCERNやIETF、W3Cなどの複数の組織が主導して開発してきました。開発の場として主に[HTML Working Group Mailing Lists](http://www.w3.org/html/wg/lists/)が用いられています。新しい機能の提案やフィードバックをしたいのなら、手始めにここが良いでしょう。ニュースやより一般的な情報については[W3C HTMLのホームページ](http://www.w3.org/html/)で調べてください。
 
 W3Cは現在[Media Accessibility Checklist](http://www.w3.org/wiki/HTML/MediaAccessibilityChecklist)でレビューコメントを求めています。
 
-## <span>目次</span>
+## 目次
 
 下記の要素・属性リストはW3Cの勧告あるいは勧告候補・勧告案に含まれているもののみ記載しています。[Special:PrefixIndex/html/](/Special:PrefixIndex/html/)や[HTML category page](/Category:HTML)を使用することでこのページの下部にある要素と属性や、当wiki内のHTMLに関連するページを検索することができます。
 
-### <span>要素</span>
+### 要素
 
 -   [a](/html/elements/a)
 -   [a](/html/elements/a/ja)
@@ -195,7 +195,7 @@ W3Cは現在[Media Accessibility Checklist](http://www.w3.org/wiki/HTML/MediaAcc
 -   [video](/html/elements/video)
 -   [wbr](/html/elements/wbr)
 
-### <span>属性</span>
+### 属性
 
 -   [accept](/html/attributes/accept)
 -   [action](/html/attributes/action)

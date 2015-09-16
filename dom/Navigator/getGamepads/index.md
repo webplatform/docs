@@ -25,25 +25,25 @@ tags:
 uri: dom/Navigator/getGamepads
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves a snapshot of the data for the currently connected and interacted-with gamepads. Returns a Gamepad object.
 
 Method of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = navigator.getGamepads();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 gamePads collection.
 
-## <span>Examples</span>
+## Examples
 
 This example detects when a gamepad is connected to the computer.
 
@@ -56,7 +56,7 @@ window.addEventListener("gamepadconnected", function(e) {
 });
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Gamepad Specification](https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html)
 :   W3C Working Draft

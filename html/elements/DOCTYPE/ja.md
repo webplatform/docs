@@ -75,16 +75,16 @@ todo_broken_links:
 uri: html/elements/!DOCTYPE/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 文書型宣言（DOCTYPE宣言）とはSGMLやXML文書(webページなど)を文書型定義(DTD)(HTMLのバージョンごとの書式の定義など）と結びつけるためのものです。ドキュメントをシリアライズした書式中で、特定の構文にマッチするようにマークアップした短い文字列で指定します。&lt;!DOCTYPE&gt;を書かないとQuirksモード(互換モード)で表示されます。
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 HTML5ではDOCTYPE宣言は以下のように記述されます。
 
@@ -104,7 +104,7 @@ HTML4.01のTransitional DTDでは
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 ```
 
-## <span>Usage</span>
+## Usage
 
      htmlファイルの始まりの部分に
 
@@ -114,7 +114,7 @@ HTML4.01のTransitional DTDでは
 
     を追加してください。
 
-## <span>Notes</span>
+## Notes
 
 \<!DOCTYPE\>はHTML文書の\<html\>タグより前の一番最初の部分に書かなければいけません。
 
@@ -124,11 +124,11 @@ HTML4.01はSGMLベースであり、\<!DOCTYPE\>では参照するDTDを指定�
 
 一方HTML5はSGMLベースではないため、DTDを参照する必要がありません。
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Deprecated</span>
+#### Deprecated
 
 -   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 
@@ -160,7 +160,7 @@ HTML4.01はSGMLベースであり、\<!DOCTYPE\>では参照するDTDを指定�
 
 -   [unescape](/javascript/unescape)
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -300,7 +300,7 @@ HTML4.01はSGMLベースであり、\<!DOCTYPE\>では参照するDTDを指定�
 
 -   [time](/html/elements/time)
 
-### <span>Other articles</span>
+### Other articles
 
 html/quirksmode
 

@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/operators/bitwise left shift'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Left shifts the bits of an expression.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Left shifts the bits of an expression.
 **expression2**
 :   Any expression.
 
-## <span>Examples</span>
+## Examples
 
 The **\<\<** operator shifts the bits of expression1 left by the number of bits specified in expression2. For example, the variable *temp* has a value of 56 because 14 (00001110 in binary) shifted left two bits equals 56 (00111000 in binary).
 
@@ -38,9 +38,9 @@ var temp
 temp = 14 << 2
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Left Shift Assignment Operator (\<\<=)](/javascript/operators/left_shift_assignment)
 -   [Bitwise Right Shift Operator (\>\>)](/javascript/operators/bitwise_right_shift)

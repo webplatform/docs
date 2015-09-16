@@ -22,23 +22,23 @@ tags:
 uri: dom/Document/releaseCapture
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes mouse capture from the object in the current document.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  document.releaseCapture();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 This example invokes the **releaseCapture** method on the document object.
 
@@ -67,7 +67,7 @@ This example invokes the **releaseCapture** method on the document object.
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/releaseCaptureEX.htm)
 
-## <span>Notes</span>
+## Notes
 
 -   For **releaseCapture** to have an effect, you must set mouse capture through the **setCapture** method.
 -   You can invoke the **releaseCapture** method on the [**Document**](/dom/Document) object.

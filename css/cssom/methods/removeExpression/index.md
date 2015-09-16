@@ -28,28 +28,28 @@ uri: css/cssom/methods/removeExpression
 
 Method of [css/cssom/methods](/css/cssom/methods)[css/cssom/methods](/css/cssom/methods)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.removeExpression(PropertyName);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>PropertyName</span>
+### PropertyName
 
  Data-type
 :   String
 
 **String** that specifies the name of the property from which to remove an expression.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Returns **true** if the expression was successfully removed, **false** otherwise.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **removeExpression** method to remove an expression from the [**width**](/css/properties/width) property of a blue box.
 
@@ -88,9 +88,9 @@ function remexp()
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/removeExpression.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 After the expression is removed from the specified property, the value of the property equals the last computed value of the expression. To remove expressions set by the [**setExpression**](/css/cssom/methods/setExpression) method, use **removeExpression**. The following syntax sections show how to remove an expression from supported Cascading Style Sheets (CSS) attributes and DHTML Properties.
 
@@ -102,9 +102,9 @@ After the expression is removed from the specified property, the value of the pr
 
 `object.style.removeExpression(sPropertyName)`
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `IHTMLElement2`
 -   `IHTMLStyle2`

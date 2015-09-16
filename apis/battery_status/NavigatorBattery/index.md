@@ -12,11 +12,11 @@ tags:
 uri: 'apis/battery status/NavigatorBattery'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The NavigatorBattery interface is exposed on the Navigator object.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -24,15 +24,15 @@ API Name
 [battery](/apis/battery_status/NavigatorBattery/battery)
 :   The object that exposes the battery status information.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 navigator.battery.onlevelchange = function () {
@@ -46,7 +46,7 @@ navigator.battery.addEventListener('levelchange', function () {
 }, false);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Battery Status API](http://www.w3.org/TR/battery-status/)
 :   W3C Last Call Working Draft

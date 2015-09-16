@@ -23,13 +23,13 @@ tags:
 uri: 'apis/navigation timing/PerformanceTiming/domContentLoadedEventEnd'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the time immediately after the document's DOMContentLoaded event completes.
 
 Property of [apis/navigation\_timing/PerformanceTiming](/apis/navigation_timing/PerformanceTiming)[apis/navigation\_timing/PerformanceTiming](/apis/navigation_timing/PerformanceTiming)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,22 +37,22 @@ Property of [apis/navigation\_timing/PerformanceTiming](/apis/navigation_timing/
 var result = PerformanceTiming.domContentLoadedEventEnd;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var perftime = performance.timing;
 document.write("domContentLoadedEventEnd: " + perftime.domContentLoadedEventEnd + "<br />");
 ```
 
-## <span>Notes</span>
+## Notes
 
 The value represents the number of milliseconds between midnight January 1, 1970 (UTC) and the recorded ending time.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Navigation Timing Specification 2](http://www.w3.org/TR/navigation-timing-2/)
 :   W3C Working Draft

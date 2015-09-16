@@ -12,11 +12,11 @@ tags:
 uri: apis/indexeddb/IDBDatabase
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a database connection for the purpose of conducting a transaction.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -30,7 +30,7 @@ API Name
 [version](/apis/indexeddb/IDBDatabase/version)
 :   Returns the version of the database when this IDBDatabaseSync instance was created.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -50,11 +50,11 @@ API Name
 [transaction](/apis/indexeddb/IDBDatabase/transaction)
 :   Execute the steps for creating a transaction in a sychronous fashion.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

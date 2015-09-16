@@ -11,11 +11,11 @@ tags:
 uri: dom/PointerEvent/pointerover
 
 ---
-## <span>Summary</span>
+## Summary
 
 Dispatched when a pointing device is moved into the hit test boundaries of an element. Also dispatched prior to a pointerdown event for devices that do not support hover.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -69,13 +69,13 @@ Varies: when the pointer is primary, all default actions of the [mouseover](/dom
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 ``` js
 element.addEventListener("pointerover", handler, useCapture);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Pointer Events](http://www.w3.org/TR/pointerevents)
 :   Working Draft

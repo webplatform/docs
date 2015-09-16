@@ -22,11 +22,11 @@ tags:
 uri: css/properties/border-image-slice
 
 ---
-## <span>Summary</span>
+## Summary
 
 Divides the image specified by border-image-source in nine regions: the four corners, the four edges and the middle. It does this by specifying 4 inward offsets.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `100%`
@@ -52,14 +52,14 @@ Animatable
 Percentages
 :   refer to size of the border image
 
-## <span>Syntax</span>
+## Syntax
 
 -   `border-image-slice: <number>`
 -   `border-image-slice: <percentage>`
 -   `border-image-slice: fill`
 -   `border-image-slice: inherit`
 
-## <span>Values</span>
+## Values
 
 \<number\>
 :   Represents pixels for raster images and coordinates for vector images.
@@ -73,7 +73,7 @@ fill
 inherit
 :   Is a keyword indicating that all four values are inherited from their parent's element calculated value.
 
-## <span>Examples</span>
+## Examples
 
 A simple example showing multiple \<div\>s, identical in style except that they have different border-image-slice properties applied to them.
 
@@ -134,22 +134,22 @@ div {
 
 [View live example](http://code.webplatform.org/gist/6949408)
 
-## <span>Usage</span>
+## Usage
 
      * Up to four different values can be specified, in the following order: top, right, bottom, left.
 
 -   If one value is specified, it is used for all four sides. If two values are specified, the first is used for the top and bottom slice-lines, and the second is used for left and right sides. If three values are specified, they are used for top, right/left, and bottom slice-lines, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#the-border-image-slice)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Border</span>
+#### Border
 
 -   [border](/css/properties/border)
 
@@ -209,6 +209,6 @@ div {
 
 -   [border-width](/css/properties/border-width)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Decorating fancy borders with CSS border-image](/tutorials/css_border_image)

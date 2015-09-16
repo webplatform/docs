@@ -20,11 +20,11 @@ tags:
 uri: css/properties/grid-template
 
 ---
-## <span>Summary</span>
+## Summary
 
 Shorthand for setting grid-template-columns, grid-template-rows, and grid-template-areas in a single declaration.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `See individual properties`
@@ -50,13 +50,13 @@ Animatable
 Percentages
 :   See indvidual properties
 
-## <span>Syntax</span>
+## Syntax
 
 -   `grid-template: <grid-template-columns> / <grid-template-rows>`
 -   `grid-template: <track-list> / <line-names> <string> <track-size> <line-names>`
 -   `grid-template: none`
 
-## <span>Values</span>
+## Values
 
 none
 :   Sets all three individual properties to their initial values ("none").
@@ -69,7 +69,7 @@ none
 
 This syntax allows the author to align track names and sizes inline with their respective grid areas.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /*
@@ -84,7 +84,7 @@ grid-template-rows: auto 1fr;
 grid-template-areas: none;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Grid Layout Module](http://www.w3.org/TR/css3-grid-layout)
 :   W3C Working Draft

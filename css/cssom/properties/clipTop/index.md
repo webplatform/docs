@@ -28,18 +28,18 @@ uri: css/cssom/properties/clipTop
 
 Property of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = declaration.clipTop;
 declaration.clipTop = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates how to read the **clipTop** property from the [**currentStyle**](/css/cssom/currentStyle) object of an image.
 
@@ -68,13 +68,13 @@ Pick an amount to clip the top:
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipTop.htm)
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -220,7 +220,7 @@ Pick an amount to clip the top:
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

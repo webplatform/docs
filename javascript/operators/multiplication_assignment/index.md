@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/operators/multiplication assignment'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Multiplies the value of a variable by the value of an expression and assigns the result to the variable.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Multiplies the value of a variable by the value of an expression and assigns the
 **expression**
 :   Any expression.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var x = 5;
@@ -34,15 +34,15 @@ var y = 2;
 y *= x; // result: y = 10
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 Using the **\*=** operator is exactly the same as specifying:
 
     result = result * expression
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Multiplication Operator (\\\*)](/javascript/operators/multiplication)
 

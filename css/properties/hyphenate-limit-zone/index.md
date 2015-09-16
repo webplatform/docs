@@ -20,11 +20,11 @@ tags:
 uri: css/properties/hyphenate-limit-zone
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the maximum amount of trailing whitespace (before justification) that may be left in a line before hyphenation is triggered to pull part of a word from the next line back up into the current one.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
@@ -50,12 +50,12 @@ Animatable
 Percentages
 :   refer to width of the line box
 
-## <span>Syntax</span>
+## Syntax
 
 -   `hyphenate-limit-zone: length`
 -   `hyphenate-limit-zone: percentage`
 
-## <span>Values</span>
+## Values
 
 percentage
 :   Specifies the width of the hyphenation zone, relative to the total line length. Negative values are not allowed.
@@ -63,23 +63,23 @@ percentage
 length
 :   Indicates the width of the hyphenation zone. Lengths set in font-relative units (em, ex, ch) tend to be more useful here. Negative values are not allowed.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* Only hyphenate if the line would otherwise be <= 90% its maximum possible width */
 hyphenate-limit-zone: 10%;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Level 4](http://dev.w3.org/csswg/css-text-4/#hyphenate-limit-zone)
 :   W3C Editor’s Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

@@ -15,11 +15,11 @@ tags:
 uri: dom/HTMLMediaElement/progress
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fires to indicate progress while downloading media data.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -75,11 +75,11 @@ Default action
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 This operation occurs while the video is loading. To invoke this event, Start playing audio or video from a website.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft
@@ -87,9 +87,9 @@ This operation occurs while the video is loading. To invoke this event, Start pl
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `audio`
 -   `audio`

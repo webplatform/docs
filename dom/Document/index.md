@@ -12,11 +12,11 @@ tags:
 uri: dom/Document
 
 ---
-## <span>Summary</span>
+## Summary
 
 Document is one of the most important objects in the DOM. It is where many API methods and properties are rooted.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -117,7 +117,7 @@ API Name
 [xmlVersion](/dom/Document/xmlVersion)
 :   Gets or sets the **version** attribute that is specified in the declaration of an XML document.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -212,7 +212,7 @@ API Name
 [writeln](/dom/Document/writeln)
 :
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -253,7 +253,7 @@ API Name
 [storagecommit](/dom/Document/storagecommit)
 :
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 if (document.title !== "") {
@@ -281,11 +281,11 @@ This example shows an event handler function that displays the current position 
 </html>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use the document object to examine, modify, or add content to an HTML document and to process events within that document. In a script, the document object can be referenced through the document property of the window object or it can be referenced directly.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 HTML](http://www.w3.org/TR/DOM-Level-2-HTML)
 :   Recommendation

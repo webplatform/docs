@@ -20,11 +20,11 @@ tags:
 uri: css/properties/alignment-adjust
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property allows precise alignment of elements, such as graphics, that do not have a baseline-table or lack the desired baseline in their baseline-table. With the alignment-adjust property, the position of the baseline identified by the alignment-baseline can be explicitly determined. It also determines precisely the alignment point for each glyph within a textual element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -50,7 +50,7 @@ Animatable
 Percentages
 :   Refers to the line-height of the element
 
-## <span>Syntax</span>
+## Syntax
 
 -   `alignment-adjust: <length>`
 -   `alignment-adjust: <percentage>`
@@ -67,7 +67,7 @@ Percentages
 -   `alignment-adjust: text-after-edge`
 -   `alignment-adjust: text-before-edge`
 
-## <span>Values</span>
+## Values
 
 auto
 :   For each glyph corresponding to textual information within the element, the alignment-point is the intersection of the start-edge of the glyph box and the block-progression-direction position of the alignment point from the font. Padding, border or margin do not affect that alignment point. The alignment point of the inline-level element itself is at the intersection of the start-edge of the first inline box and the baseline identified by the ‘alignment-baseline’ property, if this baseline exists in the baseline-table for the element dominant-baseline. If that specific baseline does not exist, the user agent may use heuristics to determine where the missing baseline would be.
@@ -111,7 +111,7 @@ mathematical
 \<length\>
 :   The alignment-point is on the start-edge of the inline box. Its position along the start-edge relative to the intersection of the dominant-baseline and the start-edge is offset by the length value. The offset is opposite to the shift-direction (positive value) or in the shift-direction (negative value). A value of "0cm" makes the dominant-baseline the alignment point.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <p>
@@ -173,13 +173,13 @@ p img:first-child {
 .image14 { alignment-adjust: -20px; }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Line Layout Module](http://dev.w3.org/csswg/css-inline/)
 :   W3C Editor's Draft
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [alignment-adjust by Eric Meyer](http://meyerweb.com/eric/css/tests/css3/show.php?p=alignment-adjust)

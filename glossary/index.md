@@ -10,7 +10,7 @@ tags:
 uri: glossary
 
 ---
-## <span>Summary</span>
+## Summary
 
 Glossary
 

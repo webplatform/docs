@@ -20,11 +20,11 @@ tags:
 uri: css/properties/overflow-style
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the preferred scrolling methods for elements that overflow.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -50,7 +50,7 @@ Animatable
 Percentages
 :   n/a
 
-## <span>Syntax</span>
+## Syntax
 
 -   `overflow-style: auto`
 -   `overflow-style: marquee`
@@ -59,7 +59,7 @@ Percentages
 -   `overflow-style: panner`
 -   `overflow-style: scrollbar`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Initial value. Indicates no preference.
@@ -83,7 +83,7 @@ move
 marquee
 :   The marquee effect (value ‘marquee’) consists of the content moving autonomously, without any user events to control it. A user who waits long enough will eventually see all the content that overflows.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* Top preference for a scrolling mechanism is a panner.
@@ -91,17 +91,17 @@ marquee
 overflow-style: panner, none;
 ```
 
-## <span>Notes</span>
+## Notes
 
-## <span>IMPORTANT</span>
+## IMPORTANT
 
 CSS Basic Box Model and CSS Marquee Module Lelel 3 both specify a different overflow-style property. This page is based on the CSS Basic Box Model, because if marquee is going to be supported, that would have a bigger chance of being supported.
 
-### <span>Remarks</span>
+### Remarks
 
 The **overflow-style** property only has an effect on elements that overflow using the [**overflow**](/css/properties/overflow) property. When using auto-hiding scrollbars, you should ensure your content has sufficient padding to prevent interactive content from being obscured beneath the scrollbar.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Basic Box Model](http://www.w3.org/TR/css3-box/#the-lsquo3)
 :   Working Draft

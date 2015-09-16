@@ -21,21 +21,21 @@ tags:
 uri: apis/indexeddb/IDBIndex/get
 
 ---
-## <span>Summary</span>
+## Summary
 
 Runs the steps for asynchronously executing a request and returns the IDBRequest created by these steps.
 
 Method of [apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)[apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = .get();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 

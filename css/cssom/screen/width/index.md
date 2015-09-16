@@ -19,13 +19,13 @@ tags:
 uri: css/cssom/screen/width
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets an element's width.
 
 Property of [css/cssom/screen](/css/cssom/screen)[css/cssom/screen](/css/cssom/screen)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.width;
@@ -34,13 +34,13 @@ element.width = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793), 4.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `screen`
 -   `Reference`

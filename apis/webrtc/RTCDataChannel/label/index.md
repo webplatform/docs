@@ -22,13 +22,13 @@ tags:
 uri: apis/webrtc/RTCDataChannel/label
 
 ---
-## <span>Summary</span>
+## Summary
 
 A unique identifier that can be used to distinguish this RTCDataChannel object from other RTCDataChannel objects.
 
 Property of [apis/webrtc/RTCDataChannel](/apis/webrtc/RTCDataChannel)[apis/webrtc/RTCDataChannel](/apis/webrtc/RTCDataChannel)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [apis/webrtc/RTCDataChannel](/apis/webrtc/RTCDataChannel)[apis/webrt
 var result = object.label;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web RTC Specification](http://dev.w3.org/2011/webrtc/editor/webrtc.html)
 :   W3C Editor's Draft

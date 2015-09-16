@@ -10,11 +10,11 @@ tags:
 uri: javascript/Int8Array/set
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets a value or an array of values.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -36,7 +36,7 @@ Sets a value or an array of values.
 **offset**
 :   The index in the current array at which the values are to be written.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to set the first element of the array.
 
@@ -56,7 +56,7 @@ var req = new XMLHttpRequest();
      }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 If the input array is a TypedArray, the two arrays may use the same underlying ArrayBuffer. In this situation, setting the values takes place as if all the data is first copied into a temporary buffer that does not overlap either of the arrays, and then the data from the temporary buffer is copied into the current array.
 

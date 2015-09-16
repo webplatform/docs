@@ -19,11 +19,11 @@ todo_broken_links:
 uri: 'tutorials/setting color in css'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article explains in detail the different ways you can specify color in CSS.
 
-## <span>Information: Color</span>
+## Information: Color
 
 In this tutorial so far, you have used a limited number of named colors. CSS 2 supports 17 named colors in all. Some of the names might not be what you expect:
 
@@ -151,7 +151,7 @@ teal
 </td>
 </tr>
 </table>
-### <span>Further color keyword details</span>
+### Further color keyword details
 
 Your browser might support many more named colors, like:
 
@@ -204,7 +204,7 @@ For the full palette, specify two hexadecimal digits for each component:
 
 You can usually get these six-digit hexadecimal codes from your graphics program or some other tool.
 
-### <span>Further hex examples</span>
+### Further hex examples
 
 With a little practice, you can adjust the three-digit colors manually for most purposes:
 
@@ -222,7 +222,7 @@ For a pastel shade like pale blue:
 |Start with pure white:||`#fff`|
 |Reduce the other components a little:||`#eef`|
 
-## <span>RGB colors</span>
+## RGB colors
 
 You can also specify a color using decimal RGB values in the range 0 – 255, or percentages. For example, this is maroon (dark red):
 
@@ -230,7 +230,7 @@ You can also specify a color using decimal RGB values in the range 0 – 255, or
 
 For full details of how to specify colors, see: [Colors](/w/index.php?title=Colors&action=edit&redlink=1) in the CSS Specification. For information on matching system colors like Menu and ThreeDFace, see: [CSS2 System Colors](/w/index.php?title=CSS2_System_Colors&action=edit&redlink=1) in the CSS Specification.
 
-### <span>Color properties</span>
+### Color properties
 
 You have already used the [color] property on text.You can also use the [background-color] property to change elements' backgrounds. Backgrounds can be set to `transparent` to explicitly remove any color, revealing the parent element's background.
 
@@ -244,7 +244,7 @@ The **More details** boxes use this pale gray:
 background-color: #f4f4f4;
 ```
 
-## <span>Action: Using color codes</span>
+## Action: Using color codes
 
 1.  \<p\>Edit your CSS file; make the change shown here in bold, to give the initial letters a pale blue background. (The layout and comments in your file probably differ from the file shown here. Keep the layout and comments the way you prefer them.)\</p\>
 
@@ -273,15 +273,15 @@ background-color: #f4f4f4;
 
     Need to add screenshot of the result?
 
-    ## <span>See also</span>
+    ## See also
 
-    ### <span>Other articles</span>
+    ### Other articles
 
     -   [color](/css/data_types/color)
     -   [Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification, 4 Syntax and basic data types, 4.3.6 Colors](http://www.w3.org/TR/CSS2/syndata.html#color-units)
     -   [CSS Color Module Level 3 , 4.3. Extended color keywords](http://www.w3.org/TR/css3-color/#svg-color)
 
-    ### <span>Exercise question</span>
+    ### Exercise question
 
     In your CSS file, change all the color names to 3-digit color codes without affecting the result (this cannot be done exactly, but you can get close. To do it exactly you need 6-digit codes, and you need to look up the CSS Specification or use a graphics tool to match the colors.)
 

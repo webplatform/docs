@@ -69,27 +69,27 @@ translations:
 uri: dom
 
 ---
-## <span>Summary</span>
+## Summary
 
 The Document Object Model (DOM) is an application programming interface (API) for markup documents, like HTML, SVG, MathML, and XML. The DOM provides a logically structured representation of a document, and a set of Objects and Methods for manipulating that structure.
 
-## <span>Explore our DOM docs</span>
+## Explore our DOM docs
 
-### <span>[DOM learning material](/dom/tutorials)</span>
+### [DOM learning material](/dom/tutorials)
 
 Tutorials and concept articles to teach you DOM manipulation from scratch.
 
-### <span>Events</span>
+### Events
 
 See the table below.
 
-### <span>Methods</span>
+### Methods
 
 See the table below.
 
  Note: If you are completely new to web development, you may want to review [Web development for beginners](/beginners).
 
-## <span>Background</span>
+## Background
 
 When a markup document is parsed by a browser, it converts the document in a tree structure called the document object model, or DOM. This model can then be used to access and manipulate existing elements in the document, and create new ones, an essential set of activities when creating dynamic page functionality.
 
@@ -97,15 +97,15 @@ When a markup document is parsed by a browser, it converts the document in a tre
 -   Current stable version: DOM level 3 is the most stable version, the specification of which is split up into different parts, all of whom have made it to recommendation status. You can find a list of all DOM publications at [DOM technical reports](http://www.w3.org/DOM/DOMTR)
 -   Current and future work: [DOM level 4](http://www.w3.org/TR/domcore/) is the current nascent version of the DOM being worked on.
 
-## <span>Contributing to DOM development</span>
+## Contributing to DOM development
 
 The DOM is being worked on by the [Web Applications Working Group](http://www.w3.org/2008/webapps/); visit their [mailing lists](http://www.w3.org/2008/webapps/wiki/WorkMode#Participation_and_Communication) for discussion, and contribution of ideas.
 
-## <span>Index of all DOM topics</span>
+## Index of all DOM topics
 
 Use the [Special:PrefixIndex/dom/](/Special:PrefixIndex/dom/) search page to find all classes, methods, and properties organized under this page, or the [DOM category page](/Category:DOM) for all DOM-related pages in the wiki.
 
-### <span>List of DOM-related Interfaces</span>
+### List of DOM-related Interfaces
 
 -   [AnimationEvent](/dom/AnimationEvent)
 -   [Attr](/dom/Attr)

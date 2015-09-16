@@ -23,13 +23,13 @@ tags:
 uri: css/cssom/styleSheet/owningElement
 
 ---
-## <span>Summary</span>
+## Summary
 
 Non standard. Returns the style or link object that defined the style sheet.
 
 Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](
 var element = stylesheet.owningElement;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -45,8 +45,8 @@ The **owningElement** property returns the **style** or **link** object that def
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `styleSheet`

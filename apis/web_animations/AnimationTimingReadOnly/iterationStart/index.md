@@ -21,7 +21,7 @@ tags:
 uri: 'apis/web animations/AnimationTimingReadOnly/iterationStart'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The animation node’s iteration start property.
 
@@ -29,7 +29,7 @@ A finite real number greater than or equal to zero representing the number of it
 
 Property of [apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)[apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/
 var result = element.iterationStart;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type doubledouble
 

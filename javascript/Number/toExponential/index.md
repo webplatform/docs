@@ -11,11 +11,11 @@ tags:
 uri: javascript/Number/toExponential
 
 ---
-## <span>Summary</span>
+## Summary
 
 The toExponential() method formats a number to exponential notation.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -24,13 +24,13 @@ The toExponential() method formats a number to exponential notation.
 **fractionDigits**
 :   Optional. The number of digits after the decimal point. Must be in the range 0 - 20, inclusive.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns a string representation of a number in exponential notation. The string contains one digit before the decimal point, and may contain fractionDigits digits after it.
 
 If fractionDigits is not supplied, the **toExponential** method returns as many digits necessary to uniquely specify the number.
 
-## <span>Examples</span>
+## Examples
 
 Using `toExponential` to format the text presentation of a number.
 
@@ -50,25 +50,25 @@ pie.toPrecision(0);
 // Returns: "3e+0"
 ```
 
-## <span>Remarks</span>
+## Remarks
 
-### <span>Throws</span>
+### Throws
 
 [`RangeError`](/javascript/Error) when a *fractionDigits* outside the bounds of 0 - 20 (inclusive) was given.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [toFixed Method (Number)](/javascript/Number/toFixed)
 -   [toPrecision Method (Number)](/javascript/Number/toPrecision)
 -   [toString Method (Number)](/javascript/Number/toString)
 
-### <span>External resources</span>
+### External resources
 
 -   [toExponential(), by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toExponential)
 
-### <span>Specification</span>
+### Specification
 
 [15.7.4.6 Number.prototype.toExponential(fractionDigits)](http://www.ecma-international.org/ecma-262/5.1/#sec-15.7.4.6)
 

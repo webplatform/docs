@@ -17,7 +17,7 @@ uri: css/selectors/attributes/suffix
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Examples</span>
+## Examples
 
 The following style rule selects any element with an "attr" attribute whose value ends with "n".
 
@@ -36,32 +36,32 @@ The following style rule selects any element with an "attr" attribute whose valu
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note**  Requires Windows Internet Explorer 7 or later. **Note**  Attribute selectors are not supported in webpages that are displayed in the Microsoft Internet Explorer 5 document mode (also known as "Quirks" mode). To use attribute selectors, add a [!DOCTYPE](/html/elements/!DOCTYPE) directive that specifies a standard-based document. For more information, see [Defining Document Compatibility](http://go.microsoft.com/fwlink/p/?LinkID=125785). Attributes are case-sensitive.
 
-### <span>Syntax</span>
+### Syntax
 
 `<strong/> [att$=val] {...}`
 
-### <span>Parameters</span>
+### Parameters
 
 *att*
 :   Must be either an Identifier or a String.
 *val*
 :   Must be either an Identifier or a String.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Selectors Level 3](http://go.microsoft.com/fwlink/p/?linkid=199783), Section 6.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Attributes</span>
+#### CSS Attributes
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -99,7 +99,7 @@ The following style rule selects any element with an "attr" attribute whose valu
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 

@@ -25,16 +25,16 @@ todo_broken_links:
 uri: html/elements/xml
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines a simple XML data that can be embedded directly in an HTML page.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **XML** element to define a simple XML data island that can be embedded directly in an HTML page.
 
@@ -70,17 +70,17 @@ var oNode = oMetaData.XMLDocument.selectSingleNode("METADATA/ABSTRACT");
    alert(oNode.text);
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The [**readyState**](/w/index.php?title=dom/properties/readyState_(Link,_Img,_Input,_Style...elements)&action=edit&redlink=1) property of the **XML** element, available as a string value, corresponds to the **readyState** property of the **XMLDOMDocument** object, which is available as a long value. The string values correspond to the long values of the XML document object's property as shown in the Examples section. The [**XMLDocument**](/apis/xhr/properties/XMLDocument) property is the default property. This element is available in HTML and script as of Microsoft Internet Explorer 5.
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Members</span>
+### Members
 
 The **xml** object has these types of members:
 
@@ -88,6 +88,6 @@ The **xml** object has these types of members:
 -   [\#methods Methods]
 -   [\#properties Properties]
 
-#### <span>Events</span>
+#### Events
 
 The **xml** object has these events. {

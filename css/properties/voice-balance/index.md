@@ -20,11 +20,11 @@ tags:
 uri: css/properties/voice-balance
 
 ---
-## <span>Summary</span>
+## Summary
 
 The voice-balance property sets the apparent position (in stereo sound) of the synthesized voice for spoken media.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `center`
@@ -47,13 +47,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Speech Module](http://www.w3.org/TR/css3-speech/#mixing-props-voice-balance)
 :   W3C Candidate Recommendation

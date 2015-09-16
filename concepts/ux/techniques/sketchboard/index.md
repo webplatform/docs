@@ -11,30 +11,30 @@ tags:
 uri: concepts/ux/techniques/sketchboard
 
 ---
-## <span>Summary</span>
+## Summary
 
 A User eXperience (UX) design technique
 
-### <span>What it is</span>
+### What it is
 
 It's like story boarding but with sketches, almost like a biomap of the system you are building or about to build.
 
-### <span>Who does it</span>
+### Who does it
 
 The whole project's team.
 
-### <span>Key benefits</span>
+### Key benefits
 
 -   Provides Big Picture using initial design ideas.
 -   Very iterative and highly collaboratively.
 -   Very focused requirement discussions.
 
-## <span>Usage</span>
+## Usage
 
      At Scoping or Prototyping
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [User eXperience (UX) Design Techniques](/concepts/ux/techniques)

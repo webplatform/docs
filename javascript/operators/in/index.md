@@ -10,11 +10,11 @@ tags:
 uri: javascript/operators/in
 
 ---
-## <span>Summary</span>
+## Summary
 
 Tests for the existence of a property in an object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Tests for the existence of a property in an object.
 **object**
 :   Required. Any object.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **in** operator:
 
@@ -48,7 +48,7 @@ The following example shows how to use the **in** operator:
  // Output: property is present
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **in** operator determines whether an object has a property named property. It also determines whether the property is part of the object's prototype chain. For more information about object prototypes, see Prototypes and Prototype Inheritance.
 

@@ -7,12 +7,12 @@ Ecma International focuses on information and communication systems. Its primary
 
 **Website:** <http://www.ecma-international.org/>
 
-## <span>Organizational Structure</span>
+## Organizational Structure
 
-### <span>Funding</span>
+### Funding
 
-## <span>Communications</span>
+## Communications
 
-## <span>Process</span>
+## Process
 
-## <span>Patent Policy</span>
+## Patent Policy

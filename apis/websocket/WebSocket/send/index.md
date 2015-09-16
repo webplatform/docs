@@ -19,21 +19,21 @@ tags:
 uri: apis/websocket/WebSocket/send
 
 ---
-## <span>Summary</span>
+## Summary
 
 Transmits data to the server over the WebSocket connection.
 
 Method of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket/WebSocket](/apis/websocket/WebSocket)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.send(data);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>data</span>
+### data
 
  Data-type
 :   any
@@ -45,11 +45,11 @@ Method of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket/W
 -   ArrayBuffer
 -   ArrayBufferView
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var data = new ArrayBuffer(10000000);
@@ -65,7 +65,7 @@ else {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 An **ArrayBuffer** is a unformatted block of raw data that is sent in its entirety to a server. An ArrayBufferView is a typed array view of an **ArrayBuffer**. By using a typed array to define the format of the buffer, and the start and length (number of elements), you can send portions of an **ArrayBuffer** to a server. This method can throw one of the following exceptions:
 
@@ -73,7 +73,7 @@ An **ArrayBuffer** is a unformatted block of raw data that is sent in its entire
 |:--------|:----------|
 |InvalidStateError(11)|The connection is not currently OPEN.|
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation

@@ -13,7 +13,7 @@ uri: dom/Element/submit
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -69,9 +69,9 @@ Default action
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 You can override this event by returning `false` in the event handler. Use this capability to validate data on the client side to prevent invalid data from being submitted to the server. If the event handler is called by the **onsubmit** attribute of the **form** object, the code must explicitly request the return value using the return function, and the event handler must provide an explicit return value for each possible code path in the event handler function. The **submit** method does not invoke the **onsubmit** event handler. Causes a **form** to be sent to whatever location is stipulated in the [**ACTION**](/html/attributes/action) attribute of the **form** object. To invoke this event, do one of the following:
 
@@ -104,20 +104,20 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `form`
 -   `Reference`

@@ -26,57 +26,57 @@ uri: dom/Error/initErrorEvent
 
 Method of [dom/Error](/dom/Error)[dom/Error](/dom/Error)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.initErrorEvent(typeArg, canBubbleArg, cancelableArg, messageArg, filenameArg, linenoArg);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>typeArg</span>
+### typeArg
 
  Data-type
 :   any
 
  The type of the event being created
 
-### <span>canBubbleArg</span>
+### canBubbleArg
 
  Data-type
 :   any
 
  Indicates whether the event can bubble. When true the event should propagate upward. When false the event does not propagate upward.
 
-### <span>cancelableArg</span>
+### cancelableArg
 
  Data-type
 :   any
 
  Indicates whether the event’s default action can be prevented. When true, the default action can be canceled. When false, the default action cannot be canceled.
 
-### <span>messageArg</span>
+### messageArg
 
  Data-type
 :   any
 
  The error message string.
 
-### <span>filenameArg</span>
+### filenameArg
 
  Data-type
 :   any
 
  The absolute URL of the script in which the error originally occurred.
 
-### <span>linenoArg</span>
+### linenoArg
 
  Data-type
 :   unsigned long
 
  The line number where the error occurred in the script.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -94,4 +94,4 @@ S\_OK
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax

@@ -24,20 +24,20 @@ tags:
 uri: dom/HTMLInputElement/defaultValue
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets the value of the value HTML attribute.
 
 Property of [dom/HTMLInputElement](/dom/HTMLInputElement)[dom/HTMLInputElement](/dom/HTMLInputElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var defaultValue = inputElement.defaultValue;
 inputElement.defaultValue = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -45,18 +45,18 @@ The value of the **value** HTML attribute.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 The value of the property can be changed programmatically, but doing so has no effect on the appearance of the object or the submitted value - if the [value](/dom/HTMLElement/value) property has been changed by a user or by a script. It does, however, change the initial value of the object when the form is reset.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `input type=button`
 -   `input type=checkbox`

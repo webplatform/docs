@@ -14,11 +14,11 @@ uri: 'tutorials/mobile touch'
 **By [Boris Smus](http://www.html5rocks.com/profiles/#smus)**
 Originally published Aug. 21, 2011
 
-## <span>Summary</span>
+## Summary
 
 An introduction to multi-touch mobile web development.
 
-## <span>Introduction</span>
+## Introduction
 
 Mobile devices such as smartphones and tablets usually have a capacitive touch-sensitive screen to capture interactions made with the user's fingers. As the mobile web evolves to enable increasingly sophisticated applications, web developers need a way to handle these events. For example, nearly any fast-paced game requires the player to press multiple buttons at once which, in the context of a touchscreen, implies multi-touch.
 
@@ -26,7 +26,7 @@ Apple introduced their [touch events API](http://developer.apple.com/library/saf
 
 In this article I'll dive into the touch events API provided by iOS and Android devices, explore what sorts of applications you can build, present some best practices, and cover useful techniques that make it easier to develop touch-enabled applications.
 
-## <span>Touch events</span>
+## Touch events
 
 Three basic touch events are outlined in the spec and implemented widely across mobile devices:
 
@@ -47,7 +47,7 @@ These lists consist of objects that contain touch information:
 -   `client/page/screen coordinates`: where on the screen the action happened.
 -   `radius coordinates and rotationAngle`: describe the ellipse that approximates finger shape.
 
-## <span>Touch-enabled apps</span>
+## Touch-enabled apps
 
 The `touchstart`, `touchmove`, and `touchend` events provide a rich enough feature set to support virtually any kind of touch-based interaction, including all of the usual multi-touch gestures like pinch-zoom, rotation, and so on.
 
@@ -80,7 +80,7 @@ Below is a [sample](https://github.com/borismus/MagicTouch/blob/master/samples/t
        }
      }, false);
 
-### <span>Demos</span>
+### Demos
 
 A number of interesting multi-touch demos are already in the wild, such as this [canvas-based drawing](http://paulirish.com/demo/multi) demo by Paul Irish and others.
 
@@ -92,9 +92,9 @@ And [Browser Ninja](http://smus.com/x/browser-ninja/), a tech demo that is a Fru
 [](http://smus.com/x/browser-ninja)
 [Browser ninja](http://smus.com/x/browser-ninja) ![mtninja.jpg](/assets/public/b/b1/mtninja.jpg)
 
-## <span>Best practices</span>
+## Best practices
 
-### <span>Prevent zooming</span>
+### Prevent zooming
 
 Default settings don't work very well for multi-touch, because your swipes and gestures are often associated with browser behavior, such as scrolling and zooming.
 
@@ -105,7 +105,7 @@ To disable zooming, set up your viewport so that it is not user-scalable using t
 
 Check out [this mobile HTML5 article](http://www.html5rocks.com/mobile/mobifying.html#toc-meta-viewport) for more information on setting up your viewport.
 
-### <span>Prevent scrolling</span>
+### Prevent scrolling
 
 Some mobile devices have default behaviors for `touchmove`, such as the classic iOS overscroll effect, which causes the view to bounce back when scrolling exceeds the bounds of the content. This is confusing in many multi-touch applications, and can easily be disabled:
 
@@ -113,7 +113,7 @@ Some mobile devices have default behaviors for `touchmove`, such as the classic 
        event.preventDefault();
      }, false);
 
-### <span>Render carefully</span>
+### Render carefully
 
 If you are writing a multi-touch application that involves complex multi-finger gestures, be careful how you react to touch events, because you will be handling so many at once. Consider the sample in the previous section that draws all touches on the screen. You could draw as soon as there is a touch input:
 
@@ -135,13 +135,13 @@ But this technique does not scale with number of fingers on the screen. Instead,
 
 **Tip:** `setInterval` is not great for animations, because it doesn't take into account the browser's own rendering loop. Modern desktop browsers provide [requestAnimationFrame](http://www.html5rocks.com/tutorials/speed/html5/#toc-request-ani-frame), which is a much better option for performance and battery life reasons. Once supported in mobile browsers, this will be the preferred way of doing things.
 
-### <span>Make use of targetTouches and changedTouches</span>
+### Make use of targetTouches and changedTouches
 
 Remember that `event.touches` is an array of *all* fingers in contact with the screen, not just the ones on the DOM element's target. You might find it more useful to use `event.targetTouches` or `event.changedTouches` instead.
 
 Finally, because you are developing for mobile, you should be aware of general mobile best practices, which are covered in [Eric Bidelman's article](http://www.html5rocks.com/mobile/mobifying.html), as well as this [W3C document](http://www.w3.org/TR/mwabp/).
 
-## <span>Device support</span>
+## Device support
 
 *(Ed. note: This section contains useful information, but may be out of date. See the compatibility tables at the end of this article for more current information.)*
 
@@ -159,11 +159,11 @@ Within each touch list, the tested browsers also provide the `touches`, `targetT
 
 During a `touchmove`, events fire roughly 60 times a second across all tested devices.
 
-### <span>Android 2.3.3 (Nexus)</span>
+### Android 2.3.3 (Nexus)
 
 On the Android Gingerbread Browser (tested on Nexus One and Nexus S), there is no multi-touch support. This is a [known issue](http://code.google.com/p/android/issues/detail?id=11909).
 
-### <span>Android 3.0.1 (Xoom)</span>
+### Android 3.0.1 (Xoom)
 
 On Xoom's browser, there is basic multi-touch support, but it only works on a single DOM element. The browser does not correctly respond to two simultaneous touches on different DOM elements. In other words, the following will react to two simultaneous touches:
 
@@ -186,15 +186,15 @@ But the following will not:
        }, false);
      }
 
-### <span>iOS 4.x (iPad, iPhone)</span>
+### iOS 4.x (iPad, iPhone)
 
 iOS devices fully support multi-touch, are capable of tracking quite a few fingers and provide a very responsive touch experience in the browser.
 
-### <span>Internet Explorer 10</span>
+### Internet Explorer 10
 
 Internet Explorer does not have touch events. Instead Microsoft implemented pointer events in IE10 and suggested it as a new [spec](http://www.w3.org/TR/pointerevents/) to the W3C. See [PointerEvents](http://docs.webplatform.org/wiki/concepts/PointerEvents) for more info.
 
-## <span>Developer tools</span>
+## Developer tools
 
 In mobile development, it's often easier to start prototyping on the desktop and then tackle the mobile-specific parts on the devices you intend to support. Multi-touch is one of those features that's difficult to test on the PC, since most PCs don't have touch input.
 
@@ -202,13 +202,13 @@ Having to test on mobile can lengthen your development cycle, since every change
 
 A solution to this problem is to simulate touch events on your development machine. For single-touches, touch events can be simulated based on mouse events. Multi-touch events can be simulated if you have a device with touch input, such as a modern Apple MacBook.
 
-### <span>Single-touch events</span>
+### Single-touch events
 
 If you would like to simulate single-touch events on your desktop, try out [Phantom Limb](http://www.vodori.com/blog/phantom-limb.html), which simulates touch events on pages and also gives a giant hand to boot.
 
 There's also the [Touchable](https://github.com/dotmaster/Touchable-jQuery-Plugin) jQuery plugin that unifies touch and mouse events across platforms.
 
-### <span>Multi-touch events</span>
+### Multi-touch events
 
 To enable your multi-touch web application to work in your browser on your multi-touch trackpad (such as a Apple MacBook or MagicPad), I've created the [MagicTouch.js polyfill](http://github.com/borismus/MagicTouch). It captures touch events from your trackpad and turns them into standard-compatible touch events. To use it:
 
@@ -239,11 +239,11 @@ Note that your gestures might be identical to OS-level multi-touch gestures. On 
 
 As multi-touch features become more widely supported across mobile browsers, I'm very excited to see new web applications take full advantage of this rich API.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Pointer Events</span>
+#### Pointer Events
 
 -   [Pointer Events Primer](/concepts/Pointer_Events)
 

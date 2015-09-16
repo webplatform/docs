@@ -19,16 +19,16 @@ tags:
 uri: html/elements/ins
 
 ---
-## <span>Summary</span>
+## Summary
 
 The ins element represents a range of text that has been inserted (added) into a document.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLModElement](/dom/HTMLModElement)
 
-### <span>Attributes</span>
+### Attributes
 
 Besides the [global attributes](/html/global_attributes) the following attributes are supported:
 
@@ -37,7 +37,7 @@ Besides the [global attributes](/html/global_attributes) the following attribute
 [**datetime**](/html/attributes/datetime)
 :   The **datetime** attribute may be used to specify the time and date of the change. If present, it must be a valid [date string with optional time](http://www.w3.org/html/wg/drafts/html/master/infrastructure.html#valid-date-string-with-optional-time).
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **ins** element to specify text inserted into a document.
 
@@ -60,11 +60,11 @@ This example uses **ins** and **del** elements to explain changes in a document
 
 [View live example](http://code.webplatform.org/gist/6365735)
 
-## <span>Usage</span>
+## Usage
 
      The default behavior of the ins element is as a phrasing-level element, but it can be wrapped around any element within the body.
 
-## <span>Notes</span>
+## Notes
 
 The default browser display of **ins** is underlined.
 
@@ -74,7 +74,7 @@ If you are looking to emphasize a word or phrase, the [**em** element](/html/ele
 
 For Internet Explorer 8 and later the value of the [**cite**](/html/attributes/cite) attribute depends on the current document compatibility mode.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/edits.html#the-ins-element)
 :   W3C Working Draft
@@ -85,11 +85,11 @@ For Internet Explorer 8 and later the value of the [**cite**](/html/attributes/c
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-ins)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -229,7 +229,7 @@ For Internet Explorer 8 and later the value of the [**cite**](/html/attributes/c
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -309,12 +309,12 @@ For Internet Explorer 8 and later the value of the [**cite**](/html/attributes/c
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Other articles</span>
+### Other articles
 
 -   **ins**
 -   [del](/html/elements/del)
 
-### <span>External resources</span>
+### External resources
 
 -   [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/HTML/Element/ins)
 -   [Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/ms535842%28v=vs.85%29.aspx)

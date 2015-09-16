@@ -14,7 +14,7 @@ tags:
 uri: html/attributes/longdesc
 
 ---
-## <span>Summary</span>
+## Summary
 
 Links an image to a description of its content, for enhanced accessibility
 
@@ -30,7 +30,7 @@ dom/HTMLImageElement
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The description is somewhere on the same page as the image
 
@@ -60,19 +60,19 @@ touches%20a%20blue%203%2C%20followed%20by%20a%20black%20shadow%20of%20a%20white%
 capital%20letter%20C%20all%20on%20a%20white%20background%3C/body%3E%3C/html%3E"/>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The long description supplements the shorter description specified by the [**alt**](/html/attributes/alt) attribute. Windows Internet Explorer 8 or later. In IE8 Standards mode, the value of the **longDesc** attribute for the **frame**, **iframe**, and **img** elements depends on the context of the reference to the attribute. When read as a Document Object Model (DOM) attribute, **longDesc** returns an absolute URL. The value specified by the page author is returned when **longDesc** is read as a content attribute, when the page is displayed in an earlier document compatibility mode, or when the page is viewed with an earlier version of the browser. For more information, see Attribute Differences in Internet Explorer 8. The [**alt**](/html/attributes/alt) attribute is no longer displayed as the image tooltip for pages displayed in IE8 mode. The target of the **longDesc** attribute is now displayed as the tooltip, if present; otherwise, the [**title**](/html/attributes/title) is displayed. However, the **alt** attribute is displayed as the Microsoft Active Accessibility (MSAA) tooltip. If this attribute is not present, the title attribute is displayed instead. For more information, see Accessibility section in What's New in Internet Explorer 8. **longDesc** was introduced in Microsoft Internet Explorer 6.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5 Image Description Extension](http://www.w3.org/TR/html-longdesc/)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [img](/html/elements/img)

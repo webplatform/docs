@@ -26,34 +26,34 @@ tags:
 uri: dom/Element/getAttribute
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the value of the content attribute.
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var attributeValue = element.getAttribute(name);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The name of the attribute.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The value of the attribute, or null if it does not exist.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows the difference between a URL attribute which is using a content attribute (value from **getAttribute**) and a DOM attribute (property).
 
@@ -83,11 +83,11 @@ The following example shows the difference between a URL attribute which is usin
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/getAttribute8.htm)
 
-## <span>Usage</span>
+## Usage
 
      Use this method to get the value of a content attribute of an element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Document Object Model (DOM) Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
@@ -101,9 +101,9 @@ The following example shows the difference between a URL attribute which is usin
 [DOM](http://dom.spec.whatwg.org/)
 :   Living Standard
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `removeAttribute`
 -   `setAttribute`

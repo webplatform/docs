@@ -28,11 +28,11 @@ todo_broken_links:
 uri: css/properties/text-transform
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property transforms text for styling purposes. (It has no effect on the underlying content.)
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -58,7 +58,7 @@ Animatable
 Percentages
 :   no
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-transform: capitalize`
 -   `text-transform: full-width`
@@ -66,7 +66,7 @@ Percentages
 -   `text-transform: none`
 -   `text-transform: uppercase`
 
-## <span>Values</span>
+## Values
 
 none
 :   Default. Text is not transformed.
@@ -83,7 +83,7 @@ lowercase
 full-width
 :   Puts all characters in fullwidth form. If the character does not have a corresponding fullwidth form, it is left as is. This value is typically used to typeset Latin characters and digits like ideographic characters.
 
-## <span>Examples</span>
+## Examples
 
 Examples using different values for text-transform
 
@@ -137,24 +137,24 @@ body {
 
 [View live example](http://code.webplatform.org/gist/5651033)
 
-## <span>Notes</span>
+## Notes
 
 When using text-transform: capitalize; authors should not expect capitalize to follow language-specific titlecasing conventions (such as skipping articles in English).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/)
 :   W3C Last Call Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 <http://www.w3.org/TR/CSS2/text.html#caps-prop>
 
 <http://www.w3.org/wiki/CSS/Properties/text-transform>
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

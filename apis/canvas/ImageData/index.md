@@ -12,11 +12,11 @@ tags:
 uri: apis/canvas/ImageData
 
 ---
-## <span>Summary</span>
+## Summary
 
 The ImageData object of the canvas API.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -30,15 +30,15 @@ API Name
 [width](/apis/canvas/ImageData/width)
 :   The number of physical device pixels per row in the image data.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

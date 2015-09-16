@@ -20,11 +20,11 @@ tags:
 uri: css/properties/text-rendering
 
 ---
-## <span>Summary</span>
+## Summary
 
 The text-rendering CSS property provides information to the browser about how to optimize when rendering text. Options are: legibility, speed or geometric precision.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -50,14 +50,14 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-rendering: auto`
 -   `text-rendering: geometricPrecision`
 -   `text-rendering: optimizeLegibility`
 -   `text-rendering: optimizeSpeed`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Indicates that the browser should choose the most appropriate method between speed, legibility and geometric precision, but favors legibility over speed and geometric precision.
@@ -73,7 +73,7 @@ geometricPrecision
 
 This setting can be helpful when using kerning, which does often not scale linearly and can make text using such fonts look good.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* The user agent will decide how to optimize text for speed, legibility and geometric precision. */
@@ -97,26 +97,26 @@ body {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Gecko note:
 
 In Gecko browsers there is a way to set the threshold value for the auto keyword by changing the preference in browser.display.auto\_quality\_min\_font\_size. By default it is set to 20px. On Gecko 2.0 (Firefox 4 / Thunderbird 3.3 / SeaMonkey 2.1) the optimizeSpeed option has no effect because there is no faster way of rendering text than the standard code already does. See bug [bug 595688](https://bugzilla.mozilla.org/show_bug.cgi?id=595688) for more details on that.
 
-## <span>Notes</span>
+## Notes
 
 The property is a SVG property not specified in any CSS standard yet. However, user agents including Gecko and WebKit browsers let you apply this property to HTML and XML content on Windows, Mac OS X and Linux via CSS.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/)
 :   W3C Last Call Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Font</span>
+#### CSS Font
 
 -   [font-family](/css/properties/font-family)
 
@@ -138,7 +138,7 @@ The property is a SVG property not specified in any CSS standard yet. However, u
 
 -   [user-modify](/css/properties/user-modify)
 
-#### <span>CSS Attributes</span>
+#### CSS Attributes
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -176,7 +176,7 @@ The property is a SVG property not specified in any CSS standard yet. However, u
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

@@ -11,11 +11,11 @@ tags:
 uri: 'tutorials/styling xml with css'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article shows how you can use CSS to style XML data.
 
-### <span>Information: XML data</span>
+### Information: XML data
 
 **XML** (eXtensible Markup Language) is a general-purpose language for any kind of structured data.
 
@@ -23,7 +23,7 @@ By default, your Mozilla browser displays XML in a format very similar to the or
 
 But by linking a CSS stylesheet with the XML document, you can define other ways to display it. To do this, your stylesheet uses rules that map tags in the XML document to the display types used by HTML.
 
-#### <span>Example</span>
+#### Example
 
 For example, you have data in an XML document uses `<INFO>` tags. You want the document's INFO elements to be displayed like HTML paragraphs.
 
@@ -46,7 +46,7 @@ Add your own style rules that specify the font, spacing and other details in the
 
 For the full list of display types, see [the display property](/css/properties/display). Using CSS alone, the structure of the display must be the same as the structure of the document. Other technologies can modify the structure of the display—for example, XBL can add content, and JavaScript can modify the DOM.
 
-### <span>Action: An XML demonstration</span>
+### Action: An XML demonstration
 
 1.  Make a new XML file, `doc9.xml`. Copy and paste the content from here, making sure that you scroll to get all of it:
 
@@ -157,8 +157,8 @@ For the full list of display types, see [the display property](/css/properties/d
 -   The superscript 2 (in "million km²") a Unicode character, coded as `\B2` in the CSS file.
 -   The heading, "Oceans", has a negative top margin, moving it up so it is displayed on top of the border.
 
-## <span>See also</span>
+## See also
 
-## <span>Exercise question</span>
+## Exercise question
 
 Change the stylesheet so that it displays the document as a table.

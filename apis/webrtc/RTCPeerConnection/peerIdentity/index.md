@@ -22,13 +22,13 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/peerIdentity
 
 ---
-## <span>Summary</span>
+## Summary
 
 Contains the peer identity assertion information if an identity assertion was provided and verified.
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,7 +36,7 @@ Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis
 var result = element.peerIdentity;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type RTCIdentityAssertionRTCIdentityAssertion
 
@@ -45,7 +45,7 @@ The RTCIdentityAssertion object has two string members:
 -   idp - the domain name representing the identity provider
 -   name - the name of the verified peer identity
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to consume identity assertions.
 
@@ -56,6 +56,6 @@ pc.onidentityresult = function(result) {
 };
 ```
 
-## <span>Notes</span>
+## Notes
 
 The identity system is designed so that applications need not take any special action in order for users to generate and verify identity assertions; if a user has configured an IdP into their browser, then the browser will automatically request/generate assertions and the other side will automatically verify them and display the results.

@@ -5,13 +5,13 @@ uri: 'guides/html text es'
 ---
 **Nota: Este artículo no se ha revisado.**
 
-## <span>Introducción</span>
+## Introducción
 
 En este apartado explicaremos los conceptos básicos del uso de HTML para describir el significado del contenido dentro del cuerpo de vuestro documento.
 
 Veremos elementos estructurales generales como los títulos y los párrafos y la incrustación de citas y código. Después también veremos el contenido en línea, como por ejemplo las citas cortas y el énfasis, y acabaremos con un análisis rápido del contenido presentacional anticuado.
 
-## <span>El espacio: la última frontera</span>
+## El espacio: la última frontera
 
 Una cuestión muy importante que queremos tratar antes de empezar a hablar sobre el texto es la del espacio, y concretamente la del espacio entre palabras. Cuando se escribe el HTML, el documento fuente contendrá lo que se conoce como "espacios en blanco", que son los caracteres del archivo que sirven para separar el texto. El carácter de espacio más habitual es el que se obtiene al pulsar la barra espaciadora, pero hay otros, como el tabulador y la marca entre dos líneas independientes de un documento (conocido como retorno o línea nueva).
 
@@ -34,11 +34,11 @@ Por ejemplo, un navegador interpretaría lo siguiente:
 
 Esto puede ser una fuente de confusión para los nuevos autores de un documento HTML, quienes pueden tratar de rellenar el texto con espacios adicionales para lograr la sangría deseada, para conseguir más espacio después de un punto entre oraciones o para introducir más espacio vertical entre los párrafos. Influir en el diseño visual de vuestros documentos no es algo que se logre desde el código HTML, sino que se logra a través de CSS.
 
-## <span>Elementos de bloque</span>
+## Elementos de bloque
 
 En este subapartado explicaremos la sintaxis y el uso de los elementos de bloque más frecuentes utilizados para formatear texto.
 
-### <span>Títulos de sección de página</span>
+### Títulos de sección de página
 
 Una vez que hayáis dividido la página en secciones lógicas, cada una de estas secciones debería ir introducida por un título adecuado. De ello se habla con más detalle en el apartado Qué necesita una buena página web.
 
@@ -62,7 +62,7 @@ Un buen ejemplo de una estructura de títulos, utilizando este documento como pl
 […y así sucesivamente…]
 ```
 
-### <span>Párrafos genéricos</span>
+### Párrafos genéricos
 
 El párrafo es el componente básico de la mayoría de los documentos. En HTML, un párrafo se representa con el elemento p, que no tiene ningún atributo especial.
 
@@ -76,7 +76,7 @@ Por ejemplo:
 
 Un párrafo es un conjunto de una o más frases, igual que en los periódicos y libros. En la web es una buena idea utilizar el elemento de párrafo para estos conjuntos de frases y no para cualquier parte aleatoria de texto de la página. Si son sólo unas cuantas palabras y no una frase propiamente dicha, entonces quizá sería mejor no etiquetarlo como un párrafo.
 
-### <span>Citar otras fuentes</span>
+### Citar otras fuentes
 
 A menudo, los artículos, los apuntes de bloques y los documentos de referencia citan total o parcialmente algún otro documento. En el HTML, estas citas se marcan con el elemento `<blockquote>` para citas largas, como frases enteras, párrafos, listas o similares.
 
@@ -105,7 +105,7 @@ HTML 4.01 es la soló versión de HTML debes usar cuando estás creando una pág
 
 El atributo `cite` no hace nada independiente, pero es útil para tener un registro de el origen de la cita en la misma pagina de la cita.
 
-### <span>Texto preformateado</span>
+### Texto preformateado
 
 Cualquier texto en el que el formato y el espacio en blanco (podéis ver más arriba) sean importantes se debería etiquetar con el elemento `pre`.
 
@@ -131,11 +131,11 @@ sub slurp {
 
  El uso de `<code>` que se hace en este ejemplo se explicará en el apartado sobre los elementos semánticos menos conocidos, que encontraremos más adelante en este mismo módulo.
 
-## <span>Elementos en línea</span>
+## Elementos en línea
 
 En este subapartado explicaremos la sintaxis y el uso de los elementos en línea más frecuentes utilizados para formatear texto.
 
-### <span>Citas breves</span>
+### Citas breves
 
 Las citas breves que se utilizan en una frase o párrafo normal se ponen en el elemento `<q>`. Igual que el elemento `<blockquote>`, éste puede contener un atributo `cite`, que indica la página de Internet en la que se puede encontrar la cita.
 
@@ -148,7 +148,7 @@ Un ejemplo de `<q>` en acción:
       <q lang="fr">c'est la vie</q> como los francés dicen.</p>
 ```
 
-### <span>Énfasis</span>
+### Énfasis
 
 El HTML contiene dos métodos para indicar que el texto de su interior debe aparecer enfatizado delante del usuario, como por ejemplo los mensajes de error, las advertencias o las notas.
 
@@ -167,7 +167,7 @@ Como en el ejemplo siguiente:
  o lo explotaría - <strong>matando todo</strong></em>.</p>
 ```
 
-### <span>Texto en cursiva</span>
+### Texto en cursiva
 
 Normalmente se cree que la *cursiva* no describe el significado y que, por lo tanto, el elemento `<i>` no se debe utilizar (igual que muchos otros elementos presentacionales descritos en el subapartado siguiente).
 
@@ -177,7 +177,7 @@ La razón es que la cursiva indica que el texto es especial y el contexto indica
 
 Como el CSS puede modificar el elemento `<i>` a fin de que no sea cursiva, en este contexto hay que interpretar el significado de "cursiva" fundamentalmente como "algo un tanto diferente". Yo no lo considero correcto, personalmente hablando, pero hay precedentes suficientes para utilizarlo de esta manera.
 
-## <span>Elementos presentacionales: no utilizar nunca</span>
+## Elementos presentacionales: no utilizar nunca
 
 La especificación de HTML incluye varios elementos que se describen de manera general como "presentacionales", ya que sólo especifican qué aspecto debe tener el texto que contienen, pero no qué significan
 
@@ -185,26 +185,26 @@ La especificación ha etiquetado algunos de estos elementos como desaprobados. E
 
 Aquí los describiremos brevemente, pero hay que tener en cuenta que esta explicación tiene casi exclusivamente un interés puramente histórico; estos elementos no se deben utilizar nunca en ninguna página web moderna. El efecto de todos estos elementos se debe conseguir de alguna otra manera, que se describirá en otros dos apartados: "Estilos de texto con el CSS" y "Elementos semánticos menos conocidos".
 
-### <span>`<font face="..." size="...">`</span>
+### `<font face="..." size="...">`
 
 El navegador mostrará el texto en estos elementos utilizando un tipo de letra diferente del tipo por defecto; los tipos de letra, sin embargo, se deben definir con CSS.
 
-### <span>`<s>` y `<strike>`</span>
+### `<s>` y `<strike>`
 
 El texto aparece rayado con una línea que lo atraviesa; si es sólo un efecto presentacional, este efecto se debería conseguir con CSS. Además, si el texto se quiere marcar como suprimido o no deseado, se debería etiquetar con el elemento del que se describe más adelante.
 
-### <span>`<u>`</span>
+### `<u>`
 
 El texto se subraya; es casi siempre un efecto visual y se debería conseguir con el CSS.
 
-### <span>`<tt>`</span>
+### `<tt>`
 
 El texto se presenta en un tipo de letra de "teletipo" o de ancho fijo; este efecto se debería conseguir con el CSS o con algún elemento semántico más apropiado, como por ejemplo `<pre>`, tal como se ha visto anteriormente.
 
-### <span>`<big>` y `<small>`</span>
+### `<big>` y `<small>`
 
 Se ajusta el tamaño del texto; se debería conseguir con el CSS.
 
-## <span>Resumen</span>
+## Resumen
 
 En este apartado hemos hablado de algunos de los elementos más comunes que se utilizan para etiquetar contenido textual. En el siguiente apartado hablaremos de otro tipo de contenido: las listas.

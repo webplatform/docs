@@ -12,11 +12,11 @@ tags:
 uri: dom/MouseEvent/mouseup
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fires when the user releases a mouse button while the mouse is over the object.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -72,21 +72,21 @@ Invoke a context menu (in combination with the right mouse button, if supported)
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Use the **button** property to determine which mouse button is pressed. Initiates any action associated with this event. To invoke this event, do one of the following:
 
 -   Press and release a mouse button.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

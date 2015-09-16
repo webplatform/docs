@@ -22,11 +22,11 @@ tags:
 uri: css/properties/marquee-speed
 
 ---
-## <span>Summary</span>
+## Summary
 
 The marquee-speed determines how fast the marquee content scrolls.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -52,13 +52,13 @@ Animatable
 Percentages
 :   n/a
 
-## <span>Syntax</span>
+## Syntax
 
 -   `marquee-speed: fast`
 -   `marquee-speed: normal`
 -   `marquee-speed: slow`
 
-## <span>Values</span>
+## Values
 
 slow
 :   slower than normal
@@ -69,7 +69,7 @@ normal
 fast
 :   faster than normal
 
-## <span>Examples</span>
+## Examples
 
 A basic example on how to use marquee-speed.
 
@@ -85,11 +85,11 @@ h1 {
 
 [View live example](http://code.webplatform.org/gist/6948165)
 
-## <span>Notes</span>
+## Notes
 
 The actual speed depends on the UA and the type of content.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Marquee Module Level 3](http://www.w3.org/TR/css3-marquee/#marquee-speed)
 :   Candidate Recommendation

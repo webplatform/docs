@@ -23,11 +23,11 @@ todo_broken_links:
 uri: html/elements/progress
 
 ---
-## <span>Summary</span>
+## Summary
 
 The HTML &lt;progress&gt; element represents the completion progress of a task.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLProgressElement](/w/index.php?title=dom/HTMLProgressElement&action=edit&redlink=1)
@@ -68,7 +68,7 @@ The HTML `<progress>` element is a number in the range zero to a maximum, giving
 
 The content of the **progress** element should represent the set min/max/value attributes in human readable form. This will be picked up by assistive technologies as well as act as a fallback for browsers not supporting the element.
 
-### <span>Attributes</span>
+### Attributes
 
 This element supports the HTML5 [global attributes](/html/global_attributes).
 
@@ -77,7 +77,7 @@ value
 max
 :   How much work the task requires in total. This is optional, if it's not set then [value](#attribute-value) is a percentage.
 
-## <span>Examples</span>
+## Examples
 
 Example of a basic progress element
 
@@ -121,11 +121,11 @@ Progress element without value
 
 [View live example](http://code.webplatform.org/gist/6365909)
 
-## <span>Usage</span>
+## Usage
 
      When the value attribute is omitted, the <progress> element becomes indeterminate, that is, it shows activity but not how much progress has actually been made.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-progress-element)
 :   W3C Working Draft
@@ -133,8 +133,8 @@ Progress element without value
 [HTML 5](http://www.w3.org/TR/html5/forms.html#the-progress-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [HTML5 meter element](/html/elements/meter)

@@ -20,11 +20,11 @@ tags:
 uri: css/properties/mask-image
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property sets the mask image or the mask source of an element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -50,7 +50,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `mask-image: <child-selector>`
 -   `mask-image: <image>`
@@ -58,7 +58,7 @@ Percentages
 -   `mask-image: child`
 -   `mask-image: none`
 
-## <span>Values</span>
+## Values
 
 none
 :   Counts as an image layer but does not mask the element.
@@ -75,7 +75,7 @@ child
 \<child-selector\>
 :   A functional notation accepting a comma-separated list of compound selectors that represents the first matching child \<mask\> element in DOM tree order.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* CSS gradient */
@@ -88,7 +88,7 @@ p { mask-image: none }
 div { mask-image: url(dot-mask.png) }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Masking Level 1](https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html)
 :   W3C Editor's Draft

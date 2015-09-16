@@ -20,21 +20,21 @@ tags:
 uri: apis/webaudio/AudioNode/disconnect
 
 ---
-## <span>Summary</span>
+## Summary
 
 Disconnects an AudioNode from another that it is already connected to.
 
 Method of [apis/webaudio/AudioNode](/apis/webaudio/AudioNode)[apis/webaudio/AudioNode](/apis/webaudio/AudioNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = AudioNode.disconnect(output);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>output</span>
+### output
 
  Data-type
 :   unsigned long
@@ -43,18 +43,18 @@ var  = AudioNode.disconnect(output);
 
 An index describing which output of the [**AudioNode**](/apis/webaudio/AudioNode) to disconnect. An out-of-bound value throws an exception.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 oscillator.connect(audioCtx.destination);
 oscillator.disconnect();
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

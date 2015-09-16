@@ -11,11 +11,11 @@ tags:
 uri: javascript/Number/toFixed
 
 ---
-## <span>Summary</span>
+## Summary
 
 The toFixed() method formats a number to fixed-point notation (decimal).
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -24,13 +24,13 @@ The toFixed() method formats a number to fixed-point notation (decimal).
 **fractionDigits**
 :   Optional. The number of digits after the decimal point. Must be in the range 0 - 20, inclusive. Defaults to 0.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns a string representation of a number in fixed-point notation, containing fractionDigits digits after the decimal point.
 
 If fractionDigits is not supplied or **undefined** , the default value is 0.
 
-## <span>Examples</span>
+## Examples
 
 Using `toFixed` to format the decimal presentation of a number.
 
@@ -62,30 +62,30 @@ pie.toFixed(10);
 // Returns: "-3.14"
 ```
 
-## <span>Remarks</span>
+## Remarks
 
-### <span>Throws</span>
+### Throws
 
 [`RangeError`](/javascript/Error) when a *fractionDigits* outside the bounds of 0 - 20 (inclusive) was given.
 
-## <span>Notes</span>
+## Notes
 
 -   `toFixed(3.9)` will be treated as `toFixed(3)`.
 -   If number is greater than `1e+21`, `toFixed()` calls [`toString()`](/javascript/Number/toString) internally and returns a string in exponential notation.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [toExponential Method (Number)](/javascript/Number/toExponential)
 -   [toPrecision Method (Number)](/javascript/Number/toPrecision)
 -   [toString Method (Number)](/javascript/Number/toString)
 
-### <span>External resources</span>
+### External resources
 
 -   [toFixed(), by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
 
-### <span>Specification</span>
+### Specification
 
 [15.7.4.5 Number.prototype.toFixed(fractionDigits)](http://www.ecma-international.org/ecma-262/5.1/#sec-15.7.4.5)
 

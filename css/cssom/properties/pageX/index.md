@@ -34,13 +34,13 @@ todo_broken_links:
 uri: css/cssom/properties/pageX
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the x-coordinate of the mouse cursor, relative to the upper-left corner of the page.
 
 Property of [dom/objects/MouseEvent](/w/index.php?title=dom/objects/MouseEvent&action=edit&redlink=1)[dom/objects/MouseEvent](/w/index.php?title=dom/objects/MouseEvent&action=edit&redlink=1)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -48,7 +48,7 @@ Property of [dom/objects/MouseEvent](/w/index.php?title=dom/objects/MouseEvent&a
 var xCoordinate = event.pageX;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -56,22 +56,22 @@ The X coordinate of the mouse cursor.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 The **pageX** property is equivalent to the [**clientX**](/w/index.php?title=dom/properties/clientX&action=edit&redlink=1) value plus the [**scrollLeft**](/w/index.php?title=dom/properties/scrollLeft&action=edit&redlink=1) value of the document, as the following code example shows.
 
     var pageX = event.clientX + document.documentElement.scrollLeft;
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSSOM View](http://www.w3.org/TR/cssom-view/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -217,7 +217,7 @@ The **pageX** property is equivalent to the [**clientX**](/w/index.php?title=dom
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `DragEvent`
 -   `MouseWheelEvent`

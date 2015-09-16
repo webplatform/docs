@@ -9,11 +9,11 @@ tags:
 uri: css/cssom/methods
 
 ---
-## <span>Summary</span>
+## Summary
 
 Listing page for css/cssom methods.
 
-## <span>Subpages</span>
+## Subpages
 
 <table class="mw-prefixindex-list-table">
 <tr>

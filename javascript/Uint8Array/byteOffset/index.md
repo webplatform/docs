@@ -10,17 +10,17 @@ tags:
 uri: javascript/Uint8Array/byteOffset
 
 ---
-## <span>Summary</span>
+## Summary
 
 Read-only. The offset of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     var arrayOffset = uint8Array.byteOffset;
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to get the offset of the array.
 

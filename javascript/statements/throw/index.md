@@ -10,17 +10,17 @@ tags:
 uri: javascript/statements/throw
 
 ---
-## <span>Summary</span>
+## Summary
 
 Generates an error condition that can be handled by a try...catch...finally statement.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     throw exception
 
-## <span>Examples</span>
+## Examples
 
 The following example throws an error inside a try block, and it is caught in the catch block.
 
@@ -35,13 +35,13 @@ try {
  // Output: x equals zero.
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required exception argument can be any expression.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [try...catch...finally Statement](/javascript/statements/try_catch_finally)
 -   [Error Object](/javascript/Error)

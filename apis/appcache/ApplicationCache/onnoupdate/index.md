@@ -21,24 +21,24 @@ tags:
 uri: apis/appcache/ApplicationCache/onnoupdate
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates the manifest has not changed.
 
 Property of [apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)[apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = window.applicationCache.onnoupdate;
 window.applicationCache.onnoupdate = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type nullnull
 
-## <span>Examples</span>
+## Examples
 
 If the currently-cached copy of the manifest is up-to-date, the browser sends a noupdate event to the applicationCache object, and the update process is complete. Note that if you change any cached resources on the server, you must also change the manifest file itself, so that the browser knows it needs to fetch all the resources again.
 
@@ -48,7 +48,7 @@ window.applicationCache.addEventListener('noupdate',function () {
 }, false);
 ```
 
-## <span>Notes</span>
+## Notes
 
 If there is more than one event, the **onupdate** event will be the last one in the sequence. Alternatively, you could use an anonymous delegate function such as
 

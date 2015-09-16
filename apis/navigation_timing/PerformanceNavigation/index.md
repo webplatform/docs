@@ -13,11 +13,11 @@ tags:
 uri: 'apis/navigation timing/PerformanceNavigation'
 
 ---
-## <span>Summary</span>
+## Summary
 
 An interface that provides Web applications with navigation-related information.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -28,15 +28,15 @@ API Name
 [type](/apis/navigation_timing/PerformanceNavigation/type)
 :   Returns the type of the last non-redirect navigation in the current browsing context. See Notes.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Navigation Timing Specification](http://w3c-test.org/webperf/specs/NavigationTiming/)
 :   W3C Editor's Draft

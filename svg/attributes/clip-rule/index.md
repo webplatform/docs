@@ -29,22 +29,22 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
     clip-rule: nonzero | evenodd | inherit
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Clipping, Masking and Compositing](http://go.microsoft.com/fwlink/p/?linkid=199810), Section 14.3.5
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Scalable Vector Graphics (SVG) 1.1](http://www.w3.org/TR/SVG/masking.html#ClipRuleProperty)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [fill-rule](/svg/attributes/fill-rule)

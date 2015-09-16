@@ -22,11 +22,11 @@ tags:
 uri: css/properties/border-image-width
 
 ---
-## <span>Summary</span>
+## Summary
 
 The border-image-width CSS property defines the offset to use for dividing the border image in nine parts, the top-left corner, central top edge, top-right-corner, central right edge, bottom-right corner, central bottom edge, bottom-left corner, and central right edge. They represent inward distance from the top, right, bottom, and left edges.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -52,14 +52,14 @@ Animatable
 Percentages
 :   Relative to the width, for horizontal effects, or the height, for vertical effects, of the border image area.
 
-## <span>Syntax</span>
+## Syntax
 
 -   `border-image-width: <length>`
 -   `border-image-width: <number>`
 -   `border-image-width: <percentage>`
 -   `border-image-width: auto`
 
-## <span>Values</span>
+## Values
 
 \<length\>
 :   Represents the length of the image slice. It can be an absolute or relative length. This length must not be negative.
@@ -73,7 +73,7 @@ Percentages
 auto
 :   Indicates that the width, or height, of the image size must be the intrinsic size of that dimension.
 
-## <span>Examples</span>
+## Examples
 
 A simple example showing multiple \<div\>s, identical in style except that they have different border-image-width properties applied to them.
 
@@ -118,22 +118,22 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 
 [View live example](http://code.webplatform.org/gist/5621387)
 
-## <span>Usage</span>
+## Usage
 
      * Up to four different widths can be specified, in the following order: top, right, bottom, left.
 
 -   If one width is specified, it is used for all four sides. If two widths are specified, the first is used for the top and bottom borders, and the second is used for left and right borders. If three widths are specified, they are used for top, right/left, and bottom borders, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#the-border-image-width)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Border</span>
+#### Border
 
 -   [border](/css/properties/border)
 
@@ -193,6 +193,6 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 
 -   [border-width](/css/properties/border-width)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Decorating fancy borders with CSS border-image](/tutorials/css_border_image)

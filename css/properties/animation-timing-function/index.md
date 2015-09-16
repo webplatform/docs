@@ -23,11 +23,11 @@ tags:
 uri: css/properties/animation-timing-function
 
 ---
-## <span>Summary</span>
+## Summary
 
 Describes how the animation will progress over one cycle of its duration.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `ease`
@@ -53,7 +53,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `animation-timing-function: cubic-bezier(0,0,1,1)`
 -   `animation-timing-function: ease`
@@ -65,7 +65,7 @@ Percentages
 -   `animation-timing-function: step-start`
 -   `animation-timing-function: steps(3, end)`
 
-## <span>Values</span>
+## Values
 
 ease
 :   Default. The animation begins and ends gradually; this value is equivalent to `cubic-bezier(0.25,0.1,0.25,1)`.
@@ -94,7 +94,7 @@ step-start
 step-end
 :   Equivalent to steps(1,end).
 
-## <span>Examples</span>
+## Examples
 
 A fast-moving sequence uses linear timing to highlight an abrupt transition within the keyframes, from a moving to a stopped state:
 
@@ -118,7 +118,7 @@ div {
 
 [View live example](http://code.webplatform.org/gist/7011239)
 
-## <span>Usage</span>
+## Usage
 
      The timing functions supported by animation-timing-function are defined by transition-timing-function.
 
@@ -126,14 +126,14 @@ If `animation-timing-function` specifies more timing functions than there are va
 
 For a keyframed animation, the **animation-timing-function** applies between keyframes, not over the entire animation. For example, in the case of an **ease-in-out** timing function, an animation will ease in at the start of the keyframe and ease out at the end of the keyframe. An **animation-timing-function** defined within a keyframe block applies to that keyframe, otherwise the timing function specified for the animation is used.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Animations](http://www.w3.org/TR/css3-animations/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Making things move with CSS3 animations](/tutorials/css_animations)
 -   [@keyframes](/css/atrules/@keyframes)
@@ -146,6 +146,6 @@ For a keyframed animation, the **animation-timing-function** applies between key
 -   [animation-name](/css/properties/animation-name)
 -   [animation-play-state](/css/properties/animation-play-state)
 
-### <span>External resources</span>
+### External resources
 
 -   A [detailed description of timing functions](https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function) (MDN)

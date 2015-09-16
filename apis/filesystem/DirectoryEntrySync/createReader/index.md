@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/DirectoryEntrySync/createReader
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a new DirectoryReaderSync to read EntrySyncs from this DirectorySync.
 
@@ -30,21 +30,21 @@ Creates a new DirectoryReaderSync to read EntrySyncs from this DirectorySync.
 
 Method of [apis/filesystem/DirectoryEntrySync](/apis/filesystem/DirectoryEntrySync)[apis/filesystem/DirectoryEntrySync](/apis/filesystem/DirectoryEntrySync)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = DirectoryEntrySync.createReader();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 DirectoryReaderSync
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

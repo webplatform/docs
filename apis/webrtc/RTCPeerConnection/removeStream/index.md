@@ -21,21 +21,21 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/removeStream
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes the given stream from the localStreams array in the RTCPeerConnection and fires the negotiationneeded event.
 
 Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = .removeStream();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 

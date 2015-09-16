@@ -11,20 +11,20 @@ tags:
 uri: svg/properties/maskUnits
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If you do not specify the **maskUnits** property, the effect is the same as if you specify a value of **objectBoundingBox**. For more information, see the [Scalable Vector Graphics (SVG) 1.0 Specification](http://go.microsoft.com/fwlink/p/?linkid=203737) Object bounding box units section.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Clipping, Masking and Compositing](http://go.microsoft.com/fwlink/p/?linkid=199810), Section 14.6.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGMaskElement**](/svg/elements/mask)

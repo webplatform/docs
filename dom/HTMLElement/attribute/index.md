@@ -22,14 +22,14 @@ uri: dom/HTMLElement/attribute
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.attribute;
 element.attribute = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to iterate through the collection of attributes of the specified object, displaying the name and value of the attributes as well as the language of the attribute (HTML or script).
 
@@ -54,20 +54,20 @@ function ShowAttribs(oElem)
 </SCRIPT>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **attributes** collection does not expose the [**style**](/css/cssom/style) object. Use the [**cssText**](/css/cssom/styleSheet/cssText) property of the object's **style** property to retrieve the persistent representation of the cascading styles associated with an object. Unlike other DHTML collections, such as [**children**](/dom/Element/children), the **attributes** collection is static. Modifications to the properties of an object are not automatically reflected by an existing reference to the **attributes** collection of that object.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 3 Core Specification](http://go.microsoft.com/fwlink/p/?linkid=182717), Section 1.4
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `About the W3C Document Object Model`

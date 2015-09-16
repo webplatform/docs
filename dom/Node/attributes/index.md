@@ -23,13 +23,13 @@ tags:
 uri: dom/Node/attributes
 
 ---
-## <span>Summary</span>
+## Summary
 
 Associatve array containing the attributes of node.
 
 Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,23 +37,23 @@ Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 var result = element.attributes;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 NamedNodeMap that allows to access attributes through their names.
 
-## <span>Usage</span>
+## Usage
 
      Retrieve a listing of ALL Nodes of an element, including developer defined attributes and data- prefixed attributes.
 
 The depreciated presentational attributes are datafld, datasrc, marginwidth, marginheight, allowtransparency, vspace, hspace, height, width, align, valign, alink, link, vlink, background, bgcolor, color, fgcolor, border, cellpadding, cellspacing, clear, frameborder, nowrap, scrolling
 
-## <span>Notes</span>
+## Notes
 
 For backwards compatibility first test if an attribute Node is null. Binary attributes may or may not have a value
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Document Object Model (DOM) Level 3 Core Specification](http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-84CF096)
 :   W3C Recommendation

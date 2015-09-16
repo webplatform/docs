@@ -18,42 +18,42 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/strokeText
 
 ---
-## <span>Summary</span>
+## Summary
 
 Renders the given text at the given (x, y) coordinates, ensuring that the text isn't wider than maxWidth (if specified), using the current font, textAlign, and textBaseline values.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  context.strokeText(text, x, y, maxWidth);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>text</span>
+### text
 
  Data-type
 :   String
 
  The text characters to paint on the canvas.
 
-### <span>x</span>
+### x
 
  Data-type
 :   Number
 
  The horizontal coordinate to start painting the text relative to the canvas.
 
-### <span>y</span>
+### y
 
  Data-type
 :   Number
 
  The vertical coordinate of the baseline for the text to start painting, relative to the canvas.
 
-### <span>maxWidth</span>
+### maxWidth
 
  Data-type
 :   Number
@@ -62,11 +62,11 @@ Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingCon
 
 The maximum possible text width. If the value is less than [width](/apis/canvas/TextMetrics/width), the text is scaled to fit.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 Short example of drawing an outline text
 
@@ -111,7 +111,7 @@ Full example of drawing an outline text
 </html>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

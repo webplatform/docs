@@ -22,13 +22,13 @@ tags:
 uri: apis/geolocation/Coordinates/heading
 
 ---
-## <span>Summary</span>
+## Summary
 
 Denotes the direction of travel of the hosting device specified in degrees, where 0° ≤ heading &lt; 360°, counting clockwise relative to the true north. If the implementation cannot provide heading information, the value of this attribute must be null. If the hosting device is stationary (i.e., the value of the speed attribute is 0), then the value of this attribute must be NaN.
 
 Property of [apis/geolocation/Coordinates](/apis/geolocation/Coordinates)[apis/geolocation/Coordinates](/apis/geolocation/Coordinates)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,11 +36,11 @@ Property of [apis/geolocation/Coordinates](/apis/geolocation/Coordinates)[apis/g
 var result = Coordinates.heading;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 if (position.coords.heading > 87 && position.coords.heading < 93) {
@@ -50,7 +50,7 @@ if (position.coords.heading > 87 && position.coords.heading < 93) {
    }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

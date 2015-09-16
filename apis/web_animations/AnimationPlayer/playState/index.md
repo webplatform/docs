@@ -21,13 +21,13 @@ tags:
 uri: 'apis/web animations/AnimationPlayer/playState'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The play state of this player.
 
 Property of [apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)[apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,7 +35,7 @@ Property of [apis/web\_animations/AnimationPlayer](/apis/web_animations/Animatio
 var currentState = myPlayer.playState;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type enumenum
 

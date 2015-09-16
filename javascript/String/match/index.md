@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/match
 
 ---
-## <span>Summary</span>
+## Summary
 
 Matches a string with a regular expression, and returns an array containing the results of that search.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Matches a string with a regular expression, and returns an array containing the 
 **rgExp**
 :   Required. A regular expression object that contains the regular expression pattern and applicable flags. This can also be a variable name or string literal containing the regular expression pattern and flags.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the match method.
 
@@ -53,7 +53,7 @@ var src = "azcafAJAC";
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 If the **match** method does not find a match, it returns null. If it finds a match, **match** returns an array, and the properties of the global **RegExp** object are updated to reflect the results of the match.
 
@@ -63,9 +63,9 @@ If the global flag ( **g** ) is not set, Element zero of the array contains the 
 
 If the flag **i** is set, the search is not case-sensitive.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [exec Method (Regular Expression)](/javascript/regular_expression/exec)
 -   [RegExp Object](/javascript/RegExp)

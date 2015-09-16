@@ -9,7 +9,7 @@ tags:
 uri: 'x height'
 
 ---
-## <span>x-height</span>
+## x-height
 
 The distance between the baseline and the mean line in a typeface. Typically, this is the height of the lowercase letter "x" in the font, hence its name and the CSS reference unit "ex".
 

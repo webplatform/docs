@@ -24,11 +24,11 @@ tags:
 uri: css/properties/column-rule-style
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the style of the rule between columns. The column-rule-style values are the same as for border-style.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -54,7 +54,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `column-rule-style: dashed`
 -   `column-rule-style: dotted`
@@ -67,7 +67,7 @@ Percentages
 -   `column-rule-style: ridge`
 -   `column-rule-style: solid`
 
-## <span>Values</span>
+## Values
 
 none
 :   Default. No column rule is drawn, regardless of any specified `column-rule-width`. The computed value is set to 0.
@@ -99,7 +99,7 @@ outset
 hidden
 :   Same as `none`.
 
-## <span>Examples</span>
+## Examples
 
 Makes 3 columns with 4px dashed green column-rule.
 
@@ -120,16 +120,16 @@ Makes 3 columns with 4px dashed green column-rule
 
 [View live example](http://code.webplatform.org/gist/6288958)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Multi-Column</span>
+#### Multi-Column
 
 -   [break-after](/css/properties/break-after)
 

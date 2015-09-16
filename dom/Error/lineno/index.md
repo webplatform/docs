@@ -22,7 +22,7 @@ uri: dom/Error/lineno
 
 Property of [dom/Error](/dom/Error)[dom/Error](/dom/Error)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.lineno;
@@ -31,4 +31,4 @@ element.lineno = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax

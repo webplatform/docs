@@ -11,11 +11,11 @@ tags:
 uri: css/functions/scaleZ()
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines a 3D scale transformation by giving a value for the Z-axis.
 
-## <span>Examples</span>
+## Examples
 
 The following code snippet is an example of the **scaleZ** function in use as applied to a square blue [**div**](/html/elements/div) element along with the [**perspective**](/css/functions/perspective()) function (which simulates depth) and the [**rotateX**](/css/functions/rotateX()) function.
 
@@ -25,29 +25,29 @@ div {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The effect of the **scaleZ** function is most evident when used in combination with functions such as the [**perspective**](/css/functions/perspective()) and [**rotate**](/css/functions/rotate()) (and related) functions.
 
-### <span>Syntax</span>
+### Syntax
 
 **scaleZ** `( <scaling-value-z> )`
 
-### <span>Parameters</span>
+### Parameters
 
 *scaling-value-z*
 :   Numerical value by which to scale the specified element in the *z*-direction.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Transforms Module Level 3](http://www.w3.org/TR/css3-transforms/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`

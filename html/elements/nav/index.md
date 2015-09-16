@@ -16,16 +16,16 @@ tags:
 uri: html/elements/nav
 
 ---
-## <span>Summary</span>
+## Summary
 
 The HTML Navigation Element (&lt;nav&gt;) represents a section of navigation links: a page that links to other pages, or to parts within the page
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 The following example uses the **nav** element to indicate that a list contains site navigation links.
 
@@ -40,13 +40,13 @@ The following example uses the **nav** element to indicate that a list contains 
 </nav>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Not all groups of links on a document need to be in a nav element, only sections that consist of major navigation blocks. In particular, it is common for footer elements to have a short list of links to various documents of a site, such as the terms of service, home, and copyright. The footer element alone is sufficient for such cases, and does not require a nav element.
 
 **Note** Some devices and applications (such as screen readers) might use the **nav** element as a way to determine what content on the document to initially skip or provide on request.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-nav-element)
 :   W3C Working Draft
@@ -54,11 +54,11 @@ The following example uses the **nav** element to indicate that a list contains 
 [HTML 5](http://www.w3.org/TR/html5/sections.html#the-nav-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Document Structure</span>
+#### Document Structure
 
 -   [button](/html/elements/button)
 

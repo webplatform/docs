@@ -23,13 +23,13 @@ tags:
 uri: 'apis/resource timing/PerformanceResourceTiming/initiatorType'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a DOMString representing the type of object that initiated the request for the resource. See Return Value.
 
 Property of [apis/resource timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)[apis/resource timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,9 +37,9 @@ Property of [apis/resource timing/PerformanceResourceTiming](/apis/resource_timi
 var result = element.initiatorType;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 DOMString (one of the following):
 
@@ -54,7 +54,7 @@ DOMString (one of the following):
 -   xmlhttprequest: The initiator is a XMLHttpRequest object.
 -   other: The initiator is not of any type listed above.
 
-## <span>Examples</span>
+## Examples
 
 This example assumes an HTML page containing a resource such as \<img src="<https://www.webplatform.org/logo/logo-with-text.png>" /\>
 
@@ -63,7 +63,7 @@ var resources = window.performance.getEntriesByType('resource');
 alert("initiatorType: " + resources[0].initiatorType);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Resource Timing Specification](http://www.w3.org/TR/resource-timing/)
 :   W3C Working Draft

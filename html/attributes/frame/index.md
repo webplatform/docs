@@ -28,7 +28,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the **FRAME** attribute to render different border frames.
 
@@ -41,11 +41,11 @@ This example uses the **FRAME** attribute to render different border frames.
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/frame.htm)
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `table`
 -   `rules`

@@ -20,13 +20,13 @@ tags:
 uri: apis/webaudio/AudioContext/sampleRate
 
 ---
-## <span>Summary</span>
+## Summary
 
 The sample rate, in sample-frames per second, at which the AudioContext handles audio. It is assumed that all AudioNodes in the context run at this rate. In making this assumption, sample-rate converters or varispeed processors are not supported in real-time processing.
 
 Property of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,18 +34,18 @@ Property of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webau
 var result = AudioContext.sampleRate;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
 var mySampleRate = audioCtx.sampleRate;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

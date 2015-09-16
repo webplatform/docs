@@ -22,7 +22,7 @@ tags:
 uri: html/elements/track
 
 ---
-## <span>Summary</span>
+## Summary
 
 The track tag specifies text tracks for media elements (audio and video).
 
@@ -30,27 +30,27 @@ This element is used to specify subtitles, caption files or other files containi
 
 `Track` is new to HTML5 and is not yet supported in any major browser.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLTrackElement](/dom/HTMLTrackElement)
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Members</span>
+### Members
 
 The **track** object has these types of members:
 
 -   [\#events Events]
 -   [\#properties Properties]
 
-#### <span>Events</span>
+#### Events
 
 The **track** object has these events. {
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-track-element)
 :   W3C Working Draft
@@ -58,8 +58,8 @@ The **track** object has these events. {
 [HTML 5](http://www.w3.org/TR/html5/embedded-content-0.html#the-track-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `track object`

@@ -16,12 +16,12 @@ uri: svg/elements/feTurbulence
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 This example shows a simple turbulence filter with a **baseFrequency** value of 0.1 and a [**numOctaves**](/svg/properties/numOctaves) value of 2.
 
@@ -49,9 +49,9 @@ The image will look like this.
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Ken Perlin is the author of a set of formulas that provide a way to display turbulence noise. At the time of this writing, an excellent summary is available at <http://freespace.virgin.net/hugo.elias/models/m_perlin.htm>.
 
@@ -64,13 +64,13 @@ The **SVGFETurbulenceElement** provides the following properties:
 -   [**stitchTiles**](/svg/properties/stitchTiles)
 -   [**type**](/svg/properties/type_(SVGFETurbulenceElement))
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.27
 
-### <span>Members</span>
+### Members
 
 The **SVGFETurbulenceElement** object has these properties:
 
@@ -86,11 +86,11 @@ The **SVGFETurbulenceElement** object has these properties:
 -   [**x**](/svg/properties/x): Gets or sets the x-coordinate value.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 

@@ -11,11 +11,11 @@ tags:
 uri: css/selectors/class
 
 ---
-## <span>Summary</span>
+## Summary
 
 Styles all elements with the specified class.
 
-## <span>Examples</span>
+## Examples
 
 For example, the following style rule matches any [p](/html/elements/p) element whose class attribute has been assigned a space-separated list of values that include the "pastoral" and "marine" class names. This rule matches when class="pastoral aqua marine" but does not match when class="pastoral blue".
 
@@ -25,28 +25,28 @@ For example, the following style rule matches any [p](/html/elements/p) element 
 </style>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The class attribute value must immediately follow the "period" (.) notation. More than one class name can be specified in one style rule; to match a subset of class values, each value must be preceded by a period.
 
-### <span>Syntax</span>
+### Syntax
 
 `<strong/>sel.value {...}`
 
-### <span>Parameters</span>
+### Parameters
 
 *sel*
 :   Selector
 *value*
 :   String that specifies the value of the "class" attribute.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 1.4
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 2 Specification](http://www.w3.org/TR/CSS2/)
 :   W3C Recommendation

@@ -17,47 +17,47 @@ tags:
 uri: dom/Element/releasePointerCapture
 
 ---
-## <span>Summary</span>
+## Summary
 
 Releases a pointer captured by an element (using the setPointerCapture method).
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  element.releasePointerCapture(pointerId);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>pointerId</span>
+### pointerId
 
  Data-type
 :   Number
 
  Identifier of the pointer to be released.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 If the specified pointerId does not match any existing pointers, a [DOMException](/dom/DOMException) is thrown with the name *InvalidPointerId*.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Pointer Events](http://www.w3.org/TR/pointerevents)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Pointer Events</span>
+#### Pointer Events
 
 -   [Pointer Events Primer](/concepts/Pointer_Events)
 

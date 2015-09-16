@@ -12,22 +12,22 @@ tags:
 uri: 'javascript/future reserved words'
 
 ---
-## <span>Summary</span>
+## Summary
 
 In JavaScript, future reserved keywords must not be used as identifiers, even though they have no special meaning in the current version.
 
 For a list of reserved words in JavaScript, see [JavaScript Reserved Words](/javascript/reserved_words).
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Future reserved words</span>
+## Future reserved words
 
 The following are future reserved words:
 
 -   `enum`
 -   `await` (only treated as a reserved word in modules)
 
-## <span>Strict mode future reserved words</span>
+## Strict mode future reserved words
 
 The following are also future reserved words when encountered within [strict mode code](/javascript/directives/use_strict).
 
@@ -38,11 +38,11 @@ The following are also future reserved words when encountered within [strict mod
 -   `protected`
 -   `public`
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Javascript</span>
+#### Javascript
 
 -   [propertyName](/dom/TransitionEvent/propertyName)
 
@@ -52,7 +52,7 @@ The following are also future reserved words when encountered within [strict mod
 
 -   **future reserved words**
 
-### <span>External resources</span>
+### External resources
 
 -   [ECMA-262 6th Edition – Draft August 24, 2014](https://people.mozilla.org/~jorendorff/es6-draft.html)
 

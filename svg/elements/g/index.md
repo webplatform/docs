@@ -21,18 +21,18 @@ todo_broken_links:
 uri: svg/elements/g
 
 ---
-## <span>Summary</span>
+## Summary
 
 The g element (&lt;g&gt;) is a container element for grouping together related graphics elements.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
 The **g** element (\<g\>) groups two or more graphics elements or other **g** elements together to provide document structure. Groups containing the [**desc**](/svg/elements/desc) and [**title**](/svg/elements/title) elements, provide additional semantic information and increase accessibility. When defined inside of a [**defs**](/svg/elements/defs) element and named using the [**id**](/w/index.php?title=svg/attributes/id&action=edit&redlink=1) attribute, groups can be reused.
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, the g element is used to group two elements together. They are then rotated together.
 
@@ -56,17 +56,17 @@ In the following code example, the g element is used to group two elements toget
 </pre>
 [View live example](http://code.webplatform.org/gist/09f7ebf9fa8ed1d9b0d6)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.3
 
-### <span>Members</span>
+### Members
 
 The **SVGGElement** object has these events:
 

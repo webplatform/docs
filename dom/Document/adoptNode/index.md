@@ -24,34 +24,34 @@ tags:
 uri: dom/Document/adoptNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Tries to move a node from one document to the document that the document object displays. It is preferable to use importNode instead.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var element = document.adoptNode(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>element</span>
+### element
 
  Data-type
 :   DOM Node
 
  The element to move.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The node that has been moved, or a null value if the node cannot be moved.
 
-## <span>Examples</span>
+## Examples
 
 The following code example illustrates the **adoptNode** method and shows one way to handle cases where the method fails.
 
@@ -62,7 +62,7 @@ if ( oNode == null )
 parent.appendChild( oNode );
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

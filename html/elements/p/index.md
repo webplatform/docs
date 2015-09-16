@@ -17,18 +17,18 @@ tags:
 uri: html/elements/p
 
 ---
-## <span>Summary</span>
+## Summary
 
 The p (for paragraph) element (&lt;p&gt;) represents a paragraph.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLParagraphElement](/dom/HTMLParagraphElement)
 
 The **p** element cannot contain block-level elements (including p itself).
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **p** element to create a paragraph.
 
@@ -38,7 +38,7 @@ This example uses the **p** element to create a paragraph.
 
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-p-element)
 :   W3C Working Draft
@@ -49,11 +49,11 @@ This example uses the **p** element to create a paragraph.
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-P)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Document Structure</span>
+#### Document Structure
 
 -   [button](/html/elements/button)
 
@@ -71,7 +71,7 @@ This example uses the **p** element to create a paragraph.
 
 -   [section](/html/elements/section)
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 

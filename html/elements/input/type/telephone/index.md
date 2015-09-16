@@ -11,7 +11,7 @@ tags:
 uri: html/elements/input/type/telephone
 
 ---
-## <span>Summary</span>
+## Summary
 
 Duplicate of input[type=&quot;tel&quot;]
 

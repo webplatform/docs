@@ -22,42 +22,42 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/putImageData
 
 ---
-## <span>Summary</span>
+## Summary
 
 Writes data from ImageData structures back to the canvas. If any of the arguments are infinite or NaN, the method must throw a NotSupportedError exception. When the last four arguments are omitted, they are assumed to have the values 0, 0, the width member of the imagedata structure, and the height member of the imagedata structure, respectively.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.putImageData(imagedata, dx, dy, dirtyX, dirtyY, dirtyWidth, dirtyHeight);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>imagedata</span>
+### imagedata
 
  Data-type
 :   any
 
  An *ImageData* object with an image's pixel data.
 
-### <span>dx</span>
+### dx
 
  Data-type
 :   any
 
  The x-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 
-### <span>dy</span>
+### dy
 
  Data-type
 :   any
 
  The y-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 
-### <span>dirtyX</span>
+### dirtyX
 
  Data-type
 :   any
@@ -66,7 +66,7 @@ var object = object.putImageData(imagedata, dx, dy, dirtyX, dirtyY, dirtyWidth, 
 
 The horizontal (x) value, in CSS pixels, where to place the image on the canvas.
 
-### <span>dirtyY</span>
+### dirtyY
 
  Data-type
 :   any
@@ -75,7 +75,7 @@ The horizontal (x) value, in CSS pixels, where to place the image on the canvas.
 
 The vertical (y) value, in CSS pixels, where to place the image on the canvas.
 
-### <span>dirtyWidth</span>
+### dirtyWidth
 
  Data-type
 :   any
@@ -84,7 +84,7 @@ The vertical (y) value, in CSS pixels, where to place the image on the canvas.
 
 The destination width value, in CSS pixels, to use to draw the image to the canvas.
 
-### <span>dirtyHeight</span>
+### dirtyHeight
 
  Data-type
 :   any
@@ -93,7 +93,7 @@ The destination width value, in CSS pixels, to use to draw the image to the canv
 
 The destination height value, in CSS pixels to use to draw the image to the canvas.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -108,7 +108,7 @@ This method can return one of these values.
 |TypeMismatchError|The first parameter is not an CanvasImageData object.|
 |SecurityError|The image is not of the same origin or domain as the destination.|
 
-## <span>Examples</span>
+## Examples
 
 This example draws a solid color filled rectangle, then uses getImageData to retrieve part of the rectangle, and then uses putImageData to place that retrieved data elsewhere on the canvas.
 
@@ -125,11 +125,11 @@ ctxt.putImageData(imgdata, 100, 55);
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 You can specify an optional rectangle to show only those pixels. This "dirty" rectangle refers to a section of pixels to paint. You can use this option to specify areas on an image that might change without repainting the complete image.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

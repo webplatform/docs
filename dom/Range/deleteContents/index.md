@@ -23,19 +23,19 @@ tags:
 uri: dom/Range/deleteContents
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes all contents within a selected range.
 
 Method of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.deleteContents();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -49,7 +49,7 @@ This method can return one of these values.
 |InvalidStateError|detach has been invoked on the object.|
 |W3Exception\_DOM\_NO\_MODIFICATION\_ALLOWED\_ERR|Some of the contents or nodes are read-only.|
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var range = document.createRange();
@@ -57,21 +57,21 @@ range.selectNode(document.getElementsByTagName("div").item(0));
 range.deleteContents();
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If the deleted range contains closing or opening tags, the remaining tags are completed.
 
-### <span>Syntax</span>
+### Syntax
 
 Range.deleteContents();
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-range-deletecontents)
 :   Living Standard

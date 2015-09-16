@@ -22,11 +22,11 @@ tags:
 uri: css/properties/hyphenate-limit-lines
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates the maximum number of successive hyphenated lines in an element. The ‘no-limit’ value means that there is no limit.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `no-limit`
@@ -52,12 +52,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `hyphenate-limit-lines: integer`
 -   `hyphenate-limit-lines: no-limit`
 
-## <span>Values</span>
+## Values
 
 no-limit
 :   Indicates that hyphenation is not limited based on the number of consecutive hyphenated lines. In the flow above the consecutive hyphenated lines limit would be an infinitely large positive number.
@@ -69,23 +69,23 @@ For instance, if `2`, then no more than 2 successive lines may end with a hyphen
 
 Negative values are not allowed.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* Do not allow more than 2 successive hyphenated lines */
 hyphenate-limit-lines: 2;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Level 4](http://dev.w3.org/csswg/css-text-4/#hyphenate-line-limits)
 :   W3C Editor’s Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -165,6 +165,6 @@ hyphenate-limit-lines: 2;
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`

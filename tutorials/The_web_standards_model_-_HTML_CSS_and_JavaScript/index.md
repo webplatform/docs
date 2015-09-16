@@ -10,11 +10,11 @@ todo_broken_links:
 uri: 'tutorials/The web standards model - HTML CSS and JavaScript'
 
 ---
-## <span>Introduction</span>
+## Introduction
 
 Continuing with our course, the [basic building blocks of the Web](/w/index.php?title=How_does_the_Internet_work&action=edit&redlink=1) — [HTML](/html), [CSS](/css) and [JavaScript](http://www.w3.org/community/webed/wiki/What_can_you_do_with_JavaScript) have been introduced. Now it’s time to dig a little deeper and to look at each of these — what they do, and how the three interact with each other to create a web site.
 
-## <span>Why separate?</span>
+## Why separate?
 
 That’s usually the first question that gets asked about web standards. You can accomplish content, styling and layout just using HTML — font elements for style and HTML tables for layout, so why should we bother with this XHTML/CSS stuff? Tables for layout, etc. is how it used to be done in the bad old days of web design, and many people still do it like this (although you really shouldn’t), which is one of the reasons why we created this course in the first place. We won’t be covering such methods in this course. Here are the most compelling reasons for using CSS and HTML over outdated methods:
 
@@ -25,7 +25,7 @@ That’s usually the first question that gets asked about web standards. You can
 5.  **Web crawlers/search engines**: Chances are you will want your pages to be easy to find by searching on Google, or other search engines. A search engine uses a “crawler”, which is a specialized piece of software, to read through your pages. If that crawler has trouble finding the content of your pages, or mis-interprets what’s important because you haven’t defined headings as headings and so on, then your rankings in relevant search results will probably suffer.
 6.  **It’s just good practice**: This is a bit of a “because I said so” reason, but talk to any professional standards-aware web developer or designer, and they’ll tell you that separating content, style, and behaviour is the best way to develop a web application.
 
-## <span>Markup, the basis of every page</span>
+## Markup, the basis of every page
 
 HTML and XHTML are markup languages composed of elements, which contain attributes (some optional and some mandatory.) These elements are used to mark up the various different types of content in documents, specifying what each bit of content is supposed to be rendered as in web browsers (for example headings, paragraphs, tables, bulleted lists etc.)
 
@@ -37,7 +37,7 @@ Figure 1: Anatomy of an (X)HTML element.
 
 With that in mind, just what is the difference between HTML and XHTML?
 
-### <span>What is XHTML?</span>
+### What is XHTML?
 
 HTML is the oldest web language, and the most common one you'll find on the web - it is a bit more forgiving in terms of strict syntax rules. XHTML on the other hand is a reformulation of HTML as an XML vocabulary, XML being a separate markup language with much stricter syntax rules. The difference between XHTML and HTML doesn't really matter so much any more, unless you find youself working in a web team in the future that has coding guidelines that favour one style or another. If you are using HTML5, which we will be doing throughout this course, then you are free to use HTML or XHTML syntax. Choose whatever you are most comfortable with, as long as you stick to the best practices outlined in the course.
 
@@ -52,13 +52,13 @@ Table 1 shows the main syntax differences between HTML and XHTML.
 
 Table 1: Differences between HTML and XHTML.
 
-### <span>Validation, what’s that?</span>
+### Validation, what’s that?
 
 Because HTML/XHTML are standards (and CSS too, for that matter), the World Wide Web Consortium (W3C) has created great tools called validators to automatically check your pages for you, and point out any problems/errors your code might have, such as missing closing tags or missing quotes around attributes. [The HTML validator is available online](http://validator.w3.org/). It will automatically detect whether you’re using HTML or XHTML, and which doctype you’re using. If you want to check out your CSS, there is also a [CSS validator available](http://jigsaw.w3.org/css-validator/). You can also find a special [HTML5 validator](http://html5.validator.nu/) online, which tends to be more up to date than the W3C one, as far as HMTL5 is concerned.
 
 For more information on validation, see [Validating your HTML](http://www.w3.org/wiki/Validating_your_HTML) . For more information on doctypes, see [Choosing the right doctype for your HTML documents](http://www.w3.org/wiki/Choosing_the_right_doctype_for_your_HTML_documents).
 
-## <span>CSS — let’s add some style</span>
+## CSS — let’s add some style
 
 Cascading Style Sheets gives you fine control over the formatting and layout of your document. CSS works on a system of rules, which select the elements you want to style, and then set values for different properties of the elements. You can change or add colors, backgrounds, font sizes and styles, and even position things on your web page in different places. Here is an example CSS rule:
 
@@ -71,19 +71,19 @@ Now any content enclosed within `<p></p>` tags will have double the line height,
 
 The example below will give you more of an idea of how CSS styles HTML; we’ll start looking at CSS in way more detail in [CSS basics](http://www.w3.org/wiki/CSS_basics).
 
-## <span>JavaScript — adding behaviour to web pages</span>
+## JavaScript — adding behaviour to web pages
 
 Finally, JavaScript is the scripting language that you use to add behaviour to your web pages — it can be used to validate the data you enter into a form (tell you if it is in the right format or not), provide drag and drop functionality, change styles on the fly, animate page elements such as menus, handle button functionality, and a million other things. Most modern JavaScript works by finding a target HTML element, and then doing something to it, just like CSS, but the way it operates, the syntax etc. is rather different.
 
 JavaScript is a more complicated and expansive subject than HTML and CSS, so to keep things simple and avoid confusion at this stage, I won’t be discussing it in the below example. In fact, you won’t be looking at JavaScript in this course again until [Programming - the real basics](http://www.w3.org/wiki/Programming_-_the_real_basics).
 
-## <span>An example page</span>
+## An example page
 
 There are a lot of details I haven’t covered here, but we’ll get through everything during this web design course! For now, I’ll present you with a real page example, just to give you a taste of what you’ll be working with in the rest of the articles.
 
 The example I present below is a references page, which you could use to cite references at the end of say, a psychology essay on the group dynamics of a web development team, or a report for work on broadband Internet use in the United States. Please note, that if you’re a stickler for strict academic writing, this example shows APA formatting (I had to pick one). You can [download a zip file containing the example HTML and CSS for this example](http://dev.opera.com/articles/view/4-the-web-standards-model-html-css-a/article4_examples.zip).
 
-### <span>index.html</span>
+### index.html
 
     <!DOCTYPE html>
 
@@ -131,7 +131,7 @@ Figure 2: the raw HTML, without any CSS styling
 
 Now let’s take a look at the CSS that styles the HTML.
 
-### <span>styles.css</span>
+### styles.css
 
     body {
       background: #fff url('images/gradbg.jpg') top left repeat-x;
@@ -216,7 +216,7 @@ The fully styled example looks like Figure 3.
 
 Figure 3: The finished example with styles applied.
 
-## <span>The reality of it all</span>
+## The reality of it all
 
 Something you should bear in mind when learning web standards is that what we are working towards here is an ideal. It would be so much easier if all web designers and developers used modern web standards and best practices to build web sites, and all browsers in use today supported web standards perfectly. Unfortunately, neither is true - for a start, the web professionals making web sites today have learned how to do so in many different ways, and at many different times. Some are still making web sites using bad practices like tables and spacer gifs, which is what most of us used to do back in the late nineties. Most web professionals taught themselves, and even those of us who did do an official qualification of some kind did not necessarily get taught "the right way" to do things. Many of the university and college courses out there are ...shall we say... behind the times.
 
@@ -226,13 +226,13 @@ And in terms of web browser support, all modern browsers now support HTML, CSS a
 
 We'll include more details on what to do with older browser support in subsequent chapters.
 
-## <span>Summary</span>
+## Summary
 
 There is nothing mystical about HTML, CSS and JavaScript. They’re simply an evolution of the web. If you’ve already had some exposure to HTML, there is nothing to “unlearn”. Everything you know is still relevant, you’ll just have to handle certain things a different way (and be a little more careful in your markup).
 
 Aside from getting the satisfaction of a job well done, web standards development just makes sense. The counter-arguments to developing with standards is that it’s time consuming and a pain in the neck having to make a layout work across browsers. The opposite argument could be applied to making a non-standards-based layout work across a range of devices and with future browser versions. How can you be certain that your hobbled-together markup will display at all in future versions of Opera, Firefox, Safari, Chrome, Internet Explorer, etc.? You can’t, unless you follow the rules.
 
-## <span>Exercise questions</span>
+## Exercise questions
 
 -   What’s the difference between a class and an ID?
 -   What role do XHTML, CSS and JavaScript each play on a web site?

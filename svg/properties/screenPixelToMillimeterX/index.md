@@ -11,20 +11,20 @@ tags:
 uri: svg/properties/screenPixelToMillimeterX
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 User interface (UI) events in [Document Object Model (DOM) Level 2 Events Specification](http://go.microsoft.com/fwlink/p/?linkid=203739) indicate the screen positions where the given event occurred. When Windows Internet Explorer knows the physical size of a "screen unit", the **screenPixelToMillimeterX** attribute expresses that information. Otherwise, Internet Explorer provides a suitable default value.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGSVGElement**](/svg/elements/svg)

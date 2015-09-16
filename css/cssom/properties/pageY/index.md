@@ -35,13 +35,13 @@ todo_broken_links:
 uri: css/cssom/properties/pageY
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the y-coordinate of the mouse cursor, relative to the upper-left corner of the page.
 
 Property of [dom/objects/MouseEvent](/w/index.php?title=dom/objects/MouseEvent&action=edit&redlink=1)[dom/objects/MouseEvent](/w/index.php?title=dom/objects/MouseEvent&action=edit&redlink=1)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -49,7 +49,7 @@ Property of [dom/objects/MouseEvent](/w/index.php?title=dom/objects/MouseEvent&a
 var yCoordinate = event.pageY;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -57,22 +57,22 @@ The Y coordinate of the mouse cursor.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 The **pageY** property is equivalent to the [**clientY**](/w/index.php?title=dom/properties/clientY&action=edit&redlink=1) value plus the [**scrollTop**](/w/index.php?title=dom/properties/scrollTop&action=edit&redlink=1) value of the document, as the following code example shows.
 
     var pageY = event.clientY + document.documentElement.scrollTop;
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSSOM View](http://www.w3.org/TR/cssom-view/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -218,7 +218,7 @@ The **pageY** property is equivalent to the [**clientY**](/w/index.php?title=dom
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `DragEvent`
 -   `MouseWheelEvent`

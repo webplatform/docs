@@ -25,13 +25,13 @@ tags:
 uri: dom/ProgressEvent/loaded
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the number of bytes downloaded since the beginning of the operation.
 
 Property of [dom/ProgressEvent](/dom/ProgressEvent)[dom/ProgressEvent](/dom/ProgressEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [dom/ProgressEvent](/dom/ProgressEvent)[dom/ProgressEvent](/dom/Prog
 var result = ProgressEvent.loaded;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
@@ -47,16 +47,16 @@ Number of bytes downloaded since the beginning of the operation.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Used to calculate the percentage completed of an operation.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This property refers to the content associated with the operation; it does not account for headers or other overhead associated with the operation. If the operation specifies content encoding or transfer encoding, the value of this property reflects the specified encoding.
 
-### <span>Syntax</span>
+### Syntax
 
 value = ProgressEvent.loaded

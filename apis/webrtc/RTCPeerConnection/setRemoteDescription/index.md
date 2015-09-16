@@ -18,19 +18,19 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/setRemoteDescription
 
 ---
-## <span>Summary</span>
+## Summary
 
 Applies the supplied RTCSessionDescription to the remote description.
 
 Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  .setRemoteDescription();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 

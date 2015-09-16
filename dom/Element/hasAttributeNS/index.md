@@ -24,35 +24,35 @@ tags:
 uri: dom/Element/hasAttributeNS
 
 ---
-## <span>Summary</span>
+## Summary
 
 Determines whether a content attribute in a specified namespace exists on an element.
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var attributeExists = element.hasAttributeNS(namespaceURI, name);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>namespaceURI</span>
+### namespaceURI
 
  Data-type
 :   String
 
  The namespace URI that defines the attribute name, or null.
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The name of the attribute.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -60,17 +60,17 @@ Whether the specified attribute exists.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Use this method to determine whether a content attribute in a specified namespace exists on an element.
 
-## <span>Notes</span>
+## Notes
 
 -   This method does not get the value of the attribute, see [getAttributeNS](/dom/Element/getAttributeNS) for this purpose.
 -   Where namespaces are irrelevant, [hasAttribute](/dom/Element/hasAttribute) can be used instead.
 -   See [hasAttributes](/dom/Node/hasAttributes), which determines whether the element has any attributes at all.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Document Object Model (DOM) Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

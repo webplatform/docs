@@ -11,21 +11,21 @@ tags:
 uri: svg/properties/pathSegList
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 With the **pathSegList** property, you can access the base (or *static*) contents of the [**d**](/svg/properties/d) attribute in a form that directly matches the SVG syntax. If the **d** attribute contains an "absolute moveto (M)" and an "absolute arcto (A)" command, **pathSegList** contains two entries: SVG\_PATHSEG\_MOVETO\_ABS and SVG\_PATHSEG\_ARC\_ABS.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Paths](http://go.microsoft.com/fwlink/p/?linkid=204736), Section 8.5.22
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGPathElement**](/svg/elements/path)
 -   [**animatedPathSegList**](/svg/properties/animatedPathSegList)

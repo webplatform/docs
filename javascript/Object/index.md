@@ -10,11 +10,11 @@ tags:
 uri: javascript/Object
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides functionality common to all JavaScript objects.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,13 +26,13 @@ Provides functionality common to all JavaScript objects.
 **value**
 :   Optional. Any one of the JavaScript primitive data types (Number, Boolean, or String). If value is an object, the object is returned unmodified. If value is null , **undefined** , or not supplied, an object with no content is created.
 
-## <span>Remarks</span>
+## Remarks
 
 The Object object is contained in all other JavaScript objects; all of its methods and properties are available in all other objects. The methods can be redefined in user-defined objects, and are called by JavaScript at appropriate times. The **toString** method is an example of a frequently redefined Object method.
 
 In this language reference, the description of each Object method includes both default and object-specific implementation information for the intrinsic JavaScript objects.
 
-## <span>Properties</span>
+## Properties
 
 The following table lists properties of the **Object Object**.
 
@@ -41,7 +41,7 @@ The following table lists properties of the **Object Object**.
 |[constructor Property](/javascript/Object/constructor)|Specifies the function that creates an object.|
 |[prototype Property](/javascript/Object/prototype)|Returns a reference to the prototype for a class of objects.|
 
-## <span>Functions</span>
+## Functions
 
 The following table lists functions of the **Object Object**.
 
@@ -61,7 +61,7 @@ The following table lists functions of the **Object Object**.
 |[Object.preventExtensions Function](/javascript/Object/preventExtensions)|Prevents the addition of new properties to an object.|
 |[Object.seal Function](/javascript/Object/seal)|Prevents the modification of attributes of existing properties, and prevents the addition of new properties.|
 
-## <span>Methods</span>
+## Methods
 
 The following table lists methods of the **Object Object**.
 
@@ -74,9 +74,9 @@ The following table lists methods of the **Object Object**.
 |[toString method](/javascript/Object/toString)|Returns a string representation of an object.|
 |[valueOf method](/javascript/Object/valueOf)|Returns the primitive value of the specified object.|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [JavaScript Objects](/javascript/objects)
 

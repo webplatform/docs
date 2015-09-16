@@ -13,7 +13,7 @@ tags:
 uri: aria/attributes/aria-describedby
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves a list of elements that describe the current object.
 
@@ -27,13 +27,13 @@ Applies to
 </td>
 </tr>
 </table>
-### <span>Syntax</span>
+### Syntax
 
 ``` html
 <element aria-describedby="p" ...>
 ```
 
-### <span>Property values</span>
+### Property values
 
 Type: String
 
@@ -41,19 +41,19 @@ A space-separated list of id property values.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 This property defines element relationships and associations that cannot be readily determined from the document structure. The **aria-describedby** property is intended to provide additional information which some users might need, and supplements the basic information provided by **label**. If more than one [**id**](/html/attributes/id) property is specified, all elements are combined together to create a single description.
 
 **Note**  For cross-browser compatibility, always use the WAI-ARIA attribute syntax to access and modify ARIA properties, for example `object.setAttribute("aria-valuenow", newValue)`.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Accessible Rich Internet Applications (WAI-ARIA) 1.0](http://go.microsoft.com/fwlink/p/?linkid=203793), Section 6.6
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages</span>
+### Related pages
 
 -   `Accessible Rich Internet Applications (ARIA)`
 -   `Reference`

@@ -11,22 +11,22 @@ tags:
 uri: 'css/selectors/pseudo-elements/::after'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Inserts content after the selected element(s).
 
  The [**::before**](/css/selectors/pseudo-elements/::before) and **::after** pseudo-elements specify the location of content before and after an element in the document tree. The [**content**](/css/properties/content) attribute, in conjunction with these pseudo-elements, specifies what is inserted. The generated content interacts with other boxes as if they were real elements inserted just inside their associated element. The content box of the associated element expands to include the generated content, if necessary.
 
-### <span>Syntax</span>
+### Syntax
 
 sel **::after**
 
-### <span>Parameters</span>
+### Parameters
 
 *sel*
 :   A simple selector
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 span::after {
@@ -34,11 +34,11 @@ span::after {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 Web authors are encouraged to use the two-colon form of the **::after** pseudo-element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1](http://www.w3.org/TR/CSS2/)
 :   W3C Recommendation
@@ -46,8 +46,8 @@ Web authors are encouraged to use the two-colon form of the **::after** pseudo-e
 [Selectors Level 3](http://www.w3.org/TR/css3-selectors/)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages</span>
+### Related pages
 
 -   `content`

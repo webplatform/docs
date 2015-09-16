@@ -15,11 +15,11 @@ tags:
 uri: 'apis/media capture and streams/MediaStreamTrack/started'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This event fires when the MediaStreamTrack object has just transitioned from the &quot;new&quot; readyState to another state.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

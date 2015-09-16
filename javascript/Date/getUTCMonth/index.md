@@ -11,21 +11,21 @@ tags:
 uri: javascript/Date/getUTCMonth
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the month of a Date object using Universal Coordinated Time (UTC).
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     dateObj.getUTCMonth()
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an integer between 0 (January) and 11 (December).
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **getUTCMonth** method.
 
@@ -36,13 +36,13 @@ var date = new Date("2/2/2002");
  // Output: 1
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required dateObj reference is a **Date** object. To get the month in local time, use the **getMonth** method.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getMonth Method (Date)](/javascript/Date/getMonth)
 -   [setMonth Method (Date)](/javascript/Date/setMonth)

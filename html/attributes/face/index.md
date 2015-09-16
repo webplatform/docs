@@ -15,7 +15,7 @@ tags:
 uri: html/attributes/face
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the current typeface family.
 
@@ -31,7 +31,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example sets the typeface family using the **FACE** attribute and the **face** property.
 
@@ -47,16 +47,16 @@ This example sets the typeface family using the **FACE** attribute and the **fac
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/face.htm)
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 15.2.2 (Deprecated)
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `baseFont`
 -   `font`

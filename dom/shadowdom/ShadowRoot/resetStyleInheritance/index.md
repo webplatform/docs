@@ -23,20 +23,20 @@ tags:
 uri: dom/shadowdom/ShadowRoot/resetStyleInheritance
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates whether or not the inheritable CSS properties are set to the initial value at the shadow boundary. If false (default value), the properties continue to inherit. If true, the properties are set to initial value.
 
 Property of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.resetStyleInheritance;
 element.resetStyleInheritance = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -44,6 +44,6 @@ If false (default value), the properties continue to inherit. If true, the prope
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Reflected in the reset-style-inheritance HTML attribute.

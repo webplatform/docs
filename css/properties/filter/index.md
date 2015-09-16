@@ -21,11 +21,11 @@ tags:
 uri: css/properties/filter
 
 ---
-## <span>Summary</span>
+## Summary
 
 Applies various image processing effects. This property is largely unsupported. See Compatibility section for more information.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -48,12 +48,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `filter`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `filter: <function>`
 -   `filter: url(path/to/filter.svg#filterID)`
 
-## <span>Values</span>
+## Values
 
 \<function\>
 :   Any combination of built-in filter functions: [**blur()**](/css/functions/blur), [**brightness()**](/css/functions/brightness), [**contrast()**](/css/functions/contrast), [**custom()**](/css/functions/custom), [**drop-shadow()**](/css/functions/drop-shadow), [**grayscale()**](/css/functions/grayscale), [**hue-rotate()**](/css/functions/hue-rotate), [**invert()**](/css/functions/invert), [**opacity()**](/css/functions/opacity), [**saturate()**](/css/functions/saturate), and [**sepia()**](/css/functions/sepia)
@@ -61,7 +61,7 @@ Animatable
 url(path/to/filter.svg\#filterID)
 :   A reference to an [SVG \<filter\> element](/svg/elements/filter)
 
-## <span>Examples</span>
+## Examples
 
 The example below shows the difference between the CSS box-shadow property and the drop-shadow filter function. The box-shadow property outlines the html box and the drop-shadow outlines the element parts.
 
@@ -97,7 +97,7 @@ The example below shows the difference between the CSS box-shadow property and t
 
 [View live example](http://code.webplatform.org/gist/5842451)
 
-## <span>Usage</span>
+## Usage
 
      Filters apply any combination of image processing functions to
 
@@ -113,7 +113,7 @@ Filters apply to any graphic effect the element renders, such as borders, backgr
 
 Filter effects may be specified as part of dynamic [transitions](/tutorials/css_transitions#advanced) and [keyframe animations](/tutorials/css_animations). However, the number of functions in each set of style sheets must match, with no transitions allowed from implied default values. In addition, each style sheet must declare the exact same sequence of functions.
 
-## <span>Built-in filter functions</span>
+## Built-in filter functions
 
 The following examples show the effect of each filter function applied in isolation. See each function for details on accepted parameters.
 
@@ -157,7 +157,7 @@ The following examples show the effect of each filter function applied in isolat
 
   ![f11-mandrill.jpg](/assets/thumb/8/80/f11-mandrill.jpg/300px-f11-mandrill.jpg)![f23-mandrilldrop1.jpg](/assets/thumb/c/c2/f23-mandrilldrop1.jpg/300px-f23-mandrilldrop1.jpg)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#)
 :   Editor's Draft
@@ -165,11 +165,11 @@ The following examples show the effect of each filter function applied in isolat
 [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 
@@ -253,7 +253,7 @@ The following examples show the effect of each filter function applied in isolat
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### <span>External resources</span>
+### External resources
 
 -   [Adobe CSS FilterLab](http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/)
 -   [Interactive demonstration](http://html5-demos.appspot.com/static/css/filters/index.html)

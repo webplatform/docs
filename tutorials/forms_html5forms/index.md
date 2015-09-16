@@ -15,21 +15,21 @@ uri: 'tutorials/forms html5forms'
 **By Jan Kleinert**
 Originally published June 2, 2011
 
-## <span>Summary</span>
+## Summary
 
 Improving Web forms through new HTML5 capabilities
 
-## <span>Introduction</span>
+## Introduction
 
 Not many people get excited about forms, but HTML5 brings some big improvements, both for the developers creating them and for the users filling them out. New form elements, attributes, input types, browser-based validation, CSS3 styling techniques, and the FormData object make it easier and hopefully more enjoyable to create forms.
 
-### <span>Browser support</span>
+### Browser support
 
 At the time of writing, support for all the new form and input elements, attributes and types varies widely across browsers. Even among browsers that support a particular feature, the behavior can be different from one browser to the next. The state of HTML5 forms support is changing very quickly though, and continues to improve. At the time of writing, [these charts](http://wufoo.com/html5/) were the most up-to-date I could find, and they detail the state of browser support for HTML5 forms.
 
-## <span>An overview of what's new</span>
+## An overview of what's new
 
-### <span>New elements</span>
+### New elements
 
 HTML5 introduces 5 new elements related to input and forms.
 
@@ -76,7 +76,7 @@ dropdown menus.</td>
 </tbody>
 </table>
 
-### <span>New input types</span>
+### New input types
 
 HTML5 introduces 13 new input types. When viewed in a browser that doesn't support them, these input types fall back to text input.
 
@@ -164,7 +164,7 @@ that platform's search fields.</td>
 </tbody>
 </table>
 
-### <span>New input attributes</span>
+### New input attributes
 
 HTML5 also introduces several new attributes for the input and form elements.
 
@@ -258,7 +258,7 @@ be submitted along with the input value.</td>
 </tbody>
 </table>
 
-### <span>The FormData object</span>
+### The FormData object
 
 One of the enhancements to `XMLHttpRequest` is the introduction of the ` FormData` object. With the `FormData` object, you can create and send a set of key/value pairs and, optionally, files using `XMLHttpRequest`. When using this technique, the data is sent in the same format as if you'd submitted it via the form's `submit()` method with the encoding type of `multipart/form-data`.
 
@@ -283,19 +283,19 @@ You can also use `FormData` to add additional data to an existing form before su
     xhr.open("POST", "http://some.url/");
     xhr.send(formData);
 
-## <span>Browser-based validation</span>
+## Browser-based validation
 
 Let's be honest. Validating form data is a pretty boring task, but you need to do it anyway. To do client-side form validation today, you probably write some custom JavaScript code or use a library to do things like check for valid inputs or ensure required fields are filled out before the form is submitted.
 
 New input attributes like `required` and `pattern` used in combination with CSS pseudo-class selectors make it easier to write the checks and display feedback to the user. There are other advanced validation techniques that allow you to use JavaScript to set custom validity rules and messages or to determine if an element is invalid and the reason why.
 
-### <span>The required attribute</span>
+### The required attribute
 
 If the `required` attribute is present, then the field must contain a value when the form is submitted. Here's an example of an input field for a required email address that ensures that the field has a value and that the value is a valid email address, as defined [here](http://dev.w3.org/html5/spec/Overview.html#valid-e-mail-address).
 
     <input type="email" id="email_addr" name="email_addr" required />
 
-### <span>The pattern attribute</span>
+### The pattern attribute
 
 The `pattern` attribute specified a regular expression used to validate an input field. This example represents a required text input field for a part number. For the purpose of the example, let's say a part number consists of three uppercase letters followed by four digits. The use of `required` and `pattern` ensure that the field has a value and that the value matches the correct format for a part number. If the user hovers over the field, the message in the title attribute is displayed.
 
@@ -308,7 +308,7 @@ Building on the previous example, you can also outline the input field in red if
        border: 2px solid #ff0000;
      }
 
-### <span>The formnovalidate attribute</span>
+### The formnovalidate attribute
 
 The `formnovalidate` attribute can be applied to `input` or `button` elements. If it's present, then form submission validation is disabled. Here's an example where submitting a form via the Submit button requires valid input, but submitting via the Save button does not.
 
@@ -317,7 +317,7 @@ The `formnovalidate` attribute can be applied to `input` or `button` elements. I
     <input type="submit" formnovalidate value="Save">
     <input type="submit" value="Submit">
 
-### <span>The constraint validation API</span>
+### The constraint validation API
 
 The [constraint validation API](http://dev.w3.org/html5/spec/association-of-controls-and-forms.html#the-constraint-validation-api) gives you powerful tools for handling custom validation. The API allows you to do things like set a custom error, check whether an element is valid, and determine the reason that an element is invalid. Here's an example that displays a custom error if the values in two fields do not match.
 
@@ -338,7 +338,7 @@ The [constraint validation API](http://dev.w3.org/html5/spec/association-of-cont
      }
      </script>
 
-## <span>Putting it all together</span>
+## Putting it all together
 
 Here's an example for a reservation request form that pulls together different input types, form validation, and CSS selectors and styling.
 
@@ -437,7 +437,7 @@ This is the CSS that goes with the form code:
        padding:10px;
      }
 
-## <span>Resources</span>
+## Resources
 
 -   [W3C Specification](http://www.w3.org/TR/html5/forms.html)
 -   [The Current State of HTML5 Forms](http://wufoo.com/html5/)

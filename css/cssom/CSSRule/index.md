@@ -14,7 +14,7 @@ uri: css/cssom/CSSRule
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -28,35 +28,35 @@ API Name
 [type](/css/cssom/CSSRule/type)
 :
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Style Specification](http://go.microsoft.com/fwlink/p/?linkid=203741), Section 2.2
 
-### <span>Members</span>
+### Members
 
 The **CSSRule** object has these types of members:
 
 -   [\#properties Properties]
 
-#### <span>Properties</span>
+#### Properties
 
 The **CSSRule** object has these properties. {
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -202,6 +202,6 @@ The **CSSRule** object has these properties. {
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `IHTMLCSSRule`

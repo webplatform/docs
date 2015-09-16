@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/operators/unsigned right shift assignment'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Right shifts the value of a variable by the number of bits specified in the value of an expression, without maintaining sign, and assigns the result to the variable.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Right shifts the value of a variable by the number of bits specified in the valu
 **expression**
 :   Any expression.
 
-## <span>Examples</span>
+## Examples
 
 See Remarks.
 
@@ -37,7 +37,7 @@ temp >>>= 2;
 //result: temp = 1073741820
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 Using the \>\>\>= operator is exactly the same as doing the following:
 
@@ -47,9 +47,9 @@ The **\>\>\>=** operator shifts the bits of result right by the number of bits s
 
 The variable temp has an initial value of -14 (11111111 11111111 11111111 11110010 in two's complement binary). When shifted right two bits, the value equals 1073741820 (00111111 11111111 11111111 11111100 in binary).
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Unsigned Right Shift Operator (\>\>\>)](/javascript/operators/unsigned_right_shift)
 -   [Bitwise Left Shift Operator (\<\<)](/javascript/operators/bitwise_left_shift)

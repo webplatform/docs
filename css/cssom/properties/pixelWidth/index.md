@@ -21,20 +21,20 @@ tags:
 uri: css/cssom/properties/pixelWidth
 
 ---
-## <span>Summary</span>
+## Summary
 
 Changes the value of the width without changing the units designator.
 
 Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.pixelWidth;
 element.pixelWidth = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example uses a timer to increment the **pixelWidth** property.
 
@@ -54,15 +54,15 @@ function scaleThis()
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/pixelWidth.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Setting this property changes the value of the width without changing the units designator. Unlike the [**width**](/css/properties/width) property, the **pixelWidth** value is an integer, not a string, and is always interpreted in pixels.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `runtimeStyle`
 -   `style`

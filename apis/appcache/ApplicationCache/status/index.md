@@ -22,13 +22,13 @@ tags:
 uri: apis/appcache/ApplicationCache/status
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the current status of the application cache, as given by the constants defined below.
 
 Property of [apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)[apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,7 +36,7 @@ Property of [apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)[ap
 var result = ApplicationCache.status;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned shortunsigned short
 
@@ -58,7 +58,7 @@ Returns an object of type unsigned shortunsigned short
 **OBSOLETE** (numeric value 5)
 :   The current webpage's application cache is marked as obsolete.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var appCache = window.applicationCache;
@@ -88,16 +88,16 @@ switch (appCache.status) {
 };
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C ApplicationCache Specification](http://dev.w3.org/html5/spec/single-page.html#dom-appcache-status)
 :   W3C Editor's Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Off-line Storage</span>
+#### Off-line Storage
 
 -   [appcache](/apis/appcache)
 

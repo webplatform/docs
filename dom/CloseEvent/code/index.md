@@ -23,13 +23,13 @@ tags:
 uri: dom/CloseEvent/code
 
 ---
-## <span>Summary</span>
+## Summary
 
 The connection close code provided by the server.
 
 Property of [dom/CloseEvent](/dom/CloseEvent)[dom/CloseEvent](/dom/CloseEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/CloseEvent](/dom/CloseEvent)[dom/CloseEvent](/dom/CloseEvent)
 var closeCode = event.code;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 The close code provided by the server.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function getCloseCode(e) {

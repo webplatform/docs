@@ -21,11 +21,11 @@ tags:
 uri: css/properties/border-bottom
 
 ---
-## <span>Summary</span>
+## Summary
 
 Shorthand property that defines the border-width, border-style and border-color of an element's bottom border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the bottom border — border-bottom-width, border-bottom-style and border-bottom-color.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `For style values, the initial value is none. For color values, the initial value is currentColor.  For width values, the initial value is medium, which is computed as about 3px in most browsers.`
@@ -51,12 +51,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `border-bottom: border-width border-style color`
 -   `border-bottom: inherit`
 
-## <span>Values</span>
+## Values
 
 border-width border-style color
 :   The `border-bottom` property can contain up to three components:
@@ -68,7 +68,7 @@ border-width border-style color
 inherit
 :   When we set the value to `inherit`, the element will inherit the border values set on its parent.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /**
@@ -165,19 +165,19 @@ a:visited{text-decoration:none;color:green;}
 
 [View live example](http://code.webplatform.org/gist/5704867)
 
-## <span>Usage</span>
+## Usage
 
      * It is usual to use the border-bottom property to set the default state of a box's bottom border, and then override individual values using more specific propeties, such as border-bottom-width or border-bottom-color.
 
 -   `border-bottom` can be used as a divider between vertically laid out items, such as a vertical navigation menu, or table cells.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Computed values</span>
+### Computed values
 
 For `style` values, the computed value is as specified. For `width` values, the computed value is the absolute pixel value, or `0` if the value is set to `none` or `hidden`. For `color` values, the computed value is the equivalent RGB value, or the equivalent RGBA value for translucent colors.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 3](http://www.w3.org/TR/css3-background/#borders)
 :   Candidate Recommendation
@@ -188,11 +188,11 @@ For `style` values, the computed value is as specified. For `width` values, the 
 [CSS Level 1](http://www.w3.org/TR/CSS1/#border)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Border</span>
+#### Border
 
 -   [border](/css/properties/border)
 
@@ -252,7 +252,7 @@ For `style` values, the computed value is as specified. For `width` values, the 
 
 -   [border-width](/css/properties/border-width)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

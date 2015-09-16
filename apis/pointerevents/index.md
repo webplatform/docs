@@ -11,16 +11,16 @@ tags:
 uri: apis/pointerevents
 
 ---
-## <span>Summary</span>
+## Summary
 
 Pointer Events represent events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Pointer Events Primer](/concepts/PointerEvents)
 
-### <span>External resources</span>
+### External resources
 
 -   [Pointer Events Spec](http://www.w3.org/TR/PointerEvents/)

@@ -22,7 +22,7 @@ uri: dom/Selection/typeDetail
 
 Property of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.typeDetail;
@@ -31,10 +31,10 @@ element.typeDetail = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The default implementation of this property returns a value of `undefined`. Host applications can provide a custom selection mechanism and can provide a value for this property that indicates the selection type. *MSHTML* requests the selection type from the host application by calling **GetTypeDetail**.
 
-### <span>Syntax</span>
+### Syntax

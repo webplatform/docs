@@ -13,24 +13,24 @@ tags:
 uri: dom/EventException
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page lists properties, methods, and events for the EventException object.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `DOM Exception Error Codes`

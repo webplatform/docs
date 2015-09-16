@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/indexOf
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the position of the first occurrence of a substring.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Returns the position of the first occurrence of a substring.
 **startIndex**
 :   Optional. The index at which to begin searching the String object. If omitted, search starts at the beginning of the string.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **indexOf** method.
 
@@ -47,7 +47,7 @@ var str = "original equipment manufacturer";
  // abc is at position -1
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **indexOf** method returns the beginning of the substring in the String object. If the substring is not found, -1 is returned.
 
@@ -55,9 +55,9 @@ If startindex is negative, startindex is treated as zero. If it is greater than 
 
 Searching is performed from left to right. Otherwise, this method is identical to **lastIndexOf**.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [lastIndexOf Method (String)](/javascript/String/lastIndexOf)
 

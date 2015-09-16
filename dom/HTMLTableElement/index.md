@@ -21,7 +21,7 @@ uri: dom/HTMLTableElement
 
 Inherits from [HTMLElement](/dom/HTMLElement)[HTMLElement](/dom/HTMLElement)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -41,7 +41,7 @@ API Name
 [tHead](/dom/HTMLTableElement/tHead)
 :
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -88,13 +88,13 @@ API Name
 [previousPage](/dom/HTMLTableElement/previousPage)
 :
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from HTMLElement</span>
+## Inherited from HTMLElement
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -882,7 +882,7 @@ API Name
 [text-anchor](/svg/attributes/text-anchor)
 :
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -941,12 +941,12 @@ API Name
 [toStaticHTML](/dom/HTMLElement/toStaticHTML)
 :
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-### <span>Members</span>
+### Members
 
 The **HTMLTableElement** object does not define any members.

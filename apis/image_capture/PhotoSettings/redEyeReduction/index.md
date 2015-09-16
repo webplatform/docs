@@ -24,20 +24,20 @@ tags:
 uri: 'apis/image capture/PhotoSettings/redEyeReduction'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This reflects whether camera red eye reduction is desired.
 
 Property of [apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSettings)[apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSettings)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = photoSettings.redEyeReduction;
 photoSettings.redEyeReduction = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 

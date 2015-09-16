@@ -22,7 +22,7 @@ uri: dom/HTMLElement/indeterminate
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.indeterminate;
@@ -31,16 +31,16 @@ element.indeterminate = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **indeterminate** property can be used to indicate whether the user has acted on a control. For example, setting the **indeterminate** to **true** causes the check box to appear checked and dimmed, indicating an indeterminate state. The value of the **indeterminate** property acts independently of the value of the [**checked**](/html/attributes/checked) property. Creating an indeterminate state is different from disabling the control. Consequently, a check box in the indeterminate state can still receive the focus. When the user clicks an indeterminate control, the indeterminate state turns off and the checked state of the check box toggles.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `input type=checkbox`

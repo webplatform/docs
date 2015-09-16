@@ -29,13 +29,13 @@ uri: dom/HTMLElement/setActive
 
 Method of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.setActive();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -43,7 +43,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates how to use the **setActive** method between **frame**s.
 
@@ -93,14 +93,14 @@ function fnBottomActive(){
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setActive_2.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **setActive** method does not cause the document to scroll to the active object in the current page or in another **frame** or **window**.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

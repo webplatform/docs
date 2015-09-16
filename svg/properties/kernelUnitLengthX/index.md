@@ -11,9 +11,9 @@ tags:
 uri: svg/properties/kernelUnitLengthX
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 For JavaScript, the **kernelUnitLengthX** property represents *dx*. For HTML, the **kernelUnitLength** attribute is used to set both *dx* and *dy*, as described next.
 
@@ -23,15 +23,15 @@ For the attribute **kernelUnitLength = "\<** *number optional-number* **\>"**, t
 
 For some level of consistency across display media and browsers, it is necessary that a value be provided for at least one of [**filterRes**](/svg/methods/setFilterRes) and **kernelUnitLength**.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.12
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFEConvolveMatrixElement**](/svg/elements/feConvolveMatrix)
 -   [**SVGFEDiffuseLightingElement**](/svg/elements/feDiffuseLighting)

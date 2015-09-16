@@ -15,18 +15,18 @@ tags:
 uri: html/elements/legend
 
 ---
-## <span>Summary</span>
+## Summary
 
 The legend element represents a title or explanatory caption for the contents of its parent fieldset element.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLLegendElement](/dom/HTMLLegendElement)
 
 The **legend** element represents a caption for the the contents of the legend element's parent fieldset element, if any.
 
-## <span>Examples</span>
+## Examples
 
 Simple form with fieldset, legend, and label elements.
 
@@ -44,11 +44,11 @@ Simple form with fieldset, legend, and label elements.
 
 [View live example](http://code.webplatform.org/gist/8e4305d9f7fb613410a5)
 
-## <span>Usage</span>
+## Usage
 
      Generally, the legend element can be used in combination with a fieldset element when a group of form elements needs a caption. Pretty similar to a headline element but the legend element is the most semantic element in that case.
 
-## <span>Notes</span>
+## Notes
 
 The first **legend** element in a **fieldset** is used as the caption of the **fieldset**. Additional **legend** elements are ignored.
 
@@ -58,11 +58,11 @@ The »problem« with the **fieldset** and **legend** elements is that they don
 
 ``` html
 <fieldset>
-  <legend><span>Legend link</span></legend>
+  <legend>Legend link</legend>
 </fieldset>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-legend-element)
 :   W3C Working Draft
@@ -73,11 +73,11 @@ The »problem« with the **fieldset** and **legend** elements is that they don
 [HTML 4.01](http://www.w3.org/TR/html401/interact/forms.html#edef-LEGEND)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -217,12 +217,12 @@ The »problem« with the **fieldset** and **legend** elements is that they don
 
 -   [time](/html/elements/time)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [**form**](/html/elements/form) element
 -   [**fieldset**](/html/elements/fieldset) element
 
-### <span>External resources</span>
+### External resources
 
 -   <http://www.w3.org/TR/html-markup/legend.html#legend>
 -   <http://www.w3.org/TR/html5/forms.html#the-legend-element>

@@ -11,11 +11,11 @@ tags:
 uri: javascript/Array/join
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds all the elements of an array separated by the specified separator string.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -24,7 +24,7 @@ Adds all the elements of an array separated by the specified separator string.
 **separator**
 :   Optional. A string used to separate one element of an array from the next in the resulting String. If omitted, the array elements are separated with a comma.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **join** method.
 
@@ -38,13 +38,13 @@ var a, b;
  // 0-1-2-3-4
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 If any element of the array is **undefined** or null , it is treated as an empty string.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.5 Array.prototype.join (separator)](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.5) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

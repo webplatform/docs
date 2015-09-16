@@ -24,11 +24,11 @@ tags:
 uri: css/properties/backface-visibility
 
 ---
-## <span>Summary</span>
+## Summary
 
 Determines whether or not the “back” side of a transformed element is visible when facing the viewer.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `visible`
@@ -54,12 +54,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `backface-visibility: hidden`
 -   `backface-visibility: visible`
 
-## <span>Values</span>
+## Values
 
 visible
 :   The back face of an element is a transparent background, displaying a mirror image of the front face when the back face is observable.
@@ -67,7 +67,7 @@ visible
 hidden
 :   There are cases when we do not want the front face of an element to be visible through the back face, like when doing a flipping card effect (setting two elements side-to-side). In this case, the property should be set to hidden to make the back face of the element opaque.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 backface-visibility: visible;
@@ -83,16 +83,16 @@ backface-visibility: hidden;
 
 This property disables position: fixed on Firefox, see related bug: <https://bugzilla.mozilla.org/show_bug.cgi?id=876341>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Transforms Level 1](http://www.w3.org/TR/css3-transforms/#backface-visibility-property)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Transforms</span>
+#### Transforms
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 

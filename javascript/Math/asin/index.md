@@ -10,11 +10,11 @@ tags:
 uri: javascript/Math/asin
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the arcsine of a number.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,11 +23,11 @@ Returns the arcsine of a number.
 **number**
 :   Required. The required number argument is a numeric expression for which the arcsine is needed.
 
-## <span>Return Value</span>
+## Return Value
 
 The return value is the arcsine of the number argument, in radians.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var v1 = Math.asin(-1.0);
@@ -35,13 +35,13 @@ document.write(v1);
 // Output: -1.5707963267948965
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 Applies To : [Math Object](/javascript/Math)
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math.acos Function](/javascript/Math/acos)
 -   [Math.atan Function](/javascript/Math/atan)

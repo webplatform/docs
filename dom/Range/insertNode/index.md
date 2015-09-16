@@ -21,32 +21,32 @@ tags:
 uri: dom/Range/insertNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Inserts a Node into the start of a Range object.
 
 Method of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  newNode.insertNode(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>oNode</span>
+### oNode
 
  Data-type
 :   DOM Node
 
  The new node to insert.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var range = document.createRange();
@@ -56,11 +56,11 @@ range.selectNode(document.getElementsByTagName("div").item(0));
 range.insertNode(newNode);
 ```
 
-## <span>Notes</span>
+## Notes
 
 If the container is a node of type [**Text**](/dom/Text), **insertNode** splits the text node, and inserts *newNode* between the resulting two text nodes. If *newNode* is a document fragment, the children of the document fragment node are inserted rather than the *newNode* itself.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-range-insertnode)
 :   Living Standard

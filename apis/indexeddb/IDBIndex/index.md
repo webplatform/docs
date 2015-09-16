@@ -12,11 +12,11 @@ tags:
 uri: apis/indexeddb/IDBIndex
 
 ---
-## <span>Summary</span>
+## Summary
 
 A metadata index to a referenced object store.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -36,7 +36,7 @@ API Name
 [unique](/apis/indexeddb/IDBIndex/unique)
 :   Provides the unique flag of this index.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -53,11 +53,11 @@ API Name
 [openKeyCursor](/apis/indexeddb/IDBIndex/openKeyCursor)
 :   Creates a cursor.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

@@ -21,32 +21,32 @@ tags:
 uri: dom/Window/cancelAnimationFrame
 
 ---
-## <span>Summary</span>
+## Summary
 
 Cancels a requestAnimationFrame request
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  window.cancelAnimationFrame(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>handle</span>
+### handle
 
  Data-type
 :   any
 
  A handle of the animation request to cancel. The handle is the value returned by [**requestAnimationFrame**](/dom/Window/requestAnimationFrame).
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!DOCTYPE html>
@@ -94,12 +94,12 @@ div { position: absolute; left: 10px; top:100px; padding: 50px;
 </html>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Script based animations.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Timing control for script-based animations](http://go.microsoft.com/fwlink/p/?linkid=229562)

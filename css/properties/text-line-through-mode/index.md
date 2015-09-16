@@ -19,13 +19,13 @@ tags:
 uri: css/properties/text-line-through-mode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the mode for the line-through text decoration, determining whether the text decoration affects the space characters or not.
 
 (Considered obsolete; use [text-decoration-skip](/css/properties/text-decoration-skip) instead.)
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `continuous`
@@ -51,9 +51,9 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 continuous
 :   The line is continuous and covers white space.
@@ -61,7 +61,7 @@ continuous
 skip-white-space
 :   The line skips (does not include) white space characters.
 
-## <span>Notes</span>
+## Notes
 
 This property is obsolete and has been replaced by the [text-decoration-skip](/css/properties/text-decoration-skip) property.
 

@@ -23,16 +23,16 @@ tags:
 uri: html/elements/noBR
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates that the enclosed text should not be broken across lines; use the CSS property white-space instead.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **NOBR** element to prevent text lines from breaking.
 
@@ -41,15 +41,15 @@ This example uses the **NOBR** element to prevent text lines from breaking.
 here's the end of the line.</NOBR>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320)
 
-### <span>Members</span>
+### Members
 
 The **noBR** object has these types of members:
 
@@ -57,6 +57,6 @@ The **noBR** object has these types of members:
 -   [\#methods Methods]
 -   [\#properties Properties]
 
-#### <span>Events</span>
+#### Events
 
 The **noBR** object has these events. {

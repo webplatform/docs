@@ -10,10 +10,10 @@ tags:
 uri: 'tutorials/css border image'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Article to cover CSS border-image in detail
 
-## <span>Content Needed</span>
+## Content Needed
 
 This topic seemed like a good idea, we just ran out of time. If you have the time to write it up, please do. We’re all pitching in here at WPD. Thanks!

@@ -11,7 +11,7 @@ tags:
 uri: 'svg wow demos'
 
 ---
-## <span>Summary</span>
+## Summary
 
 SVG WoW demos. Good showcase page, or could be used in separate pages?
 

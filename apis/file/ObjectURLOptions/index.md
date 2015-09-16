@@ -12,23 +12,23 @@ tags:
 uri: apis/file/ObjectURLOptions
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides the oneTimeOnly property for use with the createObjectURL method.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 oURL = URL.createObjectURL(file, {oneTimeOnly: true});
@@ -36,7 +36,7 @@ oURL = URL.createObjectURL(file, {oneTimeOnly: true});
 
 The **ObjectURLOptions** object provides the *oneTimeOnly* property, which specifies whether an object created with [createObjectURL](/apis/file/URL/createObjectURL) is only used once, and thus does not need [revokeObjectURL](/apis/file/URL/createObjectURL) run against it.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft

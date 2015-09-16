@@ -20,26 +20,26 @@ tags:
 uri: apis/webaudio/AudioBufferSourceNode/playbackRate
 
 ---
-## <span>Summary</span>
+## Summary
 
 The speed at which to render the audio stream. The default playbackRate value is 1. This parameter is a-rate.
 
 Property of [apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)[apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = AudioBufferSourceNode.playbackRate;
 AudioBufferSourceNode.playbackRate = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 AudioParam
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var source = audioCtx.createBufferSource();
@@ -47,7 +47,7 @@ var source = audioCtx.createBufferSource();
 source.playbackRate.value = 1.25;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

@@ -19,39 +19,39 @@ tags:
 uri: apis/location/reload
 
 ---
-## <span>Summary</span>
+## Summary
 
 Refresh/reload the current page, optionally forcing a re-download of the content.
 
 Method of [apis/location](/apis/location)[apis/location](/apis/location)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = window.location.reload(forceget);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>forceget</span>
+### forceget
 
  Data-type
 :   String
 
  Boolean, true forces a download the page contents again.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //force the page to reload/refresh
 window.location.reload();
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Window Object 1.0](http://www.w3.org/TR/Window/)
 :   W3C Working Draft

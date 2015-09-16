@@ -16,7 +16,7 @@ uri: dom/Event/contextmenu
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -70,7 +70,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example shows how to prevent a context menu from appearing by canceling the **oncontextmenu** event handler.
 
@@ -112,9 +112,9 @@ function menu(e) {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/oncontextmenuEX1.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Opens the context menu. To cancel the default behavior, set the [**returnValue**](/dom/BeforeUnloadEvent/returnValue) property of the **event** object to **false**. To invoke this event, do one of the following:
 
@@ -147,13 +147,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

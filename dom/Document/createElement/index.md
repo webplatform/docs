@@ -26,34 +26,34 @@ tags:
 uri: dom/Document/createElement
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates an instance of the element for the specified tag.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var element = document.createElement(tagName);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>tagName</span>
+### tagName
 
  Data-type
 :   String
 
  The name of an element. The element may be be an existing DOM element or an extension of a DOM element.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ElementElement
 
 The created element.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **createElement** method to dynamically update the contents of a Web page by adding an element selected from a drop-down list box.
 
@@ -98,22 +98,22 @@ document.addEventListener("change", create, false);
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/createElement.htm)
 
-## <span>Usage</span>
+## Usage
 
      The properties of these created elements are read/write and can be accessed programmatically. Before you use new objects, you must explicitly add them to their respective collections or to the document. To insert new elements into the current document, use the insertBefore method or the appendChild method.
 
-## <span>Notes</span>
+## Notes
 
 You must perform a second step when you use **createElement** to create the [**input**](/html/elements/input) element. The **createElement** method generates an input text box, because that is the default **input** [**type**](/html/attributes/type) property. To insert any other kind of **input** element, first invoke **createElement** for **input**, and then set the **type** property to the appropriate value in the next line of code.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-2141741547)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `cloneNode`

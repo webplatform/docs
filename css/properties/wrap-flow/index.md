@@ -22,11 +22,11 @@ tags:
 uri: css/properties/wrap-flow
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies how exclusions affect inline content within block-level elements. Elements lay out their inline content in their content area but wrap around exclusion areas.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -52,7 +52,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `wrap-flow: auto`
 -   `wrap-flow: both`
@@ -62,7 +62,7 @@ Percentages
 -   `wrap-flow: minimum`
 -   `wrap-flow: start`
 
-## <span>Values</span>
+## Values
 
 auto
 :   No exclusion is created. Inline flow content interacts with the element as usual.
@@ -99,7 +99,7 @@ clear
 
 ![wrap-flow:clear applied to grid positioned elements;](/assets/public/4/41/exclusion_wrap_side_clear.png)
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /*
@@ -125,19 +125,19 @@ Can be enabled in Canary under "Enable experimental WebKit features".
 
 [View live example](http://code.webplatform.org/gist/5867597)
 
-## <span>Usage</span>
+## Usage
 
      If the property's computed value is "auto", the element does not become an exclusion.
 
 An exclusion affects the inline flow content descended from the exclusion's containing block, and that of all descendant elements of the same containing block. All inline flow content inside the containing block of the exclusions is affected. To stop the effect of exclusions defined outside an element, the [wrap-through](/css/properties/wrap-through) property can be used.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Exclusions Module Level 1](http://dev.w3.org/csswg/css-exclusions/)
 :   Editor's Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [wrap-through](/css/properties/wrap-through)

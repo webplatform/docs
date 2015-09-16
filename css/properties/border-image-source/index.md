@@ -20,11 +20,11 @@ tags:
 uri: css/properties/border-image-source
 
 ---
-## <span>Summary</span>
+## Summary
 
 The property border-image-source is used to set the image to be used instead of the border style. If this is set to none the border-style is used instead.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -50,12 +50,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `border-image-source: none`
 -   `border-image-source: url(path/to/image.png)`
 
-## <span>Values</span>
+## Values
 
 none
 :   Default. `border-style` is used instead.
@@ -63,7 +63,7 @@ none
 url(path/to/image.png)
 :   This value contains a path to an image that you want to apply to the element in question as a background image, using the CSS images syntax, as described at ["CSS images: url()"](/css/functions/url()).
 
-## <span>Examples</span>
+## Examples
 
 A simple example showing a \<div\> that has border-image-source property and other border-image properties.
 
@@ -95,16 +95,16 @@ div {
 
 [View live example](http://code.webplatform.org/gist/5621011)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#the-border-image-source)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Border</span>
+#### Border
 
 -   [border](/css/properties/border)
 
@@ -164,6 +164,6 @@ div {
 
 -   [border-width](/css/properties/border-width)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Decorating fancy borders with CSS border-image](/tutorials/css_border_image)

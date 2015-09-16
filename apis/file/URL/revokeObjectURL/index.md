@@ -20,38 +20,38 @@ tags:
 uri: apis/file/URL/revokeObjectURL
 
 ---
-## <span>Summary</span>
+## Summary
 
 Revokes a URL from a document and frees the object associated with that URL.
 
 Method of [apis/file/URL](/apis/file/URL)[apis/file/URL](/apis/file/URL)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  URL.revokeObjectURL(objectURL);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>objectURL</span>
+### objectURL
 
  Data-type
 :   String
 
  String that indicates the URL to revoke from the document.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 This method does not need to be called on a URL object that was created using *oneTimeOnly* set to true. If a URL object is created and not used, this method must be called to revoke it. All URLs that are not revoked will be destroyed when the markup that created them is torn down.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft

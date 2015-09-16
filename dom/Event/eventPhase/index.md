@@ -24,13 +24,13 @@ tags:
 uri: dom/Event/eventPhase
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the event phase that is being evaluated.
 
 Property of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 var eventPhase = event.eventPhase;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -46,18 +46,18 @@ Returns an object of type NumberNumber
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 During the capturing phase, events are dispatched to parent elements before objects that are lower in the hierarchy. Next, during the bubbling phase, events are dispatched to target elements followed by parent objects. The event phase is `AT_TARGET` when the element that receives the event ([**target**](/dom/Event/target)) is the same element as the element that is processing the event ([**currentTarget**](/dom/Event/currentTarget)). The target element receives both capture and bubble events if both are registered.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

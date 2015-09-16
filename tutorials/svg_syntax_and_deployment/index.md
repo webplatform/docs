@@ -21,11 +21,11 @@ todo_broken_links:
 uri: 'tutorials/svg syntax and deployment'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article shows the basic syntax and usage of SVG.
 
-## <span>A Simple Example</span>
+## A Simple Example
 
 Let us dive straight in with a simple example. Take a look at the following code.
 
@@ -56,7 +56,7 @@ The rendering process involves the following:
 4.  A green circle [[\<circle/\>]] with a radius of 80px is drawn atop the center of the red rectangle (offset 30+120px inward, and 50+50px upward).
 5.  The text "SVG" is drawn. The interior of each letter is filled in with white. The text is positioned by setting an anchor at where we want the midpoint to be: in this case, the midpoint should correspond to the center of the green circle. Fine adjustments can be made to the font size and vertical position to ensure the final result is aesthetically pleasing.
 
-### <span>Basic properties of SVG files</span>
+### Basic properties of SVG files
 
 -   The first important thing to notice is the order of rendering of elements. The globally valid rule for SVG files is, that *later* elements are rendered *atop previous* elements. The further down an element is the more will be visible.
 -   SVG files on the web can be displayed directly in the browser or embedded in HTML files via several methods:
@@ -76,7 +76,7 @@ The rendering process involves the following:
 -   See [this dedicated article](/w/index.php?title=this_dedicated_article&action=edit&redlink=1) for an in-depth dealing with the topic.
 -   How SVG handles sizes and units will be explained [on the next page](/w/index.php?title=on_the_next_page&action=edit&redlink=1).
 
-### <span>SVG File Types</span>
+### SVG File Types
 
 SVG files come in two flavors. Normal SVG files are simple text files containing SVG markup. The recommended filename extension for these files is ".svg" (all lowercase).
 

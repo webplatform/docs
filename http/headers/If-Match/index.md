@@ -10,11 +10,11 @@ tags:
 uri: http/headers/If-Match
 
 ---
-## <span>Summary</span>
+## Summary
 
 Makes the request conditional on the server's resource being a certain ETag (revision and representation).
 
-## <span>Overview table</span>
+## Overview table
 
 Direction
 :   Request
@@ -22,11 +22,11 @@ Direction
 Features
 :
 
-## <span>Syntax</span>
+## Syntax
 
     If-Match = "*" / 1#entity-tag
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 If-Match: "xyzzy"
@@ -40,7 +40,7 @@ If-Match: "xyzzy", "r2d2xxxx", "c3piozzzz"
 If-Match: *
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [RFC7232: HTTP/1.1 Conditional Requests](http://tools.ietf.org/html/rfc7232#section-3.1)
 :

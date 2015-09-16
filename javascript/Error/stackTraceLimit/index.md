@@ -10,17 +10,17 @@ tags:
 uri: javascript/Error/stackTraceLimit
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets the stack trace limit, which is equivalent to the number of error frames to display. The default limit is 10.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     Error .stackTraceLimit
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to set and then get the stack trace limit.
 
@@ -38,13 +38,13 @@ try
      }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 You can set the **stackTraceLimit** property to any positive value between 0 and Infinity. If the **stackTraceLimit** property is set to 0 at the time an error is thrown, no stack trace is shown. If the property is set to a negative value or a non-numeric value, the value is converted to 0. If the stackTraceLimit is set to Infinity , the entire stack is shown. Otherwise, ToUint32 is used to convert the value.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [description Property (Error)](/javascript/Error/description)
 -   [message Property (Error)](/javascript/Error/message)

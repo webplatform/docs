@@ -10,17 +10,17 @@ tags:
 uri: javascript/Function/length
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the number of arguments defined for a function.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     functionName.length
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **length** property:
 
@@ -42,7 +42,7 @@ function ArgTest(a, b){
  // Passed Arguments: 2
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required functionName is the name of the function.
 
@@ -50,9 +50,9 @@ The **length** property of a function is initialized by the scripting engine to 
 
 What happens when a function is called with a number of arguments different from the value of its **length** property depends on the function.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [arguments Property (Function)](/javascript/Function/arguments)
 -   [length Property (Array)](/javascript/Array/length)

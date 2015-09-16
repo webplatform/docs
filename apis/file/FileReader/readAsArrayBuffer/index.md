@@ -22,26 +22,26 @@ tags:
 uri: apis/file/FileReader/readAsArrayBuffer
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), as an ArrayBuffer object, a fixed-length binary data buffer.
 
 Method of [apis/file/FileReader](/apis/file/FileReader)[apis/file/FileReader](/apis/file/FileReader)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = FileReader.readAsArrayBuffer(blob);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>blob</span>
+### blob
 
  Data-type
 :   Blob
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -51,7 +51,7 @@ This method can return one of these values.
 
 S\_OK
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var reader = new FileReader();
@@ -63,11 +63,11 @@ reader.onload = function(e) {
 reader.readAsArrayBuffer(file);
 ```
 
-## <span>Notes</span>
+## Notes
 
 This method asynchronously starts reading the contents of the specified File. When the read operation is finished, `readyState` will become `DONE` and the `onloadend` event handler (that is, callback), if present, will be invoked. At that time, the `result` attribute contains an array buffer object representing the file's data.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft

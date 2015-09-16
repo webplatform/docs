@@ -11,15 +11,15 @@ tags:
 uri: svg/properties/points
 
 ---
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Shapes](http://go.microsoft.com/fwlink/p/?linkid=204737), Section 9.8.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGPolygonElement**](/svg/elements/polygon)
 -   [**SVGPolylineElement**](/svg/elements/polyline)

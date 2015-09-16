@@ -16,22 +16,22 @@ tags:
 uri: html/elements/s
 
 ---
-## <span>s</span>
+## s
 
 For technical reasons, the title of this article is not the text used to call this API. Instead, use `s`
 
-## <span>Summary</span>
+## Summary
 
 The s element represents contents that are no longer accurate and must be marked accordingly in order to allow keeping it in the document.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
 Use the **s** element to represent things that are no longer relevant or no longer accurate. However, **s** is not appropriate when indicating document edits; for that, use the [**del**](/html/elements/del) and [**ins**](/html/elements/ins) elements, as appropriate.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the `<s>` element to render a text that no longer accurate.
 
@@ -50,15 +50,15 @@ Typical browser default CSS properties for the `<s>` element.
 text-decoration: line-through;
 ```
 
-## <span>Usage</span>
+## Usage
 
      While s and del appear to be similar, namely marking obsolete content, but they differ in semantics. del marks text that has been removed from the document, but s marks text that is to be kept in the document, but made clear that its content is no longer accurate.
 
-## <span>Notes</span>
+## Notes
 
 The information that the text inside the **s** element is not accurate is not indicated to assistive technologies, like screen readers. Instead it is interpreted like regular text which can lead to confusion. Add clear text that the information is invalid.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-s-element)
 :   W3C Working Draft
@@ -69,15 +69,15 @@ The information that the text inside the **s** element is not accurate is not in
 [HTML 4.01](http://www.w3.org/TR/html401/present/graphics.html#edef-S)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [`ins`](/html/elements/ins)
 -   [`del`](/html/elements/del)
 -   [`strike`](/html/elements/strike)
 
-### <span>External resources</span>
+### External resources
 
 -   [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/HTML/Element/s)
 -   [Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/ms535890%28v=vs.85%29.aspx)

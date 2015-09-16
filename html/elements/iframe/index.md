@@ -20,18 +20,18 @@ todo_broken_links:
 uri: html/elements/iframe
 
 ---
-## <span>Summary</span>
+## Summary
 
 The iframe element (&lt;iframe&gt;) introduces a new nested browsing context.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLIFrameElement](/dom/HTMLIFrameElement)
 
 Iframes are one the best ways to build up a complex, detailed webpage from smaller, more manageable chunks. By using iframe tags, a developer can include webpages as part of a larger, enompassing parent page. Unlike frames, iframes can be styled through CSS and easily molded to fit seamlessly within the parent page. One neat use of an iframe is to display a custom Google map within the page. This can be done by setting the 'src' attribute of the iframe tag to Google Map URL.
 
-## <span>HTML Attributes</span>
+## HTML Attributes
 
 -   `src` = URL potentially surrounded by spaces
     Gives the address of a page that the nested browsing context is to contain.
@@ -62,7 +62,7 @@ Iframes are one the best ways to build up a complex, detailed webpage from small
 -   `height` = non-negative integer
     Give the height of the visual content of the element, in CSS pixels.
 
-## <span>Examples</span>
+## Examples
 
 This example embeds `http://example.com/` via an IFrame element.
 
@@ -76,13 +76,13 @@ This example shows how to grab the Document contained within an IFrame element (
 var frameDoc = document.getElementById("theFrame").contentDocument;
 ```
 
-## <span>Usage</span>
+## Usage
 
      The developer should be careful not to overuse iframes, because they dramatically slow down the rendering of a page. For each extra iframe, the browser has to make an extra request to the server.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **iframe** element functions as a document within a document, or like a floating **frame**. The [**frames**](/w/index.php?title=dom/properties/frames&action=edit&redlink=1) collection provides access to the contents of an **iframe**. Use the **frames** collection to read or write to elements contained in an **iframe**. For example, the syntax for accessing the [**backgroundColor**](/css/properties/background-color) style of the **body** object in an **iframe** is:
 
@@ -101,7 +101,7 @@ You can access the **iframe** object's properties, but not its contents, through
 
 Using Transparency with Inline Floating Frames
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-iframe-element)
 :   W3C Working Draft
@@ -112,12 +112,12 @@ Using Transparency with Inline Floating Frames
 [HTML 4.01](http://www.w3.org/TR/html401/present/frames.html#edef-IFRAME)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 <http://www.w3.org/TR/html-markup/iframe.html#iframe>
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Using IFRAME Elements`

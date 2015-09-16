@@ -10,11 +10,11 @@ tags:
 uri: 'css/data types/color'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &lt;color&gt; CSS data type allows for various ways of specifying a color, some of which also specify opacity.
 
-### <span>Syntax</span>
+### Syntax
 
 Several different ways are available to specify simple color values:
 
@@ -34,7 +34,7 @@ The following variations on the above allow you to incorporate an *alpha* channe
 
 The recently introduced **transparent** color name specifies a full transparency.
 
-### <span>Color Keywords</span>
+### Color Keywords
 
 .
 
@@ -1380,7 +1380,7 @@ Non-visible-example
 </tbody>
 </table>
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 aside {
@@ -1395,7 +1395,7 @@ aside {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/)
 :   Candidate Recommendation
@@ -1406,9 +1406,9 @@ aside {
 [CSS 2.1](http://www.w3.org/TR/CSS21/syndata.html#color-units)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Setting color in CSS](/tutorials/setting_color_in_css)
 -   [color](/css/color)

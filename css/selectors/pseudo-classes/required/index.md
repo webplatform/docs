@@ -17,7 +17,7 @@ uri: 'css/selectors/pseudo-classes/:required'
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Examples</span>
+## Examples
 
 The following example puts a green border on a field when it is valid and a red border with bold text when it isn't. The email field is required, but the others aren't. The URL field is pre-filled with a bad URL, so it isn't valid when the page opens. In addition, the two optional fields are styled with light gray backgrounds, and the required field with an eye-catching yellow background.
 
@@ -55,13 +55,13 @@ The following example puts a green border on a field when it is valid and a red 
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 A *required* field is a field that cannot be submitted without a value. A required field has the [required](http://go.microsoft.com/fwlink/p/?LinkId=233321) attribute set in its [input](http://go.microsoft.com/fwlink/p/?LinkID=219805) element. The [required](http://go.microsoft.com/fwlink/p/?LinkId=233321) attribute can be set on text, URL, email, select, checkbox, or radio button controls, and on [select](http://go.microsoft.com/fwlink/p/?LinkId=233312) and [textarea](http://go.microsoft.com/fwlink/p/?LinkID=236896) elements. It is a Boolean attribute, and need be specified only on an element. When users hover the mouse over a required field, they'll see a tooltip stating that it is a required field. (If you've set the [title](http://go.microsoft.com/fwlink/p/?LinkId=236898) attribute, that will be shown instead.)
 
-### <span>Syntax</span>
+### Syntax
 
 selector
 
@@ -71,16 +71,16 @@ required
 
 </dd>
 </dl>
-### <span>Parameters</span>
+### Parameters
 
 *selector*
 :   A CSS simple selector.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Pseudo-Classes</span>
+#### Pseudo-Classes
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -132,7 +132,7 @@ required
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -208,7 +208,7 @@ required
 
 -   [type](/css/selectors/type)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTML5 Forms (Internet Explorer 10 Guide for Developers)`
 -   `required attribute`

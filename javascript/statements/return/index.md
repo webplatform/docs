@@ -10,17 +10,17 @@ tags:
 uri: javascript/statements/return
 
 ---
-## <span>Summary</span>
+## Summary
 
 Exits from the current function and returns a value from that function.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     return [ ( ][ expression ][ ) ];
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the return statement.
 
@@ -46,15 +46,15 @@ function doWork() {
  // Output: 6
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The optional expression argument is the value to be returned from the function. If omitted, the function does not return a value.
 
 You use the return statement to stop execution of a function and return the value of expression. If expression is omitted, or no return statement is executed from within the function, the expression that called the current function is assigned the value undefined.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [function Statement](/javascript/statements/function)
 

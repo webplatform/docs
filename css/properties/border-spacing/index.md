@@ -23,11 +23,11 @@ tags:
 uri: css/properties/border-spacing
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the distance between the borders of adjacent cells.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
@@ -50,12 +50,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderSpacing`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `border-spacing: inherit`
 -   `border-spacing: length`
 
-## <span>Values</span>
+## Values
 
 length
 :   The distance that separates adjoining cell borders. If one length is specified, it gives both the horizontal and vertical spacing. If two are specified, the first gives the horizontal spacing and the second the vertical spacing. Lengths may not be negative.
@@ -63,7 +63,7 @@ length
 inherit
 :   The same specified value as the property for the element's parent will be used.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 
@@ -71,11 +71,11 @@ inherit
 
 [View live example](http://code.webplatform.org/gist/6948537)
 
-## <span>Notes</span>
+## Notes
 
 -   The CSS2.1 specification states that user agents may apply this property to frameset elements (therefore replacing the framespacing attribute).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1, 17.6.1. The separated borders model](http://www.w3.org/TR/CSS2/tables.html#propdef-border-spacing)
 :   Recommendation
@@ -83,11 +83,11 @@ inherit
 [CSS 3, 8.1. The separated borders model](http://dev.w3.org/csswg/css3-tables/#border-spacing)
 :   Editor's Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Tables</span>
+#### Tables
 
 -   [border-collapse](/css/properties/border-collapse)
 

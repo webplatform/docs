@@ -15,11 +15,11 @@ todo_broken_links:
 uri: concepts/programming/javascript/overview
 
 ---
-## <span>Summary</span>
+## Summary
 
 This chapter introduces JavaScript and discusses some of its fundamental concepts.
 
-# <span>What is JavaScript?</span>
+# What is JavaScript?
 
 JavaScript is a cross-platform, object-oriented scripting language. JavaScript is a small, lightweight language; it is not useful as a standalone language, but is designed for easy embedding in other products and applications, such as web browsers. Inside a host environment, JavaScript can be connected to the objects of its environment to provide programmatic control over them.
 
@@ -32,7 +32,7 @@ Through JavaScript's LiveConnect functionality, you can let Java and JavaScript 
 
 Netscape invented JavaScript, and JavaScript was first used in Netscape browsers.
 
-# <span>JavaScript and Java</span>
+# JavaScript and Java
 
 JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.
 
@@ -54,13 +54,13 @@ In contrast, JavaScript descends in spirit from a line of smaller, dynamically t
 
  For more information on the differences between JavaScript and Java, see the chapter [About the object model](/w/index.php?title=concepts/programming/javascript/overview/guides/JavaScript/About_the_object_model&action=edit&redlink=1).
 
-# <span>JavaScript and the ECMAScript Specification</span>
+# JavaScript and the ECMAScript Specification
 
 Netscape invented JavaScript, and JavaScript was first used in Netscape browsers. However, Netscape is working with Ecma International — the European association for standardizing information and communication systems (ECMA was formerly an acronym for the European Computer Manufacturers Association) to deliver a standardized, international programming language based on core JavaScript. This standardized version of JavaScript, called ECMAScript, behaves the same way in all applications that support the standard. Companies can use the open standard language to develop their implementation of JavaScript. The ECMAScript standard is documented in the ECMA-262 specification.
 
 The ECMA-262 standard is also approved by the ISO (International Organization for Standardization) as ISO-16262. You can find a PDF version of ECMA-262 (outdated version) at the Mozilla website. You can also find the specification on the Ecma International website. The ECMAScript specification does not describe the Document Object Model (DOM), which is standardized by the World Wide Web Consortium (W3C). The DOM defines the way in which HTML document objects are exposed to your script.
 
-## <span>Relationship between JavaScript Versions and ECMAScript Editions</span>
+## Relationship between JavaScript Versions and ECMAScript Editions
 
 Netscape worked closely with Ecma International to produce the ECMAScript Specification (ECMA-262). The following table describes the relationship between JavaScript versions and ECMAScript editions.
 
@@ -106,13 +106,13 @@ Netscape worked closely with Ecma International to produce the ECMAScript Specif
 
 JavaScript will always include features that are not part of the ECMAScript Specification; JavaScript is compatible with ECMAScript, while providing additional features.
 
-## <span>JavaScript Documentation versus the ECMAScript Specification</span>
+## JavaScript Documentation versus the ECMAScript Specification
 
 The ECMAScript specification is a set of requirements for implementing ECMAScript; it is useful if you want to determine whether a JavaScript feature is supported in other ECMAScript implementations. If you plan to write JavaScript code that uses only features supported by ECMAScript, then you may need to review the ECMAScript specification.
 
 The ECMAScript document is not intended to help script programmers; use the JavaScript documentation for information on writing scripts.
 
-## <span>JavaScript and ECMAScript Terminology</span>
+## JavaScript and ECMAScript Terminology
 
 The ECMAScript specification uses terminology and syntax that may be unfamiliar to a JavaScript programmer. Although the description of the language may differ in ECMAScript, the language itself remains the same. JavaScript supports all functionality outlined in the ECMAScript specification.
 

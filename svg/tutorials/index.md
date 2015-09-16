@@ -11,7 +11,7 @@ tags:
 uri: svg/tutorials
 
 ---
-## <span>Summary</span>
+## Summary
 
 A list of SVG tutorials.
 
@@ -90,7 +90,7 @@ API Name
 [Using text in SVG](/tutorials/using_text_in_svg)
 :   This article details how to insert text into an SVG image.
 
-## <span>SVG basics</span>
+## SVG basics
 
 -   [SVG primer](/tutorials/svg_primer)
 
@@ -101,7 +101,7 @@ API Name
 -   [Styling SVG with CSS](/tutorials/styling_svg_with_css)
 -   [Using text in SVG](/tutorials/using_text_in_svg)
 
-## <span>Advanced SVG</span>
+## Advanced SVG
 
 -   [SVG clipping and masking](/tutorials/svg_clipping_and_masking)
 -   [SVG gradients](/tutorials/svg_gradients)
@@ -114,7 +114,7 @@ API Name
 -   [External content in SVG](/tutorials/external_content_in_svg)
 -   [Animations in SVG](/tutorials/animations_in_svg)
 
-## <span>More SVG</span>
+## More SVG
 
 -   [SVG grand tour](/svg/tutorials/smarter_svg_overview)
 -   [SVG shapes](/svg/tutorials/smarter_svg_shapes)

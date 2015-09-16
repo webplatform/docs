@@ -12,7 +12,7 @@ tags:
 uri: 'css/data types/position'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &lt;position&gt; CSS data type represents information for positioning an element in horizontal and vertical directions using a mix of keywords, percentage, and length values.
 
@@ -20,7 +20,7 @@ The &lt;position&gt; CSS data type represents information for positioning an ele
 
 The position is specified using one or two tokens, either of which may be a keyword, length or percentage. The first token represents the *horizontal* position and the second represents the *vertical* position, *unless* both values are specified using keywords (in which case the order is irrelevant, since the keywords specify the dimension). If only one token is specified, the second token is treated as the keyword "center".
 
-### <span>Numerical position values</span>
+### Numerical position values
 
 If positions are given using [`<length>`](/css/data_types/length) values, the length represents the distance from the top or left side of the positioning container (the element box or viewport) to the top or left side of the object being positioned.
 
@@ -34,7 +34,7 @@ More generally, for an object of width *x1* and height *y1* positioned within a 
 
 If the object being positioned is a single point (e.g., the center point of a radial gradient), it is treated as if has zero height and width and therefore the percentages are just simple percentages of the container's height and width.
 
-### <span>Keyword position values</span>
+### Keyword position values
 
 The keyword values are:
 
@@ -48,7 +48,7 @@ The applicable direction for the **center** keyword is horizontal if its the fir
 
 Keywords may be combined with length and percentage values, but then the **horizontal vertical** order must be respected.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 body{
@@ -73,7 +73,7 @@ body{
 
 [View live example](http://code.webplatform.org/gist/10612218)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/#position)
 :   W3C Candidate Recommendation

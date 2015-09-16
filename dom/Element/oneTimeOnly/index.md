@@ -22,7 +22,7 @@ uri: dom/Element/oneTimeOnly
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.;
@@ -31,17 +31,17 @@ element. = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When an object created with [**createObjectURL**](/apis/file/URL/createObjectURL) uses this attribute set to true, the object is only used once. The [**revokeObjectURL**](/apis/file/URL/revokeObjectURL) method does not need to be used on the object.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `createObjectURL`
 -   `revokeObjectURL`

@@ -10,17 +10,17 @@ tags:
 uri: javascript/Math/atan
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the arctangent of a number.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     Math.atan( number )
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var v1 = Math.atan(-1.0);
@@ -28,7 +28,7 @@ document.write(v1);
 // Output: -0.7853981633974483
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required number argument is a numeric expression for which the arctangent is needed.
 
@@ -36,9 +36,9 @@ The return value is the arctangent of the number argument, in radians.
 
 **Applies To** : [Math Object](/javascript/Math)
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math.acos Function](/javascript/Math/acos)
 -   [Math.asin Function](/javascript/Math/asin)

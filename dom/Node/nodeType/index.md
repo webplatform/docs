@@ -23,13 +23,13 @@ tags:
 uri: dom/Node/nodeType
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the type of the requested node.
 
 Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 var nodeType = node.nodeType;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -67,7 +67,7 @@ Node.DOCUMENT\_FRAGMENT\_NODE = 11
 
 Node.NOTATION\_NODE = 12
 
-## <span>Examples</span>
+## Examples
 
 This example assigns the **nodeType** property of the **body** object to a variable.
 
@@ -118,7 +118,7 @@ function getNodeTypeName(nType){
    }
 ```
 
-## <span>Notes</span>
+## Notes
 
 If the node represents an attribute retrieved from the [**attributes**](/dom/Node/attributes) collection, the **nodeType** returns `null`.
 
@@ -130,7 +130,7 @@ Use the HTML comment block instead.
 
 \<comment\> this is a legacy IE comment tag and will display on your web page... do not use or remove from your legacy pages\</comment\>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

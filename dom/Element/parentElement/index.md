@@ -19,13 +19,13 @@ tags:
 uri: dom/Element/parentElement
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the parent node of this DOM node, if the parent is an element node; null if the parent is not an element or if there is no parent. Read-only.
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,10 +35,10 @@ var result = element.parentElement;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The topmost object returns `null` as its parent.
 
-### <span>Syntax</span>
+### Syntax

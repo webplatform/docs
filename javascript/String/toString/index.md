@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/toString
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a string representation of a string.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,11 +23,11 @@ Returns a string representation of a string.
 **string**
 :   Required. The object to represent as a string.
 
-## <span>Return Value</span>
+## Return Value
 
 The string representation of the string.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **toString** method with a string.
 

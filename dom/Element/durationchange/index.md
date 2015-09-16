@@ -17,7 +17,7 @@ uri: dom/Element/durationchange
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -69,7 +69,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following example reads the total duration when the video is loaded and updates the current playback position as the video plays.
 
@@ -87,28 +87,28 @@ function durationChange()
 <div>Time: <span id="time">0</span> of <span id="duration">0</span> seconds.</div>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Use the [**duration**](/dom/HTMLMediaElement/duration) property to determine the new duration of the clip. This event occurs immediately after [**loadstart**](/dom/Element/loadstart) and before [**loadedmetadata**](/dom/Element/loadedmetadata). To invoke this event, do one of the following:
 
 -   Load a media resource.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.8.9.12
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `audioElement`
 -   `audioApi`

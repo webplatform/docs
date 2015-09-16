@@ -18,23 +18,23 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/stroke
 
 ---
-## <span>Summary</span>
+## Summary
 
 Traces the intended path, using the CanvasRenderingContext2D object for the line styles, and then fills the combined stroke area using the strokeStyle attribute.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  context.stroke();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 Basic example that shows how to draw a dark green circle with a light green outline
 
@@ -87,11 +87,11 @@ Complete example that shows how to draw a dark green circle with a light green o
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
 Use the [beginPath](/apis/canvas/CanvasRenderingContext2D/beginPath) method after you call the *stroke* method to close the existing path and start a new one with different properties.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

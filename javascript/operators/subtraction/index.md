@@ -10,11 +10,11 @@ tags:
 uri: javascript/operators/subtraction
 
 ---
-## <span>Summary</span>
+## Summary
 
 Subtracts the value of one expression from another or provides unary negation of a single expression.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Subtracts the value of one expression from another or provides unary negation of
 **number2**
 :   Any numeric expression.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var x = 5;
@@ -38,7 +38,7 @@ var z;
 z = y - x; // result: z = 2
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 In Syntax 1, the **-** operator is the arithmetic subtraction operator used to find the difference between two numbers. In Syntax 2, the **-** operator is used as the unary negation operator to indicate the negative value of an expression.
 
@@ -51,9 +51,9 @@ For Syntax 2, as for all unary operators, expressions are evaluated as follows:
 
 The operator is applied to the resulting number. In Syntax 2, if the resulting number is nonzero, result is equal to the resulting number with its sign reversed. If the resulting number is zero, result is zero.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Subtraction Assignment Operator (-=)](/javascript/operators/subtraction_assignment)
 

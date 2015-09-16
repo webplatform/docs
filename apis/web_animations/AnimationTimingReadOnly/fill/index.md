@@ -21,7 +21,7 @@ tags:
 uri: 'apis/web animations/AnimationTimingReadOnly/fill'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The fill mode as specified by one of the FillMode enumeration values.
 
@@ -31,7 +31,7 @@ If the animation node to which the fill mode is being is applied is an animation
 
 Property of [apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)[apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/
 var result = element.fill;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 

@@ -15,11 +15,11 @@ todo_broken_links:
 uri: dom/PointerEvent/pointerenter
 
 ---
-## <span>Summary</span>
+## Summary
 
 Dispatched when a pointing device is moved into the hit test boundaries of an element or one of its descendants, including as a result of a pointerdown event from a device that does not support hover.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -75,17 +75,17 @@ Varies: when the pointer is primary, all default actions of the [mouseenter](/do
 </table>
 This event type is similar to [pointerover](/dom/PointerEvent/pointerover), but differs in that it does not bubble.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 element.addEventListener("pointerenter", handler, useCapture) ;
 ```
 
-## <span>Notes</span>
+## Notes
 
 There are similarities between this event type, the [mouseenter](/dom/MouseEvent/mouseenter) event described in [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/) and the CSS :hover pseudo-class described in [CSS 2.1](http://www.w3.org/TR/CSS2/). See also the [pointerleave](/w/index.php?title=dom/objects/PointerEvent/pointerleave&action=edit&redlink=1) event.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Pointer Events](http://www.w3.org/TR/pointerevents)
 :   Working Draft

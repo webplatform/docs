@@ -10,10 +10,10 @@ tags:
 uri: 'tutorials/creating gradients in css'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Article to cover CSS3 gradients - linear and radial.
 
-## <span>Content Needed</span>
+## Content Needed
 
 This topic seemed like a good idea, we just ran out of time. If you have the time to write it up, please do. We’re all pitching in here at WPD. Thanks!

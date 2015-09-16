@@ -13,7 +13,7 @@ tags:
 uri: html/attributes/encoding
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the MIME encoding for the form.
 
@@ -31,17 +31,17 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Microsoft Internet Explorer 4.0 also recognizes multipart/form-data, which, along with a POST method, is required to submit a file upload to the server.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `form`
 -   `action`

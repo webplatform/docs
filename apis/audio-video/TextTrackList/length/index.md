@@ -23,13 +23,13 @@ tags:
 uri: apis/audio-video/TextTrackList/length
 
 ---
-## <span>Summary</span>
+## Summary
 
 The length attribute of a TextTrackList object returns the number of text tracks in the list represented by the TextTrackList.
 
 Property of [apis/audio-video/TextTrackList](/apis/audio-video/TextTrackList)[apis/audio-video/TextTrackList](/apis/audio-video/TextTrackList)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,11 +37,11 @@ Property of [apis/audio-video/TextTrackList](/apis/audio-video/TextTrackList)[ap
 var result = TextTrackList.length;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //. . .
@@ -51,11 +51,11 @@ alert(myTextTrackList.length);
 //. . .
 ```
 
-## <span>Notes</span>
+## Notes
 
 The maximum number of audio tracks a video can contain has not been defined in the World Wide Web Consortium (W3C) specification.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

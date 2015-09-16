@@ -17,21 +17,21 @@ tags:
 uri: dom/TextEvent/initTextEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initializes a new text event that the createEvent method created.
 
 Method of [dom/TextEvent](/dom/TextEvent)[dom/TextEvent](/dom/TextEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  event.initTextEvent(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>eventType</span>
+### eventType
 
  Data-type
 :   String
@@ -40,35 +40,35 @@ Method of [dom/TextEvent](/dom/TextEvent)[dom/TextEvent](/dom/TextEvent)
 
 For IE9 or higher use 'textinput' For Webkit use 'textInput'.
 
-### <span>canBubble</span>
+### canBubble
 
  Data-type
 :   Boolean
 
  Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
 
-### <span>cancelable</span>
+### cancelable
 
  Data-type
 :   Boolean
 
  Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
 
-### <span>view</span>
+### view
 
  Data-type
 :   Object
 
  The window on which this event is occurring. Sets the value for the [view](/dom/UIEvent/view) property.
 
-### <span>data</span>
+### data
 
  Data-type
 :   String
 
  Character data. Sets the value for the [**data**](/dom/CompositionEvent/data) property.
 
-### <span>inputMethod</span>
+### inputMethod
 
  Data-type
 :   Number
@@ -77,7 +77,7 @@ For IE9 or higher use 'textinput' For Webkit use 'textInput'.
 
 Required in Internet Explorer, not supported and omitted in Safari and Google Chrome. Integer that specifies the input mode for the text.
 
-### <span>locale</span>
+### locale
 
  Data-type
 :   String
@@ -86,11 +86,11 @@ Required in Internet Explorer, not supported and omitted in Safari and Google Ch
 
 Required in Internet Explorer, not supported and omitted in Safari and Google Chrome. String that specifies the locale name of the text.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 The below sample shows a click event handler that creates and dispatches either a 'textinput' or 'textInput' event (depending on the selected options) to textarea element.
 
@@ -157,11 +157,11 @@ function getDOMInputMethod(iInputMethod){
     }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Used to emulate keyboard events from other input devices like on screen keyboard clicks, voice input, handwriting, copy and paste operations and scripted input methods.
 
-## <span>Notes</span>
+## Notes
 
 The event type is case sensitive!
 
@@ -171,7 +171,7 @@ In Safari and Chromium use 'textInput' for the eventType parameter.
 
 MSIE browsers further require that the event inputMethod isTrusted.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events (20110531)](http://www.w3.org/TR/2011/WD-DOM-Level-3-Events-20110531)
 :   Outdated Working Draft

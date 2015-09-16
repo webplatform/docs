@@ -18,13 +18,13 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/onremovestream
 
 ---
-## <span>Summary</span>
+## Summary
 
 Handles the removeStream event for when setRemoteDescription() is called to remove a MediaStream object on the remote peer.
 
 Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onremovestream;

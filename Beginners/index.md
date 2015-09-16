@@ -84,11 +84,11 @@ translations:
 uri: Beginners
 
 ---
-## <span>Summary</span>
+## Summary
 
 So you want to learn to make websites? This page has a list of articles that are perfect to help you understand the basics. It describes the tools of the trade and provides links to articles explaining the basics.
 
-## <span>Beginners submenu</span>
+## Beginners submenu
 
 The ****Beginners**** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 
@@ -103,7 +103,7 @@ The ****Beginners**** section covers the various aspects of web development sepa
 -   [9. Browser testing](/Beginners/browser_testing)
 -   [Glossary](/Beginners/glossary)
 
-## <span>Before you start</span>
+## Before you start
 
 In this section, you will be writing a lot of code, and testing it out in web browsers. Before you start, you should at least have the following installed:
 
@@ -140,9 +140,9 @@ In this section, you will be writing a lot of code, and testing it out in web br
 
 Now roll your sleeves up and get ready to learn. [Browse our full list of learning articles](/tutorials) if you exhaust the list of articles here and want to learn more!
 
-## <span>Other useful articles for beginners</span>
+## Other useful articles for beginners
 
-### <span>Web fundamentals</span>
+### Web fundamentals
 
 -   [The history of the Web](/concepts/internet_and_web/the_history_of_the_web)
 -   [How does the Internet work](/concepts/internet_and_web/how_does_the_internet_work)
@@ -150,7 +150,7 @@ Now roll your sleeves up and get ready to learn. [Browse our full list of learni
 -   [Getting your content online](/tutorials/getting_your_content_online)
 -   [Accessibility](/concepts/accessibility)
 
-### <span>HTML — structuring your web content</span>
+### HTML — structuring your web content
 
 -   [The basics of HTML](/guides/the_basics_of_html)
 -   [DOCTYPES and markup styles](/guides/doctypes_and_markup_styles)
@@ -166,7 +166,7 @@ Now roll your sleeves up and get ready to learn. [Browse our full list of learni
 -   [HTML5 form features](/guides/html5_form_features)
 -   [Lesser-known semantic elements](/guides/lesser-known_semantic_elements)
 
-### <span>CSS — styling your web content</span>
+### CSS — styling your web content
 
 -   [Getting started with CSS](/guides/getting_started_with_css)
 -   [Using selectors](/tutorials/using_selectors)
@@ -177,7 +177,7 @@ Now roll your sleeves up and get ready to learn. [Browse our full list of learni
 -   [Making CSS easier to read](/tutorials/making_css_easier_to_read)
 -   [Targetting styles with media queries](/tutorials/media_queries)
 
-### <span>JavaScript — adding dynamic behavior to websites</span>
+### JavaScript — adding dynamic behavior to websites
 
 -   [Programming basics](/concepts/programming/programming_basics)
 -   [Your first look at JavaScript](/tutorials/your_first_look_at_javascript)
@@ -190,7 +190,7 @@ Now roll your sleeves up and get ready to learn. [Browse our full list of learni
 -   [Events in JavaScript](/tutorials/events_in_javascript)
 -   [Pointer Events for mouse, touch, and pen input](/PointerEvents)
 
-### <span>Applied techniques</span>
+### Applied techniques
 
 -   [Creating navigation menus](/tutorials/creating_basic_navigation_menus)
 

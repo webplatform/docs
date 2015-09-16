@@ -33,13 +33,13 @@ uri: css/cssom/CSSKeyframesRule/deleteRule
 
 Method of [css/cssom/CSSKeyframesRule](/css/cssom/CSSKeyframesRule)[css/cssom/CSSKeyframesRule](/css/cssom/CSSKeyframesRule)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.deleteRule();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -51,28 +51,28 @@ This method can return one of these values.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If a rule with the given key does not exist, the **deleteRule** method does nothing.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Animations Module Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223144), Section 5
 
-### <span>Parameters</span>
+### Parameters
 
 *key* [in]
 :   Type: **DOMString**The key that describes the [**CSSKeyframeRule**](/css/cssom/CSSKeyframeRule) object to be deleted. The key must resolve to a number between 0 and 1, or the rule is ignored.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -122,7 +122,7 @@ If a rule with the given key does not exist, the **deleteRule** method does noth
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -268,6 +268,6 @@ If a rule with the given key does not exist, the **deleteRule** method does noth
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSKeyframesRule`

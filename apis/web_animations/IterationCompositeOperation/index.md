@@ -19,35 +19,35 @@ todo_broken_links:
 uri: 'apis/web animations/IterationCompositeOperation'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The possible values of an animation effect’s iteration composite operation are represented by the IterationCompositeOperation enumeration.
 
 Inherits from [enum](/w/index.php?title=enum&action=edit&redlink=1)[enum](/w/index.php?title=enum&action=edit&redlink=1)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from enum</span>
+## Inherited from enum
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 

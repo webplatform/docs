@@ -10,11 +10,11 @@ tags:
 uri: javascript/Math/abs
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the absolute value of a number (the value without regard to whether it is positive or negative). For example, the absolute value of -5 is the same as the absolute value of 5.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,11 +23,11 @@ Returns the absolute value of a number (the value without regard to whether it i
 **number**
 :   Required. The required number argument is a numeric expression for which the absolute value is needed.
 
-## <span>Return Value</span>
+## Return Value
 
 The absolute value of the number argument.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **abs** function.
 
@@ -45,9 +45,9 @@ var s;
  // Output: Absolute values are the same.
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math Object](/javascript/Math)
 

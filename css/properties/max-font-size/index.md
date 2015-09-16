@@ -19,11 +19,11 @@ tags:
 uri: css/properties/max-font-size
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property must not be used. It is no longer included in any standard or standard track specification, nor is it implemented in any browser. It is only used when the text-align-last property is set to size. It controls allowed adjustments of font-size to fit line content.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -46,9 +46,9 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `maxFontSize`
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 font-size
 :   The font size of the last line of an element is restricted to being less than either the computed font-size or this number, whichever is larger.
@@ -56,20 +56,20 @@ font-size
 auto
 :   The rendering agent determines the minium font size.
 
-## <span>Usage</span>
+## Usage
 
      This property must not be used. It is no longer included in any standard or standard track specification, nor is it implemented in any browser. The feature can be mimicked using JavaScript or similar. This property is only used when the text-align-last property is set to size.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514/)
 :   Obsolete (previously Candidate Recommendation)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -103,7 +103,7 @@ auto
 
 -   [font](/html/elements/font)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

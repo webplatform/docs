@@ -19,13 +19,13 @@ tags:
 uri: apis/indexeddb/IDBDatabase/version
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the version of the database when this IDBDatabaseSync instance was created.
 
 Property of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)[apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.version;
@@ -34,14 +34,14 @@ element.version = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 In pre-release versions of Internet Explorer 10, this property initially returned a **DOMString** value. Based on changes to the underlying specification, the **version** property now returns a **unsigned long long** value. Applications that rely on the original implementation must be updated accordingly.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

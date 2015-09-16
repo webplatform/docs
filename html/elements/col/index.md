@@ -15,16 +15,16 @@ tags:
 uri: html/elements/col
 
 ---
-## <span>Summary</span>
+## Summary
 
 The col element (&lt;col&gt;) specifies properties for each column within a &lt;colgroup&gt; element in a &lt;table&gt;.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLTableColElement](/dom/HTMLTableColElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **col** element to specify characteristics for default columns in a table.
 
@@ -51,13 +51,13 @@ attribute to work, you must use COLSPAN to define the groups of columns.-->
 </HTML>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **COL** elements can be nested within a **COLGROUP** element. If this is done, the nested **COL** attributes override the **COLGROUP** attributes. You can use the **COL** and **COLGROUP** elements for similar purposes. However, you must use the **COLGROUP** element to determine where table internal dividing lines ([**rules**](/html/attributes/rules)) should go. This is illustrated in the following example. Use the [**SPAN**](/html/attributes/span) attribute to specify the number of table columns that the **COLGROUP** defines. This attribute has a default value equal to one. The [**table**](/html/elements/table) object and its associated elements have a separate table object model, which uses different methods than the general object model. For more information on the table object model, see Building Tables Dynamically.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-col-element)
 :   W3C Working Draft
@@ -68,11 +68,11 @@ attribute to work, you must use COLSPAN to define the groups of columns.-->
 [HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-COL)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -212,7 +212,7 @@ attribute to work, you must use COLSPAN to define the groups of columns.-->
 
 -   [time](/html/elements/time)
 
-#### <span>Tables</span>
+#### Tables
 
 -   [border-collapse](/css/properties/border-collapse)
 
@@ -238,6 +238,6 @@ attribute to work, you must use COLSPAN to define the groups of columns.-->
 
 -   [th](/html/elements/th)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [colgroup](/html/elements/colgroup)

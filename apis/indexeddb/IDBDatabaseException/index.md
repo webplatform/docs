@@ -13,11 +13,11 @@ tags:
 uri: apis/indexeddb/IDBDatabaseException
 
 ---
-## <span>Summary</span>
+## Summary
 
 Not supported.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -28,24 +28,24 @@ API Name
 [message](/apis/indexeddb/IDBDatabaseException/message)
 :   Not supported.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Originally supported in pre-release versions of Internet Explorer 10, support for IDatabaseException objects has been removed, due to changes in the specification.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

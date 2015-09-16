@@ -15,11 +15,11 @@ tags:
 uri: 'apis/media capture and streams/ended'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This event is fired when a MediaStream is stopped.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

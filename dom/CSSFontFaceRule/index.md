@@ -18,27 +18,27 @@ tags:
 uri: dom/CSSFontFaceRule
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a CSS @font-face rule, used to hold a set of font descriptions.
 
 Inherits from [CSSRule](/css/cssom/CSSRule)[CSSRule](/css/cssom/CSSRule)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from CSSRule</span>
+## Inherited from CSSRule
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -52,14 +52,14 @@ API Name
 [type](/css/cssom/CSSRule/type)
 :
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 2.2

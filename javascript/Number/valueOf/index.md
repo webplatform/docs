@@ -10,21 +10,21 @@ tags:
 uri: javascript/Number/valueOf
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the primitive value of the specified number.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     number.valueOf()
 
-## <span>Return Value</span>
+## Return Value
 
 Returns the number.
 
-## <span>Examples</span>
+## Examples
 
 In the following example, the instantiated number object is the same as the return value of this method.
 

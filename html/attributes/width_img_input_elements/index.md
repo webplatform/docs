@@ -33,7 +33,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example sets the width of the image to 20 pixels regardless of the original size of the image.
 
@@ -41,17 +41,17 @@ This example sets the width of the image to 20 pixels regardless of the original
 <IMG SRC="large.png" WIDTH="20">
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If you specify the **width** property of an **img**, but not the [**height**](/html/attributes/height) property, the resulting height of the **img** is sized proportionally to the specified **width** property and the actual height, in pixels, of the source image file. Consider the following example: {
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `img`
 -   `input type=button`

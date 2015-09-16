@@ -16,17 +16,17 @@ todo_broken_links:
 uri: concepts/programming/javascript/liveconnect
 
 ---
-## <span>Summary</span>
+## Summary
 
 This chapter describes using LiveConnect technology to let Java and JavaScript code communicate with each other. The chapter assumes you are familiar with Java programming.
 
-## <span>Working with Wrappers</span>
+## Working with Wrappers
 
 In JavaScript, a *wrapper* is an object of the target language data type that encloses an object of the source language. When programming in JavaScript, you can use a wrapper object to access methods and fields of the Java object; calling a method or accessing a property on the wrapper results in a call on the Java object. On the Java side, JavaScript objects are wrapped in an instance of the class `netscape.javascript.JSObject` and passed to Java.
 
 When a JavaScript object is sent to Java, the runtime engine creates a Java wrapper of type `JSObject`; when a `JSObject` is sent from Java to JavaScript, the runtime engine unwraps it to its original JavaScript object type. The `JSObject` class provides an interface for invoking JavaScript methods and examining JavaScript properties.
 
-## <span>JavaScript to Java Communication</span>
+## JavaScript to Java Communication
 
 When you refer to a Java package or class, or work with a Java object or array, you use one of the special LiveConnect objects. All JavaScript access to Java takes place with these objects, which are summarized in the following table.
 
@@ -51,7 +51,7 @@ Static members can be called directly on the JavaClass object.
 
     alert(java.lang.Integer.MAX_VALUE); //alerts 2147483647
 
-### <span>The Packages Object</span>
+### The Packages Object
 
 If a Java class is not part of the `java`, `sun`, or `netscape` packages, you access it with the `Packages` object. For example, suppose the Redwood corporation uses a Java package called `redwood` to contain various Java classes that it implements. To create an instance of the `HelloWorld` class in `redwood`, you access the constructor of the class as follows:
 
@@ -69,7 +69,7 @@ instead of the longer version:
 
     var myString = new Packages.java.lang.String("Hello world");
 
-### <span>Working with Java Arrays</span>
+### Working with Java Arrays
 
 When any Java method creates an array and you reference that array in JavaScript, you are working with a `JavaArray`. For example, the following code creates the `JavaArray x` with ten elements of type int:
 
@@ -77,7 +77,7 @@ When any Java method creates an array and you reference that array in JavaScript
 
 Like the JavaScript `Array` object, `JavaArray` has a `length` property which returns the number of elements in the array. Unlike `Array.length`, `JavaArray.length` is a read-only property, because the number of elements in a Java array are fixed at the time of creation.
 
-### <span>Package and Class References</span>
+### Package and Class References
 
 Simple references to Java packages and classes from JavaScript create the `JavaPackage` and `JavaClass` objects. In the earlier example about the Redwood corporation, for example, the reference Packages.redwood is a JavaPackage object. Similarly, a reference such as `java.lang.String` is a `JavaClass` object.
 
@@ -96,7 +96,7 @@ In JavaScript 1.4 and later, you can pass a `JavaClass` object directly to a met
     // JavaScript 1.4
     var theArray = java.lang.reflect.Array.newInstance(java.lang.String, 5);
 
-### <span>Arguments of Type char</span>
+### Arguments of Type char
 
 In JavaScript 1.4 and later, you can pass a one-character string to a Java method which requires an argument of type `char`. For example, you can pass the string "H" to the `Character` constructor as follows:
 
@@ -106,7 +106,7 @@ In JavaScript 1.3 and earlier, you must pass such methods an integer which corre
 
     var c = new java.lang.Character(72);
 
-### <span>Handling Java Exceptions in JavaScript</span>
+### Handling Java Exceptions in JavaScript
 
 When Java code fails at run time, it throws an exception. If your JavaScript code accesses a Java data member or method and fails, the Java exception is passed on to JavaScript for you to handle. Beginning with JavaScript 1.4, you can catch this exception in a `try...catch` statement. (Although this functionality (along with some others) had been broken in Gecko 1.9 (see [bug 391642](https://bugzilla.mozilla.org/show_bug.cgi?id=391642)) as the Mozilla-specific LiveConnect code had not been maintained inside Mozilla, with Java 6 update 11 and 12 building support for reliance on Mozilla's implementation of the generic (and cross-browser) [NPAPI](http://developer.mozilla.org/en-US/docs/Plugins) plugin code, this has again been fixed.)
 
@@ -139,20 +139,20 @@ For specialized handling based on the exception type, use the `instanceof` opera
 
 See [Exception Handling Statements](http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Statements#Exception_Handling_Statements) for more information about JavaScript exceptions.
 
-## <span>Java to JavaScript Communication</span>
+## Java to JavaScript Communication
 
 If you want to use JavaScript objects in Java, you must import the `netscape.javascript` package into your Java file. This package defines the following classes:
 
 -   `netscape.javascript.JSObject` allows Java code to access JavaScript methods and properties.
 -   `netscape.javascript.JSException` allows Java code to handle JavaScript errors.
 
-### <span>Locating the LiveConnect classes</span>
+### Locating the LiveConnect classes
 
 In older versions of the Netscape browser, these classes were distributed along with the browser. Starting with JavaScript 1.2, these classes are delivered in a .jar file; in previous versions of JavaScript, these classes are delivered in a .zip file. For example, with Netscape Navigator 4 for Windows NT, the classes are delivered in the `java40.jar` file in the `Program\Java\Classes` directory beneath the Navigator directory.
 
 More recently, the classes have been distributed with Oracle's Java Runtime; initially in the file "jaws.jar" in the "jre/lib" directory of the runtime distribution (for JRE 1.3), then in "plugin.jar" in the same location (JRE 1.4 and up).
 
-### <span>Using the LiveConnect classes with the JDK</span>
+### Using the LiveConnect classes with the JDK
 
 To access the LiveConnect classes, place the .jar or .zip file in the `CLASSPATH` of the JDK compiler in either of the following ways:
 
@@ -167,13 +167,13 @@ See the Sun JDK documentation for more information about `CLASSPATH`.
 
 **Note**: Because Java is a strongly typed language and JavaScript is weakly typed, the JavaScript runtime engine converts argument values into the appropriate data types for the other language when you use LiveConnect. See [Data Type Conversions](#Data_Type_Conversions) for complete information.
 
-### <span>Using the LiveConnect Classes</span>
+### Using the LiveConnect Classes
 
 All JavaScript objects appear within Java code as instances of `netscape.javascript.JSObject`. When you call a method in your Java code, you can pass it a JavaScript object as one of its argument. To do so, you must define the corresponding formal parameter of the method to be of type `JSObject`.
 
 Also, any time you use JavaScript objects in your Java code, you should put the call to the JavaScript object inside a `try...catch` statement which handles exceptions of type `netscape.javascript.JSException`. This allows your Java code to handle errors in JavaScript code execution which appear in Java as exceptions of type `JSException`.
 
-#### <span>Accessing JavaScript with JSObject</span>
+#### Accessing JavaScript with JSObject
 
 For example, suppose you are working with the Java class called `JavaDog`. As shown in the following code, the `JavaDog` constructor takes the JavaScript object `jsDog`, which is defined as type `JSObject`, as an argument:
 
@@ -215,7 +215,7 @@ If you evaluate `gabby.color`, you can see that it has the value "chocolate". No
 
 If you evaluate `javaDog.dogColor`, you can see that it also has the value "chocolate", because the `getMember` method in the Java constructor assigns `dogColor` the value of `gabby.color`.
 
-#### <span>Handling JavaScript Exceptions in Java</span>
+#### Handling JavaScript Exceptions in Java
 
 When JavaScript code called from Java fails at run time, it throws an exception. If you are calling the JavaScript code from Java, you can catch this exception in a `try...catch` statement. The JavaScript exception is available to your Java code as an instance of `netscape.javascript.JSException`.
 
@@ -270,7 +270,7 @@ If `theCondition` is false, the function throws an exception. The exception is c
 
 See [Exception Handling Statements](/w/index.php?title=concepts/programming/javascript/liveconnect/guides/JavaScript/Statements&action=edit&redlink=1) for complete information about JavaScript exceptions.
 
-#### <span>Backward Compatibility</span>
+#### Backward Compatibility
 
 In JavaScript 1.3 and earlier versions, the `JSException` class had three public constructors which optionally took a string argument, specifying the detail message or other information for the exception. The `getWrappedException` method was not available.
 
@@ -288,14 +288,14 @@ Use a `try...catch` statement such as the following to handle LiveConnect except
 
 In this example, the `eval` statement fails if `foo` is not defined. The `catch` block executes the `jsCodeFailed` method if the `eval` statement in the `try` block throws a `JSException`; the `otherCodeFailed` method executes if the `try` block throws any other error.
 
-## <span>Data Type Conversions</span>
+## Data Type Conversions
 
 Because Java is a strongly typed language and JavaScript is weakly typed, the JavaScript runtime engine converts argument values into the appropriate data types for the other language when you use LiveConnect. These conversions are described in the following sections:
 
 -   [JavaScript to Java Conversions](#JavaScript_to_Java_Conversions)
 -   [Java to JavaScript Conversions](#Java_to_JavaScript_Conversions)
 
-### <span>JavaScript to Java Conversions</span>
+### JavaScript to Java Conversions
 
 When you call a Java method and pass it parameters from JavaScript, the data types of the parameters you pass in are converted according to the rules described in the following sections:
 
@@ -312,7 +312,7 @@ The return values of methods of `netscape.javascript.JSObject` are always conver
 
 For example, if `JSObject.eval` returns a JavaScript number, you can find the rules for converting this number to an instance of `java.lang.Object` in [Number Values](#Number_Values).
 
-#### <span>Number Values</span>
+#### Number Values
 
 When you pass JavaScript number types as parameters to Java methods, Java converts the values according to the rules described in the following table:
 
@@ -372,7 +372,7 @@ When you pass JavaScript number types as parameters to Java methods, Java conver
 
 When a JavaScript number is passed as a parameter to a Java method which expects an instance of `java.lang.String`, the number is converted to a string. Use the `equals()` method to compare the result of this conversion with other string values.
 
-#### <span>Boolean Values</span>
+#### Boolean Values
 
 When you pass JavaScript Boolean types as parameters to Java methods, Java converts the values according to the rules described in the following table:
 
@@ -414,7 +414,7 @@ When you pass JavaScript Boolean types as parameters to Java methods, Java conve
 
 When a JavaScript Boolean is passed as a parameter to a Java method which expects an instance of `java.lang.String`, the Boolean is converted to a string. Use the == operator to compare the result of this conversion with other string values.
 
-#### <span>String Values</span>
+#### String Values
 
 When you pass JavaScript string types as parameters to Java methods, Java converts the values according to the rules described in the following table:
 
@@ -465,7 +465,7 @@ When you pass JavaScript string types as parameters to Java methods, Java conver
 </tbody>
 </table>
 
-#### <span>Undefined Values</span>
+#### Undefined Values
 
 When you pass undefined JavaScript values as parameters to Java methods, Java converts the values according to the rules described in the following table:
 
@@ -502,7 +502,7 @@ The undefined value conversion is possible in JavaScript 1.3 and later versions 
 
 When a JavaScript undefined value is passed as a parameter to a Java method which expects an instance of `java.lang.String`, the undefined value is converted to a string. Use the == operator to compare the result of this conversion with other string values.
 
-#### <span>Null Values</span>
+#### Null Values
 
 When you pass null JavaScript values as parameters to Java methods, Java converts the values according to the rules described in the following table:
 
@@ -531,7 +531,7 @@ When you pass null JavaScript values as parameters to Java methods, Java convert
 </tbody>
 </table>
 
-#### <span>JavaArray and JavaObject objects</span>
+#### JavaArray and JavaObject objects
 
 In most situations, when you pass a JavaScript `JavaArray` or `JavaObject` as a parameter to a Java method, Java simply unwraps the object; in a few situations, the object is coerced into another data type according to the rules described in the following table:
 
@@ -581,7 +581,7 @@ An interface or class is assignment-compatible with an unwrapped object if the u
 
     unwrappedObject instanceof parameterType;
 
-#### <span>JavaClass objects</span>
+#### JavaClass objects
 
 When you pass a JavaScript `JavaClass` object as a parameter to a Java method, Java converts the object according to the rules described in the following table:
 
@@ -623,7 +623,7 @@ When you pass a JavaScript `JavaClass` object as a parameter to a Java method, J
 </tbody>
 </table>
 
-#### <span>Other JavaScript objects</span>
+#### Other JavaScript objects
 
 When you pass any other JavaScript object as a parameter to a Java method, Java converts the object according to the rules described in the following table:
 
@@ -665,7 +665,7 @@ When you pass any other JavaScript object as a parameter to a Java method, Java 
 </tbody>
 </table>
 
-### <span>Java to JavaScript Conversions</span>
+### Java to JavaScript Conversions
 
 Values passed from Java to JavaScript are converted as follows:
 

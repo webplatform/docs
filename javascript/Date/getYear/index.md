@@ -13,11 +13,11 @@ tags:
 uri: javascript/Date/getYear
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the year of a Date object. Deprecated in favor of getFullYear method.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,13 +26,13 @@ Gets the year of a Date object. Deprecated in favor of getFullYear method.
 '
 :   The required dateObj reference is a Date object.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns the year.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Remarks</span>
+## Remarks
 
 **Important** -- This method is obsolete, and is provided for backward compatibility only. Use the **getFullYear** method instead.
 
@@ -40,9 +40,9 @@ In Internet Explorer 3.0, and then in Internet Explorer versions starting with I
 
 In Internet Explorer 4.0 through Internet Explorer 8 standards mode, the formula depends on the year. For the years 1900 through 1999, the value returned is a 2-digit value that is the stored year minus 1900. For dates outside that range, the 4-digit year is returned. For example, 1996 is returned as 96, but 1825 and 2025 are returned as is.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getFullYear Method (Date)](/javascript/Date/getFullYear)
 -   [getUTCFullYear Method (Date)](/javascript/Date/getUTCFullYear)

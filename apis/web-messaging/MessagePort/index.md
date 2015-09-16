@@ -13,15 +13,15 @@ tags:
 uri: apis/web-messaging/MessagePort
 
 ---
-## <span>Summary</span>
+## Summary
 
 Exposes the available methods on the connected ports.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -35,15 +35,15 @@ API Name
 [start](/apis/web-messaging/MessagePort/start)
 :   Begins dispatching messages received on the port. See Notes.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 Two **MessagePort** objects are automatically created when a **MessageChannel** object is created, and are returned by the **port1** and **port2** properties. Messages are sent from one port are received by the other, and vice versa. The **MessagePort** object provides the **start** method to begin dispatching messages received on the port, and the **close** method to close and disconnect the port. The **postMessage** method sends messages through the port. In Internet Explorer 10, message ports are automatically enabled when a message event is registered with the **onmessage** property or **addEventListener** method. This makes it unnecessary to explicitly call the **start** method under these conditions. After posting a **MessagePort** object using **postMessage**, the **MessagePort** object is implicitly **close**d.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Messaging Specification](http://www.w3.org/TR/webmessaging/)
 :   W3C Candidate Recommendation

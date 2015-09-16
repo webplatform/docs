@@ -13,11 +13,11 @@ tags:
 uri: dom/Range
 
 ---
-## <span>Summary</span>
+## Summary
 
 The Range interface represents a fragment of a document that can contain nodes and parts of text nodes in a given document.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -40,7 +40,7 @@ API Name
 [startOffset](/dom/Range/startOffset)
 :   Retrieves the offset of the starting boundary point relative to the startContainer in the current range.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -99,15 +99,15 @@ API Name
 [toString](/dom/Range/toString)
 :   Returns the contents of a Range as a string. This string contains only the data characters, no markup.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Object Model - View Module](http://dev.w3.org/csswg/cssom-view/#extensions-to-the-range-interface)
 :   Working Draft

@@ -11,17 +11,17 @@ tags:
 uri: javascript/Array/prototype
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a reference to the prototype for a class of array.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     Array.prototype
 
-## <span>Examples</span>
+## Examples
 
 The array argument is the name of an array.
 
@@ -47,13 +47,13 @@ function array_max( ){
  // Output: 25
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 All intrinsic JavaScript objects have a **prototype** property that is read-only. Properties and methods may be added to the prototype, but the object may not be assigned a different prototype. However, user-defined objects may be assigned a new prototype.
 
 The method and property lists for each intrinsic object in this language reference indicate which ones are part of the object's prototype, and which are not.
 
-## <span>Requirements</span>
+## Requirements
 
 Supported in the following document modes: Quirks, Internet Explorer 6 standards, Internet Explorer 7 standards, Internet Explorer 8 standards, Internet Explorer 9 standards, Internet Explorer 10 standards, Internet Explorer 11 standards. Also supported in Windows Store apps. See Version Information.
 

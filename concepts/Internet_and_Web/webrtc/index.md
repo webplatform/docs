@@ -15,15 +15,15 @@ tags:
 uri: 'concepts/Internet and Web/webrtc'
 
 ---
-## <span>RTCPeerConnection</span>
+## RTCPeerConnection
 
 For technical reasons, the title of this article is not the text used to call this API. Instead, use `RTCPeerConnection`
 
-## <span>Summary</span>
+## Summary
 
 WebRTC implements open standards for real-time, plugin-free video, audio and data communication.
 
-## <span>Real-time communication without plugins</span>
+## Real-time communication without plugins
 
 > WebRTC is a new front in the long war for an open and unencumbered web.
 >  — [Brendan Eich](http://hacks.mozilla.org/2012/03/video-mobile-and-the-open-web/), inventor of JavaScript
@@ -40,7 +40,7 @@ A good place to begin is the simple video chat application at [apprtc.appspot.co
 
 There is a walkthrough of the code [later in this article](#toc-simple).
 
-## <span>Quick start</span>
+## Quick start
 
 Haven't got time to read this article, or just want code?
 
@@ -49,7 +49,7 @@ Haven't got time to read this article, or just want code?
 3.  Get to grips with the RTCPeerConnection API by reading through the [simple example below](#simpleRTCPeerConnectionExample) and the demo at [simpl.info/pc](http://www.simpl.info/pc), which implements WebRTC on a single web page.
 4.  Learn more about how WebRTC uses servers for signaling, data communication, firewall and NAT traversal, by reading through the code and the console logs from the video chat demo at [apprtc.appspot.com](http://apprtc.appspot.com).
 
-## <span>A very short history of WebRTC</span>
+## A very short history of WebRTC
 
 One of the last major challenges for the web is to enable human communication via voice and video: Real Time Communication, RTC for short. RTC should be as natural in a web application as entering text in a text input. Without it, we're limited in our ability to innovate and develop new ways for people to interact.
 
@@ -65,7 +65,7 @@ WebRTC has now implemented open standards for real-time, plugin-free video, audi
 
 The guiding principles of the WebRTC project are that its APIs should be open source, free, standardized, built into web browsers and more efficient than existing technologies.
 
-## <span>Where are we now?</span>
+## Where are we now?
 
 WebRTC implements three APIs:
 
@@ -85,11 +85,11 @@ WebRTC is also implemented by the [Ericsson Bowser browser](https://labs.ericsso
 
 WebRTC functionality is available in Internet Explorer [via Chrome Frame](https://groups.google.com/forum/#!topic/discuss-webrtc/tKoh1wrI8ig), and Skype (acquired by Microsoft in 2011) is reputedly [planning to use WebRTC](http://gigaom.com/2012/06/26/skype-webrtc-web-client/). WebRTC has also been integrated with [WebKitGTK+](https://labs.ericsson.com/developer-community/blog/beyond-html5-conversational-voice-and-video-implemented-webkit-gtk) and [Qt](http://www.youtube.com/watch?v=Vm5ebKWKNE8) native apps.
 
-### <span>A word of warning</span>
+### A word of warning
 
 Be skeptical of reports that a platform 'supports WebRTC'. Often this actually just means that `getUserMedia` is supported, but not any of the other RTC components.
 
-## <span>My first WebRTC</span>
+## My first WebRTC
 
 WebRTC applications need to do several things:
 
@@ -99,7 +99,7 @@ WebRTC applications need to do several things:
 -   Exchange information about media and client capability, such as resolution and codecs.
 -   Communicate streaming audio, video or data.
 
-## <span>MediaStream (aka getUserMedia)</span>
+## MediaStream (aka getUserMedia)
 
 The MediaStream ([specs](https://dvcs.w3.org/hg/audio/raw-file/tip/streams/StreamProcessing.html), [docs](/apis/webrtc/MediaStream)) represents synchronized streams of media. For example, a stream taken from camera and microphone input has synchronized video and audio tracks. (Don't confuse MediaStream tracks with the \<track\> element, which is something [entirely different](http://www.html5rocks.com/en/tutorials/track/basics/).)
 
@@ -144,7 +144,7 @@ The intention is eventually to enable a MediaStream for any streaming data sourc
 
 Note that `getUserMedia()` must be used on a server, not the local file system, otherwise a `PERMISSION_DENIED: 1` error will be thrown.
 
-### <span>Resolution Constraints</span>
+### Resolution Constraints
 
 [Constraints](http://tools.ietf.org/html/draft-alvestrand-constraints-resolution-00#page-4) have been implemented in Chrome 24 and above. These can be used to set values for video resolution for `getUserMedia()` and RTCPeerConnection `addStream()` calls.
 
@@ -156,7 +156,7 @@ One gotcha: `getUserMedia` constraints set in one browser tab affect constraints
 navigator.getUserMedia error:  NavigatorUserMediaError {code: 1, PERMISSION_DENIED: 1}
 ```
 
-## <span>Signaling: session control, network and media information</span>
+## Signaling: session control, network and media information
 
 WebRTC uses RTCPeerConnection to communicate streaming data between browsers (aka peers), but also needs a mechanism to coordinate communication and to send control messages, a process known as signaling. Signaling methods and protocols are *not* specified by WebRTC: signaling is not part of the RTCPeerConnection API.
 
@@ -259,7 +259,7 @@ The offer/answer architecture described above is called [JSEP](http://tools.ietf
 
 Once the signaling process has completed successfully, data can be streamed directly peer to peer, between the caller and callee—or if that fails, via an intermediary server (more about that below). Streaming is the job of RTCPeerConnection.
 
-## <span>RTCPeerConnection</span>
+## RTCPeerConnection
 
 RTCPeerConnection ([specs](http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface), [docs](/apis/webrtc/RTCPeerConnection)) is the WebRTC component that handles stable and efficient communication of streaming data between peers.
 
@@ -279,7 +279,7 @@ From a JavaScript perspective, the main thing to understand from this diagram is
 
 The [W3C code above](#simpleRTCPeerConnectionExample) shows a simplified example of WebRTC from a signaling perspective. Below are walkthroughs of two working WebRTC applications: the first is a simple example to demonstrate RTCPeerConnection; the second is a fully operational video chat client.
 
-### <span>RTCPeerConnection sans servers</span>
+### RTCPeerConnection sans servers
 
 The code below is taken from the 'single page' WebRTC demo at [webrtc-demos.appspot.com](https://webrtc-demos.appspot.com/html/pc1.html), which has local *and* remote RTCPeerConnection (and local and remote video) on one web page. This doesn't constitute anything very useful—caller and callee are on the same page—but it does make the workings of the RTCPeerConnection API a little clearer, since the RTCPeerConnection objects on the page can exchange data and messages directly without having to use intermediary signaling mechanisms.
 
@@ -287,7 +287,7 @@ One gotcha: the optional second 'constraints' parameter of the `RTCPeerConnectio
 
 In this example, `pc1` represents the local peer (caller) and `pc2` represents the remote peer (callee).
 
-### <span>Caller</span>
+### Caller
 
 1.  Create a new RTCPeerConnection and add the stream from `getUserMedia()`:
 
@@ -311,7 +311,7 @@ In this example, `pc1` represents the local peer (caller) and `pc2` represents t
     }
     ```
 
-### <span>Callee</span>
+### Callee
 
 1.  Create `pc2` and, when the stream from `pc1`is added, display it in a video element:
 
@@ -324,7 +324,7 @@ In this example, `pc1` represents the local peer (caller) and `pc2` represents t
     }
     ```
 
-### <span>RTCPeerConnection plus servers</span>
+### RTCPeerConnection plus servers
 
 In the real world, WebRTC needs servers, however simple, so the following can happen:
 
@@ -352,13 +352,13 @@ If UDP fails, ICE tries TCP: first HTTP, then HTTPS. If direct connection fails�
 
 To find out more about how set up a server to deal with signaling and user discovery, take a look at the code repository for the [apprtc.appspot.com](http://apprtc.appspot.com) demo, which is at [code.google.com/p/webrtc-samples/source/browse/trunk/apprtc/](http://code.google.com/p/webrtc-samples/source/browse/trunk/apprtc/). This uses the Google App Engine Channel API. For information about using a WebSocket server for signaling, check out Silvia Pfeiffer's [WebSocket WebRTC app](http://blog.gingertech.net/2012/06/04/video-conferencing-in-html5-webrtc-via-web-sockets/).
 
-#### <span>A simple video chat client</span>
+#### A simple video chat client
 
 A good place to try out WebRTC, complete with signaling and NAT/firewall traversal using a STUN server, is the video chat demo at [apprtc.appspot.com](http://apprtc.appspot.com). This app uses [adapter.js](https://apprtc.appspot.com/js/adapter.js) to cope with different RTCPeerConnection and `getUserMedia()` implementations.
 
 The code is deliberately verbose in its logging: check the console to understand the order of events. Below we give a detailed walk-through of the code.
 
-### <span>What's going on?</span>
+### What's going on?
 
 The demo starts by running the `initalize()` function:
 
@@ -455,7 +455,7 @@ function maybeStart() {
 
 This function uses a handy construct when working with multiple asynchronous callbacks: `maybeStart()` may be called by any one of several functions, but the code in it is run only when `localStream` has been defined *and* `channelReady` has been set to true *and* communication hasn't already started. So—if a connection hasn't already been made, and a local stream is available, and a channel is ready for signaling, a connection is created and passed the local video stream. Once that happens, `started` is set to true, so a connection won't be started more than once.
 
-#### <span>RTCPeerConnection: making a call</span>
+#### RTCPeerConnection: making a call
 
 `createPeerConnection()`, called by `maybeStart()`, is where the real action begins:
 
@@ -513,7 +513,7 @@ function setLocalAndSendMessage(sessionDescription) {
 }
 ```
 
-#### <span>Signaling with the Channel API</span>
+#### Signaling with the Channel API
 
 The `onIceCandidate()` callback invoked when the RTCPeerConnection is successfully created in `createPeerConnection()` sends information about candidates as they are 'gathered':
 
@@ -579,7 +579,7 @@ function doAnswer() {
 
 And that's it! The caller and callee have discovered each other and exchanged information about their capabilities, a call session is initiated, and real-time data communication can begin.
 
-### <span>Network topologies</span>
+### Network topologies
 
 WebRTC as currently implemented only supports one-to-one communication, but could be used in more complex network scenarios: for example, with multiple peers each communicating each other directly, peer-to-peer, or via a centralized server.
 
@@ -587,7 +587,7 @@ Many existing WebRTC apps only demonstrate communication between web browsers, b
 
 ![Tethr/Tropo demo at Google I/O 2012](/assets/public/9/98/tethr.jpg)
 
-## <span>RTCDataChannel</span>
+## RTCDataChannel
 
 As well as audio and video, WebRTC supports real-time communication for other types of data.
 
@@ -675,7 +675,7 @@ More information and demos for the Firefox implementation are available from the
 
 For more information about RTCDataChannel, take a look at the IETF's [draft protocol spec](http://tools.ietf.org/html/draft-jesup-rtcweb-data-protocol-00).
 
-## <span>Security</span>
+## Security
 
 There are several ways a real-time communication application or plugin might compromise security. For example:
 
@@ -692,7 +692,7 @@ WebRTC has several features to avoid these problems:
 
 A full discussion of security for streaming media is out of scope for this article. For more information, see the [WebRTC Security Architecture](http://www.ietf.org/proceedings/82/slides/rtcweb-13.pdf) proposed by the IETF.
 
-## <span>In conclusion</span>
+## In conclusion
 
 The APIs and standards of WebRTC can democratize and decentralize tools for content creation and communication—for telephony, gaming, video production, music making, news gathering and many other applications.
 
@@ -700,7 +700,7 @@ Technology doesn't get much more [disruptive](http://en.wikipedia.org/wiki/Disru
 
 We look forward to what JavaScript developers make of WebRTC as it becomes widely implemented. As blogger Phil Edholm [put it](http://www.nojitter.com/post/232901042/webrtc-is-it-a-game-changer), 'Potentially, WebRTC and HTML5 could enable the same transformation for real-time communications that the original browser did for information.'
 
-## <span>Learn more</span>
+## Learn more
 
 -   [WebRTC Interest, Update and Article](http://knowledge.santanu.net/what-is-webrtc-current-scenario-and-why-we-should-follow/)
 -   WebRTC book by Alan B. Johnston and Daniel C. Burnett (available in print and for eBook formats): [webrtcbook.com](http://www.webrtcbook.com)
@@ -717,20 +717,20 @@ We look forward to what JavaScript developers make of WebRTC as it becomes widel
 -   [IETF proposed standard for ICE](http://tools.ietf.org/html/rfc5245)
 -   [What Wikipedia says about WebRTC](http://en.wikipedia.org/wiki/WebRTC)
 
-## <span>WebRTC support summary</span>
+## WebRTC support summary
 
-### <span>MediaStream and getUserMedia</span>
+### MediaStream and getUserMedia
 
 -   Chrome 18.0.1008+
 -   Opera, Opera Mobile 12
 -   Firefox 17+
 
-### <span>RTCPeerConnection</span>
+### RTCPeerConnection
 
 -   Chrome 20+ (now 'flagless', i.e. no need to change about://flags settings)
 -   Firefox Aurora/Nightly (see [instructions and demo](https://hacks.mozilla.org/2012/11/progress-update-on-webrtc-for-firefox-on-desktop/comment-page-1/#comment-1851192))(
 
-### <span>RTCDataChannel</span>
+### RTCDataChannel
 
 -   Experimental version in Chrome 25, more stable (and with Firefox interoperability) in Chrome 26
 -   Firefox Aurora/Nightly (see [instructions and demo](https://hacks.mozilla.org/2012/11/progress-update-on-webrtc-for-firefox-on-desktop/comment-page-1/#comment-1851192))
@@ -745,11 +745,11 @@ For more detailed information about cross-platform support for APIs such as getU
 
 -   -
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Audio</span>
+#### Audio
 
 -   [audio-video](/apis/audio-video)
 
@@ -771,7 +771,7 @@ For more detailed information about cross-platform support for APIs such as getU
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-#### <span>Multimedia</span>
+#### Multimedia
 
 -   [Track ended](/apis/MediaStream/ended)
 
@@ -793,7 +793,7 @@ For more detailed information about cross-platform support for APIs such as getU
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-#### <span>Video</span>
+#### Video
 
 -   [audio-video](/apis/audio-video)
 
@@ -815,7 +815,7 @@ For more detailed information about cross-platform support for APIs such as getU
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-#### <span>WebRTC</span>
+#### WebRTC
 
 -   [Track ended](/apis/MediaStream/ended)
 

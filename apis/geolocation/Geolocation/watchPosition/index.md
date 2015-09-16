@@ -24,28 +24,28 @@ tags:
 uri: apis/geolocation/Geolocation/watchPosition
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a long value that uniquely identifies a watch operation and then asynchronously starts the watch operation.
 
 Method of [apis/geolocation/Geolocation](/apis/geolocation/Geolocation)[apis/geolocation/Geolocation](/apis/geolocation/Geolocation)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = Geolocation.watchPosition(successCallback, errorCallback, options);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>successCallback</span>
+### successCallback
 
  Data-type
 :   any
 
  The function to call when geographic position is successfully obtained. The function specified by the *successCallback* parameter takes one *position* parameter.
 
-### <span>errorCallback</span>
+### errorCallback
 
  Data-type
 :   any
@@ -54,7 +54,7 @@ var object = Geolocation.watchPosition(successCallback, errorCallback, options);
 
 The function to call when the attempt to obtain geographic position fails. The function specified by the *errorCallback* parameter takes one *positionError* parameter. To use the *options* parameter without using the *errorCallback* parameter, specify a **null** value for the *errorCallback* parameter.
 
-### <span>options</span>
+### options
 
  Data-type
 :   any
@@ -63,7 +63,7 @@ The function to call when the attempt to obtain geographic position fails. The f
 
 JSON encoding
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
@@ -71,7 +71,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 Obtains users position and position changes for 120s.
 
@@ -107,13 +107,13 @@ function getLocationUpdate(){
 getLocationUpdate();
 ```
 
-## <span>Notes</span>
+## Notes
 
 The function begins acquiring the geographic position and returns immediately. When the position is successfully obtained, the callback function provided in the *successCallback* parameter is called. The parameter to the *successCallback* function is a **position** object that contains the data on the current geographic location. If the attempt to obtain the user's location fails, the callback function that can be provided as an optional second parameter is called. The error parameter to the *errorCallback* function is a **positionError** object that contains an error code indicating the reason for failure.
 
 **Note:**  The first time a document calls the **watchPosition** function, the client requests permission to access the geographic location of the browser, unless the user has previously chosen to always allow or always deny permission for the website to determine location. If the user denies permission, the function declared by the *errorCallback* is called and the code attribute of the error parameter of that function is set to PositionError.PERMISSION\_DENIED. Support for the attributes of the *options* parameter depends on the location provider available to the device running the client. There is no guarantee that changing the properties of these attributes will affect the results reported by the location provider. Windows Internet Explorer 9. This property is supported only for webpages displayed in IE9 Standards mode. For more information, please see Defining Document Compatibility.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

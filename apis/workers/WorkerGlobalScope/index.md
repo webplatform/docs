@@ -12,11 +12,11 @@ tags:
 uri: apis/workers/WorkerGlobalScope
 
 ---
-## <span>Summary</span>
+## Summary
 
 An object representing the &quot;inside&quot; of a worker.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -39,7 +39,7 @@ API Name
 [self](/apis/workers/WorkerGlobalScope/self)
 :   Returns the WorkerGlobalScope object.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -50,11 +50,11 @@ API Name
 [importScripts](/apis/workers/WorkerGlobalScope/importScripts)
 :   Fetches one or more script resources, identified by absolute URLs.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 The **WorkerGlobalScope** object is accessed by using the **self** or **this** property and is accessed only inside a worker. A worker has the following functionality within its scope:
 
@@ -68,7 +68,7 @@ The **WorkerGlobalScope** object is accessed by using the **self** or **this** p
 
 Workers do not have access to the Document Object Model (DOM), nor the **window**, **document**, and **parent** objects. To terminate a worker thread from inside, use the **close** method. From the main document, use the **terminate** method to terminate the worker thread. You can send messages to the main document using **postMessage** and receive messages from the main document using the **onmessage** message handler. You can create new child workers from inside a worker. They must all run in the same host and their location depends on the parent worker of the new worker, not the original webpage. Because a new worker is likely to be in a separate process, you shouldn't create too many workers at once. Also, because messages between workers and their parents are copies and not shared, too many workers can use up resources quickly.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft

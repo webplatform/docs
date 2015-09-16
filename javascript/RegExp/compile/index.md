@@ -13,11 +13,11 @@ tags:
 uri: javascript/RegExp/compile
 
 ---
-## <span>Summary</span>
+## Summary
 
 Compiles a regular expression into an internal format for faster execution.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -32,7 +32,7 @@ Compiles a regular expression into an internal format for faster execution.
 **flags**
 :   Optional. Available flags, which may be combined, are: `g` (global search for all occurrences of the pattern), `i` (ignore case), `m` (multiline search), `u` (Unicode), `y` (sticky matching),
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **compile** method:
 
@@ -50,7 +50,7 @@ function CompileDemo(){
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **compile** method converts pattern into an internal format for faster execution. This allows for more efficient use of regular expressions in loops, for example. A compiled regular expression speeds things up when reusing the same expression repeatedly. No advantage is gained, however, if the regular expression changes.
 

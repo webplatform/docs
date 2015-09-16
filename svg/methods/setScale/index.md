@@ -11,20 +11,20 @@ tags:
 uri: svg/methods/setScale
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **setScale** method can raise a [**DOMException**](/dom/DOMException) exception with the code NO\_MODIFICATION\_ALLOWED\_ERR. This exception is raised if you try to change the value of a read-only attribute.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Coordinate Systems, Transformations and Units](http://go.microsoft.com/fwlink/p/?linkid=204735), Section 7.14.4
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGTransform**](/svg/objects/SVGTransform)

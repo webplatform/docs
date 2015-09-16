@@ -22,7 +22,7 @@ uri: css/cssom/CSSRule/parentRule
 
 Property of [css/cssom/CSSRule](/css/cssom/CSSRule)[css/cssom/CSSRule](/css/cssom/CSSRule)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.;
@@ -31,17 +31,17 @@ element. = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Style Specification](http://go.microsoft.com/fwlink/p/?linkid=203741), Section 2.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -187,7 +187,7 @@ element. = value;
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSFontFaceRule`
 -   `CSSImportRule`

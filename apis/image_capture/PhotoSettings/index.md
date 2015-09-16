@@ -11,11 +11,11 @@ tags:
 uri: 'apis/image capture/PhotoSettings'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The PhotoSettings object is optionally passed into the ImageCapture.setOptions() method in order to modify capture device settings specific to still imagery.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -56,24 +56,24 @@ API Name
 [whiteBalanceMode](/apis/image_capture/PhotoSettings/whiteBalanceMode)
 :   This reflects the desired white balance mode setting.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Mediastream Image Capture](http://w3c.github.io/mediacapture-image/)
 :   W3C Editor's draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Mobile</span>
+#### Mobile
 
 -   [Battery Status API](/apis/battery_status)
 

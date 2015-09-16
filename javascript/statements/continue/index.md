@@ -10,17 +10,17 @@ tags:
 uri: javascript/statements/continue
 
 ---
-## <span>Summary</span>
+## Summary
 
 Stops the current iteration of a loop, and starts a new iteration.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     continue [ label ];
 
-## <span>Examples</span>
+## Examples
 
 In this example, a loop iterates from 1 through 9. The statements between continue and the end of the for body are skipped because of the use of the continue statement together with the expression `(i < 5)`.
 
@@ -67,7 +67,7 @@ Outer:
  //i: 10 j: 21 22 23 25 26 27 28 29 30
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The optional label argument specifies the statement to which continue applies.
 
@@ -77,9 +77,9 @@ You can use the continue statement only inside a while , do...while , **for** , 
 -   for loops execute their increment expression, and if the test expression is true, execute the loop again.
 -   for...in loops proceed to the next field of the specified variable and execute the loop again.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [break Statement](/javascript/statements/break)
 -   [do...while Statement](/javascript/statements/do_while)

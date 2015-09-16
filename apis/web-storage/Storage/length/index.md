@@ -22,13 +22,13 @@ tags:
 uri: apis/web-storage/Storage/length
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the number of key/value pairs currently present in the list associated with the object.
 
 Property of [apis/web-storage/Storage](/apis/web-storage/Storage)[apis/web-storage/Storage](/apis/web-storage/Storage)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,11 +36,11 @@ Property of [apis/web-storage/Storage](/apis/web-storage/Storage)[apis/web-stora
 var result = object.length;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 This example creates two new localStorage items (a timestamp and a user name), then reports the number of key/value pairs (2).
 
@@ -50,7 +50,7 @@ window.localStorage.setItem('user', 'Bob');
 alert("There are " + window.localStorage.length + " localStorage item(s)");
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Storage Specification](http://dev.w3.org/html5/webstorage)
 :   W3C Editor's Draft

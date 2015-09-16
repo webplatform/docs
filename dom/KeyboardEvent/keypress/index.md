@@ -14,11 +14,11 @@ tags:
 uri: dom/KeyboardEvent/keypress
 
 ---
-## <span>Summary</span>
+## Summary
 
 Deprecated event for detecting when a key was pressed on the keyboard.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -74,7 +74,7 @@ Varies: launch text composition system; blur and focus events; DOMActivate event
 </table>
 This event used to be used to detect when a key value was inserted into the DOM. Developers should use beforeInput, keyup, or keydown events depending on the task instead of this event.
 
-### <span>Context information</span>
+### Context information
 
 `Event.target`
 :   focused element which triggered the key event. This will be the root element if no suitable input element is focused.
@@ -99,7 +99,7 @@ This event used to be used to detect when a key value was inserted into the DOM.
  `KeyboardEvent.repeat`
 :   true if a key has been depressed long enough to trigger key repetition, otherwise false.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 <!doctype html>
@@ -142,7 +142,7 @@ This event used to be used to detect when a key value was inserted into the DOM.
 
 [View live example](http://code.webplatform.org/gist/8631904)
 
-## <span>Usage</span>
+## Usage
 
      ===Related event order===
 
@@ -152,13 +152,13 @@ This event used to be used to detect when a key value was inserted into the DOM.
 4.  input
 5.  keyup
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   `onkeydown`
 -   `onkeyup`
 
-### <span>External resources</span>
+### External resources
 
 -   [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/#event-type-keypress)

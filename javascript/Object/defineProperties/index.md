@@ -10,11 +10,11 @@ tags:
 uri: javascript/Object/defineProperties
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds one or more properties to an object, and/or modifies attributes of existing properties.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,11 +26,11 @@ Adds one or more properties to an object, and/or modifies attributes of existing
 **descriptors**
 :   Required. A JavaScript object that contains one or more descriptor objects. Each descriptor object describes a data property or an accessor property.
 
-## <span>Return Value</span>
+## Return Value
 
 The object that was passed to the function.
 
-## <span>Examples</span>
+## Examples
 
 **Adding Properties**
 
@@ -126,7 +126,7 @@ Object.defineProperties(obj, {
     });
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The descriptors argument is an object that contains one or more descriptor objects.
 
@@ -138,9 +138,9 @@ If the object already has a property that has the specified name, the property a
 
 To create an object and add properties to the new object, you can use the [Object.create Function](/javascript/Object/create).
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Object.getOwnPropertyDescriptor Function](/javascript/Object/getOwnPropertyDescriptor)
 -   [Object.getOwnPropertyNames Function](/javascript/Object/getOwnPropertyNames)

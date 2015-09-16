@@ -27,26 +27,26 @@ todo_broken_links:
 uri: css/cssom/properties/fontWeight
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets the weight of the font of the object.
 
 Property of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var fontWeightValue = declaration.fontWeight;
 declaration.fontWeight = fontWeightValue;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The current state of the value of the font-weight CSS property.
 
-## <span>Examples</span>
+## Examples
 
 The following example demonstrates how to set the [**fontWeight**](/css/properties/font-weight) property of a **p** element. The script reads the **fontWeight** property of the [**currentStyle**](/css/cssom/currentStyle) object and displays the value in a **span** element.
 
@@ -63,19 +63,19 @@ The following example demonstrates how to set the [**fontWeight**](/css/properti
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/fontWeight_1.htm)
 
-## <span>Notes</span>
+## Notes
 
 The **fontWeight** property of the [**currentStyle**](/css/cssom/currentStyle) object is read-only. To set the value, use the [**fontWeight**](/css/properties/font-weight) property of the [**style**](/css/cssom/style) object. Unlike the **style** object, the **fontWeight** property of the **currentStyle** object only returns numeric values. Unlike [**fontWeight**](/css/properties/font-weight), **fontWeight** is read-only and returns only numeric values. The values for **fontWeight** are mapped to specific font variations, depending on the fonts that are installed on the user's computer. In many cases, the user cannot see the difference between different **fontWeight** settings because the system chooses the closest match.
 
-### <span>Syntax</span>
+### Syntax
 
 `fontWeight: 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900`
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -221,7 +221,7 @@ The **fontWeight** property of the [**currentStyle**](/css/cssom/currentStyle) o
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `currentStyle`
 -   `defaults`

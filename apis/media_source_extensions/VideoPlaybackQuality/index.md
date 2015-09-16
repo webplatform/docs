@@ -12,11 +12,11 @@ tags:
 uri: 'apis/media source extensions/VideoPlaybackQuality'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides attributes that offer information about the quality for the video currently playing.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -27,19 +27,19 @@ API Name
 [droppedVideoFrames](/apis/media_source_extensions/VideoPlaybackQuality/droppedVideoFrames)
 :   Gets the number of dropped video frames.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Multimedia</span>
+#### Multimedia
 
 -   [Track ended](/apis/MediaStream/ended)
 

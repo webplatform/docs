@@ -25,13 +25,13 @@ tags:
 uri: dom/Navigator/appName
 
 ---
-## <span>Summary</span>
+## Summary
 
 appName Returns a string with the name of the browser/user agent. The HTML5 specification also allows any browser to return &quot;Netscape&quot; here, for compatibility reasons.
 
 Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 var result = navigator.appName;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -55,7 +55,7 @@ MSAppHost/1.0
 
 Returned by WWAHost.exe.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var browserName = navigator.appName;
@@ -64,4 +64,4 @@ var browserName = navigator.appName;
 
 [View live example](http://result.dabblet.com/gist/b1e7c611e97594b60956/56337717d0b88e99b8944707d60bb7072b359788)
 
-### <span>Syntax</span>
+### Syntax

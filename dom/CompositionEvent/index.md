@@ -17,13 +17,13 @@ tags:
 uri: dom/CompositionEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 An interfact that provides specific contextual information associated with Composition Events.
 
 Inherits from [UIEvent](/dom/UIEvent)[UIEvent](/dom/UIEvent)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -34,17 +34,17 @@ API Name
 [locale](/dom/CompositionEvent/locale)
 :   Gets the locale name (language code, e.g., "en-US", "fr", "de", "ja", etc.) for the composition event, if available; otherwise, the empty string.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from UIEvent</span>
+## Inherited from UIEvent
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -57,7 +57,7 @@ API Name
 
     [object window]
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -65,7 +65,7 @@ API Name
 [initUIEvent](/dom/UIEvent/initUIEvent)
 :   Initializes a new user interface event that the [createEvent](/dom/Document/createEvent) method created.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -76,7 +76,7 @@ API Name
 [activate](/dom/UIEvent/activate)
 :   Fires when the object is set as the active element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

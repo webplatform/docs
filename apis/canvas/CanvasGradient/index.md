@@ -12,15 +12,15 @@ tags:
 uri: apis/canvas/CanvasGradient
 
 ---
-## <span>Summary</span>
+## Summary
 
 An opaque object of the canvas API.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -28,11 +28,11 @@ API Name
 [addColorStop](/apis/canvas/CanvasGradient/addColorStop)
 :   Adds a new stop to a gradient. If *offset* is less than 0 or greater than 1 then an IndexSizeError exception must be thrown. If the color cannot be parsed as a CSS \<color\> value, then a SyntaxError exception must be thrown. Otherwise the gradient must have a new stop placed, at offset *offset* relative to the whole gradient, and with the color obtained by parsing *color* as a CSS \<color\> value.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 The following code example creates a gradient.
 
@@ -71,11 +71,11 @@ The following code example creates a gradient.
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
 You can create a linear or radial **CanvasGradient** object by using the **createLinearGradient** or **createRadialGradient** method. A **CanvasGradient** object must have at least one **color stop** or the gradient is not visible.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

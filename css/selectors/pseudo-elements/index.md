@@ -23,7 +23,7 @@ Pseudo-elements selectors:
 -   [::before](/css/selectors/pseudo-elements/::before)
 -   [::selection](/css/selectors/pseudo-elements/::selection) (not standard)
 
-## <span>The `::first-line` pseudo-element</span>
+## The `::first-line` pseudo-element
 
 The `::first-line` pseudo-element describes the contents of the first formatted line of an element.
 
@@ -91,7 +91,7 @@ will be treated as ordinary lines in the
 paragraph.</P>
 ```
 
-### <span>First formatted line definition in CSS</span>
+### First formatted line definition in CSS
 
 In CSS, the `::first-line` pseudo-element can only have an effect when attached to a block-like container such as a block box, inline-block, table-caption, or table-cell.
 
@@ -136,7 +136,7 @@ A UA should act as if the fictional start tags of the `::first-line` pseudo-elem
 
 During CSS inheritance, the portion of a child element that occurs on the first line only inherits properties applicable to the `::first-line` pseudo-element from the `::first-line` pseudo-element. For all other properties inheritence is from the non-pseudo-element parent of the first line pseudo element. (The portion of a child element that does not occur on the first line always inherits from the parent of that child.)
 
-## <span>The `::first-letter` pseudo-element</span>
+## The `::first-letter` pseudo-element
 
 The `::first-letter` pseudo-element represents the first letter of an element, if it is not preceded by any other content (such as images or inline tables) on its line. The `::first-letter` pseudo-element may be used for "initial caps" and "drop caps", which are common typographical effects.
 

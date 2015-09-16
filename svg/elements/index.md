@@ -39,7 +39,7 @@ uri: svg/elements
 
 This is the list of SVG Elements sorted by topics.
 
-## <span>Animation elements</span>
+## Animation elements
 
 -   [animate](/w/index.php?title=svg/elements/animate&action=edit&redlink=1)
 -   [animatecolor](/w/index.php?title=svg/elements/animateColor&action=edit&redlink=1)
@@ -47,7 +47,7 @@ This is the list of SVG Elements sorted by topics.
 -   [animatetransform](/w/index.php?title=svg/elements/animateTransform&action=edit&redlink=1)
 -   [set](/w/index.php?title=svg/elements/set&action=edit&redlink=1)
 
-## <span>Basic shapes</span>
+## Basic shapes
 
 -   [circle](/svg/elements/circle)
 -   [ellipse](/svg/elements/ellipse)
@@ -56,7 +56,7 @@ This is the list of SVG Elements sorted by topics.
 -   [polyline](/svg/elements/polyline)
 -   [rect](/svg/elements/rect)
 
-## <span>Container elements</span>
+## Container elements
 
 -   [a](/svg/elements/a)
 -   [defs](/svg/elements/defs)
@@ -70,17 +70,17 @@ This is the list of SVG Elements sorted by topics.
 -   [switch](/svg/elements/switch)
 -   [symbol](/svg/elements/symbol)
 
-## <span>Descriptive elements</span>
+## Descriptive elements
 
 -   [desc](/svg/elements/desc)
 -   [metadata](/svg/elements/metadata)
 -   [title](/svg/elements/title)
 
-## <span>Filter Elements</span>
+## Filter Elements
 
 -   [filter](/svg/elements/filter)
 
-### <span>Filter Primitive Elements</span>
+### Filter Primitive Elements
 
 -   [feBlend](/svg/elements/feBlend)
 -   [feColorMatrix](/svg/elements/feColorMatrix)
@@ -104,18 +104,18 @@ This is the list of SVG Elements sorted by topics.
 -   [feTile](/svg/elements/feTile)
 -   [feTurbulence](/svg/elements/feTurbulence)
 
-### <span>Filter light source elements</span>
+### Filter light source elements
 
 -   [feDistantLight](/svg/elements/feDistantLight)
 -   [fePointLight](/svg/elements/fePointLight)
 -   [feSpotlight](/svg/elements/feSpotlight)
 
-## <span>Gradient elements</span>
+## Gradient elements
 
 -   [linearGradient](/svg/elements/linearGradient)
 -   [radialGradient](/svg/elements/radialGradient)
 
-## <span>Graphics elements</span>
+## Graphics elements
 
 -   [circle](/svg/elements/circle)
 -   [ellipse](/svg/elements/ellipse)
@@ -128,7 +128,7 @@ This is the list of SVG Elements sorted by topics.
 -   [text](/svg/elements/text)
 -   [use](/svg/elements/use)
 
-## <span>Shape elements</span>
+## Shape elements
 
 -   [circle](/svg/elements/circle)
 -   [ellipse](/svg/elements/ellipse)
@@ -138,7 +138,7 @@ This is the list of SVG Elements sorted by topics.
 -   [polyline](/svg/elements/polyline)
 -   [rect](/svg/elements/rect)
 
-## <span>Structural elements</span>
+## Structural elements
 
 -   [defs](/svg/elements/defs)
 -   [g](/svg/elements/g)
@@ -146,7 +146,7 @@ This is the list of SVG Elements sorted by topics.
 -   [symbol](/svg/elements/symbol)
 -   [use](/svg/elements/use)
 
-## <span>Text content elements</span>
+## Text content elements
 
 -   [altGlyph](/w/index.php?title=svg/elements/altGlyph&action=edit&redlink=1)
 -   [textPath](/svg/elements/textPath)
@@ -154,14 +154,14 @@ This is the list of SVG Elements sorted by topics.
 -   [tref](/w/index.php?title=svg/elements/tref&action=edit&redlink=1)
 -   [tspan](/svg/elements/tspan)
 
-## <span>Text content child elements</span>
+## Text content child elements
 
 -   [altglyph](/w/index.php?title=svg/elements/altglyph&action=edit&redlink=1)
 -   [textpath](/w/index.php?title=svg/elements/textpath&action=edit&redlink=1)
 -   [tref](/w/index.php?title=svg/elements/tref&action=edit&redlink=1)
 -   [tspan](/svg/elements/tspan)
 
-## <span>Uncategorized elements</span>
+## Uncategorized elements
 
 -   [altglyphdef](/w/index.php?title=svg/elements/altglyphdef&action=edit&redlink=1)
 -   [altglyphitem](/w/index.php?title=svg/elements/altglyphitem&action=edit&redlink=1)
@@ -185,7 +185,7 @@ This is the list of SVG Elements sorted by topics.
 -   [view](/svg/elements/view)
 -   [vkern](/w/index.php?title=svg/elements/vkern&action=edit&redlink=1)
 
-## <span>See also</span>
+## See also
 
 TBD
 

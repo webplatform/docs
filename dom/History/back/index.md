@@ -27,20 +27,20 @@ uri: dom/History/back
 
 Method of [dom/History](/dom/History)[dom/History](/dom/History)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.back(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>pvargdistance</span>
+### pvargdistance
 
  Data-type
 :   VARIANT
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -50,21 +50,21 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This method performs the same action as a user clicking the **Back** button in the browser. The **back** method works the same as **history.go(-1)**. An error does not occur if the user tries to go beyond the beginning of the history. Instead, the user remains at the current page.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `history`
 -   `Reference`

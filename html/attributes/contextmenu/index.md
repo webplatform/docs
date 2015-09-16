@@ -13,7 +13,7 @@ tags:
 uri: html/attributes/contextmenu
 
 ---
-## <span>Summary</span>
+## Summary
 
 Used to associate the menu element in the DOM to the given element as its context menu.
 
@@ -31,7 +31,7 @@ html/elements/menu
 </table>
 The contextmenu attribute allows a developer to modify the menu shown upon interacting with an element. Its value must be set to be the ID of a **menu** element contained within the DOM which has a type of context.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!doctype html>
@@ -80,11 +80,11 @@ var increaseItem = document.getElementById('increaseImageSize'),
 
 [View live example](http://code.webplatform.org/gist/11067829)
 
-## <span>Usage</span>
+## Usage
 
      This feature may only work in Firefox currently. (Untested in IE and Safari.)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html-markup/global-attributes.html#common.attrs.contextmenu)
 :   Candidate Recommendation

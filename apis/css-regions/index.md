@@ -14,7 +14,7 @@ todo_broken_links:
 uri: apis/css-regions
 
 ---
-## <span>Summary</span>
+## Summary
 
 Programmatic interface to content that flows through a series of chained region elements.
 
@@ -25,7 +25,7 @@ Programmatic interface to content that flows through a series of chained region 
 |[NamedFlowCollection](/apis/css-regions/NamedFlowCollection)|Obsolete. Replaced by [NamedFlowMap](/w/index.php?title=apis/css-regions/NamedFlowMap&action=edit&redlink=1). Represents a static snapshot array of a document's available [named flows](/css/concepts/named_flow)|
 |[Region](/apis/css-regions/Region)|The **Region** interface is available for any element that serves as a CSS [*region*](/css/concepts/region), whose [**flow-from**](/css/properties/flow-from) CSS specifies it displays content from a [named flow](/css/concepts/named_flow).|
 
-## <span>Usage</span>
+## Usage
 
      CSS Regions are defined by two CSS properties.  The
 
@@ -41,11 +41,11 @@ Programmatic interface to content that flows through a series of chained region 
 
 For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   **CSS Regions API**
 
@@ -103,7 +103,7 @@ For an overview of CSS Regions, see [Using CSS Regions to flow content through a
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

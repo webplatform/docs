@@ -11,7 +11,7 @@ tags:
 uri: 'css/data types'
 
 ---
-## <span>Summary</span>
+## Summary
 
 CSS defines different data types which can the be specified as the allowed values for CSS properties or media feature tests.
 

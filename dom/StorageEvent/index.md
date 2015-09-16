@@ -20,27 +20,27 @@ tags:
 uri: dom/StorageEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides event properties that are specific to the onstorage event.
 
 Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from Event</span>
+## Inherited from Event
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -72,7 +72,7 @@ API Name
 [type](/dom/Event/type)
 :   Gets the name of an event.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -89,7 +89,7 @@ API Name
 [stopPropagation](/dom/Event/stopPropagation)
 :   Prevents propagation of an event beyond the current target.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -172,7 +172,7 @@ API Name
 [finish](/dom/Event/finish)
 :
 
-## <span>Examples</span>
+## Examples
 
 The following code example demonstrates how to respond to storage events.
 
@@ -188,11 +188,11 @@ if(window.sessionStorage){
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Used to notify a user that data has been successfully written to their DOM Storage area of their device.
 
-## <span>Notes</span>
+## Notes
 
 In MSIE/Windows browsers...
 
@@ -200,6 +200,6 @@ In MSIE/Windows browsers...
 
 2. For local (x)html files that use the file: protocol, sessionStorage and localStorage are undefined.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 5.11.1.5

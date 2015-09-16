@@ -11,21 +11,21 @@ tags:
 uri: javascript/Date/getUTCMinutes
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the minutes of a Date object using Universal Coordinated Time (UTC).
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     dateObj.getUTCMinutes()
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an integer between 0 and 59. Zero is returned the time is less than one minute after the hour. If a **Date** object was created without specifying the time, by default the UTC minute value is 0. However, in other time zones it may be different.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **getUTCMinutes** method.
 
@@ -42,13 +42,13 @@ var date = new Date("1/1/2001");
  // 5
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required dateObj reference is a **Date** object. To get the number of minutes stored using local time, use the **getMinutes** method.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getMinutes Method (Date)](/javascript/Date/getMinutes)
 -   [setMinutes Method (Date)](/javascript/Date/setMinutes)

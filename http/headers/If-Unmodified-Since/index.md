@@ -10,11 +10,11 @@ tags:
 uri: http/headers/If-Unmodified-Since
 
 ---
-## <span>Summary</span>
+## Summary
 
 Makes a request conditional on having a certain last-modified timestamp, used to prevent &quot;lost updates&quot; when modifying resources.
 
-## <span>Overview table</span>
+## Overview table
 
 Direction
 :   Request
@@ -22,17 +22,17 @@ Direction
 Features
 :
 
-## <span>Syntax</span>
+## Syntax
 
     If-Unmodified-Since = HTTP-date
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 If-Unmodified-Since: Sat, 29 Oct 1994 19:43:31 GMT
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [RFC7232: HTTP/1.1 Conditional Requests](http://tools.ietf.org/html/rfc7232#section-3.4)
 :

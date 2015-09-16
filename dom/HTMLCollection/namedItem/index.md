@@ -23,28 +23,28 @@ tags:
 uri: dom/HTMLCollection/namedItem
 
 ---
-## <span>Summary</span>
+## Summary
 
 This method retrieves a Node using a name. With HTML 4.01 documents, it first searches for a Node with a matching id attribute. If it doesn't find one, it then searches for a Node with a matching name attribute, but only on those elements that are allowed a name attribute. With XHTML 1.0 documents, this method only searches for Nodes with a matching id attribute. This method is case insensitive in HTML documents and case sensitive in XHTML documents.
 
 Method of [dom/HTMLCollection](/dom/HTMLCollection)[dom/HTMLCollection](/dom/HTMLCollection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var item = collection.namedItem(name);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The name of the Node to be fetched.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 

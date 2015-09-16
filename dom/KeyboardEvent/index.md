@@ -21,7 +21,7 @@ uri: dom/KeyboardEvent
 
 Inherits from [UIEvent](/dom/UIEvent)[UIEvent](/dom/UIEvent)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -68,7 +68,7 @@ API Name
 [which](/dom/KeyboardEvent/which)
 :
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -79,7 +79,7 @@ API Name
 [initKeyboardEvent](/dom/KeyboardEvent/initKeyboardEvent)
 :   Initializes a new keyboard event that the [**createEvent**](/dom/Document/createEvent) method created.
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -93,9 +93,9 @@ API Name
 [keyup](/dom/KeyboardEvent/keyup)
 :
 
-## <span>Inherited from UIEvent</span>
+## Inherited from UIEvent
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -108,7 +108,7 @@ API Name
 
     [object window]
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -116,7 +116,7 @@ API Name
 [initUIEvent](/dom/UIEvent/initUIEvent)
 :   Initializes a new user interface event that the [createEvent](/dom/Document/createEvent) method created.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -129,6 +129,6 @@ API Name
 
 **Needs Examples**: This section should include examples.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 3 Events Specification](http://go.microsoft.com/fwlink/p/?linkid=203756), Section 5.2.6

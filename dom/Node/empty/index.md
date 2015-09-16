@@ -24,19 +24,19 @@ tags:
 uri: dom/Node/empty
 
 ---
-## <span>Summary</span>
+## Summary
 
 Cancels the current selection, sets the selection type to none, and sets the item property to null.
 
 Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = selection.empty();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -46,8 +46,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Selection`

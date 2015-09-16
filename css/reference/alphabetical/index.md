@@ -14,11 +14,11 @@ uri: css/reference/alphabetical
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Syntax</span>
+#### Syntax
 
 -   [@charset](/css/atrules/@charset)
 
@@ -40,7 +40,7 @@ uri: css/reference/alphabetical
 
 -   [!important](/css/syntax/!important)
 
-### <span>At-rules</span>
+### At-rules
 
 -   [**@charset**](/css/atrules/@charset)
 -   [**@font-face**](/css/atrules/@font-face)
@@ -51,7 +51,7 @@ uri: css/reference/alphabetical
 -   [**@namespace**](/css/atrules/@namespace)
 -   [**@page**](/css/atrules/@page)
 
-### <span>Functions</span>
+### Functions
 
 -   [ie.CSS\_Length\_Units\_Reference\#attr\#attr attr()]
 -   calc()
@@ -62,7 +62,7 @@ uri: css/reference/alphabetical
 -   [**-ms-repeating-radial-gradient()**](/css/properties/-ms-repeating-radial-gradient)
 -   [ie.CSS\_Length\_Units\_Reference\#url\#url url()]
 
-### <span>Media Features</span>
+### Media Features
 
 -   [aspect-ratio](/css/media_queries/aspect-ratio)
 -   [color](/css/media_queries/colors_by)
@@ -77,6 +77,6 @@ uri: css/reference/alphabetical
 -   [resolution](/css/media_queries/resolution)
 -   [width](/css/media_queries/width)
 
-### <span>Properties</span>
+### Properties
 
 {

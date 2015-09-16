@@ -22,7 +22,7 @@ tags:
 uri: apis/webaudio/AudioDestinationNode/numberOfChannels
 
 ---
-## <span>Summary</span>
+## Summary
 
 The number of channels of the destination's input. This value will default to 2, and may be set to any non-zero value less than or equal to maxChannelCount. An exception will be thrown if this value is not within the valid range.
 
@@ -30,20 +30,20 @@ The number of channels of the destination's input. This value will default to 2,
 
 Property of [apis/webaudio/AudioDestinationNode](/apis/webaudio/AudioDestinationNode)[apis/webaudio/AudioDestinationNode](/apis/webaudio/AudioDestinationNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = AudioDestinationNode.numberOfChannels;
 AudioDestinationNode.numberOfChannels = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

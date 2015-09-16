@@ -15,11 +15,11 @@ tags:
 uri: 'apis/media capture and streams/MediaStreamTrack/overconstrained'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This event fires asynchronously for each affected track (when multiple tracks share the same source) after the user agent has evaluated the current constraints against a given sourceId and is not able to configure the source within the limitations established by the union of imposed constraints.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

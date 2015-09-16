@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/toLowerCase
 
 ---
-## <span>Summary</span>
+## Summary
 
 Converts all the alphabetic characters in a string to lowercase.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -24,7 +24,7 @@ Converts all the alphabetic characters in a string to lowercase.
 
     "String Literal".toLowerCase()
 
-## <span>Examples</span>
+## Examples
 
 The following example demonstrates the effects of the **toLowerCase** method.
 
@@ -36,13 +36,13 @@ document.write(str2);
 // Output: this is a string.
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **toLowerCase** method has no effect on non-alphabetic characters.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [toLocaleLowerCase Method (String)](/javascript/String/toLocaleLowerCase)
 -   [toUpperCase Method (String)](/javascript/String/toUpperCase)

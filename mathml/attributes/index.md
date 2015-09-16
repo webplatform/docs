@@ -11,8 +11,8 @@ tags:
 uri: mathml/attributes
 
 ---
-## <span>Summary</span>
+## Summary
 
 MathML attributes
 
-## <span>Subpages</span>
+## Subpages

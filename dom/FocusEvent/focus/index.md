@@ -15,7 +15,7 @@ uri: dom/FocusEvent/focus
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -69,7 +69,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the **onfocus** event to make **INPUT\_text** and **label** objects more accessible. When the **INPUT\_text** object has focus, the **onfocus** event fires and the [**backgroundColor**](/css/properties/background-color), [**fontSize**](/css/properties/font-size), and [**fontWeight**](/css/properties/font-weight) properties are changed to give the control more prominence.
 
@@ -103,9 +103,9 @@ function fnSetStyle(){
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onfocusEX.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note**  Using the [**setActive**](/dom/HTMLElement/setActive) method has no effect on document focus. Using the ****focus**** method on an individual element causes the element to gain focus and become the active element. When one object loses activation and another object becomes the [**activeElement**](/dom/Document/activeElement), the **onfocus** event fires on the object becoming the **activeElement** only after the [**onblur**](/dom/FocusEvent/blur) event fires on the object losing activation. Use the focus events to determine when to prepare an object to receive input from the user. Elements cannot receive focus until the document is finished loading. For Microsoft Internet Explorer 5.5 and later, focus on a [Document](/dom/Document), and the **active element** of a **document** can be managed separately. The synchronous events **onactivate** and **ondeactivate** provide better control for managing activation changes. As of Microsoft Internet Explorer 5, browser elements retain focus within the current history when the user returns to a page. To avoid firing the **onfocus** event unintentionally for an element when the document loads, invoke the **focus** method on another element. As of Internet Explorer 5, you can force elements that do not implicitly receive focus to receive focus by adding them to the document tabbing order using the [**TABINDEX**](/html/attributes/tabIndex) attribute. Sets focus to an object. To invoke this event, do one of the following:
 
@@ -142,13 +142,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLWindowEvents2**
 -   **HTMLDocumentEvents4**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

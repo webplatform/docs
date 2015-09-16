@@ -14,32 +14,32 @@ uri: apis/timing/objects/FrameRequestCallback
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Timing control for script-based animations](http://go.microsoft.com/fwlink/p/?linkid=229562)
 
-### <span>Members</span>
+### Members
 
 The **FrameRequestCallback** object has these types of members:
 
 -   [\#methods Methods]
 
-#### <span>Methods</span>
+#### Methods
 
 The **FrameRequestCallback** object has these methods. {

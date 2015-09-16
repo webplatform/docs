@@ -11,25 +11,25 @@ tags:
 uri: svg/properties/fx
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **fx** and [**fy**](/svg/properties/fy) properties define the focal point for the radial gradient. The gradient is drawn such that the 0% gradient stop is mapped to the point (fx, fy). If you do not specify the **fx** attribute, **fx** coincides with the presentational value of [**cx**](/svg/properties/cx_(SVGRadialGradientElement)) for the element, whether the value for **cx** is inherited or not. If the element references an element that specifies a value for **fx**, the value of **fx** is inherited from the referenced element. You can animate the **fx** property.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGRadialGradientElement**](/svg/elements/radialGradient)
 
-### <span>Reference</span>
+### Reference
 
 -   [**fy**](/svg/properties/fy)
 -   [**r**](/svg/properties/r_(SVGRadialGradientElement))

@@ -18,7 +18,7 @@ tags:
 uri: apis/webaudio/ScriptProcessorNode/onaudioprocess
 
 ---
-## <span>Summary</span>
+## Summary
 
 An event listener which is called periodically for audio processing. An event of type AudioProcessingEvent will be passed to the event handler.
 
@@ -26,7 +26,7 @@ An event listener which is called periodically for audio processing. An event of
 
 Property of [apis/webaudio/ScriptProcessorNode](/apis/webaudio/ScriptProcessorNode)[apis/webaudio/ScriptProcessorNode](/apis/webaudio/ScriptProcessorNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = ScriptProcessorNode.onaudioprocess;
@@ -35,7 +35,7 @@ ScriptProcessorNode.onaudioprocess = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

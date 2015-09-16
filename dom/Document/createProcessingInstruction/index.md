@@ -24,41 +24,41 @@ tags:
 uri: dom/Document/createProcessingInstruction
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a processing instruction for an XML parser.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var processingInstruction = document.createProcessingInstruction(target, data);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>target</span>
+### target
 
  Data-type
 :   String
 
  The name of the processing instruction.
 
-### <span>data</span>
+### data
 
  Data-type
 :   String
 
  The data for the processing instruction.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The created processing instruction.
 
-## <span>Examples</span>
+## Examples
 
 The following code example demonstrates how to create an XML processing instruction.
 
@@ -70,11 +70,11 @@ var sData = 'type="text/css" href="style.css"';'
 var obj = document.createProcessingInstruction(sTarget, sData);
 ```
 
-## <span>Notes</span>
+## Notes
 
 The **createProcessingInstruction** method is supported only for XML documents.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-135944439)
 :   Recommendation

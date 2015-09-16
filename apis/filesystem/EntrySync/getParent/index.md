@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/EntrySync/getParent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Look up the parent DirectoryEntrySync containing this EntrySync. If this EntrySync is the root of its filesystem, its parent is itself.
 
@@ -30,21 +30,21 @@ Look up the parent DirectoryEntrySync containing this EntrySync. If this EntrySy
 
 Method of [apis/filesystem/EntrySync](/apis/filesystem/EntrySync)[apis/filesystem/EntrySync](/apis/filesystem/EntrySync)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = EntrySync.getParent();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 DirectoryEntrySync
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

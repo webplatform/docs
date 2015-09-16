@@ -13,11 +13,11 @@ tags:
 uri: dom/MouseEvent/mouseout
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fires when the user moves the mouse pointer outside the boundaries of the object.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -71,7 +71,7 @@ none
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the **onmouseout** event to apply a new style to an object.
 
@@ -111,21 +111,21 @@ function flipImage(url)
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onmouseoutEX.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When the user moves the mouse over an object, one [**onmouseover**](/dom/MouseEvent/mouseover) event occurs, followed by one or more [**onmousemove**](/dom/MouseEvent/mousemove) events as the user moves the mouse pointer within the object. One **onmouseout** event occurs when the user moves the mouse pointer out of the object. Initiates any action associated with this event. To invoke this event, do one of the following:
 
 -   Move the mouse pointer out of an object.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

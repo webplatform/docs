@@ -13,11 +13,11 @@ tags:
 uri: javascript/Date/setYear
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the year value in the Date object. Deprecated in favor of the setFullYear method.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -31,7 +31,7 @@ Sets the year value in the Date object. Deprecated in favor of the setFullYear m
 
 **Needs Examples**: This section should include examples.
 
-## <span>Remarks</span>
+## Remarks
 
 This method is obsolete, and is maintained for backwards compatibility only. Use the **setFullYear** method instead.
 
@@ -39,9 +39,9 @@ To set the year of a Date object to 1997, call **setYear(97)**. To set the year 
 
 **Note** -- For JavaScript version 1.0, **setYear** uses a value that is the result of the addition of 1900 to the year value provided by numYear , regardless of the value of the year. For example, to set the year to 1899 numYear is -1 and to set the year 2000 numYear is 100.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getFullYear Method (Date)](/javascript/Date/getFullYear)
 -   [getUTCFullYear Method (Date)](/javascript/Date/getUTCFullYear)

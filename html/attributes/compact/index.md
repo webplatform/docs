@@ -28,7 +28,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **compact** property in HTML. Note that the presence of the word **COMPACT** sets the **compact** property to **true**
 
@@ -72,22 +72,22 @@ toggle.innerText = "Compact = "+animals.compact;
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/compact.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 There is no functionality implemented for the **compact** property for the **ul**, **ol**, **dir** and **menu** elements unless defined by the author. In Microsoft Internet Explorer 6 and greater, this property applies to the **menu** and **dir** objects.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 10.2 (Deprecated)
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `menu`
 -   `dir`

@@ -12,27 +12,27 @@ tags:
 uri: apis/file/FileReaderSync
 
 ---
-## <span>Summary</span>
+## Summary
 
 Allows for synchronous reading of File or Blob objects. Only available in Workers, as synchronous I/O would otherwise block the main application from executing.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 **Important:**  The FileReaderSync object's read methods (readAsText, readAsDataURL, and readAsArrayBuffer) have the same method signatures as the read methods of the [FileReader](/apis/file/FileReader) object but they behave synchronously (as opposed to asynchronously).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft

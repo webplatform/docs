@@ -24,17 +24,17 @@ todo_broken_links:
 uri: html/elements/dt
 
 ---
-## <span>dt</span>
+## dt
 
 For technical reasons, the title of this article is not the text used to call this API. Instead, use `dt`
 
-## <span>Summary</span>
+## Summary
 
 The dt element indicates a definition term within a definition list (dl).
 
 A ****dt**** (topic) is usually followed by one or more [**dd**](/html/elements/dd) (definition) elements. Several consecutive ****dt**** are attributed to the [**dd**](/html/elements/dd) element that immediately follows the group.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -61,7 +61,7 @@ Permitted parents
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The example shows a simple definition list with two item/description pairs.
 
@@ -108,13 +108,13 @@ Typical browser default CSS properties for the **dt** element.
 display: block;
 ```
 
-## <span>Notes</span>
+## Notes
 
 The **dt** element itself, when used in a [dl](/html/elements/dl) element, does not indicate that its contents are a term being defined, but this can be indicated using the [dfn](/html/elements/dfn) element.
 
 While [HTMLDTElement](/dom/HTMLDTElement) is the defined DOM interface for this element, most browsers currently use [HTMLElement](/dom/HTMLElement) instead.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-dt-element)
 :   W3C Working Draft
@@ -125,14 +125,14 @@ While [HTMLDTElement](/dom/HTMLDTElement) is the defined DOM interface for this 
 [HTML 4.01](http://www.w3.org/TR/html401/struct/lists.html#edef-DT)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [`dd`](/html/elements/dd)
 -   [`dl`](/html/elements/dl)
 
-### <span>External resources</span>
+### External resources
 
 -   [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/HTML/Element/dt)
 -   [Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/ms535243%28v=vs.85%29.aspx)

@@ -11,9 +11,9 @@ tags:
 uri: 'svg/properties/cy (SVGRadialGradientElement)'
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **cy** property defines the y-coordinate for the center of the largest (that is, outermost) circle of a radial gradient. The gradient is drawn such that the 100% gradient [**stop**](/svg/elements/stop) is mapped to the perimeter of this largest (that is, outermost) circle. If you do not specify the **cy** property, the effect is the same as if you specify a value of **50%**.
 
@@ -25,14 +25,14 @@ Properties inherit into the [**radialGradient**](/svg/elements/radialGradient) e
 
 The **display** property does not apply to the [**radialGradient**](/svg/elements/radialGradient) element so **radialGradient** elements are not directly rendered even if the **display** property is set to a value other than **none**. **radialGradient** elements are available for referencing even when the **display** property on the **radialGradient** element or any of its ancestors is set to **none**.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGRadialGradientElement**](/svg/elements/radialGradient)

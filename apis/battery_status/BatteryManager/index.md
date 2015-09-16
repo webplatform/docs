@@ -12,11 +12,11 @@ tags:
 uri: 'apis/battery status/BatteryManager'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The object that exposes the battery status information.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -45,11 +45,11 @@ API Name
 [onlevelchange](/apis/battery_status/BatteryManager/onlevelchange)
 :   Handles the levelchange event.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -66,7 +66,7 @@ API Name
 [levelchange](/apis/battery_status/BatteryManager/levelchange)
 :   Fired when the battery level is updated.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Battery Status API](http://www.w3.org/TR/battery-status/)
 :   W3C Last Call Working Draft

@@ -14,11 +14,11 @@ tags:
 uri: 'apis/battery status/BatteryManager/dischargingtimechange'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fired when the battery discharging time is updated.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

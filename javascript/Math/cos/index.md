@@ -10,17 +10,17 @@ tags:
 uri: javascript/Math/cos
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the cosine of a number.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     Math.cos( radians )
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var v1 = Math.cos(-1.0);
@@ -28,7 +28,7 @@ document.write(v1);
 // Output: 0.5403023058681398
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required radians argument is a numeric expression that contains an angle measured in radians.
 
@@ -36,9 +36,9 @@ The return value is the cosine of the numeric argument of radians.
 
 **Applies To** : [Math Object](/javascript/Math)
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math.acos Function](/javascript/Math/acos)
 -   [Math.asin Function](/javascript/Math/asin)

@@ -18,7 +18,7 @@ tags:
 uri: apis/filesystem/DirectoryReader/readEntries
 
 ---
-## <span>Summary</span>
+## Summary
 
 Read the next block of entries from this directory.
 
@@ -26,22 +26,22 @@ Read the next block of entries from this directory.
 
 Method of [apis/filesystem/DirectoryReader](/apis/filesystem/DirectoryReader)[apis/filesystem/DirectoryReader](/apis/filesystem/DirectoryReader)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  DirectoryReader.readEntries(successCallback, errorCallback);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>successCallback</span>
+### successCallback
 
  Data-type
 :   String
 
  Called once per successful call to readEntries to deliver the next previously-unreported set of Entries in the associated Directory. If all Entries have already been returned from previous invocations of readEntries, successCallback must be called with a zero-length array as an argument.
 
-### <span>errorCallback</span>
+### errorCallback
 
  Data-type
 :   String
@@ -50,13 +50,13 @@ Method of [apis/filesystem/DirectoryReader](/apis/filesystem/DirectoryReader)[ap
 
 A callback indicating that there was an error reading from the Directory.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

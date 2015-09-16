@@ -3,21 +3,21 @@ title: toUpperCase
 uri: 'concepts/programming/javascript/core objects/js/objects/String/toUpperCase'
 
 ---
-### <span>Summary</span>
+### Summary
 
 Returns value of a string converted to uppercase while keeping the original string intact.
 
-### <span>Syntax</span>
+### Syntax
 
 ``` js
 "string".toUpperCase
 ```
 
-### <span>Parameters</span>
+### Parameters
 
 None
 
-### <span>Example</span>
+### Example
 
 ``` js
 var userInput="MixEDString";

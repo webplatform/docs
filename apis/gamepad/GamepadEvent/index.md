@@ -10,11 +10,11 @@ tags:
 uri: apis/gamepad/GamepadEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 This object provides access to event data for this gamepad.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -22,15 +22,15 @@ API Name
 [gamepad](/apis/gamepad/GamepadEvent/gamepad)
 :   Provides access to the associated gamepad data for this event.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Gamepad Specification](https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html)
 :   W3C Working Draft

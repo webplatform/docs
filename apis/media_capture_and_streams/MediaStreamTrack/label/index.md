@@ -25,13 +25,13 @@ tags:
 uri: 'apis/media capture and streams/MediaStreamTrack/label'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the label of the object’s corresponding track, if any. If the corresponding track has or had no label, it returns the empty string.
 
 Property of [apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)[apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_cap
 var result = track.label;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 

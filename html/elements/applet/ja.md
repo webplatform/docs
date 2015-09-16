@@ -17,22 +17,22 @@ tags:
 uri: html/elements/applet/ja
 
 ---
-## <span>applet</span>
+## applet
 
 For technical reasons, the title of this article is not the text used to call this API. Instead, use `applet`
 
-## <span>Summary</span>
+## Summary
 
 &lt;applet&gt;はJavaアプレットをウェブページに埋め込む際に使用します。
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLAppletElement](/dom/HTMLAppletElement)
 
 **\<applet\>**要素はHTML4.01で非推奨となり、*HTML5の登場でほとんど使われなくなりました*。
 
-## <span>Examples</span>
+## Examples
 
 以下はウェブページに「myApplet」というJavaアプレットを埋め込む例です。
 
@@ -42,13 +42,13 @@ My Java applet goes here!
 </applet>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>備考</span>
+### 備考
 
 **\<applet\>**要素でJavaアプレットを実行する場合、ユーザのPCにJavaランタイム環境（JRE)がインストールされている必要があります。
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 4.01](http://www.w3.org/TR/REC-html40/struct/objects.html#h-13.4)
 :   W3C Recommendation

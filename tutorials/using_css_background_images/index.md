@@ -8,11 +8,11 @@ tags:
 uri: 'tutorials/using css background images'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article covers CSS backgrounds in detail: background color, image, repeat, attachment, and position. Near the end, it also looks at advanced techniques such as CSS sprites.
 
-## <span>Introduction</span>
+## Introduction
 
 Admit it! Since the first article in the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum), you’ve been excited to learn how to make your site look fierce and fabulous. Maybe you even skipped ahead to this section?
 
@@ -24,13 +24,13 @@ CSS and in particular the `background` property keep your HTML free from present
 
 In this article, you will learn the basics of how CSS background images work. You will see how to apply a background image via CSS, adjust its placement, tile it vertically or horizontally and combine background images using [CSS Sprites](http://www.alistapart.com/articles/sprites/) to improve [site performance](http://developer.yahoo.com/performance/index.html).
 
-## <span>How does it work?</span>
+## How does it work?
 
 The CSS for backgrounds is split into several different properties. Using these properties, such as `position` and `color`, you can begin to control the look and feel of your page. In this article, you will go through CSS background images in detail, building an alert message as an example, step by step.
 
 First, review the different properties you can use.
 
-### <span>Background Properties</span>
+### Background Properties
 
 <table>
 <col width="33%" />
@@ -97,11 +97,11 @@ First, review the different properties you can use.
 </tbody>
 </table>
 
-## <span>Building an alert message</span>
+## Building an alert message
 
 Now that you understand the basic syntax involved, you can walk through the process of building up a complete alert box example, which demonstrates all the aspects of working with background images.
 
-### <span>The design</span>
+### The design
 
 Imagine a graphic designer has provided a visual mock-up of the alert message you want to create for your website. The alert has a light orange background color, to make it stand out from the surrounding paragraphs. It also has an alert icon ten pixels from the top left corner.
 
@@ -117,13 +117,13 @@ The designer has also provided the icon we are meant to use, as shown in Figure 
 
 Figure 2: The alert icon.
 
-### <span>The code</span>
+### The code
 
 Based on what you have learned about CSS backgrounds in the first part of this article, you may already be envisioning how to build this alert message. I encourage you to try building it now, and then compare your work against the example below.
 
 After building your alert box, follow the step by step instructions below. Each screenshot links to code examples, so you can check out the source file at each stage. Experiment with the code, by increasing or decreasing values, and try out alternatives. You may also want to follow along, writing each new line of code in a tool such as Opera Dragonfly or Firefox Firebug, so you can immediately see the results of each step.
 
-#### <span>Creating the CSS hook, or selector.</span>
+#### Creating the CSS hook, or selector.
 
 First you need to create a class `alert`, that enable you to hook up the CSS code. Create new CSS and HTML skeleton files, link the CSS style sheet to the HTML file, and add the following code to each:
 
@@ -147,7 +147,7 @@ At this point, you have a solid foundation in place, but the alert still looks l
 
 Note: I have intentionally chosen *not* to limit the class `alert` to paragraphs; alert boxes could easily contain other elements as well. You should leave as much flexibility as you can within your CSS.
 
-#### <span>Adding the background color</span>
+#### Adding the background color
 
 You already learned about using background color in text treatments in [*Text styling with CSS*](http://www.w3.org/wiki/Text_styling_with_CSS). The same principles apply to any HTML element and can be combined with background images to create visual effects. If the background color has neither been set nor inherited, it is, by default, transparent.
 
@@ -165,7 +165,7 @@ As shown below, you can add the light orange background color to the alert box t
 
 Figure 3: An alert box with background color added.
 
-#### <span>Applying the background image</span>
+#### Applying the background image
 
 Next, you can add the background image to the alert. The path to the background image needs to be wrapped in `url()`, as shown in the code below. Add the highlighted line to the CSS rule:
 
@@ -186,7 +186,7 @@ Figure 4: The background image has been added, but the tiling looks wrong.
 
 Remember that each background property has a default value—if you have not specified a value, the default will be applied. Notice that the image is tiling over the entire alert, much like mosaic tiles on a kitchen floor. What is the takeaway? Background images are set to repeat both horizontally and vertically by default. Repeating backgrounds are particularly useful for gradients and patterns that fill the screen or a particular HTML element, but that effect is *not* desired in this case.
 
-#### <span>Controlling background repeat</span>
+#### Controlling background repeat
 
 ![Repeat horizontally and vertically](/assets/public/d/d6/repeat00.jpg)
 
@@ -233,7 +233,7 @@ The CSS I used to add this decorative effect is relatively simple. I made the ba
   }
 ```
 
-#### <span>Attachment</span>
+#### Attachment
 
 The `attachment` attribute allows you to specify how the background behaves when the user scrolls down the page. The default behavior is `scroll`, which causes the background image to scroll along with the content.
 
@@ -258,7 +258,7 @@ This step will have no effect on our display, because browsers set background im
 
 Figure 9: The display has not changed.
 
-#### <span>Positioning the image</span>
+#### Positioning the image
 
 Positioning is the fine tuning that enables you to place background images exactly where desired, both horizontally and vertically, within the HTML element. This property takes keyword and number values such as` top`, `center`, `right`, `100%`, `-10%`, `50px` and `-30em`.
 
@@ -290,7 +290,7 @@ Figure 11: Using CSS positioning to set the location of the background image.
 
 Tip: Choose either keywords or number values, but do not combine them. Older browsers may ignore your declaration if you use both at once. Using `right` and `bottom` will achieve the same effect as using `100%` horizontally or vertically, respectively.
 
-#### <span>Using shorthand to pull the whole thing together like a pro</span>
+#### Using shorthand to pull the whole thing together like a pro
 
 As you have learned, certain CSS properties can be grouped together. Background and all of its sub-properties can be grouped in CSS rules. The CSS code described so far can be rewritten in a shortened form, as follows:
 
@@ -316,11 +316,11 @@ Try replacing the old CSS code in your document with the shorthand shown above. 
 
 Figure 12: The shorthand works like a charm!
 
-### <span>Experimenting with the code</span>
+### Experimenting with the code
 
 The best way to remember all the nuances of CSS is to test the options yourself. Try changing some of the properties in the example, and see how different values affects the display. Set the `background-position` to `100% 100%`, and notice that it provides the same result as using the `right` and `bottom` keywords. What about if you change it to `-5px 0`? Why do you think part of the image is hidden?
 
-### <span>Testing for quality</span>
+### Testing for quality
 
 Testing is extremely important to providing a good user experience. Just because the site looks good on your machine with your specific configuration does not mean that it will look good in every browser. Follow these basic minimum steps when testing your alert box:
 
@@ -332,7 +332,7 @@ Testing is extremely important to providing a good user experience. Just because
 
 Rigorous testing is part of learning to write CSS. The more careful you are while learning, the faster you will be able to code.
 
-## <span>Sprites</span>
+## Sprites
 
 Users want it all. They want your site to be glamorous, interactive, and also fast. However, including large quantities of CSS background images can slow your site down considerably. The more HTTP requests you make, the slower your site will be (an HTTP request occurs whenever your computer is accessing a website and needs to ask the server to send it another asset in the site design, such as a CSS file or image... each additional request means a longer loading time for the site).
 
@@ -346,7 +346,7 @@ Figure 13: Use CSS Sprites to reduce HTTP requests.
 
 Note: If you set negative background positions, Safari will repeat your image, even if you’ve specified `no-repeat`. This is a consideration as you start working with background images to create more complicated layouts.
 
-### <span>A complex sprite and background image example</span>
+### A complex sprite and background image example
 
 Next, take a look at how you can leverage CSS sprites. Suppose a friendly designer sent us an new mockup. This one illustrates a list of links on the landing page of a blog. It points to the bloggers’ LinkedIn profile, RSS feed, Flickr photos, and bookmarks. As you evaluate each link, notice that there is a gradient starting in the center as white and transitioning to gray at the top and bottom of the link. And to further complicate things, the designer asked if we could make each link plain white with no curve when visitors hover over the link, as shown in Figure 14.
 
@@ -356,7 +356,7 @@ Figure 14: The new design mockup.
 
 The logos could be included using `img` elements in the markup. However, using CSS sprites is a much better solution. The sprites load faster because only one image must load (not four), and it declutters your HTML, by reducing the amount of markup needed.
 
-#### <span>Creating the sprite</span>
+#### Creating the sprite
 
 The first step involves cutting out the four logos and creating the sprite set, as shown in Figure 15.
 
@@ -375,16 +375,16 @@ The HTML that creates the list is an unordered list containing links. Note the e
 ``` html
   <ul class="navigation">
     <li id="resume">
-      <a href="#"><span></span>Resume</a>
+      <a href="#">Resume</a>
     </li>
     <li id="rss">
-      <a href="#"><span></span>RSS Feed</a>
+      <a href="#">RSS Feed</a>
     </li>
     <li id="photos">
-      <a href="#"><span></span>Photos</a>
+      <a href="#">Photos</a>
     </li>
     <li id="links">
-      <a href="#"><span></span>Links</a>
+      <a href="#">Links</a>
     </li>
   </ul>
 ```
@@ -465,27 +465,27 @@ Next you can create the CSS for the little logos. As usual, you can start by def
 
 Experiment with the background position values in the [finished example](http://dev.opera.com/articles/view/31-css-background-images/sprite.html), to better understand how to adjust sprite positioning.
 
-## <span>Usage</span>
+## Usage
 
      on 02/10/2014 arond 1500 central std time:
 
 hoffmant99 made minor changes to make sprite example work, though the student(reader of this page) needs to be aware that the file names don't match. This can be fixed locally, change the name from "sprite\_logo" to "sprite\_l" and" sprite\_gradient\_bkg.jpg" to sprite\_g.jpg".
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [Performance and HTTP requests on YDN](http://developer.yahoo.com/performance/rules.html#num_http)
 -   [CSS2 Specification—Colors and Backgrounds](http://www.w3.org/TR/REC-CSS2/colors.html)
 -   [CSS Sprites—Image Slicing’s Kiss of Death](http://www.alistapart.com/articles/sprites)
 -   [Bulletproof Web Design](http://www.simplebits.com/publications/bulletproof/)—My favourite book
 
-### <span>Image credits</span>
+### Image credits
 
 -   [The Tiles](http://www.flickr.com/photos/dimsumdarren/1342305614/), by DimsumDarren
 -   [little glass tiles](http://www.flickr.com/photos/emdot/6099842/), by emdot
 
-### <span>Exercise Questions</span>
+### Exercise Questions
 
 -   A paragraph is 40px by 180px and your background image is 60px by 200px. Will you see the entire image or only part of it? Why?
 -   You want an image to be positioned in the bottom left corner of the `blockquote` element—please fill in the correct values.

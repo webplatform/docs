@@ -24,11 +24,11 @@ tags:
 uri: css/properties/list-style-position
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies if the list-item markers should appear inside or outside the content flow.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `outside`
@@ -51,13 +51,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `listStylePosition`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `list-style-position: inherit`
 -   `list-style-position: inside`
 -   `list-style-position: outside`
 
-## <span>Values</span>
+## Values
 
 outside
 :   Default. Marker is placed outside the list item, and any wrapping text is not aligned under the marker.
@@ -68,7 +68,7 @@ inside
 inherit
 :   Takes the same specified value as the property for the element's parent. (Acts similarly to other uses of inherit in CSS.)
 
-## <span>Examples</span>
+## Examples
 
 The following example uses the **list-style-position** attribute and the **list-style-position** property to set the position for markers.
 
@@ -115,22 +115,22 @@ ul {
 
 [View live example](http://code.webplatform.org/gist/5598129)
 
-## <span>Usage</span>
+## Usage
 
      ===Remarks===
 
 If a list-style-position is set to outside and padding-left is set to 0, the marker will not show.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS21/generate.html#propdef-list-style-position)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Attributes</span>
+#### CSS Attributes
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -168,7 +168,7 @@ If a list-style-position is set to outside and padding-left is set to 0, the mar
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

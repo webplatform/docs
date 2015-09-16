@@ -21,20 +21,20 @@ tags:
 uri: 'apis/web animations/AnimationEffect/name'
 
 ---
-## <span>Summary</span>
+## Summary
 
 A string used to identify the effect.
 
 Property of [apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)[apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.name;
 element.name = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 

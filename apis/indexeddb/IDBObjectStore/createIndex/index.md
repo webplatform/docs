@@ -24,35 +24,35 @@ tags:
 uri: apis/indexeddb/IDBObjectStore/createIndex
 
 ---
-## <span>Summary</span>
+## Summary
 
 This method creates and returns a new index with the given name and parameters in the connected database.
 
 Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var index = objectStore.createIndex(name, keyPath, optionalParameters);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  Name of the index.
 
-### <span>keyPath</span>
+### keyPath
 
  Data-type
 :   String
 
  Name of the field to be indexed.
 
-### <span>optionalParameters</span>
+### optionalParameters
 
  Data-type
 :   String
@@ -61,7 +61,7 @@ var index = objectStore.createIndex(name, keyPath, optionalParameters);
 
 The options object whose attributes are optional parameters to this function. 'unique' specifies whether the index's unique flag is set. 'multiEntry' specifies whether the index's multiEntry flag is set.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -69,7 +69,7 @@ Returns an object of type DOM NodeDOM Node
 
 An object representing the new index.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // The transaction is already created
@@ -83,14 +83,14 @@ var index = objectStore.createIndex("priceIndex", "price", {
 
 [View live example](http://nparashuram.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Create%20Index&)
 
-## <span>Notes</span>
+## Notes
 
 The method throws an exception if
 
 -   This method was not called from a "versionchange" transaction callback. Also occurs if a request is made on a source object that has been deleted or removed.
 -   An index with the same name, compared in a case-sensitive manner, already exists in the connected database.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

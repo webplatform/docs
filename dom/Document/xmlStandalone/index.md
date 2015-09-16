@@ -24,24 +24,24 @@ tags:
 uri: dom/Document/xmlStandalone
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets the value of the standalone attribute in the declaration of an XML document.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var isStandalone = document.xmlStandalone;
 document.xmlStandalone = isStandalone;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
-## <span>Examples</span>
+## Examples
 
 The following example shows an XML declaration that specifies a value for the **standalone** attribute.
 
@@ -49,11 +49,11 @@ The following example shows an XML declaration that specifies a value for the **
 <?xml standalone="yes"?>
 ```
 
-## <span>Notes</span>
+## Notes
 
 Setting the value of the **xmlStandalone** property does not cause an XML document to validate. Use the [**normalize**](/dom/Node/normalize) method instead.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407)
 :   Recommendation

@@ -16,13 +16,13 @@ tags:
 uri: apis/webaudio/AudioNode/numberOfInputs
 
 ---
-## <span>Summary</span>
+## Summary
 
 The number of inputs feeding into the AudioNode. For source nodes, this value will be 0.
 
 Property of [apis/webaudio/AudioNode](/apis/webaudio/AudioNode)[apis/webaudio/AudioNode](/apis/webaudio/AudioNode)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -30,14 +30,14 @@ Property of [apis/webaudio/AudioNode](/apis/webaudio/AudioNode)[apis/webaudio/Au
 var result = AudioNode.numberOfInputs;
 ```
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var oscillator = audioCtx.createOscillator();
 var inputs = oscillator.numberOfInputs;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

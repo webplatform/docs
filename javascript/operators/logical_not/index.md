@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/operators/logical not'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Performs logical negation on an expression.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Performs logical negation on an expression.
 **expression**
 :   Any expression.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var x = 5;
@@ -36,7 +36,7 @@ z = ! (x = y); // result: z = true
 z = ! (y > x); // result: z = false
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The following table illustrates how result is determined.
 

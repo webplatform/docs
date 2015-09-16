@@ -24,7 +24,7 @@ todo_broken_links:
 uri: html/attributes/tabIndex
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents the tab order of an element.
 
@@ -38,7 +38,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the **tabIndex** property to specify the tab order for three text fields. In addition, the Submit button is removed by specifying a negative value.
 
@@ -70,9 +70,9 @@ This example uses the **tabIndex** property to assign a tab order to an unordere
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/tabindex2.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **tabIndex** value determines the tab order as follows:
 
@@ -87,11 +87,11 @@ An element can have focus if the **tabIndex** property is set to any valid negat
 
 For Internet Explorer 5.01 or above, the attribute may be set to any value in the valid range of `-32767` to `32767`. Content of elements with a closing tag can have focus by default, but are not tab stops. As of Internet Explorer 5, you can set the **tabIndex** property to a valid positive integer to force the content to have a tab stop. Elements that receive focus can fire the [**onblur**](/w/index.php?title=dom/events/blur&action=edit&redlink=1) and [**onfocus**](/w/index.php?title=dom/events/focus&action=edit&redlink=1) events as of Microsoft Internet Explorer 4.0, and the [**onkeydown**](/w/index.php?title=dom/events/keydown&action=edit&redlink=1), [**onkeypress**](/w/index.php?title=dom/events/keypress&action=edit&redlink=1), and [**onkeyup**](/w/index.php?title=dom/events/keyup&action=edit&redlink=1) events as of Internet Explorer 5.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`
 -   `abbr`

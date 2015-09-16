@@ -14,11 +14,11 @@ tags:
 uri: 'apis/network information/NetworkInformation'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Is exposed on the Navigator object, and all instances of the Navigator type are defined to also implement the NetworkInformation interface.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -26,15 +26,15 @@ API Name
 [connection](/apis/network_information/NetworkInformation/connection)
 :   The object from which connection information is accessed.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function show() {
@@ -46,14 +46,14 @@ navigator.connection.addEventListener('change', show, false);
 show();
 ```
 
-## <span>Notes</span>
+## Notes
 
 As of 25 June 2014:
 
 -   Formal work on the [Network Information](http://www.w3.org/TR/netinfo-api/) spec has been stopped. The specification is now a W3C Note.
 -   Both Chrome and Firefox have shipped Network Information under an experimental feedback channel.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [The Network Information API](http://www.w3.org/TR/netinfo-api/)
 :   W3C Note

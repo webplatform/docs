@@ -15,11 +15,11 @@ tags:
 uri: dom/NodeIterator
 
 ---
-## <span>Summary</span>
+## Summary
 
 The NodeIterator interface represents an iterator over the members of a list of the nodes in a subtree of the DOM. The nodes will be returned in document order.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -36,7 +36,7 @@ API Name
 [whatToShow](/dom/NodeIterator/whatToShow)
 :   The NodeIterator.whatToShow read-only property represents an unsigned integer representing a bitmask signifying what types of nodes should be returned by the NodeIterator.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -49,26 +49,26 @@ API Name
 [previousNode](/dom/NodeIterator/previousNode)
 :   The NodeIterator.previousNode() method returns the previous node in the set represented by the NodeIterator and moves the position of the iterator backwards within the set.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var nodeIterator = document.createNodeIterator(root, whatToShow, filter);
 ```
 
-## <span>Usage</span>
+## Usage
 
      Used in web browser Developer Tools UI to provide a consistent and interoperable means of traversing DOM Nodes.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **NodeIterator** is dynamic, reflecting the state of the document as it is edited or changed.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 1.2

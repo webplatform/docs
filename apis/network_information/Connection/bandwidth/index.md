@@ -24,13 +24,13 @@ tags:
 uri: 'apis/network information/Connection/bandwidth'
 
 ---
-## <span>Summary</span>
+## Summary
 
 An estimation of the current bandwidth in MB/s (Megabytes per seconds) available.
 
 Property of [apis/network\_information/Connection](/apis/network_information/Connection)[apis/network\_information/Connection](/apis/network_information/Connection)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [apis/network\_information/Connection](/apis/network_information/Con
 var result = connection.bandwidth;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type doubledouble
 
@@ -46,14 +46,14 @@ Returns 0 if the user is currently offline, infinity if the bandwidth is unknown
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 As of 25 June 2014:
 
 -   Formal work on the [Network Information](http://www.w3.org/TR/netinfo-api/) spec has been stopped. The specification is now a W3C Note.
 -   Both Chrome and Firefox have shipped Network Information under an experimental feedback channel.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [The Network Information API](http://www.w3.org/TR/netinfo-api/)
 :   W3C Note

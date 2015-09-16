@@ -10,11 +10,11 @@ tags:
 uri: javascript/Math/acos
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the arc cosine (or inverse cosine) of a number.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,11 +23,11 @@ Returns the arc cosine (or inverse cosine) of a number.
 **number**
 :   Required. The required number argument is a numeric expression.
 
-## <span>Return Value</span>
+## Return Value
 
 The arc cosine of the number argument, in radians.
 
-## <span>Examples</span>
+## Examples
 
 The following code shows how to use the **acos** function.
 
@@ -44,13 +44,13 @@ var v1 = Math.acos(-1.0);
  // 0.5403023058681398
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 **Applies To** : [Math Object](/javascript/Math)
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math.asin Function](/javascript/Math/asin)
 -   [Math.atan Function](/javascript/Math/atan)

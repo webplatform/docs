@@ -23,13 +23,13 @@ tags:
 uri: dom/Range/endContainer
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the end point node of the current range.
 
 Property of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,11 +37,11 @@ Property of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 var endNode = range.endContainer;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var range = document.createRange();
@@ -51,13 +51,13 @@ range.setEnd(endNode,endOffset);
 endRangeNode = range.endContainer;
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-range-compareboundarypoints)
 :   Living Standard

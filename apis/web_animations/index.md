@@ -13,7 +13,7 @@ tags:
 uri: 'apis/web animations'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Javascript programming interface for modeling synchronizing and timing the changes to a web page's presentation.
 
@@ -55,11 +55,11 @@ API Name
 [MotionPathEffect](/apis/web_animations/MotionPathEffect)
 :   Motion path animation effects are represented by the MotionPathEffect interface.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   **Web Animations API**
 
@@ -109,6 +109,6 @@ API Name
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>External resources</span>
+### External resources
 
 W3C Web Animations Specification, Editors Draft <http://w3c.github.io/web-animations/>

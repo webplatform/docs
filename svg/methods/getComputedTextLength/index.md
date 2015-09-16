@@ -11,25 +11,25 @@ tags:
 uri: svg/methods/getComputedTextLength
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The return value of the **getComputedTextLength** method enables Windows Internet Explorer to make reasonable assumptions about the glyph metrics for non-rendering processes.
 
 The total text advance distance includes the advance values on the glyphs (horizontal or vertical), kerning effects, letter-spacing effects, word-spacing effects, and adjustments because of the [**dx**](/svg/properties/dx) and [**dy**](/svg/properties/dy) attributes on [**SVGTSpanElement**](/svg/elements/tspan) elements.
 
-### <span>Syntax</span>
+### Syntax
 
     float retVal = object.getComputedTextLength();
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.17.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGTextElement**](/svg/elements/text)
 -   [**SVGTextContentElement**](/svg/elements/etextContent)

@@ -10,11 +10,11 @@ tags:
 uri: apis/webrtc/RTCDataChannel
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a bi-directional data channel between two peers.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -46,7 +46,7 @@ API Name
 [reliable](/apis/webrtc/RTCDataChannel/reliable)
 :   Returns true if the RTCDataChannel is reliable, and false otherwise.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -57,11 +57,11 @@ API Name
 [send](/apis/webrtc/RTCDataChannel/send)
 :   Sends a message (*data*) on the RTCDataChannel’s underlying data transport.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web RTC Specification](http://dev.w3.org/2011/webrtc/editor/webrtc.html)
 :   W3C Editor's Draft

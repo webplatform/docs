@@ -10,17 +10,17 @@ tags:
 uri: javascript/arguments/callee
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the Function object being executed, that is, the body text of the specified Function object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     [ function . ] arguments.callee
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function factorial(n){
@@ -31,7 +31,7 @@ function factorial(n){
  document.write(factorial(4));
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The optional function argument is the name of the currently executing Function object.
 
@@ -39,9 +39,9 @@ The **callee** property is a member of the **arguments** object that becomes ava
 
 The initial value of the **callee** property is the Function object being executed. This allows anonymous functions to be recursive.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [caller Property (Function)](/javascript/Function/caller)
 

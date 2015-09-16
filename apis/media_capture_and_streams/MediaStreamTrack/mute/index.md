@@ -15,11 +15,11 @@ tags:
 uri: 'apis/media capture and streams/MediaStreamTrack/mute'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This event fires when the MediaStreamTrack object's source is temporarily unable to provide data.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

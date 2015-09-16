@@ -22,11 +22,11 @@ tags:
 uri: css/properties/transition-property
 
 ---
-## <span>Summary</span>
+## Summary
 
 The 'transition-property' property specifies the name of the CSS property to which the transition is applied.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `all`
@@ -52,13 +52,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `transition-property: all`
 -   `transition-property: none`
 -   `transition-property: propertyname`
 
-## <span>Values</span>
+## Values
 
 none
 :   No transition effect is applied (all transition properties are ignored) when a new property value is specified.
@@ -69,7 +69,7 @@ all
 propertyname
 :   A list of properties, separated by commas, to which the transition effect is applied.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /*
@@ -93,26 +93,26 @@ div:hover{
 
 [View live example](http://code.webplatform.org/gist/5842100)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The version of this property using a vendor prefix, **-ms-transition-property**, has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Transitions Module Level 3](http://www.w3.org/TR/css3-transitions/#transition-property-property), Section 2.1
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Transitions](http://www.w3.org/TR/2009/WD-css3-transitions-20091201/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Transitions</span>
+#### Transitions
 
 -   [cubic-bezier](/css/functions/cubic-bezier)
 

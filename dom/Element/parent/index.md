@@ -22,7 +22,7 @@ uri: dom/Element/parent
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.parent;
@@ -31,16 +31,16 @@ element.parent = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 For a document, the parent is the containing window. For a window defined using **frame**, the parent is the window that contains the corresponding **frameSet** definition.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Window`

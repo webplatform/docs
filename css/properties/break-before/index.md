@@ -26,11 +26,11 @@ tags:
 uri: css/properties/break-before
 
 ---
-## <span>Summary</span>
+## Summary
 
 Control page/column/region breaks that fall above a block of content
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -56,7 +56,7 @@ Animatable
 Percentages
 :   n/a
 
-## <span>Syntax</span>
+## Syntax
 
 -   `break-before: always`
 -   `break-before: auto`
@@ -70,7 +70,7 @@ Percentages
 -   `break-before: region`
 -   `break-before: right`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Default. A page break or column break is determined by the flow of content.
@@ -105,7 +105,7 @@ region
 avoid-region
 :   A [region](/css/concepts/region) break is not allowed before the content block.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* forces top-level headings onto a new page, column, or region */
@@ -152,13 +152,13 @@ h3 {
 
 [View live example](http://code.webplatform.org/gist/6167152)
 
-## <span>Usage</span>
+## Usage
 
      This property replaces separate column-break-before, page-break-before, and region-break-before properties, which may still be present in some browser implementations.
 
 Frequent use case is in a print stylesheet.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://dev.w3.org/csswg/css3-regions/)
 :   W3C Working Draft
@@ -169,11 +169,11 @@ Frequent use case is in a print stylesheet.
 [CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/#column-breaks)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Layout</span>
+#### CSS Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -217,7 +217,7 @@ Frequent use case is in a print stylesheet.
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### <span>Box Model</span>
+#### Box Model
 
 -   [border](/css/properties/border)
 
@@ -259,7 +259,7 @@ Frequent use case is in a print stylesheet.
 
 -   [min-width](/css/properties/min-width)
 
-#### <span>CSS Attributes</span>
+#### CSS Attributes
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -297,7 +297,7 @@ Frequent use case is in a print stylesheet.
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### <span>Flexbox</span>
+#### Flexbox
 
 -   [align-content](/css/properties/align-content)
 
@@ -323,7 +323,7 @@ Frequent use case is in a print stylesheet.
 
 -   [justify-content](/css/properties/justify-content)
 
-#### <span>Multi-Column</span>
+#### Multi-Column
 
 -   [break-after](/css/properties/break-after)
 
@@ -349,7 +349,7 @@ Frequent use case is in a print stylesheet.
 
 -   [content](/css/properties/content)
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -407,7 +407,7 @@ Frequent use case is in a print stylesheet.
 
 -   [flow-into](/css/properties/flow-into)
 
-#### <span>Responsive Web Design</span>
+#### Responsive Web Design
 
 -   **break-before**
 
@@ -415,11 +415,11 @@ Frequent use case is in a print stylesheet.
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### <span>Shapes</span>
+#### Shapes
 
 -   **break-before**
 
-### <span>External resources</span>
+### External resources
 
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)

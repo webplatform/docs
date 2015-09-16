@@ -11,11 +11,11 @@ tags:
 uri: css/functions/matrix3d
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines a three-dimensional transformation in matrix format. The function requires exactly 16 comma-separated numbers as parameters; these represent the matrix values in &quot;column-major&quot; (top to bottom, then left to right) order.
 
-## <span>Examples</span>
+## Examples
 
 The following code snippet is an example of the **matrix3d** function in use. When applied to a square blue [**div**](/html/elements/div) element, it has the effect illustrated in the image.
 
@@ -25,28 +25,28 @@ div {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 All other transformation functions are based on the **matrix3d** function. It is a good idea to become familiar with transform coordinate systems and rendering before attempting to specify 3-D transforms manually.
 
-### <span>Syntax</span>
+### Syntax
 
 **matrix3d** `( <number>  ,  <number>  ,  <number>  ,  <number>  ,  <number>  ,  <number>  ,  <number>  ,  <number>  ,  <number>  ,  <number>  ,  <number>  ,  <number>  ,  <number>  ,  <number>  ,  <number>  ,  <number> )`
 
-### <span>Parameters</span>
+### Parameters
 
 *number*
 :   A matrix value.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Transforms Module, Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223145), Section 13.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`

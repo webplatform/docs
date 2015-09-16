@@ -13,7 +13,7 @@ tags:
 uri: 'concepts/information architecture/planning a website'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Common steps to planning a website before you start coding.
 
@@ -27,9 +27,9 @@ Common steps to planning a website before you start coding.
 6.  Test the application
 7.  Launch!
 
-## <span>Wireframing</span>
+## Wireframing
 
-### <span>What is wireframing?</span>
+### What is wireframing?
 
 Wireframing is the part of web design where you build a very basic outline of the site's layout. This helps figure out where to place things. You should think about starting here if your site is going to target desktop or mobile users; it is very important that [responsive design](/concepts/responsive/an_introduction_to_responsive_website_design) begins here if you are going to target both.
 
@@ -49,42 +49,42 @@ Some tools to help wireframe are:
 -   [HotGloo](http://www.hotgloo.com/)(WEB - Paid)
 -   [iPhone Mockup](http://iphonemockup.lkmc.ch/)(WEB - Free)
 
-### <span>Designing your site</span>
+### Designing your site
 
 This part involves quite a bit of thought to how users will see and interact with your website and/or application.
 
 This goes in the process of designing
 
-#### <span>Graphic Design</span>
+#### Graphic Design
 
-#### <span>Users Compability</span>
+#### Users Compability
 
-#### <span>Available Technology</span>
+#### Available Technology
 
-#### <span>Future Proofing</span>
+#### Future Proofing
 
-#### <span>Responsiveness</span>
+#### Responsiveness
 
-### <span>Building the front-end</span>
+### Building the front-end
 
 Once your site is designed and you know what you want, it is time to start building it. If you have no experience in web design then you should start with our [beginners tutorial](/beginners) to get you started.
 
-### <span>Giving the site a backend</span>
+### Giving the site a backend
 
 A lot of sites use some kind of administration backend like a Content Management System. If your site needs one of these, then you should put your design into their template style and use one. Otherwise, your site should be ready to go.
 
-### <span>Test the application</span>
+### Test the application
 
 One of the important tasks post development is to test the application. Testing helps confirm that the end product meets requirement we set out with. Often during the process of development we have to make adjustments which deviate the end product from what was originally intended. In addition, there are errors, bugs etc. that creep-in during the development process and these need to be corrected in order to have a useful product. Testing especially very useful in critical software products like those used by your stock trading company, medical research, airline operations etc. where lives are at stake (or huge amount of money!).
 
-### <span>Launch!</span>
+### Launch!
 
 Once your site is ready, put it on a web host and point a domain at it! Once the DNS resolves, your site will be online for all to enjoy.
 
-### <span>Spreading the word</span>
+### Spreading the word
 
 You need to make sure people hear about it, if it is a type that needs visitors. To do that. There are something things you can do: 1. Ask bloggers, industry related magazines, newspapers and anywhere to do a review of your site. 2. Start a Social Contest for actual prizes on Facebook, Twitter, & Google+. 3. Advertise. 4. Optimize for quality and thus Search Engines. Some tips on Seo Submit to search engines. Maintain Clear structure of the site. Provide Alt definitions of pictures. Do not spam. Blog about it.
 
-### <span>Maintain</span>
+### Maintain
 
 Launching is half the process though. You need to fix the problems that will for sure come up. And also updating and improving site thoroughly from time to time to meet the user's needs and to not be outdone by the competition it is necessary.

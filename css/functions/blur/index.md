@@ -13,7 +13,7 @@ tags:
 uri: css/functions/blur
 
 ---
-## <span>Summary</span>
+## Summary
 
 Blurs an element, for use by the filter property. Accepts a distance measurement within which pixels are randomly scattered. A value of 0 leaves the image as is.
 
@@ -27,7 +27,7 @@ Note that pixels blur around the contours of image transparencies, possibly affe
 
 ![music blur.png](/assets/public/2/25/music_blur.png)
 
-## <span>Examples</span>
+## Examples
 
 The following example shows the difference between two images, where one has a blur of 10px: ![filter blur.png](/assets/thumb/7/78/filter_blur.png/400px-filter_blur.png)
 
@@ -55,7 +55,7 @@ The following example shows the difference between two images, where one has a b
 
 [View live example](http://codepen.io/pverbeek/pen/yiKBv)
 
-## <span>Notes</span>
+## Notes
 
 The CSS filter corresponds to this SVG filter definition, based on a variable *radius* passed to the function:
 
@@ -65,7 +65,7 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *r
 </filter>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#)
 :   Editor's Draft
@@ -73,11 +73,11 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *r
 [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   **blur()**
 
@@ -161,7 +161,7 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *r
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### <span>External resources</span>
+### External resources
 
 -   [Adobe CSS FilterLab](http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/)
 -   [Interactive demonstration](http://html5-demos.appspot.com/static/css/filters/index.html)

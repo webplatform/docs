@@ -12,7 +12,7 @@ uri: 'tutorials/configuring mimetypes on the server'
 **By [Carlos Araya](http://rivendellweb.net/work)**
 Originally published 4/5/2013
 
-## <span>Summary</span>
+## Summary
 
 How to set up media or mime types for your your server and why you should always make sure they are set correctly.
 
@@ -36,7 +36,7 @@ Fortunately for our system administrators, most if not all, the available server
 
 I have not listed all the possible servers. Only the ones I've directly worked with. If you have more servers to add, feel free to do so.
 
-## <span>Apache HTTPD server - httpd.conf</span>
+## Apache HTTPD server - httpd.conf
 
 An administrator (with root access ideally) should edit the global configuration file (/etc/httpd.d/httpd.conf for example) and add the new types at the end of the media type listing, the lass line that starts with **AddType**. The format is illustrated below.
 
@@ -44,7 +44,7 @@ An administrator (with root access ideally) should edit the global configuration
     AddType video/mp4 .mp4
     AddType video/webm .webm
 
-## <span>Apache HTTPD server - .htaccess</span>
+## Apache HTTPD server - .htaccess
 
 There may be times when you don't have access to edit the global configuration file or may want to make an exception by changing the global settings. In this instances Apache will allow you to create a special file (.htaccess) in the directory and add configuration directives that will apply only to that directory tree.
 
@@ -83,7 +83,7 @@ The sample below is a part of the [[Boilerplate](https://raw.github.com/h5bp/htm
         AddType     image/svg+xml                           svg svgz
         AddEncoding gzip                                    svgz
 
-## <span>NGINX</span>
+## NGINX
 
 To change this, you need to update the mime.types file in the conf directory. Depending on how you set up NGINX it could be located under /etc/nginx or /opt/nginx.
 
@@ -98,7 +98,7 @@ After opening the file, you should see something like this:
 
 }
 
-## <span>IIS</span>
+## IIS
 
     <pre><configuration>
       <system.webServer>
@@ -113,7 +113,7 @@ After opening the file, you should see something like this:
         </system.web>
     </configuration>
 
-## <span>Google App Engine</span>
+## Google App Engine
 
     - url: /(.*\.ogv)
       static_files: videos_folder/

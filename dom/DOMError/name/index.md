@@ -24,13 +24,13 @@ tags:
 uri: dom/DOMError/name
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the name of an error that occurred during a DOM operation.
 
 Property of [dom/DOMError](/dom/DOMError)[dom/DOMError](/dom/DOMError)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [dom/DOMError](/dom/DOMError)[dom/DOMError](/dom/DOMError)
 var errorName = error.name;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The name associated with an error.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function getErrorName(e) {

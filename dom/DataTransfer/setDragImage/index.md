@@ -20,46 +20,46 @@ tags:
 uri: dom/DataTransfer/setDragImage
 
 ---
-## <span>Summary</span>
+## Summary
 
 Uses the given element to update the drag feedback image, replacing any previously specified feedback image.
 
 Method of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTransfer)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.setDragImage(element, x, y);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>element</span>
+### element
 
  Data-type
 :   Object
 
  An "img" element, used to set the drag data store bitmap to the element's image (at its intrinsic size). If not an "img" element, used to set the drag data store bitmap to an image generated from the given element, although the mechanism for doing so is not currently specified.
 
-### <span>x</span>
+### x
 
  Data-type
 :   unsigned long
 
  The "x" value of the drag data store hot spot coordinate.
 
-### <span>y</span>
+### y
 
  Data-type
 :   unsigned long
 
  The "y" value of the drag data store hot spot coordinate.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //set new drag feedback image
@@ -70,7 +70,7 @@ function setDragImage(e) {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation

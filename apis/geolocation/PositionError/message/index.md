@@ -22,13 +22,13 @@ tags:
 uri: apis/geolocation/PositionError/message
 
 ---
-## <span>Summary</span>
+## Summary
 
 The error text of the current PositionError, describing the details of the error encountered. This attribute is primarily intended for debugging and developers should not use it directly in their application user interface.
 
 Property of [apis/geolocation/PositionError](/apis/geolocation/PositionError)[apis/geolocation/PositionError](/apis/geolocation/PositionError)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,17 +36,17 @@ Property of [apis/geolocation/PositionError](/apis/geolocation/PositionError)[ap
 var result = PositionError.message;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 alert(PositionError.message);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

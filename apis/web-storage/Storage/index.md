@@ -16,11 +16,11 @@ tags:
 uri: apis/web-storage/Storage
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides access to a list of key/value pairs, sometimes called &quot;items&quot;. The amount of storage space is limited by browsers. Changes fire 'storage' event on dom/Window.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -34,7 +34,7 @@ API Name
 [sessionStorage](/apis/web-storage/Storage/sessionStorage)
 :   Provides a Storage object specific to the current top-level browsing context. The storage will be cleared after a browser restart. If you need a persistent storage, use [apis/web-storage/Storage/localStorage](/apis/web-storage/Storage/localStorage).
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -54,11 +54,11 @@ API Name
 [setItem](/apis/web-storage/Storage/setItem)
 :   Adds or replaces a value for the given key.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 Key names are exposed as properties on this object. For example, the following statements are equivalent:
 
@@ -210,7 +210,7 @@ window.addEventListener('storage', function (event) {
 
 [View live example](http://jsfiddle.net/A6tuM/1/)
 
-## <span>Notes</span>
+## Notes
 
 Each **Storage** object provides access to a list of key/value pairs, which are sometimes called items. Keys are strings, and any string (including the empty string) is a valid key. Items contain values (which are also strings) and associated metadata.
 
@@ -218,7 +218,7 @@ Each **Storage** object is associated with a list of key/value pairs when it is 
 
 The **amount of storage** is **limited** by the browser (quota). An error is thrown, when the quota is exceeded. An example, that intentionally exceeds the quota and throws and error may be found here: <http://jsfiddle.net/wkDc6/1/>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Storage Specification](http://www.w3.org/TR/webstorage/)
 :   W3C Recommendation

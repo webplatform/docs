@@ -12,11 +12,11 @@ tags:
 uri: 'apis/media source extensions'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides a buffer based source for HTML5 Video elements to enable media streams for playback, for features like adaptive streaming and shifting live streams.
 
-## <span>Notes</span>
+## Notes
 
 **TODO**: Remove these notes and add content.
 
@@ -28,9 +28,9 @@ Provides a buffer based source for HTML5 Video elements to enable media streams 
 -   (Prefixed) Chrome for Android 30 (on Android 4.1 and later) implements a previous version.
 -   Chrome for Android 31 (on Android 4.1 and later).
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [Media Source Extensions API specification](http://www.w3.org/TR/media-source/)
 -   [MSE Primer](http://docs.webplatform.org/wiki/tutorials/MSEPrimer)

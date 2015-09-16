@@ -23,13 +23,13 @@ tags:
 uri: apis/audio-video/TrackEvent/track
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the track object (TextTrack, AudioTrack, or VideoTrack) to which the event relates.
 
 Property of [apis/audio-video/TrackEvent](/apis/audio-video/TrackEvent)[apis/audio-video/TrackEvent](/apis/audio-video/TrackEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,11 +37,11 @@ Property of [apis/audio-video/TrackEvent](/apis/audio-video/TrackEvent)[apis/aud
 var result = object.track;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //. . .
@@ -49,11 +49,11 @@ var myTrack = document.getElementById("entrack").track; // get track from track 
 //. . .
 ```
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

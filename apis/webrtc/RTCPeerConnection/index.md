@@ -16,11 +16,11 @@ todo_broken_links:
 uri: apis/webrtc/RTCPeerConnection
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides for the connection between remote peers, the transmission of locally generated MediaStream data and arbitrary data between peers.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -81,7 +81,7 @@ API Name
 [remoteStreams](/apis/webrtc/RTCPeerConnection/remoteStreams)
 :   Returns an array of [MediaStream](/apis/webrtc/MediaStream) objects added to the connection by the remote peer. This array is updated when the [addstream](/apis/webrtc/RTCPeerConnection/onaddstream) and [removestream](/apis/webrtc/RTCPeerConnection/removeStream) events are fired.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -125,7 +125,7 @@ API Name
 [updateIce](/apis/webrtc/RTCPeerConnection/updateIce)
 :   Updates the ICE agent process that gathers local candidates and remote candidates.
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary

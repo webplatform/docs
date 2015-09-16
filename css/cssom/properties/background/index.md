@@ -29,24 +29,24 @@ todo_broken_links:
 uri: css/cssom/properties/background
 
 ---
-## <span>Summary</span>
+## Summary
 
 The background-position property sets the starting position of a background image.
 
 Property of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = declaration.background;
 declaration.background = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 The following examples use the **background** property and the **background** attribute to set the background values.
 
@@ -76,26 +76,26 @@ This example uses inline scripting to modify the [**background-color**](/css/pro
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/background_s.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **background** property is a composite property. Separate properties can be used to specify each property, but in many cases it is more convenient to set them in one place using this composite property. Individual background properties not set by the composite background property are set to their default values. For example, the default value for **image** is **none**. Setting **background**: **white** is equivalent to setting **background**: **white** **none** **repeat** **scroll** **0%** **0%**. So, in addition to setting the background color to white, setting **background**: **white** clears any **image**, **repeat**, **attachment**, or **position** values previously set. The background properties render in the object's content and padding; however, borders are set using the [**border**](/css/properties/border) properties. In Microsoft Internet Explorer 3.0, elements that expose the **background** property only support the **color** and **image** values; the **attachment** value is only supported by the **body**, [**table**](/html/elements/table), and **td** elements. In block elements, such as **p** and **div**, background images and colors appear only behind text in Internet Explorer 3.0; in Microsoft Internet Explorer 4.0 and later, backgrounds stretch from margin to margin when used with block elements. Although objects do not inherit the **background** property, the background image or color of an object's parent appears behind an object if a background is not specified. For more information about supported colors, see the Color Table.
 
-### <span>Syntax</span>
+### Syntax
 
 `background: '[  <color>  || image || repeat || attachment || position ]`
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 5.3.7
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Background</span>
+#### Background
 
 -   **background**
 
@@ -125,7 +125,7 @@ The **background** property is a composite property. Separate properties can be 
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

@@ -21,19 +21,19 @@ todo_broken_links:
 uri: html/elements/marquee
 
 ---
-## <span>Summary</span>
+## Summary
 
 Nonstandard. Defines a scrolling area (usually horizontal) of text.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLMarqueeElement](/dom/HTMLMarqueeElement)
 
 No, really. don't use it.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The default width of the **MARQUEE** element is equal to the width of its parent element. When a **MARQUEE** is in a **TD** that does not specify a width, you should explicitly set the width of **MARQUEE**. If neither the **MARQUEE** nor the **TD** has a width specified, the marquee is collapsed to a 1-pixel width. To create a vertically scrolling **marquee**, set its [**scrollLeft**](/w/index.php?title=dom/properties/scrollLeft&action=edit&redlink=1) property to 0. To create a horizontally scrolling marquee, set its [**scrollTop**](/w/index.php?title=dom/properties/scrollTop&action=edit&redlink=1) property to 0, overriding any script setting. The [**scrollLeft**](/w/index.php?title=dom/properties/scrollLeft&action=edit&redlink=1) and [**scrollTop**](/w/index.php?title=dom/properties/scrollTop&action=edit&redlink=1) properties are read-only while the **marquee** is scrolling. When not scrolling, **scrollLeft** is read/write for a **marquee** set to scroll horizontally and **scrollTop** is read/write for a **marquee** set to scroll vertically.

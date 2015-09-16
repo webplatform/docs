@@ -18,23 +18,23 @@ tags:
 uri: apis/web-storage/Storage/clear
 
 ---
-## <span>Summary</span>
+## Summary
 
 Causes the list associated with the object to be emptied of all key/value pairs, if there are any.
 
 Method of [apis/web-storage/Storage](/apis/web-storage/Storage)[apis/web-storage/Storage](/apis/web-storage/Storage)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.clear();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 The following button clears the local storage area for the current domain.
 
@@ -43,11 +43,11 @@ The following button clears the local storage area for the current domain.
     Clear Stored Values</button>
 ```
 
-## <span>Notes</span>
+## Notes
 
 sessionStorage is cleared immediately. localStorage key/value pairs are removed from memory, and disk storage quota is updated.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Storage Specification](http://dev.w3.org/html5/webstorage)
 :   W3C Editor's Draft

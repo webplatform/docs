@@ -16,13 +16,13 @@ tags:
 uri: html/elements/acronym
 
 ---
-## <span>Summary</span>
+## Summary
 
 This element is deprecated in HTML5, in favor of the abbr element. It should no longer be used.
 
 The `acronym` element indicated an abbreviation or a word formed by the initial letter or letters (or major parts) of a compound term, like NATO, radar or Interpol.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -31,16 +31,16 @@ The `acronym` element was a type of phrasing content that existed at the sub-par
 
 An equivalent to this element in HTML5 is the **`abbr`** element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 4.01 Specification](http://www.w3.org/TR/html401/struct/text.html#h-9.2.1)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Deprecated</span>
+#### Deprecated
 
 -   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 
@@ -72,7 +72,7 @@ An equivalent to this element in HTML5 is the **`abbr`** element.
 
 -   [unescape](/javascript/unescape)
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 

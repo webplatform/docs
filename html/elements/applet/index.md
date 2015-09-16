@@ -16,22 +16,22 @@ tags:
 uri: html/elements/applet
 
 ---
-## <span>applet</span>
+## applet
 
 For technical reasons, the title of this article is not the text used to call this API. Instead, use `applet`
 
-## <span>Summary</span>
+## Summary
 
 The applet element (&lt;applet&gt;) embeds a Java applet into a web page.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLAppletElement](/dom/HTMLAppletElement)
 
 The **applet** element has been deprecated with HTML 4.01 and made *obsolete* with HTML5.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to embed Java applet 'myApplet' into a web page.
 
@@ -41,13 +41,13 @@ My Java applet goes here!
 </applet>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 To use executable content specified by the **applet** element, a user's computer must have a Java Runtime Environment (JRE) solution installed.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 4.01](http://www.w3.org/TR/REC-html40/struct/objects.html#h-13.4)
 :   W3C Recommendation

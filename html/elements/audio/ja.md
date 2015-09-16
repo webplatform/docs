@@ -82,18 +82,18 @@ todo_broken_links:
 uri: html/elements/audio/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 &lt;audio&gt;は音楽ファイルを再生したり、最低限のメディアプレイヤーのインターフェイスを表示するのに使用します。
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 より詳細な説明は[HTMLAudioElement](/dom/HTMLAudioElement)を参照してください。
 
-## <span>HTML属性</span>
+## HTML属性
 
 -   `autoplay` = "autoplay"、"" (空文字)、もしくは指定なし
     ブラウザ上でオーディオストリームを自動で再生します。
@@ -110,15 +110,15 @@ uri: html/elements/audio/ja
     複数の動画や音楽をグループ化し、リンクさせることができます。
 -   `src` = URL（前後のスペースは取り除かれます。）オーディオストリームのURLを指定します。
 
-## <span>アクセシビリティ</span>
+## アクセシビリティ
 
 製作者は、情報とインターフェイスがいろいろなユーザに見やすくわかりやすいように作成する必要があります ([WCAG 2.0 - 原則 1: 知覚可能](http://waic.jp/docs/WCAG20/Overview.html#perceivable))。テキストのキャプション等の、タイムベースメディア（音楽や動画）に対する代替手法についても含まれています。[ガイダンス 1.2](http://waic.jp/docs/WCAG20/Overview.html#media-equiv).
 
-## <span>フォーマットとコーデック</span>
+## フォーマットとコーデック
 
 一部のコーデックについて、すべてのブラウザでサポートされているわけではありません。しかしOgg/VorbisとMP4/AACはほとんどのブラウザでサポートされています。詳細は[対応音声コーデック(Wikipedia)](https://ja.wikipedia.org/wiki/HTML5%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA#.E5.AF.BE.E5.BF.9C.E9.9F.B3.E5.A3.B0.E3.82.B3.E3.83.BC.E3.83.87.E3.83.83.E3.82.AF)を参照してください。
 
-## <span>Examples</span>
+## Examples
 
 この例はウェブページでmp3を再生するサンプルです。
 
@@ -129,7 +129,7 @@ uri: html/elements/audio/ja
 
 [View live example](http://code.webplatform.org/gist/7282145)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-audio-element)
 :   W3C Working Draft
@@ -137,8 +137,8 @@ uri: html/elements/audio/ja
 [HTML 5](http://www.w3.org/TR/html5/embedded-content-0.html#the-audio-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [HTML5 and Xiph codecs](http://wiki.xiph.org/Html5)

@@ -16,21 +16,21 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/addHitRegion
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a hit region.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  context.addHitRegion(options);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>options</span>
+### options
 
  Data-type
 :   Object
@@ -40,11 +40,11 @@ Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingCon
 -   **id** ( default empty string ) Used as reference for the HitRegion ( e.g. in [MouseEvents](/dom/MouseEvent) )
 -   **control** ( default null ) An element ( descendant of the canvas ) to which the event is routed
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 simple click detection
 
@@ -67,7 +67,7 @@ canvas.onclick = function( e ) {
 };
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/#hit-regions)
 :   W3C Candidate Recommendation
@@ -75,7 +75,7 @@ canvas.onclick = function( e ) {
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation
 
-## <span>Notes</span>
+## Notes
 
 A *hit region* is an arbitrary rectangular area on the canvas that responds to user events, with the goal of simplifying event detection.
 

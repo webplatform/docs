@@ -7,11 +7,11 @@ tags:
 uri: 'guides/html tables'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article offers an introduction to HTML tables, including basic coding techniques and CSS styling.
 
-## <span>Introduction</span>
+## Introduction
 
 Ack! — how do you use web standards to organize reams of data? The very idea of using tons of nested elements to get all your data into nice little rows and boxes might put your brain into panic mode, but there is a solution — HTML tables to the rescue!
 
@@ -21,7 +21,7 @@ Back in the Jurassic Age of the Internet, before CSS was popularized as a method
 
 From an information design standpoint, tables always perform one of two functions: they either reflect the structure of organized data, or they impart structure to unorganized data. If an HTML table doesn't do one of those jobs, it probably shouldn't be a table.
 
-## <span>The most basic table</span>
+## The most basic table
 
 Let's start with the semantic HTML code required to render a basic table. This example compares recent volcanic eruptions in the Pacific region of North America:
 
@@ -84,7 +84,7 @@ The basic table elements must be nested as follows:
 
  To order them in any other way will cause the browser to spit up the equivalent of an Internet hair ball and render the table oddly, if at all.
 
-## <span>Adding some more features</span>
+## Adding some more features
 
 Now that the basic table is in place, we can add some slightly more complex table features. First, we'll add a caption and table headers to help improve the data, both in terms of semantics and legibility for screen readers. The updated table markup looks like this:
 
@@ -131,7 +131,7 @@ The new elements used here are:
 -   `<caption></caption>`: The `<caption>` element allows you to give the table data a caption. Most browsers will center the caption and render it the same width as the table by default.
 -   `<th></th>`: The `<th>` element defines the content as table headings for each table section, which can be a column, a row, or a group of cells. This is useful not just to help semantically describe the function of the content, but it also helps render it more accurately in a variety of browsers and devices. The `<th>` element is used in a row just like a `<td>`, and browsers typically render its content bold and centered in the data cell.
 
-## <span>Structuring the table further</span>
+## Structuring the table further
 
 As a final step in structuring our table, we will define table header and table body sections, add a footer, and define the scope of row and column headings. We will also add a `summary` attribute to describe the table contents. The final markup looks like this:
 
@@ -267,7 +267,7 @@ The new elements and attributes are as follows:
 -   The `summary` attribute: This attribute is used to define a summary of the table contents, primarily for use by screenreaders (you won't see it in the rendered version of the table above). Note that in the older W3C recommendations, WCAG 1.0 and HTML 4.0, you can use the `summary` attribute as detailed above. In newer drafts of the specs, however, the `summary` attribute is not mentioned. Whether to still use the `summary` attribute seems undecided, so for now let's say that it is safe to still use it. After all, it doesn't cause anything to break, and it confers accessibility advantages.
 -   The `scope` attribute: You may also have noticed the `scope` attributes in the `th` tags, and the fact that we have defined the volcano names as headings as well, inside the data rows! The `scope` attribute can be used in the `th` element to tell screen readers that the `th` content is the title for a column or a row.
 
-## <span>CSS to the rescue: a better looking table</span>
+## CSS to the rescue: a better looking table
 
 The above elements and attributes are all that is necessary to code a good data table. Now that the HTML structure is in place, let's look at some simple CSS to make the table look a bit nicer:
 
@@ -322,7 +322,7 @@ Ahh, much better. You can choose to style the table any way you want, but the ab
 -   `<th>` and `<td>`: In the above CSS, we set `text-align` to be `left`, but you could set it to `center` or other values if you like. We also gave both the `<th>` and `<td>` a bit of padding to open up the rows and allow for greater readability. In the case of the `<th>` selector, we used another color to differentiate the headings from the rest of the table.
 -   `<caption>`: In the example we gave the caption a border (with no bottom border, as the border in the table already provides it), a different background colour, and bold type to set the caption apart from the table header row.
 
-## <span>Conclusion</span>
+## Conclusion
 
 In this article we have presented all you need to know to create basic HTML data tables. Let's leave this article with some pertinent thoughts:
 

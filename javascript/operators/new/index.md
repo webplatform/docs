@@ -10,11 +10,11 @@ tags:
 uri: javascript/operators/new
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a new object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Creates a new object.
 **arguments**
 :   Optional. Any arguments to be passed to the new object's constructor.
 
-## <span>Examples</span>
+## Examples
 
 These are examples of valid uses of the **new** operator.
 
@@ -36,7 +36,7 @@ my_array = new Array();
 my_date = new Date("Jan 5 1996");
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The new operator performs the following tasks:
 
@@ -44,9 +44,9 @@ The new operator performs the following tasks:
 -   It calls the constructor for that object, passing a pointer to the newly created object as the this pointer.
 -   The constructor then initializes the object according to the arguments passed to the constructor.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [function Statement](/javascript/statements/function)
 

@@ -28,32 +28,32 @@ nth-child(n)=
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **:nth-child** pseudo-class is a structural pseudo-class. Structural pseudo-classes enable selection based on extra information in the document tree that cannot be selected using simple selectors or combinators.
 
-### <span>Syntax</span>
+### Syntax
 
 `selector:nth-child(an+b) {...}`
 
-### <span>Parameters</span>
+### Parameters
 
 *selector*
 :   A CSS simple selector.
 *an+b*
 :
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Selectors Level 3](http://go.microsoft.com/fwlink/p/?linkid=199783), Section 6.6.5.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Pseudo-Classes</span>
+#### Pseudo-Classes
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -105,7 +105,7 @@ The **:nth-child** pseudo-class is a structural pseudo-class. Structural pseudo-
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -181,11 +181,11 @@ The **:nth-child** pseudo-class is a structural pseudo-class. Structural pseudo-
 
 -   [type](/css/selectors/type)
 
-### <span>External resources</span>
+### External resources
 
 -   [How nth-child Works](http://css-tricks.com/how-nth-child-works/)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `:root`

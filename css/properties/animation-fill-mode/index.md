@@ -23,13 +23,13 @@ tags:
 uri: css/properties/animation-fill-mode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines what values are applied by the animation outside the time it is executing (before and after the animation).
 
 By default, an animation does not affect property values between the time it is applied (when the [animation-name](/css/properties/animation-name) property is set on an element) and the time it begins execution (determined by the [animation-delay](/css/properties/animation-delay) property). Also, by default an animation does not affect property values after the animation ends (determined by the [animation-duration](/css/properties/animation-duration) property). The **animation-fill-mode** property can override this behavior.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -55,14 +55,14 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `animation-fill-mode: backwards`
 -   `animation-fill-mode: both`
 -   `animation-fill-mode: forwards`
 -   `animation-fill-mode: none`
 
-## <span>Values</span>
+## Values
 
 none
 :   Property values do not change before the animation starts, and they return to their original state when the animation ends. This is the default behavior.
@@ -100,7 +100,7 @@ backwards
 both
 :   Values set by the first and last keyframes are applied before and after the animation.
 
-## <span>Examples</span>
+## Examples
 
 An example of a mobile-like interface in which two concurrent animations displace content with a banner header. Without any animations, both elements would overlay the same screen area. In the *moveContent* animation, the fill mode of **forwards** means its end state (moved downward) persists after it finishes executing. In the *insertBanner* animation, the fill mode of **backwards** means its start state (off-screen) takes precedence over the element's CSS during the delay before the animation executes. (In the subsequent *scrollBanner* animation, the fill-mode is explicitly set to **none** to keep its initial state from overriding that of the previous animation.)
 
@@ -148,22 +148,22 @@ header {
 
 [View live example](http://code.webplatform.org/gist/7012307)
 
-## <span>Usage</span>
+## Usage
 
      Can also be a comma-separated list of fill modes, e.g., forwards, none, backwards, where each fill mode is applied to the corresponding ordinal position value of the animation-name property.
 
-## <span>Notes</span>
+## Notes
 
 This is an experimental specification, and therefore not completely finalized. Syntax and behavior are still subject to change in future versions.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Animation](http://www.w3.org/TR/css3-animations/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Making things move with CSS3 animations](/tutorials/css_animations)
 -   [@keyframes](/css/atrules/@keyframes)
@@ -176,6 +176,6 @@ This is an experimental specification, and therefore not completely finalized. S
 -   [animation-play-state](/css/properties/animation-play-state)
 -   [animation-timing-function](/css/properties/animation-timing-function)
 
-### <span>External resources</span>
+### External resources
 
 -   See also [Val Head's examples with tutorial video](http://www.valhead.com/2013/01/04/tutorial-css-animation-fill-mode/).

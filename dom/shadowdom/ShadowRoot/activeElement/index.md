@@ -23,13 +23,13 @@ tags:
 uri: dom/shadowdom/ShadowRoot/activeElement
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents the currently focused element in the shadow tree.
 
 Property of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/
 var result = element.activeElement;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ElementElement
 

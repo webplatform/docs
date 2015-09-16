@@ -12,11 +12,11 @@ uri: dom/Implementation
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -33,7 +33,7 @@ API Name
 [hasFeature](/dom/Implementation/hasFeature)
 :   Returns whether a specific DOM standard is implemented.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 

@@ -24,13 +24,13 @@ tags:
 uri: dom/Document/head
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the head element of the document.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 var headElement = document.head;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The [head](/html/elements/head) element of the document.
 
-## <span>Examples</span>
+## Examples
 
 This example displays the text (innerHTML) of the document's `head` element.
 
@@ -67,7 +67,7 @@ This example displays the text (innerHTML) of the document's `head` element.
 </html>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/dom.html#dom-document-head)
 :   Candidate Recommendation

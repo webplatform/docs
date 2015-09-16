@@ -21,7 +21,7 @@ tags:
 uri: dom/Navigator/pointerEnabled
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates if the browser will fire pointer events for pointing input.
 
@@ -29,7 +29,7 @@ In late 2013, pointerEnabled was removed from the specification as checking Poin
 
 Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,11 +37,11 @@ Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 var result = navigator.pointerEnabled;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
-## <span>Examples</span>
+## Examples
 
 Basic HTML5 Canvas painting application
 
@@ -77,20 +77,20 @@ window.addEventListener('load', function() {
 });
 ```
 
-## <span>Notes</span>
+## Notes
 
 In late 2013, pointerEnabled was removed from the specification as checking PointerEvent in Window object is sufficient for feature detection. Do not use this property and use PointerEvent instead.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Pointer Events](http://www.w3.org/TR/pointerevents/)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Pointer Events</span>
+#### Pointer Events
 
 -   [Pointer Events Primer](/concepts/Pointer_Events)
 

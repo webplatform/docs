@@ -13,7 +13,7 @@ tags:
 uri: css/functions/grayscale
 
 ---
-## <span>Summary</span>
+## Summary
 
 Converts an element's color to a shade of gray, for use by the filter property. A decimal value between 0 and 1 or percentage up to 100% controls the extent of the gray effect.
 
@@ -24,7 +24,7 @@ Converts an element's color to a shade of gray, for use by the filter property. 
 
   ![f05-boatonlake.jpg](/assets/thumb/3/37/f05-boatonlake.jpg/300px-f05-boatonlake.jpg)![f06-boatonlakegray.jpg](/assets/thumb/7/7e/f06-boatonlakegray.jpg/300px-f06-boatonlakegray.jpg)
 
-## <span>Examples</span>
+## Examples
 
 The following example shows the difference between two images, where one has a grayscale of 75%. ![filter grayscale.png](/assets/thumb/8/88/filter_grayscale.png/400px-filter_grayscale.png)
 
@@ -52,7 +52,7 @@ The following example shows the difference between two images, where one has a g
 
 [View live example](http://codepen.io/pverbeek/pen/iLyCE)
 
-## <span>Notes</span>
+## Notes
 
 The CSS filter corresponds to this SVG filter definition, based on a variable *amount* passed to the function:
 
@@ -66,7 +66,7 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
   </filter>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#)
 :   Editor's Draft
@@ -74,11 +74,11 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 
@@ -162,7 +162,7 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### <span>External resources</span>
+### External resources
 
 -   [Adobe CSS FilterLab](http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/)
 -   [Interactive demonstration](http://html5-demos.appspot.com/static/css/filters/index.html)

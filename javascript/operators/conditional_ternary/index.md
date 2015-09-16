@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/operators/conditional ternary'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns one of two expressions depending on a condition. Also referred to as &quot;if...else shorthand&quot;.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Returns one of two expressions depending on a condition. Also referred to as &qu
 **expression2**
 :   An expression returned if test is false. More than one expression may be a linked by a comma expression.
 
-## <span>Examples</span>
+## Examples
 
 The ?: operator can be used as a shortcut for an if...else statement. It is typically used as part of a larger expression where an if...else statement would be awkward. This example creates a string containing "Good evening." if it is after 6pm, or "Good day." otherwise.
 
@@ -49,9 +49,9 @@ else
     greeting += " day.";
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [if...else Statement](/javascript/statements/if_else)
 

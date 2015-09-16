@@ -24,7 +24,7 @@ uri: dom/HTMLMediaElement/autobuffer
 
 Property of [dom/HTMLMediaElement](/dom/HTMLMediaElement)[dom/HTMLMediaElement](/dom/HTMLMediaElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.autobuffer;
@@ -33,21 +33,21 @@ element.autobuffer = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **autobuffer** method buffers the **audio** or **video** element to prepare for playback. The **autobuffer** attribute indicates that the media element is likely to be used, even though it does not have an [**autoplay**](/dom/HTMLMediaElement/autoplay) attribute. This attribute is ignored if **autoplay** is present. Buffering the media can improve responsiveness when the element is finally played.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374)
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `media`
 -   `audio`

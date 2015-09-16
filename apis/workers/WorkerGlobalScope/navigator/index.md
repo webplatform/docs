@@ -24,13 +24,13 @@ tags:
 uri: apis/workers/WorkerGlobalScope/navigator
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns an instance of the WorkerNavigator interface, which represents the identity and state of the user agent (the client).
 
 Property of [apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)[apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,17 +38,17 @@ Property of [apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)[ap
 var result = object.navigator;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 The **WorkerNavigator** object returned by this property can provide information about the browser a worker is running in.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft

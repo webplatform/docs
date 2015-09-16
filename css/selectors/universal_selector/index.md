@@ -21,7 +21,7 @@ If a universal selector represented by \* (i.e. without a namespace prefix) is n
 
 **Note**: it is recommended that the \* not be omitted, because it decreases the potential confusion between, for example, *div :first-child* and *div:first-child*. Here, *div \*:first-child* is more readable.
 
-## <span>Universal selector and namespaces</span>
+## Universal selector and namespaces
 
 The universal selector allows an optional namespace component. It is used as follows:
 

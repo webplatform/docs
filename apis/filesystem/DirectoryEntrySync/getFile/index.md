@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/DirectoryEntrySync/getFile
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates or looks up a file.
 
@@ -30,22 +30,22 @@ Creates or looks up a file.
 
 Method of [apis/filesystem/DirectoryEntrySync](/apis/filesystem/DirectoryEntrySync)[apis/filesystem/DirectoryEntrySync](/apis/filesystem/DirectoryEntrySync)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = DirectoryEntrySync.getFile(path, options);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>path</span>
+### path
 
  Data-type
 :   String
 
  Either an absolute path or a relative path from this DirectoryEntrySync to the file to be looked up or created. It is an error to attempt to create a file whose immediate parent does not yet exist.
 
-### <span>options</span>
+### options
 
  Data-type
 :   String
@@ -58,15 +58,15 @@ var  = DirectoryEntrySync.getFile(path, options);
 -   If create is not true and the path exists, but is a directory, getFile must fail.
 -   Otherwise, if no other error occurs, getFile must return a FileEntrySync corresponding to path.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 FileEntrySync
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

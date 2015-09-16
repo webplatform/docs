@@ -121,9 +121,9 @@ uri: http/headers
 ---
 The full list of HTTP headers is shared with MIME headers and is maintained by the IANA at [Message Headers](http://www.iana.org/assignments/message-headers/message-headers.xhtml)
 
-## <span>Headers by Function</span>
+## Headers by Function
 
-### <span>Informational</span>
+### Informational
 
 -   Main article: [Requesting resources](/w/index.php?title=http/requesting_resources&action=edit&redlink=1): GET, HEAD, OPTIONS
 -   Main article: [Modification of resources](/w/index.php?title=http/modifying_resources&action=edit&redlink=1): PUT, PATCH
@@ -134,7 +134,7 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 -   [Date](/http/headers/Date)
 -   [Referer](/http/headers/Referer) [sic]
 
-### <span>Resource Metadata</span>
+### Resource Metadata
 
 -   Main article: [Resource metadata](/w/index.php?title=http/resource_metadata&action=edit&redlink=1): Link, Last-Modified, Content-Type, Allow, etc
 -   [Content-Location](/http/headers/Content-Location)
@@ -144,14 +144,14 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 -   [Content-MD5](/w/index.php?title=http/headers/Content-MD5&action=edit&redlink=1)
 -   [Allow](/http/headers/Allow)
 
-### <span>Transfer Control</span>
+### Transfer Control
 
 -   Main article: [Requesting resources](/w/index.php?title=http/requesting_resources&action=edit&redlink=1): GET, HEAD, OPTIONS
 -   [Transfer-Encoding](/w/index.php?title=http/headers/Transfer-Encoding&action=edit&redlink=1)
 -   [Content-Length](/w/index.php?title=http/headers/Content-Length&action=edit&redlink=1)
 -   [Expect](/w/index.php?title=http/headers/Expect&action=edit&redlink=1): 100-continue
 
-### <span>Entity Body and Partial Content</span>
+### Entity Body and Partial Content
 
 -   Main article: [Partial content responses](/w/index.php?title=http/partial_responses&action=edit&redlink=1)
 -   [Content-Range](/w/index.php?title=http/headers/Content-Range&action=edit&redlink=1)
@@ -159,7 +159,7 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 -   [If-Range](/http/headers/If-Range)
 -   [Range](/http/headers/Range)
 
-### <span>Caching</span>
+### Caching
 
 -   Main article: [Layered requests](/w/index.php?title=http/layered_requests&action=edit&redlink=1) with proxies and gateways
 -   [Expires](/http/headers/Expires)
@@ -170,7 +170,7 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 -   [Last-Modified](/http/headers/Last-Modified)
 -   [Content-Location](/http/headers/Content-Location)
 
-### <span>Conditional Requests</span>
+### Conditional Requests
 
 -   Main article: [Caching](/w/index.php?title=http/caching&action=edit&redlink=1) and conditional requests
 -   Main article: [Conditional updates](/w/index.php?title=http/conditional_updates&action=edit&redlink=1)
@@ -182,7 +182,7 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 -   [ETag](/http/headers/ETag)
 -   [Last-Modified](/http/headers/Last-Modified)
 
-### <span>Authentication and Access Control</span>
+### Authentication and Access Control
 
 -   Main article: [Access control](/w/index.php?title=http/access_control&action=edit&redlink=1)
 -   [WWW-Authenticate](/w/index.php?title=http/headers/WWW-Authenticate&action=edit&redlink=1)
@@ -190,7 +190,7 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 -   [Proxy-Authenticate](/w/index.php?title=http/headers/Proxy-Authenticate&action=edit&redlink=1)
 -   [Proxy-Authorization](/w/index.php?title=http/headers/Proxy-Authorization&action=edit&redlink=1)
 
-### <span>Content-Type Negotiation</span>
+### Content-Type Negotiation
 
 -   Main article: [Content negotiation](/w/index.php?title=http/content_negotiation&action=edit&redlink=1): Accept, Content-Location
 -   [Accept](/http/headers/Accept)
@@ -198,7 +198,7 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 -   [Accept-Language](/w/index.php?title=http/headers/Accept-Language&action=edit&redlink=1)
 -   [Accept-Ranges](/w/index.php?title=http/headers/Accept-Ranges&action=edit&redlink=1)
 
-## <span>Crafting New Headers</span>
+## Crafting New Headers
 
 See [RFC7231 Section 8.3.1](http://tools.ietf.org/html/rfc7231#section-8.3.1).
 
@@ -206,7 +206,7 @@ If the response is identifying another resource, use the Link header with a URI 
 
     Link: <http://example.com/AcmeMetals>;rel="http://example.com/coin-minted-by"
 
-## <span>Table of Headers</span>
+## Table of Headers
 
 |Header|Description|Reference|
 |:-----|:----------|:--------|

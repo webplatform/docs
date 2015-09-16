@@ -5,7 +5,7 @@ uri: 'community/berlin feb 2013'
 ---
 *Note: This plan has been used at the Berlin Doc Sprint. You can also access [the full slidedeck we've used here](http://de.slideshare.net/klick_ass/webplatformorg-doc-sprint-berlin-feb-89-2013)*
 
-## <span>Intro Talk, general</span>
+## Intro Talk, general
 
 Hello, and welcome to the first WebPlatform.org European Doc Sprint!
 
@@ -21,7 +21,7 @@ Afterwards I'll also deliver a set up talk, to help those who have never used th
 
 So, find somewhere comfortable to sit, grab a drink, log on to the Wifi, and let's get going!
 
-## <span>Work plan</span>
+## Work plan
 
 So, the main focus groups we have for today are:
 
@@ -34,7 +34,7 @@ Of course if you want to do something other than these two, you can be in the th
 
 -   The "do what you want" group ;-)
 
-### <span>APIs</span>
+### APIs
 
 There are a lot of APIs we want to cover on WebPlatform, and we have only really investigated the tip of the iceberg so far.
 
@@ -47,7 +47,7 @@ To get started with APIs:
 
 Your main go to point for help and guidance with APIs is Scott Rowe.
 
-### <span>CSS Property references</span>
+### CSS Property references
 
 There are a huge number of CSS properties to cover in our reference pages, and we need your help to cover them all! Well, specifically, we are going to cover the highest priority ones first, and then move down to lower priority ones later.
 
@@ -62,7 +62,7 @@ Bear in mind that we want to work on p0, p1 and p2 properties first of all, so p
 
 Your main go to point for help and guidance with CSS property references is Chris Mills.
 
-### <span>Do what you want</span>
+### Do what you want
 
 If you don't like the idea of working on CSS or API docs, please have a think about what else you'd like to do. You could:
 
@@ -73,7 +73,7 @@ If you don't like the idea of working on CSS or API docs, please have a think ab
 
 Please let u know what you want to work on, and we'll keep track of your progress.
 
-### <span>Other people you can go to for help</span>
+### Other people you can go to for help
 
 -   Julee Burdekin, Adobe
 -   Janet Swisher, Mozilla
@@ -82,7 +82,7 @@ Please let u know what you want to work on, and we'll keep track of your progres
 -   Scott Rowe, Google
 -   Florian Scholz, MDN
 
-### <span>Working practice, and getting help</span>
+### Working practice, and getting help
 
 Different people work better in different ways. Therefore, how you work is entirely up to you, as long as you are happy and productive! We'd suggest that people working on similar subjects first of all introduce themselves if they don't already know each other. Then think about whether to work solo, or pair up: some people work alone best, some people might work better if they pair up (one creative to write code examples and one person to write the doc/researching, perhaps?)
 
@@ -92,7 +92,7 @@ We are planning to keep help methods pretty low fi for the doc sprint. If you wa
 
 You can see a list of online help and communication mechanisms at <http://docs.webplatform.org/wiki/WPD:Help>. These will be more useful when we leave here, and start contributing at home, in the future.
 
-## <span>Beginners: getting started</span>
+## Beginners: getting started
 
 So, those with prior experience can split off at this point and start working: this talk is mainly just for those who have not used the site before.
 
@@ -103,7 +103,7 @@ To get started, you need to:
 -   Review the structure of the site, at our [Topic Hierarchy page](/Meta:Editors_Guide/Topic_Hierarchy), to get familiar with where things go
 -   <http://docs.webplatform.org/wiki/WPD:Editors_Guide> contains a guide to show you how to edit and create pages on the Wiki
 
-### <span>Media Wiki crash course</span>
+### Media Wiki crash course
 
 -   (Almost) no tags needed
 -   \* and \# for bullets and numbers

@@ -24,14 +24,14 @@ uri: dom/HTMLElement/scrollWidth
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.scrollWidth;
 element.scrollWidth = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 When the [**overflow**](/css/properties/overflow) property is set to **auto**, the content can exceed the dimensions of an element, and scroll bars appear. You can use the **scrollWidth** property to retrieve the width of the content within the element.
 
@@ -57,10 +57,10 @@ function fnCheckScroll() {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/scrollWidth.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The width is the distance between the left and right edges of the object's visible content. This property is read-only on HTML documents, and read-write on fixed regions. For more information about how to access the dimension and location of objects on the page through the Document Object Model (DOM), see Measuring Element Dimension and Location with CSSOM in Internet Explorer 9.
 
-### <span>Syntax</span>
+### Syntax

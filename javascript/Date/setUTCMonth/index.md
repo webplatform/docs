@@ -11,11 +11,11 @@ tags:
 uri: javascript/Date/setUTCMonth
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the month value in the Date object using Universal Coordinated Time (UTC).
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -30,7 +30,7 @@ Sets the month value in the Date object using Universal Coordinated Time (UTC).
 **dateVal**
 :   Optional. A numeric value representing the day of the month. If it is not supplied, the value from a call to the **getUTCDate** method is used.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **setUTCMonth** method.
 
@@ -44,7 +44,7 @@ function SetUTCMonthDemo(newmonth){
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 To set the month value using local time, use the **setMonth** method.
 
@@ -52,9 +52,9 @@ If the value of numMonth is greater than 11 (January is month 0), or is a negati
 
 The **setUTCFullYear** method can be used to set the year, month, and day of the month.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getMonth Method (Date)](/javascript/Date/getMonth)
 -   [getUTCMonth Method (Date)](/javascript/Date/getUTCMonth)

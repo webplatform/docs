@@ -20,11 +20,11 @@ tags:
 uri: css/properties/mask-size
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the size of the mask images, similar to the CSS background-size property.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -50,7 +50,7 @@ Animatable
 Percentages
 :   See text.
 
-## <span>Syntax</span>
+## Syntax
 
 -   `mask-size: auto`
 -   `mask-size: contain`
@@ -58,7 +58,7 @@ Percentages
 -   `mask-size: length`
 -   `mask-size: percentage`
 
-## <span>Values</span>
+## Values
 
 auto
 :   The intrinsic height/width of the mask image is used.
@@ -75,7 +75,7 @@ length
 percentage
 :   An integer, followed by a percent (%). A percentage value is relative to the background positioning area.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* contain */
@@ -88,7 +88,7 @@ body {
     }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Masking Level 1](https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html)
 :   W3C Editor's Draft

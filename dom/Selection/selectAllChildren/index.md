@@ -23,28 +23,28 @@ tags:
 uri: dom/Selection/selectAllChildren
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds all the children of the specified node to the selection. Previous selection is lost.
 
 Method of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = selObj.selectAllChildren(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>parentNode</span>
+### parentNode
 
  Data-type
 :   DOM Node
 
  The object that receives the new selection.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -52,7 +52,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 In this example, your selection is replaced by all the elements of the DIV.
 
@@ -86,14 +86,14 @@ window.getSelection().selectAllChildren(footer);
 /* Everything inside the footer is now selected */
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Raises a WRONG\_DOCUMENT\_ERR [**DOMException**](/dom/DOMException) if the *parentNode* is in another document.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1

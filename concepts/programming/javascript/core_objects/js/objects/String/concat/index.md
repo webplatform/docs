@@ -3,23 +3,23 @@ title: concat
 uri: 'concepts/programming/javascript/core objects/js/objects/String/concat'
 
 ---
-### <span>Summary</span>
+### Summary
 
 Returns value of joined strings without altering original string.
 
 One of multiple ways to do this. Other ways include the addition operator ( + ) and the assignment operator ( += ).
 
-### <span>Syntax</span>
+### Syntax
 
 ``` js
 "string".concat
 ```
 
-### <span>Parameters</span>
+### Parameters
 
 string1, string2, stringN, etc...
 
-### <span>Example</span>
+### Example
 
 ``` js
 var firstName="Patrick ";

@@ -18,11 +18,11 @@ tags:
 uri: css/properties/user-modify
 
 ---
-## <span>Summary</span>
+## Summary
 
 Needs content
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :
@@ -45,17 +45,17 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Font</span>
+#### CSS Font
 
 -   [font-family](/css/properties/font-family)
 
@@ -77,7 +77,7 @@ Animatable
 
 -   **user-modify**
 
-#### <span>CSS Layout</span>
+#### CSS Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -121,7 +121,7 @@ Animatable
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -155,7 +155,7 @@ Animatable
 
 -   [font](/html/elements/font)
 
-#### <span>HTML</span>
+#### HTML
 
 -   **user-modify**
 
@@ -295,7 +295,7 @@ Animatable
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

@@ -11,13 +11,13 @@ tags:
 uri: 'tutorials/using text in svg'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article details how to insert text into an SVG image.
 
 When talking about text in SVG we have to differentiate two almost completely separate topics. The one is the inclusion and display of text in an image, and the other are SVG fonts. The later may be described in a later section of the tutorial, while we will focus completely on the first part: Bringing text into an SVG image.
 
-### <span>Basics</span>
+### Basics
 
 We can see in this example that the `text` element can be used to put arbitrary text in SVG documents:
 
@@ -27,13 +27,13 @@ The `x` and `y` attributes determine, where in the viewport the text will appear
 
 Like with the shape elements text can be colorized with the `fill` attribute and given a stroke with the `stroke` attribute. Both may also refer to gradients or patterns, which makes simple coloring text in SVG very powerful compared to CSS 2.1.
 
-### <span>Setting font properties</span>
+### Setting font properties
 
 An essential part of a text is the font in which it is displayed. SVG offers a set of attributes, many similar to their CSS counterparts, to enable font selection. Each of the following properties can be set as an attribute or via a CSS declaration: `font-family`, `font-style`, `font-weight`, `font-variant`, `font-stretch`, `font-size`, `font-size-adjust`, `kerning`, `letter-spacing`, `word-spacing` and `text-decoration`.
 
-### <span>Other text-related elements</span>
+### Other text-related elements
 
-#### <span>tspan</span>
+#### tspan
 
 This element is used to mark up sub-portions of a larger text. It must be a child of a `text` element or another `tspan` element. A typical usecase is to paint one word of a sentence bold red.
 
@@ -57,7 +57,7 @@ Likewise there are **y** and **dy** for vertical displacement.
 **textLength**
  This is a more obscure attribute giving the calculated length of the string. It is meant to allow the rendering engine to fine-tune the positions of the glyphs. when its own measured text length doesn't meet the one provided here.
 
-##### <span>tref</span>
+##### tref
 
 The `tref` element allows to reference already defined text, effectively copying it in its place. You can use the `xlink:href` attribute to point it to an element who's text content is to be taken over. You can then style it and modify it's appearance independent of the source.
 
@@ -67,7 +67,7 @@ The `tref` element allows to reference already defined text, effectively copying
         <tref xlink:href="#example" />
     </text>
 
-##### <span>textPath</span>
+##### textPath
 
 This element fetches via its `xlink:href` attribute an arbitrary path and aligns the characters, that it encircles, along this path:
 

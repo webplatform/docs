@@ -18,7 +18,7 @@ todo_broken_links:
 uri: html/attributes/is
 
 ---
-## <span>Summary</span>
+## Summary
 
 Describes the base element from which the element with this attribute is extended.
 
@@ -36,7 +36,7 @@ dom/HTMLElement
 </table>
 Extending an element with [document.createElement](/w/index.php?title=dom/document/createElement&action=edit&redlink=1) creates a new element. To use that element in markup, you must describe the element with a tag and include the `is=` attribute with the value of the base element from which the new element is extended. See examples.
 
-## <span>Examples</span>
+## Examples
 
 Markup for an extended element.
 
@@ -51,11 +51,11 @@ var megaButton = document.createElement('button', 'mega-button');
 // megaButton instanceof MegaButton === true
 ```
 
-## <span>Usage</span>
+## Usage
 
      The extended element name must contain at least one dash (-). So for example, <x-foo>, <foo-element>, and <my-foo-element> are valid names, while <tabs> and <foo_bar> are not.
 
-## <span>Notes</span>
+## Notes
 
 The custom element name must not be one of the following existing hyphen-containing element names:
 
@@ -68,16 +68,16 @@ The custom element name must not be one of the following existing hyphen-contain
 -   font-face-name
 -   missing-glyph
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Custom Elements](https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/custom/index.html)
 :   Working draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Web Components</span>
+#### Web Components
 
 -   [register](/dom/Document/register)
 
@@ -93,6 +93,6 @@ The custom element name must not be one of the following existing hyphen-contain
 
 -   [template](/html/elements/template)
 
-### <span>External resources</span>
+### External resources
 
 See [Custom Elements](http://www.html5rocks.com/en/tutorials/webcomponents/customelements/) on [HTML5Rocks!](http://www.html5rocks.com).

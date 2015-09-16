@@ -12,11 +12,11 @@ tags:
 uri: apis/canvas/TextMetrics
 
 ---
-## <span>Summary</span>
+## Summary
 
 The TextMetrics object of the canvas API. TextMetrics retrieves numeric informations like the width of a text that is drawn onto the canvas with the current font style.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -57,7 +57,7 @@ API Name
 [width](/apis/canvas/TextMetrics/width)
 :   The width of an inline text box, in CSS pixels.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -65,11 +65,11 @@ API Name
 [measureText](/apis/canvas/TextMetrics/measureText)
 :   Returns a TextMetrics object that contains the width of the specified text.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 Short example of getting the width of the text drawn on the canvas (with current font styles)
 
@@ -119,7 +119,7 @@ This full example draws two lines of text, the second line contains the with of 
 </html>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

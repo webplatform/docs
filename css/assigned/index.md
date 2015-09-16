@@ -9,7 +9,7 @@ Please use the spreadsheet for now:
 
 <https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE>
 
-# <span>Old list of what is doing what: CSS property page project</span>
+# Old list of what is doing what: CSS property page project
 
 CSS properties
 

@@ -25,20 +25,20 @@ tags:
 uri: 'apis/media capture and streams/MediaStream/ended'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Is true if the MediaStream has finished, false otherwise.
 
 Property of [apis/media\_capture\_and\_streams/MediaStream](/apis/media_capture_and_streams/MediaStream)[apis/media\_capture\_and\_streams/MediaStream](/apis/media_capture_and_streams/MediaStream)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = stream.ended;
 stream.ended = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 

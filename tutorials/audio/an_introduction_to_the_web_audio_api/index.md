@@ -11,7 +11,7 @@ uri: 'tutorials/audio/an introduction to the web audio api'
 **By [Stuart Memo](http://stuartmemo.com)**
 Originally published June 13th, 2012
 
-## <span>Summary</span>
+## Summary
 
 The Web Audio API is a way of creating and manipulating audio within the browser. It’s a specification proposed by Google, and as such is currently only available in Chrome, with the hope other browsers adopting it and it becoming a standard.
 
@@ -19,7 +19,7 @@ The actual audio processing itself is done with Assembly/C/C++ code within the b
 
 **This article is part of a three articles series; see [tutorials/audio/intro\_web\_audio\_api\_1](/tutorials/audio/intro_web_audio_api_1).**
 
-### <span>AudioContext</span>
+### AudioContext
 
 In order to start using the API, we must first create an AudioContext. Think of this as a canvas for sound. It’s a container for all the playback and manipulation of audio we’re going to be doing. We create it by simply doing this:
 
@@ -30,11 +30,11 @@ In order to start using the API, we must first create an AudioContext. Think of 
 
 Now that we’ve created this container, what do we put in it? Well, this is where the concept of nodes and modular routing comes in.
 
-## <span>Nodes and modular routing</span>
+## Nodes and modular routing
 
 Imagine a guitar player who has an electric guitar, a distortion pedal and an amp. When the guitar player strums her guitar, the sound travels from the guitar, down a cable, through the distortion pedal, and down another cable before finally coming out the speaker of the guitar amp. This chain is very similar to the nodes and modular routing model of the Web Audio API. The guitar, distortion pedal and the amp are all nodes, which we’ve routed in the correct order using cables.
 
-## <span>Playing a sound file</span>
+## Playing a sound file
 
 Ok, time to stop mucking about with concepts and learn how to play an audio file using the Web Audio API. Let’s start coding by declaring a couple of variables:
 

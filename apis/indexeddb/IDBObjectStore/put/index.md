@@ -23,43 +23,43 @@ tags:
 uri: apis/indexeddb/IDBObjectStore/put
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a structured clone of the value parameter.
 
 Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.put(value, key);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>value</span>
+### value
 
  Data-type
 :   Blob
 
  An object literal containing the values to be stored in the object store.
 
-### <span>key</span>
+### key
 
  Data-type
 :   Blob
 
  The key value of the new record.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This method can throw the following [**DOMException**](/dom/DOMException) exceptions:
 
@@ -127,8 +127,8 @@ This method can throw the following [**DOMException**](/dom/DOMException) except
 
   **Note**  As of Internet Explorer 10, the **code** property is deprecated in favor of the **name** property, which is preferred for standards compliance and future compatibility.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

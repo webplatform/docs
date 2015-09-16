@@ -11,23 +11,23 @@ tags:
 uri: svg/methods/flipX
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **flipX** method post-multiplies the matrix by using the transformation [-1 0 0 1 0 0] and returns the resulting matrix. *Post-multiplies* means that other matrix operations are performed before this operation.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Coordinate Systems, Transformations and Units](http://go.microsoft.com/fwlink/p/?linkid=204735), Section 7.14.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
-### <span>Reference</span>
+### Reference
 
 -   [**SVGMatrix**](/svg/objects/SVGMatrix)
 -   [**flipY**](/svg/methods/flipY)

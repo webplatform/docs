@@ -24,20 +24,20 @@ tags:
 uri: 'apis/image capture/PhotoSettings/sharpness'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This reflects the desired sharpness setting of the camera.
 
 Property of [apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSettings)[apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSettings)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = photoSettings.sharpness;
 photoSettings.sharpness = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 

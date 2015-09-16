@@ -25,11 +25,11 @@ todo_broken_links:
 uri: css/properties/block-progression
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the block progression and layout orientation: deprecated in favor of the writing-mode property.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `tb`
@@ -52,14 +52,14 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `block-progression: bt`
 -   `block-progression: lr`
 -   `block-progression: rl`
 -   `block-progression: tb`
 
-## <span>Values</span>
+## Values
 
 tb
 :   Default. Top-to-bottom block flow. Layout is horizontal.
@@ -75,27 +75,27 @@ lr
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      ===Deprecated===
 
 This property has been dropped from the current version of [CSS Writing Modes specification](http://dev.w3.org/csswg/css-writing-modes=the). You are encouraged to manipulate an element's writing mode via the [**writing-mode**](/css/properties/writing-mode) property instead.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 In vertical layout, text lines are rotated 90° clockwise. Images are not rotated, but tables are. Box layout in vertical orientations is exactly analogous to layout in the horizontal orientation: width, height, top, bottom, right, and left do not rotate with the text. Only one block progression is active at a time; these values cannot be combined. See [**-ms-writing-mode**](/css/properties/writing-mode) for additive block progression values. This property is based on the block-progression property of the [CSS3 Text Layout](http://go.microsoft.com/fwlink/p/?linkid=203505) module.
 
-### <span>Syntax</span>
+### Syntax
 
 `-ms-block-progression: tb | rl | bt | lr`
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Level 3](http://www.w3.org/TR/2003/CR-css3-text-20030514/#block-progression)
 :   [Obsolete] W3C Candidate Recommendation
@@ -103,11 +103,11 @@ There are no standards that apply here.
 [CSS Writing Mode Level 3](http://www.w3.org/TR/css3-writing-modes/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Text</span>
+#### Text
 
 -   **block-progression**
 
@@ -187,7 +187,7 @@ There are no standards that apply here.
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

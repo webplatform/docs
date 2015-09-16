@@ -26,11 +26,11 @@ todo_broken_links:
 uri: css/properties/bottom
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the position of the bottom edge of an element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -53,13 +53,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `bottom`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `bottom: auto`
 -   `bottom: length`
 -   `bottom: percentage`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Default. Default position, according to the regular HTML layout of the page.
@@ -70,7 +70,7 @@ length
 percentage
 :   Integer, followed by a percent sign (%). The value is a percentage of the height of the parent object.
 
-## <span>Examples</span>
+## Examples
 
 We demonstrate the \`bottom\` property by positioning these elements.
 
@@ -144,16 +144,16 @@ The HTML for the above example.
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1, Visual formatting model](http://www.w3.org/TR/CSS2/visuren.html#propdef-bottom)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Box Model</span>
+#### Box Model
 
 -   [border](/css/properties/border)
 
@@ -195,7 +195,7 @@ The HTML for the above example.
 
 -   [min-width](/css/properties/min-width)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

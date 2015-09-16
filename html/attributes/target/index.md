@@ -17,7 +17,7 @@ todo_broken_links:
 uri: html/attributes/target
 
 ---
-## <span>Summary</span>
+## Summary
 
 Target is a link attribute, which defines where to open the link.
 
@@ -35,7 +35,7 @@ Applies to
 </table>
 **Target** is a link attribute that defines in what window a link will open.
 
-## <span>Examples</span>
+## Examples
 
 A target value of "\_blank" will cause the page to open in a new window.
 
@@ -77,17 +77,17 @@ A target value of "\_top" will cause the page to open in the top-most frame.
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The window **name** is an optional argument in the [**open**](/w/index.php?title=dom/methods/open&action=edit&redlink=1) scripting method. If there is no existing window or frame with the same **name** as specified in the **target**, a new window is opened with a **name** equal to the value of the **target**.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`
 -   `area`

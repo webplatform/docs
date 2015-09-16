@@ -13,7 +13,7 @@ todo_broken_links:
 uri: 'tutorials/device access'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page lists tutorials related to device access.
 

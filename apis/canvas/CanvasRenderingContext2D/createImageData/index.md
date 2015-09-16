@@ -22,48 +22,48 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/createImageData
 
 ---
-## <span>Summary</span>
+## Summary
 
 Depending on how it is called, returns either an ImageData object with the given sw, sh dimensions or an ImageData object with the same dimensions as the imagedata argument. See Notes.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.createImageData(sw, sh, imagedata);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>sw</span>
+### sw
 
  Data-type
 :   Number
 
  The width of the new object, in CSS pixels.
 
-### <span>sh</span>
+### sh
 
  Data-type
 :   Number
 
  The height of the new object, in CSS pixels.
 
-### <span>imagedata</span>
+### imagedata
 
  Data-type
 :   Object
 
  An **ImageData** object of the desired width and height.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 An **ImageData** object.
 
-## <span>Examples</span>
+## Examples
 
 This example creates an ImageData object, then sets all its data pixels to yellow (at half intensity), then puts the object onto the canvas at a specified position.
 
@@ -84,13 +84,13 @@ ctxt.putImageData(imgdata, 10, 10);
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 When this method is invoked with two arguments, *sw* and *sh*, it returns an **ImageData** object representing a rectangle with a width in CSS pixels equal to the absolute magnitude of *sw* and a height in CSS pixels equal to the absolute magnitude of *sh*. When invoked with a single *imagedata* argument, it returns an **ImageData** object representing a rectangle with the same dimensions as the **ImageData** object passed as the argument. The object returned is filled with transparent black.
 
 This method is never called with all three arguments.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

@@ -25,16 +25,16 @@ todo_broken_links:
 uri: html/elements/span
 
 ---
-## <span>Summary</span>
+## Summary
 
 Groups inline elements in a document. The span element is both style and semantics neutral; it does not assign any style attributes or semantic meaning on its own.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLSpanElement](/dom/HTMLSpanElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **span** element to create an inline text container that changes the color of a word to blue.
 
@@ -48,13 +48,13 @@ This example uses the **span** element to add a simple [Microformats2 h-card](ht
 <span class="h-card vcard">Pius Uzamere</span>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **SPAN** element is especially useful for applying cascading style sheets (CSS) styles.
 
-### <span>History</span>
+### History
 
 The span element was not initially part of HTML.
 
@@ -62,11 +62,11 @@ On July 3, 1995, Benjamin C. W. Sittler [proposes](http://lists.w3.org/Archives/
 
 \<span\> has been introduced to html through the internationalization WG on September 25, 1995 in the [second draft html-i18n](http://tools.ietf.org/html/draft-ietf-html-i18n-01). The purpose was to create a generic container needed to carry the [lang](/w/index.php?title=Attributes/lang&action=edit&redlink=1) and [bidi](/w/index.php?title=Attributes/bidi&action=edit&redlink=1) attributes in cases where no other element is appropriate.
 
-The [first draft of html-style](http://tools.ietf.org/html/draft-ietf-html-style-00) had the [\<c\>](/w/index.php?title=HTML/Elements/c&action=edit&redlink=1) element in its table of content with the purpose of applying a style to some text which doesn't have a structural role. Michael J Hannah on December 5, 1995 [proposes](http://lists.w3.org/Archives/Public/www-style/1995Dec/0039.html) to get rid of the new HTML element [\<c\>](/w/index.php?title=HTML/Elements/c&action=edit&redlink=1) to use the new element <span> part of the internationalization proposal [draft-ietf-html-i18n](http://tools.ietf.org/html/draft-ietf-html-i18n-01) because it will be able to carry the [style](/w/index.php?title=Attributes/style&action=edit&redlink=1) attribute. Then in the 23 January 1996 version of the [html-style](http://tools.ietf.org/html/draft-ietf-html-style-01) it has been replaced by the \<span\> element.</span>
+The [first draft of html-style](http://tools.ietf.org/html/draft-ietf-html-style-00) had the [\<c\>](/w/index.php?title=HTML/Elements/c&action=edit&redlink=1) element in its table of content with the purpose of applying a style to some text which doesn't have a structural role. Michael J Hannah on December 5, 1995 [proposes](http://lists.w3.org/Archives/Public/www-style/1995Dec/0039.html) to get rid of the new HTML element [\<c\>](/w/index.php?title=HTML/Elements/c&action=edit&redlink=1) to use the new element  part of the internationalization proposal [draft-ietf-html-i18n](http://tools.ietf.org/html/draft-ietf-html-i18n-01) because it will be able to carry the [style](/w/index.php?title=Attributes/style&action=edit&redlink=1) attribute. Then in the 23 January 1996 version of the [html-style](http://tools.ietf.org/html/draft-ietf-html-style-01) it has been replaced by the \<span\> element.
 
 But we had to wait until [HTML 4.01](http://www.w3.org/TR/html401/) to see the new element be [part of the HTML](http://www.w3.org/TR/html401/struct/global.html#edef-SPAN) language. It appears on the HTML 4 W3C Working Draft on September 17, 1997.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-span-element)
 :   W3C Working Draft
@@ -77,11 +77,11 @@ But we had to wait until [HTML 4.01](http://www.w3.org/TR/html401/) to see the n
 [HTML 4.01](http://www.w3.org/TR/html401/struct/global.html#edef-SPAN)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 

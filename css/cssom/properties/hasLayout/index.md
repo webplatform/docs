@@ -35,18 +35,18 @@ uri: css/cssom/properties/hasLayout
 
 Property of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = declaration.hasLayout;
 declaration.hasLayout = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **hasLayout** property to determine whether an object has layout.
 
@@ -64,25 +64,25 @@ The following example shows how to use the **hasLayout** property to determine w
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/hasLayout.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The following table shows Cascading Style Sheets (CSS) properties and corresponding values that, if set, cause an element to have a layout. {
 
-### <span>Syntax</span>
+### Syntax
 
 `hasLayout: VARIANT_FALSE | VARIANT_FALSE`
 
-### <span>Requirements</span>
+### Requirements
 
 {
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -228,6 +228,6 @@ The following table shows Cascading Style Sheets (CSS) properties and correspond
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `currentStyle`

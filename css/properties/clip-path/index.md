@@ -20,11 +20,11 @@ tags:
 uri: css/properties/clip-path
 
 ---
-## <span>Summary</span>
+## Summary
 
 The clip-path property prevents a portion of an element from drawing by defining a clipping region.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -50,13 +50,13 @@ Animatable
 Percentages
 :   As specified
 
-## <span>Syntax</span>
+## Syntax
 
 -   `clip-path: <clip-source>`
 -   `clip-path: <basic-shape>`
 -   `clip-path: none`
 
-## <span>Values</span>
+## Values
 
 \<basic-shape\>
 :   The shape is computed based on the values of one of *inset, circle, ellipse* or *polygon*. If shape-box is not supplied, then the reference box defaults to margin-box.
@@ -79,7 +79,7 @@ Percentages
 none
 :   No clipping path is created.
 
-## <span>Examples</span>
+## Examples
 
 The following clip-path definition creates a rectangular clipping path with rounded corners.
 
@@ -140,7 +140,7 @@ The three images that are clipped. The first one (`img.original`) is the origina
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Masking](http://dev.w3.org/fxtf/masking/)
 :   Editor's Draft

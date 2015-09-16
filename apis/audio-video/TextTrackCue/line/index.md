@@ -23,26 +23,26 @@ tags:
 uri: apis/audio-video/TextTrackCue/line
 
 ---
-## <span>Summary</span>
+## Summary
 
 The text track cue line position. In the case of the value being auto, the string &quot;auto&quot; is returned.
 
 Property of [apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)[apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = TextTrackCue.line;
 TextTrackCue.line = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
 If current value is set to auto, the string `"auto"` is returned.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //. . .
@@ -55,7 +55,7 @@ myCues[i].line = "auto";
 //. . .
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

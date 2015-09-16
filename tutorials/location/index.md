@@ -11,7 +11,7 @@ tags:
 uri: tutorials/location
 
 ---
-## <span>Summary</span>
+## Summary
 
 Geolocation lets you identify a user's location by returning their latitude and longitude. Applications can use this to offer localized experiences such as driving directions, nearby points of interest, local deals, etc. In the past few years, smartphones with dedicated GPS chips have exploded in popularity.
 
@@ -21,7 +21,7 @@ Devices base location on a number of things, including
 -   The user's phone operator's cell-tower locations
 -   An Embedded GPS chip in the user's phone
 
-## <span>Detecting Support</span>
+## Detecting Support
 
 Geolocation is supported by all modern browsers, including Chrome 5.0+, Firefox 3.5+, IE 9.0+, Opera 10.6+, Safari 5.0+, and smartphone platforms including iPhone 3.0+, Android 2.0+, Windows Mobile 7. For up-to-date compatibility support, check out [CanIUse.com](http://www.caniuse.com/#search=geolocation).
 
@@ -33,7 +33,7 @@ You can use the [Modernizr JavaScript library](http://www.modernizr.com/) to det
       // no  geolocation support available
     }
 
-## <span>Location Functions</span>
+## Location Functions
 
 Geolocation functions are exposed under the `geolocation` property of the global navigator object.
 
@@ -47,7 +47,7 @@ This will asynchronously fetch and pass the user's current location to the `call
 
 ![android location warning.png](/assets/public/6/6f/android_location_warning.png)
 
-### <span>Success callback function</span>
+### Success callback function
 
 When the user's location is available, your callback function will receive a bundle of information. It's passed `position`, with two properties including `coords` and `timestamp`.
 
@@ -62,7 +62,7 @@ When the user's location is available, your callback function will receive a bun
 |coords.speed|Optional|double or null|meters/second, calculated based on previous position.|10|
 |timestamp|Optional|DOMTimeStamp|bound to the `Date` type|1314300437317|
 
-### <span>Error callback function</span>
+### Error callback function
 
 If there is an error while fetching location or user denied permission to your app, the `error_handler` callback function is called with the `PositionError` object with following properties.
 
@@ -71,7 +71,7 @@ If there is an error while fetching location or user denied permission to your a
 |code|short|enumerated value: `error.PERMISSION_DENIED` (1), `error.POSITION_UNAVAILABLE` (2), `error.TIMEOUT` (3), or `error.UNKNOWN_ERROR` (0)|
 |message|DOMString|not to be presented to the end user.|
 
-### <span>Control how the location is fetched</span>
+### Control how the location is fetched
 
 The optional parameter, `PositionOptions_interface_object`, provides more control over how location is fetched, timeout or cached location via the following three optional properties.
 
@@ -81,7 +81,7 @@ The optional parameter, `PositionOptions_interface_object`, provides more contro
 |timeout|long|none|the time in milliseconds before the request should time out. Note that this is calculated after user has allowed sharing location.|
 |maximumAge|long|0|in milliseconds. If provided, function returns cached location if available in the [(current - maximumAge) to current] time window|
 
-## <span>Monitoring Location</span>
+## Monitoring Location
 
 This function is exactly like the `getCurrentPosition` function except that the callback function will be automatically called every time user's location changes. It's useful in a service like turn-by-turn direction. The interval is optimally defined by the browser and can't be changed.
 
@@ -91,7 +91,7 @@ Unlike `getCurrentPosition`, this function returns an integer value which can be
 
     navigator.geolocation.clearWatch(int watch_number)
 
-## <span>Additional Resources</span>
+## Additional Resources
 
 -   [HTML5 Geolocation Demo](http://html5demos.com/geo)
 -   [Dive Into HTML5: You are here (and so is everybody else)](http://diveintohtml5.info/geolocation.html)

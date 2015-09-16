@@ -25,13 +25,13 @@ tags:
 uri: dom/Node/localName
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the local name of the fully qualified XML declaration for a node.
 
 Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 var localName = node.localName;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -47,17 +47,17 @@ The local name portion of the **qualified name** of the node.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      In XML documents, elements can be declared using qualified names, which consist of a prefix and a local name. This property returns the latter value.
 
 For more information, see [W3C Namespaces in XML](http://go.microsoft.com/fwlink/p/?linkid=203781).
 
-## <span>Notes</span>
+## Notes
 
 Must be served with XML content type, such as text/xml or application/xhtml+xml
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

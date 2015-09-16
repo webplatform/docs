@@ -24,55 +24,55 @@ tags:
 uri: dom/Document/createNodeIterator
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a NodeIterator object that you can use to traverse filtered lists of nodes or elements in a document.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var nodeIterator = document.createNodeIterator(rootNode, whatToShow, filter, expandEntityReference);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>rootNode</span>
+### rootNode
 
  Data-type
 :   DOM Node
 
  The root element or node to start traversing on.
 
-### <span>whatToShow</span>
+### whatToShow
 
  Data-type
 :   unsigned long
 
  The type of nodes or elements to appear in the node list. For more information, see [**whatToShow**](/dom/NodeIterator/whatToShow).
 
-### <span>filter</span>
+### filter
 
  Data-type
 :   DOM Node
 
  A custom NodeFilter function to use. For more information, see [**filter**](/dom/NodeIterator/filter). Use null for no filter.
 
-### <span>expandEntityReference</span>
+### expandEntityReference
 
  Data-type
 :   Boolean
 
  Whether entity reference nodes are expanded. For more information, see [**expandEntityReferences**](/dom/NodeIterator/expandEntityReferences).
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 A [**NodeIterator**](/dom/NodeIterator) instance object.
 
-## <span>Examples</span>
+## Examples
 
 The following code example shows how to use [**NodeIterator**](/dom/NodeIterator) objects to find and remove references. The iterator returns all text nodes from the document **body** and searches for `Monday` in text and [**id**](/html/attributes/id) attributes of parent nodes. The script matches text by using the [**wholeText**](/dom/Text/wholeText) object of the node.
 
@@ -113,11 +113,11 @@ function refresh()
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
 Use the **createNodeIterator** method when you want to focus on node content because [**NodeIterator**](/dom/NodeIterator) traverses a flat list of nodes in the document structure.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Traversal and Range](http://www.w3.org/TR/DOM-Level-2-Traversal-Range/traversal.html#Traversal-Document)
 :   Recommendation

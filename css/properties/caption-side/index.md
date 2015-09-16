@@ -20,11 +20,11 @@ tags:
 uri: css/properties/caption-side
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the placement of a table caption.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `top`
@@ -47,13 +47,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `caption-side: bottom`
 -   `caption-side: inherit`
 -   `caption-side: top`
 
-## <span>Values</span>
+## Values
 
 top
 :   Positions the caption box above the table box.
@@ -64,7 +64,7 @@ bottom
 inherit
 :   Takes the same specified value as the property for the element's parent.
 
-## <span>Examples</span>
+## Examples
 
 The following example constructs a table with standard HTML elements. The style rule places the caption above the table.
 
@@ -107,25 +107,25 @@ This example uses CSS to construct a table using [**display**](/css/properties/d
 </div>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The supported possible values for **caption-side** depend on the orientation of the table. Horizontal tables support the top and bottom values. Vertical tables support the left and right values. Using an unsupported value for this property (for instance, `left` on a caption for a horizontal table) will cause the caption to appear at the "logical top" of the table. The logical top of a table depends on the writing mode of the text, and is parallel to and immediately precedes the first line of text in a table. Captions placed to the left or right of the table are not rotated so as to be read vertically. This style attribute can be applied to any element with a [**display**](/css/properties/display) style of **table-caption**.
 
-### <span>Syntax</span>
+### Syntax
 
 `caption-side: top | bottom`
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 17.4.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Tables</span>
+#### Tables
 
 -   [border-collapse](/css/properties/border-collapse)
 
@@ -151,7 +151,7 @@ The supported possible values for **caption-side** depend on the orientation of 
 
 -   [th](/html/elements/th)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

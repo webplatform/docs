@@ -11,15 +11,15 @@ tags:
 uri: apis/xhr/XMLHttpRequest/timeout-event
 
 ---
-## <span>timeout</span>
+## timeout
 
 For technical reasons, the title of this article is not the text used to call this API. Instead, use `timeout`
 
-## <span>Summary</span>
+## Summary
 
 When the author specified timeout has passed before the request could complete.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

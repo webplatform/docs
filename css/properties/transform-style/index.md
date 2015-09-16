@@ -22,11 +22,11 @@ tags:
 uri: css/properties/transform-style
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property specifies how nested elements are rendered in 3D space relative to their parent.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `flat`
@@ -52,12 +52,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `transform-style: flat`
 -   `transform-style: preserve-3d`
 
-## <span>Values</span>
+## Values
 
 flat
 :   Child elements will not preserve their 3D position before applying a transform.
@@ -65,7 +65,7 @@ flat
 preserve-3d
 :   Child elements will preserve their 3D position before applying a transform.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* The transformed child div (green) will preserve
@@ -90,11 +90,11 @@ transform: rotateY(60deg);
 
 [View live example](http://code.webplatform.org/gist/6995453)
 
-## <span>Notes</span>
+## Notes
 
 This property is only applied to child elements that have a [transform](/css/transforms/transform) specified.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Transforms](http://www.w3.org/TR/css3-transforms)
 :   W3C Working Draft

@@ -11,12 +11,12 @@ tags:
 uri: 'apis/screen orientation'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The Screen Orientation API provides the ability to read the screen orientation state, to be informed when this state changes, and to be able to lock the screen orientation to a specific state.
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 <http://www.w3.org/TR/screen-orientation/>

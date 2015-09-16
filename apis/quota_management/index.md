@@ -13,15 +13,15 @@ tags:
 uri: 'apis/quota management'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Manages usage and availability of local storage resources, and defines a means by which a user agent may grant Web applications permission to use more local space, temporarily or persistently, via various storage APIs.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Off-line Storage</span>
+#### Off-line Storage
 
 -   [appcache](/apis/appcache)
 
@@ -41,6 +41,6 @@ Manages usage and availability of local storage resources, and defines a means b
 
 -   [Introduction to using the application cache](/tutorials/appcache_beginner)
 
-### <span>Other articles</span>
+### Other articles
 
 [Quota Management API W3C Specification](https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html)

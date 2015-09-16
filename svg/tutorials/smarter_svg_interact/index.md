@@ -10,7 +10,7 @@ tags:
 uri: 'svg/tutorials/smarter svg interact'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This guide contains nothing, and should be deleted.
 

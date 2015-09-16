@@ -24,41 +24,41 @@ tags:
 uri: dom/Implementation/hasFeature
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns whether a specific DOM standard is implemented.
 
 Method of [dom/Implementation](/dom/Implementation)[dom/Implementation](/dom/Implementation)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var featureImplemented = implementation.hasFeature(feature, version);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>feature</span>
+### feature
 
  Data-type
 :   String
 
  The name of the standard. Case insensitive.
 
-### <span>version</span>
+### version
 
  Data-type
 :   String
 
  The version number of the standard.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Whether the feature is implemented.
 
-## <span>Examples</span>
+## Examples
 
 The following example uses the **hasFeature** method to test whether the object implements the DOM HTML standard.
 
@@ -66,7 +66,7 @@ The following example uses the **hasFeature** method to test whether the object 
 var featureImplemented = document.implementation.hasFeature("HTML", "1.0");
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

@@ -22,11 +22,11 @@ tags:
 uri: css/properties/font-kerning
 
 ---
-## <span>Summary</span>
+## Summary
 
 The font-kerning property allows contextual adjustment of inter-glyph spacing, i.e. the spaces between the characters in text. This property controls &lt;bold&gt;metric kerning&lt;/bold&gt; - that utilizes adjustment data contained in the font. Optical Kerning is not supported as yet.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -52,13 +52,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `font-kerning: auto`
 -   `font-kerning: none`
 -   `font-kerning: normal`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Used to specify kerning is at the discretion of the user agent.
@@ -69,7 +69,7 @@ normal
 none
 :   Specifies kerning is not applied
 
-## <span>Examples</span>
+## Examples
 
 -   Kerning will only be visible when supported.
 
@@ -91,24 +91,24 @@ p.none {font-kerning: none;}
 
 [View live example](http://code.webplatform.org/gist/7283111)
 
-## <span>Usage</span>
+## Usage
 
      In auto setting, user agents can determine whether to apply kerning or not based on a number of factors like text size, script, or other factors that influence text processing speed. Authors who what proper kerning should use 'normal' to explicitly enable kerning. Likewise, use none to explicitly disable kerning. There is a performance tradeoff when enabling kerning which might not have a large impact on text rendering speed for modern implementations.
 
-## <span>Notes</span>
+## Notes
 
 Kerning data is a must for this property to take effect. When rendering OpenType fonts, the opentype specification states that kerning be enabled by default. When kerning is enabled, the OpenType `kern` feature is enabled. `vkern` is used for vertical text. User Agents must also support kerning via data contained in a `kern` font table, as detailed in the OpenType specification. When used in conjunction with `letter-spacing`, kerning adjustments are considered part of the default spacing and letter spacing adjustments are made \<bold\>after\</bold\> kerning has been applied.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css-fonts-3/#font-kerning-prop)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Font</span>
+#### CSS Font
 
 -   [font-family](/css/properties/font-family)
 
@@ -130,7 +130,7 @@ Kerning data is a must for this property to take effect. When rendering OpenType
 
 -   [user-modify](/css/properties/user-modify)
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 

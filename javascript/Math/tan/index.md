@@ -10,17 +10,17 @@ tags:
 uri: javascript/Math/tan
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the tangent of a number.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     Math.tan( radians )
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var v1 = Math.tan(1.0);
@@ -28,15 +28,15 @@ document.write(v1);
 // Output: 1.5574077246549023
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required radians argument is a numeric expression that contains an angle measured in radians.
 
 The return value is the tangent of the numeric argument of radians.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Math.acos Function](/javascript/Math/acos)
 -   [Math.asin Function](/javascript/Math/asin)

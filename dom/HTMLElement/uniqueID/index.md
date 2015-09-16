@@ -24,14 +24,14 @@ uri: dom/HTMLElement/uniqueID
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.uniqueID;
 element.uniqueID = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following examples use the **uniqueID** property within an HTC to assign a unique identifier to an element.
 
@@ -106,10 +106,10 @@ function init()
 </SCRIPT>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When you apply this property to the [**Document**](/dom/Document) object, the client automatically generates a new ID that you can assign to an element's [**id**](/html/attributes/id) property. A new ID is generated and assigned to the element the first time the property is retrieved. Every subsequent access to the property on the same element returns the same ID. **Note**  The unique ID generated is not guaranteed to be the same every time the document is loaded.
 
-### <span>Syntax</span>
+### Syntax

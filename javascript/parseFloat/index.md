@@ -10,17 +10,17 @@ tags:
 uri: javascript/parseFloat
 
 ---
-## <span>Summary</span>
+## Summary
 
 Converts a string to a floating-point number.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     parseFloat( numString )
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 parseFloat("123.45")  // returns 123.45
@@ -28,7 +28,7 @@ parseFloat("abc")  // returns NaN
 parseFloat("1.2abc")  // returns 1.2
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required numString argument is a string that contains a floating-point number.
 
@@ -36,9 +36,9 @@ The **parseFloat** function returns a numerical value equal to the number contai
 
 You can test for **NaN** using the **isNaN** function.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [isNaN Function](/javascript/isNaN)
 -   [parseInt Function](/javascript/parseInt)

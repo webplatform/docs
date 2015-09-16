@@ -9,7 +9,7 @@ tags:
 uri: blowout
 
 ---
-## <span>blowout</span>
+## blowout
 
 An event where a layout renders in an unexpected and generally undesirable way. Blowouts typically inform future test cases of the layout.
 

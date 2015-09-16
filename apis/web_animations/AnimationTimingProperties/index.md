@@ -11,11 +11,11 @@ tags:
 uri: 'apis/web animations/AnimationTimingProperties'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The AnimationTimingProperties dictionary is encapsulates the timing properties of an AnimationNode so that they can be set in bulk (as in the constructor for Animation) or returned as a readonly snapshot (as in computedTiming).
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -61,11 +61,11 @@ API Name
 [playbackRate](/apis/web_animations/AnimationTimingProperties/playbackRate)
 :   See the playbackRate member of the AnimationTimingReadOnly interface.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 

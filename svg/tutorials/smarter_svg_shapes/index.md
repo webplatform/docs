@@ -47,11 +47,11 @@ uri: 'svg/tutorials/smarter svg shapes'
 ---
 **By Mike Sierra**
 
-## <span>Summary</span>
+## Summary
 
 This guide introduces SVG's basic graphic elements, from simple lines and shapes to complex polygons and freehand paths. It also shows how to place lines of text and wrap it around curved paths.
 
-## <span>Simple shapes</span>
+## Simple shapes
 
 Various SVG elements produce basic shapes, and their attributes specify their dimensions.
 
@@ -83,7 +83,7 @@ Rectangles are defined by their [**width**](/w/index.php?title=svg/attributes/wi
 
 ![svg shapes.png](/assets/public/7/74/svg_shapes.png)
 
-## <span>Fill and stroke properties</span>
+## Fill and stroke properties
 
 By default, shapes are filled black. The [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1) and [**stroke**](/w/index.php?title=svg/properties/stroke&action=edit&redlink=1) properties specify the color of the background and the edge of the shape.
 
@@ -141,7 +141,7 @@ Alternately, you can use [**rgba()** and **hsla()**](/css/data_types/color) CSS 
  }
 ```
 
-## <span>Lines and polygons</span>
+## Lines and polygons
 
 To draw a straight line, specify its start and end coordinates as **x1**, **y1**, **x2**, and **y2**:
 
@@ -163,7 +163,7 @@ To draw a straight line, specify its start and end coordinates as **x1**, **y1**
 
  ![svg linepath.png](/assets/public/a/a4/svg_linepath.png)
 
-## <span>More stroke properties</span>
+## More stroke properties
 
 Additional properties provide greater control over how the ends or joints of line segments appear. The [**stroke-linecap**](/w/index.php?title=svg/properties/stroke-linecap&action=edit&redlink=1) property determines the appearance of the end of a stroke, or dashes within a stroke. Options appear as follows, with both **round** and **square** extending past the end of the line depending on the [**stroke-width**](/w/index.php?title=svg/properties/stroke-width&action=edit&redlink=1)::
 
@@ -211,7 +211,7 @@ The [**stroke-dasharray**](/w/index.php?title=svg/properties/stroke-dasharray&ac
 
 The [**stroke-dashoffset**](/w/index.php?title=svg/properties/stroke-dashoffset&action=edit&redlink=1) property allows you to shift the number of pixels at which the dash pattern begins.
 
-## <span>Simple paths</span>
+## Simple paths
 
 Paths are complex shapes that may feature discontinuous series of lines and curves. The [**path**](/svg/elements/path) element's [**d**](/w/index.php?title=svg/attributes/d&action=edit&redlink=1) (definition) attribute specifies a sequence of commands referencing pairs of *x*/*y* coordinates within the drawing area.
 
@@ -239,7 +239,7 @@ The uppercase **M** and **L** commands above specify absolute coordinates. For a
 
  The **H** and **V** commands, and their **h** and **v** alternatives, draw a horizontal or vertical line to the specified coordinate.
 
-## <span>Curved paths</span>
+## Curved paths
 
 Unlike polygons, paths can incorporate curves. Bézier curves require additional *control point* coordinates that do not render but that influence the shape of the curve.
 
@@ -325,7 +325,7 @@ This summarizes path syntax, with coordinate pairs required for control and dest
 -   **S**/**s** *control2* *destination*: draws a cubic Bézier curve to *destination* point, shaped by a virtual control point mirroring the most recent control point, and by a second explicit *control2* point
 -   **A**/**a** *radiusX*,*radiusY* *rotationAngle* *large-arc-flag* *sweep-arc-flag* *destination*: draws an elliptical arc to *destination*, if possible, with overall ellipse shaped by *radiusX*,*radiusY* and rotated by *rotationAngle*. The *large-arc-flag* prefers the widest-angle arc path, and *sweep-arc-flag* specifies the ellipse whose arc path travels clockwise to get to the destination point.
 
-## <span>Fill rules</span>
+## Fill rules
 
 Whenever lines within paths cross each other, and when subpath shapes appear as islands within other shapes, it is not immediately obvious how such paths might be filled. By default, the [**fill-rule**](/w/index.php?title=svg/properties/fill-rule&action=edit&redlink=1) property is set to **nonzero**, which errs on the side of filling regions based on the direction of each stroke, which as the example below shows, may not always be intuitive. Setting it to **evenodd** prevents regions bordering each other from sharing the same fill value.
 
@@ -339,7 +339,7 @@ Whenever lines within paths cross each other, and when subpath shapes appear as 
 
 Note that while these arrows appear to be separate graphics, they are actually sub-paths. The [**fill-rule**](/w/index.php?title=svg/properties/fill-rule&action=edit&redlink=1) property only applies in this case.
 
-## <span>Markers</span>
+## Markers
 
 You can attach arrowheads or other graphic objects to paths, lines, polylines, and polygon segments. A [**marker**](/svg/elements/marker) element encapsulates a graphic, and various properties reference it. Here is a typical arrowhead, for convenience placed within a [**defs**](/svg/elements/defs) region as a common definition:
 
@@ -381,7 +381,7 @@ Several [**marker**](/svg/elements/marker) element attributes are necessary to p
 
 The marker graphic also does not rotate by default to match where the path or line is pointing. Setting [**orient**](/w/index.php?title=svg/attributes/orient&action=edit&redlink=1) to **auto** aligns the graphic's horizontal *x* axis. You can also set [**orient**](/w/index.php?title=svg/attributes/orient&action=edit&redlink=1) to specific degree values. Note in the [**marker-start**](/w/index.php?title=svg/properties/marker-start&action=edit&redlink=1) example above that the initial marker may not be oriented as intended, because it's not associated with an existing line.
 
-## <span>Text</span>
+## Text
 
 Text behaves much like any other SVG graphic. You can mix text with other graphics, but you can't automatically break lines into blocks of text as in HTML, so you have to set each line independently. Use each [**text**](/svg/elements/text) element's [**x**](/w/index.php?title=svg/attributes/x&action=edit&redlink=1) and [**y**](/w/index.php?title=svg/attributes/y&action=edit&redlink=1) attributes to position its baseline:
 

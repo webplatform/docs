@@ -22,13 +22,13 @@ tags:
 uri: apis/websocket/WebSocket/onclose
 
 ---
-## <span>Summary</span>
+## Summary
 
 An event listener to be called when the WebSocket connection's readyState changes to CLOSED. Receives a CloseEvent named &quot;close&quot;.
 
 Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket/WebSocket](/apis/websocket/WebSocket)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket
 var result = element.onclose;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 EventHandler
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 socket.onclose = function(event) {
@@ -53,7 +53,7 @@ socket.onclose = function(event) {
 };
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation

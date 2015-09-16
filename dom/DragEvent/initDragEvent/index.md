@@ -20,139 +20,139 @@ tags:
 uri: dom/DragEvent/initDragEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initializes a new drag event.
 
 Method of [dom/DragEvent](/dom/DragEvent)[dom/DragEvent](/dom/DragEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  event.initDragEvent(eventType, canBubble, cancelable, view, detail, screenX, screenY, clientY, ctrlKey, altKey, shiftKey, metaKey, button, relatedTarget, dataTransfer);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>eventType</span>
+### eventType
 
  Data-type
 :   String
 
  The name of the event. Sets the value for the [**type**](/dom/Event/type) property.
 
-### <span>canBubble</span>
+### canBubble
 
  Data-type
 :   Boolean
 
  Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
 
-### <span>cancelable</span>
+### cancelable
 
  Data-type
 :   String
 
  Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
 
-### <span>view</span>
+### view
 
  Data-type
 :   DOM Node
 
  The window on which this event is occurring. Sets the value for the [view](/dom/UIEvent/view) property.
 
-### <span>detail</span>
+### detail
 
  Data-type
 :   Number
 
  Specifies additional information. This value is returned in the [**detail**](/dom/UIEvent/detail) property of the event.
 
-### <span>screenX</span>
+### screenX
 
  Data-type
 :   Number
 
  The x-coordinate of the mouse pointer, relative to the upper-left corner of the screen. This value is returned in the [**screenX**](/dom/MouseEvent/screenX) property of the event.
 
-### <span>screenY</span>
+### screenY
 
  Data-type
 :   Number
 
  The y-coordinate of the mouse pointer, relative to the upper-left corner of the screen. This value is returned in the [**screenY**](/dom/MouseEvent/screenY) property of the event.
 
-### <span>clientX</span>
+### clientX
 
  Data-type
 :   Number
 
  The x-coordinate of the mouse pointer, relative to the upper-left corner of the browser's client area. This value is returned in the [**clientX**](/dom/MouseEvent/clientX) property of the event.
 
-### <span>clientY</span>
+### clientY
 
  Data-type
 :   Number
 
  The y-coordinate of the mouse pointer, relative to the upper-left corner of the browser's client area. This value is returned in the [**clientY**](/dom/MouseEvent/clientY) property of the event.
 
-### <span>ctrlKey</span>
+### ctrlKey
 
  Data-type
 :   Boolean
 
  The value that is returned in the [**ctrlKey**](/dom/KeyboardEvent/ctrlKey) property of the event.
 
-### <span>altKey</span>
+### altKey
 
  Data-type
 :   Boolean
 
  The value that is returned in the [**altKey**](/dom/KeyboardEvent/altKey) property of the event.
 
-### <span>shiftKey</span>
+### shiftKey
 
  Data-type
 :   Boolean
 
  The value that is returned in the [**shiftKey**](/dom/KeyboardEvent/shiftKey) property of the event.
 
-### <span>metaKey</span>
+### metaKey
 
  Data-type
 :   Boolean
 
  The value that is returned in the [**metaKey**](/dom/KeyboardEvent/metaKey) property of the event.
 
-### <span>button</span>
+### button
 
  Data-type
 :   Number
 
  The mouse button that caused the event. This value is returned in the [**button**](/dom/MouseEvent/button) property of the event.
 
-### <span>relatedTarget</span>
+### relatedTarget
 
  Data-type
 :   DOM Node
 
  A secondary element that is involved in the event. This value is returned in the [**relatedTarget**](/dom/MouseEvent/relatedTarget) property of the event.
 
-### <span>dataTransfer</span>
+### dataTransfer
 
  Data-type
 :   String
 
  A [DataTransfer](/dom/DataTransfer) object.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

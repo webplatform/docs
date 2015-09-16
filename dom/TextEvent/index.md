@@ -18,13 +18,13 @@ tags:
 uri: dom/TextEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a text event that usually occurs when text is actually inserted into the document.
 
 Inherits from [UIEvent](/dom/UIEvent)[UIEvent](/dom/UIEvent)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -32,7 +32,7 @@ API Name
 [inputMethod](/dom/TextEvent/inputMethod)
 :   Gets a value that describes how text is entered.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -40,13 +40,13 @@ API Name
 [initTextEvent](/dom/TextEvent/initTextEvent)
 :   Initializes a new text event that the createEvent method created.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from UIEvent</span>
+## Inherited from UIEvent
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -59,7 +59,7 @@ API Name
 
     [object window]
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -67,7 +67,7 @@ API Name
 [initUIEvent](/dom/UIEvent/initUIEvent)
 :   Initializes a new user interface event that the [createEvent](/dom/Document/createEvent) method created.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -78,7 +78,7 @@ API Name
 [activate](/dom/UIEvent/activate)
 :   Fires when the object is set as the active element.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 txtEl=document.getElementById('txtInput'); // textarea
@@ -87,7 +87,7 @@ txtEl.addEventListener('textinput', handler, false);
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events (20110531)](http://www.w3.org/TR/2011/WD-DOM-Level-3-Events-20110531)
 :   Outdated Working Draft

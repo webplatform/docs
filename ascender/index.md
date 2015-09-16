@@ -9,7 +9,7 @@ tags:
 uri: ascender
 
 ---
-## <span>ascender</span>
+## ascender
 
 The upward-pointing stem of a letter, such as "d" or "h", that extends toward the cap line.
 

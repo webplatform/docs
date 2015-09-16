@@ -13,9 +13,9 @@ uri: svg/properties/values
 ---
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The contents of **values** depends on the value of attribute [**type**](/svg/properties/type_(SVGFEColorMatrixElement)), as indicated in the following:
 
@@ -25,14 +25,14 @@ For **type="saturate"**, **values** is a single real number value (0 to 1). A sa
 
 If the **values** attribute is not specified, then the default behavior depends on the value of attribute [**type**](/svg/properties/type_(SVGFEColorMatrixElement)). If **type="matrix"**, then this attribute defaults to the identity matrix. If **type="saturate"**, then this attribute defaults to the value 1, which results in the identity matrix. If **type="hueRotate"**, then this attribute defaults to the value 0, which results in the identity matrix.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.4
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFEColorMatrixElement**](/svg/elements/feColorMatrix)

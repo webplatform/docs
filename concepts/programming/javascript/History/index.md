@@ -17,37 +17,37 @@ todo_broken_links:
 uri: concepts/programming/javascript/history
 
 ---
-## <span>Summary</span>
+## Summary
 
 Javascript was initially developed for Netscape Navigator and copied (with variations) by other web browsers. The standardized form of Javascript, officially known as ECMAScript, is now overseen by Ecma International.
 
-## <span>History of Javascript</span>
+## History of Javascript
 
-### <span>Birth at Netscape</span>
+### Birth at Netscape
 
 JavaScript was originally developed in Netscape, by Brendan Eich. Battling with Microsoft over the Internet, Netscape considered their client-server solution as a distributed OS, running a portable version of Sun Microsystems' Java. Because Java was a competitor of C++ and aimed at professional programmers, Netscape also wanted a lightweight interpreted language that would complement Java by appealing to nonprofessional programmers, like Microsoft's VB.<sup>[[1]](#cite_note-1)</sup> (see JavaScript and Java) Developed under the name Mocha, LiveScript was the official name for the language when it first shipped in beta releases of Netscape Navigator 2.0 in September 1995, but it was renamed JavaScript<sup>[[2]](#cite_note-2)</sup> when it was deployed in the Netscape browser version 2.0B3.<sup>[[3]](#cite_note-techvision-3)</sup> The change of name from LiveScript to JavaScript roughly coincided with Netscape adding support for Java technology in its Netscape Navigator web browser. The final choice of name caused confusion, giving the impression that the language was a spin-off of the Java programming language, and the choice has been characterized by many as a marketing ploy by Netscape to give JavaScript the cachet of what was then the hot new web programming language.<sup>[[4]](#cite_note-4)[[5]](#cite_note-5)</sup> It has also been claimed that the language's name is the result of a co-marketing deal between Netscape and Sun, in exchange for Netscape bundling Sun's Java runtime with its then-dominant browser.
 
-### <span>Server-side JavaScript</span>
+### Server-side JavaScript
 
 Netscape introduced an implementation of the language for server-side scripting with Netscape Enterprise Server, first released in December, 1994 (soon after releasing JavaScript for browsers).<sup>[[6]](#cite_note-Newscape_JavaScript_Guide-1998-6)[[7]](#cite_note-Morgan-Netcape_LiveWire-7)</sup> Since the mid-2000s, there has been a proliferation of server-side JavaScript implementations. Node.js is one recent notable example of server-side JavaScript being used in real-world applications.<sup>[[8]](#cite_note-RWW-Server-Side-2009-12-17-8)[[9]](#cite_note-node.js-about-9)</sup>
 
-### <span>Adoption by Microsoft</span>
+### Adoption by Microsoft
 
 JavaScript very quickly gained widespread success as a client-side scripting language for web pages. Microsoft introduced JavaScript support in its own web browser, Internet Explorer, in version 3.0, released in August 1996.<sup>[[10]](#cite_note-popularity-10)[*[<span title="This claim needs references to reliable sources">citation\\ needed</span>](http://en.wikipedia.org/wiki/Citation_needed)*]</sup> Microsoft's webserver, Internet Information Server, introduced support for server-side scripting in JavaScript with release 3.0 (1996). Microsoft started to promote webpage scripting using the umbrella term Dynamic HTML. Microsoft's JavaScript implementation was later renamed JScript to avoid trademark issues. JScript added new date methods to fix the Y2K-problematic methods in JavaScript, which were based on Java's java.util.Date class.
 
-### <span>Standardization</span>
+### Standardization
 
 In November 1996, Netscape announced that it had submitted JavaScript to Ecma International for consideration as an industry standard, and subsequent work resulted in the standardized version named ECMAScript.<sup>[[11]](#cite_note-11)</sup>
 
-### <span>Later developments</span>
+### Later developments
 
 JavaScript has become one of the most popular programming languages on the web. Initially, however, many professional programmers denigrated the language because its target audience was web authors and other such "amateurs", among other reasons.<sup>[[12]](#cite_note-12)</sup> The advent of Ajax returned JavaScript to the spotlight and brought more professional programming attention. The result was a proliferation of comprehensive frameworks and libraries, improved JavaScript programming practices, and increased usage of JavaScript outside of web browsers, as seen by the proliferation of server-side JavaScript platforms. In January 2009, the CommonJS project was founded with the goal of specifying a common standard library mainly for JavaScript development outside the browser.<sup>[[13]](#cite_note-13)</sup>
 
-## <span>Trademark</span>
+## Trademark
 
 Today, "JavaScript" is a trademark of Oracle Corporation.<sup>[[14]](#cite_note-14)</sup> It is used under license for technology invented and implemented by Netscape Communications and current entities such as the Mozilla Foundation.<sup>[[15]](#cite_note-15)</sup>
 
-## <span>References</span>
+## References
 
 1.  <span class="mw-cite-backlink">[↑](#cite_ref-1)</span> <span class="reference-text"><span class="citation Journal">Severance, Charles (February 2012). ["Java Script: Designing a Language in 10 Days"](http://www.computer.org/portal/web/csdl/abs/html/mags/co/2012/02/mco2012020007.htm). *Computer* (IEEE Computer Society) **45** (2): 7–8. [Template:hide in print](/w/index.php?title=Template:hide_in_print&action=edit&redlink=1)[Template:only in print](/w/index.php?title=Template:only_in_print&action=edit&redlink=1)<span class="printonly">. <http://www.computer.org/portal/web/csdl/abs/html/mags/co/2012/02/mco2012020007.htm></span><span class="reference-accessdate">. Retrieved 23 April 2012</span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Java+Script%3A+Designing+a+Language+in+10+Days&amp;rft.jtitle=Computer&amp;rft.aulast=Severance&amp;rft.aufirst=Charles&amp;rft.au=Severance%2C%26%2332%3BCharles&amp;rft.date=February+2012&amp;rft.volume=45&amp;rft.issue=2&amp;rft.pages=7%E2%80%938&amp;rft.pub=IEEE+Computer+Society&amp;rft_id=info:doi/10.1109%2FMC.2012.57&amp;rft_id=http%3A%2F%2Fwww.computer.org%2Fportal%2Fweb%2Fcsdl%2Fabs%2Fhtml%2Fmags%2Fco%2F2012%2F02%2Fmco2012020007.htm&amp;rfr_id=info:sid/en.wikipedia.org:concepts/programming/javascript/history"><span style="display: none;"> </span></span></span>
 2.  <span class="mw-cite-backlink">[↑](#cite_ref-2)</span> <span class="reference-text">[Press release announcing JavaScript](http://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html), "Netscape and Sun announce Javascript", PR Newswire, December 4, 1995</span>

@@ -24,20 +24,20 @@ tags:
 uri: apis/indexeddb/IDBTransaction/onerror
 
 ---
-## <span>Summary</span>
+## Summary
 
 The event handler for the error event.
 
 Property of [apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)[apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.onerror;
 element.onerror = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type functionfunction
 

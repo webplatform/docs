@@ -25,13 +25,13 @@ tags:
 uri: dom/MessageEvent/origin
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the URL of the document of origin.
 
 Property of [dom/MessageEvent](/dom/MessageEvent)[dom/MessageEvent](/dom/MessageEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [dom/MessageEvent](/dom/MessageEvent)[dom/MessageEvent](/dom/Message
 var messageOrigin = event.origin;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -47,11 +47,11 @@ The origin URL of the document that sent the message.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 In cross-document messaging, this property represents the originating URI of the document that sent the message (typically the URI includes the scheme, host name, and port of the document, but not its path or fragment identifier).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

@@ -12,27 +12,27 @@ tags:
 uri: apis/workers/WorkerNavigator
 
 ---
-## <span>Summary</span>
+## Summary
 
 An object representing the identity and state of the user agent (the client).
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 The **WorkerNavigator** object has no properties or methods. See the WorkerGlobalScope [navigator](/apis/workers/WorkerGlobalScope/navigator) property for details.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft

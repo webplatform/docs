@@ -11,17 +11,17 @@ tags:
 uri: javascript/Array/pop
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes the last element from an array and returns it.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     pop( )
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the pop method.
 
@@ -42,7 +42,7 @@ var number;
  // Output: 9 8 7 6 5
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The [push](/javascript/Array/push) and **pop** methods enable you to simulate a stack, which uses the principle of last in, first out (LIFO) to store data.
 
@@ -50,9 +50,9 @@ The required arrayObj reference is an **Array** object.
 
 If the array is empty, undefined is returned.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.6 Array.prototype.pop ( )](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.6) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

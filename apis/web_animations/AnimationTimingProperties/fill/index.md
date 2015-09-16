@@ -14,13 +14,13 @@ tags:
 uri: 'apis/web animations/AnimationTimingProperties/fill'
 
 ---
-## <span>Summary</span>
+## Summary
 
 See the fill member of the AnimationTimingReadOnly interface.
 
 Property of [apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)[apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.fill;

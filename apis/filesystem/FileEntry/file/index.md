@@ -18,7 +18,7 @@ tags:
 uri: apis/filesystem/FileEntry/file
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a File that represents the current state of the file that this FileEntry represents.
 
@@ -26,22 +26,22 @@ Returns a File that represents the current state of the file that this FileEntry
 
 Method of [apis/filesystem/FileEntry](/apis/filesystem/FileEntry)[apis/filesystem/FileEntry](/apis/filesystem/FileEntry)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  FileEntry.file(successCallback, errorCallback);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>successCallback</span>
+### successCallback
 
  Data-type
 :   String
 
  A callback that is called with the File.
 
-### <span>errorCallback</span>
+### errorCallback
 
  Data-type
 :   String
@@ -50,13 +50,13 @@ Method of [apis/filesystem/FileEntry](/apis/filesystem/FileEntry)[apis/filesyste
 
 A callback that is called when errors happen.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

@@ -21,20 +21,20 @@ tags:
 uri: dom/Document/visibilitychange
 
 ---
-## <span>Summary</span>
+## Summary
 
 Set the visibility state of an element
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.visibilitychange;
 element.visibilitychange = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var timer = 0;
@@ -58,28 +58,28 @@ function checkEmail() {
 window.onload = onLoad;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This event is not triggered when it is registered.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 This method has no parameters.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Page Visibility](http://www.w3.org/TR/page-visibility/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Performance</span>
+#### Performance
 
 -   [navigation timing](/apis/navigation_timing)
 

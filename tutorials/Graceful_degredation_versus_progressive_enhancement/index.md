@@ -6,7 +6,7 @@ tags:
 uri: 'tutorials/Graceful degredation versus progressive enhancement'
 
 ---
-## <span>Introduction</span>
+## Introduction
 
 In this part of the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum) we discuss the difference between two development approaches: graceful degradation and progressive enhancement. Putting things simply, here are working definitions:
 
@@ -20,7 +20,7 @@ You may think that these two approaches sound very similar, and that they should
 
 We’ll start by explaining the need for these techniques. Then we’ll look at a deeper definition, showing implementation examples and following up with a comparison and a guide to when you should use which. Let’s start by explaining why we need such special development approaches to web development.
 
-## <span>“Mobilis in mobile” — moving in a constantly changing environment</span>
+## “Mobilis in mobile” — moving in a constantly changing environment
 
 Just like Captain Nemo from “20,000 Leagues under the Sea”, web developers find themselves in a constantly changing and fluctuating environment that can be pretty hostile to what we try to achieve.
 
@@ -36,7 +36,7 @@ We could now go and claim that companies like these have “missed the boat” a
 
 We work in the unknown and we need to find a way to make it work. This is where both graceful degradation and progressive enhancement come into play.
 
-## <span>Graceful degradation and progressive enhancement in a nutshell</span>
+## Graceful degradation and progressive enhancement in a nutshell
 
 You’ve already seen a simple definition above; in this section I will provide a more technical definition, and look at what it really means to implement these methodologies.
 
@@ -46,11 +46,11 @@ So, **graceful degradation** is the practice of building your web functionality 
 
 In other words, graceful degradation starts from the status quo of complexity and tries to fix for the lesser experience whereas progressive enhancement starts from a very basic, working example and allows for constant extension for future environments. Degrading gracefully means looking back whereas enhancing progressively means looking forward whilst keeping your feet on firm ground.
 
-## <span>An example of graceful degradation versus progressive enhancement</span>
+## An example of graceful degradation versus progressive enhancement
 
 Let’s take a look at an example showing one approach that uses progressive enhancement and another one using graceful degradation.
 
-### <span>“Print this page” links</span>
+### “Print this page” links
 
 Arguably links that allow users to print the current document are useless — hitting the printer icon in their browser does the same thing. User testing however shows that as a last step in a booking process (eg on an airline web site) they are a good re-affirming call to action. Users feel in control and get the sense of finishing what they started.
 
@@ -134,7 +134,7 @@ Notice how defensive the script is — we don’t assume anything.
 
 This will work for every user regardless of technical environment. We never promise the user an interface element that doesn’t work — instead we only show it when it does work.
 
-## <span>When to use what</span>
+## When to use what
 
 I might be an idealist but I really dislike the idea of graceful degradation. By building something and then making it barely work in other environments (or asking users to upgrade) I make a lot of assumptions about both the environment and the ability of the users to upgrade.
 
@@ -154,11 +154,11 @@ In all other cases, **progressive enhancement** will make both the end users and
 -   You allow technology to be what it is supposed to be — an aid to reach a goal faster than without it, not a “must” to be able to reach a goal in the first place.
 -   If you need to add new features, you can do so after checking if they are supported at a certain stage, or you can add it to the most basic level of functionality and make it better in more sophisticated environments. In any case, the maintenance happens at the same spot and not in two different places. Keeping a progressively enhanced product up-to-date is much less work than maintaining two versions.
 
-## <span>Summary</span>
+## Summary
 
 It can be said that both progressive enhancement and graceful degradation try to do the same thing: keep our products useful to every user. Progressive enhancement is a more sophisticated and at the same time stable way of assuring that but it takes more time and effort. Graceful degradation can be used more easily as a patch for an already existing product; it means harder maintenance later on, but requires less initial work.
 
-## <span>Exercise Questions</span>
+## Exercise Questions
 
 -   The article showed print links as an example that could use either approach. What other examples can you think of?
 -   Say you want to use JavaScript to make sure that a form field contains an email address before the form is submitted. What would be the different approaches and what other problems should be taken into consideration?

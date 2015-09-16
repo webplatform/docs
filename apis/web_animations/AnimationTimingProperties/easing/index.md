@@ -17,7 +17,7 @@ tags:
 uri: 'apis/web animations/AnimationTimingProperties/easing'
 
 ---
-## <span>Summary</span>
+## Summary
 
 See the easing member of the AnimationTimingReadOnly interface.
 
@@ -25,7 +25,7 @@ Unrecognized string values or values that correspond to a timing function that i
 
 Property of [apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)[apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.easing;

@@ -12,15 +12,15 @@ tags:
 uri: css/functions/translate3d()
 
 ---
-## <span>Summary</span>
+## Summary
 
 Transform function for a 3d translation which moves an element on x-axis, y-axis and z-axis by the given values.
 
-## <span>Syntax</span>
+## Syntax
 
 **translate3d ( \<translation-value-x\>, \<translation-value-y\>, \<translation-value-z\> )**
 
-## <span>Parameters</span>
+## Parameters
 
 **translation-value-x, translation-value-y, translation-value-z**
 
@@ -28,7 +28,7 @@ Transform function for a 3d translation which moves an element on x-axis, y-axis
 
 *translation-value-z is the third vector value and defines the translation in the direction of the z-axis (3rd dimension).* **Attention:** *It can only be a [length](/css/data_types/length) value, percentage is not supported.*
 
-## <span>Examples</span>
+## Examples
 
 The example shows three div elements, that are transformed individually with the translateY() function.
 
@@ -50,11 +50,11 @@ The example shows three div elements, that are transformed individually with the
 }
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Transforms</span>
+#### Transforms
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -88,7 +88,7 @@ The example shows three div elements, that are transformed individually with the
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>External resources</span>
+### External resources
 
 -   [CSS Transforms Module, Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223145), Section 13.2
 -   [Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246)

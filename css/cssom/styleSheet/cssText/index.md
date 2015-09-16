@@ -24,26 +24,26 @@ tags:
 uri: css/cssom/styleSheet/cssText
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets the textual representation of a style sheet.
 
 Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var cssText = stylesheet.cssText;
 stylesheet.cssText = cssText;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The textual representation of the style sheet.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **cssText** property to retrieve the CSS style set on an object.
 
@@ -55,20 +55,20 @@ This is the test paragraph.</p>:
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cssText.htm)
 
-## <span>Notes</span>
+## Notes
 
 This property reflects the current state of the style sheet and not its initial value.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Style](http://www.w3.org/TR/DOM-Level-2-Style/css.html)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -214,7 +214,7 @@ This property reflects the current state of the style sheet and not its initial 
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

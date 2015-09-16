@@ -17,13 +17,13 @@ tags:
 uri: apis/indexeddb/IDBCursor/source
 
 ---
-## <span>Summary</span>
+## Summary
 
 On getting, returns the IDBObjectStore or IDBIndex that the cursor is iterating. This function never returns null or throws an exception, even if the cursor is currently being iterated, has iterated past its end, or its transaction is not active.
 
 Property of [apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)[apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 

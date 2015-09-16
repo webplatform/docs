@@ -10,11 +10,11 @@ tags:
 uri: Beginners/javascript
 
 ---
-## <span>Summary</span>
+## Summary
 
 At this point our site is functional, but what about things that go whoosh? Now we'll give you a brief introduction to JavaScript, using it to apply some dynamic behaviour to your web page.
 
-## <span>Beginners submenu</span>
+## Beginners submenu
 
 The **[Beginners](/Beginners)** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 

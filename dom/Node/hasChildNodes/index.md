@@ -25,25 +25,25 @@ tags:
 uri: dom/Node/hasChildNodes
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets a value that indicates whether the Node has any direct Node descendant of any type.
 
 Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var hasChildNodes = element.hasChildNodes();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Whether or not the Node contains any direct Node descendant of any type
 
-## <span>Examples</span>
+## Examples
 
 The following example removes the first child node inside the element with the id "foo" if foo has child nodes.
 
@@ -57,7 +57,7 @@ if (foo.hasChildNodes()) {
 
 {{Notes\_Section |Notes=If the Node contains any [[dom/Element|Element], [dom/Text|Text] or other type of nodes, they can be accessed from the [**childNodes**](/dom/Node/childNodes) collection. }}
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Document Object Model (DOM) Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-810594187)
 :   W3C Recommendation

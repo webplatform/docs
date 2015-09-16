@@ -19,13 +19,13 @@ tags:
 uri: dom/HTMLVideoElement
 
 ---
-## <span>Summary</span>
+## Summary
 
 The HTML &lt;video&gt; element is used to embed video content in an HTML or XHTML document.
 
 Inherits from [HTMLMediaElement](/dom/HTMLMediaElement)[HTMLMediaElement](/dom/HTMLMediaElement)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -42,17 +42,17 @@ API Name
 [videoWidth](/dom/HTMLVideoElement/videoWidth)
 :
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from HTMLMediaElement</span>
+## Inherited from HTMLMediaElement
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -126,7 +126,7 @@ API Name
 [volume](/dom/HTMLMediaElement/volume)
 :
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -143,7 +143,7 @@ API Name
 [play](/dom/HTMLMediaElement/play)
 :   Loads and starts playback of a media resource.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -157,7 +157,7 @@ API Name
 [progress](/dom/HTMLMediaElement/progress)
 :   Fires to indicate progress while downloading media data.
 
-## <span>Examples</span>
+## Examples
 
 A simple example of showing a video
 
@@ -170,6 +170,6 @@ A simple example of showing a video
 
 [View live example](http://code.webplatform.org/gist/7281780)
 
-## <span>Usage</span>
+## Usage
 
      Currently, there are 3 supported video formats for the <video> element: MP4, WebM, and Ogg

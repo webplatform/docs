@@ -24,13 +24,13 @@ tags:
 uri: dom/HTMLMapElement/areas
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns an HTMLCollection of area elements included within the element.
 
 Property of [dom/HTMLMapElement](/dom/HTMLMapElement)[dom/HTMLMapElement](/dom/HTMLMapElement)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [dom/HTMLMapElement](/dom/HTMLMapElement)[dom/HTMLMapElement](/dom/H
 var areaElements = mapElement.areas;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
@@ -46,11 +46,11 @@ An HTMLCollection of [area](/dom/HTMLAreaElement) elements.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Areas can be added to or removed from the collection. If duplicate identifiers are found, a collection of those items is returned. Collections of duplicates must be referenced subsequently by ordinal position. To add elements to the collection, use the [**createElement**](/dom/Document/createElement) and [**add**](/dom/HTMLSelectElement/add) methods. Alternatively, use the [**insertAdjacentHTML**](/dom/Element/insertAdjacentHTML) method.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 HTML](http://www.w3.org/TR/DOM-Level-2-HTML/)
 :   Recommendation

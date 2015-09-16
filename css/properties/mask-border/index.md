@@ -20,11 +20,11 @@ tags:
 uri: css/properties/mask-border
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property is shorthand for setting mask-border-source, mask-border-slice, mask-border-width, mask-border-outset, and mask-border-repeat. Omitted values are set to their original properties' initial values.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `See individual properties.`
@@ -50,7 +50,7 @@ Animatable
 Percentages
 :   See individual properties.
 
-## <span>Syntax</span>
+## Syntax
 
 -   `mask-border: <mask-border-outset>`
 -   `mask-border: <mask-border-repeat>`
@@ -58,7 +58,7 @@ Percentages
 -   `mask-border: <mask-border-source>`
 -   `mask-border: <mask-border-width>`
 
-## <span>Values</span>
+## Values
 
 \<mask-border-source\>
 :   See [mask-border-source](/css/properties/mask-border-source).
@@ -75,7 +75,7 @@ Percentages
 \<mask-border-repeat\>
 :   See [mask-border-repeat](/css/properties/mask-border-repeat).
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* mask-border-source (-slice) / -width / (-outset) -repeat */
@@ -84,7 +84,7 @@ Percentages
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Masking Level 1](http://www.w3.org/TR/css-masking-1/)
 :   W3C Last Call Working Draft

@@ -24,28 +24,28 @@ tags:
 uri: dom/Document/importNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Imports a node from another document into the the document that the document object displays.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var importedNode = document.importNode(node, deep);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>node</span>
+### node
 
  Data-type
 :   DOM Node
 
  The node to import.
 
-### <span>deep</span>
+### deep
 
  Data-type
 :   Boolean
@@ -54,13 +54,13 @@ var importedNode = document.importNode(node, deep);
 
 Whether child nodes of the node specified by the *node* parameter are also imported.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The node node that has been imported, or a null if the node cannot be imported.
 
-## <span>Examples</span>
+## Examples
 
 The following code example illustrates the **importNode** method.
 
@@ -69,7 +69,7 @@ var oNode = document.importNode( oXHTMLNode, false);
 parent.appendChild( oNode );
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 4](http://www.w3.org/TR/2014/CR-dom-20140508/#dom-document-importnode)
 :   Candidate Recommendation

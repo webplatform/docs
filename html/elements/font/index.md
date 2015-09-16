@@ -16,22 +16,22 @@ tags:
 uri: html/elements/font
 
 ---
-## <span>Summary</span>
+## Summary
 
 The font element is an obsolete tag that was used to specify the typeface, size, and color of the text it contained.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLFontElement](/dom/HTMLFontElement)
 
 This element was deprecated in HTML 4.01, and became obsolete in HTML5. It has no semantic meaning. For identical functionality, use a [span](/html/elements/span) tag, and \*\*use [CSS](/css) instead\*\*.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -65,7 +65,7 @@ This element was deprecated in HTML 4.01, and became obsolete in HTML5. It has n
 
 -   **font**
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -205,7 +205,7 @@ This element was deprecated in HTML 4.01, and became obsolete in HTML5. It has n
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

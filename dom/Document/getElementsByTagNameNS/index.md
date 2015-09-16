@@ -24,35 +24,35 @@ tags:
 uri: dom/Document/getElementsByTagNameNS
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns an HTMLCollection of the elements with the specified tag name and namespace.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var elements = document.getElementsByTagNameNS(namespace, localName);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>namespace</span>
+### namespace
 
  Data-type
 :   String
 
  The namespace URI that defines the desired elements or an asterisk (\*) to match all namespaces with the document, or null.
 
-### <span>localName</span>
+### localName
 
  Data-type
 :   String
 
  The name of the desired element or an asterisk (\*) to match all elements with the specified namespace.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
@@ -60,19 +60,19 @@ A live HTMLCollection of elements.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      This method should not be used. For a more performant alternative, see the notes.
 
 Use this method to get a live list of elements with a specified name and namespace.
 
-## <span>Notes</span>
+## Notes
 
 -   For performance reasons, [**querySelectorAll**](/css/selectors_api/querySelectorAll) is preferred, because it gets a static list.
 -   This method returns a live element list that gets updated whenever an element is added or removed from the document, this has performance implications and may result in unexpected errors (removing elements within a for loop while caching the length of the collection).
 -   If namespaces are irrelevant in the context, [getElementsByTagName](/dom/Document/getElementsByTagName) can be used (but it is also not recommended; see the first two notes).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/)
 :   Living Standard

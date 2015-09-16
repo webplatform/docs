@@ -11,20 +11,20 @@ tags:
 uri: svg/properties/correspondingUseElement
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When [**use**](/svg/elements/use) elements are nested, the corresponding **use** element is the outermost **use** element (the element with the indirect reference, not the direct reference).
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.9
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGElementInstance**](/svg/objects/SVGElementInstance)

@@ -19,32 +19,32 @@ uri: css/selectors/attributes/hyphen
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note**  Requires Windows Internet Explorer 7 or later. **Note**  Attribute selectors are not supported in webpages that are displayed in the Microsoft Internet Explorer 5 document mode (also known as "Quirks" mode). To use attribute selectors, add a [!DOCTYPE](/html/elements/!DOCTYPE) directive that specifies a standard-based document. For more information, see [Defining Document Compatibility](http://go.microsoft.com/fwlink/?LinkID=125785). The hyphen is used primarily as a delimiter for language codes. Attributes are case-sensitive.
 
-### <span>Syntax</span>
+### Syntax
 
 `<strong/> [att|=val] {...}`
 
-### <span>Parameters</span>
+### Parameters
 
 *att*
 :   Must be either an Identifier or a String.
 *val*
 :   Must be either an Identifier or a String.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 5.8.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Attributes</span>
+#### CSS Attributes
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -82,7 +82,7 @@ uri: css/selectors/attributes/hyphen
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### <span>Selectors</span>
+#### Selectors
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 

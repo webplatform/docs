@@ -28,34 +28,34 @@ todo_broken_links:
 uri: dom/Node/isSameNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Determines if two nodes are the same node.
 
 Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var isSame = node.isSameNode(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>otherNode</span>
+### otherNode
 
  Data-type
 :   DOM Node
 
  The node to be compared to the node that is executing the method.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Whether the node specified in the otherNode parameter refers to the same node.
 
-## <span>Examples</span>
+## Examples
 
 In the following example isSameNode is false since document.body is the body node while document.documentElement is the html node.
 
@@ -63,17 +63,17 @@ In the following example isSameNode is false since document.body is the body nod
 var isSameNode = document.body..isSameNode(document.documentElement);
 ```
 
-## <span>Usage</span>
+## Usage
 
      This determines whether or not two references refer to the same node.  If the references refer to the same node, you can use the references interchangeably, even when using a proxy.
 
-## <span>Notes</span>
+## Notes
 
 Obsolete This feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it. In browsers where isSameNode is no longer supported // Instead of using node1.isSameNode(node2)
 
 // use node1 [Template:===](/w/index.php?title=Template:%3D%3D%3D&action=edit&redlink=1) node2 // or node1 [Template:==](/w/index.php?title=Template:%3D%3D&action=edit&redlink=1) node2
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

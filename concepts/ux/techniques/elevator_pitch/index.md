@@ -11,11 +11,11 @@ tags:
 uri: 'concepts/ux/techniques/elevator pitch'
 
 ---
-## <span>Summary</span>
+## Summary
 
 A User eXperience (UX) design technique
 
-### <span>What it is</span>
+### What it is
 
 Shot summary used to quickly and simply define a product and its value proposition.
 
@@ -27,21 +27,21 @@ Shot summary used to quickly and simply define a product and its value propositi
 -   Unlike (primary competitive reason alternative)
 -   our product (statement of primary differentiation).
 
-### <span>Who does it</span>
+### Who does it
 
 The whole project team
 
-### <span>Key benefits</span>
+### Key benefits
 
 -   Provides Business relevance and context
 -   Forces to agree on killer features
 
-## <span>Usage</span>
+## Usage
 
      At Scoping
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [User eXperience (UX) Design Techniques](/concepts/ux/techniques)

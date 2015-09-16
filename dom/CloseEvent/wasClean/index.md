@@ -23,13 +23,13 @@ tags:
 uri: dom/CloseEvent/wasClean
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates whether the server connection closed cleanly.
 
 Property of [dom/CloseEvent](/dom/CloseEvent)[dom/CloseEvent](/dom/CloseEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/CloseEvent](/dom/CloseEvent)[dom/CloseEvent](/dom/CloseEvent)
 var wasClean = event.wasClean;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Whether the connection was cleanly closed.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function getCloseClean(e) {

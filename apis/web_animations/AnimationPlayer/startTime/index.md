@@ -16,13 +16,13 @@ tags:
 uri: 'apis/web animations/AnimationPlayer/startTime'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the start time of this player. Setting this attribute updates the player start time using the procedure to update the player start time of this object to the new value.
 
 Property of [apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)[apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.startTime;

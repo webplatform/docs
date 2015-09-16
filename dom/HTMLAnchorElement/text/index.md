@@ -21,26 +21,26 @@ tags:
 uri: dom/HTMLAnchorElement/text
 
 ---
-## <span>Summary</span>
+## Summary
 
 Legacy. Use anchorElement.textContent instead. Functions identically to Node.textContent.
 
 Property of [dom/HTMLAnchorElement](/dom/HTMLAnchorElement)[dom/HTMLAnchorElement](/dom/HTMLAnchorElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var anchorText = anchorElement.text;
 anchorElement.text = newAnchorText;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The text content of the element.
 
-## <span>Examples</span>
+## Examples
 
 The following script replaces every instance of the letter "a" in the text of an [**a**](/html/elements/a) element with instances of the letter "t", using the **text** property for getting and setting the text.
 
@@ -55,7 +55,7 @@ var anchor = document.getElementById("some-anchor");
 anchor.text = anchor.text.replace(/a/g, "t");
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#dom-a-text)
 :   Living Standard

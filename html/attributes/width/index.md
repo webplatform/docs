@@ -15,7 +15,7 @@ tags:
 uri: html/attributes/width
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the width, in pixels, of certain content elements.
 
@@ -37,7 +37,7 @@ By default, elements will not preserve aspect ratio when width attribute is set,
 
 Width values must be non-negative integers.
 
-## <span>Examples</span>
+## Examples
 
 \<img\> with width attribute.
 
@@ -55,7 +55,7 @@ Width values must be non-negative integers.
 
 [View live example](https://code.webplatform.org/gist/dbe042fac0e620a8f2b4)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML4 Specification](http://www.w3.org/TR/html401/)
 :   W3C Recommendation

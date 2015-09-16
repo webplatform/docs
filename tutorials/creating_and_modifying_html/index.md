@@ -15,15 +15,15 @@ tags:
 uri: 'tutorials/creating and modifying html'
 
 ---
-## <span>Summary</span>
+## Summary
 
 when you've targetted an HTML element using JavaScript, how do modify it, and create new HTML nearby? This article shows you how.
 
-## <span>Introduction</span>
+## Introduction
 
 In this article of the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum) I’ll explain the basics of using JavaScript to manipulate the content of your pages, including showing and hiding parts of a page, and adding new HTML and removing it. At the end of this you’ll understand that the most fundamental thing we use JavaScript for is to change the contents of pages, and you’ll understand the best ways to do this.
 
-## <span>Hiding and showing</span>
+## Hiding and showing
 
 The easiest place to start is with manipulating the HTML you’ve already got, by hiding or showing elements that are already in the page. To do this, you can use JavaScript to change the styles on an element. CSS styles are already a powerful way of describing how an element looks, and one part of how an element looks is whether it’s displayed at all. The CSS `display` property is the key to showing and hiding an element: setting it to `display:none;` hides an element. Imagine a paragraph like this:
 
@@ -47,7 +47,7 @@ var el = document.getElementById('mypara');
 el.style.display = 'none';
 ```
 
-### <span>Hiding and showing example</span>
+### Hiding and showing example
 
 Theory is all good, but a more practical example may be useful here. Imagine a set of tabs, where clicking on the tab itself shows it and hides all the others.
 
@@ -168,7 +168,7 @@ document.getElementById(dest).style.display = "block";
 
  The links, if you remember, look like `<a href="#tab1">Tab 1</a>` and so the first line uses a regular expression (see the note below) to extract the part of the link that appears after the `#` symbol; in this example that would be the string `tab1`. That part of the link is the same as the ID of the corresponding `div` (because, as mentioned, the page is built to make sense semantically, so a “tab” links to its `div`). We then fetch a reference to that `div` with `document.getElementById`, and set `style.display` to `block` as previously discussed.
 
-#### <span>Regular expressions</span>
+#### Regular expressions
 
 Regular expressions are a sort of mini-programming-language designed to help with the problem of “parsing” text—for example, answering questions like “does this string appear inside this other string?“ and “in the string ‘abc123def’, what are the numbers between ‘c’ and ‘d’?” They’re a very powerful tool, but they’re also pretty complicated. There’s a description below of what the regular expression is for; for now, though, feel free to take how they work on trust and come back to it later.
 
@@ -184,7 +184,7 @@ So our regex describes a “matching pattern” for a string comprised of “a h
 
 `link.href.match(our_regexp)`, therefore, will return a true rather than false result; what it actually returns is an array of two things, `["#tab1", "tab1"]`. The first is the text that was matched by the whole regex, and the second is the text matched inside the brackets; this is why the brackets are there—to mark that part of the string as “this is the bit we care about”. That `tab1` is the string we want, so we can grab it out of the returned array (it’s the second item, so `[1]` will grab it — arrays start numbering at zero.)
 
-#### <span>Connecting the working code to the page</span>
+#### Connecting the working code to the page
 
 As mentioned above, there are two parts to the code: the part which actually does the work, and the part which hooks up that bit to the HTML. Hooking up the working code to the HTML is what events are for. In this particular example, we care about two events: the `window`’s `load` event, which is used to say “start everything off”, and the tab list’s `click` event, which is fired when the user clicks on a tab. When the page loads, we need to run the connection code, and the connection code should connect the tab `click` event to the code above, which displays the appropriate tab.
 
@@ -295,7 +295,7 @@ ol.tablinks li a.active {
 
  So now, the "active" tab appears in white, while other tabs appear in red. Using JavaScript to add and remove classes is a very common technique, and one that you should use whenever possible; CSS is good at controlling layout and position and appearance of your HTML elements, and so using JavaScript to alter the classes on those elements means that they can pick up different CSS styles. It's an ideal unification; JavaScript makes your elements dynamic but doesn't actually change very much itself. Just add a class and let CSS do the heavy lifting.
 
-## <span>Creating HTML</span>
+## Creating HTML
 
 DOM scripting is much more powerful than simply altering the CSS properties of your existing HTML, though. You can also dynamically create new HTML that was never in your page to begin with. For example, on the tech news site Slashdot, a link in a comment displays the destination of the link in square brackets, so a link like \<a href="<http://opera.com>"\>A web browser\</a\> will display as [A web browser](http://opera.com) [opera.com]. (They did this to stop people being [rickrolled](http://www.youtube.com/watch?v=oHg5SJYRHA0), or worse.) Adding this extra bit of HTML, displaying the destination domain of every link on the page, will be easy to do with JavaScript.
 
@@ -307,7 +307,7 @@ Creating new HTML elements is done with the `document.createElement` function. F
 to various places, including <a href="http://www.opera.com">Opera</a>,
 <a href="http://www.bbc.co.uk/">the BBC</a> and an internal link to
 <a href="#start">the beginning of this section</a>. All the external links
-should have <span>[domain]</span> after them.</p>
+should have [domain] after them.</p>
 ```
 
  The JavaScript looks like this:
@@ -394,7 +394,7 @@ links[i].parentNode.insertBefore(span, links[i].nextSibling);
  This line adds the `span` into the document. At this point, `span` is a reference to an HTML element that looks like this:
 
 ``` html
-<span> [example.com]</span>
+ [example.com]
 ```
 
  That element however isn’t part of the document. It’s not part of any document yet; it’s just floating around in limbo. Adding the element to the document can be done in one of two ways: using `appendChild` as above, or using `insertBefore`. The `appendChild` function adds our new element at the *end* of an existing element (that’s why it’s called *append*). Since we want to add it in the middle of an existing element, we need `insertBefore`. Remember that our current bit of HTML looks something like this:
@@ -422,7 +422,7 @@ or, more simply, HTML such as
 ``` html
 <p>... text which has
 <a href="http://www.w3.org/TR/html4/struct/links.html">links</a>
-<span> [domain]</span> in it to ...
+ [domain] in it to ...
 ```
 
  What would be handy here is to be able to say “insert our new `span` *after* the link”. Sadly, there is no `insertAfter` function. Instead, we need to insert it *before* the thing after the link (confusing, but think about it and it’ll make sense). A quick shortcut to “the thing after an element labelled `el`” is `el.nextSibling`. The `insertBefore` function needs to be called on the element that you’re inserting into, which is the parent `<p>` of the link, quickly accessible with `link.parentNode`. So the full call, as above, is
@@ -433,13 +433,13 @@ links[i].parentNode.insertBefore(span, links[i].nextSibling);
 
  That is, find the parent (`<p>`) of the link we’re currently processing (`links[i]`), and insert our created `span` element (`span`) before the thing after the link (`links[i].nextSibling`). Treating HTML as a DOM tree in this way and inserting new elements into it can be confusing at first, but it soon becomes clearer as you get more practice at it.
 
-## <span>Summary</span>
+## Summary
 
 HTML provides the structure of your pages, and CSS provides the description of how it looks. What JavaScript brings is flexibility; your HTML structure and your CSS styles become *dynamic*. You can change how your pages look and feel and work from moment to moment, based on what your users do. It’s the next step up: from well-thought-out and well-structured information to data that changes depending on what your users need. You can show and hide elements, change styles and appearances, and add new HTML or remove the old in whatever way you need to.
 
-## <span>See also</span>
+## See also
 
-### <span>Exercise questions</span>
+### Exercise questions
 
 -   How do you set an element’s CSS display property to hide an element?
 -   What’s the difference between an element and a text node?

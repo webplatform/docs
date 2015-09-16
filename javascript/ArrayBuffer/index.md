@@ -10,13 +10,13 @@ tags:
 uri: javascript/ArrayBuffer
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a raw buffer of binary data, which is used to store data for the different typed arrays. ArrayBuffers cannot be read from or written to directly, but can be passed to a typed array or DataView Object to interpret the raw buffer as needed.
 
 For more information about typed arrays, see Typed Arrays.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -28,7 +28,7 @@ For more information about typed arrays, see Typed Arrays.
 **length**
 :   The length of the buffer. The contents of the ArrayBuffer are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use an ArrayBuffer object to process the binary data acquired from an XmlHttpRequest. You can use a [DataView Object](/javascript/DataView) to get the individual values.
 
@@ -51,11 +51,11 @@ var req = new XMLHttpRequest();
      }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 For more information about using XmlHttpRequest , see XMLHttpRequest enhancements.
 
-## <span>Properties</span>
+## Properties
 
 The following table lists the properties of the **ArrayBuffer** object.
 

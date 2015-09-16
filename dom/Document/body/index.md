@@ -22,26 +22,26 @@ tags:
 uri: dom/Document/body
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets the body element of the document.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var bodyElement = document.body;
 document.body = newBodyElement;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The [body](/html/elements/body) element of the document.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //get the document's body content, append to it, set new content
@@ -52,11 +52,11 @@ function appendBody() {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use this property to get the body element of the document, or to replace it with a new body element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 HTML](http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109)
 :   Recommendation

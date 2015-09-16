@@ -18,7 +18,7 @@ tags:
 uri: apis/filesystem/FileSystemCallback/handleEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 The file system was successfully obtained.
 
@@ -26,28 +26,28 @@ The file system was successfully obtained.
 
 Method of [apis/filesystem/FileSystemCallback](/apis/filesystem/FileSystemCallback)[apis/filesystem/FileSystemCallback](/apis/filesystem/FileSystemCallback)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  FileSystemCallback.handleEvent(filesystem);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>filesystem</span>
+### filesystem
 
  Data-type
 :   String
 
  The file systems to which the app is granted access.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

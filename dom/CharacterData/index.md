@@ -15,13 +15,13 @@ tags:
 uri: dom/CharacterData
 
 ---
-## <span>Summary</span>
+## Summary
 
 An interface for accessing character data and performing common character data operations for objects in the DOM.
 
 Inherits from [Node](/dom/Node)[Node](/dom/Node)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -32,7 +32,7 @@ API Name
 [length](/dom/CharacterData/length)
 :   Gets the number of characters in a text node.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -52,13 +52,13 @@ API Name
 [substringData](/dom/CharacterData/substringData)
 :   Extracts a range of characters from the node.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from Node</span>
+## Inherited from Node
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -110,7 +110,7 @@ API Name
 [textContent](/dom/Node/textContent)
 :   Sets or retrieves the text content of a node and any child nodes.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -163,17 +163,17 @@ API Name
 [replaceChild](/dom/Node/replaceChild)
 :   Replaces an existing child node with a new child node.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Inherited from EventTarget</span>
+## Inherited from EventTarget
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -187,11 +187,11 @@ API Name
 [removeEventListener](/dom/EventTarget/removeEventListener)
 :   Removes an event handler that the [addEventListener](/dom/EventTarget/addEventListener) method registered.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

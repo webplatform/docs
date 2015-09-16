@@ -15,18 +15,18 @@ tags:
 uri: html/elements/tfoot
 
 ---
-## <span>Summary</span>
+## Summary
 
 The tfoot tag is used to group footer content in an HTML table.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLTableSectionElement](/dom/HTMLTableSectionElement)
 
 The \<tfoot\> element represents the block of rows that consist of the column summaries (footers) for the parent table element, if the tfoot element has a parent and it is a table.
 
-## <span>Examples</span>
+## Examples
 
 The following code example uses the **tfoot** element and the [**table**](/html/elements/table), [**tbody**](/html/elements/tbody), [**td**](/html/elements/td), and [**tr**](/html/elements/tr) elements to create a table that includes the first row in the table body and the second row in the table footer.
 
@@ -49,7 +49,7 @@ The following code example uses the **tfoot** element and the [**table**](/html/
 </table>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-tfoot-element)
 :   W3C Working Draft
@@ -60,11 +60,11 @@ The following code example uses the **tfoot** element and the [**table**](/html/
 [HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-TFOOT)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -204,7 +204,7 @@ The following code example uses the **tfoot** element and the [**table**](/html/
 
 -   [time](/html/elements/time)
 
-#### <span>Tables</span>
+#### Tables
 
 -   [border-collapse](/css/properties/border-collapse)
 

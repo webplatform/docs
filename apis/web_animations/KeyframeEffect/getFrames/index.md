@@ -21,19 +21,19 @@ tags:
 uri: 'apis/web animations/KeyframeEffect/getFrames'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the keyframes that make up this effect as a sequence of ComputedKeyframe objects.
 
 Method of [apis/web\_animations/KeyframeEffect](/apis/web_animations/KeyframeEffect)[apis/web\_animations/KeyframeEffect](/apis/web_animations/KeyframeEffect)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = .getFrames();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 

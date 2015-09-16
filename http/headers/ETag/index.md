@@ -10,11 +10,11 @@ tags:
 uri: http/headers/ETag
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides the entity-tag for the current selected representation, an opaque token that varies over revisions and representations.
 
-## <span>Overview table</span>
+## Overview table
 
 Direction
 :   Response
@@ -22,7 +22,7 @@ Direction
 Features
 :
 
-## <span>Syntax</span>
+## Syntax
 
     ETag       = entity-tag
     entity-tag = [ weak ] opaque-tag
@@ -30,7 +30,7 @@ Features
     opaque-tag = DQUOTE *etagc DQUOTE
     etagc      = %x21 / %x23-7E / obs-text ; VCHAR except double quotes, plus obs-text
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 ETag: "xyzzy"
@@ -44,11 +44,11 @@ ETag: W/"xyzzy"
 ETag: ""
 ```
 
-## <span>Usage</span>
+## Usage
 
      ETag is defined as a validator header field, and as such conveys information about the selected representation. In safe responses (GET, HEAD), this will provide metadata about the attached response. In unsafe responses (PUT, PATCH, POST, DELETE), the header describes the new resource that has replaced the old one (if any), and the server must not send the header if the resource has been altered or normalized in any way.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [RFC7232: HTTP/1.1 Conditional Requests](http://tools.ietf.org/html/rfc7232#section-2.3)
 :

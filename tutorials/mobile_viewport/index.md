@@ -17,7 +17,7 @@ uri: 'tutorials/mobile viewport'
 ---
 **By Mike Sierra**
 
-## <span>Summary</span>
+## Summary
 
 Here you'll learn how the mobile viewport works, and how it affects what appears on the screen when tipping the handset.
 
@@ -57,7 +57,7 @@ Viewports can also specify a fixed-pixel width, but this is *not* a good practic
 
 Specifying the number of pixels effectively means the page won't appear properly on wider tablet devices whose browsers also support the viewport meta tag. It is unsustainable overall as differently sized devices become available. Use **device-width** to cover all devices, then use [CSS media queries](/tutorials/media_queries) to flexibly adapt layouts to suit different screen sizes. Overall, it is better to specify flexible measurements such as percentages or *em* units than fixed-pixel measurements.
 
-## <span>Control over panning</span>
+## Control over panning
 
 The **width=device-width** viewport shown above forces content to scroll downward, though it can still extend past the left and right edges, and may even be positioned outside the visible screen. By default, horizontal panning is disabled when the content fits within the viewport.
 
@@ -90,7 +90,7 @@ Increasingly, mobile browsers allow users to navigate scrollable content boxes t
 
 **Note:** Setting the little-used **height=device-height** property may also resize content to fit the viewable screen, but unlike the behavior of **width** does not disable vertical panning to force content to flow to the right, at least not reliably across various mobile browsers.
 
-## <span>Control over zooming</span>
+## Control over zooming
 
 Once content is well-adapted and properly fit for presentation on mobile browsers, there may no longer be any need to use zoom controls to access different portions of the page. To disable the browser's default double-tap and pinch-zoom gestures and ensure that content appears at the proper magnification level, apply this viewport:
 
@@ -107,7 +107,7 @@ See below for details on how these scaling options and related CSS affects the a
 
 The **user-scalable** property only affects access to the overall page. Touch-enabled web content within that page (such as map interfaces) may still respond independently to pinch-zoom and drag-scroll gestures.
 
-## <span>Tipping the handset</span>
+## Tipping the handset
 
 When you view browser pages or web apps and tip the device from portrait to landscape orientation, the browser re-orients content accordingly. Web pages and web apps can modify their appearance when the device is tipped in 90&deg; increments, as opposed to more detailed gestures that can only be captured with the [*device orientation* API](/tutorials/device_orientation).
 
@@ -171,7 +171,7 @@ Be careful not to apply the CSS above to a desktop-oriented interface. Doing so 
 
 If you are targeting a website for presentation on both mobile and desktop browsers, [media queries](/tutorials/media_queries) are an indispensable tool that you should master.
 
-## <span>Compatibility</span>
+## Compatibility
 
 The viewport meta tag is supported not only by the iPhone for which it was originally developed, but by Android, Fennec, and comparable smartphone browsers. While not a formal standard, it is now being folded into CSS as the [**@viewport**](/css/atrules/@viewport) rule, which as of this writing is not yet widely supported on mobile browsers.
 
@@ -183,7 +183,7 @@ Some mobile browsers support the **target-densitydpi** property, but that is bei
 
 Since pixel densities vary widely among handsets, there are very few cases outside of repeating background patterns in which **target-densitydpi** would be appropriate. It may affect other content in unexpected ways, and so should be avoided.
 
-## <span>Review</span>
+## Review
 
 Here is the most widely applicable viewport:
 
@@ -204,9 +204,9 @@ Here is most all of what you need to know about viewports:
 
 -   Use [media queries](/tutorials/media_queries) if you want your web page to be viewable on desktop, mobile, and tablet browsers.
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   Mozilla Developer Network: [Using the viewport meta tag to control layout on mobile browsers](https://developer.mozilla.org/en-US/docs/Mobile/Viewport_meta_tag)
 -   Safari Developer Library: [Configuring the Viewport](http://developer.apple.com/library/safari/#documentation/appleapplications/reference/safariwebcontent/UsingtheViewport/UsingtheViewport.html#//apple_ref/doc/uid/TP40006509-SW1)

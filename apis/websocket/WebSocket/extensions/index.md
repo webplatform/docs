@@ -25,13 +25,13 @@ tags:
 uri: apis/websocket/WebSocket/extensions
 
 ---
-## <span>Summary</span>
+## Summary
 
 The extensions selected by the server.
 
 Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket/WebSocket](/apis/websocket/WebSocket)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,19 +39,19 @@ Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket
 var result = element.extensions;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 This is either the empty string or a list of extensions as negotiated by the connection.
 
 Currently, Windows Internet Explorer does not support any extensions. The property always returns an empty string.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation

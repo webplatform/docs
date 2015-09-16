@@ -10,11 +10,11 @@ tags:
 uri: javascript/Object/getPrototypeOf
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the prototype of an object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,11 +23,11 @@ Returns the prototype of an object.
 **object**
 :   Required. The object that references the prototype.
 
-## <span>Return Value</span>
+## Return Value
 
 The prototype of the object argument. The prototype is also an object.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **Object.getPrototypeOf** function.
 
@@ -75,13 +75,13 @@ var reg = /a/;
  // Output: true true
 ```
 
-## <span>Exceptions</span>
+## Exceptions
 
 If the object argument is not an object, a TypeError exception is thrown.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [prototype Property (Object)](/javascript/Object/prototype)
 -   [isPrototypeOf Method (Object)](/javascript/Object/isPrototypeOf)

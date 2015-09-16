@@ -19,13 +19,13 @@ tags:
 uri: apis/indexeddb/IDBObjectStore/name
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides the name of this object store.
 
 Property of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.name;
@@ -34,8 +34,8 @@ element.name = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

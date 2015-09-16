@@ -26,29 +26,29 @@ uri: apis/xhr/methods/parseFromString
 
 Method of [apis/xhr/events/load](/apis/xhr/events/load)[apis/xhr/events/load](/apis/xhr/events/load)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.parseFromString(xmlSource, mimeType);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>xmlSource</span>
+### xmlSource
 
  Data-type
 :   BSTR
 
  A string that contains serialized XML source code.
 
-### <span>mimeType</span>
+### mimeType
 
  Data-type
 :   BSTR
 
  A string that identifies one of the following mime types for the source.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -56,7 +56,7 @@ Returns an object of type DOM NodeDOM Node
 
 A document object that represents the DOM tree of the XML source.
 
-## <span>Examples</span>
+## Examples
 
 To use the **parseFromString** method, type the following syntax.
 
@@ -65,8 +65,8 @@ oParser =  new DOMParser();
 oDocument = oParser.parseFromString(xmlSource, mimeType);
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `DOMParser`

@@ -23,13 +23,13 @@ tags:
 uri: dom/WheelEvent/deltaY
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the distance that a mouse wheel has rotated around the y-axis (vertical).
 
 Property of [dom/WheelEvent](/dom/WheelEvent)[dom/WheelEvent](/dom/WheelEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/WheelEvent](/dom/WheelEvent)[dom/WheelEvent](/dom/WheelEvent)
 var deltaY = event.deltaY;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 The Y rotation distance in pixels, lines or pages.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to determine the deltaY property of the WheelEvent. Note: to feature test for deltaY you need to use the 'deltaY' in event as deltaY may have a value of 0 (false)... (event.deltaY) can return false negatives.
 
@@ -76,11 +76,11 @@ function getDeltaMode(dMode){
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The measurement of the distance can be determined using the [deltaMode](/dom/WheelEvent/deltaMode) property.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

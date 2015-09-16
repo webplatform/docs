@@ -20,11 +20,11 @@ tags:
 uri: css/properties/shape-image-threshold
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines the alpha channel threshold used to extract a shape from an image. Can be thought of as a &quot;minimum opacity&quot; threshold; that is, a value of 0.5 means that the shape will enclose all the pixels that are more than 50% opaque.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0.0`
@@ -50,16 +50,16 @@ Animatable
 Percentages
 :   [[CSS percentages::Alpha channel of the image specified by [shape-outside](/css/properties/shape-outside).]]
 
-## <span>Syntax</span>
+## Syntax
 
 -   `shape-image-threshold: <number>`
 
-## <span>Values</span>
+## Values
 
 \<number\>
 :   A numeric value used to set the opacity threshold used for extracting a shape from an image. Any values outside the range 0.0 (fully transparent) to 1.0 (fully opaque) will be clamped to this range.
 
-## <span>Examples</span>
+## Examples
 
 Note: Depends upon an image previously specified by [shape-outside](/css/properties/shape-outside).
 
@@ -74,17 +74,17 @@ Extract a shape from an image by enclosing all pixels greater than 25% opacity
 
 [View live example](http://code.webplatform.org/gist/5833790)
 
-## <span>Usage</span>
+## Usage
 
      Currently implemented as an experimental feature in WebKit and Blink. This can be used with a -webkit- prefix in WebKit nightly builds and with a -webkit- prefix in Chrome Canary builds with experimental-webkit-features enabled: chrome://flags/#enable-experimental-webkit-features
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Shapes Module Level 1](http://www.w3.org/TR/css-shapes/)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [shape-outside](/css/properties/shape-outside) [shape-margin](/css/properties/shape-margin)

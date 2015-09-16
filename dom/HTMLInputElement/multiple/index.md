@@ -24,20 +24,20 @@ tags:
 uri: dom/HTMLInputElement/multiple
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets whether a file upload element can be populated with more than a single file.
 
 Property of [dom/HTMLInputElement](/dom/HTMLInputElement)[dom/HTMLInputElement](/dom/HTMLInputElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var multipleFiles = inputElement.multiple;
 inputElement.multiple = newMultiple;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -45,7 +45,7 @@ Whether multiple files can be populated within the element.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

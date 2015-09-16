@@ -10,17 +10,17 @@ tags:
 uri: javascript/Uint8Array/length
 
 ---
-## <span>Summary</span>
+## Summary
 
 The length of the array.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     var arrayLength = uint8Array.length;
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to get the length of the array.
 

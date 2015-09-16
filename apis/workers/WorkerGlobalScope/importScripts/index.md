@@ -20,36 +20,36 @@ tags:
 uri: apis/workers/WorkerGlobalScope/importScripts
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fetches one or more script resources, identified by absolute URLs.
 
 Method of [apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)[apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.importScripts(urls);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>urls</span>
+### urls
 
  Data-type
 :   String
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 A URL that is loaded must resolve according to the **WorkerLocation** of the worker. More than one script can be loaded in a sequence of URLs. The loading and executing of scripts is synchronous. If any script throws an exception, subsequent scripts will not load.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft

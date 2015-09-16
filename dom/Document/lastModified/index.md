@@ -24,13 +24,13 @@ tags:
 uri: dom/Document/lastModified
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the date that the document was last modified, if the document supplies one.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 var lastModified = document.lastModified;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -46,7 +46,7 @@ The date of the last modification to the document, as indicated by the server.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard

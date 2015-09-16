@@ -11,21 +11,21 @@ tags:
 uri: javascript/Date/getUTCDate
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the day-of-the-month, using Universal Coordinated Time (UTC).
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     dateObj.getUTCDate()
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an integer between 1 and 31 that represents the day-of-the-month.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **getUTCDate** method.
 
@@ -36,13 +36,13 @@ var date = new Date("1/23/2001");
  // Output: 23
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required dateObj reference is a **Date** object. To get the day of the month using local time, use the **getDate** method.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getDate Method (Date)](/javascript/Date/getDate)
 -   [setDate Method (Date)](/javascript/Date/setDate)

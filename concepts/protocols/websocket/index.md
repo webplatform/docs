@@ -13,15 +13,15 @@ tags:
 uri: concepts/protocols/websocket
 
 ---
-## <span>Summary</span>
+## Summary
 
 A WebSocket is a persistent, low-latency, lightweight and two-way communication channel between the server and the browser.
 
-## <span>What is a WebSocket?</span>
+## What is a WebSocket?
 
 The web we know today is built on top of HTTP, which is by design a stateless, one-off request/response-based protocol to reduce server load. But web applications have become more interactive thanks to [XMLHttpRequest](/apis/xhr/XMLHttpRequest), giving rise to multiplayer games, online chat applications and more. These new types of applications require low-latency and two-way communication between the server and the browser. Hence WebSockets: a secure socket implementation that is a persistent, two-way, lightweight communication channel, on top of existing HTTP. The protocol allows cross-origin requests by means of [CORS](/tutorials/using_cors).
 
-## <span>Getting Started</span>
+## Getting Started
 
 To create a WebSocket connection, you need to call the `WebSocket` constructor with the URL to the WebSocket service:
 
@@ -67,7 +67,7 @@ connection.onclose = function () {
 };
 ```
 
-## <span>Data Types and Extensions</span>
+## Data Types and Extensions
 
 WebSockets support sending binary messages, too. To send binary data, one can use either `Blob` or `ArrayBuffer` object. Instead of calling the `send` method with string, you can simply pass an `ArrayBuffer` or a `Blob`.
 
@@ -94,11 +94,11 @@ WebSockets support sending binary messages, too. To send binary data, one can us
 console.log(connection.extensions);
 ```
 
-## <span>Notes</span>
+## Notes
 
 WebSockets is a relatively low level API that especially aims to be a two-way communication channel so it is most appropriate to use in applications that explicitly require two-way real-time communication, such as multiplayer games, chat, real-time text editors, etc. If one needs to get real-time updates from a server but does not need to send anything back such as getting stock information in real-time, [EventSource (Server-Sent Events)](/tutorials/eventsource_basics) should be considered.
 
-## <span>Usage</span>
+## Usage
 
      * Online multiplayer games
 

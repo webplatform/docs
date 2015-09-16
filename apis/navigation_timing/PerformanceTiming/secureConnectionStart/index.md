@@ -23,13 +23,13 @@ tags:
 uri: 'apis/navigation timing/PerformanceTiming/secureConnectionStart'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the time immediately before the user agent starts the handshake process to secure the current connection, if the scheme of the current page is HTTPS. If HTTPS is not used, returns zero.
 
 Property of [apis/navigation timing/PerformanceTiming](/apis/navigation_timing/PerformanceTiming)[apis/navigation timing/PerformanceTiming](/apis/navigation_timing/PerformanceTiming)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,22 +37,22 @@ Property of [apis/navigation timing/PerformanceTiming](/apis/navigation_timing/P
 var result = PerformanceTiming.secureConnectionStart;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var perftime = performance.timing;
 document.write("secureConnectionStart: " + perftime.secureConnectionStart + "<br />");
 ```
 
-## <span>Notes</span>
+## Notes
 
 This attribute is optional. User agents that don't have this attribute available must set it as undefined.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Navigation Timing 2](http://www.w3.org/TR/navigation-timing-2/)
 :   W3C Working Draft

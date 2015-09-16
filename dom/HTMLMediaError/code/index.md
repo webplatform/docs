@@ -25,13 +25,13 @@ tags:
 uri: dom/HTMLMediaError/code
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the current HTMLMediaError code or null if no error has occurred.
 
 Property of [dom/HTMLMediaError](/dom/HTMLMediaError)[dom/HTMLMediaError](/dom/HTMLMediaError)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [dom/HTMLMediaError](/dom/HTMLMediaError)[dom/HTMLMediaError](/dom/H
 var errorCode = audio.error.code;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned shortunsigned short
 
@@ -47,11 +47,11 @@ The error code (from the [MediaError](/dom/HTMLMediaError) constants), or null.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 If no error has occurred, the [**MediaError**](/dom/HTMLMediaError) object is null.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

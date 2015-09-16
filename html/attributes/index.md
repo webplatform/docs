@@ -10,7 +10,7 @@ tags:
 uri: html/attributes
 
 ---
-## <span>Summary</span>
+## Summary
 
 This is a listing page for HTML attributes.
 
@@ -171,7 +171,7 @@ This is a listing page for HTML attributes.
 |[width (merge candidate)](/html/attributes/width_(merge_candidate))||
 |[wrap](/html/attributes/wrap)|Sets the wrap style (**soft**, **hard**, or **off**) for a text element.|
 
-## <span>Subpages</span>
+## Subpages
 
 <table>
 <col width="33%" />

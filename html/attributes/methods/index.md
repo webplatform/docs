@@ -28,16 +28,16 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When the HTTP protocol is used, these methods are given more accurately by the protocol. However, for reasons similar to those for the [**title**](/html/attributes/title) property, it can be useful to include the information in advance in the link. The HTML user agent can choose a different rendering as a function of the methods that are allowed. For example, if an object has a method that supports searching, an icon denoting this can be rendered.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`

@@ -9,7 +9,7 @@ The negation pseudo-class, `:not(X)`, is a functional notation taking a [selecto
 
 Negations may not be nested; `:not(:not(...))` is invalid. Note also that since pseudo-elements are not simple selectors, they are not a valid argument to `:not()`.
 
-## <span>Examples:</span>
+## Examples:
 
 The following selector matches all button elements in an HTML document that are not disabled.
 

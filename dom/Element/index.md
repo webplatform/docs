@@ -19,13 +19,13 @@ tags:
 uri: dom/Element
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents an node of type element in the DOM.
 
 Inherits from [Node](/dom/Node)[Node](/dom/Node)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -123,7 +123,7 @@ API Name
 [type](/dom/Element/type)
 :
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -221,7 +221,7 @@ API Name
 [setPointerCapture](/dom/Element/setPointerCapture)
 :   Assigns a specified pointer to an element. This method is used to ensure that an element continues to receive pointer events even if the contact moves off the element.
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -383,9 +383,9 @@ API Name
 [unload](/svg/events/unload)
 :
 
-## <span>Inherited from Node</span>
+## Inherited from Node
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -437,7 +437,7 @@ API Name
 [textContent](/dom/Node/textContent)
 :   Sets or retrieves the text content of a node and any child nodes.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -490,17 +490,17 @@ API Name
 [replaceChild](/dom/Node/replaceChild)
 :   Replaces an existing child node with a new child node.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Elements may have attributes associated with them; use the [attributes](/dom/Node/attributes) property to retrieve the set of all attributes for an element. There are methods on this object to retrieve either an attribute by name ([getAttributeNode](/dom/Element/getAttributeNode)) or an attribute value by name ([getAttribute](/dom/Element/getAttribute)). In XML, where an attribute value may contain entity references, an **attribute** should be retrieved to examine the possibly fairly complex sub-tree representing the attribute value. On the other hand, in HTML, where all attributes have simple string values, methods to directly access an attribute value can safely be used as a convenience.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

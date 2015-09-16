@@ -20,13 +20,13 @@ tags:
 uri: apis/location/pathname
 
 ---
-## <span>Summary</span>
+## Summary
 
 The path to the current document, relative to the root of the current host.
 
 Property of [apis/location](/apis/location)[apis/location](/apis/location)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,7 +34,7 @@ Property of [apis/location](/apis/location)[apis/location](/apis/location)
 var result = window.location.pathname;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -42,7 +42,7 @@ The path to the current document, relative to the root of the current host.
 
 For example, `http://example.org/myyfolder/mypage.html` would return the pathname of `/myfoler/mypage.html`.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // Returns the pathname part of the current window location.
@@ -50,7 +50,7 @@ For example, `http://example.org/myyfolder/mypage.html` would return the pathnam
 var pname = window.location.pathname;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Window Object 1.0](http://www.w3.org/TR/Window/)
 :   W3C Working Draft

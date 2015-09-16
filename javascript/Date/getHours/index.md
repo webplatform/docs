@@ -11,21 +11,21 @@ tags:
 uri: javascript/Date/getHours
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the hours in a date, using local time.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     dateObj.getHours()
 
-## <span>Return Value</span>
+## Return Value
 
 An integer between 0 and 23, indicating the number of hours since midnight. Zero is returned if the time is before 1:00:00 am. If a **Date** object was created without specifying the time, by default the hour is 0.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **getHours** method.
 
@@ -42,13 +42,13 @@ var date = new Date("1/1/2001");
  // 5
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required dateObj reference is a **Date** object. To get the hours value using Universal Coordinated Time (UTC), use the **getUTCHours** method.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getUTCHours Method (Date)](/javascript/Date/getUTCHours)
 -   [setHours Method (Date)](/javascript/Date/setHours)

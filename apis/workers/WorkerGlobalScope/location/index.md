@@ -24,13 +24,13 @@ tags:
 uri: apis/workers/WorkerGlobalScope/location
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the WorkerLocation object created for the WorkerGlobalScope object when the worker was created.
 
 Property of [apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)[apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)[ap
 var result = object.location;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -46,7 +46,7 @@ Represents the absolute URL of the script that was used to initialize the worker
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft

@@ -14,16 +14,16 @@ tags:
 uri: mathml/elements/mrow
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML mrow element is used to group sub-expressions, which usually contain one or more operators with their respective operands (such as mi and mn). This element renders as a horizontal row containing its arguments.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates a simple usage of the mrow element:
 
@@ -53,7 +53,7 @@ This example demonstrates a simple usage of the mrow element:
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mrow)
 :   W3C Recommendation

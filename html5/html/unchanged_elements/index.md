@@ -29,7 +29,7 @@ todo_broken_links:
 uri: 'html5/html/unchanged elements'
 
 ---
-## <span>Elements</span>
+## Elements
 
 There are 84 unchanged elements in HTML5:
 

@@ -24,25 +24,25 @@ tags:
 uri: dom/Element/getAttributeNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves an attribute node by name.
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var attributeNode = element.getAttributeNode();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 An attribute node.
 
-## <span>Examples</span>
+## Examples
 
 The following example uses **getAttributeNode** to create an attribute and populate its **div** element. Note how the call to [**setAttribute**](/dom/Element/setAttribute) changes the [**href**](/html/attributes/href) value for the content attribute but not for the DOM attribute.
 
@@ -74,7 +74,7 @@ function GetAttrNode() {
 </html>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

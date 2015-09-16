@@ -68,37 +68,37 @@ todo_broken_links:
 uri: concepts/es
 
 ---
-## <span>Resumen</span>
+## Resumen
 
 Nuestros conceptos web generales son artículos teóricos y tutoriales que abarcan temas generales relacionados con la web y el diseño y desarrollo web, como por ejemplo: cómo funciona Internet, arquitectura de la información, tipografía y diseño web. Estos no están directamente vinculados con tecnologías y técnicas específicas tratadas en los otros temas principales del sitio, pero inevitablemente harán referencia a tales tecnologías, por ejemplo, el diseño web responsivo implica HTML, CSS, JavaScript, etc.
 
-## <span>Explora nuestros documentos sobre conceptos web generales</span>
+## Explora nuestros documentos sobre conceptos web generales
 
-### <span>[Internet y la Web](/concepts/internet_and_web)</span>
+### [Internet y la Web](/concepts/internet_and_web)
 
 Temas relacionados con el funcionamiento de alto nivel de Internet y la Web, tales como fundamentos y protocolos de comunicación.
 
-### <span>[Programación en general](/concepts/general_programming)</span>
+### [Programación en general](/concepts/general_programming)
 
 Artículos que abarcan técnicas generales de programación e ideas fundamentales.
 
-### <span>[Arquitectura de la información / usabilidad](/concepts/ia_and_usability)</span>
+### [Arquitectura de la información / usabilidad](/concepts/ia_and_usability)
 
 Prácticas recomendadas relacionadas con el desarrollo de tu contenido y funcionalidad de una manera lógica e intuitiva, de modo que sea fácil de encontrar y utilizar.
 
-### <span>[Móvil y dispositivos](/concepts/mobile_web)</span>
+### [Móvil y dispositivos](/concepts/mobile_web)
 
 Técnicas e ideas respecto a la optimización de documentos web para móviles y otros dispositivos de navegación alternativos.
 
-### <span>[Diseñando la Web](/concepts/web_design)</span>
+### [Diseñando la Web](/concepts/web_design)
 
 Artículos relacionados con la planificación, creación de prototipos y diseño gráfico de sitios web y aplicaciones.
 
-### <span>[Técnicas multi-navegador](/concepts/cross_browser_techniques)</span>
+### [Técnicas multi-navegador](/concepts/cross_browser_techniques)
 
 Artículos que tratan los conceptos relacionados con hacer que nuestros sitios funcionen mejor en los diferentes navegadores, antiguos y actuales.
 
-### <span>[Localización e internacionalización](/concepts/localisation)</span>
+### [Localización e internacionalización](/concepts/localisation)
 
 Artículos sobre técnicas y tecnologías utilizadas para dirigirnos a un público internacional que habla diversos idiomas.
 

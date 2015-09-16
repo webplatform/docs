@@ -20,11 +20,11 @@ tags:
 uri: css/properties/voice-rate
 
 ---
-## <span>Summary</span>
+## Summary
 
 The voice-rate property sets the speed at which the voice synthesized by a speech media agent will read content.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -47,13 +47,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Speech Module](http://www.w3.org/TR/css3-speech/#voice-props-voice-rate)
 :   W3C Candidate Recommendation

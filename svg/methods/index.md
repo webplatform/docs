@@ -11,11 +11,11 @@ tags:
 uri: svg/methods
 
 ---
-## <span>Summary</span>
+## Summary
 
 List of all pages in svg/methods/
 
-## <span>All Pages</span>
+## All Pages
 
 -   [addListener](/svg/methods/addListener)
 -   [animationsPaused](/svg/methods/animationsPaused)

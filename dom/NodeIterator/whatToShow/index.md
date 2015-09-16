@@ -23,13 +23,13 @@ tags:
 uri: dom/NodeIterator/whatToShow
 
 ---
-## <span>Summary</span>
+## Summary
 
 The NodeIterator.whatToShow read-only property represents an unsigned integer representing a bitmask signifying what types of nodes should be returned by the NodeIterator.
 
 Property of [dom/NodeIterator](/dom/NodeIterator)[dom/NodeIterator](/dom/NodeIterator)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [dom/NodeIterator](/dom/NodeIterator)[dom/NodeIterator](/dom/NodeIte
 var nodeTypes = element.whatToShow;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
@@ -69,7 +69,7 @@ NodeFilter.SHOW\_DOCUMENT\_FRAGMENT (0x00000400) Show DocumentFragment nodes.
 
 NodeFilter.SHOW\_NOTATION (0x00000800) Show Notation nodes.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var nodeIterator = document.createNodeIterator(
@@ -81,21 +81,21 @@ var nodeIterator = document.createNodeIterator(
 if( (nodeIterator.whatToShow == NodeFilter.SHOW_ALL)
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Filtering is based both on the **whatToShow** flags and the [**filter**](/dom/NodeIterator/filter) function.
 
-### <span>Syntax</span>
+### Syntax
 
 var nodeTypes = nodeIterator.whatToShow;
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 1.2
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-nodeiterator-whattoshow)
 :   Living Standard

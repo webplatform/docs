@@ -20,27 +20,27 @@ tags:
 uri: dom/HTMLAudioElement
 
 ---
-## <span>Summary</span>
+## Summary
 
 The HTML &lt;audio&gt; element represents sound content in documents. This is part of the HTML5 specifications. Audio sources can be specified in the src attribute or by using a source element. There is also a fallback option for browsers which do not support this tag.
 
 Inherits from [HTMLMediaElement](/dom/HTMLMediaElement)[HTMLMediaElement](/dom/HTMLMediaElement)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from HTMLMediaElement</span>
+## Inherited from HTMLMediaElement
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -114,7 +114,7 @@ API Name
 [volume](/dom/HTMLMediaElement/volume)
 :
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -131,7 +131,7 @@ API Name
 [play](/dom/HTMLMediaElement/play)
 :   Loads and starts playback of a media resource.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -145,11 +145,11 @@ API Name
 [progress](/dom/HTMLMediaElement/progress)
 :   Fires to indicate progress while downloading media data.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 

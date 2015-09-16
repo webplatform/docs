@@ -21,13 +21,13 @@ tags:
 uri: dom/HTMLMediaElement/controls
 
 ---
-## <span>Summary</span>
+## Summary
 
 Controls attribute used within a Audio element or Video element displays the default media controls defined by the web browser being used to open HTML document or view of a Web Application.
 
 Property of [dom/HTMLMediaElement](/dom/HTMLMediaElement)[dom/HTMLMediaElement](/dom/HTMLMediaElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.controls;
@@ -36,21 +36,21 @@ element.controls = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The presence of the controls attribute, regardless of assigned value, in either the **audio** or **video** element equals true (for example, \<audio controls=""\> is true).
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.8.9.10
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `media`
 -   `audio`

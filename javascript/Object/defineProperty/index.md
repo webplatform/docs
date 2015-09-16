@@ -10,11 +10,11 @@ tags:
 uri: javascript/Object/defineProperty
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds a property to an object, or modifies the attributes of an existing property.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,11 +29,11 @@ Adds a property to an object, or modifies the attributes of an existing property
 **descriptor**
 :   Required. A descriptor for the property. It can be for a data property or an accessor property.
 
-## <span>Return Value</span>
+## Return Value
 
 The modified object.
 
-## <span>Examples</span>
+## Examples
 
 **Adding a Data Property**
 
@@ -194,7 +194,7 @@ document.write(elem.querySelector);
 // query
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 You can use the **Object.defineProperty** function to do the following:
 
@@ -205,7 +205,7 @@ The property definition is provided in a descriptor object, which describes the 
 
 To add multiple properties to an object, or to modify multiple existing properties, you can use the [Object.defineProperties Function](/javascript/Object/defineProperties).
 
-## <span>Exceptions</span>
+## Exceptions
 
 A TypeError exception is thrown if any one of the following conditions is true:
 
@@ -215,9 +215,9 @@ A TypeError exception is thrown if any one of the following conditions is true:
 -   The descriptor has a get or set attribute that is not a function or undefined.
 -   The specified property name already exists, the existing property has a configurable attribute of false , and the descriptor contains one or more attributes that are different from those in the existing property. However, when the existing property has a configurable attribute of false and a writable attribute of true , it is permitted for the value or writable attribute to be different.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Object.defineProperties Function](/javascript/Object/defineProperties)
 -   [Object.create Function](/javascript/Object/create)

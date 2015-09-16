@@ -6,7 +6,7 @@ tags:
 uri: 'tutorials/How does the Internet work'
 
 ---
-## <span>Introduction</span>
+## Introduction
 
 Every so often, you get offered a behind-the-scenes look at the cogs and fan belts behind the action. Today’s your lucky day. In this article we'll usher you behind the scenes of one of the hottest technologies that you might already be familiar with: the World Wide Web. Cue theme music.
 
@@ -20,13 +20,13 @@ This article covers the underlying technologies that power the World Wide Web:
 
 While most of what’s covered here won’t help you to build a better web site, it will give you the proper language to use when speaking with clients and with others about the Web. It’s like a wise nun-turned-nanny once said in *The Sound of Music*: “When we read we begin with ABC. When we sing we begin with Do Re Mi.”. In this article I will briefly look at how computers actually communicate, then go on to look at the different languages that go together to create the web pages that make up the Web.
 
-## <span>How do computers communicate via the Internet?</span>
+## How do computers communicate via the Internet?
 
 Thankfully, we have kept things simple for computers. When it comes to the World Wide Web, most pages are written using the same language, HTML, which is passed around using a common protocol — HTTP. HTTP is the common internet language (dialect, or specification), allowing a Windows machine, for example, to sing in harmony with a machine running the latest and greatest version of Linux (Do Re Mi!). Through the use of a web browser, a special piece of software that interprets HTTP and renders HTML into a human-readable form, web pages authored in HTML on any type of computer can be read anywhere, including telephones, PDAs and even popular games consoles.
 
 Even though they’re speaking the same language, the various devices accessing the web need to have some rules in place to be able to talk to one another — it’s like learning to raise your hand to ask a question in class. HTTP lays out these ground rules for the Internet. Because of HTTP, a client machine (like your computer) knows that it has to be the one to initiate a request for a web page; it sends this request to a **server**. A server is a computer where web sites reside — when you type a web address into your browser, a server receives your request, finds the web page you want, and sends it back to your computer to be displayed in your web browser.
 
-### <span>Dissecting a request/response cycle</span>
+### Dissecting a request/response cycle
 
 Now that we’ve looked at all the parts that allow computers to communicate across the Internet, let's look at the HTTP request/response cycle in more detail. There are some numbered steps below for you to work along with, so I can demonstrate some of the concepts to you more effectively.
 
@@ -39,15 +39,15 @@ Figure 1: In this case, everything is fine, and the server returns the correct w
 
 1.  Try typing in <http://www.joniscool.co.uk/jonlane/>. The page doesn’t exist, so you’ll get a 404 error returned. Try it with a few different fake page addresses and you’ll see a variety of different pages returned. This is because some web developers have just left the web server to return their default error pages, and others have coded custom error pages to appear when a non-existent page is returned. This is an advanced technique that won’t be covered in this course, but Stuart Colville provides a good article on it at [Adding meaning to your HTTP error pages!](http://dev.opera.com/articles/view/adding-meaning-to-http-error-pages/). Lastly, a note about URLs — usually the first URL you go to on a site doesn’t have an actual file name at the end of it (eg <http://www.mysite.com/>), and then subsequent pages sometimes do and sometimes don’t. You are always accessing actual files, but sometimes the web developer has set up the web server to not display the file names in the URL — this often makes for neater, easier to remember URLs, which leads to a better experience for the user of your web site. We’ll not cover how to do this in this course, as again, it is quite advanced; we cover uploading files to a server and file/folder directory structures in [Getting your content online](http://dev.opera.com/articles/view/supplementary-getting-your-content-onli/), by Craig Grannell.
 
-## <span>Types of Content</span>
+## Types of Content
 
 Now you'll look at the different types of content you’ll expect to see on the Internet. They are grouped these into 4 types — plain text, web standards, server-side languages, and formats requiring other applications or plugins.
 
-### <span>Plain text</span>
+### Plain text
 
 In the really early days of the Internet, before any web standards or plugins came along, the Internet was mainly just images and plain text — files with an extension of .txt or similar. When a plain text file is encountered on the Internet, the browser will just display it as is, without any processing involved. You often still get plain text files on university sites.
 
-### <span>Web Standards</span>
+### Web Standards
 
 The basic building blocks of the World Wide Web are the three most commonly-used web standards — HTML, CSS and JavaScript.
 
@@ -61,11 +61,11 @@ Figure 2: Plain HTML on the left, HTML with CSS applied to it on the right.
 
 Finally, JavaScript provides dynamic functions to your web site/application. You can write programs in JavaScript that will run in the web browser, requiring no special software to be installed. JavaScript allows you to add powerful interactivity and dynamic features to your web site, but it has its limitations, which brings us to server-side programming languages, and dynamic web pages.
 
-### <span>Server-side languages</span>
+### Server-side languages
 
 Sometimes, when browsing the Internet, you’ll come across web pages that don’t have an .html extension—they might have a .php, .asp, .aspx, .jsp, or some other strange extension. These are all examples of server-side web technologies, which can be used to create web pages with sections that change depending on variable values given to the page on the server, before the page is sent to the web browser to be displayed. For example, a movie listings page could pull movie information from a database, and display different movie information for different days, weeks or months. We’ll cover these types of web pages further in the Static versus Dynamic pages section below.
 
-### <span>Formats requiring other applications or plugins</span>
+### Formats requiring other applications or plugins
 
 Because web browsers are only equipped to interpret and display certain technologies like web standards, if you’ve requested a URL that points to a file format the browser isn't able to interpret, or a web page containing a technology requiring plugins, it will either be downloaded to your computer or opened using a plugin if the browser has it installed. For example:
 
@@ -74,7 +74,7 @@ Because web browsers are only equipped to interpret and display certain technolo
 
 Of course, there are some gray areas—for example some browsers will come with some plugins pre-installed, so you may not be aware that content is being displayed via a plugin and not natively within the browser.
 
-## <span>Static vs. Dynamic Web Sites</span>
+## Static vs. Dynamic Web Sites
 
 So what are static and dynamic web sites, and what is the difference between the two? Similar to a box of chocolates, it’s all in the filling:
 
@@ -95,11 +95,11 @@ We won’t be covering dynamic languages any further in this course, but I have 
 -   ASP.NET: Lorenz, Patrick. (2003). ASP.NET 2.0 Revealed. Apress.
 -   ASP.NET: [[online ASP.NET documentation and tutorials.](http://asp.net)]
 
-## <span>Summary</span>
+## Summary
 
 That’s it for the behind-the-scenes tour of how the Internet works. This article really just scratches the surface of a lot of the topics covered, but it is useful as it puts them all in perspective, showing how they all relate and work together. There is still a lot left to learn about the actual language syntax that makes up HTML, CSS and JavaScript, and this is where we’ll go to next — the next article focuses on the HTML, CSS and JavaScript “web standards” model of web development, and takes a look at web page code.
 
-## <span>Exercise questions</span>
+## Exercise questions
 
 -   Provide a brief definition for HTML and HTTP and explain the difference between the two.
 -   Explain the function of a web browser.

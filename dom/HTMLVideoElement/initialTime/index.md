@@ -25,34 +25,34 @@ tags:
 uri: dom/HTMLVideoElement/initialTime
 
 ---
-## <span>Summary</span>
+## Summary
 
 Earliest point in seconds where the playback can (should) start playing
 
 Property of [dom/HTMLVideoElement](/dom/HTMLVideoElement)[dom/HTMLVideoElement](/dom/HTMLVideoElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.initialTime;
 element.initialTime = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `media`
 -   `audio`

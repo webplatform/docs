@@ -26,13 +26,13 @@ uri: 'css/media queries/apis/handleChange'
 
 Method of [css/media\_queries](/css/media_queries)[css/media\_queries](/css/media_queries)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.handleChange();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -50,22 +50,22 @@ S\_OK
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793)
 
-### <span>Parameters</span>
+### Parameters
 
 *mql* [in]
 :   Type: **MediaQueryList**
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Media Queries</span>
+#### Media Queries
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -105,6 +105,6 @@ S\_OK
 
 -   [behavior](/css/properties/behavior)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `MediaQueryListListener`

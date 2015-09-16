@@ -13,7 +13,7 @@ tags:
 uri: 'html/attributes/ATOMICSELECTION html attribute'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies whether the element and its contents must be selected as a whole, indivisible unit.
 
@@ -31,25 +31,25 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If the document is not in atomic selection mode, the **ATOMICSELECTION** attribute is ignored. To turn on the atomic selection mode, run the IDM\_ATOMICSELECTION command with the value of `true`. A document that is in atomic selection mode has slower performance when a selection is made anywhere in the document.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Requirements</span>
+### Requirements
 
 {
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`
 -   `abbr`

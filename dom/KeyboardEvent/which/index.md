@@ -22,7 +22,7 @@ uri: dom/KeyboardEvent/which
 
 Property of [dom/KeyboardEvent](/dom/KeyboardEvent)[dom/KeyboardEvent](/dom/KeyboardEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.which;
@@ -31,14 +31,14 @@ element.which = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **which** property is provided for compatibility only. The [**keyCode**](/dom/KeyboardEvent/keyCode) property is more widely supported; however, the [**key**](/dom/KeyboardEvent/key) property is recommended for international keyboard layouts and improved accessibility.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

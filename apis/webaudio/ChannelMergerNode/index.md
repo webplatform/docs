@@ -10,23 +10,23 @@ tags:
 uri: apis/webaudio/ChannelMergerNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents an AudioNode for combining channels from multiple audio streams into a single audio stream. Often used in conjunction with ChannelSplitterNode.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

@@ -15,27 +15,27 @@ tags:
 uri: apis/css-regions/CSSRegionStyleRule
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents an @region rule in a CSS style sheet, which applies styles to fragments of content that flow into a CSS region.
 
 Inherits from [CSSRule](/css/cssom/CSSRule)[CSSRule](/css/cssom/CSSRule)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from CSSRule</span>
+## Inherited from CSSRule
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -49,15 +49,15 @@ API Name
 [type](/css/cssom/CSSRule/type)
 :
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 Starting with this CSS...
 
@@ -100,16 +100,16 @@ The **cssText** above now dynamically reflects these altered values:
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/2012/WD-css3-regions-20120823/)
 :   W3C Working Draft 23 August 2012
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -167,7 +167,7 @@ The **cssText** above now dynamically reflects these altered values:
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

@@ -11,11 +11,11 @@ tags:
 uri: 'html/data types'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Data types are a way of configuring how a HTML element ( “HTML tag” ) should look or behave on a HTML document or a view in a Web Application. Data types define existing attributes associated with a HTML element. The &quot;id&quot; and &quot;class&quot; attribute doesn't have predefined data types and is used by CSS stylesheets or for further enhancements through Javascript logic.
 
-## <span>Usage</span>
+## Usage
 
      In HTML, the Data Types that are supported are used attributes values within an HTML element. They are used to describe
 
@@ -29,8 +29,8 @@ Data types are a way of configuring how a HTML element ( “HTML tag” ) should
 <a href="http://docs.webplatform.org" target="_blank"  class="linkStyle" id="linkAnchorOrUniqueStyle" >HTML Element hyperlink</a>
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [HTML 4.01 Specification, attributes section](http://www.w3.org/TR/html4/types.html)

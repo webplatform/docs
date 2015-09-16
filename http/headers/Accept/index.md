@@ -10,11 +10,11 @@ tags:
 uri: http/headers/Accept
 
 ---
-## <span>Summary</span>
+## Summary
 
 Used by user agents to specify response media types that are acceptable.
 
-## <span>Overview table</span>
+## Overview table
 
 Direction
 :   Request
@@ -22,7 +22,7 @@ Direction
 Features
 :
 
-## <span>Syntax</span>
+## Syntax
 
     Accept = #( media-range [ accept-params ] )
     media-range    = ( "*/*"
@@ -32,7 +32,7 @@ Features
     accept-params  = weight *( accept-ext )
     accept-ext = OWS ";" OWS token [ "=" ( token / quoted-string ) ]
 
-## <span>Examples</span>
+## Examples
 
 Prefer HTML or text/x-c, or text/x-dvi if it's the best the server has after a 20% markdown in quality, or plain text after a 50% markdown in quality:
 
@@ -46,7 +46,7 @@ Prefer XHTML or HTML, or generic XML with a reduced preference, or else any cont
 Accept: text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTTP/1.1 Semantics and Content](http://tools.ietf.org/html/rfc7231#section-5.3.2)
 :

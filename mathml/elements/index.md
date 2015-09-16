@@ -35,7 +35,7 @@ todo_broken_links:
 uri: mathml/elements
 
 ---
-## <span>Summary</span>
+## Summary
 
 Index page for MathML elements.
 
@@ -103,19 +103,19 @@ API Name
 
     To display text *with* notational meaning, use [mi](/mathml/elements/mi) and [mo](/mathml/elements/mo) instead.
 
-## <span>The root element</span>
+## The root element
 
 -   [math](/mathml/elements/math)
 
-## <span>Presentation markup</span>
+## Presentation markup
 
 For the presentation of a mathematical formulas.
 
-### <span>Enlivening expressions</span>
+### Enlivening expressions
 
 -   [maction](/mathml/elements/maction)
 
-### <span>General Layout Schemata</span>
+### General Layout Schemata
 
 -   [menclose](/mathml/elements/menclose)
 -   [merror](/mathml/elements/merror)
@@ -129,7 +129,7 @@ For the presentation of a mathematical formulas.
 -   [msqrt](/mathml/elements/msqrt)
 -   [mstyle](/mathml/elements/mstyle)
 
-### <span>Token Elements</span>
+### Token Elements
 
 -   [mi](/mathml/elements/mi)
 -   [mn](/mathml/elements/mn)
@@ -138,7 +138,7 @@ For the presentation of a mathematical formulas.
 -   [mspace](/mathml/elements/mspace)
 -   [mtext](/mathml/elements/mtext)
 
-### <span>Tabular Math</span>
+### Tabular Math
 
 -   [maligngroup](/w/index.php?title=mathml/elements/maligngroup&action=edit&redlink=1)
 -   [malignmark](/w/index.php?title=mathml/elements/malignmark&action=edit&redlink=1)
@@ -147,7 +147,7 @@ For the presentation of a mathematical formulas.
 -   [mtd](/w/index.php?title=mathml/elements/mtd&action=edit&redlink=1)
 -   [mtr](/w/index.php?title=mathml/elements/mtr&action=edit&redlink=1)
 
-### <span>Script and Limit Schemata</span>
+### Script and Limit Schemata
 
 -   [mmultiscripts](/mathml/elements/mmultiscripts)
 -   [mover](/w/index.php?title=mathml/elements/mover&action=edit&redlink=1)
@@ -157,7 +157,7 @@ For the presentation of a mathematical formulas.
 -   [munder](/w/index.php?title=mathml/elements/munder&action=edit&redlink=1)
 -   [munderover](/w/index.php?title=mathml/elements/munderover&action=edit&redlink=1)
 
-### <span>Elementary Math</span>
+### Elementary Math
 
 -   [mlongdiv](/w/index.php?title=mathml/elements/mlongdiv&action=edit&redlink=1)
 -   [mscarries](/w/index.php?title=mathml/elements/mscarries&action=edit&redlink=1)
@@ -167,13 +167,13 @@ For the presentation of a mathematical formulas.
 -   [msrow](/w/index.php?title=mathml/elements/msrow&action=edit&redlink=1)
 -   [mstack](/w/index.php?title=mathml/elements/mstack&action=edit&redlink=1)
 
-## <span>Other elements</span>
+## Other elements
 
 -   [semantics](/w/index.php?title=mathml/elements/semantics&action=edit&redlink=1)
 -   [annotation](/w/index.php?title=mathml/elements/annotation&action=edit&redlink=1)
 -   [annotation-xml](/w/index.php?title=mathml/elements/annotation-xml&action=edit&redlink=1)
 
-## <span>See also</span>
+## See also
 
 -   [List of HTML Elements](/html/elements)
 -   [List of SVG Elements](/svg/elements)

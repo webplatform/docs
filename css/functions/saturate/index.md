@@ -13,7 +13,7 @@ tags:
 uri: css/functions/saturate
 
 ---
-## <span>Summary</span>
+## Summary
 
 Applies a saturation effect to an element's color, making it appear more or less vivid, for use by the filter property. A decimal value of 1 or percentage of 100% keeps the image as is, while increasing the amount produces more dramatically stratified hues.
 
@@ -24,7 +24,7 @@ Applies a saturation effect to an element's color, making it appear more or less
 
   ![f09-tiffany.jpg](/assets/thumb/2/2d/f09-tiffany.jpg/300px-f09-tiffany.jpg)![f10-tiffanysaturate.jpg](/assets/thumb/b/be/f10-tiffanysaturate.jpg/300px-f10-tiffanysaturate.jpg)
 
-## <span>Examples</span>
+## Examples
 
 The following example shows the difference between two images, where one has a saturation of 1000%:
 
@@ -54,7 +54,7 @@ The following example shows the difference between two images, where one has a s
 
 [View live example](http://codepen.io/pverbeek/pen/xCfbu)
 
-## <span>Notes</span>
+## Notes
 
 The CSS filter corresponds to this SVG filter definition, based on a variable *amount* passed to the function:
 
@@ -64,7 +64,7 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 </filter>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#)
 :   Editor's Draft
@@ -72,11 +72,11 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 
@@ -160,7 +160,7 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### <span>External resources</span>
+### External resources
 
 -   [Adobe CSS FilterLab](http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/)
 -   [Interactive demonstration](http://html5-demos.appspot.com/static/css/filters/index.html)

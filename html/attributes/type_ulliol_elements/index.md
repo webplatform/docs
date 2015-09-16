@@ -28,7 +28,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the **TYPE** attribute to set the line item markers to lowercase Roman numerals.
 
@@ -42,16 +42,16 @@ This example uses the **TYPE** attribute to set the line item markers to lowerca
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/type.htm)
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 10.2 (Deprecated)
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `li`
 -   `ol`

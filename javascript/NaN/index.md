@@ -10,17 +10,17 @@ tags:
 uri: javascript/NaN
 
 ---
-## <span>Summary</span>
+## Summary
 
 A special constant that specifies a value that is Not-A-Number
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     NaN
 
-## <span>Examples</span>
+## Examples
 
 **NaN** mainly occurs when parsing goes wrong
 
@@ -37,13 +37,13 @@ NaN === NaN; // false
 isNaN(NaN); //true
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **NaN** constant is a member of the **Global** object, and is made available when the scripting engine is initialized.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [isNaN Function](/javascript/isNaN)
 -   [Number](/javascript/Number)

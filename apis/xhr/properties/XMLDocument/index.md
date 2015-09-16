@@ -22,14 +22,14 @@ uri: apis/xhr/properties/XMLDocument
 
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.XMLDocument;
 element.XMLDocument = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **XMLDocument** property to access the object model of an **xml** data island.
 
@@ -54,15 +54,15 @@ function fnCheck(){
 <INPUT TYPE=button VALUE="Test" onclick="fnCheck()">
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **XMLDocument** is the default property; specifying the property is optional. The **XMLDocument** property is useful when an entire XML document is passed to a method that requires an **html** element, instead of an **xml** element. The **XMLDocument** property provides access to the root of the XML tree in the data island. For a complete description of the XML DOM exposed by the **XMLDocument** property, see the XML DOM overview.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `xml`
 -   `Reference`

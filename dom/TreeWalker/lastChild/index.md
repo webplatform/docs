@@ -23,25 +23,25 @@ tags:
 uri: dom/TreeWalker/lastChild
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves a reference to the last child of the current node of the filtered TreeWalker hierarchy and updates currentNode.
 
 Method of [dom/TreeWalker](/dom/TreeWalker)[dom/TreeWalker](/dom/TreeWalker)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var node = treewalker.lastChild();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 Object that receives the last child node in the filtered TreeWalker hierarchy.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var treewalker = document.createTreeWalker(
@@ -53,19 +53,19 @@ var treewalker = document.createTreeWalker(
 var node = treewalker.lastChild(); // returns the last visible child of the root element
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **lastChild** sets the [**currentNode**](/dom/TreeWalker/currentNode) to the returned node.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 1.2
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-treewalker-lastchild)
 :   Living Standard

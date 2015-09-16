@@ -21,7 +21,7 @@ tags:
 uri: 'apis/web animations/AnimationNode/before'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Inserts nodes before this animation node.
 
@@ -32,24 +32,24 @@ If there is no parent animation group, terminate these steps. If any of the anim
 
 Method of [apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)[apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = .before(AnimationNode...nodes);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>AnimationNode...nodes</span>
+### AnimationNode...nodes
 
  Data-type
 :   Object
 
  Takes a series of AnimationNodes as an object.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 

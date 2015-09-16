@@ -14,16 +14,16 @@ tags:
 uri: mathml/elements/msqrt
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML msqrt element is used to display square roots (no index is displayed). The square root accepts only one argument, which leads to the following syntax: &lt;msqrt&gt; base &lt;/msqrt&gt;.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates a simple usage of the msqrt element:
 
@@ -41,7 +41,7 @@ This example demonstrates a simple usage of the msqrt element:
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mroot)
 :   W3C Recommendation

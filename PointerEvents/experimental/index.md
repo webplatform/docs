@@ -3,7 +3,7 @@ title: experimental
 uri: PointerEvents/experimental
 
 ---
-## <span>Experimental</span>
+## Experimental
 
 Try out Pointer Event experimental and prototype code on different browser platforms. Note: not all code works with all test/demo features.
 

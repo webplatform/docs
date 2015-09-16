@@ -24,13 +24,13 @@ tags:
 uri: dom/MutationEvent/attrChange
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets a value that indicates what type of change occurred.
 
 Property of [dom/MutationEvent](/dom/MutationEvent)[dom/MutationEvent](/dom/MutationEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [dom/MutationEvent](/dom/MutationEvent)[dom/MutationEvent](/dom/Muta
 var changeType = event.attrChange;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -48,16 +48,16 @@ One of the following numbers -
 -   **2** - an addition occurred.
 -   **3** - a removal occurred.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Events](http://www.w3.org/TR/DOM-Level-2-Events/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Deprecated</span>
+#### Deprecated
 
 -   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 

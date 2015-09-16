@@ -24,13 +24,13 @@ tags:
 uri: 'apis/battery status/NavigatorBattery/battery'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The object that exposes the battery status information.
 
 Property of [apis/battery\_status/NavigatorBattery](/apis/battery_status/NavigatorBattery)[apis/battery\_status/NavigatorBattery](/apis/battery_status/NavigatorBattery)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [apis/battery\_status/NavigatorBattery](/apis/battery_status/Navigat
 var result = navigator.battery;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BatteryManagerBatteryManager
 

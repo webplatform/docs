@@ -19,11 +19,11 @@ tags:
 uri: css/properties/pointer-events
 
 ---
-## <span>Summary</span>
+## Summary
 
 The pointer-events property allows you to control whether an element can be the target for the pointing device (e.g, mouse, pen) events.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -46,7 +46,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `pointerEvents`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `pointer-events: all`
 -   `pointer-events: auto`
@@ -59,7 +59,7 @@ Animatable
 -   `pointer-events: visiblePainted`
 -   `pointer-events: visibleStroke`
 
-## <span>Values</span>
+## Values
 
 auto
 :   In HTML/XML content, this value and the value all have the same effect. In SVG content, this value and the value visiblePainted have the same effect.
@@ -91,7 +91,7 @@ fill
 stroke
 :   For SVG only. The element can only be the target of a pointer event when the pointer is over the perimeter (i.e., stroke) of the element.
 
-## <span>Examples</span>
+## Examples
 
 The first a element have the pointer-events property set to none, any pointer events (i.e., mouse over, click) do not happen.
 
@@ -129,11 +129,11 @@ SVG demo of two intersecting circles
 
 [View live example](http://jsbin.com/uvumuj/3)
 
-## <span>Notes</span>
+## Notes
 
 The pointer-events property used to be in the CSS 3 UI specification, but it has been postponed to CSS 4 due to many open issues.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Scalable Vector Graphics (SVG) 1.1 (Second Edition)](http://www.w3.org/TR/SVG11/interact.html#PointerEventsProperty)
 :   W3C Recommendation

@@ -18,11 +18,11 @@ tags:
 uri: css/properties/background-clip
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies how an element’s background is clipped.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `border-box`
@@ -48,13 +48,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `background-clip: border-box`
 -   `background-clip: content-box`
 -   `background-clip: padding-box`
 
-## <span>Values</span>
+## Values
 
 border-box
 :   Default. The background extends underneath the element’s borders, which can be seen with semi-transparent or dotted or dashed border-styles.
@@ -65,7 +65,7 @@ padding-box
 content-box
 :   The background is clipped the element’s content box, so the paddings and borders have no background. This is mainly useful with multiple backgrounds with different background-clip values.
 
-## <span>Examples</span>
+## Examples
 
 The background will not extend underneath the semi-transparent black border, so the element’s borders will allow whatever is underneath the element to show through.
 
@@ -78,16 +78,16 @@ div
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Backgrounds and Borders Module Level 3](http://www.w3.org/TR/css3-background/#the-background-clip)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Background</span>
+#### Background
 
 -   [background](/css/cssom/properties/background)
 

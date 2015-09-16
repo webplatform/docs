@@ -11,13 +11,13 @@ uri: 'tutorials/audio/intro web audio api 1'
 **By [Dave Gash](http://docs.webplatform.org/wiki/User:Dgash)**
 Originally published October 19, 2012
 
-## <span>Summary</span>
+## Summary
 
 An introduction to the web audio API: loading and playing an external sound file.
 
 **This article is part of a three articles series; see [tutorials/audio/intro\_web\_audio\_api\_2](/tutorials/audio/intro_web_audio_api_2).**
 
-## <span>Introduction</span>
+## Introduction
 
 Web-based audio is becoming more robust all the time, and necessarily so. As the web evolves in stylistic and presentational features, web applications also require a higher degree of sophistication in audio manipulation. Gone are the days of `<embed>`, `<object>`, and `<bgsound>`, when the best you could hope for was static playback of a fixed music track.
 
@@ -29,7 +29,7 @@ The web audio API is high-level JavaScript interface that is about much more tha
 
 In this tutorial, we'll explore the basics of the API and learn how to load, start, and stop a sound before moving on to more complex tasks.
 
-## <span>Prerequisite concepts</span>
+## Prerequisite concepts
 
 To effectively use the web audio API, certain things must happen in a certain order; it's that sequence of events we'll explore next. But first, we need to understand a couple of concepts, called *context* and *nodes*, and how they relate to each other.
 
@@ -47,9 +47,9 @@ The simplest connection case, then, consists of a web app with a context that co
 
 *A context with one source and one destination* ![wap1b-basic-trans.gif](/assets/public/6/6e/wap1b-basic-trans.gif)
 
-## <span>Producing a sound</span>
+## Producing a sound
 
-### <span>Step 1: Create a context</span>
+### Step 1: Create a context
 
 As stated above, each web page/app needs only one context within which to process audio. The context is declared with a JavaScript statement.
 
@@ -75,7 +75,7 @@ function initcontext() {
 
  Having created the audio context for the page, we're ready to move on.
 
-### <span>Step 2: Define a buffer</span>
+### Step 2: Define a buffer
 
 External sounds (i.e., audio files) must be loaded into the app in preparation for playing. The storage location used for the audio is an [AudioBuffer](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#AudioBuffer-section). For simplicity and ease of access, we'll again declare the buffer as a global variable with an initial value of `null`.
 
@@ -87,7 +87,7 @@ var myAudioBuffer = null;
 
 **Note:** Bear in mind that you don't *have* to use a buffer as a source node. In this example, we use one because we're loading the audio from an external sound file. You can also use other input sources such as oscillators, JavaScript nodes, and [live input](http://updates.html5rocks.com/2012/09/Live-Web-Audio-Input-Enabled) to acquire an audio stream to be processed and played.
 
-### <span>Step 3: Load a sound</span>
+### Step 3: Load a sound
 
 The load process is typically accomplished with an [XMLHttpRequest](https://developer.mozilla.org/En/XMLHttpRequest/Using_XMLHttpRequest) (often just called an XHR). The XHR can be called programmatically based on page load status, timing, or user interaction such as a button click (as we'll do later).
 
@@ -113,7 +113,7 @@ function loadSound(url) {
 
 But, loading the file only gets us halfway there; next, it must be *decoded*.
 
-### <span>Step 4: Decode the audio</span>
+### Step 4: Decode the audio
 
 In the second part of the function (below the comment line), the audio data is decoded so that it can be used in the page. This is accomplished by passing an anonymous function (`function()`) to the XHR's `onload` method.
 
@@ -121,7 +121,7 @@ This anonymous function uses the context's `decodeAudioData` method to decode th
 
 Finally, the XHR's `send()` method is used to send the task to the server for execution and thus wrap up the function. Our audio file is now loaded and decoded, and the decoded data is stored in an audio buffer, ready for use.
 
-### <span>Step 5: Play the audio</span>
+### Step 5: Play the audio
 
 At last we're ready to play the sound. This is achieved through the "connect the nodes" process described and diagrammed earlier. We can define a single function to play our new sound, or any other, as long as we pass it a buffer containing the decoded audio (or other valid source node). Let's assume we'll execute the `playSound()` function on a button click.
 
@@ -142,7 +142,7 @@ We don't have to explicitly create the context's `destination` node—it's prese
 
 Finally, we can play the sound (hooray!) using the source node's `start()` method, which plays the audio data from beginning to end unless stopped programmatically. And how, you might ask, would that be done? With the source node's complementary `stop()` method, of course.
 
-### <span>Step 6: Stop the audio</span>
+### Step 6: Stop the audio
 
 ``` js
 function stopSound() {
@@ -155,7 +155,7 @@ function stopSound() {
 
 > ***Note:** The `noteOn(0)` and `noteOff(0)` method names are slated to change to `start()` and `stop()`, as noted in the examples' comments, but as of this writing (October 2012) this change has not been fully implemented. See the web audio specification's [deprecation section](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#deprecation-section) for more information, and always test applications to ensure that they use the currently supported syntax.*
 
-## <span>The completed example</span>
+## The completed example
 
 Having examined the required steps in bits and pieces, let's now take a look at a complete, working page that loads, decodes, and plays a sound. In this example, we assume that the file "mysound.mp3" exists in the same location as the page, and that the page and the sound reside on a server (either local or remote) so that the XHR will work.
 
@@ -237,11 +237,11 @@ function stopSound() {
 7.  Click the **Play** button. The sound plays.
 8.  Optional: During playback (assuming the sound plays long enough), click the **Stop** button. The sound stops.
 
-## <span>Not the end</span>
+## Not the end
 
 This concludes part 1 of the tutorial. [Part 2 continues with inserting processor nodes between the source and destination to modify the audio before it is played](http://docs.webplatform.org/wiki/tutorials/intro_web_audio_api_2).
 
-## <span>References</span>
+## References
 
 -   Chris Wilson's [Google I/O 2012 session video](https://developers.google.com/events/io/sessions/gooio2012/221/)
 -   The W3C's [web audio specification](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)

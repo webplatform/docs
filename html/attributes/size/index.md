@@ -13,7 +13,7 @@ tags:
 uri: html/attributes/size
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article outlines the HTML attribute &quot;size&quot;, which allows the user to specify a width in characters of an &lt;input&gt; element.
 
@@ -35,7 +35,7 @@ Note: The size attribute works with the following input types: text, search, tel
 
 Tip: To specify the maximum number of characters allowed in the \<input\> element, use the maxlength attribute.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <form action="demo_form.asp">
@@ -45,18 +45,18 @@ Tip: To specify the maximum number of characters allowed in the \<input\> elemen
 </form>
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 15.2.2 (Deprecated)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -90,7 +90,7 @@ Tip: To specify the maximum number of characters allowed in the \<input\> elemen
 
 -   [font](/html/elements/font)
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -230,7 +230,7 @@ Tip: To specify the maximum number of characters allowed in the \<input\> elemen
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -310,7 +310,7 @@ Tip: To specify the maximum number of characters allowed in the \<input\> elemen
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `baseFont`
 -   `font`

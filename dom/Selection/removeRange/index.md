@@ -23,28 +23,28 @@ tags:
 uri: dom/Selection/removeRange
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes a range from a selection.
 
 Method of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = selObj.removeRange(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>range</span>
+### range
 
  Data-type
 :   Range
 
  Range to remove.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -52,7 +52,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 /* In gecko Programmaticaly, more than one range can be selected.
@@ -65,14 +65,14 @@ if(selObj.rangeCount > 1) {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 9-11 does not currently support multiple or disjointed selections in standards mode.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1

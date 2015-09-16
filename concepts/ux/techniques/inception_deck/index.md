@@ -11,11 +11,11 @@ tags:
 uri: 'concepts/ux/techniques/inception deck'
 
 ---
-## <span>Summary</span>
+## Summary
 
 A User eXperience (UX) design technique
 
-### <span>What it is</span>
+### What it is
 
 Session that covers the following topics:
 
@@ -30,23 +30,23 @@ Session that covers the following topics:
 -   What's going to give.
 -   What's it going to take.
 
-### <span>Who does it</span>
+### Who does it
 
 The whole project team.
 
-### <span>Key benefits</span>
+### Key benefits
 
 -   Eliminate confusion and misunderstanding
 -   Set expectation
 -   Highlight challenges
 -   Get alignment
 
-## <span>Usage</span>
+## Usage
 
      At Scoping
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [User eXperience (UX) Design Techniques](/concepts/ux/techniques)

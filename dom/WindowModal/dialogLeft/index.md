@@ -22,26 +22,26 @@ tags:
 uri: dom/WindowModal/dialogLeft
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets the X coordinate position of a dialog window.
 
 Property of [dom/WindowModal](/dom/WindowModal)[dom/WindowModal](/dom/WindowModal)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var xCoordinate = window.dialogLeft;
 window.dialogLeft = newYCoordinate;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The X coordinate position and a unit of measure.
 
-## <span>Examples</span>
+## Examples
 
 This example creates a dialog window that uses the **dialogLeft** property to set the position relative to the left side of the screen.
 
@@ -69,7 +69,7 @@ function someMessage(e) {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/dialogLeft.htm)
 
-## <span>Notes</span>
+## Notes
 
 -   This property applies only to windows that are created by using the [**showModalDialog**](/dom/Window/showModalDialog) method.
 -   When a script calls the **showModalDialog** method, it suspends execution until the modal dialog box is closed. As a result, the script cannot use the **dialogLeft** property to change the appearance of the modal dialog box. To control the appearance of the modal dialog box, use script in the file loaded by the **sURL** parameter or use the value of the **sFeatures** parameter to specify the desired settings.

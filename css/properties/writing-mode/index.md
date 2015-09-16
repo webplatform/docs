@@ -23,11 +23,11 @@ tags:
 uri: css/properties/writing-mode
 
 ---
-## <span>Summary</span>
+## Summary
 
 writing-mode specifies if lines of text are laid out horizontally or vertically, and the direction which lines of text and blocks progress.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `horizontal-tb`
@@ -53,13 +53,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `writing-mode: horizontal-tb`
 -   `writing-mode: vertical-lr`
 -   `writing-mode: vertical-rl`
 
-## <span>Values</span>
+## Values
 
 horizontal-tb
 :   Lines of text are laid out horizontally, and progress from the top to the bottom of the page. This is the writing mode used in many writing systems, such as Latin, Greek, Cyrillic, Arabic, Hebrew, etc.
@@ -70,7 +70,7 @@ vertical-rl
 vertical-lr
 :   Lines of text are laid out vertically, and progress from the left to the right of the page. Mongolian-based writing systems typically use this writing mode.
 
-## <span>Examples</span>
+## Examples
 
 Sets the writing mode to vertical and to progress from right to left. Sometimes used by East Asian, especially Japanese and Chinese. This example is Japanese use case.
 
@@ -171,18 +171,18 @@ Complete example, including HTML.
 
 [View live example](http://code.webplatform.org/gist/5860978)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Writing Modes Module Level 3](http://www.w3.org/TR/css3-writing-modes/#writing-mode)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [direction](/css/properties/direction)
 -   [unicode-bidi](/css/properties/unicode-bidi)
 
-### <span>External resources</span>
+### External resources
 
 -   [Vertical text with CSS 3 Writing Modes](http://generatedcontent.org/post/45384206019/writing-modes)

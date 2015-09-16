@@ -24,35 +24,35 @@ tags:
 uri: dom/Element/getAttributeNodeNS
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets an attribute node that matches the specified namespace and name.
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var attributeNode = element.getAttributeNodeNS(namespace, name);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>namespace</span>
+### namespace
 
  Data-type
 :   String
 
  The namespace URI that defines the desired attribute, or a null value.
 
-### <span>name</span>
+### name
 
  Data-type
 :   Blob
 
  The name of the desired attribute, or a null value.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -60,7 +60,7 @@ An attribute node that matches the specified namespace and attribute name, or a 
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

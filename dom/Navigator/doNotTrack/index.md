@@ -25,13 +25,13 @@ tags:
 uri: dom/Navigator/doNotTrack
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the user's do-not-track setting. This is &quot;yes&quot; if the user has requested not to be tracked by web sites, content, or advertising.
 
 Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,19 +39,19 @@ Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 var result = navigator.doNotTrack;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 Note that navigator.doNotTrack is not the value sent for the do-not-track header. When the do-not-track header sends "1", navigator.doNotTrack is "yes". When the header is unset, navigator.doNotTrack is "unspecified". When the header sends "0" (currently unsupported in Firefox), navigator.doNotTrack is "no".
 
-## <span>Usage</span>
+## Usage
 
      Could be used to determine if the client web browser may be blocking some page content.
 
 In MSIE browsers when ActiveX content or other content is blocked an Icon is displayed in the Address bar which the user can click to disable Tracking Protection and/or ActiveX filtering for the current site.
 
-## <span>Notes</span>
+## Notes
 
 IE9 uses a vendor prefix, eg. navigator.msDoNotTrack
 
@@ -59,12 +59,12 @@ IE9, Opera 12, Safari 5.1, and Chrome 31 are based on an earlier version of this
 
 IE10 and higher do not use the doNotTrack header which is user configured from the Advanced tab of Internet Options. There is no navigator.doNotTrack or navigator.msdoNotTrack property in those MSIE versions.
 
-### <span>Standards information</span>
+### Standards information
 
 The current [Tracking Preference Expression](http://www.w3.org/TR/tracking-dnt/) (Working Draft) is based on an earlier version of this specification where navigator.doNotTrack is the value sent for the do-not-track header.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Internet Explorer Blog: Introducing Tracking Protection`

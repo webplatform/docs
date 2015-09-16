@@ -11,17 +11,17 @@ tags:
 uri: 'svg/properties/type (SVGFEColorMatrixElement)'
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The following are constants associated with [**SVGFEColorMatrixElement**](/svg/elements/feColorMatrix). {
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFEColorMatrixElement**](/svg/elements/feColorMatrix)
 -   [**values**](/svg/properties/values)

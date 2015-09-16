@@ -22,23 +22,23 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/scrollPathIntoView
 
 ---
-## <span>Summary</span>
+## Summary
 
 Scrolls the current path into view. See Notes.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.scrollPathIntoView();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
@@ -52,11 +52,11 @@ ctxt.scrollPathIntoView();
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 *scrollPathIntoView()* is primarily intended for use in mobile applications, on devices with small screens. Using this method, developers can scroll into view the part of the canvas that is offscreen.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

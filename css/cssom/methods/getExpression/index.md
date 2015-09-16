@@ -28,28 +28,28 @@ uri: css/cssom/methods/getExpression
 
 Method of [css/cssom/methods](/css/cssom/methods)[css/cssom/methods](/css/cssom/methods)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.getExpression(PropertyName);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>PropertyName</span>
+### PropertyName
 
  Data-type
 :   String
 
 **String** that specifies the name of the property from which to retrieve the expression.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 A variant value representing the expression of the property.
 
-## <span>Examples</span>
+## Examples
 
 The following examples demonstrate how to use the **getExpression** method to retrieve CSS properties. This example retrieves the [**width**](/css/properties/width) property of a **span** object.
 
@@ -105,9 +105,9 @@ alert("Expression for the width of the blue box is \n\n" + s +
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/getExpression.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The following syntax sections show how to retrieve an expression from supported Cascading Style Sheets (CSS) and DHTML Properties.
 
@@ -119,9 +119,9 @@ The following syntax sections show how to retrieve an expression from supported 
 
 `var sExpression = object.style.getExpression(sPropertyName)`
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `IHTMLStyle2`
 -   `IHTMLElement2`

@@ -13,11 +13,11 @@ tags:
 uri: javascript/RegExp/test
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a Boolean value that indicates whether or not a pattern exists in a searched string.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Returns a Boolean value that indicates whether or not a pattern exists in a sear
 **str**
 :   Required. The string on which to perform the search.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **test** method. To use this example, pass the function a regular expression pattern and a string. The function will test for the occurrence of the regular expression pattern in the string and return a string indicating the results of that search:
 
@@ -53,15 +53,15 @@ function TestDemo(re, teststring)
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **test** method checks to see if a pattern exists within a string and returns **true** if so, and **false** otherwise.
 
 The properties of the global **RegExp** object are not modified by the **test** method.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [RegExp Object](/javascript/RegExp)
 -   [Regular Expression Object](/javascript/regular_expression)

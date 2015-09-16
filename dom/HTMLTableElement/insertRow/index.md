@@ -26,22 +26,22 @@ uri: dom/HTMLTableElement/insertRow
 
 Method of [dom/HTMLTableElement](/dom/HTMLTableElement)[dom/HTMLTableElement](/dom/HTMLTableElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.insertRow(index);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>index</span>
+### index
 
  Data-type
 :   any
 
 **Integer** that specifies where to insert the row in the **rows** collection. The default value is **-1**, which appends the new row to the end of the **rows** collection.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -51,7 +51,7 @@ Object
 
 null
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **insertRow** method to add a row to the [**table**](/html/elements/table).
 
@@ -59,20 +59,20 @@ This example uses the **insertRow** method to add a row to the [**table**](/html
 myNewRow = document.all.myTable.insertRow()
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The preferred technique for inserting a row is to add the row at the end of the **rows** collection. It is faster to add a row at the end of a table than somewhere in the middle. To add a row at the end of the collection, specify the `-1` value, or the length of the **rows** collection minus `1`.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `table`

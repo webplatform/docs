@@ -9,11 +9,11 @@ tags:
 uri: xslt
 
 ---
-## <span>Summary</span>
+## Summary
 
 XSL Transformations (XSLT) is a markup language for transforming XML into other forms of output, such as XML documents, HTML and many other text-based formats. The World Wide Web Consortium maintains the XSLT standard.
 
-## <span>Background</span>
+## Background
 
 XSLT is the keystone in a trio of languages developed to transform and format XML. Collectively, those languages are known as XSL, or Extensible Stylesheet Language. Each member of the XSL family has a specific role:
 
@@ -23,7 +23,7 @@ XSLT is the keystone in a trio of languages developed to transform and format XM
 
 [XSLT 1.0](http://www.w3.org/TR/1999/REC-xslt-19991116) became an official recommendation in 1999. [XSLT 2.0](http://www.w3.org/TR/2007/REC-xslt20-20070123/) became an official recommendation in 2007. The latest [XSLT 3.0 Working Draft](http://www.w3.org/TR/2012/WD-xslt-30-20120710/) was released 10 July 2012.
 
-## <span>XSLT as a Standards-Based Templating Language</span>
+## XSLT as a Standards-Based Templating Language
 
 Though the usage of XSLT as a web templating language is not commonplace, there are a lot of factors that make it ideal for this purpose.
 

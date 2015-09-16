@@ -75,39 +75,39 @@ translations:
 uri: css
 
 ---
-## <span>Summary</span>
+## Summary
 
 Cascading style sheets (CSS) is the presentation language for web content. The [World Wide Web Consortium](http://www.w3.org) maintains the [CSS standard](http://www.w3.org/standards/techs/css).
 
-## <span>Explore our CSS docs</span>
+## Explore our CSS docs
 
-### <span>[CSS learning material](/css/tutorials)</span>
+### [CSS learning material](/css/tutorials)
 
 Tutorials and concept articles to teach you CSS from the ground up.
 
-### <span>[CSS selectors](/css/selectors)</span>
+### [CSS selectors](/css/selectors)
 
 A reference guide to all the CSS selectors available.
 
-### <span>[CSS properties](/css/properties)</span>
+### [CSS properties](/css/properties)
 
 A reference guide to all the available CSS properties.
 
-### <span>[CSS functions](/css/functions)</span>
+### [CSS functions](/css/functions)
 
 A reference guide to all the CSS functions.
 
-### <span>[At-rules](/css/atrules)</span>
+### [At-rules](/css/atrules)
 
 A reference guide to the different CSS @rules (at-rules) available.
 
-### <span>[Media queries](/css/mediaqueries)</span>
+### [Media queries](/css/mediaqueries)
 
 A reference guide to the different types of available media query.
 
  Note: If you are completely new to web development, you may want to review [Web development for beginners](/beginners).
 
-## <span>Background</span>
+## Background
 
 Cascading Style Sheets (CSS) is a language that applies presentation (styling, layout, animation) to markup content (such as HTML, XHTML, SVG or XML). It is one of the main components of the [Open Web Platform](http://www.w3.org/wiki/Open_Web_Platform).
 
@@ -117,19 +117,19 @@ CSS allows you to style your content through a set of [selectors](/css/selectors
 -   Current stable version: The [CSS 2 recommendation](http://www.w3.org/TR/CSS21/) was first published in 1998, but was not completely finished until 2011, despite being effectively stable for a number of years before that. Several modules from CSS3 are also stable as of the time of writing (December 2012). See "Current and future work".
 -   Current and future work: The CSS Working group is working on a number of "modules", which describe different parts of the technology set known as CSS3. Some of these modules are stable, whereas some are in an experimental state and don't have much support across browsers. There is also work being done on various CSS4 modules, although it will be a while until these are ready for production work. See the [CSS working group current work page](http://www.w3.org/Style/CSS/current-work) for more information on what modules/specifications are at what stage of completion.
 
-## <span>Contributing to the CSS technology</span>
+## Contributing to the CSS technology
 
 CSS development is handled by the CSS working group. To find out more, including how to participate, go to the [CSS working group home page](http://www.w3.org/Style/CSS/). For providing feedback and asking questions related to contributing to specs, a good place is the [www-style mailing list](http://lists.w3.org/Archives/Public/www-style/). Bear in mind that it is not a suitable place for "how do I use CSS to style my web page" type questions. A list of all CSS properties can be found here [CSS3 properties Reference](http://www.tutorialspark.com/css3Reference/CSS3_Properties_Reference.php)
 
-## <span>Contributing to the CSS reference pages</span>
+## Contributing to the CSS reference pages
 
 As CSS continues to evolve, we'll continue to improve the docs. Currently, we're working on CSS properties. To join that project, see [WPD:CSS\_property\_guide](/WPD:CSS_property_guide).
 
-## <span>Index of all CSS topics</span>
+## Index of all CSS topics
 
 The list of CSS properties, below, only includes W3C Recommended values or candidate/proposed recommendations. Use the [Special:PrefixIndex/css/](/Special:PrefixIndex/css/) search page to find all articles organized under this page, or the [CSS category page](/Category:CSS) for all CSS-related pages in the wiki.
 
-### <span>CSS Sub-Topics</span>
+### CSS Sub-Topics
 
 -   [CSS](/css/es)
 -   [CSS Selectors](/css/selectors)
@@ -154,7 +154,7 @@ The list of CSS properties, below, only includes W3C Recommended values or candi
 -   [properties](/css/properties)
 -   [touch](/css/touch)
 
-### <span>List of all Standard CSS Properties</span>
+### List of all Standard CSS Properties
 
 -   [align-content](/css/properties/align-content)
 -   [align-items](/css/properties/align-items)

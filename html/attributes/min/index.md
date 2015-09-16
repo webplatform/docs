@@ -18,7 +18,7 @@ todo_broken_links:
 uri: html/attributes/min
 
 ---
-## <span>Summary</span>
+## Summary
 
 The min attribute specifies the minimum value for an &lt;input&gt; element.
 
@@ -42,11 +42,11 @@ For number and range the value of the attribute must be a number: decimal or int
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -186,6 +186,6 @@ For number and range the value of the attribute must be a number: decimal or int
 
 -   [time](/html/elements/time)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [html/attributes/max\_(HTMLInputElement)](/html/attributes/max_(HTMLInputElement))

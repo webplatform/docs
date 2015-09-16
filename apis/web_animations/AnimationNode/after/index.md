@@ -21,7 +21,7 @@ tags:
 uri: 'apis/web animations/AnimationNode/after'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Inserts nodes after this animation node.
 
@@ -29,24 +29,24 @@ If there is no parent animation group, terminate these steps. If any of the anim
 
 Method of [apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)[apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = .after(AnimationNode...nodes);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>AnimationNode...nodes</span>
+### AnimationNode...nodes
 
  Data-type
 :   Object
 
  Takes a series of AnimationNodes as a parameter
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 

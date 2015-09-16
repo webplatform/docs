@@ -24,13 +24,13 @@ tags:
 uri: dom/HTMLInputElement/defaultChecked
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets whether the checked HTML attribute is present on the element.
 
 Property of [dom/HTMLInputElement](/dom/HTMLInputElement)[dom/HTMLInputElement](/dom/HTMLInputElement)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [dom/HTMLInputElement](/dom/HTMLInputElement)[dom/HTMLInputElement](
 var initiallyChecked = checkboxElement.defaultChecked;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -46,18 +46,18 @@ Whether the **checked** HTML attribute is present on the element.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 -   This property reflects the value of the **checked** HTML attribute.
 -   This property can be changed programmatically, however, doing so has no effect on the appearance of the check box or radio button or on how forms are submitted - if the [**checked**](/dom/HTMLInputElement/checked) property has been changed by a user or by a script.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `checked`

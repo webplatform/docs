@@ -14,23 +14,23 @@ tags:
 uri: dom/ClipboardData
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the information from the clipboard as part of clipboard operation events.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 This example uses the [**setData**](/dom/DataTransfer/setData) and [**getData**](/dom/DataTransfer/getData) methods with the **clipboardData** object to perform a cut-and-paste operation through the shortcut menu.
 
@@ -107,11 +107,11 @@ function fnPaste(event) {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipboardDataEX.htm)
 
-## <span>Notes</span>
+## Notes
 
 The **clipboardData** object is reserved for copy/cut/paste operations. It transfers information using the system clipboard, and retains it until data from the next editing operation replaces it. This form of data transfer is particularly suited to multiple pastes of the same data.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Clipboard API and Events](http://www.w3.org/TR/clipboard-apis/)
 :   W3C Working Draft

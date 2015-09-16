@@ -22,7 +22,7 @@ tags:
 uri: apis/webaudio/OscillatorNode/playbackState
 
 ---
-## <span>Summary</span>
+## Summary
 
 The playback state, initialized to UNSCHEDULED\_STATE, progressing through SCHEDULED\_STATE, PLAYING\_STATE, and FINISHED\_STATE.
 
@@ -30,7 +30,7 @@ The playback state, initialized to UNSCHEDULED\_STATE, progressing through SCHED
 
 Property of [apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)[apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)[apis/w
 var result = OscillatorNode.playbackState;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned shortunsigned short
 
@@ -46,7 +46,7 @@ Returns one of the following constant values: UNSCHEDULED\_STATE (0), SCHEDULED\
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

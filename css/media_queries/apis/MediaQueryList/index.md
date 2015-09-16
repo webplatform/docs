@@ -33,46 +33,46 @@ uri: 'css/media queries/apis/MediaQueryList'
 
 Method of [css/media\_queries](/css/media_queries)[css/media\_queries](/css/media_queries)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.MediaQueryList();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The following example displays a message as when the windows size is less or greater than 250 pixels.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793), Section 4.1
 
-### <span>Members</span>
+### Members
 
 The **MediaQueryList** object has these types of members:
 
 -   [\#methods Methods]
 -   [\#properties Properties]
 
-#### <span>Methods</span>
+#### Methods
 
 The **MediaQueryList** object has these methods. {
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Media Queries</span>
+#### Media Queries
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 

@@ -14,17 +14,17 @@ uri: 'tutorials/filesystem sync'
 **By [Eric Bidelman](http://www.html5rocks.com/profiles/#ericbidelman)**
 Originally published Oct. 25, 2011, updated May. 14, 2012
 
-## <span>Summary</span>
+## Summary
 
 The HTML5 FileSystem API offers an synchronous version to be used in the context of Web Workers. The tutorial introduces the Synchronous API, and gives practical examples of using it.
 
-## <span>Introduction</span>
+## Introduction
 
 The [HTML5 FileSystem API](http://dev.w3.org/2009/dap/file-system/file-dir-sys.html) and [Web Workers](http://www.whatwg.org/specs/web-apps/current-work/multipage/workers.html) are massively powerful in their own regard. The FileSystem API finally brings hierarchical storage and file I/O to web applications and Workers bring true asynchronous 'multi-threading' to JavaScript. However, when you use these APIs together, you can build some truly interesting apps.
 
 This tutorial provides a guide and code examples for leveraging the HTML5 FileSystem inside of a Web Worker. It assumes a working knowledge of both APIs. If you're not quite ready to dive in or are interested in learning more about those APIs, read two great tutorials that discuss the basics: [Exploring the FileSystem APIs](/tutorials/file_filesystem) and [The Basics of Web Workers](/tutorials/workers_basics).
 
-## <span>Synchronous vs. Asynchronous APIs</span>
+## Synchronous vs. Asynchronous APIs
 
 Asynchronous JavaScript APIs can be tough to use. They're large. They're complex. But what's most frustrating is that they offer plenty of opportunities for things to go wrong. The last thing you want to deal with is layering on a complex asynchronous API (FileSystem) in an already asynchronous world (Workers)! The good news is that the [FileSystem API](http://dev.w3.org/2009/dap/file-system/file-dir-sys.html) defines a synchronous version to ease the pain in Web Workers.
 
@@ -36,7 +36,7 @@ For the most part, the synchronous API is exactly the same as its asynchronous c
 
 Apart from these exceptions, the APIs are the same. OK, we're good to go!
 
-## <span>Requesting a filesystem</span>
+## Requesting a filesystem
 
 A web application obtains access to the synchronous filesystem by requesting a `LocalFileSystemSync` object from within a Web Worker. The `requestFileSystemSync()` is exposed to the Worker's global scope:
 
@@ -49,7 +49,7 @@ As with the normal FileSystem API, methods are prefixed at the moment:
     self.requestFileSystemSync = self.webkitRequestFileSystemSync ||
                                  self.requestFileSystemSync;
 
-### <span>Dealing with quota</span>
+### Dealing with quota
 
 Currently, it's not possible to [request `PERSISTENT` quota](/tutorials/file_filesystem#toc-requesting-quota) in a Worker context. I recommend taking care of quota issues outside of Workers.
 
@@ -62,7 +62,7 @@ The process could look like something this:
 
 That's a fairly involved workaround, but it should work. See [requesting quota](/tutorials/file_filesystem#toc-requesting-quota) for more information on using `PERSISTENT` storage with the FileSystem API.
 
-## <span>Working with files and directories</span>
+## Working with files and directories
 
 The synchronous version of `getFile()` and `getDirectory()` return a `FileEntrySync` and `DirectoryEntrySync`, respectively.
 
@@ -74,7 +74,7 @@ The following creates a new directory in the root folder.
 
     var dirEntry = fs.root.getDirectory('mydir', {create: true});
 
-## <span>Handling errors</span>
+## Handling errors
 
 If you've never had to debug Web Worker code, I envy you! It can be a real pain to figure out what is going wrong.
 
@@ -91,7 +91,7 @@ The lack of error callbacks in the synchronous world makes dealing with problems
       onError(e);
     }
 
-## <span>Passing around Files, Blobs, and ArrayBuffers</span>
+## Passing around Files, Blobs, and ArrayBuffers
 
 When Web Workers first came on the scene, they only allowed string data to be sent in `postMessage()`. Later, browsers began accepting serializable data, which meant passing a JSON object was possible. Recently however, some browsers like Chrome accept more complex data types to be passed through `postMessage()` using the [structured clone algorithm](https://developer.mozilla.org/en/DOM/The_structured_clone_algorithm).
 
@@ -157,7 +157,7 @@ The sample also uses an improved version of the [inline Web Worker technique](/t
     </script>
     </html>
 
-## <span>Reading files in a Worker</span>
+## Reading files in a Worker
 
 It's perfectly acceptable to use the asynchronous [`FileReader` API to read files](http://www.html5rocks.com/tutorials/file/dndfiles/#toc-reading-files) in a Worker. However, there's a better way. In Workers, there's a synchronous API (`FileReaderSync`) that streamlines reading files:
 
@@ -211,7 +211,7 @@ It's perfectly acceptable to use the asynchronous [`FileReader` API to read file
 
 As expected, callbacks are gone with the synchronous `FileReader`. This simplifies the amount of callback nesting when reading files. Instead, the readAs\* methods returns the read file.
 
-## <span>Example: Fetching all entries</span>
+## Example: Fetching all entries
 
 In some cases, the synchronous API is much cleaner for certain tasks. Fewer callbacks are nice and certainly make things more readable. The real downside of the synchronous API stems from the limitations of Workers.
 
@@ -289,7 +289,7 @@ For security reasons, data between the calling app and a Web Worker thread is ne
       }
     };
 
-## <span>Example: Downloading files using XHR2</span>
+## Example: Downloading files using XHR2
 
 A common use case for Workers is to download a bunch of files using [New Tricks in XMLHttpRequest2](/tutorials/file_xhr2), and write those files to the HTML5 FileSystem. This is a perfect task for a Worker thread!
 
@@ -371,6 +371,6 @@ The following example only fetches and writes one file, but you can image expand
       }
     };
 
-## <span>Conclusion</span>
+## Conclusion
 
 Web Workers are an underutilized and under-appreciated feature of HTML5. Most developers I talk to don't need the extra computational benefits, but they can be used for more than just pure computation. If you're skeptical (as I was), I hope this article has helped change your mind. Offloading things like disc operations (Filesystem API calls) or HTTP requests to a Worker are a natural fit and also help compartmentalize your code. The HTML5 File APIs inside of Workers opens a whole new can of awesomeness for web apps that a lot of folks haven't explored.

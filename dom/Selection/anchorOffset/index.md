@@ -23,13 +23,13 @@ tags:
 uri: dom/Selection/anchorOffset
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the number of characters that the selection's anchor is offset within the anchorNode.
 
 Property of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,11 +37,11 @@ Property of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 var offset = selObj.anchorOffset;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 The following example shows the anchorOffset value of a selection when you release the mouse button.
 
@@ -75,16 +75,16 @@ The following example shows the anchorOffset value of a selection when you relea
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The value that is returned by **anchorOffset** usually refers to a character position within the text portion of the element.
 
-### <span>Syntax</span>
+### Syntax
 
 offset=selObj.anchorOffset;
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1

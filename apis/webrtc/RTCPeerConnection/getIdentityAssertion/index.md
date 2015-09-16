@@ -21,24 +21,24 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/getIdentityAssertion
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides an identity assertion.
 
 Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.getIdentityAssertion();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Applications need not make this call. It is merely intended to allow them to start the process of obtaining identity assertions before a call is initiated. If an identity is needed, either because the browser has been configured with a default identity provider or because the [setIdentityProvider()](/apis/webrtc/RTCPeerConnection/setIdentityProvider) method was called, then an identity will be automatically requested when an offer or answer is created.

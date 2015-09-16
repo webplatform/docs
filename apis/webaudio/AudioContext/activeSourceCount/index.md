@@ -22,7 +22,7 @@ tags:
 uri: apis/webaudio/AudioContext/activeSourceCount
 
 ---
-## <span>Summary</span>
+## Summary
 
 The number of AudioBufferSourceNodes that are currently playing.
 
@@ -30,7 +30,7 @@ The number of AudioBufferSourceNodes that are currently playing.
 
 Property of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webau
 var result = AudioContext.activeSourceCount;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

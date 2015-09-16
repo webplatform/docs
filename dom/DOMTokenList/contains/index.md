@@ -22,34 +22,34 @@ tags:
 uri: dom/DOMTokenList/contains
 
 ---
-## <span>Summary</span>
+## Summary
 
 Tests if a token is part of a DOMTokenList.
 
 Method of [dom/DOMTokenList](/dom/DOMTokenList)[dom/DOMTokenList](/dom/DOMTokenList)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var tokenExists = tokenList.contains(token);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>token</span>
+### token
 
  Data-type
 :   String
 
  The requested token.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Whether the given token exists in the list. Returns `true` if the token is present; `false` otherwise.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // check an element's classList (a DOMTokenList) for a specific class
@@ -62,19 +62,19 @@ function elHasClass(elid, cls) {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 Throws a `SyntaxError` exception if *token* is empty.
 
 Throws an `InvalidCharacterError` exception if *token* contains any spaces.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C DOM4](http://www.w3.org/TR/dom/)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `DOMTokenList`

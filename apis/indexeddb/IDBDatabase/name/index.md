@@ -17,13 +17,13 @@ tags:
 uri: apis/indexeddb/IDBDatabase/name
 
 ---
-## <span>Summary</span>
+## Summary
 
 Name of the connected database.
 
 Property of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)[apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 

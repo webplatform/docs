@@ -76,19 +76,19 @@ translations:
 uri: 'guides/the html head'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article covers the &lt;head&gt; section of HTML documents and some of its most common components. Making sure that all of these are correct will result in your document being fast, and easy to find and understand.
 
-## <span>Introduction</span>
+## Introduction
 
 This article deals with a part of the HTML document that does not get the attention it deserves: the markup that goes inside the `head` element. By the end of this tutorial you will have learned about the different parts of this section and what they do, including the `title` element, keywords and description (which are handled by `meta` elements), and more. You'll also learn about JavaScript and CSS styles (both internal and external) and about what not to leave in the `head`. Make sure you go through the full tutorial from start to finish, as it builds up a series of best practices to follow when dealing with the HTML `head`.
 
-## <span>Head? What head are we talking about?</span>
+## Head? What head are we talking about?
 
 The `body` (the `<body></body>` tags and everything in between) is where you'll spend most of your time as a web designer or developer, as this is where all the visible content of the document goes. The `head` (the `<head></head>` tags and everything in between) plays a seemingly less important role because, with the exception of the `title` element, nothing you put in this part of the document is directly visible to your site's visitors. Instead, the `head` is the place where most of the instructions for the browser are located and where you store extra information, called `metadata`, about the document.
 
-## <span>Setting the document's primary language</span>
+## Setting the document's primary language
 
 One piece of information about the document actually goes on the parent of the `head`, the `html` element. It is here that we define the primary natural language of the document. By natural language, we mean *human* language, such as French, Thai, or English. This helps screen readers (software that reads out web pages to users with visual impairments); for example, the word "six" exists in both English and French, but is pronounced very differently. It's a good idea to define the primary language of a document, especially when writing pages for an international audience. It is also becoming increasingly important for correct styling of your page, and it can help with spellchecking and other things. You set it as follows:
 
@@ -106,7 +106,7 @@ The attributes you use to set the language depend on the `doctype` of your docum
 
 The simplest language tag value is a two-letter code such as `en` for English, but you can also combine multiple subtags with hyphens to give more detail where needed. For example, `en-GB` signals British English, and `zh-hans` signals Simplified Chinese. The language tags are defined in [the IANA subtag registry](http://www.iana.org/assignments/language-subtag-registry). You can also search for subtags and check language tags using Richard Ishida's [Language Subtag Lookup](http://rishida.net/utils/subtags/) tool, and find more information in the W3C article [Choosing a Language Tag](http://www.w3.org/International/questions/qa-choosing-language-tags).
 
-## <span>Setting your document's character encoding</span>
+## Setting your document's character encoding
 
 One feature HTML includes is an element for identifying the character encoding of your documents, which indicates the range of different characters you want to use. In HTML5 it looks like this:
 
@@ -120,7 +120,7 @@ It is, however, important to understand that just putting `<meta charset="utf-8"
 
 For a gentle introduction to this concept, see the article [Introducing Character Sets and Encodings](http://www.w3.org/International/getting-started/characters).
 
-## <span>Judging a document by its title</span>
+## Judging a document by its title
 
 One of the most important elements in the `head` is the `title`. The text contained within the `title` is displayed by virtually all user agents/browsers in the browser application title bar (the bar bordering the top of the browser window). It is the first piece of content that web users see when they visit your site, and therefore very important. In addition, assistive technologies like screen readers give this as a first hint of what visitors can expect from the document, and a lot of search engines work similarly too, so your chances to get found on the web increase drastically when you use a good title that is both human-readable and contains the right keywords. Let's take the following HTML document and open it in a browser.
 
@@ -144,7 +144,7 @@ One of the most important elements in the `head` is the `title`. The text contai
 
 There are many tutorials on the Web about how to write good document titles, most of which are related to search engine optimization (SEO). Don't go overboard and try to trick the search engines into showing an inflated number of search results. Just write a concise description of what the document is. "Breeding Dogs — Tips about Alsatians" is a lot more human digestible than "Dogs, Alsatian, Breeding, Dog, Tips, Free, Pet".
 
-## <span>Adding keywords and a description</span>
+## Adding keywords and a description
 
 The next thing you should do might seem superfluous at first, as it is not directly visible to your visitors: adding a description and keywords. Both of these get added to the `head` inside `meta` elements, as shown in the following example taken from the Yahoo! Eurosport site.
 
@@ -178,7 +178,7 @@ So although there is no obvious immediate benefit to adding meta descriptions, t
 
 Although years of abuse by spammers have made search engines not take keywords very seriously any more, they can still be a good tool to use if you want to quickly index a lot of documents without having to scan and analyze the content. You could use the `meta` keywords, for example, in a content management system by writing a script that indexes them and makes your search engine a lot faster. It doesn't hurt to provide a way of finding documents without having to analyze their content. By adding some keywords in a `meta` element you leave yourself the option to have a clever and fast search for your sites should you want to create something like this in the future. Think of keywords as small bookmarks you leave in a massive book to make it easier for yourself to find a certain section immediately without having to read through whole chapters.
 
-## <span>What about the looks? Adding styles</span>
+## What about the looks? Adding styles
 
 The next thing you can add to the `head` of a document is style rules, defined in the Cascading Style Sheets (CSS) specification. You can embed those directly in the `head` using a `style` element, like this.
 
@@ -230,7 +230,7 @@ For example, if you want to override the colours used on the screen and use a la
 
 *Figure 4: A print style sheet preview.*
 
-## <span>Adding dynamic features using JavaScript</span>
+## Adding dynamic features using JavaScript
 
 Another thing you can add to the `head` is scripts that are executed by the browser, called "client side scripts" because they are executed on the user's machine, not the web server. As you can see in [this W3C article](http://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript), JavaScript adds dynamic behavior to a static HTML document, such as animation effects, or form data validation, or other things that are triggered when the user performs certain actions.
 
@@ -275,7 +275,7 @@ Test!
 
  If you open this example in a web browser and click the link, you'll be asked to confirm your action. This is just a quick example of scripting and is far from best practice, but simply illustrates the functionality. Other tutorials will deal with JavaScript best practices and teach you JavaScript techniques in depth, but don't worry about that for now.
 
-## <span>Stop right there! Using inline CSS and JavaScript is not too clever!</span>
+## Stop right there! Using inline CSS and JavaScript is not too clever!
 
 Strong words, yes, but there is one thing you must remember when you build web sites: you should re-use your code as much as possible. Adding site-wide styles and scripts into each and every one of your pages doesn't make much sense — on the contrary, it makes it harder to maintain a complete site and bloats the individual documents unnecessarily.
 
@@ -340,13 +340,13 @@ Test!
 1.  You make it both faster and easier for your site visitors, because although a few extra files are downloaded, the style and script information doesn't need to be repeated in each web page file (it is just downloaded once, in the external script and style files), so each page file downloaded will be smaller. In addition, the CSS and JavaScript files will be cached (stored temporarily on your local machine), so that the next time you access the site, the files will be on your computer already, meaning they don't need to be downloaded again.
 2.  You greatly improve your ease of maintenance. The style and script for the whole site — which could be thousands of documents — are in one single location, so if you need to change something you only need to change one file, and not thousands.
 
-## <span>Conclusion</span>
+## Conclusion
 
 In this article, we introduced the `head` element and some of its possible content. We will examine this important web page section further in the next tutorial, [More about the HTML head](/guides/more_about_the_html_head).
 
-## <span>See also</span>
+## See also
 
-### <span>Exercise questions</span>
+### Exercise questions
 
 -   Why does it make sense to add a description in a `meta` element if it doesn’t get displayed on the screen?
 -   What is the benefit of adding JavaScript to the `head` of a document and not in the `body`?

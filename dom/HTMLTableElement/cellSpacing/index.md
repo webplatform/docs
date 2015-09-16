@@ -29,18 +29,18 @@ uri: dom/HTMLTableElement/cellSpacing
 
 Property of [dom/HTMLTableElement](/dom/HTMLTableElement)[dom/HTMLTableElement](/dom/HTMLTableElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var cellSpacing = table.cellSpacing;
 table.cellSpacing = newCellSpacing;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to use the **rows** collection on the [**table**](/html/elements/table) object and the **cells** collection to insert a number into each cell of the table.
 
@@ -75,11 +75,11 @@ function numberCells() {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rows-cells.htm)
 
-## <span>Notes</span>
+## Notes
 
 A **cells** collection is comprised of **th** and **td** objects. When a cell spans multiple rows, that cell appears only in the **cells** collection for the first of the rows that the cell spans. If duplicate identifiers are found, a collection of those items is returned. Collections of duplicates must be referenced subsequently by ordinal position. Individual **cells** or an array of **cells** can be specified using a spreadsheet format. By specifying a colon-delimited string of the starting and ending cells, a **cells** collection can be retrieved from anywhere in the table. Specifying a particular cell with this format returns that object. The format of this string uses letters to indicate columns, starting with A, and numbers to indicate rows, starting with 1. A **cells** collection on a table row includes only the elements within that row if the *vIndex* string specifies a range of multiple rows using the spreadsheet format.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 HTML](http://www.w3.org/TR/DOM-Level-2-HTML/)
 :   Recommendation

@@ -20,34 +20,34 @@ tags:
 uri: apis/css-regions/NamedFlowCollection/namedItem
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieve a named flow by its name
 
 Method of [apis/css-regions/NamedFlowCollection](/apis/css-regions/NamedFlowCollection)[apis/css-regions/NamedFlowCollection](/apis/css-regions/NamedFlowCollection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var flow = flows.namedItem(name);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  the name of the named flow
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 the [**NamedFlow**](/apis/css-regions/NamedFlow) object that corresponds to the specified name
 
-## <span>Examples</span>
+## Examples
 
 Retrieve the *main* flow from the document, in one method-chained line:
 
@@ -55,20 +55,20 @@ Retrieve the *main* flow from the document, in one method-chained line:
 var flow = document.getNamedFlows().namedItem('main');
 ```
 
-## <span>Usage</span>
+## Usage
 
      The NamedFlowCollection object is an array snapshot of a document's named flows. This method allows you to access a specific flow directly by its name, rather than by iterating over the array.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/2013/WD-css3-regions-20130528/)
 :   W3C Working Draft 28 May 2013
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -126,7 +126,7 @@ var flow = document.getNamedFlows().namedItem('main');
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

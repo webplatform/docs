@@ -23,20 +23,20 @@ tags:
 uri: dom/Location/hostname
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the host name part of the location or URL.
 
 Property of [dom/Location](/dom/Location)[dom/Location](/dom/Location)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var hostName = location.hostname;
 location.hostname = hostName;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -44,6 +44,6 @@ The host name component of the URL.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 If no host name is available, this property returns an empty string.

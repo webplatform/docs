@@ -20,13 +20,13 @@ tags:
 uri: css/properties/text-line-through-style
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the line style for line-through text decoration.
 
 (Considered obsolete; use [text-decoration-style](/css/properties/text-decoration-style) instead.)
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -52,7 +52,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-line-through-style: dashed`
 -   `text-line-through-style: dot-dash`
@@ -63,7 +63,7 @@ Percentages
 -   `text-line-through-style: solid`
 -   `text-line-through-style: wave`
 
-## <span>Values</span>
+## Values
 
 none
 :   Produces no line
@@ -89,13 +89,13 @@ dot-dot-dash
 wave
 :   Produces a wavy line.
 
-## <span>Notes</span>
+## Notes
 
 This property is obsolete and has been replaced by the [text-decoration-style](/css/properties/text-decoration-style) property.
 
 Originally defined in an earlier draft of the [CSS3 Text Module specification](http://www.w3.org/TR/2003/CR-css3-text-20030514/), the functionality controlled by this property is now defined in the [CSS Text Decoration Level 3](http://www.w3.org/TR/css-text-decor-3) module. Sites (and apps) relying on the earlier behavior should be updated accordingly.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514/)
 :   Candidate Recommendation

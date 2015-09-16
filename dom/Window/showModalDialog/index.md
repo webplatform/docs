@@ -29,48 +29,48 @@ todo_broken_links:
 uri: dom/Window/showModalDialog
 
 ---
-## <span>Summary</span>
+## Summary
 
 Do not use. Use &lt;dialog&gt; or a popup window instead. Halts the script execution, creates a popup window, passes it parameters and returns a value when the new window is closed.
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var returnValue = window.showModalDialog(url, argumentsToPass, windowOptions);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>url</span>
+### url
 
  Data-type
 :   String
 
 **String** that specifies the URL of the document to load and display.
 
-### <span>argumentsToPass</span>
+### argumentsToPass
 
  Data-type
 :   any
 
  The arguments to use when displaying the new document. Use this parameter to pass a value of any type, including an array of values. The dialog box can extract the values passed by the caller from the [**dialogArguments**](/dom/WindowModal/dialogArguments) property.
 
-### <span>windowOptions</span>
+### windowOptions
 
  Data-type
 :   String
 
  Specifies the window ornaments for the dialog box, using one or more of the following semicolon-delimited values:
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type anyany
 
 The value of the **returnValue** property as set by the window of the document specified in *url*.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **showModalDialog** method to open a customized dialog box.
 
@@ -110,11 +110,11 @@ function fnOpen(){
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/showModalDialog2.htm)
 
-## <span>Usage</span>
+## Usage
 
      Do not use. This API is being phased out. Chrome and Opera have already removed it by default and Firefox also considers following suit.
 
-## <span>Notes</span>
+## Notes
 
 A modal dialog box retains the input focus while open. The user cannot switch windows until the dialog box is closed. Because a modal dialog box can include a URL to a resource in a different domain, do not pass information through the *varArgIn* parameter that the user might consider private. The *varArgIn* parameter can be referenced within the modal dialog box using the [**dialogArguments**](/dom/WindowModal/dialogArguments) property of the **window** object. If the *varArgIn* parameter is defined as a string, the maximum string length that can be passed to the modal dialog box is 4096 characters; longer strings are truncated. You can set the default font settings the same way you set Cascading Style Sheets (CSS) attributes (for example, `"font:3;font-size:4"`). To define multiple font values, use multiple font attributes. To override `center`, even though the default for `center` is `yes`, you can specify either `dialogLeft` and/or `dialogTop`. When Windows Internet Explorer opens a window from a modal or modeless HTML dialog box by using the **showModalDialog** method or by using the [**showModelessDialog**](/w/index.php?title=dom/HTMLElement/showModelessDialog&action=edit&redlink=1) method, Internet Explorer uses Component Object Model (COM) to create a new instance of the window. Typically, the window is opened by using the first instance of an existing Internet Explorer process. When Internet Explorer opens the window in a new process, all the memory cookies are no longer available, including the session ID. This process is different from the process that Windows Internet Explorer uses to open a new window by using the [**open**](/dom/Window/open) method. For Windows Internet Explorer 7, `dialogHeight` and `dialogWidth` return the height and width of the content area and no longer includes the height and width of the frame. Internet Explorer 7. Although a user can manually adjust the height of a dialog box to a smaller value —provided the dialog box is resizable— the minimum `dialogHeight` you can specify is 100 pixels, and the minimum `dialogWidth` you can define is 250 pixels. In versions earlier than Internet Explorer 7 the minimum value of the `dialogWidth` that can be specified is 100 pixels.
 

@@ -23,26 +23,26 @@ tags:
 uri: dom/Location/href
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the entire URL as a string.
 
 Property of [dom/Location](/dom/Location)[dom/Location](/dom/Location)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var url = location.href;
 location.href = url;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The URL of the document.
 
-## <span>Examples</span>
+## Examples
 
 This example shows a URL list. The user is taken to the URL selected from the options, if the selection is different from the list's default value.
 

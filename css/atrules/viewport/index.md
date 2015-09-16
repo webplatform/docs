@@ -12,11 +12,11 @@ tags:
 uri: css/atrules/@viewport
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the size, zoom factor, and orientation of the viewport.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 @media screen and (max-width:400px) {
@@ -33,17 +33,17 @@ Specifies the size, zoom factor, and orientation of the viewport.
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 You can use the **@viewport** rule in tandem with media queries to help optimize your layout. Typically, you nest the **@viewport** rule inside the media query, as shown in the following pseudocode snippet: `@media [media query logic here] { @viewport { [viewport properties here] } [CSS for this layout combination here] }`
 
-### <span>Syntax</span>
+### Syntax
 
 `@viewport { viewport-properties }`
 
-### <span>Parameters</span>
+### Parameters
 
 *viewport-properties*
 :   One or more property declarations, each with a trailing semicolon. Only the following viewport properties are supported.
@@ -94,7 +94,7 @@ You can use the **@viewport** rule in tandem with media queries to help optimize
 </tbody>
 </table>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Device Adaptation](http://www.w3.org/TR/css-device-adapt/#the-viewport-rule)
 :   Working Draft

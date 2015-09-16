@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/operators/addition assignment'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds the value of an expression to the value of a variable and assigns the result to the variable.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Adds the value of an expression to the value of a variable and assigns the resul
 **expression**
 :   Any expression.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var x = 5;
@@ -34,7 +34,7 @@ x += 2;
 // result: x = 7
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 Using this operator is exactly the same as specifying: `result = result + expression`.
 
@@ -46,9 +46,9 @@ The types of the two expressions determine the behavior of the += operator.
 |Both expressions are strings|Concatenate|
 |One expression is numeric and the other is a string|Concatenate|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Addition Operator (+)](/javascript/operators/addition)
 

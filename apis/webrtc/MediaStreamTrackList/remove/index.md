@@ -18,33 +18,33 @@ tags:
 uri: apis/webrtc/MediaStreamTrackList/remove
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes a MediaStreamTrack from this track list.
 
 Method of [apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)[apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  trackList.remove(track);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>track</span>
+### track
 
  Data-type
 :   MediaStreamTrack
 
  MediaStreamTrack **track**, required.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Exception INVALID\_STATE\_ERR if the stream is finished (all tracks have ended).

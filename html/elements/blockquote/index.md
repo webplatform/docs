@@ -17,16 +17,16 @@ tags:
 uri: html/elements/blockquote
 
 ---
-## <span>Summary</span>
+## Summary
 
 The blockquote element indicates an extended quotation.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLQuoteElement](/dom/HTMLQuoteElement)
 
-### <span>Introduction</span>
+### Introduction
 
 The **blockquote** element represents content that is quoted from another source, optionally with a citation which must be within a [**footer**](/html/elements/footer) or [**cite**](/html/elements/cite) element, and optionally with in-line changes such as annotations and abbreviations.
 
@@ -42,12 +42,12 @@ If the cite attribute is present, it must be a valid URL potentially surrounded 
 
 The cite IDL attribute must reflect the element's cite content attribute.
 
-## <span>HTML Attributes</span>
+## HTML Attributes
 
 -   `cite` = valid URL potentially surrounded by spaces
     Specifies the address in the quotation source. [[Example B]](#Example_B)
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!-- This example uses the blockquote element to set off a quotation that renders as indented text: -->
@@ -202,13 +202,13 @@ be cowed by the possibility.</blockquote>
 <p>We shall now discuss these points...
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 -   Examples of how to represent a conversation are shown in a later section; it is not appropriate to use the **cite** and **blockquote** elements for this purpose.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-blockquote-element)
 :   W3C Working Draft
@@ -219,9 +219,9 @@ be cowed by the possibility.</blockquote>
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-BLOCKQUOTE)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (internal)</span>
+### Related pages (internal)
 
 -   `q`
 -   `cite`

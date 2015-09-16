@@ -22,11 +22,11 @@ tags:
 uri: css/properties/animation-direction
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines whether an animation should run in reverse on some or all cycles.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -52,14 +52,14 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `animation-direction: alternate`
 -   `animation-direction: alternate-reverse`
 -   `animation-direction: normal`
 -   `animation-direction: reverse`
 
-## <span>Values</span>
+## Values
 
 normal
 :   All iterations of the animation are played as specified.
@@ -73,7 +73,7 @@ alternate
 alternate-reverse
 :   The animation cycle iterations that are odd counts are played in the reverse direction, and the animation cycle iterations that are even counts are played in a normal direction, again reversing direction each cycle. The count to determine if an iteration is even or odd starts at one (odd).
 
-## <span>Examples</span>
+## Examples
 
 A repeating pulse animation that shrinks and dims an element, then restores it. Change the **animation-direction** from *normal* to a different keyword value to see the effect.
 
@@ -99,18 +99,18 @@ div.selected {
 
 [View live example](http://code.webplatform.org/gist/7010365)
 
-## <span>Usage</span>
+## Usage
 
      Can also be a comma-separated list of directions, e.g., reverse, normal, alternate, where each direction is applied to the corresponding ordinal position value of the animation-name property.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Animations](http://www.w3.org/TR/css3-animations/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Making things move with CSS3 animations](/tutorials/css_animations)
 -   [@keyframes](/css/atrules/@keyframes)

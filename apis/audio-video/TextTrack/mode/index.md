@@ -23,24 +23,24 @@ tags:
 uri: apis/audio-video/TextTrack/mode
 
 ---
-## <span>Summary</span>
+## Summary
 
 The text track mode, represented by a string from the following list. &quot;disabled&quot;: The text track disabled mode. &quot;hidden&quot;: The text track hidden mode. &quot;showing&quot;: The text track showing mode.
 
 Property of [apis/audio-video/TextTrack](/apis/audio-video/TextTrack)[apis/audio-video/TextTrack](/apis/audio-video/TextTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = TextTrack.mode;
 TextTrack.mode = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!DOCTYPE HTML>
@@ -70,7 +70,7 @@ Returns an object of type StringString
 </html>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

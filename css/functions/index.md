@@ -9,11 +9,11 @@ tags:
 uri: css/functions
 
 ---
-## <span>Summary</span>
+## Summary
 
 In CSS, functions can be used in values to invoke special processing or visual effects.
 
-### <span>All Functions</span>
+### All Functions
 
 -   [CSS cross-fade() function](/css/functions/cross-fade)
 -   [CSS images: url()](/css/functions/url())

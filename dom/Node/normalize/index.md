@@ -19,23 +19,23 @@ tags:
 uri: dom/Node/normalize
 
 ---
-## <span>Summary</span>
+## Summary
 
 Merges adjacent DOM objects to produce a normalized document object model.
 
 Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  node.normalize();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!DOCTYPE html>
@@ -70,15 +70,15 @@ alert('wrapper.normalize();wrapper.childNodes.length==='+wrapper.childNodes.leng
 </html>
 ```
 
-## <span>Usage</span>
+## Usage
 
      By calling object.normalize before the subelements of an object are manipulated, you ensure that the document object model has a consistent structure.  The normal form is useful for operations that require a consistent document tree structure, and it ensures that the document object model view is identical when it is saved and reloaded.
 
-## <span>Notes</span>
+## Notes
 
 The **normalize** method does not merge adjacent **CDATA** sections, allowing for an inconsistent object model when **CDATA** sections are present.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

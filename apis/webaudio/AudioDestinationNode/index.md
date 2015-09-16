@@ -10,11 +10,11 @@ tags:
 uri: apis/webaudio/AudioDestinationNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 An AudioNode representing the final audio destination and is what the user will ultimately hear. It can be considered as an audio output device which is connected to speakers. All rendered audio to be heard will be routed to this node, a terminal node in the AudioContext's routing graph. There is only a single AudioDestinationNode per AudioContext, provided through the destination attribute of AudioContext.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -27,15 +27,15 @@ API Name
 
     **Not in spec; deletion candidate. Possibly confused with AudioBuffer/numberOfChannels. See <http://webaudio.github.io/web-audio-api/>.**
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

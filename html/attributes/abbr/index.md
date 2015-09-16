@@ -13,7 +13,7 @@ tags:
 uri: html/attributes/abbr
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates an abbreviation or an acronym.
 
@@ -31,19 +31,19 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 The global title attribute can be used in the `abbr` tag to show the full version of the abbreviation/acronym when you mouse over the `abbr` element.
 
-### <span>Remarks</span>
+### Remarks
 
 **abbr** was introduced in Microsoft Internet Explorer 6 This property can be used for rendering to non-visual media such as speech or Braille. There is no functionality implemented for this property unless defined by the author.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `td`
 -   `th`

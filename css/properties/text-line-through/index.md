@@ -20,11 +20,11 @@ tags:
 uri: css/properties/text-line-through
 
 ---
-## <span>Summary</span>
+## Summary
 
 The text-line-through property is a shorthand property for text-line-through-style, text-line-through-color and text-line-through-mode. (Considered obsolete; use text-decoration instead.)
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `Not defined for shorthand properties`
@@ -50,22 +50,22 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-line-through: <style> <color> <mode>`
 
-## <span>Values</span>
+## Values
 
 \<style\> \<color\> \<mode\>
 :   Values supported by the [text-line-through-style](/css/properties/text-line-through-style), [text-line-through-color](/css/properties/text-line-through-color), and [text-line-through-mode](/css/properties/text-line-through-mode) properties.
 
-## <span>Usage</span>
+## Usage
 
      This property is obsolete and has been replaced by the  text-decoration property.
 
 Originally defined in an earlier draft of the [CSS3 Text Module specification](http://www.w3.org/TR/2003/CR-css3-text-20030514/), the functionality controlled by this property is now defined in the [CSS Text Decoration Level 3](http://www.w3.org/TR/css-text-decor-3) module. Sites (and apps) relying on the earlier behavior should be updated accordingly.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS3 Text Module (CR 2003)](http://www.w3.org/TR/2003/CR-css3-text-20030514/)
 :   Working Draft (current)

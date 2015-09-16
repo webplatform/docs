@@ -12,11 +12,11 @@ tags:
 uri: javascript/statements/Comment
 
 ---
-## <span>Summary</span>
+## Summary
 
 Causes comments to be ignored by the JavaScript parser.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -38,7 +38,7 @@ Causes comments to be ignored by the JavaScript parser.
     condStatement
     @*/
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the most common uses of comments.
 
@@ -64,7 +64,7 @@ The following example shows how to use conditional compilation. This example use
  /*@end @*/
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The comment argument is the text of any comment you want to include in your script. The condStatement argument is to be used if conditional compilation is activated. If single-line comments are used, there can be no space between the "//" and "@" characters.
 

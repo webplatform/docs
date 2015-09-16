@@ -16,6 +16,6 @@ todo_broken_links:
 uri: 'tutorials/javascript about'
 
 ---
-## <span>Summary</span>
+## Summary
 
 [Template:Concept](/w/index.php?title=Template:Concept&action=edit&redlink=1) JavaScript is a cross-platform, object-based scripting language. This guide explains everything you need to know about using JavaScript.

@@ -8,11 +8,11 @@ tags:
 uri: tutorials
 
 ---
-## <span>Summary</span>
+## Summary
 
 Tutorials are hands-on lessons about implementing web technology.
 
-## <span>Fundamentals</span>
+## Fundamentals
 
 -   [Web programming essentials](/tutorials/web_programming_essentials)
 -   [Planning out a website](/tutorials/information_architecture/Planning_out_a_website)
@@ -22,7 +22,7 @@ Tutorials are hands-on lessons about implementing web technology.
 -   [JavaScript](/javascript)
 -   [SVG](/svg/tutorials)
 
-## <span>Topical tutorials</span>
+## Topical tutorials
 
 -   [Audio](/tutorials/audio)
 -   [Connectivity](/tutorials/connectivity)

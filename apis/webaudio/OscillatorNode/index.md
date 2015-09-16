@@ -10,11 +10,11 @@ tags:
 uri: apis/webaudio/OscillatorNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 OscillatorNode represents an audio source generating a periodic waveform. It can be set to a few commonly used waveforms. Additionally, it can be set to an arbitrary periodic waveform through the use of a WaveTable object. Oscillators are common foundational building blocks in audio synthesis.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -33,7 +33,7 @@ API Name
 [type](/apis/webaudio/OscillatorNode/type)
 :   The shape of the periodic waveform. It may directly be set to any of the type constant values except for CUSTOM. The [**setWaveTable()**](/apis/webaudio/OscillatorNode/setWaveTable) method can be used to set a custom waveform, which results in this attribute being set to CUSTOM.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -49,11 +49,11 @@ API Name
 [stop](/apis/webaudio/OscillatorNode/stop)
 :   Schedules a sound to stop playback at an exact time.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

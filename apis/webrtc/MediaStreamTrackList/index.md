@@ -12,11 +12,11 @@ tags:
 uri: apis/webrtc/MediaStreamTrackList
 
 ---
-## <span>Summary</span>
+## Summary
 
 A MediaStream has two MediaStreamTrackList objects, one for the video tracks and one for the audio tracks.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -30,7 +30,7 @@ API Name
 [onremovetrack](/apis/webrtc/MediaStreamTrackList/onremovetrack)
 :   Handles the removetrack event.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -44,7 +44,7 @@ API Name
 [remove](/apis/webrtc/MediaStreamTrackList/remove)
 :   Removes a MediaStreamTrack from this track list.
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary

@@ -24,13 +24,13 @@ tags:
 uri: dom/TextRange/boundingTop
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the distance between the top edge of the rectangle that bounds the TextRange object and the top side of the object that contains the TextRange.
 
 Property of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 var result = textRange.boundingTop;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 the top coordinate of the bounding rectangle, in pixels.
 
-## <span>Examples</span>
+## Examples
 
 This example retrieves the value of the **boundingTop** property for the given text area.
 
@@ -67,10 +67,10 @@ function boundDim(oObject)
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/boundingTop.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note**  If the [**TextRange**](/dom/TextRange) is inside a **textArea** object, add the value of the element's [**scrollTop**](/dom/HTMLElement/scrollTop) property to the value of **boundingTop**.
 
-### <span>Syntax</span>
+### Syntax

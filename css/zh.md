@@ -75,39 +75,39 @@ translations:
 uri: css/zh
 
 ---
-## <span>摘要</span>
+## 摘要
 
 层叠样式表（[CSS](/w/index.php?title=CSS/zh&action=edit&redlink=1)）是网页式样的表达语言。由[W3C万维网联盟](http://www.w3.org)确定[CSS的标准](http://www.w3.org/standards/techs/css) 。
 
-## <span>概览</span>
+## 概览
 
-### <span>[CSS 教程](/css/tutorials)</span>
+### [CSS 教程](/css/tutorials)
 
 众多教程和概念的文章，从零开始教你 CSS。
 
-### <span>[CSS 选择器](/css/selectors)</span>
+### [CSS 选择器](/css/selectors)
 
 CSS 选择器的参考指南
 
-### <span>[CSS 属性](/css/properties)</span>
+### [CSS 属性](/css/properties)
 
 CSS 属性的参考指南
 
-### <span>[CSS 函数](/css/functions)</span>
+### [CSS 函数](/css/functions)
 
 CSS 函数的参考指南
 
-### <span>[规范守则](/css/atrules)</span>
+### [规范守则](/css/atrules)
 
 CSS 规范守则的参考指南
 
-### <span>[媒体查询](/css/mediaqueries)</span>
+### [媒体查询](/css/mediaqueries)
 
 CSS 可用媒体的参考指南
 
  注：如果你刚刚接触 Web 开发，建议先阅读 [Web 入门](/beginners) 。
 
-## <span>背景</span>
+## 背景
 
 层叠样式表用于定义（造型，布局，动画）和标记内容（如HTML、XHTML、SVG 或 XML）的语言。它是[开放化 Web 平台](http://www.w3.org/wiki/Open_Web_Platform)的组成部分之一。
 
@@ -117,15 +117,15 @@ CSS 可用媒体的参考指南
 -   当前稳定版: [CSS 2 建议](http://www.w3.org/TR/CSS21/)诞生于1998年，尽管很多年都保持稳定，但直到2011年才正式完成。CSS3 的一些模块自（2012年12月）发布以来也很稳定。参见“进展和展望”。
 -   进展及展望: CSS 工作组正在研究制定大量的“模块”，它们描述了 CSS3 这一技术集合的方方面面。某些模块很稳定，另一些则处于实验阶段，缺乏良好的跨浏览器支持。甚至很多 CSS4 模块也初露端倪，尽管将其投入正式使用仍需假以时日。更多关于模块/规范的进度信息参见 [CSS 工作组工作动态页面](http://www.w3.org/Style/CSS/current-work)。
 
-## <span>助力 CSS 技术</span>
+## 助力 CSS 技术
 
 CSS 的开放工作由 CSS 工作组主持。欲知详情，请前往[CSS 工作组主页](http://www.w3.org/Style/CSS/)。若对参与规范制定有反馈和疑问，[www-style 邮件列表](http://lists.w3.org/Archives/Public/www-style/)是个好去处。切记，不要在这里咨询诸如“我怎么用 CSS 给网页指定样式”这类问题。
 
-## <span>助力 CSS 参考页面</span>
+## 助力 CSS 参考页面
 
 随着 CSS 的发展，我们将持续完善本系列文档。目前我们正着力于 CSS 属性。欲参与该项目，参见[WPD:CSS\_property\_guide](/WPD:CSS_property_guide)。
 
-## <span>CSS 主题索引</span>
+## CSS 主题索引
 
 <table>
 <col width="33%" />

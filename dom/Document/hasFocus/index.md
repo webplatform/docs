@@ -24,25 +24,25 @@ tags:
 uri: dom/Document/hasFocus
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the focus state of the current document, true if the document has focus, false if not.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var boolean = document.hasFocus();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Returns true if the document has focus, otherwise returns false
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **hasFocus** method to determine if the document has focus. If you mouse over the text when the document has focus, "A message for you!" appears; if you mouse over the text when the document does not have focus, the message does not appear.
 
@@ -80,7 +80,7 @@ A message for you!
 </html>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/editing.html#dom-document-hasfocus)
 :   Candidate Recommendation

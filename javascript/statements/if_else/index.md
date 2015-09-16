@@ -12,11 +12,11 @@ tags:
 uri: 'javascript/statements/if else'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Conditionally executes a group of statements, depending on the value of an expression.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -43,7 +43,7 @@ Conditionally executes a group of statements, depending on the value of an expre
 **statement3**
 :   If both condition1 and condition2 are false , this statement is executed.
 
-## <span>Examples</span>
+## Examples
 
 The following code shows how to use if , if else , and else.
 
@@ -62,9 +62,9 @@ var z = 3;
  }
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Conditional (Ternary) Operator (?:)](/javascript/operators/conditional_ternary)
 

@@ -12,15 +12,15 @@ tags:
 uri: apis/file/URL
 
 ---
-## <span>Summary</span>
+## Summary
 
 A static object for URL related utility operations.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -31,10 +31,10 @@ API Name
 [revokeObjectURL](/apis/file/URL/revokeObjectURL)
 :   Revokes a URL from a document and frees the object associated with that URL.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 This object works with the image, video, and audio HTML tags.

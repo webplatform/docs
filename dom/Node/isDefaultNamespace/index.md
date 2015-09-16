@@ -23,34 +23,34 @@ tags:
 uri: dom/Node/isDefaultNamespace
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates whether or not a namespace is the default namespace for a document.
 
 Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var isDefault = node.isDefaultNamespace(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>namespace</span>
+### namespace
 
  Data-type
 :   String
 
  The namespace to be compared to the default namespace.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Whether the namespace specified in the *namespace* parameter is the default namespace for the document.
 
-## <span>Examples</span>
+## Examples
 
 The following example compares the default Namespace of the body element to the SVG namespace and then to the xHTML namespace. false then true is displayed.
 
@@ -77,7 +77,7 @@ The following example compares the default Namespace of the body element to the 
 </html>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

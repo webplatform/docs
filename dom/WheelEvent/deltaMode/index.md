@@ -23,13 +23,13 @@ tags:
 uri: dom/WheelEvent/deltaMode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets a value that indicates the unit of measurement for delta values.
 
 Property of [dom/WheelEvent](/dom/WheelEvent)[dom/WheelEvent](/dom/WheelEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [dom/WheelEvent](/dom/WheelEvent)[dom/WheelEvent](/dom/WheelEvent)
 var deltaMode = event.deltaMode;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -47,7 +47,7 @@ One of the following values -
 -   [WheelEvent](/dom/WheelEvent).DOM\_DELTA\_LINE, or 0x01 (hex), or 1. The delta coordinates are line based (in form controls, for example).
 -   [WheelEvent](/dom/WheelEvent).DOM\_DELTA\_PAGE, or 0x02 (hex), or 2. The delta coordinates are page based.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to determine the deltaMode property of the WheelEvent. Note: to feature test for deltaMode you need to use the 'deltaMode' in event as 0 (false) is a valid WheelEvent constant.
 
@@ -80,7 +80,7 @@ function getDeltaMode(dMode){
 </script>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

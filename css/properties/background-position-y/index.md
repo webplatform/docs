@@ -26,11 +26,11 @@ todo_broken_links:
 uri: css/properties/background-position-y
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets vertical starting position of a background image.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0%`
@@ -56,13 +56,13 @@ Animatable
 Percentages
 :   Width or height of the element
 
-## <span>Syntax</span>
+## Syntax
 
 -   `background-position-y: length`
 -   `background-position-y: percentage`
 -   `background-position-y: vAlignment`
 
-## <span>Values</span>
+## Values
 
 length
 :   Floating-point number, followed by an absolute units designator (`cm`, `mm`, `in`, `pt`, or `pc`) or a relative units designator (`em`, `ex`, or `px`). For more information about the supported length units, see CSS Values and Units Reference.
@@ -75,25 +75,25 @@ vAlignment
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 8. The **-ms-background-position-y** attribute is an extension to CSS, and can be used as a synonym for **background-position-y** in IE8 Standards mode.
 
-### <span>Syntax</span>
+### Syntax
 
 `-ms-background-position-y: length | percentage | vAlignment`
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Background</span>
+#### Background
 
 -   [background](/css/cssom/properties/background)
 
@@ -123,7 +123,7 @@ There are no standards that apply here.
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

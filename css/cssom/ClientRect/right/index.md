@@ -25,13 +25,13 @@ tags:
 uri: css/cssom/ClientRect/right
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the right value for a ClienRect object.
 
 Property of [css/cssom/ClientRect](/css/cssom/ClientRect)[css/cssom/ClientRect](/css/cssom/ClientRect)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,13 +39,13 @@ Property of [css/cssom/ClientRect](/css/cssom/ClientRect)[css/cssom/ClientRect](
 var pixelsFromRight = clientRect.right;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 The number of pixels.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the [**getBoundingClientRect**](/dom/HTMLElement/getBoundingClientRect) method to retrieve the coordinates of the bounds of the text rectangles within the element.
 
@@ -66,7 +66,7 @@ function getCoords(oObject) {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectangles.htm)
 
-## <span>Notes</span>
+## Notes
 
 To access the right coordinate of the second text rectangle of a [**TextRange**](/dom/TextRange) object, use this syntax:
 

@@ -23,34 +23,34 @@ tags:
 uri: dom/Node/cloneNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Copies a reference to the object from the document hierarchy.
 
 Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var clonedNode = node.cloneNode(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>cloneDescendants</span>
+### cloneDescendants
 
  Data-type
 :   Boolean
 
  Whether to clone the child nodes of the node as well.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The cloned node.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!doctype html>
@@ -75,11 +75,11 @@ function fnClone(){
 <input type="button" value="Clone List" onclick="fnClone()">
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use this method to copy an node, its attributes and, if specified, its childNodes as well.
 
-## <span>Notes</span>
+## Notes
 
 When you refer to the **id** of a cloned element, a collection is returned. **cloneNode**does not work on an **IFRAME** directly. You must call **cloneNode**through the **all** collection. The following example demonstrates how to call **cloneNode** on an **iframe**.
 
@@ -102,7 +102,7 @@ When you refer to the **id** of a cloned element, a collection is returned. **cl
 
 If the object being cloned is an element and that element has expandos defined on it, the expandos are copied to the clone when **cloneNode** is called. Other browsers might handle this differently.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

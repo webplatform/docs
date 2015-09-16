@@ -24,20 +24,20 @@ tags:
 uri: 'apis/image capture/PhotoSettings/contrast'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This reflects the desired contrast setting of the camera.
 
 Property of [apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSettings)[apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSettings)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = photoSettings.contrast;
 photoSettings.contrast = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 

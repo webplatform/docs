@@ -18,17 +18,17 @@ tags:
 uri: dom/HTMLFormElement
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents an HTML &lt;form&gt;&lt;/form&gt; element
 
 Inherits from [HTMLElement](/dom/HTMLElement)[HTMLElement](/dom/HTMLElement)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -39,13 +39,13 @@ API Name
 [submit](/dom/HTMLFormElement/submit)
 :
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from HTMLElement</span>
+## Inherited from HTMLElement
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -833,7 +833,7 @@ API Name
 [text-anchor](/svg/attributes/text-anchor)
 :
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -892,11 +892,11 @@ API Name
 [toStaticHTML](/dom/HTMLElement/toStaticHTML)
 :
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 Iterate over elements in a form using the [HTMLElement\#elements](/dom/HTMLElement/elements) property
 

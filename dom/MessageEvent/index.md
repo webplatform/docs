@@ -21,7 +21,7 @@ uri: dom/MessageEvent
 
 Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -35,7 +35,7 @@ API Name
 [source](/dom/MessageEvent/source)
 :   Gets the [**window**](/dom/Window) object that sent the message.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -43,13 +43,13 @@ API Name
 [initMessageEvent](/dom/MessageEvent/initMessageEvent)
 :   Initializes a new cross-document message (XDM) event that the [**createEvent**](/dom/Document/createEvent) method created.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from Event</span>
+## Inherited from Event
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -81,7 +81,7 @@ API Name
 [type](/dom/Event/type)
 :   Gets the name of an event.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -98,7 +98,7 @@ API Name
 [stopPropagation](/dom/Event/stopPropagation)
 :   Prevents propagation of an event beyond the current target.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -183,7 +183,7 @@ API Name
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

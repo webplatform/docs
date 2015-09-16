@@ -11,26 +11,26 @@ tags:
 uri: concepts/ux/techniques/personas
 
 ---
-## <span>Summary</span>
+## Summary
 
 Characterization of a type of user that we want to target with our product or application.
 
-### <span>Who does it</span>
+### Who does it
 
 UX team
 
-### <span>Why to do it</span>
+### Why to do it
 
 -   Provide insights into who the real users are
 -   Remind team of users needs, rather than of managers or buyers
 -   Allow team to ground communication throughout development
 
-## <span>Usage</span>
+## Usage
 
      At Research and Analysis
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [User eXperience (UX) Design Techniques](/concepts/ux/techniques)

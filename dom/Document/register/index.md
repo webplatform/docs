@@ -24,28 +24,28 @@ tags:
 uri: dom/Document/register
 
 ---
-## <span>Summary</span>
+## Summary
 
 Registers a new, custom element and returns the element's constructor.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var XFoo = document.register(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>type</span>
+### type
 
  Data-type
 :   String
 
  The custom element's tag name. The name must contain a dash (-). So for example, \<x-foo\>, \<foo-element\>, and \<my-foo-element\> are valid names, while \<tabs\> and \<foo\_bar\> are not.
 
-### <span>options</span>
+### options
 
  Data-type
 :   Object
@@ -54,11 +54,11 @@ var XFoo = document.register(/* see parameter list */);
 
 The object describing the element's prototype, public properties and methods.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
-## <span>Examples</span>
+## Examples
 
 Register's the custom element and adds it to the DOM.
 
@@ -84,7 +84,7 @@ var XFoo = document.register('x-foo', {
 });
 ```
 
-## <span>Notes</span>
+## Notes
 
 The custom element name must not be one of the following existing hyphen-containing element names:
 
@@ -97,16 +97,16 @@ The custom element name must not be one of the following existing hyphen-contain
 -   font-face-name
 -   missing-glyph
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Custom Elements](https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/custom/index.html)
 :
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Web Components</span>
+#### Web Components
 
 -   **register**
 
@@ -122,6 +122,6 @@ The custom element name must not be one of the following existing hyphen-contain
 
 -   [template](/html/elements/template)
 
-### <span>External resources</span>
+### External resources
 
 -   [Custom Elements](http://www.html5rocks.com/en/tutorials/webcomponents/customelements/) on [HTML5Rocks!](http://www.html5rocks.com)

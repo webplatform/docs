@@ -13,15 +13,15 @@ tags:
 uri: 'apis/user timing/Performance'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Exposes a high precision timestamp to developers so they can better measure the performance of their applications.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -38,11 +38,11 @@ API Name
 [measure](/apis/user_timing/Performance/measure)
 :   Stores the DOMHighResTimeStamp duration between two marks along with the associated name (a "measure").
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 The following script shows how a developer can use the interfaces defined in this document to obtain timing data related to developer scripts.
 
@@ -83,7 +83,7 @@ The following script shows how a developer can use the interfaces defined in thi
 </html>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C User Timing Specification](http://www.w3.org/TR/user-timing/)
 :   W3C Candidate Recommendation

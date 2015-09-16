@@ -24,13 +24,13 @@ tags:
 uri: dom/Document/defaultCharset
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the default character set from the current regional language settings.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 var defaultCharacterSet = document.defaultCharset;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The name of the default character set of the user.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //displays the document's default character encoding string
@@ -53,6 +53,6 @@ function showDefCharSet() {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 The value depends on the current regional language settings. For typical settings in North America, the value is `windows-1252`.

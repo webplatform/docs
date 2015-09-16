@@ -26,22 +26,22 @@ uri: dom/HTMLTableElement/deleteRow
 
 Method of [dom/HTMLTableElement](/dom/HTMLTableElement)[dom/HTMLTableElement](/dom/HTMLTableElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.deleteRow(index);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>index</span>
+### index
 
  Data-type
 :   any
 
 **Integer** that specifies the zero-based position in the **rows** collection of the row to remove.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -49,7 +49,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **deleteRow** method to delete the specified row (**tr**) in the [**table**](/html/elements/table).
 
@@ -57,20 +57,20 @@ This example uses the **deleteRow** method to delete the specified row (**tr**) 
 document.all.myTable.deleteRow()
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If you delete a row from a **tFoot**, **tBody**, or **tHead**, you also remove the row from the **rows** collection for the [**table**](/html/elements/table). Deleting a row in the **table** also removes a row from the **rows** collection for the **tBody**. If you delete a row from a **tFoot**, **tBody**, or **tHead**, *index* must contain the [**sectionRowIndex**](/dom/HTMLElement/sectionRowIndex) of the **tr**. When deleting a row from the [**table**](/html/elements/table), *index* must contain the [**rowIndex**](/dom/HTMLElement/rowIndex) of the **tr**.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `table`

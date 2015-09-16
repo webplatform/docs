@@ -16,18 +16,18 @@ tags:
 uri: html/elements/strong
 
 ---
-## <span>Summary</span>
+## Summary
 
 The strong element indicates text that is of great importance, seriousness, or urgency.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
 The relative level of importance of a piece of content is given by its number of ancestor strong elements.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **strong** element to indicate important information.
 
@@ -40,11 +40,11 @@ This example uses the **strong** element to indicate important information.
 |Code=<nowiki><p><strong><strong>Warning.</strong> This dungeon is dangerous.</strong></p>
 ```
 
-## <span>Usage</span>
+## Usage
 
      The strong element is a phrasing-level element. It must not contain block-level elements, but it can contain other phrasing-level elements.
 
-## <span>Notes</span>
+## Notes
 
 By default, most browsers render the **strong** element with bold text, but you can change that in CSS.
 
@@ -52,7 +52,7 @@ If you are looking to emphasize a word or phrase, the [**em** element](/html/ele
 
 If you want to bold text, but the text is not important, you should use the CSS rule [**font-weight: bold**](/css/properties/font-weight) on the appropriate element enclosing the text.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-strong-element)
 :   W3C Working Draft
@@ -63,11 +63,11 @@ If you want to bold text, but the text is not important, you should use the CSS 
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-STRONG)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -207,7 +207,7 @@ If you want to bold text, but the text is not important, you should use the CSS 
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -287,7 +287,7 @@ If you want to bold text, but the text is not important, you should use the CSS 
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `Reference`
 -   `acronym`

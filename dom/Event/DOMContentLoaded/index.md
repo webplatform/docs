@@ -15,7 +15,7 @@ uri: dom/Event/DOMContentLoaded
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -71,7 +71,7 @@ Default action
 </table>
 The **DOMContentLoaded** event fires when the markup of a webpage has been parsed, which means it also fires before the [**onload**](/dom/Element/load) event. **DOMContentLoaded** is a good place to perform initialization tasks for your webpage, such as registering event handlers, initializing handles to support objects, and so on. This allows your initialization tasks to occur while the remaining resources for the webpage are being downloaded. For more information, see the [DOMContentLoaded test drive demo.](http://go.microsoft.com/fwlink/p/?LinkId=245080)
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!doctype html>
@@ -119,13 +119,13 @@ if(!window.addEventListener) {
 </html>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/single-page.html)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `onload`

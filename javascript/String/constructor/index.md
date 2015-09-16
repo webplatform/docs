@@ -10,17 +10,17 @@ tags:
 uri: javascript/String/constructor
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the function that creates a string.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     string.constructor
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the constructor property.
 
@@ -36,7 +36,7 @@ var x = new String();
  // Object is a String.
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required string is the name of a string.
 

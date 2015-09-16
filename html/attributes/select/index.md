@@ -14,7 +14,7 @@ tags:
 uri: html/attributes/select
 
 ---
-## <span>Summary</span>
+## Summary
 
 One or more tokens that define the matching criteria for the distribution of child nodes of the shadow host.
 
@@ -58,7 +58,7 @@ The select tokens define the matching criteria for distributing child nodes of t
         -   last-of-type
         -   only-of-type
 
-## <span>Examples</span>
+## Examples
 
 This example uses CSS selectors to select specific content from a shadow root.
 
@@ -76,7 +76,7 @@ This example uses CSS selectors to select specific content from a shadow root.
 </div>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Shadow DOM](http://www.w3.org/TR/2012/WD-shadow-dom-20120522/)
 :   W3C Working Draft

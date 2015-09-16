@@ -30,13 +30,13 @@ uri: css/cssom/MSCSSMatrix/methods/skewY
 
 Method of [css/cssom/MSCSSMatrix](/w/index.php?title=css/cssom/MSCSSMatrix&action=edit&redlink=1)[css/cssom/MSCSSMatrix](/w/index.php?title=css/cssom/MSCSSMatrix&action=edit&redlink=1)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.skewY();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -48,21 +48,21 @@ S\_OK
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Transitions Module Level 3](http://go.microsoft.com/fwlink/p/?linkid=223140), Section 10.1
 
-### <span>Parameters</span>
+### Parameters
 
 *angle* [in]
 :   Type: **float**Angle (in degrees) of skew along the *y*-axis.
 *retMatrix* [out, retval]
 :   Type: **MSCSSMatrix**
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `MSCSSMatrix`

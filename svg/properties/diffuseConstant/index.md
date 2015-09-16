@@ -11,20 +11,20 @@ tags:
 uri: svg/properties/diffuseConstant
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 A diffuse reflection constant represents the ratio of reflection used to calculate shading.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.13
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFEDiffuseLightingElement**](/svg/elements/feDiffuseLighting)

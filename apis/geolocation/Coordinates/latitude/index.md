@@ -22,13 +22,13 @@ tags:
 uri: apis/geolocation/Coordinates/latitude
 
 ---
-## <span>Summary</span>
+## Summary
 
 Geographic latitude specified in decimal degrees.
 
 Property of [apis/geolocation/Coordinates](/apis/geolocation/Coordinates)[apis/geolocation/Coordinates](/apis/geolocation/Coordinates)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,17 +36,17 @@ Property of [apis/geolocation/Coordinates](/apis/geolocation/Coordinates)[apis/g
 var result = Coordinates.latitude;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 alert('Current coordinates are latitude: ' + position.coords.latitude + ' and longitude: ' + position.coords.longitude);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

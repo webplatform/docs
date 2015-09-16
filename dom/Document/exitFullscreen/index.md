@@ -18,23 +18,23 @@ tags:
 uri: dom/Document/exitFullscreen
 
 ---
-## <span>Summary</span>
+## Summary
 
 The exitFullscreen method provides a way for exiting the fullscreen mode enabled by requestFullscreen.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  document.exitFullscreen();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //exit fullscreen on Enter key
@@ -45,13 +45,13 @@ document.addEventListener("keydown", function(e) {
 }, false);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Fullscreen](http://www.w3.org/TR/fullscreen/#api)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [tutorials/using\_the\_full-screen\_api](/tutorials/using_the_full-screen_api)

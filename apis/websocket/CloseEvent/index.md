@@ -12,11 +12,11 @@ tags:
 uri: apis/websocket/CloseEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Object representing the close event for a WebSocket.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -30,15 +30,15 @@ API Name
 [wasClean](/apis/websocket/CloseEvent/wasClean)
 :   Indicates whether the WebSocket connection was cleanly closed.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 
@@ -53,11 +53,11 @@ socket.onclose = function(event) {
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
 When a WebSocket connection is closed, possibly cleanly, the user agent must create an [event](/apis/websocket/WebSocket/onclose) that uses the CloseEvent interface, with the event name close, which does not bubble, is not cancelable, has no default action, whose [wasClean](/apis/websocket/CloseEvent/wasClean) attribute is set to true if the connection closed cleanly and false otherwise, whose code attribute is set to the WebSocket connection close code, and whose [reason](/apis/websocket/CloseEvent/reason) attribute is set to the WebSocket connection close reason; and then queue a task to first change the [readyState](/apis/websocket/WebSocket/readyState) attribute's value to CLOSED (3), and then [dispatch the event](/apis/websocket/WebSocket/onclose) at the [WebSocket object](/apis/websocket/WebSocket).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation

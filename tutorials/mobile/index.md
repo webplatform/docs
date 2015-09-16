@@ -7,7 +7,7 @@ tags:
 uri: tutorials/mobile
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page lists available mobile-specific tutorials.
 

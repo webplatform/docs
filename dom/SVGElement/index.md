@@ -15,33 +15,33 @@ tags:
 uri: dom/SVGElement
 
 ---
-## <span>Summary</span>
+## Summary
 
 All of the SVG DOM interfaces that correspond directly to elements in the SVG language derive from the SVGElement interface.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.1
 
-### <span>Members</span>
+### Members
 
 The **SVGElement** object has these properties:
 

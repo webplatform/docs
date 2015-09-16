@@ -22,17 +22,17 @@ todo_broken_links:
 uri: dom/Node
 
 ---
-## <span>Summary</span>
+## Summary
 
 The interface for the primary data type for the entire Document Object Model.
 
 Inherits from [EventTarget](/dom/EventTarget)[EventTarget](/dom/EventTarget)
 
-## <span>Overview</span>
+## Overview
 
 The **Node** interface is the primary datatype for the entire Document Object Model (DOM). It represents a single node in the document tree.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -84,7 +84,7 @@ API Name
 [textContent](/dom/Node/textContent)
 :   Sets or retrieves the text content of a node and any child nodes.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -137,17 +137,17 @@ API Name
 [replaceChild](/dom/Node/replaceChild)
 :   Replaces an existing child node with a new child node.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from EventTarget</span>
+## Inherited from EventTarget
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -161,15 +161,15 @@ API Name
 [removeEventListener](/dom/EventTarget/removeEventListener)
 :   Removes an event handler that the [addEventListener](/dom/EventTarget/addEventListener) method registered.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 While all objects implementing the **Node** interface expose methods for dealing with children, not all objects implementing the **Node** interface may have children. For example, [**text**](/w/index.php?title=html/attributes/text_(body_element)&action=edit&redlink=1) nodes may not have children, and adding children to such nodes results in a [**DOMException**](/dom/DOMException). The attributes [**nodeName**](/dom/Node/nodeName), [**nodeValue**](/dom/Node/nodeValue) and [**attributes**](/dom/Node/attributes) are included as a mechanism to get at node information without casting down to the specific derived interface. In cases where there is no obvious mapping of these attributes for a specific [**nodeType**](/dom/Node/nodeType) (i.e., **nodeValue** for an Element or attributes for a Comment), this returns **null**. Note that the specialized interfaces may contain additional and more convenient mechanisms to get and set the relevant information.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core)
 :   Recommendation

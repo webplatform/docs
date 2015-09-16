@@ -13,11 +13,11 @@ tags:
 uri: apis/xhr/XMLHttpRequest
 
 ---
-## <span>Summary</span>
+## Summary
 
 XMLHttpRequest allows JavaScript to make HTTP requests, and is the most basic part of AJAX. It allows a website to dynamically request more content, without reloading the entire page.
 
-## <span>Overview</span>
+## Overview
 
 The **XMLHttpRequest** property is available on the **window** object.
 
@@ -25,7 +25,7 @@ The **XMLHttpRequest** property is available on the **window** object.
 
 With the **XMLHttpRequest** object, clients can make HTTP requests to a URL without reloading the entire page. Despite the term "XML" in the name, this object can be used to retrieve any type of data.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -60,7 +60,7 @@ API Name
 [withCredentials](/apis/xhr/XMLHttpRequest/withCredentials)
 :   Returns or sets whether cross-site Access-Control requests should be made using credentials such as cookies or authorization headers.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -86,7 +86,7 @@ API Name
 [setRequestHeader](/apis/xhr/XMLHttpRequest/setRequestHeader)
 :   Sets the value of an XMLHttpRequest header.
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary
@@ -115,7 +115,7 @@ API Name
 [timeout](/apis/xhr/XMLHttpRequest/timeout-event)
 :   When the author specified timeout has passed before the request could complete.
 
-## <span>Examples</span>
+## Examples
 
 The following script demonstrates how to create and use the **XMLHttpRequest** object. For best client-side performance, the request is asynchronous and uses an **onreadystatechange** event handler to process the data returned by the call.
 
@@ -184,7 +184,7 @@ function makeCorsRequest() {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      The XMLHttpRequest object can be used to make either same-origin or cross-origin requests.
 
@@ -192,7 +192,7 @@ Same-origin requests are subject to the browser's same-origin policy: <http://en
 
 Requests that go across origins (for example, a request from originA.com to originB.com) can also be made. But in order for them to work, the destination server must support Cross-Origin Resource Sharing (CORS, <http://www.w3.org/TR/cors/>). These are a set of headers included in the response that indicate how a resource can be accessed across domains.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft
@@ -200,11 +200,11 @@ Requests that go across origins (for example, a request from originA.com to orig
 [Cross-Origin Resource Sharing](http://www.w3.org/TR/cors/)
 :   W3C Candidate Recommendation 29 January 2013
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>XHR</span>
+#### XHR
 
 -   [XMLHttpRequest (XHR) API](/apis/xhr)
 

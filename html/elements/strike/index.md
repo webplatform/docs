@@ -16,16 +16,16 @@ tags:
 uri: html/elements/strike
 
 ---
-## <span>Summary</span>
+## Summary
 
 Deprecated presentational element defining strikethrough text. It is deprecated in HTML4 and not supported in HTML5. Consider the del or s elements instead.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **strike** element to create strike-through type.
 
@@ -33,17 +33,17 @@ This example uses the **strike** element to create strike-through type.
 <strike>This text has a line through it.</strike>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Please use the del or s element instead.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 15.2.1 (Deprecated)
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [`del`](/html/elements/del)
 -   [`s`](/html/elements/s)

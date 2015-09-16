@@ -24,7 +24,7 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/drawCustomFocusRing
 
 ---
-## <span>Summary</span>
+## Summary
 
 Draw a focus ring of the appropriate style along the intended path, and sets result to false.
 
@@ -32,15 +32,15 @@ Draw a focus ring of the appropriate style along the intended path, and sets res
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.drawCustomFocusRing(path, element);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>path</span>
+### path
 
  Data-type
 :   DOM Node
@@ -49,24 +49,24 @@ var object = object.drawCustomFocusRing(path, element);
 
 The path along which the focus ring is to be drawn.
 
-### <span>element</span>
+### element
 
  Data-type
 :   DOM Node
 
  The element on which the focus ring is to be drawn.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 The focus ring should not be subject to the shadow effects, the global alpha, or the global composition operators, but should be subject to the clipping region.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

@@ -26,13 +26,13 @@ todo_broken_links:
 uri: css/properties/box-line-progression
 
 ---
-## <span>Summary</span>
+## Summary
 
 Do not use. This property has been replaced by the flex-wrap property.
 
 Gets or sets a value that specifies the direction to add successive rows or columns when the value of [box-lines](/w/index.php?title=box-lines&action=edit&redlink=1) is set to multiple.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `single`
@@ -55,12 +55,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `box-line-progression: normal`
 -   `box-line-progression: reverse`
 
-## <span>Values</span>
+## Values
 
 normal
 :   Default.
@@ -72,15 +72,15 @@ reverse
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Do not use. This property has been replaced by the flex-wrap property.
 
 Gets or sets a value that specifies the direction to add successive rows or columns when the value of [box-lines](/w/index.php?title=box-lines&action=edit&redlink=1) is set to multiple.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages</span>
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

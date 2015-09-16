@@ -15,13 +15,13 @@ tags:
 uri: css/atrules/@font-face
 
 ---
-## <span>Summary</span>
+## Summary
 
 The @font-face CSS at-rule allows authors to specify online fonts to display text on their web pages. By allowing authors to provide their own fonts, @font-face eliminates the need to depend on the limited number of fonts users have installed on their computers.
 
  The `@font-face` at-rule may be used not only at the top level of a CSS, but also inside any CSS conditional-group at-rule.
 
-## <span>Syntax</span>
+## Syntax
 
 ``` css
 @font-face {
@@ -36,7 +36,7 @@ The @font-face CSS at-rule allows authors to specify online fonts to display tex
 }
 ```
 
-### <span>Values</span>
+### Values
 
 **\<family-name\>**
 :   *Specifies a [**font-family**](/css/properties/font-family) name that will be used as font face value for font properties.*
@@ -89,7 +89,7 @@ The @font-face CSS at-rule allows authors to specify online fonts to display tex
 
 </dd>
 </dl>
-## <span>Examples</span>
+## Examples
 
 The following example uses the Open Sans font to style the paragraph element.
 
@@ -120,11 +120,11 @@ p {
 
 [View live example](http://code.webplatform.org/gist/5481068)
 
-## <span>Usage</span>
+## Usage
 
      Use this at-rule in order to use specific fonts that might not be available on your local system.
 
-## <span>Notes</span>
+## Notes
 
 The rule has no default value. The `unicode-range` descriptor defines the range of Unicode characters that are supported by a given font. The values of *urange* are expressed by hexadecimal numbers prefixed by "`U+`", that correspond\> to Unicode character code points. The `unicode-range` descriptor serves as a hint for the browser when it decides whether to download a font resource. Unicode range values are written by using hexadecimal values and are case insensitive. Each is prefixed by "`U+`" and multiple, discontinuous ranges are separated by commas. Whitespace before or after commas is ignored. Valid character code values vary between `0` and `10FFFF` inclusive. A single range has three basic forms:
 
@@ -132,16 +132,16 @@ The rule has no default value. The `unicode-range` descriptor defines the range 
 -   An interval value range (for instance, `U+400-4ff`)
 -   A range where trailing ‘`?`’ characters imply ‘any digit value’ (for instance, `U+4??`)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Fonts</span>
+#### Fonts
 
 -   **@font-face**
 
@@ -175,7 +175,7 @@ The rule has no default value. The `unicode-range` descriptor defines the range 
 
 -   [font](/html/elements/font)
 
-#### <span>Syntax</span>
+#### Syntax
 
 -   [@charset](/css/atrules/@charset)
 

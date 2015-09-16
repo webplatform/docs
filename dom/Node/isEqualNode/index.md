@@ -23,34 +23,34 @@ tags:
 uri: dom/Node/isEqualNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Determines whether two nodes are equal in their type, name and namespace.
 
 Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var isEqual = node.isEqualNode(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>otherNode</span>
+### otherNode
 
  Data-type
 :   DOM Node
 
  The node to be compared to the node that is executing the method.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Whether the node specified in the *otherNode* parameter is equal to the current node.
 
-## <span>Examples</span>
+## Examples
 
 In the follow example if \#targetElm is the first div element of the document 'true' will be displayed.
 
@@ -61,7 +61,7 @@ var firstDiv = document.getElementsByTagName("div")[0];
 alert( targetElm.isEqualNode(firstDiv) );
 ```
 
-## <span>Usage</span>
+## Usage
 
      This method determines whether or not two nodes are equal.  Nodes are considered equal when the values of the following attributes are equal:
 
@@ -70,11 +70,11 @@ alert( targetElm.isEqualNode(firstDiv) );
 -   [**localName**](/dom/Node/localName)
 -   [**namespaceURI**](/dom/Node/namespaceURI)
 
-## <span>Notes</span>
+## Notes
 
 Nodes can be equal without being the same. Use [**isSameNode**](/dom/Node/isSameNode) to determine if two nodes are the same.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

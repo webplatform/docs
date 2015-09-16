@@ -20,31 +20,31 @@ tags:
 uri: apis/webaudio/AudioBufferSourceNode/loop
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates if the audio data should play in a loop. The default value is false.
 
 Property of [apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)[apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = AudioBufferSourceNode.loop;
 AudioBufferSourceNode.loop = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var source = audioCtx.createBufferSource();
 source.loop = true;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

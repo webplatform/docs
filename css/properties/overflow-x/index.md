@@ -22,11 +22,11 @@ tags:
 uri: css/properties/overflow-x
 
 ---
-## <span>Summary</span>
+## Summary
 
 The overflow-x property is a specific case of the generic overflow property. It controls how extra content exceeding the x-axis of the bounding box of an element is rendered.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `visible`
@@ -49,7 +49,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `overflowX`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `overflow-x: auto`
 -   `overflow-x: hidden`
@@ -58,7 +58,7 @@ Animatable
 -   `overflow-x: scroll`
 -   `overflow-x: visible`
 
-## <span>Values</span>
+## Values
 
 visible
 :   Default. Content is not clipped and scroll bars are not added. Elements are clipped to the size of the containing window or frame.
@@ -78,7 +78,7 @@ no-display
 no-content
 :   When the content doesn't fit in the content box, the whole content is hidden, as if ‘visibility: hidden’ were specified.
 
-## <span>Examples</span>
+## Examples
 
 Using `overflow-x` width its values.
 
@@ -109,15 +109,15 @@ body {
 
 [View live example](http://code.webplatform.org/gist/6366308)
 
-## <span>Usage</span>
+## Usage
 
      The overflow-x CSS property specifies whether to clip content, render a scroll mechanism, or display overflow content of a block-level element, when it overflows at the left and right edges.
 
-## <span>Notes</span>
+## Notes
 
 Setting the overflow-x property to visible causes the content to clip to the size of the window or frame that contains the object.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS basic box model](http://dev.w3.org/csswg/css-box/#overflow-x)
 :   Editor's Draft
@@ -128,9 +128,9 @@ Setting the overflow-x property to visible causes the content to clip to the siz
 [CSS basic box model](http://www.w3.org/TR/css3-box/#overflow1)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related Properties</span>
+### Related Properties
 
 -   [overflow](/css/properties/overflow)
 -   [overflow-y](/css/properties/overflow-y)

@@ -23,28 +23,28 @@ tags:
 uri: dom/shadowdom/ShadowRoot/getElementsByTagName
 
 ---
-## <span>Summary</span>
+## Summary
 
 Just like Document/getElementsByTagName except that it only works within the scope of this ShadowRoot's shadow tree.
 
 Method of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.getElementsByTagName(name);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   String
 
  The name of the element's tag.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 

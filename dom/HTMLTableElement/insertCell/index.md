@@ -26,22 +26,22 @@ uri: dom/HTMLTableElement/insertCell
 
 Method of [dom/HTMLTableElement](/dom/HTMLTableElement)[dom/HTMLTableElement](/dom/HTMLTableElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.insertCell(index);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>index</span>
+### index
 
  Data-type
 :   any
 
 **Integer** that specifies where to insert the cell in the **tr**. The default value is **-1**, which appends the new cell to the end of the **cells** collection.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -49,7 +49,7 @@ Object
 
 Returns the **td** element object if successful, or null otherwise.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **insertCell** method to add a cell to the end of the **tr**.
 
@@ -57,14 +57,14 @@ This example uses the **insertCell** method to add a cell to the end of the **tr
 myNewCell = document.all.myTable.rows[0].insertCell()
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The preferred technique for inserting a cell is to add the cell at the end of the **cells** collection. It is faster to add a cell at the end of a row than somewhere in the middle. To add a cell at the end of the collection, specify the `-1` value, or the length of the **cells** collection minus `1`.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5

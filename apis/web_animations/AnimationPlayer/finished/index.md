@@ -21,13 +21,13 @@ tags:
 uri: 'apis/web animations/AnimationPlayer/finished'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the current finished promise for this object.
 
 Property of [apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)[apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,9 +35,9 @@ Property of [apis/web\_animations/AnimationPlayer](/apis/web_animations/Animatio
 var myAnimationPlayer = finishedPromise.finished;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 Returns a Promise object.
 

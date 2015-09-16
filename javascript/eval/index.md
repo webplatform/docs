@@ -10,11 +10,11 @@ tags:
 uri: javascript/eval
 
 ---
-## <span>Summary</span>
+## Summary
 
 Evaluates JavaScript code and executes it.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,7 +23,7 @@ Evaluates JavaScript code and executes it.
 **codeString**
 :   Required. A **String** value that contains valid JavaScript code.
 
-## <span>Examples</span>
+## Examples
 
 The following code initializes the variable `myDate` to a test date.
 
@@ -37,7 +37,7 @@ var dateFn = "Date(1971,3,8)";
  // Output: Thu Apr 8 00:00:00 PDT 1971
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **eval** function enables dynamic execution of JavaScript source code.
 
@@ -47,9 +47,9 @@ The code passed to the **eval** function is executed in the same context as the 
 
 Whenever possible, use the [JSON.parse function](/javascript/JSON/parse) to de-serialize JavaScript Object Notation (JSON) text. The **JSON.parse** function is more secure and executes faster than the **eval** function.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [String Object](/javascript/String)
 

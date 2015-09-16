@@ -14,16 +14,16 @@ tags:
 uri: mathml/elements/mglyph
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML mglyph element is used to display non-standard symbols where existing Unicode characters are not available. It may be used within token elements.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates a simple usage of the mglyph element:
 
@@ -37,7 +37,7 @@ This example demonstrates a simple usage of the mglyph element:
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mglyph)
 :   W3C Recommendation

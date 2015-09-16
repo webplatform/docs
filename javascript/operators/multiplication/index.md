@@ -10,11 +10,11 @@ tags:
 uri: javascript/operators/multiplication
 
 ---
-## <span>Summary</span>
+## Summary
 
 Multiplies the value of two expressions.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Multiplies the value of two expressions.
 **number2**
 :   Any expression.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var x = 5;
@@ -37,9 +37,9 @@ var y;
 y = x * 2; // result: y = 10
 ```
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Multiplication Assignment Operator (\\\*=)](/javascript/operators/multiplication_assignment)
 

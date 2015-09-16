@@ -15,18 +15,18 @@ tags:
 uri: html/elements/tbody
 
 ---
-## <span>Summary</span>
+## Summary
 
 The tbody tag is used to group the body content in an HTML table.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLTableSectionElement](/dom/HTMLTableSectionElement)
 
 The \<tbody\> element represents a block of rows that consist of a body of data for the parent table element, if the tbody element has a parent and it is a table.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the ****tbody**** element with the [**table**](/html/elements/table), [**td**](/html/elements/td), [**thead**](/html/elements/thead), and [**tr**](/html/elements/tr) elements to create a table with the first row in the table head and the second row in the table body.
 
@@ -49,7 +49,7 @@ This example uses the ****tbody**** element with the [**table**](/html/elements/
 </table>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-tbody-element)
 :   W3C Working Draft
@@ -60,11 +60,11 @@ This example uses the ****tbody**** element with the [**table**](/html/elements/
 [HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-TBODY)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -204,7 +204,7 @@ This example uses the ****tbody**** element with the [**table**](/html/elements/
 
 -   [time](/html/elements/time)
 
-#### <span>Tables</span>
+#### Tables
 
 -   [border-collapse](/css/properties/border-collapse)
 

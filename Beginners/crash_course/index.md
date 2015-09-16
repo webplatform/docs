@@ -10,7 +10,7 @@ tags:
 uri: 'Beginners/crash course'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This part assumes you want to build a website with almost no prior knowledge. It will start on HTML and CSS to allow you to do that right away. Obviously, we can't teach it all at once, so we will start with certain basic features we expect you might be interested in, and build on from there.
 
@@ -18,7 +18,7 @@ If you have terms you don’t understand, you can see the [Beginners/glossary](/
 
 You will quickly find that once you get the hang of how this works, you will be able to figure out how to add the features you want just by looking at the HTML and CSS code and applying that code to your site, or an offline test site.
 
-## <span>Beginners submenu</span>
+## Beginners submenu
 
 The **[Beginners](/Beginners)** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 
@@ -33,7 +33,7 @@ The **[Beginners](/Beginners)** section covers the various aspects of web develo
 -   [9. Browser testing](/Beginners/browser_testing)
 -   [Glossary](/Beginners/glossary)
 
-## <span>HTML, CSS, and JavaScript</span>
+## HTML, CSS, and JavaScript
 
 We're assuming you've had your general introduction with HTML, CSS, and JavaScript at the former article of this series. Here we're going to get a bit advanced.
 
@@ -96,7 +96,7 @@ So, in essence, the code becomes like this:
 
  As you can easily understand, we styled the important class and also the *\#alphaParticle*. What's that? Well, the hash denotes an ID. An ID is different from a class because it can only be assigned to one HTML element.
 
-## <span>An HTML document</span>
+## An HTML document
 
 This is a basic HTML document.
 
@@ -122,7 +122,7 @@ There is the paired `<tag-name>tag contents</tag-name>`, which is how we tell th
 
 Then there is the `<tag-name _______________ />` where those are instructions to describe on how to deal with certain situations. The `meta` are about the server communication. In this particular case, we are saying that the file is written in `UTF-8` (i.e. a format that supports multiple language characters at once), and `link` is for asking which file to download along with the HTML document to take care of the visual aspects ("stylesheets"). These stylesheets are a collection of style rules, written in CSS.
 
-## <span>Let's make a website</span>
+## Let's make a website
 
 For your first HTML document, please cut and paste the above into a text editor of your choice and save it as `example.html`, but leave the file opened.
 
@@ -166,7 +166,7 @@ We will call `example2.html`, from our `example.html` sandbox document. Add this
 
 Now, whenever you click on this link, you'll be taken to `example2.html` instantaneously. Congratulations, you learned something that's pretty much the cornerstone of the web!
 
-## <span>Some other things you need to take care of</span>
+## Some other things you need to take care of
 
 To be a good web-coder, you need to learn some good practices.
 
@@ -194,7 +194,7 @@ To be a good web-coder, you need to learn some good practices.
 
 -   **Don't miss out the attributes**: HTML attributes are very important and they make a webpage and entire websites more meaningful and suitable for screen readers and other accessibility devices. Some attributes you should never miss out are: `lang` (for telling the browser which language the webpage is written in), `title` (for specifying the name of the browser window/tab and naming elements), `href` (used mostly in links, if you skip it, the link won't point to anywhere), and `alt` (the alt attribute is used to display/read text content when an HTML element, like an image, cannot be loaded).
 
-## <span>Simple CSS anatomy and application</span>
+## Simple CSS anatomy and application
 
 CSS is a detailed language, and for its graceful implementation, we've created the [Part 5](/Beginners/css), but here, you should learn about the simple anatomy of CSS and applying it on HTML elements.
 
@@ -222,7 +222,7 @@ p {
 
 The `p` we used in the CSS is a selector. Selectors select an HTML element and then apply the required styles to it. No selection: no styles applied.
 
-## <span>JavaScript primer</span>
+## JavaScript primer
 
 JavaScript is a scripting language that works much like your common programming languages. At the extreme end, you can create animations, classes, and functions, and in the least, you can add simple browser interactivity on the webpage.
 
@@ -245,7 +245,7 @@ So, in essence, JavaScript targets HTML (via DOM, which you will learn about lat
 
 JavaScript has more power than CSS or HTML, and consequently, it takes more time to be mastered.
 
-## <span>Getting online</span>
+## Getting online
 
 Now that you're acquainted with HTML, CSS, and JavaScript, it's time to get online! Although you can create an `.html` file on your computer to do web designing, getting online is the most interesting part.
 

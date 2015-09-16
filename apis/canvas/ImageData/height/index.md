@@ -22,13 +22,13 @@ tags:
 uri: apis/canvas/ImageData/height
 
 ---
-## <span>Summary</span>
+## Summary
 
 The number of rows in the image data.
 
 Property of [apis/canvas/ImageData](/apis/canvas/ImageData)[apis/canvas/ImageData](/apis/canvas/ImageData)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,11 +36,11 @@ Property of [apis/canvas/ImageData](/apis/canvas/ImageData)[apis/canvas/ImageDat
 var result = ImageData.height;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 This example creates an ImageData object and reports its height, then draws the ImageData onto the canvas.
 
@@ -62,7 +62,7 @@ ctxt.putImageData(imgdata, 10, 10);
 </script>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

@@ -11,17 +11,17 @@ tags:
 uri: javascript/RegExp/sticky
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a Boolean value indicating the state of the sticky flag ( y ) used with a regular expression. Default is false. Read-only.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     regex.sticky
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the `sticky` property.
 
@@ -50,15 +50,15 @@ regex.lastIndex;
 // → 9
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The `sticky` property returns `true` if the sticky flag is set for a regular expression, and returns `false` if it is not.
 
 The `sticky` flag, when used, indicates that the regular expression performs sticky matching in the target string by attempting to match starting at `lastIndex`. If matching at that location fails, then `null` is returned, i.e., no forward “anchoring” search is performed. If matching succeeds, then the regular expression’s `lastIndex` property is updated as for the flag `g`.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [global Property (Regular Expression)](/javascript/regular_expression/global)
 -   [ignoreCase Property (Regular Expression)](/javascript/regular_expression/ignoreCase)

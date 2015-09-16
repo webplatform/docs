@@ -10,17 +10,17 @@ tags:
 uri: javascript/DataView/byteOffset
 
 ---
-## <span>Summary</span>
+## Summary
 
 Read-only. The offset of this view from the start of its ArrayBuffer, in bytes, as fixed at construction time.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     var arrayOffset = dataView.byteOffset;
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to get the length of a DataView.
 

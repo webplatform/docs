@@ -19,13 +19,13 @@ tags:
 uri: apis/indexeddb/IDBObjectStore/keyPath
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides the key path of this object store.
 
 Property of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.keyPath;
@@ -34,8 +34,8 @@ element.keyPath = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

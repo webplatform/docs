@@ -20,13 +20,13 @@ tags:
 uri: apis/workers/WorkerGlobalScope/onerror
 
 ---
-## <span>Summary</span>
+## Summary
 
 An event listener to be called when an error occurs.
 
 Property of [apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)[apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,11 +36,11 @@ var result = object.onerror;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Returns an **error** object with property values of **filename**, **lineno**, and **message**.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft

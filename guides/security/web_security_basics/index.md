@@ -9,13 +9,13 @@ tags:
 uri: 'guides/security/web security basics'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page provides an overview of common web security threats, lists good practices for client and server-side security, and offers examples for implementing security measures for your site or application.
 
 Learning and using good Web security practices protects the integrity of your site or application, and helps keep the users safe and happy. Poor security practices can tarnish an organization's reputation, can cause a business to lose revenue, or can lead to the spread of malware.
 
-## <span>Web security basics</span>
+## Web security basics
 
 Common Web Security Attacks:
 
@@ -23,13 +23,13 @@ Common Web Security Attacks:
 -   SQL injection
 -   Denial-of-Service (DoS)
 
-## <span>Client-side Security</span>
+## Client-side Security
 
-### <span>Form Validation</span>
+### Form Validation
 
-## <span>Server-side Security</span>
+## Server-side Security
 
-### <span>SSL and Network Security Protocols</span>
+### SSL and Network Security Protocols
 
-### <span>Configuring MIME Types</span>
+### Configuring MIME Types
 

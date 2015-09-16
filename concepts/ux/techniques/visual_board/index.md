@@ -11,11 +11,11 @@ tags:
 uri: 'concepts/ux/techniques/visual board'
 
 ---
-## <span>Summary</span>
+## Summary
 
 A User eXperience (UX) design technique
 
-### <span>What it is</span>
+### What it is
 
 Visual project schedule or plan on butcher paper containing:
 
@@ -25,22 +25,22 @@ Visual project schedule or plan on butcher paper containing:
 -   Non-functional requirements
 -   Any high-level task that needs be tracked and completed.
 
-### <span>Who does it</span>
+### Who does it
 
 Project lead with UX team.
 
-### <span>Key benefits</span>
+### Key benefits
 
 -   Provides shared understanding and current status to the whole team.
 -   Provides context and layout information.
 -   Deadlines are made explicit.
 
-## <span>Usage</span>
+## Usage
 
      At Scoping
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [User eXperience (UX) Design Techniques](/concepts/ux/techniques)

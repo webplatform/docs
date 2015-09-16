@@ -23,11 +23,11 @@ tags:
 uri: css/properties/padding-left
 
 ---
-## <span>Summary</span>
+## Summary
 
 The padding-left CSS property of an element sets the padding space required on the left side of an element. The padding area is the space between the content of the element and its border. Contrary to margin-left values, negative values of padding-left are invalid.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
@@ -53,12 +53,12 @@ Animatable
 Percentages
 :   [[CSS percentages::refer to [width](/css/properties/width) of closest block-level ancestor]]
 
-## <span>Syntax</span>
+## Syntax
 
 -   `padding-left: length`
 -   `padding-left: percentage`
 
-## <span>Values</span>
+## Values
 
 length
 :   Specifies a positive fixed width. See [length](/css/data_types/length) for details.
@@ -66,7 +66,7 @@ length
 percentage
 :   A percentage with respect to the width of the containing block.
 
-## <span>Examples</span>
+## Examples
 
 The following examples use the `padding-left` property to change the [padding](/css/properties/padding) of the elements.
 
@@ -82,7 +82,7 @@ td { padding-left: 30px; }
 
 [View live example](http://code.webplatform.org/gist/6948619)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS basic box model](http://www.w3.org/TR/css3-box/)
 :   W3C Working Draft

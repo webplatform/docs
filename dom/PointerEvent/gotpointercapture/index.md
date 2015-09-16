@@ -14,11 +14,11 @@ tags:
 uri: dom/PointerEvent/gotpointercapture
 
 ---
-## <span>Summary</span>
+## Summary
 
 Dispatched prior to the dispatch of the first event after pointer capture is set for a pointer. See the PointerEvent object.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -76,14 +76,14 @@ This event is dispatched to the element that is receiving pointer capture. Subse
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Pointer Events](http://www.w3.org/TR/pointerevents)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [code.MSDN Pointers and Gestures Example](http://code.msdn.microsoft.com/ie/Pointers-and-Gestures-ae95918f)
 

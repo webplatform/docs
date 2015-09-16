@@ -16,12 +16,12 @@ uri: svg/elements/textPath
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, the **textPath** element is used to define a path for text rendering. The same path is used in the [**path**](/svg/elements/path) example. Copy this sample to a text file and save it with the *.html* file extension. Run it in Internet Explorer 9 to see the text on a path.
 
@@ -48,19 +48,19 @@ It should look like this:
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 In addition to text that is drawn in a straight line, you can also place text along the shape of a [**path**](/svg/elements/path) element in SVG. To render a block of text along the shape of a **path** element, include the given text within a **textPath** element that includes an **xlink:href** attribute with an Internationalized Resource Identifier (IRI) reference to the **path** element.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.17.6
 
-### <span>Members</span>
+### Members
 
 The **SVGTextPathElement** object has these events:
 

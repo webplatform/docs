@@ -22,35 +22,35 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/scale
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds the scaling transformation described by the arguments to the transformation matrix. The x argument represents the scale factor in the horizontal direction; the y argument represents the scale factor in the vertical direction. The factors are multiples.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.scale(x, y);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
+### x
 
  Data-type
 :   Number
 
  The horizontal scaling factor, where 1 equals unity or 100% scale.
 
-### <span>y</span>
+### y
 
  Data-type
 :   Number
 
  The vertical scaling factor.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -58,7 +58,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 This basic example draws two rects, the second scaled 1.5 times
 
@@ -99,13 +99,13 @@ This full example draws two rects, the second scaled 1.5 times
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
 When you create a [CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D) object, it has a transformation matrix that identifies the current state. The *scale* method modifies the transformation by multiplying the matrix by the specified factor.
 
 For example, `context.scale(1,.5)` halves the vertical (or y-axis) values that are used in context and leaves the horizontal (or x-axis) values the same. Similarly, `context.scale(2,2)` doubles the size of the graphics.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

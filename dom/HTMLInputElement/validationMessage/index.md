@@ -23,13 +23,13 @@ tags:
 uri: dom/HTMLInputElement/validationMessage
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the error message that would be displayed if the user submits the form, or an empty string if no error message.
 
 Property of [dom/HTMLInputElement](/dom/HTMLInputElement)[dom/HTMLInputElement](/dom/HTMLInputElement)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [dom/HTMLInputElement](/dom/HTMLInputElement)[dom/HTMLInputElement](
 var validationMessage = inputElement.validationMessage;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -45,11 +45,11 @@ The error message that would be displayed if the user submits the form, or an em
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 Returns a string containing the standard or custom error message that would be displayed if the user submitted at this time. If no errors are present or the form would validate, an empty string is returned. The following example has a required field, and if the user types "fun" into it, a custom message is set. Try previewing without anything in the field, then enter values, including the word fun: **Note**  For more code samples, see [Form controls part 1](http://go.microsoft.com/fwlink/p/?LinkID=251128) and [Form controls part 2: validation](http://go.microsoft.com/fwlink/p/?LinkID=251131) on the Windows Internet Explorer sample site.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft
@@ -57,9 +57,9 @@ Returns a string containing the standard or custom error message that would be d
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLObjectElement`
 -   `HTMLSelectElement`

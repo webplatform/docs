@@ -14,11 +14,11 @@ tags:
 uri: apis/geolocation/Coordinates
 
 ---
-## <span>Summary</span>
+## Summary
 
 The geographic coordinate reference system used by the attributes in this interface is the World Geodetic System (2d).
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -44,15 +44,15 @@ API Name
 [speed](/apis/geolocation/Coordinates/speed)
 :   Denotes the magnitude of the horizontal component of the hosting device's current velocity specified in meters per second. If the implementation cannot provide speed information, the value of this attribute must be null. Otherwise, the value of this attribute must be a non-negative real number.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 Obtain user location with all available information available within to coordinates object.
 
@@ -82,7 +82,7 @@ alert("No position found");
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Proposed Recommendation

@@ -20,34 +20,34 @@ tags:
 uri: apis/webaudio/AnalyserNode/getByteFrequencyData
 
 ---
-## <span>Summary</span>
+## Summary
 
 Copies the current frequency data into the passed unsigned byte array. If the array has fewer elements than the frequencyBinCount, the excess elements will be dropped.
 
 Method of [apis/webaudio/AnalyserNode](/apis/webaudio/AnalyserNode)[apis/webaudio/AnalyserNode](/apis/webaudio/AnalyserNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = AnalyserNode.getByteFrequencyData(array);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>array</span>
+### array
 
  Data-type
 :   void
 
  Where frequency-domain analysis data will be copied.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 Uint8Array
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -58,7 +58,7 @@ var dataArray = new Uint8Array(analyser.frequencyBinCount);
 analyser.getByteFrequencyData(myDataArray);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

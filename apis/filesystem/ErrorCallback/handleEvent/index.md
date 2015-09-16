@@ -18,7 +18,7 @@ tags:
 uri: apis/filesystem/ErrorCallback/handleEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 There was an error with the request. Details are provided by the err parameter.
 
@@ -26,28 +26,28 @@ There was an error with the request. Details are provided by the err parameter.
 
 Method of [apis/filesystem/ErrorCallback](/apis/filesystem/ErrorCallback)[apis/filesystem/ErrorCallback](/apis/filesystem/ErrorCallback)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  ErrorCallback.handleEvent(err);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>err</span>
+### err
 
  Data-type
 :   String
 
  The error that was generated.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

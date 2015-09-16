@@ -22,13 +22,13 @@ tags:
 uri: apis/webrtc/MediaStreamTrackList/length
 
 ---
-## <span>Summary</span>
+## Summary
 
 The number of tracks in the list.
 
 Property of [apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)[apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,7 +36,7 @@ Property of [apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList
 var length = list.length;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 

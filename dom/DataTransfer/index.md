@@ -12,11 +12,11 @@ tags:
 uri: dom/DataTransfer
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents an object associated with drag and drop or clipboard events. DataTransfer objects are used to expose the drag data store that underlies a drag-and-drop operation.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -36,7 +36,7 @@ API Name
 [types](/dom/DataTransfer/types)
 :   Returns an array listing the formats that were set in the **dragstart** event. If any files are being dragged, one of the types will be the string "Files".
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -55,11 +55,11 @@ API Name
 [setDragImage](/dom/DataTransfer/setDragImage)
 :   Uses the given element to update the drag feedback image, replacing any previously specified feedback image.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation

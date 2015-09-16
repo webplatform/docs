@@ -10,17 +10,17 @@ tags:
 uri: javascript/statements/break
 
 ---
-## <span>Summary</span>
+## Summary
 
 Terminates the current loop or, if in conjunction with a label, terminates the associated statement.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     break [ label ];
 
-## <span>Examples</span>
+## Examples
 
 In this example, the counter is set up to count from 1 to 99; however, the break statement terminates the loop after 14 counts.
 
@@ -66,7 +66,7 @@ Outer:
  // i: 10 j: 21 22 23
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The optional label argument specifies the label of the statement you are breaking from.
 
@@ -74,9 +74,9 @@ You typically use the break statement in switch statements and in while , for , 
 
 Executing the break statement exits from the current loop or statement, and begins script execution with the statement immediately following.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [continue Statement](/javascript/statements/continue)
 -   [do...while Statement](/javascript/statements/do_while)

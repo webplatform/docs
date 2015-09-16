@@ -12,27 +12,27 @@ tags:
 uri: apis/canvas/CanvasPattern
 
 ---
-## <span>Summary</span>
+## Summary
 
 An opaque object of the canvas API. See Notes.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 To use this object to create a pattern from a portion of an image, create a temporary clip canvas and use [drawImage](/apis/canvas/CanvasRenderingContext2D/drawImage) to extract the piece. Then, pass the tempoarary canvas to the [createPattern](/apis/canvas/CanvasRenderingContext2D/createPattern) method.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

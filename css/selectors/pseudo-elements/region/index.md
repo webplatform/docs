@@ -10,11 +10,11 @@ tags:
 uri: 'css/selectors/pseudo-elements/::region'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Applies CSS styles to portions of content as it appears when flowing within a specified set of regions.
 
-### <span>Basic syntax</span>
+### Basic syntax
 
     @region <region_selector> {
         <content_selector> {
@@ -36,7 +36,7 @@ The *region\_selector* specifies a set of region elements. Within that scope, th
 
  ![regionRule2.jpeg](/assets/public/5/5c/regionRule2.jpeg)
 
-## <span>Examples</span>
+## Examples
 
 Inverts paragraph text within the first region
 
@@ -63,13 +63,13 @@ article.content { flow-into: main; }
 div.region { flow-from: main; }
 ```
 
-## <span>Usage</span>
+## Usage
 
      The @region rule does not change the cascading order of content selectors.
 
 Use the [**CSSRegionStyleRule**](/css/cssom/CSSRegionStyleRule) interface to apply **@region** rules programmatically.
 
-## <span>Notes</span>
+## Notes
 
 Only the following set of CSS properties work within **@region** rules:
 
@@ -92,14 +92,14 @@ Only the following set of CSS properties work within **@region** rules:
 -   [**box-decoration-break**](/css/properties/box-decoration-break)
 -   [**width**](/css/properties/width)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 :   W3C Editor's Draft
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

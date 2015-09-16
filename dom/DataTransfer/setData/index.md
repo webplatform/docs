@@ -20,21 +20,21 @@ tags:
 uri: dom/DataTransfer/setData
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds data in a specified format to the DataTransfer object or the ClipboardData object.
 
 Method of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTransfer)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  event.dataTransfer.setData(format, data);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>format</span>
+### format
 
  Data-type
 :   String
@@ -44,18 +44,18 @@ Method of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTrans
 -   URL
 -   Text
 
-### <span>data</span>
+### data
 
  Data-type
 :   String
 
  Specifies the data supplied by the source object. This information can be descriptive text, a source path to an image, or a URL for an anchor. When you pass "URL" as the *format* parameter, you must use the *data* parameter to provide the location of the object that is transferred.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **setData** method and the [**getData**](/dom/DataTransfer/getData) method with the [**DataTransfer**](/dom/DataTransfer) object to create a shortcut to an image.
 
@@ -97,7 +97,7 @@ window.addEventListener("load", initialize, false);
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setDataEX.htm)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation

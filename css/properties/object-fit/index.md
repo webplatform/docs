@@ -19,11 +19,11 @@ tags:
 uri: css/properties/object-fit
 
 ---
-## <span>Summary</span>
+## Summary
 
 The object-fit property defines how content of a replaced element (e.g., a video or an image) is made to fit the dimensions of its containing box.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `fill`
@@ -46,7 +46,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `objectFit`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `object-fit: contain`
 -   `object-fit: cover`
@@ -54,7 +54,7 @@ Animatable
 -   `object-fit: none`
 -   `object-fit: scale-down`
 
-## <span>Values</span>
+## Values
 
 fill
 :   The replaced content is sized to fill the element's box
@@ -71,7 +71,7 @@ none
 scale-down
 :   Size the content as if ‘none’ or ‘contain’ were specified, whichever would result in a smaller concrete object size
 
-## <span>Examples</span>
+## Examples
 
 Five simple img elements.
 
@@ -154,16 +154,16 @@ img {
 
 [View live example](http://code.webplatform.org/gist/6badc0b20d67be7d939f)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Image Values and Replaced Content Module Level 3](http://www.w3.org/TR/css3-images/)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Generated and Replaced Content</span>
+#### Generated and Replaced Content
 
 -   [Generated and Replaced Content](/css/generated_and_replaced_content)
 
@@ -179,7 +179,7 @@ img {
 
 -   **object-fit**
 
-#### <span>Multimedia</span>
+#### Multimedia
 
 -   [Track ended](/apis/MediaStream/ended)
 
@@ -201,7 +201,7 @@ img {
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-#### <span>Video</span>
+#### Video
 
 -   [audio-video](/apis/audio-video)
 

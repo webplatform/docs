@@ -24,26 +24,26 @@ tags:
 uri: dom/Document/xmlVersion
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets the version attribute that is specified in the declaration of an XML document.
 
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var version = document.xmlVersion;
 document.xmlVersion = newVersion;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The XML **version** of document.
 
-## <span>Examples</span>
+## Examples
 
 The following code example shows an XML declaration that specifies a values for the **version** attribute.
 
@@ -51,11 +51,11 @@ The following code example shows an XML declaration that specifies a values for 
 <?xml version="1.0"?>
 ```
 
-## <span>Notes</span>
+## Notes
 
 Applications should use the [**normalize**](/dom/Node/normalize) method after they change the **xmlVersion** property.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407)
 :   Recommendation

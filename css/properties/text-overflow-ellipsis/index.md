@@ -22,11 +22,11 @@ tags:
 uri: css/properties/text-overflow-ellipsis
 
 ---
-## <span>Summary</span>
+## Summary
 
 The text-overflow-ellipsis CSS property controls how the hint on overflowed content that is not displayed is signaled to the users. The presence of the hint is controlled with CSS property text-overflow-mode. Shorthand property is text-overflow.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `U+2026`
@@ -52,16 +52,16 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-overflow-ellipsis: string`
 
-## <span>Values</span>
+## Values
 
 string
 :   The value is defined either as a string like the default UTF-8 character 'U+2026' or a URI and represents the ellipsis of text-overflow-mode property. If the value is defined as a URI it displays the image behind the URL. You can also set both values which then means they determine the overflow visual hint at the end and the hint after the element box. The latter visual hint is only displayed if there is clipped content because of the dimension limitation on the element block.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!-- example showing text-overflow-ellipsis property -->
@@ -97,19 +97,19 @@ string
 
 [View live example](http://dabblet.com/gist/4744982)
 
-## <span>Usage</span>
+## Usage
 
      Currently it is not widely supported in any major browsers.
 
-## <span>Notes</span>
+## Notes
 
 Because the initial value (U+2026) of the overflow visual hint after the element box may not be easily rendered in some situations, the user agent may replace it by a sequence of 3 FULL STOP characters (U+002E).
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Attributes</span>
+#### CSS Attributes
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -147,7 +147,7 @@ Because the initial value (U+2026) of the overflow visual hint after the element
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

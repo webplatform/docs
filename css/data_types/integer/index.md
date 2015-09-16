@@ -10,13 +10,13 @@ tags:
 uri: 'css/data types/integer'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &lt;integer&gt; CSS data type represents a number without a decimal component. It is used to specify ordered or layered values, either positive or negative.
 
  Properties accepting integer values generally cannot be animated in a useful way because only discrete values are meaningful.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 section {
@@ -25,7 +25,7 @@ section {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/#integers)
 :   W3C Candidate Recommendation

@@ -20,76 +20,76 @@ tags:
 uri: dom/FocusEvent/initFocusEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Initializes a new FocusEvent that the createEvent method created.
 
 Method of [dom/FocusEvent](/dom/FocusEvent)[dom/FocusEvent](/dom/FocusEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  event.initFocusEvent(eventType, canBubble, cancelable, view, detail, relatedTarget);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>eventType</span>
+### eventType
 
  Data-type
 :   String
 
  The name of the event. Sets the value for the [**type**](/dom/Event/type) property.
 
-### <span>canBubble</span>
+### canBubble
 
  Data-type
 :   Boolean
 
  Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
 
-### <span>cancelable</span>
+### cancelable
 
  Data-type
 :   Boolean
 
  Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
 
-### <span>view</span>
+### view
 
  Data-type
 :   Object
 
  The window on which this event is occurring. Sets the value for the [view](/dom/UIEvent/view) property.
 
-### <span>detail</span>
+### detail
 
  Data-type
 :   Number
 
  Specifies additional information. This value is returned in the [**detail**](/dom/UIEvent/detail) property of the event.
 
-### <span>relatedTarget</span>
+### relatedTarget
 
  Data-type
 :   DOM Node
 
  A secondary element that is involved in the event. This value is returned in the [**relatedTarget**](/dom/MouseEvent/relatedTarget) property of the event.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `FocusEvent`
 -   `initUIEvent`

@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/LocalFileSystemSync/resolveLocalFileSystemSyncURL
 
 ---
-## <span>Summary</span>
+## Summary
 
 Allows the user to look up the Entry for a file or directory referred to by a local URL.
 
@@ -30,30 +30,30 @@ Allows the user to look up the Entry for a file or directory referred to by a lo
 
 Method of [apis/filesystem/LocalFileSystemSync](/apis/filesystem/LocalFileSystemSync)[apis/filesystem/LocalFileSystemSync](/apis/filesystem/LocalFileSystemSync)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = LocalFileSystemSync.resolveLocalFileSystemSyncURL(url);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>url</span>
+### url
 
  Data-type
 :   String
 
  A URL referring to a local file in a filesystem accessable via this API.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 EntrySync
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

@@ -11,7 +11,7 @@ tags:
 uri: 'svg/properties/r (SVGRadialGradientElement)'
 
 ---
-## <span>Examples</span>
+## Examples
 
 The following code example creates a 400 × 400 pixel viewport and draws a rectangle (of the same size) that is filled with a radial gradient that is centered at the middle of the rectangle. This radial gradient is completely white at its center and smoothly transitions to black at the end of the **r** radius (that is, 200 px) and beyond. If you move the mouse pointer over the rendered rectangle, the radius of the radial gradient reduces by half; if you move the mouse pointer off the rendered rectangle, the radius returns to its original value.
 
@@ -58,20 +58,20 @@ The following code example creates a 400 × 400 pixel viewport and draws a recta
 </pre>
 [To run the following code example, save the example by using the .svg extension. View live example]
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **r** property defines the largest (that is, the outermost) circle for a radial gradient. The gradient is drawn such that the 100% gradient stop coincides with the perimeter of this largest (that is, the outermost) circle.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGRadialGradientElement**](/svg/elements/radialGradient)

@@ -20,13 +20,13 @@ tags:
 uri: css/properties/text-underline-style
 
 ---
-## <span>Summary</span>
+## Summary
 
 After review this should be replaced by text-decoration should it not?
 
 This property will set the underline style for text with a line value for underline, overline, and line-through.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -52,9 +52,9 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 none
 :   This will produce no line.
@@ -80,11 +80,11 @@ dot-dot-dash
 wave
 :   This will produce a wavy line.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

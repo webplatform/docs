@@ -21,11 +21,11 @@ tags:
 uri: css/properties/grid-column-span
 
 ---
-## <span>Summary</span>
+## Summary
 
 See css/properties/grid-column. This property has been removed from the specification.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `1`
@@ -48,30 +48,30 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `grid-column-span: integer`
 
-## <span>Values</span>
+## Values
 
 integer
 :   Integer value that specifies the number of columns to span.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 This property was originally imported as ms-grid-column-span.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Grid Layout](http://go.microsoft.com/fwlink/p/?linkid=215213), Section 6
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Grid Layout</span>
+#### Grid Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 

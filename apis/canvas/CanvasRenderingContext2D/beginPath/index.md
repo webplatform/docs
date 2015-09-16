@@ -20,23 +20,23 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/beginPath
 
 ---
-## <span>Summary</span>
+## Summary
 
 Empties the list of subpaths in the context's current default path so that it once again has zero subpaths.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  context.beginPath();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 This is a full example that uses beginPath to create two stroked lines.
 
@@ -80,11 +80,11 @@ var ctx = canvas.getContext('2d');
                 ctx.beginPath();
 ```
 
-## <span>Notes</span>
+## Notes
 
 A path consists of a list of zero or more subpaths. Each subpath is a list of one or more points that are connected by straight or curved lines. Each subpath also contains a flag that indicates whether the subpath is closed. If a subpath is closed, the last point of the subpath is connected to the first point by a straight line. Subpaths that have fewer than two points are ignored when the path is painted.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

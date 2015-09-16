@@ -22,7 +22,7 @@ uri: css/properties/ruby-position
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `ruby-position`
@@ -48,7 +48,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `ruby-position: inter-character`
 -   `ruby-position: left`
@@ -56,7 +56,7 @@ Percentages
 -   `ruby-position: right`
 -   `ruby-position: under`
 
-## <span>Values</span>
+## Values
 
 over
 :   The ruby text appears on top the base in horizontal text.
@@ -75,9 +75,9 @@ inter-character
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

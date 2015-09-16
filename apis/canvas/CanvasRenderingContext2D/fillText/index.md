@@ -22,42 +22,42 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/fillText
 
 ---
-## <span>Summary</span>
+## Summary
 
 Renders the given text at the given (x, y) coordinates, ensuring that the text isn't wider than maxWidth (if specified), using the current font, textAlign, and textBaseline values.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.fillText(text, x, y, maxWidth);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>text</span>
+### text
 
  Data-type
 :   String
 
  The text characters to paint on the canvas.
 
-### <span>x</span>
+### x
 
  Data-type
 :   Number
 
  The horizontal coordinate to start painting the text at, relative to the canvas.
 
-### <span>y</span>
+### y
 
  Data-type
 :   Number
 
  The vertical coordinate to start painting the text, relative to the canvas.
 
-### <span>maxWidth</span>
+### maxWidth
 
  Data-type
 :   Number
@@ -66,7 +66,7 @@ var object = object.fillText(text, x, y, maxWidth);
 
 The maximum possible text width. If the value is less than the [width](/apis/canvas/TextMetrics/width) property, the text is scaled to fit.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -79,7 +79,7 @@ This method can return one of these values.
 |S\_OK|The operation completed successfully.|
 |SecurityError|The current font is not of the same origin or domain as the document that owns the canvas element.|
 
-## <span>Examples</span>
+## Examples
 
 This example sets a font for upcoming text, then places the value of a string variable onto the canvas.
 
@@ -95,7 +95,7 @@ ctxt.fillText(text, 50, 75);
 </script>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation

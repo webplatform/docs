@@ -20,11 +20,11 @@ tags:
 uri: css/properties/voice-volume
 
 ---
-## <span>Summary</span>
+## Summary
 
 The voice-volume property sets the volume for spoken content in speech media. It replaces the deprecated volume property.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `medium`
@@ -47,13 +47,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Speech Module](http://www.w3.org/TR/css3-speech/#mixing-props-voice-volume)
 :   W3C Candidate Recommendation

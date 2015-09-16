@@ -14,11 +14,11 @@ tags:
 uri: css/atrules/@import
 
 ---
-## <span>Summary</span>
+## Summary
 
 Imports an external style sheet.
 
-## <span>Examples</span>
+## Examples
 
 The following example uses the **@import** rule to import a style sheet. For the example to work, you must replace `URL` in the example code with the address of a style sheet.
 
@@ -38,22 +38,22 @@ The following example, without `url()`, has the same effect as the previous exam
 </STYLE>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The rule has no default value. The semicolon in the syntax is required; if omitted, the style sheet is not imported properly and an error message is generated. "url()" is optional because there is always a URL following "@import." The **@import** rule, like the **link** element, links an external style sheet to a document. This helps the Web author establish a consistent "look" across multiple HTML pages. Whereas the **link** element specifies the name of the style sheet to import using its [**href**](/html/attributes/href) attribute, the **@import** rule specifies the style sheet definition inside a **link** element or a **style** element. In the scripting model, this means the [**owningElement**](/css/cssom/styleSheet/owningElement) property of the style sheet defined through the **@import** rule is either a **style** or a **link** object. The **@import** rule should occur at the start of a style sheet, before any declarations. You can place **@import** rule statements anywhere within the style sheet definition, but the rules contained within the **@import** rule style sheet are applied to the document before any other rules defined for the containing style sheet. This rule order affects expected rendering. Rules in the style sheet override rules in the imported style sheet.
 
-### <span>Syntax</span>
+### Syntax
 
 @import
 
-### <span>Parameters</span>
+### Parameters
 
 *sUrl*
 :   String that specifies the URL that references a cascading style sheet.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Cascading and Inheritance Level 3](http://www.w3.org/TR/css3-cascade/)
 :   W3C Working Draft
@@ -61,11 +61,11 @@ The rule has no default value. The semicolon in the syntax is required; if omitt
 [CSS 2.1, section 6.3](http://www.w3.org/TR/CSS2/cascade.html#at-import)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Layout</span>
+#### CSS Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -109,7 +109,7 @@ The rule has no default value. The semicolon in the syntax is required; if omitt
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### <span>Syntax</span>
+#### Syntax
 
 -   [@charset](/css/atrules/@charset)
 
@@ -131,7 +131,7 @@ The rule has no default value. The semicolon in the syntax is required; if omitt
 
 -   [!important](/css/syntax/!important)
 
-### <span>Related pages</span>
+### Related pages
 
 -   `imports`
 -   `:link`

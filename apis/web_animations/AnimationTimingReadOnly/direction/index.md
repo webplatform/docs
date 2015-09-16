@@ -21,13 +21,13 @@ tags:
 uri: 'apis/web animations/AnimationTimingReadOnly/direction'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The playback direction of the animation node as specified by one of the PlaybackDirection enumeration values.
 
 Property of [apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)[apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -35,7 +35,7 @@ Property of [apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/
 var result = element.direction;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 

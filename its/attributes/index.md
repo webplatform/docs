@@ -10,7 +10,7 @@ tags:
 uri: its/attributes
 
 ---
-## <span>Summary</span>
+## Summary
 
 Index page for ITS attributes.
 

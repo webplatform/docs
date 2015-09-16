@@ -7,7 +7,7 @@ tags:
 uri: tutorials/design
 
 ---
-## <span>Summary</span>
+## Summary
 
 A small overview of different design tutorials.
 

@@ -22,13 +22,13 @@ tags:
 uri: apis/xhr/XMLHttpRequest/readyState
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the current state of the XMLHttpRequest.
 
 Property of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,7 +36,7 @@ Property of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttp
 var state = xhr.readyState;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned shortunsigned short
 
@@ -48,7 +48,7 @@ Returns one of the following values:
 -   LOADING (3): Downloading; [**responseText**](/apis/xhr/XMLHttpRequest/responseText) holds partial data.
 -   DONE (4): The operation is complete.
 
-## <span>Examples</span>
+## Examples
 
 Prints a message to the console log during each state of the request.
 
@@ -73,11 +73,11 @@ xhr.onreadystatechange = handler;
 xhr.send();
 ```
 
-## <span>Notes</span>
+## Notes
 
 You cannot call the **responseText** property to obtain partial results (**readyState** = 3). Doing so will return an error, because the response is not fully received. You must wait until all data has been received. See [**onreadystatechange**](/apis/xhr/XMLHttpRequest/readystatechange).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft

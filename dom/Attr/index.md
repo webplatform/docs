@@ -12,29 +12,29 @@ tags:
 uri: dom/Attr
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents the DOM concept of a markup attribute.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
 **Note**: This interface used to inherit from [Node](/dom/Node) and may still inherit from it in some browsers, but this inheritance is deprecated and you must assume that Node members are not available under this interface.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Core](http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-637646024)
 :   Recommendation

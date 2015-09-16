@@ -12,11 +12,11 @@ uri: 'tutorials/webgl a simple shader'
 **By Erik Möller, Chris Mills**
 Originally published June 27, 2012
 
-## <span>Summary</span>
+## Summary
 
 This article explains how to create a simple shader, building on the example created in the getting started with WebGL article.
 
-## <span>Introduction</span>
+## Introduction
 
 In the last part of this article series — [getting started with WebGL](/tutorials/getting_started_with_webgl), we introduced you to the world of writing raw WebGL (look ma, no libraries). We got you set up and showed you how to create a couple of very basic examples along with some simple error handling, and we explained basic concepts such as the WebGL rendering pipeline.
 
@@ -24,7 +24,7 @@ In this article, we will carry on where we left off, going further with the same
 
 **Note**: [Access the full WebGL 101 code example set](https://github.com/emoller/WebGL101) and links to see the examples running live, at Github
 
-## <span>Making a rectangle out of our triangle</span>
+## Making a rectangle out of our triangle
 
 To build up this example step by step, start with the minimal draw code from the last article and follow the steps below. You can also view the minimal draw example from [the full WebGL 101 code example set](https://github.com/emoller/WebGL101) to see what the code so far does, and view the minimal shader example 03-minimal-shader.html also from [the full WebGL 101 code example set](https://github.com/emoller/WebGL101) to see what the end result from this tutorial will be.
 
@@ -57,7 +57,7 @@ gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
 
 Figure 1: An exciting green rectangle, rendered using WebGL.
 
-## <span>Making our example more flexible</span>
+## Making our example more flexible
 
 At the moment, we have some hard-coded data to define features of the shape, such as the colour, size and number of items. Let's make this more flexible, defining these in the buffer instead. First of all, add the following lines below the `gl.bufferData` line (just above the ascii square):
 
@@ -75,7 +75,7 @@ gl.vertexAttribPointer(program.vertexPosAttrib, vertexPosBuffer.itemSize, gl.FLO
 
  This is good, as it makes the code more generic, and able to handle drawing a wider variety of shapes more easily.
 
-## <span>Improving the shaders</span>
+## Improving the shaders
 
 The shaders are currently written inside strings, which is awkward to work with. To improve this, we will put them inside their own \<script\> elements. Put two new `<script>` elements in between the two existing ones, one for the vertex shader and one for the fragment shader. Give them `id`s and `type`s as shown:
 
@@ -132,7 +132,7 @@ Now try testing your code — you should end up with an altogether more colourfu
 
 Figure 2: Our rectangle now has a much more exciting look to it.
 
-## <span>Offsetting the texture coordinates</span>
+## Offsetting the texture coordinates
 
 Now let's look at how to offset our texture coordinates. To start with, we will add a uniform to our vertex shader — this is a constant that is passed into the shader. Add the following line into the `vshader` `<script>` element, below the `varying...` line:
 
@@ -170,7 +170,7 @@ vTexCoord = aVertexPosition + uOffset;
 
 Figure 3: Offsetting the gradient texture gives us a nicer, more yellowy effect.
 
-## <span>Reusing code</span>
+## Reusing code
 
 Now let's have a look at putting some of our reusable code into a utility file so we can make it available easily wherever we need. Take the whole of the following code chunk that generates our Quad:
 

@@ -8,11 +8,11 @@ tags:
 uri: 'tutorials/styling lists and links'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article covers styling fundamentals for lists and links.
 
-## <span>Introduction</span>
+## Introduction
 
 Many elements on a webpage are a little bit "forgiving" in terms of design — if they're not "just right" it doesn't matter too much. With lists and links it's a different story — if you don't get them right, you can cause some serious problems for people trying to use your website.
 
@@ -20,11 +20,11 @@ Links in particular have some key style requirements and user expectations. Poor
 
 In this article we'll look at the core skills you need to create robust list and link styles. We'll also discuss some ways to avoid key pitfalls of these elements and produce a final result that will work across different browsers, and be accessible to users with disabilities.
 
-## <span>Styling Lists</span>
+## Styling Lists
 
 First, let's go through the basics of styling lists with CSS, before then moving on to look at some slightly more complicated techniques.
 
-### <span>Basic bullets and numbers</span>
+### Basic bullets and numbers
 
 The fundamental thing to consider when creating a list style is what form of bullet or numbering you want to use. You might also choose to remove the bullets and numbers completely. As you learned in the [HTML Lists](/guides/html_lists) article, there are many options available, set using the `list-style-type` property.
 
@@ -48,7 +48,7 @@ Some common list types are shown in Figure 2:
 
 Note that the bullets and numbers will be rendered using the `color` which is set for or inherited by the `li`. If you need the bullet to be a different colour from the text, you will need to use an image instead, or work around the issue using other elements within the list items (this may be easy if all the items are links, for example).
 
-### <span>Custom bullets using images</span>
+### Custom bullets using images
 
 The standard set of bullets are enough for basic content, however it is a common design request to replace them with a custom image.
 
@@ -96,11 +96,11 @@ By setting the image to sit at the top of the list item, you maintain the defaul
 
 *Figure 5: A demonstration of top-aligned bullet images on a multi-line list item.*
 
-### <span>List margins and padding</span>
+### List margins and padding
 
 Clever use of margins and padding can make lists look much more polished and professional, but you need to know what you are doing, and also bear in mind that the situation differs between different types of list. In this section I'll take you through applying sensible margins and padding to the two most common types of list.
 
-#### <span>Unordered lists</span>
+#### Unordered lists
 
 One thing you will probably notice quite quickly is that the default style for lists indents them more than the default style for paragraphs—see Figure 6:
 
@@ -138,7 +138,7 @@ So, to align the *bullets* to the left you can now set a margin on the list item
 
 *Figure 8: Bullets positioned together with the surrounding paragraphs.*
 
-#### <span>Ordered lists</span>
+#### Ordered lists
 
 Now you need to consider the same issue as applied to ordered lists. They are trickier since the numeric markers are aligned according to the list item with the largest number. For example, if you have 10 list items, decimals will be positioned to allow for the two-digit "10" item, as seen in Figure 9:
 
@@ -169,7 +169,7 @@ You need *at least*2em of left margin to accomodate both ordered and unordered l
 
 *Figure 11: The text lines up in both ordered and unordered lists.*
 
-#### <span>So, what to do?</span>
+#### So, what to do?
 
 You basically have three choices:
 
@@ -179,7 +179,7 @@ You basically have three choices:
 
 There is no "right" or "wrong" approach and it is quite common to simply leave things to the default settings for lists in general content.
 
-### <span>Using list-style-position</span>
+### Using list-style-position
 
 If you want the text of multi-line list items to wrap below the list marker, you will need to set the `list-style-position` property to `inside`, which produces the result seen in Figure 12:
 
@@ -189,7 +189,7 @@ If you want the text of multi-line list items to wrap below the list marker, you
 
 Inside positioned markers is not an especially popular style. By default `list-style-position` is set to `outside`, which produces the results discussed elsewhere in this article.
 
-### <span>What about definition lists?</span>
+### What about definition lists?
 
 In general, definition lists don't require a huge amount of attention, except to set a `dt` style (commonly bold text) and control the indentation of the definitions:
 
@@ -209,7 +209,7 @@ This sets up a clear and easy style for definition lists, as seen in Figure 13:
 
 Although definition lists can be rearranged with floats and positioning, they are quirky and generally it's better to keep things simple. They are useful enough as they are, just with a little help to make the definition terms stand out more; and to get the definitions to indent nicely.
 
-### <span>Nested lists</span>
+### Nested lists
 
 In the [HTML Lists](/guides/html_lists) article you learned about nesting lists. When you create your CSS you should be careful to maintain clear design cues to show the relationship between a nested list and the list that contains it. By far the most common way to do this is by indenting the nested list items—it is in fact the default setting across the browsers.
 
@@ -226,7 +226,7 @@ If you set up your own list indentation, your base setting will simply be multip
 
 Each subsequent child list item in the chain inherits the `margin` value from its parent list item, in addition to having another 2em of its own added on top. So a top level list item (one that doesn't have a list item as a parent element) will have a left margin of 2em, then a child list item of the first list item will inherit 2em from its parent, and then have another 2em added on to it, for a total of 4em … and so on.
 
-### <span>Horizontal lists</span>
+### Horizontal lists
 
 One of the most common changes required to work with a list is to produce a horizontal list—that is, to make the items appear next to each other instead of one after the other. This is a common trick for site navigation. Let's use an example from the navigation menus article (see Figure 14):
 
@@ -260,7 +260,7 @@ In the example the list has the ID "mainmenu" so we'll use that as a contextual 
 
 In this simple example, setting the list items to `display: inline;` is enough; be aware that using `float: left;` will also achieve a similar look. You will learn more about [floats](/tutorials/floats_and_clearing) elsewhere in this tutorial group.
 
-### <span>Faux columns</span>
+### Faux columns
 
 Earlier on we created a list of RSS feeds. Now let's imagine that list has been placed in a sidebar on your site. The designer wants the list to appear in two columns, with a border around the whole group as seen in Figure 16.
 
@@ -330,15 +330,15 @@ We now have the desired two column effect, as seen in Figure 19:
 
 *Figure 19: The completed list.*
 
-#### <span>Legacy browsers</span>
+#### Legacy browsers
 
 If you are required to produce this design for older browsers that don't support inline-block, then you will need to float the list items to the left in all browsers and use a clearing fix like the one described in the article [Clearing a float container without source markup](http://www.positioniseverything.net/easyclearing.html). Thankfully the latest round of browser releases has made `inline-block` a viable display property, so unless you have a very large browser share for older browsers such as Firefox 2 you should be able to use the `inline-block` method.
 
-### <span>Lists conclusion</span>
+### Lists conclusion
 
 We've now covered a core set of styling choices and methods for lists. You can build on these examples and combine them to create a large number of designs. Since lists are very commonly combined with links, let's move on to links.
 
-## <span>Styling Links</span>
+## Styling Links
 
 Styling links can be a bit of an art form. There are many different requirements at play and it can be hard to accommodate them all, while still creating an aesthetically pleasing result. That said, it is quite possible so long as you keep some simple rules in mind:
 
@@ -348,7 +348,7 @@ Styling links can be a bit of an art form. There are many different requirements
 
 If you follow those rules you should produce links that are clear and easy to use.
 
-### <span>Understanding link states</span>
+### Understanding link states
 
 Before you can style links, you need to understand the different **link states**. There are five states in total: unvisited/default, visited, focus, hover and active.
 
@@ -364,7 +364,7 @@ You should always specify CSS for every one of these states. Each one conveys in
 
 Note that these states are not all mutually exclusive (although it is not really possible for a link to be unvisited and visited at the same time)—it is however perfectly possible for a link to be hovered, active and visited at the same time.
 
-### <span>How browser evolution set expectations</span>
+### How browser evolution set expectations
 
 To better understand some common user expectations about links, it helps to know a little web history.
 
@@ -380,7 +380,7 @@ While this did get a bit monotonous it was *consistent* — and **it set the bas
 
 Some sites still use blue and purple links; and those link colours are still the default for unstyled content in most browsers. While you can always go retro and stick with this colour set, users are generally quite comfortable with other options—within certain boundaries.
 
-### <span>User expectations</span>
+### User expectations
 
 There are some general rules for user expectations regarding links:
 
@@ -397,7 +397,7 @@ These expectations translate to some simple coding rules:
 -   set styles for all link states
 -   only use underlining for links
 
-### <span>Use colour carefully</span>
+### Use colour carefully
 
 When you are styling links, be careful not to rely entirely on colour to distinguish between link states. Not everyone can see colour the same (eg people with colour blindness), so you should use colour *and* styles like different underlines, icons or reversed colours.
 
@@ -411,11 +411,11 @@ The Colour Contrast Analyser (see Figure 21) allows you to use a colour picker t
 
 If all four results show a pass, the colour combination is ok. Remember to check all link states. You may need to enter some of them manually in the "hex" field to check focus, hover and active.
 
-### <span>Getting down to business: the CSS</span>
+### Getting down to business: the CSS
 
 Now that you understand some ground rules for links, let's get into some code—this section details all the CSS you'll need to sucessfully style links.
 
-#### <span>Styling link states in the right order</span>
+#### Styling link states in the right order
 
 First off, be aware that if you do not place your links styles in the right order in your stylesheet, the settings will override each other and the link states won't work. Your link styles must always be in the following order:
 
@@ -448,7 +448,7 @@ If you want to set a CSS rule for all links in all states, you can style `a` dir
 
 This is useful if you are planning to replace the default underline with a bottom border, which is a common way to gain better visual control of the style.
 
-#### <span>Controlling defaults</span>
+#### Controlling defaults
 
 By default, most browsers set all links to have an underline and focus state links to have an outline, as illustrated in Figure 22:
 
@@ -458,7 +458,7 @@ By default, most browsers set all links to have an underline and focus state lin
 
 If you are replacing these styles with something else, you can change or disable these defaults.
 
-##### <span>Underlining</span>
+##### Underlining
 
 Underlining is set using the [text-decoration](http://www.w3.org/TR/REC-CSS2/text.html#lining-striking-props) property:
 
@@ -474,7 +474,7 @@ You can disable the underline by setting the property to `none`:
 
 Even if you are conserving the underline style, you may find it easier to disable `text-decoration` and use `border-bottom` to set a faux underline. We will go through this in the example below.
 
-##### <span>Outline</span>
+##### Outline
 
 The focus outline is controlled by the [outline](http://www.w3.org/TR/REC-CSS2/ui.html#dynamic-outlines) property. Outline is much the same as border, but it does not take up space or cause the page to re-flow when it appears (note that it is not supported in IE7 and below either). The easiest way to control outline is with the shorthand property:
 
@@ -490,7 +490,7 @@ This example would be rendered something like Figure 23:
 
 If you are in doubt about what to do with the outline, simply leave the outline to the browser default.
 
-### <span>Example: recreating the Netscape defaults</span>
+### Example: recreating the Netscape defaults
 
 As an easy example of link styles, let's recreate the Netscape defaults of blue, purple and red. We'll keep the underline, but extend the active state to use italics. We'll increase the text size for the sake of the example and set the page to use a white background:
 
@@ -531,7 +531,7 @@ This should produce something like Figure 24:
 
 *Figure 24: recreating the Netscape defaults.*
 
-#### <span>Faux underlines using border-bottom</span>
+#### Faux underlines using border-bottom
 
 Many designers have observed that underlining is a bit thick and cuts through descenders of lowercase type—that is, the line goes through the bottom of g, j, p, q and y. This is illustrated in figure 25:
 
@@ -592,7 +592,7 @@ This should produce something like Figure 27:
 
 If you do use the faux border method, be careful that you have sufficient `line-height` set to avoid the underline clashing with the next row of text.
 
-#### <span>Styles that don't rely on colour</span>
+#### Styles that don't rely on colour
 
 Since the example so far relies purely on colour to distinguish four of the five link states, we should take the next step and change the bottom border for visited, focus and hover. Let's give visited links a dotted border, and hovered and focused links a dashed border:
 
@@ -644,7 +644,7 @@ Accepting focus and hover as equivalent styled states, this method means the lin
 
 *Figure 29: The link states are now distinguishable even in black and white.*
 
-### <span>Icons on links</span>
+### Icons on links
 
 Some sites use icons and symbols to add information about their links. For example, some sites use an arrow to indicate that a link goes to an external site; or they use a tick to show the link has been visited.
 
@@ -674,7 +674,7 @@ This example would apply the icon to all instances of visited links, in all stat
 
 Combining classes and states opens up a wide range of creative possibilities for your links. Remembering to check your colours, your only limitation from this point is creativity.
 
-## <span>Bringing it all together—a simple navigation menu</span>
+## Bringing it all together—a simple navigation menu
 
 To illustrate one way to bring lists and links together, the examples zip includes a simple flyout navigation menu, as seen in Figure 31. Flyout menus are a very common navigation system.
 
@@ -682,9 +682,9 @@ To illustrate one way to bring lists and links together, the examples zip includ
 
 *Figure 31: Screenshot of the example flyout menu.*
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [WCAG Samurai Errata for WCAG 1.0](http://www.wcagsamurai.org/errata/errata.html), with specific reference to [Guideline 2. Don’t rely on colour alone](http://www.wcagsamurai.org/errata/errata.html#GL2).
 -   [Type and Colour (a chapter from Building Accessible Websites, by Joe Clark)](http://joeclark.org/book/sashay/serialization/Chapter09.html)
@@ -693,7 +693,7 @@ To illustrate one way to bring lists and links together, the examples zip includ
 -   [Resource Center—Contrast Analyser 2.0 (Paciello Group)](http://www.paciellogroup.com/resources/contrast-analyser.html)
 -   [A List Apart: CSS Sprites: Image Slicing’s Kiss of Death](http://alistapart.com/articles/sprites)
 
-### <span>Exercise questions</span>
+### Exercise questions
 
 -   How do you choose between basic list styles, for example square bullets or Roman Numerals on an ordered list?
 -   What is an image sprite and why would you use one?

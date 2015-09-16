@@ -10,17 +10,17 @@ tags:
 uri: javascript/statements/this
 
 ---
-## <span>Summary</span>
+## Summary
 
 Refers to the current object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     this.property
 
-## <span>Examples</span>
+## Examples
 
 In the following example, **this** refers to the newly created Car object, and assigns values to three properties:
 
@@ -46,15 +46,15 @@ document.getElementById("clicker").addEventListener("click", eventHandler, false
  // Output (when you click the button): [object HTMLButtonElement]
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required property argument is one of the current object's properties
 
 The this keyword can be used in object constructors to refer to the current object.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [new Operator](/javascript/operators/new)
 

@@ -25,13 +25,13 @@ tags:
 uri: apis/audio-video/AudioTrack/label
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the label of the given track, if known, or the empty string otherwise.
 
 Property of [apis/audio-video/AudioTrack](/apis/audio-video/AudioTrack)[apis/audio-video/AudioTrack](/apis/audio-video/AudioTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,11 +39,11 @@ Property of [apis/audio-video/AudioTrack](/apis/audio-video/AudioTrack)[apis/aud
 var result = AudioTrack.label;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <video id="video1" controls  >
@@ -70,7 +70,7 @@ Returns an object of type StringString
 
 [View live example](http://samples.msdn.microsoft.com/Workshop/samples/media/showtracks.htm)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

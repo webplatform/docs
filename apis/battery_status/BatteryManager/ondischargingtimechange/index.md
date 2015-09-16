@@ -24,20 +24,20 @@ tags:
 uri: 'apis/battery status/BatteryManager/ondischargingtimechange'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Handles the dischargingtimechange event.
 
 Property of [apis/battery\_status/BatteryManager](/apis/battery_status/BatteryManager)[apis/battery\_status/BatteryManager](/apis/battery_status/BatteryManager)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = battery.ondischargingtimechange;
 battery.ondischargingtimechange = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type functionfunction
 

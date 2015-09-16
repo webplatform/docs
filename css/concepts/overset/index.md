@@ -9,7 +9,7 @@ tags:
 uri: css/concepts/overset
 
 ---
-## <span>Summary</span>
+## Summary
 
 Refers to a situation in which the final region of a region chain is unable to fully display remaining content of a named flow.
 
@@ -25,7 +25,7 @@ There are two ways to programatically detect overset state:
 
 For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
 
-## <span>Examples</span>
+## Examples
 
 The following example defines a set of content and a region chain into which to present it. Resulting layout scenarios are illustrated in subsequent examples:
 
@@ -144,16 +144,16 @@ section.layout > div { flow-from: main; }
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Regions</span>
+#### Regions
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -211,7 +211,7 @@ section.layout > div { flow-from: main; }
 
 -   [flow-into](/css/properties/flow-into)
 
-### <span>External resources</span>
+### External resources
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)

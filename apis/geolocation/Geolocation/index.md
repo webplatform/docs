@@ -12,15 +12,15 @@ tags:
 uri: apis/geolocation/Geolocation
 
 ---
-## <span>Summary</span>
+## Summary
 
 The Geolocation object is used by scripts to programmatically determine the location information associated with the hosting device. The location information is acquired by applying a user-agent specific algorithm, creating a Position object, and populating that object with appropriate data accordingly.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -34,11 +34,11 @@ API Name
 [watchPosition](/apis/geolocation/Geolocation/watchPosition)
 :   Returns a long value that uniquely identifies a watch operation and then asynchronously starts the watch operation.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 The geolocation API is published through a geolocation child object within the navigator object. If the object exists, geolocation services are available.
 
@@ -109,11 +109,11 @@ function getLocationUpdate(){
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 Windows Internet Explorer 9. The **Geolocation** object is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility. The **Geolocation** object is not supported for applications hosting the WebBrowser Control.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

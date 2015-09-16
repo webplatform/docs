@@ -21,14 +21,14 @@ uri: dom/HTMLInputElement/selectionStart
 ---
 Property of [dom/HTMLInputElement](/dom/HTMLInputElement)[dom/HTMLInputElement](/dom/HTMLInputElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.selectionStart;
 element.selectionStart = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following code example shows how to set a text selection's start and end positions.
 
@@ -53,15 +53,15 @@ The following code example shows how to set a text selection's start and end pos
 </html>
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `input type=text`
 -   `textArea`

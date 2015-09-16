@@ -23,11 +23,11 @@ tags:
 uri: css/properties/flex-flow
 
 ---
-## <span>Summary</span>
+## Summary
 
 The flex-flow CSS property defines the flex container's main and cross axis. It is a shorthand property for the flex-direction and flex-wrap properties.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `See individual properties.`
@@ -50,11 +50,11 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `flexFlow`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `flex-flow: <flex-direction> <flex-wrap>`
 
-## <span>Values</span>
+## Values
 
 \<flex-direction\> \<flex-wrap\>
 :   The shorthand value includes the values of the following properties:
@@ -62,7 +62,7 @@ Animatable
 -   [flex-direction](/css/properties/flex-direction)
 -   [flex-wrap](/css/properties/flex-wrap)
 
-## <span>Examples</span>
+## Examples
 
 Displaying children in a row wrapping to the next line.
 
@@ -87,16 +87,16 @@ flex-flow: row;
 
 [View live example](http://code.webplatform.org/gist/5506026)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Flexible Box Layout Module](http://www.w3.org/TR/css3-flexbox/#flex-flow-property)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Flexbox</span>
+#### Flexbox
 
 -   [align-content](/css/properties/align-content)
 
@@ -122,7 +122,7 @@ flex-flow: row;
 
 -   [justify-content](/css/properties/justify-content)
 
-### <span>External resources</span>
+### External resources
 
 Also, check out the following live demo sites:
 

@@ -22,7 +22,7 @@ uri: dom/Error/colno
 
 Property of [dom/Error](/dom/Error)[dom/Error](/dom/Error)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.colno;
@@ -31,10 +31,10 @@ element.colno = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 You can use [**lineno**](/dom/Error/lineno) and **colno** to pinpoint and debug where script errors occur.
 
-### <span>Syntax</span>
+### Syntax

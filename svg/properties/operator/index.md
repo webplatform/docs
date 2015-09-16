@@ -11,20 +11,20 @@ tags:
 uri: svg/properties/operator
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If you want to thin a graphic, set the **operator** to **erode**. If you want to thicken a graphic, set the **operator** to **dilate**.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.23
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFEMorphologyElement**](/svg/elements/feMorphology)

@@ -14,11 +14,11 @@ tags:
 uri: dom/DOMError
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a DOM operation error object.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -29,21 +29,21 @@ API Name
 [name](/dom/DOMError/name)
 :   Returns the name of an error that occurred during a DOM operation.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 While similar to [**DOMException**](/dom/DOMException) objects, **DOMError** objects represent errors that are generated through other means, such as return values. (**DOMException** objects are thrown as exceptions.) Both objects return similar values, so it is possible to create general handlers to respond to either type of error.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `DOMException`
 -   `DOM Error Codes`

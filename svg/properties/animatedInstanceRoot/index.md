@@ -11,22 +11,22 @@ tags:
 uri: svg/properties/animatedInstanceRoot
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If the **xlink:href** attribute is being animated, the **animatedInstanceRoot** property contains the current animated root of the instance tree. If the **xlink:href** attribute is not currently being animated, **animatedInstanceRoot** contains the same value as the [**instanceRoot**](/svg/properties/instanceRoot) property.
 
 For more information about the instance tree, see [**SVGElementInstance**](/svg/objects/SVGElementInstance).
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.8
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGUseElement**](/svg/elements/use)

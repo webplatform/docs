@@ -10,7 +10,7 @@ uri: 'tutorials/css transitions'
 ---
 **By Mike Sierra**
 
-## <span>Summary</span>
+## Summary
 
 CSS transitions offer the easiest way to animate an interface. CSS is used everywhere to control how web pages appear, and shifts from one set of style sheets to another ordinarily occur abruptly. Adding transition properties allows most of those changes to occur gradually, for a more vibrant, fluid interface.
 
@@ -40,7 +40,7 @@ These key points serve as reference:
 
 -   The **transitionend** event (or **webkitTransitionEnd**) fires at the end of a transition for each property that animates.
 
-## <span>The transition property</span>
+## The transition property
 
 For transitions to work, there need to be two sets of style sheets that might apply to any element as users interact with the page. In this case, tapping a small **nav** element expands it out to a wider navigation panel:
 
@@ -107,7 +107,7 @@ To see the animation in action, all you need is a mechanism to apply the *expand
 
 You'll notice that transitions respond very gracefully by reversing direction if you re-toggle the class while the animation is executing.
 
-## <span>Parallel transitions</span>
+## Parallel transitions
 
 We want the panel to display a set of nested navigation icons, in this case a set of horizontal **div** elements. A second [**transition**](/css/properties/transition) property animates these nested elements depending on the state of their parent **nav** element:
 
@@ -135,7 +135,7 @@ For an element to be transitioned, it must specify a numeric value or percentage
 
 **Note:** Generated content can be transitioned, but only by separately styling the [::before](https://docs.webplatform.org/wiki/css/selectors/pseudo-elements/::before) and [::after](https://docs.webplatform.org/wiki/css/selectors/pseudo-elements/::after) selectors.
 
-## <span>Sequential transitions</span>
+## Sequential transitions
 
 You are not limited to a single set of transitions to get from one set of style sheets to another. The panel in this example first grows to its full width, then lengthens. The sequence is then reversed when collapsing the panel back down to icon size:
 
@@ -212,7 +212,7 @@ The overall movement is staggered like this:
 
 <span id="timing"></span>
 
-## <span>Timing functions</span>
+## Timing functions
 
 You may notice in the example above that the cards are not evenly spaced. That's because transitions by default start out slowly, gather speed, then slow down again at the end. The [**transition-timing-function**](/css/properties/transition-timing-function) property specifies this behavior. By default it uses an **ease** value. If it were **linear**, they would all start and stop abruptly and move at the same speed:
 
@@ -248,7 +248,7 @@ As an alternative to response curves, the **steps()** function specifies a serie
 
     transition-timing-function : steps(5);
 
-## <span>The transitionend event</span>
+## The transitionend event
 
 The **transitionend** event allows an application to respond after a transition finishes executing. The event fires on the element that is being transitioned, once for each property, and *only* if the specified transition actually modifies content.
 
@@ -290,7 +290,7 @@ Note the various provisional names for the event: **webkitTransitionEnd** (WebKi
 
 <span id="advanced"></span>
 
-## <span>Advanced image transitions</span>
+## Advanced image transitions
 
 While it's pretty obvious which properties can be transitioned, some browsers are adding support for a couple of unusual ones. So far these non-standard features can only be found in Webkit browsers.
 
@@ -324,8 +324,8 @@ The [**filter**](/css/properties/filter) property allows you to apply sequences 
 
 Unlike [**transform**](/css/properties/transform) functions, [**filter**](/css/properties/filter) functions must be explicitly declared in each style sheet in the exact same order if they are to transition.
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [CSS Transitions: W3C Working Draft](http://www.w3.org/TR/css3-transitions/)

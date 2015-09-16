@@ -24,14 +24,14 @@ uri: dom/HTMLElement/clientWidth
 
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.clientWidth;
 element.clientWidth = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example shows how the **clientWidth** property and the [**offsetWidth**](/dom/HTMLElement/offsetWidth) property measure document width differently. The width of the **div** is set to 200, and this is the value retrieved by the **offsetWidth** property, not the **clientWidth** property.
 
@@ -43,4 +43,4 @@ This example shows how the **clientWidth** property and the [**offsetWidth**](/d
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clientWidth.htm)
 
-### <span>Syntax</span>
+### Syntax

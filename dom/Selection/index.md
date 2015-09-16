@@ -15,15 +15,15 @@ tags:
 uri: dom/Selection
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents the text selection in the greater page, possibly spanning multiple elements, when the user drags over static text and other parts of the page.
 
-## <span>Overview</span>
+## Overview
 
 Selection is the class of the object returned by [window.getSelection()](/dom/Window/getSelection) and other methods. For information about text selection in an individual text editing element, see [Input](/dom/HTMLInputElement), [TextArea](/dom/HTMLTextAreaElement) and [document.activeElement](/dom/Document/activeElement) which typically return the parent object returned from window.getSelection().
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -49,7 +49,7 @@ API Name
 [typeDetail](/dom/Selection/typeDetail)
 :
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -94,11 +94,11 @@ API Name
 [selectAllChildren](/dom/Selection/selectAllChildren)
 :   Adds all the children of the specified node to the selection. Previous selection is lost.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 A selection object represents the ranges that the user has selected. Typically, it holds only one range, accessed as follows:
 
@@ -107,7 +107,7 @@ var selObj = window.getSelection();
 if(selObj.rangeCount){ range  = selObj.getRangeAt(0);}
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Proposed Recommendation

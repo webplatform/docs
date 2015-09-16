@@ -9,15 +9,15 @@ tags:
 uri: 'tutorials/your first look at javascript'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Now it is time to get your hands dirty. This article provides a basic introduction to coding with JavaScript.
 
-## <span>Introduction</span>
+## Introduction
 
 In this article of the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum), we will cover the basics of JavaScript — how and where to use it, what problems to avoid, and general basics to get you started on your journey towards becoming a top-notch JavaScript developer.
 
-## <span>What is JavaScript and how do you execute it?</span>
+## What is JavaScript and how do you execute it?
 
 JavaScript is a text-based language that does not need any conversion before being executed. Other languages like [Java and C++ need to be compiled to be executable](http://dev.opera.com/articles/view/38-programming-the-real-basics/#interpreted) but JavaScript is executed instantly by a type of program that interprets the code called a parser (pretty much all web browsers contain a JavaScript parser).
 
@@ -25,7 +25,7 @@ To execute JavaScript in a browser you have two options — either put it inside
 
 JavaScript does not have to stay inside browsers. To run JavaScript in console environment, please check out [Mozilla Rhino](https://developer.mozilla.org/en-US/docs/Rhino/Download_Rhino); to run JavaScript in server environment, please check [node.js](http://nodejs.org/).
 
-### <span>Including your JavaScript inside your HTML document</span>
+### Including your JavaScript inside your HTML document
 
 The most basic inclusion of JavaScript inside your HTML page would look something like this:
 
@@ -62,7 +62,7 @@ In the past there was a need to comment out JavaScript with an HTML comment to p
 
  However, for strict XHTML documents, it is much more sensible not to embed any JavaScript but instead keep it in an external document.
 
-### <span>Linking to an external JavaScript file</span>
+### Linking to an external JavaScript file
 
 In order to link to an external JavaScript (either on the same server or anywhere on the internet) all you have to do is to add a `src` attribute to your script element:
 
@@ -87,7 +87,7 @@ In order to link to an external JavaScript (either on the same server or anywher
 
 You can add as many JavaScript files as you want to a document, but there are several considerations to make before going down that route.
 
-## <span>JavaScript and browser performance</span>
+## JavaScript and browser performance
 
 Cutting up a lot of JavaScript into different files, each dealing with one task at a time, is a great idea to keep your functionality easy to maintain and allow for quick bug-fixing. For example, you could have several script blocks like these:
 
@@ -111,7 +111,7 @@ One way around this is to use a backend script to create a single file from all 
 
 The delay in display also defines where you want to put your JavaScript in the document.
 
-## <span>Where to put JavaScript</span>
+## Where to put JavaScript
 
 Technically you can put JavaScript anywhere in your document. The decision you have to make is to weigh performance against making it easy for developers to find your scripts and ensuring that your JavaScript enhancements work immediately for your visitors.
 
@@ -174,7 +174,7 @@ It is up to you to choose what fits the purpose of your website; you could even 
 
  Whatever you do, make sure that the order of your scripts is right, as browsers will load and parse them one after the other. This also brings us to another thing to consider when using JavaScript.
 
-## <span>JavaScript security and the lack thereof</span>
+## JavaScript security and the lack thereof
 
 We cannot stress this enough. JavaScript is a wonderful language and can help you to build highly responsive and beautifully interactive web sites and applications, but where it falls down terribly is security. In short, there is no security model in JavaScript and you should not protect, encrypt, secure, or store anything vital or secret with it.
 
@@ -188,7 +188,7 @@ JavaScript is always readily available for reading and analyzing by other develo
 
 Whereas packing and obfuscation are useless as security measures, they are often done on medium and large scripts before the code is put live on the web as part of the publication process. This helps to cut down on the amount of bandwidth required to serve the site to its users. Saving a few bytes here and there may not seem significant on your blog about kittens, but it can add up to massive savings when you are dealing with a site with usage figures like those of google.com.
 
-## <span>Techniques to avoid</span>
+## Techniques to avoid
 
 The biggest problem with learning JavaScript is that there is a massive amount of outdated and possibly dangerous information out there. This is especially frustrating as a lot of this information is very well presented and gives a lot of beginners a “quick win” feeling of knowing JavaScript by copying and pasting some ready-made code.
 
@@ -199,9 +199,9 @@ As the environment JavaScript is being applied to is very much unknown (users ca
 -   `<a href="javascript:doStuff()">…</a>` — this was a very common way to invoke JavaScript functionality, most of the time when a button was not an option (you cannot style buttons in older browsers). The problem is that this is not a valid link as `javascript` is not an internet protocol (like `ftp://` or `http://`). If JavaScript is turned off the link still appears and gives the user false hope that something is going to happen.
 -   `document.layers` and `document.all` — both of these solutions were the DOM equivalents in old browsers (Netscape 4.x and Internet Explorer 4 respectively) and unless you need to support those (sorry if you have to) this is unnecessary code.
 
-## <span>See also</span>
+## See also
 
-### <span>Exercise Questions</span>
+### Exercise Questions
 
 -   What does the following link do and what problems can that cause?
 

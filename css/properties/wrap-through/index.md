@@ -17,11 +17,11 @@ tags:
 uri: css/properties/wrap-through
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies whether an element inherits its parent's wrapping context as defined by the wrap-flow property.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `wrap`
@@ -44,12 +44,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `wrap-through: none`
 -   `wrap-through: wrap`
 
-## <span>Values</span>
+## Values
 
 wrap
 :   The element inherits its parent node's wrapping context. Its descendant inline content wraps around exclusions defined outside the element.
@@ -57,7 +57,7 @@ wrap
 none
 :   The element ignores its parent's wrapping context. Its descendent inline content only wraps around exclusions defined inside this element.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* wrap */
@@ -71,19 +71,19 @@ wrap-through: none;
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Top half of image below illustrates "wrap-through:wrap"; bottom half illustrates "wrap-through:none".
 
 ![wrap-flow:start applied to grid positioned elements](/assets/public/2/27/exclusion_wrap_through.png)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Exclusions Module Level 1](http://dev.w3.org/csswg/css-exclusions/)
 :   Editor's Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [wrap-flow](/css/properties/wrap-flow)

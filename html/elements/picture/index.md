@@ -20,11 +20,11 @@ tags:
 uri: html/elements/picture
 
 ---
-## <span>Summary</span>
+## Summary
 
 Control which image resource a user agent presents to a user, based on media query and/or support for a particular image format.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLPictureElement](/dom/HTMLPictureElement)
@@ -33,11 +33,11 @@ The **picture** element (`<picture>`) addresses use cases that are left unaddres
 
 Other use cases, such as matching media features and media types and matching on supported image formats, are also addressed by this element.
 
-### <span>Attributes</span>
+### Attributes
 
 This element supports the HTML5 [global attributes](/html/global_attributes).
 
-## <span>Examples</span>
+## Examples
 
 **Art direction use case::** This example shows the basic usage of the picture element for responsive images and art direction.
 
@@ -93,7 +93,7 @@ This element supports the HTML5 [global attributes](/html/global_attributes).
 </picture>
 ```
 
-## <span>Usage</span>
+## Usage
 
      The picture element is not a general replacement for the img element. When there is only a single image source, authors should use <img> as usual.
 
@@ -103,7 +103,7 @@ The picture element requires `<img>` nested as the last child; without the img e
 
 For accessibility, place alternative text for all images in the `alt` attribute of the img element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [RICG](http://picture.responsiveimages.org/)
 :   Superseded
@@ -111,13 +111,13 @@ For accessibility, place alternative text for all images in the `alt` attribute 
 [WHATWG](http://www.whatwg.org/specs/web-apps/current-work/multipage/embedded-content.html#embedded-content)
 :   Living Standard
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [\<img\> Element](http://docs.webplatform.org/wiki/html/elements/img)
 -   [\<source\> Element](http://docs.webplatform.org/wiki/html/elements/source)
 
-### <span>External resources</span>
+### External resources
 
 -   [Responsive Images: Use Cases and Documented Code Snippets to Get You Started](http://dev.opera.com/articles/responsive-images/)

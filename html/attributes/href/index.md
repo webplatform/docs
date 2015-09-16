@@ -13,7 +13,7 @@ tags:
 uri: html/attributes/href
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves a destination URL or an anchor point
 
@@ -29,7 +29,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 Using `a` and `href` to link to the top-level page in the same domain.
 
@@ -58,9 +58,9 @@ Using `a` and `href` to link to a telephone number.
 <a href="tel:5555551212">Call us!</a>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 When specified for an [**a**](/html/elements/a) element (also called an *anchor element*), **HREF** defines a link to another document or another location within the document containing the **a** element. By default, the text between the opening and closing tags of the anchor element is underlined and the location specified by the **HREF** attribute is loaded when the user activates the link.
 
@@ -70,14 +70,14 @@ When specified for an [**a**](/html/elements/a) element (also called an *anchor 
 
 **Note**  As of Microsoft Internet Explorer 6 Service Pack 1 (SP1), browsing a local machine from the Internet zone is not allowed. For example, if an Internet site contains a link to a local file, Internet Explorer 6 SP1 and later displays a blank page when a user clicks on the link. Previous versions of Windows Internet Explorer followed the link to the local file.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 12.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `a`
 -   `area`

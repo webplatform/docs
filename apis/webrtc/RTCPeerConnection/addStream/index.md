@@ -17,23 +17,23 @@ tags:
 uri: apis/webrtc/RTCPeerConnection/addStream
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds a new stream to the RTCPeerConnection.
 
 Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  element.addStream();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 /*
@@ -62,7 +62,7 @@ error = function(err){
 navigator.getUserMedia({audio: true, video: true}, success, error);
 ```
 
-## <span>Usage</span>
+## Usage
 
      If the RTCPeerConnection object's readyState is closed, throws an INVALID_STATE exception.
 

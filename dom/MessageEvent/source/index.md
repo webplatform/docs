@@ -25,13 +25,13 @@ tags:
 uri: dom/MessageEvent/source
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the window object that sent the message.
 
 Property of [dom/MessageEvent](/dom/MessageEvent)[dom/MessageEvent](/dom/MessageEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [dom/MessageEvent](/dom/MessageEvent)[dom/MessageEvent](/dom/Message
 var sourceWindow = event.source;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 
@@ -47,11 +47,11 @@ The window that sent the message.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 In cross-document messaging, this property provides access to the **window** object that sent the message.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft

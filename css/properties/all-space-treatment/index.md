@@ -18,11 +18,11 @@ tags:
 uri: css/properties/all-space-treatment
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the treatment of all consecutive white space characters (with no exception for line feed characters).
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `collapse`
@@ -48,12 +48,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `all-space-treatment: collapse`
 -   `all-space-treatment: preserve`
 
-## <span>Values</span>
+## Values
 
 collapse
 :   The white space characters are collapsed according to the rules described in [white space processing](http://www.w3.org/TR/2003/CR-css3-text-20030514/#white-space-processing).
@@ -61,7 +61,7 @@ collapse
 preserve
 :   All white space characters are rendered as they are.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* preserve */
@@ -70,7 +70,7 @@ p.asis {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514)
 :   W3C Candidate Recommendation

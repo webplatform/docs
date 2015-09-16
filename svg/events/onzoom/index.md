@@ -16,7 +16,7 @@ uri: svg/events/onzoom
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -72,9 +72,9 @@ Default action
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **onzoom** event occurs when the zoom level of a document view is changed through a direct user interaction or any change to the [**currentScale**](/svg/properties/currentScale) property that is available on the [**svg**](/svg/elements/svg) element. This event applies only to the outermost **svg** element and is dispatched after the zoom-level modification occurs.
 
@@ -82,19 +82,19 @@ Changes the document's zoom level or [**currentScale**](/svg/properties/currentS
 
 -   The user changes the zoom level of the document or the value of the [**svg**](/svg/elements/svg) element's [**currentScale**](/svg/properties/currentScale) property.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Scripting](http://go.microsoft.com/fwlink/p/?linkid=204745), Section 18.4.3
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvt* [in]
 :   Type: **IDOMUIEvent**The [**IDOMEvent**](/w/index.php?title=dom/objects/Event&action=edit&redlink=1) object.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGSVGElement**](/svg/elements/svg)

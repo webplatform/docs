@@ -6,7 +6,7 @@ tags:
 uri: 'tutorials/Colour schemes and design mockups'
 
 ---
-## <span>Introduction</span>
+## Introduction
 
 After a web designer presents a site’s architecture, or wireframe, to a client for approval, the next step is to determine the look and feel of the site through colour and graphics. In this [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum) article, I’ll demonstrate how I keep this process as simple as possible, both for myself and for the client. I believe in the KISS philosophy—Keep It Simple, Sweetie. There are two reasons for the use of this tactic: First, life is complicated enough without adding more curves; secondly, a simple plan also helps to keep a site more accessible and usable for all concerned. In this article, you will:
 
@@ -15,7 +15,7 @@ After a web designer presents a site’s architecture, or wireframe, to a client
 -   Build a mock-up for the client to decide on the colour and graphics.
 -   Consider how to test the web site before it goes "live".
 
-## <span>First step: considering typography</span>
+## First step: considering typography
 
 You will learn some more about the technical aspects of typography in our [typography article](http://dev.opera.com/articles/view/11-typography-on-the-web/); now I will look at a few aspects of it that you will find useful at this stage.
 
@@ -29,7 +29,7 @@ Personally, I usually use Verdana for body copy and Times Roman or Georgia for h
 
 As you’ll see shortly, I decided to stay with Verdana for body copy in the example site, but since the logo was built upon Arial Black, I also used that sans-serif typeface for all the headings. Sometimes you need to break your own rules, and this layout provides a prime example for that contingency. But first, allow me to explain the difference between typefaces, and why I keep my choices so simple.
 
-### <span>About typefaces or fonts</span>
+### About typefaces or fonts
 
 There are four main types of fonts and they are as follows:
 
@@ -67,7 +67,7 @@ It is for this reason that, as a web designer, you must learn to let go of the f
 
 With that said, type designers and programmers continuously try to find ways to make fonts [more legible and beautiful](http://brainstormsandraves.com/articles/typography/webfonts/). So, take what I say with a grain of salt and try something new if you think it will work. You’ll find out soon enough if it doesn’t pan out when you test that web page across a number of browsers yourself (a task I’ll explain later in this article).
 
-### <span>About readability and legibility</span>
+### About readability and legibility
 
 When you show your web page design to a client, he or she usually won’t know the difference between a serif or a sans-serif typeface. All that client will know is whether or not he or she can read the content on that page. So, in the end, legibility is what matters. To that end, you need to make sure that:
 
@@ -84,7 +84,7 @@ Figure 5: A sample of an appropriate width for body copy, displayed on a large s
 
 Last, but not least, be sure to check your body copy and headlines for typographical and spelling errors. I found at least one typographical error and a few spelling errors in approximately half the links I provided thus far for this article. While it’s human to err, a company’s or an individual’s credibility can be marred by poor spelling and with words that lack spaces or other issues that can easily be resolved.
 
-## <span>Second step: add typography</span>
+## Second step: add typography
 
 Once you’ve chosen the fonts you’ll use for the site, you’ll need to layout the headings, subheads and body copy in the site layout. In the previous article, I introduced an imaginary company, “Wiki Whatevers”, a business that wanted to share their code snippets on a web site as open source material. I designed a site architecture for approval, and I am happy to report that they loved the ideas that I presented! Although this wireframe seems stark, it avoids any placement of graphics or images that may give the client a preconceived notion of where things “might” go, including the company logo. The image of that wireframe is shown below in Figure 6:
 
@@ -102,7 +102,7 @@ The copy above adds “colour” to the site, although the only colour has been 
 
 While I say I used body copy, in reality I used a “filler” provided by the [Lorem Ipsum generator](http://www.lipsum.com/). This “fake” body copy can stand in for real copy if you want to design a site and the copy remains unavailable to you.
 
-### <span>Attention to alignment</span>
+### Attention to alignment
 
 At this point, I want to show how I made the decision to place the copy where it is as far as alignment. Alignment means how copy is positioned in a certain area. You can align it to the left, and leave “ragged” edges to the right, which is a traditional layout. Or, you can center the copy, or make it justified (aligned both right and left equally), or align it so the right edges are straight and the left edges are ragged.
 
@@ -128,7 +128,7 @@ Granted, a design may encounter some issues in different browsers. The text may 
 
 Some of you may wonder why I didn’t choose Arial Black for the subheads as well as for the name of the company. I chose to remain with my faithful choice of Times New Roman as this serif face adds contrast to the site, a design principle that adds interest to a page. The overall use of Arial Black for all the headings would make this site appear bland.
 
-## <span>Third step: colour</span>
+## Third step: colour
 
 When I prepare a web site mock up for a client, I usually try to take it as far as possible after the initial wireframe has been developed before I show the samples to the client again. When possible, I prefer to use code rather than an image for the wireframe. This way I can drop in elements such as the logo, body copy, and even mocked-up ads to show the client how everything will appear on the final page. With such a complete layout, the client has no delusions about what the page will look like with all elements in place. Then, the client can make decisions about what can be added or removed. Additionally, when I can show a client a web page on a computer just as it would appear on the web, the client can visualise how that page would look if he visited it in real-time.
 
@@ -178,7 +178,7 @@ The nice thing about web design is that it isn’t print design. Print is foreve
 
 As I build more pages, I’ll take the finished pages on to the next and final step before they go to the client once again.
 
-## <span>Fourth step: testing</span>
+## Fourth step: testing
 
 Testing a web page means that the designer will go through all web pages with a fine-toothed comb to look for a variety of errors so they can be fixed before the site goes “live”. You have several options for this testing, as several tests need to be conducted.
 
@@ -189,7 +189,7 @@ Testing a web page means that the designer will go through all web pages with a 
 
 This testing is a tedious business, and you may discover in the process that your lovely design will stay lovely across some browsers, but may end up looking like last week’s spaghetti warmed over in some of the others. The most important thing to remember is the content—if the content is visible and legible in all browsers, then that fraction of a space that’s bothering you at the top of the header in that one browser isn’t that important. If the majority of that site’s users have no problem gaining access to the online materials within the site that you designed, then you’ve accomplished a goal that many designers neglect in favor of a design that they believe will win awards.
 
-## <span>Summary</span>
+## Summary
 
 While colour and layout hold great appeal to the designer, other design elements must be dealt with as well. Typography, images, and the ability to blend in a client’s needs for advertising and monetisation all play a part in web site design. The demands placed upon a designer to go with the flow of a client’s desires, to meet the needs of a readership that demands accessible and usable sites, and still create a great design can seem overwhelming at times.
 
@@ -197,7 +197,7 @@ Even more frustrating is the lack of compatibility among different browsers. Alt
 
 On the other hand, the progress toward a more compatible environment and an exciting new era of web functionality can prove an exciting challenge to web designers today. And to think—it’s been less than thirty years since home computers were widely available on the retail market. Think about what the next decade might bring to the designer who is willing to stay abreast of all the changes!
 
-## <span>Exercise questions</span>
+## Exercise questions
 
 -   What are the four main types of fonts?
 -   Which fonts are best for body copy and why?

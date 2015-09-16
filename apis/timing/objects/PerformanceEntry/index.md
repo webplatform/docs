@@ -14,7 +14,7 @@ uri: apis/timing/objects/PerformanceEntry
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -22,24 +22,24 @@ API Name
 [performance](/apis/timing/properties/performance)
 :
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Performance Timeline](http://go.microsoft.com/fwlink/p/?linkid=257685)
 
-### <span>Members</span>
+### Members
 
 The **PerformanceEntry** object has these types of members:
 
 -   [\#properties Properties]
 
-#### <span>Properties</span>
+#### Properties
 
 The **PerformanceEntry** object has these properties. {

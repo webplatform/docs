@@ -10,11 +10,11 @@ tags:
 uri: Beginners/programming
 
 ---
-## <span>Summary</span>
+## Summary
 
 Before we go any further, let's look at the programming basics you'll need to know before you can start getting your hands dirty with JavaScript.
 
-## <span>Beginners submenu</span>
+## Beginners submenu
 
 The **[Beginners](/Beginners)** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 

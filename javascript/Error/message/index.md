@@ -10,11 +10,11 @@ tags:
 uri: javascript/Error/message
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns an error message string.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,7 +23,7 @@ Returns an error message string.
 **errorObj**
 :   Required. Instance of Error object.
 
-## <span>Examples</span>
+## Examples
 
 The following example causes a TypeError exception to be thrown and displays the name of the error and its message.
 
@@ -52,15 +52,15 @@ Error Message: 'y' is undefined
  Error Name: TypeError
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The message property returns a string that contains an error message associated with a specific error.
 
 The description and message properties provide the same functionality. The description property provides backwards compatibility; the message property complies with the ECMA standard.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [description Property (Error)](/javascript/Error/description)
 -   [name Property (Error)](/javascript/Error/name)

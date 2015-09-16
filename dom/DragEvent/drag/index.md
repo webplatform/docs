@@ -14,7 +14,7 @@ uri: dom/DragEvent/drag
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -68,7 +68,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example shows when and where each event fires during a drag-and-drop operation by listing each event and the name of the object firing it in a list box.
 
@@ -108,9 +108,9 @@ function ShowResults()
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/DragDropEventsEX.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This event fires on the source object after the event. The **ondrag** event fires throughout the drag operation, whether the selection being dragged is over the drag source, a valid target, or an invalid target. Calls the associated event handler if there is one. To invoke this event, do one of the following:
 
@@ -119,13 +119,13 @@ This event fires on the source object after the event. The **ondrag** event fire
 -   Drag a text selection or object to a drop target in another application.
 -   Drag a text selection or object to the system desktop.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

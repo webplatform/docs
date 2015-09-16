@@ -23,28 +23,28 @@ tags:
 uri: dom/Range/cloneContents
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a document fragment containing the nodes of a range. If any nodes are partially selected, their start or end nodes are included.
 
 Method of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.cloneContents(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>oDocumentFragment</span>
+### oDocumentFragment
 
  Data-type
 :   any
 
  Returns a document fragment object.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -58,7 +58,7 @@ This method can return one of these values.
 |InvalidStateError|detach has been invoked on the object.|
 |W3Exception\_DOM\_HIERARCHY\_REQUEST\_ERR|A document type node is included in the range that is being cloned.|
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var range = document.createRange();
@@ -67,10 +67,10 @@ var documentFragment = range.cloneContents();
 document.body.appendChild(documentFragment);
 ```
 
-### <span>Syntax</span>
+### Syntax
 
 documentFragment = range.cloneContents();
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13

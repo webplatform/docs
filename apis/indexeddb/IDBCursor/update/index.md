@@ -27,26 +27,26 @@ todo_broken_links:
 uri: apis/indexeddb/IDBCursor/update
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a structured clone of the value parameter.
 
 Method of [apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)[apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.update(value);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>value</span>
+### value
 
  Data-type
 :   Blob
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -56,9 +56,9 @@ An object representing the update request.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This method can throw the following [**DOMException**](/dom/DOMException) exceptions:
 
@@ -131,8 +131,8 @@ This method can throw the following [**DOMException**](/dom/DOMException) except
 
   **Note**  As of Internet Explorer 10, the **code** property is deprecated in favor of the **name** property, which is preferred for standards compliance and future compatibility.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

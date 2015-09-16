@@ -21,7 +21,7 @@ tags:
 uri: 'apis/web animations/AnimationNode/replace'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Replaces this AnimationNode with the passed in nodes.
 
@@ -29,15 +29,15 @@ If there is no parent animation group, terminate these steps. If any of the anim
 
 Method of [apis/web animations/AnimationNode](/apis/web_animations/AnimationNode)[apis/web animations/AnimationNode](/apis/web_animations/AnimationNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = .replace();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 

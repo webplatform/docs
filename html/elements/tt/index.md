@@ -23,18 +23,18 @@ tags:
 uri: html/elements/tt
 
 ---
-## <span>Summary</span>
+## Summary
 
 The teletype element (&lt;tt&gt;) creates monospaced text. It's use is deprecated in favour of semantic elements like &lt;code&gt; and CSS styles. However, the tt element is still widely supported in browsers.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
 This feature is supported in HTML4, but is non-conforming in HTML5. Use CSS instead.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **TT** element to render text in a fixed-width font.
 
@@ -42,16 +42,16 @@ This example uses the **TT** element to render text in a fixed-width font.
 <TT>Here's some plain text.</TT>
 ```
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 15.2.1
 
-### <span>HTML information</span>
+### HTML information
 
 {
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `xmp`

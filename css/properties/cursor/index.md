@@ -25,11 +25,11 @@ tags:
 uri: css/properties/cursor
 
 ---
-## <span>Summary</span>
+## Summary
 
 The cursor CSS property specifies the mouse cursor displayed when the mouse pointer is over an element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -55,13 +55,13 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `cursor: standard values`
 -   `cursor: url() hotspot-x hotspot-y, keyword;`
 -   `cursor: url(), keyword`
 
-## <span>Values</span>
+## Values
 
 standard values
 :   There are many standard cursors available:
@@ -116,7 +116,7 @@ You can supply multiple `url()` functions separated by commas (`url(), url(), au
 url() hotspot-x hotspot-y, keyword;
 :   CSS3 allows you to specify a custom cusor image along with an X and Y number values for the pointer hotspot, for example `cursor:  url(cursor2.png) 2 2, auto;`. If not specified, the hotspot position defaults to the top left corner of the cursor image, or may be read from the meta data inside the image file, in the case of CUR and XBM format files.
 
-## <span>Examples</span>
+## Examples
 
 To make the cursor appear like it's busy
 
@@ -128,11 +128,11 @@ To make the cursor appear like it's busy
 
 [View live example](https://code.webplatform.org/gist/9b54d2d8dc9bc94382d5)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Visual Effects</span>
+#### Visual Effects
 
 -   [color](/css/color)
 

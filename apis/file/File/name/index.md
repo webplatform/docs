@@ -22,13 +22,13 @@ tags:
 uri: apis/file/File/name
 
 ---
-## <span>Summary</span>
+## Summary
 
 The name of the file; on getting, this must return the name of the file as a string. There are numerous file name variations on different systems; this is merely the name of the file, without path information. On getting, if user agents cannot make this information available, they must return the empty string.
 
 Property of [apis/file/File](/apis/file/File)[apis/file/File](/apis/file/File)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,11 +36,11 @@ Property of [apis/file/File](/apis/file/File)[apis/file/File](/apis/file/File)
 var result = File.name;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
-## <span>Examples</span>
+## Examples
 
 This example lets you select one or more files, then reports each file's name and last modified date/time.
 
@@ -60,11 +60,11 @@ function shownd() {
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 This property returns the name of the file as a string. There are numerous file name variations on different systems; this property is merely the name of the file, without path information. If the file name cannot be obtained, `name` contains an empty string.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft

@@ -24,20 +24,20 @@ tags:
 uri: dom/DataTransfer/effectAllowed
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets which kinds of data transfer operations are allowed for the object. Can be set (during the dragstart event) to change the allowed operations.
 
 Property of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTransfer)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var effectAllowed = event.dataTransfer.effectAllowed;
 event.dataTransfer.effectAllowed = newEffectAllowed;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -53,7 +53,7 @@ One of the following values:
 -   all
 -   uninitialized
 
-## <span>Examples</span>
+## Examples
 
 This example uses the [**dropEffect**](/dom/DataTransfer/dropEffect) and **effectAllowed** properties of the [**DataTransfer**](/dom/DataTransfer) object to display the move cursor.
 
@@ -146,7 +146,7 @@ property to display the move cursor. The default action must be canceled in all 
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/effectAllowedEX.htm)
 
-## <span>Notes</span>
+## Notes
 
 Set the **effectAllowed** property in the [**ondragstart**](/dom/DragEvent/dragstart) event. This property is used most effectively with the [**dropEffect**](/dom/DataTransfer/dropEffect) property.
 
@@ -154,7 +154,7 @@ This property can be used to override the default behavior in other applications
 
 By setting **effectAllowed** to **none**, dropping is disabled but the no-drop cursor is still displayed. To avoid displaying the no-drop cursor, cancel the [**returnValue**](/dom/BeforeUnloadEvent/returnValue) of the [**ondragstart**](/dom/DragEvent/dragstart) window.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation

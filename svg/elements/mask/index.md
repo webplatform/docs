@@ -16,12 +16,12 @@ uri: svg/elements/mask
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 In the following code example, an alpha mask is used to filter text. A linear gradient is defined that runs from magenta to cyan. A mask is then defined that will use the gradient to filter defined text. Alpha masking uses the image brightness to define the opacity of the final image. Magenta is less "bright" than cyan, so the resulting masked image will be less opaque on the left and more opaque on the right.
 
@@ -63,9 +63,9 @@ The masked text will look like this:
 
 </pre>
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -94,11 +94,11 @@ The effect of a mask is the same as if there is no mask, but the alpha channel o
 
 **Note:** The paths, shapes (for example, circle), and text in SVG are all treated as four-channel RGBA images for the purposes of masking operations.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Clipping, Masking and Compositing](http://go.microsoft.com/fwlink/p/?linkid=199810), Section 14.6.2
 
-### <span>Members</span>
+### Members
 
 The **SVGMaskElement** object has these events:
 

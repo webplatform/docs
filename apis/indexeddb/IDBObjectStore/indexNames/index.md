@@ -19,13 +19,13 @@ tags:
 uri: apis/indexeddb/IDBObjectStore/indexNames
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides a list of the names of indexes on objects in this object store.
 
 Property of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.indexNames;
@@ -34,4 +34,4 @@ element.indexNames = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax

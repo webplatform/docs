@@ -24,13 +24,13 @@ tags:
 uri: css/cssom/styleSheet/ownerRule
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the CSS Rule that imported the style sheet, if any.
 
 Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,7 +38,7 @@ Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](
 var rule = stylesheet.ownerRule;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -46,18 +46,18 @@ Of type CSSRule. Returns a CSSImportRule or null.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 If the style sheet comes from an [**@import**](/css/atrules/@import) rule, the **ownerRule** property will contain a [**CSSImportRule**](/css/cssom/CSSImportRule) object, and the [**ownerNode**](/css/cssom/styleSheet/ownerNode) property will be `null`. If the style sheet comes from a link, the **ownerRule** property will be `null`, and the **ownerNode** will contain the node.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `styleSheet`
 -   `cssRules`

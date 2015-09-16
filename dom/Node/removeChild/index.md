@@ -23,34 +23,34 @@ tags:
 uri: dom/Node/removeChild
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes a child node from a node.
 
 Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var removedNode = node.removeChild(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>oldChild</span>
+### oldChild
 
  Data-type
 :   Blob
 
  The node to be removed from the document.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The removed node.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **removeChild** method to remove a bold element from a **div**.
 
@@ -92,11 +92,11 @@ while (element.lastChild) {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 The node to be removed must be an immediate child of the parent node. This method is accessible at run time. If elements are removed at run time, before the closing tag is parsed, areas of the document might not render.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

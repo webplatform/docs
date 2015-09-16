@@ -22,35 +22,35 @@ tags:
 uri: apis/canvas/CanvasGradient/addColorStop
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds a new stop to a gradient. If offset is less than 0 or greater than 1 then an IndexSizeError exception must be thrown. If the color cannot be parsed as a CSS &lt;color&gt; value, then a SyntaxError exception must be thrown. Otherwise the gradient must have a new stop placed, at offset offset relative to the whole gradient, and with the color obtained by parsing color as a CSS &lt;color&gt; value.
 
 Method of [apis/canvas/CanvasGradient](/apis/canvas/CanvasGradient)[apis/canvas/CanvasGradient](/apis/canvas/CanvasGradient)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = CanvasGradient.addColorStop(offset, color);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>offset</span>
+### offset
 
  Data-type
 :   any
 
  A floating point value between 0.0 and 1.0 that represents the position between the start and end points in a gradient.
 
-### <span>color</span>
+### color
 
  Data-type
 :   any
 
  A CSS color string to display at the position that the *offset* parameter specifies.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -58,7 +58,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 The following code example creates a gradient.
 
@@ -95,11 +95,11 @@ function draw()
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
 You can call the **addColorStop** method multiple times to change a gradient. If you never call this method for [CanvasGradient](/apis/canvas/CanvasGradient), the gradient is not visible. You need to create at least one color stop to have a visible gradient.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

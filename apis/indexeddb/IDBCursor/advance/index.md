@@ -20,32 +20,32 @@ tags:
 uri: apis/indexeddb/IDBCursor/advance
 
 ---
-## <span>Summary</span>
+## Summary
 
 Advances the cursor by the specified number of records.
 
 Method of [apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)[apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  cursor.advance(count);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>count</span>
+### count
 
  Data-type
 :   Number
 
  A positive, non-zero integer value indicating the number of records to advance.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var dbOpenRequest = window.indexedDB.open("BookShop1");
@@ -70,7 +70,7 @@ dbOpenRequest.onsuccess = function(event){
 
 [View live example](http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Advance%20cursor&)
 
-## <span>Usage</span>
+## Usage
 
      Throws an exception if
 
@@ -78,13 +78,13 @@ dbOpenRequest.onsuccess = function(event){
 -   The transaction this IDBCursor belongs to is not active.
 -   The cursor is currently being iterated, or has iterated past its end.
 
-## <span>Notes</span>
+## Notes
 
 Calling this method more than once before new cursor data has been loaded is not allowed and results in a DOMException of type InvalidStateError being thrown. For example, calling advance() twice from the same onsuccess handler results in a DOMException of type InvalidStateError being thrown on the second call.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

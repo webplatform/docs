@@ -9,7 +9,7 @@ tags:
 uri: 'css/data types/text'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Various CSS data types are expressed using character text, however the meaning and syntax of each type differs.
 
@@ -23,7 +23,7 @@ Various CSS data types are expressed using character text, however the meaning a
 
 In addition, various [CSS functions](/css/functions) can be used to generate values of these or other data types.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 a[href$=".pdf"]::after {
@@ -51,7 +51,7 @@ a[href$=".pdf"]::after {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/)
 :   Candidate Recommendation

@@ -11,11 +11,11 @@ tags:
 uri: javascript/Date/setFullYear
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the year of the Date object using local time.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -33,7 +33,7 @@ Sets the year of the Date object using local time.
 **numDate**
 :   Optional. A numeric value equal for the day of the month.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **setFullYear** method:
 
@@ -53,7 +53,7 @@ var date1 = new Date("1/1/2001");
  // Monday, November 03, 2008 12:00:00 AM
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 All **set** methods taking optional arguments use the value returned from corresponding **get** methods, if you do not specify the optional argument. For example, if the numMonth argument is optional, but not specified, JavaScript uses the value returned from the **getMonth** method.
 
@@ -63,9 +63,9 @@ To set the year using Universal Coordinated Time (UTC), use the **setUTCFullYear
 
 The range of years supported in the date object is approximately 285,616 years before and after 1970.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getFullYear Method (Date)](/javascript/Date/getFullYear)
 -   [getUTCFullYear Method (Date)](/javascript/Date/getUTCFullYear)

@@ -26,13 +26,13 @@ uri: dom/HTMLFormElement/submit
 
 Method of [dom/HTMLFormElement](/dom/HTMLFormElement)[dom/HTMLFormElement](/dom/HTMLFormElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.submit();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -42,21 +42,21 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **submit** method does not invoke the **onsubmit** event handler. Call the **onsubmit** event handler directly.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `form`
 -   `Reference`

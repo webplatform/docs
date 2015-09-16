@@ -25,26 +25,26 @@ tags:
 uri: 'apis/user timing/PerformanceMark/entryType'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the DOMString &quot;mark&quot;.
 
 Property of [apis/user\_timing/PerformanceMark](/apis/user_timing/PerformanceMark)[apis/user\_timing/PerformanceMark](/apis/user_timing/PerformanceMark)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.entryType;
 element.entryType = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 DOMString
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // set begin mark
@@ -69,7 +69,7 @@ performance.clearMeasures("functionTime");
 performance.clearMarks();
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C User Timing Specification](http://www.w3.org/TR/user-timing/)
 :   W3C Recommendation

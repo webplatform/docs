@@ -10,13 +10,13 @@ tags:
 uri: 'tutorials/targetting css at different media'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article focuses on using media types to target CSS at different type of media — screen, print, etc.
 
 Many of the articles in this tutorial group have focused on the CSS properties and values that you can use to specify how to display a document. This page looks again at the purpose and structure of CSS stylesheets.
 
-## <span>Information: Media</span>
+## Information: Media
 
 The purpose of CSS is to specify how documents are presented to the user. Presentation can take more than one form.
 
@@ -24,7 +24,7 @@ For example, you are probably reading this page on a display device. But you mig
 
 To specify rules that are specific to a type of media, use **@media**, followed by the media type, followed by curly braces that enclose the rules.
 
-#### <span>Example</span>
+#### Example
 
 A document on a web site has a navigation area to allow the user to move around the site.
 
@@ -44,7 +44,7 @@ Some of the common media types are:
 |`projection`|Projected display|
 |`all`|All media (the default)|
 
-#### <span>More details</span>
+#### More details
 
 There are other ways to specify the media type of a set of rules.
 
@@ -58,7 +58,7 @@ There are other ways to specify the media type of a set of rules.
 
  There are more examples of the `display` property in a later page in this tutorial, [Styling XML with CSS](/tutorials/styling_xml_with_css).
 
-### <span>Printing</span>
+### Printing
 
 CSS has some specific support for printing and for paged media in general.
 
@@ -68,7 +68,7 @@ CSS has some specific support for printing and for paged media in general.
 
  You can control how the content of the document breaks across page boundaries, by using the `page-break-before`, `page-break-after` and `page-break-inside` properties.
 
-#### <span>Example</span>
+#### Example
 
 This rule sets the page margins to one inch on all four sides:
 
@@ -78,13 +78,13 @@ This rule ensures that every H1 element starts on a new page:
 
     h1 {page-break-before: always;}
 
-#### <span>More details</span>
+#### More details
 
 For full details of CSS support for paged media, see [Paged Media](http://www.w3.org/TR/css3-page/) in the CSS Specification.
 
  Like other features of CSS, printing depends on your browser and its settings. For example, your Mozilla browser supplies default margins, headers and footers when it prints. When other users print your document, you probably cannot predict the browser and the settings that they will use, so you probably cannot control the results completely.
 
-### <span>User interfaces</span>
+### User interfaces
 
 CSS has some special properties for devices that support a user interface, like computer displays. These make the document's appearance change dynamically as the user works with the interface.
 
@@ -115,7 +115,7 @@ An `outline` property creates an outline that is often used to indicate keyboard
 
  Some other features of user interfaces are implemented using attributes, in the normal way. For example, an element that is disabled or read-only has the **disabled** attribute or the **readonly** attribute. Selectors can specify these attributes like any other attributes, by using square brackets.
 
-#### <span>Example</span>
+#### Example
 
 These rules specify styles for a button that changes dynamically as the user interacts with it:
 
@@ -178,11 +178,11 @@ active
 </table>
 A fully functional button also has a dark outline around the entire button when it is the default, and a dotted outline on the face of the button when it has keyboard focus. It might also have a hover effect when the pointer is over it.
 
-#### <span>More details</span>
+#### More details
 
 For more information about user interfaces in CSS, see [User interface](http://www.w3.org/TR/css3-ui/) in the CSS Specification.
 
-## <span>Action: Printing a document</span>
+## Action: Printing a document
 
 1. Make a new HTML document, `doc4.html`. Copy and paste the content from here:
 
@@ -224,13 +224,13 @@ For more information about user interfaces in CSS, see [User interface](http://w
 
 4. Print (or print preview) the document; the stylesheet places each section on a separate page, and it adds a header and footer to each page. If your browser supports counters, it adds a page number in the footer.
 
-### <span>Challenges</span>
+### Challenges
 
 -   Move the print-specific style rules to a separate CSS file.
 -   Read the `@import` reference page to find details of how to import the new print-specific CSS file into your `style4.css` stylesheet.
 -   Make the headings turn blue when the mouse pointer is over them.
 
-## <span>What next?</span>
+## What next?
 
 So far, all the style rules in this tutorial have been specified in files. The rules and their values are fixed. The next page describes how you can change rules dynamically by using a programming language called **[JavaScript](/javascript)**.
 

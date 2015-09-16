@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/localeCompare
 
 ---
-## <span>Summary</span>
+## Summary
 
 Determines whether two strings are equivalent in the current locale.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Determines whether two strings are equivalent in the current locale.
 **stringExp**
 :   Required. String to compare to stringVar.
 
-## <span>Examples</span>
+## Examples
 
 The following code shows how to use **localeCompare**.
 
@@ -49,15 +49,15 @@ var str1 = "def";
  // Output: 0
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **localeCompare** performs a locale-sensitive string comparison of the stringVar and the stringExp and returns -1, 0, or +1, depending on the sort order of the system default locale.
 
 If stringVar sorts before stringExp , **localeCompare** returns -1; if stringVar sorts after stringExp , +1 is returned. A return value of zero means that the two strings are equivalent.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [toLocaleString Method (Object)](/javascript/Object/toLocaleString)
 

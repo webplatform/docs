@@ -22,13 +22,13 @@ tags:
 uri: css/properties/text-underline
 
 ---
-## <span>Summary</span>
+## Summary
 
 Unsupported.
 
 The 'text-underline' property is the shorthand for 'text-underline-style', 'text-underline-width', 'text-underline-color', 'text-underline-mode' and 'text-underline-position'.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `not defined for shorthand properties`
@@ -54,14 +54,14 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-underline: text-underline-color`
 -   `text-underline: text-underline-mode`
 -   `text-underline: text-underline-position`
 -   `text-underline: text-underline-style`
 
-## <span>Values</span>
+## Values
 
 text-underline-style
 :   This property specify the line style for underline.
@@ -81,7 +81,7 @@ text-underline-position
 
 Possible values: auto/before-edge/alphabetic/after-edge
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 
@@ -89,7 +89,7 @@ Possible values: auto/before-edge/alphabetic/after-edge
 
 [View live example](http://code.webplatform.org/gist/5779274)
 
-## <span>Usage</span>
+## Usage
 
      The property text-underline is not supported by any of listed new browsers (Chrome/FF/Opera/IE10).
 
@@ -97,15 +97,15 @@ Instead use **text-decoration: underline**.
 
 The possible exception is **text-underline-position**: <http://docs.webplatform.org/wiki/css/properties/text-underline-position>.
 
-## <span>Notes</span>
+## Notes
 
 The 'text-decoration' property has limitations stemming from its syntax, precluding fine control over each of those formatting effects. Specifically, it offers no way to control the color or line style of the underline, overline or line-through. CSS3 extends the model by introducing new properties allowing additional controls over those formatting effects. CSS3 also makes turning these formatting effects on or off possible without affecting any other 'text-decoration' settings.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Font</span>
+#### CSS Font
 
 -   [font-family](/css/properties/font-family)
 

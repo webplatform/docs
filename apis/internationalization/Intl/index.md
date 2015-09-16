@@ -11,23 +11,23 @@ tags:
 uri: apis/internationalization/Intl
 
 ---
-## <span>Summary</span>
+## Summary
 
 The Intl object serves as a namespace for the i18n API. It is a standard built-in object that is the initial value of the Intl property of the global object. It is not possible to use the Intl object as a constructor with the new operator. It is not possible to invoke the Intl object as a function.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 Checking if i18n API is supported.
 
@@ -37,7 +37,7 @@ if (Intl !== undefined) {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Internationalization Overview](http://www.w3.org/standards/webdesign/i18n)
 :   W3C Standard

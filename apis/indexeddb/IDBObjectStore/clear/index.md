@@ -26,23 +26,23 @@ tags:
 uri: apis/indexeddb/IDBObjectStore/clear
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes all records from the object store.
 
 Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var idbRequest = objectStore.clear();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 store = db.createObjectStore("store1", { autoIncrement: true });
@@ -54,7 +54,7 @@ store.clear(); // Clears all records from the store
 
 [View live example](http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Clear%20ObjectStore&)
 
-## <span>Usage</span>
+## Usage
 
      The method throws a DOMException if
 
@@ -62,8 +62,8 @@ store.clear(); // Clears all records from the store
 -   The mode of the transaction this IDBObjectStore belongs to is "readonly".
 -   Occurs if a request is made on a source object that has been deleted or removed.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

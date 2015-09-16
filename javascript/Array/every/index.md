@@ -11,11 +11,11 @@ tags:
 uri: javascript/Array/every
 
 ---
-## <span>Summary</span>
+## Summary
 
 Determines whether all the members of an array satisfy the specified test.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -27,11 +27,11 @@ Determines whether all the members of an array satisfy the specified test.
 **thisArg**
 :   Optional. An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
 
-## <span>Return Value</span>
+## Return Value
 
 true if the callbackfn function returns true for all array elements; otherwise, false. If the array is has no elements, the **every** method returns true.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **every** method.
 
@@ -91,7 +91,7 @@ The following example illustrates the use of the thisArg argument, which specifi
  //   All are within range.
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **every** method calls the callbackfn function one time for each array element, in ascending index order, until the callbackfn function returns false. If an element that causes callbackfn to return false is found, the **every** method immediately returns false. Otherwise, the every method returns true.
 
@@ -126,13 +126,13 @@ The following table describes the results of modifying the array object after th
 |Element is changed.|Yes, if that element has not yet been passed to the callback function.|
 |Element is deleted from the array.|No, unless that element has already been passed to the callback function.|
 
-## <span>Exceptions</span>
+## Exceptions
 
 If the callbackfn argument is not a function object, a **TypeError** exception is thrown.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.16 Array.prototype.every ( callbackfn [ , thisArg](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.16) )]
 

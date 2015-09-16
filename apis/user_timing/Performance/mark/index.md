@@ -19,32 +19,32 @@ tags:
 uri: 'apis/user timing/Performance/mark'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Stores a timestamp with the associated name (a &quot;mark&quot;).
 
 Method of [apis/user\_timing/Performance](/apis/user_timing/Performance)[apis/user\_timing/Performance](/apis/user_timing/Performance)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.mark(markName);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>markName</span>
+### markName
 
  Data-type
 :   any
 
  Name associated with the performance mark.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // set begin mark
@@ -66,13 +66,13 @@ performance.clearMeasures("functionTime");
 performance.clearMarks();
 ```
 
-## <span>Notes</span>
+## Notes
 
 Names for custom performance marks cannot duplicate the names of built-in performance marks.
 
 When mark names are reused, the previous timing values are replaced by the later timing values.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C User Timing Specification](http://www.w3.org/TR/user-timing/)
 :   W3C Recommendation

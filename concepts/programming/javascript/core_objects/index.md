@@ -70,17 +70,17 @@ todo_broken_links:
 uri: 'concepts/programming/javascript/core objects'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This chapter describes the predefined objects in core JavaScript: Array, Boolean, Date, Function, Math, Number, RegExp, and String.
 
-## <span>Array Object</span>
+## Array Object
 
 JavaScript does not have an explicit array data type. However, you can use the predefined `Array` object and its methods to work with arrays in your applications. The `Array` object has methods for manipulating arrays in various ways, such as joining, reversing, and sorting them. It has a property for determining the array length and other properties for use with regular expressions.
 
 An *array* is an ordered set of values that you refer to with a name and an index. For example, you could have an array called `emp` that contains employees' names indexed by their employee number. So `emp[1]` would be employee number one, `emp[2]` employee number two, and so on.
 
-### <span>Creating an Array</span>
+### Creating an Array
 
 To create an `Array` object, the following three statements are equivalent:
 
@@ -135,7 +135,7 @@ arr.length = 42;
 var arr = Array(9.3);  // RangeError: Invalid array length
 ```
 
-### <span>Populating an Array</span>
+### Populating an Array
 
 You can populate an array by assigning values to its elements. For example:
 
@@ -162,7 +162,7 @@ var myArray = new Array("Hello", myVar, 3.14159);
 var myArray = ["Mango", "Apple", "Orange"];
 ```
 
-### <span>Referring to Array Elements</span>
+### Referring to Array Elements
 
 You refer to an array's elements by using the element's ordinal number. For example, suppose you define the following array:
 
@@ -180,7 +180,7 @@ arr[2];  // three
 arr["length"];  // 3
 ```
 
-### <span>Understanding length</span>
+### Understanding length
 
 At the implementation level, JavaScript's arrays actually store their elements as standard object properties, using the array index as the property name. The `length` property is special; it always returns the index of the last element. Remember, Javascript Array indexes are 0-based: they start at 0, not 1. This means that the `length` property will be one more than the highest index stored in the array:
 
@@ -206,7 +206,7 @@ cats.length = 3;
 console.log(cats);  // [undefined, undefined, undefined]
 ```
 
-### <span>Iterating over arrays</span>
+### Iterating over arrays
 
 A common operation is to iterate over the values of an array, processing each one in some way. The simplest way to do this is as follows:
 
@@ -243,7 +243,7 @@ colors.forEach(function(color) {
 
 Since JavaScript elements are saved as standard object properties, it is not advisable to iterate through JavaScript arrays using for...in loops because normal elements and all enumerable properties will be listed.
 
-### <span>Array Methods</span>
+### Array Methods
 
 The `Array` object has the following methods:
 
@@ -445,7 +445,7 @@ alert(total) // Alerts 60
 
 `reduce` and `reduceRight` are the least obvious of the iterative array methods. They should be used for algorithms that combine two values recursively in order to reduce a sequence down to a single value.
 
-### <span>Multi-Dimensional Arrays</span>
+### Multi-Dimensional Arrays
 
 Arrays can be nested, meaning that an array can contian another array as an element. Using this characteristic of JavaScript arrays, multi-dimensional arrays can be created.
 
@@ -468,11 +468,11 @@ for (i = 0; i < 4; i++) {
     Row 2: [2,0] [2,1] [2,2] [2,3]
     Row 3: [3,0] [3,1] [3,2] [3,3]
 
-### <span>Arrays and Regular Expressions</span>
+### Arrays and Regular Expressions
 
 When an array is the result of a match between a regular expression and a string, the array returns properties and elements that provide information about the match. An array is the return value of [`RegExp.exec()`](/w/index.php?title=concepts/programming/javascript/core_objects/js/objects/RegExp/exec&action=edit&redlink=1), [`String.match()`](/w/index.php?title=concepts/programming/javascript/core_objects/js/objects/String/match&action=edit&redlink=1), and [`String.split()`](/w/index.php?title=concepts/programming/javascript/core_objects/js/objects/String/split&action=edit&redlink=1). For information on using arrays with regular expressions, see [Regular Expressions](/concepts/programming/javascript/regex).
 
-### <span>Working with Array-like objects</span>
+### Working with Array-like objects
 
 **Note**: Introduced in JavaScript 1.6
 
@@ -518,7 +518,7 @@ var numerologicalValue = Array.reduce(str, function (c, c2) c+c2.toLowerCase().c
 
  Note that `filter` and `map` do not automatically return the characters back into being members of a string in the return result; an array is returned, so we must use `join` to return back to a string.
 
-### <span>Array comprehensions</span>
+### Array comprehensions
 
 **Note**: Introduced in JavaScript 1.7
 
@@ -574,7 +574,7 @@ var interpolatedZeros = [c+'0' for each (c in str) ].join(''); // 'a0b0c0d0e0f0'
 
  Again, the input form is not preserved, so we have to use `join()` to revert back to a string.
 
-## <span>Boolean Object</span>
+## Boolean Object
 
 The `Boolean` object is a wrapper around the primitive Boolean data type. Use the following syntax to create a `Boolean` object:
 
@@ -584,7 +584,7 @@ var booleanObjectName = new Boolean(value);
 
  Do not confuse the primitive Boolean values `true` and `false` with the true and false values of the `Boolean` object. Any object whose value is not `undefined`, `null`, `0`, `NaN`, or the empty string , including a `Boolean` object whose value is false, evaluates to true when passed to a conditional statement. See [if...else Statement](/w/index.php?title=guides/JavaScript/Statements&action=edit&redlink=1) for more information.
 
-## <span>Date Object</span>
+## Date Object
 
 JavaScript does not have a date data type. However, you can use the `Date` object and its methods to work with dates and times in your applications. The `Date` object has a large number of methods for setting, getting, and manipulating dates. It does not have any properties.
 
@@ -615,7 +615,7 @@ The `parameters` in the preceding syntax can be any of the following:
 -   Dates prior to 1970 are not allowed.
 -   JavaScript depends on platform-specific date facilities and behavior; the behavior of the `Date` object varies from platform to platform.
 
-### <span>Methods of the Date Object</span>
+### Methods of the Date Object
 
 The `Date` object methods for handling dates and times fall into these broad categories:
 
@@ -663,7 +663,7 @@ var IPOdate = new Date();
 IPOdate.setTime(Date.parse("Aug 9, 1995"));
 ```
 
-### <span>Using the Date Object: an Example</span>
+### Using the Date Object: an Example
 
 In the following example, the function `JSClock()` returns the time in the format of a digital clock.
 
@@ -691,7 +691,7 @@ The next statement appends a `minute` value to `temp`. If the value of `minute` 
 
 Finally, a conditional expression appends "PM" to `temp` if `hour` is 12 or greater; otherwise, it appends "AM" to `temp`.
 
-## <span>Function Object</span>
+## Function Object
 
 The predefined `Function` object specifies a string of JavaScript code to be compiled as a function.
 
@@ -754,7 +754,7 @@ You can nest a function within a function. The nested (inner) function is privat
 -   The inner function can be accessed only from statements in the outer function.
 -   The inner function can use the arguments and variables of the outer function. The outer function cannot use the arguments and variables of the inner function.
 
-## <span>Math Object</span>
+## Math Object
 
 The predefined `Math` object has properties and methods for mathematical constants and functions. For example, the `Math` object's `PI` property has the value of pi (3.141...), which you would use in an application as
 
@@ -784,7 +784,7 @@ The following table summarizes the `Math` object's methods.
 
 Unlike many other objects, you never create a `Math` object of your own. You always use the predefined `Math` object.
 
-## <span>Number Object</span>
+## Number Object
 
 The `Number` object has properties for numerical constants, such as maximum value, not-a-number, and infinity. You cannot change the values of these properties and you use them as follows:
 
@@ -819,11 +819,11 @@ The Number prototype provides methods for retrieving information from Number obj
 |`toString`|Returns a string representing the specified object. Overrides the `Object.toString `method.|
 |`valueOf`|Returns the primitive value of the specified object. Overrides the `Object.valueOf `method.|
 
-## <span>RegExp Object</span>
+## RegExp Object
 
 The `RegExp` object lets you work with regular expressions. It is described in [RegExp](/concepts/programming/javascript/regex).
 
-## <span>String Object</span>
+## String Object
 
 The `String` object is a wrapper around the string primitive data type. Do not confuse a string literal with the `String` object. For example, the following code creates the string literal `s1` and also the `String` object `s2`:
 

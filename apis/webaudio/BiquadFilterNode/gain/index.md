@@ -16,13 +16,13 @@ tags:
 uri: apis/webaudio/BiquadFilterNode/gain
 
 ---
-## <span>Summary</span>
+## Summary
 
 Used in different ways by the various types. Defaults to 0, with a nominal range of -40 to 40. This parameter is k-rate.
 
 Property of [apis/webaudio/BiquadFilterNode](/apis/webaudio/BiquadFilterNode)[apis/webaudio/BiquadFilterNode](/apis/webaudio/BiquadFilterNode)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -30,7 +30,7 @@ Property of [apis/webaudio/BiquadFilterNode](/apis/webaudio/BiquadFilterNode)[ap
 var result = BiquadFilterNode.gain;
 ```
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -38,7 +38,7 @@ var biquadFilter = audioCtx.createBiquadFilter();
 biquadfilter.gain.value = 25;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

@@ -11,27 +11,27 @@ tags:
 uri: 'tutorials/table styling basics'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article describes more advanced selectors, and some specific ways that you can style tables.
 
-## <span>Information: Tables</span>
+## Information: Tables
 
 A table is an arrangement of information in a rectangular grid. Some tables can be complex, and for complex tables different browsers can give different results. When you design your document, use a table to express the relationships among the pieces of information. Then it does not matter if different browsers present the information in slightly different ways, because the meaning is still clear.
 
 Do not use tables in unusual ways to produce particular visual layouts.
 
-### <span>Table structure</span>
+### Table structure
 
 In a table, each piece of information is displayed in a *cell*. The cells in a line across the page make up a *row*.
 
 In some tables, the rows might be grouped. A special group of rows at the start of the table is the *header*. A special group of rows at the end of the table is the *footer*. The main rows in the table are the *body*, and they might also be in groups. The cells in a line down the page make up a *column*, but columns have limited use in CSS tables.
 
-#### <span>Table example</span>
+#### Table example
 
 This tutorial only covers simple tables, where the results are fairly predictable. In a simple table, every cell occupies only one row and column. You can use CSS for complex tables where cells *span* (extend across) more than one row or column, but tables like that are beyond the scope of this basic tutorial.
 
-### <span>Borders</span>
+### Borders
 
 Cells have no margins.
 
@@ -89,7 +89,7 @@ The table on the left has 0.5 em border spacing. The table in the center has zer
 </tbody>
 </table>
 
-### <span>Captions</span>
+### Captions
 
 A `<caption>` element is a label that applies to the entire table. By default, it is displayed at the top of the table.
 
@@ -97,7 +97,7 @@ To move it to the bottom, set its `caption-side` property to `bottom`. The prope
 
 To style the text of the caption, use any of the usual properties for text.
 
-#### <span>Caption example</span>
+#### Caption example
 
 This table has a caption at the bottom
 
@@ -135,7 +135,7 @@ This table has a caption at the bottom
 </tbody>
 </table>
 
-### <span>Empty cells</span>
+### Empty cells
 
 You can display empty cells (that is, their borders and backgrounds) by specifying `empty-cells`: show; for the table element. You can hide them by specifying `empty-cells: hide;`. Then, if a cell's parent element has a background, it shows through the empty cell.
 
@@ -176,7 +176,7 @@ These tables have a pale green background. Their cells have a pale gray backgrou
 </tbody>
 </table>
 
-## <span>Action: Styling a table</span>
+## Action: Styling a table
 
 1.  Make a new HTML document, `doc3.html`. Copy and paste the content from here, making sure that you scroll to get all of it:
 
@@ -466,13 +466,13 @@ These tables have a pale green background. Their cells have a pale gray backgrou
 
     -   The colons are added by the stylesheet.
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 For detailed information about tables, see [Tables in the CSS Specification](http://www.w3.org/TR/CSS21/tables.html). The information there goes further than this tutorial, but it does not cover differences between browsers that can affect complex tables.
 
-### <span>Exercise question</span>
+### Exercise question
 
 Change the stylesheet to make the table look like this:
 

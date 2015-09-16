@@ -24,56 +24,56 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/arc
 
 ---
-## <span>Summary</span>
+## Summary
 
 Draws the specified arc.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = context.arc(x, y, radius, startAngle, endAngle, anticlockwise);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
+### x
 
  Data-type
 :   Number
 
  The x-coordinate, in pixels, for the center point of the arc in relation to the upper-left corner of the canvas rectangle.
 
-### <span>y</span>
+### y
 
  Data-type
 :   Number
 
  The y-coordinate, in pixels, for the center point of the arc in relation to the upper-left corner of the canvas rectangle.
 
-### <span>radius</span>
+### radius
 
  Data-type
 :   Number
 
  The radius or distance from the point (x,y) that the arc's path follows.
 
-### <span>startAngle</span>
+### startAngle
 
  Data-type
 :   Number
 
  The starting angle, in radians, where 0 is at the 3 o'clock position of the arc's circle.
 
-### <span>endAngle</span>
+### endAngle
 
  Data-type
 :   Number
 
  The ending angle, in radians.
 
-### <span>anticlockwise</span>
+### anticlockwise
 
  Data-type
 :   Number
@@ -84,7 +84,7 @@ var object = context.arc(x, y, radius, startAngle, endAngle, anticlockwise);
 
 *false*: The arc is drawn in a clockwise direction from start to end.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -96,7 +96,7 @@ This method can return the following value.
 |:----------|:----------|
 |IndexSizeError|The specified radius value is negative.|
 
-## <span>Examples</span>
+## Examples
 
 The following code example shows several different arcs.
 
@@ -136,13 +136,13 @@ The following code example shows several different arcs.
 
 [View live example](http://result.dabblet.com/gist/5024626/e8999ad1cd338a601a3d75c139e92d8ee68b2ca3)
 
-## <span>Notes</span>
+## Notes
 
 If the *startAngle* and *endAngle* angles are equal, the **arc** method creates a circle. To convert degrees to radians use:
 
     var radians = degrees * Math.PI/180
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

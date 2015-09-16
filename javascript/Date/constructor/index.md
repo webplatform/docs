@@ -10,17 +10,17 @@ tags:
 uri: javascript/Date/constructor
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the function that creates a date.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     date.constructor
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the constructor property.
 
@@ -34,7 +34,7 @@ var x = new Date("Hi");
  // Object is a date.
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The required date is the name of a date object.
 

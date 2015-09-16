@@ -21,7 +21,7 @@ uri: css/properties/text-decoration-blink
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :
@@ -44,12 +44,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-decoration-blink: false`
 -   `text-decoration-blink: true`
 
-## <span>Values</span>
+## Values
 
 true
 :   The [**textDecoration**](/css/properties/text-decoration) property is set to "blink."
@@ -59,23 +59,23 @@ false
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This property currently has no visible effect because "blink" is not currently implemented as a possible value of the [**textDecoration**](/css/properties/text-decoration) property.
 
-### <span>Syntax</span>
+### Syntax
 
 `textDecorationBlink: true | false`
 
-### <span>Requirements</span>
+### Requirements
 
 {
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `defaultSelected`
 -   `runtimeStyle`

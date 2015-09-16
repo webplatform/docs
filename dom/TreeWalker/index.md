@@ -15,11 +15,11 @@ tags:
 uri: dom/TreeWalker
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides an object that can be used to traverse filtered lists of nodes or elements in a document.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -27,7 +27,7 @@ API Name
 [currentNode](/dom/TreeWalker/currentNode)
 :   Sets or retrieves where the current node in a filtered TreeWalker hierarchy is positioned.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -47,21 +47,21 @@ API Name
 [previousSibling](/dom/TreeWalker/previousSibling)
 :   Retrieves the previous sibling of the current node in the filtered TreeWalker hierarchy and updates currentNode.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **TreeWalker** is dynamic, reflecting the state of the document as it is edited or changed.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 1.2
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#treeWalker)
 :   Living Standard

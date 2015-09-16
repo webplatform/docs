@@ -11,11 +11,11 @@ tags:
 uri: svg/properties
 
 ---
-## <span>Summary</span>
+## Summary
 
 Listing of all articles in svg/properties/
 
-## <span>All Pages</span>
+## All Pages
 
 -   [SVG Zoom and Pan](/svg/properties/zoomAndPan)
 -   [a](/svg/properties/a)

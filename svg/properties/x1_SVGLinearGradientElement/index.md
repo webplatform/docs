@@ -11,22 +11,22 @@ tags:
 uri: 'svg/properties/x1 (SVGLinearGradientElement)'
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **x1**, [**y1**](/svg/properties/y1_(SVGLinearGradientElement)), [**x2**](/svg/properties/x2_(SVGLinearGradientElement)), and [**y2**](/svg/properties/y2_(SVGLinearGradientElement)) properties define a gradient vector for a linear gradient. This gradient vector provides the starting and ending points that the gradient [**stops**](/svg/elements/stop) are mapped onto. The values of **x1**, **y1**, **x2**, and **y2** can be either numbers or percentages.
 
 If you do not specify this property, the effect is the same as if you specify a value of **0%**.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGLinearGradientElement**](/svg/elements/linearGradient)

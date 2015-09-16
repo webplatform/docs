@@ -21,22 +21,22 @@ uri: dom/HTMLObjectElement/willValidate
 ---
 Property of [dom/HTMLObjectElement](/dom/HTMLObjectElement)[dom/HTMLObjectElement](/dom/HTMLObjectElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.willValidate;
 element.willValidate = value;
 ```
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.21.3
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `HTMLObjectElement`
 -   `HTMLTextAreaElement`

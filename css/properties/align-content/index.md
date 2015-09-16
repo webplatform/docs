@@ -20,11 +20,11 @@ tags:
 uri: css/properties/align-content
 
 ---
-## <span>Summary</span>
+## Summary
 
 Aligns a flex container's lines within the flex container when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `stretch`
@@ -47,7 +47,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `alignContent`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `align-content: center`
 -   `align-content: flex-end`
@@ -62,7 +62,7 @@ Animatable
 -   `flex-line-pack: start`
 -   `flex-line-pack: stretch`
 
-## <span>Values</span>
+## Values
 
 flex-start
 :   Lines are packed toward the start of the flex container. The cross-start edge of the first line in the flex container is placed flush with the cross-start edge of the flex container, and each subsequent line is placed flush with the preceding line.
@@ -82,7 +82,7 @@ space-around
 stretch
 :   Lines stretch to take up the remaining space. If the leftover free-space is negative, this value is identical to **flex-start**. Otherwise, the free-space is split equally between all of the lines, increasing their cross size.
 
-## <span>Examples</span>
+## Examples
 
 Spacing lines within a multi-line flex container. Change the values in the live example.
 
@@ -120,21 +120,21 @@ Spacing lines within a multi-line flex container. Change the values in the live 
 
 [View live example](http://code.webplatform.org/gist/5536244)
 
-## <span>Notes</span>
+## Notes
 
 -   This property has no effect when the flexbox has only a single line. Only flex containers with multiple lines can ever have free space in the cross-axis for lines to be aligned in, because in a flex container with a single line the sole line automatically stretches to fill the space.
 -   This property was named **flex-line-pack** in earlier drafts.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Flexible Box Layout Module](http://www.w3.org/TR/css3-flexbox/#align-content-property)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Flexbox</span>
+#### Flexbox
 
 -   **align-content**
 
@@ -160,7 +160,7 @@ Spacing lines within a multi-line flex container. Change the values in the live 
 
 -   [justify-content](/css/properties/justify-content)
 
-### <span>External resources</span>
+### External resources
 
 Also, check out the following live demo sites:
 

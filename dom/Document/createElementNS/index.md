@@ -22,41 +22,41 @@ tags:
 uri: dom/Document/createElementNS
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates an element from the specified namespace as a stand-alone object (unattached to the DOM).
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var element = document.createElementNS(namespace, tagName);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>namespace</span>
+### namespace
 
  Data-type
 :   String
 
  The URI of the desired namespace. This is the actual URI value, *not* the prefix used in the mark-up.
 
-### <span>tagName</span>
+### tagName
 
  Data-type
 :   String
 
  The name of the desired element.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The created element.
 
-## <span>Examples</span>
+## Examples
 
 The following code example creates a circle element from the SVG namespace.
 
@@ -65,11 +65,11 @@ var sNamespace = "http://www.w3.org/2000/svg";
 var oCircle = document.createElementNS(sNamespace, "circle");
 ```
 
-## <span>Notes</span>
+## Notes
 
 The **createElementNS** method is supported only for XML namespaces.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

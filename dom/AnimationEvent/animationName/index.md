@@ -19,13 +19,13 @@ tags:
 uri: dom/AnimationEvent/animationName
 
 ---
-## <span>Summary</span>
+## Summary
 
 The value of the animation-name property of the animation that fired the animation event.
 
 Property of [dom/AnimationEvent](/dom/AnimationEvent)[dom/AnimationEvent](/dom/AnimationEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -33,7 +33,7 @@ Property of [dom/AnimationEvent](/dom/AnimationEvent)[dom/AnimationEvent](/dom/A
 var result = element.animationName;
 ```
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //define animation event

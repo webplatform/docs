@@ -14,11 +14,11 @@ tags:
 uri: 'tutorials/Raw WebGL 101 — Part 4: Textures'
 
 ---
-## <span>Summary</span>
+## Summary
 
 How to import a texture from an image file into the canvas.
 
-## <span>Introduction</span>
+## Introduction
 
 Greetings, WebGL ninjas. The fourth tutorial is upon you, so be prepared: keep your browsers sharp and your scripts quick, and meld into the shadows, ready to strike! The striking will of course involve writing some cool WebGL, rather than infiltrating a shogun's palace, but I think that's ninja enough for us. This week we will turn our attention to importing textures from an image file into the canvas.
 
@@ -26,7 +26,7 @@ This article is a transcript of [time 56:50 to 1:03:20](http://www.youtube.com/w
 
 Note: [05-texturing.html You can run the finished texture example] from this article to see what you are aiming towards.
 
-## <span>Preparing to use textures in WebGL</span>
+## Preparing to use textures in WebGL
 
 We're going to build this example on top of the [previous lesson](http://dev.opera.com/articles/view/raw-webgl-part2-simple-shader/)'s simple shader. So take a copy of [03 Minimal Shader](http://devfiles.myopera.com/articles/9462/03-minimal-shader.html) file and save it as 05-texturing.html.
 
@@ -54,7 +54,7 @@ and
 
 Now we're ready to start working on our texture.
 
-## <span>Creating the texture</span>
+## Creating the texture
 
 First, let's create a uniform by going into the fragment shader `<script>` element and putting the following line just above the `main()` function:
 
@@ -88,7 +88,7 @@ and specify the location of the image:
 
     img.src = 'textures/opera.png';
 
-## <span>The drawing function</span>
+## The drawing function
 
 Now, right above the last line you added, we'll add our drawing function, which will run when the image has finished loading. Our initial drawing function will look like this:
 
@@ -132,7 +132,7 @@ Also, change your canvas size to something a bit bigger so you can see what is g
 
 Figure 1: A series of Opera company logos rendered inside a `<canvas>` using WebGL.
 
-## <span>Changing the filter</span>
+## Changing the filter
 
 You'll notice that currently the rendering looks a bit pixellated, because we chose a `NEAREST` filter. To see what difference the different filters make, try using the `LINEAR` filter instead:
 
@@ -145,7 +145,7 @@ This will give a much smoother result, as shown in Figure 2.
 
 Figure 2: The linear filter gives a much smoother result.
 
-## <span>Wrap modes</span>
+## Wrap modes
 
 Right now we are displaying four versions of the Opera logo. This is because we are currently indexing our image with values from -1 to 1, and the wrap mode is by default set to wrap content when it goes outside the range 0 to 1. So we're drawing one "O" for -1 to 0 and one for 0 to 1 in each dimension.
 
@@ -167,7 +167,7 @@ This will give us the display shown in Figure 3.
 
 Figure 3: Our four Opera logos have been reduced down to one.
 
-## <span>Summary</span>
+## Summary
 
 That's it this for this week, my dear WebGL ninjas. Next time we will start ramping it up again, looking at how we can further improve our shaders with XHR.
 

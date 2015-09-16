@@ -18,7 +18,7 @@ tags:
 uri: apis/filesystem/Entry/getParent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Look up the parent DirectoryEntry containing this Entry. If this Entry is the root of its filesystem, its parent is itself.
 
@@ -26,22 +26,22 @@ Look up the parent DirectoryEntry containing this Entry. If this Entry is the ro
 
 Method of [apis/filesystem/Entry](/apis/filesystem/Entry)[apis/filesystem/Entry](/apis/filesystem/Entry)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  Entry.getParent(successCallback, errorCallback);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>successCallback</span>
+### successCallback
 
  Data-type
 :   String
 
  A callback that is called to return the parent Entry.
 
-### <span>errorCallback</span>
+### errorCallback
 
  Data-type
 :   String
@@ -50,13 +50,13 @@ Method of [apis/filesystem/Entry](/apis/filesystem/Entry)[apis/filesystem/Entry]
 
 A callback that is called when errors happen.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

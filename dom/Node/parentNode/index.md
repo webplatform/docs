@@ -23,13 +23,13 @@ tags:
 uri: dom/Node/parentNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the parent node in the document hierarchy.
 
 Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 var parentNode = node.parentNode;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The parent node of the node.
 
-## <span>Examples</span>
+## Examples
 
 This example assigns the **parentNode** of a **span** object to a variable.
 
@@ -90,15 +90,15 @@ try{document.write('root.parentElement.tagName:'+root.parentElement.tagName+'<br
 </html>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use to find the parent of a node (if any).
 
-## <span>Notes</span>
+## Notes
 
 The topmost object returns null as its parent.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

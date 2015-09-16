@@ -12,11 +12,11 @@ tags:
 uri: javascript/String
 
 ---
-## <span>Summary</span>
+## Summary
 
 Allows manipulation and formatting of text strings and determination and location of substrings within strings.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -32,7 +32,7 @@ Allows manipulation and formatting of text strings and determination and locatio
 **stringLiteral**
 :   Optional. Any group of Unicode characters.
 
-## <span>Examples</span>
+## Examples
 
 JavaScript provides escape sequences that you can include in strings to create characters that you cannot type directly. For example, `\t` specifies a tab character. For more information, see Special Characters (JScript).
 
@@ -84,7 +84,7 @@ document.write(result);
 // Output: t
 ```
 
-## <span>Properties</span>
+## Properties
 
 The following table lists the properties of the **String** object.
 
@@ -94,7 +94,7 @@ The following table lists the properties of the **String** object.
 |[length](/javascript/String/length)|Returns the length of a String object.|
 |[prototype](/javascript/String/prototype)|Returns a reference to the prototype for a class of objects.|
 
-## <span>Functions</span>
+## Functions
 
 The following table lists the functions of the **String** object.
 
@@ -102,7 +102,7 @@ The following table lists the functions of the **String** object.
 |:-------|:----------|
 |[fromCharCode](/javascript/String/fromCharCode)|Returns a string from a number of Unicode character values.|
 
-## <span>Methods</span>
+## Methods
 
 The following table lists the methods of the **String** object.
 
@@ -130,9 +130,9 @@ The following table lists the methods of the **String** object.
 |[trim](/javascript/String/trim)|Returns a string with leading and trailing white space and line terminator characters removed.|
 |[valueOf](/javascript/String/valueOf)|Returns the string.|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [new Operator](/javascript/operators/new)
 

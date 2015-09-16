@@ -22,13 +22,13 @@ tags:
 uri: css/properties/text-underline-position
 
 ---
-## <span>Summary</span>
+## Summary
 
 Unsupported.
 
 This property will add a underline position value to the element that has an underline defined.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -54,9 +54,9 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 auto
 :   Decoration appears above the text.
@@ -75,16 +75,16 @@ right
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Decoration Module Level 3](http://www.w3.org/TR/css-text-decor-3/#text-underline-position-property)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -164,7 +164,7 @@ right
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

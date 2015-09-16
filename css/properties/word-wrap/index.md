@@ -21,11 +21,11 @@ tags:
 uri: css/properties/word-wrap
 
 ---
-## <span>Summary</span>
+## Summary
 
 An alias of css/properties/overflow-wrap, word-wrap defines whether to break words when the content exceeds the boundaries of its container.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -48,12 +48,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `wordWrap`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `word-wrap: break-word`
 -   `word-wrap: normal`
 
-## <span>Values</span>
+## Values
 
 normal
 :   Default. Lines can only be broken at normal break points (spaces, non-alphanumeric characters, etc.).
@@ -61,7 +61,7 @@ normal
 break-word
 :   Words that exceed the width of the container will be arbitrarily broken to fit within the container's bounds.
 
-## <span>Examples</span>
+## Examples
 
 This is the style rule that applies to the example.
 
@@ -160,17 +160,17 @@ LongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWord
 
 [View live example](http://code.webplatform.org/gist/5888667)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **word-wrap** property was originally a proprietary property developed for Internet Explorer, and is used as a synonym for the standardized [**overflow-wrap**](/css/properties/overflow-wrap) property. This property to enables the browser to break up otherwise unbreakable strings (words). This differs from the [**white-space**](/css/properties/white-space) property, which turns wrapping of the text on and off. The **word-wrap** property specifies only whether wrapping can occur at a place in the word that is not otherwise allowed by the language rules in effect.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSS Text Level 3](http://www.w3.org/TR/css3-text/#overflow-wrap), Section 6.2
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/#overflow-wrap)
 :   W3C Recommendation

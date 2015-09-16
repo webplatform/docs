@@ -23,11 +23,11 @@ tags:
 uri: css/properties/border-collapse
 
 ---
-## <span>Summary</span>
+## Summary
 
 Border-collapse can be used for collapsing the borders between table cells
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `separate`
@@ -50,13 +50,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderCollapse`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `border-collapse: collapse`
 -   `border-collapse: inherit`
 -   `border-collapse: separate`
 
-## <span>Values</span>
+## Values
 
 separate
 :   Default. Borders are detached (standard HTML). Each table cell has an individual border, with optional space between the borders.
@@ -67,7 +67,7 @@ collapse
 inherit
 :   The same specified value as the property for the element's parent will be used.
 
-## <span>Examples</span>
+## Examples
 
 An example of border-collapse 'collapse' and 'seperate' table borders are red, cell borders are blue
 
@@ -97,7 +97,7 @@ td p {
 
 [View live example](http://code.webplatform.org/gist/6948189)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS 2.1, section 17.6. Borders](http://www.w3.org/TR/CSS2/tables.html#propdef-border-collapse)
 :   Recommendation
@@ -105,11 +105,11 @@ td p {
 [CSS 3, section 8. Borders](http://dev.w3.org/csswg/css3-tables/#border-collapse)
 :   Editor's Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Tables</span>
+#### Tables
 
 -   **border-collapse**
 
@@ -135,6 +135,6 @@ td p {
 
 -   [th](/html/elements/th)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [css/properties/border](/css/properties/border)

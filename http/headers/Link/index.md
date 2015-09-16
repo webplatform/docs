@@ -10,13 +10,13 @@ tags:
 uri: http/headers/Link
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies a link between resources, at the HTTP header level.
 
 Carries same semantics as the \<link/\> and \<a/\> tags in HTML.
 
-## <span>Overview table</span>
+## Overview table
 
 Direction
 :   Request and Response
@@ -24,7 +24,7 @@ Direction
 Features
 :
 
-## <span>Syntax</span>
+## Syntax
 
     Link           = "Link" ":" #link-value
     link-value     = "<" URI-Reference ">" *( ";" link-param )
@@ -56,7 +56,7 @@ Features
     reg-rel-type   = LOALPHA *( LOALPHA | DIGIT | "." | "-" )
     ext-rel-type   = URI
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 Link: <http://example.com/TheBook/chapter2>; rel="previous"; title="previous chapter"
@@ -68,7 +68,7 @@ The Link header carries the same semantics, and many Web browsers recognize this
 Link: </style/main.css>;rel="stylesheet";type="text/css"
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [RFC5988: Web Linking](http://tools.ietf.org/html/rfc5988)
 :

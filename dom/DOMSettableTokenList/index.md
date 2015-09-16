@@ -13,22 +13,22 @@ tags:
 uri: dom/DOMSettableTokenList
 
 ---
-## <span>Summary</span>
+## Summary
 
 The DOMSettableTokenList interface is the same as the DOMTokenList interface, except that it allows the underlying string to be changed.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 `someTokenList.value` returns the underlying string and can be set (to change the underlying string).

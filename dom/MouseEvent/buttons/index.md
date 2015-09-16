@@ -25,13 +25,13 @@ tags:
 uri: dom/MouseEvent/buttons
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets a value that indicates which mouse buttons a user pressed.
 
 Property of [dom/MouseEvent](/dom/MouseEvent)[dom/MouseEvent](/dom/MouseEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [dom/MouseEvent](/dom/MouseEvent)[dom/MouseEvent](/dom/MouseEvent)
 var pressedButtons = event.buttons;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned shortunsigned short
 
@@ -54,7 +54,7 @@ Other values are always expressed as a power of 2, like 8, 16, 32 and so on and 
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

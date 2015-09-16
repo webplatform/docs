@@ -24,13 +24,13 @@ tags:
 uri: dom/TextRange/boundingLeft
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the distance between the left edge of the rectangle that bounds the TextRange object and the left side of the object that contains the TextRange.
 
 Property of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -38,13 +38,13 @@ Property of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 var result = textRange.boundingLeft;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 the left coordinate of the bounding rectangle, in pixels.
 
-## <span>Examples</span>
+## Examples
 
 This example retrieves the value of the **boundingLeft** property for the given text area.
 
@@ -67,6 +67,6 @@ function boundDim(oObject)
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/boundingTop.htm)
 
-### <span>Syntax</span>
+### Syntax
 
 result = textRange.boundingLeft;

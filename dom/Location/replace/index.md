@@ -19,33 +19,33 @@ tags:
 uri: dom/Location/replace
 
 ---
-## <span>Summary</span>
+## Summary
 
 Replaces the current document by loading another document at the specified URL.
 
 Method of [dom/Location](/dom/Location)[dom/Location](/dom/Location)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  location.replace(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>url</span>
+### url
 
  Data-type
 :   String
 
  The URL to insert into the session history.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 When a document is replaced, it is also removed from the **history** object. Moreover, the user interface navigation methods, such as the Back and Forward buttons, will no longer access the URL.

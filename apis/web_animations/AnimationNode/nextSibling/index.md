@@ -21,20 +21,20 @@ tags:
 uri: 'apis/web animations/AnimationNode/nextSibling'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The next sibling of this animation node.
 
 Property of [apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)[apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.nextSibling;
 element.nextSibling = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type ObjectObject
 

@@ -10,11 +10,11 @@ tags:
 uri: javascript/Error/name
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the name of an error.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,7 +23,7 @@ Returns the name of an error.
 **errorObj**
 :   Required. Instance of Error object.
 
-## <span>Examples</span>
+## Examples
 
 The following example causes a TypeError exception to be thrown and displays the name of the error and its message.
 
@@ -51,7 +51,7 @@ Error Message: 'y' is undefined
  Error Name: TypeError
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **name** property returns the name or exception type of an error. When a runtime error occurs, the name property is set to one of the following native exception types:
 
@@ -65,9 +65,9 @@ The **name** property returns the name or exception type of an error. When a run
 |TypeError|This error occurs whenever the actual type of an operand does not match the expected type. An example of when this error occurs is a function call made on something that is not an object or does not support the call.|
 |URIError|This error occurs when an illegal Uniform Resource Indicator (URI) is detected. For example, this is error occurs when an illegal character is found in a string being encoded or decoded.|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [description Property (Error)](/javascript/Error/description)
 -   [message Property (Error)](/javascript/Error/message)

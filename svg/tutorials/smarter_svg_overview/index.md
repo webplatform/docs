@@ -48,7 +48,7 @@ uri: 'svg/tutorials/smarter svg overview'
 ---
 **By Mike Sierra**
 
-## <span>Summary</span>
+## Summary
 
 This guide shows you how to build a pair of animating eyeballs, providing a comprehensive tour of SVG features detailed in other tutorials. It shows how to maintain a set of reusable graphic components, and provides essential context on SVG transforms and coordinate spaces.
 
@@ -60,7 +60,7 @@ This section of the guide shows how SVG is deployed along with other core web st
 
 As part of a grand tour to get a feel for SVG markup, you'll stroll through an example that shows how to build a pair of eyes, and how to move them around and make them blink. [View the accompanying live demo here](http://letmespellitoutforyou.com/samples/svg_eyeball.html).
 
-## <span>Defining the drawing area</span>
+## Defining the drawing area
 
 There are several ways to deploy SVG, with various options outlined in the section at the bottom of this page. Examples used throughout this guide feature *inline* SVG that's directly embedded within HTML, which allows you to flexibly apply CSS and JavaScript to both the SVG graphic and the HTML content. The basic markup looks like this, with an [**svg**](/svg/elements/svg) element encapsulating the graphics:
 
@@ -85,7 +85,7 @@ There are several ways to deploy SVG, with various options outlined in the secti
 
 (See [**SVG deployment**](/svg/tutorials/smarter_svg_deploy) for different ways to render SVG content.)
 
-## <span>The eyeball</span>
+## The eyeball
 
 Adding this line within the [**svg**](/svg/elements/svg) region produces a circle. The [**cx**](/w/index.php?title=svg/attributes/cx&action=edit&redlink=1) and [**cy**](/w/index.php?title=svg/attributes/cy&action=edit&redlink=1) attributes position its center point, and the [**r**](/w/index.php?title=svg/attributes/r&action=edit&redlink=1) sizes it relative to that point:
 
@@ -115,7 +115,7 @@ To add the iris and pupil, you can add more circles that specify different fill 
 
 (See [**SVG shapes**](/svg/tutorials/smarter_svg_shapes) for more about basic graphic elements such as circles, ellipses, rectangles, and polygons.)
 
-## <span>Styling via CSS</span>
+## Styling via CSS
 
 In this example, the [**id**](/w/index.php?title=svg/attributes/id&action=edit&redlink=1), [**cx**](/w/index.php?title=svg/attributes/cx&action=edit&redlink=1), [**cy**](/w/index.php?title=svg/attributes/cy&action=edit&redlink=1), and [**r**](/w/index.php?title=svg/attributes/r&action=edit&redlink=1) are all ordinary *attributes*, while the [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1) and [**stroke**](/w/index.php?title=svg/properties/stroke&action=edit&redlink=1) are known as *presentation attributes*. These are simply CSS properties that happen to be expressed as attributes. Other than the tendency of longer CSS property names to use *dashes-between-lowercase-words* rather than *camelCase* for attribute names, there may be no way to tell the difference by looking at them.
 
@@ -143,7 +143,7 @@ Many CSS properties such as [**fill**](/w/index.php?title=svg/properties/fill&ac
 
 (See [**SVG deployment**](/svg/tutorials/smarter_svg_deploy) for different ways to apply CSS.)
 
-## <span>Applying a gradient</span>
+## Applying a gradient
 
 The concentric circles provide a good way to implement the edge of the iris and pupil, but are not good for the slight bloodshot color towards the edge of the eye. As an alternative, you can implement the entire eyeball as a large circle, within which a radial gradient builds a series of concentric rings:
 
@@ -166,7 +166,7 @@ The [**circle**](/svg/elements/circle) element's [**fill**](/w/index.php?title=s
 
 (See [**SVG graphics**](/svg/tutorials/smarter_svg_graphics) for details about gradients, and other information on using patterns and images.)
 
-## <span>Referencing graphics</span>
+## Referencing graphics
 
 This new circle is much larger than the actual eyeball, because we want to move it around behind a smaller pair of eyelids. (Don't worry for now that the shape is wider than the drawing area.) Before you build the eyelids, you should stash away the graphic components you've already defined. Add a [**defs**](/svg/elements/defs) region to the [**svg**](/svg/elements/svg):
 
@@ -220,7 +220,7 @@ Since the [**use**](/svg/elements/use) and its target element are placed in diff
 
 Notice as well that the [**use**](/svg/elements/use) element needs the **xlink** namespace to qualify the standard **href** attribute, which is also available in HTML with no namespace qualifier. This **xlink:href** attribute offers a different way to reference an object than the CSS **url()** syntax you see in the example above.
 
-## <span>The eyelids</span>
+## The eyelids
 
 To place the eyeball within eyelids requires a *clipping path*, which allows an object to render only when it appears within another shape. In this case, the *eyelids* shape is a free-form [**path**](/svg/elements/path) whose [**d**](/w/index.php?title=svg/attributes/d&action=edit&redlink=1) (*definition*) attribute draws two curves that face each other:
 
@@ -275,7 +275,7 @@ It becomes useful here to *group* the two graphic elements, wrapping a [**g**](/
 
 (See [**SVG shapes**](/svg/tutorials/smarter_svg_shapes) for details on path commands, and [**SVG graphics**](/svg/tutorials/smarter_svg_graphics) for clipping paths.)
 
-## <span>The eyelashes</span>
+## The eyelashes
 
 Drawing the eyelashes along the eyelid requires a bit of creativity. We need to add a third reference to the eyelid shape.
 
@@ -307,7 +307,7 @@ The beveled [**stroke-linejoin**](/w/index.php?title=svg/properties/stroke-linej
 
 (See [**SVG shapes**](/svg/tutorials/smarter_svg_shapes) for details on various stroke properties.)
 
-## <span>Applying eyeliner</span>
+## Applying eyeliner
 
 Even after lightening the color of the stroke, the eyelashes appear way too crisp and thin compared to the eyeball, and could be softened and thickened up a bit. SVG *filters* provide many image processing tools that you can mix and match to produce such special visual effects.
 
@@ -350,7 +350,7 @@ Use the [**filter**](/svg/properties/filter) property to assign the effect to th
 
 (See [**SVG filters**](/svg/tutorials/smarter_svg_filters) for information on various ways to combine SVG's filter effects.)
 
-## <span>Transforms and coordinate spaces</span>
+## Transforms and coordinate spaces
 
 To finish off the graphic, group another instance of the *eye* object into a higher-level *eyes* object:
 
@@ -419,7 +419,7 @@ Adding a [**preserveAspectRatio**](/w/index.php?title=svg/attributes/preserveAsp
 
  ![svgGrandTour eyeballs viewbox preserve.png](/assets/thumb/0/04/svgGrandTour_eyeballs_viewbox_preserve.png/100px-svgGrandTour_eyeballs_viewbox_preserve.png)
 
-## <span>Glancing</span>
+## Glancing
 
 The only remaining problem is that the graphic doesn't actually *do* anything. We want to make the eyes to *move*.
 
@@ -512,7 +512,7 @@ As it appears above, the animation moves the eyes to the right, then immediately
 
 (See [**SVG animations**](/svg/tutorials/smarter_svg_filters) for details.)
 
-## <span>Blinking</span>
+## Blinking
 
 As is true for CSS transitions and animations, you can animate most any numeric or color value. You can also animate complex series of coordinates used in [**path**](/svg/elements/path) definitions, so long as the sequence of path commands match so that there are corresponding sets of points. This allows the eyes to blink. Add this to the *eyelids* object:
 
@@ -562,7 +562,7 @@ function blink() {
 
  (See [**SVG animations**](/svg/tutorials/smarter_svg_filters) for details.)
 
-## <span>Interactive Zoom</span>
+## Interactive Zoom
 
 Suppose you want to click on the graphic to get a closer look at it. Scaling the eyeball would be difficult, because there are now two of them, and they would collide with each other. Instead, you can alter the dimensions of the current [**viewBox**](/w/index.php?title=svg/attributes/viewBox&action=edit&redlink=1) to zoom into the scene.
 
@@ -588,7 +588,7 @@ As in HTML, the [**cursor**](/css/properties/cursor) property allows you to high
 #eyelid, .eyelids { pointer-events: visiblePainted; }
 ```
 
-## <span>Animated Zoom</span>
+## Animated Zoom
 
 There are two problems with the anchor-zoom navigation described above. First, it only works within SVG files, not inline SVG within HTML. Second, it executes abruptly, the same way anchor navigation scrolls an HTML page.
 
@@ -645,7 +645,7 @@ function zoomNav(e) {
 
  The last line applies different classes to the [**svg**](/svg/elements/svg) container, which we'll use to customize display of the text elements described below for different zoom levels.
 
-## <span>Adding Text</span>
+## Adding Text
 
 SVG allows you to mix text with other graphics, but these are simple lines of text that do not wrap within a box as in HTML. You ordinarily use **x** and **y** coordinate attributes to position [**text**](/svg/elements/text) elements directly within a graphic. This example relies on SVG's characteristic ability to place text along a curved path:
 
@@ -736,11 +736,11 @@ Had enough?
 
 ![svgGrandTour eyeball tired.png](/assets/thumb/6/69/svgGrandTour_eyeball_tired.png/600px-svgGrandTour_eyeball_tired.png)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 
@@ -824,7 +824,7 @@ Had enough?
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [svg/tutorials/smarter\_svg\_shapes](/svg/tutorials/smarter_svg_shapes) (SVG basic shapes and text)
 -   [svg/tutorials/smarter\_svg\_graphics](/svg/tutorials/smarter_svg_graphics) (SVG graphic effects)

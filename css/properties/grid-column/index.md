@@ -27,11 +27,11 @@ todo_broken_links:
 uri: css/properties/grid-column
 
 ---
-## <span>Summary</span>
+## Summary
 
 Controls a grid item's placement in a grid area, particularly grid position and a grid span. Shorthand for setting grid-column-start and grid-column-end in a single declaration.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `See individual properties`
@@ -57,16 +57,16 @@ Animatable
 Percentages
 :   See individual properties
 
-## <span>Syntax</span>
+## Syntax
 
 -   `grid-column: <grid-line> [ / <grid-line> ]`
 
-## <span>Values</span>
+## Values
 
 \<grid-line\> [ / \<grid-line\> ]
 :   If two \<grid-line\> values are specified, the grid-column-start property is set to the value before the slash, and the grid-column-end property is set to the value after the slash. If the second value is omitted, then if the first value is an identifier (\<ident\>), the grid-column-end property is also set to that \<ident\>; otherwise, it is set to "auto".
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /*
@@ -80,14 +80,14 @@ grid-column-start: 1
 grid-column-end: 3;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Grid Layout Module](http://www.w3.org/TR/css3-grid-layout)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

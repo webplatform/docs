@@ -12,19 +12,19 @@ tags:
 uri: dom/NamedNodeMap
 
 ---
-## <span>DOM Level 3</span>
+## DOM Level 3
 
 For technical reasons, the title of this article is not the text used to call this API. Instead, use `DOM Level 3`
 
-## <span>Summary</span>
+## Summary
 
 A collection of nodes that can be accessed by name. Objects contained in a NamedNodeMap may also be accessed by an ordinal index, but this is simply to allow convenient enumeration of the contents of a NamedNodeMap, and does not imply that the DOM specifies an order to these nodes.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -47,11 +47,11 @@ API Name
 [setNamedItemNS](/dom/NamedNodeMap/setNamedItemNS)
 :   Sets an attribute object as part of the object.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **attribute** object to create a list of attributes that are [**specified**](/dom/HTMLElement/specified).
 
@@ -71,8 +71,8 @@ function fnFind(){
 </ul>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **attribute** object is accessible through the [**attributes**](/dom/Node/attributes) collection. A valid attribute or property can be any Dynamic HTML (DHTML) property or event that applies to the object. When displaying a Web page in IE8 Standards mode, Windows Internet Explorer distinguishes between attribute values specified by the original page author and the representation of those values in the DOM. For more information, see Attribute Differences in Internet Explorer 8. This object is available in script as of Microsoft Internet Explorer 5.

@@ -23,26 +23,26 @@ tags:
 uri: 'apis/user timing/PerformanceMeasure/startTime'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a DOMHighResTimeStamp with the measure's High Resolution Time start mark.
 
 Property of [apis/user timing/PerformanceMeasure](/apis/user_timing/PerformanceMeasure)[apis/user timing/PerformanceMeasure](/apis/user_timing/PerformanceMeasure)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.startTime;
 element.startTime = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 DOMHighResTimeStamp
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // set begin mark
@@ -67,7 +67,7 @@ performance.clearMeasures("functionTime");
 performance.clearMarks();
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C User Timing Specification](http://www.w3.org/TR/user-timing/)
 :   W3C Recommendation

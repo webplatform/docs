@@ -25,13 +25,13 @@ tags:
 uri: dom/UIEvent/view
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the window object that an event is generated from. [object window]
 
 Property of [dom/UIEvent](/dom/UIEvent)[dom/UIEvent](/dom/UIEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,7 +39,7 @@ Property of [dom/UIEvent](/dom/UIEvent)[dom/UIEvent](/dom/UIEvent)
 var eventWindow = event.view;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -47,15 +47,15 @@ The window object on which the event occurred.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Use this property to determine the window object on which the event has occurred.
 
-## <span>Notes</span>
+## Notes
 
 Use [initUIEvent](/dom/UIEvent/initUIEvent) to set the value of this property.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

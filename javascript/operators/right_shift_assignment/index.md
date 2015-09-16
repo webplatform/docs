@@ -10,11 +10,11 @@ tags:
 uri: 'javascript/operators/right shift assignment'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Right shifts the value of a variable by the number of bits specified in the value of an expression, maintaining the sign, and assigns the result to the variable.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,7 +26,7 @@ Right shifts the value of a variable by the number of bits specified in the valu
 **expression**
 :   Any expression.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // 14 is 00000000000000000000000000001110
@@ -37,7 +37,7 @@ document.write(temp);
 //Output: 3
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 Using the **\>\>=** operator is exactly the same as specifying:
 
@@ -49,9 +49,9 @@ The **\>\>=** operator shifts the bits of result right by the number of bits spe
     temp = -14
     temp >>= 2
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Bitwise Left Shift Operator (\<\<)](/javascript/operators/bitwise_left_shift)
 -   [Bitwise Right Shift Operator (\>\>)](/javascript/operators/bitwise_right_shift)

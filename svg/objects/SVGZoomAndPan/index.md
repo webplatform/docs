@@ -20,35 +20,35 @@ uri: svg/objects/SVGZoomAndPan
 ---
 Inherits from [SVGElement](/svg/objects/SVGElement)[SVGElement](/svg/objects/SVGElement)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from SVGElement</span>
+## Inherited from SVGElement
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 *Zooming* is the simultaneous operation of the scale and translate actions in the [**SVGTransform**](/svg/objects/SVGTransform) element. *Panning* just uses the translate actions of **SVGTransform** element. **SVGZoomAndPan** provides two values:
 
@@ -57,12 +57,12 @@ Inherits from [SVGElement](/svg/objects/SVGElement)[SVGElement](/svg/objects/SVG
 
 The default is magnify and allows zooming and panning. Disable will disable zooming and panning.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.29
 
-### <span>Members</span>
+### Members
 
 The **SVGZoomAndPan** object does not define any members.

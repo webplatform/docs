@@ -22,15 +22,15 @@ todo_broken_links:
 uri: html/elements/ol
 
 ---
-## <span>ol</span>
+## ol
 
 For technical reasons, the title of this article is not the text used to call this API. Instead, use `ol`
 
-## <span>Summary</span>
+## Summary
 
 The ol element is used to define an ordered list. The element encloses one or more list items, enclosed in li elements.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLOListElement](/dom/HTMLOListElement)
@@ -73,7 +73,7 @@ A **ol** element must have both a start tag and an end tag.
 </table>
 The **ordered list**, represented by the **ol** element, is most often used to group a list of items, enclosed in [**li**](/html/elements/li) elements, together in an ordered and semantic way.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **ol** element to create a numbered list.
 
@@ -106,18 +106,18 @@ margin-top: 16px;
 margin-bottom: 16px;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The [**type**](/html/attributes/type_(ul,li,ol_elements)) attribute sets the list type for all ensuing lists unless a different type value is set.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 10.2
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-ol-element)
 :   W3C Working Draft
@@ -128,9 +128,9 @@ The [**type**](/html/attributes/type_(ul,li,ol_elements)) attribute sets the lis
 [HTML 4.01](http://www.w3.org/TR/html401/struct/lists.html#edef-OL)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [`dir`](/html/elements/dir)
 -   [`menu`](/html/elements/menu)

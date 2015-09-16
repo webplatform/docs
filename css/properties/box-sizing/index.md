@@ -22,11 +22,11 @@ tags:
 uri: css/properties/box-sizing
 
 ---
-## <span>Summary</span>
+## Summary
 
 The box-sizing property alters the CSS box model used to calculate widths and heights of elements, so that they can be equal to the width and height of the content-, padding- or border-box.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `content-box`
@@ -49,13 +49,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `box-sizing: border-box`
 -   `box-sizing: content-box`
 -   `box-sizing: padding-box`
 
-## <span>Values</span>
+## Values
 
 content-box
 :   The `width` and `height` properties (also including `min-width`, `max-width`, `min-height` and `max-height` properties) are calculated as the width/height of the content, but not the border, margin, or padding. This is the traditional behaviour of width and height as specified by CSS2.1.
@@ -68,7 +68,7 @@ border-box
 
 The dimensions of the content alone are thus calculated by subtracting the padding and border widths from each side of the element. Dimension properties are set to 0 if the calculated value is less than 0.
 
-## <span>Examples</span>
+## Examples
 
 The following examples assume markup that looks like this.
 
@@ -110,16 +110,16 @@ input[type="search"] {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 3 - Basic User Interface Module](http://www.w3.org/TR/css3-ui/#box-sizing)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Box Model</span>
+#### Box Model
 
 -   [border](/css/properties/border)
 
@@ -161,11 +161,11 @@ input[type="search"] {
 
 -   [min-width](/css/properties/min-width)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [WebPlatform.org tutorial on Box Model](http://docs.webplatform.org/wiki/tutorials/box_model)
 
-### <span>External resources</span>
+### External resources
 
 -   A [detailed article on box-sizing](http://css-tricks.com/box-sizing/) by Chris Coyier.
 -   Paul Irish wrote about [applying `box-sizing: border-box;` on all elements](http://paulirish.com/2012/box-sizing-border-box-ftw/).

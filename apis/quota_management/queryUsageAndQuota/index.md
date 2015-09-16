@@ -19,21 +19,21 @@ tags:
 uri: 'apis/quota management/queryUsageAndQuota'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Queries the current usage (how much data is stored) and quota available for the requesting application.
 
 Method of [apis/quota\_management/StorageQuota](/apis/quota_management/StorageQuota)[apis/quota\_management/StorageQuota](/apis/quota_management/StorageQuota)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.queryUsageAndQuota(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>successCallback</span>
+### successCallback
 
  Data-type
 :   String
@@ -42,7 +42,7 @@ Method of [apis/quota\_management/StorageQuota](/apis/quota_management/StorageQu
 
 **void (unsigned long grantedQuotaInBytes)**
 
-### <span>errorCallback</span>
+### errorCallback
 
  Data-type
 :   String
@@ -51,22 +51,22 @@ Method of [apis/quota\_management/StorageQuota](/apis/quota_management/StorageQu
 
 **void (DOMError error)**
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Quota Management Specification](https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html)
 :   W3C Editor's Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Off-line Storage</span>
+#### Off-line Storage
 
 -   [appcache](/apis/appcache)
 

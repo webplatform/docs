@@ -19,13 +19,13 @@ tags:
 uri: apis/indexeddb/IDBCursor/primaryKey
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the cursor's current effective key.
 
 Property of [apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)[apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.primaryKey;
@@ -34,8 +34,8 @@ element.primaryKey = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

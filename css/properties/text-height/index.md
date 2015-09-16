@@ -18,11 +18,11 @@ tags:
 uri: css/properties/text-height
 
 ---
-## <span>Summary</span>
+## Summary
 
 This property helps determine an inline box's block-progression dimension, derived from the text-height and font-size properties for non-replaced elements, the height or the width for replaced elements, and the stacked block-progression dimension for inline-block elements. The block-progression dimension determines the position of the padding, border and margin for the element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -48,7 +48,7 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-height: <number>`
 -   `text-height: auto`
@@ -56,7 +56,7 @@ Percentages
 -   `text-height: max-size`
 -   `text-height: text-size`
 
-## <span>Values</span>
+## Values
 
 auto
 :   The block-progression dimension is based either on the em square determined by the computed element font-size property value, or the cell-height (ascender + descender) related to the computed element font-size as chosen by the user agent.
@@ -73,7 +73,7 @@ max-size
 \<number\>
 :   The block progression dimension is based on *number* times the em square as determined by the computed font-size.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* auto */
@@ -86,7 +86,7 @@ max-size
 .inlinebox { text-height: 3; }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Line Layout Module](http://dev.w3.org/csswg/css-inline/)
 :   W3C Editor's Draft

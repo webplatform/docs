@@ -21,26 +21,26 @@ tags:
 uri: dom/CloseEvent/reason
 
 ---
-## <span>Summary</span>
+## Summary
 
 The connection close text provided by the server.
 
 Property of [dom/CloseEvent](/dom/CloseEvent)[dom/CloseEvent](/dom/CloseEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.reason;
 element.reason = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The connection close text provided by the server.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 function getCloseReason(e) {

@@ -14,18 +14,18 @@ tags:
 uri: html/elements/section
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines sections in a document, such as chapters, headers, footers, or any other sections of the document. It is new to HTML5.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
 A section is a thematic grouping of content, typically with a heading. Examples of sections would be chapters, the various tabbed pages in a tabbed dialog box, or the numbered sections of a thesis. A website's home page could be split into sections for an introduction, news items, and contact information. The **section** element is not a generic container element. Authors are encouraged to use the **div** element for styling purposes or when an element is needed as a convenience for scripting. The **section** element is appropriate only if the element's contents would be listed explicitly in the document's outline.
 
-## <span>Examples</span>
+## Examples
 
 In the following example, an **article** (part of a larger document about apples) contains two short sections.
 
@@ -79,11 +79,11 @@ The rank of **h1-h6** elements is determined by the number in their name. The **
 </section>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Note  Authors are encouraged to use the article element instead of the section element when it would make sense to syndicate the contents of the element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-section-element)
 :   W3C Working Draft
@@ -91,11 +91,11 @@ The rank of **h1-h6** elements is determined by the number in their name. The **
 [HTML 5](http://www.w3.org/TR/html5/sections.html#the-section-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Document Structure</span>
+#### Document Structure
 
 -   [button](/html/elements/button)
 

@@ -13,15 +13,15 @@ tags:
 uri: 'apis/quota management/StorageQuota'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides a means to query and request storage usage and quota information.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -32,22 +32,22 @@ API Name
 [requestQuota](/apis/quota_management/requestQuota)
 :   Requests a new quota for the requesting application.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Quota Management Specification](https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html#storagequota-interface)
 :   W3C Editor's Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Off-line Storage</span>
+#### Off-line Storage
 
 -   [appcache](/apis/appcache)
 

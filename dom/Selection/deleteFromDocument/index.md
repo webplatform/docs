@@ -23,19 +23,19 @@ tags:
 uri: dom/Selection/deleteFromDocument
 
 ---
-## <span>Summary</span>
+## Summary
 
 Deletes the selected nodes from a document.
 
 Method of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = selObj.deleteFromDocument();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -43,7 +43,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 In the following example, select the text and elements in the shaded section. When the mouse button is released, the selected items are deleted. Refresh the page to try again.
 
@@ -78,10 +78,10 @@ In the following example, select the text and elements in the shaded section. Wh
 </html>
 ```
 
-### <span>Syntax</span>
+### Syntax
 
 window.getSelection().deleteFromDocument();
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1

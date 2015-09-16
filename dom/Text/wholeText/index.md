@@ -23,13 +23,13 @@ tags:
 uri: dom/Text/wholeText
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves the immediate text child nodes of the parent node, that are adjacent to the text node.
 
 Property of [dom/Text](/dom/Text)[dom/Text](/dom/Text)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [dom/Text](/dom/Text)[dom/Text](/dom/Text)
 var text = textNode.wholeText;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The text of the node and its adjacent text nodes.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <body>
@@ -55,7 +55,7 @@ alert(document.getElementById('p').firstChild.wholeText);
 </body>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

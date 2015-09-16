@@ -20,7 +20,7 @@ todo_broken_links:
 uri: html/attributes/alt
 
 ---
-## <span>Summary</span>
+## Summary
 
 The alt attribute is used as a textual representation for graphics and buttons in browsers that don't or can't render images, or when the resource is not found.
 
@@ -44,7 +44,7 @@ If an image is not intended to be part of the content of the page, but instead i
 
 If the image contains (non-decorative) text, that text should be in the alternative text in full.
 
-## <span>Examples</span>
+## Examples
 
 In this example the images provice important information. The alt text therefore needs to convey the same content.
 
@@ -87,16 +87,16 @@ This example shows a image that is used as a functional icon. A non-empty alt te
 </a>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/embedded-content-0.html#alt)
 :   Proposed Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -236,7 +236,7 @@ This example shows a image that is used as a functional icon. A non-empty alt te
 
 -   [time](/html/elements/time)
 
-### <span>Other articles</span>
+### Other articles
 
 Other attributes that can convey alternative text or longer descriptions:
 
@@ -246,7 +246,7 @@ Other attributes that can convey alternative text or longer descriptions:
 -   [html/attributes/longDesc](/html/attributes/longDesc)
 -   [aria/attributes/aria-describedby](/aria/attributes/aria-describedby)
 
-### <span>External resources</span>
+### External resources
 
 -   [W3C WAI Web Accessibility Tutorial on Images](http://www.w3.org/WAI/tutorials/images/)
 -   [W3C WAI Web Accessibility Tutorial **alt decision tree**](http://www.w3.org/WAI/tutorials/images/decision-tree/)

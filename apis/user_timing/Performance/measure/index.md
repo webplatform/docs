@@ -19,28 +19,28 @@ tags:
 uri: 'apis/user timing/Performance/measure'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Stores the DOMHighResTimeStamp duration between two marks along with the associated name (a &quot;measure&quot;).
 
 Method of [apis/user\_timing/Performance](/apis/user_timing/Performance)[apis/user\_timing/Performance](/apis/user_timing/Performance)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.measure(name, startMark, endMark);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>name</span>
+### name
 
  Data-type
 :   any
 
  Name associated with the performance measure.
 
-### <span>startMark</span>
+### startMark
 
  Data-type
 :   any
@@ -49,7 +49,7 @@ Method of [apis/user\_timing/Performance](/apis/user_timing/Performance)[apis/us
 
 Name of the start performance mark.
 
-### <span>endMark</span>
+### endMark
 
  Data-type
 :   any
@@ -58,11 +58,11 @@ Name of the start performance mark.
 
 Name of the end performance mark.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // set begin mark
@@ -84,13 +84,13 @@ performance.clearMeasures("functionTime");
 performance.clearMarks();
 ```
 
-## <span>Notes</span>
+## Notes
 
 -   If neither the startMark nor the endMark argument is specified, measure() will store the duration as a DOMHighResTimeStamp from navigationStart to the current time.
 -   If the startMark argument is specified, but the endMark argument is not specified, measure() will store the duration as a DOMHighResTimeStamp from the most recent occurrence of the start mark to the current time.
 -   If both the startMark and endMark arguments are specified, measure() will store the duration as a DOMHighResTimeStamp from the most recent occurrence of the start mark to the most recent occurrence of the end mark.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C User Timing Specification](http://www.w3.org/TR/user-timing/)
 :   W3C Recommendation

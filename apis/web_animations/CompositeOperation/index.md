@@ -20,39 +20,39 @@ todo_broken_links:
 uri: 'apis/web animations/CompositeOperation'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The possible values of an animation effect’s composition behavior are represented by the CompositeOperation enumeration.
 
 Inherits from [enum](/w/index.php?title=enum&action=edit&redlink=1)[enum](/w/index.php?title=enum&action=edit&redlink=1)
 
-## <span>Overview</span>
+## Overview
 
 enum CompositeOperation {"replace", "add", "accumulate"};
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from enum</span>
+## Inherited from enum
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 

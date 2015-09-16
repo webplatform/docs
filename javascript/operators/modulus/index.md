@@ -10,11 +10,11 @@ tags:
 uri: javascript/operators/modulus
 
 ---
-## <span>Summary</span>
+## Summary
 
 Divides the value of one expression by the value of another, and returns the remainder.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Divides the value of one expression by the value of another, and returns the rem
 **number2**
 :   Any numeric expression.
 
-## <span>Examples</span>
+## Examples
 
 The following code shows how to use the modulus operator.
 
@@ -39,7 +39,7 @@ document.write(modResult);
 // Output: 5.6
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The modulus, or remainder, operator divides number1 by number2 and returns only the remainder as result. The sign of result is the same as the sign of number1. The value of result is between 0 and the absolute value of number2.
 

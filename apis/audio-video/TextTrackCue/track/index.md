@@ -23,13 +23,13 @@ tags:
 uri: apis/audio-video/TextTrackCue/track
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the TextTrack object to which this text track cue belongs, if any, or null otherwise.
 
 Property of [apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)[apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,11 +37,11 @@ Property of [apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)[apis
 var result = TextTrackCue.track;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //. . .
@@ -52,7 +52,7 @@ var theTrack = myCues[0].track;
 //. . .
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

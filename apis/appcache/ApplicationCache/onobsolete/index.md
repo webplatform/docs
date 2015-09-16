@@ -21,24 +21,24 @@ tags:
 uri: apis/appcache/ApplicationCache/onobsolete
 
 ---
-## <span>Summary</span>
+## Summary
 
 The Webpage is associated with an application cache whose group is marked as obsolete.
 
 Property of [apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)[apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = window.applicationCache.onobsolete;
 window.applicationCache.onobsolete = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type nullnull
 
-## <span>Examples</span>
+## Examples
 
 Checking fo the obsolete status
 
@@ -61,7 +61,7 @@ window.applicationCache.addEventListener('obsolete',function () {
 }, false);
 ```
 
-## <span>Notes</span>
+## Notes
 
 If the manifest file can't be found, the cache is considered to be deleted. If there is more than one event, the **obsolete** event will be the last one in the sequence. Alternatively, you could use an anonymous delegate function such as
 

@@ -18,11 +18,11 @@ tags:
 uri: css/properties/user-focus
 
 ---
-## <span>Summary</span>
+## Summary
 
 This is for all the high level UX stuff.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `all`
@@ -45,13 +45,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `user-focus: all`
 -   `user-focus: none`
 -   `user-focus: text`
 
-## <span>Values</span>
+## Values
 
 none
 :   None of the descendants of the element can be brought under consideration or focus, neither text nor images.

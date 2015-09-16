@@ -22,28 +22,28 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/rotate
 
 ---
-## <span>Summary</span>
+## Summary
 
 Addd the rotation transformation described by the argument to the transformation matrix. The angle argument represents a clockwise rotation angle expressed in radians.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.rotate(angle);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>angle</span>
+### angle
 
  Data-type
 :   Number
 
  The rotation angle, in radians.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -51,7 +51,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 This basic example draws two rects, the second rotated 45°, converted to radians
 
@@ -98,11 +98,11 @@ This full example draws two rects, the second rotated 45°
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
 Rotation is based on the current origin which is most of the time the upper left corner. Use rectWidth/-2 as an offsetX and rectHeight/-2 as offsetY to draw the rotated rect with a centered origin.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

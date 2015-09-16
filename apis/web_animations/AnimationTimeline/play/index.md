@@ -21,21 +21,21 @@ tags:
 uri: 'apis/web animations/AnimationTimeline/play'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a new AnimationPlayer object associated with this timeline that begins playback as soon as it is ready.
 
 Method of [apis/web\_animations/AnimationTimeline](/apis/web_animations/AnimationTimeline)[apis/web\_animations/AnimationTimeline](/apis/web_animations/AnimationTimeline)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.play(source);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>source</span>
+### source
 
  Data-type
 :   String
@@ -44,17 +44,17 @@ var result = element.play(source);
 
 If source is specified, it will be used as the newly-created AnimationPlayer’s source content.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Animation</span>
+#### Animation
 
 -   [Web Animations API](/apis/web_animations)
 

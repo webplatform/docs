@@ -20,40 +20,40 @@ tags:
 uri: apis/webaudio/PannerNode/setVelocity
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the velocity vector of the audio source. This vector controls both the direction of travel and the speed in 3D space. This velocity relative to the listener's velocity is used to determine how much doppler shift (pitch change) to apply. The x, y, and z parameters describe a direction vector indicating direction of travel and intensity. The default value is (0,0,0).
 
 Method of [apis/webaudio/PannerNode](/apis/webaudio/PannerNode)[apis/webaudio/PannerNode](/apis/webaudio/PannerNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = PannerNode.setVelocity(x, y, z);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
-
- Data-type
-:   Number
-
-### <span>y</span>
+### x
 
  Data-type
 :   Number
 
-### <span>z</span>
+### y
 
  Data-type
 :   Number
 
-## <span>Return Value</span>
+### z
+
+ Data-type
+:   Number
+
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -61,7 +61,7 @@ var panner = audioCtx.createPanner();
 panner.setVelocity(0,0,17);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

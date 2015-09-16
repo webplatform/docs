@@ -11,7 +11,7 @@ uri: css/cssom/properties
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Subpages</span>
+## Subpages
 
 ||
 |[css/cssom/properties/background](/css/cssom/properties/background)|[css/cssom/properties/clipBottom](/css/cssom/properties/clipBottom)|[css/cssom/properties/clipLeft](/css/cssom/properties/clipLeft)|

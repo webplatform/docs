@@ -24,28 +24,28 @@ tags:
 uri: apis/audio-video/TimeRanges/end
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the time for the end of the range with the given index. Throws an IndexSizeError if the index is out of range.
 
 Method of [apis/audio-video/TimeRanges](/apis/audio-video/TimeRanges)[apis/audio-video/TimeRanges](/apis/audio-video/TimeRanges)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = TimeRanges.end(index);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>index</span>
+### index
 
  Data-type
 :   any
 
  The zero-based index of the item in the collection.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -56,7 +56,7 @@ Type: **HRESULT**. This method can return one of these values.
 |S\_OK|The operation completed successfully.|
 |IndexSizeError|The specified index is out of range.|
 
-## <span>Examples</span>
+## Examples
 
 Given a video element with the ID "myVideo", this example looks at the time ranges to determine if the entire video has been loaded.
 
@@ -77,7 +77,7 @@ if (buf.length == 1) {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

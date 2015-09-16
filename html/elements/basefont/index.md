@@ -16,13 +16,13 @@ tags:
 uri: html/elements/basefont
 
 ---
-## <span>Summary</span>
+## Summary
 
 The basefont element (&lt;basefont&gt;) allows specifying a default color and font-size for text on the entire page.
 
 The `basefont` element was deprecated in HTML4 and should no longer be used.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLBaseFontElement](/dom/HTMLBaseFontElement)
@@ -31,7 +31,7 @@ To specify the overall font for your page add the `basefont` element at the begi
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML4](http://www.w3.org/TR/1999/REC-html401-19991224/present/graphics.html#edef-BASEFONT)
 :   W3C Recommendation

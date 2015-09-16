@@ -17,27 +17,27 @@ tags:
 uri: html/elements/q
 
 ---
-## <span>q</span>
+## q
 
 For technical reasons, the title of this article is not the text used to call this API. Instead, use `q`
 
-## <span>Summary</span>
+## Summary
 
 The q element represents some phrasing content quoted from another source.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLQuoteElement](/dom/HTMLQuoteElement)
 
 Do not use quote characters (`'`, `"`, ``` `` ```, etc) when using the **q** element. If used with the [html/elements/cite](/html/elements/cite) element, the cite must contain a valid url.
 
-## <span>Attributes</span>
+## Attributes
 
 -   `cite` = valid URL potentially surrounded by spaces
     Specifies the address in the quotation source. [[Example B]](#Example_B)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **q** element to set apart a quotation in text.
 
@@ -52,13 +52,13 @@ This example shows that the **q** element can have child elements.
 the sky is falling… <em>the sky is falling!</em></q></p>
 ```
 
-## <span>Usage</span>
+## Usage
 
      The q should be used to denote short, inline quotes that do not need a paragraph of their own.
 
 For longer quotes, please use the [**blockquote**](/html/elements/blockquote) element.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-q-element)
 :   W3C Working Draft
@@ -69,9 +69,9 @@ For longer quotes, please use the [**blockquote**](/html/elements/blockquote) el
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-Q)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [`cite`](/html/elements/cite)
 -   [`blockquote`](/html/elements/blockquote)

@@ -22,13 +22,13 @@ tags:
 uri: apis/location/host
 
 ---
-## <span>Summary</span>
+## Summary
 
 The host property contains the host part of the the current document URL, (hostname:port).
 
 Property of [apis/location](/apis/location)[apis/location](/apis/location)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,7 +36,7 @@ Property of [apis/location](/apis/location)[apis/location](/apis/location)
 var result = window.location.host;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
@@ -44,7 +44,7 @@ The hostname and port number.
 
 For example, `http://example.org:8080/` would return the host string of `example.org:8080`.
 
-## <span>Examples</span>
+## Examples
 
 The following example assumes your document has a div element with id 'hostDiv', like this.
 
@@ -61,7 +61,7 @@ container.innerHTML = host;
 
 [View live example](http://fiddle.jshell.net/YJEhh/4/)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Window Object 1.0](http://www.w3.org/TR/Window/)
 :   W3C Working Draft

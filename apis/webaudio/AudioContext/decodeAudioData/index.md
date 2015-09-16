@@ -20,7 +20,7 @@ tags:
 uri: apis/webaudio/AudioContext/decodeAudioData
 
 ---
-## <span>Summary</span>
+## Summary
 
 Asynchronously decodes the audio file data contained in the ArrayBuffer. The ArrayBuffer can, for example, be loaded from an XMLHttpRequest with the new responseType and response attributes. Audio file data can be in any of the formats supported by the audio element.
 
@@ -28,29 +28,29 @@ The decodeAudioData() method is preferred over the [createBuffer()](/apis/webaud
 
 Method of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = AudioContext.decodeAudioData(audioData, successCallback, errorCallback);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>audioData</span>
+### audioData
 
  Data-type
 :   String
 
  An ArrayBuffer containing audio file data.
 
-### <span>successCallback</span>
+### successCallback
 
  Data-type
 :   function
 
  A callback function which will be invoked when the decoding is finished. The single argument to this callback is an [**AudioBuffer**](/apis/webaudio/AudioBuffer) representing the decoded PCM audio data.
 
-### <span>errorCallback</span>
+### errorCallback
 
  Data-type
 :   function
@@ -59,24 +59,24 @@ var  = AudioContext.decodeAudioData(audioData, successCallback, errorCallback);
 
 A callback function which will be invoked if there is an error decoding the audio file data.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
 audioCtx.decodeAudioData(audioData, function(buffer) { ... };);
 ```
 
-## <span>Notes</span>
+## Notes
 
 The older callback-based system is still in the spec for legacy reasons and is currently supported across browsers that support the Web Audio API. It is to be superceded by the newer promise-based syntax, which is in the latest spec, but not yet supported by any browser.
 
 See <http://webaudio.github.io/web-audio-api/>.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

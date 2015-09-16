@@ -55,13 +55,13 @@ uri: 'svg/tutorials/smarter svg filters'
 ---
 **By Mike Sierra**
 
-## <span>Summary</span>
+## Summary
 
 This guide shows you how to build SVG image processing filters to create interesting visual effects. It shows how to apply these effects within an SVG graphic, and how to apply them to HTML content using the filter CSS property.
 
 The power of SVG filters is matched by the depth and complexity of available options. It takes a good deal of practice to master the many filter effects and understand how to combine them. This guide covers a wide range of examples. It starts by showing how to modify color values in ways that often correspond to built-in CSS filter functions. Then it shows you how to split and merge independent channels to take advantage of some of SVG's more unusual filter effects. Finally, it shows you how to apply three-dimensional lighting effects.
 
-## <span>What are filters?</span>
+## What are filters?
 
 A filter is a little machine that takes graphic input, changes it in some way, and causes the output to render differently. Filters comprise *filter effect* elements, some of which do intuitively obvious things (such as blur the graphic), and some of which only make sense when combined with other effects. Filter effects are often chained together so that one effect's output becomes another effect's input. Filter effects may also operate on different inputs that are modified independently of each other, then combined.
 
@@ -73,7 +73,7 @@ The idea of applying filters to web content originated in SVG, but it has recent
 
 This guide does not discuss these more recent CSS custom filters, but does show you how to customize your own SVG filters for use in HTML.
 
-## <span>Applying a simple filter (feGaussianBlur)</span>
+## Applying a simple filter (feGaussianBlur)
 
 Start by placing some text within an SVG graphic:
 
@@ -123,7 +123,7 @@ The effect takes each pixel and moves it around randomly from its original locat
 
  ![svgf blur.png](/assets/public/a/a9/svgf_blur.png)
 
-### <span>Applying SVG filters to HTML</span>
+### Applying SVG filters to HTML
 
 If you want to apply this customized SVG filter to HTML content, place it in an SVG file and use the corresponding [**filter**](/css/properties/filter) CSS property to reference it using the same [**url()**](/css/functions/url()) function:
 
@@ -136,7 +136,7 @@ If you want to apply this customized SVG filter to HTML content, place it in an 
 
  As of this writing, not all browsers allow you to apply SVG filters to HTML content. Mozilla Firefox fully supports the feature, even allowing filtered elements [to animate](/svg/tutorials/smarter_svg_animation). WebKit Safari's support is limited to filters that use the blur described above, and basic image processing effects described in the first half of this guide: **feComponentTransfer**, **feColorMatrix**, and **feConvolveMatrix**.
 
-## <span>Modifying colors with feComponentTransfer</span>
+## Modifying colors with feComponentTransfer
 
 The [**feComponentTransfer**](/svg/elements/feComponentTransfer) element allows you to modify each RGBA *component* represented in each pixel. Within the element, nest any combination of [**feFuncR**](/svg/elements/feFuncR), [**feFuncG**](/svg/elements/feFuncG), [**feFuncB**](/svg/elements/feFuncB), and [**feFuncA**](/svg/elements/feFuncA) elements to run different types of function over each pixel component value.
 
@@ -243,7 +243,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 
  ![svgf CTgamma.png](/assets/thumb/0/04/svgf_CTgamma.png/400px-svgf_CTgamma.png)
 
-## <span>Transforming colors with feColorMatrix</span>
+## Transforming colors with feColorMatrix
 
 The [**feColorMatrix**](/svg/elements/feColorMatrix) element provides other useful ways to modify an image's color. With its [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlink=1) set to **saturate**, reducing the [**values**](/w/index.php?title=svg/attributes/values&action=edit&redlink=1) from 1 produces a grayscale, while increasing it makes the image more vivid, just like the [**grayscale()**](/css/functions/grayscale()) and [**saturate()**](/css/functions/saturate()) CSS functions:
 
@@ -316,7 +316,7 @@ The first example below reproduces the effect of the CSS [**sepia()**](/css/func
 
  ![svgf CMXsunset.png](/assets/thumb/7/76/svgf_CMXsunset.png/400px-svgf_CMXsunset.png)
 
-## <span>Sharpening images with feConvolveMatrix</span>
+## Sharpening images with feConvolveMatrix
 
 The [**feConvolveMatrix**](/svg/elements/feConvolveMatrix) effect allows you to modify pixels based on the values of their neighbors, useful in sharpening details. In its simplest form, the [**order**](/w/index.php?title=svg/attributes/order&action=edit&redlink=1) attribute declares a 3×3 box, which defines a matrix of 9 table values that must be reflected in the [**kernelMatrix**](/w/index.php?title=svg/attributes/kernelMatrix&action=edit&redlink=1) attribute:
 
@@ -383,7 +383,7 @@ As shown below, the example on the right is also converted to a grayscale using 
 </filter>
 ```
 
-## <span>Chaining, splitting and merging effects: building a drop shadow with feOffset, feFlood, and feMerge</span>
+## Chaining, splitting and merging effects: building a drop shadow with feOffset, feFlood, and feMerge
 
 Much of the power of SVG filters comes from their ability to accept various graphic inputs, modify them independently of each other, then recombine them. This example reproduces the effect produced by the CSS [**drop-shadow()**](/css/functions/drop-shadow()) function. Stepping through each line and seeing the results as you go helps you to build far more interesting filters:
 
@@ -420,7 +420,7 @@ Finally, the [**feMerge**](/svg/elements/feMerge) effect combines the modified v
 
 ![svgf dropMerge.png](/assets/thumb/6/6e/svgf_dropMerge.png/192px-svgf_dropMerge.png)
 
-## <span>Other input and merging options: feBlend, feComposite, feImage, feTile</span>
+## Other input and merging options: feBlend, feComposite, feImage, feTile
 
 The [**feMerge**](/svg/elements/feMerge) element shown above simply places one graphic over another to produce a new filter channel. As an alternative, you can use [**feBlend**](/svg/elements/feBlend) with its [**mode**](/w/index.php?title=svg/attributes/mode&action=edit&redlink=1) set to **normal**, which combines the [**in**](/w/index.php?title=svg/attributes/in&action=edit&redlink=1) and [**in2**](/w/index.php?title=svg/attributes/in2&action=edit&redlink=1) channels:
 
@@ -496,7 +496,7 @@ Use the [**feImage**](/svg/elements/feImage) element to import graphics into fil
 
  The [**feTile**](/svg/elements/feTile) element simply allows you to repeat imported graphics as a pattern.
 
-## <span>Warping effects (feMorphology, feTurbulence, feDisplacementMap)</span>
+## Warping effects (feMorphology, feTurbulence, feDisplacementMap)
 
 The next example shows how to combine several filter effects to warp text:
 
@@ -541,7 +541,7 @@ The [**feDisplacementMap**](/svg/elements/feDisplacementMap) produces the final 
 
 The displacement effect moves the pixels of the text (specified by [**in**](/w/index.php?title=svg/attributes/in&action=edit&redlink=1)) based on the pixel values of the noise pattern (specified by [**in2**](/w/index.php?title=svg/attributes/in2&action=edit&redlink=1)). The [**xChannelSelector**](/w/index.php?title=svg/attributes/xChannelSelector&action=edit&redlink=1) and [**yChannelSelector**](/w/index.php?title=svg/attributes/yChannelSelector&action=edit&redlink=1) specify, for each axis, which color component's value (**R**, **G**, **B**, or **A**) to use to push the pixels, and the [**scale**](/w/index.php?title=svg/attributes/scale&action=edit&redlink=1) sets the overall range of movement.
 
-## <span>Creating textures (feTurbulence)</span>
+## Creating textures (feTurbulence)
 
 Turbulence is indispensable for grain and weave textures, useful for background patterns. Step through the following example:
 
@@ -577,7 +577,7 @@ The final [**feMerge**](/svg/elements/feMerge) overlays the pattern:
 
 Note the [**filter**](/svg/elements/filter) element in the example above uses [**x**](/w/index.php?title=svg/attributes/x&action=edit&redlink=1), [**y**](/w/index.php?title=svg/attributes/y&action=edit&redlink=1), [**width**](/w/index.php?title=svg/attributes/width&action=edit&redlink=1), and [**height**](/w/index.php?title=svg/attributes/height&action=edit&redlink=1) attributes to specify dimensions. By default, filters operate on a *region* that's somewhat wider than elements they are applied to, to account for offset effects such as the shadow shown above, which extends past the graphic's original dimensions. In this example, the weave pattern only appears within the graphic's original dimensions.
 
-## <span>Lighting effects</span>
+## Lighting effects
 
 Shining a light on a graphic provides additional depth and texture. To create a lighting effect, you need to specify three things:
 
@@ -686,7 +686,7 @@ A point light allows you to place light sources closer to the scene. Specify a s
 
 See this [animated SVG](http://letmespellitoutforyou.com/samples/svg/filter_terrain.svg) that repositions the light sources in these examples.
 
-## <span>Beveling (feSpecularLighting)</span>
+## Beveling (feSpecularLighting)
 
 Using lighting effects to bevel graphics adds a greater sense of depth to the drop-shadow effect seen above. Step through this example to build the effect:
 
@@ -759,11 +759,11 @@ The filter uses [**feImage**](/svg/elements/feImage) to import an graphic filled
 
  ![svgf eyeShine.png](/assets/public/b/ba/svgf_eyeShine.png)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 
@@ -847,7 +847,7 @@ The filter uses [**feImage**](/svg/elements/feImage) to import an graphic filled
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### <span>External resources</span>
+### External resources
 
 -   [SVG Essentials: Filters](http://commons.oreilly.com/wiki/index.php/SVG_Essentials/Filters), by J. David Eisenberg
 -   [An SVG Primer for Today's Browsers](http://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html#filters), by David Dailey

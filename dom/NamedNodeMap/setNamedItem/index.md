@@ -25,28 +25,28 @@ tags:
 uri: dom/NamedNodeMap/setNamedItem
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds an attribute to an element by using an attributes collection.
 
 Method of [dom/NamedNodeMap](/dom/NamedNodeMap)[dom/NamedNodeMap](/dom/NamedNodeMap)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.setNamedItem(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>ppNode</span>
+### ppNode
 
  Data-type
 :   any
 
 **attribute**
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -56,7 +56,7 @@ Returns an object of type DOM NodeDOM Node
 
 attribute
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to add an attribute to an element using the **setNamedItem** method.
 
@@ -81,14 +81,14 @@ nnm.setNamedItem(namedItem);
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setNamedItemEx1.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 An [**attribute**](/dom/HTMLElement) that is set with this method does not have to apply to the element. If an **attribute** with the same name is already present, it is replaced by the new **attribute**. **setNamedItem** was introduced in Microsoft Internet Explorer 6.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 3 Core Specification](http://go.microsoft.com/fwlink/p/?linkid=182717), Section 1.4

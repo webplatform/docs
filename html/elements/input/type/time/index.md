@@ -14,16 +14,16 @@ tags:
 uri: html/elements/input/type/time
 
 ---
-## <span>Summary</span>
+## Summary
 
 An input field for entering a specific time value.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
 
-## <span>Examples</span>
+## Examples
 
 Basic usage. Accepts no seconds.
 
@@ -43,6 +43,6 @@ Accepts only hours.
 <input type="time" step="3600">
 ```
 
-## <span>Notes</span>
+## Notes
 
 On Safari Mobile for iOS, setting [`display`](/css/properties/display)`: block` on an **input** of **type="time"** causes the text within the **input** to become vertically misaligned.

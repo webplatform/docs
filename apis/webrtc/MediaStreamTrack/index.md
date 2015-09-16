@@ -12,11 +12,11 @@ tags:
 uri: apis/webrtc/MediaStreamTrack
 
 ---
-## <span>Summary</span>
+## Summary
 
 A MediaStreamTrack is one of two kinds, audio or video, and represents the media source, such as a camera.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -39,11 +39,11 @@ API Name
 [readyState](/apis/webrtc/MediaStreamTrack/readyState)
 :   The track's ready state; values.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 API Name
 :   Summary

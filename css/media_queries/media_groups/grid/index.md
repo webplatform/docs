@@ -11,20 +11,20 @@ tags:
 uri: 'css/media queries/media groups/grid'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The grid media group includes any media type that displays text in a single font and font-size.
 
 In addition to visual media with a single font, Braille-based media are considered to be grid media types. The opposite of grid (for visual media) is the [bitmap media group](/css/media_queries/media_groups/bitmap).
 
-## <span>Applicable Media Types</span>
+## Applicable Media Types
 
 (none in the database)
 
-## <span>Applicable Media Features</span>
+## Applicable Media Features
 
 (none in the database)
 
-## <span>Applicable CSS properties</span>
+## Applicable CSS properties
 
 (none in the database)

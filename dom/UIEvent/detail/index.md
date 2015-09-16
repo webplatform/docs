@@ -25,13 +25,13 @@ tags:
 uri: dom/UIEvent/detail
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets additional, developer defined, information about an event.
 
 Property of [dom/UIEvent](/dom/UIEvent)[dom/UIEvent](/dom/UIEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,13 +39,13 @@ Property of [dom/UIEvent](/dom/UIEvent)[dom/UIEvent](/dom/UIEvent)
 var eventDetails = event.detail;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 Returns additional numerical information about the event, depending on the type of event.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!DOCTYPE html>
@@ -73,11 +73,11 @@ Returns additional numerical information about the event, depending on the type 
 </html>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use this property to get developer defined information about a developer generated event, if any. When part of a user agent initiated UIEvent, this property is never set.
 
-## <span>Notes</span>
+## Notes
 
 You can set the **detail** property of an event by using the [**initUIEvent**](/dom/UIEvent/initUIEvent) method.
 
@@ -85,7 +85,7 @@ For mouse events, such as click, dblclick, mousedown, or mouseup, the detail pro
 
 For a dblclick event the value of detail is always 2.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

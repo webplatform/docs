@@ -23,13 +23,13 @@ tags:
 uri: apis/audio-video/TextTrackCueList/length
 
 ---
-## <span>Summary</span>
+## Summary
 
 The length attribute returns the number of cues in the list represented by the TextTrackCueList.
 
 Property of [apis/audio-video/TextTrackCueList](/apis/audio-video/TextTrackCueList)[apis/audio-video/TextTrackCueList](/apis/audio-video/TextTrackCueList)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,11 +37,11 @@ Property of [apis/audio-video/TextTrackCueList](/apis/audio-video/TextTrackCueLi
 var result = TextTrackCueList.length;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 //. . .
@@ -52,7 +52,7 @@ alert(myCues.length);
 //. . .
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

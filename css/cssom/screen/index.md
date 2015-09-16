@@ -13,11 +13,11 @@ tags:
 uri: css/cssom/screen
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page lists the properties, methods, and events of the screen object.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -70,14 +70,14 @@ API Name
 [width](/css/cssom/screen/width)
 :   Gets or sets an element's width.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-### <span>Standards information</span>
+### Standards information
 
 -   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793), 4.2

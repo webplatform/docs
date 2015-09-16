@@ -13,21 +13,21 @@ tags:
 uri: javascript/Array/constructor
 
 ---
-## <span>Summary</span>
+## Summary
 
 References the function which created the instance of the Array object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     arrayObj.constructor
 
-## <span>Return Value</span>
+## Return Value
 
 The function object which constructed the Array instance.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the constructor property.
 
@@ -45,7 +45,7 @@ var x = new Array();
 
 [View live example](http://code.webplatform.org/gist/9237139)
 
-## <span>Remarks</span>
+## Remarks
 
 The **constructor** property is a member of the prototype of every object that has a prototype. This includes all intrinsic JavaScript objects except the **Global** and **Math** objects. If the JavaScript interpreter falls back to their prototype object, the **constructor** property references the native `Object.prototype.constructor`.
 
@@ -68,14 +68,14 @@ The **constructor** property is only read-only for primitive values such as 1, t
 
     // Output: function Number() { [native code] }
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [JavaScript, by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 -   [Object.prototype.constructor, by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor)
 
-### <span>Specification</span>
+### Specification
 
 -   [4.3.4 constructor](http://www.ecma-international.org/ecma-262/5.1/#sec-4.3.4)
 -   [15.2.4.1 Object.prototype.constructor](http://www.ecma-international.org/ecma-262/5.1/#sec-15.2.4.1)

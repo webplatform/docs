@@ -17,25 +17,25 @@ tags:
 uri: 'apis/web animations/AnimationPlayer/finish'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Seeks the player to the end of the source content in the current direction by running the finish a player procedure for this object.
 
 Method of [apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)[apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  AnimationPlayer.finish();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Exceptions:
 

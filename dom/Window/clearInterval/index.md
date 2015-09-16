@@ -19,32 +19,32 @@ tags:
 uri: dom/Window/clearInterval
 
 ---
-## <span>Summary</span>
+## Summary
 
 Cancels the interval previously started using the setInterval method.
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  window.clearInterval(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>timerID</span>
+### timerID
 
  Data-type
 :   Number
 
 **Integer** that specifies the interval to cancel. This value must have been previously returned by the [**setInterval**](/dom/Window/setInterval) method.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!DOCTYPE html>

@@ -12,13 +12,13 @@ tags:
 uri: apis/webaudio/ScriptProcessorNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 This interface is an AudioNode which can generate, process, or analyse audio directly using JavaScript.
 
 **Deprecated; deletion candidate. See <http://webaudio.github.io/web-audio-api/>.**
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -33,15 +33,15 @@ API Name
 
     **Deprecated; deletion candidate. See <http://webaudio.github.io/web-audio-api/>.**
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

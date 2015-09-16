@@ -24,34 +24,34 @@ tags:
 uri: apis/indexeddb/IDBObjectStore/delete
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes a record from the specified Object Store.
 
 Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var idbRequest = objectStore.delete(key);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>key</span>
+### key
 
  Data-type
 :   String
 
  Key identifying the record to be deleted
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 Returns an IDBRequest Object
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 store = db.createObjectStore("store1", { autoIncrement: true });
@@ -65,9 +65,9 @@ store.delete(IDBKeyRange.lowerBound(0));
 
 [View live example](http://nparashuram.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Delete%20Data&)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This method can throw the following [**DOMException**](/dom/DOMException) exceptions:
 
@@ -100,7 +100,7 @@ This method can throw the following [**DOMException**](/dom/DOMException) except
 </tbody>
 </table>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

@@ -11,7 +11,7 @@ tags:
 uri: concepts/accessibility/definitions
 
 ---
-## <span>Summary</span>
+## Summary
 
 The following article will list the disabilities that will affect their experience on the web.
 

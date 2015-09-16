@@ -26,13 +26,13 @@ uri: dom/HTMLTableElement/createTFoot
 
 Method of [dom/HTMLTableElement](/dom/HTMLTableElement)[dom/HTMLTableElement](/dom/HTMLTableElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.createTFoot();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -42,7 +42,7 @@ Object
 
 null
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **createTFoot** method to create a table footer.
 
@@ -50,20 +50,20 @@ This example uses the **createTFoot** method to create a table footer.
 myTFoot = document.all.myTable.createTFoot()
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If a **tFoot** already exists for the [**table**](/html/elements/table), the **createTFoot** method returns the existing element. Otherwise, it returns a pointer to the element created.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `table`

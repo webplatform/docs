@@ -20,16 +20,16 @@ todo_broken_links:
 uri: svg/elements/svg
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &lt;svg&gt; element represents the root of a Scalable Vector Graphics (SVG) fragment.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 
@@ -40,13 +40,13 @@ The &lt;svg&gt; element represents the root of a Scalable Vector Graphics (SVG) 
 
 ```
 
-## <span>Usage</span>
+## Usage
 
      Scalable Vector Graphics (SVG) is a modularized language for describing two-dimensional vector and mixed vector/raster graphics in XML. Only a correct HTML5 parser, using the syntax defined in 8 The HTML syntax, will be able to properly interpret SVG elements when using text/html. When using application/xhtml+xml, one must use proper namespaces to ensure that SVG elements are interpreted correctly.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -58,13 +58,13 @@ In all cases, you must declare an SVG namespace so that all SVG elements are ide
 
     <svg xmlns="http://www.w3.org/2000/svg" ... >
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [List of SVG Elements](/svg/elements)
 -   [A comparison of canvas and SVG](/w/index.php?title=HTML/Canvas_and_SVG&action=edit&redlink=1)
 
-### <span>External resources</span>
+### External resources
 
 -   [Scalable Vector Graphics (SVG) 1.1](http://www.w3.org/TR/SVG11/)

@@ -12,11 +12,11 @@ tags:
 uri: apis/geolocation/Position
 
 ---
-## <span>Summary</span>
+## Summary
 
 The container for the geolocation information returned by this API.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -27,15 +27,15 @@ API Name
 [timestamp](/apis/geolocation/Position/timestamp)
 :   Represents the time when the Position object was acquired, represented as a *DOMTimeStamp*.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft

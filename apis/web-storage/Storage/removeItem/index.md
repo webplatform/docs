@@ -18,32 +18,32 @@ tags:
 uri: apis/web-storage/Storage/removeItem
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes the key/value pair with the given key from the list associated with the object, if it exists.
 
 Method of [apis/web-storage/Storage](/apis/web-storage/Storage)[apis/web-storage/Storage](/apis/web-storage/Storage)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  object.removeItem(key);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>key</span>
+### key
 
  Data-type
 :   String
 
  The name of the key, or the empty string.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // Check for support of sessionStorage
@@ -57,7 +57,7 @@ if(window.sessionStorage) {
 }
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Storage Specification](http://dev.w3.org/html5/webstorage)
 :   W3C Editor's Draft

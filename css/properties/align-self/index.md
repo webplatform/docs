@@ -20,11 +20,11 @@ tags:
 uri: css/properties/align-self
 
 ---
-## <span>Summary</span>
+## Summary
 
 Allows the default alignment to be overridden for individual flex items.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -47,7 +47,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `alignSelf`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `align-self: auto`
 -   `align-self: baseline`
@@ -62,7 +62,7 @@ Animatable
 -   `flex-item-align: start`
 -   `flex-item-align: stretch`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Computes to the value of [align-items](/css/properties/align-items) on the element's parent, or **stretch** if the element has no parent.
@@ -84,7 +84,7 @@ Otherwise, it participates in baseline alignment: all participating flex items o
 stretch
 :   If the cross size property of the flex item is **auto**, its used value is the length necessary to make the cross size of the item's margin box as close to the same size as the line as possible, while still respecting the constraints imposed by [min-height](/css/properties/min-height)/[min-width](/css/properties/min-width)/[max-height](/css/properties/max-height)/[max-width](/css/properties/max-width). Note: that if the flex container's height is constrained the stretch value may cause the contents of the flex item to overflow the item.
 
-## <span>Examples</span>
+## Examples
 
 Displaying children with custom alignment.
 
@@ -106,21 +106,21 @@ Displaying children with custom alignment.
 
 [View live example](http://code.webplatform.org/gist/4745364)
 
-## <span>Notes</span>
+## Notes
 
 -   This property will have no effect if the flex-item's cross axis margins are set to auto.
 -   This property was named **flex-item-align** in older drafts.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Flexible Box Layout Module](http://www.w3.org/TR/css3-flexbox/#align-self-property)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSS Layout</span>
+#### CSS Layout
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -164,7 +164,7 @@ Displaying children with custom alignment.
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### <span>Flexbox</span>
+#### Flexbox
 
 -   [align-content](/css/properties/align-content)
 
@@ -190,7 +190,7 @@ Displaying children with custom alignment.
 
 -   [justify-content](/css/properties/justify-content)
 
-### <span>External resources</span>
+### External resources
 
 Also, check out the following live demo sites:
 

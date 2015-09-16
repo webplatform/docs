@@ -22,16 +22,16 @@ tags:
 uri: html/elements/optgroup
 
 ---
-## <span>Summary</span>
+## Summary
 
 Allows authors to group choices logically in a select element.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLOptGroupElement](/dom/HTMLOptGroupElement)
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **OPTGROUP** element to create groups of items in a drop-down list box.
 
@@ -50,21 +50,21 @@ The following example shows how to use the **OPTGROUP** element to create groups
 </SELECT>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 In [HTML 4.01](http://go.microsoft.com/fwlink/p/?linkid=203769), all **OPTGROUP** elements must be specified directly within a **SELECT** element. Groups may not be nested. You can add **OPTGROUP** elements only to a **SELECT** element located in the same window where the **OPTGROUP** elements are created. This element is available in HTML as of Microsoft Internet Explorer 6.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 17.6
 
-### <span>HTML information</span>
+### HTML information
 
 {
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-optgroup-element)
 :   W3C Working Draft

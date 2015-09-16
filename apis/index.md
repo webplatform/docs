@@ -3,11 +3,11 @@ title: APIs
 uri: apis
 
 ---
-## <span>Summary</span>
+## Summary
 
 APIs, or Application Programming Interfaces, are standard JavaScript objects that perform a variety of tasks. They encapsulate objects, methods, properties, and events that you can use to build applications that will work across different browsers.
 
-## <span>Background</span>
+## Background
 
 APIs came into popularity on the Web a number of years ago, when open standards creators and web property developers realised it was a really good idea to make their data, services and technologies easily query-able and reusable via simple interfaces consisting of standard JavaScript objects. These days you'll find many examples of APIs available and in use all over the Web, for example:
 
@@ -20,7 +20,7 @@ Note: If you are completely new to web development, you may want to review [Web 
 
 Most of the APIs, however, are designed to be used right in your own code. Below are listed all of the APIs currently documented here.
 
-## <span>List of all APIs</span>
+## List of all APIs
 
 API Name
 :   Summary
@@ -126,10 +126,10 @@ API Name
 [XMLHttpRequest (XHR) API](/apis/xhr)
 :   XMLHttpRequest (XHR) is a Javascript object that is used to send HTTP or HTTPS requests directly to a web server and load the server response data directly back into the script.
 
-## <span>Contributing to the API documentation</span>
+## Contributing to the API documentation
 
 See the [API Project page](/WPD:Proposals/api_docs) for a description of the work being performed to develop the API reference. See [Creating API pages](/WPD:Creating_API_pages) to learn how to document an API.
 
-## <span>Contributing to the HTML technology</span>
+## Contributing to the HTML technology
 
 To contribute to the development of APIs and provide feedback, you need to know where the specification and/or source code is kept. For example, you can find out how to comment on the HTML5 APIs by consulting the [W3C HTML home page](http://www.w3.org/html/), or suggest fixes to Modernizr via the [Modernizr Github repo](https://github.com/Modernizr/Modernizr).

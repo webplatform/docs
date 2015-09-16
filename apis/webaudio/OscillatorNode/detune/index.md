@@ -16,13 +16,13 @@ tags:
 uri: apis/webaudio/OscillatorNode/detune
 
 ---
-## <span>Summary</span>
+## Summary
 
 A detuning value (in cents) which will offset the frequency by the given amount. This parameter is a-rate.
 
 Property of [apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)[apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -30,14 +30,14 @@ Property of [apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)[apis/w
 var result = OscillatorNode.detune;
 ```
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var oscillator = audioCtx.createOscillator();
 oscillator.detune.value = 100; // value in cents
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

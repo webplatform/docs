@@ -16,26 +16,26 @@ todo_broken_links:
 uri: html/elements/details
 
 ---
-## <span>Summary</span>
+## Summary
 
 The details element represents a disclosure widget from which the user can obtain additional information or controls.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLDetailsElement](/w/index.php?title=dom/HTMLDetailsElement&action=edit&redlink=1)
 
-## <span>Attributes</span>
+## Attributes
 
-### <span>open</span>
+### open
 
 If the `open` attribute is set on the `details` tag, it will be open when it's rendered.
 
-## <span>Browser support</span>
+## Browser support
 
 The \<details\> tag is currently only supported in Chrome and in Safari on Mac.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <details open="open">
@@ -47,7 +47,7 @@ The \<details\> tag is currently only supported in Chrome and in Safari on Mac.
 
 [View live example](http://code.webplatform.org/gist/37f1ab4ad9cfb23eaa3d)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/interactive-elements.html#the-details-element)
 :   W3C Working Draft

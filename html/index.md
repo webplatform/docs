@@ -71,39 +71,39 @@ translations:
 uri: html
 
 ---
-## <span>Summary</span>
+## Summary
 
 Hypertext Markup Language (HTML) is the markup language for web pages. The [World Wide Web Consortium](http://www.w3.org) maintains the [HTML standard](http://www.w3.org/standards/techs/html).
 
-## <span>Explore our HTML docs</span>
+## Explore our HTML docs
 
-### <span>[HTML learning material](/html/tutorials)</span>
+### [HTML learning material](/html/tutorials)
 
 Tutorials and concept articles to teach you HTML from the ground up.
 
-### <span>[Element reference](/html/elements)</span>
+### [Element reference](/html/elements)
 
 A reference guide to all the HTML elements available.
 
-### <span>[Attribute reference](/html/attributes)</span>
+### [Attribute reference](/html/attributes)
 
 A reference guide to all the available HTML attributes.
 
-### <span>[API reference](/html/apis)</span>
+### [API reference](/html/apis)
 
 A reference guide to all the APIs associated with the HTML language.
 
-### <span>[Data type reference](/html/data_types)</span>
+### [Data type reference](/html/data_types)
 
 A reference guide to HTML data types.
 
-### <span>[Entity reference](/html/entities)</span>
+### [Entity reference](/html/entities)
 
 A reference guide to HTML entities.
 
 Note: If you are completely new to web development, you may want to review [Web development for beginners](/beginners).
 
-## <span>Background</span>
+## Background
 
 HTML is language we structure our content in on the World Wide Web; one of the main components of the [Open Web Platform](http://www.w3.org/wiki/Open_Web_Platform).
 
@@ -111,17 +111,17 @@ HTML is language we structure our content in on the World Wide Web; one of the m
 -   Current stable version: The [HTML 4.01 Recommendation](http://www.w3.org/TR/html4) was published in December 1999.
 -   Current and future work: The most stable draft is published in the W3C [HTML5 Candidate Recommendation](http://www.w3.org/TR/html5); there is also an [HTML living standard](http://developers.whatwg.org/) containing the latest experimental ideas and features, published by the WHATWG.
 
-## <span>Contributing to the HTML technology</span>
+## Contributing to the HTML technology
 
 HTML development has been hosted by a few different organizations during its history including CERN, IETF, and W3C. Development has mainly taken place on [HTML Working Group Mailing Lists](http://www.w3.org/html/wg/lists/). These lists are good places to start if you want to suggest new features or provide feedback. For news and more general information, consult the [W3C HTML home page](http://www.w3.org/html/).
 
 the W3C is also currently asking for review comments on the [Media Accessibility Checklist](http://www.w3.org/wiki/HTML/MediaAccessibilityChecklist)
 
-## <span>Index of all HTML topics</span>
+## Index of all HTML topics
 
 The element and attribute lists below only include W3C Recommended values or candidate/proposed recommendations. Use the [Special:PrefixIndex/html/](/Special:PrefixIndex/html/) search page to find all elements and attributes organized under this page, or the [HTML category page](/Category:HTML) for all HTML-related pages in the wiki.
 
-### <span>HTML Elements</span>
+### HTML Elements
 
 -   [a](/html/elements/a)
 -   [a](/html/elements/a/ja)
@@ -197,7 +197,7 @@ The element and attribute lists below only include W3C Recommended values or can
 -   [video](/html/elements/video)
 -   [wbr](/html/elements/wbr)
 
-### <span>HTML Attributes</span>
+### HTML Attributes
 
 -   [accept](/html/attributes/accept)
 -   [action](/html/attributes/action)

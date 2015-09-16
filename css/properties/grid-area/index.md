@@ -20,11 +20,11 @@ tags:
 uri: css/properties/grid-area
 
 ---
-## <span>Summary</span>
+## Summary
 
 Lays out one or more grid items bound by 4 grid lines. Shorthand for setting grid-column-start, grid-column-end, grid-row-start, and grid-row-end in a single declaration.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `See individual properties`
@@ -50,11 +50,11 @@ Animatable
 Percentages
 :   See individual properties
 
-## <span>Syntax</span>
+## Syntax
 
 -   `grid-area: <grid-line> [ <grid-line> [ <grid-line> [ <grid-line> ] ] ]`
 
-## <span>Values</span>
+## Values
 
 \<grid-line\> [ \<grid-line\> [ \<grid-line\> [ \<grid-line\> ] ] ]
 :   The resolution order of values for this shorthand is grid-row-start, grid-column-start, grid-row-end, grid-column-end. That is, if four \<grid-line\> values are specified, grid-row-start is set to the first value, grid-column-start is set to the second value, grid-row-end is set to the third value, and grid-column-end is set to the fourth value.
@@ -65,7 +65,7 @@ When grid-row-end is omitted, if grid-row-start is an \<ident\>, grid-row-end is
 
 When grid-column-start is omitted, if grid-row-start is an \<ident\>, all four longhands are set to that value. Otherwise, it is set to auto.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 grid-area: 1 2 2 3;
@@ -80,7 +80,7 @@ grid-column-end: 3;
 */
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Grid Layout Module](http://www.w3.org/TR/css3-grid-layout)
 :   W3C Working Draft

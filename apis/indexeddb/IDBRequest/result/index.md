@@ -20,13 +20,13 @@ tags:
 uri: apis/indexeddb/IDBRequest/result
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the result of the request. If the the request failed and the result is not available, the DOMException InvalidStateError exception is thrown.
 
 Property of [apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)[apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,14 +36,14 @@ var result = element.result;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The value of that **result** property depends on the original request. For example, if the original request opened a database, the value of the **result** property would be an [**IDBDatabase**](/apis/indexeddb/IDBDatabase) object.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

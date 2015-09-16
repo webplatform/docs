@@ -27,26 +27,26 @@ todo_broken_links:
 uri: dom/Node/nodeValue
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets or sets the value of a Node, if the type of Node supports it.
 
 Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var value = node.nodeValue;
 node.nodeValue = newValue;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The value of the node.
 
-## <span>Examples</span>
+## Examples
 
 The following code example alters the text of the specified list item by setting the **nodeValue** property of the text node that is contained by that list item.
 
@@ -92,17 +92,17 @@ document.addEventListener("DOMContentLoaded", initialize, false);
 </body>
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use this property to get or set the value of a Node. The concept of nodeValue changes between the various Node types (Element, Text and the rest).
 
-## <span>Notes</span>
+## Notes
 
 -   The value of this property for [Text](/dom/Text) nodes is their [Text.textContent](/dom/Node/textContent).
 -   This property is deprecated for [Attr](/dom/Attr) nodes. Use [Attr.value](/w/index.php?title=dom/Attr/value&action=edit&redlink=1) instead. The value of this property for Attr nodes is their Attr.value.
 -   The value of this property for [Element](/dom/Element) nodes is always `null`. Use [Node.nodeName](/dom/Node/nodeName) to get their name or [dom/Node/textContent](/dom/Node/textContent) to get all of the text included in their tree.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   W3C Recommendation

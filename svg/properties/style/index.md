@@ -11,21 +11,21 @@ tags:
 uri: svg/properties/style
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Returns a CSS style object. The returned object is live; changes to the object represent immediate changes to the associated CSS value.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Styling](http://go.microsoft.com/fwlink/p/?linkid=204734), Section 6.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGAElement**](/svg/elements/a)
 -   [**SVGCircleElement**](/svg/elements/circle)

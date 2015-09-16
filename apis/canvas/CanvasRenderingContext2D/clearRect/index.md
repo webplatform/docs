@@ -18,53 +18,53 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/clearRect
 
 ---
-## <span>Summary</span>
+## Summary
 
 Clears all pixels on the canvas in the given rectangle (x, y, w, h) to transparent black.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  context.clearRect(x, y, w, h);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>x</span>
+### x
 
  Data-type
 :   Number
 
  The x-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 
-### <span>y</span>
+### y
 
  Data-type
 :   Number
 
  The y-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 
-### <span>w</span>
+### w
 
  Data-type
 :   Number
 
  The width, in pixels, of the rectangle in relation to the coordinates of the canvas.
 
-### <span>h</span>
+### h
 
  Data-type
 :   Number
 
  The height, in pixels, of the rectangle in relation to the coordinates of the canvas.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
-## <span>Examples</span>
+## Examples
 
 This code example draws a filled rectangle by using fillRect and then clears the center portion by using clearRect. fillRect uses the width and height of the canvas, and clearRect uses percentages of the canvas width and height to create a frame.
 
@@ -111,11 +111,11 @@ This example shows the clearRect method alone. The x,y,width, and height of the 
 ctx.clearRect(canvas.width * .1, canvas.height * .1, canvas.width * .8, canvas.height * .8);
 ```
 
-## <span>Notes</span>
+## Notes
 
 The **clearRect** method clears the canvas to transparent black (that is, each pixel's RGBA value is equal to zero). To clear to a specific color, use the **[fillRect](/apis/canvas/CanvasRenderingContext2D/fillRect)** method.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

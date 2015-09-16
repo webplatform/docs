@@ -10,15 +10,15 @@ tags:
 uri: apis/indexeddb/indexedDB
 
 ---
-## <span>Summary</span>
+## Summary
 
 Implements the IDBFactory object's open method, thereby providing the way to open (create or access) a database.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -26,11 +26,11 @@ API Name
 [open](/apis/indexeddb/indexedDB/open)
 :   Opens a database. See [apis/indexeddb/IDBFactory/open](/apis/indexeddb/IDBFactory/open)
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation

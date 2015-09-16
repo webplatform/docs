@@ -22,26 +22,26 @@ tags:
 uri: dom/HTMLTextAreaElement/value
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the content of a &lt;textarea&gt; element.
 
 Property of [dom/HTMLTextAreaElement](/dom/HTMLTextAreaElement)[dom/HTMLTextAreaElement](/dom/HTMLTextAreaElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var textAreaContent = textAreaElement.value;
 textAreaElement.value = newTextAreaContent;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The content of the element, whether entered, existing or otherwise visible.
 
-## <span>Examples</span>
+## Examples
 
 The following code uses this property to log the content of a `<textarea>` and its length.
 
@@ -69,15 +69,15 @@ if (textAreaList.length) {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use this property to get the content of <textarea>.
 
-## <span>Notes</span>
+## Notes
 
 In JavaScript/ECMAScript, the [length](/javascript/String/length) property of this property can be used to determine the codepoint length of the content.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Document Object Model (DOM) Level 1](http://www.w3.org/TR/REC-DOM-Level-1/level-one-html.html#ID-70715579)
 :   W3C Recommendation
@@ -91,11 +91,11 @@ In JavaScript/ECMAScript, the [length](/javascript/String/length) property of th
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#dom-textarea-value)
 :   Living Standard
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 

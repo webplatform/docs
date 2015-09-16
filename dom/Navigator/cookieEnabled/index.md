@@ -23,13 +23,13 @@ tags:
 uri: dom/Navigator/cookieEnabled
 
 ---
-## <span>Summary</span>
+## Summary
 
 Retrieves whether client-side persistent cookies are enabled. Persistent cookies are those that are stored on the client-side computer.
 
 Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 var result = navigator.cookieEnabled;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -49,7 +49,7 @@ true (true)
 
 Client does support cookies.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 if (!navigator.cookieEnabled) {
@@ -57,7 +57,7 @@ if (!navigator.cookieEnabled) {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      Some websites may require cookies to be enabled on the client in order to work as intended.
 
@@ -65,16 +65,16 @@ eg. a cookie may be used to store a user token that is used to automatically log
 
 Use navigator.cookieEnabled to determine if the client web browser has cookies enabled. Display a message if they are not and your site requires it.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note**  CookieEnabled does not check the status of session cookies. This property does not check whether third-party persistent cookies are enabled.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 [How to enable cookies in your Web Browser](http://www.wikihow.com/Enable-Cookies-in-Your-Internet-Web-Browser)

@@ -25,14 +25,14 @@ uri: css/properties/-ms-scrollbar-darkshadow-color
 
 Property of [css/properties](/css/properties)[css/properties](/css/properties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.-ms-scrollbar-darkshadow-color;
 element.-ms-scrollbar-darkshadow-color = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to create a style rule that sets the **-ms-scrollbar-darkshadow-color** property for a **textArea** element.
 
@@ -52,25 +52,25 @@ The following example shows how to create a style rule that sets the **-ms-scrol
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/scrollbarColor.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 8. The **-ms-scrollbar-darkshadow-color** attribute is an extension to CSS, and can be used as a synonym for **scrollbar-darkshadow-color** in IE8 Standards mode. The gutter is the space between the track and the bottom and right edges of the scroll box and scroll arrows of the scroll bar. The **-ms-scrollbar-darkshadow-color** appears outside the [**-ms-scrollbar-shadow-color**](/css/selectors/-ms-scrollbar-shadow-color). The track is the element of a scroll bar on which the scroll box can slide either up and down or left and right. The scroll box is the square box within a scroll bar that can be moved either up and down or left and right on a track to change the position of the content on the screen. The scroll arrows, located at each end of a scroll bar, are the square buttons containing the arrows that move the content on the screen in small increments, either up and down or left and right. This property applies to elements that display a scroll bar. Cascading Style Sheets (CSS) enable scrolling on all objects through the [**overflow**](/css/properties/overflow) property. These objects are not listed in the Applies To list for this property.
 
-### <span>Syntax</span>
+### Syntax
 
 `-ms-scrollbar-darkshadow-color: variant`
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Scrollbar</span>
+#### Scrollbar
 
 -   [-ms-scrollbar-3d-light-color](/css/properties/-ms-scrollbar-3d-light-color)
 
@@ -88,7 +88,7 @@ There are no standards that apply here.
 
 -   [-ms-scrollbar-track-color](/css/properties/-ms-scrollbar-track-color)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

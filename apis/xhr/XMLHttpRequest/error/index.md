@@ -11,11 +11,11 @@ tags:
 uri: apis/xhr/XMLHttpRequest/error
 
 ---
-## <span>Summary</span>
+## Summary
 
 When the request has failed.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>

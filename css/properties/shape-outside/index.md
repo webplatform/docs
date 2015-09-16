@@ -20,11 +20,11 @@ tags:
 uri: css/properties/shape-outside
 
 ---
-## <span>Summary</span>
+## Summary
 
 Declares a shape around which text should be wrapped, with possible modifications from the shape-margin property. The shape defined by shape-outside and shape-margin changes the geometry of a float element's float area.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -50,14 +50,14 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `shape-outside: <basic-shape>`
 -   `shape-outside: <image>`
 -   `shape-outside: <shape-box>`
 -   `shape-outside: none`
 
-## <span>Values</span>
+## Values
 
 none
 :   The float area is unaffected.
@@ -84,7 +84,7 @@ none
 \<image\>
 :   If \<image\> references an image (fetched using the CORS-enabled fetch method defined by the HTML5 specification), the shape is extracted and computed based on the alpha channel of the image as defined by [shape-image-threshold](/css/properties/shape-image-threshold). If \<image\> does not reference an image or if the fetch attempt results in any error such that there is no fallback image, the effect is as if the value *auto* had been specified.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* shape used is a rectangle equal to the margin box */
@@ -128,17 +128,17 @@ shape-outside: url(path/to/image.png);
 
 [View live example](http://code.webplatform.org/gist/5832982)
 
-## <span>Usage</span>
+## Usage
 
      Currently implemented as an experimental feature in WebKit and Blink. This can be used with a -webkit- prefix in WebKit nightly builds and with a -webkit- prefix in Chrome Canary builds with experimental-webkit-features enabled: chrome://flags/#enable-experimental-webkit-features
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Shapes Module Level 1](http://www.w3.org/TR/css-shapes/)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [shape-margin](/css/properties/shape-margin) [shape-image-threshold](/css/properties/shape-image-threshold)

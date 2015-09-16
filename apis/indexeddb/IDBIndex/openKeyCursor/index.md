@@ -23,43 +23,43 @@ tags:
 uri: apis/indexeddb/IDBIndex/openKeyCursor
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a cursor.
 
 Method of [apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)[apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.openKeyCursor(range, direction);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>range</span>
+### range
 
  Data-type
 :   Blob
 
  A key range limiting the cursor to a specific set of values.
 
-### <span>direction</span>
+### direction
 
  Data-type
 :   Blob
 
  Indicates the direction of traversal and whether duplicate values are included.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This method can throw the following [**DOMException**](/dom/DOMException) exceptions:
 
@@ -106,8 +106,8 @@ This method can throw the following [**DOMException**](/dom/DOMException) except
 
   **Note**  As of Internet Explorer 10, the **code** property is deprecated in favor of the **name** property, which is preferred for standards compliance and future compatibility.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)

@@ -25,11 +25,11 @@ tags:
 uri: css/properties/border-top-right-radius
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the rounding of the top-right corner of the element.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
@@ -55,12 +55,12 @@ Animatable
 Percentages
 :   Refer to the corresponding dimension of the border box
 
-## <span>Syntax</span>
+## Syntax
 
 -   `border-top-right-radius: length`
 -   `border-top-right-radius: percentage`
 
-## <span>Values</span>
+## Values
 
 length
 :   Denotes the size of the circle radius or the semi-major and semi-minor axes of the ellipsis. It can be expressed in any unit allowed by the [CSS \<length\> data types](/css/data_types/length). Negative values are invalid.
@@ -68,7 +68,7 @@ length
 percentage
 :   Denotes the size of the circle radius, or the semi-major and semi-minor axes of the ellipsis, using percentage values. Percentages for the horizontal axis refer to the width of the box, percentages for the vertical axis refer to the height of the box. Negative values are invalid.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 
@@ -76,14 +76,14 @@ percentage
 
 [View live example](http://code.webplatform.org/gist/6950234)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 -   The **border-top-right-radius** property specifies the horizontal and vertical radii of the ellipse that defines the rounded upper-right corner for a border box. If there is only one value given, that value specifies both horizontal and vertical radii of the ellipse. If there are two values given, the first value sets the horizontal radius and the second value sets the vertical radius.
 -   When animating this property (as a length, percentage or calc()): when both values are lengths, they are interpolated as lengths; when both values are percentages, they are interpolated as percentages; otherwise, both values are converted into a calc() function that is the sum of a length and a percentage (each possibly zero), and these calc() functions have each half interpolated as real numbers.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Backgrounds and Borders Module Level 3; 5.1. Curve Radii: the ‘border-radius’ properties](http://www.w3.org/TR/css3-background/#border-top-right-radius)
 :   Candidate Recommendation
@@ -91,11 +91,11 @@ percentage
 [CSS Backgrounds and Borders Module Level 3; 5.1. Curve Radii: the ‘border-radius’ properties](http://dev.w3.org/csswg/css-backgrounds/#border-top-right-radius)
 :   Editor's Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Border</span>
+#### Border
 
 -   [border](/css/properties/border)
 

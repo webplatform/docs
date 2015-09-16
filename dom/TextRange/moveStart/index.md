@@ -24,21 +24,21 @@ tags:
 uri: dom/TextRange/moveStart
 
 ---
-## <span>Summary</span>
+## Summary
 
 Changes the start position of the range.
 
 Method of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = textRange.moveStart(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>Unit</span>
+### Unit
 
  Data-type
 :   BSTR
@@ -53,14 +53,14 @@ sentence - Moves one or more sentences. A sentence is a collection of words term
 
 textedit - Moves to the start or end of the original range.
 
-### <span>Count</span>
+### Count
 
  Data-type
 :   Number
 
 **Integer** that specifies the number of units to move. This can be positive or negative. The default is **1**.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -68,12 +68,12 @@ Returns an object of type NumberNumber
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

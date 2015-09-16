@@ -18,11 +18,11 @@ tags:
 uri: css/properties/flex-grow
 
 ---
-## <span>Summary</span>
+## Summary
 
 The flex-grow CSS property specifies how much a flex item will enlarge with respect to the other items in the flex container to fill an expanded container.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
@@ -45,16 +45,16 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `flexGrow`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `flex-grow: number`
 
-## <span>Values</span>
+## Values
 
 number
 :   The flex grow factor, which describes the proportion by which the flex item will grow relative to the other flex items in the container. Negative numbers are invalid.
 
-## <span>Examples</span>
+## Examples
 
 See [flex examples](/css/properties/flex#Examples) for the use of this property in an example.
 
@@ -62,24 +62,24 @@ See [flex examples](/css/properties/flex#Examples) for the use of this property 
 flex-grow: 3;
 ```
 
-## <span>Usage</span>
+## Usage
 
      The best practice is to use (instead of this property) the flex shorthand property, as it correctly resets any unspecified flex components to accomodate common uses.
 
-## <span>Notes</span>
+## Notes
 
 This property is animatable only for values of 1 or greater.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Flexible Box Layout Model](http://dev.w3.org/csswg/css-flexbox/#flex-grow)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Flexbox</span>
+#### Flexbox
 
 -   [align-content](/css/properties/align-content)
 

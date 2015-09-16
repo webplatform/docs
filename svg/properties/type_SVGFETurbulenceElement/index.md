@@ -11,18 +11,18 @@ tags:
 uri: 'svg/properties/type (SVGFETurbulenceElement)'
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 [**SVGFETurbulenceElement**](/svg/elements/feTurbulence) uses the **type** value to determine whether the filter primitive should perform a **noise** or **turbulence** function. The default is **turbulence** (**turbulence** is fractal-based and is considered smoother in appearance).
 
 The following are constants associated with [**SVGFETurbulenceElement**](/svg/elements/feTurbulence). {
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFETurbulenceElement**](/svg/elements/feTurbulence)

@@ -23,30 +23,30 @@ tags:
 uri: dom/TreeWalker/currentNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves where the current node in a filtered TreeWalker hierarchy is positioned.
 
 Property of [dom/TreeWalker](/dom/TreeWalker)[dom/TreeWalker](/dom/TreeWalker)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var node = walker.currentNode;
 walker.currentNode = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The currentNode of the TreeWalker object.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <div id="divcontent">
-<p>Some <span>text</span></p>
+<p>Some text</p>
 <b>Bold text</b>
 </div>
 
@@ -69,19 +69,19 @@ alert(walker.firstChild().tagName); //alerts P
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **currentNode** will never return null in Windows Internet Explorer 9, even when the traversing method returns null.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 1.2
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-treewalker-currentnode)
 :   Living Standard

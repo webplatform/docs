@@ -18,7 +18,7 @@ tags:
 uri: apis/filesystem/DirectoryEntrySync/removeRecursively
 
 ---
-## <span>Summary</span>
+## Summary
 
 Deletes a directory and all of its contents, if any. In the event of an error [e.g. trying to delete a directory that contains a file that cannot be removed], some of the contents of the directory may be deleted. It is an error to attempt to delete the root directory of a filesystem.
 
@@ -26,19 +26,19 @@ Deletes a directory and all of its contents, if any. In the event of an error [e
 
 Method of [apis/filesystem/DirectoryEntrySync](/apis/filesystem/DirectoryEntrySync)[apis/filesystem/DirectoryEntrySync](/apis/filesystem/DirectoryEntrySync)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  DirectoryEntrySync.removeRecursively();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

@@ -11,23 +11,23 @@ tags:
 uri: svg/properties/xmlbase
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The NO\_MODIFICATION\_ALLOWED\_ERR [**DOMException**](/dom/DOMException) code is raised if there is an attempt to change the value of a read-only attribute.
 
-### <span>Syntax</span>
+### Syntax
 
 HRESULT value = object.put\_xmlbase(BSTR v);HRESULT value = object.get\_xmlbase(BSTR\* p);
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGClipPathElement**](/svg/elements/clipPath)
 -   [**SVGPatternElement**](/svg/elements/patterrn)

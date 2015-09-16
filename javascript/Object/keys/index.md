@@ -10,11 +10,11 @@ tags:
 uri: javascript/Object/keys
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the names of the enumerable properties and methods of an object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,11 +23,11 @@ Returns the names of the enumerable properties and methods of an object.
 **object**
 :   Required. The object that contains the properties and methods. This can be an object that you created or an existing Document Object Model (DOM) object.
 
-## <span>Return Value</span>
+## Return Value
 
 An array that contains the names of the enumerable properties and methods of the object.
 
-## <span>Examples</span>
+## Examples
 
 The following example creates an object that has three properties and a method. It then uses the **keys** method to get the properties and methods of the object.
 
@@ -83,19 +83,19 @@ The following example displays the names of all enumerable properties that start
  // grain
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **keys** method returns only the names of enumerable properties and methods. To return the names of both enumerable and non-enumerable properties and methods, you can use [Object.getOwnPropertyNames Function](/javascript/Object/getOwnPropertyNames).
 
 For information about the enumerable attribute of a property, see [Object.defineProperty Function](/javascript/Object/defineProperty) and [Object.getOwnPropertyDescriptor Function](/javascript/Object/getOwnPropertyDescriptor).
 
-## <span>Exceptions</span>
+## Exceptions
 
 If the value supplied for the object argument is not the name of an object, a TypeError exception is thrown.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Object.getOwnPropertyNames Function](/javascript/Object/getOwnPropertyNames)
 

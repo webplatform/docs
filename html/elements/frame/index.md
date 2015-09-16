@@ -20,16 +20,16 @@ todo_broken_links:
 uri: html/elements/frame
 
 ---
-## <span>Summary</span>
+## Summary
 
 The frame element (&lt;frame&gt;) defines one particular window (frame) within a &lt;frameSet&gt;. The &lt;frame&gt; element is obsolete in HTML5.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLFrameElement](/dom/HTMLFrameElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **frame** element to define properties of the frame, including the location of the page loaded by the frame.
 
@@ -43,9 +43,9 @@ This example shows how to reference an object with`ID=sID` in `FRAME2`, from ano
 parent.frames.FRAME2.sID.innertext
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 You can access the **frame** object's properties (but not its contents) through the object model of the page in which the **frame** object resides. For example, the syntax for accessing the [**border**](/css/properties/border) style of the **frame** object is:
 
@@ -58,8 +58,8 @@ If a user opens a Web folder inside a frame and then clicks something in the Web
 1.  The [**allowTransparency**](/html/attributes/allowTransparency) attribute, used with the **frame** element, must be set to VARIANT\_TRUE.
 2.  In the **frame** content source document, the [**backgroundColor**](/css/properties/background-color) or [**bgColor**](/html/attributes/bgColor) attribute of the **body** element must be set to `transparent`.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `frameSet`

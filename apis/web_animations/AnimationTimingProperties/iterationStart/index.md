@@ -14,7 +14,7 @@ tags:
 uri: 'apis/web animations/AnimationTimingProperties/iterationStart'
 
 ---
-## <span>Summary</span>
+## Summary
 
 See the iterationStart member of the AnimationTimingReadOnly interface.
 
@@ -24,7 +24,7 @@ Note that the value of iterations is effectively added to the iterationStart suc
 
 Property of [apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)[apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.iterationStart;

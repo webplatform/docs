@@ -18,21 +18,21 @@ uri: dom/clientInformation
 
 Inherits from [Navigator](/dom/Navigator)[Navigator](/dom/Navigator)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from Navigator</span>
+## Inherited from Navigator
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -80,7 +80,7 @@ API Name
 
     This property reflects the setting in the "Your locale (location)" box in the Regional Options of Control Panel—for example, "English (United States).
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -97,11 +97,11 @@ API Name
 [sendBeacon](/dom/Navigator/sendBeacon)
 :   Asynchronously queues small amounts of HTTP data for transfer from the user agent to a web server. For example, it can be used to send analytics or diagnostics code without delaying the page's unload or affecting the performance of the navigation.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to determine whether the client can run Java applets.
 

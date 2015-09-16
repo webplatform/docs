@@ -23,26 +23,26 @@ tags:
 uri: dom/Location/search
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the substring of the href property that follows the question mark.
 
 Property of [dom/Location](/dom/Location)[dom/Location](/dom/Location)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var queryString = location.search;
 location.search = queryString;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The query string component of the URL.
 
-## <span>Examples</span>
+## Examples
 
 This example function returns the **search** property of the current page location.
 
@@ -52,6 +52,6 @@ function getSearch() {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
 The substring that follows the question mark is the query string or form data.

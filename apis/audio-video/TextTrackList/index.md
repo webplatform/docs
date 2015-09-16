@@ -13,11 +13,11 @@ tags:
 uri: apis/audio-video/TextTrackList
 
 ---
-## <span>Summary</span>
+## Summary
 
 A TextTrackList object represents a dynamically updating list of text tracks in a given order.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -25,15 +25,15 @@ API Name
 [length](/apis/audio-video/TextTrackList/length)
 :   The length attribute of a TextTrackList object returns the number of text tracks in the list represented by the TextTrackList.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

@@ -20,24 +20,24 @@ tags:
 uri: apis/webaudio/PannerNode/maxDistance
 
 ---
-## <span>Summary</span>
+## Summary
 
 The maximum distance between source and listener, after which the volume will not be reduced any further. The default value is 10000.
 
 Property of [apis/webaudio/PannerNode](/apis/webaudio/PannerNode)[apis/webaudio/PannerNode](/apis/webaudio/PannerNode)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = PannerNode.maxDistance;
 PannerNode.maxDistance = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var audioCtx = new AudioContext();
@@ -45,7 +45,7 @@ var panner = audioCtx.createPanner();
 panner.maxDistance = 10000;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

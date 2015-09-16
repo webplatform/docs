@@ -23,13 +23,13 @@ tags:
 uri: 'apis/resource timing/PerformanceResourceTiming/connectEnd'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the time immediately after the user agent finishes establishing the connection to the server to retrieve the resource.
 
 Property of [apis/resource\_timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)[apis/resource\_timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,13 +37,13 @@ Property of [apis/resource\_timing/PerformanceResourceTiming](/apis/resource_tim
 var result = element.connectEnd;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 DOMHighResTimeStamp
 
-## <span>Examples</span>
+## Examples
 
 This example assumes an HTML page containing a resource such as \<img src="<https://www.webplatform.org/logo/logo-with-text.png>" /\>
 
@@ -52,11 +52,11 @@ var resources = window.performance.getEntriesByType('resource');
 alert("connectEnd: " + resources[0].connectEnd);
 ```
 
-## <span>Notes</span>
+## Notes
 
 If a page is retrieved from an application cache, **connectEnd** has the same value as **fetchStart**. The value reported by **connectEnd** represents the number of milliseconds between the recorded time and midnight January 1, 1970 (UTC).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Resource Timing Specification](http://www.w3.org/TR/resource-timing/)
 :   W3C Working Draft

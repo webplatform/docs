@@ -16,27 +16,27 @@ tags:
 uri: 'apis/web animations/AnimationSequence'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Animation sequences are represented by the AnimationSequence interface.
 
 Inherits from [AnimationGroup](/apis/web_animations/AnimationGroup)[AnimationGroup](/apis/web_animations/AnimationGroup)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from AnimationGroup</span>
+## Inherited from AnimationGroup
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -50,7 +50,7 @@ API Name
 [lastChild](/apis/web_animations/AnimationGroup/lastChild)
 :   The last child of this animation group
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -73,7 +73,7 @@ API Name
 
     Insert nodes before the first child.
 
-### <span>Events</span>
+### Events
 
 *No events.*
 

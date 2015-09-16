@@ -24,11 +24,11 @@ tags:
 uri: css/properties/overflow
 
 ---
-## <span>Summary</span>
+## Summary
 
 The overflow property controls how extra content exceeding the bounding box of an element is rendered. It can be used in conjunction with an element that has a fixed width and height, to eliminate text-induced page distortion.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `visible`
@@ -51,7 +51,7 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `overflow`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `overflow: <overflow-x> <overflow-y>`
 -   `overflow: auto`
@@ -61,7 +61,7 @@ Animatable
 -   `overflow: scroll`
 -   `overflow: visible`
 
-## <span>Values</span>
+## Values
 
 visible
 :   The default value for most elements. Content is not clipped and a scroll mechanism is not added.
@@ -84,7 +84,7 @@ no-content
 \<overflow-x\> \<overflow-y\>
 :   Set **overflow-x** and **overflow-y** separately.
 
-## <span>Examples</span>
+## Examples
 
 Add different behavior for paragraphs via the `overflow` property.
 
@@ -138,7 +138,7 @@ Two values for `overflow`.
 
 [View live example](http://code.webplatform.org/gist/6366211)
 
-## <span>Usage</span>
+## Usage
 
      The overflow CSS property specifies whether to clip content, render scroll bars or display overflow content of a block-level element.
 
@@ -146,25 +146,25 @@ The `overflow` property takes up to two values. If given one value, both `overfl
 
 Using the overflow property with a value different than visible, its default, will create a new block formatting context. This is technically necessary as if a float would intersect with the scrolling element it would force to rewrap the content of the scrollable element around intruding floats. The rewrap would happen after each scroll step and would be lead to a far too slow scrolling experience. Note that, by programmatically setting scrollTop to the relevant HTML element, even when overflow has the hidden value an element may need to scroll.
 
-## <span>Notes</span>
+## Notes
 
 The default value for the `html` element is `auto`. Setting the `overflow` property to `visible` causes the content to clip to the size of the window or frame that contains the object.
 
-### <span>CSS basic box model</span>
+### CSS basic box model
 
 Specifying two values is currently not supported by browsers.
 
-### <span>Firefox (Gecko) Notes</span>
+### Firefox (Gecko) Notes
 
 Through Firefox 3.6 (Gecko 1.9.2), the overflow property is incorrectly applied to table-group elements (\<thead\> , \<tbody\> , \<tfoot\>). This behavior is corrected in later versions.
 
-### <span>Internet Explorer Notes</span>
+### Internet Explorer Notes
 
 Internet Explorer 4 to 6 enlarges an element with `overflow: visible` (default value) to fit the content in it. height/width behaves like min-height/min-width.
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 11.1.1
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/visufx.html#overflow)
 :   Recommendation
@@ -175,9 +175,9 @@ Internet Explorer 4 to 6 enlarges an element with `overflow: visible` (default v
 [CSS basic box model](http://www.w3.org/TR/css3-box/#overflow1)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related Properties</span>
+### Related Properties
 
 -   [overflow-x](/css/properties/overflow-x)
 -   [overflow-y](/css/properties/overflow-y)

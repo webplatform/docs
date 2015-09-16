@@ -22,7 +22,7 @@ uri: css/cssom/style/type
 
 Property of [css/cssom/style](/css/cssom/style)[css/cssom/style](/css/cssom/style)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.type;
@@ -31,19 +31,19 @@ element.type = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The property can be any string, including an empty string. Valid style sheets for Microsoft Internet Explorer 4.0 and greater are set to "text/css". The property can be any string, including an empty string. Valid style sheets are set to "text/css".
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -189,6 +189,6 @@ The property can be any string, including an empty string. Valid style sheets fo
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `style`

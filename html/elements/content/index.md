@@ -17,16 +17,16 @@ todo_broken_links:
 uri: html/elements/content
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &lt;content&gt; element provides an insertion point into a shadow DOM tree.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLContentElement](/w/index.php?title=dom/HTMLContentElement&action=edit&redlink=1)
 
-### <span>Attributes</span>
+### Attributes
 
 In addition to the [Global Attributes](http://www.w3.org/html/wg/drafts/html/master/dom.html#global-attributes), the `<content>` element supports the following attributes:
 
@@ -37,11 +37,11 @@ In addition to the [Global Attributes](http://www.w3.org/html/wg/drafts/html/mas
 
 **Needs Examples**: This section should include examples.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Web Components</span>
+#### Web Components
 
 -   [register](/dom/Document/register)
 

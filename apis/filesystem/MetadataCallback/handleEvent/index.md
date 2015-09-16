@@ -18,7 +18,7 @@ tags:
 uri: apis/filesystem/MetadataCallback/handleEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Used to supply file or directory metadata as a response to a user query.
 
@@ -26,28 +26,28 @@ Used to supply file or directory metadata as a response to a user query.
 
 Method of [apis/filesystem/MetadataCallback](/apis/filesystem/MetadataCallback)[apis/filesystem/MetadataCallback](/apis/filesystem/MetadataCallback)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  MetadataCallback.handleEvent(metadata);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>metadata</span>
+### metadata
 
  Data-type
 :   String
 
  File or directory metadata as a response to a user query.
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

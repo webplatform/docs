@@ -11,11 +11,11 @@ tags:
 uri: javascript/Array/map
 
 ---
-## <span>Summary</span>
+## Summary
 
 Calls a defined callback function on each element of an array, and returns an array that contains the results.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -27,11 +27,11 @@ Calls a defined callback function on each element of an array, and returns an ar
 **thisArg**
 :   Optional. An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
 
-## <span>Return Value</span>
+## Return Value
 
 A new array in which each element is the callback function return value for the associated original array element.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **map** method.
 
@@ -115,7 +115,7 @@ The **map** method can be applied to a string. The following example illustrates
  // Th,Thu,hur,urs,rsd,sda,day,ay
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The **map** method calls the callbackfn function one time for each element in the array, in ascending index order. The callback function is not called for missing elements of the array.
 
@@ -146,13 +146,13 @@ The following table describes the results of modifying the array object after th
 |Element is changed.|Yes, if that element has not yet been passed to the callback function.|
 |Element is deleted from the array.|No, unless that element has already been passed to the callback function.|
 
-## <span>Exceptions</span>
+## Exceptions
 
 If the callbackfn argument is not a function object, a **TypeError** exception is thrown.
 
-## <span>See also</span>
+## See also
 
-### <span>Specification</span>
+### Specification
 
 [15.4.4.19 Array.prototype.map ( callbackfn [ , thisArg](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.19) )] ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 

@@ -16,16 +16,16 @@ tags:
 uri: html/elements/kbd
 
 ---
-## <span>Summary</span>
+## Summary
 
 The 'kbd element denotes user input. Typically this is keyboard input (hence &quot;kbd&quot;), but it may also be used to represent other user input, e.g. voice commands or gestures.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 This example uses the `kbd` element to convey a command line command to the user.
 
@@ -41,11 +41,11 @@ This example illustrates using `kbd` to indicate keystrokes.
 to save your document.</p>
 ```
 
-## <span>Usage</span>
+## Usage
 
      The kbd element is a phrasing-level element. It must not contain block-level elements, but it can contain other phrasing-level elements.
 
-## <span>Notes</span>
+## Notes
 
 When the **kbd** element is nested inside a [**samp** element](/html/elements/samp), it represents the input as it was echoed by the system.
 
@@ -53,7 +53,7 @@ When the **kbd** element contains a [**samp** element](/html/elements/samp), it 
 
 When the **kbd** element is nested inside another **kbd** element, it represents an actual key or other single unit of input as appropriate for the input mechanism (see Example 2).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-kbd-element)
 :   W3C Working Draft
@@ -64,11 +64,11 @@ When the **kbd** element is nested inside another **kbd** element, it represents
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-KBD)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -208,7 +208,7 @@ When the **kbd** element is nested inside another **kbd** element, it represents
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

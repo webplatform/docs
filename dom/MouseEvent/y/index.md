@@ -22,13 +22,13 @@ tags:
 uri: dom/MouseEvent/y
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.
 
 Property of [dom/MouseEvent](/dom/MouseEvent)[dom/MouseEvent](/dom/MouseEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -36,13 +36,13 @@ Property of [dom/MouseEvent](/dom/MouseEvent)[dom/MouseEvent](/dom/MouseEvent)
 var yCoordinate = event.y;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 The Y coordinate of the mouse cursor.
 
-## <span>Examples</span>
+## Examples
 
 This example displays the current mouse position in the browser's status window.
 
@@ -50,11 +50,11 @@ This example displays the current mouse position in the browser's status window.
 document.body.onmousemove = function (e) { console.log('X = ' + e.x + ' Y = " + e.y); }
 ```
 
-## <span>Notes</span>
+## Notes
 
 If the event firing element is relatively positioned, then the y-coordinate from the boundary of the element is returned. If the event firing element and all of its parent elements are not relatively positioned, then the **y** property returns a coordinate relative to the **body** element. The **y** property returns a coordinate relative to the **body** element. If the mouse or finger is outside the window at the time the event fires, this property returns -1.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSSOM View](http://www.w3.org/TR/cssom-view/)
 :   Working Draft

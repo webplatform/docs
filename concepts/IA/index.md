@@ -12,7 +12,7 @@ tags:
 uri: concepts/IA
 
 ---
-## <span>Summary</span>
+## Summary
 
 Index page for concept pages about information architecture.
 

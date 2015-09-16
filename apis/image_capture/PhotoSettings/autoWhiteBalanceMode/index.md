@@ -20,13 +20,13 @@ tags:
 uri: 'apis/image capture/PhotoSettings/autoWhiteBalanceMode'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This reflects whether automatic White Balance Mode selection is desired.
 
 Property of [apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSettings)[apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSettings)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.autoWhiteBalanceMode;

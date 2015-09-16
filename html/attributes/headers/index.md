@@ -28,17 +28,17 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **headers** was introduced in Microsoft Internet Explorer 6 This property can be used for rendering to non-visual media such as speech or Braille. It can also be used with Cascading Style Sheets (CSS). There is no functionality implemented for this property unless defined by the author.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `td`
 -   `th`

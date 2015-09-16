@@ -23,13 +23,13 @@ tags:
 uri: 'apis/image capture/ImageCapture/videoStreamTrack'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MediaStream passed into the constructor.
 
 Property of [apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)[apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -37,7 +37,7 @@ Property of [apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)
 var result = pictureDevice.videoStreamTrack;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type MediaStreamTrackMediaStreamTrack
 

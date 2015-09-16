@@ -22,84 +22,84 @@ tags:
 uri: apis/canvas/CanvasRenderingContext2D/drawImage
 
 ---
-## <span>Summary</span>
+## Summary
 
 Draws the specified image onto the canvas. Can be called in three ways; see Notes.
 
 Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.drawImage(image, sx, sy, sw, sh, dx, dy, dw, dh);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>image</span>
+### image
 
  Data-type
 :   DOM Node
 
  An image, canvas, or video element of the pattern to use.
 
-### <span>sx</span>
+### sx
 
  Data-type
 :   Number
 
  The horizontal starting value (x), in CSS pixels, relative to the source image.
 
-### <span>sy</span>
+### sy
 
  Data-type
 :   Number
 
  The vertical starting value (y), in CSS pixels, relative to the source image.
 
-### <span>sw</span>
+### sw
 
  Data-type
 :   Number
 
  The width of the source image, in CSS pixels, to draw onto the canvas.
 
-### <span>sh</span>
+### sh
 
  Data-type
 :   Number
 
  The height of the source image, in CSS pixels, to draw onto the canvas.
 
-### <span>dx</span>
+### dx
 
  Data-type
 :   Number
 
  The horizontal (x) value, in CSS pixels, where to place the image on the canvas.
 
-### <span>dy</span>
+### dy
 
  Data-type
 :   Number
 
  The vertical (y) value, in CSS pixels, where to place the image on the canvas.
 
-### <span>dw</span>
+### dw
 
  Data-type
 :   Number
 
  The destination width value, in CSS pixels, to use when drawing the image to the canvas.
 
-### <span>dh</span>
+### dh
 
  Data-type
 :   Number
 
  The destination height value, in CSS pixels, to use when drawing the image to the canvas.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -115,7 +115,7 @@ This method can return one of these values.
 |IndexSizeError|The numeric arguments are not valid (for example, the destination is a 0x0 rectangle).|
 |SecurityError|The img or video element is not of the same origin or domain as the document that owns the canvas element.|
 
-## <span>Examples</span>
+## Examples
 
 This example uses the most straightforward syntax, simply drawing an existing page image onto the canvas.
 
@@ -131,7 +131,7 @@ ctxt.drawImage(image, 10, 10);
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 The **drawImage** method provides three ways to draw an image onto a canvas, depending on how you use the optional parameters:
 
@@ -141,7 +141,7 @@ The **drawImage** method provides three ways to draw an image onto a canvas, dep
 
 If you do not specify the *dw* and *dh* parameters, they equal the values of *sw* and *sh*. One CSS pixel in the image is treated as one unit in the canvas coordinate space.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation

@@ -15,14 +15,14 @@ uri: 'tutorials/webrtc resources'
 **By [Sam Dutton](http://www.samdutton.com)**
 Originally published 24 January 2013
 
-## <span>Demos</span>
+## Demos
 
 -   [Simple RTCPeerConnection example demonstrating signalling](http://w3.org/TR/webrtc/#simple-example): there is a code walkthrough and commentary for this in the [HTML5 Rocks WebRTC article](http://www.html5rocks.com/en/tutorials/webrtc/basics/#toc-signalling)
 -   RTCPeerConnection example 'on one page', i.e. without signalling: [simpl.info/pc](http://www.simpl.info/peerconnection).
 -   Move on to the WebRTC video chat demo at [apprtc.appspot.com](http://apprtc.appspot.com).
 -   [Multiparty video and text chat application](http://browsermeeting.com)
 
-## <span>Tutorials</span>
+## Tutorials
 
 -   [WebRTC book](http://webrtcbook.com)
 -   [Capturing audio and video in HTML5](http://html5rocks.com/en/tutorials/getusermedia/intro)
@@ -31,27 +31,27 @@ Originally published 24 January 2013
 -   [Cullen Jennings video](http://vimeo.com/47682405)
 -   [WebRTC presentation with links to demos and resources](http://samdutton.com/webrtc.pdf)
 
-## <span>Reference</span>
+## Reference
 
 -   [webrtc.org](http://webrtc.org/)
 -   [C++ APIs](http://webrtc.org/reference/api-description)
 
-## <span>Standards and protocols</span>
+## Standards and protocols
 
 -   [W3C Working Draft: WebRTC 1.0: Real-time Communication Between Browsers](http://w3.org/TR/webrtc)
 -   [W3C Editor's Draft: Media Capture and Streams](http://dev.w3.org/2011/webrtc/editor/getusermedia.html)
 -   [IETF WebRTC  documents](http://tools.ietf.org/wg/rtcweb/)
 
-## <span>Discussion</span>
+## Discussion
 
 -   [discuss-webrtc Google group](http://groups.google.com/forum/?fromgroups#!forum/discuss-webrtc)
 -   [twitter.com/webrtc](http://twitter.com/webrtc)
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Audio</span>
+#### Audio
 
 -   [audio-video](/apis/audio-video)
 
@@ -73,7 +73,7 @@ Originally published 24 January 2013
 
 -   **WebRTC Resources**
 
-#### <span>Multimedia</span>
+#### Multimedia
 
 -   [Track ended](/apis/MediaStream/ended)
 
@@ -95,7 +95,7 @@ Originally published 24 January 2013
 
 -   **WebRTC Resources**
 
-#### <span>Video</span>
+#### Video
 
 -   [audio-video](/apis/audio-video)
 
@@ -117,7 +117,7 @@ Originally published 24 January 2013
 
 -   **WebRTC Resources**
 
-#### <span>WebRTC</span>
+#### WebRTC
 
 -   [Track ended](/apis/MediaStream/ended)
 

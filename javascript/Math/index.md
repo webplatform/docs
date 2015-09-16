@@ -10,11 +10,11 @@ tags:
 uri: javascript/Math
 
 ---
-## <span>Summary</span>
+## Summary
 
 An intrinsic object that provides basic mathematics functionality and constants.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -26,11 +26,11 @@ An intrinsic object that provides basic mathematics functionality and constants.
 **method**
 :   Required. Name of one of the methods of the **Math**. object.
 
-## <span>Remarks</span>
+## Remarks
 
 The **Math** object cannot be created using the **new** operator, and gives an error if you attempt to do so. The scripting engine creates it when the engine is loaded. All of its methods and properties are available to your script at all times.
 
-## <span>Constants</span>
+## Constants
 
 The following table lists the constants of the **Math** object.
 
@@ -45,7 +45,7 @@ The following table lists the constants of the **Math** object.
 |[Math.SQRT1\_2 Constant](/javascript/Math/constants)|The square root of 0.5, or, equivalently, one divided by the square root of 2.|
 |[Math.SQRT2 Constant](/javascript/Math/constants)|The square root of 2.|
 
-## <span>Functions</span>
+## Functions
 
 The following table lists the functions of the **Math** object.
 
@@ -70,9 +70,9 @@ The following table lists the functions of the **Math** object.
 |[Math.sqrt Function](/javascript/Math/sqrt)|Returns the square root of a number.|
 |[Math.tan Function](/javascript/Math/tan)|Returns the tangent of a number.|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [JavaScript Objects](/javascript/objects)
 -   [Number Object](/javascript/Number)

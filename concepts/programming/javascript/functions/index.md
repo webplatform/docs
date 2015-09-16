@@ -27,11 +27,11 @@ todo_broken_links:
 uri: concepts/programming/javascript/functions
 
 ---
-## <span>Summary</span>
+## Summary
 
 Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.
 
-## <span>Defining functions</span>
+## Defining functions
 
 A **function definition** (also called a **function declaration**) consists of the `function` keyword, followed by
 
@@ -128,7 +128,7 @@ The following code:
 
 returns [0, 1, 8, 125, 1000].
 
-## <span>Calling functions</span>
+## Calling functions
 
 Defining a function does not execute it. Defining the function simply names the function and specifies what to do when the function is called. **Calling** the function actually performs the specified actions with the indicated parameters. For example, if you define the function `square`, you could call it as follows:
 
@@ -171,7 +171,7 @@ You could then compute the factorials of one through five as follows:
 
 There are other ways to call functions. There are often cases where a function needs to be called dynamically, or the number of arguments to a function vary, or in which the context of the function call needs to be set to a specific object determined at runtime. It turns out that functions are, themselves, objects, and these objects in turn have methods (see the `Function` object). One of these, the `apply()` method, can be used to achieve this goal.
 
-## <span>Function scope</span>
+## Function scope
 
 Like Scheme, JavaScript has lexical scoping, meaning the scope of variables is restricted and determined by their placement. Additionally, in the case of JavaScript, only function definitions will create new scopes. The behavior of variables, therefore, may be determined by simply reading the code because the scope is entirely independent of the runtime (unlike dynamic scoping).
 
@@ -203,7 +203,7 @@ Variables defined inside a function cannot be accessed from anywhere outside the
 
     getScore(); // Returns "Chamahk scored 5"
 
-## <span>Closures</span>
+## Closures
 
 Closures are one of the most powerful features of JavaScript. JavaScript allows for the nesting of functions and, in addition, grants the inner function full access to all the variables and functions defined inside the outer function (and all other variables and functions that the outer function has access to). However, the outer function does not have access to the variables and functions defined inside the inner function. This provides a sort of security for the variables of the inner function. Also, since the inner function has access to the scope of the outer function, the variables and functions defined in the outer function will live longer than the outer function itself, if the inner function manages to survive beyond the life of the outer function. A closure is created when the inner function is somehow made available to any scope outside the outer function.
 
@@ -276,7 +276,7 @@ There are, however, a number of pitfalls to watch out for when using closures. I
 
 The magical `this` variable is very tricky in closures. They have to be used carefully, as what `this` refers to depends completely on where the function was called, rather than where it was defined. An excellent and elaborate article on closures can be found [here](http://jibbering.com/faq/notes/closures/).
 
-## <span>Using the arguments object</span>
+## Using the arguments object
 
 The arguments of a function are maintained in an array-like object. Within a function, you can address the arguments passed to it as follows:
 
@@ -313,7 +313,7 @@ Please note that the `arguments` variable is "array-like", but not an array. It 
 
 See the `Function` object in the JavaScript Reference for more information.
 
-## <span>Predefined functions</span>
+## Predefined functions
 
 JavaScript has several top-level predefined functions:
 
@@ -326,7 +326,7 @@ JavaScript has several top-level predefined functions:
 
 The following sections introduce these functions. See the [JavaScript Reference](/w/index.php?title=concepts/programming/javascript/functions/js&action=edit&redlink=1) for detailed information on all of these functions.
 
-### <span>eval Function</span>
+### eval Function
 
 The `eval` function evaluates a string of JavaScript code without reference to a particular object. The syntax of `eval` is:
 
@@ -336,7 +336,7 @@ where `expr` is a string to be evaluated.
 
 If the string represents an expression, `eval` evaluates the expression. If the argument represents one or more JavaScript statements, eval performs the statements. The scope of `eval` code is identical to the scope of the calling code. Do not call `eval` to evaluate an arithmetic expression; JavaScript evaluates arithmetic expressions automatically.
 
-### <span>isFinite function</span>
+### isFinite function
 
 The `isFinite` function evaluates an argument to determine whether it is a finite number. The syntax of `isFinite` is:
 
@@ -352,7 +352,7 @@ The following code checks client input to determine whether it is a finite numbe
        /* take specific steps */
     }
 
-### <span>isNaN function</span>
+### isNaN function
 
 The `isNaN` function evaluates an argument to determine if it is "NaN" (not a number). The syntax of `isNaN` is:
 
@@ -372,7 +372,7 @@ The following code evaluates `floatValue` to determine if it is a number and the
        isFloat();
     }
 
-### <span>parseInt and parseFloat functions</span>
+### parseInt and parseFloat functions
 
 The two "parse" functions, `parseInt` and `parseFloat`, return a numeric value when given a string as an argument.
 
@@ -390,7 +390,7 @@ The syntax of `parseInt` is
 
 If `parseInt` encounters a character that is not a numeral in the specified radix, it ignores it and all succeeding characters and returns the integer value parsed up to that point. If the first character cannot be converted to a number in the specified radix, it returns "NaN." The `parseInt` function truncates the string to integer values.
 
-### <span>Number and String functions</span>
+### Number and String functions
 
 The `Number` and `String` functions let you convert an object to a number or a string. The syntax of these functions is:
 

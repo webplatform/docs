@@ -20,7 +20,7 @@ uri: dom/Navigator/constructor
 
 Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.constructor;
@@ -29,10 +29,10 @@ element.constructor = value;
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 An object's constructor initializes the object's properties and provides access to the prototype for the object's interface object. For more information, see Advanced Object Creation (JScript).
 
-### <span>Syntax</span>
+### Syntax

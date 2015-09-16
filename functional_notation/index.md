@@ -9,7 +9,7 @@ tags:
 uri: 'functional notation'
 
 ---
-## <span>functional notation</span>
+## functional notation
 
 To provide property values in CSS in a format that resembles a function call, e.g., `body {background-image:url("mybg.gif");}`.
 

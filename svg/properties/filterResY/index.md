@@ -13,20 +13,20 @@ uri: svg/properties/filterResY
 ---
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If provided, filterRes indicates exactly how many pixels in X and Y are used for computation of the intermediate offscreen bitmaps. It thus defines a particular resolution at which the filtering is performed. If it is not provided, the user agent picks a suitable resolution appropriate to the output device.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.1
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGFilterElement**](/svg/elements/filter)

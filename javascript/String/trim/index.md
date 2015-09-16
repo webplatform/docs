@@ -10,11 +10,11 @@ tags:
 uri: javascript/String/trim
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes the leading and trailing white space and line terminator characters from a string.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,11 +23,11 @@ Removes the leading and trailing white space and line terminator characters from
 **stringObj**
 :   Required. A String object or string literal. This string is not modified by the **trim** method.
 
-## <span>Return Value</span>
+## Return Value
 
 The original string with leading and trailing white space and line terminator characters removed.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **trim** method.
 
@@ -43,15 +43,15 @@ var message = "    abc def     \r\n  ";
  //  length: 7
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The characters that are removed include space, tab, form feed, carriage return, and line feed. See Special Characters (Windows Scripting - JScript) for a comprehensive list of white space and line terminator characters.
 
 For an example that shows how to implement your own trim method, see Prototypes and Prototype Inheritance.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [String Object](/javascript/String)
 

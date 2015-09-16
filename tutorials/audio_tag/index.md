@@ -14,11 +14,11 @@ uri: 'tutorials/audio tag'
 **By [Ernest Delgado](http://www.html5rocks.com/profiles/#ernestd)**
 Originally published Feb. 5, 2010
 
-## <span>Summary</span>
+## Summary
 
 A quick guide to implementing the audio tag in HTML.
 
-## <span>Step 1: Wrap your Flash object with the audio tag</span>
+## Step 1: Wrap your Flash object with the audio tag
 
 Those browsers that don't recognize the audio tag will load the Flash content instead.
 
@@ -37,7 +37,7 @@ Those browsers that don't recognize the audio tag will load the Flash content in
 
     </audio>
 
-## <span>Step 2: Add the source reference</span>
+## Step 2: Add the source reference
 
 We can add as many "source" lines and formats as we want. If the browser doesn't support one specific format it will fallback to the next one and so forth.
 
@@ -57,7 +57,7 @@ We can add as many "source" lines and formats as we want. If the browser doesn't
 
     </audio>
 
-## <span>Step 3: Add fallback to Flash</span>
+## Step 3: Add fallback to Flash
 
 To be safe, we need to add the fallback to a Flash audio player, in case the browser doesn't support any of the formats we specified. For instance, Firefox 3.5 only supports the audio tag with *Ogg* format, but we might only have the *mp3* file available.
 
@@ -100,7 +100,7 @@ To make it easier, we are using the [SWFObject](http://code.google.com/p/swfobje
     <script src="http://www.google.com/jsapi" type="application/javascript"></script>
     <script type="application/javascript">google.load("swfobject", "2.2");</script>
 
-## <span>Step 4: Add the default controls to show the player</span>
+## Step 4: Add the default controls to show the player
 
 These controls are not customizable (see examples at the end). Since these default controls will show up regardless of the supported format we will need to handle its visibility with the conditional we previously created.
 
@@ -162,7 +162,7 @@ Alternatively, you can create your own player using JavaScript and CSS.
       }
     </script>
 
-## <span>Example</span>
+## Example
 
 The following example will fallback to the Flash player in those browsers that don't support the audio tag nor can play mp3 in it.
 

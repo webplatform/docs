@@ -13,7 +13,7 @@ uri: dom/Element/load
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -67,7 +67,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 The following example shows how to declare an **onload** event for a document that is designed to work with multiple browsers and earlier versions of Internet Explorer.
 
@@ -99,9 +99,9 @@ The following example shows how to declare an **onload** event for a document th
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The client loads applications, embedded objects, and images as soon as it encounters the **applet**, **embed**, and **img** objects during parsing. Consequently, the **onload** event for these objects occurs before the client parses any subsequent objects. To ensure that an event handler receives the **onload** event for these objects, place the **script** object that defines the event handler before the object and use the **onload** attribute in the object to set the handler. The **onload** attribute of the **body** object sets an **onload** event handler for the **window**. This technique of calling the window **onload** event through the **body** object is overridden by any other means of invoking the window **onload** event, provided the handlers are in the same script language. Loads the object for which the event is specified. To invoke this event, do one of the following:
 
@@ -136,13 +136,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLDocumentEvents4**
 -   **HTMLElementEvents4**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****

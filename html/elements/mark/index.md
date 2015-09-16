@@ -15,16 +15,16 @@ tags:
 uri: html/elements/mark
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a run of text that is contextually-important for some reason, such as text that has been marked or highlighted.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## <span>Examples</span>
+## Examples
 
 The following example shows the difference between denoting the importance of a span of text (**strong**) as opposed to denoting the relevance of a span of text (**mark**). It is an extract from a textbook, where the extract has had the parts relevant to the exam highlighted. The safety warnings, important though they may be, are not relevant to the exam.
 
@@ -59,11 +59,11 @@ This example uses mark to indicate the "current" link.
 <nav>
 ```
 
-## <span>Usage</span>
+## Usage
 
      The mark element is a phrasing-level element. It must not contain block-level elements, but it can contain other phrasing-level elements.
 
-## <span>Notes</span>
+## Notes
 
 The **mark** element denotes the relevance of a span of text. By default, most browsers render it in black text on a yellow background, but you can change that with CSS.
 
@@ -77,7 +77,7 @@ When used in the main prose of a document, the **mark** element indicates a part
 
 Windows Internet Explorer 9. The **mark** element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-mark-element)
 :   W3C Working Draft
@@ -85,11 +85,11 @@ Windows Internet Explorer 9. The **mark** element is only supported for webpage
 [HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-mark-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -229,7 +229,7 @@ Windows Internet Explorer 9. The **mark** element is only supported for webpage
 
 -   [time](/html/elements/time)
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 

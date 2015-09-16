@@ -12,7 +12,7 @@ tags:
 uri: events/tutorials
 
 ---
-## <span>Summary</span>
+## Summary
 
 Index page for Events Tutorials.
 

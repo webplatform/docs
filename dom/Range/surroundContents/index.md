@@ -23,28 +23,28 @@ tags:
 uri: dom/Range/surroundContents
 
 ---
-## <span>Summary</span>
+## Summary
 
 Moves the contents of a Range to a new parent node, placing the new parent node at the start position of the Range.
 
 Method of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = range.surroundContents(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>newNode</span>
+### newNode
 
  Data-type
 :   DOM Node
 
  The new node to make the parent.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -59,7 +59,7 @@ This method can return one of these values.
 |InvalidStateError|detach has been invoked on the object.|
 |NoModificationAllowedError|A boundary point in the Range is read-only.|
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 var range = document.createRange();
@@ -69,21 +69,21 @@ range.selectNode(document.getElementsByTagName("div").item(0));
 range.surroundContents(newNode);
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If the *newParent* already exists in the document, its content is removed.
 
-### <span>Syntax</span>
+### Syntax
 
 range.surroundContents(newNode);
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM](http://dom.spec.whatwg.org/#dom-range-surroundcontents)
 :   Living Standard

@@ -27,11 +27,11 @@ todo_broken_links:
 uri: svg/elements/feColorMatrix
 
 ---
-## <span>Summary</span>
+## Summary
 
 feColorMatrix is an SVG filter primitive that allows the manipulation of color values across color channels. It provides more powerful color manipulation flexibility than CSS shorthand filters. It is always a child element of an SVG filter element. Using feColorMatrix, you can change color saturation, perform hue rotations, selectively adjust alpha values of particular channels, adjust contrast, brightness and more. feColorMatrix does not allow the manipulation of relative color values \*within\* color channels which is provided by the feComponentTransfer primitive.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGFEColorMatrixElement](/w/index.php?title=svg/objects/SVGFEColorMatrixElement&action=edit&redlink=1)
@@ -66,7 +66,7 @@ feColorMatrix offers four types of color manipulation: 3 shorthands and a matrix
 
 By default, color-manipulation operations using feColorMatrix take place in linearRGB color space. This may produce unwanted results. For example a color inversion may result in a pronounced shift toward lighter tones. If this is not desired, you may explicitly specify a value of "sRGB" for the optional attribute "color-interpolation-filters".
 
-## <span>Examples</span>
+## Examples
 
 ![desaturate.png](/assets/public/0/03/desaturate.png)
 
@@ -241,9 +241,9 @@ Example of a feColorMatrix with type="matrix" showing an inversion
 
 [View live example](http://code.webplatform.org/gist/5304176)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This filter applies the following matrix transformation:
 
@@ -257,13 +257,13 @@ This matrix is applied on the RGBA color and alpha values of every pixel on the 
 
 The calculations are performed on non-premultiplied color values. If the input graphics consist of premultiplied color values, those values are automatically converted into non-premultiplied color values for this operation.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [SVG 1.1 Specification](http://www.w3.org/TR/SVG/filters.html#feColorMatrixElement)
 
-### <span>Members</span>
+### Members
 
 The **SVGFEColorMatrixElement** object has these properties:
 
@@ -276,11 +276,11 @@ The **SVGFEColorMatrixElement** object has these properties:
 -   [**x**](/svg/properties/x): Gets or sets the x-coordinate value.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Filters</span>
+#### Filters
 
 -   [blur()](/css/functions/blur)
 

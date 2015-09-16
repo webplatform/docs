@@ -7,7 +7,7 @@ tags:
 uri: tutorials/jsfeatures
 
 ---
-## <span>Summary</span>
+## Summary
 
 This page contains links to JavaScript features tutorials.
 

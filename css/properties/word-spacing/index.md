@@ -22,11 +22,11 @@ tags:
 uri: css/properties/word-spacing
 
 ---
-## <span>Summary</span>
+## Summary
 
 The word-spacing CSS property specifies the spacing behavior between &quot;words&quot;.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -52,13 +52,13 @@ Animatable
 Percentages
 :   refers to width of the affected glyph
 
-## <span>Syntax</span>
+## Syntax
 
 -   `word-spacing: length`
 -   `word-spacing: normal`
 -   `word-spacing: percentage`
 
-## <span>Values</span>
+## Values
 
 normal
 :   The spacing is the normal spacing for the current font.
@@ -69,7 +69,7 @@ length
 percentage
 :   Specifies the additional spacing as a percentage of the affected word's advance measure.
 
-## <span>Examples</span>
+## Examples
 
 The following example shows how to use the **word-spacing** attribute and the **word-spacing** property to increase the amount of space between words in a `p` element.
 
@@ -97,24 +97,24 @@ p.neg {
 }
 ```
 
-## <span>Usage</span>
+## Usage
 
      * Up to three different values can be specified, in the following order: optimum, minimum, maximum
 
 -   If one value is specified, it is used for all spacing. If two values are specified, the first is used for the optimum and minimum spacings, and the second is used for maximum.
 
-## <span>Notes</span>
+## Notes
 
 When specified as a positive `length` value, the `word-spacing` attribute adds the specified value to the default spacing between words within an element. A negative `length` value decreases the space between words. Word spacing can be influenced by justification.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/#word-spacing)
 :   W3C Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

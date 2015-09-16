@@ -10,13 +10,13 @@ tags:
 uri: 'javascript/operators/compound assignment'
 
 ---
-## <span>Summary</span>
+## Summary
 
 The following table lists JavaScript compound assignment operators.
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Assignment Operators</span>
+## Assignment Operators
 
 |Operator|Symbol|
 |:-------|:-----|
@@ -32,9 +32,9 @@ The following table lists JavaScript compound assignment operators.
 |[Subtraction](/javascript/operators/subtraction_assignment)|-=|
 |[Unsigned Right Shift](/javascript/operators/unsigned_right_shift_assignment)|\>\>\>=|
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Assignment Operator (=)](/javascript/operators/assignment)
 

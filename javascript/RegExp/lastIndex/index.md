@@ -10,17 +10,17 @@ tags:
 uri: javascript/RegExp/lastIndex
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the character position where the next match begins in a searched string.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     RegExp.lastIndex
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **lastIndex** property. This function iterates a search string and prints out the **index** and **lastIndex** values for each word in the string.
 
@@ -51,7 +51,7 @@ function RegExpTest()
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The object associated with this property is always the global **RegExp** object.
 

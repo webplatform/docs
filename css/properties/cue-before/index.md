@@ -20,11 +20,11 @@ tags:
 uri: css/properties/cue-before
 
 ---
-## <span>Summary</span>
+## Summary
 
 The cue-before property specifies a sound file (known as an &quot;auditory icon&quot;) to be played by speech media agents before presenting an element's content; the volume at which the file should be played may also be specified. The shorthand property cue sets cue sounds for both before and after the element is presented.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
@@ -47,13 +47,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
-## <span>Values</span>
+## Values
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Speech Module](http://www.w3.org/TR/css3-speech/#cue-before)
 :   W3C Candidate Recommendation

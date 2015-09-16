@@ -24,32 +24,32 @@ tags:
 uri: dom/TextRange/pasteHTML
 
 ---
-## <span>Summary</span>
+## Summary
 
 Pastes HTML text into the given text range, replacing any previous text and HTML elements in the range.
 
 Method of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = range.pasteHTML(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>html</span>
+### html
 
  Data-type
 :   String
 
 **String** that specifies the HTML text to paste. The string can contain text and any combination of the HTML tags described in HTML Elements.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **pasteHTML** method to replace the current selection with a new paragraph.
 
@@ -94,8 +94,8 @@ if(window.getSelection){
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This method might alter the HTML text to make it fit the given text range. For example, pasting a table cell into a text range that does not contain a table might cause the method to insert a [**table**](/html/elements/table) element. For predictable results, paste only well-formed HTML text that fits within the given text range. This method is accessible at run time. If elements are removed at run time, before the closing tag is parsed, areas of the document might not render. This feature might not be available on non-Microsoft Win32 platforms. This method fails only when used inappropriately to paste HTML into a **TEXTAREA** element in Microsoft Internet Explorer 5 and later.

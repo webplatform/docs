@@ -22,11 +22,11 @@ tags:
 uri: css/properties/hyphenate-limit-chars
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the minimum number of characters in a hyphenated word
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -52,12 +52,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `hyphenate-limit-chars: integer`
 -   `hyphenate-limit-chars: auto`
 
-## <span>Values</span>
+## Values
 
 auto
 :   Corresponds to a value of `5 2 2`, indicating a 5-character word limit, 2 characters required before a hyphenation break, and 2 characters required following a hyphenation break.
@@ -71,7 +71,7 @@ If the second and third values are missing they are given a value of **auto**.
 
 Negative values are not allowed.
 
-## <span>Examples</span>
+## Examples
 
 ``` css
 /* Only hyphenate words with >= 6 characters,
@@ -79,16 +79,16 @@ Negative values are not allowed.
 hyphenate-limit-chars: 6 3 2;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Text Level 4](http://dev.w3.org/csswg/css-text-4/#hyphenate-limit-chars)
 :   W3C Editor’s Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -168,6 +168,6 @@ hyphenate-limit-chars: 6 3 2;
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Related pages</span>
+### Related pages
 
 -   `CSSStyleDeclaration`

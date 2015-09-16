@@ -13,11 +13,11 @@ tags:
 uri: 'apis/user timing/PerformanceMark'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Exposes marks created via the mark() method to the Performance Timeline.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -34,19 +34,19 @@ API Name
 [startTime](/apis/user_timing/PerformanceMark/startTime)
 :   Returns a DOMHighResTimeStamp with the mark's High Resolution Time time value.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
 Timestamps represent the number of milliseconds between the time the event occurred and midnight Januaray 1, 1970 (UTC).
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C User Timing Specification](http://www.w3.org/TR/user-timing/)
 :   W3C Candidate Recommendation

@@ -22,18 +22,18 @@ todo_broken_links:
 uri: html/elements/isIndex
 
 ---
-## <span>Summary</span>
+## Summary
 
 (Obsolete) A special-purpose single-line text input field
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
 This element was created to provide a single-line text-input control to allow any characters for entering a query string. The query string was supposed to be sent to the server identified by the base URL and return a list of pages matching this query.
 
-## <span>History</span>
+## History
 
 On June 1992, Dan Connolly would [prefer](http://1997.webhistory.org/www.lists/www-talk.1992/0080.html) a different [anchor](/w/index.php?title=HTML/Elements/a&action=edit&redlink=1) type instead of isindex.
 
@@ -41,7 +41,7 @@ On November 1992, [indexes as links rather than documents](http://lists.w3.org/A
 
 A thread about [isindex](http://lists.w3.org/Archives/Public/www-talk/1992NovDec/thread.html#42) in November 1992, Kevin Hoadley [questioned](http://lists.w3.org/Archives/Public/www-talk/1992NovDec/0042.html) the need for an isindex element and proposed to drop it. He proposed to have instead an [input](/w/index.php?title=HTML/Elements/input&action=edit&redlink=1) element (idea [supported](http://lists.w3.org/Archives/Public/www-talk/1992NovDec/0053.html) by Steve Putz). Tim Berners-Lee [explains](http://lists.w3.org/Archives/Public/www-talk/1992NovDec/0044.html) the purpose of isindex resulting in aggregated search results. Kevin [replies](http://lists.w3.org/Archives/Public/www-talk/1992NovDec/0048.html) that he doesn't like the boolean nature of isindex and would prefer a system where everything is searchable and proposes to extend the current WWW Framework with a specific httpd configuration and defined that some URIs mapping create search queries.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **ISINDEX** element to replace the default prompt.
 
@@ -49,8 +49,8 @@ This example uses the **ISINDEX** element to replace the default prompt.
 <ISINDEX PROMPT="Enter a keyword to search for in the index">
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 In HTML 4, this element is deprecated; **INPUT** is recommended for use instead. The [**tagName**](/w/index.php?title=dom/properties/tagName&action=edit&redlink=1) property for **isIndex** returns **input**. The **ISINDEX** element belongs in the **body** of the document. This element is treated as an **input** object inside a **form** object.

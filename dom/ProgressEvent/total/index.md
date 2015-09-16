@@ -25,13 +25,13 @@ tags:
 uri: dom/ProgressEvent/total
 
 ---
-## <span>Summary</span>
+## Summary
 
 Specifies the total number of bytes to be transferred during the operation, if known.
 
 Property of [dom/ProgressEvent](/dom/ProgressEvent)[dom/ProgressEvent](/dom/ProgressEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -39,10 +39,10 @@ Property of [dom/ProgressEvent](/dom/ProgressEvent)[dom/ProgressEvent](/dom/Prog
 var result = ProgressEvent.total;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax

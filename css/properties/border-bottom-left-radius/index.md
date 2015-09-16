@@ -24,11 +24,11 @@ todo_broken_links:
 uri: css/properties/border-bottom-left-radius
 
 ---
-## <span>Summary</span>
+## Summary
 
 Defines the shape of the border of the bottom-left corner.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
@@ -51,12 +51,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderBottomLeftRadius`
 
-## <span>Syntax</span>
+## Syntax
 
 -   `border-bottom-left-radius: length`
 -   `border-bottom-left-radius: percentage`
 
-## <span>Values</span>
+## Values
 
 length
 :   Denotes the size of the circle radius or the semi-major and semi-minor axes of the ellipsis. It can be expressed in any unit allowed by the [CSS \<length\> data types](/css/data_types/length). Negative values are invalid.
@@ -64,7 +64,7 @@ length
 percentage
 :   Denotes the size of the circle radius, or the semi-major and semi-minor axes of the ellipsis, using percentage values. Percentages for the horizontal axis refer to the width of the box, percentages for the vertical axis refer to the height of the box. Negative values are invalid.
 
-## <span>Examples</span>
+## Examples
 
 One value example to use an arc of circle as the border on the top left corner.
 
@@ -87,22 +87,22 @@ One value percentage example on the top left corner. If the box is a square an a
 border-bottom-left-radius: 30%;
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The **border-bottom-left-radius** property specifies the horizontal and vertical radii of the ellipse that defines the rounded lower-left corner of a border box. If there is only one value given, then that value specifies both horizontal and vertical radii of the ellipse. If there are two values given, then the first value sets the horizontal radius and the second value sets the vertical radius.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Backgrounds and Borders Module Level 3: Rounded Corners:](http://www.w3.org/TR/css3-background/#border-bottom-left-radius)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Border</span>
+#### Border
 
 -   [border](/css/properties/border)
 
@@ -162,7 +162,7 @@ The **border-bottom-left-radius** property specifies the horizontal and vertical
 
 -   [border-width](/css/properties/border-width)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

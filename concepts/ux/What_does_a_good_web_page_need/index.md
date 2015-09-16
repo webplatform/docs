@@ -14,13 +14,13 @@ tags:
 uri: 'concepts/ux/what does a good web page need'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Continuing on from the previous article, here we will look at the content of The Dung Beatles’ website to give you a flavour of what good websites and pages need to contain.
 
 You won’t be looking into the actual underlying code yet; instead you’ll just start to examine the different pages, thinking about what items should appear on them, and considering issues such as consistency, usability, and accessibility.
 
-## <span>The home page</span>
+## The home page
 
 At this point, many people tend to think “let’s start at the first page many users are going to see—the home page. That’s logical isn’t it?”
 
@@ -42,7 +42,7 @@ In an [article about their decision to stop charging for access to old content](
 
 > …many more readers started coming to the site from search engines and links on other sites instead of coming directly to NYTimes.com. These indirect readers, unable to get access to articles behind the pay wall and less likely to pay subscription fees than the more loyal direct users, were seen as opportunities for more page views and increased advertising revenue.
 
-### <span>What does this mean for our site?</span>
+### What does this mean for our site?
 
 All of this means that whilst you need to sub-divide your content up into individual pages, you should be thinking about how your visitors will find what they might really be looking for, or where in the site they might go next once they start exploring further.
 
@@ -50,7 +50,7 @@ Whilst it may be tempting to cram in a little of everything on the home page, it
 
 Now you will go a bit deeper, and learn more about these things…
 
-## <span>Navigation</span>
+## Navigation
 
 How to navigate a site is one of the most, if not the most, crucial aspects of implementation to get right. You should identify the common destinations of your site and put these into your main navigation.
 
@@ -66,7 +66,7 @@ One of the most crucial aspects of a successful site navigation is consistency. 
 
 Figure 2: The dev.opera.com navigation is constant wherever you are on the site.
 
-## <span>Other common elements on a site</span>
+## Other common elements on a site
 
 Apart from the navigation, there are normally other parts of a site that appear on pages repeatedly.
 
@@ -80,17 +80,17 @@ Colour, layout, the use of shapes and icons, typography and imagery all combine 
 
 In our TDB site, the header of the page would contain the band logo and name to reinforce this to visitors as they move around the site and give them a sense of familiarity that they are still looking at information about the band. The footer would contain copyright information about the site and about the lyrics, images and audio samples on the site; it should also contain links to pages on contacting/booking the band.
 
-## <span>Context is everything</span>
+## Context is everything
 
 Each page, despite all of the common elements, should be unique. A good web page will do one thing, or a small number of things, and do them well.
 
-### <span>Relevant content</span>
+### Relevant content
 
 Making content relevant and separate is a key factor of making good web pages great. Content should be uniquely addressible (have a place where it definitively lives, at a unique URL) and logically ordered (both within the site and the page itself) so that it can be easily found.
 
 Take upcoming gigs performed by the band—whilst it could be tempting to place an “upcoming gigs” module on each page, that information has a home of its own and should live there. A simple “next gig” module that also links across to the Tour Dates page can promote that just as effectively without duplicating content and potentially confusing both users and search engines.
 
-### <span>Headings</span>
+### Headings
 
 The next time you have your hands on a newspaper, really look at it. Notice how some stories are bigger, have darker type and imagery, and more prominent headlines. You are effectively being told what the most important stories to read are if you are in a hurry and only want to catch the big news.
 
@@ -98,7 +98,7 @@ The same is true of web pages. Each section of content on a page should be intro
 
 As an example, in the current part of this very article page are the two lines “Relevant Content” and “Headings”. These are headings and are at a lower level than “Context Is Everything” to indicate that these are sub-sections of the Context section of the page.
 
-## <span>Usability</span>
+## Usability
 
 Usability is a catch-all term for making a site behave in a rational and expected way.
 
@@ -116,7 +116,7 @@ Creating usable sites is not easy, however, and much of the knowledge simply com
 
 Dedicated usability testing is something professional companies will charge a lot of money for, but even some quick informal testing with friends and family can give you valuable insights into problems that you have not noticed. This is because you created the site, so can second guess things—other people, however, can’t do this.
 
-## <span>Accessibility</span>
+## Accessibility
 
 Accessibility is, unfortunately, most commonly understood to mean “making a website work for blind people.” The truth is that accessibility issues affect many, many more people.
 
@@ -128,13 +128,13 @@ In addition to people who require assistive technology, there are other people t
 
 In the case of our band, you should be aware that if you use a lot of imagery (band photos), you should be describing the content of the image. If you use a Flash music player in the page to allow people to listen to the band’s music, you should also link to the music directly so that those without Flash installed can still access the music in their preferred way.
 
-## <span>Summary</span>
+## Summary
 
 In this article I’ve discussed in broad terms what you will need to bear in mind as you start creating actual web pages, to make them more usable, more accessible, and run more smoothly. All of the concepts will be explained in greater detail as this series progresses.
 
-## <span>See also</span>
+## See also
 
-### <span>Exercise questions</span>
+### Exercise questions
 
 For the exercise questions for this article, just go and browse the web—visit some of your favourite sites, and look at them in a new light. Jot down some answers to the following questions:
 

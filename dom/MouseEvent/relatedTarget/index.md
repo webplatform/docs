@@ -27,13 +27,13 @@ tags:
 uri: dom/MouseEvent/relatedTarget
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the secondary element that is involved in an event. The relatedTarget property is used to find the other element, if any, involved in an event. Events like mouseover are oriented around a certain target, but also involve a secondary target, such as the target that is exited as the mouseover event fires for the primary target.
 
 Property of [dom/MouseEvent](/dom/MouseEvent)[dom/MouseEvent](/dom/MouseEvent)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -41,7 +41,7 @@ Property of [dom/MouseEvent](/dom/MouseEvent)[dom/MouseEvent](/dom/MouseEvent)
 var relatedTargetElement = event.relatedTarget;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -49,7 +49,7 @@ The secondary element that is involved in an event.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Use this property to determine the secondary element that is involved in the event.
 
@@ -60,7 +60,7 @@ The secondary element depends on the type of event:
 -   In [**focusin**](/dom/FocusEvent/focusin) events, the secondary element is the element that lost focus.
 -   In [**focusout**](/dom/FocusEvent/focusout) events, the secondary element is the element that gained focus.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft

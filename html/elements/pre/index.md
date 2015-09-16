@@ -16,11 +16,11 @@ tags:
 uri: html/elements/pre
 
 ---
-## <span>Summary</span>
+## Summary
 
 The pre tag defines preformatted text. Text in a pre element is displayed in a fixed-width font and preserves both spaces and line breaks.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLPreElement](/dom/HTMLPreElement)
@@ -34,15 +34,15 @@ Examples of content might include:
 
 This element is used with the code element, the samp element, or the kbd element, and so on, according to the kind of content inside a pre element.
 
-## <span>Rendering in text/html</span>
+## Rendering in text/html
 
 Unlike in XML mode, a text/html parser will strip the newline character if it appears after the opening `<pre>` tag, as an authoring convenience.
 
-## <span>Accessibility</span>
+## Accessibility
 
 The author should consider accessibility, when use the pre element. This is because, when speech synthesizers, braille displays, and the like is used, there is a possibility that preformatted text is destroyed. For example, for cases like ASCII art, it is likely that an alternative presentation, such as a textual description, would be more universally accessible to the readers of the document.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **PRE** element to format text so that it renders exactly as it is typed.
 
@@ -69,17 +69,17 @@ Example of pre-formatted computer code inside a \<code\> tag
 
 ```
 
-## <span>Usage</span>
+## Usage
 
      To cater for international users see: Managing text direction in form controls
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Text within the **PRE** element is formatted. Spaces and carriage returns are preserved.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-pre-element)
 :   W3C Working Draft
@@ -90,8 +90,8 @@ Text within the **PRE** element is formatted. Spaces and carriage returns are pr
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-PRE)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `xmp`

@@ -21,14 +21,14 @@ uri: dom/HTMLElement/options
 ---
 Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.options;
 element.options = value;
 ```
 
-## <span>Examples</span>
+## Examples
 
 This example shows how to display the text and values of all **option** objects in the first **select** object in the document.
 
@@ -41,14 +41,14 @@ if (coll.length>0) {
 }
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 To delete an **option** object from a **select** object, assign the **option** object a null value. This compresses the array. If duplicate identifiers are found, a collection of those items is returned. Collections of duplicates must be referenced subsequently by ordinal position.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

@@ -11,16 +11,16 @@ tags:
 uri: svg/properties/pixelUnitToMillimeterY
 
 ---
-### <span>Syntax</span>
+### Syntax
 
 HRESULT value = object.put\_pixelUnitToMillimeterY(float vPixelUnitY);HRESULT value = object.get\_pixelUnitToMillimeterY(float\* pPixelUnitY);
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGSVGElement**](/svg/elements/svg)

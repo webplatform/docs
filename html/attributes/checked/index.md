@@ -21,7 +21,7 @@ todo_broken_links:
 uri: html/attributes/checked
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates the initial state of a checkbox or radio button.
 
@@ -41,7 +41,7 @@ The checked attribute can be used to specify what the visual or initial state of
 
 As a boolean attribute, valid values are "`checked`" and nothing. The attribute is never required.
 
-## <span>Examples</span>
+## Examples
 
 This example shows a set of radio buttons with one checked by default.
 
@@ -83,9 +83,9 @@ This example shows a set of check boxes with multiple checked by default.
 
 [View live example](http://code.webplatform.org/gist/33aa4c8bece121ba6e9e)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Check boxes that are not selected do not return their values when the **form** is submitted.
 
@@ -93,16 +93,16 @@ A user can select a radio button only if the button has a [**name**](/html/attri
 
 Windows Internet Explorer 8 and later. In IE8 Standards mode, parsing operations on the **checked** content attribute always affect both the **checked** content attribute and [**defaultChecked**](/w/index.php?title=dom/properties/defaultChecked&action=edit&redlink=1) Document Object Model (DOM) attribute. For example, [**removeAttribute('checked')**](/w/index.php?title=dom/methods/removeAttribute&action=edit&redlink=1) sets both **checked** and **defaultChecked** to false. Similarly, [**setAttribute('checked', 'checked')**](/w/index.php?title=dom/methods/setAttribute&action=edit&redlink=1) sets both DOM attributes to true (as if the element was being re-parsed) For more information on IE8 mode, see Defining Document Compatibility. Internet Explorer 8 and later. In IE8 mode, the [**defaultChecked**](/w/index.php?title=dom/properties/defaultChecked&action=edit&redlink=1) DOM attribute reflects the value of the **checked** content attribute.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML5](http://www.w3.org/TR/html5/forms.html#attr-input-checked)
 :   W3C Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>HTML</span>
+#### HTML
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -242,12 +242,12 @@ Windows Internet Explorer 8 and later. In IE8 Standards mode, parsing operation
 
 -   [time](/html/elements/time)
 
-### <span>Other articles</span>
+### Other articles
 
 -   [**checkbox**](/html/elements/input/type/checkbox) element
 -   [**radio**](/html/elements/input/type/radio) element
 
-### <span>External resources</span>
+### External resources
 
 -   <http://www.w3.org/TR/html-markup/input.radio.html>
 -   <http://www.w3.org/TR/html-markup/input.checkbox.html>

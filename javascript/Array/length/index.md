@@ -14,11 +14,11 @@ tags:
 uri: javascript/Array/length
 
 ---
-## <span>Summary</span>
+## Summary
 
 Basically specifies the number of elements (AKA length) in an Array object. This means the length property represents a number one greater than the largest index defined in an Array object.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -31,11 +31,11 @@ Basically specifies the number of elements (AKA length) in an Array object. This
 **numVar**
 :   Required. Any number less than 2 to the 32nd power (2\^32).
 
-## <span>Return Value</span>
+## Return Value
 
 Any number less than 2 to the 32nd power (2\^32). The type of its value must be the unsigned 32 bit integer in the range 0 through 4294967295, inclusive.
 
-## <span>Examples</span>
+## Examples
 
 The array classes represents the content list of some training course. They are all displayed in the console by iterating over the array classes.
 
@@ -74,7 +74,7 @@ if (cart.length > 3) {
 
 [View live example](http://code.webplatform.org/gist/9086602)
 
-## <span>Remarks</span>
+## Remarks
 
 In JavaScript arrays are sparse, and the elements in an array do not have to be contiguous. The **length** property is not necessarily the number of elements in the array. For example, in the following array definition, `my_array.length` contains 7, not 2:
 
@@ -104,14 +104,14 @@ On the other hand, when decreasing length, the array is truncated.
     // Output
     // ["0"]
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [JavaScript, by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
 -   [Relationship between length and numerical properties, by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Relationship_between_length_and_numerical_properties)
 
-### <span>Specification</span>
+### Specification
 
 [15.4.5.2 length](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.5.2)
 

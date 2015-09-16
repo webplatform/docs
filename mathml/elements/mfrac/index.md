@@ -14,16 +14,16 @@ tags:
 uri: mathml/elements/mfrac
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML mfrac element is used to display fractions.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates a simple usage of the mfrac element:
 
@@ -46,12 +46,12 @@ This example demonstrates a simple usage of the mfrac element:
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mfrac)
 :   W3C Recommendation
 
-## <span>Attributes</span>
+## Attributes
 
  bevelled
 :   Specifies the way the fraction is displayed. If `true`, the fraction line is bevelled, which means that numerator and denominator are displayed side by side and separated by a slash (/). Otherwise, if set to `false` (which is the default value), numerator and denominator are on top of each other.

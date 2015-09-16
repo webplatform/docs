@@ -20,13 +20,13 @@ tags:
 uri: dom/TransitionEvent
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides specific contextual information associated with Cascading Style Sheets (CSS) transitions.
 
 Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -37,7 +37,7 @@ API Name
 [propertyName](/dom/TransitionEvent/propertyName)
 :   Specifies or retrives a string containg the name of the changed property.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -45,13 +45,13 @@ API Name
 [initTransitionEvent](/dom/TransitionEvent/initTransitionEvent)
 :   Initializes a transition event created using the deprecated Document.createEvent("TransitionEvent") method.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from Event</span>
+## Inherited from Event
 
-### <span>Properties</span>
+### Properties
 
 API Name
 :   Summary
@@ -83,7 +83,7 @@ API Name
 [type](/dom/Event/type)
 :   Gets the name of an event.
 
-### <span>Methods</span>
+### Methods
 
 API Name
 :   Summary
@@ -100,7 +100,7 @@ API Name
 [stopPropagation](/dom/Event/stopPropagation)
 :   Prevents propagation of an event beyond the current target.
 
-### <span>Events</span>
+### Events
 
 API Name
 :   Summary
@@ -183,15 +183,15 @@ API Name
 [finish](/dom/Event/finish)
 :
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The completion of a CSS transition generates a corresponding Document Object Model (DOM) event. An event is fired for each property that undergoes a transition. This allows a content developer to perform actions that synchronize with the completion of a transition.
 
 Each event provides the name of the property the transition is associated with as well as the duration of the transition.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Transitions](http://dev.w3.org/csswg/css-transitions/#Events-TransitionEvent)
 :   Working Draft

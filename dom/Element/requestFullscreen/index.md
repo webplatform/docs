@@ -19,31 +19,31 @@ tags:
 uri: dom/Element/requestFullscreen
 
 ---
-## <span>Summary</span>
+## Summary
 
 The requestFullscreen method provides a way for presenting web content using the user’s entire screen. The API lets you easily direct the browser to make an element — and its children, if any — occupy the full available screen space, without borders or other chrome elements.
 
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  element.requestFullscreen();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [Fullscreen](http://www.w3.org/TR/fullscreen/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [tutorials/using\_the\_full-screen\_api](/tutorials/using_the_full-screen_api)

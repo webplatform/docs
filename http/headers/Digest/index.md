@@ -14,11 +14,11 @@ todo_broken_links:
 uri: http/headers/Digest
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates the hash/digest of the full resource, before partial content or encodings.
 
-## <span>Overview table</span>
+## Overview table
 
 Direction
 :   Response
@@ -26,24 +26,24 @@ Direction
 Features
 :
 
-## <span>Syntax</span>
+## Syntax
 
     Digest = "Digest" ":" #(instance-digest)
     instance-digest = digest-algorithm "=" <encoded digest output>
 
-## <span>Examples</span>
+## Examples
 
 ```
 Digest: SHA=thvDyvhfIqlvFe+A9MYgxAfm1q5=,unixsum=30637
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [RFC 3230: Instance Digests in HTTP](http://tools.ietf.org/html/rfc3230)
 :
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [Want-Digest](/w/index.php?title=http/headers/Want-Digest&action=edit&redlink=1)

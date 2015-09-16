@@ -19,11 +19,11 @@ uri: 'tutorials/webgl an advanced shader'
 **By Erik Möller, Chris Mills**
 Originally published July 25, 2012
 
-## <span>Summary</span>
+## Summary
 
 Creating an advanced shader, building on the simple shader tutorial.
 
-## <span>Introduction</span>
+## Introduction
 
 Welcome to part 3 of our Raw WebGL series! Now that we've covered the real basics and built up some simple fragment and vertex shaders, let's move forward and create a much more complex fragment shader example, to give you more of a flavour of the different options available to us.
 
@@ -31,7 +31,7 @@ This article is a transcript of [time 32:36 to 56.50](http://www.youtube.com/wat
 
 **Note**: [Access the full WebGL 101 code example set](https://github.com/emoller/WebGL101) and links to see the examples running live, at Github
 
-## <span>Ramping up our fragment shader power!</span>
+## Ramping up our fragment shader power!
 
 You can see the final result of this article in 04-fragment-shader.html from the [full WebGL 101 code example set](https://github.com/emoller/WebGL101). To follow the step by step tutorial below, download 03-minimal-shader.html and use it as a starting point.
 
@@ -41,7 +41,7 @@ First of all, change the size of the canvas to 900 x 900 pixels:
 <canvas id='c' width='900' height='900'></canvas>
 ```
 
-### <span>Modifying the vertex shader</span>
+### Modifying the vertex shader
 
 Now we'll try another way of getting our texture coordinates into the fragment shader. Delete the `varying` and `uniform` lines from the vertex shader `<script>` element:
 
@@ -106,7 +106,7 @@ gl.uniform2f(program.canvasSizeUniform, c.width, c.height);
 
 Figure 1: Our new shader is functional.
 
-### <span>Preparing our fragment shader</span>
+### Preparing our fragment shader
 
 Now let's prepare our fragment shader to take more detailed information. For this detailed shader, we want to use high precision floats. The problem with this is that lower powered devices may not be able to handle high precision, therefore we will want to detect what type of device is accessing our example, and use high precision or medium precision, depending on its capabilities. We will do this with an `#ifdef` construct, like so:
 
@@ -142,7 +142,7 @@ gl_FragColor = calc(texCoord);
 
  If you save and refresh your browser, you should see the same as before. Nothing more exciting yet, but we have now made our shader a lot more flexible and able to handle more detail.
 
-### <span>Turning it up to 11</span>
+### Turning it up to 11
 
 With our preparation done, now let's have some fun! We'll ramp up the `calc()` function we just created to produce something far more interesting. First of all, add the following variables at the top of the `calc()` function:
 
@@ -198,7 +198,7 @@ return vec4(0,0,0,1);
 
 Figure 2: We have generated a rather nice fractal.
 
-### <span>Continuous colouring</span>
+### Continuous colouring
 
 What we have got so far is quite nice, but the background is rather banded: it would be nice to have things looking a bit smoother. To do this, we will use a continuous colour mandelbrot algorithm. First of all, we need to plug the algorithm into our calculation of that `d` variable. Replace the `float d` line with the following:
 
@@ -212,7 +212,7 @@ float d = (float(iteration) - (log(log(sqrt(x*x+y*y))) / log(2.0))) / 50.0;
 
 Figure 3: The background colour is now a smooth gradient!.
 
-### <span>Further colour improvements</span>
+### Further colour improvements
 
 The smooth version looks a lot better, but it is still a bit dark and not very colourful. Let's improve things further by blending in more properties of the fractal into the final colour. Set the following two variables below the other two variables we set earlier inside `calc()`:
 
@@ -253,7 +253,7 @@ v = (1.0 - v) / 2.0;
 
 Figure 5: Inverted colours give our fractal a halo-type effect.
 
-### <span>Offsetting and scaling our fractal</span>
+### Offsetting and scaling our fractal
 
 We've got a pretty pleasing result so far, but let's just tweak it a little bit more before we have a well-earned beer. As it stands, we can't see all of the halo at once, so let's offset and scale our fractal so we can see it a bit better.
 
@@ -298,7 +298,7 @@ texCoord = texCoord * uScale + uOffset;
 
  Note: You should now be able to see your fractal much better on your screen. If you wanted to improve this for better viewing on different devices, you could also consider using media queries to change the canvas size when appropriate, and viewport, to make mobile devices respect those media queries better. See [Love your devices: adaptive web design with media queries, viewport and more](http://dev.opera.com/articles/view/love-your-devices-adaptive-web-design-with-media-queries-viewport-and-more/) for more details.
 
-### <span>Moving and zooming the fractal</span>
+### Moving and zooming the fractal
 
 The design is looking great, but how about adding in some control functionality to move around the fractal, and zoom in and out? To achieve this, we'll draw the fractal several times, once for each time it is moved and zoomed. To give our code the flexibility to do this, wrap the bottom four lines of code in our main code in a function called `draw()`, like so:
 

@@ -26,29 +26,29 @@ uri: dom/HTMLBaseElement/replaceAdjacentText
 
 Method of [dom/HTMLBaseElement](/dom/HTMLBaseElement)[dom/HTMLBaseElement](/dom/HTMLBaseElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.replaceAdjacentText(where, newText);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>where</span>
+### where
 
  Data-type
 :   BSTR
 
  A **String** that specifies where to locate the replacement text, using one of the following values.
 
-### <span>newText</span>
+### newText
 
  Data-type
 :   BSTR
 
  A **String** that specifies the replacement text.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -58,8 +58,8 @@ A pointer to a **String** returning the old text.
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.

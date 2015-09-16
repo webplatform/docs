@@ -21,7 +21,7 @@ uri: css/properties/text-decoration-none
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :
@@ -44,12 +44,12 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `text-decoration-none: VARIANT_FALSE`
 -   `text-decoration-none: VARIANT_TRUE`
 
-## <span>Values</span>
+## Values
 
 VARIANT\_TRUE
 :   Property is set to **none**.
@@ -59,17 +59,17 @@ VARIANT\_FALSE
 
 **Needs Examples**: This section should include examples.
 
-### <span>Syntax</span>
+### Syntax
 
 `textDecorationNone: VARIANT_TRUE | VARIANT_FALSE`
 
-### <span>Requirements</span>
+### Requirements
 
 {
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `defaultSelected`
 -   `runtimeStyle`

@@ -23,28 +23,28 @@ tags:
 uri: 'css/media queries/apis/matchMedium'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Indicates whether the document currently matches a media query.
 
 Method of [css/media\_queries/apis/StyleMedia](/css/media_queries/apis/StyleMedia)[css/media\_queries/apis/StyleMedia](/css/media_queries/apis/StyleMedia)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var matchesMedia = window.styleMedia.matchMedium(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>mediaQuery</span>
+### mediaQuery
 
  Data-type
 :   String
 
  The media query to match.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
@@ -54,15 +54,15 @@ Returns whether the media type of the document matches the media type that the *
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 The *mediaQuery* parameter can contain a string that specifies a media type, an optional well-formed Cascading Style Sheets (CSS) media query, or both. For more information on Media Queries, see Media Queries.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -208,7 +208,7 @@ The *mediaQuery* parameter can contain a string that specifies a media type, an 
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-#### <span>Media Queries</span>
+#### Media Queries
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -248,7 +248,7 @@ The *mediaQuery* parameter can contain a string that specifies a media type, an 
 
 -   [behavior](/css/properties/behavior)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `StyleMedia`
 -   `<b/>`

@@ -20,42 +20,42 @@ tags:
 uri: dom/Event/preventDefault
 
 ---
-## <span>Summary</span>
+## Summary
 
 Cancels the default action of an event, if possible.
 
 Method of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
  event.preventDefault();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      Use this method to prevent the default action of a cancelable event. For example, prevent the browser from navigating when clicking on a a element.
 
 An event is cancelable if its [cancelable](/dom/Event/cancelable) property returns true.
 
-## <span>Notes</span>
+## Notes
 
 If the event cannot be canceled, this method has no effect.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

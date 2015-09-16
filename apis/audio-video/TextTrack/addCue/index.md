@@ -23,32 +23,32 @@ tags:
 uri: apis/audio-video/TextTrack/addCue
 
 ---
-## <span>Summary</span>
+## Summary
 
 Adds the given cue to textTrack's text track list of cues.
 
 Method of [apis/audio-video/TextTrack](/apis/audio-video/TextTrack)[apis/audio-video/TextTrack](/apis/audio-video/TextTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = TextTrack.addCue(cue);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>cue</span>
+### cue
 
  Data-type
 :   String
 
  "cue" is of type TextTrackCue.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
-## <span>Examples</span>
+## Examples
 
 using addCue in javascript and setting several properties:
 
@@ -72,7 +72,7 @@ cue1.line = '50%';
 cue1.position = '25%';
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

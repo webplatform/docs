@@ -20,11 +20,11 @@ tags:
 uri: css/properties/font-variant-alternates
 
 ---
-## <span>Summary</span>
+## Summary
 
 Fonts can provide alternate glyphs in addition to default glyph for a character. This property provides control over the selection of these alternate glyphs.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
@@ -50,12 +50,12 @@ Animatable
 Percentages
 :   N/A
 
-## <span>Syntax</span>
+## Syntax
 
 -   `font-variant-alternates: normal`
 -   `font-variant-alternates: stylistic(<feature-value-name>)`
 
-## <span>Values</span>
+## Values
 
 normal
 :   None of the feature glyphs are enabled.

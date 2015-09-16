@@ -8,11 +8,11 @@ tags:
 uri: webgl/tutorials
 
 ---
-## <span>Summary</span>
+## Summary
 
 Index page for WebGL tutorials
 
-## <span>WebGL fundamentals</span>
+## WebGL fundamentals
 
 You can start studying WebGL with the following articles:
 

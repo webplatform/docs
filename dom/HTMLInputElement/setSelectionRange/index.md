@@ -26,29 +26,29 @@ uri: dom/HTMLInputElement/setSelectionRange
 
 Method of [dom/HTMLInputElement](/dom/HTMLInputElement)[dom/HTMLInputElement](/dom/HTMLInputElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.setSelectionRange(start, end);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>start</span>
+### start
 
  Data-type
 :   any
 
  The offset into the text field for the start of the selection.
 
-### <span>end</span>
+### end
 
  Data-type
 :   any
 
  The offset into the text field for the end of the selection.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -56,7 +56,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 The following code example shows how to set a test selection's start and end positions.
 
@@ -81,21 +81,21 @@ The following code example shows how to set a test selection's start and end pos
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 If you set a parameter to more than the length of the text field, the parameter points to the end of the text field. If the *end* parameter is less than or equal to the *start* paramenter, the start and end positions of the selection are set to the *end* value. The selection is then an insertion point or caret.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.2
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `input type=text`
 -   `textArea`

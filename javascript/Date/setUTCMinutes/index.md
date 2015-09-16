@@ -11,11 +11,11 @@ tags:
 uri: javascript/Date/setUTCMinutes
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets the minutes value in the Date object using Universal Coordinated Time (UTC).
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -33,7 +33,7 @@ Sets the minutes value in the Date object using Universal Coordinated Time (UTC)
 **numMilli**
 :   Optional. A numeric value equal to the milliseconds value.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **setUTCMinutes** method:
 
@@ -46,7 +46,7 @@ function SetUTCMinutesDemo(nmin, nsec){
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 All **set** methods taking optional arguments use the value returned from corresponding **get** methods, if you do not specify an optional argument. For example, if the numSeconds argument is not specified, JavaScript uses the value returned from the **getUTCSeconds** method.
 
@@ -56,9 +56,9 @@ If the value of an argument is greater than its range, or is a negative number, 
 
 The **setUTCHours** method can be used to set the hours, minutes, seconds, and milliseconds.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [getMinutes Method (Date)](/javascript/Date/getMinutes)
 -   [getUTCMinutes Method (Date)](/javascript/Date/getUTCMinutes)

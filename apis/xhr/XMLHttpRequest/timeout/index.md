@@ -24,24 +24,24 @@ tags:
 uri: apis/xhr/XMLHttpRequest/timeout
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns or sets the number of milliseconds a request can take before automatically being terminated.
 
 Property of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.timeout;
 element.timeout = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned longunsigned long
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // The following example sets the timeout property
@@ -53,11 +53,11 @@ xhr.ontimeout = timeoutFired;
 xhr.send(null);
 ```
 
-## <span>Notes</span>
+## Notes
 
 The **timeout** property has a default value of 0. If the time-out period expires, the **responseText** property will be null. You should set a time-out value that is slightly longer than the expected response time of the request. The **timeout** property may be set only in the time interval between a call to the **open** method and the first call to the **send** method. If you set an **XMLHttpRequest** time-out value that is larger than the network stack's time-out value, the network stack will time out first and the **ontimeout** event will not be raised.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft

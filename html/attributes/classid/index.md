@@ -13,7 +13,7 @@ tags:
 uri: html/attributes/classid
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the class identifier for the object.
 
@@ -31,16 +31,16 @@ Applies to
 </table>
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 The format the classid string is "clsid:XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX" for registered Microsoft ActiveX Controls.
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `object`

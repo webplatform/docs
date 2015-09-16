@@ -12,11 +12,11 @@ tags:
 uri: javascript/statements/Labeled
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides an identifier for a statement.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -29,7 +29,7 @@ Provides an identifier for a statement.
 **statements**
 :   Optional. One or more statements associated with label.
 
-## <span>Examples</span>
+## Examples
 
 In the following code, the **continue** statement refers to the **for** loop that is preceded by the `Inner:` statement. When `j` is 24, the **continue** statement causes that **for** loop to go to the next iteration. The numbers 21 through 23 and 25 through 30 print on each line.
 
@@ -51,13 +51,13 @@ Outer:
  }
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 Labels are used by the **break** and **continue** statements to specify the statement to which the **break** and **continue** apply.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [break Statement](/javascript/statements/break)
 -   [continue Statement](/javascript/statements/continue)

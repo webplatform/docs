@@ -22,19 +22,19 @@ tags:
 uri: dom/HTMLElement/click
 
 ---
-## <span>Summary</span>
+## Summary
 
 Covers what the click action is and what happens when it is performed.
 
 Method of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var object = object.click();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -42,7 +42,7 @@ Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## <span>Examples</span>
+## Examples
 
 The following example demonstrates how simulating a click using the **click** does not, by default, bring the element into focus.
 
@@ -85,14 +85,14 @@ The following example demonstrates how simulating a click using the **click** do
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/click.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note**  Simulating a click using the **click** does not bring the element being clicked into focus. (See example below).
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5

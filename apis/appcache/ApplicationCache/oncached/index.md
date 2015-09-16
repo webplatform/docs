@@ -21,26 +21,26 @@ tags:
 uri: apis/appcache/ApplicationCache/oncached
 
 ---
-## <span>Summary</span>
+## Summary
 
 The resources listed in the manifest have been downloaded, and the application is now cached.
 
 Property of [apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)[apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = window.applicationCache.oncached;
 window.applicationCache.oncached = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type nullnull
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
 If there is more than one event, the **cached** event will be the last one in the sequence. Alternatively, you could use an anonymous delegate function such as
 
@@ -48,7 +48,7 @@ If there is more than one event, the **cached** event will be the last one in th
 
 where e is the cached event.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C ApplicationCache Specification](http://dev.w3.org/html5/spec/single-page.html#application-cache-api)
 :   W3C Editor's Draft

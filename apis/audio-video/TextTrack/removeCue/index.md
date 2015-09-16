@@ -23,32 +23,32 @@ tags:
 uri: apis/audio-video/TextTrack/removeCue
 
 ---
-## <span>Summary</span>
+## Summary
 
 Removes the given cue from textTrack's text track list of cues.
 
 Method of [apis/audio-video/TextTrack](/apis/audio-video/TextTrack)[apis/audio-video/TextTrack](/apis/audio-video/TextTrack)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = TextTrack.removeCue(cue);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>cue</span>
+### cue
 
  Data-type
 :   String
 
  "cue" is of type TextTrackCue.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <!DOCTYPE html >
@@ -90,7 +90,7 @@ Returns an object of type<span></span>
 </html>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft

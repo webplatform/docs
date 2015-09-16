@@ -17,13 +17,13 @@ tags:
 uri: apis/indexeddb/IDBObjectStore/autoIncrement
 
 ---
-## <span>Summary</span>
+## Summary
 
 Provides the auto increment flag for this object store.
 
 Property of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.autoIncrement;

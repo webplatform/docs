@@ -10,21 +10,21 @@ tags:
 uri: javascript/Error/valueOf
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the string value of an error.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     error.valueOf()
 
-## <span>Return Value</span>
+## Return Value
 
 The string "Error: " plus the error message.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **valueOF** method with a date.
 
@@ -37,7 +37,7 @@ var myError = new Error();
  // Output: Error: This is an error.
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The error object is any instance of an Error.
 

@@ -24,42 +24,42 @@ tags:
 uri: dom/Implementation/createDocument
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a Document that is not attached to a window.
 
 Method of [dom/Implementation](/dom/Implementation)[dom/Implementation](/dom/Implementation)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var newDocument = implementation.createDocument(namespace, rootElementName, doctype);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>namespace</span>
+### namespace
 
  Data-type
 :   String
 
  The namespace URI of the resulting document or a null value.
 
-### <span>rootElementName</span>
+### rootElementName
 
  Data-type
 :   String
 
  The qualified name (for example, namespace:localname) of the root element for the document or a null value.
 
-### <span>doctype</span>
+### doctype
 
  Data-type
 :   DOM Node
 
  The desired [document type](/html/elements/!DOCTYPE) for the document or a null value.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
@@ -67,7 +67,7 @@ The resulting document.
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation

@@ -12,11 +12,11 @@ tags:
 uri: dom/DOMException
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a DOM operation exception.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -24,25 +24,25 @@ API Name
 [message](/dom/DOMException/message)
 :   Retrieves a string describing the exception that occurred.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Usage</span>
+## Usage
 
      DOM operations only raise exceptions in "exceptional" circumstances, when an operation is impossible to perform (e.g., for logical reasons, because data is lost, or because the implementation has become unstable). In general, DOM methods return specific error values in ordinary processing situations
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `DOM Exception Error Codes`

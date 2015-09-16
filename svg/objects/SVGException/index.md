@@ -21,37 +21,37 @@ uri: svg/objects/SVGException
 
 Inherits from [SVGElement](/svg/objects/SVGElement)[SVGElement](/svg/objects/SVGElement)
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Inherited from SVGElement</span>
+## Inherited from SVGElement
 
-### <span>Properties</span>
+### Properties
 
 *No properties.*
 
-### <span>Methods</span>
+### Methods
 
 *No methods.*
 
-### <span>Events</span>
+### Events
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -71,11 +71,11 @@ is raised when an invalid value is passed to an operation or assigned to an attr
 
 **Note:** The unusual spelling of this constant is maintained for compatibility with existing content.
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics (SVG) 1.1](http://go.microsoft.com/fwlink/p/?linkid=190918), Appendix B.4
 
-### <span>Members</span>
+### Members
 
 The **SVGException** object has these methods:
 
@@ -87,8 +87,8 @@ The **SVGException** object has these properties:
 -   [**message**](/svg/properties/message): Gets a description of the exception that is raised.
 -   [**name**](/svg/properties/name): Gets the exception name that is raised.
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   DOM Exception Error Codes

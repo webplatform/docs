@@ -15,7 +15,7 @@ tags:
 uri: html/attributes/loop
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the number of times a sound or video clip will loop when activated.
 
@@ -31,7 +31,7 @@ Applies to
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the **loop** property and the [**src**](/html/attributes/src) property to change the number of times a background sound loops.
 
@@ -54,9 +54,9 @@ function loopContinuously() {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/loop.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 To restart a sound or video clip after changing its **loop** property, set the [**src**](/html/attributes/src) property or **dynsrc** property to itself. For example:
 
@@ -64,11 +64,11 @@ To restart a sound or video clip after changing its **loop** property, set the [
 
 The following are descriptions of how the **loop** property works for some boundary cases. {
 
-### <span>Syntax</span>
+### Syntax
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `bgSound`
 -   `img`

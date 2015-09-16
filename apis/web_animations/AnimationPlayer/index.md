@@ -11,11 +11,11 @@ tags:
 uri: 'apis/web animations/AnimationPlayer'
 
 ---
-## <span>Summary</span>
+## Summary
 
 Represents a single animation player. Players connect animation node, or source, to a timeline and provides playback controls.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -44,7 +44,7 @@ API Name
 [timeline](/apis/web_animations/AnimationPlayer/timeline)
 :   The timeline associated with this player. Setting this attribute updates the object’s timeline using the procedure to set the timeline of a player.
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -67,7 +67,7 @@ API Name
 [reverse](/apis/web_animations/AnimationPlayer/reverse)
 :   Inverts the playback rate of this player and seeks to the start of the source content if if has finished playing in the reversed direction using the reverse a player procedure for this object.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 

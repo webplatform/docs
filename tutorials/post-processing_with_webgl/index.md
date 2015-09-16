@@ -12,11 +12,11 @@ uri: 'tutorials/post-processing with webgl'
 **By [Nicolas Belmonte](http://philogb.github.com/)**
 Originally published October 17, 2012
 
-## <span>Summary</span>
+## Summary
 
 In this article we'll look at what image post-processing is and how to use the WebGL API to apply real-time post-processing effects on images and other media like video, &lt;canvas&gt;, etc.
 
-## <span>Introduction</span>
+## Introduction
 
 WebGL is not only about rendering 3D graphics. While WebGL allows you to create stunning 3D, it can also be used for 2D rendering. One common use-case is pixel manipulation, or image post-processing, which allows us to add blur or other filter effects to images.
 
@@ -24,13 +24,13 @@ In this article we'll look at what image post-processing is and how to use the W
 
 Some familiarity with the WebGL API is needed to get the most out of this. In particular, knowledge about the rendering pipeline will be useful; in addition, if this is your first time diving into the WebGL API, it is recommended that you read the basic [WebGL tutorials](/webgl/tutorials) first.
 
-## <span>Post-Processing</span>
+## Post-Processing
 
 Post-Processing is a technique used in graphics that allows you to take a current input texture, and manipulate its pixels to produce a transformed image. This can be used to apply shiny effects like [volumetric lighting](http://en.wikipedia.org/wiki/Volumetric_lighting), or any other filter type effect you've seen in applications like Photoshop or Instagram.
 
 The good news is that the WebGL API lets you apply all these effects directly via the GPU. The fragment shader is a piece of GLSL code that is called for each pixel of the rasterized image. This means for example that if we render a simple 2D rectangle on the screen with WebGL, the fragment shader code will be applied to each pixel of the rectangle. Having GLSL code doing pixel manipulation also opens the door to real-time post-processing effects, since all the complex pixel manipulation is done in the GPU.
 
-## <span>Drawing a Rectangle</span>
+## Drawing a Rectangle
 
 The first step to do then is to render a simple 2D rectangle on the screen, and then play a bit with the fragment shader code and see what happens. Check out my [simple shaded rectangle](http://dev.opera.com/static/articles/2012/webgl-postprocessing/webgl-pp/simple.html) example (also seen in Figure 1). You'll find the code for the JavaScript that does all the heavy lifting example file below the canvas in the example page.
 
@@ -94,7 +94,7 @@ uniform float size;
 
 Now in order to do \*image\* (post-)processing we are going to need an image. Let's see how we can do this in WebGL.
 
-## <span>Image Post-Processing</span>
+## Image Post-Processing
 
 In this example we will take a webcam input (a static image would also do just fine), and manipulate its pixels to do some edge-detection using the [Sobel operator](http://en.wikipedia.org/wiki/Sobel_operator). The Sobel operator consists of what's called a convolution operation, which in this particular case can be explained as a weighted sum of the current pixel being evaluated and its surrounding pixels. This weighted sum operation can be performed via a matrix.
 
@@ -132,7 +132,7 @@ gl.bindTexture(gl.TEXTURE_2D, texture);
 
 `texImage2D` takes as first argument the type of the target texture, in this case a 2D texture so `TEXTURE_2D`. The second argument specifies the level of detail of the image — in this case we'll use `0`, which is the base image level. `texImage2D` also takes the internal image format type, i.e. the number of color components in the texture, in this case `RGBA`. The next argument is the pixel data format, in this case also `RGBA`. The next argument describes how the `RGBA` values in the image are stored. For this image the color components are stored as numbers from 0 to 255, or `UNSIGNED_BYTE`s. The last argument is the actual `HTMLVideo` element. You can [read more about the **texImage2D** function here](http://www.khronos.org/registry/webgl/specs/latest/#5.14.8).
 
-## <span>Multiple Post-Processing Passes</span>
+## Multiple Post-Processing Passes
 
 Sometimes we'd like to apply more than one transformation to the image and we cannot combine those on the same fragment shader. One classic example of this is the [Bloom effect](http://en.wikipedia.org/wiki/Bloom_(shader_effect)). The Bloom effect first blurs the input image (e.g. with a [gaussian blur](http://en.wikipedia.org/wiki/Gaussian_blur)), and then blends the blurred image with the original image to provide something like a neon effect. For the blurring stage a straight [gaussian blur](http://en.wikipedia.org/wiki/Gaussian_blur) would average the current pixel value with many levels of surrounding pixels. This is very costly (even for a fragment shader), and thus the blur effect is split into two passes: one pass that averages the current pixel with neighboring pixels in the x-axis, and then a second pass that does the same thing for the y-axis (see Figure 3).
 
@@ -210,7 +210,7 @@ function createTexture(gl, size) {
 
  And that's a wrap: now we've applied multiple visual effects to the same input texture. This code is quite complex, and I've not taken the time to explain absolutely everything because I didn't have enough space! If you are not sure what is going on in some parts, I'd encourage you to take a close look at the example code — you'll see that it follows the patterns explained in the article. Once you're familiar with the steps taken in the rendering pipeline you can start having fun applying your own visual effects.
 
-## <span>Summary</span>
+## Summary
 
 In this tutorial we explained how to create real-time image post-processing. We started by describing how to use the fragment shader to apply per pixel transformations and then went on to showing how to initialize textures and framebuffers to apply multiple image effects to an input texture. I hope this tutorial was useful for you.
 

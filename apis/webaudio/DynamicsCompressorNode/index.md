@@ -10,11 +10,11 @@ tags:
 uri: apis/webaudio/DynamicsCompressorNode
 
 ---
-## <span>Summary</span>
+## Summary
 
 DynamicsCompressorNode is an AudioNode processor implementing a dynamics compression effect, which lowers the volume of the loudest parts of the signal and raises the volume of the softest parts. Compression is especially important in games and musical applications where large numbers of individual sounds are played simultaneously to control the overall signal level and help avoid clipping (distorting) the audio output to the speakers.
 
-## <span>Properties</span>
+## Properties
 
 API Name
 :   Summary
@@ -37,15 +37,15 @@ API Name
 [threshold](/apis/webaudio/DynamicsCompressorNode/threshold)
 :   The decibel value above which the compression will start taking effect. Its default value is -24, with a nominal range of -100 to 0. This parameter is k-rate.
 
-## <span>Methods</span>
+## Methods
 
 *No methods.*
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft

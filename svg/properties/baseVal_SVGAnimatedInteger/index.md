@@ -11,21 +11,21 @@ tags:
 uri: 'svg/properties/baseVal (SVGAnimatedInteger)'
 
 ---
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 9 supports script-based SVG animation but it does not support declarative-based SVG animation. As a result, the [**animVal**](/svg/properties/animVal_(SVGAnimatedInteger)) property contains the same value as the **baseVal** property.
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.6
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   [**SVGAnimatedInteger**](/svg/objects/SVGAnimatedInteger)
 -   [**animVal**](/svg/properties/animVal_(SVGAnimatedInteger))

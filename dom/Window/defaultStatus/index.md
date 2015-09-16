@@ -23,26 +23,26 @@ tags:
 uri: dom/Window/defaultStatus
 
 ---
-## <span>Summary</span>
+## Summary
 
 Sets or retrieves the default message displayed in the status bar at the bottom of the window.
 
 Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var statusMessage = window.defaultStatus;
 window.defaultStatus = value;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type StringString
 
 The default message to display on the userAgents' Status Bar.
 
-## <span>Examples</span>
+## Examples
 
 The following example displays 'Welcome to our website' in the userAgent's Status Bar when the page loads.
 
@@ -53,18 +53,18 @@ window.defaultStatus='Welcome to our website!';
 };
 ```
 
-## <span>Usage</span>
+## Usage
 
      Use to customize the userAgent default Status Bar message.
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Do not confuse **defaultStatus** with [**status**](/dom/Window/status). The **status** property reflects a priority or transient message in the status bar, such as the message that appears when an [**onmouseover**](/dom/MouseEvent/mouseover) event occurs over an anchor. Windows Internet Explorer 7: References to this property are ignored if the "Allow status bar updates via script" option is disabled or the URLACTION \_FEATURE\_SCRIPT\_STATUS\_BAR URL action is disallowed for the current URL security zone. For more information on URL security zones, please see About URL Security Zones.
 
-#### <span>defaultStatus in Metro style apps using JavaScript</span>
+#### defaultStatus in Metro style apps using JavaScript
 
 Metro style apps using JavaScript don't support this property because they don't have status bars.
 
-### <span>Syntax</span>
+### Syntax

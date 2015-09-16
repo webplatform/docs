@@ -14,16 +14,16 @@ tags:
 uri: mathml/elements/maction
 
 ---
-## <span>Summary</span>
+## Summary
 
 The MathML maction element provides a possibility to bind actions to (sub-) expressions. The action itself is specified by the actiontype attribute, which accepts several values. To specify which child elements are addressed by the action, you can make use of the selection attribute.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## <span>Examples</span>
+## Examples
 
 This example demonstrates a simple usage of maction:
 
@@ -64,12 +64,12 @@ This example demonstrates a simple usage of maction:
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter2.html#interf.toplevel)
 :   W3C Recommendation
 
-## <span>Attributes</span>
+## Attributes
 
  actiontype
 :   The action which specifies what happens for this element. Possible values are:

@@ -10,11 +10,11 @@ tags:
 uri: javascript/Error/toString
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a string representation of an error.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
@@ -23,11 +23,11 @@ Returns a string representation of an error.
 **date**
 :   Required. The error to represent as a string.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns "Error: " plus the error message.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **toString** method with an error.
 

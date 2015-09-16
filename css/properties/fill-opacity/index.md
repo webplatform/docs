@@ -20,11 +20,11 @@ tags:
 uri: css/properties/fill-opacity
 
 ---
-## <span>Summary</span>
+## Summary
 
 ‘fill-opacity’ specifies the opacity of the painting operation used to paint the interior the current object. (See Painting shapes and text.)
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `1`
@@ -50,24 +50,24 @@ Animatable
 Percentages
 :   n/a
 
-## <span>Syntax</span>
+## Syntax
 
 -   `fill-opacity: inherit`
 
-## <span>Values</span>
+## Values
 
 inherit
 :
 
 **Needs Examples**: This section should include examples.
 
-## <span>Usage</span>
+## Usage
 
      <opacity-value>
 
 The opacity of the painting operation used to fill the current object, as a \<number\>. Any values outside the range 0.0 (fully transparent) to 1.0 (fully opaque) will be clamped to this range. (See Clamping values which are restricted to a particular range.)
 
-## <span>Related specifications</span>
+## Related specifications
 
 [stroke-opacity](http://www.w3.org/TR/SVG/painting.html#StrokeOpacityProperty)
 :   W3C Recommendation
@@ -75,8 +75,8 @@ The opacity of the painting operation used to fill the current object, as a \<nu
 [opacity](http://www.w3.org/TR/SVG/masking.html#OpacityProperty)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 <http://www.w3.org/TR/SVG/render.html#PaintingShapesAndText>

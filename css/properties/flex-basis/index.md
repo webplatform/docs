@@ -19,11 +19,11 @@ tags:
 uri: css/properties/flex-basis
 
 ---
-## <span>Summary</span>
+## Summary
 
 The flex-basis CSS property describes the initial main size of the flex item before any free space is distributed according to the flex factors described in the flex property (flex-grow and flex-shrink).
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
@@ -49,13 +49,13 @@ Animatable
 Percentages
 :   relative to the main size of the flex container
 
-## <span>Syntax</span>
+## Syntax
 
 -   `flex-basis: auto`
 -   `flex-basis: height`
 -   `flex-basis: width`
 
-## <span>Values</span>
+## Values
 
 auto
 :   The flex item's initial main size is determined by either the [width](/css/properties/width) or [height](/css/properties/height) property, whichever is in the main dimension, as determined by the [flex-direction](/css/properties/flex-flow) property. Note that the value of the [width](/css/properties/width) or [height](/css/properties/height) property itself may be **auto**, in which case the size is determined by the flex item's contents.
@@ -66,7 +66,7 @@ width
 height
 :   In a vertical writing mode; percentage values of **flex-basis** are resolved against the flex item's flex container, and if that containing block's size is indefinite, the result is undefined.
 
-## <span>Examples</span>
+## Examples
 
 See [flex examples](/css/properties/flex#Examples) for the use of this property in an example.
 
@@ -74,20 +74,20 @@ See [flex examples](/css/properties/flex#Examples) for the use of this property 
 flex-basis: 60%;
 ```
 
-## <span>Usage</span>
+## Usage
 
      The best practice is to use (instead of this property) the flex shorthand property, as it correctly resets any unspecified flex components to accomodate common uses.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSS Flexible Box Layout Model](http://dev.w3.org/csswg/css-flexbox/#flex-basis)
 :   Candidate Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Flexbox</span>
+#### Flexbox
 
 -   [align-content](/css/properties/align-content)
 

@@ -15,7 +15,7 @@ uri: dom/Event/afterprint
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview Table</span>
+## Overview Table
 
 <table class="wikitable">
 <tr>
@@ -69,7 +69,7 @@ Default action
 </td>
 </tr>
 </table>
-## <span>Examples</span>
+## Examples
 
 This example uses the **onafterprint** event to return the document to its pre-print state. In this case, because the [**onbeforeprint**](/dom/Event/beforeprint) event handler makes all currently hidden sections of the document visible for printing, the **onafterprint** event sets those sections back to hidden.
 
@@ -116,9 +116,9 @@ function window.onbeforeprint()
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforeprint.htm)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 This event is usually used with the [**onbeforeprint**](/dom/Event/beforeprint) event. Use the **onbeforeprint** event to make changes to the document just before it prints or previews for printing. Use the **onafterprint** event to undo those changes, reverting the document back to its pre-print or pre-preview state.
 
@@ -158,20 +158,20 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### <span>Syntax</span>
+### Syntax
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-### <span>Event handler parameters</span>
+### Event handler parameters
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
 
-## <span>See also</span>
+## See also
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `window`
 -   `body`

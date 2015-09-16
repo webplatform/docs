@@ -20,13 +20,13 @@ tags:
 uri: apis/webaudio/AudioBufferSourceNode/playbackState
 
 ---
-## <span>Summary</span>
+## Summary
 
 The playback state, initialized to UNSCHEDULED\_STATE, progressing through SCHEDULED\_STATE, PLAYING\_STATE, and FINISHED\_STATE.
 
 Property of [apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)[apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -34,13 +34,13 @@ Property of [apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSour
 var result = AudioBufferSourceNode.playbackState;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type unsigned shortunsigned short
 
 Returns one of the following constant values: UNSCHEDULED\_STATE (0), SCHEDULED\_STATE (1), PLAYING\_STATE (2), or FINISHED\_STATE (3).
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 // 1. Create an AudioBufferSourceNode and load data into it
@@ -58,7 +58,7 @@ var timer = setInterval(function() {
 soundSource.start(…);
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C Web Audio API](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
 :   W3C Editor's Draft

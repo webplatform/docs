@@ -23,41 +23,41 @@ tags:
 uri: dom/Node/isSupported
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns a value indicating whether or not the object supports a specific DOM standard.
 
 Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var isSupported = node.isSupported(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>feature</span>
+### feature
 
  Data-type
 :   String
 
  The name of the standard.
 
-### <span>version</span>
+### version
 
  Data-type
 :   String
 
  The version number of the standard. Supported values vary according to the standard.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type BooleanBoolean
 
 Whether the standard is supported.
 
-## <span>Examples</span>
+## Examples
 
 ``` html
 <div id="divMain">
@@ -70,7 +70,7 @@ Whether the standard is supported.
 </script>
 ```
 
-## <span>Notes</span>
+## Notes
 
 Gecko-specific notes
 
@@ -78,7 +78,7 @@ Gecko-specific notes
 
 Deprecated This feature has been removed from the Web. Though some browsers may still support it, it is in the process of being dropped. Do not use it in old or new projects. Pages or Web apps using it may break at any time.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
@@ -86,8 +86,8 @@ Deprecated This feature has been removed from the Web. Though some browsers may 
 [Living Standard](http://dom.spec.whatwg.org/#interface-node)
 :   Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 [W3C DOM Conformance Tests](http://www.w3.org/DOM/Test/)

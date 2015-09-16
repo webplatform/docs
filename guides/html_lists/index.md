@@ -8,17 +8,17 @@ tags:
 uri: 'guides/html lists'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article introduces the three list types in HTML and explores their basic features.
 
-## <span>Introduction</span>
+## Introduction
 
 Lists are used to group together related pieces of information so they are clearly associated with each other and easy to read. In modern web development, lists are workhorse elements, frequently used for navigation as well as general content.
 
 Lists are good from a structural point of view as they help create a well-structured, more accessible, easy-to-maintain document. They are also useful because they provide specialized elements to which you can attach CSS styles. Finally, semantically correct lists help visitors read your web site, and they simplify maintenance when your pages need to be updated.
 
-## <span>The three list types</span>
+## The three list types
 
 There are three list types in HTML:
 
@@ -28,7 +28,7 @@ There are three list types in HTML:
 
 Each list type has a specific purpose and meaning in a web page.
 
-### <span>Unordered lists</span>
+### Unordered lists
 
 *Unordered* (bulleted) lists are used when a set of items can be placed in any order. An example is a shopping list:
 
@@ -46,7 +46,7 @@ Although the items are all part of one list, you could put the items in any orde
 
 You can use CSS to change the bullet to one of several default styles, use your own image, or even display the list without bullets — we'll look at how to do that in the [Styling lists and links](/guides/Styling_lists_and_links) article.
 
-#### <span>Unordered list markup</span>
+#### Unordered list markup
 
 Unordered lists use one set of `<ul></ul>` tags wrapped around one or more sets of `<li></li>` tags:
 
@@ -59,7 +59,7 @@ Unordered lists use one set of `<ul></ul>` tags wrapped around one or more sets 
 </ul>
 ```
 
-### <span>Ordered lists</span>
+### Ordered lists
 
 *Ordered* (numbered) lists are used to display a list of items that should be in a specific order. An example would be cooking instructions:
 
@@ -97,7 +97,7 @@ Ordered lists can be displayed with several sequencing options. The default in m
 
 As with unordered lists, you can use CSS to change the style of your ordered lists. See [Styling lists and links](/guides/Styling_lists_and_links) for more information.
 
-#### <span>Ordered list markup</span>
+#### Ordered list markup
 
 Ordered lists use one set of `<ol></ol>` tags wrapped around one or more sets of `<li></li>` tags:
 
@@ -113,7 +113,7 @@ Ordered lists use one set of `<ol></ol>` tags wrapped around one or more sets of
 </ol>
 ```
 
-#### <span>Beginning ordered lists with numbers other than 1</span>
+#### Beginning ordered lists with numbers other than 1
 
 A common requirement in ordered list usage is to get them to start with a number other than 1 (or i, or I, etc.). This is done using the `start` attribute, which takes a numeric value (even if you're using CSS to change the list counters to be alphabetic or Roman). This is useful if you have a single list of items, but need to break up the list with a note or other related information. For example, we could do this with the previous example:
 
@@ -150,7 +150,7 @@ Before you place the ingredients in the baking dish, preheat the oven to 180 deg
 
 Note that this attribute was deprecated in HTML 4, so it will prevent your page from validating if you are using an HTML4 strict doctype. If you want to make use of such functionality in an HTML4 strict page, and it absolutely has to validate, you can do it using [CSS Counters](http://dev.opera.com/articles/view/automatic-numbering-with-css-counters/) instead. Fortunately, however, the `start` attribute has been reinstated in HTML5.
 
-### <span>Description lists</span>
+### Description lists
 
 *Description lists* (previously called *definition lists*, but renamed in HTML5) associate specific names and values within a list. Examples might be items in an ingredient list and their descriptions, article authors and brief bios, or competition winners and the years in which they won. You can have as many name-value groups as you like, but there must be at least one name and at least one value in each pair.
 
@@ -172,7 +172,7 @@ Or, you can associate more than one name with the same value. This is useful to 
 
       a sweet, carbonated beverage
 
-#### <span>Description list markup</span>
+#### Description list markup
 
 Description lists use one set of `<dl></dl>` tags wrapped around one or more groups of `<dt></dt>` (name) and `<dd></dd>` (value) tags. You must pair at least one `<dt></dt>` with at least one `<dd></dd>`, and the `<dt></dt>` should always come first in the source order.
 
@@ -224,7 +224,7 @@ In the following example, we associate more than one value with a name, and vice
       One value that applies to Name4
       Another value that applies to Name4
 
-## <span>Choosing among list types</span>
+## Choosing among list types
 
 When trying to decide what type of list to use, ask yourself two simple questions:
 
@@ -236,7 +236,7 @@ When trying to decide what type of list to use, ask yourself two simple question
     -   If yes, use an ordered list.
     -   If no, use an unordered list.
 
-## <span>HTML list advantages</span>
+## HTML list advantages
 
 -   Flexibility: If you have to change the order of the list items in an ordered list, you simply move around the list item elements; when the browser renders the list, it will be properly ordered.
 -   Styling: Using an HTML list allows you to style the list properly using CSS. The list item tags `<li>` are different from the other tags in your document, so you can specifically target CSS rules to them.
@@ -244,7 +244,7 @@ When trying to decide what type of list to use, ask yourself two simple question
 
 To put it another way, **don't code list items using regular text tags**. Using text instead of a list makes more work for you and can create problems for your document's readers. So if your document needs a list, you should use the correct HTML list format.
 
-## <span>Nesting lists</span>
+## Nesting lists
 
 An individual list item can contain another entire list, called a *nested list*. It is useful for things like tables of contents that contain sub-sections:
 
@@ -277,18 +277,18 @@ Nested lists are quite useful, and often form the basis for navigation menus, as
 
 Theoretically you can nest lists to any level you like, although in practice it can become confusing to nest lists too deeply. For very large lists, you may be better off splitting the content up into several lists with headings instead, or even splitting it up into separate pages. A good rule of thumb is, don't nest lists deeper than three levels.
 
-## <span>Conclusion</span>
+## Conclusion
 
 In this article, you saw how different types of HTML lists are used, how they are coded, and explored some basic list options. For more specific information about modifying the appearance and behavior of HTML lists, see [Styling lists and links](/guides/Styling_lists_and_links).
 
-## <span>See also</span>
+## See also
 
-### <span>External resources</span>
+### External resources
 
 -   [A List Apart: Taming Lists](http://www.alistapart.com/articles/taminglists/)
 -   [W3C CSS2: list-style-type definition](http://www.w3.org/TR/REC-CSS2/generate.html#lists)
 
-### <span>Exercise questions</span>
+### Exercise questions
 
 -   What are the three types of HTML list?
 -   When would you use each type of list? How would you choose between them?

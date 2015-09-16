@@ -9,7 +9,7 @@ tags:
 uri: bold
 
 ---
-## <span>bold</span>
+## bold
 
 Of a font or typeface, having thicker strokes than its normal form. The last word in this sentence is **bold**.
 

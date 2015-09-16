@@ -21,7 +21,7 @@ uri: css/properties/layout-grid-type
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Overview table</span>
+## Overview table
 
 [Initial value](/css/concepts/initial_value)
 :
@@ -44,13 +44,13 @@ Animatable
 [CSS Object Model Property](/css/concepts/cssom)
 :
 
-## <span>Syntax</span>
+## Syntax
 
 -   `layout-grid-type: fixed`
 -   `layout-grid-type: loose`
 -   `layout-grid-type: strict`
 
-## <span>Values</span>
+## Values
 
 loose
 :   Default. Grid used for Japanese and Korean characters. In this mode, a constant width increment is applied to characters as follows: Wide characters and narrow kana characters are incremented to obtain an exact grid fit, as specified by the [**-ms-layout-grid-char**](/css/properties/layout-grid-char) property. Other narrow characters, except connected and cursive characters, are incremented by half of the increment amount applied to wide characters. Other characters, including connected and cursive characters, are not incremented, and behave as if no character grid is set.
@@ -61,7 +61,7 @@ strict
 fixed
 :   Grid used for monospaced layout. The layout rules are as follows: All noncursive characters are treated as equal; every character is centered within a single grid space by default. Runs of cursive characters are treated as strips the same as in a **strict** grid. Justification or any other character-width changing behaviors are disabled.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **-ms-layout-grid-type** attribute to specify character layout for a block of text.
 
@@ -74,25 +74,25 @@ This is a block element containing a sentence of sample text.
 </DIV>
 ```
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Windows Internet Explorer 8. The **-ms-layout-grid-type** attribute is an extension to CSS, and can be used as a synonym for **layout-grid-type** in IE8 Standards mode. Web documents in Asian languages, such as Chinese or Japanese, usually create a page layout for characters using a one- or two-dimensional grid. You can use the [**-ms-layout-grid**](/css/properties/layout-grid) attribute to incorporate this layout into Web documents. The **-ms-layout-grid-type** attribute applies only to block-level elements.
 
-### <span>Syntax</span>
+### Syntax
 
 `-ms-layout-grid-type: loose | strict | fixed`
 
-### <span>Standards information</span>
+### Standards information
 
 There are no standards that apply here.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Text</span>
+#### Text
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -172,7 +172,7 @@ There are no standards that apply here.
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

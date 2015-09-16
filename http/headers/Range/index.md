@@ -10,11 +10,11 @@ tags:
 uri: http/headers/Range
 
 ---
-## <span>Summary</span>
+## Summary
 
 The &quot;Range&quot; header field on a GET request modifies the method semantics to request transfer of only one or more subranges of the selected representation data, rather than the entire selected representation data.
 
-## <span>Overview table</span>
+## Overview table
 
 Direction
 :   Request
@@ -22,7 +22,7 @@ Direction
 Features
 :
 
-## <span>Syntax</span>
+## Syntax
 
     Range = byte-ranges-specifier / other-ranges-specifier
     byte-ranges-specifier = bytes-unit "=" byte-range-set
@@ -33,7 +33,7 @@ Features
     byte-range-spec = first-byte-pos "-" [ last-byte-pos ]
     suffix-byte-range-spec = "-" suffix-length
 
-## <span>Examples</span>
+## Examples
 
 ```
 Range: bytes=0-499
@@ -43,7 +43,7 @@ Range: bytes=0-499
 Range: bytes=0-499,1000-1499
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [RFC7233: HTTP/1.1 Range Requests](http://tools.ietf.org/html/rfc7233#section-3.1)
 :

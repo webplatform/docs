@@ -24,25 +24,25 @@ tags:
 uri: dom/Document/createDocumentFragment
 
 ---
-## <span>Summary</span>
+## Summary
 
 Creates a new document fragment (DocumentFragment) object.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var documentFragment = document.createDocumentFragment();
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 The created DocumentFragment instance.
 
-## <span>Examples</span>
+## Examples
 
 ``` js
 
@@ -63,7 +63,7 @@ document.body.appendChild(docFrag);
 
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-35CB04B5)
 :   Recommendation

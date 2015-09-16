@@ -27,42 +27,42 @@ tags:
 uri: dom/Window/setImmediate
 
 ---
-## <span>Summary</span>
+## Summary
 
 Requests that a function be called when current or pending tasks are complete, such as events or screen updates.
 
 Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var hTimer = window.setImmediate(/* see parameter list */);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>handler</span>
+### handler
 
  Data-type
 :   any
 
  The function to be called.
 
-### <span>arguments</span>
+### arguments
 
  Data-type
 :   any
 
  Arguments to be passed to the function.
 
-### <span>retVal</span>
+### retVal
 
  Data-type
 :   any
 
  A handle to the request.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
@@ -72,7 +72,7 @@ A handle to the request.S\_OK
 
 A handle to the request.
 
-## <span>Examples</span>
+## Examples
 
 setImmediate Test Drive Demo
 
@@ -82,9 +82,9 @@ setImmediate Test Drive Demo
 
 [View live example](http://ie.microsoft.com/testdrive/Performance/setImmediateSorting/Default.html)
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 JavaScript operations run in the same thread as events, display updates, and other additional tasks. As a result, extended JavaScript operations (such as functions containing many lines of code) prevent additional tasks from being handled. In turn, this makes an application appear to be unresponsive because events (such as [**onclick**](/dom/MouseEvent/click) or [**onkeypress**](/dom/KeyboardEvent/keypress)) are not handled and the screen is not updated until the extended operation completes. The **setImmediate** method schedules the function specified in the **handler** parameter to run after the current script block completes. If additional actions are pending when the current script block completes, they are processed before the **handler** function is called. This effectively creates a *yield* between the current script block and the **handler** function. If you break extended operations into separate functions, you can use **setImmediate** to call each function in sequence. When you do this, **setImmediate** allows additional tasks to complete before calling each function in the sequence. In turn, this enables the application to respond to user input and to handle additional tasks in a predictable and responsive fashion.
 

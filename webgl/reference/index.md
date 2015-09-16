@@ -5,30 +5,30 @@ tags:
 uri: webgl/reference
 
 ---
-## <span>Specification</span>
+## Specification
 
 Khronos publishes the [WebGL Specification](http://www.khronos.org/registry/webgl/specs/latest/) and the [WebGL quick reference card](http://www.khronos.org/files/webgl/webgl-reference-card-1_0.pdf).
 
-## <span>WebGL Context</span>
+## WebGL Context
 
 A webgl context can be obtained by calling the getContext function on a [Canvas Element](/canvas)
 
-### <span>Syntax</span>
+### Syntax
 
 ``` js
 var gl = canvas.getContext('webgl', attributes) || canvas.getContext('experimental-webgll', attributes)
 ```
 
-### <span>Arguments</span>
+### Arguments
 
 1.  DOMString: 'webgl' or 'experimental-webgl'
 2.  Object: WebGLContextAttributes
 
-### <span>Return Value</span>
+### Return Value
 
 A context object or null.
 
-### <span>WebGLContextAttributes</span>
+### WebGLContextAttributes
 
 -   boolean alpha: default true
 -   boolean depth: default true

@@ -14,11 +14,11 @@ uri: apis/xhr/objects/XMLSerializer
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>Properties</span>
+## Properties
 
 *No properties.*
 
-## <span>Methods</span>
+## Methods
 
 API Name
 :   Summary
@@ -26,13 +26,13 @@ API Name
 [serializeToString](/apis/xhr/methods/serializeToString)
 :   Converts the parent DOM node of a document tree to an XML string.
 
-## <span>Events</span>
+## Events
 
 *No events.*
 
-## <span>Notes</span>
+## Notes
 
-### <span>Remarks</span>
+### Remarks
 
 Do the following to create an instance:
 

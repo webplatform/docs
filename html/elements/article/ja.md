@@ -78,11 +78,11 @@ todo_broken_links:
 uri: html/elements/article/ja
 
 ---
-## <span>Summary</span>
+## Summary
 
 &lt;article&gt;はページ内で単独で完結する構成要素を定義します。
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -99,7 +99,7 @@ uri: html/elements/article/ja
 
 **\<article\>**要素をネストする時は、内側の\<article\>の内容は外側の\<article\>に関連したコンテンツでなければいけません。例えば、コメントの付いたブログのエントリでは、ブログエントリの**\<article\>**の中にコメントの**\<article\>**をネストするほうがよいでしょう。
 
-## <span>Examples</span>
+## Examples
 
 以下の例では**\<article\>**、**\<header\>**、**\<footer\>**を使った記事の基本構成を示します。
 
@@ -114,7 +114,7 @@ uri: html/elements/article/ja
 </article>
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-article-element)
 :   W3C Working Draft
@@ -122,13 +122,13 @@ uri: html/elements/article/ja
 [HTML 5](http://www.w3.org/TR/html5/sections.html#the-article-element)
 :   W3C Recommendation
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 [nav](/w/index.php?title=html/elements/nav/ja&action=edit&redlink=1) - \<article\>タグの子要素としてよく用いられます。
 
-### <span>External resources</span>
+### External resources
 
 -   <http://www.w3.org/TR/html-markup/article.html#article>
 

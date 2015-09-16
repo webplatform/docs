@@ -36,13 +36,13 @@ todo_broken_links:
 uri: css/cssom/properties/offsetY
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets the y-coordinate of the mouse cursor, relative to the target node.
 
 Property of [dom/objects/MouseEvent](/w/index.php?title=dom/objects/MouseEvent&action=edit&redlink=1)[dom/objects/MouseEvent](/w/index.php?title=dom/objects/MouseEvent&action=edit&redlink=1)
 
-## <span>Syntax</span>
+## Syntax
 
 **Note**: This property is read-only.
 
@@ -50,13 +50,13 @@ Property of [dom/objects/MouseEvent](/w/index.php?title=dom/objects/MouseEvent&a
 var yCoordinate = event.offsetY;
 ```
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type NumberNumber
 
 The Y coordinate of the mouse cursor.
 
-## <span>Examples</span>
+## Examples
 
 This example uses the **offsetY** property to determine the mouse position relative to the container that fired the event, and also displays the mouse coordinates in the console.
 
@@ -96,7 +96,7 @@ window.addEventListener("load", initialize, false);
 </html>
 ```
 
-## <span>Notes</span>
+## Notes
 
 Offset coordinates include the padding of an element, but not its margin or border.
 
@@ -104,16 +104,16 @@ Offset coordinates include the padding of an element, but not its margin or bord
 
 The coordinates match the [**offsetLeft**](/w/index.php?title=dom/properties/offsetLeft&action=edit&redlink=1) and [**offsetTop**](/w/index.php?title=dom/properties/offsetTop&action=edit&redlink=1) properties of the object. Use [**offsetParent**](/w/index.php?title=dom/properties/offsetParent&action=edit&redlink=1) to find the container object that defines this coordinate system.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [CSSOM View](http://www.w3.org/TR/cssom-view/)
 :   Working Draft
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>CSSOM</span>
+#### CSSOM
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -259,7 +259,7 @@ The coordinates match the [**offsetLeft**](/w/index.php?title=dom/properties/off
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### <span>Related pages (MSDN)</span>
+### Related pages (MSDN)
 
 -   `DragEvent`
 -   `MouseEvent`

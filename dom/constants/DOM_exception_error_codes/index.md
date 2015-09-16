@@ -19,7 +19,7 @@ uri: 'dom/constants/DOM exception error codes'
 
 Property of [dom/constants](/dom/constants)[dom/constants](/dom/constants)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var result = element.DOM exception error codes;
@@ -28,7 +28,7 @@ element.DOM exception error codes = value;
 
 **Needs Examples**: This section should include examples.
 
-### <span>Requirements</span>
+### Requirements
 
 <table class="wikitable">
 <tr>

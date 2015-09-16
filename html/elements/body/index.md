@@ -16,11 +16,11 @@ tags:
 uri: html/elements/body
 
 ---
-## <span>Summary</span>
+## Summary
 
 The body element (&lt;body&gt;) represents the main content of the document.
 
-## <span>Overview Table</span>
+## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [HTMLBodyElement](/dom/HTMLBodyElement)
@@ -29,7 +29,7 @@ You can access the `<body>` element from script through the document object.
 
 The window object for the `<body>` element can host event handlers for the `onblur`, `onfocus`, `onload`, or `onunload` events.
 
-### <span>HTML Event Handler Content Attributes</span>
+### HTML Event Handler Content Attributes
 
 |Event|Description|
 |:----|:----------|
@@ -53,7 +53,7 @@ The window object for the `<body>` element can host event handlers for the `onbl
 
 The following attributes are obsolete, and should not be used by authors: `alink`, `bgcolor`, `link`, `marginbottom`, `marginheight`, `marginleft`, `marginright`, `margintop`, `marginwidth`, `text`, `vlink`.
 
-## <span>Examples</span>
+## Examples
 
 The `<body>` element follows the `<head>` element and is contained by the `<html>` element.
 
@@ -85,7 +85,7 @@ var oBody = document.body;
 
 </pre>
 
-## <span>Related specifications</span>
+## Related specifications
 
 [HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-body-element)
 :   W3C Working Draft

@@ -22,7 +22,7 @@ tags:
 uri: apis/filesystem/LocalFileSystemSync/requestFileSystemSync
 
 ---
-## <span>Summary</span>
+## Summary
 
 Requests a file system where data should be stored. You access a sandboxed file system by requesting a LocalFileSystemSync object from within a web worker using this global method, window.requestFileSystemSync().
 
@@ -30,37 +30,37 @@ Requests a file system where data should be stored. You access a sandboxed file 
 
 Method of [apis/filesystem/LocalFileSystemSync](/apis/filesystem/LocalFileSystemSync)[apis/filesystem/LocalFileSystemSync](/apis/filesystem/LocalFileSystemSync)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var  = LocalFileSystemSync.requestFileSystemSync(type, size);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>type</span>
+### type
 
  Data-type
 :   unsigned short
 
  Whether the filesystem requested should be persistent. Use one of TEMPORARY (0) or PERSISTENT (1).
 
-### <span>size</span>
+### size
 
  Data-type
 :   unsigned long
 
  How much storage space, in bytes, the application expects to need.
 
-## <span>Return Value</span>
+## Return Value
 
-Returns an object of type<span></span>
+Returns an object of type
 
 FileSystemSync
 
 **Needs Examples**: This section should include examples.
 
-## <span>Related specifications</span>
+## Related specifications
 
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft

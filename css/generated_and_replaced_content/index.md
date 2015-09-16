@@ -14,11 +14,11 @@ uri: 'css/generated and replaced content'
 ---
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## <span>See also</span>
+## See also
 
-### <span>Related articles</span>
+### Related articles
 
-#### <span>Generated and Replaced Content</span>
+#### Generated and Replaced Content
 
 -   **Generated and Replaced Content**
 
@@ -34,4 +34,4 @@ uri: 'css/generated and replaced content'
 
 -   [object-fit](/css/properties/object-fit)
 
-### <span>In this section</span>
+### In this section

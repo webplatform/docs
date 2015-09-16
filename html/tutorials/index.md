@@ -9,22 +9,22 @@ tags:
 uri: html/tutorials
 
 ---
-## <span>Summary</span>
+## Summary
 
 HTML is a markup language, used to give content structure and meaning. This section should cover all of our HTML tutorials — Ideal for learning HTML from scratch, or diving into learning more complex HTML topics.
 
-## <span>HTML fundamentals</span>
+## HTML fundamentals
 
 -   [The basics of HTML](/guides/the_basics_of_html)
 -   [DOCTYPES and markup styles](/guides/doctypes_and_markup_styles)
 -   [HTML validation](/guides/html_validation)
 
-## <span>The HTML head</span>
+## The HTML head
 
 -   [The HTML \<head\>](/guides/the_html_head)
 -   [More about the HTML \<head\>](/guides/more_about_the_html_head)
 
-## <span>The HTML body</span>
+## The HTML body
 
 -   [HTML text](/guides/html_text)   [Spanish version](/guides/html_text_es)
 -   [HTML lists](/guides/html_lists)
@@ -37,7 +37,7 @@ HTML is a markup language, used to give content structure and meaning. This sect
 -   [HTML structural elements](/guides/html_structural_elements)
 -   [Lesser-known semantic elements](/guides/lesser-known_semantic_elements)
 
-## <span>Applied techniques</span>
+## Applied techniques
 
 -   [Creating navigation menus](/tutorials/creating_basic_navigation_menus)
 -   [Input from mouse, touch, or pen with pointer events](/concepts/Pointer_Events)

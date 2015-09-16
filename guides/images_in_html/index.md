@@ -9,15 +9,15 @@ tags:
 uri: 'guides/images in html'
 
 ---
-## <span>Summary</span>
+## Summary
 
 This article provides an introduction to using images in an HTML document with the &lt;img&gt; tag.
 
-## <span>Introduction</span>
+## Introduction
 
 In this article we will discuss one of the things that makes web design "pretty" — images. You'll learn how to add images to web documents in an accessible way so that people with visual impairments can still use the information on your site, how and when to use inline images to deliver information, and how to use background images to improve page layout.
 
-## <span>A picture says more than a thousand words — or does it?</span>
+## A picture says more than a thousand words — or does it?
 
 It is tempting to use a lot of imagery on your web sites. Images are a great way to set the mood for the visitor, and illustrations help make complex information easier to take in for visual learners.
 
@@ -30,14 +30,14 @@ The drawback of images on the web is that not everybody can see them. Back in th
 
 It is therefore very important to choose images wisely and use them appropriately. It is even more important to always offer a fallback for users who cannot see your images. Let's see what technologies are available to add images to an HTML document.
 
-## <span>Content and background images</span>
+## Content and background images
 
 There are two main ways to add images to a document: content images using the `<img>` element, and background images applied to elements using CSS. Which method you use depends on your intent:
 
 -   If the image is crucial to the content of the document, such as a photo of the author or a data graph, it should be added as an `<img>` element with proper alternative text.
 -   If the image is there strictly for aesthetic purposes, you should use a CSS background image. These images should not have any alternative text (what use is the description "round green corner with a twinkle" to a blind person?) and you have more options for image styling in CSS.
 
-## <span>The `<img>` element and its attributes</span>
+## The `<img>` element and its attributes
 
 Adding an image to an HTML document is very easy using the `<img>` element: you specify the location of the image you want to display as the value of the `src` (source) attribute, and away you go. The following HTML document displays the photo balconyview.jpg in a browser (provided that the image is in the same folder as the HTML file).
 
@@ -63,7 +63,7 @@ Adding an image to an HTML document is very easy using the `<img>` element: you 
 
 Note: The `<img>` element is what is known as an *empty tag*; that is, it does not require an end tag (like `</img>`). In HTML5, it need not even be closed with an internal slash (like \<img src="balconyview.jpg"/\>), although many web page authors do so as a matter of consistency.
 
-### <span>Providing a text alternative with the alt attribute</span>
+### Providing a text alternative with the alt attribute
 
 Although the image is displayed correctly, the HTML is invalid because the `<img>` element lacks an `alt` attribute. This attribute contains text to be displayed if the image is not available for some reason. The image may not be available because it could not be found, failed to load, or because the user agent (normally a browser) does not support images. In addition, people with visual impairments use assistive technologies to read web pages aloud; these technologies look for the contents of the `alt` attribute to describe the image. It is therefore important to write good alternative text to describe the contents of the image and put it in the image's `alt` attribute for reasons of accessibility and search engine optimization.
 
@@ -85,7 +85,7 @@ Thus, in order to make the image understandable for everyone, you must always in
 </html>
 ```
 
-### <span>Adding "nice-to-have" information using the `title` attribute</span>
+### Adding "nice-to-have" information using the `title` attribute
 
 The `alt` attribute contains the text that should be displayed when the image is not available. The information in the `alt` attribute should not be displayed when the image is successfully loaded; Internet Explorer gets this wrong, and shows it as a tooltip when you hover your mouse pointer over the image. Unfortunately, many authors consider this the default, which leads them to put additional information about the image into the `alt` attribute. Please don't do this; if you want to add extra information about the image, use the `title` attribute instead.
 
@@ -112,7 +112,7 @@ Most browsers display the value of an `<img>` element's `title` attribute as a t
 
 *Figure 2: `title` attributes are shown as tool tips in many browsers.*
 
-### <span>Using `longdesc` to provide an alternative for complex images</span>
+### Using `longdesc` to provide an alternative for complex images
 
 If the image is very complex, such as a chart or diagram, you can offer a more lengthy description of it using the `longdesc` attribute, so that people using screen readers or browsing with images turned off can still access the information conveyed by the image.
 
@@ -173,7 +173,7 @@ This attribute contains a URL that points to an HTML document containing the sam
 
 Note that there is no visual clue that there is a long description file connected with this image. Most assistive technologies, however, will let their users know there is an alternative available. Some people think that `longdesc` is pointless, and that you should just provide an alternative page linked via a normal link. This may be appropriate sometimes, as it is often useful to give all users a choice of how they consume your information. There are situations, however, where you'll want to not show the text link by default.
 
-### <span>Faster image display by defining the dimensions using width and height</span>
+### Faster image display by defining the dimensions using width and height
 
 When the user agent finds an `<img>` element in the HTML, it starts loading the image the `src` attribute points to. By default, it doesn't know the image dimensions, so it will just display all the loaded text lumped together, and then shift it around when the images finally load and appear. This can slow down page loading, and looks unsightly (to say the least) to page visitors. To prevent this, just tell the browser to allocate the right amount of space for the images before they load by providing the image dimensions using the `width` and `height` attributes:
 
@@ -196,7 +196,7 @@ When the user agent finds an `<img>` element in the HTML, it starts loading the 
 
 You can also resize images using these attributes (try halving the attribute values in the above example), but this is not good practice, as image resizing quality is not smooth in all browsers. It is especially bad to resize images to represent thumbnails, because the idea of thumbnails is to not only have a smaller image in physical size, but also in file size. Nobody wants to load a 300K photo just to see a small image that could have been sent as a 5K file.
 
-## <span>Containing images properly using HTML5 \<figure\></span>
+## Containing images properly using HTML5 \<figure\>
 
 One problem that has always existed with HTML images is the choice of what container element to put them in. After all, images are inline elements by default: they don't force line breaks before and after themselves. This is fine for cases where you want to put a small icon next to a piece of text, but you'll more often want an image to sit on its own line in the page. You could describe this usage as making the image into a separate *figure*.
 
@@ -229,7 +229,7 @@ In HTML4, the most common way to achieve this is to put the image inside a `<p>`
 </html>
 ```
 
-## <span>Proper captions using HTML5 \<figcaption\></span>
+## Proper captions using HTML5 \<figcaption\>
 
 Another new addition to HTML5 is an element for containing figure captions. Previously this was done using `<p>` or some other not-wholly-appropriate element, but now we have the `<figcaption>` element. Nested inside a `<figure>`, it says "this is the caption to go along with the contents of this figure." For example:
 
@@ -253,13 +253,13 @@ Another new addition to HTML5 is an element for containing figure captions. Prev
 
  Note that the contents of the figure caption do not necessarily act as a replacement for the contents of the `alt` attribute or the `title` attribute: it depends on whether the caption accurately describes everything in the image, or provides the same supplementary information that the `title` attribute does. In this case, we need an `alt` attribute as well, as sighted users can see what is in the image by looking at it. The `alt` attribute says exactly what the image contains for the benefit of users who can't see it, while the caption gives some more context.
 
-## <span>Background images with CSS</span>
+## Background images with CSS
 
 It is pretty safe to say that web design became a lot more fun when browsers started supporting CSS. Instead of hacking around in the HTML using table cells for positioning items on the page, non-breaking spaces (&nbsp;) to force alignment, and spacer GIFs (transparent 1x1 pixel GIF images resized to create margins), we can now use padding, margin, dimensions, and positioning in CSS and leave the HTML free to just worry about the content structure.
 
 CSS also means you can use background images in a very versatile way — you can position them behind and around your text any way you want, and also repeat images in regular patterns to create backgrounds. Before closing, we'll cover CSS images briefly.
 
-### <span>How to apply backgrounds with CSS</span>
+### How to apply backgrounds with CSS
 
 The CSS to apply images as backgrounds is fairly straightforward. Before you look at the CSS code below, have a look at this multiple example to get an idea of the different things that are possible with background images in CSS:
 
@@ -283,13 +283,13 @@ By default, the background image (if not repeated) will be positioned at the top
 
 By controlling the repetition and the position of background images and using clever images you can create stunning effects that were not possible before CSS, and by keeping the background definitions in a separate CSS file you make it very easy to change the look and feel of a whole site by changing a few lines of code.
 
-## <span>Conclusion</span>
+## Conclusion
 
 HTML images are a powerful and flexible way to provide non-textual information, enhance the value of other content, and improve the visual attractiveness of your pages. Combining tried-and-true techniques with new HTML5 elements and attributes can help ensure that your web pages are useful, interesting, and accessible.
 
-## <span>See also</span>
+## See also
 
-### <span>Exercise Questions</span>
+### Exercise Questions
 
 -   Why is it important to add good text to an image in an `alt` attribute? Are there any situations in which you don't need to?
 -   If you have an image that is 1280x786 pixels large and you want to display it as a 40x30 pixel thumbnail, can you do that in HTML and is it wise to do so?

@@ -10,17 +10,17 @@ tags:
 uri: javascript/RegExp/lastMatch
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the last matched characters from any regular expression search. Read-only.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     RegExp.lastMatch
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **lastMatch** property:
 
@@ -46,15 +46,15 @@ The following example illustrates the use of the **lastMatch** property:
     document.write(s);
 ```
 
-## <span>Remarks</span>
+## Remarks
 
 The object associated with this property is always the global **RegExp** object.
 
 The initial value of the **lastMatch** property is an empty string. The value of the **lastMatch** property changes whenever a successful match is made.
 
-## <span>See also</span>
+## See also
 
-### <span>Other articles</span>
+### Other articles
 
 -   [\$1...\$9 Properties (RegExp)](/javascript/RegExp/1_9_Properties)
 -   [index Property (RegExp)](/javascript/RegExp/index)

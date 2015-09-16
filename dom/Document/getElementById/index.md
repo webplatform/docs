@@ -22,34 +22,34 @@ tags:
 uri: dom/Document/getElementById
 
 ---
-## <span>Summary</span>
+## Summary
 
 Gets an element with a specified ID.
 
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## <span>Syntax</span>
+## Syntax
 
 ``` js
 var element = document.getElementById(id);
 ```
 
-## <span>Parameters</span>
+## Parameters
 
-### <span>id</span>
+### id
 
  Data-type
 :   String
 
  The ID to match.
 
-## <span>Return Value</span>
+## Return Value
 
 Returns an object of type DOM NodeDOM Node
 
 An element that matches the specified ID. If there are multiple matches, the first is returned. If there is no match, `null` is returned.
 
-## <span>Examples</span>
+## Examples
 
 The following example uses **getElementById** to display the content of the first **div** element in a collection with the [**ID**](/html/attributes/id) attribute value, `div1`, when a button is clicked.
 
@@ -76,7 +76,7 @@ function getID() {
 &lt;/html&gt;
 ```
 
-## <span>Related specifications</span>
+## Related specifications
 
 [DOM Level 2 Core](http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-getElBId)
 :   Recommendation

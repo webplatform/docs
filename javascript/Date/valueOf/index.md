@@ -11,21 +11,21 @@ tags:
 uri: javascript/Date/valueOf
 
 ---
-## <span>Summary</span>
+## Summary
 
 Returns the stored time value in milliseconds since midnight, January 1, 1970 UTC.
 
-## <span>Syntax</span>
+## Syntax
 
 <span class="language">JavaScript</span>
 
     date.valueOf()
 
-## <span>Return Value</span>
+## Return Value
 
 The stored time value in milliseconds since midnight, January 1, 1970 UTC. This is the same value as **getTime**. The date object is any instance of a Date.
 
-## <span>Examples</span>
+## Examples
 
 The following example illustrates the use of the **valueOf** method with a date.
 
