@@ -2,13 +2,13 @@
 
 This repository should be the replication of WebPlatform.org content and user contribution as of 2015-09-04
 
+
 ## Goals
 
-1. Migrate all content and contribution history from MediaWiki reading from recommended backup strategy into a Git repository
-1. Change to Git to store future contributions and history, with minimal metadata loss
-1. Use a static site generator to manage the contents instead of a full CMS system and infrastructure
 1. Allow us to save on computing resources by serving static files
 1. Use tools web developer already uses, ease contribution
+
+To read more about the *conversion process* we've been through, you can refer [How was it done](#how-was-it-done) section below.
 
 
 ## Purpose, how to setup and use
