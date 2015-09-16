@@ -1,5 +1,5 @@
 ---
-title: toDataURL
+title: 'toDataURL'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -121,4 +121,4 @@ Typical values for the *type* parameter are `image/png` or `image/jpg`.
 
 ### Related pages
 
--   `canvas`
+-   canvas[canvas](/canvas/objects/canvas)

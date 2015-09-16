@@ -1,7 +1,10 @@
 ---
-title: apply
+title: 'apply'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/4zc42wh1(v=vs.94).aspx)'
+compatibility:
+  feature: apply
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Calls the function, substituting the specified object for the this value of the function, and the specified array for the arguments of the function.'
 tags:

@@ -1,5 +1,8 @@
 ---
-title: its-storage-size
+title: 'its-storage-size'
+compatibility:
+  feature: its-storage-size
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

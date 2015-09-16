@@ -1,5 +1,5 @@
 ---
-title: Styling forms
+title: 'Styling forms'
 readiness: 'Ready to Use'
 summary: 'This article provides a grounding in form styling and layout — one of the more difficult aspects of styling web pages.'
 tags:

@@ -1,5 +1,5 @@
 ---
-title: getIdentityAssertion
+title: 'getIdentityAssertion'
 notes:
   - 'Needs example, spec reference, return value'
 readiness: 'In Progress'

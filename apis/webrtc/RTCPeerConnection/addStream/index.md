@@ -1,5 +1,5 @@
 ---
-title: addStream
+title: 'addStream'
 notes:
   - 'Needs spec reference'
 readiness: 'Almost Ready'

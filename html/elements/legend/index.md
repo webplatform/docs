@@ -1,7 +1,10 @@
 ---
-title: legend
+title: 'legend'
 code_samples:
   - 'http://gist.github.com/8e4305d9f7fb613410a5'
+compatibility:
+  feature: legend
+  topic: html
 notes:
   - 'Add Compatibility.'
 overview_table:

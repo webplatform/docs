@@ -1,5 +1,5 @@
 ---
-title: curve
+title: 'curve'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

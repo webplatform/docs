@@ -1,5 +1,5 @@
 ---
-title: Overview of drag and drop download in Chrome
+title: 'Overview of drag and drop download in Chrome'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/casestudies/box_dnd_download/)'
 readiness: 'Ready to Use'

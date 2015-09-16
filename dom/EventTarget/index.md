@@ -1,5 +1,5 @@
 ---
-title: EventTarget
+title: 'EventTarget'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'This page lists properties, methods, and events for the EventTarget object.'

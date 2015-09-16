@@ -1,7 +1,10 @@
 ---
-title: role
+title: 'role'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: role
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -40,9 +43,9 @@ In compliance with the Accessible Rich Internet Applications (ARIA) specificatio
 
 ### Related pages
 
--   `a`
+-   a[a](/html/elements/a)
 -   `abbr`
--   `acronym`
+-   acronym[acronym](/html/elements/acronym)
 -   `address`
 -   `applet`
 -   `area`
@@ -115,7 +118,7 @@ In compliance with the Accessible Rich Internet Applications (ARIA) specificatio
 -   `marquee`
 -   `menu`
 -   `nav`
--   `nextID`
+-   nextID[nextID](/html/elements/nextID)
 -   `noBR`
 -   `noFrames`
 -   `noScript`
@@ -137,10 +140,10 @@ In compliance with the Accessible Rich Internet Applications (ARIA) specificatio
 -   `span`
 -   `strike`
 -   `strong`
--   `style`
+-   style[style](/css/cssom/style)
 -   `sub`
 -   `sup`
--   `table`
+-   table[table](/html/elements/table)
 -   `tBody`
 -   `td`
 -   `textArea`

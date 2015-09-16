@@ -1,7 +1,10 @@
 ---
-title: font-size-adjust
+title: 'font-size-adjust'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: font-size-adjust
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`none`'
   'Applies to': 'All elements'
@@ -203,9 +206,9 @@ As an abstract example, assume you specify a font-size-adjust value of 0.5, your
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
--   `defaults`
--   `runtimeStyle`
--   `font-stretch`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   font-stretch[font-stretch](/css/properties/font-stretch)

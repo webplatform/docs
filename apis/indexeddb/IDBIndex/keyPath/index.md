@@ -1,5 +1,5 @@
 ---
-title: keyPath
+title: 'keyPath'
 notes:
   - 'Needs example, spec reference, standardization status'
 readiness: 'In Progress'

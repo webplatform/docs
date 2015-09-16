@@ -1,5 +1,5 @@
 ---
-title: ClientRect
+title: 'ClientRect'
 notes:
   - 'Needs spec reference, standardization status'
 readiness: 'Almost Ready'

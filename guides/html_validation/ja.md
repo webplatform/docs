@@ -1,5 +1,5 @@
 ---
-title: HTMLの検証
+title: 'HTMLの検証'
 lang: ja
 notes:
   - 'まだ体裁が変かも。'

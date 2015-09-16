@@ -1,5 +1,5 @@
 ---
-title: easing
+title: 'easing'
 readiness: 'In Progress'
 relationships:
   applies_to:

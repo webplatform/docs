@@ -1,5 +1,8 @@
 ---
-title: async
+title: 'async'
+compatibility:
+  feature: async
+  topic: html
 readiness: 'Ready to Use'
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'Provides additional control over when an external script or an HTML import is being fetched and executed while a document loads.'
@@ -139,4 +142,4 @@ Declaring a script to run asynchronously can improve performance by unblocking t
 
 ### Related pages
 
--   `HTMLScriptElement`
+-   HTMLScriptElement[HTMLScriptElement](/dom/HTMLScriptElement)

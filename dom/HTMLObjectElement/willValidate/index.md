@@ -1,5 +1,5 @@
 ---
-title: willValidate
+title: 'willValidate'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -38,9 +38,9 @@ element.willValidate = value;
 
 ### Related pages
 
--   `HTMLObjectElement`
--   `HTMLTextAreaElement`
--   `HTMLSelectElement`
--   `HTMLInputElement`
--   `HTMLFieldSetElement`
--   `HTMLButtonElement`
+-   HTMLObjectElement[HTMLObjectElement](/dom/HTMLObjectElement)
+-   HTMLTextAreaElement[HTMLTextAreaElement](/dom/HTMLTextAreaElement)
+-   HTMLSelectElement[HTMLSelectElement](/dom/HTMLSelectElement)
+-   HTMLInputElement[HTMLInputElement](/dom/HTMLInputElement)
+-   HTMLFieldSetElement[HTMLFieldSetElement](/dom/HTMLFieldSetElement)
+-   HTMLButtonElement[HTMLButtonElement](/dom/HTMLBGSoundElement)

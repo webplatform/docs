@@ -1,7 +1,10 @@
 ---
-title: constructor
+title: 'constructor'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/c1hcx253(v=vs.94).aspx)'
+compatibility:
+  feature: constructor
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Specifies the function that creates an object.'
 tags:

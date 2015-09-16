@@ -1,7 +1,10 @@
 ---
-title: aria-live
+title: 'aria-live'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: aria-live
+  topic: aria
 notes:
   - 'Needs summary, example, spec reference, standardization status'
 readiness: 'Not Ready'
@@ -59,7 +62,7 @@ No role required.
 
 ### Related pages
 
--   `Accessible Rich Internet Applications (ARIA)`
+-   Accessible Rich Internet Applications (ARIA)[Accessible Rich Internet Applications (ARIA)](/aria)
 -   `Reference`
--   `aria-busy`
--   `aria-relevant`
+-   aria-busy[aria-busy](/aria/attributes/aria-busy)
+-   aria-relevant[aria-relevant](/aria/attributes/aria-relevant)

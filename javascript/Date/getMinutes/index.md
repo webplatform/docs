@@ -1,7 +1,10 @@
 ---
-title: getMinutes
+title: 'getMinutes'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/t919zcb7(v=vs.94).aspx)'
+compatibility:
+  feature: getMinutes
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the minutes of a Date object, using local time.'
 tags:

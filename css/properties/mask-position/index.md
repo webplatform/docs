@@ -1,5 +1,8 @@
 ---
-title: mask-position
+title: 'mask-position'
+compatibility:
+  feature: mask-position
+  topic: css
 notes:
   - "Add specification and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
 overview_table:

@@ -1,5 +1,5 @@
 ---
-title: HTML forms basics
+title: 'HTML forms basics'
 readiness: 'Ready to Use'
 summary: 'This article covers the basics of creating standards compliant, best practice HTML forms.'
 tags:

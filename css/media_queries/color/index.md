@@ -1,5 +1,8 @@
 ---
-title: color
+title: 'color'
+compatibility:
+  feature: color
+  topic: css
 notes:
   - 'Add summery, values, syntax, example, description, compatibility.'
 readiness: 'Not Ready'

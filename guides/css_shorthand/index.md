@@ -1,5 +1,5 @@
 ---
-title: CSS shorthand guide
+title: 'CSS shorthand guide'
 readiness: 'Ready to Use'
 summary: "This short article covers the various bits of CSS shorthand you'll encounter in your day to day work. It expands on the basic information found in the \nGetting Started with CSS tutorial.\n"
 tags:

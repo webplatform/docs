@@ -1,5 +1,5 @@
 ---
-title: CSSRegionStyleRule
+title: 'CSSRegionStyleRule'
 readiness: 'Ready to Use'
 relationships:
   subclass_of:

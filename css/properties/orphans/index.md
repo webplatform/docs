@@ -1,7 +1,10 @@
 ---
-title: orphans
+title: 'orphans'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: orphans
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`2`'
   'Applies to': 'Block containers'
@@ -97,8 +100,8 @@ The [**widows**](/css/properties/widows) property takes precedence over **orphan
 
 ### Related pages
 
--   `widows`
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   widows[widows](/css/properties/widows)
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)

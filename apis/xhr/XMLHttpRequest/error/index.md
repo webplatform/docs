@@ -1,5 +1,5 @@
 ---
-title: error
+title: 'error'
 notes:
   - 'Needs example, usage, spec reference, standardization status'
 readiness: 'Not Ready'

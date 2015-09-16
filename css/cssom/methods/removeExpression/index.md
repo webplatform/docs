@@ -1,5 +1,5 @@
 ---
-title: removeExpression
+title: 'removeExpression'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -108,9 +108,9 @@ After the expression is removed from the specified property, the value of the pr
 
 -   `IHTMLElement2`
 -   `IHTMLStyle2`
--   `runtimeStyle`
--   `style`
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `Reference`
--   `getExpression`
+-   getExpression[getExpression](/css/cssom/methods/getExpression)
 -   `Conceptual`
 -   `About Dynamic Properties`

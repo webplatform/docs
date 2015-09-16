@@ -1,5 +1,5 @@
 ---
-title: Pointer Lock API
+title: 'Pointer Lock API'
 notes:
   - 'This is just a portal page'
 readiness: 'Ready to Use'

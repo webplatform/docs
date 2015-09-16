@@ -1,5 +1,5 @@
 ---
-title: scrollByPages
+title: 'scrollByPages'
 notes:
   - 'Needs summary, examples, usage notes, spec, and compat'
 readiness: 'Not Ready'

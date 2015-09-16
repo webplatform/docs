@@ -1,5 +1,5 @@
 ---
-title: DOCTYPE宣言とマークアップ方法
+title: 'DOCTYPE宣言とマークアップ方法'
 lang: ja
 notes:
   - 'this is a stub, need to translate content'

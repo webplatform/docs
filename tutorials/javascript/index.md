@@ -1,5 +1,5 @@
 ---
-title: javascript
+title: 'javascript'
 notes:
   - 'Merge candidate with http://docs.webplatform.org/wiki/javascript/tutorials'
 readiness: 'Not Ready'

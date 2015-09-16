@@ -1,5 +1,5 @@
 ---
-title: hasLayout
+title: 'hasLayout'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -230,4 +230,4 @@ The following table shows Cascading Style Sheets (CSS) properties and correspond
 
 ### Related pages
 
--   `currentStyle`
+-   currentStyle[currentStyle](/css/cssom/currentStyle)

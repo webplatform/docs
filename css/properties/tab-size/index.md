@@ -1,9 +1,12 @@
 ---
-title: tab-size
+title: 'tab-size'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size)'
 code_samples:
   - 'http://gist.github.com/5673098'
+compatibility:
+  feature: tab-size
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`8`'
   'Applies to': 'block containers'

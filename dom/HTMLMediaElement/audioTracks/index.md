@@ -1,5 +1,5 @@
 ---
-title: audioTracks
+title: 'audioTracks'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -49,5 +49,5 @@ The following example gets and enables all audio tracks associated with a video 
 
 ### Related pages
 
--   `HTMLMediaElement`
+-   HTMLMediaElement[HTMLMediaElement](/html/elements/media)
 -   `HTMLVideoElement`

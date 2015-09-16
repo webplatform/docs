@@ -1,7 +1,10 @@
 ---
-title: UTC
+title: 'UTC'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/wz6stk2z(v=vs.94).aspx)'
+compatibility:
+  feature: UTC
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the number of milliseconds between midnight, January 1, 1970 Universal Coordinated Time (UTC) (or GMT) and the specified date.'
 tags:

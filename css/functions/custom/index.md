@@ -1,7 +1,10 @@
 ---
-title: custom()
+title: 'custom()'
 code_samples:
   - 'http://codepen.io/pverbeek/pen/piKgC'
+compatibility:
+  feature: custom
+  topic: css
 notes:
   - 'Light in content compared to the others, but makes sense as custom. May want to provide elaboration in the future.'
 readiness: 'Ready to Use'

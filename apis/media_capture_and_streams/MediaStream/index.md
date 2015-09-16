@@ -1,5 +1,5 @@
 ---
-title: MediaStream
+title: 'MediaStream'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The MediaStream interface is used to represent streams of media data, typically (but not necessarily) of audio and/or video content, e.g. from a local camera. Each MediaStream object can contain zero or more tracks, in particular audio and video tracks. And each track in a MediaStream object has a corresponding MediaStreamTrack object.'

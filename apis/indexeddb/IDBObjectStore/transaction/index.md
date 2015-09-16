@@ -1,5 +1,5 @@
 ---
-title: transaction
+title: 'transaction'
 notes:
   - 'Needs example, spec reference, standardization status'
 readiness: 'In Progress'

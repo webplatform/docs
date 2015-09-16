@@ -1,5 +1,5 @@
 ---
-title: maxDistance
+title: 'maxDistance'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

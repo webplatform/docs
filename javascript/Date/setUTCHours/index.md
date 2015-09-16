@@ -1,7 +1,10 @@
 ---
-title: setUTCHours
+title: 'setUTCHours'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/cwybddk2(v=vs.94).aspx)'
+compatibility:
+  feature: setUTCHours
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets the hours value in the Date object using Universal Coordinated Time (UTC).'
 tags:

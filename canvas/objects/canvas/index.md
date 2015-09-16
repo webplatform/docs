@@ -1,5 +1,5 @@
 ---
-title: canvas
+title: 'canvas'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -62,4 +62,4 @@ The **canvas** object has these events. {
 
 ### Related pages
 
--   `CanvasRenderingContext2D`
+-   CanvasRenderingContext2D[CanvasRenderingContext2D](/w/index.php?title=canvas/objects/CanvasRenderingContext2D&action=edit&redlink=1)

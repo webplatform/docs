@@ -1,10 +1,13 @@
 ---
-title: list-style-image
+title: 'list-style-image'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/list-style-image)'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/6948599'
+compatibility:
+  feature: list-style-image
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`none`'
   'Applies to': 'elements with ''display: list-item'''
@@ -142,7 +145,7 @@ When the image is available, it replaces the marker that is set with the [**list
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)

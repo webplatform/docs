@@ -1,5 +1,5 @@
 ---
-title: Rendering HTML5 in older browsers with Google Chrome Frame
+title: 'Rendering HTML5 in older browsers with Google Chrome Frame'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/google-chrome-frame/)'
 readiness: 'Ready to Use'

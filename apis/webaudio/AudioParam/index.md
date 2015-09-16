@@ -1,5 +1,5 @@
 ---
-title: AudioParam
+title: 'AudioParam'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'AudioParam controls an individual aspect of an AudioNode''s functioning, such as volume. The parameter can be set immediately to a particular value using the value attribute. Or, value changes can be scheduled to happen at very precise times (in the coordinate system of AudioContext.currentTime), for envelopes, volume fades, LFOs, filter sweeps, grain windows, etc. In this way, arbitrary timeline-based automation curves can be set on any AudioParam. Additionally, audio signals from the outputs of AudioNodes can be connected to an AudioParam, summing with the intrinsic parameter value.'

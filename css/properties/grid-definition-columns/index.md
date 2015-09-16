@@ -1,5 +1,8 @@
 ---
-title: grid-definition-columns
+title: 'grid-definition-columns'
+compatibility:
+  feature: grid-definition-columns
+  topic: css
 notes:
   - "Add description, compatibility.\nThis property is no longer listed in the W3C specification."
 overview_table:

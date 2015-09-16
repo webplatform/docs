@@ -1,7 +1,10 @@
 ---
-title: accept
+title: 'accept'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: accept
+  topic: html
 notes:
   - 'Address minor bugs; Could be part of security considerations articles; General cleanup of links; Need to cross-link to other relevant content'
 readiness: 'Not Ready'

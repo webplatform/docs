@@ -1,5 +1,5 @@
 ---
-title: specifications
+title: 'specifications'
 uri: PointerEvents/specifications
 
 ---

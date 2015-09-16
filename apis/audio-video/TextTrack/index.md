@@ -1,5 +1,5 @@
 ---
-title: TextTracks
+title: 'TextTracks'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'A media element can have a group of associated text tracks, known as the media element''s &quot;list of text tracks&quot;.'

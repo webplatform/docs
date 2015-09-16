@@ -1,5 +1,8 @@
 ---
-title: color-interpolation-filters
+title: 'color-interpolation-filters'
+compatibility:
+  feature: color-interpolation-filters
+  topic: css
 notes:
   - 'Add summery, values, syntax, example, description, specifications, compatibility.'
 overview_table:

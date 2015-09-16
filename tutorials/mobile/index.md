@@ -1,5 +1,5 @@
 ---
-title: Mobile-specific tutorials
+title: 'Mobile-specific tutorials'
 readiness: 'Ready to Use'
 summary: 'This page lists available mobile-specific tutorials.'
 tags:

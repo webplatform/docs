@@ -1,5 +1,5 @@
 ---
-title: Pointer Events Primer
+title: 'Pointer Events Primer'
 notes:
   - dag
 readiness: 'Almost Ready'

@@ -1,7 +1,10 @@
 ---
-title: getMonth
+title: 'getMonth'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/z284z68x(v=vs.94).aspx)'
+compatibility:
+  feature: getMonth
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the month, using local time.'
 tags:

@@ -1,5 +1,8 @@
 ---
-title: shape-padding
+title: 'shape-padding'
+compatibility:
+  feature: shape-padding
+  topic: css
 notes:
   - 'Obsolete; not in current W3C spec.'
 overview_table:

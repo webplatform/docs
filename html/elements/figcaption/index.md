@@ -1,7 +1,10 @@
 ---
-title: figcaption
+title: 'figcaption'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: figcaption
+  topic: html
 notes:
   - "Examples need \"try it\" link.\nAdd Category, Parent, Children and Compatibility information.\n\nWrite something for main content."
 overview_table:

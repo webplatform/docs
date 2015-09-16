@@ -1,5 +1,8 @@
 ---
-title: Range
+title: 'Range'
+compatibility:
+  feature: Range
+  topic: http
 overview_table:
   Direction: Request
   Features: ''

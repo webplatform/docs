@@ -1,7 +1,10 @@
 ---
-title: text-underline-position
+title: 'text-underline-position'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: text-underline-position
+  topic: css
 notes:
   - "\nDeletion Candidate:   This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.\n\n"
 overview_table:
@@ -166,8 +169,8 @@ right
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
--   `CSS Text Level 3`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   CSS Text Level 3[CSS Text Level 3](http://go.microsoft.com/fwlink/p/?linkid=203766)

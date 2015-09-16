@@ -1,5 +1,5 @@
 ---
-title: HTML5 のフォーム機能
+title: 'HTML5 のフォーム機能'
 lang: ja
 uri: 'guides/html5 form features/ja'
 

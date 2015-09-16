@@ -1,7 +1,10 @@
 ---
-title: vspace
+title: 'vspace'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: vspace
+  topic: html
 notes:
   - 'Deletion Candidate'
 readiness: 'Not Ready'
@@ -52,4 +55,4 @@ This property is similar to the [**border**](/html/attributes/border) property, 
 -   `object`
 -   `input type=image`
 -   `input`
--   `hspace`
+-   hspace[hspace](/html/attributes/hspace)

@@ -1,5 +1,5 @@
 ---
-title: Using CSS background images
+title: 'Using CSS background images'
 readiness: 'Ready to Use'
 summary: 'This article covers CSS backgrounds in detail: background color, image, repeat, attachment, and position. Near the end, it also looks at advanced techniques such as CSS sprites.'
 tags:

@@ -1,7 +1,10 @@
 ---
-title: charAt
+title: 'charAt'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/65zt5h10(v=vs.94).aspx)'
+compatibility:
+  feature: charAt
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the character at the specified index.'
 tags:

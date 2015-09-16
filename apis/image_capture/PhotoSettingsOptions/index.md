@@ -1,5 +1,5 @@
 ---
-title: PhotoSettingsOptions
+title: 'PhotoSettingsOptions'
 notes:
   - 'Needs children, example, spec reference, standardization status. May be a dup of apis/image capture/ImageCapture/photoSettingsOptions; deletion candidate?'
 readiness: 'Not Ready'

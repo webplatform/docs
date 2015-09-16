@@ -1,5 +1,5 @@
 ---
-title: iterationComposite
+title: 'iterationComposite'
 readiness: 'Almost Ready'
 relationships:
   applies_to:

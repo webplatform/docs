@@ -1,5 +1,8 @@
 ---
-title: grid-definition-rows
+title: 'grid-definition-rows'
+compatibility:
+  feature: grid-definition-rows
+  topic: css
 notes:
   - "Add description, compatibility.\nThis property is no longer listed in the W3C specification."
 overview_table:

@@ -1,5 +1,5 @@
 ---
-title: RTCDataChannel
+title: 'RTCDataChannel'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Represents a bi-directional data channel between two peers.'

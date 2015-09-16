@@ -1,7 +1,10 @@
 ---
-title: getOwnPropertyNames
+title: 'getOwnPropertyNames'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff688126(v=vs.94).aspx)'
+compatibility:
+  feature: getOwnPropertyNames
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the names of the own properties of an object. The own properties of an object are those that are defined directly on that object, and are not inherited from the object''s prototype. The properties of an object include both fields (objects) and functions.'
 tags:

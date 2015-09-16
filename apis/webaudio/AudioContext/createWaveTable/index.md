@@ -1,5 +1,5 @@
 ---
-title: createWaveTable
+title: 'createWaveTable'
 notes:
   - 'Out of date; removed from spec. See http://webaudio.github.io/web-audio-api/.'
 readiness: 'Out of Date'

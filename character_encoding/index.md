@@ -1,5 +1,5 @@
 ---
-title: character encoding
+title: 'character encoding'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

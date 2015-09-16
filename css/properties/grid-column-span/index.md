@@ -1,7 +1,10 @@
 ---
-title: grid-column-span
+title: 'grid-column-span'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: grid-column-span
+  topic: css
 notes:
   - 'Add example, compatibility.'
 overview_table:

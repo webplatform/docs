@@ -1,5 +1,5 @@
 ---
-title: onidentityresult
+title: 'onidentityresult'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

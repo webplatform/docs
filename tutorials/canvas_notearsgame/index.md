@@ -1,5 +1,5 @@
 ---
-title: Introduction to HTML5 games
+title: 'Introduction to HTML5 games'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/canvas/notearsgame/)'
 readiness: 'Ready to Use'

@@ -1,5 +1,5 @@
 ---
-title: pause
+title: 'pause'
 readiness: 'Almost Ready'
 relationships:
   method_of:

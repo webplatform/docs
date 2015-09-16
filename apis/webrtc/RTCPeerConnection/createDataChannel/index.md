@@ -1,5 +1,5 @@
 ---
-title: createDataChannel
+title: 'createDataChannel'
 notes:
   - 'Needs example, spec reference, return value'
 readiness: 'In Progress'

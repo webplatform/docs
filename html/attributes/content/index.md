@@ -1,7 +1,10 @@
 ---
-title: content
+title: 'content'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: content
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -82,7 +85,7 @@ As of Internet Explorer 8, the [**httpEquiv**](/html/attributes/httpEquiv) attr
 ### Related pages
 
 -   `Reference`
--   `httpEquiv`
+-   httpEquiv[httpEquiv](/html/attributes/httpEquiv)
 -   `meta`
 -   `Conceptual`
 -   `Defining Document Compatibility`

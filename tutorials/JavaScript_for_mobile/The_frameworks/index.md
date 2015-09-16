@@ -1,5 +1,5 @@
 ---
-title: The frameworks
+title: 'The frameworks'
 notes:
   - 'No content; deletion candidate; frameworks should not be a topic on webplatform.org'
 readiness: 'Not Ready'

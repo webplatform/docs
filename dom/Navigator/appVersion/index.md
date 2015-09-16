@@ -1,5 +1,5 @@
 ---
-title: appVersion
+title: 'appVersion'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[navigator.appVersion](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID.appVersion) Article]'
   - 'Microsoft Developer Network: [[navigator.appVersion](http://msdn.microsoft.com/en-us/library/ie/ms533080(v=vs.85).aspx) Article]'

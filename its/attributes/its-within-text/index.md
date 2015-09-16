@@ -1,5 +1,8 @@
 ---
-title: its-within-text
+title: 'its-within-text'
+compatibility:
+  feature: its-within-text
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

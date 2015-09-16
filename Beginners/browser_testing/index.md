@@ -1,5 +1,5 @@
 ---
-title: Part 9: Browser testing
+title: 'Part 9: Browser testing'
 notes:
   - 'Give more examples on ways to test in browser, not only automated commercial tools, but maybe talk about linting, etc.'
 readiness: 'Almost Ready'

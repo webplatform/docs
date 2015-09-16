@@ -1,7 +1,10 @@
 ---
-title: right shift assignment
+title: 'right shift assignment'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/7fd7s4a7(v=vs.94).aspx)'
+compatibility:
+  feature: 'right shift assignment'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Right shifts the value of a variable by the number of bits specified in the value of an expression, maintaining the sign, and assigns the result to the variable.'
 tags:

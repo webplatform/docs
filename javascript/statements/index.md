@@ -1,7 +1,10 @@
 ---
-title: statements
+title: 'statements'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/3xcfcb93(v=vs.94).aspx)'
+compatibility:
+  feature: statements
+  topic: javascript
 notes:
   - 'Todo: Merge candidate with javascript/reserved words.'
 readiness: 'Ready to Use'

@@ -1,7 +1,10 @@
 ---
-title: setUint8
+title: 'setUint8'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212478(v=vs.94).aspx)'
+compatibility:
+  feature: setUint8
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Stores a Uint8 value at the specified byte offset from the start of the view.'
 tags:

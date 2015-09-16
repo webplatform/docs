@@ -1,7 +1,10 @@
 ---
-title: RegExp
+title: 'RegExp'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/9dthzd08(v=vs.94).aspx)'
+compatibility:
+  feature: RegExp
+  topic: javascript
 notes:
   - 'Todo: Replace manual properties and methods tables with generated tables.'
 readiness: 'Ready to Use'

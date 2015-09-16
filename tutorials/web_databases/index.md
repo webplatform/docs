@@ -1,5 +1,5 @@
 ---
-title: Building a to-do list using web databases
+title: 'Building a to-do list using web databases'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/webdatabase/todo/)'
 readiness: 'Ready to Use'

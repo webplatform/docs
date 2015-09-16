@@ -1,9 +1,12 @@
 ---
-title: picture
+title: 'picture'
 attributions:
   - 'This content was originally published on [DevOpera](http://dev.opera.com), Opera''s Developer Network. .'
 code_samples:
   - 'http://googlechrome.github.io/samples/picture-element/'
+compatibility:
+  feature: picture
+  topic: html
 notes:
   - 'Add Category, Parent,  Children information and HTML information subsection. Complete Compatibility table.'
 overview_table:

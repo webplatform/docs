@@ -1,7 +1,10 @@
 ---
-title: toGMTString
+title: 'toGMTString'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/a34ehb82(v=vs.94).aspx)'
+compatibility:
+  feature: toGMTString
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns a date converted to a string formatted according to GMT conventions.'
 tags:

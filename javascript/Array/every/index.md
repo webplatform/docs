@@ -1,7 +1,10 @@
 ---
-title: every
+title: 'every'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679981(v=vs.94).aspx)'
+compatibility:
+  feature: every
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Determines whether all the members of an array satisfy the specified test.'
 tags:

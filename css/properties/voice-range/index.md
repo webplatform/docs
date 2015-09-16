@@ -1,5 +1,8 @@
 ---
-title: voice-range
+title: 'voice-range'
+compatibility:
+  feature: voice-range
+  topic: css
 notes:
   - 'Needs usage, example'
 overview_table:

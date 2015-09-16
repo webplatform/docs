@@ -1,5 +1,8 @@
 ---
-title: td
+title: 'td'
+compatibility:
+  feature: td
+  topic: html
 notes:
   - 'Add description/notes, compatibility.'
 overview_table:

@@ -1,5 +1,5 @@
 ---
-title: result
+title: 'result'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -43,4 +43,4 @@ The format of the `result` data depends on which of the read methods was used to
 
 ### Related pages
 
--   `FileReader`
+-   FileReader[FileReader](/apis/file/FileReader)

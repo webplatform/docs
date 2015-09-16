@@ -1,7 +1,10 @@
 ---
-title: getUTCSeconds
+title: 'getUTCSeconds'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/4y0y6x01(v=vs.94).aspx)'
+compatibility:
+  feature: getUTCSeconds
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the seconds of a Date object using Universal Coordinated Time (UTC).'
 tags:

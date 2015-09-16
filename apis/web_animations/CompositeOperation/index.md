@@ -1,5 +1,5 @@
 ---
-title: CompositeOperation
+title: 'CompositeOperation'
 readiness: 'In Progress'
 relationships:
   subclass_of:

@@ -1,5 +1,5 @@
 ---
-title: regions
+title: 'regions'
 readiness: 'Ready to Use'
 summary: 'The CSS Regions feature allows content to flow dynamically through a series of presentational block elements, known as regions, allowing for complex magazine-style layouts.'
 tags:

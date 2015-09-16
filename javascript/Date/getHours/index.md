@@ -1,7 +1,10 @@
 ---
-title: getHours
+title: 'getHours'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/815z9tc9(v=vs.94).aspx)'
+compatibility:
+  feature: getHours
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the hours in a date, using local time.'
 tags:

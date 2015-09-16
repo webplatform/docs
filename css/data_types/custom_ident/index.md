@@ -1,5 +1,5 @@
 ---
-title: <custom-ident>
+title: '<custom-ident>'
 code_samples:
   - 'http://gist.github.com/10605942'
 readiness: 'Ready to Use'

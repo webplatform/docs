@@ -1,5 +1,5 @@
 ---
-title: minDecibels
+title: 'minDecibels'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

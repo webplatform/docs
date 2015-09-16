@@ -1,5 +1,8 @@
 ---
-title: border-corner-shape
+title: 'border-corner-shape'
+compatibility:
+  feature: border-corner-shape
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`curve`'
   'Applies to': 'all elements, except table element when ‘border-collapse’ is ‘collapse’'

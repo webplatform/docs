@@ -1,5 +1,5 @@
 ---
-title: HTML structural elements
+title: 'HTML structural elements'
 readiness: 'Ready to Use'
 summary: 'This article provides a tour through the elements available in HTML to structure and group content, from old favourites like &lt;div&gt; to new HTML5 additions such as &lt;article&gt; and &lt;aside&gt;.'
 tags:

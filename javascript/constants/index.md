@@ -1,7 +1,10 @@
 ---
-title: constants
+title: 'constants'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff818462(v=vs.94).aspx)'
+compatibility:
+  feature: constants
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'The following table lists predefined JavaScript constants that you can use in expressions.'
 tags:

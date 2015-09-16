@@ -1,5 +1,5 @@
 ---
-title: Using device orientation
+title: 'Using device orientation'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/device/orientation/)'
 notes:

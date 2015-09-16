@@ -1,7 +1,10 @@
 ---
-title: bgColor
+title: 'bgColor'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: bgColor
+  topic: html
 readiness: 'Ready to Use'
 standardization_status: Deprecated
 summary: 'Specifies the background color of a document. This is deprecated in HTML4 and not supported in HTML5. Please use the CSS Background Color rule instead.'
@@ -48,11 +51,11 @@ Some browsers do not recognize color names, but all browsers should recognize RG
 ### Related pages
 
 -   [CSS Background Color property](/css/properties/background-color)
--   `background`
--   `table`
--   `tbody`
--   `td`
--   `tfoot`
--   `th`
--   `thead`
--   `tr`
+-   background[background](/html/attributes/background_(Body_element))
+-   table[table](/html/elements/table)
+-   tbody[tbody](/html/elements/tbody)
+-   td[td](/html/elements/td)
+-   tfoot[tfoot](/html/elements/tfoot)
+-   th[th](/html/elements/th)
+-   thead[thead](/html/elements/thead)
+-   tr[tr](/html/elements/tr)

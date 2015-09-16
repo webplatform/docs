@@ -1,5 +1,5 @@
 ---
-title: pointerEnabled
+title: 'pointerEnabled'
 attributions:
   - 'Microsoft Developer Network: [[navigator.pointerEnabled](http://msdn.microsoft.com/en-us/library/ie/hh972895(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

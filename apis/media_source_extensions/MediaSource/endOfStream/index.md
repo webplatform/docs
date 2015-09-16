@@ -1,5 +1,5 @@
 ---
-title: endOfStream
+title: 'endOfStream'
 notes:
   - 'Needs example, spec reference, standardization status'
 readiness: 'In Progress'

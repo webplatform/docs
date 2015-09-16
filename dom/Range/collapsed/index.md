@@ -1,5 +1,5 @@
 ---
-title: collapsed
+title: 'collapsed'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Range.collapsed](https://developer.mozilla.org/en-US/docs/Web/API/Range.collapsed) Article]'
   - 'Microsoft Developer Network: [[collapsed Property](http://msdn.microsoft.com/en-us/library/ie/ff974925(v=vs.85).aspx) Article]'

@@ -1,5 +1,5 @@
 ---
-title: createElement
+title: 'createElement'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -116,6 +116,6 @@ You must perform a second step when you use **createElement** to create the [**i
 ### Related pages
 
 -   `Reference`
--   `cloneNode`
+-   cloneNode[cloneNode](/dom/Node/cloneNode)
 -   `Conceptual`
 -   `About the W3C Document Object Model`

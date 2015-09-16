@@ -1,7 +1,10 @@
 ---
-title: decodeURIComponent
+title: 'decodeURIComponent'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/91b80x6x(v=vs.94).aspx)'
+compatibility:
+  feature: decodeURIComponent
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the unencoded version of an encoded component of a Uniform Resource Identifier (URI).'
 tags:

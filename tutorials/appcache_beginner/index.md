@@ -1,5 +1,5 @@
 ---
-title: Introduction to using the application cache
+title: 'Introduction to using the application cache'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/appcache/beginner/)'
 readiness: 'Ready to Use'

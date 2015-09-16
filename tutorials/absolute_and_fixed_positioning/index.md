@@ -1,5 +1,5 @@
 ---
-title: Advanced layouts with absolute and fixed positioning
+title: 'Advanced layouts with absolute and fixed positioning'
 readiness: 'Ready to Use'
 summary: 'This article covers absolute and fixed positioning.'
 tags:

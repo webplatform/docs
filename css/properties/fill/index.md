@@ -1,5 +1,8 @@
 ---
-title: fill
+title: 'fill'
+compatibility:
+  feature: fill
+  topic: css
 notes:
   - "Add example and compatibility.\nThe SVG property pages will be linked to here. Needs good examples."
 overview_table:

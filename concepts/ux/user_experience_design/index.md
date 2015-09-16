@@ -1,5 +1,5 @@
 ---
-title: User eXperience (UX)
+title: 'User eXperience (UX)'
 readiness: 'Almost Ready'
 summary: 'An introduction to user experience (UX) and how it applies to web projects.'
 tags:

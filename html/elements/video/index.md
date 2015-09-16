@@ -1,9 +1,12 @@
 ---
-title: video
+title: 'video'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5314736'
+compatibility:
+  feature: video
+  topic: html
 notes:
   - "Rewrite main content\nNeeds information on codec support. Add more examples."
 overview_table:

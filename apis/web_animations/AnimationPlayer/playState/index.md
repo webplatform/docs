@@ -1,5 +1,5 @@
 ---
-title: playState
+title: 'playState'
 readiness: 'Almost Ready'
 relationships:
   applies_to:

@@ -1,5 +1,8 @@
 ---
-title: Content-Disposition
+title: 'Content-Disposition'
+compatibility:
+  feature: Content-Disposition
+  topic: http
 overview_table:
   Direction: Response
   Features: ''

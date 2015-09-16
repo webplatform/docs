@@ -1,5 +1,5 @@
 ---
-title: Creating multiple pages with navigation menus
+title: 'Creating multiple pages with navigation menus'
 tags:
   - Tutorials
   - WSC

@@ -1,5 +1,8 @@
 ---
-title: text-decoration-style
+title: 'text-decoration-style'
+compatibility:
+  feature: text-decoration-style
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`solid`'
   'Applies to': 'All elements'

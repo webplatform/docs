@@ -1,5 +1,8 @@
 ---
-title: kerning-mode
+title: 'kerning-mode'
+compatibility:
+  feature: kerning-mode
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': ''
   'Applies to': ''

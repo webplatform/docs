@@ -1,5 +1,5 @@
 ---
-title: Making things move with CSS3 animations
+title: 'Making things move with CSS3 animations'
 readiness: 'Ready to Use'
 summary: "CSS animations allow you to build complex animated\nsequences. Like transitions, they\nmanipulate the CSS properties that control how interface elements\nappear. Unlike transitions, they are not tied to shifts between style\nsheets that distinguish interface states. Keyframe animations can\nexecute freely, and offer the best way to build complex effects into\nan interface.\n"
 tags:

@@ -1,7 +1,10 @@
 ---
-title: acos
+title: 'acos'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/w1ah75x5(v=vs.94).aspx)'
+compatibility:
+  feature: acos
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the arc cosine (or inverse cosine) of a number.'
 tags:

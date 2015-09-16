@@ -1,5 +1,5 @@
 ---
-title: delayTime
+title: 'delayTime'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

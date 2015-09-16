@@ -1,7 +1,10 @@
 ---
-title: header
+title: 'header'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: header
+  topic: html
 notes:
   - 'Add Category, Parent and Children information. Complete Compatibility information.'
 overview_table:

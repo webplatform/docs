@@ -1,5 +1,5 @@
 ---
-title: ascender
+title: 'ascender'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

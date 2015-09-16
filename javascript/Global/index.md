@@ -1,7 +1,10 @@
 ---
-title: Global
+title: 'Global'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/52f50e9t(v=vs.94).aspx)'
+compatibility:
+  feature: Global
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'An intrinsic object whose purpose is to collect global functions and constants into one object.'
 tags:

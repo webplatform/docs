@@ -1,5 +1,5 @@
 ---
-title: json
+title: 'json'
 readiness: 'In Progress'
 summary: 'Lightweight data interchange format that is useful for serializing data into a string.'
 tags:

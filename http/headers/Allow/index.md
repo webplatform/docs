@@ -1,5 +1,8 @@
 ---
-title: Allow
+title: 'Allow'
+compatibility:
+  feature: Allow
+  topic: http
 overview_table:
   Direction: Response
   Required: 'Along with 405 Method Not allowed'

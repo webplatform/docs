@@ -1,5 +1,5 @@
 ---
-title: defaultValue
+title: 'defaultValue'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

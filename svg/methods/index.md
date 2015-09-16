@@ -1,5 +1,5 @@
 ---
-title: SVG DOM methods
+title: 'SVG DOM methods'
 notes:
   - 'Some content needed.  Alternately, all methods could be moved to be sub-pages of the appropriate object, as is done in the DOM/API sections, and this page deleted.'
 readiness: 'In Progress'

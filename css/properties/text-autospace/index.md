@@ -1,9 +1,12 @@
 ---
-title: text-autospace
+title: 'text-autospace'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5842252'
+compatibility:
+  feature: text-autospace
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`none`'
   'Applies to': 'All elements'
@@ -134,9 +137,9 @@ Windows Internet Explorer 8. The **-ms-text-autospace** attribute is an extensi
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaults`
--   `runtimeStyle`
--   `style`
--   `styleSheet`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   styleSheet[styleSheet](/css/cssom/styleSheet)

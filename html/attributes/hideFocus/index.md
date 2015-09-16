@@ -1,9 +1,12 @@
 ---
-title: hideFocus
+title: 'hideFocus'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/hidefocus.htm'
+compatibility:
+  feature: hideFocus
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -59,9 +62,9 @@ The focus of an object is visibly indicated by a focus rectangle—a dotted rect
 
 ### Related pages
 
--   `a`
+-   a[a](/html/elements/a)
 -   `abbr`
--   `acronym`
+-   acronym[acronym](/html/elements/acronym)
 -   `address`
 -   `applet`
 -   `area`
@@ -129,7 +132,7 @@ The focus of an object is visibly indicated by a focus rectangle—a dotted rect
 -   `strong`
 -   `sub`
 -   `sup`
--   `table`
+-   table[table](/html/elements/table)
 -   `tBody`
 -   `td`
 -   `textArea`

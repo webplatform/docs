@@ -1,5 +1,5 @@
 ---
-title: XMLHttpRequest
+title: 'XMLHttpRequest'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/cors/)'

@@ -1,9 +1,12 @@
 ---
-title: wrap
+title: 'wrap'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/wrap.htm'
+compatibility:
+  feature: wrap
+  topic: html
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Sets the wrap style (soft, hard, or off) for a text element.'

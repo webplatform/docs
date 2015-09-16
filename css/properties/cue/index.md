@@ -1,5 +1,8 @@
 ---
-title: cue
+title: 'cue'
+compatibility:
+  feature: cue
+  topic: css
 notes:
   - 'Add values, syntax, example, description, compatibility.'
 overview_table:

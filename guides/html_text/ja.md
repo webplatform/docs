@@ -1,5 +1,5 @@
 ---
-title: HTMLのテキスト
+title: 'HTMLのテキスト'
 lang: ja
 summary: 'この文書では、HTMLでテキストコンテンツをマークアップする時に一番よく使用する要素について扱います。'
 tags:

@@ -1,5 +1,8 @@
 ---
-title: mo
+title: 'mo'
+compatibility:
+  feature: mo
+  topic: mathml
 notes:
   - 'Needs example, fix broken links'
 overview_table:

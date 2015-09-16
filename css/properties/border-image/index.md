@@ -1,7 +1,10 @@
 ---
-title: border-image
+title: 'border-image'
 code_samples:
   - 'http://gist.github.com/5622521'
+compatibility:
+  feature: border-image
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`based on individual properties`'
   'Applies to': 'All elements'

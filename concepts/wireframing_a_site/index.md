@@ -1,5 +1,5 @@
 ---
-title: Wireframing a site
+title: 'Wireframing a site'
 notes:
   - 'For the hosting link, it goes to ipower.com. Are we intentionally backing their business?'
 readiness: 'Almost Ready'

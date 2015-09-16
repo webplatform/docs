@@ -1,5 +1,5 @@
 ---
-title: cssText
+title: 'cssText'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

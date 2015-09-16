@@ -1,7 +1,10 @@
 ---
-title: alignment-baseline
+title: 'alignment-baseline'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: alignment-baseline
+  topic: svg
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Specifies how an element is aligned with respect to its parent; that is, specifies which baseline of the element is to be aligned with the corresponding baseline of the parent. Defaults to the baseline with the same name as the computed value of the alignment-baseline property.'
@@ -65,4 +68,4 @@ This property specifies how an object is aligned with respect to its parent. For
 
 ### Related pages
 
--   `CSSStyleDeclaration`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)

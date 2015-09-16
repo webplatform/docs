@@ -1,5 +1,5 @@
 ---
-title: Understanding static and relative positioning
+title: 'Understanding static and relative positioning'
 readiness: 'Ready to Use'
 summary: 'This article provides a guide to static and relative positioning.'
 tags:

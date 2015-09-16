@@ -1,5 +1,5 @@
 ---
-title: region chains
+title: 'region chains'
 notes:
   - 'Almost identical content to "Region", "Regions" and "Named Flow". Consider merging.'
 readiness: 'In Progress'

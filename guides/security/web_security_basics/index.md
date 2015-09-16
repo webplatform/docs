@@ -1,5 +1,5 @@
 ---
-title: web security basics
+title: 'web security basics'
 notes:
   - 'Needs a lot more content; Need to remove compatibility table; Address minor bugs in comments; Need to cross-link to other relevant content'
 readiness: 'Not Ready'

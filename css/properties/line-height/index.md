@@ -1,5 +1,8 @@
 ---
-title: line-height
+title: 'line-height'
+compatibility:
+  feature: line-height
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`normal`'
   'Applies to': 'all elements'

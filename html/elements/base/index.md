@@ -1,5 +1,8 @@
 ---
-title: base
+title: 'base'
+compatibility:
+  feature: base
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLBaseElement](/dom/HTMLBaseElement)'
 readiness: 'Ready to Use'

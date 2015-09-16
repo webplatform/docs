@@ -1,5 +1,5 @@
 ---
-title: pointerId
+title: 'pointerId'
 attributions:
   - 'Microsoft Developer Network: [[pointerId Property](http://msdn.microsoft.com/en-us/library/ie/hh772358(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

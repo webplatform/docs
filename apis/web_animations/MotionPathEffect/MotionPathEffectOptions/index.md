@@ -1,5 +1,5 @@
 ---
-title: MotionPathEffectOptions
+title: 'MotionPathEffectOptions'
 readiness: readiness-state
 tags:
   - Data

@@ -1,5 +1,5 @@
 ---
-title: svg primer
+title: 'svg primer'
 readiness: 'Ready to Use'
 summary: 'This guide offers a detailed introduction to the main important things to know about SVG.'
 tags:

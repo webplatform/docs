@@ -1,5 +1,5 @@
 ---
-title: sans serif font
+title: 'sans serif font'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

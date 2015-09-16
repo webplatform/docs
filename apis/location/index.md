@@ -1,5 +1,5 @@
 ---
-title: window.location
+title: 'window.location'
 readiness: 'Ready to Use'
 summary: 'The location object provides access to the address related properties of the current document.'
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Advanced CSS text styling
+title: 'Advanced CSS text styling'
 notes:
   - 'Needs more than a sentence; someone needs to finish what was barely started.'
 readiness: 'Not Ready'

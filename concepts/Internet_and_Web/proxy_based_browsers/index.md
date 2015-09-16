@@ -1,5 +1,5 @@
 ---
-title: Proxy-based browsers
+title: 'Proxy-based browsers'
 notes:
   - 'This is not a web development concept topic, and will attract vendor spam. Deletion candidate.'
 readiness: 'Not Ready'

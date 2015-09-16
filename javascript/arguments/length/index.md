@@ -1,7 +1,10 @@
 ---
-title: length
+title: 'length'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/7474tyd4(v=vs.94).aspx)'
+compatibility:
+  feature: length
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the actual number of arguments passed to a function by the caller.'
 tags:

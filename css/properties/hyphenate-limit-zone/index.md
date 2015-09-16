@@ -1,5 +1,8 @@
 ---
-title: hyphenate-limit-zone
+title: 'hyphenate-limit-zone'
+compatibility:
+  feature: hyphenate-limit-zone
+  topic: css
 notes:
   - 'Add description, compatibility.'
 overview_table:

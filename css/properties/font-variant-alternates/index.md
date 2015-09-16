@@ -1,5 +1,8 @@
 ---
-title: font-variant-alternates
+title: 'font-variant-alternates'
+compatibility:
+  feature: font-variant-alternates
+  topic: css
 notes:
   - 'Add example, description, specifications, compatibility.'
 overview_table:

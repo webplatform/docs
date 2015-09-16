@@ -1,7 +1,10 @@
 ---
-title: propertyIsEnumerable
+title: 'propertyIsEnumerable'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/adebfyya(v=vs.94).aspx)'
+compatibility:
+  feature: propertyIsEnumerable
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Determines whether a specified property is enumerable.'
 tags:

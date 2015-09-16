@@ -1,5 +1,5 @@
 ---
-title: onsuccess
+title: 'onsuccess'
 notes:
   - 'Needs example, spec reference, standardization status'
 readiness: 'In Progress'

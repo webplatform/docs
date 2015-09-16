@@ -1,5 +1,5 @@
 ---
-title: HTML の <head> 要素
+title: 'HTML の <head> 要素'
 lang: ja
 summary: 'この記事では、&lt;head&gt;要素に含めることができる一般的な項目を解説してきます。'
 tags:

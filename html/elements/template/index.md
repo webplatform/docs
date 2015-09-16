@@ -1,7 +1,10 @@
 ---
-title: template
+title: 'template'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/webcomponents/template/)'
+compatibility:
+  feature: template
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLTemplateElement](/w/index.php?title=dom/HTMLTemplateElement&action=edit&redlink=1)'
 readiness: 'Ready to Use'

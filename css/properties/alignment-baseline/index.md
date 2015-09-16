@@ -1,5 +1,8 @@
 ---
-title: alignment-baseline
+title: 'alignment-baseline'
+compatibility:
+  feature: alignment-baseline
+  topic: css
 notes:
   - 'Add summery, values, syntax, example, description, specifications, compatibility.'
 overview_table:

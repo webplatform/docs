@@ -1,5 +1,5 @@
 ---
-title: setPointerCapture
+title: 'setPointerCapture'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/library/ie/hh771882.aspx)'
 notes:

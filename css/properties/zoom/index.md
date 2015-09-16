@@ -1,9 +1,12 @@
 ---
-title: zoom
+title: 'zoom'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/zoom.htm'
+compatibility:
+  feature: zoom
+  topic: css
 notes:
   - "\nDeletion Candidate:   zoom was originally only supported by Internet Explorer. It is now outdated and shouldn't be recommended any more.\n\n"
 readiness: 'Not Ready'
@@ -197,7 +200,7 @@ function changeZoom2(oSel) {
 
 ### Other articles
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)

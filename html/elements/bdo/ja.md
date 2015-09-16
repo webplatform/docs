@@ -1,7 +1,10 @@
 ---
-title: bdo
+title: 'bdo'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: ja
+  topic: html
 lang: ja
 notes:
   - 'Add Category, Parent, Children and Compatibility information. Delete HTML information sub section.'
@@ -74,4 +77,4 @@ bdo要素は双方向アルゴリズムを無効化し、表示順を制御し�
 
 ### Related pages
 
--   `direction`
+-   direction[direction](/css/properties/direction)

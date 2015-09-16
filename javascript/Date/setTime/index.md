@@ -1,7 +1,10 @@
 ---
-title: setTime
+title: 'setTime'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/767045xx(v=vs.94).aspx)'
+compatibility:
+  feature: setTime
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets the date and time value in the Date object.'
 tags:

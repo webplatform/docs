@@ -1,5 +1,5 @@
 ---
-title: window.location.host
+title: 'window.location.host'
 code_samples:
   - 'http://fiddle.jshell.net/YJEhh/4/'
 readiness: 'Ready to Use'

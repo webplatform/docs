@@ -1,7 +1,10 @@
 ---
-title: isSealed
+title: 'isSealed'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff806189(v=vs.94).aspx)'
+compatibility:
+  feature: isSealed
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns true if existing property attributes cannot be modified in an object and new properties cannot be added to the object.'
 tags:

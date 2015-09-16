@@ -1,5 +1,8 @@
 ---
-title: rest-after
+title: 'rest-after'
+compatibility:
+  feature: rest-after
+  topic: css
 notes:
   - 'Needs values, usage, example'
 overview_table:

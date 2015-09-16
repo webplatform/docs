@@ -1,7 +1,10 @@
 ---
-title: frameBorder
+title: 'frameBorder'
 attributions:
   - 'Microsoft Developer Network.'
+compatibility:
+  feature: frameBorder
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'

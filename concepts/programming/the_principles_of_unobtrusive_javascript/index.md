@@ -1,5 +1,5 @@
 ---
-title: The principles of unobtrusive JavaScript
+title: 'The principles of unobtrusive JavaScript'
 readiness: 'Almost Ready'
 summary: 'In this article, we discuss an important concept of JavaScript — unobtrusiveness, or how to write JavaScript so that it enhances a website experience, but is not vital for it to run.'
 tags:

@@ -1,5 +1,8 @@
 ---
-title: sticky
+title: 'sticky'
+compatibility:
+  feature: sticky
+  topic: javascript
 notes:
   - 'Moved under javascript/RegExp'
 readiness: 'Ready to Use'

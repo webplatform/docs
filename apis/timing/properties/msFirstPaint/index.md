@@ -1,5 +1,5 @@
 ---
-title: msFirstPaint
+title: 'msFirstPaint'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -60,5 +60,5 @@ The value reported by the **msFirstPaint** property represents the number of mil
 
 ### Related pages
 
--   `performanceTiming`
--   `navigationStart`
+-   performanceTiming[performanceTiming](/w/index.php?title=apis/timing/objects/performanceTiming&action=edit&redlink=1)
+-   navigationStart[navigationStart](/w/index.php?title=apis/timing/properties/navigationStart&action=edit&redlink=1)

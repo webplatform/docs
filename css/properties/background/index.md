@@ -1,8 +1,11 @@
 ---
-title: background
+title: 'background'
 code_samples:
   - 'http://gist.github.com/6114809'
   - 'http://gist.github.com/6115439'
+compatibility:
+  feature: background
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`[[Initial value::see individual properties: * background-color * background-position * background-size * background-repeat * background-attachment * background-clip * background-origin * background-image]]`'
   'Applies to': 'all elements'

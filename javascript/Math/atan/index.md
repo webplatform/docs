@@ -1,7 +1,10 @@
 ---
-title: atan
+title: 'atan'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/13bwes5d(v=vs.94).aspx)'
+compatibility:
+  feature: atan
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the arctangent of a number.'
 tags:

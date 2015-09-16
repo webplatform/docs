@@ -1,5 +1,5 @@
 ---
-title: direction
+title: 'direction'
 readiness: readiness-state
 relationships:
   applies_to:

@@ -1,7 +1,10 @@
 ---
-title: merror
+title: 'merror'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/MathML/Element/merror)'
+compatibility:
+  feature: merror
+  topic: mathml
 overview_table:
   '[DOM Interface](/dom/interface)': '[mathml](/mathml)'
 readiness: 'Ready to Use'

@@ -1,7 +1,10 @@
 ---
-title: subtraction
+title: 'subtraction'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/9ty8kw3w(v=vs.94).aspx)'
+compatibility:
+  feature: subtraction
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Subtracts the value of one expression from another or provides unary negation of a single expression.'
 tags:

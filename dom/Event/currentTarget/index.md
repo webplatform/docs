@@ -1,5 +1,5 @@
 ---
-title: currentTarget
+title: 'currentTarget'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -63,19 +63,19 @@ The [**target**](/dom/Event/target) property returns the element that originally
 
 ### Related pages
 
--   `SVGZoomEvent`
--   `BeforeUnloadEvent`
--   `CompositionEvent`
--   `CustomEvent`
--   `Event`
--   `DragEvent`
--   `FocusEvent`
--   `KeyboardEvent`
--   `MessageEvent`
--   `MouseEvent`
--   `WheelEvent`
--   `MutationEvent`
--   `StorageEvent`
--   `TextEvent`
--   `UIEvent`
--   `eventPhase`
+-   SVGZoomEvent[SVGZoomEvent](/svg/objects/SVGZoom)
+-   BeforeUnloadEvent[BeforeUnloadEvent](/dom/BeforeUnloadEvent)
+-   CompositionEvent[CompositionEvent](/dom/CompositionEvent)
+-   CustomEvent[CustomEvent](/dom/CustomEvent)
+-   Event[Event](/dom/Event)
+-   DragEvent[DragEvent](/dom/DragEvent)
+-   FocusEvent[FocusEvent](/dom/FocusEvent)
+-   KeyboardEvent[KeyboardEvent](/dom/KeyboardEvent)
+-   MessageEvent[MessageEvent](/dom/MessageEvent)
+-   MouseEvent[MouseEvent](/dom/MouseEvent)
+-   WheelEvent[WheelEvent](/dom/WheelEvent)
+-   MutationEvent[MutationEvent](/dom/MutationEvent)
+-   StorageEvent[StorageEvent](/dom/StorageEvent)
+-   TextEvent[TextEvent](/dom/TextEvent)
+-   UIEvent[UIEvent](/dom/UIEvent)
+-   eventPhase[eventPhase](/dom/Event/eventPhase)

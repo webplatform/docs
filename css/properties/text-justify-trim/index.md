@@ -1,5 +1,8 @@
 ---
-title: text-justify-trim
+title: 'text-justify-trim'
+compatibility:
+  feature: text-justify-trim
+  topic: css
 notes:
   - 'Needs summary, example, spec reference, standardization status'
 overview_table:

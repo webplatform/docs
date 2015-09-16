@@ -1,7 +1,10 @@
 ---
-title: constructor
+title: 'constructor'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj155289(v=vs.94).aspx)'
+compatibility:
+  feature: constructor
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Initializes a Boolean object.'
 tags:

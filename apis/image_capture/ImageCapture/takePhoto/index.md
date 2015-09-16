@@ -1,5 +1,5 @@
 ---
-title: takePhoto
+title: 'takePhoto'
 notes:
   - 'Needs example, usage, spec reference'
 readiness: 'In Progress'

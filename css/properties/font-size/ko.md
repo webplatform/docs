@@ -1,5 +1,5 @@
 ---
-title: font-size
+title: 'font-size'
 lang: ko
 uri: css/properties/font-size/ko
 

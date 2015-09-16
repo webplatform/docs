@@ -1,5 +1,5 @@
 ---
-title: waiting
+title: 'waiting'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -94,11 +94,11 @@ To invoke this event, do one of the following:
 
 ### Related pages
 
--   `audioApi`
--   `audioElement`
--   `Document`
--   `source`
--   `videoElement`
--   `videoApi`
--   `Window`
--   `onstalled`
+-   audioApi[audioApi](/apis/audio-video/audio)
+-   audioElement[audioElement](/html/elements/audio)
+-   Document[Document](/dom/Document)
+-   source[source](/html/elements/source)
+-   videoElement[videoElement](/html/elements/video)
+-   videoApi[videoApi](/apis/audio-video/video)
+-   Window[Window](/dom/Window)
+-   onstalled[onstalled](/dom/Element/stalled)

@@ -1,5 +1,5 @@
 ---
-title: Raw WebGL 101 — Part 4: Textures
+title: 'Raw WebGL 101 — Part 4: Textures'
 notes:
   - 'Fix broken image link'
 readiness: 'Almost Ready'

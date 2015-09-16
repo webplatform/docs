@@ -1,5 +1,5 @@
 ---
-title: メディアクエリーの使い方
+title: 'メディアクエリーの使い方'
 lang: ja
 notes:
   - 'No content; deletion candidate'

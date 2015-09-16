@@ -1,7 +1,10 @@
 ---
-title: unicode-range
+title: 'unicode-range'
 code_samples:
   - 'http://gist.github.com/6366676'
+compatibility:
+  feature: unicode-range
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`U+0-10FFFF`'
   'Applies to': 'The `@font-face` block the property is included inside.'

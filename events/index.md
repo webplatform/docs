@@ -1,5 +1,5 @@
 ---
-title: Events
+title: 'Events'
 notes:
   - 'summary, headings, explanation as to what this page is'
 readiness: 'Not Ready'

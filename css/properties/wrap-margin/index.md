@@ -1,7 +1,10 @@
 ---
-title: wrap-margin
+title: 'wrap-margin'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/windows/apps/hh466103.aspx)'
+compatibility:
+  feature: wrap-margin
+  topic: css
 notes:
   - 'This property was renamed to shape-margin. See css/properties/shape-margin for complete information.'
 overview_table:

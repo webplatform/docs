@@ -1,5 +1,5 @@
 ---
-title: register
+title: 'register'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/webcomponents/customelements/)'
 notes:

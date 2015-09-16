@@ -1,9 +1,12 @@
 ---
-title: user-select
+title: 'user-select'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://jsfiddle.net/R5Ygm/'
+compatibility:
+  feature: user-select
+  topic: css
 notes:
   - "Editing this page produces: \"Warning: More than one default form is defined for this page.\"\_?"
 overview_table:
@@ -142,5 +145,5 @@ Also works on mobile devices to suppress selection by touch and hold.
 
 ### Related pages
 
--   `IE Test Drive: User-Select`
--   `[1]`
+-   IE Test Drive: User-Select[IE Test Drive: User-Select](http://go.microsoft.com/fwlink/p/?LinkID=235901)
+-   [1][[1]](https://developer.mozilla.org/en-US/docs/CSS/user-select)

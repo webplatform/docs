@@ -1,5 +1,8 @@
 ---
-title: main
+title: 'main'
+compatibility:
+  feature: main
+  topic: html
 notes:
   - 'Add Category, Parent, Children and Compatibility information.'
 overview_table:

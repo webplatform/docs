@@ -1,5 +1,5 @@
 ---
-title: items
+title: 'items'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

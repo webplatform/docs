@@ -1,7 +1,10 @@
 ---
-title: background-color
+title: 'background-color'
 code_samples:
   - 'http://chrisdavidmills.github.com/simple-background-color/'
+compatibility:
+  feature: background-color
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`transparent`'
   'Applies to': 'All elements'

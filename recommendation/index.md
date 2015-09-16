@@ -1,5 +1,5 @@
 ---
-title: recommendation
+title: 'recommendation'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

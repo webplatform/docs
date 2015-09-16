@@ -1,5 +1,5 @@
 ---
-title: StorageQuota
+title: 'StorageQuota'
 notes:
   - "Missing supportedTypes attribute (https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html#widl-StorageQuota-supportedTypes).\nThe methods in the spec differ from the two listed here. The spec has:\nqueryInfo\n\nrequestPersistentQuota"
 readiness: 'Not Ready'

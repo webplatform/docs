@@ -1,5 +1,5 @@
 ---
-title: properties
+title: 'properties'
 notes:
   - 'Listing page with no children.'
 readiness: 'Not Ready'

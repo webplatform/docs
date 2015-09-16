@@ -1,5 +1,5 @@
 ---
-title: quirks mode
+title: 'quirks mode'
 readiness: 'Not Ready'
 summary: 'Quirks mode is a way for some browsers to maintain backward compatibility with sites designed for older browsers which don''t strictly comply with W3C or IETF standards.'
 tags:

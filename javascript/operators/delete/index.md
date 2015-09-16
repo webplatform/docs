@@ -1,7 +1,10 @@
 ---
-title: delete
+title: 'delete'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/2b2z052x(v=vs.94).aspx)'
+compatibility:
+  feature: delete
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Deletes a property from an object, or removes an element from an array.'
 tags:

@@ -1,5 +1,5 @@
 ---
-title: cssFloat
+title: 'cssFloat'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -203,6 +203,6 @@ The **cssFloat** attribute can be set for elements that generate boxes that are 
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)

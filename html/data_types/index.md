@@ -1,5 +1,5 @@
 ---
-title: data types
+title: 'data types'
 notes:
   - 'Add summary, description.'
 readiness: 'Not Ready'

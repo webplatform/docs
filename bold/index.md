@@ -1,5 +1,5 @@
 ---
-title: bold
+title: 'bold'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

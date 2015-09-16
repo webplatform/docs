@@ -1,5 +1,8 @@
 ---
-title: time
+title: 'time'
+compatibility:
+  feature: time
+  topic: html
 notes:
   - 'Add compatibility, list valid values'
 overview_table:

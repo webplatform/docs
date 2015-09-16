@@ -1,5 +1,5 @@
 ---
-title: SVG attributes
+title: 'SVG attributes'
 notes:
   - 'Page with almost all broken links.'
 readiness: 'Not Ready'

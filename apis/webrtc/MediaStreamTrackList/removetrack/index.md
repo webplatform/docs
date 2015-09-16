@@ -1,5 +1,5 @@
 ---
-title: removetrack
+title: 'removetrack'
 notes:
   - 'Parent object obsolete; deletion candidate'
 readiness: 'Not Ready'

@@ -1,7 +1,10 @@
 ---
-title: unsigned right shift
+title: 'unsigned right shift'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/342xfs5s(v=vs.94).aspx)'
+compatibility:
+  feature: 'unsigned right shift'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Right shifts the bits of an expression, without maintaining sign.'
 tags:

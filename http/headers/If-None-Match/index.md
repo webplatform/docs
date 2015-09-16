@@ -1,5 +1,8 @@
 ---
-title: If-None-Match
+title: 'If-None-Match'
+compatibility:
+  feature: If-None-Match
+  topic: http
 overview_table:
   Direction: Request
   Features: ''

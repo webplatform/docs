@@ -1,5 +1,5 @@
 ---
-title: Typography on the Web
+title: 'Typography on the Web'
 tags:
   - Tutorials
   - WSC

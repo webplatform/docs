@@ -1,5 +1,5 @@
 ---
-title: remove
+title: 'remove'
 notes:
   - 'Parent object obsolete; deletion candidate'
 readiness: 'Not Ready'

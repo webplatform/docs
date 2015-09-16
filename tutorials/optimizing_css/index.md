@@ -1,5 +1,5 @@
 ---
-title: Optimizing CSS
+title: 'Optimizing CSS'
 notes:
   - Stub
 readiness: 'Not Ready'

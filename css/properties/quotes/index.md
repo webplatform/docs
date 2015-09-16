@@ -1,9 +1,12 @@
 ---
-title: quotes
+title: 'quotes'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5841933'
+compatibility:
+  feature: quotes
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`depends on user agent/element`'
   'Applies to': 'All elements'
@@ -99,7 +102,7 @@ Pairs of strings are required if the value is not `none`.
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)

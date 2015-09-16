@@ -1,9 +1,12 @@
 ---
-title: ruby-overhang
+title: 'ruby-overhang'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rubyoverhang.htm'
+compatibility:
+  feature: ruby-overhang
+  topic: css
 notes:
   - 'Needs summary, spec reference, standardization status'
 overview_table:
@@ -98,10 +101,10 @@ The **ruby-overhang** property specifies the overhang of the ruby text defined b
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `Reference`
--   `ruby-align`
--   `ruby-position`
+-   ruby-align[ruby-align](/css/properties/ruby-align)
+-   ruby-position[ruby-position](/css/properties/ruby-position)

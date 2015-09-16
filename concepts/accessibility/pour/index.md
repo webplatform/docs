@@ -1,5 +1,5 @@
 ---
-title: POUR – Perceivable, Operable, Understandable, Robust
+title: 'POUR – Perceivable, Operable, Understandable, Robust'
 notes:
   - 'Good outline; needs more content.'
 readiness: 'In Progress'

@@ -1,5 +1,5 @@
 ---
-title: parentRule
+title: 'parentRule'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -189,13 +189,13 @@ element. = value;
 
 ### Related pages
 
--   `CSSFontFaceRule`
--   `CSSImportRule`
--   `CSSMediaRule`
--   `CSSNamespaceRule`
--   `CSSRule`
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `page`
--   `rule`
--   `style`
+-   CSSFontFaceRule[CSSFontFaceRule](/dom/CSSFontFaceRule)
+-   CSSImportRule[CSSImportRule](/css/cssom/CSSImportRule)
+-   CSSMediaRule[CSSMediaRule](/css/cssom/CSSMediaRule/CSSMediaRule)
+-   CSSNamespaceRule[CSSNamespaceRule](/css/cssom/CSSNamespaceRule/CSSNamespaceRule)
+-   CSSRule[CSSRule](/css/cssom/CSSRule/CSSRule)
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   page[page](/css/cssom/page)
+-   rule[rule](/css/cssom/rule)
+-   style[style](/css/cssom/style)

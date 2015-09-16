@@ -1,5 +1,5 @@
 ---
-title: ms-high-contrast-adjust
+title: 'ms-high-contrast-adjust'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -83,5 +83,5 @@ The **-ms-high-contrast-adjust** property works with the [-ms-high-contrast](/cs
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `-ms-high-contrast media feature`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   -ms-high-contrast media feature[-ms-high-contrast media feature](/css/high_contrast_mode/properties/-ms-high-contrast)

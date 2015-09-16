@@ -1,5 +1,5 @@
 ---
-title: SVGPath
+title: 'SVGPath'
 notes:
   - 'Unreviewed MSDN import'
 readiness: 'Not Ready'

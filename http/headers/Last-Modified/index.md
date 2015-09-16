@@ -1,5 +1,8 @@
 ---
-title: Last-Modified
+title: 'Last-Modified'
+compatibility:
+  feature: Last-Modified
+  topic: http
 overview_table:
   Direction: Response
   Features: ''

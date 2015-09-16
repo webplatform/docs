@@ -1,5 +1,5 @@
 ---
-title: createAnalyser
+title: 'createAnalyser'
 readiness: 'Ready to Use'
 relationships:
   method_of:

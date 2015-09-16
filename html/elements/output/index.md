@@ -1,5 +1,8 @@
 ---
-title: output
+title: 'output'
+compatibility:
+  feature: output
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLOutputElement](/w/index.php?title=dom/HTMLOutputElement&action=edit&redlink=1)'
 readiness: 'Almost Ready'

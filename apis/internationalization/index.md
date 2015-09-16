@@ -1,5 +1,5 @@
 ---
-title: Internationalization (ECMA 402 standard)
+title: 'Internationalization (ECMA 402 standard)'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The ECMAScript Internationalization API provides key language-sensitive functionality as a complement to the ECMAScript Language Specification, 5.1 edition or successor. Its functionality has been selected from that of well-established internationalization APIs such as those of the Internationalization Components for Unicode (ICU) library, of the .NET framework, or of the Java platform.'

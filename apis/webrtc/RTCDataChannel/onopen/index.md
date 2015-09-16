@@ -1,5 +1,5 @@
 ---
-title: onopen
+title: 'onopen'
 notes:
   - 'Needs example'
 readiness: 'Almost Ready'

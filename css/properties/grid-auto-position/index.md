@@ -1,5 +1,8 @@
 ---
-title: grid-auto-position
+title: 'grid-auto-position'
+compatibility:
+  feature: grid-auto-position
+  topic: css
 notes:
   - 'Add description, compatibility.'
 overview_table:

@@ -1,5 +1,5 @@
 ---
-title: createCaption
+title: 'createCaption'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -64,4 +64,4 @@ If no caption exists, the **createCaption** method creates an empty table captio
 
 ### Related pages
 
--   `table`
+-   table[table](/html/elements/table)

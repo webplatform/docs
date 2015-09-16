@@ -1,5 +1,5 @@
 ---
-title: Glossary of terms
+title: 'Glossary of terms'
 readiness: 'Ready to Use'
 summary: 'This page provides basic definitions of fundamental web technologies, concepts and other terms you might meet while learning web development.'
 tags:

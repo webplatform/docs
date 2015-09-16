@@ -1,7 +1,10 @@
 ---
-title: parseFloat
+title: 'parseFloat'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/d5hbbd4z(v=vs.94).aspx)'
+compatibility:
+  feature: parseFloat
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Converts a string to a floating-point number.'
 tags:

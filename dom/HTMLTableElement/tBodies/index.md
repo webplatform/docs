@@ -1,5 +1,5 @@
 ---
-title: tBodies
+title: 'tBodies'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -53,4 +53,4 @@ This collection can be indexed by name ([**ID**](/html/attributes/id)). If dupli
 
 ### Related pages
 
--   `table`
+-   table[table](/html/elements/table)

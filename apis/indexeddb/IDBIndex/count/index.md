@@ -1,5 +1,5 @@
 ---
-title: count
+title: 'count'
 notes:
   - 'Needs example, spec reference, standardization status'
 readiness: 'In Progress'

@@ -1,5 +1,5 @@
 ---
-title: releasePointerCapture
+title: 'releasePointerCapture'
 notes:
   - 'Needs examples and compat'
 readiness: 'In Progress'

@@ -1,7 +1,10 @@
 ---
-title: :active
+title: ':active'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: ':active'
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "The\_:active pseudo-class applies while an element is being activated by the user."

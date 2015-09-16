@@ -1,5 +1,5 @@
 ---
-title: setVersion
+title: 'setVersion'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -86,6 +86,6 @@ The **setVersion** method was specified by an early draft of the [Indexed Databa
 
 ### Related pages
 
--   `IDBDatabase`
--   `onupgradeneeded`
--   `open`
+-   IDBDatabase[IDBDatabase](/w/index.php?title=apis/indexedDB/IDBDatabase&action=edit&redlink=1)
+-   onupgradeneeded[onupgradeneeded](/w/index.php?title=apis/indexedDB/events/onupgradeneeded&action=edit&redlink=1)
+-   open[open](/w/index.php?title=apis/indexedDB/methods/open&action=edit&redlink=1)

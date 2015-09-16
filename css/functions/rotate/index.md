@@ -1,9 +1,12 @@
 ---
-title: rotate()
+title: 'rotate()'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/10500f11ec6168049ba5'
+compatibility:
+  feature: rotate()
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Rotates an element clockwise around its origin (as specified by the transform-origin property) by the specified angle. The operation corresponds to the matrix [cos(angle) sin(angle) -sin(angle) cos(angle) 0 0].'
@@ -52,5 +55,5 @@ div {
 ### Related pages
 
 -   `Transform Functions`
--   `Mathematical Description of Transform Functions`
--   `Hands On: 2D Transforms`
+-   Mathematical Description of Transform Functions[Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246)
+-   Hands On: 2D Transforms[Hands On: 2D Transforms](http://go.microsoft.com/fwlink/?LinkID=240163)

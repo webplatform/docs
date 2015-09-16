@@ -1,5 +1,5 @@
 ---
-title: AnimationEffect
+title: 'AnimationEffect'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Animation effects are represented by the AnimationEffect interface. AnimationEffect is an abstract interface of which several concrete subinterfaces are provided.'

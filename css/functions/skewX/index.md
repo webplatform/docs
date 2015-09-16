@@ -1,7 +1,10 @@
 ---
-title: skewX()
+title: 'skewX()'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: skewX()
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Defines a 2D skew transformation along the X-axis.'
@@ -44,5 +47,5 @@ div {
 ### Related pages
 
 -   `Transform Functions`
--   `Mathematical Description of Transform Functions`
--   `Hands On: 2D Transforms`
+-   Mathematical Description of Transform Functions[Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246)
+-   Hands On: 2D Transforms[Hands On: 2D Transforms](http://go.microsoft.com/fwlink/?LinkID=240163)

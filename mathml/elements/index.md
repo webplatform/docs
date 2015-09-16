@@ -1,5 +1,5 @@
 ---
-title: MathML Elements
+title: 'MathML Elements'
 notes:
   - 'Make sure that all child element pages are ready before setting a status'
 summary: 'Index page for MathML elements.'

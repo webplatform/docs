@@ -1,5 +1,5 @@
 ---
-title: HTML links
+title: 'HTML links'
 readiness: 'Ready to Use'
 summary: 'In this article we provide a basic treatment of HTML anchors, or &lt;a&gt; elements, more commonly known as HTML links.'
 tags:

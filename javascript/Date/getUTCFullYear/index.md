@@ -1,7 +1,10 @@
 ---
-title: getUTCFullYear
+title: 'getUTCFullYear'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/47f8w843(v=vs.94).aspx)'
+compatibility:
+  feature: getUTCFullYear
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the year using Universal Coordinated Time (UTC).'
 tags:

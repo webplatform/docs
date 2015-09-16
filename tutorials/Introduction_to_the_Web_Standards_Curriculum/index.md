@@ -1,5 +1,5 @@
 ---
-title: Introduction to the Web Standards Curriculum
+title: 'Introduction to the Web Standards Curriculum'
 tags:
   - Tutorials
   - WSC

@@ -1,7 +1,10 @@
 ---
-title: align (Table, iframe elements)
+title: 'align (Table, iframe elements)'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: 'align (Table, iframe elements)'
+  topic: html
 notes:
   - 'Needs summary, cleanup, more/better examples'
 readiness: 'Not Ready'
@@ -48,5 +51,5 @@ If the **align** property is not set on the object, the table is aligned to the 
 
 ### Related pages
 
--   `table`
+-   table[table](/html/elements/table)
 -   `iframe`

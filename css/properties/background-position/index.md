@@ -1,8 +1,11 @@
 ---
-title: background-position
+title: 'background-position'
 code_samples:
   - 'http://chrisdavidmills.github.com/basic-background-position/'
   - 'http://chrisdavidmills.github.com/css-sprites-example/'
+compatibility:
+  feature: background-position
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`0% 0%`'
   'Applies to': 'All elements'

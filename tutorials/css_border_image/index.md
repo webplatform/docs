@@ -1,5 +1,5 @@
 ---
-title: Decorating fancy borders with CSS border-image
+title: 'Decorating fancy borders with CSS border-image'
 notes:
   - Stub
 readiness: 'Not Ready'

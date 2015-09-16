@@ -1,7 +1,10 @@
 ---
-title: setInt32
+title: 'setInt32'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212460(v=vs.94).aspx)'
+compatibility:
+  feature: setInt32
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets the Int32 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be set at any offset.'
 tags:

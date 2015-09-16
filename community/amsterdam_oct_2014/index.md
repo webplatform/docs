@@ -1,5 +1,5 @@
 ---
-title: amsterdam oct 2014
+title: 'amsterdam oct 2014'
 uri: 'community/amsterdam oct 2014'
 
 ---

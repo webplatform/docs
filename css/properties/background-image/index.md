@@ -1,7 +1,10 @@
 ---
-title: background-image
+title: 'background-image'
 code_samples:
   - 'http://chrisdavidmills.github.com/background-image/background-image.html'
+compatibility:
+  feature: background-image
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`none`'
   'Applies to': 'All elements'

@@ -1,7 +1,10 @@
 ---
-title: parse
+title: 'parse'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/cc836466(v=vs.94).aspx)'
+compatibility:
+  feature: parse
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Converts a JavaScript Object Notation (JSON) string into an object.'
 tags:

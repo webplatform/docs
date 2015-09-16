@@ -1,5 +1,5 @@
 ---
-title: SVG filters
+title: 'SVG filters'
 notes:
   - Stub
 readiness: 'Not Ready'

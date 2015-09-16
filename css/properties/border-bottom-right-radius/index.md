@@ -1,5 +1,8 @@
 ---
-title: border-bottom-right-radius
+title: 'border-bottom-right-radius'
+compatibility:
+  feature: border-bottom-right-radius
+  topic: css
 notes:
   - 'Add example, description, specifications, compatibility.'
 overview_table:

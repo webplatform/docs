@@ -1,5 +1,5 @@
 ---
-title: toLowerCase
+title: 'toLowerCase'
 uri: 'concepts/programming/javascript/core objects/js/objects/String/toLowerCase'
 
 ---

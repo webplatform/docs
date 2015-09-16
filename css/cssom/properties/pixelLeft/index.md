@@ -1,5 +1,5 @@
 ---
-title: pixelLeft
+title: 'pixelLeft'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -44,6 +44,6 @@ The **pixelLeft** property reflects the value of the Cascading Style Sheets (CSS
 
 ### Related pages
 
--   `runtimeStyle`
--   `style`
--   `posLeft`
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   posLeft[posLeft](/css/cssom/properties/posLeft)

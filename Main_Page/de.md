@@ -1,5 +1,5 @@
 ---
-title: Willkommen auf Web Platform Docs
+title: 'Willkommen auf Web Platform Docs'
 lang: de
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

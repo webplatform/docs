@@ -1,5 +1,5 @@
 ---
-title: SVG graphic effects
+title: 'SVG graphic effects'
 notes:
   - 'Fix multiple broken links'
 readiness: 'In Progress'

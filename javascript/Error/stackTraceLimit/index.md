@@ -1,7 +1,10 @@
 ---
-title: stackTraceLimit
+title: 'stackTraceLimit'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh699849(v=vs.94).aspx)'
+compatibility:
+  feature: stackTraceLimit
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets or sets the stack trace limit, which is equivalent to the number of error frames to display. The default limit is 10.'
 tags:

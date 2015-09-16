@@ -1,7 +1,10 @@
 ---
-title: translate3d()
+title: 'translate3d()'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: translate3d()
+  topic: css
 notes:
   - 'might be able to merge with regular translate function, with a notation on how the 3D version differs'
 readiness: 'Ready to Use'

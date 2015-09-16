@@ -1,5 +1,5 @@
 ---
-title: currentTime
+title: 'currentTime'
 readiness: readiness-state
 relationships:
   applies_to:

@@ -1,7 +1,10 @@
 ---
-title: parse
+title: 'parse'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/k4w173wk(v=vs.94).aspx)'
+compatibility:
+  feature: parse
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Parses a string containing a date, and returns the number of milliseconds between that date and midnight, January 1, 1970.'
 tags:

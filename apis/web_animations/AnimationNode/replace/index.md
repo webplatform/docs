@@ -1,5 +1,5 @@
 ---
-title: replace
+title: 'replace'
 readiness: 'Almost Ready'
 relationships:
   method_of:

@@ -1,7 +1,10 @@
 ---
-title: comma
+title: 'comma'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/9b37css7(v=vs.94).aspx)'
+compatibility:
+  feature: comma
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'The comma operator (,) causes two expressions to be executed sequentially.'
 tags:

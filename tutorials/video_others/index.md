@@ -1,5 +1,5 @@
 ---
-title: HTML5 Video and Other Recommendations
+title: 'HTML5 Video and Other Recommendations'
 readiness: 'Ready to Use'
 summary: 'Overview about HTML5 Video interaction with other web standards and technologies'
 tags:

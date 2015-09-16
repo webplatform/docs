@@ -1,7 +1,10 @@
 ---
-title: border
+title: 'border'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: border
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -56,10 +59,10 @@ Setting a border to `0` or omitting the attribute causes no border to be display
 -   `object`
 -   `img`
 -   `LayoutRect`
--   `table`
+-   table[table](/html/elements/table)
 -   `Reference`
--   `borderColor`
--   `borderColorDark`
--   `borderColorLight`
--   `hspace`
--   `vspace`
+-   borderColor[borderColor](/css/properties/border-color)
+-   borderColorDark[borderColorDark](/html/attributes/borderColorDark)
+-   borderColorLight[borderColorLight](/html/attributes/borderColorLight)
+-   hspace[hspace](/html/attributes/hspace)
+-   vspace[vspace](/html/attributes/vspace)

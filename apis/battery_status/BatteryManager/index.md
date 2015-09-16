@@ -1,5 +1,5 @@
 ---
-title: BatteryManager
+title: 'BatteryManager'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'The object that exposes the battery status information.'

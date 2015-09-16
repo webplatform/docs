@@ -1,5 +1,5 @@
 ---
-title: delay
+title: 'delay'
 readiness: readiness-state
 relationships:
   applies_to:

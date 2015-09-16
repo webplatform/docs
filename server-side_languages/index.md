@@ -1,5 +1,5 @@
 ---
-title: Server-side languages
+title: 'Server-side languages'
 notes:
   - 'Should not be a webplatform.org topic; deletion candidate'
 readiness: 'Not Ready'

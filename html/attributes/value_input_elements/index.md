@@ -1,7 +1,10 @@
 ---
-title: value (input elements)
+title: 'value (input elements)'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: 'value (input elements)'
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -71,8 +74,8 @@ The purpose of the **value** property depends on the type of control as describe
 -   `input type=radio`
 -   `input type=reset`
 -   `input type=submit`
--   `input type=range`
--   `input type=number`
--   `input type=email`
--   `input type=url`
--   `input type=tel`
+-   input type=range[input type=range](/html/elements/input/type/range)
+-   input type=number[input type=number](/html/elements/input/type/number)
+-   input type=email[input type=email](/html/elements/input/type/email)
+-   input type=url[input type=url](/html/elements/input/type/url)
+-   input type=tel[input type=tel](/html/elements/input/type/tel)

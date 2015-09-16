@@ -1,5 +1,5 @@
 ---
-title: setOrientation
+title: 'setOrientation'
 readiness: 'Ready to Use'
 relationships:
   method_of:

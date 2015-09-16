@@ -1,5 +1,5 @@
 ---
-title: Best practices for building faster Web apps with HTML5
+title: 'Best practices for building faster Web apps with HTML5'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/speed/quick/)'
 readiness: 'Ready to Use'

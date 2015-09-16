@@ -1,5 +1,5 @@
 ---
-title: Conceptos web generales
+title: 'Conceptos web generales'
 lang: es
 notes:
   - 'Not in English'

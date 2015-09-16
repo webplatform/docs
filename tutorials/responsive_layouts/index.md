@@ -1,5 +1,5 @@
 ---
-title: Creating responsive layouts
+title: 'Creating responsive layouts'
 notes:
   - 'Needs content'
 readiness: 'Not Ready'

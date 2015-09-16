@@ -1,5 +1,5 @@
 ---
-title: container element
+title: 'container element'
 notes:
   - 'Unless glossary items are excluded, including examples and especially figures and other visual examples will be useful when defining DOM et al.'
 readiness: 'In Progress'

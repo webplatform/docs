@@ -1,5 +1,5 @@
 ---
-title: Internationalization and Localization
+title: 'Internationalization and Localization'
 readiness: 'Ready to Use'
 summary: 'Introduction to internationalization, best practices'
 tags:

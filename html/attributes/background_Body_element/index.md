@@ -1,7 +1,10 @@
 ---
-title: background (Body element)
+title: 'background (Body element)'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: 'background (Body element)'
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -50,6 +53,6 @@ This property is deprecated in favor of the [**background-image**](/css/properti
 
 -   `body`
 -   `Reference`
--   `backgroundImage`
+-   backgroundImage[backgroundImage](/css/properties/background-image)
 -   `Conceptual`
 -   `Defining Document Compatibility`

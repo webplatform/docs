@@ -1,7 +1,10 @@
 ---
-title: lastParen
+title: 'lastParen'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/x4bh3xk2(v=vs.94).aspx)'
+compatibility:
+  feature: lastParen
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the last parenthesized submatch from any regular expression search, if any. Read-only.'
 tags:

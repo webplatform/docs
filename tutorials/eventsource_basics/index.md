@@ -1,5 +1,5 @@
 ---
-title: Streaming updates with server-sent events
+title: 'Streaming updates with server-sent events'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/eventsource/basics/)'
 readiness: 'Ready to Use'

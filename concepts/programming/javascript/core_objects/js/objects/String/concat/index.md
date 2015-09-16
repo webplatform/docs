@@ -1,5 +1,5 @@
 ---
-title: concat
+title: 'concat'
 uri: 'concepts/programming/javascript/core objects/js/objects/String/concat'
 
 ---

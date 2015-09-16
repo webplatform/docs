@@ -1,5 +1,5 @@
 ---
-title: HTML Imports: #include for the web
+title: 'HTML Imports: #include for the web'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/webcomponents/imports/)'
 readiness: 'Ready to Use'

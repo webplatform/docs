@@ -1,5 +1,5 @@
 ---
-title: parentElement
+title: 'parentElement'
 attributions:
   - 'Microsoft Developer Network: [[parentElement Method](http://msdn.microsoft.com/en-us/library/ie/ms536654(v=vs.85).aspx) Article]'
 notes:

@@ -1,9 +1,12 @@
 ---
-title: g
+title: 'g'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/09f7ebf9fa8ed1d9b0d6'
+compatibility:
+  feature: g
+  topic: svg
 notes:
   - 'Needs spec reference, standardization status, fix broken link'
 overview_table:

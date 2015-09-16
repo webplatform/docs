@@ -1,5 +1,5 @@
 ---
-title: 表・テーブル
+title: '表・テーブル'
 lang: ja
 notes:
   - 'needs translation'

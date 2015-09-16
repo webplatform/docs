@@ -1,5 +1,5 @@
 ---
-title: SVG basic shapes and text
+title: 'SVG basic shapes and text'
 notes:
   - 'Fix multiple broken links'
 readiness: 'In Progress'

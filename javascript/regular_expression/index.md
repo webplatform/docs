@@ -1,7 +1,10 @@
 ---
-title: regular expression
+title: 'regular expression'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/h6e2eb7w(v=vs.94).aspx)'
+compatibility:
+  feature: 'regular expression'
+  topic: javascript
 notes:
   - 'Dup of javascript/RegExp; deletion candidate.'
 readiness: 'Not Ready'

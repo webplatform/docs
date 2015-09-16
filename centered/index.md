@@ -1,5 +1,5 @@
 ---
-title: centered
+title: 'centered'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

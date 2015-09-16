@@ -1,5 +1,8 @@
 ---
-title: grid-template-areas
+title: 'grid-template-areas'
+compatibility:
+  feature: grid-template-areas
+  topic: css
 notes:
   - 'Add description, compatibility.'
 overview_table:

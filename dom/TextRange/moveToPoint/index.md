@@ -1,5 +1,5 @@
 ---
-title: moveToPoint
+title: 'moveToPoint'
 attributions:
   - 'Microsoft Developer Network: [[moveToPoint Method](http://msdn.microsoft.com/en-us/library/ie/ms536632(v=vs.85).aspx) Article]'
 notes:

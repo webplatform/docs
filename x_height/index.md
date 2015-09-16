@@ -1,5 +1,5 @@
 ---
-title: x height
+title: 'x height'
 notes:
   - 'Glossary term; move candidate, possibly rename to x-height'
 readiness: 'Not Ready'

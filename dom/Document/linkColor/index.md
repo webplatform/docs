@@ -1,5 +1,5 @@
 ---
-title: linkColor
+title: 'linkColor'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -42,5 +42,5 @@ The **linkColor** property can be set by using the **body** object's [**onload**
 ### Related pages
 
 -   `Reference`
--   `alinkColor`
--   `vlinkColor`
+-   alinkColor[alinkColor](/html/attributes/alinkColor)
+-   vlinkColor[vlinkColor](/dom/Document/vlinkColor)

@@ -1,7 +1,10 @@
 ---
-title: box-line-progression
+title: 'box-line-progression'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: box-line-progression
+  topic: css
 notes:
   - 'Add example, specifications, compatibility.'
 overview_table:
@@ -82,6 +85,6 @@ Gets or sets a value that specifies the direction to add successive rows or colu
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)

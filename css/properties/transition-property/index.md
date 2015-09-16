@@ -1,9 +1,12 @@
 ---
-title: transition-property
+title: 'transition-property'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5842100'
+compatibility:
+  feature: transition-property
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`all`'
   'Applies to': "all elements,\_:before and\_:after pseudo elements"

@@ -1,5 +1,5 @@
 ---
-title: <frequency>
+title: '<frequency>'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The &lt;frequency&gt; CSS data type allows for the specification of the pitch of sounds, expressed as a number followed (without whitespace) by one of the frequency units: Hz and kHz.'

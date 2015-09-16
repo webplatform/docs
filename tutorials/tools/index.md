@@ -1,5 +1,5 @@
 ---
-title: Tools tutorials
+title: 'Tools tutorials'
 readiness: 'Ready to Use'
 summary: 'This page contains links to tools tutorials.'
 tags:

@@ -1,5 +1,5 @@
 ---
-title: height
+title: 'height'
 attributions:
   - 'Microsoft Developer Network: [[height Property - PointerEvent](http://msdn.microsoft.com/en-us/library/ie/dn255064(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

@@ -1,5 +1,5 @@
 ---
-title: firstChild
+title: 'firstChild'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[TreeWalker.firstChild](https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker.firstChild) Article]'
   - 'Microsoft Developer Network: [[firstChild Method](http://msdn.microsoft.com/en-us/library/ie/ff975258(v=vs.85).aspx) Article]'

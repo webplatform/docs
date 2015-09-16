@@ -1,5 +1,5 @@
 ---
-title: remove
+title: 'remove'
 readiness: 'Almost Ready'
 relationships:
   method_of:

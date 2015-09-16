@@ -1,5 +1,5 @@
 ---
-title: css applies to
+title: 'css applies to'
 uri: 'css/concepts/css applies to'
 
 ---

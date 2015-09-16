@@ -1,5 +1,5 @@
 ---
-title: window.location.hostname
+title: 'window.location.hostname'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

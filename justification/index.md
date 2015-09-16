@@ -1,5 +1,5 @@
 ---
-title: justification
+title: 'justification'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

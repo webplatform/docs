@@ -1,5 +1,5 @@
 ---
-title: Yepnoe
+title: 'Yepnoe'
 notes:
   - 'No content; should not be a webplatform.org topic; deletion candidate'
 readiness: 'Not Ready'

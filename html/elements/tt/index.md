@@ -1,7 +1,10 @@
 ---
-title: tt
+title: 'tt'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: tt
+  topic: html
 notes:
   - 'Integrate MSDN content into WPD sections, find specs showing deprecated status, create live example comparing deprecated and recommended ways to create monospaced text'
 overview_table:

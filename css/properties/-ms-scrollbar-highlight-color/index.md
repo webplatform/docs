@@ -1,5 +1,5 @@
 ---
-title: -ms-scrollbar-highlight-color
+title: '-ms-scrollbar-highlight-color'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -93,16 +93,16 @@ There are no standards that apply here.
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaultSelected`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaultSelected[defaultSelected](/dom/HTMLOptionElement/defaultSelected)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `Reference`
--   `-ms-scrollbar-3dlight-color`
--   `-ms-scrollbar-arrow-color`
--   `-ms-scrollbar-base-color`
--   `-ms-scrollbar-darkshadow-color`
--   `-ms-scrollbar-face-color`
--   `-ms-scrollbar-shadow-color`
--   `-ms-scrollbar-track-color`
+-   -ms-scrollbar-3dlight-color[-ms-scrollbar-3dlight-color](/css/properties/-ms-scrollbar-3d-light-color)
+-   -ms-scrollbar-arrow-color[-ms-scrollbar-arrow-color](/css/properties/-ms-scrollbar-arrow-color)
+-   -ms-scrollbar-base-color[-ms-scrollbar-base-color](/css/properties/-ms-scrollbar-base-color)
+-   -ms-scrollbar-darkshadow-color[-ms-scrollbar-darkshadow-color](/css/properties/-ms-scrollbar-darkshadow-color)
+-   -ms-scrollbar-face-color[-ms-scrollbar-face-color](/css/properties/-ms-scrollbar-face-color)
+-   -ms-scrollbar-shadow-color[-ms-scrollbar-shadow-color](/css/properties/-ms-scrollbar-shadow-color)
+-   -ms-scrollbar-track-color[-ms-scrollbar-track-color](/css/properties/-ms-scrollbar-track-color)

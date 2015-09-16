@@ -1,7 +1,10 @@
 ---
-title: hasOwnProperty
+title: 'hasOwnProperty'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/328kyd6z(v=vs.94).aspx)'
+compatibility:
+  feature: hasOwnProperty
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Determines whether an object has a property with the specified name.'
 tags:

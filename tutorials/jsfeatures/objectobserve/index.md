@@ -1,5 +1,5 @@
 ---
-title: Respond to change with Object.observe
+title: 'Respond to change with Object.observe'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://updates.html5rocks.com/2012/11/Respond-to-change-with-Object-observe)'
 readiness: 'Ready to Use'

@@ -1,5 +1,5 @@
 ---
-title: destination
+title: 'destination'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

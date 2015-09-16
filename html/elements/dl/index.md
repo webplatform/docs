@@ -1,7 +1,10 @@
 ---
-title: dl – description list
+title: 'dl – description list'
 code_samples:
   - 'http://gist.github.com/5821157'
+compatibility:
+  feature: dl
+  topic: html
 notes:
   - 'Add Category and Compatibility information.'
 overview_table:

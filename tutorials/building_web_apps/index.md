@@ -1,5 +1,5 @@
 ---
-title: Building web apps
+title: 'Building web apps'
 attributions:
   - 'Facebook HTML5 Resource Center.'
 readiness: 'Ready to Use'

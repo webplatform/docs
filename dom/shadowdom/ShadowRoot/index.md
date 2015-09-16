@@ -1,5 +1,5 @@
 ---
-title: ShadowRoot
+title: 'ShadowRoot'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The ShadowRoot object is the point of entry to a shadow tree, which provides functional encapsulation of DOM objects within an established document.'

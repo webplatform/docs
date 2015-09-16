@@ -1,7 +1,10 @@
 ---
-title: aria-haspopup
+title: 'aria-haspopup'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: aria-haspopup
+  topic: aria
 notes:
   - 'Needs summary, example, spec reference, standardization status'
 readiness: 'Not Ready'
@@ -59,5 +62,5 @@ No role required.
 
 ### Related pages
 
--   `Accessible Rich Internet Applications (ARIA)`
--   `W3C ARIA-Haspopup`
+-   Accessible Rich Internet Applications (ARIA)[Accessible Rich Internet Applications (ARIA)](/aria)
+-   W3C ARIA-Haspopup[W3C ARIA-Haspopup](http://go.microsoft.com/fwlink/p/?linkid=203793)

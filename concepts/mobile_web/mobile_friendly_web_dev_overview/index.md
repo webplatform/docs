@@ -1,5 +1,5 @@
 ---
-title: Mobile-friendly web design and development overview
+title: 'Mobile-friendly web design and development overview'
 notes:
   - 'Outline only; needs content.'
 readiness: 'Not Ready'

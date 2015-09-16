@@ -1,5 +1,5 @@
 ---
-title: Part 5: Styling our content with CSS
+title: 'Part 5: Styling our content with CSS'
 notes:
   - "No content. Only editorial notes but nothing usable.\nSuggested topics to cover: \n\n reviewing basic CSS anatomy\n look at box model in detail \n setting global styles - look at fonts, resets (normalize.css), sizing headers and other components\n basic layout - float the main and sidebar, to show how floating works, add in clearfix\n Add padding and margins, show how they work\n style the navigation menu\n typography\n look at adding some CSS3 bling, like gradients, rounded corners, etc."
 readiness: 'Not Ready'

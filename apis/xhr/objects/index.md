@@ -1,5 +1,5 @@
 ---
-title: objects
+title: 'objects'
 notes:
   - 'Listing page with no children.'
 readiness: 'Not Ready'

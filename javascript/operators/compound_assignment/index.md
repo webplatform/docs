@@ -1,7 +1,10 @@
 ---
-title: compound assignment operators
+title: 'compound assignment operators'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/what800t(v=vs.94).aspx)'
+compatibility:
+  feature: 'compound assignment'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'The following table lists JavaScript compound assignment operators.'
 tags:

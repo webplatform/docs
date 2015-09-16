@@ -1,5 +1,5 @@
 ---
-title: addtrack
+title: 'addtrack'
 notes:
   - 'Needs example, usage, spec reference'
 readiness: 'Not Ready'

@@ -1,7 +1,10 @@
 ---
-title: slice
+title: 'slice'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/6w1bzf9f(v=vs.94).aspx)'
+compatibility:
+  feature: slice
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns a section of a string.'
 tags:

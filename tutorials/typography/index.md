@@ -1,5 +1,5 @@
 ---
-title: typography
+title: 'typography'
 readiness: 'Ready to Use'
 summary: 'This page contains links to typography-related tutorials.'
 tags:

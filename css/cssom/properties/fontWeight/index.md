@@ -1,5 +1,5 @@
 ---
-title: fontWeight
+title: 'fontWeight'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -223,8 +223,8 @@ The **fontWeight** property of the [**currentStyle**](/css/cssom/currentStyle) o
 
 ### Related pages
 
--   `currentStyle`
--   `defaults`
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
 -   `Reference`
--   `fontWeight`
--   `font`
+-   fontWeight[fontWeight](/css/properties/font-weight)
+-   font[font](/css/properties/font)

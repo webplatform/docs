@@ -1,10 +1,13 @@
 ---
-title: colgroup
+title: 'colgroup'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/colgroupEX1.htm'
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/colgroupEX2.htm'
+compatibility:
+  feature: colgroup
+  topic: html
 notes:
   - 'Add Category, Parent, Children and Compatibility information.'
 overview_table:

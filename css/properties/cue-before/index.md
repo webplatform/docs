@@ -1,5 +1,8 @@
 ---
-title: cue-before
+title: 'cue-before'
+compatibility:
+  feature: cue-before
+  topic: css
 notes:
   - 'Add values, syntax, example, description, compatibility.'
 overview_table:

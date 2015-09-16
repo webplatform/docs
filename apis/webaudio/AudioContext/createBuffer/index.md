@@ -1,5 +1,5 @@
 ---
-title: createBuffer
+title: 'createBuffer'
 readiness: 'Ready to Use'
 relationships:
   method_of:

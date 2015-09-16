@@ -1,5 +1,5 @@
 ---
-title: Canvas Tutorials
+title: 'Canvas Tutorials'
 notes:
   - 'Needs links to other existing tutorials'
 readiness: 'Almost Ready'

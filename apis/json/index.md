@@ -1,5 +1,5 @@
 ---
-title: JSON
+title: 'JSON'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "JSON is a native API for parsing and serialising information to the JSON format.\n"

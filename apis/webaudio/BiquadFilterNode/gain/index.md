@@ -1,5 +1,5 @@
 ---
-title: gain
+title: 'gain'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

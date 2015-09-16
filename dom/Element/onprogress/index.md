@@ -1,5 +1,5 @@
 ---
-title: onprogress
+title: 'onprogress'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -47,4 +47,4 @@ This event reports back the number of bytes loaded from the stream so far. You c
 
 ### Related pages
 
--   `FileReader`
+-   FileReader[FileReader](/apis/file/FileReader)

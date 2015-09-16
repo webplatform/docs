@@ -1,7 +1,10 @@
 ---
-title: aria-activedescendant
+title: 'aria-activedescendant'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: aria-activedescendant
+  topic: aria
 notes:
   - 'Needs summary, example, spec reference, standardization status'
 readiness: 'Not Ready'
@@ -73,4 +76,4 @@ The container element should change the designated descendant during a [**keypre
 
 ### Related pages
 
--   `Accessible Rich Internet Applications (ARIA)`
+-   Accessible Rich Internet Applications (ARIA)[Accessible Rich Internet Applications (ARIA)](/aria)

@@ -1,5 +1,5 @@
 ---
-title: General Programming Concepts
+title: 'General Programming Concepts'
 notes:
   - "This article may need to be a topic all its own. However it started, it seems now to be an attempt to provide the reader a compressed version of a four-year software development degree. I have tried to provide a syllabus, but there may be plenty more to add.\nTo explain, I have tried to break down the subjects by level of required background knowledge and essentially develop a syllabus. The first level of the bulleted list is intended to be the link to the concept page and the second level outlines the intended content of the associated concept page.\n\nAs the first-level pages are written to cover the second-level topics, remove the second level topics that have been covered."
 readiness: 'In Progress'

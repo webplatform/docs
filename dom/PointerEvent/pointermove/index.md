@@ -1,5 +1,5 @@
 ---
-title: pointermove
+title: 'pointermove'
 attributions:
   - 'Microsoft Developer Network: [[pointermove Event](http://msdn.microsoft.com/en-us/library/ie/hh771911(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

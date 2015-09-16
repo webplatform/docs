@@ -1,5 +1,5 @@
 ---
-title: JavaScriptの関数
+title: 'JavaScriptの関数'
 lang: ja
 notes:
   - 'No content; deletion candidate'

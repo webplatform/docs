@@ -1,7 +1,10 @@
 ---
-title: bitwise or assignment
+title: 'bitwise or assignment'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/81bads72(v=vs.94).aspx)'
+compatibility:
+  feature: 'bitwise or assignment'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Performs a bitwise OR on the value of a variable and the value of an expression and assigns the result to the variable.'
 tags:

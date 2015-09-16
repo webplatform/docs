@@ -1,5 +1,5 @@
 ---
-title: Vibration API
+title: 'Vibration API'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The Vibration API provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback, often used by mobile phones.'

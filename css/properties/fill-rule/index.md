@@ -1,8 +1,11 @@
 ---
-title: fill-rule
+title: 'fill-rule'
 code_samples:
   - 'http://www.w3.org/TR/SVG/images/painting/fillrule-nonzero.svg'
   - 'http://www.w3.org/TR/SVG/images/painting/fillrule-evenodd.svg'
+compatibility:
+  feature: fill-rule
+  topic: css
 notes:
   - "Complete values, add compatibility.\nThe SVG property pages will be linked to here."
 overview_table:

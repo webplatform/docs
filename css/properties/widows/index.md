@@ -1,7 +1,10 @@
 ---
-title: widows
+title: 'widows'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: widows
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`2`'
   'Applies to': 'All elements'
@@ -111,8 +114,8 @@ The **widows** property takes precedence over [**orphans**](/css/properties/orph
 
 ### Related pages
 
--   `orphans`
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   orphans[orphans](/css/properties/orphans)
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)

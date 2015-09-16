@@ -1,5 +1,5 @@
 ---
-title: Code minification
+title: 'Code minification'
 readiness: 'In Progress'
 summary: 'Minification is the process of transforming a file in a way such that while the functionality of the input file are kept unchanged, the resulting file is much smaller. In the context of JavaScript and web applications, minification is especially useful because it can help reduce page load times. In larger projects, minification is generally integrated into a build process.'
 tags:

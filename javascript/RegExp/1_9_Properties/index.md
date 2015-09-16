@@ -1,7 +1,10 @@
 ---
-title: 1...9 Properties
+title: '1...9 Properties'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/24th3sah(v=vs.94).aspx)'
+compatibility:
+  feature: '1 9 Properties'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Return the nine most-recently memorized portions found during pattern matching. Read-only.'
 tags:

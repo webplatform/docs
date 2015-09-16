@@ -1,5 +1,5 @@
 ---
-title: edge case
+title: 'edge case'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

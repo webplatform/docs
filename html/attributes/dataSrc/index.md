@@ -1,7 +1,10 @@
 ---
-title: dataSrc
+title: 'dataSrc'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: dataSrc
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -55,7 +58,7 @@ The [**dataFld**](/html/attributes/dataFld) property is not available on **param
 
 ### Related pages
 
--   `a`
+-   a[a](/html/elements/a)
 -   `applet`
 -   `button`
 -   `div`
@@ -76,6 +79,6 @@ The [**dataFld**](/html/attributes/dataFld) property is not available on **param
 -   `option`
 -   `select`
 -   `span`
--   `table`
+-   table[table](/html/elements/table)
 -   `textArea`
 -   `Introduction to Data Binding`

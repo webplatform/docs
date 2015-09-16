@@ -1,7 +1,10 @@
 ---
-title: some
+title: 'some'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679978(v=vs.94).aspx)'
+compatibility:
+  feature: some
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Determines whether the specified callback function returns true for any element of an array.'
 tags:

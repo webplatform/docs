@@ -1,5 +1,5 @@
 ---
-title: Objects in JavaScript
+title: 'Objects in JavaScript'
 notes:
   - 'Links should be changed to WPD articles when they become available.'
 readiness: 'Almost Ready'

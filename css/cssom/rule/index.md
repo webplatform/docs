@@ -1,5 +1,5 @@
 ---
-title: rule
+title: 'rule'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -59,4 +59,4 @@ The **rule** object defines a set of Cascading Style Sheets (CSS) attributes app
 
 ### Related pages
 
--   `rules`
+-   rules[rules](/css/cssom/rules)

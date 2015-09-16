@@ -1,5 +1,5 @@
 ---
-title: Responsive Web Design
+title: 'Responsive Web Design'
 readiness: 'Ready to Use'
 summary: 'Responsive Web Design is an approach that emphasises design which works well across a variety of devices and browsing contexts -- without serving different content for each different operating system, device, browser, display size or pixel density.'
 tags:

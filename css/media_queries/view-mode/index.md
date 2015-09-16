@@ -1,5 +1,8 @@
 ---
-title: view-mode
+title: 'view-mode'
+compatibility:
+  feature: view-mode
+  topic: css
 notes:
   - 'Add summery, values, syntax, example, description, specifications, compatibility.'
 readiness: 'Not Ready'

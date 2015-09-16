@@ -1,5 +1,8 @@
 ---
-title: flow-into
+title: 'flow-into'
+compatibility:
+  feature: flow-into
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`none`'
   'Applies to': 'Block elements, excluding pseudo-elements such as **::before** or **::after**.'

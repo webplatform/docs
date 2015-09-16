@@ -1,5 +1,5 @@
 ---
-title: 文書構造を決める要素
+title: '文書構造を決める要素'
 lang: ja
 notes:
   - 'needs translation'

@@ -1,5 +1,8 @@
 ---
-title: kerning-pair-threshold
+title: 'kerning-pair-threshold'
+compatibility:
+  feature: kerning-pair-threshold
+  topic: css
 notes:
   - 'Add summery, values, syntax, example, description, specifications, compatibility.'
 overview_table:

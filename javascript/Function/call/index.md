@@ -1,7 +1,10 @@
 ---
-title: call
+title: 'call'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/h2ak8h2y(v=vs.94).aspx)'
+compatibility:
+  feature: call
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Calls a method of an object, substituting another object for the current object.'
 tags:

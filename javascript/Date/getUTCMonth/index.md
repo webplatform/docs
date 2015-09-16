@@ -1,7 +1,10 @@
 ---
-title: getUTCMonth
+title: 'getUTCMonth'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hkd7k0a3(v=vs.94).aspx)'
+compatibility:
+  feature: getUTCMonth
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the month of a Date object using Universal Coordinated Time (UTC).'
 tags:

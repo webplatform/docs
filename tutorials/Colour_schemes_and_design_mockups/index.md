@@ -1,5 +1,5 @@
 ---
-title: Colour schemes and design mockups
+title: 'Colour schemes and design mockups'
 tags:
   - Tutorials
   - WSC

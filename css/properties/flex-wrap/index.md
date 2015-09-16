@@ -1,9 +1,12 @@
 ---
-title: flex-wrap
+title: 'flex-wrap'
 code_samples:
   - 'http://gist.github.com/4740662'
   - 'http://gist.github.com/4740667'
   - 'http://gist.github.com/4740670'
+compatibility:
+  feature: flex-wrap
+  topic: css
 notes:
   - 'Add description and compatibility.'
 overview_table:

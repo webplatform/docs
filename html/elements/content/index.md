@@ -1,5 +1,8 @@
 ---
-title: content
+title: 'content'
+compatibility:
+  feature: content
+  topic: html
 notes:
   - 'Deletion Candidate'
 overview_table:

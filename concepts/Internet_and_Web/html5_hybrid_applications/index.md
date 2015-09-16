@@ -1,5 +1,5 @@
 ---
-title: HTML5 hybrid applications
+title: 'HTML5 hybrid applications'
 attributions:
   - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
 readiness: 'Ready to Use'

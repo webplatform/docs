@@ -1,7 +1,10 @@
 ---
-title: baseline-shift
+title: 'baseline-shift'
 code_samples:
   - 'http://gist.github.com/7001747'
+compatibility:
+  feature: baseline-shift
+  topic: css
 notes:
   - 'Obsolete; deletion candidate'
 overview_table:

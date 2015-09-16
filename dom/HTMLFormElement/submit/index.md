@@ -1,5 +1,5 @@
 ---
-title: submit
+title: 'submit'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -61,4 +61,4 @@ The **submit** method does not invoke the **onsubmit** event handler. Call the *
 -   `form`
 -   `Reference`
 -   `input`
--   `reset`
+-   reset[reset](/dom/HTMLFormElement/reset)

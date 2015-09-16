@@ -1,7 +1,10 @@
 ---
-title: translateZ()
+title: 'translateZ()'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: translateZ()
+  topic: css
 readiness: 'In Progress'
 tags:
   - CSS
@@ -75,6 +78,6 @@ div {
 ### Related pages
 
 -   `Transform Functions`
--   `Mathematical Description of Transform Functions`
+-   Mathematical Description of Transform Functions[Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246)
 -   `Direct3D: Matrices`
--   `Hands On: 3-D Transforms`
+-   Hands On: 3-D Transforms[Hands On: 3-D Transforms](http://go.microsoft.com/fwlink/?LinkId=227893)

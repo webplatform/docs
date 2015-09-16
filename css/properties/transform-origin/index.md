@@ -1,11 +1,14 @@
 ---
-title: transform-origin
+title: 'transform-origin'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
 code_samples:
   - 'http://gist.github.com/6983020'
   - 'http://gist.github.com/6983052'
   - 'http://gist.github.com/6983069'
+compatibility:
+  feature: transform-origin
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`50% 50%`'
   'Applies to': 'Transformable elements.'
@@ -126,7 +129,7 @@ If the `transform-origin` property is not set, the transform begins in the cente
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
--   `transform`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)
+-   transform[transform](/css/transforms/transform)

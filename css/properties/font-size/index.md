@@ -1,8 +1,11 @@
 ---
-title: font-size
+title: 'font-size'
 code_samples:
   - 'http://gist.github.com/5628042'
   - 'http://gist.github.com/5628240'
+compatibility:
+  feature: font-size
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`medium`'
   'Applies to': 'All elements'

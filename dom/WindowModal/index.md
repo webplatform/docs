@@ -1,5 +1,5 @@
 ---
-title: WindowModal
+title: 'WindowModal'
 readiness: 'Ready to Use'
 relationships:
   subclass_of:

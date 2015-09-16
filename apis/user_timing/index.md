@@ -1,5 +1,5 @@
 ---
-title: user timing
+title: 'user timing'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'This API defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.'

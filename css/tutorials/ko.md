@@ -1,5 +1,5 @@
 ---
-title: tutorials
+title: 'tutorials'
 lang: ko
 summary: '캐스캐이딩 스타일시트 (CSS)는 마크업 콘텐츠(예: HTML, SVG, XML 등)을 꾸미는-스타일을 적용하는- 언어이다. 이 문서는 CSS를 학습하거나 고급 CSS 기법에 입문하려는 분들 모두에게 적합한 자습서 목록들로 구성된다.'
 todo_broken_links:

@@ -1,5 +1,5 @@
 ---
-title: AudioTrackList
+title: 'AudioTrackList'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'An AudioTrackList object represents a dynamic list of zero or more audio tracks, of which zero or more can be enabled at a time. Each audio track is represented by an AudioTrack object.'

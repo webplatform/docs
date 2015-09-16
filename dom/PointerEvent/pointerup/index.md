@@ -1,5 +1,5 @@
 ---
-title: pointerup
+title: 'pointerup'
 attributions:
   - 'Microsoft Developer Network: [[pointerup Event](http://msdn.microsoft.com/en-us/library/ie/hh771914(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

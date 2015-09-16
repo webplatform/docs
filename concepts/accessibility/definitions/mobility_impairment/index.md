@@ -1,5 +1,5 @@
 ---
-title: Mobility Impairment
+title: 'Mobility Impairment'
 summary: "\nA mobility impairment is a person's reduced ability to exercise motor control. This can result from a neurological impact, such as paralysis, or a physical impact, such as an amputation.\n"
 tags:
   - Concept

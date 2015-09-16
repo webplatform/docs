@@ -1,7 +1,10 @@
 ---
-title: for
+title: 'for'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/s1cyybdf(v=vs.94).aspx)'
+compatibility:
+  feature: for
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Executes a block of statements for as long as a specified condition is true.'
 tags:

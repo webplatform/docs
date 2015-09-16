@@ -1,5 +1,8 @@
 ---
-title: !DOCTYPE
+title: '!DOCTYPE'
+compatibility:
+  feature: '!DOCTYPE'
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
 readiness: 'In Progress'

@@ -1,5 +1,5 @@
 ---
-title: <percentage>
+title: '<percentage>'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The &lt;percentage&gt; CSS data type represents a number of measurement relative to another value.  It consists of a decimal or integer number immediately followed (without whitespace) by the percent sign, %.'

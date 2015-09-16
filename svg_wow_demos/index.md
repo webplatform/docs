@@ -1,5 +1,5 @@
 ---
-title: svg wow demos
+title: 'svg wow demos'
 notes:
   - 'Needs to be moved to tutorials, or merged with another guide.'
 readiness: 'Not Ready'

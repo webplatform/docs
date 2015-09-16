@@ -1,7 +1,10 @@
 ---
-title: setUint16
+title: 'setUint16'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212481(v=vs.94).aspx)'
+compatibility:
+  feature: setUint16
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets the Uint16 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be set at any offset.'
 tags:

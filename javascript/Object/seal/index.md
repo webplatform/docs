@@ -1,7 +1,10 @@
 ---
-title: seal
+title: 'seal'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff806192(v=vs.94).aspx)'
+compatibility:
+  feature: seal
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Prevents the modification of attributes of existing properties, and prevents the addition of new properties.'
 tags:

@@ -1,7 +1,10 @@
 ---
-title: ul – unordered list
+title: 'ul – unordered list'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: ul
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLUListElement](/dom/HTMLUListElement)'
 readiness: 'Ready to Use'

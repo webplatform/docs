@@ -1,7 +1,10 @@
 ---
-title: shape-image-threshold
+title: 'shape-image-threshold'
 code_samples:
   - 'http://gist.github.com/5833790'
+compatibility:
+  feature: shape-image-threshold
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`0.0`'
   'Applies to': Floats

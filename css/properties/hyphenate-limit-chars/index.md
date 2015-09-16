@@ -1,7 +1,10 @@
 ---
-title: hyphenate-limit-chars
+title: 'hyphenate-limit-chars'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: hyphenate-limit-chars
+  topic: css
 notes:
   - 'Add description, compatibility.'
 overview_table:
@@ -170,4 +173,4 @@ hyphenate-limit-chars: 6 3 2;
 
 ### Related pages
 
--   `CSSStyleDeclaration`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)

@@ -1,5 +1,5 @@
 ---
-title: coneOuterGain
+title: 'coneOuterGain'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

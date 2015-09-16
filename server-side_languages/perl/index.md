@@ -1,5 +1,5 @@
 ---
-title: perl
+title: 'perl'
 uri: 'server-side languages/perl'
 
 ---

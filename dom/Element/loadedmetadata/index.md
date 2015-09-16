@@ -1,5 +1,5 @@
 ---
-title: loadedmetadata
+title: 'loadedmetadata'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -94,13 +94,13 @@ The **onloadedmetadata** event is raised when enough of the resource has been ob
 
 ### Related pages
 
--   `audioApi`
--   `audioElement`
--   `Document`
--   `source`
--   `videoElement`
--   `videoApi`
--   `Window`
+-   audioApi[audioApi](/apis/audio-video/audio)
+-   audioElement[audioElement](/html/elements/audio)
+-   Document[Document](/dom/Document)
+-   source[source](/html/elements/source)
+-   videoElement[videoElement](/html/elements/video)
+-   videoApi[videoApi](/apis/audio-video/video)
+-   Window[Window](/dom/Window)
 -   `Reference`
--   `onloadstart`
--   `onloadeddata`
+-   onloadstart[onloadstart](/dom/Element/loadstart)
+-   onloadeddata[onloadeddata](/dom/Element/loadeddata)

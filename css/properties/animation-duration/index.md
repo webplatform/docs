@@ -1,10 +1,13 @@
 ---
-title: animation-duration
+title: 'animation-duration'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
 code_samples:
   - 'http://gist.github.com/7010824'
   - 'http://gist.github.com/7010365'
+compatibility:
+  feature: animation-duration
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`0s`'
   'Applies to': 'All elements, ::before and ::after pseudo-elements.'

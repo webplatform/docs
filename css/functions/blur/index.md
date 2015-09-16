@@ -1,7 +1,10 @@
 ---
-title: blur()
+title: 'blur()'
 code_samples:
   - 'http://codepen.io/pverbeek/pen/yiKBv'
+compatibility:
+  feature: blur
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: "Blurs an element, for use by the\nfilter property.  Accepts a distance\nmeasurement within which pixels are randomly scattered. A value of 0\nleaves the image as is.\n"

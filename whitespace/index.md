@@ -1,5 +1,5 @@
 ---
-title: whitespace
+title: 'whitespace'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

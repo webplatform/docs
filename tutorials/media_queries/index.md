@@ -1,5 +1,5 @@
 ---
-title: Targeting styles with media queries
+title: 'Targeting styles with media queries'
 readiness: 'Ready to Use'
 summary: 'Media queries offer an easy way for the client browser to assign different mobile, tablet, and desktop interfaces.'
 tags:

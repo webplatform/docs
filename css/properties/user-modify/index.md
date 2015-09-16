@@ -1,5 +1,8 @@
 ---
-title: user-modify
+title: 'user-modify'
+compatibility:
+  feature: user-modify
+  topic: css
 notes:
   - 'Needs summary, example, usage, spec reference, standardization status, remove topic cluster flags'
 overview_table:

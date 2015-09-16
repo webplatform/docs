@@ -1,7 +1,10 @@
 ---
-title: aria-describedby
+title: 'aria-describedby'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: aria-describedby
+  topic: aria
 notes:
   - 'Needs example, spec reference, standardization status'
 readiness: 'Not Ready'
@@ -55,11 +58,11 @@ This property defines element relationships and associations that cannot be read
 
 ### Related pages
 
--   `Accessible Rich Internet Applications (ARIA)`
+-   Accessible Rich Internet Applications (ARIA)[Accessible Rich Internet Applications (ARIA)](/aria)
 -   `Reference`
--   `aria-controls`
--   `aria-flowto`
--   `aria-labelledby`
--   `aria-owns`
--   `aria-posinset`
--   `aria-setsize`
+-   aria-controls[aria-controls](/aria/attributes/aria-controls)
+-   aria-flowto[aria-flowto](/aria/attributes/aria-flowto)
+-   aria-labelledby[aria-labelledby](/aria/attributes/aria-labelledby)
+-   aria-owns[aria-owns](/aria/attributes/aria-owns)
+-   aria-posinset[aria-posinset](/aria/attributes/aria-posinset)
+-   aria-setsize[aria-setsize](/aria/attributes/aria-setsize)

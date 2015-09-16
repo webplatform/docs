@@ -1,5 +1,8 @@
 ---
-title: rest
+title: 'rest'
+compatibility:
+  feature: rest
+  topic: css
 notes:
   - 'Needs values, usage, example'
 overview_table:

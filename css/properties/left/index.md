@@ -1,9 +1,12 @@
 ---
-title: left
+title: 'left'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/6181854'
+compatibility:
+  feature: left
+  topic: css
 notes:
   - 'Add description, specifications, compatibility.'
 overview_table:
@@ -192,8 +195,8 @@ The HTML for the above example.
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaults`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)

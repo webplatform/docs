@@ -1,7 +1,10 @@
 ---
-title: toISOString
+title: 'toISOString'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff925953(v=vs.94).aspx)'
+compatibility:
+  feature: toISOString
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns a date as a string value in simplified ISO 8601 Extended format.'
 tags:

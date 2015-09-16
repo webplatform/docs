@@ -1,5 +1,5 @@
 ---
-title: readOnly
+title: 'readOnly'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -53,5 +53,5 @@ You cannot modify style sheets obtained through a **link** object or the [**@imp
 
 ### Related pages
 
--   `styleSheet`
--   `rule`
+-   styleSheet[styleSheet](/css/cssom/styleSheet)
+-   rule[rule](/css/cssom/rule)

@@ -1,5 +1,5 @@
 ---
-title: d
+title: 'd'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -45,4 +45,4 @@ element.d = value;
 
 ### Related pages
 
--   `MSCSSMatrix`
+-   MSCSSMatrix[MSCSSMatrix](/css/transforms/MSCSSMatrix)

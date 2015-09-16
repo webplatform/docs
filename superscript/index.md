@@ -1,5 +1,5 @@
 ---
-title: superscript
+title: 'superscript'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

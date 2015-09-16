@@ -1,5 +1,5 @@
 ---
-title: orphan
+title: 'orphan'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

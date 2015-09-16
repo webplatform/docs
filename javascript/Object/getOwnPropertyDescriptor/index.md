@@ -1,7 +1,10 @@
 ---
-title: getOwnPropertyDescriptor
+title: 'getOwnPropertyDescriptor'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dd548686(v=vs.94).aspx)'
+compatibility:
+  feature: getOwnPropertyDescriptor
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the own property descriptor of the specified object. An own property descriptor is one that is defined directly on the object and is not inherited from the object''s prototype.'
 tags:

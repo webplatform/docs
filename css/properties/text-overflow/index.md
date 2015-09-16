@@ -1,10 +1,13 @@
 ---
-title: text-overflow
+title: 'text-overflow'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](http://dev.w3.org/csswg/css3-ui/#text-overflow)'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://dabblet.com/gist/4744956'
+compatibility:
+  feature: text-overflow
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`not defined for shorthand properties`'
   'Applies to': 'block-level and inline-block elements'
@@ -122,7 +125,7 @@ This property only applies to text overflow in the inline direction (horizontal,
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)

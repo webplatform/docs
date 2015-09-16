@@ -1,5 +1,5 @@
 ---
-title: getFloatFrequencyData
+title: 'getFloatFrequencyData'
 readiness: 'Ready to Use'
 relationships:
   method_of:

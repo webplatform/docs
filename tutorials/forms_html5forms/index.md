@@ -1,5 +1,5 @@
 ---
-title: Making forms fabulous with HTML5
+title: 'Making forms fabulous with HTML5'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/forms/html5forms/)'
 notes:

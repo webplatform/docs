@@ -1,5 +1,5 @@
 ---
-title: The web standards model - HTML CSS and JavaScript
+title: 'The web standards model - HTML CSS and JavaScript'
 tags:
   - Tutorials
   - WSC

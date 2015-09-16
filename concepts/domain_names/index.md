@@ -1,5 +1,5 @@
 ---
-title: domain names
+title: 'domain names'
 notes:
   - Stub
 readiness: 'Not Ready'

@@ -1,5 +1,5 @@
 ---
-title: scrollIntoView
+title: 'scrollIntoView'
 attributions:
   - 'Microsoft Developer Network: [[scrollIntoView Method](http://msdn.microsoft.com/en-us/library/ie/ms536730(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

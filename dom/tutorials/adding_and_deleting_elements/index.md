@@ -1,5 +1,5 @@
 ---
-title: adding and deleting elements
+title: 'adding and deleting elements'
 uri: 'dom/tutorials/adding and deleting elements'
 
 ---

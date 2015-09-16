@@ -1,5 +1,5 @@
 ---
-title: CompositeOperation
+title: 'CompositeOperation'
 readiness: readiness-state
 tags:
   - Constants

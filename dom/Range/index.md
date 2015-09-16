@@ -1,5 +1,5 @@
 ---
-title: Range
+title: 'Range'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Range](https://developer.mozilla.org/en-US/docs/Web/API/range) Article]'
   - 'Microsoft Developer Network: [[Range](http://msdn.microsoft.com/en-us/library/ie/hh772133(v=vs.85).aspx) Article]'

@@ -1,7 +1,10 @@
 ---
-title: logical not
+title: 'logical not'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/zz722703(v=vs.94).aspx)'
+compatibility:
+  feature: 'logical not'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Performs logical negation on an expression.'
 tags:

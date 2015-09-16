@@ -1,7 +1,10 @@
 ---
-title: bind
+title: 'bind'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff841995(v=vs.94).aspx)'
+compatibility:
+  feature: bind
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'For a given function, creates a bound function that has the same body as the original function. In the bound function, the this object resolves to the passed in object. The bound function has the specified initial parameters.'
 tags:

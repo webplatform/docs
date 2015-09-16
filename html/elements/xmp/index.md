@@ -1,5 +1,8 @@
 ---
-title: xmp
+title: 'xmp'
+compatibility:
+  feature: xmp
+  topic: html
 notes:
   - 'Deletion Candidate: Obsolete'
 overview_table:

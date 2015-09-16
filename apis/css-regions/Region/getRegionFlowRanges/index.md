@@ -1,5 +1,5 @@
 ---
-title: getRegionFlowRanges()
+title: 'getRegionFlowRanges()'
 readiness: 'Ready to Use'
 relationships:
   method_of:

@@ -1,5 +1,5 @@
 ---
-title: JSLint and JSHint
+title: 'JSLint and JSHint'
 notes:
   - 'Needs all content'
 readiness: 'Not Ready'

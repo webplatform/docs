@@ -1,5 +1,8 @@
 ---
-title: mask-border-outset
+title: 'mask-border-outset'
+compatibility:
+  feature: mask-border-outset
+  topic: css
 notes:
   - "Add description and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
 overview_table:

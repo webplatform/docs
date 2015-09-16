@@ -1,7 +1,10 @@
 ---
-title: font-kerning
+title: 'font-kerning'
 code_samples:
   - 'http://gist.github.com/7283111'
+compatibility:
+  feature: font-kerning
+  topic: css
 notes:
   - 'Example provided is not effective, add compatibility.'
 overview_table:

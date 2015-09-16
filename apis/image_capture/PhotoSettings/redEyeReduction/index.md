@@ -1,5 +1,5 @@
 ---
-title: redEyeReduction
+title: 'redEyeReduction'
 notes:
   - 'Needs example, usage, spec reference'
 readiness: 'In Progress'

@@ -1,7 +1,10 @@
 ---
-title: push
+title: 'push'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/6d0cbb1w(v=vs.94).aspx)'
+compatibility:
+  feature: push
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Appends new elements to an array, and returns the new length of the array.'
 tags:

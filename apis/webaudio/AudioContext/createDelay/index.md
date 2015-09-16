@@ -1,5 +1,5 @@
 ---
-title: createDelay
+title: 'createDelay'
 readiness: 'Ready to Use'
 relationships:
   method_of:

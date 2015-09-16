@@ -1,5 +1,5 @@
 ---
-title: global attributes
+title: 'global attributes'
 readiness: 'Not Ready'
 summary: 'HTML defines a set of attributes common to all HTML elements.'
 tags:

@@ -1,5 +1,5 @@
 ---
-title: JavaScript libraries
+title: 'JavaScript libraries'
 notes:
   - 'No content; should not be a webplatform.org topic; deletion candidate'
 readiness: 'Not Ready'

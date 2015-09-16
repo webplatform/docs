@@ -1,5 +1,5 @@
 ---
-title: Graceful degradation vs. progressive enhancement
+title: 'Graceful degradation vs. progressive enhancement'
 readiness: 'Ready to Use'
 summary: 'This article discusses the important concepts of graceful degradation and progressive enhancement, and how they relate to JavaScript.'
 tags:

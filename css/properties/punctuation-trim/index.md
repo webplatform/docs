@@ -1,5 +1,8 @@
 ---
-title: punctuation-trim
+title: 'punctuation-trim'
+compatibility:
+  feature: punctuation-trim
+  topic: css
 notes:
   - 'Obsolete; deletion candidate'
 overview_table:

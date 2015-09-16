@@ -1,7 +1,10 @@
 ---
-title: multiline
+title: 'multiline'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/7f5z26w4(v=vs.94).aspx)'
+compatibility:
+  feature: multiline
+  topic: javascript
 notes:
   - 'Moved under javascript/RegExp'
 readiness: 'Ready to Use'

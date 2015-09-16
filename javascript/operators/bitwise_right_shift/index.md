@@ -1,7 +1,10 @@
 ---
-title: bitwise right shift
+title: 'bitwise right shift'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/5s9e947e(v=vs.94).aspx)'
+compatibility:
+  feature: 'bitwise right shift'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Right shifts the bits of an expression, maintaining sign.'
 tags:

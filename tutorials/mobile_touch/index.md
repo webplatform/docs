@@ -1,5 +1,5 @@
 ---
-title: Introduction to multi-touch Web development
+title: 'Introduction to multi-touch Web development'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/mobile/touch/)'
 readiness: 'Ready to Use'

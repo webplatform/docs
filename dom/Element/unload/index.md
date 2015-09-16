@@ -1,5 +1,5 @@
 ---
-title: unload
+title: 'unload'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -146,9 +146,9 @@ For security reasons, the **unload** event does not open modeless dialog boxes, 
 
 ### Related pages
 
--   `body`
+-   body[body](/html/elements/body)
 -   `frameSet`
--   `Window`
+-   Window[Window](/dom/Window)
 -   `Reference`
 -   `Conceptual`
 -   `About the Pop-up Blocker`

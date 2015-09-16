@@ -1,9 +1,12 @@
 ---
-title: linear-gradient
+title: 'linear-gradient'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://jsfiddle.net/denbuzze/J2CLV/'
+compatibility:
+  feature: linear-gradient
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Defines a linear gradient as a CSS image.'

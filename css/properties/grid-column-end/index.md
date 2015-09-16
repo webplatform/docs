@@ -1,5 +1,8 @@
 ---
-title: grid-column-end
+title: 'grid-column-end'
+compatibility:
+  feature: grid-column-end
+  topic: css
 notes:
   - 'Add description, compatibility.'
 overview_table:

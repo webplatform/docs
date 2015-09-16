@@ -1,5 +1,5 @@
 ---
-title: src
+title: 'src'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -52,9 +52,9 @@ This property overrides a **source** element if both are used in a document.
 -   `track element`
 -   `track object`
 -   `source`
--   `media`
+-   media[media](/html/elements/media)
 -   `audio element`
 -   `audio object`
 -   `video element`
 -   `video object`
--   `currentSrc`
+-   currentSrc[currentSrc](/dom/HTMLMediaElement/currentSrc)

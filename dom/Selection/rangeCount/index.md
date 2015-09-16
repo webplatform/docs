@@ -1,5 +1,5 @@
 ---
-title: rangeCount
+title: 'rangeCount'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Selection.rangeCount](https://developer.mozilla.org/en-US/docs/Web/API/Selection.rangeCount) Article]'
   - 'Microsoft Developer Network: [[rangeCount Property](http://msdn.microsoft.com/en-us/library/ie/ff974693(v=vs.85).aspx) Article]'

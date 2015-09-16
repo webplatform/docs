@@ -1,5 +1,5 @@
 ---
-title: canPlayType
+title: 'canPlayType'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -62,7 +62,7 @@ The media type cannot be rendered.
 
 ### Related pages
 
--   `media`
+-   media[media](/html/elements/media)
 -   `audio`
 -   `audio`
 -   `video`

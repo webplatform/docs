@@ -1,5 +1,5 @@
 ---
-title: Getting your code production-ready
+title: 'Getting your code production-ready'
 notes:
   - Stub
 readiness: 'Not Ready'

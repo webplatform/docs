@@ -1,5 +1,5 @@
 ---
-title: pages
+title: 'pages'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -43,4 +43,4 @@ Although this collection is represented in the Cascading Style Sheets (CSS) obje
 
 ### Related pages
 
--   `styleSheet`
+-   styleSheet[styleSheet](/css/cssom/properties/styleSheet)

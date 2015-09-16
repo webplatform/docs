@@ -1,5 +1,5 @@
 ---
-title: Plan for Berlin Doc Sprint, February 8-9, 2013
+title: 'Plan for Berlin Doc Sprint, February 8-9, 2013'
 uri: 'community/berlin feb 2013'
 
 ---

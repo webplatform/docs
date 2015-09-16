@@ -1,5 +1,5 @@
 ---
-title: onremovestream
+title: 'onremovestream'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

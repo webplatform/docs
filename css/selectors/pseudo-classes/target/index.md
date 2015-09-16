@@ -1,7 +1,10 @@
 ---
-title: :target pseudo-class selector
+title: ':target pseudo-class selector'
 code_samples:
   - 'http://gist.github.com/6f2803eda8ad3c66aaf4'
+compatibility:
+  feature: ':target'
+  topic: CSS
 notes:
   - 'No matching spec'
 readiness: 'Not Ready'

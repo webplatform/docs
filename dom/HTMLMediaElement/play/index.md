@@ -1,5 +1,5 @@
 ---
-title: play
+title: 'play'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -106,7 +106,7 @@ To change the URL that is currently playing, assign it to [**src**](/dom/HTMLMed
 
 ### Related pages
 
--   `media`
+-   media[media](/html/elements/media)
 -   `audio`
 -   `audio`
 -   `video`

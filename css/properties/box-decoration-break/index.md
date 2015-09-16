@@ -1,7 +1,10 @@
 ---
-title: box-decoration-break
+title: 'box-decoration-break'
 code_samples:
   - 'http://gist.github.com/6363867'
+compatibility:
+  feature: box-decoration-break
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`slice`'
   'Applies to': 'All elements'

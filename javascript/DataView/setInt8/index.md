@@ -1,7 +1,10 @@
 ---
-title: setInt8
+title: 'setInt8'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212461(v=vs.94).aspx)'
+compatibility:
+  feature: setInt8
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Stores an Int8 value at the specified byte offset from the start of the view.'
 tags:

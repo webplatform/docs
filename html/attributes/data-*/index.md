@@ -1,5 +1,8 @@
 ---
-title: dataset and data-*
+title: 'dataset and data-*'
+compatibility:
+  feature: 'data-*'
+  topic: html
 notes:
   - 'Review import; Compatibility table; link examples to our code.webplatform.org playground; fix see also'
 readiness: 'Not Ready'

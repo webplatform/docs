@@ -1,5 +1,8 @@
 ---
-title: its-allowed-characters
+title: 'its-allowed-characters'
+compatibility:
+  feature: its-allowed-characters
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

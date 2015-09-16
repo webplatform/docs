@@ -1,7 +1,10 @@
 ---
-title: @charset
+title: '@charset'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: '@charset'
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Specifies the character encoding of the style sheet.'

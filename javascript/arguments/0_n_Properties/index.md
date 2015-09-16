@@ -1,7 +1,10 @@
 ---
-title: 0...n Properties
+title: '0...n Properties'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/bb79e676(v=vs.94).aspx)'
+compatibility:
+  feature: '0 n Properties'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the actual value of individual arguments from an arguments object returned by the arguments property of an executing function.'
 tags:

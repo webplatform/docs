@@ -1,9 +1,12 @@
 ---
-title: min-height
+title: 'min-height'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5842440'
+compatibility:
+  feature: min-height
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`auto (0 for non-flex elements)`'
   'Applies to': 'All elements but non-replaced inline elements, table columns, and column groups'
@@ -200,12 +203,12 @@ min-height property overrides the height of an element.
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `Reference`
--   `height`
+-   height[height](/html/attributes/height)
 -   `Other Resources`
 -   `Cascading Style Sheet Compatibility in Internet Explorer 7`
 -   `CSS Enhancements in Internet Explorer 6`

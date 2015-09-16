@@ -1,5 +1,5 @@
 ---
-title: Part 8: Advanced topics
+title: 'Part 8: Advanced topics'
 notes:
   - "Either rename the page because its currently about exercises proposals that are somehow advanced.\nProposal: Keep the exercises (in another page?), add advanced contents links like the parent page is doing."
 readiness: 'Not Ready'

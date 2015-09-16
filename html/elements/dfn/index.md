@@ -1,7 +1,10 @@
 ---
-title: dfn
+title: 'dfn'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: dfn
+  topic: html
 notes:
   - 'Add Category, Parent, Children and Compatibility information.'
 overview_table:
@@ -314,7 +317,7 @@ If given an [**id** attribute](/html/attributes/id), a **dfn** may serve as a re
 
 ### Other articles
 
--   `acronym`
--   `address`
--   `cite`
--   `i`
+-   acronym[acronym](/html/elements/acronym)
+-   address[address](/html/elements/address)
+-   cite[cite](/html/elements/cite)
+-   i[i](/html/elements/i)

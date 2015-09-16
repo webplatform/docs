@@ -1,5 +1,5 @@
 ---
-title: CSS Regions API
+title: 'CSS Regions API'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Programmatic interface to content that flows through a series of chained region elements.'

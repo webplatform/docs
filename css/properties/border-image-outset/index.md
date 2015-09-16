@@ -1,9 +1,12 @@
 ---
-title: border-image-outset
+title: 'border-image-outset'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/border-image-outset)'
 code_samples:
   - 'http://gist.github.com/5622268'
+compatibility:
+  feature: border-image-outset
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`0`'
   'Applies to': 'all elements, except internal table elements when `border-collapse` is set to `collapse`.'

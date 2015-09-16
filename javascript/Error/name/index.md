@@ -1,7 +1,10 @@
 ---
-title: name
+title: 'name'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/96s4ewf9(v=vs.94).aspx)'
+compatibility:
+  feature: name
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the name of an error.'
 tags:

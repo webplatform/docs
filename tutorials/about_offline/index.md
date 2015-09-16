@@ -1,5 +1,5 @@
 ---
-title: Introduction to offline web applications
+title: 'Introduction to offline web applications'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/offline/whats-offline/)'
 readiness: 'Ready to Use'

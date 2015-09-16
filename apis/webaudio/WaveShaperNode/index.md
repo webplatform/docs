@@ -1,5 +1,5 @@
 ---
-title: WaveShaperNode
+title: 'WaveShaperNode'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'WaveShaperNode is an AudioNode processor implementing non-linear distortion effects. Non-linear waveshaping distortion is commonly used for both subtle non-linear warming, or for more obvious distortion effects.'

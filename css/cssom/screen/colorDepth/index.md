@@ -1,5 +1,5 @@
 ---
-title: colorDepth
+title: 'colorDepth'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -47,4 +47,4 @@ Retrieving the value of the property through script enables you to select an app
 
 ### Related pages
 
--   `screen`
+-   screen[screen](/css/cssom/screen)

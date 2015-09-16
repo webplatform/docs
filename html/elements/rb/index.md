@@ -1,5 +1,8 @@
 ---
-title: rb
+title: 'rb'
+compatibility:
+  feature: rb
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
 standardization_status: 'W3C Recommendation'

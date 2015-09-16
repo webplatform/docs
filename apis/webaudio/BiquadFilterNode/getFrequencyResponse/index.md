@@ -1,5 +1,5 @@
 ---
-title: getFrequencyResponse
+title: 'getFrequencyResponse'
 readiness: 'Ready to Use'
 relationships:
   method_of:

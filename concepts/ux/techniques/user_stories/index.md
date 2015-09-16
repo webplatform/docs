@@ -1,5 +1,5 @@
 ---
-title: User Stories
+title: 'User Stories'
 readiness: 'Not Ready'
 summary: 'A User eXperience (UX) design technique'
 tags:

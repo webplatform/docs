@@ -1,5 +1,5 @@
 ---
-title: universal selector
+title: 'universal selector'
 tags:
   - CSS
 uri: 'css/selectors/universal selector'

@@ -1,5 +1,5 @@
 ---
-title: <color>
+title: '<color>'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The &lt;color&gt; CSS data type allows for various ways of specifying a color, some of which also specify opacity.'

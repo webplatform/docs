@@ -1,5 +1,5 @@
 ---
-title: MathML attributes
+title: 'MathML attributes'
 notes:
   - 'Make consistent, import MathML attribute content, create appropriate SMW Form, and create pages based on it.'
 readiness: 'Not Ready'

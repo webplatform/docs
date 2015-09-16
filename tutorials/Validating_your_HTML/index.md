@@ -1,5 +1,5 @@
 ---
-title: Validating your HTML
+title: 'Validating your HTML'
 tags:
   - Pages
   - with

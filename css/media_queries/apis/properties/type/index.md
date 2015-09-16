@@ -1,5 +1,5 @@
 ---
-title: type
+title: 'type'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -91,4 +91,4 @@ The media type of the current document.
 
 ### Related pages
 
--   `StyleMedia`
+-   StyleMedia[StyleMedia](/css/media_queries/apis/StyleMedia)

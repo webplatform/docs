@@ -1,5 +1,5 @@
 ---
-title: createOffer
+title: 'createOffer'
 notes:
   - 'Needs example, spec reference, return value'
 readiness: 'In Progress'

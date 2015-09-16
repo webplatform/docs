@@ -1,5 +1,5 @@
 ---
-title: Media Source Extensions
+title: 'Media Source Extensions'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

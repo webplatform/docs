@@ -1,5 +1,5 @@
 ---
-title: lastChild
+title: 'lastChild'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.lastChild](https://developer.mozilla.org/en-US/docs/Web/API/Node.lastChild) Article]'
   - 'Microsoft Developer Network: [[lastChild Property](http://msdn.microsoft.com/en-us/library/ie/ms533943(v=vs.85).aspx) Article]'

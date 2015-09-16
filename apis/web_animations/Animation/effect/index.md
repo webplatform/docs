@@ -1,5 +1,5 @@
 ---
-title: effect
+title: 'effect'
 readiness: 'In Progress'
 relationships:
   applies_to:

@@ -1,5 +1,5 @@
 ---
-title: fullscreenEnabled
+title: 'fullscreenEnabled'
 notes:
   - 'Needs mobile compat'
 readiness: 'Almost Ready'

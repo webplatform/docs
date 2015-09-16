@@ -1,5 +1,5 @@
 ---
-title: The future of the Open Web
+title: 'The future of the Open Web'
 uri: 'Notes:The future of the open web'
 
 ---

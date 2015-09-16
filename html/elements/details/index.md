@@ -1,7 +1,10 @@
 ---
-title: details
+title: 'details'
 code_samples:
   - 'http://gist.github.com/37f1ab4ad9cfb23eaa3d'
+compatibility:
+  feature: details
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLDetailsElement](/w/index.php?title=dom/HTMLDetailsElement&action=edit&redlink=1)'
 standardization_status: 'W3C Working Draft'

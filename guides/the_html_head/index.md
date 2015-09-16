@@ -1,5 +1,5 @@
 ---
-title: The HTML <head>
+title: 'The HTML <head>'
 attributions:
   - 'This content was originally published on [DevOpera](http://dev.opera.com), Opera''s Developer Network. .'
 readiness: 'Ready to Use'

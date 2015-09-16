@@ -1,9 +1,12 @@
 ---
-title: ruby-align
+title: 'ruby-align'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rubyAlign.htm'
+compatibility:
+  feature: ruby-align
+  topic: css
 notes:
   - 'Needs summary, spec reference, standardization status'
 overview_table:
@@ -114,10 +117,10 @@ The **ruby-align** property specifies the alignment of the ruby text defined by 
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `Reference`
--   `ruby-position`
--   `ruby-overhang`
+-   ruby-position[ruby-position](/css/properties/ruby-position)
+-   ruby-overhang[ruby-overhang](/css/properties/ruby-overhang)

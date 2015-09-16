@@ -1,5 +1,5 @@
 ---
-title: keypress
+title: 'keypress'
 code_samples:
   - 'http://gist.github.com/8631904'
 notes:
@@ -156,8 +156,8 @@ This event used to be used to detect when a key value was inserted into the DOM.
 
 ### Other articles
 
--   `onkeydown`
--   `onkeyup`
+-   onkeydown[onkeydown](/dom/KeyboardEvent/keydown)
+-   onkeyup[onkeyup](/dom/KeyboardEvent/keyup)
 
 ### External resources
 

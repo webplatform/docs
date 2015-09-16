@@ -1,5 +1,5 @@
 ---
-title: start
+title: 'start'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -137,5 +137,5 @@ There are no standards that apply here.
 -   `marquee`
 -   `Reference`
 -   `behavior`
--   `loop`
--   `finish`
+-   loop[loop](/html/attributes/loop)
+-   finish[finish](/dom/Event/finish)

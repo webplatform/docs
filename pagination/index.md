@@ -1,5 +1,5 @@
 ---
-title: pagination
+title: 'pagination'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

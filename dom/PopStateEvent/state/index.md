@@ -1,5 +1,5 @@
 ---
-title: state
+title: 'state'
 attributions:
   - 'Microsoft Developer Network: [[state Property](http://msdn.microsoft.com/en-us/library/ie/hh772351(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'
@@ -65,4 +65,4 @@ Represents the context information for the event, or **null**, if the state repr
 
 ### Related pages
 
--   `PopStateEvent`
+-   PopStateEvent[PopStateEvent](/w/index.php?title=dom/objects/PopStateEvent&action=edit&redlink=1)

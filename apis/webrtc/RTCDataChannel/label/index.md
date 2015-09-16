@@ -1,5 +1,5 @@
 ---
-title: label
+title: 'label'
 notes:
   - 'Needs example'
 readiness: 'Almost Ready'

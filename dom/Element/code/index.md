@@ -1,5 +1,5 @@
 ---
-title: code
+title: 'code'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -90,5 +90,5 @@ The `code` property returns one of the following file error codes.
 
 ### Related pages
 
--   `FileError`
--   `MSStreamError`
+-   FileError[FileError](/apis/file/FileError)
+-   MSStreamError[MSStreamError](/apis/file/MSStreamError)

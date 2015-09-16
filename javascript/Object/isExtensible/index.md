@@ -1,7 +1,10 @@
 ---
-title: isExtensible
+title: 'isExtensible'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff806188(v=vs.94).aspx)'
+compatibility:
+  feature: isExtensible
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns a value that indicates whether new properties can be added to an object.'
 tags:

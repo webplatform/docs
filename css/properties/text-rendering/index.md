@@ -1,5 +1,8 @@
 ---
-title: text-rendering
+title: 'text-rendering'
+compatibility:
+  feature: text-rendering
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`auto`'
   'Applies to': 'text elements'

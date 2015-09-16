@@ -1,5 +1,5 @@
 ---
-title: ConvolverNode
+title: 'ConvolverNode'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'This interface represents a processing node which applies a linear convolution effect given an impulse response.'

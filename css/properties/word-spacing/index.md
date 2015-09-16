@@ -1,9 +1,12 @@
 ---
-title: word-spacing
+title: 'word-spacing'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5671391'
+compatibility:
+  feature: word-spacing
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`normal`'
   'Applies to': 'All elements'
@@ -116,8 +119,8 @@ When specified as a positive `length` value, the `word-spacing` attribute adds t
 
 ### Other articles
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `CSS Enhancements in Internet Explorer 6`

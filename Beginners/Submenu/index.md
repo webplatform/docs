@@ -1,5 +1,5 @@
 ---
-title: Submenu
+title: 'Submenu'
 uri: Beginners/Submenu
 
 ---

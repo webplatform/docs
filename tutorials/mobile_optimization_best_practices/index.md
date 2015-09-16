@@ -1,5 +1,5 @@
 ---
-title: Mobile optimization best practices
+title: 'Mobile optimization best practices'
 attributions:
   - 'Facebook HTML5 Resource Center.'
 readiness: 'Ready to Use'

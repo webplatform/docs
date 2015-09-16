@@ -1,7 +1,10 @@
 ---
-title: addition
+title: 'addition'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/wwfws59w(v=vs.94).aspx)'
+compatibility:
+  feature: addition
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Adds the value of one numeric expression to another, or concatenates two strings.'
 tags:

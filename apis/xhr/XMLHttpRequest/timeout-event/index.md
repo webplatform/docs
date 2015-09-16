@@ -1,5 +1,5 @@
 ---
-title: timeout
+title: 'timeout'
 notes:
   - 'Needs example, usage, spec reference, standardization status'
 readiness: 'Not Ready'

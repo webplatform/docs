@@ -1,7 +1,10 @@
 ---
-title: byteLength
+title: 'byteLength'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)'
+compatibility:
+  feature: byteLength
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Read-only. The length of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.'
 tags:

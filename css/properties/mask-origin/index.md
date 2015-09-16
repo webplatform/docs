@@ -1,5 +1,8 @@
 ---
-title: mask-origin
+title: 'mask-origin'
+compatibility:
+  feature: mask-origin
+  topic: css
 notes:
   - "Add specification and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
 overview_table:

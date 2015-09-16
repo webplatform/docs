@@ -1,5 +1,5 @@
 ---
-title: defaultSelected
+title: 'defaultSelected'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -58,4 +58,4 @@ The property can be changed programmatically, but doing so has no effect on the 
 
 ### Related pages
 
--   `selected`
+-   selected[selected](/html/attributes/selected)

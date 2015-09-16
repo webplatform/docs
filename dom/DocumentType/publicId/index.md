@@ -1,5 +1,5 @@
 ---
-title: publicId
+title: 'publicId'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -71,6 +71,6 @@ The value of the **publicId** property corresponds to the *Availability*, *Regis
 
 ### Related pages
 
--   `DocumentType`
--   `name`
--   `systemId`
+-   DocumentType[DocumentType](/dom/DocumentType)
+-   name[name](/dom/DocumentType/name)
+-   systemId[systemId](/dom/DocumentType/systemId)

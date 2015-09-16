@@ -1,5 +1,5 @@
 ---
-title: append
+title: 'append'
 readiness: 'Almost Ready'
 relationships:
   method_of:

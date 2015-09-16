@@ -1,7 +1,10 @@
 ---
-title: background-position-y
+title: 'background-position-y'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: background-position-y
+  topic: css
 notes:
   - "Add example, description, compatibility.\nSupported by IE, Safari, and Chrome. But not appear in the Spec."
 overview_table:
@@ -125,9 +128,9 @@ There are no standards that apply here.
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaults`
--   `runtimeStyle`
--   `style`
--   `-ms-background-position-x`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   -ms-background-position-x[-ms-background-position-x](/css/properties/background-position-x)

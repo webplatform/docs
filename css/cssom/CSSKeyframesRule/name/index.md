@@ -1,5 +1,5 @@
 ---
-title: name
+title: 'name'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -239,4 +239,4 @@ element.name = value;
 
 ### Related pages
 
--   `CSSKeyframesRule`
+-   CSSKeyframesRule[CSSKeyframesRule](/css/cssom/CSSKeyframesRule)

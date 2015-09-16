@@ -1,10 +1,13 @@
 ---
-title: rotate3d()
+title: 'rotate3d()'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/3d/css/)'
 code_samples:
   - 'http://gist.github.com/5304145'
+compatibility:
+  feature: rotate3d()
+  topic: css
 readiness: 'Ready to Use'
 summary: 'Defines a three-dimensional rotation transformation by first defining the axis of rotation as an (x,y,z) vector and then defining the angle to rotate the element around this axis.  Requires four parameters: the first three are unitless numbers defining the axis vector, and the fourth is an angle measurement (specifying degrees or radians).'
 tags:
@@ -91,10 +94,10 @@ The element rotates by the angle specified in the last parameter, and about the 
 ### Related pages
 
 -   `Transform Functions`
--   `Mathematical Description of Transform Functions`
+-   Mathematical Description of Transform Functions[Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246)
 -   `Direct3D: Matrices`
--   `Hands On: 3-D Transforms`
+-   Hands On: 3-D Transforms[Hands On: 3-D Transforms](http://go.microsoft.com/fwlink/?LinkId=227893)
 
-### Related pages (HTML5Rocks)
+### Related pages
 
--   `3D and CSS`
+-   3D and CSS[3D and CSS](http://www.html5rocks.com/en/tutorials/3d/css/)

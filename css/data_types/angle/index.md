@@ -1,5 +1,5 @@
 ---
-title: <angle>
+title: '<angle>'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The &lt;angle&gt; CSS data type describes an amount of rotation; it is expressed with a number followed (without whitespace) by one of the recognized angle unit abbreviations.'

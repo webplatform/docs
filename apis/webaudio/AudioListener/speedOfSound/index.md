@@ -1,5 +1,5 @@
 ---
-title: speedOfSound
+title: 'speedOfSound'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

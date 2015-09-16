@@ -1,5 +1,5 @@
 ---
-title: JavaScript functions
+title: 'JavaScript functions'
 readiness: 'Ready to Use'
 summary: 'This article discusses JavaScript functions, or how we create reusable pockets of code that we can call over and over again as we need.'
 tags:

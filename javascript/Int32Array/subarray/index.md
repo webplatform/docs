@@ -1,7 +1,10 @@
 ---
-title: subarray
+title: 'subarray'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br230741(v=vs.94).aspx)'
+compatibility:
+  feature: subarray
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets a new Int32Array view of the ArrayBuffer Object store for this array, specifying the first and last members of the subarray.'
 tags:

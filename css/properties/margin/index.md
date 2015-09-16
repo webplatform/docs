@@ -1,8 +1,11 @@
 ---
-title: margin
+title: 'margin'
 code_samples:
   0: 'http://gist.github.com/5727296'
   2: 'http://gist.github.com/5727295'
+compatibility:
+  feature: margin
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`Depends on the particular element. Different elements have different default margins.`'
   'Applies to': 'All elements except elements with table display types other than table-caption, table, and inline-table'
@@ -254,11 +257,11 @@ The HTML accompanying the above example.
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaults`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `Conceptual`
 -   `CSS Values and Units Reference`
 -   `Other Resources`

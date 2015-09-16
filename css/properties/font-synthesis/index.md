@@ -1,5 +1,8 @@
 ---
-title: font-synthesis
+title: 'font-synthesis'
+compatibility:
+  feature: font-synthesis
+  topic: css
 notes:
   - 'Add example, description, specifications, compatibility.'
 overview_table:

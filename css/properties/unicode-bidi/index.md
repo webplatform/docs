@@ -1,9 +1,12 @@
 ---
-title: unicode-bidi
+title: 'unicode-bidi'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5708639'
+compatibility:
+  feature: unicode-bidi
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`normal`'
   'Applies to': 'All elements'
@@ -111,7 +114,7 @@ The `unicode-bidi` property is used with the [**direction**](/css/properties/dir
 
 ### Other articles
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)

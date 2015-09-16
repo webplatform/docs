@@ -1,5 +1,5 @@
 ---
-title: disconnect
+title: 'disconnect'
 readiness: 'Ready to Use'
 relationships:
   method_of:

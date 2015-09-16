@@ -1,7 +1,10 @@
 ---
-title: overflow-wrap
+title: 'overflow-wrap'
 code_samples:
   - 'http://gist.github.com/5842405'
+compatibility:
+  feature: overflow-wrap
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`normal`'
   'Applies to': 'all elements'

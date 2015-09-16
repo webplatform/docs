@@ -1,7 +1,10 @@
 ---
-title: toLocaleLowerCase
+title: 'toLocaleLowerCase'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/94h6w1kx(v=vs.94).aspx)'
+compatibility:
+  feature: toLocaleLowerCase
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Converts all alphabetic characters to lowercase, taking into account the host environment''s current locale.'
 tags:

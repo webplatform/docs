@@ -1,5 +1,8 @@
 ---
-title: wrap-option
+title: 'wrap-option'
+compatibility:
+  feature: wrap-option
+  topic: css
 notes:
   - 'Obsolete; not in current W3C spec.'
 overview_table:

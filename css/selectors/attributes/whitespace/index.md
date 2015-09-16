@@ -1,7 +1,10 @@
 ---
-title: whitespace
+title: 'whitespace'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: whitespace
+  topic: css
 notes:
   - 'Needs summary, example, remove topic cluster flags'
 readiness: 'In Progress'

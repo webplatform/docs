@@ -1,5 +1,5 @@
 ---
-title: test case
+title: 'test case'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

@@ -1,7 +1,10 @@
 ---
-title: ::before
+title: '::before'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: '::before'
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: '::before creates a pseudo-element, which allows you to insert content onto a page from CSS before the selected element(s). The end result isn''t actually in the DOM, but it appears on the page as if it is. The pseudo-element is inline by default.'
@@ -47,4 +50,4 @@ The **::before** and [**::after**](/css/selectors/pseudo-elements/::after) pseud
 
 ### Related pages
 
--   `content`
+-   content[content](/css/properties/content)

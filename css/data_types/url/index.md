@@ -1,5 +1,5 @@
 ---
-title: <url>
+title: '<url>'
 code_samples:
   - 'http://gist.github.com/10604525'
   - 'http://gist.github.com/10603403'

@@ -1,5 +1,5 @@
 ---
-title: getExpression
+title: 'getExpression'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -125,12 +125,12 @@ The following syntax sections show how to retrieve an expression from supported 
 
 -   `IHTMLStyle2`
 -   `IHTMLElement2`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `Reference`
--   `removeExpression`
--   `setExpression`
+-   removeExpression[removeExpression](/css/cssom/methods/removeExpression)
+-   setExpression[setExpression](/css/cssom/methods/setExpression)
 -   `Conceptual`
 -   `CSS Attributes: Index`
 -   `About Dynamic Properties`

@@ -1,7 +1,10 @@
 ---
-title: break
+title: 'break'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/3fhdxafb(v=vs.94).aspx)'
+compatibility:
+  feature: break
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Terminates the current loop or, if in conjunction with a label, terminates the associated statement.'
 tags:

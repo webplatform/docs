@@ -1,5 +1,5 @@
 ---
-title: distanceModel
+title: 'distanceModel'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

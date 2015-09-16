@@ -1,5 +1,5 @@
 ---
-title: brute force
+title: 'brute force'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

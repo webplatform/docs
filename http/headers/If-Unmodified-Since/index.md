@@ -1,5 +1,8 @@
 ---
-title: If-Unmodified-Since
+title: 'If-Unmodified-Since'
+compatibility:
+  feature: If-Unmodified-Since
+  topic: http
 overview_table:
   Direction: Request
   Features: ''

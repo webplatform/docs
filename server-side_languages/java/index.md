@@ -1,5 +1,5 @@
 ---
-title: java
+title: 'java'
 uri: 'server-side languages/java'
 
 ---

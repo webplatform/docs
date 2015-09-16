@@ -1,5 +1,5 @@
 ---
-title: Converting Wordico from Flash to HTML5
+title: 'Converting Wordico from Flash to HTML5'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/casestudies/wordico/)'
 readiness: 'Ready to Use'

@@ -1,5 +1,5 @@
 ---
-title: posWidth
+title: 'posWidth'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -56,7 +56,7 @@ This property reflects the value of the Cascading Style Sheets (CSS) [**width**
 
 ### Related pages
 
--   `defaults`
--   `runtimeStyle`
--   `style`
--   `pixelWidth`
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   pixelWidth[pixelWidth](/css/cssom/properties/pixelWidth)

@@ -1,7 +1,10 @@
 ---
-title: alignment-adjust
+title: 'alignment-adjust'
 code_samples:
   - 'http://gist.github.com/6363838'
+compatibility:
+  feature: alignment-adjust
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`auto`'
   'Applies to': 'Inline-level elements'

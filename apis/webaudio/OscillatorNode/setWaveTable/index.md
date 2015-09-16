@@ -1,5 +1,5 @@
 ---
-title: setWaveTable
+title: 'setWaveTable'
 notes:
   - 'Not in spec; deletion candidate. See http://webaudio.github.io/web-audio-api/.'
 readiness: 'Not Ready'

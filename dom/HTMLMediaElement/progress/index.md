@@ -1,5 +1,5 @@
 ---
-title: progress
+title: 'progress'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -93,7 +93,7 @@ This operation occurs while the video is loading. To invoke this event, Start pl
 
 -   `audio`
 -   `audio`
--   `Document`
+-   Document[Document](/dom/Document)
 -   `source`
 -   `video element`
 -   `video object`

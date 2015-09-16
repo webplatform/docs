@@ -1,7 +1,10 @@
 ---
-title: box-direction
+title: 'box-direction'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: box-direction
+  topic: css
 notes:
   - 'Add summery, example, compatibility.'
 overview_table:
@@ -105,6 +108,6 @@ This property is read/write.
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)

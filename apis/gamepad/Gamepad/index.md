@@ -1,5 +1,5 @@
 ---
-title: Gamepad
+title: 'Gamepad'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'This object defines an individual gamepad device. Data is retrieved via the DOM Navigator object''s getGamepads() method.'

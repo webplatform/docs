@@ -1,5 +1,5 @@
 ---
-title: indexedDB
+title: 'indexedDB'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'Implements the IDBFactory object''s open method, thereby providing the way to open (create or access) a database.'

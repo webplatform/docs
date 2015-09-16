@@ -1,5 +1,5 @@
 ---
-title: name
+title: 'name'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -71,6 +71,6 @@ The value of the **name** property corresponds to the *TopElement* attribute of 
 
 ### Related pages
 
--   `DocumentType`
--   `publicId`
--   `systemId`
+-   DocumentType[DocumentType](/dom/DocumentType)
+-   publicId[publicId](/dom/DocumentType/publicId)
+-   systemId[systemId](/dom/DocumentType/systemId)

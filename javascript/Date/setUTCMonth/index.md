@@ -1,7 +1,10 @@
 ---
-title: setUTCMonth
+title: 'setUTCMonth'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/d82ks7xe(v=vs.94).aspx)'
+compatibility:
+  feature: setUTCMonth
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets the month value in the Date object using Universal Coordinated Time (UTC).'
 tags:

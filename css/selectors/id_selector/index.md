@@ -1,5 +1,5 @@
 ---
-title: id selector
+title: 'id selector'
 tags:
   - CSS
 uri: 'css/selectors/id selector'

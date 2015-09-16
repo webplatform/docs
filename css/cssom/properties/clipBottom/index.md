@@ -1,5 +1,5 @@
 ---
-title: clipBottom
+title: 'clipBottom'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -73,11 +73,11 @@ Pick an amount to clip the bottom:
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)
 -   `Reference`
--   `clip`
--   `clipLeft`
--   `clipRight`
--   `clipTop`
+-   clip[clip](/css/properties/clip)
+-   clipLeft[clipLeft](/css/cssom/properties/clipLeft)
+-   clipRight[clipRight](/css/cssom/properties/clipRight)
+-   clipTop[clipTop](/css/cssom/properties/clipTop)

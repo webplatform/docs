@@ -1,5 +1,5 @@
 ---
-title: remote
+title: 'remote'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

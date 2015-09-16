@@ -1,7 +1,10 @@
 ---
-title: buffer
+title: 'buffer'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212908(v=vs.94).aspx)'
+compatibility:
+  feature: buffer
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Read-only. Gets the ArrayBuffer that is referenced by this array.'
 tags:

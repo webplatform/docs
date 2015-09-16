@@ -1,5 +1,5 @@
 ---
-title: "Mobifying" your HTML5 site
+title: '"Mobifying" your HTML5 site'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/mobile/mobifying/)'
 readiness: 'Ready to Use'

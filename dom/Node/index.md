@@ -1,5 +1,5 @@
 ---
-title: Node
+title: 'Node'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node](https://developer.mozilla.org/en-US/docs/Web/API/Node) Article]'
   - 'Microsoft Developer Network: [[Basic DOM Reference](http://msdn.microsoft.com/en-us/library/ie/hh771916(v=vs.85).aspx) Article]'

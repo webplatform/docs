@@ -1,5 +1,5 @@
 ---
-title: Error
+title: 'Error'
 notes:
   - "New listing page with proper object capitalization.\nHardly any info on this page"
 readiness: 'Not Ready'

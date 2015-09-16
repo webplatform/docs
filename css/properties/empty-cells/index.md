@@ -1,9 +1,12 @@
 ---
-title: empty-cells
+title: 'empty-cells'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5842874'
+compatibility:
+  feature: empty-cells
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`show`'
   'Applies to': 'table-cell elements'
@@ -120,7 +123,7 @@ If all cells in a particular row have the **empty-cells** value set to **hide**,
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)

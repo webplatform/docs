@@ -1,7 +1,10 @@
 ---
-title: isArray
+title: 'isArray'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff848265(v=vs.94).aspx)'
+compatibility:
+  feature: isArray
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Determines whether an object is an array.'
 tags:

@@ -1,5 +1,5 @@
 ---
-title: fallback property
+title: 'fallback property'
 uri: 'css/concepts/fallback property'
 
 ---

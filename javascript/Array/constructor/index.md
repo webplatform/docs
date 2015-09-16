@@ -1,9 +1,12 @@
 ---
-title: constructor
+title: 'constructor'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj155291(v=vs.94).aspx)'
 code_samples:
   - 'http://gist.github.com/9237139'
+compatibility:
+  feature: constructor
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'References the function which created the instance of the Array object.'
 tags:

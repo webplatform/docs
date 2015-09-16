@@ -1,5 +1,5 @@
 ---
-title: numberOfChannels
+title: 'numberOfChannels'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

@@ -1,5 +1,5 @@
 ---
-title: CSS static and relative positioning
+title: 'CSS static and relative positioning'
 tags:
   - Tutorials
   - WSC

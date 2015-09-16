@@ -1,5 +1,5 @@
 ---
-title: User eXperience Map
+title: 'User eXperience Map'
 readiness: 'Not Ready'
 summary: 'Visual representation of the user workflow for accomplishing a goal.'
 tags:

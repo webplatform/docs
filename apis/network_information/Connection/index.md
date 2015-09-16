@@ -1,5 +1,5 @@
 ---
-title: Connection
+title: 'Connection'
 notes:
   - 'See remark in topic. This API is not defined anywhere outside of the Network Information API W3C Note [1]. Also, this form lacks the specifications template.'
 readiness: 'Not Ready'

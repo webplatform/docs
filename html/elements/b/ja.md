@@ -1,8 +1,11 @@
 ---
-title: b
+title: 'b'
 code_samples:
   - 'http://gist.github.com/7281844'
   - 'http://gist.github.com/321e5149c1e661e1de14'
+compatibility:
+  feature: ja
+  topic: html
 lang: ja
 notes:
   - 'Add compatibility.'

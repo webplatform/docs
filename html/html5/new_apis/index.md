@@ -1,5 +1,5 @@
 ---
-title: New APIs in HTML5
+title: 'New APIs in HTML5'
 uri: 'html/html5/new apis'
 
 ---

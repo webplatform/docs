@@ -1,7 +1,10 @@
 ---
-title: switch
+title: 'switch'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: switch
+  topic: svg
 notes:
   - 'Needs summary, usage, spec reference, standardization status'
 overview_table:

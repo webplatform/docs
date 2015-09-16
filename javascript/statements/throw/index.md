@@ -1,7 +1,10 @@
 ---
-title: throw
+title: 'throw'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/85fscz6h(v=vs.94).aspx)'
+compatibility:
+  feature: throw
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Generates an error condition that can be handled by a try...catch...finally statement.'
 tags:

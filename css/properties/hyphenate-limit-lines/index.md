@@ -1,7 +1,10 @@
 ---
-title: hyphenate-limit-lines
+title: 'hyphenate-limit-lines'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: hyphenate-limit-lines
+  topic: css
 notes:
   - 'Add description, compatibility.'
 overview_table:
@@ -167,4 +170,4 @@ hyphenate-limit-lines: 2;
 
 ### Related pages
 
--   `CSSStyleDeclaration`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)

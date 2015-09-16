@@ -1,7 +1,10 @@
 ---
-title: modulus
+title: 'modulus'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/9f59bza0(v=vs.94).aspx)'
+compatibility:
+  feature: modulus
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Divides the value of one expression by the value of another, and returns the remainder.'
 tags:

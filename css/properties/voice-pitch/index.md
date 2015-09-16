@@ -1,5 +1,8 @@
 ---
-title: voice-pitch
+title: 'voice-pitch'
+compatibility:
+  feature: voice-pitch
+  topic: css
 notes:
   - 'Needs usage, example'
 overview_table:

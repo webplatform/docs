@@ -1,5 +1,8 @@
 ---
-title: its-ta-class-ref
+title: 'its-ta-class-ref'
+compatibility:
+  feature: its-ta-class-ref
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

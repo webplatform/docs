@@ -1,5 +1,5 @@
 ---
-title: Overview of client-side storage
+title: 'Overview of client-side storage'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/offline/storage/)'
 readiness: 'Ready to Use'

@@ -1,5 +1,5 @@
 ---
-title: numberOfInputs
+title: 'numberOfInputs'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

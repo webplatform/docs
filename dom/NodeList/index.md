@@ -1,5 +1,5 @@
 ---
-title: NodeList
+title: 'NodeList'
 notes:
   - 'Review for currentness, current DOM Working Draft says this is "old-style"'
 standardization_status: 'W3C Recommendation'

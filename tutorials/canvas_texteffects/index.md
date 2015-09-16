@@ -1,5 +1,5 @@
 ---
-title: Achieving typographic effects with the canvas tag
+title: 'Achieving typographic effects with the canvas tag'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/canvas/texteffects/)'
 readiness: 'Ready to Use'

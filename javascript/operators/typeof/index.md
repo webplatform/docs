@@ -1,7 +1,10 @@
 ---
-title: typeof
+title: 'typeof'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/259s7zc1(v=vs.94).aspx)'
+compatibility:
+  feature: typeof
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns a string that identifies the data type of an expression.'
 tags:

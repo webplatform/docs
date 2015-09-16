@@ -1,7 +1,10 @@
 ---
-title: lastIndexOf
+title: 'lastIndexOf'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/6d20k718(v=vs.94).aspx)'
+compatibility:
+  feature: lastIndexOf
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the last occurrence of a substring in the string.'
 tags:

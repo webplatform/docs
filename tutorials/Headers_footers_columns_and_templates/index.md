@@ -1,5 +1,5 @@
 ---
-title: Headers footers columns and templates
+title: 'Headers footers columns and templates'
 tags:
   - Pages
   - with

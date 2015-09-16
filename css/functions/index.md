@@ -1,5 +1,5 @@
 ---
-title: functions
+title: 'functions'
 readiness: 'Ready to Use'
 summary: 'In CSS, functions can be used in values to invoke special processing or visual effects.'
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Building up a site wireframe
+title: 'Building up a site wireframe'
 tags:
   - Pages
   - with

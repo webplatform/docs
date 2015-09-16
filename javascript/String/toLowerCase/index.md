@@ -1,7 +1,10 @@
 ---
-title: toLowerCase
+title: 'toLowerCase'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/es5c2d38(v=vs.94).aspx)'
+compatibility:
+  feature: toLowerCase
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Converts all the alphabetic characters in a string to lowercase.'
 tags:

@@ -1,5 +1,5 @@
 ---
-title: beforeactivate
+title: 'beforeactivate'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -156,7 +156,7 @@ There are no standards that apply here.
 
 ### Related pages
 
--   `a`
+-   a[a](/html/elements/a)
 -   `address`
 -   `applet`
 -   `area`
@@ -176,7 +176,7 @@ There are no standards that apply here.
 -   `dir`
 -   `div`
 -   `dl`
--   `Document`
+-   Document[Document](/dom/Document)
 -   `dt`
 -   `em`
 -   `embed`
@@ -204,7 +204,7 @@ There are no standards that apply here.
 -   `map`
 -   `marquee`
 -   `menu`
--   `nextID`
+-   nextID[nextID](/html/elements/nextID)
 -   `noBR`
 -   `ol`
 -   `p`
@@ -221,7 +221,7 @@ There are no standards that apply here.
 -   `strong`
 -   `sub`
 -   `sup`
--   `table`
+-   table[table](/html/elements/table)
 -   `tBody`
 -   `td`
 -   `textArea`
@@ -235,8 +235,8 @@ There are no standards that apply here.
 -   `var`
 -   `xmp`
 -   `Reference`
--   `onactivate`
--   `onbeforedeactivate`
--   `ondeactivate`
--   `onfocusin`
--   `onfocusout`
+-   onactivate[onactivate](/w/index.php?title=dom/events/activate&action=edit&redlink=1)
+-   onbeforedeactivate[onbeforedeactivate](/w/index.php?title=dom/events/beforedeactivate&action=edit&redlink=1)
+-   ondeactivate[ondeactivate](/w/index.php?title=dom/events/deactivate&action=edit&redlink=1)
+-   onfocusin[onfocusin](/w/index.php?title=dom/events/focusin&action=edit&redlink=1)
+-   onfocusout[onfocusout](/w/index.php?title=dom/events/focusout&action=edit&redlink=1)

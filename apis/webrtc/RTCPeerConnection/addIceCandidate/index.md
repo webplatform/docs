@@ -1,5 +1,5 @@
 ---
-title: addIceCandidate
+title: 'addIceCandidate'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

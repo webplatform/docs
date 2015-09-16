@@ -1,5 +1,5 @@
 ---
-title: maxChannelCount
+title: 'maxChannelCount'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

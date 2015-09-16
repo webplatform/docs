@@ -1,5 +1,5 @@
 ---
-title: getElementsByTagName
+title: 'getElementsByTagName'
 notes:
   - 'Needs spec reference, example'
 readiness: 'In Progress'

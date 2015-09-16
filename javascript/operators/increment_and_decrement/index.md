@@ -1,7 +1,10 @@
 ---
-title: increment and decrement
+title: 'increment and decrement'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/26k41698(v=vs.94).aspx)'
+compatibility:
+  feature: 'increment and decrement'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'The increment operator increments, and the decrement operator decrements, the value of a variable by one.'
 tags:

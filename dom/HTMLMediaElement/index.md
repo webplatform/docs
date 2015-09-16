@@ -1,5 +1,8 @@
 ---
-title: HTMLMediaElement
+title: 'HTMLMediaElement'
+compatibility:
+  feature: HTMLMediaElement
+  topic: dom
 notes:
   - 'stub page, automatic content only (needs summary at minimum)'
 readiness: 'Not Ready'

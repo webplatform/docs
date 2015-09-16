@@ -1,7 +1,10 @@
 ---
-title: strong
+title: 'strong'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: strong
+  topic: html
 notes:
   - 'Add compatibility.'
 overview_table:
@@ -290,7 +293,7 @@ If you want to bold text, but the text is not important, you should use the CSS 
 ### Related pages
 
 -   `Reference`
--   `acronym`
+-   acronym[acronym](/html/elements/acronym)
 -   `address`
 -   `b`
 -   `cite`

@@ -1,9 +1,12 @@
 ---
-title: input
+title: 'input'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/6364130'
+compatibility:
+  feature: input
+  topic: html
 notes:
   - "Add Category, Parent, Children and Compatibility information.\nIs size=\"20,5\" valid?"
 overview_table:

@@ -1,5 +1,5 @@
 ---
-title: Manipulating replaced content with object-fit
+title: 'Manipulating replaced content with object-fit'
 notes:
   - 'Needs all content'
 readiness: 'Not Ready'

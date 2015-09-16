@@ -1,5 +1,5 @@
 ---
-title: getFrame
+title: 'getFrame'
 notes:
   - 'Needs example, usage, spec reference'
 readiness: 'In Progress'

@@ -1,5 +1,5 @@
 ---
-title: SVG animation
+title: 'SVG animation'
 notes:
   - 'Fix multiple broken links'
 readiness: 'In Progress'

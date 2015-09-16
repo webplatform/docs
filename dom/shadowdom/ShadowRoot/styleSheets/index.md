@@ -1,5 +1,5 @@
 ---
-title: styleSheets
+title: 'styleSheets'
 notes:
   - 'Needs spec reference, usage, example'
 readiness: 'In Progress'

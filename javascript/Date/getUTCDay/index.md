@@ -1,7 +1,10 @@
 ---
-title: getUTCDay
+title: 'getUTCDay'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/aexkzf1c(v=vs.94).aspx)'
+compatibility:
+  feature: getUTCDay
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the day of the week using Universal Coordinated Time (UTC).'
 tags:

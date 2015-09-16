@@ -1,7 +1,10 @@
 ---
-title: aria-expanded
+title: 'aria-expanded'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: aria-expanded
+  topic: aria
 notes:
   - 'Needs summary, example, spec reference, standardization status'
 readiness: 'Not Ready'
@@ -83,5 +86,5 @@ window
 
 ### Related pages
 
--   `Accessible Rich Internet Applications (ARIA)`
--   `W3C ARIA-Expanded`
+-   Accessible Rich Internet Applications (ARIA)[Accessible Rich Internet Applications (ARIA)](/aria)
+-   W3C ARIA-Expanded[W3C ARIA-Expanded](http://go.microsoft.com/fwlink/p/?linkid=203793)

@@ -1,8 +1,11 @@
 ---
-title: ApplicationCache
+title: 'ApplicationCache'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Using_the_application_cache)'
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+compatibility:
+  feature: ApplicationCache
+  topic: apis
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The Application Cache (AppCache) lets web-based applications run offline. Developers can specify resources for the browser to cache, making them available to the application even if no connection can be made to the server. These resources load and work correctly even if users click the refresh button when they are offline.'

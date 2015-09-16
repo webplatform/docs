@@ -1,5 +1,5 @@
 ---
-title: getGamepads
+title: 'getGamepads'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[navigator.getGamepads method](https://developer.mozilla.org/en-US/docs/Web/API/Navigator.getGamepads) Article]'
   - 'Microsoft Developer Network: [[Gamepad API in DevChannel](http://msdn.microsoft.com/en-us/library/ie/dn753843(v=vs.85).aspx) Article]'

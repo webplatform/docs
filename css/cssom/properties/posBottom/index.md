@@ -1,5 +1,5 @@
 ---
-title: posBottom
+title: 'posBottom'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -50,6 +50,6 @@ This property reflects the value of the Cascading Style Sheets (CSS) [**bottom*
 
 ### Related pages
 
--   `runtimeStyle`
--   `style`
--   `pixelBottom`
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   pixelBottom[pixelBottom](/css/cssom/properties/pixelBottom)

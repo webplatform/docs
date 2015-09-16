@@ -1,5 +1,5 @@
 ---
-title: Distributing web apps
+title: 'Distributing web apps'
 readiness: 'Ready to Use'
 summary: "Now that you've built an app and tested it, it's time to ship it. You have several distribution options.\n"
 tags:

@@ -1,5 +1,5 @@
 ---
-title: complete
+title: 'complete'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -74,5 +74,5 @@ Once an image is completely loaded, you can get its actual [naturalWidth](/w/ind
 -   `input`
 -   `input type=image`
 -   `Reference`
--   `onreadystatechange`
--   `readyState`
+-   onreadystatechange[onreadystatechange](/dom/Element/readystatechange)
+-   readyState[readyState](/dom/Element/readyState)

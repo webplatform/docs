@@ -1,5 +1,5 @@
 ---
-title: feColorMatrix
+title: 'feColorMatrix'
 code_samples:
   - 'http://gist.github.com/5303882'
   - 'http://gist.github.com/5303933'
@@ -9,6 +9,9 @@ code_samples:
   - 'http://gist.github.com/5304064'
   - 'http://gist.github.com/5304095'
   - 'http://gist.github.com/5304176'
+compatibility:
+  feature: feColorMatrix
+  topic: svg
 notes:
   - 'Fix broken link to parent'
 overview_table:

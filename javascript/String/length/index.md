@@ -1,7 +1,10 @@
 ---
-title: length
+title: 'length'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/3d616214(v=vs.94).aspx)'
+compatibility:
+  feature: length
+  topic: javascript
 readiness: 'Ready to Use'
 summary: "Returns the codepoint length of a String object.\n"
 tags:

@@ -1,5 +1,5 @@
 ---
-title: leading
+title: 'leading'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

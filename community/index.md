@@ -1,5 +1,5 @@
 ---
-title: community
+title: 'community'
 uri: community
 
 ---

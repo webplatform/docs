@@ -1,5 +1,5 @@
 ---
-title: Keyboard controls
+title: 'Keyboard controls'
 notes:
   - 'Needs all content'
 readiness: 'Not Ready'

@@ -1,9 +1,12 @@
 ---
-title: source
+title: 'source'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://test.w3.org/html/examples/elements/source/source01.html'
+compatibility:
+  feature: source
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLSourceElement](/w/index.php?title=dom/HTMLSourceElement&action=edit&redlink=1)'
 readiness: 'Ready to Use'

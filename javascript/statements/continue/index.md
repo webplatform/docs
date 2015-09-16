@@ -1,7 +1,10 @@
 ---
-title: continue
+title: 'continue'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/8de3fkc8(v=vs.94).aspx)'
+compatibility:
+  feature: continue
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Stops the current iteration of a loop, and starts a new iteration.'
 tags:

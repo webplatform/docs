@@ -1,5 +1,5 @@
 ---
-title: y
+title: 'y'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -59,12 +59,12 @@ A positioned element is an element whose position property is set to `relative`,
 
 ### Related pages
 
--   `DragEvent`
--   `MouseEvent`
--   `MouseWheelEvent`
--   `WheelEvent`
+-   DragEvent[DragEvent](/w/index.php?title=dom/objects/DragEvent&action=edit&redlink=1)
+-   MouseEvent[MouseEvent](/w/index.php?title=dom/objects/MouseEvent&action=edit&redlink=1)
+-   MouseWheelEvent[MouseWheelEvent](/w/index.php?title=dom/objects/MouseWheelEvent&action=edit&redlink=1)
+-   WheelEvent[WheelEvent](/w/index.php?title=dom/objects/WheelEvent&action=edit&redlink=1)
 -   `Reference`
--   `clientY`
--   `offsetY`
--   `pageY`
--   `screenY`
+-   clientY[clientY](/w/index.php?title=dom/properties/clientY&action=edit&redlink=1)
+-   offsetY[offsetY](/css/cssom/properties/offsetY)
+-   pageY[pageY](/css/cssom/properties/pageY)
+-   screenY[screenY](/w/index.php?title=dom/properties/screenY&action=edit&redlink=1)

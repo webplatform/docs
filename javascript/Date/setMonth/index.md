@@ -1,7 +1,10 @@
 ---
-title: setMonth
+title: 'setMonth'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/tst8h9zw(v=vs.94).aspx)'
+compatibility:
+  feature: setMonth
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets the month value in the Date object using local time.'
 tags:

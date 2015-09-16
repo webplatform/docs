@@ -1,7 +1,10 @@
 ---
-title: dataFormatAs
+title: 'dataFormatAs'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: dataFormatAs
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -72,5 +75,5 @@ As of Windows Internet Explorer 7, the **DATAFORMATAS** attribute is no longer 
 -   `option`
 -   `select`
 -   `span`
--   `table`
+-   table[table](/html/elements/table)
 -   `Introduction to Data Binding`

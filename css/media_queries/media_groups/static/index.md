@@ -1,5 +1,5 @@
 ---
-title: static
+title: 'static'
 notes:
   - 'Add values, syntax, example, specifications, compatibility.'
 readiness: 'Not Ready'

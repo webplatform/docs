@@ -1,5 +1,5 @@
 ---
-title: DOM
+title: 'DOM'
 lang: es
 standardization_status: Unknown
 todo_broken_links:

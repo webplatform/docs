@@ -1,5 +1,5 @@
 ---
-title: deleteRule
+title: 'deleteRule'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -56,7 +56,7 @@ No return value
 
 ### Related pages
 
--   `styleSheet`
+-   styleSheet[styleSheet](/css/cssom/styleSheet)
 -   `Reference`
--   `cssRules`
--   `insertRule`
+-   cssRules[cssRules](/css/cssom/styleSheet/cssRules)
+-   insertRule[insertRule](/css/cssom/styleSheet/insertRule)

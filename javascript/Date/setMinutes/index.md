@@ -1,7 +1,10 @@
 ---
-title: setMinutes
+title: 'setMinutes'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/3sbd2ey3(v=vs.94).aspx)'
+compatibility:
+  feature: setMinutes
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets the minutes value in the Date object using local time.'
 tags:

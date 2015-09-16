@@ -1,7 +1,10 @@
 ---
-title: return
+title: 'return'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/22a685h9(v=vs.94).aspx)'
+compatibility:
+  feature: return
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Exits from the current function and returns a value from that function.'
 tags:

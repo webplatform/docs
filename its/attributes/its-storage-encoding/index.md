@@ -1,5 +1,8 @@
 ---
-title: its-storage-encoding
+title: 'its-storage-encoding'
+compatibility:
+  feature: its-storage-encoding
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

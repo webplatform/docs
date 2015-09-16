@@ -1,5 +1,5 @@
 ---
-title: NamedFlowCollection
+title: 'NamedFlowCollection'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Obsolete. Replaced by NamedFlowMap. Represents a static snapshot array of a document''s available named flows'

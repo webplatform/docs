@@ -1,7 +1,10 @@
 ---
-title: text-decoration-skip
+title: 'text-decoration-skip'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/gg721763(v=expression.40).aspx)'
+compatibility:
+  feature: text-decoration-skip
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`objects`'
   'Applies to': 'All elements'

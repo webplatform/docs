@@ -1,5 +1,5 @@
 ---
-title: window.location.href
+title: 'window.location.href'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

@@ -1,5 +1,5 @@
 ---
-title: Color theory
+title: 'Color theory'
 readiness: 'Ready to Use'
 summary: "Without much color or graphics, every site would become Jakob Nielsen’s\ndream site. Although Nielsen’s philosophy of bare-bones Web architecture has accessibility and usability merits, most Web designers want to add a signature touch to their sites with many design elements. Fortunately, a designer can add color to a site without losing accessibility and usability if the site is designed with those capabilities in mind. While many designers feel comfortable\ndesigning a site for many users, those same designers might feel\_inadequate when it comes to choosing colors and graphics.\n"
 tags:

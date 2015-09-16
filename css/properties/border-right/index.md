@@ -1,7 +1,10 @@
 ---
-title: border-right
+title: 'border-right'
 code_samples:
   - 'http://gist.github.com/5534715'
+compatibility:
+  feature: border-right
+  topic: css
 notes:
   - 'Add description, specifications, compatibility.'
 overview_table:
@@ -209,12 +212,12 @@ p {
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaults`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `Reference`
--   `border`
+-   border[border](/css/properties/border)
 -   `Other Resources`
 -   `CSS Enhancements in Internet Explorer 6`

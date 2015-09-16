@@ -1,9 +1,12 @@
 ---
-title: skew()
+title: 'skew()'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5305245'
+compatibility:
+  feature: skew()
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: Non-Standard
 summary: 'Defines a two-dimensional transformation consisting of simultaneous skew transformations of the X and Y axes.  Not recommended and supported only for backwards compatibility; use a combination of skewX(angle), skewY(angle) and/or rotate(angle) instead.'
@@ -81,5 +84,5 @@ div {
 ### Related pages
 
 -   `Transform Functions`
--   `Mathematical Description of Transform Functions`
--   `Hands On: 2D Transforms`
+-   Mathematical Description of Transform Functions[Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246)
+-   Hands On: 2D Transforms[Hands On: 2D Transforms](http://go.microsoft.com/fwlink/?LinkID=240163)

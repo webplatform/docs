@@ -1,5 +1,5 @@
 ---
-title: HTML5 Techniques for Optimizing Mobile Performance
+title: 'HTML5 Techniques for Optimizing Mobile Performance'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/mobile/optimization-and-performance/)'
 readiness: 'Ready to Use'

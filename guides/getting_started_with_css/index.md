@@ -1,5 +1,5 @@
 ---
-title: Getting started with CSS
+title: 'Getting started with CSS'
 readiness: 'Ready to Use'
 summary: 'This guide covers the basic fundamentals of CSS, including CSS anatomy, selectors, and comments, and shows how to apply CSS rules to HTML content.'
 tags:

@@ -1,7 +1,10 @@
 ---
-title: type
+title: 'type'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: type
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -152,20 +155,20 @@ Only the **type** property is writeable. The **type** property is read/write-onc
 
 ### Related pages
 
--   `HTMLInputElement`
+-   HTMLInputElement[HTMLInputElement](/dom/HTMLInputElement)
 -   `input type=button`
 -   `input type=checkbox`
--   `input type=email`
+-   input type=email[input type=email](/html/elements/input/type/email)
 -   `input type=file`
 -   `input type=hidden`
 -   `input type=image`
--   `input type=number`
+-   input type=number[input type=number](/html/elements/input/type/number)
 -   `input type=password`
--   `input type=range`
+-   input type=range[input type=range](/html/elements/input/type/range)
 -   `input type=radio`
 -   `input type=reset`
--   `input type=search`
+-   input type=search[input type=search](/html/elements/input/type/search)
 -   `input type=submit`
--   `input type=tel`
+-   input type=tel[input type=tel](/html/elements/input/type/tel)
 -   `input type=text`
--   `input type=url`
+-   input type=url[input type=url](/html/elements/input/type/url)

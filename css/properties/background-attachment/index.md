@@ -1,9 +1,12 @@
 ---
-title: background-attachment
+title: 'background-attachment'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/background-attachment.htm'
+compatibility:
+  feature: background-attachment
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`scroll`'
   'Applies to': 'All elements'
@@ -147,9 +150,9 @@ With CSS3 Backgrounds, the background of a box can have multiple layers. The num
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaults`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
 -   `LayoutRect`
--   `runtimeStyle`
--   `style`
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)

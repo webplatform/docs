@@ -1,5 +1,5 @@
 ---
-title: appMinorVersion
+title: 'appMinorVersion'
 attributions:
   - 'Microsoft Developer Network: [[navigator.appMinorVersion](http://msdn.microsoft.com/en-us/library/ie/ms533078(v=vs.85).aspx) Article]'
 code_samples:

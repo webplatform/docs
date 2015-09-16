@@ -1,5 +1,5 @@
 ---
-title: capabilities
+title: 'capabilities'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

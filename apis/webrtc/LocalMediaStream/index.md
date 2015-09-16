@@ -1,5 +1,5 @@
 ---
-title: LocalMediaStream
+title: 'LocalMediaStream'
 notes:
   - 'Needs spec reference'
 readiness: 'In Progress'

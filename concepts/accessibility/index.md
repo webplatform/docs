@@ -1,5 +1,5 @@
 ---
-title: Web accessibility basics
+title: 'Web accessibility basics'
 notes:
   - "Consider merging with http://docs.webplatform.org/wiki/concepts/accessibility/accessibility_basics\nThere should be an explanation of what ARIA *is* which is not clear from this page nor the link.  Even to a professional web developer.  Wikpedia article (WAI-ARIA) was much clearer and better written as an introduction.\n\nShould be overhauled: there are entire books and careers dedicated to Accessibility: what are the web programming techniques? How to make documents accessible? What disabilities are there and how does that affect e-accessibility? There are also a ton of resources out there that aid accessibility, either through audits or through web navigation."
 readiness: 'Ready to Use'

@@ -1,7 +1,10 @@
 ---
-title: methods
+title: 'methods'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/c6hac83s(v=vs.94).aspx)'
+compatibility:
+  feature: methods
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'The following table lists JavaScript methods.'
 tags:

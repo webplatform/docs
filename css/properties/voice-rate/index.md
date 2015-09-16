@@ -1,5 +1,8 @@
 ---
-title: voice-rate
+title: 'voice-rate'
+compatibility:
+  feature: voice-rate
+  topic: css
 notes:
   - 'Needs usage, example'
 overview_table:

@@ -1,5 +1,5 @@
 ---
-title: ui element states pseudo-classes
+title: 'ui element states pseudo-classes'
 tags:
   - CSS
 uri: 'css/selectors/pseudo-classes/ui element states pseudo-classes'

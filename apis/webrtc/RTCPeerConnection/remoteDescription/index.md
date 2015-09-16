@@ -1,5 +1,5 @@
 ---
-title: remoteDescription
+title: 'remoteDescription'
 notes:
   - 'Needs example, spec reference, standardization status'
 readiness: 'In Progress'

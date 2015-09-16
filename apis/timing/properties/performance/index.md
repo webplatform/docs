@@ -1,5 +1,5 @@
 ---
-title: performance
+title: 'performance'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -56,4 +56,4 @@ The **performance** property returns a hosting area for performance timing objec
 
 ### Related pages
 
--   `Window`
+-   Window[Window](/dom/Window)

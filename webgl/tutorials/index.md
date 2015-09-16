@@ -1,5 +1,5 @@
 ---
-title: WebGL tutorials
+title: 'WebGL tutorials'
 readiness: 'Ready to Use'
 summary: 'Index page for WebGL tutorials'
 tags:

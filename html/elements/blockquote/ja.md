@@ -1,8 +1,11 @@
 ---
-title: blockquote
+title: 'blockquote'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/blockquote)'
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+compatibility:
+  feature: ja
+  topic: html
 lang: ja
 notes:
   - 'Add Category, Parent, Children and Compatibility information.'
@@ -227,5 +230,5 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
 
 ### Related pages (internal)
 
--   `q`
--   `cite`
+-   q[q](/html/elements/q)
+-   cite[cite](/html/elements/cite)

@@ -1,9 +1,12 @@
 ---
-title: matrix()
+title: 'matrix()'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://jsfiddle.net/denbuzze/J2CLV/1/'
+compatibility:
+  feature: matrix()
+  topic: css
 readiness: 'Ready to Use'
 summary: 'Defines a two dimensional transformation in matrix format.'
 tags:
@@ -60,6 +63,6 @@ For more information about transformation matrices, see [Mathematical Descriptio
 ### Related pages
 
 -   `Transform Functions`
--   `Mathematical Description of Transform Functions`
+-   Mathematical Description of Transform Functions[Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246)
 -   `Direct3D: Matrices`
--   `Hands On: 2D Transforms`
+-   Hands On: 2D Transforms[Hands On: 2D Transforms](http://go.microsoft.com/fwlink/?LinkID=240163)

@@ -1,5 +1,5 @@
 ---
-title: frequency
+title: 'frequency'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

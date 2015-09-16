@@ -1,5 +1,8 @@
 ---
-title: text-overline
+title: 'text-overline'
+compatibility:
+  feature: text-overline
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`not defined for shorthand properties`'
   'Applies to': 'all elements with and generated content with textual content'

@@ -1,5 +1,5 @@
 ---
-title: playbackRate
+title: 'playbackRate'
 readiness: readiness-state
 relationships:
   applies_to:

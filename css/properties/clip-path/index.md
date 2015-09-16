@@ -1,7 +1,10 @@
 ---
-title: clip-path
+title: 'clip-path'
 code_samples:
   - 'http://gist.github.com/6338479'
+compatibility:
+  feature: clip-path
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`none`'
   'Applies to': 'All elements. In SVG, applies to container elements (without the \<defs\> element), all graphics elements, and \<clipPath\>'

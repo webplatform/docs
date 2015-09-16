@@ -1,9 +1,12 @@
 ---
-title: margin-right
+title: 'margin-right'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5728056'
+compatibility:
+  feature: margin-right
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`Depends on the particular element. Different elements have different default margins.`'
   'Applies to': 'All elements'
@@ -196,11 +199,11 @@ You can specify possible length values relative to the height of the element's f
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaults`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `Conceptual`
 -   `CSS Values and Units Reference`
 -   `Other Resources`

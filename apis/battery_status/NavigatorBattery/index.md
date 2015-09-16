@@ -1,5 +1,5 @@
 ---
-title: NavigatorBattery
+title: 'NavigatorBattery'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'The NavigatorBattery interface is exposed on the Navigator object.'

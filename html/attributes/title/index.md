@@ -1,9 +1,12 @@
 ---
-title: title
+title: 'title'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/title_1.htm'
+compatibility:
+  feature: title
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -62,9 +65,9 @@ Windows Internet Explorer renders the title as a ToolTip when the user hovers th
 
 ### Related pages
 
--   `a`
+-   a[a](/html/elements/a)
 -   `abbr`
--   `acronym`
+-   acronym[acronym](/html/elements/acronym)
 -   `address`
 -   `applet`
 -   `area`
@@ -132,7 +135,7 @@ Windows Internet Explorer renders the title as a ToolTip when the user hovers th
 -   `marquee`
 -   `menu`
 -   `nav`
--   `nextID`
+-   nextID[nextID](/html/elements/nextID)
 -   `noBR`
 -   `object`
 -   `ol`
@@ -154,7 +157,7 @@ Windows Internet Explorer renders the title as a ToolTip when the user hovers th
 -   `strong`
 -   `sub`
 -   `sup`
--   `table`
+-   table[table](/html/elements/table)
 -   `tBody`
 -   `td`
 -   `textArea`

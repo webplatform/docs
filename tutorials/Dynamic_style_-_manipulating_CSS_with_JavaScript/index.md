@@ -1,5 +1,5 @@
 ---
-title: Dynamic style - manipulating CSS with JavaScript
+title: 'Dynamic style - manipulating CSS with JavaScript'
 tags:
   - Tutorials
   - WSC

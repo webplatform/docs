@@ -1,5 +1,5 @@
 ---
-title: classList
+title: 'classList'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -58,4 +58,4 @@ A DOMTokenList representing the class names of the element.
 
 ### Related pages
 
--   `HTMLElement`
+-   HTMLElement[HTMLElement](/dom/HTMLElement)

@@ -1,5 +1,5 @@
 ---
-title: performance.memory
+title: 'performance.memory'
 attributions:
   - 'Microsoft Developer Network.'
 notes:

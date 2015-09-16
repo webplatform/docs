@@ -1,5 +1,5 @@
 ---
-title: Desenvolvimento web para inciantes
+title: 'Desenvolvimento web para inciantes'
 lang: pt-br
 summary: 'Então você quer aprender a fazer websites? Essa página possui uma lista de artigos que são perfeitos para ajudar você a entender o básico. Descrevemos e explicamos como utilizar as ferramentas básicas..'
 tags:

@@ -1,7 +1,10 @@
 ---
-title: Infinity
+title: 'Infinity'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/kddt5x39(v=vs.94).aspx)'
+compatibility:
+  feature: Infinity
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'A number that is larger than the largest floating point number.'
 tags:

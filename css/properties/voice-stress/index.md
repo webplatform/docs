@@ -1,5 +1,8 @@
 ---
-title: voice-stress
+title: 'voice-stress'
+compatibility:
+  feature: voice-stress
+  topic: css
 notes:
   - 'Needs usage, example'
 overview_table:

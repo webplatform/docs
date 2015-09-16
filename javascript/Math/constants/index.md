@@ -1,7 +1,10 @@
 ---
-title: constants
+title: 'constants'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/b272f386(v=vs.94).aspx)'
+compatibility:
+  feature: constants
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Math constants return constant values that are properties of the Math object.'
 tags:

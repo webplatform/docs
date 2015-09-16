@@ -1,5 +1,5 @@
 ---
-title: AudioDestinationNode
+title: 'AudioDestinationNode'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'An AudioNode representing the final audio destination and is what the user will ultimately hear. It can be considered as an audio output device which is connected to speakers. All rendered audio to be heard will be routed to this node, a terminal node in the AudioContext''s routing graph. There is only a single AudioDestinationNode per AudioContext, provided through the destination attribute of AudioContext.'

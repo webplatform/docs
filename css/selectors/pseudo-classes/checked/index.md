@@ -1,7 +1,10 @@
 ---
-title: :checked
+title: ':checked'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: ':checked'
+  topic: css
 notes:
   - 'Needs description, example, remove topic cluster flags'
 readiness: 'In Progress'
@@ -169,6 +172,6 @@ The :checked selector applies to toggable elements (e.g. radio buttons or checkb
 ### Related pages
 
 -   `Reference`
--   `:enabled`
--   `:disabled`
--   `:indeterminate`
+-   :enabled[:enabled](/css/selectors/pseudo-classes/:enabled)
+-   :disabled[:disabled](/css/selectors/pseudo-classes/:disabled)
+-   :indeterminate[:indeterminate](/css/selectors/pseudo-classes/:indeterminate)

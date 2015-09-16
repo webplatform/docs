@@ -1,5 +1,5 @@
 ---
-title: Learn to use HTML Lists
+title: 'Learn to use HTML Lists'
 readiness: 'Ready to Use'
 summary: 'A step by step example to get used with list elements in html.'
 tags:

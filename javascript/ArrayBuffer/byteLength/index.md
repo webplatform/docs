@@ -1,7 +1,10 @@
 ---
-title: byteLength
+title: 'byteLength'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212482(v=vs.94).aspx)'
+compatibility:
+  feature: byteLength
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Read-only. The length of the ArrayBuffer (in bytes).'
 tags:

@@ -1,7 +1,10 @@
 ---
-title: object-fit
+title: 'object-fit'
 code_samples:
   - 'http://gist.github.com/6badc0b20d67be7d939f'
+compatibility:
+  feature: object-fit
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`fill`'
   'Applies to': 'Replaced elements'

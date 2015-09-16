@@ -1,5 +1,5 @@
 ---
-title: peerIdentity
+title: 'peerIdentity'
 notes:
   - 'Needs spec reference, standardization status'
 readiness: 'Almost Ready'

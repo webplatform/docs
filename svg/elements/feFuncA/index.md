@@ -1,7 +1,10 @@
 ---
-title: feFuncA
+title: 'feFuncA'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: feFuncA
+  topic: svg
 notes:
   - 'Merge candidate; feFuncA is a child element of feComponentTransfer and should be merged back into that article. I should note that large sections of this MSDN article have simply been lifted directly from the text of SVG 1.1 spec.'
 overview_table:

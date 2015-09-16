@@ -1,5 +1,5 @@
 ---
-title: python
+title: 'python'
 uri: 'server-side languages/python'
 
 ---

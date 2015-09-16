@@ -1,5 +1,5 @@
 ---
-title: 웹 플랫폼 문서에 오신 것을 환영합니다.
+title: '웹 플랫폼 문서에 오신 것을 환영합니다.'
 lang: ko
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

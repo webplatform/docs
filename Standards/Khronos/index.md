@@ -1,5 +1,5 @@
 ---
-title: Khronos
+title: 'Khronos'
 uri: Standards/Khronos
 
 ---

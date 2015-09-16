@@ -1,5 +1,5 @@
 ---
-title: CSS
+title: 'CSS'
 lang: ko
 standardization_status: Unknown
 todo_broken_links:

@@ -1,9 +1,12 @@
 ---
-title: overflow-y
+title: 'overflow-y'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/6947763'
+compatibility:
+  feature: overflow-y
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`visible`'
   'Applies to': 'non-replaced block-level elements and non-replaced ‘inline-block’ elements'

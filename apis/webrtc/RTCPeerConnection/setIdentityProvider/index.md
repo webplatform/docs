@@ -1,5 +1,5 @@
 ---
-title: setIdentityProvider
+title: 'setIdentityProvider'
 notes:
   - 'Needs example, spec reference, standardization status'
 readiness: 'In Progress'

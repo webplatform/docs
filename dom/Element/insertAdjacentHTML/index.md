@@ -1,5 +1,5 @@
 ---
-title: insertAdjacentHTML
+title: 'insertAdjacentHTML'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -101,5 +101,5 @@ ScriptDiv.insertAdjacentHTML("afterBegin",sHTML + sScript);
 
 ### Related pages
 
--   `innerHTML`
--   `outerHTML`
+-   innerHTML[innerHTML](/dom/HTMLElement/innerHTML)
+-   outerHTML[outerHTML](/dom/HTMLElement/outerHTML)

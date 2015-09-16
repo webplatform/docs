@@ -1,5 +1,5 @@
 ---
-title: SVG data types
+title: 'SVG data types'
 notes:
   - 'Needs all content'
 readiness: 'Not Ready'

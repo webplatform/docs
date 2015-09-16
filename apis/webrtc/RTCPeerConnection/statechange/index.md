@@ -1,5 +1,5 @@
 ---
-title: statechange
+title: 'statechange'
 notes:
   - 'Needs summary, example, spec reference, standardization status'
 readiness: 'Not Ready'

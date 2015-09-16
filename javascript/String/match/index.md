@@ -1,7 +1,10 @@
 ---
-title: match
+title: 'match'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/7df7sf4x(v=vs.94).aspx)'
+compatibility:
+  feature: match
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Matches a string with a regular expression, and returns an array containing the results of that search.'
 tags:

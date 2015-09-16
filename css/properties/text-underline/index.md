@@ -1,7 +1,10 @@
 ---
-title: text-underline
+title: 'text-underline'
 code_samples:
   - 'http://gist.github.com/5779274'
+compatibility:
+  feature: text-underline
+  topic: css
 notes:
   - "\nDeletion Candidate:   This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.\n\n"
 overview_table:

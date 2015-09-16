@@ -1,7 +1,10 @@
 ---
-title: text-emphasis
+title: 'text-emphasis'
 code_samples:
   - 'http://gist.github.com/6133067'
+compatibility:
+  feature: text-emphasis
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`none`'
   'Applies to': 'All elements'

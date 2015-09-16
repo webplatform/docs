@@ -1,5 +1,5 @@
 ---
-title: Best practices when writing for mobile
+title: 'Best practices when writing for mobile'
 notes:
   - 'Merge candidate with http://docs.webplatform.org/wiki/concepts/mobile_web/About_mobile_JavaScript_best_practices'
 readiness: 'Not Ready'

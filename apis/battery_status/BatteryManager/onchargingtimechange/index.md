@@ -1,5 +1,5 @@
 ---
-title: onchargingtimechange
+title: 'onchargingtimechange'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

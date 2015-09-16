@@ -1,7 +1,10 @@
 ---
-title: rel
+title: 'rel'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: rel
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -48,9 +51,9 @@ If no values are indicated, the **rel** property's default relationship is an em
 
 ### Related pages
 
--   `a`
+-   a[a](/html/elements/a)
 -   `link`
 -   `Reference`
--   `rev`
+-   rev[rev](/html/attributes/rev)
 -   `Other Resources`
 -   `Subscribing to Content with Web Slices`

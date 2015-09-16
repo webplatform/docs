@@ -1,5 +1,8 @@
 ---
-title: white-space-treatment
+title: 'white-space-treatment'
+compatibility:
+  feature: white-space-treatment
+  topic: css
 notes:
   - 'little content on this page, should be deleted because concept is obsolete and this page doesn''t have any relevant information.'
 overview_table:

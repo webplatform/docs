@@ -1,5 +1,5 @@
 ---
-title: Scripting SVG
+title: 'Scripting SVG'
 notes:
   - Stub
 readiness: 'Not Ready'

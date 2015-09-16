@@ -1,5 +1,8 @@
 ---
-title: @supports
+title: '@supports'
+compatibility:
+  feature: '@supports'
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The CSS @supports at-rule lets authors detect support of CSS features directly in CSS.'

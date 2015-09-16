@@ -1,7 +1,10 @@
 ---
-title: unsigned right shift assignment
+title: 'unsigned right shift assignment'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/2ked96yw(v=vs.94).aspx)'
+compatibility:
+  feature: 'unsigned right shift assignment'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Right shifts the value of a variable by the number of bits specified in the value of an expression, without maintaining sign, and assigns the result to the variable.'
 tags:

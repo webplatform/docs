@@ -1,7 +1,10 @@
 ---
-title: Number
+title: 'Number'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dwab3ed2(v=vs.94).aspx)'
+compatibility:
+  feature: Number
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'An object that represents a number of any kind. All JavaScript numbers are 64-bit floating-point numbers.'
 tags:

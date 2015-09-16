@@ -1,7 +1,10 @@
 ---
-title: justify-content
+title: 'justify-content'
 code_samples:
   - 'http://gist.github.com/5842739'
+compatibility:
+  feature: justify-content
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`flex-start`'
   'Applies to': 'flex containers'

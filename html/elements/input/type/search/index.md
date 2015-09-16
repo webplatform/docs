@@ -1,7 +1,10 @@
 ---
-title: search
+title: 'search'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: search
+  topic: html
 notes:
   - 'Merge Candidate: html/attributes/type. Add example, and more contents.'
 overview_table:
@@ -55,6 +58,6 @@ The **input type=search** object has these properties. {
 ### Related pages
 
 -   `Reference`
--   `spellcheck`
+-   spellcheck[spellcheck](/w/index.php?title=dom/properties/spellcheck&action=edit&redlink=1)
 -   `input`
 -   `INPUT type=text`

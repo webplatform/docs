@@ -1,5 +1,5 @@
 ---
-title: Interacting with mouse movements
+title: 'Interacting with mouse movements'
 notes:
   - 'Needs all content'
 readiness: 'Not Ready'

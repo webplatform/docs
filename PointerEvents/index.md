@@ -1,5 +1,5 @@
 ---
-title: Pointer Events
+title: 'Pointer Events'
 uri: PointerEvents
 
 ---

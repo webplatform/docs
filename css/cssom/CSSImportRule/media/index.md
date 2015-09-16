@@ -1,5 +1,5 @@
 ---
-title: media
+title: 'media'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -193,7 +193,7 @@ element.media = value;
 
 ### Related pages
 
--   `CSSImportRule`
+-   CSSImportRule[CSSImportRule](/css/cssom/CSSImportRule)
 -   `Reference`
--   `href`
--   `styleSheets`
+-   href[href](/css/cssom/CSSImportRule/href)
+-   styleSheets[styleSheets](/css/cssom/properties/styleSheets)

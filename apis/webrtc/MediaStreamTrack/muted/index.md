@@ -1,5 +1,5 @@
 ---
-title: muted
+title: 'muted'
 notes:
   - 'Needs example, spec reference, usage'
 readiness: 'Not Ready'

@@ -1,5 +1,5 @@
 ---
-title: HTML validation
+title: 'HTML validation'
 readiness: 'Ready to Use'
 summary: 'This article introduces the concept of validation, and shows how to use the online W3C validator to validate your HTML.'
 tags:

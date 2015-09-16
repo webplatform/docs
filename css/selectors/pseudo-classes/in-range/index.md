@@ -1,7 +1,10 @@
 ---
-title: :in-range
+title: ':in-range'
 code_samples:
   - 'http://gist.github.com/73a791bbe2cd884f6b2e'
+compatibility:
+  feature: ':in-range'
+  topic: css
 readiness: 'Not Ready'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The :in-range pseudo selector selects input elements when their value is within a specified range.'

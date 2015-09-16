@@ -1,5 +1,8 @@
 ---
-title: scan
+title: 'scan'
+compatibility:
+  feature: scan
+  topic: css
 notes:
   - 'Add summary, values, syntax, examples, description, compatibility.'
 readiness: 'Not Ready'

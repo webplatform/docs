@@ -1,9 +1,12 @@
 ---
-title: border
+title: 'border'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
 code_samples:
   - 'http://gist.github.com/5534182'
+compatibility:
+  feature: border
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`medium none currentColor`'
   'Applies to': 'All elements'
@@ -266,8 +269,8 @@ p {
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaultSelected`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaultSelected[defaultSelected](/dom/HTMLOptionElement/defaultSelected)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)

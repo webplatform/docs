@@ -1,5 +1,5 @@
 ---
-title: network architecture
+title: 'network architecture'
 readiness: 'Not Ready'
 tags:
   - Basic

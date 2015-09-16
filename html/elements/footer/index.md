@@ -1,8 +1,11 @@
 ---
-title: footer
+title: 'footer'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
   - 'Facebook HTML5 Resource Center.'
+compatibility:
+  feature: footer
+  topic: html
 notes:
   - 'Add Category, Parent, Children and Compatibility information. Delete HTML information sub section.'
 overview_table:

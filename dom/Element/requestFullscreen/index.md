@@ -1,5 +1,5 @@
 ---
-title: requestFullscreen
+title: 'requestFullscreen'
 notes:
   - 'Needs examples, and better compat.'
 readiness: 'In Progress'

@@ -1,7 +1,10 @@
 ---
-title: selected
+title: 'selected'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: selected
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -50,4 +53,4 @@ If the property is not set, the first item is selected by default. The property 
 ### Related pages
 
 -   `option`
--   `defaultSelected`
+-   defaultSelected[defaultSelected](/w/index.php?title=dom/properties/defaults&action=edit&redlink=1)

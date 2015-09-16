@@ -1,5 +1,5 @@
 ---
-title: attack
+title: 'attack'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

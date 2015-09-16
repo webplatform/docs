@@ -1,5 +1,5 @@
 ---
-title: WebSocket security
+title: 'WebSocket security'
 readiness: 'Not Ready'
 tags:
   - Concept

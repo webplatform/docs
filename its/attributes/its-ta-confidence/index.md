@@ -1,5 +1,8 @@
 ---
-title: its-ta-confidence
+title: 'its-ta-confidence'
+compatibility:
+  feature: its-ta-confidence
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

@@ -1,5 +1,5 @@
 ---
-title: IDBVersionChangeRequest
+title: 'IDBVersionChangeRequest'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -56,5 +56,5 @@ The **IDBVersionChangeRequest** object was returned by the [**setVersion**](/w/i
 
 ### Related pages
 
--   `onupgradeneeded`
--   `open`
+-   onupgradeneeded[onupgradeneeded](/w/index.php?title=apis/indexedDB/events/onupgradeneeded&action=edit&redlink=1)
+-   open[open](/w/index.php?title=apis/indexedDB/methods/open&action=edit&redlink=1)

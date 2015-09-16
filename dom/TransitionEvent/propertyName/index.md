@@ -1,5 +1,5 @@
 ---
-title: propertyName
+title: 'propertyName'
 attributions:
   - 'Microsoft Developer Network: [[propertyName Property](http://msdn.microsoft.com/en-us/library/ie/hh772142(v=vs.85).aspx) Article]'
 code_samples:

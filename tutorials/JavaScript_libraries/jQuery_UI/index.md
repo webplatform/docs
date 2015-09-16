@@ -1,5 +1,5 @@
 ---
-title: jQuery UI
+title: 'jQuery UI'
 notes:
   - 'Deletion candidate; frameworks should not be a topic on webplatform.org'
 readiness: 'Not Ready'

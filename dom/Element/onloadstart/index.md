@@ -1,5 +1,5 @@
 ---
-title: onloadstart
+title: 'onloadstart'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -47,4 +47,4 @@ This event fires when a method starts to read a [**Blob**](/apis/file/Blob) obje
 
 ### Related pages
 
--   `FileReader`
+-   FileReader[FileReader](/apis/file/FileReader)

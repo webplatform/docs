@@ -1,5 +1,5 @@
 ---
-title: type
+title: 'type'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -189,10 +189,10 @@ element.type = value;
 
 ### Related pages
 
--   `CSSFontFaceRule`
--   `CSSImportRule`
--   `CSSMediaRule`
--   `CSSNamespaceRule`
--   `CSSRule`
--   `page`
--   `rule`
+-   CSSFontFaceRule[CSSFontFaceRule](/dom/CSSFontFaceRule)
+-   CSSImportRule[CSSImportRule](/css/cssom/CSSImportRule)
+-   CSSMediaRule[CSSMediaRule](/css/cssom/CSSMediaRule/CSSMediaRule)
+-   CSSNamespaceRule[CSSNamespaceRule](/css/cssom/CSSNamespaceRule/CSSNamespaceRule)
+-   CSSRule[CSSRule](/css/cssom/CSSRule/CSSRule)
+-   page[page](/css/cssom/page)
+-   rule[rule](/css/cssom/rule)

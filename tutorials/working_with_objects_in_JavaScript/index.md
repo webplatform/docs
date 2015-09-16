@@ -1,5 +1,5 @@
 ---
-title: Working with objects in JavaScript
+title: 'Working with objects in JavaScript'
 notes:
   - "Is marked as needing a technical review in MDN.\nLinks need to be changed to point to the WPD JS reference, once it's created"
 readiness: 'Almost Ready'

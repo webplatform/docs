@@ -1,5 +1,5 @@
 ---
-title: step
+title: 'step'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/Input#Attributes)'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
@@ -7,6 +7,9 @@ attributions:
 code_samples:
   - 'http://jsfiddle.net/mejarc/YkGZY/2/'
   - 'http://jsfiddle.net/mejarc/YkGZY/6/'
+compatibility:
+  feature: step
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -228,6 +231,6 @@ The following example shows the use of the [**min**](/html/attributes/min), [**m
 
 ### Related pages
 
--   `HTMLInputElement`
--   `input type=number`
--   `input type=range`
+-   HTMLInputElement[HTMLInputElement](/dom/HTMLInputElement)
+-   input type=number[input type=number](/html/elements/input/type/number)
+-   input type=range[input type=range](/html/elements/input/type/range)

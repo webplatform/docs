@@ -1,5 +1,5 @@
 ---
-title: viewInheritStyle
+title: 'viewInheritStyle'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -123,7 +123,7 @@ For more information on the CSS styles that can be inherited when **viewInheritS
 
 ### Related pages
 
--   `defaultSelected`
+-   defaultSelected[defaultSelected](/dom/HTMLOptionElement/defaultSelected)
 -   `Conceptual`
 -   `Introduction to Viewlink`
 -   `About Viewlink CSS Inheritance`

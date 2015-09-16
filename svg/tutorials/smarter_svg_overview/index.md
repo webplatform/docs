@@ -1,5 +1,5 @@
 ---
-title: SVG grand tour
+title: 'SVG grand tour'
 notes:
   - 'Fix multiple broken links'
 readiness: 'In Progress'

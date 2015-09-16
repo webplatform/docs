@@ -1,5 +1,5 @@
 ---
-title: Styling forms
+title: 'Styling forms'
 tags:
   - WSC
   - Tutorials

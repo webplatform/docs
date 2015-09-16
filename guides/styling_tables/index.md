@@ -1,5 +1,5 @@
 ---
-title: Styling HTML tables
+title: 'Styling HTML tables'
 readiness: 'Ready to Use'
 summary: 'This article provides a guide to the fundamental styling options available for tables.'
 tags:

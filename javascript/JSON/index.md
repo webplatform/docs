@@ -1,7 +1,10 @@
 ---
-title: JSON
+title: 'JSON'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/cc836458(v=vs.94).aspx)'
+compatibility:
+  feature: JSON
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'An intrinsic object that provides functions to convert JavaScript values to and from the JavaScript Object Notation (JSON) format. The JSON.stringify function serializes a JavaScript value to JSON text. The JSON.parse function deserializes JSON text to produce a JavaScript value.'
 tags:

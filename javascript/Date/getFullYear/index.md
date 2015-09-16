@@ -1,7 +1,10 @@
 ---
-title: getFullYear
+title: 'getFullYear'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/29y2w2x3(v=vs.94).aspx)'
+compatibility:
+  feature: getFullYear
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the year, using local time.'
 tags:

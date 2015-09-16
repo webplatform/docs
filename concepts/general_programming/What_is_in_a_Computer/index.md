@@ -1,5 +1,5 @@
 ---
-title: General Programming Concepts
+title: 'General Programming Concepts'
 notes:
   - 'Not incorrect, but rudimentary. Custom title is misleading. Content needs updating. Content only visible in "Edit Source" mode.'
 readiness: 'In Progress'

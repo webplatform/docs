@@ -1,5 +1,8 @@
 ---
-title: acceptCharset
+title: 'acceptCharset'
+compatibility:
+  feature: acceptCharset
+  topic: html
 notes:
   - "\nMove Candidate:   attribute name is accept-charset\n\n"
 readiness: 'Not Ready'

@@ -1,7 +1,10 @@
 ---
-title: function
+title: 'function'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/4t2k5yhw(v=vs.94).aspx)'
+compatibility:
+  feature: function
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Declares a new function.'
 tags:

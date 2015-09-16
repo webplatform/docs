@@ -1,5 +1,8 @@
 ---
-title: time
+title: 'time'
+compatibility:
+  feature: time
+  topic: html
 notes:
   - 'Merge Candidate: html/attributes/type. Add note section.'
 overview_table:

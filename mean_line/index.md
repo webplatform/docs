@@ -1,5 +1,5 @@
 ---
-title: mean line
+title: 'mean line'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

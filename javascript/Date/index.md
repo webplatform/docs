@@ -1,7 +1,10 @@
 ---
-title: Date
+title: 'Date'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/cd9w2te4(v=vs.94).aspx)'
+compatibility:
+  feature: Date
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Enables basic storage and retrieval of dates and times.'
 tags:

@@ -1,7 +1,10 @@
 ---
-title: bitwise and
+title: 'bitwise and'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dazfy1f3(v=vs.94).aspx)'
+compatibility:
+  feature: 'bitwise and'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Performs a bitwise AND operation on two 32-bit expressions.'
 tags:

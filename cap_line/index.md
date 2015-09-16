@@ -1,5 +1,5 @@
 ---
-title: cap line
+title: 'cap line'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

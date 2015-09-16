@@ -1,7 +1,10 @@
 ---
-title: cols (frameSet)
+title: 'cols (frameSet)'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: 'cols (frameSet)'
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -60,4 +63,4 @@ The number of comma-separated items is equal to the number of frames contained w
 ### Related pages
 
 -   `frameSet`
--   `rows`
+-   rows[rows](/w/index.php?title=dom/properties/rows_(frameSet,_cols)&action=edit&redlink=1)

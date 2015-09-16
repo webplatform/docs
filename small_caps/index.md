@@ -1,5 +1,5 @@
 ---
-title: small caps
+title: 'small caps'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

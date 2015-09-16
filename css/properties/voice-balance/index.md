@@ -1,5 +1,8 @@
 ---
-title: voice-balance
+title: 'voice-balance'
+compatibility:
+  feature: voice-balance
+  topic: css
 notes:
   - 'Needs usage, example'
 overview_table:

@@ -1,7 +1,10 @@
 ---
-title: toTimeString
+title: 'toTimeString'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/y3xxxf8e(v=vs.94).aspx)'
+compatibility:
+  feature: toTimeString
+  topic: javascript
 readiness: 'Almost Ready'
 summary: 'Returns the time component of a date as a human readable string.'
 tags:

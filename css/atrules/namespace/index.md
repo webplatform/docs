@@ -1,7 +1,10 @@
 ---
-title: @namespace
+title: '@namespace'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: '@namespace'
+  topic: css
 notes:
   - 'Empty "Main Content" section, see @import for notes for improvement suggestion. I haven''t come across @namespaces often in single-site implementations; perhaps we can provide elaboration on when @namespaces provide utility.'
 readiness: 'In Progress'

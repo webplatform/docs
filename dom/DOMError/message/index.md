@@ -1,5 +1,5 @@
 ---
-title: message
+title: 'message'
 notes:
   - 'Needs spec reference'
 readiness: 'Almost Ready'

@@ -1,5 +1,5 @@
 ---
-title: FontFace
+title: 'FontFace'
 readiness: 'Ready to Use'
 summary: 'An introduction to the JavaScript FontFace object and font loading. Part of the  Typography tutorials section.'
 tags:

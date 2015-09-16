@@ -1,7 +1,10 @@
 ---
-title: concat
+title: 'concat'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/2e06zxh0(v=vs.94).aspx)'
+compatibility:
+  feature: concat
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Combines two or more arrays.'
 tags:

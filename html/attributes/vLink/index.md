@@ -1,7 +1,10 @@
 ---
-title: vLink
+title: 'vLink'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: vLink
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -47,5 +50,5 @@ Some browsers do not recognize color names, but all browsers should recognize th
 
 -   `body`
 -   `Reference`
--   `aLink`
--   `link`
+-   aLink[aLink](/html/attributes/alinkColor)
+-   link[link](/html/attributes/link)

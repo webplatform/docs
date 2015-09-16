@@ -1,5 +1,5 @@
 ---
-title: lastPage
+title: 'lastPage'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -59,4 +59,4 @@ There are no standards that apply here.
 
 ### Related pages
 
--   `table`
+-   table[table](/html/elements/table)

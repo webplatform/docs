@@ -1,7 +1,10 @@
 ---
-title: borderColor
+title: 'borderColor'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: borderColor
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -44,11 +47,11 @@ To render the color specified by *sColor*, the [**BORDER**](/html/attributes/bor
 -   `frame`
 -   `frameSet`
 -   `LayoutRect`
--   `table`
+-   table[table](/html/elements/table)
 -   `td`
 -   `th`
 -   `tr`
 -   `Reference`
--   `border`
--   `borderColorDark`
--   `borderColorLight`
+-   border[border](/html/attributes/border)
+-   borderColorDark[borderColorDark](/html/attributes/borderColorDark)
+-   borderColorLight[borderColorLight](/html/attributes/borderColorLight)

@@ -1,5 +1,5 @@
 ---
-title: pixelHeight
+title: 'pixelHeight'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -64,6 +64,6 @@ Setting this property changes the value of the height without changing the units
 
 ### Related pages
 
--   `runtimeStyle`
--   `style`
--   `posHeight`
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   posHeight[posHeight](/css/cssom/properties/posHeight)

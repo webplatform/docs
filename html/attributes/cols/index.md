@@ -1,9 +1,12 @@
 ---
-title: cols
+title: 'cols'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cols.htm'
+compatibility:
+  feature: cols
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -65,4 +68,4 @@ Specifying this number can speed up the processing of the table. Windows Interne
 
 ### Related pages
 
--   `table`
+-   table[table](/html/elements/table)

@@ -1,7 +1,10 @@
 ---
-title: lastIndexOf
+title: 'lastIndexOf'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679972(v=vs.94).aspx)'
+compatibility:
+  feature: lastIndexOf
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the index of the last occurrence of a specified value in an array.'
 tags:

@@ -1,5 +1,8 @@
 ---
-title: event
+title: 'event'
+compatibility:
+  feature: event
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'

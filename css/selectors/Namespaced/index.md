@@ -1,7 +1,10 @@
 ---
-title: Namespaced
+title: 'Namespaced'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: Namespaced
+  topic: css
 notes:
   - 'Needs title, summary, spec reference, standardization status, remove topic cluster flags'
 readiness: 'In Progress'

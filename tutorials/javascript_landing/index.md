@@ -1,5 +1,5 @@
 ---
-title: javascript landing
+title: 'javascript landing'
 notes:
   - 'No content; deletion candidate'
 readiness: 'Not Ready'

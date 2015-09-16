@@ -1,5 +1,5 @@
 ---
-title: RTCPeerConnection
+title: 'RTCPeerConnection'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

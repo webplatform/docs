@@ -1,5 +1,5 @@
 ---
-title: initWheelEvent
+title: 'initWheelEvent'
 attributions:
   - 'Microsoft Developer Network: [[initWheelEvent](http://msdn.microsoft.com/en-us/library/ie/ff975254(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

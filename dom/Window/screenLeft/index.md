@@ -1,5 +1,5 @@
 ---
-title: screenLeft
+title: 'screenLeft'
 attributions:
   - 'Microsoft Developer Network: [[screenLeft Property](http://msdn.microsoft.com/en-us/library/ie/ms534389(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

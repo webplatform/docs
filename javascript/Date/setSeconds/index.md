@@ -1,7 +1,10 @@
 ---
-title: setSeconds
+title: 'setSeconds'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/df6eb6zf(v=vs.94).aspx)'
+compatibility:
+  feature: setSeconds
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets the seconds value in the Date object using local time.'
 tags:

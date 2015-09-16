@@ -1,9 +1,12 @@
 ---
-title: accessKey
+title: 'accessKey'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/accessKeyEX.htm'
+compatibility:
+  feature: accessKey
+  topic: html
 notes:
   - 'Needs updating, security considerations & clean up'
 readiness: 'Out of Date'
@@ -59,9 +62,9 @@ By default, pressing an access key sets focus to an object. The object receives 
 
 ### Related pages
 
--   `a`
+-   a[a](/html/elements/a)
 -   `abbr`
--   `acronym`
+-   acronym[acronym](/html/elements/acronym)
 -   `address`
 -   `applet`
 -   `area`
@@ -135,7 +138,7 @@ By default, pressing an access key sets focus to an object. The object receives 
 -   `strong`
 -   `sub`
 -   `sup`
--   `table`
+-   table[table](/html/elements/table)
 -   `tBody`
 -   `td`
 -   `textArea`
@@ -149,5 +152,5 @@ By default, pressing an access key sets focus to an object. The object receives 
 -   `var`
 -   `xmp`
 -   `Reference`
--   `accelerator`
--   `tabIndex`
+-   accelerator[accelerator](/css/media_queries/accelerator)
+-   tabIndex[tabIndex](/html/attributes/tabIndex)

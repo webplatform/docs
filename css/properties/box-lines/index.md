@@ -1,7 +1,10 @@
 ---
-title: box-lines
+title: 'box-lines'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: box-lines
+  topic: css
 notes:
   - 'Add example, compatibility.'
 overview_table:
@@ -132,6 +135,6 @@ Each child element is resized to its minimum width or height before the object i
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)

@@ -1,7 +1,10 @@
 ---
-title: marquee-play-count
+title: 'marquee-play-count'
 code_samples:
   - 'http://gist.github.com/6948452'
+compatibility:
+  feature: marquee-play-count
+  topic: css
 notes:
   - 'This property seems to have been deprecated.'
 overview_table:

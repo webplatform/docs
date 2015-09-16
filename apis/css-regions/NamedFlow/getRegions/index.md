@@ -1,5 +1,5 @@
 ---
-title: getRegions()
+title: 'getRegions()'
 readiness: 'Ready to Use'
 relationships:
   method_of:

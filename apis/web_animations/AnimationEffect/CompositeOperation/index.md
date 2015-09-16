@@ -1,5 +1,5 @@
 ---
-title: CompositeOperation
+title: 'CompositeOperation'
 readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The possible values of an animation effect''s composition behavior are represented by the CompositeOperation enumeration.'

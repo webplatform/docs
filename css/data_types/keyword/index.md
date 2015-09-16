@@ -1,5 +1,5 @@
 ---
-title: CSS keywords
+title: 'CSS keywords'
 code_samples:
   - 'http://gist.github.com/10615256'
 readiness: 'Ready to Use'

@@ -1,7 +1,10 @@
 ---
-title: substring
+title: 'substring'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/3cz15ahb(v=vs.94).aspx)'
+compatibility:
+  feature: substring
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the substring at the specified location within a String object.'
 tags:

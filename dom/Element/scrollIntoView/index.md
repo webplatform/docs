@@ -1,5 +1,5 @@
 ---
-title: scrollIntoView
+title: 'scrollIntoView'
 notes:
   - 'Needs examples, spec, and compat'
 readiness: 'In Progress'

@@ -1,7 +1,10 @@
 ---
-title: list
+title: 'list'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: list
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -183,4 +186,4 @@ This can allow for things such as autocompletion, or faster site search. It woul
 
 ### Related pages
 
--   `HTMLInputElement`
+-   HTMLInputElement[HTMLInputElement](/dom/HTMLInputElement)

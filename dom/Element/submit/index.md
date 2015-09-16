@@ -1,5 +1,5 @@
 ---
-title: submit
+title: 'submit'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -121,5 +121,5 @@ The *pEvtObj* parameter is required for the following interfaces:
 
 -   `form`
 -   `Reference`
--   `action`
--   `method`
+-   action[action](/html/attributes/action)
+-   method[method](/html/attributes/method)

@@ -1,5 +1,5 @@
 ---
-title: Simple Asset Management for HTML5 Games
+title: 'Simple Asset Management for HTML5 Games'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/games/assetmanager/)'
 readiness: 'Ready to Use'

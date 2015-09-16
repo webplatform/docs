@@ -1,5 +1,5 @@
 ---
-title: DOMError
+title: 'DOMError'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -45,5 +45,5 @@ While similar to [**DOMException**](/dom/DOMException) objects, **DOMError** obj
 
 ### Related pages
 
--   `DOMException`
--   `DOM Error Codes`
+-   DOMException[DOMException](/dom/DOMException)
+-   DOM Error Codes[DOM Error Codes](/dom/constants/DOM_exception_error_codes)

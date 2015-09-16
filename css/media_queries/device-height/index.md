@@ -1,7 +1,10 @@
 ---
-title: device-height
+title: 'device-height'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: device-height
+  topic: css
 notes:
   - 'Add summery, values, syntax, example, description, specifications, compatibility.'
 readiness: 'Not Ready'

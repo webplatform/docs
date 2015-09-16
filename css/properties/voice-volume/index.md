@@ -1,5 +1,8 @@
 ---
-title: voice-volume
+title: 'voice-volume'
+compatibility:
+  feature: voice-volume
+  topic: css
 notes:
   - 'Stub page/summary only.  Needs examples, compatibility, rest of CSS basic info table and detailed usage description.'
 overview_table:

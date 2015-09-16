@@ -1,5 +1,5 @@
 ---
-title: onerror
+title: 'onerror'
 notes:
   - 'Needs example'
 readiness: 'Almost Ready'

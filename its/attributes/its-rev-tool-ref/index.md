@@ -1,5 +1,8 @@
 ---
-title: its-rev-tool-ref
+title: 'its-rev-tool-ref'
+compatibility:
+  feature: its-rev-tool-ref
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

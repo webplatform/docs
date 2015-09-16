@@ -1,5 +1,5 @@
 ---
-title: coneOuterAngle
+title: 'coneOuterAngle'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

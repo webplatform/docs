@@ -1,5 +1,5 @@
 ---
-title: inputMethod
+title: 'inputMethod'
 attributions:
   - 'Microsoft Developer Network: [[inputMethod Property](http://msdn.microsoft.com/en-us/library/ie/ff974806(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

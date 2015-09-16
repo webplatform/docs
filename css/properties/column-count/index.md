@@ -1,9 +1,12 @@
 ---
-title: column-count
+title: 'column-count'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh772195(v=vs.85).aspx)'
 code_samples:
   - 'http://gist.github.com/6288917'
+compatibility:
+  feature: column-count
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`auto`'
   'Applies to': 'non-replaced block-level elements (except table elements), table cells, and inline-block elements'
@@ -144,7 +147,7 @@ The actual column count may vary from the value specified due to available space
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
--   `table`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)
+-   table[table](/html/elements/table)

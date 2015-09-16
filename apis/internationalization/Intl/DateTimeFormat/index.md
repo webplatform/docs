@@ -1,5 +1,5 @@
 ---
-title: DateTimeFormat
+title: 'DateTimeFormat'
 notes:
   - 'Needs summary, example, spec reference, standardization status'
 readiness: 'Not Ready'

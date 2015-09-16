@@ -1,5 +1,5 @@
 ---
-title: HTML
+title: 'HTML'
 lang: es
 standardization_status: Unknown
 todo_broken_links:

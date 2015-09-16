@@ -1,5 +1,5 @@
 ---
-title: loadstart
+title: 'loadstart'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -94,13 +94,13 @@ This event is dispatched first and occurs only one time. To invoke this event, d
 
 ### Related pages
 
--   `audioApi`
--   `audioElement`
--   `Document`
--   `source`
--   `videoElement`
--   `videoApi`
--   `Window`
+-   audioApi[audioApi](/apis/audio-video/audio)
+-   audioElement[audioElement](/html/elements/audio)
+-   Document[Document](/dom/Document)
+-   source[source](/html/elements/source)
+-   videoElement[videoElement](/html/elements/video)
+-   videoApi[videoApi](/apis/audio-video/video)
+-   Window[Window](/dom/Window)
 -   `Reference`
--   `onloadeddata`
--   `onloadedmetadata`
+-   onloadeddata[onloadeddata](/dom/Element/loadeddata)
+-   onloadedmetadata[onloadedmetadata](/dom/Element/loadedmetadata)

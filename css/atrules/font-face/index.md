@@ -1,10 +1,13 @@
 ---
-title: @font-face
+title: '@font-face'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/@font-face)'
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ms530757(v=vs.85).aspx)'
 code_samples:
   - 'http://gist.github.com/5481068'
+compatibility:
+  feature: '@font-face'
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The @font-face CSS at-rule allows authors to specify online fonts to display text on their web pages. By allowing authors to provide their own fonts, @font-face eliminates the need to depend on the limited number of fonts users have installed on their computers.'

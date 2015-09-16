@@ -1,9 +1,12 @@
 ---
-title: touch-action
+title: 'touch-action'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/library/ie/hh772044.aspx)'
 code_samples:
   - 'http://www.love2dev.com/'
+compatibility:
+  feature: touch-action
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`auto`'
   'Applies to': 'All elements except non-replaced inline elements, table rows, row groups, table columns, and column groups'

@@ -1,5 +1,5 @@
 ---
-title: dl – description list
+title: 'dl – description list'
 code_samples:
   - 'http://gist.github.com/5821157'
 notes:

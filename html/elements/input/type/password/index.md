@@ -1,7 +1,10 @@
 ---
-title: password
+title: 'password'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: password
+  topic: html
 notes:
   - 'Merge Candidate: html/attributes/type. Add example, and more contents.'
 overview_table:
@@ -62,6 +65,6 @@ The password type of the &lt;input&gt; element represents a one-line plain-text 
 ### Related pages
 
 -   `input`
--   `msCapsLockWarningOff`
--   `Form controls part 1`
--   `Form controls part 2: validation`
+-   msCapsLockWarningOff[msCapsLockWarningOff](/w/index.php?title=dom/properties/msCapsLockWarningOff&action=edit&redlink=1)
+-   Form controls part 1[Form controls part 1](http://go.microsoft.com/fwlink/p/?LinkID=251128)
+-   Form controls part 2: validation[Form controls part 2: validation](http://go.microsoft.com/fwlink/p/?LinkID=251131)

@@ -1,5 +1,5 @@
 ---
-title: Event
+title: 'Event'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 readiness: 'Ready to Use'
@@ -183,17 +183,17 @@ document.addEventListener("keydown", suppressPresses, false);
 
 ### Related pages
 
--   `BeforeUnloadEvent`
--   `CompositionEvent`
--   `CustomEvent`
--   `DragEvent`
--   `FocusEvent`
--   `KeyboardEvent`
--   `MessageEvent`
--   `MouseEvent`
--   `MouseWheelEvent`
--   `MutationEvent`
--   `StorageEvent`
--   `TextEvent`
--   `UIEvent`
--   `WheelEvent`
+-   BeforeUnloadEvent[BeforeUnloadEvent](/dom/BeforeUnloadEvent)
+-   CompositionEvent[CompositionEvent](/dom/CompositionEvent)
+-   CustomEvent[CustomEvent](/dom/CustomEvent)
+-   DragEvent[DragEvent](/dom/DragEvent)
+-   FocusEvent[FocusEvent](/dom/FocusEvent)
+-   KeyboardEvent[KeyboardEvent](/dom/KeyboardEvent)
+-   MessageEvent[MessageEvent](/dom/MessageEvent)
+-   MouseEvent[MouseEvent](/dom/MouseEvent)
+-   MouseWheelEvent[MouseWheelEvent](/w/index.php?title=dom/MouseWheelEvent&action=edit&redlink=1)
+-   MutationEvent[MutationEvent](/dom/MutationEvent)
+-   StorageEvent[StorageEvent](/dom/StorageEvent)
+-   TextEvent[TextEvent](/dom/TextEvent)
+-   UIEvent[UIEvent](/dom/UIEvent)
+-   WheelEvent[WheelEvent](/dom/WheelEvent)

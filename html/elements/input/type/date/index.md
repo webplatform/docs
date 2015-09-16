@@ -1,5 +1,8 @@
 ---
-title: date
+title: 'date'
+compatibility:
+  feature: date
+  topic: html
 notes:
   - 'Merge Candidate: html/attributes/type'
 overview_table:

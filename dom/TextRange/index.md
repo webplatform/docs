@@ -1,5 +1,5 @@
 ---
-title: TextRange
+title: 'TextRange'
 attributions:
   - 'Microsoft Developer Network: [[TextRange Object](http://msdn.microsoft.com/en-us/library/ie/ms535872(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

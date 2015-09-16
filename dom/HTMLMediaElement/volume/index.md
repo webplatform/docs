@@ -1,5 +1,5 @@
 ---
-title: volume
+title: 'volume'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -49,7 +49,7 @@ Volume ranges do not need to be linear. When [**muted**](/dom/HTMLMediaElement/m
 
 ### Related pages
 
--   `media`
+-   media[media](/html/elements/media)
 -   `audio`
 -   `audio`
 -   `video element`

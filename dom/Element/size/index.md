@@ -1,5 +1,5 @@
 ---
-title: size
+title: 'size'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -43,4 +43,4 @@ The **size** property returns the total number of bytes of the [**Blob**](/apis/
 
 ### Related pages
 
--   `Blob`
+-   Blob[Blob](/apis/file/Blob)

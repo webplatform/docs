@@ -1,5 +1,5 @@
 ---
-title: Empathy map
+title: 'Empathy map'
 readiness: 'Not Ready'
 summary: 'Explore a target user from different perspectives such as Behavior (See), Motivations (Do), Features (Say or feel).'
 tags:

@@ -1,7 +1,10 @@
 ---
-title: try catch finally
+title: 'try catch finally'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/4yahc5d8(v=vs.94).aspx)'
+compatibility:
+  feature: 'try catch finally'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets up blocks of code in which errors that are thrown in one block are handled in another. Errors that are thrown inside the try block are caught in the catch block. JavaScript.'
 tags:

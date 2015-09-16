@@ -1,5 +1,5 @@
 ---
-title: AnimationNode
+title: 'AnimationNode'
 readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Animation nodes are represented in the Web Animations API by the AnimationNode interface.'

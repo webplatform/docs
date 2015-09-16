@@ -1,5 +1,5 @@
 ---
-title: webgl textures
+title: 'webgl textures'
 uri: 'tutorials/webgl textures'
 
 ---

@@ -1,5 +1,8 @@
 ---
-title: voice-duration
+title: 'voice-duration'
+compatibility:
+  feature: voice-duration
+  topic: css
 notes:
   - 'Needs usage, example'
 overview_table:

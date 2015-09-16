@@ -1,5 +1,5 @@
 ---
-title: draggable
+title: 'draggable'
 notes:
   - 'examples, compatibility'
 readiness: 'Almost Ready'

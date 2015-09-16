@@ -1,7 +1,10 @@
 ---
-title: unicode
+title: 'unicode'
 code_samples:
   - 'https://mathiasbynens.be/notes/es6-unicode-regex#impact-dot'
+compatibility:
+  feature: unicode
+  topic: javascript
 notes:
   - 'Moved under javascript/RegExp'
 readiness: 'Ready to Use'

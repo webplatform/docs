@@ -1,5 +1,5 @@
 ---
-title: Location
+title: 'Location'
 notes:
   - 'Summary/overview, compatibility possible examples'
 readiness: 'Not Ready'

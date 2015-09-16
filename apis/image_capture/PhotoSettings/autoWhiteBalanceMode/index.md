@@ -1,5 +1,5 @@
 ---
-title: autoWhiteBalanceMode
+title: 'autoWhiteBalanceMode'
 notes:
   - 'Needs example, usage, spec reference'
 readiness: 'In Progress'

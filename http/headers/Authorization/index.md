@@ -1,5 +1,8 @@
 ---
-title: Authorization
+title: 'Authorization'
+compatibility:
+  feature: Authorization
+  topic: http
 overview_table:
   Direction: ''
   Features: ''

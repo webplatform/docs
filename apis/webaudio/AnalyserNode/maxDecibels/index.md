@@ -1,5 +1,5 @@
 ---
-title: maxDecibels
+title: 'maxDecibels'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

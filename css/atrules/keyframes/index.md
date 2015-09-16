@@ -1,10 +1,13 @@
 ---
-title: @keyframes
+title: '@keyframes'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://03sq.net/examples/animation.html'
   - 'http://03sq.net/examples/animation2.html'
+compatibility:
+  feature: '@keyframes'
+  topic: css
 notes:
   - "Empty \"Main Content\" section, see @import for notes for improvement. \nIn the summary, \"Keyframes\" is defined using itself, would reword and provide a working definition of \"Keyframes\" to the general public."
 readiness: 'In Progress'
@@ -186,5 +189,5 @@ The version of this rule using a vendor prefix, **@-ms-keyframes**, has been dep
 
 ### Related pages
 
--   `animationName`
--   `css/properties/animation/animation`
+-   animationName[animationName](/css/properties/animation-name)
+-   css/properties/animation/animation[css/properties/animation/animation](/css/properties/animation/animation)

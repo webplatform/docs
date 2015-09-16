@@ -1,5 +1,5 @@
 ---
-title: detune
+title: 'detune'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

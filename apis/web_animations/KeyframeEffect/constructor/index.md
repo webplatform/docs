@@ -1,5 +1,5 @@
 ---
-title: constructor
+title: 'constructor'
 readiness: 'Almost Ready'
 relationships:
   method_of:

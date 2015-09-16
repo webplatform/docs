@@ -1,5 +1,5 @@
 ---
-title: onended
+title: 'onended'
 notes:
   - 'Needs example, spec reference, usage'
 readiness: 'Not Ready'

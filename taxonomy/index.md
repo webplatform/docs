@@ -1,5 +1,5 @@
 ---
-title: taxonomy
+title: 'taxonomy'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

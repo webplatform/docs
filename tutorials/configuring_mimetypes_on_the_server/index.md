@@ -1,5 +1,5 @@
 ---
-title: Setting up Mime Types on your server
+title: 'Setting up Mime Types on your server'
 notes:
   - 'Initial creation. Needs content/links review'
 readiness: 'In Progress'

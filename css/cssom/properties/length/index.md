@@ -1,5 +1,5 @@
 ---
-title: length
+title: 'length'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -189,9 +189,9 @@ element.length = value;
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
--   `CSSMediaList`
--   `rules`
--   `imports`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)
+-   CSSMediaList[CSSMediaList](/css/cssom/CSSMediaList/CSSMediaList)
+-   rules[rules](/css/cssom/rules)
+-   imports[imports](/css/cssom/imports)

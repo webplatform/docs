@@ -1,5 +1,5 @@
 ---
-title: attribute selector
+title: 'attribute selector'
 tags:
   - CSS
 uri: 'css/selectors/attribute selector'

@@ -1,5 +1,5 @@
 ---
-title: normalize
+title: 'normalize'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

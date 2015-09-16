@@ -1,5 +1,5 @@
 ---
-title: setOrientation
+title: 'setOrientation'
 notes:
   - Needsexample
 readiness: 'Ready to Use'

@@ -1,5 +1,8 @@
 ---
-title: background-clip
+title: 'background-clip'
+compatibility:
+  feature: background-clip
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`border-box`'
   'Applies to': 'All elements'

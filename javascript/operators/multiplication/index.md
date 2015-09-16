@@ -1,7 +1,10 @@
 ---
-title: multiplication
+title: 'multiplication'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/s0f51f9b(v=vs.94).aspx)'
+compatibility:
+  feature: multiplication
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Multiplies the value of two expressions.'
 tags:

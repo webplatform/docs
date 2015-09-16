@@ -1,7 +1,10 @@
 ---
-title: test
+title: 'test'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/a55e5s6b(v=vs.94).aspx)'
+compatibility:
+  feature: test
+  topic: javascript
 notes:
   - 'Moved under javascript/RegExp'
 readiness: 'Ready to Use'

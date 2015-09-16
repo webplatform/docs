@@ -1,5 +1,5 @@
 ---
-title: text
+title: 'text'
 notes:
   - 'Final review.'
 readiness: 'Almost Ready'

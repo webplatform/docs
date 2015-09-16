@@ -1,5 +1,5 @@
 ---
-title: getContent()
+title: 'getContent()'
 readiness: 'Ready to Use'
 relationships:
   method_of:

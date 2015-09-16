@@ -1,7 +1,10 @@
 ---
-title: with
+title: 'with'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/b294afx9(v=vs.94).aspx)'
+compatibility:
+  feature: with
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Establishes the default object for a statement. Disallowed in strict mode.'
 tags:

@@ -1,5 +1,5 @@
 ---
-title: HTML lists
+title: 'HTML lists'
 readiness: 'Ready to Use'
 summary: 'This article introduces the three list types in HTML and explores their basic features.'
 tags:

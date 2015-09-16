@@ -1,7 +1,10 @@
 ---
-title: getInt8
+title: 'getInt8'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212471(v=vs.94).aspx)'
+compatibility:
+  feature: getInt8
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the Int8 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be fetched from any offset.'
 tags:

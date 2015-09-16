@@ -1,5 +1,5 @@
 ---
-title: Design theory
+title: 'Design theory'
 notes:
   - Stub
 readiness: 'Not Ready'

@@ -1,7 +1,10 @@
 ---
-title: calc
+title: 'calc'
 code_samples:
   - 'http://gist.github.com/d3322a08edaaaef9adaf'
+compatibility:
+  feature: calc
+  topic: css
 notes:
   - 'Can be used as-is, though out of style with the rest of the function pages as it doesn''t list the others in related links.'
 readiness: 'Ready to Use'

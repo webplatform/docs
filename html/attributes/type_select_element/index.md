@@ -1,7 +1,10 @@
 ---
-title: type (select element)
+title: 'type (select element)'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: 'type (select element)'
+  topic: html
 notes:
   - "\nMerge Candidate:  This page is a candidate for merge with the following pages: [[html/attributes/type]] \n\n"
 readiness: 'Not Ready'

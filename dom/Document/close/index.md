@@ -1,5 +1,5 @@
 ---
-title: close
+title: 'close'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 readiness: 'Ready to Use'
@@ -62,4 +62,4 @@ When [**document.write**](/dom/Document/write) or [**document.writeln**](/dom/Do
 
 ### Related pages
 
--   `open`
+-   open[open](/dom/Document/open)

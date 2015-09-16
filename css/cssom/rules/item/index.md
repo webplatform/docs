@@ -1,5 +1,5 @@
 ---
-title: item
+title: 'item'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -46,4 +46,4 @@ This function returns an S\_OK even if the element is not found. The programmer 
 
 ### Related pages
 
--   `rules`
+-   rules[rules](/css/cssom/rules)

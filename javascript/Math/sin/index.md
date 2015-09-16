@@ -1,7 +1,10 @@
 ---
-title: sin
+title: 'sin'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)'
+compatibility:
+  feature: sin
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the sine of a number.'
 tags:

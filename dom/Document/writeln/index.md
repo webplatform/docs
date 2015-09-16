@@ -1,5 +1,5 @@
 ---
-title: writeln
+title: 'writeln'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -61,5 +61,5 @@ In HTML, the carriage return is ignored unless it occurs in preformatted text. D
 ### Related pages
 
 -   `Reference`
--   `write`
--   `open`
+-   write[write](/dom/Document/write)
+-   open[open](/dom/Document/open)

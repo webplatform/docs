@@ -1,7 +1,10 @@
 ---
-title: font-variant
+title: 'font-variant'
 code_samples:
   - 'http://gist.github.com/5716625'
+compatibility:
+  feature: font-variant
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`normal`'
   'Applies to': 'All elements'

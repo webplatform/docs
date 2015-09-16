@@ -1,5 +1,5 @@
 ---
-title: Structural pseudo-classes
+title: 'Structural pseudo-classes'
 tags:
   - CSS
 uri: 'css/selectors/pseudo-classes/Structural pseudo-classes'

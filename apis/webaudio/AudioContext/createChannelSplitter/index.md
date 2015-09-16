@@ -1,5 +1,5 @@
 ---
-title: createChannelSplitter
+title: 'createChannelSplitter'
 readiness: 'Ready to Use'
 relationships:
   method_of:

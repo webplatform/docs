@@ -1,7 +1,10 @@
 ---
-title: caption-side
+title: 'caption-side'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: caption-side
+  topic: css
 notes:
   - 'Complete specifications, compatibility.'
 overview_table:
@@ -153,8 +156,8 @@ The supported possible values for **caption-side** depend on the orientation of 
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
--   `display`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   display[display](/css/properties/display)

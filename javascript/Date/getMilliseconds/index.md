@@ -1,7 +1,10 @@
 ---
-title: getMilliseconds
+title: 'getMilliseconds'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/52s3k2tf(v=vs.94).aspx)'
+compatibility:
+  feature: getMilliseconds
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the milliseconds of a Date, using local time.'
 tags:

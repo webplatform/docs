@@ -1,7 +1,10 @@
 ---
-title: page-break-inside
+title: 'page-break-inside'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: page-break-inside
+  topic: css
 notes:
   - 'Deprecated; deletion candidate'
 overview_table:
@@ -86,8 +89,8 @@ inherit
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `CSS How-to - Optimize Pages for Printing Using CSS`

@@ -1,5 +1,5 @@
 ---
-title: bubbles
+title: 'bubbles'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -64,22 +64,22 @@ When you create a custom event by using the [**createEvent**](/dom/Document/crea
 
 ### Related pages
 
--   `SVGZoomEvent`
--   `BeforeUnloadEvent`
--   `CompositionEvent`
--   `CustomEvent`
--   `Event`
--   `DragEvent`
--   `FocusEvent`
--   `KeyboardEvent`
--   `MessageEvent`
--   `MouseEvent`
--   `MouseWheelEvent`
--   `MutationEvent`
--   `StorageEvent`
--   `TextEvent`
--   `UIEvent`
+-   SVGZoomEvent[SVGZoomEvent](/svg/objects/SVGZoom)
+-   BeforeUnloadEvent[BeforeUnloadEvent](/dom/BeforeUnloadEvent)
+-   CompositionEvent[CompositionEvent](/dom/CompositionEvent)
+-   CustomEvent[CustomEvent](/dom/CustomEvent)
+-   Event[Event](/dom/Event)
+-   DragEvent[DragEvent](/dom/DragEvent)
+-   FocusEvent[FocusEvent](/dom/FocusEvent)
+-   KeyboardEvent[KeyboardEvent](/dom/KeyboardEvent)
+-   MessageEvent[MessageEvent](/dom/MessageEvent)
+-   MouseEvent[MouseEvent](/dom/MouseEvent)
+-   MouseWheelEvent[MouseWheelEvent](/w/index.php?title=dom/MouseWheelEvent&action=edit&redlink=1)
+-   MutationEvent[MutationEvent](/dom/MutationEvent)
+-   StorageEvent[StorageEvent](/dom/StorageEvent)
+-   TextEvent[TextEvent](/dom/TextEvent)
+-   UIEvent[UIEvent](/dom/UIEvent)
 -   `Reference`
--   `cancelable`
--   `stopPropagation`
--   `stopImmediatePropagation`
+-   cancelable[cancelable](/dom/Event/cancelable)
+-   stopPropagation[stopPropagation](/dom/Event/stopPropagation)
+-   stopImmediatePropagation[stopImmediatePropagation](/dom/Event/stopImmediatePropagation)

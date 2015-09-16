@@ -1,5 +1,8 @@
 ---
-title: If-Modified-Since
+title: 'If-Modified-Since'
+compatibility:
+  feature: If-Modified-Since
+  topic: http
 overview_table:
   Direction: Request
   Features: ''

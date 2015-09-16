@@ -1,5 +1,5 @@
 ---
-title: HTML tutorials
+title: 'HTML tutorials'
 readiness: 'Ready to Use'
 summary: 'HTML is a markup language, used to give content structure and meaning. This section should cover all of our HTML tutorials — Ideal for learning HTML from scratch, or diving into learning more complex HTML topics.'
 tags:

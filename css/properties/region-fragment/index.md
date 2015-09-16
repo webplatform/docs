@@ -1,5 +1,8 @@
 ---
-title: region-fragment
+title: 'region-fragment'
+compatibility:
+  feature: region-fragment
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`auto`'
   'Applies to': 'CSS Regions'

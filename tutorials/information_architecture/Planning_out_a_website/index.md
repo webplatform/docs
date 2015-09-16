@@ -1,5 +1,5 @@
 ---
-title: Planning out a website
+title: 'Planning out a website'
 tags:
   - Pages
   - with

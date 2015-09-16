@@ -1,7 +1,10 @@
 ---
-title: radio
+title: 'radio'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: radio
+  topic: html
 notes:
   - 'Merge Candidate: html/attributes/type'
 overview_table:

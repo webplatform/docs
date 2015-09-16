@@ -1,7 +1,10 @@
 ---
-title: max(HTMLProgressElement)
+title: 'max(HTMLProgressElement)'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: max(HTMLProgressElement)
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -44,4 +47,4 @@ The following example displays a progress bar with a **max** value of 100. **Not
 
 ### Related pages
 
--   `HTMLProgressElement`
+-   HTMLProgressElement[HTMLProgressElement](/html/elements/progress)

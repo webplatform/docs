@@ -1,9 +1,12 @@
 ---
-title: id
+title: 'id'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/id.htm'
+compatibility:
+  feature: id
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -68,9 +71,9 @@ The **id** is an SGML identifier used as the target for hypertext links or for n
 ### Related pages
 
 -   `style`
--   `a`
+-   a[a](/html/elements/a)
 -   `abbr`
--   `acronym`
+-   acronym[acronym](/html/elements/acronym)
 -   `address`
 -   `applet`
 -   `area`
@@ -134,7 +137,7 @@ The **id** is an SGML identifier used as the target for hypertext links or for n
 -   `map`
 -   `marquee`
 -   `menu`
--   `nextID`
+-   nextID[nextID](/html/elements/nextID)
 -   `noBR`
 -   `noFrames`
 -   `noScript`
@@ -156,10 +159,10 @@ The **id** is an SGML identifier used as the target for hypertext links or for n
 -   `span`
 -   `strike`
 -   `strong`
--   `styleSheet`
+-   styleSheet[styleSheet](/css/cssom/styleSheet)
 -   `sub`
 -   `sup`
--   `table`
+-   table[table](/html/elements/table)
 -   `tBody`
 -   `td`
 -   `textArea`

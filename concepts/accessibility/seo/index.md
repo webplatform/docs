@@ -1,5 +1,5 @@
 ---
-title: Accessibility and SEO
+title: 'Accessibility and SEO'
 notes:
   - Stub
 readiness: 'Not Ready'

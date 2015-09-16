@@ -1,5 +1,5 @@
 ---
-title: Grunderna i HTML
+title: 'Grunderna i HTML'
 lang: sv
 summary: 'I denna artikel kommer du lära dig grunderna i HTML för att få en uppfattning om strukturen och innehållet av ett HTML dokument.'
 tags:

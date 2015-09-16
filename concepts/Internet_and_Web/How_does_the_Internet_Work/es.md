@@ -1,5 +1,5 @@
 ---
-title: ¿Cómo funciona el Internet?
+title: '¿Cómo funciona el Internet?'
 lang: es
 summary: "Muy pocas veces te ofrecen una mirada tras bastidores a los engranajes y maquinarias de la acción. Hoy es tu día de suerte. En este artículo te daremos acceso detrás del escenario a una de las tecnologías más famosas, una con la cual ya debes estar familiarizado: el World Wide Web.\n"
 tags:

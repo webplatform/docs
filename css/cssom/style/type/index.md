@@ -1,5 +1,5 @@
 ---
-title: type
+title: 'type'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -191,4 +191,4 @@ The property can be any string, including an empty string. Valid style sheets fo
 
 ### Related pages
 
--   `style`
+-   style[style](/css/cssom/style)

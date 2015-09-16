@@ -1,5 +1,8 @@
 ---
-title: reset-style-inheritance
+title: 'reset-style-inheritance'
+compatibility:
+  feature: reset-style-inheritance
+  topic: html
 notes:
   - "Deprecated; deletion candidate. See\nhttps://groups.google.com/forum/#!topic/polymer-dev/wmcncSDx_Jo"
 readiness: 'Not Ready'

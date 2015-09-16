@@ -1,5 +1,5 @@
 ---
-title: isPrefAlternate
+title: 'isPrefAlternate'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -191,5 +191,5 @@ If more than one alternative style sheet exists, then this is the preferred one.
 
 ### Related pages
 
--   `styleSheet`
--   `isAlternate`
+-   styleSheet[styleSheet](/css/cssom/styleSheet)
+-   isAlternate[isAlternate](/css/cssom/properties/isAlternate)

@@ -1,5 +1,5 @@
 ---
-title: Implementing the HTML5 audio tag
+title: 'Implementing the HTML5 audio tag'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/audio/quick/)'
 readiness: 'Ready to Use'

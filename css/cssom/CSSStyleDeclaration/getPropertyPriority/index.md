@@ -1,5 +1,5 @@
 ---
-title: getPropertyPriority
+title: 'getPropertyPriority'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 readiness: 'Ready to Use'
@@ -234,12 +234,12 @@ The priority of a CSS property is designated by, for example, the [!important](/
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)
 -   `Reference`
--   `getPropertyValue`
--   `item`
--   `length`
--   `removeProperty`
--   `setProperty`
+-   getPropertyValue[getPropertyValue](/css/cssom/CSSStyleDeclaration/getPropertyValue)
+-   item[item](/css/cssom/CSSStyleDeclaration/item)
+-   length[length](/css/cssom/properties/length)
+-   removeProperty[removeProperty](/css/cssom/methods/removeProperty)
+-   setProperty[setProperty](/css/cssom/methods/setProperty)

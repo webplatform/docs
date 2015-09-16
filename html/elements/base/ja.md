@@ -1,5 +1,8 @@
 ---
-title: base
+title: 'base'
+compatibility:
+  feature: ja
+  topic: html
 lang: ja
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLBaseElement](/dom/HTMLBaseElement)'

@@ -1,5 +1,5 @@
 ---
-title: HTMLフォームの基礎
+title: 'HTMLフォームの基礎'
 lang: ja
 notes:
   - 'needs translation'

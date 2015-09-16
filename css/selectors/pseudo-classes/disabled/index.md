@@ -1,7 +1,10 @@
 ---
-title: :disabled
+title: ':disabled'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: ':disabled'
+  topic: css
 notes:
   - 'Needs title, summary, example, spec reference, remove topic cluster flags'
 readiness: 'Not Ready'
@@ -188,6 +191,6 @@ disabled
 ### Related pages
 
 -   `Reference`
--   `:enabled`
--   `:checked`
--   `:indeterminate`
+-   :enabled[:enabled](/css/selectors/pseudo-classes/:enabled)
+-   :checked[:checked](/css/selectors/pseudo-classes/:checked)
+-   :indeterminate[:indeterminate](/css/selectors/pseudo-classes/:indeterminate)

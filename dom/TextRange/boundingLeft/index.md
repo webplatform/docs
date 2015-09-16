@@ -1,5 +1,5 @@
 ---
-title: boundingLeft
+title: 'boundingLeft'
 attributions:
   - 'Microsoft Developer Network: [[boundingLeft Property](http://msdn.microsoft.com/en-us/library/ie/ms533539(v=vs.85).aspx) Article]'
 code_samples:

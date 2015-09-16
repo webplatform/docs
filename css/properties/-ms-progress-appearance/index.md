@@ -1,5 +1,5 @@
 ---
-title: -ms-progress-appearance
+title: '-ms-progress-appearance'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -106,9 +106,9 @@ Windows Server 2012
 
 ### Related pages
 
--   `progress`
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaultSelected`
--   `runtimeStyle`
--   `style`
+-   progress[progress](/html/elements/progress)
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaultSelected[defaultSelected](/dom/HTMLOptionElement/defaultSelected)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)

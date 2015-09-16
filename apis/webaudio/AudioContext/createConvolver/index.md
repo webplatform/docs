@@ -1,5 +1,5 @@
 ---
-title: createConvolver
+title: 'createConvolver'
 readiness: 'Ready to Use'
 relationships:
   method_of:

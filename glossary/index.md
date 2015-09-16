@@ -1,5 +1,5 @@
 ---
-title: glossary
+title: 'glossary'
 notes:
   - 'one link goes to a long list of glossary terms, another goes to nothing.'
 readiness: 'Not Ready'

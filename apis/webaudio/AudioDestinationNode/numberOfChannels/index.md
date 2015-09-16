@@ -1,5 +1,5 @@
 ---
-title: numberOfChannels
+title: 'numberOfChannels'
 notes:
   - 'Not in spec; deletion candidate. Possibly confused with AudioBuffer/numberOfChannels.'
 readiness: 'Not Ready'

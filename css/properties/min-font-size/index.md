@@ -1,5 +1,8 @@
 ---
-title: min-font-size
+title: 'min-font-size'
+compatibility:
+  feature: min-font-size
+  topic: css
 notes:
   - 'Add example, specifications, compatibility.'
 overview_table:

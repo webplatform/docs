@@ -1,10 +1,13 @@
 ---
-title: ::first-letter
+title: '::first-letter'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'https://gist.github.com/6cbbb246cdbcf6c2bfaf'
   - 'https://gist.github.com/5257e9b2d1e11631d608'
+compatibility:
+  feature: '::first-letter'
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "Represents the first letter of an element, if it is not preceded by any other content (such as images or inline tables) on its line. The\_::first-letter pseudo-element may be used for &quot;initial caps&quot; and &quot;drop caps&quot;, which are common typographical effects."

@@ -1,5 +1,8 @@
 ---
-title: hanging-punctuation
+title: 'hanging-punctuation'
+compatibility:
+  feature: hanging-punctuation
+  topic: css
 notes:
   - 'Add example, description, compatibility.'
 overview_table:

@@ -1,5 +1,5 @@
 ---
-title: Touch Input Considerations
+title: 'Touch Input Considerations'
 readiness: 'In Progress'
 summary: 'Today''s mobile devices are exploding in popularity, and most of them have capacitive touch screens, which provide input affordances that are very different from keyboard-and-mouse interfaces.  When the web was being developed, the vast majority of computers had a keyboard and mouse attached. Thus, the web provided (and continues to provide) a rich API for handling these sorts of input events.'
 tags:

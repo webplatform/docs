@@ -1,5 +1,5 @@
 ---
-title: subscript
+title: 'subscript'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

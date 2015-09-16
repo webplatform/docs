@@ -1,5 +1,8 @@
 ---
-title: canvas
+title: 'canvas'
+compatibility:
+  feature: canvas
+  topic: html
 notes:
   - 'Add Category, Parent and Children information.'
 overview_table:

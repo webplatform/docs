@@ -1,5 +1,5 @@
 ---
-title: Entry
+title: 'Entry'
 notes:
   - 'Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.'
 readiness: 'Out of Date'

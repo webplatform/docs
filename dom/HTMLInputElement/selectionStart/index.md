@@ -1,5 +1,5 @@
 ---
-title: selectionStart
+title: 'selectionStart'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -65,4 +65,4 @@ The following code example shows how to set a text selection's start and end pos
 
 -   `input type=text`
 -   `textArea`
--   `HTMLInputElement`
+-   HTMLInputElement[HTMLInputElement](/dom/HTMLInputElement)

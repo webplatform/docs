@@ -1,9 +1,12 @@
 ---
-title: adjacent sibling
+title: 'adjacent sibling'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/8928240'
+compatibility:
+  feature: 'adjacent sibling'
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'This is referred to as an adjacent selector. It will select only the element that is immediately preceded by the former element.'

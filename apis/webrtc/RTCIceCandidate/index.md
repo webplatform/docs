@@ -1,5 +1,5 @@
 ---
-title: RTCIceCandidate
+title: 'RTCIceCandidate'
 notes:
   - 'Needs summary, example, spec reference'
 readiness: 'In Progress'

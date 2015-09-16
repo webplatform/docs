@@ -1,5 +1,8 @@
 ---
-title: color-index
+title: 'color-index'
+compatibility:
+  feature: color-index
+  topic: css
 notes:
   - 'Add summery, values, syntax, example, description, specifications, compatibility.'
 readiness: 'Not Ready'

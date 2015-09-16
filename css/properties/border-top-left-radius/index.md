@@ -1,10 +1,13 @@
 ---
-title: border-top-left-radius
+title: 'border-top-left-radius'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Border-top-left-radius](https://developer.mozilla.org/es/docs/CSS/border-top-left-radius) Article]'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/6949445'
+compatibility:
+  feature: border-top-left-radius
+  topic: css
 notes:
   - 'Complete summery, example.'
 overview_table:

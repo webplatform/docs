@@ -1,7 +1,10 @@
 ---
-title: filter
+title: 'filter'
 code_samples:
   - 'http://gist.github.com/5842451'
+compatibility:
+  feature: filter
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`none`'
   'Applies to': 'All elements'

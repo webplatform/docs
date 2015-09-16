@@ -1,5 +1,5 @@
 ---
-title: An introduction to the Web Audio API
+title: 'An introduction to the Web Audio API'
 readiness: 'Ready to Use'
 summary: "The Web Audio API is a way of creating and manipulating audio within the browser. It’s a specification proposed by Google, and as such is currently only available in Chrome, with the hope other browsers adopting it and it becoming a standard.\n"
 tags:

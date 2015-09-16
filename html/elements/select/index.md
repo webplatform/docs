@@ -1,7 +1,10 @@
 ---
-title: select
+title: 'select'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: select
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLSelectElement](/dom/HTMLSelectElement)'
 readiness: 'In Progress'

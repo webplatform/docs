@@ -1,7 +1,10 @@
 ---
-title: border-left
+title: 'border-left'
 code_samples:
   - 'http://gist.github.com/5539642'
+compatibility:
+  feature: border-left
+  topic: css
 notes:
   - 'Add specifications and compatibility.'
 overview_table:
@@ -215,12 +218,12 @@ For `style` values, the computed value is as specified. For `width` values, the 
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaults`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `Reference`
--   `border`
+-   border[border](/css/properties/border)
 -   `Other Resources`
 -   `CSS Enhancements in Internet Explorer 6`

@@ -1,5 +1,8 @@
 ---
-title: wrap-through
+title: 'wrap-through'
+compatibility:
+  feature: wrap-through
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`wrap`'
   'Applies to': 'Block-level elements'

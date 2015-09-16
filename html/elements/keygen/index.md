@@ -1,5 +1,8 @@
 ---
-title: keygen
+title: 'keygen'
+compatibility:
+  feature: keygen
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLKeygenElement](/w/index.php?title=dom/HTMLKeygenElement&action=edit&redlink=1)'
 standardization_status: 'W3C Recommendation'

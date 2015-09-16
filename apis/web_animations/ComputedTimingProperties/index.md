@@ -1,5 +1,5 @@
 ---
-title: ComputedTimingProperties
+title: 'ComputedTimingProperties'
 readiness: readiness-state
 relationships:
   subclass_of:

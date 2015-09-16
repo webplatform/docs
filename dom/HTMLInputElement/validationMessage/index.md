@@ -1,5 +1,5 @@
 ---
-title: validationMessage
+title: 'validationMessage'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -61,8 +61,8 @@ Returns a string containing the standard or custom error message that would be d
 
 ### Related pages
 
--   `HTMLObjectElement`
--   `HTMLSelectElement`
--   `HTMLInputElement`
--   `HTMLFieldSetElement`
--   `HTMLButtonElement`
+-   HTMLObjectElement[HTMLObjectElement](/dom/HTMLObjectElement)
+-   HTMLSelectElement[HTMLSelectElement](/dom/HTMLSelectElement)
+-   HTMLInputElement[HTMLInputElement](/dom/HTMLInputElement)
+-   HTMLFieldSetElement[HTMLFieldSetElement](/dom/HTMLFieldSetElement)
+-   HTMLButtonElement[HTMLButtonElement](/dom/HTMLBGSoundElement)

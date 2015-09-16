@@ -1,5 +1,5 @@
 ---
-title: finished
+title: 'finished'
 readiness: readiness-state
 relationships:
   applies_to:

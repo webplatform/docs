@@ -1,5 +1,5 @@
 ---
-title: onphotosettingschange
+title: 'onphotosettingschange'
 notes:
   - 'Needs example, usage, spec reference'
 readiness: 'In Progress'

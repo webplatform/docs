@@ -1,7 +1,10 @@
 ---
-title: summary
+title: 'summary'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: summary
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -51,4 +54,4 @@ The following example shows how to specify a **summary** property for a [**table
 
 ### Related pages
 
--   `table`
+-   table[table](/html/elements/table)

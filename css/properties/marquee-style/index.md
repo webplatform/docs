@@ -1,7 +1,10 @@
 ---
-title: marquee-style
+title: 'marquee-style'
 code_samples:
   - 'http://gist.github.com/6364703'
+compatibility:
+  feature: marquee-style
+  topic: css
 notes:
   - "Add description and compatibility.\nAccording to W3C specifications, this property should apply to all elements that accept the overflow property. However, it currently only works with the marquee tag. Perhaps this property has been deprecated."
 overview_table:

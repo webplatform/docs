@@ -1,7 +1,10 @@
 ---
-title: search
+title: 'search'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/tbc7a78k(v=vs.94).aspx)'
+compatibility:
+  feature: search
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Finds the first substring match in a regular expression search.'
 tags:

@@ -1,7 +1,10 @@
 ---
-title: contextmenu
+title: 'contextmenu'
 code_samples:
   - 'http://gist.github.com/11067829'
+compatibility:
+  feature: contextmenu
+  topic: html
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Used to associate the menu element in the DOM to the given element as its context menu.'

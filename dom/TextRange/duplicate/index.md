@@ -1,5 +1,5 @@
 ---
-title: duplicate
+title: 'duplicate'
 attributions:
   - 'Microsoft Developer Network: [[duplicate Method](http://msdn.microsoft.com/en-us/library/ie/ms536416(v=vs.85).aspx) Article]'
 notes:

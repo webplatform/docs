@@ -1,5 +1,8 @@
 ---
-title: color
+title: 'color'
+compatibility:
+  feature: color
+  topic: html
 notes:
   - 'Merge Candidate: html/attributes/type'
 overview_table:

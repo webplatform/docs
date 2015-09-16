@@ -1,5 +1,5 @@
 ---
-title: JavaScript best practices
+title: 'JavaScript best practices'
 readiness: 'Ready to Use'
 summary: 'This article discusses some best practices to follow for writing efficient, understandable JavaScript.'
 tags:

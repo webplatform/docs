@@ -1,10 +1,13 @@
 ---
-title: writing-mode
+title: 'writing-mode'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5833192'
   - 'http://gist.github.com/5860978'
+compatibility:
+  feature: writing-mode
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`horizontal-tb`'
   'Applies to': 'All elements except table row groups, table column groups, table rows, and table columns'

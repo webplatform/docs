@@ -1,9 +1,12 @@
 ---
-title: translateX()
+title: 'translateX()'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://codepen.io/Fischaela/pen/dHgbL'
+compatibility:
+  feature: translateX()
+  topic: css
 readiness: 'Ready to Use'
 summary: 'Transform function for a 2d translation which moves an element on the x-axis by the given value.'
 tags:

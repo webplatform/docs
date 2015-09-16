@@ -1,9 +1,12 @@
 ---
-title: column-rule
+title: 'column-rule'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/6288958'
+compatibility:
+  feature: column-rule
+  topic: css
 notes:
   - 'Add description, specifications, compatibility.'
 overview_table:
@@ -123,9 +126,9 @@ Makes 3 columns with 4px dashed green column-rule.
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)
 -   `address`
 -   `blockQuote`
 -   `div`
@@ -137,7 +140,7 @@ Makes 3 columns with 4px dashed green column-rule.
 -   `ol`
 -   `p`
 -   `pre`
--   `table`
+-   table[table](/html/elements/table)
 -   `ul`
 -   `dd`
 -   `dt`

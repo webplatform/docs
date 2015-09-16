@@ -1,5 +1,5 @@
 ---
-title: namespaces
+title: 'namespaces'
 tags:
   - CSS
 todo_broken_links:

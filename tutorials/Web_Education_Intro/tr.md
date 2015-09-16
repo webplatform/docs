@@ -1,5 +1,5 @@
 ---
-title: Web standartları dünyasına giriş
+title: 'Web standartları dünyasına giriş'
 lang: tr
 tags:
   - Tutorials

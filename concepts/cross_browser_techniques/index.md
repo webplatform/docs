@@ -1,5 +1,5 @@
 ---
-title: Cross browser techniques
+title: 'Cross browser techniques'
 notes:
   - 'Listing page. Fix broken link'
 readiness: 'Almost Ready'

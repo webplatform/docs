@@ -1,7 +1,10 @@
 ---
-title: toExponential
+title: 'toExponential'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/023xd959(v=vs.94).aspx)'
+compatibility:
+  feature: toExponential
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'The toExponential() method formats a number to exponential notation.'
 tags:

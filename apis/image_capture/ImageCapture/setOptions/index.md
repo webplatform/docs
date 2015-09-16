@@ -1,5 +1,5 @@
 ---
-title: setOptions
+title: 'setOptions'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

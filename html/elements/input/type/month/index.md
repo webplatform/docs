@@ -1,5 +1,8 @@
 ---
-title: month
+title: 'month'
+compatibility:
+  feature: month
+  topic: html
 notes:
   - 'Merge Candidate: html/attributes/type. Add more contents.'
 overview_table:

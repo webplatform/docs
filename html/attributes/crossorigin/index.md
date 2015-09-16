@@ -1,5 +1,8 @@
 ---
-title: crossorigin
+title: 'crossorigin'
+compatibility:
+  feature: crossorigin
+  topic: html
 notes:
   - 'Needs good content'
 readiness: 'Not Ready'

@@ -1,5 +1,5 @@
 ---
-title: CSSのボックスモデル
+title: 'CSSのボックスモデル'
 lang: ja
 notes:
   - 'No content; deletion candidate'

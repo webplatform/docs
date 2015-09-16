@@ -1,5 +1,5 @@
 ---
-title: CSS variables
+title: 'CSS variables'
 notes:
   - 'Move candidate? Currently future tech. Experimental.'
 readiness: 'Ready to Use'

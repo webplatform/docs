@@ -1,5 +1,5 @@
 ---
-title: move
+title: 'move'
 attributions:
   - 'Microsoft Developer Network: [[move Method](http://msdn.microsoft.com/en-us/library/ie/ms536616(v=vs.85).aspx) Article]'
 notes:

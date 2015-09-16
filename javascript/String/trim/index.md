@@ -1,7 +1,10 @@
 ---
-title: trim
+title: 'trim'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679971(v=vs.94).aspx)'
+compatibility:
+  feature: trim
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Removes the leading and trailing white space and line terminator characters from a string.'
 tags:

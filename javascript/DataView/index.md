@@ -1,7 +1,10 @@
 ---
-title: DataView
+title: 'DataView'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212463(v=vs.94).aspx)'
+compatibility:
+  feature: DataView
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'You can use a DataView object to read and write the different kinds of binary data to any location in the ArrayBuffer.'
 tags:

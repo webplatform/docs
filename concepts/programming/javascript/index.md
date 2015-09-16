@@ -1,5 +1,5 @@
 ---
-title: javascript
+title: 'javascript'
 uri: concepts/programming/javascript
 
 ---

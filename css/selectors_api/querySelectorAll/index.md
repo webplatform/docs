@@ -1,5 +1,5 @@
 ---
-title: querySelectorAll
+title: 'querySelectorAll'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -148,8 +148,8 @@ This method differs from the [**querySelector**](/css/selectors_api/querySelecto
 
 ### Related pages
 
--   `Document`
--   `a`
+-   Document[Document](/dom/Document)
+-   a[a](/html/elements/a)
 -   `address`
 -   `b`
 -   `big`
@@ -205,7 +205,7 @@ This method differs from the [**querySelector**](/css/selectors_api/querySelecto
 -   `strong`
 -   `sub`
 -   `sup`
--   `table`
+-   table[table](/html/elements/table)
 -   `tBody`
 -   `td`
 -   `textArea`
@@ -219,8 +219,8 @@ This method differs from the [**querySelector**](/css/selectors_api/querySelecto
 -   `var`
 -   `xmp`
 -   `Reference`
--   `querySelector`
+-   querySelector[querySelector](/css/selectors_api/querySelector)
 -   `IElementSelector`
 -   `Other Resources`
--   `W3C Selectors API`
--   `W3C Selectors`
+-   W3C Selectors API[W3C Selectors API](http://go.microsoft.com/fwlink/p/?linkid=203783)
+-   W3C Selectors[W3C Selectors](http://go.microsoft.com/fwlink/p/?linkid=203764)

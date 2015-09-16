@@ -1,9 +1,12 @@
 ---
-title: :last-child
+title: ':last-child'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/0b959135eaa76a5de965'
+compatibility:
+  feature: ':last-child'
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The :last-child pseudo-class represents the last child element of its parent.'
@@ -71,13 +74,13 @@ last-child
 ### Related pages
 
 -   `Reference`
--   `:root`
--   `:nth-child`
--   `:nth-last-child`
--   `:nth-of-type`
--   `:nth-last-of-type`
--   `:first-of-type`
--   `:last-of-type`
--   `:only-child`
--   `:only-of-type`
--   `:empty`
+-   :root[:root](/css/selectors/pseudo-classes/:root)
+-   :nth-child[:nth-child](/css/selectors/pseudo-classes/:nth-child(n))
+-   :nth-last-child[:nth-last-child](/css/selectors/pseudo-classes/:nth-last-child(n))
+-   :nth-of-type[:nth-of-type](/css/selectors/pseudo-classes/:nth-of-type(n))
+-   :nth-last-of-type[:nth-last-of-type](/css/selectors/pseudo-classes/:nth-last-of-type(n))
+-   :first-of-type[:first-of-type](/css/selectors/pseudo-classes/:first-of-type)
+-   :last-of-type[:last-of-type](/css/selectors/pseudo-classes/:last-of-type)
+-   :only-child[:only-child](/css/selectors/pseudo-classes/:only-child)
+-   :only-of-type[:only-of-type](/css/selectors/pseudo-classes/:only-of-type)
+-   :empty[:empty](/css/selectors/pseudo-classes/:empty)

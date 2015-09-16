@@ -1,5 +1,5 @@
 ---
-title: pixelDepth
+title: 'pixelDepth'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -47,4 +47,4 @@ If you retrieve the value of the **pixelDepth** property through a script, you c
 
 ### Related pages
 
--   `screen`
+-   screen[screen](/css/cssom/screen)

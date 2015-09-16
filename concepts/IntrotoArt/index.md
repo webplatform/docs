@@ -1,5 +1,5 @@
 ---
-title: Introduction to Graphic Design & Art
+title: 'Introduction to Graphic Design & Art'
 notes:
   - 'Basically an outline; text poorly written.'
 readiness: 'Not Ready'

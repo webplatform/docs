@@ -1,5 +1,5 @@
 ---
-title: tiltY
+title: 'tiltY'
 attributions:
   - 'Microsoft Developer Network: [[tiltY Property PointerEvent](http://msdn.microsoft.com/en-us/library/ie/hh772365(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

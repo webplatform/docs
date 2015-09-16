@@ -1,10 +1,13 @@
 ---
-title: rect
+title: 'rect'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/44786e14924371effbe4'
   - 'http://gist.github.com/9697f0fe090f4ad2e6e9'
+compatibility:
+  feature: rect
+  topic: svg
 notes:
   - 'Fix multiple broken links'
 overview_table:

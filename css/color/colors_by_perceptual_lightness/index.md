@@ -1,5 +1,5 @@
 ---
-title: colors by perceptual lightness
+title: 'colors by perceptual lightness'
 readiness: 'Ready to Use'
 summary: 'A list of CSS color names, sorted by perceptual lightness.'
 tags:

@@ -1,5 +1,8 @@
 ---
-title: user-input
+title: 'user-input'
+compatibility:
+  feature: user-input
+  topic: css
 notes:
   - 'Needs  summary, example, usage, spec reference, standardization status, remove topic cluster flags'
 overview_table:

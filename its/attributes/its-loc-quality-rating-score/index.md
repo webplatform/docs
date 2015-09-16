@@ -1,5 +1,8 @@
 ---
-title: its-loc-quality-rating-score
+title: 'its-loc-quality-rating-score'
+compatibility:
+  feature: its-loc-quality-rating-score
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

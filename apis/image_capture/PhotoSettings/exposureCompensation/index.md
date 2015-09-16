@@ -1,5 +1,5 @@
 ---
-title: exposureCompensation
+title: 'exposureCompensation'
 notes:
   - 'Needs example, usage, spec reference'
 readiness: 'In Progress'

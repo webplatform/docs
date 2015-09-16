@@ -1,7 +1,10 @@
 ---
-title: Boolean
+title: 'Boolean'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/t7bkhaz6(v=vs.94).aspx)'
+compatibility:
+  feature: Boolean
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Creates a new Boolean (true/false) value.'
 tags:

@@ -1,7 +1,10 @@
 ---
-title: lang
+title: 'lang'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: lang
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -43,9 +46,9 @@ The parser uses this property to determine how to display language-specific choi
 
 ### Related pages
 
--   `a`
+-   a[a](/html/elements/a)
 -   `abbr`
--   `acronym`
+-   acronym[acronym](/html/elements/acronym)
 -   `address`
 -   `applet`
 -   `area`
@@ -113,7 +116,7 @@ The parser uses this property to determine how to display language-specific choi
 -   `marquee`
 -   `menu`
 -   `nav`
--   `nextID`
+-   nextID[nextID](/html/elements/nextID)
 -   `noBR`
 -   `object`
 -   `ol`
@@ -135,7 +138,7 @@ The parser uses this property to determine how to display language-specific choi
 -   `strong`
 -   `sub`
 -   `sup`
--   `table`
+-   table[table](/html/elements/table)
 -   `tBody`
 -   `td`
 -   `textArea`

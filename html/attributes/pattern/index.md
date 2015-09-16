@@ -1,7 +1,10 @@
 ---
-title: pattern
+title: 'pattern'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: pattern
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -53,4 +56,4 @@ Several generic messages are displayed for a variety of validation errors. If yo
 
 ### Related pages
 
--   `HTMLInputElement`
+-   HTMLInputElement[HTMLInputElement](/dom/HTMLInputElement)

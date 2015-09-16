@@ -1,5 +1,5 @@
 ---
-title: MSEPrimer
+title: 'MSEPrimer'
 notes:
   - 'Needs additional content'
 readiness: 'In Progress'

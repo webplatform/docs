@@ -1,7 +1,10 @@
 ---
-title: encodeURI
+title: 'encodeURI'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/xh9be5xc(v=vs.94).aspx)'
+compatibility:
+  feature: encodeURI
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Encodes a text string as a valid Uniform Resource Identifier (URI)'
 tags:

@@ -1,5 +1,5 @@
 ---
-title: getContext
+title: 'getContext'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -96,4 +96,4 @@ The **getContext** method returns null if the *contextId* value is not supported
 
 ### Related pages
 
--   `canvas`
+-   canvas[canvas](/canvas/objects/canvas)

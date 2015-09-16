@@ -1,5 +1,8 @@
 ---
-title: fill-opacity
+title: 'fill-opacity'
+compatibility:
+  feature: fill-opacity
+  topic: css
 notes:
   - "Complete values, add example and compatibility.\nThe SVG property pages will be linked to here."
 overview_table:

@@ -1,9 +1,12 @@
 ---
-title: table layout
+title: 'table layout'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/7044174'
+compatibility:
+  feature: table-layout
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`auto`'
   'Applies to': 'Table and inline-table elements'

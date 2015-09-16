@@ -1,5 +1,5 @@
 ---
-title: ms-wrap-flow
+title: 'ms-wrap-flow'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -61,5 +61,5 @@ The **-ms-wrap-flow** property makes an element an exclusion element when it has
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `Internet Explorer 10 Guide for Developers: CSS Exclusions`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   Internet Explorer 10 Guide for Developers: CSS Exclusions[Internet Explorer 10 Guide for Developers: CSS Exclusions](http://go.microsoft.com/fwlink/p/?LinkId=236927)

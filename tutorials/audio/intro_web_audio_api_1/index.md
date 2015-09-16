@@ -1,5 +1,5 @@
 ---
-title: Introduction to the web audio API, part 1
+title: 'Introduction to the web audio API, part 1'
 readiness: 'Ready to Use'
 summary: 'An introduction to the web audio API: loading and playing an external sound file.'
 tags:

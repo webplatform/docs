@@ -1,5 +1,5 @@
 ---
-title: Pointer Events
+title: 'Pointer Events'
 notes:
   - 'This is a portal page but doesn''t link to the rest of the API'
 readiness: 'In Progress'

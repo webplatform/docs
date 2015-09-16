@@ -1,7 +1,10 @@
 ---
-title: @import
+title: '@import'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: '@import'
+  topic: css
 notes:
   - '"Main Content" section is empty. We may want to either want to modify programmatically if subsections like @rules -> @import only are decided to only need examples and references to support the parent categories.'
 readiness: 'In Progress'
@@ -133,7 +136,7 @@ The rule has no default value. The semicolon in the syntax is required; if omitt
 
 ### Related pages
 
--   `imports`
--   `:link`
--   `style`
--   `styleSheet`
+-   imports[imports](/css/cssom/imports)
+-   :link[:link](/css/selectors/pseudo-classes/:link)
+-   style[style](/css/cssom/style)
+-   styleSheet[styleSheet](/css/cssom/styleSheet)

@@ -1,5 +1,5 @@
 ---
-title: binaryType
+title: 'binaryType'
 notes:
   - 'Needs example'
 readiness: 'Almost Ready'

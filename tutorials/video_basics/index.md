@@ -1,5 +1,5 @@
 ---
-title: HTML5 Video Basics
+title: 'HTML5 Video Basics'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/video/basics/)'
 notes:

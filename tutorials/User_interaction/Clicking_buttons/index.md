@@ -1,5 +1,5 @@
 ---
-title: Clicking buttons
+title: 'Clicking buttons'
 notes:
   - 'Needs all content'
 readiness: 'Not Ready'

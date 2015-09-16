@@ -1,5 +1,5 @@
 ---
-title: <length>
+title: '<length>'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'A &lt;length&gt; is a CSS data type that is used to specify distance measurements using relative or absolute units.  It consists of an integer or decimal number followed (without whitespace) by a unit abbreviation; the unit may be omitted if the number is zero (0).'

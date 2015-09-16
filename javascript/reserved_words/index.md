@@ -1,7 +1,10 @@
 ---
-title: reserved words
+title: 'reserved words'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/0779sbks(v=vs.94).aspx)'
+compatibility:
+  feature: 'reserved words'
+  topic: javascript
 notes:
   - 'Todo: Create a custom landing page to list the reserved words or merge with javascript/statements.'
 readiness: 'Ready to Use'

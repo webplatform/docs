@@ -1,7 +1,10 @@
 ---
-title: bitwise or
+title: 'bitwise or'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/066h456z(v=vs.94).aspx)'
+compatibility:
+  feature: 'bitwise or'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Performs a bitwise OR on two expressions.'
 tags:

@@ -1,9 +1,12 @@
 ---
-title: custom
+title: 'custom'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/custom.htm'
+compatibility:
+  feature: custom
+  topic: html
 notes:
   - "Ancient text from MSDN?\nDeletion Candidate"
 overview_table:

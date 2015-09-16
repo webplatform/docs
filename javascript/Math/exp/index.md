@@ -1,7 +1,10 @@
 ---
-title: exp
+title: 'exp'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ttzd50c6(v=vs.94).aspx)'
+compatibility:
+  feature: exp
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns e (the base of natural logarithms) raised to a power.'
 tags:

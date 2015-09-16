@@ -1,5 +1,5 @@
 ---
-title: Comment
+title: 'Comment'
 readiness: 'Ready to Use'
 relationships:
   subclass_of:

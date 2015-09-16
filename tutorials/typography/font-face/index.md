@@ -1,5 +1,5 @@
 ---
-title: Overview of web fonts using @font-face
+title: 'Overview of web fonts using @font-face'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/webfonts/quick/)'
 readiness: 'Ready to Use'

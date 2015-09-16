@@ -1,7 +1,10 @@
 ---
-title: toPrecision
+title: 'toPrecision'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/kcs121ad(v=vs.94).aspx)'
+compatibility:
+  feature: toPrecision
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Represents a number either in exponential or fixed-point notation with a specified number of digits.'
 tags:

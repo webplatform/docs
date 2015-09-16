@@ -1,7 +1,10 @@
 ---
-title: font-feature-settings
+title: 'font-feature-settings'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: font-feature-settings
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`normal`'
   'Applies to': 'All elements'
@@ -164,4 +167,4 @@ If you are unfamiliar with the font features listed above, the CSS Fonts Module 
 
 ### Related pages
 
--   `CSSStyleDeclaration`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)

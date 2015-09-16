@@ -1,7 +1,10 @@
 ---
-title: future reserved words
+title: 'future reserved words'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh699851(v=vs.94).aspx)'
+compatibility:
+  feature: 'future reserved words'
+  topic: javascript
 notes:
   - 'Keep up with latest changes at https://people.mozilla.org/~jorendorff/es6-draft.html'
 readiness: 'Ready to Use'

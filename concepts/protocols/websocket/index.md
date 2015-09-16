@@ -1,5 +1,5 @@
 ---
-title: WebSockets concepts
+title: 'WebSockets concepts'
 attributions:
   - 'Portions of this content come from HTML5Rocks!.'
 readiness: 'Almost Ready'

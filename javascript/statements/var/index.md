@@ -1,7 +1,10 @@
 ---
-title: var
+title: 'var'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/z16cackw(v=vs.94).aspx)'
+compatibility:
+  feature: var
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Declares a variable.'
 tags:

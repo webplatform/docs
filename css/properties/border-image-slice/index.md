@@ -1,9 +1,12 @@
 ---
-title: border-image-slice
+title: 'border-image-slice'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/border-image-slice)'
 code_samples:
   - 'http://gist.github.com/6949408'
+compatibility:
+  feature: border-image-slice
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`100%`'
   'Applies to': 'all elements, except internal table elements when `border-collapse` is set to `collapse`.'

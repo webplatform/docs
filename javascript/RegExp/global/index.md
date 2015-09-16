@@ -1,7 +1,10 @@
 ---
-title: global
+title: 'global'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/2789hxff(v=vs.94).aspx)'
+compatibility:
+  feature: global
+  topic: javascript
 notes:
   - 'Moved under javascript/RegExp'
 readiness: 'Ready to Use'

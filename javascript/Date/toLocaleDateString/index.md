@@ -1,7 +1,10 @@
 ---
-title: toLocaleDateString
+title: 'toLocaleDateString'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/kecw102f(v=vs.94).aspx)'
+compatibility:
+  feature: toLocaleDateString
+  topic: javascript
 notes:
   - 'An Internationalization/Localization center should be build to cover the basic concepts (like locale) so this stuff doesn''t have to be repeated over and over'
 readiness: 'Ready to Use'

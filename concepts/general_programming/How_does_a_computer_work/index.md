@@ -1,5 +1,5 @@
 ---
-title: How does a computer work?
+title: 'How does a computer work?'
 readiness: 'Ready to Use'
 summary: 'So, you think your computer is smart? It can do math faster than most people, even complex physics and accounting algorithms. How does it do that?'
 tags:

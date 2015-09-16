@@ -1,7 +1,10 @@
 ---
-title: iframe
+title: 'iframe'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: iframe
+  topic: html
 notes:
   - "Add Category, Parent, Children and Compatibility information.\nNotes section is from MSDN and very IE-specific."
 overview_table:

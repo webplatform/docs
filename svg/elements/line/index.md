@@ -1,9 +1,12 @@
 ---
-title: line
+title: 'line'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/9e2c858dc34a018a483d'
+compatibility:
+  feature: line
+  topic: svg
 notes:
   - 'Fix multiple broken links'
 overview_table:

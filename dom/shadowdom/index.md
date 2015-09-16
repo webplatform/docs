@@ -1,5 +1,5 @@
 ---
-title: shadowdom
+title: 'shadowdom'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The shadow DOM defines the presentation and behavior of decorators and custom elements in the shadow tree. The shadow DOM is a JavaScript API for Web Components.'

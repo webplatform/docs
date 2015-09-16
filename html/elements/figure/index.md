@@ -1,7 +1,10 @@
 ---
-title: figure
+title: 'figure'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: figure
+  topic: html
 notes:
   - "Write main content.\nAdd Category, Parent, Children and Compatibility information."
 overview_table:

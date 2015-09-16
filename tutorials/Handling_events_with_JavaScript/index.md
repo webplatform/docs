@@ -1,5 +1,5 @@
 ---
-title: Handling events with JavaScript
+title: 'Handling events with JavaScript'
 tags:
   - Tutorials
   - WSC

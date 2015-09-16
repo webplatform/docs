@@ -1,7 +1,10 @@
 ---
-title: forEach
+title: 'forEach'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679980(v=vs.94).aspx)'
+compatibility:
+  feature: forEach
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Performs the specified action for each element in an array.'
 tags:

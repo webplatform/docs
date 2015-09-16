@@ -1,5 +1,5 @@
 ---
-title: SVG DOM properties
+title: 'SVG DOM properties'
 notes:
   - 'Add text introducing SVG DOM properties as a concept'
 readiness: 'Not Ready'

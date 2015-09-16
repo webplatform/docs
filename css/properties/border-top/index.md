@@ -1,7 +1,10 @@
 ---
-title: border-top
+title: 'border-top'
 code_samples:
   - 'http://gist.github.com/5534715'
+compatibility:
+  feature: border-top
+  topic: css
 notes:
   - 'Add specifications, compatibility.'
 overview_table:
@@ -209,9 +212,9 @@ p {
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaults`
--   `runtimeStyle`
--   `style`
--   `border`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   border[border](/css/properties/border)

@@ -1,7 +1,10 @@
 ---
-title: toUpperCase
+title: 'toUpperCase'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/kk06d70k(v=vs.94).aspx)'
+compatibility:
+  feature: toUpperCase
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Converts all the alphabetic characters in a string to uppercase.'
 tags:

@@ -1,7 +1,10 @@
 ---
-title: BYTES PER ELEMENT
+title: 'BYTES PER ELEMENT'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br230742(v=vs.94).aspx)'
+compatibility:
+  feature: 'BYTES PER ELEMENT'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'The size in bytes of each element in the array.'
 tags:

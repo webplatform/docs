@@ -1,5 +1,5 @@
 ---
-title: deltaZ
+title: 'deltaZ'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[WheelEvent](https://developer.mozilla.org/en-US/docs/Web/API/WheelEvent) Article]'
   - 'Microsoft Developer Network: [[deltaZ Property](http://msdn.microsoft.com/en-us/library/ie/ff974801(v=vs.85).aspx) Article]'

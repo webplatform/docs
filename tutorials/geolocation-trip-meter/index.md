@@ -1,5 +1,5 @@
 ---
-title: Building a simple trip meter using the geolocation API
+title: 'Building a simple trip meter using the geolocation API'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/geolocation/trip_meter/)'
 readiness: 'Ready to Use'

@@ -1,9 +1,12 @@
 ---
-title: wrap-flow
+title: 'wrap-flow'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh772045(v=vs.85).aspx)'
 code_samples:
   - 'http://gist.github.com/5867597'
+compatibility:
+  feature: wrap-flow
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`auto`'
   'Applies to': 'Block-level elements'

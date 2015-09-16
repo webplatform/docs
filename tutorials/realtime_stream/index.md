@@ -1,5 +1,5 @@
 ---
-title: Real-time updates in stream congress
+title: 'Real-time updates in stream congress'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/casestudies/sunlight_streamcongress/)'
 readiness: 'Ready to Use'

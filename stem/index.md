@@ -1,5 +1,5 @@
 ---
-title: stem
+title: 'stem'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

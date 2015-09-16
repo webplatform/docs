@@ -1,5 +1,5 @@
 ---
-title: proportional font
+title: 'proportional font'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

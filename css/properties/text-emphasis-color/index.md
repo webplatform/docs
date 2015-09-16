@@ -1,7 +1,10 @@
 ---
-title: text-emphasis-color
+title: 'text-emphasis-color'
 code_samples:
   - 'http://gist.github.com/5654528'
+compatibility:
+  feature: text-emphasis-color
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`currentColor`'
   'Applies to': 'All elements'

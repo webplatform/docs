@@ -1,5 +1,5 @@
 ---
-title: RTCSessionDescription
+title: 'RTCSessionDescription'
 notes:
   - 'Needs spec reference, standardization status'
 readiness: 'Almost Ready'

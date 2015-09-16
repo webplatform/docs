@@ -1,7 +1,10 @@
 ---
-title: Object
+title: 'Object'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/kb6te8d3(v=vs.94).aspx)'
+compatibility:
+  feature: Object
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Provides functionality common to all JavaScript objects.'
 tags:

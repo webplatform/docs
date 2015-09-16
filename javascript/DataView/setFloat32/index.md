@@ -1,7 +1,10 @@
 ---
-title: setFloat32
+title: 'setFloat32'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212479(v=vs.94).aspx)'
+compatibility:
+  feature: setFloat32
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets the Float32 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be set at any offset.'
 tags:

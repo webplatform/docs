@@ -1,5 +1,5 @@
 ---
-title: pixelBottom
+title: 'pixelBottom'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -203,7 +203,7 @@ The **pixelBottom** property reflects the value of the Cascading Style Sheets (C
 
 ### Related pages
 
--   `defaultSelected`
--   `runtimeStyle`
--   `style`
--   `posBottom`
+-   defaultSelected[defaultSelected](/dom/HTMLOptionElement/defaultSelected)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   posBottom[posBottom](/css/cssom/properties/posBottom)

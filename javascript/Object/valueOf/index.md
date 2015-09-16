@@ -1,7 +1,10 @@
 ---
-title: valueOf
+title: 'valueOf'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ftx8swz5(v=vs.94).aspx)'
+compatibility:
+  feature: valueOf
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the primitive value of the specified object.'
 tags:

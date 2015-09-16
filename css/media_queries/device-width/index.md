@@ -1,5 +1,8 @@
 ---
-title: device-width
+title: 'device-width'
+compatibility:
+  feature: device-width
+  topic: css
 notes:
   - 'Add description, specifications, compatibility.'
 readiness: 'In Progress'

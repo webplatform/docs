@@ -1,5 +1,5 @@
 ---
-title: CSS text styling fundamentals
+title: 'CSS text styling fundamentals'
 readiness: 'Ready to Use'
 summary: 'This article covers the fundamentals of styling text on the web, including web fonts, font size, line height, and more.'
 tags:

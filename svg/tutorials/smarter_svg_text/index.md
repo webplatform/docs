@@ -1,5 +1,5 @@
 ---
-title: Smarter SVG: text
+title: 'Smarter SVG: text'
 notes:
   - '[new content edited offline by Sierra (Sierra (talk)); please do not edit]'
 summary: 'This guide shows how to embed text in your SVG content.'

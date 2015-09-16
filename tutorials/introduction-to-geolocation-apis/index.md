@@ -1,5 +1,5 @@
 ---
-title: An Introduction to Geolocation API
+title: 'An Introduction to Geolocation API'
 notes:
   - 'Needs content'
 readiness: 'In Progress'

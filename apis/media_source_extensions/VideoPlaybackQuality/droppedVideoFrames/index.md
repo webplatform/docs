@@ -1,5 +1,5 @@
 ---
-title: droppedVideoFrames
+title: 'droppedVideoFrames'
 attributions:
   - 'Microsoft Developer Network.'
 notes:

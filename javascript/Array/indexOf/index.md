@@ -1,7 +1,10 @@
 ---
-title: indexOf
+title: 'indexOf'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679977(v=vs.94).aspx)'
+compatibility:
+  feature: indexOf
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the index of the first occurrence of a value in an array.'
 tags:

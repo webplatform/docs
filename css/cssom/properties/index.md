@@ -1,5 +1,5 @@
 ---
-title: properties
+title: 'properties'
 notes:
   - 'Summary and introduction needed for this list of links.'
 readiness: 'In Progress'

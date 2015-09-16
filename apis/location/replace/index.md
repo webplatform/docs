@@ -1,5 +1,5 @@
 ---
-title: window.location.replace
+title: 'window.location.replace'
 readiness: 'Ready to Use'
 relationships:
   method_of:

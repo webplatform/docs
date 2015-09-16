@@ -1,7 +1,10 @@
 ---
-title: toLocaleString
+title: 'toLocaleString'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/wb66sb9s(v=vs.94).aspx)'
+compatibility:
+  feature: toLocaleString
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns a date converted to a string using the current locale.'
 tags:

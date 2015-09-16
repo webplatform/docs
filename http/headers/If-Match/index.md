@@ -1,5 +1,8 @@
 ---
-title: If-Match
+title: 'If-Match'
+compatibility:
+  feature: If-Match
+  topic: http
 overview_table:
   Direction: Request
   Features: ''

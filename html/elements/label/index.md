@@ -1,9 +1,12 @@
 ---
-title: label
+title: 'label'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/accesskey.htm'
+compatibility:
+  feature: label
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLLabelElement](/dom/HTMLLabelElement)'
 readiness: 'Almost Ready'

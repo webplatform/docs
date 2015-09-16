@@ -1,10 +1,13 @@
 ---
-title: flex-direction
+title: 'flex-direction'
 code_samples:
   - 'http://gist.github.com/4740224'
   - 'http://gist.github.com/4740260'
   - 'http://gist.github.com/4740271'
   - 'http://gist.github.com/4740277'
+compatibility:
+  feature: flex-direction
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`row`'
   'Applies to': 'flex containers'

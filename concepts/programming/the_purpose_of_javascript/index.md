@@ -1,5 +1,5 @@
 ---
-title: The purpose of JavaScript
+title: 'The purpose of JavaScript'
 readiness: 'Ready to Use'
 summary: 'In this article, we discuss what JavaScript can be used for on the web, its downsides, and how to use it responsibly.'
 tags:

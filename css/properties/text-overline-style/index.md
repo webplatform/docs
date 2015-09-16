@@ -1,7 +1,10 @@
 ---
-title: text-overline-style
+title: 'text-overline-style'
 code_samples:
   - 'http://gist.github.com/7283917'
+compatibility:
+  feature: text-overline-style
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`none`'
   'Applies to': 'all elements with and generated content with textual content'

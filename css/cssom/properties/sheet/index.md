@@ -1,5 +1,5 @@
 ---
-title: sheet
+title: 'sheet'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -41,5 +41,5 @@ element.sheet = value;
 
 ### Related pages
 
--   `link`
--   `style`
+-   link[link](/html/elements/link)
+-   style[style](/css/cssom/style)

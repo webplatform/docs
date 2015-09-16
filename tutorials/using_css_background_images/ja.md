@@ -1,5 +1,5 @@
 ---
-title: CSSの背景画像
+title: 'CSSの背景画像'
 lang: ja
 notes:
   - 'No content; deletion candidate'

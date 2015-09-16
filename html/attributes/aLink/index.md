@@ -1,7 +1,10 @@
 ---
-title: aLink
+title: 'aLink'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: aLink
+  topic: html
 notes:
   - 'Needs summary, examples, use cases, best practices, and link to more standard practices'
 readiness: 'Not Ready'
@@ -45,7 +48,7 @@ Some browsers do not recognize color names, but all browsers should recognize an
 
 ### Related pages
 
--   `Document`
+-   Document[Document](/dom/Document)
 -   `Reference`
--   `linkColor`
--   `vlinkColor`
+-   linkColor[linkColor](/w/index.php?title=dom/properties/linkColor&action=edit&redlink=1)
+-   vlinkColor[vlinkColor](/w/index.php?title=dom/properties/vlinkColor&action=edit&redlink=1)

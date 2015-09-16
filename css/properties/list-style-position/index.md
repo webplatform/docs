@@ -1,5 +1,5 @@
 ---
-title: list-style-position
+title: 'list-style-position'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position)'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
@@ -7,6 +7,9 @@ code_samples:
   - 'http://gist.github.com/5841706'
   - 'http://gist.github.com/6949116'
   - 'http://gist.github.com/5598129'
+compatibility:
+  feature: list-style-position
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`outside`'
   'Applies to': 'elements with ''display: list-item'''
@@ -170,7 +173,7 @@ If a list-style-position is set to outside and padding-left is set to 0, the mar
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)

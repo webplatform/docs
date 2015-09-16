@@ -1,7 +1,10 @@
 ---
-title: freeze
+title: 'freeze'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff806186(v=vs.94).aspx)'
+compatibility:
+  feature: freeze
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Prevents the modification of existing property attributes and values, and prevents the addition of new properties.'
 tags:

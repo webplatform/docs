@@ -1,5 +1,5 @@
 ---
-title: Events in JavaScript
+title: 'Events in JavaScript'
 readiness: 'Ready to Use'
 summary: 'This articles shows how to handle events in JavaScript, such as a user clicking a button, and perform actions in response.'
 tags:

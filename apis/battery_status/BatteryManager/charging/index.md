@@ -1,5 +1,5 @@
 ---
-title: charging
+title: 'charging'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

@@ -1,5 +1,5 @@
 ---
-title: HTMLAllCollection
+title: 'HTMLAllCollection'
 notes:
   - 'Obsolete; deletion candidate'
 readiness: 'Not Ready'

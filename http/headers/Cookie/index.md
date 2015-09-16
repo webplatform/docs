@@ -1,5 +1,8 @@
 ---
-title: Cookie
+title: 'Cookie'
+compatibility:
+  feature: Cookie
+  topic: http
 notes:
   - "* Details on when to use (or rather, when **not** to use) cookies\n Security concerns with using for authenticating users, background on CSRF"
 overview_table:

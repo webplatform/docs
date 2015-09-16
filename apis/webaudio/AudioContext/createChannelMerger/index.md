@@ -1,5 +1,5 @@
 ---
-title: createChannelMerger
+title: 'createChannelMerger'
 readiness: 'Ready to Use'
 relationships:
   method_of:

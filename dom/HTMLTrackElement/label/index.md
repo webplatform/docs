@@ -1,5 +1,5 @@
 ---
-title: label
+title: 'label'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -51,7 +51,7 @@ A label can be any identifying string. This string is displayed in the HTML5 vid
 
 -   `track element`
 -   `track object`
--   `TextTrack`
--   `AudioTrack`
--   `TextTrackList`
+-   TextTrack[TextTrack](/apis/audio-video/TextTrack)
+-   AudioTrack[AudioTrack](/apis/audio-video/AudioTrack)
+-   TextTrackList[TextTrackList](/apis/audio-video/TextTrackList)
 -   `video`

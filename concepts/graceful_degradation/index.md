@@ -1,5 +1,5 @@
 ---
-title: Graceful Degradation
+title: 'Graceful Degradation'
 notes:
   - "* Needs topics like \"concept\" or \"methodology\".\n Code-Block in second example doesn't work as expected (some lines missing: source tags doen't show up)"
 readiness: 'In Progress'

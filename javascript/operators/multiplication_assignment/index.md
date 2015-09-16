@@ -1,7 +1,10 @@
 ---
-title: multiplication assignment
+title: 'multiplication assignment'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/yhecb1ct(v=vs.94).aspx)'
+compatibility:
+  feature: 'multiplication assignment'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Multiplies the value of a variable by the value of an expression and assigns the result to the variable.'
 tags:

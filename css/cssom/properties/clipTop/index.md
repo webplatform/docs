@@ -1,5 +1,5 @@
 ---
-title: clipTop
+title: 'clipTop'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -222,11 +222,11 @@ Pick an amount to clip the top:
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)
 -   `Reference`
--   `clip`
--   `clipBottom`
--   `clipLeft`
--   `clipRight`
+-   clip[clip](/css/properties/clip)
+-   clipBottom[clipBottom](/css/cssom/properties/clipBottom)
+-   clipLeft[clipLeft](/css/cssom/properties/clipLeft)
+-   clipRight[clipRight](/css/cssom/properties/clipRight)

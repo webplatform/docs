@@ -1,5 +1,5 @@
 ---
-title: Debugging CSS
+title: 'Debugging CSS'
 notes:
   - 'List utilities to help debug CSS.'
 readiness: 'In Progress'

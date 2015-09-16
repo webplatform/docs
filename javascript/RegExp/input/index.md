@@ -1,7 +1,10 @@
 ---
-title: input
+title: 'input'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dsa56hkc(v=vs.94).aspx)'
+compatibility:
+  feature: input
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the string against which a regular expression search was performed. Read-only.'
 tags:

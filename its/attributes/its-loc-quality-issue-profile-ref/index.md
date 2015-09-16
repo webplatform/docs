@@ -1,5 +1,8 @@
 ---
-title: its-loc-quality-issue-profile-ref
+title: 'its-loc-quality-issue-profile-ref'
+compatibility:
+  feature: its-loc-quality-issue-profile-ref
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

@@ -1,7 +1,10 @@
 ---
-title: getUTCMilliseconds
+title: 'getUTCMilliseconds'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/tkx22wzs(v=vs.94).aspx)'
+compatibility:
+  feature: getUTCMilliseconds
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the milliseconds of a Date object using Universal Coordinated Time (UTC).'
 tags:

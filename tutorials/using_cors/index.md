@@ -1,5 +1,5 @@
 ---
-title: Using CORS
+title: 'Using CORS'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/cors/)'
 readiness: 'Ready to Use'

@@ -1,7 +1,10 @@
 ---
-title: noValidate
+title: 'noValidate'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: noValidate
+  topic: html
 readiness: 'Not Ready'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'When present, it specifies that the form-data (input) should not be validated when submitted.'
@@ -48,4 +51,4 @@ The following example shows a form that has required fields but won't be validat
 
 ### Related pages
 
--   `HTMLFormElement`
+-   HTMLFormElement[HTMLFormElement](/dom/HTMLFormElement)

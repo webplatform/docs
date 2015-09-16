@@ -1,7 +1,10 @@
 ---
-title: bitwise xor assignment
+title: 'bitwise xor assignment'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/06f6ta51(v=vs.94).aspx)'
+compatibility:
+  feature: 'bitwise xor assignment'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Performs a bitwise exclusive OR on a variable and an expression and assigns the result to the variable.'
 tags:

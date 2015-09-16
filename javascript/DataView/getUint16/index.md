@@ -1,7 +1,10 @@
 ---
-title: getUint16
+title: 'getUint16'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212467(v=vs.94).aspx)'
+compatibility:
+  feature: getUint16
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the Uint16 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be fetched from any offset.'
 tags:

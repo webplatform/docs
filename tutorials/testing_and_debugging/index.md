@@ -1,5 +1,5 @@
 ---
-title: Testing and debugging
+title: 'Testing and debugging'
 notes:
   - 'Needs all content'
 readiness: 'Not Ready'

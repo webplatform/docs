@@ -1,10 +1,13 @@
 ---
-title: padding
+title: 'padding'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
   - 'Microsoft Developer Network.'
 code_samples:
   - 'http://gist.github.com/5842631'
+compatibility:
+  feature: padding
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`browser-dependent`'
   'Applies to': 'all elements (except table-\*-group, table-row and table-column, br)'

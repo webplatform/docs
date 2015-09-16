@@ -1,5 +1,5 @@
 ---
-title: Styling lists and links
+title: 'Styling lists and links'
 readiness: 'Ready to Use'
 summary: 'In this article we provide a basic treatment of how to style HTML lists and links using CSS.'
 tags:

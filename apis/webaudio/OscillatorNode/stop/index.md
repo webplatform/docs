@@ -1,5 +1,5 @@
 ---
-title: stop
+title: 'stop'
 readiness: 'Ready to Use'
 relationships:
   method_of:

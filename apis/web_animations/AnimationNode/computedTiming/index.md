@@ -1,5 +1,5 @@
 ---
-title: computedTiming
+title: 'computedTiming'
 readiness: 'Almost Ready'
 relationships:
   applies_to:

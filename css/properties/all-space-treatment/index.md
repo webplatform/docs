@@ -1,5 +1,8 @@
 ---
-title: all-space-treatment
+title: 'all-space-treatment'
+compatibility:
+  feature: all-space-treatment
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`collapse`'
   'Applies to': 'All elements and generated content.'

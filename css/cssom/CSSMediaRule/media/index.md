@@ -1,5 +1,5 @@
 ---
-title: media
+title: 'media'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -193,8 +193,8 @@ element.media = value;
 
 ### Related pages
 
--   `CSSMediaRule`
+-   CSSMediaRule[CSSMediaRule](/css/cssom/CSSMediaRule/CSSMediaRule)
 -   `Reference`
--   `cssRules`
--   `deleteRule`
--   `insertRule`
+-   cssRules[cssRules](/css/cssom/styleSheet/cssRules)
+-   deleteRule[deleteRule](/css/cssom/CSSMediaRule/deleteRule)
+-   insertRule[insertRule](/css/cssom/CSSMediaRule/insertRule)

@@ -1,5 +1,5 @@
 ---
-title: iceGatheringState
+title: 'iceGatheringState'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

@@ -1,5 +1,8 @@
 ---
-title: text-line-through-color
+title: 'text-line-through-color'
+compatibility:
+  feature: text-line-through-color
+  topic: css
 notes:
   - 'Obsolete; deletion candidate'
 overview_table:

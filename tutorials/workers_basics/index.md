@@ -1,5 +1,5 @@
 ---
-title: Introduction to web workers
+title: 'Introduction to web workers'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/workers/basics/)'
 readiness: 'Ready to Use'

@@ -1,5 +1,5 @@
 ---
-title: Styling tables
+title: 'Styling tables'
 tags:
   - Tutorials
   - WSC

@@ -1,7 +1,10 @@
 ---
-title: size (control)
+title: 'size (control)'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: 'size (control)'
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -54,4 +57,4 @@ Although this property is read/write, no change is visible when you set the size
 -   `input type=reset`
 -   `input type=submit`
 -   `input type=text`
--   `maxLength`
+-   maxLength[maxLength](/html/attributes/maxLength)

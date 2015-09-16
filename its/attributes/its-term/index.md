@@ -1,7 +1,10 @@
 ---
-title: its-term
+title: 'its-term'
 code_samples:
   - 'http://gist.github.com/8404173'
+compatibility:
+  feature: its-term
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

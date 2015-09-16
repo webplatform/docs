@@ -1,5 +1,5 @@
 ---
-title: getelementsmethod
+title: 'getelementsmethod'
 uri: dom/tutorials/getelementsmethod
 
 ---

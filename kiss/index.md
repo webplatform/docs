@@ -1,5 +1,5 @@
 ---
-title: kiss
+title: 'kiss'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

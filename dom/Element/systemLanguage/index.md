@@ -1,5 +1,5 @@
 ---
-title: systemLanguage
+title: 'systemLanguage'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -43,9 +43,9 @@ The **systemLanguage** property reflects the language edition of the installed o
 
 ### Related pages
 
--   `clientInformation`
+-   clientInformation[clientInformation](/dom/clientInformation)
 -   `navigator`
 -   `How to's`
 -   `How to manage language and region (Metro style apps using JavaScript and HTML)`
 -   `Reference`
--   `userLanguage`
+-   userLanguage[userLanguage](/dom/Navigator/userLanguage)

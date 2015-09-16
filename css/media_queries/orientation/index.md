@@ -1,5 +1,8 @@
 ---
-title: orientation
+title: 'orientation'
+compatibility:
+  feature: orientation
+  topic: css
 notes:
   - 'Add summery, values, syntax, example, description, specifications, compatibility.'
 readiness: 'Not Ready'

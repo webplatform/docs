@@ -1,7 +1,10 @@
 ---
-title: text-decoration-overline
+title: 'text-decoration-overline'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: text-decoration-overline
+  topic: css
 notes:
   - 'Needs summary, spec reference, standardization status, fix table coding in Notes, fix broken link'
 overview_table:
@@ -79,7 +82,7 @@ Mouse over this text for an overline.
 
 ### Related pages
 
--   `defaultSelected`
--   `runtimeStyle`
--   `style`
--   `textDecoration`
+-   defaultSelected[defaultSelected](/dom/HTMLOptionElement/defaultSelected)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   textDecoration[textDecoration](/css/properties/text-decoration)

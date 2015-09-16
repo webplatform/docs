@@ -1,7 +1,10 @@
 ---
-title: scale()
+title: 'scale()'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: scale()
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Defines a 2D scale transformation.'
@@ -52,5 +55,5 @@ If the second parameter is not provided, it is takes a value equal to the first.
 ### Related pages
 
 -   `Transform Functions`
--   `Mathematical Description of Transform Functions`
--   `Hands On: 2D Transforms`
+-   Mathematical Description of Transform Functions[Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246)
+-   Hands On: 2D Transforms[Hands On: 2D Transforms](http://go.microsoft.com/fwlink/?LinkID=240163)

@@ -1,5 +1,5 @@
 ---
-title: type
+title: 'type'
 notes:
   - 'Needs example, spec reference, standardization status'
 readiness: 'In Progress'

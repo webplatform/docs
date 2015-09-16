@@ -1,5 +1,5 @@
 ---
-title: durationchange
+title: 'durationchange'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -110,13 +110,13 @@ Use the [**duration**](/dom/HTMLMediaElement/duration) property to determine the
 
 ### Related pages
 
--   `audioElement`
--   `audioApi`
--   `Document`
--   `source`
--   `videoElement`
--   `videoApi`
--   `Window`
+-   audioElement[audioElement](/html/elements/audio)
+-   audioApi[audioApi](/apis/audio-video/audio)
+-   Document[Document](/dom/Document)
+-   source[source](/html/elements/source)
+-   videoElement[videoElement](/html/elements/video)
+-   videoApi[videoApi](/apis/audio-video/video)
+-   Window[Window](/dom/Window)
 -   `Reference`
--   `loadedmetadata`
--   `timeupdate`
+-   loadedmetadata[loadedmetadata](/dom/Element/loadedmetadata)
+-   timeupdate[timeupdate](/dom/Element/timeupdate)

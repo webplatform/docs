@@ -1,5 +1,5 @@
 ---
-title: data
+title: 'data'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 readiness: 'Ready to Use'
@@ -74,4 +74,4 @@ If a user cancels a composition event, the **data** attribute is set to null on 
 
 ### Related pages
 
--   `TextEvent`
+-   TextEvent[TextEvent](/dom/TextEvent)

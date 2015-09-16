@@ -1,5 +1,5 @@
 ---
-title: Part 1: The beginning
+title: 'Part 1: The beginning'
 notes:
   - "Truncate content that is duplicate.\nLook at scratchpad https://docs.webplatform.org/wiki/TEST:beginners \n\nAlso, maybe get in touch with CommonCraft and ask to embed their video about the World Wide Web http://www.commoncraft.com/video/world-wide-web"
 readiness: 'Almost Ready'

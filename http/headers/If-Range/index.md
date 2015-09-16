@@ -1,5 +1,8 @@
 ---
-title: If-Range
+title: 'If-Range'
+compatibility:
+  feature: If-Range
+  topic: http
 overview_table:
   Direction: Request
   Features: ''

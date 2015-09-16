@@ -1,5 +1,8 @@
 ---
-title: color-correction
+title: 'color-correction'
+compatibility:
+  feature: color-correction
+  topic: css
 notes:
   - 'Add summery, values, syntax, example, description, specifications, compatibility.'
 overview_table:

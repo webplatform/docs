@@ -1,7 +1,10 @@
 ---
-title: html comment data-type
+title: 'html comment data-type'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: 'html comment data-type'
+  topic: html
 notes:
   - 'There is no such thing as a "comment" element. Comments are a part of the HTML syntax. This page should be moved out of the html/elements tree.'
 overview_table:

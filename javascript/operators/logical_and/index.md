@@ -1,7 +1,10 @@
 ---
-title: logical and
+title: 'logical and'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/719e8e30(v=vs.94).aspx)'
+compatibility:
+  feature: 'logical and'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Performs a logical conjunction on two expressions.'
 tags:

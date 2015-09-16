@@ -1,5 +1,5 @@
 ---
-title: Modernizr
+title: 'Modernizr'
 notes:
   - 'Should not be a webplatform.org topic; deletion candidate'
 readiness: 'Not Ready'

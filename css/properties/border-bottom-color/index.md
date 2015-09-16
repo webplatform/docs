@@ -1,9 +1,12 @@
 ---
-title: border-bottom-color
+title: 'border-bottom-color'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5535432'
+compatibility:
+  feature: border-bottom-color
+  topic: css
 notes:
   - 'This article could be shortened. The various ways of color encoding needn''t be included in the example, as they are not specific to border-bottom-color. The link to the color article is sufficient.'
 overview_table:
@@ -246,9 +249,9 @@ The color value can also be an extended keyword, such as aliceblue or lavenderbl
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaultsSelected`
--   `runtimeStyle`
--   `style`
--   `border`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaultsSelected[defaultsSelected](/dom/HTMLOptionElement/defaultSelected)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   border[border](/css/properties/border)

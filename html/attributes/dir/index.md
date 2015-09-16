@@ -1,9 +1,12 @@
 ---
-title: dir
+title: 'dir'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://www.w3.org/International/php/examples/generate?data=bidi&test=18'
+compatibility:
+  feature: dir
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -85,9 +88,9 @@ For more information see the following links:
 
 ### Related pages
 
--   `a`
+-   a[a](/html/elements/a)
 -   `abbr`
--   `acronym`
+-   acronym[acronym](/html/elements/acronym)
 -   `address`
 -   `area`
 -   `b`
@@ -157,7 +160,7 @@ For more information see the following links:
 -   `strong`
 -   `sub`
 -   `sup`
--   `table`
+-   table[table](/html/elements/table)
 -   `tBody`
 -   `td`
 -   `textArea`
@@ -171,6 +174,6 @@ For more information see the following links:
 -   `var`
 -   `xmp`
 -   `Reference`
--   `direction`
+-   direction[direction](/css/properties/direction)
 -   `Conceptual`
 -   `HTML Character Sets`

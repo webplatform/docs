@@ -1,5 +1,5 @@
 ---
-title: More about the HTML <head>
+title: 'More about the HTML <head>'
 readiness: 'Ready to Use'
 summary: 'This article delves deeper into the possibilities the HTML &lt;head&gt; has to offer, looking at some additional features.'
 tags:

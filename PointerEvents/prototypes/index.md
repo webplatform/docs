@@ -1,5 +1,5 @@
 ---
-title: prototypes
+title: 'prototypes'
 uri: PointerEvents/prototypes
 
 ---

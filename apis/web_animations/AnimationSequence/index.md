@@ -1,5 +1,5 @@
 ---
-title: AnimationSequence
+title: 'AnimationSequence'
 readiness: 'In Progress'
 relationships:
   subclass_of:

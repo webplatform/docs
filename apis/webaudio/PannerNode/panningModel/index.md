@@ -1,5 +1,5 @@
 ---
-title: panningModel
+title: 'panningModel'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

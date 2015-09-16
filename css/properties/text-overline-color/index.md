@@ -1,5 +1,8 @@
 ---
-title: text-overline-color
+title: 'text-overline-color'
+compatibility:
+  feature: text-overline-color
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`currentColor`'
   'Applies to': 'all elements with and generated content with textual content'

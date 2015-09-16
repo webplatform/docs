@@ -1,5 +1,5 @@
 ---
-title: PhotoSettings
+title: 'PhotoSettings'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The PhotoSettings object is optionally passed into the ImageCapture.setOptions() method in order to modify capture device settings specific to still imagery.'

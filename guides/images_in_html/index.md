@@ -1,5 +1,5 @@
 ---
-title: Images in HTML
+title: 'Images in HTML'
 readiness: 'Ready to Use'
 summary: 'This article provides an introduction to using images in an HTML document with the &lt;img&gt; tag.'
 tags:

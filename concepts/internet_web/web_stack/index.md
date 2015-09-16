@@ -1,5 +1,5 @@
 ---
-title: web stack
+title: 'web stack'
 notes:
   - Stub
 readiness: 'Not Ready'

@@ -1,5 +1,5 @@
 ---
-title: <string>
+title: '<string>'
 code_samples:
   - 'http://gist.github.com/10608944'
 readiness: 'Ready to Use'

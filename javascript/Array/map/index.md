@@ -1,7 +1,10 @@
 ---
-title: map
+title: 'map'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679976(v=vs.94).aspx)'
+compatibility:
+  feature: map
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Calls a defined callback function on each element of an array, and returns an array that contains the results.'
 tags:

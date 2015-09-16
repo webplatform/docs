@@ -1,7 +1,10 @@
 ---
-title: ignoreCase
+title: 'ignoreCase'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/8kz93es5(v=vs.94).aspx)'
+compatibility:
+  feature: ignoreCase
+  topic: javascript
 notes:
   - 'Moved under javascript/RegExp'
 readiness: 'Ready to Use'

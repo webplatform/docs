@@ -1,5 +1,5 @@
 ---
-title: objectStore
+title: 'objectStore'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -70,4 +70,4 @@ This method can throw the following [**DOMException**](/dom/DOMException) except
 
 ### Related pages
 
--   `IDBTransaction`
+-   IDBTransaction[IDBTransaction](/w/index.php?title=apis/indexedDB/IDBTransaction&action=edit&redlink=1)

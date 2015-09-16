@@ -1,9 +1,12 @@
 ---
-title: opacity
+title: 'opacity'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5842705'
+compatibility:
+  feature: opacity
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`1`'
   'Applies to': 'All elements'
@@ -140,9 +143,9 @@ Note that setting a value smaller than 1 to this property creates a new stacking
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
--   `defaults`
--   `runtimeStyle`
--   `a`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   a[a](/svg/properties/a)

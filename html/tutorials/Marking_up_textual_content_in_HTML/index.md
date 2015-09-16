@@ -1,5 +1,5 @@
 ---
-title: Marking up textual content in HTML
+title: 'Marking up textual content in HTML'
 tags:
   - Tutorials
   - WSC

@@ -1,5 +1,5 @@
 ---
-title: duration
+title: 'duration'
 readiness: 'Almost Ready'
 relationships:
   applies_to:

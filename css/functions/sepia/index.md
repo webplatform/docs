@@ -1,7 +1,10 @@
 ---
-title: sepia()
+title: 'sepia()'
 code_samples:
   - 'http://codepen.io/pverbeek/pen/jKioA'
+compatibility:
+  feature: sepia
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: "Apply a sepia tinge to an element's color, typical\nof old photographs, for use by the\nfilter property.  A decimal value\nbetween 0 and 1 or percentage up to 100% controls the extent of the\nsepia effect.\n"

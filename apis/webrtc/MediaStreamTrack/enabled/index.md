@@ -1,5 +1,5 @@
 ---
-title: enabled
+title: 'enabled'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

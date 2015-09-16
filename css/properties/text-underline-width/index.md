@@ -1,5 +1,8 @@
 ---
-title: text-underline-width
+title: 'text-underline-width'
+compatibility:
+  feature: text-underline-width
+  topic: css
 notes:
   - "\nDeletion Candidate:   This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.\n\n"
 overview_table:

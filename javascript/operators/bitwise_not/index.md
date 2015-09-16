@@ -1,7 +1,10 @@
 ---
-title: bitwise not
+title: 'bitwise not'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/zf9s465t(v=vs.94).aspx)'
+compatibility:
+  feature: 'bitwise not'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Performs a bitwise NOT (negation) on an expression.'
 tags:

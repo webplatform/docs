@@ -1,7 +1,10 @@
 ---
-title: invert()
+title: 'invert()'
 code_samples:
   - 'http://codepen.io/pverbeek/pen/Dlpta'
+compatibility:
+  feature: invert
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: "Flips an element's colors, for use by the\nfilter property.  A decimal value\nbetween 0 and 1 or percentage up to 100% controls the extent of the\ncolor-negative effect, with 0.5 or 50% producing gray.\n"

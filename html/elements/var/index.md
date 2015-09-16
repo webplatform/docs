@@ -1,7 +1,10 @@
 ---
-title: var
+title: 'var'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: var
+  topic: html
 notes:
   - 'Add example, note section.'
 overview_table:

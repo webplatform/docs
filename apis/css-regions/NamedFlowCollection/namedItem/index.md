@@ -1,5 +1,5 @@
 ---
-title: namedItem()
+title: 'namedItem()'
 readiness: 'Ready to Use'
 relationships:
   method_of:

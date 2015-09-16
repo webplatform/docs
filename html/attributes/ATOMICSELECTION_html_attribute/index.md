@@ -1,7 +1,10 @@
 ---
-title: ATOMICSELECTION html attribute
+title: 'ATOMICSELECTION html attribute'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: 'ATOMICSELECTION html attribute'
+  topic: html
 notes:
   - 'deletion candidate'
 readiness: 'Not Ready'
@@ -51,9 +54,9 @@ There are no standards that apply here.
 
 ### Related pages
 
--   `a`
+-   a[a](/html/elements/a)
 -   `abbr`
--   `acronym`
+-   acronym[acronym](/html/elements/acronym)
 -   `address`
 -   `area`
 -   `b`
@@ -105,7 +108,7 @@ There are no standards that apply here.
 -   `listing`
 -   `marquee`
 -   `menu`
--   `nextID`
+-   nextID[nextID](/html/elements/nextID)
 -   `noBR`
 -   `ol`
 -   `p`
@@ -123,7 +126,7 @@ There are no standards that apply here.
 -   `strong`
 -   `sub`
 -   `sup`
--   `table`
+-   table[table](/html/elements/table)
 -   `tBody`
 -   `textArea`
 -   `tFoot`

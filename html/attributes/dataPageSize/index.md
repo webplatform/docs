@@ -1,7 +1,10 @@
 ---
-title: dataPageSize
+title: 'dataPageSize'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: dataPageSize
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -54,11 +57,11 @@ The [**firstPage**](/w/index.php?title=dom/methods/firstPage&action=edit&redlink
 
 ### Related pages
 
--   `table`
+-   table[table](/html/elements/table)
 -   `Reference`
--   `firstPage`
--   `lastPage`
+-   firstPage[firstPage](/w/index.php?title=dom/methods/firstPage&action=edit&redlink=1)
+-   lastPage[lastPage](/w/index.php?title=dom/methods/lastPage&action=edit&redlink=1)
 -   `nextPage`
--   `previousPage`
+-   previousPage[previousPage](/w/index.php?title=dom/methods/previousPage&action=edit&redlink=1)
 -   `Conceptual`
 -   `Introduction to Data Binding`

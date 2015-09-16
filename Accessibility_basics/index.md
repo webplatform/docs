@@ -1,5 +1,5 @@
 ---
-title: Accessibility basics
+title: 'Accessibility basics'
 notes:
   - 'http://docs.webplatform.org/wiki/concepts/accessibility/accessibility_basics'
 summary: 'This page refers to the inclusive practice of making websites usable by people of all abilities and disabilities.'

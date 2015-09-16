@@ -1,5 +1,8 @@
 ---
-title: text-line-through
+title: 'text-line-through'
+compatibility:
+  feature: text-line-through
+  topic: css
 notes:
   - 'Obsolete; deletion candidate'
 overview_table:

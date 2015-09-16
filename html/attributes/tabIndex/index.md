@@ -1,10 +1,13 @@
 ---
-title: tabIndex
+title: 'tabIndex'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/tabindex1.htm'
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/tabindex2.htm'
+compatibility:
+  feature: tabIndex
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -93,9 +96,9 @@ For Internet Explorer 5.01 or above, the attribute may be set to any value in t
 
 ### Related pages
 
--   `a`
+-   a[a](/html/elements/a)
 -   `abbr`
--   `acronym`
+-   acronym[acronym](/html/elements/acronym)
 -   `address`
 -   `applet`
 -   `area`
@@ -162,7 +165,7 @@ For Internet Explorer 5.01 or above, the attribute may be set to any value in t
 -   `strong`
 -   `sub`
 -   `sup`
--   `table`
+-   table[table](/html/elements/table)
 -   `tBody`
 -   `td`
 -   `textArea`

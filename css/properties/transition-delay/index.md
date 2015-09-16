@@ -1,9 +1,12 @@
 ---
-title: transition-delay
+title: 'transition-delay'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5841921'
+compatibility:
+  feature: transition-delay
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`0s`'
   'Applies to': "all elements,\_:before and\_:after pseudo elements"

@@ -1,5 +1,5 @@
 ---
-title: brightness
+title: 'brightness'
 notes:
   - 'Needs example, usage, spec reference'
 readiness: 'In Progress'

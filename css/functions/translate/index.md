@@ -1,9 +1,12 @@
 ---
-title: translate()
+title: 'translate()'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://codepen.io/Fischaela/pen/Lqmxb'
+compatibility:
+  feature: translate()
+  topic: css
 readiness: 'Ready to Use'
 summary: 'Transform function for a 2d translation which sets the position of an element to a new one, described by two vectors (x, y). The y value is optional.'
 tags:

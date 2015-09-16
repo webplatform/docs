@@ -1,8 +1,11 @@
 ---
-title: border-bottom
+title: 'border-bottom'
 code_samples:
   0: 'http://gist.github.com/5539585'
   2: 'http://gist.github.com/5704867'
+compatibility:
+  feature: border-bottom
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`For style values, the initial value is none. For color values, the initial value is currentColor.  For width values, the initial value is medium, which is computed as about 3px in most browsers.`'
   'Applies to': 'All elements'
@@ -254,12 +257,12 @@ For `style` values, the computed value is as specified. For `width` values, the 
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaultsSelected`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaultsSelected[defaultsSelected](/dom/HTMLOptionElement/defaultSelected)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `Reference`
--   `border`
+-   border[border](/css/properties/border)
 -   `Other Resources`
 -   `CSS Enhancements in Internet Explorer 6`

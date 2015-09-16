@@ -1,5 +1,5 @@
 ---
-title: cuechange
+title: 'cuechange'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -94,6 +94,6 @@ In the following example, when a cuechange event is received on the track elemen
 
 ### Related pages
 
--   `HTMLElement`
--   `TextTrack`
+-   HTMLElement[HTMLElement](/dom/HTMLElement)
+-   TextTrack[TextTrack](/apis/audio-video/TextTrack)
 -   `HTMLTrackElement`

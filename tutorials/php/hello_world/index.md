@@ -1,5 +1,5 @@
 ---
-title: HTML
+title: 'HTML'
 notes:
   - 'Deletion candidate; we are not covering server-side technologies.'
 readiness: 'Not Ready'

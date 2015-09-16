@@ -1,7 +1,10 @@
 ---
-title: viewMasterTab
+title: 'viewMasterTab'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: viewMasterTab
+  topic: html
 notes:
   - 'Deletion Candidate'
 readiness: 'Not Ready'
@@ -47,9 +50,9 @@ Tabbing order goes from every tab stop within the viewlink to every tab stop in 
 
 ### Related pages
 
--   `defaults`
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
 -   `Reference`
--   `viewLink`
+-   viewLink[viewLink](/w/index.php?title=dom/properties/viewLink&action=edit&redlink=1)
 -   `Conceptual`
 -   `Introduction to Viewlink`
 -   `About Element Behaviors`

@@ -1,5 +1,5 @@
 ---
-title: <position>
+title: '<position>'
 code_samples:
   - 'http://gist.github.com/10612218'
 readiness: 'Ready to Use'

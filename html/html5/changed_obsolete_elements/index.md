@@ -1,5 +1,5 @@
 ---
-title: Elements changed or obsolete in HTML5
+title: 'Elements changed or obsolete in HTML5'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

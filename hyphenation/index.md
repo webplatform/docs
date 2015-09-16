@@ -1,5 +1,5 @@
 ---
-title: hyphenation
+title: 'hyphenation'
 notes:
   - 'Merge Candidate: glossary/'
 readiness: 'Not Ready'

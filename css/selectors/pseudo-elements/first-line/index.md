@@ -1,9 +1,12 @@
 ---
-title: ::first-line
+title: '::first-line'
 attributions:
   - 'Microsoft Developer Network.'
 code_samples:
   - 'https://gist.github.com/fe1382a764e07a9c7917'
+compatibility:
+  feature: '::first-line'
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Represents the first line of an element. Note that the content of the first line varies depending on the available width and the styling of text (size, spacing).'

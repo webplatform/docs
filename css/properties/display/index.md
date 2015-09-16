@@ -1,7 +1,10 @@
 ---
-title: display
+title: 'display'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+compatibility:
+  feature: display
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`inline`'
   'Applies to': 'All elements.'

@@ -1,5 +1,5 @@
 ---
-title: JavaScriptのオブジェクト
+title: 'JavaScriptのオブジェクト'
 lang: ja
 notes:
   - 'No content; deletion candidate'

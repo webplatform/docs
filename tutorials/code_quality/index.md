@@ -1,5 +1,5 @@
 ---
-title: Coding best practices
+title: 'Coding best practices'
 notes:
   - 'No content; http://docs.webplatform.org/wiki/tutorials/javascript_best_practices covers this subject; deletion candidate'
 readiness: 'Not Ready'

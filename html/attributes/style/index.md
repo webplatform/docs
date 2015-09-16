@@ -1,7 +1,10 @@
 ---
-title: style
+title: 'style'
 code_samples:
   - 'http://result.dabblet.com/gist/11015343/6a6bb418f06ead5f7d21245426820c7df47dc228'
+compatibility:
+  feature: style
+  topic: html
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Sets an inline style for the element.'

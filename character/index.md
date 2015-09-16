@@ -1,5 +1,5 @@
 ---
-title: character
+title: 'character'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

@@ -1,5 +1,5 @@
 ---
-title: Part 6: Programming fundamentals
+title: 'Part 6: Programming fundamentals'
 notes:
   - "Original notes:\n Variables\n Operators\n Conditional logic\n Loops\n Functions\n Events\n Objects\nrenoirb: Regarding the programming language to use, there was a discussion to use a backend programming language. Maybe that would be the perfect place to show basics without using backend code by showing eventually how send an email through an API (e.g. send grid, mailgun) and other actions can be mimicked with static files (e.g. from a static JSON file)"
 readiness: 'Not Ready'

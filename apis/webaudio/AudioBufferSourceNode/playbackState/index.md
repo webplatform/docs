@@ -1,5 +1,5 @@
 ---
-title: playbackState
+title: 'playbackState'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

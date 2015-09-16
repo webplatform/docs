@@ -1,5 +1,8 @@
 ---
-title: its-rev-org-ref
+title: 'its-rev-org-ref'
+compatibility:
+  feature: its-rev-org-ref
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

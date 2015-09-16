@@ -1,5 +1,5 @@
 ---
-title: MediaStream
+title: 'MediaStream'
 code_samples:
   - 'https://github.com/samdutton/simpl/blob/master/getusermedia/wpd.html'
 notes:

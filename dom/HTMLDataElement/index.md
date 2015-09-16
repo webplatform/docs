@@ -1,5 +1,8 @@
 ---
-title: HTMLDataElement
+title: 'HTMLDataElement'
+compatibility:
+  feature: HTMLDataElement
+  topic: dom
 readiness: 'Not Ready'
 relationships:
   subclass_of:

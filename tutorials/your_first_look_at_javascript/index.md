@@ -1,5 +1,5 @@
 ---
-title: Your first look at JavaScript
+title: 'Your first look at JavaScript'
 readiness: 'Ready to Use'
 summary: 'Now it is time to get your hands dirty. This article provides a basic introduction to coding with JavaScript.'
 tags:

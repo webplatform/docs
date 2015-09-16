@@ -1,5 +1,5 @@
 ---
-title: attributes
+title: 'attributes'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.attributes](https://developer.mozilla.org/en-US/docs/Web/API/Node.attributes) Article]'
   - 'Microsoft Developer Network: [[attributes Collection](http://msdn.microsoft.com/en-us/library/ie/ms537438(v=vs.85).aspx) Article]'

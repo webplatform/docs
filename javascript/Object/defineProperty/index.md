@@ -1,7 +1,10 @@
 ---
-title: defineProperty
+title: 'defineProperty'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dd548687(v=vs.94).aspx)'
+compatibility:
+  feature: defineProperty
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Adds a property to an object, or modifies the attributes of an existing property.'
 tags:

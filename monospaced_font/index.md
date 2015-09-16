@@ -1,5 +1,5 @@
 ---
-title: monospaced font
+title: 'monospaced font'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

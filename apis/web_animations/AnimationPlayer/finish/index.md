@@ -1,5 +1,5 @@
 ---
-title: finish
+title: 'finish'
 readiness: 'Almost Ready'
 relationships:
   method_of:

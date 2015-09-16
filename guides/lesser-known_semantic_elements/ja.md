@@ -1,5 +1,5 @@
 ---
-title: あまり知られていない意味を記す要素
+title: 'あまり知られていない意味を記す要素'
 lang: ja
 notes:
   - 'Stub page, needs translation of content'

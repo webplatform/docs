@@ -1,7 +1,10 @@
 ---
-title: text
+title: 'text'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: text
+  topic: html
 notes:
   - 'Merge Candidate: html/attributes/type'
 overview_table:
@@ -77,6 +80,6 @@ The [**SIZE**](/html/attributes/size_(control)) attribute sets the number of vis
 ### Related pages
 
 -   `Reference`
--   `spellcheck`
+-   spellcheck[spellcheck](/w/index.php?title=dom/properties/spellcheck&action=edit&redlink=1)
 -   `input`
 -   `textArea`

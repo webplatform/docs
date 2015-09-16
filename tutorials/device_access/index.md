@@ -1,5 +1,5 @@
 ---
-title: Device access tutorials
+title: 'Device access tutorials'
 notes:
   - 'Fix broken link'
 readiness: 'Almost Ready'

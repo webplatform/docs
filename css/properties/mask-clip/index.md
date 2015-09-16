@@ -1,5 +1,8 @@
 ---
-title: mask-clip
+title: 'mask-clip'
+compatibility:
+  feature: mask-clip
+  topic: css
 notes:
   - "Add description and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
 overview_table:

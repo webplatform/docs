@@ -1,5 +1,5 @@
 ---
-title: box-shadow
+title: 'box-shadow'
 code_samples:
   - 'http://gist.github.com/5259244'
   - 'http://gist.github.com/5259299'
@@ -8,6 +8,9 @@ code_samples:
   - 'http://gist.github.com/5259501'
   - 'http://gist.github.com/5259470'
   - 'http://gist.github.com/5259531'
+compatibility:
+  feature: box-shadow
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`none`'
   'Applies to': 'All elements'

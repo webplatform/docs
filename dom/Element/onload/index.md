@@ -1,5 +1,5 @@
 ---
-title: onload
+title: 'onload'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -47,4 +47,4 @@ This event fires when a method finishes the read of a [**Blob**](/apis/file/Blob
 
 ### Related pages
 
--   `FileReader`
+-   FileReader[FileReader](/apis/file/FileReader)

@@ -1,7 +1,10 @@
 ---
-title: setYear
+title: 'setYear'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/0f0shhbs(v=vs.94).aspx)'
+compatibility:
+  feature: setYear
+  topic: javascript
 notes:
   - 'Obsolete; deletion candidate'
 readiness: 'Not Ready'

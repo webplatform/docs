@@ -1,5 +1,8 @@
 ---
-title: its-loc-quality-rating-vote-threshold
+title: 'its-loc-quality-rating-vote-threshold'
+compatibility:
+  feature: its-loc-quality-rating-vote-threshold
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

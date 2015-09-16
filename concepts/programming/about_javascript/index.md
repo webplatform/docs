@@ -1,5 +1,5 @@
 ---
-title: about javascript
+title: 'about javascript'
 tags:
   - JavaScript
 uri: 'concepts/programming/about javascript'

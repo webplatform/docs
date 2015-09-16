@@ -1,5 +1,5 @@
 ---
-title: imageHeight
+title: 'imageHeight'
 notes:
   - 'Needs example, usage, spec reference'
 readiness: 'In Progress'

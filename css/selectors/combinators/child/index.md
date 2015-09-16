@@ -1,9 +1,12 @@
 ---
-title: child
+title: 'child'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/aa358819%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/8413346'
+compatibility:
+  feature: child
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Selects only the immediate child of a parent element.'

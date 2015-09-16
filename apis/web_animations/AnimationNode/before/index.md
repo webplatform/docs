@@ -1,5 +1,5 @@
 ---
-title: before
+title: 'before'
 readiness: 'Almost Ready'
 relationships:
   method_of:

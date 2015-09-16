@@ -1,5 +1,8 @@
 ---
-title: its-person-ref
+title: 'its-person-ref'
+compatibility:
+  feature: its-person-ref
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

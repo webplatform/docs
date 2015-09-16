@@ -1,5 +1,5 @@
 ---
-title: getSelection
+title: 'getSelection'
 notes:
   - 'Needs spec reference, usage, example'
 readiness: 'In Progress'

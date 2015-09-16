@@ -1,5 +1,5 @@
 ---
-title: alert
+title: 'alert'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[window.alert](https://developer.mozilla.org/en-US/docs/Web/API/Window.alert) Article]'
   - 'Microsoft Developer Network: [[alert Method](http://msdn.microsoft.com/en-us/library/ie/ms535933(v=vs.85).aspx) Article]'

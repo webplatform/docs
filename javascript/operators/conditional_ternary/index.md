@@ -1,7 +1,10 @@
 ---
-title: conditional ternary
+title: 'conditional ternary'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/be21c7hw(v=vs.94).aspx)'
+compatibility:
+  feature: 'conditional ternary'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns one of two expressions depending on a condition. Also referred to as &quot;if...else shorthand&quot;.'
 tags:

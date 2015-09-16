@@ -1,5 +1,5 @@
 ---
-title: icecandidate
+title: 'icecandidate'
 notes:
   - 'Needs all sections'
 readiness: 'Not Ready'

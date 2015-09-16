@@ -1,7 +1,10 @@
 ---
-title: undefined
+title: 'undefined'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dae3sbk5(v=vs.94).aspx)'
+compatibility:
+  feature: undefined
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'A value that has never been defined, such as a variable that has not been initialized.'
 tags:

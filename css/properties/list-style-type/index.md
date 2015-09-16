@@ -1,5 +1,5 @@
 ---
-title: list-style-type
+title: 'list-style-type'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/list-style-type)'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
@@ -9,6 +9,9 @@ code_samples:
   3: 'http://gist.github.com/5598129'
   4: 'http://gist.github.com/5597530'
   5: 'http://gist.github.com/5697355'
+compatibility:
+  feature: list-style-type
+  topic: css
 notes:
   - 'Add specification, complete compatibility.'
 overview_table:
@@ -307,7 +310,7 @@ a:visited{text-decoration:none;color:green;}
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)

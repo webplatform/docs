@@ -1,5 +1,5 @@
 ---
-title: ongatheringchange
+title: 'ongatheringchange'
 notes:
   - 'Needs example, spec reference, standardization status'
 readiness: 'In Progress'

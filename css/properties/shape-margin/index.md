@@ -1,7 +1,10 @@
 ---
-title: shape-margin
+title: 'shape-margin'
 code_samples:
   - 'http://gist.github.com/6495f066863775c4aa27'
+compatibility:
+  feature: shape-margin
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`0`'
   'Applies to': Floats

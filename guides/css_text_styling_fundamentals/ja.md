@@ -1,5 +1,5 @@
 ---
-title: テキスト装飾の基礎
+title: 'テキスト装飾の基礎'
 lang: ja
 notes:
   - 'this is a stub, need to translate content'

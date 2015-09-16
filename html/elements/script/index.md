@@ -1,7 +1,10 @@
 ---
-title: script
+title: 'script'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: script
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLScriptElement](/dom/HTMLScriptElement)'
 readiness: 'Ready to Use'

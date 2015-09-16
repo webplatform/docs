@@ -1,5 +1,5 @@
 ---
-title: onUpgradeNeeded
+title: 'onUpgradeNeeded'
 notes:
   - 'Needs example, spec reference, standardization status'
 readiness: 'In Progress'

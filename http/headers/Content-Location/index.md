@@ -1,5 +1,8 @@
 ---
-title: Content-Location
+title: 'Content-Location'
+compatibility:
+  feature: Content-Location
+  topic: http
 overview_table:
   Direction: 'Request and Response'
   Features: ''

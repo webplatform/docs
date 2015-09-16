@@ -1,5 +1,5 @@
 ---
-title: initPopStateEvent
+title: 'initPopStateEvent'
 attributions:
   - 'Microsoft Developer Network: [[initPopStateEvent Method](http://msdn.microsoft.com/en-us/library/ie/hh772350(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

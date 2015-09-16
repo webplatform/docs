@@ -1,5 +1,5 @@
 ---
-title: How browsers work: behind the scenes of modern web browsers
+title: 'How browsers work: behind the scenes of modern web browsers'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/internals/howbrowserswork/)'
 readiness: 'In Progress'

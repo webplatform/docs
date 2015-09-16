@@ -1,5 +1,5 @@
 ---
-title: contentWindow
+title: 'contentWindow'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -82,4 +82,4 @@ This property is useful if you do not know the [**id**](/html/attributes/id) of 
 
 -   `frame`
 -   `iframe`
--   `frameElement`
+-   frameElement[frameElement](/dom/HTMLElement)

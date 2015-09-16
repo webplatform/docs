@@ -1,5 +1,8 @@
 ---
-title: marquee-direction
+title: 'marquee-direction'
+compatibility:
+  feature: marquee-direction
+  topic: css
 notes:
   - "Add description, compatibility.\nThis property seems to have been deprecated. Once compatibility tables have been updated, consider a note talking about its usage."
 overview_table:

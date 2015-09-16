@@ -1,5 +1,5 @@
 ---
-title: Cross browser JavaScript
+title: 'Cross browser JavaScript'
 notes:
   - 'Needs all content'
 readiness: 'Not Ready'

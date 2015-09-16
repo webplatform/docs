@@ -1,5 +1,5 @@
 ---
-title: What can you do with JavaScript
+title: 'What can you do with JavaScript'
 tags:
   - Tutorials
   - WSC

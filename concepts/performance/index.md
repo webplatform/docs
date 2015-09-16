@@ -1,5 +1,5 @@
 ---
-title: performance
+title: 'performance'
 uri: concepts/performance
 
 ---

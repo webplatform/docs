@@ -1,5 +1,5 @@
 ---
-title: Browser Support
+title: 'Browser Support'
 notes:
   - 'No editing form'
 readiness: 'Not Ready'

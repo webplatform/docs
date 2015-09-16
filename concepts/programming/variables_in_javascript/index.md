@@ -1,5 +1,5 @@
 ---
-title: Variables in JavaScript
+title: 'Variables in JavaScript'
 readiness: 'Almost Ready'
 summary: 'JavaScript recognizes values such as integers and strings, which are represented with symbolic names by which they are referenced in the source code. Each variable is associated with a data type and has a scope, or area in which it is valid.'
 tags:

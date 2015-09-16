@@ -1,9 +1,12 @@
 ---
-title: noscript
+title: 'noscript'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'https://rawgithub.com/WebPlatformDocs/6364342/raw/47a37f3fe0d920a0c6a8a7974dca473589f1e4f5/dabblet.html'
+compatibility:
+  feature: noscript
+  topic: html
 notes:
   - 'See to make the listing of events, methods etc to be generated automatically instead of being hardcoded.'
 overview_table:

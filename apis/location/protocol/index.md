@@ -1,5 +1,5 @@
 ---
-title: window.location.protocol
+title: 'window.location.protocol'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

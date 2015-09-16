@@ -1,5 +1,5 @@
 ---
-title: Media Capture and Streams
+title: 'Media Capture and Streams'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Enables access to local devices (video cameras, microphones, Web cams) that can generate multimedia stream data (video, audio, or both).'

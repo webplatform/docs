@@ -1,5 +1,5 @@
 ---
-title: JavaScriptのイベント処理
+title: 'JavaScriptのイベント処理'
 lang: ja
 notes:
   - 'No content; deletion candidate'

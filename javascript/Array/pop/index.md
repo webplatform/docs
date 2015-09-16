@@ -1,7 +1,10 @@
 ---
-title: pop
+title: 'pop'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hx9fbx10(v=vs.94).aspx)'
+compatibility:
+  feature: pop
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Removes the last element from an array and returns it.'
 tags:

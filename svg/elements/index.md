@@ -1,5 +1,5 @@
 ---
-title: SVG Elements
+title: 'SVG Elements'
 tags:
   - SVG
 todo_broken_links:

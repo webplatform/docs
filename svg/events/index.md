@@ -1,5 +1,5 @@
 ---
-title: SVG events
+title: 'SVG events'
 notes:
   - 'Add some content, with link to the main DOM events page.'
 readiness: 'In Progress'

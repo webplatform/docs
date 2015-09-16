@@ -1,5 +1,5 @@
 ---
-title: Proprietary Internet Explorer Techniques
+title: 'Proprietary Internet Explorer Techniques'
 readiness: 'In Progress'
 summary: "Back at the times of the browser wars between Microsoft and Netscape both vendors built all sorts of proprietary technology into their browsers. This had different reasons:\n"
 tags:

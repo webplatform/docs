@@ -1,5 +1,8 @@
 ---
-title: pause-before
+title: 'pause-before'
+compatibility:
+  feature: pause-before
+  topic: css
 notes:
   - 'Needs values, usage, example'
 overview_table:

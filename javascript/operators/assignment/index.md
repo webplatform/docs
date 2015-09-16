@@ -1,7 +1,10 @@
 ---
-title: assignment
+title: 'assignment'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/1w2h1k9x(v=vs.94).aspx)'
+compatibility:
+  feature: assignment
+  topic: javascript
 notes:
   - 'Needs example'
 readiness: 'Almost Ready'

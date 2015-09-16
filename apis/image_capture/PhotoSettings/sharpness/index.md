@@ -1,5 +1,5 @@
 ---
-title: sharpness
+title: 'sharpness'
 notes:
   - 'Needs example, usage, spec reference'
 readiness: 'In Progress'

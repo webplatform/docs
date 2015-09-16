@@ -1,5 +1,5 @@
 ---
-title: ms-wrap-through
+title: 'ms-wrap-through'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -61,5 +61,5 @@ You can use the **-ms-wrap-through** property to control the effect of exclusion
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `Internet Explorer 10 Guide for Developers: CSS Exclusions`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   Internet Explorer 10 Guide for Developers: CSS Exclusions[Internet Explorer 10 Guide for Developers: CSS Exclusions](http://go.microsoft.com/fwlink/p/?LinkId=236927)

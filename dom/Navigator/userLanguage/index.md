@@ -1,5 +1,5 @@
 ---
-title: userLanguage
+title: 'userLanguage'
 attributions:
   - 'Microsoft Developer Network: [[navigator.userLanguage](http://msdn.microsoft.com/en-us/library/ie/ms534713(v=vs.85).aspx) Article]'
 code_samples:

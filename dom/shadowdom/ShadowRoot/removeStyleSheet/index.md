@@ -1,5 +1,5 @@
 ---
-title: removeStyleSheet
+title: 'removeStyleSheet'
 notes:
   - 'Needs spec reference, usage, example'
 readiness: 'In Progress'

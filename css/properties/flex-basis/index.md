@@ -1,5 +1,8 @@
 ---
-title: flex-basis
+title: 'flex-basis'
+compatibility:
+  feature: flex-basis
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`auto`'
   'Applies to': 'flex items'

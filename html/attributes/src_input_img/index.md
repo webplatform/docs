@@ -1,9 +1,12 @@
 ---
-title: src (input, img)
+title: 'src (input, img)'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/src.htm'
+compatibility:
+  feature: 'src (input, img)'
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -60,4 +63,4 @@ The value of the [**src**](/html/attributes/src_(iframe,_embed,_xml)) attribute 
 
 -   `img`
 -   `input type=image`
--   `HTMLInputElement`
+-   HTMLInputElement[HTMLInputElement](/dom/HTMLInputElement)

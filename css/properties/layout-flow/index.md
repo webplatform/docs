@@ -1,7 +1,10 @@
 ---
-title: layout-flow
+title: 'layout-flow'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: layout-flow
+  topic: css
 notes:
   - 'Add summery, example, specifications, compatibility.'
 overview_table:
@@ -152,11 +155,11 @@ Windows Internet Explorer 8. The **-ms-layout-flow** attribute is an extension 
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `Reference`
--   `-ms-writing-mode`
+-   -ms-writing-mode[-ms-writing-mode](/css/properties/writing-mode)
 -   `Other Resources`
--   `International Layout in CSS`
+-   International Layout in CSS[International Layout in CSS](http://go.microsoft.com/fwlink/p/?linkid=203735)

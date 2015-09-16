@@ -1,5 +1,5 @@
 ---
-title: setExpression
+title: 'setExpression'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -177,11 +177,11 @@ Use the **setExpression** method to add expressions to supported [**removeExpres
 
 -   `IHTMLElement2`
 -   `IHTMLStyle2`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `Reference`
--   `getExpression`
--   `removeExpression`
+-   getExpression[getExpression](/css/cssom/methods/getExpression)
+-   removeExpression[removeExpression](/css/cssom/methods/removeExpression)
 -   `Conceptual`
 -   `About Dynamic Properties`

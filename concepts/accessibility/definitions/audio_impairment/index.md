@@ -1,5 +1,5 @@
 ---
-title: Audio Impairment
+title: 'Audio Impairment'
 notes:
   - 'Content needs reworking; body only appears in "Edit Source" mode.'
 readiness: 'In Progress'

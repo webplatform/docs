@@ -1,5 +1,5 @@
 ---
-title: requestQuota
+title: 'requestQuota'
 notes:
   - 'Can''t find this method in the spec: https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html'
 readiness: 'Not Ready'

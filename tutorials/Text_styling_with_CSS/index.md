@@ -1,5 +1,5 @@
 ---
-title: Text styling with CSS
+title: 'Text styling with CSS'
 tags:
   - Pages
   - with

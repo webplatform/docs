@@ -1,5 +1,5 @@
 ---
-title: window.location.pathname
+title: 'window.location.pathname'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

@@ -1,7 +1,10 @@
 ---
-title: Function
+title: 'Function'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/x844tc74(v=vs.94).aspx)'
+compatibility:
+  feature: Function
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Creates a new function.'
 tags:

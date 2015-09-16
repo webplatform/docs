@@ -1,7 +1,10 @@
 ---
-title: comparison
+title: 'comparison'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ky6fyhws(v=vs.94).aspx)'
+compatibility:
+  feature: comparison
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns a Boolean value indicating the result of the comparison.'
 tags:

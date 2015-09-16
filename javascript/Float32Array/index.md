@@ -1,7 +1,10 @@
 ---
-title: Float32Array
+title: 'Float32Array'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212916(v=vs.94).aspx)'
+compatibility:
+  feature: Float32Array
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'A typed array of 32-bit float values. The contents are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.'
 tags:

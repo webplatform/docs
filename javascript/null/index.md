@@ -1,5 +1,8 @@
 ---
-title: null
+title: 'null'
+compatibility:
+  feature: 'null'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'null is used to indicate that a variable does not have a value.'
 tags:

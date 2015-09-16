@@ -1,7 +1,10 @@
 ---
-title: mstyle
+title: 'mstyle'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/MathML/Element/mstyle)'
+compatibility:
+  feature: mstyle
+  topic: mathml
 notes:
   - 'Fix broken links'
 overview_table:

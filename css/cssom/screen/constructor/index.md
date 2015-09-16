@@ -1,5 +1,5 @@
 ---
-title: constructor
+title: 'constructor'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -43,4 +43,4 @@ An object's constructor initializes the object's properties and provides access 
 
 ### Related pages
 
--   `screen`
+-   screen[screen](/css/cssom/screen)

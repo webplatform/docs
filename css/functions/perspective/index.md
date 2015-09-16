@@ -1,7 +1,10 @@
 ---
-title: perspective
+title: 'perspective'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: perspective
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Defines how many pixels away a 3D element is placed from the viewer. This allows you to change the apparent perspective of how 3D elements are viewed.'
@@ -51,6 +54,6 @@ For more information about transformation matrices, see [Mathematical Descriptio
 ### Related pages
 
 -   `Transform Functions`
--   `Mathematical Description of Transform Functions`
+-   Mathematical Description of Transform Functions[Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246)
 -   `Direct3D: Matrices`
--   `Hands On: 3-D Transforms`
+-   Hands On: 3-D Transforms[Hands On: 3-D Transforms](http://go.microsoft.com/fwlink/?LinkId=227893)

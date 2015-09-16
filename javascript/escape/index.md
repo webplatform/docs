@@ -1,7 +1,10 @@
 ---
-title: escape
+title: 'escape'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/9yzah1fh(v=vs.94).aspx)'
+compatibility:
+  feature: escape
+  topic: javascript
 readiness: 'Ready to Use'
 summary: "Deprecated\n"
 tags:

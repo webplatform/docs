@@ -1,5 +1,8 @@
 ---
-title: flex-shrink
+title: 'flex-shrink'
+compatibility:
+  feature: flex-shrink
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`1`'
   'Applies to': 'flex items'

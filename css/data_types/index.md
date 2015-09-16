@@ -1,5 +1,5 @@
 ---
-title: CSS data types
+title: 'CSS data types'
 notes:
   - 'For list sections, consider not having a summary header if there are no other sections.'
 readiness: 'Ready to Use'

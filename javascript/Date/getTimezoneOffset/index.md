@@ -1,7 +1,10 @@
 ---
-title: getTimezoneOffset
+title: 'getTimezoneOffset'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/014ykh71(v=vs.94).aspx)'
+compatibility:
+  feature: getTimezoneOffset
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the difference in minutes between the time on the local computer and Universal Coordinated Time (UTC).'
 tags:

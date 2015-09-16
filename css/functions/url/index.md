@@ -1,5 +1,8 @@
 ---
-title: CSS images: url()
+title: 'CSS images: url()'
+compatibility:
+  feature: url()
+  topic: css
 notes:
   - 'Include examples, specifications, compatibility.'
 readiness: 'In Progress'

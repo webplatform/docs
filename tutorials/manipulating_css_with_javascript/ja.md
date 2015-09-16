@@ -1,5 +1,5 @@
 ---
-title: JavaScriptでCSSを操作
+title: 'JavaScriptでCSSを操作'
 lang: ja
 notes:
   - 'No content; deletion candidate'

@@ -1,7 +1,10 @@
 ---
-title: source
+title: 'source'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/fkd8dws9(v=vs.94).aspx)'
+compatibility:
+  feature: source
+  topic: javascript
 notes:
   - 'Moved under javascript/RegExp'
 readiness: 'Ready to Use'

@@ -1,7 +1,10 @@
 ---
-title: setUTCMinutes
+title: 'setUTCMinutes'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/esssx44h(v=vs.94).aspx)'
+compatibility:
+  feature: setUTCMinutes
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets the minutes value in the Date object using Universal Coordinated Time (UTC).'
 tags:

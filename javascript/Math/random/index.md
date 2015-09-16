@@ -1,7 +1,10 @@
 ---
-title: random
+title: 'random'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)'
+compatibility:
+  feature: random
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns a pseudorandom number between 0 and 1.'
 tags:

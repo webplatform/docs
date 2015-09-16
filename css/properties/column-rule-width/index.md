@@ -1,9 +1,12 @@
 ---
-title: column-rule-width
+title: 'column-rule-width'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/6288958'
+compatibility:
+  feature: column-rule-width
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`medium`'
   'Applies to': 'multi-column elements'

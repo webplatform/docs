@@ -1,5 +1,5 @@
 ---
-title: Building web games
+title: 'Building web games'
 attributions:
   - 'Facebook HTML5 Resource Center.'
 readiness: 'Ready to Use'

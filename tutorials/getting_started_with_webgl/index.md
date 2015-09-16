@@ -1,5 +1,5 @@
 ---
-title: Getting started with WebGL
+title: 'Getting started with WebGL'
 attributions:
   - 'This content was originally published on [DevOpera](http://dev.opera.com), Opera''s Developer Network. .'
 readiness: 'Ready to Use'

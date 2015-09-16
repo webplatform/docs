@@ -1,5 +1,5 @@
 ---
-title: exitFullscreen
+title: 'exitFullscreen'
 notes:
   - 'Needs more mobile compat'
 readiness: 'Almost Ready'

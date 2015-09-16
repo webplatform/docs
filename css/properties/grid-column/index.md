@@ -1,7 +1,10 @@
 ---
-title: grid-column
+title: 'grid-column'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: grid-column
+  topic: css
 notes:
   - "Add description, compatibility.\nPreviously imported as ms-grid-column."
 overview_table:
@@ -89,12 +92,12 @@ grid-column-end: 3;
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
--   `a`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)
+-   a[a](/html/elements/a)
 -   `abbr`
--   `acronym`
+-   acronym[acronym](/html/elements/acronym)
 -   `b`
 -   `bdo`
 -   `big`
@@ -130,7 +133,7 @@ grid-column-end: 3;
 -   `ol`
 -   `p`
 -   `pre`
--   `table`
+-   table[table](/html/elements/table)
 -   `ul`
 -   `dd`
 -   `dt`
@@ -147,5 +150,5 @@ grid-column-end: 3;
 -   `map`
 -   `object`
 -   `script`
--   `-ms-grid-columns`
--   `-ms-grid-row`
+-   -ms-grid-columns[-ms-grid-columns](/w/index.php?title=css/properties/ms-grid-columns&action=edit&redlink=1)
+-   -ms-grid-row[-ms-grid-row](/w/index.php?title=css/properties/ms-grid-row&action=edit&redlink=1)

@@ -1,5 +1,5 @@
 ---
-title: Location
+title: 'Location'
 attributions:
   - 'Facebook HTML5 Resource Center.'
 readiness: 'Ready to Use'

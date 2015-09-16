@@ -1,5 +1,5 @@
 ---
-title: oneTimeOnly
+title: 'oneTimeOnly'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -43,6 +43,6 @@ When an object created with [**createObjectURL**](/apis/file/URL/createObjectURL
 
 ### Related pages
 
--   `createObjectURL`
--   `revokeObjectURL`
--   `ObjectURLOptions`
+-   createObjectURL[createObjectURL](/apis/file/URL/createObjectURL)
+-   revokeObjectURL[revokeObjectURL](/apis/file/URL/revokeObjectURL)
+-   ObjectURLOptions[ObjectURLOptions](/apis/file/ObjectURLOptions)

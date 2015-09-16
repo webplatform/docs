@@ -1,9 +1,12 @@
 ---
-title: scale3d()
+title: 'scale3d()'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5305309'
+compatibility:
+  feature: scale3d()
+  topic: css
 notes:
   - 'Could benefit from demonstrative images.'
 readiness: 'Ready to Use'
@@ -88,6 +91,6 @@ div {
 ### Related pages
 
 -   `Transform Functions`
--   `Mathematical Description of Transform Functions`
+-   Mathematical Description of Transform Functions[Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246)
 -   `Direct3D: Matrices`
--   `Hands On: 3-D Transforms`
+-   Hands On: 3-D Transforms[Hands On: 3-D Transforms](http://go.microsoft.com/fwlink/?LinkId=227893)

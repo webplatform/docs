@@ -1,5 +1,5 @@
 ---
-title: HTMLの基礎
+title: 'HTMLの基礎'
 attributions:
   - 'This content was originally published on [DevOpera](http://dev.opera.com), Opera''s Developer Network. .'
 lang: ja

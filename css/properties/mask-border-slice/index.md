@@ -1,5 +1,8 @@
 ---
-title: mask-border-slice
+title: 'mask-border-slice'
+compatibility:
+  feature: mask-border-slice
+  topic: css
 notes:
   - "Add description and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
 overview_table:

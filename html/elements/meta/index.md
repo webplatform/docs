@@ -1,7 +1,10 @@
 ---
-title: meta
+title: 'meta'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: meta
+  topic: html
 notes:
   - "Format HTML attributes list\nUser agent support per property"
 overview_table:
@@ -111,6 +114,6 @@ The **META** element also embeds document information that some search engines u
 
 -   `Reference`
 -   `content`
--   `httpEquiv`
+-   httpEquiv[httpEquiv](/html/attributes/httpEquiv)
 -   `Conceptual`
 -   `Defining Document Compatibility`

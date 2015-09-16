@@ -1,5 +1,5 @@
 ---
-title: The HTML head element
+title: 'The HTML head element'
 tags:
   - Pages
   - with

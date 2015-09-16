@@ -1,5 +1,5 @@
 ---
-title: onabort
+title: 'onabort'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -64,9 +64,9 @@ The *pEvtObj* parameter is required for the following interfaces:
 
 ### Related pages
 
--   `FileReader`
--   `msStreamReader`
--   `click`
+-   FileReader[FileReader](/apis/file/FileReader)
+-   msStreamReader[msStreamReader](/apis/file/MSStreamReader)
+-   click[click](/w/index.php?title=dom/methods/click&action=edit&redlink=1)
 
 **Deletion Candidate**: MS proprietary
 

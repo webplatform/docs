@@ -1,10 +1,13 @@
 ---
-title: list-style
+title: 'list-style'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/6950114'
   - 'http://gist.github.com/5598129'
+compatibility:
+  feature: list-style
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`disc outside none`'
   'Applies to': 'elements with display: list-item'
@@ -170,10 +173,10 @@ When the `list-style-position` value is set to **outside** and the [**padding**]
 
 ### Related pages
 
--   `list-style-type`
--   `list-style-position`
--   `list-style-image`
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   **list-style-type**[**list-style-type**](/css/properties/list-style-type)
+-   **list-style-position**[**list-style-position**](/css/properties/list-style-position)
+-   **list-style-image**[**list-style-image**](/css/properties/list-style-image)
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)

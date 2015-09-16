@@ -1,5 +1,5 @@
 ---
-title: JSON.parse
+title: 'JSON.parse'
 readiness: 'Ready to Use'
 relationships:
   method_of:

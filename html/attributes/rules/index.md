@@ -1,10 +1,13 @@
 ---
-title: rules
+title: 'rules'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rules.htm'
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/table_rules_border.htm'
+compatibility:
+  feature: rules
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -109,5 +112,5 @@ The value **none** turns off only the interior borders. To turn off the table bo
 
 ### Related pages
 
--   `table`
--   `frame`
+-   table[table](/html/elements/table)
+-   frame[frame](/html/attributes/frame)

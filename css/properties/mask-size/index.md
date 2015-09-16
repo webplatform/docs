@@ -1,5 +1,8 @@
 ---
-title: mask-size
+title: 'mask-size'
+compatibility:
+  feature: mask-size
+  topic: css
 notes:
   - "Add specification and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
 overview_table:

@@ -1,5 +1,5 @@
 ---
-title: HTML text
+title: 'HTML text'
 readiness: 'Ready to Use'
 summary: 'This article talks about some of the most common elements used when marking up text content in HTML.'
 tags:

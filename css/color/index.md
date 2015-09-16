@@ -1,5 +1,5 @@
 ---
-title: color
+title: 'color'
 notes:
   - 'Merge with css/properties/color'
 readiness: 'In Progress'

@@ -1,5 +1,5 @@
 ---
-title: ruby
+title: 'ruby'
 uri: 'server-side languages/ruby'
 
 ---

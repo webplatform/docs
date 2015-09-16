@@ -1,5 +1,5 @@
 ---
-title: Attr
+title: 'Attr'
 notes:
   - 'New listing page with proper object capitalization; replaces document.'
 readiness: 'In Progress'

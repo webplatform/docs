@@ -1,5 +1,5 @@
 ---
-title: clone
+title: 'clone'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://updates.html5rocks.com/2014/05/Web-Animations---element-animate-is-now-in-Chrome-36)'
 readiness: 'Ready to Use'

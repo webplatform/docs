@@ -1,5 +1,5 @@
 ---
-title: Elevator pitch
+title: 'Elevator pitch'
 readiness: 'Not Ready'
 summary: 'A User eXperience (UX) design technique'
 tags:

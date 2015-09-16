@@ -1,5 +1,5 @@
 ---
-title: pointerType
+title: 'pointerType'
 attributions:
   - 'Microsoft Developer Network: [[pointerType Property](http://msdn.microsoft.com/en-us/library/ie/hh772359(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

@@ -1,5 +1,8 @@
 ---
-title: HTMLTrackElement
+title: 'HTMLTrackElement'
+compatibility:
+  feature: HTMLTrackElement
+  topic: dom
 notes:
   - 'Summary/overview, compatibility, possible examples'
 readiness: 'Not Ready'

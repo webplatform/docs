@@ -1,7 +1,10 @@
 ---
-title: toFixed
+title: 'toFixed'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/sstyff0z(v=vs.94).aspx)'
+compatibility:
+  feature: toFixed
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'The toFixed() method formats a number to fixed-point notation (decimal).'
 tags:

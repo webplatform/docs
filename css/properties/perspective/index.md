@@ -1,7 +1,10 @@
 ---
-title: perspective
+title: 'perspective'
 code_samples:
   - 'http://gist.github.com/7086839'
+compatibility:
+  feature: perspective
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`none`'
   'Applies to': 'Transformable elements.'

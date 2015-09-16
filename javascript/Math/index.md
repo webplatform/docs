@@ -1,7 +1,10 @@
 ---
-title: Math
+title: 'Math'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/b272f386(v=vs.94).aspx)'
+compatibility:
+  feature: Math
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'An intrinsic object that provides basic mathematics functionality and constants.'
 tags:

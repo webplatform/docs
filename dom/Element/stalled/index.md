@@ -1,5 +1,5 @@
 ---
-title: stalled
+title: 'stalled'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -94,11 +94,11 @@ This event occurs if three seconds have passed since the last packet was downloa
 
 ### Related pages
 
--   `audioApi`
--   `audioElement`
--   `Document`
--   `source`
--   `videoElement`
--   `videoApi`
--   `Window`
--   `waiting`
+-   audioApi[audioApi](/apis/audio-video/audio)
+-   audioElement[audioElement](/html/elements/audio)
+-   Document[Document](/dom/Document)
+-   source[source](/html/elements/source)
+-   videoElement[videoElement](/html/elements/video)
+-   videoApi[videoApi](/apis/audio-video/video)
+-   Window[Window](/dom/Window)
+-   waiting[waiting](/dom/Element/waiting)

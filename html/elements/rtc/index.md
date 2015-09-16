@@ -1,5 +1,8 @@
 ---
-title: rtc
+title: 'rtc'
+compatibility:
+  feature: rtc
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
 readiness: readiness-state

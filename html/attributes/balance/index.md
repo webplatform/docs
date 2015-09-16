@@ -1,5 +1,8 @@
 ---
-title: balance
+title: 'balance'
+compatibility:
+  feature: balance
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'

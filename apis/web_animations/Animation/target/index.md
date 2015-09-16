@@ -1,5 +1,5 @@
 ---
-title: target
+title: 'target'
 readiness: readiness-state
 relationships:
   applies_to:

@@ -1,7 +1,10 @@
 ---
-title: :optional
+title: ':optional'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: ':optional'
+  topic: css
 notes:
   - 'Needs title, summary, spec reference, standardization status, fix table coding, remove topic cluster flags'
 readiness: 'Not Ready'
@@ -219,9 +222,9 @@ optional
 
 ### Related pages
 
--   `HTML5 Forms (Internet Explorer 10 Guide for Developers)`
--   `required attribute`
+-   HTML5 Forms (Internet Explorer 10 Guide for Developers)[HTML5 Forms (Internet Explorer 10 Guide for Developers)](http://go.microsoft.com/fwlink/p/?LinkId=238198)
+-   required attribute[required attribute](http://go.microsoft.com/fwlink/p/?LinkId=233321)
 -   `Related pseudo-classes`
--   `:invalid`
--   `:required`
--   `:valid`
+-   :invalid[:invalid](/css/selectors/pseudo-classes/:invalid)
+-   :required[:required](/css/selectors/pseudo-classes/:required)
+-   :valid[:valid](/css/selectors/pseudo-classes/:valid)

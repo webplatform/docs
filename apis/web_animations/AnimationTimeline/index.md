@@ -1,5 +1,5 @@
 ---
-title: AnimationTimeline
+title: 'AnimationTimeline'
 readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Representation of a timeline, including the document timeline.'

@@ -1,5 +1,5 @@
 ---
-title: fullscreenElement
+title: 'fullscreenElement'
 notes:
   - 'Needs mobile compat'
 readiness: 'Almost Ready'

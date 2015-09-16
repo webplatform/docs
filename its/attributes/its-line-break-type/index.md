@@ -1,5 +1,8 @@
 ---
-title: its-line-break-type
+title: 'its-line-break-type'
+compatibility:
+  feature: its-line-break-type
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

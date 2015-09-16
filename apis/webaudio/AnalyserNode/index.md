@@ -1,5 +1,5 @@
 ---
-title: AnalyserNode
+title: 'AnalyserNode'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'This interface represents a node which is able to provide real-time frequency and time-domain analysis information. The audio stream will be passed un-processed from input to output.'

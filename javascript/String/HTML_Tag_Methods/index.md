@@ -1,7 +1,10 @@
 ---
-title: HTML Tag Methods
+title: 'HTML Tag Methods'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff806183(v=vs.94).aspx)'
+compatibility:
+  feature: 'HTML Tag Methods'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'You can use HTML tag methods to place HTML elements around text in a String object.'
 tags:

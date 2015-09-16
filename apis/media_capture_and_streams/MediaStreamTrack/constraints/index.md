@@ -1,5 +1,5 @@
 ---
-title: constraints
+title: 'constraints'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

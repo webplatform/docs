@@ -1,5 +1,5 @@
 ---
-title: sample
+title: 'sample'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -55,4 +55,4 @@ This method does not return a value.
 
 ### Related pages
 
--   `FrameRequestCallback`
+-   FrameRequestCallback[FrameRequestCallback](/apis/timing/objects/FrameRequestCallback)

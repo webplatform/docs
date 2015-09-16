@@ -1,5 +1,5 @@
 ---
-title: HTMLAudioElement
+title: 'HTMLAudioElement'
 notes:
   - 'Needs spec reference'
 readiness: 'Almost Ready'

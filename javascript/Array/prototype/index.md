@@ -1,7 +1,10 @@
 ---
-title: prototype
+title: 'prototype'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj155285(v=vs.94).aspx)'
+compatibility:
+  feature: prototype
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns a reference to the prototype for a class of array.'
 tags:

@@ -1,5 +1,5 @@
 ---
-title: styleMedia
+title: 'styleMedia'
 attributions:
   - 'Microsoft Developer Network: [[styleMedia Method](http://msdn.microsoft.com/en-us/library/ie/gg592987(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

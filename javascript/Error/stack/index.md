@@ -1,7 +1,10 @@
 ---
-title: stack
+title: 'stack'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh699850(v=vs.94).aspx)'
+compatibility:
+  feature: stack
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets or sets the error stack as a string that contains the stack trace frames.'
 tags:

@@ -1,5 +1,5 @@
 ---
-title: selectorText
+title: 'selectorText'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -43,7 +43,7 @@ Selector text can contain either a simple selector (such as 'H1') or a contextua
 
 ### Related pages
 
--   `rule`
+-   rule[rule](/css/cssom/rule)
 -   `<b/>`
 -   `IHTMLStyleSheetRulesCollection`
--   `rules`
+-   rules[rules](/css/cssom/rules)

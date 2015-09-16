@@ -1,7 +1,10 @@
 ---
-title: toLocaleUpperCase
+title: 'toLocaleUpperCase'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/6t6xaca8(v=vs.94).aspx)'
+compatibility:
+  feature: toLocaleUpperCase
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns a string where all alphabetic characters have been converted to uppercase, taking into account the host environment''s current locale.'
 tags:

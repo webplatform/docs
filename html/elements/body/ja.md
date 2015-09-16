@@ -1,9 +1,12 @@
 ---
-title: body
+title: 'body'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://test.w3.org/html/examples/elements/body/body01.html'
+compatibility:
+  feature: ja
+  topic: html
 lang: ja
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLBodyElement](/dom/HTMLBodyElement)'

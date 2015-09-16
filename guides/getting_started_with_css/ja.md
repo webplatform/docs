@@ -1,5 +1,5 @@
 ---
-title: CSSの基礎
+title: 'CSSの基礎'
 lang: ja
 summary: 'このガイドでは，CSSの基礎（CSSの構造，セレクタ，コメント，HTMLへの適用方法を含む）をカバーしています．'
 tags:

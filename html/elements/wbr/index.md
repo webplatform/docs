@@ -1,8 +1,11 @@
 ---
-title: wbr
+title: 'wbr'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/wbr)'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: wbr
+  topic: html
 notes:
   - "Add summary, notes, compatibility.\nAdd information about alternatives for producing word breaks, including Unicode zero-width spaces."
 overview_table:

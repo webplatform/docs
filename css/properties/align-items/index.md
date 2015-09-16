@@ -1,9 +1,12 @@
 ---
-title: align-items
+title: 'align-items'
 code_samples:
   - 'http://gist.github.com/5533982'
   - 'http://gist.github.com/4745348'
   - 'http://gist.github.com/4745341'
+compatibility:
+  feature: align-items
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`stretch`'
   'Applies to': 'flex containers'

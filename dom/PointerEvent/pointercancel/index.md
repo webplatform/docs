@@ -1,5 +1,5 @@
 ---
-title: pointercancel
+title: 'pointercancel'
 attributions:
   - 'Microsoft Developer Network: [[pointercancel Event](http://msdn.microsoft.com/en-us/library/ie/hh846776(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

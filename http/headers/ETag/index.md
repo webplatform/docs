@@ -1,5 +1,8 @@
 ---
-title: ETag
+title: 'ETag'
+compatibility:
+  feature: ETag
+  topic: http
 overview_table:
   Direction: Response
   Features: ''

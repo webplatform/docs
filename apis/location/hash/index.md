@@ -1,5 +1,5 @@
 ---
-title: window.location.hash
+title: 'window.location.hash'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

@@ -1,5 +1,5 @@
 ---
-title: response status codes
+title: 'response status codes'
 uri: 'http/response status codes'
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: CSS basics
+title: 'CSS basics'
 tags:
   - Tutorials
   - WSC

@@ -1,5 +1,5 @@
 ---
-title: type
+title: 'type'
 uri: html/elements/input/type
 
 ---

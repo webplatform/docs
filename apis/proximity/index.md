@@ -1,5 +1,5 @@
 ---
-title: Proximity API
+title: 'Proximity API'
 notes:
   - 'This is a top-level page, but it doesn''t list the rest of the API'
 readiness: 'In Progress'

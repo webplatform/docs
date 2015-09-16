@@ -1,5 +1,5 @@
 ---
-title: OAuth: an open standard for authentication
+title: 'OAuth: an open standard for authentication'
 notes:
   - 'Needs additional content; content only visible in "Edit Source" mode.'
 readiness: 'In Progress'

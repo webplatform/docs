@@ -1,7 +1,10 @@
 ---
-title: text-anchor
+title: 'text-anchor'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: text-anchor
+  topic: svg
 notes:
   - 'Needs all content'
 readiness: 'Not Ready'

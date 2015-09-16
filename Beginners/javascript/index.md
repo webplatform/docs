@@ -1,5 +1,5 @@
 ---
-title: Part 7: Applying some whoosh with JavaScript
+title: 'Part 7: Applying some whoosh with JavaScript'
 notes:
   - "* What kinds of things can we do with JavaScript?\n Creating a dynamic image gallery where you can click on a thumbnail and have the larger image appear\n Loading in different recipe details as new images are clicked on, from a JSON file"
 readiness: 'Not Ready'

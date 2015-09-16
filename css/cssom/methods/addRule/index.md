@@ -1,5 +1,5 @@
 ---
-title: addRule
+title: 'addRule'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -88,8 +88,8 @@ You can add up to 4095 style rules with the **addRule** method. After that, the 
 ### Related pages
 
 -   `IHTMLStyleSheet`
--   `styleSheet`
+-   styleSheet[styleSheet](/css/cssom/styleSheet)
 -   `Reference`
--   `removeRule`
--   `rules`
--   `styleSheets`
+-   removeRule[removeRule](/css/cssom/methods/removeRule)
+-   rules[rules](/css/cssom/rules)
+-   styleSheets[styleSheets](/css/cssom/styleSheets)

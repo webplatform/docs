@@ -1,5 +1,5 @@
 ---
-title: descender
+title: 'descender'
 notes:
   - 'Glossary term; needs to be moved'
 readiness: 'Not Ready'

@@ -1,5 +1,5 @@
 ---
-title: ownerNode
+title: 'ownerNode'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -198,4 +198,4 @@ For HTML, the node returned is the corresponding **link** or **style** element. 
 
 ### Related pages
 
--   `styleSheet`
+-   styleSheet[styleSheet](/css/cssom/styleSheet)

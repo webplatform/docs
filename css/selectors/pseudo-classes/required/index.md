@@ -1,7 +1,10 @@
 ---
-title: :required
+title: ':required'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: ':required'
+  topic: css
 notes:
   - 'Needs title, summary, spec reference, standardization status, remove topic cluster flags'
 readiness: 'Not Ready'
@@ -210,9 +213,9 @@ required
 
 ### Related pages
 
--   `HTML5 Forms (Internet Explorer 10 Guide for Developers)`
--   `required attribute`
+-   HTML5 Forms (Internet Explorer 10 Guide for Developers)[HTML5 Forms (Internet Explorer 10 Guide for Developers)](http://go.microsoft.com/fwlink/p/?LinkId=238198)
+-   required attribute[required attribute](http://go.microsoft.com/fwlink/p/?LinkId=233321)
 -   `Related pseudo-classes`
--   `:invalid`
--   `:optional`
--   `:valid`
+-   :invalid[:invalid](/css/selectors/pseudo-classes/:invalid)
+-   :optional[:optional](/css/selectors/pseudo-classes/:optional)
+-   :valid[:valid](/css/selectors/pseudo-classes/:valid)

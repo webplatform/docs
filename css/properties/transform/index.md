@@ -1,5 +1,5 @@
 ---
-title: transform
+title: 'transform'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [transform Article](https://developer.mozilla.org/en-US/docs/CSS/transform)'
 code_samples:
@@ -7,6 +7,9 @@ code_samples:
   - 'http://gist.github.com/6982633'
   - 'http://gist.github.com/6982663'
   - 'http://gist.github.com/6982706'
+compatibility:
+  feature: transform
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`none`'
   'Applies to': 'Transformable elements.'

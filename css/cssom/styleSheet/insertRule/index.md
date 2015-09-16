@@ -1,5 +1,5 @@
 ---
-title: insertRule
+title: 'insertRule'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -73,7 +73,7 @@ After the new rule has been inserted, it becomes part of the cascade.
 
 ### Related pages
 
--   `styleSheet`
+-   styleSheet[styleSheet](/css/cssom/styleSheet)
 -   `Reference`
--   `cssRules`
--   `deleteRule`
+-   cssRules[cssRules](/css/cssom/styleSheet/cssRules)
+-   deleteRule[deleteRule](/css/cssom/styleSheet/deleteRule)

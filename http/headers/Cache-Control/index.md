@@ -1,5 +1,8 @@
 ---
-title: Cache-Control
+title: 'Cache-Control'
+compatibility:
+  feature: Cache-Control
+  topic: http
 overview_table:
   Direction: 'Request and Response'
   Features: ''

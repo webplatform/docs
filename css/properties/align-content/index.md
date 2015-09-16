@@ -1,7 +1,10 @@
 ---
-title: align-content
+title: 'align-content'
 code_samples:
   - 'http://gist.github.com/5536244'
+compatibility:
+  feature: align-content
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`stretch`'
   'Applies to': 'multi-line flex containers'

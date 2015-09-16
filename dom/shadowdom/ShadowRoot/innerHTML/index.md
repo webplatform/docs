@@ -1,5 +1,5 @@
 ---
-title: innerHTML
+title: 'innerHTML'
 notes:
   - 'Needs spec reference, usage, example'
 readiness: 'In Progress'

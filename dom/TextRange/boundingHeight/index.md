@@ -1,5 +1,5 @@
 ---
-title: boundingHeight
+title: 'boundingHeight'
 attributions:
   - 'Microsoft Developer Network: [[boundingHeight Property](http://msdn.microsoft.com/en-us/library/ie/ms533538(v=vs.85).aspx) Article]'
 code_samples:

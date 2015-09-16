@@ -1,7 +1,10 @@
 ---
-title: :indeterminate
+title: ':indeterminate'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: ':indeterminate'
+  topic: css
 notes:
   - 'Needs title, summary, example, spec reference, standardization status, remove topic cluster flags'
 readiness: 'Not Ready'
@@ -188,6 +191,6 @@ indeterminate
 ### Related pages
 
 -   `Reference`
--   `:enabled`
--   `:disabled`
+-   :enabled[:enabled](/css/selectors/pseudo-classes/:enabled)
+-   :disabled[:disabled](/css/selectors/pseudo-classes/:disabled)
 -   `:indeterminate`

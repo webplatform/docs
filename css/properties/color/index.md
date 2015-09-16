@@ -1,7 +1,10 @@
 ---
-title: color
+title: 'color'
 code_samples:
   - 'http://gist.github.com/5502992'
+compatibility:
+  feature: color
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`black, except in a few cases (see notes)`'
   'Applies to': 'All elements'

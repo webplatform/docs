@@ -1,5 +1,5 @@
 ---
-title: manipulating css with javascript
+title: 'manipulating css with javascript'
 notes:
   - 'Needs to be moved to tutorials section'
 readiness: 'Almost Ready'

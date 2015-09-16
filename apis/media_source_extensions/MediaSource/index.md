@@ -1,5 +1,5 @@
 ---
-title: MediaSource
+title: 'MediaSource'
 attributions:
   - 'Microsoft Developer Network.'
 code_samples:

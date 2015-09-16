@@ -1,5 +1,8 @@
 ---
-title: blink
+title: 'blink'
+compatibility:
+  feature: blink
+  topic: html
 notes:
   - 'Deletion Candidate: It''s deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features'
 overview_table:

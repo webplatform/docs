@@ -1,9 +1,12 @@
 ---
-title: allowTransparency
+title: 'allowTransparency'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/allowTransparency.htm'
+compatibility:
+  feature: allowTransparency
+  topic: html
 notes:
   - 'Review import; update/improve example; update descriptions'
 readiness: 'Not Ready'

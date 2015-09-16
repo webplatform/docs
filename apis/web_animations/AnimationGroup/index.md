@@ -1,5 +1,5 @@
 ---
-title: AnimationGroup
+title: 'AnimationGroup'
 readiness: 'In Progress'
 relationships:
   subclass_of:

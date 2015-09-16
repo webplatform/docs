@@ -1,7 +1,10 @@
 ---
-title: localeCompare
+title: 'localeCompare'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/62b7ahzy(v=vs.94).aspx)'
+compatibility:
+  feature: localeCompare
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Determines whether two strings are equivalent in the current locale.'
 tags:

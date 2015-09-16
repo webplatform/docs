@@ -1,5 +1,8 @@
 ---
-title: toLocaleString
+title: 'toLocaleString'
+compatibility:
+  feature: toLocaleString
+  topic: javascript
 notes:
   - 'An Internationalization/Localization center should be build to cover the basic concepts (like locale) so this stuff doesn''t have to be repeated over and over'
 readiness: 'Ready to Use'

@@ -1,5 +1,5 @@
 ---
-title: Finding Your WAI
+title: 'Finding Your WAI'
 readiness: 'Ready to Use'
 summary: "Web Accessibility Initiative (WAI) is an initiative that provides international guidelines for Web accessibility. Becoming familiar with WAI guidelines and support materials can improve your implementation of web accessibility in your projects. \n"
 tags:

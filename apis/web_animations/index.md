@@ -1,5 +1,5 @@
 ---
-title: Web Animations API
+title: 'Web Animations API'
 notes:
   - 'API documentation needs to be competed.'
 readiness: 'In Progress'

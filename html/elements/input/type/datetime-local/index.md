@@ -1,5 +1,8 @@
 ---
-title: datetime-local
+title: 'datetime-local'
+compatibility:
+  feature: datetime-local
+  topic: html
 notes:
   - 'Merge Candidate: html/attributes/type'
 overview_table:

@@ -1,5 +1,5 @@
 ---
-title: Text values in CSS properties
+title: 'Text values in CSS properties'
 readiness: 'Ready to Use'
 summary: 'Various CSS data types are expressed using character text, however the meaning and syntax of each type differs.'
 tags:

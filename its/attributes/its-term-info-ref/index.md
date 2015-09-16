@@ -1,5 +1,8 @@
 ---
-title: its-term-info-ref
+title: 'its-term-info-ref'
+compatibility:
+  feature: its-term-info-ref
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

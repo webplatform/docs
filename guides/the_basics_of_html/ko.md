@@ -1,5 +1,5 @@
 ---
-title: HTML의 기초
+title: 'HTML의 기초'
 lang: ko
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

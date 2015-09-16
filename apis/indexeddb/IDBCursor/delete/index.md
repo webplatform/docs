@@ -1,5 +1,5 @@
 ---
-title: delete
+title: 'delete'
 notes:
   - 'Needs example, spec reference, standardization status'
 readiness: 'In Progress'

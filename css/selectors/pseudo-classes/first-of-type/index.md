@@ -1,7 +1,10 @@
 ---
-title: :first-of-type
+title: ':first-of-type'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: ':first-of-type'
+  topic: css
 notes:
   - 'Needs title, summary, example, spec reference, standardization status, remove topic cluster flags'
 readiness: 'Not Ready'
@@ -188,13 +191,13 @@ first-of-type
 ### Related pages
 
 -   `Reference`
--   `:root`
--   `:nth-child`
--   `:nth-last-child`
--   `:nth-of-type`
--   `:nth-last-of-type`
--   `:last-child`
--   `:last-of-type`
--   `:only-child`
--   `:only-of-type`
--   `:empty`
+-   :root[:root](/css/selectors/pseudo-classes/:root)
+-   :nth-child[:nth-child](/css/selectors/pseudo-classes/:nth-child(n))
+-   :nth-last-child[:nth-last-child](/css/selectors/pseudo-classes/:nth-last-child(n))
+-   :nth-of-type[:nth-of-type](/css/selectors/pseudo-classes/:nth-of-type(n))
+-   :nth-last-of-type[:nth-last-of-type](/css/selectors/pseudo-classes/:nth-last-of-type(n))
+-   :last-child[:last-child](/css/selectors/pseudo-classes/:last-child)
+-   :last-of-type[:last-of-type](/css/selectors/pseudo-classes/:last-of-type)
+-   :only-child[:only-child](/css/selectors/pseudo-classes/:only-child)
+-   :only-of-type[:only-of-type](/css/selectors/pseudo-classes/:only-of-type)
+-   :empty[:empty](/css/selectors/pseudo-classes/:empty)

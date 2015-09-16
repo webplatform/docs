@@ -1,5 +1,5 @@
 ---
-title: Bringing Accessibility Into Your Organization
+title: 'Bringing Accessibility Into Your Organization'
 notes:
   - Stub/outline
 readiness: 'Not Ready'

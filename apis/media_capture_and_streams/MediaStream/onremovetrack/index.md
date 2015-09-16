@@ -1,5 +1,5 @@
 ---
-title: onremovetrack
+title: 'onremovetrack'
 notes:
   - 'Needs example, usage, spec reference'
 readiness: 'In Progress'

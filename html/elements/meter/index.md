@@ -1,11 +1,14 @@
 ---
-title: meter
+title: 'meter'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/meter)'
 code_samples:
   - 'http://gist.github.com/5281236'
   - 'http://gist.github.com/5281393'
   - 'http://jsbin.com/ometoTE/4/edit'
+compatibility:
+  feature: meter
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLMeterElement](/w/index.php?title=dom/HTMLMeterElement&action=edit&redlink=1)'
 readiness: 'Ready to Use'

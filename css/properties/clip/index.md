@@ -1,9 +1,12 @@
 ---
-title: clip
+title: 'clip'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/6338197'
+compatibility:
+  feature: clip
+  topic: css
 notes:
   - "Add specifications, compatibility.\nDeprecated; replaced by clip-path."
 overview_table:
@@ -168,13 +171,13 @@ As of Windows Internet Explorer 8, the required syntax of the **clip** attribut
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaults`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `Reference`
--   `clipBottom`
--   `clipLeft`
--   `clipRight`
--   `clipTop`
+-   clipBottom[clipBottom](/css/cssom/properties/clipBottom)
+-   clipLeft[clipLeft](/css/cssom/properties/clipLeft)
+-   clipRight[clipRight](/css/cssom/properties/clipRight)
+-   clipTop[clipTop](/css/cssom/properties/clipTop)

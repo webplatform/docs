@@ -1,5 +1,5 @@
 ---
-title: High DPI Images for Variable Pixel Densities
+title: 'High DPI Images for Variable Pixel Densities'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/mobile/high-dpi/)'
 readiness: 'Ready to Use'

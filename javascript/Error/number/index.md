@@ -1,7 +1,10 @@
 ---
-title: number
+title: 'number'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hc53e755(v=vs.94).aspx)'
+compatibility:
+  feature: number
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns or sets the numeric value associated with a specific error. The Error object''s default property is number.'
 tags:

@@ -1,5 +1,5 @@
 ---
-title: refDistance
+title: 'refDistance'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

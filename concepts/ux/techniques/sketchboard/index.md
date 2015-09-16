@@ -1,5 +1,5 @@
 ---
-title: Sketchboard
+title: 'Sketchboard'
 readiness: 'Not Ready'
 summary: 'A User eXperience (UX) design technique'
 tags:

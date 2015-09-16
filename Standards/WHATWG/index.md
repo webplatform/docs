@@ -1,5 +1,5 @@
 ---
-title: WHATWG
+title: 'WHATWG'
 uri: Standards/WHATWG
 
 ---

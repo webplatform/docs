@@ -1,5 +1,5 @@
 ---
-title: offsetX
+title: 'offsetX'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 readiness: 'Ready to Use'
@@ -260,11 +260,11 @@ The coordinates match the [**offsetLeft**](/w/index.php?title=dom/properties/off
 
 ### Related pages
 
--   `DragEvent`
--   `MouseWheelEvent`
--   `WheelEvent`
+-   DragEvent[DragEvent](/w/index.php?title=dom/objects/DragEvent&action=edit&redlink=1)
+-   MouseWheelEvent[MouseWheelEvent](/w/index.php?title=dom/objects/MouseWheelEvent&action=edit&redlink=1)
+-   WheelEvent[WheelEvent](/w/index.php?title=dom/objects/WheelEvent&action=edit&redlink=1)
 -   `Reference`
--   `clientX`
--   `pageX`
--   `screenX`
+-   clientX[clientX](/w/index.php?title=dom/properties/clientX&action=edit&redlink=1)
+-   pageX[pageX](/css/cssom/properties/pageX)
+-   screenX[screenX](/w/index.php?title=dom/properties/screenX&action=edit&redlink=1)
 -   `x`

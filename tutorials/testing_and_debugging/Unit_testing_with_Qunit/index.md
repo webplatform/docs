@@ -1,5 +1,5 @@
 ---
-title: Unit testing with Qunit
+title: 'Unit testing with Qunit'
 notes:
   - 'Needs all content'
 readiness: 'Not Ready'

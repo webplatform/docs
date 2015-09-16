@@ -1,5 +1,5 @@
 ---
-title: class selector
+title: 'class selector'
 tags:
   - CSS
 uri: 'css/selectors/class selector'

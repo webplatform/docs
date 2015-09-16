@@ -1,5 +1,8 @@
 ---
-title: its-ta-ident
+title: 'its-ta-ident'
+compatibility:
+  feature: its-ta-ident
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

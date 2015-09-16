@@ -1,5 +1,5 @@
 ---
-title: JavaScript features tutorials
+title: 'JavaScript features tutorials'
 readiness: 'Ready to Use'
 summary: 'This page contains links to JavaScript features tutorials.'
 tags:

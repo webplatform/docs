@@ -1,5 +1,5 @@
 ---
-title: The market for web accessibility
+title: 'The market for web accessibility'
 notes:
   - Stub
 readiness: 'Not Ready'

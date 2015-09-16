@@ -1,5 +1,8 @@
 ---
-title: download
+title: 'download'
+compatibility:
+  feature: download
+  topic: html
 notes:
   - 'Compatibility table; link examples to our code.webplatform.org playground; fix see also;'
 readiness: 'Not Ready'

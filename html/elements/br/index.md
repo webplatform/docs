@@ -1,7 +1,10 @@
 ---
-title: br
+title: 'br'
 code_samples:
   - 'http://gist.github.com/7282007'
+compatibility:
+  feature: br
+  topic: html
 notes:
   - 'Add Category, Parent, Children and Compatibility information. Modify DOM Interface information.'
 overview_table:

@@ -1,5 +1,5 @@
 ---
-title: sampleRate
+title: 'sampleRate'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

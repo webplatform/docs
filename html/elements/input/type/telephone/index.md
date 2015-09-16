@@ -1,5 +1,8 @@
 ---
-title: telephone
+title: 'telephone'
+compatibility:
+  feature: telephone
+  topic: html
 notes:
   - 'Delation Candidate'
 readiness: 'Not Ready'

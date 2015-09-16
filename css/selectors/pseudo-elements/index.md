@@ -1,5 +1,5 @@
 ---
-title: pseudo-elements
+title: 'pseudo-elements'
 tags:
   - CSS
 uri: css/selectors/pseudo-elements

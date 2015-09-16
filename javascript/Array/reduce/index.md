@@ -1,7 +1,10 @@
 ---
-title: reduce
+title: 'reduce'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679975(v=vs.94).aspx)'
+compatibility:
+  feature: reduce
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.'
 tags:

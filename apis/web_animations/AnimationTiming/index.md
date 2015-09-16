@@ -1,5 +1,5 @@
 ---
-title: AnimationTiming
+title: 'AnimationTiming'
 readiness: 'Almost Ready'
 relationships:
   subclass_of:

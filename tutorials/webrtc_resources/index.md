@@ -1,5 +1,5 @@
 ---
-title: WebRTC Resources
+title: 'WebRTC Resources'
 notes:
   - 'No editing form'
 readiness: 'Not Ready'

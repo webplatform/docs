@@ -1,7 +1,10 @@
 ---
-title: Labeled
+title: 'Labeled'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/d3666y5k(v=vs.94).aspx)'
+compatibility:
+  feature: Labeled
+  topic: javascript
 notes:
   - 'Todo: Probably should be renamed to label.'
 readiness: 'Ready to Use'

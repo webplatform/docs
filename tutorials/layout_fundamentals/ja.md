@@ -1,5 +1,5 @@
 ---
-title: CSSのレイアウトモデル
+title: 'CSSのレイアウトモデル'
 lang: ja
 notes:
   - 'No content; deletion candidate'

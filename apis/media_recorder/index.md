@@ -1,5 +1,5 @@
 ---
-title: MediaStream Recording
+title: 'MediaStream Recording'
 notes:
   - 'This article is currently being worked on. (Author? Date?)'
 readiness: 'In Progress'

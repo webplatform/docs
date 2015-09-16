@@ -1,7 +1,10 @@
 ---
-title: Uint8Array
+title: 'Uint8Array'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212477(v=vs.94).aspx)'
+compatibility:
+  feature: Uint8Array
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'A typed array of 8-bit unsigned integer values. The contents are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.'
 tags:

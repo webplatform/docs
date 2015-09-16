@@ -1,5 +1,5 @@
 ---
-title: CSS concepts
+title: 'CSS concepts'
 notes:
   - "\nTODO: Need to allow authors to link to existing CSS concepts\n\n"
 summary: 'List of all articles within the CSS concepts topic.'

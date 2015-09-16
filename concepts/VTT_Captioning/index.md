@@ -1,5 +1,5 @@
 ---
-title: Introducing VTT
+title: 'Introducing VTT'
 uri: 'concepts/VTT Captioning'
 
 ---

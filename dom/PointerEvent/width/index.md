@@ -1,5 +1,5 @@
 ---
-title: width
+title: 'width'
 attributions:
   - 'Microsoft Developer Network: [[width Property PointerEvent](http://msdn.microsoft.com/en-us/library/ie/dn255065(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

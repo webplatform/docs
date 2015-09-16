@@ -1,7 +1,10 @@
 ---
-title: charCodeAt
+title: 'charCodeAt'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hza4d04f(v=vs.94).aspx)'
+compatibility:
+  feature: charCodeAt
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the Unicode value of the character at the specified location.'
 tags:

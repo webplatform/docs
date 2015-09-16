@@ -1,7 +1,10 @@
 ---
-title: ::after
+title: '::after'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: '::after'
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Inserts content after the selected element(s).'
@@ -50,4 +53,4 @@ Web authors are encouraged to use the two-colon form of the **::after** pseudo-e
 
 ### Related pages
 
--   `content`
+-   content[content](/css/properties/content)

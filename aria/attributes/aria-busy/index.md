@@ -1,7 +1,10 @@
 ---
-title: aria-busy
+title: 'aria-busy'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: aria-busy
+  topic: aria
 notes:
   - 'Needs summary, example, spec reference, standardization status'
 readiness: 'Not Ready'
@@ -59,5 +62,5 @@ No role required.
 
 ### Related pages
 
--   `Accessible Rich Internet Applications (ARIA)`
--   `W3C ARIA-Busy`
+-   Accessible Rich Internet Applications (ARIA)[Accessible Rich Internet Applications (ARIA)](/aria)
+-   W3C ARIA-Busy[W3C ARIA-Busy](http://go.microsoft.com/fwlink/p/?linkid=203793)

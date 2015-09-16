@@ -1,5 +1,8 @@
 ---
-title: text-script
+title: 'text-script'
+compatibility:
+  feature: text-script
+  topic: css
 notes:
   - 'Obsolete; deletion candidate'
 overview_table:

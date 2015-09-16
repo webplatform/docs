@@ -1,5 +1,5 @@
 ---
-title: styleSheets
+title: 'styleSheets'
 notes:
   - 'Cannot finish, Spec is still at Draft level anyway.'
 readiness: 'Not Ready'
@@ -58,6 +58,6 @@ Style sheets that are imported using the [**@import**](/css/atrules/@import) rul
 
 ### Related pages
 
--   `link`
--   `style`
--   `CSSImportRule`
+-   link[link](/html/elements/link)
+-   style[style](/css/cssom/style)
+-   CSSImportRule[CSSImportRule](/css/cssom/CSSImportRule)

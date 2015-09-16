@@ -1,7 +1,10 @@
 ---
-title: cos
+title: 'cos'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/d1b6ys0y(v=vs.94).aspx)'
+compatibility:
+  feature: cos
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the cosine of a number.'
 tags:

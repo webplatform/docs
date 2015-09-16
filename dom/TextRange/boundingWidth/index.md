@@ -1,5 +1,5 @@
 ---
-title: boundingWidth
+title: 'boundingWidth'
 attributions:
   - 'Microsoft Developer Network: [[boundingWidth Property](http://msdn.microsoft.com/en-us/library/ie/ms533541(v=vs.85).aspx) Article]'
 code_samples:

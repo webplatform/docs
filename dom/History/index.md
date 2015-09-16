@@ -1,5 +1,5 @@
 ---
-title: History
+title: 'History'
 notes:
   - 'Summary/overview, compatibility, possible examples'
 readiness: 'In Progress'

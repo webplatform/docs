@@ -1,5 +1,8 @@
 ---
-title: CSS cross-fade() function
+title: 'CSS cross-fade() function'
+compatibility:
+  feature: cross-fade
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The CSS cross-fade() function can be used to blend two images at a defined transparency.'

@@ -1,5 +1,5 @@
 ---
-title: matchMedium
+title: 'matchMedium'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -250,9 +250,9 @@ The *mediaQuery* parameter can contain a string that specifies a media type, an 
 
 ### Related pages
 
--   `StyleMedia`
+-   StyleMedia[StyleMedia](/css/media_queries/apis/StyleMedia)
 -   `<b/>`
--   `CSS3 Media Queries Module`
--   `Internet Explorer Test Drive: CSS3 Media Queries`
--   `CSS3 Media Queries (IE Team Blog post)`
--   `Respond to Different Devices With CSS3 Media Queries (Script Junkie)`
+-   CSS3 Media Queries Module[CSS3 Media Queries Module](http://go.microsoft.com/fwlink/p/?LinkID=197162)
+-   Internet Explorer Test Drive: CSS3 Media Queries[Internet Explorer Test Drive: CSS3 Media Queries](http://go.microsoft.com/fwlink/p/?LinkID=196984)
+-   CSS3 Media Queries (IE Team Blog post)[CSS3 Media Queries (IE Team Blog post)](http://go.microsoft.com/fwlink/p/?LinkId=214069)
+-   Respond to Different Devices With CSS3 Media Queries (Script Junkie)[Respond to Different Devices With CSS3 Media Queries (Script Junkie)](http://go.microsoft.com/fwlink/p/?LinkId=214068)

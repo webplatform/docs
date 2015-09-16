@@ -1,5 +1,5 @@
 ---
-title: The History of the Web
+title: 'The History of the Web'
 readiness: 'Ready to Use'
 summary: " \nWhere shall I begin, please your Majesty?\nBegin at the beginning, the King said gravely, and go on till you come to the end: then stop.\nAlice’s Adventures in Wonderland; Lewis Caroll\n\n  \nEverything has to begin somewhere, so let us start with a focused history lesson. Below we will give you a brief overview of the creation of the Internet, the World Wide Web, and the web standards that this entire series focuses upon.\nIf any terms are unfamiliar to you, do not worry: if they are important for learning web development they will be defined in the later articles that go into more depth on each subject, and you can always search them out using your search engine of choice! If you are already familiar with the history of the Internet or the World Wide Web, feel free to skip to the section on [web standards].\n"
 tags:

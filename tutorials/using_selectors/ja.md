@@ -1,5 +1,5 @@
 ---
-title: セレクターの使い方
+title: 'セレクターの使い方'
 lang: ja
 notes:
   - 'No content; deletion candidate'

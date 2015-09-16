@@ -1,5 +1,5 @@
 ---
-title: inherited
+title: 'inherited'
 uri: css/concepts/inherited
 
 ---

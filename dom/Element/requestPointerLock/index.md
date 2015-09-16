@@ -1,5 +1,5 @@
 ---
-title: requestPointerLock
+title: 'requestPointerLock'
 notes:
   - 'Needs examples and compat'
 readiness: 'In Progress'

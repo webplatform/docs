@@ -1,5 +1,5 @@
 ---
-title: selectionEnd
+title: 'selectionEnd'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -71,4 +71,4 @@ If you do not select text, **selectionEnd** returns the offset of the character 
 
 -   `input type=text`
 -   `textArea`
--   `HTMLInputElement`
+-   HTMLInputElement[HTMLInputElement](/dom/HTMLInputElement)

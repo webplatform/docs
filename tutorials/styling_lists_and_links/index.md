@@ -1,5 +1,5 @@
 ---
-title: Styling lists and links
+title: 'Styling lists and links'
 readiness: 'Ready to Use'
 summary: 'This article covers styling fundamentals for lists and links.'
 tags:

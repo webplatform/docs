@@ -1,9 +1,12 @@
 ---
-title: s – strikethrough
+title: 's – strikethrough'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/604bc1947f655fb863a1'
+compatibility:
+  feature: s
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
 readiness: 'Ready to Use'

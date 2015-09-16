@@ -1,5 +1,5 @@
 ---
-title: KeyframeEffect
+title: 'KeyframeEffect'
 readiness: 'In Progress'
 relationships:
   subclass_of:

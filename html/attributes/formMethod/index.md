@@ -1,7 +1,10 @@
 ---
-title: formMethod
+title: 'formMethod'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: formMethod
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -52,9 +55,9 @@ The formmethod attribute overrides the method attribute of the \<form\> element.
 
 ### Related pages
 
--   `HTMLInputElement`
--   `HTMLButtonElement`
+-   HTMLInputElement[HTMLInputElement](/dom/HTMLInputElement)
+-   HTMLButtonElement[HTMLButtonElement](/dom/HTMLBGSoundElement)
 -   `input type=submit`
--   `formEnctype`
--   `formAction`
--   `formNoValidate`
+-   formEnctype[formEnctype](/html/attributes/formEnctype)
+-   formAction[formAction](/html/attributes/formAction)
+-   formNoValidate[formNoValidate](/html/attributes/formNoValidate)

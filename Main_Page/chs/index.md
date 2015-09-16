@@ -1,5 +1,5 @@
 ---
-title: 欢迎进入 Web Platform 文库
+title: '欢迎进入 Web Platform 文库'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

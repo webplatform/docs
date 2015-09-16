@@ -1,7 +1,10 @@
 ---
-title: :valid
+title: ':valid'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: ':valid'
+  topic: css
 notes:
   - 'Needs title, summary, spec reference, standardization status, fix table coding, remove topic cluster flags'
 readiness: 'Not Ready'
@@ -219,10 +222,10 @@ valid
 
 ### Related pages
 
--   `HTML5 Forms (Internet Explorer 10 Guide for Developers)`
--   `validity attribute`
--   `ValidityState object`
+-   HTML5 Forms (Internet Explorer 10 Guide for Developers)[HTML5 Forms (Internet Explorer 10 Guide for Developers)](http://go.microsoft.com/fwlink/p/?LinkId=238198)
+-   validity attribute[validity attribute](http://go.microsoft.com/fwlink/p/?LinkID=233316)
+-   ValidityState object[ValidityState object](http://go.microsoft.com/fwlink/p/?LinkID=233317)
 -   `Related pseudo-classes`
--   `:invalid`
--   `:optional`
--   `:required`
+-   :invalid[:invalid](/css/selectors/pseudo-classes/:invalid)
+-   :optional[:optional](/css/selectors/pseudo-classes/:optional)
+-   :required[:required](/css/selectors/pseudo-classes/:required)

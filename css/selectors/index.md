@@ -1,5 +1,5 @@
 ---
-title: CSS Selectors
+title: 'CSS Selectors'
 readiness: 'Ready to Use'
 summary: "A Selector represents a structure. This structure can be used as a condition (e.g. in a CSS rule) that determines which elements a selector matches in the document tree, or as a flat description of the HTML or XML fragment corresponding to that structure.\n"
 tags:
@@ -31,13 +31,13 @@ Selectors may range from simple element names to rich contextual representations
 
 ### [Attribute Selector](/css/selectors/attribute_selector)
 
--   `[attributename]`
--   `[attributename="val"]`
--   `[attributename~="val"]`
--   `[attributename|="val"]`
--   `[attributename^="val"]`
--   `[attributename$="val"]`
--   `[attributename*="val"]`
+-   [attributename][[attributename]](/css/selectors/attributes/existence)
+-   [attributename="val"][[attributename="val"]](/css/selectors/attributes/equality)
+-   [attributename\~="val"][[attributename\~="val"]](/css/selectors/attributes/whitespace)
+-   [attributename|="val"][[attributename|="val"]](/css/selectors/attributes/hyphen)
+-   [attributename\^="val"][[attributename\^="val"]](/css/selectors/attributes/prefix)
+-   [attributename\$="val"][[attributename\$="val"]](/css/selectors/attributes/suffix)
+-   [attributename\*="val"][[attributename\*="val"]](/css/selectors/attributes/substring)
 
 ### Class Selector
 
@@ -51,11 +51,11 @@ Selectors may range from simple element names to rich contextual representations
 
 #### [Dynamic pseudo-classes](/css/selectors/pseudo-classes)
 
--   `:link`
--   `:visited`
--   `:hover`
--   `:active`
--   `:focus`
+-   :link[:link](/css/selectors/pseudo-classes/:link)
+-   :visited[:visited](/css/selectors/pseudo-classes/:visited)
+-   :hover[:hover](/css/selectors/pseudo-classes/:hover)
+-   :active[:active](/css/selectors/pseudo-classes/:active)
+-   :focus[:focus](/css/selectors/pseudo-classes/:focus)
 
 #### The target pseudo-class
 
@@ -67,9 +67,9 @@ Selectors may range from simple element names to rich contextual representations
 
 #### [The UI element states pseudo-classes](/css/selectors/pseudo-classes/ui_element_states_pseudo-classes)
 
--   `:enabled`
--   `:disabled`
--   `:checked`
+-   :enabled[:enabled](/css/selectors/pseudo-classes/:enabled)
+-   :disabled[:disabled](/css/selectors/pseudo-classes/:disabled)
+-   :checked[:checked](/css/selectors/pseudo-classes/:checked)
 
 #### [Structural pseudo-classes](/css/selectors/pseudo-classes/Structural_pseudo-classes)
 

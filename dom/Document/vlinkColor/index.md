@@ -1,5 +1,5 @@
 ---
-title: vlinkColor
+title: 'vlinkColor'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -43,5 +43,5 @@ Some browsers do not recognize color names, but all browsers should recognize RG
 
 ### Related pages
 
--   `alinkColor`
--   `linkColor`
+-   alinkColor[alinkColor](/html/attributes/aLink)
+-   linkColor[linkColor](/dom/Document/linkColor)

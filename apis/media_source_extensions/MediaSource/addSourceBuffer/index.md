@@ -1,5 +1,5 @@
 ---
-title: addSourceBuffer
+title: 'addSourceBuffer'
 attributions:
   - 'Microsoft Developer Network.'
 readiness: 'Ready to Use'

@@ -1,5 +1,5 @@
 ---
-title: HTMLVideoElement
+title: 'HTMLVideoElement'
 code_samples:
   - 'http://gist.github.com/7281780'
 notes:

@@ -1,5 +1,5 @@
 ---
-title: Taking your to-do list offline
+title: 'Taking your to-do list offline'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/offline/takingappoffline/)'
 notes:

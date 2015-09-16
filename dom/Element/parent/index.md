@@ -1,5 +1,5 @@
 ---
-title: parent
+title: 'parent'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -43,4 +43,4 @@ For a document, the parent is the containing window. For a window defined using 
 
 ### Related pages
 
--   `Window`
+-   Window[Window](/dom/Window)

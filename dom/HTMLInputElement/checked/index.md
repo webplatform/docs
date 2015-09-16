@@ -1,5 +1,5 @@
 ---
-title: checked
+title: 'checked'
 notes:
   - 'examples, clean-up of MSDN import'
 readiness: 'In Progress'

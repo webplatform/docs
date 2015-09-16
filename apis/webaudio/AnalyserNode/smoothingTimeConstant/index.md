@@ -1,5 +1,5 @@
 ---
-title: smoothingTimeConstant
+title: 'smoothingTimeConstant'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

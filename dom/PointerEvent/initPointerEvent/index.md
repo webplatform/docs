@@ -1,5 +1,5 @@
 ---
-title: initPointerEvent
+title: 'initPointerEvent'
 attributions:
   - 'Microsoft Developer Network: [[initPointerEvent Method](http://msdn.microsoft.com/en-us/library/ie/hh772109(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

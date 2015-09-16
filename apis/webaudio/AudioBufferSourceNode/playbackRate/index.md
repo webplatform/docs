@@ -1,5 +1,5 @@
 ---
-title: playbackRate
+title: 'playbackRate'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

@@ -1,5 +1,8 @@
 ---
-title: grid
+title: 'grid'
+compatibility:
+  feature: grid
+  topic: css
 notes:
   - 'Add summery, values, syntax, example, description, specifications, compatibility.'
 readiness: 'Not Ready'

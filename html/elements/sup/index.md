@@ -1,7 +1,10 @@
 ---
-title: sup
+title: 'sup'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: sup
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
 readiness: 'Ready to Use'

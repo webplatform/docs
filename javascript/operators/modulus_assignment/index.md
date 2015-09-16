@@ -1,7 +1,10 @@
 ---
-title: modulus assignment
+title: 'modulus assignment'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff3sz136(v=vs.94).aspx)'
+compatibility:
+  feature: 'modulus assignment'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Divides the value of a variable by the value of an expression, and assigns the remainder to the variable.'
 tags:

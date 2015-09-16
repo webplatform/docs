@@ -1,7 +1,10 @@
 ---
-title: ID
+title: 'ID'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: ID
+  topic: css
 notes:
   - "\nMerge Candidate:  This page is a candidate for merge with the following pages: css/selectors/id_selector \n\n"
 readiness: 'In Progress'

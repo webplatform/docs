@@ -1,7 +1,10 @@
 ---
-title: em
+title: 'em'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: em
+  topic: html
 notes:
   - 'Add Category, Parent, Children and Compatibility information.'
 overview_table:
@@ -294,7 +297,7 @@ If you wish to italicize the name of a creative work (e.g. a magazine, book, or 
 ### Related pages
 
 -   `Reference`
--   `acronym`
+-   acronym[acronym](/html/elements/acronym)
 -   `address`
 -   `cite`
 -   `i`

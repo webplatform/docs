@@ -1,5 +1,5 @@
 ---
-title: open
+title: 'open'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -117,7 +117,7 @@ When a function fired by an event on any object calls the **open** method, the [
 ### Related pages
 
 -   `Reference`
--   `close`
--   `open`
--   `write`
--   `writeln`
+-   close[close](/dom/Window/close)
+-   open[open](/dom/Window/open)
+-   write[write](/dom/Document/write)
+-   writeln[writeln](/dom/Document/writeln)

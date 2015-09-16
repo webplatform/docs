@@ -1,5 +1,5 @@
 ---
-title: VideoPlaybackQuality
+title: 'VideoPlaybackQuality'
 attributions:
   - 'Microsoft Developer Network.'
 readiness: 'Ready to Use'

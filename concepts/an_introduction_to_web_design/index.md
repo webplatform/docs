@@ -1,5 +1,5 @@
 ---
-title: an introduction to web design
+title: 'an introduction to web design'
 notes:
   - 'Basically a stub, needs content'
 readiness: 'Not Ready'

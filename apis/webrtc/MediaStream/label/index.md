@@ -1,5 +1,5 @@
 ---
-title: label
+title: 'label'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

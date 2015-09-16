@@ -1,9 +1,12 @@
 ---
-title: font-stretch
+title: 'font-stretch'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5842671'
+compatibility:
+  feature: font-stretch
+  topic: css
 notes:
   - 'Add description and compatibility.'
 overview_table:
@@ -172,11 +175,11 @@ narrower (Internet Explorer only)
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaults`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
 -   `LayoutRect`
--   `runtimeStyle`
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `style`
--   `style`
--   `font-size-adjust`
+-   font-size-adjust[font-size-adjust](/css/properties/font-size-adjust)

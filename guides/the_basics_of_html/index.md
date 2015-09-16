@@ -1,5 +1,5 @@
 ---
-title: The Basics of HTML
+title: 'The Basics of HTML'
 readiness: 'Ready to Use'
 summary: "In this article, you will learn the basics of HTML and gain some insight into the structure and content of an HTML\ndocument.\n"
 tags:

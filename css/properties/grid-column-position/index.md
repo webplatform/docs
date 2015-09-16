@@ -1,5 +1,8 @@
 ---
-title: grid-column-position
+title: 'grid-column-position'
+compatibility:
+  feature: grid-column-position
+  topic: css
 notes:
   - 'Add example, description, specifications, compatibility.'
 overview_table:

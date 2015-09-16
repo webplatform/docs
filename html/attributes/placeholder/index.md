@@ -1,7 +1,10 @@
 ---
-title: placeholder
+title: 'placeholder'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: placeholder
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -57,5 +60,5 @@ The **placeholder** attribute can be used on text or text area input controls, o
 
 ### Related pages
 
--   `HTMLInputElement`
--   `HTMLTextAreaElement`
+-   HTMLInputElement[HTMLInputElement](/dom/HTMLInputElement)
+-   HTMLTextAreaElement[HTMLTextAreaElement](/dom/HTMLTextAreaElement)

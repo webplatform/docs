@@ -1,5 +1,5 @@
 ---
-title: DOMParser
+title: 'DOMParser'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -53,4 +53,4 @@ The **DOMParser** object has these methods. {
 
 ### Related pages
 
--   `parseFromString`
+-   parseFromString[parseFromString](/apis/xhr/methods/parseFromString)

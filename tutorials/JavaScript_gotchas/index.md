@@ -1,5 +1,5 @@
 ---
-title: JavaScript gotchas
+title: 'JavaScript gotchas'
 uri: 'tutorials/JavaScript gotchas'
 
 ---

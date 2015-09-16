@@ -1,7 +1,10 @@
 ---
-title: var
+title: 'var'
 code_samples:
   - 'http://gist.github.com/a41474c974dfef4ec106'
+compatibility:
+  feature: var
+  topic: css
 notes:
   - 'Add values/parameters, syntax, example, compatibility.'
 readiness: 'Not Ready'

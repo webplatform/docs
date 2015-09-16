@@ -1,7 +1,10 @@
 ---
-title: new
+title: 'new'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ec3z6dcc(v=vs.94).aspx)'
+compatibility:
+  feature: new
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Creates a new object.'
 tags:

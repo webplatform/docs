@@ -1,5 +1,5 @@
 ---
-title: HTML tables
+title: 'HTML tables'
 readiness: 'Ready to Use'
 summary: 'This article  offers an introduction to HTML tables, including basic coding techniques and CSS styling.'
 tags:

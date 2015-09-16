@@ -1,5 +1,8 @@
 ---
-title: its-provenance-records-ref
+title: 'its-provenance-records-ref'
+compatibility:
+  feature: its-provenance-records-ref
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

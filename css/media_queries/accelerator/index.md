@@ -1,5 +1,5 @@
 ---
-title: accelerator
+title: 'accelerator'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -95,9 +95,9 @@ This property is supported by Windows 2000 and later, which enables users to hi
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaultSelected`
--   `runtimeStyle`
--   `style`
--   `accessKey`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaultSelected[defaultSelected](/dom/HTMLOptionElement/defaultSelected)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   accessKey[accessKey](/html/attributes/accessKey)

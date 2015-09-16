@@ -1,5 +1,5 @@
 ---
-title: Colour theory
+title: 'Colour theory'
 notes:
   - 'Fix a couple of broken image links'
 readiness: 'Almost Ready'

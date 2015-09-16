@@ -1,5 +1,5 @@
 ---
-title: Part 3: Planning
+title: 'Part 3: Planning'
 notes:
   - "There are notes to describe what this section should cover, but no content.\nOriginal page contents were notes:\n\n First things first - what do we want the project to do, at a high level\n Project scope - What low level items does the site need?\n Information architecture - how should we group these items, and where should they go?\n Designing a look for the page structures - look at photoshopping, versus designing in the browser \n Site structure - create folders for holding CSS, JS, and images."
 readiness: 'Not Ready'

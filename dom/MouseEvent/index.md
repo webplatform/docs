@@ -1,5 +1,5 @@
 ---
-title: MouseEvent
+title: 'MouseEvent'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[mouseEvent object](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent) Article]'
   - 'Microsoft Developer Network: [[mouseEvent object](http://msdn.microsoft.com/en-us/library/ie/ff974344(v=vs.85).aspx) Article]'

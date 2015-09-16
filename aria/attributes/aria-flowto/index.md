@@ -1,7 +1,10 @@
 ---
-title: aria-flowto
+title: 'aria-flowto'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: aria-flowto
+  topic: aria
 notes:
   - 'Needs summary, example, spec reference, standardization status'
 readiness: 'Not Ready'
@@ -59,5 +62,5 @@ No role required.
 
 ### Related pages
 
--   `Accessible Rich Internet Applications (ARIA)`
--   `x-ms-aria-flowfrom`
+-   Accessible Rich Internet Applications (ARIA)[Accessible Rich Internet Applications (ARIA)](/aria)
+-   x-ms-aria-flowfrom[x-ms-aria-flowfrom](/aria/attributes/x-ms-aria-flowfrom)

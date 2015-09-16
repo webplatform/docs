@@ -1,5 +1,5 @@
 ---
-title: gotpointercapture
+title: 'gotpointercapture'
 attributions:
   - 'Microsoft Developer Network: [[gotpointercapture Event](http://msdn.microsoft.com/en-us/library/ie/hh771904(v=vs.85).aspx) Article]'
   - 'Portions of this content come from HTML5Rocks! [[Using touch and mouse](http://www.html5rocks.com/en/mobile/touchandmouse/) article]'

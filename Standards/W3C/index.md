@@ -1,5 +1,5 @@
 ---
-title: W3C
+title: 'W3C'
 standardization_status: 'W3C Editor’s Draft'
 uri: Standards/W3C
 

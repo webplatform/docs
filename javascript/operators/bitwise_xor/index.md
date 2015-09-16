@@ -1,7 +1,10 @@
 ---
-title: bitwise xor
+title: 'bitwise xor'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ece515h6(v=vs.94).aspx)'
+compatibility:
+  feature: 'bitwise xor'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Performs a bitwise exclusive OR on two expressions.'
 tags:

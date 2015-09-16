@@ -1,7 +1,10 @@
 ---
-title: Comment
+title: 'Comment'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)'
+compatibility:
+  feature: Comment
+  topic: javascript
 notes:
   - 'Todo: Probably should be renamed to ''comment'' instead of ''Comment'''
 readiness: 'Ready to Use'

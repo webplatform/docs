@@ -1,5 +1,5 @@
 ---
-title: toUpperCase
+title: 'toUpperCase'
 uri: 'concepts/programming/javascript/core objects/js/objects/String/toUpperCase'
 
 ---

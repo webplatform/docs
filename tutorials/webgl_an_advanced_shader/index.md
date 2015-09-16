@@ -1,5 +1,5 @@
 ---
-title: WebGL: an advanced shader
+title: 'WebGL: an advanced shader'
 attributions:
   - 'This content was originally published on [DevOpera](http://dev.opera.com), Opera''s Developer Network. .'
 notes:

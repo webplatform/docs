@@ -1,7 +1,10 @@
 ---
-title: method
+title: 'method'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: method
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -46,4 +49,4 @@ When the user enters information in a **form** and clicks the **submit** button,
 ### Related pages
 
 -   `form`
--   `action`
+-   action[action](/html/attributes/action)

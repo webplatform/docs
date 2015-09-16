@@ -1,5 +1,5 @@
 ---
-title: queryCommandValue
+title: 'queryCommandValue'
 attributions:
   - 'Microsoft Developer Network: [[queryCommandValue Method](http://msdn.microsoft.com/en-us/library/ie/ms536683(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

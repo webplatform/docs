@@ -1,5 +1,5 @@
 ---
-title: resetStyleInheritance
+title: 'resetStyleInheritance'
 notes:
   - 'Needs spec reference, example'
 readiness: 'In Progress'

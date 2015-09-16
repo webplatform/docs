@@ -1,5 +1,5 @@
 ---
-title: AnimationNodeList
+title: 'AnimationNodeList'
 readiness: readiness-state
 summary: 'The sole reason this interface exists is to provide a familiar experience for authors familiar with DOM interfaces where child nodes are accessed via a children member.'
 tags:

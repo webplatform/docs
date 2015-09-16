@@ -1,7 +1,10 @@
 ---
-title: String
+title: 'String'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ecczf11c(v=vs.94).aspx)'
+compatibility:
+  feature: String
+  topic: javascript
 notes:
   - 'Item for later cleanup: An automatically generated list of properties and methods (either static, instance or inherited ones) is absent.'
 readiness: 'Ready to Use'

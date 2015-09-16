@@ -1,9 +1,12 @@
 ---
-title: ruby
+title: 'ruby'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/ruby.htm'
+compatibility:
+  feature: ruby
+  topic: html
 notes:
   - 'HTML information section must be modified. Add compatibility.'
 overview_table:

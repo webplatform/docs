@@ -1,5 +1,5 @@
 ---
-title: frequencyBinCount
+title: 'frequencyBinCount'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

@@ -1,5 +1,8 @@
 ---
-title: opacity
+title: 'opacity'
+compatibility:
+  feature: opacity
+  topic: svg
 notes:
   - 'Needs parent'
 readiness: 'Almost Ready'

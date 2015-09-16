@@ -1,5 +1,5 @@
 ---
-title: getByteFrequencyData
+title: 'getByteFrequencyData'
 readiness: 'Ready to Use'
 relationships:
   method_of:

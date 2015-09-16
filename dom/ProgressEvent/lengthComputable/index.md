@@ -1,5 +1,5 @@
 ---
-title: lengthComputable
+title: 'lengthComputable'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[ProgressEvent.lengthComputable](https://developer.mozilla.org/en-US/docs/Web/API/ProgressEvent.lengthComputable) Article]'
   - 'Microsoft Developer Network: [[lengthComputable Property](http://msdn.microsoft.com/en-us/library/ie/hh772354(v=vs.85).aspx) Article]'

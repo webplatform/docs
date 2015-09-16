@@ -1,5 +1,5 @@
 ---
-title: Animations in SVG
+title: 'Animations in SVG'
 notes:
   - 'Needs all content'
 readiness: 'Not Ready'

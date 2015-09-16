@@ -1,5 +1,5 @@
 ---
-title: endDelay
+title: 'endDelay'
 readiness: 'Almost Ready'
 relationships:
   applies_to:

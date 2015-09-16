@@ -1,5 +1,5 @@
 ---
-title: Programming basics
+title: 'Programming basics'
 attributions:
   - 'This content was originally published on [DevOpera](http://dev.opera.com), Opera''s Developer Network. .'
 readiness: 'Ready to Use'

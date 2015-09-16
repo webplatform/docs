@@ -1,9 +1,12 @@
 ---
-title: min-width
+title: 'min-width'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5842171'
+compatibility:
+  feature: min-width
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`0`'
   'Applies to': 'all elements but non-replaced inline elements, tables, inline tables, table cells, table columns, and column groups'
@@ -218,8 +221,8 @@ The **min-width**/[**max-width**](/css/properties/max-width) attributes apply to
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `Cascading Style Sheet Compatibility in Internet Explorer 7`

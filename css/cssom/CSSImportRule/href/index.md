@@ -1,5 +1,5 @@
 ---
-title: href
+title: 'href'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -193,7 +193,7 @@ element.href = value;
 
 ### Related pages
 
--   `CSSImportRule`
+-   CSSImportRule[CSSImportRule](/css/cssom/CSSImportRule)
 -   `Reference`
--   `media`
--   `styleSheets`
+-   media[media](/css/cssom/CSSImportRule/media)
+-   styleSheets[styleSheets](/css/cssom/properties/styleSheets)

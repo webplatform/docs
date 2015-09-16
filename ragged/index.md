@@ -1,5 +1,5 @@
 ---
-title: ragged
+title: 'ragged'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

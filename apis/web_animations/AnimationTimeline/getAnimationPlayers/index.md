@@ -1,5 +1,5 @@
 ---
-title: getAnimationPlayers
+title: 'getAnimationPlayers'
 readiness: 'In Progress'
 relationships:
   method_of:

@@ -1,5 +1,5 @@
 ---
-title: autobuffer
+title: 'autobuffer'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -49,11 +49,11 @@ The **autobuffer** method buffers the **audio** or **video** element to prepare 
 
 ### Related pages
 
--   `media`
+-   media[media](/html/elements/media)
 -   `audio`
 -   `audio`
 -   `video element`
 -   `video object`
 -   `Reference`
--   `autoplay`
--   `preload`
+-   autoplay[autoplay](/dom/HTMLMediaElement/autoplay)
+-   preload[preload](/dom/HTMLMediaElement/preload)

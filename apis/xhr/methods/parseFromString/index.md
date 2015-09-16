@@ -1,5 +1,5 @@
 ---
-title: parseFromString
+title: 'parseFromString'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -69,4 +69,4 @@ oDocument = oParser.parseFromString(xmlSource, mimeType);
 
 ### Related pages
 
--   `DOMParser`
+-   DOMParser[DOMParser](/apis/xhr/objects/DOMParser)

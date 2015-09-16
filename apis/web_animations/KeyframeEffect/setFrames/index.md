@@ -1,5 +1,5 @@
 ---
-title: setFrames
+title: 'setFrames'
 readiness: readiness-state
 relationships:
   method_of:

@@ -1,5 +1,5 @@
 ---
-title: rule
+title: 'rule'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

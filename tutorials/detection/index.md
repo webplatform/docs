@@ -1,5 +1,5 @@
 ---
-title: Feature, Browser, and Form Factor Detection: It's Good for the Environment
+title: 'Feature, Browser, and Form Factor Detection: It's Good for the Environment'
 readiness: 'Ready to Use'
 summary: 'This article is about tuning your app to the environment it''s running in, focusing on the specific challenge of detection. In other words, surveying the environment you''re running in.'
 tags:

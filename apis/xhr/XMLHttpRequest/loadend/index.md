@@ -1,5 +1,5 @@
 ---
-title: loadend
+title: 'loadend'
 notes:
   - 'Needs example, spec reference, standardization status'
 readiness: 'Not Ready'

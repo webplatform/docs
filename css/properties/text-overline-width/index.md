@@ -1,7 +1,10 @@
 ---
-title: text-overline-width
+title: 'text-overline-width'
 code_samples:
   - 'http://gist.github.com/7284054'
+compatibility:
+  feature: text-overline-width
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`auto`'
   'Applies to': 'all elements with and generated content with textual content'

@@ -1,5 +1,5 @@
 ---
-title: HTML5 vs. Native: the mobile app debate
+title: 'HTML5 vs. Native: the mobile app debate'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/mobile/nativedebate/)'
 readiness: 'Ready to Use'

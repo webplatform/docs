@@ -1,5 +1,5 @@
 ---
-title: getComputedRegionStyle()
+title: 'getComputedRegionStyle()'
 readiness: 'Ready to Use'
 relationships:
   method_of:

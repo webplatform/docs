@@ -1,7 +1,10 @@
 ---
-title: formEnctype
+title: 'formEnctype'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: formEnctype
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -194,9 +197,9 @@ The formenctype attribute overrides the enctype attribute of the \<form\> elemen
 
 ### Related pages
 
--   `HTMLInputElement`
--   `HTMLButtonElement`
+-   HTMLInputElement[HTMLInputElement](/dom/HTMLInputElement)
+-   HTMLButtonElement[HTMLButtonElement](/dom/HTMLBGSoundElement)
 -   `input type=submit`
--   `formMethod`
--   `formAction`
--   `formNoValidate`
+-   formMethod[formMethod](/html/attributes/formMethod)
+-   formAction[formAction](/html/attributes/formAction)
+-   formNoValidate[formNoValidate](/html/attributes/formNoValidate)

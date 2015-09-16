@@ -1,7 +1,10 @@
 ---
-title: encodeURIComponent
+title: 'encodeURIComponent'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/aeh9cef7(v=vs.94).aspx)'
+compatibility:
+  feature: encodeURIComponent
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Encodes a text string as a valid component of a Uniform Resource Identifier (URI).'
 tags:

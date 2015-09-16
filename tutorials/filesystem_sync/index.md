@@ -1,5 +1,5 @@
 ---
-title: The Synchronous FileSystem API for Workers
+title: 'The Synchronous FileSystem API for Workers'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/file/filesystem-sync/)'
 readiness: 'Ready to Use'

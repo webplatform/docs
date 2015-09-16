@@ -1,5 +1,5 @@
 ---
-title: letter spacing
+title: 'letter spacing'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

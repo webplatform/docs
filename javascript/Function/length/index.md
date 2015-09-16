@@ -1,7 +1,10 @@
 ---
-title: length
+title: 'length'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/4cz6db7d(v=vs.94).aspx)'
+compatibility:
+  feature: length
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the number of arguments defined for a function.'
 tags:

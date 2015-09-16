@@ -1,5 +1,5 @@
 ---
-title: spacing
+title: 'spacing'
 readiness: 'Almost Ready'
 relationships:
   applies_to:

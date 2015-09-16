@@ -1,9 +1,12 @@
 ---
-title: cells
+title: 'cells'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cellSpacing.htm'
+compatibility:
+  feature: cells
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -60,5 +63,5 @@ This example uses the **cellspacing** attribute and the **cellSpacing** property
 
 ### Related pages
 
--   `table`
--   `cellPadding`
+-   table[table](/html/elements/table)
+-   cellPadding[cellPadding](/html/attributes/cellPadding)

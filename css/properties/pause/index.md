@@ -1,5 +1,8 @@
 ---
-title: pause
+title: 'pause'
+compatibility:
+  feature: pause
+  topic: css
 notes:
   - 'Needs values, usage, example'
 overview_table:

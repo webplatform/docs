@@ -1,7 +1,10 @@
 ---
-title: nextID
+title: 'nextID'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: nextID
+  topic: html
 notes:
   - "Deletion Candidate: It's deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features\nMight be useful for historical reference on the subject of document metadata."
 overview_table:

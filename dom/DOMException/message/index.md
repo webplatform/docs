@@ -1,5 +1,5 @@
 ---
-title: message
+title: 'message'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 readiness: 'Ready to Use'
@@ -61,6 +61,6 @@ return exceptionMsg;
 
 ### Related pages
 
--   `RangeException`
--   `EventException`
--   `code`
+-   RangeException[RangeException](/dom/RangeException)
+-   EventException[EventException](/dom/EventException)
+-   code[code](/dom/Element/code)

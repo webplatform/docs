@@ -1,5 +1,5 @@
 ---
-title: en
+title: 'en'
 lang: en
 notes:
   - 'Glossary term; move candidate'

@@ -1,5 +1,5 @@
 ---
-title: lorem ipsum
+title: 'lorem ipsum'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

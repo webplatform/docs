@@ -1,5 +1,5 @@
 ---
-title: Using the full-screen API
+title: 'Using the full-screen API'
 readiness: 'Ready to Use'
 summary: 'An introduction to using the full-screen API.'
 tags:

@@ -1,5 +1,5 @@
 ---
-title: getChannelData
+title: 'getChannelData'
 readiness: 'Ready to Use'
 relationships:
   method_of:

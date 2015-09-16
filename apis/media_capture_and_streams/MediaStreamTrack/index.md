@@ -1,5 +1,5 @@
 ---
-title: MediaStreamTrack
+title: 'MediaStreamTrack'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Represents a media source in the user agent.'

@@ -1,7 +1,10 @@
 ---
-title: stringify
+title: 'stringify'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/cc836459(v=vs.94).aspx)'
+compatibility:
+  feature: stringify
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Converts a JavaScript value to a JavaScript Object Notation (JSON) string.'
 tags:

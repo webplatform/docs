@@ -1,7 +1,10 @@
 ---
-title: getUTCMinutes
+title: 'getUTCMinutes'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/7xt0y1cc(v=vs.94).aspx)'
+compatibility:
+  feature: getUTCMinutes
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the minutes of a Date object using Universal Coordinated Time (UTC).'
 tags:

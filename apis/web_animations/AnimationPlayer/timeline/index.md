@@ -1,5 +1,5 @@
 ---
-title: timeline
+title: 'timeline'
 readiness: readiness-state
 relationships:
   applies_to:

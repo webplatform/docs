@@ -1,7 +1,10 @@
 ---
-title: create
+title: 'create'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff925952(v=vs.94).aspx)'
+compatibility:
+  feature: create
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Creates an object that has the specified prototype, and that optionally contains specified properties.'
 tags:

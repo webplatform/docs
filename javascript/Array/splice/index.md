@@ -1,7 +1,10 @@
 ---
-title: splice
+title: 'splice'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/wctc5k7s(v=vs.94).aspx)'
+compatibility:
+  feature: splice
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.'
 tags:

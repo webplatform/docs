@@ -1,5 +1,5 @@
 ---
-title: Information architecture
+title: 'Information architecture'
 notes:
   - 'More than one default form defined; content needs to be reworked from "Edit Source"'
 readiness: 'In Progress'

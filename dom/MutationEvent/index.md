@@ -1,5 +1,5 @@
 ---
-title: MutationEvent
+title: 'MutationEvent'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[MutationEvent](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Mutation_events) Article]'
   - 'Microsoft Developer Network: [[MutationEvent](http://msdn.microsoft.com/en-us/library/ie/ff974346(v=vs.85).aspx) Article]'

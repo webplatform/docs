@@ -1,5 +1,5 @@
 ---
-title: Overview of new features in XMLHttpRequest2
+title: 'Overview of new features in XMLHttpRequest2'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/file/xhr2/)'
 readiness: 'Ready to Use'

@@ -1,5 +1,5 @@
 ---
-title: italic
+title: 'italic'
 notes:
   - 'Merge Candidate: glossary/'
 readiness: 'Not Ready'

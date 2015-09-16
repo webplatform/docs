@@ -1,5 +1,5 @@
 ---
-title: localStreams
+title: 'localStreams'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

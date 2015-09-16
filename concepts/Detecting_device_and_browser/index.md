@@ -1,5 +1,5 @@
 ---
-title: Detecting device and browser
+title: 'Detecting device and browser'
 readiness: 'Ready to Use'
 summary: 'This article explains client and server-side techniques for detecting browser capabilities.'
 tags:

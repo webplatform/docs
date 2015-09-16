@@ -1,5 +1,5 @@
 ---
-title: createGain
+title: 'createGain'
 readiness: 'Ready to Use'
 relationships:
   method_of:

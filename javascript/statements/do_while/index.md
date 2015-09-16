@@ -1,7 +1,10 @@
 ---
-title: do while
+title: 'do while'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/5c1h7h0k(v=vs.94).aspx)'
+compatibility:
+  feature: 'do while'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Executes a statement block once, and then repeats execution of the loop until a condition expression evaluates to false.'
 tags:

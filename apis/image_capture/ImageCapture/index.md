@@ -1,5 +1,5 @@
 ---
-title: ImageCapture
+title: 'ImageCapture'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Specifies the takePhoto() and getFrame() methods, and corresponding camera settings for use with MediaStreams.'

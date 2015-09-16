@@ -1,5 +1,5 @@
 ---
-title: fftSize
+title: 'fftSize'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

@@ -1,5 +1,5 @@
 ---
-title: posRight
+title: 'posRight'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -50,6 +50,6 @@ This property reflects the value of the Cascading Style Sheets (CSS) [**right**
 
 ### Related pages
 
--   `runtimeStyle`
--   `style`
--   `pixelRight`
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   pixelRight[pixelRight](/css/cssom/properties/pixelRight)

@@ -1,5 +1,8 @@
 ---
-title: grid-span
+title: 'grid-span'
+compatibility:
+  feature: grid-span
+  topic: css
 notes:
   - 'This property is no longer listed in the W3C specification.'
 overview_table:

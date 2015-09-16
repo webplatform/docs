@@ -1,5 +1,5 @@
 ---
-title: Content Research
+title: 'Content Research'
 notes:
   - 'Needs more content'
 readiness: 'In Progress'

@@ -1,5 +1,5 @@
 ---
-title: CharacterData
+title: 'CharacterData'
 readiness: 'Ready to Use'
 relationships:
   subclass_of:

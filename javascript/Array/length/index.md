@@ -1,10 +1,13 @@
 ---
-title: length
+title: 'length'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/d8ez24f2(v=vs.94).aspx)'
 code_samples:
   - 'http://gist.github.com/9086506'
   - 'http://gist.github.com/9086602'
+compatibility:
+  feature: length
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Basically specifies the number of elements (AKA length) in an Array object. This means the length property represents a number one greater than the largest index defined in an Array object.'
 tags:

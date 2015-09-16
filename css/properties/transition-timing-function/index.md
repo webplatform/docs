@@ -1,10 +1,13 @@
 ---
-title: transition-timing-function
+title: 'transition-timing-function'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://letmespellitoutforyou.com/samples/transit_delay.html'
   - 'http://letmespellitoutforyou.com/samples/transit_timing.html'
+compatibility:
+  feature: transition-timing-function
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`ease`'
   'Applies to': 'all elements'

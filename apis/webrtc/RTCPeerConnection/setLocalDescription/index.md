@@ -1,5 +1,5 @@
 ---
-title: setLocalDescription
+title: 'setLocalDescription'
 notes:
   - 'Needs example, spec reference, standardization status'
 readiness: 'In Progress'

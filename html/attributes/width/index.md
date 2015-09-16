@@ -1,10 +1,13 @@
 ---
-title: width
+title: 'width'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/7283238'
   - 'https://gist.github.com/dbe042fac0e620a8f2b4'
+compatibility:
+  feature: width
+  topic: html
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Specifies the width, in pixels, of certain content elements.'

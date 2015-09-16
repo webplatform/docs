@@ -1,7 +1,10 @@
 ---
-title: :focus
+title: ':focus'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: ':focus'
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The :focus pseudo-class applies while an element has the focus, i.e. accepts keyboard or mouse events, or other forms of input.'

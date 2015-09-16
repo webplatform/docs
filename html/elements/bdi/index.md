@@ -1,5 +1,8 @@
 ---
-title: bdi
+title: 'bdi'
+compatibility:
+  feature: bdi
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
 standardization_status: 'W3C Recommendation'

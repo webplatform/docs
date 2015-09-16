@@ -1,5 +1,5 @@
 ---
-title: properties
+title: 'properties'
 readiness: 'Not Ready'
 summary: 'CSS properties are the key to altering the styling of HTML elements in your web documents.'
 tags:

@@ -1,5 +1,8 @@
 ---
-title: Date
+title: 'Date'
+compatibility:
+  feature: Date
+  topic: http
 overview_table:
   Direction: 'Request and Response'
   Required: Responses

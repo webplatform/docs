@@ -1,5 +1,5 @@
 ---
-title: getAttribute
+title: 'getAttribute'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -105,5 +105,5 @@ The following example shows the difference between a URL attribute which is usin
 
 ### Related pages
 
--   `removeAttribute`
--   `setAttribute`
+-   removeAttribute[removeAttribute](/dom/Element/removeAttribute)
+-   setAttribute[setAttribute](/dom/Element/setAttribute)

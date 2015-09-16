@@ -1,5 +1,8 @@
 ---
-title: shape-inside
+title: 'shape-inside'
+compatibility:
+  feature: shape-inside
+  topic: css
 notes:
   - 'Obsolete; not in current W3C spec.'
 overview_table:

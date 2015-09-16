@@ -1,5 +1,5 @@
 ---
-title: empty
+title: 'empty'
 attributions:
   - 'Microsoft Developer Network: [[empty() Method](http://msdn.microsoft.com/en-us/library/ie/ms536418(v=vs.85).aspx) Article]'
 notes:
@@ -50,4 +50,4 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ### Related pages
 
--   `Selection`
+-   Selection[Selection](/dom/Selection)

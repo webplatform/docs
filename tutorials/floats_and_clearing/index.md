@@ -1,5 +1,5 @@
 ---
-title: Page layout with floats and clearing
+title: 'Page layout with floats and clearing'
 readiness: 'Ready to Use'
 summary: 'In this article you will get acquainted with floating and clearing — two must-have tools for web page layout.'
 tags:

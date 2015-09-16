@@ -1,5 +1,5 @@
 ---
-title: baseline
+title: 'baseline'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

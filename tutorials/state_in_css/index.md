@@ -1,5 +1,5 @@
 ---
-title: State in CSS
+title: 'State in CSS'
 notes:
   - Stub
 readiness: 'Not Ready'

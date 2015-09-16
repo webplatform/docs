@@ -1,5 +1,5 @@
 ---
-title: lining figures
+title: 'lining figures'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

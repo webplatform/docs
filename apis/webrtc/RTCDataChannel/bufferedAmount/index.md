@@ -1,5 +1,5 @@
 ---
-title: bufferedAmount
+title: 'bufferedAmount'
 notes:
   - 'Needs example'
 readiness: 'Almost Ready'

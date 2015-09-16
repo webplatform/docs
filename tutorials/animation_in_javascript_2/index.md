@@ -1,5 +1,5 @@
 ---
-title: JavaScript animation
+title: 'JavaScript animation'
 notes:
   - 'Merge into another page, or create a separate tutorial'
 readiness: 'Not Ready'

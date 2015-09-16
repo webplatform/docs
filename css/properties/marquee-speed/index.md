@@ -1,7 +1,10 @@
 ---
-title: marquee-speed
+title: 'marquee-speed'
 code_samples:
   - 'http://gist.github.com/6948165'
+compatibility:
+  feature: marquee-speed
+  topic: css
 notes:
   - 'This property seems to have been deprecated.'
 overview_table:

@@ -1,5 +1,8 @@
 ---
-title: its-loc-note
+title: 'its-loc-note'
+compatibility:
+  feature: its-loc-note
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

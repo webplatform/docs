@@ -1,5 +1,5 @@
 ---
-title: Introduction to Chrome developer tools, part one
+title: 'Introduction to Chrome developer tools, part one'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/developertools/part1/)'
 readiness: 'Ready to Use'

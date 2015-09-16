@@ -1,10 +1,13 @@
 ---
-title: border-radius
+title: 'border-radius'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Border-radius](https://developer.mozilla.org/en-US/docs/CSS/border-radius) Article]'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5495188'
+compatibility:
+  feature: border-radius
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`0`'
   'Applies to': 'All elements, except the table element when border-collapse is collapse'
@@ -230,13 +233,13 @@ border-radius: 40% 60%;
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
--   `defaults`
--   `runtimeStyle`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
 -   `Reference`
--   `border-top-left-radius`
--   `border-top-right-radius`
--   `border-bottom-right-radius`
--   `border-bottom-left-radius`
+-   border-top-left-radius[border-top-left-radius](/css/properties/border-top-left-radius)
+-   border-top-right-radius[border-top-right-radius](/css/properties/border-top-right-radius)
+-   border-bottom-right-radius[border-bottom-right-radius](/css/properties/border-bottom-right-radius)
+-   border-bottom-left-radius[border-bottom-left-radius](/css/properties/border-bottom-left-radius)

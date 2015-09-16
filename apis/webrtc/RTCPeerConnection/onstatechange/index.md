@@ -1,5 +1,5 @@
 ---
-title: onstatechange
+title: 'onstatechange'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

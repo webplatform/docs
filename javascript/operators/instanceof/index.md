@@ -1,7 +1,10 @@
 ---
-title: instanceof
+title: 'instanceof'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/zh0zb36z(v=vs.94).aspx)'
+compatibility:
+  feature: instanceof
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns a Boolean value that indicates whether or not an object is an instance of a particular class.'
 tags:

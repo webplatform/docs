@@ -1,5 +1,8 @@
 ---
-title: its-loc-quality-issue-enabled
+title: 'its-loc-quality-issue-enabled'
+compatibility:
+  feature: its-loc-quality-issue-enabled
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

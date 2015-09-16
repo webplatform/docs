@@ -1,7 +1,10 @@
 ---
-title: concat
+title: 'concat'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/c751eb33(v=vs.94).aspx)'
+compatibility:
+  feature: concat
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns a string that contains the concatenation of two or more strings.'
 tags:

@@ -1,5 +1,8 @@
 ---
-title: device-aspect-ratio
+title: 'device-aspect-ratio'
+compatibility:
+  feature: device-aspect-ratio
+  topic: css
 notes:
   - 'Add description, specifications, compatibility.'
 readiness: 'In Progress'

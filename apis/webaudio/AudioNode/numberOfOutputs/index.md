@@ -1,5 +1,5 @@
 ---
-title: numberOfOutputs
+title: 'numberOfOutputs'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

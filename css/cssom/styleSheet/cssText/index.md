@@ -1,5 +1,5 @@
 ---
-title: cssText
+title: 'cssText'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -216,15 +216,15 @@ This property reflects the current state of the style sheet and not its initial 
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
--   `styleSheet`
--   `CSSFontFaceRule`
--   `CSSImportRule`
--   `CSSMediaRule`
--   `CSSNamespaceRule`
--   `CSSRule`
--   `page`
--   `rule`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   styleSheet[styleSheet](/css/cssom/styleSheet)
+-   CSSFontFaceRule[CSSFontFaceRule](/dom/CSSFontFaceRule)
+-   CSSImportRule[CSSImportRule](/css/cssom/CSSImportRule)
+-   CSSMediaRule[CSSMediaRule](/css/cssom/CSSMediaRule/CSSMediaRule)
+-   CSSNamespaceRule[CSSNamespaceRule](/css/cssom/CSSNamespaceRule/CSSNamespaceRule)
+-   CSSRule[CSSRule](/css/cssom/CSSRule/CSSRule)
+-   page[page](/css/cssom/page)
+-   rule[rule](/css/cssom/rule)

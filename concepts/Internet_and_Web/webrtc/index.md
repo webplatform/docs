@@ -1,5 +1,5 @@
 ---
-title: WebRTC
+title: 'WebRTC'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/webrtc/basics/)'
 readiness: 'Ready to Use'

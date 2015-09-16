@@ -1,5 +1,5 @@
 ---
-title: setNamedItemNS
+title: 'setNamedItemNS'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[NamedNodeMap](https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap) Article]'
   - 'Microsoft Developer Network: [[setNamedItemNS Method](http://msdn.microsoft.com/en-us/library/ie/ff975204(v=vs.85).aspx) Article]'

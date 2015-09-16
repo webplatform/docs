@@ -1,8 +1,11 @@
 ---
-title: drop-shadow()
+title: 'drop-shadow()'
 code_samples:
   - 'http://codepen.io/pverbeek/pen/etIyE'
   - 'http://codepen.io/pverbeek/pen/BlFef'
+compatibility:
+  feature: drop-shadow
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: "Applies a shadow to an element's pixels, for use by\nthe filter property.  Accepts up to 3\ndistance measurements, representing x/y offset and blur\nradius, along with a color value.\n"

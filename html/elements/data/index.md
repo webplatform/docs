@@ -1,5 +1,8 @@
 ---
-title: data
+title: 'data'
+compatibility:
+  feature: data
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLDataElement](/dom/HTMLDataElement)'
 standardization_status: 'W3C Recommendation'

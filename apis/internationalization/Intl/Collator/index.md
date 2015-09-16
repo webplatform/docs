@@ -1,5 +1,5 @@
 ---
-title: Collator
+title: 'Collator'
 notes:
   - 'Needs summary, example, spec reference, standardization status'
 readiness: 'Not Ready'

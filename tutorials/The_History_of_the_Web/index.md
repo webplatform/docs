@@ -1,5 +1,5 @@
 ---
-title: The history of the Web
+title: 'The history of the Web'
 tags:
   - Tutorials
   - WSC

@@ -1,5 +1,5 @@
 ---
-title: Hello world in JavaScript
+title: 'Hello world in JavaScript'
 notes:
   - 'Needs all content'
 readiness: 'Not Ready'

@@ -1,7 +1,10 @@
 ---
-title: align-self
+title: 'align-self'
 code_samples:
   - 'http://gist.github.com/4745364'
+compatibility:
+  feature: align-self
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`auto`'
   'Applies to': 'flex items'

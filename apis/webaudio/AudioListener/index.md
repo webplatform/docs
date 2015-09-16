@@ -1,5 +1,5 @@
 ---
-title: AudioListener
+title: 'AudioListener'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'This interface represents the position and orientation of the person listening to the audio scene. All PannerNode objects spatialize in relation to the AudioContext''s listener.'

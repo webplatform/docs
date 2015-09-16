@@ -1,5 +1,5 @@
 ---
-title: CSS background images
+title: 'CSS background images'
 tags:
   - Tutorials
   - WSC

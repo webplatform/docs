@@ -1,5 +1,5 @@
 ---
-title: createOscillator
+title: 'createOscillator'
 readiness: 'Ready to Use'
 relationships:
   method_of:

@@ -1,7 +1,10 @@
 ---
-title: ceil
+title: 'ceil'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/w0w5b52h(v=vs.94).aspx)'
+compatibility:
+  feature: ceil
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the smallest integer greater than or equal to its numeric argument.'
 tags:

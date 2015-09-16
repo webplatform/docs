@@ -1,5 +1,5 @@
 ---
-title: Planning a website
+title: 'Planning a website'
 notes:
   - 'Needs more content'
 readiness: 'In Progress'

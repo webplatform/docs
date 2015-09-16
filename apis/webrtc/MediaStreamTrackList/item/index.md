@@ -1,5 +1,5 @@
 ---
-title: item
+title: 'item'
 notes:
   - 'Parent object obsolete; deletion candidate'
 readiness: 'Not Ready'

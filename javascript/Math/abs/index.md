@@ -1,7 +1,10 @@
 ---
-title: abs
+title: 'abs'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/09bx9f48(v=vs.94).aspx)'
+compatibility:
+  feature: abs
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the absolute value of a number (the value without regard to whether it is positive or negative). For example, the absolute value of -5 is the same as the absolute value of 5.'
 tags:

@@ -1,5 +1,5 @@
 ---
-title: runtimeStyle
+title: 'runtimeStyle'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -70,4 +70,4 @@ Windows Internet Explorer 8 or later. The behavior of [**setAttribute**](/dom/E
 
 ### Related pages
 
--   `currentStyle`
+-   currentStyle[currentStyle](/css/cssom/currentStyle)

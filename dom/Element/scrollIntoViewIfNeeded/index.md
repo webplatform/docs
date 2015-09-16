@@ -1,5 +1,5 @@
 ---
-title: scrollIntoViewIfNeeded
+title: 'scrollIntoViewIfNeeded'
 notes:
   - 'Needs summary, examples, notes, spec, compat'
 readiness: 'Not Ready'

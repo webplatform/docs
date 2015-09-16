@@ -1,7 +1,10 @@
 ---
-title: sizes
+title: 'sizes'
 code_samples:
   - 'http://codepen.io/justincavery/full/vjAgF/'
+compatibility:
+  feature: sizes
+  topic: html
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The sizes attribute is an extension of the image element. It provides additional image related information to the browser to help decide the most appropriate image to load based on the viewport. Most commonly used for delivering the best image for responsive images. It can only be used in conjunction with srcset'

@@ -1,5 +1,5 @@
 ---
-title: initTextEvent
+title: 'initTextEvent'
 attributions:
   - 'Microsoft Developer Network: [[initTextEvent Method](http://msdn.microsoft.com/en-us/library/ie/ff975268(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

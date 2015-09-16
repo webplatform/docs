@@ -1,5 +1,5 @@
 ---
-title: getBookmark
+title: 'getBookmark'
 attributions:
   - 'Microsoft Developer Network: [[getBookmark Method](http://msdn.microsoft.com/en-us/library/ie/ms536432(v=vs.85).aspx) Article]'
 notes:

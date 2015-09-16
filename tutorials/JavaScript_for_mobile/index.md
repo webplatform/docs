@@ -1,5 +1,5 @@
 ---
-title: JavaScript for mobile
+title: 'JavaScript for mobile'
 notes:
   - 'Needs all content'
 readiness: 'Not Ready'

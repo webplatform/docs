@@ -1,5 +1,5 @@
 ---
-title: pasteHTML
+title: 'pasteHTML'
 attributions:
   - 'Microsoft Developer Network: [[pasteHTML Method](http://msdn.microsoft.com/en-us/library/ie/ms536656(v=vs.85).aspx) Article]'
 notes:

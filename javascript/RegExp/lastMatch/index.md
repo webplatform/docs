@@ -1,7 +1,10 @@
 ---
-title: lastMatch
+title: 'lastMatch'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/3k9c4a32(v=vs.94).aspx)'
+compatibility:
+  feature: lastMatch
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the last matched characters from any regular expression search. Read-only.'
 tags:

@@ -1,7 +1,10 @@
 ---
-title: getUTCHours
+title: 'getUTCHours'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/s12ec8ba(v=vs.94).aspx)'
+compatibility:
+  feature: getUTCHours
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the hours value in a Date object using Universal Coordinated Time (UTC).'
 tags:

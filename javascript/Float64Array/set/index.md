@@ -1,7 +1,10 @@
 ---
-title: set
+title: 'set'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212927(v=vs.94).aspx)'
+compatibility:
+  feature: set
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets a value or an array of values.'
 tags:

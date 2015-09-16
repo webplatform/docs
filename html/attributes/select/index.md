@@ -1,7 +1,10 @@
 ---
-title: select
+title: 'select'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/)'
+compatibility:
+  feature: select
+  topic: html
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'One or more tokens that define the matching criteria for the distribution of child nodes of the shadow host.'

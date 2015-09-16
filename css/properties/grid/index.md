@@ -1,5 +1,8 @@
 ---
-title: grid
+title: 'grid'
+compatibility:
+  feature: grid
+  topic: css
 notes:
   - 'Add description, specifications, compatibility.'
 overview_table:

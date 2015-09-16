@@ -1,5 +1,5 @@
 ---
-title: Design tutorials
+title: 'Design tutorials'
 readiness: 'Ready to Use'
 summary: 'A small overview of different design tutorials.'
 tags:

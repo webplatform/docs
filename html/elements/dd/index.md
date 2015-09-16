@@ -1,9 +1,12 @@
 ---
-title: dd – description list data
+title: 'dd – description list data'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5821157'
+compatibility:
+  feature: dd
+  topic: html
 notes:
   - 'Add Category information. Modify/Complete Parent and Children information. Complete Compatibility information.'
 overview_table:

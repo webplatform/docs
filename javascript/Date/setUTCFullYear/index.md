@@ -1,7 +1,10 @@
 ---
-title: setUTCFullYear
+title: 'setUTCFullYear'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/c9sd3ksb(v=vs.94).aspx)'
+compatibility:
+  feature: setUTCFullYear
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets the year value in the Date object using Universal Coordinated Time (UTC).'
 tags:

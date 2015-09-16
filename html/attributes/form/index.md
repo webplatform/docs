@@ -1,5 +1,8 @@
 ---
-title: form
+title: 'form'
+compatibility:
+  feature: form
+  topic: html
 notes:
   - 'Compatibility table; link examples to our code.webplatform.org playground; fix see also; security considerations'
 readiness: 'Not Ready'

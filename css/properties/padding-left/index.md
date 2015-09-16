@@ -1,10 +1,13 @@
 ---
-title: padding-left
+title: 'padding-left'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
 code_samples:
   - 'http://gist.github.com/6948612'
   - 'http://gist.github.com/6948619'
+compatibility:
+  feature: padding-left
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`0`'
   'Applies to': 'All elements (except table-\*-group, table-row and table-column, br)'

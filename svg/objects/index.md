@@ -1,5 +1,5 @@
 ---
-title: SVG DOM objects
+title: 'SVG DOM objects'
 notes:
   - 'Add introduction to SVG DOM objects'
 readiness: 'Not Ready'

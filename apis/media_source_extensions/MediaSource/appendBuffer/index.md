@@ -1,5 +1,5 @@
 ---
-title: appendBuffer
+title: 'appendBuffer'
 attributions:
   - 'Microsoft Developer Network.'
 readiness: 'Ready to Use'

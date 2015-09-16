@@ -1,5 +1,5 @@
 ---
-title: typeface
+title: 'typeface'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

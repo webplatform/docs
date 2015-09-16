@@ -1,5 +1,5 @@
 ---
-title: Lesser known semantic elements
+title: 'Lesser known semantic elements'
 readiness: 'Ready to Use'
 summary: "This article discusses some of the lesser known and more\ninfrequently used semantic elements available in HTML.\n"
 tags:

@@ -1,7 +1,10 @@
 ---
-title: byteOffset
+title: 'byteOffset'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212912(v=vs.94).aspx)'
+compatibility:
+  feature: byteOffset
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Read-only. The offset of this view from the start of its ArrayBuffer, in bytes, as fixed at construction time.'
 tags:

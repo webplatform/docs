@@ -1,5 +1,5 @@
 ---
-title: future
+title: 'future'
 tags:
   - Concept
   - Pages

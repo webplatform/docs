@@ -1,5 +1,5 @@
 ---
-title: 読みやすいCSSの記述方法
+title: '読みやすいCSSの記述方法'
 lang: ja
 notes:
   - 'No content; deletion candidate'

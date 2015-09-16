@@ -1,5 +1,5 @@
 ---
-title: moveToElementText
+title: 'moveToElementText'
 attributions:
   - 'Microsoft Developer Network: [[moveToElementText Method](http://msdn.microsoft.com/en-us/library/ie/ms536630(v=vs.85).aspx) Article]'
 notes:

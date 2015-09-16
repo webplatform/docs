@@ -1,7 +1,10 @@
 ---
-title: text-overflow-mode
+title: 'text-overflow-mode'
 code_samples:
   - 'http://dabblet.com/gist/4744976'
+compatibility:
+  feature: text-overflow-mode
+  topic: css
 notes:
   - 'Non-standard; deletion candidate'
 overview_table:

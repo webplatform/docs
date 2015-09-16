@@ -1,5 +1,5 @@
 ---
-title: CSS tutorials
+title: 'CSS tutorials'
 readiness: 'Ready to Use'
 summary: 'Cascading Stylesheets (CSS) is a language for styling markup content (such as HTML, SVG or XML.) This page lists our CSS tutorials, perfect for anyone wishing to learn the language from scratch, or dive into learning more advanced CSS techniques.'
 tags:

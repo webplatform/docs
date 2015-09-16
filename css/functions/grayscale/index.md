@@ -1,7 +1,10 @@
 ---
-title: grayscale()
+title: 'grayscale()'
 code_samples:
   - 'http://codepen.io/pverbeek/pen/iLyCE'
+compatibility:
+  feature: grayscale
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: "Converts an element's color to a shade of gray, for\nuse by the filter property. A decimal\nvalue between 0 and 1 or percentage up to 100% controls the extent of\nthe gray effect.\n"

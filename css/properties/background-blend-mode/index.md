@@ -1,7 +1,10 @@
 ---
-title: background-blend-mode
+title: 'background-blend-mode'
 code_samples:
   - 'http://gist.github.com/10908092'
+compatibility:
+  feature: background-blend-mode
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`<normal>#`'
   'Applies to': 'All HTML and SVG elements'

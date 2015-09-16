@@ -1,7 +1,10 @@
 ---
-title: formAction
+title: 'formAction'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: formAction
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -54,9 +57,9 @@ The formaction attribute overrides the action attribute of the \<form\> element.
 
 ### Related pages
 
--   `HTMLInputElement`
--   `HTMLButtonElement`
+-   HTMLInputElement[HTMLInputElement](/dom/HTMLInputElement)
+-   HTMLButtonElement[HTMLButtonElement](/dom/HTMLBGSoundElement)
 -   `input type=image`
--   `formMethod`
--   `formEnctype`
--   `formNoValidate`
+-   formMethod[formMethod](/html/attributes/formMethod)
+-   formEnctype[formEnctype](/html/attributes/formEnctype)
+-   formNoValidate[formNoValidate](/html/attributes/formNoValidate)

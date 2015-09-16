@@ -1,7 +1,10 @@
 ---
-title: unescape
+title: 'unescape'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dz4x90hk(v=vs.94).aspx)'
+compatibility:
+  feature: unescape
+  topic: javascript
 notes:
   - 'Deletion candidate; deprecated function'
 readiness: 'Not Ready'

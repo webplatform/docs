@@ -1,7 +1,10 @@
 ---
-title: line-break
+title: 'line-break'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: line-break
+  topic: css
 notes:
   - 'Add description, specifications, compatibility.'
 overview_table:
@@ -149,8 +152,8 @@ This property is deprecated. It is replaced by the [**-ms-word-break**](/css/pro
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
--   `-ms-word-break`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   -ms-word-break[-ms-word-break](/css/properties/word-break)

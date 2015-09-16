@@ -1,7 +1,10 @@
 ---
-title: switch
+title: 'switch'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hzc6t81t(v=vs.94).aspx)'
+compatibility:
+  feature: switch
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Enables the execution of one or more statements when a specified expression''s value matches a label.'
 tags:

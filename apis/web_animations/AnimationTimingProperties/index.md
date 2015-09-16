@@ -1,5 +1,5 @@
 ---
-title: AnimationTimingProperties
+title: 'AnimationTimingProperties'
 readiness: 'Almost Ready'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The AnimationTimingProperties dictionary is encapsulates the timing properties of an AnimationNode so that they can be set in bulk (as in the constructor for Animation) or returned as a readonly snapshot (as in computedTiming).'

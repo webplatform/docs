@@ -1,5 +1,5 @@
 ---
-title: TextEvent
+title: 'TextEvent'
 attributions:
   - 'Microsoft Developer Network: [[TextEvent Object](http://msdn.microsoft.com/en-us/library/ie/ff974350(v=vs.85).aspx) Article]'
 notes:

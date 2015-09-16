@@ -1,5 +1,5 @@
 ---
-title: removeAttribute
+title: 'removeAttribute'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -73,5 +73,5 @@ No return value
 
 ### Related pages
 
--   `getAttribute`
--   `setAttribute`
+-   getAttribute[getAttribute](/dom/Element/getAttribute)
+-   setAttribute[setAttribute](/dom/Element/setAttribute)

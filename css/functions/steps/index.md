@@ -1,5 +1,8 @@
 ---
-title: steps
+title: 'steps'
+compatibility:
+  feature: steps
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'A timing function that specifies a progression of discrete intervals over the course of a transition or animation keyframe.'

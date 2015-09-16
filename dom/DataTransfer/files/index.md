@@ -1,5 +1,8 @@
 ---
-title: files
+title: 'files'
+compatibility:
+  feature: files
+  topic: dom
 readiness: 'Ready to Use'
 relationships:
   applies_to:

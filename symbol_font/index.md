@@ -1,5 +1,5 @@
 ---
-title: symbol font
+title: 'symbol font'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

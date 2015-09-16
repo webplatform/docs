@@ -1,5 +1,5 @@
 ---
-title: content fragments
+title: 'content fragments'
 notes:
   - 'Fix or remove broken link to DOM API;'
 readiness: 'Almost Ready'

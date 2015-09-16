@@ -1,5 +1,8 @@
 ---
-title: monochrome
+title: 'monochrome'
+compatibility:
+  feature: monochrome
+  topic: css
 notes:
   - 'Add summery, values, syntax, example, description, specifications, compatibility.'
 readiness: 'Not Ready'

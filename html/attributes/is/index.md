@@ -1,7 +1,10 @@
 ---
-title: is
+title: 'is'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [Custom Elements article](http://www.html5rocks.com/en/tutorials/webcomponents/customelements/)'
+compatibility:
+  feature: is
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'

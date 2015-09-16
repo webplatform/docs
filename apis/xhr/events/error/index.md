@@ -1,5 +1,5 @@
 ---
-title: error
+title: 'error'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -100,7 +100,7 @@ This method has no parameters.
 
 -   `XDomainRequest`
 -   `Reference`
--   `onload`
--   `onprogress`
+-   onload[onload](/apis/xhr/events/load)
+-   onprogress[onprogress](/apis/xhr/events/progress)
 -   `Conceptual`
 -   `XMLHttpRequest Enhancements in Internet Explorer 8`

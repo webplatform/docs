@@ -1,5 +1,5 @@
 ---
-title: close
+title: 'close'
 notes:
   - 'Needs example, spec reference, return value'
 readiness: 'In Progress'

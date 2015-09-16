@@ -1,5 +1,5 @@
 ---
-title: multiply
+title: 'multiply'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -101,4 +101,4 @@ This method can return one of these values.
 
 ### Related pages
 
--   `MSCSSMatrix`
+-   MSCSSMatrix[MSCSSMatrix](/css/transforms/MSCSSMatrix)

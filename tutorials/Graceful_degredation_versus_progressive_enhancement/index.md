@@ -1,5 +1,5 @@
 ---
-title: Graceful degredation versus progressive enhancement
+title: 'Graceful degredation versus progressive enhancement'
 tags:
   - Tutorials
   - WSC

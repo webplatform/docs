@@ -1,5 +1,5 @@
 ---
-title: name
+title: 'name'
 readiness: 'Almost Ready'
 relationships:
   applies_to:

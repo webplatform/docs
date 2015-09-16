@@ -1,5 +1,5 @@
 ---
-title: posHeight
+title: 'posHeight'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -52,6 +52,6 @@ This property reflects the value of the Cascading Style Sheets (CSS) [**height*
 
 ### Related pages
 
--   `runtimeStyle`
--   `style`
--   `pixelHeight`
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   pixelHeight[pixelHeight](/css/cssom/properties/pixelHeight)

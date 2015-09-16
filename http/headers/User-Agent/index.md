@@ -1,5 +1,8 @@
 ---
-title: User-Agent
+title: 'User-Agent'
+compatibility:
+  feature: User-Agent
+  topic: http
 overview_table:
   Direction: Request
   Features: ''

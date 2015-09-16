@@ -1,5 +1,5 @@
 ---
-title: widow
+title: 'widow'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

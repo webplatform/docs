@@ -1,5 +1,5 @@
 ---
-title: IterationCompositeOperation
+title: 'IterationCompositeOperation'
 readiness: readiness-state
 relationships:
   subclass_of:

@@ -1,5 +1,5 @@
 ---
-title: Floats and clearing
+title: 'Floats and clearing'
 notes:
   - 'Move contents in tutorials/floats_and_clearing and make one. This is a tutorial, shouldn’t stay in root of the wiki.'
 readiness: 'Not Ready'

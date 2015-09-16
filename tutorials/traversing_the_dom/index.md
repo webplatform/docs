@@ -1,5 +1,5 @@
 ---
-title: Traversing the DOM
+title: 'Traversing the DOM'
 readiness: 'Ready to Use'
 summary: 'This article covers how to select different parts of your HTML document for manipulation via JavaScript.'
 tags:

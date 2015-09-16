@@ -1,5 +1,5 @@
 ---
-title: substr
+title: 'substr'
 uri: 'concepts/programming/javascript/core objects/js/objects/String/substr'
 
 ---

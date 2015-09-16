@@ -1,5 +1,5 @@
 ---
-title: Getting entangled with HTML5 canvas
+title: 'Getting entangled with HTML5 canvas'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/casestudies/entanglement/)'
 readiness: 'Ready to Use'

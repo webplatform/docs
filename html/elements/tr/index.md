@@ -1,7 +1,10 @@
 ---
-title: tr
+title: 'tr'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: tr
+  topic: html
 notes:
   - 'Add compatibility'
 overview_table:
@@ -113,7 +116,7 @@ The **TD** and **TH** elements are valid within a row. To change the HTML in the
 ### Related pages
 
 -   `Reference`
--   `table`
--   `borderCollapse`
+-   table[table](/html/elements/table)
+-   borderCollapse[borderCollapse](/css/properties/border-collapse)
 -   `Conceptual`
 -   `Building Tables Dynamically`

@@ -1,7 +1,10 @@
 ---
-title: box-pack
+title: 'box-pack'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: box-pack
+  topic: css
 notes:
   - 'Add example, compatibility.'
 overview_table:
@@ -136,4 +139,4 @@ Be aware that these are [**writing-mode**](/css/properties/writing-mode) depende
 
 ### Related pages
 
--   `CSSStyleDeclaration`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)

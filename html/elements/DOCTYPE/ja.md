@@ -1,5 +1,8 @@
 ---
-title: !DOCTYPE
+title: '!DOCTYPE'
+compatibility:
+  feature: ja
+  topic: html
 lang: ja
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'

@@ -1,5 +1,5 @@
 ---
-title: openCursor
+title: 'openCursor'
 notes:
   - 'Needs example, spec reference, standardization status'
 readiness: 'In Progress'

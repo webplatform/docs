@@ -1,5 +1,5 @@
 ---
-title: Understanding pixels and other CSS units
+title: 'Understanding pixels and other CSS units'
 readiness: 'Ready to Use'
 summary: 'This guide looks into the relationship between CSS pixels and other units, as well as between CSS and device pixels.'
 tags:
@@ -196,8 +196,8 @@ With the advent of higher density screens, we are seeing devices with 2 device p
     }
     </style>
     <body>
-        <div class="css-box px"><span></span><span></span><span></span></div>
-        <div class="css-box in"><span></span><span></span><span></span></div>
+        <div class="css-box px"></span><span></span><span></div>
+        <div class="css-box in"></span><span></span><span></div>
     </body>
 </html>
 ```

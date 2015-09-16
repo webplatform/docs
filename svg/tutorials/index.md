@@ -1,5 +1,5 @@
 ---
-title: SVG tutorials
+title: 'SVG tutorials'
 readiness: 'Ready to Use'
 summary: 'A list of SVG tutorials.'
 tags:

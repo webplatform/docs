@@ -1,5 +1,5 @@
 ---
-title: initial value
+title: 'initial value'
 uri: 'css/concepts/initial value'
 
 ---

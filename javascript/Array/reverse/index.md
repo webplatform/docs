@@ -1,7 +1,10 @@
 ---
-title: reverse
+title: 'reverse'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/3333858x(v=vs.94).aspx)'
+compatibility:
+  feature: reverse
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Reverses the elements in an Array.'
 tags:

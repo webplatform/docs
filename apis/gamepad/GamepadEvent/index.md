@@ -1,5 +1,5 @@
 ---
-title: GamepadEvent
+title: 'GamepadEvent'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'This object provides access to event data for this gamepad.'

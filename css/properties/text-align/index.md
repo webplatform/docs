@@ -1,10 +1,13 @@
 ---
-title: text-align
+title: 'text-align'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/text-align)'
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ms531162(v=vs.85).aspx)'
 code_samples:
   - 'http://gist.github.com/5664679'
+compatibility:
+  feature: text-align
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`start, or a nameless value that acts as left if direction is ltr, right if direction is rtl, if start is not supported by the browser.`'
   'Applies to': 'block containers'
@@ -126,7 +129,7 @@ The standard-compatible way to center a block itself without centering its inlin
 
 ### Other articles
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)

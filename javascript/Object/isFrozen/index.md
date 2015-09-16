@@ -1,7 +1,10 @@
 ---
-title: isFrozen
+title: 'isFrozen'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff806185(v=vs.94).aspx)'
+compatibility:
+  feature: isFrozen
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns true if existing property attributes and values cannot be modified in an object, and new properties cannot be added to the object.'
 tags:

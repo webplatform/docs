@@ -1,10 +1,13 @@
 ---
-title: border-color
+title: 'border-color'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/border-color)'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5546053'
+compatibility:
+  feature: border-color
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`color: The value of the ''color'' property for each of the border sides border-top-color, border-right-color, border-bottom-color, and border-left-color.`'
   'Applies to': 'All elements'
@@ -208,9 +211,9 @@ The color value can also be an extended keyword, such as aliceblue or lavenderbl
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaultsSelected`
--   `runtimeStyle`
--   `style`
--   `border`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaultsSelected[defaultsSelected](/dom/HTMLOptionElement/defaultSelected)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   border[border](/css/properties/border)

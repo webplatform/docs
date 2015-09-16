@@ -1,7 +1,10 @@
 ---
-title: split
+title: 'split'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/t5az126b(v=vs.94).aspx)'
+compatibility:
+  feature: split
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Split a string into substrings using the specified separator and return the substrings as an array.'
 tags:

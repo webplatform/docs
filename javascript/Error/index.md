@@ -1,7 +1,10 @@
 ---
-title: Error
+title: 'Error'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dww52sbt(v=vs.94).aspx)'
+compatibility:
+  feature: Error
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Contains information about errors.'
 tags:

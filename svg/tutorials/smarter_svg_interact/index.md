@@ -1,5 +1,5 @@
 ---
-title: SVG interaction
+title: 'SVG interaction'
 notes:
   - 'No content; deletion candidate'
 readiness: 'Not Ready'

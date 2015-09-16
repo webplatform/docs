@@ -1,5 +1,5 @@
 ---
-title: Animation
+title: 'Animation'
 readiness: 'Ready to Use'
 relationships:
   subclass_of:

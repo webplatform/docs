@@ -1,5 +1,5 @@
 ---
-title: applyConstraints
+title: 'applyConstraints'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

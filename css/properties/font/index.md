@@ -1,8 +1,11 @@
 ---
-title: font
+title: 'font'
 code_samples:
   - 'http://gist.github.com/6947832'
   - 'http://gist.github.com/5586740'
+compatibility:
+  feature: font
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`normal for font-style, font-variant and font-weight. medium for font-size. normal for line-height. font-family initial value differs depending on the user agent.`'
   'Applies to': 'All elements'
@@ -172,8 +175,8 @@ If the string does not contain a value for a component property, that property i
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaults`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)

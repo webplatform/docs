@@ -1,5 +1,5 @@
 ---
-title: value
+title: 'value'
 notes:
   - 'Just a final review is probably needed.'
 readiness: 'Almost Ready'

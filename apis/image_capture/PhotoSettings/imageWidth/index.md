@@ -1,5 +1,5 @@
 ---
-title: imageWidth
+title: 'imageWidth'
 notes:
   - 'Needs example, usage, spec reference'
 readiness: 'In Progress'

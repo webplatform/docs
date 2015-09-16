@@ -1,9 +1,12 @@
 ---
-title: disabled
+title: 'disabled'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/7282815'
+compatibility:
+  feature: disabled
+  topic: html
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Prevents users from changing, clicking on, or submitting an element.'

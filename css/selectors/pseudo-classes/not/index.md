@@ -1,5 +1,5 @@
 ---
-title: :not
+title: ':not'
 tags:
   - CSS
 uri: 'css/selectors/pseudo-classes/:not'

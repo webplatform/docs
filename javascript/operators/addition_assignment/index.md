@@ -1,7 +1,10 @@
 ---
-title: addition assignment
+title: 'addition assignment'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/w2xk8y0c(v=vs.94).aspx)'
+compatibility:
+  feature: 'addition assignment'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Adds the value of an expression to the value of a variable and assigns the result to the variable.'
 tags:

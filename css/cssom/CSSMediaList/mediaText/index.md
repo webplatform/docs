@@ -1,5 +1,5 @@
 ---
-title: mediaText
+title: 'mediaText'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -201,9 +201,9 @@ Returns an object of type StringString
 
 ### Related pages
 
--   `CSSMediaList`
+-   CSSMediaList[CSSMediaList](/css/cssom/CSSMediaList/CSSMediaList)
 -   `Reference`
--   `appendMedium`
--   `deleteMedium`
--   `item`
--   `length`
+-   appendMedium[appendMedium](/css/cssom/CSSMediaList/appendMedium)
+-   deleteMedium[deleteMedium](/css/cssom/CSSMediaList/deleteMedium)
+-   item[item](/css/cssom/CSSMediaList/item)
+-   length[length](/css/cssom/properties/length)

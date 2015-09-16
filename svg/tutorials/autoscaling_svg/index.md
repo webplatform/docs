@@ -1,5 +1,5 @@
 ---
-title: Autoscaling SVG
+title: 'Autoscaling SVG'
 notes:
   - 'Needs all content'
 readiness: 'Not Ready'

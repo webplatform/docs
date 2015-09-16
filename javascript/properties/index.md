@@ -1,7 +1,10 @@
 ---
-title: properties
+title: 'properties'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/xyad316h(v=vs.94).aspx)'
+compatibility:
+  feature: properties
+  topic: javascript
 notes:
   - 'Future todo: Create a custom page more accurate to list the properties.'
 readiness: 'Ready to Use'

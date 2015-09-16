@@ -1,7 +1,10 @@
 ---
-title: division
+title: 'division'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/w8z179xh(v=vs.94).aspx)'
+compatibility:
+  feature: division
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Divides the values of two expressions.'
 tags:

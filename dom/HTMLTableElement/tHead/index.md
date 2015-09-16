@@ -1,5 +1,5 @@
 ---
-title: tHead
+title: 'tHead'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -52,4 +52,4 @@ If the table doesn't have a head section, the value for the property is null. If
 
 ### Related pages
 
--   `table`
+-   table[table](/html/elements/table)

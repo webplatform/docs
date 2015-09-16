@@ -1,5 +1,5 @@
 ---
-title: activate
+title: 'activate'
 attributions:
   - 'Microsoft Developer Network: [[active Event](http://msdn.microsoft.com/en-us/library/ie/ms536787(v=vs.85).aspx) Article]'
 code_samples:

@@ -1,7 +1,10 @@
 ---
-title: for in
+title: 'for in'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/55wb2d34(v=vs.94).aspx)'
+compatibility:
+  feature: 'for in'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Executes one or more statements for each property of an object, or each element of an array.'
 tags:

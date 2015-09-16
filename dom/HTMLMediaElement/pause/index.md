@@ -1,5 +1,5 @@
 ---
-title: pause
+title: 'pause'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -54,7 +54,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ### Related pages
 
--   `media`
+-   media[media](/html/elements/media)
 -   `audio`
 -   `audio`
 -   `video`

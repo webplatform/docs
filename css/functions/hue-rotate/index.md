@@ -1,7 +1,10 @@
 ---
-title: hue-rotate()
+title: 'hue-rotate()'
 code_samples:
   - 'http://codepen.io/pverbeek/pen/axEbp'
+compatibility:
+  feature: hue-rotate
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: "Shifts an element's relative hue, for use by the\nfilter property. Accepts either a\ndeg or rad angle measurement representing a wheel of hues.\n"

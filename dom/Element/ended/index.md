@@ -1,5 +1,5 @@
 ---
-title: ended
+title: 'ended'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -95,10 +95,10 @@ This is the last event raised by media playback. To invoke this event, do one of
 
 ### Related pages
 
--   `audioApi`
--   `audioElement`
--   `Document`
--   `source`
--   `videoElement`
--   `videoApi`
--   `Window`
+-   audioApi[audioApi](/apis/audio-video/audio)
+-   audioElement[audioElement](/html/elements/audio)
+-   Document[Document](/dom/Document)
+-   source[source](/html/elements/source)
+-   videoElement[videoElement](/html/elements/video)
+-   videoApi[videoApi](/apis/audio-video/video)
+-   Window[Window](/dom/Window)

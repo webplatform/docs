@@ -1,5 +1,5 @@
 ---
-title: localDescription
+title: 'localDescription'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

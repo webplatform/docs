@@ -1,5 +1,5 @@
 ---
-title: Animation in JavaScript
+title: 'Animation in JavaScript'
 notes:
   - 'Should reference requestAnimationFrame'
 readiness: 'Almost Ready'

@@ -1,7 +1,10 @@
 ---
-title: getYear
+title: 'getYear'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/x0a9sc10(v=vs.94).aspx)'
+compatibility:
+  feature: getYear
+  topic: javascript
 notes:
   - 'Obsolete; deletion candidate'
 readiness: 'Not Ready'

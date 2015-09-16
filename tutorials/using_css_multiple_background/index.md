@@ -1,5 +1,5 @@
 ---
-title: Using Multiple Backgrounds
+title: 'Using Multiple Backgrounds'
 readiness: 'Ready to Use'
 summary: 'This article focuses on an interesting CSS feature — how to use multiple backgrounds with CSS3.'
 tags:

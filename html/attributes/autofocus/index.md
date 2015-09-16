@@ -1,7 +1,10 @@
 ---
-title: autofocus
+title: 'autofocus'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: autofocus
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -198,7 +201,7 @@ This attribute is true when present on an element, and false when missing. Only 
 
 ### Related pages
 
--   `HTMLButtonElement`
--   `HTMLInputElement`
--   `HTMLSelectElement`
--   `HTMLTextAreaElement`
+-   HTMLButtonElement[HTMLButtonElement](/dom/HTMLBGSoundElement)
+-   HTMLInputElement[HTMLInputElement](/dom/HTMLInputElement)
+-   HTMLSelectElement[HTMLSelectElement](/dom/HTMLSelectElement)
+-   HTMLTextAreaElement[HTMLTextAreaElement](/dom/HTMLTextAreaElement)

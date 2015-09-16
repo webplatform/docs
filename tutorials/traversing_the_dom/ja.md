@@ -1,5 +1,5 @@
 ---
-title: DOMの横断
+title: 'DOMの横断'
 lang: ja
 notes:
   - 'No content; deletion candidate'

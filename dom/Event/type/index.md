@@ -1,5 +1,5 @@
 ---
-title: type
+title: 'type'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -59,17 +59,17 @@ The **type** property of the event depends on the event. This property can be a 
 
 ### Related pages
 
--   `SVGZoomEvent`
--   `BeforeUnloadEvent`
--   `CompositionEvent`
--   `CustomEvent`
--   `DragEvent`
--   `Event`
--   `FocusEvent`
--   `KeyboardEvent`
--   `MessageEvent`
--   `MouseEvent`
--   `MutationEvent`
--   `StorageEvent`
--   `TextEvent`
--   `UIEvent`
+-   SVGZoomEvent[SVGZoomEvent](/svg/objects/SVGZoom)
+-   BeforeUnloadEvent[BeforeUnloadEvent](/dom/BeforeUnloadEvent)
+-   CompositionEvent[CompositionEvent](/dom/CompositionEvent)
+-   CustomEvent[CustomEvent](/dom/CustomEvent)
+-   DragEvent[DragEvent](/dom/DragEvent)
+-   Event[Event](/dom/Event)
+-   FocusEvent[FocusEvent](/dom/FocusEvent)
+-   KeyboardEvent[KeyboardEvent](/dom/KeyboardEvent)
+-   MessageEvent[MessageEvent](/dom/MessageEvent)
+-   MouseEvent[MouseEvent](/dom/MouseEvent)
+-   MutationEvent[MutationEvent](/dom/MutationEvent)
+-   StorageEvent[StorageEvent](/dom/StorageEvent)
+-   TextEvent[TextEvent](/dom/TextEvent)
+-   UIEvent[UIEvent](/dom/UIEvent)

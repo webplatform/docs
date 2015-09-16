@@ -1,7 +1,10 @@
 ---
-title: order
+title: 'order'
 code_samples:
   - 'http://gist.github.com/4741023'
+compatibility:
+  feature: order
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`0`'
   'Applies to': 'flex items and absolutely-positioned flex container children'

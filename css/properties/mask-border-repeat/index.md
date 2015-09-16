@@ -1,5 +1,8 @@
 ---
-title: mask-border-repeat
+title: 'mask-border-repeat'
+compatibility:
+  feature: mask-border-repeat
+  topic: css
 notes:
   - "Add description and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
 overview_table:

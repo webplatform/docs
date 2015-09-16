@@ -1,5 +1,5 @@
 ---
-title: Google Closure Compiler
+title: 'Google Closure Compiler'
 notes:
   - Stub
 readiness: 'Not Ready'

@@ -1,7 +1,10 @@
 ---
-title: box-orient
+title: 'box-orient'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: box-orient
+  topic: css
 notes:
   - 'Add example, compatibility.'
 overview_table:
@@ -142,6 +145,6 @@ Specifies the orientation in the layout of all child elements of the object.
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)

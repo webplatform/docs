@@ -1,5 +1,8 @@
 ---
-title: background-composite
+title: 'background-composite'
+compatibility:
+  feature: background-composite
+  topic: css
 notes:
   - 'Add summery, values, syntax, example, description, specifications, compatibility.'
 overview_table:

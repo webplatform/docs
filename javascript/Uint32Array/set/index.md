@@ -1,7 +1,10 @@
 ---
-title: set
+title: 'set'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)'
+compatibility:
+  feature: set
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets a value or an array of values.'
 tags:

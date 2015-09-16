@@ -1,5 +1,5 @@
 ---
-title: The basics of HTML
+title: 'The basics of HTML'
 tags:
   - Tutorials
   - WSC

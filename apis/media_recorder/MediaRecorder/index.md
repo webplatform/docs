@@ -1,5 +1,5 @@
 ---
-title: MediaRecorder
+title: 'MediaRecorder'
 notes:
   - 'This article is currently being worked on. (Author? Date?)'
 readiness: 'In Progress'

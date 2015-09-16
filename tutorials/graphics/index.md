@@ -1,5 +1,5 @@
 ---
-title: graphics
+title: 'graphics'
 tags:
   - Tutorials
 uri: tutorials/graphics

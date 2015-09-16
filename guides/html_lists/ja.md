@@ -1,5 +1,5 @@
 ---
-title: HTMLのリスト
+title: 'HTMLのリスト'
 lang: ja
 summary: この文書では、HTMLの3つのタイプのリストを紹介し、その基本的な特徴を調べます。
 tags:

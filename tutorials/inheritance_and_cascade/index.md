@@ -1,5 +1,5 @@
 ---
-title: Inheritance and cascade
+title: 'Inheritance and cascade'
 readiness: 'Ready to Use'
 summary: 'This guide explains inheritance and the cascade, two fundamental concepts in CSS.'
 tags:

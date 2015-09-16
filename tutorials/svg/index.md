@@ -1,5 +1,5 @@
 ---
-title: svg
+title: 'svg'
 uri: tutorials/svg
 
 ---

@@ -1,5 +1,8 @@
 ---
-title: any-hover
+title: 'any-hover'
+compatibility:
+  feature: any-hover
+  topic: css
 notes:
   - 'Add values, syntax, description, compatibility.'
 readiness: 'Not Ready'

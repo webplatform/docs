@@ -1,5 +1,5 @@
 ---
-title: SVG links
+title: 'SVG links'
 notes:
   - 'Fix a couple of broken links'
 readiness: 'Almost Ready'

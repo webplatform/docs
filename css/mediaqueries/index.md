@@ -1,5 +1,5 @@
 ---
-title: mediaqueries
+title: 'mediaqueries'
 tags:
   - CSS
 todo_broken_links:

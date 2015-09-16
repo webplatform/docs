@@ -1,5 +1,5 @@
 ---
-title: buffer
+title: 'buffer'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

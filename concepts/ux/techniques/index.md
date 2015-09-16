@@ -1,5 +1,5 @@
 ---
-title: User eXperience (UX) Design Techniques
+title: 'User eXperience (UX) Design Techniques'
 readiness: 'Not Ready'
 summary: 'A list of techniques at product development stages that are used within the practices of User eXperience (UX) design.'
 tags:

@@ -1,7 +1,10 @@
 ---
-title: :first-child
+title: ':first-child'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: ':first-child'
+  topic: css
 notes:
   - 'Needs title, summary, spec reference, standardization status, remove topic cluster flags'
 readiness: 'Not Ready'
@@ -217,5 +220,5 @@ first-child
 ### Related pages
 
 -   `Reference`
--   `first-letter`
--   `first-line`
+-   first-letter[first-letter](/Special:FormEdit/Method/first-letter?redlink=1)
+-   first-line[first-line](/Special:FormEdit/Method/first-line?redlink=1)

@@ -1,5 +1,8 @@
 ---
-title: grid-row-start
+title: 'grid-row-start'
+compatibility:
+  feature: grid-row-start
+  topic: css
 notes:
   - 'Add description, compatibility.'
 overview_table:

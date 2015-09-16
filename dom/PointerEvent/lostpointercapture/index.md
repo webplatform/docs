@@ -1,5 +1,5 @@
 ---
-title: lostpointercapture
+title: 'lostpointercapture'
 attributions:
   - 'Microsoft Developer Network: [[lostPointerCapture Event](http://msdn.microsoft.com/en-us/library/ie/hh771907(v=vs.85).aspx) Article]'
 notes:

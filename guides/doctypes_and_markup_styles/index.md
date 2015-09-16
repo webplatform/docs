@@ -1,5 +1,5 @@
 ---
-title: DOCTYPES and markup styles
+title: 'DOCTYPES and markup styles'
 readiness: 'Ready to Use'
 summary: 'In this article we explore the different doctypes you are likely to come across on your journey around the web, and look at how XHTML and HTML doctypes differ.'
 tags:

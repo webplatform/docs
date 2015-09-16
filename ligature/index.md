@@ -1,5 +1,5 @@
 ---
-title: ligature
+title: 'ligature'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

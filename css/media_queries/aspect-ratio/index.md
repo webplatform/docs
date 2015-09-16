@@ -1,5 +1,8 @@
 ---
-title: aspect-ratio
+title: 'aspect-ratio'
+compatibility:
+  feature: aspect-ratio
+  topic: css
 notes:
   - 'Add description, specifications, compatibility.'
 readiness: 'In Progress'

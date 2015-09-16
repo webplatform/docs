@@ -1,5 +1,5 @@
 ---
-title: More about the document head
+title: 'More about the document head'
 tags:
   - Pages
   - with

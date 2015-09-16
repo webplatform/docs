@@ -1,5 +1,5 @@
 ---
-title: Definitions / Types of disability
+title: 'Definitions / Types of disability'
 notes:
   - Stub
 readiness: 'Not Ready'

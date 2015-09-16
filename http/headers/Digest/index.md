@@ -1,5 +1,8 @@
 ---
-title: Digest
+title: 'Digest'
+compatibility:
+  feature: Digest
+  topic: http
 overview_table:
   Direction: Response
   Features: ''

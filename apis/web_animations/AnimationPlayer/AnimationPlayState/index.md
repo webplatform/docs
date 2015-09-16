@@ -1,5 +1,5 @@
 ---
-title: AnimationPlayState
+title: 'AnimationPlayState'
 readiness: readiness-state
 summary: 'An enumeration of the various AnimationPlayer states. '
 tags:

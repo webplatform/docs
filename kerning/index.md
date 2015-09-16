@@ -1,5 +1,5 @@
 ---
-title: kerning
+title: 'kerning'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

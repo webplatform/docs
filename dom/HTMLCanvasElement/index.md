@@ -1,5 +1,8 @@
 ---
-title: HTMLCanvasElement
+title: 'HTMLCanvasElement'
+compatibility:
+  feature: HTMLCanvasElement
+  topic: dom
 notes:
   - 'Needs summary, spec reference, standardization status'
 readiness: 'In Progress'

@@ -1,7 +1,10 @@
 ---
-title: urn
+title: 'urn'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: urn
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -44,6 +47,6 @@ URNs are an adjunct to URLs. A URL, which is the address used on the World Wide 
 
 ### Related pages
 
--   `a`
+-   a[a](/html/elements/a)
 -   `namespace`
--   `URL`
+-   URL[URL](/w/index.php?title=dom/properties/URL&action=edit&redlink=1)

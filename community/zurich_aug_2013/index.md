@@ -1,5 +1,5 @@
 ---
-title: Plan for Zurich Doc Sprint, August 28, 2013
+title: 'Plan for Zurich Doc Sprint, August 28, 2013'
 uri: 'community/zurich aug 2013'
 
 ---

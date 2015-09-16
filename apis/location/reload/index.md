@@ -1,5 +1,5 @@
 ---
-title: window.location.reload
+title: 'window.location.reload'
 readiness: 'Ready to Use'
 relationships:
   method_of:

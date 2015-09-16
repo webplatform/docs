@@ -1,5 +1,5 @@
 ---
-title: contains
+title: 'contains'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 readiness: 'Ready to Use'
@@ -77,4 +77,4 @@ Throws an `InvalidCharacterError` exception if *token* contains any spaces.
 
 ### Related pages
 
--   `DOMTokenList`
+-   DOMTokenList[DOMTokenList](/dom/DOMTokenList)

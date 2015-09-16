@@ -1,5 +1,5 @@
 ---
-title: Building the HTML5 MathBoard app
+title: 'Building the HTML5 MathBoard app'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/casestudies/mathboard/)'
 readiness: 'Ready to Use'

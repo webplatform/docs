@@ -1,5 +1,5 @@
 ---
-title: dir
+title: 'dir'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -40,8 +40,8 @@ Unless explicitly set, the **dir** property has no return value when accessed in
 
 ### Related pages
 
--   `Document`
+-   Document[Document](/dom/Document)
 -   `Reference`
--   `direction`
+-   direction[direction](/css/properties/direction)
 -   `Conceptual`
 -   `HTML Character Sets`

@@ -1,5 +1,5 @@
 ---
-title: moveRow
+title: 'moveRow'
 attributions:
   - 'Microsoft Developer Network: [[moveRow Method](http://msdn.microsoft.com/en-us/library/ie/ms536622(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

@@ -1,5 +1,5 @@
 ---
-title: select
+title: 'select'
 attributions:
   - 'Microsoft Developer Network: [[select Method](http://msdn.microsoft.com/en-us/library/ie/ms536735(v=vs.85).aspx) Article]'
 notes:

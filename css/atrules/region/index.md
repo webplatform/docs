@@ -1,5 +1,8 @@
 ---
-title: @region
+title: '@region'
+compatibility:
+  feature: '@region'
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Applies CSS styles to portions of content as it appears when flowing within a specified set of regions.'

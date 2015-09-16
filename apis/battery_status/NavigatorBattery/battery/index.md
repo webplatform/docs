@@ -1,5 +1,5 @@
 ---
-title: battery
+title: 'battery'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

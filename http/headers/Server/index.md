@@ -1,5 +1,8 @@
 ---
-title: Server
+title: 'Server'
+compatibility:
+  feature: Server
+  topic: http
 overview_table:
   Direction: Response
   Features: ''

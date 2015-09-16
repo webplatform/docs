@@ -1,5 +1,5 @@
 ---
-title: composite
+title: 'composite'
 readiness: 'In Progress'
 relationships:
   applies_to:

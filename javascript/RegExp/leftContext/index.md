@@ -1,7 +1,10 @@
 ---
-title: leftContext
+title: 'leftContext'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/0ch447h1(v=vs.94).aspx)'
+compatibility:
+  feature: leftContext
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the characters from the beginning of a searched string up to the position before the beginning of the last match. Read-only.'
 tags:

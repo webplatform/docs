@@ -1,5 +1,8 @@
 ---
-title: Content-Type
+title: 'Content-Type'
+compatibility:
+  feature: Content-Type
+  topic: http
 overview_table:
   Direction: 'Request and Response'
   Features: ''

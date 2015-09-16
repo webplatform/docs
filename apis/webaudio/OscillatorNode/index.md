@@ -1,5 +1,5 @@
 ---
-title: OscillatorNode
+title: 'OscillatorNode'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'OscillatorNode represents an audio source generating a periodic waveform. It can be set to a few commonly used waveforms. Additionally, it can be set to an arbitrary periodic waveform through the use of a WaveTable object. Oscillators are common foundational building blocks in audio synthesis.'

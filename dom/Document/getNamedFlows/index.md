@@ -1,5 +1,5 @@
 ---
-title: getNamedFlows
+title: 'getNamedFlows'
 notes:
   - 'Needs compat table'
 readiness: 'Almost Ready'

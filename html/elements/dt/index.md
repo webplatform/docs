@@ -1,9 +1,12 @@
 ---
-title: dt – description list topic
+title: 'dt – description list topic'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5821157'
+compatibility:
+  feature: dt
+  topic: html
 notes:
   - 'Add Category and Compatibility information. Modify/Complete Parent and Children information.'
 overview_table:

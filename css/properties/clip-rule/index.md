@@ -1,7 +1,10 @@
 ---
-title: clip-rule
+title: 'clip-rule'
 code_samples:
   - 'http://gist.github.com/7037715'
+compatibility:
+  feature: clip-rule
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`nonzero`'
   'Applies to': 'Graphics elements that are contained within a \<clipPath\> element.'

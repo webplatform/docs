@@ -1,5 +1,5 @@
 ---
-title: DynamicsCompressorNode
+title: 'DynamicsCompressorNode'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'DynamicsCompressorNode is an AudioNode processor implementing a dynamics compression effect, which lowers the volume of the loudest parts of the signal and raises the volume of the softest parts. Compression is especially important in games and musical applications where large numbers of individual sounds are played simultaneously to control the overall signal level and help avoid clipping (distorting) the audio output to the speakers.'

@@ -1,5 +1,8 @@
 ---
-title: grid-template-columns
+title: 'grid-template-columns'
+compatibility:
+  feature: grid-template-columns
+  topic: css
 notes:
   - 'Add description, compatibility.'
 overview_table:

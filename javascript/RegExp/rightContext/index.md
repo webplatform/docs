@@ -1,7 +1,10 @@
 ---
-title: rightContext
+title: 'rightContext'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/b4sb5k1b(v=vs.94).aspx)'
+compatibility:
+  feature: rightContext
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the characters from the position following the last match to the end of the searched string. Read-only.'
 tags:

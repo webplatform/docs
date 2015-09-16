@@ -1,5 +1,8 @@
 ---
-title: its-prov-ref
+title: 'its-prov-ref'
+compatibility:
+  feature: its-prov-ref
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

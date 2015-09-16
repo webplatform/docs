@@ -1,5 +1,8 @@
 ---
-title: rp
+title: 'rp'
+compatibility:
+  feature: rp
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
 readiness: 'Ready to Use'

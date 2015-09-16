@@ -1,7 +1,10 @@
 ---
-title: use strict
+title: 'use strict'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)'
+compatibility:
+  feature: 'use strict'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Restricts the use of some potentially-harmful features of JavaScript (e.g., eval, with) and throws syntax errors for certain sloppy code.'
 tags:

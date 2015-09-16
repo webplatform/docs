@@ -1,7 +1,10 @@
 ---
-title: :-ms-input-placeholder
+title: ':-ms-input-placeholder'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: ':-ms-input-placeholder'
+  topic: css
 notes:
   - 'Needs title, summary, spec reference, remove topic cluster flags; browser-specific'
 readiness: 'Not Ready'
@@ -219,5 +222,5 @@ selector
 
 ### Related pages
 
--   `HTML5 Forms (Internet Explorer 10 Guide for Developers)`
--   `placeholder attribute`
+-   HTML5 Forms (Internet Explorer 10 Guide for Developers)[HTML5 Forms (Internet Explorer 10 Guide for Developers)](http://go.microsoft.com/fwlink/p/?LinkId=238198)
+-   placeholder attribute[placeholder attribute](http://go.microsoft.com/fwlink/p/?LinkId=233289)

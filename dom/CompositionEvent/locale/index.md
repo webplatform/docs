@@ -1,5 +1,5 @@
 ---
-title: locale
+title: 'locale'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -62,5 +62,5 @@ For trusted events, the **locale** property is set for keyboard and Input Method
 
 ### Related pages
 
--   `KeyboardEvent`
--   `TextEvent`
+-   KeyboardEvent[KeyboardEvent](/dom/KeyboardEvent)
+-   TextEvent[TextEvent](/dom/TextEvent)

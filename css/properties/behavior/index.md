@@ -1,9 +1,12 @@
 ---
-title: behavior
+title: 'behavior'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/components/htc/toc/toc.htm'
+compatibility:
+  feature: behavior
+  topic: css
 notes:
   - 'Add values, syntax, specifications, compatibility.'
 overview_table:
@@ -186,12 +189,12 @@ In the following section, one example demonstrates how you can apply two behavio
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaults`
--   `runtimeStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
 -   `Conceptual`
 -   `Using DHTML Behaviors`
 -   `Other Resources`
--   `Behavioral Extensions to CSS`
+-   Behavioral Extensions to CSS[Behavioral Extensions to CSS](http://go.microsoft.com/fwlink/p/?linkid=203734)

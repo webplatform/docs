@@ -1,8 +1,11 @@
 ---
-title: blockquote
+title: 'blockquote'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/blockquote)'
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+compatibility:
+  feature: blockquote
+  topic: html
 notes:
   - 'Add Category, Parent, Children and Compatibility information.'
 overview_table:
@@ -223,5 +226,5 @@ be cowed by the possibility.</blockquote>
 
 ### Related pages (internal)
 
--   `q`
--   `cite`
+-   q[q](/html/elements/q)
+-   cite[cite](/html/elements/cite)

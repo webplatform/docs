@@ -1,5 +1,5 @@
 ---
-title: setCustomValidity
+title: 'setCustomValidity'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -69,9 +69,9 @@ The following example sets a custom message if you type "fun" into the input fie
 
 ### Related pages
 
--   `HTMLObjectElement`
--   `HTMLButtonElement`
--   `HTMLFieldSetElement`
--   `HTMLInputElement`
--   `HTMLSelectElement`
--   `HTMLTextAreaElement`
+-   HTMLObjectElement[HTMLObjectElement](/dom/HTMLObjectElement)
+-   HTMLButtonElement[HTMLButtonElement](/dom/HTMLBGSoundElement)
+-   HTMLFieldSetElement[HTMLFieldSetElement](/dom/HTMLFieldSetElement)
+-   HTMLInputElement[HTMLInputElement](/dom/HTMLInputElement)
+-   HTMLSelectElement[HTMLSelectElement](/dom/HTMLSelectElement)
+-   HTMLTextAreaElement[HTMLTextAreaElement](/dom/HTMLTextAreaElement)

@@ -1,5 +1,8 @@
 ---
-title: cue-after
+title: 'cue-after'
+compatibility:
+  feature: cue-after
+  topic: css
 notes:
   - 'Add values, syntax, example, description, compatibility.'
 overview_table:

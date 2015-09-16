@@ -1,5 +1,5 @@
 ---
-title: Agile Schedule, Rich Visual Backlog or Visual Board
+title: 'Agile Schedule, Rich Visual Backlog or Visual Board'
 readiness: 'Not Ready'
 summary: 'A User eXperience (UX) design technique'
 tags:

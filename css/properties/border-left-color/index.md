@@ -1,9 +1,12 @@
 ---
-title: border-left-color
+title: 'border-left-color'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5535442'
+compatibility:
+  feature: border-left-color
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`color - The value of the ''color'' property`'
   'Applies to': 'All elements'
@@ -241,9 +244,9 @@ The color value can also be an extended keyword, such as aliceblue or lavenderbl
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaultsSelected`
--   `runtimeStyle`
--   `style`
--   `border`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaultsSelected[defaultsSelected](/dom/HTMLOptionElement/defaultSelected)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   border[border](/css/properties/border)

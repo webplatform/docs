@@ -1,5 +1,8 @@
 ---
-title: length
+title: 'length'
+compatibility:
+  feature: length
+  topic: dom
 readiness: 'Ready to Use'
 relationships:
   applies_to:

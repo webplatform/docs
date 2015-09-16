@@ -1,7 +1,10 @@
 ---
-title: toString
+title: 'toString'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/k6xhc6yc(v=vs.94).aspx)'
+compatibility:
+  feature: toString
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns a string representation of an object.'
 tags:

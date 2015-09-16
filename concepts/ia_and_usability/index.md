@@ -1,5 +1,5 @@
 ---
-title: IA and usability
+title: 'IA and usability'
 notes:
   - 'Listing page; needs more links'
 readiness: 'In Progress'

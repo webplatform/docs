@@ -1,5 +1,5 @@
 ---
-title: SVG
+title: 'SVG'
 lang: es
 standardization_status: Unknown
 todo_broken_links:

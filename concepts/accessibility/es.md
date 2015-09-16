@@ -1,5 +1,5 @@
 ---
-title: Fundamentos de la accesibilidad web
+title: 'Fundamentos de la accesibilidad web'
 lang: es
 notes:
   - 'Not in English.'

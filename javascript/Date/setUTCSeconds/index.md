@@ -1,7 +1,10 @@
 ---
-title: setUTCSeconds
+title: 'setUTCSeconds'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/k0aw4t5d(v=vs.94).aspx)'
+compatibility:
+  feature: setUTCSeconds
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets the seconds value in the Date object using Universal Coordinated Time (UTC).'
 tags:

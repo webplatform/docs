@@ -1,5 +1,5 @@
 ---
-title: Mobile Web
+title: 'Mobile Web'
 readiness: 'Ready to Use'
 summary: 'A starting point for mobile web development, with links to resources and a collection of mobile development techniques.'
 tags:

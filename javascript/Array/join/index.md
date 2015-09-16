@@ -1,7 +1,10 @@
 ---
-title: join
+title: 'join'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/59x7k999(v=vs.94).aspx)'
+compatibility:
+  feature: join
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Adds all the elements of an array separated by the specified separator string.'
 tags:

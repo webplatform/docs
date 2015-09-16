@@ -1,7 +1,10 @@
 ---
-title: fromCharCode
+title: 'fromCharCode'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/wb4w0k66(v=vs.94).aspx)'
+compatibility:
+  feature: fromCharCode
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns a string from a number of Unicode character values.'
 tags:

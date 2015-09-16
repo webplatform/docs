@@ -1,10 +1,13 @@
 ---
-title: ol – ordered list
+title: 'ol – ordered list'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/eb2b4134dc595b6dbf17'
   - 'http://gist.github.com/3386252885e8db151a1f'
+compatibility:
+  feature: ol
+  topic: html
 notes:
   - 'Correct Title format. Add Category information. Complete Compatibility table.'
 overview_table:

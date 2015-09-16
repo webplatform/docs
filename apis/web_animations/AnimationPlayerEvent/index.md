@@ -1,5 +1,5 @@
 ---
-title: AnimationPlayerEvent
+title: 'AnimationPlayerEvent'
 readiness: 'Almost Ready'
 standardization_status: 'W3C Editor''s Draft'
 summary: "Constructs a new AnimationPlayerEvent object as described in Constructing events in [DOM4].\n"

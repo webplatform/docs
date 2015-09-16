@@ -1,5 +1,5 @@
 ---
-title: getRegionsByContent()
+title: 'getRegionsByContent()'
 readiness: 'Ready to Use'
 relationships:
   method_of:

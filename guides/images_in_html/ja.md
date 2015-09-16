@@ -1,5 +1,5 @@
 ---
-title: 画像の表示
+title: '画像の表示'
 lang: ja
 summary: 'この文書では、&lt;img&gt; タグを使って、HTMLドキュメントでの画像の利用について紹介します。'
 tags:

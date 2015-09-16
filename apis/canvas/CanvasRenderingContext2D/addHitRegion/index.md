@@ -1,5 +1,5 @@
 ---
-title: addHitRegion
+title: 'addHitRegion'
 readiness: 'Ready to Use'
 relationships:
   method_of:

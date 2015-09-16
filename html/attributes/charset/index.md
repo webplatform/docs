@@ -1,5 +1,8 @@
 ---
-title: charset
+title: 'charset'
+compatibility:
+  feature: charset
+  topic: html
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The charset attribute is used to declare the character encoding of the document.'

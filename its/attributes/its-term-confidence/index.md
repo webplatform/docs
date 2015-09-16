@@ -1,5 +1,8 @@
 ---
-title: its-term-confidence
+title: 'its-term-confidence'
+compatibility:
+  feature: its-term-confidence
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

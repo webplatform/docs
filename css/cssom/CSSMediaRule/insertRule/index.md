@@ -1,5 +1,5 @@
 ---
-title: insertRule
+title: 'insertRule'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -221,8 +221,8 @@ The index of the newly inserted rule within the media block's rule collection.
 
 ### Related pages
 
--   `CSSMediaRule`
+-   CSSMediaRule[CSSMediaRule](/css/cssom/CSSMediaRule/CSSMediaRule)
 -   `Reference`
--   `cssRules`
--   `deleteRule`
--   `media`
+-   cssRules[cssRules](/css/cssom/styleSheet/cssRules)
+-   deleteRule[deleteRule](/css/cssom/CSSMediaRule/deleteRule)
+-   media[media](/css/cssom/CSSMediaRule/media)

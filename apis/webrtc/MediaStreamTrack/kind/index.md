@@ -1,5 +1,5 @@
 ---
-title: kind
+title: 'kind'
 notes:
   - 'Needs example, spec reference, usage'
 readiness: 'Not Ready'

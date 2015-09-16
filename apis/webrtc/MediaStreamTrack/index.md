@@ -1,5 +1,5 @@
 ---
-title: MediaStreamTrack
+title: 'MediaStreamTrack'
 notes:
   - "\nMerge Candidate:  This page is a candidate for merge with the following pages: [[apis/media_capture_and_streams/MediaStreamTrack]] \n\n"
 readiness: 'In Progress'

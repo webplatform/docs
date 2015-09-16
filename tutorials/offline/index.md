@@ -1,5 +1,5 @@
 ---
-title: Offline apps
+title: 'Offline apps'
 attributions:
   - 'Facebook HTML5 Resource Center.'
 readiness: 'Ready to Use'

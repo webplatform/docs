@@ -1,5 +1,5 @@
 ---
-title: release
+title: 'release'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

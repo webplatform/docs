@@ -1,5 +1,5 @@
 ---
-title: Building the Onslaught! Arena game
+title: 'Building the Onslaught! Arena game'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/casestudies/onslaught/)'
 readiness: 'Ready to Use'

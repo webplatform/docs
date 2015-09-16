@@ -1,5 +1,5 @@
 ---
-title: Creating gradients in CSS
+title: 'Creating gradients in CSS'
 notes:
   - Stub
 readiness: 'Not Ready'

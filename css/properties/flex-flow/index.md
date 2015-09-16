@@ -1,8 +1,11 @@
 ---
-title: flex-flow
+title: 'flex-flow'
 code_samples:
   - 'http://gist.github.com/4740728'
   - 'http://gist.github.com/5506026'
+compatibility:
+  feature: flex-flow
+  topic: css
 notes:
   - 'Add description and compatibility.'
 overview_table:

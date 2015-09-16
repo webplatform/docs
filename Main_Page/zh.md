@@ -1,5 +1,5 @@
 ---
-title: 欢迎访问 Web 平台文库
+title: '欢迎访问 Web 平台文库'
 lang: zh
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

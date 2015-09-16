@@ -1,5 +1,5 @@
 ---
-title: blowout
+title: 'blowout'
 notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'

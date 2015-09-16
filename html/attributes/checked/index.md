@@ -1,10 +1,13 @@
 ---
-title: checked
+title: 'checked'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/7282321'
   - 'http://gist.github.com/33aa4c8bece121ba6e9e'
+compatibility:
+  feature: checked
+  topic: html
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Indicates the initial state of a checkbox or radio button.'

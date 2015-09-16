@@ -1,5 +1,5 @@
 ---
-title: HTMLCollection
+title: 'HTMLCollection'
 notes:
   - 'Needs spec reference'
 readiness: 'Almost Ready'

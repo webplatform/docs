@@ -1,5 +1,5 @@
 ---
-title: readyState
+title: 'readyState'
 notes:
   - 'Needs example, spec reference, standardization status'
 readiness: 'In Progress'

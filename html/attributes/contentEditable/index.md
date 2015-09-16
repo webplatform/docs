@@ -1,9 +1,12 @@
 ---
-title: contentEditable
+title: 'contentEditable'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/contentEditableEX2.htm'
+compatibility:
+  feature: contentEditable
+  topic: html
 notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
@@ -115,10 +118,10 @@ Child elements do not inherit this attribute unless they have layout. Use the [*
 
 ### Related pages
 
--   `defaults`
--   `a`
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
+-   a[a](/html/elements/a)
 -   `abbr`
--   `acronym`
+-   acronym[acronym](/html/elements/acronym)
 -   `address`
 -   `b`
 -   `bdo`

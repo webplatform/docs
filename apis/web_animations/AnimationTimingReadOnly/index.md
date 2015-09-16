@@ -1,5 +1,5 @@
 ---
-title: AnimationTimingReadOnly
+title: 'AnimationTimingReadOnly'
 readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Readonly class from which AnimationTiming classes are inherited. '

@@ -1,7 +1,10 @@
 ---
-title: floor
+title: 'floor'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/sw6w4wz7(v=vs.94).aspx)'
+compatibility:
+  feature: floor
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the greatest integer less than or equal to its numeric argument.'
 tags:

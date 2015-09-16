@@ -1,7 +1,10 @@
 ---
-title: setFullYear
+title: 'setFullYear'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/y367b7x8(v=vs.94).aspx)'
+compatibility:
+  feature: setFullYear
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets the year of the Date object using local time.'
 tags:

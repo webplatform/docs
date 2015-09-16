@@ -1,8 +1,11 @@
 ---
-title: feComponentTransfer
+title: 'feComponentTransfer'
 code_samples:
   - 'http://jsfiddle.net/jsfmullany/rtD4A/'
   - 'http://jsfiddle.net/jsfmullany/LPnQ9/'
+compatibility:
+  feature: feComponentTransfer
+  topic: svg
 notes:
   - 'Fix broken link to parent'
 overview_table:

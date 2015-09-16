@@ -1,5 +1,5 @@
 ---
-title: Text
+title: 'Text'
 attributions:
   - 'Microsoft Developer Network: [[TextNode Object](http://msdn.microsoft.com/en-us/library/ie/ms535905(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

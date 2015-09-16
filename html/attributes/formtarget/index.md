@@ -1,5 +1,8 @@
 ---
-title: formtarget
+title: 'formtarget'
+compatibility:
+  feature: formtarget
+  topic: html
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Specifies a name or a keyword that indicates where to display the response that is received after submitting the form.'

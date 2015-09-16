@@ -1,5 +1,5 @@
 ---
-title: SVG filters
+title: 'SVG filters'
 notes:
   - 'Fix multiple broken links'
 readiness: 'In Progress'

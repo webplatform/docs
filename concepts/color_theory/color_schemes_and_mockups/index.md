@@ -1,5 +1,5 @@
 ---
-title: Color schemes and mockups
+title: 'Color schemes and mockups'
 notes:
   - 'This text appears exactly as it is, i.e. coming from an external source. Try to wikify it.'
 readiness: 'Ready to Use'

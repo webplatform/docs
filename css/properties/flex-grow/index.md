@@ -1,5 +1,8 @@
 ---
-title: flex-grow
+title: 'flex-grow'
+compatibility:
+  feature: flex-grow
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`0`'
   'Applies to': 'flex items'

@@ -1,5 +1,5 @@
 ---
-title: contrast
+title: 'contrast'
 notes:
   - 'Needs example, usage, spec reference'
 readiness: 'In Progress'

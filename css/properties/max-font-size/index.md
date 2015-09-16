@@ -1,5 +1,8 @@
 ---
-title: max-font-size
+title: 'max-font-size'
+compatibility:
+  feature: max-font-size
+  topic: css
 notes:
   - 'Add example and compatibility.'
 overview_table:

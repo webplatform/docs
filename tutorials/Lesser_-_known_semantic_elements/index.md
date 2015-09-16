@@ -1,5 +1,5 @@
 ---
-title: Lesser - known semantic elements
+title: 'Lesser - known semantic elements'
 tags:
   - Tutorials
   - WSC

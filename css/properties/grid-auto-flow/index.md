@@ -1,5 +1,8 @@
 ---
-title: grid-auto-flow
+title: 'grid-auto-flow'
+compatibility:
+  feature: grid-auto-flow
+  topic: css
 notes:
   - 'Add description, compatibility.'
 overview_table:

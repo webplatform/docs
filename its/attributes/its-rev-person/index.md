@@ -1,5 +1,8 @@
 ---
-title: its-rev-person
+title: 'its-rev-person'
+compatibility:
+  feature: its-rev-person
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

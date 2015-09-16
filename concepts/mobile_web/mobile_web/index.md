@@ -1,5 +1,5 @@
 ---
-title: Mobile web
+title: 'Mobile web'
 readiness: 'Ready to Use'
 summary: 'This concept page explains in general terms what mobile web is and its brief history.'
 tags:

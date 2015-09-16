@@ -1,5 +1,5 @@
 ---
-title: abort
+title: 'abort'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [abort](https://developer.mozilla.org/en-US/docs/Web/Events/abort) Article]'
   - 'Microsoft Developer Network: [[abort Event](http://msdn.microsoft.com/en-us/library/ie/ms536785(v=vs.85).aspx) Article]'

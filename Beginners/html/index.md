@@ -1,5 +1,5 @@
 ---
-title: Part 4: Structuring our content with HTML
+title: 'Part 4: Structuring our content with HTML'
 notes:
   - "Quoting David Hertz original proposal:\n Add more example in the body section:\n high level page structure - header, footer, navigation, main content, sidebar\n header - include title, logo, search form\n footer - include license notice, accessibility statement, contact details?\n navigation - include 5 items, do horizontal nav as it is better for learning\n main content - have this as the main recipe details; use it as an opportunity to demonstrate some good typography\n sidebar - have this as an image gallery of images from the recipe"
 readiness: 'In Progress'

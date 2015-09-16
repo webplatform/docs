@@ -1,9 +1,12 @@
 ---
-title: break-after
+title: 'break-after'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/7281550'
+compatibility:
+  feature: break-after
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`auto`'
   'Applies to': 'block-level elements'
@@ -256,9 +259,9 @@ If any of the three concerned values is an avoid break value, that is avoid, avo
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)
 -   `address`
 -   `blockQuote`
 -   `div`
@@ -270,7 +273,7 @@ If any of the three concerned values is an avoid break value, that is avoid, avo
 -   `ol`
 -   `p`
 -   `pre`
--   `table`
+-   table[table](/html/elements/table)
 -   `ul`
 -   `dd`
 -   `dt`
@@ -288,5 +291,5 @@ If any of the three concerned values is an avoid break value, that is avoid, avo
 -   `object`
 -   `script`
 -   `Reference`
--   `breakBefore`
--   `breakInside`
+-   breakBefore[breakBefore](/css/properties/break-before)
+-   breakInside[breakInside](/css/properties/break-inside)

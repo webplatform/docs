@@ -1,5 +1,5 @@
 ---
-title: Track ended
+title: 'Track ended'
 notes:
   - 'Everything. Passed by and did some cleaning, there were garbage.'
 readiness: 'Not Ready'

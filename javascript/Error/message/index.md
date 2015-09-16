@@ -1,7 +1,10 @@
 ---
-title: message
+title: 'message'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/5z00ybxa(v=vs.94).aspx)'
+compatibility:
+  feature: message
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns an error message string.'
 tags:

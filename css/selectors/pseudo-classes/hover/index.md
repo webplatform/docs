@@ -1,7 +1,10 @@
 ---
-title: :hover
+title: ':hover'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: ':hover'
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "The\_:hover pseudo-class applies while the user designates an element with a pointing device, but does not necessarily activate it"

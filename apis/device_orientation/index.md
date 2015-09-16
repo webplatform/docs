@@ -1,5 +1,5 @@
 ---
-title: Device Orientation API
+title: 'Device Orientation API'
 notes:
   - Stub
 readiness: 'Not Ready'

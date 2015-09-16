@@ -1,5 +1,5 @@
 ---
-title: Creating basic navigation menus
+title: 'Creating basic navigation menus'
 readiness: 'Ready to Use'
 summary: 'In this tutorial we will take you through how to create different types of basic navigation menu using HTML lists and links.'
 tags:

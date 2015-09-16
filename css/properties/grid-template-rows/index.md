@@ -1,5 +1,8 @@
 ---
-title: grid-template-rows
+title: 'grid-template-rows'
+compatibility:
+  feature: grid-template-rows
+  topic: css
 notes:
   - 'Add description, compatibility.'
 overview_table:

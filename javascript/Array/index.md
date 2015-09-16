@@ -1,5 +1,5 @@
 ---
-title: Array
+title: 'Array'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/k4h76zbx(v=vs.94).aspx)'
 code_samples:
@@ -7,6 +7,9 @@ code_samples:
   - 'http://gist.github.com/8856471'
   - 'http://gist.github.com/8856494'
   - 'http://gist.github.com/8857418'
+compatibility:
+  feature: Array
+  topic: javascript
 readiness: 'Ready to Use'
 summary: "Provides support for creation of arrays of any data type.\n"
 tags:

@@ -1,5 +1,5 @@
 ---
-title: textLength
+title: 'textLength'
 notes:
   - 'I am not sure examples are needed, as this property should be discouraged.'
 readiness: 'Almost Ready'

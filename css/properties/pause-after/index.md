@@ -1,5 +1,8 @@
 ---
-title: pause-after
+title: 'pause-after'
+compatibility:
+  feature: pause-after
+  topic: css
 notes:
   - 'Needs values, usage, example'
 overview_table:

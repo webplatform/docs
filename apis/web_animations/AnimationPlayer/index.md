@@ -1,5 +1,5 @@
 ---
-title: AnimationPlayer
+title: 'AnimationPlayer'
 readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Represents a single animation player. Players connect animation node, or source, to a timeline and provides playback controls.'

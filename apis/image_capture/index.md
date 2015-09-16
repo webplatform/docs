@@ -1,5 +1,5 @@
 ---
-title: Mediastream Image Capture
+title: 'Mediastream Image Capture'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Allows users to take a photo via Javascript.'

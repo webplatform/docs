@@ -1,5 +1,8 @@
 ---
-title: grid-auto-rows
+title: 'grid-auto-rows'
+compatibility:
+  feature: grid-auto-rows
+  topic: css
 notes:
   - 'Add description, compatibility.'
 overview_table:

@@ -1,7 +1,10 @@
 ---
-title: getSeconds
+title: 'getSeconds'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ct79zx09(v=vs.94).aspx)'
+compatibility:
+  feature: getSeconds
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the seconds of a Date object, using local time.'
 tags:

@@ -1,7 +1,10 @@
 ---
-title: abbr
+title: 'abbr'
 code_samples:
   - 'http://gist.github.com/939206'
+compatibility:
+  feature: abbr
+  topic: html
 notes:
   - 'Add syntax, attribute, compatibility.'
 overview_table:

@@ -1,5 +1,5 @@
 ---
-title: removetrack
+title: 'removetrack'
 notes:
   - 'Needs example, usage, spec reference'
 readiness: 'Not Ready'

@@ -1,5 +1,5 @@
 ---
-title: はじめてのJavaScript
+title: 'はじめてのJavaScript'
 lang: ja
 notes:
   - 'No content; deletion candidate'

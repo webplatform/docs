@@ -1,7 +1,10 @@
 ---
-title: background-position-x
+title: 'background-position-x'
 attributions:
   - 'Microsoft Developer Network: [[[1]](http://msdn.microsoft.com/en-us/library/ff521123(v=vs.85).aspx) Article]'
+compatibility:
+  feature: background-position-x
+  topic: css
 notes:
   - "Add specifications, compatibility.\nSupported by IE, Safari, and Chrome. But not appear in the Spec."
 overview_table:
@@ -165,9 +168,9 @@ There are no standards that apply here.
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `defaults`
--   `runtimeStyle`
--   `style`
--   `background-position-y`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   defaults[defaults](/w/index.php?title=dom/defaultSelected&action=edit&redlink=1)
+-   runtimeStyle[runtimeStyle](/css/cssom/runtimeStyle)
+-   style[style](/css/cssom/style)
+-   background-position-y[background-position-y](/css/properties/background-position-y)

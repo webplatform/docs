@@ -1,7 +1,10 @@
 ---
-title: constants
+title: 'constants'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff806190(v=vs.94).aspx)'
+compatibility:
+  feature: constants
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'The following number constants are properties of the Number object.'
 tags:

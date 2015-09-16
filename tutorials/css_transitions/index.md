@@ -1,5 +1,5 @@
 ---
-title: Dynamic visual effects with CSS3 transitions
+title: 'Dynamic visual effects with CSS3 transitions'
 readiness: 'Ready to Use'
 summary: "CSS transitions offer the easiest way to animate an\ninterface.  CSS is used everywhere to control how web pages appear,\nand shifts from one set of style sheets to another ordinarily occur\nabruptly.  Adding transition properties allows most of those changes\nto occur gradually, for a more vibrant, fluid interface.\n"
 tags:

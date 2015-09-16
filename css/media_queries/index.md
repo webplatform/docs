@@ -1,5 +1,5 @@
 ---
-title: media queries
+title: 'media queries'
 notes:
   - "\nMerge Candidate:  This page is a candidate for merge with the following pages: [[1]] \n\n\n\nAdd values, syntax, example, description, specifications, compatibility."
 readiness: 'Not Ready'

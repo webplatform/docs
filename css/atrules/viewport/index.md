@@ -1,7 +1,10 @@
 ---
-title: @viewport
+title: '@viewport'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: '@viewport'
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Specifies the size, zoom factor, and orientation of the viewport.'

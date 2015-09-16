@@ -1,5 +1,5 @@
 ---
-title: web-storage API
+title: 'web-storage API'
 attributions:
   - 'Portions of this content come from HTML5Rocks!.'
 readiness: 'Ready to Use'

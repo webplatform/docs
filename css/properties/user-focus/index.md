@@ -1,5 +1,8 @@
 ---
-title: user-focus
+title: 'user-focus'
+compatibility:
+  feature: user-focus
+  topic: css
 notes:
   - 'Needs summary, example, spec reference, standardization status'
 overview_table:

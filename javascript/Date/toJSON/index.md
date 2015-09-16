@@ -1,7 +1,10 @@
 ---
-title: toJSON
+title: 'toJSON'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/cc907896(v=vs.94).aspx)'
+compatibility:
+  feature: toJSON
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Used by the JSON.stringify method to enable the transformation of an object''s data for JavaScript Object Notation (JSON) serialization.'
 tags:

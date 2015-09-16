@@ -1,5 +1,5 @@
 ---
-title: Animatable
+title: 'Animatable'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Objects that may be the target of an Animation implement the Animatable interface.'

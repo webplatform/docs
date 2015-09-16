@@ -1,5 +1,5 @@
 ---
-title: dischargingTime
+title: 'dischargingTime'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

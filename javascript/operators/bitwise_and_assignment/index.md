@@ -1,7 +1,10 @@
 ---
-title: bitwise and assignment
+title: 'bitwise and assignment'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/a9h8y72a(v=vs.94).aspx)'
+compatibility:
+  feature: 'bitwise and assignment'
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets the result of a bitwise AND operation on the value of a variable and the value of an expression. The variable and the expression are treated as 32-bit integers.'
 tags:

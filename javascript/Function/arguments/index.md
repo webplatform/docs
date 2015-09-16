@@ -1,7 +1,10 @@
 ---
-title: arguments
+title: 'arguments'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/he95z461(v=vs.94).aspx)'
+compatibility:
+  feature: arguments
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the arguments for the currently executing Function object.'
 tags:

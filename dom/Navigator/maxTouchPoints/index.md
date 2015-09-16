@@ -1,5 +1,5 @@
 ---
-title: maxTouchPoints
+title: 'maxTouchPoints'
 attributions:
   - 'Microsoft Developer Network: [[maxTouchPoints property](http://msdn.microsoft.com/en-us/library/ie/hh772144(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

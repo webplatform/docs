@@ -1,5 +1,5 @@
 ---
-title: boundingTop
+title: 'boundingTop'
 attributions:
   - 'Microsoft Developer Network: [[boundingTop Property](http://msdn.microsoft.com/en-us/library/ie/ms533540(v=vs.85).aspx) Article]'
 code_samples:

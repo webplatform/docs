@@ -1,5 +1,5 @@
 ---
-title: Conceptos de diseño web
+title: 'Conceptos de diseño web'
 lang: es
 notes:
   - 'Created stub to illustrate how to make a translation page.'

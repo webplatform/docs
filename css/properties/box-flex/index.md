@@ -1,7 +1,10 @@
 ---
-title: box-flex
+title: 'box-flex'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: box-flex
+  topic: css
 notes:
   - 'Add example, compatibility.'
 overview_table:
@@ -128,6 +131,6 @@ Gets or sets a value that specifies whether the width or height of a child eleme
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)

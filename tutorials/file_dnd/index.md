@@ -1,5 +1,5 @@
 ---
-title: Reading files in JavaScript using the file APIs
+title: 'Reading files in JavaScript using the file APIs'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/file/dndfiles/)'
 readiness: 'Ready to Use'

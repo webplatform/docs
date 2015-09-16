@@ -1,5 +1,5 @@
 ---
-title: Document Object Model tutorials
+title: 'Document Object Model tutorials'
 notes:
   - 'No content; deletion candidate'
 readiness: 'In Progress'

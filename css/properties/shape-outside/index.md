@@ -1,7 +1,10 @@
 ---
-title: shape-outside
+title: 'shape-outside'
 code_samples:
   - 'http://gist.github.com/5832982'
+compatibility:
+  feature: shape-outside
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`none`'
   'Applies to': Floats

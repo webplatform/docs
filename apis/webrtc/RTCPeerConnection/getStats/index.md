@@ -1,5 +1,5 @@
 ---
-title: getStats
+title: 'getStats'
 notes:
   - 'Needs example, spec reference, return value'
 readiness: 'In Progress'

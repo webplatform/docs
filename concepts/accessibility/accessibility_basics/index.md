@@ -1,5 +1,5 @@
 ---
-title: Accessibility basics
+title: 'Accessibility basics'
 notes:
   - 'Consider merging with http://docs.webplatform.org/wiki/concepts/accessibility and http://docs.webplatform.org/wiki/Accessibility_basics'
 readiness: 'Ready to Use'

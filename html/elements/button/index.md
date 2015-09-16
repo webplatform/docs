@@ -1,5 +1,5 @@
 ---
-title: button
+title: 'button'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[\<button\> on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button) Article]'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
@@ -7,6 +7,9 @@ code_samples:
   - 'http://gist.github.com/b08191a8d5915621a5e1'
   - 'http://gist.github.com/ceb6531b1b86fb0b21d0'
   - 'http://gist.github.com/c579515bcd4378bfd634'
+compatibility:
+  feature: button
+  topic: html
 notes:
   - 'Add Category, Parent, Children and Compatibility information.'
 overview_table:

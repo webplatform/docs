@@ -1,5 +1,5 @@
 ---
-title: window.location.port
+title: 'window.location.port'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

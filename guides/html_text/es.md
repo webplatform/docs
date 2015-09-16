@@ -1,5 +1,5 @@
 ---
-title: Texto en HTML
+title: 'Texto en HTML'
 lang: es
 notes:
   - 'Necesidad de eliminar la tabla de compatibilidad; Corregir errores menores en versión en Inglés de los comentarios'

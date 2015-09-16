@@ -1,7 +1,10 @@
 ---
-title: caption
+title: 'caption'
 code_samples:
   - 'http://gist.github.com/7282268'
+compatibility:
+  feature: caption
+  topic: html
 notes:
   - 'Add Category, Parent, Children and Compatibility information.'
 overview_table:

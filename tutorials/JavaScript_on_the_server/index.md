@@ -1,5 +1,5 @@
 ---
-title: JavaScript on the server
+title: 'JavaScript on the server'
 notes:
   - 'No content; should not be a webplatform.org topic; deletion candidate'
 readiness: 'Not Ready'

@@ -1,5 +1,8 @@
 ---
-title: mask-repeat
+title: 'mask-repeat'
+compatibility:
+  feature: mask-repeat
+  topic: css
 notes:
   - "Add specification and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
 overview_table:

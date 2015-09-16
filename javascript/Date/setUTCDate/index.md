@@ -1,7 +1,10 @@
 ---
-title: setUTCDate
+title: 'setUTCDate'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/xy2a08e6(v=vs.94).aspx)'
+compatibility:
+  feature: setUTCDate
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets the numeric day of the month in the Date object using Universal Coordinated Time (UTC).'
 tags:

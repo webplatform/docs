@@ -1,5 +1,5 @@
 ---
-title: DOMException
+title: 'DOMException'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 readiness: 'Ready to Use'
@@ -45,4 +45,4 @@ API Name
 
 ### Related pages
 
--   `DOM Exception Error Codes`
+-   DOM Exception Error Codes[DOM Exception Error Codes](/dom/constants/DOM_exception_error_codes)

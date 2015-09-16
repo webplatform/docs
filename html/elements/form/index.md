@@ -1,7 +1,10 @@
 ---
-title: form
+title: 'form'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: form
+  topic: html
 notes:
   - 'Add Category, Parent, Children and Compatibility information. Delete HTML information sub section.'
 overview_table:
@@ -107,7 +110,7 @@ This example uses the **form** element to create a basic form containing a text 
 
 ### Related pages
 
--   `1,001 Ways to Get Input from Web Users`
+-   1,001 Ways to Get Input from Web Users[1,001 Ways to Get Input from Web Users](http://msdn.microsoft.com/en-us/library/ms971057.aspx)
 
  }
 

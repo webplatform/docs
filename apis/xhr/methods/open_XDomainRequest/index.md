@@ -1,5 +1,5 @@
 ---
-title: open (XDomainRequest)
+title: 'open (XDomainRequest)'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -85,5 +85,5 @@ Requires an XDomainRequest object.
 -   `IHTMLXDomainRequest`
 -   `XDomainRequest`
 -   `Other Resources`
--   `W3C Architecture: Naming and Addressing: URIs, URLs, ...`
--   `RFC2616: Hypertext Transfer Protocol -- HTTP/1.1`
+-   W3C Architecture: Naming and Addressing: URIs, URLs, ...[W3C Architecture: Naming and Addressing: URIs, URLs, ...](http://go.microsoft.com/fwlink/?linkid=203716)
+-   RFC2616: Hypertext Transfer Protocol -- HTTP/1.1[RFC2616: Hypertext Transfer Protocol -- HTTP/1.1](http://go.microsoft.com/fwlink/?linkid=84048)

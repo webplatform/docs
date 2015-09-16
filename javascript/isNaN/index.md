@@ -1,7 +1,10 @@
 ---
-title: isNaN
+title: 'isNaN'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/66ztdbe6(v=vs.94).aspx)'
+compatibility:
+  feature: isNaN
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Determines whether a supplied number is NaN (not a number).'
 tags:

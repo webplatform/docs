@@ -1,5 +1,5 @@
 ---
-title: Contributor Agreement
+title: 'Contributor Agreement'
 uri: 'Contributor Agreement'
 
 ---

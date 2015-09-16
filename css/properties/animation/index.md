@@ -1,9 +1,12 @@
 ---
-title: animation
+title: 'animation'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
 code_samples:
   - 'http://gist.github.com/7044978'
+compatibility:
+  feature: animation
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`See individual properties.`'
   'Applies to': 'All elements, ::before and ::after pseudo-elements.'

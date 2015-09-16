@@ -1,5 +1,5 @@
 ---
-title: overflow
+title: 'overflow'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
@@ -7,6 +7,9 @@ code_samples:
   - 'http://gist.github.com/6365118'
   - 'http://gist.github.com/6365403'
   - 'http://gist.github.com/6366211'
+compatibility:
+  feature: overflow
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`visible`'
   'Applies to': 'non-replaced block-level elements and non-replaced ’inline-block’ elements'

@@ -1,5 +1,8 @@
 ---
-title: Expires
+title: 'Expires'
+compatibility:
+  feature: Expires
+  topic: http
 overview_table:
   Direction: Response
   Features: ''

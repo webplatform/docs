@@ -1,5 +1,5 @@
 ---
-title: attributes
+title: 'attributes'
 notes:
   - 'Could use additional explanation of tables.'
 readiness: 'Ready to Use'

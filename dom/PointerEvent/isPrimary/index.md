@@ -1,5 +1,5 @@
 ---
-title: isPrimary
+title: 'isPrimary'
 attributions:
   - 'Microsoft Developer Network: [[isPrimary Property](http://msdn.microsoft.com/en-us/library/ie/jj152130(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

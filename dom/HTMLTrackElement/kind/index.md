@@ -1,5 +1,5 @@
 ---
-title: kind
+title: 'kind'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -59,5 +59,5 @@ This property is not implemented for the [**AudioTrack**](/apis/audio-video/Audi
 
 -   `track element`
 -   `track object`
--   `TextTrack`
--   `AudioTrack`
+-   TextTrack[TextTrack](/apis/audio-video/TextTrack)
+-   AudioTrack[AudioTrack](/apis/audio-video/AudioTrack)

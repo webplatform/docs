@@ -1,7 +1,10 @@
 ---
-title: filter
+title: 'filter'
 code_samples:
   - 'http://jsfiddle.net/jsfmullany/djQ9A/'
+compatibility:
+  feature: filter
+  topic: svg
 notes:
   - 'Fix broken links'
 overview_table:

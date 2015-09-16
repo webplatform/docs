@@ -1,5 +1,8 @@
 ---
-title: grid-column-start
+title: 'grid-column-start'
+compatibility:
+  feature: grid-column-start
+  topic: css
 notes:
   - 'Add description, compatibility.'
 overview_table:

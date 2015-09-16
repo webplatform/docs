@@ -1,5 +1,8 @@
 ---
-title: text-underline-style
+title: 'text-underline-style'
+compatibility:
+  feature: text-underline-style
+  topic: css
 notes:
   - "\nDeletion Candidate:   This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.\n\n"
 overview_table:

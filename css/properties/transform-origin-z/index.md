@@ -1,5 +1,8 @@
 ---
-title: transform-origin-z
+title: 'transform-origin-z'
+compatibility:
+  feature: transform-origin-z
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`0`'
   'Applies to': 'transformable elements'
@@ -99,7 +102,7 @@ Units of measurement may be absolute (`cm`, `mm`, `in`, `pt`, or `pc`) or relati
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
--   `transform`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)
+-   transform[transform](/css/transforms/transform)

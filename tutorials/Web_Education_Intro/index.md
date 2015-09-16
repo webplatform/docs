@@ -1,5 +1,5 @@
 ---
-title: Introduction to the Web Standards Curriculum
+title: 'Introduction to the Web Standards Curriculum'
 summary: "\nWhat follows is a list of all the articles within the web standards curriculum, which will give you an essential grounding in Hypertext Markup Language (HTML), Cascading Stylesheets (CSS), JavaScript, accessibility, and the other topics you need to be a modern web developer/designer. Reading them in order makes the most sense, but they are written to work individually, so you can dip in and out as it suits you, if you need to hone individual skills.\n"
 tags:
   - Tutorials

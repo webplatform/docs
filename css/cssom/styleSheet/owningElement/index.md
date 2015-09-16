@@ -1,5 +1,5 @@
 ---
-title: owningElement
+title: 'owningElement'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -49,4 +49,4 @@ The **owningElement** property returns the **style** or **link** object that def
 
 ### Related pages
 
--   `styleSheet`
+-   styleSheet[styleSheet](/css/cssom/styleSheet)

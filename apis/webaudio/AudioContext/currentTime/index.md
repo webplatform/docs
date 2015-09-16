@@ -1,5 +1,5 @@
 ---
-title: currentTime
+title: 'currentTime'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

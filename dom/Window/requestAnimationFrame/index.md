@@ -1,5 +1,5 @@
 ---
-title: requestAnimationFrame
+title: 'requestAnimationFrame'
 attributions:
   - 'Microsoft Developer Network: [[requestAnimationFrame](http://msdn.microsoft.com/en-us/library/ie/hh773174(v=vs.85).aspx) Article]'
 notes:

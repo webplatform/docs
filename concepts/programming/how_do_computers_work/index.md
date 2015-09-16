@@ -1,5 +1,5 @@
 ---
-title: how do computers work
+title: 'how do computers work'
 uri: 'concepts/programming/how do computers work'
 
 ---

@@ -1,7 +1,10 @@
 ---
-title: getInt16
+title: 'getInt16'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212483(v=vs.94).aspx)'
+compatibility:
+  feature: getInt16
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the Int16 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be fetched from any offset.'
 tags:

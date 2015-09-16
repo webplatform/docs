@@ -1,5 +1,8 @@
 ---
-title: flow-from
+title: 'flow-from'
+compatibility:
+  feature: flow-from
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`none`'
   'Applies to': 'Non-replaced block containers. (May expand in the future to include other containers.)'

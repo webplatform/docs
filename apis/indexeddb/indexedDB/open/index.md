@@ -1,5 +1,5 @@
 ---
-title: open
+title: 'open'
 notes:
   - 'Needs example, spec reference, standardization status'
 readiness: 'In Progress'

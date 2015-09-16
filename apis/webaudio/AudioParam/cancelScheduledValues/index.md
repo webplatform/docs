@@ -1,5 +1,5 @@
 ---
-title: cancelScheduledValues
+title: 'cancelScheduledValues'
 readiness: 'Ready to Use'
 relationships:
   method_of:

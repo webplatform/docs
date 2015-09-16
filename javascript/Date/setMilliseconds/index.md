@@ -1,7 +1,10 @@
 ---
-title: setMilliseconds
+title: 'setMilliseconds'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/a92fx7ha(v=vs.94).aspx)'
+compatibility:
+  feature: setMilliseconds
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Sets the milliseconds value in the Date object using local time.'
 tags:

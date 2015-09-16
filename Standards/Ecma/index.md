@@ -1,5 +1,5 @@
 ---
-title: Ecma
+title: 'Ecma'
 uri: Standards/Ecma
 
 ---

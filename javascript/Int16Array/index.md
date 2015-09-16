@@ -1,7 +1,10 @@
 ---
-title: Int16Array
+title: 'Int16Array'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212480(v=vs.94).aspx)'
+compatibility:
+  feature: Int16Array
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'A typed array of 16-bit integer values. The contents are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.'
 tags:

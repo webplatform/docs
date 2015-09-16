@@ -1,5 +1,8 @@
 ---
-title: font-language-override
+title: 'font-language-override'
+compatibility:
+  feature: font-language-override
+  topic: css
 notes:
   - 'Add example, specifications, compatibility.'
 overview_table:

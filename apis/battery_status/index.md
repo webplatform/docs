@@ -1,5 +1,5 @@
 ---
-title: Battery Status API
+title: 'Battery Status API'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Provides information about the battery status of the hosting device.'

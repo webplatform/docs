@@ -1,5 +1,5 @@
 ---
-title: Indexed Database API
+title: 'Indexed Database API'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'IndexedDB is a client side storage API that persists data in a user''s browser. It is a transactional, non-relational storage mechanism that saves key-value pairs in Object Stores and allows searching data using indexes.'

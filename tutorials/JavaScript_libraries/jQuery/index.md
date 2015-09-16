@@ -1,5 +1,5 @@
 ---
-title: jQuery
+title: 'jQuery'
 notes:
   - 'Deletion candidate; non standards-track technologies shouldn''t be included on webplatform.org'
 readiness: 'Not Ready'

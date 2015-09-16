@@ -1,5 +1,5 @@
 ---
-title: visibilityState
+title: 'visibilityState'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -100,5 +100,5 @@ Use the [**visibilitychange**](/dom/Document/visibilitychange) property to track
 
 ### Related pages
 
--   `hidden`
--   `visibilitychange`
+-   hidden[hidden](/dom/Document/hidden)
+-   visibilitychange[visibilitychange](/dom/Document/visibilitychange)

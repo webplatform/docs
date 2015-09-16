@@ -1,5 +1,8 @@
 ---
-title: text-height
+title: 'text-height'
+compatibility:
+  feature: text-height
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`auto`'
   'Applies to': 'Inline elements and parents of elements with display:ruby-text.'

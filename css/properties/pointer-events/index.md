@@ -1,7 +1,10 @@
 ---
-title: pointer-events
+title: 'pointer-events'
 code_samples:
   - 'http://jsbin.com/uvumuj/3'
+compatibility:
+  feature: pointer-events
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`auto`'
   'Applies to': 'all elements'

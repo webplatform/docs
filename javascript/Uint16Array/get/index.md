@@ -1,7 +1,10 @@
 ---
-title: get
+title: 'get'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)'
+compatibility:
+  feature: get
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Omittable. Gets the element at the specified index.'
 tags:

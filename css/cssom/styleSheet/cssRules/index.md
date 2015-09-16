@@ -1,5 +1,5 @@
 ---
-title: cssRules
+title: 'cssRules'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -207,5 +207,5 @@ The list retrieved includes both rule sets (at-rules. Rules are returned in the 
 
 ### Related pages
 
--   `styleSheet`
--   `CSSMediaRule`
+-   styleSheet[styleSheet](/css/cssom/styleSheet)
+-   CSSMediaRule[CSSMediaRule](/css/cssom/CSSMediaRule/CSSMediaRule)

@@ -1,5 +1,5 @@
 ---
-title: window.location.assign
+title: 'window.location.assign'
 readiness: 'Ready to Use'
 relationships:
   method_of:

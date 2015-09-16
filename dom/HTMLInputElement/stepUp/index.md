@@ -1,5 +1,5 @@
 ---
-title: stepUp
+title: 'stepUp'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -65,4 +65,4 @@ Throws an INVALID\_STATE\_ERR exception if the control doesn't support **stepUp*
 
 ### Related pages
 
--   `HTMLInputElement`
+-   HTMLInputElement[HTMLInputElement](/dom/HTMLInputElement)

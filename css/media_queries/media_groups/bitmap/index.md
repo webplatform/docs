@@ -1,5 +1,5 @@
 ---
-title: bitmap
+title: 'bitmap'
 notes:
   - 'Add values, syntax, example, description, specifications, compatibility.'
 readiness: 'Not Ready'

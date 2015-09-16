@@ -1,5 +1,5 @@
 ---
-title: spellcheck
+title: 'spellcheck'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -47,4 +47,4 @@ There is also a default state (missing attribute) which uses the element's defau
 
 ### Related pages
 
--   `HTMLElement`
+-   HTMLElement[HTMLElement](/dom/HTMLElement)

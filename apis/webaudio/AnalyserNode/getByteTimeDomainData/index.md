@@ -1,5 +1,5 @@
 ---
-title: getByteTimeDomainData
+title: 'getByteTimeDomainData'
 readiness: 'Ready to Use'
 relationships:
   method_of:

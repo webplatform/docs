@@ -1,5 +1,5 @@
 ---
-title: Core JavaScript Objects
+title: 'Core JavaScript Objects'
 notes:
   - "\nMerge Candidate:  This page is a candidate for merge with the following pages: [[1]] \n\n\n\n\nDeletion Candidate:   Content is incomplete, and the available content is the same as on the merge-candidate, which is complete.\n\n"
 readiness: 'Not Ready'

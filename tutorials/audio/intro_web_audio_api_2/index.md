@@ -1,5 +1,5 @@
 ---
-title: Introduction to the web audio API, part 2
+title: 'Introduction to the web audio API, part 2'
 readiness: 'Ready to Use'
 summary: 'An introduction to the web audio API: inserting processor nodes between source and destination.'
 tags:

@@ -1,5 +1,5 @@
 ---
-title: serializeToString
+title: 'serializeToString'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -65,4 +65,4 @@ sXmlString = oXmlSerializer.serializeToString(oDOMNode);
 
 ### Related pages
 
--   `XMLSerializer`
+-   XMLSerializer[XMLSerializer](/apis/xhr/objects/XMLSerializer)

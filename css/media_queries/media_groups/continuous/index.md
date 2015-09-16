@@ -1,5 +1,5 @@
 ---
-title: continuous
+title: 'continuous'
 notes:
   - 'Add values, syntax, example, description, specifications, compatibility.'
 readiness: 'Not Ready'

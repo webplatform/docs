@@ -1,5 +1,8 @@
 ---
-title: word-break-inside
+title: 'word-break-inside'
+compatibility:
+  feature: word-break-inside
+  topic: css
 notes:
   - 'Needs summary, example, spec reference, standardization status'
 overview_table:

@@ -1,7 +1,10 @@
 ---
-title: decodeURI
+title: 'decodeURI'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ht8a077w(v=vs.94).aspx)'
+compatibility:
+  feature: decodeURI
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Gets the unencoded version of an encoded Uniform Resource Identifier (URI).'
 tags:

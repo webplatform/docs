@@ -1,5 +1,5 @@
 ---
-title: y
+title: 'y'
 attributions:
   - 'Microsoft Developer Network: [[event.y Property](http://msdn.microsoft.com/en-us/library/ie/ms535164(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'

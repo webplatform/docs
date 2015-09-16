@@ -1,5 +1,5 @@
 ---
-title: attribute methods
+title: 'attribute methods'
 uri: 'dom/tutorials/attribute methods'
 
 ---

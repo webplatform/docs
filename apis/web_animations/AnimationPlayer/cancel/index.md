@@ -1,5 +1,5 @@
 ---
-title: cancel
+title: 'cancel'
 readiness: readiness-state
 relationships:
   method_of:

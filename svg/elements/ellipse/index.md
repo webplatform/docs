@@ -1,9 +1,12 @@
 ---
-title: ellipse
+title: 'ellipse'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/e44f667a01785f7a116f'
+compatibility:
+  feature: ellipse
+  topic: svg
 notes:
   - 'Needs summary, spec reference, standardization status'
 overview_table:

@@ -1,5 +1,5 @@
 ---
-title: states
+title: 'states'
 notes:
   - 'Needs example, spec reference'
 readiness: 'In Progress'

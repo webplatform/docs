@@ -1,5 +1,5 @@
 ---
-title: プログラミングの基礎
+title: 'プログラミングの基礎'
 attributions:
   - 'This content was originally published on [DevOpera](http://dev.opera.com), Opera''s Developer Network. .'
 summary: "※ 本記事はまだ試験的に作成しているものである点にご注意願います。\n"

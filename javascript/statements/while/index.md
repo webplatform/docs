@@ -1,7 +1,10 @@
 ---
-title: while
+title: 'while'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/6wsy66x9(v=vs.94).aspx)'
+compatibility:
+  feature: while
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Executes a statement or series of statements while a specified condition is true.'
 tags:

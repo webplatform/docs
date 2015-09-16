@@ -1,7 +1,10 @@
 ---
-title: aria-level
+title: 'aria-level'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: aria-level
+  topic: aria
 notes:
   - 'Needs summary, example, spec reference, standardization status'
 readiness: 'Not Ready'
@@ -75,5 +78,5 @@ tablist
 
 ### Related pages
 
--   `Accessible Rich Internet Applications (ARIA)`
--   `W3C ARIA-Level`
+-   Accessible Rich Internet Applications (ARIA)[Accessible Rich Internet Applications (ARIA)](/aria)
+-   W3C ARIA-Level[W3C ARIA-Level](http://go.microsoft.com/fwlink/p/?linkid=203793)

@@ -1,7 +1,10 @@
 ---
-title: index
+title: 'index'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/0xsw26xd(v=vs.94).aspx)'
+compatibility:
+  feature: index
+  topic: javascript
 readiness: 'Ready to Use'
 summary: 'Returns the character position where the first successful match begins in a searched string. Read-only.'
 tags:

@@ -1,7 +1,10 @@
 ---
-title: border-image-source
+title: 'border-image-source'
 code_samples:
   - 'http://gist.github.com/5621011'
+compatibility:
+  feature: border-image-source
+  topic: css
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`none`'
   'Applies to': 'all elements, except table elements where `border-collapse: collapse` is applied'

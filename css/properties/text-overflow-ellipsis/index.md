@@ -1,7 +1,10 @@
 ---
-title: text-overflow-ellipsis
+title: 'text-overflow-ellipsis'
 code_samples:
   - 'http://dabblet.com/gist/4744982'
+compatibility:
+  feature: text-overflow-ellipsis
+  topic: css
 notes:
   - 'Non-standard; deletion candidate'
 overview_table:

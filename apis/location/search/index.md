@@ -1,5 +1,5 @@
 ---
-title: window.location.search
+title: 'window.location.search'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

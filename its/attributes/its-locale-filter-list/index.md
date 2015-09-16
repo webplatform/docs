@@ -1,5 +1,8 @@
 ---
-title: its-locale-filter-list
+title: 'its-locale-filter-list'
+compatibility:
+  feature: its-locale-filter-list
+  topic: its
 notes:
   - 'Add summery, example, note, compatibility.'
 readiness: 'Not Ready'

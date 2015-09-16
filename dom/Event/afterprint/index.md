@@ -1,5 +1,5 @@
 ---
-title: afterprint
+title: 'afterprint'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -177,5 +177,5 @@ There are no standards that apply here.
 -   `body`
 -   `frameSet`
 -   `Reference`
--   `onbeforeprint`
+-   onbeforeprint[onbeforeprint](/dom/Event/beforeprint)
 -   `print`

@@ -1,5 +1,8 @@
 ---
-title: week
+title: 'week'
+compatibility:
+  feature: week
+  topic: html
 notes:
   - 'Merge Candidate: html/attributes/type. Add description, note section.'
 overview_table:

@@ -1,5 +1,5 @@
 ---
-title: OASIS
+title: 'OASIS'
 uri: Standards/OASIS
 
 ---

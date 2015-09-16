@@ -1,5 +1,5 @@
 ---
-title: applyAuthorStyles
+title: 'applyAuthorStyles'
 notes:
   - 'Needs spec reference, standardization status, example'
 readiness: 'In Progress'

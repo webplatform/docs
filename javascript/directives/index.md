@@ -1,7 +1,10 @@
 ---
-title: directives
+title: 'directives'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br230271(v=vs.94).aspx)'
+compatibility:
+  feature: directives
+  topic: javascript
 notes:
   - 'Browser-specific (IE 10+) or cross-browser? See http://msdn.microsoft.com/en-us/library/ie/br230271%28v=vs.94%29.aspx'
 readiness: 'Ready to Use'

@@ -1,5 +1,5 @@
 ---
-title: children
+title: 'children'
 readiness: 'Almost Ready'
 relationships:
   applies_to:

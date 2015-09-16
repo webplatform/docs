@@ -1,5 +1,5 @@
 ---
-title: systemId
+title: 'systemId'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -71,6 +71,6 @@ The value of the **systemId** property corresponds to the *URL* attribute of a [
 
 ### Related pages
 
--   `DocumentType`
--   `name`
--   `publicId`
+-   DocumentType[DocumentType](/dom/DocumentType)
+-   name[name](/dom/DocumentType/name)
+-   publicId[publicId](/dom/DocumentType/publicId)

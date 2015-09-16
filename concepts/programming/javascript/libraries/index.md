@@ -1,5 +1,5 @@
 ---
-title: JavaScript libraries
+title: 'JavaScript libraries'
 readiness: 'Not Ready'
 summary: 'Introduction to JavaScript libraries'
 tags:

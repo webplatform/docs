@@ -1,5 +1,5 @@
 ---
-title: elements (alphabetical order)
+title: 'elements (alphabetical order)'
 tags:
   - SVG
 todo_broken_links:

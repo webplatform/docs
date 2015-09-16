@@ -1,7 +1,10 @@
 ---
-title: break-inside
+title: 'break-inside'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: break-inside
+  topic: css
 notes:
   - 'Complete specifications, compatibility.'
 overview_table:
@@ -195,9 +198,9 @@ h2, h3 {
 
 ### Related pages
 
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `style`
+-   CSSStyleDeclaration[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   style[style](/css/cssom/style)
 -   `address`
 -   `blockQuote`
 -   `div`
@@ -209,7 +212,7 @@ h2, h3 {
 -   `ol`
 -   `p`
 -   `pre`
--   `table`
+-   table[table](/html/elements/table)
 -   `ul`
 -   `dd`
 -   `dt`
@@ -227,5 +230,5 @@ h2, h3 {
 -   `object`
 -   `script`
 -   `Reference`
--   `breakAfter`
--   `breakBefore`
+-   breakAfter[breakAfter](/css/properties/break-after)
+-   breakBefore[breakBefore](/css/properties/break-before)

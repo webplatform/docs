@@ -1,5 +1,5 @@
 ---
-title: progress
+title: 'progress'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
@@ -7,6 +7,9 @@ code_samples:
   - 'http://gist.github.com/6365520'
   - 'http://gist.github.com/6365564'
   - 'http://gist.github.com/6365909'
+compatibility:
+  feature: progress
+  topic: html
 overview_table:
   '[DOM Interface](/dom/interface)': '[HTMLProgressElement](/w/index.php?title=dom/HTMLProgressElement&action=edit&redlink=1)'
 readiness: 'Ready to Use'

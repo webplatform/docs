@@ -1,5 +1,8 @@
 ---
-title: Accept
+title: 'Accept'
+compatibility:
+  feature: Accept
+  topic: http
 overview_table:
   Direction: Request
   Features: ''

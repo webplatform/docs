@@ -1,5 +1,8 @@
 ---
-title: item
+title: 'item'
+compatibility:
+  feature: item
+  topic: dom
 notes:
   - 'Needs compat table'
 readiness: 'Almost Ready'

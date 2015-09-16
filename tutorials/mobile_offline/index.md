@@ -1,5 +1,5 @@
 ---
-title: Working Off the Grid with HTML5 Offline
+title: 'Working Off the Grid with HTML5 Offline'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/mobile/workingoffthegrid/)'
 readiness: 'Ready to Use'

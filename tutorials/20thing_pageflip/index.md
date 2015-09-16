@@ -1,5 +1,5 @@
 ---
-title: Building the page flip effect from 20thingsilearned.com
+title: 'Building the page flip effect from 20thingsilearned.com'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/casestudies/20things_pageflip/)'
 readiness: 'Ready to Use'

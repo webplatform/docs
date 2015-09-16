@@ -1,5 +1,5 @@
 ---
-title: Cognitive Impairment
+title: 'Cognitive Impairment'
 summary: "\nA cognitive impairment is a person's reduced ability to perform cognitive functions, such as understanding verbal or written language, solving mathematical problems, matching patterns, or making choices.\n"
 tags:
   - Concept

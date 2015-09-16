@@ -1,7 +1,10 @@
 ---
-title: matrix3d
+title: 'matrix3d'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+compatibility:
+  feature: matrix3d
+  topic: css
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Defines a three-dimensional transformation in matrix format.  The function requires exactly 16 comma-separated numbers as parameters; these represent the matrix values in &quot;column-major&quot; (top to bottom, then left to right) order.'
@@ -49,5 +52,5 @@ All other transformation functions are based on the **matrix3d** function. It is
 ### Related pages
 
 -   `Transform Functions`
--   `Mathematical Description of Transform Functions`
+-   Mathematical Description of Transform Functions[Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246)
 -   `Direct3D: Matrices`

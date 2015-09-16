@@ -1,9 +1,12 @@
 ---
-title: type (ul,li,ol elements)
+title: 'type (ul,li,ol elements)'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/type.htm'
+compatibility:
+  feature: 'type (ul,li,ol elements)'
+  topic: html
 notes:
   - "\nMerge Candidate:  This page is a candidate for merge with the following pages: [[html/attributes/type]] \n\n"
 readiness: 'Not Ready'

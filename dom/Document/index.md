@@ -1,5 +1,5 @@
 ---
-title: Document
+title: 'Document'
 notes:
   - 'New listing page with proper object capitalization; replaces document.'
 readiness: 'Ready to Use'

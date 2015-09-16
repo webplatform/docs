@@ -1,5 +1,5 @@
 ---
-title: easing
+title: 'easing'
 readiness: 'Almost Ready'
 relationships:
   applies_to:

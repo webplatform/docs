@@ -1,5 +1,8 @@
 ---
-title: speak-as
+title: 'speak-as'
+compatibility:
+  feature: speak-as
+  topic: css
 notes:
   - 'Needs values, usage, example'
 overview_table:

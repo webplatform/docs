@@ -1,5 +1,5 @@
 ---
-title: value
+title: 'value'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -47,5 +47,5 @@ Windows Internet Explorer 8 or later. In IE8 Standards mode, the **value** prop
 
 ### Related pages
 
--   `attributes`
--   `nodeValue`
+-   attributes[attributes](/dom/Node/attributes)
+-   nodeValue[nodeValue](/dom/Node/nodeValue)

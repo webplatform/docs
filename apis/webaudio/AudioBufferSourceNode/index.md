@@ -1,5 +1,5 @@
 ---
-title: AudioBufferSourceNode
+title: 'AudioBufferSourceNode'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'This interface represents an audio source from an in-memory audio asset in an AudioBuffer. It generally will be used for short audio assets which require a high degree of scheduling flexibility (can playback in rhythmically perfect ways).'

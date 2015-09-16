@@ -1,5 +1,5 @@
 ---
-title: blockDirection
+title: 'blockDirection'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -192,27 +192,27 @@ Returns an object of type DOM NodeDOM Node
 
 ### Related pages
 
--   `address`
--   `blockquote`
--   `body`
--   `center`
--   `currentStyle`
--   `custom`
--   `dd`
--   `div`
--   `dl`
--   `dt`
--   `fieldset`
--   `form`
--   `hn`
--   `isIndex`
--   `li`
--   `listing`
--   `menu`
--   `ol`
--   `p`
--   `plainText`
--   `pre`
--   `ul`
--   `xmp`
--   `direction`
+-   address[address](/html/elements/address)
+-   blockquote[blockquote](/html/elements/blockquote)
+-   body[body](/html/elements/body)
+-   center[center](/html/elements/center)
+-   currentStyle[currentStyle](/css/cssom/currentStyle)
+-   custom[custom](/html/elements/custom)
+-   dd[dd](/html/elements/dd)
+-   div[div](/html/elements/div)
+-   dl[dl](/html/elements/dl)
+-   dt[dt](/html/elements/dt)
+-   fieldset[fieldset](/html/elements/fieldset)
+-   form[form](/html/elements/form)
+-   hn[hn](/html/elements/hn)
+-   isIndex[isIndex](/html/elements/isIndex)
+-   li[li](/html/elements/li)
+-   listing[listing](/html/elements/listing)
+-   menu[menu](/html/elements/menu)
+-   ol[ol](/html/elements/ol)
+-   p[p](/html/elements/p)
+-   plainText[plainText](/html/elements/plainText)
+-   pre[pre](/html/elements/pre)
+-   ul[ul](/html/elements/ul)
+-   xmp[xmp](/html/elements/xmp)
+-   direction[direction](/css/properties/direction)

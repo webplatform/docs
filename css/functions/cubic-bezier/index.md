@@ -1,7 +1,10 @@
 ---
-title: cubic-bezier
+title: 'cubic-bezier'
 code_samples:
   - 'http://letmespellitoutforyou.com/samples/transit_timing.html'
+compatibility:
+  feature: cubic-bezier
+  topic: css
 readiness: 'Ready to Use'
 summary: 'An animation timing function that describes a progression of movement as a cubic-bezier curve.'
 tags:

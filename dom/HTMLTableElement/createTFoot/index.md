@@ -1,5 +1,5 @@
 ---
-title: createTFoot
+title: 'createTFoot'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
@@ -66,4 +66,4 @@ If a **tFoot** already exists for the [**table**](/html/elements/table), the **c
 
 ### Related pages
 
--   `table`
+-   table[table](/html/elements/table)

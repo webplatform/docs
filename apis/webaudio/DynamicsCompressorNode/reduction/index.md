@@ -1,5 +1,5 @@
 ---
-title: reduction
+title: 'reduction'
 readiness: 'Ready to Use'
 relationships:
   applies_to:

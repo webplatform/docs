@@ -1,5 +1,5 @@
 ---
-title: SVG deployment
+title: 'SVG deployment'
 notes:
   - 'Fix a couple of broken links'
 readiness: 'Almost Ready'

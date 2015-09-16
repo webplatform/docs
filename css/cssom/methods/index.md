@@ -1,5 +1,5 @@
 ---
-title: methods
+title: 'methods'
 readiness: 'Ready to Use'
 summary: 'Listing page for css/cssom methods.'
 tags:

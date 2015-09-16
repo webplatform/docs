@@ -1,5 +1,8 @@
 ---
-title: width
+title: 'width'
+compatibility:
+  feature: width
+  topic: css
 notes:
   - 'Add values, syntax, description,, compatibility.'
 readiness: 'In Progress'

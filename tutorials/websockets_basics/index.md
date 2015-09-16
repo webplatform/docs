@@ -1,5 +1,5 @@
 ---
-title: Using WebSocket
+title: 'Using WebSocket'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/websockets/basics/)'
 readiness: 'Ready to Use'
