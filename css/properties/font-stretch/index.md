@@ -170,7 +170,7 @@ narrower (Internet Explorer only)
 
 -   [font](/html/elements/font)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

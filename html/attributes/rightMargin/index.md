@@ -38,6 +38,6 @@ If the value is an empty string, the right margin is on the right edge. The valu
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `body`

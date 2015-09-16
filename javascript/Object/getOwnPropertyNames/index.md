@@ -16,8 +16,6 @@ Returns the names of the own properties of an object. The own properties of an o
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Object.getOwnPropertyNames( object )
 
 **object**

@@ -41,6 +41,6 @@ The format of the `result` data depends on which of the read methods was used to
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `FileReader`

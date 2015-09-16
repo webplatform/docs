@@ -49,6 +49,6 @@ The **title** is a string used to identify a style sheet.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `styleSheet`

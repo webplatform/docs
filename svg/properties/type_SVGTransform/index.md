@@ -19,6 +19,6 @@ uri: 'svg/properties/type (SVGTransform)'
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGTransform**](/svg/objects/SVGTransform)

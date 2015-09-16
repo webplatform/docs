@@ -19,7 +19,7 @@ uri: svg/properties/textLength
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGTextElement**](/svg/elements/text)
 -   [**SVGTextPositioningElement**](/svg/elements/textPositioning)

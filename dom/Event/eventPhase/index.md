@@ -57,7 +57,7 @@ During the capturing phase, events are dispatched to parent elements before obje
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

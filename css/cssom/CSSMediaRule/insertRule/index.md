@@ -219,7 +219,7 @@ The index of the newly inserted rule within the media block's rule collection.
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSMediaRule`
 -   `Reference`

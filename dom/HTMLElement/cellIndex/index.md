@@ -42,7 +42,7 @@ Collection indexes are in the source order of the HTML document. When a cell spa
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `rowIndex`
 -   `sectionRowIndex`

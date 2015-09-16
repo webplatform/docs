@@ -25,7 +25,7 @@ Returns a CSS style object. The returned object is live; changes to the object r
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGAElement**](/svg/elements/a)
 -   [**SVGCircleElement**](/svg/elements/circle)

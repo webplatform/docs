@@ -16,8 +16,6 @@ Returns a pseudorandom number between 0 and 1.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.random( )
 
 ## Examples

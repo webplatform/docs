@@ -16,11 +16,7 @@ Converts all the alphabetic characters in a string to lowercase.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     strVariable.toLowerCase()
-
-<span class="language">JavaScript</span>
 
     "String Literal".toLowerCase()
 

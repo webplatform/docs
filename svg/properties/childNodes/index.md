@@ -19,6 +19,6 @@ uri: svg/properties/childNodes
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGElementInstance**](/svg/objects/SVGElementInstance)

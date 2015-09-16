@@ -16,8 +16,6 @@ Specifies the function that creates an object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     object.constructor
 
 ## Examples

@@ -71,7 +71,7 @@ Pick an amount to clip the bottom:
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

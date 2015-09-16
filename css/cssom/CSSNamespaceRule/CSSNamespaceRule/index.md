@@ -192,6 +192,6 @@ The **CSSNamespaceRule** object has these properties. {
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `IHTMLCSSNamespaceRule`

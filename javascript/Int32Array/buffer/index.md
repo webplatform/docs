@@ -16,8 +16,6 @@ Read-only. Gets the ArrayBuffer that is referenced by this array.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var arrayBuffer = int32Array.buffer;
 
 ## Examples

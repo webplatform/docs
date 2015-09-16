@@ -48,7 +48,7 @@ This property reflects the value of the Cascading Style Sheets (CSS) [**bottom*
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `runtimeStyle`
 -   `style`

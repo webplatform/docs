@@ -103,7 +103,7 @@ This property is read/write.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

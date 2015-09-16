@@ -52,7 +52,7 @@ Returns an object of type NumberNumber
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `media`
 -   `audio`

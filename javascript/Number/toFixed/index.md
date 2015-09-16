@@ -17,8 +17,6 @@ The toFixed() method formats a number to fixed-point notation (decimal).
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     toFixed([ fractionDigits ])
 
 **fractionDigits**

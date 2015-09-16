@@ -105,6 +105,6 @@ S\_OK
 
 -   [behavior](/css/properties/behavior)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `MediaQueryListListener`

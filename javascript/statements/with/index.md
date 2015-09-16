@@ -16,8 +16,6 @@ Establishes the default object for a statement. Disallowed in strict mode.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     with ( object ) {
          statements
     }

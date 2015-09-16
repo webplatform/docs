@@ -25,6 +25,6 @@ If you do not provide a **type** property, the value of **contentScriptType** on
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGScriptElement**](/svg/elements/script)

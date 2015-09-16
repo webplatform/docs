@@ -16,8 +16,6 @@ Returns or sets the numeric value associated with a specific error. The Error ob
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     object .number [ =  errorNumber ]
 
 **Object**

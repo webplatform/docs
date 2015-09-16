@@ -221,7 +221,7 @@ The **fontWeight** property of the [**currentStyle**](/css/cssom/currentStyle) o
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `currentStyle`
 -   `defaults`

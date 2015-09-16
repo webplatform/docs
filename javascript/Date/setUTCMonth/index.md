@@ -17,8 +17,6 @@ Sets the month value in the Date object using Universal Coordinated Time (UTC).
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.setUTCMonth( numMonth [ , dateVal ] )
 
 **dateObj**

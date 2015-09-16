@@ -41,7 +41,7 @@ Selector text can contain either a simple selector (such as 'H1') or a contextua
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `rule`
 -   `<b/>`

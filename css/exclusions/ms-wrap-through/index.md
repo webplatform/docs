@@ -59,7 +59,7 @@ You can use the **-ms-wrap-through** property to control the effect of exclusion
 
 -   **ms-wrap-through**
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `Internet Explorer 10 Guide for Developers: CSS Exclusions`

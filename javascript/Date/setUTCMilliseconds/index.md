@@ -17,8 +17,6 @@ Sets the milliseconds value in the Date object using Universal Coordinated Time 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.setUTCMilliseconds( numMilli )
 
 **dateObj**

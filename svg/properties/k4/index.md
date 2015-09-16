@@ -19,7 +19,7 @@ uri: svg/properties/k4
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFECompositeElement**](/svg/elements/feComposite)
 -   [**k3**](/svg/properties/k3)

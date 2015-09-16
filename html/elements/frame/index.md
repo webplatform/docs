@@ -60,6 +60,6 @@ If a user opens a Web folder inside a frame and then clicks something in the Web
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `frameSet`

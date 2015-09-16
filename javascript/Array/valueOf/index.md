@@ -17,8 +17,6 @@ Returns the primitive value of the specified object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     valueOf()
 
 ## Return Value

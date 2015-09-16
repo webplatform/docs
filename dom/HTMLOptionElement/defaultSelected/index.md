@@ -56,6 +56,6 @@ The property can be changed programmatically, but doing so has no effect on the 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `selected`

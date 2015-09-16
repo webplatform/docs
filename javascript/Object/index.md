@@ -16,8 +16,6 @@ Provides functionality common to all JavaScript objects.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     obj  = new Object( [ value ] )
 
 **obj**

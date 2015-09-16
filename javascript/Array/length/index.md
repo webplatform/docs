@@ -20,8 +20,6 @@ Basically specifies the number of elements (AKA length) in an Array object. This
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     arrayObj.length;
     arrayObj.length = numVar;
 

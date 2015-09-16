@@ -19,8 +19,6 @@ Returns a Boolean value indicating the state of the multiline flag ( m ) used wi
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     rgExp.multiline
 
 ## Examples

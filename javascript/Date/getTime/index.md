@@ -17,8 +17,6 @@ Gets the time value in milliseconds.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.getTime()
 
 ## Return Value

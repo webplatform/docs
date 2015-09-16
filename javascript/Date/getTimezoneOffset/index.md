@@ -17,8 +17,6 @@ Gets the difference in minutes between the time on the local computer and Univer
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.getTimezoneOffset()
 
 ## Return Value

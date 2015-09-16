@@ -16,8 +16,6 @@ Returns the tangent of a number.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.tan( radians )
 
 ## Examples

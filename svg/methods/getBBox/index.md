@@ -25,7 +25,7 @@ The **getBBox** method returns the actual bounding box at the time when the meth
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGClipPathElement**](/svg/elements/clipPath)
 -   [**SVGSVGElement**](/svg/elements/svg)

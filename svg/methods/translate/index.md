@@ -25,6 +25,6 @@ uri: svg/methods/translate
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGMatrix**](/svg/objects/SVGMatrix)

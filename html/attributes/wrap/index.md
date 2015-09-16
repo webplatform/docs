@@ -67,6 +67,6 @@ To detect the difference between **soft** and **hard** you must submit the conte
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `textArea`

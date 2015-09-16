@@ -123,6 +123,6 @@ The **SVGFEMergeNodeElement** object has these properties:
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**feMerge**](/svg/elements/feMerge)

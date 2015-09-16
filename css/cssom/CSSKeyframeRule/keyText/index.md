@@ -237,6 +237,6 @@ element.keyText = value;
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSKeyframeRule`

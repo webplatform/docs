@@ -19,7 +19,7 @@ uri: svg/properties/href
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPatternElement**](/svg/elements/patterrn)
 -   [**SVGUseElement**](/svg/elements/use)

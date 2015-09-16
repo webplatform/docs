@@ -46,6 +46,6 @@ The following example shows a form that has required fields but won't be validat
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLFormElement`

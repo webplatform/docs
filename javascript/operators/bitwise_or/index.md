@@ -16,8 +16,6 @@ Performs a bitwise OR on two expressions.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result = expression1 | expression2
 
 **result**

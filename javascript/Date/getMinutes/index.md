@@ -17,8 +17,6 @@ Gets the minutes of a Date object, using local time.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.getMinutes()
 
 ## Return Value

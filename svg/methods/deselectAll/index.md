@@ -19,6 +19,6 @@ uri: svg/methods/deselectAll
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

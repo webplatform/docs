@@ -16,8 +16,6 @@ Sets up blocks of code in which errors that are thrown in one block are handled 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     try {
       tryStatements
     } catch ( exception ) {

@@ -17,8 +17,6 @@ Gets the day-of-the-month, using local time.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.getDate()
 
 ## Return Value

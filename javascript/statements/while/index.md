@@ -16,8 +16,6 @@ Executes a statement or series of statements while a specified condition is true
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     while ( expression ) {
       statements
     }

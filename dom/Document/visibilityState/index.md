@@ -98,7 +98,7 @@ Use the [**visibilitychange**](/dom/Document/visibilitychange) property to track
 
 -   [HTML5 Techniques for Optimizing Mobile Performance](/tutorials/mobile_opt_and_perf)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `hidden`
 -   `visibilitychange`

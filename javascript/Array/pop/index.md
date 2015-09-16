@@ -17,8 +17,6 @@ Removes the last element from an array and returns it.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     pop( )
 
 ## Examples

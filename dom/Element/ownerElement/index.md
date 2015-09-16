@@ -46,6 +46,6 @@ This property is new as of Windows Internet Explorer 8.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `About the W3C Document Object Model`

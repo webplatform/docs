@@ -70,4 +70,4 @@ The **createCDATASection** method is supported only for XML documents.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages

@@ -25,7 +25,7 @@ When *p* is **objectBoundingBox** and the [**gradientTransform**](/svg/propertie
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGGradientElement**](/svg/elements/gradient)
 -   [**SVGLinearGradientElement**](/svg/elements/linearGradient)

@@ -16,8 +16,6 @@ Gets a new Uint16Array view of the ArrayBuffer Object store for this array, spec
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var newUint16Array = uint16Array.subarray(begin, end);
 
 **newUint16Array**

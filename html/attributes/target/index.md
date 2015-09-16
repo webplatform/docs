@@ -87,7 +87,7 @@ The window **name** is an optional argument in the [**open**](/w/index.php?title
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `area`

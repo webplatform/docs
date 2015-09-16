@@ -27,7 +27,7 @@ HRESULT value = object.put\_valueAsString(BSTR v);HRESULT value = object.get\_va
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGAngle**](/svg/objects/SVGAngle)
 -   [**SVGLength**](/svg/objects/SVGLength)

@@ -235,7 +235,7 @@ The document does not automatically reflow when the rule is removed. To see the 
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `IHTMLStyleSheet`
 -   `styleSheet`

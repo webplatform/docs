@@ -92,7 +92,7 @@ The **onloadedmetadata** event is raised when enough of the resource has been ob
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `audioApi`
 -   `audioElement`

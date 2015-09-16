@@ -16,8 +16,6 @@ Returns the greatest integer less than or equal to its numeric argument.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.floor( number )
 
 ## Examples

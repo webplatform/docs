@@ -16,8 +16,6 @@ Deletes a property from an object, or removes an element from an array.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     delete expression
 
 ## Examples

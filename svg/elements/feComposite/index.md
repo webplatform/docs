@@ -133,7 +133,7 @@ The **SVGFECompositeElement** object has these properties:
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**k4**](/svg/properties/k4)
 -   [**k3**](/svg/properties/k3)

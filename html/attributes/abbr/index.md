@@ -43,7 +43,7 @@ The global title attribute can be used in the `abbr` tag to show the full versio
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `td`
 -   `th`

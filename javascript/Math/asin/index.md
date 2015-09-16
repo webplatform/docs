@@ -16,8 +16,6 @@ Returns the arcsine of a number.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.asin( number )
 
 **number**

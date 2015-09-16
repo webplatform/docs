@@ -25,6 +25,6 @@ Do not set the **contentScriptType** property. If you try to set this property, 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

@@ -219,6 +219,6 @@ Code within the **script** block that is not contained within a function is exec
 
 [\<noscript\> tag](/html/elements/noscript)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `XML Data Islands`

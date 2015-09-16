@@ -205,7 +205,7 @@ The CSS for the above layout is described below. Notice the use of the `float`s.
 
 -   [min-width](/css/properties/min-width)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

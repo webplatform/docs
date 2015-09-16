@@ -27,7 +27,7 @@ If you do not specify the **gradientTransform** property, the gradient effect wi
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGGradientElement**](/svg/elements/gradient)
 -   [**SVGLinearGradientElement**](/svg/elements/linearGradient)

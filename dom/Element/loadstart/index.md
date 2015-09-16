@@ -92,7 +92,7 @@ This event is dispatched first and occurs only one time. To invoke this event, d
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `audioApi`
 -   `audioElement`

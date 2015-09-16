@@ -19,8 +19,6 @@ Returns a Boolean value indicating the state of the ignoreCase flag ( i ) used w
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     rgExp.ignoreCase
 
 ## Examples

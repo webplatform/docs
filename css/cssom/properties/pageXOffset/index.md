@@ -193,7 +193,7 @@ When you scroll a document horizontally, some content is moved outside the view 
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `window`
 -   `pageYOffset`

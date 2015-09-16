@@ -91,7 +91,7 @@ For Internet Explorer 5.01 or above, the attribute may be set to any value in t
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `abbr`

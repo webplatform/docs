@@ -16,8 +16,6 @@ Returns the actual value of individual arguments from an arguments object return
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     [ function . ] arguments[ [0|1|2|...| n ] ]
 
 **function**

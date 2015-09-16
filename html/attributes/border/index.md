@@ -51,7 +51,7 @@ Setting a border to `0` or omitting the attribute causes no border to be display
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `object`
 -   `img`

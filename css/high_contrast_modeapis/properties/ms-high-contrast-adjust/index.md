@@ -81,7 +81,7 @@ The **-ms-high-contrast-adjust** property works with the [-ms-high-contrast](/cs
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `-ms-high-contrast media feature`

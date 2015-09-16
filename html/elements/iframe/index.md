@@ -118,6 +118,6 @@ Using Transparency with Inline Floating Frames
 
 <http://www.w3.org/TR/html-markup/iframe.html#iframe>
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Using IFRAME Elements`

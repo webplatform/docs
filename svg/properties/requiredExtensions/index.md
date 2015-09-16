@@ -25,7 +25,7 @@ Each language extension is identified by a [IRI](http://go.microsoft.com/fwlink/
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGClipPathElement**](/svg/elements/clipPath)
 -   [**SVGPatternElement**](/svg/elements/patterrn)

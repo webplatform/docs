@@ -61,7 +61,7 @@ The following code example shows how to set a text selection's start and end pos
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `input type=text`
 -   `textArea`

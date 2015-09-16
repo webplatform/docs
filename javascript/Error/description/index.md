@@ -16,8 +16,6 @@ Returns or sets the descriptive string associated with a specific error.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     object .description  [ =  stringExpression ]
 
 **object**

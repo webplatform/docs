@@ -21,6 +21,6 @@ HRESULT value = object.put\_pixelUnitToMillimeterY(float vPixelUnitY);HRESULT va
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

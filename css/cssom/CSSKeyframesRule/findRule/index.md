@@ -263,6 +263,6 @@ If a rule with the given key does not exist, the **findRule** method does nothin
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSKeyframesRule`

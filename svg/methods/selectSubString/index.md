@@ -25,7 +25,7 @@ The **selectSubString** method can raise a [**DOMException**](/dom/DOMException)
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGTextElement**](/svg/elements/text)
 -   [**SVGTextPositioningElement**](/svg/elements/textPositioning)

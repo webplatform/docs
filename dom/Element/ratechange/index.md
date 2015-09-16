@@ -100,7 +100,7 @@ This event is raised when the value of [**playbackRate**](/dom/HTMLMediaElement/
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `audioApi`
 -   `audioElement`

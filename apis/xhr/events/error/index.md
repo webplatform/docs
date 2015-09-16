@@ -96,7 +96,7 @@ This method has no parameters.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `XDomainRequest`
 -   `Reference`

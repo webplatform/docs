@@ -214,7 +214,7 @@ This property reflects the current state of the style sheet and not its initial 
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

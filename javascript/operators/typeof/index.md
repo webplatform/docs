@@ -16,8 +16,6 @@ Returns a string that identifies the data type of an expression.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     typeof [ ( ] expression [ ) ] ;
 
 ## Examples

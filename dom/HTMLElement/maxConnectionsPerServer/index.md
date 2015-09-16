@@ -41,7 +41,7 @@ The maximum number of connections per server returned by the **maxConnectionsPer
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `window`
 -   `Connectivity Enhancements in Internet Explorer 8`

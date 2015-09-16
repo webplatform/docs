@@ -19,8 +19,6 @@ Compiles a regular expression into an internal format for faster execution.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     rgExp.compile( pattern , [ flags ] )
 
 **rgExp**

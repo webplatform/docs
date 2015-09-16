@@ -205,7 +205,7 @@ The list retrieved includes both rule sets (at-rules. Rules are returned in the 
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `styleSheet`
 -   `CSSMediaRule`

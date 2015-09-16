@@ -21,7 +21,7 @@ uri: svg/methods/getSVGDocument
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   HTMLFrameElement
 -   HTMLIFrameElement

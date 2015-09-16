@@ -31,6 +31,6 @@ This property relates to the use of 2×3 matrices of the form:
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGMatrix**](/svg/objects/SVGMatrix)

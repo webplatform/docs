@@ -38,6 +38,6 @@ If the value is set to "", the bottom margin is set exactly on the bottom edge. 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `body`

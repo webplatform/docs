@@ -88,6 +88,6 @@ Returns an object of type DOM NodeDOM Node
 
 -   [behavior](/css/properties/behavior)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `MediaQueryList`

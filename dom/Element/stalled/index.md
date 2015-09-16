@@ -92,7 +92,7 @@ This event occurs if three seconds have passed since the last packet was downloa
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `audioApi`
 -   `audioElement`

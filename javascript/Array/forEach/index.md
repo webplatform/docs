@@ -17,8 +17,6 @@ Performs the specified action for each element in an array.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     forEach( callbackfn [, thisArg ])
 
 **callbackfn**

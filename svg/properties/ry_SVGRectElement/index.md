@@ -29,7 +29,7 @@ If [**rx**](/svg/properties/rx_(SVGRectElement)) is greater than half of the wid
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGRectElement**](/svg/elements/rect)
 -   [**ellipse**](/svg/elements/ellipse)

@@ -46,7 +46,7 @@ The **legend** tag is used only within a **fieldSet** tag. The contents of the *
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `caption`
 -   `legend`

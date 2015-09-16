@@ -42,6 +42,6 @@ The following example displays a progress bar with a **max** value of 100. **Not
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLProgressElement`

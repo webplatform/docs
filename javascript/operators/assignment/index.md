@@ -18,8 +18,6 @@ The assignment operator takes the value of the right operand and assigns it to t
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result = expression;
 
 **result**

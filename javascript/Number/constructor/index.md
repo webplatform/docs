@@ -16,8 +16,6 @@ Specifies the function that creates a Number.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     number.constructor
 
 ## Examples

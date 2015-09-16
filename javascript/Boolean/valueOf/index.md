@@ -16,8 +16,6 @@ Returns the primitive value of the specified boolean.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     boolean.valueOf()
 
 ## Return Value

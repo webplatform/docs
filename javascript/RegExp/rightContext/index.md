@@ -16,8 +16,6 @@ Returns the characters from the position following the last match to the end of 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     RegExp.rightContext
 
 ## Examples

@@ -18,8 +18,6 @@ Provides an identifier for a statement.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     label :
     statements
 

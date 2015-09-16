@@ -16,8 +16,6 @@ Gets the Uint32 value at the specified byte offset from the start of the view. T
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var testInt = dataView.get Uint32 (byteOffset, littleEndian);
 
 **testInt**

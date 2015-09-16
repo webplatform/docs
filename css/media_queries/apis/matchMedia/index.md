@@ -107,6 +107,6 @@ The following example creates a media query that checks whether the width or hei
 
 -   [behavior](/css/properties/behavior)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Window`

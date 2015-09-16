@@ -92,7 +92,7 @@ When the [**load**](/dom/HTMLMediaElement/load) method is called, the media elem
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `audioApi`
 -   `audioElement`

@@ -39,7 +39,7 @@ The **linkColor** property can be set by using the **body** object's [**onload**
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `alinkColor`

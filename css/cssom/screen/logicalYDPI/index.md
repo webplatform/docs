@@ -78,7 +78,7 @@ There are no standards that apply here.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `screen`
 -   `Reference`

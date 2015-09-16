@@ -19,6 +19,6 @@ uri: svg/properties/align
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPreserveAspectRatio**](/svg/objects/SVGPreserveAspectRatio)

@@ -27,6 +27,6 @@ If you do not provide a type, the value of **contentStyleType** on the [**svg**]
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGStyleElement**](/svg/elements/style)

@@ -25,6 +25,6 @@ Every [**SVGElementInstance**](/svg/objects/SVGElementInstance) object has a par
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGElementInstance**](/svg/objects/SVGElementInstance)

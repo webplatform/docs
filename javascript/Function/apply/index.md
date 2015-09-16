@@ -16,8 +16,6 @@ Calls the function, substituting the specified object for the this value of the 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     apply([ thisObj [, argArray ]])
 
 **thisObj**

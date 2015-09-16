@@ -95,7 +95,7 @@ The object that the event is specified for is loaded. To invoke this event, do o
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGAElement**](/svg/elements/a)
 -   [**SVGCircleElement**](/svg/elements/circle)

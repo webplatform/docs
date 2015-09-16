@@ -118,7 +118,7 @@ If all cells in a particular row have the **empty-cells** value set to **hide**,
 
 -   [th](/html/elements/th)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

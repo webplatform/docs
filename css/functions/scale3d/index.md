@@ -85,7 +85,7 @@ div {
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`

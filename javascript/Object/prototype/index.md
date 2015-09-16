@@ -16,8 +16,6 @@ Returns a reference to the prototype for a class of objects.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     objectName.prototype
 
 ## Examples

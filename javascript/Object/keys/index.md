@@ -16,8 +16,6 @@ Returns the names of the enumerable properties and methods of an object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Object.keys( object )
 
 **object**

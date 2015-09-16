@@ -16,8 +16,6 @@ Returns a string representation of an error.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     error.toString()
 
 **date**

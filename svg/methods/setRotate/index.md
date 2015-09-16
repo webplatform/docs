@@ -25,6 +25,6 @@ The **setRotate** method can raise a [**DOMException**](/dom/DOMException) excep
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGTransform**](/svg/objects/SVGTransform)

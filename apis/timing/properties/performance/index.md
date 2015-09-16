@@ -54,6 +54,6 @@ The **performance** property returns a hosting area for performance timing objec
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Window`

@@ -51,7 +51,7 @@ Whether the event was created by a trusted source.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

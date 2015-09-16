@@ -57,7 +57,7 @@ eg. iframe[seamless]{border:none}
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `frame`
 -   `frameSet`

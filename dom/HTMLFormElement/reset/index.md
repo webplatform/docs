@@ -86,6 +86,6 @@ The **reset** method raises the **onreset** event on the form. The **reset** met
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `form`

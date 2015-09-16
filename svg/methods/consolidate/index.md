@@ -19,6 +19,6 @@ uri: svg/methods/consolidate
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGTransformList**](/svg/objects/SVGTransformList)

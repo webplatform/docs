@@ -16,8 +16,6 @@ Adds the value of one numeric expression to another, or concatenates two strings
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result = expression1 + expression2;
 
 **result**

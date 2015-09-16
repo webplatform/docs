@@ -17,8 +17,6 @@ Gets the month, using local time.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.getMonth()
 
 ## Return Value

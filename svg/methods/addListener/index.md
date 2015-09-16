@@ -19,6 +19,6 @@ uri: svg/methods/addListener
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGElementInstance**](/svg/objects/SVGElementInstance)

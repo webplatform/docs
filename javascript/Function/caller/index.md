@@ -16,8 +16,6 @@ Gets the function that invoked the current function.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     functionName.caller
 
 ## Examples

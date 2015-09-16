@@ -25,6 +25,6 @@ When [**use**](/svg/elements/use) elements are nested, the corresponding **use**
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGElementInstance**](/svg/objects/SVGElementInstance)

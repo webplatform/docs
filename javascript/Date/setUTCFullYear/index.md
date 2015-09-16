@@ -17,8 +17,6 @@ Sets the year value in the Date object using Universal Coordinated Time (UTC).
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.setUTCFullYear( numYear [ ,  numMonth [ , numDate ]] )
 
 **dateObj**

@@ -64,6 +64,6 @@ If a **tFoot** already exists for the [**table**](/html/elements/table), the **c
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`

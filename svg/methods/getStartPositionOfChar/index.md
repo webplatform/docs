@@ -27,7 +27,7 @@ The character's current text position considers the effects of any inter-charact
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGTextElement**](/svg/elements/text)
 -   [**SVGTextPositioningElement**](/svg/elements/textPositioning)

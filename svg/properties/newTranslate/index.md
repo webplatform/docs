@@ -19,6 +19,6 @@ uri: svg/properties/newTranslate
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGZoomEvent**](/svg/objects/SVGZoom)

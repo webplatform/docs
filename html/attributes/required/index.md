@@ -51,7 +51,7 @@ The attribute can be set on text, text area, URL, email, select, checkbox, or ra
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLInputElement`
 -   `HTMLSelectElement`

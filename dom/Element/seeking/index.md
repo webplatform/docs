@@ -92,7 +92,7 @@ The ****seeking**** property changes to VARIANT\_TRUE during this operation. To 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `audioApi`
 -   `audioElement`

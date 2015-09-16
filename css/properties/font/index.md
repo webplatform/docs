@@ -170,7 +170,7 @@ If the string does not contain a value for a component property, that property i
 
 -   MDN: [font @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

@@ -87,7 +87,7 @@ There is no functionality implemented for the **compact** property for the **ul*
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `menu`
 -   `dir`

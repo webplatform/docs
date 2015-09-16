@@ -44,7 +44,7 @@ The following example displays all attributes in the [**ValidityState**](/dom/Va
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLObjectElement`
 -   `HTMLTextAreaElement`

@@ -121,7 +121,7 @@ For more information on the CSS styles that can be inherited when **viewInheritS
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `defaultSelected`
 -   `Conceptual`

@@ -193,6 +193,6 @@ The property returns the URL if the style sheet is a **link**. If the style shee
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `styleSheet`

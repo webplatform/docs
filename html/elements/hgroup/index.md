@@ -79,7 +79,7 @@ Windows Internet Explorer 9. The **hgroup** element is only supported for webpa
 
 <http://www.w3.org/html/wg/drafts/html/CR/obsolete.html#hgroup>
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `article`

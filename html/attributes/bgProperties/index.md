@@ -45,6 +45,6 @@ The property specifies whether the picture is a fixed watermark or scrolls with 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `body`

@@ -82,7 +82,7 @@ After the event is dispatched, its properties cannot be changed.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

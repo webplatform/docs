@@ -21,8 +21,6 @@ The deprecated **unescape()** function decodes a string that is usually encoded 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     unescape(str)
 
 **str**

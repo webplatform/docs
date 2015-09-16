@@ -52,7 +52,7 @@ The [**firstPage**](/w/index.php?title=dom/methods/firstPage&action=edit&redlink
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`
 -   `Reference`

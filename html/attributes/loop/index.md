@@ -68,7 +68,7 @@ The following are descriptions of how the **loop** property works for some bound
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `bgSound`
 -   `img`

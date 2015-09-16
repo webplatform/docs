@@ -25,6 +25,6 @@ Random number generators often use a seed. If you want to change the starting se
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFETurbulenceElement**](/svg/elements/feTurbulence)

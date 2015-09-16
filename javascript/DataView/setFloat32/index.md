@@ -16,8 +16,6 @@ Sets the Float32 value at the specified byte offset from the start of the view. 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dataView.setFloat32 (byteOffset, value, littleEndian);
 
 **byteOffset**

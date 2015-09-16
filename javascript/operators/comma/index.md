@@ -16,8 +16,6 @@ The comma operator (,) causes two expressions to be executed sequentially.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     expression1 , expression2
 
 **expression1**

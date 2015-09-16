@@ -45,7 +45,7 @@ This example uses the **FRAME** attribute to render different border frames.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`
 -   `rules`

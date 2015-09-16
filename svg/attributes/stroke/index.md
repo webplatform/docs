@@ -61,7 +61,7 @@ This example shows how to draw a circle with a red stroke and no fill color.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)

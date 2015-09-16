@@ -93,7 +93,7 @@ This is the last event raised by media playback. To invoke this event, do one of
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `audioApi`
 -   `audioElement`

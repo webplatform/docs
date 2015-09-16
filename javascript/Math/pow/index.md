@@ -16,8 +16,6 @@ Returns the value of a base expression taken to a specified power.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.pow( base , exponent )
 
 **base**

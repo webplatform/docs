@@ -55,7 +55,7 @@ The **placeholder** attribute can be used on text or text area input controls, o
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLInputElement`
 -   `HTMLTextAreaElement`

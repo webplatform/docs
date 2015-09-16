@@ -87,7 +87,7 @@ grid-column-end: 3;
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

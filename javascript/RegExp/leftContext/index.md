@@ -16,8 +16,6 @@ Returns the characters from the beginning of a searched string up to the positio
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     RegExp.leftContext
 
 ## Examples

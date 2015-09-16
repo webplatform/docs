@@ -83,7 +83,7 @@ The document search order is depth-first. This method returns the first element 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [Document](/dom/Document)
 -   [a](/html/elements/a)

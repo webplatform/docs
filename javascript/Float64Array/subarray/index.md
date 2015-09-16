@@ -16,8 +16,6 @@ Gets a new Float64Array view of the ArrayBuffer Object store for this array, spe
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var newFloat64Array = float64Array.subarray(begin, end);
 
 **newFloat64Array**

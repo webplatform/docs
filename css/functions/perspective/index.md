@@ -48,7 +48,7 @@ For more information about transformation matrices, see [Mathematical Descriptio
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`

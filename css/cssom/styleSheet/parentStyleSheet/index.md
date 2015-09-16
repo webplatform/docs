@@ -44,6 +44,6 @@ Parameter *p* receives **NULL** if the style sheet is part of a **link** or **st
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `styleSheet`

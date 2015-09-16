@@ -16,8 +16,6 @@ Gets the Float64 value at the specified byte offset from the start of the view. 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var testFloat = dataView.getFloat64(byteOffset, littleEndian);
 
 **testFloat**

@@ -65,7 +65,7 @@ tree
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Accessible Rich Internet Applications (ARIA)`
 -   `W3C ARIA-Multiselect`

@@ -53,7 +53,7 @@ The [**dataFld**](/html/attributes/dataFld) property is not available on **param
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `applet`

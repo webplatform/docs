@@ -19,8 +19,6 @@ References the function which created the instance of the Array object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     arrayObj.constructor
 
 ## Return Value

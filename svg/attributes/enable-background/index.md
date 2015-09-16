@@ -44,6 +44,6 @@ The optional *x*, *y*, *width*, *height* parameters on the new value are numeric
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)

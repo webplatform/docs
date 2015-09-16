@@ -45,6 +45,6 @@ This event is dispatched when the load ends due to an error or the load ends suc
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `FileReader`

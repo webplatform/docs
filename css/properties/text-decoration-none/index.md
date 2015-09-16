@@ -69,7 +69,7 @@ VARIANT\_FALSE
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `defaultSelected`
 -   `runtimeStyle`

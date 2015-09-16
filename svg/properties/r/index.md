@@ -64,6 +64,6 @@ The following code example creates a 200 × 200 pixel viewport and draws a red, 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGCircleElement**](/svg/elements/circle)

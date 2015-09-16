@@ -92,7 +92,7 @@ This event is raised when the [**seeking**](/dom/Element/seeking) property chang
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `audioApi`
 -   `audioElement`

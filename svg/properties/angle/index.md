@@ -27,7 +27,7 @@ When you use angles in an SVG attribute, the **angle** property is defined as **
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPathSegArcAbs**](/svg/objects/SVGPathSegArcAbs)
 -   [**SVGPathSegArcRel**](/svg/objects/SVGPathSegArcRel)

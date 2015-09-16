@@ -226,7 +226,7 @@ The following example shows the use of the [**min**](/html/attributes/min), [**m
 -   <http://dev.opera.com/articles/view/new-form-features-in-html5/#input-datetime>
 -   <http://www.quirksmode.org/html5/inputs.html>
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLInputElement`
 -   `input type=number`

@@ -17,8 +17,6 @@ Sets the numeric day-of-the-month value of the Date object using local time.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.setDate( numDate )
 
 **dateObj**

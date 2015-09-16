@@ -27,6 +27,6 @@ If provided, filterRes indicates exactly how many pixels in X and Y are used for
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFilterElement**](/svg/elements/filter)

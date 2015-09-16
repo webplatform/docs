@@ -41,6 +41,6 @@ An object's constructor initializes the object's properties and provides access 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `screen`

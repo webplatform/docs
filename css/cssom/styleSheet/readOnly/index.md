@@ -51,7 +51,7 @@ You cannot modify style sheets obtained through a **link** object or the [**@imp
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `styleSheet`
 -   `rule`

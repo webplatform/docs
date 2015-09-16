@@ -16,8 +16,6 @@ An intrinsic object that provides functions to convert JavaScript values to and 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     JSON.[method]
 
 **Method**

@@ -19,6 +19,6 @@ uri: svg/properties/media
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGStyleElement**](/svg/elements/style)

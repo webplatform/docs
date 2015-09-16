@@ -16,8 +16,6 @@ Returns a reference to the prototype for an error.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     error.prototype
 
 ## Examples

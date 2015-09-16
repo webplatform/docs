@@ -19,6 +19,6 @@ uri: svg/methods/createSVGNumber
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

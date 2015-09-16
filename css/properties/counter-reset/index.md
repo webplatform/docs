@@ -119,7 +119,7 @@ The **counter-reset** attribute can contain a list of one or more counters, each
 
 -   [object-fit](/css/properties/object-fit)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

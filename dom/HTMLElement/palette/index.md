@@ -32,6 +32,6 @@ element.palette = value;
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `embed`

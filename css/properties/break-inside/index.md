@@ -193,7 +193,7 @@ h2, h3 {
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

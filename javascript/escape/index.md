@@ -18,8 +18,6 @@ The deprecated **escape()** function encodes a string so it can be read on all c
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     escape(str)
 
 **str**

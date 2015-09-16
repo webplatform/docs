@@ -237,6 +237,6 @@ Windows Internet Explorer does not render the **standby** message while loading 
 -   <http://dev.w3.org/html5/html4-differences/>
 -   <http://reference.sitepoint.com/html/object/standby>
 
-### Related pages (MSDN)
+### Related pages
 
 -   `object`

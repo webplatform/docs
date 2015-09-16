@@ -59,7 +59,7 @@ The purpose of the **value** property depends on the type of control as describe
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `input`
 -   `input type=checkbox`

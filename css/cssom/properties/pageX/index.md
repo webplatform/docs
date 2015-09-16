@@ -217,7 +217,7 @@ The **pageX** property is equivalent to the [**clientX**](/w/index.php?title=dom
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `DragEvent`
 -   `MouseWheelEvent`

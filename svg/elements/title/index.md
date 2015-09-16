@@ -76,6 +76,6 @@ The **SVGTitleElement** object has these properties:
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGDescElement**](/svg/elements/desc)

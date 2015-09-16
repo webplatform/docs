@@ -16,8 +16,6 @@ Exits from the current function and returns a value from that function.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     return [ ( ][ expression ][ ) ];
 
 ## Examples

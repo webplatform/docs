@@ -17,8 +17,6 @@ Gets the milliseconds of a Date, using local time.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.getMilliseconds()
 
 ## Return Value

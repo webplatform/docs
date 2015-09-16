@@ -25,6 +25,6 @@ Using the above terminology, the follow pseudo-code describes the order of the t
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPoint**](/svg/objects/SVGPoint)

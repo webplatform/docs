@@ -23,6 +23,6 @@ uri: svg/methods/multiply
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGMatrix**](/svg/objects/SVGMatrix)

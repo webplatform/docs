@@ -16,8 +16,6 @@ Returns a date as a string value appropriate to the host environment's current l
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     toLocaleString()
 
 ## Examples

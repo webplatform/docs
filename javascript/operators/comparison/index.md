@@ -16,8 +16,6 @@ Returns a Boolean value indicating the result of the comparison.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     expression1 comparisonoperator expression2
 
 **expression1**

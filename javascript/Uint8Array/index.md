@@ -16,15 +16,9 @@ A typed array of 8-bit unsigned integer values. The contents are initialized to 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     uint8Array = new Uint8Array( length );
 
-<span class="language">JavaScript</span>
-
     uintArray = new Uint8Array( array );
-
-<span class="language">JavaScript</span>
 
     uintArray = new Uint8Array( buffer , byteOffset , length );
 

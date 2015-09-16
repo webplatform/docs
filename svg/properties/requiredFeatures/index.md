@@ -21,7 +21,7 @@ HRESULT value = object.get\_requiredFeatures(ISVGStringList\*\* pFeatureList);
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGClipPathElement**](/svg/elements/clipPath)
 -   [**SVGPatternElement**](/svg/elements/patterrn)

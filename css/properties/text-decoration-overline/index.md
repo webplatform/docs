@@ -77,7 +77,7 @@ Mouse over this text for an overline.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `defaultSelected`
 -   `runtimeStyle`

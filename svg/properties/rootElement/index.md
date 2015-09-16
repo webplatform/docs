@@ -21,6 +21,6 @@ HRESULT value = object.get\_rootElement(ISVGSVGElement\*\* p);
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**Document**](/dom/Document)

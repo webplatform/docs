@@ -181,6 +181,6 @@ This can allow for things such as autocompletion, or faster site search. It woul
 
 -   [time](/html/elements/time)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLInputElement`

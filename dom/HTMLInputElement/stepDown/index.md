@@ -67,7 +67,7 @@ Throws an INVALID\_STATE\_ERR exception if the control doesn't support **stepDow
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLInputElement`
 -   `stepUp`

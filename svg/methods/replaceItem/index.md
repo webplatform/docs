@@ -21,7 +21,7 @@ uri: svg/methods/replaceItem
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGAnimatedLengthList**](/svg/objects/SVGAnimatedLengthList)
 -   [**SVGAnimatedNumberList**](/svg/objects/SVGAnimatedNumberList)

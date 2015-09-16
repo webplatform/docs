@@ -51,7 +51,7 @@ Applets do not support version information supplied as part of the URL. If *a*, 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `applet`
 -   `object`

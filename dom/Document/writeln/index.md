@@ -58,7 +58,7 @@ In HTML, the carriage return is ignored unless it occurs in preformatted text. D
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `write`

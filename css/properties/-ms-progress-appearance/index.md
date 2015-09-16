@@ -104,7 +104,7 @@ Windows Server 2012
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `progress`
 -   `CSSStyleDeclaration`

@@ -69,7 +69,7 @@ The value of the **name** property corresponds to the *TopElement* attribute of 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `DocumentType`
 -   `publicId`

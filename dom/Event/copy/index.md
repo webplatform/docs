@@ -77,6 +77,6 @@ Default action
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Element`

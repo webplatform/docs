@@ -38,6 +38,6 @@ A **Submit** button has the same default behavior as a button created by using t
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `button`

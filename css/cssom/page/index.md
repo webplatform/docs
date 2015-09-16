@@ -50,6 +50,6 @@ The **page** object has these properties. {
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Print Template Reference`

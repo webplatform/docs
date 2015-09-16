@@ -94,6 +94,6 @@ The **getContext** method returns null if the *contextId* value is not supported
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `canvas`

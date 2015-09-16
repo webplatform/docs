@@ -77,7 +77,7 @@ When specified for an [**a**](/html/elements/a) element (also called an *anchor 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `area`

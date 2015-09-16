@@ -29,7 +29,7 @@ If multiple consecutive characters are rendered inseparably (for example, as a s
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGTextElement**](/svg/elements/text)
 -   [**SVGTextPositioningElement**](/svg/elements/textPositioning)

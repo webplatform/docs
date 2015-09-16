@@ -43,7 +43,7 @@ While similar to [**DOMException**](/dom/DOMException) objects, **DOMError** obj
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `DOMException`
 -   `DOM Error Codes`

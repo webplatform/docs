@@ -201,7 +201,7 @@ The **cssFloat** attribute can be set for elements that generate boxes that are 
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

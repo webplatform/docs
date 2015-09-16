@@ -60,6 +60,6 @@ For the same reason, the \<﻿wbr﻿\> element does not introduce a hyphen at th
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `br`

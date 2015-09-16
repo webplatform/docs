@@ -25,6 +25,6 @@ If you do not specify the **maskContentUnits** attribute, the **userSpaceOnUse**
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGMaskElement**](/svg/elements/mask)

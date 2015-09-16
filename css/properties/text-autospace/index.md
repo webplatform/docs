@@ -132,7 +132,7 @@ Windows Internet Explorer 8. The **-ms-text-autospace** attribute is an extensi
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

@@ -189,6 +189,6 @@ The property can be any string, including an empty string. Valid style sheets fo
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `style`

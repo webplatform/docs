@@ -16,8 +16,6 @@ Returns a Boolean value that indicates whether or not an object is an instance o
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result = object instanceof class
 
 **result**

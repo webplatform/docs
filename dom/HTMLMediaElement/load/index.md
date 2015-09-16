@@ -50,7 +50,7 @@ This method causes any pending tasks or events to be discarded.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `media`
 -   `audio`

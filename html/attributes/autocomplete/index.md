@@ -215,7 +215,7 @@ The following example shows an HTML form with autocomplete on. One of the inputs
 
 -   **autocomplete**
 
-### Related pages (MSDN)
+### Related pages
 
 -   `input type=password`
 -   `input type=text`

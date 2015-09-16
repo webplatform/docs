@@ -26,6 +26,6 @@ A graphics element is considered a match only if the same graphics element can b
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

@@ -52,7 +52,7 @@ In Microsoft Internet Explorer 3.02 and later, **name** is an attribute of **pa
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `param`
 -   `Conceptual`

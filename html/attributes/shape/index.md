@@ -72,7 +72,7 @@ In Microsoft Internet Explorer 6 and greater this property applies to the [**a*
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `area`

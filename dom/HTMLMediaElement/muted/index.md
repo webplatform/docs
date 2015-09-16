@@ -47,7 +47,7 @@ When the audio is muted, [**volume**](/dom/HTMLMediaElement/volume) is ignored.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `media`
 -   `audio`

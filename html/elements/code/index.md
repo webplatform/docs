@@ -297,6 +297,6 @@ When representing HTML code within a **code** element, remember to encode the re
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `samp`

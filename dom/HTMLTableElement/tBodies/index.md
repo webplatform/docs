@@ -51,6 +51,6 @@ This collection can be indexed by name ([**ID**](/html/attributes/id)). If dupli
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`

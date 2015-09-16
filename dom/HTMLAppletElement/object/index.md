@@ -60,7 +60,7 @@ The applet object.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `object`
 -   `applet`

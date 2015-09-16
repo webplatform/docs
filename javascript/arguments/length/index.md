@@ -16,8 +16,6 @@ Returns the actual number of arguments passed to a function by the caller.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     [ function.] arguments.length
 
 ## Examples

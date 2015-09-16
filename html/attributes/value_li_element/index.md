@@ -53,6 +53,6 @@ In an ordered list, the value is the number that precedes the list item. Changin
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `li`

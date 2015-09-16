@@ -19,7 +19,7 @@ uri: svg/properties/nearestViewportElement
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGClipPathElement**](/svg/elements/clipPath)
 -   [**SVGSVGElement**](/svg/elements/svg)

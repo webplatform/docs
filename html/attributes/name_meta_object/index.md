@@ -50,6 +50,6 @@ The **NAME** attribute typically is assigned one of the preceding well-defined v
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `meta`

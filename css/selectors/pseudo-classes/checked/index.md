@@ -166,7 +166,7 @@ The :checked selector applies to toggable elements (e.g. radio buttons or checkb
 
 -   [type](/css/selectors/type)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `:enabled`

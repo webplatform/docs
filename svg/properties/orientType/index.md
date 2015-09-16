@@ -19,7 +19,7 @@ uri: svg/properties/orientType
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 ### Reference
 

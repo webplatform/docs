@@ -57,7 +57,7 @@ By default, pressing an access key sets focus to an object. The object receives 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `abbr`

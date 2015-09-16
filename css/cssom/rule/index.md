@@ -57,6 +57,6 @@ The **rule** object defines a set of Cascading Style Sheets (CSS) attributes app
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `rules`

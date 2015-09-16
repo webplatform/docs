@@ -17,8 +17,6 @@ Gets the seconds of a Date object using Universal Coordinated Time (UTC).
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.getUTCSeconds()
 
 ## Return Value

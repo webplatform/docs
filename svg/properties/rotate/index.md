@@ -60,7 +60,7 @@ This supplemental rotation does not impact how the current text position is modi
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGTextElement**](/svg/elements/text)
 -   [**SVGTextPositioningElement**](/svg/elements/textPositioning)

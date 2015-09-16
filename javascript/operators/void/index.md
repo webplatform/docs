@@ -16,8 +16,6 @@ The void operator evaluates an expression and then returns undefined.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     void expression
 
 ## Examples

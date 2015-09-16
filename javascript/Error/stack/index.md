@@ -16,8 +16,6 @@ Gets or sets the error stack as a string that contains the stack trace frames.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     object .stack
 
 ## Examples

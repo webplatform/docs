@@ -190,7 +190,7 @@ Returns an object of type DOM NodeDOM Node
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `address`
 -   `blockquote`

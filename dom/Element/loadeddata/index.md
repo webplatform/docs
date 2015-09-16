@@ -92,7 +92,7 @@ The **onloadeddata** event is raised when data for the immediate current playbac
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `audioApi`
 -   `audioElement`

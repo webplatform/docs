@@ -16,15 +16,9 @@ A typed array of 64-bit float values. The contents are initialized to 0. If the 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     float64Array = new Float64Array( length );
 
-<span class="language">JavaScript</span>
-
     float64Array = new Float64Array( array );
-
-<span class="language">JavaScript</span>
 
     float64Array = new Float64Array( buffer , byteOffset , length );
 

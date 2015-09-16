@@ -57,7 +57,7 @@ If the style sheet comes from an [**@import**](/css/atrules/@import) rule, the *
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `styleSheet`
 -   `cssRules`

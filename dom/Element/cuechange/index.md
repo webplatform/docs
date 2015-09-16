@@ -92,7 +92,7 @@ In the following example, when a cuechange event is received on the track elemen
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLElement`
 -   `TextTrack`

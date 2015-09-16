@@ -56,7 +56,7 @@ The value of the [**src**](/html/attributes/src_(iframe,_embed,_xml)) attribute 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `img`
 -   `input type=image`

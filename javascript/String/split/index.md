@@ -16,8 +16,6 @@ Split a string into substrings using the specified separator and return the subs
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     stringObj.split([separator[, limit ]])
 
 **stringObj**

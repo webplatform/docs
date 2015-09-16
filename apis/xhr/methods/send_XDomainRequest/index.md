@@ -64,7 +64,7 @@ xdr.send("data to be processed");
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `IHTMLXDomainRequest`

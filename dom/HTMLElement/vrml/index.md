@@ -32,7 +32,7 @@ element.vrml = value;
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `img`
 -   `input type=image`

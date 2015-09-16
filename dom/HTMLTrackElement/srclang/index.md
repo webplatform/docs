@@ -47,7 +47,7 @@ The following example shows the [**kind**](/dom/HTMLTrackElement/kind) attribute
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Track element`
 -   `Track object`

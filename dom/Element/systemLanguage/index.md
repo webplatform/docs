@@ -41,7 +41,7 @@ The **systemLanguage** property reflects the language edition of the installed o
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `clientInformation`
 -   `navigator`

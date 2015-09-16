@@ -17,8 +17,6 @@ Sets the month value in the Date object using local time.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj. setMonth( numMonth [ , dateVal ])
 
 **dateObj**

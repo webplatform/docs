@@ -64,7 +64,7 @@ Individual control objects return a value to the server only if they have been s
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `option`
 -   `select`

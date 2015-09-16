@@ -23,7 +23,7 @@ uri: svg/properties/amplitude
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGComponentTransferFunctionElement**](/svg/objects/SVGComponentTransferFunctionElement)
 -   [**SVGFEFuncGElement**](/svg/elements/feFuncGelement)

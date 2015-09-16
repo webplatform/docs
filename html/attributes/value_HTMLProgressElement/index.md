@@ -42,6 +42,6 @@ When the **value** attribute is omitted, the [**progress**](/html/elements/progr
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLProgressElement`

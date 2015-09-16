@@ -41,7 +41,7 @@ When an object created with [**createObjectURL**](/apis/file/URL/createObjectURL
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `createObjectURL`
 -   `revokeObjectURL`

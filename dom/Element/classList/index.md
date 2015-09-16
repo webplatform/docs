@@ -56,6 +56,6 @@ A DOMTokenList representing the class names of the element.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLElement`

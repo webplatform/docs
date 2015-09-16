@@ -75,6 +75,6 @@ The returned matrix.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `MSCSSMatrix`

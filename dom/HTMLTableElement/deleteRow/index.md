@@ -71,6 +71,6 @@ If you delete a row from a **tFoot**, **tBody**, or **tHead**, you also remove t
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`

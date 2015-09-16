@@ -19,7 +19,7 @@ uri: svg/properties/points
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPolygonElement**](/svg/elements/polygon)
 -   [**SVGPolylineElement**](/svg/elements/polyline)

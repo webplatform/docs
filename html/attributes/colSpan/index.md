@@ -43,7 +43,7 @@ This property can be changed only after the page has been loaded. Windows Intern
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `td`
 -   `th`

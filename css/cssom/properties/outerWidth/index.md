@@ -187,7 +187,7 @@ element.outerWidth = value;
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `window`
 -   `Reference`

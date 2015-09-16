@@ -62,6 +62,6 @@ If only one **tFoot** element exists in the source, the **deleteTFoot** method d
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`

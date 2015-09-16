@@ -41,7 +41,7 @@ element.ended = value;
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `media`
 -   `audio`

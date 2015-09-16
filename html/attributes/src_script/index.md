@@ -38,6 +38,6 @@ A **script** element can use the **SRC** attribute to refer to code stored in an
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `script`

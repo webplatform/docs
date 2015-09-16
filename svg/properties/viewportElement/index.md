@@ -25,7 +25,7 @@ The returned element is often the nearest ancestor [**svg**](/svg/objects/SVGEle
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGClipPathElement**](/svg/elements/clipPath)
 -   [**SVGPatternElement**](/svg/elements/patterrn)

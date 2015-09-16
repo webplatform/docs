@@ -25,6 +25,6 @@ If the **pointsAtY** attribute is not specified, then the effect is as if a valu
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFESpotLightElement**](/svg/elements/feSpotlight)

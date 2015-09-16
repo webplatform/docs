@@ -50,6 +50,6 @@ This example uses the **SUB** element to change some of the text to a subscript 
 
 -   [html/elements/sup](/html/elements/sup)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `sup`

@@ -16,8 +16,6 @@ Returns the character position where the next match begins in a searched string.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     RegExp.lastIndex
 
 ## Examples

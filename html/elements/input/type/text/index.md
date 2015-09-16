@@ -74,7 +74,7 @@ The [**SIZE**](/html/attributes/size_(control)) attribute sets the number of vis
 
 <http://www.w3.org/TR/html-markup/input.text.html#input.text>
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `spellcheck`

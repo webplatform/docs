@@ -16,8 +16,6 @@ Finds the first substring match in a regular expression search.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     stringObj.search( rgExp )
 
 **stringObj**

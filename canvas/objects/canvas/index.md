@@ -60,6 +60,6 @@ The **canvas** object has these events. {
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CanvasRenderingContext2D`

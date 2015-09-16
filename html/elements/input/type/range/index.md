@@ -48,7 +48,7 @@ The **input type=range** object has these properties. {
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `input`

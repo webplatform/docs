@@ -16,8 +16,6 @@ Parses a string containing a date, and returns the number of milliseconds betwee
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Date.parse( dateVal )
 
 ## Examples

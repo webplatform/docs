@@ -16,8 +16,6 @@ Encodes a text string as a valid component of a Uniform Resource Identifier (URI
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     encodeURIComponent( encodedURIString )
 
 ## Examples

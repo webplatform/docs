@@ -42,6 +42,6 @@ When the [**value**](/html/attributes/value_(HTMLProgressElement)) attribute is 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLProgressElement`

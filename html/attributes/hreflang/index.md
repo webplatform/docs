@@ -54,7 +54,7 @@ You must set the value of this property before you can retrieve it. Language cod
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `link`

@@ -79,7 +79,7 @@ As of Internet Explorer 8, the [**httpEquiv**](/html/attributes/httpEquiv) attr
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `httpEquiv`

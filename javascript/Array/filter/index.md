@@ -17,8 +17,6 @@ Returns the elements of an array that meet the condition specified in a callback
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     filter( callbackfn [, thisArg ])
 
 **callbackfn**

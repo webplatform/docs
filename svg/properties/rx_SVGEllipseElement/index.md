@@ -38,6 +38,6 @@ The following ellipse, centered within a 400 by 400 pixel square, has a major ax
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGEllipseElement**](/svg/elements/ellipse)

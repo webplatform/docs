@@ -184,7 +184,7 @@ The version of this rule using a vendor prefix, **@-ms-keyframes**, has been dep
 -   [canIUse Compatibility Table](http://caniuse.com/#feat=css-animation)
 -   [MDN](https://developer.mozilla.org/en-US/docs/CSS/@keyframes)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `animationName`
 -   `css/properties/animation/animation`

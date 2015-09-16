@@ -27,7 +27,7 @@ The calculations for the rectangle assume that all glyphs occupy the full standa
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGTextElement**](/svg/elements/text)
 -   [**SVGTextPositioningElement**](/svg/elements/textPositioning)

@@ -50,6 +50,6 @@ Setting this property replaces any existing text in the element.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `textArea`

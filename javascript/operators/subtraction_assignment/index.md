@@ -16,8 +16,6 @@ Subtracts the value of an expression from the value of a variable and assigns th
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result -= expression
 
 **result**

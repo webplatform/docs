@@ -73,6 +73,6 @@ The preferred technique for inserting a row is to add the row at the end of the 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`

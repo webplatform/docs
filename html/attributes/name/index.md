@@ -73,7 +73,7 @@ When you submit a **form**, use the **name** property to bind the value of the c
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `applet`

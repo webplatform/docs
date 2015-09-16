@@ -16,8 +16,6 @@ Left shifts the bits of an expression.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result = expression1 << expression2
 
 **result**

@@ -138,7 +138,7 @@ Note that setting a value smaller than 1 to this property creates a new stacking
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

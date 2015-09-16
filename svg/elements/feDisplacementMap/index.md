@@ -139,7 +139,7 @@ The **SVGFEDisplacementMapElement** object has these properties:
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**xChannelSelector**](/svg/properties/xChannelSelector)
 -   [**yChannelSelector**](/svg/properties/yChannelSelector)

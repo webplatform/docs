@@ -19,6 +19,6 @@ uri: svg/properties/id
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGElement**](/svg/objects/SVGElement)

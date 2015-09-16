@@ -16,8 +16,6 @@ Returns the arctangent of a number.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.atan( number )
 
 ## Examples

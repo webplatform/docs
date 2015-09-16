@@ -58,7 +58,7 @@ The poster property requires a non-empty URL.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `video element`
 -   `video object`

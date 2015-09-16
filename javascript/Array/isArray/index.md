@@ -17,8 +17,6 @@ Determines whether an object is an array.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Array.isArray( object )
 
 **object**

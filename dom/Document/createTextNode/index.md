@@ -74,7 +74,7 @@ Original Text
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `createElement`

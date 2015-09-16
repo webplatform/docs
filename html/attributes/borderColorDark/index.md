@@ -38,7 +38,7 @@ This property is the opposite of [**borderColorLight**](/html/attributes/borderC
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`
 -   `td`

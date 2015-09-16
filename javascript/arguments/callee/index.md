@@ -16,8 +16,6 @@ Returns the Function object being executed, that is, the body text of the specif
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     [ function . ] arguments.callee
 
 ## Examples

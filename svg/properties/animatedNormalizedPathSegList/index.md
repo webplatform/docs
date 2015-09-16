@@ -30,7 +30,7 @@ When the animated contents are normalized, all path data commands are expressed 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPathElement**](/svg/elements/path)
 -   [**normalizedPathSegList**](/svg/properties/normalizedPathSegList)

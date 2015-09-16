@@ -17,8 +17,6 @@ Returns a string representation of a number.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     toString([ radix ])
 
 **radix**

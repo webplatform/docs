@@ -16,8 +16,6 @@ The length of the array.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var arrayLength = int32Array.length;
 
 ## Examples

@@ -48,6 +48,6 @@ Some text.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Selection`

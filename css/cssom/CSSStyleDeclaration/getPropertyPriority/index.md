@@ -232,7 +232,7 @@ The priority of a CSS property is designated by, for example, the [!important](/
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

@@ -33,6 +33,6 @@ If the **values** attribute is not specified, then the default behavior depends 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEColorMatrixElement**](/svg/elements/feColorMatrix)

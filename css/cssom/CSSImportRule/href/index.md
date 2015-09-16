@@ -191,7 +191,7 @@ element.href = value;
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSImportRule`
 -   `Reference`

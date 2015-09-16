@@ -57,7 +57,7 @@ The focus of an object is visibly indicated by a focus rectangle—a dotted rect
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `abbr`

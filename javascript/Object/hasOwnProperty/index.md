@@ -17,8 +17,6 @@ Determines whether an object has a property with the specified name.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     hasOwnProperty( proName )
 
 **proName**

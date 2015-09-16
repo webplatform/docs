@@ -39,6 +39,6 @@ You can assign a value to this property without generating a syntax error, but t
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `option`

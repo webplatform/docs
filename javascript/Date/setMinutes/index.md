@@ -17,8 +17,6 @@ Sets the minutes value in the Date object using local time.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.setMinutes( numMinutes [ ,  numSeconds [ ,  numMilli ]] )
 
 **dateObj**

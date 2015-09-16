@@ -64,6 +64,6 @@ If a **tHead** already exists, **createTHead** returns the existing element. Oth
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`

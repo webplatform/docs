@@ -38,7 +38,7 @@ The amount of space defined for **frameSpacing** does not include the width of t
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `frame`
 -   `frameSet`

@@ -79,7 +79,7 @@ Use a radio button control to limit a user's selection to a single value within 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `input`

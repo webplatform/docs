@@ -201,7 +201,7 @@ As an abstract example, assume you specify a font-size-adjust value of 0.5, your
 
 -   MDN: [font-size-adjust](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size-adjust)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

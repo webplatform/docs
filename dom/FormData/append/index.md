@@ -68,6 +68,6 @@ S\_OK
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `FormData`

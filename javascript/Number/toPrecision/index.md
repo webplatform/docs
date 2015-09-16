@@ -17,8 +17,6 @@ Represents a number either in exponential or fixed-point notation with a specifi
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     toPrecision([ precision ])
 
 **precision**

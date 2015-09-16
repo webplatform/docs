@@ -38,7 +38,7 @@ In compliance with the Accessible Rich Internet Applications (ARIA) specificatio
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `abbr`

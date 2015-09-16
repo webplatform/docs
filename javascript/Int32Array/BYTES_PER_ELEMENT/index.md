@@ -16,8 +16,6 @@ The size in bytes of each element in the array.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var arraySize = int8Array.BYTES_PER_ELEMENT;
 
 ## Examples

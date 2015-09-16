@@ -19,8 +19,6 @@ An object that contains a regular expression pattern along with flags that ident
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     re = / pattern / [ flags ]
     re = new RegExp(" pattern " [ ," flags " ] )
 

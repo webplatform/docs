@@ -19,6 +19,6 @@ uri: svg/properties/spacing
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGTextPathElement**](/svg/elements/textPath)

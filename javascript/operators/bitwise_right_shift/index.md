@@ -16,8 +16,6 @@ Right shifts the bits of an expression, maintaining sign.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result = expression1 >> expression2
 
 **result**

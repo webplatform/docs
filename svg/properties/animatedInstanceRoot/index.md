@@ -27,6 +27,6 @@ For more information about the instance tree, see [**SVGElementInstance**](/svg/
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGUseElement**](/svg/elements/use)

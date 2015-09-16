@@ -25,6 +25,6 @@ Because the **pauseAnimations** method pauses all running animations, the animat
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

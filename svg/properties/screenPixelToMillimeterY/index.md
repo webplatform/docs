@@ -25,6 +25,6 @@ User interface (UI) events in [Document Object Model (DOM) Level 2 Events Specif
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

@@ -44,7 +44,7 @@ Applies to
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [fill-rule](/svg/attributes/fill-rule)

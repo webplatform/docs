@@ -53,6 +53,6 @@ This method does not return a value.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `FrameRequestCallback`

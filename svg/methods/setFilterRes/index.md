@@ -21,6 +21,6 @@ uri: svg/methods/setFilterRes
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFilterElement**](/svg/elements/filter)

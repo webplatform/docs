@@ -124,7 +124,7 @@ If the `transform-origin` property is not set, the transform begins in the cente
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

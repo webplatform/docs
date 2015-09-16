@@ -54,6 +54,6 @@ To access a window's **name** property, use the **window** keyword.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `window`

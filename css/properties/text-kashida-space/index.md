@@ -71,7 +71,7 @@ Windows Internet Explorer 8. The **-ms-text-kashida-space** attribute is an ext
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

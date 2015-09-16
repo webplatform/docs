@@ -47,7 +47,7 @@ A label can be any identifying string. This string is displayed in the HTML5 vid
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `track element`
 -   `track object`

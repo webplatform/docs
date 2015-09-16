@@ -291,7 +291,7 @@ If you wish to italicize the name of a creative work (e.g. a magazine, book, or 
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `acronym`

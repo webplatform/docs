@@ -17,8 +17,6 @@ Removes elements from an array and, if necessary, inserts new elements in their 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     splice( start, deleteCount,  [ item1 [, item2 [, . . . [, itemN ]]]])
 
 **start**

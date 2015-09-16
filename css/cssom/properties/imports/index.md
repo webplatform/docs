@@ -189,6 +189,6 @@ An imported style sheet is one that is brought into the document using the casca
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `styleSheet`

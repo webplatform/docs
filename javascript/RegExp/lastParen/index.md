@@ -16,8 +16,6 @@ Returns the last parenthesized submatch from any regular expression search, if a
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     RegExp.lastParen
 
 ## Examples

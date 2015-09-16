@@ -19,8 +19,6 @@ Gets the year of a Date object. Deprecated in favor of getFullYear method.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.getYear()
 
 '

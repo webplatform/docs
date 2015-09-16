@@ -56,7 +56,7 @@ This example sets the typeface family using the **FACE** attribute and the **fac
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `baseFont`
 -   `font`

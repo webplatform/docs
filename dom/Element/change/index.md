@@ -92,6 +92,6 @@ The following example attaches to the onchange event and displays the status of 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `AudioTrackList`

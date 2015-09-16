@@ -43,7 +43,7 @@ Although this property is read/write, no change is visible when you set the size
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `input type=button`
 -   `input type=checkbox`

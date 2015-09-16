@@ -173,7 +173,7 @@ Use the **setExpression** method to add expressions to supported [**removeExpres
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `IHTMLElement2`
 -   `IHTMLStyle2`

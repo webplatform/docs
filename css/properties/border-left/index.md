@@ -213,7 +213,7 @@ For `style` values, the computed value is as specified. For `width` values, the 
 
 -   [border-width](/css/properties/border-width)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

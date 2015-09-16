@@ -16,8 +16,6 @@ Converts a string to a floating-point number.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     parseFloat( numString )
 
 ## Examples

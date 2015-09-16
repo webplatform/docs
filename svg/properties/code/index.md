@@ -19,6 +19,6 @@ uri: svg/properties/code
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGException**](/svg/objects/SVGException)

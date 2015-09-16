@@ -287,7 +287,7 @@ If you want to bold text, but the text is not important, you should use the CSS 
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `acronym`

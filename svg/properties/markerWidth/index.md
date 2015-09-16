@@ -19,7 +19,7 @@ uri: svg/properties/markerWidth
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 ### Reference
 

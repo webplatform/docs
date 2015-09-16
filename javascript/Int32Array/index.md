@@ -16,15 +16,9 @@ A typed array of 32-bit integer values. The contents are initialized to 0. If th
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     int32Array = new Int32Array( length );
 
-<span class="language">JavaScript</span>
-
     int32Array = new Int32Array( array );
-
-<span class="language">JavaScript</span>
 
     int32Array = new Int32Array( buffer , byteOffset , length );
 

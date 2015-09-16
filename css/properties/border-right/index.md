@@ -207,7 +207,7 @@ p {
 
 -   [border-width](/css/properties/border-width)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

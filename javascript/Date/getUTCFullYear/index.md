@@ -17,8 +17,6 @@ Gets the year using Universal Coordinated Time (UTC).
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.getUTCFullYear()
 
 ## Return Value

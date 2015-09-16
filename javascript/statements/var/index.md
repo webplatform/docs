@@ -16,8 +16,6 @@ Declares a variable.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var variable = value;
 
 **variable**

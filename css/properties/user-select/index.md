@@ -140,7 +140,7 @@ Also works on mobile devices to suppress selection by touch and hold.
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `IE Test Drive: User-Select`
 -   `[1]`

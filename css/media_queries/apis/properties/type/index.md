@@ -89,6 +89,6 @@ The media type of the current document.
 
 -   [behavior](/css/properties/behavior)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `StyleMedia`

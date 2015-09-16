@@ -45,6 +45,6 @@ The functionality specified by the HTML 4.0 standard for this property is not i
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `option`

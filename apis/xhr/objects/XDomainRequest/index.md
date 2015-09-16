@@ -124,7 +124,7 @@ Cross domain requests can only be sent and received from a document to URLs in t
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `window`
 -   `XMLHttpRequest`

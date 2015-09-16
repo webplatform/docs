@@ -25,6 +25,6 @@ Returns a stand-alone, parentless line that is drawn from the current point to t
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPathElement**](/svg/elements/path)

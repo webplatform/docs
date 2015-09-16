@@ -79,7 +79,7 @@ Requires an XDomainRequest object.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `IHTMLXDomainRequest`

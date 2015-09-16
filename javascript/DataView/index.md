@@ -16,8 +16,6 @@ You can use a DataView object to read and write the different kinds of binary da
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dataView = new DataView( DataView( buffer , byteOffset , byteLength ));
 
 **dataView**

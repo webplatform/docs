@@ -160,7 +160,7 @@ Windows Internet Explorer 8. The **-ms-filter** attribute is an extension to CS
 
 -   [behavior](/css/properties/behavior)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

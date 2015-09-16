@@ -52,7 +52,7 @@ The formaction attribute overrides the action attribute of the \<form\> element.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLInputElement`
 -   `HTMLButtonElement`

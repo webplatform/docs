@@ -108,7 +108,7 @@ Use the [**duration**](/dom/HTMLMediaElement/duration) property to determine the
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `audioElement`
 -   `audioApi`

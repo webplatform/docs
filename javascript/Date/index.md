@@ -17,15 +17,9 @@ Enables basic storage and retrieval of dates and times.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj = new Date()
 
-<span class="language">JavaScript</span>
-
     dateObj = new Date( dateVal )
-
-<span class="language">JavaScript</span>
 
     dateObj = new Date( year , month , date [, hours [, minutes [, seconds [, ms ]]]])
 

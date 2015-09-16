@@ -16,11 +16,7 @@ Converts all the alphabetic characters in a string to uppercase.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     strVariable.toUpperCase()
-
-<span class="language">JavaScript</span>
 
     "String Literal".toUpperCase()
 

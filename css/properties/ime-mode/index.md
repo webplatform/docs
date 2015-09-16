@@ -172,7 +172,7 @@ HTML authors can provide users with some control by specifying an IME mode for a
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

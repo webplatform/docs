@@ -32,7 +32,7 @@ Applies to
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `frame`
 -   `iframe`

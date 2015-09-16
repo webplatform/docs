@@ -16,8 +16,6 @@ Returns the position of the first occurrence of a substring.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     strObj. indexOf( subString [, startIndex ])
 
 **strObj**

@@ -78,7 +78,7 @@ As of Windows Internet Explorer 8, the **httpEquiv** attribute also supports a 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `content`

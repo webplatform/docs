@@ -16,8 +16,6 @@ Subtracts the value of one expression from another or provides unary negation of
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result = number1 - number2 ;
 
 **result**

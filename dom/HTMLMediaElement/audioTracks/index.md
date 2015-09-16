@@ -47,7 +47,7 @@ The following example gets and enables all audio tracks associated with a video 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLMediaElement`
 -   `HTMLVideoElement`

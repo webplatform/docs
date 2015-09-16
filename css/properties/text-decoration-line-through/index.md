@@ -77,7 +77,7 @@ Click this if you think it's unimportant.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `defaultSelected`
 -   `runtimeStyle`

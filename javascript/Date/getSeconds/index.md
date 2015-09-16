@@ -17,8 +17,6 @@ Gets the seconds of a Date object, using local time.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.getSeconds()
 
 ## Return Value

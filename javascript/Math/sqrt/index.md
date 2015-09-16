@@ -16,8 +16,6 @@ Returns the square root of a number.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.sqrt( number )
 
 ## Examples

@@ -195,7 +195,7 @@ You can specify possible length values relative to the height of the element's f
 
 -   [min-width](/css/properties/min-width)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

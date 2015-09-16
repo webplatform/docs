@@ -145,7 +145,7 @@ The **baseline-shift** property allows repositioning of the dominant baseline re
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)

@@ -62,7 +62,7 @@ function fnCheck(){
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `xml`
 -   `Reference`

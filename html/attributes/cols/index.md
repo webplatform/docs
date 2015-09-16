@@ -63,6 +63,6 @@ Specifying this number can speed up the processing of the table. Windows Interne
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`

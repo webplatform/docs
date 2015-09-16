@@ -23,6 +23,6 @@ The following are constants associated with [**SVGFETurbulenceElement**](/svg/el
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFETurbulenceElement**](/svg/elements/feTurbulence)

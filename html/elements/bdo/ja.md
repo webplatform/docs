@@ -72,6 +72,6 @@ bdo要素は双方向アルゴリズムを無効化し、表示順を制御し�
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `direction`

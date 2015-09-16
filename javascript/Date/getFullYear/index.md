@@ -17,8 +17,6 @@ Gets the year, using local time.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.getFullYear()
 
 ## Return Value

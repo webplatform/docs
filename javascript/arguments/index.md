@@ -16,8 +16,6 @@ An object representing the arguments to the currently executing function, and th
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     [ function . ] arguments[ n ]
 
 **function**

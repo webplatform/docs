@@ -16,8 +16,6 @@ Returns the character at the specified index.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     strObj. charAt( index )
 
 **strObj**

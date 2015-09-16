@@ -196,6 +196,6 @@ For HTML, the node returned is the corresponding **link** or **style** element. 
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `styleSheet`

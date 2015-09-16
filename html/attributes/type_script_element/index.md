@@ -38,6 +38,6 @@ Compare this property with the [**language**](/html/attributes/language) propert
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `script`

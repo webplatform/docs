@@ -17,8 +17,6 @@ Sets the year of the Date object using local time.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.setFullYear( numYear [, numMonth [, numDate ]])
 
 **dateObj**

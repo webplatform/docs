@@ -38,6 +38,6 @@ If the value is set to "0" or "", the top margin is on the top edge of the windo
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `body`

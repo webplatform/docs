@@ -16,8 +16,6 @@ Refers to the current object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     this.property
 
 ## Examples

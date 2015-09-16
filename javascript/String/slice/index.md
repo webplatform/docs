@@ -16,8 +16,6 @@ Returns a section of a string.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     stringObj.slice( start , [ end ])
 
 **stringObj**

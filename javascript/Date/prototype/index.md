@@ -16,8 +16,6 @@ Returns a reference to the prototype for a date.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     date.prototype
 
 ## Examples

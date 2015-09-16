@@ -36,7 +36,7 @@ element.willValidate = value;
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLObjectElement`
 -   `HTMLTextAreaElement`

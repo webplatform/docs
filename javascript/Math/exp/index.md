@@ -16,8 +16,6 @@ Returns e (the base of natural logarithms) raised to a power.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.exp( number )
 
 ## Examples

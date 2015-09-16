@@ -19,6 +19,6 @@ uri: svg/properties/targetY
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEConvolveMatrixElement**](/svg/elements/feConvolveMatrix)

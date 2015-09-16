@@ -63,6 +63,6 @@ sXmlString = oXmlSerializer.serializeToString(oDOMNode);
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `XMLSerializer`

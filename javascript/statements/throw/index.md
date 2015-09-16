@@ -16,8 +16,6 @@ Generates an error condition that can be handled by a try...catch...finally stat
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     throw exception
 
 ## Examples

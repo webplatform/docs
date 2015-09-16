@@ -16,8 +16,6 @@ Returns the cosine of a number.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.cos( radians )
 
 ## Examples

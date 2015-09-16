@@ -17,8 +17,6 @@ Determines whether all the members of an array satisfy the specified test.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     every( callbackfn [, thisArg ])
 
 **callbackfn**

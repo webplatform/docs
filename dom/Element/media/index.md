@@ -48,6 +48,6 @@ The media property can be used to download different video formats for different
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `source`

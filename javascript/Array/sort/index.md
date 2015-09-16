@@ -17,8 +17,6 @@ Sorts an Array.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     sort( sortFunction )
 
 **sortFunction**

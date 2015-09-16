@@ -16,15 +16,9 @@ A typed array of 16-bit unsigned integer values. The contents are initialized to
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     uint16Array = new Uint16Array( length );
 
-<span class="language">JavaScript</span>
-
     uint16Array = new Uint16Array( array );
-
-<span class="language">JavaScript</span>
 
     uint16Array = new Uint16Array( buffer , byteOffset , length );
 

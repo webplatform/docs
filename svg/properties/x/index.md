@@ -19,7 +19,7 @@ uri: svg/properties/x
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEBlendElement**](/svg/elements/feBlend)
 -   [**SVGFEColorMatrixElement**](/svg/elements/feColorMatrix)

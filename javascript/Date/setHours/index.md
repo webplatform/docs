@@ -17,8 +17,6 @@ Sets the hour value in the Date object using local time.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.setHours( numHours [ , numMin [ , numSec [ , numMilli ]]] )
 
 **dateObj**

@@ -113,7 +113,7 @@ You must perform a second step when you use **createElement** to create the [**i
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `cloneNode`

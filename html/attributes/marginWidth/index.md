@@ -41,7 +41,7 @@ Margins cannot be less than 1 pixel or so large that the text cannot be displaye
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `frame`
 -   `iframe`

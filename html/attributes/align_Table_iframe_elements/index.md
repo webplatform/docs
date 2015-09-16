@@ -46,7 +46,7 @@ If the **align** property is not set on the object, the table is aligned to the 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`
 -   `iframe`

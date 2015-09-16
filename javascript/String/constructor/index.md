@@ -16,8 +16,6 @@ Specifies the function that creates a string.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     string.constructor
 
 ## Examples

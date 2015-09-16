@@ -184,7 +184,7 @@ In the following section, one example demonstrates how you can apply two behavio
 
 -   **behavior**
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

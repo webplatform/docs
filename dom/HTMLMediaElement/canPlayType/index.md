@@ -60,7 +60,7 @@ The media type cannot be rendered.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `media`
 -   `audio`

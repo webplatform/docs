@@ -38,6 +38,6 @@ Although this collection is represented in the Cascading Style Sheets (CSS) obje
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Print Template Reference`

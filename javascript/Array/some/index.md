@@ -17,8 +17,6 @@ Determines whether the specified callback function returns true for any element 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     some( callbackfn [, thisArg ])
 
 **callbackfn**

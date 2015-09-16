@@ -19,8 +19,6 @@ Returns a Boolean value that indicates whether or not a pattern exists in a sear
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     rgExp.test( str )
 
 **rgExp**

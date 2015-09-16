@@ -119,6 +119,6 @@ Typical values for the *type* parameter are `image/png` or `image/jpg`.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `canvas`

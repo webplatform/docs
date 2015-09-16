@@ -89,7 +89,7 @@ This operation occurs while the video is loading. To invoke this event, Start pl
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `audio`
 -   `audio`

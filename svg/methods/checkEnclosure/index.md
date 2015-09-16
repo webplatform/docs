@@ -25,6 +25,6 @@ You can test a graphics element only when it can be a target of pointer events, 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

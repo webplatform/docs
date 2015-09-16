@@ -27,6 +27,6 @@ The larger the base frequency number, the more quickly the colors change. The nu
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFETurbulenceElement**](/svg/elements/feTurbulence)

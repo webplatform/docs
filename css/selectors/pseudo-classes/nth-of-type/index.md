@@ -172,7 +172,7 @@ The **:nth-of-type** pseudo-class is a structural pseudo-class. Structural pseud
 
 -   [type](/css/selectors/type)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `:root`

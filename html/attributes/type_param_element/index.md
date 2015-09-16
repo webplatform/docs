@@ -52,7 +52,7 @@ The content type specifies the nature of a linked resource. Examples of content 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `param`
 -   `Conceptual`

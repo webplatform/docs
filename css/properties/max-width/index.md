@@ -260,7 +260,7 @@ The [**min-width**](/css/properties/min-width)/**max-width** attributes apply to
 
 -   [min-width](/css/properties/min-width)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

@@ -27,7 +27,7 @@ For image elements, **preserveAspectRatio** specifies how images are fitted rela
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPatternElement**](/svg/elements/patterrn)
 -   [**SVGSVGElement**](/svg/elements/svg)

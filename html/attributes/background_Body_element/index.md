@@ -46,7 +46,7 @@ This property is deprecated in favor of the [**background-image**](/css/properti
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `body`
 -   `Reference`

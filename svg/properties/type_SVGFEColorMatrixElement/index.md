@@ -21,7 +21,7 @@ The following are constants associated with [**SVGFEColorMatrixElement**](/svg/e
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEColorMatrixElement**](/svg/elements/feColorMatrix)
 -   [**values**](/svg/properties/values)

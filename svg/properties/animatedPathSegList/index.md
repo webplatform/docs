@@ -19,7 +19,7 @@ uri: svg/properties/animatedPathSegList
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPathElement**](/svg/elements/path)
 -   [**pathSegList**](/svg/properties/pathSegList)

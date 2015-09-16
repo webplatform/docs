@@ -47,7 +47,7 @@ element.error = value;
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `media`
 -   `audio`

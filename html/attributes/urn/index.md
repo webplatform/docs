@@ -42,7 +42,7 @@ URNs are an adjunct to URLs. A URL, which is the address used on the World Wide 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `namespace`

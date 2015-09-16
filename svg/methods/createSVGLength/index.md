@@ -19,6 +19,6 @@ uri: svg/methods/createSVGLength
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

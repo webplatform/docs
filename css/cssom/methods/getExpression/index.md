@@ -121,7 +121,7 @@ The following syntax sections show how to retrieve an expression from supported 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `IHTMLStyle2`
 -   `IHTMLElement2`

@@ -19,7 +19,7 @@ uri: svg/properties/numberOfItems
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGLengthList**](/svg/objects/SVGLengthList)
 -   [**SVGNumberList**](/svg/objects/SVGNumberList)

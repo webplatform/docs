@@ -16,8 +16,6 @@ Returns the prototype of an object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Object.getPrototypeOf( object )
 
 **object**

@@ -25,6 +25,6 @@ The search for the specified element is restricted to a subset of the document t
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

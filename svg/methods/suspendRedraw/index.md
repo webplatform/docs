@@ -31,6 +31,6 @@ The redrawing operation is suspended until one of the following actions occur:
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

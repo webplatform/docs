@@ -16,8 +16,6 @@ Gets a substring beginning at the specified location and having the specified le
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     stringvar.substr( start [, length ])
 
 **stringvar**

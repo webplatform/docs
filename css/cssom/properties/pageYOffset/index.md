@@ -193,7 +193,7 @@ When you scroll a document vertically, some content is moved outside the view of
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `window`
 -   `pageXOffset`

@@ -16,8 +16,6 @@ Returns the last matched characters from any regular expression search. Read-onl
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     RegExp.lastMatch
 
 ## Examples

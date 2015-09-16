@@ -124,6 +124,6 @@ There are no standards that apply here.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Modifying Documents in Edit Mode`

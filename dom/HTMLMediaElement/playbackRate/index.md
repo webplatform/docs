@@ -47,7 +47,7 @@ If the value is `0` or a positive number, the direction of play is forward. Othe
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `media`
 -   `audio`

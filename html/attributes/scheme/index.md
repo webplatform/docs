@@ -56,6 +56,6 @@ The following example of the **meta** shows how the **scheme** can be used to cl
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `meta`

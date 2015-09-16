@@ -16,8 +16,6 @@ Gets a new Int8Array view of the ArrayBuffer store for this array, referencing t
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var newInt8Array = int8Array.subset(begin, end);
 
 **newInt8Array**

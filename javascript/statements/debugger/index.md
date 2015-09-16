@@ -16,8 +16,6 @@ Suspends execution.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     debugger
 
 ## Examples

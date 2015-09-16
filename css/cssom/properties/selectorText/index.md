@@ -45,7 +45,7 @@ Windows Internet Explorer removes insignificant white space while it parses the 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `page`
 -   `style`

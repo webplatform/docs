@@ -58,6 +58,6 @@ Options in a **select** object are indexed in the order in which they are define
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `select`

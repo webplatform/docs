@@ -146,7 +146,7 @@ This method differs from the [**querySelector**](/css/selectors_api/querySelecto
 
 -   [type](/css/selectors/type)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Document`
 -   `a`

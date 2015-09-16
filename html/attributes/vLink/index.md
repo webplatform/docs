@@ -43,7 +43,7 @@ Some browsers do not recognize color names, but all browsers should recognize th
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `body`
 -   `Reference`

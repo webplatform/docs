@@ -53,7 +53,7 @@ The **name** property identifies which frame displays the content of a linked do
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `frame`
 -   `frameSet`

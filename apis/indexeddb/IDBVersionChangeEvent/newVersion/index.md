@@ -52,6 +52,6 @@ A number corresponding to the value specified in the [IDBFactory.open](/apis/ind
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `IDBVersionChangeEvent`

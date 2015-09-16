@@ -63,6 +63,6 @@ Represents the context information for the event, or **null**, if the state repr
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `PopStateEvent`

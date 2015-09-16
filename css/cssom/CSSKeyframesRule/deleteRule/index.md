@@ -268,6 +268,6 @@ If a rule with the given key does not exist, the **deleteRule** method does noth
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSKeyframesRule`

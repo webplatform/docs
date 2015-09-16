@@ -217,7 +217,7 @@ selector
 
 -   [type](/css/selectors/type)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTML5 Forms (Internet Explorer 10 Guide for Developers)`
 -   `placeholder attribute`

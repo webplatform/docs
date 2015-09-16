@@ -72,6 +72,6 @@ If a user cancels a composition event, the **data** attribute is set to null on 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `TextEvent`

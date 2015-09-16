@@ -17,8 +17,6 @@ The toExponential() method formats a number to exponential notation.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     toExponential([ fractionDigits ])
 
 **fractionDigits**

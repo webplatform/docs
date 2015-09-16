@@ -17,8 +17,6 @@ Returns a date converted to a string using the current locale.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.toLocaleString()
 
 ## Examples

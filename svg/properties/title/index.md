@@ -19,6 +19,6 @@ uri: svg/properties/title
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGStyleElement**](/svg/elements/style)

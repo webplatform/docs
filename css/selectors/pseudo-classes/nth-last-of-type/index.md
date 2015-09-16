@@ -181,7 +181,7 @@ The **:nth-last-of-type** pseudo-class is a structural pseudo-class. Structural 
 
 -   [type](/css/selectors/type)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `:root`

@@ -17,8 +17,6 @@ Sets the date and time value in the Date object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.setTime( milliseconds )
 
 **dateObj**

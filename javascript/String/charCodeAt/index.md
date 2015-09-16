@@ -16,8 +16,6 @@ Returns the Unicode value of the character at the specified location.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     strObj. charCodeAt( index )
 
 **strObj**

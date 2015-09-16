@@ -16,8 +16,6 @@ A special constant that specifies a value that is Not-A-Number
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     NaN
 
 ## Examples

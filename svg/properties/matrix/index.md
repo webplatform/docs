@@ -35,6 +35,6 @@ The values in the returned matrix changes based on the type of matrix:
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGTransform**](/svg/objects/SVGTransform)

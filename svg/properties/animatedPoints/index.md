@@ -27,7 +27,7 @@ If the given attribute or property is being animated, the **animatedPoints** pro
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPolygonElement**](/svg/elements/polygon)
 -   [**SVGPolylineElement**](/svg/elements/polyline)

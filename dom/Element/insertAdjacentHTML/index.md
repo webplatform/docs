@@ -99,7 +99,7 @@ ScriptDiv.insertAdjacentHTML("afterBegin",sHTML + sScript);
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `innerHTML`
 -   `outerHTML`

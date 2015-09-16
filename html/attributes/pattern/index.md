@@ -51,6 +51,6 @@ Several generic messages are displayed for a variety of validation errors. If yo
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLInputElement`

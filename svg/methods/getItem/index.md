@@ -27,7 +27,7 @@ The returned item is the item itself and not a copy. Any changes that are made t
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGLengthList**](/svg/objects/SVGLengthList)
 -   [**SVGNumberList**](/svg/objects/SVGNumberList)

@@ -85,7 +85,7 @@ You can add up to 4095 style rules with the **addRule** method. After that, the 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `IHTMLStyleSheet`
 -   `styleSheet`

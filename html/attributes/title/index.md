@@ -60,7 +60,7 @@ Windows Internet Explorer renders the title as a ToolTip when the user hovers th
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `abbr`

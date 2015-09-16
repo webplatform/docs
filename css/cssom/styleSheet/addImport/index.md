@@ -211,7 +211,7 @@ A zero-based index value indicating the position of the imported style sheet in 
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `IHTMLStyleSheet`
 -   `styleSheet`

@@ -19,7 +19,7 @@ uri: svg/properties/dy
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEOffsetElement**](/svg/elements/feOffset)
 -   [**SVGTextElement**](/svg/elements/text)

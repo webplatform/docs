@@ -46,7 +46,7 @@ If no values are indicated, the **rel** property's default relationship is an em
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `link`

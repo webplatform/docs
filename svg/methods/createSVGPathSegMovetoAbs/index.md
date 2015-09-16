@@ -25,6 +25,6 @@ Returns a stand-alone, parentless vertical line that is drawn from the current p
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPathElement**](/svg/elements/path)

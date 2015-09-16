@@ -55,7 +55,7 @@ This property is not implemented for the [**AudioTrack**](/apis/audio-video/Audi
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `track element`
 -   `track object`

@@ -16,8 +16,6 @@ Returns the angle (in radians) from the X axis to a point ( y , x ).
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.atan2( y , x )
 
 **x**

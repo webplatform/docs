@@ -79,6 +79,6 @@ function change(val)
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `canvas`

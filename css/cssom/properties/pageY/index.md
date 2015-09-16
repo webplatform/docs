@@ -218,7 +218,7 @@ The **pageY** property is equivalent to the [**clientY**](/w/index.php?title=dom
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `DragEvent`
 -   `MouseWheelEvent`

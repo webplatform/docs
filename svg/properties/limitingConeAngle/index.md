@@ -29,6 +29,6 @@ If no value is specified for the **limitingConeAngle** attribute, then no limiti
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFESpotLightElement**](/svg/elements/feSpotlight)

@@ -59,6 +59,6 @@ function showDefView() {
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Document`

@@ -40,6 +40,6 @@ frames!</NOFRAMES>
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `frame`

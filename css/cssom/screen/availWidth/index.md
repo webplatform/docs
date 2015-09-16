@@ -39,7 +39,7 @@ element.availWidth = value;
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `screen`
 -   `Reference`

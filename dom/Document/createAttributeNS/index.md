@@ -78,6 +78,6 @@ document.documentElement.setAttributeNodeNS(attr);
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `createAttribute`

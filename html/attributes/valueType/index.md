@@ -52,7 +52,7 @@ VALUETYPE="ref" TYPE="video/*"/>
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `param`
 -   `Conceptual`

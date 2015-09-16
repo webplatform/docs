@@ -41,6 +41,6 @@ This property corresponds to the fragment portion of the CF\_HTML clipboard form
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `TextRange`

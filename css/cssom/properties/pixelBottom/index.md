@@ -201,7 +201,7 @@ The **pixelBottom** property reflects the value of the Cascading Style Sheets (C
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `defaultSelected`
 -   `runtimeStyle`

@@ -25,6 +25,6 @@ If you want to thin a graphic, set the **operator** to **erode**. If you want to
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEMorphologyElement**](/svg/elements/feMorphology)

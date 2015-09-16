@@ -39,7 +39,7 @@ element.sheet = value;
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `link`
 -   `style`

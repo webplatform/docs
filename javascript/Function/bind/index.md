@@ -16,8 +16,6 @@ For a given function, creates a bound function that has the same body as the ori
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     function.bind( thisArg [, arg1 [, arg2 [, argN ]]])
 
 **function**

@@ -25,7 +25,7 @@ The **y1** property represents a *relative* coordinate for lowercase [**path**](
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPathSegCurvetoCubicAbs**](/svg/objects/SVGPathSegCurvetoCubicAbs)
 -   [**SVGPathSegCurvetoCubicRel**](/svg/objects/SVGPathSegCurvetoCubicRel)

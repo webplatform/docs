@@ -94,7 +94,7 @@ The **onresize** event applies only to the outermost [**svg**](/svg/elements/svg
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)
 -   [**onresize**](/w/index.php?title=dom/events/resize&action=edit&redlink=1)

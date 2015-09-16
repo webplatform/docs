@@ -44,7 +44,7 @@ The ratio of miter length (distance between the outer tip and the inner corner o
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)

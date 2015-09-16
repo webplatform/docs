@@ -50,7 +50,7 @@ The [**value**](/html/attributes/value_(button_element)) property specifies the 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `button`

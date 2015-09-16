@@ -75,6 +75,6 @@ Throws an `InvalidCharacterError` exception if *token* contains any spaces.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `DOMTokenList`

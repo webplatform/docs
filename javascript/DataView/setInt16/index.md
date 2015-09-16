@@ -16,8 +16,6 @@ Sets the Int16 value at the specified byte offset from the start of the view. Th
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dataView.setInt16(byteOffset, value, littleEndian);
 
 **byteOffset**

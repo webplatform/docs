@@ -16,8 +16,6 @@ Returns a reference to the prototype for a class of number.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     number.prototype
 
 ## Examples

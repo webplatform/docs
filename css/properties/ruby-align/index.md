@@ -112,7 +112,7 @@ The **ruby-align** property specifies the alignment of the ruby text defined by 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

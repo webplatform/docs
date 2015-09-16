@@ -104,7 +104,7 @@ After the expression is removed from the specified property, the value of the pr
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `IHTMLElement2`
 -   `IHTMLStyle2`

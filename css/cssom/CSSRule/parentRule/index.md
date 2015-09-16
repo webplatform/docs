@@ -187,7 +187,7 @@ element. = value;
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSFontFaceRule`
 -   `CSSImportRule`

@@ -18,11 +18,7 @@ Returns the codepoint length of a String object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     strVariable.length
-
-<span class="language">JavaScript</span>
 
     "String Literal".length
 

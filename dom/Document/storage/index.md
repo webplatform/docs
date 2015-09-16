@@ -92,7 +92,7 @@ The [**URL**](/dom/Window/URL) property specifies the URL of the Web page that m
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `frameSet`
 -   `window`

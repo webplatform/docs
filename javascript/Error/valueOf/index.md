@@ -16,8 +16,6 @@ Returns the string value of an error.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     error.valueOf()
 
 ## Return Value

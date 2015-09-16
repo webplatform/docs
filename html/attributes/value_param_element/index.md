@@ -52,7 +52,7 @@ In Microsoft Internet Explorer 3.02 and later, **value** is an attribute of **p
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `param`
 -   `Conceptual`

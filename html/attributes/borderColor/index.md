@@ -39,7 +39,7 @@ To render the color specified by *sColor*, the [**BORDER**](/html/attributes/bor
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `frame`
 -   `frameSet`

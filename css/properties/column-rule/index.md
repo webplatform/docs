@@ -121,7 +121,7 @@ Makes 3 columns with 4px dashed green column-rule.
 
 -   [content](/css/properties/content)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

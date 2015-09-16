@@ -54,6 +54,6 @@ Whether the property is enabled.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `style`

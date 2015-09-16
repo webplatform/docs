@@ -237,6 +237,6 @@ element.style = value;
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSKeyframeRule`

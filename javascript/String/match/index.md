@@ -16,8 +16,6 @@ Matches a string with a regular expression, and returns an array containing the 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     stringObj.match( rgExp )
 
 **stringObj**

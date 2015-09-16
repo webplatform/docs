@@ -68,7 +68,7 @@ Once an image is completely loaded, you can get its actual [naturalWidth](/w/ind
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `img`
 -   `input`

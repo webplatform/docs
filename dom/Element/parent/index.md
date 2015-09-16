@@ -41,6 +41,6 @@ For a document, the parent is the containing window. For a window defined using 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Window`

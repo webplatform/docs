@@ -27,7 +27,7 @@ HRESULT value = object.put\_xmlbase(BSTR v);HRESULT value = object.get\_xmlbase(
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGClipPathElement**](/svg/elements/clipPath)
 -   [**SVGPatternElement**](/svg/elements/patterrn)

@@ -16,8 +16,6 @@ Omittable. Gets the element at the specified index.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var value = float64Array.get(index);
 
 **value**

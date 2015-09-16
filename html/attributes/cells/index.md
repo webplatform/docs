@@ -58,7 +58,7 @@ This example uses the **cellspacing** attribute and the **cellSpacing** property
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`
 -   `cellPadding`

@@ -26,6 +26,6 @@ The more octaves that are used in the calculation, the more fine-grained the tex
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFETurbulenceElement**](/svg/elements/feTurbulence)

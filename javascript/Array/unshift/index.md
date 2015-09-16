@@ -17,8 +17,6 @@ Inserts new elements at the start of an array.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     unshift([ item1 [, item2 [, . . . [, itemN]]]])
 
 **item1, item2,. . ., itemN**

@@ -16,8 +16,6 @@ Executes a statement block once, and then repeats execution of the loop until a 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     do {
         statement
     } while (expression) ;

@@ -17,8 +17,6 @@ Sets the seconds value in the Date object using local time.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj .setSeconds( numSeconds [ , numMilli ] )
 
 **dateObj**

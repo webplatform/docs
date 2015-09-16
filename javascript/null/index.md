@@ -14,8 +14,6 @@ null is used to indicate that a variable does not have a value.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     null
 
 ## Examples

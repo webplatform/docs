@@ -53,7 +53,7 @@ Fill specifies whether after an animation the animated value should be preserved
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)

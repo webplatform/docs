@@ -16,8 +16,6 @@ Returns one of two expressions depending on a condition. Also referred to as &qu
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     test ? expression1 : expression2
 
 **test**

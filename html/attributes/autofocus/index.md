@@ -196,7 +196,7 @@ This attribute is true when present on an element, and false when missing. Only 
 
 -   [HTML5 Autofocus Explained](http://www.xpertdeveloper.com/2012/09/html5-autofocus/)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLButtonElement`
 -   `HTMLInputElement`

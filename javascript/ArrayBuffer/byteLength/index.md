@@ -16,8 +16,6 @@ Read-only. The length of the ArrayBuffer (in bytes).
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var arrayLength = arrayBuffer.byteLength;
 
 ## Examples

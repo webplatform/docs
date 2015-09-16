@@ -16,8 +16,6 @@ Specifies the function that creates an Error.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     error.constructor
 
 ## Examples

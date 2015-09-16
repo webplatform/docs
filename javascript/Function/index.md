@@ -16,11 +16,7 @@ Creates a new function.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     function functionName ( [ argname1  [, ...[, argnameN ] ] ] )
-
-<span class="language">JavaScript</span>
 
     functionName = new Function( [ argname1 ,  [... argnameN ,] ] body );
 

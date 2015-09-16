@@ -17,8 +17,6 @@ Returns a date converted to a string formatted according to GMT conventions.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     toGMTString()
 
 ## Return Value

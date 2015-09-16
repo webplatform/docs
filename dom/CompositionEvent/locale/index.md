@@ -60,7 +60,7 @@ For trusted events, the **locale** property is set for keyboard and Input Method
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `KeyboardEvent`
 -   `TextEvent`

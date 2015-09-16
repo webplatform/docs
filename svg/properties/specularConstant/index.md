@@ -25,6 +25,6 @@ The **specularConstant** property specifies the ratio of reflection of the diffu
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFESpecularLightingElement**](/svg/elements/feSpecularLighting)

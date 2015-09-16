@@ -17,8 +17,6 @@ Determines whether a specified property is enumerable.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     propertyIsEnumerable( proName )
 
 **proName**

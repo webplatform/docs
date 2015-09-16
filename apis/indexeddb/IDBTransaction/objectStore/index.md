@@ -68,6 +68,6 @@ This method can throw the following [**DOMException**](/dom/DOMException) except
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `IDBTransaction`

@@ -65,7 +65,7 @@ Returns true if the form passes validation, false otherwise.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLObjectElement`
 -   `HTMLButtonElement`

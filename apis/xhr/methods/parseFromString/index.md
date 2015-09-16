@@ -67,6 +67,6 @@ oDocument = oParser.parseFromString(xmlSource, mimeType);
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `DOMParser`

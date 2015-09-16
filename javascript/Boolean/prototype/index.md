@@ -17,8 +17,6 @@ Returns a reference to the prototype for a Boolean.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     boolean.prototype
 
 ## Examples

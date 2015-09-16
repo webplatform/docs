@@ -42,6 +42,6 @@ When this property is set dynamically, the value of the property will be updated
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `caption`

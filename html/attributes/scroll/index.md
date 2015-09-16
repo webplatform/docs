@@ -38,7 +38,7 @@ With Microsoft Internet Explorer 6 and later, when you use the [!DOCTYPE](/html
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `body`
 -   `html`

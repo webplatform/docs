@@ -25,7 +25,7 @@ The **flipX** method post-multiplies the matrix by using the transformation [-1 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 ### Reference
 

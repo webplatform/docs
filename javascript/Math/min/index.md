@@ -16,8 +16,6 @@ Returns the smaller of a set of numeric expressions.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.min([ number1 [, number2 [... [, numberN ]]]])
 
 ## Examples

@@ -56,7 +56,7 @@ The **submit** method does not invoke the **onsubmit** event handler. Call the *
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `form`
 -   `Reference`

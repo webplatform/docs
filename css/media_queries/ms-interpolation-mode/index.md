@@ -115,7 +115,7 @@ The **-ms-interpolation-mode** property is obsolete as of Windows Internet Explo
 
 -   [behavior](/css/properties/behavior)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

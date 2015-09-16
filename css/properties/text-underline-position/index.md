@@ -164,7 +164,7 @@ right
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

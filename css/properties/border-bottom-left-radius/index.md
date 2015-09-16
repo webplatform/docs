@@ -162,7 +162,7 @@ The **border-bottom-left-radius** property specifies the horizontal and vertical
 
 -   [border-width](/css/properties/border-width)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

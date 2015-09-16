@@ -47,6 +47,6 @@ The track element represents a single track that is associated with the video el
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLTrackElement`

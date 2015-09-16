@@ -185,7 +185,7 @@ The **:nth-child** pseudo-class is a structural pseudo-class. Structural pseudo-
 
 -   [How nth-child Works](http://css-tricks.com/how-nth-child-works/)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `:root`

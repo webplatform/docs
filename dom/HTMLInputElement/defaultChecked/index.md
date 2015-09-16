@@ -58,6 +58,6 @@ Whether the **checked** HTML attribute is present on the element.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `checked`

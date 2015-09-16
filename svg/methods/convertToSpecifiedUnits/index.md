@@ -27,7 +27,7 @@ The **convertToSpecifiedUnits** method preserves the same underlying stored valu
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGAngle**](/svg/objects/SVGAngle)
 -   [**SVGLength**](/svg/objects/SVGLength)

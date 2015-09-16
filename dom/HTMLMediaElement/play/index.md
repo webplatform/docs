@@ -104,7 +104,7 @@ To change the URL that is currently playing, assign it to [**src**](/dom/HTMLMed
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `media`
 -   `audio`

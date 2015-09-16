@@ -16,8 +16,6 @@ Performs a bitwise NOT (negation) on an expression.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result = ~ expression
 
 **result**

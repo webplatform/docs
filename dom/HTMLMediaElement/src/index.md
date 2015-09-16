@@ -47,7 +47,7 @@ This property overrides a **source** element if both are used in a document.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `track element`
 -   `track object`

@@ -47,7 +47,7 @@ This property defines whether the [**TextTrack**](/apis/audio-video/TextTrack) i
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `track element`
 -   `track object`

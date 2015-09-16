@@ -58,7 +58,7 @@ This attribute can be set on button and input elements. It is a Boolean attribut
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLInputElement`
 -   `HTMLButtonElement`

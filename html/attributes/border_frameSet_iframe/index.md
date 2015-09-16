@@ -43,7 +43,7 @@ This property applies either to the outer **frameSet** element or to inner **fra
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `frameSet`
 -   `iframe`

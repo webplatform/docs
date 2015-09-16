@@ -43,7 +43,7 @@ When the user enters information in a **form** and clicks the **submit** button,
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `form`
 -   `action`

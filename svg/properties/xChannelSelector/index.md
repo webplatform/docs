@@ -19,7 +19,7 @@ uri: svg/properties/xChannelSelector
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**FEDisplacementMap**](/svg/elements/feDisplacementMap)
 -   [**yChannelSelector**](/svg/properties/yChannelSelector)

@@ -25,7 +25,7 @@ The **getScreenCTM** method returns **null** if the current element is not conne
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGClipPathElement**](/svg/elements/clipPath)
 -   [**SVGSVGElement**](/svg/elements/svg)

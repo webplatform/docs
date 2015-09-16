@@ -68,7 +68,7 @@ last-child
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `:root`

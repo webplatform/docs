@@ -150,7 +150,7 @@ Only the **type** property is writeable. The **type** property is read/write-onc
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLInputElement`
 -   `input type=button`

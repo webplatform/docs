@@ -76,7 +76,7 @@ For [**a**](/html/elements/a) objects, you must set the value of this property b
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `area`

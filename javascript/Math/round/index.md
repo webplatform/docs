@@ -16,8 +16,6 @@ Returns a supplied numeric expression rounded to the nearest integer.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.round( number )
 
 ## Examples

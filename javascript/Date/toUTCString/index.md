@@ -17,8 +17,6 @@ Returns a date converted to a string formatted according to UTC conventions.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     toUTCString()
 
 ## Return Value

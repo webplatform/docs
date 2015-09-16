@@ -52,7 +52,7 @@ An error does not occur if the user tries to go beyond the beginning or end of t
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `history`
 -   `Reference`

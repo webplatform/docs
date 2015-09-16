@@ -61,7 +61,7 @@ The [**currentTarget**](/dom/Event/currentTarget) property returns the element t
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

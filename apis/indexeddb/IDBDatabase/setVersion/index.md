@@ -84,7 +84,7 @@ The **setVersion** method was specified by an early draft of the [Indexed Databa
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `IDBDatabase`
 -   `onupgradeneeded`

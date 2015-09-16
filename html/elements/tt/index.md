@@ -52,6 +52,6 @@ This example uses the **TT** element to render text in a fixed-width font.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `xmp`

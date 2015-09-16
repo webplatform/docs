@@ -45,6 +45,6 @@ If you retrieve the value of the **pixelDepth** property through a script, you c
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `screen`

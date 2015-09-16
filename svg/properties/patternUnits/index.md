@@ -23,6 +23,6 @@ uri: svg/properties/patternUnits
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPatternElement**](/svg/elements/patterrn)

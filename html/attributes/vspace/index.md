@@ -43,7 +43,7 @@ This property is similar to the [**border**](/html/attributes/border) property, 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `applet`
 -   `iframe`

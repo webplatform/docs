@@ -151,7 +151,7 @@ The **counter-increment** attribute can contain a list of one or more counters, 
 
 -   [object-fit](/css/properties/object-fit)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

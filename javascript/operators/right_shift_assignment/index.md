@@ -16,8 +16,6 @@ Right shifts the value of a variable by the number of bits specified in the valu
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result >>= expression
 
 **result**

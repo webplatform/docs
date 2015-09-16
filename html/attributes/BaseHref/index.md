@@ -45,6 +45,6 @@ Use the **BaseHref** property to resolve relative paths when locating an **objec
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `object`

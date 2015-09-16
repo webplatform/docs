@@ -25,6 +25,6 @@ If you do not specify the **maskUnits** property, the effect is the same as if y
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGMaskElement**](/svg/elements/mask)

@@ -16,11 +16,7 @@ Returns the substring at the specified location within a String object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     strVariable. substring( start [, end ])
-
-<span class="language">JavaScript</span>
 
     "String Literal".substring( start [, end ] )
 

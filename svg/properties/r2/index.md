@@ -19,7 +19,7 @@ uri: svg/properties/r2
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPathSegArcAbs**](/svg/objects/SVGPathSegArcAbs)
 -   [**SVGPathSegArcRel**](/svg/objects/SVGPathSegArcRel)

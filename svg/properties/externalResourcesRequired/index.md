@@ -25,7 +25,7 @@ If an external resource is not available, progressive rendering is suspended and
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGClipPathElement**](/svg/elements/clipPath)
 -   [**SVGPatternElement**](/svg/elements/patterrn)

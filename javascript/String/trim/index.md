@@ -16,8 +16,6 @@ Removes the leading and trailing white space and line terminator characters from
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     stringObj.trim()
 
 **stringObj**

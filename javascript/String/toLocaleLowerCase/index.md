@@ -16,8 +16,6 @@ Converts all alphabetic characters to lowercase, taking into account the host en
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     stringVar.toLocaleLowerCase( )
 
 ## Examples

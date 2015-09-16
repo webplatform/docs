@@ -16,15 +16,9 @@ A typed array of 32-bit unsigned integer values. The contents are initialized to
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     uint32Array = new Uint32Array( length );
 
-<span class="language">JavaScript</span>
-
     uint32Array = new Uint32Array( array );
-
-<span class="language">JavaScript</span>
 
     uint32Array = new Uint32Array( buffer , byteOffset , length );
 

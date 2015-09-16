@@ -41,6 +41,6 @@ The **indeterminate** property can be used to indicate whether the user has acte
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `input type=checkbox`

@@ -32,6 +32,6 @@ element.parentWindow = value;
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Document`

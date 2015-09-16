@@ -25,6 +25,6 @@ The outermost [**svg**](/svg/objects/SVGElement) element is the furthest ancesto
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

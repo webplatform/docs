@@ -19,6 +19,6 @@ uri: svg/methods/setTranslate
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGTransform**](/svg/objects/SVGTransform)

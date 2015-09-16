@@ -62,6 +62,6 @@ If no caption exists, the **createCaption** method creates an empty table captio
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`

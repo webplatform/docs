@@ -16,8 +16,6 @@ A number that is larger than the largest floating point number.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Infinity
 
 ## Return Value

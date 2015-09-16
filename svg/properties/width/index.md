@@ -25,7 +25,7 @@ A value of 0 disables rendering of the element. A negative value is an error.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEBlendElement**](/svg/elements/feBlend)
 -   [**SVGFEColorMatrixElement**](/svg/elements/feColorMatrix)

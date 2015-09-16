@@ -41,7 +41,7 @@ If the autocomplete attribute is missing, the field will default to an "on" stat
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLInputElement`
 -   `HTMLFormElement`

@@ -47,7 +47,7 @@ Setting **currentTime** seeks to a specific position in a media resource.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `media`
 -   `audio`

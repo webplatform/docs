@@ -17,8 +17,6 @@ Calls a defined callback function on each element of an array, and returns an ar
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     map( callbackfn [, thisArg ])
 
 **callbackfn**

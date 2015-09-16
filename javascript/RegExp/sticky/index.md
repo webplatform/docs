@@ -17,8 +17,6 @@ Returns a Boolean value indicating the state of the sticky flag ( y ) used with 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     regex.sticky
 
 ## Examples

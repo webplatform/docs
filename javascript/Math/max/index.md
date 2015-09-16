@@ -16,8 +16,6 @@ Returns the larger of a set of supplied numeric expressions.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.max([ number1 [, number2 [... [, numberN ]]]])
 
 ## Examples

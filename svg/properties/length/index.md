@@ -19,6 +19,6 @@ uri: svg/properties/length
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGElementInstanceList**](/svg/objects/SVGElementInstanceList)

@@ -18,8 +18,6 @@ Conditionally executes a group of statements, depending on the value of an expre
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     if ( condition1 ) {
          statement1
     } else if ( condition2 ) {

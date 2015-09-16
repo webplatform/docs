@@ -62,6 +62,6 @@ If there are multiple captions in the table, the **deleteCaption** method delete
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`

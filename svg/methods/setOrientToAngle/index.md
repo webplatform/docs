@@ -19,7 +19,7 @@ uri: svg/methods/setOrientToAngle
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 ### Reference
 

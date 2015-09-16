@@ -17,8 +17,6 @@ Reverses the elements in an Array.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     reverse()
 
 ## Return Value

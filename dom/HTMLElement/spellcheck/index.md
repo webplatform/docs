@@ -45,6 +45,6 @@ There is also a default state (missing attribute) which uses the element's defau
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLElement`

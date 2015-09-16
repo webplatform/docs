@@ -16,8 +16,6 @@ Returns the sine of a number.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.sin( radians )
 
 ## Examples

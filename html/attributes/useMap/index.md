@@ -65,7 +65,7 @@ The **useMap** property identifies the image as a client-side image map by assoc
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `img`
 -   `object`

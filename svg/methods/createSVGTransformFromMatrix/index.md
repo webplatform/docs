@@ -29,7 +29,7 @@ The [**SVGTransform**](/svg/objects/SVGTransform) object corresponds to a single
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)
 -   [**SVGTransformList**](/svg/objects/SVGTransformList)

@@ -228,6 +228,6 @@ The following table shows Cascading Style Sheets (CSS) properties and correspond
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `currentStyle`

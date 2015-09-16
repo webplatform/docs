@@ -16,8 +16,6 @@ Gets a new Float32Array view of the ArrayBuffer Object store for this array, spe
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var newFloat32Array = float32Array.subarray(begin, end);
 
 **newFloat32Array**

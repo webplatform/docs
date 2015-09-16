@@ -126,6 +126,6 @@ if(!window.addEventListener) {
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `onload`

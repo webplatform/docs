@@ -18,8 +18,6 @@ For more information about typed arrays, see Typed Arrays.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     arrayBuffer = new ArrayBuffer(length);
 
 **arrayBuffer**

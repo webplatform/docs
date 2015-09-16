@@ -38,6 +38,6 @@ When the HTTP protocol is used, these methods are given more accurately by the p
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`

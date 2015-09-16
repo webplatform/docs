@@ -181,7 +181,7 @@ document.addEventListener("keydown", suppressPresses, false);
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `BeforeUnloadEvent`
 -   `CompositionEvent`

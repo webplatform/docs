@@ -41,7 +41,7 @@ div {
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`

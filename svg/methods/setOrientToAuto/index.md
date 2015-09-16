@@ -19,7 +19,7 @@ uri: svg/methods/setOrientToAuto
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 ### Reference
 

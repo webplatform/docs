@@ -47,7 +47,7 @@ The **autobuffer** method buffers the **audio** or **video** element to prepare 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `media`
 -   `audio`

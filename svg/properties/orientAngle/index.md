@@ -27,7 +27,7 @@ HRESULT value = object.put\_orientAngle(ISVGAnimatedAngle\* v);HRESULT value = o
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 ### Reference
 

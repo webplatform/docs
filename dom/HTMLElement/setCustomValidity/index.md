@@ -67,7 +67,7 @@ The following example sets a custom message if you type "fun" into the input fie
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLObjectElement`
 -   `HTMLButtonElement`

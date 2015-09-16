@@ -44,7 +44,7 @@ The **mask** is used to reference a [**mask**](/svg/elements/mask) element in SV
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)

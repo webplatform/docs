@@ -31,6 +31,6 @@ If the **order** attribute is not specified, the effect is as if a value of 3 we
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEConvolveMatrixElement**](/svg/elements/feConvolveMatrix)

@@ -49,7 +49,7 @@ This property is designed to contain a Uniform Resource Identifier (URI) that po
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `blockQuote`
 -   `q`

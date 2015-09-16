@@ -58,7 +58,7 @@ No role required.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Accessible Rich Internet Applications (ARIA)`
 -   `Reference`

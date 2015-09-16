@@ -290,7 +290,7 @@ When elements overlap, only the topmost element can receive action from a pointi
 -   <http://www.w3.org/TR/CSS2/visuren.html#z-index>
 -   <https://developer.mozilla.org/en-US/docs/Web/CSS/z-index>
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

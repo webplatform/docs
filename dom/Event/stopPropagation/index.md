@@ -53,7 +53,7 @@ The event dispatches to all event listeners on the current target (regardless of
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

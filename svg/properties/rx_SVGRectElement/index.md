@@ -29,7 +29,7 @@ If **rx** is greater than half of the width of the rectangle, the [**rect**](/sv
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGRectElement**](/svg/elements/rect)
 -   [**ellipse**](/svg/elements/ellipse)

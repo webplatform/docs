@@ -16,8 +16,6 @@ Converts a string to an integer.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     parseInt( numString , [ radix ])
 
 **numString**

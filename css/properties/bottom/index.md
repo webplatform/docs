@@ -195,7 +195,7 @@ The HTML for the above example.
 
 -   [min-width](/css/properties/min-width)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

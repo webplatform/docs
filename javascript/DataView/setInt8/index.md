@@ -16,8 +16,6 @@ Stores an Int8 value at the specified byte offset from the start of the view.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dataView.setInt8(byteOffset, value);
 
 **byteOffset**

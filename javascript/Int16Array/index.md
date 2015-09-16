@@ -16,15 +16,9 @@ A typed array of 16-bit integer values. The contents are initialized to 0. If th
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     int16Array = new Int16Array( length );
 
-<span class="language">JavaScript</span>
-
     int16Array = new Int16Array( array );
-
-<span class="language">JavaScript</span>
 
     int16Array = new Int16Array( buffer , byteOffset , length );
 

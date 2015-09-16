@@ -63,7 +63,7 @@ In IE8 Standards mode or later, the [**title**](/html/attributes/title) attribut
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `img`

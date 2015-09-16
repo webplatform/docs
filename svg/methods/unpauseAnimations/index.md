@@ -25,6 +25,6 @@ The animation clock resumes from the time when it was suspended.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

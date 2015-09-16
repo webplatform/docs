@@ -16,8 +16,6 @@ Calls a method of an object, substituting another object for the current object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     call([ thisObj [, arg1 [ , arg2 [ ,   [ , argN ]]]]])
 
 **thisObj**

@@ -38,6 +38,6 @@ Prior to the current version of the client, only links and images were draggable
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLElement`

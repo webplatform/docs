@@ -17,8 +17,6 @@ Gets the hours value in a Date object using Universal Coordinated Time (UTC).
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.getUTCHours()
 
 ## Return Value

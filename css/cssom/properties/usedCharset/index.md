@@ -44,6 +44,6 @@ The character set used to decode external script references is based on a number
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `script`

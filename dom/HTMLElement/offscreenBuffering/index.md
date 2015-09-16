@@ -38,6 +38,6 @@ The value of the **offscreenBuffering** property determines how the current docu
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `window`

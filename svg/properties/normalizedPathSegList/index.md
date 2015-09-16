@@ -30,7 +30,7 @@ When the static contents are normalized, all path data commands are expressed in
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPathElement**](/svg/elements/path)
 -   [**animatedNormalizedPathSegList**](/svg/properties/animatedNormalizedPathSegList)

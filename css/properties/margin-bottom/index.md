@@ -192,7 +192,7 @@ As of Microsoft Internet Explorer 4.0 or later, you can specify possible length
 
 -   [min-width](/css/properties/min-width)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

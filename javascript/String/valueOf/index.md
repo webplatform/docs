@@ -16,8 +16,6 @@ Returns the value of a string.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     string.valueOf()
 
 ## Return Value

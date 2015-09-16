@@ -38,6 +38,6 @@ Audio set to left speaker only:
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `bgSound`

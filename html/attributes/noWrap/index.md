@@ -43,7 +43,7 @@ Care should be taken when the **noWrap** property is used in conjunction with th
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `body`
 -   `dd`

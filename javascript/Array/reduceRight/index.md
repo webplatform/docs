@@ -17,8 +17,6 @@ Calls the specified callback function for all the elements in an array, in desce
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     reduceRight( callbackfn [, initialValue ])
 
 **callbackfn**

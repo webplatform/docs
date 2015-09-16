@@ -50,6 +50,6 @@ If the table doesn't have a head section, the value for the property is null. If
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`

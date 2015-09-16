@@ -16,8 +16,6 @@ Read-only. The length of this view from the start of its ArrayBuffer, in bytes, 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var byteLength = dataView.byteLength;
 
 ## Examples

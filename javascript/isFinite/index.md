@@ -16,8 +16,6 @@ Determines whether a supplied number is finite.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     isFinite(number)
 
 **number**

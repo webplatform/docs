@@ -19,6 +19,6 @@ uri: svg/properties/surfaceScale
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFESpecularLightingElement**](/svg/elements/feSpecularLighting)

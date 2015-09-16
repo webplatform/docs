@@ -78,7 +78,7 @@ This property is useful if you do not know the [**id**](/html/attributes/id) of 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `frame`
 -   `iframe`

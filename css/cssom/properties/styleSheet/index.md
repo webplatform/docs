@@ -41,7 +41,7 @@ A null value for *p* indicates that there is no style sheet for the object.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `link`
 -   `style`

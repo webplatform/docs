@@ -103,6 +103,6 @@ This method can return one of these values.
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `MSCSSMatrix`

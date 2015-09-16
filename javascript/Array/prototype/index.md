@@ -17,8 +17,6 @@ Returns a reference to the prototype for a class of array.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Array.prototype
 
 ## Examples

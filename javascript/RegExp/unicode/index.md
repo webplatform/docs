@@ -19,8 +19,6 @@ Returns a Boolean value indicating the state of the Unicode flag (u) used with a
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     regex.unicode
 
 ## Examples

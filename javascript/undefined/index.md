@@ -16,8 +16,6 @@ A value that has never been defined, such as a variable that has not been initia
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     undefined
 
 ## Examples

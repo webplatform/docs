@@ -25,6 +25,6 @@ Typically, you should call the **unsuspendRedrawAll** method as the last call of
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

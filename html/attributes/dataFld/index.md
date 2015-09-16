@@ -65,7 +65,7 @@ The **dataFld** property is not available on **param** objects; use [**getAttrib
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `applet`

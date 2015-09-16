@@ -16,8 +16,6 @@ Determines whether two strings are equivalent in the current locale.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     stringVar.localeCompare( stringExp )
 
 **stringVar**

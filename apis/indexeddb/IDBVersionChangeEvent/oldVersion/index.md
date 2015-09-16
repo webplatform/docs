@@ -52,6 +52,6 @@ Returns an object of type unsigned longunsigned long
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `IDBVersionChangeEvent`

@@ -41,7 +41,7 @@ Microsoft Internet Explorer 4.0 also recognizes multipart/form-data, which, alo
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `form`
 -   `action`

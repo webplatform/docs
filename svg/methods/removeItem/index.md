@@ -21,7 +21,7 @@ uri: svg/methods/removeItem
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGLengthList**](/svg/objects/SVGLengthList)
 -   [**SVGNumberList**](/svg/objects/SVGNumberList)

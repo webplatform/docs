@@ -69,7 +69,7 @@ The value of the **publicId** property corresponds to the *Availability*, *Regis
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `DocumentType`
 -   `name`

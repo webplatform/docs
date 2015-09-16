@@ -44,6 +44,6 @@ This function returns an S\_OK even if the element is not found. The programmer 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `rules`

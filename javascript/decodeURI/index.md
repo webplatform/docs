@@ -16,8 +16,6 @@ Gets the unencoded version of an encoded Uniform Resource Identifier (URI).
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     decodeURI( URIstring )
 
 ## Examples

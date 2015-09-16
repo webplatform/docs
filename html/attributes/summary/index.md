@@ -49,6 +49,6 @@ The following example shows how to specify a **summary** property for a [**table
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`

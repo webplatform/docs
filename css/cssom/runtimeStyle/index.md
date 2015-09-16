@@ -68,6 +68,6 @@ Windows Internet Explorer 8 or later. The behavior of [**setAttribute**](/dom/E
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `currentStyle`

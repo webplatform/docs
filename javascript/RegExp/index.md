@@ -19,8 +19,6 @@ An intrinsic global object that stores information about the results of regular 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     RegExp.property
 
 ## Examples

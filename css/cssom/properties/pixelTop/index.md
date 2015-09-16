@@ -42,7 +42,7 @@ The **pixelTop** property reflects the value of the Cascading Style Sheets (CSS)
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `runtimeStyle`
 -   `style`

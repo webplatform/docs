@@ -55,7 +55,7 @@ If the event cannot be canceled, this method has no effect.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

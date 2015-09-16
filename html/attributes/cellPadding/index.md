@@ -64,7 +64,7 @@ Here is a table where we use the `cellpadding` and `border` table attributes.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [table](/html/elements/table)
 -   [cellSpacing](/html/attributes/cells)

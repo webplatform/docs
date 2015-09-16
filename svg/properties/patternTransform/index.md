@@ -25,6 +25,6 @@ The **patternTransform** property enables options such as skewing the pattern ti
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPatternElement**](/svg/elements/patterrn)

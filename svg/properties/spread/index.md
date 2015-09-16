@@ -19,7 +19,7 @@ uri: svg/properties/spread
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGGradientElement**](/svg/elements/gradient)
 -   [**SVGLinearGradientElement**](/svg/elements/linearGradient)

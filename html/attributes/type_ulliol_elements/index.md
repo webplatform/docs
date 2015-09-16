@@ -51,7 +51,7 @@ This example uses the **TYPE** attribute to set the line item markers to lowerca
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `li`
 -   `ol`

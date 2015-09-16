@@ -16,15 +16,9 @@ A typed array of 8-bit integer values. The contents are initialized to 0. If the
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     int8Array = new Int8Array( length );
 
-<span class="language">JavaScript</span>
-
     intArray = new IntArray( array );
-
-<span class="language">JavaScript</span>
 
     intArray = new IntArray( buffer , byteOffset , length );
 

@@ -50,7 +50,7 @@ Use the [**VALUE**](/html/attributes/value_(button_element)) attribute to create
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `button`

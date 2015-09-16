@@ -61,7 +61,7 @@ The [**target**](/dom/Event/target) property returns the element that originally
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

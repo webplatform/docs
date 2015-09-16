@@ -63,6 +63,6 @@ The **BDO** element can be used to control the reading order of a block of text.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `direction`

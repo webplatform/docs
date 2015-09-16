@@ -27,7 +27,7 @@ If you do not specify the **refX** property, the effect is the same as if you sp
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 ### Reference
 

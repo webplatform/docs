@@ -16,15 +16,9 @@ Contains information about errors.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     errorObj = new Error()
 
-<span class="language">JavaScript</span>
-
     errorObj = new Error([ number ])
-
-<span class="language">JavaScript</span>
 
     errorObj = new Error([ number [, description ]])
 

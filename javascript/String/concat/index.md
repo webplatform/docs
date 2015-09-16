@@ -16,8 +16,6 @@ Returns a string that contains the concatenation of two or more strings.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     string1. concat([ string2 [, string3 [, . . . [, stringN ]]]])
 
 **string1**

@@ -88,6 +88,6 @@ if (element) {
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `getAttribute`

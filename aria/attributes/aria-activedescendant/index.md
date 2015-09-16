@@ -71,6 +71,6 @@ The container element should change the designated descendant during a [**keypre
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Accessible Rich Internet Applications (ARIA)`

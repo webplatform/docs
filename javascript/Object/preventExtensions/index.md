@@ -16,8 +16,6 @@ Prevents the addition of new properties to an object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Object.preventExtensions( object )
 
 **object**

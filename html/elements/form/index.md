@@ -105,7 +105,7 @@ This example uses the **form** element to create a basic form containing a text 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `1,001 Ways to Get Input from Web Users`
 

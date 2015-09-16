@@ -25,6 +25,6 @@ Returns a stand-alone, parentless quadratic Bézier curve that is drawn from the
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPathElement**](/svg/elements/path)

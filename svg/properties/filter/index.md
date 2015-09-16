@@ -26,7 +26,7 @@ In the following example, a previously defined Gaussian\_Blur filter (that is, *
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**Filter**](/svg/elements/filter)

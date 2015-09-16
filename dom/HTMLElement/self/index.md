@@ -38,7 +38,7 @@ You can use the property to explicitly refer to the current window or frame. To 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `frame`
 -   `window`

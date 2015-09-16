@@ -62,7 +62,7 @@ When you create a custom event by using the [**createEvent**](/dom/Document/crea
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

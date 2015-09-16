@@ -107,7 +107,7 @@ The **META** element also embeds document information that some search engines u
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `content`

@@ -17,8 +17,6 @@ Determines whether an object exists in another object's prototype chain.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     isPrototypeOf( object2 )
 
 **object2**

@@ -23,7 +23,7 @@ If an output reference occurs in several filter primitives in the same filter, o
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFETileElement**](/svg/elements/feTile)
 -   [**SVGFEBlendElement**](/svg/elements/feBlend)

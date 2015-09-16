@@ -35,7 +35,7 @@ If the attribute is not specified, the effect is as if a value of **spacing** we
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGTextElement**](/svg/elements/text)
 -   [**SVGTextPositioningElement**](/svg/elements/textPositioning)

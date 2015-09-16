@@ -16,8 +16,6 @@ Converts a JavaScript Object Notation (JSON) string into an object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     JSON.parse( text [ , reviver] )
 
 **text**

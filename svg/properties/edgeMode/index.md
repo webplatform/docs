@@ -27,6 +27,6 @@ If attribute **edgeMode** is not specified, then the effect is as if a value of 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEConvolveMatrixElement**](/svg/elements/feConvolveMatrix)

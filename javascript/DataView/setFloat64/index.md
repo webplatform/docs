@@ -16,8 +16,6 @@ Sets the Float64 value at the specified byte offset from the start of the view. 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dataView.setFloat64 (byteOffset, value, littleEndian);
 
 **byteOffset**

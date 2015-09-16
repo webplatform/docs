@@ -42,7 +42,7 @@ If the [**src**](/html/attributes/src) property is set in code, the new URL star
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `img`
 -   `input`

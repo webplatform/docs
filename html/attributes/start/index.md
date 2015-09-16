@@ -42,7 +42,7 @@ The **start** property applies only to **img** objects with the **dynsrc** prope
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `img`
 -   `input`

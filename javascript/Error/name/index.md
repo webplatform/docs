@@ -16,8 +16,6 @@ Returns the name of an error.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     errorObj.name
 
 **errorObj**

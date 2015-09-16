@@ -16,8 +16,6 @@ Read-only. The offset of this array from the start of its ArrayBuffer, in bytes,
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var arrayOffset = int32Array.byteOffset;
 
 ## Examples

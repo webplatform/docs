@@ -25,6 +25,6 @@ Returns a stand-alone, parentless horizontal line that is drawn from the current
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPathElement**](/svg/elements/path)

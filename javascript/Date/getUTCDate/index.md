@@ -17,8 +17,6 @@ Gets the day-of-the-month, using Universal Coordinated Time (UTC).
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.getUTCDate()
 
 ## Return Value

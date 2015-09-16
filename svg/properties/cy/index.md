@@ -27,7 +27,7 @@ For an example of how the starting point and direction of an arc (for an ellipse
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGCircleElement**](/svg/elements/circle)
 -   [**SVGEllipseElement**](/svg/elements/ellipse)

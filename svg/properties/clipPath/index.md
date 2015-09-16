@@ -25,7 +25,7 @@ An IRI is similar to a URL. For example, an SVG file called **myDrawing.svg** lo
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)

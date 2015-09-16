@@ -189,7 +189,7 @@ If more than one alternative style sheet exists, then this is the preferred one.
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `styleSheet`
 -   `isAlternate`

@@ -27,6 +27,6 @@ The values from the *matrix* parameter are copied, but the *matrix* parameter do
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGTransform**](/svg/objects/SVGTransform)

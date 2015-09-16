@@ -84,6 +84,6 @@ The syntax for **XMLNS** is based on the [W3C XML Namespace Spec](http://go.micr
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `html`

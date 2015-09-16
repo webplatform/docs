@@ -19,6 +19,6 @@ uri: svg/properties/startOffset
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGTextPathElement**](/svg/elements/textPath)

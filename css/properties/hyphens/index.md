@@ -193,6 +193,6 @@ Note that not all languages are supported by browsers which support the value `a
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`

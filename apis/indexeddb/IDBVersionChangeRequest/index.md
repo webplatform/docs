@@ -54,7 +54,7 @@ The **IDBVersionChangeRequest** object was returned by the [**setVersion**](/w/i
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `onupgradeneeded`
 -   `open`

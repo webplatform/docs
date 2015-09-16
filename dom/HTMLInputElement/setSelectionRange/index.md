@@ -95,7 +95,7 @@ If you set a parameter to more than the length of the text field, the parameter 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `input type=text`
 -   `textArea`

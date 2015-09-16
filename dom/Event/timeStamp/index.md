@@ -61,7 +61,7 @@ window.onload = eventHandler;
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

@@ -21,6 +21,6 @@ HRESULT value = object.get\_previousTranslate(ISVGPoint\*\* p);
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGZoomEvent**](/svg/objects/SVGZoom)

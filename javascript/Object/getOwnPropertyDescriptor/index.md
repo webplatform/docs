@@ -16,8 +16,6 @@ Gets the own property descriptor of the specified object. An own property descri
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Object.getOwnPropertyDescriptor( object , propertyname )
 
 **object**

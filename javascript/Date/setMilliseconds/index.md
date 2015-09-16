@@ -17,8 +17,6 @@ Sets the milliseconds value in the Date object using local time.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.setMilliseconds( numMilli )
 
 **dateObj**

@@ -61,6 +61,6 @@ To customize sandbox restrictions for a given **iframe** element, specify one or
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLIFrameElement`

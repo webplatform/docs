@@ -61,7 +61,7 @@ You can set the value of this property to **true** while processing an event, by
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

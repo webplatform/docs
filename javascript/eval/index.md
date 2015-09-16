@@ -16,8 +16,6 @@ Evaluates JavaScript code and executes it.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     eval( codeString )
 
 **codeString**

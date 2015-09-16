@@ -211,6 +211,6 @@ The **CSSMediaRule** object has these methods. {
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `IHTMLCSSMediaRule`

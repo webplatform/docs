@@ -19,8 +19,6 @@ Returns a Boolean value indicating the state of the global flag ( g ) used with 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     rgExp.global
 
 ## Examples

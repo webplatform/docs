@@ -111,7 +111,7 @@ Use the [**currentTime**](/dom/HTMLMediaElement/currentTime) property to retriev
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `audioApi`
 -   `audioElement`

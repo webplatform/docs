@@ -17,8 +17,6 @@ Gets the day of the week, using local time.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.getDay()
 
 ## Return Value

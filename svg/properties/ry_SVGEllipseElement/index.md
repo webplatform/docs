@@ -25,6 +25,6 @@ For an example of how the major and minor axes of an ellipse are related to the 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGEllipseElement**](/svg/elements/ellipse)

@@ -57,7 +57,7 @@ A positioned element is an element whose position property is set to `relative`,
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `DragEvent`
 -   `MouseEvent`

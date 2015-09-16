@@ -31,6 +31,6 @@ This page lists properties, methods, and events for the EventException object.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `DOM Exception Error Codes`

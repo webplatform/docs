@@ -19,6 +19,6 @@ uri: svg/properties/unitType
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGAngle**](/svg/objects/SVGAngle)

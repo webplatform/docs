@@ -17,8 +17,6 @@ Returns a section of an array.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     slice( start , [ end ])
 
 **start**

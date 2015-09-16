@@ -48,6 +48,6 @@ This property can be any string, including an empty string. Style sheets having 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `styleSheet`

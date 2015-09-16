@@ -262,6 +262,6 @@ This method can return one of these values.
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSKeyframesRule`

@@ -16,8 +16,6 @@ Returns true if existing property attributes cannot be modified in an object and
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Object.isSealed( object )
 
 **object**

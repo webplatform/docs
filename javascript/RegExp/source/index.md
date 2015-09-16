@@ -19,8 +19,6 @@ Returns a copy of the text of the regular expression pattern. Read-only. The rgE
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     rgExp.source
 
 ## Examples

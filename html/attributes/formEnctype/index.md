@@ -192,7 +192,7 @@ The formenctype attribute overrides the enctype attribute of the \<form\> elemen
 
 -   [time](/html/elements/time)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLInputElement`
 -   `HTMLButtonElement`

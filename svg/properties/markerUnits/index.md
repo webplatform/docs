@@ -25,7 +25,7 @@ If you do not specify the **markerUnits** property, the effect is the same as if
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 ### Reference
 

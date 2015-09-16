@@ -49,6 +49,6 @@ Combining scrips both standard and with `defer` that depend on each other. [Disc
 
 <http://caniuse.com/#feat=script-defer>
 
-### Related pages (MSDN)
+### Related pages
 
 -   `script`

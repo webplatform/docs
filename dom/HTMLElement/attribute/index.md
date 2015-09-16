@@ -68,6 +68,6 @@ The **attributes** collection does not expose the [**style**](/css/cssom/style) 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `About the W3C Document Object Model`

@@ -16,8 +16,6 @@ Prevents the modification of existing property attributes and values, and preven
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Object.freeze( object )
 
 **object**

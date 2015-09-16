@@ -183,7 +183,7 @@ element.isAlternate = value;
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `styleSheet`
 -   `isPrefAlternate`

@@ -95,6 +95,6 @@ Changes the document's zoom level or [**currentScale**](/svg/properties/currentS
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

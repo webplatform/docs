@@ -113,7 +113,7 @@ Child elements do not inherit this attribute unless they have layout. Use the [*
 
 -   [Contenteditable Demo](http://demo.xpertdeveloper.com/contenteditable-attribute/)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `defaults`
 -   `a`

@@ -154,7 +154,7 @@ When using text-transform: capitalize; authors should not expect capitalize to f
 
 <http://www.w3.org/wiki/CSS/Properties/text-transform>
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

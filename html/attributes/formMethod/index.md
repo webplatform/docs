@@ -50,7 +50,7 @@ The formmethod attribute overrides the method attribute of the \<form\> element.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLInputElement`
 -   `HTMLButtonElement`

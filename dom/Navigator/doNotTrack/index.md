@@ -65,6 +65,6 @@ The current [Tracking Preference Expression](http://www.w3.org/TR/tracking-dnt/)
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Internet Explorer Blog: Introducing Tracking Protection`

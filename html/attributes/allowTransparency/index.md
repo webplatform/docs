@@ -66,7 +66,7 @@ There are no standards that apply here. Support for this attribute has been drop
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `frame`
 -   `iframe`

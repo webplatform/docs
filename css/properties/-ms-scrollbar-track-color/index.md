@@ -80,7 +80,7 @@ Windows Internet Explorer 8. The **-ms-scrollbar-track-color** attribute is an 
 
 -   **-ms-scrollbar-track-color**
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

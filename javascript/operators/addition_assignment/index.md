@@ -16,8 +16,6 @@ Adds the value of an expression to the value of a variable and assigns the resul
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result += expression
 
 **result**

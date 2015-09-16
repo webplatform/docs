@@ -43,6 +43,6 @@ Windows Internet Explorer 8 or later. In IE8 Standards mode, the value of the *
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `base`

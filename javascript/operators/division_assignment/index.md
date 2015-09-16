@@ -16,8 +16,6 @@ Divides the value of a variable by the value of an expression and assigns the re
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result /= expression
 
 **result**

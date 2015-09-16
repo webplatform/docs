@@ -47,6 +47,6 @@ The **owningElement** property returns the **style** or **link** object that def
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `styleSheet`

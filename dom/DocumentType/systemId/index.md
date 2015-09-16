@@ -69,7 +69,7 @@ The value of the **systemId** property corresponds to the *URL* attribute of a [
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `DocumentType`
 -   `name`

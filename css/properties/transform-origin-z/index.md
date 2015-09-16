@@ -97,7 +97,7 @@ Units of measurement may be absolute (`cm`, `mm`, `in`, `pt`, or `pc`) or relati
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

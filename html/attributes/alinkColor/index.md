@@ -46,6 +46,6 @@ Some browsers do not recognize color names, but all browsers should recognize RG
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `body`

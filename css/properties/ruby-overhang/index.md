@@ -96,7 +96,7 @@ The **ruby-overhang** property specifies the overhang of the ruby text defined b
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

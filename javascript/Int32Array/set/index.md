@@ -16,11 +16,7 @@ Sets a value or an array of values.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     int8Array.set(index, value);
-
-<span class="language">JavaScript</span>
 
     int8Array.set(array, offset);
 

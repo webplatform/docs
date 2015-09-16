@@ -83,7 +83,7 @@ For more information see the following links:
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `abbr`

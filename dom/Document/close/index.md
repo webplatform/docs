@@ -60,6 +60,6 @@ When [**document.write**](/dom/Document/write) or [**document.writeln**](/dom/Do
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `open`

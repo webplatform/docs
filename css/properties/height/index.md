@@ -331,7 +331,7 @@ If you specify the **height** property of an **img** object but not the [**width
 
 -   **height**
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

@@ -47,7 +47,7 @@ Volume ranges do not need to be linear. When [**muted**](/dom/HTMLMediaElement/m
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `media`
 -   `audio`

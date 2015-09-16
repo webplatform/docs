@@ -25,7 +25,7 @@ The **fx** and [**fy**](/svg/properties/fy) properties define the focal point fo
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGRadialGradientElement**](/svg/elements/radialGradient)
 

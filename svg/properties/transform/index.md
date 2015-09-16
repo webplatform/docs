@@ -19,7 +19,7 @@ uri: svg/properties/transform
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGClipPathElement**](/svg/elements/clipPath)
 -   [**SVGUseElement**](/svg/elements/use)

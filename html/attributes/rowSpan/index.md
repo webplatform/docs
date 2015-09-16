@@ -43,7 +43,7 @@ This property can be changed only after the document has been loaded.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `td`
 -   `th`

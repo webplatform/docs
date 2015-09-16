@@ -24,15 +24,9 @@ Array is an object used to list values together. When you create an array, youâ€
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     [ element0 [, element1 [, ...[, elementN ]]]]
 
-<span class="language">JavaScript</span>
-
     new Array([ element0 [, element1 [, ...[, elementN ]]]])
-
-<span class="language">JavaScript</span>
 
     new Array([ length ])
 

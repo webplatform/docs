@@ -16,8 +16,6 @@ Executes a block of statements for as long as a specified condition is true.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     for ([ initialization ]; [ test ]; [ increment ]) {
         statement
     }

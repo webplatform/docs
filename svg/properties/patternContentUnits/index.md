@@ -25,6 +25,6 @@ The **patternContentUnits** property uses one of the constants that are defined 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPatternElement**](/svg/elements/patterrn)

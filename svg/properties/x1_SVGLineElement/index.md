@@ -25,6 +25,6 @@ If you do not specify this property, the effect is the same as if you specify a 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGLineElement**](/svg/elements/line)

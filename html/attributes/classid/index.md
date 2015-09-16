@@ -41,6 +41,6 @@ The format the classid string is "clsid:XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX" fo
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `object`

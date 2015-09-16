@@ -93,7 +93,7 @@ The browser displays its error message when a problem occurs and runs any error 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)
 -   ****onerror****

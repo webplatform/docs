@@ -16,8 +16,6 @@ Terminates the current loop or, if in conjunction with a label, terminates the a
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     break [ label ];
 
 ## Examples

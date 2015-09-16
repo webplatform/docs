@@ -16,8 +16,6 @@ Creates a new object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     new constructor ([ arguments ])
 
 **constructor**

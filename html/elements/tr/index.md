@@ -110,7 +110,7 @@ The **TD** and **TH** elements are valid within a row. To change the HTML in the
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `table`

@@ -128,7 +128,7 @@ Whitespace, such as line breaks, spaces, and tabs, is collapsed by default in HT
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

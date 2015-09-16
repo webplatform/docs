@@ -19,8 +19,6 @@ Sets the year value in the Date object. Deprecated in favor of the setFullYear m
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.setYear( numYear )
 
 **dateObj**

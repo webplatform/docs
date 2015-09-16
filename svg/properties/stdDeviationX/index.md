@@ -19,6 +19,6 @@ uri: svg/properties/stdDeviationX
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEGaussianBlurElement**](/svg/elements/feGaussianBlur)

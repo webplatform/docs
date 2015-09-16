@@ -49,7 +49,7 @@ If the second parameter is not provided, it is takes a value equal to the first.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`

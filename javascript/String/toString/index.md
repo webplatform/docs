@@ -16,8 +16,6 @@ Returns a string representation of a string.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     string.toString()
 
 **string**

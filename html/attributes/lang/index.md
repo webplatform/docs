@@ -41,7 +41,7 @@ The parser uses this property to determine how to display language-specific choi
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `abbr`

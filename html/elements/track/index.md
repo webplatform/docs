@@ -60,6 +60,6 @@ The **track** object has these events. {
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `track object`

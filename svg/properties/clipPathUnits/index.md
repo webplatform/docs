@@ -27,6 +27,6 @@ The default **svgUnitTypes** value of **SVG\_UNIT\_TYPE\_OBJECTBOUNDINGBOX** mea
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGClipPathElement**](/svg/elements/clipPath)

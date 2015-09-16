@@ -16,8 +16,6 @@ Gets the Int16 value at the specified byte offset from the start of the view. Th
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var testInt = dataView.getInt16(byteOffset, littleEndian);
 
 **testInt**

@@ -17,8 +17,6 @@ Returns the stored time value in milliseconds since midnight, January 1, 1970 UT
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     date.valueOf()
 
 ## Return Value

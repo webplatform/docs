@@ -16,8 +16,6 @@ Tests for the existence of a property in an object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result = property in object
 
 **result**

@@ -53,6 +53,6 @@ Use **target** when there are multiple possible targets for the ending resource,
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGAElement**](/svg/elements/a)

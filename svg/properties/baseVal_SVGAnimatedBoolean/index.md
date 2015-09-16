@@ -25,7 +25,7 @@ Windows Internet Explorer 9 supports script-based SVG animation but it does not 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGAnimatedBoolean**](/svg/objects/SVGAnimatedBoolean)
 -   [**animVal**](/svg/properties/animVal_(SVGAnimatedBoolean))

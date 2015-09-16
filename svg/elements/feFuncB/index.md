@@ -206,7 +206,7 @@ The **SVGFEFuncBElement** object has these properties.
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEComponentTransferElement**](/svg/elements/feComponentTransfer)
 -   [**SVGFEFuncRElement**](/svg/elements/feFuncR)

@@ -25,6 +25,6 @@ After applying the [**kernelMatrix**](/svg/properties/kernelMatrix) to the input
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEConvolveMatrixElement**](/svg/elements/feConvolveMatrix)

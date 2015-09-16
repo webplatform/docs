@@ -27,6 +27,6 @@ Because CSS is the only common language for inline styling, and because CSS is t
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

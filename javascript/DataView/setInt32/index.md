@@ -16,8 +16,6 @@ Sets the Int32 value at the specified byte offset from the start of the view. Th
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dataView.setInt32 (byteOffset, value, littleEndian);
 
 **byteOffset**

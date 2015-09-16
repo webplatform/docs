@@ -44,6 +44,6 @@ This collection is always accessible, even if the style sheet is not enabled. Ru
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `styleSheet`

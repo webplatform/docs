@@ -44,7 +44,7 @@ Each text element has an initial current text position, defined as a point in th
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**SVGTextElement**](/svg/elements/text)

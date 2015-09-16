@@ -17,11 +17,7 @@ Creates a new Boolean (true/false) value.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     new Boolean ([ boolValue ])
-
-<span class="language">JavaScript</span>
 
     ([ boolValue ])
 

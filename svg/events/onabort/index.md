@@ -124,7 +124,7 @@ The **onabort** event occurs when page loading is stopped before an element is l
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)
 -   [**onabort**](/w/index.php?title=dom/events/abort&action=edit&redlink=1)

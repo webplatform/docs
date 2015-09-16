@@ -21,7 +21,7 @@ HRESULT value = object.get\_systemLanguage(ISVGStringList\*\* pStringList);
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGClipPathElement**](/svg/elements/clipPath)
 -   [**SVGPatternElement**](/svg/elements/patterrn)

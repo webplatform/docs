@@ -42,6 +42,6 @@ This property has no default value There is no functionality implemented for thi
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `object`

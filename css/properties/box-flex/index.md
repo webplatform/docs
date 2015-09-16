@@ -126,7 +126,7 @@ Gets or sets a value that specifies whether the width or height of a child eleme
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

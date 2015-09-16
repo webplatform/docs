@@ -45,7 +45,7 @@ Tabbing order goes from every tab stop within the viewlink to every tab stop in 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `defaults`
 -   `Reference`

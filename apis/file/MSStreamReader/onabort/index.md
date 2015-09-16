@@ -62,7 +62,7 @@ The *pEvtObj* parameter is required for the following interfaces:
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `FileReader`
 -   `msStreamReader`

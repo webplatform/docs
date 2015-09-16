@@ -103,7 +103,7 @@ The following example shows the difference between a URL attribute which is usin
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `removeAttribute`
 -   `setAttribute`

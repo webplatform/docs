@@ -93,7 +93,7 @@ This property is supported by Windows 2000 and later, which enables users to hi
 
 -   [behavior](/css/properties/behavior)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

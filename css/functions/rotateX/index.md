@@ -46,7 +46,7 @@ The **rotateX** transform function is the same as [**rotate3d**](/css/functions/
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`

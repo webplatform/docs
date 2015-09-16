@@ -114,7 +114,7 @@ When a function fired by an event on any object calls the **open** method, the [
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `close`

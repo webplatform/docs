@@ -19,6 +19,6 @@ uri: svg/methods/getPointAtLength
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPathElement**](/svg/elements/path)

@@ -45,7 +45,7 @@ The following is the standard format for defining the time and date as defined i
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `ins`
 -   `del`

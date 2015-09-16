@@ -19,6 +19,6 @@ uri: 'svg/properties/unitType (SVGLength)'
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGLength**](/svg/objects/SVGLength)

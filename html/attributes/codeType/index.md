@@ -38,7 +38,7 @@ Internet media types are also known as MIME types. The **codeType** property is 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `object`
 -   `MIME Type Detection in Internet Explorer`

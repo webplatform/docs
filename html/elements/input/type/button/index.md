@@ -951,7 +951,7 @@ The **input type=button** object has these properties.
 
 -   The [**button**](/html/elements/button) element
 
-### Related pages (MSDN)
+### Related pages
 
 -   [button](/html/elements/button)
 -   [input](/html/elements/input)

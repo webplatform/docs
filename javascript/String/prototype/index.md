@@ -16,8 +16,6 @@ Returns a reference to the prototype for a class of string.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     string.prototype
 
 ## Examples

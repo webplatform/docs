@@ -47,6 +47,6 @@ The following example displays a list of text tracks associated with a video. **
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `video`

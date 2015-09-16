@@ -29,7 +29,7 @@ HRESULT value = object.put\_value(float v);HRESULT value = object.get\_value(flo
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGAngle**](/svg/objects/SVGAngle)
 -   [**SVGLength**](/svg/objects/SVGLength)

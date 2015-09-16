@@ -16,8 +16,6 @@ Stops the current iteration of a loop, and starts a new iteration.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     continue [ label ];
 
 ## Examples

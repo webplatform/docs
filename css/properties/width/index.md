@@ -187,7 +187,7 @@ In the CSS Basic Box Model Working Draft, the values max-content, min-content, a
 -   <http://www.w3.org/TR/CSS2/visudet.html#the-width-property>
 -   <http://www.w3.org/TR/CSS21/visudet.html#propdef-width>
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

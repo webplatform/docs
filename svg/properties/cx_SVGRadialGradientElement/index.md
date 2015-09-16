@@ -33,6 +33,6 @@ The **display** property does not apply to the [**radialGradient**](/svg/element
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGRadialGradientElement**](/svg/elements/radialGradient)

@@ -17,8 +17,6 @@ Sets the hours value in the Date object using Universal Coordinated Time (UTC).
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.setUTCHours( numHours [ , numMin [ , numSec [ , numMilli ]]] )
 
 **dateObj**

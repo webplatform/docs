@@ -259,7 +259,7 @@ The coordinates match the [**offsetLeft**](/w/index.php?title=dom/properties/off
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `DragEvent`
 -   `MouseEvent`

@@ -201,7 +201,7 @@ No return value
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSMediaRule`
 -   `Reference`

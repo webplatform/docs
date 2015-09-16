@@ -25,6 +25,6 @@ The rotation angle is determined by taking (+/-)arctan(y/x). The direction of th
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGMatrix**](/svg/objects/SVGMatrix)

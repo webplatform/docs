@@ -75,7 +75,7 @@ This property currently has no visible effect because "blink" is not currently i
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `defaultSelected`
 -   `runtimeStyle`

@@ -17,8 +17,6 @@ Returns a date as a string value in simplified ISO 8601 Extended format.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     toISOString()
 
 ## Return Value

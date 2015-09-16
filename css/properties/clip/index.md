@@ -166,7 +166,7 @@ As of Windows Internet Explorer 8, the required syntax of the **clip** attribut
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

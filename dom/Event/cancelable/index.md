@@ -61,7 +61,7 @@ If you cannot cancel the event, calling [**preventDefault**](/dom/Event/preventD
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

@@ -16,8 +16,6 @@ Returns the arc cosine (or inverse cosine) of a number.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.acos( number )
 
 **number**

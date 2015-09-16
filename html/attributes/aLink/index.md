@@ -43,7 +43,7 @@ Some browsers do not recognize color names, but all browsers should recognize an
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Document`
 -   `Reference`

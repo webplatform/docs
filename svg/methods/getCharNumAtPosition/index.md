@@ -19,7 +19,7 @@ uri: svg/methods/getCharNumAtPosition
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGTextElement**](/svg/elements/text)
 -   [**SVGTextContentElement**](/svg/elements/etextContent)

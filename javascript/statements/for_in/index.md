@@ -16,8 +16,6 @@ Executes one or more statements for each property of an object, or each element 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     for ( variable in [ object | array ]) {
         statements
     }

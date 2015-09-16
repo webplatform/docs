@@ -16,19 +16,11 @@ The increment operator increments, and the decrement operator decrements, the va
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result = ++ variable
-
-<span class="language">JavaScript</span>
 
     result = -- variable
 
-<span class="language">JavaScript</span>
-
     result = variable ++
-
-<span class="language">JavaScript</span>
 
     result = variable --
 

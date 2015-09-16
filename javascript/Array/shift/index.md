@@ -17,8 +17,6 @@ Removes the first element from an array and returns it.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     shift( )
 
 ## Return Value

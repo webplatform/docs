@@ -17,8 +17,6 @@ Initializes a Boolean object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     boolean.constructor([ value ])
 
 **boolean**

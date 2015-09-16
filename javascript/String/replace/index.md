@@ -16,8 +16,6 @@ Replaces text in a string, using a regular expression or search string.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     stringObj. replace( rgExp , replaceText )
 
 **stringObj**

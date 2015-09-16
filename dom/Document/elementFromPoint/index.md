@@ -85,7 +85,7 @@ Coordinates are supplied in client coordinates. The upper-left corner of the cli
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `clientX`
 -   `clientY`

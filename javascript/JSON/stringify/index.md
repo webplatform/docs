@@ -16,8 +16,6 @@ Converts a JavaScript value to a JavaScript Object Notation (JSON) string.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     JSON.stringify( value [ , replacer] [ , space] )
 
 **value**

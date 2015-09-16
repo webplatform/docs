@@ -16,8 +16,6 @@ Returns the number of milliseconds between midnight, January 1, 1970 Universal C
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Date.UTC( year , month , day [ , hours [, minutes [, seconds [, ms ]]]])
 
 **year**

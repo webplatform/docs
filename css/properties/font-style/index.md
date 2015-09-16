@@ -167,7 +167,7 @@ Authors should also be aware that synthesized approaches may not be suitable for
 
 -   [font](/html/elements/font)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

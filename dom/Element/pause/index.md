@@ -93,7 +93,7 @@ To invoke this event, do one of the following:
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `audioApi`
 -   `audioElement`

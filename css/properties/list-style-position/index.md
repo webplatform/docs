@@ -168,7 +168,7 @@ If a list-style-position is set to outside and padding-left is set to 0, the mar
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

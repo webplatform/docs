@@ -16,8 +16,6 @@ Gets the Int8 value at the specified byte offset from the start of the view. The
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var testInt = dataView.getInt8(byteOffset);
 
 **testInt**

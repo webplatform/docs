@@ -92,6 +92,6 @@ Text within the **PRE** element is formatted. Spaces and carriage returns are pr
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `xmp`

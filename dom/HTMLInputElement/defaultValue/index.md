@@ -56,7 +56,7 @@ The value of the property can be changed programmatically, but doing so has no e
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `input type=button`
 -   `input type=checkbox`

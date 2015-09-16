@@ -52,7 +52,7 @@ The **input type=search** object has these properties. {
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `spellcheck`

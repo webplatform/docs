@@ -107,7 +107,7 @@ The value **none** turns off only the interior borders. To turn off the table bo
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`
 -   `frame`

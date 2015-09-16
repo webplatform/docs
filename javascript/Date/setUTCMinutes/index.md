@@ -17,8 +17,6 @@ Sets the minutes value in the Date object using Universal Coordinated Time (UTC)
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.setUTCMinutes( numMinutes [ , numSeconds [ , numMilli ]] )
 
 **dateObj**

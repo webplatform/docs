@@ -47,7 +47,7 @@ You can use the **autoplay** attribute rather than script to force the **audio**
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `media`
 -   `audio`

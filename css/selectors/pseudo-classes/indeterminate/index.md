@@ -185,7 +185,7 @@ indeterminate
 
 -   [type](/css/selectors/type)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `:enabled`

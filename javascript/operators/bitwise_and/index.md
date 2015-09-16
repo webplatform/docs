@@ -16,8 +16,6 @@ Performs a bitwise AND operation on two 32-bit expressions.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result = expression1 & expression2
 
 **result**

@@ -16,8 +16,6 @@ Returns the smallest integer greater than or equal to its numeric argument.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.ceil( number )
 
 ## Examples

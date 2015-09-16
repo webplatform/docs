@@ -39,7 +39,7 @@ element.availHeight = value;
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `screen`
 -   `Reference`

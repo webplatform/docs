@@ -17,8 +17,6 @@ Gets the milliseconds of a Date object using Universal Coordinated Time (UTC).
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.getUTCMilliseconds()
 
 ## Return Value

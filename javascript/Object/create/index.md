@@ -16,8 +16,6 @@ Creates an object that has the specified prototype, and that optionally contains
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Object.create( prototype , descriptors )
 
 **prototype**

@@ -45,6 +45,6 @@ This event fires when a method starts to read a [**Blob**](/apis/file/Blob) obje
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `FileReader`

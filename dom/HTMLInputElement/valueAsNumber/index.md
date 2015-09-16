@@ -34,6 +34,6 @@ element.valueAsNumber = value;
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLInputElement`

@@ -16,8 +16,6 @@ Returns the string against which a regular expression search was performed. Read
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     RegExp.input
 
 ## Examples

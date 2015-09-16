@@ -29,6 +29,6 @@ This property considers user magnification.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

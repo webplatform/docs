@@ -42,7 +42,7 @@ The following example lets you pick multiple files, and then displays them.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLInputElement`
 -   `input type=file`

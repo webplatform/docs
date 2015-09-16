@@ -19,7 +19,7 @@ uri: svg/properties/xmllang
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGAElement**](/svg/elements/a)
 -   [**SVGCircleElement**](/svg/elements/circle)

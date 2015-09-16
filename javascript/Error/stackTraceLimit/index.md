@@ -16,8 +16,6 @@ Gets or sets the stack trace limit, which is equivalent to the number of error f
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Error .stackTraceLimit
 
 ## Examples

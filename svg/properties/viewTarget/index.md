@@ -25,6 +25,6 @@ The **viewTarget** attribute is a space-delimited list of elements in the view t
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGViewElement**](/svg/elements/view)

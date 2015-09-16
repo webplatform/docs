@@ -25,7 +25,7 @@ On both the current and the target elements, the return value is determined afte
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGClipPathElement**](/svg/elements/clipPath)
 -   [**SVGSVGElement**](/svg/elements/svg)

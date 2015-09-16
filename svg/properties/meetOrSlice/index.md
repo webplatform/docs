@@ -19,6 +19,6 @@ uri: svg/properties/meetOrSlice
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPreserveAspectRatio**](/svg/objects/SVGPreserveAspectRatio)

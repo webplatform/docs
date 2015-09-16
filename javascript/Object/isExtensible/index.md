@@ -16,8 +16,6 @@ Returns a value that indicates whether new properties can be added to an object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Object.isExtensible( object )
 
 **object**

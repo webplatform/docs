@@ -17,8 +17,6 @@ Returns the index of the first occurrence of a value in an array.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     indexOf( searchElement [, fromIndex ])
 
 **searchElement**

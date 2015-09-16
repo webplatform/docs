@@ -16,8 +16,6 @@ Returns a string where all alphabetic characters have been converted to uppercas
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     stringVar.toLocaleUpperCase( )
 
 ## Examples

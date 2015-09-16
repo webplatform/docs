@@ -228,7 +228,7 @@ There are no standards that apply here.
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `screen`
 -   `Reference`

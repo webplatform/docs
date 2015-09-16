@@ -81,7 +81,7 @@ Fires the **onerror** event and passes the associated error to the **error** pro
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `FileReader`
 -   `msStreamReader`

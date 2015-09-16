@@ -18,8 +18,6 @@ Allows manipulation and formatting of text strings and determination and locatio
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     // Declaring a string literal.
     var newString = "stringLiteral";
 

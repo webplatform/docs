@@ -45,6 +45,6 @@ Retrieving the value of the property through script enables you to select an app
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `screen`

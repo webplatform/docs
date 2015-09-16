@@ -43,6 +43,6 @@ API Name
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `DOM Exception Error Codes`

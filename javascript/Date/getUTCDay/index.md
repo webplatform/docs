@@ -17,8 +17,6 @@ Gets the day of the week using Universal Coordinated Time (UTC).
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.getUTCDay()
 
 ## Return Value

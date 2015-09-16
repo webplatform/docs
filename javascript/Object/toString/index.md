@@ -16,8 +16,6 @@ Returns a string representation of an object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     objectname.toString([ radix ])
 
 **objectname**

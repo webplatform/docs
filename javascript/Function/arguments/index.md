@@ -16,8 +16,6 @@ Gets the arguments for the currently executing Function object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     function.arguments
 
 ## Examples

@@ -16,8 +16,6 @@ Restricts the use of some potentially-harmful features of JavaScript (e.g., eval
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     "use strict";
 
 ## Examples

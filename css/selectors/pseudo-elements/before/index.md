@@ -45,6 +45,6 @@ The **::before** and [**::after**](/css/selectors/pseudo-elements/::after) pseud
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `content`

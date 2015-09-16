@@ -16,8 +16,6 @@ Gets the unencoded version of an encoded component of a Uniform Resource Identif
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     decodeURIComponent( encodedURIString )
 
 ## Examples

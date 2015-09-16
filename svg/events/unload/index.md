@@ -96,7 +96,7 @@ The object or document is removed from the browser window. To invoke this event,
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)
 -   [**onunload**](/w/index.php?title=dom/events/unload&action=edit&redlink=1)

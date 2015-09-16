@@ -16,8 +16,6 @@ Returns the primitive value of the specified number.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     number.valueOf()
 
 ## Return Value

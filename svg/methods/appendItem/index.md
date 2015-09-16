@@ -27,7 +27,7 @@ If the *newItem* item is already in the list, the **appendItem** method removes 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGLengthList**](/svg/objects/SVGLengthList)
 -   [**SVGNumberList**](/svg/objects/SVGNumberList)

@@ -16,8 +16,6 @@ Returns the character position where the first successful match begins in a sear
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     RegExp.index
 
 ## Examples

@@ -16,8 +16,6 @@ Specifies the function that creates a date.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     date.constructor
 
 ## Examples

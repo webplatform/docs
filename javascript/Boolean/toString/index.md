@@ -17,8 +17,6 @@ Returns a string representation of a Boolean object.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     boolean.toString()
 
 **boolean**

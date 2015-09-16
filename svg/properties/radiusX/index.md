@@ -27,6 +27,6 @@ The number must be positive. If no number is supplied, the value is zero. If the
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEMorphologyElement**](/svg/elements/feMorphology)

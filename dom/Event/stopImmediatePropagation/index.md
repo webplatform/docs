@@ -53,7 +53,7 @@ To allow the remaining handlers to run, use the [**stopPropagation**](/dom/Event
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

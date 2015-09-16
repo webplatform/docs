@@ -147,7 +147,7 @@ This property is deprecated. It is replaced by the [**-ms-word-break**](/css/pro
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

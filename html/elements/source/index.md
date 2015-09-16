@@ -73,7 +73,7 @@ Allows developer to specify multiple alternative media resources for media eleme
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `audio`
 -   `video`

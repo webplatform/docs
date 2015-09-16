@@ -49,7 +49,7 @@ The default value for the **th** element is **center**. The **justify** possible
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `col`
 -   `colGroup`

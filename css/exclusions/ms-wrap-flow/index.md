@@ -59,7 +59,7 @@ The **-ms-wrap-flow** property makes an element an exclusion element when it has
 
 -   [ms-wrap-through](/css/exclusions/ms-wrap-through)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `Internet Explorer 10 Guide for Developers: CSS Exclusions`

@@ -33,6 +33,6 @@ element.selector = value;
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `page`

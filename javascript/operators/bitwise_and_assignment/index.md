@@ -16,8 +16,6 @@ Sets the result of a bitwise AND operation on the value of a variable and the va
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result &= expression
 
 **result**

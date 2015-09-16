@@ -53,7 +53,7 @@ The **input type=email** object has these properties. {
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `input`

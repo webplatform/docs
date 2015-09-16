@@ -38,6 +38,6 @@ The higher the setting, the louder the sound.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `bgSound`

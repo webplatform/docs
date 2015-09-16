@@ -120,7 +120,7 @@ This property only applies to text overflow in the inline direction (horizontal,
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

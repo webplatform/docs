@@ -38,7 +38,7 @@ Unless explicitly set, the **dir** property has no return value when accessed in
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Document`
 -   `Reference`

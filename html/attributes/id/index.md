@@ -65,7 +65,7 @@ The **id** is an SGML identifier used as the target for hypertext links or for n
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `style`
 -   `a`

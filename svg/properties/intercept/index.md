@@ -19,7 +19,7 @@ uri: svg/properties/intercept
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGComponentTransferFunctionElement**](/svg/objects/SVGComponentTransferFunctionElement)
 -   [**SVGFEFuncGElement**](/svg/elements/feFuncGelement)

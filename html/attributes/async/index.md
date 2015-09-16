@@ -137,6 +137,6 @@ Declaring a script to run asynchronously can improve performance by unblocking t
 
 -   [defer attribute](/html/attributes/defer)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLScriptElement`

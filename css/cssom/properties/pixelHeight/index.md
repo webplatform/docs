@@ -62,7 +62,7 @@ Setting this property changes the value of the height without changing the units
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `runtimeStyle`
 -   `style`

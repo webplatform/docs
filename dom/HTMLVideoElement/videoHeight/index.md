@@ -47,7 +47,7 @@ The intrinsic dimensions of a video are the value that is accounted for after th
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `video element`
 -   `video object`

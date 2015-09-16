@@ -16,8 +16,6 @@ Gets a new Uint8Array view of the ArrayBuffer Object store for this array, speci
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var newUint8Array = uint8Array.subarray(begin, end);
 
 **newUint8Array**

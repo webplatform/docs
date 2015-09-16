@@ -46,7 +46,7 @@ All other transformation functions are based on the **matrix3d** function. It is
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`

@@ -16,8 +16,6 @@ Gets a new Int16Array view of the ArrayBuffer Object store for this array, speci
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var newInt16Array = int16Array.subarray(begin, end);
 
 **newInt16Array**

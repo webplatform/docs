@@ -57,7 +57,7 @@ The number of comma-separated items is equal to the number of frames contained w
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `frameSet`
 -   `rows`

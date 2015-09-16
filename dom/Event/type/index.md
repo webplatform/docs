@@ -57,7 +57,7 @@ The **type** property of the event depends on the event. This property can be a 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`

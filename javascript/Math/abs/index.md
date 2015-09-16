@@ -16,8 +16,6 @@ Returns the absolute value of a number (the value without regard to whether it i
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.abs( number )
 
 **number**

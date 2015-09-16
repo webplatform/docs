@@ -164,7 +164,7 @@ The *sSecure* value must specify `restricted`. Because **SECURITY** is an attrib
 
     ## See also
 
-    ### Related pages (MSDN)
+    ### Related pages
 
     -   `frame`
     -   `iframe`

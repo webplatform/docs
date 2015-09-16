@@ -51,6 +51,6 @@ The **DOMParser** object has these methods. {
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `parseFromString`

@@ -47,7 +47,7 @@ The presence of the loop attribute, regardless of assigned value, in either the 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `media`
 -   `audio`

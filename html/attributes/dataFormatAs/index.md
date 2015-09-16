@@ -60,7 +60,7 @@ As of Windows Internet Explorer 7, the **DATAFORMATAS** attribute is no longer 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `button`
 -   `div`

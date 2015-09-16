@@ -17,8 +17,6 @@ Sets the numeric day of the month in the Date object using Universal Coordinated
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.setUTCDate( numDate )
 
 **dateObj**

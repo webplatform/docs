@@ -16,8 +16,6 @@ Multiplies the value of two expressions.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result = number1 * number2
 
 **result**

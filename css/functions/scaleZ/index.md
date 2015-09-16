@@ -47,7 +47,7 @@ The effect of the **scaleZ** function is most evident when used in combination w
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`

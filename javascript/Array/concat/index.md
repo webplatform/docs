@@ -17,8 +17,6 @@ Combines two or more arrays.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     concat([ item1 [, item2 [, . . . [, itemN ]]]])
 
 **item1,. . ., itemN**

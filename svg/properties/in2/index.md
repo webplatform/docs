@@ -27,7 +27,7 @@ For additional information, see [**in**](/svg/properties/in1).
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEBlendElement**](/svg/elements/feBlend)
 -   [**SVGFECompositeElement**](/svg/elements/feComposite)

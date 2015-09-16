@@ -59,7 +59,7 @@ return exceptionMsg;
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `RangeException`
 -   `EventException`

@@ -16,8 +16,6 @@ Moves the specified number of bits to the left and assigns the result to result.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result <<= expression
 
 **result**

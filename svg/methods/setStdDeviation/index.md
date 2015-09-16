@@ -31,6 +31,6 @@ If the **stdDeviation** method is not specified, then the effect is as if a valu
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEGaussianBlurElement**](/svg/elements/feGaussianBlur)

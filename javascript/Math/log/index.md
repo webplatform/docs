@@ -16,8 +16,6 @@ Returns the natural logarithm (base e ) of a number.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math.log( number )
 
 **number**

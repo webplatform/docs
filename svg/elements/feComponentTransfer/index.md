@@ -286,6 +286,6 @@ The **SVGFEComponentTransferElement** object has these properties.
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEFuncRElement**](/svg/elements/feFuncR)

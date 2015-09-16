@@ -67,7 +67,7 @@ If you do not select text, **selectionEnd** returns the offset of the character 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `input type=text`
 -   `textArea`

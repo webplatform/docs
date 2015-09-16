@@ -47,7 +47,7 @@ If the property is not set, the first item is selected by default. The property 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `option`
 -   `defaultSelected`

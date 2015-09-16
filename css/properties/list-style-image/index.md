@@ -140,7 +140,7 @@ When the image is available, it replaces the marker that is set with the [**list
 
 -   [object-fit](/css/properties/object-fit)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

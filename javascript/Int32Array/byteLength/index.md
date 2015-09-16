@@ -16,8 +16,6 @@ Read-only. The length of this array from the start of its ArrayBuffer, in bytes,
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var arrayByteLength = int32Array.byteLength;
 
 ## Examples

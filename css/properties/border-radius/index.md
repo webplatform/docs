@@ -228,7 +228,7 @@ border-radius: 40% 60%;
 
 -   [border-width](/css/properties/border-width)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

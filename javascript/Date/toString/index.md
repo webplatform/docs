@@ -16,8 +16,6 @@ Returns a human readbale string representation of a date.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     toString()
 
 ## Return Value

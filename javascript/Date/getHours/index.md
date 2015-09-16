@@ -17,8 +17,6 @@ Gets the hours in a date, using local time.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     dateObj.getHours()
 
 ## Return Value

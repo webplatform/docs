@@ -25,7 +25,7 @@ The *offset* is a number (typically ranging from 0 through 1) that indicates whe
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGComponentTransferFunctionElement**](/svg/objects/SVGComponentTransferFunctionElement)
 -   [**SVGStopElement**](/svg/elements/stop)

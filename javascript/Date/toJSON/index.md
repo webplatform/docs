@@ -16,8 +16,6 @@ Used by the JSON.stringify method to enable the transformation of an object's da
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     objectname.toJSON()
 
 **objectname**

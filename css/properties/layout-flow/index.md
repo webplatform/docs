@@ -150,7 +150,7 @@ Windows Internet Explorer 8. The **-ms-layout-flow** attribute is an extension 
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

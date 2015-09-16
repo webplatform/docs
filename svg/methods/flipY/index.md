@@ -25,7 +25,7 @@ The **flipY** method post-multiplies the matrix by using the transformation [1 0
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 ### Reference
 

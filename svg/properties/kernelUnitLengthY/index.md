@@ -31,7 +31,7 @@ For some level of consistency across display media and browsers, it is necessary
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEConvolveMatrixElement**](/svg/elements/feConvolveMatrix)
 -   [**SVGFEDiffuseLightingElement**](/svg/elements/feDiffuseLighting)

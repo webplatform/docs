@@ -59,7 +59,7 @@ The password type of the &lt;input&gt; element represents a one-line plain-text 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `input`
 -   `msCapsLockWarningOff`

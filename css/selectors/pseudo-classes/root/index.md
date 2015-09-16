@@ -185,7 +185,7 @@ root
 
 -   [type](/css/selectors/type)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `:nth-child`

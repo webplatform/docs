@@ -45,7 +45,7 @@ This property is new in Windows Internet Explorer 8.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `frame`
 -   `iframe`

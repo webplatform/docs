@@ -63,6 +63,6 @@ This property specifies how an object is aligned with respect to its parent. For
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`

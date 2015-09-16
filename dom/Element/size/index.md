@@ -41,6 +41,6 @@ The **size** property returns the total number of bytes of the [**Blob**](/apis/
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Blob`

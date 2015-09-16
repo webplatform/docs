@@ -72,6 +72,6 @@ Each [**page**](/css/cssom/page) object represents a style sheet that correspond
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `styleSheet`

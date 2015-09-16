@@ -52,7 +52,7 @@ The arc of a [**circle**](/svg/elements/circle) element and the arc of an [**ell
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGCircleElement**](/svg/elements/circle)
 -   [**SVGEllipseElement**](/svg/elements/ellipse)

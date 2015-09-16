@@ -19,8 +19,6 @@ Executes a search on a string using a regular expression pattern, and returns an
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     rgExp.exec( str )
 
 **rgExp**

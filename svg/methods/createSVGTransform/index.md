@@ -19,6 +19,6 @@ uri: svg/methods/createSVGTransform
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `SVGSVGElement`

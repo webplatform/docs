@@ -57,6 +57,6 @@ This method can return one of these values.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLCanvasElement`

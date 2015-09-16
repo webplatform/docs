@@ -16,8 +16,6 @@ An object that represents a number of any kind. All JavaScript numbers are 64-bi
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     new Number( value )
 
 **value**

@@ -100,6 +100,6 @@ The **Visibility** API provides Web applications with the means to programmatica
 
 -   [HTML5 Techniques for Optimizing Mobile Performance](/tutorials/mobile_opt_and_perf)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `window`

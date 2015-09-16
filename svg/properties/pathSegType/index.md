@@ -19,7 +19,7 @@ uri: svg/properties/pathSegType
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPathSeg**](/svg/objects/SVGPathSeg)
 -   [**SVGPathSegArcAbs**](/svg/objects/SVGPathSegArcAbs)

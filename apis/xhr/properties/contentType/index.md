@@ -44,7 +44,7 @@ alert(xdr.contentType);
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `IHTMLXDomainRequest`

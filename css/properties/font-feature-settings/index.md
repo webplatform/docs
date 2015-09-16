@@ -162,6 +162,6 @@ If you are unfamiliar with the font features listed above, the CSS Fonts Module 
 -   Mozilla font-feature-settings: [[1]](https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings)
 -   More info on font special characters (glyphs substitutions): [[2]](http://www.typography.com/fonts/hoefler-text/features/hoefler-text-special-characters)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`

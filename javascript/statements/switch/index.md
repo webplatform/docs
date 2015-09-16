@@ -16,8 +16,6 @@ Enables the execution of one or more statements when a specified expression's va
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     switch ( expression ) {
          case label:
              statementlist

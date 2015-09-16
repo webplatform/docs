@@ -58,7 +58,7 @@ The **input type=number** object has these properties. {
 
 [Can I use - Number input](http://caniuse.com/#feat=input-number)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `input`

@@ -16,8 +16,6 @@ Gets the current date and time.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Date.now()
 
 ## Return Value

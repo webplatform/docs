@@ -47,7 +47,7 @@ The defaultPlaybackRate property is expressed as a multiple of the media's norma
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `media`
 -   `audio`

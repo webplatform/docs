@@ -25,6 +25,6 @@ For example, if a [**use**](/svg/elements/use) element references a [**rect**](/
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGElementInstance**](/svg/objects/SVGElementInstance)

@@ -51,7 +51,7 @@ If you specify the **width** property of an **img**, but not the [**height**](/h
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `img`
 -   `input type=button`

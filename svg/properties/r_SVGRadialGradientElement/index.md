@@ -72,6 +72,6 @@ The **r** property defines the largest (that is, the outermost) circle for a rad
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGRadialGradientElement**](/svg/elements/radialGradient)

@@ -61,7 +61,7 @@ The **span** property is ignored when set on the **colGroup** element and **colG
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `col`
 -   `colGroup`

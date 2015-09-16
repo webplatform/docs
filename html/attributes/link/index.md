@@ -50,6 +50,6 @@ The **link** property cannot be set through the **BODY** object's [**onload**](/
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `body`

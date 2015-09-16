@@ -17,8 +17,6 @@ Returns a string representation of an array.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     toString()
 
 ## Return Value

@@ -50,7 +50,7 @@ The presence of the controls attribute, regardless of assigned value, in either 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `media`
 -   `audio`

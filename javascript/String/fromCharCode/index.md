@@ -16,8 +16,6 @@ Returns a string from a number of Unicode character values.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     String.fromCharCode([ code1 [, code2 [, ...[, codeN ]]]])
 
 **String**

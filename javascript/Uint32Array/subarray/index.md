@@ -16,8 +16,6 @@ Gets a new Int8Array view of the ArrayBuffer Object store for this array, specif
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     var newUint32Array = uint32Array.subarray(begin, end);
 
 **newUint32Array**

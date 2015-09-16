@@ -151,7 +151,7 @@ The supported possible values for **caption-side** depend on the orientation of 
 
 -   [th](/html/elements/th)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

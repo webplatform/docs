@@ -215,7 +215,7 @@ The floats that are relevant to be cleared are the earlier floats within the sam
 -   [Tutorial: Exploring the CSS box model](/tutorials/box_model).
 -   [Guide: The CSS layout model](/guides/the_css_layout_model).
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

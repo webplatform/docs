@@ -45,6 +45,6 @@ The **FRAMESET** element is a container for the **FRAME** element. An HTML docum
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `frame`

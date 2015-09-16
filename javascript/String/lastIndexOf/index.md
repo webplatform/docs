@@ -16,8 +16,6 @@ Returns the last occurrence of a substring in the string.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     strObj.lastIndexOf( substring [, startindex ] )
 
 **strObj**

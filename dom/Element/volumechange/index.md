@@ -102,7 +102,7 @@ The [**volume**](/dom/HTMLMediaElement/volume) property of the element represent
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `audioApi`
 -   `audioElement`

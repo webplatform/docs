@@ -25,6 +25,6 @@ Post multiplies means other matrix operations are performed before this one.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGMatrix**](/svg/objects/SVGMatrix)

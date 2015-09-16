@@ -239,7 +239,7 @@ The color value can also be an extended keyword, such as aliceblue or lavenderbl
 
 -   [border-width](/css/properties/border-width)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

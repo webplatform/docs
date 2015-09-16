@@ -144,7 +144,7 @@ For security reasons, the **unload** event does not open modeless dialog boxes, 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `body`
 -   `frameSet`

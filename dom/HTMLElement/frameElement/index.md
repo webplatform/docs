@@ -49,6 +49,6 @@ The window must be a **frame** or **iframe**.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `window`

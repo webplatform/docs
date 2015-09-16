@@ -17,8 +17,6 @@ Appends new elements to an array, and returns the new length of the array.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     push([ item1  [ item2 [. . . [ itemN ]]]])
 
 **item, item2,. . ., itemN**

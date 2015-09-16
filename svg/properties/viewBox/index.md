@@ -30,7 +30,7 @@ The following code example demonstrates how to set the **viewBox** attribute on 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGPatternElement**](/svg/elements/patterrn)
 -   [**SVGSVGElement**](/svg/elements/svg)

@@ -59,7 +59,7 @@ Returns a string containing the standard or custom error message that would be d
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `HTMLObjectElement`
 -   `HTMLSelectElement`

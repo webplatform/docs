@@ -27,7 +27,7 @@ If the value for **result** appears multiple times within a given [**filter**](/
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEBlendElement**](/svg/elements/feBlend)
 -   [**SVGFEColorMatrixElement**](/svg/elements/feColorMatrix)

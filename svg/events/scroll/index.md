@@ -96,7 +96,7 @@ The contents of an object scroll until new portions of the object become visible
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)
 -   [**onscroll**](/w/index.php?title=dom/events/scroll&action=edit&redlink=1)

@@ -43,6 +43,6 @@ There is no functionality implemented for this property unless defined by the au
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `html`

@@ -82,6 +82,6 @@ A ruby is an annotation or pronunciation guide for a string of text. The string 
 
 -   [Using ruby markup](http://www.w3.org/International/techniques/authoring-html#ruby)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `rt`

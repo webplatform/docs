@@ -49,7 +49,7 @@ This input type presents no control to the user, but sends the value of the [**v
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `input`

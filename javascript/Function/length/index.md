@@ -16,8 +16,6 @@ Gets the number of arguments defined for a function.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     functionName.length
 
 ## Examples

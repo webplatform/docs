@@ -17,8 +17,6 @@ Returns the time component of a date as a human readable string.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     toTimeString()
 
 ## Return Value

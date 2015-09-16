@@ -45,6 +45,6 @@ This event reports back the number of bytes loaded from the stream so far. You c
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `FileReader`

@@ -43,7 +43,7 @@ The **rev** property is similar to the [**rel**](/html/attributes/rel) property,
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `a`
 -   `link`

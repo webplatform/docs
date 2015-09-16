@@ -65,6 +65,6 @@ A ruby is an annotation or pronunciation guide for a string of text. The string 
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `ruby`

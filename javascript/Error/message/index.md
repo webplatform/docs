@@ -16,8 +16,6 @@ Returns an error message string.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     errorObj.message
 
 **errorObj**

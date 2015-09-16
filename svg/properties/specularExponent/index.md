@@ -25,6 +25,6 @@ If the **specularExponent** attribute is not specified, then the effect is as if
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFESpotLightElement**](/svg/elements/feSpotlight)

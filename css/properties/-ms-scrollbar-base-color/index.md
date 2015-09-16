@@ -101,7 +101,7 @@ There are no standards that apply here.
 
 -   [-ms-scrollbar-track-color](/css/properties/-ms-scrollbar-track-color)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `currentStyle`
 -   `defaultSelected`

@@ -29,7 +29,7 @@ For a type of **table** and a value C \< 1, find k such that: k/*n* \<= C \< (k+
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGComponentTransferFunctionElement**](/svg/objects/SVGComponentTransferFunctionElement)
 -   [**SVGFEFuncRElement**](/svg/elements/feFuncR)

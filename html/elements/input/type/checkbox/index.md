@@ -64,6 +64,6 @@ When an **input type=checkbox** element is selected, a name/value pair is submit
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `input`

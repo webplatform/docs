@@ -16,8 +16,6 @@ Return the nine most-recently memorized portions found during pattern matching. 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     RegExp.$ n
 
 '***RegExp'***

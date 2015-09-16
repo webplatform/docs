@@ -106,7 +106,7 @@ Unlike elements styled with the [**display**](/css/properties/display) property,
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`

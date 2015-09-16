@@ -62,6 +62,6 @@ If only one **tHead** element exists in the source, the **deleteTHead** method d
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`

@@ -18,19 +18,13 @@ Causes comments to be ignored by the JavaScript parser.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Single-line Comment:
     // comment
-
-<span class="language">JavaScript</span>
 
     Multiline Comment:
     /*
     comment
     */
-
-<span class="language">JavaScript</span>
 
     Comments with conditional compilation:
     //@CondStatement

@@ -27,7 +27,7 @@ The **refY** property is animatable.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 ### Reference
 

@@ -38,7 +38,7 @@ The **ENCTYPE** attribute of the form specifies how the HTTP request should be e
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `form`
 -   `encoding`

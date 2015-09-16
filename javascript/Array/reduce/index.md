@@ -17,8 +17,6 @@ Calls the specified callback function for all the elements in an array. The retu
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     reduce( callbackfn [, initialValue ])
 
 **callbackfn**

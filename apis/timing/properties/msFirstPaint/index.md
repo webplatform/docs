@@ -58,7 +58,7 @@ The value reported by the **msFirstPaint** property represents the number of mil
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `performanceTiming`
 -   `navigationStart`

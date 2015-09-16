@@ -16,8 +16,6 @@ An intrinsic object that provides basic mathematics functionality and constants.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Math. [{ property | method }]
 
 **property**

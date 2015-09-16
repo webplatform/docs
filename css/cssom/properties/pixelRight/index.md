@@ -42,7 +42,7 @@ The **pixelRight** property reflects the value of the Cascading Style Sheets (CS
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `runtimeStyle`
 -   `style`

@@ -16,8 +16,6 @@ Adds a property to an object, or modifies the attributes of an existing property
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Object.defineProperty( object , propertyname , descriptor )
 
 **object**

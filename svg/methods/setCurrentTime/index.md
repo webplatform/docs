@@ -27,6 +27,6 @@ If you call the **setCurrentTime** method before the document timeline has begun
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGSVGElement**](/svg/elements/svg)

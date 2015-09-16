@@ -213,6 +213,6 @@ The information from the list can be used to filter out nonconforming files when
 
 -   <http://www.w3.org/TR/html5/forms.html#attr-input-accept>
 
-### Related pages (MSDN)
+### Related pages
 
 -   `input`

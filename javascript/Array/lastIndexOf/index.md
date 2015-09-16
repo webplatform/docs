@@ -17,8 +17,6 @@ Returns the index of the last occurrence of a specified value in an array.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     lastIndexOf( searchElement [, fromIndex ])
 
 **searchElement**

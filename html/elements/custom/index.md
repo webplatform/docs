@@ -69,6 +69,6 @@ To declare a namespace, use the [**XMLNS**](/apis/xhr/properties/XMLNS_attribute
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Using Custom Tags in Internet Explorer`

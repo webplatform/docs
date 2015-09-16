@@ -50,7 +50,7 @@ This property reflects the value of the Cascading Style Sheets (CSS) [**height*
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `runtimeStyle`
 -   `style`

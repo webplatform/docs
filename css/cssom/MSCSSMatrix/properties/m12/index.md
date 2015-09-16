@@ -43,6 +43,6 @@ element.m12 = value;
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `MSCSSMatrix`

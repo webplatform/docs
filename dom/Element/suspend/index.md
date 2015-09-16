@@ -92,7 +92,7 @@ This event occurs when the browser stops fetching data temporarily. (Not current
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `audioApi`
 -   `audioElement`

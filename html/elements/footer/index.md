@@ -220,7 +220,7 @@ Footers don't necessarily have to appear at the end of a section, though they us
 
 -   [time](/html/elements/time)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `Reference`
 -   `article`

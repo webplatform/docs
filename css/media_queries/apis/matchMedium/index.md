@@ -248,7 +248,7 @@ The *mediaQuery* parameter can contain a string that specifies a media type, an 
 
 -   [behavior](/css/properties/behavior)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `StyleMedia`
 -   `<b/>`

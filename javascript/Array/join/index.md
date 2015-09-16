@@ -17,8 +17,6 @@ Adds all the elements of an array separated by the specified separator string.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     join([ separator ])
 
 **separator**

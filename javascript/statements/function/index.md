@@ -17,8 +17,6 @@ Declares a new function.
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     function functionName ([ arg1 [, arg2 [,...[, argN ]]]] ) {
          statements
     }

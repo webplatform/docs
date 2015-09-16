@@ -16,8 +16,6 @@ Returns true if existing property attributes and values cannot be modified in an
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Object.isFrozen( object )
 
 **object**

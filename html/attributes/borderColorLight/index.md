@@ -41,7 +41,7 @@ This property is the opposite of [**borderColorDark**](/html/attributes/borderCo
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `table`
 -   `td`

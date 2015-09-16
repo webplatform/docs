@@ -88,7 +88,7 @@ The `code` property returns one of the following file error codes.
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   `FileError`
 -   `MSStreamError`

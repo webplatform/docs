@@ -16,8 +16,6 @@ Determines whether a supplied number is NaN (not a number).
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     isNaN(numValue)
 
 **numValue**

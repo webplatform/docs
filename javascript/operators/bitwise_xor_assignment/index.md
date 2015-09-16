@@ -16,8 +16,6 @@ Performs a bitwise exclusive OR on a variable and an expression and assigns the 
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     result ^= expression
 
 **result**

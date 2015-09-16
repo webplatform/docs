@@ -25,6 +25,6 @@ A diffuse reflection constant represents the ratio of reflection used to calcula
 
 ## See also
 
-### Related pages (MSDN)
+### Related pages
 
 -   [**SVGFEDiffuseLightingElement**](/svg/elements/feDiffuseLighting)

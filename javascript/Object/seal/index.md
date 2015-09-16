@@ -16,8 +16,6 @@ Prevents the modification of attributes of existing properties, and prevents the
 
 ## Syntax
 
-<span class="language">JavaScript</span>
-
     Object.seal( object )
 
 **object**
