@@ -38,7 +38,7 @@ See [webplatform/generator-docs](https://github.com/webplatform/generator-docs#e
 ## How was it done?
 
 To learn how the conversion was done, take a look at the [mediawiki-conversion] utility and
-the [**webplatform/mediawiki-conversion** library][mediawiki-conversion] library.
+the [**webplatform/content-converter** library][content-converter].
 
   [mediawiki-conversion]: https://github.com/webplatform/mediawiki-conversion "Migration workbench to extract contents out of MediaWiki"
   [content-converter]: https://github.com/webplatform/content-converter "Abstract conversion utility library used in MediaWiki migration workbench"
