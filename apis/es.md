@@ -70,18 +70,6 @@ uri: apis/es
 
 Las APIs, o Interfaces de programación de aplicaciones, son objetos estándar de JavaScript que realizan una variedad de tareas. Encapsulan objetos, métodos, propiedades y eventos que puedes utilizar para crear aplicaciones que funcionarán a través de los diferentes navegadores.
 
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**Idioma:**
-
-</th>
-<td class="mbox-text">
-**[English](/apis)**  • <span lang="es">**español**</span>
-
-</td>
-</tr>
-</table>
 ## <span>Antecedentes</span>
 
 Las APIs se hicieron populares en la Web hace varios años cuando los creadores de estándares abiertos y los desarroladores de aplicaciones se dieron cuenta de que era una excelente idea el hacer sus datos, servicios y tecnologías fácilmente accesibles y reutilizables mediante interfaces sencillas basadas en objetos estándar de JavaScript. En la actualidad puedes encontrar muchos ejemplos de APIs disponibles y en uso a través de toda la Internet, por ejemplo:

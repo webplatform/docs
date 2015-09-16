@@ -116,15 +116,3 @@ HTML5では**`abbr`** 要素が\<acronym\>と同等の役割を持っていま�
 
 -   [button](/html/elements/button/ja)
 
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**言語:**
-
-</th>
-<td class="mbox-text">
-**[English](/html/elements/acronym)**  • <span lang="ja">**日本語**</span>
-
-</td>
-</tr>
-</table>

@@ -76,19 +76,6 @@ uri: 'guides/html validation/ja'
 
 この文書では検証の概要を紹介し、HTMLを検証するW3Cバリデータの使い方を説明します。
 
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**言語:**
-
-</th>
-<td class="mbox-text">
-**[English](/guides/html_validation)**  • <span lang="ja">**日本語**</span>
-
-</td>
-</tr>
-</table>
-
 ## <span>はじめに</span>
 
 HTMLを数ページ書き上げ、うまく表示されたようでも、そのページに全く問題がないわけではありません。何が悪いのかを見つける最善の方法はなんでしょうか? また、これらのページ(今後書くことになるページ)が、ブラウザの種類に関わらず、確実に正しくエラー無しで表示される最善の方法は何でしょうか?

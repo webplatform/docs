@@ -304,17 +304,4 @@ HTML4.01はSGMLベースであり、\<!DOCTYPE\>では参照するDTDを指定�
 
 html/quirksmode
 
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**言語:**
-
-</th>
-<td class="mbox-text">
-**[English](/html/elements/!DOCTYPE)**  • <span lang="ja">**日本語**</span>
-
-</td>
-</tr>
-</table>
-
 と記述されます。

@@ -82,19 +82,6 @@ todo_broken_links:
 uri: html/elements/audio/ja
 
 ---
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**言語:**
-
-</th>
-<td class="mbox-text">
-**[English](/html/elements/audio)**  • <span lang="ja">**日本語**</span>
-
-</td>
-</tr>
-</table>
-
 ## <span>Summary</span>
 
 &lt;audio&gt;は音楽ファイルを再生したり、最低限のメディアプレイヤーのインターフェイスを表示するのに使用します。

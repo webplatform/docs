@@ -366,16 +366,3 @@ uri: html/elements/b/ja
 -   [strong](/html/elements/strong)
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
-
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**言語:**
-
-</th>
-<td class="mbox-text">
-**[English](/html/elements/b)**  • <span lang="ja">**日本語**</span>
-
-</td>
-</tr>
-</table>

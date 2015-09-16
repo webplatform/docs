@@ -203,16 +203,3 @@ Permitted parents
 
 -   [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/HTML/Element/base)
 -   [Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/ms535191%28v=vs.85%29.aspx)
-
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**言語:**
-
-</th>
-<td class="mbox-text">
-**[English](/html/elements/base)**  • <span lang="ja">**日本語**</span>
-
-</td>
-</tr>
-</table>

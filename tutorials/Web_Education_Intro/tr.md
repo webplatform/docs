@@ -108,18 +108,6 @@ todo_broken_links:
 uri: 'tutorials/Web Education Intro/tr'
 
 ---
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**Dil:**
-
-</th>
-<td class="mbox-text">
-**[English](/tutorials/Web_Education_Intro)**  • <span lang="tr">**Türkçe**</span>
-
-</td>
-</tr>
-</table>
 Türkçe projenin genel amacı eğitim materyallerinin Türkçe'ye çevrilmesini sağlamak ve bunların çeşitli topluluklar tarafından faydalanmasını sağlamak. Aşağıdakiler şuanda üzerinde çalışma yapılan etkinliklerdir.
 
 # <span>Web Standartları Eğitimi içindekiler listesi</span>

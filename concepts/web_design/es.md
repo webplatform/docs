@@ -77,16 +77,3 @@ uri: 'concepts/web design/es'
 ## <span>Summary</span>
 
 ...
-
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**Idioma:**
-
-</th>
-<td class="mbox-text">
-**[English](/concepts/web_design)**  • <span lang="es">**español**</span>
-
-</td>
-</tr>
-</table>

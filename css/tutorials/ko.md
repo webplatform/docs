@@ -72,18 +72,6 @@ uri: css/tutorials/ko
 
 캐스캐이딩 스타일시트 (CSS)는 마크업 콘텐츠(예: HTML, SVG, XML 등)을 꾸미는-스타일을 적용하는- 언어이다. 이 문서는 CSS를 학습하거나 고급 CSS 기법에 입문하려는 분들 모두에게 적합한 자습서 목록들로 구성된다.
 
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**언어:**
-
-</th>
-<td class="mbox-text">
-**[English](/css/tutorials)**  • <span lang="ko">**한국어**</span>
-
-</td>
-</tr>
-</table>
 ## <span>CSS 시작하기</span>
 
 -   [CSS 소개](/tutorials/learning_what_css_is)

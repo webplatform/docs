@@ -75,18 +75,6 @@ uri: 'guides/images in html/ja'
 
 この文書では、&lt;img&gt; タグを使って、HTMLドキュメントでの画像の利用について紹介します。
 
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**言語:**
-
-</th>
-<td class="mbox-text">
-**[English](/guides/images_in_html)**  • <span lang="ja">**日本語**</span>
-
-</td>
-</tr>
-</table>
 ## <span>はじめに</span>
 
 この文書では、webのデザインを「快い」ものにすることを論じます。それは画像です。視覚障害を持った方でもサイトの情報を得られるように、利用しやすい方法でwebドキュメントの中に画像を追加するやり方を学んでいきます。情報を伝えるためにインライン画像をいつどのように使うのか、ページレイアウトをレベルアップするために、背景の画像をどうするのかも学んでいきます。

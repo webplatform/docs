@@ -113,16 +113,3 @@ uri: html/elements/aside/ja
 
 [HTML 5](http://www.w3.org/TR/html5/sections.html#the-aside-element)
 :   W3C Recommendation
-
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**言語:**
-
-</th>
-<td class="mbox-text">
-**[English](/html/elements/aside)**  • <span lang="ja">**日本語**</span>
-
-</td>
-</tr>
-</table>

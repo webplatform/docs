@@ -80,18 +80,6 @@ JavaScriptはブラウザで使うだけに留まりません。[Node.js](http:/
 
 注意: webの開発を全くしたことがないのなら、[Beginners](/Beginners)セクションを見直した方が良いかもしれません。
 
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**言語:**
-
-</th>
-<td class="mbox-text">
-**[English](/javascript)**  • <span lang="ja">**日本語**</span>
-
-</td>
-</tr>
-</table>
 ## <span>このセクションの内容</span>
 
  [オブジェクト](/javascript/objects)

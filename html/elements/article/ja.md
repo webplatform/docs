@@ -132,16 +132,3 @@ uri: html/elements/article/ja
 
 -   <http://www.w3.org/TR/html-markup/article.html#article>
 
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**言語:**
-
-</th>
-<td class="mbox-text">
-**[English](/html/elements/article)**  • <span lang="ja">**日本語**</span>
-
-</td>
-</tr>
-</table>
-

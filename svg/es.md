@@ -71,18 +71,6 @@ uri: svg/es
 
 Imágenes vectoriales escalables o Scalable Vector Graphics (SVG) es un lenguaje de etiquetado XML para describir estructuralmente imágenes vectoriales bidimensionales. En esencia, SVG es a las imágenes lo que el [HTML](/html/es) es al texto. SVG es una [recomendación del W3C](http://www.w3.org/Graphics/SVG/) y está explícitamente diseñado para trabajar con otros estándares del W3C como el [HTML](/html/es), las [CSS](/css/es) o el [DOM](/dom/es).
 
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**Idioma:**
-
-</th>
-<td class="mbox-text">
-**[English](/svg)**  • <span lang="es">**español**</span>
-
-</td>
-</tr>
-</table>
 ## <span>Explora nuestros documentos sobre SVG</span>
 
 ### <span>[Material didáctico de SVG](/svg/tutorials)</span>

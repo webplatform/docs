@@ -69,19 +69,6 @@ todo_broken_links:
 uri: 'guides/the html head/ja'
 
 ---
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**言語:**
-
-</th>
-<td class="mbox-text">
-**[English](/guides/the_html_head)**  • <span lang="ja">**日本語**</span>
-
-</td>
-</tr>
-</table>
-
 ## <span>Summary</span>
 
 この記事では、&lt;head&gt;要素に含めることができる一般的な項目を解説してきます。

@@ -120,16 +120,3 @@ En kontur ändrar inte flödet på sidan på något sätt, oavsett hur stor den 
 ### <span>Standards information</span>
 
 -   [CSS 2.1](http://www.w3.org/TR/CSS2/ui.html#dynamic-outlines), Section 18.4
-
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**Språk:**
-
-</th>
-<td class="mbox-text">
-**[English](/css/properties/outline)**  • <span lang="sv">**svenska**</span>
-
-</td>
-</tr>
-</table>

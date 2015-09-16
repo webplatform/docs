@@ -79,18 +79,6 @@ uri: 'tutorials/getting your content online/ja'
 
 この概説で触れてきたことに関して言えば、注意と調査が最も考慮すべき大切なことです。がむしゃらに進めて、取り返しのつかない過ちを犯さないでください。調査(ドメインやホスト、webスペースのベストな使い方、サイトのアップロードとメンテナンス方法)をしっかりしてください。特に難しいことはないと思います。
 
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**言語:**
-
-</th>
-<td class="mbox-text">
-**[English](/tutorials/getting_your_content_online)**  • <span lang="ja">**日本語**</span>
-
-</td>
-</tr>
-</table>
 ## <span>はじめに</span>
 
 この [[Web Standards Curriculum](http://www.w3.orgwikiWeb_Standards_Curriculum)] は、素早くwebサイトを公開するためのガイドを提供することを目的にした文書です。ドメイン名の取得とホスティングを自分で行う方法が分かるでしょう。またwebサイトをアップロードするのに必要なソフトウェアとともに、サイトを構成するベストプラクティスと制作物のコピーを常に安全かつ確実ににコピーできる方法が分かるはずです。

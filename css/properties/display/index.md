@@ -274,15 +274,3 @@ table-caption, inline-block|block|
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/visuren.html#display-prop)
 :   Recommendation
 
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**Language:**
-
-</th>
-<td class="mbox-text">
-**[English](/css/properties)**
-
-</td>
-</tr>
-</table>

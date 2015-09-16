@@ -74,18 +74,6 @@ uri: 'guides/html lists/ja'
 
 この文書では、HTMLの3つのタイプのリストを紹介し、その基本的な特徴を調べます。
 
-<table class="nmbox languages" style>
-<tr>
-<th class="mbox-image" style>
-**言語:**
-
-</th>
-<td class="mbox-text">
-**[English](/guides/html_lists)**  • <span lang="ja">**日本語**</span>
-
-</td>
-</tr>
-</table>
 ## <span>はじめに</span>
 
 リストは、関連する個々の情報を集めるのに使われ、相互の関連がはっきりして読みやすくなります。最近のweb開発において、リストはとても役立つ要素であり、一般的なコンテンツと同様、ナビゲーションによく使われます。
