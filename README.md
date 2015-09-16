@@ -19,8 +19,13 @@ Content is separated in multiple repositories, this one has main docs pages.
 
 Planning, and discussions ("other content") are migrated into separate repositories:
 
-* [**Meta/**][docs-meta]; What was originally published in **docs.webplatform.org/wiki/Meta:...**
-* [**WPD/**][docs-wpd]; What was originally published in **docs.webplatform.org/wiki/WPD:...**
+To get the docs pages, refer to the following git repositories.
+
+| Submodule                          | Note                |
+|------------------------------------|---------------------|
+| (this repo)                        | The main docs pages |
+| [webplatform/docs-meta][docs-meta] | Archived content that needed to be moved during mass imports. We kept them there to cherry-pick and merge into the main content section. Was accessible under the URL *docs.webplatform.org/wiki/Meta:...* |
+| [webplatform/docs-wpd][docs-wpd]   | Community and notes section. Was accessible under the URL *docs.webplatform.org/wiki/WPD:...* |
 
 To publish the site, we use a *static site generator*, see [**webplatform/generator-docs** repository][generator-docs]
 
