@@ -16,15 +16,14 @@ Data types are a way of configuring how a HTML element ( “HTML tag” ) should
 
 ## Usage
 
-     In HTML, the Data Types that are supported are used attributes values within an HTML element. They are used to describe
+In HTML, the Data Types that are supported are used attributes values within an HTML element. They are used to describe
 
 1.  Colors (basic ones are "red", "blue", etc...)
 2.  Lengths
 3.  Links and relationships
 
-```
-<!-- <element attribute="data type" attribute="data type"  attribute=“data type” attribute="data type"> </element> -->
-
+```html
+<!-- <element attribute="data type">...</element> -->
 <a href="http://docs.webplatform.org" target="_blank"  class="linkStyle" id="linkAnchorOrUniqueStyle" >HTML Element hyperlink</a>
 ```
 

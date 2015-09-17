@@ -1,59 +1,6 @@
 ---
 title: 'Bienvenido a Web Platform Docs'
 lang: es
-todo_broken_links:
-  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
-  links:
-    - 'Main Page/af'
-    - 'Main Page/ar'
-    - 'Main Page/ast'
-    - 'Main Page/az'
-    - 'Main Page/bcc'
-    - 'Main Page/bg'
-    - 'Main Page/br'
-    - 'Main Page/ca'
-    - 'Main Page/cs'
-    - 'Main Page/da'
-    - 'Main Page/diq'
-    - 'Main Page/el'
-    - 'Main Page/eo'
-    - 'Main Page/fa'
-    - 'Main Page/fi'
-    - 'Main Page/gl'
-    - 'Main Page/gu'
-    - 'Main Page/he'
-    - 'Main Page/hu'
-    - 'Main Page/hy'
-    - 'Main Page/id'
-    - 'Main Page/it'
-    - 'Main Page/ka'
-    - 'Main Page/kk'
-    - 'Main Page/km'
-    - 'Main Page/ksh'
-    - 'Main Page/kw'
-    - 'Main Page/mk'
-    - 'Main Page/ml'
-    - 'Main Page/mr'
-    - 'Main Page/ms'
-    - 'Main Page/no'
-    - 'Main Page/oc'
-    - 'Main Page/pl'
-    - 'Main Page/pt'
-    - 'Main Page/ro'
-    - 'Main Page/ru'
-    - 'Main Page/si'
-    - 'Main Page/sk'
-    - 'Main Page/sl'
-    - 'Main Page/sq'
-    - 'Main Page/sr'
-    - 'Main Page/sv'
-    - 'Main Page/ta'
-    - 'Main Page/th'
-    - 'Main Page/uk'
-    - 'Main Page/vi'
-    - 'Main Page/yue'
-    - 'Main Page/zh-tw'
-    - javascript/es
 translations:
   de:
     text: Deutsch
@@ -94,41 +41,80 @@ Web Platform Docs es un sitio gestionado por la comunidad que aspira a convertir
 
 ## Explora nuestros documentos de desarrollo web
 
-### [Guía para Principiantes](/beginners/es)
+<section class="topic-container"><div class="long-topic">
+<div class="image icon-beginners">
+</div><div class="inner">
+
+### [Guía para Principiantes](/Beginners/es)
 
 Material introductorio para aquellos que recién comienzan en el desarrollo web.
+
+</div></div><div class="long-topic">
+<div class="image icon-concept">
+</div><div class="inner">
 
 ### [Conceptos web generales](/concepts/es)
 
 Artículos teóricos y tutoriales sobre temas como el funcionamiento de la web, arquitectura de la información, tipografía y diseño web.
 
+</div></div><div class="long-topic">
+<div class="image icon-html">
+</div><div class="inner">
+
 ### [HTML](/html/es)
 
 Artículos teóricos, tutoriales y material de referencia del principal lenguaje de etiquetado de la web.
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [CSS](/css/es)
 
 Artículos teóricos, tutoriales y material de referencia de las Hojas de estilo en cascada o Cascading style sheets (<abbr>CSS</abbr>).
 
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-accessibility">
+</div><div class="inner">
+
 ### [Accesibilidad](/concepts/accessibility/es)
 
 Modelos, prácticas y casos de estudio dirigidas a hacer que la web funcione para las personas de un diverso rango de capacidades.
 
-### [JavaScript](/w/index.php?title=javascript/es&action=edit&redlink=1)
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-js">
+</div><div class="inner">
+
+### [JavaScript](/javascript)
 
 Tutoriales y material de referencia de JavaScript, el lenguaje de secuencias de comando del lado cliente. Incluye material de referencia de librerías de JavaScript de terceros.
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-dom">
+</div><div class="inner">
 
 ### [DOM](/dom/es)
 
 Tutoriales y material de referencia de los eventos y métodos del Document Object Model (<abbr>DOM</abbr>).
 
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-svg">
+</div><div class="inner">
+
 ### [SVG](/svg/es)
 
 Tutoriales y material de referencia de Scalable Vector Graphics (<abbr>SVG</abbr>), un lenguaje de etiqueado <abbr>XML</abbr> para describir imágenes vectoriales de dos dimensiones.
 
+</div></div><div class="long-topic">
+<div class="image icon-api">
+</div><div class="inner">
+
 ### [APIs](/apis/es)
 
 Material de referencia de las <abbr>API</abbr>s de JavaScript desde appcache hasta xhr.
+
+</div></div></section>
+
 
 ## Características de Web Platform Docs
 

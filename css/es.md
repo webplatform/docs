@@ -1,66 +1,6 @@
 ---
 title: 'CSS'
 lang: es
-standardization_status: Unknown
-todo_broken_links:
-  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
-  links:
-    - css/af
-    - css/ar
-    - css/ast
-    - css/az
-    - css/bcc
-    - css/bg
-    - css/br
-    - css/ca
-    - css/cs
-    - css/da
-    - css/de
-    - css/diq
-    - css/el
-    - css/eo
-    - css/fa
-    - css/fi
-    - css/gl
-    - css/gu
-    - css/he
-    - css/hu
-    - css/hy
-    - css/id
-    - css/it
-    - css/ja
-    - css/ka
-    - css/kk
-    - css/km
-    - css/ksh
-    - css/kw
-    - css/mk
-    - css/ml
-    - css/mr
-    - css/ms
-    - css/nl
-    - css/no
-    - css/oc
-    - css/pl
-    - css/pt
-    - css/pt-br
-    - css/ro
-    - css/ru
-    - css/si
-    - css/sk
-    - css/sl
-    - css/sq
-    - css/sr
-    - css/sv
-    - css/ta
-    - css/th
-    - css/tr
-    - css/uk
-    - css/vi
-    - css/yue
-    - css/zh-hans
-    - css/zh-hant
-    - css/zh-tw
 translations:
   fr:
     text: français
@@ -80,31 +20,57 @@ Las Hojas de estilo en cascada o <span lang="en">Cascading style sheets (CSS)</s
 
 ## Explora nuestros documentos sobre CSS
 
+<section class="topic-container"><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
+
 ### [Material didáctico de CSS](/css/tutorials)
 
 Tutoriales y artículos didácticos para que aprendas CSS desde la base.
+
+</div></div><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [Selectores CSS](/css/selectors)
 
 Una guía de referencia de todos los selectores CSS disponibles.
 
+</div></div><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
+
 ### [Propiedades CSS](/css/properties)
 
 Una guía de referencia de todas las propiedades CSS disponibles.
+
+</div></div><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [Funciones CSS](/css/functions)
 
 Una guía de referencia de todas las funciones CSS.
 
+</div></div><p>&nbsp;</p><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
+
 ### [Directivas At](/css/atrules)
 
 Una guía de referencia de las diferentes @directivas (directivas at) disponibles.
+
+</div></div><p>&nbsp;</p><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [Consultas de medios](/css/mediaqueries)
 
 Una guía de referencia de los diferentes tipos de consultas de medios (<span lang="en">media queries</span>) disponibles.
 
- Nota: Si eres completamente nuevo en el desarrollo web, puede que desees revisar [Desarrollo web para principiantes](/beginners).
+</div></div></section>
+
+Nota: Si eres completamente nuevo en el desarrollo web, puede que desees revisar [Desarrollo web para principiantes](/Beginners).
 
 ## Antecedentes
 

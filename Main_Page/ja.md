@@ -1,58 +1,6 @@
 ---
 title: 'ようこそWeb Platform Docsへ'
 lang: ja
-todo_broken_links:
-  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
-  links:
-    - 'Main Page/af'
-    - 'Main Page/ar'
-    - 'Main Page/ast'
-    - 'Main Page/az'
-    - 'Main Page/bcc'
-    - 'Main Page/bg'
-    - 'Main Page/br'
-    - 'Main Page/ca'
-    - 'Main Page/cs'
-    - 'Main Page/da'
-    - 'Main Page/diq'
-    - 'Main Page/el'
-    - 'Main Page/eo'
-    - 'Main Page/fa'
-    - 'Main Page/fi'
-    - 'Main Page/gl'
-    - 'Main Page/gu'
-    - 'Main Page/he'
-    - 'Main Page/hu'
-    - 'Main Page/hy'
-    - 'Main Page/id'
-    - 'Main Page/it'
-    - 'Main Page/ka'
-    - 'Main Page/kk'
-    - 'Main Page/km'
-    - 'Main Page/ksh'
-    - 'Main Page/kw'
-    - 'Main Page/mk'
-    - 'Main Page/ml'
-    - 'Main Page/mr'
-    - 'Main Page/ms'
-    - 'Main Page/no'
-    - 'Main Page/oc'
-    - 'Main Page/pl'
-    - 'Main Page/pt'
-    - 'Main Page/ro'
-    - 'Main Page/ru'
-    - 'Main Page/si'
-    - 'Main Page/sk'
-    - 'Main Page/sl'
-    - 'Main Page/sq'
-    - 'Main Page/sr'
-    - 'Main Page/sv'
-    - 'Main Page/ta'
-    - 'Main Page/th'
-    - 'Main Page/uk'
-    - 'Main Page/vi'
-    - 'Main Page/yue'
-    - 'Main Page/zh-tw'
 translations:
   de:
     text: Deutsch
@@ -93,41 +41,80 @@ Web Platform Docsはコミュニティベースのサイトです。目標は、
 
 ## web development docsの構成
 
-### [初心者向けガイド](/beginners/ja)
+<section class="topic-container"><div class="long-topic">
+<div class="image icon-beginners">
+</div><div class="inner">
+
+### [初心者向けガイド](/Beginners/ja)
 
 初めてwebを開発する方向けの初心者用資料
+
+</div></div><div class="long-topic">
+<div class="image icon-concept">
+</div><div class="inner">
 
 ### [webについての基本概念](/concepts)
 
 webの動作や情報アーキテクチャ、タイポグラフィー、デザインといったトピックについての考え方とチュートリアル
 
+</div></div><div class="long-topic">
+<div class="image icon-html">
+</div><div class="inner">
+
 ### [HTML](/html/ja)
 
 webのマークアップ言語についての考え方やリファレンス、チュートリアル
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [CSS](/css)
 
 カスケーディング・スタイル・シート(CSS)についての考え方やリファレンス、チュートリアル
 
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-accessibility">
+</div><div class="inner">
+
 ### [アクセシビリティ](/concepts/accessibility)
 
 人は様々でできることは異なるが、そんな人々でもwebを使えるようにするパターンやプラクティス、ビジネス・ケース
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-js">
+</div><div class="inner">
 
 ### [JavaScript](/javascript/ja)
 
 webのクライアント用スクリプト言語であるJavaScriptのチュートリアルとリファレンス。サードパーティのライブラリも含む
 
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-dom">
+</div><div class="inner">
+
 ### [DOM](/dom)
 
 ドキュメント・オブジェクト・モデル(DOM)のチュートリアルとリファレンス
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-svg">
+</div><div class="inner">
 
 ### [SVG](/svg)
 
 、2次元ベクター画像のためのXMLマークアップ言語であるスケーラブル・ベクター・グラフィックス(SVG)のチュートリアルとリファレンス
 
+</div></div><div class="long-topic">
+<div class="image icon-api">
+</div><div class="inner">
+
 ### [API](/apis)
 
 appcacheからxhrまで記述してあるJavaScript APIのリファレンス
+
+</div></div></section>
+
 
 ## Web Platform Docsの特徴
 

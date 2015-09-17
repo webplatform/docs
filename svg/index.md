@@ -1,68 +1,5 @@
 ---
 title: 'SVG'
-standardization_status: Unknown
-todo_broken_links:
-  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
-  links:
-    - svg/af
-    - svg/ar
-    - svg/ast
-    - svg/az
-    - svg/bcc
-    - svg/bg
-    - svg/br
-    - svg/ca
-    - svg/cs
-    - svg/da
-    - svg/de
-    - svg/diq
-    - svg/el
-    - svg/eo
-    - svg/fa
-    - svg/fi
-    - svg/fr
-    - svg/gl
-    - svg/gu
-    - svg/he
-    - svg/hu
-    - svg/hy
-    - svg/id
-    - svg/it
-    - svg/ja
-    - svg/ka
-    - svg/kk
-    - svg/km
-    - svg/ko
-    - svg/ksh
-    - svg/kw
-    - svg/mk
-    - svg/ml
-    - svg/mr
-    - svg/ms
-    - svg/nl
-    - svg/no
-    - svg/oc
-    - svg/pl
-    - svg/pt
-    - svg/pt-br
-    - svg/ro
-    - svg/ru
-    - svg/si
-    - svg/sk
-    - svg/sl
-    - svg/sq
-    - svg/sr
-    - svg/sv
-    - svg/ta
-    - svg/th
-    - svg/tr
-    - svg/uk
-    - svg/vi
-    - svg/yue
-    - svg/zh
-    - svg/zh-hans
-    - svg/zh-hant
-    - svg/zh-tw
 translations:
   es:
     text: español
@@ -76,31 +13,58 @@ Scalable Vector Graphics (SVG) is an XML markup language for structurally descri
 
 ## Explore our SVG docs
 
+<section class="topic-container"><div class="short-topic">
+<div class="image icon-svg">
+</div><div class="inner">
+
 ### [SVG learning material](/svg/tutorials)
 
 Tutorials and concept articles to teach you SVG from the ground up.
+
+</div></div><div class="short-topic">
+<div class="image icon-svg">
+</div><div class="inner">
 
 ### [Elements](/svg/elements)
 
 A reference guide to SVG and related elements.
 
+</div></div><div class="short-topic">
+<div class="image icon-svg">
+</div><div class="inner">
+
 ### [Attributes](/svg/attributes)
 
 A reference guide to all the available SVG attributes.
+
+</div></div><p>&nbsp;</p><div class="short-topic">
+<div class="image icon-svg">
+</div><div class="inner">
 
 ### [Objects](/svg/objects)
 
 A reference guide to all the available SVG objects.
 
+</div></div><p>&nbsp;</p><div class="short-topic">
+<div class="image icon-svg">
+</div><div class="inner">
+
 ### [Methods](/svg/methods)
 
 A reference guide to all the available SVG methods.
+
+</div></div><p>&nbsp;</p><div class="short-topic">
+<div class="image icon-svg">
+</div><div class="inner">
 
 ### [Properties](/svg/properties)
 
 A reference guide to all the available SVG properties.
 
- Note: If you are completely new to web development, you may want to review [Web development for beginners](/beginners).
+</div></div></section>
+<div class="clearfixboth"></div>
+
+Note: If you are completely new to web development, you may want to review [Web development for beginners](/Beginners).
 
 ## Background
 

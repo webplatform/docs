@@ -44,15 +44,3 @@ here's the end of the line.</NOBR>
 ### Standards information
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320)
-
-### Members
-
-The **noBR** object has these types of members:
-
--   [\#events Events]
--   [\#methods Methods]
--   [\#properties Properties]
-
-#### Events
-
-The **noBR** object has these events. {

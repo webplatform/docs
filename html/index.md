@@ -1,66 +1,5 @@
 ---
 title: 'HTML'
-todo_broken_links:
-  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
-  links:
-    - html/af
-    - html/ar
-    - html/ast
-    - html/az
-    - html/bcc
-    - html/bg
-    - html/br
-    - html/ca
-    - html/cs
-    - html/da
-    - html/de
-    - html/diq
-    - html/el
-    - html/eo
-    - html/fa
-    - html/fi
-    - html/fr
-    - html/gl
-    - html/gu
-    - html/he
-    - html/hu
-    - html/hy
-    - html/id
-    - html/it
-    - html/ka
-    - html/kk
-    - html/km
-    - html/ko
-    - html/ksh
-    - html/kw
-    - html/mk
-    - html/ml
-    - html/mr
-    - html/ms
-    - html/nl
-    - html/no
-    - html/oc
-    - html/pl
-    - html/pt
-    - html/pt-br
-    - html/ro
-    - html/ru
-    - html/si
-    - html/sk
-    - html/sl
-    - html/sq
-    - html/sr
-    - html/sv
-    - html/ta
-    - html/th
-    - html/tr
-    - html/uk
-    - html/vi
-    - html/yue
-    - html/zh
-    - html/zh-hans
-    - html/zh-hant
-    - html/zh-tw
 translations:
   es:
     text: español
@@ -77,31 +16,57 @@ Hypertext Markup Language (HTML) is the markup language for web pages. The [Worl
 
 ## Explore our HTML docs
 
+<section class="topic-container"><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
+
 ### [HTML learning material](/html/tutorials)
 
 Tutorials and concept articles to teach you HTML from the ground up.
+
+</div></div><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
 
 ### [Element reference](/html/elements)
 
 A reference guide to all the HTML elements available.
 
+</div></div><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
+
 ### [Attribute reference](/html/attributes)
 
 A reference guide to all the available HTML attributes.
+
+</div></div><p>&nbsp;</p><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
 
 ### [API reference](/html/apis)
 
 A reference guide to all the APIs associated with the HTML language.
 
+</div></div><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
+
 ### [Data type reference](/html/data_types)
 
 A reference guide to HTML data types.
+
+</div></div><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
 
 ### [Entity reference](/html/entities)
 
 A reference guide to HTML entities.
 
-Note: If you are completely new to web development, you may want to review [Web development for beginners](/beginners).
+</div></div></section>
+
+Note: If you are completely new to web development, you may want to review [Web development for beginners](/Beginners).
 
 ## Background
 

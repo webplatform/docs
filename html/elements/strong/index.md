@@ -34,17 +34,12 @@ The relative level of importance of a piece of content is given by its number of
 This example uses the **strong** element to indicate important information.
 
 ``` html
-<p>Please fill in the form below.
-<strong>Note: all fields are required.</strong></p>
-}}{{Single Example
-|Language=HTML
-|Description=Example with nested '''strong''' elements.
-|Code=<nowiki><p><strong><strong>Warning.</strong> This dungeon is dangerous.</strong></p>
+<p><strong><strong>Warning.</strong> This dungeon is dangerous.</strong></p>
 ```
 
 ## Usage
 
-     The strong element is a phrasing-level element. It must not contain block-level elements, but it can contain other phrasing-level elements.
+The strong element is a phrasing-level element. It must not contain block-level elements, but it can contain other phrasing-level elements.
 
 ## Notes
 

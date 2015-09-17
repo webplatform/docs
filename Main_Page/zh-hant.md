@@ -4,55 +4,6 @@ lang: zh-hant
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
-    - 'Main Page/af'
-    - 'Main Page/ar'
-    - 'Main Page/ast'
-    - 'Main Page/az'
-    - 'Main Page/bcc'
-    - 'Main Page/bg'
-    - 'Main Page/br'
-    - 'Main Page/ca'
-    - 'Main Page/cs'
-    - 'Main Page/da'
-    - 'Main Page/diq'
-    - 'Main Page/el'
-    - 'Main Page/eo'
-    - 'Main Page/fa'
-    - 'Main Page/fi'
-    - 'Main Page/gl'
-    - 'Main Page/gu'
-    - 'Main Page/he'
-    - 'Main Page/hu'
-    - 'Main Page/hy'
-    - 'Main Page/id'
-    - 'Main Page/it'
-    - 'Main Page/ka'
-    - 'Main Page/kk'
-    - 'Main Page/km'
-    - 'Main Page/ksh'
-    - 'Main Page/kw'
-    - 'Main Page/mk'
-    - 'Main Page/ml'
-    - 'Main Page/mr'
-    - 'Main Page/ms'
-    - 'Main Page/no'
-    - 'Main Page/oc'
-    - 'Main Page/pl'
-    - 'Main Page/pt'
-    - 'Main Page/ro'
-    - 'Main Page/ru'
-    - 'Main Page/si'
-    - 'Main Page/sk'
-    - 'Main Page/sl'
-    - 'Main Page/sq'
-    - 'Main Page/sr'
-    - 'Main Page/sv'
-    - 'Main Page/ta'
-    - 'Main Page/th'
-    - 'Main Page/uk'
-    - 'Main Page/vi'
-    - 'Main Page/yue'
-    - 'Main Page/zh-tw'
     - beginners/chs
     - concepts/chs
     - html/chs
@@ -98,41 +49,80 @@ uri: 'Main Page/zh-hant'
 
 ## 探索我們的網站開發文檔
 
-### [初學者指南](/w/index.php?title=beginners/chs&action=edit&redlink=1)
+<section class="topic-container"><div class="long-topic">
+<div class="image icon-beginners">
+</div><div class="inner">
+
+### [初學者指南](/Beginners)
 
 針對Web開發的入門教材。
 
-### [一般網絡概念](/w/index.php?title=concepts/chs&action=edit&redlink=1)
+</div></div><div class="long-topic">
+<div class="image icon-concept">
+</div><div class="inner">
+
+### [一般網絡概念](/concepts)
 
 概念和教程文章主題，如網絡工程，信息架構，排版和網頁設計。
 
-### [HTML](/w/index.php?title=html/chs&action=edit&redlink=1)
+</div></div><div class="long-topic">
+<div class="image icon-html">
+</div><div class="inner">
+
+### [HTML](/html)
 
 概念，教程和網頁的主要標記語言的參考材料。
 
-### [CSS](/w/index.php?title=css/chs&action=edit&redlink=1)
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-css">
+</div><div class="inner">
+
+### [CSS](/css)
 
 概念，教程和參考材料層疊樣式表(<abbr>CSS</abbr>).
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-accessibility">
+</div><div class="inner">
 
 ### [無障礙](/concepts/accessibility)
 
 模式，做法和網絡工作的人與不同的能力範圍的商業案例。
 
-### [JavaScript](/w/index.php?title=javascript/chs&action=edit&redlink=1)
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-js">
+</div><div class="inner">
+
+### [JavaScript](/javascript)
 
 教程和參考材料為JavaScript網頁的客戶端腳本語言;包括第三方JavaScript庫的參考材料。
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-dom">
+</div><div class="inner">
 
 ### [DOM](/dom)
 
 文檔對像模型（DOM）事件和方法教程和參考材料。 (<abbr>DOM</abbr>).
 
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-svg">
+</div><div class="inner">
+
 ### [SVG](/svg)
 
 可伸縮矢量圖形(<abbr>SVG</abbr>)，用於描述二維矢量圖形的<abbr>XML</abbr>標記語言的教程和參考材料。
 
+</div></div><div class="long-topic">
+<div class="image icon-api">
+</div><div class="inner">
+
 ### [APIs](/apis)
 
 從AppCache到XHR的JavaScript <abbr>API</abbr> 參考材料。
+
+</div></div></section>
+
 
 ## Web Platform 文庫用途及發展
 

@@ -1,67 +1,5 @@
 ---
 title: 'DOM'
-todo_broken_links:
-  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
-  links:
-    - dom/af
-    - dom/ar
-    - dom/ast
-    - dom/az
-    - dom/bcc
-    - dom/bg
-    - dom/br
-    - dom/ca
-    - dom/cs
-    - dom/da
-    - dom/de
-    - dom/diq
-    - dom/el
-    - dom/eo
-    - dom/fa
-    - dom/fi
-    - dom/fr
-    - dom/gl
-    - dom/gu
-    - dom/he
-    - dom/hu
-    - dom/hy
-    - dom/id
-    - dom/it
-    - dom/ja
-    - dom/ka
-    - dom/kk
-    - dom/km
-    - dom/ko
-    - dom/ksh
-    - dom/kw
-    - dom/mk
-    - dom/ml
-    - dom/mr
-    - dom/ms
-    - dom/nl
-    - dom/no
-    - dom/oc
-    - dom/pl
-    - dom/pt
-    - dom/pt-br
-    - dom/ro
-    - dom/ru
-    - dom/si
-    - dom/sk
-    - dom/sl
-    - dom/sq
-    - dom/sr
-    - dom/sv
-    - dom/ta
-    - dom/th
-    - dom/tr
-    - dom/uk
-    - dom/vi
-    - dom/yue
-    - dom/zh
-    - dom/zh-hans
-    - dom/zh-hant
-    - dom/zh-tw
 translations:
   es:
     text: español
@@ -75,19 +13,34 @@ The Document Object Model (DOM) is an application programming interface (API) fo
 
 ## Explore our DOM docs
 
+<section class="topic-container"><div class="short-topic">
+<div class="image icon-dom">
+</div><div class="inner">
+
 ### [DOM learning material](/dom/tutorials)
 
 Tutorials and concept articles to teach you DOM manipulation from scratch.
+
+</div></div><div class="short-topic">
+<div class="image icon-dom">
+</div><div class="inner">
 
 ### Events
 
 See the table below.
 
+</div></div><div class="short-topic">
+<div class="image icon-dom">
+</div><div class="inner">
+
 ### Methods
 
 See the table below.
 
- Note: If you are completely new to web development, you may want to review [Web development for beginners](/beginners).
+</div></div></section>
+<div class="clearfixboth"></div>
+
+Note: If you are completely new to web development, you may want to review [Web development for beginners](/Beginners).
 
 ## Background
 

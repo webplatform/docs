@@ -78,7 +78,7 @@ Regardless of the header you use, policy is defined on a page-by-page basis: you
 The source list in each directive is fairly flexible. You can specify sources by scheme (`data:`, `https:`), or ranging in specificity from hostname-only (`example.com`, which matches any origin on that host: any scheme, any port) to a fully qualified URI (`https://example.com:443`, which matches only HTTPS, only `example.com`, and only port 443). Wildcards are accepted, but only as a scheme, a port, or in the leftmost position of the hostname:
 
 ``` html
-<nowiki>*://*.example.com:*</nowiki>
+*://*.example.com:*
 ```
 
  Would match all sub domains of `example.com` (but *not* `example.com` itself), using any scheme, on any port.

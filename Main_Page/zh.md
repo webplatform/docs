@@ -4,55 +4,6 @@ lang: zh
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
-    - 'Main Page/af'
-    - 'Main Page/ar'
-    - 'Main Page/ast'
-    - 'Main Page/az'
-    - 'Main Page/bcc'
-    - 'Main Page/bg'
-    - 'Main Page/br'
-    - 'Main Page/ca'
-    - 'Main Page/cs'
-    - 'Main Page/da'
-    - 'Main Page/diq'
-    - 'Main Page/el'
-    - 'Main Page/eo'
-    - 'Main Page/fa'
-    - 'Main Page/fi'
-    - 'Main Page/gl'
-    - 'Main Page/gu'
-    - 'Main Page/he'
-    - 'Main Page/hu'
-    - 'Main Page/hy'
-    - 'Main Page/id'
-    - 'Main Page/it'
-    - 'Main Page/ka'
-    - 'Main Page/kk'
-    - 'Main Page/km'
-    - 'Main Page/ksh'
-    - 'Main Page/kw'
-    - 'Main Page/mk'
-    - 'Main Page/ml'
-    - 'Main Page/mr'
-    - 'Main Page/ms'
-    - 'Main Page/no'
-    - 'Main Page/oc'
-    - 'Main Page/pl'
-    - 'Main Page/pt'
-    - 'Main Page/ro'
-    - 'Main Page/ru'
-    - 'Main Page/si'
-    - 'Main Page/sk'
-    - 'Main Page/sl'
-    - 'Main Page/sq'
-    - 'Main Page/sr'
-    - 'Main Page/sv'
-    - 'Main Page/ta'
-    - 'Main Page/th'
-    - 'Main Page/uk'
-    - 'Main Page/vi'
-    - 'Main Page/yue'
-    - 'Main Page/zh-tw'
     - concepts/zh
     - html/zh
     - concepts/accessibility/zh
@@ -105,41 +56,80 @@ Web Platform Docs 作为一个社区驱动的站点，旨在成为兼具综合�
 
 ## 概览 Web 平台文库
 
-### [新手入门](/beginners/zh)
+<section class="topic-container"><div class="long-topic">
+<div class="image icon-beginners">
+</div><div class="inner">
+
+### [新手入门](/Beginners/zh)
 
 针对 Web 开发的入门指南。
 
-### [Web 基础概念](/w/index.php?title=concepts/zh&action=edit&redlink=1)
+</div></div><div class="long-topic">
+<div class="image icon-concept">
+</div><div class="inner">
+
+### [Web 基础概念](/concepts)
 
 概念性或指导性的资料，涵盖网络工作原理，信息架构，排版和 Web 设计等方面的内容。
 
-### [HTML](/w/index.php?title=html/zh&action=edit&redlink=1)
+</div></div><div class="long-topic">
+<div class="image icon-html">
+</div><div class="inner">
+
+### [HTML](/html)
 
 Web 使用的主要标记语言的概念，教程和参考资料
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [CSS](/css/zh)
 
 层叠样式表的概念，教程和参考材料(<abbr title="Cascading Style Sheets">CSS</abbr>).
 
-### [无障碍](/w/index.php?title=concepts/accessibility/zh&action=edit&redlink=1)
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-accessibility">
+</div><div class="inner">
+
+### [无障碍](/concepts/accessibility)
 
 让 Web 为各类人群服务的模式，实践和商业案例。
 
-### [JavaScript](/w/index.php?title=javascript/zh&action=edit&redlink=1)
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-js">
+</div><div class="inner">
+
+### [JavaScript](/javascript)
 
 网络的客户端脚本语言 JavaScript 的教程和参考资料；包括第三方 JavaScript 库的参考材料。
 
-### [DOM](/w/index.php?title=dom/zh&action=edit&redlink=1)
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-dom">
+</div><div class="inner">
+
+### [DOM](/dom)
 
 文档对象模型(<abbr title="Document Object Model">DOM</abbr>)的事件和方法的教程和参考材料。
 
-### [SVG](/w/index.php?title=svg/zh&action=edit&redlink=1)
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-svg">
+</div><div class="inner">
+
+### [SVG](/svg)
 
 可伸缩矢量图形(<abbr title="Scalable Vector Graphic">SVG</abbr>)的教程和参考材料；它是用于描述二维矢量图形的 <abbr title="eXtensible Markup Language">XML</abbr> 标记语言。
+
+</div></div><div class="long-topic">
+<div class="image icon-api">
+</div><div class="inner">
 
 ### [APIs](/w/index.php?title=apis/zh&action=edit&redlink=1)
 
 从 appcache 到 xhr 的 JavaScript <abbr title="Application Programming Interface">API</abbr> 的参考材料。
+
+</div></div></section>
+
 
 ## Web 平台文库的用途及发展
 

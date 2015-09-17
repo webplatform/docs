@@ -1,67 +1,5 @@
 ---
 title: 'General web concepts'
-todo_broken_links:
-  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
-  links:
-    - concepts/af
-    - concepts/ar
-    - concepts/ast
-    - concepts/az
-    - concepts/bcc
-    - concepts/bg
-    - concepts/br
-    - concepts/ca
-    - concepts/cs
-    - concepts/da
-    - concepts/de
-    - concepts/diq
-    - concepts/el
-    - concepts/eo
-    - concepts/fa
-    - concepts/fi
-    - concepts/fr
-    - concepts/gl
-    - concepts/gu
-    - concepts/he
-    - concepts/hu
-    - concepts/hy
-    - concepts/id
-    - concepts/it
-    - concepts/ja
-    - concepts/ka
-    - concepts/kk
-    - concepts/km
-    - concepts/ko
-    - concepts/ksh
-    - concepts/kw
-    - concepts/mk
-    - concepts/ml
-    - concepts/mr
-    - concepts/ms
-    - concepts/nl
-    - concepts/no
-    - concepts/oc
-    - concepts/pl
-    - concepts/pt
-    - concepts/pt-br
-    - concepts/ro
-    - concepts/ru
-    - concepts/si
-    - concepts/sk
-    - concepts/sl
-    - concepts/sq
-    - concepts/sr
-    - concepts/sv
-    - concepts/ta
-    - concepts/th
-    - concepts/tr
-    - concepts/uk
-    - concepts/vi
-    - concepts/yue
-    - concepts/zh
-    - concepts/zh-hans
-    - concepts/zh-hant
-    - concepts/zh-tw
 translations:
   es:
     text: español
@@ -77,35 +15,70 @@ If you are completely new to web development, you may want to review the [Beginn
 
 ## Explore our general web concept docs
 
+<section class="topic-container"><div class="long-topic">
+<div class="image icon-concept">
+</div><div class="inner">
+
 ### [Internet and Web](/concepts/internet_and_web)
 
 Topics related to the high level functioning of the Internet and Web, such as basics and communication protocols.
+
+</div></div><div class="long-topic">
+<div class="image icon-concept">
+</div><div class="inner">
 
 ### [General programming](/concepts/general_programming)
 
 Articles covering general programming techniques and fundamental ideas.
 
+</div></div><div class="long-topic">
+<div class="image icon-concept">
+</div><div class="inner">
+
 ### [Information architecture / usability](/concepts/ia_and_usability)
 
 Best practices concerned with developing your content and functionality in a logical and intuitive way, so it is easy to find and use.
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-concept">
+</div><div class="inner">
 
 ### [Mobile and devices](/concepts/mobile_web)
 
 Techniques and ideas concerning the optimisation of web documents for mobile and other alternative browsing devices.
 
+</div></div><div class="long-topic">
+<div class="image icon-concept">
+</div><div class="inner">
+
 ### [Designing the Web](/concepts/web_design)
 
 Articles related to the planning, prototyping and graphic design of web sites and applications.
+
+</div></div><div class="long-topic">
+<div class="image icon-concept">
+</div><div class="inner">
 
 ### [Cross browser techniques](/concepts/cross_browser_techniques)
 
 Articles covering concepts related to making sites work better across different browsers, modern and old.
 
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-concept">
+</div><div class="inner">
+
 ### [Localisation and internationalisation](/concepts/localisation)
 
 Articles covering techniques and technologies used to serve an international audience that speaks multiple languages.
 
+</div></div><div class="long-topic">
+<div class="image icon-concept">
+</div><div class="inner">
+
 ### [Optimizing Performance](/concepts/performance)
 
 Programming and monitoring techniques that make the most of bandwidth and performance .
+
+</div></div></section>
+<div class="clearfixboth"></div>
 

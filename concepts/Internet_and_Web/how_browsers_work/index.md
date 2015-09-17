@@ -717,15 +717,13 @@ Lets see an example: Suppose we have this HTML
 
  And the following rules:
 
-``` html
- <nowiki>
- div {margin:5px;color:black}
- .err {color:red}
- .big {margin-top:3px}
- div span {margin-bottom:4px}
- #div1 {color:blue}
- #div2 {color:green}
- </nowiki>
+``` css
+div {margin:5px;color:black}
+.err {color:red}
+.big {margin-top:3px}
+div span {margin-bottom:4px}
+#div1 {color:blue}
+#div2 {color:green}
 ```
 
  To simplify things let's say we need to fill out only two structs - the color struct and the margin struct. The color struct contains only one member - the color The margin struct contains the four sides. The resulting rule tree will look like this (the nodes are marked with the node name : the \# of rule they point at):
@@ -751,7 +749,9 @@ The work on the second `<span>` element is even easier. We will match the rules 
 For structs that contain rules that are inherited from the parent, caching is done on the context tree (the color property is actually inherited, but Firefox treats it as reset and caches it on the rule tree).
  For instance if we added rules for fonts in a paragraph:
 
-    p {font-family:Verdana;font size:10px;font-weight:bold}
+``` css
+p {font-family:Verdana;font size:10px;font-weight:bold}
+```
 
 Then the paragraph element, which is a child of the div in the context tree, could have shared the same font struct as his parent. This is if no font rules where specified for the paragraph.
 
@@ -838,7 +838,7 @@ The selector specificity is defined by the [CSS2 specification](http://www.w3.or
 
 <!-- -->
 
-    Concatenating the four numbers a-b-c-d (in a number system with a large base) gives the specificity.
+Concatenating the four numbers a-b-c-d (in a number system with a large base) gives the specificity.
 
 The number base you need to use is defined by the highest count you have in one of the categories.
  For example, if a=14 you can use hexadecimal base. In the unlikely case where a=17 you will need a 17 digits number base. The later situation can happen with a selector like this: html body div div p ... (17 tags in your selector.. not very likely).
@@ -881,7 +881,7 @@ The coordinate system is relative to the root frame. Top and left coordinates ar
 
 Layout is a recursive process. It begins at the root renderer, which corresponds to the `<html>` element of the HTML document. Layout continues recursively through some or all of the frame hierarchy, computing geometric information for each renderer that requires it.
 
-    The position of the root renderer is 0,0 and its dimensions are the viewport - the visible part of the browser window.
+The position of the root renderer is 0,0 and its dimensions are the viewport - the visible part of the browser window.
 
 All renderers have a "layout" or "reflow" method, each renderer invokes the layout method of its children that need layout.
 
@@ -930,7 +930,9 @@ Firefox uses a "state" object(nsHTMLReflowState) as a parameter to layout (terme
 
 The renderer's width is calculated using the container block's width, the renderer's style "width" property, the margins and borders. For example the width of the following div:
 
-    <div style="width:30%"/>
+``` html
+<div style="width:30%"/>
+```
 
 Would be calculated by Webkit as the following(class RenderBox method calcWidth):
 

@@ -1,57 +1,5 @@
 ---
 title: 'Welcome to Web Platform Docs'
-todo_broken_links:
-  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
-  links:
-    - 'Main Page/af'
-    - 'Main Page/ar'
-    - 'Main Page/ast'
-    - 'Main Page/az'
-    - 'Main Page/bcc'
-    - 'Main Page/bg'
-    - 'Main Page/br'
-    - 'Main Page/ca'
-    - 'Main Page/cs'
-    - 'Main Page/da'
-    - 'Main Page/diq'
-    - 'Main Page/el'
-    - 'Main Page/eo'
-    - 'Main Page/fa'
-    - 'Main Page/fi'
-    - 'Main Page/gl'
-    - 'Main Page/gu'
-    - 'Main Page/he'
-    - 'Main Page/hu'
-    - 'Main Page/hy'
-    - 'Main Page/id'
-    - 'Main Page/it'
-    - 'Main Page/ka'
-    - 'Main Page/kk'
-    - 'Main Page/km'
-    - 'Main Page/ksh'
-    - 'Main Page/kw'
-    - 'Main Page/mk'
-    - 'Main Page/ml'
-    - 'Main Page/mr'
-    - 'Main Page/ms'
-    - 'Main Page/no'
-    - 'Main Page/oc'
-    - 'Main Page/pl'
-    - 'Main Page/pt'
-    - 'Main Page/ro'
-    - 'Main Page/ru'
-    - 'Main Page/si'
-    - 'Main Page/sk'
-    - 'Main Page/sl'
-    - 'Main Page/sq'
-    - 'Main Page/sr'
-    - 'Main Page/sv'
-    - 'Main Page/ta'
-    - 'Main Page/th'
-    - 'Main Page/uk'
-    - 'Main Page/vi'
-    - 'Main Page/yue'
-    - 'Main Page/zh-tw'
 translations:
   de:
     text: Deutsch
@@ -95,41 +43,80 @@ Web Platform Docs is a community-driven site that aims to become a comprehensive
 
 ## Explore our web development docs
 
-### [Beginners guide](/beginners)
+<section class="topic-container"><div class="long-topic">
+<div class="image icon-beginners">
+</div><div class="inner">
+
+### [Beginners guide](/Beginners)
 
 Introductory materials for those new to web development.
+
+</div></div><div class="long-topic">
+<div class="image icon-concept">
+</div><div class="inner">
 
 ### [General web concepts](/concepts)
 
 Conceptual and tutorial articles on topics such as how the web works, information architecture, typography, and web design.
 
+</div></div><div class="long-topic">
+<div class="image icon-html">
+</div><div class="inner">
+
 ### [HTML](/html)
 
 Conceptual, tutorial, and reference materials for the main markup language of the web.
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [CSS](/css)
 
 Conceptual, tutorial, and reference materials for Cascading style sheets (CSS).
 
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-accessibility">
+</div><div class="inner">
+
 ### [Accessibility](/concepts/accessibility)
 
 Patterns, practices and business cases for making the web work for people with a diverse range of abilities.
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-js">
+</div><div class="inner">
 
 ### [JavaScript](/javascript)
 
 Tutorial and reference materials for JavaScript, the web's client-side scripting language; Includes reference materials for 3rd party JavaScript libraries.
 
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-dom">
+</div><div class="inner">
+
 ### [DOM](/dom)
 
 Tutorial and reference materials for the Document Object Model (DOM) events and methods.
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-svg">
+</div><div class="inner">
 
 ### [SVG](/svg)
 
 Tutorial and reference materials for Scalable Vector Graphics (SVG), an XML markup language for describing two-dimensional vector graphics.
 
+</div></div><div class="long-topic">
+<div class="image icon-api">
+</div><div class="inner">
+
 ### [APIs](/apis)
 
 Reference materials for JavaScript APIs from appcache to xhr.
+
+</div></div></section>
+
 
 ## Web Platform Docs features
 

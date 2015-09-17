@@ -1,66 +1,6 @@
 ---
 title: 'CSS'
 lang: ko
-standardization_status: Unknown
-todo_broken_links:
-  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
-  links:
-    - css/af
-    - css/ar
-    - css/ast
-    - css/az
-    - css/bcc
-    - css/bg
-    - css/br
-    - css/ca
-    - css/cs
-    - css/da
-    - css/de
-    - css/diq
-    - css/el
-    - css/eo
-    - css/fa
-    - css/fi
-    - css/gl
-    - css/gu
-    - css/he
-    - css/hu
-    - css/hy
-    - css/id
-    - css/it
-    - css/ja
-    - css/ka
-    - css/kk
-    - css/km
-    - css/ksh
-    - css/kw
-    - css/mk
-    - css/ml
-    - css/mr
-    - css/ms
-    - css/nl
-    - css/no
-    - css/oc
-    - css/pl
-    - css/pt
-    - css/pt-br
-    - css/ro
-    - css/ru
-    - css/si
-    - css/sk
-    - css/sl
-    - css/sq
-    - css/sr
-    - css/sv
-    - css/ta
-    - css/th
-    - css/tr
-    - css/uk
-    - css/vi
-    - css/yue
-    - css/zh-hans
-    - css/zh-hant
-    - css/zh-tw
 translations:
   es:
     text: español
@@ -80,31 +20,57 @@ uri: css/ko
 
 ## CSS 문서 목록
 
+<section class="topic-container"><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
+
 ### [CSS 학습 자료](/css/tutorials)
 
 CSS를 기초부터 가르쳐줄 자습서와 개념 글
+
+</div></div><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [CSS 선택자](/css/selectors)
 
 사용 가능한 모든 CSS 선택자에 대한 참고서
 
+</div></div><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
+
 ### [CSS 속성](/css/properties)
 
 사용 가능한 모든 CSS 속성에 대한 참고서
+
+</div></div><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [CSS 기능](/css/functions)
 
 사용 가능한 모든 CSS 기능에 대한 참고서
 
+</div></div><p>&nbsp;</p><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
+
 ### [@규칙(앳룰)](/css/atrules)
 
 사용 가능한 CSS @규칙(앳룰)에 대한 다른 유형의 참고서
+
+</div></div><p>&nbsp;</p><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [미디어 쿼리](/css/mediaqueries)
 
 사용 가능한 미디어 쿼리에 대한 다른 유형의 참고서
 
- 참고: 웹 개발에 익숙하지 않다면, [초보자를 위한 웹 개발](/beginners)을 먼저 확인하는 게 좋습니다.
+</div></div></section>
+
+참고: 웹 개발에 익숙하지 않다면, [초보자를 위한 웹 개발](/Beginners)을 먼저 확인하는 게 좋습니다.
 
 ## 배경
 

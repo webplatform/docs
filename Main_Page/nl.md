@@ -1,58 +1,6 @@
 ---
 title: 'Welkom bij Web Platform Docs'
 lang: nl
-todo_broken_links:
-  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
-  links:
-    - 'Main Page/af'
-    - 'Main Page/ar'
-    - 'Main Page/ast'
-    - 'Main Page/az'
-    - 'Main Page/bcc'
-    - 'Main Page/bg'
-    - 'Main Page/br'
-    - 'Main Page/ca'
-    - 'Main Page/cs'
-    - 'Main Page/da'
-    - 'Main Page/diq'
-    - 'Main Page/el'
-    - 'Main Page/eo'
-    - 'Main Page/fa'
-    - 'Main Page/fi'
-    - 'Main Page/gl'
-    - 'Main Page/gu'
-    - 'Main Page/he'
-    - 'Main Page/hu'
-    - 'Main Page/hy'
-    - 'Main Page/id'
-    - 'Main Page/it'
-    - 'Main Page/ka'
-    - 'Main Page/kk'
-    - 'Main Page/km'
-    - 'Main Page/ksh'
-    - 'Main Page/kw'
-    - 'Main Page/mk'
-    - 'Main Page/ml'
-    - 'Main Page/mr'
-    - 'Main Page/ms'
-    - 'Main Page/no'
-    - 'Main Page/oc'
-    - 'Main Page/pl'
-    - 'Main Page/pt'
-    - 'Main Page/ro'
-    - 'Main Page/ru'
-    - 'Main Page/si'
-    - 'Main Page/sk'
-    - 'Main Page/sl'
-    - 'Main Page/sq'
-    - 'Main Page/sr'
-    - 'Main Page/sv'
-    - 'Main Page/ta'
-    - 'Main Page/th'
-    - 'Main Page/uk'
-    - 'Main Page/vi'
-    - 'Main Page/yue'
-    - 'Main Page/zh-tw'
 translations:
   de:
     text: Deutsch
@@ -93,41 +41,80 @@ Web Platform Docs is een community gedreven website die gericht is om een uitgeb
 
 ## Verken onze documentatie voor webontwikkelaars
 
-### [Voor beginners](/beginners)
+<section class="topic-container"><div class="long-topic">
+<div class="image icon-beginners">
+</div><div class="inner">
+
+### [Voor beginners](/Beginners)
 
 Eenvoudig materiaal voor mensen die net beginnen met webdevelopment.
+
+</div></div><div class="long-topic">
+<div class="image icon-concept">
+</div><div class="inner">
 
 ### [Algemene web concepten](/concepts)
 
 Conceptuele artikelen en handleidingen over onderwerpen als de werking van het web, informatie-architectuur, typografie en webdesign.
 
+</div></div><div class="long-topic">
+<div class="image icon-html">
+</div><div class="inner">
+
 ### [HTML](/html)
 
 Conceptuele artikelen, handleidingen en referentiemateriaal voor de voornaamste opmaaktaal van het web.
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [CSS](/css)
 
 Conceptuele artikelen, handleidingen en referentiemateriaal voor Cascading Style Sheets (CSS).
 
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-accessibility">
+</div><div class="inner">
+
 ### [Toegankelijkheid](/concepts/accessibility)
 
 Patronen, gebruiken en businesscases om het web bruikbaar te maken voor mensen met diverse vaardigheden.
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-js">
+</div><div class="inner">
 
 ### [JavaScript](/javascript)
 
 Conceptuele, zelf studie en referentiematerialen voor JavaScript, de client-side scripttaal van het web; Heeft referentiematerialen voor JavaScript bibliotheken van derden.
 
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-dom">
+</div><div class="inner">
+
 ### [DOM](/dom)
 
 Zelf studie en referentiematerialen voor de Document Object Model (DOM) evenementen en methoden.
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-svg">
+</div><div class="inner">
 
 ### [SVG](/svg)
 
 Zelf studie en referentiematerialen voor de Scalable Vector Graphics (SVG), een XML-Markup taal voor de beschrijving van tweedimensionale vectorafbeeldingen.
 
+</div></div><div class="long-topic">
+<div class="image icon-api">
+</div><div class="inner">
+
 ### [APIs](/apis)
 
 Referentiemateriaal voor de JavaScript-APIs van AppCache tot xhr.
+
+</div></div></section>
+
 
 ## Web Platform Docs Features
 

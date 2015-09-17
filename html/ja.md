@@ -1,67 +1,6 @@
 ---
 title: 'HTML'
 lang: ja
-todo_broken_links:
-  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
-  links:
-    - html/af
-    - html/ar
-    - html/ast
-    - html/az
-    - html/bcc
-    - html/bg
-    - html/br
-    - html/ca
-    - html/cs
-    - html/da
-    - html/de
-    - html/diq
-    - html/el
-    - html/eo
-    - html/fa
-    - html/fi
-    - html/fr
-    - html/gl
-    - html/gu
-    - html/he
-    - html/hu
-    - html/hy
-    - html/id
-    - html/it
-    - html/ka
-    - html/kk
-    - html/km
-    - html/ko
-    - html/ksh
-    - html/kw
-    - html/mk
-    - html/ml
-    - html/mr
-    - html/ms
-    - html/nl
-    - html/no
-    - html/oc
-    - html/pl
-    - html/pt
-    - html/pt-br
-    - html/ro
-    - html/ru
-    - html/si
-    - html/sk
-    - html/sl
-    - html/sq
-    - html/sr
-    - html/sv
-    - html/ta
-    - html/th
-    - html/tr
-    - html/uk
-    - html/vi
-    - html/yue
-    - html/zh
-    - html/zh-hans
-    - html/zh-hant
-    - html/zh-tw
 translations:
   es:
     text: español
@@ -75,31 +14,57 @@ Hypertext Markup Language (HTML)はwebページの作成のために開発され
 
 ## HTMLドキュメント一覧
 
+<section class="topic-container"><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
+
 ### [HTML学習教材](/html/tutorials)
 
 チュートリアルと概要を読み、HTMLの基礎から学習しましょう。
+
+</div></div><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
 
 ### [要素](/html/elements/ja)
 
 HTMLで利用可能な要素(element)についてのリファレンスガイドです。
 
+</div></div><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
+
 ### [属性](/html/attributes)
 
 HTMLで利用可能な属性(attribute)についてのリファレンスガイドです。
+
+</div></div><p>&nbsp;</p><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
 
 ### [API](/html/apis)
 
 HTMLに関連するAPIについてのリファレンスガイドです。
 
+</div></div><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
+
 ### [データ型](/html/data_types)
 
 HTMLのデータ型についてのリファレンスガイドです。
+
+</div></div><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
 
 ### [エンティティ](/html/entities)
 
 HTMLエンティティについてのリファレンスです。
 
-注: もしあなたがWeb開発について全くの初心者であるなら、先に「[Webを開発し始める皆さんへ](/beginners)」を読むことをお勧めします。
+</div></div></section>
+
+注: もしあなたがWeb開発について全くの初心者であるなら、先に「[Webを開発し始める皆さんへ](/Beginners)」を読むことをお勧めします。
 
 ## 背景
 

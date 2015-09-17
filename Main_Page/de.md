@@ -1,58 +1,6 @@
 ---
 title: 'Willkommen auf Web Platform Docs'
 lang: de
-todo_broken_links:
-  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
-  links:
-    - 'Main Page/af'
-    - 'Main Page/ar'
-    - 'Main Page/ast'
-    - 'Main Page/az'
-    - 'Main Page/bcc'
-    - 'Main Page/bg'
-    - 'Main Page/br'
-    - 'Main Page/ca'
-    - 'Main Page/cs'
-    - 'Main Page/da'
-    - 'Main Page/diq'
-    - 'Main Page/el'
-    - 'Main Page/eo'
-    - 'Main Page/fa'
-    - 'Main Page/fi'
-    - 'Main Page/gl'
-    - 'Main Page/gu'
-    - 'Main Page/he'
-    - 'Main Page/hu'
-    - 'Main Page/hy'
-    - 'Main Page/id'
-    - 'Main Page/it'
-    - 'Main Page/ka'
-    - 'Main Page/kk'
-    - 'Main Page/km'
-    - 'Main Page/ksh'
-    - 'Main Page/kw'
-    - 'Main Page/mk'
-    - 'Main Page/ml'
-    - 'Main Page/mr'
-    - 'Main Page/ms'
-    - 'Main Page/no'
-    - 'Main Page/oc'
-    - 'Main Page/pl'
-    - 'Main Page/pt'
-    - 'Main Page/ro'
-    - 'Main Page/ru'
-    - 'Main Page/si'
-    - 'Main Page/sk'
-    - 'Main Page/sl'
-    - 'Main Page/sq'
-    - 'Main Page/sr'
-    - 'Main Page/sv'
-    - 'Main Page/ta'
-    - 'Main Page/th'
-    - 'Main Page/uk'
-    - 'Main Page/vi'
-    - 'Main Page/yue'
-    - 'Main Page/zh-tw'
 translations:
   es:
     text: español
@@ -93,41 +41,80 @@ Web Platform Docs ist eine von der Community erstellte Website, welche das Ziel 
 
 ## Erkunden unserer Webentwicklungs-Dokumentationen
 
-### [Für Anfänger](/beginners)
+<section class="topic-container"><div class="long-topic">
+<div class="image icon-beginners">
+</div><div class="inner">
+
+### [Für Anfänger](/Beginners)
 
 Einführende Materialien für Neulinge in der Webentwicklung.
+
+</div></div><div class="long-topic">
+<div class="image icon-concept">
+</div><div class="inner">
 
 ### [Generelle Web-Konzepte](/concepts)
 
 Konzeptionelle Artikel und Tutorials zu Themen wie „Wie funktioniert das Web?“, Informations-Architektur, Typografie und Webdesign.
 
+</div></div><div class="long-topic">
+<div class="image icon-html">
+</div><div class="inner">
+
 ### [HTML](/html)
 
 Konzeptionelle, Tutorial-, und Referenzmaterialien für die Haupt-Auszeichnungssprache des Web.
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [CSS](/css)
 
 Konzeptionelle, Tutorial-, und Referenzmaterialien für Cascading Style Sheets (CSS).
 
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-accessibility">
+</div><div class="inner">
+
 ### [Barrierefreiheit](/concepts/accessibility)
 
 Patterns, Praktiken und Business Cases um die Nutzung des Webs allen Menschen zu ermöglichen.
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-js">
+</div><div class="inner">
 
 ### [JavaScript](/javascript)
 
 Konzeptionelle, Tutorial-, und Referenzmaterialien für JavaScript, der client-seitigen Skriptsprache des Webs; Enthält Referenzmaterialien für JavaScript Bibliotheken von Drittanbietern.
 
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-dom">
+</div><div class="inner">
+
 ### [DOM](/dom)
 
 Tutorial- und Referenzmaterialien für die Document Object Model (DOM) Ereignisse und Methoden.
+
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-svg">
+</div><div class="inner">
 
 ### [SVG](/svg)
 
 Tutorial- und Referenzmaterialien für die Scalable Vector Graphics (SVG), einer XML-Markup-Sprache für die Beschreibung zweidimensionaler Vektorgrafiken.
 
+</div></div><div class="long-topic">
+<div class="image icon-api">
+</div><div class="inner">
+
 ### [APIs](/apis)
 
 Referenzmaterialien für die JavaScript-APIs von AppCache bis xhr.
+
+</div></div></section>
+
 
 ## Web Platform Docs Features
 

@@ -1,66 +1,6 @@
 ---
 title: 'CSS'
 lang: fr
-standardization_status: Unknown
-todo_broken_links:
-  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
-  links:
-    - css/af
-    - css/ar
-    - css/ast
-    - css/az
-    - css/bcc
-    - css/bg
-    - css/br
-    - css/ca
-    - css/cs
-    - css/da
-    - css/de
-    - css/diq
-    - css/el
-    - css/eo
-    - css/fa
-    - css/fi
-    - css/gl
-    - css/gu
-    - css/he
-    - css/hu
-    - css/hy
-    - css/id
-    - css/it
-    - css/ja
-    - css/ka
-    - css/kk
-    - css/km
-    - css/ksh
-    - css/kw
-    - css/mk
-    - css/ml
-    - css/mr
-    - css/ms
-    - css/nl
-    - css/no
-    - css/oc
-    - css/pl
-    - css/pt
-    - css/pt-br
-    - css/ro
-    - css/ru
-    - css/si
-    - css/sk
-    - css/sl
-    - css/sq
-    - css/sr
-    - css/sv
-    - css/ta
-    - css/th
-    - css/tr
-    - css/uk
-    - css/vi
-    - css/yue
-    - css/zh-hans
-    - css/zh-hant
-    - css/zh-tw
 translations:
   es:
     text: español
@@ -80,31 +20,57 @@ Le CSS (pour *Cascading style sheets*) est le langage de présentation pour le c
 
 ## Explorer notre documentation CSS
 
+<section class="topic-container"><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
+
 ### [Apprendre CSS](/css/tutorials)
 
 Tutoriels et articles de cours pour apprendre CSS de zéro.
+
+</div></div><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [Sélecteurs CSS](/css/selectors)
 
 Un guide de référence sur tous les sélecteurs CSS disponibles.
 
+</div></div><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
+
 ### [Propriétés CSS](/css/properties)
 
 Un guide de référence sur toutes les propriétés CSS disponibles.
+
+</div></div><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [Fonctions CSS](/css/functions)
 
 Un guide de référence sur toutes les fonctions CSS.
 
+</div></div><p>&nbsp;</p><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
+
 ### [At-rules](/css/atrules)
 
 Un guide de références sur les différents règles CSS @rules (at-rules) disponibles.
+
+</div></div><p>&nbsp;</p><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [Media queries](/css/mediaqueries)
 
 Un guide de référence sur tous les types de *media queries*.
 
- Note : Si vous êtes totalement débutant en développement web, nous vous suggérons de lire [Le développement web pour les débutants](/beginners).
+</div></div></section>
+
+Note : Si vous êtes totalement débutant en développement web, nous vous suggérons de lire [Le développement web pour les débutants](/Beginners).
 
 ## Résumé
 

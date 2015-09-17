@@ -1,67 +1,6 @@
 ---
 title: 'CSS'
 lang: zh
-standardization_status: Unknown
-todo_broken_links:
-  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
-  links:
-    - css/af
-    - css/ar
-    - css/ast
-    - css/az
-    - css/bcc
-    - css/bg
-    - css/br
-    - css/ca
-    - css/cs
-    - css/da
-    - css/de
-    - css/diq
-    - css/el
-    - css/eo
-    - css/fa
-    - css/fi
-    - css/gl
-    - css/gu
-    - css/he
-    - css/hu
-    - css/hy
-    - css/id
-    - css/it
-    - css/ja
-    - css/ka
-    - css/kk
-    - css/km
-    - css/ksh
-    - css/kw
-    - css/mk
-    - css/ml
-    - css/mr
-    - css/ms
-    - css/nl
-    - css/no
-    - css/oc
-    - css/pl
-    - css/pt
-    - css/pt-br
-    - css/ro
-    - css/ru
-    - css/si
-    - css/sk
-    - css/sl
-    - css/sq
-    - css/sr
-    - css/sv
-    - css/ta
-    - css/th
-    - css/tr
-    - css/uk
-    - css/vi
-    - css/yue
-    - css/zh-hans
-    - css/zh-hant
-    - css/zh-tw
-    - CSS/zh
 translations:
   es:
     text: español
@@ -81,31 +20,57 @@ uri: css/zh
 
 ## 概览
 
+<section class="topic-container"><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
+
 ### [CSS 教程](/css/tutorials)
 
 众多教程和概念的文章，从零开始教你 CSS。
+
+</div></div><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [CSS 选择器](/css/selectors)
 
 CSS 选择器的参考指南
 
+</div></div><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
+
 ### [CSS 属性](/css/properties)
 
 CSS 属性的参考指南
+
+</div></div><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [CSS 函数](/css/functions)
 
 CSS 函数的参考指南
 
+</div></div><p>&nbsp;</p><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
+
 ### [规范守则](/css/atrules)
 
 CSS 规范守则的参考指南
+
+</div></div><p>&nbsp;</p><div class="short-topic">
+<div class="image icon-css">
+</div><div class="inner">
 
 ### [媒体查询](/css/mediaqueries)
 
 CSS 可用媒体的参考指南
 
- 注：如果你刚刚接触 Web 开发，建议先阅读 [Web 入门](/beginners) 。
+</div></div></section>
+
+注：如果你刚刚接触 Web 开发，建议先阅读 [Web 入门](/Beginners) 。
 
 ## 背景
 

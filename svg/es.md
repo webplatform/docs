@@ -1,69 +1,6 @@
 ---
 title: 'SVG'
 lang: es
-standardization_status: Unknown
-todo_broken_links:
-  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
-  links:
-    - svg/af
-    - svg/ar
-    - svg/ast
-    - svg/az
-    - svg/bcc
-    - svg/bg
-    - svg/br
-    - svg/ca
-    - svg/cs
-    - svg/da
-    - svg/de
-    - svg/diq
-    - svg/el
-    - svg/eo
-    - svg/fa
-    - svg/fi
-    - svg/fr
-    - svg/gl
-    - svg/gu
-    - svg/he
-    - svg/hu
-    - svg/hy
-    - svg/id
-    - svg/it
-    - svg/ja
-    - svg/ka
-    - svg/kk
-    - svg/km
-    - svg/ko
-    - svg/ksh
-    - svg/kw
-    - svg/mk
-    - svg/ml
-    - svg/mr
-    - svg/ms
-    - svg/nl
-    - svg/no
-    - svg/oc
-    - svg/pl
-    - svg/pt
-    - svg/pt-br
-    - svg/ro
-    - svg/ru
-    - svg/si
-    - svg/sk
-    - svg/sl
-    - svg/sq
-    - svg/sr
-    - svg/sv
-    - svg/ta
-    - svg/th
-    - svg/tr
-    - svg/uk
-    - svg/vi
-    - svg/yue
-    - svg/zh
-    - svg/zh-hans
-    - svg/zh-hant
-    - svg/zh-tw
 uri: svg/es
 
 ---
@@ -73,31 +10,58 @@ Imágenes vectoriales escalables o Scalable Vector Graphics (SVG) es un lenguaje
 
 ## Explora nuestros documentos sobre SVG
 
+<section class="topic-container"><div class="short-topic">
+<div class="image icon-svg">
+</div><div class="inner">
+
 ### [Material didáctico de SVG](/svg/tutorials)
 
 Tutoriales y artículos didácticos para que aprendas SVG desde la base.
+
+</div></div><div class="short-topic">
+<div class="image icon-svg">
+</div><div class="inner">
 
 ### [Elementos](/svg/elements)
 
 Una guía de referencia de SVG y elementos relacionados.
 
+</div></div><div class="short-topic">
+<div class="image icon-svg">
+</div><div class="inner">
+
 ### [Atributos](/svg/attributes)
 
 Una guía de referencia de todos los atributos SVG disponibles.
+
+</div></div><p>&nbsp;</p><div class="short-topic">
+<div class="image icon-svg">
+</div><div class="inner">
 
 ### [Objetos](/svg/objects)
 
 Una guía de referencia de todos los objetos SVG disponibles.
 
+</div></div><p>&nbsp;</p><div class="short-topic">
+<div class="image icon-svg">
+</div><div class="inner">
+
 ### [Métodos](/svg/methods)
 
 Una guía de referencia de todos los métodos SVG disponibles.
+
+</div></div><p>&nbsp;</p><div class="short-topic">
+<div class="image icon-svg">
+</div><div class="inner">
 
 ### [Propiedades](/svg/properties)
 
 Una guía de referencia de todas las propiedades SVG disponibles.
 
- Nota: Si eres completamente nuevo en el desarrollo web, puede que quieras revisar [Desarrollo web para principiantes](/beginners/es).
+</div></div></section>
+<div class="clearfixboth"></div>
+
+Nota: Si eres completamente nuevo en el desarrollo web, puede que quieras revisar [Desarrollo web para principiantes](/Beginners/es).
 
 ## Antecedentes
 

@@ -1,68 +1,6 @@
 ---
 title: 'HTML'
 lang: es
-standardization_status: Unknown
-todo_broken_links:
-  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
-  links:
-    - html/af
-    - html/ar
-    - html/ast
-    - html/az
-    - html/bcc
-    - html/bg
-    - html/br
-    - html/ca
-    - html/cs
-    - html/da
-    - html/de
-    - html/diq
-    - html/el
-    - html/eo
-    - html/fa
-    - html/fi
-    - html/fr
-    - html/gl
-    - html/gu
-    - html/he
-    - html/hu
-    - html/hy
-    - html/id
-    - html/it
-    - html/ka
-    - html/kk
-    - html/km
-    - html/ko
-    - html/ksh
-    - html/kw
-    - html/mk
-    - html/ml
-    - html/mr
-    - html/ms
-    - html/nl
-    - html/no
-    - html/oc
-    - html/pl
-    - html/pt
-    - html/pt-br
-    - html/ro
-    - html/ru
-    - html/si
-    - html/sk
-    - html/sl
-    - html/sq
-    - html/sr
-    - html/sv
-    - html/ta
-    - html/th
-    - html/tr
-    - html/uk
-    - html/vi
-    - html/yue
-    - html/zh
-    - html/zh-hans
-    - html/zh-hant
-    - html/zh-tw
 translations:
   ja:
     text: 日本語
@@ -76,31 +14,57 @@ uri: html/es
 
 ## Explora nuestros documentos sobre HTML
 
+<section class="topic-container"><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
+
 ### [Material didáctico de HTML](/html/tutorials)
 
 Tutoriales y artículos didácticos para que aprendas HTML desde la base.
+
+</div></div><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
 
 ### [Referencia de elementos](/html/elements)
 
 Una guía de referencia de todos los elementos HTML disponibles.
 
+</div></div><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
+
 ### [Referencia de atributos](/html/attributes)
 
 Una guía de referencia de todos los atributos HTML disponibles.
+
+</div></div><p>&nbsp;</p><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
 
 ### [Referencia de APIs](/html/apis)
 
 Una guía de referencia de todas las <abbr>APIs</abbr> asociadas con el lenguaje HTML.
 
+</div></div><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
+
 ### [Referencia de tipos de datos](/html/data_types)
 
 Una guía de referencia de los tipos de datos de HTML.
+
+</div></div><div class="short-topic">
+<div class="image icon-html">
+</div><div class="inner">
 
 ### [Referencia de entidades](/html/entities)
 
 Una guía de referencia de las entidades de HTML.
 
-Nota: Si eres completamente nuevo en el desarrollo web, puede que desees revisar [Desarrollo web para principiantes](/beginners).
+</div></div></section>
+
+Nota: Si eres completamente nuevo en el desarrollo web, puede que desees revisar [Desarrollo web para principiantes](/Beginners).
 
 ## Antecedentes
 

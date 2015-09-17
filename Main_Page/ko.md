@@ -4,55 +4,6 @@ lang: ko
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
-    - 'Main Page/af'
-    - 'Main Page/ar'
-    - 'Main Page/ast'
-    - 'Main Page/az'
-    - 'Main Page/bcc'
-    - 'Main Page/bg'
-    - 'Main Page/br'
-    - 'Main Page/ca'
-    - 'Main Page/cs'
-    - 'Main Page/da'
-    - 'Main Page/diq'
-    - 'Main Page/el'
-    - 'Main Page/eo'
-    - 'Main Page/fa'
-    - 'Main Page/fi'
-    - 'Main Page/gl'
-    - 'Main Page/gu'
-    - 'Main Page/he'
-    - 'Main Page/hu'
-    - 'Main Page/hy'
-    - 'Main Page/id'
-    - 'Main Page/it'
-    - 'Main Page/ka'
-    - 'Main Page/kk'
-    - 'Main Page/km'
-    - 'Main Page/ksh'
-    - 'Main Page/kw'
-    - 'Main Page/mk'
-    - 'Main Page/ml'
-    - 'Main Page/mr'
-    - 'Main Page/ms'
-    - 'Main Page/no'
-    - 'Main Page/oc'
-    - 'Main Page/pl'
-    - 'Main Page/pt'
-    - 'Main Page/ro'
-    - 'Main Page/ru'
-    - 'Main Page/si'
-    - 'Main Page/sk'
-    - 'Main Page/sl'
-    - 'Main Page/sq'
-    - 'Main Page/sr'
-    - 'Main Page/sv'
-    - 'Main Page/ta'
-    - 'Main Page/th'
-    - 'Main Page/uk'
-    - 'Main Page/vi'
-    - 'Main Page/yue'
-    - 'Main Page/zh-tw'
     - concepts/ko
     - html/ko
     - concepts/accessibility/ko
@@ -100,41 +51,80 @@ uri: 'Main Page/ko'
 
 ## 웹 개발 문서 찾기
 
-### [초보자용 가이드](/beginners/ko)
+<section class="topic-container"><div class="long-topic">
+<div class="image icon-beginners">
+</div><div class="inner">
+
+### [초보자용 가이드](/Beginners/ko)
 
 웹 개발을 시작하는 이들을 위한 입문용 교재
 
-### [일반적인 웹의 개념](/w/index.php?title=concepts/ko&action=edit&redlink=1)
+</div></div><div class="long-topic">
+<div class="image icon-concept">
+</div><div class="inner">
+
+### [일반적인 웹의 개념](/concepts)
 
 웹이 어떻게 작동하는지, 정보 설계, 타이포그라피, 웹 디자인 등의 주제에 대한 개념 및 자습서
+
+</div></div><div class="long-topic">
+<div class="image icon-html">
+</div><div class="inner">
 
 ### [HTML](/w/index.php?title=html/ko&action=edit&redlink=1)
 
 웹의 주요 마크업 언어에 대한 개념, 자습서, 참고자료
 
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-css">
+</div><div class="inner">
+
 ### [CSS](/css/ko)
 
 CSS 스타일 시트에 대한 개념, 자습서, 참고자료
 
-### [접근성](/w/index.php?title=concepts/accessibility/ko&action=edit&redlink=1)
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-accessibility">
+</div><div class="inner">
+
+### [접근성](/concepts/accessibility)
 
 신체 능력에 다양한 차이가 있는 사람들을 위한 웹을 만들기 위한 패턴, 싱행사례, 비즈니스 케이스
 
-### [자바스크립트](/w/index.php?title=javascript/ko&action=edit&redlink=1)
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-js">
+</div><div class="inner">
+
+### [자바스크립트](/javascript)
 
 웹의 클라이언트 측 스크립트 언어인 자바스크립트를 위한 자습서와 참고자료로써, 외부 자바스크립트 라이브러리를 포함함.
 
-### [DOM](/w/index.php?title=dom/ko&action=edit&redlink=1)
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-dom">
+</div><div class="inner">
+
+### [DOM](/dom)
 
 문서 객체 모델(DOM: Document Object Model)과 이벤트, 메쏘드에 대한 자습서 및 참고자료
 
-### [SVG](/w/index.php?title=svg/ko&action=edit&redlink=1)
+</div></div><p>&nbsp;</p><div class="long-topic">
+<div class="image icon-svg">
+</div><div class="inner">
+
+### [SVG](/svg)
 
 2차원 벡터 그래픽을 위한 XML 마크업 언어인 SVG(Scalable Vector Graphics)에 대한 자습서와 참고자료
+
+</div></div><div class="long-topic">
+<div class="image icon-api">
+</div><div class="inner">
 
 ### [APIs](/w/index.php?title=apis/ko&action=edit&redlink=1)
 
 앱캐쉬에서 XHR에 이르는 자바스크립트 API 참고자료
+
+</div></div></section>
+
 
 ## 웹 플랫폼 문서 기능
 
