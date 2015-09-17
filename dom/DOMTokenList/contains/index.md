@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Tests if a token is part of a DOMTokenList.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/DOMTokenList/contains
 

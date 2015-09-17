@@ -8,9 +8,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Sets the numeric day of the month in the Date object using Universal Coordinated Time (UTC).'
 tags:
-  0: JS
-  1: Basic
-  3: Method
+  - JS_Basic
+  - JS_Method
 uri: javascript/Date/setUTCDate
 
 ---

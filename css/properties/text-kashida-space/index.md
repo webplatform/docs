@@ -17,13 +17,13 @@ overview_table:
   '[CSS Object Model Property](/css/concepts/cssom)': ''
 readiness: 'Not Ready'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Summary
+  - Needs_Examples
 uri: css/properties/text-kashida-space
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Overview table
 
 [Initial value](/css/concepts/initial_value)
@@ -55,8 +55,6 @@ Animatable
 
 percentage
 :   An integer, followed by a %. The value is the ratio of kashida expansion to white space expansion. 100% specifies kashida expansion only, and 0% specifies white space expansion only
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

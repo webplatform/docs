@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Asynchronously queues small amounts of HTTP data for transfer from the user agent to a web server. For example, it can be used to send analytics or diagnostics code without delaying the page''s unload or affecting the performance of the navigation.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
   - WebRTC
 uri: dom/Navigator/sendBeacon

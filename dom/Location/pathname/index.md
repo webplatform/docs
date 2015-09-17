@@ -16,10 +16,9 @@ relationships:
     href: /dom/Location
 summary: 'Sets or retrieves the file name or path specified by the object.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/Location/pathname
 
 ---
@@ -41,6 +40,4 @@ location.pathname = pathName;
 Returns an object of type StringString
 
 The path component of the URL.
-
-**Needs Examples**: This section should include examples.
 

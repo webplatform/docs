@@ -6,22 +6,17 @@ notes:
   - 'Needs summary, spec reference, standardization status'
 readiness: 'In Progress'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Summary
 uri: apis/xhr/objects/XMLSerializer
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Properties
 
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [serializeToString](/apis/xhr/methods/serializeToString)
 :   Converts the parent DOM node of a document tree to an XML string.

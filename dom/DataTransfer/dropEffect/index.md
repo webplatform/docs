@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Gets the type of drag-and-drop operation currently selected or sets the operation to a new type.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/DataTransfer/dropEffect
 

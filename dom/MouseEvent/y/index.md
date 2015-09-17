@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/MouseEvent/y
 

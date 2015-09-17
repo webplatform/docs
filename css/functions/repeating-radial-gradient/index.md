@@ -11,10 +11,9 @@ relationships:
     value: css/functions/
     href: '/w/index.php?title=css/functions/&action=edit&redlink=1'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -23,10 +22,7 @@ uri: css/functions/repeating-radial-gradient
 
 ---
 <p><br/></p>
-<div class="editors-only">
-<p><b>Needs Summary</b>:   This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article. 
-</p>
-</div>
+
 <div data-template="API_Object_Property">
 <p><br/></p><p><br/></p><p>Property of <a href="/w/index.php?title=css/functions/&amp;action=edit&amp;redlink=1" class="new">css/functions/</a><a href="/w/index.php?title=css/functions/&amp;action=edit&amp;redlink=1" class="new">css/functions/</a>
 </p>

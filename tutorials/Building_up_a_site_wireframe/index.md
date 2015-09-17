@@ -1,11 +1,7 @@
 ---
 title: 'Building up a site wireframe'
 tags:
-  - Pages
-  - with
-  - broken
-  - file
-  - links
+  - Pages_with_broken_file_links
   - Tutorials
   - WSC
 uri: 'tutorials/Building up a site wireframe'

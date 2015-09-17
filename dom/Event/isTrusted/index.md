@@ -16,10 +16,9 @@ relationships:
     href: /dom/Event
 summary: 'Gets a value that indicates whether a trusted event source created an event.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/Event/isTrusted
 
 ---
@@ -42,8 +41,6 @@ var isTrusted = event.isTrusted;
 Returns an object of type BooleanBoolean
 
 Whether the event was created by a trusted source.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

@@ -11,10 +11,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'With CSS custom filters you can create your own sophisticated effects on DOM elements. They work with CSS animations and transitions to create complex animated visual effects.'
 tags:
-  0: CSS
-  1: Functions
-  3: Graphics
-  4: SVG
+  - CSS_Functions
+  - CSS
+  - Graphics
+  - SVG
 uri: css/functions/custom
 
 ---

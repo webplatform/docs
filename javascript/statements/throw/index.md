@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Generates an error condition that can be handled by a try...catch...finally statement.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/statements/throw
 
 ---

@@ -10,8 +10,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Defines a two dimensional transformation in matrix format.'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/matrix()
 
 ---

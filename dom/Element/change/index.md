@@ -12,11 +12,11 @@ tags:
   - Audio
   - DOM
   - Video
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/Element/change
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Overview Table
 
 <table class="wikitable">
@@ -71,8 +71,6 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

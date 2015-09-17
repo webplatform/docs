@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Sets or gets a node''s character data.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/CharacterData/data
 

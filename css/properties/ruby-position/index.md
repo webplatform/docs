@@ -18,13 +18,13 @@ overview_table:
   Percentages: N/A
 readiness: 'In Progress'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Summary
+  - Needs_Examples
 uri: css/properties/ruby-position
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Overview table
 
 [Initial value](/css/concepts/initial_value)
@@ -75,8 +75,6 @@ left
 
 inter-character
 :   This value provided special character especially for traditional Chinese used in Taiwan (bopomofo). The text appears vertically on the right side of the text
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

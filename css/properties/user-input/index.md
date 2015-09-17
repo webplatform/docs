@@ -16,8 +16,9 @@ overview_table:
 readiness: 'In Progress'
 summary: 'For inputing user content'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/user-input
 
 ---
@@ -54,8 +55,6 @@ Animatable
 
 text
 :   Any alpha numeric data can be entered, usually in text boxes, or address fields.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

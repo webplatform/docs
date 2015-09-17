@@ -6,17 +6,16 @@ compatibility:
   feature: 'type (textarea element)'
   topic: html
 notes:
-  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: [[html/attributes/type]] \n\n"
+  - 'Merge Candidate:  This page is a candidate for merge with the following pages: [[html/attributes/type]]'
 readiness: 'Not Ready'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Summary
+  - Needs_Examples
 uri: 'html/attributes/type (textarea element)'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 <table class="wikitable">
 <tr>
 <th>
@@ -29,7 +28,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

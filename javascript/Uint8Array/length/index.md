@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'The length of the array.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Uint8Array/length
 
 ---

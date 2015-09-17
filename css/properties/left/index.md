@@ -20,8 +20,8 @@ overview_table:
 readiness: 'In Progress'
 summary: 'Sets the left edge of an element'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -128,7 +128,7 @@ We demonstrate the \`left\` property by positioning the elements.
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6181854)
+[View live example](http://gist.github.com/6181854)
 
 The HTML for the above example.
 

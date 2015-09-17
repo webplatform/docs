@@ -5,12 +5,10 @@ attributions:
 readiness: 'Ready to Use'
 summary: 'One of the features of today''s complex device landscape is that there''s a very wide range of screen pixel densities available. Some devices feature very high resolution displays, while others straggle behind. Application developers need to support a range of pixel densities, which can be quite challenging.  The goal of web app developers is to serve the best quality images as efficiently as possible. This article will cover some useful techniques for doing this today and in the near future.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Design
   - Mobile
-  - Vendor
-  - Prefix
+  - Vendor_Prefix
 uri: 'concepts/mobile web/highdpi'
 
 ---

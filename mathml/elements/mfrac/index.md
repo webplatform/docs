@@ -11,8 +11,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The MathML mfrac element is used to display fractions.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - MathML
 uri: mathml/elements/mfrac
 

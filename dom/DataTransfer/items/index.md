@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Returns a DataTransferItemList object containing the drag data.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/DataTransfer/items
 

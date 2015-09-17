@@ -17,10 +17,10 @@ relationships:
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'Null if the transaction is not finished, is finished and successfully committed, or was aborted with the abort() function. Returns the same DOMError as the request object which caused the transaction to be aborted due to a failed request, or a DOMError for the transaction failure not due to a failed request (such as QuotaExceededError or UnknownError).'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBTransaction/error
 
 ---
@@ -41,6 +41,4 @@ var result = element.error;
 ## Return Value
 
 Returns an object of type DOMErrorDOMError
-
-**Needs Examples**: This section should include examples.
 

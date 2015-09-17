@@ -17,9 +17,10 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The rest-before property determines how long a speech media agent should pause after presenting an   intro cue sound for an element, before presenting that element''s main content.  It may be replaced by the shorthand property rest, which sets rest time before and after.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
   - Accessibility
+  - CSS
+  - Needs_Examples
 uri: css/properties/rest-before
 
 ---
@@ -53,8 +54,6 @@ Animatable
 ## Syntax
 
 ## Values
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

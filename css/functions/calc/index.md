@@ -11,8 +11,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The calc() function can be used anywhere in a length is required by a CSS properties. calc() allows mathematical expressions with addition (‘+’), subtraction (‘-’), multiplication (‘*’), and division (‘/’) to be used as component values. The values themselves can be a mixture of percentages, integers, numbers, lengths such as em or cm, angles or even time values ( seconds, milliseconds). Calc is useful for computing certain values that are not known at the development time or to set formulated values rather that arbitrary ones.'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/calc
 
 ---
@@ -45,7 +45,7 @@ This is an example of how can you use **calc** in CSS
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/d3322a08edaaaef9adaf)
+[View live example](http://gist.github.com/d3322a08edaaaef9adaf)
 
 ## Notes
 

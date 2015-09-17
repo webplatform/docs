@@ -6,8 +6,7 @@ notes:
 readiness: 'Not Ready'
 summary: " \nWhere shall I begin, please your Majesty?\nBegin at the beginning, the King said gravely, and go on till you come to the end: then stop.\nAlice’s Adventures in Wonderland; Lewis Caroll\n\n  \nHer şey bir yerden başlamalı. Öyleyse biz de bu tarihe odaklanmış dersle başlayalım. Aşağıda Internet'in, Dünyayı Saran Ağ'ın oluşturulması ve tüm bu seri boyunca üzerinde durulacak web standartları ile ilgili kısa bilgiler vereceğiz.\nEğer hiç bir terim size tanıdık gelmediyse endişelenmeyin: eğer web geliştirmeyi öğrenmek sizin için önemli ise bu konular sonraki makalelerde daha derin bir şekilde anlatılacak. Her zaman merak ettiğiniz terimi arama kutusuna yazarak arayabilirsiniz! Eğer Internet'in ya da Dünyayı Saran Ağın tarihine haşır neşirseniz [web standards] bölümündeki konuları atlayabilirsiniz.\n"
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

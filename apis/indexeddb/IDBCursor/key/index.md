@@ -17,10 +17,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The key value for the record currently displayed by the cursor.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBCursor/key
 
 ---
@@ -43,8 +43,6 @@ var result = cursor.key;
 Returns an object of type anyany
 
 The value depends on the source of the value. For more info, see the following Notes section.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

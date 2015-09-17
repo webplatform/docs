@@ -13,8 +13,7 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: '(Obsolete) The hgroup element (&lt;hgroup&gt;) is typically used to group a set of one or more h1-h6 elements — to group, for example, a section title and an accompanying subtitle. The hgroup element (&lt;hgroup&gt;) element is obsolete in HTML5.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/hgroup
 

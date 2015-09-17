@@ -12,9 +12,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'Specifies properties of a page box, such as its dimensions, orientation, and margins. This is used for paged media, such as the printed page.'
 tags:
+  - CSS_At_Rules
   - CSS
-  - At
-  - Rules
 uri: css/atrules/@page
 
 ---

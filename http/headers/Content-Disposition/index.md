@@ -8,8 +8,7 @@ overview_table:
   Features: ''
 summary: 'Used to convey additional information about how to process the response payload.'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 uri: http/headers/Content-Disposition
 
 ---

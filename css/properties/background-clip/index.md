@@ -16,8 +16,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies how an element’s background is clipped.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/background-clip
 
 ---

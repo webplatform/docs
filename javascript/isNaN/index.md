@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Determines whether a supplied number is NaN (not a number).'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/isNaN
 
 ---

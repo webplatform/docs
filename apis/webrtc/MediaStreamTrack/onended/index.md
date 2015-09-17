@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Handles the ended event when fired on the MediaStream object.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/MediaStreamTrack/onended
 
 ---
@@ -30,6 +30,4 @@ Property of [apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)[apis/w
 var result = element.onended;
 element.onended = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

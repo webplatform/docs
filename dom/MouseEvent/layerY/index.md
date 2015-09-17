@@ -19,9 +19,7 @@ relationships:
 standardization_status: Mixed
 summary: "Returns the horizontal coordinate of the event relative to the current layer.\nlayerY is a non-standards property of the MouseEvent object.\n"
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/MouseEvent/layerY
 

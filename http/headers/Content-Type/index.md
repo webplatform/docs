@@ -8,8 +8,8 @@ overview_table:
   Features: ''
 summary: 'Indicates the media type of the associated representation.'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
+  - Needs_Examples
 uri: http/headers/Content-Type
 
 ---
@@ -28,8 +28,6 @@ Features
 ## Syntax
 
     Content-Type = media-type
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

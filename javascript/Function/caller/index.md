@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Gets the function that invoked the current function.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Function/caller
 
 ---

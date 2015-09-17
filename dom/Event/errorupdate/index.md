@@ -9,6 +9,7 @@ summary: 'Executes any error handling associated with the event.'
 tags:
   - Events
   - DOM
+  - Needs_Examples
 uri: dom/Event/errorupdate
 
 ---
@@ -70,8 +71,6 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

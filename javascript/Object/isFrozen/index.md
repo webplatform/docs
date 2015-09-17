@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns true if existing property attributes and values cannot be modified in an object, and new properties cannot be added to the object.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Object/isFrozen
 
 ---

@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Read-only. The length of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Uint16Array/byteLength
 
 ---

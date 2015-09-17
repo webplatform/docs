@@ -10,8 +10,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Sets or retrieves a field of a given data source, as specified by the dataSrc property, to bind to the specified object.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

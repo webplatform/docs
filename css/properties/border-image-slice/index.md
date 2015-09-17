@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Divides the image specified by border-image-source in nine regions: the four corners, the four edges and the middle. It does this by specifying 4 inward offsets.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-image-slice
 
 ---
@@ -87,7 +87,7 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 <div class="pattern four">four</div>
 ```
 
-[View live example](http://code.webplatform.org/gist/6949408)
+[View live example](http://gist.github.com/6949408)
 
 ``` css
 /**
@@ -135,7 +135,7 @@ div {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6949408)
+[View live example](http://gist.github.com/6949408)
 
 ## Usage
 

@@ -18,10 +18,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns whether the input field value has any validity errors.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/ValidityState/valid
 
 ---
@@ -44,8 +43,6 @@ var result = element.validity.valid;
 Returns an object of type BooleanBoolean
 
 Whether a value has no validity errors.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

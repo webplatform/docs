@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The margin property is shorthand to allow you to set all four margins of an element at once. Its equivalent longhand properties are margin-top, margin-right, margin-bottom and margin-left. Negative values are also allowed.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -64,7 +64,7 @@ Animatable
 ## Values
 
 length
-:   Specifies a fixed length, using any standard [CSS length units](http://docs.webplatform.org/wiki/css/units/length) . Negative Values are allowed.
+:   Specifies a fixed length, using any standard [CSS length units](/css/units/length) . Negative Values are allowed.
 
 percentage
 :   A percentage relative to the width of the containing block. Negative values are allowed.
@@ -91,7 +91,7 @@ A simple example showing different combinations of margin values applied to thre
 <div class="three"></div>
 ```
 
-[View live example](http://code.webplatform.org/gist/5727296)
+[View live example](http://gist.github.com/5727296)
 
 The CSS applied to the above HTML.
 
@@ -133,7 +133,7 @@ div {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5727296)
+[View live example](http://gist.github.com/5727296)
 
 The following example demonstrates the different ways of using the `margin` property.
 
@@ -170,7 +170,7 @@ The following example demonstrates the different ways of using the `margin` prop
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5727295)
+[View live example](http://gist.github.com/5727295)
 
 The HTML accompanying the above example.
 

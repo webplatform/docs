@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Reflects the class attribute as an ordered list of the whitespace separated class names and has convenience methods for add, remove, contains and more.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/Element/classList
 
 ---
@@ -43,8 +42,6 @@ var classList = element.classList;
 Returns an object of type
 
 A DOMTokenList representing the class names of the element.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

@@ -2,6 +2,8 @@
 title: 'The HTML <head>'
 attributions:
   - 'This content was originally published on [DevOpera](http://dev.opera.com), Opera''s Developer Network. .'
+code_samples:
+  - 'http://www.iana.org/assignments/language-subtag-registry'
 readiness: 'Ready to Use'
 summary: 'This article covers the &lt;head&gt; section of HTML documents and some of its most common components. Making sure that all of these are correct will result in your document being fast, and easy to find and understand.'
 tags:

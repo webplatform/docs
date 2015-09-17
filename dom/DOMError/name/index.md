@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the name of an error that occurred during a DOM operation.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/DOMError/name
 

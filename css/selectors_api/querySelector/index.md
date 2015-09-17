@@ -14,9 +14,7 @@ relationships:
     href: /dom/Element
 summary: 'Returns the first element that matches the provided selector.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: 'css/selectors api/querySelector'
 

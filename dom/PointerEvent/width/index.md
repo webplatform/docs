@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The width (magnitude on the X axis), in CSS pixels, of the contact geometry of the pointer.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
 uri: dom/PointerEvent/width
 
 ---

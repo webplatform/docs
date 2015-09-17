@@ -4,10 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Specifies the takePhoto() and getFrame() methods, and corresponding camera settings for use with MediaStreams.'
 tags:
-  0: API
-  1: Objects
-  3: Image
-  4: Capture
+  - API_Objects
+  - API
+  - Image_Capture
 uri: 'apis/image capture/ImageCapture'
 
 ---
@@ -16,9 +15,6 @@ uri: 'apis/image capture/ImageCapture'
 Specifies the takePhoto() and getFrame() methods, and corresponding camera settings for use with MediaStreams.
 
 ## Properties
-
-API Name
-:   Summary
 
 [onerror](/apis/image_capture/ImageCapture/onerror)
 :   Register/unregister for Image Capture error events of type ImageCaptureErrorEvent.
@@ -39,9 +35,6 @@ API Name
 :   The MediaStream passed into the constructor.
 
 ## Methods
-
-API Name
-:   Summary
 
 [getFrame](/apis/image_capture/ImageCapture/getFrame)
 :   Gathers data from the VideoStreamTrack into a ImageData object.

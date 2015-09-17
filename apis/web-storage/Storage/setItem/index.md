@@ -11,9 +11,7 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Adds or replaces a value for the given key.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - Webstorage
 uri: apis/web-storage/Storage/setItem
 

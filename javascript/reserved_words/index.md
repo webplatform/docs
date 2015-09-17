@@ -10,8 +10,7 @@ notes:
 readiness: 'Ready to Use'
 summary: 'Reserved words are words that you cannot use as identifiers in JavaScript.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/reserved words'
 
 ---

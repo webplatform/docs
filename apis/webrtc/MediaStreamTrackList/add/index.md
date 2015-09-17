@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Adds a MediaStreamTrack to this track list.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebRTC
+  - API_Object_Methods
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/MediaStreamTrackList/add
 
 ---
@@ -42,8 +42,6 @@ Method of [apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)[
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

@@ -17,8 +17,8 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Candidate Recommendation'
 summary: "Obsolete: unsupported.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/punctuation-trim
 
 ---

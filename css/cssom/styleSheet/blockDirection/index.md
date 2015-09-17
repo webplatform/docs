@@ -15,15 +15,13 @@ relationships:
     value: 'DOM Node'
     href: /css/cssom/styleSheet
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: css/cssom/styleSheet/blockDirection
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
 ## Syntax
@@ -35,8 +33,6 @@ var object = p.blockDirection();
 ## Return Value
 
 Returns an object of type DOM NodeDOM Node
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

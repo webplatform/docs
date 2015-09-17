@@ -4,9 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The Region interface is available for any element that serves as a CSS region, whose flow-from CSS specifies it displays content from a named flow.'
 tags:
-  0: API
-  1: Objects
-  3: CSS-Regions
+  - API_Objects
+  - API
+  - CSS-Regions
 uri: apis/css-regions/Region
 
 ---
@@ -16,16 +16,10 @@ The Region interface is available for any element that serves as a CSS region, w
 
 ## Properties
 
-API Name
-:   Summary
-
 [regionOverset](/apis/css-regions/Region/regionOverset)
 :   A [region's](/css/concepts/region) display state within a [region chain](/css/concepts/region_chain).
 
 ## Methods
-
-API Name
-:   Summary
 
 [getComputedRegionStyle](/apis/css-regions/Region/getComputedRegionStyle)
 :   Returns styles calculated for an element as it appears within a [region](/css/concepts/region), including styles from [**@region**](/css/atrules/@region) rules applied to ranges within the element.

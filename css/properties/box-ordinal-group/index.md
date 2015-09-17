@@ -19,8 +19,9 @@ readiness: 'In Progress'
 standardization_status: Non-Standard
 summary: "Do not use. This property has been replaced by flex-order.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -64,8 +65,6 @@ Animatable
 
 integer
 :   Integer value that identifies the group that a child element belongs to.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

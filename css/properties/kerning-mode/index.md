@@ -14,8 +14,9 @@ overview_table:
 readiness: 'Out of Date'
 summary: 'Obsolete: Unsupported'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/kerning-mode
 
 ---
@@ -49,8 +50,6 @@ Animatable
 ## Syntax
 
 ## Values
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

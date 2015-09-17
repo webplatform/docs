@@ -10,8 +10,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: '&lt;base&gt;は文書の基準となるURLを明示し、文書内の相対URLを解決するために使用します。.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

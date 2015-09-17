@@ -14,9 +14,9 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: "basefont要素はページ全体のテキストのデフォルトとなるcolorやfont-sizeを明記するためのものです。\n"
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -37,8 +37,6 @@ basefont要素はページ全体のテキストのデフォルトとなるcolor�
 :   [HTMLBaseFontElement](/dom/HTMLBaseFontElement)
 
 `body`のはじめに`basefont`要素を追加することでページ全体のフォントを指定することができます。`basefont`要素はInternet Explorerでのみサポートされている要素です。
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

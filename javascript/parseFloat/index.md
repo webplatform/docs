@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Converts a string to a floating-point number.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/parseFloat
 
 ---

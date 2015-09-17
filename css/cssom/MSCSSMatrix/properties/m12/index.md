@@ -11,10 +11,10 @@ relationships:
     value: css/cssom/MSCSSMatrix
     href: '/w/index.php?title=css/cssom/MSCSSMatrix&action=edit&redlink=1'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -22,8 +22,6 @@ todo_broken_links:
 uri: css/cssom/MSCSSMatrix/properties/m12
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [css/cssom/MSCSSMatrix](/w/index.php?title=css/cssom/MSCSSMatrix&action=edit&redlink=1)[css/cssom/MSCSSMatrix](/w/index.php?title=css/cssom/MSCSSMatrix&action=edit&redlink=1)
 
 ## Syntax
@@ -32,8 +30,6 @@ Property of [css/cssom/MSCSSMatrix](/w/index.php?title=css/cssom/MSCSSMatrix&act
 var result = element.m12;
 element.m12 = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

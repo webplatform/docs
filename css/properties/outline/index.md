@@ -23,8 +23,8 @@ overview_table:
 readiness: 'Ready to Use'
 summary: "The CSS outline property is a shorthand property for setting one or more of the individual outline properties outline-style, outline-width and outline-color in a single rule. In most cases the use of this shortcut is preferable and more convenient.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -158,7 +158,7 @@ A simple example showing multiple **div**s, identical in style except that they 
 <div class="five">I &hearts; WebPlatform.org!</div>
 ```
 
-[View live example](http://code.webplatform.org/gist/5546931)
+[View live example](http://gist.github.com/5546931)
 
 ``` css
 .one {
@@ -189,7 +189,7 @@ A simple example showing multiple **div**s, identical in style except that they 
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5546931)
+[View live example](http://gist.github.com/5546931)
 
 Even though the syntax of outline and border is similar they differ in the way they are drawn.
 
@@ -201,7 +201,7 @@ Even though the syntax of outline and border is similar they differ in the way t
 .border { border: 10px solid #f00; }
 ```
 
-[View live example](http://code.webplatform.org/gist/5546728)
+[View live example](http://gist.github.com/5546728)
 
 An example of how outline and border behave when applied to an inline element spanning multiple lines.
 
@@ -211,7 +211,7 @@ An example of how outline and border behave when applied to an inline element sp
 <p>Web Platform Docs is a community-driven site that aims to become <span class="outline border">a comprehensive and authoritative source for web developer documentation.</span></p>
 ```
 
-[View live example](http://code.webplatform.org/gist/5547019)
+[View live example](http://gist.github.com/5547019)
 
 ``` css
 /**
@@ -232,7 +232,7 @@ An example of how outline and border behave when applied to an inline element sp
 /* The third paragraph has both outline and border */
 ```
 
-[View live example](http://code.webplatform.org/gist/5547019)
+[View live example](http://gist.github.com/5547019)
 
 Browsers place an outline around the element that currently has focus.
 
@@ -242,7 +242,7 @@ Browsers place an outline around the element that currently has focus.
 <a class="two" href="http://webplatform.org">I &hearts; WebPlatform.org!</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/5547072)
+[View live example](http://gist.github.com/5547072)
 
 ``` css
 /**
@@ -270,7 +270,7 @@ a:hover {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5547072)
+[View live example](http://gist.github.com/5547072)
 
 ## Notes
 

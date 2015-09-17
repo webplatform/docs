@@ -5,9 +5,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'This media group is used to identify CSS properties applicable to screen readers and related speech synthesizers.'
 tags:
-  - CSS
-  - Media
-  - Groups
+  - CSS_Media_Groups
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

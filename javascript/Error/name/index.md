@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the name of an error.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Error/name
 
 ---

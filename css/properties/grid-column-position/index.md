@@ -18,8 +18,9 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'Specifies the column position to place a grid item  based upon integer location, string value, or column size.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/grid-column-position
 
 ---
@@ -73,8 +74,6 @@ Percentages
 
 auto
 :   Places a Grid item based on an automatic placement algorithm.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

@@ -10,8 +10,8 @@ notes:
 readiness: 'Not Ready'
 summary: 'The :lang(c) pseudo selector applies to documents that specifies the lang attribute to an HTML element. This allows to style based on which language (and/or dialect) a given section is written into.'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

@@ -13,10 +13,10 @@ relationships:
     href: /apis/indexeddb/IDBRequest
 summary: 'Returns the result of the request. If the the request failed and the result is not available, the DOMException InvalidStateError exception is thrown.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBRequest/result
 
 ---
@@ -33,8 +33,6 @@ Property of [apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)[apis/indexed
 ``` js
 var result = element.result;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

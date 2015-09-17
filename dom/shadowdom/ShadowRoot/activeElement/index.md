@@ -15,11 +15,11 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Represents the currently focused element in the shadow tree.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: DOM
-  5: Shadow
+  - API_Object_Properties
+  - API
+  - DOM
+  - Shadow_DOM
+  - Needs_Examples
 uri: dom/shadowdom/ShadowRoot/activeElement
 
 ---
@@ -42,6 +42,4 @@ var result = element.activeElement;
 Returns an object of type ElementElement
 
 On getting, the attribute must return the currently focused element in the shadow tree or null, if there is none.
-
-**Needs Examples**: This section should include examples.
 

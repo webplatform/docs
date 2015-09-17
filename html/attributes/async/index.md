@@ -7,8 +7,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'Provides additional control over when an external script or an HTML import is being fetched and executed while a document loads.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
   - JavaScript
   - Performance

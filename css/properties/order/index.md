@@ -17,9 +17,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The order property controls the order in which flex items appear within their flex container, by assigning them to ordinal groups.'
 tags:
-  0: CSS
-  1: Properties
-  3: Flexbox
+  - CSS_Properties
+  - CSS
+  - Flexbox
 uri: css/properties/order
 
 ---
@@ -82,7 +82,7 @@ Displaying children in custom sequence
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/4741023)
+[View live example](http://gist.github.com/4741023)
 
 The Holy Grail Layout example. Given a source order of article-nav-aside, use order to rearrange these elements as flex items into nav-article-aside
 

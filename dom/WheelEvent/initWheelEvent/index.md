@@ -10,9 +10,7 @@ relationships:
     href: /dom/WheelEvent
 summary: 'Initializes a new WheelEvent that the createEvent method created.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/WheelEvent/initWheelEvent
 

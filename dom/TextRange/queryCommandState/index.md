@@ -17,9 +17,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Returns a Boolean value that indicates the current state of the command.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/TextRange/queryCommandState
 

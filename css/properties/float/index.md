@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Elements which have the style float  are floated horizontally.  These elements can move as far to the  left or right  of the containing element.  All elements after the floating element will flow around it, but elements before the floating element are not impacted.  If several floating elements are placed after each other, they will float next to each other as long as there is room.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -90,7 +90,7 @@ In this example, we create a simple layout containing a title, a logo (image) an
 </article>
 ```
 
-[View live example](http://code.webplatform.org/gist/5974883)
+[View live example](http://gist.github.com/5974883)
 
 The CSS for the above layout is described below. Notice the use of the `float`s.
 
@@ -107,7 +107,7 @@ The CSS for the above layout is described below. Notice the use of the `float`s.
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5974883)
+[View live example](http://gist.github.com/5974883)
 
 ## Usage
 

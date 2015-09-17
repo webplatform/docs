@@ -11,9 +11,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Replaces a specified range of characters in the node with a new character string.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/CharacterData/replaceData
 

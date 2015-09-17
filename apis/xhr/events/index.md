@@ -2,12 +2,14 @@
 title: 'events'
 notes:
   - 'Listing page with no children.'
+  - 'Require manual conversion! See https://github.com/webplatform/mediawiki-conversion/issues/24'
 readiness: 'Not Ready'
 tags:
-  - API
-  - Listings
+  - API_Listings
+  - Needs_Summary
 uri: apis/xhr/events
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+<p><br/></p>
 
+<p><br/></p><p><br/></p><p><br/></p><p><br/></p><p><br/></p>

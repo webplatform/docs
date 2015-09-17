@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Represents an XML request using HTTP.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Window/XMLHttpRequest
 

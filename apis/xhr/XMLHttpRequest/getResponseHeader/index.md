@@ -16,10 +16,10 @@ relationships:
     href: /apis/xhr/XMLHttpRequest
 summary: 'Returns the string containing the text of the specified header, or null if the response has not been received or the header does not exist.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: XHR
+  - API_Object_Methods
+  - API
+  - XHR
+  - Needs_Examples
 uri: apis/xhr/XMLHttpRequest/getResponseHeader
 
 ---
@@ -49,6 +49,3 @@ var  = object.getResponseHeader(header);
 Returns an object of type
 
 ByteString
-
-**Needs Examples**: This section should include examples.
-

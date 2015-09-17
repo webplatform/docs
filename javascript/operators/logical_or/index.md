@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Performs a logical disjunction on two expressions.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/operators/logical or'
 
 ---

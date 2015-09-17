@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Writes data from ImageData structures back to the canvas. If any of the arguments are infinite or NaN, the method must throw a NotSupportedError exception. When the last four arguments are omitted, they are assumed to have the values 0, 0, the width member of the imagedata structure, and the height member of the imagedata structure, respectively.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Canvas
+  - API_Object_Methods
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/putImageData
 
 ---

@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Handles the icechange event for a change to the apis/webrtc/RTCPeerConnection/iceState property. It is called any time there is a new ICE candidate added to a previous offer or answer.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/onicecandidate
 
 ---
@@ -30,6 +30,4 @@ Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis
 var result = element.onicecandidate;
 element.onicecandidate = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

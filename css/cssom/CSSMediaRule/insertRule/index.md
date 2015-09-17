@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Inserts a new rule to a media block.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: css/cssom/CSSMediaRule/insertRule
 
 ---
@@ -57,8 +56,6 @@ var ruleIndex = mediaRule.insertRule(/* see parameter list */);
 Returns an object of type NumberNumber
 
 The index of the newly inserted rule within the media block's rule collection.
-
-**Needs Examples**: This section should include examples.
 
 ### Standards information
 

@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The marquee-speed determines how fast the marquee content scrolls.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/marquee-speed
 
 ---
@@ -86,7 +86,7 @@ h1 {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6948165)
+[View live example](http://gist.github.com/6948165)
 
 ## Notes
 

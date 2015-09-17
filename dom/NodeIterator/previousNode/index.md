@@ -18,9 +18,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'The NodeIterator.previousNode() method returns the previous node in the set represented by the NodeIterator and moves the position of the iterator backwards within the set.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/NodeIterator/previousNode
 

@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets or sets whether a check box or a radio button are checked.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/HTMLInputElement/checked
 
 ---
@@ -40,8 +39,6 @@ inputElement.checked = value;
 Returns an object of type BooleanBoolean
 
 Whether the check box or radio button is checked.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

@@ -19,9 +19,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Specifies or retrives a string containg the name of the changed property.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - JavaScript
 uri: dom/TransitionEvent/propertyName

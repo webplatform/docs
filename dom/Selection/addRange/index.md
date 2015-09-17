@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Adds a Range to the current selection.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Selection/addRange
 

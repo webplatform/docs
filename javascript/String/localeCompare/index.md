@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Determines whether two strings are equivalent in the current locale.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/localeCompare
 
 ---

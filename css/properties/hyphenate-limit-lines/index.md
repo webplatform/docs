@@ -20,8 +20,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Indicates the maximum number of successive hyphenated lines in an element. The ‘no-limit’ value means that there is no limit.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/hyphenate-limit-lines
 
 ---

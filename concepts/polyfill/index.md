@@ -1,10 +1,11 @@
 ---
 title: 'Polyfills for Replicating Web APIs'
+code_samples:
+  - 'https://gist.github.com/350433'
 readiness: 'In Progress'
 summary: 'Polyfills replicate browser-native APIs, so that code dependent on provided endpoints can be run in browsers that don''t have them.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Compatibility
   - JavaScript
 uri: concepts/polyfill

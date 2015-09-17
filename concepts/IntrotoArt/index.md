@@ -5,10 +5,10 @@ notes:
 readiness: 'Not Ready'
 summary: 'This article will introduce you to graphic design in broad strokes and more in depth discussion on designing for web, as well as some graphic design tools and concept to consider.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - UI
   - Usability
+  - Needs_Examples
 uri: concepts/IntrotoArt
 
 ---
@@ -47,8 +47,6 @@ In General, Graphic Design can be broken down into these elements:
  Your job as a graphic designer is to manipulate & add/remove these elements to deliver a message, an experience, and functionality.
 
 NOTE: This is meant to be step toward explaining design and art. Not UI, not App Design, not Web Design...all that comes later. Step by step is the best approach. Otherwise learner will be always half baked. Keep all that separate. Gradual progress is better.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

@@ -10,9 +10,8 @@ relationships:
     href: /apis/media_source_extensions/MediaSource
 summary: 'Used to indicate that the end of the stream has been reached.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
+  - Needs_Examples
 uri: 'apis/media source extensions/MediaSource/endOfStream'
 
 ---
@@ -51,8 +50,6 @@ decode
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

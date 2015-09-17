@@ -4,8 +4,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The &lt;integer&gt; CSS data type represents a number without a decimal component.  It is used to specify ordered or layered values, either positive or negative.'
 tags:
-  - Data
-  - Type
+  - Data_Type
   - CSS
 uri: 'css/data types/integer'
 

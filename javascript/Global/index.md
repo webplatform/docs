@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'An intrinsic object whose purpose is to collect global functions and constants into one object.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Global
 
 ---

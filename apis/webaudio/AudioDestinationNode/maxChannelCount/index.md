@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The maximum number of channels that the physical hardware is capable of supporting. The AudioNode channelCount property can be set between 0 and this value, inclusive. A value of 0 indicates that the channel count may not be changed. Default is 2.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
 uri: apis/webaudio/AudioDestinationNode/maxChannelCount
 
 ---

@@ -3,20 +3,14 @@ title: 'canvas'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
-  - "\nMove Candidate:   Probably should be under HTML5 canvas element. See HTML5 specification.\n\n"
+  - 'Move Candidate:   Probably should be under HTML5 canvas element. See HTML5 specification.'
 readiness: 'Not Ready'
 summary: "The surface on which to apply graphics and images. The canvas object must contain an graphic created with CanvasRenderingContext2D APIs \nin order to render. When the actual drawing is done using the CanvasRenderingContext2D object, the properties and methods are used to create and manipulate graphics on a canvas object.\n"
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - API
-  - Objects
+  - Pages_using_duplicate_arguments_in_template_calls
+  - API_Objects
   - DOM
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -39,8 +33,6 @@ The surface on which to apply graphics and images. The canvas object must contai
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ### Standards information
 

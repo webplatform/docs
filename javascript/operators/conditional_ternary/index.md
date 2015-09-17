@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns one of two expressions depending on a condition. Also referred to as &quot;if...else shorthand&quot;.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/operators/conditional ternary'
 
 ---

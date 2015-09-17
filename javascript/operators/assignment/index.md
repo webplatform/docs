@@ -10,8 +10,7 @@ notes:
 readiness: 'Almost Ready'
 summary: 'The assignment operator takes the value of the right operand and assigns it to the left operand.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/operators/assignment
 
 ---

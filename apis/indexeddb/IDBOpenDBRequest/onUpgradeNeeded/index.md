@@ -10,10 +10,10 @@ relationships:
     href: /apis/indexeddb/IDBOpenDBRequest
 summary: 'The event handler for the upgrade needed event.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBOpenDBRequest/onUpgradeNeeded
 
 ---
@@ -29,6 +29,4 @@ Property of [apis/indexeddb/IDBOpenDBRequest](/apis/indexeddb/IDBOpenDBRequest)[
 var result = element.onUpgradeNeeded;
 element.onUpgradeNeeded = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

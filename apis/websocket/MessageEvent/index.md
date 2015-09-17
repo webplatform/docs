@@ -7,8 +7,7 @@ notes:
 readiness: 'In Progress'
 summary: 'A MessageEvent is sent to clients using WebSockets when data is received from the server. This is delivered to the listener indicated by the WebSocket object''s onmessage attribute.'
 tags:
-  - API
-  - Objects
+  - API_Objects
 uri: apis/websocket/MessageEvent
 
 ---
@@ -17,9 +16,6 @@ uri: apis/websocket/MessageEvent
 A MessageEvent is sent to clients using WebSockets when data is received from the server. This is delivered to the listener indicated by the WebSocket object's onmessage attribute.
 
 ## Properties
-
-API Name
-:   Summary
 
 [html/elements/data](/apis/websocket/MessageEvent/data)
 :   The data from the server.

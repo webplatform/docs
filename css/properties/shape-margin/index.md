@@ -17,8 +17,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Adds a margin to a shape-outside. In effect, defines a new shape that is the smallest contour around all the points that are the shape-margin distance outward perpendicular to each point on the underlying shape. For points where a perpendicular direction is not defined (e.g., a triangle corner), takes all points on a circle centered at the point and with a radius of the shape-margin distance. This property accepts only non-negative values.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/shape-margin
 
 ---
@@ -78,7 +78,7 @@ Curabitur et fermentum neque. Praesent hendrerit aliquam nunc sed aliquet. Phase
 </div>
 ```
 
-[View live example](http://code.webplatform.org/gist/6495f066863775c4aa27)
+[View live example](http://gist.github.com/6495f066863775c4aa27)
 
 In the CSS class, we float the image left, set its shape to be the same image, and then we set a margin of 30px.
 

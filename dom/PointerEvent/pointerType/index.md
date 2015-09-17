@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Indicates the device type that caused the event (mouse, pen, touch, etc.).'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
 uri: dom/PointerEvent/pointerType
 
 ---

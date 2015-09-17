@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Read the next block of entries from this directory.\n"
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileSystemAPI
+  - API_Object_Methods
+  - API
+  - FileSystemAPI
+  - Needs_Examples
 uri: apis/filesystem/DirectoryReaderSync/readEntries
 
 ---
@@ -41,8 +41,6 @@ var  = DirectoryReaderSync.readEntries();
 Returns an object of type
 
 EntrySync[]
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

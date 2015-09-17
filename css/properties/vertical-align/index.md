@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The vertical-align property controls how inline elements or text are vertically aligned compared to the baseline. If this property is used on table-cells it controls the vertical alignment of content of the table cell.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/vertical-align
 
 ---
@@ -114,7 +114,7 @@ This example uses the `vertical-align` property to align text within a table cel
 </table>
 ```
 
-[View live example](http://code.webplatform.org/gist/6960125)
+[View live example](http://gist.github.com/6960125)
 
 ## Related specifications
 

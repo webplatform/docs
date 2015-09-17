@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets whether the checked HTML attribute is present on the element.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/HTMLInputElement/defaultChecked
 
 ---
@@ -43,8 +42,6 @@ var initiallyChecked = checkboxElement.defaultChecked;
 Returns an object of type BooleanBoolean
 
 Whether the **checked** HTML attribute is present on the element.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

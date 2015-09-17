@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'This is a time in seconds which starts at zero when the context is created and increases in real-time. All scheduled times are relative to it. This is not a transport time which can be started, paused, and re-positioned. It is always moving forward. A GarageBand-like timeline transport system can be very easily built on top of this (in JavaScript). This time corresponds to an ever-increasing hardware timestamp.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
 uri: apis/webaudio/AudioContext/currentTime
 
 ---

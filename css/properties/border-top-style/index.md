@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Sets the style of an element''s top border. To set all four borders, use the shorthand property,  border-style. Otherwise, you can set the borders individually with border-top-style, border-right-style, border-bottom-style, border-left-style.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-top-style
 
 ---
@@ -146,7 +146,7 @@ Border styles in CSS.
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5549004)
+[View live example](http://gist.github.com/5549004)
 
 ## Notes
 

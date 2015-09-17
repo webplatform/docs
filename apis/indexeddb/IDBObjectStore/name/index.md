@@ -12,10 +12,10 @@ relationships:
     href: /apis/indexeddb/IDBObjectStore
 summary: 'Provides the name of this object store.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBObjectStore/name
 
 ---
@@ -31,8 +31,6 @@ Property of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis
 var result = element.name;
 element.name = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

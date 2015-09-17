@@ -17,10 +17,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Indicates the direction of travel within a cursor.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBCursor/direction
 
 ---
@@ -52,8 +52,6 @@ prev
 :   The cursor is travelling in descending order and all matching records, including duplicate values.
 prevunique
 :   The cursor is travelling in descending order and contains just one instance of matching key values.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

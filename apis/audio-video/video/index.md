@@ -13,9 +13,10 @@ relationships:
     href: /dom/HTMLMediaElement
 summary: 'HTML Video element allows creator of a HTML document or view of a Web Application to embed a video for display when a user visits the view or opens HTML document in a web browser.'
 tags:
-  0: API
-  1: Objects
-  3: Video
+  - API_Objects
+  - API
+  - Video
+  - Needs_Examples
 uri: apis/audio-video/video
 
 ---
@@ -36,9 +37,7 @@ HTML Video element allows creator of a HTML document or view of a Web Applicatio
 <h2>Inherited from HTMLMediaElement</h2>
 <h3>Properties</h3>
 
-<dl><dt>API Name</dt>
-  <dd>Summary</dd>
-</dl><dl><dt><a href="/dom/HTMLMediaElement/audioTracks">audioTracks</a></dt>
+<dl><dt><a href="/dom/HTMLMediaElement/audioTracks">audioTracks</a></dt>
   <dd/>
 </dl><dl><dt><a href="/dom/HTMLMediaElement/autobuffer">autobuffer</a></dt>
   <dd/>
@@ -86,9 +85,7 @@ HTML Video element allows creator of a HTML document or view of a Web Applicatio
   <dd/>
 </dl><h3>Methods</h3>
 
-<dl><dt>API Name</dt>
-  <dd>Summary</dd>
-</dl><dl><dt><a href="/dom/HTMLMediaElement/canPlayType">canPlayType</a></dt>
+<dl><dt><a href="/dom/HTMLMediaElement/canPlayType">canPlayType</a></dt>
   <dd/>
 </dl><dl><dt><a href="/dom/HTMLMediaElement/load">load</a></dt>
   <dd/>
@@ -98,19 +95,13 @@ HTML Video element allows creator of a HTML document or view of a Web Applicatio
   <dd>Loads and starts playback of a media resource.</dd>
 </dl><h3>Events</h3>
 
-<dl><dt>API Name</dt>
-  <dd>Summary</dd>
-</dl><dl><dt><a href="/dom/HTMLMediaElement/canplay">canplay</a></dt>
+<dl><dt><a href="/dom/HTMLMediaElement/canplay">canplay</a></dt>
   <dd>Fires whenever enough data is available to determine whether a media is playable.</dd>
 </dl><dl><dt><a href="/dom/HTMLMediaElement/canplaythrough">canplaythrough</a></dt>
   <dd>Fires when enough data is available to determine whether a media is playable at a normal rate without interruptions.</dd>
 </dl><dl><dt><a href="/dom/HTMLMediaElement/progress">progress</a></dt>
   <dd>Fires to indicate progress while downloading media data.</dd>
-</dl><div class="editors-only">
-<p><b>Needs Examples</b>:  This section should include examples. 
-</p>
-</div>
-<h2>Notes</h2>
+</dl><h2>Notes</h2>
 <h3>Remarks</h3>
 <p>Beginning with Internet Explorer 9, any audio or video content needs  the correct mime type set on the server, or the files won't play. Internet Explorer 9 supports MP3 audio, and  MP4 audio and video. WebM audio and video files can be supported by installing the WebM components from <a rel="nofollow" class="external text" href="http://go.microsoft.com/fwlink/p/?LinkID=218894">The WebM project</a>. The following table shows the required settings for your web server to host these files correctly.
 </p>

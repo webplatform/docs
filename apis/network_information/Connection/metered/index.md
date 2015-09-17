@@ -15,12 +15,11 @@ relationships:
 standardization_status: Non-Standard
 summary: 'A connection is metered when the user''s connection is subject to a limitation from his Internet Service Provider strong enough to request web applications to be careful with the bandwidth usage.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Mobile
-  5: Network
-  6: Information
+  - API_Object_Properties
+  - API
+  - Mobile
+  - Network_Information
+  - Needs_Examples
 uri: 'apis/network information/Connection/metered'
 
 ---
@@ -41,8 +40,6 @@ var result = connection.metered;
 ## Return Value
 
 Returns an object of type BooleanBoolean
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

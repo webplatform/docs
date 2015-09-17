@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the string against which a regular expression search was performed. Read-only.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/RegExp/input
 
 ---

@@ -6,9 +6,9 @@ readiness: 'Out of Date'
 standardization_status: 'W3C Working Draft'
 summary: "An abstract interface representing entries in a file system, each of which may be a File or DirectoryEntry.\n"
 tags:
-  0: API
-  1: Objects
-  3: FileSystemAPI
+  - API_Objects
+  - API
+  - FileSystemAPI
 uri: apis/filesystem/Entry
 
 ---
@@ -19,9 +19,6 @@ An abstract interface representing entries in a file system, each of which may b
 **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
 
 ## Properties
-
-API Name
-:   Summary
 
 [filesystem](/apis/filesystem/Entry/filesystem)
 :   The file system on which the Entry resides.
@@ -49,9 +46,6 @@ API Name
     **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
 
 ## Methods
-
-API Name
-:   Summary
 
 [copyTo](/apis/filesystem/Entry/copyTo)
 :   Copy an Entry to a different location on the file system.

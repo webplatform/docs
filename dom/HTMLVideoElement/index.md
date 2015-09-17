@@ -12,8 +12,7 @@ relationships:
     href: /dom/HTMLMediaElement
 summary: 'The HTML &lt;video&gt; element is used to embed video content in an HTML or XHTML document.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - HTML
   - Video
 uri: dom/HTMLVideoElement
@@ -26,9 +25,6 @@ The HTML &lt;video&gt; element is used to embed video content in an HTML or XHTM
 Inherits from [HTMLMediaElement](/dom/HTMLMediaElement)[HTMLMediaElement](/dom/HTMLMediaElement)
 
 ## Properties
-
-API Name
-:   Summary
 
 [initialTime](/dom/HTMLVideoElement/initialTime)
 :   Earliest point in seconds where the playback can (should) start playing
@@ -53,9 +49,6 @@ API Name
 ## Inherited from HTMLMediaElement
 
 ### Properties
-
-API Name
-:   Summary
 
 [audioTracks](/dom/HTMLMediaElement/audioTracks)
 :
@@ -128,9 +121,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [canPlayType](/dom/HTMLMediaElement/canPlayType)
 :
 
@@ -144,9 +134,6 @@ API Name
 :   Loads and starts playback of a media resource.
 
 ### Events
-
-API Name
-:   Summary
 
 [canplay](/dom/HTMLMediaElement/canplay)
 :   Fires whenever enough data is available to determine whether a media is playable.
@@ -168,7 +155,7 @@ A simple example of showing a video
 </video>
 ```
 
-[View live example](http://code.webplatform.org/gist/7281780)
+[View live example](http://gist.github.com/7281780)
 
 ## Usage
 

@@ -11,15 +11,14 @@ relationships:
     value: apis/indexeddb/IDBCursorWithValue
     href: /apis/indexeddb/IDBCursorWithValue
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Summary
+  - Needs_Examples
 uri: apis/indexeddb/IDBCursorWithValue/value
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [apis/indexeddb/IDBCursorWithValue](/apis/indexeddb/IDBCursorWithValue)[apis/indexeddb/IDBCursorWithValue](/apis/indexeddb/IDBCursorWithValue)
 
 ## Syntax
@@ -29,8 +28,6 @@ Property of [apis/indexeddb/IDBCursorWithValue](/apis/indexeddb/IDBCursorWithVal
 ``` js
 var result = element.value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

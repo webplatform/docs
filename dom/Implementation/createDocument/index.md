@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Creates a Document that is not attached to a window.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/Implementation/createDocument
 
 ---
@@ -64,8 +63,6 @@ var newDocument = implementation.createDocument(namespace, rootElementName, doct
 Returns an object of type DOM NodeDOM Node
 
 The resulting document.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

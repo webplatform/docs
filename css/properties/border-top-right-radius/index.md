@@ -23,8 +23,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Sets the rounding of the top-right corner of the element.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-top-right-radius
 
 ---
@@ -77,7 +77,7 @@ percentage
 
 ```
 
-[View live example](http://code.webplatform.org/gist/6950234)
+[View live example](http://gist.github.com/6950234)
 
 ## Notes
 

@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'A number that is larger than the largest floating point number.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Infinity
 
 ---

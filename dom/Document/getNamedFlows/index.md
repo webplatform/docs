@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gathers NamedFlow objects, each representing a set of content that flows through various layout regions.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Document/getNamedFlows
 

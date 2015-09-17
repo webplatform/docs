@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'Lays out one or more grid items bound by 4 grid lines. Shorthand for setting grid-column-start, grid-column-end, grid-row-start, and grid-row-end in a single declaration.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/grid-area
 
 ---

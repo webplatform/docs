@@ -145,7 +145,7 @@ In the future, Web Platform Docs will include even more content for you to explo
 
 We’d love to have your help in improving Web Platform Docs. Even the slightest effort can have significant impact on the site; from alerting fellow developers about errors in our documentation, to fixing these errors, porting existing articles or even contributing completely new content. To learn more, please read our [Contributor’s Guide](/WPD:Contributors_Guide).
 
--   To file bugs on WebPlatform, use the [Project Management page](https://project.webplatform.org). Read our [filing bugs page](https://docs.webplatform.org/wiki/WPD:Filing_Bugs) for more information.
+-   To file bugs on WebPlatform, use the [Project Management page](https://project.webplatform.org). Read our [filing bugs page](/WPD:Filing_Bugs) for more information.
 -   If you have a question about *webplatform.org*, please [look for an answer in the FAQ first](/WPD:FAQ).
 
 ## Stay in touch

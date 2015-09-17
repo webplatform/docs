@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The previous sibling of this animation node.'
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationNode/previousSibling'
 
 ---
@@ -40,6 +38,4 @@ var result = element.previousSibling;
 Returns an object of type ObjectObject
 
 Returns an AnimationNode object
-
-**Needs Examples**: This section should include examples.
 

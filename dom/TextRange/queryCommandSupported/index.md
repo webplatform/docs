@@ -17,9 +17,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Returns a Boolean value that indicates whether the current command is supported on the current range.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/TextRange/queryCommandSupported
 

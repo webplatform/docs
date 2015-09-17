@@ -3,13 +3,15 @@ title: 'CanvasPixelArray'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/DOM/CanvasPixelArray)'
   - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+code_samples:
+  - 'http://www.khronos.org/registry/typedarray/specs/latest/#5'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies each pixel within a canvas''s rectangular selection, via the ImageData object''s data property. The array uses four elements to represent each pixel''s red, green, blue, and alpha channels. See Notes.'
 tags:
-  0: API
-  1: Objects
-  3: Canvas
+  - API_Objects
+  - API
+  - Canvas
 uri: apis/canvas/CanvasPixelArray
 
 ---

@@ -16,9 +16,9 @@ overview_table:
 readiness: 'Ready to Use'
 summary: 'The pointer-events property  allows you to control whether an element can be the target for the pointing device (e.g, mouse, pen) events.'
 tags:
-  0: CSS
-  1: Properties
-  3: SVG
+  - CSS_Properties
+  - CSS
+  - SVG
 uri: css/properties/pointer-events
 
 ---

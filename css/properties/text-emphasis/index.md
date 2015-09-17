@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The text-emphasis property will apply special emphasis marks to the elements text. Slightly similar to the text-decoration property only that this property can have affect on the line-height. It also is noted that this is shorthand for text-emphasis-style and for text-emphasis-color.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-emphasis
 
 ---
@@ -103,7 +103,7 @@ p {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6133067)
+[View live example](http://gist.github.com/6133067)
 
 ``` css
 p {

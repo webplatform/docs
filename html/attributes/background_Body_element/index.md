@@ -10,9 +10,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'Specifies a background image for a document. This attribute is deprecated in HTML4 and not supported in HTML5. Use CSS.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: 'html/attributes/background (Body element)'
 
 ---
@@ -32,8 +32,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

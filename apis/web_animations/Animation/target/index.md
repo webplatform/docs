@@ -11,16 +11,13 @@ relationships:
     value: ''
     href: /apis/web_animations/Animation
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Summary
+  - Needs_Examples
 uri: 'apis/web animations/Animation/target'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [apis/web\_animations/Animation](/apis/web_animations/Animation)[apis/web\_animations/Animation](/apis/web_animations/Animation)
 
 ## Syntax
@@ -35,6 +32,4 @@ myAnimation.target = value;
 Returns an object of type
 
 returns an apis/web\_animations/Animatable object.
-
-**Needs Examples**: This section should include examples.
 

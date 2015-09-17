@@ -11,8 +11,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The MathML mglyph element is used to display non-standard symbols where existing Unicode characters are not available. It may be used within token elements.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - MathML
 uri: mathml/elements/mglyph
 

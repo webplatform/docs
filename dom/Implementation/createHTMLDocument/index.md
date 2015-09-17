@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Creates an HTML document.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/Implementation/createHTMLDocument
 
 ---
@@ -50,8 +49,6 @@ var htmlDocument = document.createHTMLDocument(title);
 Returns an object of type DOM NodeDOM Node
 
 The created HTML document.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

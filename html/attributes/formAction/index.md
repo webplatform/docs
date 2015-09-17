@@ -11,8 +11,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The formaction attribute specifies the URL of a file that will process the input control when the form is submitted.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/formAction
 

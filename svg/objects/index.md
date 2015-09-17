@@ -5,8 +5,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'List of all pages in svg/objects/'
 tags:
-  - API
-  - Listings
+  - API_Listings
 uri: svg/objects
 
 ---

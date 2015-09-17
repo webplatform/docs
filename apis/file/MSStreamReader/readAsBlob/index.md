@@ -13,10 +13,10 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Performs an asynchronous read of an MSStream object in order to create a Blob object.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileAPI
+  - API_Object_Methods
+  - API
+  - FileAPI
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -57,8 +57,6 @@ String that specifies the maximum size of the object to read.
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

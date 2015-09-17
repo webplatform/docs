@@ -14,15 +14,8 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: "big要素はbigタグで囲んだテキストが周囲のテキストより大きく表示されるべきであることを示します。\nHTML5ではもうほとんど使われていませんので、代わりにCSSを使ってください。\n"
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Elements
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Elements
   - HTML
 uri: html/elements/big/ja
 

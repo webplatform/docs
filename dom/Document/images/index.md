@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'Legacy method. Use document.querySelectorAll(&quot;img&quot;) instead. Gets a live collection of img elements in a document.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Document/images
 

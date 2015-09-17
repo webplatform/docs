@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Creates an AudioBuffer of the given size. The audio data in the buffer will be zero-initialized (silent). An exception will be thrown if the numberOfChannels or sampleRate are out-of-bounds.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebAudio
+  - API_Object_Methods
+  - API
+  - WebAudio
 uri: apis/webaudio/AudioContext/createBuffer
 
 ---

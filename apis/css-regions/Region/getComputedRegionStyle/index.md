@@ -13,11 +13,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns styles calculated for an element as it appears within a region, including styles from @region rules applied to ranges within the element.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: CSS
-  5: CSS-Regions
+  - API_Object_Methods
+  - API
+  - CSS
+  - CSS-Regions
 uri: apis/css-regions/Region/getComputedRegionStyle
 
 ---

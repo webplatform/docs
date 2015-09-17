@@ -12,10 +12,9 @@ relationships:
     href: /css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 summary: 'Non standard. Sets a property as enabled or disabled.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: css/cssom/methods/msPutPropertyEnabled
 
 ---
@@ -50,8 +49,6 @@ Method of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyl
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

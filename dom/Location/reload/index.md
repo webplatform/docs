@@ -12,10 +12,9 @@ relationships:
     href: /dom/Location
 summary: 'Reloads the current document.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/Location/reload
 
 ---
@@ -43,6 +42,3 @@ Method of [dom/Location](/dom/Location)[dom/Location](/dom/Location)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
-

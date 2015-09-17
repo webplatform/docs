@@ -13,11 +13,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'A region''s display state within a region chain.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: CSS
-  5: CSS-Regions
+  - API_Object_Properties
+  - API
+  - CSS
+  - CSS-Regions
 uri: apis/css-regions/Region/regionOverset
 
 ---

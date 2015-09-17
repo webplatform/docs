@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The ‘fill’ property paints the interior of the given graphical element. The area to be painted consists of any areas inside the outline of the shape. To determine the inside of the shape, all subpaths are considered, and the interior is determined according to the rules associated with the current value of the ‘fill-rule’ property. The zero-width geometric outline of a shape is included in the area to be painted.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
+  - Needs_Examples
 uri: css/properties/fill
 
 ---
@@ -61,8 +61,6 @@ Percentages
 
 \<paint\>
 :   Properties ‘fill’ and ‘stroke’ take on a value of type \<paint\>
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

@@ -5,8 +5,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Does designing for the web differ from designing a chair? No, it doesn''t. Both need to make usability, aesthetic and technic work together to serve the product pupose and its users.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
 uri: 'concepts/an introduction to web design'
 
 ---

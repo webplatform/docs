@@ -4,8 +4,7 @@ notes:
   - 'Deletion candidate; dup of justification'
 readiness: 'Not Ready'
 tags:
-  - Glossary
-  - Items
+  - Glossary_Items
 uri: justified
 
 ---

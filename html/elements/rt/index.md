@@ -14,8 +14,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The rt element marks the ruby text component of a ruby annotation.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/rt
 

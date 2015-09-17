@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets the distance that a mouse wheel has rotated around the z-axis.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/WheelEvent/deltaZ
 

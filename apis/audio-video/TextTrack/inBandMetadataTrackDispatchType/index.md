@@ -15,11 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "Returns the text track in-band metadata track dispatch type string.\nThis is a string extracted from the media resource specifically for in-band metadata tracks, to enable such tracks to be dispatched to different scripts in the document.\n"
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Audio
-  5: Video
+  - API_Object_Properties
+  - API
+  - Audio
+  - Video
 uri: apis/audio-video/TextTrack/inBandMetadataTrackDispatchType
 
 ---

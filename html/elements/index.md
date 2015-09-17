@@ -5,8 +5,7 @@ notes:
 standardization_status: 'W3C Working Draft'
 summary: 'Index page for HTML elements.'
 tags:
-  - API
-  - Listings
+  - API_Listings
   - DOM
   - HTML
 todo_broken_links:
@@ -43,9 +42,6 @@ uri: html/elements
 ## Summary
 
 Index page for HTML elements.
-
-API Name
-:   Summary
 
 [!DOCTYPE](/html/elements/!DOCTYPE)
 :   A **Document Type Declaration**, or **DOCTYPE**, is an instruction that associates a particular [SGML](/w/index.php?title=SGML&action=edit&redlink=1) or [XML](/w/index.php?title=XML&action=edit&redlink=1) document (for example, a [webpage](/w/index.php?title=webpage&action=edit&redlink=1)) with a [Document Type Definition](/w/index.php?title=Document_Type_Definition&action=edit&redlink=1) (DTD) (for example, the formal definition of a particular version of [HTML](/w/index.php?title=HTML&action=edit&redlink=1)). In the [serialized](/w/index.php?title=Serialization&action=edit&redlink=1) form of the document, it manifests as a short string of [markup](/w/index.php?title=Markup_language&action=edit&redlink=1) that conforms to a particular syntax. Not including \<!DOCTYPE\> may trigger [Quirks mode](/w/index.php?title=html/Quirks_mode&action=edit&redlink=1).

@@ -12,8 +12,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Represents a user interface event, like click, blur, etc.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/UIEvent
 
@@ -26,9 +25,6 @@ Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
 ## Properties
 
-API Name
-:   Summary
-
 [detail](/dom/UIEvent/detail)
 :   Gets additional, developer defined, information about an event.
 
@@ -39,16 +35,10 @@ API Name
 
 ## Methods
 
-API Name
-:   Summary
-
 [initUIEvent](/dom/UIEvent/initUIEvent)
 :   Initializes a new user interface event that the [createEvent](/dom/Document/createEvent) method created.
 
 ## Events
-
-API Name
-:   Summary
 
 [abort](/dom/UIEvent/abort)
 :   Fires when the user aborts the download.
@@ -59,9 +49,6 @@ API Name
 ## Inherited from Event
 
 ### Properties
-
-API Name
-:   Summary
 
 [bubbles](/dom/Event/bubbles)
 :   Gets a value that indicates whether an event propagates up from the event target.
@@ -92,9 +79,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initEvent](/dom/Event/initEvent)
 :   Initializes a new generic event that the [**createEvent**](/dom/Document/createEvent) method created.
 
@@ -108,9 +92,6 @@ API Name
 :   Prevents propagation of an event beyond the current target.
 
 ### Events
-
-API Name
-:   Summary
 
 [DOMContentLoaded](/dom/Event/DOMContentLoaded)
 :

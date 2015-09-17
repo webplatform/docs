@@ -12,8 +12,7 @@ overview_table:
 readiness: 'Almost Ready'
 summary: 'The strong element indicates text that is of great importance, seriousness, or urgency.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
   - XHTML
 uri: html/elements/strong

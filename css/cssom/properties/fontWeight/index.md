@@ -16,9 +16,7 @@ relationships:
     href: /css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 summary: 'Gets or sets the weight of the font of the object.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

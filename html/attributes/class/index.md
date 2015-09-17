@@ -9,8 +9,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Specifies one or more classes for an element, usually used to point to a class in a style sheet.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/class
 

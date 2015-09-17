@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Restricts the use of some potentially-harmful features of JavaScript (e.g., eval, with) and throws syntax errors for certain sloppy code.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/directives/use strict'
 
 ---

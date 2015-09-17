@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Left shifts the bits of an expression.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/operators/bitwise left shift'
 
 ---

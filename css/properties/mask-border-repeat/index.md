@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'This property specifies how the images for the sides and the middle part of the mask image are scaled and tiled. The first keyword applies to the horizontal sides, the second one applies to the vertical ones. If the second keyword is absent, it is assumed to be the same as the first, similar to the CSS border-image-repeat property.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/mask-border-repeat
 
 ---

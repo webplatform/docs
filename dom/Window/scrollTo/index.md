@@ -11,9 +11,7 @@ relationships:
     href: /dom/Window
 summary: 'Scrolls the window to the specified x- and y-offset.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/scrollTo
 

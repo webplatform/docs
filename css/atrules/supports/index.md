@@ -1,5 +1,7 @@
 ---
 title: '@supports'
+code_samples:
+  - 'http://dabblet.com/gist/3895764'
 compatibility:
   feature: '@supports'
   topic: css
@@ -7,9 +9,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The CSS @supports at-rule lets authors detect support of CSS features directly in CSS.'
 tags:
+  - CSS_At_Rules
   - CSS
-  - At
-  - Rules
 uri: css/atrules/@supports
 
 ---

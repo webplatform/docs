@@ -12,9 +12,7 @@ relationships:
     href: /css/cssom/screen
 summary: 'Retrieves the device''s vertical Dots Per Inch (DPI) value.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: css/cssom/screen/deviceYDPI
 

@@ -11,8 +11,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The MathML mmultiscripts element allows you to create tensor-like objects.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - MathML
 uri: mathml/elements/mmultiscripts
 

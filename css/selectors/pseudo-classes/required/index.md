@@ -9,8 +9,9 @@ notes:
   - 'Needs title, summary, spec reference, standardization status, remove topic cluster flags'
 readiness: 'Not Ready'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
+  - Needs_Summary
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -18,8 +19,6 @@ todo_broken_links:
 uri: 'css/selectors/pseudo-classes/:required'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Examples
 
 The following example puts a green border on a field when it is valid and a red border with bold text when it isn't. The email field is required, but the others aren't. The URL field is pre-filled with a bad URL, so it isn't valid when the page opens. In addition, the two optional fields are styled with light gray backgrounds, and the required field with an eye-catching yellow background.

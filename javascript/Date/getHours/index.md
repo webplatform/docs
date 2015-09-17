@@ -8,9 +8,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Gets the hours in a date, using local time.'
 tags:
-  0: JS
-  1: Basic
-  3: Method
+  - JS_Basic
+  - JS_Method
 uri: javascript/Date/getHours
 
 ---

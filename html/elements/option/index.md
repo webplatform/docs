@@ -13,8 +13,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'Denotes one choice in a select element.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/option
 

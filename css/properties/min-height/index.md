@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "Sets the minimum height for an element. It prevents the height of the element to exceed the specified value.\nIt overrides both the height &amp; the max-height property if any them is specified below the min-height value.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/min-height
 
 ---
@@ -137,7 +137,7 @@ min-height property overrides the height of an element.
 <div class="with-min-height"><p class="content">With Min Height. Content (with black border) may not fill entirety of element.</p></div>
 ```
 
-[View live example](http://code.webplatform.org/gist/5842440)
+[View live example](http://gist.github.com/5842440)
 
 ## Usage
 

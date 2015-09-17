@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns an array of MediaStream objects added to the connection with addStream().'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/localStreams
 
 ---
@@ -41,6 +41,4 @@ var result = element.localStreams;
 Returns an object of type MediaStreamArrayMediaStreamArray
 
 An array of local [MediaStream](/apis/webrtc/MediaStream) objects that were added with [addStream()](/apis/webrtc/RTCPeerConnection/addStream).
-
-**Needs Examples**: This section should include examples.
 

@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: "Gets the values of all the CSS properties of an element after applying the active stylesheets and resolving the basic computations they may contain. \n"
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/getComputedStyle
 

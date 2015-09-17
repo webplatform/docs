@@ -9,10 +9,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: "Converts an element's color to a shade of gray, for\nuse by the filter property. A decimal\nvalue between 0 and 1 or percentage up to 100% controls the extent of\nthe gray effect.\n"
 tags:
-  0: CSS
-  1: Functions
-  3: Graphics
-  4: SVG
+  - CSS_Functions
+  - CSS
+  - Graphics
+  - SVG
 uri: css/functions/grayscale
 
 ---

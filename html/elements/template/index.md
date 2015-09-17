@@ -11,8 +11,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Templates allow you to declare fragments of markup which are parsed as HTML, go unused at page load, but can be instantiated later on at runtime.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

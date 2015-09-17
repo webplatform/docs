@@ -12,10 +12,9 @@ relationships:
     href: /css/cssom/screen
 summary: 'Gets or sets an element''s width.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: css/cssom/screen/width
 
 ---
@@ -31,8 +30,6 @@ Property of [css/cssom/screen](/css/cssom/screen)[css/cssom/screen](/css/cssom/s
 var result = element.width;
 element.width = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ### Standards information
 

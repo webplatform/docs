@@ -13,15 +13,8 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: "The big element (&lt;big&gt;) indicates that the enclosed text should be display in a larger font size than surrounding text.\nThis element is considered obsolete in HTML5. Use CSS instead.\n"
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Elements
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Elements
   - HTML
 uri: html/elements/big
 

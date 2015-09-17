@@ -17,10 +17,9 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Collapses the given text range and moves the empty range by the given number of units.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/TextRange/move
 
 ---
@@ -65,8 +64,6 @@ textedit - Moves to the start or end of the original range.
 Returns an object of type NumberNumber
 
 **Integer** that returns the number of units moved.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

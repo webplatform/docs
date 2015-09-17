@@ -5,8 +5,7 @@ notes:
 readiness: 'In Progress'
 summary: 'What is inside your computer? What are some basic ideas about how it works?'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
 uri: 'concepts/general programming/What is in a Computer'
 
 ---

@@ -13,8 +13,7 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: "The dir element &lt;dir&gt; is used to list directory titles.\n"
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/dir
 

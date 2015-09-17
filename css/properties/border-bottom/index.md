@@ -19,8 +19,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Shorthand property that defines the border-width, border-style and border-color of an element''s bottom border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the bottom border — border-bottom-width, border-bottom-style and border-bottom-color.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-bottom
 
 ---
@@ -121,7 +121,7 @@ p {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5539585)
+[View live example](http://gist.github.com/5539585)
 
 A simple example showing multiple `<div>`s, identical in style except that they have different `border-bottom` properties applied to them.
 
@@ -133,7 +133,7 @@ A simple example showing multiple `<div>`s, identical in style except that they 
 <div class="five"><p>Five</p></div>
 ```
 
-[View live example](http://code.webplatform.org/gist/5539585)
+[View live example](http://gist.github.com/5539585)
 
 An example showing the use of border-bottom property with the hover effect...It gives a beautiful result
 
@@ -166,7 +166,7 @@ a:active{text-decoration:none;color:green;}
 a:visited{text-decoration:none;color:green;}
 ```
 
-[View live example](http://code.webplatform.org/gist/5704867)
+[View live example](http://gist.github.com/5704867)
 
 ## Usage
 

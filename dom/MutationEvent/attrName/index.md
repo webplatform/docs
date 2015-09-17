@@ -16,9 +16,7 @@ relationships:
 standardization_status: Deprecated
 summary: 'Gets the name of the attribute that changed.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - DOMEvents
 uri: dom/MutationEvent/attrName

@@ -17,10 +17,9 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Returns a duplicate of the TextRange.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/TextRange/duplicate
 
 ---
@@ -41,8 +40,6 @@ var duplicate = textRange.duplicate();
 Returns an object of type ObjectObject
 
 a duplicate of the TextRange object.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

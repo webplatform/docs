@@ -16,8 +16,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies the line color for the overline text decoration.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-overline-color
 
 ---

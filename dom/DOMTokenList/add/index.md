@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Adds one or more tokens to a DOMTokenList.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/DOMTokenList/add
 

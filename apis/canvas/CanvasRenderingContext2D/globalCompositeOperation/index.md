@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Sets how shapes and images are drawn onto the existing bitmap once they have had globalAlpha and the current transformation matrix applied.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Canvas
+  - API_Object_Properties
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/globalCompositeOperation
 
 ---

@@ -12,9 +12,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Sends a cross-document message.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/postMessage
 

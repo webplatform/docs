@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Handles the muted event when fired on the MediaStream object.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/MediaStreamTrack/onmute
 
 ---
@@ -30,6 +30,4 @@ Property of [apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)[apis/w
 var result = element.onmute;
 element.onmute = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

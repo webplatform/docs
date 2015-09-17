@@ -16,12 +16,12 @@ relationships:
     href: /dom/HTMLVideoElement
 summary: 'Earliest point in seconds where the playback can (should) start playing'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Audio
-  5: DOM
-  6: Video
+  - API_Object_Properties
+  - API
+  - Audio
+  - DOM
+  - Video
+  - Needs_Examples
 uri: dom/HTMLVideoElement/initialTime
 
 ---
@@ -41,8 +41,6 @@ element.initialTime = value;
 ## Return Value
 
 Returns an object of type NumberNumber
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

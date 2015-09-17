@@ -19,8 +19,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Working Draft'
 summary: 'Obsolete - spec retired, not implemented.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
 uri: css/properties/baseline-shift
 
 ---
@@ -84,7 +83,7 @@ This property works with HTML inline-level elements.
  I really love Webplatform.docs 
 ```
 
-[View live example](http://code.webplatform.org/gist/7001747)
+[View live example](http://gist.github.com/7001747)
 
 In this sample, baseline-shift has the value 'baseline' which is the initial value, keeping the baseline in its original position.
 

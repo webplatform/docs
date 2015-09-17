@@ -6,8 +6,7 @@ readiness: 'Ready to Use'
 standardization_status: Non-Standard
 summary: 'Represents text in an HTML element.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/TextRange
 
@@ -17,9 +16,6 @@ uri: dom/TextRange
 Represents text in an HTML element.
 
 ## Properties
-
-API Name
-:   Summary
 
 [boundingHeight](/dom/TextRange/boundingHeight)
 :   Retrieves the height of the rectangle that bounds the TextRange object.
@@ -37,9 +33,6 @@ API Name
 :   Sets or retrieves the text contained within the range.
 
 ## Methods
-
-API Name
-:   Summary
 
 [duplicate](/dom/TextRange/duplicate)
 :   Returns a duplicate of the TextRange.

@@ -15,12 +15,11 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'This reflects the desired image height.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Image
-  5: Capture
-  6: Mobile
+  - API_Object_Properties
+  - API
+  - Image_Capture
+  - Mobile
+  - Needs_Examples
 uri: 'apis/image capture/PhotoSettings/imageHeight'
 
 ---
@@ -40,6 +39,4 @@ photoSettings.imageHeight = value;
 ## Return Value
 
 Returns an object of type unsigned longunsigned long
-
-**Needs Examples**: This section should include examples.
 

@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'This method compares two specified keys. Returns 1 if the first key is greater than the second, -1 if the first is less than the second, and 0 if the first is equal to the second.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBFactory/cmp
 
 ---

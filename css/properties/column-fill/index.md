@@ -21,8 +21,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies how to fill columns (balanced or sequential).'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/column-fill
 
 ---
@@ -83,7 +83,7 @@ with column-fill: balance;
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6393571)
+[View live example](http://gist.github.com/6393571)
 
 ## Notes
 

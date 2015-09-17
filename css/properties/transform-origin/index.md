@@ -22,8 +22,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'This property defines the origin of the transformation axes relative to the element to which the transformation is applied.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/transform-origin
 
 ---
@@ -89,7 +89,7 @@ The values `left`, `center`, and `right` are valid for the X axis and are equiva
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6983020)
+[View live example](http://gist.github.com/6983020)
 
 ``` css
 /* 20px Y offset, 25px X offset, 30px Z offset */
@@ -98,7 +98,7 @@ The values `left`, `center`, and `right` are valid for the X axis and are equiva
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6983052)
+[View live example](http://gist.github.com/6983052)
 
 ``` css
 /* right X offset, center Y offset, 0 Z offset */
@@ -107,7 +107,7 @@ The values `left`, `center`, and `right` are valid for the X axis and are equiva
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6983069)
+[View live example](http://gist.github.com/6983069)
 
 ## Notes
 

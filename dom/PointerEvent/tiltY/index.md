@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The plane angle (in degrees, in the range of [-90,90]) between the X-Z plane and the plane containing both the transducer (e.g. pen stylus) axis and the X axis.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
 uri: dom/PointerEvent/tiltY
 
 ---

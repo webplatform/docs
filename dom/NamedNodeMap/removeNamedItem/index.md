@@ -20,9 +20,7 @@ relationships:
     href: /dom/NamedNodeMap
 summary: 'Removes an attribute with a given name.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/NamedNodeMap/removeNamedItem
 

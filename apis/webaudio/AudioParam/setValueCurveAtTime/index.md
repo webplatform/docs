@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Sets an array of arbitrary parameter values starting at the given time for the given duration. The number of values will be scaled to fit into the desired duration.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebAudio
+  - API_Object_Methods
+  - API
+  - WebAudio
 uri: apis/webaudio/AudioParam/setValueCurveAtTime
 
 ---

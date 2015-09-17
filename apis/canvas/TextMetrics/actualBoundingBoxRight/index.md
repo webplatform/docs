@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The distance parallel to the baseline from the alignment point given by the textAlign attribute to the right side of the bounding rectangle of the given text, in CSS pixels; positive numbers indicating a distance going right from the given alignment point.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Canvas
+  - API_Object_Properties
+  - API
+  - Canvas
 uri: apis/canvas/TextMetrics/actualBoundingBoxRight
 
 ---

@@ -8,9 +8,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns a reference to the prototype for a class of array.'
 tags:
-  0: JS
-  1: Basic
-  3: Property
+  - JS_Basic
+  - JS_Property
 uri: javascript/Array/prototype
 
 ---

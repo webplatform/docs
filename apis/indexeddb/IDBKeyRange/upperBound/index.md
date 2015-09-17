@@ -16,10 +16,10 @@ relationships:
     href: /apis/indexeddb/IDBKeyRange
 summary: 'Creates and returns a new key range with lower set to undefined, lowerOpen set to true, upper set to upper and and upperOpen set to open.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBKeyRange/upperBound
 
 ---
@@ -54,8 +54,6 @@ var object = object.upperBound(bound, open);
 ## Return Value
 
 Returns an object of type DOM NodeDOM Node
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

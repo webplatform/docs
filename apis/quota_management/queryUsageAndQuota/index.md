@@ -11,11 +11,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Queries the current usage (how much data is stored) and quota available for the requesting application.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Quota
-  5: Management
+  - API_Object_Methods
+  - API
+  - Quota_Management
+  - Needs_Examples
 uri: 'apis/quota management/queryUsageAndQuota'
 
 ---
@@ -54,8 +53,6 @@ Method of [apis/quota\_management/StorageQuota](/apis/quota_management/StorageQu
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

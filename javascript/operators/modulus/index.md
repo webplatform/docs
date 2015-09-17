@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Divides the value of one expression by the value of another, and returns the remainder.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/operators/modulus
 
 ---

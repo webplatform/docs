@@ -15,14 +15,14 @@ overview_table:
   Media: visual
   '[Computed value](/css/concepts/computed_value)': 'percentage or absolute length'
   Animatable: 'Yes'
-  '[CSS Object Model Property](/css/concepts/cssom)': '`http://docs.webplatform.org/wiki/css/cssom/properties/width`'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`/css/cssom/properties/width`'
   Percentages: 'refer to width of containing block'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Specifies the width of the content area of an element. The content area of the element width does not include the padding, border, and margin of the element.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/width
 
 ---
@@ -51,7 +51,7 @@ Animatable
 :   Yes
 
 [CSS Object Model Property](/css/concepts/cssom)
-:   `http://docs.webplatform.org/wiki/css/cssom/properties/width`
+:   `/css/cssom/properties/width`
 
 Percentages
 :   refer to width of containing block
@@ -164,7 +164,7 @@ p.fitcontent {
 </div>
 ```
 
-[View live example](http://code.webplatform.org/gist/5702862)
+[View live example](http://gist.github.com/5702862)
 
 ## Usage
 

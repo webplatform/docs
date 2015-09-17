@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Adds the value of an expression to the value of a variable and assigns the result to the variable.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/operators/addition assignment'
 
 ---

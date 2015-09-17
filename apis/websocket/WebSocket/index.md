@@ -7,9 +7,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Object for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.'
 tags:
-  0: API
-  1: Objects
-  3: WebSocket
+  - API_Objects
+  - API
+  - WebSocket
 uri: apis/websocket/WebSocket
 
 ---
@@ -18,9 +18,6 @@ uri: apis/websocket/WebSocket
 Object for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.
 
 ## Properties
-
-API Name
-:   Summary
 
 [binaryType](/apis/websocket/WebSocket/binaryType)
 :   Indicates the type of binary data being transmitted by the connection.
@@ -53,9 +50,6 @@ API Name
 :   The absolute URL as resolved by the constructor.
 
 ## Methods
-
-API Name
-:   Summary
 
 [close](/apis/websocket/WebSocket/close)
 :   Closes the WebSocket connection or connection attempt, if any.

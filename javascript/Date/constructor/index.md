@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Specifies the function that creates a date.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Date/constructor
 
 ---

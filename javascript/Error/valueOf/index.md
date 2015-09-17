@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the string value of an error.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Error/valueOf
 
 ---

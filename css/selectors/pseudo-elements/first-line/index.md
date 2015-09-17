@@ -11,8 +11,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Represents the first line of an element. Note that the content of the first line varies depending on the available width and the styling of text (size, spacing).'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 uri: 'css/selectors/pseudo-elements/::first-line'
 
 ---
@@ -40,7 +40,7 @@ p::first-line {
 }
 ```
 
-[View live example](https://code.webplatform.org/gist/fe1382a764e07a9c7917)
+[View live example](https://gist.github.com/fe1382a764e07a9c7917)
 
 ## Notes
 

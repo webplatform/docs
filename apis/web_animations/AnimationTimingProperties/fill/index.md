@@ -8,9 +8,8 @@ relationships:
     href: /apis/web_animations/AnimationTimingProperties
 summary: "See the fill member of the AnimationTimingReadOnly interface.\n"
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
+  - Needs_Examples
 uri: 'apis/web animations/AnimationTimingProperties/fill'
 
 ---
@@ -26,6 +25,4 @@ Property of [apis/web animations/AnimationTimingProperties](/apis/web_animations
 var result = element.fill;
 element.fill = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

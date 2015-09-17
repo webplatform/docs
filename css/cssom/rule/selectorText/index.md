@@ -11,15 +11,13 @@ relationships:
     value: css/cssom/rule
     href: /css/cssom/rule
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: css/cssom/rule/selectorText
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [css/cssom/rule](/css/cssom/rule)[css/cssom/rule](/css/cssom/rule)
 
 ## Syntax
@@ -28,8 +26,6 @@ Property of [css/cssom/rule](/css/cssom/rule)[css/cssom/rule](/css/cssom/rule)
 var result = element.selectorText;
 element.selectorText = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

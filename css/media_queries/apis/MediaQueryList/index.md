@@ -15,22 +15,14 @@ relationships:
     value: 'DOM Node'
     href: /css/media_queries
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - API
-  - Object
-  - Methods
+  - Pages_using_duplicate_arguments_in_template_calls
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: 'css/media queries/apis/MediaQueryList'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [css/media\_queries](/css/media_queries)[css/media\_queries](/css/media_queries)
 
 ## Syntax
@@ -42,8 +34,6 @@ var object = object.MediaQueryList();
 ## Return Value
 
 Returns an object of type DOM NodeDOM Node
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

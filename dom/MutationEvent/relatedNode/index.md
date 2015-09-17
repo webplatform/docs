@@ -16,9 +16,7 @@ relationships:
 standardization_status: Deprecated
 summary: 'Gets a second node related to a mutation event.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - DOMEvents
 uri: dom/MutationEvent/relatedNode

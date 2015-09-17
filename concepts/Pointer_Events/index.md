@@ -5,8 +5,7 @@ notes:
 readiness: 'Almost Ready'
 summary: "This document is written for web developers who have basic familiarity with HTML and JavaScript.  This document should help you:\n"
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - DOM
   - DOMEvents
   - Touch

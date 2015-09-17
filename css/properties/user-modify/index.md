@@ -16,8 +16,9 @@ overview_table:
 readiness: 'In Progress'
 summary: 'Needs content'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/user-modify
 
 ---
@@ -51,8 +52,6 @@ Animatable
 ## Syntax
 
 ## Values
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

@@ -2,8 +2,7 @@
 title: 'Visual Impairment'
 summary: "\nA visual impairment is a person's reduced ability to see and see clearly. This includes reduced sensitivity and reduced clarity.\n"
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Accessibility
 uri: 'concepts/accessibility/definitions/visual impairment'
 

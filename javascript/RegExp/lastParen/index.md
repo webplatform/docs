@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the last parenthesized submatch from any regular expression search, if any. Read-only.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/RegExp/lastParen
 
 ---

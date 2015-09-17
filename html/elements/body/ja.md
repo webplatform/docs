@@ -14,8 +14,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'body要素はドキュメントの主要コンテンツを表します。'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/body/ja
 

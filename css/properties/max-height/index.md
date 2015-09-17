@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Sets the maximum height for an element. It prevents the height of the element to exceed the specified value. If min-height is specified and is greater than max-height, max-height is overridden.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/max-height
 
 ---
@@ -129,7 +129,7 @@ max-height property overrides the height of an element.
 <p><strong>Other elements</strong> will flow overtop of objects that are overflowed from their max-height containers.</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/5070850)
+[View live example](http://gist.github.com/5070850)
 
 ## Usage
 

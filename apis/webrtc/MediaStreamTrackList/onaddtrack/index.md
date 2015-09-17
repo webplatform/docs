@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Handles the addtrack event.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/MediaStreamTrackList/onaddtrack
 
 ---
@@ -30,6 +30,4 @@ Property of [apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList
 var result = element.onaddtrack;
 element.onaddtrack = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Specifies the function that creates an Error.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Error/constructor
 
 ---

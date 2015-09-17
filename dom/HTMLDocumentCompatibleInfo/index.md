@@ -8,9 +8,9 @@ readiness: 'Not Ready'
 standardization_status: Non-Standard
 summary: 'Non standard. Proprietary. Represent a key and value pair of compatible user agent and its version, as specified by the page.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Examples
 uri: dom/HTMLDocumentCompatibleInfo
 
 ---
@@ -29,6 +29,3 @@ Non standard. Proprietary. Represent a key and value pair of compatible user age
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
-

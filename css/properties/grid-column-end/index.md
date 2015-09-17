@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'Controls a grid item''s placement in a grid area as well as  grid position and a grid span. The grid-column-end property (with grid-row-start, grid-row-end, and grid-column-start) determines a grid item''s placement by specifying the grid lines of a grid item''s grid area.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/grid-column-end
 
 ---

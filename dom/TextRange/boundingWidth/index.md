@@ -17,9 +17,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Retrieves the width of the rectangle that bounds the TextRange object'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/TextRange/boundingWidth
 

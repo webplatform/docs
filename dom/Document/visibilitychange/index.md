@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Set the visibility state of an element'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - Performance
 uri: dom/Document/visibilitychange

@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The number of tracks in the list.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/MediaStreamTrackList/length
 
 ---
@@ -39,6 +39,4 @@ var length = list.length;
 ## Return Value
 
 Returns an object of type unsigned longunsigned long
-
-**Needs Examples**: This section should include examples.
 

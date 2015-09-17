@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Read-only. Gets the ArrayBuffer that is referenced by this view.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/DataView/buffer
 
 ---

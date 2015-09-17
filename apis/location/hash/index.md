@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The hash property contains the fragment identifier (including hash character) for the current page.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - JavaScript
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

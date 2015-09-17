@@ -15,15 +15,13 @@ relationships:
     value: 'DOM Node'
     href: /dom/Error
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/Error/initErrorEvent
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [dom/Error](/dom/Error)[dom/Error](/dom/Error)
 
 ## Syntax
@@ -91,7 +89,5 @@ Type: **HRESULT**
 This method can return one of these values.
 
 S\_OK
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax

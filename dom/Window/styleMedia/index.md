@@ -15,9 +15,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Gets a StyleMedia object that contains methods and properties. These methods and properties determine the media types that are supported by the object that displays the document object.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Window/styleMedia
 

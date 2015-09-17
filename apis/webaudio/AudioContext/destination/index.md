@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'An AudioDestinationNode with a single input representing the final destination for all audio (to be rendered to the audio hardware, i.e., speakers). All AudioNodes actively rendering audio will directly or indirectly connect to the destination node.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
 uri: apis/webaudio/AudioContext/destination
 
 ---

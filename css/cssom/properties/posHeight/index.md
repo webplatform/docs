@@ -12,9 +12,7 @@ relationships:
     href: /css/cssom/properties
 summary: 'Reflects the value of the Cascading Style Sheets (CSS) height attribute for positioned items.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: css/cssom/properties/posHeight
 

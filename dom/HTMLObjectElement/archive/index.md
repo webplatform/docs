@@ -11,15 +11,13 @@ relationships:
     value: dom/HTMLObjectElement
     href: /dom/HTMLObjectElement
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/HTMLObjectElement/archive
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [dom/HTMLObjectElement](/dom/HTMLObjectElement)[dom/HTMLObjectElement](/dom/HTMLObjectElement)
 
 ## Syntax
@@ -28,8 +26,6 @@ Property of [dom/HTMLObjectElement](/dom/HTMLObjectElement)[dom/HTMLObjectElemen
 var result = element.archive;
 element.archive = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

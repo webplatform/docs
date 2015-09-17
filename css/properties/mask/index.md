@@ -18,8 +18,8 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'This property is shorthand for setting mask-image, mask-mode, mask-repeat, mask-position, mask-clip, mask-origin, mask-composite and mask-size. Omitted values are set to their original properties'' initial values.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/mask
 
 ---

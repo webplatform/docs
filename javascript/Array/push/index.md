@@ -8,9 +8,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Appends new elements to an array, and returns the new length of the array.'
 tags:
-  0: JS
-  1: Basic
-  3: Method
+  - JS_Basic
+  - JS_Method
 uri: javascript/Array/push
 
 ---

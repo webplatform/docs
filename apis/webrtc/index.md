@@ -6,18 +6,15 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Working Draft'
 summary: 'Enables real-time communication across the web.'
 tags:
-  0: API
-  1: Listings
-  3: WebRTC
+  - API_Listings
+  - API
+  - WebRTC
 uri: apis/webrtc
 
 ---
 ## Summary
 
 Enables real-time communication across the web.
-
-API Name
-:   Summary
 
 [MediaStream](/apis/webrtc/MediaStream)
 :   The MediaStream interface of the **WebRTC** API describes a stream of audio or video data. A MediaStream object represents a linear, potentially infinite timeline. It is not preloadable, nor is it seekable.

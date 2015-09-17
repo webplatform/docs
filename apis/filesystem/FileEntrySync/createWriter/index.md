@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Creates a new FileWriterSync associated with the file that this FileEntrySync represents.\n"
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileSystemAPI
+  - API_Object_Methods
+  - API
+  - FileSystemAPI
+  - Needs_Examples
 uri: apis/filesystem/FileEntrySync/createWriter
 
 ---
@@ -41,8 +41,6 @@ var  = FileEntrySync.createWriter();
 Returns an object of type
 
 FileWriterSync
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

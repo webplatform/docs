@@ -9,8 +9,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The HTML &lt;output&gt; element represents the result of a calculation.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

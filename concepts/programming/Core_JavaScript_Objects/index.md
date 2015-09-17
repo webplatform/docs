@@ -1,22 +1,16 @@
 ---
 title: 'Core JavaScript Objects'
 notes:
-  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: [[1]] \n\n\n\n\nDeletion Candidate:   Content is incomplete, and the available content is the same as on the merge-candidate, which is complete.\n\n"
+  - "Merge Candidate:  This page is a candidate for merge with the following pages: [[1]] \n\n\n\n\nDeletion Candidate:   Content is incomplete, and the available content is the same as on the merge-candidate, which is complete."
 readiness: 'Not Ready'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Concept
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Concept_Pages
+  - Needs_Summary
+  - Needs_Examples
 uri: 'concepts/programming/Core JavaScript Objects'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
  This chapter describes the predefined objects in core JavaScript: `Array`, `Boolean`, `Date`, `Function`, `Math`, `Number`, `RegExp`, and `String`.
 
 ## Array Object
@@ -693,6 +687,4 @@ The predefined `Math` object has properties and methods for mathematical constan
 The following table summarizes the `Math` object's methods.
 
 {
-
-**Needs Examples**: This section should include examples.
 

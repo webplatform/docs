@@ -6,6 +6,7 @@ readiness: 'Not Ready'
 tags:
   - Tutorials
   - Audio
+  - Needs_Summary
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -24,8 +25,6 @@ todo_broken_links:
 uri: 'tutorials/using web audio'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 # Implementing the HTML5 Audio Tag
 
 ## By Ernest Delgado

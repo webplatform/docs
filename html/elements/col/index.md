@@ -12,8 +12,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The col element (&lt;col&gt;) specifies  properties for each column within a &lt;colgroup&gt; element in a &lt;table&gt;.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/col
 

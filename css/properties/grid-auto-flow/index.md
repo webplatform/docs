@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'Automatically places grid elements into the grid layout if an explicit location is not designated.  Designates the direction of the the flow and whether rows or columns must be added to accommodate the element.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/grid-auto-flow
 
 ---

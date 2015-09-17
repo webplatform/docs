@@ -15,10 +15,10 @@ relationships:
     value: 'DOM Node'
     href: '/w/index.php?title=dom/proprietary&action=edit&redlink=1'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -26,8 +26,6 @@ todo_broken_links:
 uri: apis/timing/methods/sample
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [dom/proprietary](/w/index.php?title=dom/proprietary&action=edit&redlink=1)[dom/proprietary](/w/index.php?title=dom/proprietary&action=edit&redlink=1)
 
 ## Syntax
@@ -48,8 +46,6 @@ var object = object.sample(/* see parameter list */);
 Returns an object of type DOM NodeDOM Node
 
 This method does not return a value.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Returns the focus state of the current document, true if the document has focus, false if not.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Document/hasFocus
 

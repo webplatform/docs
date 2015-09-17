@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Executes a statement or series of statements while a specified condition is true.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/statements/while
 
 ---

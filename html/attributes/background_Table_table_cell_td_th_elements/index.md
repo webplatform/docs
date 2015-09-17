@@ -10,9 +10,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'Specifies up to five separate background properties of an object.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: 'html/attributes/background (Table, table cell, td, th elements)'
 
 ---
@@ -32,7 +32,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

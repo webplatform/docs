@@ -13,10 +13,9 @@ relationships:
     href: /dom/MouseEvent
 summary: 'Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/MouseEvent/layerX
 
 ---
@@ -32,8 +31,6 @@ Property of [dom/MouseEvent](/dom/MouseEvent)[dom/MouseEvent](/dom/MouseEvent)
 var result = element.layerX;
 element.layerX = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

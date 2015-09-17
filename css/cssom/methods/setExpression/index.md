@@ -18,15 +18,12 @@ relationships:
     value: 'DOM Node'
     href: /css/cssom/methods
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
 uri: css/cssom/methods/setExpression
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [css/cssom/methods](/css/cssom/methods)[css/cssom/methods](/css/cssom/methods)
 
 ## Syntax

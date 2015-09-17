@@ -13,9 +13,7 @@ relationships:
     href: /dom/Window
 summary: 'Moves the screen position of the upper-left corner of the window to the specified x and y position'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/moveTo
 

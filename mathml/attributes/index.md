@@ -5,8 +5,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'MathML attributes'
 tags:
-  - API
-  - Listings
+  - API_Listings
   - MathML
 uri: mathml/attributes
 

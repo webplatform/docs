@@ -3,8 +3,7 @@ title: 'User eXperience Map'
 readiness: 'Not Ready'
 summary: 'Visual representation of the user workflow for accomplishing a goal.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Design
   - UI
   - Usability

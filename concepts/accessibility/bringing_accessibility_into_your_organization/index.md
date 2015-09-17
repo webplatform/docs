@@ -4,14 +4,13 @@ notes:
   - Stub/outline
 readiness: 'Not Ready'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Accessibility
+  - Needs_Summary
+  - Needs_Examples
 uri: 'concepts/accessibility/bringing accessibility into your organization'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ### Plan
 
 ### Design
@@ -21,6 +20,3 @@ uri: 'concepts/accessibility/bringing accessibility into your organization'
 ### Author
 
 ### Test
-
-**Needs Examples**: This section should include examples.
-

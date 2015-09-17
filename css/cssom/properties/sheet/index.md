@@ -11,15 +11,13 @@ relationships:
     value: css/cssom/properties
     href: /css/cssom/properties
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: css/cssom/properties/sheet
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
 ## Syntax
@@ -28,8 +26,6 @@ Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](
 var result = element.sheet;
 element.sheet = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

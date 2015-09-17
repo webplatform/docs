@@ -6,20 +6,16 @@ readiness: 'Not Ready'
 standardization_status: Non-Standard
 summary: 'Provides an interface for web applications to access the underlying connection information of the device.'
 tags:
-  0: API
-  1: Listings
-  3: Mobile
-  4: Network
-  5: Information
+  - API_Listings
+  - API
+  - Mobile
+  - Network_Information
 uri: 'apis/network information'
 
 ---
 ## Summary
 
 Provides an interface for web applications to access the underlying connection information of the device.
-
-API Name
-:   Summary
 
 [NetworkInformation](/apis/network_information/NetworkInformation)
 :   Is exposed on the Navigator object, and all instances of the Navigator type are defined to also implement the NetworkInformation interface.

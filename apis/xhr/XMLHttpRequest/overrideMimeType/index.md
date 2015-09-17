@@ -11,10 +11,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Overrides the MIME type returned by the server.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: XHR
+  - API_Object_Methods
+  - API
+  - XHR
 uri: apis/xhr/XMLHttpRequest/overrideMimeType
 
 ---

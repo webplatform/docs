@@ -12,15 +12,8 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'Defines a variable.'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Elements
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Elements
   - HTML
 uri: html/elements/var
 

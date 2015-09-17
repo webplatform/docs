@@ -14,9 +14,7 @@ relationships:
     href: /dom/TextEvent
 summary: 'Gets a value that describes how text is entered.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/TextEvent/inputMethod
 

@@ -11,11 +11,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Clears the buffer used to store the current list of PerformanceResourceTiming resources.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Resource
-  5: Timing
+  - API_Object_Methods
+  - API
+  - Resource_Timing
 uri: 'apis/resource timing/Performance/clearResourceTimings'
 
 ---

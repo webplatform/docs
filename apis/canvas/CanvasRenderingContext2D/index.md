@@ -8,9 +8,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The 2D rendering context for the drawing surface of a &lt;canvas&gt; element.'
 tags:
-  0: API
-  1: Objects
-  3: Canvas
+  - API_Objects
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D
 
 ---
@@ -19,9 +19,6 @@ uri: apis/canvas/CanvasRenderingContext2D
 The 2D rendering context for the drawing surface of a &lt;canvas&gt; element.
 
 ## Properties
-
-API Name
-:   Summary
 
 [html/elements/canvas](/apis/canvas/CanvasRenderingContext2D/canvas)
 :   A (read-only) reference to the *canvas* element that the CanvasRenderingContext2D object was created for.
@@ -75,9 +72,6 @@ API Name
 :   Returns or sets the baseline value. See return value description below.
 
 ## Methods
-
-API Name
-:   Summary
 
 [addHitRegion](/apis/canvas/CanvasRenderingContext2D/addHitRegion)
 :   Creates a hit region.

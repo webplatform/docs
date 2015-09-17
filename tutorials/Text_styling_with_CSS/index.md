@@ -1,11 +1,7 @@
 ---
 title: 'Text styling with CSS'
 tags:
-  - Pages
-  - with
-  - broken
-  - file
-  - links
+  - Pages_with_broken_file_links
   - Tutorials
   - WSC
 uri: 'tutorials/Text styling with CSS'

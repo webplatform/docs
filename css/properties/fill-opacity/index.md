@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: '‘fill-opacity’ specifies the opacity of the painting operation used to paint the interior the current object. (See Painting shapes and text.)'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
+  - Needs_Examples
 uri: css/properties/fill-opacity
 
 ---
@@ -61,8 +61,6 @@ Percentages
 
 inherit
 :
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

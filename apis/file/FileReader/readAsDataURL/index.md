@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the complete data of blob as a Data URL, essentially a Base64-encoded string of the file data.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileAPI
+  - API_Object_Methods
+  - API
+  - FileAPI
 uri: apis/file/FileReader/readAsDataURL
 
 ---

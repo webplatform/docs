@@ -13,11 +13,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The source content associated with this player. Setting this attribute updates the object’s source content using the procedure to set the source content of a player.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Web
-  5: Animations
+  - API_Object_Properties
+  - API
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationPlayer/source'
 
 ---
@@ -37,8 +36,6 @@ element.source = value;
 ## Return Value
 
 Returns an object of type AnimationNodeAnimationNode
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

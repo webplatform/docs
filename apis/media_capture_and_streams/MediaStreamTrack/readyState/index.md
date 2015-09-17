@@ -15,13 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the state of the track.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Media
-  5: Capture
-  6: and
-  7: Streams
+  - API_Object_Properties
+  - API
+  - Media_Capture_and_Streams
+  - Needs_Examples
 uri: 'apis/media capture and streams/MediaStreamTrack/readyState'
 
 ---
@@ -44,6 +41,4 @@ var result = track.readyState;
 Returns an object of type
 
 MediaStreamTrackState
-
-**Needs Examples**: This section should include examples.
 

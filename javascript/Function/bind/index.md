@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'For a given function, creates a bound function that has the same body as the original function. In the bound function, the this object resolves to the passed in object. The bound function has the specified initial parameters.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Function/bind
 
 ---

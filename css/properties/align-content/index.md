@@ -17,9 +17,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Aligns a flex container''s lines within the flex container when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis.'
 tags:
-  0: CSS
-  1: Properties
-  3: Flexbox
+  - CSS_Properties
+  - CSS
+  - Flexbox
 uri: css/properties/align-content
 
 ---
@@ -121,7 +121,7 @@ Spacing lines within a multi-line flex container. Change the values in the live 
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5536244)
+[View live example](http://gist.github.com/5536244)
 
 ## Notes
 

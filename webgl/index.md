@@ -6,8 +6,7 @@ readiness: 'Almost Ready'
 summary: 'WebGL is a standard that allows you to create real 3D content and render it in a web browser. WebGL is the web binding to the OpenGL ES 2.0 graphics API, and therefore allows us to run real 3D across any system with a browser that supports it and the graphics capabilities to handle such visually rich content. WebGL is maintained by the Khronos Group for 3D graphics on the Web.  In web technology terms, WebGL is the 3D drawing context of the HTML5 &lt;canvas&gt; element and can be used through the HTML5 Canvas element with a Javascript API.'
 tags:
   - WebGL
-  - Concept
-  - Pages
+  - Concept_Pages
   - API
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

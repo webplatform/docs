@@ -15,11 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the time immediately before the user agent starts the unload event of the previous document. If there is no previous document or the previous document has a different origin than the current document, returns zero.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Navigation
-  5: Timing
+  - API_Object_Properties
+  - API
+  - Navigation_Timing
 uri: 'apis/navigation timing/PerformanceTiming/unloadEventStart'
 
 ---

@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Evaluates JavaScript code and executes it.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/eval
 
 ---

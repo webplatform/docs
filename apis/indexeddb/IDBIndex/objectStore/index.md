@@ -12,10 +12,10 @@ relationships:
     href: /apis/indexeddb/IDBIndex
 summary: 'Returns a reference to the IDBObjectStore instance for the referenced object store in this IDBIndex''s transaction.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBIndex/objectStore
 
 ---
@@ -31,8 +31,6 @@ Property of [apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)[apis/indexeddb/I
 var result = element.objectStore;
 element.objectStore = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

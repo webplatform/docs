@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Subtracts the value of one expression from another or provides unary negation of a single expression.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/operators/subtraction
 
 ---

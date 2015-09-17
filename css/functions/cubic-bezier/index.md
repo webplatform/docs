@@ -8,8 +8,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'An animation timing function that describes a progression of movement as a cubic-bezier curve.'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/cubic-bezier
 
 ---

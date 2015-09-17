@@ -12,10 +12,10 @@ relationships:
     href: /apis/indexeddb/IDBTransaction
 summary: 'The database connection of which this transaction is a part.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBTransaction/db
 
 ---
@@ -31,8 +31,6 @@ Property of [apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)[apis
 var result = element.db;
 element.db = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

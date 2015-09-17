@@ -12,10 +12,9 @@ relationships:
     href: /dom/Element
 summary: 'Retrieves the parent node of this DOM node, if the parent is an element node; null if the parent is not an element or if there is no parent.  Read-only.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/Element/parentElement
 
 ---
@@ -32,8 +31,6 @@ Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 ``` js
 var result = element.parentElement;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

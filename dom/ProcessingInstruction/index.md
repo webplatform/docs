@@ -12,14 +12,13 @@ relationships:
     href: /dom/Node
 standardization_status: 'W3C Recommendation'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/ProcessingInstruction
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Inherits from [Node](/dom/Node)[Node](/dom/Node)
 
 ## Properties
@@ -37,9 +36,6 @@ Inherits from [Node](/dom/Node)[Node](/dom/Node)
 ## Inherited from Node
 
 ### Properties
-
-API Name
-:   Summary
 
 [attributes](/dom/Node/attributes)
 :   Associatve array containing the attributes of node.
@@ -89,9 +85,6 @@ API Name
 :   Sets or retrieves the text content of a node and any child nodes.
 
 ### Methods
-
-API Name
-:   Summary
 
 [appendChild](/dom/Node/appendChild)
 :   Appends an element as a child to the object.
@@ -144,8 +137,6 @@ API Name
 ### Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

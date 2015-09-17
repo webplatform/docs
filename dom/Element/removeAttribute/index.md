@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Removes a specified content attribute from an element.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/Element/removeAttribute
 
 ---
@@ -44,8 +43,6 @@ Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

@@ -13,8 +13,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The MathML ms element represents a string literal meant to be interpreted by programming languages and computer algebra systems.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - MathML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

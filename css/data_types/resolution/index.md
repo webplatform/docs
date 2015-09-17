@@ -7,8 +7,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The &lt;resolution&gt; CSS data type, used in media queries, denotes the granularity or possible fineness of detail of an output device. It is expressed as a &lt;number&gt; immediately followed by a unit of resolution (dpi, dpcm, ...). Like for any CSS dimension, there is no space between the number and the unit abbreviation.'
 tags:
-  - Data
-  - Type
+  - Data_Type
   - CSS
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

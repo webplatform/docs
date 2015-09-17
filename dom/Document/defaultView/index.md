@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the Document''s browsing context''s Window object (essentially the environment in which objects are presented to the user) if there is one, or null otherwise.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Document/defaultView
 

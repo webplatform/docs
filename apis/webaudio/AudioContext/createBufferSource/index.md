@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Creates an AudioBufferSourceNode that can be used to play audio data contained within an AudioBuffer object..'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebAudio
+  - API_Object_Methods
+  - API
+  - WebAudio
 uri: apis/webaudio/AudioContext/createBufferSource
 
 ---

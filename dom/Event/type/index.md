@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets the name of an event.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/Event/type
 
 ---
@@ -43,8 +42,6 @@ var eventType = event.type;
 Returns an object of type StringString
 
 The name of the event.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

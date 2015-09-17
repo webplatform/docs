@@ -13,8 +13,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The caption (&lt;caption&gt;) element represents the title of the table that is its parent.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/caption
 
@@ -61,7 +60,7 @@ This example uses the **caption** element to provide a brief description for a t
 
 ```
 
-[View live example](http://code.webplatform.org/gist/7282268)
+[View live example](http://gist.github.com/7282268)
 
 ## Notes
 

@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Sets the Range to contain the contents of a Node.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Range/selectNodeContents
 

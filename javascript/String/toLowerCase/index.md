@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Converts all the alphabetic characters in a string to lowercase.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/toLowerCase
 
 ---

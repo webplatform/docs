@@ -12,16 +12,10 @@ overview_table:
 readiness: 'Not Ready'
 summary: "The track tag specifies text tracks for media elements (audio and video).\n"
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Elements
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Elements
   - HTML
+  - Needs_Examples
 uri: html/elements/track
 
 ---
@@ -37,8 +31,6 @@ This element is used to specify subtitles, caption files or other files containi
 
 [DOM Interface](/dom/interface)
 :   [HTMLTrackElement](/dom/HTMLTrackElement)
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

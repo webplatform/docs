@@ -15,11 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Removes the given cue from textTrack''s text track list of cues.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Audio
-  5: Video
+  - API_Object_Methods
+  - API
+  - Audio
+  - Video
 uri: apis/audio-video/TextTrack/removeCue
 
 ---

@@ -14,9 +14,7 @@ relationships:
     href: /dom/PopStateEvent
 summary: 'The current history entry''s state object (if any).'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

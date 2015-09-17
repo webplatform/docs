@@ -11,17 +11,16 @@ relationships:
     value: dom/HTMLTrackElement
     href: /dom/HTMLTrackElement
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Audio
-  5: DOM
-  6: Video
+  - API_Object_Properties
+  - API
+  - Audio
+  - DOM
+  - Video
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/HTMLTrackElement/label
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [dom/HTMLTrackElement](/dom/HTMLTrackElement)[dom/HTMLTrackElement](/dom/HTMLTrackElement)
 
 ## Syntax
@@ -30,8 +29,6 @@ Property of [dom/HTMLTrackElement](/dom/HTMLTrackElement)[dom/HTMLTrackElement](
 var result = element.label;
 element.label = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

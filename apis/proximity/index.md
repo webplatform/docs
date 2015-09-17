@@ -6,8 +6,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The proximity API defines a mean to receive events that correspond to a proximity sensor detecting the presence of a physical object.'
 tags:
-  - API
-  - Listings
+  - API_Listings
 uri: apis/proximity
 
 ---

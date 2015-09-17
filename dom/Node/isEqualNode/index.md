@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Determines whether two nodes are equal in their type, name and namespace.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Node/isEqualNode
 

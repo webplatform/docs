@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Retrieves the document object associated with the node.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Node/ownerDocument
 

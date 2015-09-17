@@ -5,15 +5,16 @@ compatibility:
   topic: css
 notes:
   - 'Add summery, values, syntax, example, description, specifications, compatibility.'
+  - 'Require manual conversion! See https://github.com/webplatform/mediawiki-conversion/issues/24'
 readiness: 'Not Ready'
 tags:
-  - CSS
-  - Media
-  - Feature
+  - CSS_Media_Feature
+  - Needs_Summary
+  - Needs_Examples
 uri: 'css/media queries/view-mode'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+<p><br/></p>
 
-**Needs Examples**: This section should include examples.
 
+<p><br/></p><p><br/></p><p><br/></p><p><br/></p>

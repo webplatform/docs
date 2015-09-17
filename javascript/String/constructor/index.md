@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Specifies the function that creates a string.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/constructor
 
 ---

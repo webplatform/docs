@@ -9,8 +9,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "The\_:hover pseudo-class applies while the user designates an element with a pointing device, but does not necessarily activate it"
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 uri: 'css/selectors/pseudo-classes/:hover'
 
 ---

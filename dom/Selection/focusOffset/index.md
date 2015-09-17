@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the number of characters that the selection''s focus is offset within the focusNode.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Selection/focusOffset
 

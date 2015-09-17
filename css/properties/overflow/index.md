@@ -22,8 +22,8 @@ readiness: 'Ready to Use'
 standardization_status: Mixed
 summary: 'The overflow property controls how extra content exceeding the bounding box of an element is rendered. It can be used in conjunction with an element that has a fixed width and height, to eliminate text-induced page distortion.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/overflow
 
 ---
@@ -111,7 +111,7 @@ p {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6365118)
+[View live example](http://gist.github.com/6365118)
 
 Clearing floats with overflow
 
@@ -128,7 +128,7 @@ Clearing floats with overflow
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6365403)
+[View live example](http://gist.github.com/6365403)
 
 Two values for `overflow`.
 
@@ -139,7 +139,7 @@ Two values for `overflow`.
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6366211)
+[View live example](http://gist.github.com/6366211)
 
 ## Usage
 

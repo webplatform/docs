@@ -7,10 +7,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The HTML5 specification defines a Window interface, which this specification extends.'
 tags:
-  0: API
-  1: Objects
-  3: Navigation
-  4: Timing
+  - API_Objects
+  - API
+  - Navigation_Timing
 uri: 'apis/navigation timing/Performance'
 
 ---
@@ -19,9 +18,6 @@ uri: 'apis/navigation timing/Performance'
 The HTML5 specification defines a Window interface, which this specification extends.
 
 ## Properties
-
-API Name
-:   Summary
 
 [navigation](/apis/navigation_timing/Performance/navigation)
 :   Represents the navigation information related to the browsing context. This attribute is defined by the **PerformanceNavigation** interface.

@@ -15,9 +15,7 @@ relationships:
     href: /dom/WindowModal
 summary: 'Gets or sets the height of the content area of a dialog window.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/WindowModal/dialogHeight
 

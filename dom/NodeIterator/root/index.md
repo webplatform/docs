@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'The NodeIterator.root read-only property represents the Node that is the root of what the NodeIterator traverses.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/NodeIterator/root
 

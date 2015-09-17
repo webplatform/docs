@@ -5,8 +5,7 @@ notes:
 readiness: 'In Progress'
 summary: 'POUR is a way of approaching web accessibility by breaking it down into four main aspects: information should be Perceivable, interfaces should be Operable, content should be Understandable, and the meaning of the content should be Robust to changes in the way it is accessed.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
 uri: concepts/accessibility/pour
 
 ---

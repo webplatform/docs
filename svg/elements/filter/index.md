@@ -13,8 +13,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'SVG filter effects apply graphics operations such as blurs and color transformations to a source graphic. Filters may be applied to graphical SVG elements (&lt;circle&gt;, &lt;text&gt;) as well as to grouping elements (&lt;g&gt;). The filter element specifies the position, dimensions, resolution and units for a filter effect. filter elements typically have multiple child elements (filter primitives) that combine together to create the final graphics effect.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - Graphics
   - SVG
 todo_broken_links:

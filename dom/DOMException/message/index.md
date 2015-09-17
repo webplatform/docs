@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Retrieves a string describing the exception that occurred.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/DOMException/message
 

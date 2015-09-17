@@ -16,8 +16,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'Specify the increment for input with types number, time, or range'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/step
 

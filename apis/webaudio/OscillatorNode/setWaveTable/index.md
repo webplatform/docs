@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "Sets an arbitrary custom periodic waveform given a WaveTable.\n"
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebAudio
+  - API_Object_Methods
+  - API
+  - WebAudio
+  - Needs_Examples
 uri: apis/webaudio/OscillatorNode/setWaveTable
 
 ---
@@ -46,8 +46,6 @@ var  = OscillatorNode.setWaveTable(waveTable);
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

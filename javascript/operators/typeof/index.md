@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns a string that identifies the data type of an expression.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/operators/typeof
 
 ---

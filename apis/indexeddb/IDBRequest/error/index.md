@@ -17,10 +17,10 @@ relationships:
     href: /apis/indexeddb/IDBRequest
 summary: 'The error codes returned under certain conditions.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBRequest/error
 
 ---
@@ -41,8 +41,6 @@ var result = element.error;
 ## Return Value
 
 Returns an object of type DOMErrorDOMError
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

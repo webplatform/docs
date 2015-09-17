@@ -12,10 +12,9 @@ relationships:
     href: /dom/Location
 summary: 'Replaces the current document by loading another document at the specified URL.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/Location/replace
 
 ---
@@ -43,8 +42,6 @@ Method of [dom/Location](/dom/Location)[dom/Location](/dom/Location)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

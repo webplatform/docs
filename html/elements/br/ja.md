@@ -14,8 +14,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: '文章をbreakするbr要素はテキストを強制的に終わらせ、brに続くテキストを新たしい行に改めます。'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
   - XHTML
 todo_broken_links:
@@ -50,7 +49,7 @@ uri: html/elements/br/ja
 シドニー</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/7282007)
+[View live example](http://gist.github.com/7282007)
 
 ## Usage
 

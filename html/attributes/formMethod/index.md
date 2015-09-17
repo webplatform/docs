@@ -11,8 +11,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The formmethod attribute defines the HTTP method for sending form-data to the action URL.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/formMethod
 

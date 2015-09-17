@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Ensures there is a subpath for (cp1x, cp1y), then connects the last point in the subpath to the given point (x, y) using a cubic Bézier curve with control points (cp1x, cp1y) and (cp2x, cp2y), then adds the point (x, y) to the subpath.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Canvas
+  - API_Object_Methods
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/bezierCurveTo
 
 ---

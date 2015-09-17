@@ -11,8 +11,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Working Draft'
 summary: 'Describes the base element from which the element with this attribute is extended.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

@@ -8,14 +8,13 @@ notes:
 readiness: 'Not Ready'
 standardization_status: 'W3C Editor''s Draft'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Summary
+  - Needs_Examples
 uri: 'html/attributes/data-*'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 <table class="wikitable">
 <tr>
 <th>
@@ -104,8 +103,6 @@ User agents must not derive any implementation behavior from these attributes or
 JavaScript libraries may use the \<a href="\#custom-data-attribute" title="custom data attribute"\>custom data attributes\</a\>, as they are considered to be part of the page on which they are used. Authors of libraries that are reused by many authors are encouraged to include their name in the attribute names, to reduce the risk of clashes. Where it makes sense, library authors are also encouraged to make the exact name used in the attribute names customizable, so that libraries whose authors unknowingly picked the same name can be used on the same page, and so that multiple versions of a particular library can be used on the same page even when those versions are not mutually compatible.
 
 For example, a library called "DoQuery" could use attribute names like `data-doquery-range`, and a library called "jJo" could use attributes names like `data-jjo-range`. The jJo library could also provide an API to set which prefix to use (e.g. `J.setDataPrefix('j2')`, making the attributes have names like `data-j2-range`).
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

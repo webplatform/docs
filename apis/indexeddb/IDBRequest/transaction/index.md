@@ -14,10 +14,10 @@ relationships:
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'The transaction for the request. This property can be null for certain requests, such as for request returned from IDBFactory.open (You''re just connecting to a database, so there is no transaction to return).'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBRequest/transaction
 
 ---
@@ -34,8 +34,6 @@ Property of [apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)[apis/indexed
 ``` js
 var result = element.transaction;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

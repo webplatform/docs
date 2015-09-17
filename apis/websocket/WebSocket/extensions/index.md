@@ -18,10 +18,10 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The extensions selected by the server.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebSocket
+  - API_Object_Properties
+  - API
+  - WebSocket
+  - Needs_Examples
 uri: apis/websocket/WebSocket/extensions
 
 ---
@@ -42,8 +42,6 @@ var result = element.extensions;
 ## Return Value
 
 Returns an object of type StringString
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

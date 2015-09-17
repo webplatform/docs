@@ -17,8 +17,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Allows the default alignment to be overridden for individual flex items.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
   - Flexbox
 uri: css/properties/align-self
 
@@ -107,7 +106,7 @@ Displaying children with custom alignment.
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/4745364)
+[View live example](http://gist.github.com/4745364)
 
 ## Notes
 

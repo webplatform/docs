@@ -14,11 +14,11 @@ relationships:
     href: /dom/shadowdom/ShadowRoot
 summary: 'Indicates whether the rules in author styles associated with the element''s document apply to the shadow tree. If false (default value), the author styles are not applied to the shadow tree. If true, the author styles are applied.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: DOM
-  5: Shadow
+  - API_Object_Properties
+  - API
+  - DOM
+  - Shadow_DOM
+  - Needs_Examples
 uri: dom/shadowdom/ShadowRoot/applyAuthorStyles
 
 ---
@@ -40,6 +40,4 @@ element.applyAuthorStyles = value;
 Returns an object of type BooleanBoolean
 
 If false (default value), the author styles are not applied to the shadow tree. If true, the author styles are applied.
-
-**Needs Examples**: This section should include examples.
 

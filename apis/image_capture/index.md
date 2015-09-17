@@ -4,10 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Allows users to take a photo via Javascript.'
 tags:
-  0: API
-  1: Listings
-  3: Image
-  4: Capture
+  - API_Listings
+  - API
+  - Image_Capture
 uri: 'apis/image capture'
 
 ---

@@ -145,7 +145,7 @@ We’d love to have your help in improving Web Platform Docs. Even the slightest
 
 Jouw hulp bij het verbeteren van de Web Platform Doc waarderen wij heel erg. Zelfs de geringste bijdrage kan een significante impact hebben op de site; van het mededelen van fouten in onze documentatie, tot het oplossen van deze fouten, omzetten van bestaande artikelen of zelfs compleet nieuwe inhoud bijdragen. Om meer te leren hierover, lees onze [Editor's Guide](/WPD:Editors_Guide).
 
--   Om fouten op de WebPlatform site aan te geven, gebruik de [Project Management pagina](http://project.webplatform.org). Lees onze [Fouten Indienen pagina](http://docs.webplatform.org/wiki/WPD:Filing_Bugs) voor meer informatie
+-   Om fouten op de WebPlatform site aan te geven, gebruik de [Project Management pagina](http://project.webplatform.org). Lees onze [Fouten Indienen pagina](/WPD:Filing_Bugs) voor meer informatie
 -   Als je vragen hebt over webplatform.org, zoek eerst een antwoord in de [FAQ](/WPD:FAQ).
 
 ## Houdt contact

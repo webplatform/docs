@@ -6,9 +6,10 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'Provides for the connection between remote peers, the transmission of locally generated MediaStream data and arbitrary data between peers.'
 tags:
-  0: API
-  1: Objects
-  3: WebRTC
+  - API_Objects
+  - API
+  - WebRTC
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -21,9 +22,6 @@ uri: apis/webrtc/RTCPeerConnection
 Provides for the connection between remote peers, the transmission of locally generated MediaStream data and arbitrary data between peers.
 
 ## Properties
-
-API Name
-:   Summary
 
 [iceGatheringState](/apis/webrtc/RTCPeerConnection/iceGatheringState)
 :   Returns the gathering state of the ICE agent.
@@ -83,9 +81,6 @@ API Name
 
 ## Methods
 
-API Name
-:   Summary
-
 [addIceCandidate](/apis/webrtc/RTCPeerConnection/addIceCandidate)
 :   Provides a remote candidate to the ICE agent.
 
@@ -127,9 +122,6 @@ API Name
 
 ## Events
 
-API Name
-:   Summary
-
 [icecandidate](/apis/webrtc/RTCPeerConnection/icecandidate)
 :
 
@@ -149,6 +141,3 @@ API Name
 
 [statechange](/apis/webrtc/RTCPeerConnection/statechange)
 :
-
-**Needs Examples**: This section should include examples.
-

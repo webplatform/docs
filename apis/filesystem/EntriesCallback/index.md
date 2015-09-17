@@ -6,9 +6,9 @@ readiness: 'Out of Date'
 standardization_status: 'W3C Working Draft'
 summary: "When readEntries() succeeds, this callback is made.\n"
 tags:
-  0: API
-  1: Objects
-  3: FileSystemAPI
+  - API_Objects
+  - API
+  - FileSystemAPI
 uri: apis/filesystem/EntriesCallback
 
 ---
@@ -23,9 +23,6 @@ When readEntries() succeeds, this callback is made.
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [handleEvent](/apis/filesystem/EntriesCallback/handleEvent)
 :   Used to supply an array of Entries as a response to a user query.

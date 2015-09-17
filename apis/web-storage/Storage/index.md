@@ -10,8 +10,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Provides access to a list of key/value pairs, sometimes called &quot;items&quot;. The amount of storage space is limited by browsers. Changes fire ''storage'' event on dom/Window.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - Webstorage
 uri: apis/web-storage/Storage
 
@@ -21,9 +20,6 @@ uri: apis/web-storage/Storage
 Provides access to a list of key/value pairs, sometimes called &quot;items&quot;. The amount of storage space is limited by browsers. Changes fire 'storage' event on dom/Window.
 
 ## Properties
-
-API Name
-:   Summary
 
 [length](/apis/web-storage/Storage/length)
 :   Returns the number of key/value pairs currently present in the list associated with the object.
@@ -35,9 +31,6 @@ API Name
 :   Provides a Storage object specific to the current top-level browsing context. The storage will be cleared after a browser restart. If you need a persistent storage, use [apis/web-storage/Storage/localStorage](/apis/web-storage/Storage/localStorage).
 
 ## Methods
-
-API Name
-:   Summary
 
 [clear](/apis/web-storage/Storage/clear)
 :   Causes the list associated with the object to be emptied of all key/value pairs, if there are any.

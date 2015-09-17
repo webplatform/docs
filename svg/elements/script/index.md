@@ -11,9 +11,9 @@ overview_table:
   '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
 readiness: 'In Progress'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - SVG
+  - Needs_Summary
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -21,8 +21,6 @@ todo_broken_links:
 uri: svg/elements/script
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Overview Table
 
 [DOM Interface](/dom/interface)

@@ -8,8 +8,7 @@ overview_table:
   Features: ''
 summary: 'References a URI that can be used as an identifier for a specific resource corresponding to the representation in this message''s payload.'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 uri: http/headers/Content-Location
 
 ---

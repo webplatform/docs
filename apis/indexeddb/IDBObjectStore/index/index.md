@@ -16,10 +16,10 @@ relationships:
     href: /apis/indexeddb/IDBObjectStore
 summary: 'Returns an IDBIndex representing an index that is part of the object store.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBObjectStore/index
 
 ---
@@ -47,8 +47,6 @@ var object = object.index(name);
 ## Return Value
 
 Returns an object of type DOM NodeDOM Node
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

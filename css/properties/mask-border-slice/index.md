@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'This property specifies inward offsets from the top, right, bottom, and left edges of the mask image, dividing it into nine regions: four corners, four edges, and a middle. The middle image part is discarded and treated as fully transparent black unless the fill keyword is present. The four values set the top, right, bottom and left offsets in that order, similar to the CSS border-image-slice property.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/mask-border-slice
 
 ---

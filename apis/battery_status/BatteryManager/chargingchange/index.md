@@ -8,9 +8,9 @@ summary: 'Fired when the battery charging state is updated.'
 tags:
   - Events
   - API
-  - Battery
-  - Status
+  - Battery_Status
   - Mobile
+  - Needs_Examples
 uri: 'apis/battery status/BatteryManager/chargingchange'
 
 ---
@@ -68,5 +68,3 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-

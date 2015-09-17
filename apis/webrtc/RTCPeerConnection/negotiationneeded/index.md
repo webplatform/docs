@@ -9,6 +9,7 @@ tags:
   - Events
   - API
   - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/negotiationneeded
 
 ---
@@ -66,5 +67,3 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-

@@ -23,8 +23,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'This property is a shorthand property for setting column-width and/or column-count.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/columns
 
 ---
@@ -80,7 +80,7 @@ column-count
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6288803)
+[View live example](http://gist.github.com/6288803)
 
 ## Related specifications
 

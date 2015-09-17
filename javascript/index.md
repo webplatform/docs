@@ -5,8 +5,7 @@ attributions:
 readiness: 'Ready to Use'
 summary: "JavaScript is the scripting language of the Web, enabling us to implement all kinds of powerful dynamic features.\n"
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

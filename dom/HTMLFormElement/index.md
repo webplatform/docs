@@ -12,8 +12,7 @@ relationships:
     href: /dom/HTMLElement
 summary: 'Represents an HTML &lt;form&gt;&lt;/form&gt; element'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/HTMLFormElement
 
@@ -30,9 +29,6 @@ Inherits from [HTMLElement](/dom/HTMLElement)[HTMLElement](/dom/HTMLElement)
 
 ## Methods
 
-API Name
-:   Summary
-
 [reset](/dom/HTMLFormElement/reset)
 :
 
@@ -46,9 +42,6 @@ API Name
 ## Inherited from HTMLElement
 
 ### Properties
-
-API Name
-:   Summary
 
 [aria-activedescendant](/aria/attributes/aria-activedescendant)
 :
@@ -762,10 +755,10 @@ API Name
 :   The attribute fill specifies the filling color or the behavior of an animation after it has finished.
 
 [fill-opacity](/svg/attributes/fill-opacity)
-:   Please refer to <http://docs.webplatform.org/wiki/css/properties/fill-opacity>
+:   Please refer to [/css/properties/fill-opacity](/css/properties/fill-opacity)
 
 [fill-rule](/svg/attributes/fill-rule)
-:   Please refer to <http://docs.webplatform.org/wiki/css/properties/fill-rule>
+:   Please refer to [/css/properties/fill-rule](/css/properties/fill-rule)
 
 [flood-color](/svg/attributes/flood-color)
 :
@@ -834,9 +827,6 @@ API Name
 :
 
 ### Methods
-
-API Name
-:   Summary
 
 [abort](/dom/HTMLElement/abort)
 :

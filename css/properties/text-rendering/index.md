@@ -16,10 +16,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'The text-rendering CSS property provides information to the browser about how to optimize when rendering text. Options are: legibility, speed or geometric precision.'
 tags:
-  0: CSS
-  1: Properties
-  3: Graphics
-  4: SVG
+  - CSS_Properties
+  - CSS
+  - Graphics
+  - SVG
 uri: css/properties/text-rendering
 
 ---

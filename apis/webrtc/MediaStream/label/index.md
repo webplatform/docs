@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'A globally unique identifier (GUID) of 36 characters that describes the media stream.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/MediaStream/label
 
 ---
@@ -39,6 +39,4 @@ var result = stream.label;
 ## Return Value
 
 Returns an object of type StringString
-
-**Needs Examples**: This section should include examples.
 

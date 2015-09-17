@@ -8,8 +8,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Working Draft'
 summary: 'Represents a DOM operation error object.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/DOMError
 
@@ -19,9 +18,6 @@ uri: dom/DOMError
 Represents a DOM operation error object.
 
 ## Properties
-
-API Name
-:   Summary
 
 [message](/dom/DOMError/message)
 :   Returns the message associated with an error that occurred during a DOM operation.

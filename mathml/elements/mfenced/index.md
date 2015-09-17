@@ -11,8 +11,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The MathML mfenced element provides the possibility to add custom opening and closing parentheses (such as brackets) and separators (such as commas or semicolons) to an expression. '
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - MathML
 uri: mathml/elements/mfenced
 

@@ -16,9 +16,7 @@ relationships:
     href: /dom/Location
 summary: 'Sets or retrieves the entire URL as a string.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Location/href
 

@@ -12,9 +12,9 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'An input field for setting a number value that falls in a given range.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
+  - Needs_Examples
 uri: html/elements/input/type/range
 
 ---
@@ -26,8 +26,6 @@ An input field for setting a number value that falls in a given range.
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

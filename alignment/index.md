@@ -1,8 +1,7 @@
 ---
 title: 'alignment'
 tags:
-  - Glossary
-  - Items
+  - Glossary_Items
 uri: alignment
 
 ---

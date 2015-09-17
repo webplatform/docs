@@ -11,9 +11,7 @@ relationships:
     href: /dom/Window
 summary: 'Closes the current browser window or tab, or HTML Application (HTA).'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/close
 

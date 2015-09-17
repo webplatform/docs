@@ -17,8 +17,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The object-fit property defines how content of a replaced element (e.g., a video or an image) is made to fit the dimensions of its containing box.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/object-fit
 
 ---
@@ -155,7 +155,7 @@ img {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6badc0b20d67be7d939f)
+[View live example](http://gist.github.com/6badc0b20d67be7d939f)
 
 ## Related specifications
 

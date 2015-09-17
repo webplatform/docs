@@ -7,8 +7,7 @@ notes:
 readiness: 'Almost Ready'
 summary: 'This page lists the properties, methods, and events of the screen object.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: css/cssom/screen
 
@@ -18,9 +17,6 @@ uri: css/cssom/screen
 This page lists the properties, methods, and events of the screen object.
 
 ## Properties
-
-API Name
-:   Summary
 
 [availHeight](/css/cssom/screen/availHeight)
 :

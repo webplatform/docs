@@ -11,8 +11,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'Links an image to a description of its content, for enhanced accessibility'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/longdesc
 

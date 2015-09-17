@@ -1,11 +1,7 @@
 ---
 title: 'What does a good web page need'
 tags:
-  - Pages
-  - with
-  - broken
-  - file
-  - links
+  - Pages_with_broken_file_links
   - Tutorials
   - WSC
 uri: 'tutorials/What does a good web page need'

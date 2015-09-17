@@ -4,7 +4,7 @@ attributions:
   - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
   - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Predefined_Core_Objects)'
 notes:
-  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: [[1]] \n\n\n\n\nSplit Candidate:   Currently this page handles all Core Objects. These should be split to seperate pages, with links to the individual pages from the javascript Objects page.\n\n"
+  - "Merge Candidate:  This page is a candidate for merge with the following pages: [[1]] \n\n\n\n\nSplit Candidate:   Currently this page handles all Core Objects. These should be split to seperate pages, with links to the individual pages from the javascript Objects page."
 readiness: 'In Progress'
 summary: 'This chapter describes the predefined objects in core JavaScript: Array, Boolean, Date, Function, Math, Number, RegExp, and String.'
 tags:
@@ -427,7 +427,7 @@ var a3 = ['1', '2', '3'];
 alert(a3.some(isNumber)); // Alerts false
 ```
 
- The methods above that take a callback are known as *iterative methods*, because they iterate over the entire array in some fashion. Each one takes an optional second argument called `thisObject`. If provided, `thisObject` becomes the value of the `this` keyword inside the body of the callback function. If not provided, as with other cases where a function is invoked outside of an explicit object context, `this` will refer to the global object ([`window`](http://docs.webplatform.org/en-US/docs/DOM/window)).
+ The methods above that take a callback are known as *iterative methods*, because they iterate over the entire array in some fashion. Each one takes an optional second argument called `thisObject`. If provided, `thisObject` becomes the value of the `this` keyword inside the body of the callback function. If not provided, as with other cases where a function is invoked outside of an explicit object context, `this` will refer to the global object ([`window`](/en-US/docs/DOM/window)).
 
 The callback function is actually called with three arguments. The first is the value of the current item, the second is its array index and the third is a reference to the array itself. JavaScript functions ignore any arguments that are not named in the parameter list so it is safe to provide a callback function that only takes a single argument, such as `alert`.
 

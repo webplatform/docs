@@ -15,11 +15,11 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Represents the shadow root style sheets.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: DOM
-  5: Shadow
+  - API_Object_Properties
+  - API
+  - DOM
+  - Shadow_DOM
+  - Needs_Examples
 uri: dom/shadowdom/ShadowRoot/styleSheets
 
 ---
@@ -41,6 +41,4 @@ element.styleSheets = value;
 Returns an object of type StyleSheetListStyleSheetList
 
 On getting, the attribute must return a StyleSheetList sequence containing the shadow root style sheets.
-
-**Needs Examples**: This section should include examples.
 

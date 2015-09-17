@@ -12,15 +12,8 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'The checkbox type of the &lt;input&gt; element represents a state or option that can be toggled.'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Elements
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

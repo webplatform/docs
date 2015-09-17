@@ -13,8 +13,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The hr element represents a paragraph-level thematic break in text.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
   - XHTML
 uri: html/elements/hr

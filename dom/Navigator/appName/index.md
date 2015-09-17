@@ -17,9 +17,7 @@ relationships:
     href: /dom/Navigator
 summary: "appName Returns a string with the name of the browser/user agent.\nThe HTML5 specification also allows any browser to return &quot;Netscape&quot; here, for compatibility reasons.\n"
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - JavaScript
 uri: dom/Navigator/appName

@@ -16,10 +16,10 @@ relationships:
     href: /apis/indexeddb/IDBObjectStore
 summary: 'Creates a cursor.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBObjectStore/openCursor
 
 ---
@@ -54,8 +54,6 @@ var object = object.openCursor(range, direction);
 ## Return Value
 
 Returns an object of type DOM NodeDOM Node
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

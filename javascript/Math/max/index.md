@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the larger of a set of supplied numeric expressions.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Math/max
 
 ---

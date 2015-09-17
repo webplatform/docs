@@ -10,9 +10,8 @@ notes:
 readiness: 'Not Ready'
 summary: 'An object that contains a regular expression pattern along with flags that identify how to apply the pattern.'
 tags:
-  0: JS
-  1: Basic
-  3: Object
+  - JS_Basic
+  - JS_Object
 uri: 'javascript/regular expression'
 
 ---

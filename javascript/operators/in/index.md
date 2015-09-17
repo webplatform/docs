@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Tests for the existence of a property in an object.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/operators/in
 
 ---

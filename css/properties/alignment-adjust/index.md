@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'This property allows precise alignment of elements, such as graphics, that do not have a baseline-table or lack the desired baseline in their baseline-table. With the alignment-adjust property, the position of the baseline identified by the alignment-baseline can be explicitly determined. It also determines precisely the alignment point for each glyph within a textual element.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/alignment-adjust
 
 ---
@@ -136,7 +136,7 @@ mathematical
 </p>
 ```
 
-[View live example](http://code.webplatform.org/gist/6363838)
+[View live example](http://gist.github.com/6363838)
 
 ``` css
 /**

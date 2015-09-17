@@ -3,8 +3,7 @@ title: 'User eXperience (UX)'
 readiness: 'Almost Ready'
 summary: 'An introduction to user experience (UX) and how it applies to web projects.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Design
   - UI
   - Usability

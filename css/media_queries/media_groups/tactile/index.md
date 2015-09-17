@@ -5,9 +5,8 @@ notes:
 readiness: 'Not Ready'
 summary: 'The ''tactile media group is used to identify CSS properties and features that apply to a media type that is experienced by the user through touch.'
 tags:
+  - CSS_Media_Groups
   - CSS
-  - Media
-  - Groups
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

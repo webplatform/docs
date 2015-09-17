@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Adds a medium to the end of the current list. If the medium is already used, it is first removed.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: css/cssom/CSSMediaList/appendMedium
 
 ---
@@ -44,8 +43,6 @@ Method of [css/cssom/CSSMediaList/CSSMediaList](/css/cssom/CSSMediaList/CSSMedia
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

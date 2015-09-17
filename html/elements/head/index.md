@@ -15,8 +15,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The head element (&lt;head&gt;) represents a collection of metadata for the document.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

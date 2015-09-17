@@ -5,8 +5,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'SVG WoW demos. Good showcase page, or could be used in separate pages?'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
   - SVG
 uri: 'svg wow demos'
 

@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the greatest integer less than or equal to its numeric argument.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Math/floor
 
 ---

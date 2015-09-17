@@ -19,8 +19,7 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: 'The page-break-before property sets the page-breaking behavior before an element. With CSS3, page-break-* properties are only aliases of the break-* properties. The CSS3 Fragmentation spec defines breaks for all CSS box fragmentation.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
 uri: css/properties/page-break-before
 
 ---

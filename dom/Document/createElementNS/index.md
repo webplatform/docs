@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Creates an element from the specified namespace as a stand-alone object (unattached to the DOM).'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Document/createElementNS
 

@@ -11,10 +11,10 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The list attribute refers to a &lt;datalist&gt; element specifying possible values to suggest for an input element.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
   - Usability
+  - Needs_Examples
 uri: html/attributes/list
 
 ---
@@ -37,8 +37,6 @@ Applies to
 This attribute allows for the developer to specify autofill values for an input element for the browser to present to a user.
 
 This can allow for things such as autocompletion, or faster site search. It would be possible to create an autocomplete such as on this site's search with a server side populated datalist.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

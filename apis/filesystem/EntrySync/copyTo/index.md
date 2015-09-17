@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Copy an EntrySync to a different location on the file system.\n"
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileSystemAPI
+  - API_Object_Methods
+  - API
+  - FileSystemAPI
+  - Needs_Examples
 uri: apis/filesystem/EntrySync/copyTo
 
 ---
@@ -59,8 +59,6 @@ The new name of the EntrySync. Defaults to the EntrySync's current name if unspe
 Returns an object of type
 
 EntrySync
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

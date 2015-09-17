@@ -1,8 +1,7 @@
 ---
 title: 'future'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
 uri: concepts/programming/javascript/future
 
 ---

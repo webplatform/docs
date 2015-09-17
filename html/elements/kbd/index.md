@@ -12,8 +12,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The ''kbd element denotes user input. Typically this is keyboard input (hence &quot;kbd&quot;), but it may also be used to represent other user input, e.g. voice commands or gestures.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
   - XHTML
 uri: html/elements/kbd

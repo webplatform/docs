@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'Adds a record to the specified object store.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBObjectStore/add
 
 ---

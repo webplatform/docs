@@ -17,8 +17,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'unicode-range allows you to set a specific range of characters to be downloaded from a font (embedded using @font-face) and made available for use on the current page.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/unicode-range
 
 ---
@@ -78,7 +78,7 @@ A single paragraph of HTML, including an ampersand. We have wrapped the ampersan
 <p>Me & You = Us</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/6366676)
+[View live example](http://gist.github.com/6366676)
 
 The CSS for the example above: you can see that we are in effect defining a completely separate `@font-face` that only includes a single character in it, meaning that we don't need to download the entire font to get what we want if it is a hosted font, and if it is a local font as in this example, we can at least cut down on extra markup and styles (we could also do this by wrapping the ampersand in a `<span>` and applying a different font just to that, but that is an extra element and ruleset!)
 

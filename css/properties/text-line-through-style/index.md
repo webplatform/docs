@@ -18,8 +18,8 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Working Draft'
 summary: "Specifies the line style for line-through text decoration.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-line-through-style
 
 ---

@@ -12,36 +12,26 @@ relationships:
     href: /dom/MouseEvent
 standardization_status: 'W3C Candidate Recommendation'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/DragEvent
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Inherits from [MouseEvent](/dom/MouseEvent)[MouseEvent](/dom/MouseEvent)
 
 ## Properties
-
-API Name
-:   Summary
 
 [dataTransfer](/dom/DragEvent/dataTransfer)
 :
 
 ## Methods
 
-API Name
-:   Summary
-
 [initDragEvent](/dom/DragEvent/initDragEvent)
 :   Initializes a new drag event.
 
 ## Events
-
-API Name
-:   Summary
 
 [drag](/dom/DragEvent/drag)
 :
@@ -67,9 +57,6 @@ API Name
 ## Inherited from MouseEvent
 
 ### Properties
-
-API Name
-:   Summary
 
 [button](/dom/MouseEvent/button)
 :   Gets the mouse button that caused an event.
@@ -110,16 +97,10 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initMouseEvent](/dom/MouseEvent/initMouseEvent)
 :   Initializes a new mouse event that the [**createEvent**](/dom/Document/createEvent) method created.
 
 ### Events
-
-API Name
-:   Summary
 
 [click](/dom/MouseEvent/click)
 :   The click event is triggered for an element when it is activated by a mouse click or by another user action that normally has the same effect as a mouse click.
@@ -147,8 +128,6 @@ API Name
 
 [mouseup](/dom/MouseEvent/mouseup)
 :   Fires when the user releases a mouse button while the mouse is over the object.
-
-**Needs Examples**: This section should include examples.
 
 ### Standards information
 

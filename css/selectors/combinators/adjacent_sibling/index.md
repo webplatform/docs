@@ -11,8 +11,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'This is referred to as an adjacent selector. It will select only the element that is immediately preceded by the former element.'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 uri: 'css/selectors/combinators/adjacent sibling'
 
 ---
@@ -30,7 +30,7 @@ li + li {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/8928240)
+[View live example](http://gist.github.com/8928240)
 
 ## Notes
 

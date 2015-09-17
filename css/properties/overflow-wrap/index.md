@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'This property specifies whether or not particularly long words will be ''broken'' (separated into multiple lines) if necessary in order to fit in within its container.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/overflow-wrap
 
 ---
@@ -89,7 +89,7 @@ p:nth-child(2) {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5842405)
+[View live example](http://gist.github.com/5842405)
 
 ## Usage
 

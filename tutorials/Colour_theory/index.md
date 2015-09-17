@@ -5,11 +5,7 @@ notes:
 readiness: 'Almost Ready'
 summary: 'This article discusses the basics of colour theory as it applies to Web design.'
 tags:
-  - Pages
-  - with
-  - broken
-  - file
-  - links
+  - Pages_with_broken_file_links
   - Tutorials
   - WSC
 uri: 'tutorials/Colour theory'

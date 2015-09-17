@@ -9,8 +9,8 @@ tags:
   - Events
   - API
   - Mobile
-  - Network
-  - Information
+  - Network_Information
+  - Needs_Examples
 uri: 'apis/network information/Connection/change'
 
 ---
@@ -72,8 +72,6 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 As of 25 June 2014:

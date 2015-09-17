@@ -17,9 +17,10 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The voice-duration property allows the author to explicitly set the amount of time it should take a speech synthesizer to read an element''s content, for example to allow the speech to be synchronized with other media.  With a value of  auto (the default) the length of time it takes to read the content is determined by the content itself and the voice-rate property.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
   - Accessibility
+  - CSS
+  - Needs_Examples
 uri: css/properties/voice-duration
 
 ---
@@ -53,8 +54,6 @@ Animatable
 ## Syntax
 
 ## Values
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

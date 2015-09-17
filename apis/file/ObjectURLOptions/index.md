@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Provides the oneTimeOnly property for use with the createObjectURL method.'
 tags:
-  0: API
-  1: Objects
-  3: FileAPI
+  - API_Objects
+  - API
+  - FileAPI
 uri: apis/file/ObjectURLOptions
 
 ---

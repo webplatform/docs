@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Determines whether a content attribute in a specified namespace exists on an element.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/Element/hasAttributeNS
 
 ---
@@ -57,8 +56,6 @@ var attributeExists = element.hasAttributeNS(namespaceURI, name);
 Returns an object of type BooleanBoolean
 
 Whether the specified attribute exists.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

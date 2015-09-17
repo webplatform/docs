@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'The following table lists predefined JavaScript constants that you can use in expressions.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/constants
 
 ---

@@ -11,10 +11,10 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The ‘baseline-shift’ property allows repositioning of the dominant-baseline( a baseline-table and a baseline-table font-size which are those of the nearest block-level ancestor element and are applied to its root inline box.) relative to the dominant-baseline.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - DOM
   - SVG
+  - Needs_Examples
 uri: svg/attributes/baseline-shift
 
 ---
@@ -35,8 +35,6 @@ Applies to
 </tr>
 </table>
 Name: baseline-shift Value: baseline
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

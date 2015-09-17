@@ -5,8 +5,7 @@ notes:
 readiness: 'Almost Ready'
 summary: 'To learn how web browsers react, it is quite useful to have automated tools. But modern browsers are now doing a very good job at behaving the same. Unless you are digging right away with technologies that are still in early adoption, you do not need browser testing tools.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: 'Beginners/browser testing'
 
 ---

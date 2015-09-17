@@ -8,7 +8,7 @@ tags:
 uri: 'tutorials/audio/intro web audio api 2'
 
 ---
-**By [Dave Gash](http://docs.webplatform.org/wiki/User:Dgash)**
+**By [Dave Gash](/User:Dgash)**
 Originally published November 7, 2012
 
 ## Summary
@@ -25,7 +25,7 @@ The web audio API is not to be confused with the HTML5 `<audio>` element. For in
 
 The web audio API is high-level JavaScript interface that is about much more than just playing sounds. With it, you can process, synthesize, mix, visualize, filter, and otherwise manipulate audio data with extreme precision to accomplish tasks and achieve results previously found only in high-end commercial audio applications.
 
-In [Part 1](http://docs.webplatform.org/wiki/tutorials/intro_web_audio_api_1) of this tutorial, we explored the basics of the API; in this part, we'll learn how to insert a processor node in the audio path and use it to modify the sound between the source and destination nodes.
+In [Part 1](/tutorials/intro_web_audio_api_1) of this tutorial, we explored the basics of the API; in this part, we'll learn how to insert a processor node in the audio path and use it to modify the sound between the source and destination nodes.
 
 ## A quick recap of part 1
 
@@ -45,7 +45,7 @@ The next reasonable step is a connection case that consists of a web app with a 
 
 *A context with a processor between the source and destination* ![wap2b-basic-trans.gif](/assets/public/7/7a/wap2b-basic-trans.gif)
 
-Be sure you understand how the nodes are created and linked together as described in [Part 1](http://docs.webplatform.org/wiki/tutorials/intro_web_audio_api_1) before proceeding with this part of the tutorial.
+Be sure you understand how the nodes are created and linked together as described in [Part 1](/tutorials/intro_web_audio_api_1) before proceeding with this part of the tutorial.
 
 ## A simple processor node
 

@@ -2,6 +2,8 @@
 title: 'Getting started with WebGL'
 attributions:
   - 'This content was originally published on [DevOpera](http://dev.opera.com), Opera''s Developer Network. .'
+code_samples:
+  - 'http://www.khronos.org/registry/typedarray/specs/latest/'
 readiness: 'Ready to Use'
 summary: 'This article covers what you need to get started with WebGL'
 tags:

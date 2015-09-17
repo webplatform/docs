@@ -5,8 +5,7 @@ notes:
 readiness: 'In Progress'
 summary: 'List of all pages in svg/methods/'
 tags:
-  - API
-  - Listings
+  - API_Listings
   - SVG
 uri: svg/methods
 

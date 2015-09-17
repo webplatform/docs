@@ -10,9 +10,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'Sets the year value in the Date object. Deprecated in favor of the setFullYear method.'
 tags:
-  0: JS
-  1: Basic
-  3: Method
+  - JS_Basic
+  - JS_Method
+  - Needs_Examples
 uri: javascript/Date/setYear
 
 ---
@@ -29,8 +29,6 @@ Sets the year value in the Date object. Deprecated in favor of the setFullYear m
 
 **numYear**
 :   Required. For the years 1900 through 1999, this is a numeric value equal to the year minus 1900. For dates outside that range, this is a 4-digit numeric value.
-
-**Needs Examples**: This section should include examples.
 
 ## Remarks
 

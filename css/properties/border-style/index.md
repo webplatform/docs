@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Sets the style of an element''s four borders. This property can have from one to four values. With only one value, the value will be applied to all four borders; otherwise, this works as a shorthand property for each of border-top-style, border-right-style, border-bottom-style, border-left-style, where each border style may be assigned a separate value.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-style
 
 ---
@@ -150,7 +150,7 @@ Border styles in CSS.
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5544029)
+[View live example](http://gist.github.com/5544029)
 
 ## Usage
 

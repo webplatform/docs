@@ -16,10 +16,10 @@ relationships:
     href: /apis/indexeddb/IDBDatabase
 summary: 'Execute the steps for creating a transaction in a sychronous fashion.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBDatabase/transaction
 
 ---
@@ -66,8 +66,6 @@ Objects in the database can be create
 ## Return Value
 
 Returns an object of type DOM NodeDOM Node
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

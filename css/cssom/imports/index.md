@@ -6,14 +6,12 @@ notes:
   - 'Needs summary, spec reference, standardization status'
 readiness: 'In Progress'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Summary
 uri: css/cssom/imports
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Properties
 
 *No properties.*

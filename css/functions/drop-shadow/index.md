@@ -10,10 +10,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: "Applies a shadow to an element's pixels, for use by\nthe filter property.  Accepts up to 3\ndistance measurements, representing x/y offset and blur\nradius, along with a color value.\n"
 tags:
-  0: CSS
-  1: Functions
-  3: Graphics
-  4: SVG
+  - CSS_Functions
+  - CSS
+  - Graphics
+  - SVG
 uri: css/functions/drop-shadow
 
 ---

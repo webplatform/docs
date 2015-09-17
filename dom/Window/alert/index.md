@@ -12,9 +12,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Displays a synchronized dialog box showing the given text and a localized OK button.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/alert
 

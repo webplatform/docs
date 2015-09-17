@@ -16,10 +16,10 @@ relationships:
     href: /apis/indexeddb/IDBCursor
 summary: 'Creates a structured clone of the value parameter.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -53,8 +53,6 @@ Returns an object of type DOM NodeDOM Node
 [**IDBRequest**](/apis/indexeddb/IDBRequest)
 
 An object representing the update request.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

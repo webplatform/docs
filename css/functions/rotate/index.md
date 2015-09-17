@@ -11,8 +11,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Rotates an element clockwise around its origin (as specified by the transform-origin property) by the specified angle. The operation corresponds to the matrix [cos(angle) sin(angle) -sin(angle) cos(angle) 0 0].'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/rotate()
 
 ---
@@ -30,7 +30,7 @@ div {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/10500f11ec6168049ba5)
+[View live example](http://gist.github.com/10500f11ec6168049ba5)
 
 ### Syntax
 
@@ -39,7 +39,7 @@ div {
 ### Parameters
 
 *angle*
-:   The angle by which the element is rotated about its origin. If not specified otherwise, the element rotates around its center. The origin can be specified with the [transform-origin property](http://docs.webplatform.org/wiki/css/properties/transform-origin). This value is expressed as an integer or decimal number followed by a supported angle unit.
+:   The angle by which the element is rotated about its origin. If not specified otherwise, the element rotates around its center. The origin can be specified with the [transform-origin property](/css/properties/transform-origin). This value is expressed as an integer or decimal number followed by a supported angle unit.
 
 ### Standards information
 

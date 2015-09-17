@@ -7,11 +7,7 @@ notes:
 readiness: 'Almost Ready'
 summary: 'Creating an advanced shader, building on the simple shader tutorial.'
 tags:
-  - Pages
-  - with
-  - broken
-  - file
-  - links
+  - Pages_with_broken_file_links
   - Tutorials
 uri: 'tutorials/webgl an advanced shader'
 

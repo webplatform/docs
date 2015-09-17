@@ -6,15 +6,14 @@ notes:
   - 'Needs summary, spec reference, standardization status'
 readiness: 'In Progress'
 tags:
-  0: API
-  1: Objects
-  3: DOM
-  4: XHR
+  - API_Objects
+  - API
+  - DOM
+  - XHR
+  - Needs_Summary
 uri: apis/xhr/objects/DOMParser
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Properties
 
 *No properties.*

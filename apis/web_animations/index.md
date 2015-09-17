@@ -6,19 +6,15 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Javascript programming interface for modeling synchronizing and timing the changes to a web page''s presentation.'
 tags:
-  0: API
-  1: Listings
-  3: Web
-  4: Animations
+  - API_Listings
+  - API
+  - Web_Animations
 uri: 'apis/web animations'
 
 ---
 ## Summary
 
 Javascript programming interface for modeling synchronizing and timing the changes to a web page's presentation.
-
-API Name
-:   Summary
 
 [Animatable](/apis/web_animations/Animatable)
 :   Objects that may be the target of an [**Animation**](/apis/web_animations/Animation) implement the Animatable interface.

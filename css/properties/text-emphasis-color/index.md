@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The text-emphasis-color property specifies the foreground color of the emphasis marks.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-emphasis-color
 
 ---
@@ -71,7 +71,7 @@ p {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5654528)
+[View live example](http://gist.github.com/5654528)
 
 ## Notes
 

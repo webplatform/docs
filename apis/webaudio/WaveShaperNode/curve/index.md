@@ -9,10 +9,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The shaping curve used for the waveshaping effect. The input signal is nominally within the range -1 -&gt; +1. Each input sample within this range will index into the shaping curve with a signal level of zero corresponding to the center value of the curve array. Any sample value less than -1 will correspond to the first value in the curve array. Any sample value less greater than +1 will correspond to the last value in the curve array.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
 uri: apis/webaudio/WaveShaperNode/curve
 
 ---

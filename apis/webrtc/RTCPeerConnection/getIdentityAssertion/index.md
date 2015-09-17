@@ -14,10 +14,10 @@ relationships:
     href: /apis/webrtc/RTCPeerConnection
 summary: 'Provides an identity assertion.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebRTC
+  - API_Object_Methods
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/getIdentityAssertion
 
 ---
@@ -36,8 +36,6 @@ var result = element.getIdentityAssertion();
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

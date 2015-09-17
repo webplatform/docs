@@ -15,8 +15,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The HTML &lt;meter&gt; element represents a value within a specified range.  This value can be any real number.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - DOM
   - HTML
 todo_broken_links:
@@ -96,7 +95,7 @@ A basic example of the meter element
 <meter min="0" max="10" value="5">5 out of 10</meter>
 ```
 
-[View live example](http://code.webplatform.org/gist/5281236)
+[View live example](http://gist.github.com/5281236)
 
 An example of the meter element using all of its attributes
 
@@ -104,7 +103,7 @@ An example of the meter element using all of its attributes
 <meter min="0" max="1000" value="500" low="200" high="800" optimum="900">$500 raised</meter>
 ```
 
-[View live example](http://code.webplatform.org/gist/5281393)
+[View live example](http://gist.github.com/5281393)
 
 Styling options for the meter bar
 

@@ -9,7 +9,7 @@ tags:
 uri: 'tutorials/using the full-screen api'
 
 ---
-**By [Dave Gash](http://docs.webplatform.org/wiki/User:Dgash)**
+**By [Dave Gash](/User:Dgash)**
 Originally published October 12, 2012
 
 ## Summary

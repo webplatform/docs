@@ -17,8 +17,9 @@ overview_table:
 readiness: 'Not Ready'
 summary: "Obsolete and unsupported. Do not use.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/wrap-option
 
 ---
@@ -78,8 +79,6 @@ soft-wrap
 
 emergency
 :   The text is wrapped like for the 'wrap' case, except that the line-breaking algorithm will allow as a last resort option a text wrap after the last character which can fit before the ending edge of the line box, independently of 'line-break', 'word-break-cjk' and 'word-break-inside' properties. For example, this addresses the situation of very long words constrained in a fixed-width container with no scrolling allowed.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

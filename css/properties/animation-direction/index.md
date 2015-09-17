@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Defines whether an animation should run in reverse on some or all cycles.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/animation-direction
 
 ---
@@ -100,7 +100,7 @@ div.selected {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/7010365)
+[View live example](http://gist.github.com/7010365)
 
 ## Usage
 

@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Specifies the preferred scrolling methods for elements that overflow.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/overflow-style
 
 ---

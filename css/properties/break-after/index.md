@@ -19,9 +19,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The CSS break-after property allows you to force a break on multi-column layouts. More specifically, it allows you to force a break after an element. It allows you to determine if a break should occur, and what type of break it should be. The break-after CSS property describes how the page, column or region break behaves after the generated box. If there is no generated box, the property is ignored.'
 tags:
-  0: CSS
-  1: Properties
-  3: CSS-Regions
+  - CSS_Properties
+  - CSS
+  - CSS-Regions
 uri: css/properties/break-after
 
 ---
@@ -133,7 +133,7 @@ break-after: column;
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/7281550)
+[View live example](http://gist.github.com/7281550)
 
 ## Usage
 

@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Specifies how mask images are tiled (repeated) after they have been sized and positioned.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/mask-repeat
 
 ---

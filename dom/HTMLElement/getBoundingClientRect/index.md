@@ -19,9 +19,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns a ClientRect object that encloses a group of text rectangles. '
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - CSS
   - DOM
 uri: dom/HTMLElement/getBoundingClientRect

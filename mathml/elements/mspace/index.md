@@ -11,8 +11,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The MathML mspace element is used to display a blank space, whose size is set by its attributes.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - MathML
 uri: mathml/elements/mspace
 

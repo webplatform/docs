@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The start delay which represents the number of milliseconds from an animation node’s start time to the start of the active interval.'
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationTimingReadOnly/delay'
 
 ---
@@ -37,6 +35,4 @@ element.delay = value;
 ## Return Value
 
 Returns an object of type doubledouble
-
-**Needs Examples**: This section should include examples.
 

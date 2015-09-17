@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Sets or gets the string value of a cookie.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Document/cookie
 

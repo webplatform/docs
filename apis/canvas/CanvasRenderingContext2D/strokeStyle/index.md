@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The current style for stroking shapes. The style can be a CanvasGradient, a CanvasPattern, or a string containing a CSS color.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Canvas
+  - API_Object_Properties
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/strokeStyle
 
 ---

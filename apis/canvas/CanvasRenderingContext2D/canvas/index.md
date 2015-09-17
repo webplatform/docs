@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'A (read-only) reference to the canvas element that the CanvasRenderingContext2D object was created for.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Canvas
+  - API_Object_Properties
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/canvas
 
 ---

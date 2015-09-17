@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The shape of the periodic waveform. It may directly be set to any of the type constant values except for CUSTOM. The setWaveTable() method can be used to set a custom waveform, which results in this attribute being set to CUSTOM.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
 uri: apis/webaudio/OscillatorNode/type
 
 ---

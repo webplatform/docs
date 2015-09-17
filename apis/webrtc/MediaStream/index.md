@@ -3,14 +3,14 @@ title: 'MediaStream'
 code_samples:
   - 'https://github.com/samdutton/simpl/blob/master/getusermedia/wpd.html'
 notes:
-  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: [[apis/media_capture_and_streams/MediaStream]] \n\n"
+  - 'Merge Candidate:  This page is a candidate for merge with the following pages: [[apis/media_capture_and_streams/MediaStream]]'
 readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'The MediaStream interface of the WebRTC API describes a stream of audio or video data. A MediaStream object represents a linear, potentially infinite timeline. It is not preloadable, nor is it seekable.'
 tags:
-  0: API
-  1: Objects
-  3: WebRTC
+  - API_Objects
+  - API
+  - WebRTC
 uri: apis/webrtc/MediaStream
 
 ---
@@ -19,9 +19,6 @@ uri: apis/webrtc/MediaStream
 The MediaStream interface of the WebRTC API describes a stream of audio or video data. A MediaStream object represents a linear, potentially infinite timeline. It is not preloadable, nor is it seekable.
 
 ## Properties
-
-API Name
-:   Summary
 
 [audioTracks](/apis/webrtc/MediaStream/audioTracks)
 :   The MediaStreamTrackList object representing the audio tracks.
@@ -43,9 +40,6 @@ API Name
 *No methods.*
 
 ## Events
-
-API Name
-:   Summary
 
 [ended](/apis/MediaStream/ended)
 :   All tracks of the MediaStream object have ended; the MediaStream is said to be finished.

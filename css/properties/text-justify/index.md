@@ -19,8 +19,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The text-justify CSS property offers a fine level of justification control over the enclosed content, allowing for a variety of sophisticated justification models used in different language writing systems.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-justify
 
 ---
@@ -94,7 +94,7 @@ The first paragraph is using `inter-word` as a value of text-justify property, i
 <p class="japanese">日本語では、どのように表示されるかを見てみましょう。日本語の場合にはdistributeが使用される場合があります。</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/5671702)
+[View live example](http://gist.github.com/5671702)
 
 ``` css
 p {

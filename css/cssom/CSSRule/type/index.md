@@ -11,15 +11,13 @@ relationships:
     value: css/cssom/CSSRule
     href: /css/cssom/CSSRule
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: css/cssom/CSSRule/type
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [css/cssom/CSSRule](/css/cssom/CSSRule)[css/cssom/CSSRule](/css/cssom/CSSRule)
 
 ## Syntax
@@ -28,8 +26,6 @@ Property of [css/cssom/CSSRule](/css/cssom/CSSRule)[css/cssom/CSSRule](/css/csso
 var result = element.type;
 element.type = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

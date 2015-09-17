@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the value of a base expression taken to a specified power.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Math/pow
 
 ---

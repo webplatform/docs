@@ -17,9 +17,7 @@ relationships:
 standardization_status: Non-Standard
 summary: "Retrieves the operating system's natural language setting.\n"
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Navigator/userLanguage
 

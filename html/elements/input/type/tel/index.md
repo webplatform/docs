@@ -12,8 +12,7 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'An input field intended for entering a telephone number; does not enforce any syntax.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/input/type/tel
 

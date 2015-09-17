@@ -6,10 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Includes all resources fetched from the networking layer by the current browsing context.'
 tags:
-  0: API
-  1: Objects
-  3: Resource
-  4: Timing
+  - API_Objects
+  - API
+  - Resource_Timing
 uri: 'apis/resource timing/PerformanceResourceTiming'
 
 ---
@@ -18,9 +17,6 @@ uri: 'apis/resource timing/PerformanceResourceTiming'
 Includes all resources fetched from the networking layer by the current browsing context.
 
 ## Properties
-
-API Name
-:   Summary
 
 [connectEnd](/apis/resource_timing/PerformanceResourceTiming/connectEnd)
 :   Returns the time immediately after the user agent finishes establishing the connection to the server to retrieve the resource.

@@ -3,8 +3,7 @@ title: 'window.location'
 readiness: 'Ready to Use'
 summary: 'The location object provides access to the address related properties of the current document.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - JavaScript
 uri: apis/location
 
@@ -14,9 +13,6 @@ uri: apis/location
 The location object provides access to the address related properties of the current document.
 
 ## Properties
-
-API Name
-:   Summary
 
 [hash](/apis/location/hash)
 :   The hash property contains the fragment identifier (including hash character) for the current page.
@@ -45,9 +41,6 @@ API Name
 :   The search property contains the query string portion of the current url.
 
 ## Methods
-
-API Name
-:   Summary
 
 [assign](/apis/location/assign)
 :   Navigate to a new page.

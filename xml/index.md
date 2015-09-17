@@ -5,8 +5,7 @@ notes:
 readiness: 'In Progress'
 summary: 'The Extensible Markup Language (XML) is a subset of SGML Its goal is to enable generic SGML to be served, received, and processed on the Web in the way that is now possible with HTML. XML has been designed for ease of implementation and for interoperability with both SGML and HTML.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
   - XML
 uri: xml
 

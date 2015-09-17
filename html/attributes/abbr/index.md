@@ -6,13 +6,13 @@ compatibility:
   feature: abbr
   topic: html
 notes:
-  - "\nDeletion Candidate:   A more complete duplicate page exists \n\n"
+  - 'Deletion Candidate:   A more complete duplicate page exists'
 readiness: 'Not Ready'
 summary: 'Indicates an abbreviation or an acronym.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: html/attributes/abbr
 
 ---
@@ -32,8 +32,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 The global title attribute can be used in the `abbr` tag to show the full version of the abbreviation/acronym when you mouse over the `abbr` element.

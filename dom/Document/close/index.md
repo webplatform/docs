@@ -11,9 +11,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Closes an output stream and forces the sent data to display.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Document/close
 

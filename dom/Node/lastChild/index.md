@@ -12,9 +12,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets a reference to the last child in the childNodes collection of an object. '
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Node/lastChild
 

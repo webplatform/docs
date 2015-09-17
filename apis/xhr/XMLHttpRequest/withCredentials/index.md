@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns or sets whether cross-site Access-Control requests should be made using credentials such as cookies or authorization headers.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: XHR
+  - API_Object_Properties
+  - API
+  - XHR
 uri: apis/xhr/XMLHttpRequest/withCredentials
 
 ---

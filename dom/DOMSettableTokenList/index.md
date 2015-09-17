@@ -7,8 +7,7 @@ notes:
 readiness: 'In Progress'
 summary: 'The DOMSettableTokenList interface is the same as the DOMTokenList interface, except that it allows the underlying string to be changed.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/DOMSettableTokenList
 

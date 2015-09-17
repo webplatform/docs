@@ -6,18 +6,14 @@ notes:
   - 'Members section needs some debugging, extra bracket printed and tokens not linking. summary and examples needed as well please.'
 readiness: 'In Progress'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: css/cssom/CSSRule
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Properties
-
-API Name
-:   Summary
 
 [cssText](/css/cssom/CSSRule/cssText)
 :   Gets or sets a textual representation of a CSS rule.
@@ -35,8 +31,6 @@ API Name
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ### Standards information
 

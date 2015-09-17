@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The font-feature-settings property gets or sets one or more values that specify glyph substitution (special font characters such as ligatures and figures) and positioning in fonts that include OpenType layout features.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/font-feature-settings
 
 ---

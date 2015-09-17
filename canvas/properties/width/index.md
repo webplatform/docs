@@ -3,7 +3,7 @@ title: 'width'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
-  - "\nMove Candidate:   Probably should be under HTML5 canvas element. See HTML5 specification.\n\n"
+  - 'Move Candidate:   Probably should be under HTML5 canvas element. See HTML5 specification.'
 readiness: 'Not Ready'
 relationships:
   applies_to:
@@ -12,9 +12,7 @@ relationships:
     href: /dom/HTMLCanvasElement
 summary: 'Width property of canvas element.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: canvas/properties/width
 

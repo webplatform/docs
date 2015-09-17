@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The current canvas context font and characteristics, in the manner of the CSS font property.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Canvas
+  - API_Object_Properties
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/font
 
 ---

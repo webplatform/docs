@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Returns an HTMLCollection of the elements with the specified tag name and namespace.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/Document/getElementsByTagNameNS
 
 ---
@@ -57,8 +56,6 @@ var elements = document.getElementsByTagNameNS(namespace, localName);
 Returns an object of type ObjectObject
 
 A live HTMLCollection of elements.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

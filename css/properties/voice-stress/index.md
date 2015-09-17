@@ -17,9 +17,10 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The voice-stress property sets the level of vocal emphasis to be used for synthesized speech reading the element.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
   - Accessibility
+  - CSS
+  - Needs_Examples
 uri: css/properties/voice-stress
 
 ---
@@ -53,8 +54,6 @@ Animatable
 ## Syntax
 
 ## Values
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

@@ -5,8 +5,8 @@ notes:
 readiness: 'In Progress'
 summary: 'HTMLPictureElement is intended to give authors a way to control which image resource a user agent presents to a user, based on media query and/or support for a particular image format.'
 tags:
-  - API
-  - Objects
+  - API_Objects
+  - Needs_Examples
 uri: dom/HTMLPictureElement
 
 ---
@@ -25,6 +25,4 @@ HTMLPictureElement is intended to give authors a way to control which image reso
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 

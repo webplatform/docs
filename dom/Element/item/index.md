@@ -15,15 +15,13 @@ relationships:
     value: 'DOM Node'
     href: /dom/Element
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/Element/item
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
 ## Syntax
@@ -46,8 +44,6 @@ var object = object.item(/* see parameter list */);
 Returns an object of type DOM NodeDOM Node
 
 **IHTMLElement**
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

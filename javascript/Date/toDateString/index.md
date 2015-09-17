@@ -8,9 +8,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the date component of a date as a human readable string.'
 tags:
-  0: JS
-  1: Basic
-  3: Method
+  - JS_Basic
+  - JS_Method
 uri: javascript/Date/toDateString
 
 ---

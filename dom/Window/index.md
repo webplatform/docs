@@ -13,8 +13,7 @@ relationships:
     href: /dom/EventTarget
 summary: "The window object is the top level Javascript object in a page, and is the global scope for a browser tab.\nGlobal Javascript variables appear in the window object, as well as several important objects such as Document.\n"
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/Window
 
@@ -26,9 +25,6 @@ The window object is the top level Javascript object in a page, and is the globa
 Inherits from [EventTarget](/dom/EventTarget)[EventTarget](/dom/EventTarget)
 
 ## Properties
-
-API Name
-:   Summary
 
 [URL](/dom/Window/URL)
 :   Sets or gets the URL for the current document.
@@ -73,9 +69,6 @@ API Name
 :   Retrieves the topmost ancestor window.
 
 ## Methods
-
-API Name
-:   Summary
 
 [alert](/dom/Window/alert)
 :   Displays a synchronized dialog box showing the given text and a localized OK button.
@@ -153,9 +146,6 @@ API Name
 
 ## Events
 
-API Name
-:   Summary
-
 [message](/dom/Window/message)
 :   Fires when a message is received from another context (frame, window, worker and similar).
 
@@ -166,9 +156,6 @@ API Name
 *No properties.*
 
 ### Methods
-
-API Name
-:   Summary
 
 [addEventListener](/dom/EventTarget/addEventListener)
 :   Registers an event handler for the specified event type.

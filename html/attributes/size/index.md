@@ -10,8 +10,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'This article outlines the HTML attribute &quot;size&quot;, which allows the user to specify a width in characters of an &lt;input&gt; element.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/size
 

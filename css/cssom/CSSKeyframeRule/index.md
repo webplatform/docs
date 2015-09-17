@@ -6,18 +6,14 @@ notes:
   - 'Either remove headers that are unnecessary, redirect as a mention or footnote on a non-depreciated cssom property, or direct to a list of depreciated properties.'
 readiness: 'In Progress'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: css/cssom/CSSKeyframeRule
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Properties
-
-API Name
-:   Summary
 
 [keyText](/css/cssom/CSSKeyframeRule/keyText)
 :
@@ -38,8 +34,6 @@ API Name
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

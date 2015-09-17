@@ -13,9 +13,7 @@ relationships:
     href: /dom/Window
 summary: 'Changes the current size of the window by the specified x- and y-offset.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/resizeBy
 

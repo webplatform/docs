@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Schedules an exponential continuous change in parameter value from the previous scheduled parameter value to the given value. Parameters representing filter frequencies and playback rate are best changed exponentially because of the way humans perceive sound.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebAudio
+  - API_Object_Methods
+  - API
+  - WebAudio
 uri: apis/webaudio/AudioParam/exponentialRampToValueAtTime
 
 ---

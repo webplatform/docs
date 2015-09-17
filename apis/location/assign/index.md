@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Navigate to a new page.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - JavaScript
 uri: apis/location/assign
 

@@ -7,8 +7,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Applies CSS styles to portions of content as it appears when flowing within a specified set of regions.'
 tags:
-  - CSS
-  - Selectors
+  - CSS_Selectors
   - CSS-Regions
 uri: 'css/selectors/pseudo-elements/::region'
 

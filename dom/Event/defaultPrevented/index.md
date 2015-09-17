@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets whether the default action should be canceled.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/Event/defaultPrevented
 
 ---
@@ -43,8 +42,6 @@ var shouldPreventDefault = event.defaultPrevented;
 Returns an object of type BooleanBoolean
 
 Whether the default action should be canceled.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

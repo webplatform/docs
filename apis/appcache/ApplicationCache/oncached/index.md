@@ -14,10 +14,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The resources listed in the manifest have been downloaded, and the application is now cached.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - Appcache
+  - API
+  - Needs_Examples
 uri: apis/appcache/ApplicationCache/oncached
 
 ---
@@ -37,8 +37,6 @@ window.applicationCache.oncached = value;
 ## Return Value
 
 Returns an object of type nullnull
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

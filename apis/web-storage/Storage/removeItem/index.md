@@ -11,9 +11,7 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Removes the key/value pair with the given key from the list associated with the object, if it exists.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - Webstorage
 uri: apis/web-storage/Storage/removeItem
 

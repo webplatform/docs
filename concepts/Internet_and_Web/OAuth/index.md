@@ -5,17 +5,15 @@ notes:
 readiness: 'In Progress'
 summary: 'Description of the OAuth standard.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Security
+  - Needs_Examples
 uri: 'concepts/Internet and Web/OAuth'
 
 ---
 ## Summary
 
 Description of the OAuth standard.
-
-**Needs Examples**: This section should include examples.
 
 ## OAuth
 

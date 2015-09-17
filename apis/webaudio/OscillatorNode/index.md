@@ -4,9 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'OscillatorNode represents an audio source generating a periodic waveform. It can be set to a few commonly used waveforms. Additionally, it can be set to an arbitrary periodic waveform through the use of a WaveTable object. Oscillators are common foundational building blocks in audio synthesis.'
 tags:
-  0: API
-  1: Objects
-  3: WebAudio
+  - API_Objects
+  - API
+  - WebAudio
 uri: apis/webaudio/OscillatorNode
 
 ---
@@ -15,9 +15,6 @@ uri: apis/webaudio/OscillatorNode
 OscillatorNode represents an audio source generating a periodic waveform. It can be set to a few commonly used waveforms. Additionally, it can be set to an arbitrary periodic waveform through the use of a WaveTable object. Oscillators are common foundational building blocks in audio synthesis.
 
 ## Properties
-
-API Name
-:   Summary
 
 [detune](/apis/webaudio/OscillatorNode/detune)
 :   A detuning value (in cents) which will offset the frequency by the given amount. This parameter is a-rate.
@@ -34,9 +31,6 @@ API Name
 :   The shape of the periodic waveform. It may directly be set to any of the type constant values except for CUSTOM. The [**setWaveTable()**](/apis/webaudio/OscillatorNode/setWaveTable) method can be used to set a custom waveform, which results in this attribute being set to CUSTOM.
 
 ## Methods
-
-API Name
-:   Summary
 
 [setWaveTable](/apis/webaudio/OscillatorNode/setWaveTable)
 :   Sets an arbitrary custom periodic waveform given a [**WaveTable**](/apis/webaudio/WaveTable).

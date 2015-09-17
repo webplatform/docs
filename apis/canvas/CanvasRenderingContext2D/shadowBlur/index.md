@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies the level of the blurring effect. The units do not map to coordinate space units, and are not affected by the current transformation matrix.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Canvas
+  - API_Object_Properties
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/shadowBlur
 
 ---

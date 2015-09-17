@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Read-only. The length of the ArrayBuffer (in bytes).'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/ArrayBuffer/byteLength
 
 ---

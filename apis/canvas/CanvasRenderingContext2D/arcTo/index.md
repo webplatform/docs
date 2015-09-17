@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Check to be sure there''s a subpath for (x1, y1). Then, the behavior depends on the arguments and the last point in the subpath. See Notes.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Canvas
+  - API_Object_Methods
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/arcTo
 
 ---
@@ -138,7 +137,7 @@ This example creates an arc
 </html>
 ```
 
-[View live example](http://code.webplatform.org/gist/5034180)
+[View live example](http://gist.github.com/5034180)
 
 ## Notes
 

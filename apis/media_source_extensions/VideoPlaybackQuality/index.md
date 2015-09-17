@@ -6,8 +6,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Provides attributes that offer information about the quality for the video currently playing.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - Media
 uri: 'apis/media source extensions/VideoPlaybackQuality'
 
@@ -17,9 +16,6 @@ uri: 'apis/media source extensions/VideoPlaybackQuality'
 Provides attributes that offer information about the quality for the video currently playing.
 
 ## Properties
-
-API Name
-:   Summary
 
 [creationTime](/apis/media_source_extensions/VideoPlaybackQuality/creationTime)
 :   Gets the timestamp for when the VideoPlaybackQuality metrics were collected.

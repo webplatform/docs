@@ -11,20 +11,16 @@ relationships:
     value: HTMLElement
     href: /dom/HTMLElement
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/HTMLObjectElement
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Inherits from [HTMLElement](/dom/HTMLElement)[HTMLElement](/dom/HTMLElement)
 
 ## Properties
-
-API Name
-:   Summary
 
 [archive](/dom/HTMLObjectElement/archive)
 :
@@ -46,9 +42,6 @@ API Name
 ## Inherited from HTMLElement
 
 ### Properties
-
-API Name
-:   Summary
 
 [aria-activedescendant](/aria/attributes/aria-activedescendant)
 :
@@ -762,10 +755,10 @@ API Name
 :   The attribute fill specifies the filling color or the behavior of an animation after it has finished.
 
 [fill-opacity](/svg/attributes/fill-opacity)
-:   Please refer to <http://docs.webplatform.org/wiki/css/properties/fill-opacity>
+:   Please refer to [/css/properties/fill-opacity](/css/properties/fill-opacity)
 
 [fill-rule](/svg/attributes/fill-rule)
-:   Please refer to <http://docs.webplatform.org/wiki/css/properties/fill-rule>
+:   Please refer to [/css/properties/fill-rule](/css/properties/fill-rule)
 
 [flood-color](/svg/attributes/flood-color)
 :
@@ -835,9 +828,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [abort](/dom/HTMLElement/abort)
 :
 
@@ -895,6 +885,3 @@ API Name
 ### Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
-

@@ -9,8 +9,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Styles all elements with the specified class.'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 uri: css/selectors/class
 
 ---

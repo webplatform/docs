@@ -10,9 +10,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'References the function which created the instance of the Array object.'
 tags:
-  0: JS
-  1: Basic
-  3: Property
+  - JS_Basic
+  - JS_Property
 uri: javascript/Array/constructor
 
 ---
@@ -44,7 +43,7 @@ var x = new Array();
  // Object is an Array.
 ```
 
-[View live example](http://code.webplatform.org/gist/9237139)
+[View live example](http://gist.github.com/9237139)
 
 ## Remarks
 

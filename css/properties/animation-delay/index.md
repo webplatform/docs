@@ -22,8 +22,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Defines a length of time to elapse before an animation starts, allowing an animation to begin execution some time after it is applied.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/animation-delay
 
 ---
@@ -78,7 +78,7 @@ div.animationDelay {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/7011569)
+[View live example](http://gist.github.com/7011569)
 
 An example of a mobile-like interface in which concurrent *moveContent* and *insertBanner* animations introduce a colored banner header after a 4-second delay. A subsequent *scrollBanner* animation uses a similar delay to start 5 seconds after the page loads.
 
@@ -125,7 +125,7 @@ header {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/7012307)
+[View live example](http://gist.github.com/7012307)
 
 ## Usage
 

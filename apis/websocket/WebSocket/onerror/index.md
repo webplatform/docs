@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'An event listener to be called when an error occurs. Receives an event named &quot;error&quot;.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebSocket
+  - API_Object_Properties
+  - API
+  - WebSocket
 uri: apis/websocket/WebSocket/onerror
 
 ---

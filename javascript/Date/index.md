@@ -8,9 +8,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Enables basic storage and retrieval of dates and times.'
 tags:
-  0: JS
-  1: Basic
-  3: Object
+  - JS_Basic
+  - JS_Object
 uri: javascript/Date
 
 ---

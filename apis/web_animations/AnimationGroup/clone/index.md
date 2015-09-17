@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "Creates a deep copy of this AnimationGroup object using the following procedure.\n"
 tags:
-  - API
-  - Object
-  - Methods
-  - Web
-  - Animations
+  - API_Object_Methods
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationGroup/clone'
 
 ---
@@ -38,6 +36,3 @@ var  = .clone();
 ## Return Value
 
 Returns an object of type ObjectObject
-
-**Needs Examples**: This section should include examples.
-

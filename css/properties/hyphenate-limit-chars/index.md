@@ -20,8 +20,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Specifies the minimum number of characters in a hyphenated word'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/hyphenate-limit-chars
 
 ---

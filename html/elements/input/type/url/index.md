@@ -12,8 +12,7 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'An input field for entering a single, absolute URL value.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/input/type/url
 

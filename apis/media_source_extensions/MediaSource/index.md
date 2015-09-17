@@ -8,8 +8,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Represents a source of media data (audio or video) for a media element.'
 tags:
-  - API
-  - Objects
+  - API_Objects
 uri: 'apis/media source extensions/MediaSource'
 
 ---
@@ -28,9 +27,6 @@ Provides a buffer based source for a media object. The app creates a MediaSource
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [addSourceBuffer](/apis/media_source_extensions/MediaSource/addSourceBuffer)
 :   Creates a new SourceBuffer and adds it to the SourceBuffers property of the MediaSource.
@@ -78,7 +74,7 @@ function setupVideo() {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/9144919/)
+[View live example](http://gist.github.com/9144919/)
 
 ## Related specifications
 

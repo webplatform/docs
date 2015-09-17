@@ -15,9 +15,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Causes the object to scroll into view, aligning it either at the top or bottom of the window. '
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/TextRange/scrollIntoView
 

@@ -4,10 +4,10 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Representation of a timeline, including the document timeline.'
 tags:
-  0: API
-  1: Objects
-  3: Web
-  4: Animations
+  - API_Objects
+  - API
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationTimeline'
 
 ---
@@ -17,16 +17,10 @@ Representation of a timeline, including the document timeline.
 
 ## Properties
 
-API Name
-:   Summary
-
 [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 :   Returns the time value for this timeline or null if this timeline is inactive.
 
 ## Methods
-
-API Name
-:   Summary
 
 [getAnimationPlayers](/apis/web_animations/AnimationTimeline/getAnimationPlayers)
 :   Returns the set of [**Animation Player**](/apis/web_animations/AnimationPlayer) objects associated with this timeline that have associated source content which is current or in effect.
@@ -37,6 +31,3 @@ API Name
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
-

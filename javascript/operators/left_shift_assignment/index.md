@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Moves the specified number of bits to the left and assigns the result to result. The bits vacated by the operation are filled with 0.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/operators/left shift assignment'
 
 ---

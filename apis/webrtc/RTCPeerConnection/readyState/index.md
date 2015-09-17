@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the ready state of the peer connection.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/readyState
 
 ---
@@ -48,6 +48,4 @@ The RTCPeerState enum has the following values:
 -   have-remote-pranswer - a local description of type "offer" has been supplied and a remote description of type "pranswer" has been supplied
 -   active - both local and remote descriptions have been supplied, and the offer-answer exchange is complete
 -   closed - the connection is closed
-
-**Needs Examples**: This section should include examples.
 

@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "The final value controlling the audio DSP, calculated at each time, which is either the value set directly to the value attribute or, if there are any scheduled parameter changes (automation events), the value as calculated from these events.\n"
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
+  - Needs_Examples
 uri: apis/webaudio/AudioParam/computedValue
 
 ---
@@ -41,8 +41,6 @@ var result = AudioParam.computedValue;
 ## Return Value
 
 Returns an object of type NumberNumber
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

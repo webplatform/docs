@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Gets a new Float32Array view of the ArrayBuffer Object store for this array, specifying the first and last members of the subarray.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Float32Array/subarray
 
 ---

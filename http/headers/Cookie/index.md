@@ -11,8 +11,7 @@ overview_table:
 standardization_status: Mixed
 summary: "The Cookie headers may be used to receive the value of a cookie from a user agent. The value of the cookie will have been previously set though a script, or by the Set-Cookie header.\n"
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

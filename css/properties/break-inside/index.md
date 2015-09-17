@@ -18,9 +18,9 @@ overview_table:
 readiness: 'In Progress'
 summary: 'Control page/column/region breaks that fall within a block of content'
 tags:
-  0: CSS
-  1: Properties
-  3: CSS-Regions
+  - CSS_Properties
+  - CSS
+  - CSS-Regions
 uri: css/properties/break-inside
 
 ---

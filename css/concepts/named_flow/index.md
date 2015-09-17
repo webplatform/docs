@@ -5,8 +5,7 @@ notes:
 readiness: 'In Progress'
 summary: 'An object that contains content diverted from one set of elements, which can then be threaded through another series of regions that display the content.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - CSS-Regions
 uri: 'css/concepts/named flow'
 

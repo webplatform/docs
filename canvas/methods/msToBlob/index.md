@@ -3,7 +3,7 @@ title: 'msToBlob'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
-  - "\nMove Candidate:   Probably should be under HTML5 canvas element (as toBlob). See HTML5 specification.\n\n"
+  - 'Move Candidate:   Probably should be under HTML5 canvas element (as toBlob). See HTML5 specification.'
 readiness: 'Not Ready'
 relationships:
   method_of:
@@ -15,15 +15,13 @@ relationships:
     value: 'DOM Node'
     href: /dom/HTMLCanvasElement
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: canvas/methods/msToBlob
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [dom/HTMLCanvasElement](/dom/HTMLCanvasElement)[dom/HTMLCanvasElement](/dom/HTMLCanvasElement)
 
 ## Syntax
@@ -50,8 +48,6 @@ Type: **HRESULT**
 This method can return one of these values.
 
 {
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

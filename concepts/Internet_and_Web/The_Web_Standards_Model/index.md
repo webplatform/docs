@@ -3,8 +3,7 @@ title: 'The Web Standards Model — HTML, CSS and JavaScript'
 readiness: 'Ready to Use'
 summary: 'Continuing with our course, the concepts/internet_and_web/How_does_the_Internet_Work — HTML, CSS and JavaScript have been introduced. Now it’s time to dig a little deeper and to look at each of these — what they do, and how the three interact with each other to create a website.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
 uri: 'concepts/Internet and Web/The Web Standards Model'
 
 ---

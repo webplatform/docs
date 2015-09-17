@@ -14,8 +14,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The footer element (&lt;footer&gt;) represents content of the end of the nearest ancestor sectioning content or sectioning root element.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - Design
   - HTML
 uri: html/elements/footer

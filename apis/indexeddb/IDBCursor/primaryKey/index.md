@@ -12,10 +12,10 @@ relationships:
     href: /apis/indexeddb/IDBCursor
 summary: 'Returns the cursor''s current effective key.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBCursor/primaryKey
 
 ---
@@ -31,8 +31,6 @@ Property of [apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)[apis/indexeddb
 var result = element.primaryKey;
 element.primaryKey = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

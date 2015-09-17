@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Establishes the default object for a statement. Disallowed in strict mode.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/statements/with
 
 ---

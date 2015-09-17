@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The timing function used to scale the time to produce easing effects.'
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationTimingReadOnly/easing'
 
 ---
@@ -40,8 +38,6 @@ var result = element.easing;
 Returns an object of type ObjectObject
 
 DOMString
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

@@ -11,8 +11,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'When present, it specifies that the &lt;input&gt; element should not be validated when submitted.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/formNoValidate
 

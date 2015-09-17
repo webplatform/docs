@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'This property sets the mask image or the mask source of an element.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/mask-image
 
 ---

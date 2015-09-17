@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the primitive value of the specified number.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Number/valueOf
 
 ---

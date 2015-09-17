@@ -14,8 +14,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The audio element (&lt;audio&gt;) is used for playing audio files and may display a minimal media player user interface.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - Audio
   - HTML
   - Media
@@ -69,7 +68,7 @@ play a mp3 on webpage
 </audio>
 ```
 
-[View live example](http://code.webplatform.org/gist/7282145)
+[View live example](http://gist.github.com/7282145)
 
 ## Related specifications
 

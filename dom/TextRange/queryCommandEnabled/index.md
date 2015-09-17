@@ -17,9 +17,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Returns a Boolean value that indicates whether a specified command can be successfully executed using execCommand, given the current state of the document.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/TextRange/queryCommandEnabled
 

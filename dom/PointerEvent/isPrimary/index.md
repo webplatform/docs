@@ -11,9 +11,8 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns whether the pointer associated with the event is the primary pointer for the current mouse, touch, or pen interaction.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
+  - Needs_Examples
 uri: dom/PointerEvent/isPrimary
 
 ---
@@ -30,8 +29,6 @@ Property of [dom/PointerEvent](/dom/PointerEvent)[dom/PointerEvent](/dom/Pointer
 ``` js
 var result = event.isPrimary;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

@@ -15,11 +15,8 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Creates a copy of an Animation object.'
 tags:
-  - API
-  - Object
-  - Methods
-  - Web
-  - Animations
+  - API_Object_Methods
+  - Web_Animations
 uri: 'apis/web animations/Animation/clone'
 
 ---

@@ -5,8 +5,7 @@ notes:
 readiness: 'Almost Ready'
 summary: 'An interface for objects that store information regarding the position and dimension of an element.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: css/cssom/ClientRect
 
@@ -16,9 +15,6 @@ uri: css/cssom/ClientRect
 An interface for objects that store information regarding the position and dimension of an element.
 
 ## Properties
-
-API Name
-:   Summary
 
 [bottom](/css/cssom/ClientRect/bottom)
 :   Returns the *bottom* value for a **ClienRect** object.

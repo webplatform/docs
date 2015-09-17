@@ -10,8 +10,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Removes an alignment character set by the attribute ch.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/chOff
 

@@ -8,8 +8,7 @@ tags:
   - Tutorials
   - Canvas
   - CSS
-  - Developer
-  - Tools
+  - Developer_Tools
   - DOM
   - Graphics
   - HTML

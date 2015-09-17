@@ -9,10 +9,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Timing parameters for an AnimationNode are collected together under the AnimationTiming type.'
 tags:
-  - API
-  - Objects
-  - Web
-  - Animations
+  - API_Objects
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationTiming'
 
 ---
@@ -37,9 +36,6 @@ Inherits from [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingRead
 ## Inherited from AnimationTimingReadOnly
 
 ### Properties
-
-API Name
-:   Summary
 
 [delay](/apis/web_animations/AnimationTimingReadOnly/delay)
 :   The start delay which represents the number of milliseconds from an animation node’s start time to the start of the active interval.
@@ -83,6 +79,3 @@ API Name
 ### Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
-

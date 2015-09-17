@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Provides access to the associated gamepad data for this event.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Gamepad
+  - API_Object_Properties
+  - API
+  - Gamepad
 uri: apis/gamepad/GamepadEvent/gamepad
 
 ---

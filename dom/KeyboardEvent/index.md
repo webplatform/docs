@@ -11,20 +11,16 @@ relationships:
     value: UIEvent
     href: /dom/UIEvent
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/KeyboardEvent
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Inherits from [UIEvent](/dom/UIEvent)[UIEvent](/dom/UIEvent)
 
 ## Properties
-
-API Name
-:   Summary
 
 [altKey](/dom/KeyboardEvent/altKey)
 :
@@ -70,9 +66,6 @@ API Name
 
 ## Methods
 
-API Name
-:   Summary
-
 [getModifierState](/dom/KeyboardEvent/getModifierState)
 :   Queries the state of the specified modifier key.
 
@@ -80,9 +73,6 @@ API Name
 :   Initializes a new keyboard event that the [**createEvent**](/dom/Document/createEvent) method created.
 
 ## Events
-
-API Name
-:   Summary
 
 [keydown](/dom/KeyboardEvent/keydown)
 :
@@ -97,9 +87,6 @@ API Name
 
 ### Properties
 
-API Name
-:   Summary
-
 [detail](/dom/UIEvent/detail)
 :   Gets additional, developer defined, information about an event.
 
@@ -110,24 +97,16 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initUIEvent](/dom/UIEvent/initUIEvent)
 :   Initializes a new user interface event that the [createEvent](/dom/Document/createEvent) method created.
 
 ### Events
-
-API Name
-:   Summary
 
 [abort](/dom/UIEvent/abort)
 :   Fires when the user aborts the download.
 
 [activate](/dom/UIEvent/activate)
 :   Fires when the object is set as the active element.
-
-**Needs Examples**: This section should include examples.
 
 ### Standards information
 

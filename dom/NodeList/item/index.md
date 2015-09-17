@@ -14,10 +14,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets the nth item in the collection'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/NodeList/item
 
 ---
@@ -45,8 +44,6 @@ var result = list.item(index);
 ## Return Value
 
 Returns an object of type DOM NodeDOM Node
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

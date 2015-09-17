@@ -8,6 +8,7 @@ readiness: 'In Progress'
 summary: 'Fires when content at a data source has changed.'
 tags:
   - Events
+  - Needs_Examples
 uri: dom/Event/datasetchanged
 
 ---
@@ -69,8 +70,6 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

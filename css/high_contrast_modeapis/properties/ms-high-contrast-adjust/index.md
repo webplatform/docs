@@ -11,15 +11,13 @@ relationships:
     value: css/media_queries/media_groups/bitmap
     href: /css/media_queries/media_groups/bitmap
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: 'css/high contrast modeapis/properties/ms-high-contrast-adjust'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [css/media\_queries/media\_groups/bitmap](/css/media_queries/media_groups/bitmap)[css/media\_queries/media\_groups/bitmap](/css/media_queries/media_groups/bitmap)
 
 ## Syntax
@@ -28,8 +26,6 @@ Property of [css/media\_queries/media\_groups/bitmap](/css/media_queries/media_g
 var result = element.ms-high-contrast-adjust;
 element.ms-high-contrast-adjust = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

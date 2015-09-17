@@ -4,13 +4,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Enables access to local devices (video cameras, microphones, Web cams) that can generate multimedia stream data (video, audio, or both).'
 tags:
-  0: API
-  1: Listings
-  3: Media
-  4: Capture
-  5: and
-  6: Streams
-  7: WebRTC
+  - API_Listings
+  - API
+  - Media_Capture_and_Streams
+  - WebRTC
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

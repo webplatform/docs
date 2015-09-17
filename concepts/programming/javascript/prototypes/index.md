@@ -55,7 +55,7 @@ Setting a property to an object creates an own property. The only exception to t
 
 JavaScript does not have "methods" per se. JavaScript has functions and these functions can be used as property values. The inheritance of functions works the same way that any value, including property shadowing as shown above (which is a form of *method overriding*).
 
-The only thing that changes when functions are object properties (own or inherited) is the value of [`this`](http://docs.webplatform.org/en/JavaScript/Reference/Operators/this) when the function is executed.
+The only thing that changes when functions are object properties (own or inherited) is the value of [`this`](/en/JavaScript/Reference/Operators/this) when the function is executed.
 
     var o = {
        a: 2,
@@ -103,7 +103,7 @@ The only thing that changes when functions are object properties (own or inherit
 
 ### With a constructor
 
-A "constructor" in JavaScript is "just" a function that happens to be called with the [new operator](http://docs.webplatform.org/en/JavaScript/Reference/Operators/new).
+A "constructor" in JavaScript is "just" a function that happens to be called with the [new operator](/en/JavaScript/Reference/Operators/new).
 
     function Graph() {
        this.vertexes = [];
@@ -123,7 +123,7 @@ A "constructor" in JavaScript is "just" a function that happens to be called wit
 
 ### With Object.create
 
-ECMAScript 5 introduced a new method: [Object.create](http://docs.webplatform.org/en/JavaScript/Reference/Global_Objects/Object/create). Calling this method creates a new object. The prototype of this object is the first argument of the function:
+ECMAScript 5 introduced a new method: [Object.create](/en/JavaScript/Reference/Global_Objects/Object/create). Calling this method creates a new object. The prototype of this object is the first argument of the function:
 
     var a = {a: 1};
     // a ---> Object.prototype ---> null

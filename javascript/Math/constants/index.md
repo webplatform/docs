@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Math constants return constant values that are properties of the Math object.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Math/constants
 
 ---

@@ -8,8 +8,7 @@ overview_table:
   Features: ''
 summary: 'Contains information about the user agent originating the request.'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 uri: http/headers/User-Agent
 
 ---

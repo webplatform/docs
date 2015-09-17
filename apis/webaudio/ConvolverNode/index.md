@@ -4,9 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'This interface represents a processing node which applies a linear convolution effect given an impulse response.'
 tags:
-  0: API
-  1: Objects
-  3: WebAudio
+  - API_Objects
+  - API
+  - WebAudio
 uri: apis/webaudio/ConvolverNode
 
 ---
@@ -15,9 +15,6 @@ uri: apis/webaudio/ConvolverNode
 This interface represents a processing node which applies a linear convolution effect given an impulse response.
 
 ## Properties
-
-API Name
-:   Summary
 
 [buffer](/apis/webaudio/ConvolverNode/buffer)
 :   A mono, stereo, or 4-channel [**AudioBuffer**](/apis/webaudio/AudioBuffer) containing the (possibly multi-channel) impulse response used by the ****ConvolverNode****. At the time when this attribute is set, the buffer and the state of the normalize attribute will be used to configure the ****ConvolverNode**** with this impulse response having the given normalization.

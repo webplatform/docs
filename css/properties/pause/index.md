@@ -17,9 +17,10 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The pause property determines how long a speech media agent should pause before and after presenting an element.  It is a shorthand for the pause-before and pause-after properties.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
   - Accessibility
+  - CSS
+  - Needs_Examples
 uri: css/properties/pause
 
 ---
@@ -53,8 +54,6 @@ Animatable
 ## Syntax
 
 ## Values
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

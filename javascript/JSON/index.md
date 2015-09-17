@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'An intrinsic object that provides functions to convert JavaScript values to and from the JavaScript Object Notation (JSON) format. The JSON.stringify function serializes a JavaScript value to JSON text. The JSON.parse function deserializes JSON text to produce a JavaScript value.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/JSON
 
 ---

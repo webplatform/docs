@@ -11,11 +11,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Disconnects the port, so that it is no longer active.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Web
-  5: Messaging
+  - API_Object_Methods
+  - API
+  - Web_Messaging
 uri: apis/web-messaging/MessagePort/close
 
 ---

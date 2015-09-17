@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Suspends execution.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/statements/debugger
 
 ---

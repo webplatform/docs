@@ -16,8 +16,9 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'Specifies the line width for the line-through text decoration.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/text-line-through-width
 
 ---
@@ -51,8 +52,6 @@ Animatable
 ## Syntax
 
 ## Values
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

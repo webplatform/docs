@@ -14,8 +14,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The p (for paragraph) element (&lt;p&gt;) represents a paragraph.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/p
 

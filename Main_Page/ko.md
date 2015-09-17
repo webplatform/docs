@@ -150,7 +150,7 @@ CSS 스타일 시트에 대한 개념, 자습서, 참고자료
 
 웹 플랫폼 문서의 개선에 여러분의 참여를 기다립니다. 여러분의 작은 노력이 이 사이트에 중요한 영향을 줄 수 있습니다. 문서의 오류사항을 동료 개발자에게 알리거나, 이를 수정하거나, 기존의 콘텐츠를 가져오거나, 완전히 새로운 컨텐츠를 작성하는 등 다양한 방식으로 참여할 수 있습니다. 좀 더 자세한 사항은 [시작하기 가이드](/WPD:Getting_Started)를 확인해주세요.
 
--   웹 플랫폼에 버그를 등록하려면, [|W3C 버그 추적기](https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org)를 사용하세요. 더 자세한 내용은 [filing bugs page |버그 등록 안내](http://docs.webplatform.org/wiki/WPD:Filing_Bugs)를 확인하세요.
+-   웹 플랫폼에 버그를 등록하려면, [|W3C 버그 추적기](https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org)를 사용하세요. 더 자세한 내용은 [filing bugs page |버그 등록 안내](/WPD:Filing_Bugs)를 확인하세요.
 -   웹 플랫폼 사이트(webplatform.org)에 궁금한 점이 있으면, 먼저 [lFAQ](/WPD:FAQ)를 읽어주세요.
 
 ## 기타 연락 정보

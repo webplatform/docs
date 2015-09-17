@@ -15,8 +15,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: "The dd element represents the description, definition, or value, part of a term-description group in a definition list (dl). \n"
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -85,7 +84,7 @@ The example shows a simple definition list with two item/description pairs.
 </dl>
 ```
 
-[View live example](http://code.webplatform.org/gist/5821157)
+[View live example](http://gist.github.com/5821157)
 
 The example shows a definition list with a single item but multiple descriptions for that item.
 
@@ -98,7 +97,7 @@ The example shows a definition list with a single item but multiple descriptions
 </dl>
 ```
 
-[View live example](http://code.webplatform.org/gist/5821157)
+[View live example](http://gist.github.com/5821157)
 
 The example shows a definition list with a single description and multiple items fitting that description.
 
@@ -111,7 +110,7 @@ The example shows a definition list with a single description and multiple items
 </dl>
 ```
 
-[View live example](http://code.webplatform.org/gist/5821157)
+[View live example](http://gist.github.com/5821157)
 
 Typical browser default CSS properties for the **dd** element.
 

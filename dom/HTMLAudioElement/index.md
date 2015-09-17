@@ -11,8 +11,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The HTML &lt;audio&gt; element represents sound content in documents. This is part of the HTML5 specifications. Audio sources can be specified in the src attribute or by using a source element. There is also a fallback option for browsers which do not support this tag.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - Audio
   - DOM
   - HTML
@@ -41,9 +40,6 @@ Inherits from [HTMLMediaElement](/dom/HTMLMediaElement)[HTMLMediaElement](/dom/H
 ## Inherited from HTMLMediaElement
 
 ### Properties
-
-API Name
-:   Summary
 
 [audioTracks](/dom/HTMLMediaElement/audioTracks)
 :
@@ -116,9 +112,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [canPlayType](/dom/HTMLMediaElement/canPlayType)
 :
 
@@ -132,9 +125,6 @@ API Name
 :   Loads and starts playback of a media resource.
 
 ### Events
-
-API Name
-:   Summary
 
 [canplay](/dom/HTMLMediaElement/canplay)
 :   Fires whenever enough data is available to determine whether a media is playable.

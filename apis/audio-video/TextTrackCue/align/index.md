@@ -15,11 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'A string representing the text track cue alignment, as follows. If it is start alignment: the string &quot;start&quot;. If it is middle alignment: the string &quot;middle&quot;. If it is end alignment: the string &quot;end&quot;. If it is left alignment: the string &quot;left&quot;. If it is right alignment: the string &quot;right&quot;. Default is &quot;middle&quot;.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Audio
-  5: Video
+  - API_Object_Properties
+  - API
+  - Audio
+  - Video
 uri: apis/audio-video/TextTrackCue/align
 
 ---

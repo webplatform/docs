@@ -2,6 +2,8 @@
 title: 'Introduction to HTML5 games'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/canvas/notearsgame/)'
+code_samples:
+  - 'https://gist.github.com/768272'
 readiness: 'Ready to Use'
 summary: 'An intermediate tutorial for creating games using HTML5 and Canvas.'
 tags:

@@ -17,10 +17,10 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), decoded into memory according to the encoding determination.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileAPI
+  - API_Object_Methods
+  - API
+  - FileAPI
+  - Needs_Examples
 uri: apis/file/MSStreamReader/readAsText
 
 ---
@@ -62,6 +62,3 @@ Type: **HRESULT**
 This method can return one of these values.
 
 S\_OK
-
-**Needs Examples**: This section should include examples.
-

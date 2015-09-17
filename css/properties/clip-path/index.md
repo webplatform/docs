@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The clip-path property prevents a portion of an element from drawing by defining a clipping region.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/clip-path
 
 ---
@@ -129,7 +129,7 @@ img.clipped-text {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6338479)
+[View live example](http://gist.github.com/6338479)
 
 The three images that are clipped. The first one (`img.original`) is the original logo. The second one (`img.clipped-icon`) is clipped with a circle and the third one (`img.clipped-text`) is clipped with an ellipse.
 

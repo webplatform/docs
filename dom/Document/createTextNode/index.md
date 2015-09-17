@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Creates a text node containing the passed string (nodeValue).'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Document/createTextNode
 

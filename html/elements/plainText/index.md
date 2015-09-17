@@ -13,9 +13,9 @@ readiness: 'Not Ready'
 standardization_status: Non-Standard
 summary: 'The plaintext element (&lt;plaintext&gt;) is a deprecated tag that was used to indicate that the contents should be interpretted as raw text, without parsing any HTML entities or child tags.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
+  - Needs_Examples
 uri: html/elements/plainText
 
 ---
@@ -29,6 +29,3 @@ The plaintext element (&lt;plaintext&gt;) is a deprecated tag that was used to i
 :   [HTMLElement](/dom/HTMLElement)
 
 Seriously, this hasn't been seen since ancient times: <https://tools.ietf.org/html/rfc1866>
-
-**Needs Examples**: This section should include examples.
-

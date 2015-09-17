@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'A metadata index to a referenced object store.'
 tags:
-  0: API
-  1: Objects
-  3: IndexedDB
+  - API_Objects
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBIndex
 
 ---
@@ -17,9 +17,6 @@ uri: apis/indexeddb/IDBIndex
 A metadata index to a referenced object store.
 
 ## Properties
-
-API Name
-:   Summary
 
 [keyPath](/apis/indexeddb/IDBIndex/keyPath)
 :   The key path of this index. If null, this index is not auto-populated.
@@ -37,9 +34,6 @@ API Name
 :   Provides the unique flag of this index.
 
 ## Methods
-
-API Name
-:   Summary
 
 [count](/apis/indexeddb/IDBIndex/count)
 :   Runs the steps for asynchronously executing a request and returns the IDBRequest created by these steps.

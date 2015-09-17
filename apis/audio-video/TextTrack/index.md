@@ -4,10 +4,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'A media element can have a group of associated text tracks, known as the media element''s &quot;list of text tracks&quot;.'
 tags:
-  0: API
-  1: Objects
-  3: Audio
-  4: Video
+  - API_Objects
+  - API
+  - Audio
+  - Video
 uri: apis/audio-video/TextTrack
 
 ---
@@ -16,9 +16,6 @@ uri: apis/audio-video/TextTrack
 A media element can have a group of associated text tracks, known as the media element's &quot;list of text tracks&quot;.
 
 ## Properties
-
-API Name
-:   Summary
 
 [activeCues](/apis/audio-video/TextTrack/activeCues)
 :   Returns the text track cues from the text track list of cues that are currently active (i.e. that start before the current playback position and end after it), as a TextTrackCueList object.
@@ -44,9 +41,6 @@ API Name
 :   The text track mode, represented by a string from the following list. "disabled": The text track disabled mode. "hidden": The text track hidden mode. "showing": The text track showing mode.
 
 ## Methods
-
-API Name
-:   Summary
 
 [addCue](/apis/audio-video/TextTrack/addCue)
 :   Adds the given cue to textTrack's text track list of cues.

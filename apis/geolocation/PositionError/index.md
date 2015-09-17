@@ -8,9 +8,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The container for Position error information returned by this API.'
 tags:
-  0: API
-  1: Objects
-  3: Geolocation
+  - API_Objects
+  - API
+  - Geolocation
 uri: apis/geolocation/PositionError
 
 ---
@@ -19,9 +19,6 @@ uri: apis/geolocation/PositionError
 The container for Position error information returned by this API.
 
 ## Properties
-
-API Name
-:   Summary
 
 [code](/apis/geolocation/PositionError/code)
 :   The error code of the current PositionError.

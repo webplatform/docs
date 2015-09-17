@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the current finished promise for this object.'
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationPlayer/finished'
 
 ---
@@ -40,6 +38,4 @@ var myAnimationPlayer = finishedPromise.finished;
 Returns an object of type
 
 Returns a Promise object.
-
-**Needs Examples**: This section should include examples.
 

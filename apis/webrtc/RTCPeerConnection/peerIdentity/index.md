@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Contains the peer identity assertion information if an identity assertion was provided and verified.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
 uri: apis/webrtc/RTCPeerConnection/peerIdentity
 
 ---

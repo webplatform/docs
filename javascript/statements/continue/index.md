@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Stops the current iteration of a loop, and starts a new iteration.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/statements/continue
 
 ---

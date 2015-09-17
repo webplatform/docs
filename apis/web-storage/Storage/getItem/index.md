@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the current value associated with the given key.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - Webstorage
 uri: apis/web-storage/Storage/getItem
 

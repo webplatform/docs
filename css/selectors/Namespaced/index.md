@@ -9,8 +9,9 @@ notes:
   - 'Needs title, summary, spec reference, standardization status, remove topic cluster flags'
 readiness: 'In Progress'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
+  - Needs_Summary
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -18,8 +19,6 @@ todo_broken_links:
 uri: css/selectors/Namespaced
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Examples
 
 **Type** selectors allow an optional namespace component (namespace prefix). The namespace prefix can be left empty to indicate that the selector is only to match elements with no namespace, or an asterisk can be used to indicate that the selector matches elements in any namespace (as well as elements with no namespace).

@@ -3,8 +3,7 @@ title: 'overset content'
 readiness: 'Ready to Use'
 summary: 'Refers to a situation in which the final region of a region chain is unable to fully display remaining content of a named flow.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - CSS-Regions
 uri: css/concepts/overset
 

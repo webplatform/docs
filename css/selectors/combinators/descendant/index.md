@@ -11,8 +11,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Selects any instance of an element that is a descendant (child, grandchild and beyond) of another element.'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 uri: css/selectors/combinators/descendant
 
 ---
@@ -32,7 +32,7 @@ The following rule defines a text color of red for all instances of unordered li
 nav ul { color:red; }
 ```
 
-[View live example](http://code.webplatform.org/gist/8413346)
+[View live example](http://gist.github.com/8413346)
 
 ## Notes
 

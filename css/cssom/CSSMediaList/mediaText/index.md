@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Sets or retrieves the parsable textual representation of the current media list.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: css/cssom/CSSMediaList/mediaText
 
 ---
@@ -40,8 +39,6 @@ mediaList.mediaText = mediaText;
 ## Return Value
 
 Returns an object of type StringString
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

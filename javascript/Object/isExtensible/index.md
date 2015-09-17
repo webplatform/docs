@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns a value that indicates whether new properties can be added to an object.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Object/isExtensible
 
 ---

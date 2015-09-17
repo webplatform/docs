@@ -5,8 +5,7 @@ notes:
 standardization_status: 'W3C Working Draft'
 summary: 'HTML要素一覧'
 tags:
-  - API
-  - Listings
+  - API_Listings
   - DOM
   - HTML
 todo_broken_links:
@@ -135,9 +134,6 @@ uri: html/elements/ja
 ## Summary
 
 HTML要素一覧
-
-API Name
-:   Summary
 
 [!DOCTYPE](/html/elements/!DOCTYPE/ja)
 :   **文書型宣言（DOCTYPE宣言）**とはSGMLやXML文書(webページなど)を文書型定義(DTD)(HTMLのバージョンごとの書式の定義など）と結びつけるためのものです。ドキュメントをシリアライズした書式中で、特定の構文にマッチするようにマークアップした短い文字列で指定します。\<!DOCTYPE\>を書かないとQuirksモード(互換モード)で表示されます。

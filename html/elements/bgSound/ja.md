@@ -14,15 +14,8 @@ readiness: 'Not Ready'
 standardization_status: Non-Standard
 summary: "bgsoundはユーザがそのページにいる間、音楽ファイルを再生させるための要素です。\nこの要素を使用せず、代わりにaudio要素を使用してください。\n"
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Elements
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Elements
   - HTML
 uri: html/elements/bgSound/ja
 

@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "The number of channels of the destination's input. This value will default to 2, and may be set to any non-zero value less than or equal to maxChannelCount. An exception will be thrown if this value is not within the valid range.\n"
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
+  - Needs_Examples
 uri: apis/webaudio/AudioDestinationNode/numberOfChannels
 
 ---
@@ -40,8 +40,6 @@ AudioDestinationNode.numberOfChannels = value;
 ## Return Value
 
 Returns an object of type unsigned longunsigned long
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

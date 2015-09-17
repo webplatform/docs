@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'Foundation of a two-dimensional grid-based layout system.  Defines an element as part of a grid and permits those elements to be displayed differently than the flow order.  Also used as a shorthand for setting all the explicit grid properties (grid-template-rows, grid-template-columns, and grid-template-areas), as well as all the implicit grid properties (grid-auto-rows, grid-auto-columns, and grid-auto-flow), in a single declaration. If the &lt;grid-auto-rows&gt; value is omitted, it is set to the value specified for grid-auto-columns. Other omitted values are set to their initial values.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/grid
 
 ---

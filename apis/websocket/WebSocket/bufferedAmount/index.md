@@ -16,10 +16,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The number of bytes of data that have been queued using calls to send() but not yet transmitted to the network.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebSocket
+  - API_Object_Properties
+  - API
+  - WebSocket
 uri: apis/websocket/WebSocket/bufferedAmount
 
 ---

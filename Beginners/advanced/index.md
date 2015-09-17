@@ -5,8 +5,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Now you''ve worked your way through the basics, let''s look at some more advanced exercises to do to test your new found skills.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: Beginners/advanced
 
 ---

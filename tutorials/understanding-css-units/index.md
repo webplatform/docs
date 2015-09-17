@@ -1,5 +1,7 @@
 ---
 title: 'Understanding pixels and other CSS units'
+code_samples:
+  - 'http://www.khronos.org/registry/webgl/specs/latest/'
 readiness: 'Ready to Use'
 summary: 'This guide looks into the relationship between CSS pixels and other units, as well as between CSS and device pixels.'
 tags:

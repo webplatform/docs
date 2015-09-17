@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets the URL of the location that referred the user to the current document.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/Document/referrer
 
 ---
@@ -43,8 +42,6 @@ var referrerURL = document.referrer;
 Returns an object of type StringString
 
 The URL of the referring document, or an empty string.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Divides the value of a variable by the value of an expression and assigns the result to the variable.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/operators/division assignment'
 
 ---

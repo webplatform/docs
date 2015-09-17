@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Handles the addstream event fired when setRemoteDescription() is called.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -34,8 +34,6 @@ Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis
 var result = element.onaddstream;
 element.onaddstream = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

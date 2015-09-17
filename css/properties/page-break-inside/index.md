@@ -19,8 +19,8 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: 'Sets the page-breaking behavior inside an element. With CSS3, page-break-* properties are only aliases of the break-* properties. The CSS3 Fragmentation spec defines breaks for all CSS box fragmentation.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/page-break-inside
 
 ---

@@ -11,8 +11,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Working Draft'
 summary: 'The color type of the &lt;input&gt; element provides a widget for selecting a color value.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/input/type/color
 

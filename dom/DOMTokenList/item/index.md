@@ -18,9 +18,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Returns a specific zero-indexed token from a DOMTokenList.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/DomTokenList/item
 

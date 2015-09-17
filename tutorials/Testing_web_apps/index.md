@@ -7,8 +7,7 @@ summary: 'Now that you''ve built a web app, it''s important to test it so that y
 tags:
   - Tutorials
   - Compatibility
-  - Developer
-  - Tools
+  - Developer_Tools
 uri: 'tutorials/Testing web apps'
 
 ---

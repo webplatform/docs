@@ -4,11 +4,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'The NavigatorBattery interface is exposed on the Navigator object.'
 tags:
-  0: API
-  1: Objects
-  3: Battery
-  4: Status
-  5: Mobile
+  - API_Objects
+  - API
+  - Battery_Status
+  - Mobile
 uri: 'apis/battery status/NavigatorBattery'
 
 ---
@@ -17,9 +16,6 @@ uri: 'apis/battery status/NavigatorBattery'
 The NavigatorBattery interface is exposed on the Navigator object.
 
 ## Properties
-
-API Name
-:   Summary
 
 [battery](/apis/battery_status/NavigatorBattery/battery)
 :   The object that exposes the battery status information.

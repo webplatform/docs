@@ -6,8 +6,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'A collection of nodes that can be accessed by name. Objects contained in a NamedNodeMap may also be accessed by an ordinal index, but this is simply to allow convenient enumeration of the contents of a NamedNodeMap, and does not imply that the DOM specifies an order to these nodes.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/NamedNodeMap
 
@@ -25,9 +24,6 @@ A collection of nodes that can be accessed by name. Objects contained in a Named
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [getNamedItem](/dom/NamedNodeMap/getNamedItem)
 :   Gets an attribute with a given name from an element.

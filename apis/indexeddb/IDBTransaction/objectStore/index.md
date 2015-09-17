@@ -16,10 +16,10 @@ relationships:
     href: /apis/indexeddb/IDBTransaction
 summary: 'Returns an object store that has already been added to the scope of this transaction.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -51,8 +51,6 @@ var object = object.objectStore(name);
 ## Return Value
 
 Returns an object of type DOM NodeDOM Node
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

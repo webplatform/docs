@@ -4,9 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'This interface represents a node which is able to provide real-time frequency and time-domain analysis information. The audio stream will be passed un-processed from input to output.'
 tags:
-  0: API
-  1: Objects
-  3: WebAudio
+  - API_Objects
+  - API
+  - WebAudio
 uri: apis/webaudio/AnalyserNode
 
 ---
@@ -15,9 +15,6 @@ uri: apis/webaudio/AnalyserNode
 This interface represents a node which is able to provide real-time frequency and time-domain analysis information. The audio stream will be passed un-processed from input to output.
 
 ## Properties
-
-API Name
-:   Summary
 
 [fftSize](/apis/webaudio/AnalyserNode/fftSize)
 :   The size of the FFT (Fast Fourier Transform) used for frequency-domain analysis. Must be a power of two in the range 32-2048; defaults to 2048.
@@ -35,9 +32,6 @@ API Name
 :   A value from 0 to 1 representing the averaging constant with the last analysis frame. Default is 0.8.
 
 ## Methods
-
-API Name
-:   Summary
 
 [getByteFrequencyData](/apis/webaudio/AnalyserNode/getByteFrequencyData)
 :   Copies the current frequency data into the passed unsigned byte array. If the array has fewer elements than the [frequencyBinCount](/apis/webaudio/AnalyserNode/frequencyBinCount), the excess elements will be dropped.

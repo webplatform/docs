@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Removes the leading and trailing white space and line terminator characters from a string.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/trim
 
 ---

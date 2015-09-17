@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Adds one or more properties to an object, and/or modifies attributes of existing properties.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Object/defineProperties
 
 ---

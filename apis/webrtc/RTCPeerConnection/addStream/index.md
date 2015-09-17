@@ -10,10 +10,9 @@ relationships:
     href: /apis/webrtc/RTCPeerConnection
 summary: 'Adds a new stream to the RTCPeerConnection.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebRTC
+  - API_Object_Methods
+  - API
+  - WebRTC
 uri: apis/webrtc/RTCPeerConnection/addStream
 
 ---

@@ -17,11 +17,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets a value that indicates which mouse buttons a user pressed.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - DOMEvents
+  - Needs_Examples
 uri: dom/MouseEvent/buttons
 
 ---
@@ -51,8 +50,6 @@ A bitmask that represents the pressed mouse buttons.
 -   4 - The secondary button (usually the right mouse button).
 
 Other values are always expressed as a power of 2, like 8, 16, 32 and so on and represent other buttons.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

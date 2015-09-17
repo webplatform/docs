@@ -15,15 +15,13 @@ relationships:
     value: 'DOM Node'
     href: /dom/HTMLBaseElement
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/HTMLBaseElement/replaceAdjacentText
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [dom/HTMLBaseElement](/dom/HTMLBaseElement)[dom/HTMLBaseElement](/dom/HTMLBaseElement)
 
 ## Syntax
@@ -55,8 +53,6 @@ Returns an object of type DOM NodeDOM Node
 String
 
 A pointer to a **String** returning the old text.
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

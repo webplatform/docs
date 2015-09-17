@@ -12,9 +12,9 @@ relationships:
     href: /dom/HTMLElement
 summary: 'Represents an input element within the DOM.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Examples
 uri: dom/HTMLInputElement
 
 ---
@@ -25,9 +25,6 @@ Represents an input element within the DOM.
 Inherits from [HTMLElement](/dom/HTMLElement)[HTMLElement](/dom/HTMLElement)
 
 ## Properties
-
-API Name
-:   Summary
 
 [checked](/dom/HTMLInputElement/checked)
 :   Gets or sets whether a check box or a radio button are checked.
@@ -61,9 +58,6 @@ API Name
 
 ## Methods
 
-API Name
-:   Summary
-
 [setSelectionRange](/dom/HTMLInputElement/setSelectionRange)
 :
 
@@ -80,9 +74,6 @@ API Name
 ## Inherited from HTMLElement
 
 ### Properties
-
-API Name
-:   Summary
 
 [aria-activedescendant](/aria/attributes/aria-activedescendant)
 :
@@ -796,10 +787,10 @@ API Name
 :   The attribute fill specifies the filling color or the behavior of an animation after it has finished.
 
 [fill-opacity](/svg/attributes/fill-opacity)
-:   Please refer to <http://docs.webplatform.org/wiki/css/properties/fill-opacity>
+:   Please refer to [/css/properties/fill-opacity](/css/properties/fill-opacity)
 
 [fill-rule](/svg/attributes/fill-rule)
-:   Please refer to <http://docs.webplatform.org/wiki/css/properties/fill-rule>
+:   Please refer to [/css/properties/fill-rule](/css/properties/fill-rule)
 
 [flood-color](/svg/attributes/flood-color)
 :
@@ -869,9 +860,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [abort](/dom/HTMLElement/abort)
 :
 
@@ -929,8 +917,6 @@ API Name
 ### Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

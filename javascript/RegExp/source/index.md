@@ -10,9 +10,8 @@ notes:
 readiness: 'Ready to Use'
 summary: 'Returns a copy of the text of the regular expression pattern. Read-only. The rgExp argument is a Regular expression object. It can be a variable name or a literal.'
 tags:
-  0: JS
-  1: Basic
-  3: Property
+  - JS_Basic
+  - JS_Property
 uri: javascript/RegExp/source
 
 ---

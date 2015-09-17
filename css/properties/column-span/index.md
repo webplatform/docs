@@ -21,8 +21,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The column-span CSS property makes it possible for an element to span across all columns when its value is set to all. An element that spans more than one column is called a spanning element.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/column-span
 
 ---
@@ -90,7 +90,7 @@ Makes 4 columns and creates a span that crosses through columns
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5306158)
+[View live example](http://gist.github.com/5306158)
 
 ## Notes
 

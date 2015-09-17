@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Creates a new document fragment (DocumentFragment) object.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Document/createDocumentFragment
 

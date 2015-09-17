@@ -147,7 +147,7 @@ uri: 'Main Page/zh-hant'
 
 我們很樂意對您有幫助改善**Web Platform** 文庫。哪怕是一丁點的努力，可以在網站上有顯著的影響，提醒有關錯誤修復這些錯誤，移植現有的物品，甚至貢獻完全新的內容在我們的文檔，同開發商。要了解更多信息，請仔細閱讀我們的[編輯入門指南](/WPD:Getting_Started)。
 
--   要向**Web Platform** 提交錯誤信息 (<abbr>Bugs</abbr>), 請使用[.org W3C“項目管理”頁面](https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform)。有關更多信息，請閱讀我們的[申報錯誤頁面](http://docs.webplatform.org/wiki/WPD:Filing_Bugs)。
+-   要向**Web Platform** 提交錯誤信息 (<abbr>Bugs</abbr>), 請使用[.org W3C“項目管理”頁面](https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform)。有關更多信息，請閱讀我們的[申報錯誤頁面](/WPD:Filing_Bugs)。
 -   如果你在​​**Web Platform** 文庫有任何疑問，請先參照[常見問題](/WPD:FAQ)裡的提示。
 
 ## 保持聯繫

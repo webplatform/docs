@@ -13,8 +13,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: "The figcaption (&lt;figcaption&gt;) defines a caption or legend for a figure element.\nThis element is new in HTML5.\n"
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/figcaption
 

@@ -11,13 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Permanently stop the generation of data for track''s source.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Media
-  5: Capture
-  6: and
-  7: Streams
+  - API_Object_Methods
+  - API
+  - Media_Capture_and_Streams
+  - Needs_Examples
 uri: 'apis/media capture and streams/MediaStreamTrack/stop'
 
 ---
@@ -36,6 +33,3 @@ Method of [apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_captu
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
-

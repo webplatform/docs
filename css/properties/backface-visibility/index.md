@@ -22,8 +22,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Determines whether or not the “back” side of a transformed element is visible when facing the viewer.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/backface-visibility
 
 ---
@@ -76,13 +76,13 @@ hidden
 backface-visibility: visible;
 ```
 
-[View live example](http://code.webplatform.org/gist/5306741)
+[View live example](http://gist.github.com/5306741)
 
 ``` css
 backface-visibility: hidden;
 ```
 
-[View live example](http://code.webplatform.org/gist/5306757)
+[View live example](http://gist.github.com/5306757)
 
 This property disables position: fixed on Firefox, see related bug: <https://bugzilla.mozilla.org/show_bug.cgi?id=876341>
 

@@ -6,9 +6,9 @@ readiness: 'Out of Date'
 standardization_status: 'W3C Working Draft'
 summary: "The File System API simulates a local file system that web apps can navigate around. You can develop apps that can read, write, and create files and directories in a virtual, sandboxed file system. The asynchronous API methods return without blocking the calling thread. The asynchronous API doesn't give you data by returning values; instead, you have to pass a callback function. The synchronous API is intended to be used with WebWorkers.\n"
 tags:
-  0: API
-  1: Listings
-  3: FileSystemAPI
+  - API_Listings
+  - API
+  - FileSystemAPI
 uri: apis/filesystem
 
 ---
@@ -17,9 +17,6 @@ uri: apis/filesystem
 The File System API simulates a local file system that web apps can navigate around. You can develop apps that can read, write, and create files and directories in a virtual, sandboxed file system. The asynchronous API methods return without blocking the calling thread. The asynchronous API doesn't give you data by returning values; instead, you have to pass a callback function. The synchronous API is intended to be used with WebWorkers.
 
 **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
-
-API Name
-:   Summary
 
 [DirectoryEntry](/apis/filesystem/DirectoryEntry)
 :   This interface represents a directory on a file system.

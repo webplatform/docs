@@ -11,8 +11,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The formenctype attribute specifies how the form-data should be encoded when submitting it to the server.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/formEnctype
 

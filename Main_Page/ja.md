@@ -143,7 +143,7 @@ Web Platform Docsはまだアルファリリース段階ですが、それでも
 
 Web Platform Docsは皆さんの助けを切に希望します。ほんのわずか協力していただくだけで、このサイトにとっては大きな意味があります。例えば、ドキュメントにある間違いを開発者に教えてあげたり、間違いを訂正したり、既存の文書を流用したり、まったく新しいコンテンツを提供したりです。詳しく知りたければ、 [Contributor’s Guide](/WPD:Contributors_Guide)をご覧ください。
 
--   WebPlatform上の間違いを報告するには、[Project Management page](https://project.webplatform.org)を使ってください。詳しいことは、[filing bugs page](https://docs.webplatform.org/wiki/WPD:Filing_Bugs)をご覧ください。
+-   WebPlatform上の間違いを報告するには、[Project Management page](https://project.webplatform.org)を使ってください。詳しいことは、[filing bugs page](/WPD:Filing_Bugs)をご覧ください。
 -   webplatform.org自体について質問があるなら、[look for an answer in the FAQ first](/WPD:FAQ)をまずご覧ください。
 
 ## 連絡方法

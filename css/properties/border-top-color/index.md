@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "Sets the color of an element's top border. This page explains the border-top-color value, but often you will find it more convenient to fix the border's top color as part of a shorthand set, either border-top or border-color.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-top-color
 
 ---
@@ -116,7 +116,7 @@ The following example demonstrates the use of `border-top-color` by creating a s
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5535354)
+[View live example](http://gist.github.com/5535354)
 
 ``` html
 <div class="box named-value">

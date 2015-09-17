@@ -14,8 +14,7 @@ overview_table:
 readiness: 'Not Ready'
 summary: '&lt;address&gt;は文書や記事の所有者・著者とコンタクトをとるための情報を囲む要素です。'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

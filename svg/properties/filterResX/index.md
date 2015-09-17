@@ -8,11 +8,10 @@ readiness: 'Not Ready'
 standardization_status: Unknown
 tags:
   - SVG
+  - Needs_Examples
 uri: svg/properties/filterResX
 
 ---
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

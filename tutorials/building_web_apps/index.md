@@ -6,8 +6,7 @@ readiness: 'Ready to Use'
 summary: 'In this tutorial, we''ll provide you with the architectural understanding, frameworks and tools you''ll need in order to create web apps.  We''ll also explain how they should be used and how they fit together.'
 tags:
   - Tutorials
-  - Developer
-  - Tools
+  - Developer_Tools
   - HTML
   - JavaScript
 uri: 'tutorials/building web apps'

@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns e (the base of natural logarithms) raised to a power.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Math/exp
 
 ---

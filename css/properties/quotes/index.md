@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Sets the type of quotation marks for embedded quotations.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/quotes
 
 ---
@@ -78,7 +78,7 @@ q:before { content: open-quote }
 q:after  { content: close-quote }
 ```
 
-[View live example](http://code.webplatform.org/gist/5841933)
+[View live example](http://gist.github.com/5841933)
 
 The HTML for the example above.
 

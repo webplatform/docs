@@ -8,13 +8,13 @@ compatibility:
   feature: zoom
   topic: css
 notes:
-  - "\nDeletion Candidate:   zoom was originally only supported by Internet Explorer. It is now outdated and shouldn't be recommended any more.\n\n"
+  - 'Deletion Candidate:   zoom was originally only supported by Internet Explorer. It is now outdated and shouldn''t be recommended any more.'
 readiness: 'Not Ready'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Specifies the magnification scale of the object.'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

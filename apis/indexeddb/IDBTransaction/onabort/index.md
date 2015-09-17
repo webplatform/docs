@@ -12,10 +12,10 @@ relationships:
     href: /apis/indexeddb/IDBTransaction
 summary: 'The event handler for the onabort event.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBTransaction/onabort
 
 ---
@@ -31,6 +31,4 @@ Property of [apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)[apis
 var result = element.onabort;
 element.onabort = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

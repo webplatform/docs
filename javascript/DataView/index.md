@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'You can use a DataView object to read and write the different kinds of binary data to any location in the ArrayBuffer.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/DataView
 
 ---

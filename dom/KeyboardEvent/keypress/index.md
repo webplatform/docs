@@ -140,7 +140,7 @@ This event used to be used to detect when a key value was inserted into the DOM.
 </html>
 ```
 
-[View live example](http://code.webplatform.org/gist/8631904)
+[View live example](http://gist.github.com/8631904)
 
 ## Usage
 

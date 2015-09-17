@@ -5,8 +5,7 @@ attributions:
 readiness: 'Ready to Use'
 summary: "Replaces text in a string, using a regular expression or search string.\n"
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/replace
 
 ---

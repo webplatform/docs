@@ -17,9 +17,10 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The voice-balance property sets the apparent position (in stereo sound) of the synthesized voice for spoken media.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
   - Accessibility
+  - CSS
+  - Needs_Examples
 uri: css/properties/voice-balance
 
 ---
@@ -53,8 +54,6 @@ Animatable
 ## Syntax
 
 ## Values
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

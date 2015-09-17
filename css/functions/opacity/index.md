@@ -10,10 +10,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: "Applies a transparency effect to an element's\ncolors, for use by the filter\nproperty. A decimal value between 0 and 1 or percentage up to 100%\ncontrols the overall opacity, with 0 rendering the element invisible\nand background elements showing through.\n"
 tags:
-  0: CSS
-  1: Functions
-  3: Graphics
-  4: SVG
+  - CSS_Functions
+  - CSS
+  - Graphics
+  - SVG
 uri: css/functions/opacity
 
 ---

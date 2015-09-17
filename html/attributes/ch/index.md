@@ -10,9 +10,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'Sets an alignment character. The first occurrence of the alignment character in each cell in a column will be on a vertical axis.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: html/attributes/ch
 
 ---
@@ -32,8 +32,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

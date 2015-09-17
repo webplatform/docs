@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns a reference to the prototype for a class of objects.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Object/prototype
 
 ---

@@ -17,9 +17,7 @@ relationships:
 standardization_status: Mixed
 summary: 'Sets or retrieves the text contained within the range. '
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
 uri: dom/TextRange/text
 
 ---

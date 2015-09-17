@@ -10,10 +10,10 @@ relationships:
     href: /apis/webrtc/RTCPeerConnection
 summary: 'Handles the gatheringchange event for a change to the iceGatheringState property.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/ongatheringchange
 
 ---
@@ -29,6 +29,4 @@ Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis
 var result = element.ongatheringchange;
 element.ongatheringchange = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

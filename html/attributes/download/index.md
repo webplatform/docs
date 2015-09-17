@@ -9,8 +9,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies that the target item is to be downloaded for offline viewing.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/download
 
@@ -26,7 +25,7 @@ Applies to
 
 </th>
 <td>
-<http://docs.webplatform.org/wiki/html/elements/a>
+[/html/elements/a](/html/elements/a)
 
 </td>
 </tr>

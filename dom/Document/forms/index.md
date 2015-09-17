@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'This property returns an object array representing an HTMLCollection of all the forms in the document.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Document/forms
 

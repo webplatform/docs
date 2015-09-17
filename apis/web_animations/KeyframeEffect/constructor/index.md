@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Creates a new KeyframeEffect object for the given set of keyframes.'
 tags:
-  - API
-  - Object
-  - Methods
-  - Web
-  - Animations
+  - API_Object_Methods
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/KeyframeEffect/constructor'
 
 ---
@@ -54,6 +52,3 @@ A KeyframeEffectOptions dictionary defining other aspects of the animation effec
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
-

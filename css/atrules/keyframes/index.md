@@ -14,9 +14,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'Sets the keyframes for the CSS animation property.'
 tags:
+  - CSS_At_Rules
   - CSS
-  - At
-  - Rules
 uri: css/atrules/@keyframes
 
 ---

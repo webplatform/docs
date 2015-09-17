@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Sends a message (data) on the RTCDataChannel’s underlying data transport.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebRTC
+  - API_Object_Methods
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCDataChannel/send
 
 ---
@@ -47,8 +47,6 @@ Method of [apis/webrtc/RTCDataChannel](/apis/webrtc/RTCDataChannel)[apis/webrtc/
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

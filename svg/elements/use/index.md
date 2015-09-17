@@ -14,14 +14,12 @@ overview_table:
 readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - SVG
+  - Needs_Summary
 uri: svg/elements/use
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Overview Table
 
 [DOM Interface](/dom/interface)
@@ -51,7 +49,7 @@ Here, the **use** element is used to create three instances of a rectangle defin
 ```
 
 </pre>
-[View live example](http://code.webplatform.org/gist/9492902)
+[View live example](http://gist.github.com/9492902)
 
 ## Notes
 

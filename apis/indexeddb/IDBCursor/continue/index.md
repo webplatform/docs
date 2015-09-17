@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'Moves to the next record, or to the record specified by a key.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBCursor/continue
 
 ---

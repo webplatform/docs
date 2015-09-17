@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'This property specifies the amount by which the mask box image area extends beyond the border box, similar to the CSS border-image-outset property. The four values set the outsets on the top, right, bottom, and left sides in that order.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/mask-border-outset
 
 ---

@@ -2,6 +2,8 @@
 title: 'HTML Imports: #include for the web'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/webcomponents/imports/)'
+code_samples:
+  - 'http://www.html5rocks.com/tutorials/webcomponents/customelements/#registering'
 readiness: 'Ready to Use'
 summary: 'HTML Imports, part of Web Components, is a way to include HTML documents in other HTML documents. An import can include CSS, JavaScript, or anything else an .html file can contain.'
 tags:

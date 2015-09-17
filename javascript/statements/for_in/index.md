@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Executes one or more statements for each property of an object, or each element of an array.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/statements/for in'
 
 ---

@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'A string used to identify the effect.'
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationEffect/name'
 
 ---
@@ -37,6 +35,4 @@ element.name = value;
 ## Return Value
 
 Returns an object of type ObjectObject
-
-**Needs Examples**: This section should include examples.
 

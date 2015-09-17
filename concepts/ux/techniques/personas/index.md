@@ -3,8 +3,7 @@ title: 'Personas'
 readiness: 'Not Ready'
 summary: 'Characterization of a type of user that we want to target with our product or application.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Design
   - UI
   - Usability

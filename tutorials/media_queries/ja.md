@@ -3,11 +3,14 @@ title: 'メディアクエリーの使い方'
 lang: ja
 notes:
   - 'No content; deletion candidate'
+  - 'Require manual conversion! See https://github.com/webplatform/mediawiki-conversion/issues/24'
 readiness: 'Not Ready'
 tags:
   - Tutorials
+  - Needs_Summary
 uri: 'tutorials/media queries/ja'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+<p><br/></p>
 
+<p><br/></p><p><br/></p><p><br/></p>

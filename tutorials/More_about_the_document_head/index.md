@@ -1,11 +1,7 @@
 ---
 title: 'More about the document head'
 tags:
-  - Pages
-  - with
-  - broken
-  - file
-  - links
+  - Pages_with_broken_file_links
   - Tutorials
   - WSC
 uri: 'tutorials/More about the document head'

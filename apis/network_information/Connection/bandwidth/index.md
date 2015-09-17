@@ -15,12 +15,11 @@ relationships:
 standardization_status: Non-Standard
 summary: 'An estimation of the current bandwidth in MB/s (Megabytes per seconds) available.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Mobile
-  5: Network
-  6: Information
+  - API_Object_Properties
+  - API
+  - Mobile
+  - Network_Information
+  - Needs_Examples
 uri: 'apis/network information/Connection/bandwidth'
 
 ---
@@ -43,8 +42,6 @@ var result = connection.bandwidth;
 Returns an object of type doubledouble
 
 Returns 0 if the user is currently offline, infinity if the bandwidth is unknown.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

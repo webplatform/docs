@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets the element that is the original target of the event.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/Event/target
 
 ---
@@ -43,8 +42,6 @@ var originalTargetElement = event.target;
 Returns an object of type DOM NodeDOM Node
 
 The original target element of the event.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

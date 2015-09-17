@@ -3,8 +3,7 @@ title: 'Drawing an Image onto a Canvas'
 readiness: 'Not Ready'
 summary: "In this article we will explore how to draw Images onto a Canvas. \n"
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

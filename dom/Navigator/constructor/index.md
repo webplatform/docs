@@ -9,15 +9,13 @@ relationships:
     value: dom/Navigator
     href: /dom/Navigator
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/Navigator/constructor
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 
 ## Syntax
@@ -26,8 +24,6 @@ Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 var result = element.constructor;
 element.constructor = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

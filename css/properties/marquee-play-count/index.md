@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'This property specifies how many times the marquee content moves.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/marquee-play-count
 
 ---
@@ -80,7 +80,7 @@ h1 {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6948452)
+[View live example](http://gist.github.com/6948452)
 
 ## Usage
 

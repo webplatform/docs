@@ -16,8 +16,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The line-height property specifies the height of an inline block level element. The value of the line-height property cannot be negative.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/line-height
 
 ---

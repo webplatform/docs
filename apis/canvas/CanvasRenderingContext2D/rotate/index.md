@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Addd the rotation transformation described by the argument to the transformation matrix. The angle argument represents a clockwise rotation angle expressed in radians.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Canvas
+  - API_Object_Methods
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/rotate
 
 ---

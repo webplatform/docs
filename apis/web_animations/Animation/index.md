@@ -9,10 +9,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Animations are represented by the Animation interface.'
 tags:
-  0: API
-  1: Objects
-  3: Web
-  4: Animations
+  - API_Objects
+  - API
+  - Web_Animations
 uri: 'apis/web animations/Animation'
 
 ---
@@ -24,9 +23,6 @@ Inherits from [AnimationNode](/apis/web_animations/AnimationNode)[AnimationNode]
 
 ## Properties
 
-API Name
-:   Summary
-
 [effect](/apis/web_animations/Animation/effect)
 :
 
@@ -34,9 +30,6 @@ API Name
 :
 
 ## Methods
-
-API Name
-:   Summary
 
 [clone](/apis/web_animations/Animation/clone)
 :   Creates a copy of an Animation object.
@@ -51,9 +44,6 @@ API Name
 ## Inherited from AnimationNode
 
 ### Properties
-
-API Name
-:   Summary
 
 [computedTiming](/apis/web_animations/AnimationNode/computedTiming)
 :   Returns the calculated timing properties for this animation node. This is comparable to the computed style of an Element, window.getComputedStyle(elem).
@@ -75,9 +65,6 @@ API Name
 :   Returns the input timing properties specified for this animation node. This is comparable to the specified style on an Element, elem.style.
 
 ### Methods
-
-API Name
-:   Summary
 
 [after](/apis/web_animations/AnimationNode/after)
 :   Inserts nodes after this animation node.

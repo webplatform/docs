@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Depending on how it is called, returns either an ImageData object with the given sw, sh dimensions or an ImageData object with the same dimensions as the imagedata argument. See Notes.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Canvas
+  - API_Object_Methods
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/createImageData
 
 ---

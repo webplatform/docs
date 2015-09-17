@@ -18,10 +18,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns true if an element matches a given selector. Otherwise, false.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/HTMLElement/matches
 
 ---
@@ -51,8 +50,6 @@ var result = element.matches(selector);
 Returns an object of type DOM NodeDOM Node
 
 Returns true if the element matches the given selector or false if it doesn't.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

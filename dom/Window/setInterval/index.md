@@ -18,9 +18,7 @@ relationships:
     href: /dom/Window
 summary: 'Evaluates an expression each time a specified number of milliseconds has elapsed.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

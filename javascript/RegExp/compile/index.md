@@ -10,9 +10,8 @@ notes:
 readiness: 'Ready to Use'
 summary: 'Compiles a regular expression into an internal format for faster execution.'
 tags:
-  0: JS
-  1: Basic
-  3: Method
+  - JS_Basic
+  - JS_Method
 uri: javascript/RegExp/compile
 
 ---

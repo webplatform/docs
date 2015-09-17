@@ -11,9 +11,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The LocalMediaStream object is the MediaStream object returned from the call to getUserMedia(). It has all the properties and events of the MediaStream object and the stop method.'
 tags:
-  0: API
-  1: Objects
-  3: WebRTC
+  - API_Objects
+  - API
+  - WebRTC
 uri: apis/webrtc/LocalMediaStream
 
 ---
@@ -29,9 +29,6 @@ Inherits from [MediaStream](/apis/webrtc/MediaStream)[MediaStream](/apis/webrtc/
 
 ## Methods
 
-API Name
-:   Summary
-
 [stop](/apis/webrtc/LocalMediaStream/stop)
 :   Permanently halts the generation of data for the tracks' sources and removes the references to the sources.
 
@@ -42,9 +39,6 @@ API Name
 ## Inherited from MediaStream
 
 ### Properties
-
-API Name
-:   Summary
 
 [audioTracks](/apis/webrtc/MediaStream/audioTracks)
 :   The MediaStreamTrackList object representing the audio tracks.
@@ -66,9 +60,6 @@ API Name
 *No methods.*
 
 ### Events
-
-API Name
-:   Summary
 
 [ended](/apis/MediaStream/ended)
 :   All tracks of the MediaStream object have ended; the MediaStream is said to be finished.

@@ -3,17 +3,16 @@ title: 'MSRange-collection'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
-  - "\nDeletion Candidate:   replace non-standard implementation \n\n"
+  - 'Deletion Candidate:   replace non-standard implementation'
 readiness: 'Not Ready'
 standardization_status: Non-Standard
 tags:
-  - API
-  - Objects
+  - API_Objects
+  - Needs_Summary
+  - Needs_Examples
 uri: css/regions/MSRange-collection
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Properties
 
 *No properties.*
@@ -25,8 +24,6 @@ uri: css/regions/MSRange-collection
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ### Members
 

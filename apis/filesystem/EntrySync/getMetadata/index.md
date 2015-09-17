@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Look up metadata about this EntrySync.\n"
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileSystemAPI
+  - API_Object_Methods
+  - API
+  - FileSystemAPI
+  - Needs_Examples
 uri: apis/filesystem/EntrySync/getMetadata
 
 ---
@@ -41,8 +41,6 @@ var  = EntrySync.getMetadata();
 Returns an object of type
 
 MetaData
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

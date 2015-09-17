@@ -9,10 +9,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: "Shifts an element's relative hue, for use by the\nfilter property. Accepts either a\ndeg or rad angle measurement representing a wheel of hues.\n"
 tags:
-  0: CSS
-  1: Functions
-  3: Graphics
-  4: SVG
+  - CSS_Functions
+  - CSS
+  - Graphics
+  - SVG
 uri: css/functions/hue-rotate
 
 ---

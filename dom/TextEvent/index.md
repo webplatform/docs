@@ -12,8 +12,7 @@ relationships:
     href: /dom/UIEvent
 summary: 'Represents a text event that usually occurs when text is actually inserted into the document.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/TextEvent
 
@@ -26,16 +25,10 @@ Inherits from [UIEvent](/dom/UIEvent)[UIEvent](/dom/UIEvent)
 
 ## Properties
 
-API Name
-:   Summary
-
 [inputMethod](/dom/TextEvent/inputMethod)
 :   Gets a value that describes how text is entered.
 
 ## Methods
-
-API Name
-:   Summary
 
 [initTextEvent](/dom/TextEvent/initTextEvent)
 :   Initializes a new text event that the createEvent method created.
@@ -48,9 +41,6 @@ API Name
 
 ### Properties
 
-API Name
-:   Summary
-
 [detail](/dom/UIEvent/detail)
 :   Gets additional, developer defined, information about an event.
 
@@ -61,16 +51,10 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initUIEvent](/dom/UIEvent/initUIEvent)
 :   Initializes a new user interface event that the [createEvent](/dom/Document/createEvent) method created.
 
 ### Events
-
-API Name
-:   Summary
 
 [abort](/dom/UIEvent/abort)
 :   Fires when the user aborts the download.

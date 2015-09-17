@@ -11,15 +11,13 @@ relationships:
     value: dom/HTMLIFrameElement
     href: /dom/HTMLIFrameElement
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/HTMLIFrameElement/contentDocument
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [dom/HTMLIFrameElement](/dom/HTMLIFrameElement)[dom/HTMLIFrameElement](/dom/HTMLIFrameElement)
 
 ## Syntax
@@ -28,8 +26,6 @@ Property of [dom/HTMLIFrameElement](/dom/HTMLIFrameElement)[dom/HTMLIFrameElemen
 var result = element.contentDocument;
 element.contentDocument = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

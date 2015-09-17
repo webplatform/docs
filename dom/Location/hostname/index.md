@@ -16,10 +16,9 @@ relationships:
     href: /dom/Location
 summary: 'Sets or retrieves the host name part of the location or URL.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/Location/hostname
 
 ---
@@ -41,8 +40,6 @@ location.hostname = hostName;
 Returns an object of type StringString
 
 The host name component of the URL.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

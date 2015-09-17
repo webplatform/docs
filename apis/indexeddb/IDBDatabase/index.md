@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'Represents a database connection for the purpose of conducting a transaction.'
 tags:
-  0: API
-  1: Objects
-  3: IndexedDB
+  - API_Objects
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBDatabase
 
 ---
@@ -17,9 +17,6 @@ uri: apis/indexeddb/IDBDatabase
 Represents a database connection for the purpose of conducting a transaction.
 
 ## Properties
-
-API Name
-:   Summary
 
 [name](/apis/indexeddb/IDBDatabase/name)
 :   Name of the connected database.
@@ -31,9 +28,6 @@ API Name
 :   Returns the version of the database when this IDBDatabaseSync instance was created.
 
 ## Methods
-
-API Name
-:   Summary
 
 [close](/apis/indexeddb/IDBDatabase/close)
 :   This method synchronously performs the steps for closing a database connection and returns once the database has been closed.

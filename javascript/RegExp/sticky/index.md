@@ -8,9 +8,8 @@ notes:
 readiness: 'Ready to Use'
 summary: 'Returns a Boolean value indicating the state of the sticky flag ( y ) used with a regular expression. Default is false. Read-only.'
 tags:
-  0: JS
-  1: Basic
-  3: Property
+  - JS_Basic
+  - JS_Property
 uri: javascript/RegExp/sticky
 
 ---

@@ -8,9 +8,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'The toFixed() method formats a number to fixed-point notation (decimal).'
 tags:
-  0: JS
-  1: Basic
-  3: Function
+  - JS_Basic
+  - JS_Function
 uri: javascript/Number/toFixed
 
 ---

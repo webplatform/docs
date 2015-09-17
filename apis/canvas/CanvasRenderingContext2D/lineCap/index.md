@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Defines the type of endings the user agent will place on the end of lines.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Canvas
+  - API_Object_Properties
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/lineCap
 
 ---

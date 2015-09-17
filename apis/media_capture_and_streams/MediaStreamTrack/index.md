@@ -4,12 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Represents a media source in the user agent.'
 tags:
-  0: API
-  1: Objects
-  3: Media
-  4: Capture
-  5: and
-  6: Streams
+  - API_Objects
+  - API
+  - Media_Capture_and_Streams
 uri: 'apis/media capture and streams/MediaStreamTrack'
 
 ---
@@ -18,9 +15,6 @@ uri: 'apis/media capture and streams/MediaStreamTrack'
 Represents a media source in the user agent.
 
 ## Properties
-
-API Name
-:   Summary
 
 [enabled](/apis/media_capture_and_streams/MediaStreamTrack/enabled)
 :   Enables the track if the new value is true, and disable it otherwise.
@@ -63,9 +57,6 @@ API Name
 
 ## Methods
 
-API Name
-:   Summary
-
 [applyConstraints](/apis/media_capture_and_streams/MediaStreamTrack/applyConstraints)
 :   Replaces all existing constraints with the provided constraints, if existing constraints exist. Otherwise, it applies the newly provided constraints to the track.
 
@@ -85,9 +76,6 @@ API Name
 :   Permanently stop the generation of data for track's source.
 
 ## Events
-
-API Name
-:   Summary
 
 [mute](/apis/media_capture_and_streams/MediaStreamTrack/mute)
 :   This event fires when the MediaStreamTrack object's source is temporarily unable to provide data.

@@ -19,9 +19,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Retrieves a live collection of child elements of an element.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Element/children
 

@@ -16,9 +16,7 @@ relationships:
 standardization_status: Deprecated
 summary: 'Gets a value that indicates what type of change occurred.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - DOMEvents
 uri: dom/MutationEvent/attrChange

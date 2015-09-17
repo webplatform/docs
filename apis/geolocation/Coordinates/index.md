@@ -8,9 +8,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The geographic coordinate reference system used by the attributes in this interface is the World Geodetic System (2d).'
 tags:
-  0: API
-  1: Objects
-  3: Geolocation
+  - API_Objects
+  - API
+  - Geolocation
 uri: apis/geolocation/Coordinates
 
 ---
@@ -19,9 +19,6 @@ uri: apis/geolocation/Coordinates
 The geographic coordinate reference system used by the attributes in this interface is the World Geodetic System (2d).
 
 ## Properties
-
-API Name
-:   Summary
 
 [accuracy](/apis/geolocation/Coordinates/accuracy)
 :   Denotes the accuracy level of the *latitude* and *longitude* coordinates. It is specified in meters and must be supported by all implementations. The value of this attribute must be a non-negative real number.

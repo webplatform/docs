@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the substring at the specified location within a String object.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/substring
 
 ---

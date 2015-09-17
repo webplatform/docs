@@ -17,15 +17,12 @@ relationships:
     value: 'DOM Node'
     href: /css/media_queries
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
 uri: 'css/media queries/ms-interpolation-mode'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [css/media\_queries](/css/media_queries)[css/media\_queries](/css/media_queries)
 
 ## Syntax

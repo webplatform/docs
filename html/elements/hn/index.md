@@ -15,8 +15,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The h1 through h6 elements define levels of headings within a document.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/hn
 
@@ -78,7 +77,7 @@ block
 <h6>Level-6 heading, smallest heading avaliable</h6>
 ```
 
-[View live example](http://code.webplatform.org/gist/6363937)
+[View live example](http://gist.github.com/6363937)
 
 ## Notes
 

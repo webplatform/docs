@@ -5,12 +5,8 @@ notes:
 readiness: 'Almost Ready'
 summary: "Continuing on from the previous article, here we will look at the content of The Dung Beatles’ website to give you a flavour of what good websites and pages need to contain.\n"
 tags:
-  - Pages
-  - with
-  - broken
-  - file
-  - links
-  - Concept
+  - Pages_with_broken_file_links
+  - Concept_Pages
 uri: 'concepts/ux/what does a good web page need'
 
 ---

@@ -21,8 +21,8 @@ overview_table:
 readiness: 'In Progress'
 summary: 'Sets the width, style, and color of the rule between columns.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/column-rule
 
 ---
@@ -88,7 +88,7 @@ Makes 3 columns with 4px dashed green column-rule.
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6288958)
+[View live example](http://gist.github.com/6288958)
 
 ### Syntax
 

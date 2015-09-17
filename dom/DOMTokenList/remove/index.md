@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Removes one or more tokens from a DOMTokenList.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/DOMTokenList/remove
 

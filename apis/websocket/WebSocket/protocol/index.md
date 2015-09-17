@@ -18,10 +18,10 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Indicates the name of the sub-protocol the server selected.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebSocket
+  - API_Object_Properties
+  - API
+  - WebSocket
+  - Needs_Examples
 uri: apis/websocket/WebSocket/protocol
 
 ---
@@ -44,8 +44,6 @@ var result = element.protocol;
 Returns an object of type StringString
 
 This will be one of the strings specified in the *protocol* parameter when creating the **WebSocket** object.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets a value that represents the character encoding that is specified in the declaration of an XML document.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Document/xmlEncoding
 

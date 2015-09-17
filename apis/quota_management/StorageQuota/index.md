@@ -6,10 +6,10 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Provides a means to query and request storage usage and quota information.'
 tags:
-  0: API
-  1: Objects
-  3: Quota
-  4: Management
+  - API_Objects
+  - API
+  - Quota_Management
+  - Needs_Examples
 uri: 'apis/quota management/StorageQuota'
 
 ---
@@ -23,9 +23,6 @@ Provides a means to query and request storage usage and quota information.
 
 ## Methods
 
-API Name
-:   Summary
-
 [queryUsageAndQuota](/apis/quota_management/queryUsageAndQuota)
 :   Queries the current usage (how much data is stored) and quota available for the requesting application.
 
@@ -35,8 +32,6 @@ API Name
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

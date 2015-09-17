@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Move an Entry to a different location on the file system.\n"
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileSystemAPI
+  - API_Object_Methods
+  - API
+  - FileSystemAPI
+  - Needs_Examples
 uri: apis/filesystem/Entry/moveTo
 
 ---
@@ -71,8 +71,6 @@ A callback that is called when errors happen.
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

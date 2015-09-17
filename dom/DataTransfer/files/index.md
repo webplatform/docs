@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Returns a FileList of the files being dragged, if any.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/DataTransfer/files
 

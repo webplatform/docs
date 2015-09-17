@@ -8,9 +8,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns a string representation of a number.'
 tags:
-  0: JS
-  1: Basic
-  3: Function
+  - JS_Basic
+  - JS_Function
 uri: javascript/Number/toString
 
 ---

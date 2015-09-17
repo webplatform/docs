@@ -12,8 +12,8 @@ notes:
 standardization_status: 'W3C Recommendation'
 summary: 'Enheten outline i CSS är en regel för att ställa in en eller fler individuella konturregler outline-style, outline-width och outline-color i en enda regel. I de flesta fall är det föredraget och mer passande att använda denna enhet.'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

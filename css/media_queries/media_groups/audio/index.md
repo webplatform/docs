@@ -5,9 +5,8 @@ notes:
 readiness: 'Not Ready'
 summary: 'The audio media group is used to distinguish  CSS properties and features that can be used in media types that support sound.'
 tags:
+  - CSS_Media_Groups
   - CSS
-  - Media
-  - Groups
 uri: 'css/media queries/media groups/audio'
 
 ---

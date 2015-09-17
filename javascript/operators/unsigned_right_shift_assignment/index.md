@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Right shifts the value of a variable by the number of bits specified in the value of an expression, without maintaining sign, and assigns the result to the variable.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/operators/unsigned right shift assignment'
 
 ---

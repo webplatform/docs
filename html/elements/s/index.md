@@ -13,8 +13,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The s element represents contents that are no longer accurate and must be marked accordingly in order to allow keeping it in the document.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/s
 
@@ -45,7 +44,7 @@ This example uses the `<s>` element to render a text that no longer accurate.
 </ul>
 ```
 
-[View live example](http://code.webplatform.org/gist/604bc1947f655fb863a1)
+[View live example](http://gist.github.com/604bc1947f655fb863a1)
 
 Typical browser default CSS properties for the `<s>` element.
 

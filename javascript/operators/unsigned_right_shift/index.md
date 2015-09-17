@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Right shifts the bits of an expression, without maintaining sign.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/operators/unsigned right shift'
 
 ---

@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the character position where the next match begins in a searched string.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/RegExp/lastIndex
 
 ---

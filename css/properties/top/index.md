@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'This property specifies how far an absolutely positioned box''s top margin edge is offset below the top edge of the box''s containing block. For relatively positioned boxes, the offset is with respect to the top edges of the box itself (i.e., the box is given a position in the normal flow, then offset from that position according to these properties).'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/top
 
 ---
@@ -126,7 +126,7 @@ We demonstrate the \`top\` property by positioning the elements.
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6171243)
+[View live example](http://gist.github.com/6171243)
 
 The HTML for the above example.
 

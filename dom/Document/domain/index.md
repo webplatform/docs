@@ -16,10 +16,9 @@ relationships:
     href: /dom/Document
 summary: 'Insecure. Use the web messaging API (postMessage and the message event) instead. Gets or sets the security domain of the document.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/Document/domain
 
 ---
@@ -41,8 +40,6 @@ document.domain = topLevelDomain;
 Returns an object of type StringString
 
 The current security domain of the document.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: "The CSS border-left-color property sets the color of an element's left border. This page explains the border-left-color value, but often you will find it more convenient to fix the border's left color as part of a shorthand set, either border-left or border-color.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-left-color
 
 ---
@@ -116,7 +116,7 @@ The following example demonstrates the use of `border-left-color` by creating a 
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5535442)
+[View live example](http://gist.github.com/5535442)
 
 ``` html
 <div class="box named-value">

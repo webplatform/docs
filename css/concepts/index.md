@@ -1,11 +1,10 @@
 ---
 title: 'CSS concepts'
 notes:
-  - "\nTODO: Need to allow authors to link to existing CSS concepts\n\n"
+  - 'TODO: Need to allow authors to link to existing CSS concepts'
 summary: 'List of all articles within the CSS concepts topic.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: css/concepts
 
 ---

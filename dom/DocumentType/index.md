@@ -13,9 +13,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Defined by use of a markup language (e.g., HTML, XML, etc.)'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Examples
 uri: dom/DocumentType
 
 ---
@@ -26,9 +26,6 @@ Defined by use of a markup language (e.g., HTML, XML, etc.)
 Inherits from [Node](/dom/Node)[Node](/dom/Node)
 
 ## Properties
-
-API Name
-:   Summary
 
 [name](/dom/DocumentType/name)
 :
@@ -50,9 +47,6 @@ API Name
 ## Inherited from Node
 
 ### Properties
-
-API Name
-:   Summary
 
 [attributes](/dom/Node/attributes)
 :   Associatve array containing the attributes of node.
@@ -102,9 +96,6 @@ API Name
 :   Sets or retrieves the text content of a node and any child nodes.
 
 ### Methods
-
-API Name
-:   Summary
 
 [appendChild](/dom/Node/appendChild)
 :   Appends an element as a child to the object.
@@ -166,9 +157,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [addEventListener](/dom/EventTarget/addEventListener)
 :   Registers an event handler for the specified event type.
 
@@ -181,6 +169,4 @@ API Name
 ### Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 

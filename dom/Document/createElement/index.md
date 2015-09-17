@@ -19,9 +19,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Creates an instance of the element for the specified tag.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Document/createElement
 

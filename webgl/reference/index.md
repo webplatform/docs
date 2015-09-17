@@ -1,5 +1,7 @@
 ---
 title: 'reference'
+code_samples:
+  - 'http://www.khronos.org/registry/webgl/specs/latest/'
 tags:
   - WebGL
 uri: webgl/reference

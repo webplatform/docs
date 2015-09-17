@@ -5,9 +5,8 @@ notes:
 readiness: 'Not Ready'
 summary: 'The visual media group is used to identify CSS properties and features that apply to any media type that has a visible layout and text.'
 tags:
+  - CSS_Media_Groups
   - CSS
-  - Media
-  - Groups
 uri: 'css/media queries/media groups/visual'
 
 ---

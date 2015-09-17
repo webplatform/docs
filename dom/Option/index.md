@@ -8,14 +8,12 @@ relationships:
     value: HTMLOptionElement
     href: /dom/HTMLOptionElement
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Summary
 uri: dom/Option
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Inherits from [HTMLOptionElement](/dom/HTMLOptionElement)[HTMLOptionElement](/dom/HTMLOptionElement)
 
 ## Properties
@@ -33,9 +31,6 @@ Inherits from [HTMLOptionElement](/dom/HTMLOptionElement)[HTMLOptionElement](/do
 ## Inherited from HTMLOptionElement
 
 ### Properties
-
-API Name
-:   Summary
 
 [defaultSelected](/dom/HTMLOptionElement/defaultSelected)
 :   Gets or sets the value of the [selected](/html/attributes/selected) HTML attribute.

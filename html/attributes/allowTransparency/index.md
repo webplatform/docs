@@ -12,8 +12,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Sets or retrieves whether the object can be transparent.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/allowTransparency
 

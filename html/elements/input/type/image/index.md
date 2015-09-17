@@ -12,16 +12,10 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'The image type of the &lt;input&gt; element represents an image. The user can either use the image as a button to submit the form, or select a coordinate of the image to be submitted with the form data.'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Elements
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Elements
   - HTML
+  - Needs_Examples
 uri: html/elements/input/type/image
 
 ---
@@ -33,8 +27,6 @@ The image type of the &lt;input&gt; element represents an image. The user can ei
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

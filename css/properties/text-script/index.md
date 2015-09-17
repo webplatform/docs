@@ -16,8 +16,8 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'Obsolete: unsupported.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
+  - Needs_Examples
 uri: css/properties/text-script
 
 ---
@@ -51,6 +51,4 @@ Animatable
 ## Syntax
 
 ## Values
-
-**Needs Examples**: This section should include examples.
 

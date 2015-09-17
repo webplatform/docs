@@ -17,11 +17,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the language of the given track, if known, or the empty string otherwise.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Audio
-  5: Video
+  - API_Object_Properties
+  - API
+  - Audio
+  - Video
 uri: apis/audio-video/AudioTrack/language
 
 ---
@@ -87,7 +86,7 @@ Returns an object of type StringString
 })();
 ```
 
-[View live example](http://code.webplatform.org/gist/459f1a0ea9f70009b6fe)
+[View live example](http://gist.github.com/459f1a0ea9f70009b6fe)
 
 ## Related specifications
 

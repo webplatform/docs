@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Terminates the current loop or, if in conjunction with a label, terminates the associated statement.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/statements/break
 
 ---

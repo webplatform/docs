@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'The following table lists JavaScript compound assignment operators.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/operators/compound assignment'
 
 ---

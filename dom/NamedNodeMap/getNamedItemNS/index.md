@@ -15,9 +15,7 @@ relationships:
     href: /dom/NamedNodeMap
 summary: 'Gets an attribute with a given name and a given namespace.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/NamedNodeMap/getNamedItemNS
 

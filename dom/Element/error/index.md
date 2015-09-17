@@ -11,10 +11,10 @@ relationships:
     value: dom/Element
     href: /dom/Element
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -22,8 +22,6 @@ todo_broken_links:
 uri: dom/Element/error
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
 ## Syntax
@@ -32,8 +30,6 @@ Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 var result = element.error;
 element.error = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

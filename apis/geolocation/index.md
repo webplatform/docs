@@ -6,18 +6,15 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The geolocation API lets you share your location with trusted web sites. The latitude and longitude are available to JavaScript on the page, which in turn can send it back to the remote web server and do fancy location-aware things like finding local businesses or showing your location on a map.'
 tags:
-  0: API
-  1: Listings
-  3: Geolocation
+  - API_Listings
+  - API
+  - Geolocation
 uri: apis/geolocation
 
 ---
 ## Summary
 
 The geolocation API lets you share your location with trusted web sites. The latitude and longitude are available to JavaScript on the page, which in turn can send it back to the remote web server and do fancy location-aware things like finding local businesses or showing your location on a map.
-
-API Name
-:   Summary
 
 [Coordinates](/apis/geolocation/Coordinates)
 :   The geographic coordinate reference system used by the attributes in this interface is the World Geodetic System (2d).

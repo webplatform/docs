@@ -9,10 +9,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The possible values of an animation effect’s composition behavior are represented by the CompositeOperation enumeration.'
 tags:
-  - API
-  - Objects
-  - Web
-  - Animations
+  - API_Objects
+  - Web_Animations
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -55,6 +54,3 @@ enum CompositeOperation {"replace", "add", "accumulate"};
 ### Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
-

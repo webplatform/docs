@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns a specified Range from a selection. The Range is specified by an index and cannot be greater than the number that is returned by rangeCount. '
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Selection/getRangeAt
 

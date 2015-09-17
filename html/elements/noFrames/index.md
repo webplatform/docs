@@ -13,8 +13,7 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: 'Recognized as a deprecated element. Intended to provide content for browsers that cannot, or are configured not to, display frames.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/noFrames
 

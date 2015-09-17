@@ -11,8 +11,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "The MathML mtext element is used to render arbitrary text with no notational meaning, such as comments or annotations.\nTo display text with notational meaning, use mi and mo instead.\n"
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - MathML
 uri: mathml/elements/mtext
 

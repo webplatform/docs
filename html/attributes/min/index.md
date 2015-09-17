@@ -11,9 +11,9 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The min attribute specifies the minimum  value for an &lt;input&gt; element.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -42,8 +42,6 @@ The min attribute works with the following input types: [number](/html/elements/
 For datetime, datetime-local, month, time, and week the value of the attribute must be a valid string of the type.
 
 For number and range the value of the attribute must be a number: decimal or integer.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

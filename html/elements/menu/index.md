@@ -15,8 +15,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The menu element represents information as a list of items or commands.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -70,7 +69,7 @@ This is an example of the **menu** element using the *type* and *label* attribut
 </menu>
 ```
 
-[View live example](http://code.webplatform.org/gist/7284273)
+[View live example](http://gist.github.com/7284273)
 
 ## Usage
 

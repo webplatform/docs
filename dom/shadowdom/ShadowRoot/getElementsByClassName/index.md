@@ -15,11 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Just like Document/getElementsByClassName except that it only works within the scope of this ShadowRoot''s shadow tree.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
-  - Shadow
+  - Shadow_DOM
+  - Needs_Examples
 uri: dom/shadowdom/ShadowRoot/getElementsByClassName
 
 ---
@@ -49,8 +48,6 @@ var result = element.getElementsByClassName(classNames);
 Returns an object of type ObjectObject
 
 A live [HTMLCollection](/dom/HTMLCollection) of elements with the given class names.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

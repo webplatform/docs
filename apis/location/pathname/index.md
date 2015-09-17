@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The path to the current document, relative to the root of the current host.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - JavaScript
 uri: apis/location/pathname
 

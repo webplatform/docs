@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Creates a new SourceBuffer and adds it to the SourceBuffers property of the MediaSource.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
 uri: 'apis/media source extensions/MediaSource/addSourceBuffer'
 
 ---

@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Registers a new, custom element and returns the element''s constructor.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: DOM
+  - API_Object_Methods
+  - API
+  - DOM
 uri: dom/Document/register
 
 ---

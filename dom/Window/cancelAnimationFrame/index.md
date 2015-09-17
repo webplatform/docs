@@ -14,9 +14,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Cancels a requestAnimationFrame request'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/cancelAnimationFrame
 

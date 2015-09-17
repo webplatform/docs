@@ -13,8 +13,7 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: "This element is deprecated in HTML5, in favor of the abbr element. It should no longer be used.\n"
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/acronym
 

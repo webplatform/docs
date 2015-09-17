@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The name of the file; on getting, this must return the name of the file as a string. There are numerous file name variations on different systems; this is merely the name of the file, without path information. On getting, if user agents cannot make this information available, they must return the empty string.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: FileAPI
+  - API_Object_Properties
+  - API
+  - FileAPI
 uri: apis/file/File/name
 
 ---

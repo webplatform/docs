@@ -12,8 +12,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'The maxLength attribute sets an upper limit on the number of characters that can be entered in an input element.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/maxLength
 
@@ -44,7 +43,7 @@ The example text box has a max length of 12 characters.
 <input maxLength="12">
 ```
 
-[View live example](http://code.webplatform.org/gist/7284097)
+[View live example](http://gist.github.com/7284097)
 
 ## See also
 

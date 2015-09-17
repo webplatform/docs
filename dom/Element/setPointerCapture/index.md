@@ -13,9 +13,8 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Assigns a specified pointer to an element. This method is used to ensure that an element continues to receive pointer events even if the contact moves off the element.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
+  - Needs_Examples
 uri: dom/Element/setPointerCapture
 
 ---
@@ -43,8 +42,6 @@ Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

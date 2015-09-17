@@ -13,8 +13,7 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'The address element (&lt;address&gt;) encloses contact information of the owner or the author of the document or the article.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/address
 

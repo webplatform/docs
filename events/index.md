@@ -5,8 +5,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Event handling enables web applications to respond to events in HTML.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: events
 
 ---

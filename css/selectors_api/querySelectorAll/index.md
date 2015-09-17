@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns a list of elements that match a provided selector.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -54,8 +53,6 @@ var elementList = element.querySelectorAll(/* see parameter list */);
 Returns an object of type DOM NodeDOM Node
 
 A collection of DOM element nodes. The collection may be empty.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

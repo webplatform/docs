@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The port number the document was accessed via.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - JavaScript
 uri: apis/location/port
 

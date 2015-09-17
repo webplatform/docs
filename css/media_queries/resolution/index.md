@@ -9,9 +9,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The media feature describes the resolution (pixel-density) of the output device. The resolution can be specified in dpi (dots per inch), dppx (dots per pixel) or dpcm (dots per centimeter).'
 tags:
-  - CSS
-  - Media
-  - Feature
+  - CSS_Media_Feature
 uri: 'css/media queries/resolution'
 
 ---

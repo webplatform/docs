@@ -17,9 +17,7 @@ relationships:
     href: /dom/Window
 summary: 'Evaluates an expression after a specified number of milliseconds has elapsed. '
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/setTimeout
 

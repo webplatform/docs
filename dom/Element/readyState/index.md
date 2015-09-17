@@ -12,18 +12,15 @@ relationships:
     value: dom/Element
     href: /dom/Element
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/Element/readyState
 
 ---
 <p><br/></p>
-<div class="editors-only">
-<p><b>Needs Summary</b>:   This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article. 
-</p>
-</div>
+
 <div data-template="API_Object_Property">
 <p><br/></p><p><br/></p><p>Property of <a href="/dom/Element">dom/Element</a><a href="/dom/Element">dom/Element</a>
 </p>
@@ -34,10 +31,7 @@ element.readyState = value;
 </pre>
 <p><br/></p>
 </div>
-<div class="editors-only">
-<p><b>Needs Examples</b>:  This section should include examples. 
-</p>
-</div>
+
 <h2>Notes</h2>
 <h3>Remarks</h3>
 <p>The <a href="/apis/file/FileReader"><b>FileReader</b></a> object can be in one of three states.

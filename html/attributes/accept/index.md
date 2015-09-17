@@ -11,8 +11,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'This attribute supplies browsers with a hint about what filetypes its element will accept.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/accept
 
@@ -38,7 +37,7 @@ Accepts a comma separated list of file types. Valid file types can be any of the
 -   The string `audio/*` indicates any audio file is allowed.
 -   The string `video/*` indicates any video file is allowed.
 -   The string `image/*` indicates any image file is allowed.
--   A valid [[type](http://docs.webplatform.org/wiki/concepts/internet_and_web/mime_types%7Cmime)] with no attributes.
+-   A valid [[type](/concepts/internet_and_web/mime_types%7Cmime)] with no attributes.
 -   A file extension starting with a `.` (period).
 
 Duplicates are not allowed (case insensitive).

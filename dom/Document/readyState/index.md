@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Retrieves a value that indicates the current state of the object.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/Document/readyState
 
 ---
@@ -41,8 +40,6 @@ var readyState = node.readyState;
 ## Return Value
 
 Returns an object of type StringString
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Performs a bitwise OR on the value of a variable and the value of an expression and assigns the result to the variable.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/operators/bitwise or assignment'
 
 ---

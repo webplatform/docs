@@ -12,8 +12,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Indicates the initial state of a checkbox or radio button.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -64,7 +63,7 @@ This example shows a set of radio buttons with one checked by default.
 </form>
 ```
 
-[View live example](http://code.webplatform.org/gist/7282321)
+[View live example](http://gist.github.com/7282321)
 
 This example shows a set of check boxes with multiple checked by default.
 
@@ -84,7 +83,7 @@ This example shows a set of check boxes with multiple checked by default.
 </form>
 ```
 
-[View live example](http://code.webplatform.org/gist/33aa4c8bece121ba6e9e)
+[View live example](http://gist.github.com/33aa4c8bece121ba6e9e)
 
 ## Notes
 

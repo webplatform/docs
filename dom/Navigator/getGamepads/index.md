@@ -18,10 +18,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Retrieves a snapshot of the data for the currently connected and interacted-with gamepads. Returns a Gamepad object.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Gamepad
+  - API_Object_Methods
+  - API
+  - Gamepad
 uri: dom/Navigator/getGamepads
 
 ---

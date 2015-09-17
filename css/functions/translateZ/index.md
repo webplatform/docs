@@ -7,13 +7,12 @@ compatibility:
   topic: css
 readiness: 'In Progress'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
+  - Needs_Summary
 uri: css/functions/translateZ()
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Examples
 
 The following code snippet is an example of the **translateZ** function in use. When applied to a square blue [**div**](/html/elements/div) element along with the [**perspective**](/css/functions/perspective()) function (which simulates depth), it has the effect illustrated in the image. (The light-blue square indicates the original position of the transformed element.)

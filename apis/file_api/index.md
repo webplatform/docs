@@ -8,8 +8,7 @@ readiness: 'Not Ready'
 standardization_status: Unknown
 summary: 'This specification provides an API for representing file objects in web applications, as well as programmatically selecting them and accessing their data.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
   - API
   - FileAPI
 uri: 'apis/file api'

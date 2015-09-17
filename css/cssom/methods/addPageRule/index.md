@@ -16,10 +16,9 @@ relationships:
     href: /css/cssom/styleSheet
 summary: 'Not implemented anywhere. Non standard.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: css/cssom/methods/addPageRule
 
 ---
@@ -63,8 +62,6 @@ var number = stylesheet.addPageRule(/* see parameter list */);
 Returns an object of type NumberNumber
 
 Always returns -1.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

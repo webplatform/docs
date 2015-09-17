@@ -6,9 +6,9 @@ readiness: 'Out of Date'
 standardization_status: 'W3C Working Draft'
 summary: "The LocalFileSystem interface of the File System API gives you access to a sandboxed file system.  The methods are implemented by window and worker objects.\n"
 tags:
-  0: API
-  1: Objects
-  3: FileSystemAPI
+  - API_Objects
+  - API
+  - FileSystemAPI
 uri: apis/filesystem/LocalFileSystem
 
 ---
@@ -23,9 +23,6 @@ The LocalFileSystem interface of the File System API gives you access to a sandb
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [requestFileSystem](/apis/filesystem/LocalFileSystem/requestFileSystem)
 :   Requests a file system where data should be stored. You access a sandboxed file system by requesting a LocalFileSystem object using this global method, window.requestFileSystem().

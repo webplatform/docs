@@ -13,8 +13,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The line break element, br, forces the current line of text to end and the text that follows it will being on a new line.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
   - XHTML
 uri: html/elements/br
@@ -45,7 +44,7 @@ The following example is correct usage of the **br** element
 Sydney</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/7282007)
+[View live example](http://gist.github.com/7282007)
 
 ## Usage
 

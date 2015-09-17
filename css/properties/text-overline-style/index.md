@@ -17,8 +17,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies the line style for overline text decoration.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-overline-style
 
 ---
@@ -96,7 +96,7 @@ p {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/7283917)
+[View live example](http://gist.github.com/7283917)
 
 ## Notes
 

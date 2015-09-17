@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Gets the Float64 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be fetched from any offset.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/DataView/getFloat64
 
 ---

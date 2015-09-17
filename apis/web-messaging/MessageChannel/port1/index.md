@@ -15,11 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Returns the first MessagePort object of the MessageChannel.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Web
-  5: Messaging
+  - API_Object_Properties
+  - API
+  - Web_Messaging
 uri: apis/web-messaging/MessageChannel/port1
 
 ---

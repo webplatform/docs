@@ -10,9 +10,7 @@ relationships:
     href: /dom/TextEvent
 summary: 'Initializes a new text event that the createEvent method created.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/TextEvent/initTextEvent
 

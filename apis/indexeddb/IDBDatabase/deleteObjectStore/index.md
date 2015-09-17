@@ -17,10 +17,10 @@ relationships:
     href: /apis/indexeddb/IDBDatabase
 summary: 'Destroys an object store with the given name as well as all indexes that are referencing that object store.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBDatabase/deleteObjectStore
 
 ---
@@ -59,10 +59,7 @@ Name of the object store to be removed.
 <td>An object store could not be found with the specified name (case-sensitive).
 </td></tr></table><p> 
 </p>
-<div class="editors-only">
-<p><b>Needs Examples</b>:  This section should include examples. 
-</p>
-</div>
+
 <p><br/></p>
 <h3>Syntax</h3>
 <h3>Standards information</h3>

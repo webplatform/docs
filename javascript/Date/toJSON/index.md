@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Used by the JSON.stringify method to enable the transformation of an object''s data for JavaScript Object Notation (JSON) serialization.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Date/toJSON
 
 ---

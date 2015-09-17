@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Executes a statement block once, and then repeats execution of the loop until a condition expression evaluates to false.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/statements/do while'
 
 ---

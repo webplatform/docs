@@ -17,8 +17,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Breaks a box into fragments creating new borders, padding and repeating backgrounds or lets it stay as a continuous box on a page break, column break, or, for inline elements, at a line break.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/box-decoration-break
 
 ---
@@ -91,7 +91,7 @@ This is an example of CSS how you can use box-decoration-break for a given eleme
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6363867)
+[View live example](http://gist.github.com/6363867)
 
 ## Usage
 

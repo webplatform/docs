@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Removes this animation node from its parent animation group or player.'
 tags:
-  - API
-  - Object
-  - Methods
-  - Web
-  - Animations
+  - API_Object_Methods
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationNode/remove'
 
 ---
@@ -36,6 +34,3 @@ var  = .remove();
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
-

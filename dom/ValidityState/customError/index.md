@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The element''s custom validity message has been set to a non-empty string by calling the element''s setCustomValidity() method.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/ValidityState/customError
 

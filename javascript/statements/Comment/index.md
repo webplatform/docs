@@ -10,8 +10,7 @@ notes:
 readiness: 'Ready to Use'
 summary: 'Causes comments to be ignored by the JavaScript parser.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/statements/Comment
 
 ---

@@ -19,8 +19,8 @@ readiness: 'Not Ready'
 standardization_status: Non-Standard
 summary: 'The text-overflow-mode CSS property controls the presence and position of the hint on overflowed content that is not displayed is signaled to the users. The constitution of the hint is controlled with CSS property text-overflow-ellipsis. Shorthand property is text-overflow.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-overflow-mode
 
 ---
@@ -234,4 +234,4 @@ This property only applies to text overflow in the inline direction (horizontal,
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-<http://docs.webplatform.org/wiki/css/properties/text-overflow>
+[/css/properties/text-overflow](/css/properties/text-overflow)

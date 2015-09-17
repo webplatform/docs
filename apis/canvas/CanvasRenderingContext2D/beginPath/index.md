@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Empties the list of subpaths in the context''s current default path so that it once again has zero subpaths.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Canvas
+  - API_Object_Methods
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/beginPath
 
 ---
@@ -71,7 +70,7 @@ This is a full example that uses beginPath to create two stroked lines.
 </html>
 ```
 
-[View live example](http://code.webplatform.org/gist/5022033/58ee0dfab60f4ee6d22c14881d9708708f45e2b2)
+[View live example](http://gist.github.com/5022033/58ee0dfab60f4ee6d22c14881d9708708f45e2b2)
 
 This snippet shows the basis syntax for beginPath() using the canvas context.
 

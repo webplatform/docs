@@ -10,9 +10,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'Specifies whether a form should have autocomplete on or off. When autocomplete is on, the browser automatically complete values based on values that the user has entered before.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: 'html/attributes/autocomplete (input, form elements)'
 
 ---
@@ -32,8 +32,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

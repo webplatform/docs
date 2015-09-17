@@ -5,8 +5,7 @@ attributions:
 readiness: 'Ready to Use'
 summary: 'WebRTC implements open standards for real-time, plugin-free video, audio and data communication.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Audio
   - Media
   - Video

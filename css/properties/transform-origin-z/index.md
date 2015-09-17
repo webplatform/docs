@@ -13,8 +13,9 @@ overview_table:
   '[CSS Object Model Property](/css/concepts/cssom)': ''
 summary: 'This property allows you to define the relative position of the origin of the transformation grid along the z-axis.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/transform-origin-z
 
 ---
@@ -55,8 +56,6 @@ length
 :   A floating-point number, followed by a unit of measurement.
 
 Units of measurement may be absolute (`cm`, `mm`, `in`, `pt`, or `pc`) or relative (`em`, `ex`, or `px`). For more information about the supported length units, see CSS Values and Units.
-
-**Needs Examples**: This section should include examples.
 
 ### Standards information
 

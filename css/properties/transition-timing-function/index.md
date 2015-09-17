@@ -21,8 +21,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Sets the pace of action within a transition'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/transition-timing-function
 
 ---

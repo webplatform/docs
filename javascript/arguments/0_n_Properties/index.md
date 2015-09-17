@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the actual value of individual arguments from an arguments object returned by the arguments property of an executing function.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/arguments/0 n Properties'
 
 ---

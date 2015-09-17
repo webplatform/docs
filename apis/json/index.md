@@ -4,8 +4,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "JSON is a native API for parsing and serialising information to the JSON format.\n"
 tags:
-  - API
-  - Objects
+  - API_Objects
   - JavaScript
 uri: apis/json
 
@@ -21,9 +20,6 @@ JSON contains two methods: `parse` for parsing JSON strings, and `stringify` for
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [parse](/apis/json/parse)
 :   Parse a JSON string to a JavaScript object.

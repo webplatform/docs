@@ -15,9 +15,8 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Gets the timestamp for when the VideoPlaybackQuality metrics were collected.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
+  - Needs_Examples
 uri: 'apis/media source extensions/VideoPlaybackQuality/creationTime'
 
 ---
@@ -39,6 +38,4 @@ VideoPlaybackQuality.creationTime = time;
 Returns an object of type VARIANTVARIANT
 
 Type: DOMHighResTimeStamp The timestamp for when the quality metrics were collected.
-
-**Needs Examples**: This section should include examples.
 

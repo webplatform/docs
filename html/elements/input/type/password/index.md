@@ -12,16 +12,10 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'The password type of the &lt;input&gt; element represents a one-line plain-text edit control for entering a password, which renders input text in such a way as to hide the characters (e.g., a series of asterisks).'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Elements
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Elements
   - HTML
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -37,8 +31,6 @@ The password type of the &lt;input&gt; element represents a one-line plain-text 
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

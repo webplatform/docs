@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'An alpha value that is applied to shapes and images before they are composited onto the canvas.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Canvas
+  - API_Object_Properties
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/globalAlpha
 
 ---

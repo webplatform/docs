@@ -6,17 +6,15 @@ compatibility:
   feature: 'type (param element)'
   topic: html
 notes:
-  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: [[html/attributes/type]] \n\n"
+  - 'Merge Candidate:  This page is a candidate for merge with the following pages: [[html/attributes/type]]'
 readiness: 'Not Ready'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Summary
 uri: 'html/attributes/type (param element)'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 <table class="wikitable">
 <tr>
 <th>

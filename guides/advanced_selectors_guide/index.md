@@ -224,7 +224,7 @@ Pseudo-classes are used to provide styles not for elements, but for various stat
 
 ### Link and user action pseudo-classes
 
-The most common pseudo-classes you will come across are those used to style link states (they are described in full usage in [Styling lists and links](http://docs.webplatform.org/wiki/Styling_lists_and_links)):
+The most common pseudo-classes you will come across are those used to style link states (they are described in full usage in [Styling lists and links](/Styling_lists_and_links)):
 
 -   `:link` — the normal, default state of links, as displayed when the page first loads in a browser.
 -   `:visited` — selects links that you have already visited in the browser you are currently using.

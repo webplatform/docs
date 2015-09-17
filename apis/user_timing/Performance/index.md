@@ -6,10 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Exposes a high precision timestamp to developers so they can better measure the performance of their applications.'
 tags:
-  0: API
-  1: Objects
-  3: User
-  4: Timing
+  - API_Objects
+  - API
+  - User_Timing
 uri: 'apis/user timing/Performance'
 
 ---
@@ -22,9 +21,6 @@ Exposes a high precision timestamp to developers so they can better measure the 
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [clearMarks](/apis/user_timing/Performance/clearMarks)
 :   Removes all DOMHighResTimeStamp time values for the given mark name, or removes all marks and their associated DOMHighResTimeStamp time values.

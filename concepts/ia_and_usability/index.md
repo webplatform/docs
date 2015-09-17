@@ -5,8 +5,7 @@ notes:
 readiness: 'In Progress'
 summary: 'This page lists articles related to the theory and practice of information architecture and usability.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: 'concepts/ia and usability'
 
 ---

@@ -23,8 +23,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Sets the width of an element''s top border. To set all four borders, use the border-width shorthand property which sets the values simultaneously for border-top-width, border-right-width, border-bottom-width, and border-left-width.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-top-width
 
 ---
@@ -100,7 +100,7 @@ Sets the width of an element's top border. To set all four borders, use the bord
 }
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/5550302">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://gist.github.com/5550302">View live example</a>
 </p>
 </div>
 <p><br/></p><p><br/></p>

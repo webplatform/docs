@@ -14,8 +14,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The g element (&lt;g&gt;) is a container element for grouping together related graphics elements.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - SVG
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -57,7 +56,7 @@ In the following code example, the g element is used to group two elements toget
 ```
 
 </pre>
-[View live example](http://code.webplatform.org/gist/09f7ebf9fa8ed1d9b0d6)
+[View live example](http://gist.github.com/09f7ebf9fa8ed1d9b0d6)
 
 ## Notes
 

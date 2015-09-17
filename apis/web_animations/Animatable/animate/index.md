@@ -15,11 +15,8 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Creates a new Animation object whose animation target is the object on which the method is called, and calls the play method of the AnimationTimeline object of the document timeline of the node document [DOM4] of the element, passing the newly created Animation as the argument to the method.'
 tags:
-  - API
-  - Object
-  - Methods
-  - Web
-  - Animations
+  - API_Object_Methods
+  - Web_Animations
 uri: 'apis/web animations/Animatable/animate'
 
 ---

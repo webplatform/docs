@@ -10,8 +10,7 @@ notes:
 readiness: 'Ready to Use'
 summary: "In JavaScript, future reserved keywords must not be used as identifiers, even though they have no special meaning in the current version.\n"
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/future reserved words'
 
 ---

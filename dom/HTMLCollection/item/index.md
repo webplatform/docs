@@ -15,12 +15,11 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Retrieves a node specified by ordinal index. Nodes are numbered in tree order (depth-first traversal order).'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
   - HTML
   - JavaScript
+  - Needs_Examples
 uri: dom/HTMLCollection/item
 
 ---
@@ -50,6 +49,3 @@ var node = collection.item(index);
 Returns an object of type DOM NodeDOM Node
 
 The **Node** at the corresponding position upon success. A value of **null** is returned if the index is out of range.
-
-**Needs Examples**: This section should include examples.
-

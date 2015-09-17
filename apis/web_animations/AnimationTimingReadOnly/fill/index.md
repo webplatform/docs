@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "The fill mode as specified by one of the FillMode enumeration values.\n"
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationTimingReadOnly/fill'
 
 ---
@@ -44,6 +42,4 @@ var result = element.fill;
 Returns an object of type ObjectObject
 
 Returns a FillMode object
-
-**Needs Examples**: This section should include examples.
 

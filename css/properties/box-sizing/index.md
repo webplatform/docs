@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The box-sizing property alters the CSS box model used to calculate widths and heights of elements, so that they can be equal to the width and height of the content-, padding- or border-box.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/box-sizing
 
 ---
@@ -103,7 +103,7 @@ This CSS makes it so that the child `<div>` will always An element with padding 
  }
 ```
 
-[View live example](http://code.webplatform.org/gist/5496267)
+[View live example](http://gist.github.com/5496267)
 
 Input elements with type `search` are rendered with `border-box` in Safari 5 and Chrome. You can normalize this behavior across all browsers using the following code.
 
@@ -166,7 +166,7 @@ input[type="search"] {
 
 ### Other articles
 
--   [WebPlatform.org tutorial on Box Model](http://docs.webplatform.org/wiki/tutorials/box_model)
+-   [WebPlatform.org tutorial on Box Model](/tutorials/box_model)
 
 ### External resources
 

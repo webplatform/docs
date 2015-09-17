@@ -10,8 +10,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Transform function for a 2d translation which moves an element on the x-axis by the given value.'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/translateX()
 
 ---

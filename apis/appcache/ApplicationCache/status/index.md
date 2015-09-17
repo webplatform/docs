@@ -18,10 +18,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the current status of the application cache, as given by the constants defined below.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - Appcache
+  - API
 uri: apis/appcache/ApplicationCache/status
 
 ---

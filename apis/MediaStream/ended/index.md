@@ -8,6 +8,7 @@ tags:
   - Events
   - API
   - WebRTC
+  - Needs_Examples
 uri: apis/MediaStream/ended
 
 ---
@@ -70,8 +71,6 @@ Default action
 </tr>
 </table>
 Property is read-only. Value becomes true at the moment the video content is finished.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

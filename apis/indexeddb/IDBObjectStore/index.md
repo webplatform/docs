@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'Represents an object store in a database.'
 tags:
-  0: API
-  1: Objects
-  3: IndexedDB
+  - API_Objects
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBObjectStore
 
 ---
@@ -17,9 +17,6 @@ uri: apis/indexeddb/IDBObjectStore
 Represents an object store in a database.
 
 ## Properties
-
-API Name
-:   Summary
 
 [autoIncrement](/apis/indexeddb/IDBObjectStore/autoIncrement)
 :   Provides the auto increment flag for this object store.
@@ -37,9 +34,6 @@ API Name
 :   Returns the transaction this object store belongs to.
 
 ## Methods
-
-API Name
-:   Summary
 
 [add](/apis/indexeddb/IDBObjectStore/add)
 :   Adds a record to the specified object store.

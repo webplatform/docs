@@ -13,8 +13,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The HTML Navigation Element (&lt;nav&gt;) represents a section of navigation links: a page that links to other pages, or to parts within the page'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/nav
 

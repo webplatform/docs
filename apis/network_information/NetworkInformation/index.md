@@ -6,11 +6,10 @@ readiness: 'Not Ready'
 standardization_status: Non-Standard
 summary: 'Is exposed on the Navigator object, and all instances of the Navigator type are defined to also implement the NetworkInformation interface.'
 tags:
-  0: API
-  1: Objects
-  3: Mobile
-  4: Network
-  5: Information
+  - API_Objects
+  - API
+  - Mobile
+  - Network_Information
 uri: 'apis/network information/NetworkInformation'
 
 ---
@@ -19,9 +18,6 @@ uri: 'apis/network information/NetworkInformation'
 Is exposed on the Navigator object, and all instances of the Navigator type are defined to also implement the NetworkInformation interface.
 
 ## Properties
-
-API Name
-:   Summary
 
 [connection](/apis/network_information/NetworkInformation/connection)
 :   The object from which connection information is accessed.

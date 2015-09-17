@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'Legacy. Use document.title instead. When setting, does same as textContent. When getting, gets a concatenated version of all of the child text nodes of a title element.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/HTMLTitleElement/text
 

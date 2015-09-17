@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The direction CSS property specifies the text direction/writing direction. The rtl is used for Hebrew or Arabic text, the ltr is for other languages.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -84,7 +84,7 @@ The following example demonstrates how to set and retrieve the value of the **di
 <p class="rtl" id="bidi">The paragraph using rtl and sets the bidi-override as value of unicode-bidi property.</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/5708516)
+[View live example](http://gist.github.com/5708516)
 
 ``` css
 p {

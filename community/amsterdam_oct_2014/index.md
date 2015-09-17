@@ -13,8 +13,8 @@ See [WPD:Style Guide/Wiki markup crash course](/WPD:Style_Guide/Wiki_markup_cras
 
 ### Quick links
 
-[List of states](http://docs.webplatform.org/wiki/Property:State)
-[Almost ready articles](http://docs.webplatform.org/w/index.php?title=Special:SearchByProperty&property=State&value=Almost+Ready)
+[List of states](/Property:State)
+[Almost ready articles](/w/index.php?title=Special:SearchByProperty&property=State&value=Almost+Ready)
 [Compatibility data](https://github.com/webplatform/compatibility-data)
 [Working list](https://docs.google.com/spreadsheets/d/1YGD7W-Ie_NYQCCBoovt8mFyDu6Va8o3JZViPRQKzV1g/edit)
 

@@ -10,18 +10,14 @@ notes:
 readiness: 'Not Ready'
 standardization_status: 'W3C Recommendation'
 tags:
-  - CSS
-  - Media
-  - Feature
+  - CSS_Media_Feature
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: 'css/media queries/device-height'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
  The device-height media query should not be used for the same reasons the [device-width](/css/media_queries/device-width) should not be used. Use [height](/css/media_queries/height) instead.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

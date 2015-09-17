@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The full url for this resource. Synonymous with String(window.location).'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - JavaScript
 uri: apis/location/href
 

@@ -18,9 +18,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets an attribute with a given name from an element.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/NamedNodeMap/getNamedItem
 

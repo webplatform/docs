@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'This property sets the initial position of a mask image. Position can be specified in terms of percentages of the distance from upper left corner (original point) or using the keywords top, left, center, right, or bottom, similar to the CSS background-position property.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/mask-position
 
 ---

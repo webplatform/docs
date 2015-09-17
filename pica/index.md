@@ -4,8 +4,7 @@ notes:
   - 'Consider duplicated of the content http://docs.webplatform.org/wiki/css/data_types/length#Absolute_lengths'
 readiness: 'Not Ready'
 tags:
-  - Glossary
-  - Items
+  - Glossary_Items
 uri: pica
 
 ---

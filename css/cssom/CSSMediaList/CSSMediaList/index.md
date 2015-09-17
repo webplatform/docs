@@ -8,9 +8,9 @@ notes:
 readiness: 'Almost Ready'
 summary: 'Represents an ordered collection of media types.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Examples
 uri: css/cssom/CSSMediaList/CSSMediaList
 
 ---
@@ -20,16 +20,12 @@ uri: css/cssom/CSSMediaList/CSSMediaList
 Represents an ordered collection of media types.</p><p><br/></p>
 <h2>Properties</h2>
 
-<dl><dt>API Name</dt>
-  <dd>Summary</dd>
-</dl><dl><dt><a href="/css/cssom/CSSMediaList/mediaText">mediaText</a></dt>
+<dl><dt><a href="/css/cssom/CSSMediaList/mediaText">mediaText</a></dt>
   <dd>Sets or retrieves the parsable textual representation of the current media list.</dd>
 </dl><p><br/></p>
 <h2>Methods</h2>
 
-<dl><dt>API Name</dt>
-  <dd>Summary</dd>
-</dl><dl><dt><a href="/css/cssom/CSSMediaList/appendMedium">appendMedium</a></dt>
+<dl><dt><a href="/css/cssom/CSSMediaList/appendMedium">appendMedium</a></dt>
   <dd>Adds a medium to the end of the current list. If the medium is already used, it is first removed.</dd>
 </dl><dl><dt><a href="/css/cssom/CSSMediaList/deleteMedium">deleteMedium</a></dt>
   <dd>Deletes a medium from the current list.</dd>
@@ -39,10 +35,7 @@ Represents an ordered collection of media types.</p><p><br/></p>
 <h2>Events</h2>
 <p><i>No events.</i>
 </p>
-<div class="editors-only">
-<p><b>Needs Examples</b>:  This section should include examples. 
-</p>
-</div>
+
 <p><br/></p>
 <h4>Additional Properties</h4>
 <p>The <b>CSSMediaList</b> object has these properties.

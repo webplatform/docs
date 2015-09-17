@@ -38,8 +38,8 @@ There are a lot of HTML elements we want to cover on WebPlatform, and we have on
 
 To get started with HTML elements:
 
--   Read the HTML element milestone plan at <http://docs.webplatform.org/wiki/WPD:Projects/HTML_Element_Milestone>, which includes ideas of what to work on.
--   Read our guide to creating HTML element pages at <http://docs.webplatform.org/wiki/WPD:HTML_Element_Guide>.
+-   Read the HTML element milestone plan at [/WPD:Projects/HTML\_Element\_Milestone](/WPD:Projects/HTML_Element_Milestone), which includes ideas of what to work on.
+-   Read our guide to creating HTML element pages at [/WPD:HTML\_Element\_Guide](/WPD:HTML_Element_Guide).
 -   Choose what HTML elements you want to work on, and let us know — we'll track who is working on what, so that there are no overlaps.
 -   Get started.
 
@@ -49,9 +49,9 @@ We've worked on a lot of the CSS property pages already, but we need your help t
 
 To get started with CSS property references:
 
--   Read our guide to creating CSS property reference pages at <http://docs.webplatform.org/wiki/WPD:CSS_property_guide>
--   Read the CSS project plan, at <http://docs.webplatform.org/wiki/WPD:Tasks/CSS_Property_Milestone>
--   Have a look at our CSS Web Platform Wednesday docs at <http://docs.webplatform.org/wiki/Meta:web_platform_wednesday> for ideas of what to work on. The "Past reports" section at the bottom contains more ideas.
+-   Read our guide to creating CSS property reference pages at [/WPD:CSS\_property\_guide](/WPD:CSS_property_guide)
+-   Read the CSS project plan, at [/WPD:Tasks/CSS\_Property\_Milestone](/WPD:Tasks/CSS_Property_Milestone)
+-   Have a look at our CSS Web Platform Wednesday docs at [/Meta:web\_platform\_wednesday](/Meta:web_platform_wednesday) for ideas of what to work on. The "Past reports" section at the bottom contains more ideas.
 -   Choose a set of CSS properties you want to work on, and let us know — we'll track who is working on what, so that there are no overlaps.
 
 ### Do what you want
@@ -80,7 +80,7 @@ Some of our attendees could also act as tutors too, sometimes, as well as writin
 
 We are planning to keep help methods pretty low fi for the doc sprint. If you want help, ask someone next to you, raise your hand, or just go and grab one of the organizers. And please, don't be worried about the quality of your English when talking to us non-natives. My Swiss German is non-existant!
 
-You can see a list of online help and communication mechanisms at <http://docs.webplatform.org/wiki/WPD:Help>. These will be more useful when we leave here, and start contributing at home, in the future.
+You can see a list of online help and communication mechanisms at [/WPD:Help](/WPD:Help). These will be more useful when we leave here, and start contributing at home, in the future.
 
 ## Beginners: getting started
 
@@ -88,10 +88,10 @@ So, those with prior experience can split off at this point and start working: t
 
 To get started, you need to:
 
--   Sign up for a free account at the sign up page: <http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=Main+Page&type=signup>
+-   Sign up for a free account at the sign up page: [/w/index.php?title=Special:UserLogin&returnto=Main+Page&type=signup](/w/index.php?title=Special:UserLogin&returnto=Main+Page&type=signup)
 -   Create a new account at the W3C's Bugzilla system - this is currently where we keep track of site bugs, so you'll need this to submit problems you find.
 -   Review the structure of the site, at our [Topic Hierarchy page](/Meta:Editors_Guide/Topic_Hierarchy), to get familiar with where things go
--   <http://docs.webplatform.org/wiki/WPD:Editors_Guide> contains a guide to show you how to edit and create pages on the Wiki
+-   [/WPD:Editors\_Guide](/WPD:Editors_Guide) contains a guide to show you how to edit and create pages on the Wiki
 
 ### Media Wiki crash course
 

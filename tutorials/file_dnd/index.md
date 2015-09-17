@@ -2,6 +2,8 @@
 title: 'Reading files in JavaScript using the file APIs'
 attributions:
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/file/dndfiles/)'
+code_samples:
+  - 'https://cvs.khronos.org/svn/repos/registry/trunk/public/webgl/doc/spec/TypedArray-spec.html'
 readiness: 'Ready to Use'
 summary: 'An introduction to HTML5 JavaScript file API.'
 tags:

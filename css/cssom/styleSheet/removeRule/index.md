@@ -14,9 +14,7 @@ relationships:
     href: /css/cssom/styleSheet
 summary: 'Non standard. Removes a rule from a style sheet.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: css/cssom/stylesheet/removeRule
 

@@ -11,12 +11,11 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'This reflects whether automatic White Balance Mode selection is desired.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Image
-  5: Capture
-  6: Mobile
+  - API_Object_Properties
+  - API
+  - Image_Capture
+  - Mobile
+  - Needs_Examples
 uri: 'apis/image capture/PhotoSettings/autoWhiteBalanceMode'
 
 ---
@@ -32,6 +31,4 @@ Property of [apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSetting
 var result = element.autoWhiteBalanceMode;
 element.autoWhiteBalanceMode = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

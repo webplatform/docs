@@ -11,9 +11,9 @@ relationships:
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'Provides access to the result of a request to open a database.'
 tags:
-  0: API
-  1: Objects
-  3: IndexedDB
+  - API_Objects
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBOpenDBRequest
 
 ---
@@ -24,9 +24,6 @@ Provides access to the result of a request to open a database.
 Inherits from [IDBRequest](/apis/indexeddb/IDBRequest)[IDBRequest](/apis/indexeddb/IDBRequest)
 
 ## Properties
-
-API Name
-:   Summary
 
 [onUpgradeNeeded](/apis/indexeddb/IDBOpenDBRequest/onUpgradeNeeded)
 :   The event handler for the upgrade needed event.
@@ -45,9 +42,6 @@ API Name
 ## Inherited from IDBRequest
 
 ### Properties
-
-API Name
-:   Summary
 
 [error](/apis/indexeddb/IDBRequest/error)
 :   The error codes returned under certain conditions.

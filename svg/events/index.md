@@ -5,8 +5,7 @@ notes:
 readiness: 'In Progress'
 summary: 'List of all pages in svg/events/'
 tags:
-  - API
-  - Listings
+  - API_Listings
 uri: svg/events
 
 ---

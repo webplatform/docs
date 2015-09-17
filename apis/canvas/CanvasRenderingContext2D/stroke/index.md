@@ -11,10 +11,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Traces the intended path, using the CanvasRenderingContext2D object for the line styles, and then fills the combined stroke area using the strokeStyle attribute.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Canvas
+  - API_Object_Methods
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/stroke
 
 ---

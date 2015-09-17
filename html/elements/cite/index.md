@@ -12,8 +12,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The cite element represents a reference to a creative work.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
   - XHTML
 uri: html/elements/cite

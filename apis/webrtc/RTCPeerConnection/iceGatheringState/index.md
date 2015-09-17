@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the gathering state of the ICE agent.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/iceGatheringState
 
 ---
@@ -45,8 +45,6 @@ The RTCGatherState enum has the following values:
 -   new - The object was just created, and no networking has occurred yet.
 -   gathering - The ICE engine is in the process of gathering candidates for this RTCPeerConnection.
 -   complete - The ICE engine has completed gathering.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

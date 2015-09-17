@@ -3,8 +3,7 @@ title: 'Colors by Name'
 readiness: 'Ready to Use'
 summary: 'This page shows all defined colors with their name, hex, rgb and hsl values and also includes an example for each color.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
   - CSS
 uri: 'css/color/colors by name'
 

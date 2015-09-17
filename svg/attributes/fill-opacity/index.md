@@ -10,9 +10,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'Please refer to http://docs.webplatform.org/wiki/css/properties/fill-opacity'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - SVG
+  - Needs_Examples
 uri: svg/attributes/fill-opacity
 
 ---
@@ -32,7 +32,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

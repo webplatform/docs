@@ -8,8 +8,7 @@ overview_table:
   Features: ''
 summary: "Specifies a link between resources, at the HTTP header level.\n"
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 uri: http/headers/Link
 
 ---

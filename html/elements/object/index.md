@@ -13,8 +13,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The &lt;object&gt; element represents can represent an external resource, which, depending on the type of the resource, will either be treated as an image, as a nested browsing context, or as an external resource to be processed by a plugin.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

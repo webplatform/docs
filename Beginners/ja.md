@@ -3,8 +3,7 @@ title: 'Webを開発し始める皆さんへ'
 lang: ja
 summary: 'Webサイトの構築について学びたいですか? このページには、基礎を理解するのに最適な文書と合わせて、必要なツールや基本を解説している文書へのリンクもあります。'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

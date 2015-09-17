@@ -4,8 +4,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The &lt;image&gt; CSS data type represents graphical content.  Images are usually specified with the url() function, but may also be created with a gradient function.  Other syntaxes are defined but not widely implemented.'
 tags:
-  - Data
-  - Type
+  - Data_Type
   - CSS
 uri: 'css/data types/image'
 

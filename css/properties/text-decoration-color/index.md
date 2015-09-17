@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Sets the color of any text decoration, such as underlines, overlines, and strike throughs.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-decoration-color
 
 ---
@@ -77,7 +77,7 @@ Example using the text-decoration-color
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/7281842)
+[View live example](http://gist.github.com/7281842)
 
 ## Related specifications
 

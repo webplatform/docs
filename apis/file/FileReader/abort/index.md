@@ -12,10 +12,9 @@ relationships:
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'The abort method is used to aborts the read operation. Upon return, the dom/Element/readyState will be DONE.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileAPI
+  - API_Object_Methods
+  - API
+  - FileAPI
 uri: apis/file/FileReader/abort
 
 ---

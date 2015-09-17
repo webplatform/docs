@@ -16,8 +16,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The rect element is a SVG basic shape to create a rectangle starting with a given with and height beginning at a x- and y-point.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - SVG
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -57,7 +56,7 @@ In the following code example, the rect element is used to draw a purple rectang
 ```
 
 </pre>
-[View live example](http://code.webplatform.org/gist/44786e14924371effbe4)
+[View live example](http://gist.github.com/44786e14924371effbe4)
 
 In the following code example, the rect element is used to create a orange rectangle with rounded corners.
 
@@ -70,7 +69,7 @@ In the following code example, the rect element is used to create a orange recta
 ```
 
 </pre>
-[View live example](http://code.webplatform.org/gist/9697f0fe090f4ad2e6e9)
+[View live example](http://gist.github.com/9697f0fe090f4ad2e6e9)
 
 ### Attributes
 

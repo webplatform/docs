@@ -21,8 +21,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The padding-bottom CSS property of an element sets the padding space required on the bottom of an element. The padding area is the space between the content of the element and its border. Contrary to margin-bottom values, negative values of padding-bottom are invalid.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/padding-bottom
 
 ---
@@ -77,13 +77,13 @@ The following examples use the `padding-bottom` property to change the [padding]
 td { padding-bottom: 20%; }
 ```
 
-[View live example](http://code.webplatform.org/gist/6948355)
+[View live example](http://gist.github.com/6948355)
 
 ``` css
 td { padding-bottom: 30px; }
 ```
 
-[View live example](http://code.webplatform.org/gist/6948398)
+[View live example](http://gist.github.com/6948398)
 
 ## Related specifications
 

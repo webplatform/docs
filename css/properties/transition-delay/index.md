@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Defines when the transition will start. A value of ‘0s’ means the transition will execute as soon as the property is changed. Otherwise, the value specifies an offset from the moment the property is changed, and the transition will delay execution by that offset.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/transition-delay
 
 ---
@@ -83,7 +83,7 @@ div:hover{
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5841921)
+[View live example](http://gist.github.com/5841921)
 
 ### Standards information
 

@@ -11,9 +11,9 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The multiple attribute indicates that the user is allowed to enter more than one value in an &lt;input&gt; element.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: html/attributes/multiple
 
 ---
@@ -34,8 +34,6 @@ Applies to
 </tr>
 </table>
 This attribute can be `true` or `false`. It's valid for inputs with the type [email](/html/elements/input/type/email) and [file](/html/elements/input/type/file).
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

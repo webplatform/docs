@@ -12,8 +12,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The DOM WheelEvent represents events that occur due to the user moving a mouse wheel or similar input device.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/WheelEvent
 
@@ -25,9 +24,6 @@ The DOM WheelEvent represents events that occur due to the user moving a mouse w
 Inherits from [MouseEvent](/dom/MouseEvent)[MouseEvent](/dom/MouseEvent)
 
 ## Properties
-
-API Name
-:   Summary
 
 [deltaMode](/dom/WheelEvent/deltaMode)
 :   Gets a value that indicates the unit of measurement for delta values.
@@ -43,9 +39,6 @@ API Name
 
 ## Methods
 
-API Name
-:   Summary
-
 [initWheelEvent](/dom/WheelEvent/initWheelEvent)
 :   Initializes a new WheelEvent that the createEvent method created.
 
@@ -56,9 +49,6 @@ API Name
 ## Inherited from MouseEvent
 
 ### Properties
-
-API Name
-:   Summary
 
 [button](/dom/MouseEvent/button)
 :   Gets the mouse button that caused an event.
@@ -99,16 +89,10 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initMouseEvent](/dom/MouseEvent/initMouseEvent)
 :   Initializes a new mouse event that the [**createEvent**](/dom/Document/createEvent) method created.
 
 ### Events
-
-API Name
-:   Summary
 
 [click](/dom/MouseEvent/click)
 :   The click event is triggered for an element when it is activated by a mouse click or by another user action that normally has the same effect as a mouse click.
@@ -141,9 +125,6 @@ API Name
 
 ### Properties
 
-API Name
-:   Summary
-
 [detail](/dom/UIEvent/detail)
 :   Gets additional, developer defined, information about an event.
 
@@ -154,16 +135,10 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initUIEvent](/dom/UIEvent/initUIEvent)
 :   Initializes a new user interface event that the [createEvent](/dom/Document/createEvent) method created.
 
 ### Events
-
-API Name
-:   Summary
 
 [abort](/dom/UIEvent/abort)
 :   Fires when the user aborts the download.
@@ -174,9 +149,6 @@ API Name
 ## Inherited from Event
 
 ### Properties
-
-API Name
-:   Summary
 
 [bubbles](/dom/Event/bubbles)
 :   Gets a value that indicates whether an event propagates up from the event target.
@@ -207,9 +179,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initEvent](/dom/Event/initEvent)
 :   Initializes a new generic event that the [**createEvent**](/dom/Document/createEvent) method created.
 
@@ -223,9 +192,6 @@ API Name
 :   Prevents propagation of an event beyond the current target.
 
 ### Events
-
-API Name
-:   Summary
 
 [DOMContentLoaded](/dom/Event/DOMContentLoaded)
 :

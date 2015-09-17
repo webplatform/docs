@@ -7,8 +7,7 @@ notes:
 readiness: 'In Progress'
 summary: 'A collection of the document''s stylesheets.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: css/cssom/styleSheets
 

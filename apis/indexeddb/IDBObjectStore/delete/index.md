@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'Removes a record from the specified Object Store.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBObjectStore/delete
 
 ---

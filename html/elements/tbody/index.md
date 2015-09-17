@@ -12,8 +12,7 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'The tbody tag is used to group the body content in an HTML table.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/tbody
 

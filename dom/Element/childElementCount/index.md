@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Returns the number of direct children of this node that are elements.  Read-only.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Element/childElementCount
 

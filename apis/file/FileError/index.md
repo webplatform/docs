@@ -8,9 +8,10 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: "Represents an error that occurs while using the FileReader interface.\n"
 tags:
-  0: API
-  1: Objects
-  3: FileAPI
+  - API_Objects
+  - API
+  - FileAPI
+  - Needs_Examples
 uri: apis/file/FileError
 
 ---
@@ -31,6 +32,3 @@ Obsolete per latest specification. Use [DOMError](/dom/DOMError) instead.
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
-

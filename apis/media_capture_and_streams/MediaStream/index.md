@@ -4,12 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The MediaStream interface is used to represent streams of media data, typically (but not necessarily) of audio and/or video content, e.g. from a local camera. Each MediaStream object can contain zero or more tracks, in particular audio and video tracks. And each track in a MediaStream object has a corresponding MediaStreamTrack object.'
 tags:
-  0: API
-  1: Objects
-  3: Media
-  4: Capture
-  5: and
-  6: Streams
+  - API_Objects
+  - API
+  - Media_Capture_and_Streams
 uri: 'apis/media capture and streams/MediaStream'
 
 ---
@@ -18,9 +15,6 @@ uri: 'apis/media capture and streams/MediaStream'
 The MediaStream interface is used to represent streams of media data, typically (but not necessarily) of audio and/or video content, e.g. from a local camera. Each MediaStream object can contain zero or more tracks, in particular audio and video tracks. And each track in a MediaStream object has a corresponding MediaStreamTrack object.
 
 ## Properties
-
-API Name
-:   Summary
 
 [ended](/apis/media_capture_and_streams/MediaStream/ended)
 :   Is true if the MediaStream has finished, false otherwise.
@@ -42,9 +36,6 @@ API Name
 *No methods.*
 
 ## Events
-
-API Name
-:   Summary
 
 [addtrack](/apis/media_capture_and_streams/MediaStream/addtrack)
 :   This event is fired when a track is added to the MediaStream.

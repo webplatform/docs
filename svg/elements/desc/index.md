@@ -11,8 +11,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The desc element (&lt;desc&gt;) provides a human readable description for container elements and graphics elements.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - SVG
 uri: svg/elements/desc
 

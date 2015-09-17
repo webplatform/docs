@@ -10,8 +10,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Specifies the space, in pixels, between the cell wall and the cell content. Not supported in HTML5. Use CSS.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/cellPadding
 

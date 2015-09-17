@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "The number of AudioBufferSourceNodes that are currently playing.\n"
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
+  - Needs_Examples
 uri: apis/webaudio/AudioContext/activeSourceCount
 
 ---
@@ -41,8 +41,6 @@ var result = AudioContext.activeSourceCount;
 ## Return Value
 
 Returns an object of type unsigned longunsigned long
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

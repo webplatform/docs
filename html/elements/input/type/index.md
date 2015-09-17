@@ -1,10 +1,10 @@
 ---
 title: 'type'
+tags:
+  - Merge_Candidate
 uri: html/elements/input/type
 
 ---
-**Merge Candidate**: This page is a candidate for merge with the following pages: [[[html/attributes/type](/html/attributes/type)]]
-
 <table class="mw-prefixindex-list-table">
 <tr>
 <td>

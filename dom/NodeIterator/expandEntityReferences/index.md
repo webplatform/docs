@@ -16,9 +16,7 @@ relationships:
 standardization_status: Deprecated
 summary: 'Flag to specify whether or not the children of entity reference nodes are visible. '
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/NodeIterator/expandEntityReferences
 

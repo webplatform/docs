@@ -14,8 +14,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The div element (&lt;div&gt;) is a generic block-level container that has no semantic value other than the one that you give it via id or class attributes. It can be used for a variety of purposes including the styling of common elements, or for grouping elements with common attributes.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/div
 

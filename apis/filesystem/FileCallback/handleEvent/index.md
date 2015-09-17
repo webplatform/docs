@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Used to supply a File as a response to a user query.\n"
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileSystemAPI
+  - API_Object_Methods
+  - API
+  - FileSystemAPI
+  - Needs_Examples
 uri: apis/filesystem/FileCallback/handleEvent
 
 ---
@@ -44,8 +44,6 @@ Method of [apis/filesystem/FileCallback](/apis/filesystem/FileCallback)[apis/fil
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

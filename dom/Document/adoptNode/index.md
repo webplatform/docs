@@ -17,9 +17,7 @@ relationships:
 standardization_status: Deprecated
 summary: 'Tries to move a node from one document to the document that the document object displays. It is preferable to use importNode instead.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Document/adoptNode
 

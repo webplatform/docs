@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Queries the state of the specified modifier key.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/KeyboardEvent/getModifierState
 
 ---
@@ -67,8 +66,6 @@ Other implementation specific options may be supported. For example -
 Returns an object of type BooleanBoolean
 
 Whether the modifier key is active.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

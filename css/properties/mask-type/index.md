@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'Defines whether the content of the &lt;mask&gt; element is treated as as luminance mask or an alpha mask.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/mask-type
 
 ---

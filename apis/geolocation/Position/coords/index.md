@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Contains a set of geographic coordinates together with their associated accuracy, as well as a set of other optional attributes such as altitude and speed.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Geolocation
+  - API_Object_Properties
+  - API
+  - Geolocation
 uri: apis/geolocation/Position/coords
 
 ---

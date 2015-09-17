@@ -4,8 +4,7 @@ notes:
   - 'Make sure that all child element pages are ready before setting a status'
 summary: 'Index page for MathML elements.'
 tags:
-  - API
-  - Listings
+  - API_Listings
   - MathML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -38,9 +37,6 @@ uri: mathml/elements
 ## Summary
 
 Index page for MathML elements.
-
-API Name
-:   Summary
 
 [maction](/mathml/elements/maction)
 :   The MathML **maction** element provides a possibility to bind actions to (sub-) expressions.

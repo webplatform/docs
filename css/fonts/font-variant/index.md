@@ -8,7 +8,7 @@ compatibility:
   feature: font-variant
   topic: css
 notes:
-  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: /css/properties/font-variant \n\n"
+  - 'Merge Candidate:  This page is a candidate for merge with the following pages: /css/properties/font-variant'
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`normal`'
   'Applies to': 'All elements'
@@ -22,9 +22,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Selects a normal, or small-caps face from a font family. Also possible by using the font shorthand.'
 tags:
-  0: CSS
-  1: Properties
-  3: Design
+  - CSS_Properties
+  - CSS
+  - Design
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -88,7 +88,7 @@ A simple example to show the effect achieved when small-caps are applied to a te
 <p>I think WebPlatform rocks</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/5716625)
+[View live example](http://gist.github.com/5716625)
 
 The CSS applied to the HTML above.
 

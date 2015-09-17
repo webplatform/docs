@@ -10,8 +10,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The srcset attribute is an extension of the image element. It provides  additional image related information to the browser to help decide the most appropriate image to load. Most commonly used for delivering the best image for high device pixel ratio and responsive images.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/srcset
 

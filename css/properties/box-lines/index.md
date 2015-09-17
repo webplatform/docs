@@ -19,8 +19,9 @@ readiness: 'In Progress'
 standardization_status: Non-Standard
 summary: "Do not use. This property has been replaced by the flex-wrap property.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -71,8 +72,6 @@ All child elements are displayed in a single row or column. The [**overflow**](/
 
 multiple
 :   Child elements are wrapped and displayed in successive, parallel rows or columns. The object expands in height or width, perpendicular to the axis defined by the [**-ms-box-orient**](/css/properties/ms-box-orient) property, to accommodate the additional rows or columns.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

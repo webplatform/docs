@@ -18,10 +18,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Retrieves the namespace URI of the fully qualified XML declaration for a node.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/Node/namespaceURI
 
 ---
@@ -44,8 +43,6 @@ var namespaceURI = node.namespaceURI;
 Returns an object of type StringString
 
 The namespace URI of the node, or null if there is none.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

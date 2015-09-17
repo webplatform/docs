@@ -6,9 +6,9 @@ readiness: 'Out of Date'
 standardization_status: 'W3C Working Draft'
 summary: "This interface is the callback used to look up file and directory metadata.\n"
 tags:
-  0: API
-  1: Objects
-  3: FileSystemAPI
+  - API_Objects
+  - API
+  - FileSystemAPI
 uri: apis/filesystem/MetadataCallback
 
 ---
@@ -23,9 +23,6 @@ This interface is the callback used to look up file and directory metadata.
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [handleEvent](/apis/filesystem/MetadataCallback/handleEvent)
 :   Used to supply file or directory metadata as a response to a user query.

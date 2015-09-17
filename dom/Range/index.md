@@ -7,8 +7,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The Range interface represents a fragment of a document that can contain nodes and parts of text nodes in a given document.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/Range
 
@@ -18,9 +17,6 @@ uri: dom/Range
 The Range interface represents a fragment of a document that can contain nodes and parts of text nodes in a given document.
 
 ## Properties
-
-API Name
-:   Summary
 
 [collapsed](/dom/Range/collapsed)
 :   The Range.collapsed read-only property returns a Boolean flag indicating whether the start and end points of the Range are at the same position. It returns true if the start and end boundary points of the Range are the same point in the DOM, false if not.
@@ -41,9 +37,6 @@ API Name
 :   Retrieves the offset of the starting boundary point relative to the startContainer in the current range.
 
 ## Methods
-
-API Name
-:   Summary
 
 [cloneContents](/dom/Range/cloneContents)
 :   Returns a document fragment containing the nodes of a range. If any nodes are partially selected, their start or end nodes are included.

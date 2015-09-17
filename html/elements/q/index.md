@@ -13,8 +13,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The q element represents some phrasing content quoted from another source.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
   - Usability
 uri: html/elements/q

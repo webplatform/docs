@@ -5,9 +5,8 @@ notes:
 readiness: 'Not Ready'
 summary: 'The continuous media group includes all media type that can present a document as a continuous stream of indeterminate length.'
 tags:
+  - CSS_Media_Groups
   - CSS
-  - Media
-  - Groups
 uri: 'css/media queries/media groups/continuous'
 
 ---

@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The track''s ready state; values.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/MediaStreamTrack/readyState
 
 ---
@@ -43,6 +43,4 @@ Returns an object of type unsigned shortunsigned short
 -   LIVE (0)- the track is active; the output may be switched on and off with the enabled attribute.
 -   MUTED (1) - the track's underlying media source is temporarily unable to provide realtime data.
 -   ENDED (2) - the track has ended, and the underlying media source will not provide further data.
-
-**Needs Examples**: This section should include examples.
 

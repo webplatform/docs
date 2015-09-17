@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Gets the number of arguments defined for a function.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Function/length
 
 ---

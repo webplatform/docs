@@ -11,9 +11,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Registers an event handler for the specified event type.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
   - DOMEvents
 uri: dom/EventTarget/addEventListener

@@ -17,8 +17,8 @@ overview_table:
 readiness: 'Not Ready'
 summary: "Sets the mode for the line-through text decoration, determining whether the text decoration affects the space characters or not.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-line-through-mode
 
 ---

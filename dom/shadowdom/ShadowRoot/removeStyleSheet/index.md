@@ -14,11 +14,11 @@ relationships:
     href: /dom/shadowdom/ShadowRoot
 summary: 'Removes a style sheet from the ShadowRoot.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: DOM
-  5: Shadow
+  - API_Object_Methods
+  - API
+  - DOM
+  - Shadow_DOM
+  - Needs_Examples
 uri: dom/shadowdom/ShadowRoot/removeStyleSheet
 
 ---
@@ -39,6 +39,3 @@ var result = element.removeStyleSheet();
 Returns an object of type StyleSheetStyleSheet
 
 The removed style sheet instance.
-
-**Needs Examples**: This section should include examples.
-

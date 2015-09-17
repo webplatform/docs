@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: "The perspective-origin property establishes the origin for the perspective property. It effectively sets the X and Y position at which the viewer appears to be looking at the children of the element. \n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/perspective-origin
 
 ---
@@ -118,7 +118,7 @@ In this example, the object class is a container, and the viewer class its child
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/7033692)
+[View live example](http://gist.github.com/7033692)
 
 ## Usage
 

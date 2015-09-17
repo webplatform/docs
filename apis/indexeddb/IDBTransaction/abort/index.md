@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'The abort method is used to abort a transaction. Once called, the abort method follows the steps to abort a transaction'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBTransaction/abort
 
 ---

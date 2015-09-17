@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'A unique identifier for the pointer causing the event'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
 uri: dom/PointerEvent/pointerId
 
 ---

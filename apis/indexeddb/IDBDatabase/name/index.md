@@ -10,10 +10,10 @@ relationships:
     href: /apis/indexeddb/IDBDatabase
 summary: 'Name of the connected database.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBDatabase/name
 
 ---
@@ -30,6 +30,4 @@ Property of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)[apis/index
 ``` js
 var result = element.name;
 ```
-
-**Needs Examples**: This section should include examples.
 

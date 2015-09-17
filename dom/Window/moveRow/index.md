@@ -11,9 +11,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Moves a table row to a new position.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/moveRow
 

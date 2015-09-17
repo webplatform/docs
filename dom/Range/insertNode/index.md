@@ -14,9 +14,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Inserts a Node into the start of a Range object.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Range/insertNode
 

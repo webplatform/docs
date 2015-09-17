@@ -12,10 +12,10 @@ relationships:
     href: /apis/indexeddb/IDBDatabase
 summary: 'Returns the version of the database when this IDBDatabaseSync instance was created.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBDatabase/version
 
 ---
@@ -31,8 +31,6 @@ Property of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)[apis/index
 var result = element.version;
 element.version = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

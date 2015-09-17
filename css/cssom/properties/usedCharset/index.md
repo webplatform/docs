@@ -12,10 +12,9 @@ relationships:
     href: /css/cssom/properties
 summary: 'The character set used to decode external script references.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: css/cssom/properties/usedCharset
 
 ---
@@ -31,8 +30,6 @@ Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](
 var result = element.usedCharset;
 element.usedCharset = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

@@ -6,18 +6,15 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Allows applications to render pixel-based graphics within a canvas element using a two-dimensional graphics context.'
 tags:
-  0: API
-  1: Listings
-  3: Canvas
+  - API_Listings
+  - API
+  - Canvas
 uri: apis/canvas
 
 ---
 ## Summary
 
 Allows applications to render pixel-based graphics within a canvas element using a two-dimensional graphics context.
-
-API Name
-:   Summary
 
 [CanvasGradient](/apis/canvas/CanvasGradient)
 :   An opaque object of the canvas API.

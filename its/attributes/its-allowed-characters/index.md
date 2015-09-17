@@ -9,8 +9,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The its-* attribute...'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - Internationalization
 uri: its/attributes/its-allowed-characters
 
@@ -26,7 +25,7 @@ Applies to
 
 </th>
 <td>
-<http://docs.webplatform.org/wiki/dom/HTMLElement>
+[/dom/HTMLElement](/dom/HTMLElement)
 
 </td>
 </tr>

@@ -6,10 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Exposes marks created via the mark() method to the Performance Timeline.'
 tags:
-  0: API
-  1: Objects
-  3: User
-  4: Timing
+  - API_Objects
+  - API
+  - User_Timing
 uri: 'apis/user timing/PerformanceMark'
 
 ---
@@ -18,9 +17,6 @@ uri: 'apis/user timing/PerformanceMark'
 Exposes marks created via the mark() method to the Performance Timeline.
 
 ## Properties
-
-API Name
-:   Summary
 
 [duration](/apis/user_timing/PerformanceMark/duration)
 :   Returns a DOMHighResTimeStamp value. For marks, the value is always 0 (zero).

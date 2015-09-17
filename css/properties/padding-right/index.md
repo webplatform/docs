@@ -21,8 +21,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The padding-right CSS property of an element sets the padding space required on the right side of an element. The padding area is the space between the content of the element and its border. Contrary to margin-right values, negative values of padding-right are invalid.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/padding-right
 
 ---
@@ -77,13 +77,13 @@ The following examples use the `padding-right` property to change the [padding](
 td { padding-right: 20%; }
 ```
 
-[View live example](http://code.webplatform.org/gist/6948655)
+[View live example](http://gist.github.com/6948655)
 
 ``` css
 td { padding-right: 30px; }
 ```
 
-[View live example](http://code.webplatform.org/gist/6948661)
+[View live example](http://gist.github.com/6948661)
 
 ## Related specifications
 

@@ -9,10 +9,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Animation sequences are represented by the AnimationSequence interface.'
 tags:
-  - API
-  - Objects
-  - Web
-  - Animations
+  - API_Objects
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationSequence'
 
 ---
@@ -38,9 +37,6 @@ Inherits from [AnimationGroup](/apis/web_animations/AnimationGroup)[AnimationGro
 
 ### Properties
 
-API Name
-:   Summary
-
 [children](/apis/web_animations/AnimationGroup/children)
 :   The list of child animation nodes in the group.
 
@@ -51,9 +47,6 @@ API Name
 :   The last child of this animation group
 
 ### Methods
-
-API Name
-:   Summary
 
 [append](/apis/web_animations/AnimationGroup/append)
 :   If any of the animation nodes in nodes is an inclusive ancestor of this animation node throw a HierarchyRequestError exception and terminate these steps.
@@ -76,6 +69,3 @@ API Name
 ### Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
-

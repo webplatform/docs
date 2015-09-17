@@ -9,11 +9,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Suspends the playback of this player by running the procedure to pause a player for this object.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Web
-  5: Animations
+  - API_Object_Methods
+  - API
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationPlayer/pause'
 
 ---
@@ -32,6 +31,3 @@ Method of [apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPl
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
-

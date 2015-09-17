@@ -12,9 +12,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The @font-face CSS at-rule allows authors to specify online fonts to display text on their web pages. By allowing authors to provide their own fonts, @font-face eliminates the need to depend on the limited number of fonts users have installed on their computers.'
 tags:
+  - CSS_At_Rules
   - CSS
-  - At
-  - Rules
 uri: css/atrules/@font-face
 
 ---
@@ -121,7 +120,7 @@ p {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5481068)
+[View live example](http://gist.github.com/5481068)
 
 ## Usage
 

@@ -15,11 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the time immediately after the user agent finishes prompting to unload the previous document. If there is no previous document, returns the same value as fetchStart.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Navigation
-  5: Timing
+  - API_Object_Properties
+  - API
+  - Navigation_Timing
 uri: 'apis/navigation timing/PerformanceTiming/navigationStart'
 
 ---

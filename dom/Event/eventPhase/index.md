@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets the event phase that is being evaluated.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/Event/eventPhase
 
 ---
@@ -43,8 +42,6 @@ var eventPhase = event.eventPhase;
 Returns an object of type NumberNumber
 
 0 is the initial and final phase (NONE), which means an event has not been dispatched, or the event is done dispatching. 1 is the capturing phase (CAPTURING\_PHASE), which means it is currently running the capturing event handlers. 2 is the at target phase (AT\_TARGET), which means it is currently running the event handlers that were added to the same element the event on which was dispatched. 3 is the bubbling phase (BUBBLING\_PHASE), which means it is currently running event handlers of parent nodes of the original target element.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

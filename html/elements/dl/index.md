@@ -13,8 +13,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The dl element is used to define a description list. The element encloses one or more description terms, enclosed in dt elements, and description definitions (definitions of the terms), enclosed within dd elements.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -95,7 +94,7 @@ This example shows a simple definition list with two item/description pairs.
 </dl>
 ```
 
-[View live example](http://code.webplatform.org/gist/5821157)
+[View live example](http://gist.github.com/5821157)
 
 This example shows a definition list with a single item but multiple descriptions for that item.
 
@@ -108,7 +107,7 @@ This example shows a definition list with a single item but multiple description
 </dl>
 ```
 
-[View live example](http://code.webplatform.org/gist/5821157)
+[View live example](http://gist.github.com/5821157)
 
 This example shows a definition list with a single description and multiple items fitting that description.
 
@@ -121,7 +120,7 @@ This example shows a definition list with a single description and multiple item
 </dl>
 ```
 
-[View live example](http://code.webplatform.org/gist/5821157)
+[View live example](http://gist.github.com/5821157)
 
 Typical browser default CSS properties for the **dl** element.
 

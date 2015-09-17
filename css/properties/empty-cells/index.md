@@ -18,8 +18,8 @@ overview_table:
 readiness: 'Ready to Use'
 summary: 'Sets whether or not to display borders and background on empty cells in a table.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/empty-cells
 
 ---
@@ -75,7 +75,7 @@ td{
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5842874)
+[View live example](http://gist.github.com/5842874)
 
 ## Notes
 

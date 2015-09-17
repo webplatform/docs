@@ -17,10 +17,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Applies various image processing effects.  This property is largely unsupported.  See Compatibility section for more information.'
 tags:
-  0: CSS
-  1: Properties
-  3: Graphics
-  4: SVG
+  - CSS_Properties
+  - CSS
+  - Graphics
+  - SVG
 uri: css/properties/filter
 
 ---
@@ -98,7 +98,7 @@ The example below shows the difference between the CSS box-shadow property and t
 </html>
 ```
 
-[View live example](http://code.webplatform.org/gist/5842451)
+[View live example](http://gist.github.com/5842451)
 
 ## Usage
 

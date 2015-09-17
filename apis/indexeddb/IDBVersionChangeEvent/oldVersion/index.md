@@ -17,10 +17,10 @@ relationships:
     href: /apis/indexeddb/IDBVersionChangeEvent
 summary: 'Returns the old version of the database.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -45,8 +45,6 @@ var result = element.oldVersion;
 ## Return Value
 
 Returns an object of type unsigned longunsigned long
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

@@ -18,10 +18,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Specifies the number of bytes downloaded since the beginning of the operation.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/ProgressEvent/loaded
 
 ---
@@ -44,8 +43,6 @@ var result = ProgressEvent.loaded;
 Returns an object of type unsigned longunsigned long
 
 Number of bytes downloaded since the beginning of the operation.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

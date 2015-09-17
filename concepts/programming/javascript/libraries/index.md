@@ -3,17 +3,15 @@ title: 'JavaScript libraries'
 readiness: 'Not Ready'
 summary: 'Introduction to JavaScript libraries'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
   - JavaScript
+  - Merge_Candidate
 uri: concepts/programming/javascript/libraries
 
 ---
 ## Summary
 
 Introduction to JavaScript libraries
-
-**Merge Candidate**: This page is a candidate for merge with the following pages: [[[1]](http://docs.webplatform.org/wiki/javascript/libraries)]
 
 ## Overview
 

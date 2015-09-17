@@ -17,10 +17,9 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Retrieves a bookmark (opaque string) that can be used with moveToBookmark to return to the same range.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/TextRange/getBookmark
 
 ---
@@ -41,8 +40,6 @@ var bookmark = textRange.getBookmark();
 Returns an object of type StringString
 
 Returns the bookmark if successfully retrieved, or null otherwise.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

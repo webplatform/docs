@@ -19,8 +19,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The unicode-bidi CSS property specifies the level of embedding with respect to the bidirectional algorithm.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/unicode-bidi
 
 ---
@@ -80,7 +80,7 @@ A simple example showing multiple \<p\>s, that they have different unicode-bidi 
 <p class="rtl" id="bidi">Sets the bidi-override as the value of unicode-bidi property.</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/5708639)
+[View live example](http://gist.github.com/5708639)
 
 ``` css
 p {

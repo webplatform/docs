@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Use value.length (in JavaScript/ECMAScript) instead. Gets the codepoint length of the value of the element.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/HTMLTextAreaElement/textLength
 
 ---
@@ -41,8 +40,6 @@ var valueLength = textAreaElement.textLength;
 Returns an object of type NumberNumber
 
 The codepoint length of the value of the element.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

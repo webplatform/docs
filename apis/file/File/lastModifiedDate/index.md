@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The last modified date of the file. On getting, if user agents can make this information available, this must return a new Date object initialized to the last modified date of the file. If the last modification date and time are not known, the attribute must return the current date and time as a Date object.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: FileAPI
+  - API_Object_Properties
+  - API
+  - FileAPI
 uri: apis/file/File/lastModifiedDate
 
 ---

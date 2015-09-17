@@ -15,13 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Clones the given MediaStreamTrack.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Media
-  5: Capture
-  6: and
-  7: Streams
+  - API_Object_Methods
+  - API
+  - Media_Capture_and_Streams
+  - Needs_Examples
 uri: 'apis/media capture and streams/MediaStreamTrack/clone'
 
 ---
@@ -40,6 +37,3 @@ var  = track.clone();
 ## Return Value
 
 Returns an object of type MediaStreamTrackMediaStreamTrack
-
-**Needs Examples**: This section should include examples.
-

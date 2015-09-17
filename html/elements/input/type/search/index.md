@@ -12,9 +12,9 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'An input text field that is used for search queries.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -30,8 +30,6 @@ An input text field that is used for search queries.
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

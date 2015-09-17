@@ -10,9 +10,8 @@ notes:
 readiness: 'Ready to Use'
 summary: 'Returns a Boolean value indicating the state of the multiline flag ( m ) used with a regular expression. Default is false. Read-only.'
 tags:
-  0: JS
-  1: Basic
-  3: Property
+  - JS_Basic
+  - JS_Property
 uri: javascript/RegExp/multiline
 
 ---

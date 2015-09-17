@@ -9,9 +9,7 @@ relationships:
     href: /dom/HTMLElement
 standardization_status: Unknown
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/HTMLElement/index
 

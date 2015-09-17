@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Indicates that the application is willing to accept a cached position whose age is no greater than the specified time (in milliseconds).'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Geolocation
+  - API_Object_Properties
+  - API
+  - Geolocation
 uri: apis/geolocation/PositionOptions/maximumAge
 
 ---

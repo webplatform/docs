@@ -8,10 +8,8 @@ summary: 'This event fires asynchronously for each affected track (when multiple
 tags:
   - Events
   - API
-  - Media
-  - Capture
-  - and
-  - Streams
+  - Media_Capture_and_Streams
+  - Needs_Examples
 uri: 'apis/media capture and streams/MediaStreamTrack/overconstrained'
 
 ---
@@ -69,5 +67,3 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-

@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Handles the open event.\n"
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/onopen
 
 ---
@@ -32,6 +32,4 @@ Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis
 var result = element.onopen;
 element.onopen = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

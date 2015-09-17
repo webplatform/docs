@@ -9,8 +9,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies the whether the script should expose error info. This may be used only when loading a cross-origin script.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
 uri: html/attributes/crossorigin
 
 ---

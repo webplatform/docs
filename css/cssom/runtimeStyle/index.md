@@ -9,8 +9,7 @@ notes:
 readiness: 'Almost Ready'
 summary: 'Sets and retrieves the format and style of an object.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: css/cssom/runtimeStyle
 

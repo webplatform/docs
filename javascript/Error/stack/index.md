@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Gets or sets the error stack as a string that contains the stack trace frames.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Error/stack
 
 ---

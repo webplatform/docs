@@ -6,9 +6,9 @@ readiness: 'Out of Date'
 standardization_status: 'W3C Working Draft'
 summary: "When requestFileSystem() succeeds, this callback is made.\n"
 tags:
-  0: API
-  1: Objects
-  3: FileSystemAPI
+  - API_Objects
+  - API
+  - FileSystemAPI
 uri: apis/filesystem/FileSystemCallback
 
 ---
@@ -23,9 +23,6 @@ When requestFileSystem() succeeds, this callback is made.
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [handleEvent](/apis/filesystem/FileSystemCallback/handleEvent)
 :   The file system was successfully obtained.

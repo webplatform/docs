@@ -11,9 +11,9 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: 'Allows authors to specify a lower resolution image to be shown while the actual image is downloading.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: html/attributes/lowsrc
 
 ---
@@ -33,8 +33,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

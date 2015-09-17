@@ -4,7 +4,7 @@ compatibility:
   feature: text-underline-width
   topic: css
 notes:
-  - "\nDeletion Candidate:   This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.\n\n"
+  - 'Deletion Candidate:   This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.'
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`auto`'
   'Applies to': 'all generated content elements with textual content'
@@ -18,8 +18,9 @@ readiness: 'Not Ready'
 standardization_status: Non-Standard
 summary: 'This defines the line width for underline, overline, or line-through of text decorations'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/text-underline-width
 
 ---
@@ -80,8 +81,6 @@ medium
 
 thick
 :
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

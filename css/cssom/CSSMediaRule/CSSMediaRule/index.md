@@ -6,33 +6,20 @@ notes:
   - 'Summary and examples are needed. Members can use links or clarification of tokens.'
 readiness: 'In Progress'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - API
-  - Objects
+  - Pages_using_duplicate_arguments_in_template_calls
+  - API_Objects
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: css/cssom/CSSMediaRule/CSSMediaRule
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Properties
-
-API Name
-:   Summary
 
 [cssRules](/css/cssom/CSSMediaRule/cssRules)
 :   Gets a list of rules within a @media block.
 
 ## Methods
-
-API Name
-:   Summary
 
 [deleteRule](/css/cssom/CSSMediaRule/deleteRule)
 :   Deletes a CSSRule (representing a selector and all its properties) from the block of rules controlled by this @media rule; the rule to be deleted is specified by index.
@@ -43,8 +30,6 @@ API Name
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ### Standards information
 

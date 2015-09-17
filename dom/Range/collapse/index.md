@@ -18,9 +18,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Collapses (or removes) a range by moving the insertion point to the beginning or end of the current range.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Range/collapse
 

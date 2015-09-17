@@ -21,8 +21,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The flex-wrap property controls whether the flex container is single-line or multi-line, and the direction of the cross-axis, which determines the direction in which new lines are stacked.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/flex-wrap
 
 ---
@@ -85,7 +85,7 @@ Displaying children in a non-wrapping row
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/4740662)
+[View live example](http://gist.github.com/4740662)
 
 Displaying children in a row wrapping to the next line
 
@@ -100,7 +100,7 @@ Displaying children in a row wrapping to the next line
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/4740667)
+[View live example](http://gist.github.com/4740667)
 
 Displaying children in a row wrapping to the previous line
 
@@ -115,7 +115,7 @@ Displaying children in a row wrapping to the previous line
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/4740670)
+[View live example](http://gist.github.com/4740670)
 
 ## Related specifications
 

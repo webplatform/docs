@@ -14,10 +14,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Indicates an error has occurred.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - Appcache
+  - API
+  - Needs_Examples
 uri: apis/appcache/ApplicationCache/onerror
 
 ---
@@ -37,8 +37,6 @@ ApplicationCache.onerror = value;
 ## Return Value
 
 Returns an object of type nullnull
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

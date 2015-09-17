@@ -16,10 +16,9 @@ relationships:
     href: /css/cssom/styleSheet
 summary: 'Non standard. Returns the style or link object that defined the style sheet.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: css/cssom/styleSheet/owningElement
 
 ---
@@ -42,8 +41,6 @@ var element = stylesheet.owningElement;
 Returns an object of type DOM NodeDOM Node
 
 The **owningElement** property returns the **style** or **link** object that defined the style sheet.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

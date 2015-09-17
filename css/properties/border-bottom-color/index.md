@@ -22,8 +22,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "Sets the color of the bottom border. This page explains the border-bottom-color value, but often you will find it more convenient to fix the border's bottom color as part of a shorthand set, either border-bottom or border-color.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-bottom-color
 
 ---
@@ -118,7 +118,7 @@ The following example demonstrates the use of `border-bottom-color` by creating 
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5535432)
+[View live example](http://gist.github.com/5535432)
 
 ``` html
 <div class="box named-value">

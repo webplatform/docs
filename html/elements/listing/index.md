@@ -13,9 +13,9 @@ readiness: 'Ready to Use'
 standardization_status: Deprecated
 summary: '(Obsolete) Renders text of the element (usually in monospace font) without interpreting contain HTML markup; obsoleted by pre and code elements.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
+  - Needs_Examples
 uri: html/elements/listing
 
 ---
@@ -27,8 +27,6 @@ uri: html/elements/listing
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

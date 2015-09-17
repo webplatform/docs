@@ -9,8 +9,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Defines how many pixels away a 3D element is placed from the viewer. This allows you to change the apparent perspective of how 3D elements are viewed.'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/perspective
 
 ---

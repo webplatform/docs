@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The error text of the current PositionError, describing the details of the error encountered. This attribute is primarily intended for debugging and developers should not use it directly in their application user interface.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Geolocation
+  - API_Object_Properties
+  - API
+  - Geolocation
 uri: apis/geolocation/PositionError/message
 
 ---

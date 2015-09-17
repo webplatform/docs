@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Adds the scaling transformation described by the arguments to the transformation matrix. The x argument represents the scale factor in the horizontal direction; the y argument represents the scale factor in the vertical direction. The factors are multiples.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Canvas
+  - API_Object_Methods
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/scale
 
 ---

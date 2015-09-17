@@ -12,8 +12,8 @@ notes:
 readiness: 'Ready to Use'
 summary: 'Defines a three-dimensional transformation to change the scale of the element by setting specific scaling factors in each of the x, y, and z directions.  All three parameters must be specified.'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/scale3d()
 
 ---
@@ -31,7 +31,7 @@ div {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5305309)
+[View live example](http://gist.github.com/5305309)
 
 ### Syntax
 

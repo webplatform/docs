@@ -18,9 +18,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the user''s do-not-track setting. This is &quot;yes&quot; if the user has requested not to be tracked by web sites, content, or advertising.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Navigator/doNotTrack
 

@@ -14,8 +14,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The Word Break Opportunity (wbr) element represents a position within text where the browser may optionally break a line, though its line-breaking rules would not otherwise create a break at that location.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/wbr
 

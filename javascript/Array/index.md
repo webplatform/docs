@@ -13,9 +13,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: "Provides support for creation of arrays of any data type.\n"
 tags:
-  0: JS
-  1: Basic
-  3: Object
+  - JS_Basic
+  - JS_Object
 uri: javascript/Array
 
 ---
@@ -66,7 +65,7 @@ document.write(x);
 // Output: 4
 ```
 
-[View live example](http://code.webplatform.org/gist/42267d4185785ffcf82e)
+[View live example](http://gist.github.com/42267d4185785ffcf82e)
 
 You can pass an unsigned 32-bit integer to the **Array** constructor to specify the size of the array. If the value is negative or not an integer, a run-time error occurs. If you run the following code, you should see this error in the Console.
 
@@ -80,7 +79,7 @@ var arr = new Array(-1);
 arr = new Array(1.50);
 ```
 
-[View live example](http://code.webplatform.org/gist/8856471)
+[View live example](http://gist.github.com/8856471)
 
 If a single value is passed to the **Array** constructor, and it is not a number, the **length** property is set to 1, and the value of the only element becomes the single, passed-in argument.
 
@@ -94,7 +93,7 @@ var arr = new Array("one");
  // one
 ```
 
-[View live example](http://code.webplatform.org/gist/8856494)
+[View live example](http://gist.github.com/8856494)
 
 Adding members, to an array can be done by using the prototypal inheritance chain and call the `push()` method on it.
 
@@ -109,7 +108,7 @@ console.log(ponies[3]);
 // Spike
 ```
 
-[View live example](http://code.webplatform.org/gist/8857418)
+[View live example](http://gist.github.com/8857418)
 
 ## Remarks
 

@@ -11,8 +11,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The MathML mn element represents a numeric literal which is normally a sequence of digits with a possible separator (a dot or a comma). However,  it is also allowed to have arbitrary text in it which is actually a numeric quantity, for example &quot;eleven&quot;.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - MathML
 uri: mathml/elements/mn
 

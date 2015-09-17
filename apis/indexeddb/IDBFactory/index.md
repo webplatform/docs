@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'The object type for the indexedDB property, which provides access to the IndexedDB features supported by the browser and/or device.'
 tags:
-  0: API
-  1: Objects
-  3: IndexedDB
+  - API_Objects
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBFactory
 
 ---
@@ -21,9 +21,6 @@ The object type for the indexedDB property, which provides access to the Indexed
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [cmp](/apis/indexeddb/IDBFactory/cmp)
 :   This method compares two specified keys. Returns 1 if the first key is greater than the second, -1 if the first is less than the second, and 0 if the first is equal to the second.

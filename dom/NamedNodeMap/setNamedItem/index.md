@@ -18,9 +18,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Adds an attribute to an element by using an attributes collection.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/NamedNodeMap/setNamedItem
 

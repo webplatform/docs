@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Gets a collection of all descendant elements with given classes. Not recommended; see Notes.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Document/getElementsByClassName
 

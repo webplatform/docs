@@ -13,8 +13,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'bdo要素はページ上のテキスト表記の方向を定義することができます。（”BDO”とはBi-Directional Override（双方向オーバーライド）の略です。）'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

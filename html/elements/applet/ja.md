@@ -14,8 +14,7 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: '&lt;applet&gt;はJavaアプレットをウェブページに埋め込む際に使用します。'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/applet/ja
 

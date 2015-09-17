@@ -14,10 +14,10 @@ relationships:
     href: /apis/webrtc/MediaStream
 summary: 'The MediaStreamTrackList object representing the audio tracks.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/MediaStream/audioTracks
 
 ---
@@ -38,6 +38,4 @@ var trackList = stream.audioTracks;
 ## Return Value
 
 Returns an object of type MediaStreamTrackListMediaStreamTrackList
-
-**Needs Examples**: This section should include examples.
 

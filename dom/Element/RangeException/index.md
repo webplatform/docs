@@ -17,19 +17,16 @@ relationships:
     href: /dom/Element
 standardization_status: 'W3C Candidate Recommendation'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/Element/RangeException
 
 ---
 <p>
 </p>
-<div class="editors-only">
-<p><b>Needs Summary</b>:   This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article. 
-</p>
-</div>
+
 <p>Method of <a href="/dom/Element">dom/Element</a><a href="/dom/Element">dom/Element</a>
 </p>
 <h2>Syntax</h2>
@@ -65,10 +62,7 @@ A document fragment representing the parsed HTML.
 </p><p>DocumentFragment
 </p><p>A document fragment representing the parsed HTML.
 </p>
-<div class="editors-only">
-<p><b>Needs Examples</b>:  This section should include examples. 
-</p>
-</div>
+
 <h2>Notes</h2>
 <h3>Remarks</h3>
 <p>When inserting elements into a DOM structure, some elements behave according to their context. Using createContextualFragment, you can ensure the parsed HTML will work as expected when inserted or added to the document.

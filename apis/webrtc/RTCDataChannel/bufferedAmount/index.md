@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the number of bytes of application data that have been queued using send() but that (as of the last time the event loop started executing a task) have not yet been transmitted to the network.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCDataChannel/bufferedAmount
 
 ---
@@ -39,8 +39,6 @@ var result = object.bufferedAmount;
 ## Return Value
 
 Returns an object of type unsigned longunsigned long
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

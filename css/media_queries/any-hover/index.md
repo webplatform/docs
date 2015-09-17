@@ -9,17 +9,14 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Working Draft'
 summary: 'The any-hover media query returns information about all a user''s pointer devices.'
 tags:
-  - CSS
-  - Media
-  - Feature
+  - CSS_Media_Feature
+  - Needs_Examples
 uri: 'css/media queries/any-hover'
 
 ---
 ## Summary
 
 The any-hover media query returns information about all a user's pointer devices.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

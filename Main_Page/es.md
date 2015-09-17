@@ -144,7 +144,7 @@ En el futuro, Web Platform Docs incluirá aún más contenido para que explores:
 
 Nos encantaría contar con tu ayuda en la mejora de Web Platform Docs. Incluso el más mínimo esfuerzo puede tener un impacto significativo sobre el sitio. Desde alertar a los colegas desarrolladores sobre errores en nuestra documentación, la corrección de estos errores, la adaptación de artículos existentes o incluso aportando contenido completamente nuevo. Para mayor información, por favor lee nuestra [Guía para Editores](/WPD:Editors_Guide/es).
 
--   Para reportar errores en la webplatform, usa la [página de Gestión del Proyecto](http://project.webplatform.org/). Lee nuestra [página sobre reportar errores](http://docs.webplatform.org/wiki/WPD:Filing_Bugs) para mayor información.
+-   Para reportar errores en la webplatform, usa la [página de Gestión del Proyecto](http://project.webplatform.org/). Lee nuestra [página sobre reportar errores](/WPD:Filing_Bugs) para mayor información.
 -   Si tienes alguna pregunta acerca de webplatform.org, por favor [busca primero una respuesta en las FAQ](/WPD:FAQ).
 
 ## Mantente en contacto

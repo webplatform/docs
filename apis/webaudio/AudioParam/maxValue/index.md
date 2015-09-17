@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "Nominal maximum value. The value attribute may be set higher than this value.\n"
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
+  - Needs_Examples
 uri: apis/webaudio/AudioParam/maxValue
 
 ---
@@ -41,8 +41,6 @@ var result = AudioParam.maxValue;
 ## Return Value
 
 Returns an object of type NumberNumber
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

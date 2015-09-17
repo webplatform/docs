@@ -2,15 +2,12 @@
 title: 'spdy'
 readiness: 'Not Ready'
 tags:
-  - Basic
-  - Pages
-  - Web
-  - Services
+  - Basic_Pages
+  - Web_Services
+  - Needs_Summary
 uri: concepts/protocols/spdy
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## SPDY
 
 Stub.

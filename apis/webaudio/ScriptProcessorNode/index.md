@@ -6,9 +6,9 @@ readiness: 'Out of Date'
 standardization_status: 'W3C Editor''s Draft'
 summary: "This interface is an AudioNode which can generate, process, or analyse audio directly using JavaScript.\n"
 tags:
-  0: API
-  1: Objects
-  3: WebAudio
+  - API_Objects
+  - API
+  - WebAudio
 uri: apis/webaudio/ScriptProcessorNode
 
 ---
@@ -19,9 +19,6 @@ This interface is an AudioNode which can generate, process, or analyse audio dir
 **Deprecated; deletion candidate. See <http://webaudio.github.io/web-audio-api/>.**
 
 ## Properties
-
-API Name
-:   Summary
 
 [bufferSize](/apis/webaudio/ScriptProcessorNode/bufferSize)
 :   The size of the buffer (in sample-frames) which needs to be processed each time [**onaudioprocess**](/apis/webaudio/ScriptProcessorNode/onaudioprocess) is called. Legal values are 256, 512, 1024, 2048, 4096, 8192, and 16384.

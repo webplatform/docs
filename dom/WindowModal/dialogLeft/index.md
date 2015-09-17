@@ -15,9 +15,7 @@ relationships:
     href: /dom/WindowModal
 summary: 'Gets or sets the X coordinate position of a dialog window.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/WindowModal/dialogLeft
 

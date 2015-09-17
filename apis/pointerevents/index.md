@@ -6,8 +6,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'Pointer Events represent events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen.'
 tags:
-  - API
-  - Listings
+  - API_Listings
 uri: apis/pointerevents
 
 ---

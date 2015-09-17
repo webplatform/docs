@@ -12,8 +12,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The header element (&lt;header&gt;) represents the header of a section: a group of introductory or navigational aids.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/header
 

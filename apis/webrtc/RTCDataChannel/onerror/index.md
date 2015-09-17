@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'An event listener to be called when an error occurs.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCDataChannel/onerror
 
 ---
@@ -40,8 +40,6 @@ object.onerror = value;
 Returns an object of type
 
 EventHandler
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

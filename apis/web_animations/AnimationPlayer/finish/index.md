@@ -9,11 +9,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Seeks the player to the end of the source content in the current direction by running the finish a player procedure for this object.'
 tags:
-  - API
-  - Object
-  - Methods
-  - Web
-  - Animations
+  - API_Object_Methods
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationPlayer/finish'
 
 ---
@@ -32,8 +30,6 @@ Method of [apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPl
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

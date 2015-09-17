@@ -8,8 +8,7 @@ overview_table:
   Features: ''
 summary: 'Makes a request conditional on having a certain last-modified timestamp, used to prevent &quot;lost updates&quot; when modifying resources.'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 uri: http/headers/If-Unmodified-Since
 
 ---

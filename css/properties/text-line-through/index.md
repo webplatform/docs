@@ -18,8 +18,8 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The text-line-through property is a shorthand property for text-line-through-style, text-line-through-color and text-line-through-mode.  (Considered obsolete; use text-decoration instead.)'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-line-through
 
 ---

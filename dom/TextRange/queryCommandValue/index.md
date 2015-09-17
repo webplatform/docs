@@ -15,9 +15,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Returns the current value of the document, range, or current selection for the given command.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/TextRange/queryCommandValue
 

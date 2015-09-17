@@ -4,8 +4,7 @@ notes:
   - 'Glossary term; move candidate'
 readiness: 'Not Ready'
 tags:
-  - Glossary
-  - Items
+  - Glossary_Items
 uri: orphan
 
 ---

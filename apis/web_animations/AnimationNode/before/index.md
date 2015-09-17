@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "Inserts nodes before this animation node.\n"
 tags:
-  - API
-  - Object
-  - Methods
-  - Web
-  - Animations
+  - API_Object_Methods
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationNode/before'
 
 ---
@@ -50,6 +48,3 @@ var  = .before(AnimationNode...nodes);
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
-

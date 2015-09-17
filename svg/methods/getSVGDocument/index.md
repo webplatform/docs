@@ -8,11 +8,10 @@ readiness: 'Not Ready'
 standardization_status: Unknown
 tags:
   - SVG
+  - Needs_Examples
 uri: svg/methods/getSVGDocument
 
 ---
-**Needs Examples**: This section should include examples.
-
 ### Syntax
 
 ### Standards information

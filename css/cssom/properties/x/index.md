@@ -12,10 +12,9 @@ relationships:
     href: /css/cssom/properties
 summary: 'Gets or sets an element''s horizontal (x) position.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -40,8 +39,6 @@ Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](
 var result = element.x;
 element.x = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

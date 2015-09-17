@@ -18,10 +18,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Gets the window object that an event is generated from.\n[object window]\n"
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/UIEvent/view
 
 ---
@@ -44,8 +43,6 @@ var eventWindow = event.view;
 Returns an object of type DOM NodeDOM Node
 
 The window object on which the event occurred.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

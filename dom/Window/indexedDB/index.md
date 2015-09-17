@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Provides access to the IndexedDB features supported by the browser and/or device.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Window/indexedDB
 

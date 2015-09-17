@@ -17,10 +17,9 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Moves the text range so that the start and end positions of the range encompass the text in the given element.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/TextRange/moveToElementText
 
 ---
@@ -52,8 +51,6 @@ Returns an object of type NumberNumber
 Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

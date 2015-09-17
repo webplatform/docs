@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Returns a document fragment containing the nodes of a range. If any nodes are partially selected, their start or end nodes are included.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Range/cloneContents
 

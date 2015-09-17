@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Omittable. Gets the element at the specified index.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Uint16Array/get
 
 ---

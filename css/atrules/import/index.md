@@ -11,9 +11,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'Imports an external style sheet.'
 tags:
+  - CSS_At_Rules
   - CSS
-  - At
-  - Rules
 uri: css/atrules/@import
 
 ---

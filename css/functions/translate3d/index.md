@@ -10,8 +10,8 @@ notes:
 readiness: 'Ready to Use'
 summary: 'Transform function for a 3d translation which moves an element on x-axis, y-axis and z-axis by the given values.'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/translate3d()
 
 ---

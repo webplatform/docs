@@ -5,8 +5,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'This article will give an overview of proxy based browsers. Some solution transform web pages into compact formats. Some solution only provides data compression.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Mobile
 uri: 'concepts/Internet and Web/proxy based browsers'
 

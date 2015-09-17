@@ -15,9 +15,7 @@ relationships:
     href: /dom/Window
 summary: 'Displays a synchronized confirmation dialog box showing the given text and possibly localized OK and Cancel buttons.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/confirm
 

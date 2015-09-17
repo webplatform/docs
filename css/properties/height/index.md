@@ -19,8 +19,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Sets the height of an element. The content area of the element height does not include the padding, border, and margin of the element.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/height
 
 ---
@@ -169,7 +169,7 @@ p.height50solved {
 </div>
 ```
 
-[View live example](http://code.webplatform.org/gist/5702862)
+[View live example](http://gist.github.com/5702862)
 
 ## Notes
 

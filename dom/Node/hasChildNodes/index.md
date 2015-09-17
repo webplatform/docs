@@ -18,9 +18,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets a value that indicates whether the Node has any direct Node descendant of any type.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Node/hasChildNodes
 

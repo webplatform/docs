@@ -22,8 +22,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Specifies if the list-item markers should appear inside or outside the content flow.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/list-style-position
 
 ---
@@ -80,7 +80,7 @@ The following example uses the **list-style-position** attribute and the **list-
 .secondlist { list-style-position:outside }
 ```
 
-[View live example](http://code.webplatform.org/gist/5841706)
+[View live example](http://gist.github.com/5841706)
 
 The following example shows how to change the value dynamically using JavaScript. The value changes from outside to inside when the mouse is over the list
 
@@ -98,7 +98,7 @@ ul.addEventListener('mouseout', function () {
 });
 ```
 
-[View live example](http://code.webplatform.org/gist/6949116)
+[View live example](http://gist.github.com/6949116)
 
 An example to show how setting padding-left to 0 when position is set to outside will produce the market not being shown at all. A ul contained in a div with overflow hidden might run into this issue.
 
@@ -116,7 +116,7 @@ ul {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5598129)
+[View live example](http://gist.github.com/5598129)
 
 ## Usage
 

@@ -13,6 +13,7 @@ tags:
   - DOM
   - Media
   - Video
+  - Needs_Examples
 uri: dom/HTMLMediaElement/canplay
 
 ---
@@ -74,8 +75,6 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 The **oncanplay** event is raised when enough data is available to advance the playback position in the direction of playback. This event first occurs after [**onloadeddata**](/dom/Element/loadeddata) and before [**oncanplaythrough**](/dom/HTMLMediaElement/canplaythrough). To invoke this event, load a media resource.

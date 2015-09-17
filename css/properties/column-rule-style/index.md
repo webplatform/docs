@@ -22,8 +22,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies the style of the rule between columns. The column-rule-style values are the same as for border-style.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/column-rule-style
 
 ---
@@ -121,7 +121,7 @@ Makes 3 columns with 4px dashed green column-rule
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6288958)
+[View live example](http://gist.github.com/6288958)
 
 ## Related specifications
 

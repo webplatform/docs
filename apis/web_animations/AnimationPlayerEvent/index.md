@@ -4,10 +4,9 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Editor''s Draft'
 summary: "Constructs a new AnimationPlayerEvent object as described in Constructing events in [DOM4].\n"
 tags:
-  - API
-  - Objects
-  - Web
-  - Animations
+  - API_Objects
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationPlayerEvent'
 
 ---
@@ -28,8 +27,6 @@ Constructs a new AnimationPlayerEvent object as described in Constructing events
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

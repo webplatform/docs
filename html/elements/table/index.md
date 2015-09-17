@@ -11,8 +11,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The &lt;table&gt; element is a wrapper for an HTML table. It defines the start and end of a table, and can contain other table elements, such as &lt;tr&gt;.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/table
 

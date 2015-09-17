@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the characters from the position following the last match to the end of the searched string. Read-only.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/RegExp/rightContext
 
 ---

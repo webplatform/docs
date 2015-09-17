@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'A static object for URL related utility operations.'
 tags:
-  0: API
-  1: Objects
-  3: FileAPI
+  - API_Objects
+  - API
+  - FileAPI
 uri: apis/file/URL
 
 ---
@@ -21,9 +21,6 @@ A static object for URL related utility operations.
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [createObjectURL](/apis/file/URL/createObjectURL)
 :   Creates a URL for the specified object.

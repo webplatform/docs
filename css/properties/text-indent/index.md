@@ -22,8 +22,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Specifies the amount of space horizontally that should be left on the first line of the text of an element. This horizontal spacing is at the beginning of the first line and is in respect to the left edge of the containing block box.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -120,7 +120,7 @@ p:nth-child(3) {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5842068)
+[View live example](http://gist.github.com/5842068)
 
 This example uses JavaScript to indent the text within the **div** when a [**mouseover**](/w/index.php?title=dom/events/mouseover&action=edit&redlink=1) event occurs.
 
@@ -145,7 +145,7 @@ window.addEventListener("load", initialize, false);
 </html>
 ```
 
-[View live example](http://code.webplatform.org/gist/5658652)
+[View live example](http://gist.github.com/5658652)
 
 ## Usage
 

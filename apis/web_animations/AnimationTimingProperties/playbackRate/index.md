@@ -9,9 +9,8 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'See the playbackRate member of the AnimationTimingReadOnly interface.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
+  - Needs_Examples
 uri: 'apis/web animations/AnimationTimingProperties/playbackRate'
 
 ---
@@ -27,6 +26,4 @@ Property of [apis/web animations/AnimationTimingProperties](/apis/web_animations
 var result = element.playbackRate;
 element.playbackRate = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

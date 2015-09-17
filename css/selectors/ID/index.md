@@ -6,12 +6,12 @@ compatibility:
   feature: ID
   topic: css
 notes:
-  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: css/selectors/id_selector \n\n"
+  - 'Merge Candidate:  This page is a candidate for merge with the following pages: css/selectors/id_selector'
 readiness: 'In Progress'
 summary: 'The #id selector styles the element with the specified id.'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

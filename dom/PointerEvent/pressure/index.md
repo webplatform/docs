@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The normalized pressure of the pointer input in the range of [0,1], where 0 and 1 represent the minimum and maximum pressure the hardware is capable of detecting, respectively.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
 uri: dom/PointerEvent/pressure
 
 ---

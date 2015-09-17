@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'document.hidden returns true if the document is hidden or false if it is visible at all'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - Performance
 uri: dom/Document/hidden

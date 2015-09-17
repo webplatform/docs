@@ -17,10 +17,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the absolute URL that the object represents.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Webworkers
+  - API_Object_Properties
+  - API
+  - Webworkers
+  - Needs_Examples
 uri: apis/workers/WorkerLocation/href
 
 ---
@@ -41,8 +41,6 @@ var result = object.href;
 ## Return Value
 
 Returns an object of type StringString
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Exposes the current document''s fullscreen capability, returning true if the document can display elements in fullscreen, or false if not.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Document/fullscreenEnabled
 
@@ -64,4 +62,4 @@ function canDisplayFullScreen() {
 
 ## See also
 
-Tutorial: [Using the full-screen API](http://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api)
+Tutorial: [Using the full-screen API](/tutorials/using_the_full-screen_api)

@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The maximum number of simultaneous touch contacts supported by the device.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
 uri: dom/Navigator/maxTouchPoints
 
 ---

@@ -17,9 +17,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Retrieves the distance between the left edge of the rectangle that bounds the TextRange object and the left side of the object that contains the TextRange.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/TextRange/boundingLeft
 

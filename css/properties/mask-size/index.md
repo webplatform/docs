@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Specifies the size of the mask images, similar to the CSS background-size property.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/mask-size
 
 ---

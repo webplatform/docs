@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Declares a variable.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/statements/var
 
 ---

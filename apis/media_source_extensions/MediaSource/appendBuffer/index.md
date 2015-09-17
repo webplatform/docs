@@ -11,9 +11,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Appends the specified media segment to the SourceBuffer.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - Media
 uri: 'apis/media source extensions/MediaSource/appendBuffer'
 

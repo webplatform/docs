@@ -8,8 +8,8 @@ overview_table:
   Features: ''
 summary: 'Asks the server to apply the range request only if the provided ETag or Last-Modified date is current; otherwise send the entire resource.'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
+  - Needs_Examples
 uri: http/headers/If-Range
 
 ---
@@ -28,8 +28,6 @@ Features
 ## Syntax
 
     If-Range = entity-tag / HTTP-date
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

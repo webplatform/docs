@@ -15,9 +15,7 @@ relationships:
     href: /dom/Window
 summary: 'Opens a new window and loads the document specified by a given URL.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/open
 

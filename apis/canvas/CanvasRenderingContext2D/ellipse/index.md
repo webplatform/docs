@@ -17,10 +17,10 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: "Draws the specified ellipse. If the object's path has any subpaths, this method adds a straight line from the last point in the subpath to the start point of the arc. Then, it adds the start and end points of the arc to the subpath, and connects them with an arc.\n"
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Canvas
+  - API_Object_Methods
+  - API
+  - Canvas
+  - Needs_Examples
 uri: apis/canvas/CanvasRenderingContext2D/ellipse
 
 ---
@@ -110,8 +110,6 @@ This method can return one of these values.
 |:----------|:----------|
 |S\_OK|The operation completed successfully.|
 |IndexSizeError|The specified radius value is negative.|
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

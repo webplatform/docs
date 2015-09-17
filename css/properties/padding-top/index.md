@@ -22,8 +22,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The padding-top CSS property of an element sets the padding space required on the top of an element. The padding area is the space between the content of the element and its border. Contrary to margin-top values, negative values of padding-top are invalid.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/padding-top
 
 ---
@@ -78,13 +78,13 @@ The following examples use the **padding-top** property to change the padding of
 td { padding-top: 20%; }
 ```
 
-[View live example](http://code.webplatform.org/gist/6948436)
+[View live example](http://gist.github.com/6948436)
 
 ``` css
 td { padding-top: 30px; }
 ```
 
-[View live example](http://code.webplatform.org/gist/6948429)
+[View live example](http://gist.github.com/6948429)
 
 ### Syntax
 

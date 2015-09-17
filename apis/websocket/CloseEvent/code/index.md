@@ -18,10 +18,10 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The WebSocket connection close code provided by the server.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebSocket
+  - API_Object_Properties
+  - API
+  - WebSocket
+  - Needs_Examples
 uri: apis/websocket/CloseEvent/code
 
 ---
@@ -57,8 +57,6 @@ Returns an object of type unsigned shortunsigned short
 |2000-2999||Reserved for use by WebSocket extensions.|
 |3000-3999||Available for use by libraries and frameworks. May not be used by applications.|
 |4000-4999||Available for use by applications.|
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

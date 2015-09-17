@@ -11,20 +11,17 @@ overview_table:
   '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
 readiness: 'In Progress'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - SVG
+  - Needs_Summary
+  - Needs_Examples
 uri: svg/elements/feOffset
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Overview Table
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

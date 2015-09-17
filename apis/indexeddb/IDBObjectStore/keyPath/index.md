@@ -12,10 +12,10 @@ relationships:
     href: /apis/indexeddb/IDBObjectStore
 summary: 'Provides the key path of this object store.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBObjectStore/keyPath
 
 ---
@@ -31,8 +31,6 @@ Property of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis
 var result = element.keyPath;
 element.keyPath = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

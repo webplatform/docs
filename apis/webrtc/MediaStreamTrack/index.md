@@ -1,14 +1,15 @@
 ---
 title: 'MediaStreamTrack'
 notes:
-  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: [[apis/media_capture_and_streams/MediaStreamTrack]] \n\n"
+  - 'Merge Candidate:  This page is a candidate for merge with the following pages: [[apis/media_capture_and_streams/MediaStreamTrack]]'
 readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'A MediaStreamTrack is one of two kinds, audio or video, and represents the media source, such as a camera.'
 tags:
-  0: API
-  1: Objects
-  3: WebRTC
+  - API_Objects
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/MediaStreamTrack
 
 ---
@@ -17,9 +18,6 @@ uri: apis/webrtc/MediaStreamTrack
 A MediaStreamTrack is one of two kinds, audio or video, and represents the media source, such as a camera.
 
 ## Properties
-
-API Name
-:   Summary
 
 [enabled](/apis/webrtc/MediaStreamTrack/enabled)
 :   True if the track is still associated with its source.
@@ -45,9 +43,6 @@ API Name
 
 ## Events
 
-API Name
-:   Summary
-
 [ended](/apis/webrtc/MediaStreamTrack/ended)
 :   The MediaStreamTrack object's source will not provide data; this may be caused by the following:
     -   the user has revoked permissions on the application
@@ -60,6 +55,3 @@ API Name
 
 [unmuted](/apis/webrtc/MediaStreamTrack/unmuted)
 :   The MediaStreamTrack object's source has resumed providing data.
-
-**Needs Examples**: This section should include examples.
-

@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'A value from 0 to 1 representing the averaging constant with the last analysis frame. Default is 0.8.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
 uri: apis/webaudio/AnalyserNode/smoothingTimeConstant
 
 ---

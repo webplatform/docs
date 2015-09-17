@@ -17,8 +17,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'Defines a hyperlink, a destination of hyperlink, or both.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/a
 
@@ -136,7 +135,7 @@ Defines a hyperlink, a destination of hyperlink, or both.</p><p><br/></p>
 &lt;a href="http://www.example.com/help" rel="help"&gt;Link to help&lt;/a&gt;
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/5281100">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://gist.github.com/5281100">View live example</a>
 </p>
 </div>
 <h2>Notes</h2>

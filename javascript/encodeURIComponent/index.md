@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Encodes a text string as a valid component of a Uniform Resource Identifier (URI).'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/encodeURIComponent
 
 ---

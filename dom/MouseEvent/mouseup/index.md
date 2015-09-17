@@ -9,6 +9,7 @@ summary: 'Fires when the user releases a mouse button while the mouse is over th
 tags:
   - Events
   - DOM
+  - Needs_Examples
 uri: dom/MouseEvent/mouseup
 
 ---
@@ -70,8 +71,6 @@ Invoke a context menu (in combination with the right mouse button, if supported)
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

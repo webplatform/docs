@@ -9,8 +9,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "The\_:visited pseudo-class applies to links the user has visited"
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 uri: 'css/selectors/pseudo-classes/:visited'
 
 ---

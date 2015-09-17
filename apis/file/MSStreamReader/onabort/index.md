@@ -13,10 +13,11 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Indicates that the read has been aborted (for example, by calling abort()).'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: FileAPI
+  - API_Object_Properties
+  - API
+  - FileAPI
+  - Needs_Examples
+  - Deletion_Candidate
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -37,8 +38,6 @@ Property of [apis/file/MSStreamReader](/apis/file/MSStreamReader)[apis/file/MSSt
 var result = element.onabort;
 element.onabort = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 
@@ -67,6 +66,4 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   FileReader[FileReader](/apis/file/FileReader)
 -   msStreamReader[msStreamReader](/apis/file/MSStreamReader)
 -   click[click](/w/index.php?title=dom/methods/click&action=edit&redlink=1)
-
-**Deletion Candidate**: MS proprietary
 

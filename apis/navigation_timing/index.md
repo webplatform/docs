@@ -6,19 +6,15 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'An interface for web applications to access timing information related to navigation and elements.'
 tags:
-  0: API
-  1: Listings
-  3: Navigation
-  4: Timing
+  - API_Listings
+  - API
+  - Navigation_Timing
 uri: 'apis/navigation timing'
 
 ---
 ## Summary
 
 An interface for web applications to access timing information related to navigation and elements.
-
-API Name
-:   Summary
 
 [Performance](/apis/navigation_timing/Performance)
 :   The HTML5 specification defines a Window interface, which this specification extends.

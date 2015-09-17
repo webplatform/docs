@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'A special constant that specifies a value that is Not-A-Number'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/NaN
 
 ---

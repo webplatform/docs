@@ -15,9 +15,7 @@ relationships:
     href: /dom/HTMLElement
 summary: 'Covers what the click action is and what happens when it is performed.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/HTMLElement/click
 

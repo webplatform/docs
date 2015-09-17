@@ -9,6 +9,7 @@ standardization_status: 'W3C Recommendation'
 summary: 'Sets a property, value, and priority within a CSS style declaration.'
 tags:
   - DOM
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -19,8 +20,6 @@ uri: css/cssom/CSSStyleDeclaration/setProperty
 ## Summary
 
 [Template:API O'''bj'''ect Method](/w/index.php?title=Template:API_O%27%27%27bj%27%27%27ect_Method&action=edit&redlink=1) Sets a property, value, and priority within a CSS style declaration.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

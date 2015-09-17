@@ -3,8 +3,7 @@ title: 'Colors by Hue'
 readiness: 'Ready to Use'
 summary: 'A list of CSS color names, sorted by hue.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
   - CSS
 uri: 'css/color/colors by hue'
 

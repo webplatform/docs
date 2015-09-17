@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'This property sets the image that will be used as the list item marker. When the image is available, it will replace the marker set with the ''list-style-type'' marker. That also means that if the image is not available, it will show the style specified by list-style-property'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/list-style-image
 
 ---
@@ -101,7 +101,7 @@ The following examples shows the different possible values you can use for the l
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6948599)
+[View live example](http://gist.github.com/6948599)
 
 ## Usage
 

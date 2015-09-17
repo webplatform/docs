@@ -4,8 +4,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'This page lists properties, methods, and events for the EventTarget object.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOMEvents
 uri: dom/EventTarget
 
@@ -19,9 +18,6 @@ This page lists properties, methods, and events for the EventTarget object.
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [addEventListener](/dom/EventTarget/addEventListener)
 :   Registers an event handler for the specified event type.

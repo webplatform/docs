@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'You can use HTML tag methods to place HTML elements around text in a String object.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/String/HTML Tag Methods'
 
 ---

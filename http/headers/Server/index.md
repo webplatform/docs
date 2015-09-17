@@ -8,8 +8,7 @@ overview_table:
   Features: ''
 summary: 'Contains information about the software used by the origin server to handle the request.'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 uri: http/headers/Server
 
 ---

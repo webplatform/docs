@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Denotes the direction of travel of the hosting device specified in degrees, where 0° ≤ heading &lt; 360°, counting clockwise relative to the true north. If the implementation cannot provide heading information, the value of this attribute must be null. If the hosting device is stationary (i.e., the value of the speed attribute is 0), then the value of this attribute must be NaN.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Geolocation
+  - API_Object_Properties
+  - API
+  - Geolocation
 uri: apis/geolocation/Coordinates/heading
 
 ---

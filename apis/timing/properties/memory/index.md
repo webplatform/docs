@@ -17,9 +17,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Do not use. Proprietary. Chrome only. Gets quantized scripting memory usage numbers.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - Performance
 todo_broken_links:

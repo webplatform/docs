@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'The void operator evaluates an expression and then returns undefined.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/operators/void
 
 ---

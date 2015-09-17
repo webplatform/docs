@@ -15,13 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns a dictionary with all of the capabilities for the track type.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Media
-  5: Capture
-  6: and
-  7: Streams
+  - API_Object_Methods
+  - API
+  - Media_Capture_and_Streams
+  - Needs_Examples
 uri: 'apis/media capture and streams/MediaStreamTrack/capabilities'
 
 ---
@@ -42,6 +39,3 @@ var  = track.capabilities();
 Returns an object of type
 
 If the track type is VideoStreamTrack, the AllVideoCapabilities dictionary is returned. If the track type is AudioStreamTrack, the AllAudioCapabilities dictionary is returned.
-
-**Needs Examples**: This section should include examples.
-

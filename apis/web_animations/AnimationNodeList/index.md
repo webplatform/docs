@@ -3,10 +3,9 @@ title: 'AnimationNodeList'
 readiness: readiness-state
 summary: 'The sole reason this interface exists is to provide a familiar experience for authors familiar with DOM interfaces where child nodes are accessed via a children member.'
 tags:
-  - API
-  - Objects
-  - Web
-  - Animations
+  - API_Objects
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationNodeList'
 
 ---
@@ -25,6 +24,3 @@ The sole reason this interface exists is to provide a familiar experience for au
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
-

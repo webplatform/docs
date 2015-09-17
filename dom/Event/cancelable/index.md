@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets a value that indicates whether you can cancel an event''s default action.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -47,8 +46,6 @@ var cancelable = event.cancelable;
 Returns an object of type BooleanBoolean
 
 Whether the event's default action can be canceled.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

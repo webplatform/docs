@@ -1,5 +1,7 @@
 ---
 title: 'flow-into'
+code_samples:
+  - 'http://codepen.io/collection/jabto'
 compatibility:
   feature: flow-into
   topic: css
@@ -16,9 +18,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Diverts the selected element''s content into a named flow, used to thread content through different layout regions specified by  flow-from.'
 tags:
-  0: CSS
-  1: Properties
-  3: CSS-Regions
+  - CSS_Properties
+  - CSS
+  - CSS-Regions
 uri: css/properties/flow-into
 
 ---

@@ -19,8 +19,9 @@ readiness: 'In Progress'
 standardization_status: Non-Standard
 summary: 'Do not use. This property has been replaced by flex-pack.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -75,8 +76,6 @@ center
 
 justify
 :   The starting edge of the first child element is placed at the start of the parent element; the ending edge of the last child element is placed edge to edge with the end of the parent box; and all remaining children are placed between the first and last child elements, so that any space that remains along the layout axis is equally distributed between child elements.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

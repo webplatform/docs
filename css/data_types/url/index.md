@@ -7,8 +7,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The &lt;url&gt; CSS data type, formerly called the &lt;uri&gt; data type, represents a reference to a file or file fragment.  It is specified with the url() function.'
 tags:
-  - Data
-  - Type
+  - Data_Type
   - CSS
 uri: 'css/data types/url'
 
@@ -58,7 +57,7 @@ In a `<style>` block in an HTML or SVG page, relative files and fragments are re
 </html>
 ```
 
-[View live example](http://code.webplatform.org/gist/10604525)
+[View live example](http://gist.github.com/10604525)
 
 In an external stylesheet, relative files are resolved relative to the stylesheet's location.
 
@@ -90,7 +89,7 @@ ul.custom {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/10603403)
+[View live example](http://gist.github.com/10603403)
 
 ## Related specifications
 

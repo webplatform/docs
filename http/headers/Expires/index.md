@@ -8,8 +8,7 @@ overview_table:
   Features: ''
 summary: 'Gives the datetime after which the response is considered &quot;stale&quot;'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 uri: http/headers/Expires
 
 ---

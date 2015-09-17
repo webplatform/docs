@@ -5,12 +5,11 @@ notes:
 readiness: 'Not Ready'
 tags:
   - Tutorials
+  - Needs_Summary
 uri: tutorials/php/intro
 
 ---
 **By Lewis Youldon**
-
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
 ## About php
 

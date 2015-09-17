@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Requests a file system where data should be stored. You access a sandboxed file system by requesting a LocalFileSystemSync object from within a web worker using this global method, window.requestFileSystemSync().\n"
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileSystemAPI
+  - API_Object_Methods
+  - API
+  - FileSystemAPI
+  - Needs_Examples
 uri: apis/filesystem/LocalFileSystemSync/requestFileSystemSync
 
 ---
@@ -57,8 +57,6 @@ var  = LocalFileSystemSync.requestFileSystemSync(type, size);
 Returns an object of type
 
 FileSystemSync
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

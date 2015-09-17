@@ -11,8 +11,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Working Draft'
 summary: 'The month of the &lt;input&gt; element represents a widget for entering a month value.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/input/type/month
 

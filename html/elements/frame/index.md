@@ -13,8 +13,7 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: "The frame element (&lt;frame&gt;) defines one particular window (frame) within a &lt;frameSet&gt;.\nThe &lt;frame&gt; element is obsolete in HTML5.\n"
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

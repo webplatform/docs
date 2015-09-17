@@ -10,9 +10,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'Sets or retrieves the space between the frames, including the 3-D border.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: 'html/attributes/border (frameSet, iframe)'
 
 ---
@@ -32,8 +32,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 This property applies either to the outer **frameSet** element or to inner **frameSet** elements. When you specify the **border** property of the outermost **frameSet** element, the **border** properties of any inner **frameSet** elements are ignored. When you do not specify the **border** property of the outermost **frameSet** element, the **border** properties of inner **frameSet** elements are not ignored. Setting a border to zero or omitting the attribute causes no border to be displayed. Supplying the border attribute without a value defaults to a single border.

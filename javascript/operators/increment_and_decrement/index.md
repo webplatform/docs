@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'The increment operator increments, and the decrement operator decrements, the value of a variable by one.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/operators/increment and decrement'
 
 ---

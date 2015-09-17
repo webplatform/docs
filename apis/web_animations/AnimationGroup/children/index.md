@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The list of child animation nodes in the group.'
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationGroup/children'
 
 ---
@@ -40,6 +38,4 @@ var result = element.children;
 Returns an object of type ObjectObject
 
 returns an AnimationNodeList object
-
-**Needs Examples**: This section should include examples.
 

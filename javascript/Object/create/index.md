@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Creates an object that has the specified prototype, and that optionally contains specified properties.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Object/create
 
 ---

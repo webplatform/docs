@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Cancels the default action of an event, if possible.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/Event/preventDefault
 
 ---
@@ -35,8 +34,6 @@ Method of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

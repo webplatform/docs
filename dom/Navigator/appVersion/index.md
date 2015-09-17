@@ -17,9 +17,7 @@ relationships:
     href: /dom/Navigator
 summary: 'Returns the version of the browser as a string. It may be either a plain version number, like &quot;5.0&quot;, or a version number followed by more detailed information. The HTML5 specification also allows any browser to return &quot;4.0&quot; here, for compatibility reasons.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Navigator/appVersion
 

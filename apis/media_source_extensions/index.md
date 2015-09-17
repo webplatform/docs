@@ -6,9 +6,9 @@ readiness: 'In Progress'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'Provides a buffer based source for HTML5 Video elements to enable media streams for playback, for features like adaptive streaming and shifting live streams.'
 tags:
-  0: API
-  1: Listings
-  3: Media
+  - API_Listings
+  - API
+  - Media
 uri: 'apis/media source extensions'
 
 ---
@@ -33,4 +33,4 @@ Provides a buffer based source for HTML5 Video elements to enable media streams 
 ### External resources
 
 -   [Media Source Extensions API specification](http://www.w3.org/TR/media-source/)
--   [MSE Primer](http://docs.webplatform.org/wiki/tutorials/MSEPrimer)
+-   [MSE Primer](/tutorials/MSEPrimer)

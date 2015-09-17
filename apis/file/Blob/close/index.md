@@ -11,10 +11,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Releases the file lock for the associated file resource or frees the memory for the Blob object. After calling this method, performing addition operations on the Blob object fails and throws an exception.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileAPI
+  - API_Object_Methods
+  - API
+  - FileAPI
 uri: apis/file/Blob/close
 
 ---

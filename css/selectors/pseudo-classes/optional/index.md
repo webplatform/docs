@@ -9,8 +9,9 @@ notes:
   - 'Needs title, summary, spec reference, standardization status, fix table coding, remove topic cluster flags'
 readiness: 'Not Ready'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
+  - Needs_Summary
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -26,8 +27,6 @@ optional=
 
 </dd>
 </dl>
-
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
 ## Examples
 

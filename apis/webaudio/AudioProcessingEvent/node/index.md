@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "The ScriptProcessorNode associated with this processing event.\n"
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
+  - Needs_Examples
 uri: apis/webaudio/AudioProcessingEvent/node
 
 ---
@@ -32,8 +32,6 @@ Property of [apis/webaudio/AudioProcessingEvent](/apis/webaudio/AudioProcessingE
 var result = AudioProcessingEvent.node;
 AudioProcessingEvent.node = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

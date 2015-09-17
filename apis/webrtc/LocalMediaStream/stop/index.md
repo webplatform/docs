@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Permanently halts the generation of data for the tracks'' sources and removes the references to the sources.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebRTC
+  - API_Object_Methods
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/LocalMediaStream/stop
 
 ---
@@ -33,6 +33,3 @@ Method of [apis/webrtc/LocalMediaStream](/apis/webrtc/LocalMediaStream)[apis/web
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
-

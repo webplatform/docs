@@ -3,14 +3,13 @@ title: 'アクセシビリティ'
 lang: ja
 summary: 'アクセシビリティは、能力が様々な人々がWebを活用できるようにすることです。アクセシビリティは、質の高いwebサイトやツールを望み、自分たちの製品やサービスから人々を締め出したくない開発者や組織にとって、とても重要なことです。アクセシビリティは、障害を持った人々でも等しくWebに参加できるようにするのに不可欠です。法的必要条件になっている場合もありますが、どんな場合でも推奨事項です。'
 tags:
-  0: Basic
-  1: Pages
-  2: Concept
-  4: Accessibility
-  5: ARIA
-  6: Design
-  7: UI
-  8: Usability
+  - Basic_Pages
+  - Concept_Pages
+  - Accessibility
+  - ARIA
+  - Design
+  - UI
+  - Usability
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

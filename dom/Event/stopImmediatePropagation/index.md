@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Prevents any further propagation of an event.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/Event/stopImmediatePropagation
 
 ---
@@ -35,8 +34,6 @@ Method of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

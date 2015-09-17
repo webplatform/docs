@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'length returns the number of files in the FileList object. If there are no files, this attribute must return 0.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: FileAPI
+  - API_Object_Properties
+  - API
+  - FileAPI
 uri: apis/file/FileList/length
 
 ---

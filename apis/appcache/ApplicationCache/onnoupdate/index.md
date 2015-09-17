@@ -14,10 +14,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Indicates the manifest has not changed.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - Appcache
+  - API
 uri: apis/appcache/ApplicationCache/onnoupdate
 
 ---

@@ -3,8 +3,8 @@ title: 'Code minification'
 readiness: 'In Progress'
 summary: 'Minification is the process of transforming a file in a way such that while the functionality of the input file are kept unchanged, the resulting file is much smaller. In the context of JavaScript and web applications, minification is especially useful because it can help reduce page load times. In larger projects, minification is generally integrated into a build process.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
+  - Needs_Examples
 uri: concepts/programming/javascript/minification
 
 ---
@@ -27,8 +27,6 @@ Because minification reduces the size of code, minified code requires less data 
 ## History
 
 Douglas Crockford's JSMin, introduced in 2003, was the first JavaScript minifier. It simply removed comments and unnecessary whitespace from code. Soon after, Yahoo's YUI Compressor was introduced, which actually parsed code, and performed several other optimizations.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

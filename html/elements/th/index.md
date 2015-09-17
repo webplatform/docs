@@ -12,8 +12,7 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'The th tag defines a header cell in an HTML table.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/th
 

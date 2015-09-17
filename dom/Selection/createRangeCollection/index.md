@@ -15,15 +15,13 @@ relationships:
     value: 'DOM Node'
     href: /dom/Selection
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/Selection/createRangeCollection
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
 ## Syntax
@@ -39,8 +37,6 @@ Returns an object of type DOM NodeDOM Node
 Object
 
 Returns a collection of [**TextRange**](/dom/TextRange) objects.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

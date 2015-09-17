@@ -9,11 +9,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'One or more tokens that define the matching criteria for the distribution of child nodes of the shadow host.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
-  - Shadow
-  - DOM
+  - Shadow_DOM
 uri: html/attributes/select
 
 ---

@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The text-emphasis-style property applies special emphasis marks to an element''s text.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-emphasis-style
 
 ---
@@ -103,7 +103,7 @@ p {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6133332)
+[View live example](http://gist.github.com/6133332)
 
 ``` css
 p {

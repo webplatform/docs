@@ -5,8 +5,7 @@ notes:
 readiness: 'Almost Ready'
 summary: 'Index of tutorials related to canvas.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
   - Canvas
 uri: tutorials/canvas
 

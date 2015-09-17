@@ -13,8 +13,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "Underlines text inline. \n"
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/u
 

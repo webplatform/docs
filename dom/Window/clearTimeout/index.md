@@ -12,9 +12,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Cancels a time-out that was set with the setTimeout method. '
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/clearTimeout
 

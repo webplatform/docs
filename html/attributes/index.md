@@ -5,8 +5,7 @@ notes:
 readiness: 'Ready to Use'
 summary: 'This is a listing page for HTML attributes.'
 tags:
-  - API
-  - Listings
+  - API_Listings
 uri: html/attributes
 
 ---

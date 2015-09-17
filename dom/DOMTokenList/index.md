@@ -6,8 +6,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: "Represents a space-separated token list within the DOM, such as the contents of the className property of an element, treated as a zero-based array-like object.\nDOMTokenList objects are case-sensitive, even when the underlying string might ordinarily be treated in a case-insensitive manner.\n"
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/DOMTokenList
 
@@ -18,16 +17,10 @@ Represents a space-separated token list within the DOM, such as the contents of 
 
 ## Properties
 
-API Name
-:   Summary
-
 [length](/dom/DOMTokenList/length)
 :   Returns the number of tokens in a DOMTokenList.
 
 ## Methods
-
-API Name
-:   Summary
 
 [add](/dom/DOMTokenList/add)
 :   Adds one or more tokens to a DOMTokenList.

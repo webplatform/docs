@@ -10,9 +10,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'Sets the colors of the upper and left corners of the cell. Used with borderColorDark to set the lighter colors in an element''s shaded border. Deprecated in HTML4, unsupported in HTML5. Use CSS.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: html/attributes/borderColorLight
 
 ---
@@ -32,8 +32,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

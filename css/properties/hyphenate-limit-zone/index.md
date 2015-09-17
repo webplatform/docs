@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Specifies the maximum amount of trailing whitespace (before justification) that may be left in a line before hyphenation is triggered to pull part of a word from the next line back up into the current one.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/hyphenate-limit-zone
 
 ---

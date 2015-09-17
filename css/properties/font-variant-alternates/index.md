@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Fonts can provide alternate glyphs in addition to default glyph for a character. This property provides control over the selection of these alternate glyphs.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
+  - Needs_Examples
 uri: css/properties/font-variant-alternates
 
 ---
@@ -67,6 +67,4 @@ stylistic(\<feature-value-name\>)
 :   historical-forms
 
 Enables display of historical forms
-
-**Needs Examples**: This section should include examples.
 

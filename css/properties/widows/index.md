@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "Defines the minimum number of lines that can appear in the beginning of a new page. In typography, a widow is the last line of a paragraph appearing alone at the top of a page, which is considered to look awkward. Setting the widows property to an integer higher than 1 prevents this.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/widows
 
 ---

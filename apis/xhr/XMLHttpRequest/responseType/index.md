@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns or sets the format the response will be returned in.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: XHR
+  - API_Object_Properties
+  - API
+  - XHR
 uri: apis/xhr/XMLHttpRequest/responseType
 
 ---

@@ -4,8 +4,7 @@ notes:
   - 'Glossary term; needs to be moved'
 readiness: 'Not Ready'
 tags:
-  - Glossary
-  - Items
+  - Glossary_Items
 uri: descender
 
 ---

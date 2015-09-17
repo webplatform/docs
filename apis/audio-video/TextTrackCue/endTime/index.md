@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The text track cue end time, in seconds.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
 uri: apis/audio-video/TextTrackCue/endTime
 
 ---

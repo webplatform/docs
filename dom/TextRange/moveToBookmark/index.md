@@ -18,10 +18,9 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Moves to a bookmark.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/TextRange/moveToBookmark
 
 ---
@@ -56,10 +55,7 @@ var result = textRange.moveToBookmark(/* see parameter list */);
 <td>Move to the bookmark failed.
 </td></tr></table><p> 
 </p>
-<div class="editors-only">
-<p><b>Needs Examples</b>:  This section should include examples. 
-</p>
-</div>
+
 <h2>Notes</h2>
 <h3>Remarks</h3>
 <p>Bookmarks are opaque strings created with the <a href="/dom/TextRange/getBookmark"><b>getBookmark</b></a> method.

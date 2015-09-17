@@ -6,13 +6,11 @@ notes:
   - 'Needs all main content, fix table coding in Notes'
 readiness: 'Not Ready'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
+  - Needs_Summary
 uri: css/reference
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## See also
 
 ### Related articles

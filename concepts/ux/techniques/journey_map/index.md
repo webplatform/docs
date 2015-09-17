@@ -3,8 +3,7 @@ title: 'Journey map'
 readiness: 'Not Ready'
 summary: 'Document that visually illustrates an individual user''s needs, the series of interactions that are necessary to fulfill those needs, and the resulting emotional states a user experiences throughout the process.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Design
   - UI
   - Usability

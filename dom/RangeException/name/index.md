@@ -18,9 +18,7 @@ relationships:
 standardization_status: Deprecated
 summary: 'Returns a DOMString value that is the name of the error that occurred during a Range operation.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/RangeException/name
 

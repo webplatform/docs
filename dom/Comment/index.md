@@ -9,8 +9,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'An interface for comment nodes within the document object model.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/Comment
 
@@ -37,9 +36,6 @@ Inherits from [CharacterData](/dom/CharacterData)[CharacterData](/dom/CharacterD
 
 ### Properties
 
-API Name
-:   Summary
-
 [html/elements/data](/dom/CharacterData/data)
 :   Sets or gets a node's character data.
 
@@ -47,9 +43,6 @@ API Name
 :   Gets the number of characters in a text node.
 
 ### Methods
-
-API Name
-:   Summary
 
 [appendData](/dom/CharacterData/appendData)
 :   Appends a string to the end of the character data.
@@ -73,9 +66,6 @@ API Name
 ## Inherited from Node
 
 ### Properties
-
-API Name
-:   Summary
 
 [attributes](/dom/Node/attributes)
 :   Associatve array containing the attributes of node.
@@ -125,9 +115,6 @@ API Name
 :   Sets or retrieves the text content of a node and any child nodes.
 
 ### Methods
-
-API Name
-:   Summary
 
 [appendChild](/dom/Node/appendChild)
 :   Appends an element as a child to the object.
@@ -188,9 +175,6 @@ API Name
 *No properties.*
 
 ### Methods
-
-API Name
-:   Summary
 
 [addEventListener](/dom/EventTarget/addEventListener)
 :   Registers an event handler for the specified event type.

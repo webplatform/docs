@@ -12,8 +12,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Sets or retrieves the number of times a sound or video clip will loop when activated.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/loop
 

@@ -3,8 +3,7 @@ title: 'インターネットはどうなっている?'
 lang: ja
 summary: "時々舞台裏に回って、動作の陰に隠れた歯車やファンベルト見るようにうながされることがありませんか。今日あなたはラッキーです。この文書は、あなたがよくご存じのホットなテクノロジーの舞台裏に案内します。それは World Wide Web! ミュージック、スタート!\n"
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

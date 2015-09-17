@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns a string from a number of Unicode character values.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/fromCharCode
 
 ---

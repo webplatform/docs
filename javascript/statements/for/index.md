@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Executes a block of statements for as long as a specified condition is true.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/statements/for
 
 ---

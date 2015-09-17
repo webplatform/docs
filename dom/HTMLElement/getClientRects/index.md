@@ -19,9 +19,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'A collection of ClientRect objects, one for each CSS border box associated with the element. Each ClientRect object contains read-only left, top, right, and bottom properties describing the border box, relative to the top-left of the viewport. For tables with captions, the caption is included even though it is outside the border box of the table.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - CSS
   - DOM
 uri: dom/HTMLElement/getClientRects

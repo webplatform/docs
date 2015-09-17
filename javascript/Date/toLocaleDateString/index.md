@@ -10,9 +10,8 @@ notes:
 readiness: 'Ready to Use'
 summary: 'Returns a date as a string value appropriate to the host environment''s current locale.'
 tags:
-  0: JS
-  1: Basic
-  3: Method
+  - JS_Basic
+  - JS_Method
 uri: javascript/Date/toLocaleDateString
 
 ---

@@ -10,14 +10,13 @@ notes:
 readiness: 'Not Ready'
 standardization_status: 'W3C Recommendation'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - SVG
+  - Needs_Summary
+  - Needs_Examples
 uri: svg/attributes/clip-rule
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 <table class="wikitable">
 <tr>
 <th>
@@ -30,7 +29,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

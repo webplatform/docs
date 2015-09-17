@@ -3,8 +3,7 @@ title: 'Responsive Web Design'
 readiness: 'Ready to Use'
 summary: 'Responsive Web Design is an approach that emphasises design which works well across a variety of devices and browsing contexts -- without serving different content for each different operating system, device, browser, display size or pixel density.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Design
   - Mobile
   - UI
@@ -189,7 +188,7 @@ Brad Frost's [ish](http://bradfrostweb.com/demo/ish/) resizer emphasises that br
 
  For responsive typography, [designers have found](http://www.webtypography.net/Rhythm_and_Proportion/Horizontal_Motion/2.1.2/) that body text should generally have between 45 and 75 characters per line. A simple trick for testing layouts [suggested by Trent Walton](http://trentwalton.com/2012/06/19/fluid-type/), is to add an asterisk to lorem text after 45 and 75 characters. If both asterisks appear on the same line at a particular viewport width, the font size needs to be changed.
 
-A huge range of other tools is available for testing and debugging responsive design components including images, fonts and layouts. For more information and resources see the [Mobile Debugging article](http://docs.webplatform.org/wiki/concepts/internet_and_web/html5_hybrid_applications/concepts/mobile_debugging#Devices) on webplatform.org.
+A huge range of other tools is available for testing and debugging responsive design components including images, fonts and layouts. For more information and resources see the [Mobile Debugging article](/concepts/internet_and_web/html5_hybrid_applications/concepts/mobile_debugging#Devices) on webplatform.org.
 
 ## Pro and con
 

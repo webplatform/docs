@@ -17,10 +17,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns an instance of the WorkerNavigator interface, which represents the identity and state of the user agent (the client).'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Webworkers
+  - API_Object_Properties
+  - API
+  - Webworkers
+  - Needs_Examples
 uri: apis/workers/WorkerGlobalScope/navigator
 
 ---
@@ -41,8 +41,6 @@ var result = object.navigator;
 ## Return Value
 
 Returns an object of type ObjectObject
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

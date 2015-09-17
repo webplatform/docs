@@ -13,15 +13,8 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: 'The teletype element (&lt;tt&gt;) creates monospaced text.  It''s use is deprecated in favour of semantic elements like &lt;code&gt; and CSS styles.  However, the tt element is still widely supported in browsers.'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Elements
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Elements
   - HTML
 uri: html/elements/tt
 

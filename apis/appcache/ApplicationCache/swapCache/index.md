@@ -11,10 +11,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "Switches to the most recent application cache, if there is a newer one. If there isn't, throws an InvalidStateError exception.\n"
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - Appcache
+  - API
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

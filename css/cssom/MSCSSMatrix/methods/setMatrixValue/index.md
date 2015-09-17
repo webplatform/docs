@@ -16,10 +16,10 @@ relationships:
     value: 'DOM Node'
     href: '/w/index.php?title=css/cssom/MSCSSMatrix&action=edit&redlink=1'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -28,10 +28,7 @@ uri: css/cssom/MSCSSMatrix/methods/setMatrixValue
 
 ---
 <p><br/></p>
-<div class="editors-only">
-<p><b>Needs Summary</b>:   This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article. 
-</p>
-</div>
+
 <p>Method of <a href="/w/index.php?title=css/cssom/MSCSSMatrix&amp;action=edit&amp;redlink=1" class="new">css/cssom/MSCSSMatrix</a><a href="/w/index.php?title=css/cssom/MSCSSMatrix&amp;action=edit&amp;redlink=1" class="new">css/cssom/MSCSSMatrix</a>
 </p>
 <h2>Syntax</h2>
@@ -57,10 +54,7 @@ var object = object.setMatrixValue();
 <td>The transformValue string cannot be parsed into an MSCSSMatrix. This occurs when the string is not a valid value for the transform property, or if the string contains relative units.
 </td></tr></table><p> 
 </p>
-<div class="editors-only">
-<p><b>Needs Examples</b>:  This section should include examples. 
-</p>
-</div>
+
 <h2>Notes</h2>
 <h3>Remarks</h3>
 <p>Using the <b>setMatrixValue</b> method and setting the <a href="/css/transforms/MSCSSMatrix"><b>MSCSSMatrix</b></a> attributes individually are the only ways to modify the current matrix. No other method will alter the current matrix.

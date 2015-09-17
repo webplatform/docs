@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns an array of MediaStream objects added to the connection by the remote peer. This array is updated when the addstream and removestream events are fired.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/remoteStreams
 
 ---
@@ -31,6 +31,4 @@ Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis
 ``` js
 var result = element.remoteStreams;
 ```
-
-**Needs Examples**: This section should include examples.
 

@@ -3,8 +3,7 @@ title: 'global attributes'
 readiness: 'Not Ready'
 summary: 'HTML defines a set of attributes common to all HTML elements.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
   - HTML
 uri: 'html/global attributes'
 

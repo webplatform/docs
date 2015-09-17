@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'Determines the mask painting area, which defines the area that is affected by the mask. The painted content of an element may be restricted to this area.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/mask-clip
 
 ---

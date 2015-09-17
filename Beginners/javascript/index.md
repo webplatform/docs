@@ -5,8 +5,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'At this point our site is functional, but what about things that go whoosh? Now we''ll give you a brief introduction to JavaScript, using it to apply some dynamic behaviour to your web page.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: Beginners/javascript
 
 ---

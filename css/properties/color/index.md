@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The color property sets the color of an element''s foreground content (usually text), accepting any standard CSS color from keywords and hex values to RGB(a) and HSL(a).'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -93,7 +93,7 @@ p { color: rgba(64,224,208,0.8) }
 p { color: hsla(174,72%,56%,0.8) }
 ```
 
-[View live example](http://code.webplatform.org/gist/5502992)
+[View live example](http://gist.github.com/5502992)
 
 ## Usage
 

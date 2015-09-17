@@ -14,8 +14,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Provides specific contextual information associated with Cascading Style Sheets (CSS) transitions.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/TransitionEvent
 
@@ -28,9 +27,6 @@ Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
 ## Properties
 
-API Name
-:   Summary
-
 [elapsedTime](/dom/TransitionEvent/elapsedTime)
 :   The amount of time the transition has been running, in seconds.
 
@@ -38,9 +34,6 @@ API Name
 :   Specifies or retrives a string containg the name of the changed property.
 
 ## Methods
-
-API Name
-:   Summary
 
 [initTransitionEvent](/dom/TransitionEvent/initTransitionEvent)
 :   Initializes a transition event created using the deprecated Document.createEvent("TransitionEvent") method.
@@ -52,9 +45,6 @@ API Name
 ## Inherited from Event
 
 ### Properties
-
-API Name
-:   Summary
 
 [bubbles](/dom/Event/bubbles)
 :   Gets a value that indicates whether an event propagates up from the event target.
@@ -85,9 +75,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initEvent](/dom/Event/initEvent)
 :   Initializes a new generic event that the [**createEvent**](/dom/Document/createEvent) method created.
 
@@ -101,9 +88,6 @@ API Name
 :   Prevents propagation of an event beyond the current target.
 
 ### Events
-
-API Name
-:   Summary
 
 [DOMContentLoaded](/dom/Event/DOMContentLoaded)
 :

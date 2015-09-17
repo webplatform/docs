@@ -18,10 +18,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets the URI of the namespace associated with a namespace prefix, if any.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/Node/lookupNamespaceURI
 
 ---
@@ -51,8 +50,6 @@ var namespaceURI = node.lookupNamespaceURI(/* see parameter list */);
 Returns an object of type StringString
 
 The URI of the namespace for **prefix**. null if no namespace is found for **prefix**. The default namespace if **prefix** is null.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

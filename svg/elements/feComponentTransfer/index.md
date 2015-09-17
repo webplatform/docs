@@ -14,8 +14,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'feComponentTransfer is a filter primitive which allows the independent manipulation of each color channel (including the alpha channel) in the input graphic. It is always a child element of a filter element and is the parent of child elements (feFuncR, feFuncG, feFuncB and feFuncA) that perform each color channel manipulation.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - Graphics
   - SVG
 todo_broken_links:

@@ -7,9 +7,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'A CSS media related functionality and information.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Examples
 uri: 'css/media queries/apis/StyleMedia'
 
 ---
@@ -19,16 +19,10 @@ A CSS media related functionality and information.
 
 ## Properties
 
-API Name
-:   Summary
-
 [type](/css/media_queries/apis/properties/type)
 :   Gets the media type of the object that displays the [Document](/dom/Document) object
 
 ## Methods
-
-API Name
-:   Summary
 
 [matchMedium](/css/media_queries/apis/matchMedium)
 :   Indicates whether the document currently matches a media query.
@@ -36,8 +30,6 @@ API Name
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

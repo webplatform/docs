@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Gets which kinds of data transfer operations are allowed for the object. Can be set (during the dragstart event) to change the allowed operations.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/DataTransfer/effectAllowed
 

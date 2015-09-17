@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'The createObjectStore method enables you to create object stores inside an indexedDB database. The creation of an object store is only possible inside a &quot;versionchange&quot; transaction.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBDatabase/createObjectStore
 
 ---

@@ -17,13 +17,13 @@ overview_table:
   '[CSS Object Model Property](/css/concepts/cssom)': ''
 readiness: 'In Progress'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Summary
+  - Needs_Examples
 uri: css/properties/layout-flow
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Overview table
 
 [Initial value](/css/concepts/initial_value)
@@ -56,8 +56,6 @@ horizontal
 
 vertical-ideographic
 :   Content in the object flows from top to bottom, and the next vertical line appears to the left of the previous one. This layout is used in East Asian typography.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

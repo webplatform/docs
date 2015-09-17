@@ -11,11 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gathers data from the VideoStreamTrack into a ImageData object.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Image
-  5: Capture
+  - API_Object_Methods
+  - API
+  - Image_Capture
+  - Needs_Examples
 uri: 'apis/image capture/ImageCapture/getFrame'
 
 ---
@@ -34,6 +33,3 @@ Method of [apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)[a
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
-

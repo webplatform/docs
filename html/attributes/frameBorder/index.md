@@ -10,9 +10,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'Sets or retrieves whether to display a border for the frame, frameset or iframe.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: html/attributes/frameBorder
 
 ---
@@ -32,8 +32,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Usage
 
      Property values

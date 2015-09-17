@@ -11,8 +11,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The top-level element in MathML is &lt;math&gt;. Every valid MathML instance must be wrapped in &lt;math&gt; tags. In addition you must not nest a second &lt;math&gt; element in another, but you can have an arbitrary number of other child elements in it.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - MathML
 uri: mathml/elements/math
 

@@ -12,10 +12,9 @@ relationships:
     href: /css/cssom/styleSheet
 summary: 'Retrieves an element''s parent style sheet.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: css/cssom/styleSheet/parentStyleSheet
 
 ---
@@ -31,8 +30,6 @@ Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](
 var result = element.parentStyleSheet;
 element.parentStyleSheet = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

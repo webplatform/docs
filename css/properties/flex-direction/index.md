@@ -20,9 +20,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The flex-direction CSS property describes how flex items are placed in the flex container, by setting the direction of the flex container''s main axis.'
 tags:
-  0: CSS
-  1: Properties
-  3: Flexbox
+  - CSS_Properties
+  - CSS
+  - Flexbox
 uri: css/properties/flex-direction
 
 ---
@@ -89,7 +89,7 @@ Displaying children in a row
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/4740224)
+[View live example](http://gist.github.com/4740224)
 
 Displaying children in a row in reversed order
 
@@ -104,7 +104,7 @@ Displaying children in a row in reversed order
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/4740260)
+[View live example](http://gist.github.com/4740260)
 
 Displaying children in a column
 
@@ -119,7 +119,7 @@ Displaying children in a column
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/4740271)
+[View live example](http://gist.github.com/4740271)
 
 Displaying children in a column in reversed order
 
@@ -134,7 +134,7 @@ Displaying children in a column in reversed order
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/4740277)
+[View live example](http://gist.github.com/4740277)
 
 ## Notes
 

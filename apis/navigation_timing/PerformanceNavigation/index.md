@@ -6,10 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'An interface that provides Web applications with navigation-related information.'
 tags:
-  0: API
-  1: Objects
-  3: Navigation
-  4: Timing
+  - API_Objects
+  - API
+  - Navigation_Timing
 uri: 'apis/navigation timing/PerformanceNavigation'
 
 ---
@@ -18,9 +17,6 @@ uri: 'apis/navigation timing/PerformanceNavigation'
 An interface that provides Web applications with navigation-related information.
 
 ## Properties
-
-API Name
-:   Summary
 
 [redirectCount](/apis/navigation_timing/PerformanceNavigation/redirectCount)
 :   Returns the number of redirects since the last non-redirect navigation under the current browsing context. If there is no redirect or there is any redirect that is not from the same origin as the destination document, returns zero.

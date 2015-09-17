@@ -5,8 +5,7 @@ notes:
 readiness: 'In Progress'
 summary: 'This is an HTML hack to make pages more friendly to those with JavaScript disabled or with no JavaScript support.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Accessibility
   - Compatibility
   - Design

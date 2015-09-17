@@ -9,9 +9,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The media feature describes the height of the output device''s rendering surface, such as the viewport height or the height of the page box.'
 tags:
-  - CSS
-  - Media
-  - Feature
+  - CSS_Media_Feature
 uri: 'css/media queries/height'
 
 ---

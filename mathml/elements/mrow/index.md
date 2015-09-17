@@ -11,8 +11,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The MathML mrow element is used to group sub-expressions, which usually contain one or more operators with their respective operands (such as mi and mn). This element renders as a horizontal row containing its arguments.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - MathML
 uri: mathml/elements/mrow
 

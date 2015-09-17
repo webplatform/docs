@@ -19,8 +19,8 @@ overview_table:
 readiness: 'Ready to Use'
 summary: 'The counter-increment property accepts one or more names of counters (identifiers), each one optionally followed by an integer which specifies the value by which the counter should be incremented (e.g. if the value is 2, the counter increases by 2 each time it is invoked).'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/counter-increment
 
 ---
@@ -92,7 +92,7 @@ h2:before {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5841845)
+[View live example](http://gist.github.com/5841845)
 
 This example shows how to specify an integer in the **counter-increment** property and allow the CSS to increment the counter by values besides 1.
 
@@ -114,7 +114,7 @@ h1:after {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5841870)
+[View live example](http://gist.github.com/5841870)
 
 ## Usage
 

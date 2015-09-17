@@ -5,8 +5,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Before we go any further, let''s look at the programming basics you''ll need to know before you can start getting your hands dirty with JavaScript.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: Beginners/programming
 
 ---

@@ -11,8 +11,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Selects only the immediate child of a parent element.'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 uri: css/selectors/combinators/child
 
 ---
@@ -30,7 +30,7 @@ The following rule defines the text color of list item elements which are direct
 ol li {color: red;}
 ```
 
-[View live example](http://code.webplatform.org/gist/8413346)
+[View live example](http://gist.github.com/8413346)
 
 ## Notes
 

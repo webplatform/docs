@@ -8,9 +8,10 @@ readiness: 'Not Ready'
 standardization_status: Non-Standard
 summary: "The MSStreamError object reports file-related errors asynchronously.\n"
 tags:
-  0: API
-  1: Objects
-  3: FileAPI
+  - API_Objects
+  - API
+  - FileAPI
+  - Needs_Examples
 uri: apis/file/MSStreamError
 
 ---
@@ -31,6 +32,3 @@ Obsolete per latest specification. Use [DOMError](/dom/DOMError) instead.
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
-

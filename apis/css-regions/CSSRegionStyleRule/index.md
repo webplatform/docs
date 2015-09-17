@@ -9,9 +9,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Represents an @region rule in a CSS style sheet, which applies styles to fragments of content that flow into a CSS region.'
 tags:
-  0: API
-  1: Objects
-  3: CSS-Regions
+  - API_Objects
+  - API
+  - CSS-Regions
 uri: apis/css-regions/CSSRegionStyleRule
 
 ---
@@ -36,9 +36,6 @@ Inherits from [CSSRule](/css/cssom/CSSRule)[CSSRule](/css/cssom/CSSRule)
 ## Inherited from CSSRule
 
 ### Properties
-
-API Name
-:   Summary
 
 [cssText](/css/cssom/CSSRule/cssText)
 :   Gets or sets a textual representation of a CSS rule.

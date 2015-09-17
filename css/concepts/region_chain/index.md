@@ -5,8 +5,7 @@ notes:
 readiness: 'In Progress'
 summary: 'A series of regions that display the contents of a named flow.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - CSS-Regions
 uri: 'css/concepts/region chain'
 

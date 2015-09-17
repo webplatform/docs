@@ -18,10 +18,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Specifies the total number of bytes to be transferred during the operation, if known.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/ProgressEvent/total
 
 ---
@@ -42,7 +41,5 @@ var result = ProgressEvent.total;
 ## Return Value
 
 Returns an object of type unsigned longunsigned long
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax

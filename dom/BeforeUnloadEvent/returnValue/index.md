@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets or sets a value that indicates whether to warn the user prior to navigating away from a page.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/BeforeUnloadEvent/returnValue
 

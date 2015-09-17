@@ -7,17 +7,12 @@ notes:
 readiness: 'Almost Ready'
 standardization_status: Unknown
 tags:
-  0: Basic
-  1: Pages
-  3: with
-  4: broken
-  5: file
-  6: links
+  - Basic_Pages
+  - Pages_with_broken_file_links
+  - Needs_Summary
 uri: 'css/color/user-defined system colors'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## See also
 
 ### Related articles

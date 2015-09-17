@@ -11,9 +11,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets or sets the preferred MIME name of the document''s character encoding.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Document/charset
 

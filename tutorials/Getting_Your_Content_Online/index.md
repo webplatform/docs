@@ -1,11 +1,7 @@
 ---
 title: 'Getting Your Content Online'
 tags:
-  - Pages
-  - with
-  - broken
-  - file
-  - links
+  - Pages_with_broken_file_links
   - Tutorials
   - WSC
 uri: 'tutorials/Getting Your Content Online'

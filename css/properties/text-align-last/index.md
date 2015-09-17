@@ -19,8 +19,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The text-align-last CSS property describes how the last line of a block element or a line before line break is aligned in its parent block element.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-align-last
 
 ---
@@ -94,7 +94,7 @@ The following example shows an embedded style rule that justifies all the lines 
 <p class="justified">Simple example with "justify" value of text-align-last property. In this case, the last line is also justified. This paragraph needs to be really long in order to show how to work with text-align-last property.</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/5664996)
+[View live example](http://gist.github.com/5664996)
 
 ``` css
 .normal {

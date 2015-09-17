@@ -11,14 +11,12 @@ relationships:
     value: dom/Element
     href: /dom/Element
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/Element/onloadend
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
 ## Syntax
@@ -27,8 +25,6 @@ Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 var result = element.onloadend;
 element.onloadend = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

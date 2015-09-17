@@ -16,10 +16,10 @@ relationships:
     href: /apis/indexeddb/IDBDatabase
 summary: 'Deletion candidate. Not in spec: http://www.w3.org/TR/IndexedDB/'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -67,8 +67,6 @@ Type: **HRESULT**
 This method can return one of these values.
 
 {
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

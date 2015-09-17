@@ -18,9 +18,7 @@ relationships:
     href: /dom/Window
 summary: 'Do not use. Use &lt;dialog&gt; or a popup window instead. Halts the script execution, creates a popup window, passes it parameters and returns a value when the new window is closed.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

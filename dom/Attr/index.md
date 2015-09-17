@@ -6,9 +6,9 @@ readiness: 'In Progress'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'Represents the DOM concept of a markup attribute.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Examples
 uri: dom/Attr
 
 ---
@@ -27,8 +27,6 @@ Represents the DOM concept of a markup attribute.
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

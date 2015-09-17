@@ -9,8 +9,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Defines a three-dimensional transformation in matrix format.  The function requires exactly 16 comma-separated numbers as parameters; these represent the matrix values in &quot;column-major&quot; (top to bottom, then left to right) order.'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/matrix3d
 
 ---

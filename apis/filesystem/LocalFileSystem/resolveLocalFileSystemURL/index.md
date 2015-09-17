@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Allows the user to look up the Entry for a file or directory referred to by a local URL.\n"
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileSystemAPI
+  - API_Object_Methods
+  - API
+  - FileSystemAPI
+  - Needs_Examples
 uri: apis/filesystem/LocalFileSystem/resolveLocalFileSystemURL
 
 ---
@@ -60,8 +60,6 @@ A callback that is called when errors happen, or when the request to obtain the 
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

@@ -9,8 +9,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Inserts content after the selected element(s).'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 uri: 'css/selectors/pseudo-elements/::after'
 
 ---

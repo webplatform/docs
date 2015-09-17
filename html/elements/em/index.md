@@ -12,8 +12,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The em element indicates text that has emphasis.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
   - XHTML
 uri: html/elements/em

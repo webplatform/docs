@@ -17,10 +17,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the WorkerLocation object created for the WorkerGlobalScope object when the worker was created.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Webworkers
+  - API_Object_Properties
+  - API
+  - Webworkers
+  - Needs_Examples
 uri: apis/workers/WorkerGlobalScope/location
 
 ---
@@ -43,8 +43,6 @@ var result = object.location;
 Returns an object of type StringString
 
 Represents the absolute URL of the script that was used to initialize the worker, after any redirects.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

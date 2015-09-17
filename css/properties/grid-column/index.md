@@ -20,8 +20,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Controls a grid item''s placement in a grid area, particularly grid position and a grid span.   Shorthand for setting grid-column-start and grid-column-end in a single declaration.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

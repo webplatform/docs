@@ -8,8 +8,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'Legacy. Use document.createElement(&quot;img&quot;) instead. Quickly constructs an img element.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/Image
 

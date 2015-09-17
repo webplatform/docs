@@ -21,8 +21,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: "The CSS border-color property sets the color of an element's four borders. This property can have from one to four values, made up of the elementary properties: \n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-color
 
 ---
@@ -117,7 +117,7 @@ A simple example showing how to use the border-color property on HTML div elemen
         }
 ```
 
-[View live example](http://code.webplatform.org/gist/5546053)
+[View live example](http://gist.github.com/5546053)
 
 ## Usage
 

@@ -8,8 +8,8 @@ notes:
 readiness: 'In Progress'
 summary: 'CSS has a variety of different properties that can reference an image file, displaying that file on a web page normally as part of an element''s background. This is done using the CSS image syntax, which is url().'
 tags:
-  - CSS
-  - Functions
+  - CSS_Functions
+  - Needs_Examples
 uri: css/functions/url()
 
 ---
@@ -46,6 +46,4 @@ This will cause `my-image.png` to be displayed in the background of whatever ele
 -   [border-image](/css/properties/border-image)
 -   [content](/css/properties/content)
 -   [list-style-image](/css/properties/list-style-image)
-
-**Needs Examples**: This section should include examples.
 

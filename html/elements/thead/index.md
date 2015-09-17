@@ -14,8 +14,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The thead element  (&lt;thead&gt;) identifies header rows at the top of a table, usually containing column labels.  It may contain one or more rows of &lt;th&gt; or &lt;td&gt; cells.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/thead
 

@@ -15,11 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Just like Document/getElementsByTagName except that it only works within the scope of this ShadowRoot''s shadow tree.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
-  - Shadow
+  - Shadow_DOM
+  - Needs_Examples
 uri: dom/shadowdom/ShadowRoot/getElementsByTagName
 
 ---
@@ -49,6 +48,3 @@ var result = element.getElementsByTagName(name);
 Returns an object of type DOM NodeDOM Node
 
 A DOM collection of elements with the given name.
-
-**Needs Examples**: This section should include examples.
-

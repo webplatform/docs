@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the position of the first occurrence of a substring.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/indexOf
 
 ---

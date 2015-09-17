@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Handles the identityresult event for the success or failure of an identity verification.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/onidentityresult
 
 ---
@@ -30,6 +30,4 @@ Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis
 var result = element.onidentityresult;
 element.onidentityresult = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

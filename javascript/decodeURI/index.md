@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Gets the unencoded version of an encoded Uniform Resource Identifier (URI).'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/decodeURI
 
 ---

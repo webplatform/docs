@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Retrieve a named flow by its name'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - CSS-Regions
 uri: apis/css-regions/NamedFlowCollection/namedItem
 

@@ -16,11 +16,10 @@ relationships:
 standardization_status: Deprecated
 summary: 'Gets the new value of the attribute or text node.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - DOMEvents
+  - Needs_Examples
 uri: dom/MutationEvent/newValue
 
 ---
@@ -43,8 +42,6 @@ var newValue = event.newValue;
 Returns an object of type StringString
 
 The new value of the attribute or text node, if any.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

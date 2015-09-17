@@ -14,8 +14,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The title element (&lt;title&gt;) provides a human readable name for container elements and graphics elements.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - SVG
 uri: svg/elements/title
 
@@ -50,7 +49,7 @@ In the following code example, a title element is provided for an ellipse. When 
 ```
 
 </pre>
-[View live example](http://code.webplatform.org/gist/3fe2120a26327b9b9b8e)
+[View live example](http://gist.github.com/3fe2120a26327b9b9b8e)
 
 ## Notes
 

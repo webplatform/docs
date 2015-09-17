@@ -5,8 +5,7 @@ notes:
 readiness: 'In Progress'
 summary: 'User Research, also known as Content Inventory is the process of listing all the content (existing or to be created) of a website. The goals of such inventory are to gain better understanding of the website''s topic and see how different pieces of information relate to each others and to users within the website.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Design
   - Usability
 uri: 'concepts/information architecture/content research'

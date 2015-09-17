@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'This property indicates whether the &lt;mask-reference&gt; is treated as a luminescence mask or as an alpha mask.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/mask-mode
 
 ---

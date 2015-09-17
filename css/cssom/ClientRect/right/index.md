@@ -18,9 +18,7 @@ relationships:
     href: /css/cssom/ClientRect
 summary: 'Returns the right value for a ClienRect object.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: css/cssom/ClientRect/right
 

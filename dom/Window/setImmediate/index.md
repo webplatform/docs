@@ -20,9 +20,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Requests that a function be called when current or pending tasks are complete, such as events or screen updates.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/setImmediate
 

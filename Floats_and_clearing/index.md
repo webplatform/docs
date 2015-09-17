@@ -7,14 +7,13 @@ summary: 'The CSS float property define a state of an element where it is taken 
 tags:
   - Tutorials
   - WSC
+  - Merge_Candidate
 uri: 'Floats and clearing'
 
 ---
 ## Summary
 
 The CSS float property define a state of an element where it is taken out from the normal flow and placed either to the left or right of its container element, allowing inline elements to wrap around it. The CSS clear property define an element state where floating elements are not allowed to float on one (left/right) or both the sides.
-
-**Merge Candidate**: This page is a candidate for merge with the following pages: [[[tutorials/floats\_and\_clearing](/tutorials/floats_and_clearing)]]
 
 ## Introduction
 

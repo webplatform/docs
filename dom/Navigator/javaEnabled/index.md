@@ -18,9 +18,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'This method indicates whether the current browser is Java Run Time Environment-enabled or not.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Navigator/javaEnabled
 

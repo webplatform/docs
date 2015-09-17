@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'Specifies the automatic default location if a grid container does not specify automatic-placement strategy via grid-auto-flow.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/grid-auto-position
 
 ---

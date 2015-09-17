@@ -18,7 +18,7 @@ The web is composed of a lot of different things, technical, social, and structu
 
 Web design has a lot of parallels with print design, but it also has a lot of differences and a lot more limitations. In this article we explore how to style text on the web using CSS.
 
-Note: The article [Web Typography](http://docs.webplatform.org/wiki/concepts/web_typography) lays a good foundation for this chapter by explaining a number of typographic concepts. Make sure you read it before this one.
+Note: The article [Web Typography](/concepts/web_typography) lays a good foundation for this chapter by explaining a number of typographic concepts. Make sure you read it before this one.
 
 ## Print to web?
 

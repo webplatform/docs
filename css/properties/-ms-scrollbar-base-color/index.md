@@ -15,15 +15,12 @@ relationships:
     href: /css/properties
 standardization_status: Non-Standard
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
 uri: css/properties/-ms-scrollbar-base-color
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [css/properties](/css/properties)[css/properties](/css/properties)
 
 ## Syntax

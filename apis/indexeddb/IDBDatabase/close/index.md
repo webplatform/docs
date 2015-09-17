@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'This method synchronously performs the steps for closing a database connection and returns once the database has been closed.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBDatabase/close
 
 ---

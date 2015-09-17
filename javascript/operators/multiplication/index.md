@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Multiplies the value of two expressions.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/operators/multiplication
 
 ---

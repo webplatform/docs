@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "The full absolute path from the root to the Entry.\n"
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: FileSystemAPI
+  - API_Object_Properties
+  - API
+  - FileSystemAPI
+  - Needs_Examples
 uri: apis/filesystem/Entry/fullPath
 
 ---
@@ -43,6 +43,4 @@ var result = Entry.fullPath;
 Returns an object of type
 
 DOMString
-
-**Needs Examples**: This section should include examples.
 

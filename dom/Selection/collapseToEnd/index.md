@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Collapses or sets the insertion point or caret at the end of a selection object.\n"
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Selection/collapseToEnd
 

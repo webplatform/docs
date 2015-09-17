@@ -15,11 +15,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Represents the navigation information related to the browsing context. This attribute is defined by the PerformanceNavigation interface.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Navigation
-  5: Timing
+  - API_Object_Properties
+  - API
+  - Navigation_Timing
 uri: 'apis/navigation timing/Performance/navigation'
 
 ---

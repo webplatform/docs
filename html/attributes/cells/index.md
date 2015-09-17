@@ -12,8 +12,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Retrieves a collection of all cells in the table row or in the entire table.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/cells
 

@@ -17,10 +17,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the HTTP result code (status) of the response to the request.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: XHR
+  - API_Object_Properties
+  - API
+  - XHR
+  - Needs_Examples
 uri: apis/xhr/XMLHttpRequest/status
 
 ---
@@ -41,8 +41,6 @@ var result = element.status;
 ## Return Value
 
 Returns an object of type unsigned shortunsigned short
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

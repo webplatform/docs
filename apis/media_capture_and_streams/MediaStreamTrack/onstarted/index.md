@@ -15,13 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Handles the started event when fired on the MediaStreamTrack object.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Media
-  5: Capture
-  6: and
-  7: Streams
+  - API_Object_Properties
+  - API
+  - Media_Capture_and_Streams
+  - Needs_Examples
 uri: 'apis/media capture and streams/MediaStreamTrack/onstarted'
 
 ---
@@ -43,6 +40,4 @@ track.onstarted = value;
 Returns an object of type
 
 EventHandler
-
-**Needs Examples**: This section should include examples.
 

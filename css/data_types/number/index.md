@@ -4,8 +4,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The &lt;number&gt; CSS data type represents positive or negative decimal or integer values.'
 tags:
-  - Data
-  - Type
+  - Data_Type
   - CSS
 uri: 'css/data types/number'
 

@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The property border-image-source is used to set the image to be used instead of the border style. If this is set to none the border-style is used instead.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-image-source
 
 ---
@@ -74,7 +74,7 @@ A simple example showing a \<div\> that has border-image-source property and oth
 <div class="pattern">border-image</div>
 ```
 
-[View live example](http://code.webplatform.org/gist/5621011)
+[View live example](http://gist.github.com/5621011)
 
 ``` css
 /* General setup of the containers */
@@ -96,7 +96,7 @@ div {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5621011)
+[View live example](http://gist.github.com/5621011)
 
 ## Related specifications
 

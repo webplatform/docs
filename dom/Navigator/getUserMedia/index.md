@@ -19,9 +19,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Prompts the user for permission to use a media device such as a camera or microphone. If the user provides permission, the successCallback is invoked on the calling application with a LocalMediaStream object as its argument.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
   - WebRTC
 uri: dom/Navigator/getUserMedia

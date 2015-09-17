@@ -8,10 +8,8 @@ summary: 'This event is fired when a MediaStream is stopped.'
 tags:
   - Events
   - API
-  - Media
-  - Capture
-  - and
-  - Streams
+  - Media_Capture_and_Streams
+  - Needs_Examples
 uri: 'apis/media capture and streams/ended'
 
 ---
@@ -69,5 +67,3 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-

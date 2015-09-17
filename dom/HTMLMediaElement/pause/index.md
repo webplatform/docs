@@ -15,17 +15,16 @@ relationships:
     value: 'DOM Node'
     href: /dom/HTMLMediaElement
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Audio
-  5: DOM
-  6: Video
+  - API_Object_Methods
+  - API
+  - Audio
+  - DOM
+  - Video
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/HTMLMediaElement/pause
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [dom/HTMLMediaElement](/dom/HTMLMediaElement)[dom/HTMLMediaElement](/dom/HTMLMediaElement)
 
 ## Syntax
@@ -41,8 +40,6 @@ Returns an object of type DOM NodeDOM Node
 Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

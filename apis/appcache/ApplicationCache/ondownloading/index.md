@@ -14,10 +14,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The user agent has found an update and is fetching it, or is downloading the resources listed by the manifest for the first time.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - Appcache
+  - API
+  - Needs_Examples
 uri: apis/appcache/ApplicationCache/ondownloading
 
 ---
@@ -37,8 +37,6 @@ window.applicationCache.ondownloading = value;
 ## Return Value
 
 Returns an object of type nullnull
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

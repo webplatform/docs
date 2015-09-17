@@ -9,8 +9,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The base element is used to specify a document''s base URL and base target that is used for resolving URI references (relative URLs) within the document.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/base
 

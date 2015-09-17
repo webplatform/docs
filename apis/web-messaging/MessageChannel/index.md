@@ -6,10 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Creates a connection (two &quot;entangled&quot; ports) to enable independent pieces of code (running in different browsing contexts) to communicate directly.'
 tags:
-  0: API
-  1: Objects
-  3: Web
-  4: Messaging
+  - API_Objects
+  - API
+  - Web_Messaging
 uri: apis/web-messaging/MessageChannel
 
 ---
@@ -18,9 +17,6 @@ uri: apis/web-messaging/MessageChannel
 Creates a connection (two &quot;entangled&quot; ports) to enable independent pieces of code (running in different browsing contexts) to communicate directly.
 
 ## Properties
-
-API Name
-:   Summary
 
 [port1](/apis/web-messaging/MessageChannel/port1)
 :   Returns the first MessagePort object of the MessageChannel.

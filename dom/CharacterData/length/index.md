@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets the number of characters in a text node.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/CharacterData/length
 

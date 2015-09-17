@@ -6,18 +6,15 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'WebSocket is a JavaScript API and accompanying protocol that allows you to create &quot;web sockets&quot;, capable of bi-directional full-duplex communication over a persistent TCP connection (socket).'
 tags:
-  0: API
-  1: Listings
-  3: WebSocket
+  - API_Listings
+  - API
+  - WebSocket
 uri: apis/websocket
 
 ---
 ## Summary
 
 WebSocket is a JavaScript API and accompanying protocol that allows you to create &quot;web sockets&quot;, capable of bi-directional full-duplex communication over a persistent TCP connection (socket).
-
-API Name
-:   Summary
 
 [CloseEvent](/apis/websocket/CloseEvent)
 :   Object representing the close event for a WebSocket.

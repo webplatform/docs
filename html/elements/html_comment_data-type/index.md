@@ -12,8 +12,7 @@ overview_table:
 readiness: 'Not Ready'
 summary: "A syntactical production: The comment syntax indicates text within a document that is not displayed on the rendered page in the browser.\nA comment starts with &lt;!-- and ends with --&gt;.\n"
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: 'html/elements/html comment data-type'
 

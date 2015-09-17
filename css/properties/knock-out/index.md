@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Defines whether an element group is a knock-out group. When a group is set to knock-out, the elements in the group only composite and blend with elements outside the group. When a group is set to preserve (the default), the elements composite normally and blend with other elements inside and outside the group.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/knock-out
 
 ---

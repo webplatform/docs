@@ -13,8 +13,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "The textarea tag defines a multi-line text input control.\n"
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/textarea
 

@@ -17,8 +17,8 @@ readiness: 'In Progress'
 standardization_status: Non-Standard
 summary: 'This property must not be used. It is no longer included in any standard or standard track specification, nor is it implemented in any browser. It is only used when the text-align-last property is set to size. It controls allowed adjustments of font-size to fit line content.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/max-font-size
 
 ---

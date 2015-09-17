@@ -3,8 +3,7 @@ title: 'Pointer events sites'
 readiness: 'Ready to Use'
 summary: 'Checkout the following web sites that have already implemented the W3C Pointer Events specification showcasing new features enabled by modern HTML5 browsers:'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: 'PointerEvents/pointer events sites'
 
 ---

@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Creates a new DirectoryReader to read Entries from this Directory.\n"
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileSystemAPI
+  - API_Object_Methods
+  - API
+  - FileSystemAPI
+  - Needs_Examples
 uri: apis/filesystem/DirectoryEntry/createReader
 
 ---
@@ -41,8 +41,6 @@ var  = DirectoryEntry.createReader();
 Returns an object of type
 
 DirectoryReader
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

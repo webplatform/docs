@@ -16,10 +16,9 @@ relationships:
     href: /css/media_queries/apis/StyleMedia
 summary: 'Gets the media type of the object that displays the Document object'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: 'css/media queries/apis/properties/type'
 
 ---
@@ -42,8 +41,6 @@ var mediaType = window.styleMedia.type;
 Returns an object of type StringString
 
 The media type of the current document.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

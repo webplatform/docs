@@ -13,15 +13,8 @@ readiness: 'Not Ready'
 standardization_status: Non-Standard
 summary: 'Indicates that the enclosed text should not be broken across lines; use the CSS property white-space instead.'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Elements
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Elements
   - HTML
 uri: html/elements/noBR
 

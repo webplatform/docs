@@ -77,5 +77,5 @@ JavaScript actually just does
 
 it checks whether `o` has a property `someProp`. If not it checks `Object.getPrototypeOf(o).someProp` and if that doesn't exist it checks `Object.getPrototypeOf(Object.getPrototypeOf(o)).someProp` and so on.
 
-<span style="float: left">[« Previous](http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Details_of_the_Object_Model)</span>[Next »](http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Iterators_and_Generators)
+<span style="float: left">[« Previous](/en-US/docs/JavaScript/Guide/Details_of_the_Object_Model)</span>[Next »](/en-US/docs/JavaScript/Guide/Iterators_and_Generators)
 

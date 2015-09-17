@@ -17,10 +17,9 @@ relationships:
 standardization_status: Deprecated
 summary: 'Gets the character encoding that is used for the text that is loaded into the document object.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/Document/inputEncoding
 
 ---
@@ -43,8 +42,6 @@ var inputEncoding = document.inputEncoding;
 Returns an object of type StringString
 
 The character encoding that is used for the text that is loaded into the **document** object, or null when it is unknown.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

@@ -17,10 +17,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'An event listener to be called when a message is received from the worker.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Webworkers
+  - API_Object_Properties
+  - API
+  - Webworkers
+  - Needs_Examples
 uri: apis/workers/Worker/onmessage
 
 ---
@@ -43,8 +43,6 @@ var result = object.onmessage;
 Returns an object of type
 
 EventHandler
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

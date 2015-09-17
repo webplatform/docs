@@ -17,11 +17,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the AudioTrack object with the given identifier, or null if no track has that identifier.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Audio
-  5: Video
+  - API_Object_Methods
+  - API
+  - Audio
+  - Video
 uri: apis/audio-video/AudioTrackList/getTrackById
 
 ---
@@ -92,7 +91,7 @@ Returns an object of type DOM NodeDOM Node
 })();
 ```
 
-[View live example](http://code.webplatform.org/gist/459f1a0ea9f70009b6fe)
+[View live example](http://gist.github.com/459f1a0ea9f70009b6fe)
 
 ## Related specifications
 

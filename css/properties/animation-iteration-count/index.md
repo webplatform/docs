@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Specifies how many times an animation cycle should play.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/animation-iteration-count
 
 ---
@@ -95,7 +95,7 @@ div.selected {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/7010365)
+[View live example](http://gist.github.com/7010365)
 
 ## Usage
 

@@ -15,11 +15,11 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns an element at specified coordinates.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: DOM
-  5: Shadow
+  - API_Object_Methods
+  - API
+  - DOM
+  - Shadow_DOM
+  - Needs_Examples
 uri: dom/shadowdom/ShadowRoot/elementFromPoint
 
 ---
@@ -56,6 +56,3 @@ var result = element.elementFromPoint(x, y);
 Returns an object of type ElementElement
 
 If x is greater than the viewport width or if y is greater than the viewport height, excluding the size of any rendered scrollbars, returns null.
-
-**Needs Examples**: This section should include examples.
-

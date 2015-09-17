@@ -19,8 +19,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The ''marquee-style'' property determines a marquee''s scrolling behavior.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
 uri: css/properties/marquee-style
 
 ---
@@ -76,7 +75,7 @@ alternate
 .alternate { marquee-style: alternate; }
 ```
 
-[View live example](http://code.webplatform.org/gist/6364703)
+[View live example](http://gist.github.com/6364703)
 
 ``` html
 <marquee class="scroll">This demonstrates the 'scroll' value of the 'marquee-style' property.</marquee>

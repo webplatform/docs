@@ -10,8 +10,7 @@ notes:
 readiness: 'Ready to Use'
 summary: 'The following table lists JavaScript directives.  A directive is a token that adds certain syntactic and semantic restrictions.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/directives
 
 ---

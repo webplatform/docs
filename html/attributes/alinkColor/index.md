@@ -6,13 +6,13 @@ compatibility:
   feature: alinkColor
   topic: html
 notes:
-  - "\nDeletion Candidate:   DOM property, not an attribute\n\n"
+  - 'Deletion Candidate:   DOM property, not an attribute'
 readiness: 'Not Ready'
 summary: 'Sets or gets the color of all active links in the document.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: html/attributes/alinkColor
 
 ---
@@ -32,8 +32,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

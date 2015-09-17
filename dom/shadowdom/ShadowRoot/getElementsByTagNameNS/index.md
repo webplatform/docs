@@ -15,11 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Just like document.getElementsByTagNameNS except that it only works within the scope of this ShadowRoot''s shadow tree.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
-  - Shadow
+  - Shadow_DOM
+  - Needs_Examples
 uri: dom/shadowdom/ShadowRoot/getElementsByTagNameNS
 
 ---
@@ -56,6 +55,3 @@ var result = element.getElementsByTagNameNS(pvarNS, bstrLocalName);
 Returns an object of type DOM NodeDOM Node
 
 An IHTMLElementCollection of elements within the namespace.
-
-**Needs Examples**: This section should include examples.
-

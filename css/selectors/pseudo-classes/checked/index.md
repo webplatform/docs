@@ -11,8 +11,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The :checked selector applies to toggable elements (e.g. radio buttons or checkboxes) that are toggled on.'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Gets or sets the stack trace limit, which is equivalent to the number of error frames to display. The default limit is 10.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Error/stackTraceLimit
 
 ---

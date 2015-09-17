@@ -15,11 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the type of the last non-redirect navigation in the current browsing context. See Notes.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Navigation
-  5: Timing
+  - API_Object_Properties
+  - API
+  - Navigation_Timing
 uri: 'apis/navigation timing/PerformanceNavigation/type'
 
 ---

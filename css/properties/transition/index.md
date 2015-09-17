@@ -21,10 +21,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The transition CSS property is a shorthand property for transition-property, transition-duration, transition-timing-function, and transition-delay. It allows to define the transition between two states of an element.'
 tags:
-  0: CSS
-  1: Properties
-  3: Vendor
-  4: Prefix
+  - CSS_Properties
+  - CSS
+  - Vendor_Prefix
 uri: css/properties/transition
 
 ---
@@ -101,7 +100,7 @@ div:hover {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5842511)
+[View live example](http://gist.github.com/5842511)
 
 A list of translatable properties exists here: <http://www.w3.org/TR/2009/WD-css3-transitions-20091201/#animatable-properties->
 

@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Retrieves the element node that is a sibling to this element node (a direct child of the same parent) and is immediately previous to it in the DOM tree, ignoring text nodes, comment nodes and any other non-element nodes.  If there is no previous element sibling, the property value is null.  Read-only.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Element/previousElementSibling
 

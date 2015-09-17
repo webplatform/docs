@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'Provides for the scope and type of access to a database, and represents a transaction on the database.'
 tags:
-  0: API
-  1: Objects
-  3: IndexedDB
+  - API_Objects
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBTransaction
 
 ---
@@ -17,9 +17,6 @@ uri: apis/indexeddb/IDBTransaction
 Provides for the scope and type of access to a database, and represents a transaction on the database.
 
 ## Properties
-
-API Name
-:   Summary
 
 [db](/apis/indexeddb/IDBTransaction/db)
 :   The database connection of which this transaction is a part.
@@ -40,9 +37,6 @@ API Name
 :   The event handler for the error event.
 
 ## Methods
-
-API Name
-:   Summary
 
 [abort](/apis/indexeddb/IDBTransaction/abort)
 :   The abort method is used to abort a transaction. Once called, the abort method follows the [steps to abort](http://www.w3.org/TR/IndexedDB/#dfn-steps-for-aborting-a-transaction) a transaction

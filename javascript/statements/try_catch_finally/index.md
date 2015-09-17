@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Sets up blocks of code in which errors that are thrown in one block are handled in another. Errors that are thrown inside the try block are caught in the catch block. JavaScript.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/statements/try catch finally'
 
 ---

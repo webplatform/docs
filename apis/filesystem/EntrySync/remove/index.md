@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Deletes a file or directory.\n"
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileSystemAPI
+  - API_Object_Methods
+  - API
+  - FileSystemAPI
+  - Needs_Examples
 uri: apis/filesystem/EntrySync/remove
 
 ---
@@ -35,8 +35,6 @@ Method of [apis/filesystem/EntrySync](/apis/filesystem/EntrySync)[apis/filesyste
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

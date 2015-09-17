@@ -18,18 +18,14 @@ relationships:
     value: 'DOM Node'
     href: /dom/Element
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
 uri: dom/Element/inRange
 
 ---
 <p><br/></p>
-<div class="editors-only">
-<p><b>Needs Summary</b>:   This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article. 
-</p>
-</div>
+
 <p>Method of <a href="/dom/Element">dom/Element</a><a href="/dom/Element">dom/Element</a>
 </p>
 <h2>Syntax</h2>

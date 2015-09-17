@@ -20,8 +20,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'Non standard. Sets or retrieves the location of the Dynamic HTML (DHTML) behavior.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
   - DOM
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

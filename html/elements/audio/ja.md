@@ -15,8 +15,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: '&lt;audio&gt;は音楽ファイルを再生したり、最低限のメディアプレイヤーのインターフェイスを表示するのに使用します。'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - Audio
   - HTML
   - Media
@@ -130,7 +129,7 @@ uri: html/elements/audio/ja
 </audio>
 ```
 
-[View live example](http://code.webplatform.org/gist/7282145)
+[View live example](http://gist.github.com/7282145)
 
 ## Related specifications
 

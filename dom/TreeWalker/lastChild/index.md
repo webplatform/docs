@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Retrieves a reference to the last child of the current node of the filtered TreeWalker hierarchy and updates currentNode.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/TreeWalker/lastChild
 

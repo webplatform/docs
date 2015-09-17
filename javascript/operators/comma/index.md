@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'The comma operator (,) causes two expressions to be executed sequentially.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/operators/comma
 
 ---

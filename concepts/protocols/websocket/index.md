@@ -5,10 +5,8 @@ attributions:
 readiness: 'Almost Ready'
 summary: 'A WebSocket is a persistent, low-latency, lightweight and two-way communication channel between the server and the browser.'
 tags:
-  - Basic
-  - Pages
-  - Web
-  - Services
+  - Basic_Pages
+  - Web_Services
   - WebSocket
 uri: concepts/protocols/websocket
 

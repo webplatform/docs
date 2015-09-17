@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Performs a bitwise AND operation on two 32-bit expressions.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/operators/bitwise and'
 
 ---

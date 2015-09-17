@@ -17,9 +17,7 @@ relationships:
     href: /css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 summary: 'The background-position property sets the starting position of a background image.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - CSS
   - DOM
 todo_broken_links:

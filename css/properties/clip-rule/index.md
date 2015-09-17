@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Clipping crops an graphic, so that only a portion of the graphic is rendered, or filled. This clip-rule property, when used with the clip-path property, defines which clip rule, or algorithm, to use when filling the different parts of a graphics.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -133,7 +133,7 @@ This example uses the SVG `clip-rule` property to show the difference in values 
 </svg>
 ```
 
-[View live example](http://code.webplatform.org/gist/7037715)
+[View live example](http://gist.github.com/7037715)
 
 ## Usage
 

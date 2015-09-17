@@ -18,9 +18,7 @@ relationships:
 standardization_status: Deprecated
 summary: 'Initializes the value of a ProgressEvent object.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/ProgressEvent/initProgressEvent
 

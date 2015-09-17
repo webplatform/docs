@@ -13,11 +13,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the time value for this timeline or null if this timeline is inactive.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Web
-  5: Animations
+  - API_Object_Properties
+  - API
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationTimeline/currentTime'
 
 ---
@@ -38,8 +37,6 @@ var result = element.currentTime;
 ## Return Value
 
 Returns an object of type doubledouble
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

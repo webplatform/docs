@@ -13,10 +13,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'An event listener to be called when an error occurs.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Webworkers
+  - API_Object_Properties
+  - API
+  - Webworkers
+  - Needs_Examples
 uri: apis/workers/WorkerGlobalScope/onerror
 
 ---
@@ -33,8 +33,6 @@ Property of [apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)[ap
 ``` js
 var result = object.onerror;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

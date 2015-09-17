@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the last occurrence of a substring in the string.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/lastIndexOf
 
 ---

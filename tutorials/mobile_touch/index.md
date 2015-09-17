@@ -192,7 +192,7 @@ iOS devices fully support multi-touch, are capable of tracking quite a few finge
 
 ### Internet Explorer 10
 
-Internet Explorer does not have touch events. Instead Microsoft implemented pointer events in IE10 and suggested it as a new [spec](http://www.w3.org/TR/pointerevents/) to the W3C. See [PointerEvents](http://docs.webplatform.org/wiki/concepts/PointerEvents) for more info.
+Internet Explorer does not have touch events. Instead Microsoft implemented pointer events in IE10 and suggested it as a new [spec](http://www.w3.org/TR/pointerevents/) to the W3C. See [PointerEvents](/concepts/PointerEvents) for more info.
 
 ## Developer tools
 

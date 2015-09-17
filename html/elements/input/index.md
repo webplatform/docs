@@ -15,8 +15,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The input element (&lt;input/&gt;) is a multipurpose element for representing form widgets. The type of widget depends on the type attribute.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -93,7 +92,7 @@ This example uses the **input** element to create different types of input contr
 </form>
 ```
 
-[View live example](http://code.webplatform.org/gist/6364130)
+[View live example](http://gist.github.com/6364130)
 
 ## Usage
 

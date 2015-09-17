@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Retrieves the previous sibling of the current node in the filtered TreeWalker hierarchy and updates currentNode.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/TreeWalker/previousSibling
 

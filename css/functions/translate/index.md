@@ -10,8 +10,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Transform function for a 2d translation which sets the position of an element to a new one, described by two vectors (x, y). The y value is optional.'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/translate()
 
 ---

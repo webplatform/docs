@@ -19,11 +19,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Gets the secondary element that is involved in an event.\nThe relatedTarget property is used to find the other element, if any, involved in an event. Events like mouseover are oriented around a certain target, but also involve a secondary target, such as the target that is exited as the mouseover event fires for the primary target.\n"
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - DOMEvents
+  - Needs_Examples
 uri: dom/MouseEvent/relatedTarget
 
 ---
@@ -46,8 +45,6 @@ var relatedTargetElement = event.relatedTarget;
 Returns an object of type DOM NodeDOM Node
 
 The secondary element that is involved in an event.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

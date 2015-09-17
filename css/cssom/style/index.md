@@ -13,15 +13,8 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'The style attribute of an element makes it possible to directly apply CSS-styles to that specific element.'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - API
-  - Objects
+  - Pages_using_duplicate_arguments_in_template_calls
+  - API_Objects
   - DOM
 uri: css/cssom/style
 
@@ -33,9 +26,6 @@ The style attribute of an element makes it possible to directly apply CSS-styles
 Inherits from [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 ## Properties
-
-API Name
-:   Summary
 
 [type](/css/cssom/style/type)
 :
@@ -51,9 +41,6 @@ API Name
 ## Inherited from CSSStyleDeclaration
 
 ### Properties
-
-API Name
-:   Summary
 
 [cssText](/css/cssom/CSSStyleDeclaration/cssText)
 :   Gets or sets the textual representation of a CSS style declaration.
@@ -89,9 +76,6 @@ API Name
 :   Sets the width of an element.
 
 ### Methods
-
-API Name
-:   Summary
 
 [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 :   Gets the priority of a property in a CSS style declaration.

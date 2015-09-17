@@ -16,10 +16,9 @@ relationships:
     href: /css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 summary: 'Sets the width of an element.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: css/cssom/properties/width
 
 ---
@@ -39,8 +38,6 @@ declaration.width = value;
 ## Return Value
 
 Returns an object of type StringString
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

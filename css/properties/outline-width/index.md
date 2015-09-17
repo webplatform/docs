@@ -22,8 +22,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The outline-width property sets the width of the outline of an element. An outline is a line that is drawn around elements, outside the border edge, to make the element stand out.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/outline-width
 
 ---
@@ -104,7 +104,7 @@ The outline-width property sets the width of the outline of an element. An outli
 &lt;/div&gt;
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/5579241">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://gist.github.com/5579241">View live example</a>
 </p>
 </div>
 <p>CSS outline width values.
@@ -144,7 +144,7 @@ The outline-width property sets the width of the outline of an element. An outli
 }
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/5579241">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://gist.github.com/5579241">View live example</a>
 </p>
 </div>
 <h2>Notes</h2>

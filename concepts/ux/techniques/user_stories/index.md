@@ -3,8 +3,7 @@ title: 'User Stories'
 readiness: 'Not Ready'
 summary: 'A User eXperience (UX) design technique'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Design
   - UI
   - Usability

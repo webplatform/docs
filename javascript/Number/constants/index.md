@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'The following number constants are properties of the Number object.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Number/constants
 
 ---

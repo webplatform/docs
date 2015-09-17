@@ -15,8 +15,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The ins element represents a range of text that has been inserted (added) into a document.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
   - XHTML
 uri: html/elements/ins
@@ -61,7 +60,7 @@ This example uses **ins** and **del** elements to explain changes in a document
 </p>
 ```
 
-[View live example](http://code.webplatform.org/gist/6365735)
+[View live example](http://gist.github.com/6365735)
 
 ## Usage
 

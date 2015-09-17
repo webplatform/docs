@@ -6,8 +6,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Document is one of the most important objects in the DOM. It is where many API methods and properties are rooted.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/Document
 
@@ -17,9 +16,6 @@ uri: dom/Document
 Document is one of the most important objects in the DOM. It is where many API methods and properties are rooted.
 
 ## Properties
-
-API Name
-:   Summary
 
 [activeElement](/dom/Document/activeElement)
 :   Gets the object that has the focus when the parent document has focus. If no element in the document has focus, returns the `<body>` element.
@@ -119,9 +115,6 @@ API Name
 
 ## Methods
 
-API Name
-:   Summary
-
 [adoptNode](/dom/Document/adoptNode)
 :   Tries to move a node from one document to the document that the **document** object displays. It is preferable to use [importNode](/dom/Document/importNode) instead.
 
@@ -213,9 +206,6 @@ API Name
 :
 
 ## Events
-
-API Name
-:   Summary
 
 [rowenter](/dom/Document/rowenter)
 :

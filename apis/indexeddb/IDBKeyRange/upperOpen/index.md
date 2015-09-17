@@ -12,10 +12,10 @@ relationships:
     href: /apis/indexeddb/IDBKeyRange
 summary: 'Returns false if the upper-bound value is included in the key range. Returns true if the upper-bound value is excluded from the key range.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBKeyRange/upperOpen
 
 ---
@@ -31,8 +31,6 @@ Property of [apis/indexeddb/IDBKeyRange](/apis/indexeddb/IDBKeyRange)[apis/index
 var result = element.upperOpen;
 element.upperOpen = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

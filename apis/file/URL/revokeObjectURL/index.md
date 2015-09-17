@@ -13,10 +13,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Revokes a URL from a document and frees the object associated with that URL.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileAPI
+  - API_Object_Methods
+  - API
+  - FileAPI
+  - Needs_Examples
 uri: apis/file/URL/revokeObjectURL
 
 ---
@@ -44,8 +44,6 @@ Method of [apis/file/URL](/apis/file/URL)[apis/file/URL](/apis/file/URL)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

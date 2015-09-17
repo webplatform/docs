@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Sets or retrieves the protocol portion of a URL.\nThe protocol the current document was accessed via (everything preceding the &quot;//&quot;).\n"
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - JavaScript
 uri: apis/location/protocol
 

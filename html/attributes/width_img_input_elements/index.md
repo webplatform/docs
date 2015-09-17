@@ -9,21 +9,13 @@ notes:
   - 'Deletion Candidate'
 readiness: 'Not Ready'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Attributes
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Attributes
   - HTML
+  - Needs_Summary
 uri: 'html/attributes/width (img, input elements)'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 <table class="wikitable">
 <tr>
 <th>

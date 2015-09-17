@@ -12,8 +12,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The dfn element indicates the defining instance of a term.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
   - XHTML
 uri: html/elements/dfn

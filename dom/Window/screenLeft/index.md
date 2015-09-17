@@ -15,9 +15,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Retrieves the x-coordinate of the upper left-hand corner of the window frame, relative to the upper left-hand corner of the screen. '
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Window/screenLeft
 

@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets the content of the message.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/MessageEvent/data
 
 ---
@@ -43,8 +42,6 @@ var data = event.html/elements/data;
 Returns an object of type anyany
 
 The content of the message.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

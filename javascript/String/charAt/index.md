@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the character at the specified index.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/charAt
 
 ---

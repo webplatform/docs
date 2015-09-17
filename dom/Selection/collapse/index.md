@@ -14,9 +14,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Replaces the current selection with an empty selection (or a caret) at the given offset.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Selection/collapse
 

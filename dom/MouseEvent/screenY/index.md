@@ -18,11 +18,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets the y-coordinate of the mouse pointer, relative to the upper-left corner of the screen.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - DOMEvents
+  - Needs_Examples
 uri: dom/MouseEvent/screenY
 
 ---
@@ -45,8 +44,6 @@ var yCoordinate = event.screenY;
 Returns an object of type NumberNumber
 
 The Y coordinate of the mouse cursor.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

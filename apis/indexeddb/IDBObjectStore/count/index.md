@@ -16,10 +16,10 @@ relationships:
     href: /apis/indexeddb/IDBObjectStore
 summary: 'The count method returns the number of records in an object store.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBObjectStore/count
 
 ---
@@ -53,8 +53,6 @@ Returns an object of type NumberNumber
 [**IDBRequest**](/apis/indexeddb/IDBRequest)
 
 The number of records matching the specified value or "0" if no matches are found.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

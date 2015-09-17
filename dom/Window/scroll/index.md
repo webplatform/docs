@@ -11,9 +11,7 @@ relationships:
     href: /dom/Window
 summary: 'Causes the window to scroll to the specified x- and y-offset at the upper-left corner of the window.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/scroll
 

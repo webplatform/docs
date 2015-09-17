@@ -15,9 +15,7 @@ relationships:
     href: /dom/Window
 summary: 'Returns the window itself, which is an array-like object, listing the direct sub-frames of the current window.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Window/frames
 

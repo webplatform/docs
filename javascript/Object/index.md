@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Provides functionality common to all JavaScript objects.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Object
 
 ---

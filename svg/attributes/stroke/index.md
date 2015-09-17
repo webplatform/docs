@@ -11,8 +11,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The stroke attribute is a presentation attribute that define the color of the outline of the given graphical element.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - SVG
 uri: svg/attributes/stroke
 

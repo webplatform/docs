@@ -15,8 +15,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Control which image resource a user agent presents to a user, based on media query and/or support for a particular image format.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - DOM
   - HTML
   - Media
@@ -118,8 +117,8 @@ For accessibility, place alternative text for all images in the `alt` attribute 
 
 ### Other articles
 
--   [\<img\> Element](http://docs.webplatform.org/wiki/html/elements/img)
--   [\<source\> Element](http://docs.webplatform.org/wiki/html/elements/source)
+-   [\<img\> Element](/html/elements/img)
+-   [\<source\> Element](/html/elements/source)
 
 ### External resources
 

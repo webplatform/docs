@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets an attribute node that matches the specified namespace and name.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/Element/getAttributeNodeNS
 
 ---
@@ -57,8 +56,6 @@ var attributeNode = element.getAttributeNodeNS(namespace, name);
 Returns an object of type DOM NodeDOM Node
 
 An attribute node that matches the specified namespace and attribute name, or a null value when no attribute node is found.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

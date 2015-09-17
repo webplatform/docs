@@ -10,9 +10,8 @@ notes:
 readiness: 'Ready to Use'
 summary: 'Returns a Boolean value indicating the state of the Unicode flag (u) used with a regular expression. Default is false. Read-only.'
 tags:
-  0: JS
-  1: Basic
-  3: Property
+  - JS_Basic
+  - JS_Property
 uri: javascript/RegExp/unicode
 
 ---

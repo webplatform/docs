@@ -9,8 +9,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'Represents the text selection in the greater page, possibly spanning multiple elements, when the user drags over static text and other parts of the page.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/Selection
 
@@ -24,9 +23,6 @@ Represents the text selection in the greater page, possibly spanning multiple el
 Selection is the class of the object returned by [window.getSelection()](/dom/Window/getSelection) and other methods. For information about text selection in an individual text editing element, see [Input](/dom/HTMLInputElement), [TextArea](/dom/HTMLTextAreaElement) and [document.activeElement](/dom/Document/activeElement) which typically return the parent object returned from window.getSelection().
 
 ## Properties
-
-API Name
-:   Summary
 
 [anchorNode](/dom/Selection/anchorNode)
 :   Returns the element or node that contains the start of the selection.
@@ -50,9 +46,6 @@ API Name
 :
 
 ## Methods
-
-API Name
-:   Summary
 
 [addRange](/dom/Selection/addRange)
 :   Adds a Range to the current selection.

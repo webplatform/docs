@@ -9,8 +9,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Rotates an element around its Z-axis at a given degree.'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/rotateZ()
 
 ---

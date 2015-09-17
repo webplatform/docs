@@ -13,10 +13,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Discards any pending tasks and immediately closes the worker.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Webworkers
+  - API_Object_Methods
+  - API
+  - Webworkers
+  - Needs_Examples
 uri: apis/workers/WorkerGlobalScope/close
 
 ---
@@ -35,8 +35,6 @@ Method of [apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)[apis
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

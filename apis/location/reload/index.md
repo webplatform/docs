@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Refresh/reload the current page, optionally forcing a re-download of the content.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
 uri: apis/location/reload
 
 ---

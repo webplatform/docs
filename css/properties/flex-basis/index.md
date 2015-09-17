@@ -16,8 +16,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The flex-basis CSS property describes the initial main size of the flex item before any free space is distributed according to the flex factors described in the flex property (flex-grow and flex-shrink).'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
   - Flexbox
 uri: css/properties/flex-basis
 

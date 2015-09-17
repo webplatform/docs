@@ -17,9 +17,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Returns a Boolean value that indicates whether the specified command is in the indeterminate state.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/TextRange/queryCommandIndeterm
 

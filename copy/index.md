@@ -4,8 +4,7 @@ notes:
   - 'Examples are needed, at least a demonstration of how the term would be used in a sentence. This needs to be done especially for overloaded terms like this one.'
 readiness: 'Almost Ready'
 tags:
-  - Glossary
-  - Items
+  - Glossary_Items
 uri: copy
 
 ---

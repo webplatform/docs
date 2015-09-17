@@ -14,12 +14,11 @@ relationships:
     href: /dom/HTMLCollection
 summary: 'This method retrieves a Node using a name. With HTML 4.01 documents, it first searches for a Node with a matching id attribute. If it doesn''t find one, it then searches for a Node with a matching name attribute, but only on those elements that are allowed a name attribute. With XHTML 1.0 documents, this method only searches for Nodes with a matching id attribute. This method is case insensitive in HTML documents and case sensitive in XHTML documents.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
   - HTML
   - JavaScript
+  - Needs_Examples
 uri: dom/HTMLCollection/namedItem
 
 ---
@@ -49,6 +48,3 @@ var item = collection.namedItem(name);
 Returns an object of type DOM NodeDOM Node
 
 The **Node** with a **name** or **id** attribute whose value corresponds to the specified string. Upon failure (e.g., no node with this name exists), returns **null**.
-
-**Needs Examples**: This section should include examples.
-

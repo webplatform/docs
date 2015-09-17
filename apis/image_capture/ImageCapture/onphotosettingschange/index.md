@@ -11,11 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Register/unregister for photo settings change events of type SettingsChangeEvent.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Image
-  5: Capture
+  - API_Object_Properties
+  - API
+  - Image_Capture
+  - Needs_Examples
 uri: 'apis/image capture/ImageCapture/onphotosettingschange'
 
 ---
@@ -31,6 +30,4 @@ Property of [apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)
 var result = pictureDevice.onphotosettingschange;
 pictureDevice.onphotosettingschange = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

@@ -12,9 +12,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Merges adjacent DOM objects to produce a normalized document object model.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Node/normalize
 

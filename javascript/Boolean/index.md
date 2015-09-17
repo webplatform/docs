@@ -8,9 +8,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Creates a new Boolean (true/false) value.'
 tags:
-  0: JS
-  1: Basic
-  3: Object
+  - JS_Basic
+  - JS_Object
 uri: javascript/Boolean
 
 ---

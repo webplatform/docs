@@ -5,8 +5,7 @@ notes:
   - 'Require manual conversion! See https://github.com/webplatform/mediawiki-conversion/issues/24'
 summary: "concepts/internet_and_web/How_does_the_Internet_Workの続きです。 HTMLと CSS、JavaScript\nが取り入れられました。それではもう少し掘り下げて、この3つがwebサイトを作る際に何をしてどのように連携するのか、それぞれを見ていくことにしましょう。\n"
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

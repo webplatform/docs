@@ -9,8 +9,7 @@ readiness: 'Ready to Use'
 standardization_status: Deprecated
 summary: 'Specifies the background color of a document. This is deprecated in HTML4 and not supported in HTML5. Please use the CSS Background Color rule instead.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/bgColor
 

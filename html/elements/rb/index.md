@@ -8,8 +8,8 @@ overview_table:
 standardization_status: 'W3C Recommendation'
 summary: 'Marks the base text component of a ruby annotation'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
+  - Needs_Examples
 uri: html/elements/rb
 
 ---
@@ -21,8 +21,6 @@ Marks the base text component of a ruby annotation
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

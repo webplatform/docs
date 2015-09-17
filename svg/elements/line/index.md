@@ -15,8 +15,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The line element creates a line segment interconnecting two points.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - SVG
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -55,7 +54,7 @@ In the following code example, the line element is used to draw a salmon-colored
 ```
 
 </pre>
-[View live example](http://code.webplatform.org/gist/9e2c858dc34a018a483d)
+[View live example](http://gist.github.com/9e2c858dc34a018a483d)
 
 ### Attributes
 

@@ -3,8 +3,7 @@ title: 'Mobile web'
 readiness: 'Ready to Use'
 summary: 'This concept page explains in general terms what mobile web is and its brief history.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Mobile
 uri: 'concepts/mobile web/mobile web'
 

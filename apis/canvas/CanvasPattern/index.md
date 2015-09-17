@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'An opaque object of the canvas API. See Notes.'
 tags:
-  0: API
-  1: Objects
-  3: Canvas
+  - API_Objects
+  - API
+  - Canvas
 uri: apis/canvas/CanvasPattern
 
 ---

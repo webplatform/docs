@@ -21,8 +21,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'writing-mode specifies if lines of text are laid out horizontally or vertically, and the direction which lines of text and blocks progress.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/writing-mode
 
 ---
@@ -81,7 +81,7 @@ Sets the writing mode to vertical and to progress from right to left. Sometimes 
 <p>日本では、新聞や書籍などで縦書きを使用することがあります。これは、縦書きのシンプルな例です。</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/5833192)
+[View live example](http://gist.github.com/5833192)
 
 ``` css
 p {
@@ -172,7 +172,7 @@ Complete example, including HTML.
 </div>
 ```
 
-[View live example](http://code.webplatform.org/gist/5860978)
+[View live example](http://gist.github.com/5860978)
 
 ## Related specifications
 

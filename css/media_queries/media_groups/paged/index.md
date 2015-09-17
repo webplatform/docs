@@ -5,9 +5,8 @@ notes:
 readiness: 'Not Ready'
 summary: 'The paged media group includes any media type that splits the document into blocks of a fixed maximum size.'
 tags:
+  - CSS_Media_Groups
   - CSS
-  - Media
-  - Groups
 uri: 'css/media queries/media groups/paged'
 
 ---

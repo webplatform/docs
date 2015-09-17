@@ -12,11 +12,9 @@ relationships:
     href: /apis/web_animations/AnimationPlayer
 summary: 'The playback rate of this player. Setting this attribute follows the procedure to update the player playback rate of this object to the new value.'
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationPlayer/playbackRate'
 
 ---
@@ -36,6 +34,4 @@ element.playbackRate = value;
 ## Return Value
 
 Returns an object of type doubledouble
-
-**Needs Examples**: This section should include examples.
 

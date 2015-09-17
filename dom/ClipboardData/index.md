@@ -8,8 +8,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Retrieves the information from the clipboard as part of clipboard operation events.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/ClipboardData
 

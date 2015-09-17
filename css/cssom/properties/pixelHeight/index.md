@@ -14,9 +14,7 @@ relationships:
     href: /css/cssom/properties
 summary: 'Changes the value of the height without changing the units designator.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: css/cssom/properties/pixelHeight
 

@@ -15,9 +15,7 @@ relationships:
     href: /dom/Window
 summary: 'Retrieves the topmost ancestor window.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Window/top
 

@@ -17,10 +17,10 @@ relationships:
     href: /apis/indexeddb/IDBRequest
 summary: 'The state of the request. Every request starts in the pending state. The state changes to done when the request completes successfully or when an error occurs.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBRequest/readyState
 
 ---
@@ -44,8 +44,6 @@ Returns an object of type enumenum
 
 -   pending (1) - The request has been started, but its result is not yet available.
 -   done (2) - The request has completed or an error has occurred. Initially false.
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

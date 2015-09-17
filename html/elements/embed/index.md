@@ -13,8 +13,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'The HTML &lt;embed&gt; Element represents an integration point for an external content- typically, non-HTML content such as an application or some other type of interactive content which involves use of a third-party plugin as a handler (rather than being natively supported by the UA).'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - Audio
   - HTML
   - Media

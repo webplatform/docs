@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets an element with a specified ID.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Deletion_Candidate
 uri: dom/Document/getElementById
 
 ---
@@ -86,6 +85,4 @@ function getID() {
 
 [W3C DOM4](http://www.w3.org/TR/2014/CR-dom-20140508/#dom-nonelementparentnode-getelementbyid)
 :   Candidate Recommendation
-
-**Deletion Candidate**: This page is a candidate for deletion
 

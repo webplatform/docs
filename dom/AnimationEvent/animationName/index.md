@@ -12,9 +12,7 @@ relationships:
     href: /dom/AnimationEvent
 summary: 'The value of the animation-name property of the animation that fired the animation event.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/AnimationEvent/animationName
 

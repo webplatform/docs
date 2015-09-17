@@ -12,8 +12,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "Represents the first letter of an element, if it is not preceded by any other content (such as images or inline tables) on its line. The\_::first-letter pseudo-element may be used for &quot;initial caps&quot; and &quot;drop caps&quot;, which are common typographical effects."
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 uri: 'css/selectors/pseudo-elements/::first-letter'
 
 ---
@@ -43,7 +43,7 @@ p::first-letter {
 }
 ```
 
-[View live example](https://code.webplatform.org/gist/6cbbb246cdbcf6c2bfaf)
+[View live example](https://gist.github.com/6cbbb246cdbcf6c2bfaf)
 
 The following CSS will create a drop capital spanning about two lines.
 
@@ -54,7 +54,7 @@ p::first-letter {
 }
 ```
 
-[View live example](https://code.webplatform.org/gist/5257e9b2d1e11631d608)
+[View live example](https://gist.github.com/5257e9b2d1e11631d608)
 
 ## Notes
 

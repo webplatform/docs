@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Finds the first substring match in a regular expression search.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/search
 
 ---

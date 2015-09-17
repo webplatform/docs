@@ -10,9 +10,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'Indicates that an image is part of a server-side image-map.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: html/attributes/isMap
 
 ---
@@ -32,7 +32,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

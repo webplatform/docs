@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Sets or gets a value that indicates whether the document can be edited.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Document/designMode
 

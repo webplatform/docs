@@ -13,8 +13,7 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: 'Deprecated presentational element defining strikethrough text. It is deprecated in HTML4 and not supported in HTML5. Consider the del or s elements instead.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/strike
 

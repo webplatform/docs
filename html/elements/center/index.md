@@ -13,8 +13,7 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: 'The &lt;center&gt; element center-aligns text in an HTML page. The element is deprecated in HTML 4.01 and obsolete in HTML5. Use CSS instead.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/center
 

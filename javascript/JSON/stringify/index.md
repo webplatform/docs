@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Converts a JavaScript value to a JavaScript Object Notation (JSON) string.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/JSON/stringify
 
 ---

@@ -5,8 +5,7 @@ notes:
 readiness: 'In Progress'
 summary: 'Graceful degradation, also known as Fault tolerance is a concept of building a web site or application so it provides a good level of user experience in modern browsers.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
 uri: 'concepts/graceful degradation'
 
 ---

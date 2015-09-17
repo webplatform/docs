@@ -3,8 +3,7 @@ title: 'Collaborative design sessions (Inception deck)'
 readiness: 'Not Ready'
 summary: 'A User eXperience (UX) design technique'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Design
   - UI
   - Usability

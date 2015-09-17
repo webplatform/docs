@@ -12,8 +12,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The i element indicates that the contained text is in an alternate voice, mood, or language from the surrounding text.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
   - XHTML
 uri: html/elements/i

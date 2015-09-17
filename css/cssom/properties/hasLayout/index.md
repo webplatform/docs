@@ -17,22 +17,13 @@ relationships:
     value: String
     href: /css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - API
-  - Object
-  - Properties
+  - Pages_using_duplicate_arguments_in_template_calls
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
 uri: css/cssom/properties/hasLayout
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 ## Syntax

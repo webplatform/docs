@@ -4,10 +4,10 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Animation nodes are represented in the Web Animations API by the AnimationNode interface.'
 tags:
-  0: API
-  1: Objects
-  3: Web
-  4: Animations
+  - API_Objects
+  - API
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationNode'
 
 ---
@@ -16,9 +16,6 @@ uri: 'apis/web animations/AnimationNode'
 Animation nodes are represented in the Web Animations API by the AnimationNode interface.
 
 ## Properties
-
-API Name
-:   Summary
 
 [computedTiming](/apis/web_animations/AnimationNode/computedTiming)
 :   Returns the calculated timing properties for this animation node. This is comparable to the computed style of an Element, window.getComputedStyle(elem).
@@ -40,9 +37,6 @@ API Name
 :   Returns the input timing properties specified for this animation node. This is comparable to the specified style on an Element, elem.style.
 
 ## Methods
-
-API Name
-:   Summary
 
 [after](/apis/web_animations/AnimationNode/after)
 :   Inserts nodes after this animation node.
@@ -67,8 +61,6 @@ API Name
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

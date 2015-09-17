@@ -14,9 +14,7 @@ relationships:
     href: /dom/Window
 summary: 'Sets the text in the status bar at the bottom of the browser or returns the previously set text.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Window/status
 

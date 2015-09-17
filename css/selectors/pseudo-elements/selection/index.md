@@ -11,8 +11,10 @@ notes:
 readiness: 'Not Ready'
 standardization_status: Non-Standard
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
+  - Needs_Summary
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -22,18 +24,12 @@ uri: 'css/selectors/pseudo-elements/::selection'
 ---
 <p>
 </p>
-<div class="editors-only">
-<p><b>Needs Summary</b>:   This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article. 
-</p>
-</div>
+
 <p><br/>
 The <b>::selection</b> pseudo-element is the UI element fragments pseudo-element. It is used to select any part of the page that the user has highlighted, including text within an editable text field. This pseudo-element supports the <a href="/css/properties/color"><b>color</b></a> and <a href="/css/properties/background-color"><b>background-color</b></a> properties.
 </p><p>It was proposed as part of CSS3 Selectors, but was removed due to concerns of undefined behaviors (e.g. for nested elements).
 </p>
-<div class="editors-only">
-<p><b>Needs Examples</b>:  This section should include examples. 
-</p>
-</div>
+
 <h2>Notes</h2>
 <p> 
 </p><p><br/></p>

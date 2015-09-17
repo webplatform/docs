@@ -14,8 +14,7 @@ overview_table:
 readiness: 'Ready to Use'
 summary: 'The flex-shrink CSS property specifies how much a flex item will be reduced with respect to the other items in the flex container to fit within a reduced container.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
   - Flexbox
 uri: css/properties/flex-shrink
 

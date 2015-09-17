@@ -23,8 +23,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'CSS transforms allow elements styled with CSS to be transformed in two-dimensional or three-dimensional space. Using this property, elements can be translated, rotated, scaled, and skewed. The value list may consist of 2D and/or 3D transform values.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/transform
 
 ---
@@ -165,7 +165,7 @@ Translate the object by 150 pixels along the x and y axes.
  }
 ```
 
-[View live example](http://code.webplatform.org/gist/6982577)
+[View live example](http://gist.github.com/6982577)
 
 Rotate the object by 40 degrees clockwise.
 
@@ -179,7 +179,7 @@ Rotate the object by 40 degrees clockwise.
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6982633)
+[View live example](http://gist.github.com/6982633)
 
 Scale the element by the factor of 3 on the x axis and by the factor of 0.5 by the y axis.
 
@@ -193,7 +193,7 @@ Scale the element by the factor of 3 on the x axis and by the factor of 0.5 by t
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6982663)
+[View live example](http://gist.github.com/6982663)
 
 3D rotate the object by 40 degrees clockwise around the X axis.
 
@@ -207,7 +207,7 @@ Scale the element by the factor of 3 on the x axis and by the factor of 0.5 by t
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6982706)
+[View live example](http://gist.github.com/6982706)
 
 ## Notes
 

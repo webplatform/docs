@@ -18,10 +18,9 @@ relationships:
 standardization_status: Deprecated
 summary: 'Replaces the text of the current object.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/Text/replaceWholeText
 
 ---
@@ -51,8 +50,6 @@ var textNode = textNode.replaceWholeText(/* see parameter list */);
 Returns an object of type DOM NodeDOM Node
 
 A [**Text**](/dom/Text) node that received the replacement text. If the replaced text was empty, this value will be null. If the current node is read-only, a new **Text** node is returned. If the current node is not read-only, the same object is returned.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

@@ -7,8 +7,7 @@ notes:
 readiness: 'In Progress'
 summary: 'This page lists properties, methods, and events for the EventException object.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/EventException
 

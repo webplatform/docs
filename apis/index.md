@@ -22,9 +22,6 @@ Most of the APIs, however, are designed to be used right in your own code. Below
 
 ## List of all APIs
 
-API Name
-:   Summary
-
 [Ambient Light API](/apis/ambient_light)
 :   The Ambient Light API defines events that provide information about the ambient light level, as measured by a device's light sensor.
 

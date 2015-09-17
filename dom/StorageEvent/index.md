@@ -14,8 +14,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Provides event properties that are specific to the onstorage event.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/StorageEvent
 
@@ -41,9 +40,6 @@ Inherits from [Event](/dom/Event)[Event](/dom/Event)
 ## Inherited from Event
 
 ### Properties
-
-API Name
-:   Summary
 
 [bubbles](/dom/Event/bubbles)
 :   Gets a value that indicates whether an event propagates up from the event target.
@@ -74,9 +70,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initEvent](/dom/Event/initEvent)
 :   Initializes a new generic event that the [**createEvent**](/dom/Document/createEvent) method created.
 
@@ -90,9 +83,6 @@ API Name
 :   Prevents propagation of an event beyond the current target.
 
 ### Events
-
-API Name
-:   Summary
 
 [DOMContentLoaded](/dom/Event/DOMContentLoaded)
 :

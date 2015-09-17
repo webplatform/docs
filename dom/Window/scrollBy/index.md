@@ -11,9 +11,7 @@ relationships:
     href: /dom/Window
 summary: 'Causes the window to scroll relative to the current scrolled position by the specified x- and y-pixel offset. '
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/scrollBy
 

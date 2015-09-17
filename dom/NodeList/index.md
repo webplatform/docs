@@ -5,8 +5,7 @@ notes:
 standardization_status: 'W3C Recommendation'
 summary: 'Represents a list of DOM Nodes'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/NodeList
 
@@ -17,16 +16,10 @@ Represents a list of DOM Nodes
 
 ## Properties
 
-API Name
-:   Summary
-
 [length](/apis/NodeList/length)
 :   The number of nodes in the list.
 
 ## Methods
-
-API Name
-:   Summary
 
 [item](/dom/NodeList/item)
 :   Gets the *n*th item in the collection

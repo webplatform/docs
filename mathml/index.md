@@ -4,8 +4,7 @@ notes:
   - "Fix broken links.\nNOTE: Maybe we should not put \"almost ready\" or ready to use if not ALL subpages aren’t on a better state. Reverted to Unreviewed."
 summary: 'Mathematical Markup Language (MathML) is a XML language, which is used to describe mathematical formulas. The current stable specification is the MathML 3.0 W3C Recommendation.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
   - MathML
 uri: mathml
 

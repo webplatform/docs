@@ -9,8 +9,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: '::before creates a pseudo-element, which allows you to insert content onto a page from CSS before the selected element(s). The end result isn''t actually in the DOM, but it appears on the page as if it is. The pseudo-element is inline by default.'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 uri: 'css/selectors/pseudo-elements/::before'
 
 ---

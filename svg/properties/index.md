@@ -5,8 +5,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Listing of all articles in svg/properties/'
 tags:
-  - API
-  - Listings
+  - API_Listings
   - SVG
 uri: svg/properties
 

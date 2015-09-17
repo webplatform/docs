@@ -14,10 +14,10 @@ relationships:
     href: /apis/indexeddb/IDBVersionChangeRequest
 summary: 'The event handler for the blocked event.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBVersionChangeRequest/onblocked
 
 ---
@@ -37,6 +37,4 @@ element.onblocked = value;
 ## Return Value
 
 Returns an object of type functionfunction
-
-**Needs Examples**: This section should include examples.
 

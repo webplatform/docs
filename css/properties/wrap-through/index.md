@@ -15,8 +15,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Specifies whether an element inherits its parent''s wrapping context as defined by the wrap-flow property.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/wrap-through
 
 ---

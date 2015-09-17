@@ -8,8 +8,7 @@ overview_table:
   Features: ''
 summary: 'Makes the request conditional on the server''s resource having been updated recently, for refreshing caches.'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 uri: http/headers/If-Modified-Since
 
 ---

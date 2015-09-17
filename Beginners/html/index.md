@@ -5,8 +5,7 @@ notes:
 readiness: 'In Progress'
 summary: 'Next we will dive into Hypertext Markup Language (HTML), structuring our content. This document shows an example HTML file with notes on each components that will help you learn their use.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: Beginners/html
 
 ---

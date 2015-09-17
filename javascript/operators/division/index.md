@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Divides the values of two expressions.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/operators/division
 
 ---

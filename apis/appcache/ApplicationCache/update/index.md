@@ -14,10 +14,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Invokes the application cache download process. Throws an InvalidStateError exception if there is no application cache to update. Calling this method is not usually necessary, as user agents will generally take care of updating application caches automatically. The method can be useful in situations such as long-lived applications. For example, a Web mail application might stay open in a browser tab for weeks at a time. Such an application could want to test for updates each day.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - Appcache
+  - API
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

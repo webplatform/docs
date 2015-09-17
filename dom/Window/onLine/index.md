@@ -11,15 +11,13 @@ relationships:
     value: dom/Window
     href: /dom/Window
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/Window/onLine
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
 ## Syntax
@@ -28,8 +26,6 @@ Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 var result = element.onLine;
 element.onLine = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

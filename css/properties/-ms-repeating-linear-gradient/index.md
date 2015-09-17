@@ -12,18 +12,14 @@ relationships:
     value: css/properties
     href: /css/properties
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
 uri: css/properties/-ms-repeating-linear-gradient
 
 ---
 <p><br/></p>
-<div class="editors-only">
-<p><b>Needs Summary</b>:   This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article. 
-</p>
-</div>
+
 <div data-template="API_Object_Property">
 <p><br/></p><p><br/></p><p>Property of <a href="/css/properties">css/properties</a><a href="/css/properties">css/properties</a>
 </p>

@@ -12,8 +12,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The tr element represents a row of cells in a table.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

@@ -13,11 +13,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Initializes a new keyboard event that the  createEvent method created.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
   - DOMEvents
+  - Needs_Examples
 uri: dom/KeyboardEvent/initKeyboardEvent
 
 ---
@@ -118,8 +117,6 @@ Other implementation specific options may be supported. For example -
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

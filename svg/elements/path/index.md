@@ -12,8 +12,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The path element is the generic element to define a shape.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - SVG
 uri: svg/elements/path
 

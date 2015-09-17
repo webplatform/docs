@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'An object representing the &quot;inside&quot; of a worker.'
 tags:
-  0: API
-  1: Objects
-  3: Webworkers
+  - API_Objects
+  - API
+  - Webworkers
 uri: apis/workers/WorkerGlobalScope
 
 ---
@@ -17,9 +17,6 @@ uri: apis/workers/WorkerGlobalScope
 An object representing the &quot;inside&quot; of a worker.
 
 ## Properties
-
-API Name
-:   Summary
 
 [location](/apis/workers/WorkerGlobalScope/location)
 :   Returns the WorkerLocation object created for the WorkerGlobalScope object when the worker was created.
@@ -40,9 +37,6 @@ API Name
 :   Returns the WorkerGlobalScope object.
 
 ## Methods
-
-API Name
-:   Summary
 
 [close](/apis/workers/WorkerGlobalScope/close)
 :   Discards any pending tasks and immediately closes the worker.

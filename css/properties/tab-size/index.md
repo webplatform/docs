@@ -19,8 +19,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The tab-size CSS property is used to customise the width of a tab (U+0009) character.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/tab-size
 
 ---
@@ -90,7 +90,7 @@ Examples of using the tab-size prop
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5673098)
+[View live example](http://gist.github.com/5673098)
 
 ## Notes
 

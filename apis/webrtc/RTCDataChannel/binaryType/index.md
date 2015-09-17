@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the value to which it was last set; on creation, must be initialized to the string &quot;blob&quot;.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCDataChannel/binaryType
 
 ---
@@ -38,8 +38,6 @@ object.binaryType = value;
 ## Return Value
 
 Returns an object of type StringString
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

@@ -19,8 +19,9 @@ readiness: 'In Progress'
 standardization_status: Non-Standard
 summary: 'Do not use. This property has been replaced by the flex property.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -67,8 +68,6 @@ integer
 A value of `0.0` indicates the element is not flexible. Any other value indicates the relative flexiblity of the child element compared to the flexibility of other child elements.
 
 A negative value is not valid.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

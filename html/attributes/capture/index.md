@@ -7,8 +7,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The capture attribute facilitates user access to a device''s media capture mechanism, such as a camera, or microphone, from within a file upload control, for capturing media on the spot.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - Mobile
 uri: html/attributes/capture
 

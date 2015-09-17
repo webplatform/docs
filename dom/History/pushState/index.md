@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Programmatically push a document state (including URI and document title) onto the user agent''s history.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/History/pushState
 
 ---
@@ -60,8 +59,6 @@ An optional URL to associate with the data.
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

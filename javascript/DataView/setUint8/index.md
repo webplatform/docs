@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Stores a Uint8 value at the specified byte offset from the start of the view.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/DataView/setUint8
 
 ---

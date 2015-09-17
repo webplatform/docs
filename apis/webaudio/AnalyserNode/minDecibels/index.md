@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The minimum power value in the scaling range for the FFT analysis data for conversion to unsigned byte values. Default is -100.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
 uri: apis/webaudio/AnalyserNode/minDecibels
 
 ---

@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Marks the last subpath as closed, creates a new subpath whose first point is the same as the previous subpath''s last point, and then adds the new subpath to the path, returning to the first subpath''s first point (closing the shape). If the object''s path has no subpaths, this method does nothing.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Canvas
+  - API_Object_Methods
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/closePath
 
 ---

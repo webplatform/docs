@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Defines the alpha channel threshold used to extract a shape from an image. Can be thought of as a &quot;minimum opacity&quot; threshold; that is, a value of 0.5 means that the shape will enclose all the pixels that are more than 50% opaque.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/shape-image-threshold
 
 ---
@@ -75,7 +75,7 @@ Extract a shape from an image by enclosing all pixels greater than 25% opacity
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5833790)
+[View live example](http://gist.github.com/5833790)
 
 ## Usage
 

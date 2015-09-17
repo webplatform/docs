@@ -15,9 +15,8 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets or sets whether an element can be dragged and dropped.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
+  - Needs_Examples
 uri: dom/HTMLElement/draggable
 
 ---
@@ -39,8 +38,6 @@ element.draggable = draggable;
 Returns an object of type BooleanBoolean
 
 Whether the element is draggable.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

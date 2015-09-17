@@ -15,11 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the time immediately after receiving the last byte of the response of the last redirect, if there are HTTP redirects or equivalent when navigating and all redirects and equivalents are from the same origin. Otherwise, returns zero.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Navigation
-  5: Timing
+  - API_Object_Properties
+  - API
+  - Navigation_Timing
 uri: 'apis/navigation timing/PerformanceTiming/redirectEnd'
 
 ---

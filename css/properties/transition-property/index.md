@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The ''transition-property'' property specifies the name of the CSS property to which the transition is applied.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/transition-property
 
 ---
@@ -94,7 +94,7 @@ div:hover{
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5842100)
+[View live example](http://gist.github.com/5842100)
 
 ## Notes
 

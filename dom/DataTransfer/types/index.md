@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Returns an array listing the formats that were set in the dragstart event. If any files are being dragged, one of the types will be the string &quot;Files&quot;.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/DataTransfer/types
 

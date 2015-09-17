@@ -6,8 +6,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The &lt;position&gt; CSS data type represents information for positioning an element in horizontal and vertical directions using a mix of keywords, percentage, and length values.'
 tags:
-  - Data
-  - Type
+  - Data_Type
   - CSS
 uri: 'css/data types/position'
 
@@ -71,7 +70,7 @@ body{
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/10612218)
+[View live example](http://gist.github.com/10612218)
 
 ## Related specifications
 

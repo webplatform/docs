@@ -11,8 +11,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Working Draft'
 summary: 'The date type of the &lt;input&gt; element represents a widget for specifying a date value (year, month, day), with no time zone or time information.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/input/type/date
 

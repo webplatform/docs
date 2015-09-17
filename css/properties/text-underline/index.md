@@ -6,7 +6,7 @@ compatibility:
   feature: text-underline
   topic: css
 notes:
-  - "\nDeletion Candidate:   This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.\n\n"
+  - 'Deletion Candidate:   This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.'
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`not defined for shorthand properties`'
   'Applies to': 'all elements with textual content, including generated content'
@@ -20,8 +20,8 @@ readiness: 'Not Ready'
 standardization_status: Non-Standard
 summary: "Unsupported.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-underline
 
 ---
@@ -90,7 +90,7 @@ Possible values: auto/before-edge/alphabetic/after-edge
 
 ```
 
-[View live example](http://code.webplatform.org/gist/5779274)
+[View live example](http://gist.github.com/5779274)
 
 ## Usage
 
@@ -98,7 +98,7 @@ Possible values: auto/before-edge/alphabetic/after-edge
 
 Instead use **text-decoration: underline**.
 
-The possible exception is **text-underline-position**: <http://docs.webplatform.org/wiki/css/properties/text-underline-position>.
+The possible exception is **text-underline-position**: [/css/properties/text-underline-position](/css/properties/text-underline-position).
 
 ## Notes
 

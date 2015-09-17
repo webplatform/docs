@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Retrieves the last child of this node that is an element, if there are any element children, or null otherwise. Read-only.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Element/lastElementChild
 

@@ -18,8 +18,8 @@ overview_table:
 readiness: 'In Progress'
 summary: 'Specifies the placement of a table caption.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/caption-side
 
 ---

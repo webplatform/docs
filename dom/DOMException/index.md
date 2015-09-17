@@ -6,8 +6,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Represents a DOM operation exception.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/DOMException
 
@@ -17,9 +16,6 @@ uri: dom/DOMException
 Represents a DOM operation exception.
 
 ## Properties
-
-API Name
-:   Summary
 
 [message](/dom/DOMException/message)
 :   Retrieves a string describing the exception that occurred.

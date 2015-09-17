@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Read-only. The offset of this view from the start of its ArrayBuffer, in bytes, as fixed at construction time.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/DataView/byteOffset
 
 ---

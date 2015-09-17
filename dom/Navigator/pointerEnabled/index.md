@@ -15,9 +15,7 @@ relationships:
 standardization_status: Deprecated
 summary: "Indicates if the browser will fire pointer events for pointing input.\n"
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
 uri: dom/Navigator/pointerEnabled
 
 ---

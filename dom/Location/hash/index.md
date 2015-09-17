@@ -16,9 +16,7 @@ relationships:
     href: /dom/Location
 summary: 'Sets or retrieves the subsection of the href property that follows the number sign (#).'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Location/hash
 

@@ -14,10 +14,10 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Closes the WebSocket connection or connection attempt, if any.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebSocket
+  - API_Object_Methods
+  - API
+  - WebSocket
+  - Needs_Examples
 uri: apis/websocket/WebSocket/close
 
 ---
@@ -56,8 +56,6 @@ A human-readable string explaining why the connection is closing. This string mu
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

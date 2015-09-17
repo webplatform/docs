@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "An event listener which is called periodically for audio processing. An event of type AudioProcessingEvent will be passed to the event handler.\n"
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
+  - Needs_Examples
 uri: apis/webaudio/ScriptProcessorNode/onaudioprocess
 
 ---
@@ -32,8 +32,6 @@ Property of [apis/webaudio/ScriptProcessorNode](/apis/webaudio/ScriptProcessorNo
 var result = ScriptProcessorNode.onaudioprocess;
 ScriptProcessorNode.onaudioprocess = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

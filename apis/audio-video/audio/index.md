@@ -14,9 +14,11 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The audio object is part of the HTML5 audio api. It extends the &lt;audio&gt; tag and allows users to access audio data. This enables the ability to manipulate or create new audio data.'
 tags:
-  0: API
-  1: Objects
-  3: Audio
+  - API_Objects
+  - API
+  - Audio
+  - Needs_Examples
+  - Deletion_Candidate
 uri: apis/audio-video/audio
 
 ---
@@ -45,10 +47,7 @@ The audio object is part of the HTML5 audio api. It extends the &amp;lt;audio&am
 <h3>Events</h3>
 <p><i>No events.</i>
 </p>
-<div class="editors-only">
-<p><b>Needs Examples</b>:  This section should include examples. 
-</p>
-</div>
+
 <h2>Notes</h2>
 <p>Beginning with Internet Explorer 9, any audio or video content needs  the correct mime type set on the server, or the files won't play. Internet Explorer 9 and  Internet Explorer 10 support MP3 audio, and  MP4 audio and video. WebM audio and video files can be supported by installing the WebM components from <a rel="nofollow" class="external text" href="http://go.microsoft.com/fwlink/p/?LinkID=218894">The WebM project</a>. The following table shows the required settings for your web server to host these files correctly.
 </p>
@@ -89,8 +88,5 @@ The audio object is part of the HTML5 audio api. It extends the &amp;lt;audio&am
 <dl><dt><a rel="nofollow" class="external text" href="http://www.w3.org/TR/html5/embedded-content-0.html#the-audio-element">A vocabulary and associated APIs for HTML and XHTML</a></dt>
   <dd/>
 </dl><p><br/></p><p><br/></p><p><br/></p><p><br/></p>
-<div class="editors-only">
-<p><b>Deletion Candidate</b>:  MS proprietary
-</p>
-</div>
+
 <p><br/></p>

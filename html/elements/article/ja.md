@@ -12,8 +12,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: '&lt;article&gt;はページ内で単独で完結する構成要素を定義します。'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

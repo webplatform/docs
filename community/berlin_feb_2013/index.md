@@ -40,8 +40,8 @@ There are a lot of APIs we want to cover on WebPlatform, and we have only really
 
 To get started with APIs:
 
--   Read the API project plan at <http://docs.webplatform.org/wiki/WPD:Proposals/api_docs>, which includes a list of the main APIs we want to work on.
--   Read our guide to creating API pages at <http://docs.webplatform.org/wiki/WPD:Creating_API_pages>.
+-   Read the API project plan at [/WPD:Proposals/api\_docs](/WPD:Proposals/api_docs), which includes a list of the main APIs we want to work on.
+-   Read our guide to creating API pages at [/WPD:Creating\_API\_pages](/WPD:Creating_API_pages).
 -   Choose what API you want to work on, and let us know — we'll track who is working on what, so that there are no overlaps.
 -   Get started.
 
@@ -53,8 +53,8 @@ There are a huge number of CSS properties to cover in our reference pages, and w
 
 To get started with CSS property references:
 
--   Read our guide to creating CSS property reference pages at <http://docs.webplatform.org/wiki/WPD:CSS_property_guide>
--   Read the CSS project plan, at <http://docs.webplatform.org/wiki/WPD:Tasks/CSS_Property_Milestone>
+-   Read our guide to creating CSS property reference pages at [/WPD:CSS\_property\_guide](/WPD:CSS_property_guide)
+-   Read the CSS project plan, at [/WPD:Tasks/CSS\_Property\_Milestone](/WPD:Tasks/CSS_Property_Milestone)
 -   Have a look at our CSS property tracking sheets at <https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE#gid=13>
 -   Choose a set of CSS properties you want to work on, and let us know — we'll track who is working on what, so that there are no overlaps.
 
@@ -90,7 +90,7 @@ Some of our attendees could also act as tutors too, sometimes, as well as writin
 
 We are planning to keep help methods pretty low fi for the doc sprint. If you want help, ask someone next to you, raise your hand, or just go and grab one of the organizers. And please, don't be worried about the quality of your English when talking to us non-natives. My German is terrible!
 
-You can see a list of online help and communication mechanisms at <http://docs.webplatform.org/wiki/WPD:Help>. These will be more useful when we leave here, and start contributing at home, in the future.
+You can see a list of online help and communication mechanisms at [/WPD:Help](/WPD:Help). These will be more useful when we leave here, and start contributing at home, in the future.
 
 ## Beginners: getting started
 
@@ -98,10 +98,10 @@ So, those with prior experience can split off at this point and start working: t
 
 To get started, you need to:
 
--   Sign up for a free account at the sign up page: <http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=Main+Page&type=signup>
+-   Sign up for a free account at the sign up page: [/w/index.php?title=Special:UserLogin&returnto=Main+Page&type=signup](/w/index.php?title=Special:UserLogin&returnto=Main+Page&type=signup)
 -   Create a new account at the W3C's Bugzilla system - this is currently where we keep track of site bugs, so you'll need this to submit problems you find.
 -   Review the structure of the site, at our [Topic Hierarchy page](/Meta:Editors_Guide/Topic_Hierarchy), to get familiar with where things go
--   <http://docs.webplatform.org/wiki/WPD:Editors_Guide> contains a guide to show you how to edit and create pages on the Wiki
+-   [/WPD:Editors\_Guide](/WPD:Editors_Guide) contains a guide to show you how to edit and create pages on the Wiki
 
 ### Media Wiki crash course
 
@@ -112,7 +112,7 @@ To get started, you need to:
 -   [URL link-text] for external links
 -   [[relative-URL|link-text]] for internal
 -   [[file:filename.xxx]] for embedding files
--   Tables are horrible - see <http://docs.webplatform.org/wiki/WPD:Style_Guide/Gotchas>
+-   Tables are horrible - see [/WPD:Style\_Guide/Gotchas](/WPD:Style_Guide/Gotchas)
 -   \<syntaxHighlight\>\</syntaxHighlight\> for code blocks
 -   \<code\>\</code\> for inline code
 -   Use \<div\> to hang style=”” off, for bespoke styling

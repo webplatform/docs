@@ -6,29 +6,19 @@ notes:
   - 'Needs title, summary, spec reference, standardization status, fix table coding in Notes'
 readiness: 'Not Ready'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - API
-  - Objects
+  - Pages_using_duplicate_arguments_in_template_calls
+  - API_Objects
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: css/transforms/MSCSSMatrix
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Properties
 
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [translate](/css/transforms/MSCSSMatrix/translate)
 :
@@ -36,8 +26,6 @@ API Name
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ### Standards information
 

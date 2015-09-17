@@ -9,8 +9,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Specifies how an element is aligned with respect to its parent; that is, specifies which baseline of the element is to be aligned with the corresponding baseline of the parent. Defaults to the baseline with the same name as the computed value of the alignment-baseline property.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - CSS
   - SVG
 uri: svg/attributes/alignment-baseline

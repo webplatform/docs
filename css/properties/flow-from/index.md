@@ -1,5 +1,7 @@
 ---
 title: 'flow-from'
+code_samples:
+  - 'http://codepen.io/collection/jabto'
 compatibility:
   feature: flow-from
   topic: css
@@ -16,9 +18,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Flows content from a named flow (specified by a corresponding flow-into) through selected elements to form a dynamic chain of layout regions.'
 tags:
-  0: CSS
-  1: Properties
-  3: CSS-Regions
+  - CSS_Properties
+  - CSS
+  - CSS-Regions
 uri: css/properties/flow-from
 
 ---

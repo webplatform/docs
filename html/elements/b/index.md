@@ -14,8 +14,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The b element represents a span of text to be stylistically offset from the normal prose without conveying any extra importance.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
   - XHTML
 uri: html/elements/b
@@ -43,7 +42,7 @@ In the following example, objects in a text adventure are highlighted as being s
 brighter. A <b>rat</b> scurries past the corner wall.</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/7281844)
+[View live example](http://gist.github.com/7281844)
 
 In this example, the **b** element is used to indicate both a company and a product name. Disambiguation via CSS is accomplished using the **class** attribute.
 
@@ -56,7 +55,7 @@ simplify your life, fry an egg, and even put
 your kids to bed.</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/321e5149c1e661e1de14)
+[View live example](http://gist.github.com/321e5149c1e661e1de14)
 
 ## Usage
 

@@ -12,8 +12,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'The interface for the primary data type for the entire Document Object Model.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -33,9 +32,6 @@ Inherits from [EventTarget](/dom/EventTarget)[EventTarget](/dom/EventTarget)
 The **Node** interface is the primary datatype for the entire Document Object Model (DOM). It represents a single node in the document tree.
 
 ## Properties
-
-API Name
-:   Summary
 
 [attributes](/dom/Node/attributes)
 :   Associatve array containing the attributes of node.
@@ -85,9 +81,6 @@ API Name
 :   Sets or retrieves the text content of a node and any child nodes.
 
 ## Methods
-
-API Name
-:   Summary
 
 [appendChild](/dom/Node/appendChild)
 :   Appends an element as a child to the object.
@@ -148,9 +141,6 @@ API Name
 *No properties.*
 
 ### Methods
-
-API Name
-:   Summary
 
 [addEventListener](/dom/EventTarget/addEventListener)
 :   Registers an event handler for the specified event type.

@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Adds data in a specified format to the DataTransfer object or the ClipboardData object.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/DataTransfer/setData
 

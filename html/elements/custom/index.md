@@ -15,8 +15,7 @@ readiness: 'Not Ready'
 standardization_status: Non-Standard
 summary: 'Represents a user-defined HTML tag (nonstandard)'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/custom
 

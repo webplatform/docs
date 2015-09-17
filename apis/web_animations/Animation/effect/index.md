@@ -12,16 +12,13 @@ relationships:
     href: /apis/web_animations/Animation
 standardization_status: 'W3C Editor''s Draft'
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Summary
+  - Needs_Examples
 uri: 'apis/web animations/Animation/effect'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [apis/web\_animations/Animation](/apis/web_animations/Animation)[apis/web\_animations/Animation](/apis/web_animations/Animation)
 
 ## Syntax
@@ -40,6 +37,4 @@ The effect parameter, an ECMAScript value passed to the Animation constructor or
 The procedure for converting an effect to an IDL value with parameter effect is as follows:
 
 If effect is null, Return null. If effect is a platform object that implements AnimationEffect, return the IDL value that is a reference to the that platform object. If IsCallable(effect) is true, Return the result of applying the procedure for converting an ECMAScript value to an IDL callback function type to effect using EffectCallback as the callback function type. Otherwise, Return a new KeyframeEffect object constructed passing effect as the frames parameter.
-
-**Needs Examples**: This section should include examples.
 

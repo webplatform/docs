@@ -10,8 +10,8 @@ notes:
 readiness: 'Not Ready'
 summary: 'The :target pseudo-class (note the &quot;:&quot;) represents an element in the current document, if any, that has id attribute set to a name that is matching the fragment identifier of the current URI.'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 uri: 'CSS/Selectors/pseudo-classes/:target'
 
 ---
@@ -62,7 +62,7 @@ Changing background color of an element that has an id attribute with a name tha
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6f2803eda8ad3c66aaf4)
+[View live example](http://gist.github.com/6f2803eda8ad3c66aaf4)
 
 ## Notes
 

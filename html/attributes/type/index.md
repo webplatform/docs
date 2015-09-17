@@ -11,8 +11,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The type attribute is used to define what sort of type an input or ordered list element is.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

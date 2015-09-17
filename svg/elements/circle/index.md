@@ -11,8 +11,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The circle element is an SVG basic shape, used to create circles based on a center point and a radius.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - SVG
 uri: svg/elements/circle
 

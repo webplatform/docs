@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Allows for synchronous reading of File or Blob objects. Only available in Workers, as synchronous I/O would otherwise block the main application from executing.'
 tags:
-  0: API
-  1: Objects
-  3: FileAPI
+  - API_Objects
+  - API
+  - FileAPI
 uri: apis/file/FileReaderSync
 
 ---

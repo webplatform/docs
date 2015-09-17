@@ -22,8 +22,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Sets the width of an element''s left border. To set all four borders, use the border-width shorthand property which sets the values simultaneously for border-top-width, border-right-width, border-bottom-width, and border-left-width.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-left-width
 
 ---
@@ -99,7 +99,7 @@ Sets the width of an element's left border. To set all four borders, use the bor
 }
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/5550492">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://gist.github.com/5550492">View live example</a>
 </p>
 </div>
 <p><br/></p><p><br/></p>

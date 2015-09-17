@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The overflow-x property is a specific case of the generic overflow property. It controls how extra content exceeding the x-axis of the bounding box of an element is rendered.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/overflow-x
 
 ---
@@ -110,7 +110,7 @@ body {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6366308)
+[View live example](http://gist.github.com/6366308)
 
 ## Usage
 

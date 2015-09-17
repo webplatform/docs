@@ -12,15 +12,13 @@ relationships:
     href: /dom/Document
 standardization_status: 'W3C Recommendation'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/Document/writeln
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
 ## Syntax
@@ -41,8 +39,6 @@ Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

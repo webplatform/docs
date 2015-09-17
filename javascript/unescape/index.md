@@ -10,9 +10,8 @@ notes:
 readiness: 'Not Ready'
 summary: "Deprecated\n"
 tags:
-  0: JS
-  1: Basic
-  3: Function
+  - JS_Basic
+  - JS_Function
 uri: javascript/unescape
 
 ---

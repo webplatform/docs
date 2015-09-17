@@ -8,7 +8,7 @@ tags:
 uri: 'tutorials/audio/intro web audio api 1'
 
 ---
-**By [Dave Gash](http://docs.webplatform.org/wiki/User:Dgash)**
+**By [Dave Gash](/User:Dgash)**
 Originally published October 19, 2012
 
 ## Summary
@@ -239,7 +239,7 @@ function stopSound() {
 
 ## Not the end
 
-This concludes part 1 of the tutorial. [Part 2 continues with inserting processor nodes between the source and destination to modify the audio before it is played](http://docs.webplatform.org/wiki/tutorials/intro_web_audio_api_2).
+This concludes part 1 of the tutorial. [Part 2 continues with inserting processor nodes between the source and destination to modify the audio before it is played](/tutorials/intro_web_audio_api_2).
 
 ## References
 

@@ -8,11 +8,9 @@ relationships:
     href: /apis/web_animations/AnimationPlayer
 summary: 'Returns the current ready promise for this object.'
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationPlayer/ready'
 
 ---
@@ -28,6 +26,4 @@ Property of [apis/web\_animations/AnimationPlayer](/apis/web_animations/Animatio
 var promise = myAnimationPlayer.ready;
 myAnimationPlayer.ready = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

@@ -10,9 +10,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'Gets the year of a Date object. Deprecated in favor of getFullYear method.'
 tags:
-  0: JS
-  1: Basic
-  3: Method
+  - JS_Basic
+  - JS_Method
+  - Needs_Examples
 uri: javascript/Date/getYear
 
 ---
@@ -30,8 +30,6 @@ Gets the year of a Date object. Deprecated in favor of getFullYear method.
 ## Return Value
 
 Returns the year.
-
-**Needs Examples**: This section should include examples.
 
 ## Remarks
 

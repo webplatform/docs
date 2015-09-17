@@ -13,8 +13,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Allows developer to specify multiple alternative media resources for media elements, such as &lt;video&gt; and &lt;audio&gt;. It does not represent anything on its own, and is used with src attribute to specify the URL.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

@@ -9,8 +9,7 @@ notes:
 readiness: 'Almost Ready'
 summary: 'The collection of rules in a stylesheet.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: css/cssom/rules
 
@@ -20,9 +19,6 @@ uri: css/cssom/rules
 The collection of rules in a stylesheet.
 
 ## Properties
-
-API Name
-:   Summary
 
 [item](/css/cssom/rules/item)
 :

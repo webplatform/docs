@@ -3,8 +3,7 @@ title: 'Learn the latest in web technologies'
 readiness: 'Ready to Use'
 summary: 'Tutorials are hands-on lessons about implementing web technology.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: tutorials
 
 ---

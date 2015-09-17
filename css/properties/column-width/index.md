@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies the width of columns in multi-column elements.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/column-width
 
 ---
@@ -85,7 +85,7 @@ Makes as many columns that are 100px as there is space in the browser.
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5305475)
+[View live example](http://gist.github.com/5305475)
 
 ## Notes
 

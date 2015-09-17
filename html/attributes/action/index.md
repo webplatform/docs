@@ -11,8 +11,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'Sets the URL which the browser will send the form data on submission.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/action
 

@@ -5,8 +5,7 @@ notes:
 readiness: 'Almost Ready'
 summary: 'cssom (CSS Object Model) defines APIs for Media Queries, Selectors, and of course CSS itself. APIs include generic parsing and serialization rules.'
 tags:
-  - API
-  - Listings
+  - API_Listings
 uri: css/cssom
 
 ---

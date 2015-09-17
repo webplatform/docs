@@ -11,8 +11,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Defines sections in a document, such as chapters, headers, footers, or any other sections of the document. It is new to HTML5.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/section
 

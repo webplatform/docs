@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'This property specifies how nested elements are rendered in 3D space relative to their parent.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/transform-style
 
 ---
@@ -91,7 +91,7 @@ transform: rotateY(60deg);
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6995453)
+[View live example](http://gist.github.com/6995453)
 
 ## Notes
 

@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The parent animation group of this animation node or null if this animation node does not have a parent animation group.'
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationNode/parent'
 
 ---
@@ -39,6 +37,4 @@ myAnimationNode.parent = myParentAnimationGroup;
 Returns an object of type
 
 Returns an apis/web\_animations/AnimationGroup object
-
-**Needs Examples**: This section should include examples.
 

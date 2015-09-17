@@ -13,8 +13,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Represents the tab order of an element.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

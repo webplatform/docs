@@ -13,8 +13,7 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'The button type of the input element represents a button with no default behavior. Compare with the button element which offers default behaviours with via attributes.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

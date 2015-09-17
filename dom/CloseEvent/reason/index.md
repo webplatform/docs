@@ -14,9 +14,7 @@ relationships:
     href: /dom/CloseEvent
 summary: 'The connection close text provided by the server.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/CloseEvent/reason
 

@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'Iterates over object stores and indices.'
 tags:
-  0: API
-  1: Objects
-  3: IndexedDB
+  - API_Objects
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBCursor
 
 ---
@@ -17,9 +17,6 @@ uri: apis/indexeddb/IDBCursor
 Iterates over object stores and indices.
 
 ## Properties
-
-API Name
-:   Summary
 
 [direction](/apis/indexeddb/IDBCursor/direction)
 :   Indicates the direction of travel within a cursor.
@@ -34,9 +31,6 @@ API Name
 :   On getting, returns the IDBObjectStore or IDBIndex that the cursor is iterating. This function never returns null or throws an exception, even if the cursor is currently being iterated, has iterated past its end, or its transaction is not active.
 
 ## Methods
-
-API Name
-:   Summary
 
 [advance](/apis/indexeddb/IDBCursor/advance)
 :   Advances the cursor by the specified number of records.

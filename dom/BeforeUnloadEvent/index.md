@@ -11,8 +11,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Represents the beforeunload event which can be used to take an action (e.g., display a prompt, prevent a navigation from happening) before unloading the current page.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/BeforeUnloadEvent
 
@@ -24,9 +23,6 @@ Represents the beforeunload event which can be used to take an action (e.g., dis
 Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
 ## Properties
-
-API Name
-:   Summary
 
 [returnValue](/dom/BeforeUnloadEvent/returnValue)
 :   Gets or sets a value that indicates whether to warn the user prior to navigating away from a page.
@@ -42,9 +38,6 @@ API Name
 ## Inherited from Event
 
 ### Properties
-
-API Name
-:   Summary
 
 [bubbles](/dom/Event/bubbles)
 :   Gets a value that indicates whether an event propagates up from the event target.
@@ -75,9 +68,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initEvent](/dom/Event/initEvent)
 :   Initializes a new generic event that the [**createEvent**](/dom/Document/createEvent) method created.
 
@@ -91,9 +81,6 @@ API Name
 :   Prevents propagation of an event beyond the current target.
 
 ### Events
-
-API Name
-:   Summary
 
 [DOMContentLoaded](/dom/Event/DOMContentLoaded)
 :

@@ -11,11 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Requests a new quota for the requesting application.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Quota
-  5: Management
+  - API_Object_Methods
+  - API
+  - Quota_Management
+  - Needs_Examples
 uri: 'apis/quota management/requestQuota'
 
 ---
@@ -65,8 +64,6 @@ This callback is used to return information when an error has occured. Details a
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

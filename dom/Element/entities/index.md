@@ -12,15 +12,13 @@ relationships:
     href: /dom/Element
 standardization_status: 'W3C Recommendation'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/Element/entities
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
 ## Syntax
@@ -29,8 +27,6 @@ Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 var result = element.entities;
 element.entities = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

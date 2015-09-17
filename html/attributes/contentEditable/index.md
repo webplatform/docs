@@ -12,8 +12,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Sets or retrieves the string that indicates whether the user can edit the content of the object.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

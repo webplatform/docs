@@ -12,9 +12,7 @@ relationships:
     href: /dom/Element
 summary: 'Retrieves the first child of this node that is an element, if there is one, or null otherwise.  Read-only.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Element/firstElementChild
 

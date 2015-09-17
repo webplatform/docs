@@ -9,8 +9,8 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The :in-range pseudo selector selects input elements when their value is within a specified range.'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -51,7 +51,7 @@ input:out-of-range + label::after {
 </code>
 ```
 
-[View live example](http://code.webplatform.org/gist/73a791bbe2cd884f6b2e)
+[View live example](http://gist.github.com/73a791bbe2cd884f6b2e)
 
 ## Related specifications
 

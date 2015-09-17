@@ -9,8 +9,8 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Working Draft'
 summary: "Indicates whether the inheritable CSS properties are set to the initial value established at the shadow boundary.\n"
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -37,8 +37,6 @@ dom/HTMLContentElement
 </tr>
 </table>
 Read only. Indicates the state of the [resetStyleInheritance](/w/index.php?title=dom/apis/ShadowRoot/resetStyleInheritance&action=edit&redlink=1) flag for this insertion point. If present, the value of the flag must be set to true. Otherwise, the value must be set to false. If true, the inheritable CSS properties are set to the initial value at the shadow boundary. If false (default value), the properties continue to inherit.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

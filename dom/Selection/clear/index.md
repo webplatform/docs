@@ -16,9 +16,7 @@ relationships:
     href: /dom/Selection
 summary: "The clear() method is not in HTMLSelection Object.\nUse the removeAllRanges Method instead.\n"
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Selection/clear
 

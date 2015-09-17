@@ -15,17 +15,16 @@ relationships:
     value: 'DOM Node'
     href: /dom/HTMLMediaElement
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Audio
-  5: DOM
-  6: Video
+  - API_Object_Methods
+  - API
+  - Audio
+  - DOM
+  - Video
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/HTMLMediaElement/canPlayType
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [dom/HTMLMediaElement](/dom/HTMLMediaElement)[dom/HTMLMediaElement](/dom/HTMLMediaElement)
 
 ## Syntax
@@ -49,8 +48,6 @@ The type of media that is most likely to be rendered.
 The type of media that might be able to be rendered
 
 The media type cannot be rendered.
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

@@ -9,6 +9,7 @@ summary: 'Sets an active version of an object to not active.'
 tags:
   - Events
   - DOM
+  - Needs_Examples
 uri: dom/Event/deactivate
 
 ---
@@ -70,8 +71,6 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

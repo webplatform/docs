@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'Specifies an image to be used as a mask. An image that is empty, fails to download, is non-existent, or cannot be displayed is ignored and does not mask the element.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/mask-border-source
 
 ---

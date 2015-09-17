@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns a Boolean value that indicates whether or not an object is an instance of a particular class.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/operators/instanceof
 
 ---

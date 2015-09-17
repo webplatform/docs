@@ -11,8 +11,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: "The time tag defines either a time (24 hour clock), or a date in the Gregorian calendar, optionally with a time and a time-zone offset. It does not render differently in any of the major browsers.\n"
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

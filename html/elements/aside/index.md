@@ -11,8 +11,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The aside element (&lt;aside&gt;) indicates content that is only tangentially related to the rest of the content.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/aside
 

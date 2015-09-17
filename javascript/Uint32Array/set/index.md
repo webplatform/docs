@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Sets a value or an array of values.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Uint32Array/set
 
 ---

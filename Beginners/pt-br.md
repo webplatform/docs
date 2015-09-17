@@ -3,8 +3,7 @@ title: 'Desenvolvimento web para inciantes'
 lang: pt-br
 summary: 'Então você quer aprender a fazer websites? Essa página possui uma lista de artigos que são perfeitos para ajudar você a entender o básico. Descrevemos e explicamos como utilizar as ferramentas básicas..'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

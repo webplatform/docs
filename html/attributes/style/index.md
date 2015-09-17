@@ -9,8 +9,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Sets an inline style for the element.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/style
 
@@ -31,7 +30,7 @@ dom/HTMLElement
 </td>
 </tr>
 </table>
-This attribute is used to set styling in the form of [CSS rules](http://docs.webplatform.org/wiki/guides/getting_started_with_css#Defining_style_rules) to an element.
+This attribute is used to set styling in the form of [CSS rules](/guides/getting_started_with_css#Defining_style_rules) to an element.
 
 ## Examples
 

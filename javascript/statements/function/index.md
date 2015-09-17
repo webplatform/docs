@@ -8,9 +8,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Declares a new function.'
 tags:
-  0: JS
-  1: Basic
-  3: Function
+  - JS_Basic
+  - JS_Function
 uri: javascript/statements/function
 
 ---

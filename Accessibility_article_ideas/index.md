@@ -2,20 +2,15 @@
 title: 'Accessibility article ideas'
 summary: 'Accessibility is making the Web work for people with a diverse range of abilities. Accessibility is essential for developers and organizations that want to create high quality websites and web tools, and not exclude people from using their products and services. Accessibility is vital to enable people with disabilities to participate equally on the Web. It is a legal requirement in some cases, and a best practice in all cases.'
 tags:
-  - API
-  - Listings
+  - API_Listings
   - Accessibility
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: 'accessibility article ideas'
 
 ---
 ## Summary
 
 Accessibility is making the Web work for people with a diverse range of abilities. Accessibility is essential for developers and organizations that want to create high quality websites and web tools, and not exclude people from using their products and services. Accessibility is vital to enable people with disabilities to participate equally on the Web. It is a legal requirement in some cases, and a best practice in all cases.
-
-API Name
-:   Summary
 
 [Accessibility basics](/Accessibility_basics)
 :   This page refers to the inclusive practice of making websites usable by people of all abilities and disabilities.

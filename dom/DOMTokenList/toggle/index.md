@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Adds a token to a DOMTokenList if it is not present, or removes it if it is. Returns true if the token is now present (it was added); returns false if it is not (it was removed).'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/DOMTokenList/toggle
 

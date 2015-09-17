@@ -8,9 +8,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Represents a number either in exponential or fixed-point notation with a specified number of digits.'
 tags:
-  0: JS
-  1: Basic
-  3: Function
+  - JS_Basic
+  - JS_Function
 uri: javascript/Number/toPrecision
 
 ---

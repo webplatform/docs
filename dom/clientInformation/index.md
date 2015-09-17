@@ -8,14 +8,12 @@ relationships:
     value: Navigator
     href: /dom/Navigator
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Summary
 uri: dom/clientInformation
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Inherits from [Navigator](/dom/Navigator)[Navigator](/dom/Navigator)
 
 ## Properties
@@ -33,9 +31,6 @@ Inherits from [Navigator](/dom/Navigator)[Navigator](/dom/Navigator)
 ## Inherited from Navigator
 
 ### Properties
-
-API Name
-:   Summary
 
 [appCodeName](/dom/Navigator/appCodeName)
 :   Returns the internal "code" name of the current browser. Do not rely on this property to return the correct value.
@@ -81,9 +76,6 @@ API Name
     This property reflects the setting in the "Your locale (location)" box in the Regional Options of Control Panel—for example, "English (United States).
 
 ### Methods
-
-API Name
-:   Summary
 
 [getGamepads](/dom/Navigator/getGamepads)
 :   Retrieves a snapshot of the data for the currently connected and interacted-with gamepads. Returns a [Gamepad](/apis/gamepad/Gamepad) object.

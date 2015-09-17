@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Return the nine most-recently memorized portions found during pattern matching. Read-only.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/RegExp/1 9 Properties'
 
 ---

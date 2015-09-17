@@ -15,8 +15,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The polyline element is a SVG basic shape to create a series of lines connecting several points. Usually, a polyline is used to create open shapes.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - SVG
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -52,7 +51,7 @@ In the following code example, the polyline element is used to draw a gold polyl
 ```
 
 </pre>
-[View live example](http://code.webplatform.org/gist/37caee51f773695efdd4)
+[View live example](http://gist.github.com/37caee51f773695efdd4)
 
 ## Notes
 

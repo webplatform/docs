@@ -11,9 +11,9 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'Please refer to http://docs.webplatform.org/wiki/css/properties/fill-rule'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - SVG
+  - Needs_Examples
 uri: svg/attributes/fill-rule
 
 ---
@@ -33,7 +33,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

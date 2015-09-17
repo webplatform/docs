@@ -11,11 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Applies the settings specified by the PhotoSettings object passed by parameter.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Image
-  5: Capture
+  - API_Object_Methods
+  - API
+  - Image_Capture
+  - Needs_Examples
 uri: 'apis/image capture/ImageCapture/setOptions'
 
 ---
@@ -45,6 +44,3 @@ The PhotoSettings object is optionally passed into the ImageCapture.setOptions()
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
-

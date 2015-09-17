@@ -3,8 +3,7 @@ title: 'properties'
 readiness: 'Not Ready'
 summary: 'CSS properties are the key to altering the styling of HTML elements in your web documents.'
 tags:
-  - API
-  - Listings
+  - API_Listings
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -19,9 +18,6 @@ uri: css/properties
 ## Summary
 
 CSS properties are the key to altering the styling of HTML elements in your web documents.
-
-API Name
-:   Summary
 
 [font-variant](/css/fonts/font-variant)
 :   Selects a normal, or small-caps face from a font family. Also possible by using the font shorthand.

@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the last matched characters from any regular expression search. Read-only.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/RegExp/lastMatch
 
 ---

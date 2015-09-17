@@ -11,11 +11,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Removes all DOMHighResTimeStamp time values for the given mark name, or removes all marks and their associated DOMHighResTimeStamp time values.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: User
-  5: Timing
+  - API_Object_Methods
+  - API
+  - User_Timing
 uri: 'apis/user timing/Performance/clearMarks'
 
 ---

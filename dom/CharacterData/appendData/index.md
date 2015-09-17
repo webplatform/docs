@@ -11,9 +11,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Appends a string to the end of the character data.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/CharacterData/appendData
 

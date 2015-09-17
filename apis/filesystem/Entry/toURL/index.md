@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Returns a URL that can be used to identify this Entry.\n"
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileSystemAPI
+  - API_Object_Methods
+  - API
+  - FileSystemAPI
+  - Needs_Examples
 uri: apis/filesystem/Entry/toURL
 
 ---
@@ -41,8 +41,6 @@ var  = Entry.toURL();
 Returns an object of type
 
 DOMString
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

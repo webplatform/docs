@@ -10,8 +10,7 @@ overview_table:
 standardization_status: 'W3C Working Draft'
 summary: 'The details element represents a disclosure widget from which the user can obtain additional information or controls.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -48,7 +47,7 @@ The \<details\> tag is currently only supported in Chrome and in Safari on Mac.
 </details>
 ```
 
-[View live example](http://code.webplatform.org/gist/37f1ab4ad9cfb23eaa3d)
+[View live example](http://gist.github.com/37f1ab4ad9cfb23eaa3d)
 
 ## Related specifications
 

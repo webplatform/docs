@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Adds a new CSS rule to the stylesheet.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: css/cssom/styleSheet/insertRule
 
 ---
@@ -57,8 +56,6 @@ var index = stylesheet.insertRule(ruleText, index);
 Returns an object of type NumberNumber
 
 The newly inserted rule's index within the style sheet's rule list.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

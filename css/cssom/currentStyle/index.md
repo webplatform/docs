@@ -16,8 +16,7 @@ relationships:
     href: /css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 summary: 'Non standard. Gets the computed style declaration. Use getComputedStyle instead.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -65,9 +64,6 @@ Inherits from [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDecla
 
 ### Properties
 
-API Name
-:   Summary
-
 [cssText](/css/cssom/CSSStyleDeclaration/cssText)
 :   Gets or sets the textual representation of a CSS style declaration.
 
@@ -102,9 +98,6 @@ API Name
 :   Sets the width of an element.
 
 ### Methods
-
-API Name
-:   Summary
 
 [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 :   Gets the priority of a property in a CSS style declaration.

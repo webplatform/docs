@@ -11,8 +11,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The MathML msqrt element is used to display square roots (no index is displayed). The square root accepts only one argument, which leads to the following syntax: &lt;msqrt&gt; base &lt;/msqrt&gt;.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - MathML
 uri: mathml/elements/msqrt
 

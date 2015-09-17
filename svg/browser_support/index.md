@@ -5,11 +5,10 @@ notes:
 readiness: 'Not Ready'
 tags:
   - SVG
+  - Needs_Summary
 uri: 'svg/browser support'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## SVG browser support
 
 Eventually it would be nice to have an up-to-date overview of SVG in the latest browsers here. For now, have a look at [wikipedia's page on the topic](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics#Support_for_SVG_in_web_browsers).

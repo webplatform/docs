@@ -11,8 +11,8 @@ relationships:
 standardization_status: Deprecated
 summary: 'Obsolete. Represents a collection of all HTML elements within a Document or an HTMLElement.'
 tags:
-  - API
-  - Objects
+  - API_Objects
+  - Needs_Examples
 uri: dom/HTMLAllCollection
 
 ---
@@ -38,16 +38,10 @@ Inherits from [HTMLCollection](/dom/HTMLCollection)[HTMLCollection](/dom/HTMLCol
 
 ### Properties
 
-API Name
-:   Summary
-
 [length](/dom/HTMLCollection/length)
 :   The length or size of the list.
 
 ### Methods
-
-API Name
-:   Summary
 
 [item](/dom/HTMLCollection/item)
 :   Retrieves a node specified by ordinal index. Nodes are numbered in tree order (depth-first traversal order).
@@ -58,6 +52,4 @@ API Name
 ### Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 

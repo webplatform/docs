@@ -12,9 +12,7 @@ relationships:
     href: /css/cssom/properties
 summary: 'Reflects the value of the Cascading Style Sheets (CSS) width attribute for positioned items.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

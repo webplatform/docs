@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Sets the value of a content attribute in a specified namespace.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/Element/setAttributeNS
 
 ---
@@ -58,8 +57,6 @@ Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

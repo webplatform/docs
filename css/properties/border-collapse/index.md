@@ -21,8 +21,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'Border-collapse can be used for collapsing the borders between table cells'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-collapse
 
 ---
@@ -98,7 +98,7 @@ td p {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6948189)
+[View live example](http://gist.github.com/6948189)
 
 ## Related specifications
 

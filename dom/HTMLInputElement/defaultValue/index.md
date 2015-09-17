@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets or sets the value of the value HTML attribute.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/HTMLInputElement/defaultValue
 
 ---
@@ -42,8 +41,6 @@ inputElement.defaultValue = value;
 Returns an object of type StringString
 
 The value of the **value** HTML attribute.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

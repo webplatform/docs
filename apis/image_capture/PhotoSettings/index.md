@@ -4,10 +4,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The PhotoSettings object is optionally passed into the ImageCapture.setOptions() method in order to modify capture device settings specific to still imagery.'
 tags:
-  - API
-  - Objects
-  - Image
-  - Capture
+  - API_Objects
+  - Image_Capture
 uri: 'apis/image capture/PhotoSettings'
 
 ---
@@ -16,9 +14,6 @@ uri: 'apis/image capture/PhotoSettings'
 The PhotoSettings object is optionally passed into the ImageCapture.setOptions() method in order to modify capture device settings specific to still imagery.
 
 ## Properties
-
-API Name
-:   Summary
 
 [autoExposureMode](/apis/image_capture/PhotoSettings/autoExposureMode)
 :   This reflects the desired auto exposure mode setting.

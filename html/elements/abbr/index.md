@@ -13,8 +13,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'Use the abbr element to indicate an abbreviation or acronym.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -49,7 +48,7 @@ United States is located in Washington,
 <abbr title="District of Columbia">D.C.</abbr>.</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/939206)
+[View live example](http://gist.github.com/939206)
 
 Linking an abbreviation to its definition
 

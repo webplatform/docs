@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns a Boolean value indicating the result of the comparison.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/operators/comparison
 
 ---

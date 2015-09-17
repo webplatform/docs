@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Gets a new Int8Array view of the ArrayBuffer store for this array, referencing the elements at begin, inclusive, up to end, exclusive.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Int8Array/subarray
 
 ---

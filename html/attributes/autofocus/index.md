@@ -11,8 +11,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Provides a way to direct a user to a specific field when a document loads.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
   - Usability
 uri: html/attributes/autofocus

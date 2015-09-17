@@ -4,10 +4,9 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Represents a single animation player. Players connect animation node, or source, to a timeline and provides playback controls.'
 tags:
-  - API
-  - Objects
-  - Web
-  - Animations
+  - API_Objects
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationPlayer'
 
 ---
@@ -16,9 +15,6 @@ uri: 'apis/web animations/AnimationPlayer'
 Represents a single animation player. Players connect animation node, or source, to a timeline and provides playback controls.
 
 ## Properties
-
-API Name
-:   Summary
 
 [currentTime](/apis/web_animations/AnimationPlayer/currentTime)
 :   The current time of this player unless this player has a pending pause task, in which case this attribute returns null.
@@ -46,9 +42,6 @@ API Name
 
 ## Methods
 
-API Name
-:   Summary
-
 [cancel](/apis/web_animations/AnimationPlayer/cancel)
 :   Clears all effects caused by this player and aborts its playback by running the cancel a player procedure for this object.
 
@@ -70,6 +63,4 @@ API Name
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 

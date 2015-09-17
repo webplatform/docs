@@ -20,8 +20,9 @@ readiness: 'In Progress'
 standardization_status: Non-Standard
 summary: 'Sets vertical starting position of a background image.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -75,8 +76,6 @@ percentage
 
 vAlignment
 :   Vertical alignment value.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

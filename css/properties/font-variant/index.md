@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The font-variant property enables you to select the small-caps font within a font family.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/font-variant
 
 ---
@@ -78,7 +78,7 @@ A simple example to show the effect achieved when small-caps are applied to a te
 <p>I think WebPlatform rocks.</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/5716625)
+[View live example](http://gist.github.com/5716625)
 
 The CSS applied to the HTML above.
 

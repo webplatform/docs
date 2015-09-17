@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Specifies how exclusions affect inline content within block-level elements. Elements lay out their inline content in their content area but wrap around exclusion areas.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/wrap-flow
 
 ---
@@ -126,7 +126,7 @@ Can be enabled in Canary under "Enable experimental WebKit features".
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5867597)
+[View live example](http://gist.github.com/5867597)
 
 ## Usage
 

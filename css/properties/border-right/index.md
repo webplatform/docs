@@ -20,8 +20,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'Shorthand property that defines the border-width, border-style and border-color of an element''s right border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the right border — border-right-width, border-right-style and border-right-color.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -88,7 +88,7 @@ A simple example showing multiple `<div>`s, identical in style except that they 
 <div class="five"><p>Five</p></div>
 ```
 
-[View live example](http://code.webplatform.org/gist/5534715)
+[View live example](http://gist.github.com/5534715)
 
 ``` css
 /**
@@ -138,7 +138,7 @@ p {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5534715)
+[View live example](http://gist.github.com/5534715)
 
 ## Usage
 

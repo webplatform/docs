@@ -6,10 +6,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'A TextTrackList object represents a dynamically updating list of text tracks in a given order.'
 tags:
-  0: API
-  1: Objects
-  3: Audio
-  4: Video
+  - API_Objects
+  - API
+  - Audio
+  - Video
 uri: apis/audio-video/TextTrackList
 
 ---
@@ -18,9 +18,6 @@ uri: apis/audio-video/TextTrackList
 A TextTrackList object represents a dynamically updating list of text tracks in a given order.
 
 ## Properties
-
-API Name
-:   Summary
 
 [length](/apis/audio-video/TextTrackList/length)
 :   The length attribute of a TextTrackList object returns the number of text tracks in the list represented by the TextTrackList.

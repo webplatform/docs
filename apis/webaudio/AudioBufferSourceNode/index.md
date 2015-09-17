@@ -4,9 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'This interface represents an audio source from an in-memory audio asset in an AudioBuffer. It generally will be used for short audio assets which require a high degree of scheduling flexibility (can playback in rhythmically perfect ways).'
 tags:
-  0: API
-  1: Objects
-  3: WebAudio
+  - API_Objects
+  - API
+  - WebAudio
 uri: apis/webaudio/AudioBufferSourceNode
 
 ---
@@ -15,9 +15,6 @@ uri: apis/webaudio/AudioBufferSourceNode
 This interface represents an audio source from an in-memory audio asset in an AudioBuffer. It generally will be used for short audio assets which require a high degree of scheduling flexibility (can playback in rhythmically perfect ways).
 
 ## Properties
-
-API Name
-:   Summary
 
 [buffer](/apis/webaudio/AudioBufferSourceNode/buffer)
 :   Represents the audio asset to be played.
@@ -38,9 +35,6 @@ API Name
 :   The playback state, initialized to UNSCHEDULED\_STATE, progressing through SCHEDULED\_STATE, PLAYING\_STATE, and FINISHED\_STATE.
 
 ## Methods
-
-API Name
-:   Summary
 
 [start](/apis/webaudio/AudioBufferSourceNode/start)
 :   Schedules a sound to playback at an exact time, with options.

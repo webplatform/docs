@@ -16,8 +16,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'This property specifies the style of the text decoration line drawn on the specified element. The intended meaning for the values are the same as those of the border-style-properties.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-decoration-style
 
 ---

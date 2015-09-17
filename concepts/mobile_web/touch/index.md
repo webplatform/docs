@@ -3,8 +3,8 @@ title: 'Touch Input Considerations'
 readiness: 'In Progress'
 summary: 'Today''s mobile devices are exploding in popularity, and most of them have capacitive touch screens, which provide input affordances that are very different from keyboard-and-mouse interfaces.  When the web was being developed, the vast majority of computers had a keyboard and mouse attached. Thus, the web provided (and continues to provide) a rich API for handling these sorts of input events.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
+  - Needs_Examples
 uri: 'concepts/mobile web/touch'
 
 ---
@@ -69,8 +69,6 @@ With remote debugging in the Chrome DevTools, you can also set up event listener
 Despite the many differences between the two input modes, mouse and touch input is fundamentally similar in one way: both fingers and mouse pointers can be viewed as abstract points with screen coordinates. This similarity makes it tempting to consolidate the two disparate models into one, which just deals with lists of pointers. This model was first proposed by Microsoft in the [pointer events specification](http://www.google.com). Though not implemented in the web platform yet, several [pointer event polyfills](http://www.google.com) exist in the wild.
 
 A consolidated pointer-based model makes it easier to build sites that work well for both mouse and touch, avoiding click delays but still making it as easy to write multi-touch gestures if needed.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

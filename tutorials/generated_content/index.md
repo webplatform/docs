@@ -29,7 +29,7 @@ Content specified in a stylesheet does not become part of the DOM.
 
 ### Text content
 
-CSS can insert text content before or after an element. To specify this, make a rule and add [::before](https://docs.webplatform.org/wiki/css/selectors/pseudo-elements/::before) or [::after](https://docs.webplatform.org/wiki/css/selectors/pseudo-elements/::after) to the selector. In the declaration, specify the [content](/css/properties/content) property with the text content as its value.
+CSS can insert text content before or after an element. To specify this, make a rule and add [::before](/css/selectors/pseudo-elements/::before) or [::after](/css/selectors/pseudo-elements/::after) to the selector. In the declaration, specify the [content](/css/properties/content) property with the text content as its value.
 
 #### Generated text example
 

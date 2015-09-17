@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets the x-coordinate of the mouse pointer, relative to the upper-left corner of the viewport (that is, the user agent''s client area).'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - DOMEvents
 uri: dom/MouseEvent/clientX

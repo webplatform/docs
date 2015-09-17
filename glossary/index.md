@@ -5,8 +5,7 @@ notes:
 readiness: 'Not Ready'
 summary: Glossary
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: glossary
 
 ---

@@ -8,8 +8,7 @@ notes:
 readiness: 'In Progress'
 summary: 'FormData  is an interface that helps to create a set of key-value pairs representing form fields and their values intended to be sent using XMLHttpRequest.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
   - Webworkers
 uri: dom/FormData
@@ -24,9 +23,6 @@ FormData is an interface that helps to create a set of key-value pairs represent
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [append](/dom/FormData/append)
 :

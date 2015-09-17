@@ -8,8 +8,8 @@ overview_table:
 standardization_status: 'W3C Recommendation'
 summary: 'Represents a span of text that is to be isolated from its surroundings for the purposes of bidirectional text formatting'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
+  - Needs_Examples
 uri: html/elements/bdi
 
 ---
@@ -21,8 +21,6 @@ Represents a span of text that is to be isolated from its surroundings for the p
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

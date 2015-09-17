@@ -16,9 +16,7 @@ relationships:
     href: /dom/CloseEvent
 summary: 'Indicates whether the server connection closed cleanly.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/CloseEvent/wasClean
 

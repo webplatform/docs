@@ -16,8 +16,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'This property helps determine an inline box''s block-progression dimension, derived from the text-height and font-size properties for non-replaced elements, the height or the width for replaced elements, and the stacked block-progression dimension for inline-block elements. The block-progression dimension determines the position of the padding, border and margin for the element.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-height
 
 ---

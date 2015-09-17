@@ -137,7 +137,7 @@ For specialized handling based on the exception type, use the `instanceof` opera
       }
     }
 
-See [Exception Handling Statements](http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Statements#Exception_Handling_Statements) for more information about JavaScript exceptions.
+See [Exception Handling Statements](/en-US/docs/JavaScript/Guide/Statements#Exception_Handling_Statements) for more information about JavaScript exceptions.
 
 ## Java to JavaScript Communication
 

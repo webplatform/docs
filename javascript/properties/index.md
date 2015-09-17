@@ -10,8 +10,7 @@ notes:
 readiness: 'Ready to Use'
 summary: 'The following table lists JavaScript properties.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/properties
 
 ---

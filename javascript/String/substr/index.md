@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Gets a substring beginning at the specified location and having the specified length.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/substr
 
 ---

@@ -7,9 +7,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The CSS cross-fade() function can be used to blend two images at a defined transparency.'
 tags:
-  0: CSS
-  1: Functions
-  3: Graphics
+  - CSS_Functions
+  - CSS
+  - Graphics
 uri: css/functions/cross-fade
 
 ---

@@ -17,8 +17,9 @@ readiness: 'Not Ready'
 standardization_status: Experimental
 summary: 'A future level of CSS Shapes will define a shape-inside property, which will define a shape to wrap content within the element. See Editor''s Draft &lt;http://dev.w3.org/csswg/css-shapes/&gt; and CSSWG wiki page on next-level plans &lt;http://wiki.csswg.org/spec/css-shapes&gt;'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/shape-inside
 
 ---
@@ -52,8 +53,6 @@ Animatable
 ## Syntax
 
 ## Values
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

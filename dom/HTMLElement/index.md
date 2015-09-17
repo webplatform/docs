@@ -13,8 +13,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'HTMLElement is the interface that all DOM Nodes subclass from. It provides functionality specific to HTML that is not present in the basic Element interface.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/HTMLElement
 
@@ -26,9 +25,6 @@ HTMLElement is the interface that all DOM Nodes subclass from. It provides funct
 Inherits from [Element](/dom/Element)[Element](/dom/Element)
 
 ## Properties
-
-API Name
-:   Summary
 
 [aria-activedescendant](/aria/attributes/aria-activedescendant)
 :
@@ -742,10 +738,10 @@ API Name
 :   The attribute fill specifies the filling color or the behavior of an animation after it has finished.
 
 [fill-opacity](/svg/attributes/fill-opacity)
-:   Please refer to <http://docs.webplatform.org/wiki/css/properties/fill-opacity>
+:   Please refer to [/css/properties/fill-opacity](/css/properties/fill-opacity)
 
 [fill-rule](/svg/attributes/fill-rule)
-:   Please refer to <http://docs.webplatform.org/wiki/css/properties/fill-rule>
+:   Please refer to [/css/properties/fill-rule](/css/properties/fill-rule)
 
 [flood-color](/svg/attributes/flood-color)
 :
@@ -815,9 +811,6 @@ API Name
 
 ## Methods
 
-API Name
-:   Summary
-
 [abort](/dom/HTMLElement/abort)
 :
 
@@ -879,9 +872,6 @@ API Name
 ## Inherited from Element
 
 ### Properties
-
-API Name
-:   Summary
 
 [XMLDocument](/apis/xhr/properties/XMLDocument)
 :
@@ -978,9 +968,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [msWriteProfilerMark](/apis/timing/methods/msWriteProfilerMark)
 :
 
@@ -1075,9 +1062,6 @@ API Name
 :   Assigns a specified pointer to an element. This method is used to ensure that an element continues to receive pointer events even if the contact moves off the element.
 
 ### Events
-
-API Name
-:   Summary
 
 [error](/apis/xhr/events/error)
 :   The **onerror** event occurs when the request could not be completed because of an error.
@@ -1240,9 +1224,6 @@ API Name
 
 ### Properties
 
-API Name
-:   Summary
-
 [attributes](/dom/Node/attributes)
 :   Associatve array containing the attributes of node.
 
@@ -1291,9 +1272,6 @@ API Name
 :   Sets or retrieves the text content of a node and any child nodes.
 
 ### Methods
-
-API Name
-:   Summary
 
 [appendChild](/dom/Node/appendChild)
 :   Appends an element as a child to the object.

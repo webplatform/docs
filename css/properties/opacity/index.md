@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The opacity property controls transparency and opacity of an element. Its values range from 0 to 1. Assuming defaults at parent level, an element with an opacity of 1 is completely opaque, whereas and element with an opacity of 0 is completely transparent. The opacity used when rendering an element is the product of its opacity and the opacity of its ancestors.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -80,7 +80,7 @@ inherit
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5842705)
+[View live example](http://gist.github.com/5842705)
 
 ## Usage
 

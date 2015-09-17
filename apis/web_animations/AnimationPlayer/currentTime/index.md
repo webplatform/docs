@@ -12,11 +12,10 @@ relationships:
     href: /apis/web_animations/AnimationPlayer
 summary: 'The current time of this player unless this player has a pending pause task, in which case this attribute returns null.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Web
-  5: Animations
+  - API_Object_Properties
+  - API
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationPlayer/currentTime'
 
 ---
@@ -36,8 +35,6 @@ element.currentTime = value;
 ## Return Value
 
 Returns an object of type doubledouble
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

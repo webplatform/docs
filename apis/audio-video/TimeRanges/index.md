@@ -6,10 +6,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'A TimeRanges object represents the collection of ranges (time periods) from the media resource that have been buffered or played. Ranges in a TimeRanges collection are sequential and not empty. Adjacent ranges are combined together to create longer ones.'
 tags:
-  0: API
-  1: Objects
-  3: Audio
-  4: Video
+  - API_Objects
+  - API
+  - Audio
+  - Video
 uri: apis/audio-video/TimeRanges
 
 ---
@@ -19,16 +19,10 @@ A TimeRanges object represents the collection of ranges (time periods) from the 
 
 ## Properties
 
-API Name
-:   Summary
-
 [length](/apis/audio-video/TimeRanges/length)
 :   Returns the number of ranges in the object.
 
 ## Methods
-
-API Name
-:   Summary
 
 [end](/apis/audio-video/TimeRanges/end)
 :   Returns the time for the end of the range with the given index. Throws an IndexSizeError if the index is out of range.

@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "The playback direction of the animation node as specified by one of the PlaybackDirection enumeration values.\n"
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationTimingReadOnly/direction'
 
 ---
@@ -40,6 +38,4 @@ var result = element.direction;
 Returns an object of type ObjectObject
 
 PlaybackDirection Object
-
-**Needs Examples**: This section should include examples.
 

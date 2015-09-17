@@ -6,10 +6,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'AudioTrack is an object representing an audio portion of a video element.'
 tags:
-  0: API
-  1: Objects
-  3: Audio
-  4: Video
+  - API_Objects
+  - API
+  - Audio
+  - Video
 uri: apis/audio-video/AudioTrack
 
 ---
@@ -18,9 +18,6 @@ uri: apis/audio-video/AudioTrack
 AudioTrack is an object representing an audio portion of a video element.
 
 ## Properties
-
-API Name
-:   Summary
 
 [enabled](/apis/audio-video/AudioTrack/enabled)
 :   Returns true if the given track is active, and false otherwise. Can be set, to change whether the track is enabled or not. If multiple audio tracks are enabled simultaneously, they are mixed.

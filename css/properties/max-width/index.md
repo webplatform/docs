@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Sets the maximum width for an element. It limits the width property to be larger than the value specified in max-width.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/max-width
 
 ---
@@ -149,7 +149,7 @@ Constrain the width of a **div** element using [**min-width**](/css/properties/m
 </div>
 ```
 
-[View live example](http://code.webplatform.org/gist/5842171)
+[View live example](http://gist.github.com/5842171)
 
 ## Usage
 

@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The Geolocation object is used by scripts to programmatically determine the location information associated with the hosting device. The location information is acquired by applying a user-agent specific algorithm, creating a Position object, and populating that object with appropriate data accordingly.'
 tags:
-  0: API
-  1: Objects
-  3: Geolocation
+  - API_Objects
+  - API
+  - Geolocation
 uri: apis/geolocation/Geolocation
 
 ---
@@ -21,9 +21,6 @@ The Geolocation object is used by scripts to programmatically determine the loca
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [clearWatch](/apis/geolocation/Geolocation/clearWatch)
 :   Stops a specific watch process.

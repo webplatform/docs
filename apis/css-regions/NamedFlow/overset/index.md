@@ -13,11 +13,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Indicates whether a flow''s content exceeds available space within a region chain, or if no available chain in which to flow content exists.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: CSS
-  5: CSS-Regions
+  - API_Object_Properties
+  - API
+  - CSS
+  - CSS-Regions
 uri: apis/css-regions/NamedFlow/overset
 
 ---

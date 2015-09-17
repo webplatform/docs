@@ -15,11 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the first text track cue object (in text track cue order) with text track cue identifier matching id. Returns null if no cue has the given identifier or if the &quot;id&quot; argument is the empty string.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Audio
-  5: Video
+  - API_Object_Methods
+  - API
+  - Audio
+  - Video
 uri: apis/audio-video/TextTrackCueList/getCueById
 
 ---

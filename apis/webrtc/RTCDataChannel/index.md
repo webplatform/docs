@@ -4,9 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Represents a bi-directional data channel between two peers.'
 tags:
-  0: API
-  1: Objects
-  3: WebRTC
+  - API_Objects
+  - API
+  - WebRTC
 uri: apis/webrtc/RTCDataChannel
 
 ---
@@ -15,9 +15,6 @@ uri: apis/webrtc/RTCDataChannel
 Represents a bi-directional data channel between two peers.
 
 ## Properties
-
-API Name
-:   Summary
 
 [binaryType](/apis/webrtc/RTCDataChannel/binaryType)
 :   Returns the value to which it was last set; on creation, must be initialized to the string "blob".
@@ -47,9 +44,6 @@ API Name
 :   Returns true if the RTCDataChannel is reliable, and false otherwise.
 
 ## Methods
-
-API Name
-:   Summary
 
 [close](/apis/webrtc/RTCDataChannel/close)
 :   Closes the RTCDataChannel.

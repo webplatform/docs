@@ -15,11 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the text track cue snap-to-lines flag setting.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Audio
-  5: Video
+  - API_Object_Properties
+  - API
+  - Audio
+  - Video
 uri: apis/audio-video/TextTrackCue/snapToLines
 
 ---

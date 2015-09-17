@@ -10,9 +10,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'Retrieves a string of the URL where the object tag can be found, often the href of the document that the object is in, or the value set by a base element.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: html/attributes/BaseHref
 
 ---
@@ -32,8 +32,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

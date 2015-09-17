@@ -6,10 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'An interface that provides Web applications with timing-related information.'
 tags:
-  0: API
-  1: Objects
-  3: Navigation
-  4: Timing
+  - API_Objects
+  - API
+  - Navigation_Timing
 uri: 'apis/navigation timing/PerformanceTiming'
 
 ---
@@ -18,9 +17,6 @@ uri: 'apis/navigation timing/PerformanceTiming'
 An interface that provides Web applications with timing-related information.
 
 ## Properties
-
-API Name
-:   Summary
 
 [connectEnd](/apis/navigation_timing/PerformanceTiming/connectEnd)
 :   Returns the time immediately after the user agent finishes establishing the connection to the server to retrieve the current document.

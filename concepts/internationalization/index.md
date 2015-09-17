@@ -1,10 +1,11 @@
 ---
 title: 'Internationalization and Localization'
+code_samples:
+  - 'http://www.iana.org/assignments/language-subtag-registry'
 readiness: 'Ready to Use'
 summary: 'Introduction to internationalization, best practices'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
   - Internationalization
 uri: concepts/internationalization
 

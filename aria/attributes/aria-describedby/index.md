@@ -10,9 +10,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'Sets or retrieves a list of elements that describe the current object.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - ARIA
+  - Needs_Examples
 uri: aria/attributes/aria-describedby
 
 ---
@@ -41,8 +41,6 @@ Applies to
 Type: String
 
 A space-separated list of id property values.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

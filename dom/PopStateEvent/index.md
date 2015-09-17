@@ -11,8 +11,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Fires when a history entry changes.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/PopStateEvent
 
@@ -25,24 +24,15 @@ Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
 ## Properties
 
-API Name
-:   Summary
-
 [state](/dom/PopStateEvent/state)
 :   The current history entry's state object (if any).
 
 ## Methods
 
-API Name
-:   Summary
-
 [initPopStateEvent](/dom/PopStateEvent/initPopStateEvent)
 :   Initializes the properties of a PopStateEvent.
 
 ## Events
-
-API Name
-:   Summary
 
 [popstate](/dom/PopStateEvent/popstate)
 :   An event handler that is fired when changes are made to the active history. Calls to pushState or replaceState can trigger this event.
@@ -50,9 +40,6 @@ API Name
 ## Inherited from Event
 
 ### Properties
-
-API Name
-:   Summary
 
 [bubbles](/dom/Event/bubbles)
 :   Gets a value that indicates whether an event propagates up from the event target.
@@ -83,9 +70,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initEvent](/dom/Event/initEvent)
 :   Initializes a new generic event that the [**createEvent**](/dom/Document/createEvent) method created.
 
@@ -99,9 +83,6 @@ API Name
 :   Prevents propagation of an event beyond the current target.
 
 ### Events
-
-API Name
-:   Summary
 
 [DOMContentLoaded](/dom/Event/DOMContentLoaded)
 :

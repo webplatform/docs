@@ -10,9 +10,8 @@ notes:
 readiness: 'Ready to Use'
 summary: 'Executes a search on a string using a regular expression pattern, and returns an array containing the results of that search.'
 tags:
-  0: JS
-  1: Basic
-  3: Method
+  - JS_Basic
+  - JS_Method
 uri: javascript/RegExp/exec
 
 ---

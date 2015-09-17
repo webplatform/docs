@@ -15,9 +15,7 @@ relationships:
     href: /dom/Window
 summary: 'This read-only property indicates whether the referenced window is closed or not.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Window/closed
 

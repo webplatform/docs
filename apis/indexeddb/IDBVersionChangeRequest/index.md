@@ -8,9 +8,9 @@ readiness: 'Out of Date'
 standardization_status: Deprecated
 summary: "Deprecated; no longer in spec. \nUsed to change the version of the database.\n"
 tags:
-  0: API
-  1: Objects
-  3: IndexedDB
+  - API_Objects
+  - API
+  - IndexedDB
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -26,9 +26,6 @@ uri: apis/indexeddb/IDBVersionChangeRequest
 Deprecated; no longer in spec. Used to change the version of the database.
 
 ## Properties
-
-API Name
-:   Summary
 
 [onblocked](/apis/indexeddb/IDBVersionChangeRequest/onblocked)
 :   The event handler for the blocked event.

@@ -174,7 +174,7 @@ The following example creates `myHonda` with three properties. Note that the `en
 
 You can also use object literals to create arrays and regular expressions. See [array](/w/index.php?title=concepts/programming/javascript/objects/js/guides/JavaScript/Values&action=edit&redlink=1) and [regular expression](/w/index.php?title=concepts/programming/javascript/objects/js/guides/JavaScript/Values&action=edit&redlink=1) literals.
 
-In JavaScript 1.1 and earlier, you could not use object literals. You could create objects only using their constructor functions or using a function supplied by some other object for that purpose. See [Using a constructor function](http://docs.webplatform.org/wiki#Using_a_constructor_function).
+In JavaScript 1.1 and earlier, you could not use object literals. You could create objects only using their constructor functions or using a function supplied by some other object for that purpose. See [Using a constructor function](#Using_a_constructor_function).
 
 ### Using a constructor function
 

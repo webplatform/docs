@@ -7,9 +7,10 @@ notes:
 readiness: 'Not Ready'
 summary: 'Not supported.'
 tags:
-  0: API
-  1: Objects
-  3: IndexedDB
+  - API_Objects
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBDatabaseException
 
 ---
@@ -18,9 +19,6 @@ uri: apis/indexeddb/IDBDatabaseException
 Not supported.
 
 ## Properties
-
-API Name
-:   Summary
 
 [code](/apis/indexeddb/IDBDatabaseException/code)
 :   Not supported.
@@ -35,8 +33,6 @@ API Name
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

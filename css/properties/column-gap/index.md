@@ -22,8 +22,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The column-gap property controls the width of the gap between columns in multi-column elements.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/column-gap
 
 ---
@@ -91,7 +91,7 @@ Makes as many 15em columns with a column-gap of 4em
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5305647)
+[View live example](http://gist.github.com/5305647)
 
 ## Related specifications
 

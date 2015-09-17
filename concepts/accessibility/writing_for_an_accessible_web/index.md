@@ -2,8 +2,7 @@
 title: 'Writing for an Accessible Web'
 summary: "\nDo you have a cool idea for a website that you want to share with everyone? Excellent! People with disabilities tend to feel left out of websites, so try following these tips to share your website with them, too.\n"
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Accessibility
 uri: 'concepts/accessibility/writing for an accessible web'
 

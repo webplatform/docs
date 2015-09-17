@@ -3,8 +3,7 @@ title: 'Web Development for Beginners'
 readiness: 'Ready to Use'
 summary: 'So you want to learn to make websites? This page has a list of articles that are perfect to help you understand the basics. It describes the tools of the trade and provides links to articles explaining the basics.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

@@ -20,9 +20,10 @@ readiness: 'In Progress'
 standardization_status: Non-Standard
 summary: 'Allows changing the style of any element to platform-based interface elements or vice versa.'
 tags:
-  0: CSS
-  1: Properties
-  3: Design
+  - CSS_Properties
+  - CSS
+  - Design
+  - Needs_Examples
 uri: css/properties/appearance
 
 ---
@@ -116,8 +117,6 @@ dialog
 
 listbox
 :
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

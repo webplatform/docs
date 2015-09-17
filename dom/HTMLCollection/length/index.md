@@ -15,9 +15,8 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'The length or size of the list.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
+  - Needs_Examples
 uri: dom/HTMLCollection/length
 
 ---
@@ -38,6 +37,4 @@ var lengthOfCollection = collection.length;
 ## Return Value
 
 Returns an object of type unsigned longunsigned long
-
-**Needs Examples**: This section should include examples.
 

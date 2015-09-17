@@ -13,9 +13,7 @@ relationships:
     href: /dom/Window
 summary: 'Sets the size of the window to the specified width and height values.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/resizeTo
 

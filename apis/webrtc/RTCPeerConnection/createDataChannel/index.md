@@ -15,10 +15,9 @@ relationships:
 standardization_status: Experimental
 summary: 'Creates an RTCDataChannel object with the given label.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebRTC
+  - API_Object_Methods
+  - API
+  - WebRTC
 uri: apis/webrtc/RTCPeerConnection/createDataChannel
 
 ---

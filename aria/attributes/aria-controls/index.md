@@ -9,15 +9,14 @@ notes:
   - 'Needs summary, example, spec reference, standardization status'
 readiness: 'Not Ready'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - Accessibility
   - ARIA
+  - Needs_Summary
+  - Needs_Examples
 uri: aria/attributes/aria-controls
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 <table class="wikitable">
 <tr>
 <th>
@@ -28,8 +27,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

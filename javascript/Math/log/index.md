@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the natural logarithm (base e ) of a number.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Math/log
 
 ---

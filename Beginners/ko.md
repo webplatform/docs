@@ -3,8 +3,7 @@ title: '초보자를 위한 웹개발'
 lang: ko
 summary: '이 문서는 웹 디자이너 또는 개발자가 되기 위한 기초적인 기술을 소개하며, 어떤 초보자도 이 문서를 통해 자신감을 갖출 수 있다.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

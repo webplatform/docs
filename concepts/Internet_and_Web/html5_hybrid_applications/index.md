@@ -5,8 +5,7 @@ attributions:
 readiness: 'Ready to Use'
 summary: "A hybrid app is a native mobile app that is built using the web platform that uses a native ‘shell’ to wrap the web content.\_ Hybrid apps are installed through an app store, run on the device and provide access to enhanced native device hardware, but are written primarily using HTML, CSS and JavaScript. \_Instead of using the native SDK to create the application, hybrid apps typically wrap a web application with a native web view controller full screen, without the address bar or other normal browser controls."
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Mobile
 uri: 'concepts/Internet and Web/html5 hybrid applications'
 
@@ -53,7 +52,7 @@ Hybrid apps do have some drawbacks compared to native apps or web apps, and you 
 
 ### Other articles
 
-[PhoneGap](http://docs.webplatform.org/wiki/mobile_web/PhoneGap)
+[PhoneGap](/mobile_web/PhoneGap)
 
 ### External resources
 

@@ -15,8 +15,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The HTML NoScript Element (&lt;noscript&gt;) defines a section of html to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/noscript
 

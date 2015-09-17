@@ -17,10 +17,10 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Indicates the reason the server closed the WebSocket connection.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebSocket
+  - API_Object_Properties
+  - API
+  - WebSocket
+  - Needs_Examples
 uri: apis/websocket/CloseEvent/reason
 
 ---
@@ -43,8 +43,6 @@ var result = element.reason;
 Returns an object of type StringString
 
 Reason string is specific to the particular server and sub-protocol.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

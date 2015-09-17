@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Refers to the current object.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/statements/this
 
 ---

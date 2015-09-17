@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets the x-coordinate of the mouse cursor, relative to the upper-left corner of the page.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -53,8 +52,6 @@ var xCoordinate = event.pageX;
 Returns an object of type NumberNumber
 
 The X coordinate of the mouse cursor.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

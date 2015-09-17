@@ -18,10 +18,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns whether a value has not been entered in an input field that is required.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/ValidityState/valueMissing
 
 ---
@@ -44,8 +43,6 @@ var result = element.validity.valueMissing;
 Returns an object of type BooleanBoolean
 
 Whether a value has not been entered in an input field that is required.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

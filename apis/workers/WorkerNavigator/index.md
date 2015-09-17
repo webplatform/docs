@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'An object representing the identity and state of the user agent (the client).'
 tags:
-  0: API
-  1: Objects
-  3: Webworkers
+  - API_Objects
+  - API
+  - Webworkers
 uri: apis/workers/WorkerNavigator
 
 ---

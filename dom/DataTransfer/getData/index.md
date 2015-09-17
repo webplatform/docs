@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: "Gets the data in the specified format from the clipboard through the DataTransfer object or the ClipboardData object.\nIf there is no data, returns an empty string.\n"
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/DataTransfer/getData
 

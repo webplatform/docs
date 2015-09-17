@@ -16,10 +16,9 @@ relationships:
     href: /css/media_queries/apis/StyleMedia
 summary: 'Indicates whether the document currently matches a media query.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: 'css/media queries/apis/matchMedium'
 
 ---
@@ -51,8 +50,6 @@ Returns an object of type BooleanBoolean
 Boolean
 
 Returns whether the media type of the document matches the media type that the *mediaQuery* parameter specifies.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

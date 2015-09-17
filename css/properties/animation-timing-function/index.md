@@ -21,8 +21,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Describes how the animation will progress over one cycle of its duration.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/animation-timing-function
 
 ---
@@ -119,7 +119,7 @@ div {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/7011239)
+[View live example](http://gist.github.com/7011239)
 
 ## Usage
 

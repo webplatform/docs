@@ -11,11 +11,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Posts a message through the channel, from one port to the other.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Web
-  5: Messaging
+  - API_Object_Methods
+  - API
+  - Web_Messaging
 uri: apis/web-messaging/MessagePort/postMessage
 
 ---

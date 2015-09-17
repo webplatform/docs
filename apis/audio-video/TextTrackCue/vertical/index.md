@@ -15,11 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'A string representing the text track cue writing direction, as follows. If it is horizontal: The empty string. If it is vertical growing left: The string &quot;rl&quot;. If it is vertical growing right: The string &quot;lr&quot;.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Audio
-  5: Video
+  - API_Object_Properties
+  - API
+  - Audio
+  - Video
 uri: apis/audio-video/TextTrackCue/vertical
 
 ---

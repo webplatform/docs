@@ -7,13 +7,11 @@ notes:
 readiness: 'In Progress'
 standardization_status: Unknown
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
+  - Needs_Summary
 uri: css/reference/alphabetical
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## See also
 
 ### Related articles

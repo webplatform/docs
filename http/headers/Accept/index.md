@@ -8,8 +8,7 @@ overview_table:
   Features: ''
 summary: 'Used by user agents to specify response media types that are acceptable.'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 uri: http/headers/Accept
 
 ---

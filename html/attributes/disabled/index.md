@@ -11,8 +11,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Prevents users from changing, clicking on, or submitting an element.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
   - JavaScript
   - Security
@@ -66,5 +65,5 @@ This shows a basic form, with an email input and a submit button disabled.
 </form>
 ```
 
-[View live example](http://code.webplatform.org/gist/7282815)
+[View live example](http://gist.github.com/7282815)
 

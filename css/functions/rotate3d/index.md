@@ -11,8 +11,8 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Defines a three-dimensional rotation transformation by first defining the axis of rotation as an (x,y,z) vector and then defining the angle to rotate the element around this axis.  Requires four parameters: the first three are unitless numbers defining the axis vector, and the fourth is an angle measurement (specifying degrees or radians).'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/rotate3d()
 
 ---
@@ -30,7 +30,7 @@ div {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5304145)
+[View live example](http://gist.github.com/5304145)
 
 ## Notes
 

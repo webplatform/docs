@@ -8,8 +8,7 @@ overview_table:
   Features: ''
 summary: "Contains an Internet email address for a human user who controls the requesting user agent.\n"
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 uri: http/headers/From
 
 ---

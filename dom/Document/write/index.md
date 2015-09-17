@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Method to insert a string of marked up text in the document tree.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/Document/write
 
 ---
@@ -44,8 +43,6 @@ Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

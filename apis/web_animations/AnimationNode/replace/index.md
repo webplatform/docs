@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "Replaces this AnimationNode with the passed in nodes.\n"
 tags:
-  - API
-  - Object
-  - Methods
-  - Web
-  - Animations
+  - API_Object_Methods
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationNode/replace'
 
 ---
@@ -38,6 +36,3 @@ var  = .replace();
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
-

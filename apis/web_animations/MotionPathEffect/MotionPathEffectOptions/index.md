@@ -1,13 +1,13 @@
 ---
 title: 'MotionPathEffectOptions'
+notes:
+  - 'Require manual conversion! See https://github.com/webplatform/mediawiki-conversion/issues/24'
 readiness: readiness-state
 tags:
-  - Data
-  - Type
+  - Data_Type
+  - Needs_Summary
+  - Needs_Examples
 uri: 'apis/web animations/MotionPathEffect/MotionPathEffectOptions'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
-**Needs Examples**: This section should include examples.
-
+<p><br/></p><p><br/></p><p><br/></p><p><br/></p>

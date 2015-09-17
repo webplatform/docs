@@ -11,15 +11,13 @@ relationships:
     value: css/cssom/CSSKeyframeRule
     href: /css/cssom/CSSKeyframeRule
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: css/cssom/CSSKeyframeRule/keyText
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [css/cssom/CSSKeyframeRule](/css/cssom/CSSKeyframeRule)[css/cssom/CSSKeyframeRule](/css/cssom/CSSKeyframeRule)
 
 ## Syntax
@@ -28,8 +26,6 @@ Property of [css/cssom/CSSKeyframeRule](/css/cssom/CSSKeyframeRule)[css/cssom/CS
 var result = element.keyText;
 element.keyText = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

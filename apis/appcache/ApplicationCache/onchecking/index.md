@@ -14,10 +14,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The user agent is checking for an update, or attempting to download the manifest for the first time. This is always the first event in the sequence.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - Appcache
+  - API
+  - Needs_Examples
 uri: apis/appcache/ApplicationCache/onchecking
 
 ---
@@ -37,8 +37,6 @@ window.applicationCache.onchecking = value;
 ## Return Value
 
 Returns an object of type nullnull
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

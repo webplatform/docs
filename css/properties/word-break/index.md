@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'The word-break property is often used when there is long generated content that is strung together without and spaces or hyphens to beak apart. A common case of this is when there is a long URL that does not have any hyphens. This case could potentially cause the breaking of the layout as it could extend past the parent element.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/word-break
 
 ---
@@ -88,7 +88,7 @@ A simple example showing multiple `<div>`s, identical in style except that they 
 </div>
 ```
 
-[View live example](http://code.webplatform.org/gist/6392109)
+[View live example](http://gist.github.com/6392109)
 
 ``` css
 div {
@@ -109,7 +109,7 @@ div {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6392109)
+[View live example](http://gist.github.com/6392109)
 
 ## Notes
 

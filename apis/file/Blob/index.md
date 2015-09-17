@@ -7,9 +7,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The Blob object represents immutable raw data. It provides a method to slice data objects between ranges of bytes into further chunks of raw data.'
 tags:
-  0: API
-  1: Objects
-  3: FileAPI
+  - API_Objects
+  - API
+  - FileAPI
 uri: apis/file/Blob
 
 ---
@@ -26,9 +26,6 @@ The Blob object represents immutable raw data. It provides a method to slice dat
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [close](/apis/file/Blob/close)
 :   Releases the file lock for the associated file resource or frees the memory for the Blob object. After calling this method, performing addition operations on the Blob object fails and throws an exception.

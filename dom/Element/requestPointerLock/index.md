@@ -11,10 +11,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'requestPointerLock lets you lock the target of mouse events to a single element while hiding the cursor.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/Element/requestPointerLock
 
 ---
@@ -33,8 +32,6 @@ Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

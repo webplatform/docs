@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'A range of keys defined for an object store or index.'
 tags:
-  0: API
-  1: Objects
-  3: IndexedDB
+  - API_Objects
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBKeyRange
 
 ---
@@ -17,9 +17,6 @@ uri: apis/indexeddb/IDBKeyRange
 A range of keys defined for an object store or index.
 
 ## Properties
-
-API Name
-:   Summary
 
 [lower](/apis/indexeddb/IDBKeyRange/lower)
 :   This value is the lower-bound of the key range.
@@ -31,9 +28,6 @@ API Name
 :   Returns false if the upper-bound value is included in the key range. Returns true if the upper-bound value is excluded from the key range.
 
 ## Methods
-
-API Name
-:   Summary
 
 [bound](/apis/indexeddb/IDBKeyRange/bound)
 :   Creates and returns a new key range with lower set to *lower*, lowerOpen set to *lowerOpen*, upper set to *upper* and upperOpen set to *upperOpen*.

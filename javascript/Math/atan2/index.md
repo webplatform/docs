@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the angle (in radians) from the X axis to a point ( y , x ).'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Math/atan2
 
 ---

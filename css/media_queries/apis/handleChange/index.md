@@ -15,15 +15,13 @@ relationships:
     value: 'DOM Node'
     href: /css/media_queries
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: 'css/media queries/apis/handleChange'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [css/media\_queries](/css/media_queries)[css/media\_queries](/css/media_queries)
 
 ## Syntax
@@ -47,8 +45,6 @@ Type: **HRESULT**
 This method can return one of these values.
 
 S\_OK
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

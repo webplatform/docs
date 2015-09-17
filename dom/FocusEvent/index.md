@@ -11,14 +11,12 @@ relationships:
     value: UIEvent
     href: /dom/UIEvent
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Summary
 uri: dom/FocusEvent
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Inherits from [UIEvent](/dom/UIEvent)[UIEvent](/dom/UIEvent)
 
 ## Properties
@@ -27,16 +25,10 @@ Inherits from [UIEvent](/dom/UIEvent)[UIEvent](/dom/UIEvent)
 
 ## Methods
 
-API Name
-:   Summary
-
 [initFocusEvent](/dom/FocusEvent/initFocusEvent)
 :   Initializes a new **FocusEvent** that the [createEvent](/dom/Document/createEvent) method created.
 
 ## Events
-
-API Name
-:   Summary
 
 [blur](/dom/FocusEvent/blur)
 :
@@ -54,9 +46,6 @@ API Name
 
 ### Properties
 
-API Name
-:   Summary
-
 [detail](/dom/UIEvent/detail)
 :   Gets additional, developer defined, information about an event.
 
@@ -67,16 +56,10 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initUIEvent](/dom/UIEvent/initUIEvent)
 :   Initializes a new user interface event that the [createEvent](/dom/Document/createEvent) method created.
 
 ### Events
-
-API Name
-:   Summary
 
 [abort](/dom/UIEvent/abort)
 :   Fires when the user aborts the download.
@@ -87,9 +70,6 @@ API Name
 ## Inherited from Event
 
 ### Properties
-
-API Name
-:   Summary
 
 [bubbles](/dom/Event/bubbles)
 :   Gets a value that indicates whether an event propagates up from the event target.
@@ -120,9 +100,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initEvent](/dom/Event/initEvent)
 :   Initializes a new generic event that the [**createEvent**](/dom/Document/createEvent) method created.
 
@@ -136,9 +113,6 @@ API Name
 :   Prevents propagation of an event beyond the current target.
 
 ### Events
-
-API Name
-:   Summary
 
 [DOMContentLoaded](/dom/Event/DOMContentLoaded)
 :

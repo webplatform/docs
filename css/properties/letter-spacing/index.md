@@ -19,8 +19,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The letter-spacing CSS property specifies the spacing behavior between text characters.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -80,7 +80,7 @@ A selection of examples showing some typical uses of the letter-spacing property
 <p class="neg">This is a simple paragraph withe a altered letter-spacing value by -0.1em</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/5671141)
+[View live example](http://gist.github.com/5671141)
 
 ``` css
 p {

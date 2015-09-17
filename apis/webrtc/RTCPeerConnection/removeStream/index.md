@@ -14,10 +14,10 @@ relationships:
     href: /apis/webrtc/RTCPeerConnection
 summary: 'Removes the given stream from the localStreams array in the RTCPeerConnection and fires the negotiationneeded event.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebRTC
+  - API_Object_Methods
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/removeStream
 
 ---
@@ -36,6 +36,3 @@ var  = .removeStream();
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
-

@@ -9,8 +9,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'Provides an object that can be used to traverse filtered lists of nodes or elements in a document.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/TreeWalker
 
@@ -21,16 +20,10 @@ Provides an object that can be used to traverse filtered lists of nodes or eleme
 
 ## Properties
 
-API Name
-:   Summary
-
 [currentNode](/dom/TreeWalker/currentNode)
 :   Sets or retrieves where the current node in a filtered TreeWalker hierarchy is positioned.
 
 ## Methods
-
-API Name
-:   Summary
 
 [firstChild](/dom/TreeWalker/firstChild)
 :   Retrieves a reference to the first child of the current node of the filtered TreeWalker hierarchy and updates currentNode.

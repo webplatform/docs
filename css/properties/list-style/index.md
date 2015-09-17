@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Shorthand property that sets the list-style-type, list-style-position and list-style-image properties in one declaration.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/list-style
 
 ---
@@ -95,7 +95,7 @@ The following example contains multiple examples of using this property, omittin
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6950114)
+[View live example](http://gist.github.com/6950114)
 
 An example to show how setting padding-left to 0 when position is set to outside will produce the market not being shown at all. A ul contained in a div with overflow hidden might run into this issue.
 
@@ -113,7 +113,7 @@ ul {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5598129)
+[View live example](http://gist.github.com/5598129)
 
 ## Usage
 

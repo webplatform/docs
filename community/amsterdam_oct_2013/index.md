@@ -13,7 +13,7 @@ See [WPD:Style Guide/Wiki markup crash course](/WPD:Style_Guide/Wiki_markup_cras
 
 ### Content Agenda
 
-Pick a property from [the property list](http://docs.webplatform.org/wiki/Meta:web_platform_wednesday?pk_campaign=sitenotice&pk_kwd=cssbeta).
+Pick a property from [the property list](/Meta:web_platform_wednesday?pk_campaign=sitenotice&pk_kwd=cssbeta).
 
 ### Web Platform Wednesday
 

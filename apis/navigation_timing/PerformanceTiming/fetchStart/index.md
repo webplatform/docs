@@ -15,11 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the time immediately before the user agent starts checking any relevant application caches (if the resource is to be fetched using HTTP GET or equivalent). Otherwise, returns the time when the user agent starts fetching the resource.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Navigation
-  5: Timing
+  - API_Object_Properties
+  - API
+  - Navigation_Timing
 uri: 'apis/navigation timing/PerformanceTiming/fetchStart'
 
 ---

@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Converts a JavaScript Object Notation (JSON) string into an object.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/JSON/parse
 
 ---

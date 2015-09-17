@@ -12,10 +12,9 @@ relationships:
     href: /css/cssom/styleSheet
 summary: 'Non standard. Removes an @import rule from the style sheet.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: css/cssom/stylesheet/removeImport
 
 ---
@@ -43,8 +42,6 @@ Method of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/c
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

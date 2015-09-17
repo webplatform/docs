@@ -14,10 +14,10 @@ relationships:
     href: /apis/indexeddb/IDBIndex
 summary: 'Affects how the index behaves when the result of evaluating the index''s key path yields an array. If true, there is one record in the index for each item in an array of keys. If false, then there is one record for each key that is an array.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBIndex/multiEntry
 
 ---
@@ -38,6 +38,4 @@ var result = element.multiEntry;
 ## Return Value
 
 Returns an object of type BooleanBoolean
-
-**Needs Examples**: This section should include examples.
 

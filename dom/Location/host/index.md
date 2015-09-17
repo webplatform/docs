@@ -16,9 +16,7 @@ relationships:
     href: /dom/Location
 summary: 'Sets or retrieves the hostname and port number of the location or URL.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Location/host
 

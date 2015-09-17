@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "Returns the calculated timing properties for this animation node. This is comparable to the computed style of an Element, window.getComputedStyle(elem).\n"
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationNode/computedTiming'
 
 ---
@@ -44,6 +42,4 @@ var result = element.computedTiming;
 Returns an object of type ObjectObject
 
 returns a ComputedTimingProperties object.
-
-**Needs Examples**: This section should include examples.
 

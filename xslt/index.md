@@ -3,8 +3,7 @@ title: 'xslt'
 readiness: 'Ready to Use'
 summary: "XSL Transformations (XSLT) is a markup language for transforming XML into other forms of output, such as XML documents, HTML and many other text-based formats. The World Wide Web Consortium maintains the XSLT standard.\n"
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
   - XML
 uri: xslt
 

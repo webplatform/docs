@@ -16,8 +16,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies the treatment of all consecutive white space characters (with no exception for line feed characters).'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/all-space-treatment
 
 ---

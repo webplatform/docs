@@ -16,10 +16,9 @@ relationships:
     href: /css/cssom/CSSMediaList/CSSMediaList
 summary: 'Gets the medium at the position number that is indicated by an index in the current list.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: css/cssom/CSSMediaList/item
 
 ---
@@ -47,8 +46,6 @@ var result = mediaList.item(/* see parameter list */);
 ## Return Value
 
 Returns an object of type StringString
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

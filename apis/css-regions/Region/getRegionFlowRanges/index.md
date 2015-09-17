@@ -13,11 +13,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns a series of Range objects that represent the fragments of DOM content that currently flow into the region.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: CSS
-  5: CSS-Regions
+  - API_Object_Methods
+  - API
+  - CSS
+  - CSS-Regions
 uri: apis/css-regions/Region/getRegionFlowRanges
 
 ---

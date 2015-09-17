@@ -3,8 +3,7 @@ title: 'Style Guides'
 readiness: 'In Progress'
 summary: 'Also known as Programming Styles and Coding Conventions, style guides are sets of rules used by developers to ensure consistent formatting and organization of their code.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
 uri: 'concepts/programming/style guides'
 
 ---

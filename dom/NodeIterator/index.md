@@ -9,8 +9,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The NodeIterator interface represents an iterator over the members of a list of the nodes in a subtree of the DOM. The nodes will be returned in document order.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/NodeIterator
 
@@ -20,9 +19,6 @@ uri: dom/NodeIterator
 The NodeIterator interface represents an iterator over the members of a list of the nodes in a subtree of the DOM. The nodes will be returned in document order.
 
 ## Properties
-
-API Name
-:   Summary
 
 [expandEntityReferences](/dom/NodeIterator/expandEntityReferences)
 :   Flag to specify whether or not the children of entity reference nodes are visible.
@@ -37,9 +33,6 @@ API Name
 :   The NodeIterator.whatToShow read-only property represents an unsigned integer representing a bitmask signifying what types of nodes should be returned by the NodeIterator.
 
 ## Methods
-
-API Name
-:   Summary
 
 [nextNode](/dom/NodeIterator/nextNode)
 :   The NodeIterator.nextNode() method returns the next node in the set represented by the NodeIterator and advances the position of the iterator within the set. The first call to nextNode() returns the first node in the set.

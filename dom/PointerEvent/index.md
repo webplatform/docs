@@ -14,8 +14,8 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Provides contextual information associated with input events (for example, from mouse, touch or pen).'
 tags:
-  - API
-  - Objects
+  - API_Objects
+  - Needs_Examples
 uri: dom/PointerEvent
 
 ---
@@ -26,9 +26,6 @@ Provides contextual information associated with input events (for example, from 
 Inherits from [MouseEvent](/dom/MouseEvent)[MouseEvent](/dom/MouseEvent)
 
 ## Properties
-
-API Name
-:   Summary
 
 [height](/dom/PointerEvent/height)
 :   The height (magnitude on the Y axis), in CSS pixels, of the contact geometry of the pointer.
@@ -56,16 +53,10 @@ API Name
 
 ## Methods
 
-API Name
-:   Summary
-
 [initPointerEvent](/dom/PointerEvent/initPointerEvent)
 :   Initializes a new **PointerEvent** created by the [createEvent](/dom/Document/createEvent) method.
 
 ## Events
-
-API Name
-:   Summary
 
 [gotpointercapture](/dom/PointerEvent/gotpointercapture)
 :   Dispatched prior to the dispatch of the first event after pointer capture is set for a pointer. See the **PointerEvent** object.
@@ -103,9 +94,6 @@ API Name
 ## Inherited from MouseEvent
 
 ### Properties
-
-API Name
-:   Summary
 
 [button](/dom/MouseEvent/button)
 :   Gets the mouse button that caused an event.
@@ -146,16 +134,10 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initMouseEvent](/dom/MouseEvent/initMouseEvent)
 :   Initializes a new mouse event that the [**createEvent**](/dom/Document/createEvent) method created.
 
 ### Events
-
-API Name
-:   Summary
 
 [click](/dom/MouseEvent/click)
 :   The click event is triggered for an element when it is activated by a mouse click or by another user action that normally has the same effect as a mouse click.
@@ -183,8 +165,6 @@ API Name
 
 [mouseup](/dom/MouseEvent/mouseup)
 :   Fires when the user releases a mouse button while the mouse is over the object.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

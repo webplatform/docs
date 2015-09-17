@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns a pseudorandom number between 0 and 1.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Math/random
 
 ---

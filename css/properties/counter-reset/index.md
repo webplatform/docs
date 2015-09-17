@@ -18,8 +18,8 @@ overview_table:
 readiness: 'Ready to Use'
 summary: 'The counter-reset property contains a list of one or more names of counters, each one optionally followed by an integer (otherwise, the integer defaults to 0.)  Each time the given element is invoked, the counters specified by the property are set to the given integer.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/counter-reset
 
 ---
@@ -86,7 +86,7 @@ h2:before {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5841988)
+[View live example](http://gist.github.com/5841988)
 
 ## Notes
 

@@ -35,7 +35,7 @@ Starting Developer Tools is as easy as using the wrench icon (upper right of the
 
 *The Developer Tools are accessible from the Wrench menu* ![Chrome Developer Tools](/assets/public/7/72/auditspeed01.png)
 
-For more information on how to get started with Developer Tools, please see [Introduction to Chrome Developer Tools, Part One](http://docs.webplatform.org/wiki/tutorials/developertools_chrome1).
+For more information on how to get started with Developer Tools, please see [Introduction to Chrome Developer Tools, Part One](/tutorials/developertools_chrome1).
 
 The Audit Panel is located in the main tools button panel. You'll notice that, once selected, the Audit Panel has not yet run through its analysis of your web app. Running all of the heuristics can be slow, especially for a large web app such as GMail, so the tool is disabled by default.
 

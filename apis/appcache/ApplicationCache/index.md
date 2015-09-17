@@ -10,9 +10,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The Application Cache (AppCache) lets web-based applications run offline. Developers can specify resources for the browser to cache, making them available to the application even if no connection can be made to the server. These resources load and work correctly even if users click the refresh button when they are offline.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - Appcache
+  - API
 uri: apis/appcache/ApplicationCache
 
 ---
@@ -29,9 +29,6 @@ An application cache provides the following benefits:
 -   Reduced server load: the browser only downloads resources that have changed from the server.
 
 ## Properties
-
-API Name
-:   Summary
 
 [oncached](/apis/appcache/ApplicationCache/oncached)
 :   The resources listed in the manifest have been downloaded, and the application is now cached.
@@ -61,9 +58,6 @@ API Name
 :   Returns the current status of the application cache, as given by the constants defined below.
 
 ## Methods
-
-API Name
-:   Summary
 
 [abort](/apis/appcache/ApplicationCache/abort)
 :   Cancels the application cache download process. This method is intended to be used by Web applications showing their own caching progress UI, in case the user wants to stop the update (e.g., because bandwidth is limited).

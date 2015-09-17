@@ -17,11 +17,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets the mouse button that caused an event.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - DOMEvents
+  - Needs_Examples
 uri: dom/MouseEvent/button
 
 ---
@@ -50,8 +49,6 @@ One of the following values -
 -   2 - The secondary button (usually the right mouse button).
 
 Any value higher than 2 represents other less common buttons.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

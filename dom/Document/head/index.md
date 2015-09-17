@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Gets the head element of the document.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Document/head
 

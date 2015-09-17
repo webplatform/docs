@@ -21,9 +21,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The position property controls the type of positioning used by an element within its parent elements. The effect of the position property depends on a lot of factors, for example the position property of parent elements.'
 tags:
-  0: CSS
-  1: Properties
-  3: Design
+  - CSS_Properties
+  - CSS
+  - Design
 uri: css/properties/position
 
 ---

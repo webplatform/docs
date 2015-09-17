@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets the event target that is currently being processed.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/Event/currentTarget
 
 ---
@@ -43,8 +42,6 @@ var currentTargetElement = event.currentTarget;
 Returns an object of type DOM NodeDOM Node
 
 The current target of the event.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

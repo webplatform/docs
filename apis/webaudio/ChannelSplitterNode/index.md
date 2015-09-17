@@ -4,9 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Represents an AudioNode for accessing the individual channels of an audio stream in the routing graph. Often used in conjunction with ChannelMergerNode.'
 tags:
-  0: API
-  1: Objects
-  3: WebAudio
+  - API_Objects
+  - API
+  - WebAudio
 uri: apis/webaudio/ChannelSplitterNode
 
 ---

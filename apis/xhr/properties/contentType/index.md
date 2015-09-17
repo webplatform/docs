@@ -11,15 +11,12 @@ relationships:
     value: apis/xhr/properties
     href: /apis/xhr/properties
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
 uri: apis/xhr/properties/contentType
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [apis/xhr/properties](/apis/xhr/properties)[apis/xhr/properties](/apis/xhr/properties)
 
 ## Syntax

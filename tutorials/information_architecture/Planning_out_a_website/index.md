@@ -1,11 +1,7 @@
 ---
 title: 'Planning out a website'
 tags:
-  - Pages
-  - with
-  - broken
-  - file
-  - links
+  - Pages_with_broken_file_links
 uri: 'tutorials/information architecture/Planning out a website'
 
 ---

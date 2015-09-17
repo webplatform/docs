@@ -9,10 +9,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: "Applies a saturation effect to an element's color,\nmaking it appear more or less vivid, for use by the\nfilter property.  A decimal value of 1\nor percentage of 100% keeps the image as is, while increasing the\namount produces more dramatically stratified hues.\n"
 tags:
-  0: CSS
-  1: Functions
-  3: Graphics
-  4: SVG
+  - CSS_Functions
+  - CSS
+  - Graphics
+  - SVG
 uri: css/functions/saturate
 
 ---

@@ -12,9 +12,7 @@ relationships:
 standardization_status: Deprecated
 summary: 'Initializes a new DOM mutation (modification) event that the createEvent method created.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
   - DOMEvents
 uri: dom/MutationEvent/initMutationEvent

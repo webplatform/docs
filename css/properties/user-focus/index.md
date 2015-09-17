@@ -16,8 +16,9 @@ overview_table:
 readiness: 'In Progress'
 summary: 'This is for all the high level UX stuff.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/user-focus
 
 ---
@@ -64,6 +65,4 @@ text
 
 all
 :   Default. Every single thing is under focus.
-
-**Needs Examples**: This section should include examples.
 

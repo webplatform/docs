@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets a list of CSS rules of a style sheet.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: css/cssom/styleSheet/cssRules
 
 ---
@@ -43,8 +42,6 @@ var rules = stylesheet.cssRules;
 Returns an object of type DOM NodeDOM Node
 
 Of type CSSRuleList. A list of CSS rules within a style sheet.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

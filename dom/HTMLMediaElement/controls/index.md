@@ -12,12 +12,12 @@ relationships:
     href: /dom/HTMLMediaElement
 summary: 'Controls attribute used within a Audio element or Video element displays the default media controls defined by the web browser being used to open HTML document or view of a Web Application.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Audio
-  5: DOM
-  6: Video
+  - API_Object_Properties
+  - API
+  - Audio
+  - DOM
+  - Video
+  - Needs_Examples
 uri: dom/HTMLMediaElement/controls
 
 ---
@@ -33,8 +33,6 @@ Property of [dom/HTMLMediaElement](/dom/HTMLMediaElement)[dom/HTMLMediaElement](
 var result = element.controls;
 element.controls = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

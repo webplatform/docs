@@ -8,8 +8,7 @@ overview_table:
   Features: ''
 summary: 'Indicates the hash/digest of the full resource, before partial content or encodings.'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

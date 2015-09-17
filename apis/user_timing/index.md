@@ -4,19 +4,15 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'This API defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.'
 tags:
-  0: API
-  1: Listings
-  3: User
-  4: Timing
+  - API_Listings
+  - API
+  - User_Timing
 uri: 'apis/user timing'
 
 ---
 ## Summary
 
 This API defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.
-
-API Name
-:   Summary
 
 [Performance](/apis/user_timing/Performance)
 :   Exposes a high precision timestamp to developers so they can better measure the performance of their applications.

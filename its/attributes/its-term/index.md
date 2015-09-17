@@ -11,8 +11,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The its-term attribute is used to mark terms so they can be recognized during translation process. This helps to increase consistency of translation across different parts of the documentation.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - Internationalization
 uri: its/attributes/its-term
 
@@ -28,7 +27,7 @@ Applies to
 
 </th>
 <td>
-<http://docs.webplatform.org/wiki/dom/HTMLElement>
+[/dom/HTMLElement](/dom/HTMLElement)
 
 </td>
 </tr>
@@ -53,7 +52,7 @@ The its-term attribute can contain "yes" or "no" values. Defintion of the term c
 ```
 
 </pre>
-[View live example](http://code.webplatform.org/gist/8404173)
+[View live example](http://gist.github.com/8404173)
 
 ## Usage
 

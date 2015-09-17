@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Parses a string containing a date, and returns the number of milliseconds between that date and midnight, January 1, 1970.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Date/parse
 
 ---

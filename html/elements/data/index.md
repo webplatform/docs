@@ -8,8 +8,7 @@ overview_table:
 standardization_status: 'W3C Recommendation'
 summary: 'Annotates content with some machine-readable value.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
 uri: html/elements/data
 
 ---

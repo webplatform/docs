@@ -12,9 +12,7 @@ relationships:
     href: /dom/HTMLObjectElement
 standardization_status: Unknown
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/HTMLObjectElement/willValidate
 

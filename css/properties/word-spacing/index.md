@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The word-spacing CSS property specifies the spacing behavior between &quot;words&quot;.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/word-spacing
 
 ---
@@ -84,7 +84,7 @@ The following example shows how to use the **word-spacing** attribute and the **
 <p class="neg">This is a simple paragraph withe a altered word-spacing value by -0.1em</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/5671391)
+[View live example](http://gist.github.com/5671391)
 
 ``` css
 p {

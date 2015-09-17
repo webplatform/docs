@@ -5,10 +5,8 @@ notes:
 readiness: 'Not Ready'
 summary: 'Index page for Events Tutorials.'
 tags:
-  - API
-  - Listings
-  - Basic
-  - Pages
+  - API_Listings
+  - Basic_Pages
 uri: events/tutorials
 
 ---

@@ -17,8 +17,8 @@ overview_table:
 readiness: 'Not Ready'
 summary: "Specifies the line colors for the line-through text decoration.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-line-through-color
 
 ---

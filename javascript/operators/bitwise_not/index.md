@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Performs a bitwise NOT (negation) on an expression.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/operators/bitwise not'
 
 ---

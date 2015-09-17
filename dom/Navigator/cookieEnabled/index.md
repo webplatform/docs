@@ -16,9 +16,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Retrieves whether client-side persistent cookies are enabled. Persistent cookies are those that are stored on the client-side computer.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Navigator/cookieEnabled
 

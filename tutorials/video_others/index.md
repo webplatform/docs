@@ -1,5 +1,7 @@
 ---
 title: 'HTML5 Video and Other Recommendations'
+code_samples:
+  - 'https://cvs.khronos.org/svn/repos/registry/trunk/public/webgl/doc/spec/WebGL-spec.html'
 readiness: 'Ready to Use'
 summary: 'Overview about HTML5 Video interaction with other web standards and technologies'
 tags:

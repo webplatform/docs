@@ -12,8 +12,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'Represents a run of text that is contextually-important for some reason, such as text that has been marked or highlighted.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/mark
 

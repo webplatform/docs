@@ -2,14 +2,15 @@
 title: 'Timing and performance standards'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'https://gist.github.com/pmeenan/5902672'
 notes:
   - 'Needs table code fix in Notes'
 readiness: 'In Progress'
 standardization_status: Unknown
 summary: 'This section documents the timing and performance-based standards supported by Windows Internet Explorer and Windows Store apps.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
   - Performance
   - Timing
 uri: apis/timing-and-performance

@@ -10,8 +10,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Sets or retrieves the URL of the component.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/codeBase
 

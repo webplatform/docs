@@ -11,8 +11,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Working Draft'
 summary: 'The hidden attribute is a boolean attribute. When specified on an element, it indicates that the element is not yet, or is no longer, directly relevant to the page''s current state, or that it is being used to declare content to be reused by other parts of the page as opposed to being directly accessed by the user.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/hidden
 

@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'font-size sets the font size of the text inside the element to which it is applied, and that of its descendants. You can size text using absolute measurements, or measurements relative to the affected element''s parent or root elements. CSS Text Styling Fundamentals provides an overview.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -104,7 +104,7 @@ A selection of examples showing some typical uses of the font-size property.
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5628042)
+[View live example](http://gist.github.com/5628042)
 
 A redefinition of the typical **16px** browser default font size **medium** value as **10px**, followed by a resizing of the text that follows proportionate to that.
 
@@ -119,7 +119,7 @@ html { font-size: 62.5%; }
 .example-three  { font-size: 1.4rem }   /* 14px */
 ```
 
-[View live example](http://code.webplatform.org/gist/5628240)
+[View live example](http://gist.github.com/5628240)
 
 ## Usage
 

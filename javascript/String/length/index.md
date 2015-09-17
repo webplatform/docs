@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: "Returns the codepoint length of a String object.\n"
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/length
 
 ---

@@ -11,9 +11,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The exitFullscreen method provides a way for exiting the fullscreen mode enabled by requestFullscreen.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Document/exitFullscreen
 

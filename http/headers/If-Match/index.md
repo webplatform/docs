@@ -8,8 +8,7 @@ overview_table:
   Features: ''
 summary: 'Makes the request conditional on the server''s resource being a certain ETag (revision and representation).'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 uri: http/headers/If-Match
 
 ---

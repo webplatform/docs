@@ -14,10 +14,10 @@ relationships:
     href: /apis/indexeddb/IDBIndex
 summary: 'Runs the steps for asynchronously executing a request and returns the IDBRequest created by these steps.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBIndex/get
 
 ---
@@ -36,6 +36,3 @@ var  = .get();
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
-

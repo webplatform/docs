@@ -9,11 +9,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Inverts the playback rate of this player and seeks to the start of the source content if if has finished playing in the reversed direction using the reverse a player procedure for this object.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Web
-  5: Animations
+  - API_Object_Methods
+  - API
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationPlayer/reverse'
 
 ---
@@ -32,8 +31,6 @@ Method of [apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPl
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

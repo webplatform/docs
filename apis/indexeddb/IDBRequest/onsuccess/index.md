@@ -10,10 +10,10 @@ relationships:
     href: /apis/indexeddb/IDBRequest
 summary: 'The event handler for the success event.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBRequest/onsuccess
 
 ---
@@ -29,6 +29,4 @@ Property of [apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)[apis/indexed
 var result = element.onsuccess;
 element.onsuccess = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

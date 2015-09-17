@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets the CSS Rule that imported the style sheet, if any.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: css/cssom/styleSheet/ownerRule
 
 ---
@@ -43,8 +42,6 @@ var rule = stylesheet.ownerRule;
 Returns an object of type DOM NodeDOM Node
 
 Of type CSSRule. Returns a CSSImportRule or null.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

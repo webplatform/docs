@@ -9,6 +9,7 @@ summary: 'Fires when new data at a data source becomes available.'
 tags:
   - Events
   - DOM
+  - Needs_Examples
 uri: dom/Event/dataavailable
 
 ---
@@ -70,8 +71,6 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

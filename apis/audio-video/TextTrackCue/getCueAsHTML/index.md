@@ -15,11 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the text track cue text as a DocumentFragment of HTML elements and other DOM nodes.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Audio
-  5: Video
+  - API_Object_Methods
+  - API
+  - Audio
+  - Video
 uri: apis/audio-video/TextTrackCue/getCueAsHTML
 
 ---

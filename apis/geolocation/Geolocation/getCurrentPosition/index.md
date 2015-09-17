@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Obtains the current location of the device.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Geolocation
+  - API_Object_Methods
+  - API
+  - Geolocation
 uri: apis/geolocation/Geolocation/getCurrentPosition
 
 ---

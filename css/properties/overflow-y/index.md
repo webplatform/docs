@@ -19,8 +19,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The overflow-y property is a specific case of the generic overflow property. It controls how extra content exceeding the y-axis of the bounding box of an element is rendered.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/overflow-y
 
 ---
@@ -99,7 +99,7 @@ Using `overflow-y` with its values.
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6947763)
+[View live example](http://gist.github.com/6947763)
 
 ## Usage
 

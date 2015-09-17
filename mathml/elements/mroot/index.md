@@ -11,8 +11,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The MathML mroot element is used to display roots with an explicit index. Two arguments are accepted, which leads to the syntax: &lt;mroot&gt; base index &lt;/mroot&gt;.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - MathML
 uri: mathml/elements/mroot
 

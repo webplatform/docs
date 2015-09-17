@@ -6,8 +6,8 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Working Draft'
 summary: 'The Screen Orientation API provides the ability to read the screen orientation state, to be informed when this state changes, and to be able to lock the screen orientation to a specific state.'
 tags:
+  - API_Listings
   - API
-  - Listings
 uri: 'apis/screen orientation'
 
 ---

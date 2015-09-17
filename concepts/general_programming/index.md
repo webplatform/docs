@@ -5,8 +5,7 @@ notes:
 readiness: 'In Progress'
 summary: 'These articles introduce you to computers, computer programming, computer networking, and programming for the Web specifically.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
   - CSS
   - HTML
   - JavaScript

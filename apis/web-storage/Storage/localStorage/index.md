@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'Provides a Storage object for an origin, that remains persistent even after restarting the browser. The storage can be cleared by the user with browser functionalities. If you need a temporary storage, use apis/web-storage/Storage/sessionStorage'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - Webstorage
 uri: apis/web-storage/Storage/localStorage
 

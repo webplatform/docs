@@ -4,10 +4,9 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The AnimationTimingProperties dictionary is encapsulates the timing properties of an AnimationNode so that they can be set in bulk (as in the constructor for Animation) or returned as a readonly snapshot (as in computedTiming).'
 tags:
-  - API
-  - Objects
-  - Web
-  - Animations
+  - API_Objects
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationTimingProperties'
 
 ---
@@ -16,9 +15,6 @@ uri: 'apis/web animations/AnimationTimingProperties'
 The AnimationTimingProperties dictionary is encapsulates the timing properties of an AnimationNode so that they can be set in bulk (as in the constructor for Animation) or returned as a readonly snapshot (as in computedTiming).
 
 ## Properties
-
-API Name
-:   Summary
 
 [delay](/apis/web_animations/AnimationTimingProperties/delay)
 :   The specified start delay.
@@ -68,6 +64,3 @@ API Name
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
-

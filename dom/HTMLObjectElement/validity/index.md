@@ -12,10 +12,9 @@ relationships:
     href: /dom/HTMLObjectElement
 standardization_status: Unknown
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/HTMLObjectElement/validity
 
 ---
@@ -27,8 +26,6 @@ Property of [dom/HTMLObjectElement](/dom/HTMLObjectElement)[dom/HTMLObjectElemen
 var result = element.validity;
 element.validity = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

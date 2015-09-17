@@ -9,9 +9,8 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Recommendation'
 summary: "The scan media feature describes the scanning process (i.e. how the video card generates the image) of some output devices. \n"
 tags:
-  - CSS
-  - Media
-  - Feature
+  - CSS_Media_Feature
+  - Needs_Examples
 uri: 'css/media queries/scan'
 
 ---
@@ -20,8 +19,6 @@ uri: 'css/media queries/scan'
 The scan media feature describes the scanning process (i.e. how the video card generates the image) of some output devices.
 
 It can be useful if you want to adjust font type that are known to not be visible well on "interlaced" modes for instance.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

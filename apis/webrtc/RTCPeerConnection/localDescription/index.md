@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the RTCSessionDescription most recently passed to the setLocalDescription() method along with any local candidate descriptions generated since the method was called.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/localDescription
 
 ---
@@ -41,6 +41,4 @@ var result = element.localDescription;
 Returns an object of type RTCSessionDescriptionRTCSessionDescription
 
 Returns a null object if the local description has not yet been set.
-
-**Needs Examples**: This section should include examples.
 

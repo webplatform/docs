@@ -20,8 +20,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'feColorMatrix is an SVG filter primitive that allows the manipulation of color values across color channels. It provides more powerful color manipulation flexibility than CSS shorthand filters. It is always a child element of an SVG filter element. Using feColorMatrix, you can change color saturation, perform hue rotations, selectively adjust alpha values of particular channels, adjust contrast, brightness and more. feColorMatrix does not allow the manipulation of relative color values *within* color channels which is provided by the feComponentTransfer primitive.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - SVG
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -39,7 +38,7 @@ feColorMatrix is an SVG filter primitive that allows the manipulation of color v
 [DOM Interface](/dom/interface)
 :   [SVGFEColorMatrixElement](/w/index.php?title=svg/objects/SVGFEColorMatrixElement&action=edit&redlink=1)
 
-feColorMatrix is a filter primitive that allows the manipulation of color values across color channels. It is always a child element of a [[|filter element](http://docs.webplatform.org/wiki/svg/elements/filter)]. Using feColorMatrix, you can change color saturation, perform hue rotations, selectively adjust alpha values of particular channels, adjust contrast, brightness and more. feColorMatrix does not allow the manipulation of relative color values \*within\* color channels which is provided by the feComponentTransfer primitive.
+feColorMatrix is a filter primitive that allows the manipulation of color values across color channels. It is always a child element of a [[|filter element](/svg/elements/filter)]. Using feColorMatrix, you can change color saturation, perform hue rotations, selectively adjust alpha values of particular channels, adjust contrast, brightness and more. feColorMatrix does not allow the manipulation of relative color values \*within\* color channels which is provided by the feComponentTransfer primitive.
 
 Attributes:
 
@@ -87,7 +86,7 @@ Example of a feColorMatrix with type="saturate"
 </svg>​
 ```
 
-[View live example](http://code.webplatform.org/gist/5303882)
+[View live example](http://gist.github.com/5303882)
 
 ![huerotate.png](/assets/public/1/19/huerotate.png)
 
@@ -107,7 +106,7 @@ Example of a feColorMatrix with type="hueRotate"
 ***
 ```
 
-[View live example](http://code.webplatform.org/gist/5303933)
+[View live example](http://gist.github.com/5303933)
 
 ![luminancetoalpha.png](/assets/public/0/01/luminancetoalpha.png)
 
@@ -127,7 +126,7 @@ Example of a feColorMatrix with type="luminanceToAlpha"
 ***
 ```
 
-[View live example](http://code.webplatform.org/gist/5303960)
+[View live example](http://gist.github.com/5303960)
 
 ![contrast.png](/assets/public/8/80/contrast.png)
 
@@ -150,7 +149,7 @@ Example of a feColorMatrix with type="matrix" showing a contrast adjustment
 ***
 ```
 
-[View live example](http://code.webplatform.org/gist/5304023)
+[View live example](http://gist.github.com/5304023)
 
 ![sepia.png](/assets/public/c/cd/sepia.png)
 
@@ -173,7 +172,7 @@ Example of a feColorMatrix with type="matrix" showing a sepia adjustment
 ***
 ```
 
-[View live example](http://code.webplatform.org/gist/5304047)
+[View live example](http://gist.github.com/5304047)
 
 ![grey.png](/assets/public/f/fa/grey.png)
 
@@ -196,7 +195,7 @@ Example of a feColorMatrix with type="matrix" showing a standard greyscale adjus
 ***
 ```
 
-[View live example](http://code.webplatform.org/gist/5304064)
+[View live example](http://gist.github.com/5304064)
 
 ![greygreen.png](/assets/public/8/8c/greygreen.png)
 
@@ -219,7 +218,7 @@ Example of a feColorMatrix with type="matrix" showing a greyscale with green cha
 ***
 ```
 
-[View live example](http://code.webplatform.org/gist/5304095)
+[View live example](http://gist.github.com/5304095)
 
 ![invert.png](/assets/public/f/f8/invert.png)
 
@@ -242,7 +241,7 @@ Example of a feColorMatrix with type="matrix" showing an inversion
 ***
 ```
 
-[View live example](http://code.webplatform.org/gist/5304176)
+[View live example](http://gist.github.com/5304176)
 
 ## Notes
 

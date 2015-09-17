@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Gets the current date and time.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Date/now
 
 ---

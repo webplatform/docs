@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Specifies the function that creates an object.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Object/constructor
 
 ---

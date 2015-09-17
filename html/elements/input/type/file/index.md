@@ -13,15 +13,8 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The file type of the &lt;input&gt; element represents widget for specifying a file.'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Elements
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

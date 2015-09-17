@@ -16,8 +16,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: "The colgroup element (&lt;colgroup&gt;) specifies a group of one or more columns in a table for formatting.\nThis element is useful for applying properties to entire columns, instead of repeating the properties for each cell, for each row.\n"
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/colgroup
 

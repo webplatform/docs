@@ -4,18 +4,15 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'IndexedDB is a client side storage API that persists data in a user''s browser. It is a transactional, non-relational storage mechanism that saves key-value pairs in Object Stores and allows searching data using indexes.'
 tags:
-  0: API
-  1: Listings
-  3: IndexedDB
+  - API_Listings
+  - API
+  - IndexedDB
 uri: apis/indexeddb
 
 ---
 ## Summary
 
 IndexedDB is a client side storage API that persists data in a user's browser. It is a transactional, non-relational storage mechanism that saves key-value pairs in Object Stores and allows searching data using indexes.
-
-API Name
-:   Summary
 
 [IDBCursor](/apis/indexeddb/IDBCursor)
 :   Iterates over object stores and indices.

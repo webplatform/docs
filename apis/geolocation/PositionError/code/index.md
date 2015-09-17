@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The error code of the current PositionError.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Geolocation
+  - API_Object_Properties
+  - API
+  - Geolocation
 uri: apis/geolocation/PositionError/code
 
 ---

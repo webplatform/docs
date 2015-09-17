@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns a string representation of an object.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Object/toString
 
 ---

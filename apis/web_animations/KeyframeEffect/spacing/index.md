@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The spacing mode to use for this animation effect.'
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/KeyframeEffect/spacing'
 
 ---
@@ -39,8 +37,6 @@ element.spacing = value;
 Returns an object of type ObjectObject
 
 Returns a DOMString object.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: "Sets the color of an element's right border. This page explains the border-right-color value, but often you will find it more convenient to fix the border's right color as part of a shorthand set, either border-right or border-color.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-right-color
 
 ---
@@ -116,7 +116,7 @@ The following example demonstrates the use of `border-right-color` by creating a
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5535401)
+[View live example](http://gist.github.com/5535401)
 
 ``` html
 <div class="box named-value">

@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'An intrinsic object that provides basic mathematics functionality and constants.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Math
 
 ---

@@ -25,8 +25,8 @@ overview_table:
 readiness: 'In Progress'
 summary: 'Specifies the type of list-item marker in a list.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/list-style-type
 
 ---
@@ -138,7 +138,7 @@ This example uses **`ul`** as a selector in an embedded (global) style sheet to 
 </style>
 ```
 
-[View live example](http://code.webplatform.org/gist/6798718)
+[View live example](http://gist.github.com/6798718)
 
 This example demonstrates the use of `decimal-leading-zero`.
 
@@ -159,7 +159,7 @@ This example demonstrates the use of `decimal-leading-zero`.
 </body>
 ```
 
-[View live example](http://code.webplatform.org/gist/6798718)
+[View live example](http://gist.github.com/6798718)
 
 Using the `list-style-type` on ordered lists
 
@@ -178,7 +178,7 @@ Using the `list-style-type` on ordered lists
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5597602)
+[View live example](http://gist.github.com/5597602)
 
 If the left padding of a line item is set to 0 and the list has `list-style-position: outside;` (which is the default) the list-item markers will not show.
 
@@ -197,7 +197,7 @@ ul {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5598129)
+[View live example](http://gist.github.com/5598129)
 
 Example for unordered lists
 
@@ -219,7 +219,7 @@ Example for unordered lists
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5597530)
+[View live example](http://gist.github.com/5597530)
 
 Example for unordered lists with `list-style-type` set as `none` which removes the default bullet style of the unordered list.
 
@@ -266,7 +266,7 @@ a:active{text-decoration:none;color:green;}
 a:visited{text-decoration:none;color:green;}
 ```
 
-[View live example](http://code.webplatform.org/gist/5697355)
+[View live example](http://gist.github.com/5697355)
 
 ## Usage
 

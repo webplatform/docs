@@ -8,11 +8,9 @@ relationships:
     href: /apis/web_animations/AnimationPlayer
 summary: 'Clears all effects caused by this player and aborts its playback by running the cancel a player procedure for this object.'
 tags:
-  - API
-  - Object
-  - Methods
-  - Web
-  - Animations
+  - API_Object_Methods
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationPlayer/cancel'
 
 ---
@@ -31,6 +29,3 @@ Method of [apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPl
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
-

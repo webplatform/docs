@@ -14,10 +14,10 @@ relationships:
     href: /apis/indexeddb/indexedDB
 summary: 'Opens a database. See apis/indexeddb/IDBFactory/open'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/indexedDB/open
 
 ---
@@ -36,6 +36,3 @@ var  = .open();
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
-

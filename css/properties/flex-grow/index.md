@@ -15,8 +15,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The flex-grow CSS property specifies how much a flex item will enlarge with respect to the other items in the flex container to fill an expanded container.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
   - Flexbox
 uri: css/properties/flex-grow
 

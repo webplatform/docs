@@ -10,9 +10,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'Describes the relationship from the current document to the anchor specified by the href attribute.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: html/attributes/rel
 
 ---
@@ -27,13 +27,11 @@ Applies to
 
 </th>
 <td>
-<http://docs.webplatform.org/wiki/html/elements/a>
+[/html/elements/a](/html/elements/a)
 
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

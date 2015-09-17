@@ -17,11 +17,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns true if the given track is active, and false otherwise. Can be set, to change whether the track is enabled or not. If multiple audio tracks are enabled simultaneously, they are mixed.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Audio
-  5: Video
+  - API_Object_Properties
+  - API
+  - Audio
+  - Video
 uri: apis/audio-video/AudioTrack/enabled
 
 ---
@@ -86,7 +85,7 @@ Returns an object of type BooleanBoolean
 })();
 ```
 
-[View live example](http://code.webplatform.org/gist/459f1a0ea9f70009b6fe)
+[View live example](http://gist.github.com/459f1a0ea9f70009b6fe)
 
 ## Related specifications
 

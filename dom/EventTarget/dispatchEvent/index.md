@@ -17,11 +17,10 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Sends an event to the current element.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
   - DOMEvents
+  - Needs_Examples
 uri: dom/EventTarget/dispatchEvent
 
 ---
@@ -55,8 +54,6 @@ Whether any of the event handlers called [**preventDefault**](/dom/Event/prevent
 Default. The default action is permitted.
 
 The caller should prevent the default action.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

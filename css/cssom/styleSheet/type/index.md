@@ -12,10 +12,9 @@ relationships:
     href: /css/cssom/styleSheet
 summary: 'The type of a document''s stylesheet.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: css/cssom/styleSheet/type
 
 ---
@@ -31,8 +30,6 @@ Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](
 var result = element.type;
 element.type = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

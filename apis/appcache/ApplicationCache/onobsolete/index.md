@@ -14,10 +14,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The Webpage is associated with an application cache whose group is marked as obsolete.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - Appcache
+  - API
 uri: apis/appcache/ApplicationCache/onobsolete
 
 ---

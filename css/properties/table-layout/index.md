@@ -19,8 +19,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The ''table-layout'' property controls the algorithm used to lay out the table cells, rows, and columns.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/table-layout
 
 ---
@@ -110,7 +110,7 @@ This example shows table-layout 'auto' and 'fixed'. With 'auto', the column stre
 </table>
 ```
 
-[View live example](http://code.webplatform.org/gist/7044174)
+[View live example](http://gist.github.com/7044174)
 
 Here's the CSS for styling the table, above.
 
@@ -152,7 +152,7 @@ td p {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/7044174)
+[View live example](http://gist.github.com/7044174)
 
 ## Notes
 

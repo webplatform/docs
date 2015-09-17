@@ -16,9 +16,7 @@ relationships:
     href: /dom/Navigator
 summary: 'Retrieves the userAgent application''s minor version value.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Navigator/appMinorVersion
 

@@ -5,8 +5,7 @@ notes:
 readiness: 'In Progress'
 summary: 'Common steps to planning a website before you start coding.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Accessibility
   - UI
   - Usability

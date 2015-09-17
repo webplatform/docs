@@ -5,8 +5,7 @@ notes:
 readiness: 'Ready to Use'
 summary: 'Developing the look and feel of a website with fonts, colour, and graphics.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - CSS
   - Design
   - Graphics
@@ -26,7 +25,7 @@ Developing the look and feel of a website with fonts, colour, and graphics.
 
 ## First step: considering typography
 
-You will learn some more about the technical aspects of typography in our [typography article](http://docs.webplatform.org/wiki/concepts/web_typography); now I will look at a few aspects of it that you will find useful at this stage.
+You will learn some more about the technical aspects of typography in our [typography article](/concepts/web_typography); now I will look at a few aspects of it that you will find useful at this stage.
 
 [Fonts](http://www.w3.org/TR/REC-CSS2/fonts.html) also are called "typefaces" and they’re used to display text, numbers, characters and other symbols. Also known as “glyphs,” these symbols, letters and numbers are categorised by family (all related), style (italic, normal, oblique, etc.), variant (normal or small caps), weight (boldness), stretch (condensing or expanding type by height or width) and size (by points or by pixel height or width). Typography is the arrangement and appearance of text, so typography concerns the look of the glyphs and how they are placed on the page (columns, paragraphs, alignment and more). The most effective way to control how typography looks on a web page is through using Cascading Style Sheets ([CSS](http://www.w3.org/Style/CSS/)).
 
@@ -148,7 +147,7 @@ When I prepare a website mock up for a client, I usually try to take it as far a
 
 Colour is part and parcel of that “everything in its place” mentality. The reason for this is that different colour schemes can change the mood of a site entirely, even with all elements in place. Further, I prefer to keep the colour samples to a minimum, because too many samples can become confusing. In this case, the client had a limited budget, so I persuaded them to limit the choices to one colour scheme as a sample to work with.
 
-When the [Color Scheme Generator II](http://docs.webplatform.org/w/index.php?title=concepts/color_theory#Monochromatic_colour_schemes) was introduced, it wasn’t mention that you can input a hex colour in this tool to generate a colour scheme from a specific colour. Directly beneath the colour wheel, you’ll see a link for “Enter RGB”. In my case, the gold in the logo was the strongest colour, so I entered that hex (\#eab304) to learn more about my choices. The resulting monochromatic scheme was somewhat boring, but the contrasting colour scheme held promise. That scheme held a blue-violet that I could work with, as the shadow behind the logo was tinted blue as well, as shown in Figure 9:
+When the [Color Scheme Generator II](/w/index.php?title=concepts/color_theory#Monochromatic_colour_schemes) was introduced, it wasn’t mention that you can input a hex colour in this tool to generate a colour scheme from a specific colour. Directly beneath the colour wheel, you’ll see a link for “Enter RGB”. In my case, the gold in the logo was the strongest colour, so I entered that hex (\#eab304) to learn more about my choices. The resulting monochromatic scheme was somewhat boring, but the contrasting colour scheme held promise. That scheme held a blue-violet that I could work with, as the shadow behind the logo was tinted blue as well, as shown in Figure 9:
 
 ![Contrasting colour scheme](/assets/public/d/df/contrast.jpg)
 

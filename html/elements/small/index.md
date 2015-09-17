@@ -13,8 +13,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'Presentational-only element to define text that will appear small. Used for fine print.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/small
 

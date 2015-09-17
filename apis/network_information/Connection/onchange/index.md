@@ -15,12 +15,11 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Handles the change event, fired when the Connection changes.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Mobile
-  5: Network
-  6: Information
+  - API_Object_Properties
+  - API
+  - Mobile
+  - Network_Information
+  - Needs_Examples
 uri: 'apis/network information/Connection/onchange'
 
 ---
@@ -40,8 +39,6 @@ connection.onchange = value;
 ## Return Value
 
 Returns an object of type EventHandlerEventHandler
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

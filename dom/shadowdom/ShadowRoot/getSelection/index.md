@@ -15,11 +15,11 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the current selection in this ShadowRoot''s shadow tree.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: DOM
-  5: Shadow
+  - API_Object_Methods
+  - API
+  - DOM
+  - Shadow_DOM
+  - Needs_Examples
 uri: dom/shadowdom/ShadowRoot/getSelection
 
 ---
@@ -38,6 +38,3 @@ var result = element.getSelection();
 ## Return Value
 
 Returns an object of type DOM NodeDOM Node
-
-**Needs Examples**: This section should include examples.
-

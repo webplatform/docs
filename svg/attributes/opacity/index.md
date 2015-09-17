@@ -9,8 +9,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The opacity attribute specifies the transparency of an object or of a group of objects.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - SVG
 uri: svg/attributes/opacity
 

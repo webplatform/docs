@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'An object representing an absolute URL, set at the worker''s creation.'
 tags:
-  0: API
-  1: Objects
-  3: Webworkers
+  - API_Objects
+  - API
+  - Webworkers
 uri: apis/workers/WorkerLocation
 
 ---
@@ -17,9 +17,6 @@ uri: apis/workers/WorkerLocation
 An object representing an absolute URL, set at the worker's creation.
 
 ## Properties
-
-API Name
-:   Summary
 
 [href](/apis/workers/WorkerLocation/href)
 :   Returns the absolute URL that the object represents.

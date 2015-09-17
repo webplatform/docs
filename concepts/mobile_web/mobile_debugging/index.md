@@ -3,10 +3,8 @@ title: 'Mobile web debugging'
 readiness: 'Ready to Use'
 summary: 'Debugging web applications on multiple platforms requires careful prioritisation, different from developing for desktop alone. This article explains techniques and tools available, with links to external resources.'
 tags:
-  - Concept
-  - Pages
-  - Developer
-  - Tools
+  - Concept_Pages
+  - Developer_Tools
   - Mobile
   - Design
   - Performance

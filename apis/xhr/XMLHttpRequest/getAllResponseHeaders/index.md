@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns all the response headers as a string, or null if no response has been received.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: XHR
+  - API_Object_Methods
+  - API
+  - XHR
 uri: apis/xhr/XMLHttpRequest/getAllResponseHeaders
 
 ---

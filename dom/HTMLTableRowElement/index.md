@@ -12,17 +12,15 @@ relationships:
     value: HTMLElement
     href: /dom/HTMLElement
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/HTMLTableRowElement
 
 ---
 <p><br/></p>
-<div class="editors-only">
-<p><b>Needs Summary</b>:   This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article. 
-</p>
-</div>
+
 <p>Inherits from <a href="/dom/HTMLElement">HTMLElement</a><a href="/dom/HTMLElement">HTMLElement</a>
 </p>
 <h2>Properties</h2>
@@ -37,9 +35,7 @@ uri: dom/HTMLTableRowElement
 <h2>Inherited from HTMLElement</h2>
 <h3>Properties</h3>
 
-<dl><dt>API Name</dt>
-  <dd>Summary</dd>
-</dl><dl><dt><a href="/aria/attributes/aria-activedescendant">aria-activedescendant</a></dt>
+<dl><dt><a href="/aria/attributes/aria-activedescendant">aria-activedescendant</a></dt>
   <dd/>
 </dl><dl><dt><a href="/aria/attributes/aria-busy">aria-busy</a></dt>
   <dd/>
@@ -514,9 +510,9 @@ uri: dom/HTMLTableRowElement
 </dl><dl><dt><a href="/svg/attributes/fill">fill</a></dt>
   <dd>The attribute fill specifies the filling color or the behavior of an animation after it has finished.</dd>
 </dl><dl><dt><a href="/svg/attributes/fill-opacity">fill-opacity</a></dt>
-  <dd>Please refer to <a rel="nofollow" class="external free" href="http://docs.webplatform.org/wiki/css/properties/fill-opacity">http://docs.webplatform.org/wiki/css/properties/fill-opacity</a></dd>
+  <dd>Please refer to <a rel="nofollow" class="external free" href="/css/properties/fill-opacity">/css/properties/fill-opacity</a></dd>
 </dl><dl><dt><a href="/svg/attributes/fill-rule">fill-rule</a></dt>
-  <dd>Please refer to <a rel="nofollow" class="external free" href="http://docs.webplatform.org/wiki/css/properties/fill-rule">http://docs.webplatform.org/wiki/css/properties/fill-rule</a></dd>
+  <dd>Please refer to <a rel="nofollow" class="external free" href="/css/properties/fill-rule">/css/properties/fill-rule</a></dd>
 </dl><dl><dt><a href="/svg/attributes/flood-color">flood-color</a></dt>
   <dd/>
 </dl><dl><dt><a href="/svg/attributes/flood-opacity">flood-opacity</a></dt>
@@ -563,9 +559,7 @@ uri: dom/HTMLTableRowElement
   <dd/>
 </dl><h3>Methods</h3>
 
-<dl><dt>API Name</dt>
-  <dd>Summary</dd>
-</dl><dl><dt><a href="/dom/HTMLElement/abort">abort</a></dt>
+<dl><dt><a href="/dom/HTMLElement/abort">abort</a></dt>
   <dd/>
 </dl><dl><dt><a href="/dom/HTMLElement/blur">blur</a></dt>
   <dd/>
@@ -604,10 +598,7 @@ uri: dom/HTMLTableRowElement
 </dl><h3>Events</h3>
 <p><i>No events.</i>
 </p>
-<div class="editors-only">
-<p><b>Needs Examples</b>:  This section should include examples. 
-</p>
-</div>
+
 <p><br/></p>
 <h3>Members</h3>
 <p>The <b>HTMLTableRowElement</b> object does not define any members.

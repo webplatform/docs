@@ -5,8 +5,7 @@ notes:
 readiness: 'Ready to Use'
 summary: "This part assumes you want to build a website with almost no prior knowledge. It will start on HTML and CSS to allow you to do that right away. Obviously, we can't teach it all at once, so we will start with certain basic features we expect you might be interested in, and build on from there.\n"
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: 'Beginners/crash course'
 
 ---

@@ -7,8 +7,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The translate attribute indicates whether the element’s content and attribute values should be translated or not.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
   - Internationalization
 uri: html/attributes/translate

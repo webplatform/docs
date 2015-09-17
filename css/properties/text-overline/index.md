@@ -16,8 +16,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The text-overline property is the shorthand for the text-overline-style, text-overline-width, text-overline-color, and text-overline-mode properties.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-overline
 
 ---

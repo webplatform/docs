@@ -23,8 +23,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The cursor CSS property specifies the mouse cursor displayed when the mouse pointer is over an element.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/cursor
 
 ---
@@ -129,7 +129,7 @@ To make the cursor appear like it's busy
 }
 ```
 
-[View live example](https://code.webplatform.org/gist/9b54d2d8dc9bc94382d5)
+[View live example](https://gist.github.com/9b54d2d8dc9bc94382d5)
 
 ## See also
 

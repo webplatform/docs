@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "The size of the buffer (in sample-frames) which needs to be processed each time onaudioprocess is called. Legal values are 256, 512, 1024, 2048, 4096, 8192, and 16384.\n"
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
+  - Needs_Examples
 uri: apis/webaudio/ScriptProcessorNode/bufferSize
 
 ---
@@ -41,8 +41,6 @@ var result = ScriptProcessorNode.bufferSize;
 ## Return Value
 
 Returns an object of type unsigned longunsigned long
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

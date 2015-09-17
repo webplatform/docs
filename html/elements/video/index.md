@@ -15,8 +15,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The video tag represents an embedded video'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
   - Video
 uri: html/elements/video
@@ -145,7 +144,7 @@ HTML5 Video Tag can support different encodings
 
 ```
 
-[View live example](http://code.webplatform.org/gist/5314736)
+[View live example](http://gist.github.com/5314736)
 
 ## Related specifications
 

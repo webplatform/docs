@@ -11,15 +11,13 @@ relationships:
     value: dom/Document
     href: /dom/Document
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/Document/implementation
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
 ## Syntax
@@ -28,8 +26,6 @@ Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 var result = element.implementation;
 element.implementation = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

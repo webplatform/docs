@@ -16,10 +16,10 @@ relationships:
     href: /apis/indexeddb/IDBTransaction
 summary: 'The event handler for the oncomplete event.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBTransaction/oncomplete
 
 ---
@@ -39,6 +39,4 @@ element.oncomplete = value;
 ## Return Value
 
 Returns an object of type functionfunction
-
-**Needs Examples**: This section should include examples.
 

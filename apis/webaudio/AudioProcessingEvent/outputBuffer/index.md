@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "An AudioBuffer where the output audio data should be written. It will have a number of channels equal to the numberOfOutputChannels parameter of the createScriptProcessor() method. Script code within the scope of the onaudioprocess function is expected to modify the Float32Array arrays representing channel data in this AudioBuffer. Any script modifications to this AudioBuffer outside of this scope will not produce any audible effects.\n"
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
+  - Needs_Examples
 uri: apis/webaudio/AudioProcessingEvent/outputBuffer
 
 ---
@@ -33,8 +33,6 @@ Property of [apis/webaudio/AudioProcessingEvent](/apis/webaudio/AudioProcessingE
 ``` js
 var result = AudioProcessingEvent.outputBuffer;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

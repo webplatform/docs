@@ -11,10 +11,10 @@ relationships:
     value: css/functions/
     href: '/w/index.php?title=css/functions/&action=edit&redlink=1'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -22,8 +22,6 @@ todo_broken_links:
 uri: css/functions/repeating-linear-gradient
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [css/functions/](/w/index.php?title=css/functions/&action=edit&redlink=1)[css/functions/](/w/index.php?title=css/functions/&action=edit&redlink=1)
 
 ## Syntax
@@ -32,8 +30,6 @@ Property of [css/functions/](/w/index.php?title=css/functions/&action=edit&redli
 var result = element.repeating-linear-gradient;
 element.repeating-linear-gradient = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

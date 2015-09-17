@@ -8,9 +8,10 @@ readiness: 'Not Ready'
 standardization_status: Non-Standard
 summary: 'Creates random access data (Blob) from an MSStream object.'
 tags:
-  0: API
-  1: Objects
-  3: FileAPI
+  - API_Objects
+  - API
+  - FileAPI
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -24,16 +25,10 @@ Creates random access data (Blob) from an MSStream object.
 
 ## Properties
 
-API Name
-:   Summary
-
 [onabort](/apis/file/MSStreamReader/onabort)
 :   Indicates that the read has been aborted (for example, by calling **abort()**).
 
 ## Methods
-
-API Name
-:   Summary
 
 [readAsBlob](/apis/file/MSStreamReader/readAsBlob)
 :   Performs an asynchronous read of an [MSStream](/w/index.php?title=apis/file/MSStream&action=edit&redlink=1) object in order to create a [Blob](/apis/file/Blob) object.
@@ -44,8 +39,6 @@ API Name
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

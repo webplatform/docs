@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the ICE state of the ICE agent.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/iceState
 
 ---
@@ -49,8 +49,6 @@ The RTCIceState enum has the following values:
 -   failed - The ICE Agent is finished checking all candidate pairs and failed to find a connection for at least one component.
 -   disconnected - Liveness checks have failed for one or more components. This is more aggressive than failed, and may trigger intermittently (and resolve itself without action) on a flaky network.
 -   closed - The ICE Agent has shut down and is no longer responding to STUN requests.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

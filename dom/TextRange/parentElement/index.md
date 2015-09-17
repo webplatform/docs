@@ -17,9 +17,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Retrieves the parent element for the given text range.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/TextRange/parentElement
 

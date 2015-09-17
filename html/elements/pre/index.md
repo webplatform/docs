@@ -13,8 +13,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The pre tag defines preformatted text. Text in a pre element is displayed in a fixed-width font and preserves both spaces and line breaks.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/pre
 

@@ -9,14 +9,12 @@ notes:
   - 'Needs summary, cleanup, more/better examples'
 readiness: 'Not Ready'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Summary
 uri: html/attributes/align
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 <table class="wikitable">
 <tr>
 <th>

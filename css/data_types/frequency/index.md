@@ -4,8 +4,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The &lt;frequency&gt; CSS data type allows for the specification of the pitch of sounds, expressed as a number followed (without whitespace) by one of the frequency units: Hz and kHz.'
 tags:
-  - Data
-  - Type
+  - Data_Type
   - CSS
 uri: 'css/data types/frequency'
 

@@ -3,8 +3,7 @@ title: 'CSS Selectors'
 readiness: 'Ready to Use'
 summary: "A Selector represents a structure. This structure can be used as a condition (e.g. in a CSS rule) that determines which elements a selector matches in the document tree, or as a flat description of the HTML or XML fragment corresponding to that structure.\n"
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
   - CSS
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

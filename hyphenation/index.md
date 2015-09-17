@@ -4,8 +4,7 @@ notes:
   - 'Merge Candidate: glossary/'
 readiness: 'Not Ready'
 tags:
-  - Glossary
-  - Items
+  - Glossary_Items
 uri: hyphenation
 
 ---

@@ -120,7 +120,7 @@ We now connected Chrome & PhantomJS, time to extend our basic HTML page to obtai
 
 ## Browser, I command you
 
-If we want to grab the title of the Webplatform Wiki main page located at `http://docs.webplatform.org/wiki/Main_Page`, we need to take three steps to make that happen:
+If we want to grab the title of the Webplatform Wiki main page located at `/Main_Page`, we need to take three steps to make that happen:
 
 -   First, we need to get a session from the remote Webdriver (in our case, PhantomJS)
 -   Second, we need to tell the remote Webdriver which URL we want to navigate to

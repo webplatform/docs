@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the number of key/value pairs currently present in the list associated with the object.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - Webstorage
 uri: apis/web-storage/Storage/length
 

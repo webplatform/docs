@@ -15,9 +15,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Removes mouse capture from the object in the current document.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Document/releaseCapture
 

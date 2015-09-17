@@ -5,10 +5,8 @@ notes:
 readiness: 'In Progress'
 summary: "Traditionally, the planning stage of a website (or any project) can be a little stressful. Everyone has an opinion about how a website should be built, and often their opinions will conflict with one another. Your number one goal on any website should be to build something that’s useful for the people who will be using it. It really doesn’t matter what your boss says, what that guy down the hall with a doctorate in software engineering says, or even what your personal preferences are; at the end of the day, if you’re building a website for a particular group of people, their opinion is the only one that matters.\n"
 tags:
-  - API
-  - Listings
-  - Concept
-  - Pages
+  - API_Listings
+  - Concept_Pages
 uri: 'concepts/information architecture'
 
 ---

@@ -9,9 +9,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'The IDBVersionChangeEvent object represents the event object passed to the  upgradeneeded event, which fires when a database is opened using a higher version number.'
 tags:
-  0: API
-  1: Objects
-  3: IndexedDB
+  - API_Objects
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBVersionChangeEvent
 
 ---
@@ -22,9 +22,7 @@ uri: apis/indexeddb/IDBVersionChangeEvent
 The IDBVersionChangeEvent object represents the event object passed to the  upgradeneeded event, which fires when a database is opened using a higher version number.</p><p><br/></p>
 <h2>Properties</h2>
 
-<dl><dt>API Name</dt>
-  <dd>Summary</dd>
-</dl><dl><dt><a href="/apis/indexeddb/IDBVersionChangeEvent/newVersion">newVersion</a></dt>
+<dl><dt><a href="/apis/indexeddb/IDBVersionChangeEvent/newVersion">newVersion</a></dt>
   <dd>Returns the new version of the database, which is the version specified by the open request.</dd>
 </dl><dl><dt><a href="/apis/indexeddb/IDBVersionChangeEvent/oldVersion">oldVersion</a></dt>
   <dd>Returns the old version of the database.</dd>

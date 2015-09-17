@@ -8,8 +8,7 @@ overview_table:
   Features: ''
 summary: 'Makes a request conditional on a resource having changed from the specified ETag (version or representation), for refreshing caches.'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 uri: http/headers/If-None-Match
 
 ---

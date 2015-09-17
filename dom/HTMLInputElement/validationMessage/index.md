@@ -16,10 +16,9 @@ relationships:
     href: /dom/HTMLInputElement
 summary: 'Returns the error message that would be displayed if the user submits the form, or an empty string if no error message.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/HTMLInputElement/validationMessage
 
 ---
@@ -42,8 +41,6 @@ var validationMessage = inputElement.validationMessage;
 Returns an object of type StringString
 
 The error message that would be displayed if the user submits the form, or an empty string if no error message.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

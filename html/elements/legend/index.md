@@ -12,8 +12,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The legend element represents a title or explanatory caption for the contents of its parent fieldset element.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/legend
 
@@ -45,7 +44,7 @@ Simple form with fieldset, legend, and label elements.
 </form>
 ```
 
-[View live example](http://code.webplatform.org/gist/8e4305d9f7fb613410a5)
+[View live example](http://gist.github.com/8e4305d9f7fb613410a5)
 
 ## Usage
 

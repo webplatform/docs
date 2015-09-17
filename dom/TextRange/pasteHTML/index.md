@@ -17,9 +17,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Pastes HTML text into the given text range, replacing any previous text and HTML elements in the range.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/TextRange/pasteHTML
 

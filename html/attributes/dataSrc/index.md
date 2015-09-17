@@ -10,8 +10,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Sets or retrieves the source of the data for data binding.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

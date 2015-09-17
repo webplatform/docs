@@ -6,10 +6,9 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Manages usage and availability of local storage resources, and defines a means by which a user agent may grant Web applications permission to use more local space, temporarily or persistently, via various storage APIs.'
 tags:
-  0: API
-  1: Listings
-  3: Quota
-  4: Management
+  - API_Listings
+  - API
+  - Quota_Management
 uri: 'apis/quota management'
 
 ---

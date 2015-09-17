@@ -17,9 +17,7 @@ relationships:
     href: /dom/Navigator
 summary: 'Returns the internal &quot;code&quot; name of the current browser. Do not rely on this property to return the correct value.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Navigator/appCodeName
 

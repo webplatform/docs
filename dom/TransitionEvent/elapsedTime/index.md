@@ -20,9 +20,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The amount of time the transition has been running, in seconds.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/TransitionEvent/elapsedTime
 

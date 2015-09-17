@@ -10,8 +10,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'Declarations with !important override similar declarations that are not marked as !important. This can be used in both author and user style sheets.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: css/syntax/!important
 
 ---
@@ -47,7 +46,7 @@ p { font: normal 12pt sans-serif !important }
 p { font-size: 24pt }
 ```
 
-[View live example](http://code.webplatform.org/gist/a246da0a53497ae9d832)
+[View live example](http://gist.github.com/a246da0a53497ae9d832)
 
 ## Related specifications
 

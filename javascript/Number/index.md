@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'An object that represents a number of any kind. All JavaScript numbers are 64-bit floating-point numbers.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Number
 
 ---

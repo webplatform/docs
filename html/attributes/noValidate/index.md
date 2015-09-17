@@ -9,9 +9,9 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'When present, it specifies that the form-data (input) should not be validated when submitted.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: html/attributes/noValidate
 
 ---
@@ -26,14 +26,12 @@ Applies to
 
 </th>
 <td>
-<http://docs.webplatform.org/wiki/html/elements/input>
+[/html/elements/input](/html/elements/input)
 
 </td>
 </tr>
 </table>
 The novalidate attribute is a boolean attribute.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

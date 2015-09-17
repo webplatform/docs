@@ -18,10 +18,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Indicates whether the WebSocket connection was cleanly closed.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebSocket
+  - API_Object_Properties
+  - API
+  - WebSocket
 uri: apis/websocket/CloseEvent/wasClean
 
 ---

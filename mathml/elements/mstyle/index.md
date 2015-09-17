@@ -13,8 +13,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The MathML mstyle element is used change the style of its children. It accepts all attributes of all MathML presentation elements with some exceptions and additional attributes listed below.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - MathML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

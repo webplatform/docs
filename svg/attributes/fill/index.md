@@ -10,8 +10,7 @@ notes:
 readiness: 'In Progress'
 summary: 'The attribute fill specifies the filling color or the behavior of an animation after it has finished.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - SVG
 uri: svg/attributes/fill
 

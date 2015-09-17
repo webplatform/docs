@@ -10,6 +10,7 @@ summary: 'Dispatched after pointer capture is released for a pointer.'
 tags:
   - Events
   - DOM
+  - Needs_Examples
 uri: dom/PointerEvent/lostpointercapture
 
 ---
@@ -72,8 +73,6 @@ None
 </tr>
 </table>
 This event is dispatched prior to any subsequent events for the pointer after capture was released. This event is dispatched to the element from which pointer capture was removed. Subsequent events for that pointer follow normal hit testing mechanisms for determining the event target. See [releasePointerCapture](/dom/Element/releasePointerCapture).
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

@@ -9,8 +9,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'All of the SVG DOM interfaces that correspond directly to elements in the SVG language derive from the SVGElement interface.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/SVGElement
 

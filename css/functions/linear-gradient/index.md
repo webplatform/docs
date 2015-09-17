@@ -11,8 +11,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Defines a linear gradient as a CSS image.'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/linear-gradient
 
 ---

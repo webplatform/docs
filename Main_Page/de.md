@@ -143,7 +143,7 @@ In Zukunft wird Web Platform Docs noch mehr Inhalte zur Erkundung bereitstellen:
 
 Wir würden uns über Ihre Hilfe bei der Verbesserung der Web Platform Docs freuen! Selbst die geringste Unterstützung kann erhebliche Auswirkungen auf die Seite haben; von der Alarmierung über Fehler anderer Entwickler in unserer Dokumentation, über die Beseitigung dieser Fehler, die Portierung von bestehenden Artikeln oder sogar der Erstellung eines komplett neuen Artikels. Um mehr zu erfahren, lesen Sie bitte unser [Editor-Handbuch.](/WPD:Editors_Guide)
 
--   Für Datei-Fehler auf webplatform, nutzen Sie unsere [Projekt Management Seite](http://project.webplatform.org). Lesen sie unsere [Bug-Annahme Seite](http://docs.webplatform.org/wiki/WPD:Filing_Bugs) für mehr Informationen.
+-   Für Datei-Fehler auf webplatform, nutzen Sie unsere [Projekt Management Seite](http://project.webplatform.org). Lesen sie unsere [Bug-Annahme Seite](/WPD:Filing_Bugs) für mehr Informationen.
 -   Falls sie Fragen zu webplatform.org haben, lesen sie bitte zunächst unsere [FAQ](/WPD:FAQ).
 
 ## Web Platform Docs auf anderen Seiten

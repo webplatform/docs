@@ -6,8 +6,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: "An HTMLCollection is a list of nodes. An individual node may be accessed either by its ordinal index or by the node's name or id attributes.\n"
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
   - HTML
   - JavaScript
@@ -22,16 +21,10 @@ Note that collections in the HTML DOM are assumed to be live, which means that t
 
 ## Properties
 
-API Name
-:   Summary
-
 [length](/dom/HTMLCollection/length)
 :   The length or size of the list.
 
 ## Methods
-
-API Name
-:   Summary
 
 [item](/dom/HTMLCollection/item)
 :   Retrieves a node specified by ordinal index. Nodes are numbered in tree order (depth-first traversal order).

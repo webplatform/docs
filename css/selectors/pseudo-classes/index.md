@@ -7,8 +7,7 @@ notes:
 readiness: 'Almost Ready'
 summary: 'Dynamic pseudo-classes classify elements on characteristics other than their name, attributes, or content, in principle characteristics that cannot be deduced from the document tree.'
 tags:
-  - API
-  - Listings
+  - API_Listings
   - CSS
 uri: css/selectors/pseudo-classes
 

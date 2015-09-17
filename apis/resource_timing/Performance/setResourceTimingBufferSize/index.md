@@ -11,11 +11,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Sets the maximum number of PerformanceResourceTiming resources that may be stored in the buffer to the value of the maxSize parameter.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Resource
-  5: Timing
+  - API_Object_Methods
+  - API
+  - Resource_Timing
 uri: 'apis/resource timing/Performance/setResourceTimingBufferSize'
 
 ---

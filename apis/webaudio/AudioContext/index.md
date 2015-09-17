@@ -4,9 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The AudioContext represents a set of AudioNode objects and their connections. It allows for arbitrary routing of signals to the AudioDestinationNode (what the user ultimately hears). Nodes are created from the context and are then connected together. In most use cases, only a single AudioContext is used per document.'
 tags:
-  0: API
-  1: Objects
-  3: WebAudio
+  - API_Objects
+  - API
+  - WebAudio
 uri: apis/webaudio/AudioContext
 
 ---
@@ -15,9 +15,6 @@ uri: apis/webaudio/AudioContext
 The AudioContext represents a set of AudioNode objects and their connections. It allows for arbitrary routing of signals to the AudioDestinationNode (what the user ultimately hears). Nodes are created from the context and are then connected together. In most use cases, only a single AudioContext is used per document.
 
 ## Properties
-
-API Name
-:   Summary
 
 [activeSourceCount](/apis/webaudio/AudioContext/activeSourceCount)
 :   The number of [**AudioBufferSourceNode**s](/apis/webaudio/AudioBufferSourceNode) that are currently playing.
@@ -37,9 +34,6 @@ API Name
 :   The sample rate, in sample-frames per second, at which the AudioContext handles audio. It is assumed that all [AudioNodes](/apis/webaudio/AudioNode) in the context run at this rate. In making this assumption, sample-rate converters or *varispeed* processors are not supported in real-time processing.
 
 ## Methods
-
-API Name
-:   Summary
 
 [createAnalyser](/apis/webaudio/AudioContext/createAnalyser)
 :   Creates an [**AnalyserNode**](/apis/webaudio/AnalyserNode).

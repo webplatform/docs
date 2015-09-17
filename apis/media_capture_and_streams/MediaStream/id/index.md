@@ -15,13 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'A globally unique identifier string, initialized when the MediaStream object is created.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Media
-  5: Capture
-  6: and
-  7: Streams
+  - API_Object_Properties
+  - API
+  - Media_Capture_and_Streams
+  - Needs_Examples
 uri: 'apis/media capture and streams/MediaStream/id'
 
 ---
@@ -42,6 +39,4 @@ var result = stream.id;
 ## Return Value
 
 Returns an object of type StringString
-
-**Needs Examples**: This section should include examples.
 

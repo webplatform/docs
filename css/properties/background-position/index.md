@@ -19,8 +19,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'background-position allows you to set the placement of a background-image on the element it is applied to. background-position generally takes two values, which set the horizontal and vertical position of the background image inside the element.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/background-position
 
 ---

@@ -12,8 +12,7 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'The number type of the &lt;input&gt; element represents a widget for entering a number.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/input/type/number
 

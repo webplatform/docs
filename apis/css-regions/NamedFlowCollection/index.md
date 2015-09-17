@@ -4,8 +4,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Obsolete. Replaced by NamedFlowMap. Represents a static snapshot array of a document''s available named flows'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - CSS-Regions
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -23,9 +22,6 @@ Obsolete. Replaced by NamedFlowMap. Represents a static snapshot array of a docu
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [namedItem](/apis/css-regions/NamedFlowCollection/namedItem)
 :   Retrieve a [named flow](/css/concepts/named_flow) by its name

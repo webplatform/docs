@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'A grid item''s placement in a grid area consists of a grid position and a grid span. The grid-row-start property (with grid-row-end, grid-column-start, and grid-column-end) determines a grid item''s placement by specifying the grid lines of a grid item''s grid area.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/grid-row-start
 
 ---

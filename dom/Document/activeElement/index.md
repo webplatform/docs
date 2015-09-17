@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Gets the object that has the focus when the parent document has focus. If no element in the document has focus, returns the &lt;body&gt; element.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Document/activeElement
 

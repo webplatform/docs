@@ -11,10 +11,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Connects the last point in the subpath to the given point (x, y) using a straight line, and then adds the point to the subpath.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Canvas
+  - API_Object_Methods
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/lineTo
 
 ---

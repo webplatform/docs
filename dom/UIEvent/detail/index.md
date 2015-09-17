@@ -18,9 +18,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets additional, developer defined, information about an event.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/UIEvent/detail
 

@@ -4,18 +4,14 @@ notes:
   - 'Summary/overview, compatibility possible examples'
 readiness: 'Not Ready'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/Location
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Properties
-
-API Name
-:   Summary
 
 [hash](/dom/Location/hash)
 :   Sets or retrieves the subsection of the **href** property that follows the number sign (\#).
@@ -40,9 +36,6 @@ API Name
 
 ## Methods
 
-API Name
-:   Summary
-
 [assign](/dom/Location/assign)
 :   Loads a new document from a given URL.
 
@@ -55,6 +48,4 @@ API Name
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 

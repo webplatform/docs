@@ -15,11 +15,11 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Represents the markup of the ShadowRoot''s contents.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: DOM
-  5: Shadow
+  - API_Object_Properties
+  - API
+  - DOM
+  - Shadow_DOM
+  - Needs_Examples
 uri: dom/shadowdom/ShadowRoot/innerHTML
 
 ---
@@ -39,6 +39,4 @@ element.innerHTML = value;
 ## Return Value
 
 Returns an object of type StringString
-
-**Needs Examples**: This section should include examples.
 

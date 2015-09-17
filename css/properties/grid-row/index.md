@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'Gets or sets a value that indicates which row an element within a Grid should appear in.  Shorthand for setting grid-row-start and grid-row-end in a single declaration.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/grid-row
 
 ---

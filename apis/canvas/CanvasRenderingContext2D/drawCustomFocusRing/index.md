@@ -17,10 +17,10 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: "Draw a focus ring of the appropriate style along the intended path, and sets result to false.\n"
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Canvas
+  - API_Object_Methods
+  - API
+  - Canvas
+  - Needs_Examples
 uri: apis/canvas/CanvasRenderingContext2D/drawCustomFocusRing
 
 ---
@@ -59,8 +59,6 @@ The path along which the focus ring is to be drawn.
 ## Return Value
 
 Returns an object of type BooleanBoolean
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

@@ -11,9 +11,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Initializes a new generic event that the  createEvent method created.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Event/initEvent
 

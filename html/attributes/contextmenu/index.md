@@ -9,8 +9,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Used to associate the menu element in the DOM to the given element as its context menu.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
   - JavaScript
 uri: html/attributes/contextmenu
@@ -81,7 +80,7 @@ var increaseItem = document.getElementById('increaseImageSize'),
 </script>
 ```
 
-[View live example](http://code.webplatform.org/gist/11067829)
+[View live example](http://gist.github.com/11067829)
 
 ## Usage
 

@@ -11,8 +11,7 @@ notes:
 readiness: 'In Progress'
 summary: 'The navigator object contains state and identity information about the browser/user agent.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/Navigator
 
@@ -22,9 +21,6 @@ uri: dom/Navigator
 The navigator object contains state and identity information about the browser/user agent.
 
 ## Properties
-
-API Name
-:   Summary
 
 [appCodeName](/dom/Navigator/appCodeName)
 :   Returns the internal "code" name of the current browser. Do not rely on this property to return the correct value.
@@ -70,9 +66,6 @@ API Name
     This property reflects the setting in the "Your locale (location)" box in the Regional Options of Control Panel—for example, "English (United States).
 
 ## Methods
-
-API Name
-:   Summary
 
 [getGamepads](/dom/Navigator/getGamepads)
 :   Retrieves a snapshot of the data for the currently connected and interacted-with gamepads. Returns a [Gamepad](/apis/gamepad/Gamepad) object.

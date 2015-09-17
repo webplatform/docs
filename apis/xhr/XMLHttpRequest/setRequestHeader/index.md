@@ -13,10 +13,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Sets the value of an XMLHttpRequest header.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: XHR
+  - API_Object_Methods
+  - API
+  - XHR
+  - Needs_Examples
 uri: apis/xhr/XMLHttpRequest/setRequestHeader
 
 ---
@@ -51,8 +51,6 @@ Method of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRe
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

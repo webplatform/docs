@@ -8,9 +8,9 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Working Draft'
 summary: 'Represents a media element (audio or video) error.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Examples
 uri: dom/HTMLMediaError
 
 ---
@@ -19,9 +19,6 @@ uri: dom/HTMLMediaError
 Represents a media element (audio or video) error.
 
 ## Properties
-
-API Name
-:   Summary
 
 [code](/dom/HTMLMediaError/code)
 :   Returns the current **HTMLMediaError** code or null if no error has occurred.
@@ -33,8 +30,6 @@ API Name
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

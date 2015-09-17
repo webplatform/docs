@@ -19,8 +19,8 @@ readiness: 'In Progress'
 standardization_status: Non-Standard
 summary: 'Sets the horizontal position of a background image.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -109,7 +109,7 @@ background-position-x: center;
      ===Usage===
 
 -   Often used to manipulate sprites (i.e. a technique of using CSS to expose small portions of a single background image, which is composed of multiple smaller images, such that HTTP requests are reduced).
--   If browser support is of utmost importance, use [background-position](http://docs.webplatform.org/wiki/css/properties/background-position) instead.
+-   If browser support is of utmost importance, use [background-position](/css/properties/background-position) instead.
 
 ## Notes
 

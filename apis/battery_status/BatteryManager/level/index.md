@@ -15,12 +15,11 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Represents the current battery level scaled from 0 to 1.0.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Battery
-  5: Status
-  6: Mobile
+  - API_Object_Properties
+  - API
+  - Battery_Status
+  - Mobile
+  - Needs_Examples
 uri: 'apis/battery status/BatteryManager/level'
 
 ---
@@ -41,6 +40,4 @@ var result = battery.level;
 ## Return Value
 
 Returns an object of type doubledouble
-
-**Needs Examples**: This section should include examples.
 

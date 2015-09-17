@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the arc cosine (or inverse cosine) of a number.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Math/acos
 
 ---

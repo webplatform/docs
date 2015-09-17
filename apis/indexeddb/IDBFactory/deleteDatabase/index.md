@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'Deletes a database with the specified name.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBFactory/deleteDatabase
 
 ---

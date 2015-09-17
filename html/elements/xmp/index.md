@@ -11,8 +11,7 @@ readiness: 'Out of Date'
 standardization_status: Deprecated
 summary: '(Obsolete) Renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. Non-conforming in HTML5. Use code or pre instead.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/xmp
 

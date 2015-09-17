@@ -6,9 +6,9 @@ readiness: 'Out of Date'
 standardization_status: 'W3C Working Draft'
 summary: "The LocalFileSystemSync interface of the File System API gives you access to a sandboxed file system. It is intended to be used with WebWorkers. The methods are implemented by worker objects.\n"
 tags:
-  0: API
-  1: Objects
-  3: FileSystemAPI
+  - API_Objects
+  - API
+  - FileSystemAPI
 uri: apis/filesystem/LocalFileSystemSync
 
 ---
@@ -23,9 +23,6 @@ The LocalFileSystemSync interface of the File System API gives you access to a s
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [requestFileSystemSync](/apis/filesystem/LocalFileSystemSync/requestFileSystemSync)
 :   Requests a file system where data should be stored. You access a sandboxed file system by requesting a LocalFileSystemSync object from within a web worker using this global method, window.requestFileSystemSync().

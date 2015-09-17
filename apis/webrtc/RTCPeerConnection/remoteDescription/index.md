@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the RTCSessionDescription most recently passed to the setRemoteDescription() method along with any remote candidate descriptions supplied with addIceCandidate(). Returns null if the remote description has not been set.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/remoteDescription
 
 ---
@@ -39,6 +39,4 @@ var result = element.remoteDescription;
 ## Return Value
 
 Returns an object of type RTCSessionDescriptionRTCSessionDescription
-
-**Needs Examples**: This section should include examples.
 

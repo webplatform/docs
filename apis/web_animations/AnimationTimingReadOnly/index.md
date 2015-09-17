@@ -4,10 +4,10 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Readonly class from which AnimationTiming classes are inherited. '
 tags:
-  0: API
-  1: Objects
-  3: Web
-  4: Animations
+  - API_Objects
+  - API
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationTimingReadOnly'
 
 ---
@@ -16,9 +16,6 @@ uri: 'apis/web animations/AnimationTimingReadOnly'
 Readonly class from which AnimationTiming classes are inherited.
 
 ## Properties
-
-API Name
-:   Summary
 
 [delay](/apis/web_animations/AnimationTimingReadOnly/delay)
 :   The start delay which represents the number of milliseconds from an animation node’s start time to the start of the active interval.
@@ -62,8 +59,6 @@ API Name
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

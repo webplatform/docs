@@ -14,9 +14,7 @@ relationships:
     href: /dom/DOMError
 summary: 'Returns the message associated with an error that occurred during a DOM operation.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/DOMError/message
 

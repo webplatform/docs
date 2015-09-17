@@ -17,11 +17,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets a value that indicates whether an event propagates up from the event target.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - DOMEvents
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -48,8 +47,6 @@ var bubbles = event.bubbles;
 Returns an object of type BooleanBoolean
 
 Whether the event propagates upward from the event target.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Initializes a new FocusEvent that the  createEvent method created.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/FocusEvent/initFocusEvent
 
 ---
@@ -79,8 +78,6 @@ Method of [dom/FocusEvent](/dom/FocusEvent)[dom/FocusEvent](/dom/FocusEvent)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

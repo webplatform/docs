@@ -143,7 +143,7 @@ No futuro, o Web Plataform Docs incluirá ainda mais conteúdo a ser explorado: 
 
 Nós amaríamos ter a sua ajuda para melhorar o Web Plataform Docs. Mesmo o menor esforço pode gerar impacto significante no site; desde alertar os colegas desenvolvedores sobre erros na nossa documentação, arrumando esses erros, portando artigos existentes ou até mesmo contribuindo com conteúdo completamente novo. Para aprender mais, por favor leia nosso [Guia do Editor](/WPD:Getting_Started).
 
--   Para reportar erros no webplatform, use o [W3C bug tracker](https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org). Leia nossa [página sobre como reportar erros](http://docs.webplatform.org/wiki/WPD:Filing_Bugs) para mais informações.
+-   Para reportar erros no webplatform, use o [W3C bug tracker](https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org). Leia nossa [página sobre como reportar erros](/WPD:Filing_Bugs) para mais informações.
 -   Caso tenha alguma pergunta sobre a webplatform.org, por favor [procure por uma resposta no FAQ antes](/WPD:FAQ).
 
 ## Mantenha contato

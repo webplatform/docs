@@ -10,9 +10,7 @@ relationships:
     href: /dom/AnimationEvent
 summary: 'A DOMString, starting with &quot;::&quot;, containing the name of the pseudo-element the animation runs on. If the animation runs on the element rather than on a pseudo-element, this property contains an empty string, &quot;&quot;.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/AnimationEvent/pseudoElement
 

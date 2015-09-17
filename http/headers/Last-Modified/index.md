@@ -8,8 +8,7 @@ overview_table:
   Features: ''
 summary: 'Provides a timestamp indicating the date and time at which the origin server believes the selected representation was last modified, as determined at the conclusion of handling the request.'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 uri: http/headers/Last-Modified
 
 ---

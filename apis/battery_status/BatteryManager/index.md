@@ -4,11 +4,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'The object that exposes the battery status information.'
 tags:
-  0: API
-  1: Objects
-  3: Battery
-  4: Status
-  5: Mobile
+  - API_Objects
+  - API
+  - Battery_Status
+  - Mobile
 uri: 'apis/battery status/BatteryManager'
 
 ---
@@ -17,9 +16,6 @@ uri: 'apis/battery status/BatteryManager'
 The object that exposes the battery status information.
 
 ## Properties
-
-API Name
-:   Summary
 
 [charging](/apis/battery_status/BatteryManager/charging)
 :   Represents if the system's battery is charging.
@@ -50,9 +46,6 @@ API Name
 *No methods.*
 
 ## Events
-
-API Name
-:   Summary
 
 [chargingchange](/apis/battery_status/BatteryManager/chargingchange)
 :   Fired when the battery charging state is updated.

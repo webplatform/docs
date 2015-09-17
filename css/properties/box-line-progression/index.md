@@ -19,8 +19,9 @@ readiness: 'In Progress'
 standardization_status: Non-Standard
 summary: "Do not use. This property has been replaced by the flex-wrap property. \n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -72,8 +73,6 @@ Successive rows or columns of child elements flow in the direction specified by 
 
 reverse
 :   Successive rows or columns of child elements flow in the reverse direction specified by the [**writing-mode**](/css/properties/writing-mode) and [**box-lines**](/css/properties/box-lines) properties.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

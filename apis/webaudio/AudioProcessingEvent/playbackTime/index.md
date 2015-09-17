@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "The time when the audio will be played, in the same time coordinate system as AudioContext.currentTime. playbackTime allows for very tight synchronization between processing directly in JavaScript with the other events in the context's rendering graph.\n"
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
+  - Needs_Examples
 uri: apis/webaudio/AudioProcessingEvent/playbackTime
 
 ---
@@ -41,8 +41,6 @@ var result = AudioProcessingEvent.playbackTime;
 ## Return Value
 
 Returns an object of type NumberNumber
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

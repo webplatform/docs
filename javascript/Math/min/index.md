@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the smaller of a set of numeric expressions.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Math/min
 
 ---

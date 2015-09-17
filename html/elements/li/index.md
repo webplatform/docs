@@ -12,8 +12,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The li element represents one list item.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/li
 

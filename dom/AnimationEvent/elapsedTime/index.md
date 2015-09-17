@@ -12,9 +12,7 @@ relationships:
     href: /dom/AnimationEvent
 summary: 'The amount of time the animation has been running, in seconds, since the event fired, excluding any time the animation was paused.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/AnimationEvent/elapsedTime
 

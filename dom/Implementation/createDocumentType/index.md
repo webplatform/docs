@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Creates a Document Type node.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/Implementation/createDocumentType
 
 ---
@@ -64,8 +63,6 @@ var object = implementation.createDocumentType(qualifiedName, publicID, systemId
 Returns an object of type DOM NodeDOM Node
 
 The created [document type](/html/elements/!DOCTYPE) object.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

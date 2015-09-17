@@ -9,10 +9,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Animation groups are represented by the AnimationGroup interface.'
 tags:
-  - API
-  - Objects
-  - Web
-  - Animations
+  - API_Objects
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationGroup'
 
 ---
@@ -24,9 +23,6 @@ Inherits from [AnimationNode](/apis/web_animations/AnimationNode)[AnimationNode]
 
 ## Properties
 
-API Name
-:   Summary
-
 [children](/apis/web_animations/AnimationGroup/children)
 :   The list of child animation nodes in the group.
 
@@ -37,9 +33,6 @@ API Name
 :   The last child of this animation group
 
 ## Methods
-
-API Name
-:   Summary
 
 [append](/apis/web_animations/AnimationGroup/append)
 :   If any of the animation nodes in nodes is an inclusive ancestor of this animation node throw a HierarchyRequestError exception and terminate these steps.
@@ -67,9 +60,6 @@ API Name
 
 ### Properties
 
-API Name
-:   Summary
-
 [computedTiming](/apis/web_animations/AnimationNode/computedTiming)
 :   Returns the calculated timing properties for this animation node. This is comparable to the computed style of an Element, window.getComputedStyle(elem).
 
@@ -90,9 +80,6 @@ API Name
 :   Returns the input timing properties specified for this animation node. This is comparable to the specified style on an Element, elem.style.
 
 ### Methods
-
-API Name
-:   Summary
 
 [after](/apis/web_animations/AnimationNode/after)
 :   Inserts nodes after this animation node.
@@ -117,6 +104,3 @@ API Name
 ### Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
-

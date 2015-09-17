@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns or sets the descriptive string associated with a specific error.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Error/description
 
 ---

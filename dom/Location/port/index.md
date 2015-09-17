@@ -16,9 +16,7 @@ relationships:
     href: /dom/Location
 summary: 'Sets or retrieves the port number associated with a URL.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Location/port
 

@@ -11,8 +11,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Transform function for a 2d translation which moves an element on the y-axis by the given value. Note that the y-axis increases vertically downwards: positive lengths shift the element down, while negative lengths shift it up.'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/translateY()
 
 ---

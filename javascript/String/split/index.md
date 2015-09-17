@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Split a string into substrings using the specified separator and return the substrings as an array.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/split
 
 ---

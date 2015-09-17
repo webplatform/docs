@@ -16,10 +16,9 @@ relationships:
     href: /css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 summary: 'Non standard. Indicates whether a property is enabled.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: css/cssom/methods/msGetPropertyEnabled
 
 ---
@@ -49,8 +48,6 @@ var enabled = declration.msGetPropertyEnabled(/* see parameter list */);
 Returns an object of type BooleanBoolean
 
 Whether the property is enabled.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

@@ -15,11 +15,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Returns a DOMHighResTimeStamp with the mark''s High Resolution Time time value.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: User
-  5: Timing
+  - API_Object_Properties
+  - API
+  - User_Timing
 uri: 'apis/user timing/PerformanceMark/startTime'
 
 ---

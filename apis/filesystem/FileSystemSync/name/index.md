@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "The name of the file system. The specifics of naming filesystems is unspecified, but a name must be unique across the list of exposed file systems.\n"
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: FileSystemAPI
+  - API_Object_Properties
+  - API
+  - FileSystemAPI
+  - Needs_Examples
 uri: apis/filesystem/FileSystemSync/name
 
 ---
@@ -43,8 +43,6 @@ var result = FileSystemSync.name;
 Returns an object of type
 
 DOMString
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

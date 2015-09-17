@@ -6,14 +6,13 @@ notes:
   - 'summary, examples, proper syntax, compatibility'
 readiness: 'Not Ready'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/external
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Properties
 
 *No properties.*
@@ -25,8 +24,6 @@ uri: dom/external
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

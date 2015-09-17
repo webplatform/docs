@@ -16,10 +16,10 @@ relationships:
     href: /apis/indexeddb/IDBObjectStore
 summary: 'Runs the steps for asynchronously executing a request and returns the IDBRequest created by these steps.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBObjectStore/get
 
 ---
@@ -47,8 +47,6 @@ var object = object.get(key);
 ## Return Value
 
 Returns an object of type DOM NodeDOM Node
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

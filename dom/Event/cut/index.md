@@ -9,6 +9,7 @@ summary: 'Fires after a data selection is cut to the clipboard.'
 tags:
   - Events
   - DOM
+  - Needs_Examples
 uri: dom/Event/cut
 
 ---
@@ -70,8 +71,6 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

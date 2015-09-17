@@ -3,8 +3,7 @@ title: 'Mobile JavaScript best practices'
 readiness: 'Ready to Use'
 summary: 'What to know, what to watch out for to make your apps perform at their best.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Mobile
 uri: 'concepts/mobile web/mobile javascript best practices'
 

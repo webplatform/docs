@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Uses the given element to update the drag feedback image, replacing any previously specified feedback image.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/DataTransfer/setDragImage
 

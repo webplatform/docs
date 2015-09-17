@@ -13,8 +13,7 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Recommendation'
 summary: 'The figure element (&lt;figure&gt;) represents self-contained content (such as an image), optionally with a caption, that can be referenced as a single unit from the main content of the document.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/figure
 

@@ -5,8 +5,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Index page for ITS attributes.'
 tags:
-  - API
-  - Listings
+  - API_Listings
 uri: its/attributes
 
 ---

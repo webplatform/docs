@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies the number of columns an element should be divided into.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/column-count
 
 ---
@@ -80,7 +80,7 @@ This example shows how to render text within the section.newspaper element in th
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6288917)
+[View live example](http://gist.github.com/6288917)
 
 Using auto for column-count will allow as many columns as are necessary or able to be generated.
 

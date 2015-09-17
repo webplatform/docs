@@ -17,9 +17,8 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: "Replaces the current transformation matrix with the result of multiplying the current transformation matrix with the matrix described by:\n"
 tags:
+  - API_Object_Methods
   - API
-  - Object
-  - Methods
 uri: apis/canvas/CanvasRenderingContext2D/transform
 
 ---

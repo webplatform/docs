@@ -4,17 +4,14 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'HTML5 audio-video elements used for enhancing the Web page experience with audio backgrounds, music, videos, presentations, etc. Also see &quot;Related articles&quot; below.'
 tags:
+  - API_Listings
   - API
-  - Listings
 uri: apis/audio-video
 
 ---
 ## Summary
 
 HTML5 audio-video elements used for enhancing the Web page experience with audio backgrounds, music, videos, presentations, etc. Also see &quot;Related articles&quot; below.
-
-API Name
-:   Summary
 
 [TextTrackList](/apis/audio-video/TextTrackList)
 :   A TextTrackList object represents a dynamically updating list of text tracks in a given order.

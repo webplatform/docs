@@ -16,9 +16,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Returns the number of tokens in a DOMTokenList.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/DOMTokenList/length
 

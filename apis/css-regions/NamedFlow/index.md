@@ -4,10 +4,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Represents content to flow among various block region elements. The NamedFlow interface allows access to both the content of the flow and the series of regions in which it displays, and helps determine if the content exceeds or falls short of the number of regions necessary to display it.'
 tags:
-  0: API
-  1: Objects
-  3: CSS
-  4: CSS-Regions
+  - API_Objects
+  - API
+  - CSS
+  - CSS-Regions
 uri: apis/css-regions/NamedFlow
 
 ---
@@ -16,9 +16,6 @@ uri: apis/css-regions/NamedFlow
 Represents content to flow among various block region elements. The NamedFlow interface allows access to both the content of the flow and the series of regions in which it displays, and helps determine if the content exceeds or falls short of the number of regions necessary to display it.
 
 ## Properties
-
-API Name
-:   Summary
 
 [firstEmptyRegionIndex](/apis/css-regions/NamedFlow/firstEmptyRegionIndex)
 :   Returns the integer index of the first empty element within a [region chain](/css/concepts/region_chain). Returns -1 if the content fits within the [region chain](/css/concepts/region_chain), if it exceeds available space or if there are no regions in the [region chain](/css/concepts/region_chain).
@@ -31,9 +28,6 @@ API Name
 
 ## Methods
 
-API Name
-:   Summary
-
 [getContent](/apis/css-regions/NamedFlow/getContent)
 :   Returns a static collection of nodes representing the [flow's](/css/concepts/named_flow) source content.
 
@@ -44,9 +38,6 @@ API Name
 :   Returns the static sequence of [regions](/css/concepts/region) that contain at least part of the supplied target content element.
 
 ## Events
-
-API Name
-:   Summary
 
 [regionfragmentchange](/apis/css-regions/NamedFlow/regionfragmentchange)
 :   Fires on the ****NamedFlow**** object when there is a change in how content flows through a [region chain](/css/concepts/region_chain).

@@ -19,8 +19,9 @@ readiness: 'In Progress'
 standardization_status: Non-Standard
 summary: Deprecated
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -81,8 +82,6 @@ block-axis
 
 inherit
 :   Child elements are displayed in the same orientation as the computed value of this property for the parent element.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

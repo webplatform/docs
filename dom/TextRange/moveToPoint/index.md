@@ -17,9 +17,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Moves the start and end positions of the text range to the given point.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/TextRange/moveToPoint
 

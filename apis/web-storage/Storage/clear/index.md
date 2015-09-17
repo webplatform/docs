@@ -11,9 +11,7 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Causes the list associated with the object to be emptied of all key/value pairs, if there are any.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - Webstorage
 uri: apis/web-storage/Storage/clear
 

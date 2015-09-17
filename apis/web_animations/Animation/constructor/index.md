@@ -11,14 +11,12 @@ relationships:
     value: ''
     href: /apis/web_animations/Animation
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
+  - Needs_Summary
+  - Needs_Examples
 uri: 'apis/web animations/Animation/constructor'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [apis/web\_animations/Animation](/apis/web_animations/Animation)[apis/web\_animations/Animation](/apis/web_animations/Animation)
 
 ## Syntax
@@ -53,6 +51,4 @@ type is either unrestricted double or AnimationTimingInput object
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
 

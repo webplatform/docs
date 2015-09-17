@@ -17,9 +17,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The justify-content property aligns flex items along the main axis of the current line of the flex container, similarly to how align-items aligns items in the cross axis.'
 tags:
-  0: CSS
-  1: Properties
-  3: Flexbox
+  - CSS_Properties
+  - CSS
+  - Flexbox
 uri: css/properties/justify-content
 
 ---
@@ -138,7 +138,7 @@ An example with the justify-content property, demonstrating the different option
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5842739)
+[View live example](http://gist.github.com/5842739)
 
 ``` html
 <p>justify-content: flex-start</p>

@@ -17,9 +17,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Non standard. Gets a text from a given location around the edges of the element.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Element/getAdjacentText
 

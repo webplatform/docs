@@ -9,8 +9,8 @@ readiness: readiness-state
 standardization_status: 'W3C Recommendation'
 summary: 'Marks a ruby text container'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
+  - Needs_Examples
 uri: html/elements/rtc
 
 ---
@@ -22,8 +22,6 @@ Marks a ruby text container
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

@@ -10,8 +10,7 @@ notes:
 readiness: 'Ready to Use'
 summary: 'Conditionally executes a group of statements, depending on the value of an expression.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/statements/if else'
 
 ---

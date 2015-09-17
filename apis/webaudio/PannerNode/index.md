@@ -4,9 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'This interface represents a processing node which positions / spatializes an incoming audio stream in three-dimensional space. The spatialization is in relation to the AudioContext''s AudioListener (listener attribute). The audio stream from the input will be either mono or stereo, depending on the connection(s) to the input. The output of this node is hard-coded to stereo (2 channels) and currently cannot be configured.'
 tags:
-  0: API
-  1: Objects
-  3: WebAudio
+  - API_Objects
+  - API
+  - WebAudio
 uri: apis/webaudio/PannerNode
 
 ---
@@ -15,9 +15,6 @@ uri: apis/webaudio/PannerNode
 This interface represents a processing node which positions / spatializes an incoming audio stream in three-dimensional space. The spatialization is in relation to the AudioContext's AudioListener (listener attribute). The audio stream from the input will be either mono or stereo, depending on the connection(s) to the input. The output of this node is hard-coded to stereo (2 channels) and currently cannot be configured.
 
 ## Properties
-
-API Name
-:   Summary
 
 [coneInnerAngle](/apis/webaudio/PannerNode/coneInnerAngle)
 :   A parameter for directional audio sources, this is an angle inside of which there will be no volume reduction. The default value is 360.
@@ -44,9 +41,6 @@ API Name
 :   Describes how quickly the volume is reduced as source moves away from listener. The default value is 1.
 
 ## Methods
-
-API Name
-:   Summary
 
 [setOrientation](/apis/webaudio/PannerNode/setOrientation)
 :   Describes which direction the audio source is pointing in the 3D cartesian coordinate space. Depending on how directional the sound is (controlled by the cone attributes), a sound pointing away from the listener can be very quiet or completely silent. The x, y, and z parameters represent a direction vector in 3D space. The default value is (1,0,0).

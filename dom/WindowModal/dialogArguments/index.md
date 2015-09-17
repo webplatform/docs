@@ -13,9 +13,7 @@ relationships:
     href: /dom/WindowModal
 summary: 'Gets the arguments that are specified when showModalDialog is called.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/WindowModal/dialogArguments
 

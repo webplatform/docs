@@ -4,9 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'This object defines an individual gamepad device. Data is retrieved via the DOM Navigator object''s getGamepads() method.'
 tags:
-  0: API
-  1: Objects
-  3: Gamepad
+  - API_Objects
+  - API
+  - Gamepad
 uri: apis/gamepad/Gamepad
 
 ---
@@ -15,9 +15,6 @@ uri: apis/gamepad/Gamepad
 This object defines an individual gamepad device. Data is retrieved via the DOM Navigator object's getGamepads() method.
 
 ## Properties
-
-API Name
-:   Summary
 
 [axes](/apis/gamepad/Gamepad/axes)
 :   Array of values for all axes of the gamepad. Each entry in the array is a floating point value in the range -1.0 - 1.0, representing the axis position from the lowest value (-1.0) to the highest value (1.0).

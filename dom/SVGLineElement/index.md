@@ -14,8 +14,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Defines a line by using beginning and ending (x,y) coordinate values with stroke and stroke-width styles .'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/SVGLineElement
 

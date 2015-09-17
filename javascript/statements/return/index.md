@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Exits from the current function and returns a value from that function.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/statements/return
 
 ---

@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets the value of a property in a CSS style declaration.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: css/cssom/CSSStyleDeclaration/getPropertyValue
 
 ---
@@ -50,8 +49,6 @@ var value = declaration.getPropertyValue(property);
 Returns an object of type StringString
 
 The value of the property if it is explicitly set for this declaration block, or null.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

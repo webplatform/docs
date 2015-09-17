@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The text-align CSS property describes how inline content like text is aligned in its parent block element. text-align does not control the alignment of block elements itself, only their inline content.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-align
 
 ---
@@ -107,7 +107,7 @@ This just shows the four possible types of text-alignment.
 <p class="justified">This paragraph needs to be really long in order to show how to justify text. It only works because we set a width for this paragraph though.</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/5664679)
+[View live example](http://gist.github.com/5664679)
 
 ``` css
 .left { text-align: left;}

@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Gets the arguments for the currently executing Function object.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Function/arguments
 
 ---

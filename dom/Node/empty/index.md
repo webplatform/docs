@@ -17,10 +17,9 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Cancels the current selection, sets the selection type to none, and sets the item property to null. '
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/Node/empty
 
 ---
@@ -43,8 +42,6 @@ Returns an object of type NumberNumber
 Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

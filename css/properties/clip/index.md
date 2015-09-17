@@ -21,8 +21,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Editor''s Draft'
 summary: "Deprecated; see clip-path.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -105,7 +105,7 @@ img.clipped-text {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6338197)
+[View live example](http://gist.github.com/6338197)
 
 The HTML for the above example.
 

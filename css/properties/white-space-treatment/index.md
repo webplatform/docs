@@ -16,8 +16,9 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'Obsolete: unsupported.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/white-space-treatment
 
 ---
@@ -51,6 +52,4 @@ Animatable
 ## Syntax
 
 ## Values
-
-**Needs Examples**: This section should include examples.
 

@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the character position where the first successful match begins in a searched string. Read-only.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/RegExp/index
 
 ---

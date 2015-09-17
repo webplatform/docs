@@ -16,10 +16,9 @@ relationships:
     href: /css/cssom/styleSheet
 summary: 'Non standard. Adds an @import rule to the style sheet.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: css/cssom/styleSheet/addImport
 
 ---
@@ -58,8 +57,6 @@ The requested position for the style sheet in the collection. If this value is n
 Returns an object of type NumberNumber
 
 A zero-based index value indicating the position of the imported style sheet in the [**imports**](/css/cssom/imports) collection.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

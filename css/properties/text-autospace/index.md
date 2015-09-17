@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'When non-ideographic characters (such as numbers) are presented alongside ideographic characters, many designers prefer to include spacing to separate it from the surrounding ideographs.  This property automates the creation of that space by introducing an in-line margin, the width of which corresponds to the width of existing ideographs.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -106,7 +106,7 @@ tr:nth-child(5) {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5842252)
+[View live example](http://gist.github.com/5842252)
 
 ## Usage
 

@@ -21,8 +21,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "The text-decoration CSS property is used to set the text formatting to underline, overline, line-through or blink. underline and overline decorations are positioned under the text, line-through over it.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-decoration
 
 ---
@@ -93,7 +93,7 @@ blink
 ```
 
 </pre>
-[View live example](http://code.webplatform.org/gist/7283381)
+[View live example](http://gist.github.com/7283381)
 
 ``` css
 .under   { text-decoration: underline; }

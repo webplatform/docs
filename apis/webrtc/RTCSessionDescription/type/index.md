@@ -14,10 +14,10 @@ relationships:
     href: /apis/webrtc/RTCSessionDescription
 summary: 'The type of SDP object this RTCSessionDescription represents.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCSessionDescription/type
 
 ---
@@ -43,6 +43,4 @@ The RTCSdpType enum has the following values:
 -   answer - use the SDP object as the final answer.
 -   offer - use the SDP object as an offer.
 -   pranswer - use the SDP object as a provisional answer.
-
-**Needs Examples**: This section should include examples.
 

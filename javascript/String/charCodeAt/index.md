@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the Unicode value of the character at the specified location.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/charCodeAt
 
 ---

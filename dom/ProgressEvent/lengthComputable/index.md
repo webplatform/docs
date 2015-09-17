@@ -18,10 +18,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Specifies whether the total size of the operation is known.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/ProgressEvent/lengthComputable
 
 ---
@@ -44,8 +43,6 @@ var result = ProgressEvent.lengthComputable;
 Returns an object of type BooleanBoolean
 
 The ProgressEvent.lengthComputable read-only property is a Boolean flag indicating if the resource concerned by the ProgressEvent has a length that can be calculated. If not, the ProgressEvent.total property has no significant value.
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

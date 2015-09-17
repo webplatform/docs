@@ -16,8 +16,9 @@ overview_table:
 readiness: 'In Progress'
 summary: "Specifies a row position based upon an integer location, string value, or desired row size. \n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/grid-row-position
 
 ---
@@ -70,8 +71,6 @@ auto
 
 string
 :   Identifies the specified row.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

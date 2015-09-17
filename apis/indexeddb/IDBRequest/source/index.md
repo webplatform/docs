@@ -18,10 +18,10 @@ relationships:
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'The source of the request, such as an Index or a ObjectStore. If no source exists (such as when calling indexedDB.open()), it returns null.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBRequest/source
 
 ---
@@ -42,8 +42,6 @@ var result = element.source;
 ## Return Value
 
 Returns an object of type ObjectObject
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

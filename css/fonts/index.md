@@ -7,9 +7,9 @@ notes:
 readiness: 'In Progress'
 summary: "Sets font-style, font-variant, font-weight, font-size/line-height, font-family properties in one declaration. \n"
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Examples
 uri: css/fonts
 
 ---
@@ -32,8 +32,6 @@ The order is obligatory, not all options must be set.
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

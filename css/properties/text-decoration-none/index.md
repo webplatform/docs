@@ -17,13 +17,13 @@ overview_table:
   '[CSS Object Model Property](/css/concepts/cssom)': ''
 readiness: 'Not Ready'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Summary
+  - Needs_Examples
 uri: css/properties/text-decoration-none
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Overview table
 
 [Initial value](/css/concepts/initial_value)
@@ -59,8 +59,6 @@ VARIANT\_TRUE
 
 VARIANT\_FALSE
 :   Property is not set to **none**.
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

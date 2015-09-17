@@ -15,9 +15,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Retrieves the y-coordinate of the top corner of the client area, relative to the top corner of the screen.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Window/screenTop
 

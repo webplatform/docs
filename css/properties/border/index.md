@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Shorthand property that defines the different properties of all four sides of an element''s border in a single declaration. It can be used to set border-width, border-style and border-color, or a subset of these.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border
 
 ---
@@ -86,7 +86,7 @@ A simple example showing multiple `<div>`s, identical in style except that they 
 <div class="five"><p>Five</p></div>
 ```
 
-[View live example](http://code.webplatform.org/gist/5534182)
+[View live example](http://gist.github.com/5534182)
 
 ``` css
 /**
@@ -133,7 +133,7 @@ p {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5534182)
+[View live example](http://gist.github.com/5534182)
 
 ## Usage
 

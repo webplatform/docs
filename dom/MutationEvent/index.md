@@ -13,10 +13,10 @@ relationships:
 standardization_status: Deprecated
 summary: "Represents events for tracking modifications, insertions and deletions of attributes and nodes in the DOM.\nMutation Events (W3C DOM Level 3 Events) have been deprecated in favor of Mutation Observers (W3C DOM4).\n"
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
   - DOMEvents
+  - Needs_Examples
 uri: dom/MutationEvent
 
 ---
@@ -31,9 +31,6 @@ Pages or Web apps using it may break at any time.
 Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
 ## Properties
-
-API Name
-:   Summary
 
 [attrChange](/dom/MutationEvent/attrChange)
 :   Gets a value that indicates what type of change occurred.
@@ -52,9 +49,6 @@ API Name
 
 ## Methods
 
-API Name
-:   Summary
-
 [initMutationEvent](/dom/MutationEvent/initMutationEvent)
 :   Initializes a new DOM mutation (modification) event that the [**createEvent**](/dom/Document/createEvent) method created.
 
@@ -65,9 +59,6 @@ API Name
 ## Inherited from Event
 
 ### Properties
-
-API Name
-:   Summary
 
 [bubbles](/dom/Event/bubbles)
 :   Gets a value that indicates whether an event propagates up from the event target.
@@ -98,9 +89,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initEvent](/dom/Event/initEvent)
 :   Initializes a new generic event that the [**createEvent**](/dom/Document/createEvent) method created.
 
@@ -114,9 +102,6 @@ API Name
 :   Prevents propagation of an event beyond the current target.
 
 ### Events
-
-API Name
-:   Summary
 
 [DOMContentLoaded](/dom/Event/DOMContentLoaded)
 :
@@ -195,8 +180,6 @@ API Name
 
 [finish](/dom/Event/finish)
 :
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

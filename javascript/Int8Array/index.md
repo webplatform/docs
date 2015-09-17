@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'A typed array of 8-bit integer values. The contents are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Int8Array
 
 ---

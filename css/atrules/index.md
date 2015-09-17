@@ -5,19 +5,14 @@ notes:
 readiness: 'In Progress'
 summary: 'At-rules are special instructions for the CSS parser. They are invoked by an at-keyword preceded by an &quot;@&quot; sign.'
 tags:
-  - Basic
-  - Pages
-  - API
-  - Listings
+  - Basic_Pages
+  - API_Listings
 uri: css/atrules
 
 ---
 ## Summary
 
 At-rules are special instructions for the CSS parser. They are invoked by an at-keyword preceded by an &quot;@&quot; sign.
-
-API Name
-:   Summary
 
 [@charset](/css/atrules/@charset)
 :   Specifies the character encoding of the style sheet.

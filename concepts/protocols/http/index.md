@@ -7,10 +7,8 @@ notes:
 readiness: 'Not Ready'
 summary: 'HTTP is an application-layer protocol used for storing, retrieving, and communicating about information resources on a remote server. It is the transfer protocol used by the Web, and defines many features to support caching, authentication, manipulation of resources, negotiation of functionality, and more.'
 tags:
-  - Basic
-  - Pages
-  - Web
-  - Services
+  - Basic_Pages
+  - Web_Services
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

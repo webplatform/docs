@@ -21,8 +21,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "The padding optional CSS property sets the required padding space on one to four sides of an element. The padding area is the space between an element and its border. Negative values are not allowed but decimal values are permitted.  The element size is treated as fixed, and the content of the element shifts toward the center as padding is increased.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/padding
 
 ---
@@ -80,7 +80,7 @@ padding: 10% 10% 10% 10%;
       /*  top, right, bottom, and left padding set at 10%   */
 ```
 
-[View live example](http://code.webplatform.org/gist/5842631)
+[View live example](http://gist.github.com/5842631)
 
 The padding style has three values. The left padding value is the inferred by the right padding value.
 

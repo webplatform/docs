@@ -14,8 +14,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'Represents either a hyperlink with some text and a corresponding area on an image map, or a dead area on an image map.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/area
 

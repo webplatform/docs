@@ -22,8 +22,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'This property transforms text for styling purposes. (It has no effect on the underlying content.)'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -118,7 +118,7 @@ body {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5651013)
+[View live example](http://gist.github.com/5651013)
 
 Using text-transform also works on greek or german letters
 
@@ -138,7 +138,7 @@ body {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5651033)
+[View live example](http://gist.github.com/5651033)
 
 ## Notes
 

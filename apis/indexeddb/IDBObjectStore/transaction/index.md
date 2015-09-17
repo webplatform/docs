@@ -10,10 +10,10 @@ relationships:
     href: /apis/indexeddb/IDBObjectStore
 summary: 'Returns the transaction this object store belongs to.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBObjectStore/transaction
 
 ---
@@ -30,6 +30,4 @@ Property of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis
 ``` js
 var result = element.transaction;
 ```
-
-**Needs Examples**: This section should include examples.
 

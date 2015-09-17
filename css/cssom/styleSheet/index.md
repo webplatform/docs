@@ -7,8 +7,7 @@ notes:
 readiness: 'Ready to Use'
 summary: 'A style sheet in the document.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -23,9 +22,7 @@ uri: css/cssom/styleSheet
 A style sheet in the document.</p><p><br/></p>
 <h2>Properties</h2>
 
-<dl><dt>API Name</dt>
-  <dd>Summary</dd>
-</dl><dl><dt><a href="/css/cssom/styleSheet/cssRules">cssRules</a></dt>
+<dl><dt><a href="/css/cssom/styleSheet/cssRules">cssRules</a></dt>
   <dd>Gets a list of CSS rules of a style sheet.</dd>
 </dl><dl><dt><a href="/css/cssom/styleSheet/cssText">cssText</a></dt>
   <dd>Gets or sets the textual representation of a style sheet.</dd>
@@ -50,9 +47,7 @@ A style sheet in the document.</p><p><br/></p>
 </dl><p><br/></p>
 <h2>Methods</h2>
 
-<dl><dt>API Name</dt>
-  <dd>Summary</dd>
-</dl><dl><dt><a href="/css/cssom/methods/addPageRule">addPageRule</a></dt>
+<dl><dt><a href="/css/cssom/methods/addPageRule">addPageRule</a></dt>
   <dd>Not implemented anywhere. Non standard.</dd>
 </dl><dl><dt><a href="/css/cssom/styleSheet/addImport">addImport</a></dt>
   <dd>Non standard. Adds an @import rule to the style sheet.</dd>

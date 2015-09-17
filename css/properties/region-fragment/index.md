@@ -16,8 +16,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: "Controls whether the last region in a chain displays additional 'overset' content according its default overflow property, or\tif it displays a fragment of content as if it were flowing into a subsequent region."
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/region-fragment
 
 ---

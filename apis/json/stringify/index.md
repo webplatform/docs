@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Export a JavaScript object to a JSON string.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - JavaScript
 uri: apis/json/stringify
 

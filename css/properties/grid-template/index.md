@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'Shorthand for setting grid-template-columns, grid-template-rows, and grid-template-areas in a single declaration.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/grid-template
 
 ---

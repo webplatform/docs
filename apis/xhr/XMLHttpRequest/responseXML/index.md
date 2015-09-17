@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the response to the request as a DOM Document object, or null if the request was unsuccessful, has not yet been sent, or cannot be parsed as XML or HTML.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: XHR
+  - API_Object_Properties
+  - API
+  - XHR
 uri: apis/xhr/XMLHttpRequest/responseXML
 
 ---

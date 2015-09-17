@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Returns an HTMLCollection of area elements included within the element.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/HTMLMapElement/areas
 
 ---
@@ -43,8 +42,6 @@ var areaElements = mapElement.areas;
 Returns an object of type ObjectObject
 
 An HTMLCollection of [area](/dom/HTMLAreaElement) elements.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

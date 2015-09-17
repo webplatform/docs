@@ -14,8 +14,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'The ProgressEvent interface represents events measuring progress of an underlying process, like an HTTP request (for an XMLHttpRequest, or the loading of the underlying resource of an &lt;img&gt;, &lt;audio&gt;, &lt;video&gt;, &lt;style&gt; or &lt;link&gt;).'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/ProgressEvent
 
@@ -28,9 +27,6 @@ Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
 ## Properties
 
-API Name
-:   Summary
-
 [lengthComputable](/dom/ProgressEvent/lengthComputable)
 :   Specifies whether the total size of the operation is known.
 
@@ -42,9 +38,6 @@ API Name
 
 ## Methods
 
-API Name
-:   Summary
-
 [initProgressEvent](/dom/ProgressEvent/initProgressEvent)
 :   Initializes the value of a ProgressEvent object.
 
@@ -55,9 +48,6 @@ API Name
 ## Inherited from Event
 
 ### Properties
-
-API Name
-:   Summary
 
 [bubbles](/dom/Event/bubbles)
 :   Gets a value that indicates whether an event propagates up from the event target.
@@ -88,9 +78,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initEvent](/dom/Event/initEvent)
 :   Initializes a new generic event that the [**createEvent**](/dom/Document/createEvent) method created.
 
@@ -104,9 +91,6 @@ API Name
 :   Prevents propagation of an event beyond the current target.
 
 ### Events
-
-API Name
-:   Summary
 
 [DOMContentLoaded](/dom/Event/DOMContentLoaded)
 :

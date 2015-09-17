@@ -13,14 +13,12 @@ relationships:
     value: ''
     href: /dom/Element
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/Element/scrollByPages
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
 ## Syntax
@@ -32,6 +30,4 @@ var result = element.scrollByPages();
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
 

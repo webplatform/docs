@@ -9,8 +9,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Defines a 3D scale transformation by giving a value for the Z-axis.'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/scaleZ()
 
 ---

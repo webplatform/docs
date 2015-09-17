@@ -10,8 +10,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Sets or retrieves a destination URL or an anchor point'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/href
 

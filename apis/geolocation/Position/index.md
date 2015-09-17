@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The container for the geolocation information returned by this API.'
 tags:
-  0: API
-  1: Objects
-  3: Geolocation
+  - API_Objects
+  - API
+  - Geolocation
 uri: apis/geolocation/Position
 
 ---
@@ -17,9 +17,6 @@ uri: apis/geolocation/Position
 The container for the geolocation information returned by this API.
 
 ## Properties
-
-API Name
-:   Summary
 
 [coords](/apis/geolocation/Position/coords)
 :   Contains a set of geographic coordinates together with their associated accuracy, as well as a set of other optional attributes such as altitude and speed.

@@ -8,9 +8,7 @@ readiness: 'Not Ready'
 standardization_status: Unknown
 tags:
   - SVG
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
 uri: svg/properties/a
 
 ---

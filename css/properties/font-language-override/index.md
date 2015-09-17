@@ -18,8 +18,9 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The ‘font-language-override’ property allows authors to explicitly specify the language system of the font, overriding the language system implied by the content language.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/font-language-override
 
 ---
@@ -65,8 +66,6 @@ normal
 
 \<string\>
 :   single three-letter case-sensitive OpenType language system tag, specifies the OpenType language system to be used instead of the language system implied by the language of the element
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

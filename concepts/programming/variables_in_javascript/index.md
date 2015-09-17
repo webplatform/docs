@@ -3,8 +3,8 @@ title: 'Variables in JavaScript'
 readiness: 'Almost Ready'
 summary: 'JavaScript recognizes values such as integers and strings, which are represented with symbolic names by which they are referenced in the source code. Each variable is associated with a data type and has a scope, or area in which it is valid.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -637,6 +637,4 @@ You can use Unicode to display the characters in different languages or technica
 To receive non-ASCII character input, the client needs to send the input as Unicode. Using a standard enhanced keyboard, the client cannot easily input the additional characters supported by Unicode. Sometimes, the only way to input Unicode characters is by using Unicode escape sequences.
 
 For more information on Unicode, see the [<http://www.unicode.org/>
-
-**Needs Examples**: This section should include examples.
 

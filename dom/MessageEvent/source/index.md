@@ -17,11 +17,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets the window object that sent the message.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - DOMEvents
+  - Needs_Examples
 uri: dom/MessageEvent/source
 
 ---
@@ -44,8 +43,6 @@ var sourceWindow = event.source;
 Returns an object of type ObjectObject
 
 The window that sent the message.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

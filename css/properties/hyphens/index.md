@@ -21,8 +21,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'Specifies whether or not words in a sentence can be split by the use of a manual or automatic hyphenation mechanism.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/hyphens
 
 ---
@@ -91,7 +91,7 @@ p:nth-child(3) {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6948199)
+[View live example](http://gist.github.com/6948199)
 
 ## Usage
 

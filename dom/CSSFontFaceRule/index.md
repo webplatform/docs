@@ -12,8 +12,7 @@ relationships:
     href: /css/cssom/CSSRule
 summary: 'Represents a CSS @font-face rule, used to hold a set of font descriptions.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/CSSFontFaceRule
 
@@ -39,9 +38,6 @@ Inherits from [CSSRule](/css/cssom/CSSRule)[CSSRule](/css/cssom/CSSRule)
 ## Inherited from CSSRule
 
 ### Properties
-
-API Name
-:   Summary
 
 [cssText](/css/cssom/CSSRule/cssText)
 :   Gets or sets a textual representation of a CSS rule.

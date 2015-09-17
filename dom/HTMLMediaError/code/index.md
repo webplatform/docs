@@ -16,12 +16,12 @@ relationships:
     href: /dom/HTMLMediaError
 summary: 'Returns the current HTMLMediaError code or null if no error has occurred.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Audio
-  5: DOM
-  6: Video
+  - API_Object_Properties
+  - API
+  - Audio
+  - DOM
+  - Video
+  - Needs_Examples
 uri: dom/HTMLMediaError/code
 
 ---
@@ -44,8 +44,6 @@ var errorCode = audio.error.code;
 Returns an object of type unsigned shortunsigned short
 
 The error code (from the [MediaError](/dom/HTMLMediaError) constants), or null.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

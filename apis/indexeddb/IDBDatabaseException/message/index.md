@@ -12,10 +12,10 @@ relationships:
     href: /apis/indexeddb/IDBDatabaseException
 summary: 'Not supported.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBDatabaseException/message
 
 ---
@@ -31,8 +31,6 @@ Property of [apis/indexeddb/IDBDatabaseException](/apis/indexeddb/IDBDatabaseExc
 var result = element.message;
 element.message = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

@@ -4,8 +4,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The ECMAScript Internationalization API provides key language-sensitive functionality as a complement to the ECMAScript Language Specification, 5.1 edition or successor. Its functionality has been selected from that of well-established internationalization APIs such as those of the Internationalization Components for Unicode (ICU) library, of the .NET framework, or of the Java platform.'
 tags:
-  - API
-  - Listings
+  - API_Listings
   - Internationalization
   - JavaScript
 uri: apis/internationalization
@@ -14,9 +13,6 @@ uri: apis/internationalization
 ## Summary
 
 The ECMAScript Internationalization API provides key language-sensitive functionality as a complement to the ECMAScript Language Specification, 5.1 edition or successor. Its functionality has been selected from that of well-established internationalization APIs such as those of the Internationalization Components for Unicode (ICU) library, of the .NET framework, or of the Java platform.
-
-API Name
-:   Summary
 
 [Intl](/apis/internationalization/Intl)
 :   The **Intl** object serves as a namespace for the i18n API. It is a standard built-in object that is the initial value of the *Intl* property of the global object. It is not possible to use the **Intl** object as a constructor with the *new* operator. It is not possible to invoke the **Intl** object as a function.

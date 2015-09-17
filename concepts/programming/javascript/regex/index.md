@@ -8,6 +8,7 @@ notes:
 readiness: 'Not Ready'
 tags:
   - JavaScript
+  - Needs_Summary
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -22,10 +23,6 @@ todo_broken_links:
 uri: concepts/programming/javascript/regex
 
 ---
-<div class="editors-only">
-<p><b>Needs Summary</b>:   This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article. 
-</p>
-</div>
 <h2 id="Creating_a_Regular_Expression">Creating a Regular Expression</h2>
 <p>You construct a regular expression in one of two ways:</p>
 <ul><li>Using a regular expression literal, as follows:

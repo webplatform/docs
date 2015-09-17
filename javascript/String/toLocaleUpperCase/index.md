@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns a string where all alphabetic characters have been converted to uppercase, taking into account the host environment''s current locale.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/toLocaleUpperCase
 
 ---

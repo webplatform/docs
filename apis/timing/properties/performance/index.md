@@ -11,10 +11,10 @@ relationships:
     value: apis/timing/objects/PerformanceEntry
     href: /apis/timing/objects/PerformanceEntry
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -23,8 +23,6 @@ todo_broken_links:
 uri: apis/timing/properties/performance
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [apis/timing/objects/PerformanceEntry](/apis/timing/objects/PerformanceEntry)[apis/timing/objects/PerformanceEntry](/apis/timing/objects/PerformanceEntry)
 
 ## Syntax
@@ -33,8 +31,6 @@ Property of [apis/timing/objects/PerformanceEntry](/apis/timing/objects/Performa
 var result = element.performance;
 element.performance = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

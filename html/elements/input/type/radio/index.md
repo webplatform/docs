@@ -12,15 +12,8 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'The radio type of the &lt;input&gt; element represents a radio button control.'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Elements
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Elements
   - HTML
 uri: html/elements/input/type/radio
 

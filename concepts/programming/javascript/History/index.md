@@ -5,8 +5,7 @@ attributions:
 readiness: 'Almost Ready'
 summary: 'Javascript was initially developed for Netscape Navigator and copied (with variations) by other web browsers.  The standardized form of Javascript, officially known as ECMAScript, is now overseen by Ecma International.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

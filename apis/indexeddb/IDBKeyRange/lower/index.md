@@ -12,10 +12,10 @@ relationships:
     href: /apis/indexeddb/IDBKeyRange
 summary: 'This value is the lower-bound of the key range.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBKeyRange/lower
 
 ---
@@ -31,8 +31,6 @@ Property of [apis/indexeddb/IDBKeyRange](/apis/indexeddb/IDBKeyRange)[apis/index
 var result = element.lower;
 element.lower = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

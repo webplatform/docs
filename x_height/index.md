@@ -4,8 +4,7 @@ notes:
   - 'Glossary term; move candidate, possibly rename to x-height'
 readiness: 'Not Ready'
 tags:
-  - Glossary
-  - Items
+  - Glossary_Items
 uri: 'x height'
 
 ---

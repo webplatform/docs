@@ -18,8 +18,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The fieldset element is used to group related fields within a form.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/fieldset
 
@@ -57,7 +56,7 @@ The fieldset element is used to group related fields within a form.</p><p><br/><
 &lt;/form&gt;
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/f77f0a06304503ecddd6">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://gist.github.com/f77f0a06304503ecddd6">View live example</a>
 </p>
 </div>
 <p>The following snippet shows a <b>fieldset</b> with a checkbox in the legend that controls whether or not the fieldset is enabled.
@@ -86,7 +85,7 @@ The fieldset element is used to group related fields within a form.</p><p><br/><
 &lt;/form&gt;
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/fc26d3507ee33bdd6043">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://gist.github.com/fc26d3507ee33bdd6043">View live example</a>
 </p>
 </div>
 <p>Example with nested <b>fieldset</b> elements.
@@ -127,7 +126,7 @@ The fieldset element is used to group related fields within a form.</p><p><br/><
 &lt;/form&gt;
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/91bca1371d394bf3c52d">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://gist.github.com/91bca1371d394bf3c52d">View live example</a>
 </p>
 </div>
 <h2>Usage</h2>

@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The white-space property controls whether and how white space inside the element is collapsed, and whether lines may wrap at unforced &quot;soft wrap&quot; opportunities.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/white-space
 
 ---
@@ -118,7 +118,7 @@ p {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/7284477)
+[View live example](http://gist.github.com/7284477)
 
 ## Notes
 

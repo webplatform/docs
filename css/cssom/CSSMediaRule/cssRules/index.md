@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets a list of rules within a @media block.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: css/cssom/CSSMediaRule/cssRules
 
 ---
@@ -41,8 +40,6 @@ var ruleList = mediaRule.cssRules;
 Returns an object of type DOM NodeDOM Node
 
 Type - CSSRuleList. A list of all of the rules within the media block.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

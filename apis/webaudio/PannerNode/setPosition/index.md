@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Sets the position of the audio source relative to the listener attribute. A 3D cartesian coordinate system is used. The x, y, and z parameters represent the coordinates in 3D space. The default value is (0,0,0).'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebAudio
+  - API_Object_Methods
+  - API
+  - WebAudio
 uri: apis/webaudio/PannerNode/setPosition
 
 ---

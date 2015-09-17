@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the Function object being executed, that is, the body text of the specified Function object.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/arguments/callee
 
 ---

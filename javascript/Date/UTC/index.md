@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the number of milliseconds between midnight, January 1, 1970 Universal Coordinated Time (UTC) (or GMT) and the specified date.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Date/UTC
 
 ---

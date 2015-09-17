@@ -10,9 +10,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'Specifies the border color of the object.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: html/attributes/borderColor
 
 ---
@@ -32,8 +32,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 To render the color specified by *sColor*, the [**BORDER**](/html/attributes/border) attribute must be set to an integer greater than zero. Some client applications do not recognize color names, but all client applications should recognize RGB color values and display them correctly.

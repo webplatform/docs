@@ -16,9 +16,7 @@ relationships:
 standardization_status: Deprecated
 summary: 'Returns a value indicating whether or not the object supports a specific DOM standard.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Node/isSupported
 

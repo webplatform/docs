@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Gets the own property descriptor of the specified object. An own property descriptor is one that is defined directly on the object and is not inherited from the object''s prototype.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Object/getOwnPropertyDescriptor
 
 ---

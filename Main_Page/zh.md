@@ -155,7 +155,7 @@ Web 平台文库现阶段仍然是不成熟的，但你已经可以在网站上�
 
 我们非常乐意有您帮助改善 Web 平台文库。就算是细微的改进，也会在网络上引起显著的反响，与我们一起，提醒有关错误、修复这些错误 移植现有的资料，以至贡献全新的内容。更多相关信息，请阅读我们的[编者入门](/WPD:Getting_Started)。
 
--   向 Web 平台文库反馈错误信息（<abbr>Bugs</abbr>）, 请使用 [W3C“项目管理”页面](https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org)。 更多相关信息，请参阅[申报错误页面](http://docs.webplatform.org/wiki/WPD:Filing_Bugs/zh)。
+-   向 Web 平台文库反馈错误信息（<abbr>Bugs</abbr>）, 请使用 [W3C“项目管理”页面](https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org)。 更多相关信息，请参阅[申报错误页面](/WPD:Filing_Bugs/zh)。
 -   如果你对 Web 平台文库有任何疑问，请先看一看 [常见问题](/w/index.php?title=WPD:FAQ/zh&action=edit&redlink=1) 里的提示。
 
 ## 保持联络

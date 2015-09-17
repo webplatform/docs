@@ -12,17 +12,16 @@ relationships:
     href: /dom/Element
 standardization_status: 'W3C Candidate Recommendation'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Audio
-  5: DOM
-  6: Video
+  - API_Object_Properties
+  - API
+  - Audio
+  - DOM
+  - Video
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/Element/media
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
 ## Syntax
@@ -31,8 +30,6 @@ Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 var result = element.media;
 element.media = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

@@ -8,9 +8,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The File object provides information about files stored on the user''s computer, and access to their contents. These are generally retrieved from a FileList object returned when a user selects files using the input element, or from a drag-and-drop operation''s DataTransfer object.'
 tags:
-  0: API
-  1: Objects
-  3: FileAPI
+  - API_Objects
+  - API
+  - FileAPI
 uri: apis/file/File
 
 ---
@@ -19,9 +19,6 @@ uri: apis/file/File
 The File object provides information about files stored on the user's computer, and access to their contents. These are generally retrieved from a FileList object returned when a user selects files using the input element, or from a drag-and-drop operation's DataTransfer object.
 
 ## Properties
-
-API Name
-:   Summary
 
 [lastModifiedDate](/apis/file/File/lastModifiedDate)
 :   The last modified date of the file. On getting, if user agents can make this information available, this must return a new Date object initialized to the last modified date of the file. If the last modification date and time are not known, the attribute must return the current date and time as a Date object.

@@ -11,9 +11,9 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: 'Use the type attribute instead. Specifies the language of the script to be evaluated. May be omitted when using ECMAScript (also known as JavaScript).'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: html/attributes/language
 
 ---
@@ -33,8 +33,6 @@ dom/HTMLScriptElement
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Usage
 
      Use this attribute only when you want the browser to evaluate the script in a language or a version of the language other than the default. If the browser does not support the specified language or version of the language, the script will not be evaluated.

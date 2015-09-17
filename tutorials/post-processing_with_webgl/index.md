@@ -2,6 +2,8 @@
 title: 'Post-processing with WebGL'
 attributions:
   - 'This content was originally published on [DevOpera](http://dev.opera.com), Opera''s Developer Network. .'
+code_samples:
+  - 'http://www.khronos.org/registry/webgl/specs/latest/#5.14.8'
 readiness: 'Ready to Use'
 summary: 'In this article we''ll look at what image post-processing is and how to use the WebGL API to apply real-time post-processing effects on images and other media like video, &lt;canvas&gt;, etc.'
 tags:

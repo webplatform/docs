@@ -19,11 +19,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the time for the start of the range with the given index. Throws an IndexSizeError if the index is out of range.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Audio
-  5: Video
+  - API_Object_Methods
+  - API
+  - Audio
+  - Video
 uri: apis/audio-video/TimeRanges/start
 
 ---

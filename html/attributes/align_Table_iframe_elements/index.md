@@ -10,9 +10,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'Specifies the horizontal alignment of the content in an element. Not supported in HTML5. Use CSS instead.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: 'html/attributes/align (Table, iframe elements)'
 
 ---
@@ -32,8 +32,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

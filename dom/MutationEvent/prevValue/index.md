@@ -16,11 +16,10 @@ relationships:
 standardization_status: Deprecated
 summary: 'Gets the previous value of the attribute or text node.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - DOMEvents
+  - Needs_Examples
 uri: dom/MutationEvent/prevValue
 
 ---
@@ -43,8 +42,6 @@ var previousValue = event.prevValue;
 Returns an object of type StringString
 
 The previous value of the attribute or text node.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

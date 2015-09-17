@@ -12,9 +12,7 @@ relationships:
     href: /dom/HTMLInputElement
 standardization_status: Unknown
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/HTMLInputElement/files
 

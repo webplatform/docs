@@ -6,7 +6,7 @@ compatibility:
   feature: text-underline-position
   topic: css
 notes:
-  - "\nDeletion Candidate:   This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.\n\n"
+  - 'Deletion Candidate:   This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.'
 overview_table:
   '[Initial value](/css/concepts/initial_value)': '`auto`'
   'Applies to': 'All elements'
@@ -20,8 +20,9 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Working Draft'
 summary: "Unsupported.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/text-underline-position
 
 ---
@@ -75,8 +76,6 @@ left
 
 right
 :   In vertical writing modes, the underline is aligned as for ‘under’, except it is always aligned to the right edge of the text. If this causes the underline to be drawn on the "over" side of the text, then an overline also switches sides and is drawn on the "under" side.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

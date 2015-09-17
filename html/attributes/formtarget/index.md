@@ -7,8 +7,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Specifies a name or a keyword that indicates where to display the response that is received after submitting the form.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
 uri: html/attributes/formtarget
 
 ---

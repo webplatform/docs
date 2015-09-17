@@ -13,15 +13,8 @@ readiness: 'Not Ready'
 standardization_status: Non-Standard
 summary: 'The bgsound element (&lt;bgsound&gt;) instructs the browser to load and play a sound file while the user is on that page. Don''t use it. Use the audio element instead.'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Elements
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Elements
   - HTML
 uri: html/elements/bgSound
 

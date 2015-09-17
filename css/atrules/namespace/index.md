@@ -11,9 +11,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'Declares the default namespace and binds a namespace to a namespace prefix.'
 tags:
+  - CSS_At_Rules
   - CSS
-  - At
-  - Rules
 uri: css/atrules/@namespace
 
 ---

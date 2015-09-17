@@ -6,10 +6,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'A TextTrackCueList object represents a dynamically updating list of text track cues in a given order.'
 tags:
-  0: API
-  1: Objects
-  3: Audio
-  4: Video
+  - API_Objects
+  - API
+  - Audio
+  - Video
 uri: apis/audio-video/TextTrackCueList
 
 ---
@@ -19,16 +19,10 @@ A TextTrackCueList object represents a dynamically updating list of text track c
 
 ## Properties
 
-API Name
-:   Summary
-
 [length](/apis/audio-video/TextTrackCueList/length)
 :   The length attribute returns the number of cues in the list represented by the TextTrackCueList.
 
 ## Methods
-
-API Name
-:   Summary
 
 [getCueById](/apis/audio-video/TextTrackCueList/getCueById)
 :   Returns the first text track cue object (in text track cue order) with text track cue identifier matching *id*. Returns null if no cue has the given identifier or if the "id" argument is the empty string.

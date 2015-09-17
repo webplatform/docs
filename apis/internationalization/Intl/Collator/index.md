@@ -4,15 +4,14 @@ notes:
   - 'Needs summary, example, spec reference, standardization status'
 readiness: 'Not Ready'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - Internationalization
   - JavaScript
+  - Needs_Summary
+  - Needs_Examples
 uri: apis/internationalization/Intl/Collator
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Properties
 
 *No properties.*
@@ -24,6 +23,3 @@ uri: apis/internationalization/Intl/Collator
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
-

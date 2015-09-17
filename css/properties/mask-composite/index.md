@@ -17,8 +17,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'This property allows to composite multiple mask layers define by mask-image with different Porter-Duff compositing modes. As of time of writing, this property is not yet implemented in most browsers.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/mask-composite
 
 ---

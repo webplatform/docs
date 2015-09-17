@@ -2,6 +2,8 @@
 title: 'Using the Gamepad API'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/API/Gamepad/Using_Gamepad_API)'
+code_samples:
+  - 'https://gist.github.com/58b0f9ed647f72da9173'
 readiness: 'Ready to Use'
 summary: 'How to access and use controllers for games in browser applications.'
 tags:

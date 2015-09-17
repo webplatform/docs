@@ -8,10 +8,8 @@ summary: 'This event fires when the MediaStreamTrack object has just transitione
 tags:
   - Events
   - API
-  - Media
-  - Capture
-  - and
-  - Streams
+  - Media_Capture_and_Streams
+  - Needs_Examples
 uri: 'apis/media capture and streams/MediaStreamTrack/started'
 
 ---
@@ -69,5 +67,3 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-

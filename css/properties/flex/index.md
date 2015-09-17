@@ -19,8 +19,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The flex CSS property specifies the ability of a flex item to alter its dimensions to fill the available space. flex is a shorthand property comprised of the flex-grow, flex-shrink, and flex-basis properties. A flex item can be stretched to use available space proportional to its flex grow factor, or reduced proportional to its flex shrink factor to prevent overflow.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
   - Flexbox
 uri: css/properties/flex
 
@@ -173,7 +172,7 @@ body {
   }
 ```
 
-[View live example](http://code.webplatform.org/gist/5506026)
+[View live example](http://gist.github.com/5506026)
 
 The Holy Grail layout HTML.
 
@@ -196,7 +195,7 @@ The Holy Grail layout HTML.
 </html>
 ```
 
-[View live example](http://code.webplatform.org/gist/5506026)
+[View live example](http://gist.github.com/5506026)
 
 ## Usage
 

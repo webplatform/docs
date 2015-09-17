@@ -15,11 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the time immediately before the user agent starts to fetch the resource.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Resource
-  5: Timing
+  - API_Object_Properties
+  - API
+  - Resource_Timing
 uri: 'apis/resource timing/PerformanceResourceTiming/fetchStart'
 
 ---

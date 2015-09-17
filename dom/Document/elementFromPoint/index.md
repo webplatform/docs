@@ -18,9 +18,7 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the element at the specified x and y coordinates.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Document/elementFromPoint
 

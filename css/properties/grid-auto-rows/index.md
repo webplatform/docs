@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'Changes default size of grid rows.  Creates implicit grid tracks when a grid item is placed into a row that is not explicitly sized (by grid-template-rows ) or when the auto-placement algorithm has generated additional rows. This property (with grid-auto-columns) specifies the size of such implicitly-created tracks.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/grid-auto-rows
 
 ---

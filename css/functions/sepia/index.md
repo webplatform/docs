@@ -9,10 +9,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: "Apply a sepia tinge to an element's color, typical\nof old photographs, for use by the\nfilter property.  A decimal value\nbetween 0 and 1 or percentage up to 100% controls the extent of the\nsepia effect.\n"
 tags:
-  0: CSS
-  1: Functions
-  3: Graphics
-  4: SVG
+  - CSS_Functions
+  - CSS
+  - Graphics
+  - SVG
 uri: css/functions/sepia
 
 ---

@@ -7,8 +7,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'XMLHttpRequest allows JavaScript to make HTTP requests, and is the most basic part of AJAX. It allows a website to dynamically request more content, without reloading the entire page.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - XHR
 uri: apis/xhr/XMLHttpRequest
 
@@ -26,9 +25,6 @@ The **XMLHttpRequest** property is available on the **window** object.
 With the **XMLHttpRequest** object, clients can make HTTP requests to a URL without reloading the entire page. Despite the term "XML" in the name, this object can be used to retrieve any type of data.
 
 ## Properties
-
-API Name
-:   Summary
 
 [readyState](/apis/xhr/XMLHttpRequest/readyState)
 :   Returns the current state of the XMLHttpRequest.
@@ -62,9 +58,6 @@ API Name
 
 ## Methods
 
-API Name
-:   Summary
-
 [abort](/apis/xhr/XMLHttpRequest/abort)
 :   Stops an asynchronous XMLHttpRequest in progress.
 
@@ -87,9 +80,6 @@ API Name
 :   Sets the value of an XMLHttpRequest header.
 
 ## Events
-
-API Name
-:   Summary
 
 [abort](/apis/xhr/XMLHttpRequest/abort-event)
 :   When the request has been aborted. For instance, by invoking the abort() method.

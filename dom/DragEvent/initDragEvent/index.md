@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Initializes a new drag event.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/DragEvent/initDragEvent
 
 ---
@@ -149,8 +148,6 @@ Method of [dom/DragEvent](/dom/DragEvent)[dom/DragEvent](/dom/DragEvent)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

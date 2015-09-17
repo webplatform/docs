@@ -6,8 +6,7 @@ readiness: 'Ready to Use'
 summary: 'Tips to improve HTML5 web app performance.'
 tags:
   - Tutorials
-  - Developer
-  - Tools
+  - Developer_Tools
   - Performance
 uri: 'tutorials/speed best practices'
 

@@ -6,8 +6,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: "Represents an object associated with drag and drop or clipboard events.\nDataTransfer objects are used to expose the drag data store that underlies a drag-and-drop operation.\n"
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/DataTransfer
 
@@ -17,9 +16,6 @@ uri: dom/DataTransfer
 Represents an object associated with drag and drop or clipboard events. DataTransfer objects are used to expose the drag data store that underlies a drag-and-drop operation.
 
 ## Properties
-
-API Name
-:   Summary
 
 [dropEffect](/dom/DataTransfer/dropEffect)
 :   Gets the type of drag-and-drop operation currently selected or sets the operation to a new type.
@@ -37,9 +33,6 @@ API Name
 :   Returns an array listing the formats that were set in the **dragstart** event. If any files are being dragged, one of the types will be the string "Files".
 
 ## Methods
-
-API Name
-:   Summary
 
 [clearData](/dom/DataTransfer/clearData)
 :   Removes one or more data formats (or all data) from the clipboard through the **DataTransfer** object or the [**ClipboardData**](/dom/ClipboardData) object.

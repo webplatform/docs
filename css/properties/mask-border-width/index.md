@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'This property sets the width of the mask box image, similar to the CSS border-image-width property.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/mask-border-width
 
 ---

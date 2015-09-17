@@ -6,8 +6,7 @@ readiness: 'Ready to Use'
 summary: 'An introduction to WebSocket.'
 tags:
   - Tutorials
-  - Web
-  - Services
+  - Web_Services
 uri: 'tutorials/websockets basics'
 
 ---

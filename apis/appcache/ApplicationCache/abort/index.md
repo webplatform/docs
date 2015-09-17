@@ -13,10 +13,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Cancels the application cache download process. This method is intended to be used by Web applications showing their own caching progress UI, in case the user wants to stop the update (e.g., because bandwidth is limited).'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - Appcache
+  - API
+  - Needs_Examples
 uri: apis/appcache/ApplicationCache/abort
 
 ---
@@ -35,8 +35,6 @@ Method of [apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)[apis
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

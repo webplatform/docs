@@ -13,9 +13,9 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'The email type of the &lt;input&gt; element represents a field for entering an e-mail address.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -31,8 +31,6 @@ The email type of the &lt;input&gt; element represents a field for entering an e
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

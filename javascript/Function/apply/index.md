@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Calls the function, substituting the specified object for the this value of the function, and the specified array for the arguments of the function.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Function/apply
 
 ---

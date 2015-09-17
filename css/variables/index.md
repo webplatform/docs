@@ -10,7 +10,7 @@ tags:
 uri: css/variables
 
 ---
-**By [Dave Gash](http://docs.webplatform.org/wiki/User:Dgash)**
+**By [Dave Gash](/User:Dgash)**
 Originally published October 10, 2012
 
 ## Summary

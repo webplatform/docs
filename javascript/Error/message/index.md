@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns an error message string.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Error/message
 
 ---

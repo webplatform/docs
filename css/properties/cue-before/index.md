@@ -17,9 +17,10 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The cue-before property specifies a sound file (known as an &quot;auditory icon&quot;) to be played by speech media agents before presenting an element''s content; the volume at which the file should be played may also be specified.  The shorthand property cue sets cue sounds for both before and after the element is presented.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
   - Accessibility
+  - CSS
+  - Needs_Examples
 uri: css/properties/cue-before
 
 ---
@@ -53,8 +54,6 @@ Animatable
 ## Syntax
 
 ## Values
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

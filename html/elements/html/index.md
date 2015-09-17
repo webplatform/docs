@@ -13,8 +13,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The html element (&lt;html&gt;) represents the root of an HTML document. The &lt;html&gt; tag is the container for all other HTML elements; except for the &lt;!DOCTYPE&gt; tag.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/html
 

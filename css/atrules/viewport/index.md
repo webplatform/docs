@@ -9,9 +9,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Specifies the size, zoom factor, and orientation of the viewport.'
 tags:
+  - CSS_At_Rules
   - CSS
-  - At
-  - Rules
+  - Content_Incomplete
 uri: css/atrules/@viewport
 
 ---
@@ -101,6 +101,4 @@ You can use the **@viewport** rule in tandem with media queries to help optimize
 
 [CSS Device Adaptation](http://www.w3.org/TR/css-device-adapt/#the-viewport-rule)
 :   Working Draft
-
-**Content Incomplete**: Some of this page's content is incomplete.
 

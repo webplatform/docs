@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), as an ArrayBuffer object, a fixed-length binary data buffer.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileAPI
+  - API_Object_Methods
+  - API
+  - FileAPI
 uri: apis/file/FileReader/readAsArrayBuffer
 
 ---

@@ -12,16 +12,10 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'An input form button that resets the form to default values.'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Elements
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Elements
   - HTML
+  - Needs_Examples
 uri: html/elements/input/type/reset
 
 ---
@@ -33,8 +27,6 @@ An input form button that resets the form to default values.
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

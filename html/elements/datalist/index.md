@@ -13,8 +13,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The datalist element (&lt;datalist&gt;) represents a set of &lt;option&gt; elements that represent predefined options for other controls. It may be associated with an &lt;input&gt; element by adding a list attribute to the input element.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

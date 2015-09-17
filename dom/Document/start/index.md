@@ -5,16 +5,15 @@ attributions:
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onstartEX.htm'
 notes:
-  - "\nDeletion Candidate:   Content has no standard and is only for a deprecated element (marquee.) No real use being documented now or in the future since it isn't on any track to be a standard.\n\n\n\nNeeds summary and compat"
+  - "Deletion Candidate:   Content has no standard and is only for a deprecated element (marquee.) No real use being documented now or in the future since it isn't on any track to be a standard.\n\n\n\nNeeds summary and compat"
 readiness: 'In Progress'
 standardization_status: Non-Standard
 tags:
   - Events
+  - Needs_Summary
 uri: dom/Document/start
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Overview Table
 
 <table class="wikitable">

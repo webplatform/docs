@@ -8,8 +8,7 @@ overview_table:
   Features: ''
 summary: 'Provides the entity-tag for the current selected representation, an opaque token that varies over revisions and representations.'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 uri: http/headers/ETag
 
 ---

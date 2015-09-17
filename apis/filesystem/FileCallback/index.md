@@ -6,9 +6,9 @@ readiness: 'Out of Date'
 standardization_status: 'W3C Working Draft'
 summary: "This interface is the callback used to obtain a File.\n"
 tags:
-  0: API
-  1: Objects
-  3: FileSystemAPI
+  - API_Objects
+  - API
+  - FileSystemAPI
 uri: apis/filesystem/FileCallback
 
 ---
@@ -23,9 +23,6 @@ This interface is the callback used to obtain a File.
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [handleEvent](/apis/filesystem/FileCallback/handleEvent)
 :   Used to supply a File as a response to a user query.

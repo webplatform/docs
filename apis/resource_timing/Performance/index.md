@@ -6,10 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Provides methods for performance timing.'
 tags:
-  0: API
-  1: Objects
-  3: Resource
-  4: Timing
+  - API_Objects
+  - API
+  - Resource_Timing
 uri: 'apis/resource timing/Performance'
 
 ---
@@ -19,16 +18,10 @@ Provides methods for performance timing.
 
 ## Properties
 
-API Name
-:   Summary
-
 [onresourcetimingbufferfull](/apis/resource_timing/Performance/onresourcetimingbufferfull)
 :   This callback is triggered when the buffer used to store the list of PerformanceResourceTiming is full.
 
 ## Methods
-
-API Name
-:   Summary
 
 [clearResourceTimings](/apis/resource_timing/Performance/clearResourceTimings)
 :   Clears the buffer used to store the current list of PerformanceResourceTiming resources.

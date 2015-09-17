@@ -13,11 +13,10 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Removes an event handler that the addEventListener method registered.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
   - DOMEvents
+  - Needs_Examples
 uri: dom/EventTarget/removeEventListener
 
 ---
@@ -59,8 +58,6 @@ Method of [dom/EventTarget](/dom/EventTarget)[dom/EventTarget](/dom/EventTarget)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

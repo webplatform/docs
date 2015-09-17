@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Sets a color to fill up the background of an element it is applied to and accepts any valid CSS color.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/background-color
 
 ---

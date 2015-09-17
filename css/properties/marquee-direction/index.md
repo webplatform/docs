@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The marquee-direction determines the initial direction in which the marquee content moves.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/marquee-direction
 
 ---

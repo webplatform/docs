@@ -12,10 +12,10 @@ relationships:
     href: /apis/indexeddb/IDBDatabase
 summary: 'Returns a list of names of the object stores currently in the connected database.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBDatabase/objectStoreNames
 
 ---
@@ -31,7 +31,5 @@ Property of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)[apis/index
 var result = element.objectStoreNames;
 element.objectStoreNames = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax

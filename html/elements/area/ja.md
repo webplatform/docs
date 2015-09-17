@@ -15,8 +15,7 @@ overview_table:
 readiness: 'In Progress'
 summary: イメージマップ上でハイパーリンクとして設定されるテキストとエリア、またはハイパーリンクとして設定しないエリアを表します。
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

@@ -12,8 +12,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'A general sibling combinator selects instances of an element appearing anywhere after another element within the same parent.'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 uri: 'css/selectors/combinators/general sibling'
 
 ---
@@ -31,7 +31,7 @@ p ~ span {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5143916)
+[View live example](http://gist.github.com/5143916)
 
 ## Notes
 

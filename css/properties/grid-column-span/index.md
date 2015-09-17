@@ -19,8 +19,9 @@ readiness: 'In Progress'
 standardization_status: Non-Standard
 summary: 'See css/properties/grid-column. This property has been removed from the specification.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/grid-column-span
 
 ---
@@ -59,8 +60,6 @@ Animatable
 
 integer
 :   Integer value that specifies the number of columns to span.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

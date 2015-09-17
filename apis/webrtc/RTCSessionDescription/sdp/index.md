@@ -10,10 +10,10 @@ relationships:
     href: /apis/webrtc/RTCSessionDescription
 summary: 'The string representation of the SDP object.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCSessionDescription/sdp
 
 ---
@@ -29,6 +29,4 @@ Property of [apis/webrtc/RTCSessionDescription](/apis/webrtc/RTCSessionDescripti
 var result = element.sdp;
 element.sdp = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

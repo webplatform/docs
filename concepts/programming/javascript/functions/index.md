@@ -10,6 +10,7 @@ summary: 'Functions are one of the fundamental building blocks in JavaScript. A 
 tags:
   - Tutorials
   - JavaScript
+  - Merge_Candidate
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -407,6 +408,4 @@ The following example converts the `Date` object to a readable string.
     x = String(D); // x equals "Thu Aug 18 04:37:43 GMT-0700 (Pacific Daylight Time) 1983"
 
 The following example converts the `[/js/objects/String`
-
-**Merge Candidate**: This page is a candidate for merge with the following pages: [[[1]](http://docs.webplatform.org/wiki/javascript/functions)]
 

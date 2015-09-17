@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Similar to window.location.assign, except that it &quot;replaces&quot; the current document, removing the previous one from the back button history.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - JavaScript
 uri: apis/location/replace
 

@@ -6,8 +6,7 @@ readiness: 'In Progress'
 standardization_status: Unknown
 summary: 'This page explains the different mechanisms available in HTML and CSS to specify colors.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: css/color
 
 ---

@@ -6,10 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Exposes the available methods on the connected ports.'
 tags:
-  0: API
-  1: Objects
-  3: Web
-  4: Messaging
+  - API_Objects
+  - API
+  - Web_Messaging
 uri: apis/web-messaging/MessagePort
 
 ---
@@ -22,9 +21,6 @@ Exposes the available methods on the connected ports.
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [close](/apis/web-messaging/MessagePort/close)
 :   Disconnects the port, so that it is no longer active.

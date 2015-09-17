@@ -12,8 +12,7 @@ relationships:
     href: /svg/objects/SVGElement
 standardization_status: Unknown
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: svg/objects/SVGPointList
 

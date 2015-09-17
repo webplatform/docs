@@ -8,8 +8,7 @@ overview_table:
   Features: ''
 summary: "Specifies directives for caches along the path to the origin server. The header is found in both directions, but the directives may have different semantics depending on direction.\n"
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 uri: http/headers/Cache-Control
 
 ---

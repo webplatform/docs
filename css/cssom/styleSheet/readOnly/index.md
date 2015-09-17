@@ -16,10 +16,9 @@ relationships:
     href: /css/cssom/styleSheet
 summary: 'Non standard. Indicates if the style sheet is currently in read only mode.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: css/cssom/styleSheet/readOnly
 
 ---
@@ -42,8 +41,6 @@ var isReadOnly = stylesheet.readOnly;
 Returns an object of type BooleanBoolean
 
 Returns whether the style sheet is currently in read only mode.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

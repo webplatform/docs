@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'The size in bytes of each element in the array.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: 'javascript/Uint16Array/BYTES PER ELEMENT'
 
 ---

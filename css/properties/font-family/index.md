@@ -19,8 +19,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The font-family property allows one or more font family names and/or generic family names to be specified for usage on the selected element(s)'' text. The browser then goes through the list; for each character in the selection it applies the first font family that has an available glyph for that character.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/font-family
 
 ---
@@ -77,7 +77,7 @@ h1 { font-family: Helvetica, Arial, sans-serif; }
 p { font-family: "Times New Roman", serif; }
 ```
 
-[View live example](http://code.webplatform.org/gist/5496591)
+[View live example](http://gist.github.com/5496591)
 
 The following example imports a web font into your CSS using `@font-face` and then assigns it to an element using font-family
 

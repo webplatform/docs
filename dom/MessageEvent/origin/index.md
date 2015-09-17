@@ -17,11 +17,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets the URL of the document of origin.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
   - DOMEvents
+  - Needs_Examples
 uri: dom/MessageEvent/origin
 
 ---
@@ -44,8 +43,6 @@ var messageOrigin = event.origin;
 Returns an object of type StringString
 
 The origin URL of the document that sent the message.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

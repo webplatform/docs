@@ -8,9 +8,9 @@ summary: 'Fired when the battery level is updated.'
 tags:
   - Events
   - API
-  - Battery
-  - Status
+  - Battery_Status
   - Mobile
+  - Needs_Examples
 uri: 'apis/battery status/BatteryManager/levelchange'
 
 ---
@@ -68,5 +68,3 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-

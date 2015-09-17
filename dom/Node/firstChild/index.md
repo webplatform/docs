@@ -15,9 +15,7 @@ relationships:
     href: /dom/Node
 summary: "Gets a reference to the first child node in the childNodes collection of the object.\n"
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Node/firstChild
 

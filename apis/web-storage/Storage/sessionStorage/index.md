@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Provides a Storage object specific to the current top-level browsing context. The storage will be cleared after a browser restart. If you need a persistent storage, use apis/web-storage/Storage/localStorage.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - Webstorage
 uri: apis/web-storage/Storage/sessionStorage
 

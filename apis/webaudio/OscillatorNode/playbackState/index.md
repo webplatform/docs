@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "The playback state, initialized to UNSCHEDULED_STATE, progressing through SCHEDULED_STATE, PLAYING_STATE, and FINISHED_STATE.\n"
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
+  - Needs_Examples
 uri: apis/webaudio/OscillatorNode/playbackState
 
 ---
@@ -43,8 +43,6 @@ var result = OscillatorNode.playbackState;
 Returns an object of type unsigned shortunsigned short
 
 Returns one of the following constant values: UNSCHEDULED\_STATE (0), SCHEDULED\_STATE (1), PLAYING\_STATE (2), or FINISHED\_STATE (3).
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

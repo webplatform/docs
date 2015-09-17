@@ -17,9 +17,7 @@ relationships:
 standardization_status: Deprecated
 summary: 'Creates a DOM event of the specified type. This method is deprecated; use event constructors (CustomEvent) instead.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Document/createEvent
 

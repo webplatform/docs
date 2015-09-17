@@ -11,8 +11,8 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'Allows authors to reference the value of a custom property for cascading variables.'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/var
 
 ---
@@ -60,7 +60,7 @@ Allows authors to reference the value of a custom property for cascading variabl
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/a41474c974dfef4ec106)
+[View live example](http://gist.github.com/a41474c974dfef4ec106)
 
 ## Related specifications
 

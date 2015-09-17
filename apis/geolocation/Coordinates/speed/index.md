@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Denotes the magnitude of the horizontal component of the hosting device''s current velocity specified in meters per second. If the implementation cannot provide speed information, the value of this attribute must be null. Otherwise, the value of this attribute must be a non-negative real number.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Geolocation
+  - API_Object_Properties
+  - API
+  - Geolocation
 uri: apis/geolocation/Coordinates/speed
 
 ---

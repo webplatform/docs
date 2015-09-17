@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets or sets the value of the selected HTML attribute.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/HTMLOptionElement/defaultSelected
 
 ---
@@ -42,8 +41,6 @@ option.defaultSelected = value;
 Returns an object of type BooleanBoolean
 
 Whether the **selected** HTML attribute is present.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

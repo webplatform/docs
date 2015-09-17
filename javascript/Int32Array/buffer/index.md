@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Read-only. Gets the ArrayBuffer that is referenced by this array.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Int32Array/buffer
 
 ---

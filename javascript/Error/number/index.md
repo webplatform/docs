@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns or sets the numeric value associated with a specific error. The Error object''s default property is number.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Error/number
 
 ---

@@ -4,9 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'An AudioNode representing the final audio destination and is what the user will ultimately hear. It can be considered as an audio output device which is connected to speakers. All rendered audio to be heard will be routed to this node, a terminal node in the AudioContext''s routing graph. There is only a single AudioDestinationNode per AudioContext, provided through the destination attribute of AudioContext.'
 tags:
-  0: API
-  1: Objects
-  3: WebAudio
+  - API_Objects
+  - API
+  - WebAudio
 uri: apis/webaudio/AudioDestinationNode
 
 ---
@@ -15,9 +15,6 @@ uri: apis/webaudio/AudioDestinationNode
 An AudioNode representing the final audio destination and is what the user will ultimately hear. It can be considered as an audio output device which is connected to speakers. All rendered audio to be heard will be routed to this node, a terminal node in the AudioContext's routing graph. There is only a single AudioDestinationNode per AudioContext, provided through the destination attribute of AudioContext.
 
 ## Properties
-
-API Name
-:   Summary
 
 [maxChannelCount](/apis/webaudio/AudioDestinationNode/maxChannelCount)
 :   The maximum number of channels that the physical hardware is capable of supporting. The AudioNode *channelCount* property can be set between 0 and this value, inclusive. A value of 0 indicates that the channel count may not be changed. Default is 2.

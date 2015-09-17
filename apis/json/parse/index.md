@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Parse a JSON string to a JavaScript object.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - JavaScript
 uri: apis/json/parse
 

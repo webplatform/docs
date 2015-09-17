@@ -6,9 +6,9 @@ readiness: 'Out of Date'
 standardization_status: 'W3C Working Draft'
 summary: "This interface lets a user list files and directories in a directory.\n"
 tags:
-  0: API
-  1: Objects
-  3: FileSystemAPI
+  - API_Objects
+  - API
+  - FileSystemAPI
 uri: apis/filesystem/DirectoryReaderSync
 
 ---
@@ -23,9 +23,6 @@ This interface lets a user list files and directories in a directory.
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [readEntries](/apis/filesystem/DirectoryReaderSync/readEntries)
 :   Read the next block of entries from this directory.

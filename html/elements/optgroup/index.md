@@ -12,15 +12,8 @@ overview_table:
 readiness: 'In Progress'
 summary: 'Allows authors to group choices logically in a select element.'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Elements
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Elements
   - HTML
 uri: html/elements/optgroup
 

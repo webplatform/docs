@@ -14,8 +14,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The &lt;ellipse&gt; element is a common SVG shape marker used to create an elliptic shape based on the given coordinates and radius.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - SVG
 uri: svg/elements/ellipse
 
@@ -89,7 +88,7 @@ In the following code example, the ellipse element is used to draw a skyblue-col
 </svg>
 ```
 
-[View live example](http://code.webplatform.org/gist/e44f667a01785f7a116f)
+[View live example](http://gist.github.com/e44f667a01785f7a116f)
 
 ## Notes
 

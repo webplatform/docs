@@ -8,9 +8,9 @@ notes:
 readiness: 'In Progress'
 summary: 'A CSS style declaration which includes properties, values and priorities.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -58,9 +58,7 @@ uri: css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 A CSS style declaration which includes properties, values and priorities.</p><p><br/></p>
 <h2>Properties</h2>
 
-<dl><dt>API Name</dt>
-  <dd>Summary</dd>
-</dl><dl><dt><a href="/css/cssom/CSSStyleDeclaration/cssText">cssText</a></dt>
+<dl><dt><a href="/css/cssom/CSSStyleDeclaration/cssText">cssText</a></dt>
   <dd>Gets or sets the textual representation of a CSS style declaration.</dd>
 </dl><dl><dt><a href="/css/cssom/CSSStyleDeclaration/item">item</a></dt>
   <dd/>
@@ -85,9 +83,7 @@ A CSS style declaration which includes properties, values and priorities.</p><p>
 </dl><p><br/></p>
 <h2>Methods</h2>
 
-<dl><dt>API Name</dt>
-  <dd>Summary</dd>
-</dl><dl><dt><a href="/css/cssom/CSSStyleDeclaration/getPropertyPriority">getPropertyPriority</a></dt>
+<dl><dt><a href="/css/cssom/CSSStyleDeclaration/getPropertyPriority">getPropertyPriority</a></dt>
   <dd>Gets the priority of a property in a CSS style declaration.</dd>
 </dl><dl><dt><a href="/css/cssom/CSSStyleDeclaration/getPropertyValue">getPropertyValue</a></dt>
   <dd>Gets the value of a property in a CSS style declaration.</dd>
@@ -101,10 +97,7 @@ A CSS style declaration which includes properties, values and priorities.</p><p>
 <h2>Events</h2>
 <p><i>No events.</i>
 </p>
-<div class="editors-only">
-<p><b>Needs Examples</b>:  This section should include examples. 
-</p>
-</div>
+
 <h2>Notes</h2>
 <p>This object may be used to determine the style properties currently set in a block or to set style properties explicitly within the block.
 </p>

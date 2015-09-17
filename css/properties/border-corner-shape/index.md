@@ -16,8 +16,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Specifies different corner clipping effects, such as scoop (inner curves), bevel (straight cuts) or notch (cut-off rectangles). Works along with border-radius to specify the size of each corner effect.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
 uri: css/properties/border-corner-shape
 
 ---

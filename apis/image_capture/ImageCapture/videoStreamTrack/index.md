@@ -15,11 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The MediaStream passed into the constructor.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Image
-  5: Capture
+  - API_Object_Properties
+  - API
+  - Image_Capture
+  - Needs_Examples
 uri: 'apis/image capture/ImageCapture/videoStreamTrack'
 
 ---
@@ -40,6 +39,4 @@ var result = pictureDevice.videoStreamTrack;
 ## Return Value
 
 Returns an object of type MediaStreamTrackMediaStreamTrack
-
-**Needs Examples**: This section should include examples.
 

@@ -21,8 +21,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The font-style property allows normal, italic, or oblique faces to be selected. Italic forms are generally cursive in nature while oblique faces are typically sloped versions of the regular face. Oblique faces can be simulated by artificially sloping the glyphs of the regular face.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/font-style
 
 ---
@@ -91,7 +91,7 @@ p.italic { font-style: italic; }
 p.oblique { font-style: oblique; }
 ```
 
-[View live example](http://code.webplatform.org/gist/5628297)
+[View live example](http://gist.github.com/5628297)
 
 ## Usage
 

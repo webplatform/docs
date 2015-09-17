@@ -11,8 +11,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'An interfact that provides specific contextual information associated with Composition Events.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/CompositionEvent
 
@@ -24,9 +23,6 @@ An interfact that provides specific contextual information associated with Compo
 Inherits from [UIEvent](/dom/UIEvent)[UIEvent](/dom/UIEvent)
 
 ## Properties
-
-API Name
-:   Summary
 
 [html/elements/data](/dom/CompositionEvent/data)
 :   Gets the text affected by the composition event.
@@ -46,9 +42,6 @@ API Name
 
 ### Properties
 
-API Name
-:   Summary
-
 [detail](/dom/UIEvent/detail)
 :   Gets additional, developer defined, information about an event.
 
@@ -59,16 +52,10 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initUIEvent](/dom/UIEvent/initUIEvent)
 :   Initializes a new user interface event that the [createEvent](/dom/Document/createEvent) method created.
 
 ### Events
-
-API Name
-:   Summary
 
 [abort](/dom/UIEvent/abort)
 :   Fires when the user aborts the download.

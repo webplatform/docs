@@ -15,13 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the complete constraints object associated with the track. If no mandatory constraints have been defined, the mandatory field will not be present (it will be undefined). If no optional constraints have been defined, the optional field will not be present (it will be undefined). If neither optional, nor mandatory constraints have been created, the value null is returned.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Media
-  5: Capture
-  6: and
-  7: Streams
+  - API_Object_Methods
+  - API
+  - Media_Capture_and_Streams
+  - Needs_Examples
 uri: 'apis/media capture and streams/MediaStreamTrack/constraints'
 
 ---
@@ -40,6 +37,3 @@ var  = track.constraints();
 ## Return Value
 
 Returns an object of type MediaTrackConstraintsMediaTrackConstraints
-
-**Needs Examples**: This section should include examples.
-

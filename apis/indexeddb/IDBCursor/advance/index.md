@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'Advances the cursor by the specified number of records.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBCursor/advance
 
 ---

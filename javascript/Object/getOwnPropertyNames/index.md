@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the names of the own properties of an object. The own properties of an object are those that are defined directly on that object, and are not inherited from the object''s prototype. The properties of an object include both fields (objects) and functions.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Object/getOwnPropertyNames
 
 ---

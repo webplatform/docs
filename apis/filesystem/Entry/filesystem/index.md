@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "The file system on which the Entry resides.\n"
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: FileSystemAPI
+  - API_Object_Properties
+  - API
+  - FileSystemAPI
+  - Needs_Examples
 uri: apis/filesystem/Entry/filesystem
 
 ---
@@ -43,8 +43,6 @@ var result = Entry.filesystem;
 Returns an object of type
 
 FileSystem
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

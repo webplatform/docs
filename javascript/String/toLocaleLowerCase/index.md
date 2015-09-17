@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Converts all alphabetic characters to lowercase, taking into account the host environment''s current locale.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/toLocaleLowerCase
 
 ---

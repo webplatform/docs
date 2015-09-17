@@ -9,8 +9,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Used to provide fallback text to be shown by user agents that don''t support ruby annotations'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
 uri: html/elements/rp
 
 ---

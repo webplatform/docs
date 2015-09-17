@@ -9,9 +9,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The media feature describes the actual width of the output device, such as the entire screen width or the page sheet width.'
 tags:
-  - CSS
-  - Media
-  - Feature
+  - CSS_Media_Feature
 uri: 'css/media queries/device-width'
 
 ---

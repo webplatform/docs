@@ -8,8 +8,7 @@ overview_table:
   Features: ''
 summary: 'Allows a user agent to authenticate itself with an origin server.'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 uri: http/headers/Authorization
 
 ---

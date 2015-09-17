@@ -12,8 +12,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: '&lt;aside&gt;はコンテンツの中のただの補足情報・余談であることを示します。'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'

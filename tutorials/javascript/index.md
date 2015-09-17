@@ -5,8 +5,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'JavaScript tutorials index page.'
 tags:
-  - API
-  - Listings
+  - API_Listings
   - Tutorials
   - JavaScript
 uri: tutorials/javascript
@@ -15,9 +14,6 @@ uri: tutorials/javascript
 ## Summary
 
 JavaScript tutorials index page.
-
-API Name
-:   Summary
 
 [Iterators and generators](/concepts/javascript/iterators)
 :   Processing each of the items in a collection is a very common operation. JavaScript provides a number of ways of iterating over a collection, from simple `for` and `for each` loops to `map()`, `filter()]]` and array comprehensions. Iterators and Generators, introduced in JavaScript 1.7, bring the concept of iteration directly into the core language and provide a mechanism for customizing the behavior of `for...in` and `for each` loops.

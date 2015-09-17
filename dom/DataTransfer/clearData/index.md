@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Removes one or more data formats (or all data) from the clipboard through the DataTransfer object or the ClipboardData object.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/DataTransfer/clearData
 

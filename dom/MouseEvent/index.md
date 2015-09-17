@@ -14,9 +14,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The DOM MouseEvent interface represents events that occur due to the user interacting with a pointing device (such as a mouse or touchpad).'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Examples
 uri: dom/MouseEvent
 
 ---
@@ -27,9 +27,6 @@ The DOM MouseEvent interface represents events that occur due to the user intera
 Inherits from [UIEvent](/dom/UIEvent)[UIEvent](/dom/UIEvent)
 
 ## Properties
-
-API Name
-:   Summary
 
 [button](/dom/MouseEvent/button)
 :   Gets the mouse button that caused an event.
@@ -70,16 +67,10 @@ API Name
 
 ## Methods
 
-API Name
-:   Summary
-
 [initMouseEvent](/dom/MouseEvent/initMouseEvent)
 :   Initializes a new mouse event that the [**createEvent**](/dom/Document/createEvent) method created.
 
 ## Events
-
-API Name
-:   Summary
 
 [click](/dom/MouseEvent/click)
 :   The click event is triggered for an element when it is activated by a mouse click or by another user action that normally has the same effect as a mouse click.
@@ -112,9 +103,6 @@ API Name
 
 ### Properties
 
-API Name
-:   Summary
-
 [detail](/dom/UIEvent/detail)
 :   Gets additional, developer defined, information about an event.
 
@@ -125,24 +113,16 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initUIEvent](/dom/UIEvent/initUIEvent)
 :   Initializes a new user interface event that the [createEvent](/dom/Document/createEvent) method created.
 
 ### Events
-
-API Name
-:   Summary
 
 [abort](/dom/UIEvent/abort)
 :   Fires when the user aborts the download.
 
 [activate](/dom/UIEvent/activate)
 :   Fires when the object is set as the active element.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

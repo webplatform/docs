@@ -7,8 +7,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Represents a validation state of an input element.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/ValidityState
 
@@ -18,9 +17,6 @@ uri: dom/ValidityState
 Represents a validation state of an input element.
 
 ## Properties
-
-API Name
-:   Summary
 
 [customError](/dom/ValidityState/customError)
 :   The element's custom validity message has been set to a non-empty string by calling the element's setCustomValidity() method.

@@ -22,8 +22,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Sets the width of an element''s four borders. This property can have from one to four values. This is a shorthand property for setting values simultaneously for border-top-width, border-right-width, border-bottom-width, and border-left-width.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-width
 
 ---
@@ -109,7 +109,7 @@ Sets the width of an element's four borders. This property can have from one to 
 }
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/733bf352438f33914fc0">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://gist.github.com/733bf352438f33914fc0">View live example</a>
 </p>
 </div>
 <h2>Usage</h2>

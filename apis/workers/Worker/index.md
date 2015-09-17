@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'An object representing a worker, that is used to communicate with the worker.'
 tags:
-  0: API
-  1: Objects
-  3: Webworkers
+  - API_Objects
+  - API
+  - Webworkers
 uri: apis/workers/Worker
 
 ---
@@ -18,9 +18,6 @@ An object representing a worker, that is used to communicate with the worker.
 
 ## Properties
 
-API Name
-:   Summary
-
 [onerror](/apis/workers/Worker/onerror)
 :   An event listener to be called when an error occurs.
 
@@ -28,9 +25,6 @@ API Name
 :   An event listener to be called when a message is received from the worker.
 
 ## Methods
-
-API Name
-:   Summary
 
 [postMessage](/apis/workers/Worker/postMessage)
 :   Posts a message to the worker with which the object is associated.

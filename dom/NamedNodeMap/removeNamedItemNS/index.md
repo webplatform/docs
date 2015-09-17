@@ -18,10 +18,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Removes an attribute with a given name and a given namespace.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/NamedNodeMap/removeNamedItemNS
 
 ---
@@ -58,8 +57,6 @@ var attribute = attributes.removeNamedItemNS(/* see parameter list */);
 Returns an object of type DOM NodeDOM Node
 
 The removed attribute node.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

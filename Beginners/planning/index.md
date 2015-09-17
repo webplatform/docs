@@ -5,8 +5,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Now you''ve got some familiarity with some basic concepts about the web, let''s take a step back, introducing an example project for you to work on and taking the necessary steps to plan it.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: Beginners/planning
 
 ---

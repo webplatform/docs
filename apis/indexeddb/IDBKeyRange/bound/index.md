@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'Creates and returns a new key range with lower set to lower, lowerOpen set to lowerOpen, upper set to upper and upperOpen set to upperOpen.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBKeyRange/bound
 
 ---

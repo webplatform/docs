@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Denotes the accuracy level of the latitude and longitude coordinates. It is specified in meters and must be supported by all implementations. The value of this attribute must be a non-negative real number.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Geolocation
+  - API_Object_Properties
+  - API
+  - Geolocation
 uri: apis/geolocation/Coordinates/accuracy
 
 ---

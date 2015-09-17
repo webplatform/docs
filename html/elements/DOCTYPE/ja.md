@@ -9,8 +9,7 @@ overview_table:
 readiness: 'In Progress'
 summary: '文書型宣言（DOCTYPE宣言）とはSGMLやXML文書(webページなど)を文書型定義(DTD)(HTMLのバージョンごとの書式の定義など）と結びつけるためのものです。ドキュメントをシリアライズした書式中で、特定の構文にマッチするようにマークアップした短い文字列で指定します。&lt;!DOCTYPE&gt;を書かないとQuirksモード(互換モード)で表示されます。'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - DOCTYPE
   - HTML
 todo_broken_links:

@@ -8,8 +8,7 @@ relationships:
     href: /dom/Window
 summary: 'Represents a modal or modeless child window of a window, with additional utility methods for arguments and return values.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/WindowModal
 
@@ -21,9 +20,6 @@ Represents a modal or modeless child window of a window, with additional utility
 Inherits from [Window](/dom/Window)[Window](/dom/Window)
 
 ## Properties
-
-API Name
-:   Summary
 
 [dialogArguments](/dom/WindowModal/dialogArguments)
 :   Gets the arguments that are specified when [showModalDialog](/dom/Window/showModalDialog) is called.
@@ -51,9 +47,6 @@ API Name
 ## Inherited from Window
 
 ### Properties
-
-API Name
-:   Summary
 
 [URL](/dom/Window/URL)
 :   Sets or gets the URL for the current document.
@@ -98,9 +91,6 @@ API Name
 :   Retrieves the topmost ancestor window.
 
 ### Methods
-
-API Name
-:   Summary
 
 [alert](/dom/Window/alert)
 :   Displays a synchronized dialog box showing the given text and a localized OK button.
@@ -177,9 +167,6 @@ API Name
 :   Do not use. Use \<dialog\> or a popup window instead. Halts the script execution, creates a popup window, passes it parameters and returns a value when the new window is closed.
 
 ### Events
-
-API Name
-:   Summary
 
 [message](/dom/Window/message)
 :   Fires when a message is received from another context (frame, window, worker and similar).

@@ -20,8 +20,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The flex-flow CSS property defines the flex container''s main and cross axis. It is a shorthand property for the flex-direction and flex-wrap properties.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
   - Flexbox
 uri: css/properties/flex-flow
 
@@ -80,7 +79,7 @@ Displaying children in a row wrapping to the next line.
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/4740728)
+[View live example](http://gist.github.com/4740728)
 
 The Holy Grail Layout example.
 
@@ -88,7 +87,7 @@ The Holy Grail Layout example.
 flex-flow: row;
 ```
 
-[View live example](http://code.webplatform.org/gist/5506026)
+[View live example](http://gist.github.com/5506026)
 
 ## Related specifications
 

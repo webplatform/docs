@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Specifies the position an element in relation to the right side of the containing element.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/right
 
 ---
@@ -124,7 +124,7 @@ We demonstrate the \`right\` property by positioning the elements.
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6181880)
+[View live example](http://gist.github.com/6181880)
 
 The HTML for the above example.
 

@@ -3,20 +3,15 @@ title: 'SVG tutorials'
 readiness: 'Ready to Use'
 summary: 'A list of SVG tutorials.'
 tags:
-  - API
-  - Listings
+  - API_Listings
   - SVG
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: svg/tutorials
 
 ---
 ## Summary
 
 A list of SVG tutorials.
-
-API Name
-:   Summary
 
 [Autoscaling SVG](/svg/tutorials/autoscaling_svg)
 :   This tutorial explains how to make an SVG image that scales automatically to fill the available area.

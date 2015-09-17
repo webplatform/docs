@@ -12,10 +12,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Transmits data to the server over the WebSocket connection.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebSocket
+  - API_Object_Methods
+  - API
+  - WebSocket
 uri: apis/websocket/WebSocket/send
 
 ---

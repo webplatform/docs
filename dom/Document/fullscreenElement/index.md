@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Exposes the current fullscreen state, returning the element that is displayed fullscreen, or null if there is no such element.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Document/fullscreenElement
 
@@ -68,4 +66,4 @@ function inFullScreen() {
 
 ## See also
 
-Tutorial: [Using the full-screen API](http://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api)
+Tutorial: [Using the full-screen API](/tutorials/using_the_full-screen_api)

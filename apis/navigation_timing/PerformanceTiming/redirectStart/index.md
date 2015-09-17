@@ -15,11 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the starting time of the fetch that initiates the redirect, if there are HTTP redirects or equivalent when navigating and if all the redirects or equivalent are from the same origin,. Otherwise, returns zero.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Navigation
-  5: Timing
+  - API_Object_Properties
+  - API
+  - Navigation_Timing
 uri: 'apis/navigation timing/PerformanceTiming/redirectStart'
 
 ---

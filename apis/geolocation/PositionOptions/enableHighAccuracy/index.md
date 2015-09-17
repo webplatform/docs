@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'A request from the application to receive the best possible location results. The intended purpose of this attribute is to allow applications to inform the implementation that they do not require high accuracy geolocation fixes so the implementation can avoid using geolocation providers that consume a significant amount of power (e.g., GPS).'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Geolocation
+  - API_Object_Properties
+  - API
+  - Geolocation
 uri: apis/geolocation/PositionOptions/enableHighAccuracy
 
 ---

@@ -8,6 +8,7 @@ readiness: 'Not Ready'
 standardization_status: Unknown
 tags:
   - SVG
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -15,8 +16,6 @@ todo_broken_links:
 uri: svg/properties/filterUnits
 
 ---
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

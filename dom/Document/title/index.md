@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'Gets or sets the title of a Document. When the document is the main document that is shown (meaning, not of an iframe), this is usually shown to the user.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
 uri: dom/Document/title
 
 ---

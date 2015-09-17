@@ -22,8 +22,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Background-repeat defines if and how background images will be repeated after they have been sized and positioned'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/background-repeat
 
 ---

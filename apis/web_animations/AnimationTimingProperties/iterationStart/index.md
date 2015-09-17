@@ -8,9 +8,8 @@ relationships:
     href: /apis/web_animations/AnimationTimingProperties
 summary: "See the iterationStart member of the AnimationTimingReadOnly interface.\n"
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
+  - Needs_Examples
 uri: 'apis/web animations/AnimationTimingProperties/iterationStart'
 
 ---
@@ -30,6 +29,4 @@ Property of [apis/web animations/AnimationTimingProperties](/apis/web_animations
 var result = element.iterationStart;
 element.iterationStart = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

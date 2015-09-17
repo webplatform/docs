@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets the date that the document was last modified, if the document supplies one.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/Document/lastModified
 
 ---
@@ -43,8 +42,6 @@ var lastModified = document.lastModified;
 Returns an object of type StringString
 
 The date of the last modification to the document, as indicated by the server.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

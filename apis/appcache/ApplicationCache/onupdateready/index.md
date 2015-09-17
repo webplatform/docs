@@ -14,10 +14,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The ApplicationCache object''s cache host is associated with an application cache whose application cache group''s update status is idle, and whose application cache group is not marked as obsolete, but that application cache is not the newest cache in its group.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - Appcache
+  - API
 uri: apis/appcache/ApplicationCache/onupdateready
 
 ---

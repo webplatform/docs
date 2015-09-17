@@ -7,9 +7,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Applies CSS styles to portions of content as it appears when flowing within a specified set of regions.'
 tags:
-  - CSS
-  - At
-  - Rules
+  - CSS_At_Rules
   - CSS-Regions
 uri: css/atrules/@region
 

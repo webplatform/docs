@@ -14,10 +14,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The user agent is downloading resources listed by the manifest. The event object''s total attribute returns the total number of files to be downloaded. The event object''s loaded attribute returns the number of files processed so far.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - Appcache
+  - API
 uri: apis/appcache/ApplicationCache/onprogress
 
 ---

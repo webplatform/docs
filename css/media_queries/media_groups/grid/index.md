@@ -5,9 +5,8 @@ notes:
 readiness: 'Not Ready'
 summary: 'The grid media group includes any media type that displays text in a single font and font-size.'
 tags:
+  - CSS_Media_Groups
   - CSS
-  - Media
-  - Groups
 uri: 'css/media queries/media groups/grid'
 
 ---

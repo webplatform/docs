@@ -7,9 +7,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'FileList is an object which represents an array of individually selected files from the underlying system.'
 tags:
-  0: API
-  1: Objects
-  3: FileAPI
+  - API_Objects
+  - API
+  - FileAPI
 uri: apis/file/FileList
 
 ---
@@ -19,16 +19,10 @@ FileList is an object which represents an array of individually selected files f
 
 ## Properties
 
-API Name
-:   Summary
-
 [length](/apis/file/FileList/length)
 :   **length** returns the number of files in the FileList object. If there are no files, this attribute must return 0.
 
 ## Methods
-
-API Name
-:   Summary
 
 [item](/apis/file/FileList/item)
 :   **item** returns the *index*th File object in the FileList. If there is no *index*th File object in the FileList, then this method must return null.

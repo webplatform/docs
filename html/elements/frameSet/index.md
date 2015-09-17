@@ -13,8 +13,7 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: "The frameset element (&lt;frameset&gt;) defines a collection of frames.\nThe &lt;frameset&gt; element holds one or more &lt;frame&gt; elements. Each &lt;frame&gt; element can hold a separate document.\nThe &lt;frameset&gt; tag is obsolete in HTML5.\n"
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/frameSet
 

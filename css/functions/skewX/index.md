@@ -9,8 +9,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Defines a 2D skew transformation along the X-axis.'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/skewX()
 
 ---

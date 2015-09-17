@@ -10,9 +10,8 @@ notes:
 readiness: 'Ready to Use'
 summary: 'An intrinsic global object that stores information about the results of regular expression pattern matches.'
 tags:
-  0: JS
-  1: Basic
-  3: Object
+  - JS_Basic
+  - JS_Object
 uri: javascript/RegExp
 
 ---

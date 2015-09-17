@@ -7,9 +7,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'The Storage APIs provide developers with JavaScript objects for storing temporary and permanent data on the client''s device. These features range from simple key/value storage to a robust sandboxed filesystem.'
 tags:
-  0: API
-  1: Listings
-  3: Webstorage
+  - API_Listings
+  - API
+  - Webstorage
 uri: apis/storage
 
 ---

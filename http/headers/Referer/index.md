@@ -8,8 +8,8 @@ overview_table:
   Features: ''
 summary: 'Allows the user agent to specify a URI reference for the resource from which the target URI was obtained.'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
+  - Needs_Examples
 uri: http/headers/Referer
 
 ---
@@ -28,8 +28,6 @@ Features
 ## Syntax
 
     Referer = absolute-URI / partial-URI
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

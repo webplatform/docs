@@ -10,10 +10,10 @@ relationships:
     href: /apis/webrtc/RTCPeerConnection
 summary: 'Handles the icechange event. It is called any time the iceState  changes.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/onicechange
 
 ---
@@ -29,6 +29,4 @@ Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis
 var result = element.onicechange;
 element.onicechange = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

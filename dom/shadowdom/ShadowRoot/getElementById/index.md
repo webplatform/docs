@@ -15,11 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Just like Document.getElementById except that it only works within the scope of this ShadowRoot''s shadow tree.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
-  - Shadow
+  - Shadow_DOM
+  - Needs_Examples
 uri: dom/shadowdom/ShadowRoot/getElementById
 
 ---
@@ -40,6 +39,3 @@ var result = element.getElementById();
 Returns an object of type DOM NodeDOM Node
 
 Returns the DOM node specified by the given ID. Case matters, and if there is more than one node with the given ID, which node is returned is uncertain.
-
-**Needs Examples**: This section should include examples.
-

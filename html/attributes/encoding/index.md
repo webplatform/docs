@@ -10,9 +10,9 @@ notes:
 readiness: 'Not Ready'
 summary: 'Sets or retrieves the MIME encoding for the form.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Examples
 uri: html/attributes/encoding
 
 ---
@@ -32,8 +32,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

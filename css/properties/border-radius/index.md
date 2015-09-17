@@ -21,8 +21,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The border-radius CSS property allows authors to round the corners of an element. The rounding can be different per-corner, and it could have different horizontal and vertical radii, to produce elliptical curves.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -96,7 +96,7 @@ border-bottom-right-radius: 1em;
 border-bottom-left-radius: 1em;
 ```
 
-[View live example](http://code.webplatform.org/gist/5495188)
+[View live example](http://gist.github.com/5495188)
 
 Multi value example
 
@@ -111,7 +111,7 @@ border-bottom-right-radius: 1vw 0.5em;
 border-bottom-left-radius: 1em 3em;
 ```
 
-[View live example](http://code.webplatform.org/gist/5495188)
+[View live example](http://gist.github.com/5495188)
 
 Create an ellipse, unless the
 
@@ -121,7 +121,7 @@ border-radius: 50%;
 /* Will be a circle if the element’s width is equal to its height */
 ```
 
-[View live example](http://code.webplatform.org/gist/5495188)
+[View live example](http://gist.github.com/5495188)
 
 Shrinking curves to avoid overlapping
 
@@ -135,7 +135,7 @@ border-radius: 40% 60%;
 /* The values shrink proportionally, all multiplied by the same factor, until there is no overlap */
 ```
 
-[View live example](http://code.webplatform.org/gist/5495188)
+[View live example](http://gist.github.com/5495188)
 
 ## Usage
 

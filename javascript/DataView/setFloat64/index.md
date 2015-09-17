@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Sets the Float64 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be set at any offset.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/DataView/setFloat64
 
 ---

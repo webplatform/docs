@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the input timing properties specified for this animation node. This is comparable to the specified style on an Element, elem.style.'
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationNode/timing'
 
 ---
@@ -40,8 +38,6 @@ var myTiming = myAnimationNode.timing;
 Returns an object of type
 
 type AnimationTiming object
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

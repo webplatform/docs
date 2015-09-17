@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Calls a method of an object, substituting another object for the current object.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Function/call
 
 ---

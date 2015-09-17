@@ -11,9 +11,8 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Releases a pointer captured by an element (using the setPointerCapture method).'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
+  - Needs_Examples
 uri: dom/Element/releasePointerCapture
 
 ---
@@ -41,8 +40,6 @@ Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

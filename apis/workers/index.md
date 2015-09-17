@@ -7,18 +7,15 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Workers (also commonly referred to as Web Workers) are scripts that run in the background independently of any user interface scripts. This allows for long-running scripts that are not interrupted by scripts that respond to clicks or other user interactions, and allows long tasks to be executed without yielding to keep the page responsive.'
 tags:
-  0: API
-  1: Listings
-  3: Webworkers
+  - API_Listings
+  - API
+  - Webworkers
 uri: apis/workers
 
 ---
 ## Summary
 
 Workers (also commonly referred to as Web Workers) are scripts that run in the background independently of any user interface scripts. This allows for long-running scripts that are not interrupted by scripts that respond to clicks or other user interactions, and allows long tasks to be executed without yielding to keep the page responsive.
-
-API Name
-:   Summary
 
 [Worker](/apis/workers/Worker)
 :   An object representing a worker, that is used to communicate with the worker.

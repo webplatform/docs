@@ -12,11 +12,9 @@ relationships:
     href: /apis/web_animations/KeyframeEffect
 summary: "A Keyframe object or sequence of Keyframe objects used to replace the set of keyframes that make up this effect.\n"
 tags:
-  - API
-  - Object
-  - Methods
-  - Web
-  - Animations
+  - API_Object_Methods
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/KeyframeEffect/setFrames'
 
 ---
@@ -44,6 +42,3 @@ var  = .setFrames(frames);
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
-

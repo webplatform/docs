@@ -7,8 +7,7 @@ summary: 'This article lists utilities to help analyze situations where a CSS st
 tags:
   - Tutorials
   - CSS
-  - Developer
-  - Tools
+  - Developer_Tools
   - HTML
   - Inheritance
 uri: 'tutorials/debugging css'

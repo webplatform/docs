@@ -6,9 +6,10 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Working Draft'
 summary: 'Provides the photo-specific settings options and current settings values.'
 tags:
-  0: API
-  1: Objects
-  3: Mobile
+  - API_Objects
+  - API
+  - Mobile
+  - Needs_Examples
 uri: 'apis/image capture/PhotoSettingsOptions'
 
 ---
@@ -27,6 +28,3 @@ Provides the photo-specific settings options and current settings values.
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
-

@@ -21,10 +21,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Controls the visible highlighting of selections of text and elements. It is possible to blind out selection completely or to allow the selection of text only.'
 tags:
-  0: CSS
-  1: Properties
-  3: Design
-  5: Selectors
+  - CSS_Properties
+  - CSS
+  - Design
+  - CSS_Selectors
 uri: css/properties/user-select
 
 ---

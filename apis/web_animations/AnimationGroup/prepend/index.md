@@ -9,11 +9,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "If any of the animation nodes in nodes is an inclusive ancestor of this animation node throw a HierarchyRequestError exception and terminate these steps.\nInsert nodes before the first child.\n"
 tags:
-  - API
-  - Object
-  - Methods
-  - Web
-  - Animations
+  - API_Object_Methods
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationGroup/prepend'
 
 ---
@@ -41,6 +39,3 @@ Method of [apis/web\_animations/AnimationGroup](/apis/web_animations/AnimationGr
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
-

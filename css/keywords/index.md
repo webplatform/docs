@@ -5,8 +5,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Index page for CSS keywords.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: css/keywords
 
 ---

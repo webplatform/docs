@@ -21,8 +21,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: "Defines what values are applied by the animation outside the time it is executing (before and after the animation). \n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/animation-fill-mode
 
 ---
@@ -149,7 +149,7 @@ header {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/7012307)
+[View live example](http://gist.github.com/7012307)
 
 ## Usage
 

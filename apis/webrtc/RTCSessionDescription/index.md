@@ -5,9 +5,9 @@ notes:
 readiness: 'Almost Ready'
 summary: 'Describes the session with a serialized Session Description Protocol object.'
 tags:
-  0: API
-  1: Objects
-  3: WebRTC
+  - API_Objects
+  - API
+  - WebRTC
 uri: apis/webrtc/RTCSessionDescription
 
 ---
@@ -16,9 +16,6 @@ uri: apis/webrtc/RTCSessionDescription
 Describes the session with a serialized Session Description Protocol object.
 
 ## Properties
-
-API Name
-:   Summary
 
 [sdp](/apis/webrtc/RTCSessionDescription/sdp)
 :   The string representation of the SDP object.

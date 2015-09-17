@@ -10,8 +10,8 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'Represents the date and time at which the message was originated.'
 tags:
+  - HTTP_Headers
   - HTTP
-  - Headers
 uri: http/headers/Date
 
 ---

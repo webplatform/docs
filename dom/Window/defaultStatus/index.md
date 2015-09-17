@@ -16,9 +16,7 @@ relationships:
 standardization_status: Mixed
 summary: 'Sets or retrieves the default message displayed in the status bar at the bottom of the window. '
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Window/defaultStatus
 

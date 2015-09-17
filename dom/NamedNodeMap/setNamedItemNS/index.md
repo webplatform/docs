@@ -18,10 +18,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Sets an attribute object as part of the object.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/NamedNodeMap/setNamedItemNS
 
 ---
@@ -62,8 +61,6 @@ Type: **HRESULT**
 This method can return one of these values.
 
 {
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

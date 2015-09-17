@@ -5,8 +5,7 @@ notes:
 readiness: 'Ready to Use'
 summary: 'CSS defines different data types which can the be specified as the allowed values for CSS properties or media feature tests.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - CSS
 uri: 'css/data types'
 

@@ -11,15 +11,13 @@ relationships:
     value: dom/Error
     href: /dom/Error
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/Error/colno
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [dom/Error](/dom/Error)[dom/Error](/dom/Error)
 
 ## Syntax
@@ -28,8 +26,6 @@ Property of [dom/Error](/dom/Error)[dom/Error](/dom/Error)
 var result = element.colno;
 element.colno = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

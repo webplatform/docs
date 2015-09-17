@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Array of values for all axes of the gamepad. Each entry in the array is a floating point value in the range -1.0 - 1.0, representing the axis position from the lowest value (-1.0) to the highest value (1.0).'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Gamepad
+  - API_Object_Properties
+  - API
+  - Gamepad
 uri: apis/gamepad/Gamepad/axes
 
 ---

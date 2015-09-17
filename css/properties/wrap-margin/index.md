@@ -19,9 +19,9 @@ readiness: 'Not Ready'
 standardization_status: Non-Standard
 summary: 'Set the value that is used to offset the inner wrap shape from other shapes. Inline content that intersects a shape with this property will be pushed by this shape''s margin.'
 tags:
-  0: CSS
-  1: Properties
-  3: CSS-Regions
+  - CSS_Properties
+  - CSS
+  - CSS-Regions
 uri: css/properties/wrap-margin
 
 ---

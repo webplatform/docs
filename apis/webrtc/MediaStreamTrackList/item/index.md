@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the MediaStreamTrack at the specified index value.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebRTC
+  - API_Object_Methods
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/MediaStreamTrackList/item
 
 ---
@@ -46,6 +46,3 @@ var result = trackList.item(/* see parameter list */);
 ## Return Value
 
 Returns an object of type MediaStreamTrackMediaStreamTrack
-
-**Needs Examples**: This section should include examples.
-

@@ -17,9 +17,7 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets the locale name (language code, e.g., &quot;en-US&quot;, &quot;fr&quot;, &quot;de&quot;, &quot;ja&quot;, etc.) for the composition event, if available; otherwise, the empty string.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/CompositionEvent/locale
 

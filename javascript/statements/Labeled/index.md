@@ -10,8 +10,7 @@ notes:
 readiness: 'Ready to Use'
 summary: 'Provides an identifier for a statement.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/statements/Labeled
 
 ---

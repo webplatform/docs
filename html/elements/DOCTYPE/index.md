@@ -8,8 +8,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'A Document Type Declaration, or DOCTYPE, is an instruction that associates a particular SGML or XML document (for example, a webpage) with a Document Type Definition (DTD) (for example, the formal definition of a particular version of HTML). In the serialized form of the document, it manifests as a short string of markup that conforms to a particular syntax. Not including &lt;!DOCTYPE&gt; may trigger Quirks mode.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - DOCTYPE
   - HTML
 todo_broken_links:

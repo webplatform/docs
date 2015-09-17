@@ -1,11 +1,7 @@
 ---
 title: 'Introduction to mobile web'
 tags:
-  - Pages
-  - with
-  - broken
-  - file
-  - links
+  - Pages_with_broken_file_links
   - Tutorials
   - WSC
 uri: 'tutorials/Introduction to mobile web'

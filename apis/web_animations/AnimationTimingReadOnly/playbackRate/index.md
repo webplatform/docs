@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The animation node’s playback rate property.'
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationTimingReadOnly/playbackRate'
 
 ---
@@ -40,6 +38,4 @@ var result = element.playbackRate;
 Returns an object of type doubledouble
 
 This is a multiplier applied to the local time potentially causing the node to run at a different rate to its natural speed.
-
-**Needs Examples**: This section should include examples.
 

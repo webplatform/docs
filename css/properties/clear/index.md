@@ -25,8 +25,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The clear CSS property specifies if an element can be positioned next to or must be positioned below the floating elements that precede it in the markup.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -100,7 +100,7 @@ p{
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6042258)
+[View live example](http://gist.github.com/6042258)
 
 Example of `clear: left;` in use.
 
@@ -111,7 +111,7 @@ p{
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6065677)
+[View live example](http://gist.github.com/6065677)
 
 Example of `clear: right;` in use.
 
@@ -122,7 +122,7 @@ p{
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6065820)
+[View live example](http://gist.github.com/6065820)
 
 Example of `clear: both;` in use.
 
@@ -133,7 +133,7 @@ p{
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6065831)
+[View live example](http://gist.github.com/6065831)
 
 Moving a footer below all floated content above.
 
@@ -147,7 +147,7 @@ pretend the black box labeled <code>float:left;</code> is an image floated left.
 <footer id="footer">This is a footer.</footer>
 ```
 
-[View live example](http://code.webplatform.org/gist/6072801)
+[View live example](http://gist.github.com/6072801)
 
 ## Notes
 

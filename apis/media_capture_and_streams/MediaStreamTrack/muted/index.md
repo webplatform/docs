@@ -15,13 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns true if the track is muted, and false otherwise.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Media
-  5: Capture
-  6: and
-  7: Streams
+  - API_Object_Properties
+  - API
+  - Media_Capture_and_Streams
+  - Needs_Examples
 uri: 'apis/media capture and streams/MediaStreamTrack/muted'
 
 ---
@@ -42,6 +39,4 @@ var result = track.muted;
 ## Return Value
 
 Returns an object of type BooleanBoolean
-
-**Needs Examples**: This section should include examples.
 

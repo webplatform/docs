@@ -17,8 +17,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Sets the mode for the overline text decoration, determining whether the text decoration affects the space characters or not.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-overline-mode
 
 ---
@@ -72,7 +72,7 @@ p {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/7283851)
+[View live example](http://gist.github.com/7283851)
 
 ## Notes
 

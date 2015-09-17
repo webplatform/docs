@@ -4,20 +4,16 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Provides information about the battery status of the hosting device.'
 tags:
-  0: API
-  1: Listings
-  3: Battery
-  4: Status
-  5: Mobile
+  - API_Listings
+  - API
+  - Battery_Status
+  - Mobile
 uri: 'apis/battery status'
 
 ---
 ## Summary
 
 Provides information about the battery status of the hosting device.
-
-API Name
-:   Summary
 
 [NavigatorBattery](/apis/battery_status/NavigatorBattery)
 :   The NavigatorBattery interface is exposed on the Navigator object.

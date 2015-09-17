@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Converts a string to an integer.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/parseInt
 
 ---

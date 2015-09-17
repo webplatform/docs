@@ -10,9 +10,8 @@ relationships:
     href: /dom/Element
 summary: 'Scrolls the page to the point where the element shows up.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
+  - Needs_Examples
 uri: dom/Element/scrollIntoView
 
 ---
@@ -31,6 +30,4 @@ Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 

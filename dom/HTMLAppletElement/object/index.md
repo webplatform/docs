@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Retrieves the contained object.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/HTMLAppletElement/object
 
 ---
@@ -43,8 +42,6 @@ var result = applet.object;
 Returns an object of type StringString
 
 The applet object.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

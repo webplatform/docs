@@ -1,8 +1,7 @@
 ---
 title: 'an introduction to responsive website design'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
 uri: 'concepts/responsive/an introduction to responsive website design'
 
 ---

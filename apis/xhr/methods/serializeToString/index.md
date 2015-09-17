@@ -16,9 +16,7 @@ relationships:
     href: /apis/xhr/objects/XMLSerializer
 summary: 'Converts the parent DOM node of a document tree to an XML string.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: apis/xhr/methods/serializeToString
 

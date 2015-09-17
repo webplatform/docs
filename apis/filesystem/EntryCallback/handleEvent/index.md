@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Used to supply an Entry as a response to a user query.\n"
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileSystemAPI
+  - API_Object_Methods
+  - API
+  - FileSystemAPI
+  - Needs_Examples
 uri: apis/filesystem/EntryCallback/handleEvent
 
 ---
@@ -44,8 +44,6 @@ Method of [apis/filesystem/EntryCallback](/apis/filesystem/EntryCallback)[apis/f
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

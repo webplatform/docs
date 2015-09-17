@@ -16,9 +16,8 @@ relationships:
     href: /apis/websocket/MessageEvent
 summary: 'The data from the server.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
+  - Needs_Examples
 uri: apis/websocket/MessageEvent/data
 
 ---
@@ -38,6 +37,4 @@ element.html/elements/data = value;
 ## Return Value
 
 Returns an object of type StringString
-
-**Needs Examples**: This section should include examples.
 

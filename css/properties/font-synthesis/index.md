@@ -18,8 +18,9 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'This value specifies whether the user agent is allowed to synthesize  bold or oblique font faces when a font family lacks bold or italic faces.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/font-synthesis
 
 ---
@@ -68,8 +69,6 @@ style
 
 weight style
 :   user agent is allowed to synthesize both bold and oblique.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

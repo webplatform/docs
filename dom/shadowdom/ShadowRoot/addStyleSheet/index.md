@@ -15,11 +15,11 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Adds a new style sheet to shadow root style sheets.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: DOM
-  5: Shadow
+  - API_Object_Methods
+  - API
+  - DOM
+  - Shadow_DOM
+  - Needs_Examples
 uri: dom/shadowdom/ShadowRoot/addStyleSheet
 
 ---
@@ -38,6 +38,3 @@ var result = element.addStyleSheet();
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
-

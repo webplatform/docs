@@ -6,10 +6,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'A TrackEvent object exposes (via its track attribute) the track to which an event relates.'
 tags:
-  0: API
-  1: Objects
-  3: Audio
-  4: Video
+  - API_Objects
+  - API
+  - Audio
+  - Video
 uri: apis/audio-video/TrackEvent
 
 ---
@@ -18,9 +18,6 @@ uri: apis/audio-video/TrackEvent
 A TrackEvent object exposes (via its track attribute) the track to which an event relates.
 
 ## Properties
-
-API Name
-:   Summary
 
 [track](/apis/audio-video/TrackEvent/track)
 :   Returns the track object (TextTrack, AudioTrack, or VideoTrack) to which the event relates.

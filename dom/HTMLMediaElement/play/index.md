@@ -13,12 +13,11 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Loads and starts playback of a media resource.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Audio
-  5: DOM
-  6: Video
+  - API_Object_Methods
+  - API
+  - Audio
+  - DOM
+  - Video
 uri: dom/HTMLMediaElement/play
 
 ---

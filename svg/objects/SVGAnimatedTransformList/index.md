@@ -11,14 +11,13 @@ relationships:
     value: SVGElement
     href: /svg/objects/SVGElement
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: svg/objects/SVGAnimatedTransformList
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Inherits from [SVGElement](/svg/objects/SVGElement)[SVGElement](/svg/objects/SVGElement)
 
 ## Properties
@@ -46,8 +45,6 @@ Inherits from [SVGElement](/svg/objects/SVGElement)[SVGElement](/svg/objects/SVG
 ### Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

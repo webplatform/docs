@@ -6,19 +6,15 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'An interface for web applications to access the complete timing information for resources in a document.'
 tags:
-  0: API
-  1: Listings
-  3: Resource
-  4: Timing
+  - API_Listings
+  - API
+  - Resource_Timing
 uri: 'apis/resource timing'
 
 ---
 ## Summary
 
 An interface for web applications to access the complete timing information for resources in a document.
-
-API Name
-:   Summary
 
 [Performance](/apis/resource_timing/Performance)
 :   Provides methods for performance timing.

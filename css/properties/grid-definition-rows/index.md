@@ -18,8 +18,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: "This property can specify the length, a percentage of the grid container’s size, a measurement of the contents occupying the row, or a fraction of the free space in the grid. You can also specify a range using minmax(), which combines any of these measurements to define a min and max size for the row.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/grid-definition-rows
 
 ---

@@ -11,17 +11,16 @@ relationships:
     value: dom/HTMLMediaElement
     href: /dom/HTMLMediaElement
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Audio
-  5: DOM
-  6: Video
+  - API_Object_Methods
+  - API
+  - Audio
+  - DOM
+  - Video
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/HTMLMediaElement/load
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [dom/HTMLMediaElement](/dom/HTMLMediaElement)[dom/HTMLMediaElement](/dom/HTMLMediaElement)
 
 ## Syntax
@@ -33,8 +32,6 @@ Method of [dom/HTMLMediaElement](/dom/HTMLMediaElement)[dom/HTMLMediaElement](/d
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'An opaque object of the canvas API.'
 tags:
-  0: API
-  1: Objects
-  3: Canvas
+  - API_Objects
+  - API
+  - Canvas
 uri: apis/canvas/CanvasGradient
 
 ---
@@ -21,9 +21,6 @@ An opaque object of the canvas API.
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [addColorStop](/apis/canvas/CanvasGradient/addColorStop)
 :   Adds a new stop to a gradient. If *offset* is less than 0 or greater than 1 then an IndexSizeError exception must be thrown. If the color cannot be parsed as a CSS \<color\> value, then a SyntaxError exception must be thrown. Otherwise the gradient must have a new stop placed, at offset *offset* relative to the whole gradient, and with the color obtained by parsing *color* as a CSS \<color\> value.

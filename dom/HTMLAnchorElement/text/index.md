@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'Legacy. Use anchorElement.textContent instead. Functions identically to Node.textContent.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
 uri: dom/HTMLAnchorElement/text
 
 ---

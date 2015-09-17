@@ -20,8 +20,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Determines whether touch input may trigger default behavior supplied by the user agent, such as panning or zooming.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
 uri: css/properties/touch-action
 
 ---

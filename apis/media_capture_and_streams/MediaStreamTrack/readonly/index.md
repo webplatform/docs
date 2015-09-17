@@ -15,13 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns true If the track (audio or video) is backed by a read-only source such as a file, or the track source is a local microphone or camera, but is shared so that this track cannot modify any of the source''s settings. Returns false otherwise.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Media
-  5: Capture
-  6: and
-  7: Streams
+  - API_Object_Properties
+  - API
+  - Media_Capture_and_Streams
+  - Needs_Examples
 uri: 'apis/media capture and streams/MediaStreamTrack/readonly'
 
 ---
@@ -42,6 +39,4 @@ var result = track.readonly;
 ## Return Value
 
 Returns an object of type BooleanBoolean
-
-**Needs Examples**: This section should include examples.
 

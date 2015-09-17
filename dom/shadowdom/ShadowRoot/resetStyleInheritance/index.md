@@ -15,11 +15,11 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Indicates whether or not the inheritable CSS properties are set to the initial value at the shadow boundary. If false (default value), the properties continue to inherit. If true, the properties are set to initial value.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: DOM
-  5: Shadow
+  - API_Object_Properties
+  - API
+  - DOM
+  - Shadow_DOM
+  - Needs_Examples
 uri: dom/shadowdom/ShadowRoot/resetStyleInheritance
 
 ---
@@ -41,8 +41,6 @@ element.resetStyleInheritance = value;
 Returns an object of type BooleanBoolean
 
 If false (default value), the properties continue to inherit. If true, the properties are set to initial value.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

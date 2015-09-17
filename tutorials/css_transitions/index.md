@@ -133,7 +133,7 @@ The [**opacity**](/css/properties/opacity) property fades the icons, and [**tran
 
 For an element to be transitioned, it must specify a numeric value or percentage, such as a measurement or set of coordinates, or values that translate to numeric values, such as colors. Many keyword values work as well, such as the color **red** or **center** when used as a coordinate. But you cannot transition properties whose values specify a different kind of behavior. For example, you cannot transition between the [**display**](/css/properties/display) property's **block** and **none** values, or use [**text-align**](/css/properties/text-align) to switch between **left** and **right** justification.
 
-**Note:** Generated content can be transitioned, but only by separately styling the [::before](https://docs.webplatform.org/wiki/css/selectors/pseudo-elements/::before) and [::after](https://docs.webplatform.org/wiki/css/selectors/pseudo-elements/::after) selectors.
+**Note:** Generated content can be transitioned, but only by separately styling the [::before](/css/selectors/pseudo-elements/::before) and [::after](/css/selectors/pseudo-elements/::after) selectors.
 
 ## Sequential transitions
 

@@ -16,15 +16,13 @@ relationships:
     href: /dom/Element
 standardization_status: 'W3C Recommendation'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/Element/removeAttributeNode
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
 ## Syntax
@@ -51,8 +49,6 @@ Returns an object of type DOM NodeDOM Node
 **attribute**
 
 **IHTMLDOMAttribute2**
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

@@ -20,8 +20,8 @@ readiness: 'Not Ready'
 standardization_status: Non-Standard
 summary: 'The text-overflow-ellipsis CSS property controls how the hint on overflowed content that is not displayed is signaled to the users. The presence of the hint is controlled with CSS property text-overflow-mode. Shorthand property is text-overflow.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-overflow-ellipsis
 
 ---

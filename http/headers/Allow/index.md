@@ -9,8 +9,7 @@ overview_table:
   Features: ''
 summary: 'Lists the methods supported by the target resource.'
 tags:
-  - HTTP
-  - Headers
+  - HTTP_Headers
 uri: http/headers/Allow
 
 ---

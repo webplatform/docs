@@ -11,17 +11,15 @@ relationships:
     value: dom/HTMLMediaElement
     href: /dom/HTMLMediaElement
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - Audio
   - DOM
   - Video
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/HTMLMediaElement/audioTracks
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [dom/HTMLMediaElement](/dom/HTMLMediaElement)[dom/HTMLMediaElement](/dom/HTMLMediaElement)
 
 ## Syntax
@@ -30,8 +28,6 @@ Property of [dom/HTMLMediaElement](/dom/HTMLMediaElement)[dom/HTMLMediaElement](
 var result = element.audioTracks;
 element.audioTracks = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

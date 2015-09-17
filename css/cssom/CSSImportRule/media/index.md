@@ -11,10 +11,10 @@ relationships:
     value: css/cssom/CSSImportRules
     href: '/w/index.php?title=css/cssom/CSSImportRules&action=edit&redlink=1'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -22,8 +22,6 @@ todo_broken_links:
 uri: css/cssom/CSSImportRule/media
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [css/cssom/CSSImportRules](/w/index.php?title=css/cssom/CSSImportRules&action=edit&redlink=1)[css/cssom/CSSImportRules](/w/index.php?title=css/cssom/CSSImportRules&action=edit&redlink=1)
 
 ## Syntax
@@ -32,8 +30,6 @@ Property of [css/cssom/CSSImportRules](/w/index.php?title=css/cssom/CSSImportRul
 var result = element.media;
 element.media = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

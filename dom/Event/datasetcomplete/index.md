@@ -9,6 +9,7 @@ summary: 'Fires when data transfer from the data source has completed.'
 tags:
   - Events
   - DOM
+  - Needs_Examples
 uri: dom/Event/datasetcomplete
 
 ---
@@ -70,8 +71,6 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

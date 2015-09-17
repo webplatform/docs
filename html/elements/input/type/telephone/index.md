@@ -9,8 +9,9 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Candidate Recommendation'
 summary: "Duplicate of input[type=&quot;tel&quot;]\n"
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
+  - Needs_Examples
+  - Deletion_Candidate
 uri: html/elements/input/type/telephone
 
 ---
@@ -30,7 +31,4 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
-**Deletion Candidate**: Duplicate of [[[1]](http://docs.webplatform.org/wiki/html/elements/input/type/tel)]. Confusion arose due to the fact that W3 uses the term telephone.
 

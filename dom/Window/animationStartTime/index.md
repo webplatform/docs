@@ -14,9 +14,7 @@ relationships:
 standardization_status: Deprecated
 summary: 'Obsolete. Returns a timestamp of the start time of the current refresh interval, such that multiple animations can be synchronized with each other.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Window/animationStartTime
 

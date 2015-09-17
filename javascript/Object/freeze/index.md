@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Prevents the modification of existing property attributes and values, and prevents the addition of new properties.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Object/freeze
 
 ---

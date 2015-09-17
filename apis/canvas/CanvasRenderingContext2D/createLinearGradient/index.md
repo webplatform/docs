@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Returns a linear CanvasGradient initialized with the specified line as represented by the start point (x0, y0) and end point (x1, y1) of the gradient.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Canvas
+  - API_Object_Methods
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/createLinearGradient
 
 ---

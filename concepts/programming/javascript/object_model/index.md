@@ -211,7 +211,7 @@ This section discusses how objects inherit properties from other objects in the 
 
 ### Inheriting properties
 
-Suppose you create the `mark` object as a `WorkerBee` (as shown in [Figure 8.3](http://docs.webplatform.org/wiki#figure8.3)) with the following statement:
+Suppose you create the `mark` object as a `WorkerBee` (as shown in [Figure 8.3](#figure8.3)) with the following statement:
 
     var mark = new WorkerBee;
 
@@ -489,7 +489,7 @@ Every object has a `__proto__` object property (except `Object`); every function
     var f = new Foo();
     var isTrue = (f instanceof Foo);
 
-For a more detailed example, suppose you have the same set of definitions shown in [Inheriting Properties](http://docs.webplatform.org/wiki#Inheriting_Properties). Create an `Engineer` object as follows:
+For a more detailed example, suppose you have the same set of definitions shown in [Inheriting Properties](#Inheriting_Properties). Create an `Engineer` object as follows:
 
     var chris = new Engineer("Pigman, Chris", ["jsd"], "fiji");
 

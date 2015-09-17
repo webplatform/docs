@@ -20,8 +20,8 @@ overview_table:
 readiness: 'In Progress'
 summary: 'Allows you to expand or condense the widths for a normal, condensed, or expanded font face.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -125,7 +125,7 @@ narrower (Internet Explorer only)
     }
 ```
 
-[View live example](http://code.webplatform.org/gist/5842671)
+[View live example](http://gist.github.com/5842671)
 
 ### Syntax
 

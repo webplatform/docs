@@ -12,8 +12,7 @@ relationships:
     href: /dom/Event
 summary: 'Represents a close event of a WebSocket connection.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/CloseEvent
 
@@ -29,9 +28,6 @@ Inherits from [Event](/dom/Event)[Event](/dom/Event)
 **CloseEvent** is sent to clients using [WebSocket](/apis/websocket/WebSocket) when the connection is closed. This is delivered to the listener indicated by the WebSocket object's [onclose](/apis/websocket/WebSocket/onclose) attribute.
 
 ## Properties
-
-API Name
-:   Summary
 
 [code](/dom/CloseEvent/code)
 :   The connection close code provided by the server.
@@ -53,9 +49,6 @@ API Name
 ## Inherited from Event
 
 ### Properties
-
-API Name
-:   Summary
 
 [bubbles](/dom/Event/bubbles)
 :   Gets a value that indicates whether an event propagates up from the event target.
@@ -86,9 +79,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initEvent](/dom/Event/initEvent)
 :   Initializes a new generic event that the [**createEvent**](/dom/Document/createEvent) method created.
 
@@ -102,9 +92,6 @@ API Name
 :   Prevents propagation of an event beyond the current target.
 
 ### Events
-
-API Name
-:   Summary
 
 [DOMContentLoaded](/dom/Event/DOMContentLoaded)
 :

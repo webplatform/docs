@@ -15,15 +15,12 @@ relationships:
     value: 'DOM Node'
     href: /apis/xhr/objects/XDomainRequest
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
 uri: 'apis/xhr/methods/open (XDomainRequest)'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [apis/xhr/objects/XDomainRequest](/apis/xhr/objects/XDomainRequest)[apis/xhr/objects/XDomainRequest](/apis/xhr/objects/XDomainRequest)
 
 ## Syntax

@@ -9,11 +9,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "See the easing member of the AnimationTimingReadOnly interface.\n"
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationTimingProperties/easing'
 
 ---
@@ -31,6 +29,4 @@ Property of [apis/web animations/AnimationTimingProperties](/apis/web_animations
 var result = element.easing;
 element.easing = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

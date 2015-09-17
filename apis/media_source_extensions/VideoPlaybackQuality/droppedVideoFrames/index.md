@@ -17,9 +17,8 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Gets the number of dropped video frames.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
+  - Needs_Examples
 uri: 'apis/media source extensions/VideoPlaybackQuality/droppedVideoFrames'
 
 ---
@@ -39,6 +38,4 @@ VideoPlaybackQuality.droppedVideoFrames = number;
 ## Return Value
 
 Returns an object of type NumberNumber
-
-**Needs Examples**: This section should include examples.
 

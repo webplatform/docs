@@ -18,8 +18,8 @@ overview_table:
 readiness: 'In Progress'
 summary: 'Deprecated. Gets or sets line-breaking rules for text in selected languages such as Japanese, Chinese, and Korean.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/line-break
 
 ---

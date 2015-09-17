@@ -4,9 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'DynamicsCompressorNode is an AudioNode processor implementing a dynamics compression effect, which lowers the volume of the loudest parts of the signal and raises the volume of the softest parts. Compression is especially important in games and musical applications where large numbers of individual sounds are played simultaneously to control the overall signal level and help avoid clipping (distorting) the audio output to the speakers.'
 tags:
-  0: API
-  1: Objects
-  3: WebAudio
+  - API_Objects
+  - API
+  - WebAudio
 uri: apis/webaudio/DynamicsCompressorNode
 
 ---
@@ -15,9 +15,6 @@ uri: apis/webaudio/DynamicsCompressorNode
 DynamicsCompressorNode is an AudioNode processor implementing a dynamics compression effect, which lowers the volume of the loudest parts of the signal and raises the volume of the softest parts. Compression is especially important in games and musical applications where large numbers of individual sounds are played simultaneously to control the overall signal level and help avoid clipping (distorting) the audio output to the speakers.
 
 ## Properties
-
-API Name
-:   Summary
 
 [attack](/apis/webaudio/DynamicsCompressorNode/attack)
 :   The amount of time (in seconds) to reduce the gain by 10dB. Its default value is 0.003, with a nominal range of 0 to 1. This parameter is k-rate.

@@ -13,11 +13,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Returns the static sequence of regions into which content flows.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: CSS
-  5: CSS-Regions
+  - API_Object_Methods
+  - API
+  - CSS
+  - CSS-Regions
 uri: apis/css-regions/NamedFlow/getRegions
 
 ---

@@ -11,8 +11,8 @@ readiness: 'Ready to Use'
 standardization_status: Non-Standard
 summary: 'Defines a two-dimensional transformation consisting of simultaneous skew transformations of the X and Y axes.  Not recommended and supported only for backwards compatibility; use a combination of skewX(angle), skewY(angle) and/or rotate(angle) instead.'
 tags:
+  - CSS_Functions
   - CSS
-  - Functions
 uri: css/functions/skew()
 
 ---
@@ -30,7 +30,7 @@ div {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5305245)
+[View live example](http://gist.github.com/5305245)
 
 ### Syntax
 

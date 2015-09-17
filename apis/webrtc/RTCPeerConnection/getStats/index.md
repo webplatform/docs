@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Retrieves status information for a given MediaStreamTrack.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebRTC
+  - API_Object_Methods
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/getStats
 
 ---
@@ -37,6 +37,3 @@ var result = element.getStats();
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
-

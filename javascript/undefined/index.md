@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'A value that has never been defined, such as a variable that has not been initialized.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/undefined
 
 ---

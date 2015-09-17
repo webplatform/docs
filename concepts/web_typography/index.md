@@ -3,8 +3,7 @@ title: 'Web typography'
 readiness: 'Ready to Use'
 summary: "What is typography? Put simply, it is the art, design, and arrangement of text (referred to as type)—a concept borrowed from traditional print design. It is as much about what you don’t do with your type as what you do. On the web, typography often gets very little attention, and there are certain technological limitations that can cause web typography to suffer when compared to print typography. However, with the tools available to you, there’s no reason why type cannot be presented on the web in a wide variety of stylish and beautiful forms.\n"
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
 uri: 'concepts/web typography'
 
 ---

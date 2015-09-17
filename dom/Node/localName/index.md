@@ -18,10 +18,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Retrieves the local name of the fully qualified XML declaration for a node.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/Node/localName
 
 ---
@@ -44,8 +43,6 @@ var localName = node.localName;
 Returns an object of type StringString
 
 The local name portion of the **qualified name** of the node.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

@@ -13,9 +13,9 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'Presents audio or video data to the user. The media element provides the audio and video objects which are used to play sound and video content.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -95,11 +95,7 @@ Presents audio or video data to the user. The media element provides the audio a
 
 <dl><dt><a href="/dom/interface"> DOM Interface</a></dt>
   <dd><a href="/dom/HTMLElement">HTMLElement</a></dd>
-</dl><div class="editors-only">
-<p><b>Needs Examples</b>:  This section should include examples. 
-</p>
-</div>
-<p><br/></p>
+</dl><p><br/></p>
 <h3>Standards information</h3>
 <ul><li><a rel="nofollow" class="external text" href="http://go.microsoft.com/fwlink/p/?linkid=221374">HTML5 A vocabulary and associated APIs for HTML and XHTML</a>, Section 4.8.10</li></ul><p><br/></p>
 <h3>Members</h3>

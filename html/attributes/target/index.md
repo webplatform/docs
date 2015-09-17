@@ -10,8 +10,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Target is a link attribute, which defines where to open the link.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -31,7 +30,7 @@ Applies to
 
 </th>
 <td>
-<http://docs.webplatform.org/wiki/html/elements/a>
+[/html/elements/a](/html/elements/a)
 
 </td>
 </tr>

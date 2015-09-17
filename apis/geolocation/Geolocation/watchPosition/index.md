@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns a long value that uniquely identifies a watch operation and then asynchronously starts the watch operation.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Geolocation
+  - API_Object_Methods
+  - API
+  - Geolocation
 uri: apis/geolocation/Geolocation/watchPosition
 
 ---

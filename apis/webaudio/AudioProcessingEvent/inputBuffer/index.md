@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "An AudioBuffer containing the input audio data. It will have a number of channels equal to the numberOfInputChannels parameter of the createScriptProcessor() method. This AudioBuffer is only valid while in the scope of the onaudioprocess function. Its values will be meaningless outside of this scope.\n"
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebAudio
+  - API_Object_Properties
+  - API
+  - WebAudio
+  - Needs_Examples
 uri: apis/webaudio/AudioProcessingEvent/inputBuffer
 
 ---
@@ -33,8 +33,6 @@ Property of [apis/webaudio/AudioProcessingEvent](/apis/webaudio/AudioProcessingE
 ``` js
 var result = AudioProcessingEvent.inputBuffer;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

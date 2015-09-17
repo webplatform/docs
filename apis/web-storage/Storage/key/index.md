@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the name of the nth key in the list.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - Webstorage
 uri: apis/web-storage/Storage/key
 

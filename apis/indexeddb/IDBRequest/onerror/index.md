@@ -10,10 +10,10 @@ relationships:
     href: /apis/indexeddb/IDBRequest
 summary: 'The event handler for the error event.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBRequest/onerror
 
 ---
@@ -29,6 +29,4 @@ Property of [apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)[apis/indexed
 var result = element.onerror;
 element.onerror = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

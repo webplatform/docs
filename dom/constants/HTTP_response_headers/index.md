@@ -11,15 +11,13 @@ relationships:
     value: dom/constants
     href: /dom/constants
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: 'dom/constants/HTTP response headers'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [dom/constants](/dom/constants)[dom/constants](/dom/constants)
 
 ## Syntax
@@ -28,8 +26,6 @@ Property of [dom/constants](/dom/constants)[dom/constants](/dom/constants)
 var result = element.HTTP response headers;
 element.HTTP response headers = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

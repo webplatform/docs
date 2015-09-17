@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Enables the execution of one or more statements when a specified expression''s value matches a label.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/statements/switch
 
 ---

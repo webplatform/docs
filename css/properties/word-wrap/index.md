@@ -19,8 +19,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'An alias of css/properties/overflow-wrap, word-wrap defines whether to break words when the content exceeds the boundaries of its container.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/word-wrap
 
 ---
@@ -77,7 +77,7 @@ This is the style rule that applies to the example.
 .clsLiteral          { font-family: Courier New, Courier, monospace; }
 ```
 
-[View live example](http://code.webplatform.org/gist/5888667)
+[View live example](http://gist.github.com/5888667)
 
 The following examples show how the **css/properties/word-wrap** property can be used to break one long word into multiple words on multiple lines. The *break-word* value avoids horizontal scrolling and can be useful for printing.
 
@@ -161,7 +161,7 @@ LongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWord
 </html>
 ```
 
-[View live example](http://code.webplatform.org/gist/5888667)
+[View live example](http://gist.github.com/5888667)
 
 ## Notes
 

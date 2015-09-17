@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Converts all the alphabetic characters in a string to uppercase.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/toUpperCase
 
 ---

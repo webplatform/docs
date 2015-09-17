@@ -19,8 +19,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'button要素はクリック可能なボタンを表示します。'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
   - UI
 todo_broken_links:
@@ -95,7 +94,7 @@ formtarget
 <button name="myButton" type="button">クリックしてね</button>
 ```
 
-[View live example](http://code.webplatform.org/gist/b08191a8d5915621a5e1)
+[View live example](http://gist.github.com/b08191a8d5915621a5e1)
 
 この例ではフォームを送信するための`<button>`の使い方を紹介します。よくわからない場合は、form要素についてのページを読んで[**form**](/w/index.php?title=html/elements/form/ja&action=edit&redlink=1)の使い方について詳細な情報を学んでください。
 
@@ -107,7 +106,7 @@ formtarget
 </form>
 ```
 
-[View live example](http://code.webplatform.org/gist/ceb6531b1b86fb0b21d0)
+[View live example](http://gist.github.com/ceb6531b1b86fb0b21d0)
 
 `<button="reset">`を使ってformをリセットする例を紹介します。よくわからない場合は、form要素についてのページを読んで[**form**](/w/index.php?title=html/elements/form/ja&action=edit&redlink=1)の使い方について詳細な情報を学んでください。
 
@@ -119,7 +118,7 @@ formtarget
 </form>
 ```
 
-[View live example](http://code.webplatform.org/gist/c579515bcd4378bfd634)
+[View live example](http://gist.github.com/c579515bcd4378bfd634)
 
 ## Usage
 

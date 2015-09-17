@@ -11,6 +11,7 @@ summary: 'Dispatched prior to the dispatch of the first event after pointer capt
 tags:
   - Events
   - DOM
+  - Needs_Examples
 uri: dom/PointerEvent/gotpointercapture
 
 ---
@@ -73,8 +74,6 @@ None
 </tr>
 </table>
 This event is dispatched to the element that is receiving pointer capture. Subsequent events for that pointer will be dispatched to this element. See [setPointerCapture](/dom/Element/setPointerCapture).
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'The following table lists JavaScript operators.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/operators
 
 ---

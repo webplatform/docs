@@ -6,29 +6,19 @@ notes:
   - 'Duplicate http://docs.webplatform.org/wiki/css/cssom/CSSKeyframeRule'
 readiness: 'Out of Date'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - API
-  - Objects
+  - Pages_using_duplicate_arguments_in_template_calls
+  - API_Objects
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: css/cssom/CSSKeyframesRule
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Properties
 
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [deleteRule](/css/cssom/CSSKeyframesRule/deleteRule)
 :
@@ -42,8 +32,6 @@ API Name
 ## Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

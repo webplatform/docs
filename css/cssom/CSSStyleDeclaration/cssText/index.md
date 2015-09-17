@@ -13,9 +13,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets or sets the textual representation of a CSS style declaration.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - CSS
   - DOM
 uri: css/cssom/CSSStyleDeclaration/cssText

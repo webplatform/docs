@@ -17,8 +17,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Defines the shape of the border of the bottom-right corner.'
 tags:
-  - CSS
-  - Properties
+  - CSS_Properties
+  - Needs_Examples
 uri: css/properties/border-bottom-right-radius
 
 ---
@@ -61,6 +61,4 @@ length
 
 percentage
 :   Denotes the size of the circle radius, or the semi-major and semi-minor axes of the ellipsis, using percentage values. Percentages for the horizontal axis refer to the width of the box, percentages for the vertical axis refer to the height of the box. Negative values are invalid.
-
-**Needs Examples**: This section should include examples.
 

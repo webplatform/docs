@@ -11,8 +11,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "The MathML maction element provides a possibility to bind actions to (sub-) expressions.\nThe action itself is specified by the actiontype attribute, which accepts several values. To specify which child elements are addressed by the action, you can make use of the selection attribute.\n"
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - MathML
 uri: mathml/elements/maction
 

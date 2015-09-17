@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Proposed Recommendation'
 summary: 'This method destroys the index with the given name in the connected database. Note that this method must only be called from a &quot;versionchange&quot; transaction callback.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
 uri: apis/indexeddb/IDBObjectStore/deleteIndex
 
 ---

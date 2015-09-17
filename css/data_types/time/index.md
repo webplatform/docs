@@ -4,8 +4,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The &lt;time&gt; CSS data type specifies a duration in time, expressed as a number followed (without whitespace) by one of the time unit abbreviations: s or ms.'
 tags:
-  - Data
-  - Type
+  - Data_Type
   - CSS
 uri: 'css/data types/time'
 

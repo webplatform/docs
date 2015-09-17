@@ -11,20 +11,16 @@ relationships:
     value: Event
     href: /dom/Event
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: dom/MessageEvent
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Inherits from [Event](/dom/Event)[Event](/dom/Event)
 
 ## Properties
-
-API Name
-:   Summary
 
 [html/elements/data](/dom/MessageEvent/data)
 :   Gets the content of the message.
@@ -37,9 +33,6 @@ API Name
 
 ## Methods
 
-API Name
-:   Summary
-
 [initMessageEvent](/dom/MessageEvent/initMessageEvent)
 :   Initializes a new cross-document message (XDM) event that the [**createEvent**](/dom/Document/createEvent) method created.
 
@@ -50,9 +43,6 @@ API Name
 ## Inherited from Event
 
 ### Properties
-
-API Name
-:   Summary
 
 [bubbles](/dom/Event/bubbles)
 :   Gets a value that indicates whether an event propagates up from the event target.
@@ -83,9 +73,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [initEvent](/dom/Event/initEvent)
 :   Initializes a new generic event that the [**createEvent**](/dom/Document/createEvent) method created.
 
@@ -99,9 +86,6 @@ API Name
 :   Prevents propagation of an event beyond the current target.
 
 ### Events
-
-API Name
-:   Summary
 
 [DOMContentLoaded](/dom/Event/DOMContentLoaded)
 :
@@ -180,8 +164,6 @@ API Name
 
 [finish](/dom/Event/finish)
 :
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

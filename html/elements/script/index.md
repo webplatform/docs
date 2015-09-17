@@ -11,8 +11,7 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The script element enables dynamic script and data blocks to be included in documents. It can contain code/data directly or it can link to external sources. It is mainly used with JavaScript.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
   - JavaScript
 todo_broken_links:

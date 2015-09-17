@@ -9,9 +9,10 @@ notes:
   - 'Needs summary, example, spec reference, standardization status'
 readiness: 'Not Ready'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - ARIA
+  - Needs_Summary
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -19,8 +20,6 @@ todo_broken_links:
 uri: aria/attributes/aria-activedescendant
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 <table class="wikitable">
 <tr>
 <th>
@@ -31,8 +30,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

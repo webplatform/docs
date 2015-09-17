@@ -1,11 +1,7 @@
 ---
 title: 'Validating your HTML'
 tags:
-  - Pages
-  - with
-  - broken
-  - file
-  - links
+  - Pages_with_broken_file_links
   - Tutorials
   - WSC
   - HTML

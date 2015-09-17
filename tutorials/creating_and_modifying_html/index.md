@@ -5,11 +5,7 @@ notes:
 readiness: 'Almost Ready'
 summary: 'when you''ve targetted an HTML element using JavaScript, how do modify it, and create new HTML nearby? This article shows you how.'
 tags:
-  - Pages
-  - with
-  - broken
-  - file
-  - links
+  - Pages_with_broken_file_links
   - Tutorials
   - JavaScript
 uri: 'tutorials/creating and modifying html'

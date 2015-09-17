@@ -15,11 +15,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Creates and returns a new object of the same type as this object''s most-derived interface such that it will produce the same output as this object.'
 tags:
-  - API
-  - Object
-  - Methods
-  - Web
-  - Animations
+  - API_Object_Methods
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationEffect/clone'
 
 ---
@@ -38,8 +36,6 @@ var  = .clone();
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

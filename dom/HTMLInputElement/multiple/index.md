@@ -17,10 +17,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Gets whether a file upload element can be populated with more than a single file.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: dom/HTMLInputElement/multiple
 
 ---
@@ -42,8 +41,6 @@ inputElement.multiple = newMultiple;
 Returns an object of type BooleanBoolean
 
 Whether multiple files can be populated within the element.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

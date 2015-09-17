@@ -14,10 +14,10 @@ relationships:
     href: /apis/indexeddb/IDBCursor
 summary: 'Returns an IDBRequest object and, in a separate thread, deletes the record at the cursor''s position, without changing the cursor''s position. Once the record is deleted, the cursor''s value is set to null.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: IndexedDB
+  - API_Object_Methods
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBCursor/delete
 
 ---
@@ -36,6 +36,3 @@ var  = .delete();
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
-

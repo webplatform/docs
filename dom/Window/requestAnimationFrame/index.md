@@ -16,9 +16,7 @@ relationships:
 standardization_status: Mixed
 summary: 'A method to invoke at the optimal time a callback to update the frame of an animation.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Window/requestAnimationFrame
 

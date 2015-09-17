@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The ''transition-duration'' property specifies the length of time a transition animation takes to complete.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/transition-duration
 
 ---
@@ -77,7 +77,7 @@ div:hover{
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5842067)
+[View live example](http://gist.github.com/5842067)
 
 ## Notes
 

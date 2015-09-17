@@ -12,6 +12,7 @@ tags:
   - Audio
   - DOM
   - Video
+  - Needs_Examples
 uri: dom/HTMLMediaElement/canplaythrough
 
 ---
@@ -73,8 +74,6 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 The **oncanplaythrough** event is raised when data is being fetched at a rate that would allow playback without interruption at the [**defaultPlaybackRate**](/dom/HTMLMediaElement/defaultPlaybackRate). If the [**autoplay**](/dom/HTMLMediaElement/autoplay) attribute is specified, the video starts playing when **oncanplaythrough** is received. This event occurs after [**oncanplay**](/dom/HTMLMediaElement/canplay) and before the first [**onprogress**](/dom/HTMLMediaElement/progress) event is received. To invoke this event, load a media resource.

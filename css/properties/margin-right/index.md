@@ -19,8 +19,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'margin-right sets the right margin of an element.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -65,7 +65,7 @@ Animatable
 ## Values
 
 length
-:   Specifies a fixed length, using any standard [CSS length units](http://docs.webplatform.org/wiki/css/units/length) . Negative Values are allowed.
+:   Specifies a fixed length, using any standard [CSS length units](/css/units/length) . Negative Values are allowed.
 
 percentage
 :   A percentage of the width of the containing block. Negative values are allowed. (Even though this is margin-top, the browser will take the percentage from the width, not the height of the containing block.)
@@ -90,7 +90,7 @@ In this example there are three floated blocks, styled identically except for th
 <div class="three"></div>
 ```
 
-[View live example](http://code.webplatform.org/gist/5728056)
+[View live example](http://gist.github.com/5728056)
 
 CSS applied to the HTML seen in the first example block.
 
@@ -122,7 +122,7 @@ CSS applied to the HTML seen in the first example block.
  }
 ```
 
-[View live example](http://code.webplatform.org/gist/5728056)
+[View live example](http://gist.github.com/5728056)
 
 ## Usage
 
@@ -134,7 +134,7 @@ CSS applied to the HTML seen in the first example block.
 
 ### Best Practices
 
--   When possible, use [margin](http://docs.webplatform.org/wiki/css/properties/margin) shorthand (i.e. {margin: 10px 15px 20px 15px;}) to specify margin-widths rather than writing out each margin's specifications as this clutters code and makes it difficult to read. Use `margin-bottom` if there is a specific reason to call attention to it (e.g. one element has a different bottom margin than the rest in its class, etc.).
+-   When possible, use [margin](/css/properties/margin) shorthand (i.e. {margin: 10px 15px 20px 15px;}) to specify margin-widths rather than writing out each margin's specifications as this clutters code and makes it difficult to read. Use `margin-bottom` if there is a specific reason to call attention to it (e.g. one element has a different bottom margin than the rest in its class, etc.).
 
 ## Notes
 

@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Declares a shape around which text should be wrapped, with possible modifications from the shape-margin property. The shape defined by shape-outside and shape-margin changes the geometry of a float element''s float area.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/shape-outside
 
 ---
@@ -129,7 +129,7 @@ shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
 shape-outside: url(path/to/image.png);
 ```
 
-[View live example](http://code.webplatform.org/gist/5832982)
+[View live example](http://gist.github.com/5832982)
 
 ## Usage
 

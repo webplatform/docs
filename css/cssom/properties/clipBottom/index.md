@@ -16,9 +16,7 @@ relationships:
     href: /css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 summary: 'Gets the bottom coordinate of the object clipping region.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - CSS
 uri: css/cssom/properties/clipBottom
 

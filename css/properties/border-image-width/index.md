@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The border-image-width CSS property defines the offset to use for dividing the border image in nine parts, the top-left corner, central top edge, top-right-corner, central right edge, bottom-right corner, central bottom edge, bottom-left corner, and central right edge. They represent inward distance from the top, right, bottom, and left edges.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-image-width
 
 ---
@@ -87,7 +87,7 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 <div class="pattern four">four</div>
 ```
 
-[View live example](http://code.webplatform.org/gist/5621387)
+[View live example](http://gist.github.com/5621387)
 
 ``` css
 /* This general class will apply the pattern to the containers */
@@ -119,7 +119,7 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5621387)
+[View live example](http://gist.github.com/5621387)
 
 ## Usage
 

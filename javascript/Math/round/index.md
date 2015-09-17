@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns a supplied numeric expression rounded to the nearest integer.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Math/round
 
 ---

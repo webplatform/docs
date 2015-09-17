@@ -7,8 +7,7 @@ notes:
 readiness: 'In Progress'
 summary: 'The rule object defines a set of Cascading Style Sheet (CSS) attributes applied to a set of HTML elements.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: css/cssom/rule
 
@@ -18,9 +17,6 @@ uri: css/cssom/rule
 The rule object defines a set of Cascading Style Sheet (CSS) attributes applied to a set of HTML elements.
 
 ## Properties
-
-API Name
-:   Summary
 
 [selectorText](/css/cssom/rule/selectorText)
 :

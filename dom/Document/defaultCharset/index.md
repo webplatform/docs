@@ -17,9 +17,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Gets the default character set from the current regional language settings.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
 uri: dom/Document/defaultCharset
 

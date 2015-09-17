@@ -6,9 +6,9 @@ readiness: 'Out of Date'
 standardization_status: 'W3C Working Draft'
 summary: "This interface represents a directory on a file system.\n"
 tags:
-  0: API
-  1: Objects
-  3: FileSystemAPI
+  - API_Objects
+  - API
+  - FileSystemAPI
 uri: apis/filesystem/DirectoryEntrySync
 
 ---
@@ -23,9 +23,6 @@ This interface represents a directory on a file system.
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [createReader](/apis/filesystem/DirectoryEntrySync/createReader)
 :   Creates a new DirectoryReaderSync to read EntrySyncs from this DirectorySync.

@@ -11,15 +11,15 @@ relationships:
     value: HTMLMediaElement
     href: /dom/HTMLMediaElement
 tags:
-  0: API
-  1: Objects
-  3: Audio
-  4: Video
+  - API_Objects
+  - API
+  - Audio
+  - Video
+  - Needs_Summary
+  - Needs_Examples
 uri: apis/audio-video/track
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Inherits from [HTMLMediaElement](/dom/HTMLMediaElement)[HTMLMediaElement](/dom/HTMLMediaElement)
 
 ## Properties
@@ -37,9 +37,6 @@ Inherits from [HTMLMediaElement](/dom/HTMLMediaElement)[HTMLMediaElement](/dom/H
 ## Inherited from HTMLMediaElement
 
 ### Properties
-
-API Name
-:   Summary
 
 [audioTracks](/dom/HTMLMediaElement/audioTracks)
 :
@@ -112,9 +109,6 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [canPlayType](/dom/HTMLMediaElement/canPlayType)
 :
 
@@ -129,9 +123,6 @@ API Name
 
 ### Events
 
-API Name
-:   Summary
-
 [canplay](/dom/HTMLMediaElement/canplay)
 :   Fires whenever enough data is available to determine whether a media is playable.
 
@@ -140,8 +131,6 @@ API Name
 
 [progress](/dom/HTMLMediaElement/progress)
 :   Fires to indicate progress while downloading media data.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

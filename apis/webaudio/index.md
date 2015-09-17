@@ -6,9 +6,9 @@ readiness: 'Almost Ready'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Describes a high-level JavaScript API for processing and synthesizing audio in web applications.'
 tags:
-  0: API
-  1: Listings
-  3: WebAudio
+  - API_Listings
+  - API
+  - WebAudio
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -19,9 +19,6 @@ uri: apis/webaudio
 ## Summary
 
 Describes a high-level JavaScript API for processing and synthesizing audio in web applications.
-
-API Name
-:   Summary
 
 [AudioBuffer](/apis/webaudio/AudioBuffer)
 :   This interface represents a memory-resident audio asset, primarily for one-shot sounds and other short audio clips. Its format is non-interleaved IEEE 32-bit linear PCM with a nominal range of -1 -\> +1. It can contain one or more channels.

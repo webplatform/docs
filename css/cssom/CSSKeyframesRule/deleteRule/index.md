@@ -15,22 +15,14 @@ relationships:
     value: 'DOM Node'
     href: /css/cssom/CSSKeyframesRule
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - API
-  - Object
-  - Methods
+  - Pages_using_duplicate_arguments_in_template_calls
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: css/cssom/CSSKeyframesRule/deleteRule
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Method of [css/cssom/CSSKeyframesRule](/css/cssom/CSSKeyframesRule)[css/cssom/CSSKeyframesRule](/css/cssom/CSSKeyframesRule)
 
 ## Syntax
@@ -48,8 +40,6 @@ Type: **HRESULT**
 This method can return one of these values.
 
 {
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

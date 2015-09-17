@@ -11,10 +11,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Clears all pixels on the canvas in the given rectangle (x, y, w, h) to transparent black.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Canvas
+  - API_Object_Methods
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/clearRect
 
 ---

@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The font-weight property specifies the weight or boldness of the font (their degree of blackness or stroke thickness). Note that some fonts are not available in all weights; some are available only on normal and bold.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/font-weight
 
 ---
@@ -98,7 +98,7 @@ p.example-two { font-weight: 600; }
 p.example-three { font-weight: lighter; }
 ```
 
-[View live example](http://code.webplatform.org/gist/5628518)
+[View live example](http://gist.github.com/5628518)
 
 ## Usage
 

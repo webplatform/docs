@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Adds the value of one numeric expression to another, or concatenates two strings.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/operators/addition
 
 ---

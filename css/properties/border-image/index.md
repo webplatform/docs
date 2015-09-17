@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Shorthand property that defines an image to be displayed and its positioning, instead of a solid color, for ''border'' property. It can be used to set border-image-source, border-image-slice, border-image-width, border-image-outset and border-image-repeat, or a subset of these.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-image
 
 ---
@@ -76,7 +76,7 @@ A simple example showing a \<div\>.
 <div class="pattern">one</div>
 ```
 
-[View live example](http://code.webplatform.org/gist/5622521)
+[View live example](http://gist.github.com/5622521)
 
 ``` css
 /* General setup of the containers */
@@ -95,7 +95,7 @@ div {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5622521)
+[View live example](http://gist.github.com/5622521)
 
 ## Notes
 

@@ -5,8 +5,7 @@ notes:
 readiness: 'Almost Ready'
 summary: 'The very first part of our beginner''s material gives you some important background on how website works in what we commonly call &quot;front end&quot; layer. Note that we limit our topics to what happens on the web browser and that typical sites would have code written that is executed on the server side that generates the HTML.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 uri: 'Beginners/the beginning'
 
 ---

@@ -12,10 +12,9 @@ relationships:
     href: /css/cssom/CSSMediaRule/CSSMediaRule
 summary: 'Deletes a CSSRule (representing a selector and all its properties) from the block of rules controlled by this @media rule; the rule to be deleted is specified by index.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: css/cssom/CSSMediaRule/deleteRule
 
 ---
@@ -43,8 +42,6 @@ Method of [css/cssom/CSSMediaRule/CSSMediaRule](/css/cssom/CSSMediaRule/CSSMedia
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

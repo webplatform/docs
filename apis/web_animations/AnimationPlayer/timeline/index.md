@@ -8,11 +8,9 @@ relationships:
     href: /apis/web_animations/AnimationPlayer
 summary: 'The timeline associated with this player. Setting this attribute updates the object’s timeline using the procedure to set the timeline of a player.'
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationPlayer/timeline'
 
 ---
@@ -28,6 +26,4 @@ Property of [apis/web\_animations/AnimationPlayer](/apis/web_animations/Animatio
 var result = element.timeline;
 element.timeline = value;
 ```
-
-**Needs Examples**: This section should include examples.
 

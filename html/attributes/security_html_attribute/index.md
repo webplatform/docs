@@ -12,9 +12,9 @@ notes:
   - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 readiness: 'Not Ready'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Summary
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -22,8 +22,6 @@ todo_broken_links:
 uri: 'html/attributes/security html attribute'
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 <table class="wikitable">
 <tr>
 <th>

@@ -12,10 +12,10 @@ relationships:
     href: /apis/indexeddb/IDBIndex
 summary: 'Provides the unique flag of this index.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBIndex/unique
 
 ---
@@ -31,8 +31,6 @@ Property of [apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)[apis/indexeddb/I
 var result = element.unique;
 element.unique = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

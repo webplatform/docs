@@ -3,8 +3,7 @@ title: 'methods'
 readiness: 'Ready to Use'
 summary: 'Listing page for css/cssom methods.'
 tags:
-  - API
-  - Listings
+  - API_Listings
   - DOM
 uri: css/cssom/methods
 

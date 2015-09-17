@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The iteration composite operation property of this animation effect as specified by one of the IterationCompositeOperation enumeration values.'
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationEffect/iterationComposite'
 
 ---
@@ -45,6 +43,4 @@ Current values are either:
 replace Corresponds to the replace iteration composite operation value such that the intermediate animation value produced is independent of the current iteration.
 
 accumulate Corresponds to the accumulate iteration composite operation value such that subsequent iterations of an animation build on the final value of the previous iteration.
-
-**Needs Examples**: This section should include examples.
 

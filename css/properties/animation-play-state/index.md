@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Defines whether an animation is running or paused.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/animation-play-state
 
 ---
@@ -152,7 +152,7 @@ body.interrupt div.selected {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/7044978)
+[View live example](http://gist.github.com/7044978)
 
 ## Usage
 

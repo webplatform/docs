@@ -18,10 +18,9 @@ relationships:
 standardization_status: Deprecated
 summary: 'Initializes a transition event created using the deprecated Document.createEvent(&quot;TransitionEvent&quot;) method.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/TransitionEvent/initTransitionEvent
 
 ---
@@ -83,8 +82,6 @@ Type: **HRESULT**
 This method can return one of these values.
 
 S\_OK
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

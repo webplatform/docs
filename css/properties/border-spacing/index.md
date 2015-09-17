@@ -21,8 +21,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'Specifies the distance between the borders of adjacent cells.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-spacing
 
 ---
@@ -72,7 +72,7 @@ inherit
 
 ```
 
-[View live example](http://code.webplatform.org/gist/6948537)
+[View live example](http://gist.github.com/6948537)
 
 ## Notes
 

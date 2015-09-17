@@ -9,10 +9,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Creates a hit region.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Canvas
+  - API_Object_Methods
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/addHitRegion
 
 ---

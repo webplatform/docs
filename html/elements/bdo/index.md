@@ -12,8 +12,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The bdo element (&lt;bdo&gt;) allows you to specify the direction in which text is to be rendered on the page. (&quot;BDO&quot; stands for Bi-Directional Override.)'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/bdo
 

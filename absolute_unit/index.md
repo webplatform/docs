@@ -4,8 +4,7 @@ notes:
   - 'Either complete, or make part of a glossary which that page seems to be part of.'
 readiness: 'Not Ready'
 tags:
-  - Glossary
-  - Items
+  - Glossary_Items
 uri: 'absolute unit'
 
 ---

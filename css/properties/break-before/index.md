@@ -21,11 +21,11 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Control page/column/region breaks that fall above a block of content'
 tags:
-  0: CSS
-  1: Properties
-  3: CSS-Regions
-  4: Flexbox
-  5: UI
+  - CSS_Properties
+  - CSS
+  - CSS-Regions
+  - Flexbox
+  - UI
 uri: css/properties/break-before
 
 ---
@@ -132,7 +132,7 @@ h3 {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6158525)
+[View live example](http://gist.github.com/6158525)
 
 Currently, must use WebKit Nightly or Chrome Canary with experimental features enabled.
 
@@ -153,7 +153,7 @@ h3 {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6167152)
+[View live example](http://gist.github.com/6167152)
 
 ## Usage
 

@@ -6,8 +6,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'null is used to indicate that a variable does not have a value.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/null
 
 ---

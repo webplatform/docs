@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Prevents the modification of attributes of existing properties, and prevents the addition of new properties.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Object/seal
 
 ---

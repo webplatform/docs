@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The TextMetrics object of the canvas API. TextMetrics retrieves numeric informations like the width of a text that is drawn onto the canvas with the current font style.'
 tags:
-  0: API
-  1: Objects
-  3: Canvas
+  - API_Objects
+  - API
+  - Canvas
 uri: apis/canvas/TextMetrics
 
 ---
@@ -17,9 +17,6 @@ uri: apis/canvas/TextMetrics
 The TextMetrics object of the canvas API. TextMetrics retrieves numeric informations like the width of a text that is drawn onto the canvas with the current font style.
 
 ## Properties
-
-API Name
-:   Summary
 
 [actualBoundingBoxAscent](/apis/canvas/TextMetrics/actualBoundingBoxAscent)
 :   The distance from the horizontal line indicated by the textBaseline attribute to the top of the bounding rectangle of the given text, in CSS pixels; positive numbers indicating a distance going up from the given baseline.
@@ -58,9 +55,6 @@ API Name
 :   The width of an inline text box, in CSS pixels.
 
 ## Methods
-
-API Name
-:   Summary
 
 [measureText](/apis/canvas/TextMetrics/measureText)
 :   Returns a TextMetrics object that contains the width of the specified text.

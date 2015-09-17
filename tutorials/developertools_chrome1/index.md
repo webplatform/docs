@@ -6,8 +6,7 @@ readiness: 'Ready to Use'
 summary: 'An introduction to Chrome Developer Tools.'
 tags:
   - Tutorials
-  - Developer
-  - Tools
+  - Developer_Tools
 uri: 'tutorials/developertools chrome1'
 
 ---

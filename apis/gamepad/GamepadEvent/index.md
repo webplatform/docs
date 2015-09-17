@@ -4,9 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'This object provides access to event data for this gamepad.'
 tags:
-  0: API
-  1: Objects
-  3: Gamepad
+  - API_Objects
+  - API
+  - Gamepad
 uri: apis/gamepad/GamepadEvent
 
 ---
@@ -15,9 +15,6 @@ uri: apis/gamepad/GamepadEvent
 This object provides access to event data for this gamepad.
 
 ## Properties
-
-API Name
-:   Summary
 
 [gamepad](/apis/gamepad/GamepadEvent/gamepad)
 :   Provides access to the associated gamepad data for this event.

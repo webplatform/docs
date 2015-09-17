@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Shorthand property to define a CSS animation, setting all parameters at once.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/animation
 
 ---
@@ -91,7 +91,7 @@ nav.expanded > div.selected {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/7044978)
+[View live example](http://gist.github.com/7044978)
 
 ## Usage
 

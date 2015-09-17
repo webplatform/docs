@@ -5,11 +5,7 @@ notes:
 readiness: 'Almost Ready'
 summary: 'How to import a texture from an image file into the canvas.'
 tags:
-  - Pages
-  - with
-  - broken
-  - file
-  - links
+  - Pages_with_broken_file_links
   - Tutorials
 uri: 'tutorials/Raw WebGL 101 — Part 4: Textures'
 

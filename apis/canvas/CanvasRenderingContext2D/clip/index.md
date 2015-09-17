@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies a new clipping region by calculating the intersection of the current clipping region and the area described by the intended path, using the non-zero winding number rule. The new clipping region replaces the current clipping region.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Canvas
+  - API_Object_Methods
+  - API
+  - Canvas
 uri: apis/canvas/CanvasRenderingContext2D/clip
 
 ---

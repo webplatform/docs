@@ -12,11 +12,9 @@ relationships:
     href: /apis/web_animations/AnimationTimingProperties
 summary: "The specified start delay.\n"
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationTimingProperties/delay'
 
 ---
@@ -38,6 +36,4 @@ element.delay = value;
 ## Return Value
 
 Returns an object of type doubledouble
-
-**Needs Examples**: This section should include examples.
 

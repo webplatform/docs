@@ -8,9 +8,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'A native script object used by the getCurrentPosition() and watchPosition() methods.'
 tags:
-  0: API
-  1: Objects
-  3: Geolocation
+  - API_Objects
+  - API
+  - Geolocation
 uri: apis/geolocation/PositionOptions
 
 ---
@@ -19,9 +19,6 @@ uri: apis/geolocation/PositionOptions
 A native script object used by the getCurrentPosition() and watchPosition() methods.
 
 ## Properties
-
-API Name
-:   Summary
 
 [enableHighAccuracy](/apis/geolocation/PositionOptions/enableHighAccuracy)
 :   A request from the application to receive the best possible location results. The intended purpose of this attribute is to allow applications to inform the implementation that they do not require high accuracy geolocation fixes so the implementation can avoid using geolocation providers that consume a significant amount of power (e.g., GPS).

@@ -11,8 +11,8 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Editor''s Draft'
 summary: "The element element defines a custom element.\nNote: This element has been deprecated, and is not supported by any browser. See document.register for the standard custom element definition.\n"
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -33,8 +33,6 @@ The element element defines a custom element. Note: This element has been deprec
 Custom elements are new types of DOM elements that can be defined by authors.
 
 Custom elements can define presentation aspects like decorators. Unlike a decorator, which can be applied or unapplied to a given element, the element's type is fixed. So custom elements can also define new state and behavior, which decorators can't do because of their ephemeral nature.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

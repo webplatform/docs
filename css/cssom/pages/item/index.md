@@ -11,15 +11,13 @@ relationships:
     value: css/cssom/pages
     href: /css/cssom/pages
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 uri: css/cssom/pages/item
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Property of [css/cssom/pages](/css/cssom/pages)[css/cssom/pages](/css/cssom/pages)
 
 ## Syntax
@@ -28,8 +26,6 @@ Property of [css/cssom/pages](/css/cssom/pages)[css/cssom/pages](/css/cssom/page
 var result = element.item;
 element.item = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

@@ -17,8 +17,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies what parts of an element’s content are  skipped over when applying any text decoration.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-decoration-skip
 
 ---

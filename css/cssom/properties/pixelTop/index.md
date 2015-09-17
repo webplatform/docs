@@ -12,10 +12,9 @@ relationships:
     href: /css/cssom/properties
 summary: 'Reflects the value of the Cascading Style Sheets (CSS) top attribute.'
 tags:
-  - API
-  - Object
-  - Properties
+  - API_Object_Properties
   - DOM
+  - Needs_Examples
 uri: css/cssom/properties/pixelTop
 
 ---
@@ -31,8 +30,6 @@ Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](
 var result = element.pixelTop;
 element.pixelTop = value;
 ```
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

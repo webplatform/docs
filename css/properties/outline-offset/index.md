@@ -22,8 +22,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The outline-offset property offsets the outline and draw it beyond the border edge.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/outline-offset
 
 ---
@@ -83,7 +83,7 @@ The outline-offset property offsets the outline and draw it beyond the border ed
 &lt;/div&gt;
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/5579301">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://gist.github.com/5579301">View live example</a>
 </p>
 </div>
 <p><br/></p>
@@ -119,7 +119,7 @@ The outline-offset property offsets the outline and draw it beyond the border ed
 }
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/5579301">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://gist.github.com/5579301">View live example</a>
 </p>
 </div>
 <h2>Usage</h2>

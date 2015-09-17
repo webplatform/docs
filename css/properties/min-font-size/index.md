@@ -17,8 +17,9 @@ overview_table:
 readiness: 'In Progress'
 summary: "Obsolete: unsupported.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/min-font-size
 
 ---
@@ -63,8 +64,6 @@ font-size
 
 auto
 :   The rendering agent determines the minium font size.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

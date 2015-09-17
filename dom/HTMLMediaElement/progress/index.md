@@ -12,6 +12,7 @@ tags:
   - Audio
   - DOM
   - Video
+  - Needs_Examples
 uri: dom/HTMLMediaElement/progress
 
 ---
@@ -73,8 +74,6 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 This operation occurs while the video is loading. To invoke this event, Start playing audio or video from a website.

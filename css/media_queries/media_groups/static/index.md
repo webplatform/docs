@@ -5,9 +5,8 @@ notes:
 readiness: 'Not Ready'
 summary: 'The static media group encompasses any media type that cannot change the document once it is created.'
 tags:
+  - CSS_Media_Groups
   - CSS
-  - Media
-  - Groups
 uri: 'css/media queries/media groups/static'
 
 ---

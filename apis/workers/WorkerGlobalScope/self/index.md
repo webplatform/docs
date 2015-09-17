@@ -17,10 +17,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Returns the WorkerGlobalScope object.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Webworkers
+  - API_Object_Properties
+  - API
+  - Webworkers
+  - Needs_Examples
 uri: apis/workers/WorkerGlobalScope/self
 
 ---
@@ -41,8 +41,6 @@ var result = object.self;
 ## Return Value
 
 Returns an object of type ObjectObject
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Prevents the addition of new properties to an object.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Object/preventExtensions
 
 ---

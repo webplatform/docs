@@ -18,8 +18,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: '&lt;a&gt;タグはハイパーリンクやリンク先を定義します。'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
@@ -151,7 +150,7 @@ uri: html/elements/a/ja
 &lt;a href="http://www.example.com/help" rel="help"&gt;ヘルプへ&lt;/a&gt;
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/5281100">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://gist.github.com/5281100">View live example</a>
 </p>
 </div>
 <h2>Notes</h2>

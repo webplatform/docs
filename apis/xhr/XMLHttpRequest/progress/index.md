@@ -9,6 +9,7 @@ tags:
   - Events
   - API
   - XHR
+  - Needs_Examples
 uri: apis/xhr/XMLHttpRequest/progress
 
 ---
@@ -66,5 +67,3 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-

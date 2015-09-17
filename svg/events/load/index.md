@@ -7,6 +7,8 @@ notes:
 readiness: 'In Progress'
 tags:
   - Events
+  - Needs_Summary
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -14,8 +16,6 @@ todo_broken_links:
 uri: svg/events/load
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Overview Table
 
 <table class="wikitable">
@@ -70,8 +70,6 @@ Default action
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
-
 ## Notes
 
 ### Remarks

@@ -12,10 +12,9 @@ relationships:
     href: /dom/History
 summary: 'Navigates to a relatively positioned history record.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/History/go
 
 ---
@@ -43,8 +42,6 @@ Method of [dom/History](/dom/History)[dom/History](/dom/History)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

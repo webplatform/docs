@@ -16,10 +16,10 @@ relationships:
     value: 'DOM Node'
     href: '/w/index.php?title=css/cssom/MSCSSMatrix&action=edit&redlink=1'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Summary
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -29,10 +29,7 @@ uri: css/cssom/MSCSSMatrix/methods/toString
 
 ---
 <p><br/></p>
-<div class="editors-only">
-<p><b>Needs Summary</b>:   This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article. 
-</p>
-</div>
+
 <p>Method of <a href="/w/index.php?title=css/cssom/MSCSSMatrix&amp;action=edit&amp;redlink=1" class="new">css/cssom/MSCSSMatrix</a><a href="/w/index.php?title=css/cssom/MSCSSMatrix&amp;action=edit&amp;redlink=1" class="new">css/cssom/MSCSSMatrix</a>
 </p>
 <h2>Syntax</h2>
@@ -57,10 +54,7 @@ var object = object.toString();
 </p><p>For a 2-D transform matrix, the matrix value list is ordered <a href="/w/index.php?title=css/MSCSSMatrix/apis/properties/a&amp;action=edit&amp;redlink=1" class="new"><b>a</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/b"><b>b</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/c"><b>c</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/d"><b>d</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/e"><b>e</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/f"><b>f</b></a>.
 </p><p>For a 3-D transform matrix, the matrix value list is ordered <a href="/css/cssom/MSCSSMatrix/properties/m11"><b>m11</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/m21"><b>m21</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/m31"><b>m31</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/m41"><b>m41</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/m12"><b>m12</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/m22"><b>m22</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/m32"><b>m32</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/m42"><b>m42</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/m13"><b>m13</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/m23"><b>m23</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/m33"><b>m33</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/m43"><b>m43</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/m14"><b>m14</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/m24"><b>m24</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/m34"><b>m34</b></a>, <a href="/css/cssom/MSCSSMatrix/properties/m44"><b>m44</b></a>.
 </p>
-<div class="editors-only">
-<p><b>Needs Examples</b>:  This section should include examples. 
-</p>
-</div>
+
 <p><br/></p>
 <h3>Syntax</h3>
 <h3>Standards information</h3>

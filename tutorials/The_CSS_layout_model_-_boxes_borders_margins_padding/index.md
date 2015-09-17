@@ -7,6 +7,7 @@ readiness: 'Not Ready'
 tags:
   - Tutorials
   - WSC
+  - Needs_Summary
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -15,10 +16,7 @@ uri: 'tutorials/The CSS layout model - boxes borders margins padding'
 
 ---
 <p><br/></p>
-<div class="editors-only">
-<p><b>Needs Summary</b>:   This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article. 
-</p>
-</div>
+
 <p><br/></p><p><br/></p><p><br/></p>
 
 <h2>Introduction</h2>

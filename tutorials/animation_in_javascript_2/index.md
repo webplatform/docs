@@ -8,16 +8,14 @@ tags:
   - CSS
   - JavaScript
   - UI
+  - Merge_Candidate
+  - Needs_Examples
 uri: 'tutorials/animation in javascript 2'
 
 ---
-**Merge Candidate**: This page is a candidate for merge with the following pages: [tutorials/animation\_in\_javascript](/tutorials/animation_in_javascript)
-
 ## Summary
 
 Javascript can be used to create animation effects on a web page as simple as highlighting new content in yellow and then fading it back to normal, creating transitions, or moving elements on the page (think popup windows). Creative use of techniques and tools such as common Javascript libraries allows us to create user interfaces that are unobtrusive and responsive to user behavior. We begin by using JavaScript's setInterval() function to create our own animations by manipulating DOM elements' CSS properties to create effects. Later, we illustrate the use of code libraries like jQuery to create more complex animations or create simple effects more easily than using by Javascript alone.
-
-**Needs Examples**: This section should include examples.
 
 ## Introduction
 

@@ -15,10 +15,9 @@ relationships:
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The distance from the horizontal line indicated by the textBaseline attribute to the ideographic baseline of the line box, in CSS pixels; positive numbers indicating that the given baseline is below the ideographic baseline. (Zero if the given baseline is the ideographic baseline.)'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Canvas
+  - API_Object_Properties
+  - API
+  - Canvas
 uri: apis/canvas/TextMetrics/ideographicBaseline
 
 ---

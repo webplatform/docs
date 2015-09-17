@@ -16,12 +16,12 @@ relationships:
     href: /dom/HTMLVideoElement
 summary: 'Valid URL to an image ressource that will be displayed until the first frame of the video is available or will be displayed if no valid video ressource is available at all.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Audio
-  5: DOM
-  6: Video
+  - API_Object_Properties
+  - API
+  - Audio
+  - DOM
+  - Video
+  - Needs_Examples
 uri: dom/HTMLVideoElement/poster
 
 ---
@@ -41,8 +41,6 @@ element.poster = value;
 ## Return Value
 
 Returns an object of type StringString
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

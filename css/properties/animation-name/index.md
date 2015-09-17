@@ -21,8 +21,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Defines the list of animations that apply to the element.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/animation-name
 
 ---
@@ -92,7 +92,7 @@ h1 {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/7009934)
+[View live example](http://gist.github.com/7009934)
 
 A repeating pulse animation that shrinks and dims an element, then restores it.
 
@@ -119,7 +119,7 @@ div.selected {
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/7010365)
+[View live example](http://gist.github.com/7010365)
 
 ## Usage
 

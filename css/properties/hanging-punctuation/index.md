@@ -18,8 +18,9 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'If a punctuation mark is present, this property determines if the punctuation mark hangs and whether it can be placed outside the line box and the start or at the end of a line of text.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 uri: css/properties/hanging-punctuation
 
 ---
@@ -71,8 +72,6 @@ force-end
 
 allow-end
 :   A stop or comma at the end of a line hangs if it does not otherwise fit prior to justification.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

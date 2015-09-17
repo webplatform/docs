@@ -9,8 +9,7 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: 'Describes errors thrown by selection and range operations.'
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: dom/RangeException
 
@@ -22,9 +21,7 @@ uri: dom/RangeException
 Describes errors thrown by selection and range operations.</p><p><br/></p>
 <h2>Properties</h2>
 
-<dl><dt>API Name</dt>
-  <dd>Summary</dd>
-</dl><dl><dt><a href="/dom/RangeException/name">name</a></dt>
+<dl><dt><a href="/dom/RangeException/name">name</a></dt>
   <dd>Returns a DOMString value that is the name of the error that occurred during a Range operation.</dd>
 </dl><p><br/></p>
 <h2>Methods</h2>
@@ -34,7 +31,7 @@ Describes errors thrown by selection and range operations.</p><p><br/></p>
 <p><i>No events.</i>
 </p><p><br/></p>
 <h2>Usage</h2>
-<pre> Use <a rel="nofollow" class="external text" href="http://docs.webplatform.org/wiki/dom/DOMException">DOMException</a> instead.
+<pre> Use <a rel="nofollow" class="external text" href="/dom/DOMException">DOMException</a> instead.
 </pre>
 <h2>Notes</h2>
 <p>Starting with Gecko 13.0 (Firefox 13.0 / Thunderbird 13.0 / SeaMonkey 2.10) the Range object throws a DOMException as defined in DOM 4, instead of a RangeException defined in prior specifications.

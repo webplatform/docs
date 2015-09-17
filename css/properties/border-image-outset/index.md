@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The border-image-outset property describes, by which amount the border image area extends beyond the border box.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-image-outset
 
 ---
@@ -79,7 +79,7 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 <div class="pattern four">four</div>
 ```
 
-[View live example](http://code.webplatform.org/gist/5622268)
+[View live example](http://gist.github.com/5622268)
 
 ``` css
 /* This general class will apply the pattern to the containers */
@@ -112,7 +112,7 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5622268)
+[View live example](http://gist.github.com/5622268)
 
 ## Usage
 

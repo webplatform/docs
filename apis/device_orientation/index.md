@@ -6,8 +6,8 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Working Draft'
 summary: 'The Device Orientation API defines several new DOM events which provide information about the physical orientation and motion of a hosting device.'
 tags:
+  - API_Listings
   - API
-  - Listings
 uri: 'apis/device orientation'
 
 ---

@@ -8,9 +8,7 @@ notes:
 readiness: 'In Progress'
 summary: 'The media feature describes the aspect ratio of the output device''s rendering surface, such as the viewport aspect ratio or the aspect ratio of the page box.'
 tags:
-  - CSS
-  - Media
-  - Feature
+  - CSS_Media_Feature
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

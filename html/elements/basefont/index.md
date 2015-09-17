@@ -13,9 +13,9 @@ readiness: 'Not Ready'
 standardization_status: Deprecated
 summary: "The basefont element (&lt;basefont&gt;)  allows specifying a default color and font-size for text on the entire page. \n"
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
+  - Needs_Examples
 uri: html/elements/basefont
 
 ---
@@ -31,8 +31,6 @@ The `basefont` element was deprecated in HTML4 and should no longer be used.
 :   [HTMLBaseFontElement](/dom/HTMLBaseFontElement)
 
 To specify the overall font for your page add the `basefont` element at the beginning of the `body` section. The `basefont` element is only supported by Internet Explorer.
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

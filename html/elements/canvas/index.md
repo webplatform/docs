@@ -11,8 +11,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'The canvas element (&lt;canvas&gt;) provides scripts with a resolution-dependent bitmap canvas, which can be used for rendering graphs, game graphics, or other visual images on the fly, by using the associated canvas API.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - Canvas
   - HTML
 uri: html/elements/canvas

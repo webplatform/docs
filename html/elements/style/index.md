@@ -12,15 +12,8 @@ overview_table:
 readiness: 'In Progress'
 summary: 'Defines style information for an HTML document. Inside the style element you specify how HTML elements should render in a browser. Each HTML document can contain multiple style tags.'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Elements
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Elements
   - HTML
 uri: html/elements/style
 

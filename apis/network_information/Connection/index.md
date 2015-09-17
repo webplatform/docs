@@ -6,11 +6,11 @@ readiness: 'Not Ready'
 standardization_status: Non-Standard
 summary: 'Provides a handle to the device''s connection information.'
 tags:
-  0: API
-  1: Objects
-  3: Mobile
-  4: Network
-  5: Information
+  - API_Objects
+  - API
+  - Mobile
+  - Network_Information
+  - Needs_Examples
 uri: 'apis/network information/Connection'
 
 ---
@@ -19,9 +19,6 @@ uri: 'apis/network information/Connection'
 Provides a handle to the device's connection information.
 
 ## Properties
-
-API Name
-:   Summary
 
 [bandwidth](/apis/network_information/Connection/bandwidth)
 :   An estimation of the current bandwidth in MB/s (Megabytes per seconds) available.
@@ -38,13 +35,8 @@ API Name
 
 ## Events
 
-API Name
-:   Summary
-
 [change](/apis/network_information/Connection/change)
 :   Fires when the Connection changes.
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

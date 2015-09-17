@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The MediaStreamTrackList object representing the video tracks.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/MediaStream/videoTracks
 
 ---
@@ -39,6 +39,4 @@ var videoTrackList = stream.videoTracks;
 ## Return Value
 
 Returns an object of type MediaStreamTrackListMediaStreamTrackList
-
-**Needs Examples**: This section should include examples.
 

@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "Look up the parent DirectoryEntry containing this Entry. If this Entry is the root of its filesystem, its parent is itself.\n"
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: FileSystemAPI
+  - API_Object_Methods
+  - API
+  - FileSystemAPI
+  - Needs_Examples
 uri: apis/filesystem/Entry/getParent
 
 ---
@@ -53,8 +53,6 @@ A callback that is called when errors happen.
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

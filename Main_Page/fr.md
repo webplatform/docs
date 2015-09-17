@@ -143,7 +143,7 @@ Dans le futur, Web Platform Docs offrira encore plus de contenu à explorer : e
 
 Nous serions ravis de compter sur votre aide pour améliorer Web Platform Docs. Même le moindre des efforts peut avoir un impact significatif sur le site : alerter les développeurs des erreurs dans notre documentation, de résoudre ces erreurs, de porter des articles existants ou encore d'en créer de nouveaux. Pour en savoir plus, merci de lire le [Guide de démarrage](/WPD:Getting_Started).
 
--   Pour rapporter des bugs sur Web Platform, utilisez le [Système de gestion de bugs du W3C](https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org). Lisez notre [page sur les rapports de bugs](http://docs.webplatform.org/wiki/WPD:Filing_Bugs) pour plus d'information.
+-   Pour rapporter des bugs sur Web Platform, utilisez le [Système de gestion de bugs du W3C](https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org). Lisez notre [page sur les rapports de bugs](/WPD:Filing_Bugs) pour plus d'information.
 -   Si vous avez une question sur Web Platform, [cherchez une réponse sur la FAQ](/WPD:FAQ).
 
 ## Rester en contact

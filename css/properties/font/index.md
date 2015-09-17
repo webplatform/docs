@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The font property is shorthand that allows you to do one of two things: you can either set up six of the most mature font properties in one line, or you can set one of a choice of keywords to adopt a system font setting.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -102,7 +102,7 @@ A selection of examples showing some typical uses of the `font` property.
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/6947832)
+[View live example](http://gist.github.com/6947832)
 
 A couple of theoretical font examples, showing first a `font` property value with all possible longhand values included, and second, a system default font being used.
 
@@ -116,7 +116,7 @@ A couple of theoretical font examples, showing first a `font` property value wit
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5586740)
+[View live example](http://gist.github.com/5586740)
 
 ## Notes
 

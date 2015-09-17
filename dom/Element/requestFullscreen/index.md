@@ -11,11 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The requestFullscreen method provides a way for presenting web content using the user’s entire screen. The API lets you easily direct the browser to make an element — and its children, if any — occupy the full available screen space, without borders or other chrome elements.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
   - JavaScript
+  - Needs_Examples
 uri: dom/Element/requestFullscreen
 
 ---
@@ -34,8 +33,6 @@ Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

@@ -4,9 +4,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Programmatic interface to content that flows through a series of chained region elements.'
 tags:
-  0: API
-  1: Listings
-  3: CSS-Regions
+  - API_Listings
+  - API
+  - CSS-Regions
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

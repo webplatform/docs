@@ -11,8 +11,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The :last-child pseudo-class represents the last child element of its parent.'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 uri: 'css/selectors/pseudo-classes/:last-child'
 
 ---
@@ -30,7 +30,7 @@ color: red;
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/0b959135eaa76a5de965)
+[View live example](http://gist.github.com/0b959135eaa76a5de965)
 
 ``` html
 <ul>

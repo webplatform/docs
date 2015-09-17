@@ -20,8 +20,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The font-kerning property allows contextual adjustment of inter-glyph spacing, i.e. the spaces between the characters in text. This property  controls &lt;bold&gt;metric kerning&lt;/bold&gt; - that utilizes adjustment data contained in the font. Optical Kerning is not supported as yet.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/font-kerning
 
 ---
@@ -81,7 +81,7 @@ none
 <p class="none"    >WAVAWAVAWAVAWAVA</p>
 ```
 
-[View live example](http://code.webplatform.org/gist/7283111)
+[View live example](http://gist.github.com/7283111)
 
 -   Kerning will only be visible when supported.
 
@@ -92,7 +92,7 @@ p.normal {font-kerning: normal;}
 p.none {font-kerning: none;}
 ```
 
-[View live example](http://code.webplatform.org/gist/7283111)
+[View live example](http://gist.github.com/7283111)
 
 ## Usage
 

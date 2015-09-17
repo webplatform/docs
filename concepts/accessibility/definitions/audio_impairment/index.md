@@ -5,8 +5,7 @@ notes:
 readiness: 'In Progress'
 summary: 'An audio impairment is a person''s reduced ability to hear sounds, whether due to reduced sensitivity or reduced clarity, particularly as it applies to human speech.'
 tags:
-  - Concept
-  - Pages
+  - Concept_Pages
   - Accessibility
 uri: 'concepts/accessibility/definitions/audio impairment'
 

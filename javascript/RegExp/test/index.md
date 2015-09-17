@@ -10,9 +10,8 @@ notes:
 readiness: 'Ready to Use'
 summary: 'Returns a Boolean value that indicates whether or not a pattern exists in a searched string.'
 tags:
-  0: JS
-  1: Basic
-  3: Method
+  - JS_Basic
+  - JS_Method
 uri: javascript/RegExp/test
 
 ---

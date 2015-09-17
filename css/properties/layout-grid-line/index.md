@@ -18,13 +18,12 @@ overview_table:
 readiness: 'In Progress'
 standardization_status: Non-Standard
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Summary
 uri: css/properties/layout-grid-line
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 ## Overview table
 
 [Initial value](/css/concepts/initial_value)

@@ -9,10 +9,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Keyframe animation effects are represented by the KeyframeEffect interface.'
 tags:
-  - API
-  - Objects
-  - Web
-  - Animations
+  - API_Objects
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/KeyframeEffect'
 
 ---
@@ -24,16 +23,10 @@ Inherits from [AnimationEffect](/apis/web_animations/AnimationEffect)[AnimationE
 
 ## Properties
 
-API Name
-:   Summary
-
 [spacing](/apis/web_animations/KeyframeEffect/spacing)
 :   The spacing mode to use for this animation effect.
 
 ## Methods
-
-API Name
-:   Summary
 
 [constructor](/apis/web_animations/KeyframeEffect/constructor)
 :   Creates a new KeyframeEffect object for the given set of keyframes.
@@ -52,9 +45,6 @@ API Name
 
 ### Properties
 
-API Name
-:   Summary
-
 [composite](/apis/web_animations/AnimationEffect/composite)
 :   The possible values of an animation effect's composition behavior are represented by the CompositeOperation enumeration.
 
@@ -66,15 +56,9 @@ API Name
 
 ### Methods
 
-API Name
-:   Summary
-
 [clone](/apis/web_animations/AnimationEffect/clone)
 :   Creates and returns a new object of the same type as this object's most-derived interface such that it will produce the same output as this object.
 
 ### Events
 
 *No events.*
-
-**Needs Examples**: This section should include examples.
-

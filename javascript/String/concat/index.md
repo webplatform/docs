@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns a string that contains the concatenation of two or more strings.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/concat
 
 ---

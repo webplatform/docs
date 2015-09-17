@@ -5,8 +5,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Data types are a way of configuring how a HTML element ( “HTML tag” ) should look or behave on a HTML document or a view in a Web Application. Data types define existing attributes associated with a HTML element. The &quot;id&quot; and &quot;class&quot; attribute doesn''t have predefined data types and is used by CSS stylesheets or for further enhancements through Javascript logic.'
 tags:
-  - API
-  - Listings
+  - API_Listings
   - HTML
 uri: 'html/data types'
 

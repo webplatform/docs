@@ -9,9 +9,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'The FileReader object lets web applications asynchronously read the contents of files (or raw data buffers) stored on the user''s computer, using File or Blob objects to specify the file or data to read. File objects may be obtained from a FileList object returned as a result of a user selecting files using the input element, from a drag-and-drop operation''s DataTransfer object, or from the mozGetAsFile() API on an HTMLCanvasElement.'
 tags:
-  0: API
-  1: Objects
-  3: FileAPI
+  - API_Objects
+  - API
+  - FileAPI
 uri: apis/file/FileReader
 
 ---
@@ -24,9 +24,6 @@ The FileReader object lets web applications asynchronously read the contents of 
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [abort](/apis/file/FileReader/abort)
 :   The abort method is used to aborts the read operation. Upon return, the [dom/Element/readyState](/dom/Element/readyState) will be *DONE*.

@@ -13,10 +13,9 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Initializes a new cross-document message (XDM) event  that the  createEvent method created.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
+  - Needs_Examples
 uri: dom/MessageEvent/initMessageEvent
 
 ---
@@ -86,8 +85,6 @@ Method of [dom/MessageEvent](/dom/MessageEvent)[dom/MessageEvent](/dom/MessageEv
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

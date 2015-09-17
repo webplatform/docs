@@ -6,9 +6,9 @@ readiness: 'Out of Date'
 standardization_status: 'W3C Working Draft'
 summary: "When an error occurs, this callback is made.\n"
 tags:
-  0: API
-  1: Objects
-  3: FileSystemAPI
+  - API_Objects
+  - API
+  - FileSystemAPI
 uri: apis/filesystem/ErrorCallback
 
 ---
@@ -23,9 +23,6 @@ When an error occurs, this callback is made.
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [handleEvent](/apis/filesystem/ErrorCallback/handleEvent)
 :   There was an error with the request. Details are provided by the err parameter.

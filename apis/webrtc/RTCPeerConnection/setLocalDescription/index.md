@@ -10,10 +10,10 @@ relationships:
     href: /apis/webrtc/RTCPeerConnection
 summary: 'Applies the supplied RTCSessionDescription to the local description.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebRTC
+  - API_Object_Methods
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/setLocalDescription
 
 ---
@@ -32,6 +32,3 @@ Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/w
 ## Return Value
 
 No return value
-
-**Needs Examples**: This section should include examples.
-

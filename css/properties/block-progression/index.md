@@ -19,8 +19,9 @@ readiness: 'In Progress'
 standardization_status: Non-Standard
 summary: 'Sets the block progression and layout orientation: deprecated in favor of the writing-mode property.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -75,8 +76,6 @@ bt
 
 lr
 :   Left-to-right block flow. Layout is vertical.
-
-**Needs Examples**: This section should include examples.
 
 ## Usage
 

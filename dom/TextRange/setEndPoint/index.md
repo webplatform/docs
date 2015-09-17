@@ -15,9 +15,7 @@ relationships:
 standardization_status: Non-Standard
 summary: 'Sets the endpoint of one range based on the endpoint of another range.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/TextRange/setEndPoint
 

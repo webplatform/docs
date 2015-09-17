@@ -19,8 +19,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Sets what kind of line decorations are added to an element, such as underlines, overlines, etc.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/text-decoration-line
 
 ---
@@ -86,7 +86,7 @@ p:nth-child(4) { text-decoration-line: line-through; }
 p:nth-child(5) { text-decoration-line: blink; }
 ```
 
-[View live example](http://code.webplatform.org/gist/7283909)
+[View live example](http://gist.github.com/7283909)
 
 ## Notes
 

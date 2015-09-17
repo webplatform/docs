@@ -12,16 +12,10 @@ overview_table:
 readiness: 'Not Ready'
 summary: 'The hidden type of the &lt;input&gt; element represents a value that is hidden from the user, but which is sent with the form data; the value can be set programatically.'
 tags:
-  - Pages
-  - using
-  - duplicate
-  - arguments
-  - in
-  - template
-  - calls
-  - Markup
-  - Elements
+  - Pages_using_duplicate_arguments_in_template_calls
+  - Markup_Elements
   - HTML
+  - Needs_Examples
 uri: html/elements/input/type/hidden
 
 ---
@@ -33,8 +27,6 @@ The hidden type of the &lt;input&gt; element represents a value that is hidden f
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
-
-**Needs Examples**: This section should include examples.
 
 ## Notes
 

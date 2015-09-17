@@ -12,8 +12,7 @@ notes:
 readiness: 'Not Ready'
 summary: 'Sets or retrieves the current typeface family.'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
 uri: html/attributes/face
 

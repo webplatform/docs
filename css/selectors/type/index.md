@@ -11,8 +11,8 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'A type selector matches every instance of the element type in the document tree.'
 tags:
+  - CSS_Selectors
   - CSS
-  - Selectors
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

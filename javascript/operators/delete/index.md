@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Deletes a property from an object, or removes an element from an array.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/operators/delete
 
 ---

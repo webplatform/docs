@@ -5,10 +5,8 @@ attributions:
 readiness: 'Ready to Use'
 summary: 'MIME types enable browsers to recognize the filetype of a file which has been sent via HTTP by the webserver. As a result the browser is able to choose a suitable displaying method. Common MIME types are for example text/html for html-files or image/jpeg for jpeg-files.'
 tags:
-  - Concept
-  - Pages
-  - Web
-  - Services
+  - Concept_Pages
+  - Web_Services
 uri: 'concepts/Internet and Web/mime types'
 
 ---

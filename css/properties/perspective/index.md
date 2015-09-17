@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: "The perspective property defines how far an element is placed from the view on the z-axis, from the screen to the viewer.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/perspective
 
 ---
@@ -106,7 +106,7 @@ The following example shows the difference with transforms, where the first imag
 </html>
 ```
 
-[View live example](http://code.webplatform.org/gist/7086839)
+[View live example](http://gist.github.com/7086839)
 
 ## Related specifications
 

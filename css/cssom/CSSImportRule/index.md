@@ -7,8 +7,7 @@ compatibility:
   topic: css
 standardization_status: Unknown
 tags:
-  - API
-  - Objects
+  - API_Objects
   - DOM
 uri: css/cssom/CSSImportRule
 
@@ -195,6 +194,6 @@ The **CSSImportRule** object has these properties. {
 
 -   [styleMedia](/dom/Window/styleMedia)
 
-### Related pages (MSDN)
+### Related pages
 
 -   `IHTMLCSSImportRule`

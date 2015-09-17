@@ -11,8 +11,7 @@ readiness: 'In Progress'
 standardization_status: 'W3C Recommendation'
 summary: 'The select element is used to create a drop-down list. Used with option tags inside the select element to define the available options in the list.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/select
 

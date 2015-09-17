@@ -3,8 +3,7 @@ title: 'Learn to use HTML Lists'
 readiness: 'Ready to Use'
 summary: 'A step by step example to get used with list elements in html.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:

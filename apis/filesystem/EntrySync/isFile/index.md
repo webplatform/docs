@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: "True if the EntrySync is a file.\n"
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: FileSystemAPI
+  - API_Object_Properties
+  - API
+  - FileSystemAPI
+  - Needs_Examples
 uri: apis/filesystem/EntrySync/isFile
 
 ---
@@ -41,8 +41,6 @@ var result = EntrySync.isFile;
 ## Return Value
 
 Returns an object of type BooleanBoolean
-
-**Needs Examples**: This section should include examples.
 
 ## Related specifications
 

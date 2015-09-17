@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Matches a string with a regular expression, and returns an array containing the results of that search.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String/match
 
 ---

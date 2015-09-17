@@ -18,8 +18,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Applies one or more background images to an element. These can be any valid CSS image, including url() paths to image files or CSS gradients.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/background-image
 
 ---

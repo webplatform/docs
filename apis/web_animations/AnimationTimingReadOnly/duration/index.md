@@ -13,11 +13,9 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: "The iteration duration which is a real number greater than or equal to zero (including positive infinity) representing the time taken to complete a single iteration of the animation node.\n"
 tags:
-  - API
-  - Object
-  - Properties
-  - Web
-  - Animations
+  - API_Object_Properties
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationTimingReadOnly/duration'
 
 ---
@@ -42,6 +40,4 @@ Returns an object of type ObjectObject
 Returns and unrestricted double or DOMString object
 
 The string value auto is used to indicate that the iteration duration reflects the animation node’s intrinsic iteration duration.
-
-**Needs Examples**: This section should include examples.
 

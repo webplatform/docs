@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Contains information about errors.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Error
 
 ---

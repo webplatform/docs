@@ -15,11 +15,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Represents the timing information related to the browsing contexts since the last non-redirect navigation. This attribute is defined by the PerformanceTiming interface.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: Navigation
-  5: Timing
+  - API_Object_Properties
+  - API
+  - Navigation_Timing
 uri: 'apis/navigation timing/Performance/timing'
 
 ---

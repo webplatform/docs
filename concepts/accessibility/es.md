@@ -4,13 +4,13 @@ lang: es
 notes:
   - 'Not in English.'
 tags:
-  - Basic
-  - Pages
+  - Basic_Pages
   - Accessibility
   - ARIA
   - Design
   - UI
   - Usability
+  - Needs_Summary
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -79,8 +79,6 @@ translations:
 uri: concepts/accessibility/es
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 Esta página brinda una introducción a la accesibilidad web y enlaza a recursos para mayor información. Te sugerimos que leas primero esta página completamente y luego regreses y visites los enlaces para aprender más.
 
 ## Resumen

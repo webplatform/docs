@@ -2,6 +2,8 @@
 title: 'background-blend-mode'
 code_samples:
   - 'http://gist.github.com/10908092'
+  - 'http://codepen.io/collection/Hcdol/'
+  - 'http://codepen.io/collection/fEkjb/'
 compatibility:
   feature: background-blend-mode
   topic: css
@@ -18,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: "This property describes how the element's background images should blend with each other and the element's background color. \nThe value is a list of blend modes that corresponds to each background image. Each element in the list will apply to the corresponding element of background-image. If a property doesn’t have enough comma-separated values to match the number of layers, the UA must calculate its used value by repeating the list of values until there are enough.\n"
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/background-blend-mode
 
 ---
@@ -145,7 +147,7 @@ A group of boxes that show different blend effects.
 <div class='luminosity'>  <label>Luminosity</label>   </div>
 ```
 
-[View live example](http://code.webplatform.org/gist/10908092)
+[View live example](http://gist.github.com/10908092)
 
 ``` css
 body {

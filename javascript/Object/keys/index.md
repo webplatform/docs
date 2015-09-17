@@ -8,8 +8,7 @@ compatibility:
 readiness: 'Ready to Use'
 summary: 'Returns the names of the enumerable properties and methods of an object.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/Object/keys
 
 ---

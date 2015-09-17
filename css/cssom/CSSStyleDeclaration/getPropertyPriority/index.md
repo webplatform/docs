@@ -15,9 +15,7 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Gets the priority of a property in a CSS style declaration.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - CSS
   - DOM
 uri: css/cssom/CSSStyleDeclaration/getPropertyPriority

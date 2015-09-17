@@ -17,10 +17,10 @@ relationships:
     href: /apis/indexeddb/IDBVersionChangeEvent
 summary: 'Returns the new version of the database, which is the version specified by the open request.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -47,8 +47,6 @@ var result = element.newVersion;
 Returns an object of type unsigned longunsigned long
 
 A number corresponding to the value specified in the [IDBFactory.open](/apis/indexeddb/IDBFactory/open) request.
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

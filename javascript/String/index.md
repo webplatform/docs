@@ -10,8 +10,7 @@ notes:
 readiness: 'Ready to Use'
 summary: 'Allows manipulation and formatting of text strings and determination and location of substrings within strings.'
 tags:
-  - JS
-  - Basic
+  - JS_Basic
 uri: javascript/String
 
 ---

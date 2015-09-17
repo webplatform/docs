@@ -20,8 +20,8 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The border-image-repeat CSS property defines how the middle part of a border image is handled to match the size of the border. It has a one-value syntax which describes the behavior for all sides, and a two-value syntax that sets a different value for the horizontal and vertical behavior.'
 tags:
+  - CSS_Properties
   - CSS
-  - Properties
 uri: css/properties/border-image-repeat
 
 ---
@@ -91,7 +91,7 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 <div class="pattern space">Space</div>
 ```
 
-[View live example](http://code.webplatform.org/gist/5620804)
+[View live example](http://gist.github.com/5620804)
 
 ``` css
 /* This general class will apply the pattern to the containers */
@@ -125,7 +125,7 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 }
 ```
 
-[View live example](http://code.webplatform.org/gist/5620804)
+[View live example](http://gist.github.com/5620804)
 
 ``` html
 [[File:border-image.png|border-image demo image]]

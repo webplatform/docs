@@ -15,9 +15,7 @@ relationships:
 standardization_status: Mixed
 summary: 'Parses and inserts HTML code at or beyond the edges of an element within the document hierarchy.'
 tags:
-  - API
-  - Object
-  - Methods
+  - API_Object_Methods
   - DOM
 uri: dom/Element/insertAdjacentHTML
 

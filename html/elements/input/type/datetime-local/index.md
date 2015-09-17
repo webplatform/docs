@@ -11,8 +11,7 @@ readiness: 'Not Ready'
 standardization_status: 'W3C Working Draft'
 summary: 'The datetime-local type of the &lt;input&gt; element represents a widget for setting a date-time value (year, month, day, hours, minutes, seconds, milliseconds) with no time zone information.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
 uri: html/elements/input/type/datetime-local
 

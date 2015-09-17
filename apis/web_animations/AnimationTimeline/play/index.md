@@ -13,11 +13,10 @@ relationships:
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Creates a new AnimationPlayer object associated with this timeline that begins playback as soon as it is ready.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: Web
-  5: Animations
+  - API_Object_Methods
+  - API
+  - Web_Animations
+  - Needs_Examples
 uri: 'apis/web animations/AnimationTimeline/play'
 
 ---
@@ -47,8 +46,6 @@ If source is specified, it will be used as the newly-created AnimationPlayer’s
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
 
 ## See also
 

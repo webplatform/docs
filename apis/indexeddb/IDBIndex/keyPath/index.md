@@ -14,10 +14,10 @@ relationships:
     href: /apis/indexeddb/IDBIndex
 summary: 'The key path of this index. If null, this index is not auto-populated.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: IndexedDB
+  - API_Object_Properties
+  - API
+  - IndexedDB
+  - Needs_Examples
 uri: apis/indexeddb/IDBIndex/keyPath
 
 ---
@@ -38,6 +38,4 @@ var result = element.keyPath;
 ## Return Value
 
 Returns an object of type StringString
-
-**Needs Examples**: This section should include examples.
 

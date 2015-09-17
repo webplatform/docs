@@ -5,10 +5,8 @@ notes:
 readiness: 'Not Ready'
 summary: 'Index page for concept pages about information architecture.'
 tags:
-  - API
-  - Listings
-  - Basic
-  - Pages
+  - API_Listings
+  - Basic_Pages
 uri: concepts/IA
 
 ---

@@ -6,9 +6,9 @@ readiness: 'Out of Date'
 standardization_status: 'W3C Working Draft'
 summary: "This interface is the callback used to create a FileWriter.\n"
 tags:
-  0: API
-  1: Objects
-  3: FileSystemAPI
+  - API_Objects
+  - API
+  - FileSystemAPI
 uri: apis/filesystem/FileWriterCallback
 
 ---
@@ -23,9 +23,6 @@ This interface is the callback used to create a FileWriter.
 *No properties.*
 
 ## Methods
-
-API Name
-:   Summary
 
 [handleEvent](/apis/filesystem/FileWriterCallback/handleEvent)
 :   Used to supply a FileWriter as a response to a user query.

@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The ImageData object of the canvas API.'
 tags:
-  0: API
-  1: Objects
-  3: Canvas
+  - API_Objects
+  - API
+  - Canvas
 uri: apis/canvas/ImageData
 
 ---
@@ -17,9 +17,6 @@ uri: apis/canvas/ImageData
 The ImageData object of the canvas API.
 
 ## Properties
-
-API Name
-:   Summary
 
 [html/elements/data](/apis/canvas/ImageData/data)
 :   Initialized to a Uint8ClampedArray object. The Uint8ClampedArray object must use a Canvas Pixel ArrayBuffer for its storage, and must have a zero start offset and a length equal to the length of its storage, in bytes.

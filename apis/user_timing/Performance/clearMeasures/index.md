@@ -11,11 +11,9 @@ relationships:
 standardization_status: 'W3C Recommendation'
 summary: 'Removes all DOMHighResTimeStamp durations for the given measure name, or removes all measures and their associated DOMHighResTimeStamp durations.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: User
-  5: Timing
+  - API_Object_Methods
+  - API
+  - User_Timing
 uri: 'apis/user timing/Performance/clearMeasures'
 
 ---

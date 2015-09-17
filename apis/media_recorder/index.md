@@ -6,19 +6,15 @@ readiness: 'In Progress'
 standardization_status: 'W3C Working Draft'
 summary: 'Allows users to record camera/microphone''s streams'
 tags:
-  0: API
-  1: Listings
-  3: Media
-  4: Recorder
+  - API_Listings
+  - API
+  - Media_Recorder
 uri: 'apis/media recorder'
 
 ---
 ## Summary
 
 Allows users to record camera/microphone's streams
-
-API Name
-:   Summary
 
 [MediaRecorder](/apis/media_recorder/MediaRecorder)
 :

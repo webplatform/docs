@@ -12,8 +12,7 @@ overview_table:
 readiness: 'In Progress'
 summary: 'The code element specifies a fragment of computer code.'
 tags:
-  - Markup
-  - Elements
+  - Markup_Elements
   - HTML
   - XHTML
 uri: html/elements/code

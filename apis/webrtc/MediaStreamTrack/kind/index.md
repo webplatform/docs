@@ -11,10 +11,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'The value, either audio or video for the source of the track.'
 tags:
-  0: API
-  1: Object
-  2: Properties
-  4: WebRTC
+  - API_Object_Properties
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/MediaStreamTrack/kind
 
 ---
@@ -31,6 +31,4 @@ Property of [apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)[apis/w
 ``` js
 var result = track.kind;
 ```
-
-**Needs Examples**: This section should include examples.
 

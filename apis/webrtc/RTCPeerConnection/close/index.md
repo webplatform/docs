@@ -15,10 +15,10 @@ relationships:
 standardization_status: 'W3C Working Draft'
 summary: 'Closes a peer connection, stops all active ICE processing and any active streaming, and releases any relevant resources such as TURN permissions.'
 tags:
-  0: API
-  1: Object
-  2: Methods
-  4: WebRTC
+  - API_Object_Methods
+  - API
+  - WebRTC
+  - Needs_Examples
 uri: apis/webrtc/RTCPeerConnection/close
 
 ---
@@ -37,6 +37,3 @@ var result = element.close();
 ## Return Value
 
 Returns an object of type
-
-**Needs Examples**: This section should include examples.
-

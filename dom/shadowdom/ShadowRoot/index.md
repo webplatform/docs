@@ -4,10 +4,10 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The ShadowRoot object is the point of entry to a shadow tree, which provides functional encapsulation of DOM objects within an established document.'
 tags:
-  0: API
-  1: Objects
-  3: DOM
-  4: Shadow
+  - API_Objects
+  - API
+  - DOM
+  - Shadow_DOM
 uri: dom/shadowdom/ShadowRoot
 
 ---
@@ -16,9 +16,6 @@ uri: dom/shadowdom/ShadowRoot
 The ShadowRoot object is the point of entry to a shadow tree, which provides functional encapsulation of DOM objects within an established document.
 
 ## Properties
-
-API Name
-:   Summary
 
 [activeElement](/dom/shadowdom/ShadowRoot/activeElement)
 :   Represents the currently focused element in the shadow tree.
@@ -36,9 +33,6 @@ API Name
 :   Represents the shadow root style sheets.
 
 ## Methods
-
-API Name
-:   Summary
 
 [addStyleSheet](/dom/shadowdom/ShadowRoot/addStyleSheet)
 :   Adds a new style sheet to shadow root style sheets.

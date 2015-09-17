@@ -6,17 +6,16 @@ compatibility:
   feature: alt
   topic: html
 notes:
-  - "\nDeletion Candidate:   Not an attribute as its under altdom\n\n"
+  - 'Deletion Candidate:   Not an attribute as its under altdom'
 readiness: 'Not Ready'
 tags:
-  - Markup
-  - Attributes
+  - Markup_Attributes
   - HTML
+  - Needs_Summary
+  - Needs_Examples
 uri: html/attributes/altdom/alt
 
 ---
-**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
-
 <table class="wikitable">
 <tr>
 <th>
@@ -29,7 +28,6 @@ Applies to
 </td>
 </tr>
 </table>
-**Needs Examples**: This section should include examples.
 
 ### Syntax
 

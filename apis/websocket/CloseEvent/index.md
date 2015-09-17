@@ -6,9 +6,9 @@ readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Object representing the close event for a WebSocket.'
 tags:
-  0: API
-  1: Objects
-  3: WebSocket
+  - API_Objects
+  - API
+  - WebSocket
 uri: apis/websocket/CloseEvent
 
 ---
@@ -17,9 +17,6 @@ uri: apis/websocket/CloseEvent
 Object representing the close event for a WebSocket.
 
 ## Properties
-
-API Name
-:   Summary
 
 [code](/apis/websocket/CloseEvent/code)
 :   The WebSocket connection close code provided by the server.
