@@ -4,7 +4,7 @@ code_samples:
   - 'http://gist.github.com/6f2803eda8ad3c66aaf4'
 compatibility:
   feature: ':target'
-  topic: CSS
+  topic: css
 notes:
   - 'No matching spec'
 readiness: 'Not Ready'

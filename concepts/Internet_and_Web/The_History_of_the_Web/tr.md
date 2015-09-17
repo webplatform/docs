@@ -1,5 +1,5 @@
 ---
-title: 'Web'in Tarihi'
+title: 'Web\'in Tarihi'
 lang: tr
 notes:
   - "Bu yazının çevirisi tamamlanmadı. Yazının gözden geçirilmesi gerekli.\nNot in English."

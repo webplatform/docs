@@ -1,5 +1,5 @@
 ---
-title: '<a href='ar-news.aspx?id=454'>فريق بناء الدولة الميداني يلتقي محافظ إب ومدراء عموم المكاتب التنفيذية</a>'
+title: '<a href=\'ar-news.aspx?id=454\'>فريق بناء الدولة الميداني يلتقي محافظ إب ومدراء عموم المكاتب التنفيذية</a>'
 notes:
   - 'Require manual conversion! See https://github.com/webplatform/mediawiki-conversion/issues/24'
 uri: css/cssom/CSSImportRule

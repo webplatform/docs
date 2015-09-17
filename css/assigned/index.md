@@ -1,5 +1,5 @@
 ---
-title: 'Use Spreadsheet for who's doing what'
+title: 'Use Spreadsheet for who\'s doing what'
 uri: css/assigned
 
 ---
