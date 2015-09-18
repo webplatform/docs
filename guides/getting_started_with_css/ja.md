@@ -325,7 +325,7 @@ CSSをHTML文書に適用する方法は３つあります：インラインス�
 
 ブラウザでこの例を見ると，`style`属性を持つparagraphが青地に白いテキストとなり，他とは異なるサイズになっています．これを図１に示します．
 
-![Screenshot of the Opera browser showing an applied inline style sheet](/assets/public/7/7c/cssbasic.png)
+![Screenshot of the Opera browser showing an applied inline style sheet](//static.webplatform.org/7/7c/cssbasic.png)
 
 図１: 他とは異なるインラインスタイルが適用されたparagraphをOperaで示した図
 
@@ -351,7 +351,7 @@ CSSをHTML文書に適用する方法は３つあります：インラインス�
 
  上記のリンクをブラウザで見ると，図２に示すとおり，定義されたスタイルが文書中のすべてのparagraphに適用されていることがわかるでしょう．`head`の中にあるCSSを見るために，ページにあるソース例も見てみましょう．
 
-![Screenshot of the Opera browser showing how an embedded style sheet affects a lot of elements](/assets/public/3/39/cssbasid.png)
+![Screenshot of the Opera browser showing how an embedded style sheet affects a lot of elements](//static.webplatform.org/3/39/cssbasid.png)
 
 図２：埋込みスタイルシートで定義されたスタイルを持つすべてのparagraphをOperaで示した図
 
@@ -367,7 +367,7 @@ CSSをHTML文書に適用する方法は３つあります：インラインス�
 
 `<link>`要素についてはこのコースの前で話してきました． 要約すると， `href`属性はCSSファイルを指し， `media`属性はどのメディアがこれらのスタイルを適用すべきかを定義し （プリントアウトがこのように見えて欲しくないような場合には`screen`）， `type`はリンクされたリソースが何であるかを定義します（ファイルの拡張子だけではそれを定義するのに十分でないためです）．
 
-![Screenshot of the Opera browser showing how an external style sheet affects a lot of elements](/assets/public/1/1b/cssbasie.png)
+![Screenshot of the Opera browser showing how an external style sheet affects a lot of elements](//static.webplatform.org/1/1b/cssbasie.png)
 
 図３：link要素でリンクされたとき，外部スタイルシートで定義されたスタイルをOperaブラウザで見たもの
 

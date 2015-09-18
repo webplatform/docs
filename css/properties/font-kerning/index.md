@@ -1,7 +1,7 @@
 ---
 title: 'font-kerning'
 code_samples:
-  - 'http://gist.github.com/7283111'
+  - 'http://code.webplatform.org/gist/7283111'
 compatibility:
   feature: font-kerning
   topic: css
@@ -81,7 +81,7 @@ none
 <p class="none"    >WAVAWAVAWAVAWAVA</p>
 ```
 
-[View live example](http://gist.github.com/7283111)
+[View live example](http://code.webplatform.org/gist/7283111)
 
 -   Kerning will only be visible when supported.
 
@@ -92,7 +92,7 @@ p.normal {font-kerning: normal;}
 p.none {font-kerning: none;}
 ```
 
-[View live example](http://gist.github.com/7283111)
+[View live example](http://code.webplatform.org/gist/7283111)
 
 ## Usage
 

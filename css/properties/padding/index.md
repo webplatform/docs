@@ -4,7 +4,7 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
   - 'Microsoft Developer Network.'
 code_samples:
-  - 'http://gist.github.com/5842631'
+  - 'http://code.webplatform.org/gist/5842631'
 compatibility:
   feature: padding
   topic: css
@@ -80,7 +80,7 @@ padding: 10% 10% 10% 10%;
       /*  top, right, bottom, and left padding set at 10%   */
 ```
 
-[View live example](http://gist.github.com/5842631)
+[View live example](http://code.webplatform.org/gist/5842631)
 
 The padding style has three values. The left padding value is the inferred by the right padding value.
 

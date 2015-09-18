@@ -1,7 +1,7 @@
 ---
 title: 'text-overline-width'
 code_samples:
-  - 'http://gist.github.com/7284054'
+  - 'http://code.webplatform.org/gist/7284054'
 compatibility:
   feature: text-overline-width
   topic: css
@@ -96,7 +96,7 @@ p {
 }
 ```
 
-[View live example](http://gist.github.com/7284054)
+[View live example](http://code.webplatform.org/gist/7284054)
 
 ## Related specifications
 

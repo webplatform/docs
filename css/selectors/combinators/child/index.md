@@ -3,7 +3,7 @@ title: 'child'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/aa358819%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/8413346'
+  - 'http://code.webplatform.org/gist/8413346'
 compatibility:
   feature: child
   topic: css
@@ -30,7 +30,7 @@ The following rule defines the text color of list item elements which are direct
 ol li {color: red;}
 ```
 
-[View live example](http://gist.github.com/8413346)
+[View live example](http://code.webplatform.org/gist/8413346)
 
 ## Notes
 

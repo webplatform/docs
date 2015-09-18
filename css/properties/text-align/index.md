@@ -4,7 +4,7 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/text-align)'
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ms531162(v=vs.85).aspx)'
 code_samples:
-  - 'http://gist.github.com/5664679'
+  - 'http://code.webplatform.org/gist/5664679'
 compatibility:
   feature: text-align
   topic: css
@@ -107,7 +107,7 @@ This just shows the four possible types of text-alignment.
 <p class="justified">This paragraph needs to be really long in order to show how to justify text. It only works because we set a width for this paragraph though.</p>
 ```
 
-[View live example](http://gist.github.com/5664679)
+[View live example](http://code.webplatform.org/gist/5664679)
 
 ``` css
 .left { text-align: left;}

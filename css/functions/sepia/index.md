@@ -25,13 +25,13 @@ Apply a sepia tinge to an element's color, typical of old photographs, for use b
     filter: sepia(1);
     filter: sepia(100%); /* same */
 
-  ![f07-lenna.jpg](/assets/thumb/e/e6/f07-lenna.jpg/300px-f07-lenna.jpg)![f08-lennasepia.jpg](/assets/thumb/7/70/f08-lennasepia.jpg/300px-f08-lennasepia.jpg)
+  ![f07-lenna.jpg](//static.webplatform.org/thumb/e/e6/f07-lenna.jpg/300px-f07-lenna.jpg)![f08-lennasepia.jpg](//static.webplatform.org/thumb/7/70/f08-lennasepia.jpg/300px-f08-lennasepia.jpg)
 
 ## Examples
 
 The following example shows the difference between two images, where one is fully in sepia colors.
 
-![filter sepia.png](/assets/thumb/d/db/filter_sepia.png/400px-filter_sepia.png)
+![filter sepia.png](//static.webplatform.org/thumb/d/db/filter_sepia.png/400px-filter_sepia.png)
 
 ``` html
 <!DOCTYPE html>

@@ -52,5 +52,5 @@ theform.txtTiltX.value=evt.tiltX;
 
      A positive tiltX is to the right. tiltX can be used along with tiltY to represent the tilt away from the normal of a transducer with the digitizer. For devices that do not report tilt, the value must be 0.
 
-![caption](/assets/public/2/20/TiltX.png)
+![caption](//static.webplatform.org/2/20/TiltX.png)
 

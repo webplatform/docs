@@ -51,11 +51,11 @@ Native apps don't have the web runtime barrier to deal with. They run close to t
 
 It would be an understatement to say the web has gotten faster in recent years. V8, the JavaScript engine that ships with Chrome, was a major development in web performance when it launched, and since then, it has only gotten faster:
 
-*[Source](http://blog.chromium.org/2010/12/new-crankshaft-for-v8.html)* ![hvn01-wv8perf.jpg](/assets/public/7/75/hvn01-wv8perf.jpg)
+*[Source](http://blog.chromium.org/2010/12/new-crankshaft-for-v8.html)* ![hvn01-wv8perf.jpg](//static.webplatform.org/7/75/hvn01-wv8perf.jpg)
 
 Graphic rendering engines has also sped up the web, and now hardware acceleration is starting to happen. Have a look at the speed bump provided by hardware accelerated-canvas:
 
-*[Source](http://www.maximumpc.com/article/news/hardware-accelerated_chrome_7_60x_faster_previous_versions)* ![hvn02-whvcanvasperf.jpg](/assets/public/7/77/hvn02-whvcanvasperf.jpg)
+*[Source](http://www.maximumpc.com/article/news/hardware-accelerated_chrome_7_60x_faster_previous_versions)* ![hvn02-whvcanvasperf.jpg](//static.webplatform.org/7/77/hvn02-whvcanvasperf.jpg)
 
 In addition, the new Web Workers API makes multithreading a possibility, and modern web developers can also call on a range of performance-optimized libraries, and well-researched performance optimizion techniques. While most of those started life on the desktop web, they are still relevant to mobile, and there's increased attention paid to mobile, e.g. performance guru Steve Souders has [a page dedicated to mobile performance tools](http://stevesouders.com/mobileperf/).
 

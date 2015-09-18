@@ -3,7 +3,7 @@ title: 'disabled'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/7282815'
+  - 'http://code.webplatform.org/gist/7282815'
 compatibility:
   feature: disabled
   topic: html
@@ -65,5 +65,5 @@ This shows a basic form, with an email input and a submit button disabled.
 </form>
 ```
 
-[View live example](http://gist.github.com/7282815)
+[View live example](http://code.webplatform.org/gist/7282815)
 

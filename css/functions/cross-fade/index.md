@@ -41,9 +41,9 @@ cross-fade(<percentage>? <image> [, <image> | <color> ]?)
 
 For the following examples, we will use two images, each sized at 200px by 200px. The first, white.png, is a white-filled box with a 5-pixel blue border. The second, black.png, is a black-filled box with a 5-pixel red border. Thus, cross-fading the two images at different percentages should yield boxes of varying grays with borders of varying magentas. Here are the original images:
 
-![white filled box with 5-pixels blue border](/assets/public/3/32/white.png)
+![white filled box with 5-pixels blue border](//static.webplatform.org/3/32/white.png)
 
-![black-filled box with a 5-pixel red border](/assets/public/d/d2/black.png)
+![black-filled box with a 5-pixel red border](//static.webplatform.org/d/d2/black.png)
 
 ### A 50% cross-fade
 
@@ -67,7 +67,7 @@ First, let's set up an empty `<div>` to contain the images.
 
  The 50% cross-fade renders as an evenly-merged black/white (gray) box with an evenly-merged blue/red (magenta) border.
 
-![evenly-merged black/white (gray) box with an evenly-merged blue/red (magenta) border](/assets/public/3/38/fifty.png)
+![evenly-merged black/white (gray) box with an evenly-merged blue/red (magenta) border](//static.webplatform.org/3/38/fifty.png)
 
 ### Other cross-fade percentages
 
@@ -77,13 +77,13 @@ Here are the code samples and their results for the same two images, cross-faded
 <div style="width:200px; height:200px; background-image:cross-fade(25% url(white.png), url(black.png));"></div>
 ```
 
-![A 25% cross-fade](/assets/public/3/36/twentyfive.png)
+![A 25% cross-fade](//static.webplatform.org/3/36/twentyfive.png)
 
 ``` html
 <div style="width:200px; height:200px; background-image:cross-fade(75% url(white.png), url(black.png));"></div>
 ```
 
-![A 75% cross-fade](/assets/public/5/56/seventyfive.png)
+![A 75% cross-fade](//static.webplatform.org/5/56/seventyfive.png)
 
 ## Simplifying the code
 
@@ -111,7 +111,7 @@ Clearly, that's a lot of code to put on individual HTML elements, especially if 
 <p class="cfade">Four score and seven years ago our fathers brought forth upon this continent a new nation...</p>
 ```
 
-*A 50% cross-fade with text* ![fiftytext.png](/assets/public/3/37/fiftytext.png)
+*A 50% cross-fade with text* ![fiftytext.png](//static.webplatform.org/3/37/fiftytext.png)
 
 I didn't say it was pretty, just that it was possible!
 
@@ -119,11 +119,11 @@ I didn't say it was pretty, just that it was possible!
 
 Here, then, is a more practical (and attractive) example. Let's start with a beautiful full moon.
 
-*Full moon* ![fullmoon.jpg](/assets/public/0/0b/fullmoon.jpg)
+*Full moon* ![fullmoon.jpg](//static.webplatform.org/0/0b/fullmoon.jpg)
 
 Then let's choose a bold wolf silhouette for an overlay.
 
-*Wolf silhouette* ![wolf.png](/assets/public/6/6d/wolf.png)
+*Wolf silhouette* ![wolf.png](//static.webplatform.org/6/6d/wolf.png)
 
 Now we'll write the code to cross-fade them (directly on the `<div>` for simplicity). Note that while the images are the same size, they are of different types, one jpg and one png.
 
@@ -133,7 +133,7 @@ Now we'll write the code to cross-fade them (directly on the `<div>` for simplic
 
  The result is a classic (if somewhat kitschy) wolf-on-moon combo.
 
-*Wolf on moon* ![wolfmoon.png](/assets/public/b/b2/wolfmoon.png)
+*Wolf on moon* ![wolfmoon.png](//static.webplatform.org/b/b2/wolfmoon.png)
 
 ## Related specifications
 

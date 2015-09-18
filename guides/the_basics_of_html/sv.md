@@ -124,7 +124,7 @@ Ett typiskt exempel av ett HTML dokument ser ut såhär:
 
  När du tittar på detta dokument i en webbläsare kommer det se ut såhär:
 
-![HTMLrender sv.png](/assets/public/e/e2/HTMLrender_sv.png)
+![HTMLrender sv.png](//static.webplatform.org/e/e2/HTMLrender_sv.png)
 
 Början av dokumentet har ett dokumenttyp element, kallat doctype. Denna deklaration i dokumentet gör så att webbläsare renderar HTML i vad som kallas "standardläge", så att det fungerar korrekt. Den hjälper även validerings verktyg att se vilken version av HTML de skall validera emot. Oroa dig inte över vad allt detta har för mening för tillfället. Vi återkommer till det här senare. Det vi använder här är dokumenttypen HTML5.
 

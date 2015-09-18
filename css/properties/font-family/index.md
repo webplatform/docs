@@ -3,7 +3,7 @@ title: 'font-family'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5496591'
+  - 'http://code.webplatform.org/gist/5496591'
 compatibility:
   feature: font-family
   topic: css
@@ -77,7 +77,7 @@ h1 { font-family: Helvetica, Arial, sans-serif; }
 p { font-family: "Times New Roman", serif; }
 ```
 
-[View live example](http://gist.github.com/5496591)
+[View live example](http://code.webplatform.org/gist/5496591)
 
 The following example imports a web font into your CSS using `@font-face` and then assigns it to an element using font-family
 

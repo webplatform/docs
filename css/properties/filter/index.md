@@ -1,7 +1,7 @@
 ---
 title: 'filter'
 code_samples:
-  - 'http://gist.github.com/5842451'
+  - 'http://code.webplatform.org/gist/5842451'
 compatibility:
   feature: filter
   topic: css
@@ -98,7 +98,7 @@ The example below shows the difference between the CSS box-shadow property and t
 </html>
 ```
 
-[View live example](http://gist.github.com/5842451)
+[View live example](http://code.webplatform.org/gist/5842451)
 
 ## Usage
 
@@ -108,7 +108,7 @@ visual elements. This example shows how a combination of more than one filter fu
 
     filter: grayscale(100%) sepia(100%);
 
-  ![f01-pencil.jpg](/assets/thumb/a/a8/f01-pencil.jpg/300px-f01-pencil.jpg)![f04-graysepia.jpg](/assets/thumb/2/25/f04-graysepia.jpg/300px-f04-graysepia.jpg)
+  ![f01-pencil.jpg](//static.webplatform.org/thumb/a/a8/f01-pencil.jpg/300px-f01-pencil.jpg)![f04-graysepia.jpg](//static.webplatform.org/thumb/2/25/f04-graysepia.jpg/300px-f04-graysepia.jpg)
 
 Filters are applied to the image data in sequence, so the order in which functions are declared makes a difference. If the [**sepia()**](/css/functions/sepia) function were applied before the [**grayscale()**](/css/functions/grayscale) in the example above, the image would appear completely gray rather than slightly yellowed.
 
@@ -122,43 +122,43 @@ The following examples show the effect of each filter function applied in isolat
 
 [**brightness(1.4)**](/css/functions/brightness)
 
-  ![f17-boatonlake2.jpg](/assets/thumb/1/15/f17-boatonlake2.jpg/300px-f17-boatonlake2.jpg)![f18-boatonlake2bright.jpg](/assets/thumb/6/67/f18-boatonlake2bright.jpg/300px-f18-boatonlake2bright.jpg)
+  ![f17-boatonlake2.jpg](//static.webplatform.org/thumb/1/15/f17-boatonlake2.jpg/300px-f17-boatonlake2.jpg)![f18-boatonlake2bright.jpg](//static.webplatform.org/thumb/6/67/f18-boatonlake2bright.jpg/300px-f18-boatonlake2bright.jpg)
 
 [**contrast(2)**](/css/functions/contrast)
 
-  ![f19-jellybeans.jpg](/assets/public/b/b5/f19-jellybeans.jpg)![f20-jellybeancontrast.jpg](/assets/public/a/a5/f20-jellybeancontrast.jpg)
+  ![f19-jellybeans.jpg](//static.webplatform.org/b/b5/f19-jellybeans.jpg)![f20-jellybeancontrast.jpg](//static.webplatform.org/a/a5/f20-jellybeancontrast.jpg)
 
 [**grayscale(1)**](/css/functions/grayscale)
 
-  ![f05-boatonlake.jpg](/assets/thumb/3/37/f05-boatonlake.jpg/300px-f05-boatonlake.jpg)![f06-boatonlakegray.jpg](/assets/thumb/7/7e/f06-boatonlakegray.jpg/300px-f06-boatonlakegray.jpg)
+  ![f05-boatonlake.jpg](//static.webplatform.org/thumb/3/37/f05-boatonlake.jpg/300px-f05-boatonlake.jpg)![f06-boatonlakegray.jpg](//static.webplatform.org/thumb/7/7e/f06-boatonlakegray.jpg/300px-f06-boatonlakegray.jpg)
 
 [**sepia(1)**](/css/functions/sepia)
 
-  ![f07-lenna.jpg](/assets/thumb/e/e6/f07-lenna.jpg/300px-f07-lenna.jpg)![f08-lennasepia.jpg](/assets/thumb/7/70/f08-lennasepia.jpg/300px-f08-lennasepia.jpg)
+  ![f07-lenna.jpg](//static.webplatform.org/thumb/e/e6/f07-lenna.jpg/300px-f07-lenna.jpg)![f08-lennasepia.jpg](//static.webplatform.org/thumb/7/70/f08-lennasepia.jpg/300px-f08-lennasepia.jpg)
 
 [**invert(1)**](/css/functions/invert)
 
-  ![f13-peppers.jpg](/assets/thumb/1/11/f13-peppers.jpg/300px-f13-peppers.jpg)![f14-peppersinvert.jpg](/assets/thumb/1/19/f14-peppersinvert.jpg/300px-f14-peppersinvert.jpg)
+  ![f13-peppers.jpg](//static.webplatform.org/thumb/1/11/f13-peppers.jpg/300px-f13-peppers.jpg)![f14-peppersinvert.jpg](//static.webplatform.org/thumb/1/19/f14-peppersinvert.jpg/300px-f14-peppersinvert.jpg)
 
 [**hue-rotate(90deg)**](/css/functions/hue-rotate)
 
-  ![f11-mandrill.jpg](/assets/thumb/8/80/f11-mandrill.jpg/300px-f11-mandrill.jpg)![f12-mandrillhuerotate.jpg](/assets/thumb/d/d5/f12-mandrillhuerotate.jpg/300px-f12-mandrillhuerotate.jpg)
+  ![f11-mandrill.jpg](//static.webplatform.org/thumb/8/80/f11-mandrill.jpg/300px-f11-mandrill.jpg)![f12-mandrillhuerotate.jpg](//static.webplatform.org/thumb/d/d5/f12-mandrillhuerotate.jpg/300px-f12-mandrillhuerotate.jpg)
 
 [**saturate(10)**](/css/functions/saturate)
 
-  ![f09-tiffany.jpg](/assets/thumb/2/2d/f09-tiffany.jpg/300px-f09-tiffany.jpg)![f10-tiffanysaturate.jpg](/assets/thumb/b/be/f10-tiffanysaturate.jpg/300px-f10-tiffanysaturate.jpg)
+  ![f09-tiffany.jpg](//static.webplatform.org/thumb/2/2d/f09-tiffany.jpg/300px-f09-tiffany.jpg)![f10-tiffanysaturate.jpg](//static.webplatform.org/thumb/b/be/f10-tiffanysaturate.jpg/300px-f10-tiffanysaturate.jpg)
 
 [**opacity(0.5)**](/css/functions/opacity)
 
-  ![f15-splash.jpg](/assets/thumb/0/04/f15-splash.jpg/300px-f15-splash.jpg)![f16-splashopacity50.jpg](/assets/public/6/68/f16-splashopacity50.jpg)
+  ![f15-splash.jpg](//static.webplatform.org/thumb/0/04/f15-splash.jpg/300px-f15-splash.jpg)![f16-splashopacity50.jpg](//static.webplatform.org/6/68/f16-splashopacity50.jpg)
 
 [**blur(10px)**](/css/functions/blur)
 
-  ![f21-peppers2.jpg](/assets/thumb/a/ad/f21-peppers2.jpg/300px-f21-peppers2.jpg)![f22-peppers2blur.jpg](/assets/thumb/5/52/f22-peppers2blur.jpg/300px-f22-peppers2blur.jpg)
+  ![f21-peppers2.jpg](//static.webplatform.org/thumb/a/ad/f21-peppers2.jpg/300px-f21-peppers2.jpg)![f22-peppers2blur.jpg](//static.webplatform.org/thumb/5/52/f22-peppers2blur.jpg/300px-f22-peppers2blur.jpg)
 
 [**drop-shadow(16px 16px 20px black)**](/css/functions/drop-shadow)
 
-  ![f11-mandrill.jpg](/assets/thumb/8/80/f11-mandrill.jpg/300px-f11-mandrill.jpg)![f23-mandrilldrop1.jpg](/assets/thumb/c/c2/f23-mandrilldrop1.jpg/300px-f23-mandrilldrop1.jpg)
+  ![f11-mandrill.jpg](//static.webplatform.org/thumb/8/80/f11-mandrill.jpg/300px-f11-mandrill.jpg)![f23-mandrilldrop1.jpg](//static.webplatform.org/thumb/c/c2/f23-mandrilldrop1.jpg/300px-f23-mandrilldrop1.jpg)
 
 ## Related specifications
 

@@ -3,7 +3,7 @@ title: 'animation-iteration-count'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
 code_samples:
-  - 'http://gist.github.com/7010365'
+  - 'http://code.webplatform.org/gist/7010365'
 compatibility:
   feature: animation-iteration-count
   topic: css
@@ -95,7 +95,7 @@ div.selected {
 }
 ```
 
-[View live example](http://gist.github.com/7010365)
+[View live example](http://code.webplatform.org/gist/7010365)
 
 ## Usage
 

@@ -1,7 +1,7 @@
 ---
 title: 'overflow-wrap'
 code_samples:
-  - 'http://gist.github.com/5842405'
+  - 'http://code.webplatform.org/gist/5842405'
 compatibility:
   feature: overflow-wrap
   topic: css
@@ -89,7 +89,7 @@ p:nth-child(2) {
 }
 ```
 
-[View live example](http://gist.github.com/5842405)
+[View live example](http://code.webplatform.org/gist/5842405)
 
 ## Usage
 

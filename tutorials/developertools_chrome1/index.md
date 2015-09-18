@@ -33,49 +33,49 @@ Overall, there are eight main groups of tools available in Developer Tools, and 
 
 ### Elements
 
-*Elements tab* ![icdt01-elements.jpg](/assets/public/0/03/icdt01-elements.jpg)
+*Elements tab* ![icdt01-elements.jpg](//static.webplatform.org/0/03/icdt01-elements.jpg)
 
 The Elements tool allows you to see the web page as the browser sees it. That is, using the Elements tool, you can see the raw HTML, raw CSS styles, the Document Object Model, and manipulate any of them in real time.
 
 ### Resources
 
-*Resources tab* ![icdt02-resources.jpg](/assets/public/e/e8/icdt02-resources.jpg)
+*Resources tab* ![icdt02-resources.jpg](//static.webplatform.org/e/e8/icdt02-resources.jpg)
 
 Use the Resources tool to learn what components your web page or application is requesting from web servers, how long these requests take, and how much bandwidth is required. You can also view the HTTP request and response headers for each of your resources. The Resources tool is perfect for helping you speed up page load times.
 
 ### Scripts
 
-*Scripts tab* ![icdt03-scripts.jpg](/assets/public/6/63/icdt03-scripts.jpg)
+*Scripts tab* ![icdt03-scripts.jpg](//static.webplatform.org/6/63/icdt03-scripts.jpg)
 
 To peer inside the JavaScript for a page, you use the Scripts tool. Here you can find a list of scripts required by the page plus a full featured script debugger. You can even change the JavaScript on the fly!
 
 ### Timeline
 
-*Timeline tab* ![icdt04-timeline.jpg](/assets/public/7/71/icdt04-timeline.jpg)
+*Timeline tab* ![icdt04-timeline.jpg](//static.webplatform.org/7/71/icdt04-timeline.jpg)
 
 For advanced timing and speed analysis, the Timeline tool offers in-depth visibility into various Chrome behind-the-scenes activities. You can learn how long the browser takes to handle DOM events, render page layouts, and paint the window.
 
 ### Profiles
 
-*Profiles tab* ![icdt05-profiles.jpg](/assets/public/2/28/icdt05-profiles.jpg)
+*Profiles tab* ![icdt05-profiles.jpg](//static.webplatform.org/2/28/icdt05-profiles.jpg)
 
 The Profiles tool helps you capture and analyze the performance of JavaScript scripts. For example, you can learn which functions take the most time to execute and zero in on exactly where to optimize.
 
 ### Storage
 
-*Storage tab* ![icdt06-storage.jpg](/assets/public/0/03/icdt06-storage.jpg)
+*Storage tab* ![icdt06-storage.jpg](//static.webplatform.org/0/03/icdt06-storage.jpg)
 
 Modern web applications require more persistence than simply cookies, and the Storage tool helps you track, query, and debug local browser storage. This tool can display and query data stored in local databases, local storage, session storage, and cookies.
 
 ### Audit
 
-*Audit tab* ![icdt07-audits.jpg](/assets/public/6/6d/icdt07-audits.jpg)
+*Audit tab* ![icdt07-audits.jpg](//static.webplatform.org/6/6d/icdt07-audits.jpg)
 
 The Audit tool is like having your own web optimization consultant sitting next to you. This tool can analyze a page as it loads and provide suggestions and optimizations for decreasing page load time and increase perceived (and real) responsiveness.
 
 ### Console
 
-*Console tab* ![icdt08-console.jpg](/assets/public/1/1a/icdt08-console.jpg)
+*Console tab* ![icdt08-console.jpg](//static.webplatform.org/1/1a/icdt08-console.jpg)
 
 Last but definitely not least, the Developer Tools offer a full featured Console. From the Console, you can enter arbitrary JavaScript and programmatically interact with your page.
 
@@ -87,11 +87,11 @@ For any operating system, you can simply right-click on any element in the page 
 
 To see this in action, visit `http://www.google.com` in the Chrome browser. Right click on the Google logo, and you will see the following options:
 
-*Opening the inspector* ![icdt09-inspector.jpg](/assets/public/8/8c/icdt09-inspector.jpg)
+*Opening the inspector* ![icdt09-inspector.jpg](//static.webplatform.org/8/8c/icdt09-inspector.jpg)
 
 Selecting **Inspect Element** will bring up the Developer Tools, which should look like the following:
 
-*Inside the element inspector* ![icdt10-inside.jpg](/assets/public/3/31/icdt10-inside.jpg)
+*Inside the element inspector* ![icdt10-inside.jpg](//static.webplatform.org/3/31/icdt10-inside.jpg)
 
 Notice how the Developer Tools opens inside of the Elements tab and automatically drills down to, and highlights, the `<img>` tag for the Google logo. This is very useful when you are curious which HTML generated a particular page element.
 
@@ -104,17 +104,17 @@ Finally, you can choose to open the Developer Tools from the main browser menu.
 
 On a Mac, and from the main application menu bar, select **View \> Developer \> Developer Tools**.
 
-*Opening the Developer Tools on a Mac* ![icdt11-opening.jpg](/assets/public/8/8f/icdt11-opening.jpg)
+*Opening the Developer Tools on a Mac* ![icdt11-opening.jpg](//static.webplatform.org/8/8f/icdt11-opening.jpg)
 
 On a Windows PC, you should use the **Page** menu at the top right, and select **Developer \> Developer Tools**.
 
-*Opening the Developer Tools on Windows* ![icdt12-windows.jpg](/assets/public/5/59/icdt12-windows.jpg)
+*Opening the Developer Tools on Windows* ![icdt12-windows.jpg](//static.webplatform.org/5/59/icdt12-windows.jpg)
 
 Now that you have the Developer Tools open and ready, let's begin by exploring the elements on Google's homepage.
 
 ## Elements
 
-*Selecting the Elements tab* ![icdt13-elements2.jpg](/assets/public/d/d4/icdt13-elements2.jpg)
+*Selecting the Elements tab* ![icdt13-elements2.jpg](//static.webplatform.org/d/d4/icdt13-elements2.jpg)
 
 The first tab in the Developer Tools is Elements. This is your window into the structure of the web page, presented as your browser sees it.
 
@@ -126,13 +126,13 @@ The Elements tab is sometimes a better way to "view source" for a page. Inside t
 
 For example, the following is the output from the "view source" of the Google homepage.
 
-*Google.com's minified source* ![icdt14-minified.jpg](/assets/public/9/9a/icdt14-minified.jpg)
+*Google.com's minified source* ![icdt14-minified.jpg](//static.webplatform.org/9/9a/icdt14-minified.jpg)
 
 It's hard to read the source because it is optimized and minified. The format is good for clients and servers, but difficult for developers!
 
 Instead, when you want to read the source of a page, use the Elements Tab to view a pretty-printed, syntax-highlighted element hierarchy.
 
-*The Elements inspector pretty-printed HTML* ![icdt15-pretty.jpg](/assets/public/a/ac/icdt15-pretty.jpg)
+*The Elements inspector pretty-printed HTML* ![icdt15-pretty.jpg](//static.webplatform.org/a/ac/icdt15-pretty.jpg)
 
 The Elements tab also allows you to browse, interact, and sometimes even change the Styles, Metrics, Properties, and Event Listeners for any element on the page.
 
@@ -142,13 +142,13 @@ The cascading nature of CSS makes the Styles browser in the Elements tab very us
 
 Clicking on any element in the Elements tab displays all the styles attached to that element.
 
-*CSS styling in the inspector* ![icdt16-styling.jpg](/assets/public/c/cc/icdt16-styling.jpg)
+*CSS styling in the inspector* ![icdt16-styling.jpg](//static.webplatform.org/c/cc/icdt16-styling.jpg)
 
 You'll see in the screen shot above that we're able to identify all the style attributes that are being applied. For example, the padding comes directly from the \<img\> element's `style` attribute. The width and height, however, come from their respective native attributes. Interestingly, you can tell there are also styles inherited from the `>center<` tag, the `>body<` tag, and others.
 
 While it's great to see the individual styles and where they come from, it's also very useful to see the final set of styles after they are computed and applied to the element. You can see the final product by selecting the **Computed Style** menu, as shown in the screenshot below.
 
-*Browser computed styles are also displayed* ![icdt17-computed.jpg](/assets/public/e/eb/icdt17-computed.jpg)
+*Browser computed styles are also displayed* ![icdt17-computed.jpg](//static.webplatform.org/e/eb/icdt17-computed.jpg)
 
 Next, we'll take a brief look at the other features provided by the Elements tab. We'll cover the following in more detail in future articles.
 
@@ -156,19 +156,19 @@ Next, we'll take a brief look at the other features provided by the Elements tab
 
 You can see the box model as it is applied to the selected element by selecting the **Metrics** menu:
 
-*Viewing an element's box model* ![icdt18-box.jpg](/assets/public/f/ff/icdt18-box.jpg)
+*Viewing an element's box model* ![icdt18-box.jpg](//static.webplatform.org/f/ff/icdt18-box.jpg)
 
 ### Element Properties
 
 You can see all of the properties of the element as JavaScript and the DOM would see it by selecting the Properties menu:
 
-*Viewing DOM element properties* ![icdt19-properties.jpg](/assets/public/c/c3/icdt19-properties.jpg)
+*Viewing DOM element properties* ![icdt19-properties.jpg](//static.webplatform.org/c/c3/icdt19-properties.jpg)
 
 ### Event Listeners
 
 And finally, you can even see the event listeners attached to, or that bubble through, the element via the Event Listeners menu:
 
-*Viewing DOM element event listeners* ![icdt20-listeners.jpg](/assets/public/1/10/icdt20-listeners.jpg)
+*Viewing DOM element event listeners* ![icdt20-listeners.jpg](//static.webplatform.org/1/10/icdt20-listeners.jpg)
 
 ### Summary
 
@@ -188,13 +188,13 @@ The Resources tab in Developer Tools is your window into the communication betwe
 
 Ironically, running the Resources tab affects page load performance, so it is disabled by default. The first time you access the functionality, you will need to enable it for the page you are viewing.
 
-*Enabling resources tracking* ![icdt21-tracking.jpg](/assets/public/0/04/icdt21-tracking.jpg)
+*Enabling resources tracking* ![icdt21-tracking.jpg](//static.webplatform.org/0/04/icdt21-tracking.jpg)
 
 I recommend you leave the default **Only enable for this session** option selected, as you do not want to needlessly incur the small performance penalty. Once you click **Enable resource tracking**, the page will reload, and the Developer Tools will monitor and display the resources sent from the server.
 
 The following screen shot shows the resources required, and loaded for, the Google homepage.
 
-*Google.com's resource tracking* ![icdt22-tracking2.jpg](/assets/public/1/13/icdt22-tracking2.jpg)
+*Google.com's resource tracking* ![icdt22-tracking2.jpg](//static.webplatform.org/1/13/icdt22-tracking2.jpg)
 
 There's a lot of information on this screen, so let's take it piece by piece.
 
@@ -202,7 +202,7 @@ The default behavior is to show you how long it took to request and load all the
 
 If you are interested in just images or style sheets, you can filter the resource type using the menu directly under the main tab window.
 
-*Viewing only image resources* ![icdt23-images.jpg](/assets/public/b/b1/icdt23-images.jpg)
+*Viewing only image resources* ![icdt23-images.jpg](//static.webplatform.org/b/b1/icdt23-images.jpg)
 
 You'll also learn the order in which the resources are requested. Using the timeline display, you may gain a better understanding of why certain elements on your page show up later than others.
 
@@ -210,7 +210,7 @@ After you gain an overview of all the requested resources and how they compose t
 
 If you notice that some resources are being requested every time you access the page, that is a sign that your caching headers are not configured correctly. You can view all of the headers for a resource by clicking on the resource in the left hand list.
 
-*Viewing request headers* ![icdt24-headers.jpg](/assets/public/3/30/icdt24-headers.jpg)
+*Viewing request headers* ![icdt24-headers.jpg](//static.webplatform.org/3/30/icdt24-headers.jpg)
 
 Use the Headers display to ensure that the expected HTTP Response Code is set and the appropriate headers are provided. For example, if the resource is rarely or never changed, your server should set an Expires header for far into the future. This will tell the browser that the resource shouldn't be requested again until that date. This reduces the number of HTTP connections required for your page, thus speeding up your site.
 

@@ -3,7 +3,7 @@ title: 'descendant'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/8413346'
+  - 'http://code.webplatform.org/gist/8413346'
 compatibility:
   feature: descendant
   topic: css
@@ -32,7 +32,7 @@ The following rule defines a text color of red for all instances of unordered li
 nav ul { color:red; }
 ```
 
-[View live example](http://gist.github.com/8413346)
+[View live example](http://code.webplatform.org/gist/8413346)
 
 ## Notes
 

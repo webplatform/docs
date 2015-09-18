@@ -1,7 +1,7 @@
 ---
 title: 'br'
 code_samples:
-  - 'http://gist.github.com/7282007'
+  - 'http://code.webplatform.org/gist/7282007'
 compatibility:
   feature: br
   topic: html
@@ -44,7 +44,7 @@ The following example is correct usage of the **br** element
 Sydney</p>
 ```
 
-[View live example](http://gist.github.com/7282007)
+[View live example](http://code.webplatform.org/gist/7282007)
 
 ## Usage
 

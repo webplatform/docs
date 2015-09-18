@@ -3,8 +3,8 @@ title: 'list-style'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/6950114'
-  - 'http://gist.github.com/5598129'
+  - 'http://code.webplatform.org/gist/6950114'
+  - 'http://code.webplatform.org/gist/5598129'
 compatibility:
   feature: list-style
   topic: css
@@ -95,7 +95,7 @@ The following example contains multiple examples of using this property, omittin
 }
 ```
 
-[View live example](http://gist.github.com/6950114)
+[View live example](http://code.webplatform.org/gist/6950114)
 
 An example to show how setting padding-left to 0 when position is set to outside will produce the market not being shown at all. A ul contained in a div with overflow hidden might run into this issue.
 
@@ -113,7 +113,7 @@ ul {
 }
 ```
 
-[View live example](http://gist.github.com/5598129)
+[View live example](http://code.webplatform.org/gist/5598129)
 
 ## Usage
 

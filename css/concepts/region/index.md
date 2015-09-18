@@ -16,7 +16,7 @@ The CSS Regions feature allows content to flow dynamically through a series of p
 
 The following shows a complex layout featuring a series of regions, with a named flow's content threading through regions **1** through **4**, which form a chain. A separate named flow is assigned to the region labeled **A**:
 
-![regions.png](/assets/thumb/3/38/regions.png/400px-regions.png)
+![regions.png](//static.webplatform.org/thumb/3/38/regions.png/400px-regions.png)
 
 Assigning [**flow-from**](/css/properties/flow-from) to a block element turns it into a region. As long as it serves as a region, any of its nested content is obscured by content diverted from other elements whose [**flow-into**](/css/properties/flow-into) property specifies the same [*named flow*](/css/concepts/named_flow). If there is no corresponding [**flow-into**](/css/properties/flow-into) content, the region displays empty content.
 

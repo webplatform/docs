@@ -119,7 +119,7 @@ webでの画像の欠点は、誰しもが画像を見られる訳ではない�
 
  このコードをブラウザで実行すると、結果はこのようになるでしょう。
 
-![the image displayed in a browser](/assets/public/8/83/images-f.jpg)
+![the image displayed in a browser](//static.webplatform.org/8/83/images-f.jpg)
 
 *Figure 1: ブラウザで表示される画像*
 
@@ -170,7 +170,7 @@ webでの画像の欠点は、誰しもが画像を見られる訳ではない�
 
  このコードは、このようになります。
 
-![title attribute contents shown as a tool tip](/assets/public/7/7c/images-g.jpg)
+![title attribute contents shown as a tool tip](//static.webplatform.org/7/7c/images-g.jpg)
 
 *Figure 2: `title` 属性は、多くのブラウザでツールチップとして表示される*
 
@@ -229,7 +229,7 @@ webでの画像の欠点は、誰しもが画像を見られる訳ではない�
 
  並んで表示した2つの異なるデータは、このようになります。
 
-![A document next to its longdesc output](/assets/public/f/f5/images-h.jpg)
+![A document next to its longdesc output](//static.webplatform.org/f/f5/images-h.jpg)
 
 *Figure 3: `longdesc` 属性を使って、画像にリンクした複雑なデータをともなったドキュメント*
 
@@ -325,7 +325,7 @@ CSSを使うことで、とても融通が利く方法で背景の画像も使�
 
 CSSで画像を背景として利用するのは、とても簡単です。下記のCSSコードを見る前にこの色々な例を見て、CSSにおいて背景の画像で可能な様々なことを知ってください。
 
-![CSSの背景の例](/assets/public/e/ea/images-f.gif)
+![CSSの背景の例](//static.webplatform.org/e/ea/images-f.gif)
 
 *Figure 4: CSSを使った背景*
 

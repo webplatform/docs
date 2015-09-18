@@ -3,10 +3,10 @@ title: 'transform'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [transform Article](https://developer.mozilla.org/en-US/docs/CSS/transform)'
 code_samples:
-  - 'http://gist.github.com/6982577'
-  - 'http://gist.github.com/6982633'
-  - 'http://gist.github.com/6982663'
-  - 'http://gist.github.com/6982706'
+  - 'http://code.webplatform.org/gist/6982577'
+  - 'http://code.webplatform.org/gist/6982633'
+  - 'http://code.webplatform.org/gist/6982663'
+  - 'http://code.webplatform.org/gist/6982706'
 compatibility:
   feature: transform
   topic: css
@@ -165,7 +165,7 @@ Translate the object by 150 pixels along the x and y axes.
  }
 ```
 
-[View live example](http://gist.github.com/6982577)
+[View live example](http://code.webplatform.org/gist/6982577)
 
 Rotate the object by 40 degrees clockwise.
 
@@ -179,7 +179,7 @@ Rotate the object by 40 degrees clockwise.
 }
 ```
 
-[View live example](http://gist.github.com/6982633)
+[View live example](http://code.webplatform.org/gist/6982633)
 
 Scale the element by the factor of 3 on the x axis and by the factor of 0.5 by the y axis.
 
@@ -193,7 +193,7 @@ Scale the element by the factor of 3 on the x axis and by the factor of 0.5 by t
 }
 ```
 
-[View live example](http://gist.github.com/6982663)
+[View live example](http://code.webplatform.org/gist/6982663)
 
 3D rotate the object by 40 degrees clockwise around the X axis.
 
@@ -207,7 +207,7 @@ Scale the element by the factor of 3 on the x axis and by the factor of 0.5 by t
 }
 ```
 
-[View live example](http://gist.github.com/6982706)
+[View live example](http://code.webplatform.org/gist/6982706)
 
 ## Notes
 
@@ -224,4 +224,4 @@ Any value other than "none" results in the creation of both a stacking context a
 
 Cross Browser CSS Transforms – Even in IE <http://www.useragentman.com/blog/2010/03/09/cross-browser-css-transforms-even-in-ie/>
 
-![alt Example showing translate, scale and rotate step by step](/assets/public/2/2b/transform_example.png)
+![alt Example showing translate, scale and rotate step by step](//static.webplatform.org/2/2b/transform_example.png)

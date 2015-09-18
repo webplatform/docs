@@ -3,8 +3,8 @@ title: 'rect'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/44786e14924371effbe4'
-  - 'http://gist.github.com/9697f0fe090f4ad2e6e9'
+  - 'http://code.webplatform.org/gist/44786e14924371effbe4'
+  - 'http://code.webplatform.org/gist/9697f0fe090f4ad2e6e9'
 compatibility:
   feature: rect
   topic: svg
@@ -56,7 +56,7 @@ In the following code example, the rect element is used to draw a purple rectang
 ```
 
 </pre>
-[View live example](http://gist.github.com/44786e14924371effbe4)
+[View live example](http://code.webplatform.org/gist/44786e14924371effbe4)
 
 In the following code example, the rect element is used to create a orange rectangle with rounded corners.
 
@@ -69,7 +69,7 @@ In the following code example, the rect element is used to create a orange recta
 ```
 
 </pre>
-[View live example](http://gist.github.com/9697f0fe090f4ad2e6e9)
+[View live example](http://code.webplatform.org/gist/9697f0fe090f4ad2e6e9)
 
 ### Attributes
 

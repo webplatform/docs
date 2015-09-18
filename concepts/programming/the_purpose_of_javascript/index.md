@@ -49,7 +49,7 @@ That is a lot for a language that until recently was laughed at by programmers f
 
 The usage of JavaScript has changed over the years we have been using it. At first, JavaScript interaction with the site was mostly limited to interacting with forms, giving feedback to the user, and detecting when they do certain things. We used `alert()` to notify the user of something (see Figure 1), `confirm()` to ask if something is OK to do and either `prompt()` or a form field to get user input.
 
-![A form using an alert to flag up errors](/assets/public/6/6a/alert_js.png)
+![A form using an alert to flag up errors](//static.webplatform.org/6/6a/alert_js.png)
 
 Figure 1: Telling the end user about errors using an `alert()` statement was all we could do in the early days of JavaScript. Neither pretty nor subtle.
 
@@ -71,7 +71,7 @@ The `a` child node also has an attribute node called `href` with a value of "<ht
 
 You could also represent this paragraph visually using a tree diagram, as seen in Figure 2.
 
-![A visual representation of our sample DOM tree](/assets/public/1/19/DOMTree0.gif)
+![A visual representation of our sample DOM tree](//static.webplatform.org/1/19/DOMTree0.gif)
 
 Figure 2: A visual representation of our sample DOM tree.
 
@@ -84,7 +84,7 @@ Using the DOM you can:
 
 This means that we do not have to rely on windows, frames, forms, and ugly alerts any longer, and can give feedback to the user in the document in a nicely styled manner, as indicated in Figure 3.
 
-![A form using DOM error messages](/assets/public/2/22/dom_erro.png)
+![A form using DOM error messages](//static.webplatform.org/2/22/dom_erro.png)
 
 Figure 3: Using the DOM you can create nicer and less intrusive error messages.
 

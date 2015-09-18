@@ -3,7 +3,7 @@ title: 'border-image-repeat'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/border-image-repeat)'
 code_samples:
-  - 'http://gist.github.com/5620804'
+  - 'http://code.webplatform.org/gist/5620804'
 compatibility:
   feature: border-image-repeat
   topic: css
@@ -91,7 +91,7 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 <div class="pattern space">Space</div>
 ```
 
-[View live example](http://gist.github.com/5620804)
+[View live example](http://code.webplatform.org/gist/5620804)
 
 ``` css
 /* This general class will apply the pattern to the containers */
@@ -125,7 +125,7 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 }
 ```
 
-[View live example](http://gist.github.com/5620804)
+[View live example](http://code.webplatform.org/gist/5620804)
 
 ``` html
 [[File:border-image.png|border-image demo image]]

@@ -4,7 +4,7 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Border-radius](https://developer.mozilla.org/en-US/docs/CSS/border-radius) Article]'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5495188'
+  - 'http://code.webplatform.org/gist/5495188'
 compatibility:
   feature: border-radius
   topic: css
@@ -96,7 +96,7 @@ border-bottom-right-radius: 1em;
 border-bottom-left-radius: 1em;
 ```
 
-[View live example](http://gist.github.com/5495188)
+[View live example](http://code.webplatform.org/gist/5495188)
 
 Multi value example
 
@@ -111,7 +111,7 @@ border-bottom-right-radius: 1vw 0.5em;
 border-bottom-left-radius: 1em 3em;
 ```
 
-[View live example](http://gist.github.com/5495188)
+[View live example](http://code.webplatform.org/gist/5495188)
 
 Create an ellipse, unless the
 
@@ -121,7 +121,7 @@ border-radius: 50%;
 /* Will be a circle if the element’s width is equal to its height */
 ```
 
-[View live example](http://gist.github.com/5495188)
+[View live example](http://code.webplatform.org/gist/5495188)
 
 Shrinking curves to avoid overlapping
 
@@ -135,7 +135,7 @@ border-radius: 40% 60%;
 /* The values shrink proportionally, all multiplied by the same factor, until there is no overlap */
 ```
 
-[View live example](http://gist.github.com/5495188)
+[View live example](http://code.webplatform.org/gist/5495188)
 
 ## Usage
 

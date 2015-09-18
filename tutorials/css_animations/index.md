@@ -50,7 +50,7 @@ These key points serve as reference:
 
 To understand how animations work, start with an example of a pulsing icon, which may be used in a mobile interface to indicate what part of an application is selected. The animation continuously shrinks and grows one of the icons as it dims and brightens it. This simple example will illustrate several other features below:
 
-![anim pulse.png](/assets/public/6/64/anim_pulse.png)
+![anim pulse.png](//static.webplatform.org/6/64/anim_pulse.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/anim_pulse.html))
 
@@ -183,7 +183,7 @@ Whenever two time measurements are specified in a shorthand property value, the 
 
 This more elaborate example shows a delayed animation within a mobile interface. After an initial pause, content shifts down to make room for a series of banner advertisements, which then continuously cycle horizontally and rewind to display the first:
 
-![anim cycle.png](/assets/public/9/9b/anim_cycle.png)
+![anim cycle.png](//static.webplatform.org/9/9b/anim_cycle.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/anim_banner.html))
 
@@ -265,7 +265,7 @@ The same set of timing functions that apply to transitions also apply to animati
 
 By default, the **ease** value starts each keyframe slowly, builds speed, then slows at the end, which is not always appropriate behavior. In this example, a series of items, skewed to appear fast-moving, slide in haphazardly from the right edge of the screen, then hit a wall at the left edge and wobble to a stop:
 
-![animDelay.png](/assets/public/6/62/animDelay.png)
+![animDelay.png](//static.webplatform.org/6/62/animDelay.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/anim_timing.html))
 
@@ -307,7 +307,7 @@ Once an animation starts to execute, setting the [**animation-play-state**](/css
 
 As in the following example, you would typically want to pause an animation if it becomes part of an interface element that is no longer in an active state:
 
-![anim pause.png](/assets/public/0/04/anim_pause.png)
+![anim pause.png](//static.webplatform.org/0/04/anim_pause.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/anim_pause.html))
 

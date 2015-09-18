@@ -335,7 +335,7 @@ Keeping things aligned to a grid means assigning layout properties to the labels
 
 ### The Rule of Thirds
 
-![An early springtime scene on the north side of Pioneer Square, Portland, Oregon; superimposed with lines dividing the photo into nine more or less equal parts.](/assets/public/6/66/bmh_form.jpg)
+![An early springtime scene on the north side of Pioneer Square, Portland, Oregon; superimposed with lines dividing the photo into nine more or less equal parts.](//static.webplatform.org/6/66/bmh_form.jpg)
 
 Figure 1: An early springtime scene in Portland, Oregon. This photo has been superimposed with lines illustrating the Rule of Thirds; note how the lower right intersection and the lines that form it bound the visible activity. Photo ©2000 by the author; all rights reserved.
 
@@ -343,7 +343,7 @@ When we consider what makes for excellent composition, there’s a nearly univer
 
 The simplest explanation for this phenomenon is that those four lines conform closely to grids that follow the Golden Ratio, a proportion that is close in value to one-sixth. The Golden Ratio is frequently encountered in various fields of mathematics and in the natural world.
 
-![bmh form.png](/assets/public/3/3d/bmh_form.png)
+![bmh form.png](//static.webplatform.org/3/3d/bmh_form.png)
 
 Figure 2: A screen capture of msnbc.msn.com superimposed by the first seven golden rectangles. The dimensions of the fourth and fifth rectangles side-by-side illuminate the nature of the page layout grid as a whole.
 

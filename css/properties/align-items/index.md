@@ -1,9 +1,9 @@
 ---
 title: 'align-items'
 code_samples:
-  - 'http://gist.github.com/5533982'
-  - 'http://gist.github.com/4745348'
-  - 'http://gist.github.com/4745341'
+  - 'http://code.webplatform.org/gist/5533982'
+  - 'http://code.webplatform.org/gist/4745348'
+  - 'http://code.webplatform.org/gist/4745341'
 compatibility:
   feature: align-items
   topic: css
@@ -128,7 +128,7 @@ Alignment of flex items in a flex container. Change the values in the live examp
 }
 ```
 
-[View live example](http://gist.github.com/5533982)
+[View live example](http://code.webplatform.org/gist/5533982)
 
 Displaying children centered horizontally.
 
@@ -144,7 +144,7 @@ Displaying children centered horizontally.
 }
 ```
 
-[View live example](http://gist.github.com/4745348)
+[View live example](http://code.webplatform.org/gist/4745348)
 
 Displaying children centered vertically.
 
@@ -161,7 +161,7 @@ Displaying children centered vertically.
 }
 ```
 
-[View live example](http://gist.github.com/4745341)
+[View live example](http://code.webplatform.org/gist/4745341)
 
 ## Notes
 

@@ -3,7 +3,7 @@ title: 'border-right-color'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5535401'
+  - 'http://code.webplatform.org/gist/5535401'
 compatibility:
   feature: border-right-color
   topic: css
@@ -116,7 +116,7 @@ The following example demonstrates the use of `border-right-color` by creating a
 }
 ```
 
-[View live example](http://gist.github.com/5535401)
+[View live example](http://code.webplatform.org/gist/5535401)
 
 ``` html
 <div class="box named-value">

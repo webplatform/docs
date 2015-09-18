@@ -36,13 +36,13 @@ For example, to set all unordered lists on your site to use square bullets, use 
 
 Which will produce something like Figure 1:
 
-![Screenshot of a list with square bullets](/assets/public/6/66/square-b.gif)
+![Screenshot of a list with square bullets](//static.webplatform.org/6/66/square-b.gif)
 
 *Figure 1: Unordered list with square bullets.*
 
 Some common list types are shown in Figure 2:
 
-![Screenshot of some common list types.](/assets/public/f/fe/referenc.gif)
+![Screenshot of some common list types.](//static.webplatform.org/f/fe/referenc.gif)
 
 *Figure 2: Common list styles.*
 
@@ -80,19 +80,19 @@ First we'll set the list to have no `list-style-type` and remove the margin and 
 
 This will produce a list with the RSS image instead of bullets, as seen in Figure 3:
 
-![Screenshot of a list with the bullets replaced with images](/assets/public/d/dc/image-bu.gif)
+![Screenshot of a list with the bullets replaced with images](//static.webplatform.org/d/dc/image-bu.gif)
 
 *Figure 3: The list with image bullets.*
 
 Bear in mind that the background image is positioned using pixels for a precise placement. Depending on the design you are creating, you might also be able to use `%`, `em`s or keywords. Just be careful when your design features content that might cause a list item to wrap over several lines—if you set the background to vertical `center` or `50%` it can look quite strange, as shown in Figure 4:
 
-![Screenshot showing the way the vertically-centred bullet will sit in the middle of the text, instead of being centred to the first line of text.](/assets/public/4/45/image-bv.gif)
+![Screenshot showing the way the vertically-centred bullet will sit in the middle of the text, instead of being centred to the first line of text.](//static.webplatform.org/4/45/image-bv.gif)
 
 *Figure 4: A demonstration of vertically-centred bullet images on a multi-line list item.*
 
 By setting the image to sit at the top of the list item, you maintain the default bullet behaviour (where the bullet sits on the first line)—see Figure 5:
 
-![Screenshot of top-positioned bullet images.](/assets/public/9/96/image-bw.gif)
+![Screenshot of top-positioned bullet images.](//static.webplatform.org/9/96/image-bw.gif)
 
 *Figure 5: A demonstration of top-aligned bullet images on a multi-line list item.*
 
@@ -104,7 +104,7 @@ Clever use of margins and padding can make lists look much more polished and pro
 
 One thing you will probably notice quite quickly is that the default style for lists indents them more than the default style for paragraphs—see Figure 6:
 
-![Screenshot of default list styles with a larger left indent than paragraphs.](/assets/public/a/ad/list-ind.gif)
+![Screenshot of default list styles with a larger left indent than paragraphs.](//static.webplatform.org/a/ad/list-ind.gif)
 
 *Figure 6: Default styled lists are indented on the left.*
 
@@ -117,7 +117,7 @@ If you want your unordered list items to sit at the same left-align point as the
 
 This may not have the effect you were expecting, as it will get the *text* to sit flush left but the bullets will sit outside the text, as shown in Figure 7:
 
-![Screenshot of bullets sitting outside the text.](/assets/public/5/51/list-ine.gif)
+![Screenshot of bullets sitting outside the text.](//static.webplatform.org/5/51/list-ine.gif)
 
 *Figure 7: Bullets are positioned to the left of the text.*
 
@@ -134,7 +134,7 @@ So, to align the *bullets* to the left you can now set a margin on the list item
 
 ...at this point you will still find a pixel-level difference between browsers but the effect is basically as consistent as possible—see Figure 8:
 
-![Screenshot of bullets left-aligned closely with paragraphs.](/assets/public/3/38/list-inf.gif)
+![Screenshot of bullets left-aligned closely with paragraphs.](//static.webplatform.org/3/38/list-inf.gif)
 
 *Figure 8: Bullets positioned together with the surrounding paragraphs.*
 
@@ -142,13 +142,13 @@ So, to align the *bullets* to the left you can now set a margin on the list item
 
 Now you need to consider the same issue as applied to ordered lists. They are trickier since the numeric markers are aligned according to the list item with the largest number. For example, if you have 10 list items, decimals will be positioned to allow for the two-digit "10" item, as seen in Figure 9:
 
-![Screenshot of ten-item list, with the markers indented to allow for the 10.](/assets/public/2/2c/ol-inden.gif)
+![Screenshot of ten-item list, with the markers indented to allow for the 10.](//static.webplatform.org/2/2c/ol-inden.gif)
 
 *Figure 9: The numeric marker for items 1-9 have preceding padding so they right-align with item 10.*
 
 So, there really isn't a way to make this consistently left-aligned to the same position as the surrounding text; unless you set the list to use `list-style-type: decimal-leading-zero;`, which will hide the issue, as seen in Figure 10:
 
-![Screenshot of leading zeros allowing numbers to left-align consistently.](/assets/public/b/bf/ol-indeo.gif)
+![Screenshot of leading zeros allowing numbers to left-align consistently.](//static.webplatform.org/b/bf/ol-indeo.gif)
 
 *Figure 10: The leading zeros fill in the space for items 1-9.*
 
@@ -165,7 +165,7 @@ It is more common to simply live with the difference in spacing. It does however
 
 You need *at least*2em of left margin to accomodate both ordered and unordered lists. In Figure 11, note the way the text of the items lines up in both lists:
 
-![Screenshot of lists set to have text consistently left-aligned.](/assets/public/c/ce/list-ing.gif)
+![Screenshot of lists set to have text consistently left-aligned.](//static.webplatform.org/c/ce/list-ing.gif)
 
 *Figure 11: The text lines up in both ordered and unordered lists.*
 
@@ -183,7 +183,7 @@ There is no "right" or "wrong" approach and it is quite common to simply leave t
 
 If you want the text of multi-line list items to wrap below the list marker, you will need to set the `list-style-position` property to `inside`, which produces the result seen in Figure 12:
 
-![Screenshot of unordered list with text wrapping below bullets.](/assets/public/c/c8/inside-l.gif)
+![Screenshot of unordered list with text wrapping below bullets.](//static.webplatform.org/c/c8/inside-l.gif)
 
 *Figure 12: List position "inside" causes the text to wrap below the marker instead of in line with the indented text.*
 
@@ -203,7 +203,7 @@ In general, definition lists don't require a huge amount of attention, except to
 
 This sets up a clear and easy style for definition lists, as seen in Figure 13:
 
-![Screenshot of a definition list with bold terms and indented definitions.](/assets/public/4/4d/definiti.gif)
+![Screenshot of a definition list with bold terms and indented definitions.](//static.webplatform.org/4/4d/definiti.gif)
 
 *Figure 13: A simply styled definition list.*
 
@@ -230,13 +230,13 @@ Each subsequent child list item in the chain inherits the `margin` value from it
 
 One of the most common changes required to work with a list is to produce a horizontal list—that is, to make the items appear next to each other instead of one after the other. This is a common trick for site navigation. Let's use an example from the navigation menus article (see Figure 14):
 
-![Screenshot of a simple list with bullets](/assets/public/5/5d/simple-n.gif)
+![Screenshot of a simple list with bullets](//static.webplatform.org/5/5d/simple-n.gif)
 
 *Figure 14: A simple list.*
 
 Let's convert this to a horizontal list, as shown in Figure 15:
 
-![Screenshot of a list with the items appearing next to each other](/assets/public/b/b4/simple-o.gif)
+![Screenshot of a list with the items appearing next to each other](//static.webplatform.org/b/b4/simple-o.gif)
 
 *Figure 15: A simple horizontal list.*
 
@@ -264,13 +264,13 @@ In this simple example, setting the list items to `display: inline;` is enough; 
 
 Earlier on we created a list of RSS feeds. Now let's imagine that list has been placed in a sidebar on your site. The designer wants the list to appear in two columns, with a border around the whole group as seen in Figure 16.
 
-![Screenshot of a list in two columns.](/assets/public/1/16/columns-.gif)
+![Screenshot of a list in two columns.](//static.webplatform.org/1/16/columns-.gif)
 
 *Figure 16: A list of feeds in two columns, with an RSS icon for each bullet.*
 
 Let's assume the list is inside a `<div>` which sets the width and border. The basic list would look something like Figure 17:
 
-![Screenshot of basic list](/assets/public/b/be/columns0.gif)
+![Screenshot of basic list](//static.webplatform.org/b/be/columns0.gif)
 
 *Figure 17: The unstyled list inside the border.*
 
@@ -292,7 +292,7 @@ Note that `display:-moz-inline-box;` is added to get the example to display corr
 
 We don't need to add bottom margin as the last list item will add the correct spacing with its padding, as seen in Figure 18:
 
-![Screenshot of list with the correct spacing and icon.](/assets/public/6/68/columns1.gif)
+![Screenshot of list with the correct spacing and icon.](//static.webplatform.org/6/68/columns1.gif)
 
 *Figure 18: Halfway there—we now have correct spacing and icon bullets.*
 
@@ -326,7 +326,7 @@ In most browsers this will be enough to create the column effect, but you will n
 
 We now have the desired two column effect, as seen in Figure 19:
 
-![Screenshot of a list in two columns.](/assets/public/1/16/columns-.gif)
+![Screenshot of a list in two columns.](//static.webplatform.org/1/16/columns-.gif)
 
 *Figure 19: The completed list.*
 
@@ -372,7 +372,7 @@ You may hear people refer to the "Netscape defaults" for links; or say that link
 
 Text was black, the background was grey, and all links were underlined. The unvisited links were blue, visited links were purple, and active links were red — and that was about it. See Figure 20 for an illustration of this.
 
-![Screenshot of the Mosaic/Navigator startup page, explaining hyperlinks.](/assets/public/d/de/links-mo.gif)
+![Screenshot of the Mosaic/Navigator startup page, explaining hyperlinks.](//static.webplatform.org/d/de/links-mo.gif)
 
 *Figure 20: A screenshot of Mosaic.*
 
@@ -405,7 +405,7 @@ You should also check that your colour choices have enough contrast—this is re
 
 The Colour Contrast Analyser (see Figure 21) allows you to use a colour picker to select the foreground and background colours on screen, then receive a simple evaluation of their contrast:
 
-![The CCA tool showing a test of heading colour.](/assets/public/7/78/cca-in-u.gif)
+![The CCA tool showing a test of heading colour.](//static.webplatform.org/7/78/cca-in-u.gif)
 
 *Figure 21: Screenshot of the Colour Contrast Analyser in use.*
 
@@ -452,7 +452,7 @@ This is useful if you are planning to replace the default underline with a botto
 
 By default, most browsers set all links to have an underline and focus state links to have an outline, as illustrated in Figure 22:
 
-![The default focus style for Opera 9, Firefox 2 and IE7](/assets/public/f/ff/browser-.gif)
+![The default focus style for Opera 9, Firefox 2 and IE7](//static.webplatform.org/f/ff/browser-.gif)
 
 *Figure 22: Left to right: the default focus styles for Opera 9, Firefox 2 and IE7.*
 
@@ -484,7 +484,7 @@ The focus outline is controlled by the [outline](http://www.w3.org/TR/REC-CSS2/u
 
 This example would be rendered something like Figure 23:
 
-![A link with a thick black border.](/assets/public/a/a4/thick-so.gif)
+![A link with a thick black border.](//static.webplatform.org/a/a4/thick-so.gif)
 
 *Figure 23: example rendering of a thick black outline.*
 
@@ -527,7 +527,7 @@ As an easy example of link styles, let's recreate the Netscape defaults of blue,
 
 This should produce something like Figure 24:
 
-![Example rendering of the styles set above](/assets/public/9/92/lvfha-un.gif)
+![Example rendering of the styles set above](//static.webplatform.org/9/92/lvfha-un.gif)
 
 *Figure 24: recreating the Netscape defaults.*
 
@@ -535,13 +535,13 @@ This should produce something like Figure 24:
 
 Many designers have observed that underlining is a bit thick and cuts through descenders of lowercase type—that is, the line goes through the bottom of g, j, p, q and y. This is illustrated in figure 25:
 
-![The word pygmy showing the underline cutting through the text](/assets/public/d/d5/pygmy-un.gif)
+![The word pygmy showing the underline cutting through the text](//static.webplatform.org/d/d5/pygmy-un.gif)
 
 *Figure 25: The underline cuts through lowercase type descenders.*
 
 Let's assume that the person designing your site agrees, and would like the underline to be thinner and not touch the text. To carry out this common request, we'll use a border instead of an underline so it looks like Figure 26:
 
-![The word pygmy showing a faux underline border, which does not cut through the text](/assets/public/2/22/pygmy-bo.gif)
+![The word pygmy showing a faux underline border, which does not cut through the text](//static.webplatform.org/2/22/pygmy-bo.gif)
 
 *Figure 26: Using a border instead of an underline gives nicer results.*
 
@@ -586,7 +586,7 @@ First, disable the underline for all link states, then set a bottom-border to ma
 
 This should produce something like Figure 27:
 
-![Example rendering of the styles set above](/assets/public/8/81/Lvfha-bo.gif)
+![Example rendering of the styles set above](//static.webplatform.org/8/81/Lvfha-bo.gif)
 
 *Figure 27: The faux-underline in action.*
 
@@ -634,13 +634,13 @@ Since the example so far relies purely on colour to distinguish four of the five
 
 This should produce something like Figure 28:
 
-![Example rendering showing how the borders differentiate the different link states](/assets/public/4/46/Lvfha-mu.gif)
+![Example rendering showing how the borders differentiate the different link states](//static.webplatform.org/4/46/Lvfha-mu.gif)
 
 *Figure 28: Changing the border style for each link state.*
 
 Accepting focus and hover as equivalent styled states, this method means the link states are distinguished with more than colour. Even if you were to view these links in black and white, you could identify the different link states, as shown in Figure 29:
 
-![The same example all in black, to emphasise the border differences](/assets/public/d/da/Lvfha-mv.gif)
+![The same example all in black, to emphasise the border differences](//static.webplatform.org/d/da/Lvfha-mv.gif)
 
 *Figure 29: The link states are now distinguishable even in black and white.*
 
@@ -650,7 +650,7 @@ Some sites use icons and symbols to add information about their links. For examp
 
 These effects are simple to achieve with background images, as shown in Figure 30:
 
-![Example rendering of links with icons](/assets/public/f/f1/Links-wi.gif)
+![Example rendering of links with icons](//static.webplatform.org/f/f1/Links-wi.gif)
 
 *Figure 30: An example of links with distinguishing icons.*
 
@@ -678,7 +678,7 @@ Combining classes and states opens up a wide range of creative possibilities for
 
 To illustrate one way to bring lists and links together, the examples zip includes a simple flyout navigation menu, as seen in Figure 31. Flyout menus are a very common navigation system.
 
-![Screenshot of the flyout list example.](/assets/public/1/1b/Flyout-l.gif)
+![Screenshot of the flyout list example.](//static.webplatform.org/1/1b/Flyout-l.gif)
 
 *Figure 31: Screenshot of the example flyout menu.*
 

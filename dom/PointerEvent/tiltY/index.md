@@ -54,5 +54,5 @@ theform.txtTiltY.value=evt.tiltY;
 
      A positive tiltY is towards the user. tiltY can be used along with tiltX to represent the tilt away from the normal of a transducer with the digitzer. For devices that do not report tilt, the value must be 0.
 
-![caption](/assets/public/6/62/TiltY.png)
+![caption](//static.webplatform.org/6/62/TiltY.png)
 

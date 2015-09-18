@@ -1,7 +1,7 @@
 ---
 title: 'color'
 code_samples:
-  - 'http://gist.github.com/5502992'
+  - 'http://code.webplatform.org/gist/5502992'
 compatibility:
   feature: color
   topic: css
@@ -93,7 +93,7 @@ p { color: rgba(64,224,208,0.8) }
 p { color: hsla(174,72%,56%,0.8) }
 ```
 
-[View live example](http://gist.github.com/5502992)
+[View live example](http://code.webplatform.org/gist/5502992)
 
 ## Usage
 

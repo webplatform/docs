@@ -81,7 +81,7 @@ Start by placing some text within an SVG graphic:
 <text class="blurred" x="30" y="100">An SVG Filter</text>
 ```
 
- ![svgf none.png](/assets/public/8/89/svgf_none.png)
+ ![svgf none.png](//static.webplatform.org/8/89/svgf_none.png)
 
 Place a [**filter**](/svg/elements/filter) element within the SVG's [**defs**](/svg/elements/defs) region. Filters contain series of filter effect elements, all prefixed *fe*. In this example, a [**feGaussianBlur**](/svg/elements/feGaussianBlur) element produces a blurring effect, which matches the effect of the [**blur()**](/css/functions/blur()) CSS filter function:
 
@@ -111,7 +111,7 @@ Place a [**filter**](/svg/elements/filter) element within the SVG's [**defs**](/
 }
 ```
 
- ![svgf blurBoth.png](/assets/public/2/23/svgf_blurBoth.png)
+ ![svgf blurBoth.png](//static.webplatform.org/2/23/svgf_blurBoth.png)
 
 The effect takes each pixel and moves it around randomly from its original location within a radius specified by the **stdDeviation** value. Unlike the built-in CSS function, in SVG you can specify separate *x* and *y* values to produce a sideways motion effect that in this case is a bit more legible:
 
@@ -121,7 +121,7 @@ The effect takes each pixel and moves it around randomly from its original locat
 </filter>
 ```
 
- ![svgf blur.png](/assets/public/a/a9/svgf_blur.png)
+ ![svgf blur.png](//static.webplatform.org/a/a9/svgf_blur.png)
 
 ### Applying SVG filters to HTML
 
@@ -153,7 +153,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 </filter>
 ```
 
- ![svgf CTnoop.png](/assets/thumb/7/7e/svgf_CTnoop.png/400px-svgf_CTnoop.png)
+ ![svgf CTnoop.png](//static.webplatform.org/thumb/7/7e/svgf_CTnoop.png/400px-svgf_CTnoop.png)
 
 ``` xml
 <filter id="posterize">
@@ -168,7 +168,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 </filter>
 ```
 
- ![svgf CTband.png](/assets/thumb/2/28/svgf_CTband.png/400px-svgf_CTband.png)
+ ![svgf CTband.png](//static.webplatform.org/thumb/2/28/svgf_CTband.png/400px-svgf_CTband.png)
 
 Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlink=1) to **linear** multiplies the [**slope**](/w/index.php?title=svg/attributes/slope&action=edit&redlink=1) value (relative to the default **1**), then adds an [**intercept**](/w/index.php?title=svg/attributes/intercept&action=edit&redlink=1) value if present. The first example below reproduces the effect of the CSS [**brightness()**](/css/functions/brightness()) function, flattening the slope to darken the image. The second increases the slope to brighten the image, but then drops all values by a fixed amount, zeroing out many of them:
 
@@ -182,7 +182,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 </filter>
 ```
 
- ![svgf CTlinear.png](/assets/thumb/8/88/svgf_CTlinear.png/400px-svgf_CTlinear.png)
+ ![svgf CTlinear.png](//static.webplatform.org/thumb/8/88/svgf_CTlinear.png/400px-svgf_CTlinear.png)
 
 ``` xml
 <filter id="brightness_threshold">
@@ -194,7 +194,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 </filter>
 ```
 
- ![svgf CTlinearIntercept.png](/assets/thumb/4/4e/svgf_CTlinearIntercept.png/400px-svgf_CTlinearIntercept.png)
+ ![svgf CTlinearIntercept.png](//static.webplatform.org/thumb/4/4e/svgf_CTlinearIntercept.png/400px-svgf_CTlinearIntercept.png)
 
 Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlink=1) to **table** lets you specify your own linear slope based on two [**tableValues**](/w/index.php?title=svg/attributes/tableValues&action=edit&redlink=1). The first example behaves like the CSS [**opacity()**](/css/functions/opacity()) function. The second, specifying a negative slope from 1 to 0, behaves like the CSS [**invert()**](/css/functions/invert()) function:
 
@@ -206,7 +206,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 </filter>
 ```
 
- ![svgf CTopacity.png](/assets/thumb/b/bd/svgf_CTopacity.png/400px-svgf_CTopacity.png)
+ ![svgf CTopacity.png](//static.webplatform.org/thumb/b/bd/svgf_CTopacity.png/400px-svgf_CTopacity.png)
 
 ``` xml
 <filter id="css_invert">
@@ -218,7 +218,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 </filter>
 ```
 
- ![svgf CTinvert.png](/assets/thumb/d/d1/svgf_CTinvert.png/400px-svgf_CTinvert.png)
+ ![svgf CTinvert.png](//static.webplatform.org/thumb/d/d1/svgf_CTinvert.png/400px-svgf_CTinvert.png)
 
 Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlink=1) to **gamma** allows you to perform *gamma correction*, a useful way to increase dark values. The function applies the following formula to produce a curve: ((*amplitude* × *value*<sup>*exponent*</sup>) + *offset*). The first example heightens the darker greens, and the second uses [**offset**](/w/index.php?title=svg/attributes/offset&action=edit&redlink=1) to reduce the overall green level (the same way that [**intercept**](/w/index.php?title=svg/attributes/intercept&action=edit&redlink=1) does for the **linear** type):
 
@@ -230,7 +230,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 </filter>
 ```
 
- ![svgf CTgammaOffset0.png](/assets/thumb/4/44/svgf_CTgammaOffset0.png/400px-svgf_CTgammaOffset0.png)
+ ![svgf CTgammaOffset0.png](//static.webplatform.org/thumb/4/44/svgf_CTgammaOffset0.png/400px-svgf_CTgammaOffset0.png)
 
 ``` xml
 <filter id="gamma_correct2">
@@ -241,7 +241,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 </filter>
 ```
 
- ![svgf CTgamma.png](/assets/thumb/0/04/svgf_CTgamma.png/400px-svgf_CTgamma.png)
+ ![svgf CTgamma.png](//static.webplatform.org/thumb/0/04/svgf_CTgamma.png/400px-svgf_CTgamma.png)
 
 ## Transforming colors with feColorMatrix
 
@@ -253,7 +253,7 @@ The [**feColorMatrix**](/svg/elements/feColorMatrix) element provides other usef
 </filter>
 ```
 
- ![svgf CMXsaturate0.png](/assets/thumb/8/80/svgf_CMXsaturate0.png/400px-svgf_CMXsaturate0.png)
+ ![svgf CMXsaturate0.png](//static.webplatform.org/thumb/8/80/svgf_CMXsaturate0.png/400px-svgf_CMXsaturate0.png)
 
 ``` xml
 <filter id="css_saturate">
@@ -261,7 +261,7 @@ The [**feColorMatrix**](/svg/elements/feColorMatrix) element provides other usef
 </filter>
 ```
 
- ![svgf CMXsaturate10.png](/assets/thumb/8/8b/svgf_CMXsaturate10.png/400px-svgf_CMXsaturate10.png)
+ ![svgf CMXsaturate10.png](//static.webplatform.org/thumb/8/8b/svgf_CMXsaturate10.png/400px-svgf_CMXsaturate10.png)
 
 Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlink=1) to **hueRotate** alters the angle along the color wheel, just like the [**hue-rotate()**](/css/functions/hue-rotate()) CSS function. Setting **luminanceToAlpha** (no **values** necessary) produces an alpha channel from bright pixels, useful to produce image masks as described below.
 
@@ -271,7 +271,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 </filter>
 ```
 
- ![svgf CMXhurRotate180.png](/assets/thumb/6/6d/svgf_CMXhurRotate180.png/400px-svgf_CMXhurRotate180.png)
+ ![svgf CMXhurRotate180.png](//static.webplatform.org/thumb/6/6d/svgf_CMXhurRotate180.png/400px-svgf_CMXhurRotate180.png)
 
 ``` xml
 <filter id="luminance_mask">
@@ -279,7 +279,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 </filter>
 ```
 
- ![svgf CMXluminanceToAlpha.png](/assets/thumb/c/ca/svgf_CMXluminanceToAlpha.png/400px-svgf_CMXluminanceToAlpha.png)
+ ![svgf CMXluminanceToAlpha.png](//static.webplatform.org/thumb/c/ca/svgf_CMXluminanceToAlpha.png/400px-svgf_CMXluminanceToAlpha.png)
 
 As the name of the [**feColorMatrix**](/svg/elements/feColorMatrix) suggests, setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlink=1) to **matrix** allows you to transform colors yourself. It specifies a 20-element transform whose rows correspond to red, green, blue, and alpha channels. This initial transform leaves the image unchanged:
 
@@ -301,7 +301,7 @@ The first example below reproduces the effect of the CSS [**sepia()**](/css/func
 </filter>
 ```
 
- ![svgf CMXsepia.png](/assets/thumb/0/02/svgf_CMXsepia.png/400px-svgf_CMXsepia.png)
+ ![svgf CMXsepia.png](//static.webplatform.org/thumb/0/02/svgf_CMXsepia.png/400px-svgf_CMXsepia.png)
 
 ``` xml
 <filter id="dusk">
@@ -314,7 +314,7 @@ The first example below reproduces the effect of the CSS [**sepia()**](/css/func
 </filter>
 ```
 
- ![svgf CMXsunset.png](/assets/thumb/7/76/svgf_CMXsunset.png/400px-svgf_CMXsunset.png)
+ ![svgf CMXsunset.png](//static.webplatform.org/thumb/7/76/svgf_CMXsunset.png/400px-svgf_CMXsunset.png)
 
 ## Sharpening images with feConvolveMatrix
 
@@ -340,9 +340,9 @@ The original image shown on the left is slightly blurred. Applying a sharpen fil
     -1  -1 -1
      1  -1  1
 
-![svgf CVnoop.png](/assets/thumb/9/9c/svgf_CVnoop.png/400px-svgf_CVnoop.png)
+![svgf CVnoop.png](//static.webplatform.org/thumb/9/9c/svgf_CVnoop.png/400px-svgf_CVnoop.png)
 
-![svgf CVsharpen.png](/assets/thumb/3/34/svgf_CVsharpen.png/400px-svgf_CVsharpen.png)
+![svgf CVsharpen.png](//static.webplatform.org/thumb/3/34/svgf_CVsharpen.png/400px-svgf_CVsharpen.png)
 
 Getting convolve filters to behave predictably takes a bit of practice. The example on the left below sharpens the detail more dramatically, while the one on the right embosses it diagonally:
 
@@ -350,13 +350,13 @@ Getting convolve filters to behave predictably takes a bit of practice. The exam
     -1  -0.1 -1
      1  -1    1
 
-![svgf CVsuperSharp.png](/assets/thumb/9/97/svgf_CVsuperSharp.png/400px-svgf_CVsuperSharp.png)
+![svgf CVsuperSharp.png](//static.webplatform.org/thumb/9/97/svgf_CVsuperSharp.png/400px-svgf_CVsuperSharp.png)
 
     9  0  0
     0  1  0
     0  0 -9
 
-![svgf CVemboss.png](/assets/thumb/4/43/svgf_CVemboss.png/400px-svgf_CVemboss.png)
+![svgf CVemboss.png](//static.webplatform.org/thumb/4/43/svgf_CVemboss.png/400px-svgf_CVemboss.png)
 
 Convolution filters can also highlight moats around high-contrast edges. The more dramatic texture shown below on the right forms moats throughout the image. It requires an [**order**](/w/index.php?title=svg/attributes/order&action=edit&redlink=1) of 5, which extends the range of the calculation to each adjacent neighbor's farthest neighbor.
 
@@ -364,7 +364,7 @@ Convolution filters can also highlight moats around high-contrast edges. The mor
     -1  7 -1
     -1 -1 -1
 
-![svgf CVedge.png](/assets/thumb/7/78/svgf_CVedge.png/400px-svgf_CVedge.png)
+![svgf CVedge.png](//static.webplatform.org/thumb/7/78/svgf_CVedge.png/400px-svgf_CVedge.png)
 
     1   1   1   1  1
     1  -2  -2  -2  1
@@ -372,7 +372,7 @@ Convolution filters can also highlight moats around high-contrast edges. The mor
     1  -2  -2  -2  1
     1   1   1   1  1
 
-![svgf CVsuperEdge.png](/assets/thumb/d/d5/svgf_CVsuperEdge.png/400px-svgf_CVsuperEdge.png)
+![svgf CVsuperEdge.png](//static.webplatform.org/thumb/d/d5/svgf_CVsuperEdge.png/400px-svgf_CVsuperEdge.png)
 
 As shown below, the example on the right is also converted to a grayscale using the **luminanceToAlpha** [**feColorMatrix**](/svg/elements/feColorMatrix) effect described above, and the effect-chaining technique described in the following section.
 
@@ -402,23 +402,23 @@ Much of the power of SVG filters comes from their ability to accept various grap
 
 First we start with an image transparency:
 
-![svgf dropNoop.png](/assets/thumb/3/30/svgf_dropNoop.png/192px-svgf_dropNoop.png)
+![svgf dropNoop.png](//static.webplatform.org/thumb/3/30/svgf_dropNoop.png/192px-svgf_dropNoop.png)
 
 We've already seen the [**feGaussianBlur**](/svg/elements/feGaussianBlur) effect in action, but in this case it behaves differently. The optional [**in**](/w/index.php?title=svg/attributes/in&action=edit&redlink=1) specifies the **SourceAlpha**, or all of its non-transparent pixels. The result of that effect, which is colored black, is passed to the next [**feOffset**](/svg/elements/feOffset) effect, which simply moves it down and over:
 
-![svgf dropOffsetBlur.png](/assets/thumb/0/0c/svgf_dropOffsetBlur.png/192px-svgf_dropOffsetBlur.png)
+![svgf dropOffsetBlur.png](//static.webplatform.org/thumb/0/0c/svgf_dropOffsetBlur.png/192px-svgf_dropOffsetBlur.png)
 
 The [**feFlood**](/svg/elements/feFlood) effect simply produces a color, specified by its [**flood-color**](/w/index.php?title=svg/properties/flood-color&action=edit&redlink=1) property. The effect is independent of the graphic we've produced so far, and doesn't take any input from the offset effect, so it renders within the filter's entire region:
 
-![svgf dropFlood.png](/assets/thumb/6/60/svgf_dropFlood.png/192px-svgf_dropFlood.png)
+![svgf dropFlood.png](//static.webplatform.org/thumb/6/60/svgf_dropFlood.png/192px-svgf_dropFlood.png)
 
 By default, the [**result**](/w/index.php?title=svg/attributes/result&action=edit&redlink=1) of the flood becomes the next effect's [**in**](/w/index.php?title=svg/attributes/in&action=edit&redlink=1) value, so neither of these attributes needs to be explicitly declared here. The [**feComposite**](/svg/elements/feComposite) effect applies the **in** composite operation on the portion of the gray fill that falls within the dropped shadow:
 
-![svgf dropComposite.png](/assets/thumb/5/59/svgf_dropComposite.png/192px-svgf_dropComposite.png)
+![svgf dropComposite.png](//static.webplatform.org/thumb/5/59/svgf_dropComposite.png/192px-svgf_dropComposite.png)
 
 Finally, the [**feMerge**](/svg/elements/feMerge) effect combines the modified version of the graphic with the original. The first [**feMergeNode**](/svg/elements/feMergeNode) accepts the composite result by default, and the second specifies the **SourceGraphic**, which renders over it for the final effect:
 
-![svgf dropMerge.png](/assets/thumb/6/6e/svgf_dropMerge.png/192px-svgf_dropMerge.png)
+![svgf dropMerge.png](//static.webplatform.org/thumb/6/6e/svgf_dropMerge.png/192px-svgf_dropMerge.png)
 
 ## Other input and merging options: feBlend, feComposite, feImage, feTile
 
@@ -432,23 +432,23 @@ The [**feMerge**](/svg/elements/feMerge) element shown above simply places one g
 
 **normal**
 
-![svgf blendNormal.png](/assets/thumb/e/e7/svgf_blendNormal.png/150px-svgf_blendNormal.png)
+![svgf blendNormal.png](//static.webplatform.org/thumb/e/e7/svgf_blendNormal.png/150px-svgf_blendNormal.png)
 
 **lighten**
 
-![svgf blendLighten.png](/assets/thumb/a/a2/svgf_blendLighten.png/150px-svgf_blendLighten.png)
+![svgf blendLighten.png](//static.webplatform.org/thumb/a/a2/svgf_blendLighten.png/150px-svgf_blendLighten.png)
 
 **darken**
 
-![svgf blendDarken.png](/assets/thumb/9/93/svgf_blendDarken.png/150px-svgf_blendDarken.png)
+![svgf blendDarken.png](//static.webplatform.org/thumb/9/93/svgf_blendDarken.png/150px-svgf_blendDarken.png)
 
 **screen**
 
-![svgf blendScreen.png](/assets/thumb/2/2e/svgf_blendScreen.png/150px-svgf_blendScreen.png)
+![svgf blendScreen.png](//static.webplatform.org/thumb/2/2e/svgf_blendScreen.png/150px-svgf_blendScreen.png)
 
 **multiply**
 
-![svgf blendMultiply.png](/assets/thumb/6/6a/svgf_blendMultiply.png/150px-svgf_blendMultiply.png)
+![svgf blendMultiply.png](//static.webplatform.org/thumb/6/6a/svgf_blendMultiply.png/150px-svgf_blendMultiply.png)
 
 Setting the [**feComposite**](/svg/elements/feComposite) element's [**operator**](/w/index.php?title=svg/attributes/operator&action=edit&redlink=1) to **over** produces the same default overlay as [**feMerge**](/svg/elements/feMerge):
 
@@ -460,23 +460,23 @@ Setting the [**feComposite**](/svg/elements/feComposite) element's [**operator**
 
 **over**
 
-![svgf compOver.png](/assets/thumb/6/68/svgf_compOver.png/150px-svgf_compOver.png)
+![svgf compOver.png](//static.webplatform.org/thumb/6/68/svgf_compOver.png/150px-svgf_compOver.png)
 
 **out**
 
-![svgf compOut.png](/assets/thumb/3/36/svgf_compOut.png/150px-svgf_compOut.png)
+![svgf compOut.png](//static.webplatform.org/thumb/3/36/svgf_compOut.png/150px-svgf_compOut.png)
 
 **in**
 
-![svgf compIn.png](/assets/thumb/d/d2/svgf_compIn.png/150px-svgf_compIn.png)
+![svgf compIn.png](//static.webplatform.org/thumb/d/d2/svgf_compIn.png/150px-svgf_compIn.png)
 
 **atop**
 
-![svgf compAtop.png](/assets/thumb/c/cb/svgf_compAtop.png/150px-svgf_compAtop.png)
+![svgf compAtop.png](//static.webplatform.org/thumb/c/cb/svgf_compAtop.png/150px-svgf_compAtop.png)
 
 **xor**
 
-![svgf compXor.png](/assets/thumb/0/02/svgf_compXor.png/150px-svgf_compXor.png)
+![svgf compXor.png](//static.webplatform.org/thumb/0/02/svgf_compXor.png/150px-svgf_compXor.png)
 
 Setting the [**operator**](/w/index.php?title=svg/attributes/operator&action=edit&redlink=1) to **arithmetic** allows you to supply your own **k1**-**k4** table values to produce composite blends. For example, set [**k1**](/w/index.php?title=svg/attributes/k1&action=edit&redlink=1) and [**k4**](/w/index.php?title=svg/attributes/k4&action=edit&redlink=1) to 0, then decrease [**k2**](/w/index.php?title=svg/attributes/k2&action=edit&redlink=1) from 1 while increasing [**k3**](/w/index.php?title=svg/attributes/k3&action=edit&redlink=1) from 0 for a cross-fade effect. This example makes the [**in2**](/w/index.php?title=svg/attributes/in2&action=edit&redlink=1) graphic more visible:
 
@@ -484,7 +484,7 @@ Setting the [**operator**](/w/index.php?title=svg/attributes/operator&action=edi
 <feComposite in="graphicA" in2="graphicB" operator="arithmetic" k1="0" k2="0.3" k3="0.7" k4="0"/>
 ```
 
- ![svgf compArithmetic.png](/assets/thumb/0/05/svgf_compArithmetic.png/150px-svgf_compArithmetic.png)
+ ![svgf compArithmetic.png](//static.webplatform.org/thumb/0/05/svgf_compArithmetic.png/150px-svgf_compArithmetic.png)
 
 Use the [**feImage**](/svg/elements/feImage) element to import graphics into filter effects as in the examples above and below. It allows you to import not only raster images as with the [**image**](/svg/elements/image) element, but any other SVG graphic as well. By default, graphics are placed in the center of the filter region. Otherwise, use [**x**](/w/index.php?title=svg/attributes/x&action=edit&redlink=1), [**y**](/w/index.php?title=svg/attributes/y&action=edit&redlink=1), [**width**](/w/index.php?title=svg/attributes/width&action=edit&redlink=1), and [**height**](/w/index.php?title=svg/attributes/height&action=edit&redlink=1) attributes to reposition and resize them:
 
@@ -517,27 +517,27 @@ The next example shows how to combine several filter effects to warp text:
 
 Start with a bit of text:
 
-![svgf warpStart.png](/assets/thumb/d/d2/svgf_warpStart.png/250px-svgf_warpStart.png)
+![svgf warpStart.png](//static.webplatform.org/thumb/d/d2/svgf_warpStart.png/250px-svgf_warpStart.png)
 
 The [**feMorphology**](/svg/elements/feMorphology) effect specifies a [**dilate**](/w/index.php?title=svg/attributes/dilate&action=edit&redlink=1) factor to thicken the graphic. (Alternately, [**erode**](/w/index.php?title=svg/attributes/erode&action=edit&redlink=1) would make it thinner.)
 
-![svgf warpMorph.png](/assets/thumb/4/49/svgf_warpMorph.png/250px-svgf_warpMorph.png)
+![svgf warpMorph.png](//static.webplatform.org/thumb/4/49/svgf_warpMorph.png/250px-svgf_warpMorph.png)
 
 The [**feComponentTransfer**](/svg/elements/feComponentTransfer) modifies the color, as described in a previous section:
 
-![svgf warpColoredOutline.png](/assets/thumb/b/b7/svgf_warpColoredOutline.png/250px-svgf_warpColoredOutline.png)
+![svgf warpColoredOutline.png](//static.webplatform.org/thumb/b/b7/svgf_warpColoredOutline.png/250px-svgf_warpColoredOutline.png)
 
 The [**feMerge**](/svg/elements/feMerge) places the modified outline behind the original letterform:
 
-![svgf warpCombinedOutline.png](/assets/thumb/c/cd/svgf_warpCombinedOutline.png/250px-svgf_warpCombinedOutline.png)
+![svgf warpCombinedOutline.png](//static.webplatform.org/thumb/c/cd/svgf_warpCombinedOutline.png/250px-svgf_warpCombinedOutline.png)
 
 The [**feTurbulence**](/svg/elements/feTurbulence) effect produces its own graphic noise within which colors form cloud-like patterns:
 
-![svgf warpTurbulence.png](/assets/thumb/2/2b/svgf_warpTurbulence.png/250px-svgf_warpTurbulence.png)
+![svgf warpTurbulence.png](//static.webplatform.org/thumb/2/2b/svgf_warpTurbulence.png/250px-svgf_warpTurbulence.png)
 
 The [**feDisplacementMap**](/svg/elements/feDisplacementMap) produces the final effect:
 
-![svgf warpDisplace.png](/assets/thumb/d/d6/svgf_warpDisplace.png/250px-svgf_warpDisplace.png)
+![svgf warpDisplace.png](//static.webplatform.org/thumb/d/d6/svgf_warpDisplace.png/250px-svgf_warpDisplace.png)
 
 The displacement effect moves the pixels of the text (specified by [**in**](/w/index.php?title=svg/attributes/in&action=edit&redlink=1)) based on the pixel values of the noise pattern (specified by [**in2**](/w/index.php?title=svg/attributes/in2&action=edit&redlink=1)). The [**xChannelSelector**](/w/index.php?title=svg/attributes/xChannelSelector&action=edit&redlink=1) and [**yChannelSelector**](/w/index.php?title=svg/attributes/yChannelSelector&action=edit&redlink=1) specify, for each axis, which color component's value (**R**, **G**, **B**, or **A**) to use to push the pixels, and the [**scale**](/w/index.php?title=svg/attributes/scale&action=edit&redlink=1) sets the overall range of movement.
 
@@ -561,19 +561,19 @@ Turbulence is indispensable for grain and weave textures, useful for background 
 
 Supplying the [**feTurbulence**](/svg/elements/feTurbulence) effect with two [**baseFrequency**](/w/index.php?title=svg/attributes/baseFrequency&action=edit&redlink=1) values creates a striped effect:
 
-![svgf TBturb.png](/assets/thumb/a/a5/svgf_TBturb.png/180px-svgf_TBturb.png)
+![svgf TBturb.png](//static.webplatform.org/thumb/a/a5/svgf_TBturb.png/180px-svgf_TBturb.png)
 
 An [**feComponentTransfer**](/svg/elements/feComponentTransfer) boosts the red values:
 
-![svgf TBcomp.png](/assets/thumb/8/8f/svgf_TBcomp.png/180px-svgf_TBcomp.png)
+![svgf TBcomp.png](//static.webplatform.org/thumb/8/8f/svgf_TBcomp.png/180px-svgf_TBcomp.png)
 
 An [**feFlood**](/svg/elements/feFlood) provides a background color:
 
-![svgf TBflood.png](/assets/thumb/0/0d/svgf_TBflood.png/180px-svgf_TBflood.png)
+![svgf TBflood.png](//static.webplatform.org/thumb/0/0d/svgf_TBflood.png/180px-svgf_TBflood.png)
 
 The final [**feMerge**](/svg/elements/feMerge) overlays the pattern:
 
-![svgf TBmerge.png](/assets/thumb/a/a2/svgf_TBmerge.png/180px-svgf_TBmerge.png)
+![svgf TBmerge.png](//static.webplatform.org/thumb/a/a2/svgf_TBmerge.png/180px-svgf_TBmerge.png)
 
 Note the [**filter**](/svg/elements/filter) element in the example above uses [**x**](/w/index.php?title=svg/attributes/x&action=edit&redlink=1), [**y**](/w/index.php?title=svg/attributes/y&action=edit&redlink=1), [**width**](/w/index.php?title=svg/attributes/width&action=edit&redlink=1), and [**height**](/w/index.php?title=svg/attributes/height&action=edit&redlink=1) attributes to specify dimensions. By default, filters operate on a *region* that's somewhat wider than elements they are applied to, to account for offset effects such as the shadow shown above, which extends past the graphic's original dimensions. In this example, the weave pattern only appears within the graphic's original dimensions.
 
@@ -606,15 +606,15 @@ A graphic's alpha channel forms a *bump map* that responds to light. Transparent
 
 The [**feTurbulence**](/svg/elements/feTurbulence) provides a noise pattern. The darker clusters will become hilltops, and the surrounding white areas will be valleys:
 
-![svgf TERRturb1.png](/assets/thumb/1/11/svgf_TERRturb1.png/260px-svgf_TERRturb1.png)
+![svgf TERRturb1.png](//static.webplatform.org/thumb/1/11/svgf_TERRturb1.png/260px-svgf_TERRturb1.png)
 
 The [**feColorMatrix**](/svg/elements/feColorMatrix) element's **luminanceToAlpha** type converts the brighter colors in the valleys to higher alpha values:
 
-![svgf TERRturb2.png](/assets/thumb/2/2c/svgf_TERRturb2.png/260px-svgf_TERRturb2.png)
+![svgf TERRturb2.png](//static.webplatform.org/thumb/2/2c/svgf_TERRturb2.png/260px-svgf_TERRturb2.png)
 
 The [**feComponentTransfer**](/svg/elements/feComponentTransfer) inverts the alpha channel, so that peaks have higher values and valleys have lower values:
 
-![svgf TERRturb3.png](/assets/thumb/1/1c/svgf_TERRturb3.png/260px-svgf_TERRturb3.png)
+![svgf TERRturb3.png](//static.webplatform.org/thumb/1/1c/svgf_TERRturb3.png/260px-svgf_TERRturb3.png)
 
 To specify the lighting effect, nest the light source element ([**feDistantLight**](/svg/elements/feDistantLight), [**fePointLight**](/svg/elements/fePointLight), [**feSpotLight**](/w/index.php?title=svg/elements/feSpotLight&action=edit&redlink=1)) within the lighting type ([**feDiffuseLighting**](/svg/elements/feDiffuseLighting), [**feSpecularLighting**](/svg/elements/feSpecularLighting)). This example specifies a distant light:
 
@@ -624,7 +624,7 @@ To specify the lighting effect, nest the light source element ([**feDistantLight
 </feDiffuseLighting>
 ```
 
- ![svgf TERRdiff.png](/assets/public/a/a5/svgf_TERRdiff.png)
+ ![svgf TERRdiff.png](//static.webplatform.org/a/a5/svgf_TERRdiff.png)
 
 The distant light source's [**azimuth**](/w/index.php?title=svg/attributes/azimuth&action=edit&redlink=1) corresponds to a compass angle along the horizon, which lies along the plane of the display screen. The [**elevation**](/w/index.php?title=svg/attributes/elevation&action=edit&redlink=1) specifies the angle from the horizon, with 90° facing straight up, or out from the screen.
 
@@ -638,7 +638,7 @@ The corresponding specular lighting effect only produces highlights, which can b
 </feSpecularLighting>
 ```
 
- ![svgf TERRspec.png](/assets/public/c/c3/svgf_TERRspec.png)
+ ![svgf TERRspec.png](//static.webplatform.org/c/c3/svgf_TERRspec.png)
 
 This shows the two effects used in combination, with the [**lighting-color**](/w/index.php?title=svg/properties/lighting-color&action=edit&redlink=1) property specified separately in a style sheet. The two lighting effects take the same *terrain* input, then later composite the *scene* and its *highlights*:
 
@@ -666,7 +666,7 @@ This shows the two effects used in combination, with the [**lighting-color**](/w
 </filter>
 ```
 
- ![svgf TERRboth.png](/assets/public/c/ca/svgf_TERRboth.png)
+ ![svgf TERRboth.png](//static.webplatform.org/c/ca/svgf_TERRboth.png)
 
 Setting the filter's [**primitiveUnits**](/w/index.php?title=svg/attributes/primitiveUnits&action=edit&redlink=1) to **objectBoundingBox** allows you to specify light sources as relative percentages, otherwise the default **userSpaceOnUse** value references the coordinate system in effect when the filter was applied.
 
@@ -682,7 +682,7 @@ A point light allows you to place light sources closer to the scene. Specify a s
 <feSpotLight x="0" y="100" z="150" pointsAtX="200" pointsAtY="100" pointsAtZ="0" limitingConeAngle="30"/>
 ```
 
- ![svgf TERRspot.png](/assets/public/3/30/svgf_TERRspot.png)
+ ![svgf TERRspot.png](//static.webplatform.org/3/30/svgf_TERRspot.png)
 
 See this [animated SVG](http://letmespellitoutforyou.com/samples/svg/filter_terrain.svg) that repositions the light sources in these examples.
 
@@ -711,27 +711,27 @@ Using lighting effects to bevel graphics adds a greater sense of depth to the dr
 
 Start with some text that appears fairly indistinguishable against a filled background:
 
-![svgf bevelOrig.png](/assets/public/2/2d/svgf_bevelOrig.png)
+![svgf bevelOrig.png](//static.webplatform.org/2/2d/svgf_bevelOrig.png)
 
 The blur pattern is piped to the [**feOffset**](/svg/elements/feOffset) and stored in *offsetBlur* for use as the drop shadow. It's also stored in *blur* for use by the lighting effect:
 
-![svgf bevelBlur.png](/assets/public/8/8f/svgf_bevelBlur.png)
+![svgf bevelBlur.png](//static.webplatform.org/8/8f/svgf_bevelBlur.png)
 
 The blur not only scatters pixels, but distributes their alpha values to form a rounded surface, which the lighting effect highlights:
 
-![svgf bevelSpec.png](/assets/public/f/f9/svgf_bevelSpec.png)
+![svgf bevelSpec.png](//static.webplatform.org/f/f9/svgf_bevelSpec.png)
 
 The first [**feComposite**](/svg/elements/feComposite) clips the blurred edges that fall outside the graphic's original contours, available as its **SourceAlpha**:
 
-![svgf bevelCompAlpha.png](/assets/public/e/e6/svgf_bevelCompAlpha.png)
+![svgf bevelCompAlpha.png](//static.webplatform.org/e/e6/svgf_bevelCompAlpha.png)
 
 The second [**feComposite**](/svg/elements/feComposite) overlays the highlight with the original **SourceGraphic**:
 
-![svgf bevelCompImg.png](/assets/public/1/12/svgf_bevelCompImg.png)
+![svgf bevelCompImg.png](//static.webplatform.org/1/12/svgf_bevelCompImg.png)
 
 Finally, the *offsetBlur* buffer is merged in to provide a drop shadow for additional depth and legibility:
 
-![svgf bevelFinal.png](/assets/public/a/af/svgf_bevelFinal.png)
+![svgf bevelFinal.png](//static.webplatform.org/a/af/svgf_bevelFinal.png)
 
 Use the same technique to add depth to surfaces, such as this example that defines a radial gradient that fades to transparent values:
 
@@ -743,7 +743,7 @@ Use the same technique to add depth to surfaces, such as this example that defin
 </radialGradient>
 ```
 
- ![svgf eyeCornea.png](/assets/public/5/5c/svgf_eyeCornea.png)
+ ![svgf eyeCornea.png](//static.webplatform.org/5/5c/svgf_eyeCornea.png)
 
 The filter uses [**feImage**](/svg/elements/feImage) to import an graphic filled with the gradient, then shines a narrow spot light on the surface, which results in a subtle rounded highlight:
 
@@ -757,7 +757,7 @@ The filter uses [**feImage**](/svg/elements/feImage) to import an graphic filled
 </filter>
 ```
 
- ![svgf eyeShine.png](/assets/public/b/ba/svgf_eyeShine.png)
+ ![svgf eyeShine.png](//static.webplatform.org/b/ba/svgf_eyeShine.png)
 
 ## See also
 

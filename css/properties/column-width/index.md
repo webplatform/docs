@@ -3,7 +3,7 @@ title: 'column-width'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5305475'
+  - 'http://code.webplatform.org/gist/5305475'
 compatibility:
   feature: column-width
   topic: css
@@ -85,7 +85,7 @@ Makes as many columns that are 100px as there is space in the browser.
 }
 ```
 
-[View live example](http://gist.github.com/5305475)
+[View live example](http://code.webplatform.org/gist/5305475)
 
 ## Notes
 

@@ -3,7 +3,7 @@ title: 'dt – description list topic'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5821157'
+  - 'http://code.webplatform.org/gist/5821157'
 compatibility:
   feature: dt
   topic: html
@@ -76,7 +76,7 @@ The example shows a simple definition list with two item/description pairs.
 </dl>
 ```
 
-[View live example](http://gist.github.com/5821157)
+[View live example](http://code.webplatform.org/gist/5821157)
 
 The example shows a definition list with a single item but multiple descriptions for that item.
 
@@ -89,7 +89,7 @@ The example shows a definition list with a single item but multiple descriptions
 </dl>
 ```
 
-[View live example](http://gist.github.com/5821157)
+[View live example](http://code.webplatform.org/gist/5821157)
 
 The example shows a definition list with a single description and multiple items fitting that description.
 
@@ -102,7 +102,7 @@ The example shows a definition list with a single description and multiple items
 </dl>
 ```
 
-[View live example](http://gist.github.com/5821157)
+[View live example](http://code.webplatform.org/gist/5821157)
 
 Typical browser default CSS properties for the **dt** element.
 

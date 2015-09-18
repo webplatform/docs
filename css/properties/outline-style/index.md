@@ -3,7 +3,7 @@ title: 'outline-style'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5579124'
+  - 'http://code.webplatform.org/gist/5579124'
 compatibility:
   feature: outline-style
   topic: css
@@ -140,7 +140,7 @@ A simple example showing multiple \<span\>s.
 </div>
 ```
 
-[View live example](http://gist.github.com/5579124)
+[View live example](http://code.webplatform.org/gist/5579124)
 
 Outline styles in CSS.
 
@@ -198,7 +198,7 @@ Outline styles in CSS.
 }
 ```
 
-[View live example](http://gist.github.com/5579124)
+[View live example](http://code.webplatform.org/gist/5579124)
 
 ## Notes
 

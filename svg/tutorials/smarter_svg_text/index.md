@@ -70,6 +70,6 @@ Text properties:
 -   **text-anchor**
 -   **writing-mode**
 
-![stop color.svg](/assets/thumb/8/82/stop_color.svg/792px-stop_color.svg.png)
+![stop color.svg](//static.webplatform.org/thumb/8/82/stop_color.svg/792px-stop_color.svg.png)
 
  ([Overview](/svg/tutorials/smarter_svg_overview) / [Shapes](/svg/tutorials/smarter_svg_shapes) / **Text** / [Graphics](/svg/tutorials/smarter_svg_graphics) / [Filters](/svg/tutorials/smarter_svg_filters) / [Animation](/svg/tutorials/smarter_svg_animation) / [Interaction](/svg/tutorials/smarter_svg_interaction))

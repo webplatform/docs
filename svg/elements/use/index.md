@@ -3,7 +3,7 @@ title: 'use'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/9492902'
+  - 'http://code.webplatform.org/gist/9492902'
 compatibility:
   feature: use
   topic: svg
@@ -49,7 +49,7 @@ Here, the **use** element is used to create three instances of a rectangle defin
 ```
 
 </pre>
-[View live example](http://gist.github.com/9492902)
+[View live example](http://code.webplatform.org/gist/9492902)
 
 ## Notes
 

@@ -136,7 +136,7 @@ Let's imagine that our table is going into a content column 600px wide. Let's se
 
 You can actually just set the width on `th` and it will set the width of all the columns; however, it doesn't hurt to be thorough. This simple style will produce the result seen in Figure 1:
 
-![Screenshot showing evenly sized columns](/assets/public/a/a9/styling-.gif)
+![Screenshot showing evenly sized columns](//static.webplatform.org/a/a9/styling-.gif)
 
 *Figure 1: The example table with simple width settings.*
 
@@ -157,7 +157,7 @@ The table is still a bit confusing to read, so let's set up the text alignment t
 
 This neatens things up a little, as you can see in Figure 2:
 
-![Screenshot showing left-aligned headers](/assets/public/1/17/styling0.gif)
+![Screenshot showing left-aligned headers](//static.webplatform.org/1/17/styling0.gif)
 
 *Figure 2: Table with left alignment applied.*
 
@@ -175,7 +175,7 @@ Currently all of the cells are vertically aligned to the centre. If you prefer, 
 
 The table now looks like Figure 3:
 
-![Screenshot showing top-aligned cells](/assets/public/a/a6/styling1.gif)
+![Screenshot showing top-aligned cells](//static.webplatform.org/a/a6/styling1.gif)
 
 *Figure 3: Table with vertical alignment added.*
 
@@ -187,7 +187,7 @@ The table is looking a little nicer, however it is still a bit hard to read alon
 
 To show where the borders will be set, Figure 4a shows different borders for `table` (`solid black`), `caption` (`solid grey`), `th` (`dashed blue`) and `td` (`dotted red`):
 
-![Screenshot showing the border placements](/assets/public/0/0d/border-d.gif)
+![Screenshot showing the border placements](//static.webplatform.org/0/0d/border-d.gif)
 
 *Figure 4a: illustration of the different element borders within a table.*
 
@@ -209,7 +209,7 @@ Let's look at a different style of table - you can set up a simple black border 
 
 Which produces the result seen in Figure 4b:
 
-![Screenshot showing simple black borders](/assets/public/3/3c/styling2.gif)
+![Screenshot showing simple black borders](//static.webplatform.org/3/3c/styling2.gif)
 
 *Figure 4b: Table with simple black borders applied.*
 
@@ -232,7 +232,7 @@ First, you can simply close the gaps using the `border-spacing` property, like s
 
 This will make the borders touch together instead of sitting apart. This changes the 1px border into a 2px border, as seen in Figure 5:
 
-![Screenshot of cells with the borders adding together](/assets/public/3/33/styling3.gif)
+![Screenshot of cells with the borders adding together](//static.webplatform.org/3/33/styling3.gif)
 
 *Figure 5: Table with border spacing removed, producing a 2px border effect.*
 
@@ -255,7 +255,7 @@ If you want to retain the 1px border effect, you'll need to set the table so tha
 
 This will produce a table with a 1px border, like in Figure 6:
 
-![Screenshot of table with uniform 1px borders and no gaps between cells](/assets/public/5/53/styling4.gif)
+![Screenshot of table with uniform 1px borders and no gaps between cells](//static.webplatform.org/5/53/styling4.gif)
 
 *Figure 6: Table with border-collapse set to collapse, reducing the border to 1px.*
 
@@ -285,7 +285,7 @@ Now that you have borders on the cells, you might like to add some whitespace to
 
 This allows the text to "breathe" a little, as seen in Figure 7:
 
-![Screenshot showing increased padding](/assets/public/5/5e/styling5.gif)
+![Screenshot showing increased padding](//static.webplatform.org/5/5e/styling5.gif)
 
 *Figure 7: Table with padding applied to all cells.*
 
@@ -314,7 +314,7 @@ So far the caption has been left sitting at the top of the table. However, you m
 
 Figure 8 shows the result.
 
-![Screenshot of the caption at the bottom](/assets/public/f/ff/styling6.gif)
+![Screenshot of the caption at the bottom](//static.webplatform.org/f/ff/styling6.gif)
 
 *Figure 8: Table with caption moved to the bottom of the table.*
 
@@ -339,7 +339,7 @@ Note that the concept of different elements sitting on top of one another on the
 
 Imagine you set the table to have a red background and cells to have a white background. Separated cells will show the red, but the cells stay white, as demonstrated by Figure 9:
 
-![Screenshot of red background showing through](/assets/public/a/ae/styling7.gif)
+![Screenshot of red background showing through](//static.webplatform.org/a/ae/styling7.gif)
 
 *Figure 9: Table demonstrating the red table element background showing between the white backgrounds of the cell elements.*
 
@@ -361,13 +361,13 @@ Note that the background colour is set to black, which will fill up the space at
 
 These styles produce a table which would look like Figure 10 in most browsers:
 
-![Screenshot showing gradient background](/assets/public/b/be/styling8.gif)
+![Screenshot showing gradient background](//static.webplatform.org/b/be/styling8.gif)
 
 *Figure 10: Table demonstrating a gradient background image showing through between the cells.*
 
 By default IE won't show as much of the background, since it doesn't support `border-spacing`. However you will still get the same general effect, as indicated by Figure 11.
 
-![Screenshot showing smaller gaps in IE](/assets/public/4/46/styling9.gif)
+![Screenshot showing smaller gaps in IE](//static.webplatform.org/4/46/styling9.gif)
 
 *Figure 11: The smaller border-spacing gap rendered by IE.*
 
@@ -437,7 +437,7 @@ Most designs use relatively simple combinations of backgrounds. Let's give the t
 
 This looks like Figure 12:
 
-![Screenshot of table with black and grey backgrounds added](/assets/public/5/5b/stylingA.gif)
+![Screenshot of table with black and grey backgrounds added](//static.webplatform.org/5/5b/stylingA.gif)
 
 *Figure 12: Table with reversed white-on-black caption and light grey background applied to the table heading cells.*
 
@@ -449,7 +449,7 @@ In this section I will look at some common design archetypes you will see again 
 
 A common design request for tables is to create rows with alternating colours. These are commonly referred to as "zebra striping". Although there is [some conjecture as to whether zebra striping actually helps the reader](http://www.alistapart.com/articles/zebrastripingdoesithelp), they are a popular style. Figure 13 shows an example:
 
-![Screenshot of table with alternating row backgrounds](/assets/public/e/e5/stylingB.gif)
+![Screenshot of table with alternating row backgrounds](//static.webplatform.org/e/e5/stylingB.gif)
 
 *Figure 13: A table with "zebra stripes", alternate rows set to white or light grey.*
 
@@ -482,7 +482,7 @@ There are two other options:
 
 Some designs will respond well to less structured, more open-looking grids. A simple variation is to remove the vertical borders and leave out the background fill on the caption, as seen in Figure 14:
 
-![Screenshot of opened grid design](/assets/public/6/6b/stylingC.gif)
+![Screenshot of opened grid design](//static.webplatform.org/6/6b/stylingC.gif)
 
 *Figure 14: A table with lighter grey borders only on the outer edge and bottom of each cell.*
 
@@ -513,7 +513,7 @@ The CSS for this effect is:
 
 You can take this a step further and remove all of the borders, except a top and bottom border to give some definition to the table body — see Figure 15:
 
-![Screenshot of a table with borders at the top and bottom of the table body](/assets/public/3/3f/stylingD.gif)
+![Screenshot of a table with borders at the top and bottom of the table body](//static.webplatform.org/3/3f/stylingD.gif)
 
 *Figure 15: A table with borders applied only to the top and bottom of the table body.*
 
@@ -566,7 +566,7 @@ The CSS for this effect is:
 
 Sometimes you will want to remove the outer border, but keep the inner grid of borders, like in Figure 16:
 
-![Screenshot of table with inner grid design](/assets/public/2/2c/stylingE.gif)
+![Screenshot of table with inner grid design](//static.webplatform.org/2/2c/stylingE.gif)
 
 *Figure 16: A table with an inner grid design.*
 
@@ -654,7 +654,7 @@ In this last section we'll cover two really common bugs, so you're prepared for 
 
 When you set your table to `border-collapse: collapse;` you will find that Firefox and Safari will incorrectly display the width of table features. For example, if you set a 1px border on the table, cells and caption, Firefox will render the caption 1px too narrow on the left, as seen in Figure 17:
 
-![Screenshot of a 1px shortfall](/assets/public/5/5e/1px-capt.gif)
+![Screenshot of a 1px shortfall](//static.webplatform.org/5/5e/1px-capt.gif)
 
 *Figure 17: The `border-collapse` bug affects Firefox and Safari.*
 

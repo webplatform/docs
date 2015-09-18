@@ -25,11 +25,11 @@ Adjust the brightness of an element's color, for use by the filter property. A v
     filter: brightness(40%);
     filter: brightness(0.4); /* same */
 
-  ![f17-boatonlake2.jpg](/assets/thumb/1/15/f17-boatonlake2.jpg/300px-f17-boatonlake2.jpg)![f18-boatonlake2bright.jpg](/assets/thumb/6/67/f18-boatonlake2bright.jpg/300px-f18-boatonlake2bright.jpg)
+  ![f17-boatonlake2.jpg](//static.webplatform.org/thumb/1/15/f17-boatonlake2.jpg/300px-f17-boatonlake2.jpg)![f18-boatonlake2bright.jpg](//static.webplatform.org/thumb/6/67/f18-boatonlake2bright.jpg/300px-f18-boatonlake2bright.jpg)
 
 ## Examples
 
-The following example shows the difference between two images, where one has a brightness of 50%: ![filter brightness.png](/assets/thumb/c/c9/filter_brightness.png/400px-filter_brightness.png)
+The following example shows the difference between two images, where one has a brightness of 50%: ![filter brightness.png](//static.webplatform.org/thumb/c/c9/filter_brightness.png/400px-filter_brightness.png)
 
 ``` html
 <!DOCTYPE html>

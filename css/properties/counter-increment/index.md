@@ -3,8 +3,8 @@ title: 'counter-increment'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5841845'
-  - 'http://gist.github.com/5841870'
+  - 'http://code.webplatform.org/gist/5841845'
+  - 'http://code.webplatform.org/gist/5841870'
 compatibility:
   feature: counter-increment
   topic: css
@@ -92,7 +92,7 @@ h2:before {
 }
 ```
 
-[View live example](http://gist.github.com/5841845)
+[View live example](http://code.webplatform.org/gist/5841845)
 
 This example shows how to specify an integer in the **counter-increment** property and allow the CSS to increment the counter by values besides 1.
 
@@ -114,7 +114,7 @@ h1:after {
 }
 ```
 
-[View live example](http://gist.github.com/5841870)
+[View live example](http://code.webplatform.org/gist/5841870)
 
 ## Usage
 

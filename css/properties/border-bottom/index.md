@@ -1,8 +1,8 @@
 ---
 title: 'border-bottom'
 code_samples:
-  0: 'http://gist.github.com/5539585'
-  2: 'http://gist.github.com/5704867'
+  0: 'http://code.webplatform.org/gist/5539585'
+  2: 'http://code.webplatform.org/gist/5704867'
 compatibility:
   feature: border-bottom
   topic: css
@@ -121,7 +121,7 @@ p {
 }
 ```
 
-[View live example](http://gist.github.com/5539585)
+[View live example](http://code.webplatform.org/gist/5539585)
 
 A simple example showing multiple `<div>`s, identical in style except that they have different `border-bottom` properties applied to them.
 
@@ -133,7 +133,7 @@ A simple example showing multiple `<div>`s, identical in style except that they 
 <div class="five"><p>Five</p></div>
 ```
 
-[View live example](http://gist.github.com/5539585)
+[View live example](http://code.webplatform.org/gist/5539585)
 
 An example showing the use of border-bottom property with the hover effect...It gives a beautiful result
 
@@ -166,7 +166,7 @@ a:active{text-decoration:none;color:green;}
 a:visited{text-decoration:none;color:green;}
 ```
 
-[View live example](http://gist.github.com/5704867)
+[View live example](http://code.webplatform.org/gist/5704867)
 
 ## Usage
 

@@ -3,8 +3,8 @@ title: 'padding-right'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
 code_samples:
-  - 'http://gist.github.com/6948655'
-  - 'http://gist.github.com/6948661'
+  - 'http://code.webplatform.org/gist/6948655'
+  - 'http://code.webplatform.org/gist/6948661'
 compatibility:
   feature: padding-right
   topic: css
@@ -77,13 +77,13 @@ The following examples use the `padding-right` property to change the [padding](
 td { padding-right: 20%; }
 ```
 
-[View live example](http://gist.github.com/6948655)
+[View live example](http://code.webplatform.org/gist/6948655)
 
 ``` css
 td { padding-right: 30px; }
 ```
 
-[View live example](http://gist.github.com/6948661)
+[View live example](http://code.webplatform.org/gist/6948661)
 
 ## Related specifications
 

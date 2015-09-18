@@ -45,7 +45,7 @@ Regardless of how many nodes exist and how they are connected, the signal always
 
 The simplest connection case, then, consists of a web app with a context that contains one source node (a previously-loaded sound in this case) whose output is connected directly to the input of one destination node (the speakers), as shown below. That's the case we're going to cover in this tutorial.
 
-*A context with one source and one destination* ![wap1b-basic-trans.gif](/assets/public/6/6e/wap1b-basic-trans.gif)
+*A context with one source and one destination* ![wap1b-basic-trans.gif](//static.webplatform.org/6/6e/wap1b-basic-trans.gif)
 
 ## Producing a sound
 

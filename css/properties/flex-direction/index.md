@@ -1,10 +1,10 @@
 ---
 title: 'flex-direction'
 code_samples:
-  - 'http://gist.github.com/4740224'
-  - 'http://gist.github.com/4740260'
-  - 'http://gist.github.com/4740271'
-  - 'http://gist.github.com/4740277'
+  - 'http://code.webplatform.org/gist/4740224'
+  - 'http://code.webplatform.org/gist/4740260'
+  - 'http://code.webplatform.org/gist/4740271'
+  - 'http://code.webplatform.org/gist/4740277'
 compatibility:
   feature: flex-direction
   topic: css
@@ -89,7 +89,7 @@ Displaying children in a row
 }
 ```
 
-[View live example](http://gist.github.com/4740224)
+[View live example](http://code.webplatform.org/gist/4740224)
 
 Displaying children in a row in reversed order
 
@@ -104,7 +104,7 @@ Displaying children in a row in reversed order
 }
 ```
 
-[View live example](http://gist.github.com/4740260)
+[View live example](http://code.webplatform.org/gist/4740260)
 
 Displaying children in a column
 
@@ -119,7 +119,7 @@ Displaying children in a column
 }
 ```
 
-[View live example](http://gist.github.com/4740271)
+[View live example](http://code.webplatform.org/gist/4740271)
 
 Displaying children in a column in reversed order
 
@@ -134,7 +134,7 @@ Displaying children in a column in reversed order
 }
 ```
 
-[View live example](http://gist.github.com/4740277)
+[View live example](http://code.webplatform.org/gist/4740277)
 
 ## Notes
 

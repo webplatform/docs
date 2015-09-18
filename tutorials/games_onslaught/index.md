@@ -31,7 +31,7 @@ In June of 2010, it came to our attention that local publishing "zine" [Boing Bo
 
 It was important that our game look and feel like a retro *Nintendo Entertainment System* game, given the [contest premise](http://www.boingboing.net/2010/06/14/games-inspired-by-mu.html) to develop a game based on a [chiptune](http://en.wikipedia.org/wiki/Chiptune). Most games don't have this requirement, but it's still a common artistic style (especially among indie developers) due to its ease of asset creation and natural appeal to nostalgic gamers.
 
-![Increasing pixel size can decrease graphic design work.](/assets/public/f/ff/pixels.png)
+![Increasing pixel size can decrease graphic design work.](//static.webplatform.org/f/ff/pixels.png)
 
 Given how small these sprites are we decided to double-up our pixels, meaning that a 16x16 sprite would now be 32x32 pixels and so forth. From the beginning we had been doubling-up on the asset creation side of things instead of making the browser do the heavy lifting. This was simply easier to implement but also had some definite appearance advantages.
 

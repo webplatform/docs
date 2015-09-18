@@ -3,7 +3,7 @@ title: 'transform-style'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
 code_samples:
-  - 'http://gist.github.com/6995453'
+  - 'http://code.webplatform.org/gist/6995453'
 compatibility:
   feature: transform-style
   topic: css
@@ -91,7 +91,7 @@ transform: rotateY(60deg);
 }
 ```
 
-[View live example](http://gist.github.com/6995453)
+[View live example](http://code.webplatform.org/gist/6995453)
 
 ## Notes
 

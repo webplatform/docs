@@ -42,7 +42,7 @@ An HTML document is essentially divided into two parts: the `head` and the `body
 
 ### An Example Document in a Web Browser
 
-![A web browser window with Hello world in red](/assets/public/d/d0/Beginners_example_html_file.png)
+![A web browser window with Hello world in red](//static.webplatform.org/d/d0/Beginners_example_html_file.png)
 
 ## The Code
 

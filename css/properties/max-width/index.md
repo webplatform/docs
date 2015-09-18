@@ -3,7 +3,7 @@ title: 'max-width'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5842171'
+  - 'http://code.webplatform.org/gist/5842171'
 compatibility:
   feature: max-width
   topic: css
@@ -149,7 +149,7 @@ Constrain the width of a **div** element using [**min-width**](/css/properties/m
 </div>
 ```
 
-[View live example](http://gist.github.com/5842171)
+[View live example](http://code.webplatform.org/gist/5842171)
 
 ## Usage
 

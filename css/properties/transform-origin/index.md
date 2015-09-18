@@ -3,9 +3,9 @@ title: 'transform-origin'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
 code_samples:
-  - 'http://gist.github.com/6983020'
-  - 'http://gist.github.com/6983052'
-  - 'http://gist.github.com/6983069'
+  - 'http://code.webplatform.org/gist/6983020'
+  - 'http://code.webplatform.org/gist/6983052'
+  - 'http://code.webplatform.org/gist/6983069'
 compatibility:
   feature: transform-origin
   topic: css
@@ -89,7 +89,7 @@ The values `left`, `center`, and `right` are valid for the X axis and are equiva
 }
 ```
 
-[View live example](http://gist.github.com/6983020)
+[View live example](http://code.webplatform.org/gist/6983020)
 
 ``` css
 /* 20px Y offset, 25px X offset, 30px Z offset */
@@ -98,7 +98,7 @@ The values `left`, `center`, and `right` are valid for the X axis and are equiva
 }
 ```
 
-[View live example](http://gist.github.com/6983052)
+[View live example](http://code.webplatform.org/gist/6983052)
 
 ``` css
 /* right X offset, center Y offset, 0 Z offset */
@@ -107,7 +107,7 @@ The values `left`, `center`, and `right` are valid for the X axis and are equiva
 }
 ```
 
-[View live example](http://gist.github.com/6983069)
+[View live example](http://code.webplatform.org/gist/6983069)
 
 ## Notes
 

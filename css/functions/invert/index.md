@@ -25,13 +25,13 @@ Flips an element's colors, for use by the filter property. A decimal value betwe
     filter: invert(100%);
     filter: invert(1); /* same */
 
-  ![f13-peppers.jpg](/assets/thumb/1/11/f13-peppers.jpg/300px-f13-peppers.jpg)![f14-peppersinvert.jpg](/assets/thumb/1/19/f14-peppersinvert.jpg/300px-f14-peppersinvert.jpg)
+  ![f13-peppers.jpg](//static.webplatform.org/thumb/1/11/f13-peppers.jpg/300px-f13-peppers.jpg)![f14-peppersinvert.jpg](//static.webplatform.org/thumb/1/19/f14-peppersinvert.jpg/300px-f14-peppersinvert.jpg)
 
 ## Examples
 
 The following example shows the difference between two images, where one has a been inverted for 75%:
 
-![filter invert.png](/assets/thumb/d/d0/filter_invert.png/400px-filter_invert.png)
+![filter invert.png](//static.webplatform.org/thumb/d/d0/filter_invert.png/400px-filter_invert.png)
 
 ``` html
 <!DOCTYPE html>

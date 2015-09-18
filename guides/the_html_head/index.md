@@ -140,7 +140,7 @@ One of the most important elements in the `head` is the `title`. The text contai
 
  You'll see that the text in the `title` is displayed in the bar above the browser navigation, as shown in Figure 1.
 
-![The title is displayed in the title bar of the web browser](/assets/public/4/4d/Head-fig.gif)
+![The title is displayed in the title bar of the web browser](//static.webplatform.org/4/4d/Head-fig.gif)
 
 *Figure 1: Displaying a title in a browser.*
 
@@ -166,13 +166,13 @@ The next thing you should do might seem superfluous at first, as it is not direc
 
  If you open this document in a browser you'll not see anything in the `body` of the document; however, if you put the document online and search engines index it, the description will be displayed as the text below the link in search engine results, as shown in Figure 2.
 
-![descriptions showing in a search engine results page](/assets/public/d/d5/head-fih.gif)
+![descriptions showing in a search engine results page](//static.webplatform.org/d/d5/head-fih.gif)
 
 *Figure 2: Descriptions show up in search engine result pages.*
 
 This could be the crucial bit of information a potential visitor of your site is looking for and a good reason for him or her to click the link. Descriptions have another use too — some browsers show the description as extra information when you add the document to your favourites, as shown in Figure 3:
 
-![Some browsers use the description as a bookmark description](/assets/public/6/60/head-fii.gif)
+![Some browsers use the description as a bookmark description](//static.webplatform.org/6/60/head-fii.gif)
 
 *Figure 3: Descriptions show up in some browsers when you add the document as a favourite.*
 
@@ -228,7 +228,7 @@ For example, if you want to override the colours used on the screen and use a la
 
  Now when you print this web page, the browser knows to use the print stylesheet for printing the document, and not the screen stylesheet. You might verify this by displaying the code in a browser and selecting print preview, as shown in Figure 4.
 
-![The same page with print and screen style sheets applied](/assets/public/2/20/head-fij.gif)
+![The same page with print and screen style sheets applied](//static.webplatform.org/2/20/head-fij.gif)
 
 *Figure 4: A print style sheet preview.*
 

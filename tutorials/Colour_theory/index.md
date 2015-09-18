@@ -27,7 +27,7 @@ Colours, or hues, have historically been divided into primary, secondary, and te
 
 1.  0033cc as shown in Figure 1:
 
-![Primary Colours](/assets/public/d/d2/10000000.jpg)
+![Primary Colours](//static.webplatform.org/d/d2/10000000.jpg)
 
 Figure 1: the primary and secondary colours, and their hex equivalents
 
@@ -43,7 +43,7 @@ Tertiary colours are mixed from the secondary colours, and they lie between the 
 -   Tone – The resulting colour when gray is added
 -   Shade – The resulting colour when black is added
 
-![Tints, tones and shades](/assets/public/8/8a/20000000.jpg)
+![Tints, tones and shades](//static.webplatform.org/8/8a/20000000.jpg)
 
 Figure 2: A real colour wheel
 
@@ -60,7 +60,7 @@ As you can see from the colour wheel shown above, the amount of white, gray and 
 
 Colour schemes have been around for centuries, so there’s no need to reinvent the colour wheel. Although web colour differs from print colour, the concepts are the same. You just exchange hex numbers for colour names, and match then as closely as possible. One online tool I suggest using to help out with this is the [Color Scheme Designer](http://colorschemedesigner.com/), as seen in Figure 3, which allows you to determine colour schemes quickly and easily, and even determine whether the colours you’ve chosen provide enough contrast for low-vision or colour-blind users.
 
-![Color Scheme Generator](/assets/public/d/d0/30000000.jpg)
+![Color Scheme Generator](//static.webplatform.org/d/d0/30000000.jpg)
 
 Figure 3: Color Scheme Generator II.
 
@@ -72,7 +72,7 @@ To achieve the tint, tone and shade for the yellow-orange colour at the online c
 
 Back to the monochromatic colour scheme. The results you should receive by following the steps described above are: yellow-orange (\#FFCC00), tint (\#FFF2BF), tone (\#FFE680), and shade (\#B38F00). These hex numbers are much more reliable than any guesses you will make by trying to match a tangible colour wheel to the backlit screen of a Web browser. And, as the "Mono" suggests, this scheme translates to a monochromatic colour scheme, as seen in Figure 4.
 
-![Monochromatic colour scheme](/assets/public/8/8c/40000000.jpg)
+![Monochromatic colour scheme](//static.webplatform.org/8/8c/40000000.jpg)
 
 Figure 4: A monochromatic colour scheme.
 
@@ -82,13 +82,13 @@ Figure 4: A monochromatic colour scheme.
 
 The next colour scheme family to explore is the complementary scheme, where you match up colours that lie directly opposite each other on the colour wheel, as seen in Figure 5.
 
-![Complementary colour schemes](/assets/public/4/49/50000000.jpg)
+![Complementary colour schemes](//static.webplatform.org/4/49/50000000.jpg)
 
 Figure 5: Examples of complementary colour schemes.
 
 When you choose one colour and its opposite colour, you also include all the tints, tones and shades of both colours. This provides a wider range of choices, and it translates well with the online colour tool—see Figure 6.
 
-![Online complementary colour scheme](/assets/public/a/af/60000000.jpg)
+![Online complementary colour scheme](//static.webplatform.org/a/af/60000000.jpg)
 
 Figure 6: A complementary colour scheme inside the online colour tool.
 
@@ -106,7 +106,7 @@ Figure 7: The Greenpeace site—a good example of a complementary colour scheme.
 
 Complementary colour schemes are great to use in web sites, as they also contain both warm and cool colours. The use of these colours provides contrast, and it’s easy to remember which colours are "warm" and which colours are "cool" as you can see in Figure 8 (and on the colour generator site):
 
-![Warm and cool colours](/assets/public/d/d6/70000000.jpg)
+![Warm and cool colours](//static.webplatform.org/d/d6/70000000.jpg)
 
 Figure 8: Warm and cool colours.
 
@@ -114,7 +114,7 @@ Warm colours are those colours that would remind you of the summer, sun or fire.
 
 One example of a site that consistently uses a warm/cool colour combination is [Ecolution](http://www.ecolution.com/), as seen in Figure 9.
 
-![Ecolution](/assets/public/0/00/80000000.jpg)
+![Ecolution](//static.webplatform.org/0/00/80000000.jpg)
 
 Figure 9: Ecolution—a good example of warm/cool colours.
 
@@ -126,13 +126,13 @@ You never realized that colour theory was so easy, did you? Well, then…let’s
 
 A triadic colour scheme (see Figure 10) is created when you pick one colour and then pick two other colours that lie equidistant from each other around the circle, like so:
 
-![Triadic colour scheme](/assets/public/e/e5/80000001.jpg)
+![Triadic colour scheme](//static.webplatform.org/e/e5/80000001.jpg)
 
 Figure 10: A triadic colour scheme.
 
 I chose the primary colours for this scheme as I wanted to show how the colour schemes seem to contain a method to the madness. It’s no accident that the primary colours lie where they do on the colour wheel, as each colour contains an equal amount of secondary and tertiary colours between each primary. But, a primary colour triadic scheme can seem old-hat as it has been overused. Instead, you might try some other colour choices at the online colour generator, something like Figure 11:
 
-![Online triadic colour scheme](/assets/public/9/93/90000000.jpg)
+![Online triadic colour scheme](//static.webplatform.org/9/93/90000000.jpg)
 
 Figure 11: An alternative triadic colour scheme.
 
@@ -142,7 +142,7 @@ Now, this is where a real colour wheel might come in handy, as the online result
 
 The triadic colour scheme also contains warm and cool colours, but one temperature will predominate. Usually, the temperature that will overshadow the other is the one that you chose on the front end. In this case, I initially chose the orange-yellow, which is a warm colour. The warm colours shown above will predominate as a result, with one of the other two colours lending the cool contrast.
 
-![Puzzle Pirates](/assets/public/5/50/10000001.jpg)
+![Puzzle Pirates](//static.webplatform.org/5/50/10000001.jpg)
 
 Figure 12: Puzzle Pirates—A good triadic colour scheme.
 
@@ -152,13 +152,13 @@ Figure 12: Puzzle Pirates—A good triadic colour scheme.
 
 The more colours you choose, the more complicated the colour scheme. However, one trick is to find a tint, tone or shade and stick to those regions across the board rather than mix pure colours and their tints, tones and shades. This method works well with a colour scheme such as the four-colour tetradic scheme. This scheme (see Figure 13) is just like the complementary scheme, only you use two complementaries that are equidistant.
 
-![Tetradic colour scheme](/assets/public/3/35/11000000.jpg)
+![Tetradic colour scheme](//static.webplatform.org/3/35/11000000.jpg)
 
 Figure 13: Tetradic colour schemes.
 
 Figure 14 shows how a tetrad scheme works out online:
 
-![Online tetrad example](/assets/public/9/9f/12000000.jpg)
+![Online tetrad example](//static.webplatform.org/9/9f/12000000.jpg)
 
 Figure 14: A tetradic colour scheme inside the online generator.
 
@@ -166,13 +166,13 @@ Note the black dot under the red in the colour wheel to the left. This was the f
 
 This colour scheme can become quite complicated, so what you might want to do at this point is to pick all four tints or tones or shades from the colours in the right column. You can make your choices by clicking the arrows at the far right. For instance, Figure 15 shows an example of a block filled with the tints of this colour scheme:
 
-![Tetradic tints](/assets/public/5/52/13000000.jpg)
+![Tetradic tints](//static.webplatform.org/5/52/13000000.jpg)
 
 Figure 15: Tetradic tints.
 
 And Figure 16 shows an example of the mid-range tones:
 
-![Triadic midrange](/assets/public/f/fe/14000000.jpg)
+![Triadic midrange](//static.webplatform.org/f/fe/14000000.jpg)
 
 Figure 16: Tetradic mid-range tones.
 

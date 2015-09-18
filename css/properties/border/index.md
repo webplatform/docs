@@ -3,7 +3,7 @@ title: 'border'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
 code_samples:
-  - 'http://gist.github.com/5534182'
+  - 'http://code.webplatform.org/gist/5534182'
 compatibility:
   feature: border
   topic: css
@@ -86,7 +86,7 @@ A simple example showing multiple `<div>`s, identical in style except that they 
 <div class="five"><p>Five</p></div>
 ```
 
-[View live example](http://gist.github.com/5534182)
+[View live example](http://code.webplatform.org/gist/5534182)
 
 ``` css
 /**
@@ -133,7 +133,7 @@ p {
 }
 ```
 
-[View live example](http://gist.github.com/5534182)
+[View live example](http://code.webplatform.org/gist/5534182)
 
 ## Usage
 

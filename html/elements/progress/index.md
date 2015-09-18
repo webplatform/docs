@@ -3,10 +3,10 @@ title: 'progress'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/6365491'
-  - 'http://gist.github.com/6365520'
-  - 'http://gist.github.com/6365564'
-  - 'http://gist.github.com/6365909'
+  - 'http://code.webplatform.org/gist/6365491'
+  - 'http://code.webplatform.org/gist/6365520'
+  - 'http://code.webplatform.org/gist/6365564'
+  - 'http://code.webplatform.org/gist/6365909'
 compatibility:
   feature: progress
   topic: html
@@ -87,7 +87,7 @@ Example of a basic progress element
 <progress value="165" max="200">165 of 200 finished</progress>
 ```
 
-[View live example](http://gist.github.com/6365491)
+[View live example](http://code.webplatform.org/gist/6365491)
 
 Example of progress without a maximum
 
@@ -95,7 +95,7 @@ Example of progress without a maximum
 <progress value="0.72">72% done</progress>
 ```
 
-[View live example](http://gist.github.com/6365520)
+[View live example](http://code.webplatform.org/gist/6365520)
 
 Styling options for the progress bar (vendor-specific)
 
@@ -113,7 +113,7 @@ progress::-webkit-progress-value {
 }
 ```
 
-[View live example](http://gist.github.com/6365564)
+[View live example](http://code.webplatform.org/gist/6365564)
 
 Progress element without value
 
@@ -121,7 +121,7 @@ Progress element without value
 <progress></progress>
 ```
 
-[View live example](http://gist.github.com/6365909)
+[View live example](http://code.webplatform.org/gist/6365909)
 
 ## Usage
 

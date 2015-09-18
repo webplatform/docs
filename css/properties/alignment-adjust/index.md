@@ -1,7 +1,7 @@
 ---
 title: 'alignment-adjust'
 code_samples:
-  - 'http://gist.github.com/6363838'
+  - 'http://code.webplatform.org/gist/6363838'
 compatibility:
   feature: alignment-adjust
   topic: css
@@ -136,7 +136,7 @@ mathematical
 </p>
 ```
 
-[View live example](http://gist.github.com/6363838)
+[View live example](http://code.webplatform.org/gist/6363838)
 
 ``` css
 /**

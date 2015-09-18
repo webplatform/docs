@@ -43,9 +43,9 @@ The holy grail, of course, is a display in which pixels are completely invisible
 
 In practice, low density images should look the same on new screens as they did on old ones, but compared to the crisp imagery high density users are used to seeing, the low density images look jarring and pixelated. The following is a rough simulation of how a 1x image will look on a 2x display. In contrast, the 2x image looks quite good.
 
-![Baboon at 1x](/assets/public/a/ab/baboon1x.jpg)
+![Baboon at 1x](//static.webplatform.org/a/ab/baboon1x.jpg)
 
-![Baboon at 2x](/assets/thumb/7/77/baboon2x.jpg/200px-baboon2x.jpg)
+![Baboon at 2x](//static.webplatform.org/thumb/7/77/baboon2x.jpg/200px-baboon2x.jpg)
 
 ### Pixels on the web
 
@@ -65,7 +65,7 @@ Suppose a smart phone has a screen with a physical pixel size of 180 pixels per 
 2.  Multiply the distance ratio against the standard density (96ppi) to get the ideal pixel density for the given distance.idealPixelDensity = (28/18) \* 96 = 150 pixels per inch (approximately)
 3.  Take the ratio of the physical pixel density to the ideal pixel density to get the device pixel ratio.`devicePixelRatio` = 180/150 = 1.2
 
-![A diagram showing one reference angular pixel, to help illustrate how devicePixelRatio is calculated.](/assets/public/c/ce/wcalculate-dpr.png)
+![A diagram showing one reference angular pixel, to help illustrate how devicePixelRatio is calculated.](//static.webplatform.org/c/ce/wcalculate-dpr.png)
 
 A diagram showing one reference angular pixel, to help illustrate how devicePixelRatio is calculated.
 
@@ -107,11 +107,11 @@ Images already [comprise a whopping 60% of bandwidth](http://httparchive.org/int
 
 I ran some tests which generated 1x and 2x image fragments with JPEG quality at 90, 50 and 20. Here is [shell script](http://www.html5rocks.com/static/demos/high-dpi/process_images.sh) I used (employing [ImageMagick](http://www.imagemagick.org/script/index.php)) to generate them:
 
-![Samples of images at different compressions and pixel densities.](/assets/thumb/e/ed/highdpi-tile1.jpg/795px-highdpi-tile1.jpg)
+![Samples of images at different compressions and pixel densities.](//static.webplatform.org/thumb/e/ed/highdpi-tile1.jpg/795px-highdpi-tile1.jpg)
 
-![Samples of images at different compressions and pixel densities.](/assets/thumb/a/a4/highdpi-tile2.jpg/795px-highdpi-tile2.jpg)
+![Samples of images at different compressions and pixel densities.](//static.webplatform.org/thumb/a/a4/highdpi-tile2.jpg/795px-highdpi-tile2.jpg)
 
-![Samples of images at different compressions and pixel densities.](/assets/thumb/2/29/highdpi-tile3.jpg/795px-highdpi-tile3.jpg)
+![Samples of images at different compressions and pixel densities.](//static.webplatform.org/thumb/2/29/highdpi-tile3.jpg/795px-highdpi-tile3.jpg)
 
 Samples of images at different compressions and pixel densities.
 

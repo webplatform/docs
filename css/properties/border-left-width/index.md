@@ -3,7 +3,7 @@ title: 'border-left-width'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5550492'
+  - 'http://code.webplatform.org/gist/5550492'
 compatibility:
   feature: border-left-width
   topic: css
@@ -99,7 +99,7 @@ Sets the width of an element's left border. To set all four borders, use the bor
 }
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://gist.github.com/5550492">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/5550492">View live example</a>
 </p>
 </div>
 <p><br/></p><p><br/></p>

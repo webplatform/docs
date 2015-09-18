@@ -80,7 +80,7 @@ A typical example HTML document looks like so:
 
  This looks like so when rendered in a web browser:
 
-![HTMLrender.png](/assets/public/a/ab/HTMLrender.png)
+![HTMLrender.png](//static.webplatform.org/a/ab/HTMLrender.png)
 
 The document first starts with a document type element, or doctype. This mainly serves to get the browser to render the HTML in what is called "standards mode", so it will work correctly. It also lets validation software know what version of HTML to validate your code against. Don't worry too much about what this all means for now. We will come back to this later. What you can see here is the HTML5 doctype.
 
@@ -108,7 +108,7 @@ Elements can also have attributes, which can modify the behaviour of the element
 
 This looks like so when rendered:
 
-![htmlrender2.png](/assets/public/7/71/htmlrender2.png)
+![htmlrender2.png](//static.webplatform.org/7/71/htmlrender2.png)
 
 In this example a `header` element (used to mark up header sections of documents) contains an `h1` element (first, or most important level header), which in turn contains some text. Part of that text is wrapped in an `abbr` element (used to specify the expansion of abbreviations), which has a `title` attribute, the value of which is set to `Hypertext Markup Language`.
 

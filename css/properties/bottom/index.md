@@ -3,7 +3,7 @@ title: 'bottom'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/6181867'
+  - 'http://code.webplatform.org/gist/6181867'
 compatibility:
   feature: bottom
   topic: css
@@ -128,7 +128,7 @@ We demonstrate the \`bottom\` property by positioning these elements.
 }
 ```
 
-[View live example](http://gist.github.com/6181867)
+[View live example](http://code.webplatform.org/gist/6181867)
 
 The HTML for the above example.
 

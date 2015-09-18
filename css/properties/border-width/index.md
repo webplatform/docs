@@ -3,7 +3,7 @@ title: 'border-width'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/733bf352438f33914fc0'
+  - 'http://code.webplatform.org/gist/733bf352438f33914fc0'
 compatibility:
   feature: border-width
   topic: css
@@ -109,7 +109,7 @@ Sets the width of an element's four borders. This property can have from one to 
 }
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://gist.github.com/733bf352438f33914fc0">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/733bf352438f33914fc0">View live example</a>
 </p>
 </div>
 <h2>Usage</h2>

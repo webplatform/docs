@@ -22,7 +22,7 @@ Let's face it, HTML forms have always been a pain. They are not much fun to mark
 
 Back when HTML 4.01 became a stable recommendation, the web was a mostly static place. Yes, there was the odd comment form or guest book script, but generally web sites were just there for visitors to read. Since then, the web has evolved. For many people, the browser has already become a window into a world of complex, web-based applications that bring them an almost desktop-like experience.
 
-![Some complicated non-native form controls, faked with JavaScript](/assets/public/e/e1/html5formfig1.png)
+![Some complicated non-native form controls, faked with JavaScript](//static.webplatform.org/e/e1/html5formfig1.png)
 
 *Figure 1: Some complicated non-native form controls, faked with JavaScript.*
 
@@ -50,7 +50,7 @@ The first new input type we'll discuss is `type="number"`:
 
  This input type creates a special kind of input field for number entry — in most supporting browsers this appears as a text entry field with a "spinner" control, which allows you to increment and decrement its value.
 
-![A number input type](/assets/public/a/ac/html5formfig2.png)
+![A number input type](//static.webplatform.org/a/ac/html5formfig2.png)
 
 *Figure 2: A `number` input type.*
 
@@ -62,7 +62,7 @@ Creating a slider control to allow you to choose among a range of values used to
 <input type="range"/>
 ```
 
- ![A range input type](/assets/public/e/e2/html5formfig3.png)
+ ![A range input type](//static.webplatform.org/e/e2/html5formfig3.png)
 
 *Figure 3: A `range` input type.*
 
@@ -86,7 +86,7 @@ HTML5 has a number of different input types for creating complicated date/time p
 
  Respectively, these create a fully functioning date picker, and a text input containing a separator for hours, minutes, and seconds (depending on the `step` attribute specified) that only allows you to input a time value.
 
-![date and time input types](/assets/public/8/86/html5formfig4.png)
+![date and time input types](//static.webplatform.org/8/86/html5formfig4.png)
 
 *Figure 4: `date` and `time` input types.*
 
@@ -100,7 +100,7 @@ But it doesn't end here — there are a number of other related input types avai
 
 This input type brings up a color picker. Opera's implementation allows the user to pick from a selection of colors, enter hexadecimal values directly in a text field, or invoke the operating system's native color picker.
 
-![a color input, and the native color pickers on Windows and OS X](/assets/public/0/00/html5formfig5.png)
+![a color input, and the native color pickers on Windows and OS X](//static.webplatform.org/0/00/html5formfig5.png)
 
 *Figure 5: a `color` input, and the native color pickers on Windows and OS X.*
 
@@ -108,7 +108,7 @@ This input type brings up a color picker. Opera's implementation allows the user
 
 This input type is arguably nothing more than a differently-styled text input. Browsers are meant to style these inputs the same way as any OS-specific search functionality. Beyond this purely aesthetic consideration, though, it's still important to note that marking up search fields explicitly opens up the possibility for browsers, assistive technologies, or automated crawlers to do something clever with these inputs in the future. For instance, a browser could conceivably offer the user a choice to automatically create a custom search for a specific site.
 
-![A search input as it appears in Opera on OS X](/assets/public/b/b3/html5formfig6.png)
+![A search input as it appears in Opera on OS X](//static.webplatform.org/b/b3/html5formfig6.png)
 
 *Figure 6: A `search` input as it appears in Opera on OS X.*
 
@@ -125,7 +125,7 @@ So far we have been used to using `<select>` and `<option>` elements to create d
 </datalist>
 ```
 
- ![Creating an input element with preset options using datalist](/assets/public/3/31/html5formfig7.png)
+ ![Creating an input element with preset options using datalist](//static.webplatform.org/3/31/html5formfig7.png)
 
 *Figure 7: Creating an input element with suggestions using `datalist`.*
 
@@ -145,7 +145,7 @@ A common usability trick in web forms is to have placeholder content in text ent
 <input type="text" placeholder="John Doe"/>
 ```
 
- ![A text input with placeholder text](/assets/public/8/87/html5formfig8.png)
+ ![A text input with placeholder text](//static.webplatform.org/8/87/html5formfig8.png)
 
 *Figure 8: A text input with `placeholder` text.*
 
@@ -192,7 +192,7 @@ We already mentioned the `<output>` element when talking about the `range` input
 
 These two new elements are very similar, both resulting in a gauge/bar being presented to the user. Their distinction is in their intended purpose. As the name suggests, `progress` is meant to represent a progress bar, to indicate the percentage of completion of a particular task, while meter is a more generic indicator of a scalar measurement or fractional value.
 
-![A progress indicator bar](/assets/public/e/e9/html5formfig9.png)
+![A progress indicator bar](//static.webplatform.org/e/e9/html5formfig9.png)
 
 *Figure 9: A progress indicator bar.*
 
@@ -210,7 +210,7 @@ One of the most common aspects of form validation is the enforcement of required
 <input type="text" required=""/>
 ```
 
- ![Opera's client-side validation in action, showing an error for a required field that was left empty](/assets/public/8/88/html5formfig10.png)
+ ![Opera's client-side validation in action, showing an error for a required field that was left empty](//static.webplatform.org/8/88/html5formfig10.png)
 
 *Figure 10: Opera's client-side validation in action, showing an error for a required field that was left empty.*
 
@@ -218,7 +218,7 @@ One of the most common aspects of form validation is the enforcement of required
 
 As we've seen, authors can now specify the kinds of entries they expect from their form fields. Rather than simply defining text inputs, authors can explicitly create inputs for things like numbers, email addresses, and URLs. As part of their client-side validation, browsers can now check that what the user entered in these more specific fields matches the expected structure. In essence, browsers can evaluate the input values against a built-in pattern that defines what valid entries in those types of inputs look like, and can warn a user when their entry doesn't meet the criteria.
 
-![Opera's error message for invalid email addresses in an email input](/assets/public/0/0c/html5formfig11.png)
+![Opera's error message for invalid email addresses in an email input](//static.webplatform.org/0/0c/html5formfig11.png)
 
 *Figure 11: Opera's error message for invalid email addresses in an `email` input.*
 

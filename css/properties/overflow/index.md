@@ -4,9 +4,9 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/6365118'
-  - 'http://gist.github.com/6365403'
-  - 'http://gist.github.com/6366211'
+  - 'http://code.webplatform.org/gist/6365118'
+  - 'http://code.webplatform.org/gist/6365403'
+  - 'http://code.webplatform.org/gist/6366211'
 compatibility:
   feature: overflow
   topic: css
@@ -111,7 +111,7 @@ p {
 }
 ```
 
-[View live example](http://gist.github.com/6365118)
+[View live example](http://code.webplatform.org/gist/6365118)
 
 Clearing floats with overflow
 
@@ -128,7 +128,7 @@ Clearing floats with overflow
 }
 ```
 
-[View live example](http://gist.github.com/6365403)
+[View live example](http://code.webplatform.org/gist/6365403)
 
 Two values for `overflow`.
 
@@ -139,7 +139,7 @@ Two values for `overflow`.
 }
 ```
 
-[View live example](http://gist.github.com/6366211)
+[View live example](http://code.webplatform.org/gist/6366211)
 
 ## Usage
 

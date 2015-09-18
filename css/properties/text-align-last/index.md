@@ -3,7 +3,7 @@ title: 'text-align-last'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5664996'
+  - 'http://code.webplatform.org/gist/5664996'
 compatibility:
   feature: text-align-last
   topic: css
@@ -94,7 +94,7 @@ The following example shows an embedded style rule that justifies all the lines 
 <p class="justified">Simple example with "justify" value of text-align-last property. In this case, the last line is also justified. This paragraph needs to be really long in order to show how to work with text-align-last property.</p>
 ```
 
-[View live example](http://gist.github.com/5664996)
+[View live example](http://code.webplatform.org/gist/5664996)
 
 ``` css
 .normal {

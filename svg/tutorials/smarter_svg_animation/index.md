@@ -89,7 +89,7 @@ Start with a simple SVG element that you'd like to animate:
 
  When you load the SVG, the resulting animation quickly swipes in some text from the right side of the screen:
 
-![svga simpleSwipe.png](/assets/thumb/2/23/svga_simpleSwipe.png/400px-svga_simpleSwipe.png)
+![svga simpleSwipe.png](//static.webplatform.org/thumb/2/23/svga_simpleSwipe.png/400px-svga_simpleSwipe.png)
 
 Each animation element can modify the value of only one attribute at a time, specified by the [**attributeName**](/w/index.php?title=svg/attributes/attributeName&action=edit&redlink=1). The [**from**](/w/index.php?title=svg/attributes/from&action=edit&redlink=1) and [**to**](/w/index.php?title=svg/attributes/to&action=edit&redlink=1) set what the values of that attribute should be at the beginning and end of the animation. Setting the [**begin**](/w/index.php?title=svg/attributes/begin&action=edit&redlink=1) to **0s** makes it execute immediately, and the [**dur**](/w/index.php?title=svg/attributes/dur&action=edit&redlink=1) sets a half-second duration over which the animation executes.
 
@@ -158,7 +158,7 @@ By itself, the [**values**](/w/index.php?title=svg/attributes/values&action=edit
 
 The example above manipulates a simple positioning attribute. Animations become far more interesting when applied to complex filter effects, which are discussed in [SVG Filters](/svg/tutorials/smarter_svg_filters). This variation synchronizes two different animations, swiping horizontally blurred text into view, then removing the blur once it has stopped:
 
-![svga xBlur.png](/assets/thumb/b/b8/svga_xBlur.png/400px-svga_xBlur.png)
+![svga xBlur.png](//static.webplatform.org/thumb/b/b8/svga_xBlur.png/400px-svga_xBlur.png)
 
 It is based on the following filter:
 
@@ -217,13 +217,13 @@ To maintain long chains of animations, you can also use the **prev** shorthand k
 
 The motion animation shown above animates a single value at a time, but the blur animation animates two, a pair of *x*/*y* coordinates. SVG also allows you to animate long series of coordinates that make up [**path**](/svg/elements/path) definitions, which are discussed in [SVG basic shapes and text](/svg/tutorials/smarter_svg_shapes). This results in curved morphing effects:
 
-![svga morph1.png](/assets/thumb/9/9a/svga_morph1.png/200px-svga_morph1.png)
+![svga morph1.png](//static.webplatform.org/thumb/9/9a/svga_morph1.png/200px-svga_morph1.png)
 
-![svga morph2.png](/assets/thumb/b/bd/svga_morph2.png/200px-svga_morph2.png)
+![svga morph2.png](//static.webplatform.org/thumb/b/bd/svga_morph2.png/200px-svga_morph2.png)
 
-![svga morph3.png](/assets/thumb/5/5e/svga_morph3.png/200px-svga_morph3.png)
+![svga morph3.png](//static.webplatform.org/thumb/5/5e/svga_morph3.png/200px-svga_morph3.png)
 
-![svga morph4.png](/assets/thumb/e/ee/svga_morph4.png/200px-svga_morph4.png)
+![svga morph4.png](//static.webplatform.org/thumb/e/ee/svga_morph4.png/200px-svga_morph4.png)
 
 For the animation to work, the [**from**](/w/index.php?title=svg/attributes/from&action=edit&redlink=1) and [**to**](/w/index.php?title=svg/attributes/to&action=edit&redlink=1) values, and any frames specified along the way in [**values**](/w/index.php?title=svg/attributes/values&action=edit&redlink=1), must feature the *exact* same number of path commands, all arranged in the same sequence. Only their numeric values may vary. This example shows a path consisting of one *M* positioning command and four *S* curve commands going through a series of eight frames:
 
@@ -274,27 +274,27 @@ The following examples show how these response curves behave, usually by slowing
     0.42 0 1 1
     ease-in
 
-![transitF easein.png](/assets/thumb/6/64/transitF_easein.png/230px-transitF_easein.png)
+![transitF easein.png](//static.webplatform.org/thumb/6/64/transitF_easein.png/230px-transitF_easein.png)
 
     0 0 0.58 1
     ease-out
 
-![transitF easeout.png](/assets/thumb/0/00/transitF_easeout.png/230px-transitF_easeout.png)
+![transitF easeout.png](//static.webplatform.org/thumb/0/00/transitF_easeout.png/230px-transitF_easeout.png)
 
     0.25 0.1 0.25 1
     ease
 
-![transitF ease.png](/assets/thumb/7/73/transitF_ease.png/230px-transitF_ease.png)
+![transitF ease.png](//static.webplatform.org/thumb/7/73/transitF_ease.png/230px-transitF_ease.png)
 
     0.42 0 0.58 1
     ease-in-out
 
-![transitF easeinout.png](/assets/thumb/6/67/transitF_easeinout.png/230px-transitF_easeinout.png)
+![transitF easeinout.png](//static.webplatform.org/thumb/6/67/transitF_easeinout.png/230px-transitF_easeinout.png)
 
     0 0 1 1
     linear
 
-![transitF linear.png](/assets/thumb/8/8e/transitF_linear.png/230px-transitF_linear.png)
+![transitF linear.png](//static.webplatform.org/thumb/8/8e/transitF_linear.png/230px-transitF_linear.png)
 
 These examples compare common [**transition-timing-function**](/css/properties/transition-timing-function) and [**animation-timing-function**](/css/properties/animation-timing-function) CSS property keywords with their [**cubic-bezier()**](/css/functions/cubic-bezier) CSS function equivalents, which matches SVG's [**keySplines**](/w/index.php?title=svg/attributes/keySplines&action=edit&redlink=1).
 
@@ -321,7 +321,7 @@ The examples above all execute once, but this example uses [**repeatCount**](/w/
 </filter>
 ```
 
- ![svga bevel.png](/assets/public/8/88/svga_bevel.png)
+ ![svga bevel.png](//static.webplatform.org/8/88/svga_bevel.png)
 
 One animation highlights different sides of the element by rotating the light source around it, using its [**azimuth**](/w/index.php?title=svg/attributes/azimuth&action=edit&redlink=1) attribute to modify direction. Its [**repeatCount**](/w/index.php?title=svg/attributes/repeatCount&action=edit&redlink=1) is set to **indefinite**, so after it proceeds from **0** to **360** degrees, it restarts invisibly at **0**:
 
@@ -373,7 +373,7 @@ You can set [**repeatCount**](/w/index.php?title=svg/attributes/repeatCount&acti
     begin = "otherAnim.repeat"
     begin = "otherAnim.repeat(1)"
 
-![scr svg eyes.png](/assets/public/a/a7/scr_svg_eyes.png)
+![scr svg eyes.png](//static.webplatform.org/a/a7/scr_svg_eyes.png)
 
 Each animation defines a potentially expansive length of time, over which you can repeat an animation using a series of [**begin**](/w/index.php?title=svg/attributes/begin&action=edit&redlink=1) values. For example, the eyeballs discussed in the [SVG grand tour](/svg/tutorials/smarter_svg_overview) blink several times in a row, leaving long pauses between each iteration:
 
@@ -392,9 +392,9 @@ In all of these examples, the [**from**](/w/index.php?title=svg/attributes/from&
 
  The board is defined as an 800×800 square, and the piece is positioned over one of those squares. (See [SVG graphic effects](/svg/tutorials/smarter_svg_graphics) for information on how to use transforms and patterns to build a checker board.) The accompanying animation moves the piece three squares over to the right:
 
-![svga checkerStart.png](/assets/thumb/9/97/svga_checkerStart.png/300px-svga_checkerStart.png)
+![svga checkerStart.png](//static.webplatform.org/thumb/9/97/svga_checkerStart.png/300px-svga_checkerStart.png)
 
-![svga checkerEnd.png](/assets/thumb/a/a7/svga_checkerEnd.png/300px-svga_checkerEnd.png)
+![svga checkerEnd.png](//static.webplatform.org/thumb/a/a7/svga_checkerEnd.png/300px-svga_checkerEnd.png)
 
 ``` xml
 <animate
@@ -442,9 +442,9 @@ The example above moves the game piece in a straight line, but instead you can m
 <circle id="piece" fill="red" cx="150" cy="550" r="40"/>
 ```
 
-![svga motionChessBefore.png](/assets/thumb/3/33/svga_motionChessBefore.png/300px-svga_motionChessBefore.png)
+![svga motionChessBefore.png](//static.webplatform.org/thumb/3/33/svga_motionChessBefore.png/300px-svga_motionChessBefore.png)
 
-![svga motionChessAfter.png](/assets/thumb/8/8d/svga_motionChessAfter.png/300px-svga_motionChessAfter.png)
+![svga motionChessAfter.png](//static.webplatform.org/thumb/8/8d/svga_motionChessAfter.png/300px-svga_motionChessAfter.png)
 
 [View this animation](http://letmespellitoutforyou.com/samples/svg/anim_chessMotion.svg)
 
@@ -470,21 +470,21 @@ As an alternative, nesting an [**mpath**](/w/index.php?title=svg/elements/mpath&
 
     rotate="0" (default)
 
-![svga motionZero.png](/assets/thumb/d/de/svga_motionZero.png/300px-svga_motionZero.png)
+![svga motionZero.png](//static.webplatform.org/thumb/d/de/svga_motionZero.png/300px-svga_motionZero.png)
 
     rotate="auto"
 
-![svga motionAuto.png](/assets/thumb/2/27/svga_motionAuto.png/300px-svga_motionAuto.png)
+![svga motionAuto.png](//static.webplatform.org/thumb/2/27/svga_motionAuto.png/300px-svga_motionAuto.png)
 
     rotate="auto-reverse"
 
-![svga motionAutoReverse.png](/assets/thumb/2/25/svga_motionAutoReverse.png/300px-svga_motionAutoReverse.png)
+![svga motionAutoReverse.png](//static.webplatform.org/thumb/2/25/svga_motionAutoReverse.png/300px-svga_motionAutoReverse.png)
 
 [View this animation](http://letmespellitoutforyou.com/samples/svg/anim_motion.svg). The example additionally morphs the shape along which the icon travels.
 
 To move text along a path, you need to return to the [**animate**](/w/index.php?title=svg/elements/animate&action=edit&redlink=1) element, modifying the [**textPath**](/svg/elements/textPath)'s [**startOffset**](/w/index.php?title=svg/attributes/startOffset&action=edit&redlink=1) attribute, which sets the text's starting point relative to the start of the path. In this example, both offsets place the text out of view. Ordinarily you can specify percentages as offset values, but these units are defined relative to an arbitrary [**pathLength**](/w/index.php?title=svg/attributes/pathLength&action=edit&redlink=1) value, which helps to pace the animation regardless of the path's actual length:
 
-![svga motionText.png](/assets/public/5/5d/svga_motionText.png)
+![svga motionText.png](//static.webplatform.org/5/5d/svga_motionText.png)
 
 ``` xml
 <defs>
@@ -514,7 +514,7 @@ To move text along a path, you need to return to the [**animate**](/w/index.php?
 
 ## Animating transforms
 
-![svga transform.png](/assets/thumb/2/2f/svga_transform.png/200px-svga_transform.png)
+![svga transform.png](//static.webplatform.org/thumb/2/2f/svga_transform.png/200px-svga_transform.png)
 
 Transforms specify not just a single value, but a combination of functional values. To animate them, use the specialized [**animateTransform**](/w/index.php?title=svg/elements/animateTransform&action=edit&redlink=1) element, which clarifies which transform function you want to animate. It works just like the [**animate**](/w/index.php?title=svg/elements/animate&action=edit&redlink=1) element, but the additional [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlink=1) attribute specifies the transform function to be animated. This example moves a graphic diagonally:
 
@@ -552,7 +552,7 @@ Transforms specify not just a single value, but a combination of functional valu
 
 To animate color values, SVG provides another specialized [**animateColor**](/w/index.php?title=svg/elements/animateColor&action=edit&redlink=1) element. In this example, its [**attributeType**](/w/index.php?title=svg/attributes/attributeType&action=edit&redlink=1) may help clarify that the animation is modifying a **CSS** property, rather than an **XML** attribute assumed as the default:
 
-![svga color.png](/assets/thumb/6/6d/svga_color.png/200px-svga_color.png)
+![svga color.png](//static.webplatform.org/thumb/6/6d/svga_color.png/200px-svga_color.png)
 
 ``` xml
 <animateColor

@@ -1,7 +1,7 @@
 ---
 title: 'legend'
 code_samples:
-  - 'http://gist.github.com/8e4305d9f7fb613410a5'
+  - 'http://code.webplatform.org/gist/8e4305d9f7fb613410a5'
 compatibility:
   feature: legend
   topic: html
@@ -44,7 +44,7 @@ Simple form with fieldset, legend, and label elements.
 </form>
 ```
 
-[View live example](http://gist.github.com/8e4305d9f7fb613410a5)
+[View live example](http://code.webplatform.org/gist/8e4305d9f7fb613410a5)
 
 ## Usage
 

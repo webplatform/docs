@@ -3,8 +3,8 @@ title: 'img'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/7283804'
-  - 'http://gist.github.com/65430bc99e5bf2659454'
+  - 'http://code.webplatform.org/gist/7283804'
+  - 'http://code.webplatform.org/gist/65430bc99e5bf2659454'
 compatibility:
   feature: img
   topic: html
@@ -150,7 +150,7 @@ The img element (&amp;lt;img&amp;gt;) embeds an image in a document.</p><p><br/>
 &lt;/p&gt;
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://gist.github.com/7283804">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/7283804">View live example</a>
 </p>
 </div>
 <p>The following example shows how to use the <b>srcset</b> and <b>sizes</b> attributes to create responsive images. The browser will select the best image depending on viewport width.
@@ -160,7 +160,7 @@ The img element (&amp;lt;img&amp;gt;) embeds an image in a document.</p><p><br/>
 &lt;img sizes="100vw, (min-width:600px) 50vw" srcset="small.jpg 300w, medium.jpg 500w, large.jpg 700w" alt="The house is white, with a boarded front door."/&gt;
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://gist.github.com/65430bc99e5bf2659454">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/65430bc99e5bf2659454">View live example</a>
 </p>
 </div>
 <p>Here a user is asked to pick his preferred color from a list of three. Each color is given by an image, but for users who have configured their user agent not to display images, the color names are used instead:

@@ -30,7 +30,7 @@ The embedded picture becomes a normal SVG element. This means, that you can use 
          xlink:href="https://developer.mozilla.org/media/img/mdn-logo.png"/>
     </svg>
 
-![imagedemo.png](/assets/public/3/32/imagedemo.png)
+![imagedemo.png](//static.webplatform.org/3/32/imagedemo.png)
 
 ### Embedding arbitrary XML
 

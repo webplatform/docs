@@ -43,7 +43,7 @@ Content-Security-Policy: script-src 'self' https://apis.google.com
 
 With this policy defined, the browser will simply throw an error instead of loading script from any other source. When a clever attacker does manage to inject code into your site, she’ll run headlong into an error message, rather than the success she was expecting:
 
-![Console error: "Refused to load the script 'http://evil.example.com/evil.js' because it violates the following Content Security Policy directive: "script-src 'self' https://apis.google.com"."](/assets/public/7/75/csp-error.png.pagespeed.ce.8abh9RZ6bz.png)
+![Console error: "Refused to load the script 'http://evil.example.com/evil.js' because it violates the following Content Security Policy directive: "script-src 'self' https://apis.google.com"."](//static.webplatform.org/7/75/csp-error.png.pagespeed.ce.8abh9RZ6bz.png)
 
 ### Policy applies to a wide variety of resources
 

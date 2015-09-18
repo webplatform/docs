@@ -53,7 +53,7 @@ gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
 
  These changes will result in our exciting green triangle being changed into an even more exciting green rectangle — see Figure 1!
 
-![A WebGL-rendered green rectangle](/assets/public/f/f4/figure4luzc.png)
+![A WebGL-rendered green rectangle](//static.webplatform.org/f/f4/figure4luzc.png)
 
 Figure 1: An exciting green rectangle, rendered using WebGL.
 
@@ -128,7 +128,7 @@ program.vertexPosAttrib = gl.getAttribLocation(program, 'aVertexPosition');
 
 Now try testing your code — you should end up with an altogether more colourful rectangle, as shown in Figure 2:
 
-![A WebGL-rendered rectangle with a colourful gradient](/assets/public/5/57/figure2luzc.png)
+![A WebGL-rendered rectangle with a colourful gradient](//static.webplatform.org/5/57/figure2luzc.png)
 
 Figure 2: Our rectangle now has a much more exciting look to it.
 
@@ -166,7 +166,7 @@ vTexCoord = aVertexPosition + uOffset;
 
  This should now offset the gradient and give us an altogether more yellowy look, as seen in Figure 3:
 
-![A WebGL-rendered rectangle with a colourful gradient, the texture offset for a more colourful effect](/assets/public/3/32/figure5_luzc.png)
+![A WebGL-rendered rectangle with a colourful gradient, the texture offset for a more colourful effect](//static.webplatform.org/3/32/figure5_luzc.png)
 
 Figure 3: Offsetting the gradient texture gives us a nicer, more yellowy effect.
 

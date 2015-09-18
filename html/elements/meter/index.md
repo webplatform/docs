@@ -3,8 +3,8 @@ title: 'meter'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/meter)'
 code_samples:
-  - 'http://gist.github.com/5281236'
-  - 'http://gist.github.com/5281393'
+  - 'http://code.webplatform.org/gist/5281236'
+  - 'http://code.webplatform.org/gist/5281393'
   - 'http://jsbin.com/ometoTE/4/edit'
 compatibility:
   feature: meter
@@ -95,7 +95,7 @@ A basic example of the meter element
 <meter min="0" max="10" value="5">5 out of 10</meter>
 ```
 
-[View live example](http://gist.github.com/5281236)
+[View live example](http://code.webplatform.org/gist/5281236)
 
 An example of the meter element using all of its attributes
 
@@ -103,7 +103,7 @@ An example of the meter element using all of its attributes
 <meter min="0" max="1000" value="500" low="200" high="800" optimum="900">$500 raised</meter>
 ```
 
-[View live example](http://gist.github.com/5281393)
+[View live example](http://code.webplatform.org/gist/5281393)
 
 Styling options for the meter bar
 

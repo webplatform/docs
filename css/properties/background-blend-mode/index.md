@@ -1,7 +1,7 @@
 ---
 title: 'background-blend-mode'
 code_samples:
-  - 'http://gist.github.com/10908092'
+  - 'http://code.webplatform.org/gist/10908092'
   - 'http://codepen.io/collection/Hcdol/'
   - 'http://codepen.io/collection/fEkjb/'
 compatibility:
@@ -147,7 +147,7 @@ A group of boxes that show different blend effects.
 <div class='luminosity'>  <label>Luminosity</label>   </div>
 ```
 
-[View live example](http://gist.github.com/10908092)
+[View live example](http://code.webplatform.org/gist/10908092)
 
 ``` css
 body {

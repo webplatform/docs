@@ -3,7 +3,7 @@ title: 'border-top-width'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5550302'
+  - 'http://code.webplatform.org/gist/5550302'
 compatibility:
   feature: border-top-width
   topic: css
@@ -100,7 +100,7 @@ Sets the width of an element's top border. To set all four borders, use the bord
 }
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://gist.github.com/5550302">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/5550302">View live example</a>
 </p>
 </div>
 <p><br/></p><p><br/></p>

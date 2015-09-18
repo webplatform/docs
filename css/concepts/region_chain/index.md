@@ -18,7 +18,7 @@ A series of regions that display the contents of a named flow.
 
 The following shows a complex layout featuring a series of regions, with a named flow's content threading through regions **1** through **4**, which form a chain. A separate named flow is assigned to the single-element region chain labeled **A**:
 
-![regions.png](/assets/thumb/3/38/regions.png/400px-regions.png)
+![regions.png](//static.webplatform.org/thumb/3/38/regions.png/400px-regions.png)
 
 A **region chain** may have either not enough or too many elements to neatly display a [named flow](/css/concepts/named_flow)'s content. The [**NamedFlow**](/apis/css-regions/NamedFlow) interface's [**overset**](/apis/css-regions/NamedFlow/overset) property allows you to programatically identify the latter [*overset*](/css/concepts/overset) case for a body of content. The [**Region**](/apis/css-regions/Region) interface's [**regionOverset**](/apis/css-regions/Region/regionOverset) property allows you to identify both cases, **empty** or **overset**, by examining regions within the chain, which are available via the named flow's [**getRegions()**](/apis/css-regions/NamedFlow/getRegions) method.
 

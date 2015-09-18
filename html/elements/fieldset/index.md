@@ -4,9 +4,9 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset)'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/f77f0a06304503ecddd6'
-  - 'http://gist.github.com/fc26d3507ee33bdd6043'
-  - 'http://gist.github.com/91bca1371d394bf3c52d'
+  - 'http://code.webplatform.org/gist/f77f0a06304503ecddd6'
+  - 'http://code.webplatform.org/gist/fc26d3507ee33bdd6043'
+  - 'http://code.webplatform.org/gist/91bca1371d394bf3c52d'
 compatibility:
   feature: fieldset
   topic: html
@@ -56,7 +56,7 @@ The fieldset element is used to group related fields within a form.</p><p><br/><
 &lt;/form&gt;
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://gist.github.com/f77f0a06304503ecddd6">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/f77f0a06304503ecddd6">View live example</a>
 </p>
 </div>
 <p>The following snippet shows a <b>fieldset</b> with a checkbox in the legend that controls whether or not the fieldset is enabled.
@@ -85,7 +85,7 @@ The fieldset element is used to group related fields within a form.</p><p><br/><
 &lt;/form&gt;
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://gist.github.com/fc26d3507ee33bdd6043">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/fc26d3507ee33bdd6043">View live example</a>
 </p>
 </div>
 <p>Example with nested <b>fieldset</b> elements.
@@ -126,7 +126,7 @@ The fieldset element is used to group related fields within a form.</p><p><br/><
 &lt;/form&gt;
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://gist.github.com/91bca1371d394bf3c52d">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/91bca1371d394bf3c52d">View live example</a>
 </p>
 </div>
 <h2>Usage</h2>

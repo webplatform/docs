@@ -3,7 +3,7 @@ title: 'word-wrap'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5888667'
+  - 'http://code.webplatform.org/gist/5888667'
 compatibility:
   feature: word-wrap
   topic: css
@@ -77,7 +77,7 @@ This is the style rule that applies to the example.
 .clsLiteral          { font-family: Courier New, Courier, monospace; }
 ```
 
-[View live example](http://gist.github.com/5888667)
+[View live example](http://code.webplatform.org/gist/5888667)
 
 The following examples show how the **css/properties/word-wrap** property can be used to break one long word into multiple words on multiple lines. The *break-word* value avoids horizontal scrolling and can be useful for printing.
 
@@ -161,7 +161,7 @@ LongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWord
 </html>
 ```
 
-[View live example](http://gist.github.com/5888667)
+[View live example](http://code.webplatform.org/gist/5888667)
 
 ## Notes
 

@@ -25,11 +25,11 @@ Converts an element's color to a shade of gray, for use by the filter property. 
     filter: grayscale(1);
     filter: grayscale(100%); /* same */
 
-  ![f05-boatonlake.jpg](/assets/thumb/3/37/f05-boatonlake.jpg/300px-f05-boatonlake.jpg)![f06-boatonlakegray.jpg](/assets/thumb/7/7e/f06-boatonlakegray.jpg/300px-f06-boatonlakegray.jpg)
+  ![f05-boatonlake.jpg](//static.webplatform.org/thumb/3/37/f05-boatonlake.jpg/300px-f05-boatonlake.jpg)![f06-boatonlakegray.jpg](//static.webplatform.org/thumb/7/7e/f06-boatonlakegray.jpg/300px-f06-boatonlakegray.jpg)
 
 ## Examples
 
-The following example shows the difference between two images, where one has a grayscale of 75%. ![filter grayscale.png](/assets/thumb/8/88/filter_grayscale.png/400px-filter_grayscale.png)
+The following example shows the difference between two images, where one has a grayscale of 75%. ![filter grayscale.png](//static.webplatform.org/thumb/8/88/filter_grayscale.png/400px-filter_grayscale.png)
 
 ``` html
 <!DOCTYPE html>

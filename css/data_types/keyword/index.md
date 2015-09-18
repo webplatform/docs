@@ -1,7 +1,7 @@
 ---
 title: 'CSS keywords'
 code_samples:
-  - 'http://gist.github.com/10615256'
+  - 'http://code.webplatform.org/gist/10615256'
 readiness: 'Ready to Use'
 standardization_status: Mixed
 summary: 'Many CSS properties have specific keywords which may be used as values; in addition, the keywords initial and inherit may be used as the value of any CSS property.'
@@ -58,7 +58,7 @@ a {
 }
 ```
 
-[View live example](http://gist.github.com/10615256)
+[View live example](http://code.webplatform.org/gist/10615256)
 
 ## Related specifications
 

@@ -23,7 +23,7 @@ This brief guide shows different ways to deploy SVG, either within HTML or as st
 
 Until recently, SVG was fairly difficult to incorporate with other web content, and there are still many challenges. The HTML5 standard provides a way to insert *inline* regions of SVG into HTML files.
 
-![scr svg html.png](/assets/public/a/aa/scr_svg_html.png)
+![scr svg html.png](//static.webplatform.org/a/aa/scr_svg_html.png)
 
 It translates to this basic HTML markup structure, where CSS and JavaScript may affect both HTML and SVG content:
 
@@ -62,7 +62,7 @@ It translates to this basic HTML markup structure, where CSS and JavaScript may 
 
  It's also common to reference external SVG files to present static SVG graphics via CSS. The example below shows how you might place a right-aligned navigation arrow within a mobile interface, rendering as crisply as possible on high-resolution handsets:
 
-![scr svg css.png](/assets/public/d/df/scr_svg_css.png)
+![scr svg css.png](//static.webplatform.org/d/df/scr_svg_css.png)
 
 ``` css
  a[href] {
@@ -86,7 +86,7 @@ It translates to this basic HTML markup structure, where CSS and JavaScript may 
 
  Less common in practice, SVG files can be viewed as standalone files, perhaps as the target of a navigation. Any SVG file or [**svg**](/svg/elements/svg) tag region can reference its own set of CSS and JavaScript, which only applies within the SVG:
 
-![scr svg svg.png](/assets/public/f/f2/scr_svg_svg.png)
+![scr svg svg.png](//static.webplatform.org/f/f2/scr_svg_svg.png)
 
 This example shows how to embed or reference either CSS or JavaScript from within an SVG file:
 
@@ -117,7 +117,7 @@ This example shows how to embed or reference either CSS or JavaScript from withi
 
  From within an SVG, you can also reference components from other SVG files. The example that follows shows how you might import a graphic of a cat from another SVG file, then style it *calico* based on referenced CSS:
 
-![scr svg svg2svg.png](/assets/public/e/eb/scr_svg_svg2svg.png)
+![scr svg svg2svg.png](//static.webplatform.org/e/eb/scr_svg_svg2svg.png)
 
 ``` xml
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -129,7 +129,7 @@ This example shows how to embed or reference either CSS or JavaScript from withi
 
  You may also be able to use the [**foreignObject**](/w/index.php?title=svg/elements/foreignObject&action=edit&redlink=1) tag to render live HTML content within an SVG graphic environment. This example uses the [**switch**](/svg/elements/switch) tag to test whether the feature works, as recognized by the tag's [**requiredExtensions**](/w/index.php?title=svg/attributes/requiredExtensions&action=edit&redlink=1) attribute. If not, it uses fallback [**text**](/svg/elements/text):
 
-![scr svg svg2html.png](/assets/public/2/23/scr_svg_svg2html.png)
+![scr svg svg2html.png](//static.webplatform.org/2/23/scr_svg_svg2html.png)
 
 ``` xml
 <?xml version="1.0" standalone="yes"?>

@@ -3,7 +3,7 @@ title: 'video'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5314736'
+  - 'http://code.webplatform.org/gist/5314736'
 compatibility:
   feature: video
   topic: html
@@ -144,7 +144,7 @@ HTML5 Video Tag can support different encodings
 
 ```
 
-[View live example](http://gist.github.com/5314736)
+[View live example](http://code.webplatform.org/gist/5314736)
 
 ## Related specifications
 

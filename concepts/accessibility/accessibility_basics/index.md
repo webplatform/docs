@@ -181,13 +181,13 @@ In this example the `selected` class would be used to specify which tab needs to
 
 This structure is fine for informational content. In this example, the `class` of `selected` would be used to signify which tab is the active tab, ie, the one that is open and displaying its information; the others would be closed (ie, their paragraphs hidden) until their corresponding links are clicked on. The dogs tab is the default active tab, as shown in Figure 1.
 
-![tab control showing the default dogs tab active](/assets/public/a/ad/Accessibility_figure10.png)
+![tab control showing the default dogs tab active](//static.webplatform.org/a/ad/Accessibility_figure10.png)
 
 Figure 1: A simple tab control showing the dogs tab, the default, active.
 
 Once another link is clicked on (as shown in Figure 2) JavaScript would then be used to dynamically move the `class="selected"` to that link, at which point style would be applied to that tab to display it, and the one that was previously displayed would be hidden.
 
-![tab control showing a new active tab after its link has been clicked on](/assets/public/f/f4/Accessibility_figure20.png)
+![tab control showing a new active tab after its link has been clicked on](//static.webplatform.org/f/f4/Accessibility_figure20.png)
 
 Figure 2: Now a different link has been clicked on, its corresponding tab becomes active.
 

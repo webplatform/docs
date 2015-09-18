@@ -1,7 +1,7 @@
 ---
 title: 'border-right'
 code_samples:
-  - 'http://gist.github.com/5534715'
+  - 'http://code.webplatform.org/gist/5534715'
 compatibility:
   feature: border-right
   topic: css
@@ -88,7 +88,7 @@ A simple example showing multiple `<div>`s, identical in style except that they 
 <div class="five"><p>Five</p></div>
 ```
 
-[View live example](http://gist.github.com/5534715)
+[View live example](http://code.webplatform.org/gist/5534715)
 
 ``` css
 /**
@@ -138,7 +138,7 @@ p {
 }
 ```
 
-[View live example](http://gist.github.com/5534715)
+[View live example](http://code.webplatform.org/gist/5534715)
 
 ## Usage
 

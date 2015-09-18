@@ -3,7 +3,7 @@ title: 'beginPath'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
 code_samples:
-  - 'http://gist.github.com/5022033/58ee0dfab60f4ee6d22c14881d9708708f45e2b2'
+  - 'http://code.webplatform.org/gist/5022033/58ee0dfab60f4ee6d22c14881d9708708f45e2b2'
 readiness: 'Ready to Use'
 relationships:
   method_of:
@@ -70,7 +70,7 @@ This is a full example that uses beginPath to create two stroked lines.
 </html>
 ```
 
-[View live example](http://gist.github.com/5022033/58ee0dfab60f4ee6d22c14881d9708708f45e2b2)
+[View live example](http://code.webplatform.org/gist/5022033/58ee0dfab60f4ee6d22c14881d9708708f45e2b2)
 
 This snippet shows the basis syntax for beginPath() using the canvas context.
 

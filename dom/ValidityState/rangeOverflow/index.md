@@ -45,7 +45,7 @@ Whether a value is greater than the **max** attribute on an input control.
 
 The following example validates a numeric (type="number") input field on the onblur event handler. If a number outside the range values of the input control is entered the custom validity message is displayed when the form is submitted.
 
-![ValidityState rangeOverflow customError.png](/assets/public/c/c2/ValidityState_rangeOverflow_customError.png)
+![ValidityState rangeOverflow customError.png](//static.webplatform.org/c/c2/ValidityState_rangeOverflow_customError.png)
 
 ``` html
 

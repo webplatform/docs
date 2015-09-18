@@ -3,8 +3,8 @@ title: 'checked'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/7282321'
-  - 'http://gist.github.com/33aa4c8bece121ba6e9e'
+  - 'http://code.webplatform.org/gist/7282321'
+  - 'http://code.webplatform.org/gist/33aa4c8bece121ba6e9e'
 compatibility:
   feature: checked
   topic: html
@@ -63,7 +63,7 @@ This example shows a set of radio buttons with one checked by default.
 </form>
 ```
 
-[View live example](http://gist.github.com/7282321)
+[View live example](http://code.webplatform.org/gist/7282321)
 
 This example shows a set of check boxes with multiple checked by default.
 
@@ -83,7 +83,7 @@ This example shows a set of check boxes with multiple checked by default.
 </form>
 ```
 
-[View live example](http://gist.github.com/33aa4c8bece121ba6e9e)
+[View live example](http://code.webplatform.org/gist/33aa4c8bece121ba6e9e)
 
 ## Notes
 

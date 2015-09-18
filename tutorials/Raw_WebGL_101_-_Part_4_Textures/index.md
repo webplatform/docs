@@ -124,7 +124,7 @@ Mag filter is used when you're stretching an image over a larger area than the o
 
 Also, change your canvas size to something a bit bigger so you can see what is going on more clearly. I chose 900 x 900. Now try testing your code — you should be presented with something that looks like Figure 1.
 
-![A series of Opera company logos rendered inside a canvas using WebGL](/assets/public/e/ed/figure1.png)
+![A series of Opera company logos rendered inside a canvas using WebGL](//static.webplatform.org/e/ed/figure1.png)
 
 Figure 1: A series of Opera company logos rendered inside a `<canvas>` using WebGL.
 
@@ -159,7 +159,7 @@ S and T are the texture coordinate axes. Note that our axes start at (0,0) — t
 
 This will give us the display shown in Figure 3.
 
-![A single Opera logo rendered on a canvas](/assets/public/5/59/figure3.png)
+![A single Opera logo rendered on a canvas](//static.webplatform.org/5/59/figure3.png)
 
 Figure 3: Our four Opera logos have been reduced down to one.
 

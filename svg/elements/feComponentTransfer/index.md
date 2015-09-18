@@ -90,7 +90,7 @@ For example, an input pixel whose red value is 0.5 - the midpoint of the second 
 
 The following graphic illustrates how the input ranges are mapped to the output ranges in this example.
 
-![tabletransfer.png](/assets/public/9/9c/tabletransfer.png)
+![tabletransfer.png](//static.webplatform.org/9/9c/tabletransfer.png)
 
 Note that the start and end values for the input ranges(and their number) are automatically calculated based on the number of values in "tableValues". For example, if tableValues had eleven values, then the input ranges would be calculated as (0.0 -\> 0.1, 0.1 -\> 0.2 etc. through 0.9 -\> 1.0.) There is no capability in SVG 1.1 to customize the start and end values of input ranges.
 
@@ -120,11 +120,11 @@ For example, an input pixel whose red value is 0.375 - the midpoint of the secon
 
 The following graphic illustrates how the input segments are mapped to the output segments in a discrete transfer.
 
-![discretetransfer.png](/assets/public/c/c9/discretetransfer.png)
+![discretetransfer.png](//static.webplatform.org/c/c9/discretetransfer.png)
 
 ## Examples
 
-![blue70sfilterexample.png](/assets/public/1/18/blue70sfilterexample.png)
+![blue70sfilterexample.png](//static.webplatform.org/1/18/blue70sfilterexample.png)
 
 Example of a table component transfer. The input ranges are mapped onto continuous output ranges.
 
@@ -149,7 +149,7 @@ Example of a table component transfer. The input ranges are mapped onto continuo
 </pre>
 [View live example](http://jsfiddle.net/jsfmullany/rtD4A/)
 
-![70sposter.png](/assets/public/2/29/70sposter.png)
+![70sposter.png](//static.webplatform.org/2/29/70sposter.png)
 
 Example of a discrete component transfer. The input ranges are mapped onto specific discrete output values.
 

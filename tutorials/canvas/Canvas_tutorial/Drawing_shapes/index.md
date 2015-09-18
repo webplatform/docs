@@ -19,7 +19,7 @@ This part of the tutorial explains how to draw lines and shapes. The article cov
 
 Before we can start drawing, we need to talk about the canvas grid or *coordinate space*. The HTML template on the previous page had a canvas element 150 pixels wide and 150 pixels high. I've drawn this image with the default grid overlayed. Normally 1 unit in the grid corresponds to 1 pixel on the canvas. The origin of this grid is positioned in the top left corner (coordinate (0,0)). All elements are placed relative to this origin. So the position of the top left corner of the blue square becomes x pixels from the left and y pixels from the top (coordinate (x,y)). Later in this tutorial we'll see how we can translate the origin to a different position, rotate the grid and even scale it. For now we'll stick to the default.
 
-![Basic canvas grid with coordinates](/assets/public/5/50/Canvas_default_grid.png)
+![Basic canvas grid with coordinates](//static.webplatform.org/5/50/Canvas_default_grid.png)
 
 ## Drawing shapes
 
@@ -50,7 +50,7 @@ Below is the `draw()` function from the previous page, but now I've added the th
       }
     }
 
-![Concentric rectangles on a canvas](/assets/public/5/54/Canvas_rect.png)
+![Concentric rectangles on a canvas](//static.webplatform.org/5/54/Canvas_rect.png)
 
 The result should look something like the image on the right. The `fillRect` function draws a large black square 100x100 pixels. The `clearRect` function removes a 60x60 pixels square from the center and finally the `strokeRect` draws a rectangular outline 50x50 pixels inside the cleared square. In the following pages we'll see two alternative methods for the `clearRect` function and we'll also see how to change the color and stroke style of the rendered shapes.
 
@@ -90,7 +90,7 @@ One very useful function, which doesn't actually draw anything, but is part of t
 
 The `moveTo` function takes two arguments, `x` and `y, `which are the coordinates of the new starting point.
 
-![Canvas with a smiley face drawn on it, demonstrating moveTo](/assets/public/8/83/Canvas_smiley.png)
+![Canvas with a smiley face drawn on it, demonstrating moveTo](//static.webplatform.org/8/83/Canvas_smiley.png)
 
 When the canvas is initialized or the `beginPath` method is called, you typically will want to use the `moveTo` method to place the starting point somewhere else. We could also use the `moveTo` method to draw unconnected paths. Take a look at the smiley face on the right. I've marked the places where I used the `moveTo` method (the red lines).
 
@@ -120,7 +120,7 @@ This method takes two arguments - `x` and `y`, - which are the coordinates of th
 
 #### lineTo example
 
-![Two triangles on a canvas, used to demonstrate lineTo](/assets/public/c/cb/Canvas_lineTo.png)
+![Two triangles on a canvas, used to demonstrate lineTo](//static.webplatform.org/c/cb/Canvas_lineTo.png)
 
 In the example below two triangles are drawn, one filled and one outlined. (The result can be seen in the image on the right). First the `beginPath` method is called to begin a new shape path. We then use the `moveTo` method to move the starting point to the desired position. Below this two lines are drawn which make up two sides of the triangle.
 
@@ -153,7 +153,7 @@ This method takes five parameters: `x` and `y` are the coordinates of the circle
 
 #### arc example
 
-![A canvas with a series of arcs and sections of filled circles](/assets/public/f/f6/Canvas_arc.png)
+![A canvas with a series of arcs and sections of filled circles](//static.webplatform.org/f/f6/Canvas_arc.png)
 
 The following example is a little more complex than the ones we've seen above. I've drawn 12 different arcs all with different angles and fills. If I would have written this example just like the smiley face above, firstly this would have become a very long list of statements and secondly, when drawing arcs, I would need to know every single starting point. For arcs of 90, 180 and 270 degrees, like the ones I used here, this wouldn't be to much of a problem, but for more complex ones this becomes way too difficult.
 
@@ -186,7 +186,7 @@ The next type of paths available are Bézier curves, available in the cubic and 
 `quadraticCurveTo(cp1x, cp1y, x, y) // BROKEN in Firefox 1.5 (see work around below)`
 `bezierCurveTo(cp1x, cp1y, cp2x, cp2y, x, y)`
 
-![Quadratic and Bezier curves on a canvas](/assets/public/4/48/Canvas_curves.png)
+![Quadratic and Bezier curves on a canvas](//static.webplatform.org/4/48/Canvas_curves.png)
 
 The difference between these can best be described using the image on the right. A quadratic Bézier curve has a start and an end point (blue dots) and just one *control point* (red dot) while a cubic Bézier curve uses two control points.
 
@@ -198,7 +198,7 @@ There's nothing very difficult in these examples. In both cases we see a success
 
 #### quadraticCurveTo example
 
-![Quadratic curveTo example on a canvas](/assets/public/1/1d/Canvas_quadratic.png)
+![Quadratic curveTo example on a canvas](//static.webplatform.org/1/1d/Canvas_quadratic.png)
 
     // Quadratric curves example
     ctx.beginPath();
@@ -215,7 +215,7 @@ It is possible to convert any quadratic Bézier curve to a cubic Bézier curve b
 
 #### bezierCurveTo example
 
-![Heart-shaped Bezier curve filled shape on a canvas](/assets/public/0/08/Canvas_bezier.png)
+![Heart-shaped Bezier curve filled shape on a canvas](//static.webplatform.org/0/08/Canvas_bezier.png)
 
     // Bezier curves example
     ctx.beginPath();

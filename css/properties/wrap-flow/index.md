@@ -3,7 +3,7 @@ title: 'wrap-flow'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh772045(v=vs.85).aspx)'
 code_samples:
-  - 'http://gist.github.com/5867597'
+  - 'http://code.webplatform.org/gist/5867597'
 compatibility:
   feature: wrap-flow
   topic: css
@@ -70,37 +70,37 @@ Percentages
 auto
 :   No exclusion is created. Inline flow content interacts with the element as usual.
 
-![wrap-flow:auto applied to grid positioned elements;](/assets/public/b/ba/exclusion_wrap_side_auto.png)
+![wrap-flow:auto applied to grid positioned elements;](//static.webplatform.org/b/ba/exclusion_wrap_side_auto.png)
 
 both
 :   Inline flow content can flow on all sides of the exclusion.
 
-![wrap-flow:both applied to grid positioned elements;](/assets/public/5/53/exclusion_wrap_side_both.png)
+![wrap-flow:both applied to grid positioned elements;](//static.webplatform.org/5/53/exclusion_wrap_side_both.png)
 
 start
 :   Inline flow content can flow around the start edge of the exclusion area but must leave the area next to the end edge of the exclusion empty.
 
-![wrap-flow:start applied to grid positioned elements;](/assets/public/b/b5/exclusion_wrap_side_left.png)
+![wrap-flow:start applied to grid positioned elements;](//static.webplatform.org/b/b5/exclusion_wrap_side_left.png)
 
 end
 :   Inline flow content can flow around the end edge of the exclusion area but must leave the area next to the start edge of the exclusion empty.
 
-![wrap-flow:end applied to grid positioned elements;](/assets/public/d/df/exclusion_wrap_side_right.png)
+![wrap-flow:end applied to grid positioned elements;](//static.webplatform.org/d/df/exclusion_wrap_side_right.png)
 
 minimum
 :   Inline flow content can flow around the edge of the exclusion with the smallest available space within the flow content's containing block, and must leave the other edge of the exclusion empty.
 
-![wrap-flow:minimum applied to grid positioned elements;](/assets/public/d/d7/exclusion_wrap_side_minimum.png)
+![wrap-flow:minimum applied to grid positioned elements;](//static.webplatform.org/d/d7/exclusion_wrap_side_minimum.png)
 
 maximum
 :   Inline flow content can flow around the edge of the exclusion with the largest available space within the flow content's containing block, and must leave the other edge of the exclusion empty.
 
-![wrap-flow:maximum applied to grid positioned elements;](/assets/public/0/0b/exclusion_wrap_side_maximum.png)
+![wrap-flow:maximum applied to grid positioned elements;](//static.webplatform.org/0/0b/exclusion_wrap_side_maximum.png)
 
 clear
 :   Inline flow content can only flow before and after the exclusion in the flow content's block direction, and must leave the areas next to the start and end edges of the exclusion empty.
 
-![wrap-flow:clear applied to grid positioned elements;](/assets/public/4/41/exclusion_wrap_side_clear.png)
+![wrap-flow:clear applied to grid positioned elements;](//static.webplatform.org/4/41/exclusion_wrap_side_clear.png)
 
 ## Examples
 
@@ -126,7 +126,7 @@ Can be enabled in Canary under "Enable experimental WebKit features".
 }
 ```
 
-[View live example](http://gist.github.com/5867597)
+[View live example](http://code.webplatform.org/gist/5867597)
 
 ## Usage
 

@@ -4,9 +4,9 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)'
   - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
 code_samples:
-  - 'http://gist.github.com/6199316'
-  - 'http://gist.github.com/6199504'
-  - 'http://gist.github.com/6199565'
+  - 'http://code.webplatform.org/gist/6199316'
+  - 'http://code.webplatform.org/gist/6199504'
+  - 'http://code.webplatform.org/gist/6199565'
 compatibility:
   feature: z-index
   topic: css
@@ -111,7 +111,7 @@ The following example demonstrates the `z-index` property set to `auto`. Some st
 }
 ```
 
-[View live example](http://gist.github.com/6199316)
+[View live example](http://code.webplatform.org/gist/6199316)
 
 ``` html
 
@@ -178,7 +178,7 @@ The following example demonstrates the `z-index` property set to an integer. Som
 }
 ```
 
-[View live example](http://gist.github.com/6199504)
+[View live example](http://code.webplatform.org/gist/6199504)
 
 ``` html
 
@@ -244,7 +244,7 @@ The following example demonstrates the `z-index` property set to `inherit`. Some
 }
 ```
 
-[View live example](http://gist.github.com/6199565)
+[View live example](http://code.webplatform.org/gist/6199565)
 
 ``` html
 

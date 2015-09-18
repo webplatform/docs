@@ -1,7 +1,7 @@
 ---
 title: 'marquee-speed'
 code_samples:
-  - 'http://gist.github.com/6948165'
+  - 'http://code.webplatform.org/gist/6948165'
 compatibility:
   feature: marquee-speed
   topic: css
@@ -86,7 +86,7 @@ h1 {
 }
 ```
 
-[View live example](http://gist.github.com/6948165)
+[View live example](http://code.webplatform.org/gist/6948165)
 
 ## Notes
 

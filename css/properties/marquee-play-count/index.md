@@ -1,7 +1,7 @@
 ---
 title: 'marquee-play-count'
 code_samples:
-  - 'http://gist.github.com/6948452'
+  - 'http://code.webplatform.org/gist/6948452'
 compatibility:
   feature: marquee-play-count
   topic: css
@@ -80,7 +80,7 @@ h1 {
 }
 ```
 
-[View live example](http://gist.github.com/6948452)
+[View live example](http://code.webplatform.org/gist/6948452)
 
 ## Usage
 

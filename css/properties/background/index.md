@@ -1,8 +1,8 @@
 ---
 title: 'background'
 code_samples:
-  - 'http://gist.github.com/6114809'
-  - 'http://gist.github.com/6115439'
+  - 'http://code.webplatform.org/gist/6114809'
+  - 'http://code.webplatform.org/gist/6115439'
 compatibility:
   feature: background
   topic: css
@@ -96,7 +96,7 @@ p {
 }
 ```
 
-[View live example](http://gist.github.com/6114809)
+[View live example](http://code.webplatform.org/gist/6114809)
 
 Only one background property is set on the body. Many individual properties have been specified for the p element, including a background image that only shows up on the p element.
 
@@ -115,7 +115,7 @@ p { background: url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png)
 }
 ```
 
-[View live example](http://gist.github.com/6115439)
+[View live example](http://code.webplatform.org/gist/6115439)
 
 ## Usage
 
@@ -123,7 +123,7 @@ p { background: url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png)
 
 ## Notes
 
-The background of the root element becomes the background of the canvas and extends to cover the entire canvas, but only for that element alone. For an example, see [[1]](http://gist.github.com/6115439).
+The background of the root element becomes the background of the canvas and extends to cover the entire canvas, but only for that element alone. For an example, see [[1]](http://code.webplatform.org/gist/6115439).
 
 ## Related specifications
 

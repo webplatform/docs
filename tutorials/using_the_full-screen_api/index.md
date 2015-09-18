@@ -26,9 +26,9 @@ The full-screen API provides a programmatic method for presenting web content us
 
 The screen captures below show a web page containing a video element in normal and full-screen modes.
 
-*Web page (cropped) with video element in normal mode* ![fs01-normal.png](/assets/public/a/a4/fs01-normal.png)
+*Web page (cropped) with video element in normal mode* ![fs01-normal.png](//static.webplatform.org/a/a4/fs01-normal.png)
 
-*Web page (reduced) with video element in full-screen mode* ![fs02-full.png](/assets/public/6/6b/fs02-full.png)
+*Web page (reduced) with video element in full-screen mode* ![fs02-full.png](//static.webplatform.org/6/6b/fs02-full.png)
 
 ## Use
 

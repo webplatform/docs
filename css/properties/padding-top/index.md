@@ -4,8 +4,8 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
   - 'Microsoft Developer Network.'
 code_samples:
-  - 'http://gist.github.com/6948436'
-  - 'http://gist.github.com/6948429'
+  - 'http://code.webplatform.org/gist/6948436'
+  - 'http://code.webplatform.org/gist/6948429'
 compatibility:
   feature: padding-top
   topic: css
@@ -78,13 +78,13 @@ The following examples use the **padding-top** property to change the padding of
 td { padding-top: 20%; }
 ```
 
-[View live example](http://gist.github.com/6948436)
+[View live example](http://code.webplatform.org/gist/6948436)
 
 ``` css
 td { padding-top: 30px; }
 ```
 
-[View live example](http://gist.github.com/6948429)
+[View live example](http://code.webplatform.org/gist/6948429)
 
 ### Syntax
 

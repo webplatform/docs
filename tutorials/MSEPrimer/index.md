@@ -1,7 +1,7 @@
 ---
 title: 'MSEPrimer'
 code_samples:
-  - 'http://gist.github.com/9144919/'
+  - 'http://code.webplatform.org/gist/9144919/'
 notes:
   - 'Needs additional content'
 readiness: 'In Progress'
@@ -21,7 +21,7 @@ This guide gives you a basic look at Media Source Extensions(MSE), what they are
 
 ### Introduction
 
-[Media Source Extensions (MSE)](http://www.w3.org/TR/media-source/) as adds buffer-based source options to HTML5 media for streaming support. Previously, you had to download a complete video file to play, or use an add-on like Silverlight or Adobe Flash to stream media. With MSE, no client add-ons are required for streaming. Additionally, you can stream video from a standard HTTP server. A special media server is not required. The [example](http://gist.github.com/9144919/) described here uses un-prefixed APIs, and runs in Internet Explorer 11. The sample loads in the latest Chrome, but won't load the video, possibly because the source video is MP4.
+[Media Source Extensions (MSE)](http://www.w3.org/TR/media-source/) as adds buffer-based source options to HTML5 media for streaming support. Previously, you had to download a complete video file to play, or use an add-on like Silverlight or Adobe Flash to stream media. With MSE, no client add-ons are required for streaming. Additionally, you can stream video from a standard HTTP server. A special media server is not required. The [example](http://code.webplatform.org/gist/9144919/) described here uses un-prefixed APIs, and runs in Internet Explorer 11. The sample loads in the latest Chrome, but won't load the video, possibly because the source video is MP4.
 
 ### MSE Overview
 
@@ -65,7 +65,7 @@ The MSE API itself is a simple concept and basically follows these steps:
 
 These are the basic list of steps for using MSE. However your player needs to know where files are located, what kind of video file is coming (MP4 or WebM), and what the segments are. If it's a single segmented file, what the segments are, usually in a byte range.
 
-For the example here, we're going to use a single file that's segmented, and uses a Media Presentation Description file for the list of segments. We'll go through how to setup the demo, and then discuss how the MPD file is built later. Since an MPD file is XML, to get around some server issues, we've renamed the file .xml in the [example](http://gist.github.com/9144919/).
+For the example here, we're going to use a single file that's segmented, and uses a Media Presentation Description file for the list of segments. We'll go through how to setup the demo, and then discuss how the MPD file is built later. Since an MPD file is XML, to get around some server issues, we've renamed the file .xml in the [example](http://code.webplatform.org/gist/9144919/).
 
 Since MSE is fairly basic, the majority of the example here is about getting video segments and handling the UI of the page. This example could be simplified by creating a segment list array, and hard-coding the file names and ranges.
 

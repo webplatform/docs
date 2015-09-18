@@ -1,7 +1,7 @@
 ---
 title: 'baseline-shift'
 code_samples:
-  - 'http://gist.github.com/7001747'
+  - 'http://code.webplatform.org/gist/7001747'
 compatibility:
   feature: baseline-shift
   topic: css
@@ -83,7 +83,7 @@ This property works with HTML inline-level elements.
  I really love Webplatform.docs 
 ```
 
-[View live example](http://gist.github.com/7001747)
+[View live example](http://code.webplatform.org/gist/7001747)
 
 In this sample, baseline-shift has the value 'baseline' which is the initial value, keeping the baseline in its original position.
 

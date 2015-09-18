@@ -3,7 +3,7 @@ title: 'column-rule-width'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/6288958'
+  - 'http://code.webplatform.org/gist/6288958'
 compatibility:
   feature: column-rule-width
   topic: css
@@ -99,7 +99,7 @@ Makes 3 columns with 4px dashed green column-rule
 }
 ```
 
-[View live example](http://gist.github.com/6288958)
+[View live example](http://code.webplatform.org/gist/6288958)
 
 ## Usage
 

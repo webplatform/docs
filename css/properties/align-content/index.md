@@ -1,7 +1,7 @@
 ---
 title: 'align-content'
 code_samples:
-  - 'http://gist.github.com/5536244'
+  - 'http://code.webplatform.org/gist/5536244'
 compatibility:
   feature: align-content
   topic: css
@@ -121,7 +121,7 @@ Spacing lines within a multi-line flex container. Change the values in the live 
 }
 ```
 
-[View live example](http://gist.github.com/5536244)
+[View live example](http://code.webplatform.org/gist/5536244)
 
 ## Notes
 

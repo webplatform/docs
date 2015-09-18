@@ -4,7 +4,7 @@ attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
   - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/3d/css/)'
 code_samples:
-  - 'http://gist.github.com/5304145'
+  - 'http://code.webplatform.org/gist/5304145'
 compatibility:
   feature: rotate3d()
   topic: css
@@ -30,7 +30,7 @@ div {
 }
 ```
 
-[View live example](http://gist.github.com/5304145)
+[View live example](http://code.webplatform.org/gist/5304145)
 
 ## Notes
 

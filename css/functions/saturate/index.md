@@ -25,13 +25,13 @@ Applies a saturation effect to an element's color, making it appear more or less
     filter: saturate(1000%);
     filter: saturate(10); /* same */
 
-  ![f09-tiffany.jpg](/assets/thumb/2/2d/f09-tiffany.jpg/300px-f09-tiffany.jpg)![f10-tiffanysaturate.jpg](/assets/thumb/b/be/f10-tiffanysaturate.jpg/300px-f10-tiffanysaturate.jpg)
+  ![f09-tiffany.jpg](//static.webplatform.org/thumb/2/2d/f09-tiffany.jpg/300px-f09-tiffany.jpg)![f10-tiffanysaturate.jpg](//static.webplatform.org/thumb/b/be/f10-tiffanysaturate.jpg/300px-f10-tiffanysaturate.jpg)
 
 ## Examples
 
 The following example shows the difference between two images, where one has a saturation of 1000%:
 
-![filter saturate.png](/assets/thumb/4/4b/filter_saturate.png/400px-filter_saturate.png)
+![filter saturate.png](//static.webplatform.org/thumb/4/4b/filter_saturate.png/400px-filter_saturate.png)
 
 ``` html
 <!DOCTYPE html>

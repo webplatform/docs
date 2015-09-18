@@ -112,7 +112,7 @@ If you look at the script you'll see I've made a function called `draw`, which w
 
 To start off, here's a simple example that draws two intersecting rectangles, one of which has alpha transparency. We'll explore how this works in more detail in later examples.
 
-![Two overlapping rectangles on a canvas](/assets/public/2/2a/canvas_ex1.png)
+![Two overlapping rectangles on a canvas](//static.webplatform.org/2/2a/canvas_ex1.png)
 
     <html>
      <head>

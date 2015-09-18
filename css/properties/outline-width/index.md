@@ -3,7 +3,7 @@ title: 'outline-width'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5579241'
+  - 'http://code.webplatform.org/gist/5579241'
 compatibility:
   feature: outline-width
   topic: css
@@ -104,7 +104,7 @@ The outline-width property sets the width of the outline of an element. An outli
 &lt;/div&gt;
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://gist.github.com/5579241">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/5579241">View live example</a>
 </p>
 </div>
 <p>CSS outline width values.
@@ -144,7 +144,7 @@ The outline-width property sets the width of the outline of an element. An outli
 }
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://gist.github.com/5579241">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/5579241">View live example</a>
 </p>
 </div>
 <h2>Notes</h2>

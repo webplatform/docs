@@ -3,7 +3,7 @@ title: 'transition-duration'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5842067'
+  - 'http://code.webplatform.org/gist/5842067'
 compatibility:
   feature: transition-duration
   topic: css
@@ -77,7 +77,7 @@ div:hover{
 }
 ```
 
-[View live example](http://gist.github.com/5842067)
+[View live example](http://code.webplatform.org/gist/5842067)
 
 ## Notes
 

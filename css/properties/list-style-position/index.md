@@ -4,9 +4,9 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position)'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5841706'
-  - 'http://gist.github.com/6949116'
-  - 'http://gist.github.com/5598129'
+  - 'http://code.webplatform.org/gist/5841706'
+  - 'http://code.webplatform.org/gist/6949116'
+  - 'http://code.webplatform.org/gist/5598129'
 compatibility:
   feature: list-style-position
   topic: css
@@ -80,7 +80,7 @@ The following example uses the **list-style-position** attribute and the **list-
 .secondlist { list-style-position:outside }
 ```
 
-[View live example](http://gist.github.com/5841706)
+[View live example](http://code.webplatform.org/gist/5841706)
 
 The following example shows how to change the value dynamically using JavaScript. The value changes from outside to inside when the mouse is over the list
 
@@ -98,7 +98,7 @@ ul.addEventListener('mouseout', function () {
 });
 ```
 
-[View live example](http://gist.github.com/6949116)
+[View live example](http://code.webplatform.org/gist/6949116)
 
 An example to show how setting padding-left to 0 when position is set to outside will produce the market not being shown at all. A ul contained in a div with overflow hidden might run into this issue.
 
@@ -116,7 +116,7 @@ ul {
 }
 ```
 
-[View live example](http://gist.github.com/5598129)
+[View live example](http://code.webplatform.org/gist/5598129)
 
 ## Usage
 

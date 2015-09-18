@@ -4,12 +4,12 @@ attributions:
   - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
   - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/Boxes)'
 code_samples:
-  - 'http://gist.github.com/11409432'
-  - 'http://gist.github.com/11411135'
-  - 'http://gist.github.com/11429299'
-  - 'http://gist.github.com/11429444'
-  - 'http://gist.github.com/11429785'
-  - 'http://gist.github.com/11431094'
+  - 'http://code.webplatform.org/gist/11409432'
+  - 'http://code.webplatform.org/gist/11411135'
+  - 'http://code.webplatform.org/gist/11429299'
+  - 'http://code.webplatform.org/gist/11429444'
+  - 'http://code.webplatform.org/gist/11429785'
+  - 'http://code.webplatform.org/gist/11431094'
 readiness: 'Ready to Use'
 summary: 'This article briefly describes the CSS box model and how the elements are laid out when they are displayed in the browser.'
 tags:
@@ -34,7 +34,7 @@ Thus the content edge can have a certain width or height, the padding edge that 
 
 Each property that surrounds the content can be broken down into a top, right, bottom, or a left part for example margin-left, padding-bottom, border-left, etc.
 
-In this [Live Example](http://gist.github.com/11409432) we see a typical declaration of a div element that we specify a width, a margin and a padding.
+In this [Live Example](http://code.webplatform.org/gist/11409432) we see a typical declaration of a div element that we specify a width, a margin and a padding.
 
 ### Coloring
 
@@ -72,7 +72,7 @@ The styles are:
  outset
 :   opposite of inset. Border looks like its coming out of the element
 
-See the [Live Example](http://gist.github.com/11411135) of border styles
+See the [Live Example](http://code.webplatform.org/gist/11411135) of border styles
 
 You can also set the style to `hidden` which is the same as none to explicitly remove the border, or set the color to `transparent` to make the border invisible without changing the layout.
 
@@ -92,7 +92,7 @@ This rule sets the dimensions, the background color and the top border of all di
 }
 ```
 
- The result looks like this [Live Example](http://gist.github.com/11429299).
+ The result looks like this [Live Example](http://code.webplatform.org/gist/11429299).
 
 This rule makes images easier to see by giving them a mid-gray border all round:
 
@@ -100,7 +100,7 @@ This rule makes images easier to see by giving them a mid-gray border all round:
 img {border: 2px solid #ccc;}
 ```
 
- The result looks like this [Live Example](http://gist.github.com/11429444).
+ The result looks like this [Live Example](http://code.webplatform.org/gist/11429444).
 
 ### Margins and padding
 
@@ -120,7 +120,7 @@ p.remark {
 }
 ```
 
- The result looks like this [Live Example](http://gist.github.com/11429785).
+ The result looks like this [Live Example](http://code.webplatform.org/gist/11429785).
 
 ## More details
 
@@ -145,7 +145,7 @@ li {
 }
 ```
 
--   Refresh your browser to see the [Result](http://gist.github.com/11431094).
+-   Refresh your browser to see the [Result](http://code.webplatform.org/gist/11431094).
 
 ## See also
 

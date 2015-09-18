@@ -20,11 +20,11 @@ In this tutorial, we'll provide you with the architectural understanding, framew
 
 First, think of this simple use case. A user lands on a mobile web app that displays movie listings and clicks on a link to the "Inception" movie.
 
-![web app flow 1.png](/assets/public/5/5d/web_app_flow_1.png)
+![web app flow 1.png](//static.webplatform.org/5/5d/web_app_flow_1.png)
 
 This is how a traditional website would handle the user experience, using redirects.
 
-![web app flow 2.png](/assets/public/c/c5/web_app_flow_2.png)
+![web app flow 2.png](//static.webplatform.org/c/c5/web_app_flow_2.png)
 
 First, the user lands on the movie listing website. The web server sends back all of the markup (HTML, CSS), JavaScript and data in order to display the page. Next, the user clicks on the "Inception" movie. The browser is then redirected to `/movies/inception`.
 
@@ -32,7 +32,7 @@ Again, the server sends back all of the markup, JavaScript and data in order to 
 
 Now consider the same user scenario, but with the "web app" design paradigm. This flow prevents unnecessary redirects and thus feels faster and smoother to the user.
 
-![web app flow 3.png](/assets/public/6/60/web_app_flow_3.png)
+![web app flow 3.png](//static.webplatform.org/6/60/web_app_flow_3.png)
 
 First, the user lands on the movie listing website. The web server sends back static resources like HTML, JavaScript, CSS and images. Think of this as the equivalent resources that you would have in a compiled native app. These resources contain everything the web app needs to function, but it doesn’t include any dynamic data (like movie listings).
 

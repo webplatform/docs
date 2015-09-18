@@ -51,7 +51,7 @@ ul, #numbered {
 
  The result looks like:
 
-![Screenshot of the Mozilla Firefox browser showing paragraph tags within a structural div container](/assets/public/a/aa/layout-fundamentals-fig-1.png)
+![Screenshot of the Mozilla Firefox browser showing paragraph tags within a structural div container](//static.webplatform.org/a/aa/layout-fundamentals-fig-1.png)
 
 ### Size units
 

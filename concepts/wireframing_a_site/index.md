@@ -67,7 +67,7 @@ The logo is a vital part of any company’s branding. While most businesses will
 
 The Wiki Whatevers company owners all attended Georgia Tech, so they used their Alma Mater’s colours—gold and black—in the logo design. But, while the logo is simplistic, at least it may prove easy to work with in colour and layout. Figure 1 shows the logo:
 
-![Wiki Whatevers logo](/assets/public/e/e0/Logo0000.jpg)
+![Wiki Whatevers logo](//static.webplatform.org/e/e0/Logo0000.jpg)
 
 Figure 1: The Wiki Whatevers logo.
 
@@ -81,7 +81,7 @@ The issue here is that I just scanned in a print logo, wanting to use the same l
 
 1.  Scan the print image in a scanning program that accepts CMYK and use Photoshop’s Pantone Colour Swatches to match as closely as possible. This last solution works only if your scanner accepts CMYK and you own Photoshop software. In my case, I was able to get that gold to match perfectly from the mascot image at the [Georgia Tech Athletic site](http://ramblinwreck.cstv.com/). The gold is \#eab200, and the black is, well, black (\#000000). The background, which is a dark green-blue (\#002123), was used in the drop shadow in the logo. So, what could have been problematic was made easy through a simple bumblebee mascot, as seen in Figure 2:
 
-![Georgia Tech mascot](/assets/public/3/3c/Bee00000.jpg)
+![Georgia Tech mascot](//static.webplatform.org/3/3c/Bee00000.jpg)
 
 Figure 2: A portion of Georgia Tech’s mascot used to match logo colours.
 
@@ -93,7 +93,7 @@ For the layout, and for simplicity’s sake for this tutorial, I will demonstrat
 
 The same “above the fold” theory applies to website design. Anything that shows on a monitor when a visitor enters a site is “above the fold”. Any copy that a viewer needs to scroll down to view is “below the fold”. So, the trick is to keep a website visitor’s attention with the first images and copy that they view on any monitor, no matter the resolution (which is just one good reason to test your websites on a number of different monitors/screen resolutions—an issue addressed later in this article). A rough example for the initial layout for Wiki Whatevers is shown in Figure 3:
 
-![Wireframe](/assets/public/9/94/Wirefram.jpg)
+![Wireframe](//static.webplatform.org/9/94/Wirefram.jpg)
 
 Figure 3: Rough layout (wireframe) for the Wiki Whatevers home page
 

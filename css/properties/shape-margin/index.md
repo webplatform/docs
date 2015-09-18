@@ -1,7 +1,7 @@
 ---
 title: 'shape-margin'
 code_samples:
-  - 'http://gist.github.com/6495f066863775c4aa27'
+  - 'http://code.webplatform.org/gist/6495f066863775c4aa27'
 compatibility:
   feature: shape-margin
   topic: css
@@ -78,7 +78,7 @@ Curabitur et fermentum neque. Praesent hendrerit aliquam nunc sed aliquet. Phase
 </div>
 ```
 
-[View live example](http://gist.github.com/6495f066863775c4aa27)
+[View live example](http://code.webplatform.org/gist/6495f066863775c4aa27)
 
 In the CSS class, we float the image left, set its shape to be the same image, and then we set a margin of 30px.
 

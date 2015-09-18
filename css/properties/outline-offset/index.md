@@ -3,7 +3,7 @@ title: 'outline-offset'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5579301'
+  - 'http://code.webplatform.org/gist/5579301'
 compatibility:
   feature: outline-offset
   topic: css
@@ -83,7 +83,7 @@ The outline-offset property offsets the outline and draw it beyond the border ed
 &lt;/div&gt;
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://gist.github.com/5579301">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/5579301">View live example</a>
 </p>
 </div>
 <p><br/></p>
@@ -119,7 +119,7 @@ The outline-offset property offsets the outline and draw it beyond the border ed
 }
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://gist.github.com/5579301">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/5579301">View live example</a>
 </p>
 </div>
 <h2>Usage</h2>

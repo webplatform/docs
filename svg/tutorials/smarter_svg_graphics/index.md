@@ -54,7 +54,7 @@ SVG's support for gradients is similar to CSS's. Two kinds of gradient are avail
 </linearGradient>
 ```
 
- ![svg gfx gradient linear bw.png](/assets/thumb/a/a8/svg_gfx_gradient_linear_bw.png/200px-svg_gfx_gradient_linear_bw.png)
+ ![svg gfx gradient linear bw.png](//static.webplatform.org/thumb/a/a8/svg_gfx_gradient_linear_bw.png/200px-svg_gfx_gradient_linear_bw.png)
 
 In their simplest form, gradients require at least two nested [**stop**](/svg/elements/stop) elements to transition between their [**stop-color**](/w/index.php?title=svg/properties/stop-color&action=edit&redlink=1) properties. The [**offset**](/w/index.php?title=svg/attributes/offset&action=edit&redlink=1) attribute specifies the progression of colors, either in percentage or corresponding decimal terms. That progression follows the line defined by the [**linearGradient**](/svg/elements/linearGradient) element's pair of *x* and *y* coordinates. If **y1** were 1 in this example, the gradient would shift from the top left to the bottom right.
 
@@ -79,7 +79,7 @@ This example defines many more colors, progressing from bottom to top. Setting [
 </linearGradient>
 ```
 
- ![svg gfx gradient linear.png](/assets/thumb/b/b9/svg_gfx_gradient_linear.png/200px-svg_gfx_gradient_linear.png)
+ ![svg gfx gradient linear.png](//static.webplatform.org/thumb/b/b9/svg_gfx_gradient_linear.png/200px-svg_gfx_gradient_linear.png)
 
 Radial gradients emanate outwards from the center point by default, filling rectangular shapes elliptically. In this example, which generates an obscure cultural reference to an Iggy Pop song, the black color defined at the 30% mark is extrapolated towards the center at 0%:
 
@@ -94,7 +94,7 @@ Radial gradients emanate outwards from the center point by default, filling rect
 </radialGradient>
 ```
 
- ![svg gfx gradient radial.png](/assets/thumb/b/b9/svg_gfx_gradient_radial.png/200px-svg_gfx_gradient_radial.png)
+ ![svg gfx gradient radial.png](//static.webplatform.org/thumb/b/b9/svg_gfx_gradient_radial.png/200px-svg_gfx_gradient_radial.png)
 
 The [**fx**](/w/index.php?title=svg/attributes/fx&action=edit&redlink=1) and [**fy**](/w/index.php?title=svg/attributes/fy&action=edit&redlink=1) attributes specify coordinates for the *focus* of the gradient, while [**cx**](/w/index.php?title=svg/attributes/cx&action=edit&redlink=1) and [**cy**](/w/index.php?title=svg/attributes/cy&action=edit&redlink=1) set the center of the outermost circle. Modifying the [**r**](/w/index.php?title=svg/attributes/r&action=edit&redlink=1) (radius) effectively resizes the gradient, in this case magnifying it relative to the default 0.5 value:
 
@@ -102,7 +102,7 @@ The [**fx**](/w/index.php?title=svg/attributes/fx&action=edit&redlink=1) and [**
 <radialGradient id="tvRadial" cx="0.5" cy="0.5" fx="0.8" fy="0.5" r="0.6">
 ```
 
- ![svg gfx gradient radialY.png](/assets/thumb/a/a5/svg_gfx_gradient_radialY.png/200px-svg_gfx_gradient_radialY.png)
+ ![svg gfx gradient radialY.png](//static.webplatform.org/thumb/a/a5/svg_gfx_gradient_radialY.png/200px-svg_gfx_gradient_radialY.png)
 
 [View the SVG file here](http://letmespellitoutforyou.com/samples/svg/tv_gradient.svg).
 
@@ -114,7 +114,7 @@ SVG's patterns are similar to CSS's repeating background images, but allow you m
 <rect id="tileRect" x="0.5" y="0.5" width="9.0" height="4.0" fill="#E1BC9B" />
 ```
 
- ![svg gfx tileRect.png](/assets/thumb/3/35/svg_gfx_tileRect.png/100px-svg_gfx_tileRect.png)
+ ![svg gfx tileRect.png](//static.webplatform.org/thumb/3/35/svg_gfx_tileRect.png/100px-svg_gfx_tileRect.png)
 
 The graphic is wrapped within a [**pattern**](/svg/elements/pattern) element. Its [**width**](/w/index.php?title=svg/attributes/width&action=edit&redlink=1) and [**height**](/w/index.php?title=svg/attributes/height&action=edit&redlink=1) correspond to the intended size of tile. The [**x**](/w/index.php?title=svg/attributes/x&action=edit&redlink=1) and [**y**](/w/index.php?title=svg/attributes/y&action=edit&redlink=1) simply specify the pattern's offset starting point.
 
@@ -145,11 +145,11 @@ Use the [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1)
 </g>
 ```
 
- ![svg gfx pattern rect.png](/assets/thumb/4/48/svg_gfx_pattern_rect.png/300px-svg_gfx_pattern_rect.png)
+ ![svg gfx pattern rect.png](//static.webplatform.org/thumb/4/48/svg_gfx_pattern_rect.png/300px-svg_gfx_pattern_rect.png)
 
 Increasing the pattern's [**width**](/w/index.php?title=svg/attributes/width&action=edit&redlink=1) and [**height**](/w/index.php?title=svg/attributes/height&action=edit&redlink=1) attributes allows you control over the tile's margins:
 
-![svg gfx pattern rect wh.png](/assets/thumb/8/86/svg_gfx_pattern_rect_wh.png/300px-svg_gfx_pattern_rect_wh.png)
+![svg gfx pattern rect wh.png](//static.webplatform.org/thumb/8/86/svg_gfx_pattern_rect_wh.png/300px-svg_gfx_pattern_rect_wh.png)
 
 ## More complex tile patterns
 
@@ -162,7 +162,7 @@ This pattern consists of a very simple shape. You can make the pattern's nested 
 </g>
 ```
 
- ![svg gfx tileRectBlack.png](/assets/thumb/f/f7/svg_gfx_tileRectBlack.png/100px-svg_gfx_tileRectBlack.png)
+ ![svg gfx tileRectBlack.png](//static.webplatform.org/thumb/f/f7/svg_gfx_tileRectBlack.png/100px-svg_gfx_tileRectBlack.png)
 
 A *tileSquare* object duplicates the underlying graphic and uses a [**transform**](/w/index.php?title=svg/attributes/transform&action=edit&redlink=1) to move it below the original to form a 10×10 square:
 
@@ -173,7 +173,7 @@ A *tileSquare* object duplicates the underlying graphic and uses a [**transform*
 </g>
 ```
 
- ![svg gfx tileSquare.png](/assets/thumb/1/1e/svg_gfx_tileSquare.png/100px-svg_gfx_tileSquare.png)
+ ![svg gfx tileSquare.png](//static.webplatform.org/thumb/1/1e/svg_gfx_tileSquare.png/100px-svg_gfx_tileSquare.png)
 
 The square is then repeated four times within a larger 20×20 square:
 
@@ -192,11 +192,11 @@ The square is then repeated four times within a larger 20×20 square:
 </g>
 ```
 
- ![svg gfx tiles.png](/assets/thumb/5/54/svg_gfx_tiles.png/200px-svg_gfx_tiles.png)
+ ![svg gfx tiles.png](//static.webplatform.org/thumb/5/54/svg_gfx_tiles.png/200px-svg_gfx_tiles.png)
 
 All the tiles except for the first one have transforms that move them to the bottom-right corner of the larger square. The second and third are rotated, pivoting around their top-left corners so that they occupy the other two corners. (Unlike CSS transforms, SVG transforms do not *originate* around the object's center point.) Rotating by only 80 degrees may clarify how the transform works:
 
-![svg gfx tiles rot.png](/assets/thumb/a/a8/svg_gfx_tiles_rot.png/200px-svg_gfx_tiles_rot.png)
+![svg gfx tiles rot.png](//static.webplatform.org/thumb/a/a8/svg_gfx_tiles_rot.png/200px-svg_gfx_tiles_rot.png)
 
 To apply the modified fill, reference the more complex object, and increase the pattern's tiling area to accomodate it:
 
@@ -215,15 +215,15 @@ To apply the modified fill, reference the more complex object, and increase the 
 </pattern>
 ```
 
- ![svg gfx pattern.png](/assets/thumb/8/87/svg_gfx_pattern.png/300px-svg_gfx_pattern.png)
+ ![svg gfx pattern.png](//static.webplatform.org/thumb/8/87/svg_gfx_pattern.png/300px-svg_gfx_pattern.png)
 
 If the pattern is not sized appropriately for the shape, you do not have to resize the pattern's dimensions or any of the component tiles. The example above specifies a [**patternTransform**](/w/index.php?title=svg/attributes/patternTransform&action=edit&redlink=1) attribute with a *scale(1)* transform that leaves the size unchanged, but increasing the value to 1.5 magnifies the pattern:
 
-![svg gfx pattern scale.png](/assets/thumb/8/82/svg_gfx_pattern_scale.png/300px-svg_gfx_pattern_scale.png)
+![svg gfx pattern scale.png](//static.webplatform.org/thumb/8/82/svg_gfx_pattern_scale.png/300px-svg_gfx_pattern_scale.png)
 
 Other transforms allow you to reorient and reshape the pattern. In this example, *scale(1.5) skewY(15) rotate(30)* boosts the pattern's size, shears it slightly into a diamond shape, and spins it:
 
-![svg gfx pattern skewrot.png](/assets/thumb/1/1e/svg_gfx_pattern_skewrot.png/300px-svg_gfx_pattern_skewrot.png)
+![svg gfx pattern skewrot.png](//static.webplatform.org/thumb/1/1e/svg_gfx_pattern_skewrot.png/300px-svg_gfx_pattern_skewrot.png)
 
 [View the SVG file here](http://letmespellitoutforyou.com/samples/svg/pattern_fill.svg).
 
@@ -249,7 +249,7 @@ Place a [**clipPath**](/svg/elements/clipPath) element around the shape you want
 </g>
 ```
 
- ![svg gfx clip.png](/assets/thumb/3/34/svg_gfx_clip.png/200px-svg_gfx_clip.png)
+ ![svg gfx clip.png](//static.webplatform.org/thumb/3/34/svg_gfx_clip.png/200px-svg_gfx_clip.png)
 
 [View the SVG file here](http://letmespellitoutforyou.com/samples/svg/tv_clip.svg).
 
@@ -266,27 +266,27 @@ While SVG is designed for vector graphics, it can freely incorporate raster grap
 
     xMinYMin meet
 
-![xMinYMin meet.png](/assets/thumb/a/a6/xMinYMin_meet.png/300px-xMinYMin_meet.png)
+![xMinYMin meet.png](//static.webplatform.org/thumb/a/a6/xMinYMin_meet.png/300px-xMinYMin_meet.png)
 
     xMidYMid meet
 
-![xMidYMid meet.png](/assets/thumb/f/f6/xMidYMid_meet.png/300px-xMidYMid_meet.png)
+![xMidYMid meet.png](//static.webplatform.org/thumb/f/f6/xMidYMid_meet.png/300px-xMidYMid_meet.png)
 
     xMaxYMax meet
 
-![xMaxYMax meet.png](/assets/thumb/5/54/xMaxYMax_meet.png/300px-xMaxYMax_meet.png)
+![xMaxYMax meet.png](//static.webplatform.org/thumb/5/54/xMaxYMax_meet.png/300px-xMaxYMax_meet.png)
 
     xMinYMin slice
 
-![xMinYMin slice.png](/assets/thumb/d/d1/xMinYMin_slice.png/300px-xMinYMin_slice.png)
+![xMinYMin slice.png](//static.webplatform.org/thumb/d/d1/xMinYMin_slice.png/300px-xMinYMin_slice.png)
 
     xMidYMid slice
 
-![xMidYMid slice.png](/assets/thumb/a/a4/xMidYMid_slice.png/300px-xMidYMid_slice.png)
+![xMidYMid slice.png](//static.webplatform.org/thumb/a/a4/xMidYMid_slice.png/300px-xMidYMid_slice.png)
 
     xMaxYMax slice
 
-![xMaxYMax slice.png](/assets/thumb/7/79/xMaxYMax_slice.png/300px-xMaxYMax_slice.png)
+![xMaxYMax slice.png](//static.webplatform.org/thumb/7/79/xMaxYMax_slice.png/300px-xMaxYMax_slice.png)
 
 Images scale depending on the current [**viewBox**](/w/index.php?title=svg/attributes/viewBox&action=edit&redlink=1). For example, if the SVG importing the image appears within a *viewport* of 500×500 pixels (as specified by its own [**width**](/w/index.php?title=svg/attributes/width&action=edit&redlink=1) and [**height**](/w/index.php?title=svg/attributes/height&action=edit&redlink=1)), but its [**viewBox**](/w/index.php?title=svg/attributes/viewBox&action=edit&redlink=1) attribute specifies **0 0 1000 1000**, then the image appears much smaller.
 
@@ -296,7 +296,7 @@ You can also use the [**image**](/svg/elements/image) element to import SVG grap
 <image xlink:href="face_components.svg#eyes" x="10" y="10" width="300" height="100"/>
 ```
 
- ![svg image import svg.png](/assets/public/9/96/svg_image_import_svg.png)
+ ![svg image import svg.png](//static.webplatform.org/9/96/svg_image_import_svg.png)
 
 These externally referenced SVG components may animate, but they do not preserve any interactive features.
 

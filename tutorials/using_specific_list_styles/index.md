@@ -50,7 +50,7 @@ When these classes are used in a list, they distinguish between open and closed 
 <p><br/>
 The result might look like this:
 </p><p>
-<img alt="csslists1.png" src="/assets/public/e/e1/csslists1.png" width="195" height="113"/></p><p><i>Figure 1. Open and closed (circle and disc) list item bullets.</i>
+<img alt="csslists1.png" src="//static.webplatform.org/e/e1/csslists1.png" width="195" height="113"/></p><p><i>Figure 1. Open and closed (circle and disc) list item bullets.</i>
 </p><p>You can also use <a href="/css/selectors/pseudo-classes/Structural_pseudo-classes#:nth-child.28.29_pseudo-class">:nth-child</a> pseudo-class with the same result.
 </p>
 <h3>Ordered lists</h3>
@@ -79,7 +79,7 @@ The <code>li</code> elements in the list inherit this style:
 <p><br/>
 And that result might look like this:
 </p><p>
-<img alt="csslists2.png" src="/assets/public/2/2f/csslists2.png" width="202" height="116"/></p><p><i>Figure 2. Ordered list items marked with capital letters.</i>
+<img alt="csslists2.png" src="//static.webplatform.org/2/2f/csslists2.png" width="202" height="116"/></p><p><i>Figure 2. Ordered list items marked with capital letters.</i>
 </p><p>The <code>list-style</code> property is a shorthand property. In complex style sheets, you might prefer to use separate properties to set separate values. For links to these separate properties, and to learn more details about how CSS specifies lists, see <a href="/css/properties/list-style">list-style</a>.
 </p><p>Browsers differ in the way they implement the styles for lists. Do not expect your style sheet to provide identical results in all browsers.
 </p>
@@ -122,7 +122,7 @@ So, for this HTML:
 <p><br/>
 the result looks like this:
 </p><p>
-<img alt="csslists3.png" src="/assets/public/a/a0/csslists3.png" width="203" height="140"/></p><p><i>Figure 3. Numbered paragraphs using the <code>counter</code> property.</i>
+<img alt="csslists3.png" src="//static.webplatform.org/a/a0/csslists3.png" width="203" height="140"/></p><p><i>Figure 3. Numbered paragraphs using the <code>counter</code> property.</i>
 </p><p>You cannot use counters unless you are sure that everyone who reads your document has a browser that supports them.
 If you are able to use counters, they have the advantage that you can style the counters separately from the list items. In the example above, the counters are bold but the list items are not.
 </p><p>You can also use counters in more complex ways—for example, to number sections, headings, subheadings and paragraphs in formal documents. For details, see <a rel="nofollow" class="external text" href="http://www.w3.org/TR/CSS21/generate.html#counters">Automatic counters and numbering</a> in the CSS Specification.
@@ -179,7 +179,7 @@ If you are able to use counters, they have the advantage that you can style the 
 <li>
 <p>Open the document in your browser. If your browser supports counters, you see something like the example below. If your browser does not support counters, then you will not see the numbers (and it is likely that even the colons will not display):</p>
 <p>
-<img alt="csslists4.png" src="/assets/public/7/78/csslists4.png" width="262" height="365"/></p><p><i>Figure 4. Unordered list items and numbered paragraphs.</i>
+<img alt="csslists4.png" src="//static.webplatform.org/7/78/csslists4.png" width="262" height="365"/></p><p><i>Figure 4. Unordered list items and numbered paragraphs.</i>
 </p>
 </li>
 <p>It is also important to mention for this tutorial that styled lists are often used as menus because of semantics. For that people use css properties like list-style: none, display: inline-block or block etc, pseudo-classes like ::before and ::after and other custom styles for these items to look beautiful.

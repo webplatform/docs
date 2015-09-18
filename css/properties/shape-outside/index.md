@@ -1,7 +1,7 @@
 ---
 title: 'shape-outside'
 code_samples:
-  - 'http://gist.github.com/5832982'
+  - 'http://code.webplatform.org/gist/5832982'
 compatibility:
   feature: shape-outside
   topic: css
@@ -129,7 +129,7 @@ shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
 shape-outside: url(path/to/image.png);
 ```
 
-[View live example](http://gist.github.com/5832982)
+[View live example](http://code.webplatform.org/gist/5832982)
 
 ## Usage
 

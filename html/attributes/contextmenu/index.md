@@ -1,7 +1,7 @@
 ---
 title: 'contextmenu'
 code_samples:
-  - 'http://gist.github.com/11067829'
+  - 'http://code.webplatform.org/gist/11067829'
 compatibility:
   feature: contextmenu
   topic: html
@@ -80,7 +80,7 @@ var increaseItem = document.getElementById('increaseImageSize'),
 </script>
 ```
 
-[View live example](http://gist.github.com/11067829)
+[View live example](http://code.webplatform.org/gist/11067829)
 
 ## Usage
 

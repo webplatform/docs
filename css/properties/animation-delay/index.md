@@ -4,8 +4,8 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/animation-delay)'
   - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
 code_samples:
-  - 'http://gist.github.com/7011569'
-  - 'http://gist.github.com/7012307'
+  - 'http://code.webplatform.org/gist/7011569'
+  - 'http://code.webplatform.org/gist/7012307'
 compatibility:
   feature: animation-delay
   topic: css
@@ -78,7 +78,7 @@ div.animationDelay {
 }
 ```
 
-[View live example](http://gist.github.com/7011569)
+[View live example](http://code.webplatform.org/gist/7011569)
 
 An example of a mobile-like interface in which concurrent *moveContent* and *insertBanner* animations introduce a colored banner header after a 4-second delay. A subsequent *scrollBanner* animation uses a similar delay to start 5 seconds after the page loads.
 
@@ -125,7 +125,7 @@ header {
 }
 ```
 
-[View live example](http://gist.github.com/7012307)
+[View live example](http://code.webplatform.org/gist/7012307)
 
 ## Usage
 

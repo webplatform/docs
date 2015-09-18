@@ -4,11 +4,11 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/clear)'
   - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
 code_samples:
-  - 'http://gist.github.com/6042258'
-  - 'http://gist.github.com/6065677'
-  - 'http://gist.github.com/6065820'
-  - 'http://gist.github.com/6065831'
-  - 'http://gist.github.com/6072801'
+  - 'http://code.webplatform.org/gist/6042258'
+  - 'http://code.webplatform.org/gist/6065677'
+  - 'http://code.webplatform.org/gist/6065820'
+  - 'http://code.webplatform.org/gist/6065831'
+  - 'http://code.webplatform.org/gist/6072801'
 compatibility:
   feature: clear
   topic: css
@@ -100,7 +100,7 @@ p{
 }
 ```
 
-[View live example](http://gist.github.com/6042258)
+[View live example](http://code.webplatform.org/gist/6042258)
 
 Example of `clear: left;` in use.
 
@@ -111,7 +111,7 @@ p{
 }
 ```
 
-[View live example](http://gist.github.com/6065677)
+[View live example](http://code.webplatform.org/gist/6065677)
 
 Example of `clear: right;` in use.
 
@@ -122,7 +122,7 @@ p{
 }
 ```
 
-[View live example](http://gist.github.com/6065820)
+[View live example](http://code.webplatform.org/gist/6065820)
 
 Example of `clear: both;` in use.
 
@@ -133,7 +133,7 @@ p{
 }
 ```
 
-[View live example](http://gist.github.com/6065831)
+[View live example](http://code.webplatform.org/gist/6065831)
 
 Moving a footer below all floated content above.
 
@@ -147,7 +147,7 @@ pretend the black box labeled <code>float:left;</code> is an image floated left.
 <footer id="footer">This is a footer.</footer>
 ```
 
-[View live example](http://gist.github.com/6072801)
+[View live example](http://code.webplatform.org/gist/6072801)
 
 ## Notes
 

@@ -1,7 +1,7 @@
 ---
 title: 'shape-image-threshold'
 code_samples:
-  - 'http://gist.github.com/5833790'
+  - 'http://code.webplatform.org/gist/5833790'
 compatibility:
   feature: shape-image-threshold
   topic: css
@@ -75,7 +75,7 @@ Extract a shape from an image by enclosing all pixels greater than 25% opacity
 }
 ```
 
-[View live example](http://gist.github.com/5833790)
+[View live example](http://code.webplatform.org/gist/5833790)
 
 ## Usage
 

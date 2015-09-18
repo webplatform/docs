@@ -1,8 +1,8 @@
 ---
 title: 'margin'
 code_samples:
-  0: 'http://gist.github.com/5727296'
-  2: 'http://gist.github.com/5727295'
+  0: 'http://code.webplatform.org/gist/5727296'
+  2: 'http://code.webplatform.org/gist/5727295'
 compatibility:
   feature: margin
   topic: css
@@ -91,7 +91,7 @@ A simple example showing different combinations of margin values applied to thre
 <div class="three"></div>
 ```
 
-[View live example](http://gist.github.com/5727296)
+[View live example](http://code.webplatform.org/gist/5727296)
 
 The CSS applied to the above HTML.
 
@@ -133,7 +133,7 @@ div {
 }
 ```
 
-[View live example](http://gist.github.com/5727296)
+[View live example](http://code.webplatform.org/gist/5727296)
 
 The following example demonstrates the different ways of using the `margin` property.
 
@@ -170,7 +170,7 @@ The following example demonstrates the different ways of using the `margin` prop
 }
 ```
 
-[View live example](http://gist.github.com/5727295)
+[View live example](http://code.webplatform.org/gist/5727295)
 
 The HTML accompanying the above example.
 

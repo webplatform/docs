@@ -395,7 +395,7 @@ Confused yet? The next experiment should make things clearer.
 
 1.  Save and reload. Now both the grey square and the blue square establish local stacking contexts, giving us two envelopes. At the bottom of the stack is an envelope with stack level 1, containing two inner envelopes (the blue square and the cyan square). At the top of the stack is an envelope with stack level 2, containing two inner envelopes (the grey square and the yellow square). In the first envelope, the blue square has local stack level 0 so therefore appears behind the cyan square, which has local stack level 3. In the second envelope, the grey square has local stack level 0 so therefore appears behind the yellow square with local stack level 4. Figure 1 shows the four boxes and the two local stacking contexts from the side, along the Z axis.
 
-![The blue box is at the bottom, followed by the cyan, grey and yellow boxes](/assets/public/f/f3/stacking.png)
+![The blue box is at the bottom, followed by the cyan, grey and yellow boxes](//static.webplatform.org/f/f3/stacking.png)
 
 Figure 1: Illustration of different stacking contexts. The elements appearing inside "2" will always appear in front of all of the elements inside "1". Then within each stacking context, elements with a higher z-index number appear in front of elements with a small z-index number. If two elements have the same z-index number, the one appearing later in the markup will appear in front.
 

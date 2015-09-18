@@ -279,7 +279,7 @@ Beyond that, a good way to test the operability of websites is simply to try to 
 
 Screen readers and other assistive technology can make use of the semantic structure of (X)HTML to correctly associate content and to enable navigation of content. For example, screen readers can allow users to jump to the next occurrence of headings or other element type, or they can list all occurrences of a certain type. Correct use of `label` and `legend` elements allows assistive technology to associate labels with the correct form fields; correct use of `th` elements and `header`, `scope`, and `axis` attributes allows it to associate table headings with table data cells. Semantic structure may be evaluated with a document object model (DOM) inspector like the one found in Opera Dragonfly. Accessibility inspection tools like the Firefox Accessibility Extension can make such tasks easier by, for example, listing the headings on the page, or listing the attributes of form fields (quickly showing which ones are missing associated labels). See Figure 1 for an example.
 
-![Screenshot of Firefox Accessibility Extensions forms information window with the new BBC homepage](/assets/public/b/b1/firefox-.gif)
+![Screenshot of Firefox Accessibility Extensions forms information window with the new BBC homepage](//static.webplatform.org/b/b1/firefox-.gif)
 
 Figure 1: Screenshot of Firefox Accessibility Extension’s forms information window with the new BBC homepage.
 

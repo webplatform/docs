@@ -21,7 +21,7 @@ Responsive Web Design is an approach that emphasises design which works well acr
 
 Ethan Marcotte's article for A List Apart
 
-![Ethan Marcotte's article for A List Apart](/assets/thumb/b/b9/marcotte.jpg/400px-marcotte.jpg)
+![Ethan Marcotte's article for A List Apart](//static.webplatform.org/thumb/b/b9/marcotte.jpg/400px-marcotte.jpg)
 
 The term was coined by Ethan Marcotte in [an article on A List Apart](http://www.alistapart.com/articles/responsive-web-design/), who suggested three methods to cope with different browser window sizes:
 
@@ -41,7 +41,7 @@ Jared Ponchot points out that [the web was by it's very nature designed to be re
 
 Smashing Mobile Book
 
-![Smashing Mobile Book](/assets/public/c/c3/mobile_book.jpg)
+![Smashing Mobile Book](//static.webplatform.org/c/c3/mobile_book.jpg)
 
 Maintaining a parallel 'mdot' website for mobile platforms -- for example, serving m.webplatform.org to mobile devices and www.webplatform.org to desktop browsers -- can incur significant overheads for code management, content synchronisation and hosting infrastructure.
 
@@ -55,7 +55,7 @@ Consistent content is king! Responsive design can be used to give all your users
 
 Responsive Comping article by Matt Griffin
 
-![Responsive Comping article by Matt Griffin](/assets/thumb/6/6c/responsive_comping.jpg/300px-responsive_comping.jpg)
+![Responsive Comping article by Matt Griffin](//static.webplatform.org/thumb/6/6c/responsive_comping.jpg/300px-responsive_comping.jpg)
 
 For RWD to work, everyone involved in the production process must collaborate, including designers, coders, writers, illustrators and business managers. Different workers have may have different skills, but good design has to be holistic.
 
@@ -96,7 +96,7 @@ One of the major problems with using px (pixel) units on mobile devices is that 
 
 A diagram showing one reference angular pixel, to help illustrate how devicePixelRatio is calculated
 
-![A diagram showing one reference angular pixel, to help illustrate how devicePixelRatio is calculated.](/assets/thumb/3/37/device_pixel_ratio.png/400px-device_pixel_ratio.png)
+![A diagram showing one reference angular pixel, to help illustrate how devicePixelRatio is calculated.](//static.webplatform.org/thumb/3/37/device_pixel_ratio.png/400px-device_pixel_ratio.png)
 
 Browser vendors such as Apple and Mozilla found that sites displayed poorly on high-resolution devices (i.e. those with a high density of physical pixels) if browsers kept to a one-to-one ratio between CSS pixels and device pixels. As a result, this ratio varies across browsers and platforms.
 
@@ -129,7 +129,7 @@ You can use media queries to apply different stylesheets:
 
 mediaqueri.es site
 
-![mediaqueri.es site](/assets/thumb/d/db/mediaqueri.es.png/400px-mediaqueri.es.png)
+![mediaqueri.es site](//static.webplatform.org/thumb/d/db/mediaqueri.es.png/400px-mediaqueri.es.png)
 
 'Breakpoint' is CSS-speak for the dimensions at which a different sets of style rules should be applied. Layout are liable to 'break' at particular sizes: for example, two 350px-wide images side by side with no padding or margin might overlap horizontally when the width of the viewport goes below 700px.
 
@@ -172,7 +172,7 @@ W3C Recommendation: [w3.org/TR/css3-mediaqueries](http://www.w3.org/TR/css3-medi
 
 Remy Sharp's responsivepx tool
 
-![Remy Sharp's responsivepx tool](/assets/thumb/c/ce/responsivepx.png/500px-responsivepx.png)
+![Remy Sharp's responsivepx tool](//static.webplatform.org/thumb/c/ce/responsivepx.png/500px-responsivepx.png)
 
 For responsive design to work well, it is especially important to test sites and applications at different viewport sizes.
 
@@ -182,7 +182,7 @@ Remy Sharp's [responsivepx](http://responsivepx.com/?simpl.info#640x480&scrollba
 
 Brad Frost's ish resizer
 
-![Brad Frost's ish resizer](/assets/thumb/9/9f/ish.png/500px-ish.png)
+![Brad Frost's ish resizer](//static.webplatform.org/thumb/9/9f/ish.png/500px-ish.png)
 
 Brad Frost's [ish](http://bradfrostweb.com/demo/ish/) resizer emphasises that breakpoints should be based on content rather than nominal device dimensions.
 
@@ -237,7 +237,7 @@ Brad Frost: list of RWD [performance resources](http://bradfrost.github.com/this
 
 Bruce Lawson blog post: opting out of RWD
 
-![Bruce Lawson blog post: opting out of RWD](/assets/thumb/e/e9/bruce_lawson.png/300px-bruce_lawson.png)
+![Bruce Lawson blog post: opting out of RWD](//static.webplatform.org/thumb/e/e9/bruce_lawson.png/300px-bruce_lawson.png)
 
 Bruce Lawson and other developers have suggested that it might be appropriate to give users the option to opt out of RWD: his [blog post](http://www.brucelawson.co.uk/2013/turning-off-responsive-web-design/) on the subject, has links to articles explaining techniques for enabling this.
 

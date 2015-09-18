@@ -1,7 +1,7 @@
 ---
 title: 'caption'
 code_samples:
-  - 'http://gist.github.com/7282268'
+  - 'http://code.webplatform.org/gist/7282268'
 compatibility:
   feature: caption
   topic: html
@@ -60,7 +60,7 @@ This example uses the **caption** element to provide a brief description for a t
 
 ```
 
-[View live example](http://gist.github.com/7282268)
+[View live example](http://code.webplatform.org/gist/7282268)
 
 ## Notes
 

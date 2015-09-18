@@ -195,7 +195,7 @@ webページがブラウザでよさそうに見えれば、検証しなくて�
 
 どの方法を使っても同じ結果が出るはずです。例のページをテストする一番簡単な方法は、この上の例のコードをすべてコピーし、3番目のタブに貼り付ける方法です。そうすると、Figure 1で見られる結果が返ってくるはずです。
 
-![The results of validating the sample document is 11 errors](/assets/public/2/2b/html_validation_errors.png)
+![The results of validating the sample document is 11 errors](//static.webplatform.org/2/2b/html_validation_errors.png)
 
 *Figure 1: サンプルのドキュメントを検証した結果 — 11個のエラー!*
 
@@ -210,7 +210,7 @@ webページがブラウザでよさそうに見えれば、検証しなくて�
 
 4つのエラーを修正すると残り7つはなくなり、望み通りバリデータは成功した旨のメッセージを表示します。Figure 2がそれです。
 
-![A success message to say that all my errors have been fixed](/assets/public/2/2a/validatehtml2.gif)
+![A success message to say that all my errors have been fixed](//static.webplatform.org/2/2a/validatehtml2.gif)
 
 「Figure 2: エラーがすべて修正されたことを伝える成功のメッセージ」
 

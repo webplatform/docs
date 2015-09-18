@@ -3,8 +3,8 @@ title: 'padding-bottom'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
 code_samples:
-  - 'http://gist.github.com/6948355'
-  - 'http://gist.github.com/6948398'
+  - 'http://code.webplatform.org/gist/6948355'
+  - 'http://code.webplatform.org/gist/6948398'
 compatibility:
   feature: padding-bottom
   topic: css
@@ -77,13 +77,13 @@ The following examples use the `padding-bottom` property to change the [padding]
 td { padding-bottom: 20%; }
 ```
 
-[View live example](http://gist.github.com/6948355)
+[View live example](http://code.webplatform.org/gist/6948355)
 
 ``` css
 td { padding-bottom: 30px; }
 ```
 
-[View live example](http://gist.github.com/6948398)
+[View live example](http://code.webplatform.org/gist/6948398)
 
 ## Related specifications
 

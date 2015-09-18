@@ -44,7 +44,7 @@ These key points serve as reference:
 
 For transitions to work, there need to be two sets of style sheets that might apply to any element as users interact with the page. In this case, tapping a small **nav** element expands it out to a wider navigation panel:
 
-![transit parent.png](/assets/public/f/f1/transit_parent.png)
+![transit parent.png](//static.webplatform.org/f/f1/transit_parent.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/transit_nested_toplayer.html))
 
@@ -127,7 +127,7 @@ We want the panel to display a set of nested navigation icons, in this case a se
 
 The [**opacity**](/css/properties/opacity) property fades the icons, and [**transform**](/css/properties/transform) grows or shrinks them down to a point. (See the [tutorial on CSS transforms](/tutorials/css_transforms) for details.) Combined, the two sets of transitions execute simultaneously:
 
-![transit simple.png](/assets/thumb/a/a3/transit_simple.png/280px-transit_simple.png)
+![transit simple.png](//static.webplatform.org/thumb/a/a3/transit_simple.png/280px-transit_simple.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/transit_nested.html))
 
@@ -139,7 +139,7 @@ For an element to be transitioned, it must specify a numeric value or percentage
 
 You are not limited to a single set of transitions to get from one set of style sheets to another. The panel in this example first grows to its full width, then lengthens. The sequence is then reversed when collapsing the panel back down to icon size:
 
-![transit sequence.png](/assets/thumb/b/bf/transit_sequence.png/900px-transit_sequence.png)
+![transit sequence.png](//static.webplatform.org/thumb/b/bf/transit_sequence.png/900px-transit_sequence.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/transit_sequence.html))
 
@@ -206,7 +206,7 @@ Note that with no delay specified, you can use more than one transition to anima
 
 The overall movement is staggered like this:
 
-![transit delay.png](/assets/public/5/51/transit_delay.png)
+![transit delay.png](//static.webplatform.org/5/51/transit_delay.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/transit_delay.html))
 
@@ -216,26 +216,26 @@ The overall movement is staggered like this:
 
 You may notice in the example above that the cards are not evenly spaced. That's because transitions by default start out slowly, gather speed, then slow down again at the end. The [**transition-timing-function**](/css/properties/transition-timing-function) property specifies this behavior. By default it uses an **ease** value. If it were **linear**, they would all start and stop abruptly and move at the same speed:
 
-![transit linear.png](/assets/public/9/95/transit_linear.png)
+![transit linear.png](//static.webplatform.org/9/95/transit_linear.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/transit_delay_linear.html))
 
 Browsers represent these keywords as bezier curves, which makes their response easier to visualize. Here is the basic set of keyword values along with their alternate [**cubic-bezier()**](/css/functions/cubic-bezier) functions. The animation's elapsed time and progress correspond to *x* and *y* axes, so the more the line curves vertically along the way, the faster the animation proceeds:
 
 **linear**
-**cubic-bezier(0.0, 0.0, 1.0, 1.0)** ![transitF linear.png](/assets/thumb/8/8e/transitF_linear.png/230px-transitF_linear.png)
+**cubic-bezier(0.0, 0.0, 1.0, 1.0)** ![transitF linear.png](//static.webplatform.org/thumb/8/8e/transitF_linear.png/230px-transitF_linear.png)
 
 **ease**
-**cubic-bezier(0.25, 0.1, 0.25, 1.0)** ![transitF ease.png](/assets/thumb/7/73/transitF_ease.png/230px-transitF_ease.png)
+**cubic-bezier(0.25, 0.1, 0.25, 1.0)** ![transitF ease.png](//static.webplatform.org/thumb/7/73/transitF_ease.png/230px-transitF_ease.png)
 
 **ease-in-out**
-**cubic-bezier(0.42, 0, 0.58, 1.0)** ![transitF easeinout.png](/assets/thumb/6/67/transitF_easeinout.png/230px-transitF_easeinout.png)
+**cubic-bezier(0.42, 0, 0.58, 1.0)** ![transitF easeinout.png](//static.webplatform.org/thumb/6/67/transitF_easeinout.png/230px-transitF_easeinout.png)
 
 **ease-in**
-**cubic-bezier(0.42, 0, 1.0, 1.0)** ![transitF easein.png](/assets/thumb/6/64/transitF_easein.png/230px-transitF_easein.png)
+**cubic-bezier(0.42, 0, 1.0, 1.0)** ![transitF easein.png](//static.webplatform.org/thumb/6/64/transitF_easein.png/230px-transitF_easein.png)
 
 **ease-out**
-**cubic-bezier(0, 0, 0.58, 1.0)** ![transitF easeout.png](/assets/thumb/0/00/transitF_easeout.png/230px-transitF_easeout.png)
+**cubic-bezier(0, 0, 0.58, 1.0)** ![transitF easeout.png](//static.webplatform.org/thumb/0/00/transitF_easeout.png/230px-transitF_easeout.png)
 
 This useful [cubic bezier function utility](http://cubic-bezier.com) allows you to create your own custom curves and compare them with standard timing keyword values.
 
@@ -254,7 +254,7 @@ The **transitionend** event allows an application to respond after a transition 
 
 In this example, applying a *display* class makes an information panel appear:
 
-![transit end.png](/assets/public/1/13/transit_end.png)
+![transit end.png](//static.webplatform.org/1/13/transit_end.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/transit_end.html))
 
@@ -299,7 +299,7 @@ Transitions between two [**background-image**](/css/properties/background-image)
     div[data-img="4"] { background-image : url("Image04.jpg"); }
     div[data-img="5"] { background-image : url("Image05.jpg"); }
 
-![fade.png](/assets/public/1/1e/fade.png)
+![fade.png](//static.webplatform.org/1/1e/fade.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/transit_bkimg.html))
 
@@ -318,7 +318,7 @@ The [**filter**](/css/properties/filter) property allows you to apply sequences 
       -webkit-transform: translate(100px, 50px) rotateX(45deg) rotateY(-30deg) rotateZ(10deg);
     }
 
-![videofade.png](/assets/public/3/3d/videofade.png)
+![videofade.png](//static.webplatform.org/3/3d/videofade.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/transit_filter_video.html))
 

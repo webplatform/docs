@@ -125,9 +125,9 @@ DnD Download only works on actual URLs that point directly to a resource. If red
 
 To better illustrate the differences between an *actual URL* and a *redirect URL*, see the screen shots below:
 
-*302 redirect URL* ![302 Redirect URL](/assets/public/2/21/dnd01-redirect.png)
+*302 redirect URL* ![302 Redirect URL](//static.webplatform.org/2/21/dnd01-redirect.png)
 
-*Actual URL* ![Actual URL](/assets/public/b/b0/dnd02-actualurl.png)
+*Actual URL* ![Actual URL](//static.webplatform.org/b/b0/dnd02-actualurl.png)
 
 ## Iteration 3
 
@@ -196,9 +196,9 @@ For a demo of this feature, feel free to upload a static file to a Box.net accou
 
 With this feature, you can be creative and make a lot of things possible. Dragging an image to a Windows printer dialog will immediately have the image printed. You can copy a song from Box to your mobile phone's drive, drag a file from Box to your IM client in order to transfer it directly to your friend, etc. This opens up endless possibilities to increase your productivity. See the screen shots below for some examples.
 
-*Dragging a file to the printer* ![Dragging a file to the printer](/assets/public/1/1f/dnd03-dragtoprint.png)
+*Dragging a file to the printer* ![Dragging a file to the printer](//static.webplatform.org/1/1f/dnd03-dragtoprint.png)
 
-*Dragging a file to an IM client* ![Dragging a file to an IM client](/assets/public/8/8d/dnd04-dragtoim.png)
+*Dragging a file to an IM client* ![Dragging a file to an IM client](//static.webplatform.org/8/8d/dnd04-dragtoim.png)
 
 ## Thoughts and future improvements
 

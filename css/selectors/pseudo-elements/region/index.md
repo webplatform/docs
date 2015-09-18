@@ -36,7 +36,7 @@ The *region\_selector* specifies a set of region elements. Within that scope, th
  }
 ```
 
- ![regionRule2.jpeg](/assets/public/5/5c/regionRule2.jpeg)
+ ![regionRule2.jpeg](//static.webplatform.org/5/5c/regionRule2.jpeg)
 
 ## Examples
 

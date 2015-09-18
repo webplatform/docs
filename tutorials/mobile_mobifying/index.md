@@ -30,7 +30,7 @@ As an exercise I thought it would be interesting to take HTML5Rocks!, already an
 
 This article examines how we created a mobile version of HTML5Rocks! optimized for Android and iOS devices. Just load html5rocks.com on a device that supports one of those OSs to see the difference. There are no redirects to a specific mobile version such as "m.html5rocks.com" or other tomfoolery. You get HTML5Rocks! as is... with the added benefit of something that looks great and works well on a mobile device.
 
-*html5rocks.com on desktop (left) and mobile (right)* ![Desktop and mobile html5rocks.com](/assets/public/0/02/mob01-h5r.png)
+*html5rocks.com on desktop (left) and mobile (right)* ![Desktop and mobile html5rocks.com](//static.webplatform.org/0/02/mob01-h5r.png)
 
 ## CSS3 Media queries
 
@@ -170,7 +170,7 @@ Putting everything together, here is a snippet from the `<head>` section of html
 
 On smaller screens, it is far more convenient to scroll vertically than horizontally. Keeping content in a single-column, vertical layout is preferred for mobile. For html5rocks.com, we used CSS3 media queries to create such a layout. Again, this was done without changing markup.
 
-*Single-column vertical layout throughout the site* ![Single-column vertical layout](/assets/public/2/2b/mob02-scl.png)
+*Single-column vertical layout throughout the site* ![Single-column vertical layout](//static.webplatform.org/2/2b/mob02-scl.png)
 
 ## Mobile optimizations
 
@@ -182,7 +182,7 @@ Mobile browsers lack the screen real estate of their desktop counterparts. To ma
 
 One easy way to deal with that is to scroll the page using JavaScript. Even doing so by one pixel will take care of the pesky address bar. To force-hide the address bar on html5rocks.com, I attached an `onload` event handler to the `window` object and scrolled the page vertically by one pixel:
 
-*Ugly address bar takes up screen real estate* ![Ugly address bar](/assets/public/3/3c/mob03-uab.png)
+*Ugly address bar takes up screen real estate* ![Ugly address bar](//static.webplatform.org/3/3c/mob03-uab.png)
 
 Here is the code to fix that:
 
@@ -204,7 +204,7 @@ The following are some of the approaches we took to minimize network requests an
 -   **Remove iframes** — iframes are slow! A large amount of our latency came from 3rd-party sharing widgets (Buzz, Google Friend Connect, Twitter, Facebook) on tutorial pages. These APIs were included via `<script>` tags and created iframes that diminish the speed of the page. The widgets were removed for mobile.
 -   `display:none` — In certain cases, we were hiding markup if it didn't fit the mobile profile. A good example were the four rounded boxes at the top of the homepage:
     *Box buttons on homepage*
-    They're missing from the mobile site. It's important to remember that the browser still makes a request for each icon, despite their container being hidden with `display:none`. Therefore, it wasn't sufficient to simply hide these buttons. Not only would that be wasting bandwidth, but the user wouldn't even see the fruits of that wasted bandwidth! The solution was to create an "is\_mobile" boolean in our Django template to conditionally omit sections of HTML. When the user is viewing the site on a smart device, the buttons are left out.![Box buttons on homepage](/assets/public/d/de/mob04-bbh.png)
+    They're missing from the mobile site. It's important to remember that the browser still makes a request for each icon, despite their container being hidden with `display:none`. Therefore, it wasn't sufficient to simply hide these buttons. Not only would that be wasting bandwidth, but the user wouldn't even see the fruits of that wasted bandwidth! The solution was to create an "is\_mobile" boolean in our Django template to conditionally omit sections of HTML. When the user is viewing the site on a smart device, the buttons are left out.![Box buttons on homepage](//static.webplatform.org/d/de/mob04-bbh.png)
 -   **Application Cache** — Not only does this give us offline support, but it also creates a faster startup.
 -   **CSS/JS compression** — We're using YUI compressor instead of [Closure compiler](http://code.google.com/closure/compiler/) mainly because it handles both CSS and JS. One issue that we ran into was that inline media queries (media queries that appear inside a stylesheet) barfed in YUI compressor 2.4.2 (see [this issue](http://www.456bereastreet.com/archive/201012/yui_compressor_and_css_media_queries/)). Using YUI Compressor 2.4.4+ fixed the problem.
 -   Used CSS image sprites where possible.

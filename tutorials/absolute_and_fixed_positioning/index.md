@@ -358,7 +358,7 @@ Confused yet? The next experiment should make things clearer.
 
 4.  Save and reload. Now both the gray square and the blue square establish local stacking contexts, giving us two envelopes. At the bottom of the stack is an envelope with stack level 1, containing two inner envelopes (the blue square and the cyan square). At the top of the stack is an envelope with stack level 2, containing two inner envelopes (the gray square and the yellow square). In the first envelope, the blue square has local stack level 0 so therefore appears behind the cyan square, which has local stack level 3. In the second envelope, the gray square has local stack level 0 so therefore appears behind the yellow square with local stack level 4. Figure 1 shows the four boxes and the two local stacking contexts from the side, along the Z axis.
 
-![The blue box is at the bottom, followed by the cyan, gray and yellow boxes](/assets/public/f/f3/stacking.png)
+![The blue box is at the bottom, followed by the cyan, gray and yellow boxes](//static.webplatform.org/f/f3/stacking.png)
 
 *Figure 1: Illustration of different stacking contexts.*
 

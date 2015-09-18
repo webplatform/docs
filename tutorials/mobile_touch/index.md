@@ -67,7 +67,7 @@ This snippet lets you drag a DOM element around using single-finger touch:
 Below is a [sample](https://github.com/borismus/MagicTouch/blob/master/samples/tracker.html) that displays all current touches on the screen. It's useful just to get a feeling for the responsiveness of the device.
 
 [](https://github.com/borismus/MagicTouch/blob/master/samples/tracker.html)
-[Touch tracker](https://github.com/borismus/MagicTouch/blob/master/samples/tracker.html) ![mtfinger.jpg](/assets/public/1/1c/mtfinger.jpg)
+[Touch tracker](https://github.com/borismus/MagicTouch/blob/master/samples/tracker.html) ![mtfinger.jpg](//static.webplatform.org/1/1c/mtfinger.jpg)
 
      // Set up canvas and expose context via ctx variable
      canvas.addEventListener('touchmove', function(event) {
@@ -85,12 +85,12 @@ Below is a [sample](https://github.com/borismus/MagicTouch/blob/master/samples/t
 A number of interesting multi-touch demos are already in the wild, such as this [canvas-based drawing](http://paulirish.com/demo/multi) demo by Paul Irish and others.
 
 [](http://paulirish.com/demo/multi)
-[Drawing demo](http://paulirish.com/demo/multi) ![mtdraw.jpg](/assets/public/0/01/mtdraw.jpg)
+[Drawing demo](http://paulirish.com/demo/multi) ![mtdraw.jpg](//static.webplatform.org/0/01/mtdraw.jpg)
 
 And [Browser Ninja](http://smus.com/x/browser-ninja/), a tech demo that is a Fruit Ninja clone using CSS3 transforms and transitions, as well as canvas.
 
 [](http://smus.com/x/browser-ninja)
-[Browser ninja](http://smus.com/x/browser-ninja) ![mtninja.jpg](/assets/public/b/b1/mtninja.jpg)
+[Browser ninja](http://smus.com/x/browser-ninja) ![mtninja.jpg](//static.webplatform.org/b/b1/mtninja.jpg)
 
 ## Best practices
 

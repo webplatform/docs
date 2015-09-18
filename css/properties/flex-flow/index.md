@@ -1,8 +1,8 @@
 ---
 title: 'flex-flow'
 code_samples:
-  - 'http://gist.github.com/4740728'
-  - 'http://gist.github.com/5506026'
+  - 'http://code.webplatform.org/gist/4740728'
+  - 'http://code.webplatform.org/gist/5506026'
 compatibility:
   feature: flex-flow
   topic: css
@@ -79,7 +79,7 @@ Displaying children in a row wrapping to the next line.
 }
 ```
 
-[View live example](http://gist.github.com/4740728)
+[View live example](http://code.webplatform.org/gist/4740728)
 
 The Holy Grail Layout example.
 
@@ -87,7 +87,7 @@ The Holy Grail Layout example.
 flex-flow: row;
 ```
 
-[View live example](http://gist.github.com/5506026)
+[View live example](http://code.webplatform.org/gist/5506026)
 
 ## Related specifications
 

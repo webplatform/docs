@@ -27,7 +27,7 @@ A few benefits of leveraging @font-face for custom fonts:
 -   Text is translatable through in-browser translation or translation services
 -   CSS has full ability to tweak the typographical display via `line-height`, `letter-spacing`, `text-shadow`, `text-align`, and selectors like `::first-letter` and `::first-line`
 
- View the [Font Previewer](http://code.google.com/webfonts/preview) for a taste of how flexible webfonts are ![ff-previewer.jpg](/assets/public/8/8b/ff-previewer.jpg)
+ View the [Font Previewer](http://code.google.com/webfonts/preview) for a taste of how flexible webfonts are ![ff-previewer.jpg](//static.webplatform.org/8/8b/ff-previewer.jpg)
 
 ## @font-face at its essence
 
@@ -57,7 +57,7 @@ Of course, nothing is ever as simple as it should be. The initial limitation of 
 
 Inducing a headache yet? If you'd rather just get this off the ground quickly, head to the [Font Squirrel generator](http://www.fontsquirrel.com/fontface/generator), a tool that simplifies the whole process for you, taking your font and preparing its variants and CSS for you. It's indispensable for putting webfonts into practice today.
 
- The [Font Squirrel generator](http://www.fontsquirrel.com/fontface/generator) ![ff-squirrel.png](/assets/public/a/a8/ff-squirrel.png)
+ The [Font Squirrel generator](http://www.fontsquirrel.com/fontface/generator) ![ff-squirrel.png](//static.webplatform.org/a/a8/ff-squirrel.png)
 
 ### Mobile support?
 
@@ -79,7 +79,7 @@ A common surprise to designers is that just because you purchase a font license 
 
 The [Flash of Unstyled Text](http://paulirish.com/2009/fighting-the-font-face-fout/) is a phenomenon in Firefox and Opera that few web designers are fond of. When you apply a custom typeface via @font-face, there is a brief moment when loading the page where the specified font hasn't been downloaded and applied yet, and so the next font in the `font-family` stack is used. This causes a flash of a different (typically less good looking) font, before it gets upgraded.
 
- The Flash of Unstyled Text happening to the [HTML5 Slide deck](http://slides.html5rocks.com) ![ff-fout.jpg](/assets/public/b/be/ff-fout.jpg)
+ The Flash of Unstyled Text happening to the [HTML5 Slide deck](http://slides.html5rocks.com) ![ff-fout.jpg](//static.webplatform.org/b/be/ff-fout.jpg)
 
 Accompanying the Google Font API is the [WebFont Loader](http://code.google.com/apis/webfonts/docs/webfont_loader.html), a JavaScript library aiming to provide a number of event hooks giving you a lot of control over the loading. Let's take a look at how you can get other browsers to mimic WebKit's behavior of hiding the fallback text while the @font-face font loads.
 

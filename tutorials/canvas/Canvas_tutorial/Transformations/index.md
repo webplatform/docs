@@ -38,7 +38,7 @@ Every time the `restore` method is called, the last saved state is returned from
 
 #### A save and restore canvas state example
 
-![A stack of concentric rectangles on a canvas.](/assets/public/1/1c/Canvas_savestate.png)
+![A stack of concentric rectangles on a canvas.](//static.webplatform.org/1/1c/Canvas_savestate.png)
 
 This example tries to illustrate how the stack of drawing states functions by drawing a set of consecutive rectangles.
 
@@ -71,7 +71,7 @@ When the second `restore` statement is called, the original state (the one we se
 
 ## Translating
 
-![Grid showing translation coordinates along x and y axes](/assets/public/8/8e/Canvas_grid_translate.png)
+![Grid showing translation coordinates along x and y axes](//static.webplatform.org/8/8e/Canvas_grid_translate.png)
 
 The first of the transformation methods we'll look at is `translate`. This method is used to move the canvas and its origin to a different point in the grid.
 
@@ -83,7 +83,7 @@ It's a good idea to save the canvas state before doing any transformations. In m
 
 #### A `translate` example
 
-![A canvas with green spirograph patterns drawn on it](/assets/public/2/23/Canvas_translate.png)
+![A canvas with green spirograph patterns drawn on it](//static.webplatform.org/2/23/Canvas_translate.png)
 
 This example demonstrates some of the benefits of translating the canvas origin. I've made a function `drawSpirograph` that draws spirograph patterns. These are drawn around the origin. If I didn't use the `translate` function, I would only see a quarter of the pattern on the canvas. The `translate` method also gives me the freedom to place it anywhere on the canvas without having to manually adjust coordinates in the spirograph function. This makes it a little easier to understand and use.
 
@@ -122,7 +122,7 @@ In the `draw` function I call the `drawSpirograph` nine times using two `for` lo
 
 ## Rotating
 
-![Grid showing how a canvas image is rotated by radians](/assets/public/5/56/Canvas_grid_rotate.png)
+![Grid showing how a canvas image is rotated by radians](//static.webplatform.org/5/56/Canvas_grid_rotate.png)
 
 The second transformation method is `rotate`. We use it to rotate the canvas around the current origin.
 
@@ -134,7 +134,7 @@ The rotation center point is always the canvas origin. To change the center poin
 
 #### A `rotate` example
 
-![Canvas covered in circles of differing colors, drawn in concentric pattern using the rotate method](/assets/public/2/2e/Canvas_rotate.png)
+![Canvas covered in circles of differing colors, drawn in concentric pattern using the rotate method](//static.webplatform.org/2/2e/Canvas_rotate.png)
 
 In the example, you can see on the right, I used the `rotate` method to draw shapes in a circular pattern. You could also have calculated the individual <var>x</var> and <var>y</var> coordinates (`x = r*Math.cos(a); y = r*Math.sin(a)`). In this case it doesn't really matter which method you choose, because we're drawing circles. Calculating the coordinates results in only rotating the center positions of the circles and not the circles themselves, while using `rotate` results in both, but of course circles look the same no matter how far they are rotated about their centers.
 
@@ -171,7 +171,7 @@ By default one unit on the canvas is exactly one pixel. If we apply, for instanc
 
 #### A `scale` example
 
-![Canvas with spirograpgh images on it](/assets/public/9/99/Canvas_scale.png)
+![Canvas with spirograpgh images on it](//static.webplatform.org/9/99/Canvas_scale.png)
 
 In this last example I've used the spirograph function from one of the previous examples to draw nine shapes with different scaling factors. The top left shape has been drawn with no scaling applied. The yellow shapes to the right both have a uniform scaling factor (the same value for <var>x</var> and <var>y</var> parameters). If you look at the code below you'll see that I've used the `scale` method twice with equal parameter values for the second and third spirograph. Because I didn't restore the canvas state, the third shape is drawn with a scaling factor of 0.75 � 0.75 = 0.5625.
 
@@ -241,7 +241,7 @@ The final transformation methods allow modifications directly to the transformat
 
 This method must multiply the current transformation matrix with the matrix described by:
 
-![Equation for the transform described in this section, with two matrices multiplied](/assets/public/b/be/canvas_equation.png)
+![Equation for the transform described in this section, with two matrices multiplied](//static.webplatform.org/b/be/canvas_equation.png)
 
     m11    m21     dx
     m12     m22     dy
@@ -255,7 +255,7 @@ This method must reset the current transform to the identity matrix, and then in
 
 #### `transform` / `setTransform` examples
 
-![Canvas with a rectangle rotated around a point via transforms, with a pink rectangle in the lower left quadrant](/assets/public/1/1a/Canvas_transform.png)
+![Canvas with a rectangle rotated around a point via transforms, with a pink rectangle in the lower left quadrant](//static.webplatform.org/1/1a/Canvas_transform.png)
 
     function draw() {
       var canvas = document.getElementById("canvas");

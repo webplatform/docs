@@ -45,7 +45,7 @@ Consider the following HTML fragment:
 
 When viewed in a browser, the margins collapse, as shown in Figure 1.
 
-![The distance between the two paragraphs is 40px not 60px](/assets/public/9/9a/collapsi.png)
+![The distance between the two paragraphs is 40px not 60px](//static.webplatform.org/9/9a/collapsi.png)
 
 *Figure 1: The margins collapse — the distance between the two is 40px, not 60px.*
 
@@ -53,7 +53,7 @@ A block box will either contain only other block boxes or only inline boxes. If 
 
 You can specify the dimensions of a block box using the `width` and `height` properties. You can also set both vertical and horizontal margins on them. The initial (default) value for `width` and `height` is `auto`, and the initial value for margin properties is . These factors in combination mean that a block box will by default be as wide as its parent, as illustrated in Figure 2.
 
-![Block boxes are laid out vertically](/assets/public/f/f4/fc-ss-01.png)
+![Block boxes are laid out vertically](//static.webplatform.org/f/f4/fc-ss-01.png)
 
 *Figure 2: Block boxes are laid out vertically.*
 
@@ -75,25 +75,25 @@ For inline boxes we cannot specify any dimensions. We can specify horizontal mar
 
 This will give you a layout somewhat like that seen in Figure 3, when the styled elements are broken over multiple lines.
 
-![The margins padding and border do not apply where the breaks occur](/assets/public/0/0c/split-in.png)
+![The margins padding and border do not apply where the breaks occur](//static.webplatform.org/0/0c/split-in.png)
 
 *Figure 3: Margins, padding and border do not apply where breaks occur.*
 
 The vertical alignment of inline boxes within the encompassing line box is determined by the `vertical-align` property. The default value is `baseline`, which means that the inline boxes are aligned so that their text baselines line up. The baseline is the imaginary line on which letters without descenders stand. It is placed some distance above the bottom of the line box to leave room for the descenders of lowercase letters, as shown in Figure 4.
 
-![Letters stand on the imaginary baseline](/assets/public/7/76/baseline.png)
+![Letters stand on the imaginary baseline](//static.webplatform.org/7/76/baseline.png)
 
 *Figure 4: Letters stand on the imaginary baseline.*
 
 Note that the `vertical-align` property applies to inline boxes and table cells only, and it isn't inherited. Figure 5 shows some small images with different vertical alignment.
 
-![Images placed using settings of the vertical align CSS property](/assets/public/a/a3/vertical.png)
+![Images placed using settings of the vertical align CSS property](//static.webplatform.org/a/a3/vertical.png)
 
 *Figure 5: Images placed using settings of the `vertical-align` CSS property.*
 
 When the total width of the inline boxes within a line box is less than the width of the line box itself, the horizontal alignment is controlled by the `text-align` property. With `text-align:justify`, extra space is inserted between the inline boxes, if necessary, to make the content both left- and right-justified. This property applies to block boxes, table cells and inline blocks, and it is inherited—Figure 6 shows the result of applying different values of the `text-align` property to text inside table cells.
 
-![Controlling the alignment of text using the text-align property](/assets/public/1/16/text-ali.png)
+![Controlling the alignment of text using the text-align property](//static.webplatform.org/1/16/text-ali.png)
 
 *Figure 6: Controlling the alignment of text using the `text-align` property.*
 
@@ -173,7 +173,7 @@ A word of warning: this example is a bit complex. If you're new to the world of 
 
 There's one type of layout that is very common on web sites. It consists of a page header, often containing some masthead graphic, under which there are two or more "columns" side by side. Below all this there is often a full-width footer, perhaps with a copyright statement or contact information. Figure 7 shows an example of this type of layout.
 
-![Multiple column layout with header and footer](/assets/public/3/3d/acme0000.png)
+![Multiple column layout with header and footer](//static.webplatform.org/3/3d/acme0000.png)
 
 *Figure 7: A typical multiple column layout, with columns sandwiched between a header and a footer.*
 

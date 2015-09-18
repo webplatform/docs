@@ -1,7 +1,7 @@
 ---
 title: 'justify-content'
 code_samples:
-  - 'http://gist.github.com/5842739'
+  - 'http://code.webplatform.org/gist/5842739'
 compatibility:
   feature: justify-content
   topic: css
@@ -138,7 +138,7 @@ An example with the justify-content property, demonstrating the different option
 }
 ```
 
-[View live example](http://gist.github.com/5842739)
+[View live example](http://code.webplatform.org/gist/5842739)
 
 ``` html
 <p>justify-content: flex-start</p>

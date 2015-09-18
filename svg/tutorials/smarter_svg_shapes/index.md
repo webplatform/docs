@@ -81,7 +81,7 @@ Rectangles are defined by their [**width**](/w/index.php?title=svg/attributes/wi
 
  This is how these examples appear:
 
-![svg shapes.png](/assets/public/7/74/svg_shapes.png)
+![svg shapes.png](//static.webplatform.org/7/74/svg_shapes.png)
 
 ## Fill and stroke properties
 
@@ -129,7 +129,7 @@ By default, shapes are filled black. The [**fill**](/w/index.php?title=svg/prope
  }
 ```
 
- ![svg opacity.png](/assets/public/4/44/svg_opacity.png)
+ ![svg opacity.png](//static.webplatform.org/4/44/svg_opacity.png)
 
 Alternately, you can use [**rgba()** and **hsla()**](/css/data_types/color) CSS colors to to incorpoarate opacity as part of [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1) and [**stroke**](/w/index.php?title=svg/properties/stroke&action=edit&redlink=1) property values. The following has the same effect as the example above:
 
@@ -161,41 +161,41 @@ To draw a straight line, specify its start and end coordinates as **x1**, **y1**
 <polygon points="100,225 100,115 130,115 70,15 70,15 10,115 40,115 40,225"/>
 ```
 
- ![svg linepath.png](/assets/public/a/a4/svg_linepath.png)
+ ![svg linepath.png](//static.webplatform.org/a/a4/svg_linepath.png)
 
 ## More stroke properties
 
 Additional properties provide greater control over how the ends or joints of line segments appear. The [**stroke-linecap**](/w/index.php?title=svg/properties/stroke-linecap&action=edit&redlink=1) property determines the appearance of the end of a stroke, or dashes within a stroke. Options appear as follows, with both **round** and **square** extending past the end of the line depending on the [**stroke-width**](/w/index.php?title=svg/properties/stroke-width&action=edit&redlink=1)::
 
-![svg linecap round.png](/assets/public/c/c1/svg_linecap_round.png)
+![svg linecap round.png](//static.webplatform.org/c/c1/svg_linecap_round.png)
 
     stroke-linecap: round;
 
-![svg linecap square.png](/assets/public/c/c1/svg_linecap_square.png)
+![svg linecap square.png](//static.webplatform.org/c/c1/svg_linecap_square.png)
 
     stroke-linecap: square;
 
-![svg linecap butt.png](/assets/public/d/da/svg_linecap_butt.png)
+![svg linecap butt.png](//static.webplatform.org/d/da/svg_linecap_butt.png)
 
     stroke-linecap: butt;
 
 The [**stroke-linejoin**](/w/index.php?title=svg/properties/stroke-linejoin&action=edit&redlink=1) property affects how joined segments appear, and becomes more apparent for narrower angles as the [**stroke-width**](/w/index.php?title=svg/properties/stroke-width&action=edit&redlink=1) increases:
 
-![svg linejoin round.png](/assets/public/d/d7/svg_linejoin_round.png)
+![svg linejoin round.png](//static.webplatform.org/d/d7/svg_linejoin_round.png)
 
     stroke-linejoin: round;
 
-![svg linejoin bevel.png](/assets/public/1/16/svg_linejoin_bevel.png)
+![svg linejoin bevel.png](//static.webplatform.org/1/16/svg_linejoin_bevel.png)
 
     stroke-linejoin: bevel;
 
-![svg linejoin miter.png](/assets/public/b/b1/svg_linejoin_miter.png)
+![svg linejoin miter.png](//static.webplatform.org/b/b1/svg_linejoin_miter.png)
 
     stroke-linejoin: miter;
 
 Setting [**stroke-linejoin**](/w/index.php?title=svg/properties/stroke-linejoin&action=edit&redlink=1) to **bevel** diagonally shaves the points from angles, and setting it to **miter** allows them to protrude. The [**stroke-miterlimit**](/w/index.php?title=svg/properties/stroke-miterlimit&action=edit&redlink=1) property limits how much of the angle is allowed to protrude, expressed relative to the [**stroke-width**](/w/index.php?title=svg/properties/stroke-width&action=edit&redlink=1). This example only bevels those angles that protrude twice the width:
 
-![svg linejoin miterlimit.png](/assets/public/4/42/svg_linejoin_miterlimit.png)
+![svg linejoin miterlimit.png](//static.webplatform.org/4/42/svg_linejoin_miterlimit.png)
 
     polygon {
       stroke-linejoin   : miter;
@@ -205,7 +205,7 @@ Setting [**stroke-linejoin**](/w/index.php?title=svg/properties/stroke-linejoin&
 
 The [**stroke-dasharray**](/w/index.php?title=svg/properties/stroke-dasharray&action=edit&redlink=1) property allows you define arbitrary dash patterns as a comma-separated list of pixel values. A value of *20,10,10,10* draws a dash 20 pixels long, followed by a gap of 10 pixels before the following 10-pixel dash, another gap, followed the same pattern repeated to the end of the shape:
 
-![svg stroke dasharray.png](/assets/public/1/17/svg_stroke_dasharray.png)
+![svg stroke dasharray.png](//static.webplatform.org/1/17/svg_stroke_dasharray.png)
 
     stroke-dasharray: 20,10,10,10;
 
@@ -217,7 +217,7 @@ Paths are complex shapes that may feature discontinuous series of lines and curv
 
 The following [interactive path-building utility](http://letmespellitoutforyou.com/samples/svg_path.html) allows you to create your own path definitions using all the commands detailed below, and see them reflected in SVG code. Choose the command you want, then click within the drawing area to provide each command with a set of coordinates:
 
-![svg path.png](/assets/thumb/d/dc/svg_path.png/600px-svg_path.png)
+![svg path.png](//static.webplatform.org/thumb/d/dc/svg_path.png/600px-svg_path.png)
 
 The simplest path commands drop a pen at one coordinate and draw a line to another. In this example, the **M** (move) command places the drawing point at the *100,225* coordinate. The **L** (line) command draws a line to *100,115*, and subsequent **L** commands draw the same arrow-shaped polygon shown above, starting from its bottom-left corner and drawing in a clockwise direction:
 
@@ -225,7 +225,7 @@ The simplest path commands drop a pen at one coordinate and draw a line to anoth
 <path d="M 100,225 L 100,115 L 130,115 L 70,15 L 10,115 L 40,115 L 40,225 z"/>
 ```
 
- ![svg linepath.png](/assets/public/a/a4/svg_linepath.png)
+ ![svg linepath.png](//static.webplatform.org/a/a4/svg_linepath.png)
 
 The **z** command at the end draws a final line to the most recent **M** coordinate to close off the box. At any point along the path, you may use **M** to place the drawing point elsewhere to create discontinuous segments known as *subpaths*, which may appear to be separate objects.
 
@@ -245,14 +245,14 @@ Unlike polygons, paths can incorporate curves. Bézier curves require additional
 
 The **Q** and **q** commands define a *quadratic* Bézier curve using one control point coordinate followed by another coordinate where the curve segment ends. The **C** and **c** commands use two intervening control points to define a more complex *cubic* Bézier curve. These examples show where each control point falls:
 
-![svg quadratic.png](/assets/public/8/89/svg_quadratic.png)
+![svg quadratic.png](//static.webplatform.org/8/89/svg_quadratic.png)
 
 ``` xml
   <!-- quadratic -->
 <path d="M 50,100 Q 180,20 300,130"/>
 ```
 
-![svg cubic.png](/assets/public/1/1d/svg_cubic.png)
+![svg cubic.png](//static.webplatform.org/1/1d/svg_cubic.png)
 
 ``` xml
   <!-- cubic -->
@@ -261,7 +261,7 @@ The **Q** and **q** commands define a *quadratic* Bézier curve using one contro
 
 Adding additional sets of controls points has the same effect as adding additional **Q**/**q**/**C**/**c** commands. The following definition pairs produce the same sequence of quadratic and cubic curves, but the second line leaves out the redundant command:
 
-![svg quadratic poly.png](/assets/public/f/f6/svg_quadratic_poly.png)
+![svg quadratic poly.png](//static.webplatform.org/f/f6/svg_quadratic_poly.png)
 
 ``` xml
   <!-- quadratic, chained -->
@@ -269,7 +269,7 @@ Adding additional sets of controls points has the same effect as adding addition
 <path d="M 50,100 Q 180,20 300,130   320,20 400,50"/>
 ```
 
- ![svg cubic poly.png](/assets/public/f/f8/svg_cubic_poly.png)
+ ![svg cubic poly.png](//static.webplatform.org/f/f8/svg_cubic_poly.png)
 
 ``` xml
   <!-- cubic, chained -->
@@ -284,7 +284,7 @@ Adding additional sets of controls points has the same effect as adding addition
 <path d="M 50,100 Q 180,20 300,130 Q 420,240 400,50"/>
 ```
 
- ![svg quadratic smooth.png](/assets/public/1/1f/svg_quadratic_smooth.png)
+ ![svg quadratic smooth.png](//static.webplatform.org/1/1f/svg_quadratic_smooth.png)
 
 The **S** and **s** commands perform the same kind of mirroring to produce smooth cubic Bézier curves suitable for freehand drawing. Since Bézier curves are defined by two control points, the first supplied coordinate specifies the second control point, and the second coordinate specifies the end point. The following two path definitions produce the same sequence of curves, the second substituting the **C** command to explicitly define the extra control point, again marked red:
 
@@ -293,7 +293,7 @@ The **S** and **s** commands perform the same kind of mirroring to produce smoot
 <path d="M 50,120 C 130,50 250,150 280,100 C 310,50 450,50 400,100"/>
 ```
 
- ![svg cubic smooth.png](/assets/public/d/d0/svg_cubic_smooth.png)
+ ![svg cubic smooth.png](//static.webplatform.org/d/d0/svg_cubic_smooth.png)
 
 The **A** and **a** commands specify an *elliptical arc*, using syntax specifying a surprisingly great deal of information:
 
@@ -311,7 +311,7 @@ If the ellipse's radii is insufficient or if its rotation makes it impossible to
 
 Elliptical arcs are great for drawing parts of clouds and thought balloons:
 
-![svg arc.png](/assets/thumb/8/8b/svg_arc.png/300px-svg_arc.png)
+![svg arc.png](//static.webplatform.org/thumb/8/8b/svg_arc.png/300px-svg_arc.png)
 
 Experiment with the [interactive path builder](http://letmespellitoutforyou.com/samples/svg_path.html) by choosing the **A** command and clicking to create new end points. The values of the arc radius, rotation, large-arc, and sweep-arc controls affect the appearance of the last elliptical arc in the path, and apply to newly created arcs.
 
@@ -329,11 +329,11 @@ This summarizes path syntax, with coordinate pairs required for control and dest
 
 Whenever lines within paths cross each other, and when subpath shapes appear as islands within other shapes, it is not immediately obvious how such paths might be filled. By default, the [**fill-rule**](/w/index.php?title=svg/properties/fill-rule&action=edit&redlink=1) property is set to **nonzero**, which errs on the side of filling regions based on the direction of each stroke, which as the example below shows, may not always be intuitive. Setting it to **evenodd** prevents regions bordering each other from sharing the same fill value.
 
-![svg fillrule nonzero.png](/assets/public/0/01/svg_fillrule_nonzero.png)
+![svg fillrule nonzero.png](//static.webplatform.org/0/01/svg_fillrule_nonzero.png)
 
     fill-rule: nonzero;
 
-![svg fillrule evenodd.png](/assets/public/b/be/svg_fillrule_evenodd.png)
+![svg fillrule evenodd.png](//static.webplatform.org/b/be/svg_fillrule_evenodd.png)
 
     fill-rule: evenodd;
 
@@ -361,19 +361,19 @@ You can attach arrowheads or other graphic objects to paths, lines, polylines, a
 
  Alternately, the [**marker-start**](/w/index.php?title=svg/properties/marker-start&action=edit&redlink=1) property places the marker at the path's starting point. Setting [**marker-mid**](/w/index.php?title=svg/properties/marker-mid&action=edit&redlink=1) places the marker at each segment point within the path, including where subpaths terminate. The [**marker**](/w/index.php?title=svg/properties/marker&action=edit&redlink=1) property places the graphic at *all* these points:
 
-![svg marker start.png](/assets/public/f/fd/svg_marker_start.png)
+![svg marker start.png](//static.webplatform.org/f/fd/svg_marker_start.png)
 
     marker-start
 
-![svg marker end.png](/assets/public/d/d0/svg_marker_end.png)
+![svg marker end.png](//static.webplatform.org/d/d0/svg_marker_end.png)
 
     marker-end
 
-![svg marker mid.png](/assets/public/e/e5/svg_marker_mid.png)
+![svg marker mid.png](//static.webplatform.org/e/e5/svg_marker_mid.png)
 
     marker-mid
 
-![svg marker.png](/assets/public/c/c7/svg_marker.png)
+![svg marker.png](//static.webplatform.org/c/c7/svg_marker.png)
 
     marker
 
@@ -390,7 +390,7 @@ Text behaves much like any other SVG graphic. You can mix text with other graphi
 <text x="100" y="80">jumped over the lazy dog.</text>
 ```
 
- ![svg text.png](/assets/thumb/3/31/svg_text.png/400px-svg_text.png)
+ ![svg text.png](//static.webplatform.org/thumb/3/31/svg_text.png/400px-svg_text.png)
 
 You can apply standard CSS font properties, along with the [**text-anchor**](/w/index.php?title=css/properties/text-anchor&action=edit&redlink=1) property to center the text from the specified coordinates. You can also control apply [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1) and [**stroke**](/w/index.php?title=svg/properties/stroke&action=edit&redlink=1) properties just like any other shape:
 
@@ -406,7 +406,7 @@ text {
 }
 ```
 
- ![svg textFormatted.png](/assets/thumb/c/ca/svg_textFormatted.png/400px-svg_textFormatted.png)
+ ![svg textFormatted.png](//static.webplatform.org/thumb/c/ca/svg_textFormatted.png/400px-svg_textFormatted.png)
 
 Use the [**tspan**](/svg/elements/tspan) element to mark and style inline font changes:
 
@@ -426,7 +426,7 @@ Use the [**tspan**](/svg/elements/tspan) element to mark and style inline font c
 }
 ```
 
- ![svg textSpan.png](/assets/thumb/d/d6/svg_textSpan.png/400px-svg_textSpan.png)
+ ![svg textSpan.png](//static.webplatform.org/thumb/d/d6/svg_textSpan.png/400px-svg_textSpan.png)
 
 This example uses the [**dy**](/w/index.php?title=svg/attributes/dy&action=edit&redlink=1) attribute to move text upward to a superscript position and then back down to its original baseline, and [**rotate**](/w/index.php?title=svg/attributes/rotate&action=edit&redlink=1) to spin each character of text. (Applying [**dx**](/w/index.php?title=svg/attributes/dx&action=edit&redlink=1) likewise would displace text horizontally.)
 
@@ -439,7 +439,7 @@ This example uses the [**dy**](/w/index.php?title=svg/attributes/dy&action=edit&
 </text>
 ```
 
- ![svg textRotate.png](/assets/thumb/1/15/svg_textRotate.png/400px-svg_textRotate.png)
+ ![svg textRotate.png](//static.webplatform.org/thumb/1/15/svg_textRotate.png/400px-svg_textRotate.png)
 
 SVG also allows you to place text along the curve of a path. The [**textPath**](/svg/elements/textPath) element diverts any nested text to render along the path it references:
 
@@ -459,8 +459,8 @@ SVG also allows you to place text along the curve of a path. The [**textPath**](
 
 The [**textPath**](/svg/elements/textPath)'s [**startOffset**](/w/index.php?title=svg/attributes/startOffset&action=edit&redlink=1) pushes text from the start of the path, disappearing as the path ends. Below the text appears before and after applying the offset:
 
-![svg textPath.png](/assets/thumb/b/b5/svg_textPath.png/400px-svg_textPath.png)
+![svg textPath.png](//static.webplatform.org/thumb/b/b5/svg_textPath.png/400px-svg_textPath.png)
 
-![svg textPathOffset.png](/assets/thumb/9/93/svg_textPathOffset.png/400px-svg_textPathOffset.png)
+![svg textPathOffset.png](//static.webplatform.org/thumb/9/93/svg_textPathOffset.png/400px-svg_textPathOffset.png)
 
 See [SVG Fonts](/tutorials/svg_fonts) for information on SVG's support for creating font glyphs.

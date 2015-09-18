@@ -26,7 +26,7 @@ So, perhaps more exciting than just fills and strokes, you can also create and a
 
 There are two types of gradients allowed, linear and radial ones. Linear gradients change along a straight line. To insert one, you create a `<linearGradient>` node inside the definitions section of your SVG file. You **must** give the gradient an `id` attribute, otherwise it can't be referenced by other elements inside the file, and it basically becomes a waste of space.
 
-![SVG Linear Gradient Example.png](/assets/public/3/3e/SVG_Linear_Gradient_Example.png)
+![SVG Linear Gradient Example.png](//static.webplatform.org/3/3e/SVG_Linear_Gradient_Example.png)
 
     <?xml version="1.0" standalone="no"?>
 
@@ -78,7 +78,7 @@ The `<linearGradient>` element also takes several other attributes which specify
 
 I've included the xlink namespace here directly on the node, although usually you would define it at the top of your document. More on that when we [talk about images](/w/index.php?title=talk_about_images&action=edit&redlink=1). Radial gradients are similar to linear ones but draw a gradient that radiates out from a point. To create one you add a [[\<radialGradient\>]] element to the definitions section of your document.
 
-![SVG Radial Gradient Example.png](/assets/public/3/33/SVG_Radial_Gradient_Example.png)
+![SVG Radial Gradient Example.png](//static.webplatform.org/3/33/SVG_Radial_Gradient_Example.png)
 
     <?xml version="1.0" standalone="no"?>
 
@@ -104,7 +104,7 @@ The stops used here are the same as before, but now the object will be red in th
 
 The second point is called the focal point and is defined by the `fx` and `fy` attributes. While the first point described where the edges of the gradient were, the focal point describes where its middle is. This is easier to see with an example.
 
-![SVG Radial Grandient Focus Example.png](/assets/public/1/17/SVG_Radial_Grandient_Focus_Example.png)
+![SVG Radial Grandient Focus Example.png](//static.webplatform.org/1/17/SVG_Radial_Grandient_Focus_Example.png)
 
     <?xml version="1.0" standalone="no"?>
 
@@ -133,7 +133,7 @@ If the focal point is moved outside the circle described earlier, its impossible
 
 Both gradients also take a few other attributes to describe transformations and whatnot on them. The only other one I want to mention here is the `spreadMethod` attribute. This attribute controls what happens when the gradient reaches its end, but the object isn't filled yet. It can take on one of three values, "pad", "reflect", or "repeat". "Pad" is what you have seen so far. When the gradient reaches its end, the final offset color is just used to fill the rest of the object. "reflect" causes the gradient to continue on, but this take backwards, starting with the color offset at 100% and moving back to the offset at 0%, and then back up again. "Repeat" also lets the gradient keep moving, but instead of going backwards, it just jumps back to the beginning and runs again.
 
-![SVG SpreadMethod Example.png](/assets/public/b/b6/SVG_SpreadMethod_Example.png)
+![SVG SpreadMethod Example.png](//static.webplatform.org/b/b6/SVG_SpreadMethod_Example.png)
 
     <?xml version="1.0" standalone="no"?>
 

@@ -3,8 +3,8 @@ title: '::first-letter'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'https://gist.github.com/6cbbb246cdbcf6c2bfaf'
-  - 'https://gist.github.com/5257e9b2d1e11631d608'
+  - 'https://code.webplatform.org/gist/6cbbb246cdbcf6c2bfaf'
+  - 'https://code.webplatform.org/gist/5257e9b2d1e11631d608'
 compatibility:
   feature: '::first-letter'
   topic: css
@@ -43,7 +43,7 @@ p::first-letter {
 }
 ```
 
-[View live example](https://gist.github.com/6cbbb246cdbcf6c2bfaf)
+[View live example](https://code.webplatform.org/gist/6cbbb246cdbcf6c2bfaf)
 
 The following CSS will create a drop capital spanning about two lines.
 
@@ -54,7 +54,7 @@ p::first-letter {
 }
 ```
 
-[View live example](https://gist.github.com/5257e9b2d1e11631d608)
+[View live example](https://code.webplatform.org/gist/5257e9b2d1e11631d608)
 
 ## Notes
 

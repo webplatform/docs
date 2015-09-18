@@ -26,7 +26,7 @@ Of the many new features in HTML5, the increasing support for the `<canvas>` tag
 
 In the original version of Entanglement, I used several canvas draw methods to draw the hexagon, but the current form of the game uses drawImage() to draw textures clipped from a sprite sheet.
 
-*Tiles sprite sheet* ![Tiles sprite sheet](/assets/public/3/32/en01.png)
+*Tiles sprite sheet* ![Tiles sprite sheet](//static.webplatform.org/3/32/en01.png)
 
 I combined the images together into a single file so it's only one request to the server instead of, in this case, ten. To draw a chosen hexagon to the canvas, we first must gather our tools together: canvas, context, and the image.
 
@@ -71,21 +71,21 @@ In this case, we're using the fourth hexagon from the left on the top row. Also,
 
 We have successfully copied part of the image to the canvas with this as the result:
 
-*Hexagonal tile* ![Hexagonal tile](/assets/public/1/1e/en02.jpg)
+*Hexagonal tile* ![Hexagonal tile](//static.webplatform.org/1/1e/en02.jpg)
 
 ## Drawing Paths
 
 Now that we have our hexagon drawn to the canvas, we want to draw a few lines on it. First, we will look at some geometry regarding the hexagon tile. We want two line ends per side with each ending 1/4 from the ends along the each edge and 1/2 of the edge apart from one another, like so:
 
-*Line endpoints on hexagonal tile* ![Line endpoints on hexagonal tile](/assets/public/c/c7/en03.png)
+*Line endpoints on hexagonal tile* ![Line endpoints on hexagonal tile](//static.webplatform.org/c/c7/en03.png)
 
 We also want a nice curve so, using a little trial and error, I found that, if I make a perpendicular line from the edge at each endpoint, the intersection from each pair of endpoints around a given angle of the hexagon makes a nice bezier control point for the given endpoints:
 
-*Control points on hexagonal tile* ![Control points on hexagonal tile](/assets/public/b/b8/en04.png)
+*Control points on hexagonal tile* ![Control points on hexagonal tile](//static.webplatform.org/b/b8/en04.png)
 
 Now, we map both the endpoints and the control points to a Cartesian plane corresponding with our canvas image and we're ready to get back to the code. To keep it simple, we will start with one line. We will begin by drawing a path from the top left endpoint to the bottom right endpoint. With our earlier hexagon image being 400x346, that will make our top endpoint 150 pixels across and 0 pixels down, shorthand (150, 0). It's control point will be (150, 86). The bottom edge endpoint is (250, 346) with a control point of (250, 260):
 
-*Coordinates for first bezier curve* ![Coordinates for first bezier curve](/assets/public/3/3b/en05.png)
+*Coordinates for first bezier curve* ![Coordinates for first bezier curve](//static.webplatform.org/3/3b/en05.png)
 
 With our coordinates in hand, we are now prepared to begin drawing. We will start fresh with ctx.beginPath() and then move to the first endpoint using:
 
@@ -117,11 +117,11 @@ Because we want the line to have a nice border, we will stroke this path twice u
 
 We now have a hexagonal tile with the first line meandering across:
 
-*Solitary line on hexagonal tile* ![Solitary line on hexagonal tile](/assets/public/d/d7/en06.jpg)
+*Solitary line on hexagonal tile* ![Solitary line on hexagonal tile](//static.webplatform.org/d/d7/en06.jpg)
 
 Entering coordinates for the other 10 endpoints as well as the corresponding bezier curve control points, we can repeat the steps above and might create a tile something like this:
 
-*Completed hexagonal tile* ![Completed hexagonal tile](/assets/public/1/14/en07.png)
+*Completed hexagonal tile* ![Completed hexagonal tile](//static.webplatform.org/1/14/en07.png)
 
 ### Rotating the Canvas
 
@@ -149,7 +149,7 @@ However, because our hexagon and lines are using the old (0,0) coordinates as th
 
 Putting the above translation and rotation before our rendering code causes it to now render the rotated tile:
 
-*Rotated hexagonal tile* ![Rotated hexagonal tile](/assets/public/0/0b/en08.png)
+*Rotated hexagonal tile* ![Rotated hexagonal tile](//static.webplatform.org/0/0b/en08.png)
 
 ## Summary
 

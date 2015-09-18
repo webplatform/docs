@@ -78,7 +78,7 @@ wrap-through: none;
 
      Top half of image below illustrates "wrap-through:wrap"; bottom half illustrates "wrap-through:none".
 
-![wrap-flow:start applied to grid positioned elements](/assets/public/2/27/exclusion_wrap_through.png)
+![wrap-flow:start applied to grid positioned elements](//static.webplatform.org/2/27/exclusion_wrap_through.png)
 
 ## Related specifications
 

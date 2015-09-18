@@ -3,8 +3,8 @@ title: 'animation-name'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
 code_samples:
-  - 'http://gist.github.com/7009934'
-  - 'http://gist.github.com/7010365'
+  - 'http://code.webplatform.org/gist/7009934'
+  - 'http://code.webplatform.org/gist/7010365'
 compatibility:
   feature: animation-name
   topic: css
@@ -92,7 +92,7 @@ h1 {
 }
 ```
 
-[View live example](http://gist.github.com/7009934)
+[View live example](http://code.webplatform.org/gist/7009934)
 
 A repeating pulse animation that shrinks and dims an element, then restores it.
 
@@ -119,7 +119,7 @@ div.selected {
 }
 ```
 
-[View live example](http://gist.github.com/7010365)
+[View live example](http://code.webplatform.org/gist/7010365)
 
 ## Usage
 

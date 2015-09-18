@@ -3,7 +3,7 @@ title: 'getTrackById'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
 code_samples:
-  - 'http://gist.github.com/459f1a0ea9f70009b6fe'
+  - 'http://code.webplatform.org/gist/459f1a0ea9f70009b6fe'
 readiness: 'Ready to Use'
 relationships:
   method_of:
@@ -91,7 +91,7 @@ Returns an object of type DOM NodeDOM Node
 })();
 ```
 
-[View live example](http://gist.github.com/459f1a0ea9f70009b6fe)
+[View live example](http://code.webplatform.org/gist/459f1a0ea9f70009b6fe)
 
 ## Related specifications
 

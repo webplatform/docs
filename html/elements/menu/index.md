@@ -3,7 +3,7 @@ title: 'menu'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/7284273'
+  - 'http://code.webplatform.org/gist/7284273'
 compatibility:
   feature: menu
   topic: html
@@ -69,7 +69,7 @@ This is an example of the **menu** element using the *type* and *label* attribut
 </menu>
 ```
 
-[View live example](http://gist.github.com/7284273)
+[View live example](http://code.webplatform.org/gist/7284273)
 
 ## Usage
 

@@ -56,7 +56,7 @@ SVG is a standard markup format, like HTML and XML, that renders *Scalable Vecto
 
 This section of the guide shows how SVG is deployed along with other core web standards, with which you should already be familiar. It highlights some notable differences, and provides a quick tour of many SVG features that are covered in more detail in other sections. It focuses on the unique way you can build complex interactive graphics from reusable components, and how to flexibly resize them and place them within various drawing surfaces.
 
-![scr svg eyes.png](/assets/public/a/a7/scr_svg_eyes.png)
+![scr svg eyes.png](//static.webplatform.org/a/a7/scr_svg_eyes.png)
 
 As part of a grand tour to get a feel for SVG markup, you'll stroll through an example that shows how to build a pair of eyes, and how to move them around and make them blink. [View the accompanying live demo here](http://letmespellitoutforyou.com/samples/svg_eyeball.html).
 
@@ -93,7 +93,7 @@ Adding this line within the [**svg**](/svg/elements/svg) region produces a circl
 <circle id="eyeball" cx="100" cy="100" r="50"/>
 ```
 
- ![svgGrandTour eyeball circle black.png](/assets/thumb/3/31/svgGrandTour_eyeball_circle_black.png/100px-svgGrandTour_eyeball_circle_black.png)
+ ![svgGrandTour eyeball circle black.png](//static.webplatform.org/thumb/3/31/svgGrandTour_eyeball_circle_black.png/100px-svgGrandTour_eyeball_circle_black.png)
 
 By default, it's filled black. Adding a [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1) attribute allows you to color the background white, and a [**stroke**](/w/index.php?title=svg/properties/stroke&action=edit&redlink=1) attribute helps clarify the edge of the shape:
 
@@ -101,7 +101,7 @@ By default, it's filled black. Adding a [**fill**](/w/index.php?title=svg/proper
 <circle id="eyeball" cx="100" cy="100" r="50" fill="white" stroke="black"/>
 ```
 
- ![svgGrandTour eyeball circle white.png](/assets/thumb/e/ec/svgGrandTour_eyeball_circle_white.png/100px-svgGrandTour_eyeball_circle_white.png)
+ ![svgGrandTour eyeball circle white.png](//static.webplatform.org/thumb/e/ec/svgGrandTour_eyeball_circle_white.png/100px-svgGrandTour_eyeball_circle_white.png)
 
 To add the iris and pupil, you can add more circles that specify different fill colors. Declaring the larger circles first prevents them from obscuring the smaller ones:
 
@@ -111,7 +111,7 @@ To add the iris and pupil, you can add more circles that specify different fill 
 <circle id="pupil"   cx="100" cy="100" r="12" fill="black"/>
 ```
 
- ![svgGrandTour eyeball circles.png](/assets/thumb/9/96/svgGrandTour_eyeball_circles.png/100px-svgGrandTour_eyeball_circles.png)
+ ![svgGrandTour eyeball circles.png](//static.webplatform.org/thumb/9/96/svgGrandTour_eyeball_circles.png/100px-svgGrandTour_eyeball_circles.png)
 
 (See [**SVG shapes**](/svg/tutorials/smarter_svg_shapes) for more about basic graphic elements such as circles, ellipses, rectangles, and polygons.)
 
@@ -160,7 +160,7 @@ The concentric circles provide a good way to implement the edge of the iris and 
 </radialGradient>
 ```
 
- ![svgGrandTour eyeball fill.png](/assets/thumb/1/1d/svgGrandTour_eyeball_fill.png/200px-svgGrandTour_eyeball_fill.png)
+ ![svgGrandTour eyeball fill.png](//static.webplatform.org/thumb/1/1d/svgGrandTour_eyeball_fill.png/200px-svgGrandTour_eyeball_fill.png)
 
 The [**circle**](/svg/elements/circle) element's [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1) attribute uses CSS's **url()** function to reference the [**id**](/w/index.php?title=svg/attributes/id&action=edit&redlink=1) of the [**radialGradient**](/svg/elements/radialGradient) element. Its nested [**stop**](/svg/elements/stop) elements define fairly abrupt gradations from the center towards the edge—from black to blue and then to white—followed by a more gradual transition to pink around the edge of the circle. SVG gradients work similarly to CSS gradients available for HTML content, but CSS gradients are only available via the [**background-image**](/css/properties/background-image) property, which doesn't apply to SVG.
 
@@ -228,11 +228,11 @@ To place the eyeball within eyelids requires a *clipping path*, which allows an 
 <path id="eyelids" d="M 200,100 Q 100,200 0,100 Q 100,0 200,100" />
 ```
 
- ![svgGrandTour eyeball eyelid.png](/assets/thumb/f/fa/svgGrandTour_eyeball_eyelid.png/200px-svgGrandTour_eyeball_eyelid.png)
+ ![svgGrandTour eyeball eyelid.png](//static.webplatform.org/thumb/f/fa/svgGrandTour_eyeball_eyelid.png/200px-svgGrandTour_eyeball_eyelid.png)
 
 Each curve's definition includes *control points* that influence the shape of the curve, but that do not themselves render. Starting from the right corner (*M* for *move to*), the first quadratic (*Q*) curve's control point is placed at the top, and the destination is the left corner. The second quadratic curve places its control point at the bottom corner and ends up at the right corner:
 
-![svgGrandTour eyeball ctrl.png](/assets/thumb/f/f6/svgGrandTour_eyeball_ctrl.png/200px-svgGrandTour_eyeball_ctrl.png)
+![svgGrandTour eyeball ctrl.png](//static.webplatform.org/thumb/f/f6/svgGrandTour_eyeball_ctrl.png/200px-svgGrandTour_eyeball_ctrl.png)
 
 To make the shape behave as a clipping path, place a [**clipPath**](/svg/elements/clipPath) element around the [**path**](/svg/elements/path). You will actually need to use this shape again, so it is best to [**use**](/svg/elements/use) a reference to it:
 
@@ -255,7 +255,7 @@ To make the shape behave as a clipping path, place a [**clipPath**](/svg/element
 <use xlink:href="#eyeball" class="eyeball" />
 ```
 
- ![svgGrandTour eyeball eyelid clip.png](/assets/thumb/e/e1/svgGrandTour_eyeball_eyelid_clip.png/200px-svgGrandTour_eyeball_eyelid_clip.png)
+ ![svgGrandTour eyeball eyelid clip.png](//static.webplatform.org/thumb/e/e1/svgGrandTour_eyeball_eyelid_clip.png/200px-svgGrandTour_eyeball_eyelid_clip.png)
 
 The only problem now is that the eyelid has disappeared. Clipping paths don't actually render, so we need to point another reference to it. The first [**use**](/svg/elements/use) below places the eyeball within the clipping path, and the second produces the path itself. The third [**use**](/svg/elements/use) that appears outside the [**defs**](/svg/elements/defs) renders the entire object:
 
@@ -269,7 +269,7 @@ The only problem now is that the eyelid has disappeared. Clipping paths don't ac
 <use xlink:href="#eye" />
 ```
 
- ![svgGrandTour eyeball eyelid both.png](/assets/thumb/f/f9/svgGrandTour_eyeball_eyelid_both.png/200px-svgGrandTour_eyeball_eyelid_both.png)
+ ![svgGrandTour eyeball eyelid both.png](//static.webplatform.org/thumb/f/f9/svgGrandTour_eyeball_eyelid_both.png/200px-svgGrandTour_eyeball_eyelid_both.png)
 
 It becomes useful here to *group* the two graphic elements, wrapping a [**g**](/svg/elements/g) element around them to consolidate a larger semantic *eye* object. You can reference the grouped object, and you will see below, move or otherwise transform it as a unit.
 
@@ -301,7 +301,7 @@ Drawing the eyelashes along the eyelid requires a bit of creativity. We need to 
 
  The [**stroke-width**](/w/index.php?title=svg/properties/stroke-width&action=edit&redlink=1) thickens the edge so that it extends both inside and outside the shape. By default, the *stroke* is solid, but you can apply a *dash* pattern to break it into segments. Setting the [**stroke-dasharray**](/w/index.php?title=svg/properties/stroke-dasharray&action=edit&redlink=1) property to *1,10* specifies that for every pixel rendered around the edge of the shape, skip another ten pixels. This has the effect of drawing individual eyelashes:
 
-![svgGrandTour eyeball eyelashes.png](/assets/thumb/d/d3/svgGrandTour_eyeball_eyelashes.png/200px-svgGrandTour_eyeball_eyelashes.png)
+![svgGrandTour eyeball eyelashes.png](//static.webplatform.org/thumb/d/d3/svgGrandTour_eyeball_eyelashes.png/200px-svgGrandTour_eyeball_eyelashes.png)
 
 The beveled [**stroke-linejoin**](/w/index.php?title=svg/properties/stroke-linejoin&action=edit&redlink=1) property prevents the stroke from rendering too far past the sharp corner of the eye where the eyelids meet.
 
@@ -344,9 +344,9 @@ Use the [**filter**](/svg/properties/filter) property to assign the effect to th
 
  Here is how it appears, first after the blur, then after the subsequent darkening:
 
-![svgGrandTour eyeball eyelash filter blur.png](/assets/thumb/7/7d/svgGrandTour_eyeball_eyelash_filter_blur.png/200px-svgGrandTour_eyeball_eyelash_filter_blur.png)
+![svgGrandTour eyeball eyelash filter blur.png](//static.webplatform.org/thumb/7/7d/svgGrandTour_eyeball_eyelash_filter_blur.png/200px-svgGrandTour_eyeball_eyelash_filter_blur.png)
 
-![svgGrandTour eyeball eyelid filters.png](/assets/thumb/4/4f/svgGrandTour_eyeball_eyelid_filters.png/200px-svgGrandTour_eyeball_eyelid_filters.png)
+![svgGrandTour eyeball eyelid filters.png](//static.webplatform.org/thumb/4/4f/svgGrandTour_eyeball_eyelid_filters.png/200px-svgGrandTour_eyeball_eyelid_filters.png)
 
 (See [**SVG filters**](/svg/tutorials/smarter_svg_filters) for information on various ways to combine SVG's filter effects.)
 
@@ -378,7 +378,7 @@ Once the eyes are semantically grouped, a single [**use**](/svg/elements/use) el
 <use xlink:href="#eyes"/>
 ```
 
- ![svgGrandTour eyeballs.png](/assets/thumb/a/ac/svgGrandTour_eyeballs.png/500px-svgGrandTour_eyeballs.png)
+ ![svgGrandTour eyeballs.png](//static.webplatform.org/thumb/a/ac/svgGrandTour_eyeballs.png/500px-svgGrandTour_eyeballs.png)
 
 When presenting the eyes with other interface elements, you may want to resize them. The original [**svg**](/svg/elements/svg) element specified that they should appear within a 600×200-pixel rectangle:
 
@@ -386,7 +386,7 @@ When presenting the eyes with other interface elements, you may want to resize t
 <svg width="600" height="200">
 ```
 
- ![svgGrandTour eyeballs viewport large.png](/assets/thumb/d/d6/svgGrandTour_eyeballs_viewport_large.png/600px-svgGrandTour_eyeballs_viewport_large.png)
+ ![svgGrandTour eyeballs viewport large.png](//static.webplatform.org/thumb/d/d6/svgGrandTour_eyeballs_viewport_large.png/600px-svgGrandTour_eyeballs_viewport_large.png)
 
 But what if that's much too big for the context in which they are to appear? If you shrink it down, using either [**width**](/w/index.php?title=svg/attributes/width&action=edit&redlink=1)/[**height**](/w/index.php?title=svg/attributes/height&action=edit&redlink=1) attributes or CSS, its dimensions no longer match the various measurements specified within the graphic:
 
@@ -401,7 +401,7 @@ svg {
 <svg width="300" height="100">
 ```
 
- ![svgGrandTour eyeballs viewport small.png](/assets/thumb/b/bd/svgGrandTour_eyeballs_viewport_small.png/300px-svgGrandTour_eyeballs_viewport_small.png)
+ ![svgGrandTour eyeballs viewport small.png](//static.webplatform.org/thumb/b/bd/svgGrandTour_eyeballs_viewport_small.png/300px-svgGrandTour_eyeballs_viewport_small.png)
 
 The solution is to define a custom box using the [**viewBox**](/w/index.php?title=svg/attributes/viewBox&action=edit&redlink=1) attribute. Doing so declares a set of abstract units for exclusive use *within* the graphic, which may bear no relation to the outer coordinate space in which the graphic is presented, to which the SVG's [**width**](/w/index.php?title=svg/attributes/width&action=edit&redlink=1) and [**height**](/w/index.php?title=svg/attributes/height&action=edit&redlink=1) apply:
 
@@ -409,7 +409,7 @@ The solution is to define a custom box using the [**viewBox**](/w/index.php?titl
 <svg width="300" height="100" viewBox="0 0 600 200">
 ```
 
- ![svgGrandTour eyeballs viewbox.png](/assets/thumb/8/84/svgGrandTour_eyeballs_viewbox.png/300px-svgGrandTour_eyeballs_viewbox.png)
+ ![svgGrandTour eyeballs viewbox.png](//static.webplatform.org/thumb/8/84/svgGrandTour_eyeballs_viewbox.png/300px-svgGrandTour_eyeballs_viewbox.png)
 
 Adding a [**preserveAspectRatio**](/w/index.php?title=svg/attributes/preserveAspectRatio&action=edit&redlink=1) attribute controls what happens in cases when the shape of the [**viewBox**](/w/index.php?title=svg/attributes/viewBox&action=edit&redlink=1) doesn't match the *viewport* within which the graphic appears. In this case, **xMidYMid** centers it and shrinks it enough for the entire graphic to appear:
 
@@ -417,7 +417,7 @@ Adding a [**preserveAspectRatio**](/w/index.php?title=svg/attributes/preserveAsp
 <svg width="100" height="100" viewBox="0 0 600 200" preserveAspectRatio="xMidYMid">
 ```
 
- ![svgGrandTour eyeballs viewbox preserve.png](/assets/thumb/0/04/svgGrandTour_eyeballs_viewbox_preserve.png/100px-svgGrandTour_eyeballs_viewbox_preserve.png)
+ ![svgGrandTour eyeballs viewbox preserve.png](//static.webplatform.org/thumb/0/04/svgGrandTour_eyeballs_viewbox_preserve.png/100px-svgGrandTour_eyeballs_viewbox_preserve.png)
 
 ## Glancing
 
@@ -435,7 +435,7 @@ In many cases, you can use CSS techniques to animate numeric and color propertie
  }
 ```
 
- ![svgGrandTour eyeballs brown.png](/assets/thumb/e/e0/svgGrandTour_eyeballs_brown.png/500px-svgGrandTour_eyeballs_brown.png)
+ ![svgGrandTour eyeballs brown.png](//static.webplatform.org/thumb/e/e0/svgGrandTour_eyeballs_brown.png/500px-svgGrandTour_eyeballs_brown.png)
 
 You can't use that familiar approach for SVG attributes. SVG has its own mechanism (based on the *SMIL* standard) to animate attribute values. We'll use it to make the eye glance to the side.
 
@@ -445,7 +445,7 @@ First, let's try to move the eye statically using a **translate()** transform de
 <circle id="eyeball" cx="100" cy="100" r="50" transform="translate(50,0)"/>
 ```
 
- ![svgGrandTour eyeballs translate50.png](/assets/thumb/f/f2/svgGrandTour_eyeballs_translate50.png/500px-svgGrandTour_eyeballs_translate50.png)
+ ![svgGrandTour eyeballs translate50.png](//static.webplatform.org/thumb/f/f2/svgGrandTour_eyeballs_translate50.png/500px-svgGrandTour_eyeballs_translate50.png)
 
 That certainly didn't do what we want. It moved the entire eyeball, including the clipping path behind which it is supposed to render. Instead, modify the [**cx**](/w/index.php?title=svg/attributes/cx&action=edit&redlink=1) attribute, which sets the position of the center of the circle:
 
@@ -453,7 +453,7 @@ That certainly didn't do what we want. It moved the entire eyeball, including th
 <circle id="eyeball" cx="150" cy="100" r="50"/>
 ```
 
- ![svgGrandTour eyeball glance.png](/assets/thumb/e/ea/svgGrandTour_eyeball_glance.png/500px-svgGrandTour_eyeball_glance.png)
+ ![svgGrandTour eyeball glance.png](//static.webplatform.org/thumb/e/ea/svgGrandTour_eyeball_glance.png/500px-svgGrandTour_eyeball_glance.png)
 
 That's much better. Now return the [**cx**](/w/index.php?title=svg/attributes/cx&action=edit&redlink=1) to its original value. To get it to move dynamically, place an [**animate**](/w/index.php?title=svg/elements/animate&action=edit&redlink=1) element within the *eyeball* object whose attribute you want to modify:
 
@@ -532,7 +532,7 @@ As is true for CSS transitions and animations, you can animate most any numeric 
 
  In this case, the [**begin**](/w/index.php?title=svg/attributes/begin&action=edit&redlink=1) attribute specifies half a dozen different values, so the animation executes several times . Between the [**from**](/w/index.php?title=svg/attributes/from&action=edit&redlink=1) and [**to**](/w/index.php?title=svg/attributes/to&action=edit&redlink=1) values, the only values that are modified are the positions of the two control points that affect the shape of the curve, so the animation behaves like this:
 
-![svgGrandTour eyeball blink.png](/assets/public/7/75/svgGrandTour_eyeball_blink.png)
+![svgGrandTour eyeball blink.png](//static.webplatform.org/7/75/svgGrandTour_eyeball_blink.png)
 
 You can use JavaScript to control these animations more flexibly. To do so, call the **beginElement()** method on the animation object. This example shifts the *x*/*y* coordinates to which the eyes glance, with an optional duration parameter to regulate the speed:
 
@@ -577,7 +577,7 @@ Links use the same [**a**](/svg/elements/a) element as in HTML, but as usual the
 
  When linking to an internal [**view**](/svg/elements/view) element, its [**viewBox**](/w/index.php?title=svg/attributes/viewBox&action=edit&redlink=1) value overrides that of the [**svg**](/svg/elements/svg) of which it is a descendant, thus zooming the scene:
 
-![svgGrandTour eyeball zoom.png](/assets/thumb/a/ac/svgGrandTour_eyeball_zoom.png/200px-svgGrandTour_eyeball_zoom.png)
+![svgGrandTour eyeball zoom.png](//static.webplatform.org/thumb/a/ac/svgGrandTour_eyeball_zoom.png/200px-svgGrandTour_eyeball_zoom.png)
 
 The entire eyeball is active by default, but this can be configured. In HTML content, the [**pointer-events**](/css/properties/pointer-events) property allows you to control whether an element's mouse and touch event handlers execute, useful in layered interfaces. SVG allows you to target the active area to the **visibleStroke** or **visibleFill** portion of a graphic (or **visiblePainted** for both). These become active when a graphic's [**visibility**](/css/properties/visibility) is enabled (**visible**), and when [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1) and [**stroke**](/w/index.php?title=svg/properties/stroke&action=edit&redlink=1) values are defined. (Unlike [**visibility:hidden**](/css/properties/visibility), setting [**display:none**](/css/properties/display) entirely suppresses an element's rendering.)
 
@@ -649,7 +649,7 @@ function zoomNav(e) {
 
 SVG allows you to mix text with other graphics, but these are simple lines of text that do not wrap within a box as in HTML. You ordinarily use **x** and **y** coordinate attributes to position [**text**](/svg/elements/text) elements directly within a graphic. This example relies on SVG's characteristic ability to place text along a curved path:
 
-![svgGrandTour eyeball textRotate.png](/assets/thumb/2/2a/svgGrandTour_eyeball_textRotate.png/200px-svgGrandTour_eyeball_textRotate.png)
+![svgGrandTour eyeball textRotate.png](//static.webplatform.org/thumb/2/2a/svgGrandTour_eyeball_textRotate.png/200px-svgGrandTour_eyeball_textRotate.png)
 
 The text appears to wrap around a [**circle**](/svg/elements/circle) element, but since circles do not have logical start and end points, you need to use the [rather complex](/svg/tutorials/smarter_svg_shapes) *A* path command to draw two elliptical arc curves, each facing the other, originating and terminating at the left edge:
 
@@ -658,7 +658,7 @@ The text appears to wrap around a [**circle**](/svg/elements/circle) element, bu
 <path id="pupilPath" d="M 78,100 A 22,22 0 0 1 122,100 A 22,22 0 0 1 78,100"/>
 ```
 
- ![svgGrandTour eyeball textPath.png](/assets/thumb/c/cc/svgGrandTour_eyeball_textPath.png/200px-svgGrandTour_eyeball_textPath.png)
+ ![svgGrandTour eyeball textPath.png](//static.webplatform.org/thumb/c/cc/svgGrandTour_eyeball_textPath.png/200px-svgGrandTour_eyeball_textPath.png)
 
 We'll add a reference to a *labels* object along with other eyeball components:
 
@@ -684,7 +684,7 @@ We'll add a reference to a *labels* object along with other eyeball components:
 </g>
 ```
 
- ![svgGrandTour eyeball text.png](/assets/thumb/d/df/svgGrandTour_eyeball_text.png/200px-svgGrandTour_eyeball_text.png)
+ ![svgGrandTour eyeball text.png](//static.webplatform.org/thumb/d/df/svgGrandTour_eyeball_text.png/200px-svgGrandTour_eyeball_text.png)
 
 Ordinarily, you can increment the [**textPath**](/svg/elements/textPath)'s [**startOffset**](/w/index.php?title=svg/attributes/startOffset&action=edit&redlink=1) attribute in animations to push text along the path. As an alternative in this case, you can use CSS transforms to rotate the circular object:
 
@@ -703,7 +703,7 @@ Ordinarily, you can increment the [**textPath**](/svg/elements/textPath)'s [**st
 
  By default, SVG transforms originate from an element's top-left corner, so to spin the circle properly you need to explicitly set the [**transform-origin**](/css/properties/transform-origin) property to CSS's own default **50% 50%** value. And be careful when mixing transforms, since SVG's get clobbered by CSS's.
 
-![svgGrandTour eyeball textRotate.png](/assets/thumb/2/2a/svgGrandTour_eyeball_textRotate.png/200px-svgGrandTour_eyeball_textRotate.png)
+![svgGrandTour eyeball textRotate.png](//static.webplatform.org/thumb/2/2a/svgGrandTour_eyeball_textRotate.png/200px-svgGrandTour_eyeball_textRotate.png)
 
 Finally, additional CSS specifies the appearance of the text labels, and displays contextually within the magnified zoom level. Transitions on the [**fill-opacity**](/w/index.php?title=svg/properties/fill-opacity&action=edit&redlink=1) and [**stroke-opacity**](/w/index.php?title=svg/properties/stroke-opacity&action=edit&redlink=1) properties fade them in and out as the zoom animation executes:
 
@@ -734,7 +734,7 @@ svg.zoomIn text {
 
 Had enough?
 
-![svgGrandTour eyeball tired.png](/assets/thumb/6/69/svgGrandTour_eyeball_tired.png/600px-svgGrandTour_eyeball_tired.png)
+![svgGrandTour eyeball tired.png](//static.webplatform.org/thumb/6/69/svgGrandTour_eyeball_tired.png/600px-svgGrandTour_eyeball_tired.png)
 
 ## See also
 

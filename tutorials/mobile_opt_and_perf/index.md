@@ -291,27 +291,27 @@ Note: Do not enable the GPU compositing on all pages option. The FPS counter onl
 
 If you view [this page](http://slidfast.appspot.com/slide-flip-rotate.html) in your souped up version of Chrome, you will see the red FPS counter in the top left hand corner.
 
-![Chrome FPS](/assets/public/2/21/chrome-fps.png)
+![Chrome FPS](//static.webplatform.org/2/21/chrome-fps.png)
 
 This is how we know hardware acceleration is turned on. It also gives us an idea on how the animation runs and if you have any leaks (continuous running animations that should be stopped).
 
 Another way to actually visualize the hardware acceleration is if you open the same page in Safari (with the environment variables I mentioned above). Every accelerated DOM element have a red tint to it. This shows us exactly what is being composited by layer. Notice the white navigation is not red because it is not accelerated.
 
-![Composited Contact Page](/assets/thumb/0/07/composited-contact.png/300px-composited-contact.png)
+![Composited Contact Page](//static.webplatform.org/thumb/0/07/composited-contact.png/300px-composited-contact.png)
 
 A similar setting for Chrome is also available in the `about:flags` “Composited render layer borders”.
 
 Another great way to see the composited layers is to view the [WebKit falling leaves demo](http://www.webkit.org/blog-files/leaves/) while this mod is applied.
 
-![Composited Leaves Demo](/assets/thumb/b/b6/composited-leaves.jpeg/300px-composited-leaves.jpeg)
+![Composited Leaves Demo](//static.webplatform.org/thumb/b/b6/composited-leaves.jpeg/300px-composited-leaves.jpeg)
 
 And finally, to truly understand the graphics hardware performance of our application, let’s take a look at how memory is being consumed. Here we see that we are pushing 1.38MB of drawing instructions to the CoreAnimation buffers on Mac OS. The Core Animation memory buffers are shared between OpenGL ES and the GPU to create the final pixels you see on the screen.
 
-![Coreanimation 1](/assets/thumb/f/f0/coreanimation-1.png/500px-coreanimation-1.png)
+![Coreanimation 1](//static.webplatform.org/thumb/f/f0/coreanimation-1.png/500px-coreanimation-1.png)
 
 When we simply resize or maximize the browser window, we see the memory expand as well.
 
-![Coreanimation 2](/assets/thumb/6/61/coreanimation-2.png/500px-coreanimation-2.png)
+![Coreanimation 2](//static.webplatform.org/thumb/6/61/coreanimation-2.png/500px-coreanimation-2.png)
 
 This gives you an idea of how memory is being consumed on your mobile device only if you resize the browser to the correct dimensions. If you were debugging or testing for iPhone environments resize to 480px by 320px. We now understand exactly how hardware acceleration works and what it takes to debug. It’s one thing to read about it, but to actually see the GPU memory buffers working visually really brings things into perspective.
 
@@ -327,7 +327,7 @@ Let’s address a few core mobile web problems and the reasons why we need to do
 
 Building on the code from the [Slide, Flip, and Rotate demo](http://slidfast.appspot.com/slide-flip-rotate.html), we start out by adding some secondary pages and linking to them. We’ll then parse the links and create transitions on the fly.
 
-![iPhone Home](/assets/public/7/7a/iphone-home.jpeg)
+![iPhone Home](//static.webplatform.org/7/7a/iphone-home.jpeg)
 
 [View the Fetch and Cache demo here.](http://slidfast.appspot.com/fetch-cache.html)
 
@@ -539,11 +539,11 @@ There are numerous adjustments we could make to our fetchAndCache process, but a
 
 Edge (Synchronous) Request Timeline
 
-![Edge Sync](/assets/thumb/c/c4/edge-sync.png/700px-edge-sync.png)
+![Edge Sync](//static.webplatform.org/thumb/c/c4/edge-sync.png/700px-edge-sync.png)
 
 WIFI (Asynchronous) Request Timeline
 
-![WIFI Async](/assets/thumb/1/15/wifi-async.png/700px-wifi-async.png)
+![WIFI Async](//static.webplatform.org/thumb/1/15/wifi-async.png/700px-wifi-async.png)
 
 This allows for at least some method of user experience adjustment based on slow or fast connections. This is by no means is an end-all-be-all solution. Another todo would be to throw up a loading modal when a link is clicked (on slow connections) while the app still may be fetching that link’s page in the background. The big point here is to cut down on latencies while leveraging the full capabilities of the user’s connection with the latest and greatest HTML5 has to offer. [View the network detection demo here](http://slidfast.appspot.com/network-detection.html).
 

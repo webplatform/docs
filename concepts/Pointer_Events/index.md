@@ -381,11 +381,11 @@ Like `pressure`, if the hardware supports it, the tilt of the pen is also includ
 
 -   `tiltX` measures the angle in degrees (-90 to 90) between the pen and a plane formed by the Y Axis and Z Axis as shown below:
 
-![Image showing positive TiltX](/assets/public/2/20/TiltX.png)
+![Image showing positive TiltX](//static.webplatform.org/2/20/TiltX.png)
 
 -   `tiltY` measures the angle in degrees (-90 to 90) between the pen and a plane formed by the X Axis and Z Axis as shown below:
 
-![Image showing positive TiltY](/assets/public/6/62/TiltY.png)
+![Image showing positive TiltY](//static.webplatform.org/6/62/TiltY.png)
 
 If the pen is perpendicular to the plane formed by the X Axis and Y Axis, then its `tiltX` and `tiltY` values will both be zero.
 
@@ -569,7 +569,7 @@ Here are a few news articles about Pointer Events:
 
 ## Appendix: Designing for Touch
 
-![Image showing 40px hit targets and 10px spacing](/assets/public/a/a9/TouchGuidelines.png)
+![Image showing 40px hit targets and 10px spacing](//static.webplatform.org/a/a9/TouchGuidelines.png)
 
 There are a few key principles that web designers should keep in-mind when updating pages for modern web browsers:
 

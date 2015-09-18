@@ -3,7 +3,7 @@ title: 'border-left-color'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5535442'
+  - 'http://code.webplatform.org/gist/5535442'
 compatibility:
   feature: border-left-color
   topic: css
@@ -116,7 +116,7 @@ The following example demonstrates the use of `border-left-color` by creating a 
 }
 ```
 
-[View live example](http://gist.github.com/5535442)
+[View live example](http://code.webplatform.org/gist/5535442)
 
 ``` html
 <div class="box named-value">

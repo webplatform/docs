@@ -82,13 +82,13 @@ The next thing to do might seem superfluous at first as it will never be directl
 
 If you open this document in a browser you’ll not see anything in the `body` of the document, however, if you put this document online and search engines index it, the description will be displayed as the text below the link in search engine results, as shown in Figure 2.
 
-![descriptions showing in a search engine results page](/assets/public/d/d5/head-fih.gif)
+![descriptions showing in a search engine results page](//static.webplatform.org/d/d5/head-fih.gif)
 
 Figure 2: Descriptions show up in search engine result pages.
 
 This could be the crucial bit of information a possible visitor of your site was looking for and the reason for him or her to click the link. Descriptions have another use too — some browsers show the description as extra information when you add the document to your favourites, as shown in Figure 3:
 
-![Some browsers use the description as a bookmark description](/assets/public/6/60/head-fii.gif)
+![Some browsers use the description as a bookmark description](//static.webplatform.org/6/60/head-fii.gif)
 
 Figure 3: Descriptions show up in some browsers when you add the document as a favourite.
 
@@ -140,7 +140,7 @@ If you for example want to override the colours used on the screen and use a lar
 
 Now when you go to print this web page, the browser knows to use the print stylesheet for printing the document, and not the screen styles. Check this out by loading [headinlinestylesmedia.html](http://dev.opera.com/articles/view/13-the-html-head-element/headinlinestylesmedia.html) and selecting print preview, as shown in Figure 4:
 
-![The same page with print and screen style sheets applied](/assets/public/2/20/head-fij.gif)
+![The same page with print and screen style sheets applied](//static.webplatform.org/2/20/head-fij.gif)
 
 Figure 4: A screen and a print style sheet.
 

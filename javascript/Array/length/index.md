@@ -3,8 +3,8 @@ title: 'length'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/d8ez24f2(v=vs.94).aspx)'
 code_samples:
-  - 'http://gist.github.com/9086506'
-  - 'http://gist.github.com/9086602'
+  - 'http://code.webplatform.org/gist/9086506'
+  - 'http://code.webplatform.org/gist/9086602'
 compatibility:
   feature: length
   topic: javascript
@@ -55,7 +55,7 @@ for (var i = 0, j = classes.length; i < j; i++) {
 ```
 
 </pre>
-[View live example](http://gist.github.com/9086506)
+[View live example](http://code.webplatform.org/gist/9086506)
 
 This shows how to limit the number of items added into a shopping cart. The length property shortens the array cart to a length of 3 if the current length is larger than 3. The attributes of the **length** property are { Writable: true, Enumerable: false, Configurable: false }. So you can set the **length** property to extend or truncate an Array object at any time.
 
@@ -72,7 +72,7 @@ if (cart.length > 3) {
 // Output: bread,cheese,coffee
 ```
 
-[View live example](http://gist.github.com/9086602)
+[View live example](http://code.webplatform.org/gist/9086602)
 
 ## Remarks
 

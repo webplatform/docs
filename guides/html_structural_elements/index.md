@@ -27,13 +27,13 @@ Before you read any further, go and have a look at some of your favourite websit
 
 Lets visualise this a bit more with a specific example. The website of the band "Conquest of Steel" looks like this:
 
-![htmlstructure1.jpg](/assets/public/f/f1/htmlstructure1.jpg)
+![htmlstructure1.jpg](//static.webplatform.org/f/f1/htmlstructure1.jpg)
 
 *Figure 1: A typical example website.*
 
 We could break this up into the sections we have just discussed:
 
-![htmlstructure2.jpg](/assets/public/a/af/htmlstructure2.jpg)
+![htmlstructure2.jpg](//static.webplatform.org/a/af/htmlstructure2.jpg)
 
 *Figure 2: the example site with distinct sections overlaid.*
 
@@ -52,7 +52,7 @@ You should only use these elements when there isn't a more appropriate, semantic
 
 So, to mark up the example site with HTML4, you could use the following elements:
 
-![htmlstructure3.jpg](/assets/public/7/71/htmlstructure3.jpg)
+![htmlstructure3.jpg](//static.webplatform.org/7/71/htmlstructure3.jpg)
 
 *Figure 3: The example site with appropriate HTML4 elements indicated for different major structural sections.*
 
@@ -111,7 +111,7 @@ The new HTML5 elements we will cover in this article are:
 
 We will discuss these in a moment, but for now let's look at how our example could look when structured using HTML5 elements:
 
-![htmlstructure4.jpg](/assets/public/9/97/htmlstructure4.jpg)
+![htmlstructure4.jpg](//static.webplatform.org/9/97/htmlstructure4.jpg)
 
 *Figure 4: The example site with appropriate HTML5 elements indicated for different major structural sections.*
 

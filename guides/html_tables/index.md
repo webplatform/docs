@@ -311,7 +311,7 @@ caption {
 
  When applied to our final table markup, the table looks like this (we used an image here so our markup wouldn't be affected by the rendering environment):
 
-![the final table example](/assets/public/1/14/table300.png)
+![the final table example](//static.webplatform.org/1/14/table300.png)
 
 *Figure 1: A more visually appealing table.*
 

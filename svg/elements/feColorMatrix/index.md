@@ -1,14 +1,14 @@
 ---
 title: 'feColorMatrix'
 code_samples:
-  - 'http://gist.github.com/5303882'
-  - 'http://gist.github.com/5303933'
-  - 'http://gist.github.com/5303960'
-  - 'http://gist.github.com/5304023'
-  - 'http://gist.github.com/5304047'
-  - 'http://gist.github.com/5304064'
-  - 'http://gist.github.com/5304095'
-  - 'http://gist.github.com/5304176'
+  - 'http://code.webplatform.org/gist/5303882'
+  - 'http://code.webplatform.org/gist/5303933'
+  - 'http://code.webplatform.org/gist/5303960'
+  - 'http://code.webplatform.org/gist/5304023'
+  - 'http://code.webplatform.org/gist/5304047'
+  - 'http://code.webplatform.org/gist/5304064'
+  - 'http://code.webplatform.org/gist/5304095'
+  - 'http://code.webplatform.org/gist/5304176'
 compatibility:
   feature: feColorMatrix
   topic: svg
@@ -70,7 +70,7 @@ By default, color-manipulation operations using feColorMatrix take place in line
 
 ## Examples
 
-![desaturate.png](/assets/public/0/03/desaturate.png)
+![desaturate.png](//static.webplatform.org/0/03/desaturate.png)
 
 Example of a feColorMatrix with type="saturate"
 
@@ -86,9 +86,9 @@ Example of a feColorMatrix with type="saturate"
 </svg>​
 ```
 
-[View live example](http://gist.github.com/5303882)
+[View live example](http://code.webplatform.org/gist/5303882)
 
-![huerotate.png](/assets/public/1/19/huerotate.png)
+![huerotate.png](//static.webplatform.org/1/19/huerotate.png)
 
 Example of a feColorMatrix with type="hueRotate"
 
@@ -106,9 +106,9 @@ Example of a feColorMatrix with type="hueRotate"
 ***
 ```
 
-[View live example](http://gist.github.com/5303933)
+[View live example](http://code.webplatform.org/gist/5303933)
 
-![luminancetoalpha.png](/assets/public/0/01/luminancetoalpha.png)
+![luminancetoalpha.png](//static.webplatform.org/0/01/luminancetoalpha.png)
 
 Example of a feColorMatrix with type="luminanceToAlpha"
 
@@ -126,9 +126,9 @@ Example of a feColorMatrix with type="luminanceToAlpha"
 ***
 ```
 
-[View live example](http://gist.github.com/5303960)
+[View live example](http://code.webplatform.org/gist/5303960)
 
-![contrast.png](/assets/public/8/80/contrast.png)
+![contrast.png](//static.webplatform.org/8/80/contrast.png)
 
 Example of a feColorMatrix with type="matrix" showing a contrast adjustment
 
@@ -149,9 +149,9 @@ Example of a feColorMatrix with type="matrix" showing a contrast adjustment
 ***
 ```
 
-[View live example](http://gist.github.com/5304023)
+[View live example](http://code.webplatform.org/gist/5304023)
 
-![sepia.png](/assets/public/c/cd/sepia.png)
+![sepia.png](//static.webplatform.org/c/cd/sepia.png)
 
 Example of a feColorMatrix with type="matrix" showing a sepia adjustment
 
@@ -172,9 +172,9 @@ Example of a feColorMatrix with type="matrix" showing a sepia adjustment
 ***
 ```
 
-[View live example](http://gist.github.com/5304047)
+[View live example](http://code.webplatform.org/gist/5304047)
 
-![grey.png](/assets/public/f/fa/grey.png)
+![grey.png](//static.webplatform.org/f/fa/grey.png)
 
 Example of a feColorMatrix with type="matrix" showing a standard greyscale adjustment
 
@@ -195,9 +195,9 @@ Example of a feColorMatrix with type="matrix" showing a standard greyscale adjus
 ***
 ```
 
-[View live example](http://gist.github.com/5304064)
+[View live example](http://code.webplatform.org/gist/5304064)
 
-![greygreen.png](/assets/public/8/8c/greygreen.png)
+![greygreen.png](//static.webplatform.org/8/8c/greygreen.png)
 
 Example of a feColorMatrix with type="matrix" showing a greyscale with green channel weighting
 
@@ -218,9 +218,9 @@ Example of a feColorMatrix with type="matrix" showing a greyscale with green cha
 ***
 ```
 
-[View live example](http://gist.github.com/5304095)
+[View live example](http://code.webplatform.org/gist/5304095)
 
-![invert.png](/assets/public/f/f8/invert.png)
+![invert.png](//static.webplatform.org/f/f8/invert.png)
 
 Example of a feColorMatrix with type="matrix" showing an inversion
 
@@ -241,7 +241,7 @@ Example of a feColorMatrix with type="matrix" showing an inversion
 ***
 ```
 
-[View live example](http://gist.github.com/5304176)
+[View live example](http://code.webplatform.org/gist/5304176)
 
 ## Notes
 

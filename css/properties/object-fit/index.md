@@ -1,7 +1,7 @@
 ---
 title: 'object-fit'
 code_samples:
-  - 'http://gist.github.com/6badc0b20d67be7d939f'
+  - 'http://code.webplatform.org/gist/6badc0b20d67be7d939f'
 compatibility:
   feature: object-fit
   topic: css
@@ -155,7 +155,7 @@ img {
 }
 ```
 
-[View live example](http://gist.github.com/6badc0b20d67be7d939f)
+[View live example](http://code.webplatform.org/gist/6badc0b20d67be7d939f)
 
 ## Related specifications
 

@@ -17,7 +17,7 @@ This article covers SVG pattern fills.
 
 Patterns, in my opinion, are one of the more confusing fill types to use in SVG. They're also very powerful, so they're worth talking about and getting at least a fundamental grasp on. Like gradients, the `<pattern>` element should be put in the `<defs>` section of your SVG file.
 
-![SVG Pattern Example.png](/assets/public/3/3d/SVG_Pattern_Example.png)
+![SVG Pattern Example.png](//static.webplatform.org/3/3d/SVG_Pattern_Example.png)
 
     <?xml version="1.0" standalone="no"?>
     <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -70,6 +70,6 @@ Neither of these uses is what one would normally think of when you think of a pa
        <circle cx="25" cy="25" r="20" fill="url(#Gradient1)" fill-opacity="0.5"/>
      </pattern>
 
-![SVG Pattern Comparison of Units.png](/assets/public/6/6d/SVG_Pattern_Comparison_of_Units.png)
+![SVG Pattern Comparison of Units.png](//static.webplatform.org/6/6d/SVG_Pattern_Comparison_of_Units.png)
 
 Of course, this means that the pattern won't scale if you change your object size later. All three of the above examples are shown below on a rectangle that has been slightly elongated to a height of 300px, but I should note its not an exhaustive picture, and there are other options available depending on your application.

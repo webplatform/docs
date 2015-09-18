@@ -3,7 +3,7 @@ title: 'text-autospace'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5842252'
+  - 'http://code.webplatform.org/gist/5842252'
 compatibility:
   feature: text-autospace
   topic: css
@@ -106,7 +106,7 @@ tr:nth-child(5) {
 }
 ```
 
-[View live example](http://gist.github.com/5842252)
+[View live example](http://code.webplatform.org/gist/5842252)
 
 ## Usage
 

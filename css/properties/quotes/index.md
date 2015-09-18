@@ -3,7 +3,7 @@ title: 'quotes'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5841933'
+  - 'http://code.webplatform.org/gist/5841933'
 compatibility:
   feature: quotes
   topic: css
@@ -78,7 +78,7 @@ q:before { content: open-quote }
 q:after  { content: close-quote }
 ```
 
-[View live example](http://gist.github.com/5841933)
+[View live example](http://code.webplatform.org/gist/5841933)
 
 The HTML for the example above.
 

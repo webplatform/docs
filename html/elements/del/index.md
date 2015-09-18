@@ -3,7 +3,7 @@ title: 'del'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/6365735'
+  - 'http://code.webplatform.org/gist/6365735'
 compatibility:
   feature: del
   topic: html
@@ -56,7 +56,7 @@ This example uses `<ins>` and `<del>` elements to explain changes in a document
 </p>
 ```
 
-[View live example](http://gist.github.com/6365735)
+[View live example](http://code.webplatform.org/gist/6365735)
 
 ## Usage
 

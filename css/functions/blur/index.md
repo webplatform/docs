@@ -24,15 +24,15 @@ Blurs an element, for use by the filter property. Accepts a distance measurement
 
     filter: blur(10px);
 
-  ![f21-peppers2.jpg](/assets/thumb/a/ad/f21-peppers2.jpg/300px-f21-peppers2.jpg)![f22-peppers2blur.jpg](/assets/thumb/5/52/f22-peppers2blur.jpg/300px-f22-peppers2blur.jpg)
+  ![f21-peppers2.jpg](//static.webplatform.org/thumb/a/ad/f21-peppers2.jpg/300px-f21-peppers2.jpg)![f22-peppers2blur.jpg](//static.webplatform.org/thumb/5/52/f22-peppers2blur.jpg/300px-f22-peppers2blur.jpg)
 
 Note that pixels blur around the contours of image transparencies, possibly affecting the ability of background content to show through:
 
-![music blur.png](/assets/public/2/25/music_blur.png)
+![music blur.png](//static.webplatform.org/2/25/music_blur.png)
 
 ## Examples
 
-The following example shows the difference between two images, where one has a blur of 10px: ![filter blur.png](/assets/thumb/7/78/filter_blur.png/400px-filter_blur.png)
+The following example shows the difference between two images, where one has a blur of 10px: ![filter blur.png](//static.webplatform.org/thumb/7/78/filter_blur.png/400px-filter_blur.png)
 
 ``` html
 <!DOCTYPE html>

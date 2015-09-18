@@ -3,7 +3,7 @@ title: 'rotate()'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/10500f11ec6168049ba5'
+  - 'http://code.webplatform.org/gist/10500f11ec6168049ba5'
 compatibility:
   feature: rotate()
   topic: css
@@ -30,7 +30,7 @@ div {
 }
 ```
 
-[View live example](http://gist.github.com/10500f11ec6168049ba5)
+[View live example](http://code.webplatform.org/gist/10500f11ec6168049ba5)
 
 ### Syntax
 

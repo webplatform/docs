@@ -1,7 +1,7 @@
 ---
 title: '<position>'
 code_samples:
-  - 'http://gist.github.com/10612218'
+  - 'http://code.webplatform.org/gist/10612218'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The &lt;position&gt; CSS data type represents information for positioning an element in horizontal and vertical directions using a mix of keywords, percentage, and length values.'
@@ -70,7 +70,7 @@ body{
 }
 ```
 
-[View live example](http://gist.github.com/10612218)
+[View live example](http://code.webplatform.org/gist/10612218)
 
 ## Related specifications
 

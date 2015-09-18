@@ -1,7 +1,7 @@
 ---
 title: ':in-range'
 code_samples:
-  - 'http://gist.github.com/73a791bbe2cd884f6b2e'
+  - 'http://code.webplatform.org/gist/73a791bbe2cd884f6b2e'
 compatibility:
   feature: ':in-range'
   topic: css
@@ -51,7 +51,7 @@ input:out-of-range + label::after {
 </code>
 ```
 
-[View live example](http://gist.github.com/73a791bbe2cd884f6b2e)
+[View live example](http://code.webplatform.org/gist/73a791bbe2cd884f6b2e)
 
 ## Related specifications
 

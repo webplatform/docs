@@ -3,7 +3,7 @@ title: 'margin-left'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5727939'
+  - 'http://code.webplatform.org/gist/5727939'
 compatibility:
   feature: margin-left
   topic: css
@@ -90,7 +90,7 @@ In this example there are three blocks, styled identically except for their `mar
 <div class="three"></div>
 ```
 
-[View live example](http://gist.github.com/5727939)
+[View live example](http://code.webplatform.org/gist/5727939)
 
 CSS applied to the HTML shown in the first example.
 
@@ -125,7 +125,7 @@ CSS applied to the HTML shown in the first example.
  }
 ```
 
-[View live example](http://gist.github.com/5727939)
+[View live example](http://code.webplatform.org/gist/5727939)
 
 ## Usage
 

@@ -4,7 +4,7 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/box-sizing)'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809) Article]'
 code_samples:
-  - 'http://gist.github.com/5496267'
+  - 'http://code.webplatform.org/gist/5496267'
 compatibility:
   feature: box-sizing
   topic: css
@@ -103,7 +103,7 @@ This CSS makes it so that the child `<div>` will always An element with padding 
  }
 ```
 
-[View live example](http://gist.github.com/5496267)
+[View live example](http://code.webplatform.org/gist/5496267)
 
 Input elements with type `search` are rendered with `border-box` in Safari 5 and Chrome. You can normalize this behavior across all browsers using the following code.
 

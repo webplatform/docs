@@ -45,7 +45,7 @@ The easiest way to convert an existing font in any of these formats to all the o
 
 Naturally, the font variants must all be available on the server to the pages that use them, either in the same folder or in a defined path. And -- this should go without saying, but let's say it anyway -- you **must** be sure that the font you want to use is licensed for web use. For this article we're using an absolutely free and web-licensed font called [FingerPaint](http://www.fontsquirrel.com/fonts/finger-paint), available (along with many others) at Font Squirrel. Finger Paint is a fun, decorative font; here's how it looks.
 
-![fingerpaintfont1.png](/assets/public/a/af/fingerpaintfont1.png)
+![fingerpaintfont1.png](//static.webplatform.org/a/af/fingerpaintfont1.png)
 
 ## Creating the FontFace Object
 
@@ -109,7 +109,7 @@ There are any number of ways to assign the font to one or more HTML elements, an
 
 sets the entire document body to the new font, and falls back to *serif* if there's a problem. (As with any font assignment, always include one or more fallbacks.) Here's the output.
 
-![fingerpaintfont2.png](/assets/public/e/e4/fingerpaintfont2.png)
+![fingerpaintfont2.png](//static.webplatform.org/e/e4/fingerpaintfont2.png)
 
 Okay, that's a pretty broad application, especially for a whimsical font like Finger Paint. It would make more sense to only apply the font to a specific set of tags, such as just those with a class of "fp". So this
 
@@ -124,7 +124,7 @@ Okay, that's a pretty broad application, especially for a whimsical font like Fi
 
 would do the trick, selecting all tags with the class of "fp" and looping through them to apply the Finger Paint font to each. That output looks like this.
 
-![fingerpaintfont3.png](/assets/public/3/3f/fingerpaintfont3.png)
+![fingerpaintfont3.png](//static.webplatform.org/3/3f/fingerpaintfont3.png)
 
 Or, if you'd rather not rely on pre-assigned classes, you might opt to display all the H2s in the document in Finger Paint. If so, this
 
@@ -139,7 +139,7 @@ Or, if you'd rather not rely on pre-assigned classes, you might opt to display a
 
 is what you need, selecting all H2 elements regardless of class and applying the font to them. That produces this output.
 
-![fingerpaintfont4.png](/assets/public/d/d3/fingerpaintfont4.png)
+![fingerpaintfont4.png](//static.webplatform.org/d/d3/fingerpaintfont4.png)
 
 Again, applying the font in the same place, code-wise, where it is identified, loaded, and added keeps the font code together and aids in debugging and maintenance.
 

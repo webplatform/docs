@@ -3,7 +3,7 @@ title: 'constructor'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj155291(v=vs.94).aspx)'
 code_samples:
-  - 'http://gist.github.com/9237139'
+  - 'http://code.webplatform.org/gist/9237139'
 compatibility:
   feature: constructor
   topic: javascript
@@ -43,7 +43,7 @@ var x = new Array();
  // Object is an Array.
 ```
 
-[View live example](http://gist.github.com/9237139)
+[View live example](http://code.webplatform.org/gist/9237139)
 
 ## Remarks
 

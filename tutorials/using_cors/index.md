@@ -185,7 +185,7 @@ Here is a full working sample of a CORS request.
 
 Most of the heavy lifting for CORS is handled between the browser and the server. The browser adds some additional headers, and sometimes makes additional requests, during a CORS request on behalf of the client. These additions are hidden from the client (but can be discovered using a packet analyzer such as [Wireshark](http://www.wireshark.org/)).
 
-![CORS flow](/assets/public/9/9e/cors_flow.png)
+![CORS flow](//static.webplatform.org/9/9e/cors_flow.png)
 
 Browser manufacturers are responsible for the browser-side implementation. This section explains how a server can configure its headers to support CORS.
 
@@ -417,7 +417,7 @@ CORS support is still being actively developed in all browsers; here's a list of
 
 The flowchart below shows how a server should make the decisions as to which headers to add to a CORS response.
 
-![CORS Server Flowchart](/assets/public/8/80/cors_server_flowchart.png)
+![CORS Server Flowchart](//static.webplatform.org/8/80/cors_server_flowchart.png)
 
 ## Resources
 

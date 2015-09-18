@@ -1,8 +1,8 @@
 ---
 title: 'font'
 code_samples:
-  - 'http://gist.github.com/6947832'
-  - 'http://gist.github.com/5586740'
+  - 'http://code.webplatform.org/gist/6947832'
+  - 'http://code.webplatform.org/gist/5586740'
 compatibility:
   feature: font
   topic: css
@@ -102,7 +102,7 @@ A selection of examples showing some typical uses of the `font` property.
 }
 ```
 
-[View live example](http://gist.github.com/6947832)
+[View live example](http://code.webplatform.org/gist/6947832)
 
 A couple of theoretical font examples, showing first a `font` property value with all possible longhand values included, and second, a system default font being used.
 
@@ -116,7 +116,7 @@ A couple of theoretical font examples, showing first a `font` property value wit
 }
 ```
 
-[View live example](http://gist.github.com/5586740)
+[View live example](http://code.webplatform.org/gist/5586740)
 
 ## Notes
 

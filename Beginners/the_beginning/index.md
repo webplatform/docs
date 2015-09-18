@@ -77,7 +77,7 @@ Wearable technology, robotics, activity synchronization, fitness tracking, these
 
 Under these conditions, the web is going to get very big. Desktops aren't the web. Desktops, laptops, smartphones, and tablets are the web. But, we never know what the web will be like. That's what makes web so good to learn and know about. This picture by Brad Frost in [one of his articles](http://bradfrost.com/blog/post/this-is-the-web/) sums it up pretty well:
 
-![webfuture.png](/assets/public/e/e7/webfuture.png)
+![webfuture.png](//static.webplatform.org/e/e7/webfuture.png)
 
 ## What is accessibility and why is it important
 

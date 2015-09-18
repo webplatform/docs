@@ -20,25 +20,25 @@ An animation timing function that describes a progression of movement as a cubic
  The function describes a cubic bezier curve starting at 0,0 and ending at 1,1. It accepts four arguments (x1, y1, x2, y2) that specify coordinates for the two control points that affect the shape of the curve. The following shows standard timing keyword values along with their functional equivalents. The *x* axis represents the elapsed time of the animation, and *y* represents the progression of movement, so the more the curve points upwards, the faster the animation moves at that point:
 
 **linear**
-**cubic-bezier(0.0, 0.0, 1.0, 1.0)** ![transitF linear.png](/assets/thumb/8/8e/transitF_linear.png/230px-transitF_linear.png)
+**cubic-bezier(0.0, 0.0, 1.0, 1.0)** ![transitF linear.png](//static.webplatform.org/thumb/8/8e/transitF_linear.png/230px-transitF_linear.png)
 
 **ease**
-**cubic-bezier(0.25, 0.1, 0.25, 1.0)** ![transitF ease.png](/assets/thumb/7/73/transitF_ease.png/230px-transitF_ease.png)
+**cubic-bezier(0.25, 0.1, 0.25, 1.0)** ![transitF ease.png](//static.webplatform.org/thumb/7/73/transitF_ease.png/230px-transitF_ease.png)
 
 **ease-in-out**
-**cubic-bezier(0.42, 0, 0.58, 1.0)** ![transitF easeinout.png](/assets/thumb/6/67/transitF_easeinout.png/230px-transitF_easeinout.png)
+**cubic-bezier(0.42, 0, 0.58, 1.0)** ![transitF easeinout.png](//static.webplatform.org/thumb/6/67/transitF_easeinout.png/230px-transitF_easeinout.png)
 
 **ease-in**
-**cubic-bezier(0.42, 0, 1.0, 1.0)** ![transitF easein.png](/assets/thumb/6/64/transitF_easein.png/230px-transitF_easein.png)
+**cubic-bezier(0.42, 0, 1.0, 1.0)** ![transitF easein.png](//static.webplatform.org/thumb/6/64/transitF_easein.png/230px-transitF_easein.png)
 
 **ease-out**
-**cubic-bezier(0, 0, 0.58, 1.0)** ![transitF easeout.png](/assets/thumb/0/00/transitF_easeout.png/230px-transitF_easeout.png)
+**cubic-bezier(0, 0, 0.58, 1.0)** ![transitF easeout.png](//static.webplatform.org/thumb/0/00/transitF_easeout.png/230px-transitF_easeout.png)
 
 For properties unrelated to opacity and color, the function accepts *y* coordinates outside the standard range between 0 and 1. This allows for "elastic" effects in which positions or dimensions may cross over themselves during the course of the progression. The first example below bounces past its start and end points, while the second oscillates more dramatically:
 
-**cubic-bezier(0.25, -0.5, 0.75, 1.5)** ![transitF cubicBounce.png](/assets/thumb/2/2d/transitF_cubicBounce.png/230px-transitF_cubicBounce.png)
+**cubic-bezier(0.25, -0.5, 0.75, 1.5)** ![transitF cubicBounce.png](//static.webplatform.org/thumb/2/2d/transitF_cubicBounce.png/230px-transitF_cubicBounce.png)
 
-**cubic-bezier(0.5, 2, 0.5, -1)** ![transitF cubicWave.png](/assets/thumb/2/2d/transitF_cubicWave.png/230px-transitF_cubicWave.png)
+**cubic-bezier(0.5, 2, 0.5, -1)** ![transitF cubicWave.png](//static.webplatform.org/thumb/2/2d/transitF_cubicWave.png/230px-transitF_cubicWave.png)
 
 ## Examples
 

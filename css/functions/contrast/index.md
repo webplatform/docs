@@ -25,13 +25,13 @@ Adjusts the difference between light and dark values, for use by the filter prop
     filter: contrast(200%);
     filter: contrast(2); /* same */
 
-  ![f19-jellybeans.jpg](/assets/public/b/b5/f19-jellybeans.jpg)![f20-jellybeancontrast.jpg](/assets/public/a/a5/f20-jellybeancontrast.jpg)
+  ![f19-jellybeans.jpg](//static.webplatform.org/b/b5/f19-jellybeans.jpg)![f20-jellybeancontrast.jpg](//static.webplatform.org/a/a5/f20-jellybeancontrast.jpg)
 
 ## Examples
 
 The following example shows the difference between three images, the first has the default contrast, the second one a lower contrast and the third a higher:
 
-![filter contrast.png](/assets/thumb/5/56/filter_contrast.png/400px-filter_contrast.png)
+![filter contrast.png](//static.webplatform.org/thumb/5/56/filter_contrast.png/400px-filter_contrast.png)
 
 ``` html
 <!DOCTYPE html>

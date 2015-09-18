@@ -1,7 +1,7 @@
 ---
 title: 'br'
 code_samples:
-  - 'http://gist.github.com/7282007'
+  - 'http://code.webplatform.org/gist/7282007'
 compatibility:
   feature: ja
   topic: html
@@ -49,7 +49,7 @@ uri: html/elements/br/ja
 シドニー</p>
 ```
 
-[View live example](http://gist.github.com/7282007)
+[View live example](http://code.webplatform.org/gist/7282007)
 
 ## Usage
 

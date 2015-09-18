@@ -3,7 +3,7 @@ title: 'clip'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/6338197'
+  - 'http://code.webplatform.org/gist/6338197'
 compatibility:
   feature: clip
   topic: css
@@ -105,7 +105,7 @@ img.clipped-text {
 }
 ```
 
-[View live example](http://gist.github.com/6338197)
+[View live example](http://code.webplatform.org/gist/6338197)
 
 The HTML for the above example.
 

@@ -84,7 +84,7 @@ The best thing you can do with media queries is design alternate screen layouts.
 
 Media queries allow you to specify much different layouts depending on available screen width:
 
-![mq layout.png](/assets/public/f/f3/mq_layout.png)
+![mq layout.png](//static.webplatform.org/f/f3/mq_layout.png)
 
 The core set of style sheets specifies a desktop-facing layout using flexible box CSS properties:
 
@@ -187,7 +187,7 @@ Using **device-pixel-ratio** media queries, you can target images to each handse
 
 The icon on the left below shows the distortion that occurs when viewed at the same nominal size on a browser whose **device-pixel-ratio** is 2. As you go to the right, you see a crisper image appropriate for the actual screen resolution:
 
-![mq resolution.png](/assets/public/7/72/mq_resolution.png)
+![mq resolution.png](//static.webplatform.org/7/72/mq_resolution.png)
 
 ## Media Queries from JavaScript
 

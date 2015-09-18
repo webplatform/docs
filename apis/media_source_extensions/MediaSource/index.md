@@ -3,7 +3,7 @@ title: 'MediaSource'
 attributions:
   - 'Microsoft Developer Network.'
 code_samples:
-  - 'http://gist.github.com/9144919/'
+  - 'http://code.webplatform.org/gist/9144919/'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Represents a source of media data (audio or video) for a media element.'
@@ -74,7 +74,7 @@ function setupVideo() {
 }
 ```
 
-[View live example](http://gist.github.com/9144919/)
+[View live example](http://code.webplatform.org/gist/9144919/)
 
 ## Related specifications
 

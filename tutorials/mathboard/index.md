@@ -20,7 +20,7 @@ This article discusses development of the HTML5 MathBoard app.
 
 ## Introduction
 
-![MathBoard application](/assets/public/0/07/MathBoard-CaseStudy-01-iPad-Screenshot.png)
+![MathBoard application](//static.webplatform.org/0/07/MathBoard-CaseStudy-01-iPad-Screenshot.png)
 
 [MathBoard on iPad](http://itunes.apple.com/us/app/mathboard/id373909837?mt=8), a [PalaSoftware](http://www.palasoftware.com/MathBoard.html) application, is a highly polished application with many subtle but natural animations and a unique realistic look and feel. The goal was to do the highest fidelity port of the iPad application to HTML5.
 
@@ -43,7 +43,7 @@ The key requirements for this HTML5 porting project were the following:
 
 ## Architecture
 
-![Architecture](/assets/public/c/cf/MathBoard-CaseStudy-02-Architecture.png)
+![Architecture](//static.webplatform.org/c/cf/MathBoard-CaseStudy-02-Architecture.png)
 
 Given the requirements, we decided to go with the following architecture:
 

@@ -3,7 +3,7 @@ title: '!important'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/a246da0a53497ae9d832'
+  - 'http://code.webplatform.org/gist/a246da0a53497ae9d832'
 notes:
   - 'Move candidate'
 readiness: 'Almost Ready'
@@ -46,7 +46,7 @@ p { font: normal 12pt sans-serif !important }
 p { font-size: 24pt }
 ```
 
-[View live example](http://gist.github.com/a246da0a53497ae9d832)
+[View live example](http://code.webplatform.org/gist/a246da0a53497ae9d832)
 
 ## Related specifications
 

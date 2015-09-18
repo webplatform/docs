@@ -41,7 +41,7 @@ In addition, you can specify the opacity of either the fill or stroke separately
 
 In addition to just its color properties, there are a few other attributes available to control the way a stroke is drawn on a line.
 
- ![SVG Stroke Linecap Example.png](/assets/public/2/28/SVG_Stroke_Linecap_Example.png)
+ ![SVG Stroke Linecap Example.png](//static.webplatform.org/2/28/SVG_Stroke_Linecap_Example.png)
 
     <?xml version="1.0" standalone="no"?>
     <svg width="160" height="140" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -56,7 +56,7 @@ The second of these is the `stroke-linecap` property, demoed above. This control
 
 There is also a property, `stroke-linejoin` to control how the line is drawn at the joint between two line segments.
 
- ![SVG Stroke Linejoin Example.png](/assets/public/a/ad/SVG_Stroke_Linejoin_Example.png)
+ ![SVG Stroke Linejoin Example.png](//static.webplatform.org/a/ad/SVG_Stroke_Linejoin_Example.png)
 
     <?xml version="1.0" standalone="no"?>
     <svg width="160" height="280" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -74,7 +74,7 @@ Each of these polylines have two segments. The joint where the two meet is contr
 
 Finally, you can also use dashed line types on a stroke, by specifying the `stroke-dasharray` attribute.
 
-![SVG Stroke Dasharray Example.png](/assets/public/4/4a/SVG_Stroke_Dasharray_Example.png)
+![SVG Stroke Dasharray Example.png](//static.webplatform.org/4/4a/SVG_Stroke_Dasharray_Example.png)
 
     <?xml version="1.0" standalone="no"?>
     <svg width="200" height="150" xmlns="http://www.w3.org/2000/svg" version="1.1">

@@ -1,7 +1,7 @@
 ---
 title: 'text-underline'
 code_samples:
-  - 'http://gist.github.com/5779274'
+  - 'http://code.webplatform.org/gist/5779274'
 compatibility:
   feature: text-underline
   topic: css
@@ -90,7 +90,7 @@ Possible values: auto/before-edge/alphabetic/after-edge
 
 ```
 
-[View live example](http://gist.github.com/5779274)
+[View live example](http://code.webplatform.org/gist/5779274)
 
 ## Usage
 

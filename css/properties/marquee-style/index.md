@@ -1,7 +1,7 @@
 ---
 title: 'marquee-style'
 code_samples:
-  - 'http://gist.github.com/6364703'
+  - 'http://code.webplatform.org/gist/6364703'
 compatibility:
   feature: marquee-style
   topic: css
@@ -75,7 +75,7 @@ alternate
 .alternate { marquee-style: alternate; }
 ```
 
-[View live example](http://gist.github.com/6364703)
+[View live example](http://code.webplatform.org/gist/6364703)
 
 ``` html
 <marquee class="scroll">This demonstrates the 'scroll' value of the 'marquee-style' property.</marquee>

@@ -35,25 +35,25 @@ There are four main types of fonts and they are as follows:
 
 1.  **Serif:** Any typeface that contains a finished stroke, flared or tapering ends, or have actual serifed endings (including slab serifs). Throughout history, the serif font has been chosen for print body copy, as it’s easy to read on a printed page. But, the Web is different than print, and [some studies](http://www.wilsonweb.com/wmt6/html-email-fonts.htm) on [font readability](http://www.webaim.org/techniques/fonts/#readability) show that some sans-serif fonts are easier to read, like the one shown in Figure 2, when they’re used as body copy on a web page.
 
-![Times New Roman](/assets/public/2/26/times000.jpg)
+![Times New Roman](//static.webplatform.org/2/26/times000.jpg)
 
 Figure 1: A sample of serif type, Times New Roman, regular (not bold or italic), at 18 pt.
 
 1.  **sans-serif**: Any typeface that has stroke endings that are plain without any flaring, cross stroke, or other ornamentation. While [some authors](http://www.hgrebdes.com/typefaces/fontresearch.php) argue that the studies on font readability are flawed, I’ve noticed that those sites use sans-serif type in their body copy. Even articles that argue that [serif typefaces are more legible](http://www.linotype.com/2258-16905/aboutlegibility.html) use sans-serif type in their web page copy. So, I tend to follow the crowd here—I use sans-serif like the one shown in Figure 2, because it has become a traditional body copy typeface for the Web.
 
-![Verdana](/assets/public/d/d3/verdana0.jpg)
+![Verdana](//static.webplatform.org/d/d3/verdana0.jpg)
 
 Figure 2: A sample of sans-serif type, Verdana, regular at 18 pt
 
 1.  **Script or Cursive:** These fonts usually look more like handwritten pen or brush writing than printed letterwork, like the example shown in Figure 3 below. These fonts would include those that appear handwritten, even when they aren’t cursive. One reason not to use this type of font on a web page, especially in body copy, is that it is difficult to read in large chunks (think about how difficult it was to read that hand-written letter from your aunt Margaret, or the manuscript from the twelfth century that you once viewed in the museum). Additionally, not all browsers display the same fonts, so if you decide to use a script or cursive font, it may choose to show itself as a serif font in someone else’s browser.
 
-![Staccato script](/assets/public/d/d5/script00.jpg)
+![Staccato script](//static.webplatform.org/d/d5/script00.jpg)
 
 Figure 3: A sample of the script font, Staccato, at 18 pt
 
 1.  **Specialty, including monospace:** The sole criterion of a monospace font is that all glyphs have the same fixed width, similar to what a typewritten page might look. Other fonts might have a fantasy appeal, like the one shown in Figure 4 below, and these fonts are used solely for decorative purposes. Monoscript fonts have their place on a web site, especially when [displaying programming code](http://www.lowing.org/fonts/). This typeface often is used for that purpose, as a monospace font clearly shows each letter and symbol used in code.
 
-![Jokewood](/assets/public/6/61/specialt.jpg)
+![Jokewood](//static.webplatform.org/6/61/specialt.jpg)
 
 Figure 4: A sample of a specialty script, Jokewood, at 18 pt
 
@@ -78,7 +78,7 @@ When you show your web page design to a client, he or she usually won’t know t
 
 40–60 characters is generally regarded as a good line length for body text, and this varies depending on factors such as font size and target audience.
 
-![Page on 24 inch screen](/assets/public/6/6a/width000.jpg)
+![Page on 24 inch screen](//static.webplatform.org/6/6a/width000.jpg)
 
 Figure 5: A sample of an appropriate width for body copy, displayed on a large screen.
 
@@ -88,13 +88,13 @@ Last, but not least, be sure to check your body copy and headlines for typograph
 
 Once you’ve chosen the fonts you’ll use for the site, you’ll need to layout the headings, subheads and body copy in the site layout. In the previous article, I introduced an imaginary company, “Wiki Whatevers”, a business that wanted to share their code snippets on a web site as open source material. I designed a site architecture for approval, and I am happy to report that they loved the ideas that I presented! Although this wireframe seems stark, it avoids any placement of graphics or images that may give the client a preconceived notion of where things “might” go, including the company logo. The image of that wireframe is shown below in Figure 6:
 
-![Wiki Whatevers Wireframe](/assets/public/b/b4/wireframe.jpg)
+![Wiki Whatevers Wireframe](//static.webplatform.org/b/b4/wireframe.jpg)
 
 Figure 6: Wireframe for Wiki Whatevers
 
 Now, for my own piece of mind, I want to add the logo and some of the copy that company provided to determine if it will flow correctly within that layout. The other reason I want to add the logo and the copy at this point is so that typography can lend a hand in the colour choices I’m about to make. Body copy, headlines, and other typography on a web page adds its own “colour” to a site. Just compare the image below in Figure 7 to the one directly above in Figure 6 to see the difference:
 
-![Body copy added to wireframe](/assets/public/a/a2/wireframe_copy.gif)
+![Body copy added to wireframe](//static.webplatform.org/a/a2/wireframe_copy.gif)
 
 Figure 7: Body copy and logo added to wireframe
 
@@ -108,7 +108,7 @@ At this point, I want to show how I made the decision to place the copy where it
 
 I chose to use the traditional left alignment, where the type lines up in a straight line to the left. But, you might notice that the body copy is indented further to the right than the subheads that go with that copy. The logo was the reason why I chose this alignment. Here’s a close-up illustration that explains why I made that decision in Figure 8:
 
-![Alignment](/assets/public/c/c6/alignmen.jpg)
+![Alignment](//static.webplatform.org/c/c6/alignmen.jpg)
 
 Figure 8: Illustration of alignment between logo and body copy
 
@@ -136,19 +136,19 @@ Colour is part and parcel of that “everything in its place” mentality. The r
 
 When I introduced the [Color Scheme Generator II](http://www.w3.org/wiki/Colour_theory#Monochromatic_colour_schemes), I didn’t mention that you can input a hex colour in this tool to generate a colour scheme from a specific colour. Directly beneath the colour wheel, you’ll see a link for “Enter RGB”. In my case, the gold in the logo was the strongest colour, so I entered that hex (\#eab304) to learn more about my choices. The resulting monochromatic scheme was somewhat boring, but the contrasting colour scheme held promise. That scheme held a blue-violet that I could work with, as the shadow behind the logo was tinted blue as well, as shown in Figure 9:
 
-![Contrasting colour scheme](/assets/public/d/df/contrast.jpg)
+![Contrasting colour scheme](//static.webplatform.org/d/df/contrast.jpg)
 
 Figure 9: Contrasting colour scheme based upon \#eab304
 
 With the colours shown here, I decided to use the main gold logo colour as the background for the top navigation. I used the darker blue (almost a blue-violet) \#2b0da4 for links (which I also underlined), and I used a lighter opacity of that same colour blue for the advertising background. You can see how these colour additions alter the look of the layout in Figure 10:
 
-![Contrast layout](/assets/public/e/e3/wireframe_color.jpg)
+![Contrast layout](//static.webplatform.org/e/e3/wireframe_color.jpg)
 
 Figure 10: Layout in contrasting colours
 
 You can see in the image above that the colours are far too dark and “heavy” for the site. So, I took the opacity in the navigation bar down to 75% and the opacity of the colour in the advertising copy bars all the way down to 20%. You can see the immediate difference below in Figure 11:
 
-![Contrast layout](/assets/public/a/a6/wireframe_color_reduced.jpg)
+![Contrast layout](//static.webplatform.org/a/a6/wireframe_color_reduced.jpg)
 
 Figure 11: Layout with reduced opacity
 
@@ -170,7 +170,7 @@ Finally, as a finishing touch, I'll add the page’s images. Unless the client h
 
 I also added a tag line for containing the blog post tags and a date/time stamp so that viewers can see how recent the blog entries are. All these elements, as you’ll see below, add more “weight” and confusion to the site. This is just one more reason why you might try to keep the important and vital information as simple as possible—the viewer will have enough to deal with when they click on this site as it is. See Figure 12 below to examine the final result:
 
-![Final layout](/assets/public/e/ef/Final_layout.jpg)
+![Final layout](//static.webplatform.org/e/ef/Final_layout.jpg)
 
 Figure 12: The final design, ready for client inspection.
 

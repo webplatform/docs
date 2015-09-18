@@ -1,7 +1,7 @@
 ---
 title: 'var'
 code_samples:
-  - 'http://gist.github.com/a41474c974dfef4ec106'
+  - 'http://code.webplatform.org/gist/a41474c974dfef4ec106'
 compatibility:
   feature: var
   topic: css
@@ -60,7 +60,7 @@ Allows authors to reference the value of a custom property for cascading variabl
 }
 ```
 
-[View live example](http://gist.github.com/a41474c974dfef4ec106)
+[View live example](http://code.webplatform.org/gist/a41474c974dfef4ec106)
 
 ## Related specifications
 

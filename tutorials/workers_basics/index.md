@@ -29,7 +29,7 @@ Developers mimic concurrency by using techniques like `setTimeout()`, `setInterv
 
 The [Web Workers](http://www.whatwg.org/specs/web-workers/current-work/) specification defines an API for spawning background scripts in your web application. Web Workers allow you to do things like fire up long-running scripts to handle computationally intensive tasks, but without blocking the UI or other scripts to handle user interactions. They're going to help put and end to that nasty "unresponsive script" dialog that we've all come to love:
 
-*Common unresponsive script dialog* ![Unresponsive script dialog](/assets/public/1/1f/unresponsivescript.png)
+*Common unresponsive script dialog* ![Unresponsive script dialog](//static.webplatform.org/1/1f/unresponsivescript.png)
 
 Web Workers utilize thread-like message passing to achieve parallelism. They're perfect for keeping your UI refresh, performant, and responsive for users.
 

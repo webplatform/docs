@@ -3,7 +3,7 @@ title: 'vertical-align'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/6960125'
+  - 'http://code.webplatform.org/gist/6960125'
 compatibility:
   feature: vertical-align
   topic: css
@@ -114,7 +114,7 @@ This example uses the `vertical-align` property to align text within a table cel
 </table>
 ```
 
-[View live example](http://gist.github.com/6960125)
+[View live example](http://code.webplatform.org/gist/6960125)
 
 ## Related specifications
 

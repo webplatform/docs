@@ -391,7 +391,7 @@ Even the main page itself can include jquery.html if it needs the library:
 
 Despite jquery.html being included in many different import trees, its document is only fetched and processed once by the browser. Examining the network panel proves this:
 
-*jquery.html is requested once* ![htmlimports1.png](/assets/public/a/a8/htmlimports1.png)
+*jquery.html is requested once* ![htmlimports1.png](//static.webplatform.org/a/a8/htmlimports1.png)
 
 ## Performance considerations
 

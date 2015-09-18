@@ -44,7 +44,7 @@ The reduced selection of fonts is often the first thing you will run up against 
 
 These look like Figure 1:
 
-![commonly available web fonts](/assets/public/6/60/01-fonts.gif)
+![commonly available web fonts](//static.webplatform.org/6/60/01-fonts.gif)
 
 Figure 1: The most commonly available fonts across all systems are limited to the above.
 
@@ -56,7 +56,7 @@ So, compared to the thousands of typefaces available to print designers, web des
 
 When it comes to aligning your text within its container, there are four options: left-aligned, right-aligned, centre-aligned and fully-justified. Fully-justified text, where both the left and right edges of the block are aligned to the vertical sides of their container, can look more attractive than text with a “ragged” edge, and you’ll see it a lot in magazines and books. On the web, however, it’s problematic due to the lack of automatic hyphenation, which breaks words at appropriate points to better fit them in the line. To fully justify the block of text, all the browser can do is adjust the spacing between the words, which can lead to “rivers of white space” running vertically through the block—this usually happens when the line length within the block is too short and there aren’t enough spaces to adjust subtly, as shown in Figure 2.
 
-![rivers of whitespace are bad](/assets/public/b/b7/02-river.gif)
+![rivers of whitespace are bad](//static.webplatform.org/b/b7/02-river.gif)
 
 Figure 2: Rivers of whitespace can spoil justified text blocks.
 
@@ -66,7 +66,7 @@ As you can see in this screenshot, the lack of hyphenation to break words at nat
 
 Kerning is the process of adjusting the spacing between particular pairs of letters when the font in use is a proportional one (such as Times New Roman, where the space between each character varies from character to character) rather than a monospaced one (such as Courier, where the space between each character is the same each time). It’s used in print to tighten up the space between letters that align naturally, such as a W followed by an A, and can give a more professional look and feel to the text. Most professional fonts come with kerning instructions built in, to provide spacing information to the type renderer. See Figure 3 for an illustration of the difference kerning makes.
 
-![kerning in action](/assets/public/6/61/03-kerni.gif)
+![kerning in action](//static.webplatform.org/6/61/03-kerni.gif)
 
 Figure 3: Kerning can certainly improve the look of text.
 
@@ -74,7 +74,7 @@ In the above screenshot, the first word has not been kerned. The second word, th
 
 On the web, kerning with this level of precision is effectively unavailable. The only thing we have that comes close to it is the ability to use tracking, which in the print world means adjusting the space between characters throughout the copy, no matter what those characters are—so, you could decrease the space between your W and your A, but you’ll also be affecting the space between every other letter. On the web, tracking is better known as letter spacing, and is controlled with CSS—this is illustrated in Figure 4.
 
-![general letter spacing or tracking](/assets/public/e/e7/04-track.gif)
+![general letter spacing or tracking](//static.webplatform.org/e/e7/04-track.gif)
 
 Figure 4: Proper kerning is not available on the Web; the closest we have available is more general letter spacing.
 
@@ -106,7 +106,7 @@ Bear in mind also that some fonts work better as headings, and some work better 
 
 To aid readability, the average length of a line of text within your containing block should be around 40–60 characters per line, though this should vary depending on your audience (children prefer shorter line lengths, adults prefer longer). An ideal line length is shown in Figure 5:
 
-![60 characters per line](/assets/public/e/e0/05-line-.gif)
+![60 characters per line](//static.webplatform.org/e/e0/05-line-.gif)
 
 Figure 5: 60 characters per line—the ideal line length.
 
@@ -116,7 +116,7 @@ The text in the screenshot is about 60 characters per line. Any more than this a
 
 Line height refers to the vertical space between your lines, and you can make your type more readable by increasing it a little above the browser default (which also allows more space for subscript and superscript characters)—see the difference between the two paragraphs in Figure 6:
 
-![line height illustrated](/assets/public/f/f2/06-line-.gif)
+![line height illustrated](//static.webplatform.org/f/f2/06-line-.gif)
 
 Figure 6: Line height can make a big difference to the look and feel of text.
 
@@ -126,7 +126,7 @@ The first paragraph in the above screenshot has a default line height, and can f
 
 By targeting the `first-letter` pseudo-element with something like `p:first--letter { }`, you can style the first letter of a line differently from the rest—such styling is usually known as a drop cap, where the first letter takes up about 3–4 lines of text—see Figure 7.
 
-![drop caps is a nice effect](/assets/public/3/33/07-drop-.gif)
+![drop caps is a nice effect](//static.webplatform.org/3/33/07-drop-.gif)
 
 Figure 7: A typical drop cap.
 
@@ -134,7 +134,7 @@ Figure 7: A typical drop cap.
 
 Often, fonts come with a small-caps variation—a set of capitalised letters that are uppercased but approximately the size of the lowercase variant. This is useful for when you want to capitalise something but don’t want to draw too much attention to it, so it can be used for abbreviations, for example. Even if the system doesn’t have a small-cap variant of the specified font, that’s ok—the browser will generate its own version by using full capitalisation and then shrinking the characters to around 70% of their normal size. Figure 8 shows small caps in action.
 
-![small caps can be interesting](/assets/public/d/d5/08-small.gif)
+![small caps can be interesting](//static.webplatform.org/d/d5/08-small.gif)
 
 Figure 8: Small caps in action.
 
@@ -142,7 +142,7 @@ Figure 8: Small caps in action.
 
 A good typographical effect can be used if your sentence starts with quote marks. Using the `text-indent` CSS property combined with a negative value—either a value in ems (-10em), points (-10pt), pixels (-10px) or percent (-10%)—allows you to shunt the quote mark out into the left, maintaining the left vertical line of your block of text, as shown in Figure 9:
 
-![hanging punctuation put to good use](/assets/public/e/e9/09-hangi.gif)
+![hanging punctuation put to good use](//static.webplatform.org/e/e9/09-hangi.gif)
 
 Figure 9: Hanging punctuation.
 
@@ -150,7 +150,7 @@ Figure 9: Hanging punctuation.
 
 You can make your text look more professional and elegant by using the wide variety of typographic HTML entities that are available such as “smart” or “curly” quotes and en– and em—dashes. A lot of blogging and word processing software will automatically do this for you as you type, turning your regular straight quotes into the typographically-correct curly variety, and turning strings of dashes into en and em dashes. See Figure 10 for examples of typographically-correct punctuation.
 
-![curly quotes](/assets/public/8/85/10-curly.gif)
+![curly quotes](//static.webplatform.org/8/85/10-curly.gif)
 
 Figure 10: Typographically-correct punctuation
 
@@ -158,7 +158,7 @@ Once you start peppering your copy with smart punctuation, your text can look fa
 
 Then there’s entities—bits of special HTML that you can insert into your copy to generate special characters not easily available from your keyboard. Figure 11 contains a number of entities:
 
-![HTML entities](/assets/public/b/b3/11-entit.gif)
+![HTML entities](//static.webplatform.org/b/b3/11-entit.gif)
 
 Figure 11: HTML entities
 

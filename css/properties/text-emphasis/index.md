@@ -1,7 +1,7 @@
 ---
 title: 'text-emphasis'
 code_samples:
-  - 'http://gist.github.com/6133067'
+  - 'http://code.webplatform.org/gist/6133067'
 compatibility:
   feature: text-emphasis
   topic: css
@@ -103,7 +103,7 @@ p {
 }
 ```
 
-[View live example](http://gist.github.com/6133067)
+[View live example](http://code.webplatform.org/gist/6133067)
 
 ``` css
 p {

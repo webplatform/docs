@@ -37,13 +37,13 @@ Finally, nodes may have input and/or output connections, which are used to strin
 
 The simplest connection case, then, consists of a web app with a context that contains one source node (a previously-loaded sound in this case) whose output is connected directly to the input of one destination node (the speakers), as shown below. That's the case we covered in Part 1.
 
-*A context with one source and one destination* ![wap1b-basic-trans.gif](/assets/public/6/6e/wap1b-basic-trans.gif)
+*A context with one source and one destination* ![wap1b-basic-trans.gif](//static.webplatform.org/6/6e/wap1b-basic-trans.gif)
 
 ## In part 2
 
 The next reasonable step is a connection case that consists of a web app with a context that contains a source node and a destination node, but with one or more processing nodes between them. A processing node modifies the sound in some way—volume, EQ, pitch, phase, etc.—after it is output from the source node but before it is input to the destination node, as shown below. That's the case we'll cover in this part.
 
-*A context with a processor between the source and destination* ![wap2b-basic-trans.gif](/assets/public/7/7a/wap2b-basic-trans.gif)
+*A context with a processor between the source and destination* ![wap2b-basic-trans.gif](//static.webplatform.org/7/7a/wap2b-basic-trans.gif)
 
 Be sure you understand how the nodes are created and linked together as described in [Part 1](/tutorials/intro_web_audio_api_1) before proceeding with this part of the tutorial.
 

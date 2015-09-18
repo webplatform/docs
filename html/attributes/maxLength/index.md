@@ -3,7 +3,7 @@ title: 'maxLength'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/7284097'
+  - 'http://code.webplatform.org/gist/7284097'
 compatibility:
   feature: maxLength
   topic: html
@@ -43,7 +43,7 @@ The example text box has a max length of 12 characters.
 <input maxLength="12">
 ```
 
-[View live example](http://gist.github.com/7284097)
+[View live example](http://code.webplatform.org/gist/7284097)
 
 ## See also
 

@@ -3,7 +3,7 @@ title: '::first-line'
 attributions:
   - 'Microsoft Developer Network.'
 code_samples:
-  - 'https://gist.github.com/fe1382a764e07a9c7917'
+  - 'https://code.webplatform.org/gist/fe1382a764e07a9c7917'
 compatibility:
   feature: '::first-line'
   topic: css
@@ -40,7 +40,7 @@ p::first-line {
 }
 ```
 
-[View live example](https://gist.github.com/fe1382a764e07a9c7917)
+[View live example](https://code.webplatform.org/gist/fe1382a764e07a9c7917)
 
 ## Notes
 

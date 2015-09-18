@@ -24,7 +24,7 @@ Shifts an element's relative hue, for use by the filter property. Accepts either
 
     filter: hue-rotate(90deg);
 
-  ![f11-mandrill.jpg](/assets/thumb/8/80/f11-mandrill.jpg/300px-f11-mandrill.jpg)![f12-mandrillhuerotate.jpg](/assets/thumb/d/d5/f12-mandrillhuerotate.jpg/300px-f12-mandrillhuerotate.jpg)
+  ![f11-mandrill.jpg](//static.webplatform.org/thumb/8/80/f11-mandrill.jpg/300px-f11-mandrill.jpg)![f12-mandrillhuerotate.jpg](//static.webplatform.org/thumb/d/d5/f12-mandrillhuerotate.jpg/300px-f12-mandrillhuerotate.jpg)
 
 Specifying measurements greater than 360° (or 2π **rad**) allows animations to cycle more than once around the color wheel. This example cycles colors three times, returning to its original set of hues (360 × 3):
 
@@ -37,7 +37,7 @@ Specifying measurements greater than 360° (or 2π **rad**) allows animations to
 
 The following example shows the difference between two images, where one has a hue rotation of 180 degrees.
 
-![filter huerotate.png](/assets/thumb/9/9d/filter_huerotate.png/400px-filter_huerotate.png)
+![filter huerotate.png](//static.webplatform.org/thumb/9/9d/filter_huerotate.png/400px-filter_huerotate.png)
 
 ``` html
 <!DOCTYPE html>
@@ -75,7 +75,7 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 
  Note that the hue rotation algorithm for CSS filters only approximates a hue-rotation in HSL - the content is never actually converted to the HSL color space. This results in brightness and saturation clipping for saturated colors in certain ranges. For example, pure RGB colors, such as rgb(255,0,0), do not produce expected results, especially between 0 and 90 degrees. A comparison of manually rotated colors (outer ring) made by explicitly defining HSL colors, and their hue-rotate() equivalent (inner ring) using a base of pure RGB red (HSL equivalent: 0,100%,50%) is shown below. As you can see, the 60 degree hue rotation that should produce a bright saturated yellow, instead produces a color of the correct hue, but incorrect saturation and brightness.
 
- ![saturated hue rotation.JPG](/assets/thumb/d/d4/saturated_hue_rotation.JPG/400px-saturated_hue_rotation.JPG)
+ ![saturated hue rotation.JPG](//static.webplatform.org/thumb/d/d4/saturated_hue_rotation.JPG/400px-saturated_hue_rotation.JPG)
 
 ## Related specifications
 

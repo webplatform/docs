@@ -3,7 +3,7 @@ title: 'direction'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5708516'
+  - 'http://code.webplatform.org/gist/5708516'
 compatibility:
   feature: direction
   topic: css
@@ -84,7 +84,7 @@ The following example demonstrates how to set and retrieve the value of the **di
 <p class="rtl" id="bidi">The paragraph using rtl and sets the bidi-override as value of unicode-bidi property.</p>
 ```
 
-[View live example](http://gist.github.com/5708516)
+[View live example](http://code.webplatform.org/gist/5708516)
 
 ``` css
 p {

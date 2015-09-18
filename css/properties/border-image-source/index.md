@@ -1,7 +1,7 @@
 ---
 title: 'border-image-source'
 code_samples:
-  - 'http://gist.github.com/5621011'
+  - 'http://code.webplatform.org/gist/5621011'
 compatibility:
   feature: border-image-source
   topic: css
@@ -74,7 +74,7 @@ A simple example showing a \<div\> that has border-image-source property and oth
 <div class="pattern">border-image</div>
 ```
 
-[View live example](http://gist.github.com/5621011)
+[View live example](http://code.webplatform.org/gist/5621011)
 
 ``` css
 /* General setup of the containers */
@@ -96,7 +96,7 @@ div {
 }
 ```
 
-[View live example](http://gist.github.com/5621011)
+[View live example](http://code.webplatform.org/gist/5621011)
 
 ## Related specifications
 

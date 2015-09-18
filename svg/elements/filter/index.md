@@ -52,7 +52,7 @@ Below is a basic example of an SVG Filter that shows a gaussian blur applied to 
 </svg>​​​​​​​​​​​
 ```
 
- ![image showing input and output of a blur filter effect](/assets/public/6/6b/BasicSVGFilterExampleGaussBlur.png)
+ ![image showing input and output of a blur filter effect](//static.webplatform.org/6/6b/BasicSVGFilterExampleGaussBlur.png)
 
 ### Filter Region
 
@@ -78,7 +78,7 @@ This has the effect that, by default, the output of a filter paints onto the scr
 </svg>​​​​​​​​​​​
 ```
 
- ![image showing the result of specifying a custom filter effects region](/assets/public/4/46/BasicSVGFilterExampleWithClipRegion.png)
+ ![image showing the result of specifying a custom filter effects region](//static.webplatform.org/4/46/BasicSVGFilterExampleWithClipRegion.png)
 
 ### Filter Resolution
 
@@ -103,7 +103,7 @@ Below we show an example of blurs with low values of filterRes. The first exampl
 </svg>​
 ```
 
- ![image showing the result of specifying a custom filter effects region](/assets/public/b/bf/SVGFiltersFilterResExample.png)
+ ![image showing the result of specifying a custom filter effects region](//static.webplatform.org/b/bf/SVGFiltersFilterResExample.png)
 
 ### Units and Coordinates for Filter Effects
 
@@ -161,7 +161,7 @@ In the example below, we set the unit systems of both the filter and filter prim
 
  Note: that when we use **userSpaceOnUse**, we calculate our filter and feFlood coordinates offset from the (0,0) of the user space that the **\<rect\>** has been drawn on, using viewbox units.
 
-![image showing four identical filters with different unit systems for filterUnits and primitiveUnits](/assets/public/0/03/SVGFilterUnitsExamples.png)
+![image showing four identical filters with different unit systems for filterUnits and primitiveUnits](//static.webplatform.org/0/03/SVGFilterUnitsExamples.png)
 
 ## Examples
 

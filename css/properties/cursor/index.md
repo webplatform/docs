@@ -4,7 +4,7 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
   - 'Microsoft Developer Network.'
 code_samples:
-  - 'https://gist.github.com/9b54d2d8dc9bc94382d5'
+  - 'https://code.webplatform.org/gist/9b54d2d8dc9bc94382d5'
 compatibility:
   feature: cursor
   topic: css
@@ -129,7 +129,7 @@ To make the cursor appear like it's busy
 }
 ```
 
-[View live example](https://gist.github.com/9b54d2d8dc9bc94382d5)
+[View live example](https://code.webplatform.org/gist/9b54d2d8dc9bc94382d5)
 
 ## See also
 

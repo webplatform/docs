@@ -4,8 +4,8 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent)'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5842068'
-  - 'http://gist.github.com/5658652'
+  - 'http://code.webplatform.org/gist/5842068'
+  - 'http://code.webplatform.org/gist/5658652'
 compatibility:
   feature: text-indent
   topic: css
@@ -120,7 +120,7 @@ p:nth-child(3) {
 }
 ```
 
-[View live example](http://gist.github.com/5842068)
+[View live example](http://code.webplatform.org/gist/5842068)
 
 This example uses JavaScript to indent the text within the **div** when a [**mouseover**](/w/index.php?title=dom/events/mouseover&action=edit&redlink=1) event occurs.
 
@@ -145,7 +145,7 @@ window.addEventListener("load", initialize, false);
 </html>
 ```
 
-[View live example](http://gist.github.com/5658652)
+[View live example](http://code.webplatform.org/gist/5658652)
 
 ## Usage
 

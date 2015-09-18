@@ -3,7 +3,7 @@ title: 'height'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/7283238'
+  - 'http://code.webplatform.org/gist/7283238'
 compatibility:
   feature: height
   topic: html
@@ -49,7 +49,7 @@ An image with an explicit height and width set.
 <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" height="100" width="150">
 ```
 
-[View live example](http://gist.github.com/7283238)
+[View live example](http://code.webplatform.org/gist/7283238)
 
 ## See also
 

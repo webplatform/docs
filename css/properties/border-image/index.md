@@ -1,7 +1,7 @@
 ---
 title: 'border-image'
 code_samples:
-  - 'http://gist.github.com/5622521'
+  - 'http://code.webplatform.org/gist/5622521'
 compatibility:
   feature: border-image
   topic: css
@@ -76,7 +76,7 @@ A simple example showing a \<div\>.
 <div class="pattern">one</div>
 ```
 
-[View live example](http://gist.github.com/5622521)
+[View live example](http://code.webplatform.org/gist/5622521)
 
 ``` css
 /* General setup of the containers */
@@ -95,7 +95,7 @@ div {
 }
 ```
 
-[View live example](http://gist.github.com/5622521)
+[View live example](http://code.webplatform.org/gist/5622521)
 
 ## Notes
 

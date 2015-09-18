@@ -74,7 +74,7 @@ And here we have some CSS styles:
 
  This is the result:
 
-![Example 1](/assets/public/3/3c/CSSMB_Pic1.png)
+![Example 1](//static.webplatform.org/3/3c/CSSMB_Pic1.png)
 
 In this sample there are three nested divs with background and one more neighbor “fish”-div. You may imagine that the fish can be animated using javascript or CSS3 transitions or animations.
 
@@ -120,7 +120,7 @@ This feature allows you to add more than one background at once and to the same 
 
 The result is 100% identical:
 
-![Example 2](/assets/public/9/9e/CSSMB_Pic2.png)
+![Example 2](//static.webplatform.org/9/9e/CSSMB_Pic2.png)
 
 ### In one rule
 
@@ -223,7 +223,7 @@ window.requestAnimFrame = (function() {
 
  Result: [Video of the resulting animation](http://youtu.be/dqDDT4rHQEE)
 
-![Example 5](/assets/public/7/71/CSSMB_Pic3.png)
+![Example 5](//static.webplatform.org/7/71/CSSMB_Pic3.png)
 
 You may also use CSS3 Transitions or Animations but it is a good topic for separate discussion.
 

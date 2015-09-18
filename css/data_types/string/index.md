@@ -1,7 +1,7 @@
 ---
 title: '<string>'
 code_samples:
-  - 'http://gist.github.com/10608944'
+  - 'http://code.webplatform.org/gist/10608944'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The &lt;string&gt; CSS data type represents character data surrounded with either single ('') or double (&quot;) quote characters.  Any unicode characters can be included in the string, but many need to be expressed with escape sequences.'
@@ -49,7 +49,7 @@ the live code examples?
 }
 ```
 
-[View live example](http://gist.github.com/10608944)
+[View live example](http://code.webplatform.org/gist/10608944)
 
 ## Related specifications
 

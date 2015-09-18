@@ -174,7 +174,7 @@ Let's look at simple image replacement use case, to give you more of an idea of 
 
 Figure 1 shows the final result we'd like.
 
-![finished heading with background gradient and image replacement](/assets/public/1/10/Mobile_figure1.jpg)
+![finished heading with background gradient and image replacement](//static.webplatform.org/1/10/Mobile_figure1.jpg)
 
 Figure 1: Our finished heading, with background gradient and image replacement.
 
@@ -198,7 +198,7 @@ The process by which we would optimize this heading might go something like this
 
 This gives us the rendering shown in Figure 2.
 
-![heading text has been replaced with a background image](/assets/public/d/d1/Mobile_figure2.jpg)
+![heading text has been replaced with a background image](//static.webplatform.org/d/d1/Mobile_figure2.jpg)
 
 Figure 2: Our heading text has been replaced with a background image.
 
@@ -210,7 +210,7 @@ Figure 2: Our heading text has been replaced with a background image.
 
 This results in display along the lines of Figure 3.
 
-![the company logo, and our background gradient](/assets/public/8/80/Mobile_figure3.jpg)
+![the company logo, and our background gradient](//static.webplatform.org/8/80/Mobile_figure3.jpg)
 
 Figure 3: We now have the company logo, and our background gradient.
 
@@ -218,13 +218,13 @@ We have achieved our basic goal, but need to remember how this looks in browsers
 
 Some browsers don't support CSS background images (even desktop web-browsers don't always support them when printed), because of this your company logo would not appear and the text is still positioned off the page so the header would end-up looking like Figure 4:
 
-![No background image means we do not see the company logo](/assets/public/c/ca/Mobile_figure4.jpg)
+![No background image means we do not see the company logo](//static.webplatform.org/c/ca/Mobile_figure4.jpg)
 
 Figure 4: If the browser does not support CSS background images, we don't see the company logo!
 
 Other browsers mess up the text indenting, so you see both, which doesn't look great - see Figure 5.
 
-![In some browsers we see the original text as well as the background image](/assets/public/f/f1/Mobile_figure5.jpg)
+![In some browsers we see the original text as well as the background image](//static.webplatform.org/f/f1/Mobile_figure5.jpg)
 
 Figure 5: In some browsers we see the original text as well as the background image
 
@@ -234,19 +234,19 @@ The only way around this is to avoid using the text-swapping trip and change the
 
 This would give you the rendering shown in Figure 6 - the same as when we started - but the mark-up isn't as clean.
 
-![HTML img element means more heading support but the markup is less clean](/assets/public/b/ba/Mobile_figure6.jpg)
+![HTML img element means more heading support but the markup is less clean](//static.webplatform.org/b/ba/Mobile_figure6.jpg)
 
 Figure 6: Using an HTML `img` element means more support for heading, but the markup is less clean.
 
 However, some poorer devices can't even render background colors, so your fancy transparent logo image ready for any background style will appear as white text on a white background - see Figure 7!
 
-![no background colours means white on white](/assets/public/1/15/Mobile_figure7.jpg)
+![no background colours means white on white](//static.webplatform.org/1/15/Mobile_figure7.jpg)
 
 Figure 7: No support for background colours means that your image will appear white on white - terrible!
 
 As a last resort, we'll reluctantly decide to make the logo background color solid blue instead to make it visible across as many browser types as possible and drop the use of the gradient background image altogether - see Figure 8.
 
-![The logo background is now solid blue, so it is visible on devices without background colour support](/assets/public/8/84/Mobile_figure8.jpg)
+![The logo background is now solid blue, so it is visible on devices without background colour support](//static.webplatform.org/8/84/Mobile_figure8.jpg)
 
 Figure 8: The logo background is now solid blue, so it is visible on devices without background colour support.
 

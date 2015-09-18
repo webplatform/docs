@@ -80,7 +80,7 @@ WebRTC implements three APIs:
 
 WebRTC is also implemented by the [Ericsson Bowser browser](https://labs.ericsson.com/apps/bowser) which runs on iOS and Android:
 
-![The Ericsson Bowser browser running on iOS and Android](/assets/public/4/49/bowser.png)
+![The Ericsson Bowser browser running on iOS and Android](//static.webplatform.org/4/49/bowser.png)
 
 WebRTC functionality is available in Internet Explorer [via Chrome Frame](https://groups.google.com/forum/#!topic/discuss-webrtc/tKoh1wrI8ig), and Skype (acquired by Microsoft in 2011) is reputedly [planning to use WebRTC](http://gigaom.com/2012/06/26/skype-webrtc-web-client/). WebRTC has also been integrated with [WebKitGTK+](https://labs.ericsson.com/developer-community/blog/beyond-html5-conversational-voice-and-video-implemented-webkit-gtk) and [Qt](http://www.youtube.com/watch?v=Vm5ebKWKNE8) native apps.
 
@@ -254,7 +254,7 @@ The acquisition and exchange of network and media information can be done simult
 
 The offer/answer architecture described above is called [JSEP](http://tools.ietf.org/html/draft-ietf-rtcweb-jsep-00), JavaScript Session Establishment Protocol. (There's an excellent animation explaining the process of signaling and streaming in [Ericsson's demo video](https://labs.ericsson.com/developer-community/blog/beyond-html5-peer-peer-conversational-video) for its first WebRTC implementation.)
 
-![JSEP architecture diagram](/assets/public/7/74/jsep.png)
+![JSEP architecture diagram](//static.webplatform.org/7/74/jsep.png)
 
 Once the signaling process has completed successfully, data can be streamed directly peer to peer, between the caller and callee—or if that fails, via an intermediary server (more about that below). Streaming is the job of RTCPeerConnection.
 
@@ -264,7 +264,7 @@ RTCPeerConnection ([specs](http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcp
 
 Below is a WebRTC architecture diagram showing the role of RTCPeerConnection. As you will notice, the green parts are complex!
 
-[](http://www.webrtc.org/reference/architecture) ![WebRTC architecture diagram](/assets/public/d/d2/webrtcArchitecture.png)
+[](http://www.webrtc.org/reference/architecture) ![WebRTC architecture diagram](//static.webplatform.org/d/d2/webrtcArchitecture.png)
 
 From a JavaScript perspective, the main thing to understand from this diagram is that RTCPeerConnection shields web developers from the myriad complexities that lurk beneath. The codecs and protocols used by WebRTC do a huge amount of work to make real-time communication possible, even over unreliable networks:
 
@@ -343,11 +343,11 @@ NAT traversal, peer-to-peer networking, and the requirements for building a serv
 
 ICE is a framework for connecting peers, such as two video chat clients. Initially, ICE tries to connect peers *directly*, with the lowest possible latency, via UDP. In this process, STUN servers have a single task: to enable a peer behind a NAT to find out its public address and port. (Google has a couple of STUN severs, one of which is used in the apprtc.appspot.com example.)
 
-![Finding connection candidates](/assets/public/a/a7/stun.png)
+![Finding connection candidates](//static.webplatform.org/a/a7/stun.png)
 
 If UDP fails, ICE tries TCP: first HTTP, then HTTPS. If direct connection fails—in particular, because of enterprise NAT traversal and firewalls—ICE uses an intermediary (relay) TURN server. In other words, ICE will first use STUN with UDP to directly connect peers and, if that fails, will fall back to a TURN relay server. The expression 'finding candidates' refers to the process of finding network interfaces and ports.
 
-![WebRTC data pathways](/assets/public/e/ec/dataPathways.png)
+![WebRTC data pathways](//static.webplatform.org/e/ec/dataPathways.png)
 
 To find out more about how set up a server to deal with signaling and user discovery, take a look at the code repository for the [apprtc.appspot.com](http://apprtc.appspot.com) demo, which is at [code.google.com/p/webrtc-samples/source/browse/trunk/apprtc/](http://code.google.com/p/webrtc-samples/source/browse/trunk/apprtc/). This uses the Google App Engine Channel API. For information about using a WebSocket server for signaling, check out Silvia Pfeiffer's [WebSocket WebRTC app](http://blog.gingertech.net/2012/06/04/video-conferencing-in-html5-webrtc-via-web-sockets/).
 
@@ -396,7 +396,7 @@ function openChannel(channelToken) {
 
 For signaling, this demo uses the Google App Engine [Channel API](http://code.google.com/appengine/docs/python/channel/overview.html), which enables messaging between JavaScript clients without polling. (WebRTC signaling is covered in more detail [above](#toc-signaling)).
 
-![Architecture of the apprtc video chat application](/assets/public/7/74/apprtcArchitecture.png)
+![Architecture of the apprtc video chat application](//static.webplatform.org/7/74/apprtcArchitecture.png)
 
 Establishing a channel with the Channel API works like this:
 
@@ -406,7 +406,7 @@ Establishing a channel with the Channel API works like this:
 4.  App sends the token to Client A.
 5.  Client A opens a socket and listens on the channel set up on the server.
 
-![The Google Channel API: establishing a channel](/assets/public/5/53/channelEstablishing.png)
+![The Google Channel API: establishing a channel](//static.webplatform.org/5/53/channelEstablishing.png)
 
 Sending a message works like this:
 
@@ -415,7 +415,7 @@ Sending a message works like this:
 3.  The channel carries a message to Client A.
 4.  Client A's onmessage callback is called.
 
-![The Google Channel API: sending a message](/assets/public/a/a9/channelSending.png)
+![The Google Channel API: sending a message](//static.webplatform.org/a/a9/channelSending.png)
 
 Just to reiterate: signaling messages are communicated via whatever mechanism the developer chooses: the signaling mechanism is not specified by WebRTC. The Channel API is used in this demo, but other methods (such as WebSocket) could be used instead.
 
@@ -584,7 +584,7 @@ WebRTC as currently implemented only supports one-to-one communication, but coul
 
 Many existing WebRTC apps only demonstrate communication between web browsers, but gateway servers can enable a WebRTC app running on a browser to interact with devices such as [telephones](http://en.wikipedia.org/wiki/Public_switched_telephone_network), and with [VOIP](http://en.wikipedia.org/wiki/Voice_over_IP) systems. In May 2012, Doubango Telecom open-sourced the [sipml5 SIP client](http://sipml5.org/), built with WebRTC and WebSocket which (among other potential uses) enables video calls between browsers and apps running on iOS or Android. At Google I/O in 2012, Tethr and Tropo demonstrated [a framework for disaster communications](http://tethr.tumblr.com/post/25513708436/tethr-and-tropo-in-the-google-i-o-sandbox) 'in a briefcase', using an [OpenBTS cell](http://en.wikipedia.org/wiki/OpenBTS) to enable communications between feature phones and computers via WebRTC. Telephone communication without a carrier!
 
-![Tethr/Tropo demo at Google I/O 2012](/assets/public/9/98/tethr.jpg)
+![Tethr/Tropo demo at Google I/O 2012](//static.webplatform.org/9/98/tethr.jpg)
 
 ## RTCDataChannel
 
@@ -636,7 +636,7 @@ Firefox Nightly/Aurora supports `mozGetUserMedia`, `mozRTCPeerConnection` and `R
 
 Here's a screenshot of RTCDataChannel running in Firefox:
 
-![Firefox RTCDataChannel screenshot](/assets/public/5/53/firefoxDataChannel.png)
+![Firefox RTCDataChannel screenshot](//static.webplatform.org/5/53/firefoxDataChannel.png)
 
 This demo is at <http://mozilla.github.com/webrtc-landing/data_test.html>. Here's a code snippet:
 

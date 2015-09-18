@@ -19,7 +19,7 @@ The CSS Regions feature provides a way to implement complex magazine-style desig
 
 Before you flow text through a layout, you need to set up a layout. Here's one that demonstrates various features of CSS regions:
 
-![region layout.png](/assets/thumb/1/11/region_layout.png/500px-region_layout.png)
+![region layout.png](//static.webplatform.org/thumb/1/11/region_layout.png/500px-region_layout.png)
 
 The HTML markup looks like this, and contains placeholder text indicating how the content is supposed to flow:
 
@@ -63,7 +63,7 @@ To flow text through a document, you need a set of layout elements as you see ab
 
 The [**flow-into**](/css/properties/flow-into) and [**flow-from**](/css/properties/flow-from) properties must both specify the same [*named flow*](/css/concepts/named_flow) for the feature to work, in this case *main*. Once that is in place, elements assigned with [**flow-from**](/css/properties/flow-from) behave as [*regions*](/css/concepts/region) that flow content. The series of regions through which content flows is called the [*region chain*](/css/concepts/region_chain):
 
-![region basic.png](/assets/thumb/d/d0/region_basic.png/500px-region_basic.png)
+![region basic.png](//static.webplatform.org/thumb/d/d0/region_basic.png/500px-region_basic.png)
 
 Notice the shaded box that interrupts the text, and the remaining short layout box that interrupts the subheading. As you will see below, these problems can be fixed.
 
@@ -92,7 +92,7 @@ You may also specify more than one source of content, in which case again their 
 
 With content flowing through complex layouts, web developers need to confront design problems traditionally reserved for desktop publishing applications. While most of an article's text can be allowed to flow from one region to another, some elements such as headings should not be allowed to *break* so freely:
 
-![region badbreak.png](/assets/public/3/36/region_badbreak.png)
+![region badbreak.png](//static.webplatform.org/3/36/region_badbreak.png)
 
 Use the [**break-before**](/css/properties/break-before), [**break-after**](/css/properties/break-after), and [**break-inside**](/css/properties/break-inside) properties to control how content is placed relative to region breaks. This CSS forces headings into a new region:
 
@@ -100,7 +100,7 @@ Use the [**break-before**](/css/properties/break-before), [**break-after**](/css
         break-before: always;
     }
 
-![region goodbreak.png](/assets/public/6/60/region_goodbreak.png)
+![region goodbreak.png](//static.webplatform.org/6/60/region_goodbreak.png)
 
 In many cases, that approach may result in far too much white space within the previous region. This alternative approach keeps headings within a single region, and binds to subsequent content so that headings do not appear by themselves at the bottom of a region:
 
@@ -152,7 +152,7 @@ The various *break* properties shown above do not address a common layout proble
 
 The pull-quote now appears in its own dedicated layout region, of which it is the only one in the chain:
 
-![region pull.png](/assets/thumb/6/6f/region_pull.png/500px-region_pull.png)
+![region pull.png](//static.webplatform.org/thumb/6/6f/region_pull.png/500px-region_pull.png)
 
 In this case, the region's **height** is specified as **auto**, which makes it expand vertically to accommodate the content that flows into it. This can be useful when designing *flexbox*-based layouts in which a more flexible column shrinks to accommodate neighboring content such as the pull-quote.
 
@@ -188,7 +188,7 @@ In this example, only the portion of paragraph text that flows into the *intro* 
         }
     }
 
-![region rule.png](/assets/public/b/be/region_rule.png)
+![region rule.png](//static.webplatform.org/b/be/region_rule.png)
 
 To achieve the combined effect shown above, the region itself can specify its own styles. This CSS applies a different design to the *intro* element regardless of whether its [**flow-from**](/css/properties/flow-from) specifies that it behaves as a region:
 
@@ -208,7 +208,7 @@ Not all CSS properties can be manipulated in content that flows within a region.
 
 When flowing content through a layout, there may not be enough space available in the region chain to display all of it. In that case, the flow is in an [*overset*](/css/concepts/overset) state. By default, the last available region in the chain displays overset content according to its [**overflow**](/css/properties/overflow) setting. Still, even using **overflow:hidden** can lead to unfortunate visual artifacts along the bottom edge:
 
-![region overset bad.png](/assets/public/4/48/region_overset_bad.png)
+![region overset bad.png](//static.webplatform.org/4/48/region_overset_bad.png)
 
 The [**region-fragment**](/css/properties/region-fragment) CSS property controls how content displays in this situation. Setting it to **break** causes the last overset region to display only the fragment of content that can fit within it, just as if subsequent content had been able to flow into another region:
 
@@ -220,7 +220,7 @@ The [**region-fragment**](/css/properties/region-fragment) CSS property controls
 
 This presents a much cleaner bottom edge on the overset region, and should be applied to region chains if the layout can get into an overset state:
 
-![region overset good.png](/assets/public/9/9d/region_overset_good.png)
+![region overset good.png](//static.webplatform.org/9/9d/region_overset_good.png)
 
 Note: The CSS Regions feature offers [API interfaces](/apis/css-regions) that can help detect when a flow's content exceeds available layout regions, or falls short and leaves some of them empty. See the [**NamedFlow**](/apis/css-regions/NamedFlow) API's [**overset**](/apis/css-regions/NamedFlow/overset) and [**firstEmptyRegionIndex**](/apis/css-regions/NamedFlow/firstEmptyRegionIndex) properties, as well as its [**regionoversetchange**](/apis/css-regions/NamedFlow/regionoversetchange) event.
 
@@ -277,7 +277,7 @@ In the following example, large-screen browsers pour the article's content into 
 
 This produces an alternate mobile interface:
 
-![region mobile.png](/assets/public/4/49/region_mobile.png)
+![region mobile.png](//static.webplatform.org/4/49/region_mobile.png)
 
  See [this page](http://letmespellitoutforyou.com/samples/region_mq_sample.html) for the results, using one of the supporting browsers listed below.
 

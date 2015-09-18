@@ -32,7 +32,7 @@ You can try it out now in [Chrome Canary](https://tools.google.com/dlpage/chrome
 
 To experiment with this feature, you need to enable the Enable Experimental JavaScript flag in Chrome Canary and restart the browser. The flag can be found under 'about://flags’ as shown in the image below:
 
-![objectobserve1.jpg](/assets/public/0/0b/objectobserve1.jpg)
+![objectobserve1.jpg](//static.webplatform.org/0/0b/objectobserve1.jpg)
 
 ## Basic use
 

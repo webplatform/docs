@@ -3,7 +3,7 @@ title: 'margin-right'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5728056'
+  - 'http://code.webplatform.org/gist/5728056'
 compatibility:
   feature: margin-right
   topic: css
@@ -90,7 +90,7 @@ In this example there are three floated blocks, styled identically except for th
 <div class="three"></div>
 ```
 
-[View live example](http://gist.github.com/5728056)
+[View live example](http://code.webplatform.org/gist/5728056)
 
 CSS applied to the HTML seen in the first example block.
 
@@ -122,7 +122,7 @@ CSS applied to the HTML seen in the first example block.
  }
 ```
 
-[View live example](http://gist.github.com/5728056)
+[View live example](http://code.webplatform.org/gist/5728056)
 
 ## Usage
 

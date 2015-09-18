@@ -3,7 +3,7 @@ title: 'scale3d()'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5305309'
+  - 'http://code.webplatform.org/gist/5305309'
 compatibility:
   feature: scale3d()
   topic: css
@@ -31,7 +31,7 @@ div {
 }
 ```
 
-[View live example](http://gist.github.com/5305309)
+[View live example](http://code.webplatform.org/gist/5305309)
 
 ### Syntax
 

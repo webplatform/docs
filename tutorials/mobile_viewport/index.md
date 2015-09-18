@@ -25,7 +25,7 @@ Applying a *viewport* is the first and most important step to make web pages pre
 
 Touch-based smartphone browsers are capable of presenting web pages designed for desktop browsers, but that experience needs improvement. When loading full-sized pages, mobile browsers display the entire page at reduced magnification. Users must double-tap or pinch the screen to magnify individual columns of content. Even then, text targeted for full-sized browsers often features long line lengths that make it more difficult to read on smaller mobile screens. This shows how a typical web page layout displays on a mobile screen:
 
-![viewport fail.png](/assets/public/0/0a/viewport_fail.png)
+![viewport fail.png](//static.webplatform.org/0/0a/viewport_fail.png)
 
 Users are obliged to go through several steps before text becomes legible, in this case including tipping the handset to increase the column's magnification. When users reach the end of the column, they often experience difficulty re-orienting themselves within the page. In this case, even the image doesn't appear within the screen, because it is placed in a different column within the layout.
 
@@ -33,7 +33,7 @@ The fixed rectangular area within which touch-based smartphone browsers display 
 
 The following shows a sample screen layout *without* a viewport. (For the sake of illustration, it displays a flexibly positioned text element that adapts to the full width of the screen, along with a fixed-size background image.) The initially loaded page is zoomed out much too far to be legible, while zooming in makes content extending off the right edge of the screen difficult to access:
 
-![view off.png](/assets/public/b/b7/view_off.png)
+![view off.png](//static.webplatform.org/b/b7/view_off.png)
 
 This reflects the browser's default assumption that content should extend 980 pixels wide. Mobile browsers must make that assumption in order to render pages that are *not* optimized for display on mobile screens.
 
@@ -43,7 +43,7 @@ To override the browser's default behavior, place this line within the HTML's **
 
 Here's how the screen layout looks after you apply the viewport:
 
-![view on.png](/assets/public/f/f3/view_on.png)
+![view on.png](//static.webplatform.org/f/f3/view_on.png)
 
 Setting the viewport **width** to **device-width** recalculates flexible CSS measurements (such as the [**width:100%** CSS property](/css/properties/width)) within the width of the handset's screen rather than the default page width. Tipping the handset maintains the overall width of the content within the wider window.
 
@@ -126,7 +126,7 @@ The **orientation** [CSS media query](/tutorials/media_queries) allows you to as
 
 The result can be seen in this example, by resizing the browser window so that it is alternately taller or wider:
 
-![orient.png](/assets/public/0/0a/orient.png)
+![orient.png](//static.webplatform.org/0/0a/orient.png)
 
 Be careful, though, when presenting a much different landscape interface. Changes to column layout may disorient users who expect much the same layout as in portrait orientation.
 
@@ -138,7 +138,7 @@ JavaScript can respond similarly to [**orientationchange**](/w/index.php?title=d
 
 When you apply a **width:device-width** mobile viewport, flexible layout elements conform to the width of the device's window. Ordinarily, tipping the device to landscape orientation magnifies the content, keeping the overall width constant. To illustrate the range of available options, this example shows a flexible layout against a fixed-size background element. In landscape view, the page zooms in:
 
-![view on.png](/assets/public/f/f3/view_on.png)
+![view on.png](//static.webplatform.org/f/f3/view_on.png)
 
 To disable magnification and force flexible elements to expand to the wider screen, set the **user-scalable=no** viewport property:
 
@@ -146,7 +146,7 @@ To disable magnification and force flexible elements to expand to the wider scre
 
 Doing so disables pinch and double-tap gestures that otherwise allow users to magnify content. The following shows how the same page appears with scaling disabled. The layout element changes dimensions, but the background element shows that the magnification remains constant:
 
-![view on noscale.png](/assets/public/e/ee/view_on_noscale.png)
+![view on noscale.png](//static.webplatform.org/e/ee/view_on_noscale.png)
 
 Notice, however, that the text size is still magnified independently of the page. To prevent the text size from changing, disable the [**text-size-adjust**](/w/index.php?title=css/properties/text-size-adjust&action=edit&redlink=1) CSS property. This fixes the entire page:
 
@@ -157,7 +157,7 @@ Notice, however, that the text size is still magnified independently of the page
 
 Here is the resulting page, with text appearing at the same size:
 
-![view on noscale noadjust.png](/assets/public/7/71/view_on_noscale_noadjust.png)
+![view on noscale noadjust.png](//static.webplatform.org/7/71/view_on_noscale_noadjust.png)
 
 Be careful not to apply the CSS above to a desktop-oriented interface. Doing so interferes with the browser's zoom feature, which is *not* controlled by mobile viewport settings. In that case, when users zoom in, the dimensions of screen elements change, but the size of the text does not. If you are deploying a hybrid mobile interface adapted for desktop or tablet browsers, use [media queries](/tutorials/media_queries) to narrow the scope of the above CSS:
 
@@ -179,7 +179,7 @@ Some mobile browsers support the **target-densitydpi** property, but that is bei
 
     <meta name='viewport' content='width=device-width, target-densitydpi=device-dpi' />
 
-![view on dpi p.png](/assets/public/a/af/view_on_dpi_p.png)
+![view on dpi p.png](//static.webplatform.org/a/af/view_on_dpi_p.png)
 
 Since pixel densities vary widely among handsets, there are very few cases outside of repeating background patterns in which **target-densitydpi** would be appropriate. It may affect other content in unexpected ways, and so should be avoided.
 

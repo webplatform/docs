@@ -35,7 +35,7 @@ Let's start by building a comment form, the sort of form you would use on a webs
 
  If you enter this into an HTML document and then open that document in a browser, the code is rendered something like this:
 
-![the first form example](/assets/public/5/56/Form1.png)
+![the first form example](//static.webplatform.org/5/56/Form1.png)
 
 *Figure 1: The basic form example.*
 
@@ -120,7 +120,7 @@ Let's go back to the drawing board, with a new and improved form:
 
  This form looks like this when rendered in a browser:
 
-![the second form example](/assets/public/8/8c/Form2.png)
+![the second form example](//static.webplatform.org/8/8c/Form2.png)
 
 *Figure 2: The second form example — looking better.*
 
@@ -216,7 +216,7 @@ The next version of the form code is:
 
  When rendered in a browser, that form looks like this:
 
-![the third form example](/assets/public/8/8d/Form3.png)
+![the third form example](//static.webplatform.org/8/8d/Form3.png)
 
 *Figure 3: Some new, more complex form elements!*
 
@@ -307,7 +307,7 @@ The final form example is identical to the last one, except that we have wrapped
 
  When rendered in a browser, these look like this:
 
-![the fourth and final form example](/assets/public/4/45/Form4.png)
+![the fourth and final form example](//static.webplatform.org/4/45/Form4.png)
 
 *Figure 4: More structuring with fieldset and legend.*
 

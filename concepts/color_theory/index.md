@@ -17,7 +17,7 @@ In this article, I’ll cover color basics and three simple color schemes so tha
 
 Colors, or hues, have historically been divided into primary, secondary, and tertiary colors. The primary colors consist of red, yellow and blue, and they’re called primary colors because you don’t need to mix colors to make these three hues. If you want to translate these colors into web colors, you can recreate them using their hex (hexadecimal) equivalents of \#ff0000, \#ffff00, and \#0033cc as shown in Figure 1:
 
-![Primary Colors](/assets/public/d/d2/10000000.jpg)
+![Primary Colors](//static.webplatform.org/d/d2/10000000.jpg)
 
 Figure 1: the primary and secondary colors, and their hex equivalents
 
@@ -33,7 +33,7 @@ Tertiary colors are mixed from the secondary colors, and they lie between the pr
 -   Tone – The resulting color when gray is added
 -   Shade – The resulting color when black is added
 
-![Tints, tones and shades](/assets/public/8/8a/20000000.jpg)
+![Tints, tones and shades](//static.webplatform.org/8/8a/20000000.jpg)
 
 Figure 2: A real color wheel
 
@@ -50,7 +50,7 @@ As you can see from the color wheel shown above, the amount of white, gray and b
 
 Color schemes have been around for centuries, so there’s no need to reinvent the color wheel. Although web color differs from print color, the concepts are the same. You just exchange hex numbers for color names, and match then as closely as possible. One online tool I suggest using to help out with this is the [Color Scheme Designer](http://colorschemedesigner.com/), as seen in Figure 3, which allows you to determine color schemes quickly and easily, and even determine whether the colors you’ve chosen provide enough contrast for low-vision or color-blind users.
 
-![Color Scheme Generator](/assets/public/d/d0/30000000.jpg)
+![Color Scheme Generator](//static.webplatform.org/d/d0/30000000.jpg)
 
 Figure 3: Color Scheme Generator II.
 
@@ -62,7 +62,7 @@ To achieve the tint, tone and shade for the yellow-orange color at the online co
 
 Back to the monochromatic color scheme. The results you should receive by following the steps described above are: yellow-orange (\#FFCC00), tint (\#FFF2BF), tone (\#FFE680), and shade (\#B38F00). These hex numbers are much more reliable than any guesses you will make by trying to match a tangible color wheel to the backlit screen of a Web browser. And, as the "Mono" suggests, this scheme translates to a monochromatic color scheme, as seen in Figure 4.
 
-![Monochromatic color scheme](/assets/public/8/8c/40000000.jpg)
+![Monochromatic color scheme](//static.webplatform.org/8/8c/40000000.jpg)
 
 Figure 4: A monochromatic color scheme.
 
@@ -72,13 +72,13 @@ Figure 4: A monochromatic color scheme.
 
 The next color scheme family to explore is the complementary scheme, where you match up colors that lie directly opposite each other on the color wheel, as seen in Figure 5.
 
-![Complementary color schemes](/assets/public/4/49/50000000.jpg)
+![Complementary color schemes](//static.webplatform.org/4/49/50000000.jpg)
 
 Figure 5: Examples of complementary color schemes.
 
 When you choose one color and its opposite color, you also include all the tints, tones and shades of both colors. This provides a wider range of choices, and it translates well with the online color tool—see Figure 6.
 
-![Online complementary color scheme](/assets/public/a/af/60000000.jpg)
+![Online complementary color scheme](//static.webplatform.org/a/af/60000000.jpg)
 
 Figure 6: A complementary color scheme inside the online color tool.
 
@@ -86,7 +86,7 @@ In the image above, I have chosen an orange color with the opposite complementar
 
 This color generator makes it easy for you to choose colors for links, visited links, and even images as it provides the hex colors for you at the upper right. You can mix and match any pure color (the color at the top) and its tint, tone or shade and feel great about choosing a solid color scheme.
 
-![Greenpeace](/assets/public/4/4b/Greenpea.jpg)
+![Greenpeace](//static.webplatform.org/4/4b/Greenpea.jpg)
 
 Figure 7: The Greenpeace site—a good example of a complementary color scheme.
 
@@ -96,7 +96,7 @@ Figure 7: The Greenpeace site—a good example of a complementary color scheme.
 
 Complementary color schemes are great to use in websites, as they also contain both warm and cool colors. The use of these colors provides contrast, and it’s easy to remember which colors are "warm" and which colors are "cool" as you can see in Figure 8 (and on the color generator site):
 
-![Warm and cool colors](/assets/public/d/d6/70000000.jpg)
+![Warm and cool colors](//static.webplatform.org/d/d6/70000000.jpg)
 
 Figure 8: Warm and cool colors.
 
@@ -104,7 +104,7 @@ Warm colors are those colors that would remind you of the summer, sun or fire. T
 
 One example of a site that consistently uses a warm/cool color combination is [Ecolution](http://www.ecolution.com/), as seen in Figure 9.
 
-![Ecolution](/assets/public/0/00/80000000.jpg)
+![Ecolution](//static.webplatform.org/0/00/80000000.jpg)
 
 Figure 9: Ecolution—a good example of warm/cool colors.
 
@@ -116,13 +116,13 @@ You never realized that color theory was so easy, did you? Well, then…let’s 
 
 A triadic color scheme (see Figure 10) is created when you pick one color and then pick two other colors that lie equidistant from each other around the circle, like so:
 
-![Triadic color scheme](/assets/public/e/e5/80000001.jpg)
+![Triadic color scheme](//static.webplatform.org/e/e5/80000001.jpg)
 
 Figure 10: A triadic color scheme.
 
 I chose the primary colors for this scheme as I wanted to show how the color schemes seem to contain a method to the madness. It’s no accident that the primary colors lie where they do on the color wheel, as each color contains an equal amount of secondary and tertiary colors between each primary. But, a primary color triadic scheme can seem old-hat as it has been overused. Instead, you might try some other color choices at the online color generator, something like Figure 11:
 
-![Online triadic color scheme](/assets/public/9/93/90000000.jpg)
+![Online triadic color scheme](//static.webplatform.org/9/93/90000000.jpg)
 
 Figure 11: An alternative triadic color scheme.
 
@@ -132,7 +132,7 @@ Now, this is where a real color wheel might come in handy, as the online results
 
 The triadic color scheme also contains warm and cool colors, but one temperature will predominate. Usually, the temperature that will overshadow the other is the one that you chose on the front end. In this case, I initially chose the orange-yellow, which is a warm color. The warm colors shown above will predominate as a result, with one of the other two colors lending the cool contrast.
 
-![Puzzle Pirates](/assets/public/5/50/10000001.jpg)
+![Puzzle Pirates](//static.webplatform.org/5/50/10000001.jpg)
 
 Figure 12: Puzzle Pirates—A good triadic color scheme.
 
@@ -142,13 +142,13 @@ Figure 12: Puzzle Pirates—A good triadic color scheme.
 
 The more colors you choose, the more complicated the color scheme. However, one trick is to find a tint, tone or shade and stick to those regions across the board rather than mix pure colors and their tints, tones and shades. This method works well with a color scheme such as the four-color tetradic scheme. This scheme (see Figure 13) is just like the complementary scheme, only you use two complementaries that are equidistant.
 
-![Tetradic color scheme](/assets/public/3/35/11000000.jpg)
+![Tetradic color scheme](//static.webplatform.org/3/35/11000000.jpg)
 
 Figure 13: Tetradic color schemes.
 
 Figure 14 shows how a tetrad scheme works out online:
 
-![Online tetrad example](/assets/public/9/9f/12000000.jpg)
+![Online tetrad example](//static.webplatform.org/9/9f/12000000.jpg)
 
 Figure 14: A tetradic color scheme inside the online generator.
 
@@ -156,19 +156,19 @@ Note the black dot under the red in the color wheel to the left. This was the fi
 
 This color scheme can become quite complicated, so what you might want to do at this point is to pick all four tints or tones or shades from the colors in the right column. You can make your choices by clicking the arrows at the far right. For instance, Figure 15 shows an example of a block filled with the tints of this color scheme:
 
-![Tetradic tints](/assets/public/5/52/13000000.jpg)
+![Tetradic tints](//static.webplatform.org/5/52/13000000.jpg)
 
 Figure 15: Tetradic tints.
 
 And Figure 16 shows an example of the mid-range tones:
 
-![Triadic midrange](/assets/public/f/fe/14000000.jpg)
+![Triadic midrange](//static.webplatform.org/f/fe/14000000.jpg)
 
 Figure 16: Tetradic mid-range tones.
 
 If you look closely at the squares above, you’ll see that the generator also provides you with four monochromatic color schemes. These schemes are shown both in the column to the right as well as in each square within the larger square.
 
-![Jane Goodall site](/assets/public/d/dc/Goodall0.jpg)
+![Jane Goodall site](//static.webplatform.org/d/dc/Goodall0.jpg)
 
 Figure 17: The Jane Goodall Institute site—a good tetradic color scheme example.
 

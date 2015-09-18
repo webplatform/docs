@@ -3,9 +3,9 @@ title: 'text-shadow'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow)'
 code_samples:
-  - 'http://gist.github.com/5842702'
-  - 'http://gist.github.com/5864800'
-  - 'http://gist.github.com/5864841'
+  - 'http://code.webplatform.org/gist/5842702'
+  - 'http://code.webplatform.org/gist/5864800'
+  - 'http://code.webplatform.org/gist/5864841'
 compatibility:
   feature: text-shadow
   topic: css
@@ -93,7 +93,7 @@ p {
 }
 ```
 
-[View live example](http://gist.github.com/5842702)
+[View live example](http://code.webplatform.org/gist/5842702)
 
 ``` css
 */ This example uses both required offset values, <offset-x> and <offset-y>. The optional <blur-radius> and <color> values have been omitted. /*
@@ -103,7 +103,7 @@ p {
 }
 ```
 
-[View live example](http://gist.github.com/5864800)
+[View live example](http://code.webplatform.org/gist/5864800)
 
 ``` css
 */ This example shows multiple shadow effects separated by a comma. Note the use of various units and color models applied to the values. /*
@@ -113,7 +113,7 @@ p {
 }
 ```
 
-[View live example](http://gist.github.com/5864841)
+[View live example](http://code.webplatform.org/gist/5864841)
 
 ## Usage
 

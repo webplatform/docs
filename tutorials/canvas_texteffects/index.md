@@ -25,7 +25,7 @@ These experiments eventually led to the creation of the startup Mugtug with my l
 
 ## Introduction
 
-![typ01-canvas.png](/assets/public/6/6b/typ01-canvas.png)
+![typ01-canvas.png](//static.webplatform.org/6/6b/typ01-canvas.png)
 
 The \<canvas\> element brings Javascript programmers full control of the colors, vectors, and pixels on their screens—the visual makeup of the monitor.
 
@@ -59,7 +59,7 @@ CSS uses two methods, *box-shadow* for box elements such as div, span, and so on
 
 To get things started, let's see how \<canvas\> can emulate CSS effects. Searching through Google images for "css text-shadow" led to a few great demos for us to emulate, [Line25](http://line25.com/articles/using-css-text-shadow-to-create-cool-text-effects), [Stereoscopic](http://lab.simurai.com/css/css3d/), and [Shadow 3D](http://pgwebdesign.net/blog/3d-css-shadow-text-tutorial).
 
-![typ02-css3d.png](/assets/public/a/a4/typ02-css3d.png)
+![typ02-css3d.png](//static.webplatform.org/a/a4/typ02-css3d.png)
 
 The stereoscopic 3D effect (see [Anaglyph image](http://en.wikipedia.org/wiki/Anaglyph_image) for more) is an example of a simple line of code put to great use. With the following line of CSS, we can create the illusion of depth when viewed with 3D red/cyan glasses (the kind they give you at 3D movies):
 
@@ -89,7 +89,7 @@ There are two things to notice when converting this string to \<canvas\>:
 
 In a more complex example, such as the Neon effect found on Line25, the `shadowBlur` property must be used to emulate the effect properly. Because the Neon effect relies on multiple shadows, we run into a problem: in \<canvas\> each vector object can only have one shadow. So, in order to draw multiple shadows, you must draw multiple versions of the text on top of itself. This results in alpha multiplication, and ultimately jagged edges.
 
-![typ03-neon.png](/assets/public/8/88/typ03-neon.png)
+![typ03-neon.png](//static.webplatform.org/8/88/typ03-neon.png)
 
 I tried running `ctx.fillStyle = "rgba(0,0,0,0)"` or `"transparent"` to hide the text, while displaying the shadow. However, this attempt was futile; since the shadow is a multiplication of the fillStyle alpha, the shadow can never be more opaque than the fillStyle.
 
@@ -160,7 +160,7 @@ Tying it all together, and optimizing as we go: if a shadow has no blur, fillTex
 
 Since you're not going to want to enter all these \<canvas\> commands manually, I've included a simple text-shadow parser in the demo source; this way you can feed it CSS commands and have it generate \<canvas\> commands. Now, our \<canvas\> elements have a whole range of styles they can tie into. These same shadow-effects can be used on any vector object, from WebFonts to complex shapes imported from SVGs, to generative vector shapes, and so on!
 
-![typ04-multi.png](/assets/public/d/da/typ04-multi.png)
+![typ04-multi.png](//static.webplatform.org/d/da/typ04-multi.png)
 
 View [Text-Shadows in \<canvas\>](http://www.html5rocks.com/en/tutorials/canvas/texteffects/Text-Effects.html) effects.
 
@@ -174,13 +174,13 @@ In writing this section of the article, the Stereoscopic example made me curious
 
 Visit the [Stereoscopic demo](http://www.html5rocks.com/en/tutorials/canvas/texteffects/Stereoscopy.html) to see how to create images to be enhanced with 3D glasses (cyan/magenta). Now, someone just needs to duct-tape two iPhones to their forehead, click "record video" at the same time, and we could make our own 3D movies in HTML5. Any volunteers?
 
-![typ05-stereo.png](/assets/public/9/9f/typ05-stereo.png)
+![typ05-stereo.png](//static.webplatform.org/9/9f/typ05-stereo.png)
 
 ## Neon-rainbow, zebra-reflection — chaining effects
 
 Chaining multiple effects in \<canvas\> can be simple, but a basic knowledge of the globalCompositeOperation (GCO) is required. To compare the operations to GIMP (or Photoshop): there are 12 GCOs in \<canvas\>: *darker* and *lighter* can be thought of as layer blend-modes; the other 10 operations are applied to the layers as alpha masks (one layer removes the pixels of the other layer). The globalCompositeOperation ties *layers* (or in our case, strings of code) together, combining them in new and exciting ways:
 
-![typ06-global.png](/assets/public/7/7b/typ06-global.png)
+![typ06-global.png](//static.webplatform.org/7/7b/typ06-global.png)
 
 The [globalCompositeOperation chart](http://www.html5rocks.com/en/tutorials/canvas/texteffects/globalCompositeOperation.html) shows GCO modes at work; this chart uses a large portion of the color-spectrum and multiple levels of alpha transparency in order to see in detail what to expect. I would recommend checking out Mozilla's [globalCompositeOperation reference](https://developer.mozilla.org/en/Canvas_tutorial/Compositing) for textual descriptions. For further research, you can learn how the operation works in Porter Duff's [Compositing Digital Images](http://keithp.com/~keithp/porterduff/).
 
@@ -192,7 +192,7 @@ My favorite mode is globalCompositeOperation="lighter". Lighter mixes the append
 
 In the following demo, we're going to achieve a Photoshop-like neon-rainbow-glow with a jittered outline by chaining effects together using the globalCompositeOperation (source-in, lighter, and darker). This demo is a progression of the "Text-Shadows in \<canvas\>" demo, using the same strategy in separating the shadow from the text (see previous section):
 
-![typ07-jitter.png](/assets/public/f/f6/typ07-jitter.png)
+![typ07-jitter.png](//static.webplatform.org/f/f6/typ07-jitter.png)
 
 View [Neon-Rainbow Jitter](http://www.html5rocks.com/en/tutorials/canvas/texteffects/Text-Effects.html#neon+rainbow+jitter) effect.
 
@@ -263,7 +263,7 @@ View [Neon-Rainbow Jitter](http://www.html5rocks.com/en/tutorials/canvas/texteff
 
 The zebra reflection effect was inspired by [WebDesignerWall](http://www.webdesignerwall.com/demo/css-gradient-text)'s excellent resource on how to spice up your page with CSS. This takes the idea a little bit further, creating a "reflection" for the text such as you might see in iTunes. The effect combines fillColor (white), createPattern (zebra.png), and linearGradient (shine); this illustrates the ability to apply multiple fill types to each vector object:
 
-![typ08-zebra.png](/assets/public/c/c3/typ08-zebra.png)
+![typ08-zebra.png](//static.webplatform.org/c/c3/typ08-zebra.png)
 
 View [zebra reflection](http://www.html5rocks.com/en/tutorials/canvas/texteffects/Text-Effects.html#pattern+gradient+reflect) effect.
 
@@ -331,7 +331,7 @@ The \<canvas\> spec doesn't touch on the subject of *inner* vs. *outer* shadows.
 
 The following example allows for the inner-shadow and fillStyle to be stylized with color+gradient+pattern simultaneously. You can specify pattern rotation individually; notice the zebra stripes are now perpendicular to each other. A clipping mask the size of the bounding-box is used, removing the need for a super-large container to enclose the cutout shape, and improving the speed by preventing the unnecessary parts of the shadow from being processed.
 
-![typ09-inner.png](/assets/public/9/98/typ09-inner.png)
+![typ09-inner.png](//static.webplatform.org/9/98/typ09-inner.png)
 
 View [inner-shadow](http://www.html5rocks.com/en/tutorials/canvas/texteffects/Text-Effects.html#innershadow+pattern+gradient) effect.
 
@@ -433,17 +433,17 @@ From these examples you can see that, using globalCompositeOperation, we can cha
 
 In \<canvas\>, going from the unicode character 0x2708...
 
-![typ10-unicode.png](/assets/public/3/34/typ10-unicode.png)
+![typ10-unicode.png](//static.webplatform.org/3/34/typ10-unicode.png)
 
 ...to this shaded example
 
-![typ11-shaded.png](/assets/public/5/51/typ11-shaded.png)
+![typ11-shaded.png](//static.webplatform.org/5/51/typ11-shaded.png)
 
 can be achieved by multiple calls to `ctx.strokeText()` with a thin lineWidth (0.25), while slowly decreasing the x-offset and alpha, giving our vector elements the feeling of motion.
 
 By mapping the element's XY position to a sine/cosine wave and cycling through colors using the HSL property, we can create more interesting effects, such as this "biohazard" example:
 
-![typ12-biohazard.png](/assets/public/5/55/typ12-biohazard.png)
+![typ12-biohazard.png](//static.webplatform.org/5/55/typ12-biohazard.png)
 
 ### HSL: Hue, Saturation, Lightness (1978)
 
@@ -451,7 +451,7 @@ HSL is a newly supported format in the CSS3 specs. Where HEX was designed for co
 
 Illustrating the ease of HSL, to cycle through the color spectrum, we'd simply increment the "hue" from 360; the hue is mapped to the spectrum in cylindric fashion. Lightness controls how dark/light the color is; 0% indicates a black pixel, whereas 100% indicates a white pixel. Saturation controls how bright or vivid a color is; greys are created with a saturation of 0%, and vivid colors are created using a value of 100%.
 
-![typ13-hsl.png](/assets/public/1/1c/typ13-hsl.png)
+![typ13-hsl.png](//static.webplatform.org/1/1c/typ13-hsl.png)
 
 Because HSL is a recent standard, you may wish to continue supporting older browsers, which is possible via color-space conversion. The following code accepts an HSL object {H: 360, S: 100, L: 100} and outputs an RGB object {R: 255, G: 255, B: 255}. From there, you can use those values to create your rgb or rgba string. For more in-depth information see Wikipedia's insightful article on [HSL](http://en.wikipedia.org/wiki/HSL_and_HSV).
 
@@ -542,11 +542,11 @@ View [Spaceage](http://www.html5rocks.com/en/tutorials/canvas/texteffects/Text-E
        timeout = window.requestAnimationFrame(animate, 0);
      })();
 
-![typ14-spaceage1.png](/assets/public/2/24/typ14-spaceage1.png)
+![typ14-spaceage1.png](//static.webplatform.org/2/24/typ14-spaceage1.png)
 
-![typ15-spaceage2.png](/assets/public/2/24/typ15-spaceage2.png)
+![typ15-spaceage2.png](//static.webplatform.org/2/24/typ15-spaceage2.png)
 
-![typ16-spaceage3.png](/assets/public/4/4a/typ16-spaceage3.png)
+![typ16-spaceage3.png](//static.webplatform.org/4/4a/typ16-spaceage3.png)
 
 ## Source code
 

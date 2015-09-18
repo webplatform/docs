@@ -14,7 +14,7 @@ HTML5 は、もっと書きやすく、ずっと強力で、そして一貫性�
 
 HTML 4.01 が勧告されたとき、Web はほとんど静的な場所でした。もちろん、コメントフォームやゲストブックなどはありましたが、当時の Web サイトは一般的に、読み物としての性質しかありませんでした。それから Web は進化しました。ブラウザはすでに多くの人にとって、デスクトップアプリケーションのような体験を提供する、複雑な Web ベースのアプリケーションへの窓口になっています。
 
-![html5formfig1.png](/assets/public/e/e1/html5formfig1.png)
+![html5formfig1.png](//static.webplatform.org/e/e1/html5formfig1.png)
 
 図1: JavaScript で作られた、ネイティブではない複雑なフォームコントロール
 
@@ -42,7 +42,7 @@ HTML5 は広く使われているリッチなフォームコントロールを�
 
  この新しい型は、数値入力のための入力フィールドを生成します。この型をサポートするブラウザの多くでは、テキスト入力フィールドに値を増減できるスピナーコントロールが組み合わされたものが表示されます。
 
-![html5formfig2.png](/assets/public/a/ac/html5formfig2.png)
+![html5formfig2.png](//static.webplatform.org/a/ac/html5formfig2.png)
 
 図2: `number` 型
 
@@ -54,7 +54,7 @@ HTML5 は広く使われているリッチなフォームコントロールを�
 <input type="range" … >
 ```
 
- ![html5formfig3.png](/assets/public/e/e2/html5formfig3.png)
+ ![html5formfig3.png](//static.webplatform.org/e/e2/html5formfig3.png)
 
 図3: `range` 型
 
@@ -75,7 +75,7 @@ HTML5 は日付・時刻を選択する input 型を数多く用意していま�
 
  上記のコードはそれぞれ、完全に機能するデートピッカーと、時分秒の区切りを持ち時刻を入力するためのテキストフィールドを表示します（時分秒の区切りは `step` 属性の値によって変化します）。
 
-![html5formfig4.png](/assets/public/8/86/html5formfig4.png)
+![html5formfig4.png](//static.webplatform.org/8/86/html5formfig4.png)
 
 図4: 日付と時刻の input 型
 
@@ -89,7 +89,7 @@ HTML5 は日付・時刻を選択する input 型を数多く用意していま�
 
 この input 型はカラーピッカーを呼び出します。Opera の実装ではユーザーがあらかじめ用意された色から選択できたり、テキストフィールドに16進数値を入力できたり、OS ネイティブなカラーピッカーを呼び出せたりします。
 
-![html5formfig5.png](/assets/public/0/00/html5formfig5.png)
+![html5formfig5.png](//static.webplatform.org/0/00/html5formfig5.png)
 
 図5: `color` 型と、Windows, OS X のネイティブなカラーピッカー
 
@@ -97,7 +97,7 @@ HTML5 は日付・時刻を選択する input 型を数多く用意していま�
 
 `search` 型は基本的に、見た目が違うテキストフィールドでしかありません。ブラウザはこの型に、OS 固有の検索機能と同じ見た目を提供することが期待されています。しかし、見た目が違うこと以外にも重要性はあるでしょう。検索フィールドだと明示的に示すことで、ブラウザや支援技術、クローラーが何か賢いことをしてくれるかもしれません。たとえば、ブラウザがユーザーにサイト内検索のためのカスタムサーチ機能を提供できたりもするでしょう。
 
-![html5formfig6.png](/assets/public/b/b3/html5formfig6.png)
+![html5formfig6.png](//static.webplatform.org/b/b3/html5formfig6.png)
 
 図6: `search` 型の OS X での見た目
 
@@ -114,7 +114,7 @@ HTML5 は日付・時刻を選択する input 型を数多く用意していま�
 </datalist>
 ```
 
- ![html5formfig7.png](/assets/public/3/31/html5formfig7.png)
+ ![html5formfig7.png](//static.webplatform.org/3/31/html5formfig7.png)
 
 図7: `datalist` 要素によるプリセットオプションつきの `input` 要素をつくる
 
@@ -134,7 +134,7 @@ Web フォームでよく見られるユーザビリティの飾りとして、�
 <input type="text"… placeholder="John Doe">
 ```
 
- ![html5formfig8.png](/assets/public/8/87/html5formfig8.png)
+ ![html5formfig8.png](//static.webplatform.org/8/87/html5formfig8.png)
 
 図8: `placeholder` 属性でプレースホルダが指定されたテキストフィールド
 
@@ -181,7 +181,7 @@ HTML5 では、操作するようなフォームコントロールではなく�
 
 これら2つの新要素はとても似ています。どちらもユーザーに対し、ゲージもしくはバーを表示します。違いは、その利用目的です。名前が示す通り、`<progress>` はプログレスバーを表し、何らかのタスクの進行状況をパーセンテージで示します。一方、`<meter>` は、一般的なscalar measrement or fractional value を表します。
 
-![html5formfig9.png](/assets/public/e/e9/html5formfig9.png)
+![html5formfig9.png](//static.webplatform.org/e/e9/html5formfig9.png)
 
 図9: 進行状況を示すプログレスバー
 
@@ -199,7 +199,7 @@ HTML5 では、操作するようなフォームコントロールではなく�
 <input type="text" ... required>
 ```
 
- ![html5formfig10.png](/assets/public/8/88/html5formfig10.png)
+ ![html5formfig10.png](//static.webplatform.org/8/88/html5formfig10.png)
 
 図10: Opera のクライアントサイドフォーム検証。何も入力されていない入力必須フィールドにエラーを表示している。
 
@@ -207,7 +207,7 @@ HTML5 では、操作するようなフォームコントロールではなく�
 
 HTML5 の新しい型によって、フォームフィールドがどのような種類の情報を期待しているかを指定できるようになりました。ただのテキストフィールドではなく、数値、メールアドレス、URL といったものを指定できます。クライアントサイドの検証機能のひとつとして、ブラウザはユーザーが入力した内容が、そのフィールドが固有に持つ、期待された値の構造にマッチするかを調べられるようになりました。ブラウザは入力された値を、フィールドが valid となると定義された組み込みのパターンに対して評価し、条件にマッチしない入力項目に対してはユーザにその旨を提示します。
 
-![html5formfig11.png](/assets/public/0/0c/html5formfig11.png)
+![html5formfig11.png](//static.webplatform.org/0/0c/html5formfig11.png)
 
 図11: `email` 型のフィールドに、適切でない値を入れた際に Opera が表示するエラーメッセージ。
 

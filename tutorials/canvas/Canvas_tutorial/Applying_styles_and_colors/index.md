@@ -41,7 +41,7 @@ The valid strings these color properties accept are expressed by [CSS3 color val
 
 #### A fillStyle example
 
-![A canvas filled with different colored squares](/assets/public/c/cf/Canvas_fillstyle.png)
+![A canvas filled with different colored squares](//static.webplatform.org/c/cf/Canvas_fillstyle.png)
 
 In this example, two `for` loops are used to draw a grid of rectangles, each in a different color. The iterators `i` and `j` modify the red and green values of the `rgb()` function creating a dynamic palette. By decreasing the step values and increasing the number of rectangles rendered smoother transitions between colors can be achieved.
 
@@ -67,7 +67,7 @@ In this example, two `for` loops are used to draw a grid of rectangles, each in 
 
 #### A strokeStyle example
 
-![Canvas filled with empty circles with different colored lines](/assets/public/b/bd/Canvas_strokestyle.png)
+![Canvas filled with empty circles with different colored lines](//static.webplatform.org/b/bd/Canvas_strokestyle.png)
 
 This example is similar to the one above but now using the `strokeStyle` property. Here the `arc` method is used to draw circles instead of squares.
 
@@ -102,7 +102,7 @@ The `rgba()` function is similar to the `rgb()` function but it has one extra pa
 
 #### A globalAlpha example
 
-![A background of four different colored squares, on top of which is drawn a set of semi-transparent circles.](/assets/public/b/b0/Canvas_globalalpha.png)
+![A background of four different colored squares, on top of which is drawn a set of semi-transparent circles.](//static.webplatform.org/b/b0/Canvas_globalalpha.png)
 
 In this example, a set of semi-transparent concentric circles are drawn on top of four opaque squares. By setting the `globalAlpha` property before the `for` loop, the circles inherit the transparency value while the background does not. Overlaying the decreasing circles forms a radial gradient as their opacity is additive.
 
@@ -132,7 +132,7 @@ In this example, a set of semi-transparent concentric circles are drawn on top o
 
 #### An example using rgba()
 
-![Small rectangles with increasing opacity, on a canvas.](/assets/public/c/cf/Canvas_rgba.png)
+![Small rectangles with increasing opacity, on a canvas.](//static.webplatform.org/c/cf/Canvas_rgba.png)
 
 Here, instead of drawing circles on top of each other, small rectangles are drawn with increasing opacity. Using `rgba()` gives you a little more control and flexibility because the fill and stroke styles can be set individually.
 
@@ -171,7 +171,7 @@ There are several properties which allow us to style lines.
 
 #### A lineWidth example
 
-![A canvas with vertical lines of varied thickness, thinner at left and thicker at right.](/assets/public/e/ef/Canvas_linewidth.png)
+![A canvas with vertical lines of varied thickness, thinner at left and thicker at right.](//static.webplatform.org/e/ef/Canvas_linewidth.png)
 
 This property sets the current line thickness. Values must be positive numbers. By default this value is set to 1.0 units.
 
@@ -192,7 +192,7 @@ In the example below, 10 straight lines are drawn with increasing line widths. T
 
 Obtaining crisp lines requires understanding how paths are stroked. In the images below, the grid represents the canvas coordinate grid. The squares between grid lines are actual on-screen pixels. In the first grid image below, a rectangle from (2,1) to (5,5) is filled. The entire area between them (light red) falls on pixel boundaries, so the resulting filled rectangle will have crisp edges.
 
-![Three canvas elements on grids, showing aspects of line width.](/assets/public/b/b2/canvas-grid.png)
+![Three canvas elements on grids, showing aspects of line width.](//static.webplatform.org/b/b2/canvas-grid.png)
 
 If you consider a path from (3,1) to (3,5) with a line thickness of 1.0, you end up with the situation in the second image. The actual area to be filled (dark blue) only extends halfway into the pixels on either side of the path. An approximation of this has to be rendered, which means that those pixels being only partially shaded, and results in the entire area (the light blue and dark blue) being filled in with a color only half as dark as the actual stroke color. This is what happens with the 1.0 width line in the previous example code.
 
@@ -208,7 +208,7 @@ While slightly painful when initially working with scalable 2D graphics, paying 
 
 #### A lineCap example
 
-![Different line caps on vertical lines on a canvas](/assets/public/5/57/Canvas_linecap.png)
+![Different line caps on vertical lines on a canvas](//static.webplatform.org/5/57/Canvas_linecap.png)
 
 The `lineCap` property determines how the end points of every line are drawn. There are three possible values for this property and those are: `butt`, `round` and `square`. By default this property is set to `butt`.
 
@@ -243,7 +243,7 @@ The line on the left uses the default `butt` option. You'll notice that it's dra
 
 #### A lineJoin example
 
-![Zigzag pattern of lines that are joined segments](/assets/public/1/16/Canvas_linejoin.png)
+![Zigzag pattern of lines that are joined segments](//static.webplatform.org/1/16/Canvas_linejoin.png)
 
 The `lineJoin` property determines how two connecting segments (of lines, arcs or curves) with non-zero lengths in a shape are joined together (degenerate segments with zero lengths, whose specified endpoints and control points are exactly at the same position, are skipped).
 
@@ -275,7 +275,7 @@ Again I've drawn three different paths, each with a different `lineJoin` propert
 
 #### A demo of the miterLimit property
 
-![Lines joined with the miterLimit property](/assets/public/c/cf/Canvas_miterlimit.png)
+![Lines joined with the miterLimit property](//static.webplatform.org/c/cf/Canvas_miterlimit.png)
 
 As you've seen in the previous example, when joining two lines with the `miter` option, the outside edges of the two joining lines are extended up to the point where they meet. For lines which are at large angles with each other, this point is not far from the inside connection point. However, when the angles between each line decreases, the distance (miter length) between these points increases exponentially.
 
@@ -348,7 +348,7 @@ You can add as many color stops to a gradient as you need. Below is a very simpl
 
 #### A createLinearGradient example
 
-![Canvas with two linear gradients](/assets/public/f/f5/Canvas_lineargradient.png)
+![Canvas with two linear gradients](//static.webplatform.org/f/f5/Canvas_lineargradient.png)
 
 In this example, I've created two different gradients. In the first, I create the background gradient. As you can see, I've assigned two colors at the same position. You do this to make very sharp color transitions - in this case from white to green. Normally, it doesn't matter in what order you define the color stops, but in this special case, it does significantly. If you keep the assignments in the order you want them to appear, this won't be a problem.
 
@@ -382,7 +382,7 @@ As you can see here, both the `strokeStyle` and `fillStyle` properties can accep
 
 #### A createRadialGradient example
 
-![Canvas with four different radial gradients](/assets/public/6/64/Canvas_radialgradient.png)
+![Canvas with four different radial gradients](//static.webplatform.org/6/64/Canvas_radialgradient.png)
 
 In this example, I've defined four different radial gradients. Because we have control over the start and closing points of the gradient, we can achieve more complex effects than we would normally have in the 'classic' radial gradients we see in, for instance, Photoshop. (i.e. a gradient with a single center point where the gradient expands outward in a circular shape.)
 
@@ -447,7 +447,7 @@ This method takes two arguments. Image is either a reference to an `Image` objec
 
 #### A createPattern example
 
-![Wallpaper image used on a canvas](/assets/public/5/53/Canvas_createpattern.png)
+![Wallpaper image used on a canvas](//static.webplatform.org/5/53/Canvas_createpattern.png)
 
 In this last example, I created a pattern which I assigned to the `fillStyle` property. The only thing worth noting is the use of the Image object `onload` handler. This is to make sure the image is loaded before it is assigned to the pattern.
 
@@ -488,7 +488,7 @@ Using shadows involves just four properties:
 
 This example draws a text string with a shadowing effect.
 
-![Text with a shadow](/assets/public/0/0d/shadowed-string.png)
+![Text with a shadow](//static.webplatform.org/0/0d/shadowed-string.png)
 
     function draw() {
       var ctx = document.getElementById('canvas').getContext('2d');

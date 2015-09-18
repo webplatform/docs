@@ -3,7 +3,7 @@ title: 'input'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/6364130'
+  - 'http://code.webplatform.org/gist/6364130'
 compatibility:
   feature: input
   topic: html
@@ -92,7 +92,7 @@ This example uses the **input** element to create different types of input contr
 </form>
 ```
 
-[View live example](http://gist.github.com/6364130)
+[View live example](http://code.webplatform.org/gist/6364130)
 
 ## Usage
 

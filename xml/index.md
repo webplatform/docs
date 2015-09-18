@@ -95,7 +95,7 @@ The content of an element can be of the following types: character data, parsed 
 
 The DTD contains the definition rules of tags; it denotes the elements and their order inside the XML document. Unlike SGML, its use is not compulsory, but is suggested in order to verify the validity and congruence of the document. Other than defining the elements, it defines the syntax and the relations among elements. The structure of an XML document is seen as a tree in which elements represent the nodes. The following figure (Fig. 3), represents the structure of a hypothetical library: library
 
-Figure 1 – the three components of a document ![the three components of a document](/assets/public/d/da/XMLcomponents.png)
+Figure 1 – the three components of a document ![the three components of a document](//static.webplatform.org/d/da/XMLcomponents.png)
 
 The unique element that contains all the others is called the root element. The DTD can be internal or external to the XML document. By convention its name corresponds to that of the root element (in our example "library"). The following figure (Figure 4) shows an XML DTD, library.dtd, representing the previous defined structure:
 

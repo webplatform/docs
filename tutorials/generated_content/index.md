@@ -77,7 +77,7 @@ For information about individual properties affecting backgrounds, and about oth
 
 This image is a white square with a blue line at the bottom:
 
-![Blue-rule.png](/assets/public/d/d3/Blue-rule.png)
+![Blue-rule.png](//static.webplatform.org/d/d3/Blue-rule.png)
 
 1.  Download the image file into the same directory as your CSS file. (For example, right-click it to get a context menu, then choose Save Image As and specify the directory that you are using for this tutorial.)
 
@@ -89,7 +89,7 @@ This image is a white square with a blue line at the bottom:
 
 The value `repeat` is the default, so it does not need to be specified. The image repeats horizontally and vertically, giving an appearance like lined writing paper:
 
-![Blue-rule-ground.png](/assets/public/9/93/Blue-rule-ground.png)
+![Blue-rule-ground.png](//static.webplatform.org/9/93/Blue-rule-ground.png)
 
 ## See also
 
@@ -97,9 +97,9 @@ The value `repeat` is the default, so it does not need to be specified. The imag
 
 1.  Download this image:
 
-    ![Yellow-pin.png](/assets/public/9/98/Yellow-pin.png)
+    ![Yellow-pin.png](//static.webplatform.org/9/98/Yellow-pin.png)
 
 2.  Add a one rule to your stylesheet so that it displays the image at the start of each line:
 
-    ![Blue-rule-ground-2.png](/assets/public/a/a2/Blue-rule-ground-2.png)
+    ![Blue-rule-ground-2.png](//static.webplatform.org/a/a2/Blue-rule-ground-2.png)
 

@@ -98,7 +98,7 @@ gl.uniform2f(program.canvasSizeUniform, c.width, c.height);
 
  Here we have referenced our new uniform, and replaced the offset values with simple references to the `<canvas>` width and height. Checking the example as it stands, you'll see that we have basically got back to where we started, but using the built-in `gl_FragCoord` instead of passing the texture coordinates from the vertex shader; see Figure 1.
 
-![A canvas generated gradient going from green at the top left to red at the bottom right, with a large black square at the bottom left](/assets/public/9/91/figure1_3_luzc.png)
+![A canvas generated gradient going from green at the top left to red at the bottom right, with a large black square at the bottom left](//static.webplatform.org/9/91/figure1_3_luzc.png)
 
 Figure 1: Our new shader is functional.
 
@@ -204,7 +204,7 @@ float d = (float(iteration) - (log(log(sqrt(x*x+y*y))) / log(2.0))) / 50.0;
 
  This will be a bit slow and can be optimized later on, but it's ok for now as a proof of concept. Save and reload, and you'll now see that the colouring is a lot smoother, as seen in Figure 3.
 
-![A canvas generated fractal with smoother colouring in the background](/assets/public/d/d4/figure3_3_luzc.png)
+![A canvas generated fractal with smoother colouring in the background](//static.webplatform.org/d/d4/figure3_3_luzc.png)
 
 Figure 3: The background colour is now a smooth gradient!.
 
@@ -232,7 +232,7 @@ return vec4(d+j,d,d+v,1);
 
  This will give us the much more colourful look seen in Figure 4.
 
-![A canvas generated fractal with a beautiful coloured background gradient](/assets/public/2/23/figure4_3_luzc.png)
+![A canvas generated fractal with a beautiful coloured background gradient](//static.webplatform.org/2/23/figure4_3_luzc.png)
 
 Figure 4: This is much prettier.
 
@@ -245,7 +245,7 @@ v = (1.0 - v) / 2.0;
 
  See Figure 5 for the rather halo-like result!
 
-![A canvas generated fractal with inverted colours](/assets/public/b/b7/figure5_3_luzc.png)
+![A canvas generated fractal with inverted colours](//static.webplatform.org/b/b7/figure5_3_luzc.png)
 
 Figure 5: Inverted colours give our fractal a halo-type effect.
 

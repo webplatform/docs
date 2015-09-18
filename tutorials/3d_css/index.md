@@ -54,7 +54,7 @@ We then add an iframe and apply a 30 degree rotation around the Z and Y axis.
          src="http://www.html5rocks.com/"
          style="-webkit-transform: rotate3d(0, 1, 1, 30deg)"></iframe>
 
-*A 3D 30 degree rotation* ![3dperspectivetransp.gif](/assets/public/7/76/3dperspectivetransp.gif)
+*A 3D 30 degree rotation* ![3dperspectivetransp.gif](//static.webplatform.org/7/76/3dperspectivetransp.gif)
 
 BAM! That is it, the element is fully interactive, and in all respects it is a fully fledged DOM element (except that it now looks even cooler). You can see a live demo in [this HTML5Rocks! article](http://www.html5rocks.com/en/tutorials/3d/css/).
 

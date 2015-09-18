@@ -27,7 +27,7 @@ This article covers the CSS layout model in some detail, including box model, bo
 </p><p>Careful control of whitespace is among a designer's most important tools — and in the opinion of this author, the single most important. However, the degree of control over whitespace that brings high production values to a site design is absent from default browser stylesheets, which means that stylists typically make frequent use of the margin, border, padding, and other CSS layout properties explained in this article.
 </p><p>Margins, borders, and padding are arranged as shown in Figure 1.
 </p><p>
-<img alt="how css layout works with margin outside the box and padding inside the box" src="/assets/public/4/44/layout_fig1.png" width="574" height="450"/></p><p><i>Figure 1: An explicit illustration of the various parts of an element box, labeled with associated CSS properties.</i>
+<img alt="how css layout works with margin outside the box and padding inside the box" src="//static.webplatform.org/4/44/layout_fig1.png" width="574" height="450"/></p><p><i>Figure 1: An explicit illustration of the various parts of an element box, labeled with associated CSS properties.</i>
 </p>
 <h3>Putting whitespace around an object: the margin-top, margin-right, margin-bottom, margin-left, and margin properties</h3>
 <p>Margins can be specified singly, or in a shorthand rule. Furthermore, the shorthand rule still allows control of individual borders around an object. Valid values are usually specified in <code>px</code> or <code>em</code> units (pixels or ems). On print-specific stylesheets <code>in</code>, <code>cm</code>, or <code>pt</code> units might be used instead (inches, centimeters or points).
@@ -82,7 +82,7 @@ When styled with the following CSS
 <p><br/> 
 It creates the output shown in Figure 2:
 </p><p>
-<img alt="Two elements with no negative margins applied" src="/assets/public/b/b3/layout_fig2.jpg" width="319" height="118"/></p><p><i>Figure 2: The two elements from our simple example. Nothing special to see here.</i>
+<img alt="Two elements with no negative margins applied" src="//static.webplatform.org/b/b3/layout_fig2.jpg" width="319" height="118"/></p><p><i>Figure 2: The two elements from our simple example. Nothing special to see here.</i>
 </p><p>Here comes the interesting part. Now we'll add a fairly sizeable negative margin to the top of the bottom element, using the following rule:
 </p><p><br/></p>
 <pre class="css">
@@ -94,7 +94,7 @@ It creates the output shown in Figure 2:
 <p><br/> 
 This gives us the visual effect of shifting the element up so it overlaps with the heading, as shown in Figure 3.
 </p><p>
-<img alt="Two elements with negative margins applied" src="/assets/public/6/65/layout_fig3.jpg" width="319" height="119"/></p><p><i>Figure 3: With a negative margin applied, the bottom element shifts upward and overlaps the heading.</i>
+<img alt="Two elements with negative margins applied" src="//static.webplatform.org/6/65/layout_fig3.jpg" width="319" height="119"/></p><p><i>Figure 3: With a negative margin applied, the bottom element shifts upward and overlaps the heading.</i>
 </p>
 <h4>Collapsing margins</h4>
 <p>In cases where two similar and adjacent block elements share margins that are greater than zero, only the larger of the two margins will be applied. For example, take the following rule:
@@ -158,7 +158,7 @@ td {
 <p><br/></p>
 <h4>The border-style properties</h4>
 <p>
-<img alt="eight different values for border style in CSS" src="/assets/public/7/71/figure40.png" width="224" height="483"/></p><p><i>Figure 4: the eight common border styles in action.</i>
+<img alt="eight different values for border style in CSS" src="//static.webplatform.org/7/71/figure40.png" width="224" height="483"/></p><p><i>Figure 4: the eight common border styles in action.</i>
 </p><p>The <code>border-style</code> properties commonly accept any of the following values:
 </p>
 <ul><li><code>dashed</code> The length of dashes, and the amount of whitespace between them, is determined by the browser. </li>
@@ -262,7 +262,7 @@ h1 { padding: .5em 0 .5em 0; }
 <p>When an element's <code>width</code> or <code>height</code> are set, it's sometimes necessary to consider what results are desired in the event that the contents of that element take up more space than is strictly available. This is especially true on sites with both user generated content and strict layout specifications.
 </p><p>The <code>overflow</code> property and its four valid values — <code>visible</code>, <code>hidden</code>, <code>auto</code>, and <code>scroll</code> — are provided to handle such circumstances. Figure 5 illustrates the effect they have when applied to an element whose content spills out of its bounding box.
 </p><p>
-<img alt="the effects of the CSS overflow property" src="/assets/public/0/02/figure50.png" width="327" height="823"/></p><p><i>Figure 5: The effects of the CSS overflow property.</i>
+<img alt="the effects of the CSS overflow property" src="//static.webplatform.org/0/02/figure50.png" width="327" height="823"/></p><p><i>Figure 5: The effects of the CSS overflow property.</i>
 </p>
 <h4>The results of the four overflow values</h4>
 <ul><li><code>visible</code> <b>(default)</b> Contents beyond the available dimensions of an element are displayed <i>without</i> affecting the flow or margins of adjacent elements. Consequently, content of one element may appear to <i>collide</i> with the content of its neighbours. Techniques for avoiding this outcome and special cases caused by rendering issues in IE are discussed in other articles. </li>
@@ -540,7 +540,7 @@ As discussed during the explanation of margin properties above, one can expect <
 </pre>
 <p><br/></p>
 <h3>Causing elements to flow around others: the float property</h3>
-<div class="floatleft"><img alt="a cat with bacon taped to his back" src="/assets/public/4/4e/box_baco.jpg" width="240" height="158"/></div> 
+<div class="floatleft"><img alt="a cat with bacon taped to his back" src="//static.webplatform.org/4/4e/box_baco.jpg" width="240" height="158"/></div> 
 <p>A photo is positioned to the left of this paragraph. Practically all of you will see that the following copy flows naturally <i>around</i> it, though some might need first to cease wondering why a well-known science fiction novelist would tape bacon to his cat—even if he was having a slow day. HTML attributes can be used to specify the layout behaviour you see, but in this instance the results were accomplished with CSS.
 </p><p>As one can imagine, the property/value pair that works this magic is <code>float: left;</code>. The finer points of working with floats will be addressed in later articles, but it's necessary to touch on the basics here. <code>float: right</code> is also a perfectly serviceable property/value pair, and for those occasions when you need to contradict a <code>class</code> assignment that invokes <code>float</code>, you can specify <code>float: none</code>.
 </p><p>The <code>float</code> property <i>does</i> come with a few use instructions:
@@ -562,11 +562,11 @@ background-color: rgb(204,204,204); }
 </p><p>While the <code>float</code> property directs how the content of subsequent elements should flow around it, the <code>clear</code> property directs how an element should flow around all of its neighbours—in many practical cases, not at all.
 </p><p>Figure 6 illustrates the behaviour of <code>clear: left;</code> in a layout where two initial consecutive elements have been assigned identical <code>height</code> values, and <code>float</code> values of <code>left</code> and <code>right</code>:
 </p><p>
-<img alt="clear left allows the bottom box to clear both columns as they are the same height" src="/assets/public/e/e6/figure60.png" width="545" height="434"/></p><p>Figure 6: <code>clear:left </code> allows the bottom box to clear both columns, as they are the same height.
+<img alt="clear left allows the bottom box to clear both columns as they are the same height" src="//static.webplatform.org/e/e6/figure60.png" width="545" height="434"/></p><p>Figure 6: <code>clear:left </code> allows the bottom box to clear both columns, as they are the same height.
 </p><p>In the preceding demonstration, the <i>default</i> flow of <code>#cLeftWidget</code> would place it just below the Latin text — that is, <i>between</i> <code>#fLeftWidget</code> and <code>#fRightWidget</code>.
 </p><p>Consider what happens when the first of the same collection of elements is made shorter than its flush-right sibling, as seen in Figure 7.
 </p><p>
-<img alt="When the right column is longer than the left column clear left will not clear both columns and so clear both must be used instead" src="/assets/public/6/61/figure70.png" width="542" height="369"/></p><p><i>Figure 7: When the right column is longer than the left column, <code>clear:left </code> will not clear both columns and so <code>clear:both </code> must be used instead.</i>
+<img alt="When the right column is longer than the left column clear left will not clear both columns and so clear both must be used instead" src="//static.webplatform.org/6/61/figure70.png" width="542" height="369"/></p><p><i>Figure 7: When the right column is longer than the left column, <code>clear:left </code> will not clear both columns and so <code>clear:both </code> must be used instead.</i>
 </p><p>In the first example, the <code>clear</code> value of the trailing element is set to <code>left</code> in order to make a point: because both of the <code>float</code>ed elements are the same height, the <code>clear</code>ed element will be pushed below both. However, the second example proves that in order to achieve the same result with <code>float</code>ed elements of differing heights, <code>clear: both;</code> must be used.
 </p><p>This discussion of the <code>clear</code> property is intended as a simple introduction to its effects, while later articles discuss the finer points of technique associated with its use.
 </p>

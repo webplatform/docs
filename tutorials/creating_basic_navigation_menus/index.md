@@ -162,7 +162,7 @@ It is up to you how many items you put into a menu — different designs call fo
 
 Contextual menus are links that build on the content of the current document and offer more information related to the current page you are on. A classic example is the "Related articles" links you often see at the bottom of news articles, as shown in Figure 1.
 
-![Screenshot of a contexual menu, in this case related news items](/assets/public/1/16/menus-fi.png)
+![Screenshot of a contexual menu, in this case related news items](//static.webplatform.org/1/16/menus-fi.png)
 
 *Figure 1: An example of a contextual menu in a news article, offering related news items at the bottom.*
 
@@ -182,7 +182,7 @@ Pagination is necessary when you have to offer a way to navigate through large d
 
 Pagination is different from other types of navigation because it does normally link back to the same document, but results in more options or further information being displayed. Some examples of pagination are shown in Figure 2:
 
-![Different types of pagination menus](/assets/public/0/00/menus-fj.png)
+![Different types of pagination menus](//static.webplatform.org/0/00/menus-fj.png)
 
 *Figure 2: Pagination menus allow visitors to go through large sets of data without losing track of where they are.*
 
@@ -198,7 +198,7 @@ In most cases an ordered or unordered list is a sufficient HTML construct for me
 
 One technique is to use a client-side *image map*. Image maps turn an image into a menu by turning sections of the images into interactive areas that you can link to different documents. For example, using an image map, a user could navigate by clicking the different sections of the triangle, as shown in Figure 3.
 
-![Screenshot of an image with hotspots](/assets/public/f/f8/menus-fk.png)
+![Screenshot of an image with hotspots](//static.webplatform.org/f/f8/menus-fk.png)
 
 *Figure 3: By defining a map with area elements you can turn parts of an image into interactive links.*
 
@@ -232,13 +232,13 @@ Another technique you can employ is to use a form control for navigation. For ex
 
 The most obvious benefit of using this type of menu is that you can offer many options without using much space on the screen, as browsers render the menu as one line as seen in Figure 4.
 
-![Screenshot of a menu created with a select box, open and closed](/assets/public/b/ba/menus-fl.png)
+![Screenshot of a menu created with a select box, open and closed](//static.webplatform.org/b/ba/menus-fl.png)
 
 *Figure 4: Select menus take up only one line on the screen.*
 
 You can go further with this, grouping the different menu options using the `<optgroup>` element. This will show a menu with non-selectable options (the group names) as shown in Figure 5:
 
-![Screenshot of a menu created with a select box, including option groups](/assets/public/3/38/menus-fm.png)
+![Screenshot of a menu created with a select box, including option groups](//static.webplatform.org/3/38/menus-fm.png)
 
 *Figure 5: Select menus can use option groups that allow you to tell visitors which options belong together.*
 

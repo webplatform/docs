@@ -1,7 +1,7 @@
 ---
 title: 'its-term'
 code_samples:
-  - 'http://gist.github.com/8404173'
+  - 'http://code.webplatform.org/gist/8404173'
 compatibility:
   feature: its-term
   topic: its
@@ -52,7 +52,7 @@ The its-term attribute can contain "yes" or "no" values. Defintion of the term c
 ```
 
 </pre>
-[View live example](http://gist.github.com/8404173)
+[View live example](http://code.webplatform.org/gist/8404173)
 
 ## Usage
 

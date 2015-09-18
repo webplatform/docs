@@ -3,7 +3,7 @@ title: 'overflow-y'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/6947763'
+  - 'http://code.webplatform.org/gist/6947763'
 compatibility:
   feature: overflow-y
   topic: css
@@ -99,7 +99,7 @@ Using `overflow-y` with its values.
 }
 ```
 
-[View live example](http://gist.github.com/6947763)
+[View live example](http://code.webplatform.org/gist/6947763)
 
 ## Usage
 

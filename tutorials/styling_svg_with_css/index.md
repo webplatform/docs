@@ -169,15 +169,15 @@ You can add SVG support to other versions by installing a plugin such as the one
 
 3.  Open `doc8.svg` in your SVG-enabled browser. Put your mouse pointer over the graphic and move it about the inner and outer petals to see the effect.
 
-![svgflower1.png](/assets/public/4/42/svgflower1.png)
+![svgflower1.png](//static.webplatform.org/4/42/svgflower1.png)
 
 *Figure 1. The SVG flower before mouseover.*
 
-![svgflower2.png](/assets/public/6/68/svgflower2.png)
+![svgflower2.png](//static.webplatform.org/6/68/svgflower2.png)
 
 *Figure 2. The SVG flower with mouseover on an outer petal.*
 
-![svgflower3.png](/assets/public/f/f7/svgflower3.png)
+![svgflower3.png](//static.webplatform.org/f/f7/svgflower3.png)
 
 *Figure 3. The SVG flower with mouseover on an inner petal.*
 

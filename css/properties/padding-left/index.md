@@ -3,8 +3,8 @@ title: 'padding-left'
 attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
 code_samples:
-  - 'http://gist.github.com/6948612'
-  - 'http://gist.github.com/6948619'
+  - 'http://code.webplatform.org/gist/6948612'
+  - 'http://code.webplatform.org/gist/6948619'
 compatibility:
   feature: padding-left
   topic: css
@@ -77,13 +77,13 @@ The following examples use the `padding-left` property to change the [padding](/
 td { padding-left: 20%; }
 ```
 
-[View live example](http://gist.github.com/6948612)
+[View live example](http://code.webplatform.org/gist/6948612)
 
 ``` css
 td { padding-left: 30px; }
 ```
 
-[View live example](http://gist.github.com/6948619)
+[View live example](http://code.webplatform.org/gist/6948619)
 
 ## Related specifications
 

@@ -199,7 +199,7 @@ In large designs where speed is important, you can make your style sheets more e
 
 3.  Save the files and refresh your browser to see the result:
 
-![usingclassandid result.jpg](/assets/public/2/22/usingclassandid_result.jpg)
+![usingclassandid result.jpg](//static.webplatform.org/2/22/usingclassandid_result.jpg)
 
 You can try rearranging the lines in your CSS file to show that the order has no effect. The class selectors `.carrot` and `.spinach` have priority over the tag selector `strong`. The ID selector `#first` has priority over the class and tag selectors.
 
@@ -248,7 +248,7 @@ You can try rearranging the lines in your CSS file to show that the order has no
 
 3.  Save the files and refresh your browser to see the result (hover the mouse over the link to see the effect):
 
-    ![pseudoclassselector result.jpg](/assets/public/8/84/pseudoclassselector_result.jpg)
+    ![pseudoclassselector result.jpg](//static.webplatform.org/8/84/pseudoclassselector_result.jpg)
 
     The link turns to dark grey.
 

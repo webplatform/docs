@@ -1,7 +1,7 @@
 ---
 title: 'dl – description list'
 code_samples:
-  - 'http://gist.github.com/5821157'
+  - 'http://code.webplatform.org/gist/5821157'
 compatibility:
   feature: dl
   topic: html
@@ -94,7 +94,7 @@ This example shows a simple definition list with two item/description pairs.
 </dl>
 ```
 
-[View live example](http://gist.github.com/5821157)
+[View live example](http://code.webplatform.org/gist/5821157)
 
 This example shows a definition list with a single item but multiple descriptions for that item.
 
@@ -107,7 +107,7 @@ This example shows a definition list with a single item but multiple description
 </dl>
 ```
 
-[View live example](http://gist.github.com/5821157)
+[View live example](http://code.webplatform.org/gist/5821157)
 
 This example shows a definition list with a single description and multiple items fitting that description.
 
@@ -120,7 +120,7 @@ This example shows a definition list with a single description and multiple item
 </dl>
 ```
 
-[View live example](http://gist.github.com/5821157)
+[View live example](http://code.webplatform.org/gist/5821157)
 
 Typical browser default CSS properties for the **dl** element.
 

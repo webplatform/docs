@@ -1,7 +1,7 @@
 ---
 title: 'clip-rule'
 code_samples:
-  - 'http://gist.github.com/7037715'
+  - 'http://code.webplatform.org/gist/7037715'
 compatibility:
   feature: clip-rule
   topic: css
@@ -133,7 +133,7 @@ This example uses the SVG `clip-rule` property to show the difference in values 
 </svg>
 ```
 
-[View live example](http://gist.github.com/7037715)
+[View live example](http://code.webplatform.org/gist/7037715)
 
 ## Usage
 

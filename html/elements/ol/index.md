@@ -3,8 +3,8 @@ title: 'ol – ordered list'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/eb2b4134dc595b6dbf17'
-  - 'http://gist.github.com/3386252885e8db151a1f'
+  - 'http://code.webplatform.org/gist/eb2b4134dc595b6dbf17'
+  - 'http://code.webplatform.org/gist/3386252885e8db151a1f'
 compatibility:
   feature: ol
   topic: html
@@ -86,7 +86,7 @@ This example uses the **ol** element to create a numbered list.
 </ol>
 ```
 
-[View live example](http://gist.github.com/eb2b4134dc595b6dbf17)
+[View live example](http://code.webplatform.org/gist/eb2b4134dc595b6dbf17)
 
 The **ol** element with the **type** attribute set to **a**.
 
@@ -97,7 +97,7 @@ The **ol** element with the **type** attribute set to **a**.
 </ol>
 ```
 
-[View live example](http://gist.github.com/3386252885e8db151a1f)
+[View live example](http://code.webplatform.org/gist/3386252885e8db151a1f)
 
 Typical browser default CSS properties for the **ol** element.
 

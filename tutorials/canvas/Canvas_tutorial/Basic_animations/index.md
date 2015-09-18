@@ -50,7 +50,7 @@ In the examples below I'm using the first method to control the animation. At th
 
 In this example I'm going to animate a mini simulation of our solar system.
 
-![A dark universe with a planet orbiting around a sun](/assets/public/e/ea/Canvas_animation1.png)
+![A dark universe with a planet orbiting around a sun](//static.webplatform.org/e/ea/Canvas_animation1.png)
 
     var sun = new Image();
     var moon = new Image();
@@ -98,7 +98,7 @@ In this example I'm going to animate a mini simulation of our solar system.
 
 #### An animation example 2
 
-![An analog clock with hour, minute, and second hands](/assets/public/a/a3/Canvas_animation2.png)
+![An analog clock with hour, minute, and second hands](//static.webplatform.org/a/a3/Canvas_animation2.png)
 
     function init(){
       clock();

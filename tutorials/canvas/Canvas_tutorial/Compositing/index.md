@@ -38,40 +38,40 @@ We can not only draw new shapes behind existing shapes but we can also use it to
 <tbody>
 <tr class="odd">
 <td align="left"><p><strong>source-over</strong> (default)<br /> This is the default setting and draws new shapes on top of the existing canvas content.</p></td>
-<td align="left"><p><img src="/assets/public/7/70/Canvas_composite_srcovr.png" alt="Canvas with a red circle over a blue square" /></p></td>
+<td align="left"><p><img src="//static.webplatform.org/7/70/Canvas_composite_srcovr.png" alt="Canvas with a red circle over a blue square" /></p></td>
 <td align="left"><p><strong>destination-over</strong><br /> New shapes are drawn behind the existing canvas content.</p></td>
-<td align="left"><p><img src="/assets/public/9/93/Canvas_composite_destovr.png" alt="Canvas with a blue square in front of a red circle" /></p></td>
+<td align="left"><p><img src="//static.webplatform.org/9/93/Canvas_composite_destovr.png" alt="Canvas with a blue square in front of a red circle" /></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p><strong>source-in</strong><br /> The new shape is drawn only where both the new shape and the destination canvas overlap. Everything else is made transparent</p></td>
-<td align="left"><p><img src="/assets/public/3/3d/Canvas_composite_srcin.png" alt="Canvas showing only the northwest quadrant of a red circle" /></p></td>
+<td align="left"><p><img src="//static.webplatform.org/3/3d/Canvas_composite_srcin.png" alt="Canvas showing only the northwest quadrant of a red circle" /></p></td>
 <td align="left"><p><strong>destination-in</strong><br /> The existing canvas content is kept where both the new shape and existing canvas content overlap. Everything else is made transparent.</p></td>
-<td align="left"><p><img src="/assets/public/c/c1/Canvas_composite_destin.png" alt="Canvas showing only the northwest quadrant of a blue circle" /></p></td>
+<td align="left"><p><img src="//static.webplatform.org/c/c1/Canvas_composite_destin.png" alt="Canvas showing only the northwest quadrant of a blue circle" /></p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p><strong>source-out</strong><br /> The new shape is drawn where it doesn't overlap the existing canvas content.</p></td>
-<td align="left"><p><img src="/assets/public/6/60/Canvas_composite_srcout.png" alt="Canvas with a red circle that has a white square blocking out the northwest section of the circle" /></p></td>
+<td align="left"><p><img src="//static.webplatform.org/6/60/Canvas_composite_srcout.png" alt="Canvas with a red circle that has a white square blocking out the northwest section of the circle" /></p></td>
 <td align="left"><p><strong>destination-out</strong><br /> The existing content is kept where it doesn't overlap the new shape.</p></td>
-<td align="left"><p><img src="/assets/public/5/54/Canvas_composite_destout.png" alt="Canvas with a blue square that has a semicircle of white in the southwest corner" /></p></td>
+<td align="left"><p><img src="//static.webplatform.org/5/54/Canvas_composite_destout.png" alt="Canvas with a blue square that has a semicircle of white in the southwest corner" /></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p><strong>source-atop</strong><br /> The new shape is only drawn where it overlaps the existing canvas content.</p></td>
-<td align="left"><p><img src="/assets/public/2/2b/Canvas_composite_srcatop.png" alt="Canvas with a blue square that has a red circle overlapping the southwest quadrant of the square" /></p></td>
+<td align="left"><p><img src="//static.webplatform.org/2/2b/Canvas_composite_srcatop.png" alt="Canvas with a blue square that has a red circle overlapping the southwest quadrant of the square" /></p></td>
 <td align="left"><p><strong>destination-atop</strong><br /> The existing canvas is only kept where it overlaps the new shape. The new shape is drawn behind the canvas content.</p></td>
-<td align="left"><p><img src="/assets/public/c/ca/Canvas_composite_destatop.png" alt="Canvas with a red circle that has a blue square over the northwest quadrant" /></p></td>
+<td align="left"><p><img src="//static.webplatform.org/c/ca/Canvas_composite_destatop.png" alt="Canvas with a red circle that has a blue square over the northwest quadrant" /></p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p><strong>lighter</strong><br /> Where both shapes overlap the color is determined by adding color values.</p></td>
-<td align="left"><p><img src="/assets/public/f/f2/Canvas_composite_lighten.png" alt="Canvas with an overlapping blue square and red circle. Where the shapes overlap, the color is light pink." /></p></td>
+<td align="left"><p><img src="//static.webplatform.org/f/f2/Canvas_composite_lighten.png" alt="Canvas with an overlapping blue square and red circle. Where the shapes overlap, the color is light pink." /></p></td>
 <td align="left"><p><strong>darker</strong> <span class="unimplementedInline">Unimplemented</span><br /> Where both shapes overlap the color is determined by subtracting color values.</p>
 <p>This value is supported until (Firefox 3.6 / Thunderbird 3.1 / Fennec 1.0). Support has been removed from later versions (due to removal from the canvas specification).</p></td>
-<td align="left"><p><img src="/assets/public/1/18/Canvas_composite_darken.png" alt="Canvas with an overlapping blue square and red circle. Where the shapes overlap, the color is very dark brown" /></p></td>
+<td align="left"><p><img src="//static.webplatform.org/1/18/Canvas_composite_darken.png" alt="Canvas with an overlapping blue square and red circle. Where the shapes overlap, the color is very dark brown" /></p></td>
 </tr>
 <tr class="even">
 <td align="left"><p><strong>xor</strong><br /> Shapes are made transparent where both overlap and drawn normal everywhere else.</p></td>
-<td align="left"><p><img src="/assets/public/a/a1/Canvas_composite_xor.png" alt="Canvas with an overlapping blue square and red circle. Where the shapes overlap, the color is transparent, showing the white canvas behind." /></p></td>
+<td align="left"><p><img src="//static.webplatform.org/a/a1/Canvas_composite_xor.png" alt="Canvas with an overlapping blue square and red circle. Where the shapes overlap, the color is transparent, showing the white canvas behind." /></p></td>
 <td align="left"><p><strong>copy</strong><br /> Only draws the new shape and removes everything else.</p></td>
-<td align="left"><p><img src="/assets/public/1/15/Canvas_composite_copy.png" alt="A red circle on a white canvas" /></p></td>
+<td align="left"><p><img src="//static.webplatform.org/1/15/Canvas_composite_copy.png" alt="A red circle on a white canvas" /></p></td>
 </tr>
 </tbody>
 </table>
@@ -80,7 +80,7 @@ We can not only draw new shapes behind existing shapes but we can also use it to
 
 ## Clipping paths
 
-![Canvas with a checkered image and a star-shaped clipping path](/assets/public/7/77/Canvas_clipping_path.png)
+![Canvas with a checkered image and a star-shaped clipping path](//static.webplatform.org/7/77/Canvas_clipping_path.png)
 
 A clipping path is like a normal canvas shape but it acts as a mask to hide unwanted parts of shapes. This is visualized in the image on the right. The red star shape is our clipping path. Everything that falls outside of this path won't get drawn on the canvas.
 
@@ -94,7 +94,7 @@ We use the `clip` method to create a new clipping path. By default the canvas el
 
 #### A `clip` example
 
-![Canvas with an image of stars and a circular clipping shape](/assets/public/d/d4/Canvas_clip.png)
+![Canvas with an image of stars and a circular clipping shape](//static.webplatform.org/d/d4/Canvas_clip.png)
 
 In this example I'll be using a circular clipping path to restrict the drawing of a set of random stars to a particular region.
 

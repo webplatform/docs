@@ -1,7 +1,7 @@
 ---
 title: 'HTMLVideoElement'
 code_samples:
-  - 'http://gist.github.com/7281780'
+  - 'http://code.webplatform.org/gist/7281780'
 notes:
   - 'overview, compatibility'
 readiness: 'In Progress'
@@ -155,7 +155,7 @@ A simple example of showing a video
 </video>
 ```
 
-[View live example](http://gist.github.com/7281780)
+[View live example](http://code.webplatform.org/gist/7281780)
 
 ## Usage
 

@@ -3,7 +3,7 @@ title: 'title'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/3fe2120a26327b9b9b8e'
+  - 'http://code.webplatform.org/gist/3fe2120a26327b9b9b8e'
 compatibility:
   feature: title
   topic: svg
@@ -49,7 +49,7 @@ In the following code example, a title element is provided for an ellipse. When 
 ```
 
 </pre>
-[View live example](http://gist.github.com/3fe2120a26327b9b9b8e)
+[View live example](http://code.webplatform.org/gist/3fe2120a26327b9b9b8e)
 
 ## Notes
 

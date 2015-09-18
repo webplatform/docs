@@ -3,7 +3,7 @@ title: 'table layout'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/7044174'
+  - 'http://code.webplatform.org/gist/7044174'
 compatibility:
   feature: table-layout
   topic: css
@@ -110,7 +110,7 @@ This example shows table-layout 'auto' and 'fixed'. With 'auto', the column stre
 </table>
 ```
 
-[View live example](http://gist.github.com/7044174)
+[View live example](http://code.webplatform.org/gist/7044174)
 
 Here's the CSS for styling the table, above.
 
@@ -152,7 +152,7 @@ td p {
 }
 ```
 
-[View live example](http://gist.github.com/7044174)
+[View live example](http://code.webplatform.org/gist/7044174)
 
 ## Notes
 

@@ -3,7 +3,7 @@ title: 'min-height'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5842440'
+  - 'http://code.webplatform.org/gist/5842440'
 compatibility:
   feature: min-height
   topic: css
@@ -137,7 +137,7 @@ min-height property overrides the height of an element.
 <div class="with-min-height"><p class="content">With Min Height. Content (with black border) may not fill entirety of element.</p></div>
 ```
 
-[View live example](http://gist.github.com/5842440)
+[View live example](http://code.webplatform.org/gist/5842440)
 
 ## Usage
 

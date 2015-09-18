@@ -49,7 +49,7 @@ First, review the different properties you can use.
 <td align="left">Sets the background color of the HTML element.</td>
 <td align="left"><p>There are several ways to indicate <code>background-color</code>, including RGB values and keywords. Most people use hexadecimal notation, a pound/hash symbol (#) followed by six characters. The first pair indicates the red levels, and the second and third indicate the green and blue levels respectively—<code>#RRGGBB</code>.</p>
 <p>Many color picker tools will help you find the hexadecimal notation of a given color. Pure red, for example would be #FF0000.</p>
-<p><img src="/assets/public/f/fb/color_pi.jpg" alt="Photoshop color picker displays the hex value of your color" /></p>
+<p><img src="//static.webplatform.org/f/fb/color_pi.jpg" alt="Photoshop color picker displays the hex value of your color" /></p>
 <p>Valid values include a <code>colour</code> value, <code>transparent</code>, or <code>inherit</code>.</p></td>
 </tr>
 <tr class="even">
@@ -107,13 +107,13 @@ Imagine a graphic designer has provided a visual mock-up of the alert message yo
 
 Note that the mockup has one line of text, but it might contain more in the future. One of the most important skills of the web developer is to anticipate how a design will evolve. Part of respecting the artistic vision for a site is thinking about consistency from launch to redesign. So the alert message could contain more than one line of text, or even multiple paragraphs, lists, or other HTML elements. Strive to be as element agnostic as possible. This will increase the likelihood of code reuse, and will enable you to set up the site to be as fast and efficient as it can be. The mockup looks like Figure 1.
 
-![Final mock up](/assets/public/a/a1/alert_fi.jpg)
+![Final mock up](//static.webplatform.org/a/a1/alert_fi.jpg)
 
 Figure 1: The graphic designer’s mockup of the alert box.
 
 The designer has also provided the icon we are meant to use, as shown in Figure 2.
 
-![Alert icon](/assets/public/9/9c/alert000.png)
+![Alert icon](//static.webplatform.org/9/9c/alert000.png)
 
 Figure 2: The alert icon.
 
@@ -161,7 +161,7 @@ As shown below, you can add the light orange background color to the alert box t
 
  The alert box now looks similar to Figure 3.
 
-![Code](/assets/public/8/86/2_color0.gif)
+![Code](//static.webplatform.org/8/86/2_color0.gif)
 
 Figure 3: An alert box with background color added.
 
@@ -180,7 +180,7 @@ Next, you can add the background image to the alert. The path to the background 
 
  The alert box now looks like Figure 4.
 
-![Code with background image](/assets/public/d/de/3_image0.gif)
+![Code with background image](//static.webplatform.org/d/de/3_image0.gif)
 
 Figure 4: The background image has been added, but the tiling looks wrong.
 
@@ -188,7 +188,7 @@ Remember that each background property has a default value—if you have not spe
 
 #### Controlling background repeat
 
-![Repeat horizontally and vertically](/assets/public/d/d6/repeat00.jpg)
+![Repeat horizontally and vertically](//static.webplatform.org/d/d6/repeat00.jpg)
 
 Figure 5: Much like the background image, these tiles repeat both horizontally and vertically.
 
@@ -208,19 +208,19 @@ Note that there is a section for each background property including [background-
 
  The alert box now looks like Figure 6.
 
-![Code for Step 4 background repeat](/assets/public/5/5a/4_repeat.gif)
+![Code for Step 4 background repeat](//static.webplatform.org/5/5a/4_repeat.gif)
 
 Figure 6: The alert box, with a single copy of the background image (with no tiling).
 
 Additionally, you can choose to repeat in both directions (like kitchen tiles) or in either direction. Gradients often repeat horizontally or vertically (see Figure 7). You do not need to know the size of the HTML element; you simply cut a slice from your gradient and set it to repeat in the direction you want; either x for horizontal, or y for vertical. Patterns often repeat in both directions and icons usually do not repeat. You will explore `background-repeat` further in a later example.
 
-![repeat-x example](/assets/public/1/1e/repeat-x.jpg)
+![repeat-x example](//static.webplatform.org/1/1e/repeat-x.jpg)
 
 Figure 7: The greenish yellow tiles in this example repeat only horizontally.
 
 Next, take a look at a practical example from my website. Review Figure 8.
 
-![A tiny image is tiled horizontally to create a three color design across the top of my website.](/assets/public/7/7a/site_bac.jpg)
+![A tiny image is tiled horizontally to create a three color design across the top of my website.](//static.webplatform.org/7/7a/site_bac.jpg)
 
 Figure 8: A repeating example from my website.
 
@@ -254,7 +254,7 @@ This step will have no effect on our display, because browsers set background im
 
  As shown in Figure 9, the visual display of the alert box is not much different than it was before.
 
-![Code for background attachment](/assets/public/3/38/5_attach.gif)
+![Code for background attachment](//static.webplatform.org/3/38/5_attach.gif)
 
 Figure 9: The display has not changed.
 
@@ -264,7 +264,7 @@ Positioning is the fine tuning that enables you to place background images exact
 
 Figure 10 shows the values you might use to place your background images in different positions.
 
-![Examples of possible background positions](/assets/public/d/da/backgrou.gif)
+![Examples of possible background positions](//static.webplatform.org/d/da/backgrou.gif)
 
 Figure 10: Various examples of background position using keywords, percentages, and pixels.
 
@@ -284,7 +284,7 @@ The code below positions the background image. The goal is to position it in the
 
  The first value is the horizontal offset, the second is the vertical. In this case the values are the same. After making these changes, your alert box should look like Figure 11.
 
-![Code with background position](/assets/public/f/f1/6_positi.gif)
+![Code with background position](//static.webplatform.org/f/f1/6_positi.gif)
 
 Figure 11: Using CSS positioning to set the location of the background image.
 
@@ -312,7 +312,7 @@ As you have learned, certain CSS properties can be grouped together. Background 
 
 Try replacing the old CSS code in your document with the shorthand shown above. After updating it, the example should look exactly the same (see Figure 12).
 
-![Finished product](/assets/public/e/e3/7_finish.gif)
+![Finished product](//static.webplatform.org/e/e3/7_finish.gif)
 
 Figure 12: The shorthand works like a charm!
 
@@ -340,7 +340,7 @@ To get around this limitation, you can combine related icons into a single image
 
 In Figure 13, notice that to display the earth icon through the HTML window, you can place the image using `left top`. To move the position of the image so the alert icon is displayed, the background position needs to be changed to `-80px 0`. The negative horizontal value pulls the image to the left.
 
-![Only the part of the background image which is inside the HTML element is visible](/assets/public/7/7a/sprite_6.gif)
+![Only the part of the background image which is inside the HTML element is visible](//static.webplatform.org/7/7a/sprite_6.gif)
 
 Figure 13: Use CSS Sprites to reduce HTTP requests.
 
@@ -350,7 +350,7 @@ Note: If you set negative background positions, Safari will repeat your image, e
 
 Next, take a look at how you can leverage CSS sprites. Suppose a friendly designer sent us an new mockup. This one illustrates a list of links on the landing page of a blog. It points to the bloggers’ LinkedIn profile, RSS feed, Flickr photos, and bookmarks. As you evaluate each link, notice that there is a gradient starting in the center as white and transitioning to gray at the top and bottom of the link. And to further complicate things, the designer asked if we could make each link plain white with no curve when visitors hover over the link, as shown in Figure 14.
 
-![List mockup](/assets/public/b/b5/List0000.gif)
+![List mockup](//static.webplatform.org/b/b5/List0000.gif)
 
 Figure 14: The new design mockup.
 
@@ -360,13 +360,13 @@ The logos could be included using `img` elements in the markup. However, using C
 
 The first step involves cutting out the four logos and creating the sprite set, as shown in Figure 15.
 
-![Logos sprite](/assets/public/4/4b/sprite_l.gif)
+![Logos sprite](//static.webplatform.org/4/4b/sprite_l.gif)
 
 Figure 15: The sprite set.
 
 You also need to cut out a 1 pixel wide slice of the gradient. For the sake of visibility, I have cut out a slightly larger slice, but in a real-world site project you only need a one pixel image (see Figure 16).
 
-![Gradient background](/assets/public/6/66/sprite_g.jpg)
+![Gradient background](//static.webplatform.org/6/66/sprite_g.jpg)
 
 Figure 16: The slice used for the gradient background.
 
@@ -494,7 +494,7 @@ hoffmant99 made minor changes to make sprite example work, though the student(re
 
 -   Say you wanted each `h2` in your document with a `class` of "question" to have a gradient pattern applied. Would you use `repeat-x`, `repeat-y`, `no-repeat`, or `repeat` to achieve something similar to the example below? Why?
 
-![logos sprite](/assets/public/2/24/exercise_example.gif)
+![logos sprite](//static.webplatform.org/2/24/exercise_example.gif)
 
 -   What would be the background position of the example in question number 3? How could you creatively use a background colour to be sure the background could expand to any height? Why is this important?
 -   What shorthand can you use to remove all background properties?

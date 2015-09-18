@@ -3,7 +3,7 @@ title: 'column-fill'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh772197(v=vs.85).aspx)'
 code_samples:
-  - 'http://gist.github.com/6393571'
+  - 'http://code.webplatform.org/gist/6393571'
 compatibility:
   feature: column-fill
   topic: css
@@ -83,7 +83,7 @@ with column-fill: balance;
 }
 ```
 
-[View live example](http://gist.github.com/6393571)
+[View live example](http://code.webplatform.org/gist/6393571)
 
 ## Notes
 

@@ -3,7 +3,7 @@ title: 'perspective-origin'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
 code_samples:
-  - 'http://gist.github.com/7033692'
+  - 'http://code.webplatform.org/gist/7033692'
 compatibility:
   feature: perspective-origin
   topic: css
@@ -118,7 +118,7 @@ In this example, the object class is a container, and the viewer class its child
 }
 ```
 
-[View live example](http://gist.github.com/7033692)
+[View live example](http://code.webplatform.org/gist/7033692)
 
 ## Usage
 

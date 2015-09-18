@@ -34,11 +34,11 @@ There are a couple of things that we need to make sure we understand before we c
 
 The easiest way to answer the first question is to take your device and put it on flat, level surface in its “resting” position, the position it will be most stable in. For a mobile phone, that’s probably on the table, with the screen facing up and the the bottom of the phone closest to you. For a laptop, that's probably on a deck with its screen open facing you, and the keyboard in line with the surface.
 
-*Phone is in its normal position, on a flat on surface, with the screen facing up and the bottom of the phone closest to you. The x, y, and z values increase as you move to the right, forward, or up, respectively* ![up01.png](/assets/public/9/9d/up01.png)
+*Phone is in its normal position, on a flat on surface, with the screen facing up and the bottom of the phone closest to you. The x, y, and z values increase as you move to the right, forward, or up, respectively* ![up01.png](//static.webplatform.org/9/9d/up01.png)
 
 Acceleration data is returned as a coordinate frame with three axes, x, y, and z. The x-axis runs side-to-side across the mobile phone screen or the laptop keyboard and is positive toward the right side. The y-axis runs front-to-back across the mobile phone screen or the laptop keyboard and is positive as it moves away from you. The z-axis comes straight up out of the mobile phone screen or the laptop keyboard and is positive as it moves up.
 
-*The phone is rotated on the y-axis by gamma degrees* ![up02.png](/assets/public/9/9f/up02.png)
+*The phone is rotated on the y-axis by gamma degrees* ![up02.png](//static.webplatform.org/9/9f/up02.png)
 
 The rotation data uses Euler angles to represent the difference between the device in its normal position and its current position. With the HTML5 device orientation events, the data is returned as the number of degrees different from normal. An easier way to think about it is how much the device is tilted side-to-side, usually referred to as beta, how much it is tilted front-to-back, known as gamma, and how much it is rotated around the z-axis, known as alpha.
 
@@ -53,16 +53,16 @@ The device orientation event returns only the rotation data, which includes how 
 Let’s see some examples:
 
 *You’re looking north, while the device is on a flat surface, facing north*
-`{evt.alpha: 0, evt.beta: 0, evt.gamma: 0}` ![up03.jpg](/assets/public/5/5b/up03.jpg)
+`{evt.alpha: 0, evt.beta: 0, evt.gamma: 0}` ![up03.jpg](//static.webplatform.org/5/5b/up03.jpg)
 
 *You’re looking north, while the device is on a flat surface, pointed south*
-`{evt.alpha: 180, evt.beta: 0, evt.gamma: 0}` ![up04.png](/assets/public/e/e9/up04.png)
+`{evt.alpha: 180, evt.beta: 0, evt.gamma: 0}` ![up04.png](//static.webplatform.org/e/e9/up04.png)
 
 *The device is leaning to the right, facing north, but doesn’t have a compass*
-`{evt.alpha: null, evt.beta: 0, evt.gamma: 45}` ![up05.jpg](/assets/public/0/08/up05.jpg)
+`{evt.alpha: null, evt.beta: 0, evt.gamma: 45}` ![up05.jpg](//static.webplatform.org/0/08/up05.jpg)
 
 *The device is leaning toward the user, facing north*
-`{evt.alpha: 0, evt.beta: 45, evt.gamma: 0}` ![up06.jpg](/assets/public/0/09/up06.jpg)
+`{evt.alpha: 0, evt.beta: 45, evt.gamma: 0}` ![up06.jpg](//static.webplatform.org/0/09/up06.jpg)
 
 ### MozOrientation
 
@@ -227,7 +227,7 @@ We’ve already normalized our data, so we’ll display it in the table we creat
 
 ### The final product
 
-![up07.png](/assets/public/3/3b/up07.png)
+![up07.png](//static.webplatform.org/3/3b/up07.png)
 
 Try it out [here](http://www.html5rocks.com/en/tutorials/device/orientation/deviceorientationsample.html), and view the source to see it in action.
 
@@ -324,7 +324,7 @@ We want to display the raw data that we get back, but also convert that into som
 
 When you load the page and move the device around the bottom of the HTML5 logo should always point down, towards earth.
 
-![up08.jpg](/assets/public/0/00/up08.jpg)
+![up08.jpg](//static.webplatform.org/0/00/up08.jpg)
 
 Try it out [here](http://www.html5rocks.com/en/tutorials/device/orientation/devicemotionsample.html), and view the source to see it in action.
 

@@ -4,7 +4,7 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/font-style)'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5628297'
+  - 'http://code.webplatform.org/gist/5628297'
 compatibility:
   feature: font-style
   topic: css
@@ -91,13 +91,13 @@ p.italic { font-style: italic; }
 p.oblique { font-style: oblique; }
 ```
 
-[View live example](http://gist.github.com/5628297)
+[View live example](http://code.webplatform.org/gist/5628297)
 
 ## Usage
 
      According to the specs, 'oblique' is a sloped version of the regular font. The example shows that browsers actually use the 'italic' version for the 'oblique' variant as well. In the example, the bottom of a regular 'f' aligns with the bottom of the surrounding text. In the oblique line this should be the case as well, but instead it shows a cursive 'f' that extends below the surrounding letters--proving that the browser is using the italic version instead of oblique.
 
-![screenshot-font-style-example.png](/assets/public/e/ea/screenshot-font-style-example.png)
+![screenshot-font-style-example.png](//static.webplatform.org/e/ea/screenshot-font-style-example.png)
 
 ## Notes
 

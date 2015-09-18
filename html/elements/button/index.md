@@ -4,9 +4,9 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[\<button\> on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button) Article]'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/b08191a8d5915621a5e1'
-  - 'http://gist.github.com/ceb6531b1b86fb0b21d0'
-  - 'http://gist.github.com/c579515bcd4378bfd634'
+  - 'http://code.webplatform.org/gist/b08191a8d5915621a5e1'
+  - 'http://code.webplatform.org/gist/ceb6531b1b86fb0b21d0'
+  - 'http://code.webplatform.org/gist/c579515bcd4378bfd634'
 compatibility:
   feature: button
   topic: html
@@ -86,7 +86,7 @@ This examples uses the `<button>` element to display a clickable button with out
 <button name="myButton" type="button">Click me</button>
 ```
 
-[View live example](http://gist.github.com/b08191a8d5915621a5e1)
+[View live example](http://code.webplatform.org/gist/b08191a8d5915621a5e1)
 
 This example shows how to use a submit `<button>` to send a form. Read about the [**form**](/html/elements/form) element to get further information about how to use forms.
 
@@ -98,7 +98,7 @@ This example shows how to use a submit `<button>` to send a form. Read about the
 </form>
 ```
 
-[View live example](http://gist.github.com/ceb6531b1b86fb0b21d0)
+[View live example](http://code.webplatform.org/gist/ceb6531b1b86fb0b21d0)
 
 This example shows how to reset a form with use of `<button="reset">`. Read about the [**form**](/html/elements/form) element to get further information about how to use forms.
 
@@ -110,7 +110,7 @@ This example shows how to reset a form with use of `<button="reset">`. Read abou
 </form>
 ```
 
-[View live example](http://gist.github.com/c579515bcd4378bfd634)
+[View live example](http://code.webplatform.org/gist/c579515bcd4378bfd634)
 
 ## Usage
 

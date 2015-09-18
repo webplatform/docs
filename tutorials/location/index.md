@@ -41,11 +41,11 @@ Geolocation functions are exposed under the `geolocation` property of the global
 
 This will asynchronously fetch and pass the user's current location to the `callback_function`. The location is only provided via callback to the callback function. If user has not yet authorized your app, a permission info bar/dialog will be rendered to the user. Here's what it looks like:
 
-![location infobar.png](/assets/public/7/7e/location_infobar.png)
+![location infobar.png](//static.webplatform.org/7/7e/location_infobar.png)
 
-![iphone location warning.png](/assets/public/8/88/iphone_location_warning.png)
+![iphone location warning.png](//static.webplatform.org/8/88/iphone_location_warning.png)
 
-![android location warning.png](/assets/public/6/6f/android_location_warning.png)
+![android location warning.png](//static.webplatform.org/6/6f/android_location_warning.png)
 
 ### Success callback function
 

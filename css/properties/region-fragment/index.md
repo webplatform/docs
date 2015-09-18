@@ -89,7 +89,7 @@ break
 
      In the following example, 'region_1' can accommodate the article's gray text, 'region_2' can  accommodate the blue text, and the red  'overset' text does not fit within the region chain:
 
-![region fragment.png](/assets/public/4/44/region_fragment.png)
+![region fragment.png](//static.webplatform.org/4/44/region_fragment.png)
 
 Setting **region-fragment** to **break** suppresses display of the [overset](/css/concepts/overset) text, as shown in the example at the bottom. Setting **region-fragment** to its default **auto** value makes overset content display according to whatever [**overflow**](/css/properties/overflow) property is defined, as shown in the two examples on the right. Even **overflow:hidden** may display part of the first line of overset text.
 

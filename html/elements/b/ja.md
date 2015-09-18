@@ -1,8 +1,8 @@
 ---
 title: 'b'
 code_samples:
-  - 'http://gist.github.com/7281844'
-  - 'http://gist.github.com/321e5149c1e661e1de14'
+  - 'http://code.webplatform.org/gist/7281844'
+  - 'http://code.webplatform.org/gist/321e5149c1e661e1de14'
 compatibility:
   feature: ja
   topic: html
@@ -111,7 +111,7 @@ uri: html/elements/b/ja
 <b>ネズミ</b>は壁の隅をちょこまかと走って行きました。</p>
 ```
 
-[View live example](http://gist.github.com/7281844)
+[View live example](http://code.webplatform.org/gist/7281844)
 
 こちらの例では、**\<b\>**要素を使って社名と製品名を強調しています。CSSの曖昧さ回避のため、**class**属性を使用しています。
 
@@ -120,7 +120,7 @@ uri: html/elements/b/ja
 これは朝卵を焼くところから夜子供を寝かしつけるまで、あなたの生活を楽にする現代科学の奇跡です。</p>
 ```
 
-[View live example](http://gist.github.com/321e5149c1e661e1de14)
+[View live example](http://code.webplatform.org/gist/321e5149c1e661e1de14)
 
 ## Usage
 

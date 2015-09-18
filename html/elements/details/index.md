@@ -1,7 +1,7 @@
 ---
 title: 'details'
 code_samples:
-  - 'http://gist.github.com/37f1ab4ad9cfb23eaa3d'
+  - 'http://code.webplatform.org/gist/37f1ab4ad9cfb23eaa3d'
 compatibility:
   feature: details
   topic: html
@@ -47,7 +47,7 @@ The \<details\> tag is currently only supported in Chrome and in Safari on Mac.
 </details>
 ```
 
-[View live example](http://gist.github.com/37f1ab4ad9cfb23eaa3d)
+[View live example](http://code.webplatform.org/gist/37f1ab4ad9cfb23eaa3d)
 
 ## Related specifications
 

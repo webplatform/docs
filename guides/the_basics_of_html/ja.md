@@ -160,7 +160,7 @@ HTML は文書の内容とその意味をプレーンテキストで表すフォ
 
  Web ブラウザーでは以下のように表示されます。
 
-![HTMLrender.png](/assets/public/a/ab/HTMLrender.png)
+![HTMLrender.png](//static.webplatform.org/a/ab/HTMLrender.png)
 
 HTML 文書は、「文書型」もしくは「DOCTYPE 宣言」と呼ばれるものから始まります (詳しくは [Choosing the right doctype for your HTML documents](/w/index.php?title=Choosing_the_right_doctype_for_your_HTML_documents&action=edit&redlink=1) をお読みください) 。DOCTYPE 宣言は主に、"標準モード"と呼ばれるものでHTMLを正しくレンダリングするために役立ちます。またバリデーターは、どのHTMLのバージョンでコードを検証するかを知ることができます。現時点では、この意味が分からなくても心配ありません。おいおい解説していきます。この例では、HTML5のDOCTYPE宣言を見ることができます。
 
@@ -188,7 +188,7 @@ DOCTYPE 宣言の次にあるのが、`html` 要素の開始タグになりま�
 
  以下のように表示されます。
 
-![htmlrender2.png](/assets/public/7/71/htmlrender2.png)
+![htmlrender2.png](//static.webplatform.org/7/71/htmlrender2.png)
 
 この例では、`header` 要素 (文書のヘッダーをあらわす要素) が `h1` (最初、もしくは一番重要なレベルの見出し) 要素をもち、見出しとなるテキストが指定されています。テキストの中にはさらに、`abbr` 要素があり、その要素には `title` 属性が値 Hypertext Markup Language と共に指定されています。
 

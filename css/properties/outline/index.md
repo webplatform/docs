@@ -4,10 +4,10 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  0: 'http://gist.github.com/5546931'
-  2: 'http://gist.github.com/5546728'
-  3: 'http://gist.github.com/5547019'
-  5: 'http://gist.github.com/5547072'
+  0: 'http://code.webplatform.org/gist/5546931'
+  2: 'http://code.webplatform.org/gist/5546728'
+  3: 'http://code.webplatform.org/gist/5547019'
+  5: 'http://code.webplatform.org/gist/5547072'
 compatibility:
   feature: outline
   topic: css
@@ -158,7 +158,7 @@ A simple example showing multiple **div**s, identical in style except that they 
 <div class="five">I &hearts; WebPlatform.org!</div>
 ```
 
-[View live example](http://gist.github.com/5546931)
+[View live example](http://code.webplatform.org/gist/5546931)
 
 ``` css
 .one {
@@ -189,7 +189,7 @@ A simple example showing multiple **div**s, identical in style except that they 
 }
 ```
 
-[View live example](http://gist.github.com/5546931)
+[View live example](http://code.webplatform.org/gist/5546931)
 
 Even though the syntax of outline and border is similar they differ in the way they are drawn.
 
@@ -201,7 +201,7 @@ Even though the syntax of outline and border is similar they differ in the way t
 .border { border: 10px solid #f00; }
 ```
 
-[View live example](http://gist.github.com/5546728)
+[View live example](http://code.webplatform.org/gist/5546728)
 
 An example of how outline and border behave when applied to an inline element spanning multiple lines.
 
@@ -211,7 +211,7 @@ An example of how outline and border behave when applied to an inline element sp
 <p>Web Platform Docs is a community-driven site that aims to become <span class="outline border">a comprehensive and authoritative source for web developer documentation.</span></p>
 ```
 
-[View live example](http://gist.github.com/5547019)
+[View live example](http://code.webplatform.org/gist/5547019)
 
 ``` css
 /**
@@ -232,7 +232,7 @@ An example of how outline and border behave when applied to an inline element sp
 /* The third paragraph has both outline and border */
 ```
 
-[View live example](http://gist.github.com/5547019)
+[View live example](http://code.webplatform.org/gist/5547019)
 
 Browsers place an outline around the element that currently has focus.
 
@@ -242,7 +242,7 @@ Browsers place an outline around the element that currently has focus.
 <a class="two" href="http://webplatform.org">I &hearts; WebPlatform.org!</p>
 ```
 
-[View live example](http://gist.github.com/5547072)
+[View live example](http://code.webplatform.org/gist/5547072)
 
 ``` css
 /**
@@ -270,7 +270,7 @@ a:hover {
 }
 ```
 
-[View live example](http://gist.github.com/5547072)
+[View live example](http://code.webplatform.org/gist/5547072)
 
 ## Notes
 

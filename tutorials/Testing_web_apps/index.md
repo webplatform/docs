@@ -31,21 +31,21 @@ The top mobile browsers for various geographies are shown in the charts below. T
 <tbody>
 <tr class="odd">
 <td align="left"><h3>North America</h3>
-<p><img src="/assets/public/2/20/mobile-stats-na-may.jpeg" alt="mobile-stats-na-may.jpeg" /></p></td>
+<p><img src="//static.webplatform.org/2/20/mobile-stats-na-may.jpeg" alt="mobile-stats-na-may.jpeg" /></p></td>
 <td align="left"><h3>Europe</h3>
-<p><img src="/assets/public/1/11/mobile-stats-europe-may.jpeg" alt="mobile-stats-europe-may.jpeg" /></p></td>
+<p><img src="//static.webplatform.org/1/11/mobile-stats-europe-may.jpeg" alt="mobile-stats-europe-may.jpeg" /></p></td>
 </tr>
 <tr class="even">
 <td align="left"><h3>Australia</h3>
-<p><img src="/assets/public/3/30/mobile-stats-aus-may.jpeg" alt="mobile-stats-aus-may.jpeg" /></p></td>
+<p><img src="//static.webplatform.org/3/30/mobile-stats-aus-may.jpeg" alt="mobile-stats-aus-may.jpeg" /></p></td>
 <td align="left"><h3>Asia</h3>
-<p><img src="/assets/public/6/68/mobile-stats-asia-may.jpeg" alt="mobile-stats-asia-may.jpeg" /></p></td>
+<p><img src="//static.webplatform.org/6/68/mobile-stats-asia-may.jpeg" alt="mobile-stats-asia-may.jpeg" /></p></td>
 </tr>
 <tr class="odd">
 <td align="left"><h3>Africa</h3>
-<p><img src="/assets/public/b/bf/mobile-stats-af-may.jpeg" alt="mobile-stats-af-may.jpeg" /></p></td>
+<p><img src="//static.webplatform.org/b/bf/mobile-stats-af-may.jpeg" alt="mobile-stats-af-may.jpeg" /></p></td>
 <td align="left"><h3>South America</h3>
-<p><img src="/assets/public/2/22/mobile-stats-south-america-may.jpeg" alt="mobile-stats-south-america-may.jpeg" /></p></td>
+<p><img src="//static.webplatform.org/2/22/mobile-stats-south-america-may.jpeg" alt="mobile-stats-south-america-may.jpeg" /></p></td>
 </tr>
 </tbody>
 </table>
@@ -120,21 +120,21 @@ Browser usage differs considerably around the globe, so it's a good idea to chec
 <tbody>
 <tr class="odd">
 <td align="left"><h3>North America</h3>
-<p><img src="/assets/public/a/ab/browsers-na-may.jpeg" alt="browsers-na-may.jpeg" /></p></td>
+<p><img src="//static.webplatform.org/a/ab/browsers-na-may.jpeg" alt="browsers-na-may.jpeg" /></p></td>
 <td align="left"><h3>Europe</h3>
-<p><img src="/assets/public/4/48/browsers-eu-may.jpeg" alt="browsers-eu-may.jpeg" /></p></td>
+<p><img src="//static.webplatform.org/4/48/browsers-eu-may.jpeg" alt="browsers-eu-may.jpeg" /></p></td>
 </tr>
 <tr class="even">
 <td align="left"><h3>Australia</h3>
-<p><img src="/assets/public/9/90/browsers-au-may.jpeg" alt="browsers-au-may.jpeg" /></p></td>
+<p><img src="//static.webplatform.org/9/90/browsers-au-may.jpeg" alt="browsers-au-may.jpeg" /></p></td>
 <td align="left"><h3>Asia</h3>
-<p><img src="/assets/public/9/9a/browsers-asia-may.jpeg" alt="browsers-asia-may.jpeg" /></p></td>
+<p><img src="//static.webplatform.org/9/9a/browsers-asia-may.jpeg" alt="browsers-asia-may.jpeg" /></p></td>
 </tr>
 <tr class="odd">
 <td align="left"><h3>Africa</h3>
-<p><img src="/assets/public/f/f8/browsers-africa-may.jpeg" alt="browsers-africa-may.jpeg" /></p></td>
+<p><img src="//static.webplatform.org/f/f8/browsers-africa-may.jpeg" alt="browsers-africa-may.jpeg" /></p></td>
 <td align="left"><h3>South America</h3>
-<p><img src="/assets/public/4/4d/browsers-sa-may.jpeg" alt="browsers-sa-may.jpeg" /></p></td>
+<p><img src="//static.webplatform.org/4/4d/browsers-sa-may.jpeg" alt="browsers-sa-may.jpeg" /></p></td>
 </tr>
 </tbody>
 </table>

@@ -68,7 +68,7 @@ The following table gives a short summary of some of these differences. The rest
 
 The remainder of this chapter uses the employee hierarchy shown in the following figure.
 
-![Figure 8.1: A simple object hierarchy](/assets/public/1/1a/figure8.1.png)
+![Figure 8.1: A simple object hierarchy](//static.webplatform.org/1/1a/figure8.1.png)
 
 This example uses the following objects:
 
@@ -86,7 +86,7 @@ This section shows how to use very simple (and comparatively inflexible) definit
 
 In a real application, you would probably define constructors that allow you to provide property values at object creation time (see [Flexible Constructors](#More_Flexible_Constructors_More) for information). For now, these simple definitions demonstrate how the inheritance occurs.
 
-![Figure 8.2: The Employee object definitions](/assets/public/3/3a/figure8.2.png)
+![Figure 8.2: The Employee object definitions](//static.webplatform.org/3/3a/figure8.2.png)
 
 The following Java and JavaScript `Employee` definitions are similar. The only differences are that you need to specify the type for each property in Java but not in JavaScript, and you need to create an explicit constructor method for the Java class.
 
@@ -203,7 +203,7 @@ Using these definitions, you can create instances of these objects that get the 
 
 **Note**: The term '**instance'** has a specific technical meaning in class-based languages. In these languages, an instance is an individual member of a class and is fundamentally different from a class. In JavaScript, "instance" does not have this technical meaning because JavaScript does not have this difference between classes and instances. However, in talking about JavaScript, "instance" can be used informally to mean an object created using a particular constructor function. So, in this example, you could informally say that `<code>jane`\</code\> is an instance of `<code>Engineer`\</code\>. Similarly, although the terms '**parent*,*child*,*ancestor'**, and '**descendant'** do not have formal meanings in JavaScript; you can use them informally to refer to objects higher or lower in the prototype chain.
 
- ![Figure 8.3: Creating objects with simple definitions](/assets/public/2/26/figure8.3.png)
+ ![Figure 8.3: Creating objects with simple definitions](//static.webplatform.org/2/26/figure8.3.png)
 
 ## Object properties
 
@@ -245,13 +245,13 @@ If you add a new property to an object that is being used as the prototype for a
 
 As soon as JavaScript executes this statement, the `mark` object also has the `specialty` property with the value of `"none"`. The following figure shows the effect of adding this property to the `Employee` prototype and then overriding it for the `Engineer` prototype.
 
-![Figure 8.4: Adding properties](/assets/public/c/c8/figure8.4.png)
+![Figure 8.4: Adding properties](//static.webplatform.org/c/c8/figure8.4.png)
 
 ## More flexible constructors
 
 The constructor functions shown so far do not let you specify property values when you create an instance. As with Java, you can provide arguments to constructors to initialize property values for instances. The following figure shows one way to do this.
 
-![Figure 8.5: Specifying properties in a constructor, take 1](/assets/public/3/38/figure8.5.png)
+![Figure 8.5: Specifying properties in a constructor, take 1](//static.webplatform.org/3/38/figure8.5.png)
 
 The following table shows the Java and JavaScript definitions for these objects.
 
@@ -346,7 +346,7 @@ Notice that with these definitions, you cannot specify an initial value for an i
 
 So far, the constructor function has created a generic object and then specified local properties and values for the new object. You can have the constructor add more properties by directly calling the constructor function for an object higher in the prototype chain. The following figure shows these new definitions.
 
-![Figure 8.6 Specifying properties in a constructor, take 2](/assets/public/6/67/figure8.6.png)
+![Figure 8.6 Specifying properties in a constructor, take 2](//static.webplatform.org/6/67/figure8.6.png)
 
 Let's look at one of these definitions in detail. Here's the new definition for the `Engineer` constructor:
 

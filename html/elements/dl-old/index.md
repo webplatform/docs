@@ -1,7 +1,7 @@
 ---
 title: 'dl – description list'
 code_samples:
-  - 'http://gist.github.com/5821157'
+  - 'http://code.webplatform.org/gist/5821157'
 notes:
   - 'Deletion Candidate'
 readiness: 'Not Ready'
@@ -125,7 +125,7 @@ Three different description list examples:
 </dl>
 ```
 
-[View live example](http://gist.github.com/5821157)
+[View live example](http://code.webplatform.org/gist/5821157)
 
 ## Related specifications
 

@@ -1,7 +1,7 @@
 ---
 title: '<custom-ident>'
 code_samples:
-  - 'http://gist.github.com/10605942'
+  - 'http://code.webplatform.org/gist/10605942'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The &lt;custom-ident&gt; CSS data type represents an identifier token created by the stylesheet author to reference content in a different part of the stylesheet.  It is used for counters and for animation.'
@@ -57,7 +57,7 @@ h2::before {
 }
 ```
 
-[View live example](http://gist.github.com/10605942)
+[View live example](http://code.webplatform.org/gist/10605942)
 
 ## Related specifications
 

@@ -1,7 +1,7 @@
 ---
 title: ':target pseudo-class selector'
 code_samples:
-  - 'http://gist.github.com/6f2803eda8ad3c66aaf4'
+  - 'http://code.webplatform.org/gist/6f2803eda8ad3c66aaf4'
 compatibility:
   feature: ':target'
   topic: css
@@ -21,7 +21,7 @@ The :target pseudo-class (note the &quot;:&quot;) represents an element in the c
 
  An URI fragment is what follows the "number sign" (`#`).
 
-![example-css-target-pseudo-activated.png](/assets/public/e/e6/example-css-target-pseudo-activated.png)
+![example-css-target-pseudo-activated.png](//static.webplatform.org/e/e6/example-css-target-pseudo-activated.png)
 
 URIs with fragment identifier can be used to link to a specific part of a document, known as the target element. This also how we can navigate directly to a section of a page long without scrolling manually.
 
@@ -62,7 +62,7 @@ Changing background color of an element that has an id attribute with a name tha
 }
 ```
 
-[View live example](http://gist.github.com/6f2803eda8ad3c66aaf4)
+[View live example](http://code.webplatform.org/gist/6f2803eda8ad3c66aaf4)
 
 ## Notes
 

@@ -3,7 +3,7 @@ title: 'column-count'
 attributions:
   - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh772195(v=vs.85).aspx)'
 code_samples:
-  - 'http://gist.github.com/6288917'
+  - 'http://code.webplatform.org/gist/6288917'
 compatibility:
   feature: column-count
   topic: css
@@ -80,7 +80,7 @@ This example shows how to render text within the section.newspaper element in th
 }
 ```
 
-[View live example](http://gist.github.com/6288917)
+[View live example](http://code.webplatform.org/gist/6288917)
 
 Using auto for column-count will allow as many columns as are necessary or able to be generated.
 

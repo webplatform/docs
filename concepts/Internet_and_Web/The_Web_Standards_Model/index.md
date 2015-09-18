@@ -28,7 +28,7 @@ HTML and XHTML are markup languages composed of elements, which contain attribut
 
 Elements define the actual content type, while attributes define extra information about those elements, such as an ID to identify that element, or a location for a link to point to. You should bear in mind that markup is supposed to be as semantic as possible, ie it is supposed to unambiguously describe the function of the content. Figure 1 shows the anatomy of a typical element.
 
-![A typical HTML element](/assets/public/6/62/article4-1.gif)
+![A typical HTML element](//static.webplatform.org/6/62/article4-1.gif)
 
 Figure 1: Anatomy of an (X)HTML element.
 
@@ -132,7 +132,7 @@ Lines 5 to 7 import a CSS file into the page — the styles contained in this fi
 
 The page looks like Figure 2 without the CSS applied:
 
-![The example without any HTML applied](/assets/public/0/05/examplewithoutHTML.png)
+![The example without any HTML applied](//static.webplatform.org/0/05/examplewithoutHTML.png)
 
 Figure 2: the raw HTML, without any CSS styling
 
@@ -221,7 +221,7 @@ Finally, I’ve used another semi-transparent PNG for the background of our page
 
 The fully styled example looks like Figure 3.
 
-![The finished example](/assets/public/a/ab/final-html-and-css-example.jpg)
+![The finished example](//static.webplatform.org/a/ab/final-html-and-css-example.jpg)
 
 Figure 3: The finished example with styles applied.
 

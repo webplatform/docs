@@ -26,7 +26,7 @@ Applies a transparency effect to an element's colors, for use by the filter prop
     filter: opacity(50%);
     filter: opacity(0.5);
 
-  ![f15-splash.jpg](/assets/thumb/0/04/f15-splash.jpg/300px-f15-splash.jpg)![f16-splashopacity50.jpg](/assets/public/6/68/f16-splashopacity50.jpg)
+  ![f15-splash.jpg](//static.webplatform.org/thumb/0/04/f15-splash.jpg/300px-f15-splash.jpg)![f16-splashopacity50.jpg](//static.webplatform.org/6/68/f16-splashopacity50.jpg)
 
 When used in isolation, the **opacity()** filter has the same effect as the [**opacity**](/css/properties/opacity) CSS property, but it produces different effects when used in conjunction with other filters. The second example below produces a shadow that shows through the image, and the third doesn't when functions execute in reverse order:
 
@@ -34,7 +34,7 @@ When used in isolation, the **opacity()** filter has the same effect as the [**o
     filter: opacity(0.5) drop-shadow(10px 10px 0px black);
     filter: drop-shadow(10px 10px 0px black) opacity(0.5);
 
-![opacitySequence.png](/assets/public/8/80/opacitySequence.png)
+![opacitySequence.png](//static.webplatform.org/8/80/opacitySequence.png)
 
 **Note:** As is true for the related [**opacity**](/css/properties/opacity) CSS property, transparent elements still receive mouse and touch events, but the [**pointer-events**](/css/properties/pointer-events) property offers a way to override this behavior.
 
@@ -42,7 +42,7 @@ When used in isolation, the **opacity()** filter has the same effect as the [**o
 
 The following example shows the difference between two images, where one has an opacity of 50%:
 
-![filter opacity1.png](/assets/thumb/0/09/filter_opacity1.png/400px-filter_opacity1.png)
+![filter opacity1.png](//static.webplatform.org/thumb/0/09/filter_opacity1.png/400px-filter_opacity1.png)
 
 ``` html
 <!DOCTYPE html>
@@ -70,7 +70,7 @@ The following example shows the difference between two images, where one has an 
 
 This example shows the importance of the order in which filters are applied. In the first image, the opacity is only applied to the image. In the second, the drop-shadow is applied first, so the opacity also applies to it.
 
-![filter opacity2.png](/assets/thumb/c/c4/filter_opacity2.png/400px-filter_opacity2.png)
+![filter opacity2.png](//static.webplatform.org/thumb/c/c4/filter_opacity2.png/400px-filter_opacity2.png)
 
 ``` html
 <!DOCTYPE html>

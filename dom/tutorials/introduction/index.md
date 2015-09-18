@@ -28,7 +28,7 @@ Look at the following code :
 
  The DOM tree structure for this code would be something like this :
 
-![DOM 1.svg](/assets/thumb/8/82/DOM_1.svg/842px-DOM_1.svg.png)
+![DOM 1.svg](//static.webplatform.org/thumb/8/82/DOM_1.svg/842px-DOM_1.svg.png)
 
  The DOM follows a hierarchical structure.
 

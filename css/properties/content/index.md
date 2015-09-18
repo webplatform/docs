@@ -3,11 +3,11 @@ title: 'content'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/6948299'
-  - 'http://gist.github.com/6948575'
-  - 'http://gist.github.com/6948854'
-  - 'http://gist.github.com/6949103'
-  - 'http://gist.github.com/6949289'
+  - 'http://code.webplatform.org/gist/6948299'
+  - 'http://code.webplatform.org/gist/6948575'
+  - 'http://code.webplatform.org/gist/6948854'
+  - 'http://code.webplatform.org/gist/6949103'
+  - 'http://code.webplatform.org/gist/6949289'
 compatibility:
   feature: content
   topic: css
@@ -127,7 +127,7 @@ h1:after {
 }
 ```
 
-[View live example](http://gist.github.com/6948299)
+[View live example](http://code.webplatform.org/gist/6948299)
 
 Using attr( element-name ) to display text from an attribute. The following example adds a box displaying the value of the data-badge attribute for a button element.
 
@@ -153,7 +153,7 @@ button[data-badge]:after {
 }
 ```
 
-[View live example](http://gist.github.com/6948575)
+[View live example](http://code.webplatform.org/gist/6948575)
 
 Using the uri data-type the webplatform favicon is appended to all elements with the webplatform class.
 
@@ -163,7 +163,7 @@ Using the uri data-type the webplatform favicon is appended to all elements with
 }
 ```
 
-[View live example](http://gist.github.com/6948854)
+[View live example](http://code.webplatform.org/gist/6948854)
 
 Uses the counter data-type to show a automatic numbering for all h2 elements on the page. More information is available on the [**counter-increment**](/css/properties/counter-increment) property page.
 
@@ -179,7 +179,7 @@ h2:before {
 }
 ```
 
-[View live example](http://gist.github.com/6949103)
+[View live example](http://code.webplatform.org/gist/6949103)
 
 Uses the open-quote and close-quote data-type to add quoting around each blockquote element on the page.
 
@@ -193,7 +193,7 @@ blockquote:after {
 }
 ```
 
-[View live example](http://gist.github.com/6949289)
+[View live example](http://code.webplatform.org/gist/6949289)
 
 ## Notes
 

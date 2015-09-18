@@ -26,7 +26,7 @@ Applies a shadow to an element's pixels, for use by the filter property. Accepts
     filter: drop-shadow(16px 16px 20px black);   /* left */
     filter: drop-shadow(10px -16px 30px purple); /* right */
 
-  ![f23-mandrilldrop1.jpg](/assets/thumb/c/c2/f23-mandrilldrop1.jpg/300px-f23-mandrilldrop1.jpg)![f24-mandrillshadow2.jpg](/assets/thumb/a/a7/f24-mandrillshadow2.jpg/300px-f24-mandrillshadow2.jpg)
+  ![f23-mandrilldrop1.jpg](//static.webplatform.org/thumb/c/c2/f23-mandrilldrop1.jpg/300px-f23-mandrilldrop1.jpg)![f24-mandrillshadow2.jpg](//static.webplatform.org/thumb/a/a7/f24-mandrillshadow2.jpg/300px-f24-mandrillshadow2.jpg)
 
 Setting offsets to 0 with a positive blur value produces a backlit halo effect. Setting blur to 0 and positive offset values produces a raised effect as if sunlight is falling on the element. The **drop-shadow()** function uses the same syntax as the [**text-shadow**](/css/properties/text-shadow) CSS property, and likewise allows for more than one set of shadow values, separated with commas. This example renders both of the shadows shown above:
 
@@ -34,7 +34,7 @@ Setting offsets to 0 with a positive blur value produces a backlit halo effect. 
 
 The filter affects the contours of image transparencies, which allows for more vivid shadow effects:
 
-![giraffe dropshadow.png](/assets/public/8/82/giraffe_dropshadow.png)
+![giraffe dropshadow.png](//static.webplatform.org/8/82/giraffe_dropshadow.png)
 
 ## Examples
 
@@ -75,7 +75,7 @@ The below example shows the difference between the CSS box-shadow property and t
 
 This example shows the difference when using png images with transparency.
 
-![filter dropshadow.png](/assets/thumb/7/78/filter_dropshadow.png/400px-filter_dropshadow.png)
+![filter dropshadow.png](//static.webplatform.org/thumb/7/78/filter_dropshadow.png/400px-filter_dropshadow.png)
 
 ``` html
 <!DOCTYPE html>

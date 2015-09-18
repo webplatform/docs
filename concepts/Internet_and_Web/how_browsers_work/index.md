@@ -67,7 +67,7 @@ The browser's main components are:
 6.  **JavaScript interpreter**. Used to parse and execute the JavaScript code.
 7.  **Data storage**. This is a persistence layer. The browser needs to save all sorts of data on the hard disk, for examples, cookies. The new HTML specification (HTML5) defines 'web database' which is a complete (although light) database in the browser.
 
-![Figure 1: Browser main components.](/assets/public/f/f3/layers.png.pagespeed.ce.mFE5F8CtAV.png)
+![Figure 1: Browser main components.](//static.webplatform.org/f/f3/layers.png.pagespeed.ce.mFE5F8CtAV.png)
 
 It is important to note that Chrome, unlike most browsers, holds multiple instances of the rendering engine - one for each tab. Each tab is a separate process.
 
@@ -89,7 +89,7 @@ The rendering engine will start getting the contents of the requested document f
 
 After that this is the basic flow of the rendering engine:
 
-![Figure 2: Rendering engine basic flow.](/assets/public/9/95/pagespeed.ce.pKf2HjCm.png)
+![Figure 2: Rendering engine basic flow.](//static.webplatform.org/9/95/pagespeed.ce.pKf2HjCm.png)
 
 The rendering engine will start parsing the HTML document and turn the tags to [DOM](#DOM) nodes in a tree called the "content tree". It will parse the style data, both in external CSS files and in style elements. The styling information together with visual instructions in the HTML will be used to create another tree - the [render tree](#Render_tree_construction).
 
@@ -101,9 +101,9 @@ It's important to understand that this is a gradual process. For better user exp
 
 #### Main flow examples
 
-![Figure 3: Webkit main flow](/assets/public/5/53/webkitflow.png.pagespeed.ce.KhQEkvbb3q.png)
+![Figure 3: Webkit main flow](//static.webplatform.org/5/53/webkitflow.png.pagespeed.ce.KhQEkvbb3q.png)
 
-![Figure 4: Mozilla's Gecko rendering engine main flow(3.6)](/assets/public/9/99/4b.png)
+![Figure 4: Mozilla's Gecko rendering engine main flow(3.6)](//static.webplatform.org/9/99/4b.png)
 
 From figures 3 and 4 you can see that although Webkit and Gecko use slightly different terminology, the flow is basically the same.
 
@@ -117,7 +117,7 @@ Parsing a document means translating it to some structure that makes sense - som
 
 Example - parsing the expression `2 + 3 - 1` could return this tree:
 
-![Figure 5: mathematical expression tree node](/assets/public/6/63/400x155wimage009.png.pagespeed.ic.KNewBFnKFk.png)
+![Figure 5: mathematical expression tree node](//static.webplatform.org/6/63/400x155wimage009.png.pagespeed.ic.KNewBFnKFk.png)
 
 #### Grammars
 
@@ -133,7 +133,7 @@ Syntax analysis is the applying of the language syntax rules.
 
 Parsers usually divide the work between two components - the **lexer** (sometimes called tokenizer) that is responsible for breaking the input into valid tokens, and the **parser** that is responsible for constructing the parse tree by analyzing the document structure according to the language syntax rules. The lexer knows how to strip irrelevant characters like white spaces and line breaks.
 
-![Figure 6: from source document to parse trees](/assets/public/2/21/image011.png.pagespeed.ce.yyU1s1o5di.png)
+![Figure 6: from source document to parse trees](//static.webplatform.org/2/21/image011.png.pagespeed.ce.yyU1s1o5di.png)
 
 The parsing process is iterative. The parser will usually ask the lexer for a new token and try to match the token with one of the syntax rules. If a rule is matched, a node corresponding to the token will be added to the parse tree and the parser will ask for another token.
 
@@ -143,7 +143,7 @@ If no rule matches, the parser will store the token internally, and keep asking 
 
 Many times the parse tree is not the final product. Parsing is often used in translation - transforming the input document to another format. An example is compilation. The compiler that compiles a source code into machine code first parses it into a parse tree and then translates the tree into a machine code document.
 
-![Figure 7: compilation flow](/assets/public/7/72/image013.png.pagespeed.ce.EGqDLSzaGw.png)
+![Figure 7: compilation flow](//static.webplatform.org/7/72/image013.png.pagespeed.ce.EGqDLSzaGw.png)
 
 #### Parsing example
 
@@ -283,7 +283,7 @@ The DOM has an almost one-to-one relation to the markup. For example, this marku
 
  Would be translated to the following DOM tree:
 
-. ![Figure 8: DOM tree of the example markup](/assets/public/4/45/image015.png.pagespeed.ce.OZcOUqth9Q.png)
+. ![Figure 8: DOM tree of the example markup](//static.webplatform.org/4/45/image015.png.pagespeed.ce.OZcOUqth9Q.png)
 
 Like HTML, DOM is specified by the W3C organization. See [www.w3.org/DOM/DOMTR this](http://www.w3.org/DOM/DOMTR). It is a generic specification for manipulating documents. A specific module describes HTML specific elements. The HTML definitions can be found here: [www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/idl-definitions.html](http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/idl-definitions.html).
 
@@ -307,7 +307,7 @@ Tokenization is the lexical analysis, parsing the input into tokens. Among HTML 
 
 The tokenizer recognizes the token, gives it to the tree constructor, and consumes the next character for recognizing the next token, and so on until the end of the input.
 
-![Figure 9: HTML parsing flow (taken from HTML5 spec)](/assets/public/6/64/NTTDS.jpeg)
+![Figure 9: HTML parsing flow (taken from HTML5 spec)](//static.webplatform.org/6/64/NTTDS.jpeg)
 
 #### The tokenization algorithm
 
@@ -327,7 +327,7 @@ When the `>` tag is reached, the current token is emitted and the state changes 
 
 We are now back at the **"Tag open state"**. Consuming the next input `/` will cause creation of an `end tag token` and a move to the **"Tag name state"**. Again we stay in this state until we reach `>`.Then the new tag token will be emitted and we go back to the **"Data state"**. The `</html>` input will be treated like the previous case.
 
-![Figure 10: Tokenizing the example input](/assets/public/5/5d/image019.png.pagespeed.ce.Xgw2vziEPX.png)
+![Figure 10: Tokenizing the example input](//static.webplatform.org/5/5d/image019.png.pagespeed.ce.Xgw2vziEPX.png)
 
 #### Tree construction algorithm
 
@@ -351,7 +351,7 @@ The character tokens of the "Hello world" string are now received. The first one
 
 The receiving of the body end token will cause a transfer to **"after body"** mode. We will now receive the html end tag which will move us to **"after after body"** mode. Receiving the end of file token will end the parsing.
 
-![Figure 11: tree construction of example html](/assets/public/5/59/11.png)
+![Figure 11: tree construction of example html](//static.webplatform.org/5/59/11.png)
 
 #### Actions when the parsing is finished
 
@@ -540,7 +540,7 @@ This means a ruleset is a selector or optionally number of selectors separated b
 
 Webkit uses [Flex and Bison](#parser_generators) parser generators to create parsers automatically from the CSS grammar files. As you recall from the parser introduction, Bison creates a bottom up shift-reduce parser. Firefox uses a top down parser written manually. In both cases each CSS file is parsed into a StyleSheet object, each object contains CSS rules. The CSS rule objects contain selector and declaration objects and other object corresponding to CSS grammar.
 
-![Figure 12: parsing CSS](/assets/public/a/ab/image023.png.pagespeed.ce.uVfINk36yE.png)
+![Figure 12: parsing CSS](//static.webplatform.org/a/ab/image023.png.pagespeed.ce.uVfINk36yE.png)
 
 ### The order of processing scripts and style sheets
 
@@ -611,7 +611,7 @@ There are DOM elements which correspond to several visual objects. These are usu
 
 Some render objects correspond to a DOM node but not in the same place in the tree. Floats and absolutely positioned elements are out of flow, placed in a different place in the tree, and mapped to the real frame. A placeholder frame is where they should have been.
 
-![Figure 13: The render tree and the corresponding DOM tree (3.1).](/assets/public/a/a0/image025.png.pagespeed.ce.3lhNd6H7V4.png)
+![Figure 13: The render tree and the corresponding DOM tree (3.1).](//static.webplatform.org/a/a0/image025.png.pagespeed.ce.3lhNd6H7V4.png)
 
 The "Viewport" is the initial containing block. In Webkit it will be the "RenderView" object.
 
@@ -668,7 +668,7 @@ Webkit nodes references style objects (RenderStyle) These objects can be shared 
 
 Firefox has two extra trees for easier style computation - the rule tree and style context tree. Webkit also has style objects but they are not stored in a tree like the style context tree, only the DOM node points to its relevant style.
 
-![Figure 14: Firefox style context tree (2.2)](/assets/public/e/ec/image035.png.pagespeed.ce.OBCNQe7-zP.png)
+![Figure 14: Firefox style context tree (2.2)](//static.webplatform.org/e/ec/image035.png.pagespeed.ce.OBCNQe7-zP.png)
 
 The style contexts contain end values. The values are computed by applying all the matching rules in the correct order and performing manipulations that transform them from logical to concrete values. For example - if the logical value is percentage of the screen it will be calculated and transformed to absolute units. The rule tree idea is really clever. It enables sharing these values between nodes to avoid computing them again. This also saves space.
 
@@ -676,7 +676,7 @@ All the matched rules are stored in a tree. The bottom nodes in a path have high
 
 The idea is to see the tree paths as words in a lexicon. Lets say we already computed this rule tree:
 
-![tree.png.pagespeed.ce.OWyl1y 9-K.png](/assets/public/b/bf/tree.png.pagespeed.ce.OWyl1y_9-K.png)
+![tree.png.pagespeed.ce.OWyl1y 9-K.png](//static.webplatform.org/b/bf/tree.png.pagespeed.ce.OWyl1y_9-K.png)
 
 Suppose we need to match rules for another element in the content tree, and find out the matched rules (in the correct order) are B - E - I. We already have this path in the tree because we already computed path A - B - E - I - L. We will now have less work to do.
 
@@ -730,11 +730,11 @@ Lets see an example: Suppose we have this HTML
 
  To simplify things let's say we need to fill out only two structs - the color struct and the margin struct. The color struct contains only one member - the color The margin struct contains the four sides. The resulting rule tree will look like this (the nodes are marked with the node name : the \# of rule they point at):
 
-![Figure 15: The rule tree](/assets/public/0/0d/image027.png.pagespeed.ce.TLG6gekZu0.png)
+![Figure 15: The rule tree](//static.webplatform.org/0/0d/image027.png.pagespeed.ce.TLG6gekZu0.png)
 
 The context tree will look like this (node name : rule node they point to):
 
-![Figure 16: The context tree](/assets/public/0/04/image029.png.pagespeed.ce.eMpvvZaI8B.png)
+![Figure 16: The context tree](//static.webplatform.org/0/04/image029.png.pagespeed.ce.eMpvvZaI8B.png)
 
 Suppose we parse the HTML and get to the second `<div>` tag. We need to create a style context for this node and fill its style structs.
 
@@ -900,7 +900,7 @@ Layout can be triggered on the entire render tree - this is "global" layout. Thi
 
 Layout can be incremental, only the dirty renderers will be layed out (this can cause some damage which will require extra layouts). Incremental layout is triggered (asynchronously) when renderers are dirty. For example when new renderers are appended to the render tree after extra content came from the network and was added to the DOM tree.
 
-. ![Figure 17: Incremental layout - only dirty renderers and their children are layed out (3.6)](/assets/public/b/b1/reflow.png.pagespeed.ce.Gq6DrRBdK_.png)
+. ![Figure 17: Incremental layout - only dirty renderers and their children are layed out (3.6)](//static.webplatform.org/b/b1/reflow.png.pagespeed.ce.Gq6DrRBdK_.png)
 
 #### Asynchronous and Synchronous layout
 
@@ -1007,7 +1007,7 @@ According to [www.w3.org/TR/CSS2/zindex.html](http://www.w3.org/TR/CSS2/zindex.h
 
 #### CSS Box model
 
-The [CSS box model](http://www.w3.org/TR/CSS2/box.html) describes the rectangular boxes that are generated for elements in the document tree and laid out according to the visual formatting model. Each box has a content area (e.g., text, an image, etc.) and optional surrounding padding, border, and margin areas. ![Figure 18: CSS2 box model](/assets/public/c/c5/image046.jpg.pagespeed.ce.eWiQlHBuY5.jpg)
+The [CSS box model](http://www.w3.org/TR/CSS2/box.html) describes the rectangular boxes that are generated for elements in the document tree and laid out according to the visual formatting model. Each box has a content area (e.g., text, an image, etc.) and optional surrounding padding, border, and margin areas. ![Figure 18: CSS2 box model](//static.webplatform.org/c/c5/image046.jpg.pagespeed.ce.eWiQlHBuY5.jpg)
 
 Each node generates 0..n such boxes. All elements have a "display" property that determines their type of box that will be generated. Examples:
 
@@ -1043,19 +1043,19 @@ The way the box is layed out is determined by:
 
 Block box: forms a block - have their own rectangle on the browser window.
 
-![Figure 19: Block box](/assets/public/7/70/image057.png.pagespeed.ce.8bssXmKD6t.png)
+![Figure 19: Block box](//static.webplatform.org/7/70/image057.png.pagespeed.ce.8bssXmKD6t.png)
 
 Inline box: does not have its own block, but is inside a containing block.
 
-![Figure 20: Inline boxes](/assets/public/5/58/image059.png.pagespeed.ce.VRjBCB8itJ.png)
+![Figure 20: Inline boxes](//static.webplatform.org/5/58/image059.png.pagespeed.ce.VRjBCB8itJ.png)
 
 Blocks are formatted vertically one after the other. Inlines are formatted horizontally.
 
-![Figure 21: Block and Inline formatting](/assets/public/9/9f/image061.png.pagespeed.ce.lncfVd0-qM.png)
+![Figure 21: Block and Inline formatting](//static.webplatform.org/9/9f/image061.png.pagespeed.ce.lncfVd0-qM.png)
 
 Inline boxes are put inside lines or "line boxes". The lines are at least as tall as the tallest box but can be taller, when the boxes are aligned "baseline" - meaning the bottom part of an element is aligned at a point of another box other then the bottom. In case the container width is not enough, the inlines will be put in several lines. This is usually what happens in a paragraph.
 
-![Figure 22: Lines](/assets/public/9/9c/image063.png.pagespeed.ce.dx-MWRwbSv.png)
+![Figure 22: Lines](//static.webplatform.org/9/9c/image063.png.pagespeed.ce.dx-MWRwbSv.png)
 
 ### Positioning
 
@@ -1063,7 +1063,7 @@ Inline boxes are put inside lines or "line boxes". The lines are at least as tal
 
 Relative positioning - positioned like usual and then moved by the required delta.
 
-![Figure 23: Relative positioning](/assets/public/0/00/image065.png.pagespeed.ce.hNn85ms8VR.png)
+![Figure 23: Relative positioning](//static.webplatform.org/0/00/image065.png.pagespeed.ce.hNn85ms8VR.png)
 
 #### Floats
 
@@ -1076,13 +1076,13 @@ A float box is shifted to the left or right of a line. The interesting feature i
  </p>
 ```
 
- Will look like: ![Figure 24: Float](/assets/public/f/fd/image067.png.pagespeed.ce.SRkyPOG7Mt.png)
+ Will look like: ![Figure 24: Float](//static.webplatform.org/f/fd/image067.png.pagespeed.ce.SRkyPOG7Mt.png)
 
 #### Absolute and fixed
 
 The layout is defined exactly regardless of the normal flow. The element does not participate in the normal flow. The dimensions are relative to the container. In fixed - the container is the view port.
 
-![Figure 25: Fixed positioning](/assets/public/2/2b/image25.png)
+![Figure 25: Fixed positioning](//static.webplatform.org/2/2b/image25.png)
 
 Note - the fixed box will not move even when the document is scrolled!
 
@@ -1116,7 +1116,7 @@ Example:
 
  The result will be this:
 
-![Figure 26: Fixed positioning](/assets/public/b/b5/254x227wimage071.png.pagespeed.ic.L7ebADPhYj.png)
+![Figure 26: Fixed positioning](//static.webplatform.org/b/b5/254x227wimage071.png.pagespeed.ic.L7ebADPhYj.png)
 
 Although the red div precedes the green one in the markup, and would have been painted before in the regular flow, the z-index property is higher, so it is more forward in the stack held by the root box.
 

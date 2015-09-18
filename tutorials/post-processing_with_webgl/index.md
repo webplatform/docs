@@ -36,7 +36,7 @@ The good news is that the WebGL API lets you apply all these effects directly vi
 
 The first step to do then is to render a simple 2D rectangle on the screen, and then play a bit with the fragment shader code and see what happens. Check out my [simple shaded rectangle](http://dev.opera.com/static/articles/2012/webgl-postprocessing/webgl-pp/simple.html) example (also seen in Figure 1). You'll find the code for the JavaScript that does all the heavy lifting example file below the canvas in the example page.
 
-![A simple quad in which some color interpolation is being performed to create a linear gradient](/assets/public/2/2e/webgl-shaded-rectangle.png)
+![A simple quad in which some color interpolation is being performed to create a linear gradient](//static.webplatform.org/2/2e/webgl-shaded-rectangle.png)
 
 Figure 1: A simple quad in which some color interpolation is being performed to create a linear gradient.
 
@@ -104,7 +104,7 @@ Note: For information on how to grab data from the camera, read [getUserMedia: a
 
 Our [edge detection example](http://dev.opera.com/static/articles/2012/webgl-postprocessing/webgl-pp/texImage2D.html) looks like Figure 2:
 
-![Post processing an image in WebGL using Sobel-based edge detection](/assets/public/0/0d/webgl-edge-detection.png)
+![Post processing an image in WebGL using Sobel-based edge detection](//static.webplatform.org/0/0d/webgl-edge-detection.png)
 
 Figure 2: Post processing an image in WebGL using Sobel-based edge detection.
 
@@ -138,13 +138,13 @@ gl.bindTexture(gl.TEXTURE_2D, texture);
 
 Sometimes we'd like to apply more than one transformation to the image and we cannot combine those on the same fragment shader. One classic example of this is the [Bloom effect](http://en.wikipedia.org/wiki/Bloom_(shader_effect)). The Bloom effect first blurs the input image (e.g. with a [gaussian blur](http://en.wikipedia.org/wiki/Gaussian_blur)), and then blends the blurred image with the original image to provide something like a neon effect. For the blurring stage a straight [gaussian blur](http://en.wikipedia.org/wiki/Gaussian_blur) would average the current pixel value with many levels of surrounding pixels. This is very costly (even for a fragment shader), and thus the blur effect is split into two passes: one pass that averages the current pixel with neighboring pixels in the x-axis, and then a second pass that does the same thing for the y-axis (see Figure 3).
 
-![An image with a bloom effect applied to it](/assets/public/1/1b/bloom-pass.png)
+![An image with a bloom effect applied to it](//static.webplatform.org/1/1b/bloom-pass.png)
 
 Figure 3: An image with a bloom effect applied to it.
 
 In other words, with two post-processing passes we reduce the complexity of a per pixel algorithm from O(N\^2) to O(2N). Finally, after the blurring operations we apply a blending operation that also adds an exposure and vignette effects. A summary of the full algorithm can be found in [Real-Time 3D Scene Post-processing](http://developer.amd.com/media/gpu_assets/Oat-ScenePostprocessing.pdf), a slide deck presented at GDC Europe by ATI's Chris Oat. The flow for the post-processing is summarised in Figure 4, and the bulleted list below.
 
-![Post processing workflow for a bloom effect pass](/assets/public/f/fb/post-processing.png)
+![Post processing workflow for a bloom effect pass](//static.webplatform.org/f/fb/post-processing.png)
 
 Figure 4: Post processing workflow for a bloom effect pass.
 
@@ -154,7 +154,7 @@ Figure 4: Post processing workflow for a bloom effect pass.
 
 You can [view the bloom effect example here](http://dev.opera.com/static/articles/2012/webgl-postprocessing/webgl-pp/multipass.html). Play with the different stages of the pipeline by toggling the options in the checkboxes. Figure 5 shows an image of the effect.
 
-![Our WebGL version of the bloom effect in action; a post processed image with blur and blending applied](/assets/public/c/c5/webgl-bloom-effect.jpg)
+![Our WebGL version of the bloom effect in action; a post processed image with blur and blending applied](//static.webplatform.org/c/c5/webgl-bloom-effect.jpg)
 
 Figure 5: Our WebGL version of the bloom effect in action.
 

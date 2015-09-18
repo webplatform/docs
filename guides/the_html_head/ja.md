@@ -125,7 +125,7 @@ uri: 'guides/the html head/ja'
 
  図1 で示す通り、`title` 要素内のテキストが、ブラウザーのナビゲーションバーの上に表示されるのがわかると思います。
 
-![The title is displayed in the title bar of the web browser](/assets/public/4/4d/Head-fig.gif)
+![The title is displayed in the title bar of the web browser](//static.webplatform.org/4/4d/Head-fig.gif)
 
 図1: ブラウザーでのタイトルの表示
 
@@ -152,13 +152,13 @@ uri: 'guides/the html head/ja'
 
  この文書をブラウザーで開いてみましょう。body になにも情報がないので、ブラウザーの画面には何も表示されないでしょう。しかし、この文書がオンラインにあり、検索エンジンがインデックスしていれば、ページの説明が検索結果の下に表示されることになります。図2 はそのスクリーンショットです。
 
-![descriptions showing in a search engine results page](/assets/public/d/d5/head-fih.gif)
+![descriptions showing in a search engine results page](//static.webplatform.org/d/d5/head-fih.gif)
 
 図2: 検索結果でページの説明が表示されている
 
 検索した人にとって、ページの説明はとても重要な情報になるでしょう。検索結果が表示してくれるページの説明を読んで、それが求めているページかを判断できるからです。また、いくつかのブラウザーは図3のように、ページをお気に入りに追加する際に、説明を補足情報として登録してくれる機能を備えています。
 
-![Some browsers use the description as a bookmark description](/assets/public/6/60/head-fii.gif)
+![Some browsers use the description as a bookmark description](//static.webplatform.org/6/60/head-fii.gif)
 
 図3: 文書をお気に入りに登録する時、ブラウザーによっては記述されたページの説明も一緒に登録する
 
@@ -214,7 +214,7 @@ uri: 'guides/the html head/ja'
 
  この Web ページを印刷するとき、ブラウザーはスクリーン用スタイルシートではなく印刷用スタイルシートを適用します。サンプル [headinlinestylesmedia.html](http://dev.opera.com/articles/view/13-the-html-head-element/headinlinestylesmedia.html) を開き、印刷プレビューを開いてください。図4 はそのスクリーンショットです。
 
-![The same page with print and screen style sheets applied](/assets/public/2/20/head-fij.gif)
+![The same page with print and screen style sheets applied](//static.webplatform.org/2/20/head-fij.gif)
 
 図4: スクリーン用スタイルシートと印刷用スタイルシート
 

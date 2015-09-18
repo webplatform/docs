@@ -3,7 +3,7 @@ title: 'ellipse'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/e44f667a01785f7a116f'
+  - 'http://code.webplatform.org/gist/e44f667a01785f7a116f'
 compatibility:
   feature: ellipse
   topic: svg
@@ -88,7 +88,7 @@ In the following code example, the ellipse element is used to draw a skyblue-col
 </svg>
 ```
 
-[View live example](http://gist.github.com/e44f667a01785f7a116f)
+[View live example](http://code.webplatform.org/gist/e44f667a01785f7a116f)
 
 ## Notes
 

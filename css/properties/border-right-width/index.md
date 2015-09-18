@@ -3,7 +3,7 @@ title: 'border-right-width'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5550425'
+  - 'http://code.webplatform.org/gist/5550425'
 compatibility:
   feature: border-right-width
   topic: css
@@ -99,7 +99,7 @@ Sets the width of an element's right border. To set all four borders, use the bo
 }
 
 </pre>
-<p><a rel="nofollow" class="external text" href="http://gist.github.com/5550425">View live example</a>
+<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/5550425">View live example</a>
 </p>
 </div>
 <p><br/></p><p><br/></p>

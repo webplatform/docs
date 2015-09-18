@@ -3,7 +3,7 @@ title: 'text-justify'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5671702'
+  - 'http://code.webplatform.org/gist/5671702'
 compatibility:
   feature: text-justify
   topic: css
@@ -94,7 +94,7 @@ The first paragraph is using `inter-word` as a value of text-justify property, i
 <p class="japanese">日本語では、どのように表示されるかを見てみましょう。日本語の場合にはdistributeが使用される場合があります。</p>
 ```
 
-[View live example](http://gist.github.com/5671702)
+[View live example](http://code.webplatform.org/gist/5671702)
 
 ``` css
 p {

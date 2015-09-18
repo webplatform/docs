@@ -58,7 +58,7 @@ After creating and styling your document, the next step is to hand it off to a b
 
 So, the DOM hierarchy we end up for the above HTML document is represented visually something like Figure 1:
 
-![A visual DOM tree representation of an HTML document](/assets/public/8/89/traversing_the_dom_figure1.gif)
+![A visual DOM tree representation of an HTML document](//static.webplatform.org/8/89/traversing_the_dom_figure1.gif)
 
 Figure 1: The above HTML document represented visually as a DOM tree.
 

@@ -159,7 +159,7 @@ color: hsl(120, 75%, 75%)  /* pastel green */
 
  It is also possible to specify system colors, so you can specify for example that you want your text to be the same color as your highlighted text; these are only supported on Windows. Unlike the named colors, system colors have no numeric RGB equivalent because the exact color is not known until the Web page is viewed on the user's system. In this way, system colors are user-defined because users can choose their own system color scheme from the Windows Control Panel. The following table demonstrates appropriate text and background colors, as they would appear on a Windows Vista system with default colors.
 
-![named system colors.png](/assets/public/8/8a/named_system_colors.png)
+![named system colors.png](//static.webplatform.org/8/8a/named_system_colors.png)
 
 Note that the system color names have been deprecated in the <http://www.w3.org/TR/css3-color/> CSS Color Module Level 3] recommendation, and since they are Windows-only, so it is advisable to not use them.
 

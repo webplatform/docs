@@ -3,7 +3,7 @@ title: 'g'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/09f7ebf9fa8ed1d9b0d6'
+  - 'http://code.webplatform.org/gist/09f7ebf9fa8ed1d9b0d6'
 compatibility:
   feature: g
   topic: svg
@@ -56,7 +56,7 @@ In the following code example, the g element is used to group two elements toget
 ```
 
 </pre>
-[View live example](http://gist.github.com/09f7ebf9fa8ed1d9b0d6)
+[View live example](http://code.webplatform.org/gist/09f7ebf9fa8ed1d9b0d6)
 
 ## Notes
 

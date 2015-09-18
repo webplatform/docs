@@ -4,7 +4,7 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/float)'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5974883'
+  - 'http://code.webplatform.org/gist/5974883'
 compatibility:
   feature: float
   topic: css
@@ -90,7 +90,7 @@ In this example, we create a simple layout containing a title, a logo (image) an
 </article>
 ```
 
-[View live example](http://gist.github.com/5974883)
+[View live example](http://code.webplatform.org/gist/5974883)
 
 The CSS for the above layout is described below. Notice the use of the `float`s.
 
@@ -107,7 +107,7 @@ The CSS for the above layout is described below. Notice the use of the `float`s.
 }
 ```
 
-[View live example](http://gist.github.com/5974883)
+[View live example](http://code.webplatform.org/gist/5974883)
 
 ## Usage
 

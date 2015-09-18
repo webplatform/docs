@@ -1,8 +1,8 @@
 ---
 title: 'font-size'
 code_samples:
-  - 'http://gist.github.com/5628042'
-  - 'http://gist.github.com/5628240'
+  - 'http://code.webplatform.org/gist/5628042'
+  - 'http://code.webplatform.org/gist/5628240'
 compatibility:
   feature: font-size
   topic: css
@@ -104,7 +104,7 @@ A selection of examples showing some typical uses of the font-size property.
 }
 ```
 
-[View live example](http://gist.github.com/5628042)
+[View live example](http://code.webplatform.org/gist/5628042)
 
 A redefinition of the typical **16px** browser default font size **medium** value as **10px**, followed by a resizing of the text that follows proportionate to that.
 
@@ -119,7 +119,7 @@ html { font-size: 62.5%; }
 .example-three  { font-size: 1.4rem }   /* 14px */
 ```
 
-[View live example](http://gist.github.com/5628240)
+[View live example](http://code.webplatform.org/gist/5628240)
 
 ## Usage
 

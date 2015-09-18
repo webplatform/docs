@@ -3,7 +3,7 @@ title: 'font-variant'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5716625'
+  - 'http://code.webplatform.org/gist/5716625'
 compatibility:
   feature: font-variant
   topic: css
@@ -88,7 +88,7 @@ A simple example to show the effect achieved when small-caps are applied to a te
 <p>I think WebPlatform rocks</p>
 ```
 
-[View live example](http://gist.github.com/5716625)
+[View live example](http://code.webplatform.org/gist/5716625)
 
 The CSS applied to the HTML above.
 

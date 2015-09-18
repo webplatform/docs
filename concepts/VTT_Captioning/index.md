@@ -367,7 +367,7 @@ Save the file with a .vtt extension and link to it from a \<track\> element in y
 
 It is not hard to make mistakes when creating a VTT track fille. Fortunately there is an [online validator](http://quuz.org/webvtt/) to help with authoring.
 
-![Online VTT Validator](/assets/public/b/b3/vtt-validator.png)
+![Online VTT Validator](//static.webplatform.org/b/b3/vtt-validator.png)
 
 It is essentially a two step process:
 

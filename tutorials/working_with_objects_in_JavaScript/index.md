@@ -335,7 +335,7 @@ You can make this function a method of `car` by adding the statement
 
  This produces the output shown in the following figure.
 
-![Two lines saying: "a beautiful 1993 Eagle Talon TSi" and "a beautiful 1992 Nissan 300ZX"](/assets/public/d/dd/obja.gif)
+![Two lines saying: "a beautiful 1993 Eagle Talon TSi" and "a beautiful 1992 Nissan 300ZX"](//static.webplatform.org/d/dd/obja.gif)
 
 <small>**Figure 7.1: Displaying method output.**</small>
 

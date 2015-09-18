@@ -1,7 +1,7 @@
 ---
 title: 'text-overline-mode'
 code_samples:
-  - 'http://gist.github.com/7283851'
+  - 'http://code.webplatform.org/gist/7283851'
 compatibility:
   feature: text-overline-mode
   topic: css
@@ -72,7 +72,7 @@ p {
 }
 ```
 
-[View live example](http://gist.github.com/7283851)
+[View live example](http://code.webplatform.org/gist/7283851)
 
 ## Notes
 

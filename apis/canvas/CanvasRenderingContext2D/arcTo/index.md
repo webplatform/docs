@@ -3,7 +3,7 @@ title: 'arcTo'
 attributions:
   - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
 code_samples:
-  - 'http://gist.github.com/5034180'
+  - 'http://code.webplatform.org/gist/5034180'
 readiness: 'Ready to Use'
 relationships:
   method_of:
@@ -137,7 +137,7 @@ This example creates an arc
 </html>
 ```
 
-[View live example](http://gist.github.com/5034180)
+[View live example](http://code.webplatform.org/gist/5034180)
 
 ## Notes
 

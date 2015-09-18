@@ -4,7 +4,7 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-color)'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5566688'
+  - 'http://code.webplatform.org/gist/5566688'
 compatibility:
   feature: outline-color
   topic: css
@@ -84,7 +84,7 @@ An example of using outline color
 <div class="outline outline--invert">I ♥ WebPlatform.org!</div>
 ```
 
-[View live example](http://gist.github.com/5566688)
+[View live example](http://code.webplatform.org/gist/5566688)
 
 Multiple classes that change the original outline color
 
@@ -109,7 +109,7 @@ Multiple classes that change the original outline color
 }
 ```
 
-[View live example](http://gist.github.com/5566688)
+[View live example](http://code.webplatform.org/gist/5566688)
 
 ## Usage
 

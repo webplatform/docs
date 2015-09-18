@@ -1,13 +1,13 @@
 ---
 title: 'box-shadow'
 code_samples:
-  - 'http://gist.github.com/5259244'
-  - 'http://gist.github.com/5259299'
-  - 'http://gist.github.com/5259449'
-  - 'http://gist.github.com/5259463'
-  - 'http://gist.github.com/5259501'
-  - 'http://gist.github.com/5259470'
-  - 'http://gist.github.com/5259531'
+  - 'http://code.webplatform.org/gist/5259244'
+  - 'http://code.webplatform.org/gist/5259299'
+  - 'http://code.webplatform.org/gist/5259449'
+  - 'http://code.webplatform.org/gist/5259463'
+  - 'http://code.webplatform.org/gist/5259501'
+  - 'http://code.webplatform.org/gist/5259470'
+  - 'http://code.webplatform.org/gist/5259531'
 compatibility:
   feature: box-shadow
   topic: css
@@ -102,7 +102,7 @@ article {
 }
 ```
 
-[View live example](http://gist.github.com/5259244)
+[View live example](http://code.webplatform.org/gist/5259244)
 
 An example of inner drop shadows. An inner box-shadow casts a shadow as if everything outside the padding edge were opaque. The inner shadow is drawn inside the padding edge only: it is clipped outside the padding box of the element.
 
@@ -113,7 +113,7 @@ article {
 }
 ```
 
-[View live example](http://gist.github.com/5259299)
+[View live example](http://code.webplatform.org/gist/5259299)
 
 An example of how a positive spread distance length value affects the drop shadow. If a spread distance is defined, the shadow is expanded outward or contracted inward.
 
@@ -124,7 +124,7 @@ article {
 }
 ```
 
-[View live example](http://gist.github.com/5259449)
+[View live example](http://code.webplatform.org/gist/5259449)
 
 Negative values cause the shadow shape to contract.
 
@@ -135,7 +135,7 @@ article {
 }
 ```
 
-[View live example](http://gist.github.com/5259463)
+[View live example](http://code.webplatform.org/gist/5259463)
 
 If the blur value is zero, the shadow's edge is sharp. (A non-zero blur value indicates the resulting shadow should be blurred, such as by a Gaussian filter.)
 
@@ -146,7 +146,7 @@ article {
 }
 ```
 
-[View live example](http://gist.github.com/5259501)
+[View live example](http://code.webplatform.org/gist/5259501)
 
 If the box has a nonzero ‘border-radius’, the shadow shape is rounded in the same way. (The ‘border-image’ does not affect the shape of the box-shadow.)
 
@@ -158,7 +158,7 @@ article {
 }
 ```
 
-[View live example](http://gist.github.com/5259470)
+[View live example](http://code.webplatform.org/gist/5259470)
 
 An example of a multiple box-shadows. The inner shadow appears on all four sides by creating two box-shadows.
 
@@ -178,7 +178,7 @@ An example of a multiple box-shadows. The inner shadow appears on all four sides
 </body>
 ```
 
-[View live example](http://gist.github.com/5259531)
+[View live example](http://code.webplatform.org/gist/5259531)
 
 ## Usage
 

@@ -3,7 +3,7 @@ title: 'max-height'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5070850'
+  - 'http://code.webplatform.org/gist/5070850'
 compatibility:
   feature: max-height
   topic: css
@@ -129,7 +129,7 @@ max-height property overrides the height of an element.
 <p><strong>Other elements</strong> will flow overtop of objects that are overflowed from their max-height containers.</p>
 ```
 
-[View live example](http://gist.github.com/5070850)
+[View live example](http://code.webplatform.org/gist/5070850)
 
 ## Usage
 

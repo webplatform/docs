@@ -131,7 +131,7 @@ You'll notice that the validator has three tabs available across the top of the 
 
 Whichever method you use should give you the same result; it's easiest to test the example page from here by copying the full example code from above and pasting it into the third tab. Doing so should give you the result shown in Figure 1:
 
-![The results of validating the sample document is 11 errors](/assets/public/2/2b/html_validation_errors.png)
+![The results of validating the sample document is 11 errors](//static.webplatform.org/2/2b/html_validation_errors.png)
 
 *Figure 1: The results of validating the sample document — 11 errors!*
 
@@ -146,7 +146,7 @@ This may sound worrying, especially when we tell you that there are **not** 11 e
 
 With these four errors fixed, the remaining seven disappear and the validator now gives a satisfying success message, as shown in Figure 2:
 
-![A success message to say that all my errors have been fixed](/assets/public/2/2a/validatehtml2.gif)
+![A success message to say that all my errors have been fixed](//static.webplatform.org/2/2a/validatehtml2.gif)
 
 *Figure 2: A success message to say that all my errors have been fixed.*
 

@@ -3,8 +3,8 @@ title: 'transition-timing-function'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://letmespellitoutforyou.com/samples/transit_delay.html'
-  - 'http://letmespellitoutforyou.com/samples/transit_timing.html'
+  0: 'http://letmespellitoutforyou.com/samples/transit_delay.html'
+  2: 'http://letmespellitoutforyou.com/samples/transit_timing.html'
 compatibility:
   feature: transition-timing-function
   topic: css

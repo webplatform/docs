@@ -3,7 +3,7 @@ title: 'polyline'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/37caee51f773695efdd4'
+  - 'http://code.webplatform.org/gist/37caee51f773695efdd4'
 compatibility:
   feature: polyline
   topic: svg
@@ -51,7 +51,7 @@ In the following code example, the polyline element is used to draw a gold polyl
 ```
 
 </pre>
-[View live example](http://gist.github.com/37caee51f773695efdd4)
+[View live example](http://code.webplatform.org/gist/37caee51f773695efdd4)
 
 ## Notes
 

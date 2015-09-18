@@ -51,7 +51,7 @@ Un ejemplo típico de un documento HTML se parece a esto:
 
  El código de arriba cuando se muestra en el navegador se parece a esto:
 
-![HTMLrender.png](/assets/public/a/ab/HTMLrender.png)
+![HTMLrender.png](//static.webplatform.org/a/ab/HTMLrender.png)
 
 El documento empieza con el elemento “\<!DOCTYPE html\>”. Esto sirve sobre todo para que el navegador muestre el HTML en el llamado “modo estándar”, para que funcione correctamente. También le permite al software de validación saber con qué versión de HTML validar tu código. No te preocupes mucho acerca de lo que esto significa por ahora. Volveremos a esto más adelante. Lo que puedes ver aquí es el doctype de HTML5.
 

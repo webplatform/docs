@@ -4,7 +4,7 @@ attributions:
   - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/width)'
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5702862'
+  - 'http://code.webplatform.org/gist/5702862'
 compatibility:
   feature: width
   topic: css
@@ -164,7 +164,7 @@ p.fitcontent {
 </div>
 ```
 
-[View live example](http://gist.github.com/5702862)
+[View live example](http://code.webplatform.org/gist/5702862)
 
 ## Usage
 

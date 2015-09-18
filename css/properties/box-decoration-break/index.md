@@ -1,7 +1,7 @@
 ---
 title: 'box-decoration-break'
 code_samples:
-  - 'http://gist.github.com/6363867'
+  - 'http://code.webplatform.org/gist/6363867'
 compatibility:
   feature: box-decoration-break
   topic: css
@@ -91,7 +91,7 @@ This is an example of CSS how you can use box-decoration-break for a given eleme
 }
 ```
 
-[View live example](http://gist.github.com/6363867)
+[View live example](http://code.webplatform.org/gist/6363867)
 
 ## Usage
 

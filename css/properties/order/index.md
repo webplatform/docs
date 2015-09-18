@@ -1,7 +1,7 @@
 ---
 title: 'order'
 code_samples:
-  - 'http://gist.github.com/4741023'
+  - 'http://code.webplatform.org/gist/4741023'
 compatibility:
   feature: order
   topic: css
@@ -82,7 +82,7 @@ Displaying children in custom sequence
 }
 ```
 
-[View live example](http://gist.github.com/4741023)
+[View live example](http://code.webplatform.org/gist/4741023)
 
 The Holy Grail Layout example. Given a source order of article-nav-aside, use order to rearrange these elements as flex items into nav-article-aside
 

@@ -118,7 +118,7 @@ HTML은 문서의 내용과 그 의미를 일반 텍스트로 나타내는 형�
 
  위 코드는 웹 브라우저에서 아래처럼 출력됩니다.
 
-![HTMLrender.png](/assets/public/a/ab/HTMLrender.png)
+![HTMLrender.png](//static.webplatform.org/a/ab/HTMLrender.png)
 
 HTML 문서는 "문서 유형"또는 "DOCTYPE 선언」라는 것으로부터 시작됩니다 (자세한 내용은 Choosing the right doctype for your HTML documents 를 참조하십시오). DOCTYPE 선언은 주로 "표준 모드"라는 것으로 HTML을 잘 렌더링하는 데 도움이 됩니다. 또한 검사기는 모든 HTML 버전 코드를 확인하는 방법을 알 수 있습니다. 현재 이 의미를 몰라도 걱정하지 마십시오. 이봐 설명하고 있습니다. 이 예제에서는 HTML5의 DOCTYPE 선언을 볼 수 있습니다.
 
@@ -148,7 +148,7 @@ Elements can also have attributes, which can modify the behaviour of the element
 
  This looks like so when rendered:
 
-![htmlrender2.png](/assets/public/7/71/htmlrender2.png)
+![htmlrender2.png](//static.webplatform.org/7/71/htmlrender2.png)
 
 In this example a `header` element (used to mark up header sections of documents) contains an `h1` element (first, or most important level header), which in turn contains some text. Part of that text is wrapped in an `abbr` element (used to specify the expansion of abbreviations), which has a `title` attribute, the value of which is set to `Hypertext Markup Language`.
 

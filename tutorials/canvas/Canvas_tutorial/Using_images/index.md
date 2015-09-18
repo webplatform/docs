@@ -87,7 +87,7 @@ Where `image` is a reference to our image or canvas object. `x` and `y` form the
 
 #### drawImage example 1
 
-![basic graph drawn on a canvas](/assets/public/7/7b/Canvas_backdrop.png)
+![basic graph drawn on a canvas](//static.webplatform.org/7/7b/Canvas_backdrop.png)
 
 In the following example I will be using an external image as the backdrop of a small line graph. Using backdrops can make your script considerably smaller because we don't need to draw an elaborate background. I'm only using one image here so I use the image object's `onload` event handler to execute the drawing statements. The `drawImage` method places the backdrop on the coordinate (0,0) which is the top left corner of the canvas.
 
@@ -116,9 +116,9 @@ Where `width` and `height` is the image's size on the target canvas.
 
 #### drawImage example 2
 
-![An image of a rhino wading in water](/assets/public/1/1a/Canvas_rhino.jpg)
+![An image of a rhino wading in water](//static.webplatform.org/1/1a/Canvas_rhino.jpg)
 
-![Wallpaper made from an image of a rhino](/assets/public/8/84/Canvas_scale_image.png)
+![Wallpaper made from an image of a rhino](//static.webplatform.org/8/84/Canvas_scale_image.png)
 
 In this example I'm going to use an image as a wallpaper and repeat it several times on the canvas. This is done simply by looping and placing the scaled images at different positions. In the code below the first `for` loops through the rows the second `for` loop the columns. The image is scaled one third of its original size which is 50x38 pixels. We'll see how this could also have been achieved, by creating a custom pattern, later in this tutorial.
 
@@ -143,7 +143,7 @@ The third and last variant of the `drawImage` method has eight new parameters. W
 
 `drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)`
 
-![Using drawImage to slice parts of an image](/assets/public/8/81/Canvas_drawimage.jpg)
+![Using drawImage to slice parts of an image](//static.webplatform.org/8/81/Canvas_drawimage.jpg)
 
 The first parameter `image`, just as with the other variants, is either a reference to an image object or a reference to a different canvas element. For the other eight parameters it's best to look at the image on the right. The first four parameters define the location and size of the slice on the source image. The last four parameters define the position and size on the destination canvas.
 
@@ -151,13 +151,13 @@ Slicing can be a useful tool when you want to make compositions. You could have 
 
 #### drawImage example 3
 
-![Cropped image of a rhino in a gilt frame](/assets/public/6/63/Canvas_drawimage2.jpg)
+![Cropped image of a rhino in a gilt frame](//static.webplatform.org/6/63/Canvas_drawimage2.jpg)
 
 In this example I'm going to use the same rhino as we've seen above, but now I'm going to slice its head out and composite it into a picture frame. The image of the picture frame includes a dropshadow which has been saved as a 24-bit PNG image. Because 24-bit PNG images include a full 8-bit alpha channel, unlike GIF and 8-bit PNG images, I can place it onto any background and don't have to worry about a matte color.
 
 I took a different approach to the loading of the images than the example above. I just placed the images directly in my HTML document and used a CSS rule to hide them from view (`display:none`). I assigned both images an `id` attribute to make them easier to select. The script itself is very simple. I first draw the sliced and scaled image on the canvas (first `drawImage` statement), and then place the frame on top (second `drawImage` statement).
 
-![An empty gilt picture frame](/assets/public/e/e5/Canvas_picture_frame.png)
+![An empty gilt picture frame](//static.webplatform.org/e/e5/Canvas_picture_frame.png)
 
     function draw() {
       var canvas = document.getElementById('canvas');
@@ -173,7 +173,7 @@ I took a different approach to the loading of the images than the example above.
 
 ## Art gallery example
 
-![A group of four canvas images, each in a frame, on a brown background](/assets/public/3/38/Canvas_art_gallery.jpg)
+![A group of four canvas images, each in a frame, on a brown background](//static.webplatform.org/3/38/Canvas_art_gallery.jpg)
 
 In the final example of this chapter I've made a little art gallery. The gallery consists of a table containing several images. When the page is loaded, for each image in the page a canvas element is inserted and a frame is drawn arround it.
 

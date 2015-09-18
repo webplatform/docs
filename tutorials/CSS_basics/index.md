@@ -212,7 +212,7 @@ Inside this attribute you list all the CSS properties and their values. Each pro
 
 If you open this example in a browser you will see that the paragraph with the `style` attribute is blue with white text and has a different size to the others, as shown in Figure 1.
 
-![Screenshot of the Opera browser showing an applied inline style sheet](/assets/public/7/7c/cssbasic.png)
+![Screenshot of the Opera browser showing an applied inline style sheet](//static.webplatform.org/7/7c/cssbasic.png)
 
 Figure 1: Opera shows the paragraph with the applied inline styles differently to the others.
 
@@ -236,7 +236,7 @@ Embedded styles are placed in the `<head>` of the document inside a `<style>` el
 
 If you open the above link in a browser you’ll see that the defined styles get applied to all the paragraphs in the document, as shown in Figure 2. Also try looking at the example page’s source to see the CSS inside the `head`.
 
-![Screenshot of the Opera browser showing how an embedded style sheet affects a lot of elements](/assets/public/3/39/cssbasid.png)
+![Screenshot of the Opera browser showing how an embedded style sheet affects a lot of elements](//static.webplatform.org/3/39/cssbasid.png)
 
 Figure 2: Opera shows all paragraphs with the styles defined in the embedded style sheet.
 
@@ -250,7 +250,7 @@ External style sheets means putting all your CSS definitions in their own file, 
 
 We’ve talked about the `<link>` element before in this course. Just to recap: the `href` attribute points to the CSS file, the `media` attribute defines which media should get these styles applied to it (`screen` in this case as we don’t want a printout to look like this) and the `type` defines what the linked resource is (a file extension is not enough to determine that).
 
-![Screenshot of the Opera browser showing how an external style sheet affects a lot of elements](/assets/public/1/1b/cssbasie.png)
+![Screenshot of the Opera browser showing how an external style sheet affects a lot of elements](//static.webplatform.org/1/1b/cssbasie.png)
 
 Figure 3: Opera shows the styles defined in the external style sheet when it is linked with a link element.
 

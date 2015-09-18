@@ -3,8 +3,8 @@ title: 'width'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/7283238'
-  - 'https://gist.github.com/dbe042fac0e620a8f2b4'
+  - 'http://code.webplatform.org/gist/7283238'
+  - 'https://code.webplatform.org/gist/dbe042fac0e620a8f2b4'
 compatibility:
   feature: width
   topic: html
@@ -47,7 +47,7 @@ Width values must be non-negative integers.
 <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" height="100" width="150">
 ```
 
-[View live example](http://gist.github.com/7283238)
+[View live example](http://code.webplatform.org/gist/7283238)
 
 \<canvas\> with width attribute
 
@@ -55,7 +55,7 @@ Width values must be non-negative integers.
 <canvas width="200" height="200"></canvas>
 ```
 
-[View live example](https://gist.github.com/dbe042fac0e620a8f2b4)
+[View live example](https://code.webplatform.org/gist/dbe042fac0e620a8f2b4)
 
 ## Related specifications
 

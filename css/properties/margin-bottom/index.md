@@ -3,7 +3,7 @@ title: 'margin-bottom'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/ms530802(v=vs.85).aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5727822'
+  - 'http://code.webplatform.org/gist/5727822'
 compatibility:
   feature: margin-bottom
   topic: css
@@ -90,7 +90,7 @@ In this example there are three blocks, styled identically except for their `mar
 <div class="three"></div>
 ```
 
-[View live example](http://gist.github.com/5727822)
+[View live example](http://code.webplatform.org/gist/5727822)
 
 CSS applied to the HTML shown in the first example.
 
@@ -126,7 +126,7 @@ div {
 }
 ```
 
-[View live example](http://gist.github.com/5727822)
+[View live example](http://code.webplatform.org/gist/5727822)
 
 ## Usage
 

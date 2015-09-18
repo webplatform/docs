@@ -3,7 +3,7 @@ title: 'word-spacing'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5671391'
+  - 'http://code.webplatform.org/gist/5671391'
 compatibility:
   feature: word-spacing
   topic: css
@@ -84,7 +84,7 @@ The following example shows how to use the **word-spacing** attribute and the **
 <p class="neg">This is a simple paragraph withe a altered word-spacing value by -0.1em</p>
 ```
 
-[View live example](http://gist.github.com/5671391)
+[View live example](http://code.webplatform.org/gist/5671391)
 
 ``` css
 p {

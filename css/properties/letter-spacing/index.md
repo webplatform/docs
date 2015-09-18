@@ -3,7 +3,7 @@ title: 'letter-spacing'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5671141'
+  - 'http://code.webplatform.org/gist/5671141'
 compatibility:
   feature: letter-spacing
   topic: css
@@ -80,7 +80,7 @@ A selection of examples showing some typical uses of the letter-spacing property
 <p class="neg">This is a simple paragraph withe a altered letter-spacing value by -0.1em</p>
 ```
 
-[View live example](http://gist.github.com/5671141)
+[View live example](http://code.webplatform.org/gist/5671141)
 
 ``` css
 p {

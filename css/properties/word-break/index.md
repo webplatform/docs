@@ -3,7 +3,7 @@ title: 'word-break'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/6392109'
+  - 'http://code.webplatform.org/gist/6392109'
 compatibility:
   feature: word-break
   topic: css
@@ -88,7 +88,7 @@ A simple example showing multiple `<div>`s, identical in style except that they 
 </div>
 ```
 
-[View live example](http://gist.github.com/6392109)
+[View live example](http://code.webplatform.org/gist/6392109)
 
 ``` css
 div {
@@ -109,7 +109,7 @@ div {
 }
 ```
 
-[View live example](http://gist.github.com/6392109)
+[View live example](http://code.webplatform.org/gist/6392109)
 
 ## Notes
 

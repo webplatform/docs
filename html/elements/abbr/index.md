@@ -1,7 +1,7 @@
 ---
 title: 'abbr'
 code_samples:
-  - 'http://gist.github.com/939206'
+  - 'http://code.webplatform.org/gist/939206'
 compatibility:
   feature: abbr
   topic: html
@@ -48,7 +48,7 @@ United States is located in Washington,
 <abbr title="District of Columbia">D.C.</abbr>.</p>
 ```
 
-[View live example](http://gist.github.com/939206)
+[View live example](http://code.webplatform.org/gist/939206)
 
 Linking an abbreviation to its definition
 

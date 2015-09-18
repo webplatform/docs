@@ -1,7 +1,7 @@
 ---
 title: 'perspective'
 code_samples:
-  - 'http://gist.github.com/7086839'
+  - 'http://code.webplatform.org/gist/7086839'
 compatibility:
   feature: perspective
   topic: css
@@ -106,7 +106,7 @@ The following example shows the difference with transforms, where the first imag
 </html>
 ```
 
-[View live example](http://gist.github.com/7086839)
+[View live example](http://code.webplatform.org/gist/7086839)
 
 ## Related specifications
 

@@ -81,7 +81,7 @@ Let’s step through the process of creating this site.
 
 The final result should be something similar to Figure 1:
 
-![Screenshot of main page](/assets/public/8/86/mainpage.png)
+![Screenshot of main page](//static.webplatform.org/8/86/mainpage.png)
 
 Figure 1: The finished main page.
 
@@ -161,7 +161,7 @@ For the sake of the example, we will just create the sponge cake recipe page —
 
 The page should look something like Figure 2:
 
-![Screenshot showing the recipe page](/assets/public/0/0c/recipepa.png)
+![Screenshot showing the recipe page](//static.webplatform.org/0/0c/recipepa.png)
 
 Figure 2: The finished recipe page.
 

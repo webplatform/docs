@@ -1,7 +1,7 @@
 ---
 title: 'calc'
 code_samples:
-  - 'http://gist.github.com/d3322a08edaaaef9adaf'
+  - 'http://code.webplatform.org/gist/d3322a08edaaaef9adaf'
 compatibility:
   feature: calc
   topic: css
@@ -45,7 +45,7 @@ This is an example of how can you use **calc** in CSS
 }
 ```
 
-[View live example](http://gist.github.com/d3322a08edaaaef9adaf)
+[View live example](http://code.webplatform.org/gist/d3322a08edaaaef9adaf)
 
 ## Notes
 

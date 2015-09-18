@@ -20,7 +20,7 @@ Two CSS properties make this feature work. The [**flow-into**](/css/properties/f
 
 The following shows a complex layout featuring a series of regions, with a named flow's content threading through regions **1** through **4**, which form a chain. A separate named flow is assigned to the single-element region chain labeled **A**:
 
-![regions.png](/assets/thumb/3/38/regions.png/400px-regions.png)
+![regions.png](//static.webplatform.org/thumb/3/38/regions.png/400px-regions.png)
 
 There can be more than one **named flow** in a document. Each named flow can accumulate content from more than one element via the [**flow-into**](/css/properties/flow-into) property, but they do so according to the order in which they appear in the document. Use the [**NamedFlow**](/apis/css-regions/NamedFlow) interface to programatically access the named flow's content.
 

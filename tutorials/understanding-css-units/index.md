@@ -204,7 +204,7 @@ With the advent of higher density screens, we are seeing devices with 2 device p
 </html>
 ```
 
-![Screenshot of a testcase showing that 96px wide blocks are the same visual size as one-inch wide blocks](/assets/public/1/18/css-units-px-and-inch.png)
+![Screenshot of a testcase showing that 96px wide blocks are the same visual size as one-inch wide blocks](//static.webplatform.org/1/18/css-units-px-and-inch.png)
 
 *Figure 1: Rendering in OSX Safari*
 

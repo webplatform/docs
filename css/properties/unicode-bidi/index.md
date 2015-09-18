@@ -3,7 +3,7 @@ title: 'unicode-bidi'
 attributions:
   - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
-  - 'http://gist.github.com/5708639'
+  - 'http://code.webplatform.org/gist/5708639'
 compatibility:
   feature: unicode-bidi
   topic: css
@@ -80,7 +80,7 @@ A simple example showing multiple \<p\>s, that they have different unicode-bidi 
 <p class="rtl" id="bidi">Sets the bidi-override as the value of unicode-bidi property.</p>
 ```
 
-[View live example](http://gist.github.com/5708639)
+[View live example](http://code.webplatform.org/gist/5708639)
 
 ``` css
 p {

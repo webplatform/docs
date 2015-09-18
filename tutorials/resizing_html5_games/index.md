@@ -21,7 +21,7 @@ A case study on automatically resizing HTML5 games for desktop or mobile devices
 <h2>Introduction</h2>
 <p>In the summer of 2010, we created Sand Trap, a game that we entered in a competition on HTML5 games for mobile phones. But most mobile phones either displayed only part of the game or made the game too small—making it completely unplayable. So we took it upon ourselves to make the game fluidly adjust to match any resolution. After a bit of re-programming and using ideas outlined in this article, we had a game that scaled across any modern browser, whether it ran in a desktop or a mobile device.
 </p><p> <br/><i>Thwack!! full screen (left); Thwack!! smaller in browser window (right)</i>
-<img alt="ar01-image04.png" src="/assets/public/b/bf/ar01-image04.png" width="288" height="216"/><img alt="ar02-image01.png" src="/assets/public/0/00/ar02-image01.png" width="288" height="185"/></p><p>This approach worked well for Sand Trap, so we used the same method on our latest game, "Thwack!!". The game automatically adjusts screen resolutions to fit both full-screen and custom-sized windows, as shown in the screenshots below.
+<img alt="ar01-image04.png" src="//static.webplatform.org/b/bf/ar01-image04.png" width="288" height="216"/><img alt="ar02-image01.png" src="//static.webplatform.org/0/00/ar02-image01.png" width="288" height="185"/></p><p>This approach worked well for Sand Trap, so we used the same method on our latest game, "Thwack!!". The game automatically adjusts screen resolutions to fit both full-screen and custom-sized windows, as shown in the screenshots below.
 </p><p>Implementing this required taking advantage of both CSS and JavaScript. Using CSS to fill the whole screen is trivial, but CSS does not allow you to maintain the same width-to-height ratio to prevent stretching of the canvas and game area. That's where JavaScript comes in. You can rescale document elements with JavaScript and trigger the resize on window events.
 </p>
 <h2>Preparing the Page</h2>
@@ -47,9 +47,9 @@ A case study on automatically resizing HTML5 games for desktop or mobile devices
 </p><p>Since the game area is automatically resized according to the dimensions of the window, you do not want the dimensions in pixels for the gameArea div block’s child elements; instead, you want it in percentages. Pixel values do not allow inner elements to scale with the parent div as it changes. However, it may be helpful to start with pixels and then convert them to percentages once you have a layout that you like.
 </p><p>For this example, start with the game area being 300 pixels tall and 400 pixels wide. The canvas covers the entire game area, and a semitransparent stats panel runs along the bottom at 24 pixels tall, as shown in Figure 1.
 </p><p><br/><i>Figure 1: Dimensions of gameArea child elements in pixels</i>
-<img alt="ar03-image00.png" src="/assets/public/8/8e/ar03-image00.png" width="482" height="325"/></p><p>Translating these values to percentages makes the canvas 100% in width and 100% in height (of gameArea, not the window). Dividing 24 by 300 gives the height of the stats panel at 8%, and, since it will cover the bottom of the game area, it’s width will also be 100%, as seen in Figure 2.
+<img alt="ar03-image00.png" src="//static.webplatform.org/8/8e/ar03-image00.png" width="482" height="325"/></p><p>Translating these values to percentages makes the canvas 100% in width and 100% in height (of gameArea, not the window). Dividing 24 by 300 gives the height of the stats panel at 8%, and, since it will cover the bottom of the game area, it’s width will also be 100%, as seen in Figure 2.
 </p><p><br/><i>Figure 2: Dimensions of gameArea child elements in percentages</i>
-<img alt="ar04-image03.png" src="/assets/public/d/d1/ar04-image03.png" width="482" height="325"/></p><p>Now that you have determined the dimensions of the game area and its child elements, you can put together the CSS properties for the two inside elements as follows:
+<img alt="ar04-image03.png" src="//static.webplatform.org/d/d1/ar04-image03.png" width="482" height="325"/></p><p>Now that you have determined the dimensions of the game area and its child elements, you can put together the CSS properties for the two inside elements as follows:
 </p>
 <pre>
  #gameCanvas {
@@ -90,7 +90,7 @@ A case study on automatically resizing HTML5 games for desktop or mobile devices
 </pre>
 <p>This allows you to decide whether to make the game fill the screen vertically or horizontally, as shown in Figure 3.
 </p><p><br/><i>Figure 3: Fitting the gameArea element to the window while maintaining aspect ratio</i>
-<img alt="ar05-image02.png" src="/assets/public/2/22/ar05-image02.png" width="592" height="283"/></p><p>If the desired game area shape is wider than the window’s shape (and height is shorter), you need to fill up the window horizontally and leave margins along the top and bottom. Likewise, if the desired game area shape is higher than the window’s shape (and the width is narrower), you need to fill up the window vertically and leave margins along the left and right.
+<img alt="ar05-image02.png" src="//static.webplatform.org/2/22/ar05-image02.png" width="592" height="283"/></p><p>If the desired game area shape is wider than the window’s shape (and height is shorter), you need to fill up the window horizontally and leave margins along the top and bottom. Likewise, if the desired game area shape is higher than the window’s shape (and the width is narrower), you need to fill up the window vertically and leave margins along the left and right.
 </p><p>To do this, test your desired ratio of width to height with the current window’s ratio of width to height and make the appropriate adjustments as follows:
 </p>
 <pre>

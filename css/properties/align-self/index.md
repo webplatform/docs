@@ -1,7 +1,7 @@
 ---
 title: 'align-self'
 code_samples:
-  - 'http://gist.github.com/4745364'
+  - 'http://code.webplatform.org/gist/4745364'
 compatibility:
   feature: align-self
   topic: css
@@ -106,7 +106,7 @@ Displaying children with custom alignment.
 }
 ```
 
-[View live example](http://gist.github.com/4745364)
+[View live example](http://code.webplatform.org/gist/4745364)
 
 ## Notes
 

@@ -1,9 +1,9 @@
 ---
 title: 'flex-wrap'
 code_samples:
-  - 'http://gist.github.com/4740662'
-  - 'http://gist.github.com/4740667'
-  - 'http://gist.github.com/4740670'
+  - 'http://code.webplatform.org/gist/4740662'
+  - 'http://code.webplatform.org/gist/4740667'
+  - 'http://code.webplatform.org/gist/4740670'
 compatibility:
   feature: flex-wrap
   topic: css
@@ -85,7 +85,7 @@ Displaying children in a non-wrapping row
 }
 ```
 
-[View live example](http://gist.github.com/4740662)
+[View live example](http://code.webplatform.org/gist/4740662)
 
 Displaying children in a row wrapping to the next line
 
@@ -100,7 +100,7 @@ Displaying children in a row wrapping to the next line
 }
 ```
 
-[View live example](http://gist.github.com/4740667)
+[View live example](http://code.webplatform.org/gist/4740667)
 
 Displaying children in a row wrapping to the previous line
 
@@ -115,7 +115,7 @@ Displaying children in a row wrapping to the previous line
 }
 ```
 
-[View live example](http://gist.github.com/4740670)
+[View live example](http://code.webplatform.org/gist/4740670)
 
 ## Related specifications
 

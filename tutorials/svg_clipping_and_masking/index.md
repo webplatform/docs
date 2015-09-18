@@ -41,7 +41,7 @@ Centered at (100,100), a circle with radius 100 is painted. The attribute `clip-
 
 The `rect` will not be painted, however. Instead, its pixel data will be used to determine which pixels of the circle "make it" to the final rendering. Since the rectangle covers only the upper half of the circle, the lower half of the circle will vanish:
 
-![clipdemo.png](/assets/public/1/1a/clipdemo.png)
+![clipdemo.png](//static.webplatform.org/1/1a/clipdemo.png)
 
 We now have a semicircle without having to deal with arcs in path elements. For the clipping, every path inside the `clipPath` is inspected and evaluated together with its stroke properties and transformation. Then every part of the target lying in a transparent area of the resulting `clipPath`'s content will not rendered. Color, opacity and such have no effect as long as they don't let parts vanish completely.
 
@@ -66,7 +66,7 @@ The effect of masking is most impressively presented with a gradient. If you wan
 
 You see a green-filled `rect` at the lowest layer and on top a red-filled `rect`. The latter has the `mask` attribute pointing to the `mask` element. The content of the mask is a single `rect` element, that is filled with a transparent-to-white gradient. As a result the pixels of the red rectangle inherit the alpha value (the transparency) of the mask content, and we see a green-to-left gradient as a result:
 
-![maskdemo.png](/assets/public/e/ec/maskdemo.png)
+![maskdemo.png](//static.webplatform.org/e/ec/maskdemo.png)
 
 ### Transparency with opacity
 
@@ -79,7 +79,7 @@ The above rectangle will be painted half-transparent. For the fill and stroke, t
     <rect x="0" y="0" width="200" height="200" fill="blue" />
     <circle cx="100" cy="100" r="50" stroke="yellow" stroke-width="40" stroke-opacity=".5" fill="red" />
 
-![opacitydemo.png](/assets/public/3/3e/opacitydemo.png)
+![opacitydemo.png](//static.webplatform.org/3/3e/opacitydemo.png)
 
 You see in this example the red circle on blue background. The yellow stroke is set to 50% opacity, which effectively leads to a double-color stroke.
 

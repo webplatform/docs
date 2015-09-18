@@ -57,7 +57,7 @@ Adding an image to an HTML document is very easy using the `<img>` element: you 
 
  If you run this code in a browser, you'll get output like this:
 
-![the image displayed in a browser](/assets/public/8/83/images-f.jpg)
+![the image displayed in a browser](//static.webplatform.org/8/83/images-f.jpg)
 
 *Figure 1: The image as it is shown in a browser.*
 
@@ -108,7 +108,7 @@ Most browsers display the value of an `<img>` element's `title` attribute as a t
 
  This code will display like this:
 
-![title attribute contents shown as a tool tip](/assets/public/7/7c/images-g.jpg)
+![title attribute contents shown as a tool tip](//static.webplatform.org/7/7c/images-g.jpg)
 
 *Figure 2: `title` attributes are shown as tool tips in many browsers.*
 
@@ -167,7 +167,7 @@ This attribute contains a URL that points to an HTML document containing the sam
 
  The two different data representations side-by-side look like this:
 
-![A document next to its longdesc output](/assets/public/f/f5/images-h.jpg)
+![A document next to its longdesc output](//static.webplatform.org/f/f5/images-h.jpg)
 
 *Figure 3: A document with complex data linked to an image using the `longdesc` attribute.*
 
@@ -263,7 +263,7 @@ CSS also means you can use background images in a very versatile way — you can
 
 The CSS to apply images as backgrounds is fairly straightforward. Before you look at the CSS code below, have a look at this multiple example to get an idea of the different things that are possible with background images in CSS:
 
-![CSS background examples](/assets/public/e/ea/images-f.gif)
+![CSS background examples](//static.webplatform.org/e/ea/images-f.gif)
 
 *Figure 4: Backgrounds with CSS.*
 

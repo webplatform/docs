@@ -517,7 +517,7 @@ The demo in [this article](http://www.html5rocks.com/en/tutorials/file/filesyste
 
 The HTML5 Terminal shell replicates some of the common operations in a UNIX filesystem (such as `cd`, `mkdir`, `rm`, `open`, and `cat`) by abstracting the FileSystem API. To add content, open the app, then drag and drop files from your desktop onto the terminal window. (Click the image caption to open the terminal.)
 
-[*Click here to open the HTML5 Terminal*](http://www.htmlfivewow.com/demos/terminal/terminal.html) ![xterminal2b.jpg](/assets/public/5/5b/xterminal2b.jpg)
+[*Click here to open the HTML5 Terminal*](http://www.htmlfivewow.com/demos/terminal/terminal.html) ![xterminal2b.jpg](//static.webplatform.org/5/5b/xterminal2b.jpg)
 
 ## Use Cases
 

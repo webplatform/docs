@@ -1,7 +1,7 @@
 ---
 title: 'clip-path'
 code_samples:
-  - 'http://gist.github.com/6338479'
+  - 'http://code.webplatform.org/gist/6338479'
 compatibility:
   feature: clip-path
   topic: css
@@ -129,7 +129,7 @@ img.clipped-text {
 }
 ```
 
-[View live example](http://gist.github.com/6338479)
+[View live example](http://code.webplatform.org/gist/6338479)
 
 The three images that are clipped. The first one (`img.original`) is the original logo. The second one (`img.clipped-icon`) is clipped with a circle and the third one (`img.clipped-text`) is clipped with an ellipse.
 
