@@ -1,3 +1,6 @@
+---
+title: Contribute To Web Platform Docs
+---
 # Contribute To Web Platform Docs
 
 Web Platform Docs are only as good as our contributors make them. And anyone can be a contributor. Interested? Here's how to get involved.

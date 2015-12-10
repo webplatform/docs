@@ -16,27 +16,15 @@ tags:
 uri: svg/attributes/stroke-dashoffset
 
 ---
-<table class="wikitable">
-<tr>
-<th>
-Applies to
 
-</th>
-<td>
- ?
+### Syntax
 
-</td>
-</tr>
-</table>
-## Notes
+    stroke-dashoffset:  percentage | length | inherit
 
 ### Remarks
 
 Values can be negative.
 
-### Syntax
-
-    stroke-dashoffset:  percentage | length | inherit
 
 ### Standards information
 

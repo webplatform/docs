@@ -2,6 +2,12 @@
 title: 'Track ended'
 notes:
   - 'Everything. Passed by and did some cleaning, there were garbage.'
+overview_table:
+  Synchronous: 'No'
+  Bubbles: 'No'
+  Target: "\_?"
+  Cancelable: 'No'
+  'Default action': "\_?"
 readiness: 'Not Ready'
 summary: 'All tracks of the MediaStream object have ended; the MediaStream is said to be finished.'
 tags:
